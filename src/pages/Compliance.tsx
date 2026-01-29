@@ -1,6 +1,7 @@
 import { Layout } from '@/components/layout/Layout';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { Shield, FileCheck, Clock, Lock } from 'lucide-react';
+import { useLocale } from '@/hooks/useLocale';
 
 const complianceFeatures = [
   { icon: Lock, title: 'Immutable Records', description: 'Once created, invoice records cannot be altered or deleted, ensuring complete data integrity for audits.' },
@@ -10,15 +11,21 @@ const complianceFeatures = [
 ];
 
 const Compliance = () => {
+  const { locale } = useLocale();
+  const { compliance } = locale.content;
+
   return (
     <Layout>
       <section className="py-20 lg:py-32 bg-gradient-to-b from-background to-accent/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
-            <p className="text-primary font-medium mb-2">Compliance</p>
+            <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
+              {compliance.authority}-Compliant
+            </span>
             <h1 className="text-h1 text-heading mb-4">Built for Audit-Ready Confidence</h1>
             <p className="text-body-lg text-muted-foreground">
-              Invoicemonk maintains immutable records and comprehensive audit trails, so you're always prepared for regulatory review.
+              {compliance.message}. Invoicemonk maintains immutable records and comprehensive audit trails, 
+              so you're always prepared for regulatory review.
             </p>
           </AnimatedSection>
 

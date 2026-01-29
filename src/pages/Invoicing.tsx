@@ -7,6 +7,7 @@ import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
 import { WaveTestimonials } from '@/components/home/WaveTestimonials';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { useLocale } from '@/hooks/useLocale';
 
 const features = [
   {
@@ -58,6 +59,14 @@ const complianceFeatures = [
 ];
 
 const Invoicing = () => {
+  const { locale, formatCurrency } = useLocale();
+  const { compliance } = locale.content;
+
+  // Use locale-based amounts
+  const serviceAmount = locale.pricing.business * 50; // e.g., $2,000 for US
+  const hostingAmount = locale.pricing.starter * 50; // e.g., $450 for US
+  const totalAmount = serviceAmount + hostingAmount;
+
   return (
     <Layout>
       {/* Hero Section - Wave style with split layout */}
@@ -162,17 +171,17 @@ const Invoicing = () => {
                 <div className="space-y-3 mb-4 pb-4 border-b border-border">
                   <div className="flex justify-between text-body-sm">
                     <span className="text-muted-foreground">Web Design Services</span>
-                    <span className="text-foreground font-medium">$2,000.00</span>
+                    <span className="text-foreground font-medium">{formatCurrency(serviceAmount)}</span>
                   </div>
                   <div className="flex justify-between text-body-sm">
                     <span className="text-muted-foreground">Annual Hosting</span>
-                    <span className="text-foreground font-medium">$450.00</span>
+                    <span className="text-foreground font-medium">{formatCurrency(hostingAmount)}</span>
                   </div>
                 </div>
                 
                 <div className="flex items-center justify-between">
                   <span className="text-body-sm text-muted-foreground">Total</span>
-                  <span className="text-h3 font-bold text-heading">$2,450.00</span>
+                  <span className="text-h3 font-bold text-heading">{formatCurrency(totalAmount)}</span>
                 </div>
               </div>
 
@@ -246,7 +255,7 @@ const Invoicing = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <AnimatedSection>
                 <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
-                  Compliance Built-In
+                  {compliance.authority}-Compliant
                 </span>
                 <h2 className="text-h2 text-heading mb-6">
                   Audit-ready from{' '}

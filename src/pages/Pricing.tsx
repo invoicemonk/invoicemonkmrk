@@ -4,38 +4,7 @@ import { Check, Shield, ArrowRight } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
-
-const plans = [
-  {
-    name: 'Free',
-    price: { monthly: 0, annual: 0 },
-    description: 'For getting started',
-    features: ['Up to 5 invoices/month', 'Basic templates', 'Email support', 'Payment tracking'],
-    cta: 'Get Started',
-    popular: false,
-    compliance: false,
-  },
-  {
-    name: 'Pro',
-    price: { monthly: 19, annual: 15 },
-    description: 'For growing businesses',
-    features: ['Unlimited invoices', 'Immutable records', 'Full audit trails', 'Recurring invoices', 'Priority support', 'Custom branding', 'Invoice verification'],
-    cta: 'Start Free Trial',
-    popular: true,
-    badge: 'Most Popular',
-    compliance: true,
-  },
-  {
-    name: 'Business',
-    price: { monthly: 49, annual: 39 },
-    description: 'For teams and enterprises',
-    features: ['Everything in Pro', 'Multi-user access', 'Org-wide audit logs', 'Role-based access', 'API access', 'Dedicated support', 'Custom integrations'],
-    cta: 'Contact Sales',
-    popular: false,
-    badge: 'Enterprise',
-    compliance: true,
-  },
-];
+import { useLocale } from '@/hooks/useLocale';
 
 const faqs = [
   {
@@ -58,6 +27,46 @@ const faqs = [
 
 const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState(true);
+  const { locale, formatCurrency } = useLocale();
+  const { pricing } = locale;
+
+  // Calculate annual prices (20% discount)
+  const getPrice = (tier: 'starter' | 'pro' | 'business', annual: boolean) => {
+    const basePrice = pricing[tier];
+    return annual ? Math.round(basePrice * 0.8) : basePrice;
+  };
+
+  const plans = [
+    {
+      name: 'Free',
+      price: { monthly: 0, annual: 0 },
+      description: 'For getting started',
+      features: ['Up to 5 invoices/month', 'Basic templates', 'Email support', 'Payment tracking'],
+      cta: 'Get Started',
+      popular: false,
+      compliance: false,
+    },
+    {
+      name: 'Pro',
+      price: { monthly: pricing.pro, annual: getPrice('pro', true) },
+      description: 'For growing businesses',
+      features: ['Unlimited invoices', 'Immutable records', 'Full audit trails', 'Recurring invoices', 'Priority support', 'Custom branding', 'Invoice verification'],
+      cta: 'Start Free Trial',
+      popular: true,
+      badge: 'Most Popular',
+      compliance: true,
+    },
+    {
+      name: 'Business',
+      price: { monthly: pricing.business, annual: getPrice('business', true) },
+      description: 'For teams and enterprises',
+      features: ['Everything in Pro', 'Multi-user access', 'Org-wide audit logs', 'Role-based access', 'API access', 'Dedicated support', 'Custom integrations'],
+      cta: 'Contact Sales',
+      popular: false,
+      badge: 'Enterprise',
+      compliance: true,
+    },
+  ];
 
   return (
     <Layout>
@@ -128,7 +137,7 @@ const Pricing = () => {
                   
                   <div className="text-center mb-8">
                     <span className="text-display text-heading">
-                      ${isAnnual ? plan.price.annual : plan.price.monthly}
+                      {formatCurrency(isAnnual ? plan.price.annual : plan.price.monthly)}
                     </span>
                     <span className="text-body text-muted-foreground">/month</span>
                     {isAnnual && plan.price.annual > 0 && (
