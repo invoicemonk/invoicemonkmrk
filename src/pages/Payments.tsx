@@ -5,6 +5,7 @@ import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { useLocale } from '@/hooks/useLocale';
 
 const plannedFeatures = [
   {
@@ -37,6 +38,14 @@ const bannerFeatures = [
 ];
 
 const Payments = () => {
+  const { locale, formatCurrency } = useLocale();
+  
+  // Calculate locale-aware amounts
+  const invoiceAmount = locale.pricing.business * 50 + locale.pricing.starter * 50; // Same as invoice page total
+  const processingFee = Math.round(invoiceAmount * 0.029 * 100) / 100; // 2.9% fee
+  const netAmount = invoiceAmount - processingFee;
+  const feePercent = '2.9%';
+
   return (
     <Layout>
       {/* Hero Section - Wave style */}
@@ -136,7 +145,7 @@ const Payments = () => {
                 
                 <div className="bg-muted/50 rounded-xl p-6 text-center mb-6">
                   <div className="text-caption text-muted-foreground mb-1">Amount Paid</div>
-                  <div className="text-display font-bold text-heading">$2,450.00</div>
+                  <div className="text-display font-bold text-heading">{formatCurrency(invoiceAmount)}</div>
                 </div>
                 
                 <div className="space-y-3 text-body-sm">
@@ -146,11 +155,11 @@ const Payments = () => {
                   </div>
                   <div className="flex justify-between py-2 border-b border-border">
                     <span className="text-muted-foreground">Processing Fee</span>
-                    <span className="text-foreground font-medium">$73.50 (2.9%)</span>
+                    <span className="text-foreground font-medium">{formatCurrency(processingFee)} ({feePercent})</span>
                   </div>
                   <div className="flex justify-between py-2">
                     <span className="text-muted-foreground">Net Amount</span>
-                    <span className="text-wave-green font-semibold">$2,376.50</span>
+                    <span className="text-wave-green font-semibold">{formatCurrency(netAmount)}</span>
                   </div>
                 </div>
               </div>
