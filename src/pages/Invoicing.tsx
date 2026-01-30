@@ -1,44 +1,33 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FileText, Check, ArrowRight, Send, Clock, Globe, Users, Shield, Repeat } from 'lucide-react';
+import { FileText, Check, ArrowRight, Send, Clock, Globe, Users, Shield, Repeat, Smartphone, Bell, Zap } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
-import { WaveTestimonials } from '@/components/home/WaveTestimonials';
+import { WaveTabbedFeature } from '@/components/home/WaveTabbedFeature';
+import { WaveAlternatingFeature } from '@/components/home/WaveAlternatingFeature';
+import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimonial';
+import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
+import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 
-const features = [
+const quickFeatures = [
   {
     icon: FileText,
-    title: 'Professional Templates',
-    description: 'Choose from beautiful, customizable invoice templates that reflect your brand. Add your logo, colors, and payment terms.',
-  },
-  {
-    icon: Repeat,
-    title: 'Recurring Invoices',
-    description: 'Set up automatic invoicing for retainer clients. Schedule, customize, and forget — invoices go out on time, every time.',
-  },
-  {
-    icon: Send,
-    title: 'Automatic Reminders',
-    description: 'Never chase payments manually. Set up smart reminder sequences that follow up on overdue invoices automatically.',
-  },
-  {
-    icon: Globe,
-    title: 'Multi-Currency Support',
-    description: 'Invoice clients worldwide in their preferred currency. Automatic exchange rate updates and clear conversion displays.',
+    title: 'Create quickly',
+    description: 'Build professional invoices in minutes with customizable templates.',
   },
   {
     icon: Users,
-    title: 'Client Portal',
-    description: 'Give clients a branded portal to view invoices, make payments, and access their complete invoice history.',
+    title: 'Stay organized',
+    description: 'Keep all client information and invoice history in one place.',
   },
   {
     icon: Clock,
-    title: 'Payment Tracking',
-    description: 'Real-time status updates on every invoice. Know instantly when invoices are viewed, paid, or overdue.',
+    title: 'Reduce bookkeeping',
+    description: 'Automatic tracking and reports save hours every month.',
   },
 ];
 
@@ -47,6 +36,42 @@ const bannerFeatures = [
   'Get paid faster with payment links',
   'Automatic overdue reminders',
   'Complete audit trail for compliance',
+];
+
+const tabbedFeatures = [
+  {
+    label: 'Customer Info',
+    title: 'Access your customer information in one place',
+    description: 'Keep all your client details, communication history, and payment preferences organized. No more searching through emails or spreadsheets — everything you need is at your fingertips.',
+  },
+  {
+    label: 'Track Payments',
+    title: 'Track payments and communications effortlessly',
+    description: 'See real-time status updates on every invoice. Know instantly when invoices are viewed, paid, or overdue. Follow up at the right time with full context.',
+  },
+  {
+    label: 'Recurring Billing',
+    title: 'Set up recurring billing for repeat customers',
+    description: 'Stop creating the same invoices every month. Set up automatic invoicing for retainer clients and subscription services — invoices go out on time, every time.',
+  },
+];
+
+const getPaidFasterFeatures = [
+  {
+    icon: Smartphone,
+    title: 'Invoice on-the-go',
+    description: 'Create and send invoices from anywhere using our mobile-friendly platform.',
+  },
+  {
+    icon: Bell,
+    title: 'Get instant notifications',
+    description: 'Know the moment your client views or pays your invoice.',
+  },
+  {
+    icon: Zap,
+    title: 'Automatic reminders',
+    description: 'Set up smart reminder sequences that follow up on overdue invoices automatically.',
+  },
 ];
 
 const complianceFeatures = [
@@ -58,18 +83,44 @@ const complianceFeatures = [
   'Cryptographic proof of document authenticity',
 ];
 
+const invoicingFAQs = [
+  {
+    question: 'Is Invoicemonk really free?',
+    answer: 'Yes! Our core invoicing features are completely free with no credit card required. You can send unlimited invoices, track payments, and manage clients at no cost. Premium features like advanced analytics and custom branding are available on paid plans.',
+  },
+  {
+    question: 'How do I get paid faster with Invoicemonk?',
+    answer: 'Invoicemonk helps you get paid faster through several features: payment links that let clients pay online instantly, automatic payment reminders for overdue invoices, and professional templates that build trust with your clients.',
+  },
+  {
+    question: 'Can I customize my invoices with my logo and brand colors?',
+    answer: 'Absolutely! You can add your business logo, customize colors to match your brand, and choose from multiple professional templates. Your invoices will look like they came from an established business.',
+  },
+  {
+    question: 'How does the audit trail feature work?',
+    answer: 'Every action on your invoices is automatically logged with timestamps and user information. This includes when invoices are created, sent, viewed by clients, and paid. All records are immutable and can be exported for auditors.',
+  },
+  {
+    question: 'Can I send invoices in different currencies?',
+    answer: 'Yes, Invoicemonk supports multi-currency invoicing. You can invoice clients in their preferred currency, and exchange rates are automatically updated for accurate conversions.',
+  },
+  {
+    question: 'What payment methods can my clients use?',
+    answer: 'When our payments feature launches, clients will be able to pay via credit card, debit card, bank transfer, and popular digital wallets. For now, you can include your payment details on invoices for manual payments.',
+  },
+];
+
 const Invoicing = () => {
   const { locale, formatCurrency } = useLocale();
   const { compliance } = locale.content;
 
-  // Use locale-based amounts
-  const serviceAmount = locale.pricing.business * 50; // e.g., $2,000 for US
-  const hostingAmount = locale.pricing.starter * 50; // e.g., $450 for US
+  const serviceAmount = locale.pricing.business * 50;
+  const hostingAmount = locale.pricing.starter * 50;
   const totalAmount = serviceAmount + hostingAmount;
 
   return (
     <Layout>
-      {/* Hero Section - Wave style with split layout */}
+      {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
@@ -77,7 +128,6 @@ const Invoicing = () => {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left - Content */}
             <div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -145,7 +195,6 @@ const Invoicing = () => {
               </motion.p>
             </div>
 
-            {/* Right - Product Mockup */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
@@ -185,7 +234,6 @@ const Invoicing = () => {
                 </div>
               </div>
 
-              {/* Floating notification */}
               <motion.div
                 animate={{ y: [-4, 4, -4] }}
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
@@ -206,37 +254,27 @@ const Invoicing = () => {
         </div>
       </section>
 
-      {/* Feature Banner - Wave style */}
+      {/* Feature Banner */}
       <WaveFeatureBanner 
         title="Stop chasing clients around"
         features={bannerFeatures}
       />
 
-      {/* Features Grid */}
+      {/* Quick Features - 3 cards */}
       <section className="py-20 lg:py-32 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
-            <h2 className="text-h2 text-heading mb-4">
-              Everything you need to{' '}
-              <span className="font-serif italic text-primary">get paid</span>
-            </h2>
-            <p className="text-body-lg text-muted-foreground">
-              Powerful invoicing features designed for modern businesses. Simple to use, professional results.
-            </p>
-          </AnimatedSection>
-
-          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
-            {features.map((feature) => {
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
+            {quickFeatures.map((feature) => {
               const Icon = feature.icon;
               
               return (
                 <StaggerItem key={feature.title}>
                   <motion.div
                     whileHover={{ y: -4 }}
-                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300"
+                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
                   >
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
-                      <Icon className="w-6 h-6 text-primary" />
+                    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
+                      <Icon className="w-7 h-7 text-primary" />
                     </div>
                     <h3 className="text-h4 text-heading mb-2">{feature.title}</h3>
                     <p className="text-body text-muted-foreground">{feature.description}</p>
@@ -248,7 +286,52 @@ const Invoicing = () => {
         </div>
       </section>
 
-      {/* Compliance Section - Wave alternating layout */}
+      {/* Tabbed Feature Section */}
+      <WaveTabbedFeature
+        title="Easily manage accounts receivable"
+        subtitle="Everything you need to track invoices, payments, and customer relationships in one place."
+        tabs={tabbedFeatures}
+      />
+
+      {/* Get Paid Faster - Alternating Feature */}
+      <WaveAlternatingFeature
+        title="Get paid faster"
+        subtitle="Speed up your cash flow with tools designed to get invoices paid on time."
+        features={getPaidFasterFeatures}
+        className="bg-card"
+        imagePlaceholder={
+          <div className="bg-background rounded-2xl shadow-soft-xl border border-border p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 rounded-full bg-wave-green/10 flex items-center justify-center">
+                <Zap className="w-5 h-5 text-wave-green" />
+              </div>
+              <div>
+                <p className="text-body-sm font-medium text-heading">Invoice #1043</p>
+                <p className="text-caption text-muted-foreground">Sent 2 hours ago</p>
+              </div>
+            </div>
+            <div className="space-y-3">
+              <div className="flex items-center gap-3 text-body-sm">
+                <div className="w-2 h-2 rounded-full bg-wave-green" />
+                <span className="text-foreground">Invoice sent</span>
+                <span className="text-muted-foreground ml-auto">10:32 AM</span>
+              </div>
+              <div className="flex items-center gap-3 text-body-sm">
+                <div className="w-2 h-2 rounded-full bg-wave-green" />
+                <span className="text-foreground">Viewed by client</span>
+                <span className="text-muted-foreground ml-auto">11:15 AM</span>
+              </div>
+              <div className="flex items-center gap-3 text-body-sm">
+                <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+                <span className="text-foreground">Awaiting payment</span>
+                <span className="text-muted-foreground ml-auto">Now</span>
+              </div>
+            </div>
+          </div>
+        }
+      />
+
+      {/* Compliance Section */}
       <section className="py-20 lg:py-32 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
@@ -326,7 +409,33 @@ const Invoicing = () => {
         </div>
       </section>
 
-      <WaveTestimonials />
+      {/* Featured Testimonial */}
+      <WaveFeaturedTestimonial
+        quote="Invoicemonk transformed how I handle invoicing. I used to spend hours every week chasing payments — now it's completely automated."
+        author={{
+          name: "Chidi Okonkwo",
+          title: "Founder",
+          company: "TechBridge Solutions"
+        }}
+        rating={5}
+        variant="primary"
+      />
+
+      {/* Blog Preview */}
+      <WaveBlogPreview
+        title="Learn more about invoicing"
+        subtitle="Tips and best practices to help you get paid faster."
+        category="Invoicing and Billing Tips"
+      />
+
+      {/* FAQ Section */}
+      <WaveProductFAQ
+        title="Invoicing questions, answered"
+        subtitle="Everything you need to know about Invoicemonk invoicing."
+        faqs={invoicingFAQs}
+      />
+
+      {/* Final CTA */}
       <WaveCTASection />
     </Layout>
   );

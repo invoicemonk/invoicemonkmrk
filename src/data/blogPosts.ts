@@ -1,27 +1,53 @@
+import { defaultAuthor, Author } from './authors';
+import { 
+  getPillarForPost, 
+  getClusterType, 
+  getSemanticCategory,
+  getClusterPostsForPillar,
+  type ClusterType,
+  type ContentPriority 
+} from './topicalMap';
+
 export interface BlogPost {
   slug: string;
   title: string;
   excerpt: string;
   content: string;
   category: string;
-  author: {
-    name: string;
-    avatar?: string;
-  };
+  tags: string[];
+  author: Author;
   date: string;
+  dateModified?: string;
   readTime: string;
-  featuredImage?: string;
+  featuredImage: string;
+  featuredImageAlt: string;
+  
+  // Semantic SEO fields
+  pillarContent?: boolean;
+  clusterType?: ClusterType;
+  targetProduct?: string;
+  semanticKeywords?: string[];
+  priority?: ContentPriority;
 }
 
 export const blogPosts: BlogPost[] = [
   {
     slug: 'invoicemonk-free-online-invoice-and-accounting-platform',
-    title: 'Invoicemonk: Free Online Invoice and Accounting Platform',
-    excerpt: 'Discover how Invoicemonk is revolutionizing invoicing and accounting for businesses worldwide with its free, easy-to-use platform.',
+    title: 'Invoicemonk: Compliance-First Invoice and Accounting Platform',
+    excerpt: 'Discover how Invoicemonk is revolutionizing invoicing and accounting for businesses worldwide with its easy-to-use, tax-compliant platform.',
     category: 'Small Business',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['invoicing', 'accounting', 'small business', 'tax compliance'],
+    author: defaultAuthor,
     date: '2024-01-15',
+    dateModified: '2026-01-30',
     readTime: '5 min read',
+    featuredImage: '/blog/invoicing-platform-overview.jpg',
+    featuredImageAlt: 'Professional invoicing and accounting platform dashboard',
+    pillarContent: true,
+    clusterType: 'pillar',
+    targetProduct: '/invoicing',
+    semanticKeywords: ['invoicing software', 'accounting platform', 'tax compliance', 'small business finance', 'invoice management'],
+    priority: 'P1',
     content: `
       <p>In today's fast-paced business environment, having a reliable invoicing and accounting platform is essential for success. Invoicemonk is here to transform how businesses manage their finances.</p>
       
@@ -47,7 +73,7 @@ export const blogPosts: BlogPost[] = [
       <p>Our platform automatically calculates taxes and helps you stay compliant with local tax laws.</p>
       
       <h2>Getting Started</h2>
-      <p>Getting started with Invoicemonk is simple. Sign up for free and start creating professional invoices in minutes. No credit card required, no hidden fees.</p>
+      <p>Getting started with Invoicemonk is simple. Sign up for our free tier and start creating professional invoices in minutes. Upgrade when you need more features.</p>
       
       <p>Join thousands of businesses worldwide that trust Invoicemonk for their invoicing and accounting needs.</p>
     `
@@ -57,9 +83,15 @@ export const blogPosts: BlogPost[] = [
     title: 'Small Business Marketing 101 – A Guide to Growth',
     excerpt: 'Learn the essential marketing strategies every small business owner needs to know to grow their business effectively.',
     category: 'Small Business',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['marketing', 'small business', 'growth', 'digital marketing'],
+    author: defaultAuthor,
     date: '2024-01-10',
+    dateModified: '2026-01-30',
     readTime: '8 min read',
+    featuredImage: '/blog/small-business-marketing-growth.jpg',
+    featuredImageAlt: 'Small business marketing strategies for growth',
+    clusterType: 'outer',
+    semanticKeywords: ['small business marketing', 'growth strategies', 'digital marketing', 'customer acquisition'],
     content: `
       <p>Marketing is the lifeblood of any small business. Without effective marketing, even the best products and services will struggle to find customers. This guide will walk you through the essential marketing strategies every small business owner needs to know.</p>
       
@@ -98,9 +130,17 @@ export const blogPosts: BlogPost[] = [
     title: 'Invoicemonk Template – How to Create a Perfect Invoice Template',
     excerpt: 'Master the art of creating professional invoice templates that help you get paid faster and look more professional.',
     category: 'Invoicing and Billing Tips',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['invoice template', 'invoicing', 'billing', 'professional invoices'],
+    author: defaultAuthor,
     date: '2024-01-05',
+    dateModified: '2026-01-30',
     readTime: '6 min read',
+    featuredImage: '/blog/perfect-invoice-template.jpg',
+    featuredImageAlt: 'Professional invoice template example',
+    clusterType: 'cluster',
+    targetProduct: '/invoicing',
+    semanticKeywords: ['invoice template', 'professional invoice', 'billing template', 'invoice design'],
+    priority: 'P1',
     content: `
       <p>A well-designed invoice template is more than just a payment request—it's a reflection of your brand and professionalism. In this guide, we'll show you how to create the perfect invoice template using Invoicemonk.</p>
       
@@ -145,9 +185,15 @@ export const blogPosts: BlogPost[] = [
     title: 'Top 10 Lucrative Business Ideas With Small Capital',
     excerpt: 'Discover profitable business opportunities that you can start with minimal investment.',
     category: 'Small Business',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['business ideas', 'entrepreneurship', 'small capital', 'startup'],
+    author: defaultAuthor,
     date: '2023-12-28',
+    dateModified: '2026-01-30',
     readTime: '10 min read',
+    featuredImage: '/blog/business-ideas-small-capital.jpg',
+    featuredImageAlt: 'Lucrative business ideas with minimal investment',
+    clusterType: 'outer',
+    semanticKeywords: ['business ideas', 'low capital business', 'startup ideas', 'entrepreneurship'],
     content: `
       <p>Starting a business doesn't require a fortune. Many successful entrepreneurs started with very little capital. Here are 10 lucrative business ideas you can start with small capital.</p>
       
@@ -182,7 +228,7 @@ export const blogPosts: BlogPost[] = [
       <p>If you're organized and creative, event planning can be a lucrative venture.</p>
       
       <h2>Getting Started</h2>
-      <p>Whichever business you choose, start small, learn as you go, and reinvest your profits. Use tools like Invoicemonk to manage your finances professionally from day one.</p>
+      <p>Whichever business you choose, start small, learn as you go, and reinvest your profits. Use tools like <a href="/invoicing">Invoicemonk</a> to manage your finances professionally from day one.</p>
     `
   },
   {
@@ -190,9 +236,17 @@ export const blogPosts: BlogPost[] = [
     title: 'Top 10 Freelance Websites to Find Work',
     excerpt: 'Find the best platforms to offer your freelance services and connect with clients locally and internationally.',
     category: 'Freelancing',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['freelancing', 'remote work', 'gig economy', 'freelance platforms'],
+    author: defaultAuthor,
     date: '2023-12-20',
+    dateModified: '2026-01-30',
     readTime: '7 min read',
+    featuredImage: '/blog/freelance-websites-work.jpg',
+    featuredImageAlt: 'Top freelance platforms to find remote work',
+    clusterType: 'cluster',
+    targetProduct: '/freelancers',
+    semanticKeywords: ['freelance websites', 'remote work platforms', 'gig economy', 'freelance jobs'],
+    priority: 'P2',
     content: `
       <p>The gig economy is booming worldwide, and freelancing offers tremendous opportunities for professionals. Here are the top 10 platforms where you can find freelance work.</p>
       
@@ -232,7 +286,7 @@ export const blogPosts: BlogPost[] = [
         <li>Start with competitive rates to build reviews</li>
         <li>Deliver quality work consistently</li>
         <li>Communicate professionally with clients</li>
-        <li>Use Invoicemonk to manage your freelance finances</li>
+        <li>Use <a href="/freelancers">Invoicemonk</a> to manage your freelance finances</li>
       </ul>
     `
   },
@@ -241,9 +295,15 @@ export const blogPosts: BlogPost[] = [
     title: 'Impact of FinTech on Business Growth',
     excerpt: 'Explore how financial technology is transforming the business landscape and creating new opportunities.',
     category: 'Finance',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['fintech', 'business growth', 'digital banking', 'financial technology'],
+    author: defaultAuthor,
     date: '2023-12-15',
+    dateModified: '2026-01-30',
     readTime: '8 min read',
+    featuredImage: '/blog/fintech-business-impact.jpg',
+    featuredImageAlt: 'Financial technology transforming business growth',
+    clusterType: 'outer',
+    semanticKeywords: ['fintech', 'digital banking', 'financial technology', 'business transformation'],
     content: `
       <p>The FinTech sector has experienced explosive growth globally, transforming how businesses operate and creating unprecedented opportunities for entrepreneurs.</p>
       
@@ -262,7 +322,7 @@ export const blogPosts: BlogPost[] = [
       <p>Alternative lending platforms are providing small businesses with access to credit that was previously unavailable through traditional banks.</p>
       
       <h3>4. Streamlined Accounting</h3>
-      <p>Cloud-based accounting and invoicing platforms like Invoicemonk are helping businesses manage their finances more efficiently and professionally.</p>
+      <p>Cloud-based accounting and invoicing platforms like <a href="/accounting">Invoicemonk</a> are helping businesses manage their finances more efficiently and professionally.</p>
       
       <h3>5. Lower Transaction Costs</h3>
       <p>FinTech solutions often offer lower transaction fees than traditional banking, improving profit margins for businesses.</p>
@@ -281,9 +341,17 @@ export const blogPosts: BlogPost[] = [
     title: '5 Essential Elements of an Invoice: A Guide for Small Business Owners',
     excerpt: 'Learn the critical components every invoice must have to ensure timely payment and maintain professionalism.',
     category: 'Invoicing and Billing Tips',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['invoice elements', 'invoicing', 'small business', 'billing best practices'],
+    author: defaultAuthor,
     date: '2023-12-10',
+    dateModified: '2026-01-30',
     readTime: '5 min read',
+    featuredImage: '/blog/invoice-essential-elements.jpg',
+    featuredImageAlt: 'Five essential elements of a professional invoice',
+    clusterType: 'cluster',
+    targetProduct: '/invoicing',
+    semanticKeywords: ['invoice elements', 'invoice components', 'professional invoicing', 'billing essentials'],
+    priority: 'P1',
     content: `
       <p>Creating professional invoices is crucial for getting paid on time and maintaining a professional image. Here are the five essential elements every invoice must have.</p>
       
@@ -322,7 +390,7 @@ export const blogPosts: BlogPost[] = [
       <p>Clearly display the total amount due, including any taxes. Also specify your payment terms (Net 30, Due on Receipt, etc.) and accepted payment methods.</p>
       
       <h2>Using Invoicemonk</h2>
-      <p>Invoicemonk automatically includes all these essential elements in our professional invoice templates, ensuring you never miss important details.</p>
+      <p><a href="/invoicing">Invoicemonk</a> automatically includes all these essential elements in our professional invoice templates, ensuring you never miss important details.</p>
     `
   },
   {
@@ -330,9 +398,17 @@ export const blogPosts: BlogPost[] = [
     title: 'The Importance of Invoicing Timely and How to Do It Efficiently',
     excerpt: 'Discover why timely invoicing is crucial for cash flow and learn strategies to streamline your billing process.',
     category: 'Invoicing and Billing Tips',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['timely invoicing', 'cash flow', 'billing efficiency', 'invoice automation'],
+    author: defaultAuthor,
     date: '2023-12-05',
+    dateModified: '2026-01-30',
     readTime: '6 min read',
+    featuredImage: '/blog/timely-invoicing-efficiency.jpg',
+    featuredImageAlt: 'Importance of timely invoicing for cash flow',
+    clusterType: 'cluster',
+    targetProduct: '/invoicing',
+    semanticKeywords: ['timely invoicing', 'cash flow management', 'billing efficiency', 'invoice automation'],
+    priority: 'P2',
     content: `
       <p>Cash flow is the lifeblood of any business, and timely invoicing plays a critical role in maintaining healthy cash flow. Let's explore why prompt invoicing matters and how to do it efficiently.</p>
       
@@ -356,7 +432,7 @@ export const blogPosts: BlogPost[] = [
       <p>Whether it's immediately after completing a project, weekly, or bi-weekly, establish a consistent invoicing schedule and stick to it.</p>
       
       <h3>2. Use Invoicing Software</h3>
-      <p>Tools like Invoicemonk automate much of the invoicing process, saving time and reducing errors.</p>
+      <p>Tools like <a href="/invoicing">Invoicemonk</a> automate much of the invoicing process, saving time and reducing errors.</p>
       
       <h3>3. Create Templates</h3>
       <p>Save time by using invoice templates that include your standard information and common services.</p>
@@ -382,9 +458,15 @@ export const blogPosts: BlogPost[] = [
     title: 'Savings and Investment on ALAT – How it works',
     excerpt: 'A comprehensive guide to saving and investing using ALAT by Wema Bank, one of Nigeria\'s leading digital banking platforms.',
     category: 'Finance',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['ALAT', 'digital banking', 'savings', 'investment', 'Nigeria'],
+    author: defaultAuthor,
     date: '2023-11-28',
+    dateModified: '2026-01-30',
     readTime: '7 min read',
+    featuredImage: '/blog/alat-savings-investment.jpg',
+    featuredImageAlt: 'Digital banking savings and investment options',
+    clusterType: 'outer',
+    semanticKeywords: ['digital banking Nigeria', 'ALAT savings', 'investment platform', 'Wema Bank'],
     content: `
       <p>ALAT by Wema Bank has revolutionized digital banking in Nigeria, offering innovative savings and investment options. Here's how to make the most of these features.</p>
       
@@ -427,7 +509,7 @@ export const blogPosts: BlogPost[] = [
         <li>Take advantage of promotional rates when available</li>
       </ul>
       
-      <p>Combine smart savings habits with efficient business management using tools like Invoicemonk for comprehensive financial wellness.</p>
+      <p>Combine smart savings habits with efficient business management using tools like <a href="/expenses">Invoicemonk expense tracking</a> for comprehensive financial wellness.</p>
     `
   },
   {
@@ -435,9 +517,17 @@ export const blogPosts: BlogPost[] = [
     title: 'The Basics of Small Business Accounting',
     excerpt: 'Understanding fundamental accounting principles is essential for any small business owner. Learn the basics here.',
     category: 'Small Business',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['accounting', 'small business', 'bookkeeping', 'financial statements'],
+    author: defaultAuthor,
     date: '2023-11-20',
+    dateModified: '2026-01-30',
     readTime: '9 min read',
+    featuredImage: '/blog/small-business-accounting-basics.jpg',
+    featuredImageAlt: 'Fundamental accounting concepts for small business',
+    clusterType: 'cluster',
+    targetProduct: '/accounting',
+    semanticKeywords: ['small business accounting', 'bookkeeping basics', 'financial statements', 'accounting principles'],
+    priority: 'P1',
     content: `
       <p>Accounting might seem intimidating, but understanding the basics is crucial for running a successful small business. This guide covers the fundamental concepts every business owner should know.</p>
       
@@ -479,7 +569,7 @@ export const blogPosts: BlogPost[] = [
         <li>Track all income and expenses</li>
         <li>Keep receipts and documentation</li>
         <li>Reconcile accounts regularly</li>
-        <li>Use accounting software like Invoicemonk</li>
+        <li>Use <a href="/accounting">accounting software like Invoicemonk</a></li>
         <li>Consider hiring an accountant for complex matters</li>
       </ul>
       
@@ -492,9 +582,17 @@ export const blogPosts: BlogPost[] = [
     title: 'How to Create a Budget for Your Small Business',
     excerpt: 'A step-by-step guide to creating an effective business budget that helps you plan for success and manage cash flow.',
     category: 'Small Business',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['budgeting', 'small business', 'financial planning', 'cash flow'],
+    author: defaultAuthor,
     date: '2023-11-15',
+    dateModified: '2026-01-30',
     readTime: '8 min read',
+    featuredImage: '/blog/business-budget-creation.jpg',
+    featuredImageAlt: 'Step-by-step guide to creating a business budget',
+    clusterType: 'cluster',
+    targetProduct: '/accounting',
+    semanticKeywords: ['business budgeting', 'financial planning', 'cash flow management', 'budget creation'],
+    priority: 'P2',
     content: `
       <p>A well-crafted budget is your roadmap to financial success. It helps you plan spending, anticipate cash flow needs, and make informed business decisions. Here's how to create one.</p>
       
@@ -547,7 +645,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Monitoring Your Budget</h2>
       <p>A budget is only useful if you use it. Review your actual performance against your budget monthly and adjust as circumstances change.</p>
       
-      <p>Use tools like Invoicemonk to track income and expenses, making budget monitoring easier.</p>
+      <p>Use tools like <a href="/expenses">Invoicemonk</a> to track income and expenses, making budget monitoring easier.</p>
     `
   },
   {
@@ -555,9 +653,17 @@ export const blogPosts: BlogPost[] = [
     title: 'How to Become a Good Graphic Designer',
     excerpt: 'Essential tips and strategies for aspiring graphic designers looking to build successful careers in the creative industry.',
     category: 'Freelancing',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['graphic design', 'freelancing', 'creative careers', 'design skills'],
+    author: defaultAuthor,
     date: '2023-11-10',
+    dateModified: '2026-01-30',
     readTime: '7 min read',
+    featuredImage: '/blog/graphic-designer-career.jpg',
+    featuredImageAlt: 'Skills and tools for graphic design success',
+    clusterType: 'cluster',
+    targetProduct: '/freelancers',
+    semanticKeywords: ['graphic design career', 'design skills', 'freelance designer', 'creative industry'],
+    priority: 'P2',
     content: `
       <p>Graphic design is a rewarding career that combines creativity with practical skills. Whether you're just starting out or looking to improve, here's how to become a better graphic designer.</p>
       
@@ -602,7 +708,7 @@ export const blogPosts: BlogPost[] = [
       <p>Join design communities, find mentors, and be open to constructive criticism.</p>
       
       <h2>Business Skills Matter</h2>
-      <p>As a freelance designer, you'll need business skills too. Use tools like Invoicemonk to manage client billing professionally.</p>
+      <p>As a freelance designer, you'll need business skills too. Use tools like <a href="/freelancers">Invoicemonk</a> to manage client billing professionally.</p>
     `
   },
   {
@@ -610,9 +716,15 @@ export const blogPosts: BlogPost[] = [
     title: 'The 10 Best Personal Finance Blogs',
     excerpt: 'Curated list of top personal finance blogs to help you learn about money management, saving, and building wealth.',
     category: 'Finance',
-    author: { name: 'Invoicemonk Team' },
+    tags: ['personal finance', 'financial education', 'money management', 'wealth building'],
+    author: defaultAuthor,
     date: '2023-11-05',
+    dateModified: '2026-01-30',
     readTime: '6 min read',
+    featuredImage: '/blog/personal-finance-blogs.jpg',
+    featuredImageAlt: 'Top personal finance blogs for financial education',
+    clusterType: 'outer',
+    semanticKeywords: ['personal finance blogs', 'financial education', 'money management resources', 'wealth building tips'],
     content: `
       <p>Learning about personal finance is essential for building wealth and achieving financial freedom. Here are 10 excellent personal finance blogs to help you on your journey.</p>
       
@@ -647,7 +759,7 @@ export const blogPosts: BlogPost[] = [
       <p>A blog aimed at millennials, covering personal finance, career, and lifestyle topics.</p>
       
       <h2>Local Resources</h2>
-      <p>While these blogs are mostly US-focused, many principles are universal. For Nigeria-specific advice, follow local financial blogs and use tools like Invoicemonk to manage your business finances.</p>
+      <p>While these blogs are mostly US-focused, many principles are universal. For business finance management, use tools like <a href="/accounting">Invoicemonk</a> to track your income and expenses professionally.</p>
     `
   }
 ];
@@ -664,4 +776,63 @@ export const getRelatedPosts = (currentSlug: string, category: string, limit: nu
 
 export const getBlogCategories = (): string[] => {
   return Array.from(new Set(blogPosts.map(post => post.category)));
+};
+
+export const getPostsByTag = (tag: string): BlogPost[] => {
+  return blogPosts.filter(post => post.tags.includes(tag.toLowerCase()));
+};
+
+export const getPostsByAuthor = (authorId: string): BlogPost[] => {
+  return blogPosts.filter(post => post.author.id === authorId);
+};
+
+// Enhanced semantic functions
+export const getPostsForPillar = (pillarId: string): BlogPost[] => {
+  const clusterSlugs = getClusterPostsForPillar(pillarId);
+  return blogPosts.filter(post => clusterSlugs.includes(post.slug));
+};
+
+export const getRelatedPostsEnhanced = (
+  currentSlug: string, 
+  limit: number = 3
+): BlogPost[] => {
+  // First try to get posts from the same pillar
+  const pillar = getPillarForPost(currentSlug);
+  if (pillar) {
+    const pillarPosts = getPostsForPillar(pillar.id)
+      .filter(post => post.slug !== currentSlug);
+    if (pillarPosts.length >= limit) {
+      return pillarPosts.slice(0, limit);
+    }
+    // Fill with category-based if not enough
+    const currentPost = getBlogPostBySlug(currentSlug);
+    if (currentPost) {
+      const categoryPosts = blogPosts.filter(
+        post => post.slug !== currentSlug && 
+        post.category === currentPost.category &&
+        !pillarPosts.find(p => p.slug === post.slug)
+      );
+      return [...pillarPosts, ...categoryPosts].slice(0, limit);
+    }
+    return pillarPosts;
+  }
+  
+  // Fallback to category-based
+  const currentPost = getBlogPostBySlug(currentSlug);
+  if (!currentPost) return [];
+  return getRelatedPosts(currentSlug, currentPost.category, limit);
+};
+
+export const getPostClusterInfo = (slug: string) => {
+  const pillar = getPillarForPost(slug);
+  const post = getBlogPostBySlug(slug);
+  const clusterType = getClusterType(slug, post?.pillarContent);
+  const semanticCategory = post ? getSemanticCategory(post.category) : undefined;
+  
+  return {
+    pillar,
+    clusterType,
+    semanticCategory,
+    isOuterContent: clusterType === 'outer'
+  };
 };

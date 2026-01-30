@@ -39,12 +39,12 @@ export function WaveFeatureBanner({ title, features, variant = 'primary' }: Wave
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.1 + index * 0.05 }}
                 viewport={{ once: true }}
-                className="flex items-center gap-2 text-body"
+                className="flex items-center gap-2"
               >
                 <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
-                  <Check className="w-3 h-3" />
+                  <Check className="w-3 h-3 text-white" />
                 </div>
-                <span>{feature}</span>
+                <span className="text-white">{feature}</span>
               </motion.div>
             ))}
           </motion.div>

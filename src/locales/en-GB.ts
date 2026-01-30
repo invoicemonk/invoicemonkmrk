@@ -16,7 +16,7 @@ export const enGB: LocaleConfig = {
       headline: "Beautiful invoices,",
       headlineAccent: "sorted",
       subheadline: "Create HMRC-compliant invoices with proper VAT handling. Perfect for UK freelancers, contractors and businesses.",
-      cta: "Get Started Free",
+      cta: "Start Your Free Trial",
       secondaryCta: "Watch Demo",
       trustBadge: "Trusted by 10,000+ UK businesses",
     },
@@ -26,6 +26,14 @@ export const enGB: LocaleConfig = {
     },
     socialProof: "Join 10,000+ businesses across the United Kingdom",
     paymentGateway: "Stripe",
+    seo: {
+      siteTitle: "Invoicemonk UK - HMRC-Compliant Invoicing Software",
+      siteDescription: "Invoicing software built for UK businesses. HMRC-compliant, Making Tax Digital ready. Free tier available.",
+      complianceKeyword: "HMRC-compliant",
+      targetAudience: "British",
+      region: "United Kingdom",
+      hreflangCode: "en-GB",
+    },
   },
   pricing: {
     starter: 8,

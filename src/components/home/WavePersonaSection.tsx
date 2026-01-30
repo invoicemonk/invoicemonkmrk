@@ -72,12 +72,12 @@ export function WavePersonaSection() {
                     {/* Content */}
                     <div className="p-5">
                       <div className="flex items-center justify-between mb-2">
-                        <h3 className="text-body font-semibold group-hover:underline underline-offset-4">
+                        <h3 className="text-white font-semibold group-hover:underline underline-offset-4">
                           {persona.title}
                         </h3>
-                        <ArrowRight className="w-4 h-4 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+                        <ArrowRight className="w-4 h-4 text-white opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
                       </div>
-                      <p className="text-body-sm opacity-75">
+                      <p className="text-white/75">
                         {persona.description}
                       </p>
                     </div>

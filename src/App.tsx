@@ -26,6 +26,7 @@ import TermsOfService from "./pages/TermsOfService";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import AuthorPage from "./pages/AuthorPage";
 import FreeInvoiceGenerator from "./pages/FreeInvoiceGenerator";
 import Freelancers from "./pages/Freelancers";
 import SmallBusinesses from "./pages/SmallBusinesses";
@@ -61,6 +62,7 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/blog/author/:authorSlug" element={<AuthorPage />} />
             <Route path="/free-invoice-generator" element={<FreeInvoiceGenerator />} />
             
             {/* Audience pages */}

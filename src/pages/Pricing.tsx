@@ -210,19 +210,19 @@ const Pricing = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 lg:py-32 bg-primary text-primary-foreground">
+      <section className="py-20 lg:py-32 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto">
-            <h2 className="text-h1 mb-6">
+            <h2 className="text-h1 text-white mb-6">
               Ready to get <span className="font-serif italic">started?</span>
             </h2>
-            <p className="text-body-lg opacity-80 mb-8">
+            <p className="text-body-lg text-white/90 mb-8">
               Join thousands of businesses who trust Invoicemonk for their invoicing needs.
             </p>
             <Button
               asChild
               size="lg"
-              className="rounded-full px-10 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-lg"
+              className="rounded-full px-10 h-14 text-body-lg bg-white hover:bg-white/90 text-black shadow-lg"
             >
               <a href="https://app.invoicemonk.com/signup">
                 Start Free Today

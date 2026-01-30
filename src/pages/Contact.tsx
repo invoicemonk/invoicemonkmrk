@@ -77,8 +77,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Office</h3>
                       <p className="text-muted-foreground text-sm">
-                        123 Business District<br />
-                        Lagos, Nigeria
+                        Contact us online for<br />
+                        the fastest response
                       </p>
                     </div>
                   </div>

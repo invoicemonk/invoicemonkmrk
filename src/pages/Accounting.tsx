@@ -1,31 +1,69 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Calculator, ArrowRight, BookOpen, FileSpreadsheet, TrendingUp, Building2 } from 'lucide-react';
+import { Calculator, ArrowRight, BookOpen, FileSpreadsheet, TrendingUp, Building2, PieChart, BarChart3, Shield, RefreshCw, CheckCircle, Calendar } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
-import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { WaveTabbedFeature } from '@/components/home/WaveTabbedFeature';
+import { WaveAlternatingFeature } from '@/components/home/WaveAlternatingFeature';
+import { WaveHowItWorks } from '@/components/home/WaveHowItWorks';
+import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimonial';
+import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
+import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
+import { WaveCTASection } from '@/components/home/WaveCTASection';
 
-const plannedFeatures = [
+const automationFeatures = [
+  {
+    icon: RefreshCw,
+    title: 'Automatic journal entries',
+    description: 'Every invoice and expense creates proper accounting entries automatically.',
+  },
+  {
+    icon: CheckCircle,
+    title: 'Bank reconciliation',
+    description: 'Connect your bank and transactions match automatically.',
+  },
+  {
+    icon: Calendar,
+    title: 'Real-time financials',
+    description: 'See your P&L and balance sheet updated in real-time.',
+  },
+];
+
+const accountingSteps = [
+  {
+    number: 1,
+    title: 'Invoice and track expenses',
+    description: 'All your financial activity flows into the accounting system.',
+  },
+  {
+    number: 2,
+    title: 'Automatic categorization',
+    description: 'Transactions are categorized and recorded correctly.',
+  },
+  {
+    number: 3,
+    title: 'Generate reports',
+    description: 'Pull financial statements whenever you need them.',
+  },
+];
+
+const featureBlocks = [
   {
     icon: BookOpen,
-    title: 'Double-Entry',
-    description: 'Full double-entry bookkeeping with chart of accounts.',
+    title: 'Double-entry bookkeeping',
+    description: 'Full chart of accounts with automatic journal entries. Real accounting, made simple.',
   },
   {
     icon: FileSpreadsheet,
-    title: 'Financial Statements',
-    description: 'Balance sheets, P&L, and cash flow statements.',
+    title: 'Financial statements on demand',
+    description: 'Balance sheets, profit & loss, and cash flow statements at your fingertips.',
   },
   {
     icon: TrendingUp,
-    title: 'Tax Reports',
-    description: 'Generate tax-ready reports for your accountant.',
-  },
-  {
-    icon: Building2,
-    title: 'Multi-Entity',
-    description: 'Manage multiple businesses from one dashboard.',
+    title: 'Tax-ready reports',
+    description: 'Generate reports your accountant will love. Ready for any filing deadline.',
   },
 ];
 
@@ -36,10 +74,51 @@ const bannerFeatures = [
   'Multi-entity support',
 ];
 
+const tabbedFeatures = [
+  {
+    label: 'Chart of Accounts',
+    title: 'A complete chart of accounts, ready to go',
+    description: 'Start with a standard chart of accounts or customize it to fit your business. Every transaction is automatically categorized and recorded correctly.',
+  },
+  {
+    label: 'Financial Reports',
+    title: 'Financial statements when you need them',
+    description: 'Generate balance sheets, profit & loss statements, and cash flow reports with a single click. Always know where your business stands financially.',
+  },
+  {
+    label: 'Multi-Entity',
+    title: 'Manage multiple businesses easily',
+    description: 'Running more than one business? Switch between entities seamlessly and get consolidated views of your entire portfolio.',
+  },
+];
+
+const accountingFAQs = [
+  {
+    question: 'Do I need accounting knowledge to use this?',
+    answer: 'Not at all! Invoicemonk Accounting is designed for business owners, not accountants. We handle the complexity behind the scenes while giving you clear, simple views of your finances.',
+  },
+  {
+    question: 'How does this connect to invoicing?',
+    answer: 'When you create invoices, payments, and expenses in Invoicemonk, they automatically flow into your accounting. No double entry, no reconciliation headaches.',
+  },
+  {
+    question: 'Can I use this with my existing accountant?',
+    answer: 'Absolutely. You can invite your accountant to view your books, and export reports in formats they\'re familiar with. We make their job easier too.',
+  },
+  {
+    question: 'What financial reports can I generate?',
+    answer: 'You\'ll be able to generate profit & loss statements, balance sheets, cash flow statements, accounts receivable/payable aging, and custom reports for tax purposes.',
+  },
+  {
+    question: 'Is this suitable for larger businesses?',
+    answer: 'We\'re building accounting features that scale. Multi-entity support, team permissions, and advanced reporting will be available for growing businesses.',
+  },
+];
+
 const Accounting = () => {
   return (
     <Layout>
-      {/* Hero Section - Wave style */}
+      {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
@@ -47,7 +126,6 @@ const Accounting = () => {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left - Content */}
             <div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -116,7 +194,7 @@ const Accounting = () => {
               </motion.div>
             </div>
 
-            {/* Right - Product Mockup */}
+            {/* Product Mockup */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
@@ -129,7 +207,6 @@ const Accounting = () => {
                   <span className="text-caption text-muted-foreground">Q4 2024</span>
                 </div>
                 
-                {/* Balance Sheet Preview */}
                 <div className="space-y-4 mb-6">
                   <div className="bg-muted/50 rounded-xl p-4">
                     <div className="text-caption text-muted-foreground mb-2">Balance Sheet</div>
@@ -162,11 +239,10 @@ const Accounting = () => {
                   </div>
                 </div>
 
-                {/* Chart of Accounts Preview */}
                 <div className="border-t border-border pt-4">
                   <div className="text-caption text-muted-foreground mb-3">Chart of Accounts</div>
                   <div className="space-y-2">
-                    {['1000 - Cash', '1200 - Accounts Receivable', '2000 - Accounts Payable', '4000 - Revenue'].map((account, i) => (
+                    {['1000 - Cash', '1200 - Accounts Receivable', '2000 - Accounts Payable', '4000 - Revenue'].map((account) => (
                       <div key={account} className="flex items-center gap-2 text-body-sm text-foreground">
                         <div className="w-2 h-2 rounded-full bg-primary/60" />
                         {account}
@@ -187,7 +263,7 @@ const Accounting = () => {
         variant="orange"
       />
 
-      {/* Planned Features */}
+      {/* 3 Feature Blocks */}
       <section className="py-20 lg:py-32 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
@@ -199,58 +275,79 @@ const Accounting = () => {
             </p>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {plannedFeatures.map((feature, index) => {
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
+            {featureBlocks.map((feature) => {
               const Icon = feature.icon;
               
               return (
-                <motion.div
-                  key={feature.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ y: -4 }}
-                  className="bg-background rounded-2xl p-6 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all text-center"
-                >
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-7 h-7 text-primary" />
-                  </div>
-                  <h3 className="text-body font-semibold text-heading mb-2">{feature.title}</h3>
-                  <p className="text-body-sm text-muted-foreground">{feature.description}</p>
-                </motion.div>
+                <StaggerItem key={feature.title}>
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
+                  >
+                    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
+                      <Icon className="w-7 h-7 text-primary" />
+                    </div>
+                    <h3 className="text-h4 text-heading mb-3">{feature.title}</h3>
+                    <p className="text-body text-muted-foreground">{feature.description}</p>
+                  </motion.div>
+                </StaggerItem>
               );
             })}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 lg:py-32 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center max-w-2xl mx-auto">
-            <h2 className="text-h2 mb-4">
-              Start with Invoicing <span className="font-serif italic">today</span>
-            </h2>
-            <p className="text-body-lg opacity-80 mb-8">
-              While Accounting is in development, get started with our flagship invoicing product 
-              and be first to access new features.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button 
-                asChild 
-                size="lg" 
-                className="rounded-full px-8 h-14 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground"
-              >
-                <Link to="/invoicing" className="flex items-center gap-2">
-                  Explore Invoicing
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-              </Button>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
+      {/* Tabbed Feature Section */}
+      <WaveTabbedFeature
+        title="Everything you need to manage your books"
+        subtitle="From daily transactions to year-end reports."
+        tabs={tabbedFeatures}
+      />
+
+      {/* Alternating Feature - Automation */}
+      <WaveAlternatingFeature
+        title="Your books, always up to date"
+        subtitle="Automation that keeps your accounting accurate."
+        features={automationFeatures}
+        className="bg-background"
+      />
+
+      {/* How It Works */}
+      <WaveHowItWorks
+        title="How accounting flows work"
+        subtitle="From transactions to reports in three simple steps."
+        steps={accountingSteps}
+      />
+
+      {/* Featured Testimonial */}
+      <WaveFeaturedTestimonial
+        quote="Finally, accounting software that doesn't make me feel like I need a finance degree. Everything just flows from my invoices automatically."
+        author={{
+          name: "Emeka Nwosu",
+          title: "CEO",
+          company: "Nwosu Ventures"
+        }}
+        rating={5}
+        variant="primary"
+      />
+
+      {/* Blog Preview */}
+      <WaveBlogPreview
+        title="Learn about small business accounting"
+        subtitle="Tips and guides to help you manage your finances."
+        category="Small Business"
+      />
+
+      {/* FAQ Section */}
+      <WaveProductFAQ
+        title="Accounting questions, answered"
+        subtitle="Everything you need to know about managing your books."
+        faqs={accountingFAQs}
+      />
+
+      {/* Final CTA */}
+      <WaveCTASection />
     </Layout>
   );
 };

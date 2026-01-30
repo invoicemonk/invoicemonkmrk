@@ -114,7 +114,7 @@ export function HeroSection() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6"
           >
             <p className="text-body-sm text-muted-foreground">
-              Free to use • No credit card required
+              Free tier available • No credit card required
             </p>
             <span className="hidden sm:block text-muted-foreground/30">|</span>
             <p className="text-body-sm font-medium text-foreground">

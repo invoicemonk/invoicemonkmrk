@@ -19,11 +19,21 @@ export interface LocaleComplianceContent {
   message: string;
 }
 
+export interface LocaleSEO {
+  siteTitle: string;
+  siteDescription: string;
+  complianceKeyword: string;  // "NRS-compliant", "HMRC-compliant", etc.
+  targetAudience: string;     // "Nigerian", "British", "American", etc.
+  region: string;             // "Nigeria", "United Kingdom", etc.
+  hreflangCode: string;       // "en-NG", "en-GB", "en-US", etc.
+}
+
 export interface LocaleContent {
   hero: LocaleHeroContent;
   compliance: LocaleComplianceContent;
   socialProof: string;
   paymentGateway: string;
+  seo: LocaleSEO;
 }
 
 export interface LocalePricing {

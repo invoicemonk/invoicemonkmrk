@@ -1,32 +1,51 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { CreditCard, ArrowRight, Banknote, RefreshCw, BarChart3, Shield } from 'lucide-react';
+import { CreditCard, ArrowRight, Banknote, RefreshCw, BarChart3, Shield, Check, Zap, Clock, Globe } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
-import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { WaveTabbedFeature } from '@/components/home/WaveTabbedFeature';
+import { WaveHowItWorks } from '@/components/home/WaveHowItWorks';
+import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimonial';
+import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
+import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
+import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 
-const plannedFeatures = [
+const paymentTabbedFeatures = [
   {
-    icon: Banknote,
-    title: 'Online Payments',
-    description: 'Accept credit cards, bank transfers, and digital wallets.',
+    label: 'Payment Methods',
+    title: 'Accept the way your clients want to pay',
+    description: 'Credit cards, bank transfers, digital wallets — offer all the options your clients expect.',
   },
   {
-    icon: RefreshCw,
-    title: 'Payment Plans',
-    description: 'Set up installment plans for larger invoices.',
+    label: 'Security',
+    title: 'Bank-level payment security',
+    description: 'PCI-compliant processing, encrypted transactions, and fraud protection built in.',
   },
   {
-    icon: BarChart3,
-    title: 'Reconciliation',
-    description: 'Automatic matching of payments to invoices.',
+    label: 'Reconciliation',
+    title: 'Automatic payment matching',
+    description: 'Payments are matched to invoices automatically. Your books stay accurate without any effort.',
+  },
+];
+
+const featureBlocks = [
+  {
+    icon: Zap,
+    title: 'Faster payments, better cash flow',
+    description: 'Clients can pay instantly with a single click. No more waiting for checks or bank transfers.',
   },
   {
-    icon: Shield,
-    title: 'Secure Processing',
-    description: 'PCI-compliant payment processing with full audit trails.',
+    icon: Globe,
+    title: 'Your customers want to pay online',
+    description: 'Meet your clients where they are. Accept all major credit cards, bank transfers, and digital wallets.',
+  },
+  {
+    icon: Clock,
+    title: 'Never lose track of payments',
+    description: 'Every payment is automatically matched to its invoice. Complete visibility into your cash flow.',
   },
 ];
 
@@ -37,18 +56,62 @@ const bannerFeatures = [
   'Automatic reconciliation',
 ];
 
+const howItWorksSteps = [
+  {
+    number: 1,
+    title: 'Send your invoice',
+    description: 'Create and send professional invoices with built-in payment links.',
+  },
+  {
+    number: 2,
+    title: 'Client pays online',
+    description: 'Your client clicks the payment link and pays securely with their preferred method.',
+  },
+  {
+    number: 3,
+    title: 'Money arrives fast',
+    description: 'Funds are deposited directly to your bank account, usually within 1-2 business days.',
+  },
+];
+
+const paymentsFAQs = [
+  {
+    question: 'What payment methods can I accept?',
+    answer: 'When our payments feature launches, you\'ll be able to accept all major credit cards (Visa, Mastercard, American Express), debit cards, bank transfers (ACH in the US), and popular digital wallets.',
+  },
+  {
+    question: 'What are the processing fees?',
+    answer: 'We offer competitive processing rates. Card payments are typically 2.9% + a small fixed fee. Bank transfers have even lower fees. Full pricing will be announced when the feature launches.',
+  },
+  {
+    question: 'How quickly will I receive my money?',
+    answer: 'Funds typically arrive in your bank account within 1-2 business days after your client pays. We\'re also working on instant payout options for premium plans.',
+  },
+  {
+    question: 'Is the payment processing secure?',
+    answer: 'Absolutely. All payments are processed through PCI-compliant payment infrastructure. Your clients\' payment information is encrypted and never stored on our servers.',
+  },
+  {
+    question: 'Can I set up payment plans for large invoices?',
+    answer: 'Yes! You\'ll be able to offer your clients the option to pay in installments. You set the terms, and we handle the automatic collection of each payment.',
+  },
+  {
+    question: 'How does automatic reconciliation work?',
+    answer: 'When a client pays an invoice, the payment is automatically matched and recorded against that invoice. No manual data entry needed — your books stay up to date automatically.',
+  },
+];
+
 const Payments = () => {
   const { locale, formatCurrency } = useLocale();
   
-  // Calculate locale-aware amounts
-  const invoiceAmount = locale.pricing.business * 50 + locale.pricing.starter * 50; // Same as invoice page total
-  const processingFee = Math.round(invoiceAmount * 0.029 * 100) / 100; // 2.9% fee
+  const invoiceAmount = locale.pricing.business * 50 + locale.pricing.starter * 50;
+  const processingFee = Math.round(invoiceAmount * 0.029 * 100) / 100;
   const netAmount = invoiceAmount - processingFee;
   const feePercent = '2.9%';
 
   return (
     <Layout>
-      {/* Hero Section - Wave style */}
+      {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
@@ -56,7 +119,6 @@ const Payments = () => {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left - Content */}
             <div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -125,7 +187,7 @@ const Payments = () => {
               </motion.div>
             </div>
 
-            {/* Right - Product Mockup */}
+            {/* Product Mockup */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
@@ -135,9 +197,7 @@ const Payments = () => {
               <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-6">
                 <div className="text-center mb-6">
                   <div className="w-16 h-16 rounded-full bg-wave-green/10 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-wave-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
+                    <Check className="w-8 h-8 text-wave-green" />
                   </div>
                   <h3 className="text-h3 text-heading mb-2">Payment Received!</h3>
                   <p className="text-body-sm text-muted-foreground">Invoice #1042 • Acme Corp</p>
@@ -164,7 +224,6 @@ const Payments = () => {
                 </div>
               </div>
 
-              {/* Floating decoration */}
               <motion.div
                 animate={{ y: [-4, 4, -4] }}
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
@@ -189,70 +248,146 @@ const Payments = () => {
         variant="primary"
       />
 
-      {/* Planned Features */}
+      {/* 3 Feature Blocks */}
       <section className="py-20 lg:py-32 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-h2 text-heading mb-4">
-              What's <span className="font-serif italic text-primary">coming</span>
+              Why add payments to your{' '}
+              <span className="font-serif italic text-primary">invoices</span>
             </h2>
             <p className="text-body-lg text-muted-foreground">
-              Payment processing that works seamlessly with your invoicing.
+              Make it as easy as possible for your clients to pay you.
             </p>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {plannedFeatures.map((feature, index) => {
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
+            {featureBlocks.map((feature) => {
               const Icon = feature.icon;
               
               return (
-                <motion.div
-                  key={feature.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ y: -4 }}
-                  className="bg-background rounded-2xl p-6 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all text-center"
-                >
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-7 h-7 text-primary" />
-                  </div>
-                  <h3 className="text-body font-semibold text-heading mb-2">{feature.title}</h3>
-                  <p className="text-body-sm text-muted-foreground">{feature.description}</p>
-                </motion.div>
+                <StaggerItem key={feature.title}>
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
+                  >
+                    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
+                      <Icon className="w-7 h-7 text-primary" />
+                    </div>
+                    <h3 className="text-h4 text-heading mb-3">{feature.title}</h3>
+                    <p className="text-body text-muted-foreground">{feature.description}</p>
+                  </motion.div>
+                </StaggerItem>
               );
             })}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 lg:py-32 bg-primary text-primary-foreground">
+      {/* Tabbed Features */}
+      <WaveTabbedFeature
+        title="Everything you need to accept payments"
+        subtitle="Flexible options for you and your clients."
+        tabs={paymentTabbedFeatures}
+      />
+
+      {/* Featured Testimonial */}
+      <WaveFeaturedTestimonial
+        quote="Since adding payment links to my invoices, I get paid on average 12 days faster. It's made a huge difference to my cash flow."
+        author={{
+          name: "Amaka Eze",
+          title: "Creative Director",
+          company: "Studio Amber"
+        }}
+        rating={5}
+        variant="primary"
+      />
+
+      {/* How It Works */}
+      <WaveHowItWorks
+        title="How accepting payments works"
+        subtitle="It's as simple as sending an invoice — we handle the rest."
+        steps={howItWorksSteps}
+      />
+
+      {/* Processing Fees Preview */}
+      <section className="py-20 lg:py-32 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center max-w-2xl mx-auto">
-            <h2 className="text-h2 mb-4">
-              Start with Invoicing <span className="font-serif italic">today</span>
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-h2 text-heading mb-4">
+              Simple, transparent{' '}
+              <span className="font-serif italic text-primary">pricing</span>
             </h2>
-            <p className="text-body-lg opacity-80 mb-8">
-              While Payments is in development, get started with our flagship invoicing product 
-              and be first to access new features.
+            <p className="text-body-lg text-muted-foreground">
+              No monthly fees. No hidden charges. Just pay when you get paid.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button 
-                asChild 
-                size="lg" 
-                className="rounded-full px-8 h-14 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground"
-              >
-                <Link to="/invoicing" className="flex items-center gap-2">
-                  Explore Invoicing
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-              </Button>
-            </div>
           </AnimatedSection>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mx-auto"
+          >
+            <div className="bg-card rounded-2xl border border-border overflow-hidden">
+              <div className="p-6 border-b border-border">
+                <h3 className="text-h4 text-heading mb-2">Processing Fees</h3>
+                <p className="text-body text-muted-foreground">Coming soon — competitive rates for every business size.</p>
+              </div>
+              <div className="divide-y divide-border">
+                <div className="flex items-center justify-between p-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                      <CreditCard className="w-6 h-6 text-primary" />
+                    </div>
+                    <div>
+                      <p className="text-body font-medium text-heading">Credit & Debit Cards</p>
+                      <p className="text-body-sm text-muted-foreground">Visa, Mastercard, Amex</p>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <p className="text-h4 font-bold text-heading">2.9%</p>
+                    <p className="text-caption text-muted-foreground">+ fixed fee</p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between p-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                      <Banknote className="w-6 h-6 text-primary" />
+                    </div>
+                    <div>
+                      <p className="text-body font-medium text-heading">Bank Transfers</p>
+                      <p className="text-body-sm text-muted-foreground">ACH, Direct Debit</p>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <p className="text-h4 font-bold text-heading">1%</p>
+                    <p className="text-caption text-muted-foreground">capped at $5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
+
+      {/* Blog Preview */}
+      <WaveBlogPreview
+        title="Getting paid faster"
+        subtitle="Tips and strategies to improve your cash flow."
+        category="Getting Paid"
+      />
+
+      {/* FAQ Section */}
+      <WaveProductFAQ
+        title="Payments questions, answered"
+        subtitle="Everything you need to know about accepting payments."
+        faqs={paymentsFAQs}
+      />
+
+      {/* Final CTA */}
+      <WaveCTASection />
     </Layout>
   );
 };

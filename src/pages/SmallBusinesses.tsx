@@ -179,13 +179,13 @@ const SmallBusinesses = () => {
       {/* CTA */}
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-heading-lg font-bold text-primary-foreground mb-4">
+          <h2 className="text-heading-lg font-bold text-white mb-4">
             Ready to streamline your business finances?
           </h2>
-          <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">
             Join growing businesses that trust Invoicemonk for their financial operations.
           </p>
-          <Button variant="secondary" size="lg" asChild>
+          <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
             <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
               Start Your Free Trial
               <ArrowRight className="ml-2 w-4 h-4" />

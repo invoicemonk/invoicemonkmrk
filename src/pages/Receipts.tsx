@@ -1,32 +1,70 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Receipt, ArrowRight, Camera, FolderOpen, Search, Cloud } from 'lucide-react';
+import { Receipt, ArrowRight, Camera, FolderOpen, Search, Cloud, Smartphone, Shield, Tag } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
-import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { WaveTabbedFeature } from '@/components/home/WaveTabbedFeature';
+import { WaveHowItWorks } from '@/components/home/WaveHowItWorks';
+import { WaveAlternatingFeature } from '@/components/home/WaveAlternatingFeature';
+import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimonial';
+import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
+import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
+import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 
-const plannedFeatures = [
+const receiptTabbedFeatures = [
+  {
+    label: 'Scanning',
+    title: 'AI-powered receipt capture',
+    description: 'Our OCR technology reads any receipt — printed, handwritten, or faded. Just snap and save.',
+  },
+  {
+    label: 'Storage',
+    title: 'Secure, organized storage',
+    description: 'Receipts are encrypted and organized by date, vendor, and category. Access from any device.',
+  },
+  {
+    label: 'Search',
+    title: 'Find any receipt instantly',
+    description: 'Full-text search across all your receipts. Find that coffee shop receipt from 3 months ago in seconds.',
+  },
+];
+
+const receiptSteps = [
+  {
+    number: 1,
+    title: 'Snap a photo',
+    description: 'Take a picture of any receipt with your phone.',
+  },
+  {
+    number: 2,
+    title: 'AI extracts details',
+    description: 'Vendor, amount, date, and category are captured automatically.',
+  },
+  {
+    number: 3,
+    title: 'Stored and searchable',
+    description: 'Find any receipt instantly when you need it.',
+  },
+];
+
+const featureBlocks = [
   {
     icon: Camera,
-    title: 'OCR Scanning',
-    description: 'Extract data from receipts automatically with AI.',
+    title: 'AI-powered scanning',
+    description: 'Snap a photo and our AI extracts all the details automatically.',
   },
   {
     icon: FolderOpen,
-    title: 'Smart Organization',
+    title: 'Smart organization',
     description: 'Receipts are auto-organized by date, vendor, and category.',
   },
   {
     icon: Search,
-    title: 'Instant Search',
-    description: 'Find any receipt in seconds with full-text search.',
-  },
-  {
-    icon: Cloud,
-    title: 'Secure Storage',
-    description: 'Cloud backup with compliance-ready retention policies.',
+    title: 'Find anything instantly',
+    description: 'Full-text search finds any receipt in seconds.',
   },
 ];
 
@@ -35,6 +73,51 @@ const bannerFeatures = [
   'Instant search',
   'Secure cloud storage',
   'Tax-ready exports',
+];
+
+const storageFeatures = [
+  {
+    icon: Cloud,
+    title: 'Secure cloud backup',
+    description: 'Every receipt is encrypted and stored safely in the cloud. Access them from anywhere.',
+  },
+  {
+    icon: Shield,
+    title: 'Compliance-ready retention',
+    description: 'Receipts are stored according to regulatory requirements. Always ready for audits.',
+  },
+  {
+    icon: Tag,
+    title: 'Automatic categorization',
+    description: 'Receipts are tagged and organized automatically. No manual sorting needed.',
+  },
+];
+
+const receiptsFAQs = [
+  {
+    question: 'How does receipt scanning work?',
+    answer: 'Simply take a photo of your receipt with your phone or upload an image. Our AI-powered OCR extracts the vendor, date, amount, and category automatically. It works with printed and handwritten receipts.',
+  },
+  {
+    question: 'How long are receipts stored?',
+    answer: 'Receipts are stored securely for as long as you need them, meeting tax authority requirements in your region. You can also export or delete receipts at any time.',
+  },
+  {
+    question: 'Can I search my old receipts?',
+    answer: 'Yes! Our full-text search lets you find any receipt by vendor name, amount, date, or category. You\'ll never lose a receipt again.',
+  },
+  {
+    question: 'How does this integrate with expenses?',
+    answer: 'Receipts can be attached to expense entries automatically or manually. When you scan a receipt, we can create the expense entry for you.',
+  },
+  {
+    question: 'Is my data secure?',
+    answer: 'Absolutely. All receipts are encrypted both in transit and at rest. We use bank-level security to protect your data. You control who has access.',
+  },
+  {
+    question: 'Can I export receipts for my accountant?',
+    answer: 'Yes, you can export receipts individually or in bulk. Choose from PDF, CSV, or image formats. Perfect for tax time or audits.',
+  },
 ];
 
 const Receipts = () => {
@@ -49,7 +132,7 @@ const Receipts = () => {
 
   return (
     <Layout>
-      {/* Hero Section - Wave style */}
+      {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
@@ -57,7 +140,6 @@ const Receipts = () => {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left - Content */}
             <div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -126,7 +208,7 @@ const Receipts = () => {
               </motion.div>
             </div>
 
-            {/* Right - Product Mockup */}
+            {/* Product Mockup */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
@@ -166,7 +248,6 @@ const Receipts = () => {
                 </div>
               </div>
 
-              {/* Floating decoration */}
               <motion.div
                 animate={{ y: [-4, 4, -4] }}
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
@@ -191,7 +272,7 @@ const Receipts = () => {
         variant="primary"
       />
 
-      {/* Planned Features */}
+      {/* 3 Feature Blocks */}
       <section className="py-20 lg:py-32 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
@@ -203,58 +284,106 @@ const Receipts = () => {
             </p>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {plannedFeatures.map((feature, index) => {
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
+            {featureBlocks.map((feature) => {
               const Icon = feature.icon;
               
               return (
-                <motion.div
-                  key={feature.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ y: -4 }}
-                  className="bg-background rounded-2xl p-6 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all text-center"
-                >
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-7 h-7 text-primary" />
-                  </div>
-                  <h3 className="text-body font-semibold text-heading mb-2">{feature.title}</h3>
-                  <p className="text-body-sm text-muted-foreground">{feature.description}</p>
-                </motion.div>
+                <StaggerItem key={feature.title}>
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
+                  >
+                    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
+                      <Icon className="w-7 h-7 text-primary" />
+                    </div>
+                    <h3 className="text-h4 text-heading mb-3">{feature.title}</h3>
+                    <p className="text-body text-muted-foreground">{feature.description}</p>
+                  </motion.div>
+                </StaggerItem>
               );
             })}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 lg:py-32 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center max-w-2xl mx-auto">
-            <h2 className="text-h2 mb-4">
-              Start with Invoicing <span className="font-serif italic">today</span>
-            </h2>
-            <p className="text-body-lg opacity-80 mb-8">
-              While Receipts is in development, get started with our flagship invoicing product 
-              and be first to access new features.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button 
-                asChild 
-                size="lg" 
-                className="rounded-full px-8 h-14 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground"
-              >
-                <Link to="/invoicing" className="flex items-center gap-2">
-                  Explore Invoicing
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-              </Button>
+      {/* Tabbed Features */}
+      <WaveTabbedFeature
+        title="Everything you need for receipt management"
+        subtitle="From capture to search."
+        tabs={receiptTabbedFeatures}
+      />
+
+      {/* How It Works */}
+      <WaveHowItWorks
+        title="How receipt capture works"
+        subtitle="From photo to organized record in seconds."
+        steps={receiptSteps}
+      />
+
+      {/* Secure Storage Features */}
+      <WaveAlternatingFeature
+        title="Safe, secure, always accessible"
+        subtitle="Your receipts are protected with enterprise-grade security."
+        features={storageFeatures}
+        className="bg-background"
+        imagePlaceholder={
+          <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                <Cloud className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <p className="text-body-sm font-medium text-heading">Cloud Storage</p>
+                <p className="text-caption text-muted-foreground">256-bit encryption</p>
+              </div>
             </div>
-          </AnimatedSection>
-        </div>
-      </section>
+            <div className="space-y-3">
+              <div className="flex items-center justify-between text-body-sm p-3 rounded-lg bg-muted/50">
+                <span className="text-foreground">Receipt_Office_Depot.jpg</span>
+                <span className="text-wave-green text-caption">Synced</span>
+              </div>
+              <div className="flex items-center justify-between text-body-sm p-3 rounded-lg bg-muted/50">
+                <span className="text-foreground">Receipt_Zoom_Jan2024.jpg</span>
+                <span className="text-wave-green text-caption">Synced</span>
+              </div>
+              <div className="flex items-center justify-between text-body-sm p-3 rounded-lg bg-muted/50">
+                <span className="text-foreground">Receipt_Travel_Dec2023.jpg</span>
+                <span className="text-wave-green text-caption">Synced</span>
+              </div>
+            </div>
+          </div>
+        }
+      />
+
+      {/* Featured Testimonial */}
+      <WaveFeaturedTestimonial
+        quote="I used to have a shoebox full of receipts. Now I just snap a photo and everything is organized. Tax season is actually manageable now."
+        author={{
+          name: "Ngozi Ibe",
+          title: "Photographer",
+          company: "Ibe Studios"
+        }}
+        rating={5}
+        variant="primary"
+      />
+
+      {/* Blog Preview */}
+      <WaveBlogPreview
+        title="Record keeping tips"
+        subtitle="Keep your receipts organized and audit-ready."
+        category="Small Business"
+      />
+
+      {/* FAQ Section */}
+      <WaveProductFAQ
+        title="Receipt questions, answered"
+        subtitle="Everything you need to know about digital receipt management."
+        faqs={receiptsFAQs}
+      />
+
+      {/* Final CTA */}
+      <WaveCTASection />
     </Layout>
   );
 };

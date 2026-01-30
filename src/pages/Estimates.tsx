@@ -1,31 +1,69 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FileCheck, ArrowRight, FileText, CheckCircle, Clock, RefreshCw } from 'lucide-react';
+import { FileCheck, ArrowRight, FileText, CheckCircle, Clock, RefreshCw, Send, Users, TrendingUp, MessageSquare, BarChart } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
-import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { WaveTabbedFeature } from '@/components/home/WaveTabbedFeature';
+import { WaveHowItWorks } from '@/components/home/WaveHowItWorks';
+import { WaveAlternatingFeature } from '@/components/home/WaveAlternatingFeature';
+import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimonial';
+import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
+import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
+import { WaveCTASection } from '@/components/home/WaveCTASection';
 
-const plannedFeatures = [
+const estimateTabbedFeatures = [
+  {
+    label: 'Templates',
+    title: 'Beautiful estimate templates',
+    description: 'Choose from professional templates or create your own. Add your branding and impress clients.',
+  },
+  {
+    label: 'Client Portal',
+    title: 'Let clients review and approve online',
+    description: 'Clients get a dedicated link to view estimates, ask questions, and approve with one click.',
+  },
+  {
+    label: 'Tracking',
+    title: 'Know where every estimate stands',
+    description: 'Track views, responses, and approval status. Follow up at the right time.',
+  },
+];
+
+const conversionFeatures = [
+  {
+    icon: TrendingUp,
+    title: 'Higher conversion rates',
+    description: 'Professional estimates build trust and close deals faster.',
+  },
+  {
+    icon: MessageSquare,
+    title: 'Client communication',
+    description: 'Discuss changes and answer questions right on the estimate.',
+  },
+  {
+    icon: BarChart,
+    title: 'Estimate analytics',
+    description: 'See which estimates convert and optimize your proposals.',
+  },
+];
+
+const featureBlocks = [
   {
     icon: FileText,
-    title: 'Professional Quotes',
-    description: 'Create beautiful estimates that match your brand.',
+    title: 'Professional quotes in minutes',
+    description: 'Create beautiful, branded estimates that make a great first impression.',
   },
   {
     icon: CheckCircle,
-    title: 'Client Approval',
-    description: 'Clients can approve estimates with a single click.',
+    title: 'One-click client approval',
+    description: 'Clients can review and approve estimates online — no printing or signing needed.',
   },
   {
     icon: RefreshCw,
-    title: 'Convert to Invoice',
-    description: 'Turn approved estimates into invoices instantly.',
-  },
-  {
-    icon: Clock,
-    title: 'Validity Tracking',
-    description: 'Set expiration dates and get notified before they lapse.',
+    title: 'Convert to invoice instantly',
+    description: 'Turn approved estimates into invoices with a single click. No re-entering data.',
   },
 ];
 
@@ -36,10 +74,51 @@ const bannerFeatures = [
   'Expiration tracking',
 ];
 
+const howItWorksSteps = [
+  {
+    number: 1,
+    title: 'Create your estimate',
+    description: 'Build a professional quote with line items, pricing, and terms.',
+  },
+  {
+    number: 2,
+    title: 'Send to your client',
+    description: 'Your client reviews online and approves with a single click.',
+  },
+  {
+    number: 3,
+    title: 'Convert to invoice',
+    description: 'Turn approved estimates into invoices instantly. Get paid faster.',
+  },
+];
+
+const estimatesFAQs = [
+  {
+    question: 'What\'s the difference between an estimate and an invoice?',
+    answer: 'An estimate (or quote) is a proposal for work before it\'s done, while an invoice is a bill for work that\'s been completed. With Invoicemonk, you can easily convert approved estimates into invoices.',
+  },
+  {
+    question: 'Can clients approve estimates online?',
+    answer: 'Yes! When you send an estimate, your client receives a link where they can review the details and approve with a single click. You\'ll be notified immediately when they approve.',
+  },
+  {
+    question: 'Can I set expiration dates on estimates?',
+    answer: 'Absolutely. You can set validity periods for your quotes, and we\'ll notify you before they expire. This helps create urgency and keeps your pipeline moving.',
+  },
+  {
+    question: 'How do I convert an estimate to an invoice?',
+    answer: 'Once a client approves your estimate, you can convert it to an invoice with one click. All the line items, pricing, and client details transfer automatically.',
+  },
+  {
+    question: 'Can I track which estimates are pending?',
+    answer: 'Yes, your dashboard shows all estimates organized by status — draft, sent, viewed, approved, or expired. You\'ll always know where each proposal stands.',
+  },
+];
+
 const Estimates = () => {
   return (
     <Layout>
-      {/* Hero Section - Wave style */}
+      {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
@@ -47,7 +126,6 @@ const Estimates = () => {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left - Content */}
             <div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -116,7 +194,7 @@ const Estimates = () => {
               </motion.div>
             </div>
 
-            {/* Right - Product Mockup */}
+            {/* Product Mockup */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
@@ -139,7 +217,6 @@ const Estimates = () => {
                   <div className="text-body font-medium text-heading">Acme Corporation</div>
                 </div>
                 
-                {/* Line Items Preview */}
                 <div className="space-y-3 mb-4">
                   <div className="text-caption text-muted-foreground">Line Items</div>
                   {[
@@ -161,7 +238,6 @@ const Estimates = () => {
                   </div>
                 </div>
 
-                {/* Convert to Invoice Action */}
                 <div className="bg-primary/5 rounded-xl p-3 flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <RefreshCw className="w-4 h-4 text-primary" />
@@ -182,70 +258,92 @@ const Estimates = () => {
         variant="orange"
       />
 
-      {/* Planned Features */}
+      {/* 3 Feature Blocks */}
       <section className="py-20 lg:py-32 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-h2 text-heading mb-4">
-              What's <span className="font-serif italic text-primary">coming</span>
+              Win more work with{' '}
+              <span className="font-serif italic text-primary">professional quotes</span>
             </h2>
             <p className="text-body-lg text-muted-foreground">
-              Estimates that flow seamlessly into your invoicing workflow.
+              From proposal to payment in a seamless workflow.
             </p>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {plannedFeatures.map((feature, index) => {
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
+            {featureBlocks.map((feature) => {
               const Icon = feature.icon;
               
               return (
-                <motion.div
-                  key={feature.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ y: -4 }}
-                  className="bg-background rounded-2xl p-6 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all text-center"
-                >
-                  <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-7 h-7 text-primary" />
-                  </div>
-                  <h3 className="text-body font-semibold text-heading mb-2">{feature.title}</h3>
-                  <p className="text-body-sm text-muted-foreground">{feature.description}</p>
-                </motion.div>
+                <StaggerItem key={feature.title}>
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
+                  >
+                    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
+                      <Icon className="w-7 h-7 text-primary" />
+                    </div>
+                    <h3 className="text-h4 text-heading mb-3">{feature.title}</h3>
+                    <p className="text-body text-muted-foreground">{feature.description}</p>
+                  </motion.div>
+                </StaggerItem>
               );
             })}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 lg:py-32 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center max-w-2xl mx-auto">
-            <h2 className="text-h2 mb-4">
-              Start with Invoicing <span className="font-serif italic">today</span>
-            </h2>
-            <p className="text-body-lg opacity-80 mb-8">
-              While Estimates is in development, get started with our flagship invoicing product 
-              and be first to access new features.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button 
-                asChild 
-                size="lg" 
-                className="rounded-full px-8 h-14 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground"
-              >
-                <Link to="/invoicing" className="flex items-center gap-2">
-                  Explore Invoicing
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-              </Button>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
+      {/* Tabbed Features */}
+      <WaveTabbedFeature
+        title="Everything you need for professional estimates"
+        subtitle="From templates to tracking."
+        tabs={estimateTabbedFeatures}
+      />
+
+      {/* How It Works */}
+      <WaveHowItWorks
+        title="From estimate to invoice in 3 steps"
+        subtitle="A simple workflow that gets you paid faster."
+        steps={howItWorksSteps}
+      />
+
+      {/* Alternating Feature - Conversion */}
+      <WaveAlternatingFeature
+        title="Win more business"
+        subtitle="Professional estimates that convert."
+        features={conversionFeatures}
+        className="bg-background"
+      />
+
+      {/* Featured Testimonial */}
+      <WaveFeaturedTestimonial
+        quote="The one-click conversion from estimate to invoice saves me so much time. My clients love how professional everything looks."
+        author={{
+          name: "Funke Okafor",
+          title: "Interior Designer",
+          company: "Okafor Designs"
+        }}
+        rating={5}
+        variant="primary"
+      />
+
+      {/* Blog Preview */}
+      <WaveBlogPreview
+        title="Proposal and estimate tips"
+        subtitle="Win more clients with better proposals."
+        category="Small Business"
+      />
+
+      {/* FAQ Section */}
+      <WaveProductFAQ
+        title="Estimates questions, answered"
+        subtitle="Everything you need to know about creating and managing estimates."
+        faqs={estimatesFAQs}
+      />
+
+      {/* Final CTA */}
+      <WaveCTASection />
     </Layout>
   );
 };

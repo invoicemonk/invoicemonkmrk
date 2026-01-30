@@ -262,13 +262,13 @@ const ClientManagement = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 lg:py-32 bg-primary text-primary-foreground">
+      <section className="py-20 lg:py-32 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-2xl mx-auto">
-            <h2 className="text-h2 mb-4">
+            <h2 className="text-h2 text-white mb-4">
               Start managing your clients <span className="font-serif italic">today</span>
             </h2>
-            <p className="text-body-lg opacity-80 mb-8">
+            <p className="text-body-lg text-white/90 mb-8">
               Client management is included free with every Invoicemonk account. 
               Sign up and organize your client relationships.
             </p>
@@ -276,7 +276,7 @@ const ClientManagement = () => {
               <Button 
                 asChild 
                 size="lg" 
-                className="rounded-full px-8 h-14 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground"
+                className="rounded-full px-8 h-14 bg-white hover:bg-white/90 text-black"
               >
                 <a href="https://app.invoicemonk.com/signup" className="flex items-center gap-2">
                   Create Free Account
