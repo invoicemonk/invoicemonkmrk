@@ -1,106 +1,224 @@
 
-# Plan: Localize Expenses & Receipts Pages
+# Plan: Align Accounting, Estimates, and Client Management Pages with Design System
 
 ## Overview
-Update the Expenses and Receipts pages to display currency values in the user's selected locale, using the existing `useLocale()` hook and `formatCurrency()` utility.
+The Accounting, Estimates, and Client Management pages are using an older, simpler design pattern while the other product pages (Expenses, Invoicing, Payments, Receipts) follow a more sophisticated "Wave" design system. This plan aligns all pages to match the established design language.
+
+---
+
+## Design Inconsistencies Identified
+
+### Current "Wave" Design Pattern (Expenses, Invoicing, Payments, Receipts)
+
+| Element | Pattern |
+|---------|---------|
+| Hero Layout | Split 2-column grid with content left, product mockup right |
+| Badge Style | Colored background with icon (`bg-wave-orange/10 text-wave-orange`) |
+| Product Icon | Large icon with colored background (`bg-primary/10`) |
+| Headline Accent | Serif italic text in primary color |
+| Button Style | Rounded-full with shadows, taller (`h-14`), orange CTA |
+| Background | Decorative blur orb effect |
+| Feature Banner | Uses `WaveFeatureBanner` component |
+| Feature Cards | Hover animations (`whileHover={{ y: -4 }}`), colored icons |
+| CTA Section | Full-width primary background with serif italic text |
+
+### Outdated Design (Accounting, Estimates)
+
+| Element | Current Issue |
+|---------|---------------|
+| Hero Layout | Centered single-column, no product mockup |
+| Badge Style | Plain muted colors (`bg-muted text-muted-foreground`) |
+| Product Icon | Muted styling instead of branded colors |
+| Headline Accent | Uses `text-muted-foreground` instead of primary |
+| Button Style | Smaller buttons (`h-12`), no shadows |
+| Background | No decorative elements |
+| Feature Banner | Missing entirely |
+| Feature Cards | No hover animations, muted icon colors |
+| CTA Section | Plain background, no styling |
+
+### Client Management Issues
+
+| Element | Current Issue |
+|---------|---------------|
+| Hero Layout | No product mockup, different gradient |
+| No Animations | Missing framer-motion animations |
+| Card Style | Using shadcn Card instead of Wave pattern |
+| Different Section Spacing | Using `py-16` instead of `py-20` |
+| No Feature Banner | Missing the signature Wave banner |
+| Icon Styling | Plain icon containers |
 
 ---
 
 ## Changes Required
 
-### 1. Expenses.tsx
+### 1. Accounting.tsx
 
-**Import the locale hook:**
-```
-import { useLocale } from '@/hooks/useLocale';
-```
+**Add missing elements:**
+- Background blur orb decoration
+- Split 2-column hero layout with product mockup
+- WaveFeatureBanner component
+- Styled "Coming Soon" badge with orange color
+- Product icon with primary color styling
+- Serif italic headline accent
+- Taller buttons with shadows
+- Hover animations on feature cards
+- Styled CTA section with primary background
 
-**Use the hook inside the component:**
-```
-const { formatCurrency } = useLocale();
-```
+**Product Mockup Concept:**
+Display a financial dashboard showing:
+- Chart of accounts preview
+- Balance sheet snippet
+- P&L summary widget
 
-**Replace hardcoded values in the mockup:**
+### 2. Estimates.tsx
 
-| Current Value | Amount | Updated |
-|---------------|--------|---------|
-| `$3,240` | 3240 | `formatCurrency(3240)` |
-| `$2,180` | 2180 | `formatCurrency(2180)` |
-| `$450` | 450 | `formatCurrency(450)` |
-| `$890` | 890 | `formatCurrency(890)` |
-| `$1,200` | 1200 | `formatCurrency(1200)` |
-| `$700` | 700 | `formatCurrency(700)` |
+**Add missing elements:**
+- Background blur orb decoration
+- Split 2-column hero layout with product mockup
+- WaveFeatureBanner component
+- Styled "Coming Soon" badge with orange color
+- Product icon with primary color styling
+- Serif italic headline accent
+- Taller buttons with shadows
+- Hover animations on feature cards
+- Styled CTA section with primary background
 
-**Update the expense categories array to use numbers:**
-```
-const categories = [
-  { category: 'Office Supplies', amount: 450, percent: 14 },
-  { category: 'Software', amount: 890, percent: 27 },
-  { category: 'Travel', amount: 1200, percent: 37 },
-  { category: 'Meals', amount: 700, percent: 22 },
-];
-```
+**Product Mockup Concept:**
+Display an estimate card showing:
+- Estimate number and client name
+- Line items preview
+- Approval status badge
+- "Convert to Invoice" action hint
 
----
+### 3. ClientManagement.tsx
 
-### 2. Receipts.tsx
+**Full redesign to match Wave pattern:**
+- Add framer-motion animations throughout
+- Split 2-column hero with product mockup
+- WaveFeatureBanner component
+- Replace Card components with Wave-styled cards
+- Add hover animations on feature items
+- Update section spacing to match (`py-20 lg:py-32`)
+- Use serif italic headline accents
+- Primary-colored CTA section
 
-**Import the locale hook:**
-```
-import { useLocale } from '@/hooks/useLocale';
-```
-
-**Use the hook inside the component:**
-```
-const { formatCurrency } = useLocale();
-```
-
-**Replace hardcoded values in the receipts array:**
-
-| Current Value | Amount | Updated |
-|---------------|--------|---------|
-| `$142.50` | 142.50 | `formatCurrency(142.50)` |
-| `$19.99` | 19.99 | `formatCurrency(19.99)` |
-| `$340.00` | 340 | `formatCurrency(340)` |
-| `$18.45` | 18.45 | `formatCurrency(18.45)` |
-
-**Update the receipts array to use numbers:**
-```
-const receipts = [
-  { vendor: 'Office Depot', amount: 142.50, category: 'Supplies', date: 'Today' },
-  { vendor: 'Zoom Pro', amount: 19.99, category: 'Software', date: 'Yesterday' },
-  { vendor: 'United Airlines', amount: 340, category: 'Travel', date: 'Mon' },
-  { vendor: 'Starbucks', amount: 18.45, category: 'Meals', date: 'Mon' },
-];
-```
+**Product Mockup Concept:**
+Display a client list/detail showing:
+- Client profile cards
+- Invoice count and total
+- Payment status indicators
+- Quick action buttons
 
 ---
 
-## Expected Results
-
-After implementation, users will see localized currency formats:
-
-| Country | Total Expenses | Sample Receipt |
-|---------|----------------|----------------|
-| Nigeria (NG) | ₦3,240 | ₦142.50 |
-| United States (US) | $3,240 | $142.50 |
-| Canada (CA) | C$3,240 | C$142.50 |
-| United Kingdom (GB) | £3,240 | £142.50 |
-| Australia (AU) | A$3,240 | A$142.50 |
-
----
-
-## Files to Modify
+## File Changes Summary
 
 | File | Changes |
 |------|---------|
-| `src/pages/Expenses.tsx` | Add `useLocale` hook, update 6 currency values |
-| `src/pages/Receipts.tsx` | Add `useLocale` hook, update 4 currency values |
+| `src/pages/Accounting.tsx` | Major rewrite - add Wave design elements |
+| `src/pages/Estimates.tsx` | Major rewrite - add Wave design elements |
+| `src/pages/features/ClientManagement.tsx` | Major rewrite - add Wave design elements |
 
 ---
 
-## Technical Notes
+## Technical Implementation Details
 
-- The `formatCurrency()` function from `useLocale()` automatically formats amounts using the user's selected country's currency symbol and position
-- No changes needed to the locale system - it's already fully implemented
-- Selection persists via localStorage under the key `invoicemonk-country`
+### Shared Pattern for Hero Section
+
+```text
+<section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
+  <!-- Background blur orb -->
+  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
+  </div>
+  
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <!-- Left: Content -->
+      <!-- Right: Product Mockup (hidden on mobile) -->
+    </div>
+  </div>
+</section>
+```
+
+### Badge Styling Update
+
+```text
+Before:  bg-muted text-muted-foreground
+After:   bg-wave-orange/10 text-wave-orange
+```
+
+### Icon Container Update
+
+```text
+Before:  bg-muted ... text-muted-foreground
+After:   bg-primary/10 ... text-primary
+```
+
+### Headline Accent Update
+
+```text
+Before:  <span className="text-muted-foreground">Made Simple</span>
+After:   <span className="font-serif italic text-primary">made simple</span>
+```
+
+### Button Updates
+
+```text
+Before:  h-12 text-body
+After:   h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group
+```
+
+### Feature Card Hover Animation
+
+```text
+Before:  className="bg-background rounded-2xl p-6 border border-border text-center"
+After:   
+  <motion.div
+    whileHover={{ y: -4 }}
+    className="bg-background rounded-2xl p-6 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all text-center"
+  >
+```
+
+### CTA Section Update
+
+```text
+Before:  py-20 bg-background
+After:   py-20 lg:py-32 bg-primary text-primary-foreground
+```
+
+---
+
+## Banner Features to Add
+
+**Accounting:**
+- Double-entry bookkeeping
+- Financial statements
+- Tax-ready reports
+- Multi-entity support
+
+**Estimates:**
+- Professional quotes
+- One-click approval
+- Convert to invoice
+- Expiration tracking
+
+**Client Management:**
+- Unlimited clients
+- Complete history
+- Quick search
+- Payment tracking
+
+---
+
+## Expected Visual Result
+
+After implementation, all three pages will have:
+- Consistent gradient backgrounds with decorative blur
+- Split-column hero with interactive product mockups
+- Branded "Coming Soon" / status badges
+- Animated feature banners
+- Hover effects on all interactive elements
+- Full-width colored CTA sections
+- Serif italic headline accents
+- Consistent spacing and typography
