@@ -5,6 +5,7 @@ import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { useLocale } from '@/hooks/useLocale';
 
 const plannedFeatures = [
   {
@@ -37,6 +38,15 @@ const bannerFeatures = [
 ];
 
 const Expenses = () => {
+  const { formatCurrency } = useLocale();
+
+  const expenseCategories = [
+    { category: 'Office Supplies', amount: 450, percent: 14 },
+    { category: 'Software', amount: 890, percent: 27 },
+    { category: 'Travel', amount: 1200, percent: 37 },
+    { category: 'Meals', amount: 700, percent: 22 },
+  ];
+
   return (
     <Layout>
       {/* Hero Section - Wave style */}
@@ -132,26 +142,21 @@ const Expenses = () => {
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="bg-muted/50 rounded-xl p-4">
                     <div className="text-caption text-muted-foreground mb-1">Total Expenses</div>
-                    <div className="text-h3 font-bold text-heading">$3,240</div>
+                    <div className="text-h3 font-bold text-heading">{formatCurrency(3240)}</div>
                   </div>
                   <div className="bg-wave-green/10 rounded-xl p-4">
                     <div className="text-caption text-wave-green mb-1">Tax Deductible</div>
-                    <div className="text-h3 font-bold text-wave-green">$2,180</div>
+                    <div className="text-h3 font-bold text-wave-green">{formatCurrency(2180)}</div>
                   </div>
                 </div>
                 
                 <div className="space-y-3">
-                  {[
-                    { category: 'Office Supplies', amount: '$450', percent: 14 },
-                    { category: 'Software', amount: '$890', percent: 27 },
-                    { category: 'Travel', amount: '$1,200', percent: 37 },
-                    { category: 'Meals', amount: '$700', percent: 22 },
-                  ].map((item) => (
+                  {expenseCategories.map((item) => (
                     <div key={item.category} className="flex items-center gap-3">
                       <div className="flex-1">
                         <div className="flex justify-between text-body-sm mb-1">
                           <span className="text-foreground">{item.category}</span>
-                          <span className="text-muted-foreground">{item.amount}</span>
+                          <span className="text-muted-foreground">{formatCurrency(item.amount)}</span>
                         </div>
                         <div className="h-2 bg-muted rounded-full overflow-hidden">
                           <div 

@@ -5,6 +5,7 @@ import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { useLocale } from '@/hooks/useLocale';
 
 const plannedFeatures = [
   {
@@ -37,6 +38,15 @@ const bannerFeatures = [
 ];
 
 const Receipts = () => {
+  const { formatCurrency } = useLocale();
+
+  const receipts = [
+    { vendor: 'Office Depot', amount: 142.50, category: 'Supplies', date: 'Today' },
+    { vendor: 'Zoom Pro', amount: 19.99, category: 'Software', date: 'Yesterday' },
+    { vendor: 'United Airlines', amount: 340, category: 'Travel', date: 'Mon' },
+    { vendor: 'Starbucks', amount: 18.45, category: 'Meals', date: 'Mon' },
+  ];
+
   return (
     <Layout>
       {/* Hero Section - Wave style */}
@@ -130,12 +140,7 @@ const Receipts = () => {
                 </div>
                 
                 <div className="space-y-4">
-                  {[
-                    { vendor: 'Office Depot', amount: '$142.50', category: 'Supplies', date: 'Today' },
-                    { vendor: 'Zoom Pro', amount: '$19.99', category: 'Software', date: 'Yesterday' },
-                    { vendor: 'United Airlines', amount: '$340.00', category: 'Travel', date: 'Mon' },
-                    { vendor: 'Starbucks', amount: '$18.45', category: 'Meals', date: 'Mon' },
-                  ].map((receipt, index) => (
+                  {receipts.map((receipt, index) => (
                     <motion.div
                       key={receipt.vendor}
                       initial={{ opacity: 0, x: -10 }}
@@ -149,7 +154,7 @@ const Receipts = () => {
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center justify-between">
                           <span className="text-body-sm font-medium text-foreground truncate">{receipt.vendor}</span>
-                          <span className="text-body-sm font-semibold text-heading">{receipt.amount}</span>
+                          <span className="text-body-sm font-semibold text-heading">{formatCurrency(receipt.amount)}</span>
                         </div>
                         <div className="flex items-center justify-between">
                           <span className="text-caption text-muted-foreground">{receipt.category}</span>
