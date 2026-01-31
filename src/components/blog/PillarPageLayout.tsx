@@ -18,6 +18,8 @@ import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import type { Pillar } from '@/data/topicalMap';
 import type { BlogPost } from '@/data/blogPosts';
+import { ClusterSeriesSection } from './ClusterSeriesSection';
+import { ClusterTopicMap } from './ClusterTopicMap';
 
 const iconMap: Record<string, React.ElementType> = {
   FileText,
@@ -151,6 +153,14 @@ export function PillarPageLayout({
           </div>
         </div>
       </div>
+
+      {/* Prominent Cluster Topic Map - Visible on all devices */}
+      <ClusterTopicMap
+        pillar={pillar}
+        currentSlug={post.slug}
+        clusterPosts={sortedClusterPosts}
+        hubPost={post.pillarContent ? post : undefined}
+      />
 
       {/* Two-column layout for desktop */}
       <div className="grid lg:grid-cols-[1fr_320px] gap-8">
@@ -325,6 +335,14 @@ export function PillarPageLayout({
           </nav>
         </details>
       </div>
+
+      {/* Cluster Series Section - Featured at bottom */}
+      <ClusterSeriesSection
+        pillar={pillar}
+        posts={sortedClusterPosts}
+        currentSlug={post.slug}
+        maxPosts={3}
+      />
     </div>
   );
 }

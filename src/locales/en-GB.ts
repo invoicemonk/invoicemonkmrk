@@ -36,8 +36,13 @@ export const enGB: LocaleConfig = {
     },
   },
   pricing: {
-    starter: 8,
-    pro: 15,
-    business: 29,
+    free: 0,
+    professional: 4,
+    business: 15,
+    annualMultiplier: 0.8, // 20% off
+  },
+  pricingContent: {
+    annualSavingsText: "Save 20%",
+    starterAvailable: false,
   },
 };

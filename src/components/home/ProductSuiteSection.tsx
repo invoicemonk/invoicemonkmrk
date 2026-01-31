@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FileText, Wallet, CreditCard, Calculator, FileCheck, Receipt, ArrowRight, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
+import { useLocale } from '@/hooks/useLocale';
 
 const flagshipFeatures = [
   'Professional invoice templates',
@@ -47,6 +48,8 @@ const comingSoonProducts = [
 ];
 
 export function ProductSuiteSection() {
+  const { formatCurrency } = useLocale();
+
   return (
     <section id="products" className="py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -137,7 +140,7 @@ export function ProductSuiteSection() {
                     </div>
                     <div className="flex items-center justify-between pt-4 border-t border-border">
                       <span className="text-body-sm text-muted-foreground">Total</span>
-                      <span className="text-h4 font-bold text-heading">$3,250.00</span>
+                      <span className="text-h4 font-bold text-heading">{formatCurrency(3250)}</span>
                     </div>
                   </div>
                   

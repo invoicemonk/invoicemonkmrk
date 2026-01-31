@@ -36,8 +36,13 @@ export const enUS: LocaleConfig = {
     },
   },
   pricing: {
-    starter: 9,
-    pro: 19,
-    business: 39,
+    free: 0,
+    professional: 5,
+    business: 19,
+    annualMultiplier: 0.8, // 20% off = 80% of monthly x 12
+  },
+  pricingContent: {
+    annualSavingsText: "Save 20%",
+    starterAvailable: false,
   },
 };

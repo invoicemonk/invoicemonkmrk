@@ -144,7 +144,7 @@ const Expenses = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-display text-heading mb-6"
               >
-                Track every dollar with{' '}
+                Track every expense with{' '}
                 <span className="font-serif italic text-primary">ease</span>
               </motion.h1>
 

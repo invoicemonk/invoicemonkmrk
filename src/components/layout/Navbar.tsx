@@ -51,6 +51,8 @@ const products = [
 ];
 
 const navLinks = [
+  { name: 'Guides', href: '/guides' },
+  { name: 'Blog', href: '/blog' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Why Invoicemonk', href: '/why-invoicemonk' },
 ];

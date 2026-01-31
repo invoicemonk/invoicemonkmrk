@@ -30,9 +30,20 @@ import BlogPost from "./pages/BlogPost";
 import AuthorPage from "./pages/AuthorPage";
 import FreeInvoiceGenerator from "./pages/FreeInvoiceGenerator";
 import Freelancers from "./pages/Freelancers";
+import Consultants from "./pages/Consultants";
+import Contractors from "./pages/Contractors";
 import SmallBusinesses from "./pages/SmallBusinesses";
 import Developer from "./pages/Developer";
 import ClientManagement from "./pages/features/ClientManagement";
+
+// Guide pages
+import GuidesIndex from "./pages/guides/GuidesIndex";
+import InvoicingGuide from "./pages/guides/InvoicingGuide";
+import GettingPaidGuide from "./pages/guides/GettingPaidGuide";
+import BusinessFinancesGuide from "./pages/guides/BusinessFinancesGuide";
+import TaxComplianceGuide from "./pages/guides/TaxComplianceGuide";
+import FreelancingGuide from "./pages/guides/FreelancingGuide";
+import EstimatesGuide from "./pages/guides/EstimatesGuide";
 
 const queryClient = new QueryClient();
 
@@ -69,11 +80,22 @@ const App = () => (
             
             {/* Audience pages */}
             <Route path="/freelancers" element={<Freelancers />} />
+            <Route path="/consultants" element={<Consultants />} />
+            <Route path="/contractors" element={<Contractors />} />
             <Route path="/small-businesses" element={<SmallBusinesses />} />
             <Route path="/developer" element={<Developer />} />
             
             {/* Feature sub-pages */}
             <Route path="/features/client-management" element={<ClientManagement />} />
+            
+            {/* Guide pages */}
+            <Route path="/guides" element={<GuidesIndex />} />
+            <Route path="/guides/invoicing" element={<InvoicingGuide />} />
+            <Route path="/guides/getting-paid" element={<GettingPaidGuide />} />
+            <Route path="/guides/business-finances" element={<BusinessFinancesGuide />} />
+            <Route path="/guides/tax-compliance" element={<TaxComplianceGuide />} />
+            <Route path="/guides/freelancing" element={<FreelancingGuide />} />
+            <Route path="/guides/estimates" element={<EstimatesGuide />} />
             
             {/* Legacy redirects - maintain old WordPress URLs */}
             <Route path="/features" element={<Redirect to="/why-invoicemonk" />} />

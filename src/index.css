@@ -196,3 +196,81 @@ html {
     animation-delay: 500ms;
   }
 }
+
+/* Article Typography - Blog Content Styling */
+@layer components {
+  .prose {
+    /* Headings */
+    --tw-prose-headings: hsl(var(--foreground));
+    
+    /* Body text */
+    --tw-prose-body: hsl(var(--muted-foreground));
+    
+    /* Links */
+    --tw-prose-links: hsl(var(--primary));
+    
+    /* Bold text */
+    --tw-prose-bold: hsl(var(--foreground));
+    
+    /* Bullets and numbers */
+    --tw-prose-bullets: hsl(var(--primary));
+    --tw-prose-counters: hsl(var(--primary));
+    
+    /* Quotes */
+    --tw-prose-quotes: hsl(var(--foreground));
+    --tw-prose-quote-borders: hsl(var(--primary));
+    
+    /* Code */
+    --tw-prose-code: hsl(var(--foreground));
+    
+    /* Horizontal rules */
+    --tw-prose-hr: hsl(var(--border));
+  }
+  
+  /* Enhanced spacing for readability */
+  .prose h2 {
+    @apply mt-12 mb-6 text-2xl font-bold;
+  }
+  
+  .prose h3 {
+    @apply mt-8 mb-4 text-xl font-semibold;
+  }
+  
+  .prose p {
+    @apply mb-6 leading-relaxed;
+  }
+  
+  .prose ul, .prose ol {
+    @apply my-6 pl-6;
+  }
+  
+  .prose li {
+    @apply mb-3;
+  }
+  
+  .prose a {
+    @apply font-medium underline underline-offset-4 hover:text-primary/80 transition-colors;
+  }
+  
+  .prose strong {
+    @apply font-semibold text-foreground;
+  }
+  
+  .prose blockquote {
+    @apply border-l-4 border-primary pl-6 italic my-8;
+  }
+  
+  /* Dark mode overrides */
+  .dark .prose {
+    --tw-prose-headings: hsl(var(--foreground));
+    --tw-prose-body: hsl(var(--muted-foreground));
+    --tw-prose-links: hsl(var(--primary));
+    --tw-prose-bold: hsl(var(--foreground));
+    --tw-prose-bullets: hsl(var(--primary));
+    --tw-prose-counters: hsl(var(--primary));
+    --tw-prose-quotes: hsl(var(--foreground));
+    --tw-prose-quote-borders: hsl(var(--primary));
+    --tw-prose-code: hsl(var(--foreground));
+    --tw-prose-hr: hsl(var(--border));
+  }
+}

@@ -37,9 +37,17 @@ export interface LocaleContent {
 }
 
 export interface LocalePricing {
-  starter: number;
-  pro: number;
-  business: number;
+  free: number;              // Always 0
+  starter?: number;          // Nigeria only
+  professional: number;      // Main paid tier
+  business: number;          // Enterprise tier
+  annualMultiplier: number;  // 10 for NG (10 months), 0.8 for intl (20% off)
+}
+
+export interface LocalePricingContent {
+  annualSavingsText: string;  // "2 months free" or "Save 20%"
+  starterAvailable: boolean;  // true for NG only
+  currencyNote?: string;      // Optional note about currency
 }
 
 export interface LocaleConfig {
@@ -50,6 +58,7 @@ export interface LocaleConfig {
   currency: LocaleCurrency;
   content: LocaleContent;
   pricing: LocalePricing;
+  pricingContent: LocalePricingContent;
 }
 
 export type SupportedCountry = "NG" | "US" | "CA" | "GB" | "AU";

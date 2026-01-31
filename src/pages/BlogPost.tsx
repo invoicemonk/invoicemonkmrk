@@ -13,6 +13,7 @@ import {
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { AuthorCard } from '@/components/blog/AuthorCard';
 import { ClusterNavigation } from '@/components/blog/ClusterNavigation';
+import { ClusterTopicMap } from '@/components/blog/ClusterTopicMap';
 import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
 import { PillarBadge } from '@/components/blog/PillarBadge';
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
@@ -46,6 +47,9 @@ const BlogPost = () => {
   const { pillar, clusterType } = getPostClusterInfo(post.slug);
   const relatedPosts = getRelatedPostsEnhanced(post.slug, 3);
   const clusterPosts = pillar ? getPostsForPillar(pillar.id) : [];
+  
+  // Find the hub post for this cluster (the pillar content page)
+  const hubPost = clusterPosts.find(p => p.pillarContent);
   
   const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
     year: 'numeric',
@@ -87,7 +91,7 @@ const BlogPost = () => {
   const ArticleContent = () => (
     <>
       <div 
-        className="prose prose-lg dark:prose-invert prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-a:text-primary prose-li:text-muted-foreground max-w-none"
+        className="prose prose-lg dark:prose-invert max-w-none"
         dangerouslySetInnerHTML={{ __html: post.content }}
       />
 
@@ -242,6 +246,15 @@ const BlogPost = () => {
               <div className="grid lg:grid-cols-[1fr_300px] gap-8">
                 {/* Article Content */}
                 <div>
+                  {/* Cluster Topic Map for cluster articles */}
+                  {pillar && clusterPosts.length > 1 && (
+                    <ClusterTopicMap
+                      pillar={pillar}
+                      currentSlug={post.slug}
+                      clusterPosts={clusterPosts}
+                      hubPost={hubPost}
+                    />
+                  )}
                   <ArticleContent />
                 </div>
 

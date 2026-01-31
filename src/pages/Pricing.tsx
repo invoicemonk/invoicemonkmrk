@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Check, Shield, ArrowRight } from 'lucide-react';
+import { Check, Shield, ArrowRight, Sparkles } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { useLocale } from '@/hooks/useLocale';
+import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
 
 const faqs = [
   {
@@ -28,45 +29,13 @@ const faqs = [
 const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState(true);
   const { locale, formatCurrency } = useLocale();
-  const { pricing } = locale;
+  const plans = getPricingPlans(locale);
+  const { pricingContent } = locale;
 
-  // Calculate annual prices (20% discount)
-  const getPrice = (tier: 'starter' | 'pro' | 'business', annual: boolean) => {
-    const basePrice = pricing[tier];
-    return annual ? Math.round(basePrice * 0.8) : basePrice;
-  };
-
-  const plans = [
-    {
-      name: 'Free',
-      price: { monthly: 0, annual: 0 },
-      description: 'For getting started',
-      features: ['Up to 5 invoices/month', 'Basic templates', 'Email support', 'Payment tracking'],
-      cta: 'Get Started',
-      popular: false,
-      compliance: false,
-    },
-    {
-      name: 'Pro',
-      price: { monthly: pricing.pro, annual: getPrice('pro', true) },
-      description: 'For growing businesses',
-      features: ['Unlimited invoices', 'Immutable records', 'Full audit trails', 'Recurring invoices', 'Priority support', 'Custom branding', 'Invoice verification'],
-      cta: 'Start Free Trial',
-      popular: true,
-      badge: 'Most Popular',
-      compliance: true,
-    },
-    {
-      name: 'Business',
-      price: { monthly: pricing.business, annual: getPrice('business', true) },
-      description: 'For teams and enterprises',
-      features: ['Everything in Pro', 'Multi-user access', 'Org-wide audit logs', 'Role-based access', 'API access', 'Dedicated support', 'Custom integrations'],
-      cta: 'Contact Sales',
-      popular: false,
-      badge: 'Enterprise',
-      compliance: true,
-    },
-  ];
+  // Determine grid layout based on number of plans
+  const gridCols = plans.length === 4 
+    ? 'md:grid-cols-2 lg:grid-cols-4' 
+    : 'md:grid-cols-3';
 
   return (
     <Layout>
@@ -102,84 +71,94 @@ const Pricing = () => {
                 }`}
               >
                 Annual
-                <span className="ml-1.5 text-wave-orange font-semibold">Save 20%</span>
+                <span className="ml-1.5 text-wave-orange font-semibold">
+                  {pricingContent.annualSavingsText}
+                </span>
               </button>
             </div>
           </AnimatedSection>
 
           {/* Pricing Cards */}
-          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
-            {plans.map((plan) => (
-              <StaggerItem key={plan.name}>
-                <motion.div 
-                  whileHover={{ y: -8 }} 
-                  className={`relative h-full bg-card rounded-3xl p-8 border-2 transition-all ${
-                    plan.popular 
-                      ? 'border-primary shadow-soft-xl' 
-                      : 'border-border hover:border-primary/30'
-                  }`}
-                >
-                  {plan.badge && (
-                    <span className={`absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1.5 text-body-sm font-semibold rounded-full flex items-center gap-1.5 ${
+          <StaggerContainer className={`grid ${gridCols} gap-6 lg:gap-8 max-w-6xl mx-auto`}>
+            {plans.map((plan) => {
+              const price = calculatePrice(locale, plan.id, isAnnual);
+              
+              return (
+                <StaggerItem key={plan.id}>
+                  <motion.div 
+                    whileHover={{ y: -8 }} 
+                    className={`relative h-full bg-card rounded-3xl p-8 border-2 transition-all ${
                       plan.popular 
-                        ? 'bg-accent-orange text-accent-orange-foreground' 
-                        : 'bg-primary text-primary-foreground'
-                    }`}>
-                      {plan.compliance && <Shield className="w-3.5 h-3.5" />}
-                      {plan.badge}
-                    </span>
-                  )}
-                  
-                  <div className="text-center mb-6">
-                    <h3 className="text-h3 text-heading mb-1">{plan.name}</h3>
-                    <p className="text-body-sm text-muted-foreground">{plan.description}</p>
-                  </div>
-                  
-                  <div className="text-center mb-8">
-                    <span className="text-display text-heading">
-                      {formatCurrency(isAnnual ? plan.price.annual : plan.price.monthly)}
-                    </span>
-                    <span className="text-body text-muted-foreground">/month</span>
-                    {isAnnual && plan.price.annual > 0 && (
-                      <p className="text-body-sm text-muted-foreground mt-1">
-                        Billed annually
-                      </p>
-                    )}
-                  </div>
-                  
-                  <Button 
-                    asChild 
-                    size="lg"
-                    className={`w-full rounded-full mb-6 h-12 ${
-                      plan.popular 
-                        ? 'bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground' 
-                        : ''
+                        ? 'border-primary shadow-soft-xl' 
+                        : 'border-border hover:border-primary/30'
                     }`}
-                    variant={plan.popular ? 'default' : 'outline'}
                   >
-                    <a href="https://app.invoicemonk.com/signup" className="flex items-center justify-center gap-2">
-                      {plan.cta}
-                      <ArrowRight className="w-4 h-4" />
-                    </a>
-                  </Button>
-                  
-                  <ul className="space-y-3">
-                    {plan.features.map((feature) => (
-                      <li key={feature} className="flex items-center gap-3 text-body-sm">
-                        <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 ${
-                          plan.compliance ? 'bg-wave-green/10' : 'bg-muted'
-                        }`}>
-                          <Check className={`w-3 h-3 ${
-                            plan.compliance ? 'text-wave-green' : 'text-muted-foreground'
-                          }`} />
-                        </div>
-                        <span className="text-foreground">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </motion.div>
-              </StaggerItem>
-            ))}
+                    {plan.badge && (
+                      <span className={`absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1.5 text-body-sm font-semibold rounded-full flex items-center gap-1.5 ${
+                        plan.popular 
+                          ? 'bg-accent-orange text-accent-orange-foreground' 
+                          : 'bg-primary text-primary-foreground'
+                      }`}>
+                        {plan.popular ? (
+                          <Sparkles className="w-3.5 h-3.5" />
+                        ) : (
+                          <Shield className="w-3.5 h-3.5" />
+                        )}
+                        {plan.badge}
+                      </span>
+                    )}
+                    
+                    <div className="text-center mb-6">
+                      <h3 className="text-h3 text-heading mb-1">{plan.name}</h3>
+                      <p className="text-body-sm text-muted-foreground">{plan.description}</p>
+                    </div>
+                    
+                    <div className="text-center mb-8">
+                      <span className="text-display text-heading">
+                        {formatCurrency(price.monthly)}
+                      </span>
+                      <span className="text-body text-muted-foreground">/month</span>
+                      {isAnnual && price.total > 0 && (
+                        <p className="text-body-sm text-muted-foreground mt-1">
+                          {formatCurrency(price.total)}/year
+                        </p>
+                      )}
+                    </div>
+                    
+                    <Button 
+                      asChild 
+                      size="lg"
+                      className={`w-full rounded-full mb-6 h-12 ${
+                        plan.popular 
+                          ? 'bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground' 
+                          : ''
+                      }`}
+                      variant={plan.popular ? 'default' : 'outline'}
+                    >
+                      <a href={plan.ctaLink} className="flex items-center justify-center gap-2">
+                        {plan.cta}
+                        <ArrowRight className="w-4 h-4" />
+                      </a>
+                    </Button>
+                    
+                    <ul className="space-y-3">
+                      {plan.features.map((feature) => (
+                        <li key={feature} className="flex items-center gap-3 text-body-sm">
+                          <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 ${
+                            plan.compliance ? 'bg-wave-green/10' : 'bg-muted'
+                          }`}>
+                            <Check className={`w-3 h-3 ${
+                              plan.compliance ? 'text-wave-green' : 'text-muted-foreground'
+                            }`} />
+                          </div>
+                          <span className="text-foreground">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </motion.div>
+                </StaggerItem>
+              );
+            })}
           </StaggerContainer>
         </div>
       </section>

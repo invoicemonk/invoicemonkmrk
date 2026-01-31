@@ -18,7 +18,7 @@ const personas = [
     title: 'Consultants',
     description: 'Professional invoicing with compliance features your enterprise clients expect.',
     image: personaConsultant,
-    link: '/invoicing',
+    link: '/consultants',
   },
   {
     title: 'Small Businesses',
@@ -30,7 +30,7 @@ const personas = [
     title: 'Contractors',
     description: 'Manage multiple clients, track project expenses, and stay organized.',
     image: personaContractor,
-    link: '/invoicing',
+    link: '/contractors',
   },
 ];
 

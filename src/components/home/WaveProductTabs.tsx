@@ -32,7 +32,7 @@ const products = [
     id: 'expenses',
     name: 'Expenses',
     icon: Wallet,
-    title: 'Track every dollar with ease',
+    title: 'Track every expense with ease',
     description: 'Capture receipts, categorize spending automatically, and always know where your money goes. Tax time becomes a breeze.',
     features: ['Receipt scanning', 'Auto-categorization', 'Tax categories', 'Expense reports'],
     link: '/expenses',

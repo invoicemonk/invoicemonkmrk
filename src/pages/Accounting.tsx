@@ -12,6 +12,7 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { useLocale } from '@/hooks/useLocale';
 
 const automationFeatures = [
   {
@@ -116,6 +117,8 @@ const accountingFAQs = [
 ];
 
 const Accounting = () => {
+  const { formatCurrency } = useLocale();
+
   return (
     <Layout>
       {/* Hero Section */}
@@ -213,16 +216,16 @@ const Accounting = () => {
                     <div className="space-y-2">
                       <div className="flex justify-between text-body-sm">
                         <span className="text-foreground">Total Assets</span>
-                        <span className="font-medium text-heading">$124,500</span>
+                        <span className="font-medium text-heading">{formatCurrency(124500)}</span>
                       </div>
                       <div className="flex justify-between text-body-sm">
                         <span className="text-foreground">Total Liabilities</span>
-                        <span className="font-medium text-heading">$42,300</span>
+                        <span className="font-medium text-heading">{formatCurrency(42300)}</span>
                       </div>
                       <div className="h-px bg-border my-2" />
                       <div className="flex justify-between text-body-sm font-semibold">
                         <span className="text-primary">Equity</span>
-                        <span className="text-primary">$82,200</span>
+                        <span className="text-primary">{formatCurrency(82200)}</span>
                       </div>
                     </div>
                   </div>
@@ -230,11 +233,11 @@ const Accounting = () => {
                   <div className="grid grid-cols-2 gap-3">
                     <div className="bg-wave-green/10 rounded-xl p-3">
                       <div className="text-caption text-wave-green mb-1">Revenue</div>
-                      <div className="text-h4 font-bold text-wave-green">$48,200</div>
+                      <div className="text-h4 font-bold text-wave-green">{formatCurrency(48200)}</div>
                     </div>
                     <div className="bg-wave-orange/10 rounded-xl p-3">
                       <div className="text-caption text-wave-orange mb-1">Expenses</div>
-                      <div className="text-h4 font-bold text-wave-orange">$31,400</div>
+                      <div className="text-h4 font-bold text-wave-orange">{formatCurrency(31400)}</div>
                     </div>
                   </div>
                 </div>

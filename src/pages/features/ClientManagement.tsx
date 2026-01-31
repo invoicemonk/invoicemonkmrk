@@ -5,6 +5,7 @@ import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
+import { useLocale } from '@/hooks/useLocale';
 
 const features = [
   {
@@ -37,6 +38,14 @@ const bannerFeatures = [
 ];
 
 const ClientManagement = () => {
+  const { formatCurrency } = useLocale();
+
+  const clientData = [
+    { name: 'Acme Corporation', invoices: 8, total: 24500, status: 'Active' },
+    { name: 'Tech Startup Inc', invoices: 3, total: 8200, status: 'Active' },
+    { name: 'Design Studio Co', invoices: 12, total: 42800, status: 'Active' },
+  ];
+
   return (
     <Layout>
       {/* Hero Section - Wave style */}
@@ -132,11 +141,7 @@ const ClientManagement = () => {
                 
                 {/* Client Cards Preview */}
                 <div className="space-y-3">
-                  {[
-                    { name: 'Acme Corporation', invoices: 8, total: '$24,500', status: 'Active' },
-                    { name: 'Tech Startup Inc', invoices: 3, total: '$8,200', status: 'Active' },
-                    { name: 'Design Studio Co', invoices: 12, total: '$42,800', status: 'Active' },
-                  ].map((client, i) => (
+                  {clientData.map((client, i) => (
                     <div key={i} className="bg-muted/30 rounded-xl p-4">
                       <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-3">
@@ -156,7 +161,7 @@ const ClientManagement = () => {
                       </div>
                       <div className="flex items-center justify-between pt-2 border-t border-border/50">
                         <span className="text-caption text-muted-foreground">Total Billed</span>
-                        <span className="text-body-sm font-semibold text-heading">{client.total}</span>
+                        <span className="text-body-sm font-semibold text-heading">{formatCurrency(client.total)}</span>
                       </div>
                     </div>
                   ))}

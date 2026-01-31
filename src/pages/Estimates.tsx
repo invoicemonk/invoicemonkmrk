@@ -12,6 +12,7 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { useLocale } from '@/hooks/useLocale';
 
 const estimateTabbedFeatures = [
   {
@@ -116,6 +117,16 @@ const estimatesFAQs = [
 ];
 
 const Estimates = () => {
+  const { formatCurrency } = useLocale();
+  
+  const lineItems = [
+    { item: 'Website Design', qty: 1, price: 3500 },
+    { item: 'Development', qty: 40, price: 4000 },
+    { item: 'SEO Setup', qty: 1, price: 800 },
+  ];
+  
+  const estimateTotal = lineItems.reduce((sum, line) => sum + line.price, 0);
+
   return (
     <Layout>
       {/* Hero Section */}
@@ -219,14 +230,10 @@ const Estimates = () => {
                 
                 <div className="space-y-3 mb-4">
                   <div className="text-caption text-muted-foreground">Line Items</div>
-                  {[
-                    { item: 'Website Design', qty: 1, price: '$3,500' },
-                    { item: 'Development', qty: 40, price: '$4,000' },
-                    { item: 'SEO Setup', qty: 1, price: '$800' },
-                  ].map((line, i) => (
+                  {lineItems.map((line, i) => (
                     <div key={i} className="flex justify-between items-center text-body-sm bg-muted/30 rounded-lg px-3 py-2">
                       <span className="text-foreground">{line.item}</span>
-                      <span className="text-muted-foreground">{line.price}</span>
+                      <span className="text-muted-foreground">{formatCurrency(line.price)}</span>
                     </div>
                   ))}
                 </div>
@@ -234,7 +241,7 @@ const Estimates = () => {
                 <div className="border-t border-border pt-4 mb-4">
                   <div className="flex justify-between items-center">
                     <span className="text-body font-medium text-heading">Total</span>
-                    <span className="text-h4 font-bold text-primary">$8,300</span>
+                    <span className="text-h4 font-bold text-primary">{formatCurrency(estimateTotal)}</span>
                   </div>
                 </div>
 

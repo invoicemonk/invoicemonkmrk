@@ -36,8 +36,13 @@ export const enAU: LocaleConfig = {
     },
   },
   pricing: {
-    starter: 12,
-    pro: 25,
-    business: 49,
+    free: 0,
+    professional: 8,
+    business: 29,
+    annualMultiplier: 0.8, // 20% off
+  },
+  pricingContent: {
+    annualSavingsText: "Save 20%",
+    starterAvailable: false,
   },
 };
