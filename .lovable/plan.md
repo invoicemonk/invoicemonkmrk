@@ -1,96 +1,127 @@
 
-# Plan: Fix 404 Errors for Legacy URLs from Google Search
+# Plan: Fix Legacy Category URL 404 Errors
 
-## Problem Identified
+## Problem
 
-When users click on old URLs from Google search results like `https://www.invoicemonk.com/features/send-invoices/`, they get a 404 error. This happens because:
+Users clicking old WordPress links in Google Search like `https://www.invoicemonk.com/category/small-business/` receive 404 errors because:
 
-1. **Vercel serves the error before React loads** - The server doesn't find a matching file or redirect rule
-2. **Trailing slash mismatch** - Google may have indexed URLs with trailing slashes (`/features/send-invoices/`)
-3. **React redirects only work client-side** - The current redirects in `App.tsx` only work after the React app loads
-
----
+1. The old WordPress site used `/category/{slug}/` URL structure for blog categories
+2. The new React SPA uses query parameters: `/blog?category=Small Business`
+3. No server-side redirects exist for these legacy category URLs
 
 ## Solution
 
-Add **server-side redirects in Vercel** that handle these legacy URLs before the SPA loads. This ensures:
-- Immediate redirect (no 404)
-- Better SEO (301 permanent redirects pass link equity)
-- Both trailing slash and non-trailing slash versions work
+Add server-side redirects in `vercel.json` to redirect all legacy `/category/*` URLs to the new blog page with appropriate filters.
 
 ---
 
-## Changes Required
+## Legacy Category URLs to Redirect
 
-### 1. Update vercel.json
+Based on the blog content, these WordPress category URLs need redirecting:
 
-Add server-side redirects for all legacy `/features/*` URLs:
+| Old WordPress URL | New URL | Notes |
+|-------------------|---------|-------|
+| `/category/small-business/` | `/blog` | Main category, redirect to blog |
+| `/category/small-business` | `/blog` | Without trailing slash |
+| `/category/invoicing/` | `/blog` | Invoicing category |
+| `/category/invoicing` | `/blog` | Without trailing slash |
+| `/category/invoicing-and-billing-tips/` | `/blog` | Alternative slug |
+| `/category/invoicing-and-billing-tips` | `/blog` | Without trailing slash |
+| `/category/finance/` | `/blog` | Finance category |
+| `/category/finance` | `/blog` | Without trailing slash |
+| `/category/freelancing/` | `/blog` | Freelancing category |
+| `/category/freelancing` | `/blog` | Without trailing slash |
 
-| Old URL | New URL | Type |
-|---------|---------|------|
-| `/features` | `/why-invoicemonk` | 301 |
-| `/features/` | `/why-invoicemonk` | 301 |
-| `/features/send-invoices` | `/invoicing` | 301 |
-| `/features/send-invoices/` | `/invoicing` | 301 |
-| `/features/accept-payments` | `/payments` | 301 |
-| `/features/accept-payments/` | `/payments` | 301 |
-| `/features/estimates` | `/estimates` | 301 |
-| `/features/estimates/` | `/estimates` | 301 |
-| `/features/business-expense-tracking-app` | `/expenses` | 301 |
-| `/features/business-expense-tracking-app/` | `/expenses` | 301 |
-
-### 2. Add SPA Fallback Rule
-
-Ensure all other routes are handled by `index.html` (the React app) with a rewrite rule. This prevents 404s for valid SPA routes.
+All category pages will redirect to `/blog` since the new blog page has topic browsing built-in and categories are managed via the pillar/cluster system.
 
 ---
 
-## Files to Modify
+## Why Redirect to /blog Instead of Filtered Views?
+
+1. The new blog uses a pillar-based topic organization rather than flat categories
+2. Query parameter URLs (like `/blog?category=Small Business`) are not ideal for redirects as they may not work consistently
+3. The blog page prominently displays topic cards for easy navigation
+4. This approach is more maintainable as category names may evolve
+
+---
+
+## File Changes
 
 | File | Changes |
 |------|---------|
-| `vercel.json` | Add 10+ redirect rules for legacy URLs, add SPA fallback rewrite |
+| `vercel.json` | Add 12+ redirect rules for legacy category URLs |
 
 ---
 
 ## Technical Implementation
 
-The updated `vercel.json` will include:
+Add these redirects to `vercel.json`:
 
 ```json
 {
-  "redirects": [
-    // Existing blog redirects...
-    
-    // New feature page redirects (both with and without trailing slash)
-    {
-      "source": "/features",
-      "destination": "/why-invoicemonk",
-      "permanent": true
-    },
-    {
-      "source": "/features/",
-      "destination": "/why-invoicemonk",
-      "permanent": true
-    },
-    {
-      "source": "/features/send-invoices",
-      "destination": "/invoicing",
-      "permanent": true
-    },
-    {
-      "source": "/features/send-invoices/",
-      "destination": "/invoicing",
-      "permanent": true
-    },
-    // ... more redirects
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "source": "/category/small-business",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/small-business/",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/invoicing",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/invoicing/",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/invoicing-and-billing-tips",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/invoicing-and-billing-tips/",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/finance",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/finance/",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/freelancing",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/freelancing/",
+  "destination": "/blog",
+  "permanent": true
+}
+```
+
+Additionally, add a catch-all for any other potential category URLs:
+
+```json
+{
+  "source": "/category/:slug",
+  "destination": "/blog",
+  "permanent": true
+},
+{
+  "source": "/category/:slug/",
+  "destination": "/blog",
+  "permanent": true
 }
 ```
 
@@ -99,18 +130,18 @@ The updated `vercel.json` will include:
 ## Expected Results
 
 After deployment:
-- ✅ `invoicemonk.com/features/send-invoices` → redirects to `/invoicing`
-- ✅ `invoicemonk.com/features/send-invoices/` → redirects to `/invoicing`
-- ✅ All other valid routes work correctly
-- ✅ Google search clicks work without 404 errors
-- ✅ SEO link equity preserved via 301 permanent redirects
+- `/category/small-business/` redirects to `/blog` with 301
+- `/category/invoicing/` redirects to `/blog` with 301  
+- `/category/finance/` redirects to `/blog` with 301
+- `/category/freelancing/` redirects to `/blog` with 301
+- Any other `/category/*` URLs redirect to `/blog` with 301
+- Google search clicks work without 404 errors
+- SEO link equity preserved via 301 permanent redirects
 
 ---
 
 ## Additional Recommendations
 
-1. **Keep React redirects as backup** - The existing React redirects in `App.tsx` can remain as a fallback for edge cases
-
-2. **Monitor 404s** - After deployment, monitor for any other legacy URLs that might need redirects
-
-3. **Update Google Search Console** - Consider requesting a re-crawl of the affected URLs to update Google's index faster
+1. **Check Google Search Console** for other legacy URLs causing 404s
+2. **Consider tag URLs** - If WordPress had `/tag/{slug}/` URLs, those may also need redirects
+3. **Author URLs** - If there were `/author/{name}/` URLs, check if redirects are needed
