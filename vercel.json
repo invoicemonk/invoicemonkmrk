@@ -129,6 +129,62 @@
       "source": "/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management/",
       "destination": "/blog/best-personal-finance-blogs",
       "permanent": true
+    },
+    {
+      "source": "/features",
+      "destination": "/why-invoicemonk",
+      "permanent": true
+    },
+    {
+      "source": "/features/",
+      "destination": "/why-invoicemonk",
+      "permanent": true
+    },
+    {
+      "source": "/features/send-invoices",
+      "destination": "/invoicing",
+      "permanent": true
+    },
+    {
+      "source": "/features/send-invoices/",
+      "destination": "/invoicing",
+      "permanent": true
+    },
+    {
+      "source": "/features/accept-payments",
+      "destination": "/payments",
+      "permanent": true
+    },
+    {
+      "source": "/features/accept-payments/",
+      "destination": "/payments",
+      "permanent": true
+    },
+    {
+      "source": "/features/estimates",
+      "destination": "/estimates",
+      "permanent": true
+    },
+    {
+      "source": "/features/estimates/",
+      "destination": "/estimates",
+      "permanent": true
+    },
+    {
+      "source": "/features/business-expense-tracking-app",
+      "destination": "/expenses",
+      "permanent": true
+    },
+    {
+      "source": "/features/business-expense-tracking-app/",
+      "destination": "/expenses",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
