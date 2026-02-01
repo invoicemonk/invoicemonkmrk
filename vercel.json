@@ -179,6 +179,66 @@
       "source": "/features/business-expense-tracking-app/",
       "destination": "/expenses",
       "permanent": true
+    },
+    {
+      "source": "/category/small-business",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/small-business/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/invoicing",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/invoicing/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/invoicing-and-billing-tips",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/invoicing-and-billing-tips/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/finance",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/finance/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/freelancing",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/freelancing/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug/",
+      "destination": "/blog",
+      "permanent": true
     }
   ],
   "rewrites": [
