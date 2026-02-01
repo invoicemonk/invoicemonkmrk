@@ -1,147 +1,152 @@
 
-# Plan: Fix Legacy Category URL 404 Errors
+
+# Plan: Remove Internal Pillar and Priority Tags from Public-Facing Pages
 
 ## Problem
 
-Users clicking old WordPress links in Google Search like `https://www.invoicemonk.com/category/small-business/` receive 404 errors because:
+Per your previous agreement, "pillar" and "priority" metadata were intended for internal organizational use only and should be hidden from public-facing article pages and cards. However, these tags are still visible because the removal was never implemented.
 
-1. The old WordPress site used `/category/{slug}/` URL structure for blog categories
-2. The new React SPA uses query parameters: `/blog?category=Small Business`
-3. No server-side redirects exist for these legacy category URLs
+## What's Currently Showing (as seen in your screenshots)
 
-## Solution
-
-Add server-side redirects in `vercel.json` to redirect all legacy `/category/*` URLs to the new blog page with appropriate filters.
-
----
-
-## Legacy Category URLs to Redirect
-
-Based on the blog content, these WordPress category URLs need redirecting:
-
-| Old WordPress URL | New URL | Notes |
-|-------------------|---------|-------|
-| `/category/small-business/` | `/blog` | Main category, redirect to blog |
-| `/category/small-business` | `/blog` | Without trailing slash |
-| `/category/invoicing/` | `/blog` | Invoicing category |
-| `/category/invoicing` | `/blog` | Without trailing slash |
-| `/category/invoicing-and-billing-tips/` | `/blog` | Alternative slug |
-| `/category/invoicing-and-billing-tips` | `/blog` | Without trailing slash |
-| `/category/finance/` | `/blog` | Finance category |
-| `/category/finance` | `/blog` | Without trailing slash |
-| `/category/freelancing/` | `/blog` | Freelancing category |
-| `/category/freelancing` | `/blog` | Without trailing slash |
-
-All category pages will redirect to `/blog` since the new blog page has topic browsing built-in and categories are managed via the pillar/cluster system.
+| Element | Where | Example |
+|---------|-------|---------|
+| Pillar badge with topic name | Article cards, Blog page | "Invoicing Mastery" |
+| "• Pillar" suffix | Pillar articles | "Invoicing Mastery • Pillar" |
+| "Complete Guide" badge | Pillar articles | Red "Complete Guide" badge |
+| "Pillar Guide" badge | Featured cards | "Pillar Guide" badge |
+| Priority badge | Article pages | "Priority: P1", "Priority: P2" |
+| Colored top bar | Article cards | Red/orange indicator strip |
 
 ---
 
-## Why Redirect to /blog Instead of Filtered Views?
+## Changes Required
 
-1. The new blog uses a pillar-based topic organization rather than flat categories
-2. Query parameter URLs (like `/blog?category=Small Business`) are not ideal for redirects as they may not work consistently
-3. The blog page prominently displays topic cards for easy navigation
-4. This approach is more maintainable as category names may evolve
+### 1. BlogPost.tsx - Article Page
+
+Remove from the badges section:
+- **PillarBadge component** - Replace with simple category badge
+- **"Complete Guide" badge** - Remove entirely
+- **"Priority: {post.priority}" badge** - Remove entirely
+- **Colored pillar indicator bar on hero image** - Remove
+
+Keep:
+- Simple category badge (e.g., "Invoicing", "Freelancing")
+- Date, read time, author info
+
+### 2. BlogPostCard.tsx - Article Cards
+
+Remove:
+- **PillarBadge component usage** - Replace with category badge
+- **"Pillar Guide" badge** on featured cards
+- **Colored top indicator bar** on cards
+
+Keep:
+- Simple category badge
+- All other card content (title, excerpt, author, date)
+
+### 3. Remove showPillar Prop Usage
+
+Update these files to stop passing `showPillar`:
+- `Blog.tsx` (4 instances)
+- `BlogPost.tsx` (related posts section)
+- `WaveBlogPreview.tsx`
+- `HomeBlogSection.tsx`
+
+### 4. Clean Up Unused Components (Optional)
+
+The `PillarBadge` component can be removed if no longer needed, or kept for internal admin use.
 
 ---
 
-## File Changes
+## File Changes Summary
 
 | File | Changes |
 |------|---------|
-| `vercel.json` | Add 12+ redirect rules for legacy category URLs |
+| `src/pages/BlogPost.tsx` | Remove pillar badge, priority badge, complete guide badge, colored bar |
+| `src/components/blog/BlogPostCard.tsx` | Remove pillar badge, pillar guide badge, colored bar, simplify to category-only |
+| `src/pages/Blog.tsx` | Remove `showPillar` prop from BlogPostCard calls |
+| `src/components/home/WaveBlogPreview.tsx` | Remove `showPillar` prop |
+| `src/components/home/HomeBlogSection.tsx` | Remove `showPillar` prop |
 
 ---
 
-## Technical Implementation
+## Before vs After
 
-Add these redirects to `vercel.json`:
+### Article Page Badges
 
-```json
-{
-  "source": "/category/small-business",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/small-business/",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/invoicing",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/invoicing/",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/invoicing-and-billing-tips",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/invoicing-and-billing-tips/",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/finance",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/finance/",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/freelancing",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/freelancing/",
-  "destination": "/blog",
-  "permanent": true
-}
+**Before:**
+```text
+[Invoicing Mastery • Pillar] [Complete Guide] [Priority: P1]
 ```
 
-Additionally, add a catch-all for any other potential category URLs:
+**After:**
+```text
+[Invoicing]
+```
 
-```json
-{
-  "source": "/category/:slug",
-  "destination": "/blog",
-  "permanent": true
-},
-{
-  "source": "/category/:slug/",
-  "destination": "/blog",
-  "permanent": true
-}
+### Article Card Badges
+
+**Before:**
+```text
+[Invoicing Mastery] with colored indicator bar
+```
+
+**After:**
+```text
+[Invoicing]
 ```
 
 ---
 
-## Expected Results
+## Technical Details
 
-After deployment:
-- `/category/small-business/` redirects to `/blog` with 301
-- `/category/invoicing/` redirects to `/blog` with 301  
-- `/category/finance/` redirects to `/blog` with 301
-- `/category/freelancing/` redirects to `/blog` with 301
-- Any other `/category/*` URLs redirect to `/blog` with 301
-- Google search clicks work without 404 errors
-- SEO link equity preserved via 301 permanent redirects
+### BlogPost.tsx Changes
+
+Lines 188-206 will change from:
+```jsx
+<div className="flex flex-wrap justify-center gap-2 mb-4">
+  {pillar ? (
+    <PillarBadge pillar={pillar} clusterType={clusterType} size="md" />
+  ) : (
+    <Badge variant="secondary">
+      {post.category}
+    </Badge>
+  )}
+  {post.pillarContent && (
+    <Badge className="bg-primary text-primary-foreground">
+      Complete Guide
+    </Badge>
+  )}
+  {post.priority && (
+    <Badge variant="outline" className="text-xs">
+      Priority: {post.priority}
+    </Badge>
+  )}
+</div>
+```
+
+To:
+```jsx
+<div className="flex flex-wrap justify-center gap-2 mb-4">
+  <Badge variant="secondary">
+    {post.category}
+  </Badge>
+</div>
+```
+
+### BlogPostCard.tsx Changes
+
+The conditional pillar badge logic will be replaced with simple category badges only.
 
 ---
 
-## Additional Recommendations
+## What Will Still Work
 
-1. **Check Google Search Console** for other legacy URLs causing 404s
-2. **Consider tag URLs** - If WordPress had `/tag/{slug}/` URLs, those may also need redirects
-3. **Author URLs** - If there were `/author/{name}/` URLs, check if redirects are needed
+- Topic-based navigation on the Blog page (pillar cards)
+- Related posts from same topic cluster
+- Cluster navigation sidebar (internal linking)
+- Breadcrumb showing topic path
+- SEO schema with topic information (not visible to users)
+
+The pillar/cluster system continues to work for internal organization and SEO - it just won't be visible to readers on public-facing pages.
+
