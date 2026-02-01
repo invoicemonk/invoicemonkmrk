@@ -18,7 +18,7 @@ const products = [
     href: '/expenses', 
     icon: Wallet, 
     description: 'Track and manage expenses',
-    status: 'coming-soon'
+    status: 'available'
   },
   { 
     name: 'Payments', 
@@ -32,7 +32,7 @@ const products = [
     href: '/accounting', 
     icon: Calculator, 
     description: 'Full-featured accounting',
-    status: 'coming-soon'
+    status: 'available'
   },
   { 
     name: 'Estimates', 

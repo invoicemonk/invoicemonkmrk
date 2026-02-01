@@ -5,9 +5,9 @@ const footerLinks = {
   platform: [
     { name: 'Invoicing', href: '/invoicing', badge: 'Available' },
     { name: 'Client Management', href: '/features/client-management', badge: 'Available' },
-    { name: 'Expenses', href: '/expenses', badge: 'Soon' },
+    { name: 'Expenses', href: '/expenses', badge: 'Available' },
     { name: 'Payments', href: '/payments', badge: 'Soon' },
-    { name: 'Accounting', href: '/accounting', badge: 'Soon' },
+    { name: 'Accounting', href: '/accounting', badge: 'Available' },
     { name: 'Estimates', href: '/estimates', badge: 'Soon' },
     { name: 'Receipts', href: '/receipts', badge: 'Soon' },
   ],
