@@ -12,6 +12,8 @@ import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
+import { ServiceSchema } from '@/components/seo/ServiceSchema';
+import { SEOHead } from '@/components/seo/SEOHead';
 
 const automationFeatures = [
   {
@@ -117,6 +119,18 @@ const Expenses = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Business Expense Tracking Software | Receipt Scanning | Invoicemonk"
+        description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports. Integrated with invoicing."
+        canonical="https://invoicemonk.com/expenses"
+      />
+      <ServiceSchema
+        serviceName="Invoicemonk Expense Tracking"
+        serviceType="Expense Management Software"
+        description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports."
+        url="https://invoicemonk.com/expenses"
+      />
+      
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -315,7 +329,7 @@ const Expenses = () => {
       <WaveBlogPreview
         title="Expense management tips"
         subtitle="Learn how to track expenses more efficiently."
-        category="Small Business"
+        pillarId="business-finances"
       />
 
       {/* FAQ Section */}

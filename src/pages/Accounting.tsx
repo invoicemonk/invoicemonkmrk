@@ -13,6 +13,8 @@ import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
+import { ServiceSchema } from '@/components/seo/ServiceSchema';
+import { SEOHead } from '@/components/seo/SEOHead';
 
 const automationFeatures = [
   {
@@ -129,6 +131,18 @@ const Accounting = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Small Business Accounting Software | Double-Entry Bookkeeping | Invoicemonk"
+        description="Complete accounting software with double-entry bookkeeping, financial statements, and tax reports. Designed for small businesses and freelancers."
+        canonical="https://invoicemonk.com/accounting"
+      />
+      <ServiceSchema
+        serviceName="Invoicemonk Accounting Software"
+        serviceType="Accounting Software"
+        description="Complete accounting software with double-entry bookkeeping, financial statements, and tax-ready reports for small businesses."
+        url="https://invoicemonk.com/accounting"
+      />
+      
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -378,7 +392,7 @@ const Accounting = () => {
       <WaveBlogPreview
         title="Learn about small business accounting"
         subtitle="Tips and guides to help you manage your finances."
-        category="Small Business"
+        pillarId="business-finances"
       />
 
       {/* FAQ Section */}
