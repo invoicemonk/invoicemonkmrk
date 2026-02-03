@@ -294,7 +294,7 @@
   <!-- GETTING PAID CLUSTER -->
   <!-- ============================================ -->
   <url>
-    <loc>https://invoicemonk.com/blog/late-payment-handling-strategies</loc>
+    <loc>https://invoicemonk.com/blog/how-to-handle-late-payments-professionally</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -319,6 +319,30 @@
   </url>
   <url>
     <loc>https://invoicemonk.com/blog/cash-flow-forecasting-for-freelancers</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/setting-up-automatic-payment-reminders</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/mobile-payment-options-for-small-business</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/international-payment-fees-explained</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/payment-terms-comparison-net-30-vs-net-15</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -369,12 +393,36 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/quarterly-tax-payment-guide</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/business-tax-calendar-by-country</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/business-record-keeping-requirements</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/tax-software-integration-guide</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   
   <!-- ============================================ -->
   <!-- INVOICING MASTERY CLUSTER -->
   <!-- ============================================ -->
   <url>
-    <loc>https://invoicemonk.com/blog/invoice-numbering-systems-and-best-practices</loc>
+    <loc>https://invoicemonk.com/blog/invoice-numbering-best-practices</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -411,6 +459,30 @@
   </url>
   <url>
     <loc>https://invoicemonk.com/blog/invoice-mistakes-that-cost-you-money</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/digital-vs-paper-invoices-pros-and-cons</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/invoice-design-professional-branding-tips</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/proforma-invoice-vs-commercial-invoice</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/what-is-an-invoice-definition-guide</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -501,12 +573,36 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/freelance-portfolio-best-practices</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/finding-your-first-freelance-clients</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/managing-multiple-clients-efficiently</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/when-to-hire-help-as-a-freelancer</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   
   <!-- ============================================ -->
   <!-- PROPOSALS & ESTIMATES CLUSTER -->
   <!-- ============================================ -->
   <url>
-    <loc>https://invoicemonk.com/blog/winning-proposal-templates-by-industry</loc>
+    <loc>https://invoicemonk.com/blog/how-to-write-winning-business-proposal</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -531,6 +627,18 @@
   </url>
   <url>
     <loc>https://invoicemonk.com/blog/how-to-price-project-work</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/winning-proposal-templates-by-industry</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/proposal-vs-estimate-vs-quote-explained</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

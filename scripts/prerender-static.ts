@@ -269,11 +269,9 @@ function generateHead(seo: SEOData): string {
   const ogImage = seo.ogImage || `${BASE_URL}/og-image.png`;
   
   let head = `
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Primary Meta Tags -->
-    <title>${seo.title}</title>
     <meta name="title" content="${seo.title}" />
     <meta name="description" content="${seo.description}" />
     <meta name="author" content="Invoicemonk" />

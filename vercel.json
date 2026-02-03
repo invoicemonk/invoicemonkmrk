@@ -162,6 +162,116 @@
       "source": "/category/:slug/",
       "destination": "/blog",
       "permanent": true
+    },
+    {
+      "source": "/blog/payment-reminder-templates",
+      "destination": "/blog/payment-reminder-email-templates",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ato-australia-tax-compliance-guide",
+      "destination": "/blog/ato-invoice-requirements-australian-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hmrc-uk-tax-compliance-guide",
+      "destination": "/blog/hmrc-invoicing-rules-uk-mtd-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/blog/irs-us-tax-compliance-guide",
+      "destination": "/blog/irs-invoice-requirements-us-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cra-canada-tax-compliance-guide",
+      "destination": "/blog/cra-invoice-standards-canadian-compliance",
+      "permanent": true
+    },
+    {
+      "source": "/blog/firs-nigeria-tax-compliance-guide",
+      "destination": "/blog/firs-invoice-requirements-nigeria",
+      "permanent": true
+    },
+    {
+      "source": "/blog/graphic-designer-career-guide",
+      "destination": "/blog/how-to-become-a-good-graphic-designer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/business-budget-creation-guide",
+      "destination": "/blog/how-to-create-a-budget-for-your-small-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-personal-finance-blogs",
+      "destination": "/blog/the-10-best-personal-finance-blogs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/year-end-financial-checklist",
+      "destination": "/blog/year-end-financial-preparation",
+      "permanent": true
+    },
+    {
+      "source": "/blog/invoice-numbering-systems-and-best-practices",
+      "destination": "/blog/invoice-numbering-best-practices",
+      "permanent": true
+    },
+    {
+      "source": "/blog/late-payment-handling-strategies",
+      "destination": "/blog/how-to-handle-late-payments-professionally",
+      "permanent": true
+    },
+    {
+      "source": "/blog/proposal-followup-strategies",
+      "destination": "/blog/following-up-on-proposals",
+      "permanent": true
+    },
+    {
+      "source": "/blog/handling-proposal-rejection",
+      "destination": "/blog/proposal-rejection-next-steps",
+      "permanent": true
+    },
+    {
+      "source": "/blog/document-types-comparison",
+      "destination": "/blog/estimate-vs-quote-vs-invoice-difference",
+      "permanent": true
+    },
+    {
+      "source": "/blog/writing-winning-proposals",
+      "destination": "/blog/how-to-write-winning-business-proposal",
+      "permanent": true
+    },
+    {
+      "source": "/blog/invoice-disputes-resolution",
+      "destination": "/blog/invoice-disputes-how-to-handle-professionally",
+      "permanent": true
+    },
+    {
+      "source": "/blog/recurring-invoices-subscription-billing",
+      "destination": "/blog/recurring-invoices-automating-billing",
+      "permanent": true
+    },
+    {
+      "source": "/blog/invoice-payment-terms-guide",
+      "destination": "/blog/how-to-write-invoice-payment-terms",
+      "permanent": true
+    },
+    {
+      "source": "/blog/freelance-portfolio-building",
+      "destination": "/blog/freelance-portfolio-best-practices",
+      "permanent": true
+    },
+    {
+      "source": "/blog/freelance-pricing-strategies",
+      "destination": "/blog/pricing-your-freelance-services",
+      "permanent": true
+    },
+    {
+      "source": "/blog/freelance-contracts-essentials",
+      "destination": "/blog/freelance-contract-templates",
+      "permanent": true
     }
   ],
   "headers": [

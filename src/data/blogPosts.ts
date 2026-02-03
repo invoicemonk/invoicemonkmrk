@@ -7,6 +7,7 @@ import {
   type ClusterType,
   type ContentPriority 
 } from './topicalMap';
+import { missingBlogPosts } from './blogPostsMissing';
 
 export interface BlogPost {
   slug: string;
@@ -7966,3 +7967,6 @@ export const getPostClusterInfo = (slug: string) => {
     isOuterContent: clusterType === 'outer'
   };
 };
+
+// Merge missing blog posts into main array
+blogPosts.push(...missingBlogPosts);
