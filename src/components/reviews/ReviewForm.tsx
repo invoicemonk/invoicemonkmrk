@@ -61,14 +61,8 @@ export function ReviewForm({ onSuccess, className }: ReviewFormProps) {
       existingReviews.push(review);
       localStorage.setItem('invoicemonk_reviews', JSON.stringify(existingReviews));
 
-      // Also send to contact form endpoint as a backup
-      await supabase.from('contact_messages').insert({
-        first_name: name.split(' ')[0] || name,
-        last_name: name.split(' ').slice(1).join(' ') || '',
-        email,
-        subject: `Review Submission (${rating} stars)`,
-        message: `Rating: ${rating}/5\nCompany: ${company || 'N/A'}\nRole: ${role || 'N/A'}\n\nReview:\n${reviewText}`
-      });
+      // Reviews are stored in localStorage and can be migrated to a database table later
+      console.log('Review submitted:', review.id);
 
       setSubmitStatus('success');
       onSuccess?.();

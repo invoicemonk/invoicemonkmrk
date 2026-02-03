@@ -9,7 +9,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import { staticRoutes, getBlogRoutes, getAuthorRoutes } from './generate-routes';
+import { staticRoutes, getBlogRoutes, getAuthorRoutes } from './generate-routes.js';
 import { blogPosts } from '../src/data/blogPosts';
 import { authors } from '../src/data/authors';
 

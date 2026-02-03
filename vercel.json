@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && npx ts-node --project scripts/tsconfig.json scripts/prerender-static.ts",
+  "buildCommand": "npm run build && npx ts-node --esm --project scripts/tsconfig.json scripts/prerender-static.ts",
   "outputDirectory": "dist",
   "redirects": [
     {
