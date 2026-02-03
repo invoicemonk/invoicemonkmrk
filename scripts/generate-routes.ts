@@ -1,7 +1,7 @@
 /**
- * Route Generator for Prerendering
+ * Route Generator
  * 
- * This script extracts all routes from the application for static site generation.
+ * This script extracts all routes from the application for sitemap generation.
  * It includes both static routes and dynamic routes (blog posts, author pages, guides).
  */
 
