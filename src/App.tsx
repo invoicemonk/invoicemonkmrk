@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -50,9 +49,7 @@ import Explore from "./pages/Explore";
 
 const queryClient = new QueryClient();
 
-const App = () => {
-
-  return (
+const App = () => (
   <QueryClientProvider client={queryClient}>
     <LocaleProvider>
       <TooltipProvider>
@@ -124,7 +121,6 @@ const App = () => {
       </TooltipProvider>
     </LocaleProvider>
   </QueryClientProvider>
-  );
-};
+);
 
 export default App;
