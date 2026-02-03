@@ -153,9 +153,12 @@ const BlogPost = () => {
       />
       <BreadcrumbSchema items={breadcrumbs} />
       
-      {/* Add FAQSchema for pillar content with FAQ data */}
-      {isPillarPage && pillar && pillar.faq.length > 0 && (
+      {/* FAQ Schema - from pillar or article-specific FAQ */}
+      {isPillarPage && pillar?.faq && pillar.faq.length > 0 && (
         <FAQSchema items={pillar.faq} />
+      )}
+      {!isPillarPage && post.faq && post.faq.length > 0 && (
+        <FAQSchema items={post.faq} />
       )}
 
       <article className="py-16 lg:py-24">

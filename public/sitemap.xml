@@ -137,8 +137,22 @@
   <!-- Blog -->
   <url>
     <loc>https://invoicemonk.com/blog</loc>
-    <lastmod>2026-01-30</lastmod>
+    <lastmod>2026-02-03</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- New February 2026 Articles -->
+  <url>
+    <loc>https://invoicemonk.com/blog/how-to-create-first-professional-invoice</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/blog/invoice-mistakes-that-cost-you-money</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>

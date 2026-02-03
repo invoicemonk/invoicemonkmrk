@@ -28,6 +28,9 @@ export interface BlogPost {
   targetProduct?: string;
   semanticKeywords?: string[];
   priority?: ContentPriority;
+  
+  // FAQ for rich results
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -7644,7 +7647,21 @@ Thank you for your business!
         <li><a href="/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
         <li><a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">How to Create a Perfect Invoice Template</a></li>
       </ul>
-    `
+    `,
+    faq: [
+      {
+        question: "What information must I include on my first invoice?",
+        answer: "Your first invoice should include: your business name and contact details, client information, unique invoice number, invoice date and due date, itemized description of services/products with prices, subtotal, applicable taxes, total amount due, and clear payment instructions."
+      },
+      {
+        question: "What numbering system should I use for invoices?",
+        answer: "Use a consistent sequential system like INV-001, INV-002, or date-based formats like 2026-001. The key is to never reuse invoice numbers and maintain consistency for tax compliance and record-keeping."
+      },
+      {
+        question: "Should I use invoicing software or create invoices manually?",
+        answer: "Professional invoicing software is recommended even for beginners. It saves time, reduces errors, enables payment tracking, and businesses using invoicing software get paid an average of 14 days faster than those using manual methods."
+      }
+    ]
   },
   {
     slug: 'invoice-mistakes-that-cost-you-money',
@@ -7859,7 +7876,21 @@ Thank you for your business!
         <li><a href="/blog/setting-up-automatic-payment-reminders">Setting Up Automatic Payment Reminders</a></li>
         <li><a href="/payments">Invoicemonk Payment Collection</a></li>
       </ul>
-    `
+    `,
+    faq: [
+      {
+        question: "What is the most common invoice mistake that delays payments?",
+        answer: "The most common mistake is delaying invoice sending. Research shows that invoices sent within 24 hours of project completion get paid on average 2 weeks faster than those sent a week later."
+      },
+      {
+        question: "Why do vague invoice descriptions cause payment delays?",
+        answer: "Vague descriptions like 'consulting services' make it hard for clients to verify and approve invoices. Specific descriptions with dates, deliverables, and project references speed up approval and reduce disputes."
+      },
+      {
+        question: "How can I reduce invoice errors that hurt my cash flow?",
+        answer: "Use a pre-send checklist covering: correct client details, unique invoice number, specific due date, itemized descriptions, accurate calculations, tax compliance, and clear payment instructions. Invoicing software automates many of these checks."
+      }
+    ]
   }
 ];
 
