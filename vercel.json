@@ -272,6 +272,136 @@
       "source": "/blog/freelance-contracts-essentials",
       "destination": "/blog/freelance-contract-templates",
       "permanent": true
+    },
+    {
+      "source": "/blog/mobile-payments-small-business",
+      "destination": "/blog/mobile-payment-options-for-small-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/payment-terms-comparison-net-30-vs-others",
+      "destination": "/blog/payment-terms-comparison-net-30-vs-net-15",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tax-calendar-important-dates",
+      "destination": "/blog/business-tax-calendar-by-country",
+      "permanent": true
+    },
+    {
+      "source": "/blog/proforma-vs-commercial-invoice",
+      "destination": "/blog/proforma-invoice-vs-commercial-invoice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/record-keeping-tax-purposes",
+      "destination": "/blog/business-record-keeping-requirements",
+      "permanent": true
+    },
+    {
+      "source": "/blog/invoice-design-branding-tips",
+      "destination": "/blog/invoice-design-professional-branding-tips",
+      "permanent": true
+    },
+    {
+      "source": "/blog/quarterly-tax-payments-guide",
+      "destination": "/blog/quarterly-tax-payment-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/business-vs-personal-bank-account",
+      "destination": "/blog/business-bank-account-vs-personal",
+      "permanent": true
+    },
+    {
+      "source": "/blog/financial-reports-explained",
+      "destination": "/blog/financial-reports-every-business-needs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hiring-help-as-freelancer",
+      "destination": "/blog/when-to-hire-help-as-a-freelancer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/profit-margins-calculation-guide",
+      "destination": "/blog/profit-margins-how-to-calculate-and-improve",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cash-flow-forecasting-methods",
+      "destination": "/blog/cash-flow-forecasting-for-freelancers",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digital-vs-paper-invoices",
+      "destination": "/blog/digital-vs-paper-invoices-pros-and-cons",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tax-audit-preparation-guide",
+      "destination": "/blog/how-to-prepare-business-tax-audit",
+      "permanent": true
+    },
+    {
+      "source": "/blog/time-tracking-freelancers-guide",
+      "destination": "/blog/freelance-time-tracking-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chart-of-accounts-setup-guide",
+      "destination": "/blog/chart-of-accounts-for-small-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tax-software-integration-benefits",
+      "destination": "/blog/tax-software-integration-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/proposal-estimate-quote-differences",
+      "destination": "/blog/proposal-vs-estimate-vs-quote-explained",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatic-payment-reminders-templates",
+      "destination": "/blog/setting-up-automatic-payment-reminders",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pricing-freelance-projects",
+      "destination": "/blog/pricing-your-freelance-services",
+      "permanent": true
+    },
+    {
+      "source": "/blog/managing-multiple-clients",
+      "destination": "/blog/managing-multiple-clients-efficiently",
+      "permanent": true
+    },
+    {
+      "source": "/blog/international-payment-fees-guide",
+      "destination": "/blog/international-payment-fees-explained",
+      "permanent": true
+    },
+    {
+      "source": "/blog/accounting-books-basics-guide",
+      "destination": "/blog/the-basics-of-small-business-accounting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/finding-freelance-clients-guide",
+      "destination": "/blog/finding-your-first-freelance-clients",
+      "permanent": true
+    },
+    {
+      "source": "/blog/early-payment-discounts-strategy",
+      "destination": "/blog/early-payment-discounts-do-they-work",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tax-deductions-small-business-guide",
+      "destination": "/blog/small-business-tax-deductions-guide",
+      "permanent": true
     }
   ],
   "headers": [

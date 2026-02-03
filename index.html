@@ -19,12 +19,40 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <!-- CSS to hide prerendered content once React hydrates -->
+    <style>
+      /* Prerendered SEO content - visible to crawlers by default */
+      .prerender-seo {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        font-family: system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+      .prerender-seo h1 { font-size: 2rem; margin-bottom: 1rem; }
+      .prerender-seo h2 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+      .prerender-seo h3 { font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+      .prerender-seo p { margin-bottom: 1rem; }
+      .prerender-seo ul, .prerender-seo ol { margin-bottom: 1rem; padding-left: 1.5rem; }
+      .prerender-seo li { margin-bottom: 0.5rem; }
+      .prerender-seo a { color: #2563eb; text-decoration: underline; }
+      .prerender-seo dl { margin-bottom: 1rem; }
+      .prerender-seo dt { font-weight: bold; margin-top: 1rem; }
+      .prerender-seo dd { margin-left: 0; margin-bottom: 0.5rem; }
+      
+      /* Hide prerendered content when React app has mounted */
+      #root:not(:empty) ~ #prerender-content,
+      #root:not(:empty) + #prerender-content {
+        display: none !important;
+      }
+    </style>
   </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    
     <!-- SEO Fallback: Navigation links for crawlers that don't execute JavaScript -->
     <noscript>
       <div style="padding: 40px; max-width: 1200px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif;">

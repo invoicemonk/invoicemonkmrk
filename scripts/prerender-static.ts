@@ -12,6 +12,7 @@ import * as path from 'path';
 import { staticRoutes, getBlogRoutes, getAuthorRoutes } from './generate-routes.ts';
 import { blogPosts } from '../src/data/blogPosts';
 import { authors } from '../src/data/authors';
+import { generateContentForRoute } from './prerender-content-generators';
 
 const BASE_URL = 'https://invoicemonk.com';
 const DIST_DIR = path.join(process.cwd(), 'dist');
@@ -342,6 +343,9 @@ function createRouteHTML(route: string, template: string): void {
   const seo = getSEOData(route);
   const head = generateHead(seo);
   
+  // Generate prerendered content for SEO crawlers
+  const prerenderContent = generateContentForRoute(route);
+  
   // Replace the head content
   let html = template;
   
@@ -367,6 +371,14 @@ function createRouteHTML(route: string, template: string): void {
       const endOfCharset = html.indexOf('>', insertPoint) + 1;
       html = html.slice(0, endOfCharset) + head.replace(/<meta charset="UTF-8" \/>/, '') + html.slice(endOfCharset);
     }
+  }
+  
+  // Inject prerendered content before the #root div
+  if (prerenderContent) {
+    html = html.replace(
+      '<div id="root"></div>',
+      `<div id="prerender-content" class="prerender-seo">${prerenderContent}</div>\n    <div id="root"></div>`
+    );
   }
   
   // Determine output path
