@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.invoicemonk.com"
+        }
+      ],
+      "destination": "https://invoicemonk.com/:path*",
+      "statusCode": 301
+    },
+    {
       "source": "/the-basics-of-small-business-accounting-a-guide-for-new-entrepreneurs",
       "destination": "/blog/small-business-accounting-guide",
       "permanent": true
