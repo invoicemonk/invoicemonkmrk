@@ -404,12 +404,12 @@
       "permanent": true
     }
   ],
-  "rewrites": [
-    {
-      "source": "/((?!api|_next|assets|favicon.ico|robots.txt|sitemap.xml).*)",
-    "destination": "/index.html"
-    }
-  ],
+  "routes": [
+  {
+    "src": "/(.*)",
+    "dest": "/index.html"
+  }
+],
   "headers": [
     {
       "source": "/(.*)",
