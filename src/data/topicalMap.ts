@@ -420,7 +420,13 @@ export const pillarClusters: TopicalCluster[] = [
       'how-to-write-invoice-payment-terms',
       'recurring-invoices-automating-billing',
       'invoice-disputes-how-to-handle-professionally',
-      'credit-notes-and-invoice-corrections'
+      'credit-notes-and-invoice-corrections',
+      // New articles
+      'how-to-create-first-professional-invoice',
+      'invoice-mistakes-that-cost-you-money',
+      'digital-vs-paper-invoices-pros-and-cons',
+      'invoice-design-professional-branding-tips',
+      'proforma-invoice-vs-commercial-invoice'
     ]
   },
   {
@@ -431,7 +437,12 @@ export const pillarClusters: TopicalCluster[] = [
       'online-payment-methods-comparison-small-business',
       'payment-reminder-email-templates',
       'early-payment-discounts-do-they-work',
-      'cash-flow-forecasting-for-freelancers'
+      'cash-flow-forecasting-for-freelancers',
+      // New articles
+      'setting-up-automatic-payment-reminders',
+      'payment-terms-comparison-net-30-vs-net-15',
+      'mobile-payment-options-for-small-business',
+      'international-payment-fees-explained'
     ]
   },
   {
@@ -445,7 +456,12 @@ export const pillarClusters: TopicalCluster[] = [
       'cash-vs-accrual-accounting-explained',
       'simple-accounting-for-small-business-beginners',
       'how-to-do-accounting-small-business-step-by-step',
-      'small-business-accounting-for-owners'
+      'small-business-accounting-for-owners',
+      // New articles
+      'monthly-financial-review-checklist',
+      'business-bank-account-vs-personal',
+      'financial-reports-every-business-needs',
+      'year-end-financial-preparation'
     ]
   },
   {
@@ -458,7 +474,12 @@ export const pillarClusters: TopicalCluster[] = [
       'hmrc-invoicing-rules-uk-mtd-compliance',
       'irs-invoice-requirements-us-compliance',
       'cra-invoice-standards-canadian-compliance',
-      'ato-invoice-requirements-australian-compliance'
+      'ato-invoice-requirements-australian-compliance',
+      // New articles
+      'quarterly-tax-payment-guide',
+      'business-tax-calendar-by-country',
+      'business-record-keeping-requirements',
+      'tax-software-integration-guide'
     ]
   },
   {
@@ -469,7 +490,12 @@ export const pillarClusters: TopicalCluster[] = [
       'how-to-become-a-good-graphic-designer',
       'freelance-contract-templates',
       'pricing-your-freelance-services',
-      'freelance-time-tracking-guide'
+      'freelance-time-tracking-guide',
+      // New articles
+      'finding-your-first-freelance-clients',
+      'freelance-portfolio-best-practices',
+      'managing-multiple-clients-efficiently',
+      'when-to-hire-help-as-a-freelancer'
     ]
   },
   {
@@ -480,7 +506,11 @@ export const pillarClusters: TopicalCluster[] = [
       'estimate-vs-quote-vs-invoice-difference',
       'how-to-price-project-work',
       'following-up-on-proposals',
-      'proposal-rejection-next-steps'
+      'proposal-rejection-next-steps',
+      // New articles
+      'proposal-vs-estimate-vs-quote-explained',
+      'winning-proposal-templates-by-industry',
+      'document-types-comparison-business'
     ]
   }
 ];
