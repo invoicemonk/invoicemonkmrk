@@ -7319,7 +7319,7 @@ export const blogPosts: BlogPost[] = [
       <ul>
         <li><a href="/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
         <li><a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">5 Essential Elements of an Invoice</a></li>
-        <li><a href="/blog/invoice-payment-terms-net-30-net-60">Understanding Invoice Payment Terms</a></li>
+        <li><a href="/blog/how-to-write-invoice-payment-terms">Understanding Invoice Payment Terms</a></li>
         <li><a href="/blog/invoice-numbering-best-practices">Invoice Numbering Best Practices</a></li>
       </ul>
     `
