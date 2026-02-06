@@ -14,6 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CookiepolicyPage() {
+export default function CookiePolicyPage() {
   return <CookiePolicyComponent />;
 }

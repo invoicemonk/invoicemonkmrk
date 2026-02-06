@@ -14,6 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function TermsofservicePage() {
+export default function TermsOfServicePage() {
   return <TermsOfServiceComponent />;
 }

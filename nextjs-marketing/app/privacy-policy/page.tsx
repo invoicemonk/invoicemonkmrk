@@ -14,6 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PrivacypolicyPage() {
+export default function PrivacyPolicyPage() {
   return <PrivacyPolicyComponent />;
 }

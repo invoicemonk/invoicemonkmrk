@@ -14,6 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function FreeinvoicegeneratorPage() {
+export default function FreeInvoiceGeneratorPage() {
   return <FreeInvoiceGeneratorComponent />;
 }

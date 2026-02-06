@@ -14,6 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function WhyinvoicemonkPage() {
+export default function WhyInvoicemonkPage() {
   return <WhyInvoicemonkComponent />;
 }
