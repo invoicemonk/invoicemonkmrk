@@ -14,6 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Small-businessesPage() {
+export default function SmallbusinessesPage() {
   return <SmallBusinessesComponent />;
 }
