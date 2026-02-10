@@ -1,18 +1,10 @@
-import { Metadata } from 'next';
-import ReceiptsComponent from '@/pages/Receipts';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Receipt Management & Scanning Software | InvoiceMonk',
-  description: 'Scan, organize, and manage receipts digitally. Automatic expense categorization and tax tracking.',
-  openGraph: {
-    title: 'Receipt Management & Scanning Software',
-    description: 'Scan, organize, and manage receipts digitally. Automatic expense categorization and tax tracking.',
-    url: 'https://invoicemonk.com/receipts/',
-  },
-  alternates: {
-    canonical: 'https://invoicemonk.com/receipts/',
-  },
-};
+import dynamic from 'next/dynamic';
+
+const ReceiptsComponent = dynamic(() => import('@/pages/Receipts'), {
+  ssr: false,
+});
 
 export default function ReceiptsPage() {
   return <ReceiptsComponent />;

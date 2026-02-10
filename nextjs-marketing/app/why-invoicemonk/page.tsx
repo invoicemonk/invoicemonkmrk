@@ -1,18 +1,10 @@
-import { Metadata } from 'next';
-import WhyInvoicemonkComponent from '@/pages/WhyInvoicemonk';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Why Choose InvoiceMonk - Features & Benefits | InvoiceMonk',
-  description: 'Discover why thousands of businesses trust InvoiceMonk for invoicing, expenses, and accounting. Compliance-first, easy to use.',
-  openGraph: {
-    title: 'Why Choose InvoiceMonk - Features & Benefits',
-    description: 'Discover why thousands of businesses trust InvoiceMonk for invoicing, expenses, and accounting. Compliance-first, easy to use.',
-    url: 'https://invoicemonk.com/why-invoicemonk/',
-  },
-  alternates: {
-    canonical: 'https://invoicemonk.com/why-invoicemonk/',
-  },
-};
+import dynamic from 'next/dynamic';
+
+const WhyInvoicemonkComponent = dynamic(() => import('@/pages/WhyInvoicemonk'), {
+  ssr: false,
+});
 
 export default function WhyInvoicemonkPage() {
   return <WhyInvoicemonkComponent />;

@@ -1,18 +1,10 @@
-import { Metadata } from 'next';
-import AboutComponent from '@/pages/About';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'About InvoiceMonk - Our Story & Mission | InvoiceMonk',
-  description: 'Learn about InvoiceMonk mission to simplify financial management for small businesses and freelancers.',
-  openGraph: {
-    title: 'About InvoiceMonk - Our Story & Mission',
-    description: 'Learn about InvoiceMonk mission to simplify financial management for small businesses and freelancers.',
-    url: 'https://invoicemonk.com/about/',
-  },
-  alternates: {
-    canonical: 'https://invoicemonk.com/about/',
-  },
-};
+import dynamic from 'next/dynamic';
+
+const AboutComponent = dynamic(() => import('@/pages/About'), {
+  ssr: false,
+});
 
 export default function AboutPage() {
   return <AboutComponent />;

@@ -1,18 +1,10 @@
-import { Metadata } from 'next';
-import ContractorsComponent from '@/pages/Contractors';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Financial Management for Contractors | InvoiceMonk',
-  description: 'Manage multiple clients, track project expenses, create professional invoices. Built for independent contractors.',
-  openGraph: {
-    title: 'Financial Management for Contractors',
-    description: 'Manage multiple clients, track project expenses, create professional invoices. Built for independent contractors.',
-    url: 'https://invoicemonk.com/contractors/',
-  },
-  alternates: {
-    canonical: 'https://invoicemonk.com/contractors/',
-  },
-};
+import dynamic from 'next/dynamic';
+
+const ContractorsComponent = dynamic(() => import('@/pages/Contractors'), {
+  ssr: false,
+});
 
 export default function ContractorsPage() {
   return <ContractorsComponent />;

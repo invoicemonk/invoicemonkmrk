@@ -1,18 +1,10 @@
-import { Metadata } from 'next';
-import TermsOfServiceComponent from '@/pages/TermsOfService';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Terms of Service | InvoiceMonk',
-  description: 'Terms and conditions for using InvoiceMonk services. User rights and responsibilities.',
-  openGraph: {
-    title: 'Terms of Service',
-    description: 'Terms and conditions for using InvoiceMonk services. User rights and responsibilities.',
-    url: 'https://invoicemonk.com/terms-of-service/',
-  },
-  alternates: {
-    canonical: 'https://invoicemonk.com/terms-of-service/',
-  },
-};
+import dynamic from 'next/dynamic';
+
+const TermsOfServiceComponent = dynamic(() => import('@/pages/TermsOfService'), {
+  ssr: false,
+});
 
 export default function TermsOfServicePage() {
   return <TermsOfServiceComponent />;

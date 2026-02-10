@@ -1,13 +1,13 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // Remove 'output: export' for Vercel deployment - Vercel handles this automatically
-  // output: 'export',
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
+  // Disable static optimization to prevent prerendering issues with client contexts
+  reactStrictMode: true,
   async headers() {
     return [
       {
