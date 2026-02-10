@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { Layout } from '@/components/layout/Layout';
@@ -42,7 +42,7 @@ const categoryConfig: Record<GlossaryTerm['category'], { icon: typeof FileText; 
   business: { icon: Briefcase, label: 'Business', color: 'bg-rose-500/10 text-rose-600' },
 };
 
-const Glossary = () => {
+function GlossaryContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState('');
@@ -331,6 +331,14 @@ const Glossary = () => {
         </div>
       </div>
     </Layout>
+  );
+}
+
+const Glossary = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <GlossaryContent />
+    </Suspense>
   );
 };
 

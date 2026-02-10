@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
-import { LocaleProvider } from "@/contexts/LocaleContext";
-import { Toaster } from "@/components/ui/toaster";
-
-// Force dynamic rendering for all pages since we use client-side context
-export const dynamic = 'force-dynamic';
+import { Providers } from "@/components/providers/Providers";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://invoicemonk.com"),
@@ -67,12 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          <LocaleProvider>
-            {children}
-            <Toaster />
-          </LocaleProvider>
-        </ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

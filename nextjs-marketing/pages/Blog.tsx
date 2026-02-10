@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
@@ -28,7 +28,7 @@ import { Grid3X3, List, Sparkles, Filter } from 'lucide-react';
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;
 
-const Blog = () => {
+function BlogContent() {
   const router = useRouter();
   const { locale } = useLocale();
   const seo = pageSEO['/blog'];
@@ -401,6 +401,14 @@ const Blog = () => {
         </div>
       </div>
     </Layout>
+  );
+}
+
+const Blog = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <BlogContent />
+    </Suspense>
   );
 };
 

@@ -1,12 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // No output setting - Vercel handles SSR/SSG automatically
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
-  skipTrailingSlashRedirect: true,
-  // Disable static optimization to prevent prerendering issues with client contexts
   reactStrictMode: true,
   async headers() {
     return [

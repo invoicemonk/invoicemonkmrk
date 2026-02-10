@@ -3,7 +3,28 @@
   "pages404": true,
   "caseSensitive": false,
   "basePath": "",
-  "redirects": [],
+  "redirects": [
+    {
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
+    }
+  ],
   "headers": [
     {
       "source": "/:path*",
@@ -76,12 +97,6 @@
       "namedRegex": "^/Accounting(?:/)?$"
     },
     {
-      "page": "/AuthorPage",
-      "regex": "^/AuthorPage(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/AuthorPage(?:/)?$"
-    },
-    {
       "page": "/blog",
       "regex": "^/blog(?:/)?$",
       "routeKeys": {},
@@ -92,18 +107,6 @@
       "regex": "^/Blog(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/Blog(?:/)?$"
-    },
-    {
-      "page": "/BlogPost",
-      "regex": "^/BlogPost(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/BlogPost(?:/)?$"
-    },
-    {
-      "page": "/BlogTopic",
-      "regex": "^/BlogTopic(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/BlogTopic(?:/)?$"
     },
     {
       "page": "/compliance",

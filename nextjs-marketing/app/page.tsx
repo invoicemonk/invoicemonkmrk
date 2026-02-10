@@ -1,5 +1,7 @@
 'use client';
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
 
 import { Layout } from '@/components/layout/Layout';
 import { HeroSection } from '@/components/home/HeroSection';

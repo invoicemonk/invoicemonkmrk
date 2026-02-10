@@ -1,10 +1,11 @@
-'use client';
+import { Metadata } from 'next';
+import InvoicingComponent from '@/pages/Invoicing';
 
-import dynamic from 'next/dynamic';
-
-const InvoicingComponent = dynamic(() => import('@/pages/Invoicing'), {
-  ssr: false,
-});
+export const metadata: Metadata = {
+  title: 'Page Title | InvoiceMonk',
+  description: 'Page description',
+  alternates: { canonical: 'https://invoicemonk.com/invoicing/' },
+};
 
 export default function InvoicingPage() {
   return <InvoicingComponent />;

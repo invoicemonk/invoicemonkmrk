@@ -135,6 +135,15 @@ function dispatch(action: Action) {
 type Toast = Omit<ToasterToast, "id">;
 
 function toast({ ...props }: Toast) {
+  // SSR safety check
+  if (typeof window === 'undefined') {
+    return {
+      id: '',
+      dismiss: () => {},
+      update: () => {},
+    };
+  }
+
   const id = genId();
 
   const update = (props: ToasterToast) =>
@@ -167,13 +176,16 @@ function useToast() {
   const [state, setState] = React.useState<State>(memoryState);
 
   React.useEffect(() => {
-    listeners.push(setState);
-    return () => {
-      const index = listeners.indexOf(setState);
-      if (index > -1) {
-        listeners.splice(index, 1);
-      }
-    };
+    // Only initialize listeners on client-side
+    if (typeof window !== 'undefined') {
+      listeners.push(setState);
+      return () => {
+        const index = listeners.indexOf(setState);
+        if (index > -1) {
+          listeners.splice(index, 1);
+        }
+      };
+    }
   }, [state]);
 
   return {

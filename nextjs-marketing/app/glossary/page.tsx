@@ -1,10 +1,11 @@
-'use client';
+import { Metadata } from 'next';
+import GlossaryComponent from '@/pages/Glossary';
 
-import dynamic from 'next/dynamic';
-
-const GlossaryComponent = dynamic(() => import('@/pages/Glossary'), {
-  ssr: false,
-});
+export const metadata: Metadata = {
+  title: 'Page Title | InvoiceMonk',
+  description: 'Page description',
+  alternates: { canonical: 'https://invoicemonk.com/glossary/' },
+};
 
 export default function GlossaryPage() {
   return <GlossaryComponent />;
