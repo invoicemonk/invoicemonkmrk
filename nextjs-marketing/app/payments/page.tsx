@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import PaymentsComponent from '@/pages/Payments';
+import { DynamicPayments } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Page Title | InvoiceMonk',
-  description: 'Page description',
+  title: 'Payment Processing & Tracking Software | InvoiceMonk',
+  description: 'Accept online payments, track payment status, and get paid faster.',
   alternates: { canonical: 'https://invoicemonk.com/payments/' },
 };
 
 export default function PaymentsPage() {
-  return <PaymentsComponent />;
+  return <DynamicPayments />;
 }

@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import CookiePolicyComponent from '@/pages/CookiePolicy';
+import { DynamicCookiePolicy } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Cookie Policy | InvoiceMonk',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function CookiePolicyPage() {
-  return <CookiePolicyComponent />;
+  return <DynamicCookiePolicy />;
 }

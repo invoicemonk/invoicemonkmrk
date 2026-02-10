@@ -79,22 +79,10 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
-      "page": "/About",
-      "regex": "^/About(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/About(?:/)?$"
-    },
-    {
       "page": "/accounting",
       "regex": "^/accounting(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/accounting(?:/)?$"
-    },
-    {
-      "page": "/Accounting",
-      "regex": "^/Accounting(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Accounting(?:/)?$"
     },
     {
       "page": "/blog",
@@ -103,22 +91,10 @@
       "namedRegex": "^/blog(?:/)?$"
     },
     {
-      "page": "/Blog",
-      "regex": "^/Blog(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Blog(?:/)?$"
-    },
-    {
       "page": "/compliance",
       "regex": "^/compliance(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/compliance(?:/)?$"
-    },
-    {
-      "page": "/Compliance",
-      "regex": "^/Compliance(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Compliance(?:/)?$"
     },
     {
       "page": "/consultants",
@@ -127,22 +103,10 @@
       "namedRegex": "^/consultants(?:/)?$"
     },
     {
-      "page": "/Consultants",
-      "regex": "^/Consultants(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Consultants(?:/)?$"
-    },
-    {
       "page": "/contact",
       "regex": "^/contact(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/contact(?:/)?$"
-    },
-    {
-      "page": "/Contact",
-      "regex": "^/Contact(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Contact(?:/)?$"
     },
     {
       "page": "/contractors",
@@ -151,22 +115,10 @@
       "namedRegex": "^/contractors(?:/)?$"
     },
     {
-      "page": "/Contractors",
-      "regex": "^/Contractors(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Contractors(?:/)?$"
-    },
-    {
       "page": "/cookie-policy",
       "regex": "^/cookie\\-policy(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/cookie\\-policy(?:/)?$"
-    },
-    {
-      "page": "/CookiePolicy",
-      "regex": "^/CookiePolicy(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/CookiePolicy(?:/)?$"
     },
     {
       "page": "/developer",
@@ -175,22 +127,10 @@
       "namedRegex": "^/developer(?:/)?$"
     },
     {
-      "page": "/Developer",
-      "regex": "^/Developer(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Developer(?:/)?$"
-    },
-    {
       "page": "/estimates",
       "regex": "^/estimates(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/estimates(?:/)?$"
-    },
-    {
-      "page": "/Estimates",
-      "regex": "^/Estimates(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Estimates(?:/)?$"
     },
     {
       "page": "/expenses",
@@ -199,28 +139,10 @@
       "namedRegex": "^/expenses(?:/)?$"
     },
     {
-      "page": "/Expenses",
-      "regex": "^/Expenses(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Expenses(?:/)?$"
-    },
-    {
       "page": "/explore",
       "regex": "^/explore(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/explore(?:/)?$"
-    },
-    {
-      "page": "/Explore",
-      "regex": "^/Explore(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Explore(?:/)?$"
-    },
-    {
-      "page": "/features/ClientManagement",
-      "regex": "^/features/ClientManagement(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/features/ClientManagement(?:/)?$"
     },
     {
       "page": "/free-invoice-generator",
@@ -229,22 +151,10 @@
       "namedRegex": "^/free\\-invoice\\-generator(?:/)?$"
     },
     {
-      "page": "/FreeInvoiceGenerator",
-      "regex": "^/FreeInvoiceGenerator(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/FreeInvoiceGenerator(?:/)?$"
-    },
-    {
       "page": "/freelancers",
       "regex": "^/freelancers(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/freelancers(?:/)?$"
-    },
-    {
-      "page": "/Freelancers",
-      "regex": "^/Freelancers(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Freelancers(?:/)?$"
     },
     {
       "page": "/glossary",
@@ -253,76 +163,10 @@
       "namedRegex": "^/glossary(?:/)?$"
     },
     {
-      "page": "/Glossary",
-      "regex": "^/Glossary(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Glossary(?:/)?$"
-    },
-    {
-      "page": "/guides/BusinessFinancesGuide",
-      "regex": "^/guides/BusinessFinancesGuide(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/guides/BusinessFinancesGuide(?:/)?$"
-    },
-    {
-      "page": "/guides/EstimatesGuide",
-      "regex": "^/guides/EstimatesGuide(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/guides/EstimatesGuide(?:/)?$"
-    },
-    {
-      "page": "/guides/FreelancingGuide",
-      "regex": "^/guides/FreelancingGuide(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/guides/FreelancingGuide(?:/)?$"
-    },
-    {
-      "page": "/guides/GettingPaidGuide",
-      "regex": "^/guides/GettingPaidGuide(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/guides/GettingPaidGuide(?:/)?$"
-    },
-    {
-      "page": "/guides/GuidesIndex",
-      "regex": "^/guides/GuidesIndex(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/guides/GuidesIndex(?:/)?$"
-    },
-    {
-      "page": "/guides/InvoicingGuide",
-      "regex": "^/guides/InvoicingGuide(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/guides/InvoicingGuide(?:/)?$"
-    },
-    {
-      "page": "/guides/TaxComplianceGuide",
-      "regex": "^/guides/TaxComplianceGuide(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/guides/TaxComplianceGuide(?:/)?$"
-    },
-    {
-      "page": "/Index",
-      "regex": "^/Index(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Index(?:/)?$"
-    },
-    {
       "page": "/invoicing",
       "regex": "^/invoicing(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/invoicing(?:/)?$"
-    },
-    {
-      "page": "/Invoicing",
-      "regex": "^/Invoicing(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Invoicing(?:/)?$"
-    },
-    {
-      "page": "/NotFound",
-      "regex": "^/NotFound(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/NotFound(?:/)?$"
     },
     {
       "page": "/payments",
@@ -331,22 +175,10 @@
       "namedRegex": "^/payments(?:/)?$"
     },
     {
-      "page": "/Payments",
-      "regex": "^/Payments(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Payments(?:/)?$"
-    },
-    {
       "page": "/pricing",
       "regex": "^/pricing(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/pricing(?:/)?$"
-    },
-    {
-      "page": "/Pricing",
-      "regex": "^/Pricing(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Pricing(?:/)?$"
     },
     {
       "page": "/privacy-policy",
@@ -355,22 +187,10 @@
       "namedRegex": "^/privacy\\-policy(?:/)?$"
     },
     {
-      "page": "/PrivacyPolicy",
-      "regex": "^/PrivacyPolicy(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/PrivacyPolicy(?:/)?$"
-    },
-    {
       "page": "/receipts",
       "regex": "^/receipts(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/receipts(?:/)?$"
-    },
-    {
-      "page": "/Receipts",
-      "regex": "^/Receipts(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Receipts(?:/)?$"
     },
     {
       "page": "/small-businesses",
@@ -379,34 +199,16 @@
       "namedRegex": "^/small\\-businesses(?:/)?$"
     },
     {
-      "page": "/SmallBusinesses",
-      "regex": "^/SmallBusinesses(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/SmallBusinesses(?:/)?$"
-    },
-    {
       "page": "/terms-of-service",
       "regex": "^/terms\\-of\\-service(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/terms\\-of\\-service(?:/)?$"
     },
     {
-      "page": "/TermsOfService",
-      "regex": "^/TermsOfService(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/TermsOfService(?:/)?$"
-    },
-    {
       "page": "/why-invoicemonk",
       "regex": "^/why\\-invoicemonk(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/why\\-invoicemonk(?:/)?$"
-    },
-    {
-      "page": "/WhyInvoicemonk",
-      "regex": "^/WhyInvoicemonk(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/WhyInvoicemonk(?:/)?$"
     }
   ],
   "dataRoutes": [],

@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import GlossaryComponent from '@/pages/Glossary';
+import { DynamicGlossary } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Page Title | InvoiceMonk',
-  description: 'Page description',
+  title: 'Financial Glossary - Accounting & Business Terms | InvoiceMonk',
+  description: 'Comprehensive glossary of accounting, invoicing, and business financial terms.',
   alternates: { canonical: 'https://invoicemonk.com/glossary/' },
 };
 
 export default function GlossaryPage() {
-  return <GlossaryComponent />;
+  return <DynamicGlossary />;
 }

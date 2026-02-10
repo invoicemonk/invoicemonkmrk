@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import SmallBusinessesComponent from '@/pages/SmallBusinesses';
+import { DynamicSmallBusinesses } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Accounting Software for Small Businesses | InvoiceMonk',
-  description: 'Grow from one-person shop to full team. Scalable invoicing, expense tracking, and accounting tools.',
+  description: 'Grow from one-person shop to full team.',
   alternates: { canonical: 'https://invoicemonk.com/small-businesses/' },
 };
 
 export default function SmallBusinessesPage() {
-  return <SmallBusinessesComponent />;
+  return <DynamicSmallBusinesses />;
 }

@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import FreelancersComponent from '@/pages/Freelancers';
+import { DynamicFreelancers } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Page Title | InvoiceMonk',
-  description: 'Page description',
+  title: 'Invoicing Software for Freelancers | InvoiceMonk',
+  description: 'Purpose-built invoicing and expense tracking for freelancers.',
   alternates: { canonical: 'https://invoicemonk.com/freelancers/' },
 };
 
 export default function FreelancersPage() {
-  return <FreelancersComponent />;
+  return <DynamicFreelancers />;
 }

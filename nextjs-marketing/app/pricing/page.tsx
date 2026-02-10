@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import PricingComponent from '@/pages/Pricing';
+import { DynamicPricing } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Page Title | InvoiceMonk',
-  description: 'Page description',
+  title: 'Pricing Plans - Start Free | InvoiceMonk',
+  description: 'Simple, transparent pricing for freelancers and small businesses.',
   alternates: { canonical: 'https://invoicemonk.com/pricing/' },
 };
 
 export default function PricingPage() {
-  return <PricingComponent />;
+  return <DynamicPricing />;
 }

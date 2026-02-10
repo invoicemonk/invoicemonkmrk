@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import FreeInvoiceGeneratorComponent from '@/pages/FreeInvoiceGenerator';
+import { DynamicFreeInvoiceGenerator } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Free Online Invoice Generator | InvoiceMonk',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function FreeInvoiceGeneratorPage() {
-  return <FreeInvoiceGeneratorComponent />;
+  return <DynamicFreeInvoiceGenerator />;
 }

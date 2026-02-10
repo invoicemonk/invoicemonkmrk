@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import ExpensesComponent from '@/pages/Expenses';
+import { DynamicExpenses } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Page Title | InvoiceMonk',
-  description: 'Page description',
+  title: 'Expense Tracking Software | InvoiceMonk',
+  description: 'Effortlessly track business expenses, scan receipts, categorize spending.',
   alternates: { canonical: 'https://invoicemonk.com/expenses/' },
 };
 
 export default function ExpensesPage() {
-  return <ExpensesComponent />;
+  return <DynamicExpenses />;
 }

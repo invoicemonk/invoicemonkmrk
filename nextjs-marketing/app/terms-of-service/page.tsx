@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import TermsOfServiceComponent from '@/pages/TermsOfService';
+import { DynamicTermsOfService } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Terms of Service | InvoiceMonk',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function TermsOfServicePage() {
-  return <TermsOfServiceComponent />;
+  return <DynamicTermsOfService />;
 }

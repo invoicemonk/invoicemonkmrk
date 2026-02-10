@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import PrivacyPolicyComponent from '@/pages/PrivacyPolicy';
+import { DynamicPrivacyPolicy } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | InvoiceMonk',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPolicyPage() {
-  return <PrivacyPolicyComponent />;
+  return <DynamicPrivacyPolicy />;
 }

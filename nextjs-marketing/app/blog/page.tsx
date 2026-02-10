@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import BlogComponent from '@/pages/Blog';
+import { DynamicBlog } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Blog - Invoicing, Accounting & Business Tips | InvoiceMonk',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
-  return <BlogComponent />;
+  return <DynamicBlog />;
 }

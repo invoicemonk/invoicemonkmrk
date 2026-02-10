@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import DeveloperComponent from '@/pages/Developer';
+import { DynamicDeveloper } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Page Title | InvoiceMonk',
-  description: 'Page description',
+  title: 'Developer API & Integrations | InvoiceMonk',
+  description: 'Integrate InvoiceMonk into your applications.',
   alternates: { canonical: 'https://invoicemonk.com/developer/' },
 };
 
 export default function DeveloperPage() {
-  return <DeveloperComponent />;
+  return <DynamicDeveloper />;
 }

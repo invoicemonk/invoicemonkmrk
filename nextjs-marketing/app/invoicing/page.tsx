@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import InvoicingComponent from '@/pages/Invoicing';
+import { DynamicInvoicing } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Page Title | InvoiceMonk',
-  description: 'Page description',
+  title: 'Professional Invoicing Software | InvoiceMonk',
+  description: 'Create professional invoices in seconds. Track payments, send automated reminders.',
   alternates: { canonical: 'https://invoicemonk.com/invoicing/' },
 };
 
 export default function InvoicingPage() {
-  return <InvoicingComponent />;
+  return <DynamicInvoicing />;
 }

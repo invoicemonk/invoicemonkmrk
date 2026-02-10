@@ -1,14 +1,12 @@
 import { Metadata } from 'next';
-import ConsultantsComponent from '@/pages/Consultants';
+import { DynamicConsultants } from '@/components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Invoicing & Accounting for Consultants | InvoiceMonk',
-  description: 'Professional invoicing with compliance features your enterprise clients expect. Multi-project tracking and reporting.',
-  openGraph: { url: 'https://invoicemonk.com/consultants/', type: 'website' },
-  twitter: { card: 'summary_large_image' },
+  description: 'Professional invoicing with compliance features your enterprise clients expect.',
   alternates: { canonical: 'https://invoicemonk.com/consultants/' },
 };
 
 export default function ConsultantsPage() {
-  return <ConsultantsComponent />;
+  return <DynamicConsultants />;
 }
