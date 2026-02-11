@@ -327,7 +327,7 @@ export function AccountingContent() {
         title="Your books, always up to date"
         subtitle="Automation that keeps your accounting accurate."
         features={automationFeatures}
-        image={accountingAutomation}
+        image={accountingAutomation.src}
         className="bg-background"
       />
 
