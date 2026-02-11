@@ -10,7 +10,7 @@ import ReviewDisplay, { sampleReviews } from '@/components/reviews/ReviewDisplay
 import ReviewForm from '@/components/reviews/ReviewForm';
 import AnalyticsDashboard from '@/components/analytics/AnalyticsDashboard';
 
-export function ExploreContent() {
+function Explore() {
   const [activeTab, setActiveTab] = useState('topics');
 
   return (

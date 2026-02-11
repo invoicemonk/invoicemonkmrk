@@ -577,7 +577,7 @@ export function getSemanticCategory(oldCategory: string): string {
   return categoryMapping[oldCategory] || oldCategory;
 }
 
-// Export pillars as topicalMap for backward compatibility
+// Create topicalMap as an object with pillar IDs as keys
 export const topicalMap = pillars.reduce((acc, pillar) => {
   acc[pillar.id] = pillar;
   return acc;

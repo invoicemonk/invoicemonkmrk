@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/estimates',
   },
   openGraph: {
-    title: 'Estimates & Quotes - Create Professional Estimates | InvoiceMonk',
+    title: 'Estimates & Quotes - Create Professional Estimates | Invoicemonk',
     description: 'Create professional estimates and quotes. Convert to invoices instantly.',
     url: 'https://invoicemonk.com/estimates',
     type: 'website',

@@ -13,6 +13,8 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { ServiceSchema } from '@/components/seo/ServiceSchema';
+import { useLocale } from '@/hooks/useLocale';
 
 const paymentTabbedFeatures = [
   {
@@ -112,6 +114,7 @@ export function PaymentsContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Payment Processing"
         serviceType="Payment Processing Software"
         description="Accept payments directly from invoices. Credit cards, bank transfers, and digital wallets with automatic reconciliation."

@@ -5,7 +5,7 @@ import { GuideHero, ConceptGrid, ArticleList, GuideCTA, GuideFAQ, GuideCrossLink
 import { getPillarBySlug, getClusterPostsForPillar } from '@/data/topicalMap';
 import { blogPosts } from '@/data/blogPosts';
 
-export function GettingPaidGuideContent() {
+export default function GettingPaidGuide() {
   const pillar = getPillarBySlug('getting-paid');
   
   const articles = useMemo(() => {
@@ -35,3 +35,4 @@ export function GettingPaidGuideContent() {
     </Layout>
   );
 }
+export const GettingPaidGuideContent = GettingPaidGuide;

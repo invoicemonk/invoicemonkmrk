@@ -5,7 +5,7 @@ import { GuideHero, ConceptGrid, ArticleList, GuideCTA, GuideFAQ, GuideCrossLink
 import { getPillarBySlug, getClusterPostsForPillar } from '@/data/topicalMap';
 import { blogPosts } from '@/data/blogPosts';
 
-export function TaxComplianceGuideContent() {
+export default function TaxComplianceGuide() {
   const pillar = getPillarBySlug('tax-compliance');
   
   const articles = useMemo(() => {
@@ -35,3 +35,4 @@ export function TaxComplianceGuideContent() {
     </Layout>
   );
 }
+export const TaxComplianceGuideContent = TaxComplianceGuide;

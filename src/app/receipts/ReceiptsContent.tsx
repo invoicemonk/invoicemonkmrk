@@ -14,6 +14,8 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { ServiceSchema } from '@/components/seo/ServiceSchema';
+import { useLocale } from '@/hooks/useLocale';
 
 const receiptTabbedFeatures = [
   {
@@ -133,6 +135,7 @@ export function ReceiptsContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Receipt Management"
         serviceType="Receipt Management Software"
         description="Capture, organize, and store all your receipts digitally with AI-powered scanning and secure cloud storage."

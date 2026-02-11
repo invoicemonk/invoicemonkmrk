@@ -64,8 +64,7 @@ export default function sitemap() {
   }))
 
   // Authors
-  const allAuthors = getAllAuthors()
-  const authorPages = allAuthors.map(author => ({
+  const authorPages = getAllAuthors().map(author => ({
     url: `${baseUrl}/blog/author/${author.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',

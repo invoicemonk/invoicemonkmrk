@@ -5,7 +5,7 @@ import { GuideHero, ConceptGrid, ArticleList, GuideCTA, GuideFAQ, GuideCrossLink
 import { getPillarBySlug, getClusterPostsForPillar } from '@/data/topicalMap';
 import { blogPosts } from '@/data/blogPosts';
 
-export function EstimatesGuideContent() {
+export default function EstimatesGuide() {
   const pillar = getPillarBySlug('estimates');
   
   const articles = useMemo(() => {
@@ -35,3 +35,4 @@ export function EstimatesGuideContent() {
     </Layout>
   );
 }
+export const EstimatesGuideContent = EstimatesGuide;
