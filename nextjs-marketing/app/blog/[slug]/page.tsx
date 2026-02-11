@@ -1,12 +1,28 @@
-import { Metadata } from 'next';
-import { DynamicBlog } from '@/components/PageWrapper';
+export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
-  title: 'Blog - Invoicing, Accounting & Business Tips | InvoiceMonk',
-  description: 'Expert guides and resources on invoicing, expense tracking, accounting, and small business financial management.',
-  alternates: { canonical: 'https://invoicemonk.com/blog/' },
-};
+async function getPost(slug: string) {
+  // Replace this with your real API / CMS call
+  const res = await fetch(`https://invoicemonk.com/blog/${slug}`);
 
-export default function BlogPage() {
-  return <DynamicBlog />;
+  if (!res.ok) return null;
+
+  return res.json();
+}
+
+export default async function BlogPost({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const post = await getPost(slug);
+
+  if (!post) return <div>Post not found</div>;
+
+  return (
+    <div style={{ padding: "40px" }}>
+      <h1>{post.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: post.content }} />
+    </div>
+  );
 }
