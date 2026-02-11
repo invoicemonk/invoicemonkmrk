@@ -14,8 +14,6 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
-import { useLocale } from '@/hooks/useLocale';
-import { ServiceSchema } from '@/components/seo/ServiceSchema';
 
 const automationFeatures = [
   {
@@ -78,24 +76,29 @@ const bannerFeatures = [
   'Multi-entity support',
 ];
 
+// Image moved to public - use string path
+// Image moved to public - use string path
+// Image moved to public - use string path
+// Image moved to public - use string path
+
 const tabbedFeatures = [
   {
     label: 'Chart of Accounts',
     title: 'A complete chart of accounts, ready to go',
     description: 'Start with a standard chart of accounts or customize it to fit your business. Every transaction is automatically categorized and recorded correctly.',
-    image: '/images/accounting-chart-of-accounts.jpg',
+    image: accountingChartOfAccounts,
   },
   {
     label: 'Financial Reports',
     title: 'Financial statements when you need them',
     description: 'Generate balance sheets, profit & loss statements, and cash flow reports with a single click. Always know where your business stands financially.',
-    image: '/images/accounting-financial-reports.jpg',
+    image: accountingFinancialReports,
   },
   {
     label: 'Multi-Entity',
     title: 'Manage multiple businesses easily',
     description: 'Running more than one business? Switch between entities seamlessly and get consolidated views of your entire portfolio.',
-    image: '/images/accounting-multi-entity.jpg',
+    image: accountingMultiEntity,
   },
 ];
 
@@ -127,7 +130,6 @@ export function AccountingContent() {
 
   return (
     <Layout>
-      <ServiceSchema
         serviceName="Invoicemonk Accounting Software"
         serviceType="Accounting Software"
         description="Complete accounting software with double-entry bookkeeping, financial statements, and tax-ready reports for small businesses."
@@ -326,7 +328,7 @@ export function AccountingContent() {
         title="Your books, always up to date"
         subtitle="Automation that keeps your accounting accurate."
         features={automationFeatures}
-        image="/images/accounting-automation.jpg"
+        image={accountingAutomation}
         className="bg-background"
       />
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/payments',
   },
   openGraph: {
-    title: 'Payment Processing - Accept Payments Online | Invoicemonk',
+    title: 'Payment Processing - Accept Payments Online | InvoiceMonk',
     description: 'Accept online payments, send payment links, and get paid faster.',
     url: 'https://invoicemonk.com/payments',
     type: 'website',

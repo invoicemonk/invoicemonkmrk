@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/free-invoice-generator',
   },
   openGraph: {
-    title: 'Free Invoice Generator - Create Invoices Online | Invoicemonk',
+    title: 'Free Invoice Generator - Create Invoices Online | InvoiceMonk',
     description: 'Free online invoice generator.',
     url: 'https://invoicemonk.com/free-invoice-generator',
     type: 'website',

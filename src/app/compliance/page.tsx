@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/compliance',
   },
   openGraph: {
-    title: 'Tax Compliance - Stay Compliant Worldwide | Invoicemonk',
+    title: 'Tax Compliance - Stay Compliant Worldwide | InvoiceMonk',
     description: 'Built-in tax compliance for multiple countries.',
     url: 'https://invoicemonk.com/compliance',
     type: 'website',

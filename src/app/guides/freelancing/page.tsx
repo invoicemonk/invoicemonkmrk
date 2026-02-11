@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/guides/freelancing',
   },
   openGraph: {
-    title: 'Freelancing Guide - Build Your Business | Invoicemonk',
+    title: 'Freelancing Guide - Build Your Business | InvoiceMonk',
     description: 'Complete guide to freelancing success.',
     url: 'https://invoicemonk.com/guides/freelancing',
     type: 'article',

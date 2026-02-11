@@ -7969,8 +7969,3 @@ export const getPostClusterInfo = (slug: string) => {
     isOuterContent: clusterType === 'outer'
   };
 };
-
-// Get all blog posts
-export const getAllBlogPosts = (): BlogPost[] => {
-  return blogPosts;
-};

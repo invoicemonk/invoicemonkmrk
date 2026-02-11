@@ -5,13 +5,14 @@ import Image from 'next/image'
 import { Layout } from '@/components/layout/Layout'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft } from 'lucide-react'
-import { authors, getAllAuthors, getAuthorBySlug } from '@/data/authors'
+import { getAllAuthors, getAuthorBySlug } from '@/data/authors'
 import { getAllBlogPosts } from '@/data/blogPosts'
 import { BlogPostCard } from '@/components/blog/BlogPostCard'
 
 // Generate static params for all authors
 export async function generateStaticParams() {
-  return getAllAuthors().map((author) => ({
+  const allAuthors = getAllAuthors()
+  return allAuthors.map((author) => ({
     authorSlug: author.slug,
   }))
 }

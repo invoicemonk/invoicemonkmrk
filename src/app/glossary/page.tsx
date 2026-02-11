@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/glossary',
   },
   openGraph: {
-    title: 'Business & Accounting Glossary | Invoicemonk',
+    title: 'Business & Accounting Glossary | InvoiceMonk',
     description: 'Glossary of business and accounting terms.',
     url: 'https://invoicemonk.com/glossary',
     type: 'website',
