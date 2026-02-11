@@ -13,6 +13,7 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { ServiceSchema } from '@/components/seo/ServiceSchema';
 
 const automationFeatures = [
   {
@@ -113,6 +114,7 @@ export function ExpensesContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Expense Tracking"
         serviceType="Expense Management Software"
         description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports."

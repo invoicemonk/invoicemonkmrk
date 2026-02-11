@@ -35,3 +35,4 @@ export default function InvoicingGuide() {
     </Layout>
   );
 }
+export { default as InvoicingGuideContent };

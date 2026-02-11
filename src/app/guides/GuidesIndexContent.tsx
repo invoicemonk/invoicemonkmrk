@@ -87,3 +87,4 @@ export default function GuidesIndex() {
     </Layout>
   );
 }
+export { default as GuidesIndexContent };

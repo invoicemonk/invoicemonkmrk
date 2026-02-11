@@ -35,3 +35,4 @@ export default function EstimatesGuide() {
     </Layout>
   );
 }
+export { default as EstimatesGuideContent };

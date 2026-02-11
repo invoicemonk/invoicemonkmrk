@@ -35,3 +35,4 @@ export default function TaxComplianceGuide() {
     </Layout>
   );
 }
+export { default as TaxComplianceGuideContent };

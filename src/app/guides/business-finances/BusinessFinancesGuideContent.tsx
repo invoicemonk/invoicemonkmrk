@@ -35,3 +35,4 @@ export default function BusinessFinancesGuide() {
     </Layout>
   );
 }
+export { default as BusinessFinancesGuideContent };

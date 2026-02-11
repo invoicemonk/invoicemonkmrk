@@ -576,3 +576,9 @@ export function getClusterType(postSlug: string, isPillarContent?: boolean): Clu
 export function getSemanticCategory(oldCategory: string): string {
   return categoryMapping[oldCategory] || oldCategory;
 }
+
+// Create topicalMap as an object with pillar IDs as keys
+export const topicalMap = pillars.reduce((acc, pillar) => {
+  acc[pillar.id] = pillar;
+  return acc;
+}, {} as Record<string, Pillar>);
