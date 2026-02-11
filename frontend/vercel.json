@@ -162,6 +162,16 @@
       "permanent": true
     }
   ],
+
+
+  "routes": [
+    {
+      "src": "/blog/(.*)",
+      "dest": "/blog"
+    }
+  ],
+
+  
   "rewrites": [
     {
       "source": "/(.*)",
