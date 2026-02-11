@@ -79,10 +79,10 @@ const bannerFeatures = [
   'Multi-entity support',
 ];
 
-import accountingChartOfAccounts from '@/assets/accounting-chart-of-accounts.jpg';
-import accountingFinancialReports from '@/assets/accounting-financial-reports.jpg';
-import accountingMultiEntity from '@/assets/accounting-multi-entity.jpg';
-import accountingAutomation from '@/assets/accounting-automation.jpg';
+// Image moved to public - use string path
+// Image moved to public - use string path
+// Image moved to public - use string path
+// Image moved to public - use string path
 
 const tabbedFeatures = [
   {
