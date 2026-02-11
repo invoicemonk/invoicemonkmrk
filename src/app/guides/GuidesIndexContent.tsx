@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
-import { SEOHead } from '@/components/seo/SEOHead';
 import { Card, CardContent } from '@/components/ui/card';
 import { pillars } from '@/data/topicalMap';
 

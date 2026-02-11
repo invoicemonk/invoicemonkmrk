@@ -10,9 +10,6 @@ import {
   FloatingPDFBadge,
   FloatingIcon
 } from '@/components/shared/FloatingElements';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
-import { useLocale } from '@/hooks/useLocale';
 
 export function FreeInvoiceGeneratorContent() {
   const features = [
@@ -55,10 +52,6 @@ export function FreeInvoiceGeneratorContent() {
       description: 'Email directly to your client or download as a professional PDF.',
     },
   ];
-
-  const { locale } = useLocale();
-  const seo = pageSEO['/free-invoice-generator'];
-
   return (
     <Layout>
       <SEOHead

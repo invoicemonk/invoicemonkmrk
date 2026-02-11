@@ -1,6 +1,5 @@
 import { Layout } from '@/components/layout/Layout';
 import Link from 'next/link';
-import { SEOHead } from '@/components/seo/SEOHead';
 
 export function CookiePolicyContent() {
   return (

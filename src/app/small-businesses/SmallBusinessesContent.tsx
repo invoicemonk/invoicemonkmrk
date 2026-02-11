@@ -10,9 +10,6 @@ import {
   FloatingInvoiceCard,
   FloatingIcon
 } from '@/components/shared/FloatingElements';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
-import { useLocale } from '@/hooks/useLocale';
 
 export function SmallBusinessesContent() {
   const benefits = [
@@ -56,10 +53,6 @@ export function SmallBusinessesContent() {
       description: 'Create proposals and convert them to invoices with one click.',
     },
   ];
-
-  const { locale } = useLocale();
-  const seo = pageSEO['/small-businesses'];
-
   return (
     <Layout>
       <SEOHead

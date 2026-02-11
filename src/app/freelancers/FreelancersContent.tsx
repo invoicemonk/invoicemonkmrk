@@ -10,9 +10,6 @@ import {
   FloatingPaymentBadge, 
   FloatingCalendarBadge 
 } from '@/components/shared/FloatingElements';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
-import { useLocale } from '@/hooks/useLocale';
 
 export function FreelancersContent() {
   const benefits = [
@@ -50,10 +47,6 @@ export function FreelancersContent() {
       role: "Web Developer",
     },
   ];
-
-  const { locale } = useLocale();
-  const seo = pageSEO['/freelancers'];
-
   return (
     <Layout>
       <SEOHead

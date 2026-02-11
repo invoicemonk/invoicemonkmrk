@@ -10,9 +10,6 @@ import { Mail, MapPin, Clock, CheckCircle, AlertCircle } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
-import { useLocale } from '@/hooks/useLocale';
 
 interface FormData {
   firstName: string;
@@ -141,10 +138,6 @@ export function ContactContent() {
       setIsSubmitting(false);
     }
   };
-
-  const { locale } = useLocale();
-  const seo = pageSEO['/contact'];
-
   return (
     <Layout>
       <SEOHead

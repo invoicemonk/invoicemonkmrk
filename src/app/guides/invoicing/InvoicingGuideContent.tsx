@@ -1,11 +1,9 @@
+import { notFound } from 'next/navigation';
 import { useMemo } from 'react';
 import { Layout } from '@/components/layout/Layout';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { GuideHero, ConceptGrid, ArticleList, GuideCTA, GuideFAQ, GuideCrossLink } from '@/components/guides';
 import { getPillarBySlug, getClusterPostsForPillar } from '@/data/topicalMap';
 import { blogPosts } from '@/data/blogPosts';
-import NotFound from '@/pages/NotFound';
 
 export default function InvoicingGuide() {
   const pillar = getPillarBySlug('invoicing');
@@ -17,7 +15,7 @@ export default function InvoicingGuide() {
   }, [pillar]);
 
   if (!pillar) {
-    return <NotFound />;
+    return notFound();
   }
 
   const breadcrumbs = [
@@ -33,9 +31,7 @@ export default function InvoicingGuide() {
         description={pillar.longDescription}
         canonical={`https://invoicemonk.com/guides/${pillar.slug}`}
       />
-      <BreadcrumbSchema items={breadcrumbs} />
-      
-      <GuideHero pillar={pillar} />
+<GuideHero pillar={pillar} />
       <ConceptGrid pillar={pillar} />
       <GuideCrossLink pillar={pillar} />
       <ArticleList pillar={pillar} articles={articles} />

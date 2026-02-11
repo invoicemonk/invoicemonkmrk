@@ -8,7 +8,6 @@ import {
   FloatingChartCard,
   FloatingIcon
 } from '@/components/shared/FloatingElements';
-import { SEOHead } from '@/components/seo/SEOHead';
 
 export function ConsultantsContent() {
   const benefits = [

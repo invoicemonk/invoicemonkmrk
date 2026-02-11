@@ -7,8 +7,6 @@ import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { useLocale } from '@/hooks/useLocale';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
 import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
 
 const faqs = [

@@ -10,8 +10,6 @@ import {
   FloatingLockBadge,
   FloatingImmutableStamp
 } from '@/components/shared/FloatingElements';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
 
 const complianceFeatures = [
   { icon: Lock, title: 'Immutable Records', description: 'Once created, invoice records cannot be altered or deleted, ensuring complete data integrity for audits.' },

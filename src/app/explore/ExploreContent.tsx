@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Compass, Star, BarChart3 } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
-import { SEOHead } from '@/components/seo/SEOHead';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import TopicExplorer from '@/components/explore/TopicExplorer';
 import ReviewDisplay, { sampleReviews } from '@/components/reviews/ReviewDisplay';

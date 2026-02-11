@@ -1,7 +1,5 @@
 import { Layout } from '@/components/layout/Layout';
 import Link from 'next/link';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
 
 export function TermsOfServiceContent() {
   const seo = pageSEO['/terms-of-service'];

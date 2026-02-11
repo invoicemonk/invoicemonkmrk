@@ -3,8 +3,6 @@
 import { useState, useMemo } from 'react';
 // Router hooks removed - use Next.js params instead;
 import { Layout } from '@/components/layout/Layout';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { DefinedTermSetSchema } from '@/components/seo/DefinedTermSetSchema';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -114,9 +112,7 @@ export function GlossaryContent() {
         description="Comprehensive glossary of invoicing, payments, accounting, tax, and business finance terms. Learn key concepts for small business owners and freelancers."
         canonical="https://invoicemonk.com/glossary"
       />
-      <DefinedTermSetSchema terms={glossaryTerms} />
-
-      <div className="py-16 lg:py-24">
+<div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <AnimatedSection className="text-center max-w-2xl mx-auto mb-12">

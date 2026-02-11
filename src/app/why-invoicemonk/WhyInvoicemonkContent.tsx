@@ -12,9 +12,6 @@ import {
   FloatingIcon,
   FloatingChartCard
 } from '@/components/shared/FloatingElements';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
-import { useLocale } from '@/hooks/useLocale';
 
 const corePrinciples = [
   {
@@ -55,9 +52,6 @@ const trustIndicators = [
 ];
 
 export function WhyInvoicemonkContent() {
-  const { locale } = useLocale();
-  const seo = pageSEO['/why-invoicemonk'];
-
   return (
     <Layout>
       <SEOHead

@@ -8,8 +8,6 @@ import {
   FloatingEndpointBadge,
   FloatingIcon
 } from '@/components/shared/FloatingElements';
-import { SEOHead } from '@/components/seo/SEOHead';
-import { pageSEO } from '@/components/seo/seoConfig';
 
 export function DeveloperContent() {
   const features = [

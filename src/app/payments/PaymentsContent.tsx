@@ -13,9 +13,6 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
-import { useLocale } from '@/hooks/useLocale';
-import { ServiceSchema } from '@/components/seo/ServiceSchema';
-import { SEOHead } from '@/components/seo/SEOHead';
 
 const paymentTabbedFeatures = [
   {
