@@ -2,7 +2,6 @@ import { Layout } from '@/components/layout/Layout';
 import Link from 'next/link';
 
 export function PrivacyPolicyContent() {
-  const seo = pageSEO['/privacy-policy'];
   return (
     <Layout>
       <div className="py-16 lg:py-24">
