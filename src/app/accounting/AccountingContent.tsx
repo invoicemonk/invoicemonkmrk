@@ -14,6 +14,7 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { useLocale } from '@/hooks/useLocale';
 
 const automationFeatures = [
@@ -126,6 +127,7 @@ export function AccountingContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Accounting Software"
         serviceType="Accounting Software"
         description="Complete accounting software with double-entry bookkeeping, financial statements, and tax-ready reports for small businesses."

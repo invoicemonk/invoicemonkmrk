@@ -14,6 +14,7 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { ServiceSchema } from '@/components/seo/ServiceSchema';
 
 const estimateTabbedFeatures = [
   {
@@ -130,6 +131,7 @@ export function EstimatesContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Estimates & Proposals"
         serviceType="Quoting Software"
         description="Create professional estimates and quotes. Get client approval online and convert to invoices with one click."
