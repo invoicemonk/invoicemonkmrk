@@ -39,7 +39,6 @@ export function PricingContent() {
     ? 'md:grid-cols-2 lg:grid-cols-4' 
     : 'md:grid-cols-3';
 
-  const seo = pageSEO['/pricing'];
 
   return (
     <Layout>
