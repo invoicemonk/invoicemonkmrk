@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { FileText, CreditCard, Wallet, Calculator, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
@@ -217,7 +217,7 @@ export function WaveProductTabs() {
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link to={activeProduct.link}>Learn More</Link>
+                        <Link href={activeProduct.link}>Learn More</Link>
                       </Button>
                     </>
                   ) : (
@@ -229,7 +229,7 @@ export function WaveProductTabs() {
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link to={activeProduct.link}>Learn More</Link>
+                        <Link href={activeProduct.link}>Learn More</Link>
                       </Button>
                     </>
                   )}

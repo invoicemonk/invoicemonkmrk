@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { ArrowRight, ExternalLink, FileText, ShoppingCart, BookOpen } from 'lucide-react';
 
@@ -62,7 +62,7 @@ export function ContextualLink({
   }
 
   return (
-    <Link to={to} className={linkClasses}>
+    <Link href={to} className={linkClasses}>
       {showIcon && <Icon className="h-3 w-3 flex-shrink-0" />}
       {children}
       {type === 'product' && <ArrowRight className="h-3 w-3 flex-shrink-0" />}

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -94,7 +94,7 @@ export function Navbar() {
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2 relative z-10">
+            <Link href="/" className="flex items-center gap-2 relative z-10">
               <img src={logo} alt="Invoicemonk" className="h-8 lg:h-10 w-auto" />
             </Link>
 

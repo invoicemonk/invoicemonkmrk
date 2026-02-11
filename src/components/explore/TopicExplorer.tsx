@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   FileText, 
@@ -119,9 +119,7 @@ const readingPaths: ReadingPath[] = [
 
 export function TopicExplorer() {
   const [selectedPillar, setSelectedPillar] = useState<string | null>(null);
-  const [view, setView] = useState<'map' | 'paths'>('map');
-  const navigate = useNavigate();
-  const readingProgress = getReadingProgress();
+  const [view, setView] = useState<'map' | 'paths'>('map');  const readingProgress = getReadingProgress();
 
   // Get posts for selected pillar
   const clusterPosts = useMemo(() => {

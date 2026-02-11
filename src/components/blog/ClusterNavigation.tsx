@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, BookOpen, Globe, Sparkles, FileText } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -90,7 +90,7 @@ export function ClusterNavigation({
                 size="sm" 
                 className="w-full mt-4 group"
               >
-                <Link to={pillar.hubPage}>
+                <Link href={pillar.hubPage}>
                   <span>Read the complete guide</span>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
@@ -111,7 +111,7 @@ export function ClusterNavigation({
             Apply what you've learned with Invoicemonk's {pillar.title.toLowerCase()} tools.
           </p>
           <Button asChild size="sm" className="w-full rounded-full">
-            <Link to={pillar.targetProduct}>
+            <Link href={pillar.targetProduct}>
               Try Free
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
@@ -267,7 +267,7 @@ export function CountryComplianceNav({ currentSlug, className }: CountryComplian
           size="sm" 
           className="w-full mt-4 group"
         >
-          <Link to="/guides/tax-compliance">
+          <Link href="/guides/tax-compliance">
             <span>Full Tax Compliance Guide</span>
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>

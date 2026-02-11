@@ -1,6 +1,6 @@
 'use client'
 
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { FileText, Wallet, CreditCard, Calculator, FileCheck, Receipt, ArrowRight, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
@@ -112,7 +112,7 @@ export function ProductSuiteSection() {
                       </a>
                     </Button>
                     <Button asChild variant="outline" size="lg" className="rounded-full">
-                      <Link to="/invoicing">Learn More</Link>
+                      <Link href="/invoicing">Learn More</Link>
                     </Button>
                   </div>
                 </div>

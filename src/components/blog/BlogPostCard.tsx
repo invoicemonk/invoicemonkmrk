@@ -1,6 +1,6 @@
 'use client'
 
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -24,7 +24,7 @@ export function BlogPostCard({ post, featured = false }: BlogPostCardProps) {
   if (featured) {
     return (
       <Card className="border-border/50 overflow-hidden hover:shadow-lg transition-shadow">
-        <Link to={`/blog/${post.slug}`}>
+        <Link href={`/blog/${post.slug}`}>
           <div className="grid md:grid-cols-2 gap-0">
             {/* Featured Image */}
             <div className="aspect-[1200/630] md:aspect-auto overflow-hidden">
@@ -79,7 +79,7 @@ export function BlogPostCard({ post, featured = false }: BlogPostCardProps) {
 
   return (
     <Card className="border-border/50 overflow-hidden hover:shadow-lg transition-shadow h-full group">
-      <Link to={`/blog/${post.slug}`} className="block h-full">
+      <Link href={`/blog/${post.slug}`} className="block h-full">
         {/* Featured Image */}
         <div className="aspect-[1200/630] overflow-hidden">
           <img

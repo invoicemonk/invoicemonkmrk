@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList, type LucideIcon } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -24,7 +24,7 @@ export function PillarCard({ pillar, postCount, className }: PillarCardProps) {
   const Icon = iconMap[pillar.icon] || FileText;
 
   return (
-    <Link to={`/blog/topic/${pillar.id}`}>
+    <Link href={`/blog/topic/${pillar.id}`}>
       <Card 
         className={cn(
           'group relative overflow-hidden border-border/50 hover:shadow-lg transition-all duration-300 h-full',
