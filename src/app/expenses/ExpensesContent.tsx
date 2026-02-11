@@ -299,7 +299,7 @@ export function ExpensesContent() {
         title="Save hours every month"
         subtitle="Automate the tedious parts of expense tracking."
         features={automationFeatures}
-        image={expensesAutomation}
+        image="/images/expenses-automation.jpg"
         className="bg-background"
       />
 
