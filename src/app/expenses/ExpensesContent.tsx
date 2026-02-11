@@ -14,6 +14,7 @@ import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
+import expensesAutomation from '@/assets/expenses-automation.jpg';
 
 const automationFeatures = [
   {

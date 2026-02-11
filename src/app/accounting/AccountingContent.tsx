@@ -16,6 +16,7 @@ import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { useLocale } from '@/hooks/useLocale';
+import accountingAutomation from '@/assets/accounting-automation.jpg';
 
 const automationFeatures = [
   {
