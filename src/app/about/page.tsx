@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { AboutContent } from './AboutContent'
 
 export const metadata: Metadata = {
-  title: 'About Us - Our Mission and Team',
+  title: "About Us - Our Mission and Team",
   description: 'Learn about Invoicemonk's mission.',
   keywords: ['about', 'team', 'mission'],
   alternates: {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'About Us - Our Mission and Team | Invoicemonk',
-    description: 'Learn about Invoicemonk's mission.',
+    description: "Learn about Invoicemonk's mission.",
     url: 'https://invoicemonk.com/about',
     type: 'website',
   },
