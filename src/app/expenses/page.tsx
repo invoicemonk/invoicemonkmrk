@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/expenses',
   },
   openGraph: {
-    title: 'Expense Tracking Software - Manage Business Expenses | Invoicemonk',
+    title: 'Expense Tracking Software - Manage Business Expenses | InvoiceMonk',
     description: 'Track business expenses, scan receipts, and stay organized for your business.',
     url: 'https://invoicemonk.com/expenses',
     type: 'website',

@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { CountrySelector } from '@/components/CountrySelector';
-
+import logo from '@/assets/invoicemonk-logo.png';
 const products = [
   { 
     name: 'Invoicing', 
@@ -95,7 +95,7 @@ export function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 relative z-10">
-              <img src="/images/invoicemonk-logo.png" alt="Invoicemonk" className="h-8 lg:h-10 w-auto" />
+              <img src={logo} alt="Invoicemonk" className="h-8 lg:h-10 w-auto" />
             </Link>
 
             {/* Desktop Navigation */}

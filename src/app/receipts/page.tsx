@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/receipts',
   },
   openGraph: {
-    title: 'Receipt Management - Digital Receipt Organization | Invoicemonk',
+    title: 'Receipt Management - Digital Receipt Organization | InvoiceMonk',
     description: 'Scan, organize, and manage receipts digitally.',
     url: 'https://invoicemonk.com/receipts',
     type: 'website',

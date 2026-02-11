@@ -1,6 +1,6 @@
 import { getAllBlogPosts } from '@/data/blogPosts'
 import { topicalMap } from '@/data/topicalMap'
-import { authors } from '@/data/authors'
+import { getAllAuthors } from '@/data/authors'
 
 export default function sitemap() {
   const baseUrl = 'https://invoicemonk.com'
@@ -64,7 +64,8 @@ export default function sitemap() {
   }))
 
   // Authors
-  const authorPages = authors.map(author => ({
+  const allAuthors = getAllAuthors()
+  const authorPages = allAuthors.map(author => ({
     url: `${baseUrl}/blog/author/${author.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',

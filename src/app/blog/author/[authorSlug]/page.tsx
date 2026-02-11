@@ -5,13 +5,14 @@ import Image from 'next/image'
 import { Layout } from '@/components/layout/Layout'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft } from 'lucide-react'
-import { authors } from '@/data/authors'
+import { getAllAuthors, getAuthorBySlug } from '@/data/authors'
 import { getAllBlogPosts } from '@/data/blogPosts'
 import { BlogPostCard } from '@/components/blog/BlogPostCard'
 
 // Generate static params for all authors
 export async function generateStaticParams() {
-  return authors.map((author) => ({
+  const allAuthors = getAllAuthors()
+  return allAuthors.map((author) => ({
     authorSlug: author.slug,
   }))
 }
@@ -22,7 +23,7 @@ export async function generateMetadata({
 }: { 
   params: { authorSlug: string } 
 }): Promise<Metadata> {
-  const author = authors.find(a => a.slug === params.authorSlug)
+  const author = getAuthorBySlug(params.authorSlug)
   
   if (!author) {
     return {
@@ -58,7 +59,7 @@ export default function AuthorPage({
 }: { 
   params: { authorSlug: string } 
 }) {
-  const author = authors.find(a => a.slug === params.authorSlug)
+  const author = getAuthorBySlug(params.authorSlug)
   
   if (!author) {
     notFound()

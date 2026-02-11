@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/features/client-management',
   },
   openGraph: {
-    title: 'Client Management Software | Invoicemonk',
+    title: 'Client Management Software | InvoiceMonk',
     description: 'Professional client management tools for freelancers and businesses.',
     url: 'https://invoicemonk.com/features/client-management',
     type: 'website',

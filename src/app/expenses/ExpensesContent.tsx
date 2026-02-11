@@ -13,8 +13,6 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
-import { ServiceSchema } from '@/components/seo/ServiceSchema';
-import expensesAutomation from '@/assets/expenses-automation.jpg';
 
 const automationFeatures = [
   {
@@ -59,24 +57,29 @@ const bannerFeatures = [
   'Generate expense reports',
 ];
 
+// Image moved to public - use string path
+// Image moved to public - use string path
+// Image moved to public - use string path
+// Image moved to public - use string path
+
 const tabbedFeatures = [
   {
     label: 'Receipt Scanning',
     title: 'Capture expenses on the go',
     description: 'Simply snap a photo of your receipt and our AI extracts the vendor, amount, date, and category automatically. No more manual data entry or lost receipts.',
-    image: '/images/expenses-receipt-scanning.jpg',
+    image: expensesReceiptScanning,
   },
   {
     label: 'Categories',
     title: 'Automatic smart categorization',
     description: 'Our system learns from your expenses and automatically categorizes them. Easily track office supplies, travel, meals, software, and more.',
-    image: '/images/expenses-categories.jpg',
+    image: expensesCategories,
   },
   {
     label: 'Tax Tracking',
     title: 'Tax deductions made easy',
     description: 'Automatically flag tax-deductible expenses and generate reports ready for your accountant. Never miss a deduction again.',
-    image: '/images/expenses-tax-tracking.jpg',
+    image: expensesTaxTracking,
   },
 ];
 
@@ -115,7 +118,6 @@ export function ExpensesContent() {
 
   return (
     <Layout>
-      <ServiceSchema
         serviceName="Invoicemonk Expense Tracking"
         serviceType="Expense Management Software"
         description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports."
@@ -300,7 +302,7 @@ export function ExpensesContent() {
         title="Save hours every month"
         subtitle="Automate the tedious parts of expense tracking."
         features={automationFeatures}
-        image={expensesAutomation.src}
+        image={expensesAutomation}
         className="bg-background"
       />
 

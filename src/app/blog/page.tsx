@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/blog',
   },
   openGraph: {
-    title: 'Invoicemonk Blog - Small Business & Invoicing Tips',
+    title: 'InvoiceMonk Blog - Small Business & Invoicing Tips',
     description: 'Expert guides on invoicing, accounting, tax compliance, and running a successful small business.',
     url: 'https://invoicemonk.com/blog',
   },

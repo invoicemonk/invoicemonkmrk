@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/guides/getting-paid',
   },
   openGraph: {
-    title: 'Getting Paid Faster - Payment Collection Guide | Invoicemonk',
+    title: 'Getting Paid Faster - Payment Collection Guide | InvoiceMonk',
     description: 'Strategies to get paid faster and improve cash flow.',
     url: 'https://invoicemonk.com/guides/getting-paid',
     type: 'article',

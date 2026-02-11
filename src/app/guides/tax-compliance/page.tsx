@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/guides/tax-compliance',
   },
   openGraph: {
-    title: 'Tax Compliance Guide - Stay Compliant | Invoicemonk',
+    title: 'Tax Compliance Guide - Stay Compliant | InvoiceMonk',
     description: 'Navigate tax compliance for your business.',
     url: 'https://invoicemonk.com/guides/tax-compliance',
     type: 'article',
