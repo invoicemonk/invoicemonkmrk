@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/contractors',
   },
   openGraph: {
-    title: 'Invoicing for Contractors - Job-Based Billing | InvoiceMonk',
+    title: 'Invoicing for Contractors - Job-Based Billing | Invoicemonk',
     description: 'Software for contractors.',
     url: 'https://invoicemonk.com/contractors',
     type: 'website',

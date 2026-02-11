@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/privacy-policy',
   },
   openGraph: {
-    title: 'Privacy Policy | InvoiceMonk',
+    title: 'Privacy Policy | Invoicemonk',
     description: 'Privacy policy and data protection.',
     url: 'https://invoicemonk.com/privacy-policy',
     type: 'website',

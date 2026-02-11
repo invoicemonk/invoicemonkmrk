@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/small-businesses',
   },
   openGraph: {
-    title: 'Small Business Software - All-in-One Solution | InvoiceMonk',
+    title: 'Small Business Software - All-in-One Solution | Invoicemonk',
     description: 'Complete solution for small businesses.',
     url: 'https://invoicemonk.com/small-businesses',
     type: 'website',

@@ -57,29 +57,24 @@ const bannerFeatures = [
   'Generate expense reports',
 ];
 
-// Image moved to public - use string path
-// Image moved to public - use string path
-// Image moved to public - use string path
-// Image moved to public - use string path
-
 const tabbedFeatures = [
   {
     label: 'Receipt Scanning',
     title: 'Capture expenses on the go',
     description: 'Simply snap a photo of your receipt and our AI extracts the vendor, amount, date, and category automatically. No more manual data entry or lost receipts.',
-    image: expensesReceiptScanning,
+    image: '/images/expenses-receipt-scanning.jpg',
   },
   {
     label: 'Categories',
     title: 'Automatic smart categorization',
     description: 'Our system learns from your expenses and automatically categorizes them. Easily track office supplies, travel, meals, software, and more.',
-    image: expensesCategories,
+    image: '/images/expenses-categories.jpg',
   },
   {
     label: 'Tax Tracking',
     title: 'Tax deductions made easy',
     description: 'Automatically flag tax-deductible expenses and generate reports ready for your accountant. Never miss a deduction again.',
-    image: expensesTaxTracking,
+    image: '/images/expenses-tax-tracking.jpg',
   },
 ];
 

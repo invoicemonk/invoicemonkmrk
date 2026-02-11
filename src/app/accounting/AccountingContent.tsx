@@ -14,6 +14,7 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { useLocale } from '@/hooks/useLocale';
 
 const automationFeatures = [
   {
@@ -76,29 +77,24 @@ const bannerFeatures = [
   'Multi-entity support',
 ];
 
-// Image moved to public - use string path
-// Image moved to public - use string path
-// Image moved to public - use string path
-// Image moved to public - use string path
-
 const tabbedFeatures = [
   {
     label: 'Chart of Accounts',
     title: 'A complete chart of accounts, ready to go',
     description: 'Start with a standard chart of accounts or customize it to fit your business. Every transaction is automatically categorized and recorded correctly.',
-    image: accountingChartOfAccounts,
+    image: '/images/accounting-chart-of-accounts.jpg',
   },
   {
     label: 'Financial Reports',
     title: 'Financial statements when you need them',
     description: 'Generate balance sheets, profit & loss statements, and cash flow reports with a single click. Always know where your business stands financially.',
-    image: accountingFinancialReports,
+    image: '/images/accounting-financial-reports.jpg',
   },
   {
     label: 'Multi-Entity',
     title: 'Manage multiple businesses easily',
     description: 'Running more than one business? Switch between entities seamlessly and get consolidated views of your entire portfolio.',
-    image: accountingMultiEntity,
+    image: '/images/accounting-multi-entity.jpg',
   },
 ];
 

@@ -16,7 +16,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   ClipboardList
 };
 
-export function GuidesIndexContent() {
+export default function GuidesIndex() {
   return (
     <Layout>
       

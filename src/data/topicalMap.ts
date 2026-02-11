@@ -576,9 +576,3 @@ export function getClusterType(postSlug: string, isPillarContent?: boolean): Clu
 export function getSemanticCategory(oldCategory: string): string {
   return categoryMapping[oldCategory] || oldCategory;
 }
-
-// Export pillars as topicalMap for backward compatibility
-export const topicalMap = pillars.reduce((acc, pillar) => {
-  acc[pillar.id] = pillar;
-  return acc;
-}, {} as Record<string, Pillar>);

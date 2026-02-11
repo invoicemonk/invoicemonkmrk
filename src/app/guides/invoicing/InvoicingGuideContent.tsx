@@ -5,7 +5,7 @@ import { GuideHero, ConceptGrid, ArticleList, GuideCTA, GuideFAQ, GuideCrossLink
 import { getPillarBySlug, getClusterPostsForPillar } from '@/data/topicalMap';
 import { blogPosts } from '@/data/blogPosts';
 
-export function InvoicingGuideContent() {
+export default function InvoicingGuide() {
   const pillar = getPillarBySlug('invoicing');
   
   const articles = useMemo(() => {
