@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/developer',
   },
   openGraph: {
-    title: 'API & Developer Resources | InvoiceMonk',
+    title: 'API & Developer Resources | Invoicemonk',
     description: 'API documentation and developer resources.',
     url: 'https://invoicemonk.com/developer',
     type: 'website',

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://invoicemonk.com/terms-of-service',
   },
   openGraph: {
-    title: 'Terms of Service | InvoiceMonk',
+    title: 'Terms of Service | Invoicemonk',
     description: 'Terms of service and user agreement.',
     url: 'https://invoicemonk.com/terms-of-service',
     type: 'website',
