@@ -1,10 +1,16 @@
 export const dynamic = "force-dynamic";
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+export default async function BlogPost({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
   return (
     <div style={{ padding: "40px" }}>
       <h1>Blog Post</h1>
-      <p>Slug: {params.slug}</p>
+      <p>Slug: {slug}</p>
     </div>
   );
 }
