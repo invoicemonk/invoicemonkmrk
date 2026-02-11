@@ -35,4 +35,3 @@ export function BusinessFinancesGuideContent() {
     </Layout>
   );
 }
-export const BusinessFinancesGuideContent = BusinessFinancesGuide;

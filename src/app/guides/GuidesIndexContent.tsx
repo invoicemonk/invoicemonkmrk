@@ -87,4 +87,3 @@ export function GuidesIndexContent() {
     </Layout>
   );
 }
-export const GuidesIndexContent = GuidesIndex;

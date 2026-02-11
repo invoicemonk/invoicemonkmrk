@@ -35,4 +35,3 @@ export function FreelancingGuideContent() {
     </Layout>
   );
 }
-export const FreelancingGuideContent = FreelancingGuide;

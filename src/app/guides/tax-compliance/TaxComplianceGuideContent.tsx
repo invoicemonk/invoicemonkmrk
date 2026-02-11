@@ -35,4 +35,3 @@ export function TaxComplianceGuideContent() {
     </Layout>
   );
 }
-export const TaxComplianceGuideContent = TaxComplianceGuide;

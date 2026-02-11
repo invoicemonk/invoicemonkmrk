@@ -35,4 +35,3 @@ export function GettingPaidGuideContent() {
     </Layout>
   );
 }
-export const GettingPaidGuideContent = GettingPaidGuide;

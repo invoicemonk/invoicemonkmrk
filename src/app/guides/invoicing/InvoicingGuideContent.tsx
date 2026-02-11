@@ -35,4 +35,3 @@ export function InvoicingGuideContent() {
     </Layout>
   );
 }
-export const InvoicingGuideContent = InvoicingGuide;
