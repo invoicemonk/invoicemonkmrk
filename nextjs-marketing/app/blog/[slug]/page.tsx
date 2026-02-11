@@ -1,16 +1,12 @@
-export const dynamic = "force-dynamic";
+import { Metadata } from 'next';
+import { DynamicBlog } from '@/components/PageWrapper';
 
-export default async function BlogPost({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
+export const metadata: Metadata = {
+  title: 'Blog - Invoicing, Accounting & Business Tips | InvoiceMonk',
+  description: 'Expert guides and resources on invoicing, expense tracking, accounting, and small business financial management.',
+  alternates: { canonical: 'https://invoicemonk.com/blog/' },
+};
 
-  return (
-    <div style={{ padding: "40px" }}>
-      <h1>Blog Post</h1>
-      <p>Slug: {slug}</p>
-    </div>
-  );
+export default function BlogPage() {
+  return <DynamicBlog />;
 }
