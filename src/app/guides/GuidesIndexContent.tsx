@@ -87,4 +87,4 @@ export default function GuidesIndex() {
     </Layout>
   );
 }
-export { default as GuidesIndexContent };
+export const GuidesIndexContent = GuidesIndex;

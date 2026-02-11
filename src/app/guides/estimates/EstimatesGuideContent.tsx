@@ -35,4 +35,4 @@ export default function EstimatesGuide() {
     </Layout>
   );
 }
-export { default as EstimatesGuideContent };
+export const EstimatesGuideContent = EstimatesGuide;

@@ -35,4 +35,4 @@ export default function TaxComplianceGuide() {
     </Layout>
   );
 }
-export { default as TaxComplianceGuideContent };
+export const TaxComplianceGuideContent = TaxComplianceGuide;

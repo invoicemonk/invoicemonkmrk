@@ -35,4 +35,4 @@ export default function FreelancingGuide() {
     </Layout>
   );
 }
-export { default as FreelancingGuideContent };
+export const FreelancingGuideContent = FreelancingGuide;

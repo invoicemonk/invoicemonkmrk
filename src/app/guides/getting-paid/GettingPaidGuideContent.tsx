@@ -35,4 +35,4 @@ export default function GettingPaidGuide() {
     </Layout>
   );
 }
-export { default as GettingPaidGuideContent };
+export const GettingPaidGuideContent = GettingPaidGuide;
