@@ -7970,6 +7970,7 @@ export const getPostClusterInfo = (slug: string) => {
   };
 };
 
+// Get all blog posts
 export const getAllBlogPosts = (): BlogPost[] => {
   return blogPosts;
 };

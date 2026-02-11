@@ -14,8 +14,9 @@ import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimoni
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
-import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
+import { useLocale } from '@/hooks/useLocale';
+import accountingAutomation from '@/assets/accounting-automation.jpg';
 
 const automationFeatures = [
   {
@@ -326,7 +327,7 @@ export function AccountingContent() {
         title="Your books, always up to date"
         subtitle="Automation that keeps your accounting accurate."
         features={automationFeatures}
-        image="/images/accounting-automation.jpg"
+        image={accountingAutomation.src}
         className="bg-background"
       />
 

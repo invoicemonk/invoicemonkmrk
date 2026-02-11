@@ -14,6 +14,7 @@ import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
+import expensesAutomation from '@/assets/expenses-automation.jpg';
 
 const automationFeatures = [
   {
@@ -299,7 +300,7 @@ export function ExpensesContent() {
         title="Save hours every month"
         subtitle="Automate the tedious parts of expense tracking."
         features={automationFeatures}
-        image="/images/expenses-automation.jpg"
+        image={expensesAutomation.src}
         className="bg-background"
       />
 
