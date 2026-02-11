@@ -135,6 +135,7 @@ export function ReceiptsContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Receipt Management"
         serviceType="Receipt Management Software"
         description="Capture, organize, and store all your receipts digitally with AI-powered scanning and secure cloud storage."

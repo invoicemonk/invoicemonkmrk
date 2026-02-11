@@ -114,6 +114,7 @@ export function PaymentsContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Payment Processing"
         serviceType="Payment Processing Software"
         description="Accept payments directly from invoices. Credit cards, bank transfers, and digital wallets with automatic reconciliation."

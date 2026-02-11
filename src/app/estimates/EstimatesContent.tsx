@@ -132,6 +132,7 @@ export function EstimatesContent() {
 
   return (
     <Layout>
+      <ServiceSchema
         serviceName="Invoicemonk Estimates & Proposals"
         serviceType="Quoting Software"
         description="Create professional estimates and quotes. Get client approval online and convert to invoices with one click."
