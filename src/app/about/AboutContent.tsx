@@ -33,6 +33,7 @@ const teamMembers = [
 ];
 
 export function AboutContent() {
+  const seo = pageSEO['/about'];
 
   return (
     <Layout>

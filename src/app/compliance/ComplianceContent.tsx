@@ -21,6 +21,7 @@ const complianceFeatures = [
 export function ComplianceContent() {
   const { locale } = useLocale();
   const { compliance } = locale.content;
+  const seo = pageSEO['/compliance'];
 
   return (
     <Layout>

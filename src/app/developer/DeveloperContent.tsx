@@ -42,6 +42,7 @@ export function DeveloperContent() {
     { method: 'POST', path: '/v1/expenses', description: 'Record an expense' },
   ];
 
+  const seo = pageSEO['/developer'];
 
   return (
     <Layout>
