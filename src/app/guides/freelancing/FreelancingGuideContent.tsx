@@ -26,11 +26,6 @@ export default function FreelancingGuide() {
 
   return (
     <Layout>
-      <SEOHead
-        title={`${pillar.title} Guide | Invoicemonk`}
-        description={pillar.longDescription}
-        canonical={`https://invoicemonk.com/guides/${pillar.slug}`}
-      />
 <GuideHero pillar={pillar} />
       <ConceptGrid pillar={pillar} />
       <GuideCrossLink pillar={pillar} />

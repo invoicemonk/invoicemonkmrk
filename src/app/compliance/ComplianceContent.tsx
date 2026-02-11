@@ -25,11 +25,6 @@ export function ComplianceContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title={seo?.getTitle(locale) || 'Tax Compliance | Invoicemonk'}
-        description={seo?.getDescription(locale) || 'Stay audit-ready with immutable records and comprehensive audit trails.'}
-        canonical="https://invoicemonk.com/compliance"
-      />
       {/* Hero Section */}
       <div className="relative">
         <PageHero

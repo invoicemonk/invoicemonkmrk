@@ -140,11 +140,6 @@ export function ContactContent() {
   };
   return (
     <Layout>
-      <SEOHead
-        title={seo?.getTitle(locale) || 'Contact Us | Invoicemonk'}
-        description={seo?.getDescription(locale) || 'Get in touch with Invoicemonk. We are here to help with your invoicing needs.'}
-        canonical="https://invoicemonk.com/contact"
-      />
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}

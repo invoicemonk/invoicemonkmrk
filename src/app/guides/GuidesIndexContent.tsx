@@ -19,16 +19,6 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 export default function GuidesIndex() {
   return (
     <Layout>
-      <SEOHead
-        title="Business Guides & Resources | Invoicemonk"
-        description="Comprehensive guides on invoicing, getting paid, accounting, tax compliance, freelancing, and business proposals. Expert knowledge to grow your business."
-        canonical="https://invoicemonk.com/guides"
-      />
-      <SEOHead
-        title="Business Guides & Resources | Invoicemonk"
-        description="Comprehensive guides on invoicing, getting paid, accounting, tax compliance, freelancing, and business proposals. Expert knowledge to grow your business."
-        canonical="https://invoicemonk.com/guides"
-      />
       
       {/* Hero */}
       <section className="py-16 lg:py-24">

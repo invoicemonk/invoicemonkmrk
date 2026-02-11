@@ -48,11 +48,6 @@ export function ContractorsContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Invoicing Software for Contractors | Invoicemonk"
-        description="Professional invoicing built for electrical, building, and trade contractors. Mobile invoicing, multi-project tracking, and job expense management."
-        canonical="https://invoicemonk.com/contractors"
-      />
       {/* Hero Section */}
       <div className="relative">
         <PageHero

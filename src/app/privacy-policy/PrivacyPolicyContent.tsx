@@ -5,11 +5,6 @@ export function PrivacyPolicyContent() {
   const seo = pageSEO['/privacy-policy'];
   return (
     <Layout>
-      <SEOHead
-        title={seo?.getTitle({} as any) || 'Privacy Policy | Invoicemonk'}
-        description={seo?.getDescription({} as any) || 'Learn how Invoicemonk protects your data and respects your privacy.'}
-        canonical="https://invoicemonk.com/privacy-policy"
-      />
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-4">

@@ -4,11 +4,6 @@ import Link from 'next/link';
 export function CookiePolicyContent() {
   return (
     <Layout>
-      <SEOHead
-        title="Cookie Policy | Invoicemonk"
-        description="Learn how Invoicemonk uses cookies and similar technologies. Manage your cookie preferences and understand your choices."
-        canonical="https://invoicemonk.com/cookie-policy"
-      />
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-4">

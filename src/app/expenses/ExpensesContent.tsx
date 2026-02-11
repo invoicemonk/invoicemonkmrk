@@ -118,12 +118,6 @@ export function ExpensesContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Business Expense Tracking Software | Receipt Scanning | Invoicemonk"
-        description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports. Integrated with invoicing."
-        canonical="https://invoicemonk.com/expenses"
-      />
-      <ServiceSchema
         serviceName="Invoicemonk Expense Tracking"
         serviceType="Expense Management Software"
         description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports."

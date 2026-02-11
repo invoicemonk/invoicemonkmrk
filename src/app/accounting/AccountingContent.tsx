@@ -130,12 +130,6 @@ export function AccountingContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Small Business Accounting Software | Double-Entry Bookkeeping | Invoicemonk"
-        description="Complete accounting software with double-entry bookkeeping, financial statements, and tax reports. Designed for small businesses and freelancers."
-        canonical="https://invoicemonk.com/accounting"
-      />
-      <ServiceSchema
         serviceName="Invoicemonk Accounting Software"
         serviceType="Accounting Software"
         description="Complete accounting software with double-entry bookkeeping, financial statements, and tax-ready reports for small businesses."

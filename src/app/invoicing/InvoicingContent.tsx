@@ -122,12 +122,6 @@ export function InvoicingContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Professional Invoicing Software | Create & Send Invoices | Invoicemonk"
-        description="Create beautiful professional invoices in minutes. Automate payment reminders, maintain audit trails, and get paid faster with Invoicemonk's invoicing software."
-        canonical="https://invoicemonk.com/invoicing"
-      />
-      <ServiceSchema
         serviceName="Invoicemonk Invoicing Software"
         serviceType="Invoicing Software"
         description="Create beautiful professional invoices in minutes. Automate payment reminders, maintain complete audit trails, and get paid faster."

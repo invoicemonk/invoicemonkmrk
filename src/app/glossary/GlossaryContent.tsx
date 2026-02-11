@@ -107,11 +107,6 @@ export function GlossaryContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Business Finance Glossary | Invoicing & Accounting Terms | Invoicemonk"
-        description="Comprehensive glossary of invoicing, payments, accounting, tax, and business finance terms. Learn key concepts for small business owners and freelancers."
-        canonical="https://invoicemonk.com/glossary"
-      />
 <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}

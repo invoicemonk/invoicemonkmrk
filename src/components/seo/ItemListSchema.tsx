@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import Script from 'next/script';
 
 interface ItemListItem {
   name: string;
@@ -47,11 +47,7 @@ export function ItemListSchema({
   };
 
   return (
-    <Helmet>
-      <script type="application/ld+json">
-        {JSON.stringify(schema)}
-      </script>
-    </Helmet>
+    <Script id="schema-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
   );
 }
 

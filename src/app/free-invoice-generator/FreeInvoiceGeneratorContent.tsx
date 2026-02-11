@@ -54,11 +54,6 @@ export function FreeInvoiceGeneratorContent() {
   ];
   return (
     <Layout>
-      <SEOHead
-        title={seo?.getTitle(locale) || 'Free Invoice Generator | Invoicemonk'}
-        description={seo?.getDescription(locale) || 'Create professional invoices in minutes. No signup required to get started.'}
-        canonical="https://invoicemonk.com/free-invoice-generator"
-      />
       {/* Hero Section */}
       <div className="relative">
         <PageHero

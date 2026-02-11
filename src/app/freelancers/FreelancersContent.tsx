@@ -49,11 +49,6 @@ export function FreelancersContent() {
   ];
   return (
     <Layout>
-      <SEOHead
-        title={seo?.getTitle(locale) || 'Invoicing for Freelancers | Invoicemonk'}
-        description={seo?.getDescription(locale) || 'Professional invoicing for freelancers. Get paid faster and stay compliant.'}
-        canonical="https://invoicemonk.com/freelancers"
-      />
       {/* Hero Section */}
       <div className="relative">
         <PageHero

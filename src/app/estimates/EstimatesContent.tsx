@@ -130,12 +130,6 @@ export function EstimatesContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Professional Estimates & Quotes Software | Proposals | Invoicemonk"
-        description="Create professional estimates and quotes. Get client approval online and convert to invoices with one click. Win more business with better proposals."
-        canonical="https://invoicemonk.com/estimates"
-      />
-      <ServiceSchema
         serviceName="Invoicemonk Estimates & Proposals"
         serviceType="Quoting Software"
         description="Create professional estimates and quotes. Get client approval online and convert to invoices with one click."

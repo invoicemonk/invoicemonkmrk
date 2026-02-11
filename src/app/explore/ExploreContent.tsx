@@ -15,11 +15,6 @@ function Explore() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Explore Topics & Reviews | Invoicemonk"
-        description="Explore our comprehensive topic guides, read customer reviews, and track your learning progress. Master invoicing, payments, and business finance."
-        canonical="https://invoicemonk.com/explore"
-      />
 
       {/* Hero */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-muted/30 to-background">

@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import Script from 'next/script';
 import { useLocale } from '@/hooks/useLocale';
 
 interface SoftwareApplicationSchemaProps {
@@ -85,10 +85,6 @@ export function SoftwareApplicationSchema({
   }
 
   return (
-    <Helmet>
-      <script type="application/ld+json">
-        {JSON.stringify(baseSchema)}
-      </script>
-    </Helmet>
+    <Script id="schema-baseSchema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }} />
   );
 }

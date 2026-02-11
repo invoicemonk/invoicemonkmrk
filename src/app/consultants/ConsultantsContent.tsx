@@ -48,11 +48,6 @@ export function ConsultantsContent() {
 
   return (
     <Layout>
-      <SEOHead
-        title="Invoicing Software for Consultants | Invoicemonk"
-        description="Professional invoicing for management consultants and strategy firms. Multi-currency billing, detailed reporting, and enterprise-ready compliance."
-        canonical="https://invoicemonk.com/consultants"
-      />
       {/* Hero Section */}
       <div className="relative">
         <PageHero
