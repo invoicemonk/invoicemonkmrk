@@ -20,7 +20,7 @@ const complianceFeatures = [
 
 export function ComplianceContent() {
   const { locale } = useLocale();
-  const { compliance } = locale.content;
+  const { compliance } = locale.content || {};
 
   return (
     <Layout>
