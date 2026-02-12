@@ -74,7 +74,7 @@ export function PricingContent() {
               >
                 Annual
                 <span className="ml-1.5 text-wave-orange font-semibold">
-                  {pricingContent?.annualSavingsText || "Save 20%"}
+                  {(pricingContent as any)?.annualSavingsText || "Save 20%"}
                 </span>
               </button>
             </div>

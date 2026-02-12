@@ -27,10 +27,10 @@ export function ComplianceContent() {
       {/* Hero Section */}
       <div className="relative">
         <PageHero
-          badge={{ icon: Shield, text: `${compliance?.authority}-Compliant` }}
+          badge={{ icon: Shield, text: `${(compliance as any)?.authority}-Compliant` }}
           title="Built for audit-ready confidence"
           accentWord="audit-ready"
-          description={`${compliance?.message}. Invoicemonk maintains immutable records and comprehensive audit trails, so you're always prepared for regulatory review.`}
+          description={`${(compliance as any)?.message}. Invoicemonk maintains immutable records and comprehensive audit trails, so you're always prepared for regulatory review.`}
           primaryCta={{ text: 'Start Free', href: 'https://app.invoicemonk.com/signup' }}
           secondaryCta={{ text: 'Learn More', href: '/why-invoicemonk', external: false }}
           trustBadge="Immutable records • Complete audit trails • Export-ready reports"
