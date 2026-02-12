@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react';
-// Router hooks removed - use Next.js params instead;
+import { useSearchParams, useRouter } from 'next/navigation';
 import { Layout } from '@/components/layout/Layout';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -40,7 +40,8 @@ const categoryConfig: Record<GlossaryTerm['category'], { icon: typeof FileText; 
 };
 
 export function GlossaryContent() {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
   const selectedCategory = searchParams.get('category') as GlossaryTerm['category'] | null;
   const selectedTerm = searchParams.get('term');
@@ -87,22 +88,22 @@ export function GlossaryContent() {
 
   const handleCategoryFilter = (category: GlossaryTerm['category'] | null) => {
     if (category) {
-      setSearchParams({ category });
+      router.push(`/glossary?category=${category}`);
     } else {
-      setSearchParams({});
+      router.push('/glossary');
     }
   };
 
   const handleTermSelect = (slug: string) => {
     const newParams = new URLSearchParams(searchParams);
     newParams.set('term', slug);
-    setSearchParams(newParams);
+    router.push(`/glossary?${new URLSearchParams(newParams).toString()}`);
   };
 
   const handleCloseTerm = () => {
     const newParams = new URLSearchParams(searchParams);
     newParams.delete('term');
-    setSearchParams(newParams);
+    router.push(`/glossary?${new URLSearchParams(newParams).toString()}`);
   };
 
   return (
