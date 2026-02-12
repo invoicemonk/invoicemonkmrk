@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { Layout } from '@/components/layout/Layout';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -274,7 +275,7 @@ export function GlossaryContent() {
                               {relatedArticles.map(article => (
                                 <Link
                                   key={article.slug}
-                                  to={`/blog/${article.slug}`}
+                                  href={`/blog/${article.slug}`}
                                   className="flex items-center gap-2 text-sm text-primary hover:underline"
                                 >
                                   <ChevronRight className="h-4 w-4" />
