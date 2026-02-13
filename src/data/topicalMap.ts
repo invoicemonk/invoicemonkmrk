@@ -258,7 +258,7 @@ export const pillars: Pillar[] = [
       },
       {
         title: 'US (IRS)',
-        description: 'US small business tax compliance.',
+        description: 'US small business tax (compliance as any).',
         link: '/blog/irs-invoice-requirements-us-compliance'
       },
       {

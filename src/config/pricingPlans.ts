@@ -68,7 +68,7 @@ export const businessTierFeatures = [
 
 // Get pricing plans based on locale
 export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
-  const showStarterTier = locale.pricingContent.starterAvailable;
+  const showStarterTier = (locale.pricing as any)Content.starterAvailable;
 
   const plans: PricingPlan[] = [
     {

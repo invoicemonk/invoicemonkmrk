@@ -771,7 +771,7 @@ export const blogPosts: BlogPost[] = [
       <p>Depending on your business, you might face property taxes, excise taxes, environmental levies, or industry-specific taxes. Research what applies to your specific situation.</p>
 
       <h2>Record-Keeping Requirements</h2>
-      <p>Proper records are the foundation of tax compliance. Without them, you can't prove your income, deductions, or compliance. Here's what you need:</p>
+      <p>Proper records are the foundation of tax (compliance as any). Without them, you can't prove your income, deductions, or (compliance as any). Here's what you need:</p>
       
       <h3>What to Keep</h3>
       <ul>
@@ -2819,7 +2819,7 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-01-30',
     readTime: '12 min read',
-    featuredImage: '/blog/firs-nigeria-compliance.jpg',
+    featuredImage: '/blog/firs-nigeria-(compliance as any).jpg',
     featuredImageAlt: 'FIRS Nigeria invoice requirements and tax compliance guide',
     pillarContent: false,
     clusterType: 'cluster',
@@ -2951,7 +2951,7 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-01-29',
     readTime: '14 min read',
-    featuredImage: '/blog/hmrc-uk-compliance.jpg',
+    featuredImage: '/blog/hmrc-uk-(compliance as any).jpg',
     featuredImageAlt: 'HMRC UK invoice requirements and Making Tax Digital compliance guide',
     pillarContent: false,
     clusterType: 'cluster',
@@ -3103,7 +3103,7 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-01-28',
     readTime: '13 min read',
-    featuredImage: '/blog/irs-us-compliance.jpg',
+    featuredImage: '/blog/irs-us-(compliance as any).jpg',
     featuredImageAlt: 'IRS US invoice requirements and small business tax compliance guide',
     pillarContent: false,
     clusterType: 'cluster',
@@ -3111,7 +3111,7 @@ export const blogPosts: BlogPost[] = [
     semanticKeywords: ['IRS invoice', 'US tax compliance', 'sales tax', 'American business invoice', 'small business tax'],
     priority: 'P2',
     content: `
-      <p>The United States tax system, while complex, follows clear rules for business documentation. The Internal Revenue Service (IRS) requires businesses to maintain accurate records, including proper invoices. This guide covers what US small businesses need to know about invoicing for tax compliance.</p>
+      <p>The United States tax system, while complex, follows clear rules for business documentation. The Internal Revenue Service (IRS) requires businesses to maintain accurate records, including proper invoices. This guide covers what US small businesses need to know about invoicing for tax (compliance as any).</p>
 
       <h2>Understanding US Business Tax Structure</h2>
       <p>Unlike countries with a national VAT system, the US has multiple layers of taxation:</p>
@@ -3253,7 +3253,7 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-01-27',
     readTime: '12 min read',
-    featuredImage: '/blog/cra-canada-compliance.jpg',
+    featuredImage: '/blog/cra-canada-(compliance as any).jpg',
     featuredImageAlt: 'CRA Canada invoice standards and GST/HST compliance guide',
     pillarContent: false,
     clusterType: 'cluster',
@@ -3421,7 +3421,7 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-01-26',
     readTime: '13 min read',
-    featuredImage: '/blog/ato-australia-compliance.jpg',
+    featuredImage: '/blog/ato-australia-(compliance as any).jpg',
     featuredImageAlt: 'ATO Australia invoice requirements and GST compliance guide',
     pillarContent: false,
     clusterType: 'cluster',
@@ -4080,7 +4080,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'credit-notes-and-invoice-corrections',
     title: 'Credit Notes and Invoice Corrections: The Right Way to Fix Billing Errors',
-    excerpt: 'Learn how to properly issue credit notes and corrections while maintaining accurate records and tax compliance.',
+    excerpt: 'Learn how to properly issue credit notes and corrections while maintaining accurate records and tax (compliance as any).',
     category: 'Invoicing and Billing Tips',
     tags: ['invoicing', 'credit notes', 'corrections', 'compliance'],
     author: defaultAuthor,

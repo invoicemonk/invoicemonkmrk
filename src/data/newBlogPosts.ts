@@ -926,7 +926,7 @@ Notes: Thank you for your business!
   {
     slug: 'proforma-invoice-vs-commercial-invoice',
     title: 'Proforma Invoice vs Commercial Invoice: Key Differences Explained',
-    excerpt: 'Understand the crucial differences between proforma and commercial invoices. Learn when to use each type and how they impact international trade and tax compliance.',
+    excerpt: 'Understand the crucial differences between proforma and commercial invoices. Learn when to use each type and how they impact international trade and tax (compliance as any).',
     category: 'Invoicing and Billing Tips',
     tags: ['proforma invoice', 'commercial invoice', 'international trade', 'invoice types', 'export documentation'],
     author: defaultAuthor,
@@ -3140,7 +3140,7 @@ export const taxComplianceNewPosts: BlogPost[] = [
   {
     slug: 'business-tax-calendar-by-country',
     title: 'Business Tax Calendar by Country: Key Dates and Deadlines',
-    excerpt: 'Never miss a tax deadline with this comprehensive tax calendar covering the US, UK, Canada, Australia, and Nigeria. Key dates for filings, payments, and compliance.',
+    excerpt: 'Never miss a tax deadline with this comprehensive tax calendar covering the US, UK, Canada, Australia, and Nigeria. Key dates for filings, payments, and (compliance as any).',
     category: 'Small Business',
     tags: ['tax calendar', 'tax deadlines', 'international tax', 'compliance', 'business taxes'],
     author: defaultAuthor,
@@ -3624,7 +3624,7 @@ Business Records/
     semanticKeywords: ['tax software integration', 'accounting integration', 'tax preparation', 'software automation', 'tax filing'],
     priority: 'P2',
     content: `
-      <p><strong>Manual tax preparation is time-consuming, error-prone, and frustrating.</strong> By integrating your business software with tax tools, you can automate data transfer, reduce mistakes, and spend less time on compliance. This guide shows you how.</p>
+      <p><strong>Manual tax preparation is time-consuming, error-prone, and frustrating.</strong> By integrating your business software with tax tools, you can automate data transfer, reduce mistakes, and spend less time on (compliance as any). This guide shows you how.</p>
 
       <h2>Benefits of Tax Software Integration</h2>
       <ul>
