@@ -9,6 +9,9 @@ import { LocaleProvider } from '@/contexts/LocaleContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
+export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://invoicemonk.com'),
   title: {
