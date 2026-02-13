@@ -1,96 +1,84 @@
 
-# Plan: Create Two New Blog Articles and Update Invoicing Pillar Guide
 
-## Status: ✅ COMPLETED (February 3, 2026)
+# Update Marketing Website with Accurate Plan Details
 
 ## Overview
-
-This plan implements the first content pieces from the Month 1 content calendar:
-1. ✅ **New Article**: "How to Create Your First Professional Invoice (Step-by-Step)" - Informational, Freelancer-focused
-2. ✅ **New Article**: "Invoice Mistakes That Cost You Money (And How to Avoid Them)" - Problem-solving, All audiences
-3. ✅ **Pillar Enhancement**: Update "Complete Guide to Business Invoicing" with 2026 statistics
+Update the pricing page, locale configs, and plan feature data to match the actual product tiers from the database. This includes fixing pricing discrepancies, adding a detailed feature comparison table, and updating plan descriptions.
 
 ---
 
-## Completed Changes
+## Changes
 
-### 1. src/data/blogPosts.ts
+### 1. Fix Pricing in Locale Files
 
-- ✅ Added `how-to-create-first-professional-invoice` (~2,500 words, 12 min read)
-- ✅ Added `invoice-mistakes-that-cost-you-money` (~2,200 words, 10 min read)
-- ✅ Updated `complete-guide-to-business-invoicing` with:
-  - New "State of Invoicing in 2026" section with key statistics
-  - Added `dateModified: '2026-02-03'`
-  - Statistics: 58% cash flow impact, 83% error-caused delays, 14 days faster with software, 47% mobile growth, 64% freelancer cash flow concerns
+Two locale files have incorrect Business tier prices:
 
-### 2. src/data/topicalMap.ts
+- **`src/locales/en-GB.ts`**: Change `business: 15` to `business: 12`
+- **`src/locales/en-CA.ts`**: Change `business: 25` to `business: 20`
 
-- ✅ Added new slugs to invoicing-mastery cluster:
-  - `how-to-create-first-professional-invoice`
-  - `invoice-mistakes-that-cost-you-money`
+### 2. Update Plan Descriptions and Features in `src/config/pricingPlans.ts`
 
-### 3. src/data/contentIntents.ts
+Update taglines to match the app:
+- Free: "For individuals getting started"
+- Starter: "For solo businesses ready to grow"
+- Professional: "For growing businesses"
+- Business: "For enterprises with advanced needs"
 
-- ✅ Added intent metadata for both new articles:
-  - `how-to-create-first-professional-invoice`: informational, awareness, beginner
-  - `invoice-mistakes-that-cost-you-money`: problem-solving, consideration, beginner
+Replace the generic feature bullet lists with accurate limits and features:
 
----
+**Free tier:**
+- 5 invoices and 5 receipts/month
+- 1 currency account
+- 1 payment method per currency
+- Accounting, expenses, credit notes
+- Invoice verification portal
+- Invoicemonk watermark on PDFs
 
-## Article Details
+**Starter tier (Nigeria only):**
+- Unlimited invoices and receipts
+- 3 currency accounts
+- 2 payment methods per currency
+- Everything in Free, plus higher limits
+- Invoicemonk watermark on PDFs
 
-### Article 1: How to Create Your First Professional Invoice
+**Professional tier:**
+- Unlimited invoices, receipts, and currencies
+- Up to 5 team members
+- Unlimited payment methods
+- Full audit trail and data exports
+- Custom branding, premium templates
+- No watermark on PDFs
 
-| Attribute | Value |
-|-----------|-------|
-| Slug | `how-to-create-first-professional-invoice` |
-| Target Intent | Informational |
-| Primary Persona | Freelancers (beginners) |
-| Pillar | Invoicing Mastery |
-| Word Count | ~2,500 words |
-| Read Time | 12 min |
-| Featured Image | `/blog/invoice-essential-elements.jpg` |
+**Business tier:**
+- Everything in Professional
+- Unlimited team members
+- API access
+- Enterprise-grade support
 
-**Article Structure:**
-- Introduction & importance of first invoice
-- Pre-creation checklist (info to gather)
-- 10-step guide with practical examples
-- First invoice template structure
-- Common questions answered
-- Internal links to related cluster content
+### 3. Add Feature Comparison Table to Pricing Page (`src/pages/Pricing.tsx`)
 
-### Article 2: Invoice Mistakes That Cost You Money
+Add a new section below the pricing cards showing a detailed side-by-side comparison table with two groups:
 
-| Attribute | Value |
-|-----------|-------|
-| Slug | `invoice-mistakes-that-cost-you-money` |
-| Target Intent | Problem-solving |
-| Primary Persona | All audiences |
-| Pillar | Invoicing Mastery |
-| Word Count | ~2,200 words |
-| Read Time | 10 min |
-| Featured Image | `/blog/invoice-disputes.jpg` |
+**Limits table**: Invoices/month, Receipts/month, Currency accounts, Team members, Payment methods per currency
 
-**Article Structure:**
-- 10 specific mistakes with real-world examples
-- Cost implications for each
-- Actionable solutions
-- Quick reference checklist
-- Audit your invoices next steps
+**Features table**: Accounting module, Expense tracking, Credit notes, In-app support, Invoice verification, Full audit trail, Custom branding, Data exports, Advanced reports, Premium templates, Watermark-free PDFs, API access
+
+The table will be responsive -- on mobile it will stack or scroll horizontally.
+
+### 4. Update `SoftwareApplicationSchema.tsx`
+
+Update the schema offers to reflect corrected pricing and ensure the Starter plan offer is only included conditionally (when locale has `starterAvailable: true`).
 
 ---
 
-## SEO Impact
+## Files Modified
 
-- Two new entry points for beginner invoicing queries
-- Strengthens invoicing pillar cluster (now 14 posts)
-- Freshness signals from pillar update with 2026 date
-- Internal linking structure connects to pillar and related posts
+| File | What Changes |
+|------|-------------|
+| `src/locales/en-GB.ts` | Business price: 15 to 12 |
+| `src/locales/en-CA.ts` | Business price: 25 to 20 |
+| `src/config/pricingPlans.ts` | Updated descriptions, accurate feature lists |
+| `src/pages/Pricing.tsx` | Add feature comparison table section |
+| `src/components/seo/SoftwareApplicationSchema.tsx` | Locale-aware offers |
 
-## Next Steps (Remaining Month 1 Content)
-
-Per the content calendar, the following articles are scheduled for Week 2-4:
-
-- Week 2: "Setting Your Freelance Rates: A Complete Framework" + "FIRS Compliance Checklist for Nigerian Businesses 2026"
-- Week 3: "Why Clients Pay Late (And What You Can Do About It)" + "Business Bank Account vs Personal: Why Separation Matters"
-- Week 4: "Mobile Invoicing: How to Bill Clients From Anywhere" + "The Complete Guide to Recurring Invoices for Retainer Clients"
+No new dependencies needed. All changes use existing UI components and Tailwind classes.
