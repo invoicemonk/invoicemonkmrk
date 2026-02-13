@@ -70,7 +70,7 @@ export function Footer() {
               {footerLinks.platform.map((link) => (
                 <li key={link.name}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="inline-flex items-center gap-2 text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -96,7 +96,7 @@ export function Footer() {
               {footerLinks.topics.map((link) => (
                 <li key={link.name}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -123,7 +123,7 @@ export function Footer() {
                     </a>
                   ) : (
                     <Link
-                      to={link.href}
+                      href={link.href}
                       className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                     >
                       {link.name}
@@ -138,7 +138,7 @@ export function Footer() {
               {footerLinks.audiences.map((link) => (
                 <li key={link.name}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -155,7 +155,7 @@ export function Footer() {
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -169,7 +169,7 @@ export function Footer() {
               {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}

@@ -103,7 +103,7 @@ export function ContentSearchBox({
                 return (
                   <Link
                     key={slug}
-                    to={`/blog/${slug}`}
+                    href={`/blog/${slug}`}
                     onClick={handleResultClick}
                     className="flex items-start gap-3 p-2 rounded-md hover:bg-muted transition-colors"
                   >
@@ -135,7 +135,7 @@ export function ContentSearchBox({
           
           <div className="border-t border-border p-2">
             <Link
-              to={`/blog?q=${encodeURIComponent(query)}`}
+              href={`/blog?q=${encodeURIComponent(query)}`}
               onClick={handleResultClick}
               className="flex items-center justify-center gap-2 p-2 text-sm text-primary hover:bg-muted rounded-md transition-colors"
             >
@@ -151,7 +151,7 @@ export function ContentSearchBox({
         <div className="absolute top-full left-0 right-0 mt-2 bg-popover border border-border rounded-lg shadow-lg z-50 p-4 text-center">
           <p className="text-muted-foreground">No articles found for "{query}"</p>
           <Link
-            to="/blog"
+            href="/blog"
             className="text-sm text-primary hover:underline mt-2 inline-block"
           >
             Browse all articles

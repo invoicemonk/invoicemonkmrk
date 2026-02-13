@@ -24,7 +24,7 @@ export function TopicBreadcrumb({
       <ol className="flex items-center flex-wrap gap-1.5">
         <li className="flex items-center gap-1.5">
           <Link 
-            to="/" 
+            href="/" 
             className="flex items-center gap-1 hover:text-primary transition-colors"
             aria-label="Home"
           >
@@ -35,7 +35,7 @@ export function TopicBreadcrumb({
         
         <li className="flex items-center gap-1.5">
           <Link 
-            to="/blog" 
+            href="/blog" 
             className="hover:text-primary transition-colors"
           >
             Blog
@@ -46,7 +46,7 @@ export function TopicBreadcrumb({
         {pillar ? (
           <li className="flex items-center gap-1.5">
             <Link 
-              to={`/blog/topic/${pillar.id}`}
+              href={`/blog/topic/${pillar.id}`}
               className="hover:text-primary transition-colors"
               style={{ color: pillar.color }}
             >
@@ -59,7 +59,7 @@ export function TopicBreadcrumb({
         ) : (
           <li className="flex items-center gap-1.5">
             <Link 
-              to={`/blog?category=${encodeURIComponent(category)}`}
+              href={`/blog?category=${encodeURIComponent(category)}`}
               className="hover:text-primary transition-colors"
             >
               {category}
