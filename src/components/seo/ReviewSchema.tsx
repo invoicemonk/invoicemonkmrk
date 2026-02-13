@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import { Helmet } from 'react-helmet-async';
 
 interface Review {
   author: string;
@@ -108,7 +108,11 @@ export function ReviewSchema({
   }
 
   return (
-    <Script id="schema-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    </Helmet>
   );
 }
 

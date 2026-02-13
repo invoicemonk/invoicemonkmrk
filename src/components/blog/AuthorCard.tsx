@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Author } from '@/data/authors';
@@ -16,7 +16,7 @@ export function AuthorCard({ author, variant = 'compact', showCredentials = true
   if (variant === 'compact') {
     return (
       <Link 
-        href={`/blog/author/${author.slug}`}
+        to={`/blog/author/${author.slug}`}
         className="flex items-center gap-3 group"
       >
         <Avatar className="h-10 w-10">
@@ -38,7 +38,7 @@ export function AuthorCard({ author, variant = 'compact', showCredentials = true
   return (
     <div className="bg-card rounded-xl border border-border p-6">
       <div className="flex items-start gap-4">
-        <Link href={`/blog/author/${author.slug}`}>
+        <Link to={`/blog/author/${author.slug}`}>
           <Avatar className="h-16 w-16">
             <AvatarImage src={author.avatar} alt={author.name} />
             <AvatarFallback className="text-lg">{initials}</AvatarFallback>
@@ -46,7 +46,7 @@ export function AuthorCard({ author, variant = 'compact', showCredentials = true
         </Link>
         <div className="flex-1">
           <Link 
-            href={`/blog/author/${author.slug}`}
+            to={`/blog/author/${author.slug}`}
             className="text-heading-sm font-bold text-foreground hover:text-primary transition-colors"
           >
             {author.name}

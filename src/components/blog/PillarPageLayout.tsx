@@ -1,7 +1,5 @@
-'use client'
-
 import { useState, useEffect, useMemo } from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { 
   FileText, 
   Wallet, 
@@ -268,7 +266,7 @@ export function PillarPageLayout({
                       .map((clusterPost) => (
                         <li key={clusterPost.slug}>
                           <Link 
-                            href={`/blog/${clusterPost.slug}`}
+                            to={`/blog/${clusterPost.slug}`}
                             className="group flex items-start gap-3 text-sm hover:text-primary transition-colors"
                           >
                             <span 
@@ -313,7 +311,7 @@ export function PillarPageLayout({
                     color: 'white'
                   }}
                 >
-                  <Link href={pillar.targetProduct}>
+                  <Link to={pillar.targetProduct}>
                     <span>Start Free Trial</span>
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>

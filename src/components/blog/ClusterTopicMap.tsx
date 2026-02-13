@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { Check, Circle, BookOpen } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
@@ -75,7 +75,7 @@ export function ClusterTopicMap({
                     </div>
                   ) : (
                     <Link 
-                      href={`/blog/${post.slug}`}
+                      to={`/blog/${post.slug}`}
                       className={cn(
                         "group flex items-start gap-3 py-2 px-3 rounded-lg",
                         "text-muted-foreground hover:text-foreground",

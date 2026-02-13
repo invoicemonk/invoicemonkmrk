@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import { Helmet } from 'react-helmet-async';
 import { GlossaryTerm } from '@/data/glossaryTerms';
 
 interface DefinedTermSetSchemaProps {
@@ -22,7 +22,11 @@ export function DefinedTermSetSchema({ terms }: DefinedTermSetSchemaProps) {
   };
 
   return (
-    <Script id="schema-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    </Helmet>
   );
 }
 
@@ -45,6 +49,10 @@ export function SingleTermSchema({ term }: SingleTermSchemaProps) {
   };
 
   return (
-    <Script id="schema-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    </Helmet>
   );
 }

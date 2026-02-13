@@ -1,5 +1,3 @@
-'use client'
-
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Star, Quote, User, Building2, BadgeCheck } from 'lucide-react';

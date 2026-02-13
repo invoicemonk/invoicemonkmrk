@@ -1,26 +1,28 @@
-import Link from 'next/link';
-import { ComponentPropsWithoutRef, forwardRef } from 'react';
-import { cn } from '@/lib/utils';
+import { NavLink as RouterNavLink, NavLinkProps } from "react-router-dom";
+import { forwardRef } from "react";
+import { cn } from "@/lib/utils";
 
-interface NavLinkProps extends ComponentPropsWithoutRef<typeof Link> {
+interface NavLinkCompatProps extends Omit<NavLinkProps, "className"> {
   className?: string;
   activeClassName?: string;
+  pendingClassName?: string;
 }
 
-const NavLink = forwardRef<HTMLAnchorElement, NavLinkProps>(
-  ({ className, activeClassName, ...props }, ref) => {
-    // In Next.js, we don't have isActive state like React Router
-    // Just use regular Link with className
+const NavLink = forwardRef<HTMLAnchorElement, NavLinkCompatProps>(
+  ({ className, activeClassName, pendingClassName, to, ...props }, ref) => {
     return (
-      <Link
+      <RouterNavLink
         ref={ref}
-        className={className}
+        to={to}
+        className={({ isActive, isPending }) =>
+          cn(className, isActive && activeClassName, isPending && pendingClassName)
+        }
         {...props}
       />
     );
-  }
+  },
 );
 
-NavLink.displayName = 'NavLink';
+NavLink.displayName = "NavLink";
 
 export { NavLink };

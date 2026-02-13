@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import {
   Tooltip,
   TooltipContent,
@@ -32,7 +32,7 @@ export function GlossaryTermLink({
 
   const link = (
     <Link
-      href={`/glossary?term=${termSlug}`}
+      to={`/glossary?term=${termSlug}`}
       className={`text-primary underline decoration-dotted underline-offset-2 hover:decoration-solid ${className}`}
     >
       {children}

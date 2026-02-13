@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -54,7 +54,7 @@ export function ClusterSeriesSection({
         {displayPosts.map((post) => (
           <Link 
             key={post.slug} 
-            href={`/blog/${post.slug}`}
+            to={`/blog/${post.slug}`}
             className="group"
           >
             <Card className="h-full border-border/50 overflow-hidden hover:shadow-lg transition-all duration-300 hover:border-primary/30">
@@ -108,7 +108,7 @@ export function ClusterSeriesSection({
             asChild
             className="group"
           >
-            <Link href={`/blog?pillar=${pillar.id}`}>
+            <Link to={`/blog?pillar=${pillar.id}`}>
               <span>View all {posts.length} articles in {pillar.title}</span>
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>

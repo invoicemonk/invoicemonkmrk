@@ -1,33 +1,35 @@
-'use client'
-
 import { motion } from 'framer-motion';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
+import personaFreelancer from '@/assets/persona-freelancer.jpg';
+import personaConsultant from '@/assets/persona-consultant.jpg';
+import personaSmallBusiness from '@/assets/persona-smallbusiness.jpg';
+import personaContractor from '@/assets/persona-contractor.jpg';
 
 const personas = [
   {
     title: 'Freelancers',
     description: 'Invoice clients, track expenses, and get paid faster — all in one place.',
-    image: '/images/persona-freelancer.jpg',
+    image: personaFreelancer,
     link: '/freelancers',
   },
   {
     title: 'Consultants',
     description: 'Professional invoicing with compliance features your enterprise clients expect.',
-    image: '/images/persona-consultant.jpg',
+    image: personaConsultant,
     link: '/consultants',
   },
   {
     title: 'Small Businesses',
     description: 'Grow from one-person shop to full team with tools that scale with you.',
-    image: '/images/persona-smallbusiness.jpg',
+    image: personaSmallBusiness,
     link: '/small-businesses',
   },
   {
     title: 'Contractors',
     description: 'Manage multiple clients, track project expenses, and stay organized.',
-    image: '/images/persona-contractor.jpg',
+    image: personaContractor,
     link: '/contractors',
   },
 ];
@@ -54,7 +56,7 @@ export function WavePersonaSection() {
                 transition={{ duration: 0.2 }}
               >
                 <Link
-                  href={persona.link}
+                  to={persona.link}
                   className="block group"
                 >
                   <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl overflow-hidden border border-primary-foreground/20 hover:border-primary-foreground/40 transition-colors">

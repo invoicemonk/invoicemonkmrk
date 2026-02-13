@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import { Helmet } from 'react-helmet-async';
 import { useLocale } from '@/hooks/useLocale';
 
 export function WebSiteSchema() {
@@ -11,7 +11,7 @@ export function WebSiteSchema() {
     "name": "Invoicemonk",
     "alternateName": "Invoice Monk",
     "url": "https://invoicemonk.com",
-    "description": (locale.content as any).seo.siteDescription,
+    "description": locale.content.seo.siteDescription,
     "inLanguage": "en",
     "publisher": {
       "@id": "https://invoicemonk.com/#organization"
@@ -33,6 +33,10 @@ export function WebSiteSchema() {
   };
 
   return (
-    <Script id="schema-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    </Helmet>
   );
 }

@@ -1,6 +1,4 @@
-'use client'
-
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Clock, ArrowRight, BookOpen } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -105,7 +103,7 @@ function ArticleCard({ article, pillar, index, featured }: ArticleCardProps) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.05 }}
     >
-      <Link href={`/blog/${article.slug}`}>
+      <Link to={`/blog/${article.slug}`}>
         <Card className={`h-full hover:shadow-soft-lg transition-all duration-300 group border-border/50 ${
           featured ? 'bg-gradient-to-br from-card to-muted/30' : ''
         }`}>

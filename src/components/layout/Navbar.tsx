@@ -1,13 +1,10 @@
-'use client'
-
-import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { CountrySelector } from '@/components/CountrySelector';
-
+import logo from '@/assets/invoicemonk-logo.png';
 const products = [
   { 
     name: 'Invoicing', 
@@ -49,7 +46,7 @@ const products = [
     href: '/receipts', 
     icon: Receipt, 
     description: 'Digital receipt management',
-    status: 'coming-soon'
+    status: 'available'
   },
 ];
 
@@ -64,7 +61,7 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
-  const pathname = usePathname();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -95,8 +92,8 @@ export function Navbar() {
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 relative z-10">
-              <img src="/images/invoicemonk-logo.png" alt="Invoicemonk" className="h-8 lg:h-10 w-auto" />
+            <Link to="/" className="flex items-center gap-2 relative z-10">
+              <img src={logo} alt="Invoicemonk" className="h-8 lg:h-10 w-auto" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -134,7 +131,7 @@ export function Navbar() {
                             return (
                               <Link
                                 key={product.name}
-                                href={product.href}
+                                to={product.href}
                                 className={`flex items-start gap-3 p-3 rounded-xl transition-all duration-200 ${
                                   isAvailable 
                                     ? 'hover:bg-primary/5 group' 
@@ -182,9 +179,9 @@ export function Navbar() {
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
-                  href={link.href}
+                  to={link.href}
                   className={`text-body-sm font-medium transition-colors duration-200 hover:text-primary ${
-                    pathname === link.href
+                    location.pathname === link.href
                       ? 'text-primary'
                       : 'text-foreground/80'
                   }`}
@@ -258,7 +255,7 @@ export function Navbar() {
                           transition={{ delay: index * 0.03 + 0.1 }}
                         >
                           <Link
-                            href={product.href}
+                            to={product.href}
                             className={`flex items-center gap-3 py-3 px-4 rounded-lg transition-colors ${
                               isAvailable
                                 ? 'text-foreground hover:bg-primary/5 hover:text-primary'
@@ -297,9 +294,9 @@ export function Navbar() {
                         transition={{ delay: (products.length + index) * 0.03 + 0.1 }}
                       >
                         <Link
-                          href={link.href}
+                          to={link.href}
                           className={`block py-3 px-4 rounded-lg text-body font-medium transition-colors ${
-                            pathname === link.href
+                            location.pathname === link.href
                               ? 'bg-primary/10 text-primary'
                               : 'text-foreground hover:bg-muted'
                           }`}

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
@@ -36,7 +36,7 @@ export function HomeBlogSection() {
             size="lg"
             className="rounded-full px-8 h-12 group"
           >
-            <Link href="/blog">
+            <Link to="/blog">
               View All Posts
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>

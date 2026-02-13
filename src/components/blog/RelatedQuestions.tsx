@@ -1,7 +1,5 @@
-'use client'
-
 import { useState } from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { ChevronDown, ChevronRight, HelpCircle, ExternalLink } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
@@ -91,7 +89,7 @@ export function RelatedQuestions({
                 <p>{item.answer}</p>
                 {item.relatedLink && (
                   <Link 
-                    href={item.relatedLink}
+                    to={item.relatedLink}
                     className="inline-flex items-center gap-1 mt-2 text-primary hover:underline text-xs font-medium"
                   >
                     Learn more: {item.relatedLinkText}
@@ -150,7 +148,7 @@ export function RelatedQuestions({
                   <p>{item.answer}</p>
                   {item.relatedLink && (
                     <Link 
-                      href={item.relatedLink}
+                      to={item.relatedLink}
                       className="inline-flex items-center gap-1 mt-3 text-primary hover:underline font-medium"
                     >
                       <span>Read more: {item.relatedLinkText}</span>
@@ -166,7 +164,7 @@ export function RelatedQuestions({
         {/* Link to guide for full FAQ */}
         <div className="px-4 pt-3 mt-2 border-t border-border">
           <Link 
-            href={pillar.hubPage}
+            to={pillar.hubPage}
             className="text-sm text-primary hover:underline font-medium flex items-center gap-1"
           >
             View complete {pillar.title.toLowerCase()} guide

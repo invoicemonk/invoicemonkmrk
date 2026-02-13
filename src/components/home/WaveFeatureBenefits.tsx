@@ -1,27 +1,28 @@
-'use client'
-
 import { motion } from 'framer-motion';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import featureRelief from '@/assets/feature-relief.jpg';
+import featureProfessional from '@/assets/feature-professional.jpg';
+import featureCompliance from '@/assets/feature-compliance.jpg';
 
 const benefits = [
   {
     title: 'Breathe that sigh of relief',
     description: 'Stop stressing about getting paid. With automated reminders and payment tracking, you\'ll spend less time chasing invoices and more time doing what you love.',
-    image: '/images/feature-relief.jpg',
+    image: featureRelief,
     imageAlt: 'Person relaxed at desk with laptop',
     reverse: false,
   },
   {
     title: 'Look professional, feel confident',
     description: 'Send polished invoices that make a great impression. Customizable templates with your branding help you stand out and build trust with every client.',
-    image: '/images/feature-professional.jpg',
+    image: featureProfessional,
     imageAlt: 'Professional invoice on screen',
     reverse: true,
   },
   {
     title: 'Stay compliant, stay ready',
     description: 'Every transaction is logged with immutable records and complete audit trails. When regulators or auditors come calling, you\'re already prepared.',
-    image: '/images/feature-compliance.jpg',
+    image: featureCompliance,
     imageAlt: 'Audit trail dashboard',
     reverse: false,
   },

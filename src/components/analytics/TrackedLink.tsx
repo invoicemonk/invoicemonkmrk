@@ -1,5 +1,3 @@
-'use client'
-
 import { useEffect, useCallback } from 'react';
 import { useContentAnalytics } from '@/hooks/useContentAnalytics';
 

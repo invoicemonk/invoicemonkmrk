@@ -1,5 +1,3 @@
-'use client'
-
 import { useCallback, useEffect, useRef } from 'react';
 
 // Analytics event types
@@ -11,7 +9,9 @@ export type AnalyticsEventType =
   | 'reading_time'
   | 'topic_explore'
   | 'journey_step'
-  | 'ab_impression';
+  | 'ab_impression'
+  | 'calculator_usage'
+  | 'tool_cta_click';
 
 interface AnalyticsEvent {
   type: AnalyticsEventType;
@@ -173,7 +173,7 @@ export function useContentAnalytics(articleSlug?: string, pillarId?: string) {
     storeAnalyticsEvent(event);
     
     // Log for debugging in development
-    if (process.env.NODE_ENV === 'development') {
+    if (import.meta.env.DEV) {
       console.log('[Analytics]', type, event.data);
     }
   }, [sessionId, articleSlug, pillarId]);

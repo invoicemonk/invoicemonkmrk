@@ -1,6 +1,4 @@
-'use client'
-
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -62,7 +60,7 @@ export function ConceptGrid({ pillar }: ConceptGridProps) {
                     </p>
                     {topic.link && (
                       <Link 
-                        href={topic.link}
+                        to={topic.link}
                         className="inline-flex items-center text-sm font-medium text-primary hover:underline"
                       >
                         Learn more

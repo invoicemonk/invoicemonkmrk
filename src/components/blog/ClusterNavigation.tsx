@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen, Globe, Sparkles, FileText } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -69,7 +69,7 @@ export function ClusterNavigation({
                 {filteredPosts.slice(0, 5).map((post) => (
                   <li key={post.slug}>
                     <Link 
-                      href={`/blog/${post.slug}`}
+                      to={`/blog/${post.slug}`}
                       className="group flex items-start gap-3 text-sm hover:text-primary transition-colors"
                     >
                       <span 
@@ -90,7 +90,7 @@ export function ClusterNavigation({
                 size="sm" 
                 className="w-full mt-4 group"
               >
-                <Link href={pillar.hubPage}>
+                <Link to={pillar.hubPage}>
                   <span>Read the complete guide</span>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
@@ -111,7 +111,7 @@ export function ClusterNavigation({
             Apply what you've learned with Invoicemonk's {pillar.title.toLowerCase()} tools.
           </p>
           <Button asChild size="sm" className="w-full rounded-full">
-            <Link href={pillar.targetProduct}>
+            <Link to={pillar.targetProduct}>
               Try Free
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
@@ -136,7 +136,7 @@ export function ClusterNavigation({
               {countryGuides.map((country) => (
                 <Link
                   key={country.code}
-                  href={`/blog/${country.slug}`}
+                  to={`/blog/${country.slug}`}
                   className={cn(
                     "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium",
                     "bg-muted hover:bg-muted/80 text-foreground transition-colors",
@@ -166,7 +166,7 @@ export function ClusterNavigation({
               {crossPillarSuggestions.map((relatedPillar) => (
                 <Link
                   key={relatedPillar.id}
-                  href={relatedPillar.hubPage}
+                  to={relatedPillar.hubPage}
                   className="group flex items-center gap-3 p-2 rounded-lg hover:bg-muted/50 transition-colors"
                 >
                   <div 
@@ -237,7 +237,7 @@ export function CountryComplianceNav({ currentSlug, className }: CountryComplian
             {countryGuides.map((country) => (
               <li key={country.code}>
                 <Link
-                  href={`/blog/${country.slug}`}
+                  to={`/blog/${country.slug}`}
                   className={cn(
                     "flex items-center gap-3 p-2 rounded-lg transition-colors",
                     currentSlug === country.slug 
@@ -267,7 +267,7 @@ export function CountryComplianceNav({ currentSlug, className }: CountryComplian
           size="sm" 
           className="w-full mt-4 group"
         >
-          <Link href="/guides/tax-compliance">
+          <Link to="/guides/tax-compliance">
             <span>Full Tax Compliance Guide</span>
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>

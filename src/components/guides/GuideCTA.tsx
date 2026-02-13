@@ -1,6 +1,4 @@
-'use client'
-
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -86,13 +84,13 @@ export function GuideCTA({ pillar }: GuideCTAProps) {
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <Button asChild size="lg" className="rounded-full">
-                      <Link href={pillar.targetProduct}>
+                      <Link to={pillar.targetProduct}>
                         Get Started Free
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
                     <Button asChild variant="outline" size="lg" className="rounded-full">
-                      <Link href="/pricing">
+                      <Link to="/pricing">
                         View Pricing
                       </Link>
                     </Button>

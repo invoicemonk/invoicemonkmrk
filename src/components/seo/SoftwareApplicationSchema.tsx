@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import { Helmet } from 'react-helmet-async';
 import { useLocale } from '@/hooks/useLocale';
 
 interface SoftwareApplicationSchemaProps {
@@ -20,7 +20,7 @@ export function SoftwareApplicationSchema({
     "@type": "SoftwareApplication",
     "@id": "https://invoicemonk.com/#software",
     "name": name,
-    "description": description || (locale.content as any).seo.siteDescription,
+    "description": description || locale.content.seo.siteDescription,
     "applicationCategory": "FinanceApplication",
     "applicationSubCategory": "Invoicing Software",
     "operatingSystem": "Web",
@@ -85,6 +85,10 @@ export function SoftwareApplicationSchema({
   }
 
   return (
-    <Script id="schema-baseSchema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }} />
+    <Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(baseSchema)}
+      </script>
+    </Helmet>
   );
 }

@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
+import logo from '@/assets/invoicemonk-logo.png';
 
 const footerLinks = {
   platform: [
@@ -8,7 +9,7 @@ const footerLinks = {
     { name: 'Payments', href: '/payments', badge: 'Soon' },
     { name: 'Accounting', href: '/accounting', badge: 'Available' },
     { name: 'Estimates', href: '/estimates', badge: 'Soon' },
-    { name: 'Receipts', href: '/receipts', badge: 'Soon' },
+    { name: 'Receipts', href: '/receipts', badge: 'Available' },
   ],
   company: [
     { name: 'About', href: '/about' },
@@ -24,6 +25,9 @@ const footerLinks = {
     { name: 'Explore Topics', href: '/explore' },
     { name: 'Video Tutorials', href: 'https://learn.invoicemonk.com', external: true },
     { name: 'Free Invoice Generator', href: '/free-invoice-generator' },
+    { name: 'Payment Fee Calculator', href: '/international-payment-fee-calculator' },
+    { name: 'PayPal vs Wise Fees', href: '/paypal-vs-wise-fees' },
+    { name: 'Cheapest International Payments', href: '/cheapest-way-to-receive-international-payments' },
   ],
   topics: [
     { name: 'Invoicing Tips', href: '/blog/topic/invoicing-mastery' },
@@ -55,8 +59,8 @@ export function Footer() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 lg:gap-10">
           {/* Logo & Description */}
           <div className="col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-2 mb-4 lg:mb-0">
-            <Link href="/" className="inline-block mb-4">
-              <img src="/images/invoicemonk-logo.png" alt="Invoicemonk" className="h-8 w-auto" />
+            <Link to="/" className="inline-block mb-4">
+              <img src={logo} alt="Invoicemonk" className="h-8 w-auto" />
             </Link>
             <p className="text-body-sm text-muted-foreground max-w-xs">
               The compliance-first financial platform. Start with invoicing, grow into a complete suite.
@@ -70,7 +74,7 @@ export function Footer() {
               {footerLinks.platform.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    to={link.href}
                     className="inline-flex items-center gap-2 text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -96,7 +100,7 @@ export function Footer() {
               {footerLinks.topics.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    to={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -123,7 +127,7 @@ export function Footer() {
                     </a>
                   ) : (
                     <Link
-                      href={link.href}
+                      to={link.href}
                       className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                     >
                       {link.name}
@@ -138,7 +142,7 @@ export function Footer() {
               {footerLinks.audiences.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    to={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -155,7 +159,7 @@ export function Footer() {
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    to={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -169,7 +173,7 @@ export function Footer() {
               {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <Link
-                    href={link.href}
+                    to={link.href}
                     className="text-body-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}

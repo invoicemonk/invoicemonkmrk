@@ -1,5 +1,3 @@
-'use client'
-
 import { motion } from 'framer-motion';
 import { Star, ArrowRight, Play, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -7,7 +5,7 @@ import { useLocale } from '@/hooks/useLocale';
 
 export function HeroSection() {
   const { locale, formatPrice } = useLocale();
-  const { hero, compliance } = (locale.content as any);
+  const { hero, compliance } = locale.content;
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-16 lg:py-24">
@@ -53,7 +51,7 @@ export function HeroSection() {
               </div>
             </div>
             <span className="text-body-sm text-muted-foreground">
-              4.6/5 from 10,000+ reviews
+              4.6/5 on Google
             </span>
           </motion.div>
 

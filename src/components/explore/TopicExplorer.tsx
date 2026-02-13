@@ -1,8 +1,5 @@
-'use client'
-
-import { useRouter } from 'next/navigation';
 import { useState, useMemo } from 'react';
-import Link from 'next/link';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   FileText, 
@@ -119,9 +116,10 @@ const readingPaths: ReadingPath[] = [
 ];
 
 export function TopicExplorer() {
-  const router = useRouter();
   const [selectedPillar, setSelectedPillar] = useState<string | null>(null);
-  const [view, setView] = useState<'map' | 'paths'>('map');  const readingProgress = getReadingProgress();
+  const [view, setView] = useState<'map' | 'paths'>('map');
+  const navigate = useNavigate();
+  const readingProgress = getReadingProgress();
 
   // Get posts for selected pillar
   const clusterPosts = useMemo(() => {
@@ -253,7 +251,7 @@ export function TopicExplorer() {
                                     size="sm"
                                     onClick={(e) => {
                                       e.stopPropagation();
-                                      router.push(pillar.hubPage);
+                                      navigate(pillar.hubPage);
                                     }}
                                   >
                                     View complete guide
@@ -268,7 +266,7 @@ export function TopicExplorer() {
                                     return (
                                       <Link
                                         key={post.slug}
-                                        href={`/blog/${post.slug}`}
+                                        to={`/blog/${post.slug}`}
                                         onClick={(e) => e.stopPropagation()}
                                         className="group"
                                       >
@@ -395,7 +393,7 @@ export function TopicExplorer() {
                           return (
                             <Link
                               key={slug}
-                              href={`/blog/${slug}`}
+                              to={`/blog/${slug}`}
                               className="group flex items-center gap-3 p-2 rounded-lg hover:bg-muted/50 transition-colors"
                             >
                               <div className={cn(
@@ -423,7 +421,7 @@ export function TopicExplorer() {
                         variant={progress > 0 ? "default" : "outline"}
                         onClick={() => {
                           const nextSlug = path.slugs.find(slug => (readingProgress[slug] || 0) < 75) || path.slugs[0];
-                          router.push(`/blog/${nextSlug}`);
+                          navigate(`/blog/${nextSlug}`);
                         }}
                       >
                         {progress === 0 ? 'Start Learning' : progress === 100 ? 'Review Path' : 'Continue Learning'}

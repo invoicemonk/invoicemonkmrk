@@ -1,7 +1,5 @@
-'use client'
-
 import { motion } from 'framer-motion';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { FileText, Wallet, CreditCard, Calculator, FileCheck, Receipt, ArrowRight, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
@@ -18,34 +16,16 @@ const flagshipFeatures = [
 
 const comingSoonProducts = [
   {
-    name: 'Expenses',
-    icon: Wallet,
-    description: 'Track business expenses, scan receipts, and categorize spending automatically.',
-    href: '/expenses',
-  },
-  {
     name: 'Payments',
     icon: CreditCard,
     description: 'Accept online payments, set up payment plans, and reconcile transactions.',
     href: '/payments',
   },
   {
-    name: 'Accounting',
-    icon: Calculator,
-    description: 'Full double-entry accounting with financial statements and tax reports.',
-    href: '/accounting',
-  },
-  {
     name: 'Estimates',
     icon: FileCheck,
     description: 'Create professional quotes and convert approved estimates to invoices.',
     href: '/estimates',
-  },
-  {
-    name: 'Receipts',
-    icon: Receipt,
-    description: 'Digital receipt management with OCR scanning and organization.',
-    href: '/receipts',
   },
 ];
 
@@ -112,7 +92,7 @@ export function ProductSuiteSection() {
                       </a>
                     </Button>
                     <Button asChild variant="outline" size="lg" className="rounded-full">
-                      <Link href="/invoicing">Learn More</Link>
+                      <Link to="/invoicing">Learn More</Link>
                     </Button>
                   </div>
                 </div>
@@ -187,7 +167,7 @@ export function ProductSuiteSection() {
                       transition={{ duration: 0.2 }}
                     >
                       <Link
-                        href={product.href}
+                        to={product.href}
                         className="block h-full bg-card rounded-2xl p-6 border border-border hover:border-primary/30 hover:shadow-card-hover transition-all duration-300 group"
                       >
                         <div className="flex items-start gap-4">

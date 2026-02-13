@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { ArrowRight, ExternalLink, FileText, ShoppingCart, BookOpen } from 'lucide-react';
 
@@ -62,7 +62,7 @@ export function ContextualLink({
   }
 
   return (
-    <Link href={to} className={linkClasses}>
+    <Link to={to} className={linkClasses}>
       {showIcon && <Icon className="h-3 w-3 flex-shrink-0" />}
       {children}
       {type === 'product' && <ArrowRight className="h-3 w-3 flex-shrink-0" />}
@@ -84,7 +84,7 @@ export function ProductCTA({ product, productName, className }: ProductCTAProps)
     <span className={cn('inline-flex items-center gap-1', className)}>
       Try{' '}
       <Link 
-        href={product}
+        to={product}
         className="font-medium text-primary hover:text-primary/80 underline decoration-primary/30 hover:decoration-primary"
       >
         {productName}
@@ -107,7 +107,7 @@ interface RelatedGuideLinkProps {
 export function RelatedGuideLink({ to, title, description, color }: RelatedGuideLinkProps) {
   return (
     <Link 
-      href={to}
+      to={to}
       className="group flex items-start gap-3 p-4 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-primary/5 transition-all"
     >
       <div 
@@ -155,7 +155,7 @@ export function CountryComplianceLink({ country, className }: CountryComplianceL
   
   return (
     <Link 
-      href={`/blog/${config.slug}`}
+      to={`/blog/${config.slug}`}
       className={cn(
         'inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium',
         'bg-muted hover:bg-muted/80 text-foreground transition-colors',

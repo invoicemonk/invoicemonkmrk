@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import { Helmet } from 'react-helmet-async';
 import { useLocale } from '@/hooks/useLocale';
 
 export function OrganizationSchema() {
@@ -17,7 +17,7 @@ export function OrganizationSchema() {
       "width": 512,
       "height": 512
     },
-    "description": (locale.content as any).seo.siteDescription,
+    "description": locale.content.seo.siteDescription,
     "foundingDate": "2023",
     "founders": [
       {
@@ -79,6 +79,10 @@ export function OrganizationSchema() {
   };
 
   return (
-    <Script id="schema-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    </Helmet>
   );
 }

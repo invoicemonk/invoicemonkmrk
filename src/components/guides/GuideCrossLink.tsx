@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { Button } from '@/components/ui/button';
@@ -84,7 +84,7 @@ export function GuideCrossLink({ pillar }: GuideCrossLinkProps) {
               
               <div className="flex-shrink-0">
                 <Button asChild variant="outline" className="rounded-full group">
-                  <Link href={`/blog/${blogPillar.slug}`}>
+                  <Link to={`/blog/${blogPillar.slug}`}>
                     Read Full Guide
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </Link>

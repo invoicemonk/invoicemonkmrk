@@ -1,6 +1,4 @@
-'use client'
-
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -24,7 +22,7 @@ export function BlogPostCard({ post, featured = false }: BlogPostCardProps) {
   if (featured) {
     return (
       <Card className="border-border/50 overflow-hidden hover:shadow-lg transition-shadow">
-        <Link href={`/blog/${post.slug}`}>
+        <Link to={`/blog/${post.slug}`}>
           <div className="grid md:grid-cols-2 gap-0">
             {/* Featured Image */}
             <div className="aspect-[1200/630] md:aspect-auto overflow-hidden">
@@ -51,7 +49,7 @@ export function BlogPostCard({ post, featured = false }: BlogPostCardProps) {
               </p>
               <div className="flex items-center gap-4 text-sm text-muted-foreground">
                 <Link 
-                  href={`/blog/author/${post.author.slug}`}
+                  to={`/blog/author/${post.author.slug}`}
                   className="flex items-center gap-2 hover:text-primary transition-colors"
                   onClick={(e) => e.stopPropagation()}
                 >
@@ -79,7 +77,7 @@ export function BlogPostCard({ post, featured = false }: BlogPostCardProps) {
 
   return (
     <Card className="border-border/50 overflow-hidden hover:shadow-lg transition-shadow h-full group">
-      <Link href={`/blog/${post.slug}`} className="block h-full">
+      <Link to={`/blog/${post.slug}`} className="block h-full">
         {/* Featured Image */}
         <div className="aspect-[1200/630] overflow-hidden">
           <img

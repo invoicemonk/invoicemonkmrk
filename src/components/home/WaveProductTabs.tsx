@@ -1,8 +1,6 @@
-'use client'
-
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { FileText, CreditCard, Wallet, Calculator, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
@@ -38,7 +36,7 @@ const products = [
     description: 'Capture receipts, categorize spending automatically, and always know where your money goes. Tax time becomes a breeze.',
     features: ['Receipt scanning', 'Auto-categorization', 'Tax categories', 'Expense reports'],
     link: '/expenses',
-    available: false,
+    available: true,
   },
   {
     id: 'accounting',
@@ -48,7 +46,7 @@ const products = [
     description: 'Track income and expenses, pull financial reports, and stay on top of your business finances without the accounting degree.',
     features: ['Double-entry bookkeeping', 'Financial reports', 'Tax preparation', 'Bank connections'],
     link: '/accounting',
-    available: false,
+    available: true,
   },
   {
     id: 'clients',
@@ -78,7 +76,7 @@ const products = [
     description: 'Snap photos of receipts and let us handle the rest. Automatic data extraction and organization for stress-free bookkeeping.',
     features: ['Photo capture', 'Auto-extraction', 'Cloud storage', 'Search & filter'],
     link: '/receipts',
-    available: false,
+    available: true,
   },
 ];
 
@@ -217,7 +215,7 @@ export function WaveProductTabs() {
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link href={activeProduct.link}>Learn More</Link>
+                        <Link to={activeProduct.link}>Learn More</Link>
                       </Button>
                     </>
                   ) : (
@@ -229,7 +227,7 @@ export function WaveProductTabs() {
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link href={activeProduct.link}>Learn More</Link>
+                        <Link to={activeProduct.link}>Learn More</Link>
                       </Button>
                     </>
                   )}

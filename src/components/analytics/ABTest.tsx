@@ -1,5 +1,3 @@
-'use client'
-
 import { useEffect, useMemo, ReactNode } from 'react';
 import { getABVariant, useContentAnalytics } from '@/hooks/useContentAnalytics';
 
