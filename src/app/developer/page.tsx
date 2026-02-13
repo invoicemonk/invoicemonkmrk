@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { DeveloperContent } from './DeveloperContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'API & Developer Resources',
   description: 'API documentation and developer resources.',

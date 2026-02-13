@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { AboutContent } from './AboutContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'About Us - Our Mission and Team',
   description: "Learn about Invoicemonk's mission.",

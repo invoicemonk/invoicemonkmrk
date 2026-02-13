@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { TermsOfServiceContent } from './TermsOfServiceContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'Terms of service and user agreement.',

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { ExpensesContent } from './ExpensesContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Expense Tracking Software - Manage Business Expenses',
   description: 'Track business expenses, scan receipts, and stay organized for your business.',

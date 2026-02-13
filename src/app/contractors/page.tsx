@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { ContractorsContent } from './ContractorsContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Invoicing for Contractors - Job-Based Billing',
   description: 'Software for contractors.',

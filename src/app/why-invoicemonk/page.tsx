@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { WhyInvoicemonkContent } from './WhyInvoicemonkContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Why Invoicemonk - Features & Benefits',
   description: 'Discover why thousands trust Invoicemonk.',

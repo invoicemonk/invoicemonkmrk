@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { EstimatesContent } from './EstimatesContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Estimates & Quotes - Create Professional Estimates',
   description: 'Create professional estimates and quotes. Convert to invoices instantly.',

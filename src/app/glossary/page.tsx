@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { GlossaryContent } from './GlossaryContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Business & Accounting Glossary',
   description: 'Glossary of business and accounting terms.',

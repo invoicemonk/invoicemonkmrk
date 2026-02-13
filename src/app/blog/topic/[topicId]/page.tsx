@@ -8,6 +8,8 @@ import { topicalMap } from '@/data/topicalMap'
 import { getPostsForPillar } from '@/data/blogPosts'
 import { BlogPostCard } from '@/components/blog/BlogPostCard'
 
+
+export const dynamic = 'force-dynamic';
 // Generate static params for all topics
 export async function generateStaticParams() {
   return Object.keys(topicalMap).map((topicId) => ({

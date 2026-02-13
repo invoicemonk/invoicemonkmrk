@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { ComplianceContent } from './ComplianceContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Tax Compliance - Stay Compliant Worldwide',
   description: 'Built-in tax compliance for multiple countries.',

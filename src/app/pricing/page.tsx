@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { PricingContent } from './PricingContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Pricing - Affordable Plans for Every Business',
   description: 'Simple, transparent pricing. Free tier available.',

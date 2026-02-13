@@ -9,6 +9,8 @@ import { authors, getAllAuthors, getAuthorBySlug } from '@/data/authors'
 import { getAllBlogPosts } from '@/data/blogPosts'
 import { BlogPostCard } from '@/components/blog/BlogPostCard'
 
+
+export const dynamic = 'force-dynamic';
 // Generate static params for all authors
 export async function generateStaticParams() {
   return getAllAuthors().map((author) => ({

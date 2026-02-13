@@ -14,6 +14,8 @@ import {
 import { BlogPostCard } from '@/components/blog/BlogPostCard'
 import { AuthorCard } from '@/components/blog/AuthorCard'
 
+
+export const dynamic = 'force-dynamic';
 // Generate static params for all blog posts
 export async function generateStaticParams() {
   const posts = getAllBlogPosts()

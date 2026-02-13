@@ -9,6 +9,8 @@ import { HomeBlogSection } from '@/components/home/HomeBlogSection'
 import { FAQSection } from '@/components/home/FAQSection'
 import { WaveCTASection } from '@/components/home/WaveCTASection'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Professional Invoicing & Accounting Software for Small Businesses',
   description: 'Compliance-first invoicing and accounting software trusted by freelancers and small businesses. Create invoices, track expenses, manage payments. Free tier available.',

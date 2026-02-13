@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { GuidesIndexContent } from './GuidesIndexContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Business Guides - Comprehensive Resources',
   description: 'Expert guides on invoicing, accounting, and business management.',

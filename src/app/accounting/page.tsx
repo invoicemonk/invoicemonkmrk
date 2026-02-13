@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { AccountingContent } from './AccountingContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Accounting Software - Simple Business Accounting',
   description: 'Easy accounting software for small businesses with financial reports.',

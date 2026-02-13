@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { ClientManagementContent } from './ClientManagementContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Client Management Software - Organize Your Customers',
   description: 'Professional client management tools. Keep customer information, communication history, and billing in one place.',

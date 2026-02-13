@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { InvoicingContent } from './InvoicingContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Invoicing Software - Create Professional Invoices Fast',
   description: 'Professional invoicing software for small businesses and freelancers. Create, send, and track invoices in minutes.',

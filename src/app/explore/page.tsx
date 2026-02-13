@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { ExploreContent } from './ExploreContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Explore Topics - Business Resources',
   description: 'Explore guides and resources.',

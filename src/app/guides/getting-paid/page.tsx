@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { GettingPaidGuideContent } from './GettingPaidGuideContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Getting Paid Faster - Payment Collection Guide',
   description: 'Strategies to get paid faster and improve cash flow.',

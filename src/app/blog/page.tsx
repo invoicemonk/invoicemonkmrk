@@ -4,6 +4,8 @@ import { getAllBlogPosts } from '@/data/blogPosts'
 import { BlogPostCard } from '@/components/blog/BlogPostCard'
 import { Badge } from '@/components/ui/badge'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Blog - Invoicing, Accounting & Small Business Tips',
   description: 'Expert guides on invoicing, accounting, tax compliance, and running a successful small business or freelance practice.',

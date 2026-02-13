@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { BusinessFinancesGuideContent } from './BusinessFinancesGuideContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Business Finances Guide - Financial Management',
   description: 'Master your business finances and accounting.',

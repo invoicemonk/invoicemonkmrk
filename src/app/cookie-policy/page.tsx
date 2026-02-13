@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { CookiePolicyContent } from './CookiePolicyContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Cookie Policy',
   description: 'Cookie policy and usage.',

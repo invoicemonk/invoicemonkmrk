@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { FreeInvoiceGeneratorContent } from './FreeInvoiceGeneratorContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Free Invoice Generator - Create Invoices Online',
   description: 'Free online invoice generator.',

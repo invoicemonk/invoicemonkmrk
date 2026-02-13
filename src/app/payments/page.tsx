@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { PaymentsContent } from './PaymentsContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Payment Processing - Accept Payments Online',
   description: 'Accept online payments, send payment links, and get paid faster.',

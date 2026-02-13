@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { ReceiptsContent } from './ReceiptsContent'
 
+
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Receipt Management - Digital Receipt Organization',
   description: 'Scan, organize, and manage receipts digitally.',
