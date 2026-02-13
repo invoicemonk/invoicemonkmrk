@@ -8,6 +8,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
+import { FeatureComparisonTable } from '@/components/pricing/FeatureComparisonTable';
 
 const faqs = [
   {
@@ -171,6 +172,9 @@ const Pricing = () => {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Feature Comparison Table */}
+      <FeatureComparisonTable />
 
       {/* FAQ Section */}
       <section className="py-20 lg:py-32 bg-card">
