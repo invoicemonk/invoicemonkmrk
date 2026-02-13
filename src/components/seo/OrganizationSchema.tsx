@@ -17,7 +17,7 @@ export function OrganizationSchema() {
       "width": 512,
       "height": 512
     },
-    "description": locale.content.seo.siteDescription,
+    "description": (locale.content as any).seo.siteDescription,
     "foundingDate": "2023",
     "founders": [
       {

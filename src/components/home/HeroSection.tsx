@@ -7,7 +7,7 @@ import { useLocale } from '@/hooks/useLocale';
 
 export function HeroSection() {
   const { locale, formatPrice } = useLocale();
-  const { hero, compliance } = locale.content;
+  const { hero, compliance } = (locale.content as any);
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-16 lg:py-24">

@@ -20,7 +20,7 @@ export function SoftwareApplicationSchema({
     "@type": "SoftwareApplication",
     "@id": "https://invoicemonk.com/#software",
     "name": name,
-    "description": description || locale.content.seo.siteDescription,
+    "description": description || (locale.content as any).seo.siteDescription,
     "applicationCategory": "FinanceApplication",
     "applicationSubCategory": "Invoicing Software",
     "operatingSystem": "Web",

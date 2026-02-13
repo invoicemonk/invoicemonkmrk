@@ -11,7 +11,7 @@ export function WebSiteSchema() {
     "name": "Invoicemonk",
     "alternateName": "Invoice Monk",
     "url": "https://invoicemonk.com",
-    "description": locale.content.seo.siteDescription,
+    "description": (locale.content as any).seo.siteDescription,
     "inLanguage": "en",
     "publisher": {
       "@id": "https://invoicemonk.com/#organization"
