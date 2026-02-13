@@ -348,7 +348,7 @@ export function InvoicingContent() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <AnimatedSection>
                 <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
-                  {(compliance as any)?.authority}-Compliant
+                  {compliance?.authority}-Compliant
                 </span>
                 <h2 className="text-h2 text-heading mb-6">
                   Audit-ready from{' '}

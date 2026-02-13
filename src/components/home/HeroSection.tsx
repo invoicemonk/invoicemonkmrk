@@ -228,7 +228,7 @@ export function HeroSection() {
                   <Shield className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-body-sm font-medium text-foreground">{(compliance as any).authority}-Compliant</p>
+                  <p className="text-body-sm font-medium text-foreground">{compliance.authority}-Compliant</p>
                   <p className="text-caption text-muted-foreground">All records audit-ready</p>
                 </div>
               </div>

@@ -21,7 +21,7 @@ const benefits = [
   {
     title: 'Stay compliant, stay ready',
     description: 'Every transaction is logged with immutable records and complete audit trails. When regulators or auditors come calling, you\'re already prepared.',
-    image: '/images/feature-(compliance as any).jpg',
+    image: '/images/feature-compliance.jpg',
     imageAlt: 'Audit trail dashboard',
     reverse: false,
   },

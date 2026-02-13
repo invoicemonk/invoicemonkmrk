@@ -17,7 +17,7 @@ const testimonials = [
     name: 'Marcus Johnson',
     role: 'IT Consultant',
     content:
-      "Finally, an invoicing tool that understands (compliance as any). The audit trails are a lifesaver during tax season. Highly recommend!",
+      "Finally, an invoicing tool that understands compliance. The audit trails are a lifesaver during tax season. Highly recommend!",
     avatar: 'MJ',
     rating: 5,
   },

@@ -2637,7 +2637,7 @@ Business Records/
       },
       {
         question: "Can integrated software replace my accountant?",
-        answer: "Integration simplifies data collection and reduces errors, but a qualified accountant provides tax planning advice, handles complex situations, and ensures (compliance as any). Integration makes your accountant more efficient, but doesn't replace professional expertise."
+        answer: "Integration simplifies data collection and reduces errors, but a qualified accountant provides tax planning advice, handles complex situations, and ensures compliance. Integration makes your accountant more efficient, but doesn't replace professional expertise."
       }
     ]
   },

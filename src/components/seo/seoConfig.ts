@@ -66,8 +66,8 @@ export const pageSEO: Record<string, PageSEO> = {
     changefreq: 'weekly',
   },
   '/compliance': {
-    getTitle: (locale) => `${(locale.content as any).(compliance as any).authority} Tax Compliance | Invoicemonk`,
-    getDescription: (locale) => `${(locale.content as any).(compliance as any).message}. Stay audit-ready with automatic tax calculations and reports.`,
+    getTitle: (locale) => `${(locale.content as any).compliance?.authority} Tax Compliance | Invoicemonk`,
+    getDescription: (locale) => `${(locale.content as any).compliance?.message}. Stay audit-ready with automatic tax calculations and reports.`,
     ogType: 'website',
     priority: 0.8,
     changefreq: 'monthly',
@@ -158,7 +158,7 @@ export const pageSEO: Record<string, PageSEO> = {
   },
   '/consultants': {
     getTitle: () => 'Invoicing Software for Consultants | Invoicemonk',
-    getDescription: () => 'Professional invoicing for management consultants and strategy firms. Multi-currency billing, detailed reporting, and enterprise-ready (compliance as any).',
+    getDescription: () => 'Professional invoicing for management consultants and strategy firms. Multi-currency billing, detailed reporting, and enterprise-ready compliance.',
     ogType: 'website',
     priority: 0.7,
     changefreq: 'weekly',
