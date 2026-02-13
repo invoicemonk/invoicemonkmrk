@@ -38,7 +38,7 @@ export const enCA: LocaleConfig = {
   pricing: {
     free: 0,
     professional: 7,
-    business: 20,
+    business: 25,
     annualMultiplier: 0.8, // 20% off
   },
   pricingContent: {

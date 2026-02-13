@@ -52,7 +52,7 @@ const staticPages: SitemapEntry[] = [
   { loc: '/small-businesses', priority: 0.8, changefreq: 'monthly' },
   
   // Feature pages
-  { loc: '/features/client-management', priority: 0.7, changefreq: 'monthly' },
+  { loc: '/client-management', priority: 0.7, changefreq: 'monthly' },
   { loc: '/free-invoice-generator', priority: 0.8, changefreq: 'monthly' },
   
   // Blog hub

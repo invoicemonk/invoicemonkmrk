@@ -96,8 +96,8 @@ const App = () => (
             <Route path="/small-businesses" element={<SmallBusinesses />} />
             <Route path="/developer" element={<Developer />} />
             
-            {/* Feature sub-pages */}
-            <Route path="/features/client-management" element={<ClientManagement />} />
+            {/* Feature pages */}
+            <Route path="/client-management" element={<ClientManagement />} />
             
             {/* Guide pages */}
             <Route path="/guides" element={<GuidesIndex />} />
@@ -124,6 +124,7 @@ const App = () => (
             <Route path="/features/estimates" element={<Redirect to="/estimates" />} />
             <Route path="/features/send-invoices" element={<Redirect to="/invoicing" />} />
             <Route path="/features/business-expense-tracking-app" element={<Redirect to="/expenses" />} />
+            <Route path="/features/client-management" element={<Redirect to="/client-management" />} />
             
             {/* Short URL redirects for footer links */}
             <Route path="/privacy" element={<Redirect to="/privacy-policy" />} />

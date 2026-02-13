@@ -4,7 +4,7 @@ import logo from '@/assets/invoicemonk-logo.png';
 const footerLinks = {
   platform: [
     { name: 'Invoicing', href: '/invoicing', badge: 'Available' },
-    { name: 'Client Management', href: '/features/client-management', badge: 'Available' },
+    { name: 'Client Management', href: '/client-management', badge: 'Available' },
     { name: 'Expenses', href: '/expenses', badge: 'Available' },
     { name: 'Payments', href: '/payments', badge: 'Soon' },
     { name: 'Accounting', href: '/accounting', badge: 'Available' },

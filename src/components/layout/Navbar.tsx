@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet } from 'lucide-react';
+import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { CountrySelector } from '@/components/CountrySelector';
 import logo from '@/assets/invoicemonk-logo.png';
@@ -46,6 +46,13 @@ const products = [
     href: '/receipts', 
     icon: Receipt, 
     description: 'Digital receipt management',
+    status: 'available'
+  },
+  { 
+    name: 'Client Management', 
+    href: '/client-management', 
+    icon: Users, 
+    description: 'Organize clients and track history',
     status: 'available'
   },
 ];

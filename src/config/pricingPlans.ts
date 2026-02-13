@@ -19,86 +19,51 @@ export interface PricingPlan {
 
 // Feature lists for each tier
 export const freeTierFeatures = [
-  '5 invoices & 5 receipts/month',
-  '1 currency account',
-  '1 payment method per currency',
-  'Accounting & expense tracking',
-  'Credit notes',
-  'Invoice verification portal',
-  'Invoicemonk watermark on PDFs',
+  '5 invoices/month',
+  'Clean invoice layout',
+  'Subtle Invoicemonk branding',
+  'View invoice online',
+  'Basic invoice verification',
+  '7-year data retention',
 ];
 
 export const starterTierFeatures = [
-  'Unlimited invoices & receipts',
-  '3 currency accounts',
-  '2 payment methods per currency',
-  'Accounting & expense tracking',
-  'Credit notes',
-  'Invoice verification portal',
-  'Invoicemonk watermark on PDFs',
+  'Unlimited invoices',
+  'PDF export',
+  'Branded invoices (with footer)',
+  'Basic compliance fields',
+  '7-year retention',
+  'Email support',
 ];
 
 export const professionalTierFeatures = [
   'Everything in Starter',
-  'Unlimited currency accounts',
-  'Up to 5 team members',
-  'Unlimited payment methods',
-  'Full audit trail',
-  'Data exports (CSV, PDF)',
-  'Advanced reports',
-  'Custom branding & premium templates',
-  'Watermark-free PDFs',
+  'Full audit trail (append-only)',
+  'Immutable invoice hashes',
+  'Public invoice verification',
+  'Compliance-ready exports',
+  'Regulator-friendly logs',
+  'Priority support',
 ];
 
 export const professionalTierFeaturesIntl = [
-  'Unlimited invoices & receipts',
-  'Unlimited currency accounts',
-  'Up to 5 team members',
-  'Unlimited payment methods',
-  'Full audit trail',
-  'Data exports (CSV, PDF)',
-  'Advanced reports',
-  'Custom branding & premium templates',
-  'Watermark-free PDFs',
+  'Unlimited invoices',
+  'Full audit trail (append-only)',
+  'Immutable invoice hashes',
+  'Public invoice verification',
+  'Compliance-ready exports',
+  'Regulator-friendly logs',
+  'Priority support',
 ];
 
 export const businessTierFeatures = [
   'Everything in Professional',
-  'Unlimited team members',
-  'API access',
-  'Enterprise-grade support',
-];
-
-// Feature comparison data for the comparison table
-export interface FeatureComparisonRow {
-  feature: string;
-  free: string;
-  starter: string;
-  professional: string;
-  business: string;
-}
-
-export const limitsComparison: FeatureComparisonRow[] = [
-  { feature: 'Invoices per month', free: '5', starter: 'Unlimited', professional: 'Unlimited', business: 'Unlimited' },
-  { feature: 'Receipts per month', free: '5', starter: 'Unlimited', professional: 'Unlimited', business: 'Unlimited' },
-  { feature: 'Currency accounts', free: '1', starter: '3', professional: 'Unlimited', business: 'Unlimited' },
-  { feature: 'Team members', free: '1', starter: '1', professional: 'Up to 5', business: 'Unlimited' },
-  { feature: 'Payment methods per currency', free: '1', starter: '2', professional: 'Unlimited', business: 'Unlimited' },
-];
-
-export const featuresComparison: FeatureComparisonRow[] = [
-  { feature: 'Accounting module', free: '✓', starter: '✓', professional: '✓', business: '✓' },
-  { feature: 'Expense tracking', free: '✓', starter: '✓', professional: '✓', business: '✓' },
-  { feature: 'Credit notes', free: '✓', starter: '✓', professional: '✓', business: '✓' },
-  { feature: 'In-app support', free: '✓', starter: '✓', professional: '✓', business: '✓' },
-  { feature: 'Invoice verification portal', free: '✓', starter: '✓', professional: '✓', business: '✓' },
-  { feature: 'Full audit trail', free: '—', starter: '—', professional: '✓', business: '✓' },
-  { feature: 'Custom branding', free: '—', starter: '—', professional: '✓', business: '✓' },
-  { feature: 'Data exports (CSV, PDF)', free: '—', starter: '—', professional: '✓', business: '✓' },
-  { feature: 'Advanced reports', free: '—', starter: '—', professional: '✓', business: '✓' },
-  { feature: 'Premium templates', free: '—', starter: '—', professional: '✓', business: '✓' },
-  { feature: 'Watermark-free PDFs', free: '—', starter: '—', professional: '✓', business: '✓' },
-  { feature: 'API access', free: '—', starter: '—', professional: '—', business: '✓' },
+  'Multi-user accounts',
+  'Roles & permissions',
+  'Bulk invoicing',
+  'Compliance reports',
+  'API access (when enabled)',
+  'SLA support',
 ];
 
 // Get pricing plans based on locale
@@ -109,7 +74,7 @@ export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
     {
       id: 'free',
       name: 'Free',
-      description: 'For individuals getting started',
+      description: 'For getting started',
       features: freeTierFeatures,
       cta: 'Get Started',
       ctaLink: 'https://app.invoicemonk.com/signup',
@@ -118,11 +83,12 @@ export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
     },
   ];
 
+  // Add Starter tier for Nigeria only
   if (showStarterTier) {
     plans.push({
       id: 'starter',
       name: 'Starter',
-      description: 'For solo businesses ready to grow',
+      description: 'For growing freelancers',
       features: starterTierFeatures,
       cta: 'Start Free Trial',
       ctaLink: 'https://app.invoicemonk.com/signup?plan=starter',
@@ -131,10 +97,11 @@ export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
     });
   }
 
+  // Professional tier
   plans.push({
     id: 'professional',
     name: 'Professional',
-    description: 'For growing businesses',
+    description: 'For serious businesses',
     features: showStarterTier ? professionalTierFeatures : professionalTierFeaturesIntl,
     cta: 'Start Free Trial',
     ctaLink: 'https://app.invoicemonk.com/signup?plan=professional',
@@ -143,10 +110,11 @@ export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
     compliance: true,
   });
 
+  // Business tier
   plans.push({
     id: 'business',
     name: 'Business',
-    description: 'For enterprises with advanced needs',
+    description: 'For teams and enterprises',
     features: businessTierFeatures,
     cta: 'Contact Sales',
     ctaLink: 'https://app.invoicemonk.com/signup?plan=business',
@@ -186,13 +154,16 @@ export function calculatePrice(
     return { monthly: basePrice, total: basePrice };
   }
 
+  // Annual pricing logic differs by region
   const { annualMultiplier } = pricing;
   
   if (annualMultiplier >= 1) {
+    // Nigeria: Monthly x 10 (pay for 10 months, get 12)
     const annualTotal = basePrice * annualMultiplier;
     const effectiveMonthly = Math.round(annualTotal / 12);
     return { monthly: effectiveMonthly, total: annualTotal };
   } else {
+    // International: 20% off (multiply monthly by 12 then by 0.8)
     const annualTotal = Math.round(basePrice * 12 * annualMultiplier);
     const effectiveMonthly = Math.round(annualTotal / 12);
     return { monthly: effectiveMonthly, total: annualTotal };

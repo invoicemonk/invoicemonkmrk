@@ -26,46 +26,36 @@ export function SoftwareApplicationSchema({
     "operatingSystem": "Web",
     "browserRequirements": "Requires JavaScript. Requires HTML5.",
     "softwareVersion": "1.0",
-    "offers": (() => {
-      const offers = [
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "0",
+      "highPrice": locale.pricing.business,
+      "priceCurrency": locale.currency.code,
+      "offerCount": 3,
+      "offers": [
         {
           "@type": "Offer",
           "name": "Free Plan",
           "price": "0",
           "priceCurrency": locale.currency.code,
-          "description": "For individuals getting started"
+          "description": "Free invoicing with core features"
         },
-        ...(locale.pricingContent.starterAvailable ? [{
-          "@type": "Offer",
-          "name": "Starter Plan",
-          "price": String(locale.pricing.starter || 0),
-          "priceCurrency": locale.currency.code,
-          "description": "For solo businesses ready to grow"
-        }] : []),
         {
           "@type": "Offer",
-          "name": "Professional Plan",
-          "price": String(locale.pricing.professional),
+          "name": "Starter Plan",
+          "price": locale.pricing.starter,
           "priceCurrency": locale.currency.code,
-          "description": "For growing businesses"
+          "description": "For growing freelancers and small businesses"
         },
         {
           "@type": "Offer",
           "name": "Business Plan",
-          "price": String(locale.pricing.business),
+          "price": locale.pricing.business,
           "priceCurrency": locale.currency.code,
-          "description": "For enterprises with advanced needs"
+          "description": "For established businesses with advanced needs"
         }
-      ];
-      return {
-        "@type": "AggregateOffer",
-        "lowPrice": "0",
-        "highPrice": String(locale.pricing.business),
-        "priceCurrency": locale.currency.code,
-        "offerCount": offers.length,
-        "offers": offers
-      };
-    })(),
+      ]
+    },
     "featureList": [
       "Professional Invoice Creation",
       "Expense Tracking with Receipt Scanning",
