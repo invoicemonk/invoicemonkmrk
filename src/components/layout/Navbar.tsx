@@ -1,5 +1,6 @@
 'use client'
 
+import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -63,7 +64,7 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
-  const location = useLocation();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -183,7 +184,7 @@ export function Navbar() {
                   key={link.name}
                   href={link.href}
                   className={`text-body-sm font-medium transition-colors duration-200 hover:text-primary ${
-                    location.pathname === link.href
+                    pathname === link.href
                       ? 'text-primary'
                       : 'text-foreground/80'
                   }`}
@@ -298,7 +299,7 @@ export function Navbar() {
                         <Link
                           href={link.href}
                           className={`block py-3 px-4 rounded-lg text-body font-medium transition-colors ${
-                            location.pathname === link.href
+                            pathname === link.href
                               ? 'bg-primary/10 text-primary'
                               : 'text-foreground hover:bg-muted'
                           }`}
