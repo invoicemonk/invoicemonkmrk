@@ -1,84 +1,56 @@
 
 
-# Update Marketing Website with Accurate Plan Details
+# Fix Non-Indexable Pages (Canonical Issue)
 
-## Overview
-Update the pricing page, locale configs, and plan feature data to match the actual product tiers from the database. This includes fixing pricing discrepancies, adding a detailed feature comparison table, and updating plan descriptions.
+## The Problem
+
+Every page on the site is being flagged as **non-indexable** because they all have their canonical URL pointing to `https://invoicemonk.com/` (the homepage) instead of their own URL. This means search engines think every page is a duplicate of the homepage and won't index them.
+
+**Root cause**: The file `index.html` (line 10) has a hardcoded canonical tag:
+```
+<link rel="canonical" href="https://invoicemonk.com/" />
+```
+
+Since this is a Single Page Application, every page serves the same `index.html` first. Crawlers that don't fully execute JavaScript (including many SEO audit tools and some search engine crawlers) see this hardcoded homepage canonical on every page.
 
 ---
 
-## Changes
+## The Fix
 
-### 1. Fix Pricing in Locale Files
+### 1. Remove hardcoded canonical from `index.html`
 
-Two locale files have incorrect Business tier prices:
+Remove line 10 (`<link rel="canonical" href="https://invoicemonk.com/" />`). The React app (via `react-helmet-async`) will set the correct canonical dynamically for each page.
 
-- **`src/locales/en-GB.ts`**: Change `business: 15` to `business: 12`
-- **`src/locales/en-CA.ts`**: Change `business: 25` to `business: 20`
+### 2. Update `SEOHead.tsx` to auto-generate canonical from current route
 
-### 2. Update Plan Descriptions and Features in `src/config/pricingPlans.ts`
+Currently, if no `canonical` prop is passed, it defaults to `https://invoicemonk.com`. Change this so it automatically builds the canonical from the current URL path using `useLocation()` from React Router:
 
-Update taglines to match the app:
-- Free: "For individuals getting started"
-- Starter: "For solo businesses ready to grow"
-- Professional: "For growing businesses"
-- Business: "For enterprises with advanced needs"
+```
+const location = useLocation();
+const fullCanonical = canonical || `${baseUrl}${location.pathname}`;
+```
 
-Replace the generic feature bullet lists with accurate limits and features:
+This ensures every page gets its own correct canonical URL, even if the page component doesn't explicitly pass one.
 
-**Free tier:**
-- 5 invoices and 5 receipts/month
-- 1 currency account
-- 1 payment method per currency
-- Accounting, expenses, credit notes
-- Invoice verification portal
-- Invoicemonk watermark on PDFs
+### 3. Verify existing `canonical` props still work
 
-**Starter tier (Nigeria only):**
-- Unlimited invoices and receipts
-- 3 currency accounts
-- 2 payment methods per currency
-- Everything in Free, plus higher limits
-- Invoicemonk watermark on PDFs
-
-**Professional tier:**
-- Unlimited invoices, receipts, and currencies
-- Up to 5 team members
-- Unlimited payment methods
-- Full audit trail and data exports
-- Custom branding, premium templates
-- No watermark on PDFs
-
-**Business tier:**
-- Everything in Professional
-- Unlimited team members
-- API access
-- Enterprise-grade support
-
-### 3. Add Feature Comparison Table to Pricing Page (`src/pages/Pricing.tsx`)
-
-Add a new section below the pricing cards showing a detailed side-by-side comparison table with two groups:
-
-**Limits table**: Invoices/month, Receipts/month, Currency accounts, Team members, Payment methods per currency
-
-**Features table**: Accounting module, Expense tracking, Credit notes, In-app support, Invoice verification, Full audit trail, Custom branding, Data exports, Advanced reports, Premium templates, Watermark-free PDFs, API access
-
-The table will be responsive -- on mobile it will stack or scroll horizontally.
-
-### 4. Update `SoftwareApplicationSchema.tsx`
-
-Update the schema offers to reflect corrected pricing and ensure the Starter plan offer is only included conditionally (when locale has `starterAvailable: true`).
+Pages that already pass an explicit `canonical` prop (like `/pricing`, `/blog`, etc.) will continue to work as before -- the explicit prop takes priority.
 
 ---
 
 ## Files Modified
 
-| File | What Changes |
-|------|-------------|
-| `src/locales/en-GB.ts` | Business price: 15 to 12 |
-| `src/locales/en-CA.ts` | Business price: 25 to 20 |
-| `src/config/pricingPlans.ts` | Updated descriptions, accurate feature lists |
-| `src/pages/Pricing.tsx` | Add feature comparison table section |
-| `src/components/seo/SoftwareApplicationSchema.tsx` | Locale-aware offers |
+| File | Change |
+|------|--------|
+| `index.html` | Remove hardcoded `<link rel="canonical">` tag (line 10) |
+| `src/components/seo/SEOHead.tsx` | Import `useLocation`, auto-generate canonical from current route path when not explicitly provided |
 
-No new dependencies needed. All changes use existing UI components and Tailwind classes.
+---
+
+## Impact
+
+- All 100+ pages listed in the audit will get their own correct canonical URL
+- Search engines will be able to index each page individually
+- No changes needed to any page components -- the fix is centralized
+- Existing explicit canonical props are preserved
+
