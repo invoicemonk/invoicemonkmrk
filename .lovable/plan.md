@@ -1,56 +1,36 @@
 
 
-# Fix Non-Indexable Pages (Canonical Issue)
+# Add Tawk.to Live Chat Widget
 
-## The Problem
+## Overview
+Add the Tawk.to live chat script to the website so it loads on every page.
 
-Every page on the site is being flagged as **non-indexable** because they all have their canonical URL pointing to `https://invoicemonk.com/` (the homepage) instead of their own URL. This means search engines think every page is a duplicate of the homepage and won't index them.
+## Change
 
-**Root cause**: The file `index.html` (line 10) has a hardcoded canonical tag:
+### `index.html`
+Add the Tawk.to script just before the closing `</body>` tag (after the `<noscript>` block, before `</body>`):
+
+```html
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/699086eff45fd51c3bd13d1e/1jhe8u6hu';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 ```
-<link rel="canonical" href="https://invoicemonk.com/" />
-```
-
-Since this is a Single Page Application, every page serves the same `index.html` first. Crawlers that don't fully execute JavaScript (including many SEO audit tools and some search engine crawlers) see this hardcoded homepage canonical on every page.
-
----
-
-## The Fix
-
-### 1. Remove hardcoded canonical from `index.html`
-
-Remove line 10 (`<link rel="canonical" href="https://invoicemonk.com/" />`). The React app (via `react-helmet-async`) will set the correct canonical dynamically for each page.
-
-### 2. Update `SEOHead.tsx` to auto-generate canonical from current route
-
-Currently, if no `canonical` prop is passed, it defaults to `https://invoicemonk.com`. Change this so it automatically builds the canonical from the current URL path using `useLocation()` from React Router:
-
-```
-const location = useLocation();
-const fullCanonical = canonical || `${baseUrl}${location.pathname}`;
-```
-
-This ensures every page gets its own correct canonical URL, even if the page component doesn't explicitly pass one.
-
-### 3. Verify existing `canonical` props still work
-
-Pages that already pass an explicit `canonical` prop (like `/pricing`, `/blog`, etc.) will continue to work as before -- the explicit prop takes priority.
-
----
 
 ## Files Modified
 
 | File | Change |
 |------|--------|
-| `index.html` | Remove hardcoded `<link rel="canonical">` tag (line 10) |
-| `src/components/seo/SEOHead.tsx` | Import `useLocation`, auto-generate canonical from current route path when not explicitly provided |
+| `index.html` | Add Tawk.to script before `</body>` |
 
----
-
-## Impact
-
-- All 100+ pages listed in the audit will get their own correct canonical URL
-- Search engines will be able to index each page individually
-- No changes needed to any page components -- the fix is centralized
-- Existing explicit canonical props are preserved
+One file, no dependencies needed. The widget will appear on all pages automatically.
 
