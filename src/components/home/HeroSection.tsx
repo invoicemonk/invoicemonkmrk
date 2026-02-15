@@ -62,7 +62,7 @@ export function HeroSection() {
             className="text-display text-heading mb-6"
           >
             {hero.headline}{' '}
-            <span className="text-primary font-semibold">{hero.headlineAccent}</span>
+            <span className="font-serif italic text-primary">{hero.headlineAccent}</span>
           </motion.h1>
 
           {/* Subheadline - Localized */}

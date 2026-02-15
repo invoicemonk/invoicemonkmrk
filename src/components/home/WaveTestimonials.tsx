@@ -60,7 +60,7 @@ export function WaveTestimonials() {
     return (
       <>
         {parts[0]}
-        <span className="text-primary font-semibold">{highlight}</span>
+        <span className="font-serif italic text-primary">{highlight}</span>
         {parts[1]}
       </>
     );
