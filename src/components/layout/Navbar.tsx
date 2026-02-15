@@ -100,7 +100,7 @@ export function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 relative z-10">
-              <img src={logo} alt="Invoicemonk" className="h-8 lg:h-10 w-auto" />
+              <img src={logo} alt="Invoicemonk" className="h-8 lg:h-10 w-auto" style={{ filter: 'hue-rotate(160deg) saturate(0.8)' }} />
             </Link>
 
             {/* Desktop Navigation */}
