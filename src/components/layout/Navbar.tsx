@@ -58,6 +58,7 @@ const products = [
 ];
 
 const navLinks = [
+  { name: 'Help', href: '/help' },
   { name: 'Guides', href: '/guides' },
   { name: 'Blog', href: '/blog' },
   { name: 'Pricing', href: '/pricing' },

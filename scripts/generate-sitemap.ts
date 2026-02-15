@@ -13,6 +13,10 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Since this runs at build time, we need to read the data files
 // and extract the necessary information
@@ -50,10 +54,29 @@ const staticPages: SitemapEntry[] = [
   { loc: '/consultants', priority: 0.8, changefreq: 'monthly' },
   { loc: '/contractors', priority: 0.8, changefreq: 'monthly' },
   { loc: '/small-businesses', priority: 0.8, changefreq: 'monthly' },
+  { loc: '/agencies', priority: 0.8, changefreq: 'monthly' },
+  { loc: '/photographers', priority: 0.8, changefreq: 'monthly' },
+  { loc: '/lawyers', priority: 0.8, changefreq: 'monthly' },
+  { loc: '/accountants', priority: 0.8, changefreq: 'monthly' },
+  { loc: '/ecommerce', priority: 0.8, changefreq: 'monthly' },
+  { loc: '/creatives', priority: 0.8, changefreq: 'monthly' },
   
   // Feature pages
   { loc: '/client-management', priority: 0.7, changefreq: 'monthly' },
   { loc: '/free-invoice-generator', priority: 0.8, changefreq: 'monthly' },
+
+  // Comparison pages
+  { loc: '/best-invoicing-software', priority: 0.8, changefreq: 'monthly' },
+  { loc: '/compare/invoicemonk-vs-freshbooks', priority: 0.7, changefreq: 'monthly' },
+  { loc: '/compare/invoicemonk-vs-wave', priority: 0.7, changefreq: 'monthly' },
+  { loc: '/compare/invoicemonk-vs-zoho-invoice', priority: 0.7, changefreq: 'monthly' },
+  { loc: '/compare/invoicemonk-vs-quickbooks', priority: 0.7, changefreq: 'monthly' },
+
+  // Use-case pages
+  { loc: '/use-cases/recurring-billing', priority: 0.7, changefreq: 'monthly' },
+  { loc: '/use-cases/multi-currency-invoicing', priority: 0.7, changefreq: 'monthly' },
+  { loc: '/use-cases/milestone-billing', priority: 0.7, changefreq: 'monthly' },
+  { loc: '/use-cases/retainer-billing', priority: 0.7, changefreq: 'monthly' },
 
   // Payment tools
   { loc: '/international-payment-fee-calculator', priority: 0.8, changefreq: 'weekly' },

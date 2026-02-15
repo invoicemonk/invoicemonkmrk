@@ -19,6 +19,7 @@ const footerLinks = {
     { name: 'Contact', href: '/contact' },
   ],
   resources: [
+    { name: 'Help Center', href: '/help' },
     { name: 'Blog', href: '/blog' },
     { name: 'Glossary', href: '/glossary' },
     { name: 'Guides', href: '/guides' },
@@ -42,7 +43,26 @@ const footerLinks = {
     { name: 'For Consultants', href: '/consultants' },
     { name: 'For Contractors', href: '/contractors' },
     { name: 'For Small Businesses', href: '/small-businesses' },
+    { name: 'For Agencies', href: '/agencies' },
+    { name: 'For Photographers', href: '/photographers' },
+    { name: 'For Lawyers', href: '/lawyers' },
+    { name: 'For Accountants', href: '/accountants' },
+    { name: 'For E-commerce', href: '/ecommerce' },
+    { name: 'For Creatives', href: '/creatives' },
     { name: 'Developers', href: '/developer' },
+  ],
+  compare: [
+    { name: 'Best Invoicing Software 2026', href: '/best-invoicing-software' },
+    { name: 'vs FreshBooks', href: '/compare/invoicemonk-vs-freshbooks' },
+    { name: 'vs Wave', href: '/compare/invoicemonk-vs-wave' },
+    { name: 'vs Zoho Invoice', href: '/compare/invoicemonk-vs-zoho-invoice' },
+    { name: 'vs QuickBooks', href: '/compare/invoicemonk-vs-quickbooks' },
+  ],
+  useCases: [
+    { name: 'Recurring Billing', href: '/use-cases/recurring-billing' },
+    { name: 'Multi-Currency Invoicing', href: '/use-cases/multi-currency-invoicing' },
+    { name: 'Milestone Billing', href: '/use-cases/milestone-billing' },
+    { name: 'Retainer Billing', href: '/use-cases/retainer-billing' },
   ],
   legal: [
     { name: 'Privacy Policy', href: '/privacy-policy' },
@@ -105,6 +125,24 @@ export function Footer() {
                   >
                     {link.name}
                   </Link>
+                </li>
+              ))}
+              {/* Compare under Topics */}
+              <li className="pt-2 border-t border-white/10 mt-3">
+                <span className="text-body-sm font-medium text-white/40">Compare</span>
+              </li>
+              {footerLinks.compare.map((link) => (
+                <li key={link.name}>
+                  <Link to={link.href} className="text-body-sm text-white/60 hover:text-primary transition-colors">{link.name}</Link>
+                </li>
+              ))}
+              {/* Use Cases under Topics */}
+              <li className="pt-2 border-t border-white/10 mt-3">
+                <span className="text-body-sm font-medium text-white/40">Use Cases</span>
+              </li>
+              {footerLinks.useCases.map((link) => (
+                <li key={link.name}>
+                  <Link to={link.href} className="text-body-sm text-white/60 hover:text-primary transition-colors">{link.name}</Link>
                 </li>
               ))}
             </ul>

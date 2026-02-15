@@ -9,8 +9,18 @@ import {
   FloatingCalendarBadge 
 } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
+import { Link } from 'react-router-dom';
+
+const faqs = [
+  { question: 'Is Invoicemonk free for freelancers?', answer: 'Yes! The free tier includes 5 invoices and 5 receipts per month with no credit card required. Upgrade anytime as your freelance business grows.' },
+  { question: 'Can I send invoices in different currencies?', answer: 'Absolutely. Invoicemonk supports multi-currency invoicing, so you can bill international clients in their preferred currency.' },
+  { question: 'How do automatic payment reminders work?', answer: 'Set a reminder schedule and Invoicemonk automatically emails your clients before and after the payment due date — no manual follow-up needed.' },
+  { question: 'Can I add my logo and branding to invoices?', answer: 'Yes. Upload your logo, choose brand colors, and create professional invoices that reflect your personal brand.' },
+  { question: 'Does Invoicemonk help with taxes?', answer: 'Invoicemonk keeps tax-compliant records, tracks expenses, and generates income reports that make tax filing straightforward.' },
+];
 
 const Freelancers = () => {
   const benefits = [
@@ -59,6 +69,8 @@ const Freelancers = () => {
         description={seo?.getDescription(locale) || 'Professional invoicing for freelancers. Get paid faster and stay compliant.'}
         canonical="https://invoicemonk.com/freelancers"
       />
+      <FAQSchema items={faqs} />
+
       {/* Hero Section */}
       <div className="relative">
         <PageHero
@@ -71,20 +83,9 @@ const Freelancers = () => {
           trustBadge="Join freelancers who trust Invoicemonk"
           backgroundVariant="gradient"
         />
-        {/* Floating Elements */}
-        <FloatingInvoiceCard 
-          className="absolute top-32 right-8 lg:right-24 hidden lg:block" 
-          delay={0.4}
-          variant="paid"
-        />
-        <FloatingPaymentBadge 
-          className="absolute top-48 left-8 lg:left-20 hidden lg:block" 
-          delay={0.6}
-        />
-        <FloatingCalendarBadge 
-          className="absolute bottom-32 right-12 lg:right-32 hidden lg:block" 
-          delay={0.8}
-        />
+        <FloatingInvoiceCard className="absolute top-32 right-8 lg:right-24 hidden lg:block" delay={0.4} variant="paid" />
+        <FloatingPaymentBadge className="absolute top-48 left-8 lg:left-20 hidden lg:block" delay={0.6} />
+        <FloatingCalendarBadge className="absolute bottom-32 right-12 lg:right-32 hidden lg:block" delay={0.8} />
       </div>
 
       {/* Benefits */}
@@ -160,6 +161,33 @@ const Freelancers = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 lg:py-24 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">Frequently asked questions</h2>
+          <div className="space-y-6">
+            {faqs.map((faq, i) => (
+              <div key={i}>
+                <h3 className="font-semibold text-foreground mb-2">{faq.question}</h3>
+                <p className="text-muted-foreground">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Related reading */}
+      <section className="py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-muted-foreground mb-4">Related reading</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link to="/blog/pricing-freelance-services" className="text-primary hover:underline">Pricing Your Services</Link>
+            <Link to="/blog/freelance-portfolio-guide" className="text-primary hover:underline">Portfolio Guide</Link>
+            <Link to="/guides/freelancing" className="text-primary hover:underline">Freelancing Guide</Link>
           </div>
         </div>
       </section>

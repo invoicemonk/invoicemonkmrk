@@ -36,7 +36,26 @@ import Consultants from "./pages/Consultants";
 import Contractors from "./pages/Contractors";
 import SmallBusinesses from "./pages/SmallBusinesses";
 import Developer from "./pages/Developer";
+import Agencies from "./pages/Agencies";
+import Photographers from "./pages/Photographers";
+import Lawyers from "./pages/Lawyers";
+import Accountants from "./pages/Accountants";
+import Ecommerce from "./pages/Ecommerce";
+import Creatives from "./pages/Creatives";
 import ClientManagement from "./pages/features/ClientManagement";
+
+// Comparison pages
+import InvoicemonkVsFreshbooks from "./pages/compare/InvoicemonkVsFreshbooks";
+import InvoicemonkVsWave from "./pages/compare/InvoicemonkVsWave";
+import InvoicemonkVsZoho from "./pages/compare/InvoicemonkVsZoho";
+import InvoicemonkVsQuickbooks from "./pages/compare/InvoicemonkVsQuickbooks";
+import BestInvoicingSoftware from "./pages/compare/BestInvoicingSoftware";
+
+// Use-case pages
+import RecurringBilling from "./pages/use-cases/RecurringBilling";
+import MultiCurrencyInvoicing from "./pages/use-cases/MultiCurrencyInvoicing";
+import MilestoneBilling from "./pages/use-cases/MilestoneBilling";
+import RetainerBilling from "./pages/use-cases/RetainerBilling";
 
 // Guide pages
 import GuidesIndex from "./pages/guides/GuidesIndex";
@@ -48,6 +67,10 @@ import FreelancingGuide from "./pages/guides/FreelancingGuide";
 import EstimatesGuide from "./pages/guides/EstimatesGuide";
 import Glossary from "./pages/Glossary";
 import Explore from "./pages/Explore";
+
+// Help Center
+import HelpCenter from "./pages/help/HelpCenter";
+import HelpArticle from "./pages/help/HelpArticle";
 
 // Tool pages
 import InternationalPaymentFeeCalculator from "./pages/tools/InternationalPaymentFeeCalculator";
@@ -97,9 +120,28 @@ const App = () => (
             <Route path="/contractors" element={<Contractors />} />
             <Route path="/small-businesses" element={<SmallBusinesses />} />
             <Route path="/developer" element={<Developer />} />
+            <Route path="/agencies" element={<Agencies />} />
+            <Route path="/photographers" element={<Photographers />} />
+            <Route path="/lawyers" element={<Lawyers />} />
+            <Route path="/accountants" element={<Accountants />} />
+            <Route path="/ecommerce" element={<Ecommerce />} />
+            <Route path="/creatives" element={<Creatives />} />
             
             {/* Feature pages */}
             <Route path="/client-management" element={<ClientManagement />} />
+
+            {/* Comparison pages */}
+            <Route path="/compare/invoicemonk-vs-freshbooks" element={<InvoicemonkVsFreshbooks />} />
+            <Route path="/compare/invoicemonk-vs-wave" element={<InvoicemonkVsWave />} />
+            <Route path="/compare/invoicemonk-vs-zoho-invoice" element={<InvoicemonkVsZoho />} />
+            <Route path="/compare/invoicemonk-vs-quickbooks" element={<InvoicemonkVsQuickbooks />} />
+            <Route path="/best-invoicing-software" element={<BestInvoicingSoftware />} />
+
+            {/* Use-case pages */}
+            <Route path="/use-cases/recurring-billing" element={<RecurringBilling />} />
+            <Route path="/use-cases/multi-currency-invoicing" element={<MultiCurrencyInvoicing />} />
+            <Route path="/use-cases/milestone-billing" element={<MilestoneBilling />} />
+            <Route path="/use-cases/retainer-billing" element={<RetainerBilling />} />
             
             {/* Guide pages */}
             <Route path="/guides" element={<GuidesIndex />} />
@@ -113,6 +155,10 @@ const App = () => (
             {/* Resources */}
             <Route path="/glossary" element={<Glossary />} />
             <Route path="/explore" element={<Explore />} />
+            
+            {/* Help Center */}
+            <Route path="/help" element={<HelpCenter />} />
+            <Route path="/help/:slug" element={<HelpArticle />} />
             
             {/* Payment Tools */}
             <Route path="/international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
