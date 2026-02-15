@@ -67,7 +67,7 @@ export function WaveTestimonials() {
   };
 
   return (
-    <section className="py-20 lg:py-32 bg-card">
+    <section className="py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center mb-12">
           <p className="text-body-sm font-medium text-primary uppercase tracking-wide mb-2">
