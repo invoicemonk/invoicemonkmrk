@@ -11,6 +11,13 @@ import { supabase } from '@/integrations/supabase/client';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const contactFAQs = [
+  { question: 'How quickly will I get a response?', answer: 'We typically respond within 24 hours during business days. For urgent issues, email us directly at hello@invoicemonk.com.' },
+  { question: 'What support channels are available?', answer: 'You can reach us through the contact form on this page, email at hello@invoicemonk.com, or through our live chat. We also have a comprehensive Help Center.' },
+  { question: 'Is there phone support?', answer: 'Currently we offer email and chat support. Our team is responsive and knowledgeable, ensuring your questions are answered quickly and thoroughly.' },
+];
 
 interface FormData {
   firstName: string;
@@ -145,6 +152,7 @@ const Contact = () => {
 
   return (
     <Layout>
+      <FAQSchema items={contactFAQs} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Contact Us | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Get in touch with Invoicemonk. We are here to help with your invoicing needs.'}

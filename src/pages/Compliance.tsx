@@ -10,6 +10,14 @@ import {
 } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const complianceFAQs = [
+  { question: 'What does compliance-first mean?', answer: 'It means every feature in Invoicemonk is built with regulatory compliance at its core. Records are immutable, timestamped, and audit-ready from the moment they are created.' },
+  { question: 'Which tax authorities does Invoicemonk support?', answer: 'Invoicemonk supports compliance requirements for FIRS (Nigeria), HMRC (UK), IRS (US), CRA (Canada), and ATO (Australia), with more regions being added regularly.' },
+  { question: 'Can I export reports for my auditor?', answer: 'Yes. Generate compliance reports in formats accepted by tax authorities and auditors worldwide. All records include complete audit trails with timestamps and user information.' },
+  { question: 'Are my invoice records truly immutable?', answer: 'Yes. Once created, invoice records cannot be altered or deleted. Every change creates a new version while preserving the original, ensuring complete data integrity for audits.' },
+];
 
 const complianceFeatures = [
   { icon: Lock, title: 'Immutable Records', description: 'Once created, invoice records cannot be altered or deleted, ensuring complete data integrity for audits.' },
@@ -25,6 +33,7 @@ const Compliance = () => {
 
   return (
     <Layout>
+      <FAQSchema items={complianceFAQs} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Tax Compliance | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Stay audit-ready with immutable records and comprehensive audit trails.'}

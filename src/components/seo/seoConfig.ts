@@ -310,6 +310,13 @@ export const pageSEO: Record<string, PageSEO> = {
     priority: 0.7,
     changefreq: 'monthly',
   },
+  '/help': {
+    getTitle: () => 'Help Center | Invoicemonk Support',
+    getDescription: () => 'Get help with Invoicemonk. Browse guides on invoicing, payments, expenses, accounting, and more. Find answers to common questions.',
+    ogType: 'website',
+    priority: 0.6,
+    changefreq: 'weekly',
+  },
   '/use-cases/retainer-billing': {
     getTitle: () => 'Retainer Billing & Client Retainer Invoicing | Invoicemonk',
     getDescription: () => 'Automate retainer invoicing for ongoing client relationships. Recurring billing, drawdown tracking, and professional retainer management.',

@@ -8,6 +8,13 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const aboutFAQs = [
+  { question: 'Who founded Invoicemonk?', answer: 'Invoicemonk was co-founded by Olayinka Olayokun (CEO) and Joan Omionawele (Communication President), with a mission to empower freelancers and small businesses worldwide.' },
+  { question: 'What is Invoicemonk\'s mission?', answer: 'Our mission is to champion freelancers and small businesses by providing simple, easy-to-use invoicing and financial management tools that help them thrive.' },
+  { question: 'Where is Invoicemonk available?', answer: 'Invoicemonk is available globally and serves businesses in over 50 countries. Our platform supports multiple currencies and regional compliance requirements.' },
+];
 
 const teamMembers = [
   {
@@ -39,6 +46,7 @@ const About = () => {
 
   return (
     <Layout>
+      <FAQSchema items={aboutFAQs} />
       <SEOHead
         title={seo?.getTitle({} as any) || 'About Invoicemonk | Our Story & Mission'}
         description={seo?.getDescription({} as any) || 'Learn about Invoicemonk - the invoicing and accounting platform built for businesses worldwide.'}

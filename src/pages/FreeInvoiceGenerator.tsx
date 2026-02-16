@@ -11,6 +11,14 @@ import {
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const freeGeneratorFAQs = [
+  { question: 'Is the invoice generator really free?', answer: 'Yes, 100% free with no signup required. You can create unlimited professional invoices and download them as PDF files at no cost.' },
+  { question: 'Do I need to create an account?', answer: 'No account is needed to use the free invoice generator. Simply enter your details, add line items, and download your invoice as a PDF.' },
+  { question: 'Can I add my business logo?', answer: 'Yes, you can upload your business logo to personalize your invoices. Your invoices will look professional and branded.' },
+  { question: 'What if I need more features?', answer: 'The full Invoicemonk platform offers recurring invoices, expense tracking, payment reminders, compliance features, and more. You can upgrade anytime.' },
+];
 
 const FreeInvoiceGenerator = () => {
   const features = [
@@ -59,6 +67,7 @@ const FreeInvoiceGenerator = () => {
 
   return (
     <Layout>
+      <FAQSchema items={freeGeneratorFAQs} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Free Invoice Generator | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Create professional invoices in minutes. No signup required to get started.'}

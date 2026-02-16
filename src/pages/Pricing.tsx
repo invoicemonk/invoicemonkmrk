@@ -7,6 +7,7 @@ import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/
 import { useLocale } from '@/hooks/useLocale';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
+import { FAQSchema } from '@/components/seo/FAQSchema';
 import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
 import { FeatureComparisonTable } from '@/components/pricing/FeatureComparisonTable';
 
@@ -175,6 +176,9 @@ const Pricing = () => {
 
       {/* Feature Comparison Table */}
       <FeatureComparisonTable />
+
+      {/* FAQ Schema */}
+      <FAQSchema items={faqs} />
 
       {/* FAQ Section */}
       <section className="py-20 lg:py-32 bg-card">

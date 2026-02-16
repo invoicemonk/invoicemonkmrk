@@ -15,6 +15,14 @@ import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const estimatesSEOFAQs = [
+  { question: 'What is the difference between an estimate and a quote?', answer: 'An estimate is an approximate cost for a project that may change as work progresses. A quote is a fixed price commitment that typically cannot be changed once accepted. Estimates are more common for complex projects where the full scope isn\'t yet defined.' },
+  { question: 'Can I convert an estimate to an invoice?', answer: 'Yes. With Invoicemonk, you can convert an approved estimate to an invoice with one click. All the line items, amounts, and client details carry over automatically, saving you time and reducing errors.' },
+  { question: 'How do I write a professional estimate?', answer: 'A professional estimate should include your business details, the client\'s information, a detailed breakdown of services or products, individual and total costs, validity period, and payment terms. Using estimate software ensures consistent, branded documents every time.' },
+  { question: 'Should I charge for estimates?', answer: 'It depends on your industry and the complexity of the work. Simple estimates are typically free, but detailed proposals requiring site visits or research may warrant a fee. Charging for estimates can also filter out non-serious inquiries.' },
+];
 
 const estimateTabbedFeatures = [
   {
@@ -131,6 +139,7 @@ const Estimates = () => {
 
   return (
     <Layout>
+      <FAQSchema items={estimatesSEOFAQs} />
       <SEOHead
         title="Professional Estimates & Quotes Software | Proposals | Invoicemonk"
         description="Create professional estimates and quotes. Get client approval online and convert to invoices with one click. Win more business with better proposals."

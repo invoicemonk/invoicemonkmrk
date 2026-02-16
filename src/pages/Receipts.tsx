@@ -15,6 +15,14 @@ import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const receiptsSEOFAQs = [
+  { question: 'Why do I need to keep business receipts?', answer: 'Business receipts are essential for tax compliance, expense verification, and audit preparation. They serve as proof of business expenditure and are required by tax authorities like the IRS, HMRC, and FIRS to substantiate deductions claimed on tax returns.' },
+  { question: 'How long should I keep receipts?', answer: 'Retention periods vary by country. In the US, the IRS recommends 3-7 years. In the UK, HMRC requires 5 years. In Nigeria, FIRS requires 6 years. Digital receipt management software ensures your records are safely stored for the required period.' },
+  { question: 'Can I use digital receipts instead of paper?', answer: 'Yes. Most tax authorities now accept digital copies of receipts as valid records, provided they are legible and accurately represent the original. Digital receipts are actually preferred as they are easier to organize, search, and back up.' },
+  { question: 'How does receipt management software work?', answer: 'Receipt management software lets you capture receipts by photo or upload, automatically extracts key data like vendor, date, and amount using OCR technology, categorizes the expense, and stores everything securely in the cloud for easy retrieval.' },
+];
 
 const receiptTabbedFeatures = [
   {
@@ -134,6 +142,7 @@ const Receipts = () => {
 
   return (
     <Layout>
+      <FAQSchema items={receiptsSEOFAQs} />
       <SEOHead
         title="Digital Receipt Management | AI Receipt Scanning | Invoicemonk"
         description="Capture, organize, and store all your receipts digitally. AI-powered scanning, smart organization, and secure cloud storage."

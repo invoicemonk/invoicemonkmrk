@@ -14,6 +14,7 @@ import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
 
 const quickFeatures = [
   {
@@ -127,6 +128,7 @@ const Invoicing = () => {
         description="Create beautiful professional invoices in minutes. Automate payment reminders, maintain audit trails, and get paid faster with Invoicemonk's invoicing software."
         canonical="https://invoicemonk.com/invoicing"
       />
+      <FAQSchema items={invoicingFAQs} />
       <ServiceSchema
         serviceName="Invoicemonk Invoicing Software"
         serviceType="Invoicing Software"

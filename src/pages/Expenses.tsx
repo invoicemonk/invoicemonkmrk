@@ -14,6 +14,14 @@ import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const expensesSEOFAQs = [
+  { question: 'What is expense tracking software?', answer: 'Expense tracking software automates the process of recording, categorizing, and reporting business expenses. It replaces manual spreadsheets with features like receipt scanning, automatic categorization, and real-time spending insights.' },
+  { question: 'How does receipt scanning work?', answer: 'Receipt scanning uses OCR (Optical Character Recognition) technology to photograph a receipt and automatically extract the vendor name, date, amount, and category. Simply snap a photo with your phone and the data is captured instantly.' },
+  { question: 'Can I track expenses by category?', answer: 'Yes. Expense tracking software lets you organize spending into categories like travel, office supplies, software, and meals. You can use pre-built categories or create custom ones, and expenses are often auto-categorized based on the vendor.' },
+  { question: 'Does expense tracking help with taxes?', answer: 'Absolutely. Expense tracking software automatically flags tax-deductible expenses and generates reports you can share with your accountant. This ensures you never miss a deduction and stay compliant with tax authorities.' },
+];
 
 const automationFeatures = [
   {
@@ -119,6 +127,7 @@ const Expenses = () => {
 
   return (
     <Layout>
+      <FAQSchema items={expensesSEOFAQs} />
       <SEOHead
         title="Business Expense Tracking Software | Receipt Scanning | Invoicemonk"
         description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports. Integrated with invoicing."

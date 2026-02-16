@@ -6,6 +6,15 @@ import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
 import { useLocale } from '@/hooks/useLocale';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+import { SEOHead } from '@/components/seo/SEOHead';
+
+const clientManagementFAQs = [
+  { question: 'Is client management included free?', answer: 'Yes, client management is included with every Invoicemonk account at no extra cost. You can store unlimited client profiles, track invoice history, and manage payment preferences.' },
+  { question: 'Can I import my existing client list?', answer: 'Yes, you can import clients from CSV files or add them manually. All client data is organized automatically with invoice history and payment tracking.' },
+  { question: 'How does client management integrate with invoicing?', answer: 'When you create an invoice, your client details auto-fill. Payment history, outstanding balances, and communication records are all linked to each client profile.' },
+  { question: 'Can I track payment patterns per client?', answer: 'Absolutely. Each client profile shows their payment history, average payment time, and outstanding balance, helping you identify reliable payers and follow up with slow ones.' },
+];
 
 const features = [
   {
@@ -48,6 +57,12 @@ const ClientManagement = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Client Management Software | Organize Clients | Invoicemonk"
+        description="Manage client information, track payment history, and build better relationships. Included free with every Invoicemonk account."
+        canonical="https://invoicemonk.com/client-management"
+      />
+      <FAQSchema items={clientManagementFAQs} />
       {/* Hero Section - Wave style */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">

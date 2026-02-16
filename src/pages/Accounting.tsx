@@ -15,6 +15,14 @@ import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const accountingSEOFAQs = [
+  { question: 'What is small business accounting software?', answer: 'Small business accounting software helps you track income and expenses, generate financial reports, manage invoices, and stay tax-compliant — all without needing an accounting degree. It automates bookkeeping tasks that would otherwise require manual spreadsheets.' },
+  { question: 'Do I need an accountant if I use accounting software?', answer: 'For day-to-day bookkeeping, accounting software can handle most tasks. However, for complex tax situations, year-end filings, or strategic financial planning, working with an accountant is recommended. The software makes their job easier by keeping your records organized.' },
+  { question: 'What financial reports can I generate?', answer: 'You can generate profit and loss statements, balance sheets, cash flow reports, expense summaries, and tax-ready reports. These reports give you a clear picture of your business financial health at any time.' },
+  { question: 'How does accounting software help with taxes?', answer: 'Accounting software maintains organized, categorized records throughout the year, automatically tracks tax-deductible expenses, and generates reports in formats accepted by tax authorities. This makes tax filing faster and reduces the risk of errors or missed deductions.' },
+];
 
 const automationFeatures = [
   {
@@ -131,6 +139,7 @@ const Accounting = () => {
 
   return (
     <Layout>
+      <FAQSchema items={accountingSEOFAQs} />
       <SEOHead
         title="Small Business Accounting Software | Double-Entry Bookkeeping | Invoicemonk"
         description="Complete accounting software with double-entry bookkeeping, financial statements, and tax reports. Designed for small businesses and freelancers."

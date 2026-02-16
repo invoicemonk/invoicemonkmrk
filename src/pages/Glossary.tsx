@@ -2,6 +2,14 @@ import { useState, useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const glossaryFAQs = [
+  { question: 'What is an invoice?', answer: 'An invoice is a commercial document issued by a seller to a buyer that lists the products or services provided, quantities, prices, and payment terms. It serves as a formal request for payment.' },
+  { question: 'What is the difference between an estimate and an invoice?', answer: 'An estimate is a proposal for work before it is done, showing projected costs. An invoice is a bill issued after work is completed, requesting actual payment for goods or services delivered.' },
+  { question: 'What does accounts receivable mean?', answer: 'Accounts receivable is the balance of money owed to a business for goods or services delivered but not yet paid for. It is listed as an asset on the balance sheet.' },
+  { question: 'What is double-entry bookkeeping?', answer: 'Double-entry bookkeeping is an accounting method where every transaction is recorded in at least two accounts — a debit in one and a credit in another — ensuring the accounting equation always balances.' },
+];
 import { DefinedTermSetSchema } from '@/components/seo/DefinedTermSetSchema';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -107,6 +115,7 @@ const Glossary = () => {
 
   return (
     <Layout>
+      <FAQSchema items={glossaryFAQs} />
       <SEOHead
         title="Business Finance Glossary | Invoicing & Accounting Terms | Invoicemonk"
         description="Comprehensive glossary of invoicing, payments, accounting, tax, and business finance terms. Learn key concepts for small business owners and freelancers."

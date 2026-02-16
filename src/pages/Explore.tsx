@@ -3,6 +3,13 @@ import { motion } from 'framer-motion';
 import { Compass, Star, BarChart3 } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const exploreFAQs = [
+  { question: 'What topics can I explore?', answer: 'Our knowledge base covers invoicing, getting paid, business finances, tax compliance, freelancing, and proposals & estimates. Each topic has comprehensive guides and related articles.' },
+  { question: 'Can I leave a review?', answer: 'Yes! Visit the Reviews tab to share your experience with Invoicemonk. Your feedback helps other business owners make informed decisions.' },
+  { question: 'How is content organized?', answer: 'Content is organized into topic clusters following a pillar-and-spoke model. Each pillar topic has related supporting articles that go deeper into specific aspects.' },
+];
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import TopicExplorer from '@/components/explore/TopicExplorer';
 import ReviewDisplay, { sampleReviews } from '@/components/reviews/ReviewDisplay';
@@ -14,6 +21,7 @@ function Explore() {
 
   return (
     <Layout>
+      <FAQSchema items={exploreFAQs} />
       <SEOHead
         title="Explore Topics & Reviews | Invoicemonk"
         description="Explore our comprehensive topic guides, read customer reviews, and track your learning progress. Master invoicing, payments, and business finance."

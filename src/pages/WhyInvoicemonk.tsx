@@ -13,6 +13,14 @@ import {
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const whyInvoicemonkFAQs = [
+  { question: 'What makes Invoicemonk different from other invoicing tools?', answer: 'Invoicemonk is a financial records system, not just an invoicing app. Every record is immutable from creation, every action is logged with complete audit trails, and compliance is the foundation — not an add-on.' },
+  { question: 'Is Invoicemonk suitable for my business size?', answer: 'Yes. Invoicemonk scales with your business. Start with free invoicing and add products like expense tracking, accounting, and payments as you grow — without migrating data.' },
+  { question: 'How does Invoicemonk ensure compliance?', answer: 'Every transaction creates immutable, timestamped records with hash-based integrity verification. Complete audit trails and export-ready reports keep you prepared for any regulatory review.' },
+  { question: 'Can I try Invoicemonk for free?', answer: 'Absolutely. Our free tier includes unlimited invoicing with core features. No credit card required. Upgrade to paid plans when you need advanced features.' },
+];
 
 const corePrinciples = [
   {
@@ -58,6 +66,7 @@ const WhyInvoicemonk = () => {
 
   return (
     <Layout>
+      <FAQSchema items={whyInvoicemonkFAQs} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Why Choose Invoicemonk | Compliance-First Invoicing'}
         description={seo?.getDescription(locale) || 'Discover why businesses choose Invoicemonk. Compliance-first invoicing, powerful features, and excellent support.'}

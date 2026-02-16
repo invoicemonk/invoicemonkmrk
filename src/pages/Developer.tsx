@@ -10,6 +10,14 @@ import {
 } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const developerFAQs = [
+  { question: 'Is the API free to use?', answer: 'API access is included with paid plans. Sign up for a free account and you can explore the API documentation immediately. Production API keys are available on Starter plans and above.' },
+  { question: 'What authentication does the API use?', answer: 'The Invoicemonk API uses OAuth 2.0 authentication with API keys and scopes. All data is transferred over encrypted HTTPS connections.' },
+  { question: 'What is the API uptime guarantee?', answer: 'We offer a 99.9% uptime SLA for production API access. You can monitor real-time API health at status.invoicemonk.com.' },
+  { question: 'Are there SDKs available?', answer: 'Yes, we provide client libraries for popular programming languages including JavaScript, Python, and PHP. All SDKs are available on GitHub.' },
+];
 
 const Developer = () => {
   const features = [
@@ -48,6 +56,7 @@ const Developer = () => {
 
   return (
     <Layout>
+      <FAQSchema items={developerFAQs} />
       <SEOHead
         title={seo?.getTitle({} as any) || 'Developer API | Invoicemonk'}
         description={seo?.getDescription({} as any) || 'Integrate Invoicemonk into your applications with our developer API. Full documentation and SDKs available.'}

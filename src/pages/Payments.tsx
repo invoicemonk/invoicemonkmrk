@@ -14,6 +14,14 @@ import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+
+const paymentsSEOFAQs = [
+  { question: 'How do I accept online payments on invoices?', answer: 'With Invoicemonk, you can add a payment link directly to your invoices. Clients click the link to pay via credit card, bank transfer, or mobile payment. The payment is automatically recorded and matched to the invoice.' },
+  { question: 'What payment methods can my clients use?', answer: 'Clients can pay using credit and debit cards, bank transfers, and mobile payment platforms. Invoicemonk integrates with popular payment gateways to offer flexible options for your clients worldwide.' },
+  { question: 'How long does it take to receive payments?', answer: 'Processing times vary by method. Card payments typically settle in 1-3 business days, bank transfers in 1-5 business days, and mobile payments are often instant. Invoicemonk shows real-time payment status on every invoice.' },
+  { question: 'Are online invoice payments secure?', answer: 'Yes. All payments are processed through PCI-compliant payment gateways with bank-level encryption. Your clients\' financial data is never stored on Invoicemonk servers, ensuring maximum security.' },
+];
 
 const paymentTabbedFeatures = [
   {
@@ -113,6 +121,7 @@ const Payments = () => {
 
   return (
     <Layout>
+      <FAQSchema items={paymentsSEOFAQs} />
       <SEOHead
         title="Accept Online Payments | Payment Processing | Invoicemonk"
         description="Accept payments directly from invoices. Credit cards, bank transfers, and digital wallets with automatic reconciliation and low processing fees."

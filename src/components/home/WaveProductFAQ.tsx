@@ -6,6 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
+import { FAQSchema } from '@/components/seo/FAQSchema';
 
 interface FAQ {
   question: string;
@@ -27,6 +28,7 @@ export function WaveProductFAQ({
 }: WaveProductFAQProps) {
   return (
     <section className={`py-20 lg:py-32 bg-background ${className}`}>
+      <FAQSchema items={faqs} />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-h2 text-heading mb-4">{title}</h2>
