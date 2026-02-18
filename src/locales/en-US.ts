@@ -12,12 +12,12 @@ export const enUS: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "IRS-ready invoicing",
+      badge: "Structured for Jurisdiction-Aware Invoicing",
       headline: "Create beautiful invoices",
       headlineAccent: "in seconds",
-      subheadline: "Professional invoicing, payments, and accounting software built for American small businesses and freelancers.",
-      cta: "Start Your Free Trial",
-      secondaryCta: "Watch Demo",
+      subheadline: "Create country-aware invoices, track revenue, and stay compliant across borders.",
+      cta: "Start Compliant Invoicing",
+      secondaryCta: "See How It Adapts",
       trustBadge: "Trusted by American small businesses",
     },
     compliance: {

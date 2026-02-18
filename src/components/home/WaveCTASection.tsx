@@ -25,7 +25,7 @@ export function WaveCTASection() {
             <span className="font-serif italic text-primary">your finances?</span>
           </h2>
           <p className="text-body-lg text-white/90 mb-10">
-            Join businesses worldwide who trust Invoicemonk for their financial records.
+            Join businesses worldwide building compliant, country-aware financial records.
           </p>
 
           <motion.div
@@ -41,7 +41,7 @@ export function WaveCTASection() {
               className="rounded-full px-10 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-lg group"
             >
               <a href="https://app.invoicemonk.com/signup">
-                Start Free Today
+                Start Compliant Invoicing
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
               </a>
             </Button>

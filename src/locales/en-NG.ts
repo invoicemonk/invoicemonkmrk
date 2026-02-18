@@ -12,12 +12,12 @@ export const enNG: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "NRS-compliant invoicing",
+      badge: "Structured for Jurisdiction-Aware Invoicing",
       headline: "Professional invoices for",
       headlineAccent: "Nigerian businesses",
-      subheadline: "Create NRS-compliant invoices, track payments, and manage expenses. Built for Nigerian entrepreneurs and SMEs.",
-      cta: "Start Your Free Trial",
-      secondaryCta: "Watch Demo",
+      subheadline: "Create country-aware invoices, track revenue, and stay compliant across borders.",
+      cta: "Start Compliant Invoicing",
+      secondaryCta: "See How It Adapts",
       trustBadge: "Trusted by Nigerian businesses",
     },
     compliance: {

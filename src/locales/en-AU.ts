@@ -12,12 +12,12 @@ export const enAU: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "ATO-ready invoicing",
+      badge: "Structured for Jurisdiction-Aware Invoicing",
       headline: "Smart invoicing for",
       headlineAccent: "Australian businesses",
-      subheadline: "Create ATO-compliant invoices, track GST, and streamline your finances. Made for Australian entrepreneurs and SMEs.",
-      cta: "Start Your Free Trial",
-      secondaryCta: "Watch Demo",
+      subheadline: "Create country-aware invoices, track revenue, and stay compliant across borders.",
+      cta: "Start Compliant Invoicing",
+      secondaryCta: "See How It Adapts",
       trustBadge: "Trusted by Australian businesses",
     },
     compliance: {
