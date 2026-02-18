@@ -12,12 +12,12 @@ export const enCA: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "CRA-compliant invoicing",
+      badge: "Structured for Jurisdiction-Aware Invoicing",
       headline: "Invoicing made simple",
       headlineAccent: "for Canadians",
-      subheadline: "Create CRA-compliant invoices, track GST/HST, and manage your finances with ease. Built for Canadian businesses.",
-      cta: "Start Your Free Trial",
-      secondaryCta: "Watch Demo",
+      subheadline: "Create country-aware invoices, track revenue, and stay compliant across borders.",
+      cta: "Start Compliant Invoicing",
+      secondaryCta: "See How It Adapts",
       trustBadge: "Trusted by Canadian businesses",
     },
     compliance: {

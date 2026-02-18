@@ -12,12 +12,12 @@ export const enGB: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "HMRC-compliant invoicing",
+      badge: "Structured for Jurisdiction-Aware Invoicing",
       headline: "Beautiful invoices,",
       headlineAccent: "sorted",
-      subheadline: "Create HMRC-compliant invoices with proper VAT handling. Perfect for UK freelancers, contractors and businesses.",
-      cta: "Start Your Free Trial",
-      secondaryCta: "Watch Demo",
+      subheadline: "Create country-aware invoices, track revenue, and stay compliant across borders.",
+      cta: "Start Compliant Invoicing",
+      secondaryCta: "See How It Adapts",
       trustBadge: "Trusted by UK businesses",
     },
     compliance: {

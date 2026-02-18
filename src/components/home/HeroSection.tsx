@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Star, ArrowRight, Play, Shield } from 'lucide-react';
+import { Star, ArrowRight, Globe, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLocale } from '@/hooks/useLocale';
 
@@ -98,8 +98,8 @@ export function HeroSection() {
               size="lg"
               className="rounded-full px-8 h-14 text-body border-border hover:bg-muted transition-all duration-300 group"
             >
-              <a href="#products" className="flex items-center gap-2">
-                <Play className="w-4 h-4" />
+              <a href="#compliance" className="flex items-center gap-2">
+                <Globe className="w-4 h-4" />
                 {hero.secondaryCta}
               </a>
             </Button>
@@ -225,7 +225,7 @@ export function HeroSection() {
                   <Shield className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-body-sm font-medium text-foreground">{compliance.authority}-Compliant</p>
+                  <p className="text-body-sm font-medium text-foreground">Jurisdiction-Aware</p>
                   <p className="text-caption text-muted-foreground">All records audit-ready</p>
                 </div>
               </div>
