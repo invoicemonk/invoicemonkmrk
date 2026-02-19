@@ -1,7 +1,8 @@
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowRight, FileText, Download, Zap, Shield, CheckCircle } from 'lucide-react';
+import { ArrowRight, FileText, Download, Zap, Shield, CheckCircle, BookOpen } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { PageHero } from '@/components/shared/PageHero';
 import { 
   FloatingInvoiceCard,
@@ -141,6 +142,33 @@ const FreeInvoiceGenerator = () => {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Related Resources */}
+      <section className="py-16 lg:py-24 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <div className="flex items-center gap-2 mb-6">
+            <BookOpen className="w-5 h-5 text-primary" />
+            <h2 className="text-xl font-semibold text-foreground">Related Resources</h2>
+          </div>
+          <ul className="space-y-3">
+            <li>
+              <Link to="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners" className="text-primary hover:underline">
+                5 Essential Elements of an Invoice →
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog/invoice-numbering-best-practices" className="text-primary hover:underline">
+                Invoice Numbering Best Practices →
+              </Link>
+            </li>
+            <li>
+              <Link to="/invoicing" className="text-primary hover:underline">
+                Explore the Full Invoicing Platform →
+              </Link>
+            </li>
+          </ul>
         </div>
       </section>
 

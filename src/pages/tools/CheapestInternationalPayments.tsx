@@ -29,8 +29,8 @@ export default function CheapestInternationalPayments() {
   return (
     <Layout>
       <SEOHead
-        title="Cheapest Way to Receive International Payments | 2026 Guide | Invoicemonk"
-        description="Find the cheapest way to receive international payments. Compare Wise, PayPal, bank transfers, and cards. Ranked by cost with tips to reduce fees."
+        title="Cheapest Way to Receive International Payments in 2026 | Fee Comparison"
+        description="Compare the cheapest international payment methods for invoices. Wise vs PayPal vs SWIFT vs cards — ranked by total cost with a free fee calculator."
         ogType="website"
         canonical="/cheapest-way-to-receive-international-payments"
       />

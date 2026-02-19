@@ -41,8 +41,8 @@ export default function PaypalVsWiseFees() {
   return (
     <Layout>
       <SEOHead
-        title="PayPal vs Wise Fees Compared | Which Is Cheaper? | Invoicemonk"
-        description="Compare PayPal and Wise fees for international payments. See real fee breakdowns, exchange rate spreads, and find out which saves you more money."
+        title="PayPal vs Wise Fees: Which Is Cheaper for International Transfers? (2026)"
+        description="Is Wise cheaper than PayPal? Side-by-side fee comparison for international transfers. See real cost breakdowns for $1K, $5K, and $10K transfers."
         ogType="website"
         canonical="/paypal-vs-wise-fees"
       />

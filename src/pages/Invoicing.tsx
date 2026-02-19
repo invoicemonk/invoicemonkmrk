@@ -55,7 +55,7 @@ const tabbedFeatures = [
   {
     label: 'Recurring Billing',
     title: 'Set up recurring billing for repeat customers',
-    description: 'Stop creating the same invoices every month. Set up automatic invoicing for retainer clients and subscription services — invoices go out on time, every time.',
+    description: 'Stop creating the same invoices every month. Set up automatic invoicing for retainer clients and subscription services — invoices go out on time, every time. Learn more in our <a href="/blog/recurring-invoices-automating-billing">guide to recurring invoices</a>.',
   },
 ];
 
@@ -207,7 +207,7 @@ const Invoicing = () => {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="text-body-sm text-muted-foreground mt-6"
               >
-                Free to use • No credit card required
+                Free to use • No credit card required • <Link to="/free-invoice-generator" className="text-primary hover:underline">Try the free invoice generator</Link>
               </motion.p>
             </div>
 
@@ -354,7 +354,7 @@ const Invoicing = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <AnimatedSection>
                 <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
-                  {compliance.authority}-Compliant
+                  Compliance-Aware
                 </span>
                 <h2 className="text-h2 text-heading mb-6">
                   Audit-ready from{' '}
@@ -363,6 +363,7 @@ const Invoicing = () => {
                 <p className="text-body-lg text-muted-foreground mb-8">
                   Every invoice you create is automatically protected with immutable records and 
                   complete audit trails. Be confident your invoicing meets any regulatory requirement.
+                  Need to fix a billing error? See our guide on <Link to="/blog/credit-notes-and-invoice-corrections" className="text-primary hover:underline">credit notes and invoice corrections</Link>.
                 </p>
                 
                 <ul className="space-y-4">
