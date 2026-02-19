@@ -6,6 +6,9 @@
  * - Blog posts (from blogPosts.ts)
  * - Guide pages (from pillars)
  * - Author pages
+ * - Blog topic pages (from topicalMap.ts)
+ * - Help center articles (from helpGuides.ts)
+ * - Receive-currency corridor pages (from paymentFeeModels.ts)
  * 
  * Run: npx tsx scripts/generate-sitemap.ts
  * Or as part of build: npm run generate-sitemap && vite build
@@ -17,9 +20,6 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Since this runs at build time, we need to read the data files
-// and extract the necessary information
 
 const SITE_URL = 'https://invoicemonk.com';
 const CURRENT_DATE = new Date().toISOString().split('T')[0];
@@ -88,6 +88,14 @@ const staticPages: SitemapEntry[] = [
   
   // Guide index
   { loc: '/guides', priority: 0.8, changefreq: 'weekly' },
+
+  // Content pages
+  { loc: '/glossary', priority: 0.6, changefreq: 'monthly' },
+  { loc: '/explore', priority: 0.6, changefreq: 'monthly' },
+  { loc: '/help', priority: 0.6, changefreq: 'monthly' },
+
+  // Developer page
+  { loc: '/developer', priority: 0.5, changefreq: 'monthly' },
   
   // Legal pages - lower priority
   { loc: '/privacy-policy', priority: 0.3, changefreq: 'yearly' },
@@ -103,18 +111,17 @@ const guideSlugs = [
   'tax-compliance',
   'freelancing',
   'estimates',
+  'expenses',
+  'client-management',
 ];
 
 // Read blog posts from the data file
 function getBlogPosts(): string[] {
   try {
-    const blogPostsPath = path.join(__dirname, '../src/data/blogPosts.ts');
-    const content = fs.readFileSync(blogPostsPath, 'utf-8');
-    
-    // Extract slugs using regex
+    const filePath = path.join(__dirname, '../src/data/blogPosts.ts');
+    const content = fs.readFileSync(filePath, 'utf-8');
     const slugMatches = content.match(/slug:\s*['"]([^'"]+)['"]/g);
     if (!slugMatches) return [];
-    
     return slugMatches.map(match => {
       const slug = match.match(/['"]([^'"]+)['"]/);
       return slug ? slug[1] : '';
@@ -128,19 +135,69 @@ function getBlogPosts(): string[] {
 // Read authors from the data file
 function getAuthors(): string[] {
   try {
-    const authorsPath = path.join(__dirname, '../src/data/authors.ts');
-    const content = fs.readFileSync(authorsPath, 'utf-8');
-    
-    // Extract slugs using regex
+    const filePath = path.join(__dirname, '../src/data/authors.ts');
+    const content = fs.readFileSync(filePath, 'utf-8');
     const slugMatches = content.match(/slug:\s*['"]([^'"]+)['"]/g);
     if (!slugMatches) return [];
-    
     return slugMatches.map(match => {
       const slug = match.match(/['"]([^'"]+)['"]/);
       return slug ? slug[1] : '';
     }).filter(Boolean);
   } catch (error) {
     console.error('Error reading authors:', error);
+    return [];
+  }
+}
+
+// Read blog topic pillar IDs from topicalMap.ts
+function getBlogTopics(): string[] {
+  try {
+    const filePath = path.join(__dirname, '../src/data/topicalMap.ts');
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const idMatches = content.match(/^\s*id:\s*['"]([^'"]+)['"]/gm);
+    if (!idMatches) return [];
+    return idMatches.map(match => {
+      const id = match.match(/['"]([^'"]+)['"]/);
+      return id ? id[1] : '';
+    }).filter(Boolean);
+  } catch (error) {
+    console.error('Error reading blog topics:', error);
+    return [];
+  }
+}
+
+// Read help article slugs from helpGuides.ts
+function getHelpSlugs(): string[] {
+  try {
+    const filePath = path.join(__dirname, '../src/data/helpGuides.ts');
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const slugMatches = content.match(/slug:\s*['"]([^'"]+)['"]/g);
+    if (!slugMatches) return [];
+    return slugMatches.map(match => {
+      const slug = match.match(/['"]([^'"]+)['"]/);
+      return slug ? slug[1] : '';
+    }).filter(Boolean);
+  } catch (error) {
+    console.error('Error reading help guides:', error);
+    return [];
+  }
+}
+
+// Read currency corridors from paymentFeeModels.ts
+function getCorridors(): Array<{ currency: string; country: string }> {
+  try {
+    const filePath = path.join(__dirname, '../src/config/paymentFeeModels.ts');
+    const content = fs.readFileSync(filePath, 'utf-8');
+    // Match { currency: '...', country: '...' } patterns in keyCorridor array
+    const corridorRegex = /currency:\s*['"]([^'"]+)['"],\s*country:\s*['"]([^'"]+)['"]/g;
+    const results: Array<{ currency: string; country: string }> = [];
+    let match;
+    while ((match = corridorRegex.exec(content)) !== null) {
+      results.push({ currency: match[1], country: match[2] });
+    }
+    return results;
+  } catch (error) {
+    console.error('Error reading corridors:', error);
     return [];
   }
 }
@@ -172,35 +229,42 @@ function main() {
   
   // Add guide pages
   guideSlugs.forEach(slug => {
-    allEntries.push({
-      loc: `/guides/${slug}`,
-      priority: 0.8,
-      changefreq: 'weekly'
-    });
+    allEntries.push({ loc: `/guides/${slug}`, priority: 0.8, changefreq: 'weekly' });
   });
   
   // Add blog posts
   const blogSlugs = getBlogPosts();
   console.log(`📝 Found ${blogSlugs.length} blog posts`);
-  
   blogSlugs.forEach(slug => {
-    allEntries.push({
-      loc: `/blog/${slug}`,
-      priority: 0.7,
-      changefreq: 'monthly'
-    });
+    allEntries.push({ loc: `/blog/${slug}`, priority: 0.7, changefreq: 'monthly' });
   });
   
   // Add author pages
   const authorSlugs = getAuthors();
   console.log(`👤 Found ${authorSlugs.length} authors`);
-  
   authorSlugs.forEach(slug => {
-    allEntries.push({
-      loc: `/blog/author/${slug}`,
-      priority: 0.5,
-      changefreq: 'monthly'
-    });
+    allEntries.push({ loc: `/blog/author/${slug}`, priority: 0.5, changefreq: 'monthly' });
+  });
+
+  // Add blog topic pages
+  const topicIds = getBlogTopics();
+  console.log(`📚 Found ${topicIds.length} blog topics`);
+  topicIds.forEach(id => {
+    allEntries.push({ loc: `/blog/topic/${id}`, priority: 0.7, changefreq: 'weekly' });
+  });
+
+  // Add help center articles
+  const helpSlugs = getHelpSlugs();
+  console.log(`❓ Found ${helpSlugs.length} help articles`);
+  helpSlugs.forEach(slug => {
+    allEntries.push({ loc: `/help/${slug}`, priority: 0.5, changefreq: 'monthly' });
+  });
+
+  // Add receive-currency corridor pages
+  const corridors = getCorridors();
+  console.log(`💱 Found ${corridors.length} currency corridors`);
+  corridors.forEach(({ currency, country }) => {
+    allEntries.push({ loc: `/receive-${currency}-in-${country}-cost`, priority: 0.7, changefreq: 'monthly' });
   });
   
   // Generate XML

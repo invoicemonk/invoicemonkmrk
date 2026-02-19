@@ -1,7 +1,7 @@
 import { Layout } from '@/components/layout/Layout';
 import { HeroSection } from '@/components/home/HeroSection';
 import { GlobalComplianceSection } from '@/components/home/GlobalComplianceSection';
-import { EcommercePositioningSection } from '@/components/home/EcommercePositioningSection';
+import { CompliancePositioningSection } from '@/components/home/CompliancePositioningSection';
 import { WaveProductTabs } from '@/components/home/WaveProductTabs';
 import { WaveFeatureBenefits } from '@/components/home/WaveFeatureBenefits';
 import { ComplianceTrustSection } from '@/components/home/ComplianceTrustSection';
@@ -35,7 +35,7 @@ const Index = () => {
       <Layout>
         <HeroSection />
         <GlobalComplianceSection />
-        <EcommercePositioningSection />
+        <CompliancePositioningSection />
         <WaveProductTabs />
         <WaveFeatureBenefits />
         <ComplianceTrustSection />

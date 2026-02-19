@@ -1,0 +1,99 @@
+# Invoicemonk
+
+> Compliance-first invoicing, accounting, and financial management platform for small businesses and freelancers.
+
+Invoicemonk is an all-in-one business finance platform that helps freelancers, consultants, contractors, and small businesses create professional invoices, track expenses, accept payments, manage accounting, generate estimates, and issue receipts — with built-in tax compliance for multiple countries.
+
+## Core Products
+
+- [Invoicing](https://invoicemonk.com/invoicing): Create and send professional, tax-compliant invoices with automatic numbering, multi-currency support, payment tracking, and branded templates.
+- [Expenses](https://invoicemonk.com/expenses): Track and categorize business expenses with receipt scanning (OCR), automatic categorization, and tax-deductible expense identification.
+- [Payments](https://invoicemonk.com/payments): Accept payments via Stripe (international) and Paystack (Nigeria) with embedded payment links on invoices. Multi-currency support.
+- [Accounting](https://invoicemonk.com/accounting): Automated bookkeeping, chart of accounts, financial reports (P&L, balance sheet, cash flow), bank reconciliation, and multi-entity support.
+- [Estimates](https://invoicemonk.com/estimates): Create professional quotes and proposals with one-click conversion to invoices. Supports estimate, quote, and proposal workflows.
+- [Receipts](https://invoicemonk.com/receipts): Generate and manage payment receipts with digital storage, OCR scanning, and compliance-ready documentation.
+
+## Additional Features
+
+- [Client Management](https://invoicemonk.com/client-management): CRM-lite features for managing client contacts, payment history, and communication.
+- [Free Invoice Generator](https://invoicemonk.com/free-invoice-generator): Create professional invoices for free without signing up.
+- [Invoice Verification Portal](https://invoicemonk.com): Clients can verify invoice authenticity through a public portal.
+- Credit notes and corrections
+- Recurring invoices and retainer billing
+- Milestone-based billing
+- Multi-currency invoicing
+- Custom branding and premium templates
+
+## Who It's For
+
+- Freelancers (designers, writers, developers, marketers)
+- Consultants and professional service providers
+- Contractors (construction, electrical, plumbing)
+- Small businesses and startups
+- Agencies (marketing, creative, digital)
+- Photographers and creatives
+- Lawyers and legal professionals
+- Accountants and bookkeepers
+- E-commerce businesses
+
+## Pricing
+
+All plans include a free tier. Paid plans vary by region:
+
+- **Free**: 5 invoices & 5 receipts/month, 1 currency, accounting & expense tracking
+- **Starter** (Nigeria only): ₦2,000/mo — Unlimited invoices, 3 currencies, in-app support
+- **Professional** (recommended): From $4–$8/mo (varies by country) — Unlimited everything, 5 team members, custom branding, no watermark
+- **Business**: From $12–$29/mo (varies by country) — Enterprise features, unlimited team, API access, advanced reports
+
+Regional pricing:
+- Nigeria: ₦2,000–₦8,000/mo
+- United States: $5–$19/mo
+- United Kingdom: £4–£12/mo
+- Canada: C$7–C$20/mo
+- Australia: A$8–A$29/mo
+
+Annual billing saves 20% (international) or 2 months free (Nigeria).
+
+## Tax Compliance
+
+Built-in compliance for 5 countries:
+- **Nigeria**: FIRS (Federal Inland Revenue Service) — VAT-compliant invoicing
+- **United Kingdom**: HMRC — Making Tax Digital (MTD) ready
+- **United States**: IRS — Tax-ready invoices with required documentation
+- **Canada**: CRA — GST/HST compliant
+- **Australia**: ATO — GST-compliant tax invoices
+
+## Comparisons
+
+Invoicemonk is positioned as a compliance-first alternative to:
+- [vs QuickBooks](https://invoicemonk.com/compare/invoicemonk-vs-quickbooks): Simpler, more affordable, compliance-focused
+- [vs FreshBooks](https://invoicemonk.com/compare/invoicemonk-vs-freshbooks): Multi-region compliance, better pricing
+- [vs Wave](https://invoicemonk.com/compare/invoicemonk-vs-wave): More features, multi-currency, team support
+- [vs Zoho Invoice](https://invoicemonk.com/compare/invoicemonk-vs-zoho-invoice): Purpose-built for small business compliance
+
+## Free Tools
+
+- [International Payment Fee Calculator](https://invoicemonk.com/international-payment-fee-calculator): Compare fees across Wise, PayPal, Stripe, and SWIFT
+- [PayPal vs Wise Fee Comparison](https://invoicemonk.com/paypal-vs-wise-fees): Side-by-side fee comparison
+- [Cheapest International Payments](https://invoicemonk.com/cheapest-way-to-receive-international-payments): Find the cheapest way to receive payments
+
+## Key Differentiators
+
+1. **Compliance-first**: Tax rules built into every invoice, not an afterthought
+2. **Multi-region**: One platform, 5 countries, automatic compliance adaptation
+3. **All-in-one**: Invoicing + expenses + payments + accounting in one platform
+4. **Affordable**: Free tier available; paid plans start at $4/mo
+5. **Professional**: Branded templates, invoice verification portal, credit notes
+
+## Resources
+
+- [Blog](https://invoicemonk.com/blog): 50+ articles on invoicing, accounting, freelancing, tax compliance, and business finance
+- [Guides](https://invoicemonk.com/guides): Comprehensive guides on invoicing, getting paid, business finances, tax compliance, freelancing, and estimates
+- [Help Center](https://invoicemonk.com/help): Getting started guides and tutorials
+- [About](https://invoicemonk.com/about): Company information and team
+
+## Contact
+
+- Website: https://invoicemonk.com
+- Contact: https://invoicemonk.com/contact
+- Sign up: https://app.invoicemonk.com/signup

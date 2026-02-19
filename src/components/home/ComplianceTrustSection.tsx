@@ -1,4 +1,4 @@
-import { Lock, FileCheck, Layers, ClipboardList, ExternalLink } from 'lucide-react';
+import { Lock, FileCheck, Layers, ClipboardList, ExternalLink, FileDigit, Hash, Fingerprint } from 'lucide-react';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 
 const trustItems = [
@@ -7,6 +7,9 @@ const trustItems = [
   { icon: Layers, label: 'Versioned Tax Schemas', description: 'Tax structures update as regulations evolve.' },
   { icon: ClipboardList, label: 'Audit Trail Access', description: 'Full change history available on Pro plan.' },
   { icon: ExternalLink, label: 'Public Verification Links', description: 'Clients can verify invoice authenticity independently.' },
+  { icon: FileDigit, label: 'E-Invoicing Ready', description: 'Supports ZATCA, Peppol, and regional e-invoicing mandates.' },
+  { icon: Hash, label: 'Invoice Reference Numbers', description: 'Unique IRN generation for regulatory traceability.' },
+  { icon: Fingerprint, label: 'Digital Signatures & CSID', description: 'Cryptographic stamps verify document authenticity.' },
 ];
 
 export function ComplianceTrustSection() {
@@ -20,7 +23,7 @@ export function ComplianceTrustSection() {
           </h2>
         </AnimatedSection>
 
-        <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {trustItems.map(({ icon: Icon, label, description }) => (
             <StaggerItem key={label}>
               <div className="bg-card rounded-xl border border-border p-6 hover:shadow-soft-lg transition-shadow duration-300">

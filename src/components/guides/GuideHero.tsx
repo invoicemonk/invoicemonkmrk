@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList } from 'lucide-react';
+import { ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList, Receipt, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import type { Pillar } from '@/data/topicalMap';
 
@@ -10,7 +10,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Calculator,
   Shield,
   User,
-  ClipboardList
+  ClipboardList,
+  Receipt,
+  Users
 };
 
 interface GuideHeroProps {

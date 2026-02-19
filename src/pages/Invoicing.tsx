@@ -84,20 +84,22 @@ const complianceFeatures = [
   'Regulatory-compliant storage and retention policies',
   'Export-ready reports for auditors and regulators',
   'Cryptographic proof of document authenticity',
+  'Digital signatures and cryptographic stamps (CSID) for every invoice',
+  'Unique Invoice Reference Numbers (IRN) for regulatory traceability',
 ];
 
 const invoicingFAQs = [
   {
     question: 'Is Invoicemonk really free?',
-    answer: 'Yes! Our core invoicing features are completely free with no credit card required. You can send unlimited invoices, track payments, and manage clients at no cost. Premium features like advanced analytics and custom branding are available on paid plans.',
+    answer: 'Yes! Our core invoicing features are completely free with no credit card required. You can send up to 5 invoices per month, track payments, and manage clients at no cost. Upgrade for unlimited invoicing. Premium features like advanced analytics and custom branding are available on paid plans.',
   },
   {
     question: 'How do I get paid faster with Invoicemonk?',
     answer: 'Invoicemonk helps you get paid faster through several features: payment links that let clients pay online instantly, automatic payment reminders for overdue invoices, and professional templates that build trust with your clients.',
   },
   {
-    question: 'Can I customize my invoices with my logo and brand colors?',
-    answer: 'Absolutely! You can add your business logo, customize colors to match your brand, and choose from multiple professional templates. Your invoices will look like they came from an established business.',
+    question: 'Can I customize my invoices with my logo?',
+    answer: 'Absolutely! You can add your business logo and choose from multiple professional templates. Your invoices will look like they came from an established business.',
   },
   {
     question: 'How does the audit trail feature work?',
@@ -110,6 +112,10 @@ const invoicingFAQs = [
   {
     question: 'What payment methods can my clients use?',
     answer: 'When our payments feature launches, clients will be able to pay via credit card, debit card, bank transfer, and popular digital wallets. For now, you can include your payment details on invoices for manual payments.',
+  },
+  {
+    question: 'Does Invoicemonk support e-invoicing standards?',
+    answer: 'Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2 (Saudi Arabia), Peppol (Europe), and other regional mandates. Every invoice includes digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.',
   },
 ];
 

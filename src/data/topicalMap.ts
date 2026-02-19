@@ -404,6 +404,125 @@ export const pillars: Pillar[] = [
         answer: 'Don\'t immediately lower your price—this devalues your work. Instead, understand their budget constraints, adjust scope if needed, emphasize ROI and value, offer payment plans, or politely decline if the fit isn\'t right.'
       }
     ]
+  },
+  {
+    id: 'expense-management',
+    title: 'Expense Management',
+    slug: 'expenses',
+    description: 'Track, categorize, and optimize your business expenses effortlessly.',
+    longDescription: 'Master business expense management from receipt scanning to tax-deductible categories. Learn how to track expenses, go paperless, separate business and personal spending, and create expense reports that keep your finances audit-ready.',
+    targetProduct: '/expenses',
+    hubPage: '/guides/expenses',
+    blogHubPage: '/blog/complete-guide-expense-management',
+    icon: 'Receipt',
+    color: 'hsl(173, 80%, 40%)',
+    keyTopics: [
+      {
+        title: 'Expense Tracking',
+        description: 'Methods and tools for tracking business expenses.',
+        link: '/blog/expense-tracking-methods-small-business'
+      },
+      {
+        title: 'Receipt Management',
+        description: 'Go paperless with digital receipt management.',
+        link: '/blog/digital-receipt-management-guide'
+      },
+      {
+        title: 'Expense Categories',
+        description: 'Categorize expenses with a chart of accounts.',
+        link: '/blog/business-expense-categories-guide'
+      },
+      {
+        title: 'Receipt Scanning',
+        description: 'Compare the best receipt scanning apps.',
+        link: '/blog/receipt-scanning-apps-comparison'
+      },
+      {
+        title: 'Business vs Personal',
+        description: 'Separate business and personal expenses properly.',
+        link: '/blog/separate-business-personal-expenses'
+      },
+      {
+        title: 'Tax Deductions',
+        description: 'Identify and claim tax-deductible expenses.',
+        link: '/blog/tax-deductible-business-expenses'
+      }
+    ],
+    faq: [
+      {
+        question: 'What is the easiest way to track business expenses?',
+        answer: 'Use expense tracking software that lets you snap photos of receipts, auto-categorize spending, and sync with your bank accounts. This eliminates manual data entry and ensures nothing is missed at tax time.'
+      },
+      {
+        question: 'How should I categorize business expenses?',
+        answer: 'Common categories include: office supplies, travel, meals and entertainment, professional services, software and subscriptions, marketing, insurance, and utilities. Set up a chart of accounts that matches your industry and tax requirements.'
+      },
+      {
+        question: 'Do I need to keep paper receipts?',
+        answer: 'Most tax authorities now accept digital copies of receipts. Use a receipt scanning app to photograph and store receipts digitally. Keep them organized by date and category for at least 5-7 years depending on your jurisdiction.'
+      },
+      {
+        question: 'What business expenses are tax deductible?',
+        answer: 'Generally, any expense that is ordinary and necessary for running your business is deductible. This includes office rent, supplies, travel, professional development, software, insurance, and marketing costs. Keep records of all expenses and consult a tax professional for your specific situation.'
+      }
+    ]
+  },
+  {
+    id: 'client-management',
+    title: 'Client Management',
+    slug: 'client-management',
+    description: 'Build stronger client relationships and streamline your client workflows.',
+    longDescription: 'Learn how to manage client relationships effectively from onboarding to retention. Discover communication templates, strategies for handling difficult clients, and simple CRM approaches that help freelancers and small businesses grow through repeat business.',
+    targetProduct: '/client-management',
+    hubPage: '/guides/client-management',
+    blogHubPage: '/blog/client-management-guide-small-business',
+    icon: 'Users',
+    color: 'hsl(199, 89%, 48%)',
+    keyTopics: [
+      {
+        title: 'Client Onboarding',
+        description: 'Build a smooth onboarding process for new clients.',
+        link: '/blog/client-onboarding-process'
+      },
+      {
+        title: 'Difficult Clients',
+        description: 'Handle challenging client situations professionally.',
+        link: '/blog/managing-difficult-clients'
+      },
+      {
+        title: 'Communication Templates',
+        description: 'Professional templates for client communication.',
+        link: '/blog/client-communication-templates'
+      },
+      {
+        title: 'Client Retention',
+        description: 'Strategies to keep clients coming back.',
+        link: '/blog/client-retention-strategies'
+      },
+      {
+        title: 'Simple CRM',
+        description: 'Track clients without complex software.',
+        link: '/blog/crm-for-freelancers-small-business'
+      }
+    ],
+    faq: [
+      {
+        question: 'Do freelancers need a CRM?',
+        answer: 'Not necessarily a full CRM, but you do need a system for tracking client details, project history, and follow-ups. A simple spreadsheet works for under 10 clients; beyond that, consider a lightweight CRM or client management tool built into your invoicing software.'
+      },
+      {
+        question: 'How do I onboard a new client?',
+        answer: 'A good onboarding process includes: a welcome email with next steps, a questionnaire to gather project requirements, a signed contract or agreement, setting up payment terms and invoicing, and scheduling a kickoff call to align on expectations.'
+      },
+      {
+        question: 'How do I handle a difficult client?',
+        answer: 'Stay professional and document everything. Set clear boundaries, communicate in writing, and refer back to your contract. If the relationship is unsalvageable, end the engagement gracefully with proper notice and a final invoice for work completed.'
+      },
+      {
+        question: 'What are the best client retention strategies?',
+        answer: 'Deliver consistently excellent work, communicate proactively, ask for feedback regularly, offer loyalty incentives or retainer discounts, and stay top-of-mind with periodic check-ins. Retaining a client is 5-7x cheaper than acquiring a new one.'
+      }
+    ]
   }
 ];
 
@@ -425,7 +544,8 @@ export const pillarClusters: TopicalCluster[] = [
       'invoice-mistakes-that-cost-you-money',
       'digital-vs-paper-invoices-pros-and-cons',
       'invoice-design-professional-branding-tips',
-      'proforma-invoice-vs-commercial-invoice'
+      'proforma-invoice-vs-commercial-invoice',
+      'what-is-an-invoice-definition'
     ]
   },
   {
@@ -440,7 +560,9 @@ export const pillarClusters: TopicalCluster[] = [
       'setting-up-automatic-payment-reminders',
       'payment-terms-comparison-net-30-vs-net-15',
       'mobile-payment-options-for-small-business',
-      'international-payment-fees-explained'
+      'international-payment-fees-explained',
+      'international-wire-transfer-fees-guide',
+      'currency-conversion-international-payments'
     ]
   },
   {
@@ -455,6 +577,9 @@ export const pillarClusters: TopicalCluster[] = [
       'simple-accounting-for-small-business-beginners',
       'how-to-do-accounting-small-business-step-by-step',
       'small-business-accounting-for-owners',
+      'accounting-101-small-business-owners',
+      'bookkeeping-basics-beginners',
+      'diy-small-business-accounting',
       'monthly-financial-review-checklist',
       'business-bank-account-vs-personal',
       'financial-reports-every-business-needs',
@@ -506,6 +631,30 @@ export const pillarClusters: TopicalCluster[] = [
       'winning-proposal-templates-by-industry',
       'document-types-comparison-business'
     ]
+  },
+  {
+    pillarId: 'expense-management',
+    postSlugs: [
+      'complete-guide-expense-management',
+      'expense-tracking-methods-small-business',
+      'digital-receipt-management-guide',
+      'business-expense-categories-guide',
+      'receipt-scanning-apps-comparison',
+      'separate-business-personal-expenses',
+      'tax-deductible-business-expenses',
+      'expense-reports-freelancers'
+    ]
+  },
+  {
+    pillarId: 'client-management',
+    postSlugs: [
+      'client-management-guide-small-business',
+      'client-onboarding-process',
+      'managing-difficult-clients',
+      'client-communication-templates',
+      'client-retention-strategies',
+      'crm-for-freelancers-small-business'
+    ]
   }
 ];
 
@@ -524,7 +673,9 @@ export const categoryMapping: Record<string, string> = {
   'Small Business': 'Business Finance',
   'Invoicing and Billing Tips': 'Invoicing',
   'Freelancing': 'Freelancer',
-  'Finance': 'Getting Paid'
+  'Finance': 'Getting Paid',
+  'Expense Management': 'Expenses',
+  'Client Management': 'Client Management'
 };
 
 // New semantic categories aligned with pillars
@@ -534,7 +685,9 @@ export const semanticCategories = [
   { id: 'business-finance', label: 'Business Finance', pillarId: 'business-finances' },
   { id: 'tax-compliance', label: 'Tax & Compliance', pillarId: 'tax-compliance' },
   { id: 'freelancer', label: 'Freelancer', pillarId: 'freelancer-success' },
-  { id: 'estimates', label: 'Estimates & Proposals', pillarId: 'estimates-proposals' }
+  { id: 'estimates', label: 'Estimates & Proposals', pillarId: 'estimates-proposals' },
+  { id: 'expenses', label: 'Expenses', pillarId: 'expense-management' },
+  { id: 'client-management', label: 'Client Management', pillarId: 'client-management' }
 ];
 
 // Helper functions

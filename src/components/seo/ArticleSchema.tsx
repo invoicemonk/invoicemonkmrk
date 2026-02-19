@@ -268,10 +268,12 @@ function getRelatedPillars(currentPillarId: string): Pillar[] {
   const relationships: Record<string, string[]> = {
     'invoicing-mastery': ['getting-paid', 'tax-compliance'],
     'getting-paid': ['invoicing-mastery', 'business-finances'],
-    'business-finances': ['tax-compliance', 'getting-paid'],
-    'tax-compliance': ['invoicing-mastery', 'business-finances'],
-    'freelancer-success': ['invoicing-mastery', 'getting-paid', 'estimates-proposals'],
-    'estimates-proposals': ['invoicing-mastery', 'freelancer-success']
+    'business-finances': ['tax-compliance', 'getting-paid', 'expense-management'],
+    'tax-compliance': ['invoicing-mastery', 'business-finances', 'expense-management'],
+    'freelancer-success': ['invoicing-mastery', 'getting-paid', 'estimates-proposals', 'client-management'],
+    'estimates-proposals': ['invoicing-mastery', 'freelancer-success', 'client-management'],
+    'expense-management': ['business-finances', 'tax-compliance', 'freelancer-success'],
+    'client-management': ['freelancer-success', 'invoicing-mastery', 'estimates-proposals']
   };
 
   const relatedIds = relationships[currentPillarId] || [];

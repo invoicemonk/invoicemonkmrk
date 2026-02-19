@@ -11,6 +11,8 @@ const features = [
   { icon: Shield, label: 'Immutable audit trail' },
   { icon: Lock, label: 'Snapshot-based invoice integrity' },
   { icon: Archive, label: 'Retention locking & verification IDs' },
+  { icon: FileCheck, label: 'E-invoicing compliance (ZATCA Phase 2, Peppol)' },
+  { icon: Lock, label: 'Digital signatures & cryptographic stamps (CSID)' },
 ];
 
 const countries = [
@@ -18,6 +20,7 @@ const countries = [
   { name: 'Canada', flag: '🇨🇦', taxLabel: 'GST', currency: 'CAD (C$)', badge: 'CRA-Aware' },
   { name: 'UAE', flag: '🇦🇪', taxLabel: 'IVA', currency: 'AED (د.إ)', badge: 'FTA-Aware' },
   { name: 'Australia', flag: '🇦🇺', taxLabel: 'GST', currency: 'AUD (A$)', badge: 'ATO-Aware' },
+  { name: 'Saudi Arabia', flag: '🇸🇦', taxLabel: 'VAT', currency: 'SAR (﷼)', badge: 'ZATCA-Compliant' },
 ];
 
 export function GlobalComplianceSection() {

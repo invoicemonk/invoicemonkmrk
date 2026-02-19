@@ -12,7 +12,7 @@ export const homepageFAQs: FAQItem[] = [
   {
     question: 'Is Invoicemonk really free?',
     answer:
-      'Yes! Invoicemonk offers a free forever plan that includes unlimited invoicing, client management, and basic expense tracking. We also offer premium plans with advanced features like payment processing, detailed reporting, and priority support.',
+      'Yes! Invoicemonk offers a free forever plan that includes 5 invoices and 5 receipts per month, client management, and basic expense tracking. We also offer premium plans with advanced features like unlimited invoicing, payment processing, detailed reporting, and priority support.',
   },
   {
     question: 'How does invoicing work?',
@@ -42,6 +42,11 @@ export const homepageFAQs: FAQItem[] = [
   {
     question: 'Can I customize my invoices with my branding?',
     answer:
-      'Yes! You can fully customize your invoices with your logo, brand colors, and business information. Choose from multiple professional templates or create your own. Your invoices will look polished and represent your brand perfectly.',
+      'Yes! You can fully customize your invoices with your logo and business information. Choose from multiple professional templates to create polished invoices that represent your brand.',
+  },
+  {
+    question: 'Does Invoicemonk support e-invoicing?',
+    answer:
+      'Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2 (Saudi Arabia), Peppol (Europe), and other regional mandates. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.',
   },
 ];

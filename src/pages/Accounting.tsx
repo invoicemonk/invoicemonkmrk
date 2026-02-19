@@ -83,6 +83,7 @@ const bannerFeatures = [
   'Financial statements',
   'Tax-ready reports',
   'Multi-entity support',
+  'Role-based access control',
 ];
 
 import accountingChartOfAccounts from '@/assets/accounting-chart-of-accounts.jpg';
@@ -131,6 +132,10 @@ const accountingFAQs = [
   {
     question: 'Is this suitable for larger businesses?',
     answer: 'Yes! Our accounting features scale with your business. Multi-entity support, team permissions, and advanced reporting are available for growing businesses.',
+  },
+  {
+    question: 'Can I set up different roles for my team?',
+    answer: 'Yes. Invoicemonk supports role-based access control with Finance, Sales, and Executive roles. Each role has appropriate permissions so team members see only what they need, keeping your financial data secure.',
   },
 ];
 

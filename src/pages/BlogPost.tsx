@@ -150,6 +150,7 @@ const BlogPost = () => {
         isPillarContent={post.pillarContent}
         semanticKeywords={post.semanticKeywords}
         relatedArticles={relatedArticlesSchema}
+        entityMentions={post.entityMentions}
       />
       <BreadcrumbSchema items={breadcrumbs} />
       

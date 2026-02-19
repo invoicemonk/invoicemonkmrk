@@ -19,7 +19,7 @@ const whyInvoicemonkFAQs = [
   { question: 'What makes Invoicemonk different from other invoicing tools?', answer: 'Invoicemonk is a financial records system, not just an invoicing app. Every record is immutable from creation, every action is logged with complete audit trails, and compliance is the foundation — not an add-on.' },
   { question: 'Is Invoicemonk suitable for my business size?', answer: 'Yes. Invoicemonk scales with your business. Start with free invoicing and add products like expense tracking, accounting, and payments as you grow — without migrating data.' },
   { question: 'How does Invoicemonk ensure compliance?', answer: 'Every transaction creates immutable, timestamped records with hash-based integrity verification. Complete audit trails and export-ready reports keep you prepared for any regulatory review.' },
-  { question: 'Can I try Invoicemonk for free?', answer: 'Absolutely. Our free tier includes unlimited invoicing with core features. No credit card required. Upgrade to paid plans when you need advanced features.' },
+  { question: 'Can I try Invoicemonk for free?', answer: 'Absolutely. Our free tier includes 5 invoices and 5 receipts per month with core features. No credit card required. Upgrade to paid plans when you need unlimited invoicing and advanced features.' },
 ];
 
 const corePrinciples = [
@@ -51,6 +51,9 @@ const differentiators = [
   'Every record is immutable from creation.',
   'Every action is logged with complete audit trails.',
   'Compliance isn\'t an add-on — it\'s the foundation.',
+  'E-invoicing ready: ZATCA, Peppol, and regional mandates built in.',
+  'Every invoice gets a unique reference number (IRN) for traceability.',
+  'Digital signatures and cryptographic stamps prove document authenticity.',
 ];
 
 const trustIndicators = [

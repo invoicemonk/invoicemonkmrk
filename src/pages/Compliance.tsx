@@ -1,6 +1,6 @@
 import { Layout } from '@/components/layout/Layout';
 import { StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
-import { Shield, FileCheck, Clock, Lock } from 'lucide-react';
+import { Shield, FileCheck, Clock, Lock, FileDigit, Fingerprint, Hash, Users } from 'lucide-react';
 import { useLocale } from '@/hooks/useLocale';
 import { PageHero } from '@/components/shared/PageHero';
 import { 
@@ -17,6 +17,9 @@ const complianceFAQs = [
   { question: 'Which tax authorities does Invoicemonk support?', answer: 'Invoicemonk supports compliance requirements for FIRS (Nigeria), HMRC (UK), IRS (US), CRA (Canada), and ATO (Australia), with more regions being added regularly.' },
   { question: 'Can I export reports for my auditor?', answer: 'Yes. Generate compliance reports in formats accepted by tax authorities and auditors worldwide. All records include complete audit trails with timestamps and user information.' },
   { question: 'Are my invoice records truly immutable?', answer: 'Yes. Once created, invoice records cannot be altered or deleted. Every change creates a new version while preserving the original, ensuring complete data integrity for audits.' },
+  { question: 'What is e-invoicing and does Invoicemonk support it?', answer: 'E-invoicing is the electronic exchange of invoices in structured digital formats required by tax authorities. Invoicemonk supports ZATCA Phase 2 (Saudi Arabia), Peppol (Europe), and other regional e-invoicing mandates, generating fully compliant e-invoices automatically.' },
+  { question: 'What is an Invoice Reference Number (IRN)?', answer: 'An IRN is a unique identifier assigned to every invoice for end-to-end traceability. Invoicemonk generates IRNs automatically, ensuring every document can be tracked and verified throughout its lifecycle.' },
+  { question: 'Does Invoicemonk support digital signatures?', answer: 'Yes. Invoicemonk supports Cryptographic Stamp Identifiers (CSID) and digital signatures that verify document authenticity. Recipients can independently confirm that an invoice has not been tampered with.' },
 ];
 
 const complianceFeatures = [
@@ -24,6 +27,10 @@ const complianceFeatures = [
   { icon: Clock, title: 'Timestamped Logs', description: 'Every action is logged with precise timestamps, creating a complete chronological audit trail.' },
   { icon: FileCheck, title: 'Export-Ready Reports', description: 'Generate compliance reports in formats accepted by tax authorities and auditors worldwide.' },
   { icon: Shield, title: 'Regulatory Standards', description: 'Built to meet international invoicing and record-keeping requirements for small businesses.' },
+  { icon: FileDigit, title: 'E-Invoicing Compliance', description: 'Generate and receive e-invoices per ZATCA, Peppol, and regional mandates.' },
+  { icon: Fingerprint, title: 'Digital Signatures (CSID)', description: 'Cryptographic stamps and digital signatures to verify document authenticity.' },
+  { icon: Hash, title: 'Invoice Reference Numbers', description: 'Unique IRN assigned to every invoice for end-to-end traceability.' },
+  { icon: Users, title: 'Role-Based Access', description: 'Assign Finance, Sales, and Executive roles with appropriate permissions.' },
 ];
 
 const Compliance = () => {

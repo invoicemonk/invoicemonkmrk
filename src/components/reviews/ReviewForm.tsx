@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
-import { supabase } from '@/integrations/supabase/client';
+
 
 interface ReviewFormProps {
   onSuccess?: () => void;
@@ -61,14 +61,8 @@ export function ReviewForm({ onSuccess, className }: ReviewFormProps) {
       existingReviews.push(review);
       localStorage.setItem('invoicemonk_reviews', JSON.stringify(existingReviews));
 
-      // Also send to contact form endpoint as a backup
-      await supabase.from('contact_messages').insert({
-        first_name: name.split(' ')[0] || name,
-        last_name: name.split(' ').slice(1).join(' ') || '',
-        email,
-        subject: `Review Submission (${rating} stars)`,
-        message: `Rating: ${rating}/5\nCompany: ${company || 'N/A'}\nRole: ${role || 'N/A'}\n\nReview:\n${reviewText}`
-      });
+      // Note: Database persistence is disabled because the contact_messages table
+      // is not present in the Supabase schema. Reviews are stored in localStorage only.
 
       setSubmitStatus('success');
       onSuccess?.();

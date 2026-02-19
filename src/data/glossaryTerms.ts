@@ -276,6 +276,100 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Milestone payments reduce risk for both parties by tying payments to deliverables. Common structures include 50% upfront/50% completion, or thirds (33% start, 33% midpoint, 34% completion). Define clear, measurable milestones in your contract.',
     relatedTerms: ['payment-terms', 'project-management', 'deliverable'],
     category: 'freelancing'
+  },
+
+  // Expense Management Terms
+  {
+    term: 'Expense Report',
+    slug: 'expense-report',
+    definition: 'A document listing business expenses incurred by an employee or contractor, typically submitted for reimbursement or tax purposes.',
+    extendedDescription: 'Expense reports typically include date, vendor, amount, category, and receipt documentation. They serve both internal tracking and tax compliance purposes. Modern expense management software automates report creation by importing transactions and attaching scanned receipts.',
+    relatedTerms: ['tax-deduction', 'accounts-payable', 'cash-flow'],
+    category: 'accounting',
+    relatedArticles: ['expense-reports-freelancers']
+  },
+  {
+    term: 'Receipt Scanning (OCR)',
+    slug: 'receipt-scanning',
+    definition: 'The process of using Optical Character Recognition technology to digitize and extract data from paper receipts.',
+    extendedDescription: 'OCR technology reads printed text on receipts and converts it into structured digital data—extracting vendor names, dates, amounts, and tax information automatically. This eliminates manual data entry, reduces errors, and creates searchable digital records accepted by tax authorities like the IRS, HMRC, and FIRS.',
+    relatedTerms: ['expense-report', 'tax-deduction'],
+    category: 'accounting',
+    relatedArticles: ['receipt-scanning-apps-comparison', 'digital-receipt-management-guide']
+  },
+  {
+    term: 'Expense Category',
+    slug: 'expense-category',
+    definition: 'A classification grouping for business expenses that maps to accounting chart of accounts and tax reporting lines.',
+    extendedDescription: 'Proper expense categorization is essential for accurate financial reporting and tax filing. Common categories include office supplies, travel, professional services, software/subscriptions, and marketing. Categories should align with your chart of accounts and map directly to tax-deductible line items for easy year-end filing.',
+    relatedTerms: ['chart-of-accounts', 'tax-deduction', 'expense-report'],
+    category: 'accounting',
+    relatedArticles: ['business-expense-categories-guide']
+  },
+  {
+    term: 'Reimbursable Expense',
+    slug: 'reimbursable-expense',
+    definition: 'A business expense paid by an employee or contractor that is eligible to be repaid by the client or employer.',
+    extendedDescription: 'Reimbursable expenses differ from tax-deductible expenses. While deductible expenses reduce your taxable income, reimbursable expenses are costs you paid on behalf of a client and can bill back to them. Common examples include travel expenses, materials purchased for a project, and software licenses bought for client work.',
+    relatedTerms: ['expense-report', 'invoice', 'accounts-receivable'],
+    category: 'accounting',
+    relatedArticles: ['expense-reports-freelancers']
+  },
+  {
+    term: 'Expense Tracking',
+    slug: 'expense-tracking',
+    definition: 'The systematic process of recording, categorizing, and monitoring all business expenditures.',
+    extendedDescription: 'Effective expense tracking involves capturing every business purchase in real-time, categorizing it correctly, and maintaining supporting documentation like receipts. Methods range from simple spreadsheets to automated software that syncs with bank accounts. Consistent tracking enables accurate financial reporting, tax preparation, and cash flow management.',
+    relatedTerms: ['expense-category', 'receipt-scanning', 'cash-flow'],
+    category: 'accounting',
+    relatedArticles: ['expense-tracking-methods-small-business']
+  },
+  {
+    term: 'Digital Receipt',
+    slug: 'digital-receipt',
+    definition: 'An electronic version of a purchase receipt, either received digitally or created by scanning a paper receipt.',
+    extendedDescription: 'Digital receipts are accepted by virtually all tax authorities worldwide as valid proof of purchase. They offer advantages over paper: they don\'t fade, are instantly searchable, take up no physical space, and can be automatically matched to expense records. Best practice is to digitize paper receipts immediately upon receiving them.',
+    relatedTerms: ['receipt-scanning', 'expense-tracking', 'expense-report'],
+    category: 'accounting',
+    relatedArticles: ['digital-receipt-management-guide']
+  },
+
+  // Client Management Terms
+  {
+    term: 'Client Onboarding',
+    slug: 'client-onboarding',
+    definition: 'The structured process of welcoming and integrating a new client into your business workflow.',
+    extendedDescription: 'A professional onboarding process sets expectations, builds confidence, and reduces miscommunication from day one. Key elements include a welcome packet, project questionnaire, signed contract or scope of work, payment terms setup, kickoff meeting, and shared project timeline. Businesses with formal onboarding processes report higher client satisfaction and fewer disputes.',
+    relatedTerms: ['scope-of-work', 'proposal', 'retainer'],
+    category: 'business',
+    relatedArticles: ['client-onboarding-process']
+  },
+  {
+    term: 'Client Retention',
+    slug: 'client-retention',
+    definition: 'The strategies and practices used to maintain ongoing relationships with existing clients and encourage repeat business.',
+    extendedDescription: 'Client retention is typically 5-7x more cost-effective than client acquisition. Key strategies include consistent communication, exceeding expectations, offering retainer packages, gathering feedback through NPS surveys, and making it easy for clients to work with you through tools like client portals and automated invoicing.',
+    relatedTerms: ['retainer', 'client-onboarding', 'scope-of-work'],
+    category: 'business',
+    relatedArticles: ['client-retention-strategies']
+  },
+  {
+    term: 'CRM (Customer Relationship Management)',
+    slug: 'crm',
+    definition: 'A system or software for managing interactions with current and potential clients, tracking communications, and organizing client data.',
+    extendedDescription: 'CRM systems range from simple spreadsheets to enterprise software like Salesforce. For freelancers and small businesses, a lightweight CRM that tracks contact details, project history, communication logs, and payment status is usually sufficient. Many invoicing platforms include basic CRM features that eliminate the need for separate CRM software.',
+    relatedTerms: ['client-onboarding', 'client-retention'],
+    category: 'business',
+    relatedArticles: ['crm-for-freelancers-small-business']
+  },
+  {
+    term: 'Client Communication',
+    slug: 'client-communication',
+    definition: 'The structured exchange of information between a service provider and their client throughout a project or engagement.',
+    extendedDescription: 'Effective client communication includes regular status updates, clear response to scope change requests, professional payment reminders, and proactive problem reporting. Using templates for common communications saves time while maintaining consistency. A communication cadence should be established during onboarding.',
+    relatedTerms: ['client-onboarding', 'scope-of-work', 'scope-creep'],
+    category: 'business',
+    relatedArticles: ['client-communication-templates']
   }
 ];
 

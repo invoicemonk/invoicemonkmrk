@@ -65,6 +65,8 @@ import BusinessFinancesGuide from "./pages/guides/BusinessFinancesGuide";
 import TaxComplianceGuide from "./pages/guides/TaxComplianceGuide";
 import FreelancingGuide from "./pages/guides/FreelancingGuide";
 import EstimatesGuide from "./pages/guides/EstimatesGuide";
+import ExpensesGuide from "./pages/guides/ExpensesGuide";
+import ClientManagementGuide from "./pages/guides/ClientManagementGuide";
 import Glossary from "./pages/Glossary";
 import Explore from "./pages/Explore";
 
@@ -151,6 +153,8 @@ const App = () => (
             <Route path="/guides/tax-compliance" element={<TaxComplianceGuide />} />
             <Route path="/guides/freelancing" element={<FreelancingGuide />} />
             <Route path="/guides/estimates" element={<EstimatesGuide />} />
+            <Route path="/guides/expenses" element={<ExpensesGuide />} />
+            <Route path="/guides/client-management" element={<ClientManagementGuide />} />
             
             {/* Resources */}
             <Route path="/glossary" element={<Glossary />} />

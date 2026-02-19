@@ -13,8 +13,8 @@ const faqs = [
   { question: 'Does Invoicemonk support multiple team members?', answer: 'Invoicemonk supports multi-user access so your project managers, account leads, and finance team can collaborate on invoicing. Each team member can create invoices, track payments, and manage their assigned clients without stepping on each other\'s work.' },
   { question: 'Can I invoice different clients in different currencies?', answer: 'Absolutely. Invoicemonk supports multi-currency invoicing, perfect for agencies with international clients. Bill a client in London in GBP, a client in New York in USD, and a client in Lagos in NGN — all from the same account with correct currency formatting.' },
   { question: 'How does Invoicemonk help agencies track project profitability?', answer: 'With expense tracking and detailed financial reports, you can see revenue vs. costs per client or per project. Understand which accounts are profitable, which are break-even, and which need renegotiation — all from your dashboard.' },
-  { question: 'Is there a free plan for agencies?', answer: 'Yes! Invoicemonk offers a free tier that lets you send unlimited invoices. Start with the free plan and upgrade as your agency grows and needs features like advanced reporting, team access, and client portals.' },
-  { question: 'Can I brand invoices with my agency\'s identity?', answer: 'Yes. Upload your agency logo, set brand colours, and create invoice templates that reflect your agency\'s professional identity. Consistent branding across all client communications reinforces your agency\'s positioning and builds trust.' },
+  { question: 'Is there a free plan for agencies?', answer: 'Yes! Invoicemonk offers a free tier that includes 5 invoices and 5 receipts per month. Start with the free plan and upgrade as your agency grows and needs features like unlimited invoicing, advanced reporting, team access, and client portals.' },
+  { question: 'Can I brand invoices with my agency\'s identity?', answer: 'Yes. Upload your agency logo and create invoice templates that reflect your agency\'s professional identity. Consistent branding across all client communications reinforces your agency\'s positioning and builds trust.' },
   { question: 'How do automatic payment reminders work for agencies?', answer: 'Set reminder schedules per client — for example, 3 days before the due date, on the due date, and weekly after. Invoicemonk sends polite, professional follow-ups automatically. This is especially valuable for agencies managing 20+ client accounts where manual chasing is impractical.' },
   { question: 'Can I create milestone-based invoices for project work?', answer: 'Yes. For project engagements, create invoices tied to specific milestones or deliverables — such as 30% at project kickoff, 40% at first review, and 30% on delivery. Each invoice references the milestone and scope of work completed.' },
 ];
@@ -39,7 +39,7 @@ const Agencies = () => {
     {
       icon: Shield,
       title: 'Professional Branding',
-      description: 'White-label invoices with your agency logo, brand colours, and custom payment terms. Every invoice reinforces your agency\'s professional identity and builds client confidence in your operations.',
+      description: 'White-label invoices with your agency logo and custom payment terms. Every invoice reinforces your agency\'s professional identity and builds client confidence in your operations.',
     },
   ];
 

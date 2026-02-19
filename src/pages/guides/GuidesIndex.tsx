@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList } from 'lucide-react';
+import { ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList, Receipt, Users } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { Card, CardContent } from '@/components/ui/card';
@@ -12,17 +12,14 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Calculator,
   Shield,
   User,
-  ClipboardList
+  ClipboardList,
+  Receipt,
+  Users
 };
 
 export default function GuidesIndex() {
   return (
     <Layout>
-      <SEOHead
-        title="Business Guides & Resources | Invoicemonk"
-        description="Comprehensive guides on invoicing, getting paid, accounting, tax compliance, freelancing, and business proposals. Expert knowledge to grow your business."
-        canonical="https://invoicemonk.com/guides"
-      />
       <SEOHead
         title="Business Guides & Resources | Invoicemonk"
         description="Comprehensive guides on invoicing, getting paid, accounting, tax compliance, freelancing, and business proposals. Expert knowledge to grow your business."

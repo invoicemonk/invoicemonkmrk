@@ -1,25 +1,25 @@
-import { Check, ShoppingCart, FileText, CreditCard, BarChart3, ClipboardList } from 'lucide-react';
+import { Check, Globe, FileText, Shield, BarChart3, Bell } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 
 const features = [
-  { icon: ShoppingCart, label: 'Multi-currency accounts (no FX distortion)' },
-  { icon: FileText, label: 'Clean PDF invoices for global customers' },
-  { icon: CreditCard, label: 'Payment method snapshotting' },
+  { icon: Globe, label: 'Multi-currency invoicing with no FX distortion' },
+  { icon: FileText, label: 'Clean, professional PDF invoices' },
+  { icon: Shield, label: 'Tax-compliant across multiple countries' },
   { icon: BarChart3, label: 'Revenue tracking by client & period' },
-  { icon: ClipboardList, label: 'Audit logs for platform payouts' },
+  { icon: Bell, label: 'Automated payment reminders' },
 ];
 
-export function EcommercePositioningSection() {
+export function CompliancePositioningSection() {
   return (
     <section className="py-20 lg:py-28 bg-primary-soft">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-h1 lg:text-display text-heading mb-4">
-            Built for E-Commerce{' '}
-            <span className="font-serif italic text-primary">& Digital Sellers</span>
+            Built for Everyone Who{' '}
+            <span className="font-serif italic text-primary">Invoices</span>
           </h2>
           <p className="text-body-lg text-muted-foreground">
-            Built for founders selling across borders.
+            From freelancers to agencies, consultants to contractors — Invoicemonk helps you create compliant invoices and get paid faster.
           </p>
         </AnimatedSection>
 
@@ -36,7 +36,7 @@ export function EcommercePositioningSection() {
           </ul>
 
           <p className="mt-10 text-body text-muted-foreground text-center">
-            Perfect for Shopify, WooCommerce, and global sellers.
+            Trusted by freelancers, consultants, agencies, and small businesses worldwide.
           </p>
         </AnimatedSection>
       </div>
