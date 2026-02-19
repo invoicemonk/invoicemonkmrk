@@ -1653,7 +1653,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners',
     title: '5 Essential Elements of an Invoice: A Guide for Small Business Owners',
-    excerpt: 'Learn the critical components every invoice must have to ensure timely payment and maintain professionalism.',
+    excerpt: 'What must every invoice include? The 5 essential elements every small business invoice needs — with a downloadable checklist and template.',
     category: 'Invoicing and Billing Tips',
     tags: ['invoice elements', 'invoicing', 'small business', 'billing best practices'],
     author: defaultAuthor,
@@ -3855,8 +3855,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'recurring-invoices-automating-billing',
-    title: 'Recurring Invoices: Automate Your Billing for Subscription and Retainer Clients',
-    excerpt: 'Save time and ensure consistent cash flow by automating recurring invoices for repeat clients.',
+    title: 'How to Set Up Recurring Invoices: Automate Billing for Retainers and Subscriptions',
+    excerpt: 'Step-by-step guide to automating recurring invoices. Best practices for retainer billing, subscription clients, and monthly contracts.',
     category: 'Invoicing and Billing Tips',
     tags: ['invoicing', 'recurring invoices', 'automation', 'subscriptions', 'retainers'],
     author: defaultAuthor,
@@ -3965,8 +3965,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'invoice-disputes-how-to-handle-professionally',
-    title: 'Invoice Disputes: How to Handle Professionally and Preserve Relationships',
-    excerpt: 'Learn professional approaches to resolve billing disagreements while maintaining positive business relationships.',
+    title: 'How to Handle Invoice Disputes Professionally (Templates and Scripts)',
+    excerpt: 'Invoice disputed by a client? Step-by-step process for resolving billing disagreements professionally, with email templates and response scripts.',
     category: 'Invoicing and Billing Tips',
     tags: ['invoicing', 'disputes', 'client relations', 'conflict resolution'],
     author: defaultAuthor,
@@ -4078,8 +4078,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'credit-notes-and-invoice-corrections',
-    title: 'Credit Notes and Invoice Corrections: The Right Way to Fix Billing Errors',
-    excerpt: 'Learn how to properly issue credit notes and corrections while maintaining accurate records and tax compliance.',
+    title: 'Credit Notes: How and When to Use Them (With Examples)',
+    excerpt: 'What is a credit note? When should you issue one instead of a refund? Step-by-step guide with examples for small businesses.',
     category: 'Invoicing and Billing Tips',
     tags: ['invoicing', 'credit notes', 'corrections', 'compliance'],
     author: defaultAuthor,
@@ -8638,8 +8638,8 @@ Thank you for your business!
   },
   {
     slug: 'international-payment-fees-explained',
-    title: 'International Payment Fees Explained: How to Save on Cross-Border Transactions',
-    excerpt: 'Understand the hidden costs of international payments including exchange rates, wire fees, and intermediary charges. Learn strategies to minimize cross-border payment costs.',
+    title: 'International Payment Fees Explained: How to Reduce Fees on Invoice Payments (2026)',
+    excerpt: 'Compare international payment fees across Wise, PayPal, SWIFT, and card processors. Learn how to reduce fees on cross-border invoice payments.',
     category: 'Payments and Cash Flow',
     tags: ['international payments', 'cross-border payments', 'exchange rates', 'wire transfer fees', 'payment fees', 'global payments'],
     author: defaultAuthor,

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Check, Globe, Shield, FileCheck, Lock, Hash, Archive } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const features = [
   { icon: Globe, label: '30+ supported jurisdictions' },
@@ -61,6 +62,12 @@ export function GlobalComplianceSection() {
                 No generic templates. No guessing tax fields.
               </span>
             </p>
+            <Link
+              to="/international-payment-fee-calculator"
+              className="inline-block mt-4 text-body-sm text-primary hover:underline"
+            >
+              See our international fee calculator →
+            </Link>
           </AnimatedSection>
 
           {/* Right: Interactive card */}
