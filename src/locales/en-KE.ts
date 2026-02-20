@@ -34,6 +34,56 @@ export const enKE: LocaleConfig = {
       region: "Kenya",
       hreflangCode: "en-KE",
     },
+    testimonials: [
+      {
+        quote: "Invoicemonk cut our invoicing time by 70%. The M-Pesa integration means our clients pay instantly from their phones, and KRA compliance is built in.",
+        highlight: "cut our invoicing time by 70%",
+        name: "James Mwangi",
+        title: "Founder",
+        company: "Savannah Consulting",
+        location: "Nairobi, Kenya",
+      },
+      {
+        quote: "Finally, a finance tool built for Kenyan businesses. Our team was up and running in a day, and the VAT tracking makes KRA filing effortless.",
+        highlight: "up and running in a day",
+        name: "Wanjiku Kamau",
+        title: "Director",
+        company: "Rift Valley Media",
+        location: "Nakuru, Kenya",
+      },
+      {
+        quote: "The expense tracking alone has saved us thousands of shillings. I recommend Invoicemonk to every business owner I know in Nairobi.",
+        highlight: "saved us thousands of shillings",
+        name: "Hassan Omar",
+        title: "CEO",
+        company: "Coastal Digital",
+        location: "Mombasa, Kenya",
+      },
+    ],
+    faqs: [
+      {
+        question: "What payment methods are supported in Kenya?",
+        answer: "Invoicemonk supports M-Pesa, Paystack, bank transfer, and debit cards for Kenyan businesses. Your clients can pay directly from the invoice using their preferred method, including mobile money. Funds settle quickly to your Kenyan bank account.",
+      },
+      {
+        question: "Is Invoicemonk compliant with KRA requirements?",
+        answer: "Yes. Invoicemonk generates KRA-compliant invoices with proper VAT calculations at 16%. All invoices include the required fields for Kenyan tax reporting, including PIN details and ETR-compliant formatting.",
+      },
+      {
+        question: "How much does Invoicemonk cost in Kenya?",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at KSh500/month (Starter), KSh1,000/month (Professional), and KSh2,000/month (Business). Annual billing gives you 2 months free.",
+      },
+      {
+        question: "Does Invoicemonk handle VAT for Kenyan businesses?",
+        answer: "Absolutely. Invoicemonk automatically calculates and applies the 16% VAT rate on your invoices. You can also track VAT collected and paid for easy monthly filing with KRA through iTax.",
+      },
+    ],
+    blog: {
+      ctaHeadline: "Ready to streamline your invoicing?",
+      ctaSubtext: "Join thousands of Kenyan businesses using Invoicemonk with M-Pesa and mobile payments.",
+      ctaButtonText: "Start Invoicing with M-Pesa",
+    },
+    socialProofHeadline: "Loved by Kenyan businesses",
   },
   pricing: {
     free: 0,

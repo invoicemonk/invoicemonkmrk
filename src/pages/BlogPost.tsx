@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
 import { useEffect, useMemo } from 'react';
+import { useLocale } from '@/hooks/useLocale';
 import { Layout } from '@/components/layout/Layout';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -27,6 +28,7 @@ import NotFound from './NotFound';
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
+  const { locale } = useLocale();
   const post = slug ? getBlogPostBySlug(slug) : undefined;
 
   // Enhance links in post content (must be before early return)
@@ -60,14 +62,14 @@ const BlogPost = () => {
   // Find the hub post for this cluster (the pillar content page)
   const hubPost = clusterPosts.find(p => p.pillarContent);
   
-  const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
+  const formattedDate = new Date(post.date).toLocaleDateString(locale.code, {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
   });
 
   const formattedModifiedDate = post.dateModified 
-    ? new Date(post.dateModified).toLocaleDateString('en-US', {
+    ? new Date(post.dateModified).toLocaleDateString(locale.code, {
         year: 'numeric',
         month: 'long',
         day: 'numeric'
@@ -320,14 +322,14 @@ const BlogPost = () => {
           {/* CTA Section */}
           <div className="max-w-3xl mx-auto mt-16 p-8 bg-primary/5 rounded-2xl text-center">
             <h2 className="text-heading-md font-bold text-foreground mb-3">
-              Ready to streamline your invoicing?
+              {locale.content.blog.ctaHeadline}
             </h2>
             <p className="text-muted-foreground mb-6">
-              Join thousands of businesses using Invoicemonk to manage their finances.
+              {locale.content.blog.ctaSubtext}
             </p>
             <Button asChild size="lg">
               <Link to={post.targetProduct || pillar?.targetProduct || "/invoicing"}>
-                {pillar?.title === 'Freelancer Success' ? 'Start for Free' : 'Start Your Free Trial'}
+                {locale.content.blog.ctaButtonText}
               </Link>
             </Button>
           </div>

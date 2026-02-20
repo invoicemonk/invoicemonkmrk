@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Calendar, Clock } from 'lucide-react';
 import type { BlogPost } from '@/data/blogPosts';
+import { useLocale } from '@/hooks/useLocale';
 
 interface BlogPostCardProps {
   post: BlogPost;
@@ -11,7 +12,8 @@ interface BlogPostCardProps {
 }
 
 export function BlogPostCard({ post, featured = false }: BlogPostCardProps) {
-  const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
+  const { locale } = useLocale();
+  const formattedDate = new Date(post.date).toLocaleDateString(locale.code, {
     year: 'numeric',
     month: 'long',
     day: 'numeric'

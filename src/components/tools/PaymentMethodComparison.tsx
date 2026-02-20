@@ -1,4 +1,4 @@
-import { CalculationResult } from '@/config/paymentFeeModels';
+import { CalculationResult, currencies } from '@/config/paymentFeeModels';
 import { Badge } from '@/components/ui/badge';
 
 interface PaymentMethodComparisonProps {
@@ -6,13 +6,14 @@ interface PaymentMethodComparisonProps {
   receiveCurrency: string;
 }
 
-function formatCurrency(amount: number, currency: string) {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency,
+function formatCurrency(amount: number, currencyCode: string) {
+  const cur = currencies.find(c => c.code === currencyCode);
+  const symbol = cur?.symbol ?? currencyCode;
+  const formatted = amount.toLocaleString('en-US', {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
-  }).format(amount);
+  });
+  return `${symbol}${formatted}`;
 }
 
 export function PaymentMethodComparison({ results, receiveCurrency }: PaymentMethodComparisonProps) {
@@ -20,7 +21,7 @@ export function PaymentMethodComparison({ results, receiveCurrency }: PaymentMet
 
   return (
     <div className="overflow-x-auto">
-      <table className="w-full text-left border-collapse">
+      <table className="w-full text-left border-collapse min-w-[600px]">
         <thead>
           <tr className="border-b border-border">
             <th className="py-3 px-4 text-sm font-semibold text-foreground">Method</th>
@@ -51,7 +52,7 @@ export function PaymentMethodComparison({ results, receiveCurrency }: PaymentMet
                   ))}
                 </div>
               </td>
-              <td className="py-4 px-4 text-sm text-muted-foreground">
+              <td className="py-4 px-4 text-sm text-muted-foreground whitespace-nowrap">
                 {formatCurrency(result.estimatedFees, result.sendCurrency)}
               </td>
               <td className="py-4 px-4 text-sm text-muted-foreground hidden sm:table-cell">
@@ -62,7 +63,7 @@ export function PaymentMethodComparison({ results, receiveCurrency }: PaymentMet
               <td className="py-4 px-4 text-sm text-muted-foreground hidden md:table-cell">
                 {result.method.processingTime}
               </td>
-              <td className="py-4 px-4 font-semibold text-foreground">
+              <td className="py-4 px-4 font-semibold text-foreground whitespace-nowrap">
                 {formatCurrency(result.estimatedNetReceived, receiveCurrency)}
               </td>
               <td className="py-4 px-4 text-sm text-muted-foreground hidden lg:table-cell">

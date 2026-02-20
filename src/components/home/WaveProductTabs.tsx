@@ -215,7 +215,7 @@ export function WaveProductTabs() {
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link to={activeProduct.link}>Learn More</Link>
+                        <Link to={activeProduct.link}>Learn more about {activeProduct.name}</Link>
                       </Button>
                     </>
                   ) : (
@@ -227,7 +227,7 @@ export function WaveProductTabs() {
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link to={activeProduct.link}>Learn More</Link>
+                        <Link to={activeProduct.link}>Learn more about {activeProduct.name}</Link>
                       </Button>
                     </>
                   )}

@@ -3,6 +3,7 @@ export interface FAQItem {
   answer: string;
 }
 
+/** Generic FAQs shared across all countries */
 export const homepageFAQs: FAQItem[] = [
   {
     question: 'What is Invoicemonk?',
@@ -20,19 +21,9 @@ export const homepageFAQs: FAQItem[] = [
       'Creating invoices with Invoicemonk is simple. Choose from our professional templates, add your business details and logo, enter the line items, and send directly to your clients via email. You can track when invoices are viewed and paid, and set up automatic payment reminders.',
   },
   {
-    question: 'What payment methods are supported?',
-    answer:
-      'Invoicemonk supports multiple payment methods including credit/debit cards, bank transfers, and popular digital wallets. Your clients can pay directly from the invoice with just a few clicks, and funds are deposited to your account quickly.',
-  },
-  {
     question: 'How secure is my data?',
     answer:
       'Security is our top priority. We use bank-level encryption (256-bit SSL) to protect all your data. Our servers are hosted in secure, certified data centers, and we perform regular security audits. Your financial information is never shared with third parties.',
-  },
-  {
-    question: 'Can I track expenses with Invoicemonk?',
-    answer:
-      'Absolutely! Invoicemonk makes expense tracking effortless. Snap photos of receipts, categorize expenses automatically, and generate reports for tax time. Connect your bank accounts to import transactions automatically and stay on top of your spending.',
   },
   {
     question: 'Does Invoicemonk support multiple currencies?',

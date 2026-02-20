@@ -63,7 +63,7 @@ export function PillarCard({ pillar, postCount, className }: PillarCardProps) {
           </p>
 
           <div className="flex items-center text-sm font-medium text-primary opacity-0 translate-y-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-            <span>Explore topic</span>
+            <span>Explore {pillar.title}</span>
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </div>
         </CardContent>

@@ -17,10 +17,15 @@ import { FAQSchema } from '@/components/seo/FAQSchema';
 import { useLocale } from '@/hooks/useLocale';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { homepageFAQs } from '@/data/homepageFAQs';
+import { useMemo } from 'react';
 
 const Index = () => {
   const { locale } = useLocale();
   const seo = pageSEO['/'];
+
+  const allFaqs = useMemo(() => {
+    return [...homepageFAQs, ...locale.content.faqs];
+  }, [locale.content.faqs]);
 
   return (
     <>
@@ -31,7 +36,7 @@ const Index = () => {
       />
       <WebSiteSchema />
       <SoftwareApplicationSchema />
-      <FAQSchema items={homepageFAQs} />
+      <FAQSchema items={allFaqs} />
       <Layout>
         <HeroSection />
         <GlobalComplianceSection />

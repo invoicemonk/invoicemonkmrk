@@ -2,33 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
-
-const testimonials = [
-  {
-    quote: "Invoicemonk cut our invoicing time by 70%. The compliance features give me peace of mind, and my clients love the professional invoices.",
-    highlight: "cut our invoicing time by 70%",
-    name: 'Sarah Chen',
-    title: 'Founder',
-    company: 'PixelCraft Studio',
-    location: 'Singapore',
-  },
-  {
-    quote: "Finally, a finance tool that's both powerful and simple. Our team was up and running in a day, and the audit trails are invaluable.",
-    highlight: "up and running in a day",
-    name: 'Marcus Weber',
-    title: 'CFO',
-    company: 'Alpine Consulting',
-    location: 'Germany',
-  },
-  {
-    quote: "The expense tracking alone has saved us thousands. I recommend Invoicemonk to every business owner I know.",
-    highlight: "saved us thousands",
-    name: 'Priya Sharma',
-    title: 'CEO',
-    company: 'Bloom Digital',
-    location: 'United Kingdom',
-  },
-];
+import { useLocale } from '@/hooks/useLocale';
 
 // Helper to extract initials from name
 const getInitials = (name: string) => {
@@ -41,6 +15,8 @@ const getInitials = (name: string) => {
 };
 
 export function WaveTestimonials() {
+  const { locale } = useLocale();
+  const testimonials = locale.content.testimonials;
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextTestimonial = () => {
@@ -74,7 +50,7 @@ export function WaveTestimonials() {
             Testimonials
           </p>
           <h2 className="text-h2 text-heading">
-            Loved by <span className="font-serif italic">businesses</span> worldwide
+            Loved by <span className="font-serif italic">{locale.content.seo.targetAudience} businesses</span>
           </h2>
         </AnimatedSection>
 

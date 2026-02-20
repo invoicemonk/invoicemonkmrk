@@ -28,12 +28,36 @@ export interface LocaleSEO {
   hreflangCode: string;       // "en-NG", "en-GB", "en-US", etc.
 }
 
+export interface LocaleTestimonial {
+  quote: string;
+  highlight: string;
+  name: string;
+  title: string;
+  company: string;
+  location: string;
+}
+
+export interface LocaleFAQ {
+  question: string;
+  answer: string;
+}
+
+export interface LocaleBlogContent {
+  ctaHeadline: string;
+  ctaSubtext: string;
+  ctaButtonText: string;
+}
+
 export interface LocaleContent {
   hero: LocaleHeroContent;
   compliance: LocaleComplianceContent;
   socialProof: string;
   paymentGateway: string;
   seo: LocaleSEO;
+  testimonials: LocaleTestimonial[];
+  faqs: LocaleFAQ[];
+  blog: LocaleBlogContent;
+  socialProofHeadline: string;
 }
 
 export interface LocalePricing {

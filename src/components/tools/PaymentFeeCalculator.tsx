@@ -17,13 +17,14 @@ interface PaymentFeeCalculatorProps {
   onCalculate?: (results: CalculationResult[]) => void;
 }
 
-function formatCurrency(amount: number, currency: string) {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency,
+function formatCurrency(amount: number, currencyCode: string) {
+  const cur = currencies.find(c => c.code === currencyCode);
+  const symbol = cur?.symbol ?? currencyCode;
+  const formatted = amount.toLocaleString('en-US', {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
-  }).format(amount);
+  });
+  return `${symbol}${formatted}`;
 }
 
 export function PaymentFeeCalculator({
@@ -176,15 +177,15 @@ export function PaymentFeeCalculator({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {results.map((result) => (
               <Card key={result.method.id} className={`border ${result.badges.includes('Cheapest') ? 'border-primary ring-1 ring-primary/20' : 'border-border'}`}>
-                <CardContent className="p-5 space-y-3">
+                <CardContent className="p-5 space-y-3 min-w-0 overflow-hidden">
                   <div className="flex items-center justify-between">
                     <span className="font-semibold text-foreground">{result.method.name}</span>
                     {result.badges.includes('Cheapest') && (
                       <span className="text-[10px] font-bold uppercase tracking-wider text-primary">Best Value</span>
                     )}
                   </div>
-                  <div>
-                    <p className="text-2xl font-bold text-foreground">
+                  <div className="min-w-0">
+                    <p className="text-lg sm:text-2xl font-bold text-foreground truncate" title={formatCurrency(result.estimatedNetReceived, receiveCurrency)}>
                       {formatCurrency(result.estimatedNetReceived, receiveCurrency)}
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">Estimated net received</p>

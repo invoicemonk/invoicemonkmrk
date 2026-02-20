@@ -6,10 +6,18 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { homepageFAQs } from '@/data/homepageFAQs';
+import { useLocale } from '@/hooks/useLocale';
+import { useMemo } from 'react';
 
 export function FAQSection() {
-  const leftFaqs = homepageFAQs.slice(0, 4);
-  const rightFaqs = homepageFAQs.slice(4);
+  const { locale } = useLocale();
+
+  const allFaqs = useMemo(() => {
+    return [...homepageFAQs, ...locale.content.faqs];
+  }, [locale.content.faqs]);
+
+  const leftFaqs = allFaqs.slice(0, Math.ceil(allFaqs.length / 2));
+  const rightFaqs = allFaqs.slice(Math.ceil(allFaqs.length / 2));
 
   return (
     <section className="py-20 lg:py-32 bg-background">

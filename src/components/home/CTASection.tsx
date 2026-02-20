@@ -30,7 +30,7 @@ export function CTASection() {
                   className="rounded-full px-8 h-12 text-body bg-white text-primary hover:bg-white/90 shadow-soft-lg hover:shadow-soft-xl transition-all duration-300 hover:-translate-y-0.5 group"
                 >
                   <Link to="/signup">
-                    Get Started Free
+                    Start Invoicing Free
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                   </Link>
                 </Button>
@@ -40,7 +40,7 @@ export function CTASection() {
                   variant="outline"
                   className="rounded-full px-8 h-12 text-body border-white/30 text-primary-foreground hover:bg-white/10 transition-all duration-300"
                 >
-                  <Link to="/pricing">View Pricing</Link>
+                  <Link to="/pricing">View Invoicemonk Pricing Plans</Link>
                 </Button>
               </div>
               <p className="text-body-sm text-primary-foreground/60 mt-6">

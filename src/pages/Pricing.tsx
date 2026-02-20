@@ -124,13 +124,13 @@ const Pricing = () => {
                       <p className="text-body-sm text-muted-foreground">{plan.description}</p>
                     </div>
                     
-                    <div className="text-center mb-8">
-                      <span className="text-display text-heading">
+                    <div className="text-center mb-8 overflow-hidden">
+                      <span className="text-2xl sm:text-3xl lg:text-4xl text-heading tabular-nums whitespace-nowrap">
                         {formatCurrency(price.monthly)}
                       </span>
                       <span className="text-body text-muted-foreground">/month</span>
                       {isAnnual && price.total > 0 && (
-                        <p className="text-body-sm text-muted-foreground mt-1">
+                        <p className="text-body-sm text-muted-foreground mt-1 truncate">
                           {formatCurrency(price.total)}/year
                         </p>
                       )}
