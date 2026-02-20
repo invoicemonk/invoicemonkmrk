@@ -10,7 +10,7 @@ import {
 } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Can I create progress billing invoices?', answer: 'Yes. Invoicemonk supports progress billing, milestone invoicing, and deposit requests. Bill clients at project stages — for example, 30% upfront, 40% at rough-in, and 30% at completion. Each invoice references the specific phase of work completed.' },

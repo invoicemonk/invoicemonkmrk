@@ -1,9 +1,10 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { useEffect, useMemo } from 'react';
 import { Layout } from '@/components/layout/Layout';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, Calendar, Clock } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, ArrowRight } from 'lucide-react';
 import { 
   getBlogPostBySlug, 
   getRelatedPostsEnhanced, 
@@ -293,6 +294,28 @@ const BlogPost = () => {
           <div className="max-w-3xl mx-auto mt-12">
             <AuthorCard author={post.author} variant="full" showCredentials />
           </div>
+
+          {/* Related Tools — internal linking boost */}
+          {post.relatedTools && post.relatedTools.length > 0 && (
+            <div className="max-w-3xl mx-auto mt-12">
+              <h2 className="text-heading-sm font-bold text-foreground mb-4">Recommended Tools</h2>
+              <div className="grid sm:grid-cols-2 gap-3">
+                {post.relatedTools.map((tool) => (
+                  <Link
+                    key={tool.url}
+                    to={tool.url}
+                    className="group flex items-center justify-between gap-3 p-4 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-primary/5 transition-colors"
+                  >
+                    <div>
+                      <span className="font-medium text-foreground group-hover:text-primary transition-colors">{tool.label}</span>
+                      <p className="text-sm text-muted-foreground mt-0.5">{tool.description}</p>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary flex-shrink-0 transition-colors" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* CTA Section */}
           <div className="max-w-3xl mx-auto mt-16 p-8 bg-primary/5 rounded-2xl text-center">

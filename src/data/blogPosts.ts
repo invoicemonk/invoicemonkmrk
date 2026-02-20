@@ -34,6 +34,9 @@ export interface BlogPost {
   
   // Entity mentions for semantic SEO schema
   entityMentions?: Array<{ name: string; type?: string; url?: string; sameAs?: string }>;
+  
+  // Internal linking boost — related tools/pages to surface
+  relatedTools?: Array<{ label: string; url: string; description: string }>;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -424,13 +427,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'small-business-accounting-guide',
-    title: 'Small Business Accounting Basics: A Simple Guide for New Entrepreneurs (2026)',
-    excerpt: 'Master small business accounting in 7 simple steps. This free guide covers chart of accounts, bookkeeping basics, cash vs. accrual methods, and tax-ready financial reports. Updated for 2026—no accounting degree required.',
+    title: 'Small Business Accounting Basics: The Complete Guide for Entrepreneurs (2026)',
+    excerpt: 'Master small business accounting in 7 simple steps. Chart of accounts, bookkeeping basics, cash vs. accrual methods, financial statements, and tax-ready reports. The most comprehensive free accounting guide for small business owners, updated February 2026.',
     category: 'Small Business',
-    tags: ['accounting', 'bookkeeping', 'financial statements', 'small business', 'tax preparation', 'simple accounting', 'chart of accounts', 'accounting for entrepreneurs'],
+    tags: ['accounting', 'bookkeeping', 'financial statements', 'small business', 'tax preparation', 'simple accounting', 'chart of accounts', 'accounting for entrepreneurs', 'small business accounting 2026', 'accounting basics'],
     author: defaultAuthor,
     date: '2026-01-31',
-    dateModified: '2026-02-01',
+    dateModified: '2026-02-19',
     readTime: '25 min read',
     featuredImage: '/blog/small-business-accounting-basics.jpg',
     featuredImageAlt: 'Small business accounting basics guide for new entrepreneurs',
@@ -439,6 +442,11 @@ export const blogPosts: BlogPost[] = [
     targetProduct: '/accounting',
     semanticKeywords: ['simple accounting for small business', 'accounting for small business owners', 'basic accounting for small business', 'how to do accounting for small business', 'small business accounting basics', 'bookkeeping basics', 'financial statements', 'accounting for small businesses', 'accounting for entrepreneurs', 'small business accounting guide'],
     priority: 'P1',
+    relatedTools: [
+      { label: 'Invoicing Software', url: '/invoicing', description: 'Create professional invoices in minutes' },
+      { label: 'Expense Tracking', url: '/expenses', description: 'Track & categorize business expenses' },
+      { label: 'Accounting Software', url: '/accounting', description: 'Simple accounting for small business' },
+    ],
     content: `
       <p>Accounting might seem intimidating, but it's simply the language of business. Whether you're a new entrepreneur starting your first venture or a small business owner looking to take control of your finances, understanding accounting fundamentals is essential. You don't need to become a CPA, but you do need to understand how money flows through your business and what the numbers are telling you.</p>
       <p>This comprehensive guide will teach you everything you need to know about small business accounting. By the end, you'll understand the core accounting concepts that affect your daily decisions and long-term success.</p>
@@ -2030,18 +2038,22 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'the-10-best-personal-finance-blogs',
-    title: 'The 15 Best Personal Finance Blogs (2026 Edition)',
-    excerpt: 'Discover the top 15 personal finance blogs for 2026. Updated with new voices in financial education, wealth building strategies, and money management tips for every stage of life.',
+    title: 'The 15 Best Personal Finance Blogs in 2026 | Top Picks & New Voices',
+    excerpt: 'What are the best personal finance blogs in 2026? Our updated list of the top 15 personal finance blogs — from FIRE movement classics to new voices in financial independence, budgeting, and wealth building. Updated February 2026.',
     category: 'Finance',
-    tags: ['personal finance', 'financial education', 'money management', 'wealth building', 'financial blogs 2026'],
+    tags: ['personal finance', 'financial education', 'money management', 'wealth building', 'best personal finance blogs 2026', 'top personal finance blogs 2026'],
     author: defaultAuthor,
     date: '2023-11-05',
-    dateModified: '2026-02-01',
+    dateModified: '2026-02-19',
     readTime: '12 min read',
     featuredImage: '/blog/personal-finance-blogs.jpg',
     featuredImageAlt: 'Top personal finance blogs for financial education in 2026',
     clusterType: 'outer',
     semanticKeywords: ['best personal finance blogs 2026', 'financial education blogs', 'money management resources', 'wealth building tips', 'FIRE movement blogs', 'budgeting blogs'],
+    relatedTools: [
+      { label: 'Expense Tracking', url: '/expenses', description: 'Track your personal & business spending' },
+      { label: 'Fee Calculator', url: '/international-payment-fee-calculator', description: 'Compare international payment fees' },
+    ],
     content: `
       <p>Finding reliable personal finance advice can transform your relationship with money. Whether you're just starting your financial journey or optimizing an established portfolio, learning from experienced voices accelerates your progress.</p>
       <p>We've updated our list for 2026 to include 15 of the best personal finance blogs—a mix of established authorities and emerging voices covering everything from basic budgeting to achieving financial independence.</p>
@@ -3858,12 +3870,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'recurring-invoices-automating-billing',
-    title: 'How to Set Up Recurring Invoices: Automate Billing for Retainers and Subscriptions',
-    excerpt: 'Step-by-step guide to automating recurring invoices. Best practices for retainer billing, subscription clients, and monthly contracts.',
+    title: 'How to Set Up Recurring Invoices in 2026: Automate Billing for Retainers and Subscriptions',
+    excerpt: 'Step-by-step guide to automating recurring invoices in 2026. Best practices for retainer billing, subscription clients, and monthly contracts — updated February 2026.',
     category: 'Invoicing and Billing Tips',
-    tags: ['invoicing', 'recurring invoices', 'automation', 'subscriptions', 'retainers'],
+    tags: ['invoicing', 'recurring invoices', 'automation', 'subscriptions', 'retainers', 'recurring billing 2026'],
     author: defaultAuthor,
     date: '2026-01-27',
+    dateModified: '2026-02-19',
     readTime: '7 min read',
     featuredImage: '/blog/recurring-invoices.jpg',
     featuredImageAlt: 'Automated recurring invoice billing workflow',
@@ -3872,6 +3885,10 @@ export const blogPosts: BlogPost[] = [
     targetProduct: '/invoicing',
     semanticKeywords: ['recurring invoices', 'automated billing', 'subscription billing'],
     priority: 'P2',
+    relatedTools: [
+      { label: 'Recurring Billing', url: '/use-cases/recurring-billing', description: 'Automate your billing cycle' },
+      { label: 'Invoicing Software', url: '/invoicing', description: 'Create & send professional invoices' },
+    ],
     content: `
       <p>If you have clients who pay you the same amount on a regular schedule, manually creating invoices each month is a waste of your time. Recurring invoices automate this process, ensuring consistent billing without the administrative headache. Whether you're a consultant with monthly retainers, a service provider with maintenance contracts, or a SaaS business with subscription clients, recurring invoices can transform your billing workflow.</p>
 
@@ -4081,12 +4098,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'credit-notes-and-invoice-corrections',
-    title: 'Credit Notes: How and When to Use Them (With Examples)',
-    excerpt: 'What is a credit note? When should you issue one instead of a refund? Step-by-step guide with examples for small businesses.',
+    title: 'Credit Notes and Invoice Corrections: How and When to Use Them (2026 Guide)',
+    excerpt: 'What is a credit note? When should you issue one instead of a refund? Step-by-step guide with examples — covering credit note vs void invoice, tax implications, and best practices for 2026.',
     category: 'Invoicing and Billing Tips',
-    tags: ['invoicing', 'credit notes', 'corrections', 'compliance'],
+    tags: ['invoicing', 'credit notes', 'corrections', 'compliance', 'credit note guide 2026', 'invoice corrections'],
     author: defaultAuthor,
     date: '2026-01-25',
+    dateModified: '2026-02-19',
     readTime: '6 min read',
     featuredImage: '/blog/credit-notes-corrections.jpg',
     featuredImageAlt: 'Credit note stamp on invoice for billing corrections',
@@ -4095,6 +4113,10 @@ export const blogPosts: BlogPost[] = [
     targetProduct: '/invoicing',
     semanticKeywords: ['credit note', 'invoice correction', 'billing adjustment'],
     priority: 'P3',
+    relatedTools: [
+      { label: 'Invoicing Software', url: '/invoicing', description: 'Issue invoices & credit notes easily' },
+      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create invoices for free' },
+    ],
     content: `
       <p>Billing errors happen to every business eventually. A calculation mistake, a returned product, or an agreed-upon discount applied after the original invoice was sent—these situations require corrections. But you can't simply delete an invoice and pretend it never existed. That creates accounting chaos and potential tax compliance issues.</p>
       <p>This guide explains how to properly correct billing errors using credit notes and invoice corrections. You'll learn when to use each method, what information to include, and how to maintain audit-ready records throughout the process.</p>
@@ -8641,13 +8663,13 @@ Thank you for your business!
   },
   {
     slug: 'international-payment-fees-explained',
-    title: 'International Payment Fees Explained: How to Reduce Fees on Invoice Payments (2026)',
-    excerpt: 'Compare international payment fees across Wise, PayPal, SWIFT, and card processors. Learn how to reduce fees on cross-border invoice payments.',
+    title: 'How International Business Payment Fees Compare: Reduce Fees on Invoice Payments (2026)',
+    excerpt: 'How do international business payment fees compare? Learn how to reduce fees when settling international invoice payments — Wise vs PayPal vs SWIFT vs cards, updated February 2026.',
     category: 'Payments and Cash Flow',
-    tags: ['international payments', 'cross-border payments', 'exchange rates', 'wire transfer fees', 'payment fees', 'global payments'],
+    tags: ['international payments', 'cross-border payments', 'exchange rates', 'wire transfer fees', 'payment fees', 'global payments', 'international business payments', 'how to reduce fees'],
     author: defaultAuthor,
     date: '2025-07-18',
-    dateModified: '2026-02-04',
+    dateModified: '2026-02-19',
     readTime: '10 min read',
     featuredImage: '/blog/international-fees.jpg',
     featuredImageAlt: 'International payment fees breakdown with currency symbols',
@@ -8655,6 +8677,11 @@ Thank you for your business!
     targetProduct: '/payments',
     semanticKeywords: ['international payment fees', 'cross-border payments', 'foreign exchange fees', 'wire transfer costs', 'international invoicing', 'currency conversion'],
     priority: 'P2',
+    relatedTools: [
+      { label: 'Fee Calculator', url: '/international-payment-fee-calculator', description: 'Compare fees across Wise, PayPal, SWIFT & cards' },
+      { label: 'PayPal vs Wise', url: '/paypal-vs-wise-fees', description: 'Side-by-side fee comparison' },
+      { label: 'Cheapest Methods', url: '/cheapest-way-to-receive-international-payments', description: 'Ranked by total cost' },
+    ],
     content: `
       <p>Working with international clients is exciting—until you see how much you lose in payment fees. Between exchange rate markups, wire transfer charges, and intermediary bank fees, <strong>international payments can cost 3–7% of the invoice amount</strong>.</p>
       <p>This guide breaks down every fee you might encounter and shares practical strategies to keep more of your hard-earned money.</p>

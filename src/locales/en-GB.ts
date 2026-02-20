@@ -45,4 +45,7 @@ export const enGB: LocaleConfig = {
     annualSavingsText: "Save 20%",
     starterAvailable: false,
   },
+  urlPrefix: "uk",
+  dateFormat: "DD/MM/YYYY",
+  taxLabels: { primary: "VAT", rate: "20%" },
 };

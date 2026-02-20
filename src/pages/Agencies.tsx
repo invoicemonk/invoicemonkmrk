@@ -6,7 +6,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingInvoiceCard, FloatingChartCard, FloatingIcon } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Can Invoicemonk handle retainer billing for agencies?', answer: 'Yes. Set up recurring invoices for retainer clients with automatic scheduling and customisable amounts. Invoicemonk generates and sends the invoice on your chosen date each month, so you never miss a billing cycle — even during your busiest campaign launches.' },

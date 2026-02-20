@@ -45,4 +45,7 @@ export const enCA: LocaleConfig = {
     annualSavingsText: "Save 20%",
     starterAvailable: false,
   },
+  urlPrefix: "ca",
+  dateFormat: "DD/MM/YYYY",
+  taxLabels: { primary: "GST/HST", rate: "5-15%" },
 };

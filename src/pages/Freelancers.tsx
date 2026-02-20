@@ -12,7 +12,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Is Invoicemonk free for freelancers?', answer: 'Yes! The free tier includes 5 invoices and 5 receipts per month with no credit card required. As your freelance business grows and you take on more clients, you can upgrade to a paid plan for unlimited invoicing and advanced features like recurring billing and detailed reports.' },
@@ -114,8 +114,8 @@ const Freelancers = () => {
   return (
     <Layout>
       <SEOHead
-        title={seo?.getTitle(locale) || 'Invoicing for Freelancers | Invoicemonk'}
-        description={seo?.getDescription(locale) || 'Professional invoicing for freelancers. Get paid faster and stay compliant.'}
+        title="Freelance Invoicing Software | Get Paid Faster | Free for Freelancers"
+        description="The best freelance invoicing software in 2026. Create professional invoices, automate payment reminders, and track income — free to start, no credit card required."
         canonical="https://invoicemonk.com/freelancers"
       />
       <FAQSchema items={faqs} />

@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle, RefreshCw, Clock, Shield, BarChart3, Bell, Set
 import { PageHero } from '@/components/shared/PageHero';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'How does recurring billing work in Invoicemonk?', answer: 'Set a schedule (weekly, monthly, quarterly, or custom) and Invoicemonk automatically generates, numbers, and sends invoices to your clients on time. Each invoice is created with the correct line items, tax rates, and payment terms you defined when setting up the schedule — no manual intervention required.' },

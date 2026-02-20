@@ -6,7 +6,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingChartCard, FloatingInvoiceCard, FloatingIcon } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Can Invoicemonk handle hourly billing for lawyers?', answer: 'Yes. Track billable hours per client and matter, then generate detailed invoices showing time entries, rates, and descriptions. Each line item can reflect a different rate — useful for partners, associates, and paralegals billing at different levels.' },

@@ -6,7 +6,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingInvoiceCard, FloatingPaymentBadge, FloatingIcon } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Can I invoice for different creative services on one invoice?', answer: 'Yes. Add multiple line items for design, illustration, copywriting, video editing, or any creative service on a single invoice. Each line item can have its own rate, quantity, and description — so clients see exactly what they\'re paying for.' },

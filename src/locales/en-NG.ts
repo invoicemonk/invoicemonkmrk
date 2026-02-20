@@ -46,4 +46,7 @@ export const enNG: LocaleConfig = {
     annualSavingsText: "2 months free",
     starterAvailable: true,
   },
+  urlPrefix: "ng",
+  dateFormat: "DD/MM/YYYY",
+  taxLabels: { primary: "VAT", rate: "7.5%" },
 };

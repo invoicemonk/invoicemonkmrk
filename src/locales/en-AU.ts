@@ -45,4 +45,7 @@ export const enAU: LocaleConfig = {
     annualSavingsText: "Save 20%",
     starterAvailable: false,
   },
+  urlPrefix: "au",
+  dateFormat: "DD/MM/YYYY",
+  taxLabels: { primary: "GST", rate: "10%" },
 };

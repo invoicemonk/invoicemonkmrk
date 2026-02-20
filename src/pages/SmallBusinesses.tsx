@@ -12,7 +12,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Is Invoicemonk suitable for a business with multiple team members?', answer: 'Yes. On Professional and Business plans, invite team members with role-based access. Owners and admins manage invoicing and settings, while members can create invoices and manage clients. Everyone works from the same dashboard.' },

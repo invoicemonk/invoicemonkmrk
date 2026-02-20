@@ -2,7 +2,7 @@ import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -29,10 +29,10 @@ export default function CheapestInternationalPayments() {
   return (
     <Layout>
       <SEOHead
-        title="Cheapest Way to Receive International Payments in 2026 | Fee Comparison"
-        description="Compare the cheapest international payment methods for invoices. Wise vs PayPal vs SWIFT vs cards — ranked by total cost with a free fee calculator."
+        title="Cheapest International Payment Methods for Invoices (2026) | Ranked by Total Cost"
+        description="Which is the cheapest way to settle international invoice payments? Wise vs PayPal vs SWIFT vs card — ranked by total cost with a real-time fee calculator. Updated February 2026."
         ogType="website"
-        canonical="/cheapest-way-to-receive-international-payments"
+        canonical="https://invoicemonk.com/cheapest-way-to-receive-international-payments"
       />
       <FAQSchema items={faqs} />
 

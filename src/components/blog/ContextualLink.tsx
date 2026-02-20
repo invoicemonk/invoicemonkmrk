@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { cn } from '@/lib/utils';
 import { ArrowRight, ExternalLink, FileText, ShoppingCart, BookOpen } from 'lucide-react';
 

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import logo from '@/assets/invoicemonk-logo.png';
 
 const footerLinks = {

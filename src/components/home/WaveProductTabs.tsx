@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { FileText, CreditCard, Wallet, Calculator, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';

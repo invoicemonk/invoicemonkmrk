@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle, Globe, DollarSign, Shield, BarChart3, RefreshC
 import { PageHero } from '@/components/shared/PageHero';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'How many currencies does Invoicemonk support?', answer: 'Invoicemonk supports all major world currencies including USD, EUR, GBP, NGN, CAD, AUD, and many more. You can set up currency accounts and invoice each client in their preferred currency, regardless of where your business is based.' },

@@ -2,7 +2,7 @@ import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { ArrowRight, Check, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -41,10 +41,10 @@ export default function PaypalVsWiseFees() {
   return (
     <Layout>
       <SEOHead
-        title="PayPal vs Wise Fees: Which Is Cheaper for International Transfers? (2026)"
-        description="Is Wise cheaper than PayPal? Side-by-side fee comparison for international transfers. See real cost breakdowns for $1K, $5K, and $10K transfers."
+        title="Wise vs PayPal Fees for International Transfers (2026) — Which Saves You More?"
+        description="Wise vs PayPal fees compared side by side for international invoice payments. Real cost breakdowns for $500, $1K, and $5K transfers. See who wins in 2026."
         ogType="website"
-        canonical="/paypal-vs-wise-fees"
+        canonical="https://invoicemonk.com/paypal-vs-wise-fees"
       />
       <FAQSchema items={faqs} />
 

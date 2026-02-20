@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { FileText, Check, ArrowRight, Send, Clock, Globe, Users, Shield, Repeat, Smartphone, Bell, Zap } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
@@ -130,8 +130,8 @@ const Invoicing = () => {
   return (
     <Layout>
       <SEOHead
-        title="Professional Invoicing Software | Create & Send Invoices | Invoicemonk"
-        description="Create beautiful professional invoices in minutes. Automate payment reminders, maintain audit trails, and get paid faster with Invoicemonk's invoicing software."
+        title="Invoicing Software for Small Business | Free to Start | Invoicemonk"
+        description="The easiest invoicing software for small businesses and freelancers. Create professional invoices in minutes, automate reminders, and get paid faster. Free tier available."
         canonical="https://invoicemonk.com/invoicing"
       />
       <FAQSchema items={invoicingFAQs} />

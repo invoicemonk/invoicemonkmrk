@@ -6,7 +6,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingInvoiceCard, FloatingPaymentBadge, FloatingIcon } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Can I create bulk invoices for wholesale orders?', answer: 'Yes. Create invoices with multiple line items, quantity pricing, and wholesale discounts for B2B orders. Add product codes, descriptions, quantities, and tiered pricing to give wholesale buyers the detailed documentation they need for their purchasing records.' },

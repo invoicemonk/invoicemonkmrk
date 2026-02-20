@@ -10,7 +10,7 @@ import {
 } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Is Invoicemonk suitable for management consulting firms?', answer: 'Yes. Invoicemonk is used by solo consultants and small consulting firms alike. You can manage multiple clients, track retainer billing, and generate professional invoices that meet corporate procurement standards — all from one dashboard.' },

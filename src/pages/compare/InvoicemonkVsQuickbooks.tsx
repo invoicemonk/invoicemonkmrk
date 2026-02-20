@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle } from 'lucide-react';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { ComparisonTable } from '@/components/compare/ComparisonTable';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const features = [
   { name: 'Free tier', invoicemonk: true, competitor: false },

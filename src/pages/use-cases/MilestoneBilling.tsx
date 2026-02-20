@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle, Target, FileText, Shield, TrendingUp, Clock, D
 import { PageHero } from '@/components/shared/PageHero';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'What is milestone billing?', answer: 'Milestone billing splits a project into distinct phases, with payment due at the completion of each phase. For example, a web developer might bill 30% as a deposit, 40% at design approval, and the remaining 30% at launch. This model protects both the service provider and the client by tying payments to tangible deliverables.' },

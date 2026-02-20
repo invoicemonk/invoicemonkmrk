@@ -45,4 +45,7 @@ export const enUS: LocaleConfig = {
     annualSavingsText: "Save 20%",
     starterAvailable: false,
   },
+  urlPrefix: "us",
+  dateFormat: "MM/DD/YYYY",
+  taxLabels: { primary: "Sales Tax" },
 };

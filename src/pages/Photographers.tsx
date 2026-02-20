@@ -6,7 +6,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingInvoiceCard, FloatingPaymentBadge, FloatingIcon } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Can I create milestone-based invoices for photography projects?', answer: 'Yes. Create deposit invoices, progress payments, and final balance invoices for wedding, commercial, or event photography projects. This is especially useful for weddings where you collect a booking deposit months in advance, a second payment before the shoot, and a final balance on delivery of edited images.' },

@@ -2,10 +2,12 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Redirect } from "@/components/Redirect";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { TrailingSlashRedirect } from "@/components/TrailingSlashRedirect";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LocaleProvider } from "@/contexts/LocaleContext";
+import { CountryRedirect } from "@/components/CountryRedirect";
+import { CountryLayout } from "@/components/CountryLayout";
 
 // Pages
 import Index from "./pages/Index";
@@ -21,7 +23,6 @@ import Compliance from "./pages/Compliance";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
-// New pages
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import CookiePolicy from "./pages/CookiePolicy";
@@ -82,7 +83,6 @@ import ReceiveCurrencyInCountry from "./pages/tools/ReceiveCurrencyInCountry";
 
 const queryClient = new QueryClient();
 
-// App component
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <LocaleProvider>
@@ -91,98 +91,111 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <ScrollToTop />
+          <TrailingSlashRedirect />
           <Routes>
-            {/* Main pages */}
-            <Route path="/" element={<Index />} />
-            <Route path="/invoicing" element={<Invoicing />} />
-            <Route path="/expenses" element={<Expenses />} />
-            <Route path="/payments" element={<Payments />} />
-            <Route path="/accounting" element={<Accounting />} />
-            <Route path="/estimates" element={<Estimates />} />
-            <Route path="/receipts" element={<Receipts />} />
-            <Route path="/pricing" element={<Pricing />} />
-            <Route path="/why-invoicemonk" element={<WhyInvoicemonk />} />
-            <Route path="/compliance" element={<Compliance />} />
-            <Route path="/about" element={<About />} />
-            
-            {/* Core pages */}
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/terms-of-service" element={<TermsOfService />} />
-            <Route path="/cookie-policy" element={<CookiePolicy />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/topic/:topicId" element={<BlogTopic />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
-            <Route path="/blog/author/:authorSlug" element={<AuthorPage />} />
-            <Route path="/free-invoice-generator" element={<FreeInvoiceGenerator />} />
-            
-            {/* Audience pages */}
-            <Route path="/freelancers" element={<Freelancers />} />
-            <Route path="/consultants" element={<Consultants />} />
-            <Route path="/contractors" element={<Contractors />} />
-            <Route path="/small-businesses" element={<SmallBusinesses />} />
-            <Route path="/developer" element={<Developer />} />
-            <Route path="/agencies" element={<Agencies />} />
-            <Route path="/photographers" element={<Photographers />} />
-            <Route path="/lawyers" element={<Lawyers />} />
-            <Route path="/accountants" element={<Accountants />} />
-            <Route path="/ecommerce" element={<Ecommerce />} />
-            <Route path="/creatives" element={<Creatives />} />
-            
-            {/* Feature pages */}
-            <Route path="/client-management" element={<ClientManagement />} />
+            {/* Root → detect country & redirect */}
+            <Route path="/" element={<CountryRedirect />} />
 
-            {/* Comparison pages */}
-            <Route path="/compare/invoicemonk-vs-freshbooks" element={<InvoicemonkVsFreshbooks />} />
-            <Route path="/compare/invoicemonk-vs-wave" element={<InvoicemonkVsWave />} />
-            <Route path="/compare/invoicemonk-vs-zoho-invoice" element={<InvoicemonkVsZoho />} />
-            <Route path="/compare/invoicemonk-vs-quickbooks" element={<InvoicemonkVsQuickbooks />} />
-            <Route path="/best-invoicing-software" element={<BestInvoicingSoftware />} />
+            {/* ───── Country-prefixed routes ───── */}
+            <Route path="/:country" element={<CountryLayout />}>
+              <Route index element={<Index />} />
 
-            {/* Use-case pages */}
-            <Route path="/use-cases/recurring-billing" element={<RecurringBilling />} />
-            <Route path="/use-cases/multi-currency-invoicing" element={<MultiCurrencyInvoicing />} />
-            <Route path="/use-cases/milestone-billing" element={<MilestoneBilling />} />
-            <Route path="/use-cases/retainer-billing" element={<RetainerBilling />} />
-            
-            {/* Guide pages */}
-            <Route path="/guides" element={<GuidesIndex />} />
-            <Route path="/guides/invoicing" element={<InvoicingGuide />} />
-            <Route path="/guides/getting-paid" element={<GettingPaidGuide />} />
-            <Route path="/guides/business-finances" element={<BusinessFinancesGuide />} />
-            <Route path="/guides/tax-compliance" element={<TaxComplianceGuide />} />
-            <Route path="/guides/freelancing" element={<FreelancingGuide />} />
-            <Route path="/guides/estimates" element={<EstimatesGuide />} />
-            <Route path="/guides/expenses" element={<ExpensesGuide />} />
-            <Route path="/guides/client-management" element={<ClientManagementGuide />} />
-            
-            {/* Resources */}
-            <Route path="/glossary" element={<Glossary />} />
-            <Route path="/explore" element={<Explore />} />
-            
-            {/* Help Center */}
-            <Route path="/help" element={<HelpCenter />} />
-            <Route path="/help/:slug" element={<HelpArticle />} />
-            
-            {/* Payment Tools */}
-            <Route path="/international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
-            <Route path="/paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
-            <Route path="/cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
-            <Route path="/receive-:currency-in-:country-cost" element={<ReceiveCurrencyInCountry />} />
-            
-            {/* Legacy redirects - maintain old WordPress URLs */}
-            <Route path="/features" element={<Redirect to="/why-invoicemonk" />} />
-            <Route path="/features/accept-payments" element={<Redirect to="/payments" />} />
-            <Route path="/features/estimates" element={<Redirect to="/estimates" />} />
-            <Route path="/features/send-invoices" element={<Redirect to="/invoicing" />} />
-            <Route path="/features/business-expense-tracking-app" element={<Redirect to="/expenses" />} />
-            <Route path="/features/client-management" element={<Redirect to="/client-management" />} />
-            
-            {/* Short URL redirects for footer links */}
-            <Route path="/privacy" element={<Redirect to="/privacy-policy" />} />
-            <Route path="/terms" element={<Redirect to="/terms-of-service" />} />
-            
-            {/* 404 */}
+              {/* Product pages */}
+              <Route path="invoicing" element={<Invoicing />} />
+              <Route path="expenses" element={<Expenses />} />
+              <Route path="payments" element={<Payments />} />
+              <Route path="accounting" element={<Accounting />} />
+              <Route path="estimates" element={<Estimates />} />
+              <Route path="receipts" element={<Receipts />} />
+
+              {/* Company pages */}
+              <Route path="pricing" element={<Pricing />} />
+              <Route path="why-invoicemonk" element={<WhyInvoicemonk />} />
+              <Route path="compliance" element={<Compliance />} />
+              <Route path="about" element={<About />} />
+              <Route path="contact" element={<Contact />} />
+
+              {/* Legal */}
+              <Route path="privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="terms-of-service" element={<TermsOfService />} />
+              <Route path="cookie-policy" element={<CookiePolicy />} />
+
+              {/* Blog */}
+              <Route path="blog" element={<Blog />} />
+              <Route path="blog/topic/:topicId" element={<BlogTopic />} />
+              <Route path="blog/:slug" element={<BlogPost />} />
+              <Route path="blog/author/:authorSlug" element={<AuthorPage />} />
+
+              {/* Tools */}
+              <Route path="free-invoice-generator" element={<FreeInvoiceGenerator />} />
+              <Route path="international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
+              <Route path="paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
+              <Route path="cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
+              <Route path="receive-:currency-in-:destination-cost" element={<ReceiveCurrencyInCountry />} />
+
+              {/* Audience pages */}
+              <Route path="freelancers" element={<Freelancers />} />
+              <Route path="consultants" element={<Consultants />} />
+              <Route path="contractors" element={<Contractors />} />
+              <Route path="small-businesses" element={<SmallBusinesses />} />
+              <Route path="developer" element={<Developer />} />
+              <Route path="agencies" element={<Agencies />} />
+              <Route path="photographers" element={<Photographers />} />
+              <Route path="lawyers" element={<Lawyers />} />
+              <Route path="accountants" element={<Accountants />} />
+              <Route path="ecommerce" element={<Ecommerce />} />
+              <Route path="creatives" element={<Creatives />} />
+
+              {/* Feature pages */}
+              <Route path="client-management" element={<ClientManagement />} />
+
+              {/* Comparison pages */}
+              <Route path="compare/invoicemonk-vs-freshbooks" element={<InvoicemonkVsFreshbooks />} />
+              <Route path="compare/invoicemonk-vs-wave" element={<InvoicemonkVsWave />} />
+              <Route path="compare/invoicemonk-vs-zoho-invoice" element={<InvoicemonkVsZoho />} />
+              <Route path="compare/invoicemonk-vs-quickbooks" element={<InvoicemonkVsQuickbooks />} />
+              <Route path="best-invoicing-software" element={<BestInvoicingSoftware />} />
+
+              {/* Use-case pages */}
+              <Route path="use-cases/recurring-billing" element={<RecurringBilling />} />
+              <Route path="use-cases/multi-currency-invoicing" element={<MultiCurrencyInvoicing />} />
+              <Route path="use-cases/milestone-billing" element={<MilestoneBilling />} />
+              <Route path="use-cases/retainer-billing" element={<RetainerBilling />} />
+
+              {/* Guide pages */}
+              <Route path="guides" element={<GuidesIndex />} />
+              <Route path="guides/invoicing" element={<InvoicingGuide />} />
+              <Route path="guides/getting-paid" element={<GettingPaidGuide />} />
+              <Route path="guides/business-finances" element={<BusinessFinancesGuide />} />
+              <Route path="guides/tax-compliance" element={<TaxComplianceGuide />} />
+              <Route path="guides/freelancing" element={<FreelancingGuide />} />
+              <Route path="guides/estimates" element={<EstimatesGuide />} />
+              <Route path="guides/expenses" element={<ExpensesGuide />} />
+              <Route path="guides/client-management" element={<ClientManagementGuide />} />
+
+              {/* Resources */}
+              <Route path="glossary" element={<Glossary />} />
+              <Route path="explore" element={<Explore />} />
+
+              {/* Help Center */}
+              <Route path="help" element={<HelpCenter />} />
+              <Route path="help/:slug" element={<HelpArticle />} />
+
+              {/* Legacy redirects (within /:country scope) */}
+              <Route path="features" element={<Navigate to="../why-invoicemonk" replace />} />
+              <Route path="features/accept-payments" element={<Navigate to="../payments" replace />} />
+              <Route path="features/estimates" element={<Navigate to="../estimates" replace />} />
+              <Route path="features/send-invoices" element={<Navigate to="../invoicing" replace />} />
+              <Route path="features/business-expense-tracking-app" element={<Navigate to="../expenses" replace />} />
+              <Route path="features/client-management" element={<Navigate to="../client-management" replace />} />
+              <Route path="privacy" element={<Navigate to="../privacy-policy" replace />} />
+              <Route path="terms" element={<Navigate to="../terms-of-service" replace />} />
+
+              {/* 404 within valid country prefix */}
+              <Route path="*" element={<NotFound />} />
+            </Route>
+
+            {/* Catch-all 404 */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

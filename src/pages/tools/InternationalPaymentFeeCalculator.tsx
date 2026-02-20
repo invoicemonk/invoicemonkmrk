@@ -2,7 +2,7 @@ import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -33,10 +33,10 @@ export default function InternationalPaymentFeeCalculator() {
   return (
     <Layout>
       <SEOHead
-        title="International Payment Fee Calculator | Compare Transfer Costs | Invoicemonk"
-        description="Calculate and compare international payment fees across Wise, PayPal, bank transfers, and card payments. Find the cheapest way to receive money from abroad."
+        title="International Payment Fee Calculator 2026 | Compare Wise vs PayPal vs Bank Transfer Fees"
+        description="Compare international payment fees across Wise, PayPal, SWIFT, and card processors. See exactly how much you'll receive after fees — free calculator, updated 2026."
         ogType="website"
-        canonical="/international-payment-fee-calculator"
+        canonical="https://invoicemonk.com/international-payment-fee-calculator"
       />
       <FAQSchema items={faqs} />
 

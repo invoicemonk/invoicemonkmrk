@@ -59,6 +59,9 @@ export interface LocaleConfig {
   content: LocaleContent;
   pricing: LocalePricing;
   pricingContent: LocalePricingContent;
+  urlPrefix: string;
+  dateFormat: string;
+  taxLabels: { primary: string; rate?: string };
 }
 
-export type SupportedCountry = "NG" | "US" | "CA" | "GB" | "AU";
+export type SupportedCountry = "NG" | "US" | "CA" | "GB" | "AU" | "GH" | "KE" | "ZA";

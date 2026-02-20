@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle, Briefcase, RefreshCw, Shield, BarChart3, Clock
 import { PageHero } from '@/components/shared/PageHero';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'What is retainer billing?', answer: 'Retainer billing is a recurring payment model where clients pay a fixed amount — monthly, quarterly, or on a custom schedule — for ongoing services or guaranteed access to your expertise. Unlike project-based billing, retainers create predictable revenue for your business and ensure clients have priority access to your time.' },

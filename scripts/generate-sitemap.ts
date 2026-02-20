@@ -1,17 +1,10 @@
 /**
- * Dynamic Sitemap Generator
- * 
- * Generates sitemap.xml from:
- * - Static routes (from route configuration)
- * - Blog posts (from blogPosts.ts)
- * - Guide pages (from pillars)
- * - Author pages
- * - Blog topic pages (from topicalMap.ts)
- * - Help center articles (from helpGuides.ts)
- * - Receive-currency corridor pages (from paymentFeeModels.ts)
- * 
+ * Multi-country Sitemap Generator with hreflang
+ *
+ * Generates sitemap.xml with all country-prefixed URLs and
+ * xhtml:link hreflang annotations for each variant.
+ *
  * Run: npx tsx scripts/generate-sitemap.ts
- * Or as part of build: npm run generate-sitemap && vite build
  */
 
 import * as fs from 'fs';
@@ -24,258 +17,155 @@ const __dirname = path.dirname(__filename);
 const SITE_URL = 'https://invoicemonk.com';
 const CURRENT_DATE = new Date().toISOString().split('T')[0];
 
-interface SitemapEntry {
-  loc: string;
-  lastmod?: string;
-  changefreq?: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+// Country prefixes and their hreflang codes
+const countries = [
+  { prefix: 'ng', hreflang: 'en-NG' },
+  { prefix: 'us', hreflang: 'en-US' },
+  { prefix: 'ca', hreflang: 'en-CA' },
+  { prefix: 'uk', hreflang: 'en-GB' },
+  { prefix: 'au', hreflang: 'en-AU' },
+  { prefix: 'gh', hreflang: 'en-GH' },
+  { prefix: 'ke', hreflang: 'en-KE' },
+  { prefix: 'za', hreflang: 'en-ZA' },
+];
+
+interface PageEntry {
+  path: string; // relative path without country prefix, e.g. "/pricing"
+  changefreq?: string;
   priority?: number;
 }
 
-// Static pages with their priorities
-const staticPages: SitemapEntry[] = [
-  // Main pages - highest priority
-  { loc: '/', priority: 1.0, changefreq: 'weekly' },
-  { loc: '/invoicing', priority: 0.9, changefreq: 'weekly' },
-  { loc: '/expenses', priority: 0.9, changefreq: 'weekly' },
-  { loc: '/payments', priority: 0.9, changefreq: 'weekly' },
-  { loc: '/accounting', priority: 0.9, changefreq: 'weekly' },
-  { loc: '/estimates', priority: 0.9, changefreq: 'weekly' },
-  { loc: '/receipts', priority: 0.9, changefreq: 'weekly' },
-  
-  // Product & company pages
-  { loc: '/pricing', priority: 0.8, changefreq: 'weekly' },
-  { loc: '/why-invoicemonk', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/compliance', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/about', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/contact', priority: 0.6, changefreq: 'monthly' },
-  
-  // Audience pages
-  { loc: '/freelancers', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/consultants', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/contractors', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/small-businesses', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/agencies', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/photographers', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/lawyers', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/accountants', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/ecommerce', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/creatives', priority: 0.8, changefreq: 'monthly' },
-  
-  // Feature pages
-  { loc: '/client-management', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/free-invoice-generator', priority: 0.8, changefreq: 'monthly' },
-
-  // Comparison pages
-  { loc: '/best-invoicing-software', priority: 0.8, changefreq: 'monthly' },
-  { loc: '/compare/invoicemonk-vs-freshbooks', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/compare/invoicemonk-vs-wave', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/compare/invoicemonk-vs-zoho-invoice', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/compare/invoicemonk-vs-quickbooks', priority: 0.7, changefreq: 'monthly' },
-
-  // Use-case pages
-  { loc: '/use-cases/recurring-billing', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/use-cases/multi-currency-invoicing', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/use-cases/milestone-billing', priority: 0.7, changefreq: 'monthly' },
-  { loc: '/use-cases/retainer-billing', priority: 0.7, changefreq: 'monthly' },
-
-  // Payment tools
-  { loc: '/international-payment-fee-calculator', priority: 0.8, changefreq: 'weekly' },
-  { loc: '/paypal-vs-wise-fees', priority: 0.8, changefreq: 'weekly' },
-  { loc: '/cheapest-way-to-receive-international-payments', priority: 0.8, changefreq: 'weekly' },
-
-  // Blog hub
-  { loc: '/blog', priority: 0.8, changefreq: 'daily' },
-  
-  // Guide index
-  { loc: '/guides', priority: 0.8, changefreq: 'weekly' },
-
-  // Content pages
-  { loc: '/glossary', priority: 0.6, changefreq: 'monthly' },
-  { loc: '/explore', priority: 0.6, changefreq: 'monthly' },
-  { loc: '/help', priority: 0.6, changefreq: 'monthly' },
-
-  // Developer page
-  { loc: '/developer', priority: 0.5, changefreq: 'monthly' },
-  
-  // Legal pages - lower priority
-  { loc: '/privacy-policy', priority: 0.3, changefreq: 'yearly' },
-  { loc: '/terms-of-service', priority: 0.3, changefreq: 'yearly' },
-  { loc: '/cookie-policy', priority: 0.3, changefreq: 'yearly' },
+// ── Static pages ──
+const staticPages: PageEntry[] = [
+  { path: '/', priority: 1.0, changefreq: 'weekly' },
+  { path: '/invoicing', priority: 0.9, changefreq: 'weekly' },
+  { path: '/expenses', priority: 0.9, changefreq: 'weekly' },
+  { path: '/payments', priority: 0.9, changefreq: 'weekly' },
+  { path: '/accounting', priority: 0.9, changefreq: 'weekly' },
+  { path: '/estimates', priority: 0.9, changefreq: 'weekly' },
+  { path: '/receipts', priority: 0.9, changefreq: 'weekly' },
+  { path: '/pricing', priority: 0.8, changefreq: 'weekly' },
+  { path: '/why-invoicemonk', priority: 0.8, changefreq: 'monthly' },
+  { path: '/compliance', priority: 0.8, changefreq: 'monthly' },
+  { path: '/about', priority: 0.7, changefreq: 'monthly' },
+  { path: '/contact', priority: 0.6, changefreq: 'monthly' },
+  { path: '/freelancers', priority: 0.8, changefreq: 'monthly' },
+  { path: '/consultants', priority: 0.8, changefreq: 'monthly' },
+  { path: '/contractors', priority: 0.8, changefreq: 'monthly' },
+  { path: '/small-businesses', priority: 0.8, changefreq: 'monthly' },
+  { path: '/agencies', priority: 0.8, changefreq: 'monthly' },
+  { path: '/photographers', priority: 0.8, changefreq: 'monthly' },
+  { path: '/lawyers', priority: 0.8, changefreq: 'monthly' },
+  { path: '/accountants', priority: 0.8, changefreq: 'monthly' },
+  { path: '/ecommerce', priority: 0.8, changefreq: 'monthly' },
+  { path: '/creatives', priority: 0.8, changefreq: 'monthly' },
+  { path: '/client-management', priority: 0.7, changefreq: 'monthly' },
+  { path: '/free-invoice-generator', priority: 0.8, changefreq: 'monthly' },
+  { path: '/best-invoicing-software', priority: 0.8, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-freshbooks', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-wave', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-zoho-invoice', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-quickbooks', priority: 0.7, changefreq: 'monthly' },
+  { path: '/use-cases/recurring-billing', priority: 0.7, changefreq: 'monthly' },
+  { path: '/use-cases/multi-currency-invoicing', priority: 0.7, changefreq: 'monthly' },
+  { path: '/use-cases/milestone-billing', priority: 0.7, changefreq: 'monthly' },
+  { path: '/use-cases/retainer-billing', priority: 0.7, changefreq: 'monthly' },
+  { path: '/international-payment-fee-calculator', priority: 0.8, changefreq: 'weekly' },
+  { path: '/paypal-vs-wise-fees', priority: 0.8, changefreq: 'weekly' },
+  { path: '/cheapest-way-to-receive-international-payments', priority: 0.8, changefreq: 'weekly' },
+  { path: '/blog', priority: 0.8, changefreq: 'daily' },
+  { path: '/guides', priority: 0.8, changefreq: 'weekly' },
+  { path: '/glossary', priority: 0.6, changefreq: 'monthly' },
+  { path: '/explore', priority: 0.6, changefreq: 'monthly' },
+  { path: '/help', priority: 0.6, changefreq: 'monthly' },
+  { path: '/developer', priority: 0.5, changefreq: 'monthly' },
+  { path: '/privacy-policy', priority: 0.3, changefreq: 'yearly' },
+  { path: '/terms-of-service', priority: 0.3, changefreq: 'yearly' },
+  { path: '/cookie-policy', priority: 0.3, changefreq: 'yearly' },
 ];
 
-// Guide pages (pillars)
-const guideSlugs = [
-  'invoicing',
-  'getting-paid',
-  'business-finances',
-  'tax-compliance',
-  'freelancing',
-  'estimates',
-  'expenses',
-  'client-management',
-];
+const guideSlugs = ['invoicing', 'getting-paid', 'business-finances', 'tax-compliance', 'freelancing', 'estimates', 'expenses', 'client-management'];
 
-// Read blog posts from the data file
-function getBlogPosts(): string[] {
+function extractSlugs(filePath: string, pattern: RegExp): string[] {
   try {
-    const filePath = path.join(__dirname, '../src/data/blogPosts.ts');
     const content = fs.readFileSync(filePath, 'utf-8');
-    const slugMatches = content.match(/slug:\s*['"]([^'"]+)['"]/g);
-    if (!slugMatches) return [];
-    return slugMatches.map(match => {
-      const slug = match.match(/['"]([^'"]+)['"]/);
-      return slug ? slug[1] : '';
-    }).filter(Boolean);
-  } catch (error) {
-    console.error('Error reading blog posts:', error);
-    return [];
-  }
+    const matches = content.match(pattern);
+    if (!matches) return [];
+    return matches.map(m => { const s = m.match(/['"]([^'"]+)['"]/); return s ? s[1] : ''; }).filter(Boolean);
+  } catch { return []; }
 }
 
-// Read authors from the data file
-function getAuthors(): string[] {
-  try {
-    const filePath = path.join(__dirname, '../src/data/authors.ts');
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const slugMatches = content.match(/slug:\s*['"]([^'"]+)['"]/g);
-    if (!slugMatches) return [];
-    return slugMatches.map(match => {
-      const slug = match.match(/['"]([^'"]+)['"]/);
-      return slug ? slug[1] : '';
-    }).filter(Boolean);
-  } catch (error) {
-    console.error('Error reading authors:', error);
-    return [];
-  }
-}
-
-// Read blog topic pillar IDs from topicalMap.ts
-function getBlogTopics(): string[] {
-  try {
-    const filePath = path.join(__dirname, '../src/data/topicalMap.ts');
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const idMatches = content.match(/^\s*id:\s*['"]([^'"]+)['"]/gm);
-    if (!idMatches) return [];
-    return idMatches.map(match => {
-      const id = match.match(/['"]([^'"]+)['"]/);
-      return id ? id[1] : '';
-    }).filter(Boolean);
-  } catch (error) {
-    console.error('Error reading blog topics:', error);
-    return [];
-  }
-}
-
-// Read help article slugs from helpGuides.ts
-function getHelpSlugs(): string[] {
-  try {
-    const filePath = path.join(__dirname, '../src/data/helpGuides.ts');
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const slugMatches = content.match(/slug:\s*['"]([^'"]+)['"]/g);
-    if (!slugMatches) return [];
-    return slugMatches.map(match => {
-      const slug = match.match(/['"]([^'"]+)['"]/);
-      return slug ? slug[1] : '';
-    }).filter(Boolean);
-  } catch (error) {
-    console.error('Error reading help guides:', error);
-    return [];
-  }
-}
-
-// Read currency corridors from paymentFeeModels.ts
 function getCorridors(): Array<{ currency: string; country: string }> {
   try {
-    const filePath = path.join(__dirname, '../src/config/paymentFeeModels.ts');
-    const content = fs.readFileSync(filePath, 'utf-8');
-    // Match { currency: '...', country: '...' } patterns in keyCorridor array
-    const corridorRegex = /currency:\s*['"]([^'"]+)['"],\s*country:\s*['"]([^'"]+)['"]/g;
+    const content = fs.readFileSync(path.join(__dirname, '../src/config/paymentFeeModels.ts'), 'utf-8');
+    const re = /currency:\s*['"]([^'"]+)['"],\s*country:\s*['"]([^'"]+)['"]/g;
     const results: Array<{ currency: string; country: string }> = [];
-    let match;
-    while ((match = corridorRegex.exec(content)) !== null) {
-      results.push({ currency: match[1], country: match[2] });
-    }
+    let m; while ((m = re.exec(content)) !== null) results.push({ currency: m[1], country: m[2] });
     return results;
-  } catch (error) {
-    console.error('Error reading corridors:', error);
-    return [];
-  }
+  } catch { return []; }
 }
 
-function generateXML(entries: SitemapEntry[]): string {
-  const urlEntries = entries.map(entry => {
-    const lastmod = entry.lastmod || CURRENT_DATE;
-    const changefreq = entry.changefreq || 'monthly';
-    const priority = entry.priority !== undefined ? entry.priority : 0.5;
-    
-    return `  <url>
-    <loc>${SITE_URL}${entry.loc}</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>${changefreq}</changefreq>
-    <priority>${priority.toFixed(1)}</priority>
-  </url>`;
-  }).join('\n');
+/** Build hreflang links for a given relative path */
+function hreflangLinks(relPath: string): string {
+  const links = countries.map(c =>
+    `    <xhtml:link rel="alternate" hreflang="${c.hreflang}" href="${SITE_URL}/${c.prefix}${relPath}"/>`
+  );
+  links.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/us${relPath}"/>`);
+  return links.join('\n');
+}
+
+function generateXML(pages: PageEntry[]): string {
+  const urlEntries: string[] = [];
+
+  for (const page of pages) {
+    for (const c of countries) {
+      urlEntries.push(`  <url>
+    <loc>${SITE_URL}/${c.prefix}${page.path}</loc>
+${hreflangLinks(page.path)}
+    <lastmod>${CURRENT_DATE}</lastmod>
+    <changefreq>${page.changefreq || 'monthly'}</changefreq>
+    <priority>${(page.priority ?? 0.5).toFixed(1)}</priority>
+  </url>`);
+    }
+  }
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urlEntries}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urlEntries.join('\n')}
 </urlset>`;
 }
 
 function main() {
-  console.log('🗺️  Generating sitemap...');
-  
-  const allEntries: SitemapEntry[] = [...staticPages];
-  
-  // Add guide pages
-  guideSlugs.forEach(slug => {
-    allEntries.push({ loc: `/guides/${slug}`, priority: 0.8, changefreq: 'weekly' });
-  });
-  
-  // Add blog posts
-  const blogSlugs = getBlogPosts();
-  console.log(`📝 Found ${blogSlugs.length} blog posts`);
-  blogSlugs.forEach(slug => {
-    allEntries.push({ loc: `/blog/${slug}`, priority: 0.7, changefreq: 'monthly' });
-  });
-  
-  // Add author pages
-  const authorSlugs = getAuthors();
-  console.log(`👤 Found ${authorSlugs.length} authors`);
-  authorSlugs.forEach(slug => {
-    allEntries.push({ loc: `/blog/author/${slug}`, priority: 0.5, changefreq: 'monthly' });
-  });
+  console.log('🗺️  Generating multi-country sitemap...');
+  const allPages: PageEntry[] = [...staticPages];
 
-  // Add blog topic pages
-  const topicIds = getBlogTopics();
-  console.log(`📚 Found ${topicIds.length} blog topics`);
-  topicIds.forEach(id => {
-    allEntries.push({ loc: `/blog/topic/${id}`, priority: 0.7, changefreq: 'weekly' });
-  });
+  guideSlugs.forEach(s => allPages.push({ path: `/guides/${s}`, priority: 0.8, changefreq: 'weekly' }));
 
-  // Add help center articles
-  const helpSlugs = getHelpSlugs();
-  console.log(`❓ Found ${helpSlugs.length} help articles`);
-  helpSlugs.forEach(slug => {
-    allEntries.push({ loc: `/help/${slug}`, priority: 0.5, changefreq: 'monthly' });
-  });
+  const blogSlugs = extractSlugs(path.join(__dirname, '../src/data/blogPosts.ts'), /slug:\s*['"][^'"]+['"]/g);
+  console.log(`📝 ${blogSlugs.length} blog posts`);
+  blogSlugs.forEach(s => allPages.push({ path: `/blog/${s}`, priority: 0.7, changefreq: 'monthly' }));
 
-  // Add receive-currency corridor pages
+  const authorSlugs = extractSlugs(path.join(__dirname, '../src/data/authors.ts'), /slug:\s*['"][^'"]+['"]/g);
+  console.log(`👤 ${authorSlugs.length} authors`);
+  authorSlugs.forEach(s => allPages.push({ path: `/blog/author/${s}`, priority: 0.5, changefreq: 'monthly' }));
+
+  const topicIds = extractSlugs(path.join(__dirname, '../src/data/topicalMap.ts'), /^\s*id:\s*['"][^'"]+['"]/gm);
+  console.log(`📚 ${topicIds.length} topics`);
+  topicIds.forEach(s => allPages.push({ path: `/blog/topic/${s}`, priority: 0.7, changefreq: 'weekly' }));
+
+  const helpSlugs = extractSlugs(path.join(__dirname, '../src/data/helpGuides.ts'), /slug:\s*['"][^'"]+['"]/g);
+  console.log(`❓ ${helpSlugs.length} help articles`);
+  helpSlugs.forEach(s => allPages.push({ path: `/help/${s}`, priority: 0.5, changefreq: 'monthly' }));
+
   const corridors = getCorridors();
-  console.log(`💱 Found ${corridors.length} currency corridors`);
-  corridors.forEach(({ currency, country }) => {
-    allEntries.push({ loc: `/receive-${currency}-in-${country}-cost`, priority: 0.7, changefreq: 'monthly' });
-  });
-  
-  // Generate XML
-  const xml = generateXML(allEntries);
-  
-  // Write to public folder
+  console.log(`💱 ${corridors.length} corridors`);
+  corridors.forEach(({ currency, country }) => allPages.push({ path: `/receive-${currency}-in-${country}-cost`, priority: 0.7, changefreq: 'monthly' }));
+
+  const xml = generateXML(allPages);
   const outputPath = path.join(__dirname, '../public/sitemap.xml');
   fs.writeFileSync(outputPath, xml, 'utf-8');
-  
-  console.log(`✅ Sitemap generated with ${allEntries.length} URLs`);
-  console.log(`📄 Output: ${outputPath}`);
+  console.log(`✅ Sitemap: ${allPages.length} pages × ${countries.length} countries = ${allPages.length * countries.length} URLs`);
 }
 
 main();

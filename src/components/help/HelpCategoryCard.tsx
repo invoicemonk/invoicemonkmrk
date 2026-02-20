@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 import { icons } from 'lucide-react';
 import type { HelpGuide } from '@/data/helpGuides';
 

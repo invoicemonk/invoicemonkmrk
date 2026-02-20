@@ -12,163 +12,278 @@
       "statusCode": 301
     },
     {
-      "source": "/the-basics-of-small-business-accounting-a-guide-for-new-entrepreneurs",
-      "destination": "/blog/small-business-accounting-guide",
+      "source": "/the-basics-of-small-business-accounting-a-guide-for-new-entrepreneurs/:path*",
+      "destination": "/us/blog/small-business-accounting-guide",
       "permanent": true
     },
     {
-      "source": "/the-basics-of-small-business-accounting-a-guide-for-new-entrepreneurs/",
-      "destination": "/blog/small-business-accounting-guide",
+      "source": "/how-to-create-a-budget-for-your-small-business-tips-and-tools/:path*",
+      "destination": "/us/blog/business-budget-creation-guide",
       "permanent": true
     },
     {
-      "source": "/how-to-create-a-budget-for-your-small-business-tips-and-tools",
-      "destination": "/blog/business-budget-creation-guide",
+      "source": "/how-to-become-a-good-graphic-designer/:path*",
+      "destination": "/us/blog/graphic-designer-career-guide",
       "permanent": true
     },
     {
-      "source": "/how-to-create-a-budget-for-your-small-business-tips-and-tools/",
-      "destination": "/blog/business-budget-creation-guide",
-      "permanent": true
-    },
-    {
-      "source": "/how-to-become-a-good-graphic-designer",
-      "destination": "/blog/graphic-designer-career-guide",
-      "permanent": true
-    },
-    {
-      "source": "/how-to-become-a-good-graphic-designer/",
-      "destination": "/blog/graphic-designer-career-guide",
-      "permanent": true
-    },
-    {
-      "source": "/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management",
-      "destination": "/blog/best-personal-finance-blogs",
-      "permanent": true
-    },
-    {
-      "source": "/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management/",
-      "destination": "/blog/best-personal-finance-blogs",
-      "permanent": true
-    },
-    {
-      "source": "/features",
-      "destination": "/why-invoicemonk",
-      "permanent": true
-    },
-    {
-      "source": "/features/",
-      "destination": "/why-invoicemonk",
+      "source": "/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management/:path*",
+      "destination": "/us/blog/best-personal-finance-blogs",
       "permanent": true
     },
     {
       "source": "/features/send-invoices",
-      "destination": "/invoicing",
-      "permanent": true
-    },
-    {
-      "source": "/features/send-invoices/",
-      "destination": "/invoicing",
+      "destination": "/us/invoicing",
       "permanent": true
     },
     {
       "source": "/features/accept-payments",
-      "destination": "/payments",
-      "permanent": true
-    },
-    {
-      "source": "/features/accept-payments/",
-      "destination": "/payments",
+      "destination": "/us/payments",
       "permanent": true
     },
     {
       "source": "/features/estimates",
-      "destination": "/estimates",
-      "permanent": true
-    },
-    {
-      "source": "/features/estimates/",
-      "destination": "/estimates",
+      "destination": "/us/estimates",
       "permanent": true
     },
     {
       "source": "/features/business-expense-tracking-app",
-      "destination": "/expenses",
-      "permanent": true
-    },
-    {
-      "source": "/features/business-expense-tracking-app/",
-      "destination": "/expenses",
+      "destination": "/us/expenses",
       "permanent": true
     },
     {
       "source": "/features/client-management",
-      "destination": "/client-management",
+      "destination": "/us/client-management",
       "permanent": true
     },
     {
-      "source": "/features/client-management/",
-      "destination": "/client-management",
+      "source": "/features/:path*",
+      "destination": "/us/why-invoicemonk",
       "permanent": true
     },
     {
-      "source": "/category/small-business",
-      "destination": "/blog",
+      "source": "/category/:slug/:path*",
+      "destination": "/us/blog",
       "permanent": true
     },
     {
-      "source": "/category/small-business/",
-      "destination": "/blog",
+      "source": "/invoicing",
+      "destination": "/us/invoicing",
       "permanent": true
     },
     {
-      "source": "/category/invoicing",
-      "destination": "/blog",
+      "source": "/expenses",
+      "destination": "/us/expenses",
       "permanent": true
     },
     {
-      "source": "/category/invoicing/",
-      "destination": "/blog",
+      "source": "/payments",
+      "destination": "/us/payments",
       "permanent": true
     },
     {
-      "source": "/category/invoicing-and-billing-tips",
-      "destination": "/blog",
+      "source": "/accounting",
+      "destination": "/us/accounting",
       "permanent": true
     },
     {
-      "source": "/category/invoicing-and-billing-tips/",
-      "destination": "/blog",
+      "source": "/estimates",
+      "destination": "/us/estimates",
       "permanent": true
     },
     {
-      "source": "/category/finance",
-      "destination": "/blog",
+      "source": "/receipts",
+      "destination": "/us/receipts",
       "permanent": true
     },
     {
-      "source": "/category/finance/",
-      "destination": "/blog",
+      "source": "/pricing",
+      "destination": "/us/pricing",
       "permanent": true
     },
     {
-      "source": "/category/freelancing",
-      "destination": "/blog",
+      "source": "/why-invoicemonk",
+      "destination": "/us/why-invoicemonk",
       "permanent": true
     },
     {
-      "source": "/category/freelancing/",
-      "destination": "/blog",
+      "source": "/compliance",
+      "destination": "/us/compliance",
       "permanent": true
     },
     {
-      "source": "/category/:slug",
-      "destination": "/blog",
+      "source": "/about",
+      "destination": "/us/about",
       "permanent": true
     },
     {
-      "source": "/category/:slug/",
-      "destination": "/blog",
+      "source": "/contact",
+      "destination": "/us/contact",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/us/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/us/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/us/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/us/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/cookie-policy",
+      "destination": "/us/cookie-policy",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/us/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/us/blog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/guides/:path*",
+      "destination": "/us/guides/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/guides",
+      "destination": "/us/guides",
+      "permanent": true
+    },
+    {
+      "source": "/glossary",
+      "destination": "/us/glossary",
+      "permanent": true
+    },
+    {
+      "source": "/explore",
+      "destination": "/us/explore",
+      "permanent": true
+    },
+    {
+      "source": "/help/:path*",
+      "destination": "/us/help/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/help",
+      "destination": "/us/help",
+      "permanent": true
+    },
+    {
+      "source": "/freelancers",
+      "destination": "/us/freelancers",
+      "permanent": true
+    },
+    {
+      "source": "/consultants",
+      "destination": "/us/consultants",
+      "permanent": true
+    },
+    {
+      "source": "/contractors",
+      "destination": "/us/contractors",
+      "permanent": true
+    },
+    {
+      "source": "/small-businesses",
+      "destination": "/us/small-businesses",
+      "permanent": true
+    },
+    {
+      "source": "/agencies",
+      "destination": "/us/agencies",
+      "permanent": true
+    },
+    {
+      "source": "/photographers",
+      "destination": "/us/photographers",
+      "permanent": true
+    },
+    {
+      "source": "/lawyers",
+      "destination": "/us/lawyers",
+      "permanent": true
+    },
+    {
+      "source": "/accountants",
+      "destination": "/us/accountants",
+      "permanent": true
+    },
+    {
+      "source": "/ecommerce",
+      "destination": "/us/ecommerce",
+      "permanent": true
+    },
+    {
+      "source": "/creatives",
+      "destination": "/us/creatives",
+      "permanent": true
+    },
+    {
+      "source": "/developer",
+      "destination": "/us/developer",
+      "permanent": true
+    },
+    {
+      "source": "/client-management",
+      "destination": "/us/client-management",
+      "permanent": true
+    },
+    {
+      "source": "/free-invoice-generator",
+      "destination": "/us/free-invoice-generator",
+      "permanent": true
+    },
+    {
+      "source": "/best-invoicing-software",
+      "destination": "/us/best-invoicing-software",
+      "permanent": true
+    },
+    {
+      "source": "/compare/:path*",
+      "destination": "/us/compare/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/use-cases/:path*",
+      "destination": "/us/use-cases/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/international-payment-fee-calculator",
+      "destination": "/us/international-payment-fee-calculator",
+      "permanent": true
+    },
+    {
+      "source": "/paypal-vs-wise-fees",
+      "destination": "/us/paypal-vs-wise-fees",
+      "permanent": true
+    },
+    {
+      "source": "/cheapest-way-to-receive-international-payments",
+      "destination": "/us/cheapest-way-to-receive-international-payments",
+      "permanent": true
+    },
+    {
+      "source": "/receive-:currency-in-:destination-cost",
+      "destination": "/us/receive-:currency-in-:destination-cost",
       "permanent": true
     }
   ],

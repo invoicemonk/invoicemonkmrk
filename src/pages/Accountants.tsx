@@ -6,7 +6,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingInvoiceCard, FloatingChartCard, FloatingIcon } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const faqs = [
   { question: 'Can I manage invoicing for multiple clients as a bookkeeper?', answer: 'Yes. Invoicemonk lets you manage multiple client accounts from a single dashboard, each with their own branding, payment terms, and reporting. Switch between clients instantly without logging in and out of separate accounts, and keep every client\'s financial data completely isolated.' },

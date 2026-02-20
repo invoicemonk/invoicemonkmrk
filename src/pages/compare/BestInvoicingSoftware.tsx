@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight, CheckCircle, Star } from 'lucide-react';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-import { Link } from 'react-router-dom';
+import { Link } from '@/components/LocalizedLink';
 
 const tools = [
   {
@@ -68,8 +68,8 @@ export default function BestInvoicingSoftware() {
   return (
     <Layout>
       <SEOHead
-        title="Best Invoicing Software in 2026 | Top 5 Compared"
-        description="Compare the best invoicing software in 2026: Invoicemonk, FreshBooks, Wave, Zoho Invoice, and QuickBooks. Features, pricing, pros, cons, and honest recommendations."
+        title="Best Invoicing Software for Small Business in 2026 | Top 5 Compared"
+        description="The best invoicing software for small business in 2026: Invoicemonk, FreshBooks, Wave, Zoho Invoice, and QuickBooks — features, pricing, pros, cons, and our honest pick."
         canonical="https://invoicemonk.com/best-invoicing-software"
       />
       <FAQSchema items={faqs} />
