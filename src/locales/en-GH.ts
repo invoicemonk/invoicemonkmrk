@@ -77,6 +77,10 @@ export const enGH: LocaleConfig = {
         question: "Does Invoicemonk handle VAT for Ghanaian businesses?",
         answer: "Absolutely. Invoicemonk automatically calculates and applies the 15% VAT rate on your invoices. You can also track VAT collected and paid for easy filing with the Ghana Revenue Authority.",
       },
+      {
+        question: "Does Invoicemonk support e-invoicing?",
+        answer: "Yes. Invoicemonk supports e-invoicing aligned with GRA e-VAT invoicing requirements. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.",
+      },
     ],
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",

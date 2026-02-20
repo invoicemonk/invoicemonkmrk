@@ -285,6 +285,16 @@
       "source": "/receive-:currency-in-:destination-cost",
       "destination": "/us/receive-:currency-in-:destination-cost",
       "permanent": true
+    },
+    {
+      "source": "/docs/api",
+      "destination": "/us/docs/api",
+      "permanent": true
+    },
+    {
+      "source": "/legal/sla",
+      "destination": "/us/legal/sla",
+      "permanent": true
     }
   ],
   "rewrites": [

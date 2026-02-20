@@ -10,6 +10,7 @@ const timezoneToCountry: Record<string, SupportedCountry> = {
   'Africa/Accra': 'GH',
   'Africa/Nairobi': 'KE',
   'Africa/Johannesburg': 'ZA',
+  'Africa/Harare': 'ZW',
   'America/New_York': 'US',
   'America/Chicago': 'US',
   'America/Denver': 'US',
@@ -20,12 +21,20 @@ const timezoneToCountry: Record<string, SupportedCountry> = {
   'America/Montreal': 'CA',
   'America/Edmonton': 'CA',
   'America/Winnipeg': 'CA',
+  'America/Sao_Paulo': 'BR',
   'Europe/London': 'GB',
+  'Europe/Berlin': 'DE',
+  'Europe/Paris': 'FR',
   'Australia/Sydney': 'AU',
   'Australia/Melbourne': 'AU',
   'Australia/Brisbane': 'AU',
   'Australia/Perth': 'AU',
   'Australia/Adelaide': 'AU',
+  'Asia/Manila': 'PH',
+  'Asia/Kolkata': 'IN',
+  'Asia/Calcutta': 'IN',
+  'Indian/Mahe': 'SC',
+  'Pacific/Auckland': 'NZ',
 };
 
 const canadianTimezones = [
@@ -33,6 +42,11 @@ const canadianTimezones = [
   'America/Edmonton', 'America/Winnipeg', 'America/Halifax',
   'America/St_Johns', 'America/Regina', 'America/Whitehorse',
   'America/Yellowknife',
+];
+
+const brazilianTimezones = [
+  'America/Sao_Paulo', 'America/Fortaleza', 'America/Recife',
+  'America/Bahia', 'America/Manaus', 'America/Belem',
 ];
 
 function detectCountryFromTimezone(): SupportedCountry | null {
@@ -45,17 +59,32 @@ function detectCountryFromTimezone(): SupportedCountry | null {
     // Region-based fallback
     if (timezone.startsWith('America/')) {
       if (canadianTimezones.includes(timezone)) return 'CA';
+      if (brazilianTimezones.includes(timezone)) return 'BR';
       return 'US';
     }
     if (timezone.startsWith('Australia/')) return 'AU';
+    if (timezone.startsWith('Pacific/')) {
+      if (timezone.includes('Auckland') || timezone.includes('Chatham')) return 'NZ';
+    }
+    if (timezone.startsWith('Asia/')) {
+      if (timezone.includes('Manila')) return 'PH';
+      if (timezone.includes('Kolkata') || timezone.includes('Calcutta') || timezone.includes('Chennai') || timezone.includes('Mumbai')) return 'IN';
+    }
+    if (timezone.startsWith('Indian/')) {
+      if (timezone.includes('Mahe')) return 'SC';
+    }
     if (timezone.startsWith('Africa/')) {
-      // Known African timezones
       if (timezone.includes('Nairobi')) return 'KE';
       if (timezone.includes('Johannesburg') || timezone.includes('Cape_Town')) return 'ZA';
       if (timezone.includes('Accra')) return 'GH';
+      if (timezone.includes('Harare')) return 'ZW';
       return 'NG'; // Default African → Nigeria
     }
-    if (timezone === 'Europe/London' || timezone === 'Europe/Belfast') return 'GB';
+    if (timezone.startsWith('Europe/')) {
+      if (timezone === 'Europe/London' || timezone === 'Europe/Belfast') return 'GB';
+      if (timezone === 'Europe/Berlin' || timezone === 'Europe/Vienna' || timezone === 'Europe/Zurich') return 'DE';
+      if (timezone === 'Europe/Paris' || timezone === 'Europe/Monaco') return 'FR';
+    }
 
     return null;
   } catch {

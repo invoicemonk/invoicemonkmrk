@@ -77,6 +77,10 @@ export const enNG: LocaleConfig = {
         question: "Does Invoicemonk handle VAT for Nigerian businesses?",
         answer: "Absolutely. Invoicemonk automatically calculates and applies the 7.5% VAT rate on your invoices. You can also track VAT collected vs. paid for easy quarterly filing with FIRS.",
       },
+      {
+        question: "Does Invoicemonk support e-invoicing?",
+        answer: "Yes. Invoicemonk supports e-invoicing aligned with FIRS requirements and NRS compliance standards. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.",
+      },
     ],
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",

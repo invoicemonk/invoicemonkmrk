@@ -77,6 +77,10 @@ export const enZA: LocaleConfig = {
         question: "Does Invoicemonk handle VAT for South African businesses?",
         answer: "Absolutely. Invoicemonk automatically calculates and applies the 15% VAT rate on your invoices. VAT summaries help you prepare your bi-monthly VAT201 returns for SARS.",
       },
+      {
+        question: "Does Invoicemonk support e-invoicing?",
+        answer: "Yes. Invoicemonk supports e-invoicing aligned with SARS compliance requirements and South Africa's e-invoicing readiness initiatives. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.",
+      },
     ],
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",

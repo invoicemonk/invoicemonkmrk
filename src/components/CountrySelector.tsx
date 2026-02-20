@@ -86,7 +86,7 @@ export function CountrySelector({ variant = 'default', className }: CountrySelec
             transition={{ duration: 0.15, ease: "easeOut" }}
             className="absolute right-0 top-full mt-2 z-50"
           >
-            <div className="bg-card rounded-xl shadow-soft-xl border border-border overflow-hidden min-w-[200px]" role="listbox" aria-label="Select country">
+            <div className="bg-card rounded-xl shadow-soft-xl border border-border overflow-hidden min-w-[200px] max-h-[60vh] overflow-y-auto" role="listbox" aria-label="Select country">
               <div className="py-1">
                 {supportedCountries.map((code) => {
                   const locale = locales[code];

@@ -115,7 +115,7 @@ const invoicingFAQs = [
   },
   {
     question: 'Does Invoicemonk support e-invoicing standards?',
-    answer: 'Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2 (Saudi Arabia), Peppol (Europe), and other regional mandates. Every invoice includes digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.',
+    answer: 'Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2, Peppol, NF-e, KRA TIMS, and other regional mandates. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.',
   },
 ];
 

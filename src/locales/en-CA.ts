@@ -77,6 +77,10 @@ export const enCA: LocaleConfig = {
         question: "Does Invoicemonk handle GST/HST for Canadian businesses?",
         answer: "Absolutely. Invoicemonk automatically calculates GST, HST, and provincial sales tax based on your province. Tax breakdowns are clearly itemized on each invoice for transparent CRA reporting.",
       },
+      {
+        question: "Does Invoicemonk support e-invoicing?",
+        answer: "Yes. Invoicemonk supports e-invoicing aligned with CRA requirements and Peppol adoption in Canada. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.",
+      },
     ],
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",

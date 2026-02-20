@@ -29,6 +29,7 @@ const footerLinks = {
     { name: 'Payment Fee Calculator', href: '/international-payment-fee-calculator' },
     { name: 'PayPal vs Wise Fees', href: '/paypal-vs-wise-fees' },
     { name: 'Cheapest International Payments', href: '/cheapest-way-to-receive-international-payments' },
+    { name: 'API Documentation', href: '/docs/api' },
   ],
   topics: [
     { name: 'Invoicing Tips', href: '/blog/topic/invoicing-mastery' },
@@ -69,6 +70,7 @@ const footerLinks = {
     { name: 'Terms of Service', href: '/terms-of-service' },
     { name: 'Cookie Policy', href: '/cookie-policy' },
     { name: 'Security', href: '/compliance' },
+    { name: 'Service Level Agreement', href: '/legal/sla' },
   ],
 };
 

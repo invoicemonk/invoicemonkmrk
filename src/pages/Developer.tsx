@@ -1,6 +1,7 @@
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { Link } from '@/components/LocalizedLink';
 import { ArrowRight, Code, Webhook, Shield, Zap, BookOpen, Terminal } from 'lucide-react';
 import { PageHero } from '@/components/shared/PageHero';
 import { 
@@ -69,7 +70,7 @@ const Developer = () => {
           title="Build with Invoicemonk"
           accentWord="Invoicemonk"
           description="Integrate invoicing, expenses, and financial data directly into your applications. Our API makes it easy to build powerful financial workflows."
-          primaryCta={{ text: 'View Documentation', href: 'https://docs.invoicemonk.com' }}
+          primaryCta={{ text: 'View Documentation', href: '/docs/api' }}
           secondaryCta={{ text: 'Get API Keys', href: 'https://app.invoicemonk.com/signup' }}
           trustBadge="99.9% uptime SLA • RESTful API • Webhooks"
           backgroundVariant="mesh"
@@ -206,9 +207,9 @@ console.log('Invoice created:', invoice.id);`}
                   Comprehensive guides and API reference
                 </p>
                 <Button variant="outline" size="sm" asChild>
-                  <a href="https://docs.invoicemonk.com" target="_blank" rel="noopener noreferrer">
+                  <Link to="/docs/api">
                     Read Docs
-                  </a>
+                  </Link>
                 </Button>
               </CardContent>
             </Card>

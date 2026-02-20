@@ -77,6 +77,10 @@ export const enAU: LocaleConfig = {
         question: "Does Invoicemonk handle GST for Australian businesses?",
         answer: "Absolutely. Invoicemonk automatically calculates and applies the 10% GST rate on your invoices. GST summaries help you prepare your quarterly Business Activity Statements (BAS) for the ATO.",
       },
+      {
+        question: "Does Invoicemonk support e-invoicing?",
+        answer: "Yes. Invoicemonk supports e-invoicing standards including the ATO-endorsed Peppol framework (A-NZ Peppol). Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.",
+      },
     ],
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",

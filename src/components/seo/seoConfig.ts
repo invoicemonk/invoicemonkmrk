@@ -324,6 +324,20 @@ export const pageSEO: Record<string, PageSEO> = {
     priority: 0.7,
     changefreq: 'monthly',
   },
+  '/docs/api': {
+    getTitle: () => 'API Documentation | Invoicemonk',
+    getDescription: () => 'Full API reference for the Invoicemonk compliance infrastructure. Endpoints, authentication, audit logging, rate limiting, and security.',
+    ogType: 'website',
+    priority: 0.6,
+    changefreq: 'monthly',
+  },
+  '/legal/sla': {
+    getTitle: () => 'Service Level Agreement (SLA) | Invoicemonk',
+    getDescription: () => 'Service commitments, availability targets, data integrity guarantees, and security controls for the Invoicemonk platform.',
+    ogType: 'website',
+    priority: 0.3,
+    changefreq: 'monthly',
+  },
 };
 
 export const getPageSEO = (path: string): PageSEO | undefined => {

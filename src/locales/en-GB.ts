@@ -77,6 +77,10 @@ export const enGB: LocaleConfig = {
         question: "Does Invoicemonk handle VAT for UK businesses?",
         answer: "Absolutely. Invoicemonk automatically calculates and applies the standard 20% VAT rate, with support for reduced and zero-rated items. VAT summaries make quarterly MTD submissions straightforward.",
       },
+      {
+        question: "Does Invoicemonk support e-invoicing?",
+        answer: "Yes. Invoicemonk supports e-invoicing standards including Peppol and Making Tax Digital (MTD) requirements. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.",
+      },
     ],
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",

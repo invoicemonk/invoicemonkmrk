@@ -27,6 +27,14 @@ const countries = [
   { prefix: 'gh', hreflang: 'en-GH' },
   { prefix: 'ke', hreflang: 'en-KE' },
   { prefix: 'za', hreflang: 'en-ZA' },
+  { prefix: 'ph', hreflang: 'en-PH' },
+  { prefix: 'zw', hreflang: 'en-ZW' },
+  { prefix: 'in', hreflang: 'en-IN' },
+  { prefix: 'sc', hreflang: 'en-SC' },
+  { prefix: 'de', hreflang: 'de-DE' },
+  { prefix: 'br', hreflang: 'pt-BR' },
+  { prefix: 'nz', hreflang: 'en-NZ' },
+  { prefix: 'fr', hreflang: 'fr-FR' },
 ];
 
 interface PageEntry {
@@ -79,6 +87,8 @@ const staticPages: PageEntry[] = [
   { path: '/explore', priority: 0.6, changefreq: 'monthly' },
   { path: '/help', priority: 0.6, changefreq: 'monthly' },
   { path: '/developer', priority: 0.5, changefreq: 'monthly' },
+  { path: '/docs/api', priority: 0.6, changefreq: 'monthly' },
+  { path: '/legal/sla', priority: 0.3, changefreq: 'monthly' },
   { path: '/privacy-policy', priority: 0.3, changefreq: 'yearly' },
   { path: '/terms-of-service', priority: 0.3, changefreq: 'yearly' },
   { path: '/cookie-policy', priority: 0.3, changefreq: 'yearly' },

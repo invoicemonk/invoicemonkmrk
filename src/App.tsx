@@ -27,6 +27,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import CookiePolicy from "./pages/CookiePolicy";
 import Contact from "./pages/Contact";
+import ApiDocs from "./pages/ApiDocs";
+import SLA from "./pages/legal/SLA";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import BlogTopic from "./pages/BlogTopic";
@@ -119,6 +121,10 @@ const App = () => (
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
               <Route path="terms-of-service" element={<TermsOfService />} />
               <Route path="cookie-policy" element={<CookiePolicy />} />
+              <Route path="legal/sla" element={<SLA />} />
+
+              {/* Docs */}
+              <Route path="docs/api" element={<ApiDocs />} />
 
               {/* Blog */}
               <Route path="blog" element={<Blog />} />

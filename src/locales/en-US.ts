@@ -77,6 +77,10 @@ export const enUS: LocaleConfig = {
         question: "Does Invoicemonk handle sales tax?",
         answer: "Yes. Invoicemonk supports configurable sales tax rates, so you can set the correct rate for your state and locality. Tax amounts are clearly itemized on each invoice for transparent reporting.",
       },
+      {
+        question: "Does Invoicemonk support e-invoicing?",
+        answer: "Yes. Invoicemonk supports e-invoicing with structured formats for B2G compliance. While the US has no federal e-invoicing mandate yet, Invoicemonk is ready with digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.",
+      },
     ],
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",

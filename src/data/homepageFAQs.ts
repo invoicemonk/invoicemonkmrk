@@ -35,9 +35,4 @@ export const homepageFAQs: FAQItem[] = [
     answer:
       'Yes! You can fully customize your invoices with your logo and business information. Choose from multiple professional templates to create polished invoices that represent your brand.',
   },
-  {
-    question: 'Does Invoicemonk support e-invoicing?',
-    answer:
-      'Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2 (Saudi Arabia), Peppol (Europe), and other regional mandates. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.',
-  },
 ];
