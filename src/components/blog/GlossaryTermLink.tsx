@@ -69,18 +69,33 @@ export function linkGlossaryTermsInText(
   termsToLink: string[]
 ): string {
   let result = content;
-  
+
   termsToLink.forEach(termSlug => {
     const term = getTermBySlug(termSlug);
-    if (term) {
-      // Create a regex that matches the term (case insensitive, whole word)
-      const regex = new RegExp(`\\b(${term.term})\\b`, 'gi');
-      // Only replace first occurrence to avoid over-linking
-      result = result.replace(regex, (match) => {
-        return `<a href="/glossary?term=${termSlug}" class="glossary-term-link">${match}</a>`;
-      });
-    }
+    if (!term) return;
+
+    const termRegex = new RegExp(`\\b(${term.term})\\b`, 'gi');
+    let replaced = false;
+
+    // Split into HTML tags vs text segments, track anchor nesting
+    result = result.replace(
+      /(<a\b[^>]*>[\s\S]*?<\/a>)|(<[^>]+>)|([^<]+)/gi,
+      (segment, anchorBlock, tag, text) => {
+        // Full anchor block or HTML tag — pass through unchanged
+        if (anchorBlock || tag) return segment;
+        // Plain text segment — safe to replace (only first occurrence)
+        if (text && !replaced) {
+          const newText = text.replace(termRegex, (match: string) => {
+            if (replaced) return match;
+            replaced = true;
+            return `<a href="/glossary?term=${termSlug}" class="glossary-term-link">${match}</a>`;
+          });
+          return newText;
+        }
+        return segment;
+      }
+    );
   });
-  
+
   return result;
 }
