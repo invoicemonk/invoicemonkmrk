@@ -84,6 +84,7 @@ export function SEOHead({
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:width" content={String(ogImageWidth)} />
       <meta property="og:image:height" content={String(ogImageHeight)} />
+      <meta property="og:image:type" content="image/png" />
       <meta property="og:site_name" content="Invoicemonk" />
       <meta property="og:locale" content={locale.code.replace('-', '_')} />
 
@@ -93,6 +94,7 @@ export function SEOHead({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:image:alt" content={title} />
 
       {/* Article specific meta */}
       {article && (
