@@ -3,6 +3,7 @@ import { Link } from '@/components/LocalizedLink';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { PersonSchema } from '@/components/seo/PersonSchema';
+import { ItemListSchema } from '@/components/seo/ItemListSchema';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -33,6 +34,19 @@ const AuthorPage = () => {
         ogType="profile"
       />
       <PersonSchema author={author} isMainEntity />
+      {authorPosts.length > 0 && (
+        <ItemListSchema
+          name={`Articles by ${author.name}`}
+          description={`${author.name}'s published articles on Invoicemonk`}
+          items={authorPosts.map(p => ({
+            name: p.title,
+            url: `https://invoicemonk.com/blog/${p.slug}`,
+            description: p.excerpt,
+            image: `https://invoicemonk.com${p.featuredImage}`
+          }))}
+          itemType="BlogPosting"
+        />
+      )}
 
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

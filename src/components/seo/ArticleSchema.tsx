@@ -61,7 +61,7 @@ export function ArticleSchema({
   const mentions = buildEntityMentions(pillar, entityMentions);
   
   // Build about entities from pillar and content
-  const aboutEntities = buildAboutEntities(pillar, isPillarContent);
+  const aboutEntities = buildAboutEntities(pillar, isPillarContent, section);
   
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -232,7 +232,8 @@ function buildEntityMentions(
  */
 function buildAboutEntities(
   pillar?: Pillar,
-  isPillarContent?: boolean
+  isPillarContent?: boolean,
+  section?: string
 ): Array<Record<string, unknown>> {
   const aboutEntities: Array<Record<string, unknown>> = [];
 
@@ -255,6 +256,23 @@ function buildAboutEntities(
         "url": `https://invoicemonk.com${pillar.targetProduct}`
       });
     }
+  } else if (section) {
+    // Fallback: generate about entity from section/category for standalone posts
+    aboutEntities.push({
+      "@type": "Thing",
+      "name": section,
+      "description": `Articles and guides about ${section.toLowerCase()} for small businesses and freelancers`,
+      "url": `https://invoicemonk.com/blog?category=${encodeURIComponent(section)}`
+    });
+
+    // Add Invoicemonk as secondary about entity for all posts
+    aboutEntities.push({
+      "@type": "SoftwareApplication",
+      "name": "Invoicemonk",
+      "applicationCategory": "BusinessApplication",
+      "description": "All-in-one business finance platform for invoicing, expenses, payments, and accounting",
+      "url": "https://invoicemonk.com"
+    });
   }
 
   return aboutEntities;

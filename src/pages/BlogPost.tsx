@@ -24,6 +24,8 @@ import { ArticleSchema } from '@/components/seo/ArticleSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { enhanceInternalLinks } from '@/utils/enhanceLinks';
+import { linkGlossaryTermsInText } from '@/components/blog/GlossaryTermLink';
+import { getGlossaryTermsForPillar } from '@/utils/glossaryMapping';
 import NotFound from './NotFound';
 
 const BlogPost = () => {
@@ -34,7 +36,10 @@ const BlogPost = () => {
   // Enhance links in post content (must be before early return)
   const enhancedContent = useMemo(() => {
     if (!post) return '';
-    return enhanceInternalLinks(post.content);
+    const { pillar: p } = getPostClusterInfo(post.slug);
+    const withLinks = enhanceInternalLinks(post.content);
+    const glossaryTerms = getGlossaryTermsForPillar(p?.id);
+    return linkGlossaryTermsInText(withLinks, glossaryTerms);
   }, [post]);
 
   // Add IDs to headings for TOC navigation

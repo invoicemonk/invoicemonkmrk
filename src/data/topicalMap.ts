@@ -562,7 +562,12 @@ export const pillarClusters: TopicalCluster[] = [
       'mobile-payment-options-for-small-business',
       'international-payment-fees-explained',
       'international-wire-transfer-fees-guide',
-      'currency-conversion-international-payments'
+      'currency-conversion-international-payments',
+      // Cross-border invoicing (Cluster 3)
+      'invoice-clients-in-ng', 'invoice-clients-in-us', 'invoice-clients-in-uk',
+      'invoice-clients-in-ca', 'invoice-clients-in-au', 'invoice-clients-in-gh',
+      'invoice-clients-in-ke', 'invoice-clients-in-za',
+      'multi-currency-invoicing-explained'
     ]
   },
   {
@@ -583,7 +588,8 @@ export const pillarClusters: TopicalCluster[] = [
       'monthly-financial-review-checklist',
       'business-bank-account-vs-personal',
       'financial-reports-every-business-needs',
-      'year-end-financial-preparation'
+      'year-end-financial-preparation',
+      'revenue-vs-profit-explained'
     ]
   },
   {
@@ -597,10 +603,30 @@ export const pillarClusters: TopicalCluster[] = [
       'irs-invoice-requirements-us-compliance',
       'cra-invoice-standards-canadian-compliance',
       'ato-invoice-requirements-australian-compliance',
+      'gra-invoice-requirements-ghana',
+      'kra-invoice-requirements-kenya',
+      'sars-invoice-requirements-south-africa',
       'quarterly-tax-payment-guide',
       'business-tax-calendar-by-country',
       'business-record-keeping-requirements',
-      'tax-software-integration-guide'
+      'tax-software-integration-guide',
+      // Country-specific invoice compliance (Cluster 1)
+      'tax-compliant-invoice-ng', 'tax-compliant-invoice-us', 'tax-compliant-invoice-uk',
+      'tax-compliant-invoice-ca', 'tax-compliant-invoice-au', 'tax-compliant-invoice-gh',
+      'tax-compliant-invoice-ke', 'tax-compliant-invoice-za',
+      'vat-invoice-format-ng', 'vat-invoice-format-us', 'vat-invoice-format-uk',
+      'vat-invoice-format-ca', 'vat-invoice-format-au', 'vat-invoice-format-gh',
+      'vat-invoice-format-ke', 'vat-invoice-format-za',
+      // Freelancer VAT registration (Cluster 2)
+      'freelancer-vat-registration-ng', 'freelancer-vat-registration-us',
+      'freelancer-vat-registration-uk', 'freelancer-vat-registration-ca',
+      'freelancer-vat-registration-au', 'freelancer-vat-registration-gh',
+      'freelancer-vat-registration-ke', 'freelancer-vat-registration-za',
+      // Freelancer tax mistakes (Cluster 3)
+      'freelancer-tax-mistakes-ng', 'freelancer-tax-mistakes-us',
+      'freelancer-tax-mistakes-uk', 'freelancer-tax-mistakes-ca',
+      'freelancer-tax-mistakes-au', 'freelancer-tax-mistakes-gh',
+      'freelancer-tax-mistakes-ke', 'freelancer-tax-mistakes-za'
     ]
   },
   {
@@ -642,7 +668,8 @@ export const pillarClusters: TopicalCluster[] = [
       'receipt-scanning-apps-comparison',
       'separate-business-personal-expenses',
       'tax-deductible-business-expenses',
-      'expense-reports-freelancers'
+      'expense-reports-freelancers',
+      'track-business-expenses-guide'
     ]
   },
   {

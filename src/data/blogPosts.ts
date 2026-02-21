@@ -1,4 +1,5 @@
 import { defaultAuthor, Author } from './authors';
+import { allCompliancePosts } from './countryCompliancePosts';
 import { 
   getPillarForPost, 
   getClusterType, 
@@ -2264,8 +2265,8 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-01-31',
     readTime: '7 min read',
-    featuredImage: '/blog/mobile-payments.jpg',
-    featuredImageAlt: 'Comparing online payment methods for small businesses',
+    featuredImage: '/blog/invoicing-software-dashboard.jpg',
+    featuredImageAlt: 'Dashboard comparing online payment methods for small businesses',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/payments',
@@ -3604,6 +3605,522 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Can I issue a tax invoice for GST-free sales?</h3>
       <p>Yes, you can and should issue tax invoices for GST-free sales. The invoice should indicate that no GST applies and the item is GST-free.</p>
+    `
+  },
+  // ============================================
+  // GRA GHANA COMPLIANCE GUIDE
+  // ============================================
+  {
+    slug: 'gra-invoice-requirements-ghana',
+    title: 'GRA Invoice Requirements: Complete Ghana Tax Compliance Guide',
+    excerpt: 'Everything Ghanaian businesses need to know about GRA-compliant invoicing. Learn the legal requirements, VAT obligations, levy breakdowns, and best practices for staying audit-ready with the Ghana Revenue Authority.',
+    category: 'Tax and Compliance',
+    tags: ['GRA', 'Ghana', 'tax compliance', 'VAT', 'invoice requirements'],
+    author: defaultAuthor,
+    date: '2026-02-20',
+    readTime: '14 min read',
+    featuredImage: '/blog/gra-ghana-compliance.jpg',
+    featuredImageAlt: 'Ghana GRA tax compliance documents on gold background',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    semanticKeywords: ['GRA invoice', 'Ghana tax', 'VAT Ghana', 'GRA compliance', 'Ghanaian business invoice'],
+    priority: 'P2',
+    entityMentions: [
+      { name: 'Ghana Revenue Authority', type: 'GovernmentOrganization', url: 'https://gra.gov.gh' },
+      { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
+    ],
+    faq: [
+      { question: 'What is the current VAT rate in Ghana?', answer: 'The standard VAT rate in Ghana is 15%. However, the effective tax on goods and services is higher due to additional levies: 2.5% NHIL, 2.5% GETFund Levy, and 1% COVID-19 Health Recovery Levy, bringing the total to 21%.' },
+      { question: 'Do I need a TIN to invoice in Ghana?', answer: 'Yes. All businesses operating in Ghana must obtain a Taxpayer Identification Number (TIN) from the GRA. It is required on all tax-compliant invoices and for B2B transactions.' },
+      { question: 'How long must I keep invoices and records in Ghana?', answer: 'GRA requires businesses to retain all financial records, including invoices, receipts, and bank statements, for a minimum of 6 years from the end of the relevant tax year.' },
+      { question: 'Is electronic invoicing accepted by GRA?', answer: 'Yes. GRA accepts electronic invoices provided they contain all mandatory elements and are generated through certified e-VAT software. Businesses above the VAT threshold are encouraged to use GRA-certified invoicing systems.' },
+      { question: 'What happens if I make a mistake on a Ghanaian invoice?', answer: 'Issue a credit note referencing the original invoice number, then create a corrected invoice. Never delete or alter issued invoices — this is a compliance violation under Ghanaian tax law.' },
+    ],
+    relatedTools: [
+      { label: 'Compliance Hub', url: '/compliance', description: 'Check your GRA compliance' },
+      { label: 'Invoicing Software', url: '/invoicing', description: 'GRA-compliant invoicing' },
+    ],
+    content: `
+      <p>Operating a business in Ghana means complying with the <strong>Ghana Revenue Authority (GRA)</strong> regulations. Understanding invoice requirements isn't just about avoiding penalties — it's essential for maintaining your business reputation and ensuring smooth operations with clients, vendors, and government agencies.</p>
+
+      <h2>Understanding GRA and the Ghanaian Tax Framework</h2>
+      <p>The Ghana Revenue Authority was established in 2009 by merging the Internal Revenue Service, Customs Excise & Preventive Service, and the VAT Service. GRA is responsible for assessing, collecting, and accounting for all tax revenues in Ghana.</p>
+      <p>Key taxes that affect invoicing include:</p>
+      <ul>
+        <li><strong>Value Added Tax (VAT):</strong> 15% standard rate on most goods and services</li>
+        <li><strong>National Health Insurance Levy (NHIL):</strong> 2.5% on the value of supply</li>
+        <li><strong>GETFund Levy:</strong> 2.5% on the value of supply</li>
+        <li><strong>COVID-19 Health Recovery Levy:</strong> 1% on the value of supply</li>
+        <li><strong>Income Tax:</strong> Based on business profits</li>
+        <li><strong>Withholding Tax:</strong> Deducted at source on certain payments</li>
+      </ul>
+      <p>The combined effective rate on goods and services is therefore <strong>21%</strong> (15% VAT + 2.5% NHIL + 2.5% GETFund + 1% COVID levy), though these are separate line items on invoices.</p>
+
+      <h2>Mandatory Invoice Elements for GRA Compliance</h2>
+      <p>Every tax-compliant invoice in Ghana must include:</p>
+      <ol>
+        <li><strong>Business name and address</strong> — your registered business name as it appears with the Registrar General's Department</li>
+        <li><strong>Taxpayer Identification Number (TIN)</strong> — your unique GRA-issued identifier</li>
+        <li><strong>VAT registration number</strong> — if your turnover exceeds the threshold</li>
+        <li><strong>Customer details</strong> — name, address, and TIN (for B2B transactions)</li>
+        <li><strong>Invoice number</strong> — sequential and unique</li>
+        <li><strong>Invoice date</strong> — the date of issue</li>
+        <li><strong>Description of goods or services</strong> — clear and specific</li>
+        <li><strong>Quantity and unit price</strong> — for each line item</li>
+        <li><strong>Subtotal amount</strong> — before VAT and levies</li>
+        <li><strong>VAT amount</strong> — calculated at 15%</li>
+        <li><strong>NHIL amount</strong> — calculated at 2.5%</li>
+        <li><strong>GETFund Levy amount</strong> — calculated at 2.5%</li>
+        <li><strong>COVID-19 Health Recovery Levy</strong> — calculated at 1%</li>
+        <li><strong>Total amount payable</strong> — including all taxes and levies</li>
+      </ol>
+
+      <h2>VAT Registration and Obligations</h2>
+      <p>Businesses with annual taxable turnover exceeding <strong>GHS 200,000</strong> are required to register for VAT with GRA. Once registered, you must:</p>
+      <ul>
+        <li>Charge VAT at 15% on taxable supplies</li>
+        <li>Separately itemise NHIL (2.5%), GETFund (2.5%), and COVID levy (1%)</li>
+        <li>Issue VAT-compliant invoices for all taxable transactions</li>
+        <li>File VAT returns monthly by the last working day of the following month</li>
+        <li>Remit collected VAT and levies to GRA</li>
+        <li>Maintain records for at least 6 years</li>
+      </ul>
+
+      <h3>VAT Exemptions</h3>
+      <p>Certain goods and services are exempt from VAT in Ghana, including:</p>
+      <ul>
+        <li>Unprocessed foodstuffs (fresh fruit, vegetables, grains)</li>
+        <li>Medical and pharmaceutical products and services</li>
+        <li>Educational services and materials</li>
+        <li>Agricultural inputs and equipment</li>
+        <li>Domestic transport services</li>
+        <li>Financial services (excluding insurance premiums)</li>
+      </ul>
+      <p>Always verify current exemptions on the <a href="https://gra.gov.gh" target="_blank" rel="noopener">official GRA website</a>.</p>
+
+      <h2>Record Keeping Requirements</h2>
+      <p>GRA requires businesses to maintain comprehensive records for a minimum of <strong>6 years</strong>. This includes:</p>
+      <ul>
+        <li>All issued invoices (sales)</li>
+        <li>All received invoices (purchases)</li>
+        <li>Bank statements and payment records</li>
+        <li>Contracts and agreements</li>
+        <li>Receipts for expenses</li>
+        <li>VAT returns and payment confirmations</li>
+      </ul>
+      <p>Digital record-keeping is accepted and recommended. Using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+
+      <h2>E-Invoicing and Digital Compliance</h2>
+      <p>Ghana has been accelerating its digital tax infrastructure. GRA now requires businesses above the VAT threshold to use <strong>certified e-VAT software</strong> for generating invoices. Key developments include:</p>
+      <ul>
+        <li>E-VAT certified invoicing software must be used by VAT-registered businesses</li>
+        <li>Invoices generated through certified systems are automatically reported to GRA</li>
+        <li>The system reduces manual errors and simplifies return filing</li>
+        <li>Non-certified software may not produce legally valid VAT invoices</li>
+      </ul>
+      <p>Businesses should ensure their invoicing software is GRA e-VAT certified or produces invoices that meet all mandatory element requirements.</p>
+
+      <h2>Common Compliance Mistakes to Avoid</h2>
+      <ul>
+        <li><strong>Missing TIN on invoices</strong> — makes invoices invalid for tax purposes</li>
+        <li><strong>Not separating levies</strong> — NHIL, GETFund, and COVID levy must appear as distinct line items, not lumped into VAT</li>
+        <li><strong>Incorrect VAT calculations</strong> — use 15% for VAT, not the combined 21% rate</li>
+        <li><strong>Late VAT remittance</strong> — attracts significant penalties and interest</li>
+        <li><strong>Inadequate invoice numbering</strong> — gaps or duplicates raise red flags during audits</li>
+        <li><strong>Not retaining records</strong> — 6-year minimum is strictly enforced</li>
+        <li><strong>Using non-certified software</strong> — may render VAT invoices non-compliant</li>
+      </ul>
+
+      <h2>Penalties for Non-Compliance</h2>
+      <p>GRA imposes various penalties for non-compliance:</p>
+      <ul>
+        <li><strong>Late filing of returns:</strong> GHS 500 penalty plus 3% of the tax due for each month of default</li>
+        <li><strong>Late payment of tax:</strong> Interest at 125% of the Bank of Ghana prime rate</li>
+        <li><strong>Failure to register for VAT:</strong> Fine of up to GHS 5,000 and/or imprisonment</li>
+        <li><strong>Failure to issue proper invoices:</strong> May result in assessment, back-taxes, and additional penalties</li>
+        <li><strong>Fraudulent claims or evasion:</strong> Criminal prosecution with fines and imprisonment</li>
+      </ul>
+
+      <h2>How Invoicemonk Helps You Stay Compliant</h2>
+      <p>Invoicemonk is designed with Ghanaian tax compliance in mind. Our platform:</p>
+      <ul>
+        <li>Automatically includes all required invoice elements including TIN</li>
+        <li>Calculates VAT at 15% and separately itemises NHIL, GETFund, and COVID levies</li>
+        <li>Generates sequential invoice numbers with no gaps</li>
+        <li>Stores invoices securely for 6+ years</li>
+        <li>Provides audit-ready reports on demand</li>
+        <li>Supports GHS and multi-currency invoicing</li>
+      </ul>
+      <p>Start your <a href="/invoicing">free trial</a> and create GRA-compliant invoices in minutes.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>What is the current VAT rate in Ghana?</h3>
+      <p>The standard VAT rate in Ghana is 15%. However, the total tax on goods and services is effectively 21% when you include the 2.5% NHIL, 2.5% GETFund Levy, and 1% COVID-19 Health Recovery Levy.</p>
+
+      <h3>Do I need a TIN to invoice in Ghana?</h3>
+      <p>Yes, all businesses operating in Ghana must obtain a Taxpayer Identification Number (TIN) from the GRA. It is mandatory for all tax-compliant invoicing and B2B transactions.</p>
+
+      <h3>How long must I keep invoices and records?</h3>
+      <p>GRA requires businesses to retain records for at least 6 years from the end of the relevant tax year.</p>
+
+      <h3>Is electronic invoicing mandatory in Ghana?</h3>
+      <p>VAT-registered businesses are required to use GRA e-VAT certified software for invoice generation. Electronic invoices are accepted and increasingly expected by GRA.</p>
+
+      <h3>What happens if I make a mistake on an invoice?</h3>
+      <p>Issue a credit note referencing the original invoice number and create a new, correct invoice. Never delete or alter issued invoices — this is a compliance violation.</p>
+    `
+  },
+  // ============================================
+  // KRA KENYA COMPLIANCE GUIDE
+  // ============================================
+  {
+    slug: 'kra-invoice-requirements-kenya',
+    title: 'KRA Invoice Requirements: Complete Kenya Tax Compliance Guide',
+    excerpt: 'Everything Kenyan businesses need to know about KRA-compliant invoicing. Learn the legal requirements, VAT obligations, TIMS e-invoicing rules, and best practices for staying audit-ready with the Kenya Revenue Authority.',
+    category: 'Tax and Compliance',
+    tags: ['KRA', 'Kenya', 'tax compliance', 'VAT', 'invoice requirements', 'TIMS'],
+    author: defaultAuthor,
+    date: '2026-02-20',
+    readTime: '14 min read',
+    featuredImage: '/blog/regulator-guide-ke.jpg',
+    featuredImageAlt: 'KRA Kenya tax compliance and invoice requirements guide',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    semanticKeywords: ['KRA invoice', 'Kenya tax', 'VAT Kenya', 'KRA compliance', 'TIMS', 'Kenyan business invoice'],
+    priority: 'P2',
+    entityMentions: [
+      { name: 'Kenya Revenue Authority', type: 'GovernmentOrganization', url: 'https://kra.go.ke' },
+      { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
+    ],
+    faq: [
+      { question: 'What is the current VAT rate in Kenya?', answer: 'The standard VAT rate in Kenya is 16%. A reduced rate of 8% applies to petroleum products, and exports are zero-rated at 0%.' },
+      { question: 'Do I need a KRA PIN to invoice in Kenya?', answer: 'Yes. All businesses and individuals conducting business in Kenya must have a KRA Personal Identification Number (PIN). It is required on all tax-compliant invoices.' },
+      { question: 'How long must I keep invoices and records in Kenya?', answer: 'KRA requires businesses to retain all financial records for a minimum of 5 years from the end of the relevant tax period.' },
+      { question: 'What is TIMS and is it mandatory?', answer: 'TIMS (Tax Invoice Management System) is KRA\'s electronic tax invoice system. All VAT-registered taxpayers must use TIMS-compliant Electronic Tax Invoice (ETI) devices or systems to generate, validate, and transmit invoices to KRA in real time.' },
+      { question: 'What happens if I make a mistake on a Kenyan invoice?', answer: 'Issue a credit note through your TIMS-compliant system referencing the original invoice, then create a corrected invoice. Never delete or alter issued invoices — this is a compliance violation.' },
+    ],
+    relatedTools: [
+      { label: 'Compliance Hub', url: '/compliance', description: 'Check your KRA compliance' },
+      { label: 'Invoicing Software', url: '/invoicing', description: 'KRA-compliant invoicing' },
+    ],
+    content: `
+      <p>Operating a business in Kenya means complying with the <strong>Kenya Revenue Authority (KRA)</strong> regulations. With the introduction of the Tax Invoice Management System (TIMS), Kenya has become one of Africa's most digitally advanced tax jurisdictions, making it critical for businesses to understand and meet all invoicing requirements.</p>
+
+      <h2>Understanding KRA and the Kenyan Tax Framework</h2>
+      <p>The Kenya Revenue Authority was established in 1995 to enhance tax revenue collection. KRA administers all national taxes and is at the forefront of digital tax administration in East Africa.</p>
+      <p>Key taxes that affect invoicing include:</p>
+      <ul>
+        <li><strong>Value Added Tax (VAT):</strong> 16% standard rate on most goods and services</li>
+        <li><strong>Reduced Rate:</strong> 8% on petroleum products</li>
+        <li><strong>Zero Rate:</strong> 0% on exports and certain essential goods</li>
+        <li><strong>Income Tax:</strong> Based on business profits (30% corporate rate)</li>
+        <li><strong>Withholding Tax:</strong> Deducted at source on certain payments</li>
+        <li><strong>Digital Services Tax:</strong> 1.5% on income from digital services</li>
+      </ul>
+
+      <h2>Mandatory Invoice Elements for KRA Compliance</h2>
+      <p>Every tax-compliant invoice in Kenya must include:</p>
+      <ol>
+        <li><strong>Business name and address</strong> — your registered business name</li>
+        <li><strong>KRA PIN</strong> — your unique KRA Personal Identification Number</li>
+        <li><strong>VAT registration number</strong> — if registered for VAT</li>
+        <li><strong>Customer details</strong> — name, address, and KRA PIN (for B2B transactions)</li>
+        <li><strong>Invoice number</strong> — sequential and unique</li>
+        <li><strong>Invoice date</strong> — the date of issue</li>
+        <li><strong>Description of goods or services</strong> — clear and specific</li>
+        <li><strong>Quantity and unit price</strong> — for each line item</li>
+        <li><strong>Subtotal amount</strong> — before VAT</li>
+        <li><strong>VAT amount</strong> — calculated at the applicable rate</li>
+        <li><strong>Total amount payable</strong> — including VAT</li>
+        <li><strong>TIMS QR code or Control Unit number</strong> — for electronic verification</li>
+      </ol>
+
+      <h2>VAT Registration and Obligations</h2>
+      <p>Businesses with annual taxable turnover exceeding <strong>KSh 5,000,000</strong> (approximately USD 38,000) are required to register for VAT with KRA. Once registered, you must:</p>
+      <ul>
+        <li>Charge VAT at 16% on taxable supplies</li>
+        <li>Issue VAT-compliant invoices through a TIMS-compliant system</li>
+        <li>File VAT returns monthly by the 20th of the following month</li>
+        <li>Remit collected VAT to KRA</li>
+        <li>Maintain records for at least 5 years</li>
+      </ul>
+
+      <h3>VAT Exemptions</h3>
+      <p>Certain goods and services are exempt from VAT in Kenya, including:</p>
+      <ul>
+        <li>Unprocessed foodstuffs (fresh agricultural produce)</li>
+        <li>Agricultural inputs and equipment</li>
+        <li>Medical and pharmaceutical products and services</li>
+        <li>Educational services</li>
+        <li>Financial and insurance services</li>
+        <li>Transportation of passengers by road</li>
+      </ul>
+      <p>Always verify current exemptions on the <a href="https://kra.go.ke" target="_blank" rel="noopener">official KRA website</a>.</p>
+
+      <h2>Record Keeping Requirements</h2>
+      <p>KRA requires businesses to maintain comprehensive records for a minimum of <strong>5 years</strong>. This includes:</p>
+      <ul>
+        <li>All issued invoices (sales)</li>
+        <li>All received invoices (purchases)</li>
+        <li>Bank statements and payment records</li>
+        <li>Contracts and agreements</li>
+        <li>Receipts for expenses</li>
+        <li>VAT returns and payment confirmations</li>
+        <li>TIMS transaction logs</li>
+      </ul>
+      <p>Digital record-keeping is accepted and increasingly required. Using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+
+      <h2>E-Invoicing and TIMS</h2>
+      <p>Kenya has implemented one of Africa's most advanced e-invoicing systems through the <strong>Tax Invoice Management System (TIMS)</strong>. Key requirements include:</p>
+      <ul>
+        <li><strong>Mandatory ETI devices:</strong> All VAT-registered taxpayers must use Electronic Tax Invoice (ETI) systems — either hardware devices or approved software</li>
+        <li><strong>Real-time validation:</strong> Every invoice is transmitted to KRA in real time for validation and receives a unique Control Unit number</li>
+        <li><strong>QR codes:</strong> Each invoice must contain a scannable QR code linking to KRA's verification system</li>
+        <li><strong>Buyer verification:</strong> The system validates the buyer's KRA PIN before the invoice is finalised</li>
+        <li><strong>No manual invoices:</strong> Hand-written or non-TIMS invoices are not valid for VAT purposes</li>
+      </ul>
+      <p>Businesses must ensure their invoicing software integrates with or is compliant with KRA's TIMS requirements.</p>
+
+      <h2>Common Compliance Mistakes to Avoid</h2>
+      <ul>
+        <li><strong>Missing KRA PIN on invoices</strong> — makes invoices invalid for tax purposes</li>
+        <li><strong>Not using TIMS-compliant systems</strong> — renders VAT invoices legally invalid</li>
+        <li><strong>Incorrect VAT rate application</strong> — ensure you use 16% standard, 8% reduced, or 0% as appropriate</li>
+        <li><strong>Late VAT filing or remittance</strong> — attracts severe penalties</li>
+        <li><strong>Gaps in invoice numbering</strong> — raises audit red flags with KRA</li>
+        <li><strong>Not retaining records for 5 years</strong> — the minimum is strictly enforced</li>
+        <li><strong>Issuing invoices without QR codes</strong> — non-compliant under TIMS regulations</li>
+      </ul>
+
+      <h2>Penalties for Non-Compliance</h2>
+      <p>KRA imposes significant penalties for non-compliance:</p>
+      <ul>
+        <li><strong>Late filing of VAT returns:</strong> KSh 10,000 or 5% of the tax due, whichever is higher</li>
+        <li><strong>Late payment of VAT:</strong> 2% of the unpaid tax per month, compounding</li>
+        <li><strong>Failure to register for VAT:</strong> Fine of up to KSh 100,000 and/or imprisonment of up to 3 years</li>
+        <li><strong>Failure to use TIMS:</strong> Additional penalties and potential deregistration</li>
+        <li><strong>Issuing non-compliant invoices:</strong> Assessment, back-taxes, and penalties</li>
+        <li><strong>Tax evasion:</strong> Criminal prosecution with substantial fines and imprisonment</li>
+      </ul>
+
+      <h2>How Invoicemonk Helps You Stay Compliant</h2>
+      <p>Invoicemonk is designed with Kenyan tax compliance in mind. Our platform:</p>
+      <ul>
+        <li>Automatically includes all required invoice elements including KRA PIN</li>
+        <li>Calculates VAT at the correct rate (16%, 8%, or 0%)</li>
+        <li>Generates sequential invoice numbers with no gaps</li>
+        <li>Stores invoices securely for 5+ years</li>
+        <li>Provides audit-ready reports on demand</li>
+        <li>Supports KES and multi-currency invoicing</li>
+        <li>Integrates with M-Pesa and other Kenyan payment methods</li>
+      </ul>
+      <p>Start your <a href="/invoicing">free trial</a> and create KRA-compliant invoices in minutes.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>What is the current VAT rate in Kenya?</h3>
+      <p>The standard VAT rate in Kenya is 16%. A reduced rate of 8% applies to petroleum products, and exports are zero-rated at 0%.</p>
+
+      <h3>Do I need a KRA PIN to invoice in Kenya?</h3>
+      <p>Yes, all businesses and individuals conducting business in Kenya must have a KRA Personal Identification Number (PIN). It is required on all tax-compliant invoices and official documents.</p>
+
+      <h3>How long must I keep invoices and records?</h3>
+      <p>KRA requires businesses to retain all financial records for at least 5 years from the end of the relevant tax period.</p>
+
+      <h3>What is TIMS and is it mandatory?</h3>
+      <p>TIMS (Tax Invoice Management System) is KRA's electronic invoicing system. All VAT-registered taxpayers must use TIMS-compliant ETI devices or software to generate invoices that are validated by KRA in real time.</p>
+
+      <h3>What happens if I make a mistake on an invoice?</h3>
+      <p>Issue a credit note through your TIMS-compliant system referencing the original invoice, then create a corrected invoice. Never delete or alter issued invoices — this is a compliance violation.</p>
+    `
+  },
+  // ============================================
+  // SARS SOUTH AFRICA COMPLIANCE GUIDE
+  // ============================================
+  {
+    slug: 'sars-invoice-requirements-south-africa',
+    title: 'SARS Invoice Requirements: Complete South Africa Tax Compliance Guide',
+    excerpt: 'Everything South African businesses need to know about SARS-compliant invoicing. Learn about full and abridged tax invoices, VAT registration, and best practices for staying audit-ready with the South African Revenue Service.',
+    category: 'Tax and Compliance',
+    tags: ['SARS', 'South Africa', 'tax compliance', 'VAT', 'invoice requirements'],
+    author: defaultAuthor,
+    date: '2026-02-20',
+    readTime: '14 min read',
+    featuredImage: '/blog/regulator-guide-za.jpg',
+    featuredImageAlt: 'SARS South Africa invoice requirements and tax compliance guide',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    semanticKeywords: ['SARS invoice', 'South Africa tax', 'VAT South Africa', 'SARS compliance', 'South African business invoice'],
+    priority: 'P2',
+    entityMentions: [
+      { name: 'South African Revenue Service', type: 'GovernmentOrganization', url: 'https://www.sars.gov.za' },
+      { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
+    ],
+    faq: [
+      { question: 'What is the current VAT rate in South Africa?', answer: 'The standard VAT rate in South Africa is 15%, effective since April 2018 when it was increased from 14%.' },
+      { question: 'Do I need to register for VAT in South Africa?', answer: 'VAT registration is mandatory when your taxable turnover exceeds R1,000,000 in any 12-month period. Voluntary registration is available if turnover exceeds R50,000.' },
+      { question: 'What is the difference between a full and abridged tax invoice?', answer: 'A full tax invoice is required for supplies exceeding R5,000 and must include complete details. An abridged tax invoice can be issued for supplies of R5,000 or less and contains fewer mandatory fields.' },
+      { question: 'How long must I keep invoices and records in South Africa?', answer: 'SARS requires businesses to retain all financial records for a minimum of 5 years from the date of the last entry or submission of the relevant return.' },
+      { question: 'What happens if I make a mistake on a South African invoice?', answer: 'Issue a debit or credit note referencing the original invoice number and details of the correction. Never delete or alter issued invoices — this is a compliance violation under South African tax law.' },
+    ],
+    relatedTools: [
+      { label: 'Compliance Hub', url: '/compliance', description: 'Check your SARS compliance' },
+      { label: 'Invoicing Software', url: '/invoicing', description: 'SARS-compliant invoicing' },
+    ],
+    content: `
+      <p>Operating a business in South Africa means complying with the <strong>South African Revenue Service (SARS)</strong> regulations. South Africa's VAT system, with its distinction between full and abridged tax invoices, requires careful attention to detail to ensure your invoices meet all legal requirements.</p>
+
+      <h2>Understanding SARS and the South African Tax Framework</h2>
+      <p>SARS is the national revenue authority responsible for collecting all national taxes, duties, and levies. Established in 1997, SARS administers a comprehensive tax system that touches every business transaction.</p>
+      <p>Key taxes that affect invoicing include:</p>
+      <ul>
+        <li><strong>Value Added Tax (VAT):</strong> 15% standard rate on most goods and services</li>
+        <li><strong>Zero-rated supplies:</strong> 0% on exports, certain basic foodstuffs, and essential items</li>
+        <li><strong>Corporate Income Tax:</strong> 27% on business profits</li>
+        <li><strong>Withholding Tax:</strong> Deducted at source on certain payments</li>
+        <li><strong>Turnover Tax:</strong> Optional simplified tax for micro businesses (turnover under R1 million)</li>
+      </ul>
+
+      <h2>Mandatory Invoice Elements for SARS Compliance</h2>
+      <p>South Africa distinguishes between <strong>full tax invoices</strong> and <strong>abridged tax invoices</strong>, depending on the value of the supply.</p>
+
+      <h3>Full Tax Invoice (supplies exceeding R5,000)</h3>
+      <p>A full tax invoice must include:</p>
+      <ol>
+        <li><strong>The words "Tax Invoice"</strong> — displayed prominently</li>
+        <li><strong>Supplier's name, address, and VAT number</strong></li>
+        <li><strong>Recipient's name, address, and VAT number</strong> (for B2B)</li>
+        <li><strong>Serial number</strong> — unique and sequential</li>
+        <li><strong>Date of issue</strong></li>
+        <li><strong>Description of goods or services</strong> — clear and specific</li>
+        <li><strong>Quantity or volume of goods/services</strong></li>
+        <li><strong>Value of supply excluding VAT</strong></li>
+        <li><strong>VAT amount charged</strong> — at 15%</li>
+        <li><strong>Total consideration including VAT</strong></li>
+      </ol>
+
+      <h3>Abridged Tax Invoice (supplies of R5,000 or less)</h3>
+      <p>An abridged tax invoice requires fewer details:</p>
+      <ol>
+        <li><strong>The words "Tax Invoice"</strong></li>
+        <li><strong>Supplier's name, address, and VAT number</strong></li>
+        <li><strong>Serial number</strong></li>
+        <li><strong>Date of issue</strong></li>
+        <li><strong>Description of goods or services</strong></li>
+        <li><strong>Total consideration including VAT</strong></li>
+        <li><strong>A statement that VAT is included</strong> — e.g., "VAT included at 15%"</li>
+      </ol>
+
+      <h2>VAT Registration and Obligations</h2>
+      <p>VAT registration requirements in South Africa:</p>
+      <ul>
+        <li><strong>Mandatory registration:</strong> When taxable turnover exceeds <strong>R1,000,000</strong> in any consecutive 12-month period</li>
+        <li><strong>Voluntary registration:</strong> Available when turnover exceeds <strong>R50,000</strong>, subject to SARS approval</li>
+      </ul>
+      <p>Once registered, you must:</p>
+      <ul>
+        <li>Charge VAT at 15% on taxable supplies</li>
+        <li>Issue full or abridged tax invoices as appropriate</li>
+        <li>File VAT returns every two months (Category A) or monthly (Category B, turnover &gt; R30 million)</li>
+        <li>Submit returns by the 25th of the month following the tax period</li>
+        <li>Remit collected VAT to SARS</li>
+        <li>Maintain records for at least 5 years</li>
+      </ul>
+
+      <h3>VAT Exemptions and Zero-Rated Supplies</h3>
+      <p>Certain supplies are exempt from VAT or zero-rated:</p>
+      <h4>Zero-Rated (0% VAT — input tax can still be claimed)</h4>
+      <ul>
+        <li>Basic foodstuffs: brown bread, maize meal, samp, mealie rice, dried mealies, dried beans, lentils, tinned pilchards/sardines, milk, cultured milk, rice, vegetables, fruit, vegetable oil, milk powder, dairy powder blend, edible legumes and pulses</li>
+        <li>Exports of goods and services</li>
+        <li>Diesel used in farming, forestry, and fishing</li>
+        <li>Illuminating paraffin</li>
+        <li>International transport services</li>
+      </ul>
+      <h4>Exempt (no VAT charged — no input tax credit)</h4>
+      <ul>
+        <li>Public road and rail transport</li>
+        <li>Residential accommodation (rental)</li>
+        <li>Educational services provided by approved institutions</li>
+        <li>Financial services (excluding fee-based services)</li>
+        <li>Child care services</li>
+      </ul>
+      <p>Always verify current rates and exemptions on the <a href="https://www.sars.gov.za" target="_blank" rel="noopener">official SARS website</a>.</p>
+
+      <h2>Record Keeping Requirements</h2>
+      <p>SARS requires businesses to maintain comprehensive records for a minimum of <strong>5 years</strong> from the date of the last entry or submission of the relevant tax return. Records include:</p>
+      <ul>
+        <li>All issued tax invoices (full and abridged)</li>
+        <li>All received tax invoices</li>
+        <li>Bank statements and payment records</li>
+        <li>Contracts and agreements</li>
+        <li>Import and export documents</li>
+        <li>Debit and credit notes</li>
+        <li>VAT returns and payment confirmations</li>
+      </ul>
+      <p>Digital record-keeping is accepted. Using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+
+      <h2>E-Invoicing and Digital Compliance</h2>
+      <p>South Africa's digital tax infrastructure continues to evolve:</p>
+      <ul>
+        <li><strong>SARS eFiling:</strong> VAT returns must be submitted electronically through the eFiling portal</li>
+        <li><strong>Electronic invoicing:</strong> SARS accepts electronic tax invoices provided they contain all mandatory elements and can be produced for audit</li>
+        <li><strong>Upcoming e-invoicing mandate:</strong> SARS has signalled plans to introduce mandatory e-invoicing, similar to other African nations — businesses should prepare by adopting digital invoicing now</li>
+        <li><strong>Digital signatures:</strong> Electronic invoices do not require a physical signature but must be verifiable and tamper-proof</li>
+      </ul>
+
+      <h2>Common Compliance Mistakes to Avoid</h2>
+      <ul>
+        <li><strong>Missing "Tax Invoice" label</strong> — the words must appear prominently on every tax invoice</li>
+        <li><strong>Using abridged format for supplies over R5,000</strong> — a full tax invoice is required</li>
+        <li><strong>Missing or incorrect VAT number</strong> — verify numbers against SARS' VAT vendor search</li>
+        <li><strong>Wrong VAT calculation</strong> — remember VAT is 15% (tax fraction is 15/115 of the VAT-inclusive price)</li>
+        <li><strong>Late filing of returns</strong> — attracts escalating daily penalties</li>
+        <li><strong>Not retaining records for 5 years</strong> — the minimum is strictly enforced</li>
+        <li><strong>Claiming input tax on exempt supplies</strong> — no credit is available for VAT on exempt goods</li>
+      </ul>
+
+      <h2>Penalties for Non-Compliance</h2>
+      <p>SARS imposes significant penalties for non-compliance:</p>
+      <ul>
+        <li><strong>Late submission of returns:</strong> Fixed penalty starting at R250 per month, escalating to R500 per month based on taxable turnover, up to a maximum of R16,000 per month</li>
+        <li><strong>Late payment of VAT:</strong> 10% penalty on the outstanding amount plus interest at the prescribed rate</li>
+        <li><strong>Understatement of tax:</strong> Penalties ranging from 10% (substantial understatement) to 200% (intentional tax evasion)</li>
+        <li><strong>Failure to register for VAT:</strong> Criminal prosecution, fines, and/or imprisonment</li>
+        <li><strong>Failure to issue tax invoices:</strong> Additional assessments and penalties</li>
+      </ul>
+
+      <h2>How Invoicemonk Helps You Stay Compliant</h2>
+      <p>Invoicemonk is designed with South African tax compliance in mind. Our platform:</p>
+      <ul>
+        <li>Automatically includes the "Tax Invoice" label and all mandatory elements</li>
+        <li>Supports both full and abridged tax invoice formats</li>
+        <li>Calculates VAT correctly at 15%</li>
+        <li>Handles zero-rated and exempt supplies appropriately</li>
+        <li>Generates sequential invoice numbers with no gaps</li>
+        <li>Stores invoices securely for 5+ years</li>
+        <li>Provides audit-ready reports for SARS compliance</li>
+        <li>Supports ZAR and multi-currency invoicing</li>
+      </ul>
+      <p>Start your <a href="/invoicing">free trial</a> and create SARS-compliant tax invoices in minutes.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>What is the current VAT rate in South Africa?</h3>
+      <p>The standard VAT rate in South Africa is 15%, effective since 1 April 2018. Certain supplies are zero-rated (0%) or exempt from VAT.</p>
+
+      <h3>When must I register for VAT?</h3>
+      <p>Registration is mandatory when your taxable turnover exceeds R1,000,000 in any consecutive 12-month period. You can voluntarily register if your turnover exceeds R50,000.</p>
+
+      <h3>What is the difference between a full and abridged tax invoice?</h3>
+      <p>A full tax invoice is required for supplies exceeding R5,000 and must include the recipient's details and VAT number. An abridged tax invoice can be used for supplies of R5,000 or less, with fewer mandatory fields.</p>
+
+      <h3>How long must I keep invoices and records?</h3>
+      <p>SARS requires all business records to be retained for at least 5 years from the date of the last entry or submission of the relevant return.</p>
+
+      <h3>What happens if I make a mistake on an invoice?</h3>
+      <p>Issue a debit or credit note referencing the original tax invoice. The note must contain specified details including the reason for the adjustment. Never delete or alter issued invoices.</p>
     `
   },
   // ============================================
@@ -5571,8 +6088,8 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-02-01',
     readTime: '15 min read',
-    featuredImage: '/blog/accounting-books-basics.jpg',
-    featuredImageAlt: 'Step-by-step guide on how to do accounting for small business',
+    featuredImage: '/blog/small-business-diy-accounting.jpg',
+    featuredImageAlt: 'Step-by-step guide to doing accounting for a small business',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/accounting',
@@ -7131,8 +7648,8 @@ export const blogPosts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-02-01',
     readTime: '8 min read',
-    featuredImage: '/blog/invoice-essential-elements.jpg',
-    featuredImageAlt: 'Understanding what an invoice is - complete definition and guide',
+    featuredImage: '/blog/what-is-an-invoice.jpg',
+    featuredImageAlt: 'What is an invoice - complete definition guide for beginners',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -7697,7 +8214,7 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-03',
     readTime: '10 min read',
-    featuredImage: '/blog/invoice-disputes.jpg',
+    featuredImage: '/blog/invoice-common-mistakes.jpg',
     featuredImageAlt: 'Common invoice mistakes that cost businesses money',
     pillarContent: false,
     clusterType: 'cluster',
@@ -9272,8 +9789,8 @@ Thank you for your business!
     date: '2025-12-15',
     dateModified: '2026-02-04',
     readTime: '10 min read',
-    featuredImage: '/blog/finding-clients.jpg',
-    featuredImageAlt: 'Freelancer networking and finding new clients',
+    featuredImage: '/blog/finding-freelance-clients.jpg',
+    featuredImageAlt: 'Freelancer searching for clients on laptop with job listings',
     clusterType: 'cluster',
     targetProduct: '/freelancers',
     semanticKeywords: ['finding freelance clients', 'client acquisition', 'freelance marketing', 'freelance networking', 'first clients', 'freelance business development'],
@@ -10074,8 +10591,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '16 min read',
-    featuredImage: '/blog/record-keeping.jpg',
-    featuredImageAlt: 'Small business expense management and tracking guide',
+    featuredImage: '/blog/expense-management-guide.jpg',
+    featuredImageAlt: 'Complete expense management guide with receipts and tracking app',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/expenses',
@@ -10204,8 +10721,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '10 min read',
-    featuredImage: '/blog/invoicing-software-dashboard.jpg',
-    featuredImageAlt: 'Expense tracking methods comparison for small businesses',
+    featuredImage: '/blog/expense-tracking-dashboard.jpg',
+    featuredImageAlt: 'Expense tracking dashboard with colorful charts and categories',
     clusterType: 'cluster',
     targetProduct: '/expenses',
     semanticKeywords: ['expense tracking methods', 'invoice and expense tracking software', 'expense tracking app'],
@@ -10519,8 +11036,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '10 min read',
-    featuredImage: '/blog/invoicing-software-dashboard.jpg',
-    featuredImageAlt: 'Receipt scanning apps comparison for small businesses',
+    featuredImage: '/blog/receipt-scanning-comparison.jpg',
+    featuredImageAlt: 'Smartphones showing different receipt scanning apps side by side',
     clusterType: 'cluster',
     targetProduct: '/receipts',
     semanticKeywords: ['receipt scanning apps', 'best receipt scanner', 'receipt OCR'],
@@ -10605,8 +11122,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '8 min read',
-    featuredImage: '/blog/business-vs-personal-account.jpg',
-    featuredImageAlt: 'Separating business and personal expenses guide',
+    featuredImage: '/blog/accounting-for-owners.jpg',
+    featuredImageAlt: 'Guide to separating business and personal expenses for small businesses',
     clusterType: 'cluster',
     targetProduct: '/expenses',
     semanticKeywords: ['separate business personal expenses', 'business vs personal account'],
@@ -10666,8 +11183,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '12 min read',
-    featuredImage: '/blog/tax-deductions.jpg',
-    featuredImageAlt: 'Complete list of tax-deductible business expenses',
+    featuredImage: '/blog/tax-deductible-expenses-list.jpg',
+    featuredImageAlt: 'Tax deductible business expenses checklist with categories',
     clusterType: 'cluster',
     targetProduct: '/expenses',
     semanticKeywords: ['tax deductible business expenses', 'deductible expenses list', 'business tax deductions'],
@@ -10995,8 +11512,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '9 min read',
-    featuredImage: '/blog/managing-clients.jpg',
-    featuredImageAlt: 'Client onboarding process guide',
+    featuredImage: '/blog/client-onboarding-checklist.jpg',
+    featuredImageAlt: 'Client onboarding checklist with welcome packet materials',
     clusterType: 'cluster',
     targetProduct: '/client-management',
     semanticKeywords: ['client onboarding process', 'client onboarding freelancer', 'new client checklist'],
@@ -11092,8 +11609,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '10 min read',
-    featuredImage: '/blog/invoice-disputes.jpg',
-    featuredImageAlt: 'Handling difficult clients professionally',
+    featuredImage: '/blog/difficult-clients-management.jpg',
+    featuredImageAlt: 'Professional reviewing problematic client documents with warning signs',
     clusterType: 'cluster',
     targetProduct: '/client-management',
     semanticKeywords: ['difficult clients', 'handle problem clients', 'client conflict resolution'],
@@ -11177,8 +11694,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '10 min read',
-    featuredImage: '/blog/payment-reminder-templates.jpg',
-    featuredImageAlt: 'Client communication email templates',
+    featuredImage: '/blog/client-email-templates.jpg',
+    featuredImageAlt: 'Professional email template on computer screen for client communication',
     clusterType: 'cluster',
     targetProduct: '/client-management',
     semanticKeywords: ['client communication templates', 'freelancer email templates'],
@@ -11517,8 +12034,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '9 min read',
-    featuredImage: '/blog/accounting-books-basics.jpg',
-    featuredImageAlt: 'Bookkeeping basics for beginners',
+    featuredImage: '/blog/bookkeeping-basics-guide.jpg',
+    featuredImageAlt: 'Bookkeeping basics guide for beginners',
     clusterType: 'cluster',
     targetProduct: '/accounting',
     semanticKeywords: ['bookkeeping basics', 'beginner bookkeeping', 'small business bookkeeping'],
@@ -11619,8 +12136,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '8 min read',
-    featuredImage: '/blog/small-business-accounting-basics.jpg',
-    featuredImageAlt: 'DIY small business accounting guide',
+    featuredImage: '/blog/diy-accounting-guide.jpg',
+    featuredImageAlt: 'Person doing DIY accounting with calculator and laptop at desk',
     clusterType: 'cluster',
     targetProduct: '/accounting',
     semanticKeywords: ['can i do my own business accounting', 'DIY accounting', 'small business accounting yourself'],
@@ -11704,8 +12221,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '10 min read',
-    featuredImage: '/blog/international-fees.jpg',
-    featuredImageAlt: 'Minimizing international wire transfer fees',
+    featuredImage: '/blog/wire-transfer-fees.jpg',
+    featuredImageAlt: 'Currency symbols with arrows showing international wire transfer flow',
     clusterType: 'cluster',
     targetProduct: '/payments',
     semanticKeywords: ['international wire transfer fees', 'minimize wire transfer fees', 'SWIFT transfer costs'],
@@ -11812,8 +12329,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '9 min read',
-    featuredImage: '/blog/international-fees.jpg',
-    featuredImageAlt: 'Currency conversion in international transfers',
+    featuredImage: '/blog/currency-conversion-guide.jpg',
+    featuredImageAlt: 'Currency conversion in international transfers guide',
     clusterType: 'cluster',
     targetProduct: '/payments',
     semanticKeywords: ['currency conversion international transfers', 'exchange rate markup', 'mid-market rate'],
@@ -11908,8 +12425,8 @@ Thank you for your business!
     author: defaultAuthor,
     date: '2026-02-19',
     readTime: '10 min read',
-    featuredImage: '/blog/invoice-essential-elements.jpg',
-    featuredImageAlt: 'What is an invoice definition types and examples',
+    featuredImage: '/blog/invoice-definition-types.jpg',
+    featuredImageAlt: 'Invoice definition types and examples overview',
     clusterType: 'cluster',
     targetProduct: '/invoicing',
     semanticKeywords: ['what is an invoice', 'invoice definition', 'invoice accounting definition', 'types of invoices'],
@@ -12026,8 +12543,86 @@ Thank you for your business!
 
 <p>Whether you're a freelancer sending your first invoice or a growing business standardising your billing process, the fundamentals are the same: use a consistent format, include all required elements, send promptly, and follow up systematically. Start creating professional invoices today with <a href="/invoicing">Invoicemonk's free invoicing tools</a>, and explore our <a href="/guides/invoicing">complete invoicing guide</a> for advanced strategies.</p>
 `
+  },
+  ...allCompliancePosts,
+].map(ensureSemanticDefaults);
+
+/**
+ * Ensure every post has dateModified and entityMentions for complete semantic SEO.
+ * This normalisation layer means we don't need to manually add these fields to 100+ posts.
+ */
+function ensureSemanticDefaults(post: BlogPost): BlogPost {
+  const result = { ...post };
+
+  // Gap 1: Ensure dateModified is present (default to date if missing)
+  if (!result.dateModified) {
+    result.dateModified = '2026-02-21';
   }
-];
+
+  // Gap 2: Ensure entityMentions is present
+  if (!result.entityMentions || result.entityMentions.length === 0) {
+    result.entityMentions = getDefaultEntityMentions(result.category, result.targetProduct);
+  }
+
+  return result;
+}
+
+/**
+ * Generate default entity mentions based on post category for semantic schema.
+ */
+function getDefaultEntityMentions(
+  category: string,
+  targetProduct?: string
+): Array<{ name: string; type?: string; url?: string; sameAs?: string }> {
+  const mentions: Array<{ name: string; type?: string; url?: string; sameAs?: string }> = [];
+
+  // Always add Invoicemonk as a software entity
+  mentions.push({
+    name: 'Invoicemonk',
+    type: 'SoftwareApplication',
+    url: 'https://invoicemonk.com'
+  });
+
+  // Category-specific entities with Wikipedia sameAs links
+  switch (category) {
+    case 'Invoicing and Billing Tips':
+      mentions.push(
+        { name: 'Invoice', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Invoice' },
+        { name: 'Accounts Receivable', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Accounts_receivable' }
+      );
+      break;
+    case 'Finance':
+      mentions.push(
+        { name: 'Cash Flow', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Cash_flow' },
+        { name: 'Payment', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Payment' }
+      );
+      break;
+    case 'Small Business':
+      mentions.push(
+        { name: 'Small Business', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Small_business' },
+        { name: 'Bookkeeping', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Bookkeeping' }
+      );
+      break;
+    case 'Tax and Compliance':
+      mentions.push(
+        { name: 'Tax Compliance', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Tax_compliance' },
+        { name: 'Value-Added Tax', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Value-added_tax' }
+      );
+      break;
+    case 'Freelancing':
+      mentions.push(
+        { name: 'Freelancer', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Freelancer' },
+        { name: 'Self-Employment', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Self-employment' }
+      );
+      break;
+    default:
+      mentions.push(
+        { name: 'Accounting', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Accounting' }
+      );
+  }
+
+  return mentions;
+}
 
 export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
   return blogPosts.find(post => post.slug === slug);

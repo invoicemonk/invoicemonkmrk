@@ -12,6 +12,7 @@ import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { ItemListSchema } from '@/components/seo/ItemListSchema';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import NotFound from './NotFound';
@@ -71,6 +72,17 @@ const BlogTopic = () => {
         canonical={hubUrl}
       />
       <BreadcrumbSchema items={breadcrumbs} />
+      <ItemListSchema
+        name={`${pillar.title} Articles`}
+        description={pillar.longDescription}
+        items={posts.map(p => ({
+          name: p.title,
+          url: `https://invoicemonk.com/blog/${p.slug}`,
+          description: p.excerpt,
+          image: `https://invoicemonk.com${p.featuredImage}`
+        }))}
+        itemType="BlogPosting"
+      />
       {pillar.faq && pillar.faq.length > 0 && (
         <FAQSchema items={pillar.faq} />
       )}
