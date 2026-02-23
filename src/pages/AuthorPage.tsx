@@ -29,7 +29,6 @@ const AuthorPage = () => {
       <SEOHead
         title={`${author.name} - Author at Invoicemonk`}
         description={author.bio}
-        canonical={`https://invoicemonk.com/blog/author/${author.slug}`}
         ogImage={`https://invoicemonk.com${author.avatar}`}
         ogType="profile"
       />

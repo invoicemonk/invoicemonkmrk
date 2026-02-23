@@ -10,7 +10,6 @@ const SLA = () => {
       <SEOHead
         title={seo?.getTitle({} as any) || 'Service Level Agreement (SLA) | Invoicemonk'}
         description={seo?.getDescription({} as any) || 'Service commitments and technical guarantees for Invoicemonk.'}
-        canonical="https://invoicemonk.com/legal/sla"
       />
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">

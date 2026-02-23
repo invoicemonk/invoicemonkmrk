@@ -70,7 +70,6 @@ export default function BestInvoicingSoftware() {
       <SEOHead
         title="Best Invoicing Software for Small Business in 2026 | Top 5 Compared"
         description="The best invoicing software for small business in 2026: Invoicemonk, FreshBooks, Wave, Zoho Invoice, and QuickBooks — features, pricing, pros, cons, and our honest pick."
-        canonical="https://invoicemonk.com/best-invoicing-software"
       />
       <FAQSchema items={faqs} />
 

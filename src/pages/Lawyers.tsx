@@ -79,7 +79,6 @@ const Lawyers = () => {
       <SEOHead
         title="Legal Billing Software for Lawyers | Invoicemonk"
         description="Professional legal billing with time tracking, retainer management, and detailed invoicing. Built for law firms, solo practitioners, and legal consultants."
-        canonical="https://invoicemonk.com/lawyers"
       />
       <FAQSchema items={faqs} />
 

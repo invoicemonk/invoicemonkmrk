@@ -31,7 +31,6 @@ export default function ClientManagementGuide() {
       <SEOHead
         title={`${pillar.title} Guide | Invoicemonk`}
         description={pillar.longDescription}
-        canonical={`https://invoicemonk.com/guides/${pillar.slug}`}
       />
       <BreadcrumbSchema items={breadcrumbs} />
       

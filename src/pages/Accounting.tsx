@@ -148,7 +148,6 @@ const Accounting = () => {
       <SEOHead
         title="Small Business Accounting Software | Double-Entry Bookkeeping | Invoicemonk"
         description="Complete accounting software with double-entry bookkeeping, financial statements, and tax reports. Designed for small businesses and freelancers."
-        canonical="https://invoicemonk.com/accounting"
       />
       <ServiceSchema
         serviceName="Invoicemonk Accounting Software"

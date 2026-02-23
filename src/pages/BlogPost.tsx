@@ -132,7 +132,6 @@ const BlogPost = () => {
       <SEOHead
         title={`${post.title} | Invoicemonk Blog`}
         description={post.excerpt}
-        canonical={articleUrl}
         ogImage={ogImageUrl}
         ogImageWidth={1200}
         ogImageHeight={630}

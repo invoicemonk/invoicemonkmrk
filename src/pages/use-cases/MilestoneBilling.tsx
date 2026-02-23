@@ -24,7 +24,6 @@ export default function MilestoneBilling() {
       <SEOHead
         title="Milestone Billing & Progress Invoicing | Invoicemonk"
         description="Bill clients at project milestones with deposit, progress, and final invoices. Perfect for photographers, developers, and project-based businesses. Free tier available."
-        canonical="https://invoicemonk.com/use-cases/milestone-billing"
       />
       <FAQSchema items={faqs} />
 

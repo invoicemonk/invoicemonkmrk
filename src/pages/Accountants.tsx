@@ -108,7 +108,6 @@ const Accountants = () => {
       <SEOHead
         title="Invoicing for Accountants & Bookkeepers | Invoicemonk"
         description="Multi-client invoicing and billing for accountants, bookkeepers, and accounting firms. Recurring billing, tax compliance, and detailed financial reporting."
-        canonical="https://invoicemonk.com/accountants"
       />
       <FAQSchema items={faqs} />
 

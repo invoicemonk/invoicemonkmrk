@@ -111,7 +111,6 @@ const Consultants = () => {
       <SEOHead
         title="Invoicing Software for Consultants | Invoicemonk"
         description="Professional invoicing for management consultants and strategy firms. Multi-currency billing, detailed reporting, and enterprise-ready compliance."
-        canonical="https://invoicemonk.com/consultants"
       />
       <FAQSchema items={faqs} />
 

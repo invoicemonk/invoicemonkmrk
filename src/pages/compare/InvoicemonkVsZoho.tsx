@@ -36,7 +36,6 @@ export default function InvoicemonkVsZoho() {
       <SEOHead
         title="Invoicemonk vs Zoho Invoice: Simpler Alternative | 2026 Comparison"
         description="Compare Invoicemonk and Zoho Invoice. See how features, pricing, ease of use, and setup complexity stack up for small businesses in 2026."
-        canonical="https://invoicemonk.com/compare/invoicemonk-vs-zoho-invoice"
       />
       <FAQSchema items={faqs} />
 

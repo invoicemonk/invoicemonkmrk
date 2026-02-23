@@ -120,7 +120,6 @@ const Glossary = () => {
       <SEOHead
         title="Business Finance Glossary | Invoicing & Accounting Terms | Invoicemonk"
         description="Comprehensive glossary of invoicing, payments, accounting, tax, and business finance terms. Learn key concepts for small business owners and freelancers."
-        canonical="https://invoicemonk.com/glossary"
       />
       <DefinedTermSetSchema terms={glossaryTerms} />
 

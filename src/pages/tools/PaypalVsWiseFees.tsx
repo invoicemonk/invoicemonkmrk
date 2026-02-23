@@ -44,7 +44,6 @@ export default function PaypalVsWiseFees() {
         title="Wise vs PayPal Fees for International Transfers (2026) — Which Saves You More?"
         description="Wise vs PayPal fees compared side by side for international invoice payments. Real cost breakdowns for $500, $1K, and $5K transfers. See who wins in 2026."
         ogType="website"
-        canonical="https://invoicemonk.com/paypal-vs-wise-fees"
       />
       <FAQSchema items={faqs} />
 

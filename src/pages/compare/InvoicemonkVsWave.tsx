@@ -38,7 +38,6 @@ export default function InvoicemonkVsWave() {
       <SEOHead
         title="Invoicemonk vs Wave: Which Free Invoicing Software Is Better? | 2026"
         description="Compare Invoicemonk and Wave side by side. Both offer free invoicing, but differ in currency support, global availability, credit notes, and features."
-        canonical="https://invoicemonk.com/compare/invoicemonk-vs-wave"
       />
       <FAQSchema items={faqs} />
 

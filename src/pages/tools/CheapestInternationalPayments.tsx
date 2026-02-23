@@ -32,7 +32,6 @@ export default function CheapestInternationalPayments() {
         title="Cheapest International Payment Methods for Invoices (2026) | Ranked by Total Cost"
         description="Which is the cheapest way to settle international invoice payments? Wise vs PayPal vs SWIFT vs card — ranked by total cost with a real-time fee calculator. Updated February 2026."
         ogType="website"
-        canonical="https://invoicemonk.com/cheapest-way-to-receive-international-payments"
       />
       <FAQSchema items={faqs} />
 

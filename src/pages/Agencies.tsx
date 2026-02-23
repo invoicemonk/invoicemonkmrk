@@ -108,7 +108,6 @@ const Agencies = () => {
       <SEOHead
         title="Invoicing Software for Agencies | Invoicemonk"
         description="Streamline agency billing with retainer invoicing, multi-project tracking, and branded invoices. Built for digital, creative, and marketing agencies."
-        canonical="https://invoicemonk.com/agencies"
       />
       <FAQSchema items={faqs} />
 

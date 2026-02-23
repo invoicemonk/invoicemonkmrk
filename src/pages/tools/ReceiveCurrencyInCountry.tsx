@@ -44,7 +44,6 @@ export default function ReceiveCurrencyInCountry() {
         title={`${title} | Invoicemonk`}
         description={description}
         ogType="website"
-        canonical={`/receive-${corridor.currency}-in-${corridor.country}-cost`}
       />
       <FAQSchema items={faqs} />
 

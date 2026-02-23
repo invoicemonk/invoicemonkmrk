@@ -61,7 +61,6 @@ const Developer = () => {
       <SEOHead
         title={seo?.getTitle({} as any) || 'Developer API | Invoicemonk'}
         description={seo?.getDescription({} as any) || 'Integrate Invoicemonk into your applications with our developer API. Full documentation and SDKs available.'}
-        canonical="https://invoicemonk.com/developer"
       />
       {/* Hero Section */}
       <div className="relative">

@@ -143,7 +143,6 @@ const Estimates = () => {
       <SEOHead
         title="Professional Estimates & Quotes Software | Proposals | Invoicemonk"
         description="Create professional estimates and quotes. Get client approval online and convert to invoices with one click. Win more business with better proposals."
-        canonical="https://invoicemonk.com/estimates"
       />
       <ServiceSchema
         serviceName="Invoicemonk Estimates & Proposals"

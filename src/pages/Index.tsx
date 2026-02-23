@@ -32,7 +32,6 @@ const Index = () => {
       <SEOHead
         title={seo.getTitle(locale)}
         description={seo.getDescription(locale)}
-        canonical="https://invoicemonk.com/"
       />
       <WebSiteSchema />
       <SoftwareApplicationSchema />

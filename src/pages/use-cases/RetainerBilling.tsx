@@ -24,7 +24,6 @@ export default function RetainerBilling() {
       <SEOHead
         title="Retainer Billing & Client Retainer Invoicing | Invoicemonk"
         description="Automate retainer invoicing for ongoing client relationships. Recurring billing, drawdown tracking, and professional retainer management. Free tier available."
-        canonical="https://invoicemonk.com/use-cases/retainer-billing"
       />
       <FAQSchema items={faqs} />
 

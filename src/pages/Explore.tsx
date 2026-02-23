@@ -25,7 +25,6 @@ function Explore() {
       <SEOHead
         title="Explore Topics & Reviews | Invoicemonk"
         description="Explore our comprehensive topic guides, read customer reviews, and track your learning progress. Master invoicing, payments, and business finance."
-        canonical="https://invoicemonk.com/explore"
       />
 
       {/* Hero */}

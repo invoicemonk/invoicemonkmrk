@@ -117,7 +117,6 @@ const SmallBusinesses = () => {
       <SEOHead
         title={seo?.getTitle(locale) || 'Invoicing for Small Businesses | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Complete invoicing and accounting solution for small businesses.'}
-        canonical="https://invoicemonk.com/small-businesses"
       />
       <FAQSchema items={faqs} />
 

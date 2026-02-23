@@ -37,7 +37,6 @@ export default function InvoicemonkVsQuickbooks() {
       <SEOHead
         title="Invoicemonk vs QuickBooks: Affordable Alternative | 2026 Comparison"
         description="Compare Invoicemonk and QuickBooks for small business invoicing. Features, pricing, and which is the best fit for freelancers and small businesses in 2026."
-        canonical="https://invoicemonk.com/compare/invoicemonk-vs-quickbooks"
       />
       <FAQSchema items={faqs} />
 

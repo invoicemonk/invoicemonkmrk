@@ -125,7 +125,6 @@ const Payments = () => {
       <SEOHead
         title="Accept Online Payments | Payment Processing | Invoicemonk"
         description="Accept payments directly from invoices. Credit cards, bank transfers, and digital wallets with automatic reconciliation and low processing fees."
-        canonical="https://invoicemonk.com/payments"
       />
       <ServiceSchema
         serviceName="Invoicemonk Payment Processing"

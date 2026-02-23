@@ -116,7 +116,6 @@ const Freelancers = () => {
       <SEOHead
         title="Freelance Invoicing Software | Get Paid Faster | Free for Freelancers"
         description="The best freelance invoicing software in 2026. Create professional invoices, automate payment reminders, and track income — free to start, no credit card required."
-        canonical="https://invoicemonk.com/freelancers"
       />
       <FAQSchema items={faqs} />
 

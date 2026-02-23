@@ -108,7 +108,6 @@ const Ecommerce = () => {
       <SEOHead
         title="Invoicing for E-commerce Sellers | Invoicemonk"
         description="Professional invoicing for e-commerce businesses. B2B wholesale billing, multi-currency invoicing, and subscription billing for online sellers."
-        canonical="https://invoicemonk.com/ecommerce"
       />
       <FAQSchema items={faqs} />
 

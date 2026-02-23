@@ -23,7 +23,6 @@ export default function GuidesIndex() {
       <SEOHead
         title="Business Guides & Resources | Invoicemonk"
         description="Comprehensive guides on invoicing, getting paid, accounting, tax compliance, freelancing, and business proposals. Expert knowledge to grow your business."
-        canonical="https://invoicemonk.com/guides"
       />
       
       {/* Hero */}

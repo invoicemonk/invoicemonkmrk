@@ -79,7 +79,6 @@ const Creatives = () => {
       <SEOHead
         title="Invoicing for Creatives & Designers | Invoicemonk"
         description="Professional invoicing for graphic designers, illustrators, videographers, and creative freelancers. Project billing, branded invoices, and payment tracking."
-        canonical="https://invoicemonk.com/creatives"
       />
       <FAQSchema items={faqs} />
 

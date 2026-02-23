@@ -36,7 +36,6 @@ export default function InternationalPaymentFeeCalculator() {
         title="International Payment Fee Calculator 2026 | Compare Wise vs PayPal vs Bank Transfer Fees"
         description="Compare international payment fees across Wise, PayPal, SWIFT, and card processors. See exactly how much you'll receive after fees — free calculator, updated 2026."
         ogType="website"
-        canonical="https://invoicemonk.com/international-payment-fee-calculator"
       />
       <FAQSchema items={faqs} />
 

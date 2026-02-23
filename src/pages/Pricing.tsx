@@ -48,7 +48,6 @@ const Pricing = () => {
       <SEOHead
         title={seo?.getTitle(locale) || 'Pricing | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Simple, transparent pricing. Start free, upgrade when you need more.'}
-        canonical="https://invoicemonk.com/pricing"
       />
       {/* Hero */}
       <section className="py-20 lg:py-32 bg-gradient-to-b from-background to-primary-soft">

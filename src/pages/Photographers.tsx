@@ -79,7 +79,6 @@ const Photographers = () => {
       <SEOHead
         title="Invoice Software for Photographers | Invoicemonk"
         description="Create professional photography invoices with milestone payments, package billing, and branded templates. Perfect for wedding, event, and commercial photographers."
-        canonical="https://invoicemonk.com/photographers"
       />
       <FAQSchema items={faqs} />
 

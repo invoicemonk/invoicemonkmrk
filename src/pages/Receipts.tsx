@@ -146,7 +146,6 @@ const Receipts = () => {
       <SEOHead
         title="Digital Receipt Management | AI Receipt Scanning | Invoicemonk"
         description="Capture, organize, and store all your receipts digitally. AI-powered scanning, smart organization, and secure cloud storage."
-        canonical="https://invoicemonk.com/receipts"
       />
       <ServiceSchema
         serviceName="Invoicemonk Receipt Management"

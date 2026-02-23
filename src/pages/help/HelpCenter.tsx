@@ -34,7 +34,6 @@ export default function HelpCenter() {
       <SEOHead
         title="Help Center — Invoicemonk Product Guides"
         description="Step-by-step guides for every Invoicemonk feature. Learn how to create invoices, record payments, track expenses, manage your team, and more."
-        canonical="https://invoicemonk.com/help"
       />
       <BreadcrumbSchema
         items={[

@@ -69,7 +69,6 @@ const BlogTopic = () => {
       <SEOHead
         title={`${pillar.title} - Expert Guides & Tips | Invoicemonk Blog`}
         description={pillar.longDescription}
-        canonical={hubUrl}
       />
       <BreadcrumbSchema items={breadcrumbs} />
       <ItemListSchema

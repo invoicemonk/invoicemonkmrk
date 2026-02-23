@@ -147,7 +147,6 @@ const Blog = () => {
       <SEOHead
         title={seo.getTitle(locale)}
         description={seo.getDescription(locale)}
-        canonical="https://invoicemonk.com/blog"
       />
       
       {/* ItemList Schema for blog topics */}

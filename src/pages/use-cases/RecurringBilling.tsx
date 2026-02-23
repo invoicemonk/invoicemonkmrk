@@ -24,7 +24,6 @@ export default function RecurringBilling() {
       <SEOHead
         title="Recurring Billing & Subscription Invoicing | Invoicemonk"
         description="Automate recurring invoices for retainer clients, subscriptions, and repeat services. Set it up once and get paid on schedule. Free tier available."
-        canonical="https://invoicemonk.com/use-cases/recurring-billing"
       />
       <FAQSchema items={faqs} />
 

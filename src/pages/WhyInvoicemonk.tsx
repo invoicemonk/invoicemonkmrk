@@ -73,7 +73,6 @@ const WhyInvoicemonk = () => {
       <SEOHead
         title={seo?.getTitle(locale) || 'Why Choose Invoicemonk | Compliance-First Invoicing'}
         description={seo?.getDescription(locale) || 'Discover why businesses choose Invoicemonk. Compliance-first invoicing, powerful features, and excellent support.'}
-        canonical="https://invoicemonk.com/why-invoicemonk"
       />
       {/* Hero Section */}
       <div className="relative">

@@ -37,7 +37,7 @@ export default function InvoicemonkVsFreshbooks() {
       <SEOHead
         title="Invoicemonk vs FreshBooks: Which Is Better? | 2026 Comparison"
         description="Compare Invoicemonk and FreshBooks side by side. Features, pricing, and which invoicing software is best for freelancers and small businesses in 2026."
-        canonical="https://invoicemonk.com/compare/invoicemonk-vs-freshbooks"
+        
       />
       <FAQSchema items={faqs} />
 

@@ -29,7 +29,6 @@ export default function HelpArticle() {
       <SEOHead
         title={`${guide.title} — Invoicemonk Help`}
         description={guide.description}
-        canonical={`https://invoicemonk.com/help/${guide.slug}`}
       />
       <HowToSchema
         name={guide.title}

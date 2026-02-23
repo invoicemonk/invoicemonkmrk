@@ -24,7 +24,6 @@ export default function MultiCurrencyInvoicing() {
       <SEOHead
         title="Multi-Currency Invoicing Software | Invoice in Any Currency | Invoicemonk"
         description="Send invoices in any currency. Multi-currency support for freelancers and businesses with international clients. Automatic exchange rates and tax compliance. Free tier available."
-        canonical="https://invoicemonk.com/use-cases/multi-currency-invoicing"
       />
       <FAQSchema items={faqs} />
 

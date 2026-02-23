@@ -99,7 +99,6 @@ const ClientManagement = () => {
       <SEOHead
         title="Client Management Software | Organize Clients | Invoicemonk"
         description="Manage client information, track payment history, and build better relationships. Included free with every Invoicemonk account."
-        canonical="https://invoicemonk.com/client-management"
       />
       <ServiceSchema
         serviceName="Invoicemonk Client Management"

@@ -132,7 +132,6 @@ const Invoicing = () => {
       <SEOHead
         title="Invoicing Software for Small Business | Free to Start | Invoicemonk"
         description="The easiest invoicing software for small businesses and freelancers. Create professional invoices in minutes, automate reminders, and get paid faster. Free tier available."
-        canonical="https://invoicemonk.com/invoicing"
       />
       <FAQSchema items={invoicingFAQs} />
       <ServiceSchema

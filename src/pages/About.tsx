@@ -50,7 +50,6 @@ const About = () => {
       <SEOHead
         title={seo?.getTitle({} as any) || 'About Invoicemonk | Our Story & Mission'}
         description={seo?.getDescription({} as any) || 'Learn about Invoicemonk - the invoicing and accounting platform built for businesses worldwide.'}
-        canonical="https://invoicemonk.com/about"
       />
       {/* Hero Section */}
       <section className="py-20 lg:py-32 bg-gradient-to-b from-background to-accent/30">

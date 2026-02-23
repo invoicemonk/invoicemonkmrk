@@ -10,7 +10,6 @@ const ApiDocs = () => {
       <SEOHead
         title={seo?.getTitle({} as any) || 'API Documentation | Invoicemonk'}
         description={seo?.getDescription({} as any) || 'Full API reference for the Invoicemonk compliance infrastructure.'}
-        canonical="https://invoicemonk.com/docs/api"
       />
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
