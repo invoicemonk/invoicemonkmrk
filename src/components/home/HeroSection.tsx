@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion';
 import { Star, ArrowRight, Globe, Shield } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { useLocale } from '@/hooks/useLocale';
 
 export function HeroSection() {
   const { locale, formatPrice } = useLocale();
+  const { t } = useTranslation('common');
   const { hero, compliance } = locale.content;
 
   return (
@@ -50,7 +52,7 @@ export function HeroSection() {
               </div>
             </div>
             <span className="text-body-sm text-muted-foreground">
-              4.6/5 on Google
+              {t('hero.googleRating')}
             </span>
           </motion.div>
 
@@ -113,7 +115,7 @@ export function HeroSection() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6"
           >
             <p className="text-body-sm text-muted-foreground">
-              Free tier available • No credit card required
+              {t('hero.freeTier')} • {t('hero.noCreditCard')}
             </p>
             <span className="hidden sm:block text-muted-foreground/30">|</span>
             <p className="text-body-sm font-medium text-foreground">
@@ -143,13 +145,13 @@ export function HeroSection() {
                           <span className="text-primary-foreground font-bold text-sm">IM</span>
                         </div>
                         <div>
-                          <div className="text-body-sm font-medium text-heading">Dashboard</div>
+                          <div className="text-body-sm font-medium text-heading">{t('hero.dashboard')}</div>
                           <div className="text-caption text-muted-foreground">Invoicemonk</div>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="hidden sm:inline px-3 py-1.5 text-caption font-medium rounded-full bg-wave-green/10 text-wave-green">
-                          {formatPrice(locale.pricing.professional)} earned this month
+                          {t('hero.earnedThisMonth', { amount: formatPrice(locale.pricing.professional, '') })}
                         </span>
                       </div>
                     </div>
@@ -157,10 +159,10 @@ export function HeroSection() {
                     {/* Stats grid - Localized currencies */}
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                       {[
-                        { label: 'Outstanding', value: formatPrice(locale.pricing.business * 8, ''), color: 'text-wave-orange' },
-                        { label: 'Overdue', value: formatPrice((locale.pricing.starter || locale.pricing.professional) * 5, ''), color: 'text-destructive' },
-                        { label: 'Paid (30 days)', value: formatPrice(locale.pricing.professional * 65, ''), color: 'text-wave-green' },
-                        { label: 'Total Invoices', value: '24', color: 'text-primary' },
+                        { label: t('hero.outstanding'), value: formatPrice(locale.pricing.business * 8, ''), color: 'text-wave-orange' },
+                        { label: t('hero.overdue'), value: formatPrice((locale.pricing.starter || locale.pricing.professional) * 5, ''), color: 'text-destructive' },
+                        { label: t('hero.paidThirtyDays'), value: formatPrice(locale.pricing.professional * 65, ''), color: 'text-wave-green' },
+                        { label: t('hero.totalInvoices'), value: '24', color: 'text-primary' },
                       ].map((stat) => (
                         <div key={stat.label} className="bg-muted/50 rounded-lg p-3 min-w-0">
                           <div className="text-caption text-muted-foreground">{stat.label}</div>
@@ -172,16 +174,16 @@ export function HeroSection() {
                     {/* Recent invoices */}
                     <div className="hidden lg:block space-y-2">
                       {[
-                        { client: 'Acme Corp', amount: formatPrice(locale.pricing.business * 6, ''), status: 'Paid' },
-                        { client: 'TechStart Inc', amount: formatPrice(locale.pricing.professional * 6, ''), status: 'Pending' },
-                        { client: 'Design Studio', amount: formatPrice(locale.pricing.business * 8, ''), status: 'Paid' },
+                        { client: 'Acme Corp', amount: formatPrice(locale.pricing.business * 6, ''), status: t('hero.paid') },
+                        { client: 'TechStart Inc', amount: formatPrice(locale.pricing.professional * 6, ''), status: t('hero.pending') },
+                        { client: 'Design Studio', amount: formatPrice(locale.pricing.business * 8, ''), status: t('hero.paid') },
                       ].map((invoice) => (
                         <div key={invoice.client} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-muted/50">
                           <span className="text-body-sm text-foreground">{invoice.client}</span>
                           <div className="flex items-center gap-3">
                             <span className="text-body-sm font-medium text-heading">{invoice.amount}</span>
                             <span className={`px-2 py-0.5 text-[10px] font-medium rounded-full ${
-                              invoice.status === 'Paid' 
+                              invoice.status === t('hero.paid')
                                 ? 'bg-wave-green/10 text-wave-green' 
                                 : 'bg-wave-orange/10 text-wave-orange'
                             }`}>
@@ -209,7 +211,7 @@ export function HeroSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-body-sm font-medium text-foreground">Payment Received</p>
+                  <p className="text-body-sm font-medium text-foreground">{t('hero.paymentReceived')}</p>
                   <p className="text-caption text-muted-foreground">{formatPrice(locale.pricing.business * 6, '')} from Acme Corp</p>
                 </div>
               </div>
@@ -225,8 +227,8 @@ export function HeroSection() {
                   <Shield className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-body-sm font-medium text-foreground">Jurisdiction-Aware</p>
-                  <p className="text-caption text-muted-foreground">All records audit-ready</p>
+                  <p className="text-body-sm font-medium text-foreground">{t('hero.jurisdictionAware')}</p>
+                  <p className="text-caption text-muted-foreground">{t('hero.allRecordsAuditReady')}</p>
                 </div>
               </div>
             </motion.div>

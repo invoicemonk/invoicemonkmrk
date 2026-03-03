@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from '@/components/LocalizedLink';
 import logo from '@/assets/invoicemonk-logo.png';
 import { locales, supportedCountries, countryToUrlPrefix } from '@/locales';
@@ -144,6 +145,81 @@ const SubSection = ({ label }: { label: string }) => (
 );
 
 export function Footer() {
+  const { t } = useTranslation('common');
+
+  const footerLinks = {
+    platform: [
+      { name: t('products.invoicing.name'), href: '/invoicing', badge: t('status.available') },
+      { name: t('products.clientManagement.name'), href: '/client-management', badge: t('status.available') },
+      { name: t('products.expenses.name'), href: '/expenses', badge: t('status.available') },
+      { name: t('products.payments.name'), href: '/payments', badge: t('status.comingSoon') },
+      { name: t('products.accounting.name'), href: '/accounting', badge: t('status.available') },
+      { name: t('products.estimates.name'), href: '/estimates', badge: t('status.comingSoon') },
+      { name: t('products.receipts.name'), href: '/receipts', badge: t('status.available') },
+    ],
+    resources: [
+      { name: t('footer.helpCenter'), href: '/help' },
+      { name: t('nav.blog'), href: '/blog' },
+      { name: t('footer.glossary'), href: '/glossary' },
+      { name: t('nav.guides'), href: '/guides' },
+      { name: t('footer.exploreTopics'), href: '/explore' },
+      { name: t('footer.videoTutorials'), href: 'https://learn.invoicemonk.com', external: true },
+      { name: t('footer.freeInvoiceGenerator'), href: '/free-invoice-generator' },
+      { name: t('footer.paymentFeeCalculator'), href: '/international-payment-fee-calculator' },
+      { name: t('footer.paypalVsWise'), href: '/paypal-vs-wise-fees' },
+      { name: t('footer.cheapestPayments'), href: '/cheapest-way-to-receive-international-payments' },
+      { name: t('footer.apiDocs'), href: '/docs/api' },
+    ],
+    audiences: [
+      { name: t('footer.forFreelancers'), href: '/freelancers' },
+      { name: t('footer.forConsultants'), href: '/consultants' },
+      { name: t('footer.forContractors'), href: '/contractors' },
+      { name: t('footer.forSmallBusinesses'), href: '/small-businesses' },
+      { name: t('footer.forAgencies'), href: '/agencies' },
+      { name: t('footer.forPhotographers'), href: '/photographers' },
+      { name: t('footer.forLawyers'), href: '/lawyers' },
+      { name: t('footer.forAccountants'), href: '/accountants' },
+      { name: t('footer.forEcommerce'), href: '/ecommerce' },
+      { name: t('footer.forCreatives'), href: '/creatives' },
+      { name: t('footer.developers'), href: '/developer' },
+    ],
+    topics: [
+      { name: t('footer.invoicingTips'), href: '/blog/topic/invoicing-mastery' },
+      { name: t('footer.gettingPaidFaster'), href: '/blog/topic/getting-paid' },
+      { name: t('footer.businessFinances'), href: '/blog/topic/business-finances' },
+      { name: t('footer.taxCompliance'), href: '/blog/topic/tax-compliance' },
+      { name: t('footer.freelancerGuides'), href: '/blog/topic/freelancer-success' },
+      { name: t('footer.proposalsQuotes'), href: '/blog/topic/estimates-proposals' },
+    ],
+    compare: [
+      { name: t('footer.bestInvoicingSoftware'), href: '/best-invoicing-software' },
+      { name: t('footer.vsFreshBooks'), href: '/compare/invoicemonk-vs-freshbooks' },
+      { name: t('footer.vsWave'), href: '/compare/invoicemonk-vs-wave' },
+      { name: t('footer.vsZoho'), href: '/compare/invoicemonk-vs-zoho-invoice' },
+      { name: t('footer.vsQuickBooks'), href: '/compare/invoicemonk-vs-quickbooks' },
+    ],
+    company: [
+      { name: t('footer.about'), href: '/about' },
+      { name: t('footer.whyInvoicemonk'), href: '/why-invoicemonk' },
+      { name: t('footer.compliance'), href: '/compliance' },
+      { name: t('nav.pricing'), href: '/pricing' },
+      { name: t('footer.contact'), href: '/contact' },
+    ],
+    useCases: [
+      { name: t('footer.recurringBilling'), href: '/use-cases/recurring-billing' },
+      { name: t('footer.multiCurrencyInvoicing'), href: '/use-cases/multi-currency-invoicing' },
+      { name: t('footer.milestoneBilling'), href: '/use-cases/milestone-billing' },
+      { name: t('footer.retainerBilling'), href: '/use-cases/retainer-billing' },
+    ],
+    legal: [
+      { name: t('footer.privacyPolicy'), href: '/privacy-policy' },
+      { name: t('footer.termsOfService'), href: '/terms-of-service' },
+      { name: t('footer.cookiePolicy'), href: '/cookie-policy' },
+      { name: t('footer.security'), href: '/compliance' },
+      { name: t('footer.sla'), href: '/legal/sla' },
+    ],
+  };
+
   return (
     <footer className="bg-heading">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
@@ -154,35 +230,35 @@ export function Footer() {
               <img src={logo} alt="Invoicemonk" className="h-8 w-auto brightness-0 invert" />
             </Link>
             <p className="text-body-sm text-white/60 max-w-xs">
-              The compliance-first financial platform. Start with invoicing, grow into a complete suite.
+              {t('footer.tagline')}
             </p>
             <SocialIcons />
           </div>
 
           {/* Col 3: Platform */}
-          <FooterSection title="Platform">
+          <FooterSection title={t('footer.platform')}>
             <FooterLinkList links={footerLinks.platform} />
           </FooterSection>
 
           {/* Col 4: Resources */}
-          <FooterSection title="Resources">
+          <FooterSection title={t('footer.resources')}>
             <FooterLinkList links={footerLinks.resources} />
           </FooterSection>
 
           {/* Col 5: Who It's For */}
-          <FooterSection title="Who It's For">
+          <FooterSection title={t('footer.whoItsFor')}>
             <FooterLinkList links={footerLinks.audiences} />
           </FooterSection>
 
           {/* Col 6: Topics + Compare */}
-          <FooterSection title="Topics">
+          <FooterSection title={t('footer.topics')}>
             <ul className="space-y-2.5">
               {footerLinks.topics.map((link) => (
                 <li key={link.name}>
                   <Link to={link.href} className="text-body-sm text-white/60 hover:text-primary transition-colors">{link.name}</Link>
                 </li>
               ))}
-              <SubSection label="Compare" />
+              <SubSection label={t('footer.compare')} />
               {footerLinks.compare.map((link) => (
                 <li key={link.name}>
                   <Link to={link.href} className="text-body-sm text-white/60 hover:text-primary transition-colors">{link.name}</Link>
@@ -192,20 +268,20 @@ export function Footer() {
           </FooterSection>
 
           {/* Col 7: Company + Use Cases + Legal */}
-          <FooterSection title="Company">
+          <FooterSection title={t('nav.company')}>
             <ul className="space-y-2.5">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
                   <Link to={link.href} className="text-body-sm text-white/60 hover:text-primary transition-colors">{link.name}</Link>
                 </li>
               ))}
-              <SubSection label="Use Cases" />
+              <SubSection label={t('footer.useCases')} />
               {footerLinks.useCases.map((link) => (
                 <li key={link.name}>
                   <Link to={link.href} className="text-body-sm text-white/60 hover:text-primary transition-colors">{link.name}</Link>
                 </li>
               ))}
-              <SubSection label="Legal" />
+              <SubSection label={t('footer.legal')} />
               {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <Link to={link.href} className="text-body-sm text-white/60 hover:text-primary transition-colors">{link.name}</Link>
@@ -217,7 +293,7 @@ export function Footer() {
 
         {/* Available In - Country Links */}
         <div className="mt-10 pt-8 border-t border-white/10">
-          <h4 className="text-[11px] uppercase tracking-widest font-semibold text-white/40 mb-3">Available In</h4>
+          <h4 className="text-[11px] uppercase tracking-widest font-semibold text-white/40 mb-3">{t('footer.availableIn')}</h4>
           <div className="flex flex-wrap gap-2">
             {supportedCountries.map((code) => {
               const locale = locales[code];
@@ -239,7 +315,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex items-center justify-center">
           <p className="text-body-sm text-white/60">
-            © {new Date().getFullYear()} Invoicemonk. All rights reserved.
+            {t('footer.copyright', { year: new Date().getFullYear() })}
           </p>
         </div>
       </div>
