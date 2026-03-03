@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "products": "Products",
+    "help": "Help",
+    "guides": "Guides",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "whyInvoicemonk": "Why Invoicemonk",
+    "login": "Log in",
+    "getStarted": "Get Started",
+    "company": "Company"
+  },
+  "products": {
+    "invoicing": {
+      "name": "Invoicing",
+      "description": "Professional invoicing with compliance"
+    },
+    "expenses": {
+      "name": "Expenses",
+      "description": "Track and manage expenses"
+    },
+    "payments": {
+      "name": "Payments",
+      "description": "Accept and track payments"
+    },
+    "accounting": {
+      "name": "Accounting",
+      "description": "Full-featured accounting"
+    },
+    "estimates": {
+      "name": "Estimates",
+      "description": "Create professional estimates"
+    },
+    "receipts": {
+      "name": "Receipts",
+      "description": "Digital receipt management"
+    },
+    "clientManagement": {
+      "name": "Client Management",
+      "description": "Organize clients and track history"
+    }
+  },
+  "status": {
+    "available": "Available",
+    "comingSoon": "Soon"
+  },
+  "footer": {
+    "tagline": "The compliance-first financial platform. Start with invoicing, grow into a complete suite.",
+    "platform": "Platform",
+    "resources": "Resources",
+    "whoItsFor": "Who It's For",
+    "topics": "Topics",
+    "compare": "Compare",
+    "useCases": "Use Cases",
+    "legal": "Legal",
+    "availableIn": "Available In",
+    "copyright": "© {{year}} Invoicemonk. All rights reserved.",
+    "helpCenter": "Help Center",
+    "glossary": "Glossary",
+    "exploreTopics": "Explore Topics",
+    "videoTutorials": "Video Tutorials",
+    "freeInvoiceGenerator": "Free Invoice Generator",
+    "paymentFeeCalculator": "Payment Fee Calculator",
+    "paypalVsWise": "PayPal vs Wise Fees",
+    "cheapestPayments": "Cheapest International Payments",
+    "apiDocs": "API Documentation",
+    "forFreelancers": "For Freelancers",
+    "forConsultants": "For Consultants",
+    "forContractors": "For Contractors",
+    "forSmallBusinesses": "For Small Businesses",
+    "forAgencies": "For Agencies",
+    "forPhotographers": "For Photographers",
+    "forLawyers": "For Lawyers",
+    "forAccountants": "For Accountants",
+    "forEcommerce": "For E-commerce",
+    "forCreatives": "For Creatives",
+    "developers": "Developers",
+    "invoicingTips": "Invoicing Tips",
+    "gettingPaidFaster": "Getting Paid Faster",
+    "businessFinances": "Business Finances",
+    "taxCompliance": "Tax Compliance",
+    "freelancerGuides": "Freelancer Guides",
+    "proposalsQuotes": "Proposals & Quotes",
+    "bestInvoicingSoftware": "Best Invoicing Software 2026",
+    "vsFreshBooks": "vs FreshBooks",
+    "vsWave": "vs Wave",
+    "vsZoho": "vs Zoho Invoice",
+    "vsQuickBooks": "vs QuickBooks",
+    "about": "About",
+    "whyInvoicemonk": "Why Invoicemonk",
+    "compliance": "Compliance",
+    "contact": "Contact",
+    "recurringBilling": "Recurring Billing",
+    "multiCurrencyInvoicing": "Multi-Currency Invoicing",
+    "milestoneBilling": "Milestone Billing",
+    "retainerBilling": "Retainer Billing",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "security": "Security",
+    "sla": "Service Level Agreement"
+  },
+  "hero": {
+    "freeTier": "Free tier available",
+    "noCreditCard": "No credit card required",
+    "paymentReceived": "Payment Received",
+    "jurisdictionAware": "Jurisdiction-Aware",
+    "allRecordsAuditReady": "All records audit-ready",
+    "googleRating": "4.6/5 on Google",
+    "dashboard": "Dashboard",
+    "outstanding": "Outstanding",
+    "overdue": "Overdue",
+    "paidThirtyDays": "Paid (30 days)",
+    "totalInvoices": "Total Invoices",
+    "earnedThisMonth": "{{amount}} earned this month",
+    "paid": "Paid",
+    "pending": "Pending"
+  }
+}
