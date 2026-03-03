@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "help": "Hilfe",
+    "guides": "Anleitungen",
+    "blog": "Blog",
+    "pricing": "Preise",
+    "whyInvoicemonk": "Warum Invoicemonk",
+    "login": "Anmelden",
+    "getStarted": "Jetzt starten",
+    "company": "Unternehmen"
+  },
+  "products": {
+    "invoicing": {
+      "name": "Rechnungen",
+      "description": "Professionelle Rechnungsstellung mit Compliance"
+    },
+    "expenses": {
+      "name": "Ausgaben",
+      "description": "Ausgaben verfolgen und verwalten"
+    },
+    "payments": {
+      "name": "Zahlungen",
+      "description": "Zahlungen annehmen und verfolgen"
+    },
+    "accounting": {
+      "name": "Buchhaltung",
+      "description": "Umfassende Buchhaltungsfunktionen"
+    },
+    "estimates": {
+      "name": "Kostenvoranschläge",
+      "description": "Professionelle Angebote erstellen"
+    },
+    "receipts": {
+      "name": "Belege",
+      "description": "Digitale Belegverwaltung"
+    },
+    "clientManagement": {
+      "name": "Kundenverwaltung",
+      "description": "Kunden organisieren und Verlauf verfolgen"
+    }
+  },
+  "status": {
+    "available": "Verfügbar",
+    "comingSoon": "Bald"
+  },
+  "footer": {
+    "tagline": "Die Compliance-orientierte Finanzplattform. Starten Sie mit Rechnungen, wachsen Sie zu einer kompletten Suite.",
+    "platform": "Plattform",
+    "resources": "Ressourcen",
+    "whoItsFor": "Für wen",
+    "topics": "Themen",
+    "compare": "Vergleich",
+    "useCases": "Anwendungsfälle",
+    "legal": "Rechtliches",
+    "availableIn": "Verfügbar in",
+    "copyright": "© {{year}} Invoicemonk. Alle Rechte vorbehalten.",
+    "helpCenter": "Hilfecenter",
+    "glossary": "Glossar",
+    "exploreTopics": "Themen entdecken",
+    "videoTutorials": "Video-Tutorials",
+    "freeInvoiceGenerator": "Kostenloser Rechnungsgenerator",
+    "paymentFeeCalculator": "Zahlungsgebühren-Rechner",
+    "paypalVsWise": "PayPal vs Wise Gebühren",
+    "cheapestPayments": "Günstigste internationale Zahlungen",
+    "apiDocs": "API-Dokumentation",
+    "forFreelancers": "Für Freiberufler",
+    "forConsultants": "Für Berater",
+    "forContractors": "Für Auftragnehmer",
+    "forSmallBusinesses": "Für Kleinunternehmen",
+    "forAgencies": "Für Agenturen",
+    "forPhotographers": "Für Fotografen",
+    "forLawyers": "Für Anwälte",
+    "forAccountants": "Für Buchhalter",
+    "forEcommerce": "Für E-Commerce",
+    "forCreatives": "Für Kreative",
+    "developers": "Entwickler",
+    "invoicingTips": "Rechnungstipps",
+    "gettingPaidFaster": "Schneller bezahlt werden",
+    "businessFinances": "Unternehmensfinanzen",
+    "taxCompliance": "Steuerkonformität",
+    "freelancerGuides": "Freiberufler-Anleitungen",
+    "proposalsQuotes": "Angebote & Kostenvoranschläge",
+    "bestInvoicingSoftware": "Beste Rechnungssoftware 2026",
+    "vsFreshBooks": "vs FreshBooks",
+    "vsWave": "vs Wave",
+    "vsZoho": "vs Zoho Invoice",
+    "vsQuickBooks": "vs QuickBooks",
+    "about": "Über uns",
+    "whyInvoicemonk": "Warum Invoicemonk",
+    "compliance": "Compliance",
+    "contact": "Kontakt",
+    "recurringBilling": "Wiederkehrende Abrechnung",
+    "multiCurrencyInvoicing": "Mehrwährungs-Rechnungen",
+    "milestoneBilling": "Meilenstein-Abrechnung",
+    "retainerBilling": "Pauschalabrechnung",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "security": "Sicherheit",
+    "sla": "Service Level Agreement"
+  },
+  "hero": {
+    "freeTier": "Kostenlose Stufe verfügbar",
+    "noCreditCard": "Keine Kreditkarte erforderlich",
+    "paymentReceived": "Zahlung erhalten",
+    "jurisdictionAware": "Rechtskonform",
+    "allRecordsAuditReady": "Alle Unterlagen prüfungsbereit",
+    "googleRating": "4,6/5 bei Google",
+    "dashboard": "Dashboard",
+    "outstanding": "Ausstehend",
+    "overdue": "Überfällig",
+    "paidThirtyDays": "Bezahlt (30 Tage)",
+    "totalInvoices": "Rechnungen gesamt",
+    "earnedThisMonth": "{{amount}} diesen Monat verdient",
+    "paid": "Bezahlt",
+    "pending": "Ausstehend"
+  }
+}

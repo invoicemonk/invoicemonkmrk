@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "products": "Produtos",
+    "help": "Ajuda",
+    "guides": "Guias",
+    "blog": "Blog",
+    "pricing": "Preços",
+    "whyInvoicemonk": "Por que Invoicemonk",
+    "login": "Entrar",
+    "getStarted": "Começar agora",
+    "company": "Empresa"
+  },
+  "products": {
+    "invoicing": {
+      "name": "Faturamento",
+      "description": "Faturamento profissional com conformidade"
+    },
+    "expenses": {
+      "name": "Despesas",
+      "description": "Rastrear e gerenciar despesas"
+    },
+    "payments": {
+      "name": "Pagamentos",
+      "description": "Aceitar e rastrear pagamentos"
+    },
+    "accounting": {
+      "name": "Contabilidade",
+      "description": "Contabilidade completa"
+    },
+    "estimates": {
+      "name": "Orçamentos",
+      "description": "Criar orçamentos profissionais"
+    },
+    "receipts": {
+      "name": "Recibos",
+      "description": "Gestão digital de recibos"
+    },
+    "clientManagement": {
+      "name": "Gestão de clientes",
+      "description": "Organizar clientes e acompanhar histórico"
+    }
+  },
+  "status": {
+    "available": "Disponível",
+    "comingSoon": "Em breve"
+  },
+  "footer": {
+    "tagline": "A plataforma financeira focada em conformidade. Comece com faturamento, cresça para uma suíte completa.",
+    "platform": "Plataforma",
+    "resources": "Recursos",
+    "whoItsFor": "Para quem",
+    "topics": "Tópicos",
+    "compare": "Comparar",
+    "useCases": "Casos de uso",
+    "legal": "Jurídico",
+    "availableIn": "Disponível em",
+    "copyright": "© {{year}} Invoicemonk. Todos os direitos reservados.",
+    "helpCenter": "Central de ajuda",
+    "glossary": "Glossário",
+    "exploreTopics": "Explorar tópicos",
+    "videoTutorials": "Tutoriais em vídeo",
+    "freeInvoiceGenerator": "Gerador de faturas gratuito",
+    "paymentFeeCalculator": "Calculadora de taxas de pagamento",
+    "paypalVsWise": "PayPal vs Wise Taxas",
+    "cheapestPayments": "Pagamentos internacionais mais baratos",
+    "apiDocs": "Documentação da API",
+    "forFreelancers": "Para freelancers",
+    "forConsultants": "Para consultores",
+    "forContractors": "Para contratados",
+    "forSmallBusinesses": "Para pequenas empresas",
+    "forAgencies": "Para agências",
+    "forPhotographers": "Para fotógrafos",
+    "forLawyers": "Para advogados",
+    "forAccountants": "Para contadores",
+    "forEcommerce": "Para e-commerce",
+    "forCreatives": "Para criativos",
+    "developers": "Desenvolvedores",
+    "invoicingTips": "Dicas de faturamento",
+    "gettingPaidFaster": "Receba mais rápido",
+    "businessFinances": "Finanças empresariais",
+    "taxCompliance": "Conformidade fiscal",
+    "freelancerGuides": "Guias para freelancers",
+    "proposalsQuotes": "Propostas e Orçamentos",
+    "bestInvoicingSoftware": "Melhor software de faturamento 2026",
+    "vsFreshBooks": "vs FreshBooks",
+    "vsWave": "vs Wave",
+    "vsZoho": "vs Zoho Invoice",
+    "vsQuickBooks": "vs QuickBooks",
+    "about": "Sobre",
+    "whyInvoicemonk": "Por que Invoicemonk",
+    "compliance": "Conformidade",
+    "contact": "Contato",
+    "recurringBilling": "Cobrança recorrente",
+    "multiCurrencyInvoicing": "Faturamento multi-moeda",
+    "milestoneBilling": "Cobrança por etapas",
+    "retainerBilling": "Cobrança por retenção",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço",
+    "cookiePolicy": "Política de cookies",
+    "security": "Segurança",
+    "sla": "Acordo de nível de serviço"
+  },
+  "hero": {
+    "freeTier": "Plano gratuito disponível",
+    "noCreditCard": "Sem cartão de crédito",
+    "paymentReceived": "Pagamento recebido",
+    "jurisdictionAware": "Conforme à jurisdição",
+    "allRecordsAuditReady": "Todos os registros prontos para auditoria",
+    "googleRating": "4,6/5 no Google",
+    "dashboard": "Painel",
+    "outstanding": "Pendente",
+    "overdue": "Atrasado",
+    "paidThirtyDays": "Pago (30 dias)",
+    "totalInvoices": "Total de faturas",
+    "earnedThisMonth": "{{amount}} ganhos este mês",
+    "paid": "Pago",
+    "pending": "Pendente"
+  }
+}
