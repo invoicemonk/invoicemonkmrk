@@ -99,7 +99,7 @@ const posts: BlogPost[] = [
   {
     slug: 'client-communication-templates',
     title: 'Modèles de communication client pour freelances',
-    excerpt: 'Modèles d'emails prêts à l'emploi pour les mises à jour projet, changements de périmètre et relances de paiement.',
+    excerpt: "Modèles d\u2019emails prêts à l\u2019emploi pour les mises à jour projet, changements de périmètre et relances de paiement.",
     category: 'Client Management',
     tags: ['communication client', 'modèles email', 'freelance'],
     author: defaultAuthor,
