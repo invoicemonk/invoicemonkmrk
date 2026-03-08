@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Wiederkehrende Abrechnung & Abo-Fakturierung | Invoicemonk",
+    "description": "Automatisieren Sie wiederkehrende Rechnungen für Retainer-Kunden, Abonnements und wiederkehrende Dienstleistungen. Kostenloser Plan verfügbar."
+  },
+  "hero": {
+    "badge": "Wiederkehrende Abrechnung",
+    "title": "Automatisieren Sie Ihre wiederkehrenden Rechnungen",
+    "accentWord": "wiederkehrenden",
+    "description": "Richten Sie Abrechnungspläne für Retainer-Kunden, Abonnements und monatliche Dienste ein. Invoicemonk sendet Rechnungen automatisch.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen"
+  },
+  "overview": {
+    "title": "Warum wiederkehrende Abrechnung für Ihr Unternehmen wichtig ist",
+    "paragraphs": [
+      "Wiederkehrende Abrechnung ist das Rückgrat vorhersehbarer Einnahmen. Ohne Automatisierung verlieren Unternehmen durchschnittlich 5–10 Stunden pro Monat für repetitive Fakturierungsaufgaben.",
+      "Die Herausforderung bei manueller wiederkehrender Abrechnung sind nicht nur die Zeitkosten — es sind die Fehler. Vergessene Rechnungen, falsche Beträge und inkonsistente Zahlungsbedingungen untergraben das Kundenvertrauen.",
+      "Invoicemonks wiederkehrende Abrechnung löst diese Probleme, indem Sie einen Zeitplan einmal definieren und alles von der Rechnungserstellung bis zur Zustellung automatisiert wird."
+    ]
+  },
+  "howItWorks": {
+    "title": "So funktioniert wiederkehrende Abrechnung",
+    "subtitle": "Drei Schritte zur automatisierten Fakturierung",
+    "steps": [
+      { "title": "1. Zeitplan festlegen", "desc": "Wählen Sie wöchentliche, monatliche, vierteljährliche oder benutzerdefinierte Intervalle." },
+      { "title": "2. Rechnungen werden automatisch erstellt", "desc": "Invoicemonk erstellt und sendet jede Rechnung planmäßig mit den korrekten Positionen und Steuern." },
+      { "title": "3. Zahlungen verfolgen", "desc": "Überwachen Sie Zahlungsstatus, offene Salden und wiederkehrende Umsatztrends in Echtzeit." }
+    ]
+  },
+  "features": {
+    "title": "Wie Invoicemonk wiederkehrende Abrechnung mühelos macht",
+    "subtitle": "Jede Funktion zum Zeitsparen und Umsatzschutz entwickelt",
+    "items": [
+      { "title": "Flexible Zeitpläne", "desc": "Wöchentlich, zweiwöchentlich, monatlich, vierteljährlich oder jährlich — jede Abrechnungsfrequenz ist möglich." },
+      { "title": "Automatische Erinnerungen", "desc": "Kunden erhalten professionelle Zahlungserinnerungen vor und nach Fälligkeitsterminen." },
+      { "title": "Steuerkonformität", "desc": "Jede wiederkehrende Rechnung enthält die korrekten Steuersätze für Ihre Jurisdiktion." },
+      { "title": "Individuelle Kundeneinstellungen", "desc": "Jeder Kunde kann einzigartige Positionen, Beträge, Währungen und Zahlungsbedingungen haben." },
+      { "title": "Kundenportal-Zugang", "desc": "Kunden können ihren Rechnungsverlauf einsehen und Zahlungsstatus über ihr Portal überprüfen." },
+      { "title": "Sofortige Anpassungen", "desc": "Retainer-Betrag ändern? Aktualisieren Sie den Zeitplan und Änderungen gelten ab dem nächsten Zyklus." }
+    ]
+  },
+  "example": {
+    "title": "Wiederkehrende Abrechnung in Aktion",
+    "scenario": "Szenario: Eine Marketingagentur mit 12 Retainer-Kunden",
+    "paragraphs": [
+      "Sarah betreibt eine Digital-Marketing-Agentur mit 12 monatlichen Retainer-Kunden. Vor Invoicemonk verbrachte sie die ersten zwei Tage jedes Monats mit dem manuellen Erstellen von Rechnungen.",
+      "Mit Invoicemonks wiederkehrender Abrechnung richtete Sarah 12 Zeitpläne in unter einer Stunde ein. Am 1. jedes Monats werden alle 12 Rechnungen automatisch erstellt und zugestellt.",
+      "Das Ergebnis: Sarah gewann 16+ Stunden pro Monat zurück, reduzierte verspätete Zahlungen um 40% und ihre monatlichen wiederkehrenden Einnahmen werden in Echtzeit verfolgt."
+    ],
+    "stats": [
+      { "value": "16+ Std.", "label": "Monatlich gespart" },
+      { "value": "40%", "label": "Weniger verspätete Zahlungen" },
+      { "value": "12", "label": "Automatisch abgerechnete Kunden" }
+    ]
+  },
+  "whoUsesIt": {
+    "title": "Wer nutzt wiederkehrende Abrechnung?",
+    "subtitle": "Jedes Unternehmen mit Stammkunden oder Abo-Diensten profitiert von automatisierter Abrechnung",
+    "items": [
+      "Agenturen mit Retainer-Kunden",
+      "SaaS- und Abo-Unternehmen",
+      "Berater mit laufenden Aufträgen",
+      "Buchhalter mit wiederkehrenden Diensten",
+      "Immobilienverwalter",
+      "Wartungs- und Dienstleister",
+      "IT-Support-Unternehmen",
+      "Coaches und Trainer"
+    ]
+  },
+  "testimonials": {
+    "title": "Was Unternehmen über wiederkehrende Abrechnung sagen",
+    "items": [
+      { "quote": "Die Einrichtung wiederkehrender Rechnungen für unsere 8 Retainer-Kunden dauerte 30 Minuten. Jetzt denke ich gar nicht mehr über Fakturierung nach.", "name": "Adebayo K.", "role": "Agenturinhaber, Lagos" },
+      { "quote": "Wir haben unseren Forderungszyklus von 45 Tagen auf 18 Tage reduziert. Die Zahlungserinnerungen sind ein Gamechanger.", "name": "Rachel M.", "role": "IT-Beraterin, London" },
+      { "quote": "Als Immobilienverwalter stelle ich 30+ Mietern monatlich Rechnungen. Wiederkehrende Rechnungen haben meine Wochenenden gerettet.", "name": "David O.", "role": "Immobilienverwalter, Abuja" }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Wie funktioniert wiederkehrende Abrechnung in Invoicemonk?", "answer": "Legen Sie einen Zeitplan fest und Invoicemonk erstellt, nummeriert und sendet Rechnungen automatisch pünktlich an Ihre Kunden." },
+      { "question": "Kann ich jede wiederkehrende Rechnung anpassen?", "answer": "Ja. Jeder Zeitplan kann eigene Positionen, Beträge, Währung, Steuersätze und Zahlungsbedingungen haben." },
+      { "question": "Erhalten Kunden automatische Erinnerungen?", "answer": "Absolut. Zahlungserinnerungen funktionieren identisch für wiederkehrende Rechnungen." },
+      { "question": "Kann ich einen wiederkehrenden Zeitplan pausieren?", "answer": "Ja. Pausieren, ändern oder kündigen Sie jederzeit. Alle zuvor erstellten Rechnungen bleiben in Ihren Aufzeichnungen." },
+      { "question": "Unterstützt wiederkehrende Abrechnung mehrere Währungen?", "answer": "Ja. Jeder wiederkehrende Zeitplan kann in jeder von Invoicemonk unterstützten Währung eingerichtet werden." },
+      { "question": "Kann ich verschiedene Abrechnungsfrequenzen für verschiedene Kunden festlegen?", "answer": "Jeder Kunde kann seinen eigenen einzigartigen wiederkehrenden Zeitplan haben." },
+      { "question": "Was passiert bei unbezahlten wiederkehrenden Rechnungen?", "answer": "Invoicemonk verfolgt den Zahlungsstatus jeder Rechnung. Unbezahlte Rechnungen erscheinen in Ihren offenen Forderungen." },
+      { "question": "Gibt es ein Limit für wiederkehrende Zeitpläne?", "answer": "Kostenlose Pläne unterstützen bis zu 3 aktive Zeitpläne. Bezahlte Pläne unterstützen unbegrenzte Zeitpläne." }
+    ]
+  },
+  "related": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "label": "Leitfaden für wiederkehrende Rechnungen", "to": "/blog/recurring-invoices-automating-billing" },
+      { "label": "Best Practices für Zahlungserinnerungen", "to": "/blog/automatic-payment-reminders-getting-paid" },
+      { "label": "Für Agenturen", "to": "/agencies" },
+      { "label": "Retainer-Abrechnung", "to": "/use-cases/retainer-billing" }
+    ]
+  },
+  "cta": {
+    "title": "Automatisieren Sie Ihre Abrechnung heute",
+    "description": "Richten Sie wiederkehrende Rechnungen in Minuten ein. Kostenlos starten — keine Kreditkarte erforderlich.",
+    "button": "Kostenlos starten"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "seo": {
+    "title": "Meilenstein-Abrechnung & Fortschrittsfakturierung | Invoicemonk",
+    "description": "Berechnen Sie Kunden an Projekt-Meilensteinen mit Anzahlungs-, Fortschritts- und Schlussrechnungen. Perfekt für Fotografen, Entwickler und projektbasierte Unternehmen."
+  },
+  "hero": {
+    "badge": "Meilenstein-Abrechnung",
+    "title": "An jedem Projektmeilenstein abrechnen",
+    "accentWord": "Projektmeilenstein",
+    "description": "Anzahlungen einziehen, Fortschrittsrechnungen senden und Restbeträge abrechnen — alles an klare Projektmeilensteine gebunden.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen"
+  },
+  "overview": {
+    "title": "Warum Meilenstein-Abrechnung die klügste Art ist, Projekte zu fakturieren",
+    "paragraphs": [
+      "Bis zum Projektabschluss mit der Rechnungsstellung zu warten, ist einer der größten Cashflow-Fehler, die Dienstleistungsunternehmen machen. Meilenstein-Abrechnung löst dies, indem die Zahlung in Phasen aufgeteilt wird, die mit den Projektleistungen übereinstimmen.",
+      "Die Psychologie hinter der Meilenstein-Abrechnung ist wirkungsvoll. Kunden, die in Etappen zahlen, fühlen sich stärker am Projekterfolg beteiligt und engagieren sich mehr bei Feedback und Freigaben.",
+      "Invoicemonk macht die Meilenstein-Abrechnung unkompliziert. Erstellen Sie Rechnungen für jede Phase mit klaren Beschreibungen der Leistungen und verfolgen Sie den Gesamtprojektwert gegen eingegangene Zahlungen."
+    ]
+  },
+  "howItWorks": {
+    "title": "So funktioniert die Meilenstein-Abrechnung",
+    "subtitle": "Projekte in abrechnungsfähige Phasen aufteilen für besseren Cashflow",
+    "steps": [
+      { "title": "1. Anzahlungsrechnung", "desc": "Kassieren Sie eine Vorauszahlung (typischerweise 25–50%) vor Arbeitsbeginn." },
+      { "title": "2. Fortschrittsrechnungen", "desc": "Rechnen Sie an jedem Meilenstein ab, wenn Arbeit geliefert und genehmigt wird." },
+      { "title": "3. Schlussrechnung", "desc": "Senden Sie den Restbetrag bei Projektabschluss." }
+    ]
+  },
+  "features": {
+    "title": "Wie Invoicemonk Meilenstein-Abrechnung unterstützt",
+    "subtitle": "Werkzeuge für projektbasierte Fachleute",
+    "items": [
+      { "title": "Alle Meilensteine vorab als Entwurf", "desc": "Erstellen Sie alle Meilenstein-Rechnungen als Entwürfe zu Projektbeginn. Senden Sie jede einzelne, wenn die entsprechende Phase abgeschlossen ist." },
+      { "title": "Kundenverifizierungsportal", "desc": "Kunden können alle Rechnungen für ihr Projekt an einem Ort einsehen, Beträge überprüfen und Quittungen herunterladen." },
+      { "title": "Flexible Zahlungsaufteilungen", "desc": "Teilen Sie Projekte beliebig auf — 50/50, 30/40/30 oder benutzerdefinierte Prozentsätze pro Meilenstein." },
+      { "title": "Steuerkonforme Rechnungen", "desc": "Jede Meilenstein-Rechnung enthält die korrekten Steuerberechnungen für Ihre Jurisdiktion." },
+      { "title": "Zahlungsverfolgung pro Projekt", "desc": "Sehen Sie Gesamtprojektwert, fakturierten Betrag, bezahlten Betrag und offenen Saldo auf einen Blick." },
+      { "title": "Scope-Änderung dokumentieren", "desc": "Bei Umfangsänderungen erstellen Sie zusätzliche Meilenstein-Rechnungen zur Dokumentation." }
+    ]
+  },
+  "example": {
+    "title": "Meilenstein-Abrechnung in Aktion",
+    "scenario": "Szenario: Die 3-Phasen-Abrechnung einer Hochzeitsfotografin",
+    "paragraphs": [
+      "Ngozi ist eine Hochzeitsfotografin in Lagos, die 15–20 Hochzeiten pro Jahr bucht. Sie nutzt eine Drei-Meilenstein-Abrechnungsstruktur: 40% Buchungsanzahlung, 30% am Hochzeitstag und 30% bei Lieferung der bearbeiteten Fotos.",
+      "Vor Invoicemonk verfolgte Ngozi Zahlungen in einer Tabelle und vergaß gelegentlich die Schlussrechnung. Mit Meilenstein-Abrechnung in Invoicemonk erstellt sie alle drei Rechnungen als Entwürfe bei der Buchung.",
+      "Das Ergebnis: Null verpasste Rechnungen, schnellere Schlusszahlungen und eine vollständige Finanzaufzeichnung für jedes Hochzeitsprojekt."
+    ],
+    "stats": [
+      { "value": "40%", "label": "Buchungsanzahlung" },
+      { "value": "30%", "label": "Zahlung am Eventtag" },
+      { "value": "30%", "label": "Endlieferung" }
+    ]
+  },
+  "idealFor": {
+    "title": "Ideal für projektbasierte Fachleute",
+    "subtitle": "Jede Dienstleistung mit klar abgegrenzten Projektphasen profitiert von Meilenstein-Abrechnung",
+    "items": [
+      "Hochzeits- & Eventfotografen",
+      "Webdesigner & Entwickler",
+      "Architekten & Bauunternehmer",
+      "Marketing- & Kreativagenturen",
+      "Innenarchitekten",
+      "Videoproduktionsteams",
+      "Individuelle Softwareentwickler",
+      "Eventplaner und Koordinatoren"
+    ]
+  },
+  "testimonials": {
+    "title": "Wie Fachleute Meilenstein-Abrechnung nutzen",
+    "items": [
+      { "quote": "Früher habe ich bei jedem Projekt Geld verloren, weil ich die Schlussrechnung vergessen habe. Jetzt sind alle Meilensteine von Tag eins eingerichtet.", "name": "Emeka O.", "role": "Webentwickler, Enugu" },
+      { "quote": "Meine Kunden schätzen es, alle Meilenstein-Rechnungen vorab zu sehen. Es setzt klare Erwartungen bezüglich der Zahlungstermine.", "name": "Aisha B.", "role": "Innenarchitektin, Abuja" },
+      { "quote": "Meilenstein-Abrechnung hat unsere Zahlungseinzugszeit halbiert.", "name": "Tom R.", "role": "Videoproduzent, London" }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Was ist Meilenstein-Abrechnung?", "answer": "Meilenstein-Abrechnung teilt ein Projekt in verschiedene Phasen, wobei die Zahlung bei Abschluss jeder Phase fällig wird." },
+      { "question": "Wie erstelle ich Meilenstein-Rechnungen in Invoicemonk?", "answer": "Erstellen Sie separate Rechnungen für jeden Meilenstein mit klaren Beschreibungen der gelieferten Leistungen." },
+      { "question": "Kann ich Meilenstein-Abrechnung mit Anzahlungen kombinieren?", "answer": "Absolut. Der gängigste Ansatz ist eine Anzahlungsrechnung vor Arbeitsbeginn, dann Fortschrittsrechnungen an jedem Meilenstein und eine Schlussrechnung." },
+      { "question": "Welche Branchen nutzen Meilenstein-Abrechnung?", "answer": "Fotografie, Webentwicklung, Bau, Architektur, Beratung, Videoproduktion und jede projektbasierte Dienstleistung." },
+      { "question": "Wie schützt Meilenstein-Abrechnung meinen Cashflow?", "answer": "Durch Zahlungseinzug bei jeder Projektphase vermeiden Sie das Risiko, ein ganzes Projekt abzuschließen, bevor Sie eine Zahlung erhalten." },
+      { "question": "Können Kunden alle Meilenstein-Rechnungen an einem Ort sehen?", "answer": "Ja. Kunden können über das Verifizierungsportal alle Rechnungen zu ihrem Projekt einsehen." },
+      { "question": "Welchen Prozentsatz sollte ich als Anzahlung berechnen?", "answer": "Branchenstandards variieren, aber die meisten Dienstleister berechnen 25–50% als Anzahlung." },
+      { "question": "Kann ich Meilensteinbeträge nach Projektstart anpassen?", "answer": "Ja. Bei Umfangsänderungen können Sie zusätzliche Meilenstein-Rechnungen erstellen oder kommende anpassen." }
+    ]
+  },
+  "related": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "label": "Preisgestaltung für Ihre Dienstleistungen", "to": "/blog/pricing-your-freelance-services" },
+      { "label": "Wesentliche Rechnungselemente", "to": "/blog/invoice-essential-elements-guide" },
+      { "label": "Für Fotografen", "to": "/photographers" },
+      { "label": "Für Kreative", "to": "/creatives" },
+      { "label": "Retainer-Abrechnung", "to": "/use-cases/retainer-billing" }
+    ]
+  },
+  "cta": {
+    "title": "Starten Sie mit Meilenstein-Abrechnung",
+    "description": "Schützen Sie Ihren Cashflow mit Meilenstein-Fakturierung. Kostenlos starten — keine Kreditkarte erforderlich.",
+    "button": "Kostenlos starten"
+  }
+}
