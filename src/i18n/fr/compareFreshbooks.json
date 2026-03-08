@@ -1,109 +1,109 @@
 {
   "seo": {
-    "title": "Invoicemonk vs FreshBooks: Which Is Better? | 2026 Comparison",
-    "description": "Compare Invoicemonk and FreshBooks side by side. Features, pricing, and which invoicing software is best for freelancers and small businesses in 2026."
+    "title": "Invoicemonk vs FreshBooks : Lequel est le meilleur ? | Comparatif 2026",
+    "description": "Comparez Invoicemonk et FreshBooks côte à côte. Fonctionnalités, tarifs et quel logiciel de facturation est le meilleur pour les freelances et petites entreprises en 2026."
   },
   "hero": {
     "title": "Invoicemonk vs FreshBooks",
-    "subtitle": "A detailed comparison to help you choose the right invoicing software for your business."
+    "subtitle": "Une comparaison détaillée pour vous aider à choisir le bon logiciel de facturation pour votre entreprise."
   },
   "overview": [
-    "FreshBooks is one of the most established names in small business invoicing, with over 30 million users and a reputation for user-friendly design. It's a solid product — but it's not the only option, and it's not always the best fit. For freelancers, agencies, and small businesses looking for a more affordable alternative with stronger international capabilities, Invoicemonk offers a compelling case.",
-    "The most significant difference is pricing. FreshBooks has no free tier — its cheapest plan starts at $19/month (billed annually) and limits you to 5 billable clients. Invoicemonk offers a genuinely useful free tier with invoicing, expenses, and accounting, and its paid plans remove client limits at a fraction of FreshBooks' cost. For a solo freelancer or small business watching expenses, this difference adds up to hundreds of dollars per year.",
-    "Feature-wise, both platforms cover the essentials: invoicing, expense tracking, recurring billing, and financial reports. FreshBooks edges ahead with built-in time tracking and a larger marketplace of third-party integrations. Invoicemonk differentiates with its invoice verification portal (where clients can independently verify invoice authenticity), stronger multi-currency support on all plans, and built-in tax compliance for multiple countries including Nigeria, UK, US, Canada, and Australia."
+    "FreshBooks est l'un des noms les plus établis dans la facturation des petites entreprises, avec plus de 30 millions d'utilisateurs et une réputation de design convivial. C'est un produit solide — mais ce n'est pas la seule option, et ce n'est pas toujours le meilleur choix. Pour les freelances, agences et petites entreprises recherchant une alternative plus abordable avec de meilleures capacités internationales, Invoicemonk offre un argument convaincant.",
+    "La différence la plus significative est le prix. FreshBooks n'a pas de forfait gratuit — son forfait le moins cher commence à 19 $/mois (facturation annuelle) et vous limite à 5 clients facturables. Invoicemonk offre un forfait gratuit véritablement utile avec facturation, dépenses et comptabilité, et ses forfaits payants suppriment les limites de clients à une fraction du coût de FreshBooks.",
+    "En termes de fonctionnalités, les deux plateformes couvrent l'essentiel : facturation, suivi des dépenses, facturation récurrente et rapports financiers. FreshBooks se distingue avec le suivi du temps intégré et un plus grand marché d'intégrations tierces. Invoicemonk se différencie avec son portail de vérification des factures, un meilleur support multi-devises sur tous les forfaits, et la conformité fiscale intégrée pour plusieurs pays."
   ],
   "features": [
-    { "name": "Free tier", "invoicemonk": true, "competitor": false },
-    { "name": "Unlimited invoices (paid)", "invoicemonk": true, "competitor": true },
-    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": true },
-    { "name": "Expense tracking", "invoicemonk": true, "competitor": true },
-    { "name": "Recurring invoices", "invoicemonk": true, "competitor": true },
-    { "name": "Client management", "invoicemonk": true, "competitor": true },
-    { "name": "Invoice verification portal", "invoicemonk": true, "competitor": false },
-    { "name": "Built-in accounting", "invoicemonk": true, "competitor": true },
-    { "name": "Receipt scanning", "invoicemonk": true, "competitor": true },
-    { "name": "API access", "invoicemonk": "Business plan", "competitor": "Premium plan" },
-    { "name": "Starting price", "invoicemonk": "Free", "competitor": "$19/mo" }
+    { "name": "Forfait gratuit", "invoicemonk": true, "competitor": false },
+    { "name": "Factures illimitées (payant)", "invoicemonk": true, "competitor": true },
+    { "name": "Facturation multi-devises", "invoicemonk": true, "competitor": true },
+    { "name": "Suivi des dépenses", "invoicemonk": true, "competitor": true },
+    { "name": "Factures récurrentes", "invoicemonk": true, "competitor": true },
+    { "name": "Gestion des clients", "invoicemonk": true, "competitor": true },
+    { "name": "Portail de vérification des factures", "invoicemonk": true, "competitor": false },
+    { "name": "Comptabilité intégrée", "invoicemonk": true, "competitor": true },
+    { "name": "Numérisation des reçus", "invoicemonk": true, "competitor": true },
+    { "name": "Accès API", "invoicemonk": "Forfait Business", "competitor": "Forfait Premium" },
+    { "name": "Prix de départ", "invoicemonk": "Gratuit", "competitor": "19 $/mois" }
   ],
   "pricing": {
-    "title": "Pricing comparison",
+    "title": "Comparaison des tarifs",
     "invoicemonk": {
-      "title": "Invoicemonk Pricing",
+      "title": "Tarifs Invoicemonk",
       "plans": [
-        { "name": "Free", "price": "₦0/mo" },
-        { "name": "Starter", "price": "Affordable" },
-        { "name": "Professional", "price": "Mid-range" },
-        { "name": "Business", "price": "Full suite" }
+        { "name": "Gratuit", "price": "0 €/mois" },
+        { "name": "Starter", "price": "Abordable" },
+        { "name": "Professionnel", "price": "Milieu de gamme" },
+        { "name": "Business", "price": "Suite complète" }
       ],
-      "note": "All plans include invoicing, expenses, and accounting. No per-client limits on paid plans."
+      "note": "Tous les forfaits incluent la facturation, les dépenses et la comptabilité. Pas de limite de clients sur les forfaits payants."
     },
     "competitor": {
-      "title": "FreshBooks Pricing",
+      "title": "Tarifs FreshBooks",
       "plans": [
-        { "name": "Lite (5 clients)", "price": "$19/mo" },
-        { "name": "Plus (50 clients)", "price": "$33/mo" },
-        { "name": "Premium (500 clients)", "price": "$60/mo" },
-        { "name": "Select (custom)", "price": "Custom pricing" }
+        { "name": "Lite (5 clients)", "price": "19 $/mois" },
+        { "name": "Plus (50 clients)", "price": "33 $/mois" },
+        { "name": "Premium (500 clients)", "price": "60 $/mois" },
+        { "name": "Select (personnalisé)", "price": "Tarif sur mesure" }
       ],
-      "note": "No free tier. Client limits on all standard plans. Prices shown for annual billing."
+      "note": "Pas de forfait gratuit. Limites de clients sur tous les forfaits standard. Prix affichés pour la facturation annuelle."
     }
   },
   "choose": {
     "invoicemonk": {
-      "title": "Choose Invoicemonk if you…",
+      "title": "Choisissez Invoicemonk si vous…",
       "items": [
-        "Want a generous free tier to start with",
-        "Need multi-currency invoicing without premium pricing",
-        "Work with international clients across multiple countries",
-        "Want invoice verification for client trust and compliance",
-        "Prefer lower pricing as your business scales"
+        "Voulez un forfait gratuit généreux pour commencer",
+        "Avez besoin de facturation multi-devises sans tarif premium",
+        "Travaillez avec des clients internationaux dans plusieurs pays",
+        "Voulez la vérification des factures pour la confiance et la conformité",
+        "Préférez des prix plus bas à mesure que votre entreprise grandit"
       ]
     },
     "competitor": {
-      "title": "Choose FreshBooks if you…",
+      "title": "Choisissez FreshBooks si vous…",
       "items": [
-        "Need built-in time tracking with a running timer",
-        "Want a large third-party integration marketplace",
-        "Prefer phone support for issue resolution",
-        "Are primarily US/Canada-based with domestic clients",
-        "Need specific third-party app integrations"
+        "Avez besoin du suivi du temps intégré avec chronomètre",
+        "Voulez un large marché d'intégrations tierces",
+        "Préférez le support téléphonique pour résoudre les problèmes",
+        "Êtes principalement basé aux États-Unis/Canada avec des clients domestiques",
+        "Avez besoin d'intégrations spécifiques avec des applications tierces"
       ]
     }
   },
   "migration": {
-    "title": "How to switch from FreshBooks to Invoicemonk",
+    "title": "Comment passer de FreshBooks à Invoicemonk",
     "steps": [
-      { "title": "Export your data from FreshBooks", "desc": "Go to FreshBooks Settings → Export Data. Download your client list, invoice history, and expense records as CSV files." },
-      { "title": "Create your Invoicemonk account", "desc": "Sign up for free at app.invoicemonk.com. Set up your business profile, logo, and default payment terms." },
-      { "title": "Import your clients", "desc": "Upload your client CSV to Invoicemonk. Client names, emails, addresses, and payment terms are mapped automatically." },
-      { "title": "Set up recurring invoices", "desc": "Recreate any recurring billing schedules from FreshBooks. This takes 2–3 minutes per schedule." },
-      { "title": "Start invoicing", "desc": "Your next invoice goes out from Invoicemonk. Historical data remains accessible in your FreshBooks account for reference." }
+      { "title": "Exportez vos données de FreshBooks", "desc": "Allez dans Paramètres FreshBooks → Exporter les données. Téléchargez votre liste de clients, historique de factures et registres de dépenses en fichiers CSV." },
+      { "title": "Créez votre compte Invoicemonk", "desc": "Inscrivez-vous gratuitement sur app.invoicemonk.com. Configurez votre profil entreprise, logo et conditions de paiement par défaut." },
+      { "title": "Importez vos clients", "desc": "Téléchargez votre CSV de clients vers Invoicemonk. Les noms, emails, adresses et conditions de paiement sont mappés automatiquement." },
+      { "title": "Configurez les factures récurrentes", "desc": "Recréez vos planifications de facturation récurrente de FreshBooks. Cela prend 2 à 3 minutes par planification." },
+      { "title": "Commencez à facturer", "desc": "Votre prochaine facture part d'Invoicemonk. Les données historiques restent accessibles dans votre compte FreshBooks pour référence." }
     ]
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Questions fréquemment posées",
     "items": [
-      { "question": "Is Invoicemonk cheaper than FreshBooks?", "answer": "Yes. Invoicemonk offers a free tier with invoicing, expenses, and accounting included. Paid plans start significantly lower than FreshBooks' $19/month Lite plan. For businesses that need core invoicing without enterprise features, Invoicemonk typically costs 40–60% less than FreshBooks annually." },
-      { "question": "Can I migrate from FreshBooks to Invoicemonk?", "answer": "Yes. Export your client list and invoice history from FreshBooks as CSV files, then import them into Invoicemonk. The process typically takes 15–30 minutes depending on data volume. Our support team can guide you through the migration step by step." },
-      { "question": "Does Invoicemonk have the same features as FreshBooks?", "answer": "Invoicemonk covers core invoicing, expenses, accounting, and client management — the features most small businesses actually use. FreshBooks includes built-in time tracking and a larger third-party integration marketplace. Invoicemonk differentiates with its invoice verification portal, stronger multi-currency support, and global tax compliance features." },
-      { "question": "Is FreshBooks better for time tracking?", "answer": "FreshBooks has built-in time tracking with a timer feature, which is useful for hourly billing. Invoicemonk focuses on invoice-based time and expense tracking. If your primary workflow is hourly billing with a running timer, FreshBooks may suit that specific need better. For most other invoicing needs, Invoicemonk offers equal or better functionality at a lower price." },
-      { "question": "Which is better for international businesses?", "answer": "Invoicemonk has stronger international capabilities. Multi-currency invoicing is available on all plans (including free), and the platform supports tax compliance for Nigeria, UK, US, Canada, and Australia out of the box. FreshBooks' multi-currency support requires paid plans and its tax features are primarily US and Canada focused." },
-      { "question": "Does Invoicemonk have phone support like FreshBooks?", "answer": "Invoicemonk provides email and chat support. FreshBooks offers phone support on higher-tier plans. For most users, Invoicemonk's responsive chat support resolves issues faster than phone queues, but if phone support is essential for your business, this is worth considering." },
-      { "question": "Which has better reporting?", "answer": "Both platforms offer financial reports including profit & loss, tax summaries, and accounts receivable. Invoicemonk's reporting includes multi-currency consolidation and compliance-focused reports. FreshBooks offers more visual dashboard widgets. For core financial reporting, both are comparable." }
+      { "question": "Invoicemonk est-il moins cher que FreshBooks ?", "answer": "Oui. Invoicemonk offre un forfait gratuit incluant facturation, dépenses et comptabilité. Les forfaits payants commencent nettement en dessous du forfait Lite de FreshBooks à 19 $/mois." },
+      { "question": "Puis-je migrer de FreshBooks vers Invoicemonk ?", "answer": "Oui. Exportez votre liste de clients et historique de factures de FreshBooks en fichiers CSV, puis importez-les dans Invoicemonk. Le processus prend généralement 15 à 30 minutes." },
+      { "question": "Invoicemonk a-t-il les mêmes fonctionnalités que FreshBooks ?", "answer": "Invoicemonk couvre la facturation, les dépenses, la comptabilité et la gestion des clients. FreshBooks inclut le suivi du temps intégré et un plus grand marché d'intégrations tierces. Invoicemonk se différencie avec son portail de vérification des factures et un meilleur support multi-devises." },
+      { "question": "FreshBooks est-il meilleur pour le suivi du temps ?", "answer": "FreshBooks a un suivi du temps intégré avec une fonction chronomètre, utile pour la facturation horaire. Si votre flux de travail principal est la facturation horaire avec chronomètre, FreshBooks peut mieux répondre à ce besoin spécifique." },
+      { "question": "Lequel est meilleur pour les entreprises internationales ?", "answer": "Invoicemonk a de meilleures capacités internationales. La facturation multi-devises est disponible sur tous les forfaits (y compris le gratuit), et la plateforme prend en charge la conformité fiscale pour plusieurs pays." },
+      { "question": "Invoicemonk a-t-il un support téléphonique comme FreshBooks ?", "answer": "Invoicemonk fournit un support par email et chat. FreshBooks offre un support téléphonique sur les forfaits supérieurs." },
+      { "question": "Lequel a de meilleurs rapports ?", "answer": "Les deux plateformes offrent des rapports financiers incluant résultat, résumés fiscaux et comptes clients. Pour les rapports financiers de base, les deux sont comparables." }
     ]
   },
   "related": {
-    "title": "More comparisons",
+    "title": "Plus de comparaisons",
     "links": [
       { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
       { "label": "Invoicemonk vs Zoho", "to": "/compare/invoicemonk-vs-zoho-invoice" },
       { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
+      { "label": "Meilleur logiciel de facturation 2026", "to": "/best-invoicing-software" }
     ]
   },
   "cta": {
-    "title": "Ready to switch from FreshBooks?",
-    "description": "Start free and see the difference for yourself. No credit card required.",
-    "button": "Get Started Free"
+    "title": "Prêt à quitter FreshBooks ?",
+    "description": "Commencez gratuitement et voyez la différence par vous-même. Aucune carte de crédit requise.",
+    "button": "Commencer gratuitement"
   }
 }
