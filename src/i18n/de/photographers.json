@@ -1,0 +1,112 @@
+{
+  "seo": {
+    "title": "Rechnungssoftware für Fotografen | Invoicemonk",
+    "description": "Professionelle Fotografie-Rechnungen mit Meilensteinzahlungen, Paketabrechnung und gebrandeten Vorlagen erstellen."
+  },
+  "hero": {
+    "badge": "Für Fotografen",
+    "title": "Rechnungsstellung leicht gemacht für Fotografen",
+    "accentWord": "Fotografen",
+    "description": "Erstellen Sie Anzahlungsrechnungen, rechnen Sie Fotopakete ab und werden Sie schneller bezahlt. Konzentrieren Sie sich auf das Fotografieren.",
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "Preise ansehen",
+    "trustBadge": "Von professionellen Fotografen geschätzt"
+  },
+  "benefits": {
+    "title": "Entwickelt für Fotografie-Profis",
+    "subtitle": "Alles für die geschäftliche Seite der Fotografie — damit Sie mehr Zeit hinter der Kamera verbringen",
+    "items": [
+      { "title": "Paket- & Session-Abrechnung", "description": "Rechnungen für Fotopakete, Sessions, Drucke und Extras mit detaillierten Positionen erstellen." },
+      { "title": "Meilensteinzahlungen", "description": "Anzahlungen im Voraus und den Rest bei Lieferung einziehen. Perfekt für Hochzeiten und Events." },
+      { "title": "Gebrandete Rechnungen", "description": "Professionelle Rechnungen, die zu Ihrer Fotografie-Marke passen und Kunden beeindrucken." },
+      { "title": "Steuerfertige Unterlagen", "description": "Einkommen und Ausgaben für die Steuersaison verfolgen. Berichte für Ihren Steuerberater exportieren." }
+    ]
+  },
+  "useCases": {
+    "title": "Wie Fotografen Invoicemonk nutzen",
+    "subtitle": "Ob Hochzeiten, Events, Porträts oder Werbeaufnahmen — so passt Invoicemonk in Ihren Workflow",
+    "items": [
+      { "title": "Hochzeitsfotografie", "description": "Senden Sie eine Anzahlungsrechnung nach der Beratung. Erstellen Sie eine zweite vor dem Hochzeitstag und eine Schlussrechnung bei Lieferung der Galerie." },
+      { "title": "Kommerzielle Fotografie", "description": "Rechnen Sie Firmenkunden mit detaillierten Rechnungen ab — Shootinggebühren, Nachbearbeitung, Lizenzierung als separate Positionen." },
+      { "title": "Mini-Sessions & Events", "description": "Führen Sie Mini-Session-Events mit mehreren Kunden an einem Tag durch. Erstellen Sie schnell Rechnungen mit gespeicherten Paketvorlagen." }
+    ]
+  },
+  "painPoints": {
+    "title": "Typische Herausforderungen im Fotogeschäft — gelöst",
+    "subtitle": "Wir haben Invoicemonk um die realen Probleme gebaut, mit denen Fotografen täglich konfrontiert sind",
+    "items": [
+      { "problem": "Hochzeitskunden wochenlang nach der Fotolieferung um die Schlusszahlung bitten", "solution": "Automatisierte Erinnerungen senden höfliche Nachfassungen vor und nach dem Fälligkeitsdatum." },
+      { "problem": "Unprofessionelle Rechnungen in Word oder Excel neben Ihrem beeindruckenden Portfolio", "solution": "Gebrandete Rechnungsvorlagen mit Ihrem Logo und Farben, die zur Qualität Ihrer Arbeit passen." },
+      { "problem": "Den Überblick verlieren, welche Kunden Anzahlungen geleistet haben", "solution": "Ein einheitliches Dashboard zeigt jeden Rechnungsstatus — Anzahlung bezahlt, Rest fällig, überfällig." },
+      { "problem": "Stundenlange Steuerberechnung und Belegsuche", "solution": "Alle Rechnungen und Ausgaben sind automatisch kategorisiert und exportierbar." }
+    ]
+  },
+  "workflow": {
+    "title": "So funktioniert's",
+    "subtitle": "Von der Buchung bis zur Steuererklärung — in vier einfachen Schritten",
+    "steps": [
+      { "step": "1", "title": "Kunden buchen", "description": "Nach einer Beratung fügen Sie die Kundendaten hinzu und senden sofort eine Anzahlungsrechnung." },
+      { "step": "2", "title": "Fotografieren und liefern", "description": "Konzentrieren Sie sich auf die kreative Arbeit. Erstellen Sie die Schlussrechnung in unter zwei Minuten." },
+      { "step": "3", "title": "Automatisch bezahlt werden", "description": "Invoicemonk verfolgt, wann Kunden die Rechnung öffnen und sendet automatische Erinnerungen." },
+      { "step": "4", "title": "Verfolgen und berichten", "description": "Sehen Sie jederzeit Ihr Gesamteinkommen, offene Beträge und Ausgaben pro Projekt." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum Fotografen Invoicemonk wählen",
+    "paragraphs": [
+      "Die meisten Rechnungstools sind für Berater und Agenturen konzipiert — nicht für Kreative, die Anzahlungsworkflows und paketbasierte Preise brauchen.",
+      "Invoicemonk lässt Sie in unter zwei Minuten eine Rechnung erstellen. Ihr Branding wird in jede Rechnung übertragen. Anzahlungen, Meilensteinzahlungen und Paketabrechnung sind eingebaut.",
+      "Und weil jede Rechnung einen Verifizierungs-QR-Code enthält, erfüllen Sie automatisch die Anforderungen von Firmenkunden."
+    ]
+  },
+  "checklist": {
+    "title": "Was Fotografen mit Invoicemonk bekommen",
+    "items": [
+      "Unbegrenzte professionelle Rechnungen",
+      "Anzahlungs- & Meilensteinabrechnung",
+      "Paketbasierte Preisgestaltung",
+      "Eigenes Branding & Logo",
+      "Automatische Zahlungserinnerungen",
+      "Ausgabenverfolgung pro Projekt",
+      "Einkommensberichte",
+      "Multi-Währungsunterstützung",
+      "Kundenverwaltung",
+      "Steuerkonforme Unterlagen",
+      "Verifizierte Belege mit QR-Codes",
+      "PDF-Downloads mit Ihrem Branding"
+    ]
+  },
+  "testimonials": {
+    "title": "Von Fotografen geschätzt",
+    "items": [
+      { "quote": "Ich habe es gehasst, nach Shootings Rechnungen zu erstellen. Jetzt dauert es 2 Minuten. Die Anzahlungsfunktion ist perfekt für Hochzeiten.", "author": "Funke A.", "role": "Hochzeitsfotografin" },
+      { "quote": "Meine Kunden lieben die professionellen Rechnungen. Der QR-Verifizierungscode auf jeder Rechnung verleiht Glaubwürdigkeit.", "author": "James K.", "role": "Werbefotograf" },
+      { "quote": "Event-Buchungen zu jonglieren bedeutete früher Tabellen jonglieren. Jetzt habe ich ein Dashboard für alles.", "author": "Ngozi P.", "role": "Event-Fotografin" }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Kann ich meilensteinbasierte Rechnungen erstellen?", "answer": "Ja. Erstellen Sie Anzahlungsrechnungen, Fortschrittszahlungen und Schlussrechnungen für Fotoprojekte." },
+      { "question": "Unterstützt Invoicemonk paketbasierte Preise?", "answer": "Absolut. Fügen Sie Positionen für verschiedene Pakete mit Beschreibungen und Preisen hinzu." },
+      { "question": "Kann ich mein Fotografie-Branding hinzufügen?", "answer": "Ja. Laden Sie Ihr Logo hoch und erstellen Sie einen professionellen Look passend zu Ihrem Stil." },
+      { "question": "Wie funktionieren automatische Zahlungserinnerungen?", "answer": "Legen Sie Erinnerungspläne fest und Invoicemonk sendet automatisch E-Mails an Ihre Kunden." },
+      { "question": "Ist Invoicemonk für Fotografen kostenlos?", "answer": "Ja! Die kostenlose Stufe umfasst 5 Rechnungen und 5 Belege pro Monat ohne Kreditkarte." },
+      { "question": "Kann ich Ausgaben pro Fotoprojekt verfolgen?", "answer": "Ja. Erfassen Sie Ausgaben wie Ausrüstungsmiete, Reisekosten und Assistentengebühren." },
+      { "question": "Erstellt Invoicemonk Belege bei Zahlung?", "answer": "Jede erfasste Zahlung generiert automatisch einen professionellen Beleg mit Verifizierungscode und QR-Code." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Weiterführende Lektüre",
+    "links": [
+      { "text": "Rechnungsdesign & Branding", "href": "/blog/invoice-design-professional-branding-tips" },
+      { "text": "Preisgestaltung Ihrer Dienste", "href": "/blog/pricing-your-freelance-services" },
+      { "text": "Schneller bezahlt werden", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Fotografie-Abrechnung zu vereinfachen?",
+    "subtitle": "Schließen Sie sich Fotografen an, die Invoicemonk für professionelle Rechnungsstellung vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

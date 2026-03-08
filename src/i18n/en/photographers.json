@@ -1,0 +1,112 @@
+{
+  "seo": {
+    "title": "Invoice Software for Photographers | Invoicemonk",
+    "description": "Create professional photography invoices with milestone payments, package billing, and branded templates. Perfect for wedding, event, and commercial photographers."
+  },
+  "hero": {
+    "badge": "For Photographers",
+    "title": "Invoicing made simple for photographers",
+    "accentWord": "photographers",
+    "description": "Create deposit invoices, bill for photo packages, and get paid faster. Focus on capturing moments, not chasing payments.",
+    "ctaPrimary": "Start Free",
+    "ctaSecondary": "View Pricing",
+    "trustBadge": "Trusted by professional photographers"
+  },
+  "benefits": {
+    "title": "Built for photography professionals",
+    "subtitle": "Everything you need to handle the business side of photography — so you can spend more time behind the camera",
+    "items": [
+      { "title": "Package & Session Billing", "description": "Invoice for photo packages, sessions, prints, and add-ons with detailed line items. Create different pricing tiers and let clients see exactly what they're paying for in each package." },
+      { "title": "Milestone Payments", "description": "Collect deposits upfront and balance on delivery. Perfect for weddings and events where you need to secure bookings months in advance and protect yourself against last-minute cancellations." },
+      { "title": "Branded Invoices", "description": "Professional invoices that match your photography brand and impress clients. Your logo, colours, and style carried through every financial touchpoint reinforces the premium experience you deliver." },
+      { "title": "Tax-Ready Records", "description": "Track income and expenses for tax season. Export reports for your accountant. Every invoice and receipt is automatically categorised and stored, so year-end filing takes minutes instead of days." }
+    ]
+  },
+  "useCases": {
+    "title": "How photographers use Invoicemonk",
+    "subtitle": "Whether you shoot weddings, events, portraits, or commercial work — here's how Invoicemonk fits your workflow",
+    "items": [
+      { "title": "Wedding Photography", "description": "Send a deposit invoice after the consultation to lock in the date. Create a second invoice before the wedding day, and a final balance invoice when you deliver the edited gallery. Track all three payments in one place and never lose track of a wedding booking again." },
+      { "title": "Commercial & Product Shoots", "description": "Bill corporate clients with detailed, itemized invoices showing shoot fees, post-production, licensing, and usage rights as separate line items. Professional invoices with your branding and verification codes meet procurement standards for larger companies." },
+      { "title": "Mini Sessions & Events", "description": "Run mini session events with multiple clients in one day. Create invoices for each client quickly using saved package templates. Track which clients have paid and which need a reminder — all from your phone between sessions." }
+    ]
+  },
+  "painPoints": {
+    "title": "Common photography business challenges — solved",
+    "subtitle": "We built Invoicemonk around the real problems photographers face every day",
+    "items": [
+      { "problem": "Chasing wedding clients for final payments weeks after delivering photos", "solution": "Automated reminders send polite follow-ups before and after the due date, so you get paid without the awkward conversation." },
+      { "problem": "Creating invoices in Word or Excel that look unprofessional next to your stunning portfolio", "solution": "Branded invoice templates with your logo and colours that match the premium quality of your photography work." },
+      { "problem": "Losing track of which clients have paid deposits and which still owe balances", "solution": "A unified dashboard shows every invoice status — deposit paid, balance due, overdue — across all your bookings at a glance." },
+      { "problem": "Spending hours at tax time trying to calculate income and find expense receipts", "solution": "All invoices and expenses are automatically categorised and exportable. Tax filing takes minutes, not days." }
+    ]
+  },
+  "workflow": {
+    "title": "How it works",
+    "subtitle": "From booking to tax time — in four simple steps",
+    "steps": [
+      { "step": "1", "title": "Book the client", "description": "After a consultation or enquiry, add the client's details to Invoicemonk and send a deposit invoice immediately. The client receives a professional email with a link to view the invoice and your payment details. Securing payment early confirms the booking and protects your schedule." },
+      { "step": "2", "title": "Shoot and deliver", "description": "Focus entirely on the creative work. When you're ready to deliver edited images, create the final balance invoice in under two minutes. Add line items for the package, any add-ons (extra hours, prints, albums), and send it alongside the gallery delivery." },
+      { "step": "3", "title": "Get paid automatically", "description": "Invoicemonk tracks when clients open the invoice and sends automatic reminders if payment is late. You never have to write a follow-up email. When payment arrives, record it and an official receipt is generated automatically with a verification code." },
+      { "step": "4", "title": "Track and report", "description": "At any point, see your total income, outstanding balances, and expenses per project. At tax time, export everything your accountant needs in one click. Your financial records are always organised and audit-ready." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why photographers choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Most invoicing tools are designed for consultants and agencies — not for creative professionals who need deposit workflows, package-based pricing, and branded documents that match their portfolio aesthetic. Photographers need something faster, simpler, and more visual.",
+      "Invoicemonk lets you create an invoice in under two minutes, right after a shoot or consultation. Your branding carries through every invoice, so the professionalism clients see in your photos extends to your business communications. Deposit invoices, milestone payments, and package billing are built in — not bolted on.",
+      "And because every invoice comes with a verification QR code and audit trail, your corporate and agency clients get the documentation their procurement teams require. No extra work on your part — compliance happens automatically."
+    ]
+  },
+  "checklist": {
+    "title": "What photographers get with Invoicemonk",
+    "items": [
+      "Unlimited professional invoices",
+      "Deposit & milestone billing",
+      "Package-based pricing",
+      "Custom branding & logo",
+      "Automatic payment reminders",
+      "Expense tracking per project",
+      "Income reports",
+      "Multi-currency support",
+      "Client management",
+      "Tax-compliant records",
+      "Verified receipts with QR codes",
+      "PDF downloads with your branding"
+    ]
+  },
+  "testimonials": {
+    "title": "Trusted by photographers",
+    "items": [
+      { "quote": "I used to dread invoicing after shoots. Now it takes 2 minutes. The deposit invoice feature is perfect for weddings — I send the booking invoice right after the consultation and the client pays within days.", "author": "Funke A.", "role": "Wedding Photographer" },
+      { "quote": "My clients love the professional invoices. It makes my small business look established and trustworthy. The QR verification code on each invoice is a nice touch that adds credibility.", "author": "James K.", "role": "Commercial Photographer" },
+      { "quote": "Juggling event bookings used to mean juggling spreadsheets. Now I have one dashboard showing every booking, every deposit, every balance due. I can see my cash flow months ahead.", "author": "Ngozi P.", "role": "Event Photographer" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "question": "Can I create milestone-based invoices for photography projects?", "answer": "Yes. Create deposit invoices, progress payments, and final balance invoices for wedding, commercial, or event photography projects." },
+      { "question": "Does Invoicemonk support package-based pricing?", "answer": "Absolutely. Add line items for different packages with clear descriptions and pricing. You can also add individual add-ons as separate line items." },
+      { "question": "Can I add my photography branding to invoices?", "answer": "Yes. Upload your logo and create a professional look that matches your photography style." },
+      { "question": "How do automatic payment reminders work?", "answer": "Set reminder schedules and Invoicemonk automatically emails clients before and after payment due dates." },
+      { "question": "Is Invoicemonk free for photographers?", "answer": "Yes! The free tier includes 5 invoices and 5 receipts per month with no credit card required." },
+      { "question": "Can I track expenses for each photography project?", "answer": "Yes. Record expenses like equipment rental, travel costs, props, and assistant fees. See your true profit per project." },
+      { "question": "Does Invoicemonk generate receipts when clients pay?", "answer": "Every payment you record automatically generates a professional receipt with a unique verification code and QR code." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Related reading",
+    "links": [
+      { "text": "Invoice Design & Branding", "href": "/blog/invoice-design-professional-branding-tips" },
+      { "text": "Pricing Your Services", "href": "/blog/pricing-your-freelance-services" },
+      { "text": "Getting Paid Faster", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to simplify your photography billing?",
+    "subtitle": "Join photographers who trust Invoicemonk for professional invoicing.",
+    "button": "Get Started Free"
+  }
+}
