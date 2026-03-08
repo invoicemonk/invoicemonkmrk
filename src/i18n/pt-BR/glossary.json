@@ -22,5 +22,11 @@
     "business": "Negócios"
   },
   "seoTitle": "Glossário de Finanças Empresariais | Termos de Faturamento & Contabilidade | Invoicemonk",
-  "seoDescription": "Glossário completo de faturamento, pagamentos, contabilidade, impostos e finanças empresariais. Aprenda conceitos-chave para pequenas empresas e freelancers."
+  "seoDescription": "Glossário completo de faturamento, pagamentos, contabilidade, impostos e finanças empresariais. Aprenda conceitos-chave para pequenas empresas e freelancers.",
+  "faqs": [
+    { "question": "O que é uma fatura?", "answer": "Uma fatura é um documento comercial emitido por um vendedor a um comprador que lista os produtos ou serviços fornecidos, quantidades, preços e condições de pagamento. Serve como uma solicitação formal de pagamento." },
+    { "question": "Qual é a diferença entre um orçamento e uma fatura?", "answer": "Um orçamento é uma proposta de trabalho antes de ser realizado, mostrando os custos projetados. Uma fatura é uma conta emitida após a conclusão do trabalho, solicitando o pagamento real pelos bens ou serviços entregues." },
+    { "question": "O que significa contas a receber?", "answer": "Contas a receber é o saldo de dinheiro devido a uma empresa por bens ou serviços entregues, mas ainda não pagos. É listado como um ativo no balanço patrimonial." },
+    { "question": "O que é escrituração por partidas dobradas?", "answer": "A escrituração por partidas dobradas é um método contábil onde cada transação é registrada em pelo menos duas contas — um débito em uma e um crédito em outra — garantindo que a equação contábil esteja sempre equilibrada." }
+  ]
 }

@@ -129,8 +129,8 @@ const About = () => {
           
           <AnimatedSection>
             <div className="flex flex-wrap justify-center gap-12 lg:gap-24">
-              {teamMembers.map((member) => (
-                <TeamMemberCard key={member.name} {...member} />
+              {teamMembersData.map((member) => (
+                <TeamMemberCard key={member.name} name={member.name} role={t(member.roleKey)} image={member.image} socialLinks={member.socialLinks} />
               ))}
             </div>
           </AnimatedSection>

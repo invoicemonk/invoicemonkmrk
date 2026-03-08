@@ -1,7 +1,10 @@
 import { Target, Eye } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { useTranslation } from 'react-i18next';
 
 export function MissionVision() {
+  const { t } = useTranslation('about');
+
   return (
     <div className="grid md:grid-cols-2 gap-8">
       <Card className="border-border/50 bg-gradient-to-br from-primary/5 to-transparent">
@@ -10,11 +13,10 @@ export function MissionVision() {
             <div className="p-3 rounded-lg bg-primary/10">
               <Target className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="text-heading-md font-semibold text-foreground">Our Mission</h3>
+            <h3 className="text-heading-md font-semibold text-foreground">{t('mission.label')}</h3>
           </div>
           <p className="text-body text-muted-foreground leading-relaxed">
-            To enable freelancers and businesses throughout the world to do what they love 
-            doing without headaches and time wasting.
+            {t('mission.text')}
           </p>
         </CardContent>
       </Card>
@@ -25,10 +27,10 @@ export function MissionVision() {
             <div className="p-3 rounded-lg bg-primary/10">
               <Eye className="w-6 h-6 text-primary" />
             </div>
-            <h3 className="text-heading-md font-semibold text-foreground">Our Vision</h3>
+            <h3 className="text-heading-md font-semibold text-foreground">{t('vision.label')}</h3>
           </div>
           <p className="text-body text-muted-foreground leading-relaxed">
-            To be Nigeria's Number One Indigenous Business Enabler Partner with IT Solutions.
+            {t('vision.text')}
           </p>
         </CardContent>
       </Card>

@@ -1,5 +1,6 @@
 import { ExternalLink, Newspaper } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { useTranslation } from 'react-i18next';
 
 interface PressMention {
   outlet: string;
@@ -18,16 +19,17 @@ const pressMentions: PressMention[] = [
 ];
 
 export function PressSection() {
+  const { t } = useTranslation('about');
+
   return (
     <div className="space-y-8">
       <div className="text-center">
-        <p className="text-primary font-medium mb-2">Press & Media</p>
+        <p className="text-primary font-medium mb-2">{t('press.label')}</p>
         <h2 className="text-heading-lg font-bold text-foreground mb-4">
-          As Featured In
+          {t('press.title')}
         </h2>
         <p className="text-body text-muted-foreground max-w-2xl mx-auto">
-          Invoicemonk has been recognized for helping small businesses and freelancers 
-          streamline their invoicing and financial management.
+          {t('press.description')}
         </p>
       </div>
 

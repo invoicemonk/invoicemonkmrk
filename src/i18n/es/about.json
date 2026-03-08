@@ -16,10 +16,28 @@
     "blogLink": "un blog para enseñar, educar y guiar a freelancers y propietarios de pequeñas empresas",
     "blogSuffix": "en su día a día."
   },
+  "mission": {
+    "label": "Nuestra misión",
+    "text": "Permitir que freelancers y empresas de todo el mundo hagan lo que aman sin dolores de cabeza ni pérdida de tiempo."
+  },
+  "vision": {
+    "label": "Nuestra visión",
+    "text": "Ser el socio facilitador de negocios indígena número uno de Nigeria con soluciones de TI."
+  },
+  "press": {
+    "label": "Prensa y medios",
+    "title": "Como aparecimos en",
+    "description": "Invoicemonk ha sido reconocido por ayudar a pequeñas empresas y freelancers a optimizar su facturación y gestión financiera.",
+    "readArticle": "Leer artículo"
+  },
   "team": {
     "label": "Nuestro equipo",
     "title": "Conoce a los fundadores",
-    "description": "El equipo apasionado detrás de Invoicemonk, dedicado a empoderar a freelancers y pequeñas empresas en todo el mundo."
+    "description": "El equipo apasionado detrás de Invoicemonk, dedicado a empoderar a freelancers y pequeñas empresas en todo el mundo.",
+    "roles": {
+      "ceo": "Cofundador y CEO",
+      "comms": "Cofundadora y Presidenta de Comunicación"
+    }
   },
   "openRoles": {
     "title": "Vacantes abiertas",

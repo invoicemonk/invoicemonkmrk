@@ -22,5 +22,11 @@
     "business": "Unternehmen"
   },
   "seoTitle": "Finanzglossar für Unternehmen | Rechnungs- & Buchhaltungsbegriffe | Invoicemonk",
-  "seoDescription": "Umfassendes Glossar zu Rechnungsstellung, Zahlungen, Buchhaltung, Steuern und Unternehmensfinanzen. Lernen Sie wichtige Konzepte für Kleinunternehmer und Freiberufler."
+  "seoDescription": "Umfassendes Glossar zu Rechnungsstellung, Zahlungen, Buchhaltung, Steuern und Unternehmensfinanzen. Lernen Sie wichtige Konzepte für Kleinunternehmer und Freiberufler.",
+  "faqs": [
+    { "question": "Was ist eine Rechnung?", "answer": "Eine Rechnung ist ein Geschäftsdokument, das von einem Verkäufer an einen Käufer ausgestellt wird und die gelieferten Produkte oder Dienstleistungen, Mengen, Preise und Zahlungsbedingungen auflistet. Sie dient als formelle Zahlungsaufforderung." },
+    { "question": "Was ist der Unterschied zwischen einem Kostenvoranschlag und einer Rechnung?", "answer": "Ein Kostenvoranschlag ist ein Angebot für Arbeiten, bevor sie ausgeführt werden, und zeigt die voraussichtlichen Kosten. Eine Rechnung wird nach Abschluss der Arbeit ausgestellt und fordert die tatsächliche Zahlung für gelieferte Waren oder Dienstleistungen." },
+    { "question": "Was bedeutet Forderungen aus Lieferungen und Leistungen?", "answer": "Forderungen aus Lieferungen und Leistungen sind der Saldo des Geldes, das einem Unternehmen für gelieferte, aber noch nicht bezahlte Waren oder Dienstleistungen geschuldet wird. Sie werden als Vermögenswert in der Bilanz aufgeführt." },
+    { "question": "Was ist doppelte Buchführung?", "answer": "Die doppelte Buchführung ist eine Buchhaltungsmethode, bei der jede Transaktion in mindestens zwei Konten erfasst wird — eine Belastung in einem und eine Gutschrift in einem anderen — wodurch die Bilanzgleichung immer ausgeglichen bleibt." }
+  ]
 }
