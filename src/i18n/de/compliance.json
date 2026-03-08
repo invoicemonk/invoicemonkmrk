@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "{{authority}}-Konform",
+    "title": "Entwickelt für prüfungssichere Zuversicht",
+    "accentWord": "prüfungssichere",
+    "description": "{{message}}. Invoicemonk führt unveränderliche Aufzeichnungen und umfassende Prüfpfade, damit Sie immer auf behördliche Überprüfungen vorbereitet sind.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Mehr erfahren",
+    "trustBadge": "Unveränderliche Aufzeichnungen • Vollständige Prüfpfade • Exportfertige Berichte"
+  },
+  "floatingBadge": "Prüfungsbereit",
+  "features": {
+    "immutableRecords": {
+      "title": "Unveränderliche Aufzeichnungen",
+      "description": "Einmal erstellt, können Rechnungsunterlagen nicht mehr geändert oder gelöscht werden, was die vollständige Datenintegrität für Prüfungen gewährleistet."
+    },
+    "timestampedLogs": {
+      "title": "Zeitgestempelte Protokolle",
+      "description": "Jede Aktion wird mit präzisen Zeitstempeln protokolliert und erstellt einen vollständigen chronologischen Prüfpfad."
+    },
+    "exportReadyReports": {
+      "title": "Exportfertige Berichte",
+      "description": "Erstellen Sie Compliance-Berichte in Formaten, die von Steuerbehörden und Wirtschaftsprüfern weltweit akzeptiert werden."
+    },
+    "regulatoryStandards": {
+      "title": "Regulatorische Standards",
+      "description": "Entwickelt zur Einhaltung internationaler Rechnungsstellungs- und Aufbewahrungsanforderungen für kleine Unternehmen."
+    },
+    "eInvoicing": {
+      "title": "E-Rechnungs-Konformität",
+      "description": "Erstellen und empfangen Sie E-Rechnungen gemäß ZATCA, Peppol und regionalen Vorschriften."
+    },
+    "digitalSignatures": {
+      "title": "Digitale Signaturen (CSID)",
+      "description": "Kryptografische Stempel und digitale Signaturen zur Überprüfung der Dokumentenauthentizität."
+    },
+    "irn": {
+      "title": "Rechnungsreferenznummern",
+      "description": "Einzigartige IRN für jede Rechnung zur durchgängigen Rückverfolgbarkeit."
+    },
+    "roleBasedAccess": {
+      "title": "Rollenbasierter Zugriff",
+      "description": "Weisen Sie Finanz-, Vertriebs- und Führungsrollen mit entsprechenden Berechtigungen zu."
+    }
+  },
+  "faqs": {
+    "complianceFirst": {
+      "question": "Was bedeutet Compliance-First?",
+      "answer": "Es bedeutet, dass jede Funktion in Invoicemonk mit regulatorischer Compliance im Kern entwickelt wurde. Aufzeichnungen sind unveränderlich, zeitgestempelt und von Anfang an prüfungsbereit."
+    },
+    "taxAuthorities": {
+      "question": "Welche Steuerbehörden unterstützt Invoicemonk?",
+      "answer": "Invoicemonk unterstützt die Compliance-Anforderungen von FIRS (Nigeria), HMRC (UK), IRS (USA), CRA (Kanada) und ATO (Australien), wobei regelmäßig weitere Regionen hinzugefügt werden."
+    },
+    "exportReports": {
+      "question": "Kann ich Berichte für meinen Wirtschaftsprüfer exportieren?",
+      "answer": "Ja. Erstellen Sie Compliance-Berichte in Formaten, die von Steuerbehörden und Wirtschaftsprüfern weltweit akzeptiert werden. Alle Aufzeichnungen enthalten vollständige Prüfpfade mit Zeitstempeln und Benutzerinformationen."
+    },
+    "immutable": {
+      "question": "Sind meine Rechnungsunterlagen wirklich unveränderlich?",
+      "answer": "Ja. Einmal erstellt, können Rechnungsunterlagen nicht mehr geändert oder gelöscht werden. Jede Änderung erstellt eine neue Version unter Beibehaltung des Originals, was die vollständige Datenintegrität für Prüfungen gewährleistet."
+    },
+    "eInvoicing": {
+      "question": "Was ist E-Invoicing und unterstützt Invoicemonk es?",
+      "answer": "E-Invoicing ist der elektronische Austausch von Rechnungen in strukturierten digitalen Formaten, die von Steuerbehörden gefordert werden. Invoicemonk unterstützt ZATCA Phase 2 (Saudi-Arabien), Peppol (Europa) und andere regionale E-Invoicing-Mandate und erstellt automatisch vollständig konforme E-Rechnungen."
+    },
+    "irn": {
+      "question": "Was ist eine Rechnungsreferenznummer (IRN)?",
+      "answer": "Eine IRN ist eine eindeutige Kennung, die jeder Rechnung zur durchgängigen Rückverfolgbarkeit zugewiesen wird. Invoicemonk generiert IRNs automatisch, sodass jedes Dokument während seines gesamten Lebenszyklus nachverfolgt und überprüft werden kann."
+    },
+    "digitalSignatures": {
+      "question": "Unterstützt Invoicemonk digitale Signaturen?",
+      "answer": "Ja. Invoicemonk unterstützt Cryptographic Stamp Identifiers (CSID) und digitale Signaturen, die die Dokumentenauthentizität überprüfen. Empfänger können unabhängig bestätigen, dass eine Rechnung nicht manipuliert wurde."
+    }
+  }
+}

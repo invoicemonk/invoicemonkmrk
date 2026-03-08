@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "label": "À propos",
+    "title": "Nous sommes Invoicemonk dans tous les sens du terme.",
+    "description": "C'est pourquoi nous avons créé des outils simples qui permettent aux freelances et aux propriétaires de petites entreprises de prendre le contrôle total de leur façon de travailler."
+  },
+  "story": {
+    "paragraph1": "Chez Invoicemonk, nous croyons que les freelances et les petites entreprises sont le cœur de nos communautés, et les défendre vaut la peine de se battre car cela mènera à plus de nouveaux entrepreneurs et plus de petites entreprises florissantes.",
+    "paragraph2prefix": "Comment nous comptons y parvenir, c'est en fournissant une",
+    "invoiceLink": "application de facturation simple et facile à utiliser",
+    "and": "et",
+    "estimateLink": "application de devis gratuite",
+    "clientLink": "application de gestion de clients conviviale",
+    "paymentLink": "application de réception de paiements hautement fonctionnelle",
+    "paragraph2suffix": "et une solution de gestion financière dont ils ne peuvent plus se passer. Nous avons également",
+    "blogLink": "un blog pour enseigner, éduquer et guider les freelances et les propriétaires de petites entreprises",
+    "blogSuffix": "dans leur quotidien."
+  },
+  "team": {
+    "label": "Notre équipe",
+    "title": "Rencontrez les fondateurs",
+    "description": "L'équipe passionnée derrière Invoicemonk, dédiée à l'autonomisation des freelances et des petites entreprises à travers le monde."
+  },
+  "openRoles": {
+    "title": "Postes ouverts",
+    "description": "Vous souhaitez rejoindre notre équipe ? Nous recherchons toujours des personnes passionnées pour nous aider à construire l'avenir des outils d'entreprise.",
+    "cta": "Rejoindre notre équipe"
+  },
+  "faqs": {
+    "whoFounded": {
+      "question": "Qui a fondé Invoicemonk ?",
+      "answer": "Invoicemonk a été cofondé par Olayinka Olayokun (PDG) et Joan Omionawele (Présidente de la Communication), avec pour mission d'autonomiser les freelances et les petites entreprises dans le monde entier."
+    },
+    "mission": {
+      "question": "Quelle est la mission d'Invoicemonk ?",
+      "answer": "Notre mission est de défendre les freelances et les petites entreprises en fournissant des outils de facturation et de gestion financière simples et faciles à utiliser qui les aident à prospérer."
+    },
+    "availability": {
+      "question": "Où Invoicemonk est-il disponible ?",
+      "answer": "Invoicemonk est disponible dans le monde entier et sert des entreprises dans plus de 50 pays. Notre plateforme prend en charge plusieurs devises et les exigences de conformité régionales."
+    }
+  }
+}

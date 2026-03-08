@@ -1,226 +1,141 @@
 
 
-# Page Translation Batch Plan
+# SEO Optimization: Title Tags, Meta Descriptions, and Internal Linking
 
-## Approach per batch
-
-For each page: (1) extract all hardcoded strings into a namespace JSON file (`src/i18n/en/<page>.json`), (2) create DE/FR/PT/ES translations, (3) update the TSX to use `useTranslation('<page>')` with `t()` calls.
-
-Each batch creates **5 new JSON files** (en + 4 languages) and modifies **1-3 TSX files**. Batches are sized to stay under ~800 lines of TSX to avoid truncation.
+## Overview
+Based on the GSC data, the biggest wins come from **CTR optimization** (better title tags and meta descriptions) on pages already ranking in positions 3-15, and **internal linking** to boost pages on the edge of page 1. No new pages needed -- just surgical copy refinements.
 
 ---
 
-## Page Inventory (by line count)
+## Priority 1: Title Tag and Meta Description Rewrites
 
-| Page | Lines | Category |
-|------|-------|----------|
-| Invoicing | 466 | Product |
-| Accounting | 424 | Product |
-| Payments | 417 | Product |
-| Receipts | 413 | Product |
-| ClientManagement | 391 | Feature |
-| Freelancers | 381 | Audience |
-| Estimates | 380 | Audience |
-| Consultants | 388 | Audience |
-| Contractors | 388 | Audience |
-| Agencies | 359 | Audience |
-| Accountants | 359 | Audience |
-| Ecommerce | 359 | Audience |
-| Expenses | 356 | Product |
-| Contact | 358 | Company |
-| SmallBusinesses | 337 | Audience |
-| Photographers | 278 | Audience |
-| Lawyers | 278 | Audience |
-| Creatives | 278 | Audience |
-| Developer | 268 | Audience |
-| Pricing | 234 | Company |
-| WhyInvoicemonk | 224 | Company |
-| RecurringBilling | 217 | Use-case |
-| MilestoneBilling | 218 | Use-case |
-| FreeInvoiceGenerator | 200 | Tool |
-| RetainerBilling | 195 | Use-case |
-| BestInvoicingSoftware | 184 | Compare |
-| InvoicemonkVsFreshbooks | 178 | Compare |
-| InvoicemonkVsQuickbooks | 178 | Compare |
-| MultiCurrencyInvoicing | 172 | Compare |
-| InvoicemonkVsWave | 170 | Compare |
-| InvoicemonkVsZoho | 168 | Compare |
-| About | 173 | Company |
-| Compliance | 101 | Company |
-| Index | 56 | Home |
+These pages have impressions but near-zero CTR. The fix is rewriting `<SEOHead>` title and description props to match actual user queries from GSC.
 
----
+### 1a. Credit Notes Page (221 impressions, 1 click, pos 6.3)
 
-## Batches
+**File**: `src/data/blogPosts.ts` (the blog post with slug `credit-notes-and-invoice-corrections`)
 
-### Batch 1: Homepage + Compliance + About (330 lines)
-- `Index.tsx` (56) — wrapper page, minimal strings
-- `Compliance.tsx` (101) — 8 features + 7 FAQs
-- `About.tsx` (173) — mission, team, press
+| Field | Current | New |
+|-------|---------|-----|
+| title | "Credit Notes and Invoice Corrections: The Right Way to Fix Billing Errors" | "Credit Notes: How and When to Use Them (With Examples)" |
+| excerpt | "Learn how to properly issue credit notes..." | "What is a credit note? When should you issue one instead of a refund? Step-by-step guide with examples for small businesses." |
 
-**Namespaces**: `index.json`, `compliance.json`, `about.json`
-**New files**: 15 (3 namespaces x 5 languages)
+**Rationale**: GSC shows queries like "how to issue credit note", "when to use credit note", "credit note vs refund". The current title doesn't match these patterns.
 
----
+### 1b. Recurring Invoices Page (232 impressions, 0 clicks, pos 14.4)
 
-### Batch 2: Pricing + WhyInvoicemonk + FreeInvoiceGenerator (658 lines)
-- `Pricing.tsx` (234) — plan names, FAQs, toggle labels
-- `WhyInvoicemonk.tsx` (224) — benefits, differentiators
-- `FreeInvoiceGenerator.tsx` (200) — steps, features, CTAs
+**File**: `src/data/blogPosts.ts` (slug `recurring-invoices-automating-billing`)
 
-**Namespaces**: `pricing.json`, `whyInvoicemonk.json`, `freeInvoiceGenerator.json`
-**New files**: 15
+| Field | Current | New |
+|-------|---------|-----|
+| title | "Recurring Invoices: Automate Your Billing for Subscription and Retainer Clients" | "How to Set Up Recurring Invoices: Automate Billing for Retainers and Subscriptions" |
+| excerpt | "Save time and ensure consistent cash flow..." | "Step-by-step guide to automating recurring invoices. Best practices for retainer billing, subscription clients, and monthly contracts." |
 
----
+**Rationale**: GSC queries are "how to set up automatic recurring invoices", "best practices for automating recurring invoices", "recurring billing invoices". Adding "How to" and "Set Up" matches the query intent.
 
-### Batch 3: Invoicing (466 lines)
-- `Invoicing.tsx` (466) — largest page, many features/tabs/FAQs
+### 1c. International Payment Fees Blog (293 impressions, 1 click, pos 12.5)
 
-**Namespaces**: `invoicing.json`
-**New files**: 5
+**File**: `src/data/blogPosts.ts` (slug `international-payment-fees-explained`)
 
----
+| Field | Current | New |
+|-------|---------|-----|
+| title | "International Payment Fees Explained: How to Save on Cross-Border Transactions" | "International Payment Fees Explained: How to Reduce Fees on Invoice Payments (2026)" |
+| excerpt | (update to match) | "Compare international payment fees across Wise, PayPal, SWIFT, and card processors. Learn how to reduce fees on cross-border invoice payments." |
 
-### Batch 4: Expenses + Contact (714 lines)
-- `Expenses.tsx` (356)
-- `Contact.tsx` (358)
+**Rationale**: Top GSC query is literally "how to reduce fees on international invoice payments" at pos 4.4. Putting this exact phrase in the title will boost CTR.
 
-**Namespaces**: `expenses.json`, `contact.json`
-**New files**: 10
+### 1d. PayPal vs Wise Page (72 impressions, 0 clicks, pos 6.0)
+
+**File**: `src/pages/tools/PaypalVsWiseFees.tsx`
+
+| Field | Current | New |
+|-------|---------|-----|
+| SEOHead title | "PayPal vs Wise Fees Compared \| Which Is Cheaper? \| Invoicemonk" | "PayPal vs Wise Fees: Which Is Cheaper for International Transfers? (2026)" |
+| SEOHead description | "Compare PayPal and Wise fees for international payments..." | "Is Wise cheaper than PayPal? Side-by-side fee comparison for international transfers. See real cost breakdowns for $1K, $5K, and $10K transfers." |
+
+**Rationale**: GSC shows "is wise cheaper than paypal for international transfers" and "wise vs paypal fees" at position 1. Adding the year and a clearer value prop improves CTR.
+
+### 1e. Cheapest International Payments Page
+
+**File**: `src/pages/tools/CheapestInternationalPayments.tsx`
+
+| Field | Current | New |
+|-------|---------|-----|
+| SEOHead title | "Cheapest Way to Receive International Payments \| 2026 Guide \| Invoicemonk" | "Cheapest Way to Receive International Payments in 2026 \| Fee Comparison" |
+| SEOHead description | "Find the cheapest way to receive international payments. Compare Wise, PayPal, bank transfers, and cards." | "Compare the cheapest international payment methods for invoices. Wise vs PayPal vs SWIFT vs cards -- ranked by total cost with a free fee calculator." |
+
+**Rationale**: Matches "cheapest international payment methods for invoices 2026" (pos 6.7) and "settling international payments costs" (pos 4.3).
+
+### 1f. Invoice Disputes Page (64 impressions, 0 clicks, pos 14.6)
+
+**File**: `src/data/blogPosts.ts` (slug `invoice-disputes-how-to-handle-professionally`)
+
+| Field | Current | New |
+|-------|---------|-----|
+| title | "Invoice Disputes: How to Handle Professionally and Preserve Relationships" | "How to Handle Invoice Disputes Professionally (Templates and Scripts)" |
+| excerpt | "Learn professional approaches to resolve billing disagreements..." | "Invoice disputed by a client? Step-by-step process for resolving billing disagreements professionally, with email templates and response scripts." |
+
+**Rationale**: GSC queries include "can you tell me about past invoice disputes and how you've resolved them" at pos 8-10. Adding "Templates and Scripts" increases perceived value.
 
 ---
 
-### Batch 5: Payments (417 lines)
-- `Payments.tsx` (417)
+## Priority 2: Internal Linking Boost
 
-**Namespaces**: `payments.json`
-**New files**: 5
+Add strategic internal links on high-authority pages to pass link equity to pages near the edge of page 1.
 
----
+### 2a. Homepage Hero or GlobalComplianceSection
 
-### Batch 6: Accounting (424 lines)
-- `Accounting.tsx` (424)
+**File**: `src/components/home/GlobalComplianceSection.tsx`
 
-**Namespaces**: `accounting.json`
-**New files**: 5
+Add a subtle link in the compliance section to the international payment fees tools:
+- Within the bullet about "30+ supported jurisdictions" or the tagline area, add a small "See our international fee calculator" link pointing to `/international-payment-fee-calculator`
 
----
+### 2b. Invoicing Page (best CTR page)
 
-### Batch 7: Estimates + Receipts (793 lines)
-- `Estimates.tsx` (380)
-- `Receipts.tsx` (413)
+**File**: `src/pages/Invoicing.tsx`
 
-**Namespaces**: `estimates.json`, `receipts.json`
-**New files**: 10
+In the existing content, add internal links to:
+- `/blog/recurring-invoices-automating-billing` (from the "Recurring Billing" tab)
+- `/blog/credit-notes-and-invoice-corrections` (from the compliance/audit trail section)
+- `/free-invoice-generator` (as a "Try it free" link)
 
----
+These are 2-3 small `<Link>` additions within existing copy, not layout changes.
 
-### Batch 8: ClientManagement (391 lines)
-- `ClientManagement.tsx` (391)
+### 2c. Free Invoice Generator Page
 
-**Namespaces**: `clientManagement.json`
-**New files**: 5
+**File**: `src/pages/FreeInvoiceGenerator.tsx`
 
----
-
-### Batch 9: Freelancers + Photographers (659 lines)
-- `Freelancers.tsx` (381)
-- `Photographers.tsx` (278)
-
-**Namespaces**: `freelancers.json`, `photographers.json`
-**New files**: 10
+Add a "Related Resources" section at the bottom (similar to CheapestInternationalPayments pattern):
+- Link to `/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners`
+- Link to `/blog/invoice-numbering-best-practices`
+- Link to `/invoicing` (upgrade CTA)
 
 ---
 
-### Batch 10: Consultants + Creatives (666 lines)
-- `Consultants.tsx` (388)
-- `Creatives.tsx` (278)
+## Priority 3: Blog Post Meta for "Essential Elements" Page
 
-**Namespaces**: `consultants.json`, `creatives.json`
-**New files**: 10
+**File**: `src/data/blogPosts.ts` (slug `5-essential-elements-of-an-invoice-a-guide-for-small-business-owners`)
 
----
+| Field | Current | New |
+|-------|---------|-----|
+| title | (keep as-is, it's working) | No change |
+| excerpt | (update) | "What must every invoice include? The 5 essential elements every small business invoice needs -- with a downloadable checklist and template." |
 
-### Batch 11: Contractors + Developer (656 lines)
-- `Contractors.tsx` (388)
-- `Developer.tsx` (268)
-
-**Namespaces**: `contractors.json`, `developer.json`
-**New files**: 10
+Adding "checklist" and "template" matches the query "essential elements invoice template" (pos 10).
 
 ---
 
-### Batch 12: Agencies + Lawyers (637 lines)
-- `Agencies.tsx` (359)
-- `Lawyers.tsx` (278)
+## Files Modified Summary
 
-**Namespaces**: `agencies.json`, `lawyers.json`
-**New files**: 10
+| File | Change |
+|------|--------|
+| `src/data/blogPosts.ts` | Update title and excerpt for 4 blog posts (credit-notes, recurring-invoices, international-fees, invoice-disputes) |
+| `src/pages/tools/PaypalVsWiseFees.tsx` | Update SEOHead title and description |
+| `src/pages/tools/CheapestInternationalPayments.tsx` | Update SEOHead title and description |
+| `src/pages/Invoicing.tsx` | Add 3 internal links within existing content |
+| `src/pages/FreeInvoiceGenerator.tsx` | Add Related Resources section with 3 links |
+| `src/components/home/GlobalComplianceSection.tsx` | Add subtle internal link to fee calculator |
+| `src/data/blogPosts.ts` | Update excerpt for essential-elements post |
 
----
-
-### Batch 13: SmallBusinesses + Accountants (696 lines)
-- `SmallBusinesses.tsx` (337)
-- `Accountants.tsx` (359)
-
-**Namespaces**: `smallBusinesses.json`, `accountants.json`
-**New files**: 10
-
----
-
-### Batch 14: Ecommerce (359 lines)
-- `Ecommerce.tsx` (359)
-
-**Namespaces**: `ecommerce.json`
-**New files**: 5
-
----
-
-### Batch 15: All 5 Comparison pages (878 lines)
-- `BestInvoicingSoftware.tsx` (184)
-- `InvoicemonkVsFreshbooks.tsx` (178)
-- `InvoicemonkVsQuickbooks.tsx` (178)
-- `InvoicemonkVsWave.tsx` (170)
-- `InvoicemonkVsZoho.tsx` (168)
-
-These share a similar structure so can be batched together.
-**Namespaces**: `compareBest.json`, `compareFreshbooks.json`, `compareQuickbooks.json`, `compareWave.json`, `compareZoho.json`
-**New files**: 25
-
----
-
-### Batch 16: All 4 Use-case pages (802 lines)
-- `RecurringBilling.tsx` (217)
-- `MilestoneBilling.tsx` (218)
-- `RetainerBilling.tsx` (195)
-- `MultiCurrencyInvoicing.tsx` (172)
-
-**Namespaces**: `recurringBilling.json`, `milestoneBilling.json`, `retainerBilling.json`, `multiCurrencyInvoicing.json`
-**New files**: 20
-
----
-
-## Summary
-
-| Batch | Pages | Total TSX lines | New JSON files |
-|-------|-------|----------------|---------------|
-| 1 | Index, Compliance, About | 330 | 15 |
-| 2 | Pricing, WhyInvoicemonk, FreeInvoiceGenerator | 658 | 15 |
-| 3 | Invoicing | 466 | 5 |
-| 4 | Expenses, Contact | 714 | 10 |
-| 5 | Payments | 417 | 5 |
-| 6 | Accounting | 424 | 5 |
-| 7 | Estimates, Receipts | 793 | 10 |
-| 8 | ClientManagement | 391 | 5 |
-| 9 | Freelancers, Photographers | 659 | 10 |
-| 10 | Consultants, Creatives | 666 | 10 |
-| 11 | Contractors, Developer | 656 | 10 |
-| 12 | Agencies, Lawyers | 637 | 10 |
-| 13 | SmallBusinesses, Accountants | 696 | 10 |
-| 14 | Ecommerce | 359 | 5 |
-| 15 | 5 Comparison pages | 878 | 25 |
-| 16 | 4 Use-case pages | 802 | 20 |
-| **Total** | **34 pages** | **~9,546** | **170 JSON files** |
-
-Each batch = one implementation message. Total: 16 batches. Excludes blog (150+ posts), guides (8 pages), help center, legal pages, and glossary -- those would be separate follow-up phases.
+No new dependencies. No layout changes. Copy-only and link-only refinements targeting GSC-validated queries.
 

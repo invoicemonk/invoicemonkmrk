@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "Conforme {{authority}}",
+    "title": "Conçu pour une confiance prête pour l'audit",
+    "accentWord": "l'audit",
+    "description": "{{message}}. Invoicemonk maintient des enregistrements immuables et des pistes d'audit complètes, pour que vous soyez toujours prêt pour un contrôle réglementaire.",
+    "primaryCta": "Commencer gratuitement",
+    "secondaryCta": "En savoir plus",
+    "trustBadge": "Enregistrements immuables • Pistes d'audit complètes • Rapports exportables"
+  },
+  "floatingBadge": "Prêt pour l'audit",
+  "features": {
+    "immutableRecords": {
+      "title": "Enregistrements immuables",
+      "description": "Une fois créés, les enregistrements de factures ne peuvent être ni modifiés ni supprimés, garantissant l'intégrité complète des données pour les audits."
+    },
+    "timestampedLogs": {
+      "title": "Journaux horodatés",
+      "description": "Chaque action est enregistrée avec des horodatages précis, créant une piste d'audit chronologique complète."
+    },
+    "exportReadyReports": {
+      "title": "Rapports exportables",
+      "description": "Générez des rapports de conformité dans des formats acceptés par les autorités fiscales et les auditeurs du monde entier."
+    },
+    "regulatoryStandards": {
+      "title": "Normes réglementaires",
+      "description": "Conçu pour répondre aux exigences internationales de facturation et de conservation des documents pour les petites entreprises."
+    },
+    "eInvoicing": {
+      "title": "Conformité e-facturation",
+      "description": "Générez et recevez des e-factures conformes à ZATCA, Peppol et aux mandats régionaux."
+    },
+    "digitalSignatures": {
+      "title": "Signatures numériques (CSID)",
+      "description": "Tampons cryptographiques et signatures numériques pour vérifier l'authenticité des documents."
+    },
+    "irn": {
+      "title": "Numéros de référence de facture",
+      "description": "IRN unique attribué à chaque facture pour une traçabilité de bout en bout."
+    },
+    "roleBasedAccess": {
+      "title": "Accès basé sur les rôles",
+      "description": "Attribuez des rôles Finance, Ventes et Direction avec les permissions appropriées."
+    }
+  },
+  "faqs": {
+    "complianceFirst": {
+      "question": "Que signifie conformité d'abord ?",
+      "answer": "Cela signifie que chaque fonctionnalité d'Invoicemonk est construite avec la conformité réglementaire au cœur. Les enregistrements sont immuables, horodatés et prêts pour l'audit dès leur création."
+    },
+    "taxAuthorities": {
+      "question": "Quelles autorités fiscales Invoicemonk prend-il en charge ?",
+      "answer": "Invoicemonk prend en charge les exigences de conformité de FIRS (Nigeria), HMRC (Royaume-Uni), IRS (États-Unis), CRA (Canada) et ATO (Australie), avec de nouvelles régions ajoutées régulièrement."
+    },
+    "exportReports": {
+      "question": "Puis-je exporter des rapports pour mon auditeur ?",
+      "answer": "Oui. Générez des rapports de conformité dans des formats acceptés par les autorités fiscales et les auditeurs du monde entier. Tous les enregistrements incluent des pistes d'audit complètes avec horodatages et informations utilisateur."
+    },
+    "immutable": {
+      "question": "Mes enregistrements de factures sont-ils vraiment immuables ?",
+      "answer": "Oui. Une fois créés, les enregistrements de factures ne peuvent être ni modifiés ni supprimés. Chaque modification crée une nouvelle version tout en préservant l'original, garantissant l'intégrité complète des données pour les audits."
+    },
+    "eInvoicing": {
+      "question": "Qu'est-ce que la e-facturation et Invoicemonk la prend-il en charge ?",
+      "answer": "La e-facturation est l'échange électronique de factures dans des formats numériques structurés requis par les autorités fiscales. Invoicemonk prend en charge ZATCA Phase 2 (Arabie saoudite), Peppol (Europe) et d'autres mandats régionaux de e-facturation, générant automatiquement des e-factures entièrement conformes."
+    },
+    "irn": {
+      "question": "Qu'est-ce qu'un numéro de référence de facture (IRN) ?",
+      "answer": "Un IRN est un identifiant unique attribué à chaque facture pour une traçabilité de bout en bout. Invoicemonk génère automatiquement les IRN, garantissant que chaque document peut être suivi et vérifié tout au long de son cycle de vie."
+    },
+    "digitalSignatures": {
+      "question": "Invoicemonk prend-il en charge les signatures numériques ?",
+      "answer": "Oui. Invoicemonk prend en charge les identifiants de tampon cryptographique (CSID) et les signatures numériques qui vérifient l'authenticité des documents. Les destinataires peuvent confirmer indépendamment qu'une facture n'a pas été falsifiée."
+    }
+  }
+}
