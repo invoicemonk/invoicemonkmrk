@@ -12,12 +12,9 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { useTranslation } from 'react-i18next';
 
-const contactFAQs = [
-  { question: 'How quickly will I get a response?', answer: 'We typically respond within 24 hours during business days. For urgent issues, email us directly at hello@invoicemonk.com.' },
-  { question: 'What support channels are available?', answer: 'You can reach us through the contact form on this page, email at hello@invoicemonk.com, or through our live chat. We also have a comprehensive Help Center.' },
-  { question: 'Is there phone support?', answer: 'Currently we offer email and chat support. Our team is responsive and knowledgeable, ensuring your questions are answered quickly and thoroughly.' },
-];
+const faqKeys = ['responseTime', 'supportChannels', 'phoneSupport'] as const;
 
 interface FormData {
   firstName: string;
@@ -37,49 +34,25 @@ interface FormErrors {
 
 const Contact = () => {
   const { toast } = useToast();
+  const { t } = useTranslation('contact');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState<FormData>({
-    firstName: '',
-    lastName: '',
-    email: '',
-    subject: '',
-    message: '',
+    firstName: '', lastName: '', email: '', subject: '', message: '',
   });
   const [errors, setErrors] = useState<FormErrors>({});
 
   const validateForm = (): boolean => {
     const newErrors: FormErrors = {};
-
-    if (!formData.firstName.trim()) {
-      newErrors.firstName = 'First name is required';
-    } else if (formData.firstName.length > 100) {
-      newErrors.firstName = 'First name must be under 100 characters';
-    }
-
-    if (!formData.lastName.trim()) {
-      newErrors.lastName = 'Last name is required';
-    } else if (formData.lastName.length > 100) {
-      newErrors.lastName = 'Last name must be under 100 characters';
-    }
-
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email address';
-    }
-
-    if (!formData.subject.trim()) {
-      newErrors.subject = 'Subject is required';
-    } else if (formData.subject.length > 200) {
-      newErrors.subject = 'Subject must be under 200 characters';
-    }
-
-    if (!formData.message.trim()) {
-      newErrors.message = 'Message is required';
-    } else if (formData.message.length > 5000) {
-      newErrors.message = 'Message must be under 5000 characters';
-    }
-
+    if (!formData.firstName.trim()) newErrors.firstName = t('form.errors.firstNameRequired');
+    else if (formData.firstName.length > 100) newErrors.firstName = t('form.errors.firstNameLength');
+    if (!formData.lastName.trim()) newErrors.lastName = t('form.errors.lastNameRequired');
+    else if (formData.lastName.length > 100) newErrors.lastName = t('form.errors.lastNameLength');
+    if (!formData.email.trim()) newErrors.email = t('form.errors.emailRequired');
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) newErrors.email = t('form.errors.emailInvalid');
+    if (!formData.subject.trim()) newErrors.subject = t('form.errors.subjectRequired');
+    else if (formData.subject.length > 200) newErrors.subject = t('form.errors.subjectLength');
+    if (!formData.message.trim()) newErrors.message = t('form.errors.messageRequired');
+    else if (formData.message.length > 5000) newErrors.message = t('form.errors.messageLength');
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -87,7 +60,6 @@ const Contact = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
-    // Clear error when user starts typing
     if (errors[name as keyof FormErrors]) {
       setErrors(prev => ({ ...prev, [name]: undefined }));
     }
@@ -95,53 +67,21 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
     if (!validateForm()) {
-      toast({
-        title: "Please fix the errors",
-        description: "Some fields need your attention.",
-        variant: "destructive",
-      });
+      toast({ title: t('toast.fixErrors'), description: t('toast.fixErrorsDesc'), variant: "destructive" });
       return;
     }
-
     setIsSubmitting(true);
-    
     try {
-      const { data, error } = await supabase.functions.invoke('send-contact-message', {
-        body: formData,
-      });
-
-      if (error) {
-        throw error;
-      }
-
-      if (data?.error) {
-        throw new Error(data.error);
-      }
-
-      toast({
-        title: "Message sent!",
-        description: "We'll get back to you within 24 hours.",
-      });
-      
-      // Reset form
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        subject: '',
-        message: '',
-      });
+      const { data, error } = await supabase.functions.invoke('send-contact-message', { body: formData });
+      if (error) throw error;
+      if (data?.error) throw new Error(data.error);
+      toast({ title: t('toast.success'), description: t('toast.successDesc') });
+      setFormData({ firstName: '', lastName: '', email: '', subject: '', message: '' });
       setErrors({});
-
     } catch (error) {
       console.error('Contact form error:', error);
-      toast({
-        title: "Failed to send message",
-        description: error instanceof Error ? error.message : "Please try again later.",
-        variant: "destructive",
-      });
+      toast({ title: t('toast.error'), description: error instanceof Error ? error.message : t('toast.errorDesc'), variant: "destructive" });
     } finally {
       setIsSubmitting(false);
     }
@@ -149,6 +89,11 @@ const Contact = () => {
 
   const { locale } = useLocale();
   const seo = pageSEO['/contact'];
+
+  const contactFAQs = faqKeys.map(key => ({
+    question: t(`faqs.${key}.question`),
+    answer: t(`faqs.${key}.answer`),
+  }));
 
   return (
     <Layout>
@@ -162,11 +107,10 @@ const Contact = () => {
           {/* Header */}
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-4">
-              Get in Touch
+              {t('hero.title')}
             </h1>
             <p className="text-body-lg text-muted-foreground">
-              Have questions about Invoicemonk? We're here to help. Send us a message 
-              and we'll respond as soon as possible.
+              {t('hero.description')}
             </p>
           </div>
 
@@ -180,14 +124,9 @@ const Contact = () => {
                       <Mail className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                      <p className="text-muted-foreground text-sm mb-2">
-                        For general inquiries
-                      </p>
-                      <a 
-                        href="mailto:hello@invoicemonk.com" 
-                        className="text-primary hover:underline text-sm"
-                      >
+                      <h3 className="font-semibold text-foreground mb-1">{t('info.email.title')}</h3>
+                      <p className="text-muted-foreground text-sm mb-2">{t('info.email.subtitle')}</p>
+                      <a href="mailto:hello@invoicemonk.com" className="text-primary hover:underline text-sm">
                         hello@invoicemonk.com
                       </a>
                     </div>
@@ -202,11 +141,8 @@ const Contact = () => {
                       <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">Office</h3>
-                      <p className="text-muted-foreground text-sm">
-                        Contact us online for<br />
-                        the fastest response
-                      </p>
+                      <h3 className="font-semibold text-foreground mb-1">{t('info.office.title')}</h3>
+                      <p className="text-muted-foreground text-sm">{t('info.office.description')}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -219,10 +155,8 @@ const Contact = () => {
                       <Clock className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">Response Time</h3>
-                      <p className="text-muted-foreground text-sm">
-                        We typically respond within 24 hours during business days.
-                      </p>
+                      <h3 className="font-semibold text-foreground mb-1">{t('info.responseTime.title')}</h3>
+                      <p className="text-muted-foreground text-sm">{t('info.responseTime.description')}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -233,98 +167,82 @@ const Contact = () => {
             <Card className="lg:col-span-2 border-border/50">
               <CardContent className="p-8">
                 <h2 className="text-heading-md font-semibold text-foreground mb-6">
-                  Send us a message
+                  {t('form.title')}
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="firstName">First Name</Label>
+                      <Label htmlFor="firstName">{t('form.firstName')}</Label>
                       <Input 
-                        id="firstName" 
-                        name="firstName"
-                        placeholder="John" 
-                        value={formData.firstName}
-                        onChange={handleChange}
+                        id="firstName" name="firstName"
+                        placeholder={t('form.placeholders.firstName')}
+                        value={formData.firstName} onChange={handleChange}
                         className={errors.firstName ? 'border-destructive' : ''}
                       />
                       {errors.firstName && (
                         <p className="text-destructive text-sm flex items-center gap-1">
-                          <AlertCircle className="w-3 h-3" />
-                          {errors.firstName}
+                          <AlertCircle className="w-3 h-3" />{errors.firstName}
                         </p>
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="lastName">Last Name</Label>
+                      <Label htmlFor="lastName">{t('form.lastName')}</Label>
                       <Input 
-                        id="lastName" 
-                        name="lastName"
-                        placeholder="Doe" 
-                        value={formData.lastName}
-                        onChange={handleChange}
+                        id="lastName" name="lastName"
+                        placeholder={t('form.placeholders.lastName')}
+                        value={formData.lastName} onChange={handleChange}
                         className={errors.lastName ? 'border-destructive' : ''}
                       />
                       {errors.lastName && (
                         <p className="text-destructive text-sm flex items-center gap-1">
-                          <AlertCircle className="w-3 h-3" />
-                          {errors.lastName}
+                          <AlertCircle className="w-3 h-3" />{errors.lastName}
                         </p>
                       )}
                     </div>
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email">{t('form.email')}</Label>
                     <Input 
-                      id="email" 
-                      name="email"
-                      type="email" 
-                      placeholder="john@company.com" 
-                      value={formData.email}
-                      onChange={handleChange}
+                      id="email" name="email" type="email"
+                      placeholder={t('form.placeholders.email')}
+                      value={formData.email} onChange={handleChange}
                       className={errors.email ? 'border-destructive' : ''}
                     />
                     {errors.email && (
                       <p className="text-destructive text-sm flex items-center gap-1">
-                        <AlertCircle className="w-3 h-3" />
-                        {errors.email}
+                        <AlertCircle className="w-3 h-3" />{errors.email}
                       </p>
                     )}
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="subject">Subject</Label>
+                    <Label htmlFor="subject">{t('form.subject')}</Label>
                     <Input 
-                      id="subject" 
-                      name="subject"
-                      placeholder="How can we help?" 
-                      value={formData.subject}
-                      onChange={handleChange}
+                      id="subject" name="subject"
+                      placeholder={t('form.placeholders.subject')}
+                      value={formData.subject} onChange={handleChange}
                       className={errors.subject ? 'border-destructive' : ''}
                     />
                     {errors.subject && (
                       <p className="text-destructive text-sm flex items-center gap-1">
-                        <AlertCircle className="w-3 h-3" />
-                        {errors.subject}
+                        <AlertCircle className="w-3 h-3" />{errors.subject}
                       </p>
                     )}
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="message">Message</Label>
+                    <Label htmlFor="message">{t('form.message')}</Label>
                     <Textarea 
-                      id="message" 
-                      name="message"
-                      placeholder="Tell us more about your inquiry..."
+                      id="message" name="message"
+                      placeholder={t('form.placeholders.message')}
                       rows={5}
-                      value={formData.message}
-                      onChange={handleChange}
+                      value={formData.message} onChange={handleChange}
                       className={errors.message ? 'border-destructive' : ''}
                     />
                     {errors.message && (
                       <p className="text-destructive text-sm flex items-center gap-1">
-                        <AlertCircle className="w-3 h-3" />
-                        {errors.message}
+                        <AlertCircle className="w-3 h-3" />{errors.message}
                       </p>
                     )}
                     <p className="text-muted-foreground text-xs text-right">
@@ -336,12 +254,12 @@ const Contact = () => {
                     {isSubmitting ? (
                       <>
                         <span className="animate-spin mr-2">⏳</span>
-                        Sending...
+                        {t('form.submitting')}
                       </>
                     ) : (
                       <>
                         <CheckCircle className="w-4 h-4 mr-2" />
-                        Send Message
+                        {t('form.submit')}
                       </>
                     )}
                   </Button>

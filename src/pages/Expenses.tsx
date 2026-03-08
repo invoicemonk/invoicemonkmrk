@@ -15,115 +15,62 @@ import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-
-const expensesSEOFAQs = [
-  { question: 'What is expense tracking software?', answer: 'Expense tracking software automates the process of recording, categorizing, and reporting business expenses. It replaces manual spreadsheets with features like receipt scanning, automatic categorization, and real-time spending insights.' },
-  { question: 'How does receipt scanning work?', answer: 'Receipt scanning uses OCR (Optical Character Recognition) technology to photograph a receipt and automatically extract the vendor name, date, amount, and category. Simply snap a photo with your phone and the data is captured instantly.' },
-  { question: 'Can I track expenses by category?', answer: 'Yes. Expense tracking software lets you organize spending into categories like travel, office supplies, software, and meals. You can use pre-built categories or create custom ones, and expenses are often auto-categorized based on the vendor.' },
-  { question: 'Does expense tracking help with taxes?', answer: 'Absolutely. Expense tracking software automatically flags tax-deductible expenses and generates reports you can share with your accountant. This ensures you never miss a deduction and stay compliant with tax authorities.' },
-];
-
-const automationFeatures = [
-  {
-    icon: Clock,
-    title: 'Automatic data entry',
-    description: 'No more typing. Receipt scanning does the work for you.',
-  },
-  {
-    icon: FolderCheck,
-    title: 'Smart organization',
-    description: 'Expenses sorted by vendor, category, and date automatically.',
-  },
-  {
-    icon: FileBarChart,
-    title: 'One-click reports',
-    description: 'Generate expense reports ready for clients or accountants.',
-  },
-];
-
-const featureBlocks = [
-  {
-    icon: Camera,
-    title: 'Snap and forget',
-    description: 'Take a photo of any receipt and we\'ll extract all the details automatically.',
-  },
-  {
-    icon: Tag,
-    title: 'Auto-categorize everything',
-    description: 'Expenses are automatically sorted by type, vendor, and tax category.',
-  },
-  {
-    icon: PieChart,
-    title: 'See where your money goes',
-    description: 'Visual breakdowns help you understand spending patterns at a glance.',
-  },
-];
-
-const bannerFeatures = [
-  'Scan receipts instantly',
-  'Auto-categorize spending',
-  'Track tax deductions',
-  'Generate expense reports',
-];
+import { useTranslation } from 'react-i18next';
 
 import expensesReceiptScanning from '@/assets/expenses-receipt-scanning.jpg';
 import expensesCategories from '@/assets/expenses-categories.jpg';
 import expensesTaxTracking from '@/assets/expenses-tax-tracking.jpg';
 import expensesAutomation from '@/assets/expenses-automation.jpg';
 
-const tabbedFeatures = [
-  {
-    label: 'Receipt Scanning',
-    title: 'Capture expenses on the go',
-    description: 'Simply snap a photo of your receipt and our AI extracts the vendor, amount, date, and category automatically. No more manual data entry or lost receipts.',
-    image: expensesReceiptScanning,
-  },
-  {
-    label: 'Categories',
-    title: 'Automatic smart categorization',
-    description: 'Our system learns from your expenses and automatically categorizes them. Easily track office supplies, travel, meals, software, and more.',
-    image: expensesCategories,
-  },
-  {
-    label: 'Tax Tracking',
-    title: 'Tax deductions made easy',
-    description: 'Automatically flag tax-deductible expenses and generate reports ready for your accountant. Never miss a deduction again.',
-    image: expensesTaxTracking,
-  },
-];
+const featureBlockKeys = [
+  { key: 'snapAndForget', icon: Camera },
+  { key: 'autoCategorize', icon: Tag },
+  { key: 'seeWhereMoneyGoes', icon: PieChart },
+] as const;
 
-const expensesFAQs = [
-  {
-    question: 'How does receipt scanning work?',
-    answer: 'Simply take a photo of your receipt with your phone or upload an image. Our AI-powered OCR technology extracts the vendor name, date, amount, and even suggests a category automatically.',
-  },
-  {
-    question: 'Can I track expenses for multiple categories?',
-    answer: 'Yes! You can create custom categories or use our pre-built ones like Travel, Office Supplies, Software, Meals, and more. Expenses are automatically categorized based on the vendor.',
-  },
-  {
-    question: 'Will this help with my taxes?',
-    answer: 'Absolutely. We automatically flag tax-deductible expenses and generate reports you can share with your accountant. You\'ll never miss a deduction again.',
-  },
-  {
-    question: 'How does this integrate with invoicing?',
-    answer: 'Expenses flow directly into your financial reports. When combined with invoicing, you get a complete picture of your business finances — income and expenses in one place.',
-  },
-  {
-    question: 'Can I set spending budgets?',
-    answer: 'Yes, you can set budgets for different expense categories and get alerts when you\'re approaching your limits. Great for keeping spending under control.',
-  },
-];
+const automationKeys = [
+  { key: 'autoDataEntry', icon: Clock },
+  { key: 'smartOrganization', icon: FolderCheck },
+  { key: 'oneClickReports', icon: FileBarChart },
+] as const;
+
+const faqKeys = ['receiptScanning', 'multipleCategories', 'taxes', 'integration', 'budgets'] as const;
+const seoFaqKeys = ['whatIs', 'receiptScanning', 'categories', 'taxHelp'] as const;
 
 const Expenses = () => {
   const { formatCurrency } = useLocale();
+  const { t } = useTranslation('expenses');
 
   const expenseCategories = [
-    { category: 'Office Supplies', amount: 450, percent: 14 },
-    { category: 'Software', amount: 890, percent: 27 },
-    { category: 'Travel', amount: 1200, percent: 37 },
-    { category: 'Meals', amount: 700, percent: 22 },
+    { category: t('preview.categories.officeSupplies'), amount: 450, percent: 14 },
+    { category: t('preview.categories.software'), amount: 890, percent: 27 },
+    { category: t('preview.categories.travel'), amount: 1200, percent: 37 },
+    { category: t('preview.categories.meals'), amount: 700, percent: 22 },
   ];
+
+  const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];
+
+  const tabbedFeatures = [
+    { label: t('tabbed.receiptScanning.label'), title: t('tabbed.receiptScanning.title'), description: t('tabbed.receiptScanning.description'), image: expensesReceiptScanning },
+    { label: t('tabbed.categories.label'), title: t('tabbed.categories.title'), description: t('tabbed.categories.description'), image: expensesCategories },
+    { label: t('tabbed.taxTracking.label'), title: t('tabbed.taxTracking.title'), description: t('tabbed.taxTracking.description'), image: expensesTaxTracking },
+  ];
+
+  const automationFeatures = automationKeys.map(({ key, icon }) => ({
+    icon,
+    title: t(`automation.${key}.title`),
+    description: t(`automation.${key}.description`),
+  }));
+
+  const expensesFAQs = faqKeys.map(key => ({
+    question: t(`faq.items.${key}.question`),
+    answer: t(`faq.items.${key}.answer`),
+  }));
+
+  const expensesSEOFAQs = seoFaqKeys.map(key => ({
+    question: t(`seoFaqs.${key}.question`),
+    answer: t(`seoFaqs.${key}.answer`),
+  }));
 
   return (
     <Layout>
@@ -154,7 +101,7 @@ const Expenses = () => {
                 transition={{ duration: 0.5 }}
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-wave-green/10 text-wave-green mb-6"
               >
-                <span className="text-body-sm font-medium">Now Available</span>
+                <span className="text-body-sm font-medium">{t('hero.badge')}</span>
               </motion.div>
 
               <motion.div
@@ -174,8 +121,8 @@ const Expenses = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-display text-heading mb-6"
               >
-                Track every expense with{' '}
-                <span className="font-serif italic text-primary">ease</span>
+                {t('hero.title')}{' '}
+                <span className="font-serif italic text-primary">{t('hero.titleAccent')}</span>
               </motion.h1>
 
               <motion.p
@@ -184,8 +131,7 @@ const Expenses = () => {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="text-body-lg text-muted-foreground mb-8"
               >
-                Track business expenses effortlessly. Scan receipts, categorize spending, 
-                and maintain compliance-ready records — all integrated with your invoicing.
+                {t('hero.description')}
               </motion.p>
 
               <motion.div
@@ -200,7 +146,7 @@ const Expenses = () => {
                   className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
                 >
                   <a href="https://app.invoicemonk.com/signup">
-                    Start Your Free Trial
+                    {t('hero.primaryCta')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
                   </a>
                 </Button>
@@ -210,7 +156,7 @@ const Expenses = () => {
                   size="lg"
                   className="rounded-full px-8 h-14 text-body border-border hover:bg-muted"
                 >
-                  <Link to="/invoicing">Start with Invoicing</Link>
+                  <Link to="/invoicing">{t('hero.secondaryCta')}</Link>
                 </Button>
               </motion.div>
             </div>
@@ -224,17 +170,17 @@ const Expenses = () => {
             >
               <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-6">
                 <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-body font-semibold text-heading">Expense Summary</h3>
-                  <span className="text-caption text-muted-foreground">This Month</span>
+                  <h3 className="text-body font-semibold text-heading">{t('preview.title')}</h3>
+                  <span className="text-caption text-muted-foreground">{t('preview.thisMonth')}</span>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="bg-muted/50 rounded-xl p-4">
-                    <div className="text-caption text-muted-foreground mb-1">Total Expenses</div>
+                    <div className="text-caption text-muted-foreground mb-1">{t('preview.totalExpenses')}</div>
                     <div className="text-h3 font-bold text-heading">{formatCurrency(3240)}</div>
                   </div>
                   <div className="bg-wave-green/10 rounded-xl p-4">
-                    <div className="text-caption text-wave-green mb-1">Tax Deductible</div>
+                    <div className="text-caption text-wave-green mb-1">{t('preview.taxDeductible')}</div>
                     <div className="text-h3 font-bold text-wave-green">{formatCurrency(2180)}</div>
                   </div>
                 </div>
@@ -265,7 +211,7 @@ const Expenses = () => {
 
       {/* Feature Banner */}
       <WaveFeatureBanner 
-        title="Expense tracking that works for you"
+        title={t('banner.title')}
         features={bannerFeatures}
         variant="orange"
       />
@@ -275,19 +221,22 @@ const Expenses = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-h2 text-heading mb-4">
-              What you'll <span className="font-serif italic text-primary">get</span>
+              {t('featureBlocks.title').split('<accent>')[0]}
+              <span className="font-serif italic text-primary">
+                {t('featureBlocks.title').match(/<accent>(.*?)<\/accent>/)?.[1]}
+              </span>
+              {t('featureBlocks.title').split('</accent>')[1] || ''}
             </h2>
             <p className="text-body-lg text-muted-foreground">
-              Expense tracking designed to integrate seamlessly with your invoicing workflow.
+              {t('featureBlocks.subtitle')}
             </p>
           </AnimatedSection>
 
           <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
-            {featureBlocks.map((feature) => {
-              const Icon = feature.icon;
-              
+            {featureBlockKeys.map(({ key, icon }) => {
+              const Icon = icon;
               return (
-                <StaggerItem key={feature.title}>
+                <StaggerItem key={key}>
                   <motion.div
                     whileHover={{ y: -4 }}
                     className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
@@ -295,8 +244,8 @@ const Expenses = () => {
                     <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
                       <Icon className="w-7 h-7 text-primary" />
                     </div>
-                    <h3 className="text-h4 text-heading mb-3">{feature.title}</h3>
-                    <p className="text-body text-muted-foreground">{feature.description}</p>
+                    <h3 className="text-h4 text-heading mb-3">{t(`featureBlocks.${key}.title`)}</h3>
+                    <p className="text-body text-muted-foreground">{t(`featureBlocks.${key}.description`)}</p>
                   </motion.div>
                 </StaggerItem>
               );
@@ -307,15 +256,15 @@ const Expenses = () => {
 
       {/* Tabbed Feature Section */}
       <WaveTabbedFeature
-        title="Everything you need to track expenses"
-        subtitle="From receipt capture to tax-ready reports."
+        title={t('tabbed.title')}
+        subtitle={t('tabbed.subtitle')}
         tabs={tabbedFeatures}
       />
 
       {/* Alternating Feature - Automation */}
       <WaveAlternatingFeature
-        title="Save hours every month"
-        subtitle="Automate the tedious parts of expense tracking."
+        title={t('automation.title')}
+        subtitle={t('automation.subtitle')}
         features={automationFeatures}
         image={expensesAutomation}
         className="bg-background"
@@ -323,11 +272,11 @@ const Expenses = () => {
 
       {/* Featured Testimonial */}
       <WaveFeaturedTestimonial
-        quote="I used to dread expense tracking. Now I just snap a photo and everything is organized automatically. Tax season is so much easier."
+        quote={t('testimonial.quote')}
         author={{
-          name: "Oluwaseun Adeyemi",
-          title: "Consultant",
-          company: "Adeyemi Advisory"
+          name: t('testimonial.name'),
+          title: t('testimonial.title'),
+          company: t('testimonial.company')
         }}
         rating={5}
         variant="primary"
@@ -335,15 +284,15 @@ const Expenses = () => {
 
       {/* Blog Preview */}
       <WaveBlogPreview
-        title="Expense management tips"
-        subtitle="Learn how to track expenses more efficiently."
+        title={t('blog.title')}
+        subtitle={t('blog.subtitle')}
         pillarId="business-finances"
       />
 
       {/* FAQ Section */}
       <WaveProductFAQ
-        title="Expense tracking questions, answered"
-        subtitle="Everything you need to know about managing expenses."
+        title={t('faq.title')}
+        subtitle={t('faq.subtitle')}
         faqs={expensesFAQs}
       />
 
