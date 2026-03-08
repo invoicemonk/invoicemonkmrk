@@ -40,6 +40,10 @@ import '@/data/countryCompliancePosts.de';
 import '@/data/countryCompliancePosts.fr';
 import '@/data/countryCompliancePosts.pt';
 import '@/data/countryCompliancePosts.es';
+import '@/data/blogPostsCluster2.de';
+import '@/data/blogPostsCluster2.fr';
+import '@/data/blogPostsCluster2.pt';
+import '@/data/blogPostsCluster2.es';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;
