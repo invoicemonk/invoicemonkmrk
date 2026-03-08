@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "{{authority}}-Compliant",
+    "title": "Built for audit-ready confidence",
+    "accentWord": "audit-ready",
+    "description": "{{message}}. Invoicemonk maintains immutable records and comprehensive audit trails, so you're always prepared for regulatory review.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "Learn More",
+    "trustBadge": "Immutable records • Complete audit trails • Export-ready reports"
+  },
+  "floatingBadge": "Audit Ready",
+  "features": {
+    "immutableRecords": {
+      "title": "Immutable Records",
+      "description": "Once created, invoice records cannot be altered or deleted, ensuring complete data integrity for audits."
+    },
+    "timestampedLogs": {
+      "title": "Timestamped Logs",
+      "description": "Every action is logged with precise timestamps, creating a complete chronological audit trail."
+    },
+    "exportReadyReports": {
+      "title": "Export-Ready Reports",
+      "description": "Generate compliance reports in formats accepted by tax authorities and auditors worldwide."
+    },
+    "regulatoryStandards": {
+      "title": "Regulatory Standards",
+      "description": "Built to meet international invoicing and record-keeping requirements for small businesses."
+    },
+    "eInvoicing": {
+      "title": "E-Invoicing Compliance",
+      "description": "Generate and receive e-invoices per ZATCA, Peppol, and regional mandates."
+    },
+    "digitalSignatures": {
+      "title": "Digital Signatures (CSID)",
+      "description": "Cryptographic stamps and digital signatures to verify document authenticity."
+    },
+    "irn": {
+      "title": "Invoice Reference Numbers",
+      "description": "Unique IRN assigned to every invoice for end-to-end traceability."
+    },
+    "roleBasedAccess": {
+      "title": "Role-Based Access",
+      "description": "Assign Finance, Sales, and Executive roles with appropriate permissions."
+    }
+  },
+  "faqs": {
+    "complianceFirst": {
+      "question": "What does compliance-first mean?",
+      "answer": "It means every feature in Invoicemonk is built with regulatory compliance at its core. Records are immutable, timestamped, and audit-ready from the moment they are created."
+    },
+    "taxAuthorities": {
+      "question": "Which tax authorities does Invoicemonk support?",
+      "answer": "Invoicemonk supports compliance requirements for FIRS (Nigeria), HMRC (UK), IRS (US), CRA (Canada), and ATO (Australia), with more regions being added regularly."
+    },
+    "exportReports": {
+      "question": "Can I export reports for my auditor?",
+      "answer": "Yes. Generate compliance reports in formats accepted by tax authorities and auditors worldwide. All records include complete audit trails with timestamps and user information."
+    },
+    "immutable": {
+      "question": "Are my invoice records truly immutable?",
+      "answer": "Yes. Once created, invoice records cannot be altered or deleted. Every change creates a new version while preserving the original, ensuring complete data integrity for audits."
+    },
+    "eInvoicing": {
+      "question": "What is e-invoicing and does Invoicemonk support it?",
+      "answer": "E-invoicing is the electronic exchange of invoices in structured digital formats required by tax authorities. Invoicemonk supports ZATCA Phase 2 (Saudi Arabia), Peppol (Europe), and other regional e-invoicing mandates, generating fully compliant e-invoices automatically."
+    },
+    "irn": {
+      "question": "What is an Invoice Reference Number (IRN)?",
+      "answer": "An IRN is a unique identifier assigned to every invoice for end-to-end traceability. Invoicemonk generates IRNs automatically, ensuring every document can be tracked and verified throughout its lifecycle."
+    },
+    "digitalSignatures": {
+      "question": "Does Invoicemonk support digital signatures?",
+      "answer": "Yes. Invoicemonk supports Cryptographic Stamp Identifiers (CSID) and digital signatures that verify document authenticity. Recipients can independently confirm that an invoice has not been tampered with."
+    }
+  }
+}

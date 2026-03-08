@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "label": "About Us",
+    "title": "We are Invoicemonk in every sense of it.",
+    "description": "This is why we built straightforward tools that empower freelancers and small business owners to take full control of the way they work."
+  },
+  "story": {
+    "paragraph1": "A thing about us at Invoicemonk, we believe the freelancers and small businesses are the heart of our communities, and championing them is worth fighting for because it will lead to more new entrepreneurs, and more thriving small businesses.",
+    "paragraph2prefix": "How we intend to achieve that is by providing a",
+    "invoiceLink": "simple & easy to use invoice application",
+    "and": "and",
+    "estimateLink": "free estimate application",
+    "clientLink": "user friendly client management application",
+    "paymentLink": "highly functional payment accepting application",
+    "paragraph2suffix": "and a financial management solution they can't live without. We also have",
+    "blogLink": "a blog to teach, educate and guide freelancers and small business owners",
+    "blogSuffix": "in their hustle."
+  },
+  "team": {
+    "label": "Our Team",
+    "title": "Meet the Founders",
+    "description": "The passionate team behind Invoicemonk, dedicated to empowering freelancers and small businesses across the world."
+  },
+  "openRoles": {
+    "title": "Open Roles",
+    "description": "Are you interested in joining our team? We're always looking for passionate individuals to help us build the future of business tools.",
+    "cta": "Join Our Team"
+  },
+  "faqs": {
+    "whoFounded": {
+      "question": "Who founded Invoicemonk?",
+      "answer": "Invoicemonk was co-founded by Olayinka Olayokun (CEO) and Joan Omionawele (Communication President), with a mission to empower freelancers and small businesses worldwide."
+    },
+    "mission": {
+      "question": "What is Invoicemonk's mission?",
+      "answer": "Our mission is to champion freelancers and small businesses by providing simple, easy-to-use invoicing and financial management tools that help them thrive."
+    },
+    "availability": {
+      "question": "Where is Invoicemonk available?",
+      "answer": "Invoicemonk is available globally and serves businesses in over 50 countries. Our platform supports multiple currencies and regional compliance requirements."
+    }
+  }
+}

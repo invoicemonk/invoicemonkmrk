@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "Conforme com {{authority}}",
+    "title": "Construído para confiança pronta para auditoria",
+    "accentWord": "auditoria",
+    "description": "{{message}}. Invoicemonk mantém registros imutáveis e trilhas de auditoria abrangentes, para que você esteja sempre preparado para revisões regulatórias.",
+    "primaryCta": "Começar grátis",
+    "secondaryCta": "Saiba mais",
+    "trustBadge": "Registros imutáveis • Trilhas de auditoria completas • Relatórios prontos para exportação"
+  },
+  "floatingBadge": "Pronto para auditoria",
+  "features": {
+    "immutableRecords": {
+      "title": "Registros imutáveis",
+      "description": "Uma vez criados, os registros de faturas não podem ser alterados ou excluídos, garantindo a integridade completa dos dados para auditorias."
+    },
+    "timestampedLogs": {
+      "title": "Logs com carimbo de data/hora",
+      "description": "Cada ação é registrada com carimbos de data/hora precisos, criando uma trilha de auditoria cronológica completa."
+    },
+    "exportReadyReports": {
+      "title": "Relatórios prontos para exportação",
+      "description": "Gere relatórios de conformidade em formatos aceitos por autoridades fiscais e auditores em todo o mundo."
+    },
+    "regulatoryStandards": {
+      "title": "Padrões regulatórios",
+      "description": "Construído para atender aos requisitos internacionais de faturamento e manutenção de registros para pequenas empresas."
+    },
+    "eInvoicing": {
+      "title": "Conformidade com e-faturamento",
+      "description": "Gere e receba e-faturas conforme ZATCA, Peppol e mandatos regionais."
+    },
+    "digitalSignatures": {
+      "title": "Assinaturas digitais (CSID)",
+      "description": "Carimbos criptográficos e assinaturas digitais para verificar a autenticidade dos documentos."
+    },
+    "irn": {
+      "title": "Números de referência de fatura",
+      "description": "IRN único atribuído a cada fatura para rastreabilidade de ponta a ponta."
+    },
+    "roleBasedAccess": {
+      "title": "Acesso baseado em funções",
+      "description": "Atribua funções de Finanças, Vendas e Executivo com permissões apropriadas."
+    }
+  },
+  "faqs": {
+    "complianceFirst": {
+      "question": "O que significa conformidade em primeiro lugar?",
+      "answer": "Significa que cada recurso do Invoicemonk é construído com a conformidade regulatória em seu núcleo. Os registros são imutáveis, com carimbo de data/hora e prontos para auditoria desde o momento em que são criados."
+    },
+    "taxAuthorities": {
+      "question": "Quais autoridades fiscais o Invoicemonk suporta?",
+      "answer": "O Invoicemonk suporta requisitos de conformidade para FIRS (Nigéria), HMRC (Reino Unido), IRS (EUA), CRA (Canadá) e ATO (Austrália), com mais regiões sendo adicionadas regularmente."
+    },
+    "exportReports": {
+      "question": "Posso exportar relatórios para meu auditor?",
+      "answer": "Sim. Gere relatórios de conformidade em formatos aceitos por autoridades fiscais e auditores em todo o mundo. Todos os registros incluem trilhas de auditoria completas com carimbos de data/hora e informações do usuário."
+    },
+    "immutable": {
+      "question": "Meus registros de faturas são realmente imutáveis?",
+      "answer": "Sim. Uma vez criados, os registros de faturas não podem ser alterados ou excluídos. Cada alteração cria uma nova versão preservando o original, garantindo a integridade completa dos dados para auditorias."
+    },
+    "eInvoicing": {
+      "question": "O que é e-faturamento e o Invoicemonk o suporta?",
+      "answer": "E-faturamento é a troca eletrônica de faturas em formatos digitais estruturados exigidos pelas autoridades fiscais. O Invoicemonk suporta ZATCA Fase 2 (Arábia Saudita), Peppol (Europa) e outros mandatos regionais de e-faturamento, gerando automaticamente e-faturas totalmente conformes."
+    },
+    "irn": {
+      "question": "O que é um Número de Referência de Fatura (IRN)?",
+      "answer": "Um IRN é um identificador único atribuído a cada fatura para rastreabilidade de ponta a ponta. O Invoicemonk gera IRNs automaticamente, garantindo que cada documento possa ser rastreado e verificado ao longo de seu ciclo de vida."
+    },
+    "digitalSignatures": {
+      "question": "O Invoicemonk suporta assinaturas digitais?",
+      "answer": "Sim. O Invoicemonk suporta Identificadores de Carimbo Criptográfico (CSID) e assinaturas digitais que verificam a autenticidade dos documentos. Os destinatários podem confirmar independentemente que uma fatura não foi adulterada."
+    }
+  }
+}
