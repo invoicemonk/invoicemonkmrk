@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "Notre philosophie",
+    "title": "Un système de gestion financière, pas seulement une app de facturation",
+    "accentWord": "gestion financière",
+    "description": "Nous avons créé Invoicemonk parce que les documents financiers devraient inspirer confiance, pas inquiétude. Chaque fonctionnalité, chaque décision, commence par la conformité.",
+    "primaryCta": "Commencer gratuitement",
+    "secondaryCta": "En savoir plus sur la conformité",
+    "floatingBadge": "Conformité d'abord"
+  },
+  "philosophy": {
+    "title": "Ce qui nous différencie",
+    "items": [
+      "Ce n'est pas une application de facturation avec des fonctionnalités de conformité.",
+      "C'est un système de gestion financière qui émet des factures.",
+      "Chaque enregistrement est immuable dès sa création.",
+      "Chaque action est enregistrée avec des pistes d'audit complètes.",
+      "La conformité n'est pas un ajout — c'est le fondement.",
+      "Prêt pour la e-facturation : ZATCA, Peppol et les mandats régionaux intégrés.",
+      "Chaque facture reçoit un numéro de référence unique (IRN) pour la traçabilité.",
+      "Les signatures numériques et les tampons cryptographiques prouvent l'authenticité des documents."
+    ]
+  },
+  "principles": {
+    "title": "Fondé sur des principes essentiels",
+    "description": "Ces principes guident chaque décision produit que nous prenons.",
+    "complianceFirst": {
+      "title": "Architecture conformité d'abord",
+      "description": "Chaque transaction est immuable et prête pour l'audit dès le premier jour. Conçu pour les entreprises qui doivent satisfaire les régulateurs, les clients et les parties prenantes."
+    },
+    "unifiedData": {
+      "title": "Données financières unifiées",
+      "description": "Toutes vos opérations financières sur une seule plateforme. Plus besoin de jongler entre plusieurs outils, exports et réconciliations."
+    },
+    "scales": {
+      "title": "Évolue avec votre entreprise",
+      "description": "Commencez avec ce dont vous avez besoin aujourd'hui. Ajoutez des produits au fur et à mesure de votre croissance — sans migration de données ni apprentissage de nouveaux systèmes."
+    },
+    "auditConfidence": {
+      "title": "Conçu pour la confiance d'audit",
+      "description": "Enregistrements horodatés, intégrité basée sur le hachage et pistes d'audit complètes. Soyez prêt pour tout audit, à tout moment."
+    }
+  },
+  "trust": {
+    "growing": { "label": "En croissance", "description": "Factures traitées" },
+    "trusted": { "label": "De confiance", "description": "Entreprises nous font confiance" },
+    "countries": { "label": "50+", "description": "Pays desservis" },
+    "uptime": { "label": "99,9%", "description": "Garantie de disponibilité" }
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "description": "Rejoignez des milliers d'entreprises qui font confiance à Invoicemonk pour leurs documents financiers.",
+    "primaryButton": "Commencer avec la facturation",
+    "secondaryButton": "Comparer les forfaits"
+  },
+  "faqs": {
+    "different": {
+      "question": "Qu'est-ce qui différencie Invoicemonk des autres outils de facturation ?",
+      "answer": "Invoicemonk est un système de gestion financière, pas seulement une application de facturation. Chaque enregistrement est immuable dès sa création, chaque action est enregistrée avec des pistes d'audit complètes, et la conformité est le fondement — pas un ajout."
+    },
+    "businessSize": {
+      "question": "Invoicemonk convient-il à la taille de mon entreprise ?",
+      "answer": "Oui. Invoicemonk évolue avec votre entreprise. Commencez avec la facturation gratuite et ajoutez des produits comme le suivi des dépenses, la comptabilité et les paiements au fur et à mesure de votre croissance — sans migration de données."
+    },
+    "compliance": {
+      "question": "Comment Invoicemonk assure-t-il la conformité ?",
+      "answer": "Chaque transaction crée des enregistrements immuables et horodatés avec une vérification d'intégrité basée sur le hachage. Des pistes d'audit complètes et des rapports exportables vous gardent préparé pour tout contrôle réglementaire."
+    },
+    "freeTrial": {
+      "question": "Puis-je essayer Invoicemonk gratuitement ?",
+      "answer": "Absolument. Notre forfait gratuit comprend 5 factures et 5 reçus par mois avec les fonctionnalités essentielles. Pas de carte de crédit requise. Passez aux forfaits payants quand vous avez besoin de facturation illimitée et de fonctionnalités avancées."
+    }
+  }
+}

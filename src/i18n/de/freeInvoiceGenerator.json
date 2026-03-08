@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "100% Kostenlos",
+    "title": "Kostenloser Rechnungsgenerator",
+    "accentWord": "Kostenloser",
+    "description": "Erstellen Sie professionelle Rechnungen in Minuten. Keine Anmeldung erforderlich. Perfekt für Freiberufler und kleine Unternehmen.",
+    "primaryCta": "Kostenlose Rechnung erstellen",
+    "secondaryCta": "Vollständige Plattform entdecken",
+    "trustBadge": "Keine Kreditkarte erforderlich • Keine Anmeldung nötig • Unbegrenzte Rechnungen"
+  },
+  "features": {
+    "title": "Alles, was Sie für professionelle Rechnungsstellung brauchen",
+    "professionalTemplates": {
+      "title": "Professionelle Vorlagen",
+      "description": "Wählen Sie aus wunderschön gestalteten Rechnungsvorlagen."
+    },
+    "quickEasy": {
+      "title": "Schnell & Einfach",
+      "description": "Erstellen Sie Ihre erste Rechnung in unter 2 Minuten. Keine Lernkurve."
+    },
+    "pdfDownload": {
+      "title": "PDF-Download",
+      "description": "Laden Sie Ihre Rechnungen sofort als professionelle PDF-Dateien herunter."
+    },
+    "complianceReady": {
+      "title": "Compliance-bereit",
+      "description": "Alle Rechnungen erfüllen die gängigen Geschäfts- und Steueranforderungen."
+    }
+  },
+  "steps": {
+    "title": "Rechnungen erstellen in 3 einfachen Schritten",
+    "step1": {
+      "title": "Geben Sie Ihre Daten ein",
+      "description": "Fügen Sie Ihre Geschäftsinformationen und Ihr Logo hinzu, um Ihre Rechnungen zu personalisieren."
+    },
+    "step2": {
+      "title": "Positionen hinzufügen",
+      "description": "Geben Sie die Produkte oder Dienstleistungen ein, die Sie berechnen, mit Mengen und Preisen."
+    },
+    "step3": {
+      "title": "Senden oder herunterladen",
+      "description": "Per E-Mail direkt an Ihren Kunden senden oder als professionelle PDF herunterladen."
+    }
+  },
+  "resources": {
+    "title": "Verwandte Ressourcen",
+    "essentialElements": "5 wesentliche Elemente einer Rechnung →",
+    "numberingBestPractices": "Best Practices für Rechnungsnummerierung →",
+    "fullPlatform": "Entdecken Sie die vollständige Rechnungsplattform →"
+  },
+  "cta": {
+    "title": "Brauchen Sie mehr als nur Rechnungen?",
+    "description": "Upgraden Sie auf die vollständige Invoicemonk-Plattform für wiederkehrende Rechnungen, Ausgabenverfolgung, Zahlungserinnerungen, Compliance-Funktionen und mehr.",
+    "button": "Kostenlos starten"
+  },
+  "faqs": {
+    "isFree": {
+      "question": "Ist der Rechnungsgenerator wirklich kostenlos?",
+      "answer": "Ja, 100% kostenlos ohne Anmeldung. Sie können unbegrenzt professionelle Rechnungen erstellen und als PDF-Dateien kostenlos herunterladen."
+    },
+    "needAccount": {
+      "question": "Muss ich ein Konto erstellen?",
+      "answer": "Kein Konto erforderlich. Geben Sie einfach Ihre Daten ein, fügen Sie Positionen hinzu und laden Sie Ihre Rechnung als PDF herunter."
+    },
+    "addLogo": {
+      "question": "Kann ich mein Firmenlogo hinzufügen?",
+      "answer": "Ja, Sie können Ihr Firmenlogo hochladen, um Ihre Rechnungen zu personalisieren. Ihre Rechnungen sehen professionell und markenkonform aus."
+    },
+    "moreFeatures": {
+      "question": "Was, wenn ich mehr Funktionen brauche?",
+      "answer": "Die vollständige Invoicemonk-Plattform bietet wiederkehrende Rechnungen, Ausgabenverfolgung, Zahlungserinnerungen, Compliance-Funktionen und mehr. Sie können jederzeit upgraden."
+    }
+  }
+}

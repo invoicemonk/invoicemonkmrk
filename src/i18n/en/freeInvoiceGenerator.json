@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "100% Free",
+    "title": "Free Invoice Generator",
+    "accentWord": "Free",
+    "description": "Create professional invoices in minutes. No signup required to get started. Perfect for freelancers and small businesses.",
+    "primaryCta": "Create Free Invoice",
+    "secondaryCta": "Learn About Full Platform",
+    "trustBadge": "No credit card required • No signup needed • Unlimited invoices"
+  },
+  "features": {
+    "title": "Everything you need to invoice professionally",
+    "professionalTemplates": {
+      "title": "Professional Templates",
+      "description": "Choose from beautifully designed invoice templates that look great."
+    },
+    "quickEasy": {
+      "title": "Quick & Easy",
+      "description": "Create your first invoice in under 2 minutes. No learning curve."
+    },
+    "pdfDownload": {
+      "title": "PDF Download",
+      "description": "Download your invoices as professional PDF files instantly."
+    },
+    "complianceReady": {
+      "title": "Compliance Ready",
+      "description": "All invoices meet standard business and tax requirements."
+    }
+  },
+  "steps": {
+    "title": "Create invoices in 3 simple steps",
+    "step1": {
+      "title": "Enter your details",
+      "description": "Add your business information and logo to personalize your invoices."
+    },
+    "step2": {
+      "title": "Add line items",
+      "description": "Enter the products or services you're billing for with quantities and rates."
+    },
+    "step3": {
+      "title": "Send or download",
+      "description": "Email directly to your client or download as a professional PDF."
+    }
+  },
+  "resources": {
+    "title": "Related Resources",
+    "essentialElements": "5 Essential Elements of an Invoice →",
+    "numberingBestPractices": "Invoice Numbering Best Practices →",
+    "fullPlatform": "Explore the Full Invoicing Platform →"
+  },
+  "cta": {
+    "title": "Need more than just invoices?",
+    "description": "Upgrade to the full Invoicemonk platform for recurring invoices, expense tracking, payment reminders, compliance features, and more.",
+    "button": "Get Started Free"
+  },
+  "faqs": {
+    "isFree": {
+      "question": "Is the invoice generator really free?",
+      "answer": "Yes, 100% free with no signup required. You can create unlimited professional invoices and download them as PDF files at no cost."
+    },
+    "needAccount": {
+      "question": "Do I need to create an account?",
+      "answer": "No account is needed to use the free invoice generator. Simply enter your details, add line items, and download your invoice as a PDF."
+    },
+    "addLogo": {
+      "question": "Can I add my business logo?",
+      "answer": "Yes, you can upload your business logo to personalize your invoices. Your invoices will look professional and branded."
+    },
+    "moreFeatures": {
+      "question": "What if I need more features?",
+      "answer": "The full Invoicemonk platform offers recurring invoices, expense tracking, payment reminders, compliance features, and more. You can upgrade anytime."
+    }
+  }
+}

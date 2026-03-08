@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "Unsere Philosophie",
+    "title": "Ein Finanzaufzeichnungssystem, nicht nur eine Rechnungs-App",
+    "accentWord": "Finanzaufzeichnungssystem",
+    "description": "Wir haben Invoicemonk entwickelt, weil Finanzaufzeichnungen Vertrauen wecken sollten, nicht Sorgen. Jede Funktion, jede Entscheidung beginnt mit Compliance im Kern.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Mehr über Compliance",
+    "floatingBadge": "Compliance First"
+  },
+  "philosophy": {
+    "title": "Was uns unterscheidet",
+    "items": [
+      "Dies ist keine Rechnungs-App mit Compliance-Funktionen.",
+      "Dies ist ein Finanzaufzeichnungssystem, das Rechnungen ausstellt.",
+      "Jeder Datensatz ist von der Erstellung an unveränderlich.",
+      "Jede Aktion wird mit vollständigen Prüfpfaden protokolliert.",
+      "Compliance ist kein Zusatz — sie ist das Fundament.",
+      "E-Invoicing-bereit: ZATCA, Peppol und regionale Mandate integriert.",
+      "Jede Rechnung erhält eine einzigartige Referenznummer (IRN) zur Rückverfolgbarkeit.",
+      "Digitale Signaturen und kryptografische Stempel beweisen die Dokumentenauthentizität."
+    ]
+  },
+  "principles": {
+    "title": "Auf Kernprinzipien aufgebaut",
+    "description": "Diese Prinzipien leiten jede Produktentscheidung, die wir treffen.",
+    "complianceFirst": {
+      "title": "Compliance-First-Architektur",
+      "description": "Jede Transaktion ist unveränderlich und ab dem ersten Tag prüfungsbereit. Entwickelt für Unternehmen, die Regulierungsbehörden, Kunden und Stakeholder zufriedenstellen müssen."
+    },
+    "unifiedData": {
+      "title": "Einheitliche Finanzdaten",
+      "description": "Alle Ihre Finanzoperationen auf einer Plattform. Kein Jonglieren mehr mit mehreren Tools, Exporten und Abstimmungen."
+    },
+    "scales": {
+      "title": "Wächst mit Ihrem Unternehmen",
+      "description": "Beginnen Sie mit dem, was Sie heute brauchen. Fügen Sie Produkte hinzu, wenn Sie wachsen — ohne Datenmigration oder neue Systeme zu lernen."
+    },
+    "auditConfidence": {
+      "title": "Für Prüfungssicherheit gebaut",
+      "description": "Zeitgestempelte Aufzeichnungen, hashbasierte Integrität und vollständige Prüfpfade. Seien Sie jederzeit für jede Prüfung bereit."
+    }
+  },
+  "trust": {
+    "growing": { "label": "Wachsend", "description": "Rechnungen verarbeitet" },
+    "trusted": { "label": "Vertraut", "description": "Unternehmen vertrauen uns" },
+    "countries": { "label": "50+", "description": "Länder bedient" },
+    "uptime": { "label": "99,9%", "description": "Verfügbarkeitsgarantie" }
+  },
+  "cta": {
+    "title": "Bereit loszulegen?",
+    "description": "Schließen Sie sich Tausenden von Unternehmen an, die Invoicemonk für ihre Finanzaufzeichnungen vertrauen.",
+    "primaryButton": "Mit Rechnungsstellung starten",
+    "secondaryButton": "Preispläne vergleichen"
+  },
+  "faqs": {
+    "different": {
+      "question": "Was unterscheidet Invoicemonk von anderen Rechnungstools?",
+      "answer": "Invoicemonk ist ein Finanzaufzeichnungssystem, nicht nur eine Rechnungs-App. Jeder Datensatz ist von der Erstellung an unveränderlich, jede Aktion wird mit vollständigen Prüfpfaden protokolliert, und Compliance ist das Fundament — kein Zusatz."
+    },
+    "businessSize": {
+      "question": "Ist Invoicemonk für meine Unternehmensgröße geeignet?",
+      "answer": "Ja. Invoicemonk wächst mit Ihrem Unternehmen. Beginnen Sie mit kostenloser Rechnungsstellung und fügen Sie Produkte wie Ausgabenverfolgung, Buchhaltung und Zahlungen hinzu, wenn Sie wachsen — ohne Datenmigration."
+    },
+    "compliance": {
+      "question": "Wie gewährleistet Invoicemonk die Compliance?",
+      "answer": "Jede Transaktion erstellt unveränderliche, zeitgestempelte Aufzeichnungen mit hashbasierter Integritätsprüfung. Vollständige Prüfpfade und exportfertige Berichte halten Sie auf jede behördliche Überprüfung vorbereitet."
+    },
+    "freeTrial": {
+      "question": "Kann ich Invoicemonk kostenlos testen?",
+      "answer": "Absolut. Unsere kostenlose Stufe umfasst 5 Rechnungen und 5 Quittungen pro Monat mit Kernfunktionen. Keine Kreditkarte erforderlich. Upgraden Sie auf kostenpflichtige Pläne, wenn Sie unbegrenzte Rechnungsstellung und erweiterte Funktionen benötigen."
+    }
+  }
+}

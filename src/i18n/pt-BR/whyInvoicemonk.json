@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "Nossa filosofia",
+    "title": "Um sistema de registros financeiros, não apenas um app de faturamento",
+    "accentWord": "registros financeiros",
+    "description": "Criamos o Invoicemonk porque registros financeiros devem inspirar confiança, não preocupação. Cada recurso, cada decisão, começa com conformidade em seu núcleo.",
+    "primaryCta": "Começar grátis",
+    "secondaryCta": "Saiba mais sobre conformidade",
+    "floatingBadge": "Conformidade primeiro"
+  },
+  "philosophy": {
+    "title": "O que nos diferencia",
+    "items": [
+      "Este não é um aplicativo de faturamento com recursos de conformidade.",
+      "Este é um sistema de registros financeiros que emite faturas.",
+      "Cada registro é imutável desde a criação.",
+      "Cada ação é registrada com trilhas de auditoria completas.",
+      "Conformidade não é um complemento — é a base.",
+      "Pronto para e-faturamento: ZATCA, Peppol e mandatos regionais integrados.",
+      "Cada fatura recebe um número de referência único (IRN) para rastreabilidade.",
+      "Assinaturas digitais e carimbos criptográficos comprovam a autenticidade dos documentos."
+    ]
+  },
+  "principles": {
+    "title": "Construído sobre princípios fundamentais",
+    "description": "Esses princípios guiam cada decisão de produto que tomamos.",
+    "complianceFirst": {
+      "title": "Arquitetura conformidade primeiro",
+      "description": "Cada transação é imutável e pronta para auditoria desde o primeiro dia. Construído para empresas que precisam satisfazer reguladores, clientes e stakeholders."
+    },
+    "unifiedData": {
+      "title": "Dados financeiros unificados",
+      "description": "Todas as suas operações financeiras em uma plataforma. Sem mais malabarismos com múltiplas ferramentas, exportações e reconciliações."
+    },
+    "scales": {
+      "title": "Escala com seu negócio",
+      "description": "Comece com o que você precisa hoje. Adicione produtos conforme cresce — sem migrar dados ou aprender novos sistemas."
+    },
+    "auditConfidence": {
+      "title": "Construído para confiança em auditoria",
+      "description": "Registros com carimbo de data/hora, integridade baseada em hash e trilhas de auditoria completas. Esteja pronto para qualquer auditoria, a qualquer momento."
+    }
+  },
+  "trust": {
+    "growing": { "label": "Crescendo", "description": "Faturas processadas" },
+    "trusted": { "label": "Confiável", "description": "Empresas confiam em nós" },
+    "countries": { "label": "50+", "description": "Países atendidos" },
+    "uptime": { "label": "99,9%", "description": "Garantia de disponibilidade" }
+  },
+  "cta": {
+    "title": "Pronto para começar?",
+    "description": "Junte-se a milhares de empresas que confiam no Invoicemonk para seus registros financeiros.",
+    "primaryButton": "Começar com faturamento",
+    "secondaryButton": "Comparar planos de preços"
+  },
+  "faqs": {
+    "different": {
+      "question": "O que diferencia o Invoicemonk de outras ferramentas de faturamento?",
+      "answer": "O Invoicemonk é um sistema de registros financeiros, não apenas um aplicativo de faturamento. Cada registro é imutável desde a criação, cada ação é registrada com trilhas de auditoria completas, e a conformidade é a base — não um complemento."
+    },
+    "businessSize": {
+      "question": "O Invoicemonk é adequado para o tamanho da minha empresa?",
+      "answer": "Sim. O Invoicemonk escala com seu negócio. Comece com faturamento gratuito e adicione produtos como rastreamento de despesas, contabilidade e pagamentos conforme cresce — sem migrar dados."
+    },
+    "compliance": {
+      "question": "Como o Invoicemonk garante a conformidade?",
+      "answer": "Cada transação cria registros imutáveis com carimbo de data/hora e verificação de integridade baseada em hash. Trilhas de auditoria completas e relatórios exportáveis mantêm você preparado para qualquer revisão regulatória."
+    },
+    "freeTrial": {
+      "question": "Posso experimentar o Invoicemonk gratuitamente?",
+      "answer": "Com certeza. Nosso plano gratuito inclui 5 faturas e 5 recibos por mês com recursos essenciais. Sem necessidade de cartão de crédito. Faça upgrade para planos pagos quando precisar de faturamento ilimitado e recursos avançados."
+    }
+  }
+}

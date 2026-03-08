@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "100% Gratuit",
+    "title": "Générateur de factures gratuit",
+    "accentWord": "gratuit",
+    "description": "Créez des factures professionnelles en quelques minutes. Aucune inscription requise. Parfait pour les freelances et les petites entreprises.",
+    "primaryCta": "Créer une facture gratuite",
+    "secondaryCta": "Découvrir la plateforme complète",
+    "trustBadge": "Pas de carte de crédit requise • Pas d'inscription nécessaire • Factures illimitées"
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin pour facturer professionnellement",
+    "professionalTemplates": {
+      "title": "Modèles professionnels",
+      "description": "Choisissez parmi des modèles de factures magnifiquement conçus."
+    },
+    "quickEasy": {
+      "title": "Rapide et facile",
+      "description": "Créez votre première facture en moins de 2 minutes. Pas de courbe d'apprentissage."
+    },
+    "pdfDownload": {
+      "title": "Téléchargement PDF",
+      "description": "Téléchargez vos factures en fichiers PDF professionnels instantanément."
+    },
+    "complianceReady": {
+      "title": "Prêt pour la conformité",
+      "description": "Toutes les factures respectent les exigences commerciales et fiscales standard."
+    }
+  },
+  "steps": {
+    "title": "Créez des factures en 3 étapes simples",
+    "step1": {
+      "title": "Entrez vos informations",
+      "description": "Ajoutez vos informations commerciales et votre logo pour personnaliser vos factures."
+    },
+    "step2": {
+      "title": "Ajoutez les lignes",
+      "description": "Entrez les produits ou services que vous facturez avec les quantités et les tarifs."
+    },
+    "step3": {
+      "title": "Envoyez ou téléchargez",
+      "description": "Envoyez par e-mail directement à votre client ou téléchargez en PDF professionnel."
+    }
+  },
+  "resources": {
+    "title": "Ressources connexes",
+    "essentialElements": "5 éléments essentiels d'une facture →",
+    "numberingBestPractices": "Meilleures pratiques de numérotation des factures →",
+    "fullPlatform": "Découvrir la plateforme de facturation complète →"
+  },
+  "cta": {
+    "title": "Besoin de plus que des factures ?",
+    "description": "Passez à la plateforme Invoicemonk complète pour les factures récurrentes, le suivi des dépenses, les rappels de paiement, les fonctionnalités de conformité et plus encore.",
+    "button": "Commencer gratuitement"
+  },
+  "faqs": {
+    "isFree": {
+      "question": "Le générateur de factures est-il vraiment gratuit ?",
+      "answer": "Oui, 100% gratuit sans inscription requise. Vous pouvez créer des factures professionnelles illimitées et les télécharger en PDF gratuitement."
+    },
+    "needAccount": {
+      "question": "Dois-je créer un compte ?",
+      "answer": "Aucun compte n'est nécessaire. Entrez simplement vos informations, ajoutez les lignes et téléchargez votre facture en PDF."
+    },
+    "addLogo": {
+      "question": "Puis-je ajouter mon logo d'entreprise ?",
+      "answer": "Oui, vous pouvez télécharger votre logo d'entreprise pour personnaliser vos factures. Vos factures auront un aspect professionnel et de marque."
+    },
+    "moreFeatures": {
+      "question": "Et si j'ai besoin de plus de fonctionnalités ?",
+      "answer": "La plateforme Invoicemonk complète offre des factures récurrentes, le suivi des dépenses, les rappels de paiement, les fonctionnalités de conformité et plus encore. Vous pouvez passer à la version supérieure à tout moment."
+    }
+  }
+}

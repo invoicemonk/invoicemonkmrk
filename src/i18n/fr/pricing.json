@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Des tarifs simples et <accent>transparents</accent>",
+    "description": "Commencez gratuitement, passez à la version supérieure quand vous en avez besoin. Pas de frais cachés, pas de surprises.",
+    "monthly": "Mensuel",
+    "annual": "Annuel",
+    "perMonth": "/mois",
+    "perYear": "/an"
+  },
+  "faq": {
+    "title": "Questions fréquemment <accent>posées</accent>",
+    "description": "Tout ce que vous devez savoir sur les tarifs et la facturation.",
+    "items": {
+      "freeTier": {
+        "question": "Existe-t-il un forfait gratuit ?",
+        "answer": "Oui ! Notre forfait gratuit vous permet d'envoyer jusqu'à 5 factures par mois avec des mises en page propres et professionnelles. Passez à Starter ou Professional pour des factures illimitées et des fonctionnalités avancées."
+      },
+      "upgradeDowngrade": {
+        "question": "Puis-je changer de forfait à tout moment ?",
+        "answer": "Absolument. Vous pouvez changer de forfait à tout moment. Lors d'une mise à niveau, vous serez facturé au prorata. Lors d'un déclassement, votre nouveau tarif commence au prochain cycle de facturation."
+      },
+      "paymentMethods": {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons toutes les principales cartes de crédit (Visa, Mastercard, American Express) et pouvons organiser la facturation pour les forfaits Business annuels."
+      },
+      "security": {
+        "question": "Mes données financières sont-elles sécurisées ?",
+        "answer": "Votre sécurité est notre priorité. Nous utilisons un chiffrement de niveau bancaire, des journaux d'audit immuables et sommes entièrement conformes aux réglementations de protection des données."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à <accent>commencer ?</accent>",
+    "description": "Rejoignez des milliers d'entreprises qui font confiance à Invoicemonk pour leurs besoins de facturation.",
+    "button": "Commencer votre essai gratuit"
+  }
+}
