@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from '@/components/LocalizedLink';
 import logo from '@/assets/invoicemonk-logo.png';
-import { locales, supportedCountries, countryToUrlPrefix } from '@/locales';
+import { locales, supportedCountries, countryToLanguage, SupportedCountry } from '@/locales';
+import { useLocale } from '@/hooks/useLocale';
+import { useNavigate, useLocation, useParams } from 'react-router-dom';
 
 const footerLinks = {
   platform: [
@@ -220,6 +222,43 @@ export function Footer() {
     ],
   };
 
+  function FooterCountryLinks() {
+    const { setCountry } = useLocale();
+    const nav = useNavigate();
+    const loc = useLocation();
+    const { lang: currentLang } = useParams<{ lang: string }>();
+
+    const handleCountryClick = (code: SupportedCountry) => {
+      setCountry(code);
+      const newLang = countryToLanguage[code];
+      if (newLang !== currentLang) {
+        const relPath = loc.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?(\/|$)/, '/');
+        nav(`/${newLang}${relPath}${loc.search}${loc.hash}`);
+      }
+    };
+
+    return (
+      <div className="mt-10 pt-8 border-t border-white/10">
+        <h4 className="text-[11px] uppercase tracking-widest font-semibold text-white/40 mb-3">{t('footer.availableIn')}</h4>
+        <div className="flex flex-wrap gap-2">
+          {supportedCountries.map((code) => {
+            const locale = locales[code];
+            return (
+              <button
+                key={code}
+                onClick={() => handleCountryClick(code)}
+                className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[12px] text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+              >
+                <span>{locale.flag}</span>
+                <span>{locale.country}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <footer className="bg-heading">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
@@ -292,25 +331,7 @@ export function Footer() {
         </div>
 
         {/* Available In - Country Links */}
-        <div className="mt-10 pt-8 border-t border-white/10">
-          <h4 className="text-[11px] uppercase tracking-widest font-semibold text-white/40 mb-3">{t('footer.availableIn')}</h4>
-          <div className="flex flex-wrap gap-2">
-            {supportedCountries.map((code) => {
-              const locale = locales[code];
-              const prefix = countryToUrlPrefix[code];
-              return (
-                <a
-                  key={code}
-                  href={`/${prefix}/`}
-                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[12px] text-white/60 hover:text-white hover:bg-white/10 transition-colors"
-                >
-                  <span>{locale.flag}</span>
-                  <span>{locale.country}</span>
-                </a>
-              );
-            })}
-          </div>
-        </div>
+        <FooterCountryLinks />
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex items-center justify-center">

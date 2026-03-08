@@ -10,8 +10,8 @@ interface NavLinkCompatProps extends Omit<NavLinkProps, "className"> {
 
 const NavLink = forwardRef<HTMLAnchorElement, NavLinkCompatProps>(
   ({ className, activeClassName, pendingClassName, to, ...props }, ref) => {
-    const { country } = useParams<{ country: string }>();
-    const prefix = country?.toLowerCase() || 'us';
+    const { lang } = useParams<{ lang: string }>();
+    const prefix = lang?.toLowerCase() || 'en';
 
     let localizedTo = to;
     if (typeof to === 'string' && to.startsWith('/') && !to.startsWith('//')) {

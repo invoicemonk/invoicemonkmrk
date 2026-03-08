@@ -1,7 +1,7 @@
 /**
- * Multi-country Sitemap Generator with hreflang
+ * Multi-language Sitemap Generator with hreflang
  *
- * Generates sitemap.xml with all country-prefixed URLs and
+ * Generates sitemap.xml with all language-prefixed URLs and
  * xhtml:link hreflang annotations for each variant.
  *
  * Run: npx tsx scripts/generate-sitemap.ts
@@ -17,28 +17,16 @@ const __dirname = path.dirname(__filename);
 const SITE_URL = 'https://invoicemonk.com';
 const CURRENT_DATE = new Date().toISOString().split('T')[0];
 
-// Country prefixes and their hreflang codes
-const countries = [
-  { prefix: 'ng', hreflang: 'en-NG' },
-  { prefix: 'us', hreflang: 'en-US' },
-  { prefix: 'ca', hreflang: 'en-CA' },
-  { prefix: 'uk', hreflang: 'en-GB' },
-  { prefix: 'au', hreflang: 'en-AU' },
-  { prefix: 'gh', hreflang: 'en-GH' },
-  { prefix: 'ke', hreflang: 'en-KE' },
-  { prefix: 'za', hreflang: 'en-ZA' },
-  { prefix: 'ph', hreflang: 'en-PH' },
-  { prefix: 'zw', hreflang: 'en-ZW' },
-  { prefix: 'in', hreflang: 'en-IN' },
-  { prefix: 'sc', hreflang: 'en-SC' },
-  { prefix: 'de', hreflang: 'de-DE' },
-  { prefix: 'br', hreflang: 'pt-BR' },
-  { prefix: 'nz', hreflang: 'en-NZ' },
-  { prefix: 'fr', hreflang: 'fr-FR' },
+// Language prefixes and their hreflang codes
+const languages = [
+  { prefix: 'en', hreflang: 'en' },
+  { prefix: 'de', hreflang: 'de' },
+  { prefix: 'fr', hreflang: 'fr' },
+  { prefix: 'pt', hreflang: 'pt-BR' },
 ];
 
 interface PageEntry {
-  path: string; // relative path without country prefix, e.g. "/pricing"
+  path: string; // relative path without language prefix, e.g. "/pricing"
   changefreq?: string;
   priority?: number;
 }
@@ -117,10 +105,10 @@ function getCorridors(): Array<{ currency: string; country: string }> {
 
 /** Build hreflang links for a given relative path */
 function hreflangLinks(relPath: string): string {
-  const links = countries.map(c =>
-    `    <xhtml:link rel="alternate" hreflang="${c.hreflang}" href="${SITE_URL}/${c.prefix}${relPath}"/>`
+  const links = languages.map(l =>
+    `    <xhtml:link rel="alternate" hreflang="${l.hreflang}" href="${SITE_URL}/${l.prefix}${relPath}"/>`
   );
-  links.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/us${relPath}"/>`);
+  links.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/en${relPath}"/>`);
   return links.join('\n');
 }
 
@@ -128,9 +116,9 @@ function generateXML(pages: PageEntry[]): string {
   const urlEntries: string[] = [];
 
   for (const page of pages) {
-    for (const c of countries) {
+    for (const l of languages) {
       urlEntries.push(`  <url>
-    <loc>${SITE_URL}/${c.prefix}${page.path}</loc>
+    <loc>${SITE_URL}/${l.prefix}${page.path}</loc>
 ${hreflangLinks(page.path)}
     <lastmod>${CURRENT_DATE}</lastmod>
     <changefreq>${page.changefreq || 'monthly'}</changefreq>
@@ -147,7 +135,7 @@ ${urlEntries.join('\n')}
 }
 
 function main() {
-  console.log('🗺️  Generating multi-country sitemap...');
+  console.log('🗺️  Generating multi-language sitemap...');
   const allPages: PageEntry[] = [...staticPages];
 
   guideSlugs.forEach(s => allPages.push({ path: `/guides/${s}`, priority: 0.8, changefreq: 'weekly' }));
@@ -175,7 +163,7 @@ function main() {
   const xml = generateXML(allPages);
   const outputPath = path.join(__dirname, '../public/sitemap.xml');
   fs.writeFileSync(outputPath, xml, 'utf-8');
-  console.log(`✅ Sitemap: ${allPages.length} pages × ${countries.length} countries = ${allPages.length * countries.length} URLs`);
+  console.log(`✅ Sitemap: ${allPages.length} pages × ${languages.length} languages = ${allPages.length * languages.length} URLs`);
 }
 
 main();
