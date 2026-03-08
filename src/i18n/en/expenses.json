@@ -1,0 +1,136 @@
+{
+  "hero": {
+    "badge": "Now Available",
+    "title": "Track every expense with",
+    "titleAccent": "ease",
+    "description": "Track business expenses effortlessly. Scan receipts, categorize spending, and maintain compliance-ready records — all integrated with your invoicing.",
+    "primaryCta": "Start Your Free Trial",
+    "secondaryCta": "Start with Invoicing"
+  },
+  "preview": {
+    "title": "Expense Summary",
+    "thisMonth": "This Month",
+    "totalExpenses": "Total Expenses",
+    "taxDeductible": "Tax Deductible",
+    "categories": {
+      "officeSupplies": "Office Supplies",
+      "software": "Software",
+      "travel": "Travel",
+      "meals": "Meals"
+    }
+  },
+  "banner": {
+    "title": "Expense tracking that works for you",
+    "features": [
+      "Scan receipts instantly",
+      "Auto-categorize spending",
+      "Track tax deductions",
+      "Generate expense reports"
+    ]
+  },
+  "featureBlocks": {
+    "title": "What you'll <accent>get</accent>",
+    "subtitle": "Expense tracking designed to integrate seamlessly with your invoicing workflow.",
+    "snapAndForget": {
+      "title": "Snap and forget",
+      "description": "Take a photo of any receipt and we'll extract all the details automatically."
+    },
+    "autoCategorize": {
+      "title": "Auto-categorize everything",
+      "description": "Expenses are automatically sorted by type, vendor, and tax category."
+    },
+    "seeWhereMoneyGoes": {
+      "title": "See where your money goes",
+      "description": "Visual breakdowns help you understand spending patterns at a glance."
+    }
+  },
+  "tabbed": {
+    "title": "Everything you need to track expenses",
+    "subtitle": "From receipt capture to tax-ready reports.",
+    "receiptScanning": {
+      "label": "Receipt Scanning",
+      "title": "Capture expenses on the go",
+      "description": "Simply snap a photo of your receipt and our AI extracts the vendor, amount, date, and category automatically. No more manual data entry or lost receipts."
+    },
+    "categories": {
+      "label": "Categories",
+      "title": "Automatic smart categorization",
+      "description": "Our system learns from your expenses and automatically categorizes them. Easily track office supplies, travel, meals, software, and more."
+    },
+    "taxTracking": {
+      "label": "Tax Tracking",
+      "title": "Tax deductions made easy",
+      "description": "Automatically flag tax-deductible expenses and generate reports ready for your accountant. Never miss a deduction again."
+    }
+  },
+  "automation": {
+    "title": "Save hours every month",
+    "subtitle": "Automate the tedious parts of expense tracking.",
+    "autoDataEntry": {
+      "title": "Automatic data entry",
+      "description": "No more typing. Receipt scanning does the work for you."
+    },
+    "smartOrganization": {
+      "title": "Smart organization",
+      "description": "Expenses sorted by vendor, category, and date automatically."
+    },
+    "oneClickReports": {
+      "title": "One-click reports",
+      "description": "Generate expense reports ready for clients or accountants."
+    }
+  },
+  "testimonial": {
+    "quote": "I used to dread expense tracking. Now I just snap a photo and everything is organized automatically. Tax season is so much easier.",
+    "name": "Oluwaseun Adeyemi",
+    "title": "Consultant",
+    "company": "Adeyemi Advisory"
+  },
+  "blog": {
+    "title": "Expense management tips",
+    "subtitle": "Learn how to track expenses more efficiently."
+  },
+  "faq": {
+    "title": "Expense tracking questions, answered",
+    "subtitle": "Everything you need to know about managing expenses.",
+    "items": {
+      "receiptScanning": {
+        "question": "How does receipt scanning work?",
+        "answer": "Simply take a photo of your receipt with your phone or upload an image. Our AI-powered OCR technology extracts the vendor name, date, amount, and even suggests a category automatically."
+      },
+      "multipleCategories": {
+        "question": "Can I track expenses for multiple categories?",
+        "answer": "Yes! You can create custom categories or use our pre-built ones like Travel, Office Supplies, Software, Meals, and more. Expenses are automatically categorized based on the vendor."
+      },
+      "taxes": {
+        "question": "Will this help with my taxes?",
+        "answer": "Absolutely. We automatically flag tax-deductible expenses and generate reports you can share with your accountant. You'll never miss a deduction again."
+      },
+      "integration": {
+        "question": "How does this integrate with invoicing?",
+        "answer": "Expenses flow directly into your financial reports. When combined with invoicing, you get a complete picture of your business finances — income and expenses in one place."
+      },
+      "budgets": {
+        "question": "Can I set spending budgets?",
+        "answer": "Yes, you can set budgets for different expense categories and get alerts when you're approaching your limits. Great for keeping spending under control."
+      }
+    }
+  },
+  "seoFaqs": {
+    "whatIs": {
+      "question": "What is expense tracking software?",
+      "answer": "Expense tracking software automates the process of recording, categorizing, and reporting business expenses. It replaces manual spreadsheets with features like receipt scanning, automatic categorization, and real-time spending insights."
+    },
+    "receiptScanning": {
+      "question": "How does receipt scanning work?",
+      "answer": "Receipt scanning uses OCR (Optical Character Recognition) technology to photograph a receipt and automatically extract the vendor name, date, amount, and category. Simply snap a photo with your phone and the data is captured instantly."
+    },
+    "categories": {
+      "question": "Can I track expenses by category?",
+      "answer": "Yes. Expense tracking software lets you organize spending into categories like travel, office supplies, software, and meals. You can use pre-built categories or create custom ones, and expenses are often auto-categorized based on the vendor."
+    },
+    "taxHelp": {
+      "question": "Does expense tracking help with taxes?",
+      "answer": "Absolutely. Expense tracking software automatically flags tax-deductible expenses and generates reports you can share with your accountant. This ensures you never miss a deduction and stay compliant with tax authorities."
+    }
+  }
+}

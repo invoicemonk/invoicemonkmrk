@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "badge": "Disponible ahora",
+    "title": "Rastrea cada gasto con",
+    "titleAccent": "facilidad",
+    "description": "Rastrea gastos empresariales sin esfuerzo. Escanea recibos, categoriza gastos y mantén registros conformes — todo integrado con tu facturación.",
+    "primaryCta": "Comienza tu prueba gratuita",
+    "secondaryCta": "Comenzar con facturación"
+  },
+  "preview": {
+    "title": "Resumen de gastos",
+    "thisMonth": "Este mes",
+    "totalExpenses": "Gastos totales",
+    "taxDeductible": "Deducible de impuestos",
+    "categories": { "officeSupplies": "Material de oficina", "software": "Software", "travel": "Viajes", "meals": "Comidas" }
+  },
+  "banner": {
+    "title": "Seguimiento de gastos que trabaja para ti",
+    "features": ["Escanea recibos al instante", "Categoriza gastos automáticamente", "Rastrea deducciones fiscales", "Genera informes de gastos"]
+  },
+  "featureBlocks": {
+    "title": "Lo que <accent>obtendrás</accent>",
+    "subtitle": "Seguimiento de gastos diseñado para integrarse perfectamente con tu flujo de facturación.",
+    "snapAndForget": { "title": "Fotografía y olvídate", "description": "Toma una foto de cualquier recibo y extraeremos todos los detalles automáticamente." },
+    "autoCategorize": { "title": "Categorización automática", "description": "Los gastos se organizan automáticamente por tipo, proveedor y categoría fiscal." },
+    "seeWhereMoneyGoes": { "title": "Ve a dónde va tu dinero", "description": "Desgloses visuales te ayudan a entender patrones de gasto de un vistazo." }
+  },
+  "tabbed": {
+    "title": "Todo lo que necesitas para rastrear gastos",
+    "subtitle": "Desde la captura de recibos hasta informes fiscales.",
+    "receiptScanning": { "label": "Escaneo de recibos", "title": "Captura gastos sobre la marcha", "description": "Simplemente toma una foto de tu recibo y nuestra IA extrae automáticamente el proveedor, monto, fecha y categoría. Sin más entrada manual de datos." },
+    "categories": { "label": "Categorías", "title": "Categorización inteligente automática", "description": "Nuestro sistema aprende de tus gastos y los categoriza automáticamente. Rastrea fácilmente material de oficina, viajes, comidas, software y más." },
+    "taxTracking": { "label": "Seguimiento fiscal", "title": "Deducciones fiscales simplificadas", "description": "Los gastos deducibles se marcan automáticamente y se generan informes listos para tu contador. Nunca más pierdas una deducción." }
+  },
+  "automation": {
+    "title": "Ahorra horas cada mes",
+    "subtitle": "Automatiza las partes tediosas del seguimiento de gastos.",
+    "autoDataEntry": { "title": "Entrada automática de datos", "description": "Sin más tecleo. El escaneo de recibos hace el trabajo por ti." },
+    "smartOrganization": { "title": "Organización inteligente", "description": "Gastos organizados por proveedor, categoría y fecha automáticamente." },
+    "oneClickReports": { "title": "Informes con un clic", "description": "Genera informes de gastos listos para clientes o contadores." }
+  },
+  "testimonial": { "quote": "Antes temía el seguimiento de gastos. Ahora solo tomo una foto y todo se organiza automáticamente. La temporada de impuestos es mucho más fácil.", "name": "Oluwaseun Adeyemi", "title": "Consultor", "company": "Adeyemi Advisory" },
+  "blog": { "title": "Consejos de gestión de gastos", "subtitle": "Aprende a rastrear gastos de forma más eficiente." },
+  "faq": {
+    "title": "Preguntas sobre seguimiento de gastos, respondidas",
+    "subtitle": "Todo lo que necesitas saber sobre la gestión de gastos.",
+    "items": {
+      "receiptScanning": { "question": "¿Cómo funciona el escaneo de recibos?", "answer": "Simplemente toma una foto de tu recibo con el teléfono o sube una imagen. Nuestra tecnología OCR con IA extrae automáticamente el nombre del proveedor, fecha, monto e incluso sugiere una categoría." },
+      "multipleCategories": { "question": "¿Puedo rastrear gastos en múltiples categorías?", "answer": "¡Sí! Puedes crear categorías personalizadas o usar las predefinidas como Viajes, Material de oficina, Software, Comidas y más. Los gastos se categorizan automáticamente según el proveedor." },
+      "taxes": { "question": "¿Esto me ayudará con mis impuestos?", "answer": "Por supuesto. Marcamos automáticamente los gastos deducibles y generamos informes que puedes compartir con tu contador. Nunca más perderás una deducción." },
+      "integration": { "question": "¿Cómo se integra esto con la facturación?", "answer": "Los gastos fluyen directamente a tus informes financieros. Combinado con la facturación, obtienes una imagen completa de las finanzas de tu negocio — ingresos y gastos en un solo lugar." },
+      "budgets": { "question": "¿Puedo establecer presupuestos de gastos?", "answer": "Sí, puedes establecer presupuestos para diferentes categorías de gastos y recibir alertas cuando te acerques a tus límites. Ideal para mantener los gastos bajo control." }
+    }
+  },
+  "seoFaqs": {
+    "whatIs": { "question": "¿Qué es un software de seguimiento de gastos?", "answer": "El software de seguimiento de gastos automatiza el proceso de registro, categorización e informe de gastos empresariales. Reemplaza las hojas de cálculo manuales con funciones como escaneo de recibos, categorización automática e información de gastos en tiempo real." },
+    "receiptScanning": { "question": "¿Cómo funciona el escaneo de recibos?", "answer": "El escaneo de recibos usa tecnología OCR para fotografiar un recibo y extraer automáticamente el nombre del proveedor, fecha, monto y categoría." },
+    "categories": { "question": "¿Puedo rastrear gastos por categoría?", "answer": "Sí. El software permite organizar gastos en categorías como viajes, material de oficina, software y comidas." },
+    "taxHelp": { "question": "¿El seguimiento de gastos ayuda con los impuestos?", "answer": "Por supuesto. El software marca automáticamente los gastos deducibles y genera informes que puedes compartir con tu contador." }
+  }
+}

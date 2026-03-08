@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "badge": "Disponível agora",
+    "title": "Rastreie cada despesa com",
+    "titleAccent": "facilidade",
+    "description": "Rastreie despesas empresariais sem esforço. Digitalize recibos, categorize gastos e mantenha registros em conformidade — tudo integrado ao seu faturamento.",
+    "primaryCta": "Comece seu teste gratuito",
+    "secondaryCta": "Começar com faturamento"
+  },
+  "preview": {
+    "title": "Resumo de despesas",
+    "thisMonth": "Este mês",
+    "totalExpenses": "Despesas totais",
+    "taxDeductible": "Dedutível de impostos",
+    "categories": { "officeSupplies": "Material de escritório", "software": "Software", "travel": "Viagens", "meals": "Refeições" }
+  },
+  "banner": {
+    "title": "Rastreamento de despesas que trabalha para você",
+    "features": ["Digitalize recibos instantaneamente", "Categorize gastos automaticamente", "Rastreie deduções fiscais", "Gere relatórios de despesas"]
+  },
+  "featureBlocks": {
+    "title": "O que você vai <accent>receber</accent>",
+    "subtitle": "Rastreamento de despesas projetado para se integrar perfeitamente ao seu fluxo de faturamento.",
+    "snapAndForget": { "title": "Fotografe e esqueça", "description": "Tire uma foto de qualquer recibo e extrairemos todos os detalhes automaticamente." },
+    "autoCategorize": { "title": "Categorize tudo automaticamente", "description": "Despesas são automaticamente organizadas por tipo, fornecedor e categoria fiscal." },
+    "seeWhereMoneyGoes": { "title": "Veja para onde vai seu dinheiro", "description": "Análises visuais ajudam você a entender padrões de gastos rapidamente." }
+  },
+  "tabbed": {
+    "title": "Tudo o que você precisa para rastrear despesas",
+    "subtitle": "Da captura de recibos a relatórios fiscais.",
+    "receiptScanning": { "label": "Digitalização de recibos", "title": "Capture despesas em qualquer lugar", "description": "Basta tirar uma foto do seu recibo e nossa IA extrai automaticamente o fornecedor, valor, data e categoria. Sem mais entrada manual de dados." },
+    "categories": { "label": "Categorias", "title": "Categorização inteligente automática", "description": "Nosso sistema aprende com suas despesas e as categoriza automaticamente. Rastreie facilmente material de escritório, viagens, refeições, software e mais." },
+    "taxTracking": { "label": "Rastreamento fiscal", "title": "Deduções fiscais simplificadas", "description": "Despesas dedutíveis são automaticamente sinalizadas e relatórios prontos para seu contador são gerados. Nunca mais perca uma dedução." }
+  },
+  "automation": {
+    "title": "Economize horas todo mês",
+    "subtitle": "Automatize as partes tediosas do rastreamento de despesas.",
+    "autoDataEntry": { "title": "Entrada automática de dados", "description": "Sem mais digitação. A digitalização de recibos faz o trabalho por você." },
+    "smartOrganization": { "title": "Organização inteligente", "description": "Despesas organizadas por fornecedor, categoria e data automaticamente." },
+    "oneClickReports": { "title": "Relatórios com um clique", "description": "Gere relatórios de despesas prontos para clientes ou contadores." }
+  },
+  "testimonial": { "quote": "Eu costumava temer o rastreamento de despesas. Agora eu só tiro uma foto e tudo é organizado automaticamente. A temporada de impostos ficou muito mais fácil.", "name": "Oluwaseun Adeyemi", "title": "Consultor", "company": "Adeyemi Advisory" },
+  "blog": { "title": "Dicas de gestão de despesas", "subtitle": "Aprenda a rastrear despesas com mais eficiência." },
+  "faq": {
+    "title": "Perguntas sobre rastreamento de despesas, respondidas",
+    "subtitle": "Tudo o que você precisa saber sobre gestão de despesas.",
+    "items": {
+      "receiptScanning": { "question": "Como funciona a digitalização de recibos?", "answer": "Basta tirar uma foto do recibo com seu celular ou fazer upload de uma imagem. Nossa tecnologia OCR com IA extrai automaticamente o nome do fornecedor, data, valor e até sugere uma categoria." },
+      "multipleCategories": { "question": "Posso rastrear despesas em múltiplas categorias?", "answer": "Sim! Você pode criar categorias personalizadas ou usar as pré-definidas como Viagens, Material de escritório, Software, Refeições e mais. Despesas são automaticamente categorizadas com base no fornecedor." },
+      "taxes": { "question": "Isso ajudará com meus impostos?", "answer": "Com certeza. Sinalizamos automaticamente despesas dedutíveis e geramos relatórios que você pode compartilhar com seu contador. Você nunca mais perderá uma dedução." },
+      "integration": { "question": "Como isso se integra com o faturamento?", "answer": "As despesas fluem diretamente para seus relatórios financeiros. Combinado com faturamento, você obtém uma visão completa das finanças do seu negócio — receitas e despesas em um só lugar." },
+      "budgets": { "question": "Posso definir orçamentos de gastos?", "answer": "Sim, você pode definir orçamentos para diferentes categorias de despesas e receber alertas quando estiver se aproximando dos limites. Ótimo para manter os gastos sob controle." }
+    }
+  },
+  "seoFaqs": {
+    "whatIs": { "question": "O que é software de rastreamento de despesas?", "answer": "Software de rastreamento de despesas automatiza o processo de registro, categorização e relatório de despesas empresariais. Substitui planilhas manuais com recursos como digitalização de recibos, categorização automática e insights de gastos em tempo real." },
+    "receiptScanning": { "question": "Como funciona a digitalização de recibos?", "answer": "A digitalização de recibos usa tecnologia OCR para fotografar um recibo e extrair automaticamente o nome do fornecedor, data, valor e categoria." },
+    "categories": { "question": "Posso rastrear despesas por categoria?", "answer": "Sim. O software permite organizar gastos em categorias como viagens, material de escritório, software e refeições." },
+    "taxHelp": { "question": "O rastreamento de despesas ajuda com impostos?", "answer": "Com certeza. O software sinaliza automaticamente despesas dedutíveis e gera relatórios que você pode compartilhar com seu contador." }
+  }
+}
