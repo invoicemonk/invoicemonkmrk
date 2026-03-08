@@ -17,6 +17,13 @@ import type { GlossaryTerm } from '@/data/glossaryTerms';
 import type { Author } from '@/data/authors';
 import type { Pillar } from '@/data/topicalMap';
 
+// English defaults (static imports for ES module compatibility)
+import { blogPosts as enBlogPosts } from '@/data/blogPosts';
+import { helpGuides as enHelpGuides } from '@/data/helpGuides';
+import { glossaryTerms as enGlossaryTerms } from '@/data/glossaryTerms';
+import { authors as enAuthors } from '@/data/authors';
+import { pillars as enPillars } from '@/data/topicalMap';
+
 // ── Normalize i18n language code to URL prefix ──────────────────────────
 export function getLangPrefix(i18nLang: string): string {
   if (i18nLang === 'pt-BR' || i18nLang === 'pt') return 'pt';
@@ -59,14 +66,8 @@ export function registerPillars(lang: string, data: Pillar[]) {
 
 /** Get all blog posts for a language, falling back to English */
 export function getTranslatedBlogPosts(lang: string): BlogPost[] {
-  if (lang === 'en') {
-    // Lazy import to avoid circular dependency
-    const { blogPosts } = require('@/data/blogPosts');
-    return blogPosts;
-  }
-  if (blogPostRegistry[lang]) return blogPostRegistry[lang];
-  const { blogPosts } = require('@/data/blogPosts');
-  return blogPosts;
+  if (lang === 'en') return enBlogPosts;
+  return blogPostRegistry[lang] ?? enBlogPosts;
 }
 
 /** Get a single blog post by slug for a language */
@@ -77,13 +78,8 @@ export function getBlogPostBySlugTranslated(slug: string, lang: string): BlogPos
 
 /** Get all help guides for a language, falling back to English */
 export function getTranslatedHelpGuides(lang: string): HelpGuide[] {
-  if (lang === 'en') {
-    const { helpGuides } = require('@/data/helpGuides');
-    return helpGuides;
-  }
-  if (helpGuideRegistry[lang]) return helpGuideRegistry[lang];
-  const { helpGuides } = require('@/data/helpGuides');
-  return helpGuides;
+  if (lang === 'en') return enHelpGuides;
+  return helpGuideRegistry[lang] ?? enHelpGuides;
 }
 
 /** Get a single help guide by slug for a language */
@@ -94,24 +90,14 @@ export function getGuideBySlugTranslated(slug: string, lang: string): HelpGuide 
 
 /** Get all glossary terms for a language, falling back to English */
 export function getTranslatedGlossaryTerms(lang: string): GlossaryTerm[] {
-  if (lang === 'en') {
-    const { glossaryTerms } = require('@/data/glossaryTerms');
-    return glossaryTerms;
-  }
-  if (glossaryTermRegistry[lang]) return glossaryTermRegistry[lang];
-  const { glossaryTerms } = require('@/data/glossaryTerms');
-  return glossaryTerms;
+  if (lang === 'en') return enGlossaryTerms;
+  return glossaryTermRegistry[lang] ?? enGlossaryTerms;
 }
 
 /** Get authors for a language, falling back to English */
 export function getTranslatedAuthors(lang: string): Record<string, Author> {
-  if (lang === 'en') {
-    const { authors } = require('@/data/authors');
-    return authors;
-  }
-  if (authorRegistry[lang]) return authorRegistry[lang];
-  const { authors } = require('@/data/authors');
-  return authors;
+  if (lang === 'en') return enAuthors;
+  return authorRegistry[lang] ?? enAuthors;
 }
 
 /** Get an author by slug for a language */
@@ -122,13 +108,8 @@ export function getAuthorBySlugTranslated(slug: string, lang: string): Author | 
 
 /** Get pillars for a language, falling back to English */
 export function getTranslatedPillars(lang: string): Pillar[] {
-  if (lang === 'en') {
-    const { pillars } = require('@/data/topicalMap');
-    return pillars;
-  }
-  if (pillarRegistry[lang]) return pillarRegistry[lang];
-  const { pillars } = require('@/data/topicalMap');
-  return pillars;
+  if (lang === 'en') return enPillars;
+  return pillarRegistry[lang] ?? enPillars;
 }
 
 /** Check if translated content exists for a language and content type */
