@@ -1,0 +1,109 @@
+{
+  "seo": {
+    "title": "Software de facturación para abogados | Invoicemonk",
+    "description": "Facturación legal profesional con seguimiento de tiempo, gestión de anticipos y facturación detallada. Para bufetes, abogados independientes y consultores legales."
+  },
+  "hero": {
+    "badge": "Para abogados",
+    "title": "Facturación profesional para despachos de abogados",
+    "accentWord": "despachos",
+    "description": "Rastree horas facturables, gestione anticipos y envíe facturas detalladas que cumplan los estándares de sus clientes.",
+    "primaryCta": "Comenzar gratis",
+    "secondaryCta": "Ver precios",
+    "trustBadge": "Confiado por bufetes y abogados independientes"
+  },
+  "benefits": {
+    "title": "Diseñado para profesionales del derecho",
+    "subtitle": "Funciones de facturación diseñadas para las necesidades únicas de los despachos de abogados",
+    "items": [
+      { "title": "Facturación por horas", "description": "Rastree horas facturables por cliente y asunto. Genere facturas detalladas con entradas de tiempo, tarifas y descripciones." },
+      { "title": "Gestión de anticipos", "description": "Facture contra anticipos, rastree saldos y envíe facturas de reposición automáticas." },
+      { "title": "Facturas detalladas", "description": "Estados de facturación detallados que cumplen los requisitos de clientes corporativos e institucionales." },
+      { "title": "Cumplimiento y seguridad", "description": "Almacenamiento seguro con pistas de auditoría inmutables. Facturación conforme con verificación criptográfica y código QR." }
+    ]
+  },
+  "useCases": {
+    "title": "Cómo los abogados usan Invoicemonk",
+    "subtitle": "Ya sea abogado independiente o gestione un pequeño bufete — así se integra Invoicemonk en su flujo de facturación",
+    "items": [
+      { "title": "Litigios y disputas", "description": "Registre horas facturables — investigación, redacción, audiencias, consultas. Genere facturas detalladas con todas las entradas de tiempo." },
+      { "title": "Asesoría con anticipo", "description": "Configure acuerdos de anticipo con facturación mensual. Invoicemonk rastrea el saldo y envía facturas de reposición automáticamente." },
+      { "title": "Transacciones e inmobiliario", "description": "Facture transacciones inmobiliarias o redacción de contratos con facturación por hitos. Cada documento se verifica criptográficamente." }
+    ]
+  },
+  "challenges": {
+    "title": "Desafíos comunes de facturación legal — resueltos",
+    "subtitle": "Construimos Invoicemonk alrededor de los problemas reales de los profesionales del derecho",
+    "items": [
+      { "problem": "Pérdida de horas facturables porque las entradas se anotan en cuadernos o se olvidan", "solution": "Registre entradas de tiempo por cliente y asunto mientras trabaja. Todas las entradas están listas para facturar." },
+      { "problem": "Los clientes disputan facturas por falta de detalle o transparencia", "solution": "Las facturas detalladas muestran cada entrada de tiempo con fechas, descripciones, tarifas y duraciones." },
+      { "problem": "Rastreo manual de saldos de anticipos en hojas de cálculo", "solution": "El seguimiento de deducciones muestra saldos restantes en cada factura. Facturas de reposición automáticas." },
+      { "problem": "Horas preparando registros financieros para revisiones de cumplimiento", "solution": "Cada factura y pago se registra automáticamente con pistas de auditoría inmutables. Exporte informes con un clic." }
+    ]
+  },
+  "workflow": {
+    "title": "Cómo funciona",
+    "subtitle": "Desde la incorporación del cliente hasta el informe de cumplimiento — en cuatro pasos",
+    "steps": [
+      { "title": "Incorporar al cliente", "description": "Agregue los datos del cliente — nombre, empresa, dirección de facturación y número fiscal. Para mandatos con anticipo, configure el monto y calendario." },
+      { "title": "Registrar tiempo y gastos", "description": "Registre horas facturables con descripciones. Documente gastos del caso — tasas judiciales, viajes, peritos." },
+      { "title": "Generar y enviar facturas", "description": "Cree una factura detallada con todas las entradas de tiempo y gastos. Revise, aplique deducciones y envíe." },
+      { "title": "Rastrear pagos y reportar", "description": "Monitoree el estado de pagos en tiempo real. Recordatorios automáticos para facturas vencidas. Informes de cumplimiento trimestrales." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Por qué los abogados eligen Invoicemonk",
+    "paragraphs": [
+      "La facturación legal tiene requisitos únicos que el software genérico no cubre. Invoicemonk integra facturación por horas, gestión de anticipos y pistas de auditoría desde el inicio.",
+      "Cada factura incluye un código de verificación criptográfico y código QR. Clientes, auditores o reguladores pueden verificar la autenticidad independientemente.",
+      "Para bufetes pequeños, las funciones de gestión de equipo permiten que los asociados registren sus horas mientras los socios mantienen el control de la facturación."
+    ]
+  },
+  "checklist": {
+    "title": "Lo que los abogados obtienen con Invoicemonk",
+    "items": [
+      "Facturación por horas",
+      "Gestión de anticipos",
+      "Seguimiento por asunto",
+      "Estados de facturación detallados",
+      "Recordatorios de pago automáticos",
+      "Seguimiento de gastos por caso",
+      "Imagen profesional",
+      "Soporte multi-moneda",
+      "Almacenamiento seguro de documentos",
+      "Documentos fiscalmente conformes",
+      "Controles de acceso de equipo",
+      "Verificación criptográfica"
+    ]
+  },
+  "testimonials": {
+    "title": "Confiado por profesionales del derecho",
+    "items": [
+      { "quote": "La facturación por horas y el seguimiento de anticipos han ahorrado incontables horas a mi despacho.", "author": "Aisha M.", "role": "Abogada corporativa" },
+      { "quote": "Como abogado independiente, necesitaba algo simple y profesional. Invoicemonk cumple con ambos.", "author": "Emeka O.", "role": "Abogado de familia" },
+      { "quote": "Gestionar la facturación de un pequeño bufete significaba noches con hojas de cálculo. Ahora cada asociado registra sus horas.", "author": "Chioma A.", "role": "Socia directora, Bufete de litigios" }
+    ]
+  },
+  "faqs": [
+    { "question": "¿Invoicemonk gestiona facturación por horas para abogados?", "answer": "Sí. Rastree horas facturables por cliente y asunto, luego genere facturas detalladas." },
+    { "question": "¿Invoicemonk soporta facturación de cuentas fiduciarias?", "answer": "Puede crear facturas que referencien saldos de cuentas fiduciarias y rastrear deducciones de anticipos." },
+    { "question": "¿Puedo generar facturas en formato LEDES?", "answer": "Invoicemonk produce facturas detalladas para clientes corporativos. Contáctenos para exportaciones LEDES específicas." },
+    { "question": "¿Cómo ayuda Invoicemonk con el cumplimiento?", "answer": "Todas las facturas incluyen información fiscal requerida y se almacenan con pistas de auditoría inmutables." },
+    { "question": "¿Hay un plan gratuito para abogados independientes?", "answer": "¡Sí! Los abogados independientes pueden comenzar gratis con 5 facturas y 5 recibos por mes." },
+    { "question": "¿Puedo rastrear gastos por caso?", "answer": "Sí. Registre gastos por cliente — tasas judiciales, peritos, viajes. Vea su rentabilidad real por asunto." },
+    { "question": "¿Invoicemonk genera recibos al recibir pagos?", "answer": "Cada pago registrado genera automáticamente un recibo profesional con código de verificación y código QR." }
+  ],
+  "relatedReading": {
+    "title": "Lecturas relacionadas",
+    "links": [
+      { "text": "Seguimiento de tiempo y facturación", "href": "/blog/freelance-time-tracking-guide" },
+      { "text": "Condiciones de pago", "href": "/blog/how-to-write-invoice-payment-terms" },
+      { "text": "Cobrar más rápido", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para modernizar su facturación legal?",
+    "description": "Únase a los profesionales del derecho que confían en Invoicemonk para una facturación conforme y profesional.",
+    "button": "Comenzar gratis"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Invoicing Software for Agencies | Invoicemonk",
+    "description": "Streamline agency billing with retainer invoicing, multi-project tracking, and branded invoices. Built for digital, creative, and marketing agencies."
+  },
+  "hero": {
+    "badge": "For Agencies",
+    "title": "Invoicing built for growing agencies",
+    "accentWord": "agencies",
+    "description": "Manage retainer billing, project invoices, and multi-currency payments from one platform. Spend less time on admin, more time winning clients.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "View Pricing",
+    "trustBadge": "Trusted by digital and creative agencies"
+  },
+  "benefits": {
+    "title": "Built for agency workflows",
+    "subtitle": "Everything you need to bill clients professionally and track your agency's financial health",
+    "items": [
+      { "title": "Multi-Project Billing", "description": "Manage invoices across dozens of clients and projects from a single dashboard. Each client gets their own billing profile with separate payment terms, branding, and financial tracking — so nothing gets mixed up during busy periods." },
+      { "title": "Retainer Invoicing", "description": "Automate recurring invoices for retainer clients with customisable schedules and amounts. Set it once and Invoicemonk handles every billing cycle — freeing your team to focus on client work instead of monthly admin." },
+      { "title": "Revenue Reporting", "description": "Track revenue per client, project profitability, and outstanding payments at a glance. Generate reports that help you make strategic decisions about client retention, pricing, and resource allocation." },
+      { "title": "Professional Branding", "description": "White-label invoices with your agency logo and custom payment terms. Every invoice reinforces your agency's professional identity and builds client confidence in your operations." }
+    ]
+  },
+  "useCases": {
+    "title": "How agencies use Invoicemonk",
+    "subtitle": "From boutique studios to full-service agencies — here's how Invoicemonk fits your billing model",
+    "items": [
+      { "title": "Monthly Retainers", "description": "Set up recurring invoices for every retainer client — SEO, social media management, PPC, or content creation. Invoicemonk sends each invoice automatically on the agreed date. Track retainer revenue separately from project work for clear financial visibility across your entire book of business." },
+      { "title": "Campaign Projects", "description": "For campaign or project work, create milestone-based invoices. Bill 30% at kickoff for strategy and planning, 40% after creative delivery, and 30% on campaign launch. Each invoice details the deliverables completed, making it easy for client procurement to approve payment quickly." },
+      { "title": "International Accounts", "description": "Bill global clients in their local currency without manual conversion headaches. A London client gets an invoice in GBP, a New York client in USD, and a Lagos client in NGN — all from one dashboard. Each invoice is formatted with the correct currency symbol, tax structure, and compliance details." }
+    ]
+  },
+  "challenges": {
+    "title": "Common agency challenges — solved",
+    "subtitle": "We built Invoicemonk around the real billing problems agencies face at scale",
+    "items": [
+      { "problem": "Finance team spends days manually creating and sending monthly retainer invoices", "solution": "Automated recurring invoices generate and send on schedule for every retainer client. Your finance team reviews them once, then Invoicemonk handles the rest each month." },
+      { "problem": "No visibility into which client accounts are actually profitable", "solution": "Revenue and expense tracking per client and project. See actual profitability at a glance and make data-driven decisions about pricing and client retention." },
+      { "problem": "Chasing payments across 20+ client accounts is a full-time job", "solution": "Automatic payment reminders follow up with every client on your customised schedule. Your dashboard shows all outstanding invoices across every account in one view." },
+      { "problem": "Inconsistent invoice formatting undermines professional agency image", "solution": "Branded invoice templates with your logo, colours, and terms. Every invoice looks polished and professional, reinforcing your agency's positioning with every client interaction." }
+    ]
+  },
+  "workflow": {
+    "title": "How it works",
+    "subtitle": "From client onboarding to monthly reporting — streamlined for agency operations",
+    "steps": [
+      { "title": "Set up client accounts", "description": "Create a profile for each client with their billing address, contact person, preferred currency, and payment terms. For retainer clients, configure the recurring invoice schedule. For project clients, define the milestone billing structure. This setup takes minutes per client and ensures consistent, professional billing from day one." },
+      { "title": "Automate retainer billing", "description": "For monthly retainer clients, set the invoice amount, send date, and any standard line items. Invoicemonk generates and sends the invoice automatically each cycle. Your team reviews the queue once a month and can adjust amounts for scope changes before they go out." },
+      { "title": "Invoice project milestones", "description": "For project-based work, create invoices tied to specific deliverables — strategy presentation, creative concepts, campaign launch. Add line items for each component of work and reference the agreed scope. Send the invoice as soon as the milestone is delivered for faster payment." },
+      { "title": "Track and report", "description": "Your dashboard shows revenue by client, outstanding invoices, and payment trends. Pull monthly or quarterly reports to share with partners and stakeholders. Use profitability data to identify accounts that need renegotiation and spots where your agency is leaving money on the table." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why agencies choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Enterprise accounting software like QuickBooks or Xero is powerful but overly complex for agencies that primarily need to send professional invoices, manage retainers, and track who has paid. The learning curve alone costs your finance team weeks. Invoicemonk delivers the billing functionality agencies actually use — without the overhead.",
+      "Unlike simple invoicing apps, Invoicemonk understands the agency billing model. Retainer clients need automated recurring invoices. Project clients need milestone billing. International clients need multi-currency support. Invoicemonk handles all three from one dashboard, which means your team doesn't need to context-switch between different tools.",
+      "Most importantly, Invoicemonk helps you understand your agency's financial health. Revenue-per-client reporting, outstanding invoice tracking, and expense management per project give you the data you need to make confident business decisions — like which accounts to grow, which to renegotiate, and when to hire."
+    ]
+  },
+  "checklist": {
+    "title": "What agencies get with Invoicemonk",
+    "items": [
+      "Unlimited professional invoices",
+      "Recurring retainer billing",
+      "Multi-project dashboard",
+      "Custom branding & logo",
+      "Multi-currency support",
+      "Automatic payment reminders",
+      "Expense tracking per project",
+      "Client management portal",
+      "Detailed revenue reports",
+      "Tax-compliant records"
+    ]
+  },
+  "testimonials": {
+    "title": "Trusted by agencies",
+    "items": [
+      { "quote": "We manage 30+ retainer clients. Invoicemonk's recurring invoices save us hours every month. Before, our finance manager spent two full days sending monthly invoices. Now it's completely automated and clients pay faster because of the reminders.", "author": "Kemi B.", "role": "Operations Manager, Digital Agency" },
+      { "quote": "The multi-currency support is a game changer for our international client base. We have clients in five countries and each gets invoices in their local currency. It makes our agency look polished and removes friction from the payment process.", "author": "David L.", "role": "Creative Director" },
+      { "quote": "Project profitability tracking has changed how we run our agency. We discovered two accounts were actually unprofitable once we factored in all the costs. Now we use Invoicemonk data to negotiate better rates at renewal time.", "author": "Chioma N.", "role": "Managing Director, Marketing Agency" }
+    ]
+  },
+  "faqs": [
+    { "question": "Can Invoicemonk handle retainer billing for agencies?", "answer": "Yes. Set up recurring invoices for retainer clients with automatic scheduling and customisable amounts. Invoicemonk generates and sends the invoice on your chosen date each month, so you never miss a billing cycle — even during your busiest campaign launches." },
+    { "question": "Does Invoicemonk support multiple team members?", "answer": "Invoicemonk supports multi-user access so your project managers, account leads, and finance team can collaborate on invoicing. Each team member can create invoices, track payments, and manage their assigned clients without stepping on each other's work." },
+    { "question": "Can I invoice different clients in different currencies?", "answer": "Absolutely. Invoicemonk supports multi-currency invoicing, perfect for agencies with international clients. Bill a client in London in GBP, a client in New York in USD, and a client in Lagos in NGN — all from the same account with correct currency formatting." },
+    { "question": "How does Invoicemonk help agencies track project profitability?", "answer": "With expense tracking and detailed financial reports, you can see revenue vs. costs per client or per project. Understand which accounts are profitable, which are break-even, and which need renegotiation — all from your dashboard." },
+    { "question": "Is there a free plan for agencies?", "answer": "Yes! Invoicemonk offers a free tier that includes 5 invoices and 5 receipts per month. Start with the free plan and upgrade as your agency grows and needs features like unlimited invoicing, advanced reporting, team access, and client portals." },
+    { "question": "Can I brand invoices with my agency's identity?", "answer": "Yes. Upload your agency logo and create invoice templates that reflect your agency's professional identity. Consistent branding across all client communications reinforces your agency's positioning and builds trust." },
+    { "question": "How do automatic payment reminders work for agencies?", "answer": "Set reminder schedules per client — for example, 3 days before the due date, on the due date, and weekly after. Invoicemonk sends polite, professional follow-ups automatically. This is especially valuable for agencies managing 20+ client accounts where manual chasing is impractical." },
+    { "question": "Can I create milestone-based invoices for project work?", "answer": "Yes. For project engagements, create invoices tied to specific milestones or deliverables — such as 30% at project kickoff, 40% at first review, and 30% on delivery. Each invoice references the milestone and scope of work completed." }
+  ],
+  "relatedReading": {
+    "title": "Related reading",
+    "links": [
+      { "text": "Recurring Invoices Guide", "href": "/blog/recurring-invoices-automating-billing" },
+      { "text": "Client Management Tips", "href": "/blog/managing-multiple-clients-efficiently" },
+      { "text": "Getting Paid Faster", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to streamline your agency billing?",
+    "description": "Join agencies that trust Invoicemonk for professional, automated invoicing at scale.",
+    "button": "Get Started Free"
+  }
+}

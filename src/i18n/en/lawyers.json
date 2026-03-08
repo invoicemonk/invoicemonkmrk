@@ -1,0 +1,109 @@
+{
+  "seo": {
+    "title": "Legal Billing Software for Lawyers | Invoicemonk",
+    "description": "Professional legal billing with time tracking, retainer management, and detailed invoicing. Built for law firms, solo practitioners, and legal consultants."
+  },
+  "hero": {
+    "badge": "For Lawyers",
+    "title": "Professional billing for legal practices",
+    "accentWord": "legal",
+    "description": "Track billable hours, manage retainers, and send detailed invoices that meet your clients' procurement standards.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "View Pricing",
+    "trustBadge": "Trusted by law firms and solo practitioners"
+  },
+  "benefits": {
+    "title": "Built for legal professionals",
+    "subtitle": "Billing features designed for the unique needs of legal practices — from solo practitioners to small firms",
+    "items": [
+      { "title": "Time-Based Billing", "description": "Track billable hours per client and matter. Generate itemized invoices showing time entries, rates, and descriptions. Support for multiple billing rates on a single invoice for different team members." },
+      { "title": "Retainer Management", "description": "Bill against retainers, track balances, and send automatic replenishment invoices. Clients see clear retainer statements showing drawdowns and remaining balances on every invoice." },
+      { "title": "Detailed Invoices", "description": "Itemized billing statements that meet corporate and institutional client requirements. Each line item includes matter references, task descriptions, and time entries — the detail level procurement teams expect." },
+      { "title": "Compliance & Security", "description": "Secure record-keeping with immutable audit trails. Tax-compliant invoicing with cryptographic verification. Every document is verifiable via QR code — trusted by auditors and regulators." }
+    ]
+  },
+  "useCases": {
+    "title": "How lawyers use Invoicemonk",
+    "subtitle": "Whether you're a solo practitioner or managing a small firm — here's how Invoicemonk fits your legal billing workflow",
+    "items": [
+      { "title": "Litigation & Disputes", "description": "Log billable hours as you work on a case — research, drafting, court appearances, client consultations. At the end of the billing cycle, generate an itemized invoice showing every time entry with dates and descriptions. Corporate clients get the transparency they require." },
+      { "title": "Retainer-Based Advisory", "description": "Set up retainer agreements with monthly billing. Invoicemonk tracks the retainer balance, deducts each invoice from the pool, and automatically sends replenishment invoices when the balance runs low. Clients always know where their retainer stands." },
+      { "title": "Transaction & Conveyancing", "description": "Bill for property transactions, company formations, or contract drafting with milestone-based invoicing. Collect an initial deposit, bill at key milestones, and send a final invoice on completion. Each document is cryptographically verified for regulatory confidence." }
+    ]
+  },
+  "challenges": {
+    "title": "Common legal billing challenges — solved",
+    "subtitle": "We built Invoicemonk around the real problems legal professionals face",
+    "items": [
+      { "problem": "Losing billable hours because time entries are tracked in notebooks or forgotten entirely", "solution": "Record time entries per client and matter as you work. When it's time to invoice, all entries are ready — no more lost revenue from forgotten billable time." },
+      { "problem": "Clients disputing invoices because billing statements lack detail or transparency", "solution": "Itemized invoices show every time entry with dates, descriptions, rates, and durations. Clients see exactly what they're paying for, reducing disputes." },
+      { "problem": "Manually tracking retainer balances across multiple clients in spreadsheets", "solution": "Retainer drawdown tracking shows remaining balances on each invoice. Automatic replenishment invoices go out when balances run low." },
+      { "problem": "Spending hours preparing financial records for compliance reviews or tax audits", "solution": "Every invoice, receipt, and payment is automatically logged with immutable audit trails. Export compliance-ready reports in one click." }
+    ]
+  },
+  "workflow": {
+    "title": "How it works",
+    "subtitle": "From client onboarding to compliance reporting — in four steps",
+    "steps": [
+      { "title": "Onboard the client", "description": "Add the client's details to Invoicemonk — name, company, billing address, and tax ID. For retainer-based engagements, set up the retainer amount and billing schedule. The client is now ready for invoicing with all details saved." },
+      { "title": "Log time and expenses", "description": "As you work on the client's matters, log billable hours with descriptions. Record case expenses — filing fees, travel, expert consultations. Everything is stored per client and per matter, ready for invoicing." },
+      { "title": "Generate and send invoices", "description": "Create an itemized invoice pulling in all logged time entries and expenses. Review the statement, apply retainer drawdowns if applicable, and send. The client receives a professional email with your firm's branding and a verification QR code." },
+      { "title": "Track payments and report", "description": "Monitor payment status in real time. Automated reminders handle overdue invoices professionally. At quarter or year-end, generate compliance reports and income summaries for your accountant or regulatory filings." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why lawyers choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Legal billing has unique requirements that generic invoicing software doesn't address. Lawyers need time-based billing with detailed descriptions, retainer management with balance tracking, and compliance-grade audit trails. Most invoicing tools treat these as afterthoughts — Invoicemonk builds them in from the start.",
+      "Every invoice Invoicemonk generates includes a cryptographic verification code and QR code. This means any client, auditor, or regulator can independently verify the authenticity of your billing documents — a level of transparency that builds trust and satisfies compliance requirements without extra work on your part.",
+      "For small firms, the team management features let associates and paralegals log time entries while partners retain control over invoicing and client relationships. Role-based access ensures everyone has the right level of visibility without compromising sensitive client information."
+    ]
+  },
+  "checklist": {
+    "title": "What lawyers get with Invoicemonk",
+    "items": [
+      "Time-based hourly billing",
+      "Retainer management",
+      "Matter-based tracking",
+      "Detailed billing statements",
+      "Automatic payment reminders",
+      "Expense tracking per case",
+      "Professional branding",
+      "Multi-currency support",
+      "Secure document storage",
+      "Tax-compliant records",
+      "Team member access controls",
+      "Cryptographic verification"
+    ]
+  },
+  "testimonials": {
+    "title": "Trusted by legal professionals",
+    "items": [
+      { "quote": "The time-based billing and retainer tracking have saved my practice countless hours. My corporate clients appreciate the detailed statements — and the QR verification code adds a layer of trust they hadn't seen from other lawyers.", "author": "Aisha M.", "role": "Corporate Lawyer" },
+      { "quote": "As a solo practitioner, I needed something simple yet professional. Invoicemonk delivers on both. I create invoices in two minutes and my clients pay faster because the automatic reminders handle the follow-up.", "author": "Emeka O.", "role": "Family Law Attorney" },
+      { "quote": "Managing billing for a small firm used to mean late nights with spreadsheets. Now each associate can log their hours, and I generate client invoices with all time entries in one click. The audit trail gives me peace of mind.", "author": "Chioma A.", "role": "Managing Partner, Litigation Firm" }
+    ]
+  },
+  "faqs": [
+    { "question": "Can Invoicemonk handle hourly billing for lawyers?", "answer": "Yes. Track billable hours per client and matter, then generate detailed invoices showing time entries, rates, and descriptions. Each line item can reflect a different rate — useful for partners, associates, and paralegals billing at different levels." },
+    { "question": "Does Invoicemonk support trust account billing?", "answer": "You can create invoices that reference trust account balances and track retainer drawdowns for compliance. Each invoice clearly shows the retainer balance before and after billing, maintaining the transparency regulators and clients expect." },
+    { "question": "Can I generate LEDES-format invoices?", "answer": "Invoicemonk produces detailed, itemized invoices suitable for corporate clients. The line-item detail level supports matter numbers, activity codes, and task descriptions. Contact us for specific LEDES-format export needs." },
+    { "question": "How does Invoicemonk help with compliance?", "answer": "All invoices include required tax information, are stored securely with immutable audit trails, and can be exported for audit purposes. Each invoice receives a cryptographic verification code and QR code that anyone — including auditors — can use to verify authenticity." },
+    { "question": "Is there a free plan for solo practitioners?", "answer": "Yes! Solo lawyers can start free with 5 invoices and 5 receipts per month. Upgrade as your practice grows for unlimited invoicing, team management, and detailed financial reports." },
+    { "question": "Can I track expenses per case or matter?", "answer": "Yes. Record expenses against specific clients and categorise them — filing fees, court costs, expert witnesses, travel. See your true profitability per matter by comparing fees billed against expenses incurred." },
+    { "question": "Does Invoicemonk generate receipts when clients pay?", "answer": "Every payment recorded automatically generates a professional receipt with a unique verification code and QR code. This is especially valuable for legal practices where proof of payment needs to be independently verifiable." }
+  ],
+  "relatedReading": {
+    "title": "Related reading",
+    "links": [
+      { "text": "Time Tracking & Invoicing", "href": "/blog/freelance-time-tracking-guide" },
+      { "text": "Payment Terms Guide", "href": "/blog/how-to-write-invoice-payment-terms" },
+      { "text": "Getting Paid Faster", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to modernize your legal billing?",
+    "description": "Join legal professionals who trust Invoicemonk for compliant, professional invoicing.",
+    "button": "Get Started Free"
+  }
+}
