@@ -97,6 +97,18 @@ import frPhotographers from './fr/photographers.json';
 import ptBRPhotographers from './pt-BR/photographers.json';
 import esPhotographers from './es/photographers.json';
 
+import enConsultants from './en/consultants.json';
+import deConsultants from './de/consultants.json';
+import frConsultants from './fr/consultants.json';
+import ptBRConsultants from './pt-BR/consultants.json';
+import esConsultants from './es/consultants.json';
+
+import enCreatives from './en/creatives.json';
+import deCreatives from './de/creatives.json';
+import frCreatives from './fr/creatives.json';
+import ptBRCreatives from './pt-BR/creatives.json';
+import esCreatives from './es/creatives.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
