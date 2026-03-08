@@ -109,6 +109,18 @@ import frCreatives from './fr/creatives.json';
 import ptBRCreatives from './pt-BR/creatives.json';
 import esCreatives from './es/creatives.json';
 
+import enContractors from './en/contractors.json';
+import deContractors from './de/contractors.json';
+import frContractors from './fr/contractors.json';
+import ptBRContractors from './pt-BR/contractors.json';
+import esContractors from './es/contractors.json';
+
+import enDeveloper from './en/developer.json';
+import deDeveloper from './de/developer.json';
+import frDeveloper from './fr/developer.json';
+import ptBRDeveloper from './pt-BR/developer.json';
+import esDeveloper from './es/developer.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
