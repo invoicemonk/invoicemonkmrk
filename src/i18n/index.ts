@@ -61,6 +61,12 @@ import frPayments from './fr/payments.json';
 import ptBRPayments from './pt-BR/payments.json';
 import esPayments from './es/payments.json';
 
+import enAccounting from './en/accounting.json';
+import deAccounting from './de/accounting.json';
+import frAccounting from './fr/accounting.json';
+import ptBRAccounting from './pt-BR/accounting.json';
+import esAccounting from './es/accounting.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
