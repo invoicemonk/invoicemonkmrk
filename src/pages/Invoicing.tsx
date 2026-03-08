@@ -15,117 +15,50 @@ import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { useTranslation } from 'react-i18next';
 
-const quickFeatures = [
-  {
-    icon: FileText,
-    title: 'Create quickly',
-    description: 'Build professional invoices in minutes with customizable templates.',
-  },
-  {
-    icon: Users,
-    title: 'Stay organized',
-    description: 'Keep all client information and invoice history in one place.',
-  },
-  {
-    icon: Clock,
-    title: 'Reduce bookkeeping',
-    description: 'Automatic tracking and reports save hours every month.',
-  },
-];
+const quickFeatureKeys = [
+  { key: 'createQuickly', icon: FileText },
+  { key: 'stayOrganized', icon: Users },
+  { key: 'reduceBookkeeping', icon: Clock },
+] as const;
 
-const bannerFeatures = [
-  'Send professional invoices in minutes',
-  'Get paid faster with payment links',
-  'Automatic overdue reminders',
-  'Complete audit trail for compliance',
-];
+const getPaidFasterKeys = [
+  { key: 'invoiceOnTheGo', icon: Smartphone },
+  { key: 'instantNotifications', icon: Bell },
+  { key: 'automaticReminders', icon: Zap },
+] as const;
 
-const tabbedFeatures = [
-  {
-    label: 'Customer Info',
-    title: 'Access your customer information in one place',
-    description: 'Keep all your client details, communication history, and payment preferences organized. No more searching through emails or spreadsheets — everything you need is at your fingertips.',
-  },
-  {
-    label: 'Track Payments',
-    title: 'Track payments and communications effortlessly',
-    description: 'See real-time status updates on every invoice. Know instantly when invoices are viewed, paid, or overdue. Follow up at the right time with full context.',
-  },
-  {
-    label: 'Recurring Billing',
-    title: 'Set up recurring billing for repeat customers',
-    description: 'Stop creating the same invoices every month. Set up automatic invoicing for retainer clients and subscription services — invoices go out on time, every time. Learn more in our <a href="/blog/recurring-invoices-automating-billing">guide to recurring invoices</a>.',
-  },
-];
-
-const getPaidFasterFeatures = [
-  {
-    icon: Smartphone,
-    title: 'Invoice on-the-go',
-    description: 'Create and send invoices from anywhere using our mobile-friendly platform.',
-  },
-  {
-    icon: Bell,
-    title: 'Get instant notifications',
-    description: 'Know the moment your client views or pays your invoice.',
-  },
-  {
-    icon: Zap,
-    title: 'Automatic reminders',
-    description: 'Set up smart reminder sequences that follow up on overdue invoices automatically.',
-  },
-];
-
-const complianceFeatures = [
-  'Immutable invoice records that cannot be altered after creation',
-  'Complete audit trail with timestamps and user identity',
-  'Hash-based integrity verification for every document',
-  'Regulatory-compliant storage and retention policies',
-  'Export-ready reports for auditors and regulators',
-  'Cryptographic proof of document authenticity',
-  'Digital signatures and cryptographic stamps (CSID) for every invoice',
-  'Unique Invoice Reference Numbers (IRN) for regulatory traceability',
-];
-
-const invoicingFAQs = [
-  {
-    question: 'Is Invoicemonk really free?',
-    answer: 'Yes! Our core invoicing features are completely free with no credit card required. You can send up to 5 invoices per month, track payments, and manage clients at no cost. Upgrade for unlimited invoicing. Premium features like advanced analytics and custom branding are available on paid plans.',
-  },
-  {
-    question: 'How do I get paid faster with Invoicemonk?',
-    answer: 'Invoicemonk helps you get paid faster through several features: payment links that let clients pay online instantly, automatic payment reminders for overdue invoices, and professional templates that build trust with your clients.',
-  },
-  {
-    question: 'Can I customize my invoices with my logo?',
-    answer: 'Absolutely! You can add your business logo and choose from multiple professional templates. Your invoices will look like they came from an established business.',
-  },
-  {
-    question: 'How does the audit trail feature work?',
-    answer: 'Every action on your invoices is automatically logged with timestamps and user information. This includes when invoices are created, sent, viewed by clients, and paid. All records are immutable and can be exported for auditors.',
-  },
-  {
-    question: 'Can I send invoices in different currencies?',
-    answer: 'Yes, Invoicemonk supports multi-currency invoicing. You can invoice clients in their preferred currency, and exchange rates are automatically updated for accurate conversions.',
-  },
-  {
-    question: 'What payment methods can my clients use?',
-    answer: 'When our payments feature launches, clients will be able to pay via credit card, debit card, bank transfer, and popular digital wallets. For now, you can include your payment details on invoices for manual payments.',
-  },
-  {
-    question: 'Does Invoicemonk support e-invoicing standards?',
-    answer: 'Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2, Peppol, NF-e, KRA TIMS, and other regional mandates. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance.',
-  },
-];
+const faqKeys = ['isFree', 'getPaidFaster', 'customizeLogo', 'auditTrail', 'multiCurrency', 'paymentMethods', 'eInvoicing'] as const;
 
 const Invoicing = () => {
   const { locale, formatCurrency } = useLocale();
   const { compliance } = locale.content;
+  const { t } = useTranslation('invoicing');
 
   const serviceAmount = locale.pricing.business * 50;
   const hostingAmount = locale.pricing.starter * 50;
   const totalAmount = serviceAmount + hostingAmount;
+
+  const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];
+  const complianceFeatures = t('compliance.features', { returnObjects: true }) as string[];
+
+  const tabbedFeatures = [
+    { label: t('tabbed.tabs.customerInfo.label'), title: t('tabbed.tabs.customerInfo.title'), description: t('tabbed.tabs.customerInfo.description') },
+    { label: t('tabbed.tabs.trackPayments.label'), title: t('tabbed.tabs.trackPayments.title'), description: t('tabbed.tabs.trackPayments.description') },
+    { label: t('tabbed.tabs.recurringBilling.label'), title: t('tabbed.tabs.recurringBilling.title'), description: t('tabbed.tabs.recurringBilling.description') + ' <a href="/blog/recurring-invoices-automating-billing">' + t('tabbed.tabs.recurringBilling.label') + '</a>.' },
+  ];
+
+  const getPaidFasterFeatures = getPaidFasterKeys.map(({ key, icon }) => ({
+    icon,
+    title: t(`getPaidFaster.${key}.title`),
+    description: t(`getPaidFaster.${key}.description`),
+  }));
+
+  const invoicingFAQs = faqKeys.map(key => ({
+    question: t(`faq.items.${key}.question`),
+    answer: t(`faq.items.${key}.answer`),
+  }));
 
   return (
     <Layout>
@@ -157,7 +90,7 @@ const Invoicing = () => {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-wave-green/10 text-wave-green mb-6"
               >
                 <Check className="w-4 h-4" />
-                <span className="text-body-sm font-medium">Available Now</span>
+                <span className="text-body-sm font-medium">{t('hero.badge')}</span>
               </motion.div>
 
               <motion.h1
@@ -166,8 +99,8 @@ const Invoicing = () => {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-display text-heading mb-6"
               >
-                Invoicing software that makes you{' '}
-                <span className="font-serif italic text-primary">look good</span>
+                {t('hero.title')}{' '}
+                <span className="font-serif italic text-primary">{t('hero.titleAccent')}</span>
               </motion.h1>
 
               <motion.p
@@ -176,8 +109,7 @@ const Invoicing = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="text-body-lg text-muted-foreground mb-8"
               >
-                Create beautiful invoices in seconds, automate payment reminders, and maintain 
-                complete audit trails. Professional invoicing that's ready for any audit.
+                {t('hero.description')}
               </motion.p>
 
               <motion.div
@@ -192,7 +124,7 @@ const Invoicing = () => {
                   className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
                 >
                   <a href="https://app.invoicemonk.com/signup">
-                    Start Invoicing Free
+                    {t('hero.primaryCta')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
                   </a>
                 </Button>
@@ -202,7 +134,7 @@ const Invoicing = () => {
                   size="lg"
                   className="rounded-full px-8 h-14 text-body border-border hover:bg-muted"
                 >
-                  <Link to="/pricing">View Invoicing Pricing Plans</Link>
+                  <Link to="/pricing">{t('hero.secondaryCta')}</Link>
                 </Button>
               </motion.div>
 
@@ -212,7 +144,7 @@ const Invoicing = () => {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="text-body-sm text-muted-foreground mt-6"
               >
-                Free to use • No credit card required • <Link to="/free-invoice-generator" className="text-primary hover:underline">Try the free invoice generator</Link>
+                {t('hero.trustText')} <Link to="/free-invoice-generator" className="text-primary hover:underline">{t('hero.tryFreeGenerator')}</Link>
               </motion.p>
             </div>
 
@@ -229,28 +161,28 @@ const Invoicing = () => {
                       <span className="text-primary-foreground font-bold text-sm">IM</span>
                     </div>
                     <div>
-                      <div className="text-body-sm font-medium text-heading">Invoice #1042</div>
-                      <div className="text-caption text-muted-foreground">Acme Corporation</div>
+                      <div className="text-body-sm font-medium text-heading">{t('invoicePreview.invoiceNumber')}</div>
+                      <div className="text-caption text-muted-foreground">{t('invoicePreview.client')}</div>
                     </div>
                   </div>
                   <span className="px-3 py-1 text-caption font-medium rounded-full bg-wave-green/10 text-wave-green">
-                    Paid
+                    {t('invoicePreview.paid')}
                   </span>
                 </div>
                 
                 <div className="space-y-3 mb-4 pb-4 border-b border-border">
                   <div className="flex justify-between text-body-sm">
-                    <span className="text-muted-foreground">Web Design Services</span>
+                    <span className="text-muted-foreground">{t('invoicePreview.webDesign')}</span>
                     <span className="text-foreground font-medium">{formatCurrency(serviceAmount)}</span>
                   </div>
                   <div className="flex justify-between text-body-sm">
-                    <span className="text-muted-foreground">Annual Hosting</span>
+                    <span className="text-muted-foreground">{t('invoicePreview.hosting')}</span>
                     <span className="text-foreground font-medium">{formatCurrency(hostingAmount)}</span>
                   </div>
                 </div>
                 
                 <div className="flex items-center justify-between">
-                  <span className="text-body-sm text-muted-foreground">Total</span>
+                  <span className="text-body-sm text-muted-foreground">{t('invoicePreview.total')}</span>
                   <span className="text-h3 font-bold text-heading">{formatCurrency(totalAmount)}</span>
                 </div>
               </div>
@@ -265,8 +197,8 @@ const Invoicing = () => {
                     <Check className="w-5 h-5 text-wave-green" />
                   </div>
                   <div>
-                    <p className="text-body-sm font-medium text-foreground">Payment received</p>
-                    <p className="text-caption text-muted-foreground">2 minutes ago</p>
+                    <p className="text-body-sm font-medium text-foreground">{t('invoicePreview.paymentReceived')}</p>
+                    <p className="text-caption text-muted-foreground">{t('invoicePreview.timeAgo')}</p>
                   </div>
                 </div>
               </motion.div>
@@ -277,7 +209,7 @@ const Invoicing = () => {
 
       {/* Feature Banner */}
       <WaveFeatureBanner 
-        title="Stop chasing clients around"
+        title={t('banner.title')}
         features={bannerFeatures}
       />
 
@@ -285,11 +217,10 @@ const Invoicing = () => {
       <section className="py-20 lg:py-32 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
-            {quickFeatures.map((feature) => {
-              const Icon = feature.icon;
-              
+            {quickFeatureKeys.map(({ key, icon }) => {
+              const Icon = icon;
               return (
-                <StaggerItem key={feature.title}>
+                <StaggerItem key={key}>
                   <motion.div
                     whileHover={{ y: -4 }}
                     className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
@@ -297,8 +228,8 @@ const Invoicing = () => {
                     <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
                       <Icon className="w-7 h-7 text-primary" />
                     </div>
-                    <h3 className="text-h4 text-heading mb-2">{feature.title}</h3>
-                    <p className="text-body text-muted-foreground">{feature.description}</p>
+                    <h3 className="text-h4 text-heading mb-2">{t(`quickFeatures.${key}.title`)}</h3>
+                    <p className="text-body text-muted-foreground">{t(`quickFeatures.${key}.description`)}</p>
                   </motion.div>
                 </StaggerItem>
               );
@@ -309,15 +240,15 @@ const Invoicing = () => {
 
       {/* Tabbed Feature Section */}
       <WaveTabbedFeature
-        title="Easily manage accounts receivable"
-        subtitle="Everything you need to track invoices, payments, and customer relationships in one place."
+        title={t('tabbed.title')}
+        subtitle={t('tabbed.subtitle')}
         tabs={tabbedFeatures}
       />
 
       {/* Get Paid Faster - Alternating Feature */}
       <WaveAlternatingFeature
-        title="Get paid faster"
-        subtitle="Speed up your cash flow with tools designed to get invoices paid on time."
+        title={t('getPaidFaster.title')}
+        subtitle={t('getPaidFaster.subtitle')}
         features={getPaidFasterFeatures}
         className="bg-card"
         imagePlaceholder={
@@ -328,24 +259,24 @@ const Invoicing = () => {
               </div>
               <div>
                 <p className="text-body-sm font-medium text-heading">Invoice #1043</p>
-                <p className="text-caption text-muted-foreground">Sent 2 hours ago</p>
+                <p className="text-caption text-muted-foreground">{t('getPaidFaster.timeline.sentAgo')}</p>
               </div>
             </div>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-body-sm">
                 <div className="w-2 h-2 rounded-full bg-wave-green" />
-                <span className="text-foreground">Invoice sent</span>
+                <span className="text-foreground">{t('getPaidFaster.timeline.invoiceSent')}</span>
                 <span className="text-muted-foreground ml-auto">10:32 AM</span>
               </div>
               <div className="flex items-center gap-3 text-body-sm">
                 <div className="w-2 h-2 rounded-full bg-wave-green" />
-                <span className="text-foreground">Viewed by client</span>
+                <span className="text-foreground">{t('getPaidFaster.timeline.viewedByClient')}</span>
                 <span className="text-muted-foreground ml-auto">11:15 AM</span>
               </div>
               <div className="flex items-center gap-3 text-body-sm">
                 <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="text-foreground">Awaiting payment</span>
-                <span className="text-muted-foreground ml-auto">Now</span>
+                <span className="text-foreground">{t('getPaidFaster.timeline.awaitingPayment')}</span>
+                <span className="text-muted-foreground ml-auto">{t('getPaidFaster.timeline.now')}</span>
               </div>
             </div>
           </div>
@@ -359,22 +290,22 @@ const Invoicing = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <AnimatedSection>
                 <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
-                  Compliance-Aware
+                  {t('compliance.badge')}
                 </span>
                 <h2 className="text-h2 text-heading mb-6">
-                  Audit-ready from{' '}
-                  <span className="font-serif italic text-primary">day one</span>
+                  {t('compliance.title')}{' '}
+                  <span className="font-serif italic text-primary">{t('compliance.titleAccent')}</span>
                 </h2>
                 <p className="text-body-lg text-muted-foreground mb-8">
-                  Every invoice you create is automatically protected with immutable records and 
-                  complete audit trails. Be confident your invoicing meets any regulatory requirement.
-                  Need to fix a billing error? See our guide on <Link to="/blog/credit-notes-and-invoice-corrections" className="text-primary hover:underline">credit notes and invoice corrections</Link>.
+                  {t('compliance.description')}{' '}
+                  {t('compliance.creditNotesPrefix')}{' '}
+                  <Link to="/blog/credit-notes-and-invoice-corrections" className="text-primary hover:underline">{t('compliance.creditNotesLink')}</Link>.
                 </p>
                 
                 <ul className="space-y-4">
                   {complianceFeatures.map((feature, index) => (
                     <motion.li
-                      key={feature}
+                      key={index}
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ delay: index * 0.1 }}
@@ -396,17 +327,17 @@ const Invoicing = () => {
                     <div className="flex items-center gap-3 mb-6">
                       <Shield className="w-8 h-8 text-primary" />
                       <div>
-                        <h4 className="text-body font-semibold text-heading">Audit Trail</h4>
-                        <p className="text-body-sm text-muted-foreground">Invoice #1042</p>
+                        <h4 className="text-body font-semibold text-heading">{t('compliance.auditTrail')}</h4>
+                        <p className="text-body-sm text-muted-foreground">{t('invoicePreview.invoiceNumber')}</p>
                       </div>
                     </div>
                     
                     <div className="space-y-4">
                       {[
-                        { action: 'Invoice created', time: 'Jan 15, 2024 9:32 AM', user: 'John D.' },
-                        { action: 'Sent to client', time: 'Jan 15, 2024 9:33 AM', user: 'System' },
-                        { action: 'Viewed by client', time: 'Jan 15, 2024 2:15 PM', user: 'Client' },
-                        { action: 'Payment received', time: 'Jan 17, 2024 10:42 AM', user: 'System' },
+                        { action: t('compliance.logs.created'), time: 'Jan 15, 2024 9:32 AM', user: 'John D.' },
+                        { action: t('compliance.logs.sent'), time: 'Jan 15, 2024 9:33 AM', user: 'System' },
+                        { action: t('compliance.logs.viewed'), time: 'Jan 15, 2024 2:15 PM', user: 'Client' },
+                        { action: t('compliance.logs.paid'), time: 'Jan 17, 2024 10:42 AM', user: 'System' },
                       ].map((log, index) => (
                         <div key={index} className="flex items-start gap-3 text-body-sm">
                           <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
@@ -433,11 +364,11 @@ const Invoicing = () => {
 
       {/* Featured Testimonial */}
       <WaveFeaturedTestimonial
-        quote="Invoicemonk transformed how I handle invoicing. I used to spend hours every week chasing payments — now it's completely automated."
+        quote={t('testimonial.quote')}
         author={{
-          name: "Chidi Okonkwo",
-          title: "Founder",
-          company: "TechBridge Solutions"
+          name: t('testimonial.name'),
+          title: t('testimonial.title'),
+          company: t('testimonial.company')
         }}
         rating={5}
         variant="primary"
@@ -445,15 +376,15 @@ const Invoicing = () => {
 
       {/* Blog Preview */}
       <WaveBlogPreview
-        title="Learn more about invoicing"
-        subtitle="Tips and best practices to help you get paid faster."
+        title={t('blog.title')}
+        subtitle={t('blog.subtitle')}
         pillarId="invoicing-mastery"
       />
 
       {/* FAQ Section */}
       <WaveProductFAQ
-        title="Invoicing questions, answered"
-        subtitle="Everything you need to know about Invoicemonk invoicing."
+        title={t('faq.title')}
+        subtitle={t('faq.subtitle')}
         faqs={invoicingFAQs}
       />
 
