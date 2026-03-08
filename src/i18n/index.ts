@@ -55,6 +55,12 @@ import frContact from './fr/contact.json';
 import ptBRContact from './pt-BR/contact.json';
 import esContact from './es/contact.json';
 
+import enPayments from './en/payments.json';
+import dePayments from './de/payments.json';
+import frPayments from './fr/payments.json';
+import ptBRPayments from './pt-BR/payments.json';
+import esPayments from './es/payments.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
