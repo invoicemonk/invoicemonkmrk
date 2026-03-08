@@ -1,0 +1,116 @@
+{
+  "globalCompliance": {
+    "eyebrow": "Warum generische Rechnungsstellung versagt",
+    "eyebrowSub": "Die meisten Rechnungstools sind generisch. Compliance nicht.",
+    "heading": "Entwickelt für länderübergreifende",
+    "headingAccent": "Compliance",
+    "features": [
+      "30+ unterstützte Rechtsordnungen",
+      "Länderspezifische Steuerbezeichnungen (USt, GST, IVA usw.)",
+      "Versionierte Steuerschemata",
+      "Unveränderlicher Audit-Trail",
+      "Snapshot-basierte Rechnungsintegrität",
+      "Aufbewahrungssperre & Verifizierungs-IDs",
+      "E-Invoicing-Compliance (ZATCA Phase 2, Peppol)",
+      "Digitale Signaturen & kryptografische Stempel (CSID)"
+    ],
+    "footerBold": "Ihre Rechnungen passen sich automatisch an Ihr Land an.",
+    "footerSub": "Keine generischen Vorlagen. Kein Rätselraten bei Steuerfeldern.",
+    "feeCalcLink": "Sehen Sie unseren internationalen Gebührenrechner →",
+    "invoicePreview": "Rechnungsvorschau",
+    "taxLabel": "Steuerbezeichnung",
+    "currency": "Währung",
+    "compliance": "Compliance"
+  },
+  "positioning": {
+    "heading": "Entwickelt für alle, die",
+    "headingAccent": "Rechnungen stellen",
+    "subtitle": "Von Freiberuflern bis Agenturen, Beratern bis Auftragnehmern — Invoicemonk hilft Ihnen, konforme Rechnungen zu erstellen und schneller bezahlt zu werden.",
+    "features": [
+      "Mehrwährungs-Rechnungen ohne Wechselkursverzerrung",
+      "Saubere, professionelle PDF-Rechnungen",
+      "Steuerkonform in mehreren Ländern",
+      "Umsatzverfolgung nach Kunde & Zeitraum",
+      "Automatische Zahlungserinnerungen"
+    ],
+    "footer": "Vertraut von Freiberuflern, Beratern, Agenturen und kleinen Unternehmen weltweit."
+  },
+  "trust": {
+    "heading": "Compliance, die Sie",
+    "headingAccent": "beweisen können.",
+    "items": [
+      { "label": "Unveränderliche Rechnungsdaten", "description": "Einmal erstellt, können Rechnungen nicht stillschweigend geändert werden." },
+      { "label": "Snapshot-basierte PDF-Erstellung", "description": "Jedes PDF erfasst den exakten Stand zum Zeitpunkt der Ausstellung." },
+      { "label": "Versionierte Steuerschemata", "description": "Steuerstrukturen werden bei Änderungen der Vorschriften aktualisiert." },
+      { "label": "Audit-Trail-Zugang", "description": "Vollständiger Änderungsverlauf im Pro-Plan verfügbar." },
+      { "label": "Öffentliche Verifizierungslinks", "description": "Kunden können die Rechnungsauthentizität unabhängig überprüfen." },
+      { "label": "E-Invoicing-bereit", "description": "Unterstützt ZATCA, Peppol und regionale E-Invoicing-Mandate." },
+      { "label": "Rechnungsreferenznummern", "description": "Einzigartige IRN-Generierung für regulatorische Nachverfolgbarkeit." },
+      { "label": "Digitale Signaturen & CSID", "description": "Kryptografische Stempel verifizieren die Dokumentenauthentizität." }
+    ]
+  },
+  "benefits": {
+    "heading": "Verbringen Sie mehr Zeit mit",
+    "headingAccent": "dem, was Sie lieben",
+    "subtitle": "Invoicemonk kümmert sich um die Details, damit Sie sich auf Ihr Handwerk konzentrieren können.",
+    "items": [
+      { "title": "Atmen Sie erleichtert auf", "description": "Hören Sie auf, sich wegen Zahlungen zu stressen. Mit automatischen Erinnerungen und Zahlungsverfolgung verbringen Sie weniger Zeit mit dem Hinterherjagen von Rechnungen." },
+      { "title": "Professionell auftreten, selbstbewusst fühlen", "description": "Versenden Sie elegante Rechnungen, die einen großartigen Eindruck hinterlassen. Anpassbare Vorlagen mit Ihrem Branding helfen Ihnen, sich abzuheben." },
+      { "title": "Konform bleiben, vorbereitet sein", "description": "Jede Transaktion wird mit unveränderlichen Aufzeichnungen und vollständigen Audit-Trails protokolliert. Wenn Prüfer kommen, sind Sie bereits vorbereitet." }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen zu",
+    "headingAccent": "vereinfachen?",
+    "subtitle": "Schließen Sie sich Unternehmen weltweit an, die konforme, länderspezifische Finanzunterlagen erstellen.",
+    "button": "Konforme Rechnungsstellung starten",
+    "badges": ["Keine Kreditkarte erforderlich", "Für immer kostenlos", "Jederzeit kündbar"]
+  },
+  "products": {
+    "heading": "Noch mehr Gründe,",
+    "subtitle": "Alles, was Sie brauchen, um Ihre Geschäftsfinanzen zu verwalten — von der Rechnungsstellung bis zur Buchhaltung.",
+    "soon": "Bald",
+    "available": "Verfügbar",
+    "comingSoon": "Demnächst",
+    "freeToStart": "Kostenlos starten!",
+    "startFree": "Kostenlos starten",
+    "joinWaitlist": "Auf Warteliste",
+    "learnMore": "Mehr über {{name}} erfahren",
+    "items": [
+      { "name": "Rechnungsstellung", "title": "Pünktlich bezahlt werden, jedes Mal", "description": "Erstellen Sie professionelle Rechnungen in Minuten. Senden Sie sie sofort, verfolgen Sie Zahlungen und automatisieren Sie Erinnerungen.", "features": ["Anpassbare Vorlagen", "Automatische Erinnerungen", "Zahlungsverfolgung", "Mehrwährung"] },
+      { "name": "Zahlungen", "title": "Zahlungen so akzeptieren, wie Sie möchten", "description": "Lassen Sie Kunden direkt von Rechnungen mit Kreditkarten, Banküberweisungen oder digitalen Wallets bezahlen.", "features": ["Kreditkartenverarbeitung", "Banküberweisungen", "Zahlungspläne", "Auto-Abstimmung"] },
+      { "name": "Ausgaben", "title": "Jede Ausgabe mühelos verfolgen", "description": "Erfassen Sie Belege, kategorisieren Sie Ausgaben automatisch und wissen Sie immer, wohin Ihr Geld fließt.", "features": ["Beleg-Scanning", "Auto-Kategorisierung", "Steuerkategorien", "Ausgabenberichte"] },
+      { "name": "Buchhaltung", "title": "Buchhaltung ohne Stress", "description": "Verfolgen Sie Einnahmen und Ausgaben, erstellen Sie Finanzberichte und behalten Sie Ihre Geschäftsfinanzen im Blick.", "features": ["Doppelte Buchführung", "Finanzberichte", "Steuervorbereitung", "Bankverbindungen"] },
+      { "name": "Kunden", "title": "Kunden mühelos verwalten", "description": "Organisieren Sie alle Kundeninformationen an einem Ort. Verfolgen Sie Kontaktdaten, Zahlungsverlauf und offene Salden auf einen Blick.", "features": ["Kontaktverwaltung", "Zahlungsverlauf", "Kundennotizen", "Schnelle Rechnungsstellung"] },
+      { "name": "Angebote", "title": "Mehr Aufträge mit Angeboten gewinnen", "description": "Erstellen Sie professionelle Kostenvoranschläge, die überzeugen. Bei Genehmigung wandeln Sie sie mit einem Klick in Rechnungen um.", "features": ["Professionelle Vorlagen", "Ein-Klick-Umwandlung", "Genehmigungsverfolgung", "Eigenes Branding"] },
+      { "name": "Belege", "title": "Nie wieder einen Beleg verlieren", "description": "Fotografieren Sie Belege und lassen Sie uns den Rest erledigen. Automatische Datenextraktion und Organisation für stressfreie Buchführung.", "features": ["Foto-Erfassung", "Auto-Extraktion", "Cloud-Speicher", "Suchen & Filtern"] }
+    ]
+  },
+  "personas": {
+    "heading": "Entwickelt für Kleinunternehmer",
+    "headingAccent": "wie Sie",
+    "subtitle": "Ob Sie gerade starten oder skalieren — Invoicemonk hat die Tools, die Sie brauchen.",
+    "items": [
+      { "title": "Freiberufler", "description": "Rechnungen an Kunden stellen, Ausgaben verfolgen und schneller bezahlt werden — alles an einem Ort." },
+      { "title": "Berater", "description": "Professionelle Rechnungsstellung mit Compliance-Funktionen, die Ihre Unternehmenskunden erwarten." },
+      { "title": "Kleine Unternehmen", "description": "Wachsen Sie vom Ein-Personen-Betrieb zum vollen Team mit Tools, die mit Ihnen skalieren." },
+      { "title": "Auftragnehmer", "description": "Verwalten Sie mehrere Kunden, verfolgen Sie Projektausgaben und bleiben Sie organisiert." }
+    ]
+  },
+  "blog": {
+    "heading": "Aus dem",
+    "headingAccent": "Blog",
+    "subtitle": "Tipps, Anleitungen und Einblicke, die Ihnen helfen, Ihr Unternehmen besser zu führen.",
+    "viewAll": "Alle Blogbeiträge anzeigen"
+  },
+  "faq": {
+    "heading": "Häufig gestellte",
+    "headingAccent": "Fragen",
+    "subtitle": "Alles, was Sie über Invoicemonk wissen müssen. Finden Sie nicht, was Sie suchen? Kontaktieren Sie unser Support-Team."
+  },
+  "testimonials": {
+    "label": "Kundenstimmen",
+    "heading": "Geliebt von",
+    "headingSuffix": "Unternehmen"
+  }
+}

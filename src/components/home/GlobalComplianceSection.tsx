@@ -3,17 +3,9 @@ import { Check, Globe, Shield, FileCheck, Lock, Hash, Archive } from 'lucide-rea
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/components/LocalizedLink';
+import { useTranslation } from 'react-i18next';
 
-const features = [
-  { icon: Globe, label: '30+ supported jurisdictions' },
-  { icon: FileCheck, label: 'Country-aware tax labels (VAT, GST, IVA, etc.)' },
-  { icon: Hash, label: 'Tax schema versioning' },
-  { icon: Shield, label: 'Immutable audit trail' },
-  { icon: Lock, label: 'Snapshot-based invoice integrity' },
-  { icon: Archive, label: 'Retention locking & verification IDs' },
-  { icon: FileCheck, label: 'E-invoicing compliance (ZATCA Phase 2, Peppol)' },
-  { icon: Lock, label: 'Digital signatures & cryptographic stamps (CSID)' },
-];
+const featureIcons = [Globe, FileCheck, Hash, Shield, Lock, Archive, FileCheck, Lock];
 
 const countries = [
   { name: 'United Kingdom', flag: '🇬🇧', taxLabel: 'VAT', currency: 'GBP (£)', badge: 'HMRC-Aware' },
@@ -24,63 +16,63 @@ const countries = [
 ];
 
 export function GlobalComplianceSection() {
+  const { t } = useTranslation('home');
   const [selectedIndex, setSelectedIndex] = useState(0);
   const selected = countries[selectedIndex];
+  const features = t('globalCompliance.features', { returnObjects: true }) as string[];
 
   return (
     <section id="compliance" className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Eyebrow */}
         <AnimatedSection className="text-center mb-12">
           <p className="text-caption uppercase tracking-widest font-semibold text-muted-foreground mb-3">
-            Why Generic Invoicing Fails
+            {t('globalCompliance.eyebrow')}
           </p>
           <p className="text-body text-muted-foreground mb-4">
-            Most invoicing tools are generic. Compliance isn't.
+            {t('globalCompliance.eyebrowSub')}
           </p>
           <h2 className="text-h1 lg:text-display text-heading">
-            Built for Multi-Country{' '}
-            <span className="font-serif italic text-primary">Compliance</span>
+            {t('globalCompliance.heading')}{' '}
+            <span className="font-serif italic text-primary">{t('globalCompliance.headingAccent')}</span>
           </h2>
         </AnimatedSection>
 
-        {/* Two-column layout */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start mt-12">
-          {/* Left: Features */}
           <AnimatedSection delay={0.1}>
             <ul className="space-y-5">
-              {features.map(({ icon: Icon, label }) => (
-                <li key={label} className="flex items-start gap-3">
-                  <div className="mt-0.5 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <Check className="w-3.5 h-3.5 text-primary" />
-                  </div>
-                  <span className="text-body text-foreground">{label}</span>
-                </li>
-              ))}
+              {features.map((label, i) => {
+                const Icon = featureIcons[i] || Check;
+                return (
+                  <li key={i} className="flex items-start gap-3">
+                    <div className="mt-0.5 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Check className="w-3.5 h-3.5 text-primary" />
+                    </div>
+                    <span className="text-body text-foreground">{label}</span>
+                  </li>
+                );
+              })}
             </ul>
             <p className="mt-8 text-body-lg font-medium text-heading">
-              Your invoices adapt to your country — automatically.
+              {t('globalCompliance.footerBold')}
               <br />
               <span className="text-muted-foreground font-normal">
-                No generic templates. No guessing tax fields.
+                {t('globalCompliance.footerSub')}
               </span>
             </p>
             <Link
               to="/international-payment-fee-calculator"
               className="inline-block mt-4 text-body-sm text-primary hover:underline"
             >
-              See our international fee calculator →
+              {t('globalCompliance.feeCalcLink')}
             </Link>
           </AnimatedSection>
 
-          {/* Right: Interactive card */}
           <AnimatedSection delay={0.2}>
             <div className="bg-card rounded-2xl border border-border shadow-soft-lg p-6 lg:p-8">
               <p className="text-caption uppercase tracking-wide font-semibold text-muted-foreground mb-4">
-                Invoice Preview
+                {t('globalCompliance.invoicePreview')}
               </p>
 
-              {/* Country selector */}
               <div className="flex flex-wrap gap-2 mb-6">
                 {countries.map((c, i) => (
                   <button
@@ -97,7 +89,6 @@ export function GlobalComplianceSection() {
                 ))}
               </div>
 
-              {/* Preview card */}
               <AnimatePresence mode="wait">
                 <motion.div
                   key={selected.name}
@@ -108,17 +99,17 @@ export function GlobalComplianceSection() {
                   className="bg-muted/50 rounded-xl p-5 space-y-4"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="text-body-sm text-muted-foreground">Tax Label</span>
+                    <span className="text-body-sm text-muted-foreground">{t('globalCompliance.taxLabel')}</span>
                     <span className="text-body font-semibold text-heading">{selected.taxLabel}</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-body-sm text-muted-foreground">Currency</span>
+                    <span className="text-body-sm text-muted-foreground">{t('globalCompliance.currency')}</span>
                     <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-body-sm font-medium">
                       {selected.currency}
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-body-sm text-muted-foreground">Compliance</span>
+                    <span className="text-body-sm text-muted-foreground">{t('globalCompliance.compliance')}</span>
                     <span className="flex items-center gap-1.5 text-body-sm font-medium text-primary">
                       <Shield className="w-4 h-4" />
                       {selected.badge}
@@ -130,13 +121,12 @@ export function GlobalComplianceSection() {
           </AnimatedSection>
         </div>
 
-        {/* Microcopy footer */}
         <AnimatedSection delay={0.3} className="mt-12 text-center space-y-1">
           <p className="text-caption text-muted-foreground">
-            Tax enforcement varies by jurisdiction. Invoicemonk adapts labels and structure based on your selected country.
+            {t('globalCompliance.footerBold')}
           </p>
           <p className="text-caption text-muted-foreground">
-            Field labels and structure adapt automatically. Tax rate configuration remains user-controlled.
+            {t('globalCompliance.footerSub')}
           </p>
         </AnimatedSection>
       </div>

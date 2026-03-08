@@ -1,0 +1,116 @@
+{
+  "globalCompliance": {
+    "eyebrow": "Why Generic Invoicing Fails",
+    "eyebrowSub": "Most invoicing tools are generic. Compliance isn't.",
+    "heading": "Built for Multi-Country",
+    "headingAccent": "Compliance",
+    "features": [
+      "30+ supported jurisdictions",
+      "Country-aware tax labels (VAT, GST, IVA, etc.)",
+      "Tax schema versioning",
+      "Immutable audit trail",
+      "Snapshot-based invoice integrity",
+      "Retention locking & verification IDs",
+      "E-invoicing compliance (ZATCA Phase 2, Peppol)",
+      "Digital signatures & cryptographic stamps (CSID)"
+    ],
+    "footerBold": "Your invoices adapt to your country — automatically.",
+    "footerSub": "No generic templates. No guessing tax fields.",
+    "feeCalcLink": "See our international fee calculator →",
+    "invoicePreview": "Invoice Preview",
+    "taxLabel": "Tax Label",
+    "currency": "Currency",
+    "compliance": "Compliance"
+  },
+  "positioning": {
+    "heading": "Built for Everyone Who",
+    "headingAccent": "Invoices",
+    "subtitle": "From freelancers to agencies, consultants to contractors — Invoicemonk helps you create compliant invoices and get paid faster.",
+    "features": [
+      "Multi-currency invoicing with no FX distortion",
+      "Clean, professional PDF invoices",
+      "Tax-compliant across multiple countries",
+      "Revenue tracking by client & period",
+      "Automated payment reminders"
+    ],
+    "footer": "Trusted by freelancers, consultants, agencies, and small businesses worldwide."
+  },
+  "trust": {
+    "heading": "Compliance You Can",
+    "headingAccent": "Prove.",
+    "items": [
+      { "label": "Immutable Invoice Records", "description": "Once generated, invoices cannot be silently altered." },
+      { "label": "Snapshot-Based PDF Generation", "description": "Every PDF captures the exact state at time of issue." },
+      { "label": "Versioned Tax Schemas", "description": "Tax structures update as regulations evolve." },
+      { "label": "Audit Trail Access", "description": "Full change history available on Pro plan." },
+      { "label": "Public Verification Links", "description": "Clients can verify invoice authenticity independently." },
+      { "label": "E-Invoicing Ready", "description": "Supports ZATCA, Peppol, and regional e-invoicing mandates." },
+      { "label": "Invoice Reference Numbers", "description": "Unique IRN generation for regulatory traceability." },
+      { "label": "Digital Signatures & CSID", "description": "Cryptographic stamps verify document authenticity." }
+    ]
+  },
+  "benefits": {
+    "heading": "Spend more time on",
+    "headingAccent": "what you love",
+    "subtitle": "Invoicemonk handles the details so you can focus on your craft.",
+    "items": [
+      { "title": "Breathe that sigh of relief", "description": "Stop stressing about getting paid. With automated reminders and payment tracking, you'll spend less time chasing invoices and more time doing what you love." },
+      { "title": "Look professional, feel confident", "description": "Send polished invoices that make a great impression. Customizable templates with your branding help you stand out and build trust with every client." },
+      { "title": "Stay compliant, stay ready", "description": "Every transaction is logged with immutable records and complete audit trails. When regulators or auditors come calling, you're already prepared." }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to simplify",
+    "headingAccent": "your finances?",
+    "subtitle": "Join businesses worldwide building compliant, country-aware financial records.",
+    "button": "Start Compliant Invoicing",
+    "badges": ["No credit card required", "Free forever plan", "Cancel anytime"]
+  },
+  "products": {
+    "heading": "More reasons to love",
+    "subtitle": "Everything you need to manage your business finances, from invoicing to accounting.",
+    "soon": "Soon",
+    "available": "Available",
+    "comingSoon": "Coming Soon",
+    "freeToStart": "Free to start!",
+    "startFree": "Start Free",
+    "joinWaitlist": "Join Waitlist",
+    "learnMore": "Learn more about {{name}}",
+    "items": [
+      { "name": "Invoicing", "title": "Get paid on time, every time", "description": "Create professional invoices in minutes. Send them instantly, track payments, and automate reminders so you never have to chase clients again.", "features": ["Customizable templates", "Automatic reminders", "Payment tracking", "Multi-currency"] },
+      { "name": "Payments", "title": "Accept payments your way", "description": "Let clients pay directly from invoices with credit cards, bank transfers, or digital wallets. Money lands in your account faster.", "features": ["Credit card processing", "Bank transfers", "Payment plans", "Auto-reconciliation"] },
+      { "name": "Expenses", "title": "Track every expense with ease", "description": "Capture receipts, categorize spending automatically, and always know where your money goes. Tax time becomes a breeze.", "features": ["Receipt scanning", "Auto-categorization", "Tax categories", "Expense reports"] },
+      { "name": "Accounting", "title": "No sweat accounting", "description": "Track income and expenses, pull financial reports, and stay on top of your business finances without the accounting degree.", "features": ["Double-entry bookkeeping", "Financial reports", "Tax preparation", "Bank connections"] },
+      { "name": "Clients", "title": "Manage clients effortlessly", "description": "Keep all your client information organized in one place. Track contact details, payment history, and outstanding balances at a glance.", "features": ["Contact management", "Payment history", "Client notes", "Quick invoicing"] },
+      { "name": "Estimates", "title": "Win more business with quotes", "description": "Create professional estimates and quotes that convert. When approved, turn them into invoices with a single click.", "features": ["Professional templates", "One-click conversion", "Approval tracking", "Custom branding"] },
+      { "name": "Receipts", "title": "Never lose a receipt again", "description": "Snap photos of receipts and let us handle the rest. Automatic data extraction and organization for stress-free bookkeeping.", "features": ["Photo capture", "Auto-extraction", "Cloud storage", "Search & filter"] }
+    ]
+  },
+  "personas": {
+    "heading": "Built for small business owners",
+    "headingAccent": "like you",
+    "subtitle": "Whether you're just starting out or scaling up, Invoicemonk has the tools you need.",
+    "items": [
+      { "title": "Freelancers", "description": "Invoice clients, track expenses, and get paid faster — all in one place." },
+      { "title": "Consultants", "description": "Professional invoicing with compliance features your enterprise clients expect." },
+      { "title": "Small Businesses", "description": "Grow from one-person shop to full team with tools that scale with you." },
+      { "title": "Contractors", "description": "Manage multiple clients, track project expenses, and stay organized." }
+    ]
+  },
+  "blog": {
+    "heading": "From the",
+    "headingAccent": "Blog",
+    "subtitle": "Tips, guides, and insights to help you run your business better.",
+    "viewAll": "View all blog posts"
+  },
+  "faq": {
+    "heading": "Frequently Asked",
+    "headingAccent": "Questions",
+    "subtitle": "Everything you need to know about Invoicemonk. Can't find what you're looking for? Contact our support team."
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "heading": "Loved by",
+    "headingSuffix": "businesses"
+  }
+}

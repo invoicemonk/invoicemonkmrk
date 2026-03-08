@@ -7,10 +7,12 @@ import {
 } from '@/components/ui/accordion';
 import { homepageFAQs } from '@/data/homepageFAQs';
 import { useLocale } from '@/hooks/useLocale';
+import { useTranslation } from 'react-i18next';
 import { useMemo } from 'react';
 
 export function FAQSection() {
   const { locale } = useLocale();
+  const { t } = useTranslation('home');
 
   const allFaqs = useMemo(() => {
     return [...homepageFAQs, ...locale.content.faqs];
@@ -24,11 +26,11 @@ export function FAQSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
           <h2 className="text-h2 text-heading mb-4">
-            Frequently Asked{' '}
-            <span className="font-serif italic text-primary">Questions</span>
+            {t('faq.heading')}{' '}
+            <span className="font-serif italic text-primary">{t('faq.headingAccent')}</span>
           </h2>
           <p className="text-body-lg text-muted-foreground">
-            Everything you need to know about Invoicemonk. Can't find what you're looking for? Contact our support team.
+            {t('faq.subtitle')}
           </p>
         </AnimatedSection>
 
