@@ -6,7 +6,8 @@ const trustIcons = [Lock, FileCheck, Layers, ClipboardList, ExternalLink, FileDi
 
 export function ComplianceTrustSection() {
   const { t } = useTranslation('home');
-  const items = t('trust.items', { returnObjects: true }) as { label: string; description: string }[];
+  const itemsRaw = t('trust.items', { returnObjects: true });
+  const items = Array.isArray(itemsRaw) ? itemsRaw : [];
 
   return (
     <section className="py-20 lg:py-28 bg-background">

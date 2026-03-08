@@ -6,7 +6,8 @@ const featureIcons = [Globe, FileText, Shield, BarChart3, Bell];
 
 export function CompliancePositioningSection() {
   const { t } = useTranslation('home');
-  const features = t('positioning.features', { returnObjects: true }) as string[];
+  const featuresRaw = t('positioning.features', { returnObjects: true });
+  const features = Array.isArray(featuresRaw) ? featuresRaw : [];
 
   return (
     <section className="py-20 lg:py-28 bg-primary-soft">

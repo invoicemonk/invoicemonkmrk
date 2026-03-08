@@ -17,7 +17,8 @@ const personaMeta = [
 
 export function WavePersonaSection() {
   const { t } = useTranslation('home');
-  const items = t('personas.items', { returnObjects: true }) as { title: string; description: string }[];
+  const itemsRaw = t('personas.items', { returnObjects: true });
+  const items = Array.isArray(itemsRaw) ? itemsRaw : [];
 
   return (
     <section className="py-20 lg:py-32 bg-primary text-primary-foreground">

@@ -11,7 +11,8 @@ const reverseFlags = [false, true, false];
 
 export function WaveFeatureBenefits() {
   const { t } = useTranslation('home');
-  const items = t('benefits.items', { returnObjects: true }) as { title: string; description: string }[];
+  const itemsRaw = t('benefits.items', { returnObjects: true });
+  const items = Array.isArray(itemsRaw) ? itemsRaw : [];
 
   return (
     <section className="py-20 lg:py-32 bg-primary-soft">
