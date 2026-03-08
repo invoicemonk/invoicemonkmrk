@@ -21,9 +21,7 @@ export function WaveProductTabs() {
   const [activeTab, setActiveTab] = useState('invoicing');
 
   const translatedItemsRaw = t('products.items', { returnObjects: true });
-  const translatedItems = Array.isArray(translatedItemsRaw) ? translatedItemsRaw : [];
-    name: string; title: string; description: string; features: string[];
-  }[];
+  const translatedItems = Array.isArray(translatedItemsRaw) ? translatedItemsRaw as { name: string; title: string; description: string; features: string[] }[] : [];
 
   const products = useMemo(() =>
     productMeta.map((meta, i) => ({ ...meta, ...translatedItems[i] })),
