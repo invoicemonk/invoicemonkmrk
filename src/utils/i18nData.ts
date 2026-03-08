@@ -64,16 +64,32 @@ export function registerPillars(lang: string, data: Pillar[]) {
 
 // ── Data access functions (used by page components) ─────────────────────
 
-/** Get all blog posts for a language, falling back to English */
+/** Get all blog posts for a language, merging partial translations with English fallback */
 export function getTranslatedBlogPosts(lang: string): BlogPost[] {
   if (lang === 'en') return enBlogPosts;
-  return blogPostRegistry[lang] ?? enBlogPosts;
+  const translated = blogPostRegistry[lang];
+  if (!translated) return enBlogPosts;
+  // If the translated set is smaller than English, it's a partial translation — merge
+  if (translated.length < enBlogPosts.length) {
+    const translatedSlugs = new Set(translated.map(p => p.slug));
+    const merged = enBlogPosts.map(enPost =>
+      translatedSlugs.has(enPost.slug)
+        ? translated.find(p => p.slug === enPost.slug)!
+        : enPost
+    );
+    return merged;
+  }
+  return translated;
 }
 
 /** Get a single blog post by slug for a language */
 export function getBlogPostBySlugTranslated(slug: string, lang: string): BlogPost | undefined {
-  const posts = getTranslatedBlogPosts(lang);
-  return posts.find(p => p.slug === slug);
+  if (lang !== 'en') {
+    const translated = blogPostRegistry[lang];
+    const found = translated?.find(p => p.slug === slug);
+    if (found) return found;
+  }
+  return enBlogPosts.find(p => p.slug === slug);
 }
 
 /** Get all help guides for a language, falling back to English */
