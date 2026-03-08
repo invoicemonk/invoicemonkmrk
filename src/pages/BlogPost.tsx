@@ -88,13 +88,13 @@ const BlogPost = () => {
   const ogImageUrl = `https://invoicemonk.com${post.featuredImage}`;
 
   const breadcrumbs = [
-    { name: 'Home', url: 'https://invoicemonk.com' },
-    { name: 'Blog', url: 'https://invoicemonk.com/blog' },
+    { name: 'Home', url: '/' },
+    { name: 'Blog', url: '/blog' },
     ...(pillar 
-      ? [{ name: pillar.title, url: `https://invoicemonk.com/blog/topic/${pillar.id}` }]
-      : [{ name: post.category, url: `https://invoicemonk.com/blog?category=${encodeURIComponent(post.category)}` }]
+      ? [{ name: pillar.title, url: `/blog/topic/${pillar.id}` }]
+      : [{ name: post.category, url: `/blog?category=${encodeURIComponent(post.category)}` }]
     ),
-    { name: post.title, url: articleUrl }
+    { name: post.title, url: `/blog/${post.slug}` }
   ];
 
   // Related articles for schema
