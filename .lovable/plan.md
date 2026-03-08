@@ -1,50 +1,73 @@
 
 
-# Translation Plan for All Untranslated Content Sections
+# Fix: Soft 404 — 105 Affected URLs
 
-## Content Inventory
+## Root Cause
 
-| Section | Items | Languages (de/fr/pt/es) | Total translations |
+These URLs return HTTP 200 (because the SPA always serves `index.html`) but render content that Google recognizes as a 404 page. Google classifies this as a "soft 404." The URLs fall into distinct categories:
+
+### Category Breakdown
+
+| Category | Count | Example | Current behavior |
 |---|---|---|---|
-| Blog posts (main) | ~50 posts | × 4 | 200 |
-| Blog posts (country compliance) | 43 posts | × 4 | 172 |
-| Help center guides | 16 guides | × 4 | 64 |
-| Glossary terms | ~35 terms | × 4 | 140 |
-| Guide detail pages (pillar hubs) | 8 pages | × 4 | 32 |
-| Topic pages (pillar listing) | 1 index + 8 pillars | × 4 | 36 |
-| Author pages | 3 authors | × 4 | 12 |
-| Corridor pages | 9 corridors | × 4 | 36 |
-| Legal pages | 4 pages (Privacy, Terms, Cookie, SLA) | × 4 | 16 |
-| Blog listing page (UI strings) | 1 page | × 4 | 4 |
-| **Total** | | | **~712** |
+| `/tag/*` URLs (legacy WordPress) | ~30 | `/tag/bitcoin`, `/tag/freelance/` | Hits SPA catch-all → renders NotFound with 200 |
+| `/author/*` URLs (legacy) | ~2 | `/author/olayinka` | Same — renders NotFound with 200 |
+| Legacy blog slugs (no `/blog/` prefix) | ~10 | `/savings-and-investment-on-alat-how-it-works/`, `/lucrative-business-ideas-in-nigeria/` | Same |
+| Legacy country-prefix corridors | ~40 | `/ng/receive-usd-in-nigeria-cost` | 301 → `/en/receive-usd-in-nigeria-cost` (already handled, will clear) |
+| No-prefix corridors | ~3 | `/receive-eur-in-nigeria-cost`, `/receive-gbp-in-us-cost` | Hits SPA catch-all → renders NotFound with 200 |
+| Misc junk | ~5 | `/trainini`, `/index.html`, `/training/...`, `/blog/<a href=` | Same |
+| No-prefix blog posts | ~5 | `/blog/best-personal-finance-blogs`, `/blog/international-payment-fees-guide` | Missing redirect to `/en/blog/...` |
 
-## Current Status
+## Fix: Add server-side redirects in `vercel.json`
 
-### ✅ Batch 1: Infrastructure (COMPLETE)
-- `src/utils/i18nData.ts` — registry-based helper with English fallback
-- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
-- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
-- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
-- `src/i18n/index.ts` — registered blog, help, glossary namespaces
-- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
+The only real fix for soft 404s on an SPA is to add server-level redirects so Google gets a 301 instead of a 200. URLs that are truly dead should return 410 (Gone), but Vercel redirects don't support that — so we redirect to the closest relevant page.
 
-### ✅ Batch 1b: Legal Page Translations (COMPLETE)
+### Changes to `vercel.json`
 
-### ✅ Batch 2: Help Center (COMPLETE)
+Add these redirect rules (before the SPA catch-all rewrite):
 
-### ✅ Batch 3: Glossary Terms (COMPLETE)
+```json
+// Tag pages → blog listing
+{ "source": "/tag/:slug*", "destination": "/en/blog", "statusCode": 301 }
 
-### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
+// Author pages → about page
+{ "source": "/author/:slug*", "destination": "/en/about", "statusCode": 301 }
 
-### ✅ Batch 5: Corridor Pages (COMPLETE)
+// No-prefix blog paths → language-prefixed blog
+{ "source": "/blog/:path*", "destination": "/en/blog/:path*", "statusCode": 301 }
 
-### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
+// No-prefix corridor pages → language-prefixed corridors
+{ "source": "/receive-:currency-in-:destination-cost", "destination": "/en/receive-:currency-in-:destination-cost", "statusCode": 301 }
 
-### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
+// Legacy WordPress blog posts → blog listing (content no longer exists)
+{ "source": "/savings-and-investment-on-alat-how-it-works*", "destination": "/en/blog", "statusCode": 301 }
+{ "source": "/lucrative-business-ideas-in-nigeria*", "destination": "/en/blog", "statusCode": 301 }
+{ "source": "/invoicemonk-free-online-invoice-accounting-platform-nigeria*", "destination": "/en/blog", "statusCode": 301 }
+{ "source": "/invoicemonk-template-how-to-create-a-perfect-invoice-template-that-gets-paid-faster*", "destination": "/en/blog", "statusCode": 301 }
+{ "source": "/small-business-marketing-101-a-guide-to-growth*", "destination": "/en/blog", "statusCode": 301 }
+{ "source": "/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners*", "destination": "/en/blog", "statusCode": 301 }
+{ "source": "/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently*", "destination": "/en/blog", "statusCode": 301 }
+{ "source": "/top-freelance-websites-in-nigeria*", "destination": "/en/blog", "statusCode": 301 }
 
-### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
+// Misc junk
+{ "source": "/training/:path*", "destination": "/en", "statusCode": 301 }
+{ "source": "/trainini", "destination": "/en", "statusCode": 301 }
+{ "source": "/index.html", "destination": "/en", "statusCode": 301 }
+```
 
-### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
-- SEOHead already outputs hreflang for all 5 languages on every page
-- Updated sitemap generator to include country compliance posts and glossary terms
-- No 'enOnly' restrictions found — all content sections are fully multilingual
+### Files to edit
+
+| File | Change |
+|---|---|
+| `vercel.json` | Add ~15 redirect rules for `/tag/*`, `/author/*`, `/blog/*`, legacy slugs, no-prefix corridors, and misc junk URLs |
+
+### What about the legacy country-prefix corridors?
+
+URLs like `/ng/receive-usd-in-nigeria-cost` are already covered by existing `"/ng/:path*" → "/en/:path*"` redirects. Google is just slow to re-crawl them. These will resolve on their own.
+
+### Expected impact
+
+- All 105 soft-404 URLs will return 301 instead of 200 + NotFound content
+- Google will follow the redirects and either index the destination or drop the URL from reports
+- Count should drop to ~0 over 2-4 weeks
+
