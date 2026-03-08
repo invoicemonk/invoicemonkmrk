@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Simple, <accent>transparent</accent> pricing",
+    "description": "Start free, upgrade when you need more. No hidden fees, no surprises.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "perMonth": "/month",
+    "perYear": "/year"
+  },
+  "faq": {
+    "title": "Frequently asked <accent>questions</accent>",
+    "description": "Everything you need to know about pricing and billing.",
+    "items": {
+      "freeTier": {
+        "question": "Is there a free tier?",
+        "answer": "Yes! Our Free tier lets you send up to 5 invoices per month with clean, professional layouts. Upgrade to Starter or Professional for unlimited invoices and advanced features."
+      },
+      "upgradeDowngrade": {
+        "question": "Can I upgrade or downgrade anytime?",
+        "answer": "Absolutely. You can change your plan at any time. When upgrading, you'll be prorated. When downgrading, your new rate starts at the next billing cycle."
+      },
+      "paymentMethods": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards (Visa, Mastercard, American Express) and can arrange invoicing for annual Business plans."
+      },
+      "security": {
+        "question": "Is my financial data secure?",
+        "answer": "Your security is our priority. We use bank-level encryption, immutable audit logs, and are fully compliant with data protection regulations."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to get <accent>started?</accent>",
+    "description": "Join thousands of businesses who trust Invoicemonk for their invoicing needs.",
+    "button": "Start Your Free Trial"
+  }
+}

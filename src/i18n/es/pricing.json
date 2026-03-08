@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Precios simples y <accent>transparentes</accent>",
+    "description": "Comienza gratis, actualiza cuando necesites más. Sin tarifas ocultas, sin sorpresas.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "perMonth": "/mes",
+    "perYear": "/año"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes <accent>respondidas</accent>",
+    "description": "Todo lo que necesitas saber sobre precios y facturación.",
+    "items": {
+      "freeTier": {
+        "question": "¿Hay un plan gratuito?",
+        "answer": "¡Sí! Nuestro plan gratuito te permite enviar hasta 5 facturas por mes con diseños limpios y profesionales. Actualiza a Starter o Professional para facturas ilimitadas y funciones avanzadas."
+      },
+      "upgradeDowngrade": {
+        "question": "¿Puedo actualizar o degradar en cualquier momento?",
+        "answer": "Por supuesto. Puedes cambiar tu plan en cualquier momento. Al actualizar, se te cobrará proporcionalmente. Al degradar, tu nueva tarifa comienza en el siguiente ciclo de facturación."
+      },
+      "paymentMethods": {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos todas las tarjetas de crédito principales (Visa, Mastercard, American Express) y podemos organizar facturación para planes Business anuales."
+      },
+      "security": {
+        "question": "¿Están seguros mis datos financieros?",
+        "answer": "Tu seguridad es nuestra prioridad. Usamos cifrado de nivel bancario, registros de auditoría inmutables y cumplimos plenamente con las regulaciones de protección de datos."
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Listo para <accent>empezar?</accent>",
+    "description": "Únete a miles de empresas que confían en Invoicemonk para sus necesidades de facturación.",
+    "button": "Comienza tu prueba gratuita"
+  }
+}

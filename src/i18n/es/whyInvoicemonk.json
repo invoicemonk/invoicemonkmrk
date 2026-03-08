@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "Nuestra filosofía",
+    "title": "Un sistema de registros financieros, no solo una app de facturación",
+    "accentWord": "registros financieros",
+    "description": "Creamos Invoicemonk porque los registros financieros deben inspirar confianza, no preocupación. Cada función, cada decisión, comienza con el cumplimiento en su núcleo.",
+    "primaryCta": "Comenzar gratis",
+    "secondaryCta": "Más sobre cumplimiento",
+    "floatingBadge": "Cumplimiento primero"
+  },
+  "philosophy": {
+    "title": "Lo que nos diferencia",
+    "items": [
+      "Esta no es una aplicación de facturación con funciones de cumplimiento.",
+      "Este es un sistema de registros financieros que emite facturas.",
+      "Cada registro es inmutable desde su creación.",
+      "Cada acción se registra con rastros de auditoría completos.",
+      "El cumplimiento no es un complemento — es la base.",
+      "Listo para e-facturación: ZATCA, Peppol y mandatos regionales integrados.",
+      "Cada factura recibe un número de referencia único (IRN) para trazabilidad.",
+      "Las firmas digitales y los sellos criptográficos demuestran la autenticidad del documento."
+    ]
+  },
+  "principles": {
+    "title": "Construido sobre principios fundamentales",
+    "description": "Estos principios guían cada decisión de producto que tomamos.",
+    "complianceFirst": {
+      "title": "Arquitectura de cumplimiento primero",
+      "description": "Cada transacción es inmutable y lista para auditoría desde el primer día. Construido para empresas que necesitan satisfacer a reguladores, clientes y partes interesadas."
+    },
+    "unifiedData": {
+      "title": "Datos financieros unificados",
+      "description": "Todas tus operaciones financieras en una plataforma. Sin más malabares con múltiples herramientas, exportaciones y conciliaciones."
+    },
+    "scales": {
+      "title": "Escala con tu negocio",
+      "description": "Comienza con lo que necesitas hoy. Agrega productos a medida que creces — sin migrar datos ni aprender nuevos sistemas."
+    },
+    "auditConfidence": {
+      "title": "Construido para confianza en auditoría",
+      "description": "Registros con marca de tiempo, integridad basada en hash y rastros de auditoría completos. Prepárate para cualquier auditoría, en cualquier momento."
+    }
+  },
+  "trust": {
+    "growing": { "label": "Creciendo", "description": "Facturas procesadas" },
+    "trusted": { "label": "Confiable", "description": "Empresas confían en nosotros" },
+    "countries": { "label": "50+", "description": "Países atendidos" },
+    "uptime": { "label": "99,9%", "description": "Garantía de disponibilidad" }
+  },
+  "cta": {
+    "title": "¿Listo para empezar?",
+    "description": "Únete a miles de empresas que confían en Invoicemonk para sus registros financieros.",
+    "primaryButton": "Comenzar con facturación",
+    "secondaryButton": "Comparar planes de precios"
+  },
+  "faqs": {
+    "different": {
+      "question": "¿Qué diferencia a Invoicemonk de otras herramientas de facturación?",
+      "answer": "Invoicemonk es un sistema de registros financieros, no solo una aplicación de facturación. Cada registro es inmutable desde su creación, cada acción se registra con rastros de auditoría completos, y el cumplimiento es la base — no un complemento."
+    },
+    "businessSize": {
+      "question": "¿Es Invoicemonk adecuado para el tamaño de mi empresa?",
+      "answer": "Sí. Invoicemonk escala con tu negocio. Comienza con facturación gratuita y agrega productos como seguimiento de gastos, contabilidad y pagos a medida que creces — sin migrar datos."
+    },
+    "compliance": {
+      "question": "¿Cómo garantiza Invoicemonk el cumplimiento?",
+      "answer": "Cada transacción crea registros inmutables con marca de tiempo y verificación de integridad basada en hash. Rastros de auditoría completos e informes exportables te mantienen preparado para cualquier revisión regulatoria."
+    },
+    "freeTrial": {
+      "question": "¿Puedo probar Invoicemonk gratis?",
+      "answer": "Por supuesto. Nuestro plan gratuito incluye 5 facturas y 5 recibos por mes con funciones esenciales. Sin tarjeta de crédito requerida. Actualiza a planes de pago cuando necesites facturación ilimitada y funciones avanzadas."
+    }
+  }
+}

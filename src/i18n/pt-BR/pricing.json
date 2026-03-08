@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Preços simples e <accent>transparentes</accent>",
+    "description": "Comece grátis, faça upgrade quando precisar de mais. Sem taxas ocultas, sem surpresas.",
+    "monthly": "Mensal",
+    "annual": "Anual",
+    "perMonth": "/mês",
+    "perYear": "/ano"
+  },
+  "faq": {
+    "title": "Perguntas frequentes <accent>respondidas</accent>",
+    "description": "Tudo o que você precisa saber sobre preços e faturamento.",
+    "items": {
+      "freeTier": {
+        "question": "Existe um plano gratuito?",
+        "answer": "Sim! Nosso plano gratuito permite enviar até 5 faturas por mês com layouts limpos e profissionais. Faça upgrade para Starter ou Professional para faturas ilimitadas e recursos avançados."
+      },
+      "upgradeDowngrade": {
+        "question": "Posso fazer upgrade ou downgrade a qualquer momento?",
+        "answer": "Com certeza. Você pode alterar seu plano a qualquer momento. Ao fazer upgrade, será cobrado proporcionalmente. Ao fazer downgrade, sua nova tarifa começa no próximo ciclo de faturamento."
+      },
+      "paymentMethods": {
+        "question": "Quais métodos de pagamento vocês aceitam?",
+        "answer": "Aceitamos todos os principais cartões de crédito (Visa, Mastercard, American Express) e podemos organizar faturamento para planos Business anuais."
+      },
+      "security": {
+        "question": "Meus dados financeiros estão seguros?",
+        "answer": "Sua segurança é nossa prioridade. Usamos criptografia de nível bancário, logs de auditoria imutáveis e somos totalmente conformes com as regulamentações de proteção de dados."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para <accent>começar?</accent>",
+    "description": "Junte-se a milhares de empresas que confiam no Invoicemonk para suas necessidades de faturamento.",
+    "button": "Comece seu teste gratuito"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Einfache, <accent>transparente</accent> Preise",
+    "description": "Starten Sie kostenlos, upgraden Sie wenn Sie mehr brauchen. Keine versteckten Gebühren, keine Überraschungen.",
+    "monthly": "Monatlich",
+    "annual": "Jährlich",
+    "perMonth": "/Monat",
+    "perYear": "/Jahr"
+  },
+  "faq": {
+    "title": "Häufig gestellte <accent>Fragen</accent>",
+    "description": "Alles, was Sie über Preise und Abrechnung wissen müssen.",
+    "items": {
+      "freeTier": {
+        "question": "Gibt es eine kostenlose Stufe?",
+        "answer": "Ja! Unsere kostenlose Stufe ermöglicht es Ihnen, bis zu 5 Rechnungen pro Monat mit sauberen, professionellen Layouts zu senden. Upgraden Sie auf Starter oder Professional für unbegrenzte Rechnungen und erweiterte Funktionen."
+      },
+      "upgradeDowngrade": {
+        "question": "Kann ich jederzeit upgraden oder downgraden?",
+        "answer": "Absolut. Sie können Ihren Plan jederzeit ändern. Beim Upgrade wird anteilig berechnet. Beim Downgrade beginnt Ihr neuer Tarif mit dem nächsten Abrechnungszyklus."
+      },
+      "paymentMethods": {
+        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "answer": "Wir akzeptieren alle gängigen Kreditkarten (Visa, Mastercard, American Express) und können Rechnungsstellung für jährliche Business-Pläne arrangieren."
+      },
+      "security": {
+        "question": "Sind meine Finanzdaten sicher?",
+        "answer": "Ihre Sicherheit hat für uns Priorität. Wir verwenden Verschlüsselung auf Bankniveau, unveränderliche Prüfprotokolle und sind vollständig konform mit Datenschutzbestimmungen."
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit <accent>loszulegen?</accent>",
+    "description": "Schließen Sie sich Tausenden von Unternehmen an, die Invoicemonk für ihre Rechnungsstellung vertrauen.",
+    "button": "Kostenlose Testversion starten"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "Our Philosophy",
+    "title": "A financial records system, not just an invoicing app",
+    "accentWord": "financial records system",
+    "description": "We built Invoicemonk because financial records should inspire confidence, not concern. Every feature, every decision, starts with compliance at its core.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "Learn About Compliance",
+    "floatingBadge": "Compliance First"
+  },
+  "philosophy": {
+    "title": "What makes us different",
+    "items": [
+      "This is not an invoicing app with compliance features.",
+      "This is a financial records system that issues invoices.",
+      "Every record is immutable from creation.",
+      "Every action is logged with complete audit trails.",
+      "Compliance isn't an add-on — it's the foundation.",
+      "E-invoicing ready: ZATCA, Peppol, and regional mandates built in.",
+      "Every invoice gets a unique reference number (IRN) for traceability.",
+      "Digital signatures and cryptographic stamps prove document authenticity."
+    ]
+  },
+  "principles": {
+    "title": "Built on core principles",
+    "description": "These principles guide every product decision we make.",
+    "complianceFirst": {
+      "title": "Compliance-First Architecture",
+      "description": "Every transaction is immutable and audit-ready from day one. Built for businesses that need to satisfy regulators, clients, and stakeholders."
+    },
+    "unifiedData": {
+      "title": "Unified Financial Data",
+      "description": "All your financial operations in one platform. No more juggling multiple tools, exports, and reconciliations."
+    },
+    "scales": {
+      "title": "Scales With Your Business",
+      "description": "Start with what you need today. Add products as you grow — without migrating data or learning new systems."
+    },
+    "auditConfidence": {
+      "title": "Built for Audit Confidence",
+      "description": "Timestamped records, hash-based integrity, and complete audit trails. Be ready for any audit, anytime."
+    }
+  },
+  "trust": {
+    "growing": { "label": "Growing", "description": "Invoices processed" },
+    "trusted": { "label": "Trusted", "description": "Businesses trust us" },
+    "countries": { "label": "50+", "description": "Countries served" },
+    "uptime": { "label": "99.9%", "description": "Uptime guarantee" }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "description": "Join thousands of businesses that trust Invoicemonk for their financial records.",
+    "primaryButton": "Start with Invoicing",
+    "secondaryButton": "Compare Pricing Plans"
+  },
+  "faqs": {
+    "different": {
+      "question": "What makes Invoicemonk different from other invoicing tools?",
+      "answer": "Invoicemonk is a financial records system, not just an invoicing app. Every record is immutable from creation, every action is logged with complete audit trails, and compliance is the foundation — not an add-on."
+    },
+    "businessSize": {
+      "question": "Is Invoicemonk suitable for my business size?",
+      "answer": "Yes. Invoicemonk scales with your business. Start with free invoicing and add products like expense tracking, accounting, and payments as you grow — without migrating data."
+    },
+    "compliance": {
+      "question": "How does Invoicemonk ensure compliance?",
+      "answer": "Every transaction creates immutable, timestamped records with hash-based integrity verification. Complete audit trails and export-ready reports keep you prepared for any regulatory review."
+    },
+    "freeTrial": {
+      "question": "Can I try Invoicemonk for free?",
+      "answer": "Absolutely. Our free tier includes 5 invoices and 5 receipts per month with core features. No credit card required. Upgrade to paid plans when you need unlimited invoicing and advanced features."
+    }
+  }
+}

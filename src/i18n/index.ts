@@ -22,6 +22,27 @@ import frAbout from './fr/about.json';
 import ptBRAbout from './pt-BR/about.json';
 import esAbout from './es/about.json';
 
+// Pricing namespace
+import enPricing from './en/pricing.json';
+import dePricing from './de/pricing.json';
+import frPricing from './fr/pricing.json';
+import ptBRPricing from './pt-BR/pricing.json';
+import esPricing from './es/pricing.json';
+
+// WhyInvoicemonk namespace
+import enWhyInvoicemonk from './en/whyInvoicemonk.json';
+import deWhyInvoicemonk from './de/whyInvoicemonk.json';
+import frWhyInvoicemonk from './fr/whyInvoicemonk.json';
+import ptBRWhyInvoicemonk from './pt-BR/whyInvoicemonk.json';
+import esWhyInvoicemonk from './es/whyInvoicemonk.json';
+
+// FreeInvoiceGenerator namespace
+import enFreeInvoiceGenerator from './en/freeInvoiceGenerator.json';
+import deFreeInvoiceGenerator from './de/freeInvoiceGenerator.json';
+import frFreeInvoiceGenerator from './fr/freeInvoiceGenerator.json';
+import ptBRFreeInvoiceGenerator from './pt-BR/freeInvoiceGenerator.json';
+import esFreeInvoiceGenerator from './es/freeInvoiceGenerator.json';
+
 /** Map URL language prefix → i18next language code */
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en',
@@ -43,16 +64,51 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { common: enCommon, compliance: enCompliance, about: enAbout },
-      de: { common: deCommon, compliance: deCompliance, about: deAbout },
-      fr: { common: frCommon, compliance: frCompliance, about: frAbout },
-      'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout },
-      es: { common: esCommon, compliance: esCompliance, about: esAbout },
+      en: {
+        common: enCommon,
+        compliance: enCompliance,
+        about: enAbout,
+        pricing: enPricing,
+        whyInvoicemonk: enWhyInvoicemonk,
+        freeInvoiceGenerator: enFreeInvoiceGenerator,
+      },
+      de: {
+        common: deCommon,
+        compliance: deCompliance,
+        about: deAbout,
+        pricing: dePricing,
+        whyInvoicemonk: deWhyInvoicemonk,
+        freeInvoiceGenerator: deFreeInvoiceGenerator,
+      },
+      fr: {
+        common: frCommon,
+        compliance: frCompliance,
+        about: frAbout,
+        pricing: frPricing,
+        whyInvoicemonk: frWhyInvoicemonk,
+        freeInvoiceGenerator: frFreeInvoiceGenerator,
+      },
+      'pt-BR': {
+        common: ptBRCommon,
+        compliance: ptBRCompliance,
+        about: ptBRAbout,
+        pricing: ptBRPricing,
+        whyInvoicemonk: ptBRWhyInvoicemonk,
+        freeInvoiceGenerator: ptBRFreeInvoiceGenerator,
+      },
+      es: {
+        common: esCommon,
+        compliance: esCompliance,
+        about: esAbout,
+        pricing: esPricing,
+        whyInvoicemonk: esWhyInvoicemonk,
+        freeInvoiceGenerator: esFreeInvoiceGenerator,
+      },
     },
     lng: 'en',
     fallbackLng: 'en',
     defaultNS: 'common',
-    ns: ['common', 'compliance', 'about'],
+    ns: ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator'],
     interpolation: {
       escapeValue: false,
     },
