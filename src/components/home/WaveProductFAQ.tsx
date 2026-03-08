@@ -6,7 +6,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { FAQSchema } from '@/components/seo/FAQSchema';
 
 interface FAQ {
   question: string;
