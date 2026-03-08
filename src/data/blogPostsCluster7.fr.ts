@@ -106,7 +106,7 @@ const posts: BlogPost[] = [
     date: '2026-02-19',
     readTime: '10 min de lecture',
     featuredImage: '/blog/client-email-templates.jpg',
-    featuredImageAlt: 'Modèles d'emails professionnels pour communication client',
+    featuredImageAlt: "Modèles d\u2019emails professionnels pour communication client",
     clusterType: 'cluster',
     targetProduct: '/client-management',
     semanticKeywords: ['modèles communication client', 'modèles email freelance'],
