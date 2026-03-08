@@ -13,10 +13,10 @@ import { useTranslation } from 'react-i18next';
 
 const faqKeys = ['whoFounded', 'mission', 'availability'] as const;
 
-const teamMembers = [
+const teamMembersData = [
   {
     name: 'Olayinka Olayokun',
-    role: 'Co-founder & CEO',
+    roleKey: 'team.roles.ceo',
     image: '/team/olayinka-olayokun.jpg',
     socialLinks: [
       { platform: 'linkedin' as const, url: 'https://linkedin.com/in/olayokunyinka' },
@@ -29,7 +29,7 @@ const teamMembers = [
   },
   {
     name: 'Joan Omionawele',
-    role: 'Co-founder & Communication President',
+    roleKey: 'team.roles.comms',
     image: '/team/joan-omionawele.jpg',
     socialLinks: [
       { platform: 'linkedin' as const, url: 'https://www.linkedin.com/in/joan-omionawele/' },
@@ -129,8 +129,8 @@ const About = () => {
           
           <AnimatedSection>
             <div className="flex flex-wrap justify-center gap-12 lg:gap-24">
-              {teamMembers.map((member) => (
-                <TeamMemberCard key={member.name} {...member} />
+              {teamMembersData.map((member) => (
+                <TeamMemberCard key={member.name} name={member.name} role={t(member.roleKey)} image={member.image} socialLinks={member.socialLinks} />
               ))}
             </div>
           </AnimatedSection>

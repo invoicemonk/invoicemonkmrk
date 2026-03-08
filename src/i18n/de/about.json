@@ -16,10 +16,28 @@
     "blogLink": "einen Blog, um Freiberufler und Kleinunternehmer zu unterrichten, zu bilden und zu führen",
     "blogSuffix": "in ihrem Alltag."
   },
+  "mission": {
+    "label": "Unsere Mission",
+    "text": "Freiberuflern und Unternehmen auf der ganzen Welt zu ermöglichen, das zu tun, was sie lieben, ohne Kopfschmerzen und Zeitverschwendung."
+  },
+  "vision": {
+    "label": "Unsere Vision",
+    "text": "Nigerias Nummer Eins als einheimischer Business-Enabler-Partner mit IT-Lösungen zu sein."
+  },
+  "press": {
+    "label": "Presse & Medien",
+    "title": "Bekannt aus",
+    "description": "Invoicemonk wurde für die Unterstützung kleiner Unternehmen und Freiberufler bei der Optimierung ihrer Rechnungsstellung und Finanzverwaltung ausgezeichnet.",
+    "readArticle": "Artikel lesen"
+  },
   "team": {
     "label": "Unser Team",
     "title": "Lernen Sie die Gründer kennen",
-    "description": "Das leidenschaftliche Team hinter Invoicemonk, das sich der Stärkung von Freiberuflern und kleinen Unternehmen weltweit widmet."
+    "description": "Das leidenschaftliche Team hinter Invoicemonk, das sich der Stärkung von Freiberuflern und kleinen Unternehmen weltweit widmet.",
+    "roles": {
+      "ceo": "Mitgründer & CEO",
+      "comms": "Mitgründerin & Kommunikationspräsidentin"
+    }
   },
   "openRoles": {
     "title": "Offene Stellen",

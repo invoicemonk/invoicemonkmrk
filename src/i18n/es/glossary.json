@@ -22,5 +22,11 @@
     "business": "Negocios"
   },
   "seoTitle": "Glosario de Finanzas Empresariales | Términos de Facturación y Contabilidad | Invoicemonk",
-  "seoDescription": "Glosario completo de facturación, pagos, contabilidad, impuestos y finanzas empresariales. Aprende conceptos clave para pequeños empresarios y freelancers."
+  "seoDescription": "Glosario completo de facturación, pagos, contabilidad, impuestos y finanzas empresariales. Aprende conceptos clave para pequeños empresarios y freelancers.",
+  "faqs": [
+    { "question": "¿Qué es una factura?", "answer": "Una factura es un documento comercial emitido por un vendedor a un comprador que enumera los productos o servicios proporcionados, cantidades, precios y condiciones de pago. Sirve como una solicitud formal de pago." },
+    { "question": "¿Cuál es la diferencia entre un presupuesto y una factura?", "answer": "Un presupuesto es una propuesta de trabajo antes de realizarlo, mostrando los costos proyectados. Una factura es una cuenta emitida después de completar el trabajo, solicitando el pago real por los bienes o servicios entregados." },
+    { "question": "¿Qué significa cuentas por cobrar?", "answer": "Las cuentas por cobrar son el saldo de dinero adeudado a una empresa por bienes o servicios entregados pero aún no pagados. Se registran como un activo en el balance general." },
+    { "question": "¿Qué es la contabilidad de partida doble?", "answer": "La contabilidad de partida doble es un método contable donde cada transacción se registra en al menos dos cuentas — un débito en una y un crédito en otra — asegurando que la ecuación contable siempre esté equilibrada." }
+  ]
 }

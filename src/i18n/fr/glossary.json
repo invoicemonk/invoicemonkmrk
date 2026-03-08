@@ -22,5 +22,11 @@
     "business": "Entreprise"
   },
   "seoTitle": "Glossaire de la finance d'entreprise | Termes de facturation & comptabilité | Invoicemonk",
-  "seoDescription": "Glossaire complet de facturation, paiements, comptabilité, fiscalité et finances d'entreprise. Apprenez les concepts clés pour les petites entreprises et freelances."
+  "seoDescription": "Glossaire complet de facturation, paiements, comptabilité, fiscalité et finances d'entreprise. Apprenez les concepts clés pour les petites entreprises et freelances.",
+  "faqs": [
+    { "question": "Qu'est-ce qu'une facture ?", "answer": "Une facture est un document commercial émis par un vendeur à un acheteur qui répertorie les produits ou services fournis, les quantités, les prix et les conditions de paiement. Elle sert de demande formelle de paiement." },
+    { "question": "Quelle est la différence entre un devis et une facture ?", "answer": "Un devis est une proposition de travail avant qu'il ne soit effectué, montrant les coûts projetés. Une facture est une note émise après l'achèvement du travail, demandant le paiement réel des biens ou services livrés." },
+    { "question": "Que signifie comptes clients ?", "answer": "Les comptes clients représentent le solde d'argent dû à une entreprise pour des biens ou services livrés mais pas encore payés. Ils figurent comme actif au bilan." },
+    { "question": "Qu'est-ce que la comptabilité en partie double ?", "answer": "La comptabilité en partie double est une méthode comptable où chaque transaction est enregistrée dans au moins deux comptes — un débit dans l'un et un crédit dans l'autre — garantissant que l'équation comptable est toujours équilibrée." }
+  ]
 }
