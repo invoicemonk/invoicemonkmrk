@@ -1,0 +1,93 @@
+{
+  "seo": {
+    "title": "Explore Topics & Reviews | Invoicemonk",
+    "description": "Explore our comprehensive topic guides, read customer reviews, and track your learning progress. Master invoicing, payments, and business finance."
+  },
+  "hero": {
+    "title": "Explore & Learn",
+    "subtitle": "Navigate our comprehensive knowledge base, see what others are saying, and track your learning journey."
+  },
+  "tabs": {
+    "topics": "Topics",
+    "reviews": "Reviews",
+    "analytics": "My Progress"
+  },
+  "faqs": [
+    { "question": "What topics can I explore?", "answer": "Our knowledge base covers invoicing, getting paid, business finances, tax compliance, freelancing, and proposals & estimates. Each topic has comprehensive guides and related articles." },
+    { "question": "Can I leave a review?", "answer": "Yes! Visit the Reviews tab to share your experience with Invoicemonk. Your feedback helps other business owners make informed decisions." },
+    { "question": "How is content organized?", "answer": "Content is organized into topic clusters following a pillar-and-spoke model. Each pillar topic has related supporting articles that go deeper into specific aspects." }
+  ],
+  "reviews": {
+    "title": "Customer Reviews",
+    "noReviews": "No Reviews Yet",
+    "noReviewsSubtitle": "Be the first to share your experience with Invoicemonk",
+    "verified": "Verified",
+    "basedOn": "Based on {{count}} review",
+    "basedOnPlural": "Based on {{count}} reviews"
+  },
+  "reviewForm": {
+    "title": "Share Your Experience",
+    "subtitle": "Your feedback helps other businesses make informed decisions",
+    "overallRating": "Overall Rating *",
+    "ratingLabels": ["Poor", "Fair", "Good", "Very Good", "Excellent"],
+    "yourName": "Your Name *",
+    "email": "Email *",
+    "emailNote": "Not displayed publicly",
+    "company": "Company",
+    "yourRole": "Your Role",
+    "rolePlaceholder": "Freelancer, Business Owner, etc.",
+    "yourReview": "Your Review *",
+    "reviewPlaceholder": "Tell us about your experience with Invoicemonk. What do you like most? How has it helped your business?",
+    "minChars": "Minimum 50 characters ({{count}}/50)",
+    "submitReview": "Submit Review",
+    "submitting": "Submitting...",
+    "thankYou": "Thank You!",
+    "thankYouMessage": "Your review has been submitted and is pending approval.",
+    "selectRating": "Please select a rating",
+    "fillRequired": "Please fill in all required fields",
+    "submitError": "Failed to submit review. Please try again.",
+    "disclaimer": "By submitting, you agree to our review guidelines. Reviews are moderated before publishing."
+  },
+  "topicExplorer": {
+    "topicMap": "Topic Map",
+    "learningPaths": "Learning Paths",
+    "complete": "complete",
+    "articlesInTopic": "Articles in this topic",
+    "viewCompleteGuide": "View complete guide",
+    "progress": "Progress",
+    "startLearning": "Start Learning",
+    "continueLearning": "Continue Learning",
+    "reviewPath": "Review Path"
+  },
+  "analyticsDashboard": {
+    "title": "Content Analytics",
+    "subtitle": "Track your reading progress and content engagement",
+    "refresh": "Refresh",
+    "export": "Export",
+    "clear": "Clear",
+    "clearConfirm": "Are you sure you want to clear all analytics data? This cannot be undone.",
+    "totalEvents": "Total Events",
+    "allTrackedInteractions": "All tracked interactions",
+    "linkClicks": "Link Clicks",
+    "internalNavigation": "Internal navigation",
+    "articlesStarted": "Articles Started",
+    "contentEngagement": "Content engagement",
+    "avgScrollDepth": "Avg. Scroll Depth",
+    "howFarUsersRead": "How far users read",
+    "learningJourneys": "Learning Journeys",
+    "trackProgress": "Track your progress through curated reading paths",
+    "journeysStarted": "Journeys Started",
+    "journeysCompleted": "Journeys Completed",
+    "completionRate": "Completion Rate",
+    "topicEngagement": "Topic Engagement",
+    "articlesByTopic": "Articles read by topic area",
+    "articles": "articles",
+    "topArticles": "Top Articles",
+    "mostReadContent": "Your most-read content",
+    "startReading": "Start reading articles to see your progress",
+    "popularLinks": "Popular Links",
+    "mostClickedLinks": "Most clicked internal links",
+    "clickLinksToTrack": "Click links in articles to see tracking data",
+    "fromLastWeek": "from last week"
+  }
+}
