@@ -1,0 +1,110 @@
+{
+  "seo": {
+    "title": "Software de Facturación Freelance | Cobre Más Rápido | Gratis",
+    "description": "El mejor software de facturación freelance en 2026. Cree facturas profesionales, automatice recordatorios de pago y rastree ingresos — gratis para empezar."
+  },
+  "hero": {
+    "badge": "Para Freelancers",
+    "title": "Facturación simplificada para freelancers",
+    "accentWord": "freelancers",
+    "description": "Pase menos tiempo en papeleo y más tiempo haciendo lo que ama. Invoicemonk se encarga de su facturación.",
+    "ctaPrimary": "Comenzar gratis",
+    "ctaSecondary": "Ver precios",
+    "trustBadge": "Los freelancers confían en Invoicemonk"
+  },
+  "benefits": {
+    "title": "Diseñado para profesionales independientes",
+    "subtitle": "Todo lo que necesita para gestionar sus finanzas freelance profesionalmente",
+    "items": [
+      { "title": "Facturas Profesionales", "description": "Cree facturas con su marca, logo y datos comerciales que impresionen a los clientes." },
+      { "title": "Recordatorios Automáticos", "description": "Configure recordatorios de pago automáticos antes, el día y después del vencimiento." },
+      { "title": "Rastree Sus Ingresos", "description": "Vea todos sus ingresos en un panel con informes por cliente, mes y proyecto." },
+      { "title": "Registros Listos para Impuestos", "description": "Cada factura y gasto se categoriza automáticamente y se almacena para cumplimiento fiscal." }
+    ]
+  },
+  "useCases": {
+    "title": "Cómo los freelancers usan Invoicemonk",
+    "subtitle": "Ya sea diseñador, desarrollador, escritor o consultor — así es como Invoicemonk se integra en su flujo",
+    "items": [
+      { "title": "Trabajo por Proyecto", "description": "Termine un proyecto y cree una factura en menos de dos minutos. Invoicemonk rastrea el estado del pago." },
+      { "title": "Clientes en Retainer", "description": "Configure facturas recurrentes para clientes mensuales. Invoicemonk genera y envía automáticamente cada mes." },
+      { "title": "Clientes Internacionales", "description": "Facture a clientes en diferentes países en su moneda local, todo desde un solo panel." }
+    ]
+  },
+  "painPoints": {
+    "title": "Desafíos comunes de freelancers — resueltos",
+    "subtitle": "Construimos Invoicemonk en torno a los problemas reales que enfrentan los freelancers",
+    "items": [
+      { "problem": "Horas creando facturas en hojas de cálculo o Word", "solution": "Genere facturas profesionales en menos de 2 minutos con datos de clientes guardados." },
+      { "problem": "Incomodidad al cobrar pagos atrasados", "solution": "Los recordatorios automatizados envían seguimientos educados y profesionales en su nombre." },
+      { "problem": "Perder el control de ingresos entre varios clientes", "solution": "Un panel unificado muestra todos sus ingresos y pagos pendientes." },
+      { "problem": "Buscar frenéticamente documentos en época de impuestos", "solution": "Todas las facturas y gastos están organizados y son exportables automáticamente." }
+    ]
+  },
+  "workflow": {
+    "title": "Cómo funciona",
+    "subtitle": "Del registro al cobro — en cuatro pasos simples",
+    "steps": [
+      { "step": "1", "title": "Agregue datos del cliente", "description": "Ingrese nombre, email y dirección de facturación una vez. Invoicemonk guarda esta información." },
+      { "step": "2", "title": "Construya su factura", "description": "Agregue líneas para sus servicios. Defina cantidades, tarifas e impuestos." },
+      { "step": "3", "title": "Envíe y rastree", "description": "Envíe la factura por email o comparta un enlace de pago. Vea el estado de un vistazo." },
+      { "step": "4", "title": "Cobre y registre", "description": "Marque la factura como pagada. Invoicemonk actualiza automáticamente sus informes de ingresos." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Por qué los freelancers eligen Invoicemonk",
+    "paragraphs": [
+      "La mayoría del software contable está diseñado para empresas con empleados. Los freelancers necesitan algo más rápido y simple para enviar facturas y mantener registros organizados.",
+      "A diferencia de las hojas de cálculo, Invoicemonk automatiza las partes repetitivas: recordatorios de pago, facturas recurrentes y organización financiera.",
+      "Invoicemonk también está diseñado para freelancers globales. Soporte multi-moneda, cumplimiento fiscal en varios países y opciones de pago flexibles."
+    ]
+  },
+  "checklist": {
+    "title": "Lo que los freelancers obtienen con Invoicemonk",
+    "items": [
+      "Facturas profesionales ilimitadas",
+      "Marca y logo personalizados",
+      "Múltiples opciones de pago",
+      "Recordatorios automáticos de pago",
+      "Seguimiento de gastos",
+      "Informes de ingresos",
+      "Soporte multi-moneda",
+      "Gestión de clientes",
+      "Facturas recurrentes",
+      "Registros en cumplimiento fiscal"
+    ]
+  },
+  "testimonials": {
+    "title": "Confiado por freelancers",
+    "items": [
+      { "quote": "Invoicemonk transformó cómo manejo mis finanzas freelance. Antes pasaba domingos por la noche en hojas de cálculo — ahora envío facturas en dos minutos.", "author": "Adaeze N.", "role": "Diseñadora Freelance" },
+      { "quote": "Los recordatorios automáticos por sí solos han mejorado enormemente mi flujo de caja. Antes, los clientes pagaban 30 a 60 días tarde.", "author": "Chidi O.", "role": "Desarrollador Web" },
+      { "quote": "Trabajo con clientes en tres países, y la facturación multi-moneda es imprescindible.", "author": "Sade M.", "role": "Estratega de Contenido" }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      { "question": "¿Invoicemonk es gratis para freelancers?", "answer": "¡Sí! El plan gratuito incluye 5 facturas y 5 recibos al mes sin tarjeta de crédito." },
+      { "question": "¿Puedo enviar facturas en diferentes monedas?", "answer": "Por supuesto. Invoicemonk soporta facturación multi-moneda para clientes internacionales." },
+      { "question": "¿Cómo funcionan los recordatorios automáticos?", "answer": "Configure un calendario de recordatorios e Invoicemonk envía emails automáticamente a sus clientes." },
+      { "question": "¿Puedo agregar mi logo a las facturas?", "answer": "Sí. Suba su logo y cree facturas profesionales que reflejen su marca personal." },
+      { "question": "¿Invoicemonk ayuda con los impuestos?", "answer": "Invoicemonk mantiene registros conformes, categoriza gastos y genera informes de ingresos." },
+      { "question": "¿Puedo crear facturas recurrentes?", "answer": "Sí. Configure facturas recurrentes que se generan y envían automáticamente según su calendario." },
+      { "question": "¿Qué métodos de pago pueden usar mis clientes?", "answer": "Invoicemonk soporta transferencias bancarias, pagos móviles y enlaces a plataformas populares." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Lecturas relacionadas",
+    "links": [
+      { "text": "Precios de Servicios", "href": "/blog/pricing-your-freelance-services" },
+      { "text": "Guía de Portafolio", "href": "/blog/freelance-portfolio-best-practices" },
+      { "text": "Guía Freelance", "href": "/guides/freelancing" }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para simplificar sus finanzas freelance?",
+    "subtitle": "Únase a miles de freelancers que confían en Invoicemonk.",
+    "button": "Comenzar gratis"
+  }
+}
