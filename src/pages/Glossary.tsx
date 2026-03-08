@@ -142,7 +142,7 @@ const Glossary = () => {
 
   return (
     <Layout>
-      <FAQSchema items={glossaryFAQs} />
+      <FAQSchema items={t('faqs', { returnObjects: true }) as Array<{ question: string; answer: string }>} />
       <SEOHead
         title={t('seoTitle')}
         description={t('seoDescription')}
