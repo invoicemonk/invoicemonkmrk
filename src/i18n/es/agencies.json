@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Software de facturación para agencias | Invoicemonk",
+    "description": "Optimice la facturación de su agencia con facturas recurrentes, seguimiento multi-proyecto y facturas personalizadas. Para agencias digitales, creativas y de marketing."
+  },
+  "hero": {
+    "badge": "Para agencias",
+    "title": "Facturación diseñada para agencias en crecimiento",
+    "accentWord": "agencias",
+    "description": "Gestione la facturación de anticipos, facturas de proyectos y pagos multi-moneda desde una sola plataforma.",
+    "primaryCta": "Comenzar gratis",
+    "secondaryCta": "Ver precios",
+    "trustBadge": "Confiado por agencias digitales y creativas"
+  },
+  "benefits": {
+    "title": "Diseñado para flujos de trabajo de agencia",
+    "subtitle": "Todo lo que necesita para facturar a sus clientes profesionalmente y monitorear la salud financiera de su agencia",
+    "items": [
+      { "title": "Facturación multi-proyecto", "description": "Gestione facturas de decenas de clientes y proyectos desde un solo panel. Cada cliente tiene su propio perfil de facturación." },
+      { "title": "Facturas recurrentes", "description": "Automatice facturas recurrentes para clientes en anticipo con horarios y montos personalizables." },
+      { "title": "Informes de ingresos", "description": "Rastree ingresos por cliente, rentabilidad de proyectos y pagos pendientes de un vistazo." },
+      { "title": "Imagen profesional", "description": "Facturas personalizadas con el logo de su agencia y condiciones de pago. Cada factura refuerza su identidad profesional." }
+    ]
+  },
+  "useCases": {
+    "title": "Cómo las agencias usan Invoicemonk",
+    "subtitle": "Desde estudios boutique hasta agencias de servicio completo — así se adapta Invoicemonk a su modelo de facturación",
+    "items": [
+      { "title": "Anticipos mensuales", "description": "Configure facturas recurrentes para cada cliente — SEO, redes sociales, PPC o creación de contenido. Invoicemonk envía cada factura automáticamente." },
+      { "title": "Proyectos de campaña", "description": "Cree facturas basadas en hitos. 30% al inicio, 40% tras la entrega creativa y 30% en el lanzamiento de la campaña." },
+      { "title": "Cuentas internacionales", "description": "Facture a clientes globales en su moneda local — GBP para Londres, USD para Nueva York, NGN para Lagos — desde un solo panel." }
+    ]
+  },
+  "challenges": {
+    "title": "Desafíos comunes de agencias — resueltos",
+    "subtitle": "Construimos Invoicemonk alrededor de los problemas reales de facturación que enfrentan las agencias",
+    "items": [
+      { "problem": "El equipo financiero pasa días creando y enviando manualmente las facturas mensuales", "solution": "Las facturas recurrentes automatizadas se generan y envían según el calendario para cada cliente." },
+      { "problem": "Sin visibilidad sobre qué cuentas de clientes son realmente rentables", "solution": "Seguimiento de ingresos y gastos por cliente y proyecto. Vea la rentabilidad real de un vistazo." },
+      { "problem": "Perseguir pagos en más de 20 cuentas es un trabajo de tiempo completo", "solution": "Los recordatorios automáticos hacen seguimiento a cada cliente según su calendario personalizado." },
+      { "problem": "El formato inconsistente de facturas socava la imagen profesional", "solution": "Plantillas personalizadas con su logo, colores y condiciones. Cada factura luce profesional." }
+    ]
+  },
+  "workflow": {
+    "title": "Cómo funciona",
+    "subtitle": "Desde la incorporación del cliente hasta el reporte mensual — optimizado para operaciones de agencia",
+    "steps": [
+      { "title": "Configurar cuentas de clientes", "description": "Cree un perfil para cada cliente con dirección de facturación, contacto, moneda preferida y condiciones de pago." },
+      { "title": "Automatizar facturación", "description": "Para clientes mensuales, defina el monto, fecha de envío y partidas estándar. Invoicemonk genera y envía automáticamente." },
+      { "title": "Facturar hitos del proyecto", "description": "Cree facturas vinculadas a entregables específicos. Agregue partidas para cada componente de trabajo." },
+      { "title": "Rastrear y reportar", "description": "Su panel muestra ingresos por cliente, facturas pendientes y tendencias de pago. Genere informes mensuales o trimestrales." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Por qué las agencias eligen Invoicemonk",
+    "paragraphs": [
+      "El software contable empresarial es poderoso pero demasiado complejo para agencias que principalmente necesitan enviar facturas profesionales. Invoicemonk ofrece la funcionalidad que las agencias realmente usan.",
+      "A diferencia de las aplicaciones simples, Invoicemonk entiende el modelo de facturación de agencias. Clientes en anticipo, facturación por hitos, soporte multi-moneda — todo desde un solo panel.",
+      "Invoicemonk le ayuda a entender la salud financiera de su agencia. Informes de ingresos por cliente y seguimiento de gastos por proyecto para decisiones informadas."
+    ]
+  },
+  "checklist": {
+    "title": "Lo que las agencias obtienen con Invoicemonk",
+    "items": [
+      "Facturas profesionales ilimitadas",
+      "Facturación recurrente",
+      "Panel multi-proyecto",
+      "Branding personalizado y logo",
+      "Soporte multi-moneda",
+      "Recordatorios de pago automáticos",
+      "Seguimiento de gastos por proyecto",
+      "Portal de gestión de clientes",
+      "Informes de ingresos detallados",
+      "Documentos fiscalmente conformes"
+    ]
+  },
+  "testimonials": {
+    "title": "Confiado por agencias",
+    "items": [
+      { "quote": "Gestionamos más de 30 clientes en anticipo. Las facturas recurrentes de Invoicemonk nos ahorran horas cada mes.", "author": "Kemi B.", "role": "Directora de operaciones, Agencia digital" },
+      { "quote": "El soporte multi-moneda es una ventaja para nuestra base de clientes internacionales.", "author": "David L.", "role": "Director creativo" },
+      { "quote": "El seguimiento de rentabilidad ha cambiado cómo gestionamos nuestra agencia.", "author": "Chioma N.", "role": "Directora general, Agencia de marketing" }
+    ]
+  },
+  "faqs": [
+    { "question": "¿Invoicemonk gestiona facturación recurrente para agencias?", "answer": "Sí. Configure facturas recurrentes con planificación automática y montos personalizables." },
+    { "question": "¿Invoicemonk soporta múltiples miembros del equipo?", "answer": "Invoicemonk soporta acceso multi-usuario para que gerentes de proyecto y equipo financiero colaboren." },
+    { "question": "¿Puedo facturar diferentes clientes en diferentes monedas?", "answer": "Absolutamente. Invoicemonk soporta facturación multi-moneda, perfecto para agencias internacionales." },
+    { "question": "¿Cómo ayuda Invoicemonk a las agencias a rastrear la rentabilidad?", "answer": "Con seguimiento de gastos e informes financieros detallados puede ver ingresos vs. costos por cliente o proyecto." },
+    { "question": "¿Hay un plan gratuito para agencias?", "answer": "¡Sí! Invoicemonk ofrece un nivel gratuito con 5 facturas y 5 recibos por mes." },
+    { "question": "¿Puedo personalizar las facturas con la identidad de mi agencia?", "answer": "Sí. Suba su logo y cree plantillas que reflejen la identidad profesional de su agencia." },
+    { "question": "¿Cómo funcionan los recordatorios automáticos de pago?", "answer": "Defina calendarios de recordatorio por cliente. Invoicemonk envía seguimientos profesionales automáticamente." },
+    { "question": "¿Puedo crear facturas basadas en hitos?", "answer": "Sí. Cree facturas vinculadas a hitos o entregables específicos." }
+  ],
+  "relatedReading": {
+    "title": "Lecturas relacionadas",
+    "links": [
+      { "text": "Guía de facturas recurrentes", "href": "/blog/recurring-invoices-automating-billing" },
+      { "text": "Gestión de clientes", "href": "/blog/managing-multiple-clients-efficiently" },
+      { "text": "Cobrar más rápido", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para optimizar la facturación de su agencia?",
+    "description": "Únase a las agencias que confían en Invoicemonk para una facturación profesional y automatizada.",
+    "button": "Comenzar gratis"
+  }
+}

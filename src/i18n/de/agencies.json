@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Rechnungssoftware für Agenturen | Invoicemonk",
+    "description": "Optimieren Sie die Agenturabrechnung mit Retainer-Rechnungen, Multi-Projekt-Tracking und gebrandeten Rechnungen. Für Digital-, Kreativ- und Marketingagenturen."
+  },
+  "hero": {
+    "badge": "Für Agenturen",
+    "title": "Rechnungsstellung für wachsende Agenturen",
+    "accentWord": "Agenturen",
+    "description": "Verwalten Sie Retainer-Abrechnungen, Projektrechnungen und Mehrwährungszahlungen von einer Plattform. Weniger Admin, mehr Kundengewinnung.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen",
+    "trustBadge": "Vertraut von Digital- und Kreativagenturen"
+  },
+  "benefits": {
+    "title": "Für Agentur-Workflows gebaut",
+    "subtitle": "Alles, was Sie brauchen, um Kunden professionell abzurechnen und die finanzielle Gesundheit Ihrer Agentur zu verfolgen",
+    "items": [
+      { "title": "Multi-Projekt-Abrechnung", "description": "Verwalten Sie Rechnungen für Dutzende von Kunden und Projekten von einem Dashboard aus. Jeder Kunde erhält sein eigenes Abrechnungsprofil mit separaten Zahlungsbedingungen, Branding und Finanzverfolgung." },
+      { "title": "Retainer-Rechnungen", "description": "Automatisieren Sie wiederkehrende Rechnungen für Retainer-Kunden mit anpassbaren Zeitplänen und Beträgen. Einmal einrichten, Invoicemonk erledigt jeden Abrechnungszyklus." },
+      { "title": "Umsatzberichte", "description": "Verfolgen Sie Umsatz pro Kunde, Projektrentabilität und ausstehende Zahlungen auf einen Blick. Erstellen Sie Berichte für strategische Entscheidungen." },
+      { "title": "Professionelles Branding", "description": "White-Label-Rechnungen mit Ihrem Agenturlogo und individuellen Zahlungsbedingungen. Jede Rechnung stärkt Ihre professionelle Identität." }
+    ]
+  },
+  "useCases": {
+    "title": "Wie Agenturen Invoicemonk nutzen",
+    "subtitle": "Von Boutique-Studios bis Full-Service-Agenturen — so passt Invoicemonk zu Ihrem Abrechnungsmodell",
+    "items": [
+      { "title": "Monatliche Retainer", "description": "Richten Sie wiederkehrende Rechnungen für jeden Retainer-Kunden ein — SEO, Social Media, PPC oder Content-Erstellung. Invoicemonk sendet jede Rechnung automatisch zum vereinbarten Datum." },
+      { "title": "Kampagnenprojekte", "description": "Erstellen Sie meilensteinbasierte Rechnungen für Kampagnen- oder Projektarbeit. 30% bei Kickoff, 40% nach kreativer Lieferung und 30% bei Kampagnenstart." },
+      { "title": "Internationale Konten", "description": "Stellen Sie globalen Kunden in ihrer Landeswährung Rechnungen aus — GBP für London, USD für New York, NGN für Lagos — alles von einem Dashboard." }
+    ]
+  },
+  "challenges": {
+    "title": "Typische Agentur-Herausforderungen — gelöst",
+    "subtitle": "Wir haben Invoicemonk um die echten Abrechnungsprobleme von Agenturen gebaut",
+    "items": [
+      { "problem": "Das Finanzteam verbringt Tage damit, monatliche Retainer-Rechnungen manuell zu erstellen", "solution": "Automatisierte wiederkehrende Rechnungen werden planmäßig für jeden Retainer-Kunden generiert und versendet." },
+      { "problem": "Keine Sicht darauf, welche Kundenkonten tatsächlich profitabel sind", "solution": "Umsatz- und Ausgabenverfolgung pro Kunde und Projekt. Sehen Sie die tatsächliche Rentabilität auf einen Blick." },
+      { "problem": "Zahlungsverfolgung über 20+ Kundenkonten ist ein Vollzeitjob", "solution": "Automatische Zahlungserinnerungen folgen jedem Kunden nach Ihrem individuellen Zeitplan nach." },
+      { "problem": "Inkonsistente Rechnungsformatierung untergräbt das professionelle Agenturimage", "solution": "Gebrandete Rechnungsvorlagen mit Ihrem Logo, Farben und Bedingungen. Jede Rechnung sieht professionell aus." }
+    ]
+  },
+  "workflow": {
+    "title": "So funktioniert es",
+    "subtitle": "Vom Kunden-Onboarding bis zum monatlichen Reporting — optimiert für den Agenturbetrieb",
+    "steps": [
+      { "title": "Kundenkonten einrichten", "description": "Erstellen Sie ein Profil für jeden Kunden mit Rechnungsadresse, Ansprechpartner, bevorzugter Währung und Zahlungsbedingungen." },
+      { "title": "Retainer-Abrechnung automatisieren", "description": "Für monatliche Retainer-Kunden legen Sie Rechnungsbetrag, Sendedatum und Standard-Positionen fest. Invoicemonk generiert und sendet die Rechnung automatisch." },
+      { "title": "Projektmeilensteine abrechnen", "description": "Erstellen Sie Rechnungen, die an bestimmte Liefergegenstände gebunden sind. Fügen Sie Positionen für jede Arbeitskomponente hinzu." },
+      { "title": "Verfolgen und berichten", "description": "Ihr Dashboard zeigt Umsatz nach Kunde, ausstehende Rechnungen und Zahlungstrends. Erstellen Sie monatliche oder vierteljährliche Berichte." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum Agenturen Invoicemonk gegenüber Alternativen wählen",
+    "paragraphs": [
+      "Enterprise-Buchhaltungssoftware wie QuickBooks oder Xero ist leistungsfähig, aber übermäßig komplex für Agenturen, die hauptsächlich professionelle Rechnungen senden müssen. Invoicemonk liefert die Abrechnungsfunktionalität, die Agenturen tatsächlich nutzen — ohne den Overhead.",
+      "Anders als einfache Rechnungs-Apps versteht Invoicemonk das Agentur-Abrechnungsmodell. Retainer-Kunden brauchen automatisierte wiederkehrende Rechnungen. Projektkunden brauchen Meilensteinabrechnung. Internationale Kunden brauchen Mehrwährungsunterstützung.",
+      "Am wichtigsten: Invoicemonk hilft Ihnen, die finanzielle Gesundheit Ihrer Agentur zu verstehen. Umsatz-pro-Kunde-Berichte und Ausgabenverfolgung pro Projekt geben Ihnen die Daten für fundierte Geschäftsentscheidungen."
+    ]
+  },
+  "checklist": {
+    "title": "Was Agenturen mit Invoicemonk bekommen",
+    "items": [
+      "Unbegrenzte professionelle Rechnungen",
+      "Wiederkehrende Retainer-Abrechnung",
+      "Multi-Projekt-Dashboard",
+      "Individuelles Branding & Logo",
+      "Mehrwährungsunterstützung",
+      "Automatische Zahlungserinnerungen",
+      "Ausgabenverfolgung pro Projekt",
+      "Kundenverwaltungsportal",
+      "Detaillierte Umsatzberichte",
+      "Steuerkonforme Aufzeichnungen"
+    ]
+  },
+  "testimonials": {
+    "title": "Vertraut von Agenturen",
+    "items": [
+      { "quote": "Wir verwalten über 30 Retainer-Kunden. Die wiederkehrenden Rechnungen von Invoicemonk sparen uns jeden Monat Stunden.", "author": "Kemi B.", "role": "Operations Managerin, Digitalagentur" },
+      { "quote": "Die Mehrwährungsunterstützung ist ein Gamechanger für unsere internationale Kundenbasis.", "author": "David L.", "role": "Creative Director" },
+      { "quote": "Die Projektrentabilitätsverfolgung hat verändert, wie wir unsere Agentur führen.", "author": "Chioma N.", "role": "Geschäftsführerin, Marketingagentur" }
+    ]
+  },
+  "faqs": [
+    { "question": "Kann Invoicemonk Retainer-Abrechnung für Agenturen verwalten?", "answer": "Ja. Richten Sie wiederkehrende Rechnungen für Retainer-Kunden mit automatischer Planung und anpassbaren Beträgen ein." },
+    { "question": "Unterstützt Invoicemonk mehrere Teammitglieder?", "answer": "Invoicemonk unterstützt Multi-User-Zugang, damit Projektmanager, Account-Leads und Finanzteam an der Rechnungsstellung zusammenarbeiten können." },
+    { "question": "Kann ich verschiedene Kunden in verschiedenen Währungen abrechnen?", "answer": "Absolut. Invoicemonk unterstützt Mehrwährungsabrechnung, perfekt für Agenturen mit internationalen Kunden." },
+    { "question": "Wie hilft Invoicemonk Agenturen bei der Verfolgung der Projektrentabilität?", "answer": "Mit Ausgabenverfolgung und detaillierten Finanzberichten können Sie Umsatz vs. Kosten pro Kunde oder Projekt sehen." },
+    { "question": "Gibt es einen kostenlosen Plan für Agenturen?", "answer": "Ja! Invoicemonk bietet eine kostenlose Stufe mit 5 Rechnungen und 5 Quittungen pro Monat." },
+    { "question": "Kann ich Rechnungen mit der Identität meiner Agentur branden?", "answer": "Ja. Laden Sie Ihr Agenturlogo hoch und erstellen Sie Rechnungsvorlagen, die die professionelle Identität Ihrer Agentur widerspiegeln." },
+    { "question": "Wie funktionieren automatische Zahlungserinnerungen für Agenturen?", "answer": "Legen Sie Erinnerungspläne pro Kunde fest. Invoicemonk sendet automatisch höfliche, professionelle Nachverfolgungen." },
+    { "question": "Kann ich meilensteinbasierte Rechnungen für Projektarbeit erstellen?", "answer": "Ja. Erstellen Sie Rechnungen, die an bestimmte Meilensteine oder Liefergegenstände gebunden sind." }
+  ],
+  "relatedReading": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "text": "Wiederkehrende Rechnungen", "href": "/blog/recurring-invoices-automating-billing" },
+      { "text": "Kundenverwaltung", "href": "/blog/managing-multiple-clients-efficiently" },
+      { "text": "Schneller bezahlt werden", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Agenturabrechnung zu optimieren?",
+    "description": "Schließen Sie sich Agenturen an, die Invoicemonk für professionelle, automatisierte Rechnungsstellung vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

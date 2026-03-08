@@ -1,0 +1,109 @@
+{
+  "seo": {
+    "title": "Abrechnungssoftware für Anwälte | Invoicemonk",
+    "description": "Professionelle Rechtsabrechnung mit Zeiterfassung, Retainer-Verwaltung und detaillierter Rechnungsstellung. Für Kanzleien, Einzelanwälte und Rechtsberater."
+  },
+  "hero": {
+    "badge": "Für Anwälte",
+    "title": "Professionelle Abrechnung für Rechtsanwaltskanzleien",
+    "accentWord": "Rechtsanwaltskanzleien",
+    "description": "Verfolgen Sie abrechenbare Stunden, verwalten Sie Retainer und senden Sie detaillierte Rechnungen, die den Beschaffungsstandards Ihrer Mandanten entsprechen.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen",
+    "trustBadge": "Vertraut von Kanzleien und Einzelanwälten"
+  },
+  "benefits": {
+    "title": "Für Rechtsanwälte gebaut",
+    "subtitle": "Abrechnungsfunktionen für die einzigartigen Bedürfnisse von Rechtsanwaltskanzleien — vom Einzelanwalt bis zur kleinen Kanzlei",
+    "items": [
+      { "title": "Zeitbasierte Abrechnung", "description": "Verfolgen Sie abrechenbare Stunden pro Mandant und Angelegenheit. Erstellen Sie aufgeschlüsselte Rechnungen mit Zeiteinträgen, Stundensätzen und Beschreibungen." },
+      { "title": "Retainer-Verwaltung", "description": "Rechnen Sie gegen Retainer ab, verfolgen Sie Salden und senden Sie automatische Nachschussrechnungen. Mandanten sehen klare Retainer-Auszüge." },
+      { "title": "Detaillierte Rechnungen", "description": "Aufgeschlüsselte Abrechnungen, die den Anforderungen von Unternehmens- und institutionellen Mandanten entsprechen." },
+      { "title": "Compliance & Sicherheit", "description": "Sichere Aufbewahrung mit unveränderlichen Audit-Trails. Steuerkonforme Rechnungsstellung mit kryptografischer Verifizierung." }
+    ]
+  },
+  "useCases": {
+    "title": "Wie Anwälte Invoicemonk nutzen",
+    "subtitle": "Ob Einzelanwalt oder kleine Kanzlei — so passt Invoicemonk in Ihren Abrechnungsworkflow",
+    "items": [
+      { "title": "Prozessführung & Streitigkeiten", "description": "Erfassen Sie abrechenbare Stunden bei der Fallbearbeitung — Recherche, Schriftsätze, Gerichtstermine, Mandantenberatung. Erstellen Sie aufgeschlüsselte Rechnungen mit allen Zeiteinträgen." },
+      { "title": "Retainer-basierte Beratung", "description": "Richten Sie Retainer-Vereinbarungen mit monatlicher Abrechnung ein. Invoicemonk verfolgt den Saldo und sendet automatisch Nachschussrechnungen." },
+      { "title": "Transaktionen & Immobilien", "description": "Rechnen Sie Immobilientransaktionen, Firmengründungen oder Vertragsgestaltung mit meilensteinbasierter Rechnungsstellung ab." }
+    ]
+  },
+  "challenges": {
+    "title": "Typische Herausforderungen bei der Rechtsabrechnung — gelöst",
+    "subtitle": "Wir haben Invoicemonk um die echten Probleme von Rechtsanwälten gebaut",
+    "items": [
+      { "problem": "Verlust abrechenbarer Stunden, weil Zeiteinträge in Notizbüchern erfasst oder vergessen werden", "solution": "Erfassen Sie Zeiteinträge pro Mandant und Angelegenheit während der Arbeit. Alle Einträge sind bei der Rechnungsstellung bereit." },
+      { "problem": "Mandanten bestreiten Rechnungen wegen fehlender Details oder Transparenz", "solution": "Aufgeschlüsselte Rechnungen zeigen jeden Zeiteintrag mit Datum, Beschreibung, Stundensatz und Dauer." },
+      { "problem": "Manuelles Verfolgen von Retainer-Salden über mehrere Mandanten in Tabellen", "solution": "Retainer-Abbuchungsverfolgung zeigt verbleibende Salden auf jeder Rechnung. Automatische Nachschussrechnungen bei niedrigem Saldo." },
+      { "problem": "Stundenlange Vorbereitung von Finanzunterlagen für Compliance-Prüfungen", "solution": "Jede Rechnung und Zahlung wird automatisch mit unveränderlichen Audit-Trails protokolliert. Compliance-Berichte mit einem Klick exportieren." }
+    ]
+  },
+  "workflow": {
+    "title": "So funktioniert es",
+    "subtitle": "Vom Mandanten-Onboarding bis zum Compliance-Bericht — in vier Schritten",
+    "steps": [
+      { "title": "Mandant aufnehmen", "description": "Fügen Sie die Mandantendetails hinzu — Name, Firma, Rechnungsadresse und Steuernummer. Für Retainer-Mandate richten Sie den Retainer-Betrag und Abrechnungsplan ein." },
+      { "title": "Zeit und Ausgaben erfassen", "description": "Erfassen Sie abrechenbare Stunden mit Beschreibungen. Dokumentieren Sie Fallkosten — Gerichtsgebühren, Reisen, Sachverständige." },
+      { "title": "Rechnungen erstellen und senden", "description": "Erstellen Sie eine aufgeschlüsselte Rechnung mit allen erfassten Zeiteinträgen und Ausgaben. Prüfen, Retainer-Abzüge anwenden und senden." },
+      { "title": "Zahlungen verfolgen und berichten", "description": "Überwachen Sie den Zahlungsstatus in Echtzeit. Automatische Erinnerungen für überfällige Rechnungen. Compliance-Berichte zum Quartals- oder Jahresende." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum Anwälte Invoicemonk gegenüber Alternativen wählen",
+    "paragraphs": [
+      "Rechtsabrechnung hat einzigartige Anforderungen, die generische Rechnungssoftware nicht berücksichtigt. Invoicemonk integriert zeitbasierte Abrechnung, Retainer-Verwaltung und Compliance-Grade-Audit-Trails von Anfang an.",
+      "Jede Rechnung enthält einen kryptografischen Verifizierungscode und QR-Code. Mandanten, Prüfer oder Regulierungsbehörden können die Echtheit unabhängig verifizieren.",
+      "Für kleine Kanzleien ermöglichen die Teamverwaltungsfunktionen, dass Associates und Paralegals Zeiteinträge erfassen, während Partner die Kontrolle über Rechnungsstellung behalten."
+    ]
+  },
+  "checklist": {
+    "title": "Was Anwälte mit Invoicemonk bekommen",
+    "items": [
+      "Zeitbasierte Stundenabrechnung",
+      "Retainer-Verwaltung",
+      "Mandatsbezogenes Tracking",
+      "Detaillierte Abrechnungen",
+      "Automatische Zahlungserinnerungen",
+      "Ausgabenverfolgung pro Fall",
+      "Professionelles Branding",
+      "Mehrwährungsunterstützung",
+      "Sichere Dokumentenspeicherung",
+      "Steuerkonforme Aufzeichnungen",
+      "Teamzugangskontrollen",
+      "Kryptografische Verifizierung"
+    ]
+  },
+  "testimonials": {
+    "title": "Vertraut von Rechtsanwälten",
+    "items": [
+      { "quote": "Die zeitbasierte Abrechnung und Retainer-Verfolgung haben meiner Kanzlei unzählige Stunden gespart.", "author": "Aisha M.", "role": "Wirtschaftsanwältin" },
+      { "quote": "Als Einzelanwalt brauchte ich etwas Einfaches und Professionelles. Invoicemonk liefert beides.", "author": "Emeka O.", "role": "Familienrechtsanwalt" },
+      { "quote": "Die Abrechnung für eine kleine Kanzlei zu verwalten bedeutete früher lange Nächte mit Tabellen. Jetzt erfasst jeder Associate seine Stunden.", "author": "Chioma A.", "role": "Managing Partnerin, Prozesskanzlei" }
+    ]
+  },
+  "faqs": [
+    { "question": "Kann Invoicemonk Stundenabrechnung für Anwälte verwalten?", "answer": "Ja. Verfolgen Sie abrechenbare Stunden pro Mandant und Angelegenheit, dann erstellen Sie detaillierte Rechnungen." },
+    { "question": "Unterstützt Invoicemonk Treuhandkonto-Abrechnung?", "answer": "Sie können Rechnungen erstellen, die auf Treuhandkonto-Salden verweisen und Retainer-Abzüge zur Compliance verfolgen." },
+    { "question": "Kann ich LEDES-Format-Rechnungen erstellen?", "answer": "Invoicemonk erstellt detaillierte, aufgeschlüsselte Rechnungen für Unternehmenskunden. Kontaktieren Sie uns für spezifische LEDES-Export-Anforderungen." },
+    { "question": "Wie hilft Invoicemonk bei der Compliance?", "answer": "Alle Rechnungen enthalten erforderliche Steuerinformationen und werden sicher mit unveränderlichen Audit-Trails gespeichert." },
+    { "question": "Gibt es einen kostenlosen Plan für Einzelanwälte?", "answer": "Ja! Einzelanwälte können kostenlos mit 5 Rechnungen und 5 Quittungen pro Monat starten." },
+    { "question": "Kann ich Ausgaben pro Fall verfolgen?", "answer": "Ja. Erfassen Sie Ausgaben pro Mandant — Gerichtsgebühren, Sachverständige, Reisen. Sehen Sie Ihre tatsächliche Rentabilität pro Mandat." },
+    { "question": "Erstellt Invoicemonk Quittungen bei Zahlungseingang?", "answer": "Jede erfasste Zahlung generiert automatisch eine professionelle Quittung mit Verifizierungscode und QR-Code." }
+  ],
+  "relatedReading": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "text": "Zeiterfassung & Rechnungsstellung", "href": "/blog/freelance-time-tracking-guide" },
+      { "text": "Zahlungsbedingungen", "href": "/blog/how-to-write-invoice-payment-terms" },
+      { "text": "Schneller bezahlt werden", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Rechtsabrechnung zu modernisieren?",
+    "description": "Schließen Sie sich Rechtsanwälten an, die Invoicemonk für konforme, professionelle Rechnungsstellung vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

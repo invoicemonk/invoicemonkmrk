@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Software de faturamento para agências | Invoicemonk",
+    "description": "Otimize o faturamento da sua agência com faturas recorrentes, rastreamento multi-projeto e faturas personalizadas. Para agências digitais, criativas e de marketing."
+  },
+  "hero": {
+    "badge": "Para agências",
+    "title": "Faturamento feito para agências em crescimento",
+    "accentWord": "agências",
+    "description": "Gerencie faturamento de retainers, faturas de projetos e pagamentos multi-moeda em uma única plataforma.",
+    "primaryCta": "Começar grátis",
+    "secondaryCta": "Ver preços",
+    "trustBadge": "Confiado por agências digitais e criativas"
+  },
+  "benefits": {
+    "title": "Feito para fluxos de trabalho de agência",
+    "subtitle": "Tudo que você precisa para faturar clientes profissionalmente e acompanhar a saúde financeira da sua agência",
+    "items": [
+      { "title": "Faturamento multi-projeto", "description": "Gerencie faturas de dezenas de clientes e projetos em um único painel. Cada cliente tem seu próprio perfil de faturamento." },
+      { "title": "Faturas recorrentes", "description": "Automatize faturas recorrentes para clientes em retainer com cronogramas e valores personalizáveis." },
+      { "title": "Relatórios de receita", "description": "Acompanhe receita por cliente, lucratividade de projetos e pagamentos pendentes de um só lugar." },
+      { "title": "Imagem profissional", "description": "Faturas personalizadas com o logo da sua agência e condições de pagamento. Cada fatura reforça sua identidade profissional." }
+    ]
+  },
+  "useCases": {
+    "title": "Como as agências usam o Invoicemonk",
+    "subtitle": "De estúdios boutique a agências full-service — veja como o Invoicemonk se adapta ao seu modelo de faturamento",
+    "items": [
+      { "title": "Retainers mensais", "description": "Configure faturas recorrentes para cada cliente — SEO, mídias sociais, PPC ou criação de conteúdo. O Invoicemonk envia cada fatura automaticamente." },
+      { "title": "Projetos de campanha", "description": "Crie faturas baseadas em marcos. 30% no início, 40% após a entrega criativa e 30% no lançamento da campanha." },
+      { "title": "Contas internacionais", "description": "Fature clientes globais na moeda local — GBP para Londres, USD para Nova York, NGN para Lagos — tudo em um painel." }
+    ]
+  },
+  "challenges": {
+    "title": "Desafios comuns de agências — resolvidos",
+    "subtitle": "Construímos o Invoicemonk em torno dos problemas reais de faturamento que as agências enfrentam",
+    "items": [
+      { "problem": "A equipe financeira gasta dias criando e enviando manualmente as faturas mensais", "solution": "Faturas recorrentes automatizadas são geradas e enviadas conforme o cronograma para cada cliente." },
+      { "problem": "Sem visibilidade sobre quais contas de clientes são realmente lucrativas", "solution": "Rastreamento de receitas e despesas por cliente e projeto. Veja a lucratividade real de um relance." },
+      { "problem": "Cobrar pagamentos em mais de 20 contas é um trabalho em tempo integral", "solution": "Lembretes automáticos de pagamento acompanham cada cliente conforme seu cronograma personalizado." },
+      { "problem": "Formatação inconsistente de faturas prejudica a imagem profissional", "solution": "Modelos personalizados com seu logo, cores e condições. Cada fatura tem aparência profissional." }
+    ]
+  },
+  "workflow": {
+    "title": "Como funciona",
+    "subtitle": "Da integração do cliente ao relatório mensal — otimizado para operações de agência",
+    "steps": [
+      { "title": "Configurar contas de clientes", "description": "Crie um perfil para cada cliente com endereço de faturamento, contato, moeda preferida e condições de pagamento." },
+      { "title": "Automatizar faturamento", "description": "Para clientes mensais, defina o valor, data de envio e itens padrão. O Invoicemonk gera e envia automaticamente." },
+      { "title": "Faturar marcos do projeto", "description": "Crie faturas vinculadas a entregas específicas. Adicione itens para cada componente de trabalho." },
+      { "title": "Rastrear e reportar", "description": "Seu painel mostra receita por cliente, faturas pendentes e tendências de pagamento. Gere relatórios mensais ou trimestrais." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Por que as agências escolhem o Invoicemonk",
+    "paragraphs": [
+      "Software contábil empresarial é poderoso mas complexo demais para agências que principalmente precisam enviar faturas profissionais. O Invoicemonk oferece a funcionalidade que as agências realmente usam.",
+      "Diferente de apps simples, o Invoicemonk entende o modelo de faturamento de agências. Clientes em retainer, faturamento por marcos, suporte multi-moeda — tudo em um painel.",
+      "O Invoicemonk ajuda você a entender a saúde financeira da sua agência. Relatórios de receita por cliente e rastreamento de despesas por projeto para decisões informadas."
+    ]
+  },
+  "checklist": {
+    "title": "O que as agências ganham com o Invoicemonk",
+    "items": [
+      "Faturas profissionais ilimitadas",
+      "Faturamento recorrente",
+      "Painel multi-projeto",
+      "Branding personalizado e logo",
+      "Suporte multi-moeda",
+      "Lembretes automáticos de pagamento",
+      "Rastreamento de despesas por projeto",
+      "Portal de gestão de clientes",
+      "Relatórios detalhados de receita",
+      "Documentos fiscalmente conformes"
+    ]
+  },
+  "testimonials": {
+    "title": "Confiado por agências",
+    "items": [
+      { "quote": "Gerenciamos mais de 30 clientes em retainer. As faturas recorrentes do Invoicemonk nos economizam horas todo mês.", "author": "Kemi B.", "role": "Gerente de operações, Agência digital" },
+      { "quote": "O suporte multi-moeda é um diferencial para nossa base de clientes internacionais.", "author": "David L.", "role": "Diretor criativo" },
+      { "quote": "O rastreamento de lucratividade mudou como gerenciamos nossa agência.", "author": "Chioma N.", "role": "Diretora geral, Agência de marketing" }
+    ]
+  },
+  "faqs": [
+    { "question": "O Invoicemonk gerencia faturamento recorrente para agências?", "answer": "Sim. Configure faturas recorrentes com planejamento automático e valores personalizáveis." },
+    { "question": "O Invoicemonk suporta múltiplos membros da equipe?", "answer": "O Invoicemonk suporta acesso multi-usuário para que gerentes de projeto e equipe financeira colaborem." },
+    { "question": "Posso faturar diferentes clientes em diferentes moedas?", "answer": "Absolutamente. O Invoicemonk suporta faturamento multi-moeda, perfeito para agências internacionais." },
+    { "question": "Como o Invoicemonk ajuda agências a rastrear lucratividade?", "answer": "Com rastreamento de despesas e relatórios financeiros detalhados você vê receitas vs. custos por cliente ou projeto." },
+    { "question": "Existe um plano gratuito para agências?", "answer": "Sim! O Invoicemonk oferece um nível gratuito com 5 faturas e 5 recibos por mês." },
+    { "question": "Posso personalizar as faturas com a identidade da minha agência?", "answer": "Sim. Faça upload do seu logo e crie modelos que reflitam a identidade profissional da sua agência." },
+    { "question": "Como funcionam os lembretes automáticos de pagamento?", "answer": "Defina cronogramas de lembrete por cliente. O Invoicemonk envia acompanhamentos profissionais automaticamente." },
+    { "question": "Posso criar faturas baseadas em marcos?", "answer": "Sim. Crie faturas vinculadas a marcos ou entregas específicas." }
+  ],
+  "relatedReading": {
+    "title": "Leituras relacionadas",
+    "links": [
+      { "text": "Guia de faturas recorrentes", "href": "/blog/recurring-invoices-automating-billing" },
+      { "text": "Gestão de clientes", "href": "/blog/managing-multiple-clients-efficiently" },
+      { "text": "Receber mais rápido", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para otimizar o faturamento da sua agência?",
+    "description": "Junte-se às agências que confiam no Invoicemonk para faturamento profissional e automatizado.",
+    "button": "Começar grátis"
+  }
+}
