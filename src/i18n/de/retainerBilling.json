@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Retainer-Abrechnung & Kunden-Retainer-Fakturierung | Invoicemonk",
+    "description": "Automatisieren Sie Retainer-Fakturierung für laufende Kundenbeziehungen. Wiederkehrende Abrechnung und professionelles Retainer-Management. Kostenloser Plan verfügbar."
+  },
+  "hero": {
+    "badge": "Retainer-Abrechnung",
+    "title": "Mühelose Retainer-Fakturierung",
+    "accentWord": "Retainer",
+    "description": "Automatisieren Sie monatliche Retainer-Abrechnung für Ihre Kunden. Feste Beträge, wiederkehrende Zeitpläne — Invoicemonk erledigt den Rest.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen"
+  },
+  "overview": {
+    "title": "Die Kraft retainerbasierter Einnahmen",
+    "paragraphs": [
+      "Retainer-Abrechnung verwandelt den Boom-und-Flaute-Zyklus projektbasierter Arbeit in stetige, vorhersehbare Einnahmen. Für Agenturen, Berater und professionelle Dienstleistungsfirmen sind Retainer der Goldstandard der Kundenbeziehungen.",
+      "Retainer manuell zu verwalten führt jedoch zu unnötiger Reibung. Die gleiche Rechnung jeden Monat erstellen, verschiedene Beträge für verschiedene Kunden merken — diese Aufgaben verbrauchen wertvolle Stunden.",
+      "Invoicemonk automatisiert den gesamten Retainer-Abrechnungs-Workflow. Definieren Sie Betrag, Abrechnungsfrequenz und Zahlungsbedingungen jedes Kunden einmal, und das System erledigt alles."
+    ]
+  },
+  "benefits": {
+    "title": "Warum Retainer-Abrechnung mit Invoicemonk?",
+    "subtitle": "Vorhersehbare Einnahmen, zufriedenere Kunden, weniger Verwaltungsarbeit",
+    "items": [
+      { "title": "Automatisierte Abrechnungszyklen", "desc": "Legen Sie einen Zeitplan fest und Invoicemonk erstellt und sendet Retainer-Rechnungen automatisch." },
+      { "title": "Umsatzprognose", "desc": "Sehen Sie Ihre gesamten wiederkehrenden Einnahmen auf einen Blick. Invoicemonks Dashboard zeigt genau, wie viel Retainer-Einkommen zu erwarten ist." },
+      { "title": "Professionelle Markenrechnungen", "desc": "Jede Retainer-Rechnung trägt Ihr Firmenbranding, klare Zahlungsbedingungen und aufgeschlüsselte Beschreibungen." },
+      { "title": "Kundenbindungs-Einblicke", "desc": "Verfolgen Sie die Retainer-Historie pro Kunde — sehen Sie Retainer-Dauer, Gesamtfakturierung und Zahlungsmuster." },
+      { "title": "Zeit- & Kostenerfassung", "desc": "Erfassen Sie Stunden und Ausgaben pro Retainer-Kunde. Vergleichen Sie tatsächliche Arbeit mit dem Retainer-Betrag." },
+      { "title": "Flexible Anpassungen", "desc": "Erhöhen oder senken Sie Retainer-Beträge während des Vertrags. Änderungen gelten ab dem nächsten Zyklus." }
+    ]
+  },
+  "example": {
+    "title": "Retainer-Abrechnung in Aktion",
+    "scenario": "Szenario: Eine Anwaltskanzlei mit 20 Retainer-Kunden",
+    "paragraphs": [
+      "Adekunle & Partners ist eine mittelgroße Anwaltskanzlei mit 20 monatlichen Retainer-Vereinbarungen. Zuvor verbrachte ein Junior-Anwalt drei Tage im Monat mit der Vorbereitung von Retainer-Rechnungen.",
+      "Nach dem Umstieg auf Invoicemonks wiederkehrende Abrechnung richtete die Kanzlei alle 20 Zeitpläne an einem Nachmittag ein. Jeder Kunden-Retainer hat spezifische Bedingungen — alles einmal konfiguriert und läuft automatisch.",
+      "Das Ergebnis: Die Kanzlei gewann über ₦600.000 an abrechnungsfähigen Stunden pro Monat zurück, reduzierte Zahlungsverzögerungen um 35% und hat Echtzeit-Einblick in ihre wiederkehrende Umsatzpipeline."
+    ],
+    "stats": [
+      { "value": "₦600K+", "label": "Monatlich zurückgewonnen" },
+      { "value": "35%", "label": "Weniger Zahlungsverzögerungen" },
+      { "value": "20", "label": "Auto-verwaltete Retainer" }
+    ]
+  },
+  "whoUsesIt": {
+    "title": "Wer nutzt Retainer-Abrechnung?",
+    "subtitle": "Retainer-Modelle funktionieren für jede professionelle Dienstleistung mit laufenden Kundenbeziehungen",
+    "items": [
+      "Marketing- und PR-Agenturen",
+      "Anwaltskanzleien und Rechtspraxen",
+      "IT-Berater und Managed-Service-Anbieter",
+      "Business- und Executive-Coaches",
+      "Buchhalter und Steuerberater",
+      "HR-Beratungsfirmen",
+      "Design-Studios mit laufenden Kunden",
+      "Virtuelle Assistenten und Support-Teams"
+    ]
+  },
+  "testimonials": {
+    "title": "Vertraut von retainerbasierten Unternehmen",
+    "items": [
+      { "quote": "Die Verwaltung von 15 Retainer-Kunden hat früher einen ganzen Tag pro Monat gedauert. Jetzt läuft es auf Autopilot.", "name": "Funmi A.", "role": "PR-Agentur-Direktorin, Lagos" },
+      { "quote": "Die Retainer-Tracking-Funktion lässt mich Kunden genau zeigen, wie ihr Retainer verwendet wird. Das hat Vertrauen aufgebaut.", "name": "James W.", "role": "IT-Berater, Manchester" },
+      { "quote": "Wir sind von der Jagd nach Retainer-Zahlungen zu 95% Einzug innerhalb von 7 Tagen übergegangen.", "name": "Chinedu E.", "role": "Anwaltspartner, Port Harcourt" }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Was ist Retainer-Abrechnung?", "answer": "Retainer-Abrechnung ist ein wiederkehrendes Zahlungsmodell, bei dem Kunden einen festen Betrag für laufende Dienstleistungen zahlen." },
+      { "question": "Wie richte ich Retainer-Rechnungen in Invoicemonk ein?", "answer": "Erstellen Sie eine wiederkehrende Rechnung mit Betrag, Zeitplan und Zahlungsbedingungen." },
+      { "question": "Kann ich Stunden gegen einen Retainer verfolgen?", "answer": "Ja. Verfolgen Sie Stunden und Ausgaben pro Kunde und vergleichen Sie die tatsächliche Arbeit mit dem Retainer-Betrag." },
+      { "question": "Was, wenn ein Retainer während der Vertragslaufzeit angepasst werden muss?", "answer": "Aktualisieren Sie den Betrag jederzeit. Änderungen gelten ab dem nächsten Abrechnungszyklus." },
+      { "question": "Wie unterscheiden sich Retainer von projektbasierter Abrechnung?", "answer": "Retainer bieten ein festes, vorhersehbares Einkommen. Projektbasierte Abrechnung bindet Zahlungen an spezifische Ergebnisse." },
+      { "question": "Kann ich verschiedene Retainer-Stufen anbieten?", "answer": "Ja. Erstellen Sie einzigartige wiederkehrende Zeitpläne für jeden Kunden mit unterschiedlichen Beträgen und Bedingungen." },
+      { "question": "Was, wenn ein Kunde seinen Retainer pausieren möchte?", "answer": "Pausieren Sie den Zeitplan mit einem Klick. Keine Rechnungen werden während der Pausenzeit erstellt." },
+      { "question": "Beinhalten Retainer-Rechnungen Steuerberechnungen?", "answer": "Ja. Jede Retainer-Rechnung enthält automatisch die von Ihnen konfigurierten Steuersätze." }
+    ]
+  },
+  "related": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "label": "Leitfaden für Zahlungsbedingungen", "to": "/blog/how-to-write-invoice-payment-terms" },
+      { "label": "Mehrere Kunden verwalten", "to": "/blog/managing-multiple-clients-efficiently" },
+      { "label": "Für Agenturen", "to": "/agencies" },
+      { "label": "Für Anwälte", "to": "/lawyers" },
+      { "label": "Wiederkehrende Abrechnung", "to": "/use-cases/recurring-billing" }
+    ]
+  },
+  "cta": {
+    "title": "Sichern Sie wiederkehrende Einnahmen",
+    "description": "Richten Sie Retainer-Abrechnung in Minuten ein. Kostenlos starten — keine Kreditkarte erforderlich.",
+    "button": "Kostenlos starten"
+  }
+}

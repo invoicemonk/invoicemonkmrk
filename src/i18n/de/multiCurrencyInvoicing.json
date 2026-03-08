@@ -1,0 +1,83 @@
+{
+  "seo": {
+    "title": "Multi-Währung-Rechnungssoftware | In jeder Währung fakturieren | Invoicemonk",
+    "description": "Rechnungen in jeder Währung senden. Multi-Währung-Unterstützung für Freelancer und Unternehmen mit internationalen Kunden. Kostenloser Plan verfügbar."
+  },
+  "hero": {
+    "badge": "Multi-Währung",
+    "title": "Kunden in jeder Währung fakturieren",
+    "accentWord": "Währung",
+    "description": "Stellen Sie internationalen Kunden in deren Landeswährung Rechnungen. Invoicemonk übernimmt Umrechnungen und hält Ihre Bücher organisiert.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen"
+  },
+  "overview": {
+    "title": "Warum Multi-Währung-Fakturierung für globale Unternehmen unverzichtbar ist",
+    "paragraphs": [
+      "Wenn Sie mit internationalen Kunden arbeiten, ist die Fakturierung in deren Landeswährung nicht nur bequem — es ist ein Wettbewerbsvorteil. Rechnungen in der Währung des Empfängers werden schneller bezahlt, mit weniger Streitigkeiten über Beträge.",
+      "Für Unternehmen in Nigeria, Großbritannien, Kanada, Australien und den USA ist Multi-Währung-Fakturierung zunehmend die Norm. Viele Fakturierungstools unterstützen entweder keine Mehrfachwährungen oder verlangen Premium-Preise dafür.",
+      "Invoicemonk bietet Multi-Währung-Unterstützung in jedem Plan, einschließlich des kostenlosen Plans. Erstellen Sie Rechnungen in jeder Währung, setzen Sie eigene oder Marktwechselkurse und verfolgen Sie Einnahmen pro Währung."
+    ]
+  },
+  "benefits": {
+    "title": "Warum Multi-Währung wichtig ist",
+    "subtitle": "Fakturierung in der Kundenwährung verbessert Zahlungsgeschwindigkeit, Professionalität und Vertrauen",
+    "items": [
+      { "title": "Globale Reichweite", "desc": "Fakturieren Sie Kunden weltweit in deren Landeswährung. Keine geografischen Einschränkungen." },
+      { "title": "Flexible Wechselkurse", "desc": "Setzen Sie individuelle Kurse oder verwenden Sie Marktwechselkurse. Der verwendete Kurs wird auf jeder Rechnung transparent angezeigt." },
+      { "title": "Steuerkonformität pro Währung", "desc": "Steuerberechnungen passen sich automatisch basierend auf der Rechnungswährung an. MwSt., GST, Umsatzsteuer — alles korrekt berechnet." },
+      { "title": "Einheitliche Umsatzberichte", "desc": "Sehen Sie Einnahmen über alle Währungen konsolidiert in Ihrer Basiswährung." },
+      { "title": "Wiederkehrende Multi-Währung", "desc": "Kombinieren Sie Multi-Währung mit wiederkehrender Abrechnung für internationale Retainer-Kunden." },
+      { "title": "Kundenfreundliche Rechnungen", "desc": "Kunden sehen Beträge in ihrer eigenen Währung ohne Umrechnungsverwirrung." }
+    ]
+  },
+  "example": {
+    "title": "Multi-Währung-Fakturierung in Aktion",
+    "scenario": "Szenario: Ein Freelance-Entwickler mit Kunden in 4 Ländern",
+    "paragraphs": [
+      "Tunde ist ein freiberuflicher Softwareentwickler in Lagos mit Kunden in Nigeria, Großbritannien, den USA und Kanada. Vor Invoicemonk fakturierte er alle in USD — was zu Zahlungsverzögerungen von durchschnittlich 12 Tagen führte.",
+      "Mit Invoicemonk fakturiert Tunde jeden Kunden in dessen Landeswährung: NGN, GBP, USD und CAD. Er richtete 4 Währungskonten ein, um Einnahmen pro Markt zu verfolgen.",
+      "Das Ergebnis: Die durchschnittliche Zahlungszeit sank von 23 auf 11 Tage, währungsbezogene Streitigkeiten verschwanden vollständig."
+    ],
+    "stats": [
+      { "value": "52%", "label": "Schnellere Zahlungen" },
+      { "value": "0", "label": "Währungsstreitigkeiten" },
+      { "value": "4", "label": "Währungskonten" }
+    ]
+  },
+  "testimonials": {
+    "title": "Was globale Unternehmen sagen",
+    "items": [
+      { "quote": "Die Fakturierung meiner UK-Kunden in GBP statt NGN hat meine durchschnittliche Zahlungszeit von 3 Wochen auf 10 Tage reduziert.", "name": "Kemi A.", "role": "UX-Designerin, Lagos" },
+      { "quote": "Ich arbeite mit Kunden in 6 Ländern. Alle Einnahmen in einem Dashboard konsolidiert zu haben, ist genau das, was ich brauchte.", "name": "Marcus T.", "role": "Marketing-Berater, Toronto" },
+      { "quote": "Die Multi-Währung-Funktion ist der Grund, warum ich Invoicemonk statt Wave gewählt habe.", "name": "Amara N.", "role": "Content-Strategin, Accra" }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Wie viele Währungen unterstützt Invoicemonk?", "answer": "Invoicemonk unterstützt alle wichtigen Weltwährungen einschließlich USD, EUR, GBP, NGN, CAD, AUD und viele mehr." },
+      { "question": "Verwaltet Invoicemonk Wechselkurse?", "answer": "Sie können individuelle Wechselkurse für jede Rechnung festlegen oder aktuelle Marktkurse verwenden." },
+      { "question": "Kann ich mehrere Währungskonten haben?", "answer": "Ja. Kostenlose Pläne beinhalten 1 Währungskonto, Starter 3, und Professional/Business unterstützen unbegrenzte Währungskonten." },
+      { "question": "Ist Multi-Währung-Fakturierung kostenlos?", "answer": "Multi-Währung-Fakturierung ist in allen Plänen verfügbar. Der kostenlose Plan unterstützt 1 Währungskonto." },
+      { "question": "Wie handle ich Steuern auf Multi-Währung-Rechnungen?", "answer": "Invoicemonk berechnet Steuern basierend auf der Rechnungswährung und Ihren konfigurierten Steuersätzen." },
+      { "question": "Kann ich alle Einnahmen in einer Währung für Berichte sehen?", "answer": "Ja. Das Reporting-Dashboard kann Einnahmen über alle Währungen in Ihre Basiswährung konsolidieren." },
+      { "question": "Was ist mit dem Empfang von Zahlungen in verschiedenen Währungen?", "answer": "Invoicemonk verwaltet Fakturierung und Tracking. Für den Zahlungsempfang integrieren wir uns mit Multi-Währung-Zahlungsanbietern." },
+      { "question": "Sehen Kunden die Rechnung in ihrer Landeswährung?", "answer": "Ja. Kunden sehen alle Beträge — Positionen, Steuern, Summen — in ihrer Währung." }
+    ]
+  },
+  "related": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "label": "Internationale Zahlungsgebühren erklärt", "to": "/blog/international-payment-fees-explained" },
+      { "label": "Gebührenrechner", "to": "/international-payment-fee-calculator" },
+      { "label": "Für E-Commerce", "to": "/ecommerce" },
+      { "label": "Günstigste internationale Zahlungen", "to": "/cheapest-way-to-receive-international-payments" }
+    ]
+  },
+  "cta": {
+    "title": "Werden Sie global mit Ihrer Fakturierung",
+    "description": "Beginnen Sie mit Multi-Währung-Fakturierung — kostenlos. Keine Kreditkarte erforderlich.",
+    "button": "Kostenlos starten"
+  }
+}

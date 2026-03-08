@@ -1,0 +1,107 @@
+{
+  "seo": {
+    "title": "Milestone Billing & Progress Invoicing | Invoicemonk",
+    "description": "Bill clients at project milestones with deposit, progress, and final invoices. Perfect for photographers, developers, and project-based businesses. Free tier available."
+  },
+  "hero": {
+    "badge": "Milestone Billing",
+    "title": "Bill at every project milestone",
+    "accentWord": "milestone",
+    "description": "Collect deposits, send progress invoices, and bill final balances — all tied to clear project milestones.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "View Pricing"
+  },
+  "overview": {
+    "title": "Why milestone billing is the smartest way to invoice projects",
+    "paragraphs": [
+      "Waiting until a project is complete to send an invoice is one of the biggest cash flow mistakes service businesses make. Milestone billing solves this by breaking payment into phases that align with project deliverables — ensuring you're compensated as you deliver value, not weeks or months after the work is done. For the client, it provides built-in checkpoints where they can review progress before the next payment is due, building trust on both sides.",
+      "The psychology behind milestone billing is powerful. Clients who pay in stages feel more invested in the project's success and are more engaged with feedback and approvals. From your perspective, regular payments maintain healthy cash flow and reduce the financial risk of large projects. If a project is cancelled mid-way, you've already been compensated for the work completed — unlike the all-or-nothing approach where cancellation means chasing payment for work already delivered.",
+      "Invoicemonk makes milestone billing straightforward. Create invoices for each phase with clear descriptions of the deliverables, link them to the same client and project, and track the overall project value against payments received. Your client can verify each invoice through their portal, creating a transparent record that eliminates disputes and builds long-term trust."
+    ]
+  },
+  "howItWorks": {
+    "title": "How milestone billing works",
+    "subtitle": "Break projects into billable phases for better cash flow and client trust",
+    "steps": [
+      { "title": "1. Deposit invoice", "desc": "Collect an upfront payment (typically 25–50%) before work begins. This secures the client's commitment and covers your initial investment." },
+      { "title": "2. Progress invoices", "desc": "Bill at each milestone as work is delivered and approved. Each invoice references the specific deliverables completed in that phase." },
+      { "title": "3. Final invoice", "desc": "Send the remaining balance upon project completion. With most of the project already paid, collection is smooth and straightforward." }
+    ]
+  },
+  "features": {
+    "title": "How Invoicemonk supports milestone billing",
+    "subtitle": "Tools designed for project-based professionals",
+    "items": [
+      { "title": "Draft All Milestones Upfront", "desc": "Create all milestone invoices as drafts when the project begins. Send each one as the corresponding phase is completed — your client knows exactly what to expect and when." },
+      { "title": "Client Verification Portal", "desc": "Clients can view all invoices for their project in one place, verify amounts, and download receipts. Transparency eliminates disputes before they start." },
+      { "title": "Flexible Payment Splits", "desc": "Split projects any way you need — 50/50, 30/40/30, or custom percentages per milestone. Each invoice clearly shows the phase, deliverables, and amount due." },
+      { "title": "Tax-Compliant Invoices", "desc": "Every milestone invoice includes the correct tax calculations for your jurisdiction. VAT, GST, and withholding tax are handled automatically so your invoices are always compliant." },
+      { "title": "Payment Tracking Per Project", "desc": "See total project value, amount invoiced, amount paid, and outstanding balance at a glance. Know exactly where each project stands financially." },
+      { "title": "Scope Change Documentation", "desc": "When project scope changes, create additional milestone invoices to document the new work. Your complete invoice history serves as a transparent record of all project changes." }
+    ]
+  },
+  "example": {
+    "title": "Milestone billing in action",
+    "scenario": "Scenario: A wedding photographer's 3-phase billing",
+    "paragraphs": [
+      "Ngozi is a wedding photographer in Lagos who books 15–20 weddings per year at an average of ₦500,000 per event. She uses a three-milestone billing structure: 40% booking deposit when the client signs the contract, 30% on the day of the wedding, and 30% upon delivery of the final edited photos.",
+      "Before Invoicemonk, Ngozi tracked payments in a spreadsheet and occasionally forgot to send the final invoice — losing thousands of naira in uncollected balances. With milestone billing in Invoicemonk, she creates all three invoices as drafts when booking a client. The deposit invoice sends immediately, and she marks the remaining two for manual send when each milestone is reached.",
+      "The result: zero missed invoices, faster final payments (clients expect the invoice because they can see it in their portal), and a complete financial record for each wedding project."
+    ],
+    "stats": [
+      { "value": "40%", "label": "Booking deposit" },
+      { "value": "30%", "label": "Event day payment" },
+      { "value": "30%", "label": "Final delivery" }
+    ]
+  },
+  "idealFor": {
+    "title": "Ideal for project-based professionals",
+    "subtitle": "Any service with distinct project phases benefits from milestone billing",
+    "items": [
+      "Wedding & event photographers",
+      "Web designers & developers",
+      "Architects & builders",
+      "Marketing & creative agencies",
+      "Interior designers",
+      "Video production teams",
+      "Custom software developers",
+      "Event planners and coordinators"
+    ]
+  },
+  "testimonials": {
+    "title": "How professionals use milestone billing",
+    "items": [
+      { "quote": "I used to lose money on every project because I'd forget to send the final invoice. Now all milestones are set up from day one and nothing slips through.", "name": "Emeka O.", "role": "Web Developer, Enugu" },
+      { "quote": "My clients appreciate seeing all the milestone invoices upfront. It sets clear expectations about payment timing and they're always prepared.", "name": "Aisha B.", "role": "Interior Designer, Abuja" },
+      { "quote": "Milestone billing cut our payment collection time in half. Clients who can see the next invoice coming are far more likely to pay on time.", "name": "Tom R.", "role": "Video Producer, London" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "question": "What is milestone billing?", "answer": "Milestone billing splits a project into distinct phases, with payment due at the completion of each phase. For example, a web developer might bill 30% as a deposit, 40% at design approval, and the remaining 30% at launch. This model protects both the service provider and the client by tying payments to tangible deliverables." },
+      { "question": "How do I create milestone invoices in Invoicemonk?", "answer": "Create separate invoices for each milestone with clear descriptions of the deliverables completed. Link them to the same client for easy tracking. You can also create all milestone invoices upfront as drafts and send them as each phase is completed." },
+      { "question": "Can I combine milestone billing with deposits?", "answer": "Absolutely. The most common approach is to send a deposit invoice before work begins (typically 25–50% of the total), then progress invoices at each milestone, and a final balance invoice at completion. Invoicemonk tracks all linked invoices so you can see the total project value and amount collected at a glance." },
+      { "question": "What industries use milestone billing?", "answer": "Milestone billing is standard in photography (booking → proofs → finals), web development (deposit → design → development → launch), construction (foundation → framing → completion), architecture, consulting engagements, video production, and any project-based service with distinct phases." },
+      { "question": "How does milestone billing protect my cash flow?", "answer": "By collecting payment at each project phase, you avoid the risk of completing an entire project before receiving any payment. If a client becomes unresponsive or disputes the work, your exposure is limited to the current phase rather than the full project value." },
+      { "question": "Can clients see all their milestone invoices in one place?", "answer": "Yes. Clients can access their invoice history through Invoicemonk's verification portal, where they can view all invoices related to their project, check payment status, and download receipts for their records." },
+      { "question": "What percentage should I charge as a deposit?", "answer": "Industry standards vary, but most service providers charge 25–50% as an initial deposit. For high-value projects, a 30% deposit is common. The deposit covers your initial investment of time and materials and signals the client's commitment to the project." },
+      { "question": "Can I adjust milestone amounts after the project starts?", "answer": "Yes. If the project scope changes, you can create additional milestone invoices or adjust upcoming ones. Invoicemonk keeps a complete history of all invoices, so scope changes are fully documented for both parties." }
+    ]
+  },
+  "related": {
+    "title": "Related reading",
+    "links": [
+      { "label": "Pricing Your Services", "to": "/blog/pricing-your-freelance-services" },
+      { "label": "Invoice Essential Elements", "to": "/blog/invoice-essential-elements-guide" },
+      { "label": "For Photographers", "to": "/photographers" },
+      { "label": "For Creatives", "to": "/creatives" },
+      { "label": "Retainer Billing", "to": "/use-cases/retainer-billing" }
+    ]
+  },
+  "cta": {
+    "title": "Start billing by milestone",
+    "description": "Protect your cash flow with milestone invoicing. Start free — no credit card required.",
+    "button": "Get Started Free"
+  }
+}
