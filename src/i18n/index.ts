@@ -133,6 +133,18 @@ import frLawyers from './fr/lawyers.json';
 import ptBRLawyers from './pt-BR/lawyers.json';
 import esLawyers from './es/lawyers.json';
 
+import enSmallBusinesses from './en/smallBusinesses.json';
+import deSmallBusinesses from './de/smallBusinesses.json';
+import frSmallBusinesses from './fr/smallBusinesses.json';
+import ptBRSmallBusinesses from './pt-BR/smallBusinesses.json';
+import esSmallBusinesses from './es/smallBusinesses.json';
+
+import enAccountants from './en/accountants.json';
+import deAccountants from './de/accountants.json';
+import frAccountants from './fr/accountants.json';
+import ptBRAccountants from './pt-BR/accountants.json';
+import esAccountants from './es/accountants.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
