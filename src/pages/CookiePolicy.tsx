@@ -2,10 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { LegalPage } from '@/components/legal/LegalPage';
 import { getLangPrefix } from '@/utils/i18nData';
 import { cookieEN } from '@/data/legal/cookie.en';
+import { cookieDE } from '@/data/legal/cookie.de';
 import type { LegalPageContent } from '@/data/legal/types';
 
 const contentMap: Record<string, LegalPageContent> = {
   en: cookieEN,
+  de: cookieDE,
 };
 
 export default function CookiePolicy() {
