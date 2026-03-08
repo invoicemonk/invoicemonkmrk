@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Faturamento para criativos e designers | Invoicemonk",
+    "description": "Faturamento profissional para designers gráficos, ilustradores, videógrafos e freelancers criativos. Faturamento por projeto, faturas personalizadas e rastreamento de pagamentos."
+  },
+  "hero": {
+    "badge": "Para Criativos",
+    "title": "Faturamento tão criativo quanto seu trabalho",
+    "accentWord": "criativo",
+    "description": "Faturas bonitas e personalizadas para designers, ilustradores e profissionais criativos. Fature por projeto, acompanhe pagamentos e foque na sua arte.",
+    "primaryCta": "Começar grátis",
+    "secondaryCta": "Ver preços",
+    "trustBadge": "Usado por designers e profissionais criativos"
+  },
+  "benefits": {
+    "heading": "Feito para profissionais criativos",
+    "subheading": "Menos tempo com burocracia, mais tempo criando — com ferramentas projetadas para como criativos realmente trabalham",
+    "items": [
+      { "title": "Faturamento por projeto", "description": "Fature por projeto com entradas, marcos e pagamentos finais. Perfeito para sprints de design, projetos de identidade de marca e campanhas criativas." },
+      { "title": "Taxas horárias e fixas", "description": "Cobre por hora ou por projeto. Misture ambos em uma única fatura — taxa fixa para direção criativa, horária para execução." },
+      { "title": "Faturas com sua marca", "description": "Crie faturas que parecem tão boas quanto seu trabalho criativo. Branding personalizado e modelos profissionais reforçam sua identidade em cada contato com o cliente." },
+      { "title": "Clareza financeira", "description": "Acompanhe receitas por cliente e projeto. Saiba exatamente o que está ganhando, o que está pendente e quais clientes são mais valiosos." }
+    ]
+  },
+  "useCases": {
+    "heading": "Como criativos usam o Invoicemonk",
+    "subheading": "Seja designer, ilustrador, videógrafo ou redator — veja como o Invoicemonk se encaixa no seu fluxo de trabalho criativo",
+    "items": [
+      { "title": "Projetos de marca e identidade", "description": "Envie uma fatura de entrada após a sessão de descoberta. Entregue conceitos de logo, colete feedback e envie a fatura final com o pacote completo de marca." },
+      { "title": "Contratos retainer", "description": "Configure faturas mensais recorrentes para retainers de design, conteúdo ou gestão de mídias sociais. Invoicemonk gera e envia cada fatura automaticamente." },
+      { "title": "Encomendas avulsas", "description": "Para comissões de ilustração, edições de vídeo ou trabalhos de redação, crie rapidamente uma fatura com descrição do projeto e tarifa." }
+    ]
+  },
+  "challenges": {
+    "heading": "Desafios comuns de negócios criativos — resolvidos",
+    "subheading": "Construímos o Invoicemonk em torno dos problemas reais que criativos enfrentam todos os dias",
+    "items": [
+      { "problem": "Iniciar projetos criativos sem garantir pagamento, depois correr atrás de clientes que somem", "solution": "Envie faturas de entrada antes de começar. Clientes pagam antecipadamente, confirmando seu compromisso." },
+      { "problem": "Faturas genéricas e pouco profissionais ao lado do seu portfólio incrível", "solution": "Modelos personalizados com seu logo e cores garantem que cada fatura seja uma extensão da sua identidade criativa." },
+      { "problem": "Perder o controle de quais projetos estão pagos e quanto você realmente ganhou no mês passado", "solution": "Um painel unificado mostra o status de cada fatura, receita total por cliente e saldos pendentes — em tempo real." },
+      { "problem": "Passar noites em administrativo em vez de criar", "solution": "Lembretes automáticos, faturas recorrentes e geração automática de recibos cuidam do administrativo para você." }
+    ]
+  },
+  "workflow": {
+    "heading": "Como funciona",
+    "subheading": "Do briefing do projeto ao pagamento — em quatro passos simples",
+    "steps": [
+      { "title": "Definir escopo e cotar", "description": "Após o briefing do cliente, adicione os detalhes no Invoicemonk e envie uma fatura de entrada descrevendo o escopo, entregáveis e condições de pagamento." },
+      { "title": "Criar e entregar", "description": "Foque no trabalho criativo. Na entrega dos arquivos finais, crie a fatura de saldo em menos de dois minutos com itens detalhados." },
+      { "title": "Receber no prazo", "description": "Invoicemonk envia lembretes automáticos antes e depois da data de vencimento. A maioria dos clientes paga dentro de uma semana." },
+      { "title": "Acompanhar e crescer", "description": "Analise relatórios de receita para identificar seus serviços e clientes mais lucrativos. Na época dos impostos, exporte tudo com um clique." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Por que criativos escolhem o Invoicemonk",
+    "paragraphs": [
+      "A maioria das ferramentas de faturamento é feita para contadores, não para artistas. São cheias de funcionalidades desnecessárias e faltam as que você precisa — como fluxos de entrada, modelos personalizados e faturamento por projeto.",
+      "Invoicemonk leva menos de dois minutos para criar e enviar uma fatura. Seu branding aparece em cada documento. Faturas de entrada protegem contra scope creep. Lembretes automáticos lidam com as conversas difíceis sobre pagamento.",
+      "E porque cada fatura inclui um QR code de verificação e trilha de auditoria imutável, seus clientes corporativos recebem a documentação de conformidade que suas equipes financeiras exigem."
+    ]
+  },
+  "checklist": {
+    "heading": "O que criativos ganham com o Invoicemonk",
+    "items": [
+      "Faturas profissionais ilimitadas",
+      "Faturamento por projeto",
+      "Faturamento por entrada e marcos",
+      "Branding e logo personalizados",
+      "Faturamento horário e fixo",
+      "Lembretes automáticos de pagamento",
+      "Rastreamento de despesas",
+      "Gestão de clientes",
+      "Relatórios de receita",
+      "Registros em conformidade fiscal",
+      "Automação de faturas recorrentes",
+      "Suporte multi-moeda"
+    ]
+  },
+  "testimonials": {
+    "heading": "Usado por criativos",
+    "items": [
+      { "quote": "Como designer gráfico, minhas faturas precisam ser profissionais. Invoicemonk me permite criar faturas personalizadas em segundos — combinam com a estética do meu portfólio.", "author": "Yemi D.", "role": "Designer gráfico" },
+      { "quote": "Eu equilibro múltiplos projetos criativos simultaneamente. O faturamento por projeto e rastreamento de pagamentos mantêm tudo organizado.", "author": "Tola F.", "role": "Ilustradora freelancer" },
+      { "quote": "A função de fatura de entrada mudou meu negócio. Agora sempre cobro 50% antecipado antes de começar qualquer trabalho criativo.", "author": "Kemi R.", "role": "Designer de marca" }
+    ]
+  },
+  "faqs": [
+    { "question": "Posso faturar diferentes serviços criativos em uma única fatura?", "answer": "Sim. Adicione múltiplos itens para design, ilustração, redação ou edição de vídeo em uma única fatura." },
+    { "question": "O Invoicemonk suporta faturamento por projeto e por hora?", "answer": "Com certeza. Fature por projeto com taxas fixas ou rastreie horas. Você pode misturar ambos em uma única fatura." },
+    { "question": "Posso adicionar meu branding criativo às faturas?", "answer": "Sim. Faça upload do seu logo e crie faturas que reflitam sua identidade criativa." },
+    { "question": "Como funcionam as faturas de entrada para projetos criativos?", "answer": "Crie uma fatura de entrada para pagamento antecipado (geralmente 30–50%), depois uma fatura final na conclusão do projeto." },
+    { "question": "Existe um plano gratuito para freelancers criativos?", "answer": "Sim! O plano gratuito inclui 5 faturas e 5 recibos por mês sem cartão de crédito." },
+    { "question": "Posso configurar faturas recorrentes para clientes retainer?", "answer": "Sim. Configure faturas mensais automáticas para contratos retainer. Invoicemonk gera e envia conforme o cronograma." },
+    { "question": "O Invoicemonk lida com clientes internacionais?", "answer": "Sim. O suporte multi-moeda permite faturar clientes internacionais na moeda local deles." }
+  ],
+  "faqHeading": "Perguntas frequentes",
+  "relatedReading": "Leitura relacionada",
+  "relatedLinks": {
+    "graphicDesigner": "Guia de carreira para designer gráfico",
+    "pricing": "Precificando seus serviços",
+    "portfolio": "Guia de portfólio"
+  },
+  "cta": {
+    "heading": "Pronto para elevar seu negócio criativo?",
+    "description": "Junte-se aos profissionais criativos que confiam no Invoicemonk para seu faturamento.",
+    "button": "Começar grátis"
+  }
+}
