@@ -1,0 +1,110 @@
+{
+  "seo": {
+    "title": "Rechnungssoftware für Freelancer | Schneller bezahlt werden | Kostenlos",
+    "description": "Die beste Rechnungssoftware für Freelancer 2026. Professionelle Rechnungen erstellen, Zahlungserinnerungen automatisieren und Einkommen verfolgen — kostenlos starten."
+  },
+  "hero": {
+    "badge": "Für Freelancer",
+    "title": "Rechnungsstellung leicht gemacht für Freelancer",
+    "accentWord": "Freelancer",
+    "description": "Verbringen Sie weniger Zeit mit Papierkram und mehr Zeit mit dem, was Sie lieben. Invoicemonk übernimmt Ihre Rechnungsstellung.",
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "Preise ansehen",
+    "trustBadge": "Freelancer vertrauen auf Invoicemonk"
+  },
+  "benefits": {
+    "title": "Entwickelt für unabhängige Fachleute",
+    "subtitle": "Alles, was Sie für die professionelle Verwaltung Ihrer Freelance-Finanzen brauchen",
+    "items": [
+      { "title": "Professionelle Rechnungen", "description": "Erstellen Sie gebrandete Rechnungen mit Ihrem Logo und Geschäftsdaten, die Kunden beeindrucken und Ihre professionelle Identität stärken." },
+      { "title": "Automatische Erinnerungen", "description": "Richten Sie automatisierte Zahlungserinnerungen ein, die vor, am und nach dem Fälligkeitsdatum versendet werden." },
+      { "title": "Einkommen verfolgen", "description": "Sehen Sie alle Einnahmen in einem Dashboard mit klaren Einkommensberichten nach Kunde, Monat und Projekt aufgeschlüsselt." },
+      { "title": "Steuerfertige Unterlagen", "description": "Jede Rechnung und Ausgabe wird automatisch kategorisiert und für die Steuerkonformität gespeichert." }
+    ]
+  },
+  "useCases": {
+    "title": "Wie Freelancer Invoicemonk nutzen",
+    "subtitle": "Ob Designer, Entwickler, Autor oder Berater — so passt Invoicemonk in Ihren Workflow",
+    "items": [
+      { "title": "Projektbasierte Arbeit", "description": "Schließen Sie ein Webdesign, Logo-Projekt oder eine Artikelserie ab — und erstellen Sie dann in unter zwei Minuten eine Rechnung. Invoicemonk verfolgt den Zahlungsstatus." },
+      { "title": "Retainer-Kunden", "description": "Richten Sie wiederkehrende Rechnungen für monatliche Retainer-Kunden ein. Invoicemonk generiert und versendet die Rechnung automatisch jeden Monat." },
+      { "title": "Internationale Kunden", "description": "Stellen Sie Kunden in verschiedenen Ländern in deren Landeswährung Rechnungen. Alles über ein einziges Dashboard." }
+    ]
+  },
+  "painPoints": {
+    "title": "Häufige Freelancer-Herausforderungen — gelöst",
+    "subtitle": "Wir haben Invoicemonk um die realen Probleme gebaut, mit denen Freelancer täglich konfrontiert sind",
+    "items": [
+      { "problem": "Stundenlange Rechnungserstellung in Tabellen oder Word-Dokumenten", "solution": "Professionelle Rechnungen in unter 2 Minuten mit gespeicherten Kundendaten und Vorlagen erstellen." },
+      { "problem": "Unbehagen beim Nachfassen bei verspäteten Zahlungen", "solution": "Automatisierte Erinnerungen senden höfliche, professionelle Nachfassungen in Ihrem Namen." },
+      { "problem": "Überblick über Einnahmen bei mehreren Kunden und Projekten verlieren", "solution": "Ein einheitliches Dashboard zeigt alle Einnahmen, offenen Rechnungen und Zahlungshistorie." },
+      { "problem": "Hektische Suche nach Unterlagen und Belegen zur Steuerzeit", "solution": "Alle Rechnungen und Ausgaben sind automatisch organisiert und exportierbar." }
+    ]
+  },
+  "workflow": {
+    "title": "So funktioniert's",
+    "subtitle": "Von der Anmeldung bis zur Bezahlung — in vier einfachen Schritten",
+    "steps": [
+      { "step": "1", "title": "Kundendaten hinzufügen", "description": "Geben Sie Name, E-Mail und Rechnungsadresse Ihres Kunden einmal ein. Invoicemonk speichert diese Daten." },
+      { "step": "2", "title": "Rechnung erstellen", "description": "Fügen Sie Positionen für Ihre Dienstleistungen hinzu. Legen Sie Mengen, Preise und Steuern fest." },
+      { "step": "3", "title": "Senden und verfolgen", "description": "Senden Sie die Rechnung per E-Mail oder teilen Sie einen Zahlungslink. Sehen Sie den Status auf einen Blick." },
+      { "step": "4", "title": "Bezahlt werden und erfassen", "description": "Markieren Sie die Rechnung als bezahlt. Invoicemonk aktualisiert automatisch Ihre Einkommensberichte." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum Freelancer Invoicemonk gegenüber Alternativen wählen",
+    "paragraphs": [
+      "Die meiste Buchhaltungssoftware ist für Unternehmen mit Mitarbeitern und komplexen Anforderungen konzipiert. Freelancer brauchen das nicht alles. Was sie brauchen, ist ein schneller Weg, professionelle Rechnungen zu senden und Unterlagen organisiert zu halten.",
+      "Im Gegensatz zu tabellenbasierter Rechnungsstellung automatisiert Invoicemonk die wiederkehrenden Teile: Zahlungserinnerungen, wiederkehrende Rechnungen und die Organisation Ihrer Finanzunterlagen.",
+      "Invoicemonk ist auch für globale Freelancer konzipiert. Multi-Währungsunterstützung, Steuerkonformität in mehreren Ländern und flexible Zahlungsoptionen."
+    ]
+  },
+  "checklist": {
+    "title": "Was Freelancer mit Invoicemonk bekommen",
+    "items": [
+      "Unbegrenzte professionelle Rechnungen",
+      "Eigenes Branding und Logo",
+      "Mehrere Zahlungsoptionen",
+      "Automatische Zahlungserinnerungen",
+      "Ausgabenverfolgung",
+      "Einkommensberichte",
+      "Multi-Währungsunterstützung",
+      "Kundenverwaltung",
+      "Wiederkehrende Rechnungen",
+      "Steuerkonforme Unterlagen"
+    ]
+  },
+  "testimonials": {
+    "title": "Von Freelancern geschätzt",
+    "items": [
+      { "quote": "Invoicemonk hat die Art und Weise verändert, wie ich meine Freelance-Finanzen verwalte. Früher habe ich Sonntagabende mit Rechnungen in Tabellen verbracht — jetzt sende ich sie in unter zwei Minuten.", "author": "Adaeze N.", "role": "Freelance-Designerin" },
+      { "quote": "Die automatischen Erinnerungen allein haben meinen Cashflow erheblich verbessert. Vorher haben Kunden 30–60 Tage zu spät gezahlt, weil ich mich unwohl beim Nachfassen fühlte.", "author": "Chidi O.", "role": "Webentwickler" },
+      { "quote": "Ich arbeite mit Kunden in drei verschiedenen Ländern, und die Multi-Währungs-Rechnungsstellung ist ein Lebensretter.", "author": "Sade M.", "role": "Content-Strategin" }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Ist Invoicemonk für Freelancer kostenlos?", "answer": "Ja! Die kostenlose Stufe umfasst 5 Rechnungen und 5 Belege pro Monat ohne Kreditkarte. Bei Wachstum können Sie auf einen bezahlten Plan upgraden." },
+      { "question": "Kann ich Rechnungen in verschiedenen Währungen senden?", "answer": "Absolut. Invoicemonk unterstützt Multi-Währungs-Rechnungsstellung für internationale Kunden." },
+      { "question": "Wie funktionieren automatische Zahlungserinnerungen?", "answer": "Legen Sie einen Erinnerungsplan fest und Invoicemonk sendet automatisch E-Mails an Ihre Kunden." },
+      { "question": "Kann ich mein Logo und Branding zu Rechnungen hinzufügen?", "answer": "Ja. Laden Sie Ihr Logo hoch und erstellen Sie professionelle Rechnungen, die Ihre persönliche Marke widerspiegeln." },
+      { "question": "Hilft Invoicemonk bei Steuern?", "answer": "Invoicemonk führt steuerkonforme Aufzeichnungen, verfolgt Ausgaben nach Kategorien und erstellt Einkommensberichte." },
+      { "question": "Kann ich wiederkehrende Rechnungen erstellen?", "answer": "Ja. Richten Sie wiederkehrende Rechnungen ein, die automatisch nach Ihrem Zeitplan generiert und gesendet werden." },
+      { "question": "Welche Zahlungsmethoden können meine Kunden nutzen?", "answer": "Invoicemonk unterstützt Banküberweisungen, mobile Zahlungen und Links zu beliebten Zahlungsplattformen." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Weiterführende Lektüre",
+    "links": [
+      { "text": "Preisgestaltung Ihrer Dienste", "href": "/blog/pricing-your-freelance-services" },
+      { "text": "Portfolio-Leitfaden", "href": "/blog/freelance-portfolio-best-practices" },
+      { "text": "Freelancing-Leitfaden", "href": "/guides/freelancing" }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Freelance-Finanzen zu vereinfachen?",
+    "subtitle": "Schließen Sie sich Tausenden von Freelancern an, die Invoicemonk für ihre Rechnungsstellung vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

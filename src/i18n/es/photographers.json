@@ -1,0 +1,112 @@
+{
+  "seo": {
+    "title": "Software de Facturación para Fotógrafos | Invoicemonk",
+    "description": "Cree facturas de fotografía profesionales con pagos por hitos, facturación por paquetes y plantillas personalizadas."
+  },
+  "hero": {
+    "badge": "Para Fotógrafos",
+    "title": "Facturación simplificada para fotógrafos",
+    "accentWord": "fotógrafos",
+    "description": "Cree facturas de anticipo, facture paquetes fotográficos y cobre más rápido. Concéntrese en capturar momentos.",
+    "ctaPrimary": "Comenzar gratis",
+    "ctaSecondary": "Ver precios",
+    "trustBadge": "Confiado por fotógrafos profesionales"
+  },
+  "benefits": {
+    "title": "Diseñado para profesionales de la fotografía",
+    "subtitle": "Todo para manejar el lado empresarial de la fotografía — para pasar más tiempo detrás de la cámara",
+    "items": [
+      { "title": "Facturación por Paquete y Sesión", "description": "Facture paquetes fotográficos, sesiones, impresiones y extras con líneas detalladas." },
+      { "title": "Pagos por Hitos", "description": "Cobre anticipos y saldo a la entrega. Perfecto para bodas y eventos." },
+      { "title": "Facturas Personalizadas", "description": "Facturas profesionales que combinan con su marca fotográfica e impresionan a los clientes." },
+      { "title": "Registros Listos para Impuestos", "description": "Rastree ingresos y gastos para la temporada fiscal. Exporte informes para su contador." }
+    ]
+  },
+  "useCases": {
+    "title": "Cómo los fotógrafos usan Invoicemonk",
+    "subtitle": "Ya sea bodas, eventos, retratos o comercial — así es como Invoicemonk se integra en su flujo",
+    "items": [
+      { "title": "Fotografía de Bodas", "description": "Envíe una factura de anticipo tras la consulta. Cree una segunda antes del día y una factura final al entregar la galería." },
+      { "title": "Shoots Comerciales", "description": "Facture a empresas con facturas detalladas — tarifas de shooting, postproducción, licencias como líneas separadas." },
+      { "title": "Mini Sesiones y Eventos", "description": "Realice mini sesiones con varios clientes en un día. Cree facturas rápidamente con plantillas de paquetes guardados." }
+    ]
+  },
+  "painPoints": {
+    "title": "Desafíos comunes del negocio fotográfico — resueltos",
+    "subtitle": "Construimos Invoicemonk en torno a los problemas reales que enfrentan los fotógrafos",
+    "items": [
+      { "problem": "Perseguir clientes de bodas semanas después de entregar las fotos", "solution": "Recordatorios automatizados envían seguimientos educados antes y después del vencimiento." },
+      { "problem": "Facturas en Word/Excel poco profesionales junto a su impresionante portafolio", "solution": "Plantillas de factura personalizadas con su logo que igualan la calidad de su trabajo." },
+      { "problem": "Perder el control de qué clientes pagaron anticipos", "solution": "Un panel unificado muestra cada estado — anticipo pagado, saldo debido, vencido." },
+      { "problem": "Horas calculando ingresos y buscando recibos para impuestos", "solution": "Todas las facturas y gastos están categorizados y son exportables automáticamente." }
+    ]
+  },
+  "workflow": {
+    "title": "Cómo funciona",
+    "subtitle": "De la reserva a los impuestos — en cuatro pasos simples",
+    "steps": [
+      { "step": "1", "title": "Reserve al cliente", "description": "Tras la consulta, agregue los datos del cliente y envíe inmediatamente una factura de anticipo." },
+      { "step": "2", "title": "Fotografíe y entregue", "description": "Concéntrese en el trabajo creativo. Cree la factura final en menos de dos minutos." },
+      { "step": "3", "title": "Cobre automáticamente", "description": "Invoicemonk rastrea cuándo los clientes abren la factura y envía recordatorios automáticos." },
+      { "step": "4", "title": "Rastree e informe", "description": "Vea en cualquier momento sus ingresos totales, saldos pendientes y gastos por proyecto." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Por qué los fotógrafos eligen Invoicemonk",
+    "paragraphs": [
+      "La mayoría de herramientas de facturación están diseñadas para consultores — no para creativos que necesitan flujos de anticipo y precios por paquete.",
+      "Invoicemonk le permite crear una factura en dos minutos. Su marca se refleja en cada factura. Anticipos, pagos por hitos y paquetes están integrados.",
+      "Y como cada factura incluye un código QR de verificación, sus clientes corporativos obtienen la documentación requerida automáticamente."
+    ]
+  },
+  "checklist": {
+    "title": "Lo que los fotógrafos obtienen con Invoicemonk",
+    "items": [
+      "Facturas profesionales ilimitadas",
+      "Facturación de anticipos e hitos",
+      "Precios por paquete",
+      "Marca y logo personalizados",
+      "Recordatorios automáticos de pago",
+      "Seguimiento de gastos por proyecto",
+      "Informes de ingresos",
+      "Soporte multi-moneda",
+      "Gestión de clientes",
+      "Registros en cumplimiento fiscal",
+      "Recibos verificados con códigos QR",
+      "Descargas PDF con su marca"
+    ]
+  },
+  "testimonials": {
+    "title": "Confiado por fotógrafos",
+    "items": [
+      { "quote": "Odiaba facturar después de los shoots. Ahora toma 2 minutos. La función de anticipo es perfecta para bodas.", "author": "Funke A.", "role": "Fotógrafa de Bodas" },
+      { "quote": "Mis clientes adoran las facturas profesionales. El código QR de verificación agrega credibilidad.", "author": "James K.", "role": "Fotógrafo Comercial" },
+      { "quote": "Manejar reservas de eventos significaba manejar hojas de cálculo. Ahora tengo un solo panel.", "author": "Ngozi P.", "role": "Fotógrafa de Eventos" }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      { "question": "¿Puedo crear facturas por hitos para proyectos fotográficos?", "answer": "Sí. Cree facturas de anticipo, pagos parciales y facturas de saldo final." },
+      { "question": "¿Invoicemonk soporta precios por paquete?", "answer": "Por supuesto. Agregue líneas para diferentes paquetes con descripciones y precios." },
+      { "question": "¿Puedo agregar mi marca fotográfica?", "answer": "Sí. Suba su logo y cree un look profesional acorde a su estilo." },
+      { "question": "¿Cómo funcionan los recordatorios automáticos?", "answer": "Configure calendarios de recordatorios e Invoicemonk envía emails automáticamente." },
+      { "question": "¿Invoicemonk es gratis para fotógrafos?", "answer": "¡Sí! El plan gratuito incluye 5 facturas y 5 recibos al mes sin tarjeta de crédito." },
+      { "question": "¿Puedo rastrear gastos por proyecto?", "answer": "Sí. Registre gastos como alquiler de equipo, viajes y honorarios de asistente." },
+      { "question": "¿Invoicemonk genera recibos al cobrar?", "answer": "Cada pago registrado genera automáticamente un recibo con código de verificación y QR." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Lecturas relacionadas",
+    "links": [
+      { "text": "Diseño de Facturas & Marca", "href": "/blog/invoice-design-professional-branding-tips" },
+      { "text": "Precios de Servicios", "href": "/blog/pricing-your-freelance-services" },
+      { "text": "Cobrar Más Rápido", "href": "/guides/getting-paid" }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para simplificar su facturación fotográfica?",
+    "subtitle": "Únase a los fotógrafos que confían en Invoicemonk.",
+    "button": "Comenzar gratis"
+  }
+}

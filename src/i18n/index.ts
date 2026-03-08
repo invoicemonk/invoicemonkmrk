@@ -85,6 +85,18 @@ import frClientManagement from './fr/clientManagement.json';
 import ptBRClientManagement from './pt-BR/clientManagement.json';
 import esClientManagement from './es/clientManagement.json';
 
+import enFreelancers from './en/freelancers.json';
+import deFreelancers from './de/freelancers.json';
+import frFreelancers from './fr/freelancers.json';
+import ptBRFreelancers from './pt-BR/freelancers.json';
+import esFreelancers from './es/freelancers.json';
+
+import enPhotographers from './en/photographers.json';
+import dePhotographers from './de/photographers.json';
+import frPhotographers from './fr/photographers.json';
+import ptBRPhotographers from './pt-BR/photographers.json';
+import esPhotographers from './es/photographers.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
@@ -93,15 +105,15 @@ export function getLanguageFromPrefix(prefix: string): string {
   return langPrefixToI18nCode[prefix] || 'en';
 }
 
-const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement'];
+const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement', 'freelancers', 'photographers'];
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting, estimates: enEstimates, receipts: enReceipts, clientManagement: enClientManagement },
-    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting, estimates: deEstimates, receipts: deReceipts, clientManagement: deClientManagement },
-    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting, estimates: frEstimates, receipts: frReceipts, clientManagement: frClientManagement },
-    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting, estimates: ptBREstimates, receipts: ptBRReceipts, clientManagement: ptBRClientManagement },
-    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting, estimates: esEstimates, receipts: esReceipts, clientManagement: esClientManagement },
+    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting, estimates: enEstimates, receipts: enReceipts, clientManagement: enClientManagement, freelancers: enFreelancers, photographers: enPhotographers },
+    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting, estimates: deEstimates, receipts: deReceipts, clientManagement: deClientManagement, freelancers: deFreelancers, photographers: dePhotographers },
+    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting, estimates: frEstimates, receipts: frReceipts, clientManagement: frClientManagement, freelancers: frFreelancers, photographers: frPhotographers },
+    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting, estimates: ptBREstimates, receipts: ptBRReceipts, clientManagement: ptBRClientManagement, freelancers: ptBRFreelancers, photographers: ptBRPhotographers },
+    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting, estimates: esEstimates, receipts: esReceipts, clientManagement: esClientManagement, freelancers: esFreelancers, photographers: esPhotographers },
   },
   lng: 'en',
   fallbackLng: 'en',
