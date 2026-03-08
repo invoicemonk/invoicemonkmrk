@@ -1,0 +1,113 @@
+{
+  "seo": {
+    "title": "Rechnungsstellung für Kleinunternehmen | Invoicemonk",
+    "description": "Komplette Rechnungs- und Buchhaltungslösung für Kleinunternehmen. Teamzusammenarbeit, Ausgabenverfolgung und integrierte Compliance."
+  },
+  "hero": {
+    "badge": "Für Kleinunternehmen",
+    "title": "Finanztools, die mit Ihrem Unternehmen wachsen",
+    "accentWord": "wachsen",
+    "description": "Von der Rechnungsstellung bis zur Ausgabenverfolgung — Invoicemonk gibt Kleinunternehmen die finanzielle Infrastruktur für professionelles Arbeiten und Skalierung.",
+    "primaryCta": "Kostenlos testen",
+    "secondaryCta": "Business-Pläne ansehen",
+    "stats": [
+      { "value": "50%", "label": "Schnellere Zahlungen" },
+      { "value": "10Std", "label": "Monatlich gespart" },
+      { "value": "100%", "label": "Prüfungsbereit" }
+    ]
+  },
+  "benefits": {
+    "title": "Für wachsende Unternehmen gebaut",
+    "subtitle": "Alles, was Sie brauchen, um Ihre Finanzen professionell zu verwalten — von der ersten Rechnung bis zum Jahresabschluss",
+    "items": [
+      { "title": "Optimierte Rechnungsstellung", "description": "Erstellen, senden und verfolgen Sie Rechnungen für mehrere Kunden mühelos. Speichern Sie Kundendaten und Vorlagen, sodass wiederkehrende Rechnungen unter zwei Minuten dauern." },
+      { "title": "Teamzusammenarbeit", "description": "Fügen Sie Teammitglieder mit rollenbasiertem Zugang hinzu, um Finanzen gemeinsam zu verwalten. Eigentümer kontrollieren Abrechnung und Einstellungen." },
+      { "title": "Business-Einblicke", "description": "Erhalten Sie klare Berichte über Umsatz, ausstehende Zahlungen und Cashflow. Treffen Sie fundierte Entscheidungen über Preisgestaltung und Kapazität." },
+      { "title": "Integrierte Compliance", "description": "Bleiben Sie prüfungsbereit mit automatischer Compliance und Aufbewahrung. Jedes Dokument ist kryptografisch verifiziert mit unveränderlichem Audit-Trail." }
+    ]
+  },
+  "useCases": {
+    "title": "Wie Kleinunternehmen Invoicemonk nutzen",
+    "subtitle": "Ob Einzelhandel, Dienstleistungen oder Beratung — so passt Invoicemonk zu Ihren Abläufen",
+    "items": [
+      { "title": "Einzelhandel & E-Commerce", "description": "Verwalten Sie Bestandsrechnungen und verfolgen Sie Kundenzahlungen nahtlos. Erstellen Sie Rechnungen für Großbestellungen und pflegen Sie saubere Aufzeichnungen." },
+      { "title": "Professionelle Dienstleistungen", "description": "Rechnen Sie Kunden nach Stunden oder Projekten ab. Senden Sie professionelle Rechnungen, die die Qualität Ihrer Expertise widerspiegeln." },
+      { "title": "Agenturen", "description": "Verwalten Sie mehrere Kunden und wiederkehrende Retainer-Rechnungen. Verfolgen Sie Umsatz pro Kunde und generieren Sie Rentabilitätsberichte." },
+      { "title": "Beratung", "description": "Erstellen Sie Angebote und wandeln Sie diese nahtlos in Rechnungen um. Verfolgen Sie Projektmeilensteine und rechnen Sie gegen Retainer ab." }
+    ]
+  },
+  "challenges": {
+    "title": "Typische Herausforderungen für Kleinunternehmen — gelöst",
+    "subtitle": "Wir haben Invoicemonk um die echten Probleme von Kleinunternehmern gebaut",
+    "items": [
+      { "problem": "Stunden pro Woche mit Rechnungen erstellen, Zahlungen verfolgen und Aufzeichnungen manuell abgleichen", "solution": "Automatisierte Rechnungsstellung, Zahlungserinnerungen und Quittungserstellung erledigen die wiederkehrende Arbeit — 10+ Stunden pro Monat gespart." },
+      { "problem": "Kein klares Bild des Cashflows — unklar, welche Rechnungen ausstehen", "solution": "Ein Echtzeit-Dashboard zeigt jeden Rechnungsstatus, ausstehende Beträge und Zahlungsalterung." },
+      { "problem": "Hektik zur Steuerzeit, um Rechnungen und Quittungen in Tabellen und E-Mails zu finden", "solution": "Alle Finanzunterlagen werden automatisch organisiert, kategorisiert und sind exportierbar." },
+      { "problem": "Einfache Tools werden zu klein, aber teure Unternehmenssoftware ist noch nicht nötig", "solution": "Invoicemonk skaliert vom Einzelunternehmer zum Team — starten Sie kostenlos und wachsen Sie mit." }
+    ]
+  },
+  "workflow": {
+    "title": "So funktioniert es",
+    "subtitle": "Von der Einrichtung bis zur Skalierung — in vier einfachen Schritten",
+    "steps": [
+      { "title": "Unternehmen einrichten", "description": "Erstellen Sie Ihr Unternehmensprofil mit Firmendaten, Steuernummer, Logo und Zahlungsmethoden. Fügen Sie Währungskonten für jede Währung hinzu." },
+      { "title": "Kunden hinzufügen und loslegen", "description": "Fügen Sie Ihre Kunden einmal hinzu. Eine Rechnung erstellen ist dann nur wenige Klicks: Kunde auswählen, Positionen hinzufügen, Zahlungsbedingungen festlegen und senden." },
+      { "title": "Zahlungen und Ausgaben verfolgen", "description": "Bei Zahlung wird automatisch eine offizielle Quittung erstellt. Verfolgen Sie Geschäftsausgaben nach Kategorie — Büro, Reisen, Software, Marketing." },
+      { "title": "Berichten und wachsen", "description": "Erstellen Sie Umsatzberichte, Ausgabenübersichten und GuV-Rechnungen. Zur Steuerzeit exportieren Sie alles, was Ihr Buchhalter braucht." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum Kleinunternehmen Invoicemonk gegenüber Alternativen wählen",
+    "paragraphs": [
+      "Die meisten Kleinunternehmen beginnen mit Tabellen oder einfachen Vorlagen. Wenn sie wachsen, brauchen sie etwas Besseres — aber Unternehmenssoftware ist teuer und komplex. Invoicemonk füllt genau diese Lücke.",
+      "Invoicemonk bietet professionelle Rechnungsstellung, Ausgabenverfolgung, Teamverwaltung und Finanzberichte ohne Lernkurve oder Unternehmenspreise.",
+      "Jedes Dokument ist kryptografisch verifiziert mit QR-Code und unveränderlichem Audit-Trail. Ihr Unternehmen ist immer prüfungsbereit — nicht nur zum Jahresende."
+    ]
+  },
+  "checklist": {
+    "title": "Alles, was Ihr Unternehmen braucht",
+    "items": [
+      "Unbegrenzte Rechnungen und Kunden",
+      "Individuelles Branding und Vorlagen",
+      "Team-Zugangskontrollen",
+      "Automatische Zahlungserinnerungen",
+      "Ausgabenverfolgung und -kategorisierung",
+      "Umsatz- und Cashflow-Berichte",
+      "Mehrwährungsunterstützung",
+      "Automatische wiederkehrende Rechnungen",
+      "Kundenportal-Zugang",
+      "Steuerkonforme Audit-Trails",
+      "Kryptografische Verifizierung",
+      "Prioritäts-Kundensupport"
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "50%", "label": "Schnellerer Zahlungseingang" },
+      { "value": "10Std", "label": "Monatlich bei Admin gespart" },
+      { "value": "100%", "label": "Prüfungsbereite Compliance" }
+    ]
+  },
+  "faqs": [
+    { "question": "Ist Invoicemonk für Unternehmen mit mehreren Teammitgliedern geeignet?", "answer": "Ja. In Professional- und Business-Plänen laden Sie Teammitglieder mit rollenbasiertem Zugang ein." },
+    { "question": "Kann ich Ausgaben neben Rechnungen verfolgen?", "answer": "Absolut. Erfassen Sie Geschäftsausgaben, kategorisieren Sie sie und sehen Sie Ihre tatsächliche Rentabilität." },
+    { "question": "Unterstützt Invoicemonk wiederkehrende Rechnungen?", "answer": "Ja. Richten Sie automatische monatliche, vierteljährliche oder individuelle Rechnungen ein." },
+    { "question": "Wie funktioniert die Mehrwährungsunterstützung?", "answer": "Erstellen Sie separate Währungskonten für jede Währung. Jedes Konto hält Rechnungen und Berichte sauber getrennt." },
+    { "question": "Gibt es einen kostenlosen Plan für Kleinunternehmen?", "answer": "Ja! Starten Sie kostenlos mit 5 Rechnungen und 5 Quittungen pro Monat." },
+    { "question": "Kann ich Finanzberichte erstellen?", "answer": "Ja. Professional- und Business-Pläne beinhalten Umsatzberichte, Ausgabenübersichten und GuV-Rechnungen." },
+    { "question": "Wie hilft Invoicemonk bei der Compliance?", "answer": "Jede Rechnung enthält Ihre Steuernummer, ist kryptografisch verifiziert und wird mit unveränderlichem Audit-Trail gespeichert." }
+  ],
+  "relatedReading": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "text": "Buchhaltungsgrundlagen", "href": "/blog/small-business-accounting-basics" },
+      { "text": "Budget-Leitfaden", "href": "/blog/how-to-create-a-budget-for-your-small-business" },
+      { "text": "Geschäftsfinanzen-Guide", "href": "/guides/business-finances" }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Geschäftsfinanzen zu optimieren?",
+    "description": "Schließen Sie sich wachsenden Unternehmen an, die Invoicemonk für ihre Finanzoperationen vertrauen.",
+    "button": "Kostenlose Testversion starten"
+  }
+}

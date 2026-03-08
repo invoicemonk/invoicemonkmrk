@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Rechnungsstellung für Buchhalter & Steuerberater | Invoicemonk",
+    "description": "Multi-Mandanten-Rechnungsstellung für Buchhalter, Steuerberater und Kanzleien. Wiederkehrende Abrechnung, Steuer-Compliance und detaillierte Finanzberichte."
+  },
+  "hero": {
+    "badge": "Für Buchhalter",
+    "title": "Rechnungsstellung für Buchhaltungsprofis",
+    "accentWord": "Buchhaltungsprofis",
+    "description": "Verwalten Sie Multi-Mandanten-Abrechnung, automatisieren Sie wiederkehrende Rechnungen und pflegen Sie steuerkonforme Aufzeichnungen — alles von einer Plattform.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen",
+    "trustBadge": "Vertraut von Buchhaltern und Steuerberatern"
+  },
+  "benefits": {
+    "title": "Für Buchhaltungs-Workflows gebaut",
+    "subtitle": "Tools für die Arbeitsweise von Buchhaltern — von der Multi-Mandanten-Verwaltung bis zum prüfungsbereiten Reporting",
+    "items": [
+      { "title": "Multi-Mandanten-Verwaltung", "description": "Verwalten Sie die Rechnungsstellung für Dutzende Mandanten von einem Dashboard aus mit separatem Branding, Zahlungsbedingungen und Finanzansichten pro Mandant." },
+      { "title": "Wiederkehrende Abrechnung", "description": "Richten Sie automatische monatliche oder vierteljährliche Rechnungen für Retainer- und Beratungsmandanten ein. Invoicemonk generiert und sendet planmäßig." },
+      { "title": "Finanzberichte", "description": "Erstellen Sie detaillierte Einnahmen-, Ausgaben- und Forderungsberichte für jeden Mandanten. Exportieren Sie saubere, professionelle Berichte für Prüfungen." },
+      { "title": "Steuer-Compliance", "description": "Automatische Steuerberechnung über mehrere Jurisdiktionen, konforme Rechnungsformate und prüfungsbereite Aufbewahrung." }
+    ]
+  },
+  "useCases": {
+    "title": "Wie Buchhalter Invoicemonk nutzen",
+    "subtitle": "Ob Einzelbuchhalter oder Kanzlei — so passt Invoicemonk in Ihre Praxis",
+    "items": [
+      { "title": "Buchhaltungsmandanten", "description": "Verwalten Sie die Rechnungsstellung für mehrere Kleinunternehmen von einem Konto aus. Richten Sie jeden Mandanten mit eigenem Branding und Steuereinstellungen ein." },
+      { "title": "Beratung & Steuerdienste", "description": "Rechnen Sie Beratungsmandanten mit wiederkehrenden Rechnungen ab. Erstellen Sie projektbasierte Rechnungen mit detaillierten Positionen." },
+      { "title": "Prüfungsvorbereitung", "description": "Wenn die Prüfungssaison beginnt, ziehen Sie umfassende Finanzunterlagen für jeden Mandanten in Minuten. Jede Transaktion ist mit komplettem Audit-Trail gespeichert." }
+    ]
+  },
+  "challenges": {
+    "title": "Typische Buchhaltungs-Herausforderungen — gelöst",
+    "subtitle": "Wir haben Invoicemonk um die echten Abrechnungsprobleme von Buchhaltern gebaut",
+    "items": [
+      { "problem": "Separate Rechnungssysteme oder Tabellen für jeden Mandanten jonglieren", "solution": "Ein Dashboard für alle Mandanten mit isolierten Konten, separatem Branding und individuellen Finanzansichten." },
+      { "problem": "Jeden Monat manuell dieselben wiederkehrenden Rechnungen erstellen", "solution": "Automatisierte wiederkehrende Rechnungen werden planmäßig generiert und versendet." },
+      { "problem": "Tage mit dem Zusammenstellen von Finanzunterlagen für Prüfungen verbringen", "solution": "Jede Transaktion wird automatisch mit komplettem Audit-Trail protokolliert. Umfassende Berichte in Minuten." },
+      { "problem": "Verschiedene Steuersätze und Compliance-Regeln über Jurisdiktionen verwalten", "solution": "Konfigurieren Sie Steuersätze pro Mandant und Region. Automatische Berechnung von MwSt., GST und Quellensteuer." }
+    ]
+  },
+  "workflow": {
+    "title": "So funktioniert es",
+    "subtitle": "Von der Mandanteneinrichtung bis zum prüfungsbereiten Reporting — optimiert für Buchhaltungsprofis",
+    "steps": [
+      { "title": "Mandantenkonten einrichten", "description": "Erstellen Sie ein Profil für jeden Mandanten mit Firmenname, Logo, Adresse, Steuereinstellungen und Standard-Zahlungsbedingungen." },
+      { "title": "Abrechnungspläne konfigurieren", "description": "Für Retainer-Mandanten richten Sie wiederkehrende Rechnungen mit Betrag, Häufigkeit und Sendedatum ein." },
+      { "title": "Rechnungen stellen und Zahlungen verfolgen", "description": "Generieren Sie Rechnungen automatisch oder manuell. Invoicemonk verfolgt den Status jeder Rechnung über alle Mandanten." },
+      { "title": "Berichten und abgleichen", "description": "Zum Monats- oder Quartalsende erstellen Sie Finanzberichte für jeden Mandanten. Exportieren Sie Daten in Standardformaten." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum Buchhalter Invoicemonk gegenüber Alternativen wählen",
+    "paragraphs": [
+      "Die meisten Rechnungstools sind für ein einzelnes Unternehmen gebaut. Buchhalter brauchen etwas grundlegend anderes — eine Plattform, die die Abrechnung über viele Unternehmen gleichzeitig verwaltet.",
+      "Anders als generische Buchhaltungssoftware mit komplexen Multi-Entity-Setups macht Invoicemonk es einfach, neue Mandanten hinzuzufügen und in Minuten mit der Rechnungsstellung zu beginnen.",
+      "Invoicemonk bietet prüfungsbereite Aufzeichnungen, Multi-Jurisdiktions-Steuerunterstützung und Finanzberichte nach professionellen Standards."
+    ]
+  },
+  "checklist": {
+    "title": "Was Buchhalter mit Invoicemonk bekommen",
+    "items": [
+      "Multi-Mandanten-Verwaltung",
+      "Wiederkehrende monatliche Abrechnung",
+      "Automatische Steuerberechnung",
+      "Detaillierte Finanzberichte",
+      "Individuelles Branding pro Mandant",
+      "Zahlungsverfolgungs-Dashboard",
+      "Ausgabenkategorisierung",
+      "Prüfungsbereite Aufzeichnungen",
+      "Mehrwährungsunterstützung",
+      "Export in Buchhaltungsformate"
+    ]
+  },
+  "testimonials": {
+    "title": "Vertraut von Buchhaltungsprofis",
+    "items": [
+      { "quote": "Die Rechnungsstellung für über 20 Kleinunternehmen ist mit Invoicemonk mühelos. Das Multi-Mandanten-Setup spart mir jede Woche Stunden.", "author": "Grace T.", "role": "Freiberufliche Buchhalterin" },
+      { "quote": "Die Steuer-Compliance-Funktionen geben mir Sicherheit, dass jede Rechnung den regulatorischen Anforderungen entspricht.", "author": "Samuel A.", "role": "Wirtschaftsprüfer" },
+      { "quote": "Die Prüfungsvorbereitung hat früher eine volle Woche pro Mandant gedauert. Jetzt ziehe ich umfassende Berichte in Minuten.", "author": "Funke D.", "role": "Steuerberaterin" }
+    ]
+  },
+  "faqs": [
+    { "question": "Kann ich als Buchhalter die Rechnungsstellung für mehrere Mandanten verwalten?", "answer": "Ja. Invoicemonk ermöglicht die Verwaltung mehrerer Mandantenkonten von einem Dashboard aus." },
+    { "question": "Integriert sich Invoicemonk mit Buchhaltungssoftware?", "answer": "Invoicemonk generiert Berichte in Standardformaten. Exportieren Sie Daten für QuickBooks, Xero oder andere Plattformen." },
+    { "question": "Kann ich wiederkehrende Rechnungen für Retainer-Mandanten einrichten?", "answer": "Absolut. Automatisieren Sie monatliche Abrechnung mit wiederkehrenden Rechnungsplänen." },
+    { "question": "Wie handhabt Invoicemonk Steuerberechnungen?", "answer": "Richten Sie Steuersätze pro Jurisdiktion ein. Invoicemonk berechnet MwSt., GST und Quellensteuer automatisch." },
+    { "question": "Gibt es einen kostenlosen Plan für Einzelbuchhalter?", "answer": "Ja! Starten Sie kostenlos mit 5 Rechnungen und 5 Quittungen pro Monat." },
+    { "question": "Kann ich Rechnungen für meine Mandanten white-labeln?", "answer": "Ja. Jedes Mandantenprofil kann eigenes Logo und Branding auf Rechnungen haben." },
+    { "question": "Wie hilft Invoicemonk bei der Prüfungsvorbereitung?", "answer": "Jede Transaktion wird mit Zeitstempel und komplettem Audit-Trail gespeichert. Berichte in Minuten erstellen." },
+    { "question": "Kann ich Ausgaben über mehrere Mandantenkonten verfolgen?", "answer": "Ja. Kategorisieren Sie Ausgaben pro Mandant, Projekt oder Kostenkategorie." }
+  ],
+  "relatedReading": {
+    "title": "Weiterführende Lektüre",
+    "links": [
+      { "text": "Buchhaltungsgrundlagen", "href": "/blog/small-business-accounting-basics" },
+      { "text": "Finanzberichte-Guide", "href": "/blog/financial-reports-every-business-needs" },
+      { "text": "Steuer-Compliance-Guide", "href": "/guides/tax-compliance" }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Buchhaltungspraxis zu optimieren?",
+    "description": "Schließen Sie sich Buchhaltern an, die Invoicemonk für Multi-Mandanten-Abrechnung und Compliance vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}
