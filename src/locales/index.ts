@@ -14,7 +14,7 @@ import { deDE } from './de-DE';
 import { ptBR } from './pt-BR';
 import { enNZ } from './en-NZ';
 import { frFR } from './fr-FR';
-import { LocaleConfig, SupportedCountry } from './types';
+import { LocaleConfig, SupportedCountry, SupportedLanguage } from './types';
 
 export * from './types';
 
@@ -42,46 +42,58 @@ export const supportedCountries: SupportedCountry[] = [
   "PH", "ZW", "IN", "SC", "DE", "BR", "NZ", "FR",
 ];
 
-export const defaultCountry: SupportedCountry = "US";
+export const supportedLanguages: SupportedLanguage[] = ["en", "de", "fr", "pt"];
 
-/** URL prefix → country code (uk → GB is the key special case) */
-export const urlPrefixToCountry: Record<string, SupportedCountry> = {
-  ng: "NG",
-  us: "US",
-  ca: "CA",
-  uk: "GB",
-  au: "AU",
-  gh: "GH",
-  ke: "KE",
-  za: "ZA",
-  ph: "PH",
-  zw: "ZW",
-  in: "IN",
-  sc: "SC",
-  de: "DE",
-  br: "BR",
-  nz: "NZ",
-  fr: "FR",
+export const defaultCountry: SupportedCountry = "US";
+export const defaultLanguage: SupportedLanguage = "en";
+
+/** Map country code → language prefix for URL */
+export const countryToLanguage: Record<SupportedCountry, SupportedLanguage> = {
+  NG: "en",
+  US: "en",
+  CA: "en",
+  GB: "en",
+  AU: "en",
+  GH: "en",
+  KE: "en",
+  ZA: "en",
+  PH: "en",
+  ZW: "en",
+  IN: "en",
+  SC: "en",
+  DE: "de",
+  BR: "pt",
+  NZ: "en",
+  FR: "fr",
 };
 
-/** Country code → URL prefix */
+/** Language prefix → i18next language code */
+export const languageToI18nCode: Record<SupportedLanguage, string> = {
+  en: "en",
+  de: "de",
+  fr: "fr",
+  pt: "pt-BR",
+};
+
+/** Language prefix → hreflang code for SEO */
+export const languageToHreflang: Record<SupportedLanguage, string> = {
+  en: "en",
+  de: "de",
+  fr: "fr",
+  pt: "pt-BR",
+};
+
+// Keep legacy exports for any remaining references during migration
+export const urlPrefixToCountry: Record<string, SupportedCountry> = {
+  ng: "NG", us: "US", ca: "CA", uk: "GB", au: "AU", gh: "GH",
+  ke: "KE", za: "ZA", ph: "PH", zw: "ZW", in: "IN", sc: "SC",
+  de: "DE", br: "BR", nz: "NZ", fr: "FR",
+};
+
 export const countryToUrlPrefix: Record<SupportedCountry, string> = {
-  NG: "ng",
-  US: "us",
-  CA: "ca",
-  GB: "uk",
-  AU: "au",
-  GH: "gh",
-  KE: "ke",
-  ZA: "za",
-  PH: "ph",
-  ZW: "zw",
-  IN: "in",
-  SC: "sc",
-  DE: "de",
-  BR: "br",
-  NZ: "nz",
-  FR: "fr",
+  NG: "ng", US: "us", CA: "ca", GB: "uk", AU: "au", GH: "gh",
+  KE: "ke", ZA: "za", PH: "ph", ZW: "zw", IN: "in", SC: "sc",
+  DE: "de", BR: "br", NZ: "nz", FR: "fr",
 };
 
 export function getLocale(countryCode: SupportedCountry): LocaleConfig {

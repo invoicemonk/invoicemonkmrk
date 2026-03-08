@@ -2,16 +2,16 @@ import { useCallback } from 'react';
 import { useParams } from 'react-router-dom';
 
 /**
- * Returns a function that prepends the current country prefix to any absolute path.
+ * Returns a function that prepends the current language prefix to any absolute path.
  * External URLs, hash links, and mailto links pass through unchanged.
  *
  * Usage:
  *   const lp = useLocalizedPath();
- *   lp("/pricing")  // → "/us/pricing"
+ *   lp("/pricing")  // → "/en/pricing"
  */
 export function useLocalizedPath() {
-  const { country } = useParams<{ country: string }>();
-  const prefix = country?.toLowerCase() || 'us';
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
 
   return useCallback(
     (path: string) => {

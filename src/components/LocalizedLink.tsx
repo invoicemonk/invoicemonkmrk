@@ -3,14 +3,14 @@ import { Link as RouterLink, LinkProps, useParams } from 'react-router-dom';
 
 /**
  * Drop-in replacement for React Router's <Link> that automatically
- * prepends the current country prefix (/:country) to absolute paths.
+ * prepends the current language prefix (/:lang) to absolute paths.
  *
  * External URLs (http/https), hash links, and mailto links pass through unchanged.
  */
 const LocalizedLink = forwardRef<HTMLAnchorElement, LinkProps>(
   ({ to, ...props }, ref) => {
-    const { country } = useParams<{ country: string }>();
-    const prefix = country?.toLowerCase() || 'us';
+    const { lang } = useParams<{ lang: string }>();
+    const prefix = lang?.toLowerCase() || 'en';
 
     let localizedTo = to;
     if (typeof to === 'string') {
@@ -27,5 +27,4 @@ const LocalizedLink = forwardRef<HTMLAnchorElement, LinkProps>(
 
 LocalizedLink.displayName = 'LocalizedLink';
 
-// Named export as both LocalizedLink and Link for easy migration
 export { LocalizedLink, LocalizedLink as Link };

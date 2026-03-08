@@ -90,3 +90,5 @@ export interface LocaleConfig {
 
 export type SupportedCountry = "NG" | "US" | "CA" | "GB" | "AU" | "GH" | "KE" | "ZA"
   | "PH" | "ZW" | "IN" | "SC" | "DE" | "BR" | "NZ" | "FR";
+
+export type SupportedLanguage = "en" | "de" | "fr" | "pt";
