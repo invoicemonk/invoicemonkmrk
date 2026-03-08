@@ -43,7 +43,11 @@ const pillarRegistry: Record<string, Pillar[]> = {};
 // ── Registration functions (called by translated data files) ────────────
 
 export function registerBlogPosts(lang: string, posts: BlogPost[]) {
-  blogPostRegistry[lang] = posts;
+  if (blogPostRegistry[lang]) {
+    blogPostRegistry[lang] = [...blogPostRegistry[lang], ...posts];
+  } else {
+    blogPostRegistry[lang] = posts;
+  }
 }
 
 export function registerHelpGuides(lang: string, guides: HelpGuide[]) {
