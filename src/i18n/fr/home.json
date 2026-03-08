@@ -1,0 +1,116 @@
+{
+  "globalCompliance": {
+    "eyebrow": "Pourquoi la facturation générique échoue",
+    "eyebrowSub": "La plupart des outils de facturation sont génériques. La conformité ne l'est pas.",
+    "heading": "Conçu pour la conformité",
+    "headingAccent": "multi-pays",
+    "features": [
+      "30+ juridictions prises en charge",
+      "Libellés fiscaux adaptés au pays (TVA, GST, IVA, etc.)",
+      "Versionnage des schémas fiscaux",
+      "Piste d'audit immuable",
+      "Intégrité des factures basée sur des snapshots",
+      "Verrouillage de conservation et identifiants de vérification",
+      "Conformité e-facturation (ZATCA Phase 2, Peppol)",
+      "Signatures numériques et tampons cryptographiques (CSID)"
+    ],
+    "footerBold": "Vos factures s'adaptent automatiquement à votre pays.",
+    "footerSub": "Pas de modèles génériques. Pas de champs fiscaux à deviner.",
+    "feeCalcLink": "Voir notre calculateur de frais internationaux →",
+    "invoicePreview": "Aperçu de la facture",
+    "taxLabel": "Libellé fiscal",
+    "currency": "Devise",
+    "compliance": "Conformité"
+  },
+  "positioning": {
+    "heading": "Conçu pour tous ceux qui",
+    "headingAccent": "facturent",
+    "subtitle": "Des freelances aux agences, des consultants aux entrepreneurs — Invoicemonk vous aide à créer des factures conformes et à être payé plus rapidement.",
+    "features": [
+      "Facturation multi-devises sans distorsion de change",
+      "Factures PDF propres et professionnelles",
+      "Conformité fiscale dans plusieurs pays",
+      "Suivi des revenus par client et période",
+      "Rappels de paiement automatisés"
+    ],
+    "footer": "Utilisé par des freelances, consultants, agences et petites entreprises dans le monde entier."
+  },
+  "trust": {
+    "heading": "Une conformité que vous pouvez",
+    "headingAccent": "prouver.",
+    "items": [
+      { "label": "Registres de factures immuables", "description": "Une fois générées, les factures ne peuvent pas être modifiées silencieusement." },
+      { "label": "Génération PDF par snapshot", "description": "Chaque PDF capture l'état exact au moment de l'émission." },
+      { "label": "Schémas fiscaux versionnés", "description": "Les structures fiscales se mettent à jour avec l'évolution des réglementations." },
+      { "label": "Accès à la piste d'audit", "description": "Historique complet des modifications disponible avec le plan Pro." },
+      { "label": "Liens de vérification publics", "description": "Les clients peuvent vérifier l'authenticité des factures de manière indépendante." },
+      { "label": "Prêt pour l'e-facturation", "description": "Compatible ZATCA, Peppol et mandats régionaux d'e-facturation." },
+      { "label": "Numéros de référence de facture", "description": "Génération unique d'IRN pour la traçabilité réglementaire." },
+      { "label": "Signatures numériques et CSID", "description": "Les tampons cryptographiques vérifient l'authenticité des documents." }
+    ]
+  },
+  "benefits": {
+    "heading": "Passez plus de temps à faire",
+    "headingAccent": "ce que vous aimez",
+    "subtitle": "Invoicemonk gère les détails pour que vous puissiez vous concentrer sur votre métier.",
+    "items": [
+      { "title": "Respirez, soulagé", "description": "Arrêtez de stresser pour les paiements. Avec les rappels automatiques et le suivi des paiements, passez moins de temps à relancer et plus à faire ce que vous aimez." },
+      { "title": "Paraissez professionnel, sentez-vous confiant", "description": "Envoyez des factures soignées qui font bonne impression. Des modèles personnalisables avec votre marque vous aident à vous démarquer." },
+      { "title": "Restez conforme, restez prêt", "description": "Chaque transaction est enregistrée avec des données immuables et des pistes d'audit complètes. Quand les auditeurs appellent, vous êtes déjà préparé." }
+    ]
+  },
+  "cta": {
+    "heading": "Prêt à simplifier",
+    "headingAccent": "vos finances ?",
+    "subtitle": "Rejoignez des entreprises du monde entier qui créent des documents financiers conformes et adaptés à leur pays.",
+    "button": "Commencer la facturation conforme",
+    "badges": ["Pas de carte bancaire requise", "Plan gratuit à vie", "Annulation à tout moment"]
+  },
+  "products": {
+    "heading": "Encore plus de raisons d'aimer",
+    "subtitle": "Tout ce dont vous avez besoin pour gérer les finances de votre entreprise, de la facturation à la comptabilité.",
+    "soon": "Bientôt",
+    "available": "Disponible",
+    "comingSoon": "Bientôt disponible",
+    "freeToStart": "Gratuit pour commencer !",
+    "startFree": "Commencer gratuitement",
+    "joinWaitlist": "Rejoindre la liste d'attente",
+    "learnMore": "En savoir plus sur {{name}}",
+    "items": [
+      { "name": "Facturation", "title": "Soyez payé à temps, à chaque fois", "description": "Créez des factures professionnelles en minutes. Envoyez-les instantanément, suivez les paiements et automatisez les rappels.", "features": ["Modèles personnalisables", "Rappels automatiques", "Suivi des paiements", "Multi-devises"] },
+      { "name": "Paiements", "title": "Acceptez les paiements à votre façon", "description": "Permettez aux clients de payer directement depuis les factures par carte, virement ou portefeuille numérique.", "features": ["Traitement par carte", "Virements bancaires", "Plans de paiement", "Rapprochement auto"] },
+      { "name": "Dépenses", "title": "Suivez chaque dépense facilement", "description": "Capturez les reçus, catégorisez les dépenses automatiquement et sachez toujours où va votre argent.", "features": ["Scan de reçus", "Auto-catégorisation", "Catégories fiscales", "Rapports de dépenses"] },
+      { "name": "Comptabilité", "title": "Comptabilité sans stress", "description": "Suivez revenus et dépenses, générez des rapports financiers et gardez le contrôle de vos finances.", "features": ["Comptabilité en partie double", "Rapports financiers", "Préparation fiscale", "Connexions bancaires"] },
+      { "name": "Clients", "title": "Gérez vos clients sans effort", "description": "Organisez toutes les informations clients en un seul endroit. Suivez les coordonnées, l'historique des paiements et les soldes.", "features": ["Gestion des contacts", "Historique des paiements", "Notes clients", "Facturation rapide"] },
+      { "name": "Devis", "title": "Gagnez plus de contrats avec des devis", "description": "Créez des devis professionnels qui convertissent. Une fois approuvés, transformez-les en factures en un clic.", "features": ["Modèles professionnels", "Conversion en un clic", "Suivi des approbations", "Marque personnalisée"] },
+      { "name": "Reçus", "title": "Ne perdez plus jamais un reçu", "description": "Photographiez vos reçus et laissez-nous faire le reste. Extraction et organisation automatiques pour une comptabilité sereine.", "features": ["Capture photo", "Auto-extraction", "Stockage cloud", "Recherche et filtre"] }
+    ]
+  },
+  "personas": {
+    "heading": "Conçu pour les propriétaires de petites entreprises",
+    "headingAccent": "comme vous",
+    "subtitle": "Que vous débutiez ou que vous vous développiez, Invoicemonk a les outils qu'il vous faut.",
+    "items": [
+      { "title": "Freelances", "description": "Facturez vos clients, suivez vos dépenses et soyez payé plus vite — tout en un seul endroit." },
+      { "title": "Consultants", "description": "Facturation professionnelle avec des fonctions de conformité que vos clients grands comptes attendent." },
+      { "title": "Petites entreprises", "description": "Passez d'un indépendant à une équipe complète avec des outils qui évoluent avec vous." },
+      { "title": "Entrepreneurs", "description": "Gérez plusieurs clients, suivez les dépenses de projets et restez organisé." }
+    ]
+  },
+  "blog": {
+    "heading": "Depuis le",
+    "headingAccent": "Blog",
+    "subtitle": "Conseils, guides et informations pour vous aider à mieux gérer votre entreprise.",
+    "viewAll": "Voir tous les articles"
+  },
+  "faq": {
+    "heading": "Questions",
+    "headingAccent": "fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur Invoicemonk. Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe support."
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "heading": "Apprécié par",
+    "headingSuffix": "entreprises"
+  }
+}
