@@ -53,7 +53,7 @@
     "title": "Direkt aus Kundenprofilen abrechnen",
     "subtitle": "Ihre Kundendaten und Rechnungstools, verbunden.",
     "features": [
-      { "title": "Ein-Klick-Rechnungsstellung aus jedem Kundenprofil", "description": "Öffnen Sie einen Kunden, klicken Sie auf „Neue Rechnung", und alle Details werden automatisch ausgefüllt — Rechnungsadresse, Steuer-ID, Zahlungsbedingungen und Währung." },
+      { "title": "Ein-Klick-Rechnungsstellung aus jedem Kundenprofil", "description": "Öffnen Sie einen Kunden, klicken Sie auf 'Neue Rechnung', und alle Details werden automatisch ausgefüllt — Rechnungsadresse, Steuer-ID, Zahlungsbedingungen und Währung." },
       { "title": "Zahlungs-Dashboard pro Kunde", "description": "Sehen Sie den Zahlungsstatus jedes Kunden auf einen Blick: durchschnittliche Zahlungstage, offene Beträge, Gesamtumsatz und Überfälligkeitstrends." },
       { "title": "Massenaktionen für Erinnerungen und Kontoauszüge", "description": "Wählen Sie mehrere Kunden aus und senden Sie Zahlungserinnerungen, erstellen Sie Kontoauszüge oder exportieren Sie Daten in großen Mengen." }
     ]
