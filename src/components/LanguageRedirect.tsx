@@ -36,7 +36,7 @@ const countryCodeToLanguage: Record<string, SupportedLanguage> = {
   // English-speaking countries (explicit)
   US: "en", GB: "en", CA: "en", AU: "en", NZ: "en", IE: "en",
   NG: "en", GH: "en", KE: "en", ZA: "en", ZW: "en", TZ: "en",
-  UG: "en", RW: "en", PH: "en", IN: "en", PK: "en", BD: "en",
+  UG: "en", PH: "en", IN: "en", PK: "en", BD: "en",
   LK: "en", SG: "en", MY: "en", HK: "en", JM: "en", TT: "en",
   BW: "en", NA: "en", SC: "en", MW: "en", ZM: "en", SL: "en",
   LR: "en", GM: "en", FJ: "en",
