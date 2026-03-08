@@ -1,0 +1,59 @@
+{
+  "seo": {
+    "title": "API para Desenvolvedores | Invoicemonk",
+    "description": "Integre o Invoicemonk em suas aplicações com nossa API para desenvolvedores. Documentação completa e SDKs disponíveis."
+  },
+  "hero": {
+    "badge": "API para Desenvolvedores",
+    "title": "Desenvolva com o Invoicemonk",
+    "accentWord": "Invoicemonk",
+    "description": "Integre faturamento, despesas e dados financeiros diretamente em suas aplicações. Nossa API facilita a criação de workflows financeiros poderosos.",
+    "primaryCta": "Ver documentação",
+    "secondaryCta": "Obter chaves API",
+    "trustBadge": "SLA 99,9% de uptime • API RESTful • Webhooks"
+  },
+  "features": {
+    "heading": "Feito para desenvolvedores",
+    "items": [
+      { "title": "API RESTful", "description": "API REST completa para criar, gerenciar e recuperar faturas programaticamente." },
+      { "title": "Webhooks", "description": "Notificações em tempo real para eventos de faturas, pagamentos e mudanças de status." },
+      { "title": "Seguro por design", "description": "Autenticação OAuth 2.0, chaves API com escopos e transferência de dados criptografada." },
+      { "title": "Alta performance", "description": "Tempos de resposta rápidos com SLA de uptime 99,9% para integrações críticas." }
+    ]
+  },
+  "apiPreview": {
+    "heading": "API simples e intuitiva",
+    "subheading": "Endpoints RESTful fáceis de entender e integrar",
+    "sampleEndpoints": "Endpoints de exemplo"
+  },
+  "endpoints": [
+    { "method": "POST", "path": "/v1/invoices", "description": "Criar nova fatura" },
+    { "method": "GET", "path": "/v1/invoices/:id", "description": "Recuperar uma fatura" },
+    { "method": "PUT", "path": "/v1/invoices/:id", "description": "Atualizar uma fatura" },
+    { "method": "POST", "path": "/v1/invoices/:id/send", "description": "Enviar fatura ao cliente" },
+    { "method": "GET", "path": "/v1/clients", "description": "Listar todos os clientes" },
+    { "method": "POST", "path": "/v1/expenses", "description": "Registrar uma despesa" }
+  ],
+  "codeExample": {
+    "heading": "Comece em minutos"
+  },
+  "resources": {
+    "heading": "Recursos para desenvolvedores",
+    "items": [
+      { "title": "Documentação", "description": "Guias completos e referência API", "cta": "Ler docs" },
+      { "title": "SDKs", "description": "Bibliotecas client para linguagens populares", "cta": "Ver no GitHub" },
+      { "title": "Status da API", "description": "Saúde e uptime da API em tempo real", "cta": "Verificar status" }
+    ]
+  },
+  "faqs": [
+    { "question": "A API é gratuita?", "answer": "O acesso à API está incluso nos planos pagos. Crie uma conta gratuita para explorar a documentação imediatamente." },
+    { "question": "Qual autenticação a API usa?", "answer": "A API do Invoicemonk usa autenticação OAuth 2.0 com chaves API e escopos." },
+    { "question": "Qual é a garantia de uptime?", "answer": "Oferecemos um SLA de uptime de 99,9% para acesso API em produção." },
+    { "question": "Existem SDKs disponíveis?", "answer": "Sim, fornecemos bibliotecas client para JavaScript, Python e PHP. Todos os SDKs estão no GitHub." }
+  ],
+  "cta": {
+    "heading": "Pronto para integrar?",
+    "description": "Cadastre-se para acesso API gratuito e comece a desenvolver com o Invoicemonk hoje.",
+    "button": "Obter suas chaves API"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Software de facturación para contratistas | Invoicemonk",
+    "description": "Facturación profesional para contratistas eléctricos, de construcción y de oficios. Facturación móvil, seguimiento multi-proyecto y gestión de gastos."
+  },
+  "hero": {
+    "badge": "Para Contratistas",
+    "title": "Facturación hecha para contratistas",
+    "accentWord": "contratistas",
+    "description": "Gestione múltiples proyectos, rastree gastos de obra y facture clientes desde cualquier lugar. Hecho para contratistas que trabajan en el campo.",
+    "primaryCta": "Comenzar gratis",
+    "secondaryCta": "Ver precios",
+    "trustBadge": "Usado por contratistas eléctricos, de construcción y de oficios"
+  },
+  "benefits": {
+    "heading": "Diseñado para oficios y construcción",
+    "subheading": "Todo lo que necesita para gestionar finanzas en múltiples obras — desde facturas de anticipo hasta el pago final",
+    "items": [
+      { "title": "Gestión multi-proyecto", "description": "Rastree facturas, gastos y pagos en múltiples clientes y obras simultáneamente. Cada proyecto tiene su propia vista financiera." },
+      { "title": "Facturación móvil", "description": "Cree y envíe facturas desde la obra usando su teléfono. Facture inmediatamente mientras los detalles están frescos." },
+      { "title": "Seguimiento de costos de material", "description": "Rastree materiales, mano de obra, subcontratistas y costos de equipo para un costeo preciso. Conozca sus márgenes reales." },
+      { "title": "Registros listos para impuestos", "description": "Cada factura y gasto se categoriza y almacena automáticamente para cumplimiento fiscal." }
+    ]
+  },
+  "useCases": {
+    "heading": "Cómo los contratistas usan Invoicemonk",
+    "subheading": "Ya sea electricista, plomero, constructor o contratista general — así es como Invoicemonk se adapta a su flujo de trabajo",
+    "items": [
+      { "title": "Proyectos residenciales", "description": "Cotice, envíe factura de anticipo, luego facture en los hitos acordados — estructura, inspección y terminación. Rastree compras de material por proyecto." },
+      { "title": "Contratos comerciales", "description": "Gestione proyectos comerciales más grandes con facturación progresiva. Facturas detalladas con números de orden y porcentajes de avance." },
+      { "title": "Mantenimiento y llamadas de servicio", "description": "Para llamadas rápidas, cree una factura en su teléfono antes de salir del sitio. Envíela instantáneamente para un pago más rápido." }
+    ]
+  },
+  "challenges": {
+    "heading": "Desafíos comunes de contratistas — resueltos",
+    "subheading": "Construimos Invoicemonk alrededor de los problemas reales que los contratistas enfrentan en la obra",
+    "items": [
+      { "problem": "Olvidar cobrar extras, órdenes de cambio o materiales adicionales", "solution": "Facture desde la obra inmediatamente con su teléfono. Agregue partidas para extras en tiempo real." },
+      { "problem": "No conocer el costo real y la rentabilidad de cada obra", "solution": "Rastree todos los gastos por proyecto — materiales, mano de obra, subcontratistas, combustible." },
+      { "problem": "Clientes disputando facturas por facturación poco clara", "solution": "Partidas detalladas mostrando materiales, horas de trabajo y tarifas. Los clientes ven exactamente qué están pagando." },
+      { "problem": "Perseguir pagos en múltiples obras y clientes", "solution": "Los recordatorios automáticos dan seguimiento a cada cliente según el cronograma. Su panel muestra todas las facturas pendientes." }
+    ]
+  },
+  "workflow": {
+    "heading": "Cómo funciona",
+    "subheading": "De la configuración del proyecto al pago final — un flujo hecho para la obra",
+    "steps": [
+      { "title": "Configure sus proyectos", "description": "Cree un proyecto para cada obra o compromiso con el cliente. Agregue detalles, alcance y estructura de facturación." },
+      { "title": "Solicite anticipos", "description": "Antes de empezar, envíe una factura de anticipo profesional — típicamente 30–50% del costo estimado." },
+      { "title": "Facture en los hitos", "description": "Cree facturas de progreso directamente desde su teléfono al completar fases de trabajo." },
+      { "title": "Rastree costos y cierre", "description": "Registre gastos conforme ocurren. Envíe la factura final con el saldo restante." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Por qué los contratistas eligen Invoicemonk",
+    "paragraphs": [
+      "La mayoría del software de facturación está hecho para empleados de oficina. Los contratistas necesitan algo diferente — una herramienta que funcione en un teléfono en una obra polvorienta.",
+      "A diferencia del software de contabilidad genérico, Invoicemonk no lo obliga a pasar por asistentes complejos. Agregue un proyecto, cree una factura, envíela.",
+      "Invoicemonk ofrece el seguimiento financiero por proyecto que los contratistas realmente necesitan: análisis de costo por obra, seguimiento de anticipos y categorización de gastos."
+    ]
+  },
+  "checklist": {
+    "heading": "Lo que los contratistas obtienen con Invoicemonk",
+    "items": [
+      "Facturación progresiva e hitos",
+      "Seguimiento de gastos por obra",
+      "Gestión de costos de material",
+      "Organización multi-cliente",
+      "Facturación móvil",
+      "Recordatorios automáticos de pago",
+      "Adjuntos de fotos para obras",
+      "Facturas de anticipo y retainer",
+      "Seguimiento de horas de trabajo",
+      "Registros en cumplimiento fiscal"
+    ]
+  },
+  "testimonials": {
+    "heading": "Usado por contratistas",
+    "items": [
+      { "quote": "Puedo facturar clientes directo desde la obra. Mi ingreso semanal ha subido simplemente porque facturo más rápido.", "author": "Emeka O.", "role": "Electricista" },
+      { "quote": "Rastrear gastos por proyecto me ayudó a entender mis costos reales. Ahora presupuesto con más precisión y mis márgenes mejoraron.", "author": "Kola B.", "role": "Contratista de construcción" },
+      { "quote": "La factura de anticipo es esencial. Exijo 40% por adelantado, e Invoicemonk hace ese proceso profesional.", "author": "Femi T.", "role": "Plomero" }
+    ]
+  },
+  "faqs": [
+    { "question": "¿Puedo crear facturas de progreso?", "answer": "Sí. Invoicemonk soporta facturación progresiva, por hitos y solicitudes de anticipo." },
+    { "question": "¿Puedo rastrear gastos por obra?", "answer": "Absolutamente. Categorice gastos por proyecto, cliente u obra." },
+    { "question": "¿Invoicemonk funciona en móvil?", "answer": "Sí. Cree y envíe facturas desde su teléfono directamente en la obra." },
+    { "question": "¿Puedo facturar materiales y mano de obra por separado?", "answer": "Sí. Agregue partidas separadas para materiales, horas de trabajo y alquiler de equipo." },
+    { "question": "¿Cómo ayudan los recordatorios automáticos a los contratistas?", "answer": "Los recordatorios automáticos aseguran el seguimiento de cada factura pendiente, incluso cuando está ocupado en la obra." },
+    { "question": "¿Es Invoicemonk gratis para contratistas?", "answer": "¡Sí! El plan gratuito incluye 5 facturas y 5 recibos por mes." },
+    { "question": "¿Puedo crear facturas de anticipo?", "answer": "Sí. Solicite anticipos antes de empezar. Invoicemonk rastrea el anticipo contra el costo total del proyecto." }
+  ],
+  "faqHeading": "Preguntas frecuentes",
+  "relatedReading": "Lectura relacionada",
+  "relatedLinks": {
+    "milestone": "Facturación por hitos",
+    "paymentTerms": "Guía de términos de pago",
+    "gettingPaid": "Cobrar más rápido"
+  },
+  "cta": {
+    "heading": "¿Listo para simplificar su negocio de contratista?",
+    "description": "Únase a los contratistas que confían en Invoicemonk para su facturación y gastos.",
+    "button": "Comenzar gratis"
+  }
+}

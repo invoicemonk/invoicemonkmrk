@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Software de faturamento para empreiteiros | Invoicemonk",
+    "description": "Faturamento profissional para empreiteiros elétricos, de construção e de ofícios. Faturamento móvel, rastreamento multi-projeto e gestão de despesas."
+  },
+  "hero": {
+    "badge": "Para Empreiteiros",
+    "title": "Faturamento feito para empreiteiros",
+    "accentWord": "empreiteiros",
+    "description": "Gerencie múltiplos projetos, rastreie despesas de obra e fature clientes de qualquer lugar. Feito para empreiteiros que trabalham no campo.",
+    "primaryCta": "Começar grátis",
+    "secondaryCta": "Ver preços",
+    "trustBadge": "Usado por empreiteiros elétricos, de construção e de ofícios"
+  },
+  "benefits": {
+    "heading": "Feito para ofícios e construção",
+    "subheading": "Tudo que você precisa para gerenciar finanças em múltiplos canteiros — de faturas de entrada ao pagamento final",
+    "items": [
+      { "title": "Gestão multi-projeto", "description": "Rastreie faturas, despesas e pagamentos em múltiplos clientes e canteiros simultaneamente. Cada projeto tem sua própria visão financeira." },
+      { "title": "Faturamento móvel", "description": "Crie e envie faturas do canteiro usando seu celular. Terminou uma fase? Fature imediatamente enquanto os detalhes estão frescos." },
+      { "title": "Rastreamento de custos de material", "description": "Rastreie materiais, mão de obra, subempreiteiros e custos de equipamento para custeio preciso. Conheça suas margens reais." },
+      { "title": "Registros prontos para impostos", "description": "Cada fatura e despesa é automaticamente categorizada e armazenada para conformidade fiscal." }
+    ]
+  },
+  "useCases": {
+    "heading": "Como empreiteiros usam o Invoicemonk",
+    "subheading": "Seja eletricista, encanador, construtor ou empreiteiro geral — veja como o Invoicemonk se encaixa no seu fluxo de trabalho",
+    "items": [
+      { "title": "Projetos residenciais", "description": "Faça o orçamento, envie fatura de entrada, depois fature nos marcos acordados — estrutura, vistoria e conclusão. Rastreie compras de material por projeto." },
+      { "title": "Contratos comerciais", "description": "Gerencie projetos comerciais maiores com faturamento progressivo. Faturas detalhadas com números de pedido e percentuais de conclusão." },
+      { "title": "Manutenção e chamados", "description": "Para chamados rápidos, crie uma fatura no celular antes de sair do local. Envie instantaneamente para pagamento mais rápido." }
+    ]
+  },
+  "challenges": {
+    "heading": "Desafios comuns de empreiteiros — resolvidos",
+    "subheading": "Construímos o Invoicemonk em torno dos problemas reais que empreiteiros enfrentam na obra",
+    "items": [
+      { "problem": "Esquecer de cobrar extras, aditivos ou materiais adicionais", "solution": "Fature do canteiro imediatamente com seu celular. Adicione itens para extras em tempo real." },
+      { "problem": "Não saber o custo real e a lucratividade de cada obra", "solution": "Rastreie todas as despesas por projeto — materiais, mão de obra, subempreiteiros, combustível." },
+      { "problem": "Clientes contestando faturas por cobrança pouco clara", "solution": "Itens detalhados mostrando materiais, horas de trabalho e tarifas. Clientes veem exatamente o que estão pagando." },
+      { "problem": "Perseguir pagamentos em múltiplos canteiros e clientes", "solution": "Lembretes automáticos acompanham cada cliente no cronograma. Seu painel mostra todas as faturas pendentes." }
+    ]
+  },
+  "workflow": {
+    "heading": "Como funciona",
+    "subheading": "Da configuração do projeto ao pagamento final — um fluxo feito para o canteiro",
+    "steps": [
+      { "title": "Configure seus projetos", "description": "Crie um projeto para cada canteiro ou cliente. Adicione detalhes, escopo e estrutura de faturamento." },
+      { "title": "Solicite entradas antecipadas", "description": "Antes de começar, envie uma fatura de entrada profissional — tipicamente 30–50% do custo estimado." },
+      { "title": "Fature nos marcos", "description": "Crie faturas de progresso diretamente do celular ao completar fases de trabalho." },
+      { "title": "Rastreie custos e encerre", "description": "Registre despesas conforme acontecem. Envie a fatura final com o saldo restante." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Por que empreiteiros escolhem o Invoicemonk",
+    "paragraphs": [
+      "A maioria dos softwares de faturamento é feita para funcionários de escritório. Empreiteiros precisam de algo diferente — uma ferramenta que funciona no celular em um canteiro empoeirado.",
+      "Diferente de softwares genéricos de contabilidade, o Invoicemonk não força você por assistentes complexos. Adicione um projeto, crie uma fatura, envie.",
+      "O Invoicemonk oferece o rastreamento financeiro por projeto que empreiteiros realmente precisam: análise de custo por obra, rastreamento de entradas e categorização de despesas."
+    ]
+  },
+  "checklist": {
+    "heading": "O que empreiteiros ganham com o Invoicemonk",
+    "items": [
+      "Faturamento progressivo e marcos",
+      "Rastreamento de despesas por obra",
+      "Gestão de custos de material",
+      "Organização multi-cliente",
+      "Faturamento móvel",
+      "Lembretes automáticos de pagamento",
+      "Anexos de fotos para obras",
+      "Faturas de entrada e retainer",
+      "Rastreamento de horas de trabalho",
+      "Registros em conformidade fiscal"
+    ]
+  },
+  "testimonials": {
+    "heading": "Usado por empreiteiros",
+    "items": [
+      { "quote": "Posso faturar clientes direto do canteiro. Minha receita semanal aumentou simplesmente porque faturo mais rápido.", "author": "Emeka O.", "role": "Eletricista" },
+      { "quote": "Rastrear despesas por projeto me ajudou a entender meus custos reais. Agora calculo orçamentos com mais precisão.", "author": "Kola B.", "role": "Empreiteiro de construção" },
+      { "quote": "A fatura de entrada é essencial. Exijo 40% antecipado, e o Invoicemonk torna esse processo profissional.", "author": "Femi T.", "role": "Encanador" }
+    ]
+  },
+  "faqs": [
+    { "question": "Posso criar faturas de progresso?", "answer": "Sim. Invoicemonk suporta faturamento progressivo, por marcos e solicitações de entrada." },
+    { "question": "Posso rastrear despesas por canteiro?", "answer": "Com certeza. Categorize despesas por projeto, cliente ou canteiro." },
+    { "question": "O Invoicemonk funciona no celular?", "answer": "Sim. Crie e envie faturas diretamente do canteiro." },
+    { "question": "Posso cobrar materiais e mão de obra separadamente?", "answer": "Sim. Adicione itens separados para materiais, horas de trabalho e aluguel de equipamento." },
+    { "question": "Como os lembretes automáticos ajudam empreiteiros?", "answer": "Lembretes automáticos garantem que cada fatura pendente seja acompanhada, mesmo quando você está ocupado na obra." },
+    { "question": "O Invoicemonk é grátis para empreiteiros?", "answer": "Sim! O plano gratuito inclui 5 faturas e 5 recibos por mês." },
+    { "question": "Posso criar faturas de entrada?", "answer": "Sim. Solicite entradas antes de começar. O Invoicemonk rastreia a entrada contra o custo total do projeto." }
+  ],
+  "faqHeading": "Perguntas frequentes",
+  "relatedReading": "Leitura relacionada",
+  "relatedLinks": {
+    "milestone": "Faturamento por marcos",
+    "paymentTerms": "Guia de condições de pagamento",
+    "gettingPaid": "Receber mais rápido"
+  },
+  "cta": {
+    "heading": "Pronto para simplificar seu negócio de empreitada?",
+    "description": "Junte-se aos empreiteiros que confiam no Invoicemonk para faturamento e despesas.",
+    "button": "Começar grátis"
+  }
+}

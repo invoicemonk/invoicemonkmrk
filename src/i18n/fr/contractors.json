@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Logiciel de facturation pour entrepreneurs | Invoicemonk",
+    "description": "Facturation professionnelle pour entrepreneurs en électricité, bâtiment et métiers. Facturation mobile, suivi multi-projets et gestion des dépenses."
+  },
+  "hero": {
+    "badge": "Pour les entrepreneurs",
+    "title": "Facturation conçue pour les entrepreneurs",
+    "accentWord": "entrepreneurs",
+    "description": "Gérez plusieurs projets, suivez les dépenses de chantier et facturez vos clients de partout. Conçu pour les entrepreneurs qui travaillent sur le terrain.",
+    "primaryCta": "Commencer gratuitement",
+    "secondaryCta": "Voir les tarifs",
+    "trustBadge": "Adopté par les entrepreneurs en électricité, bâtiment et métiers"
+  },
+  "benefits": {
+    "heading": "Conçu pour les métiers et la construction",
+    "subheading": "Tout ce dont vous avez besoin pour gérer vos finances sur plusieurs chantiers — des factures d'acompte au paiement final",
+    "items": [
+      { "title": "Gestion multi-projets", "description": "Suivez factures, dépenses et paiements sur plusieurs clients et chantiers simultanément. Chaque projet a sa propre vue financière." },
+      { "title": "Facturation mobile", "description": "Créez et envoyez des factures depuis le chantier avec votre téléphone. Facturez immédiatement quand les détails sont frais." },
+      { "title": "Suivi des coûts matériaux", "description": "Suivez matériaux, main-d'œuvre, sous-traitants et coûts d'équipement pour un chiffrage précis. Connaissez vos vraies marges." },
+      { "title": "Documents prêts pour les impôts", "description": "Chaque facture et dépense est automatiquement catégorisée et stockée pour la conformité fiscale." }
+    ]
+  },
+  "useCases": {
+    "heading": "Comment les entrepreneurs utilisent Invoicemonk",
+    "subheading": "Que vous soyez électricien, plombier, maçon ou entrepreneur général — voici comment Invoicemonk s'intègre à votre workflow",
+    "items": [
+      { "title": "Projets résidentiels", "description": "Devis, facture d'acompte, puis facturation aux jalons convenus — gros œuvre, inspection et finition. Suivez les achats de matériaux par projet." },
+      { "title": "Contrats commerciaux", "description": "Gérez des projets commerciaux avec facturation progressive. Factures détaillées avec numéros de commande et pourcentages d'avancement." },
+      { "title": "Maintenance & interventions", "description": "Pour les interventions rapides, créez une facture sur votre téléphone avant de quitter le chantier. Envoyez-la instantanément." }
+    ]
+  },
+  "challenges": {
+    "heading": "Défis courants des entrepreneurs — résolus",
+    "subheading": "Nous avons construit Invoicemonk autour des vrais problèmes que les entrepreneurs rencontrent sur le chantier",
+    "items": [
+      { "problem": "Oublier de facturer les extras, avenants ou matériaux supplémentaires", "solution": "Facturez depuis le chantier immédiatement. Ajoutez des postes pour les extras en temps réel." },
+      { "problem": "Ne pas connaître le coût réel et la rentabilité de chaque chantier", "solution": "Suivez toutes les dépenses par projet — matériaux, main-d'œuvre, sous-traitants, carburant." },
+      { "problem": "Les clients contestent les factures à cause d'une facturation peu claire", "solution": "Postes détaillés montrant matériaux, heures de travail et tarifs. Les clients voient exactement ce qu'ils paient." },
+      { "problem": "Courir après les paiements sur plusieurs chantiers", "solution": "Les rappels automatiques relancent chaque client selon le calendrier. Votre tableau de bord montre toutes les factures en cours." }
+    ]
+  },
+  "workflow": {
+    "heading": "Comment ça marche",
+    "subheading": "De la mise en place du projet au paiement final — un workflow conçu pour le chantier",
+    "steps": [
+      { "title": "Configurez vos projets", "description": "Créez un projet pour chaque chantier ou engagement client. Ajoutez les détails, le périmètre et la structure de facturation." },
+      { "title": "Demandez des acomptes", "description": "Avant de commencer, envoyez une facture d'acompte professionnelle — généralement 30–50% du coût estimé." },
+      { "title": "Facturez aux jalons", "description": "Créez des factures de progression directement depuis votre téléphone à la fin de chaque phase." },
+      { "title": "Suivez les coûts et clôturez", "description": "Enregistrez les dépenses au fur et à mesure. Envoyez la facture finale avec le solde restant." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Pourquoi les entrepreneurs choisissent Invoicemonk",
+    "paragraphs": [
+      "La plupart des logiciels de facturation sont conçus pour les employés de bureau. Les entrepreneurs ont besoin d'un outil qui fonctionne sur un téléphone sur un chantier poussiéreux.",
+      "Contrairement aux logiciels de comptabilité génériques, Invoicemonk ne vous force pas à travers des assistants complexes. Ajoutez un projet, créez une facture, envoyez-la.",
+      "Invoicemonk offre le suivi financier par projet dont les entrepreneurs ont vraiment besoin : analyse du coût par chantier, suivi des acomptes et catégorisation des dépenses."
+    ]
+  },
+  "checklist": {
+    "heading": "Ce que les entrepreneurs obtiennent avec Invoicemonk",
+    "items": [
+      "Facturation progressive et jalons",
+      "Suivi des dépenses par chantier",
+      "Gestion des coûts matériaux",
+      "Organisation multi-clients",
+      "Facturation mobile",
+      "Rappels de paiement automatiques",
+      "Pièces jointes photo",
+      "Factures d'acompte et retainer",
+      "Suivi des heures de travail",
+      "Documents conformes aux impôts"
+    ]
+  },
+  "testimonials": {
+    "heading": "Adopté par les entrepreneurs",
+    "items": [
+      { "quote": "Je peux facturer directement depuis le chantier. Mon chiffre d'affaires hebdomadaire a augmenté simplement parce que je facture plus vite.", "author": "Emeka O.", "role": "Électricien" },
+      { "quote": "Suivre les dépenses par projet m'a aidé à comprendre mes vrais coûts. Maintenant je chiffre plus précisément et mes marges se sont améliorées.", "author": "Kola B.", "role": "Entrepreneur en bâtiment" },
+      { "quote": "La facture d'acompte est essentielle. J'exige 40% d'avance, et Invoicemonk rend ce processus professionnel.", "author": "Femi T.", "role": "Plombier" }
+    ]
+  },
+  "faqs": [
+    { "question": "Puis-je créer des factures de progression ?", "answer": "Oui. Invoicemonk supporte la facturation progressive, par jalons et les demandes d'acompte." },
+    { "question": "Puis-je suivre les dépenses par chantier ?", "answer": "Absolument. Catégorisez les dépenses par projet, client ou chantier." },
+    { "question": "Invoicemonk fonctionne-t-il sur mobile ?", "answer": "Oui. Créez et envoyez des factures depuis votre téléphone directement sur le chantier." },
+    { "question": "Puis-je facturer matériaux et main-d'œuvre séparément ?", "answer": "Oui. Ajoutez des postes séparés pour matériaux, heures de travail et location d'équipement." },
+    { "question": "Comment les rappels automatiques aident-ils les entrepreneurs ?", "answer": "Les rappels automatiques assurent le suivi de chaque facture en cours, même quand vous êtes occupé sur le chantier." },
+    { "question": "Invoicemonk est-il gratuit pour les entrepreneurs ?", "answer": "Oui ! La version gratuite inclut 5 factures et 5 reçus par mois." },
+    { "question": "Puis-je créer des factures d'acompte ?", "answer": "Oui. Demandez des acomptes avant de commencer. Invoicemonk suit l'acompte par rapport au coût total du projet." }
+  ],
+  "faqHeading": "Questions fréquemment posées",
+  "relatedReading": "Lectures connexes",
+  "relatedLinks": {
+    "milestone": "Facturation par jalons",
+    "paymentTerms": "Guide des conditions de paiement",
+    "gettingPaid": "Être payé plus vite"
+  },
+  "cta": {
+    "heading": "Prêt à simplifier votre activité d'entrepreneur ?",
+    "description": "Rejoignez les entrepreneurs qui font confiance à Invoicemonk pour leur facturation et leurs dépenses.",
+    "button": "Commencer gratuitement"
+  }
+}
