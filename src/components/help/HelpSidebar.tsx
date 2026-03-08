@@ -1,16 +1,21 @@
 import { Link } from '@/components/LocalizedLink';
+import { useTranslation } from 'react-i18next';
 import { icons } from 'lucide-react';
-import { helpGuides, categoryLabels, categoryOrder } from '@/data/helpGuides';
-import type { HelpGuide } from '@/data/helpGuides';
+import { categoryOrder } from '@/data/helpGuides';
+import { getTranslatedHelpGuides, getLangPrefix } from '@/utils/i18nData';
 
 interface HelpSidebarProps {
   currentSlug: string;
 }
 
 export function HelpSidebar({ currentSlug }: HelpSidebarProps) {
+  const { t, i18n } = useTranslation('help');
+  const lang = getLangPrefix(i18n.language);
+  const helpGuides = getTranslatedHelpGuides(lang);
+
   const grouped = categoryOrder.map(cat => ({
     category: cat,
-    label: categoryLabels[cat],
+    label: t(`categories.${cat}`),
     guides: helpGuides.filter(g => g.category === cat),
   }));
 
