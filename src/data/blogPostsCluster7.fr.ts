@@ -13,7 +13,7 @@ const posts: BlogPost[] = [
     date: '2026-02-19',
     readTime: '9 min de lecture',
     featuredImage: '/blog/client-onboarding-checklist.jpg',
-    featuredImageAlt: 'Checklist d'onboarding client avec dossier de bienvenue',
+    featuredImageAlt: "Checklist d\u2019onboarding client avec dossier de bienvenue",
     clusterType: 'cluster',
     targetProduct: '/client-management',
     semanticKeywords: ['processus onboarding client', 'onboarding freelance', 'checklist nouveau client'],
