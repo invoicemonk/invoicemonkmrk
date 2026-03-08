@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
+import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
@@ -18,14 +19,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { 
-  glossaryTerms, 
-  getTermsByCategory, 
   getGlossaryCategories,
   searchGlossaryTerms,
   getRelatedTerms,
   type GlossaryTerm 
 } from '@/data/glossaryTerms';
-import { blogPosts } from '@/data/blogPosts';
+import { getTranslatedGlossaryTerms, getTranslatedBlogPosts, getLangPrefix } from '@/utils/i18nData';
 import { 
   Search, 
   BookOpen, 
@@ -39,29 +38,56 @@ import {
   ChevronRight
 } from 'lucide-react';
 
-const categoryConfig: Record<GlossaryTerm['category'], { icon: typeof FileText; label: string; color: string }> = {
-  invoicing: { icon: FileText, label: 'Invoicing', color: 'bg-primary/10 text-primary' },
-  payments: { icon: Wallet, label: 'Payments', color: 'bg-green-500/10 text-green-600' },
-  accounting: { icon: Calculator, label: 'Accounting', color: 'bg-blue-500/10 text-blue-600' },
-  tax: { icon: Shield, label: 'Tax & Compliance', color: 'bg-purple-500/10 text-purple-600' },
-  freelancing: { icon: User, label: 'Freelancing', color: 'bg-orange-500/10 text-orange-600' },
-  business: { icon: Briefcase, label: 'Business', color: 'bg-rose-500/10 text-rose-600' },
+const categoryIcons: Record<GlossaryTerm['category'], typeof FileText> = {
+  invoicing: FileText,
+  payments: Wallet,
+  accounting: Calculator,
+  tax: Shield,
+  freelancing: User,
+  business: Briefcase,
+};
+
+const categoryColors: Record<GlossaryTerm['category'], string> = {
+  invoicing: 'bg-primary/10 text-primary',
+  payments: 'bg-green-500/10 text-green-600',
+  accounting: 'bg-blue-500/10 text-blue-600',
+  tax: 'bg-purple-500/10 text-purple-600',
+  freelancing: 'bg-orange-500/10 text-orange-600',
+  business: 'bg-rose-500/10 text-rose-600',
 };
 
 const Glossary = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [searchQuery, setSearchQuery] = useState('');
+  const { t, i18n } = useTranslation('glossary');
+  const lang = getLangPrefix(i18n.language);
+  const glossaryTerms = getTranslatedGlossaryTerms(lang);
+  const blogPosts = getTranslatedBlogPosts(lang);
   const selectedCategory = searchParams.get('category') as GlossaryTerm['category'] | null;
   const selectedTerm = searchParams.get('term');
 
   const categories = getGlossaryCategories();
+
+  // Build category config with translated labels
+  const categoryConfig: Record<GlossaryTerm['category'], { icon: typeof FileText; label: string; color: string }> = {
+    invoicing: { icon: categoryIcons.invoicing, label: t('categories.invoicing'), color: categoryColors.invoicing },
+    payments: { icon: categoryIcons.payments, label: t('categories.payments'), color: categoryColors.payments },
+    accounting: { icon: categoryIcons.accounting, label: t('categories.accounting'), color: categoryColors.accounting },
+    tax: { icon: categoryIcons.tax, label: t('categories.tax'), color: categoryColors.tax },
+    freelancing: { icon: categoryIcons.freelancing, label: t('categories.freelancing'), color: categoryColors.freelancing },
+    business: { icon: categoryIcons.business, label: t('categories.business'), color: categoryColors.business },
+  };
 
   // Filter terms based on search and category
   const filteredTerms = useMemo(() => {
     let terms = glossaryTerms;
     
     if (searchQuery) {
-      terms = searchGlossaryTerms(searchQuery);
+      const q = searchQuery.toLowerCase();
+      terms = terms.filter(t => 
+        t.term.toLowerCase().includes(q) || 
+        t.definition.toLowerCase().includes(q)
+      );
     }
     
     if (selectedCategory) {
@@ -69,7 +95,7 @@ const Glossary = () => {
     }
     
     return terms.sort((a, b) => a.term.localeCompare(b.term));
-  }, [searchQuery, selectedCategory]);
+  }, [searchQuery, selectedCategory, glossaryTerms]);
 
   // Group terms alphabetically
   const groupedTerms = useMemo(() => {
@@ -118,8 +144,8 @@ const Glossary = () => {
     <Layout>
       <FAQSchema items={glossaryFAQs} />
       <SEOHead
-        title="Business Finance Glossary | Invoicing & Accounting Terms | Invoicemonk"
-        description="Comprehensive glossary of invoicing, payments, accounting, tax, and business finance terms. Learn key concepts for small business owners and freelancers."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
       />
       <DefinedTermSetSchema terms={glossaryTerms} />
 
@@ -129,14 +155,13 @@ const Glossary = () => {
           <AnimatedSection className="text-center max-w-2xl mx-auto mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
               <BookOpen className="h-4 w-4" />
-              <span>Knowledge Base</span>
+              <span>{t('badge')}</span>
             </div>
             <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-4">
-              Business Finance Glossary
+              {t('title')}
             </h1>
             <p className="text-body-lg text-muted-foreground">
-              Essential invoicing, accounting, and business terms explained simply. 
-              Build your financial vocabulary with our comprehensive glossary.
+              {t('subtitle')}
             </p>
           </AnimatedSection>
 
@@ -146,7 +171,7 @@ const Glossary = () => {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
               <Input
                 type="search"
-                placeholder="Search terms..."
+                placeholder={t('searchPlaceholder')}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="pl-10 h-12"
@@ -161,7 +186,7 @@ const Glossary = () => {
               size="sm"
               onClick={() => handleCategoryFilter(null)}
             >
-              All Terms
+              {t('allTerms')}
             </Button>
             {categories.map((category) => {
               const config = categoryConfig[category];
@@ -186,7 +211,7 @@ const Glossary = () => {
             <div className="lg:col-span-2">
               {Object.keys(groupedTerms).length === 0 ? (
                 <AnimatedSection className="text-center py-12">
-                  <p className="text-muted-foreground">No terms found matching your search.</p>
+                  <p className="text-muted-foreground">{t('noResults')}</p>
                 </AnimatedSection>
               ) : (
                 <div className="space-y-8">
@@ -253,20 +278,20 @@ const Glossary = () => {
                       </CardHeader>
                       <CardContent className="space-y-4">
                         <div>
-                          <h4 className="font-medium text-sm text-muted-foreground mb-1">Definition</h4>
+                          <h4 className="font-medium text-sm text-muted-foreground mb-1">{t('definition')}</h4>
                           <p className="text-foreground">{termDetails.definition}</p>
                         </div>
                         
                         {termDetails.extendedDescription && (
                           <div>
-                            <h4 className="font-medium text-sm text-muted-foreground mb-1">More Details</h4>
+                            <h4 className="font-medium text-sm text-muted-foreground mb-1">{t('moreDetails')}</h4>
                             <p className="text-foreground text-sm">{termDetails.extendedDescription}</p>
                           </div>
                         )}
 
                         {relatedTermsList.length > 0 && (
                           <div>
-                            <h4 className="font-medium text-sm text-muted-foreground mb-2">Related Terms</h4>
+                            <h4 className="font-medium text-sm text-muted-foreground mb-2">{t('relatedTerms')}</h4>
                             <div className="flex flex-wrap gap-2">
                               {relatedTermsList.map(related => (
                                 <Button
@@ -284,7 +309,7 @@ const Glossary = () => {
 
                         {relatedArticles.length > 0 && (
                           <div>
-                            <h4 className="font-medium text-sm text-muted-foreground mb-2">Learn More</h4>
+                            <h4 className="font-medium text-sm text-muted-foreground mb-2">{t('learnMore')}</h4>
                             <div className="space-y-2">
                               {relatedArticles.map(article => (
                                 <Link
@@ -307,7 +332,7 @@ const Glossary = () => {
                     <CardContent className="py-8 text-center">
                       <BookOpen className="h-12 w-12 mx-auto text-muted-foreground/50 mb-4" />
                       <p className="text-muted-foreground">
-                        Select a term to see its full definition and related resources.
+                        {t('selectPrompt')}
                       </p>
                     </CardContent>
                   </Card>
@@ -320,13 +345,13 @@ const Glossary = () => {
           <AnimatedSection className="mt-16 text-center">
             <Card className="bg-primary/5 border-primary/20">
               <CardContent className="py-8">
-                <h2 className="text-2xl font-bold mb-2">Put These Terms Into Practice</h2>
+                <h2 className="text-2xl font-bold mb-2">{t('ctaTitle')}</h2>
                 <p className="text-muted-foreground mb-4">
-                  Start using professional invoicing software that handles the complexity for you.
+                  {t('ctaSubtitle')}
                 </p>
                 <Button asChild>
                   <Link to="/pricing" className="gap-2">
-                    Get Started Free <ArrowRight className="h-4 w-4" />
+                    {t('getStartedFree')} <ArrowRight className="h-4 w-4" />
                   </Link>
                 </Button>
               </CardContent>

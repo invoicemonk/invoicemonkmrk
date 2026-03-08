@@ -1,12 +1,13 @@
 import { useParams } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
+import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { HowToSchema } from '@/components/seo/HowToSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { HelpSidebar } from '@/components/help/HelpSidebar';
-import { getGuideBySlug, helpGuides } from '@/data/helpGuides';
+import { getGuideBySlugTranslated, getTranslatedHelpGuides, getLangPrefix } from '@/utils/i18nData';
 import { Button } from '@/components/ui/button';
 import { ChevronRight, ExternalLink } from 'lucide-react';
 import { icons } from 'lucide-react';
@@ -14,7 +15,10 @@ import NotFound from '@/pages/NotFound';
 
 export default function HelpArticle() {
   const { slug } = useParams<{ slug: string }>();
-  const guide = slug ? getGuideBySlug(slug) : undefined;
+  const { t, i18n } = useTranslation('help');
+  const lang = getLangPrefix(i18n.language);
+  const guide = slug ? getGuideBySlugTranslated(slug, lang) : undefined;
+  const helpGuides = getTranslatedHelpGuides(lang);
 
   if (!guide) return <NotFound />;
 
@@ -39,8 +43,8 @@ export default function HelpArticle() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: 'https://invoicemonk.com/' },
-          { name: 'Help Center', url: 'https://invoicemonk.com/help' },
+          { name: t('breadcrumbHome'), url: 'https://invoicemonk.com/' },
+          { name: t('title'), url: 'https://invoicemonk.com/help' },
           { name: guide.title.split('—')[0].trim(), url: `https://invoicemonk.com/help/${guide.slug}` },
         ]}
       />
@@ -50,9 +54,9 @@ export default function HelpArticle() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-body-sm text-muted-foreground mb-8 flex-wrap">
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-primary transition-colors">{t('breadcrumbHome')}</Link>
             <ChevronRight className="w-3 h-3" />
-            <Link to="/help" className="hover:text-primary transition-colors">Help Center</Link>
+            <Link to="/help" className="hover:text-primary transition-colors">{t('title')}</Link>
             <ChevronRight className="w-3 h-3" />
             <span className="text-foreground font-medium">{guide.title.split('—')[0].split(':')[0].trim()}</span>
           </nav>
@@ -72,7 +76,7 @@ export default function HelpArticle() {
 
               {/* Steps summary */}
               <div className="bg-primary/5 rounded-2xl p-6 mb-10 border border-primary/10">
-                <h2 className="text-body font-semibold text-foreground mb-4">Quick Steps</h2>
+                <h2 className="text-body font-semibold text-foreground mb-4">{t('quickSteps')}</h2>
                 <ol className="space-y-3">
                   {guide.steps.map((step, i) => (
                     <li key={i} className="flex gap-3">
@@ -98,7 +102,7 @@ export default function HelpArticle() {
               {/* FAQ */}
               {guide.faq && guide.faq.length > 0 && (
                 <div className="mt-12 border-t border-border pt-8">
-                  <h2 className="text-heading-sm font-bold text-heading mb-6">Frequently Asked Questions</h2>
+                  <h2 className="text-heading-sm font-bold text-heading mb-6">{t('faq')}</h2>
                   <div className="space-y-6">
                     {guide.faq.map((item, i) => (
                       <div key={i}>
@@ -113,7 +117,7 @@ export default function HelpArticle() {
               {/* Related Guides */}
               {relatedGuides.length > 0 && (
                 <div className="mt-12 border-t border-border pt-8">
-                  <h2 className="text-heading-sm font-bold text-heading mb-6">Related Guides</h2>
+                  <h2 className="text-heading-sm font-bold text-heading mb-6">{t('relatedGuides')}</h2>
                   <div className="grid sm:grid-cols-2 gap-4">
                     {relatedGuides.map(rg => {
                       if (!rg) return null;
@@ -141,18 +145,18 @@ export default function HelpArticle() {
 
               {/* CTA */}
               <div className="mt-12 bg-primary/5 rounded-2xl p-8 text-center border border-primary/10">
-                <h2 className="text-heading-sm font-bold text-heading mb-2">Ready to try it?</h2>
+                <h2 className="text-heading-sm font-bold text-heading mb-2">{t('ctaTitle')}</h2>
                 <p className="text-body text-muted-foreground mb-6">
-                  Put this guide into action with your Invoicemonk account.
+                  {t('ctaSubtitle')}
                 </p>
                 <Button asChild className="rounded-full px-8">
                   {isExternal ? (
                     <a href={guide.targetFeature} target="_blank" rel="noopener noreferrer">
-                      Open Invoicemonk <ExternalLink className="w-4 h-4 ml-2" />
+                      {t('ctaButtonExternal')} <ExternalLink className="w-4 h-4 ml-2" />
                     </a>
                   ) : (
                     <Link to={guide.targetFeature}>
-                      Learn More <ChevronRight className="w-4 h-4 ml-1" />
+                      {t('ctaButtonInternal')} <ChevronRight className="w-4 h-4 ml-1" />
                     </Link>
                   )}
                 </Button>

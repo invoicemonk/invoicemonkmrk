@@ -1,10 +1,11 @@
 import { Link } from '@/components/LocalizedLink';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList, Receipt, Users } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { Card, CardContent } from '@/components/ui/card';
-import { pillars } from '@/data/topicalMap';
+import { getTranslatedPillars, getLangPrefix } from '@/utils/i18nData';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   FileText,
@@ -18,6 +19,10 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 export default function GuidesIndex() {
+  const { i18n } = useTranslation();
+  const lang = getLangPrefix(i18n.language);
+  const pillars = getTranslatedPillars(lang);
+
   return (
     <Layout>
       <SEOHead
@@ -48,37 +53,33 @@ export default function GuidesIndex() {
       {/* Guide Cards */}
       <section className="pb-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {pillars.map((pillar, index) => {
-              const IconComponent = iconMap[pillar.icon];
-              
+              const Icon = iconMap[pillar.icon] || FileText;
               return (
                 <motion.div
                   key={pillar.id}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  transition={{ duration: 0.4, delay: index * 0.08 }}
                 >
-                  <Link to={`/guides/${pillar.slug}`}>
-                    <Card className="h-full hover:shadow-soft-lg transition-all duration-300 group border-border/50">
+                  <Link to={pillar.hubPage}>
+                    <Card className="h-full hover:shadow-lg hover:border-primary/30 transition-all group cursor-pointer">
                       <CardContent className="p-6">
-                        <div 
+                        <div
                           className="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
                           style={{ backgroundColor: `${pillar.color}15` }}
                         >
-                          {IconComponent && (
-                            <IconComponent className="w-6 h-6 text-primary" />
-                          )}
+                          <Icon className="h-6 w-6" style={{ color: pillar.color }} />
                         </div>
-                        <h2 className="text-body-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                        <h2 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors mb-2">
                           {pillar.title}
                         </h2>
-                        <p className="text-body text-muted-foreground mb-4 line-clamp-2">
+                        <p className="text-sm text-muted-foreground mb-4 line-clamp-3">
                           {pillar.description}
                         </p>
-                        <span className="inline-flex items-center text-sm font-medium text-primary">
-                          Explore guide
-                          <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                        <span className="inline-flex items-center text-sm font-medium text-primary gap-1">
+                          Read Guide <ArrowRight className="h-4 w-4" />
                         </span>
                       </CardContent>
                     </Card>

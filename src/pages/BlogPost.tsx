@@ -1,17 +1,18 @@
 import { useParams } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
 import { useEffect, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useLocale } from '@/hooks/useLocale';
 import { Layout } from '@/components/layout/Layout';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Calendar, Clock, ArrowRight } from 'lucide-react';
 import { 
-  getBlogPostBySlug, 
   getRelatedPostsEnhanced, 
   getPostClusterInfo,
   getPostsForPillar 
 } from '@/data/blogPosts';
+import { getBlogPostBySlugTranslated, getLangPrefix } from '@/utils/i18nData';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { AuthorCard } from '@/components/blog/AuthorCard';
 import { ClusterNavigation } from '@/components/blog/ClusterNavigation';
@@ -31,7 +32,9 @@ import NotFound from './NotFound';
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const { locale } = useLocale();
-  const post = slug ? getBlogPostBySlug(slug) : undefined;
+  const { t, i18n } = useTranslation('blog');
+  const lang = getLangPrefix(i18n.language);
+  const post = slug ? getBlogPostBySlugTranslated(slug, lang) : undefined;
 
   // Enhance links in post content (must be before early return)
   const enhancedContent = useMemo(() => {
@@ -115,7 +118,7 @@ const BlogPost = () => {
       {post.tags && post.tags.length > 0 && (
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-wrap gap-2">
-            <span className="text-body-sm font-medium text-foreground">Tags:</span>
+            <span className="text-body-sm font-medium text-foreground">{t('tags')}</span>
             {post.tags.map((tag) => (
               <Badge key={tag} variant="outline" className="text-xs">
                 {tag}
@@ -184,7 +187,7 @@ const BlogPost = () => {
             <Button variant="ghost" asChild className="gap-2">
               <Link to="/blog">
                 <ArrowLeft className="h-4 w-4" />
-                Back to Blog
+                {t('backToBlog')}
               </Link>
             </Button>
           </div>
@@ -283,7 +286,7 @@ const BlogPost = () => {
             <div className="lg:hidden max-w-3xl mx-auto mt-8 mb-8">
               <details className="bg-muted/30 rounded-xl border border-border" open>
                 <summary className="px-4 py-3 font-medium text-foreground cursor-pointer hover:bg-muted/50 rounded-xl transition-colors">
-                  More in this series ({clusterPosts.length} articles)
+                  {t('moreInSeries', { count: clusterPosts.length })}
                 </summary>
                 <div className="px-4 pb-4">
                   <ClusterNavigation 
@@ -304,7 +307,7 @@ const BlogPost = () => {
           {/* Related Tools — internal linking boost */}
           {post.relatedTools && post.relatedTools.length > 0 && (
             <div className="max-w-3xl mx-auto mt-12">
-              <h2 className="text-heading-sm font-bold text-foreground mb-4">Recommended Tools</h2>
+              <h2 className="text-heading-sm font-bold text-foreground mb-4">{t('recommendedTools')}</h2>
               <div className="grid sm:grid-cols-2 gap-3">
                 {post.relatedTools.map((tool) => (
                   <Link
@@ -342,7 +345,7 @@ const BlogPost = () => {
           {relatedPosts.length > 0 && (
             <section className="max-w-5xl mx-auto mt-20">
               <h2 className="text-heading-md font-bold text-foreground mb-8 text-center">
-                {pillar ? `More from ${pillar.title}` : 'Related Articles'}
+                {pillar ? t('moreFrom', { pillar: pillar.title }) : t('relatedArticles')}
               </h2>
               <div className="grid md:grid-cols-3 gap-6">
                 {relatedPosts.map((relatedPost) => (

@@ -1,0 +1,26 @@
+{
+  "badge": "Wissensdatenbank",
+  "title": "Finanzglossar für Unternehmen",
+  "subtitle": "Wichtige Begriffe aus Rechnungsstellung, Buchhaltung und Geschäftswelt einfach erklärt. Erweitern Sie Ihr Finanzwissen mit unserem umfassenden Glossar.",
+  "searchPlaceholder": "Begriffe suchen...",
+  "allTerms": "Alle Begriffe",
+  "noResults": "Keine passenden Begriffe gefunden.",
+  "definition": "Definition",
+  "moreDetails": "Weitere Details",
+  "relatedTerms": "Verwandte Begriffe",
+  "learnMore": "Mehr erfahren",
+  "ctaTitle": "Setzen Sie diese Begriffe in die Praxis um",
+  "ctaSubtitle": "Nutzen Sie professionelle Rechnungssoftware, die die Komplexität für Sie übernimmt.",
+  "getStartedFree": "Kostenlos starten",
+  "selectPrompt": "Wählen Sie einen Begriff, um die vollständige Definition und zugehörige Ressourcen zu sehen.",
+  "categories": {
+    "invoicing": "Rechnungsstellung",
+    "payments": "Zahlungen",
+    "accounting": "Buchhaltung",
+    "tax": "Steuern & Compliance",
+    "freelancing": "Freiberuflichkeit",
+    "business": "Unternehmen"
+  },
+  "seoTitle": "Finanzglossar für Unternehmen | Rechnungs- & Buchhaltungsbegriffe | Invoicemonk",
+  "seoDescription": "Umfassendes Glossar zu Rechnungsstellung, Zahlungen, Buchhaltung, Steuern und Unternehmensfinanzen. Lernen Sie wichtige Konzepte für Kleinunternehmer und Freiberufler."
+}

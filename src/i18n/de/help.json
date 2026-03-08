@@ -1,0 +1,25 @@
+{
+  "badge": "Produktdokumentation",
+  "title": "Hilfe-Center",
+  "subtitle": "Schritt-für-Schritt-Anleitungen für jede Invoicemonk-Funktion. Finden Sie, was Sie brauchen, und arbeiten Sie weiter.",
+  "searchPlaceholder": "Hilfe-Anleitungen durchsuchen...",
+  "noResults": "Keine Anleitungen für \"{{query}}\" gefunden. Versuchen Sie einen anderen Suchbegriff.",
+  "allGuides": "← Alle Anleitungen",
+  "quickSteps": "Kurzanleitung",
+  "faq": "Häufig gestellte Fragen",
+  "relatedGuides": "Verwandte Anleitungen",
+  "ctaTitle": "Bereit, es auszuprobieren?",
+  "ctaSubtitle": "Setzen Sie diese Anleitung mit Ihrem Invoicemonk-Konto in die Praxis um.",
+  "ctaButtonExternal": "Invoicemonk öffnen",
+  "ctaButtonInternal": "Mehr erfahren",
+  "breadcrumbHome": "Startseite",
+  "breadcrumbHelp": "Hilfe-Center",
+  "categories": {
+    "getting-started": "Erste Schritte",
+    "core-features": "Kernfunktionen",
+    "financial-tools": "Finanztools",
+    "administration": "Verwaltung"
+  },
+  "seoTitle": "Hilfe-Center — Invoicemonk Produktanleitungen",
+  "seoDescription": "Schritt-für-Schritt-Anleitungen für jede Invoicemonk-Funktion. Erfahren Sie, wie Sie Rechnungen erstellen, Zahlungen erfassen, Ausgaben verfolgen und mehr."
+}

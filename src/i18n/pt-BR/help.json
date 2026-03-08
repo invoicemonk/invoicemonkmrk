@@ -1,0 +1,25 @@
+{
+  "badge": "Documentação do produto",
+  "title": "Central de Ajuda",
+  "subtitle": "Guias passo a passo para cada funcionalidade do Invoicemonk. Encontre o que você precisa e volte ao trabalho.",
+  "searchPlaceholder": "Pesquisar guias de ajuda...",
+  "noResults": "Nenhum guia encontrado para \"{{query}}\". Tente um termo de pesquisa diferente.",
+  "allGuides": "← Todos os guias",
+  "quickSteps": "Passos rápidos",
+  "faq": "Perguntas frequentes",
+  "relatedGuides": "Guias relacionados",
+  "ctaTitle": "Pronto para experimentar?",
+  "ctaSubtitle": "Coloque este guia em prática com sua conta Invoicemonk.",
+  "ctaButtonExternal": "Abrir Invoicemonk",
+  "ctaButtonInternal": "Saiba mais",
+  "breadcrumbHome": "Início",
+  "breadcrumbHelp": "Central de Ajuda",
+  "categories": {
+    "getting-started": "Primeiros passos",
+    "core-features": "Funcionalidades principais",
+    "financial-tools": "Ferramentas financeiras",
+    "administration": "Administração"
+  },
+  "seoTitle": "Central de Ajuda — Guias do Produto Invoicemonk",
+  "seoDescription": "Guias passo a passo para cada funcionalidade do Invoicemonk. Aprenda a criar faturas, registrar pagamentos, acompanhar despesas e muito mais."
+}

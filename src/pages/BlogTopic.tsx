@@ -1,12 +1,14 @@
 import { useParams } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
 import { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, ArrowRight, FileText, Wallet, Calculator, Shield, User, ClipboardList, type LucideIcon } from 'lucide-react';
-import { pillars, type Pillar } from '@/data/topicalMap';
+import { type Pillar } from '@/data/topicalMap';
 import { getPostsForPillar } from '@/data/blogPosts';
+import { getTranslatedPillars, getLangPrefix } from '@/utils/i18nData';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';
@@ -30,11 +32,14 @@ const iconMap: Record<string, LucideIcon> = {
 
 const BlogTopic = () => {
   const { topicId } = useParams<{ topicId: string }>();
+  const { t, i18n } = useTranslation('blog');
+  const lang = getLangPrefix(i18n.language);
+  const pillars = getTranslatedPillars(lang);
   const [currentPage, setCurrentPage] = useState(1);
   
   const pillar = useMemo(() => 
     pillars.find(p => p.id === topicId), 
-    [topicId]
+    [topicId, pillars]
   );
   
   const posts = useMemo(() => 
@@ -93,7 +98,7 @@ const BlogTopic = () => {
             <Button variant="ghost" asChild className="gap-2">
               <Link to="/blog">
                 <ArrowLeft className="h-4 w-4" />
-                All Topics
+                {t('allTopics')}
               </Link>
             </Button>
           </AnimatedSection>
@@ -118,7 +123,7 @@ const BlogTopic = () => {
               </Badge>
               <Button asChild size="sm" style={{ backgroundColor: pillar.color }}>
                 <Link to={pillar.targetProduct}>
-                  Explore {pillar.title.split(' ')[0]} Features
+                  {t('exploreFeaturesPrefix')} {pillar.title.split(' ')[0]} {t('exploreFeaturesSuffix')}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -129,7 +134,7 @@ const BlogTopic = () => {
           {pillar.keyTopics && pillar.keyTopics.length > 0 && (
             <AnimatedSection className="mb-16">
               <h2 className="text-h3 font-bold text-foreground mb-8 text-center">
-                Key Topics
+                {t('keyTopics')}
               </h2>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {pillar.keyTopics.map((topic, index) => (
@@ -153,10 +158,10 @@ const BlogTopic = () => {
           {/* All Articles */}
           <AnimatedSection className="mb-8">
             <h2 className="text-h3 font-bold text-foreground mb-2">
-              All Articles
+              {t('allArticles')}
             </h2>
             <p className="text-muted-foreground">
-              {posts.length} articles to help you master {pillar.title.toLowerCase()}
+              {t('allArticlesCount', { count: posts.length, topic: pillar.title.toLowerCase() })}
             </p>
           </AnimatedSection>
 
@@ -182,7 +187,7 @@ const BlogTopic = () => {
           {pillar.faq && pillar.faq.length > 0 && (
             <AnimatedSection className="max-w-3xl mx-auto mt-20">
               <h2 className="text-h3 font-bold text-foreground mb-8 text-center">
-                Frequently Asked Questions
+                {t('faq')}
               </h2>
               <Accordion type="single" collapsible className="w-full">
                 {pillar.faq.map((item, index) => (
@@ -202,7 +207,7 @@ const BlogTopic = () => {
           {/* Related Topics */}
           <AnimatedSection className="mt-20">
             <h2 className="text-h3 font-bold text-foreground mb-8 text-center">
-              Explore More Topics
+              {t('exploreMoreTopics')}
             </h2>
             <div className="grid sm:grid-cols-3 gap-4">
               {relatedPillars.map((related) => {
@@ -231,14 +236,14 @@ const BlogTopic = () => {
           {/* CTA Section */}
           <AnimatedSection className="mt-20 p-8 bg-primary/5 rounded-2xl text-center">
             <h2 className="text-heading-md font-bold text-foreground mb-3">
-              Ready to streamline your {pillar.title.toLowerCase().split(' ')[0]}?
+              {t('readyToStreamline', { topic: pillar.title.toLowerCase().split(' ')[0] })}
             </h2>
             <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
-              Join thousands of businesses using Invoicemonk to manage their finances professionally.
+              {t('joinThousands')}
             </p>
             <Button asChild size="lg">
               <Link to={pillar.targetProduct}>
-                Get Started Free
+                {t('getStartedFree')}
               </Link>
             </Button>
           </AnimatedSection>

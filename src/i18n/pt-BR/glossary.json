@@ -1,0 +1,26 @@
+{
+  "badge": "Base de conhecimento",
+  "title": "Glossário de Finanças Empresariais",
+  "subtitle": "Termos essenciais de faturamento, contabilidade e negócios explicados de forma simples. Amplie seu vocabulário financeiro com nosso glossário completo.",
+  "searchPlaceholder": "Pesquisar termos...",
+  "allTerms": "Todos os termos",
+  "noResults": "Nenhum termo encontrado correspondente à sua pesquisa.",
+  "definition": "Definição",
+  "moreDetails": "Mais detalhes",
+  "relatedTerms": "Termos relacionados",
+  "learnMore": "Saiba mais",
+  "ctaTitle": "Coloque esses termos em prática",
+  "ctaSubtitle": "Comece a usar um software de faturamento profissional que cuida da complexidade para você.",
+  "getStartedFree": "Começar grátis",
+  "selectPrompt": "Selecione um termo para ver sua definição completa e recursos relacionados.",
+  "categories": {
+    "invoicing": "Faturamento",
+    "payments": "Pagamentos",
+    "accounting": "Contabilidade",
+    "tax": "Impostos & Conformidade",
+    "freelancing": "Freelancing",
+    "business": "Negócios"
+  },
+  "seoTitle": "Glossário de Finanças Empresariais | Termos de Faturamento & Contabilidade | Invoicemonk",
+  "seoDescription": "Glossário completo de faturamento, pagamentos, contabilidade, impostos e finanças empresariais. Aprenda conceitos-chave para pequenas empresas e freelancers."
+}

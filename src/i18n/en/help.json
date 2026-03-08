@@ -1,0 +1,25 @@
+{
+  "badge": "Product Documentation",
+  "title": "Help Center",
+  "subtitle": "Step-by-step guides for every Invoicemonk feature. Find what you need and get back to work.",
+  "searchPlaceholder": "Search help guides...",
+  "noResults": "No guides found matching \"{{query}}\". Try a different search term.",
+  "allGuides": "← All Guides",
+  "quickSteps": "Quick Steps",
+  "faq": "Frequently Asked Questions",
+  "relatedGuides": "Related Guides",
+  "ctaTitle": "Ready to try it?",
+  "ctaSubtitle": "Put this guide into action with your Invoicemonk account.",
+  "ctaButtonExternal": "Open Invoicemonk",
+  "ctaButtonInternal": "Learn More",
+  "breadcrumbHome": "Home",
+  "breadcrumbHelp": "Help Center",
+  "categories": {
+    "getting-started": "Getting Started",
+    "core-features": "Core Features",
+    "financial-tools": "Financial Tools",
+    "administration": "Administration"
+  },
+  "seoTitle": "Help Center — Invoicemonk Product Guides",
+  "seoDescription": "Step-by-step guides for every Invoicemonk feature. Learn how to create invoices, record payments, track expenses, manage your team, and more."
+}
