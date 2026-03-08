@@ -44,6 +44,10 @@ import '@/data/blogPostsCluster2.de';
 import '@/data/blogPostsCluster2.fr';
 import '@/data/blogPostsCluster2.pt';
 import '@/data/blogPostsCluster2.es';
+import '@/data/blogPostsCluster3.de';
+import '@/data/blogPostsCluster3.fr';
+import '@/data/blogPostsCluster3.pt';
+import '@/data/blogPostsCluster3.es';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;
