@@ -67,6 +67,18 @@ import frAccounting from './fr/accounting.json';
 import ptBRAccounting from './pt-BR/accounting.json';
 import esAccounting from './es/accounting.json';
 
+import enEstimates from './en/estimates.json';
+import deEstimates from './de/estimates.json';
+import frEstimates from './fr/estimates.json';
+import ptBREstimates from './pt-BR/estimates.json';
+import esEstimates from './es/estimates.json';
+
+import enReceipts from './en/receipts.json';
+import deReceipts from './de/receipts.json';
+import frReceipts from './fr/receipts.json';
+import ptBRReceipts from './pt-BR/receipts.json';
+import esReceipts from './es/receipts.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
