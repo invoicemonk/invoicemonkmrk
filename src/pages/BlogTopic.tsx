@@ -101,9 +101,9 @@ const BlogTopic = () => {
   const hubUrl = `https://invoicemonk.com/blog/topic/${pillar.id}`;
 
   const breadcrumbs = [
-    { name: 'Home', url: 'https://invoicemonk.com' },
-    { name: 'Blog', url: 'https://invoicemonk.com/blog' },
-    { name: pillar.title, url: hubUrl }
+    { name: 'Home', url: '/' },
+    { name: 'Blog', url: '/blog' },
+    { name: pillar.title, url: `/blog/topic/${pillar.id}` }
   ];
 
   // Cross-link to related pillars (exclude current)

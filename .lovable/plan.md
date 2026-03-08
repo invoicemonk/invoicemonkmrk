@@ -1,57 +1,50 @@
 
 
-# Fix: BreadcrumbSchema "Invalid URL in field id"
+# Translation Plan for All Untranslated Content Sections
 
-## Problem
+## Content Inventory
 
-Google requires fully qualified absolute URLs in BreadcrumbList structured data. Several pages pass relative paths (e.g., `/`, `/guides`, `/guides/expenses`) which Google rejects.
+| Section | Items | Languages (de/fr/pt/es) | Total translations |
+|---|---|---|---|
+| Blog posts (main) | ~50 posts | × 4 | 200 |
+| Blog posts (country compliance) | 43 posts | × 4 | 172 |
+| Help center guides | 16 guides | × 4 | 64 |
+| Glossary terms | ~35 terms | × 4 | 140 |
+| Guide detail pages (pillar hubs) | 8 pages | × 4 | 32 |
+| Topic pages (pillar listing) | 1 index + 8 pillars | × 4 | 36 |
+| Author pages | 3 authors | × 4 | 12 |
+| Corridor pages | 9 corridors | × 4 | 36 |
+| Legal pages | 4 pages (Privacy, Terms, Cookie, SLA) | × 4 | 16 |
+| Blog listing page (UI strings) | 1 page | × 4 | 4 |
+| **Total** | | | **~712** |
 
-Additionally, pages that do use absolute URLs (BlogPost, HelpArticle) hardcode `https://invoicemonk.com/blog/...` without the language prefix, so `/es/blog/some-post` emits a breadcrumb pointing to `/blog/some-post` instead of `/es/blog/some-post`.
+## Current Status
 
-## Fix
+### ✅ Batch 1: Infrastructure (COMPLETE)
+- `src/utils/i18nData.ts` — registry-based helper with English fallback
+- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
+- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
+- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
+- `src/i18n/index.ts` — registered blog, help, glossary namespaces
+- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
 
-**Single change in `BreadcrumbSchema.tsx`**: Normalize all URLs inside the component. If a URL is relative, prepend `https://invoicemonk.com`. Also use `useParams` to inject the current language prefix for relative paths.
+### ✅ Batch 1b: Legal Page Translations (COMPLETE)
 
-This fixes all 13 calling pages at once without touching any of them.
+### ✅ Batch 2: Help Center (COMPLETE)
 
-```tsx
-// BreadcrumbSchema.tsx
-import { useParams } from 'react-router-dom';
+### ✅ Batch 3: Glossary Terms (COMPLETE)
 
-const BASE = 'https://invoicemonk.com';
+### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
 
-export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
-  const { lang } = useParams<{ lang: string }>();
-  const prefix = lang?.toLowerCase() || 'en';
+### ✅ Batch 5: Corridor Pages (COMPLETE)
 
-  const normalize = (url: string) => {
-    if (url.startsWith('http')) return url;
-    const path = url.startsWith('/') ? url : `/${url}`;
-    return `${BASE}/${prefix}${path}`;
-  };
+### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": items.map((item, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "name": item.name,
-      "item": normalize(item.url)
-    }))
-  };
-  // ...
-}
-```
+### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
 
-**Secondary cleanup (optional but recommended)**: Update the pages that already hardcode `https://invoicemonk.com/blog/...` (BlogPost, BlogTopic, HelpArticle) to use relative paths instead, since the component now handles normalization. This ensures the language prefix is always correct.
+### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
 
-## Files to edit
-
-| File | Change |
-|---|---|
-| `src/components/seo/BreadcrumbSchema.tsx` | Add URL normalization with lang prefix |
-| `src/pages/BlogPost.tsx` | Change absolute URLs to relative paths (optional cleanup) |
-| `src/pages/BlogTopic.tsx` | Same |
-| `src/pages/help/HelpArticle.tsx` | Same |
-
+### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
+- SEOHead already outputs hreflang for all 5 languages on every page
+- Updated sitemap generator to include country compliance posts and glossary terms
+- No 'enOnly' restrictions found — all content sections are fully multilingual

@@ -49,9 +49,9 @@ export default function HelpArticle() {
       />
       <BreadcrumbSchema
         items={[
-          { name: t('breadcrumbHome'), url: 'https://invoicemonk.com/' },
-          { name: t('title'), url: 'https://invoicemonk.com/help' },
-          { name: guide.title.split('—')[0].trim(), url: `https://invoicemonk.com/help/${guide.slug}` },
+          { name: t('breadcrumbHome'), url: '/' },
+          { name: t('title'), url: '/help' },
+          { name: guide.title.split('—')[0].trim(), url: `/help/${guide.slug}` },
         ]}
       />
       {guide.faq && guide.faq.length > 0 && <FAQSchema items={guide.faq} />}
