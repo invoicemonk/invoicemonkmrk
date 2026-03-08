@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "badge": "Jetzt verfügbar",
+    "title": "Rechnungssoftware, die Sie",
+    "titleAccent": "gut aussehen lässt",
+    "description": "Erstellen Sie schöne Rechnungen in Sekunden, automatisieren Sie Zahlungserinnerungen und pflegen Sie vollständige Prüfpfade. Professionelle Rechnungsstellung, die für jede Prüfung bereit ist.",
+    "primaryCta": "Kostenlos Rechnungen erstellen",
+    "secondaryCta": "Preispläne ansehen",
+    "trustText": "Kostenlos nutzbar • Keine Kreditkarte erforderlich •",
+    "tryFreeGenerator": "Kostenlosen Rechnungsgenerator testen"
+  },
+  "invoicePreview": {
+    "invoiceNumber": "Rechnung #1042",
+    "client": "Acme Corporation",
+    "paid": "Bezahlt",
+    "webDesign": "Webdesign-Dienstleistungen",
+    "hosting": "Jährliches Hosting",
+    "total": "Gesamt",
+    "paymentReceived": "Zahlung eingegangen",
+    "timeAgo": "Vor 2 Minuten"
+  },
+  "banner": {
+    "title": "Hören Sie auf, Kunden hinterherzulaufen",
+    "features": [
+      "Professionelle Rechnungen in Minuten senden",
+      "Schneller bezahlt werden mit Zahlungslinks",
+      "Automatische Mahnungen bei Überfälligkeit",
+      "Vollständiger Prüfpfad für Compliance"
+    ]
+  },
+  "quickFeatures": {
+    "createQuickly": {
+      "title": "Schnell erstellen",
+      "description": "Erstellen Sie professionelle Rechnungen in Minuten mit anpassbaren Vorlagen."
+    },
+    "stayOrganized": {
+      "title": "Organisiert bleiben",
+      "description": "Alle Kundeninformationen und Rechnungshistorie an einem Ort."
+    },
+    "reduceBookkeeping": {
+      "title": "Buchhaltung reduzieren",
+      "description": "Automatische Nachverfolgung und Berichte sparen jeden Monat Stunden."
+    }
+  },
+  "tabbed": {
+    "title": "Forderungen einfach verwalten",
+    "subtitle": "Alles, was Sie brauchen, um Rechnungen, Zahlungen und Kundenbeziehungen an einem Ort zu verfolgen.",
+    "tabs": {
+      "customerInfo": {
+        "label": "Kundeninfo",
+        "title": "Alle Kundeninformationen an einem Ort",
+        "description": "Halten Sie alle Kundendaten, Kommunikationshistorie und Zahlungspräferenzen organisiert. Kein Durchsuchen von E-Mails oder Tabellen mehr — alles auf einen Blick."
+      },
+      "trackPayments": {
+        "label": "Zahlungen verfolgen",
+        "title": "Zahlungen und Kommunikation mühelos verfolgen",
+        "description": "Sehen Sie Echtzeit-Statusupdates für jede Rechnung. Wissen Sie sofort, wann Rechnungen angesehen, bezahlt oder überfällig sind."
+      },
+      "recurringBilling": {
+        "label": "Wiederkehrende Abrechnung",
+        "title": "Wiederkehrende Abrechnung für Stammkunden einrichten",
+        "description": "Erstellen Sie nicht jeden Monat die gleichen Rechnungen. Richten Sie automatische Rechnungsstellung für Dauerkunden ein — pünktlich, jedes Mal."
+      }
+    }
+  },
+  "getPaidFaster": {
+    "title": "Schneller bezahlt werden",
+    "subtitle": "Beschleunigen Sie Ihren Cashflow mit Tools, die für pünktliche Rechnungszahlungen entwickelt wurden.",
+    "invoiceOnTheGo": {
+      "title": "Rechnungen unterwegs",
+      "description": "Erstellen und senden Sie Rechnungen von überall mit unserer mobilfreundlichen Plattform."
+    },
+    "instantNotifications": {
+      "title": "Sofortige Benachrichtigungen",
+      "description": "Erfahren Sie sofort, wenn Ihr Kunde Ihre Rechnung ansieht oder bezahlt."
+    },
+    "automaticReminders": {
+      "title": "Automatische Erinnerungen",
+      "description": "Richten Sie intelligente Erinnerungssequenzen ein, die überfällige Rechnungen automatisch nachverfolgen."
+    },
+    "timeline": {
+      "invoiceSent": "Rechnung gesendet",
+      "viewedByClient": "Vom Kunden angesehen",
+      "awaitingPayment": "Zahlung ausstehend",
+      "sentAgo": "Vor 2 Stunden gesendet",
+      "now": "Jetzt"
+    }
+  },
+  "compliance": {
+    "badge": "Compliance-bewusst",
+    "title": "Prüfungsbereit ab",
+    "titleAccent": "Tag eins",
+    "description": "Jede Rechnung, die Sie erstellen, wird automatisch mit unveränderlichen Aufzeichnungen und vollständigen Prüfpfaden geschützt. Seien Sie sicher, dass Ihre Rechnungsstellung jede regulatorische Anforderung erfüllt.",
+    "creditNotesLink": "Gutschriften und Rechnungskorrekturen",
+    "creditNotesPrefix": "Müssen Sie einen Abrechnungsfehler beheben? Lesen Sie unseren Leitfaden zu",
+    "features": [
+      "Unveränderliche Rechnungsunterlagen, die nach der Erstellung nicht geändert werden können",
+      "Vollständiger Prüfpfad mit Zeitstempeln und Benutzeridentität",
+      "Hashbasierte Integritätsprüfung für jedes Dokument",
+      "Regulierungskonforme Speicher- und Aufbewahrungsrichtlinien",
+      "Exportfertige Berichte für Prüfer und Regulierungsbehörden",
+      "Kryptografischer Nachweis der Dokumentenauthentizität",
+      "Digitale Signaturen und kryptografische Stempel (CSID) für jede Rechnung",
+      "Einzigartige Rechnungsreferenznummern (IRN) für regulatorische Rückverfolgbarkeit"
+    ],
+    "auditTrail": "Prüfpfad",
+    "logs": {
+      "created": "Rechnung erstellt",
+      "sent": "An Kunden gesendet",
+      "viewed": "Vom Kunden angesehen",
+      "paid": "Zahlung eingegangen"
+    }
+  },
+  "testimonial": {
+    "quote": "Invoicemonk hat die Art und Weise verändert, wie ich Rechnungen handhabe. Früher habe ich jede Woche Stunden damit verbracht, Zahlungen nachzujagen — jetzt ist alles vollständig automatisiert.",
+    "name": "Chidi Okonkwo",
+    "title": "Gründer",
+    "company": "TechBridge Solutions"
+  },
+  "blog": {
+    "title": "Mehr über Rechnungsstellung erfahren",
+    "subtitle": "Tipps und Best Practices, die Ihnen helfen, schneller bezahlt zu werden."
+  },
+  "faq": {
+    "title": "Rechnungsfragen, beantwortet",
+    "subtitle": "Alles, was Sie über die Rechnungsstellung mit Invoicemonk wissen müssen.",
+    "items": {
+      "isFree": {
+        "question": "Ist Invoicemonk wirklich kostenlos?",
+        "answer": "Ja! Unsere Kernfunktionen für die Rechnungsstellung sind völlig kostenlos, ohne Kreditkarte. Sie können bis zu 5 Rechnungen pro Monat senden, Zahlungen verfolgen und Kunden verwalten — kostenlos. Upgraden Sie für unbegrenzte Rechnungsstellung."
+      },
+      "getPaidFaster": {
+        "question": "Wie werde ich mit Invoicemonk schneller bezahlt?",
+        "answer": "Invoicemonk hilft Ihnen, schneller bezahlt zu werden: Zahlungslinks für sofortige Online-Zahlungen, automatische Erinnerungen bei überfälligen Rechnungen und professionelle Vorlagen, die Vertrauen aufbauen."
+      },
+      "customizeLogo": {
+        "question": "Kann ich meine Rechnungen mit meinem Logo anpassen?",
+        "answer": "Absolut! Sie können Ihr Firmenlogo hinzufügen und aus mehreren professionellen Vorlagen wählen. Ihre Rechnungen sehen aus, als kämen sie von einem etablierten Unternehmen."
+      },
+      "auditTrail": {
+        "question": "Wie funktioniert die Prüfpfad-Funktion?",
+        "answer": "Jede Aktion auf Ihren Rechnungen wird automatisch mit Zeitstempeln und Benutzerinformationen protokolliert. Dazu gehört, wann Rechnungen erstellt, gesendet, vom Kunden angesehen und bezahlt werden. Alle Aufzeichnungen sind unveränderlich und können für Prüfer exportiert werden."
+      },
+      "multiCurrency": {
+        "question": "Kann ich Rechnungen in verschiedenen Währungen senden?",
+        "answer": "Ja, Invoicemonk unterstützt Rechnungsstellung in mehreren Währungen. Sie können Kunden in ihrer bevorzugten Währung abrechnen, und Wechselkurse werden automatisch für genaue Umrechnungen aktualisiert."
+      },
+      "paymentMethods": {
+        "question": "Welche Zahlungsmethoden können meine Kunden nutzen?",
+        "answer": "Wenn unsere Zahlungsfunktion startet, können Kunden per Kreditkarte, Debitkarte, Banküberweisung und beliebten digitalen Wallets bezahlen. Derzeit können Sie Ihre Zahlungsdetails auf Rechnungen für manuelle Zahlungen angeben."
+      },
+      "eInvoicing": {
+        "question": "Unterstützt Invoicemonk E-Invoicing-Standards?",
+        "answer": "Ja. Invoicemonk unterstützt E-Invoicing-Standards einschließlich ZATCA Phase 2, Peppol, NF-e, KRA TIMS und andere regionale Mandate. Jede Rechnung kann digitale Signaturen, kryptografische Stempel (CSID) und einzigartige Rechnungsreferenznummern (IRN) für volle regulatorische Compliance enthalten."
+      }
+    }
+  }
+}

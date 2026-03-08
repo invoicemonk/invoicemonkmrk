@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "badge": "Disponible maintenant",
+    "title": "Un logiciel de facturation qui vous fait",
+    "titleAccent": "bonne impression",
+    "description": "Créez de belles factures en quelques secondes, automatisez les rappels de paiement et maintenez des pistes d'audit complètes. Une facturation professionnelle prête pour tout audit.",
+    "primaryCta": "Commencer à facturer gratuitement",
+    "secondaryCta": "Voir les plans tarifaires",
+    "trustText": "Gratuit • Pas de carte de crédit requise •",
+    "tryFreeGenerator": "Essayer le générateur de factures gratuit"
+  },
+  "invoicePreview": {
+    "invoiceNumber": "Facture #1042",
+    "client": "Acme Corporation",
+    "paid": "Payée",
+    "webDesign": "Services de conception web",
+    "hosting": "Hébergement annuel",
+    "total": "Total",
+    "paymentReceived": "Paiement reçu",
+    "timeAgo": "Il y a 2 minutes"
+  },
+  "banner": {
+    "title": "Arrêtez de courir après vos clients",
+    "features": [
+      "Envoyez des factures professionnelles en minutes",
+      "Soyez payé plus vite avec des liens de paiement",
+      "Rappels automatiques en cas de retard",
+      "Piste d'audit complète pour la conformité"
+    ]
+  },
+  "quickFeatures": {
+    "createQuickly": {
+      "title": "Créez rapidement",
+      "description": "Créez des factures professionnelles en minutes avec des modèles personnalisables."
+    },
+    "stayOrganized": {
+      "title": "Restez organisé",
+      "description": "Gardez toutes les informations clients et l'historique des factures au même endroit."
+    },
+    "reduceBookkeeping": {
+      "title": "Réduisez la comptabilité",
+      "description": "Le suivi automatique et les rapports font gagner des heures chaque mois."
+    }
+  },
+  "tabbed": {
+    "title": "Gérez facilement vos comptes clients",
+    "subtitle": "Tout ce dont vous avez besoin pour suivre les factures, les paiements et les relations clients en un seul endroit.",
+    "tabs": {
+      "customerInfo": {
+        "label": "Info client",
+        "title": "Accédez à toutes les informations client en un seul endroit",
+        "description": "Gardez tous les détails clients, l'historique de communication et les préférences de paiement organisés. Plus besoin de chercher dans les e-mails ou les tableurs."
+      },
+      "trackPayments": {
+        "label": "Suivre les paiements",
+        "title": "Suivez les paiements et communications sans effort",
+        "description": "Voyez les mises à jour de statut en temps réel sur chaque facture. Sachez instantanément quand les factures sont vues, payées ou en retard."
+      },
+      "recurringBilling": {
+        "label": "Facturation récurrente",
+        "title": "Configurez la facturation récurrente pour les clients réguliers",
+        "description": "Arrêtez de créer les mêmes factures chaque mois. Configurez la facturation automatique pour les clients avec forfait — les factures partent à l'heure, à chaque fois."
+      }
+    }
+  },
+  "getPaidFaster": {
+    "title": "Soyez payé plus vite",
+    "subtitle": "Accélérez votre trésorerie avec des outils conçus pour que les factures soient payées à temps.",
+    "invoiceOnTheGo": {
+      "title": "Facturez en déplacement",
+      "description": "Créez et envoyez des factures de n'importe où avec notre plateforme mobile."
+    },
+    "instantNotifications": {
+      "title": "Notifications instantanées",
+      "description": "Sachez immédiatement quand votre client consulte ou paie votre facture."
+    },
+    "automaticReminders": {
+      "title": "Rappels automatiques",
+      "description": "Configurez des séquences de rappel intelligentes qui relancent automatiquement les factures en retard."
+    },
+    "timeline": {
+      "invoiceSent": "Facture envoyée",
+      "viewedByClient": "Vue par le client",
+      "awaitingPayment": "En attente de paiement",
+      "sentAgo": "Envoyée il y a 2 heures",
+      "now": "Maintenant"
+    }
+  },
+  "compliance": {
+    "badge": "Conformité intégrée",
+    "title": "Prêt pour l'audit dès",
+    "titleAccent": "le premier jour",
+    "description": "Chaque facture que vous créez est automatiquement protégée par des enregistrements immuables et des pistes d'audit complètes. Soyez certain que votre facturation respecte toute exigence réglementaire.",
+    "creditNotesLink": "notes de crédit et corrections de factures",
+    "creditNotesPrefix": "Besoin de corriger une erreur de facturation ? Consultez notre guide sur les",
+    "features": [
+      "Enregistrements de factures immuables qui ne peuvent pas être modifiés après création",
+      "Piste d'audit complète avec horodatages et identité utilisateur",
+      "Vérification d'intégrité basée sur le hachage pour chaque document",
+      "Politiques de stockage et de conservation conformes aux réglementations",
+      "Rapports exportables pour les auditeurs et les régulateurs",
+      "Preuve cryptographique de l'authenticité des documents",
+      "Signatures numériques et tampons cryptographiques (CSID) pour chaque facture",
+      "Numéros de référence de facture uniques (IRN) pour la traçabilité réglementaire"
+    ],
+    "auditTrail": "Piste d'audit",
+    "logs": {
+      "created": "Facture créée",
+      "sent": "Envoyée au client",
+      "viewed": "Vue par le client",
+      "paid": "Paiement reçu"
+    }
+  },
+  "testimonial": {
+    "quote": "Invoicemonk a transformé ma façon de gérer la facturation. Je passais des heures chaque semaine à relancer les paiements — maintenant tout est entièrement automatisé.",
+    "name": "Chidi Okonkwo",
+    "title": "Fondateur",
+    "company": "TechBridge Solutions"
+  },
+  "blog": {
+    "title": "En savoir plus sur la facturation",
+    "subtitle": "Conseils et bonnes pratiques pour être payé plus rapidement."
+  },
+  "faq": {
+    "title": "Questions sur la facturation, réponses",
+    "subtitle": "Tout ce que vous devez savoir sur la facturation avec Invoicemonk.",
+    "items": {
+      "isFree": {
+        "question": "Invoicemonk est-il vraiment gratuit ?",
+        "answer": "Oui ! Nos fonctionnalités de facturation de base sont entièrement gratuites sans carte de crédit requise. Vous pouvez envoyer jusqu'à 5 factures par mois, suivre les paiements et gérer les clients gratuitement. Passez à la version supérieure pour une facturation illimitée."
+      },
+      "getPaidFaster": {
+        "question": "Comment être payé plus vite avec Invoicemonk ?",
+        "answer": "Invoicemonk vous aide à être payé plus vite grâce à : des liens de paiement pour que les clients paient en ligne instantanément, des rappels automatiques pour les factures en retard, et des modèles professionnels qui inspirent confiance."
+      },
+      "customizeLogo": {
+        "question": "Puis-je personnaliser mes factures avec mon logo ?",
+        "answer": "Absolument ! Vous pouvez ajouter votre logo d'entreprise et choisir parmi plusieurs modèles professionnels. Vos factures auront l'air de provenir d'une entreprise établie."
+      },
+      "auditTrail": {
+        "question": "Comment fonctionne la piste d'audit ?",
+        "answer": "Chaque action sur vos factures est automatiquement enregistrée avec des horodatages et des informations utilisateur. Cela inclut la création, l'envoi, la consultation par les clients et le paiement. Tous les enregistrements sont immuables et exportables pour les auditeurs."
+      },
+      "multiCurrency": {
+        "question": "Puis-je envoyer des factures dans différentes devises ?",
+        "answer": "Oui, Invoicemonk prend en charge la facturation multi-devises. Vous pouvez facturer les clients dans leur devise préférée, et les taux de change sont automatiquement mis à jour pour des conversions précises."
+      },
+      "paymentMethods": {
+        "question": "Quels modes de paiement mes clients peuvent-ils utiliser ?",
+        "answer": "Lorsque notre fonctionnalité de paiement sera lancée, les clients pourront payer par carte de crédit, carte de débit, virement bancaire et portefeuilles numériques populaires. Pour l'instant, vous pouvez inclure vos coordonnées bancaires sur les factures."
+      },
+      "eInvoicing": {
+        "question": "Invoicemonk prend-il en charge les standards de e-facturation ?",
+        "answer": "Oui. Invoicemonk prend en charge les standards de e-facturation incluant ZATCA Phase 2, Peppol, NF-e, KRA TIMS et d'autres mandats régionaux. Chaque facture peut inclure des signatures numériques, des tampons cryptographiques (CSID) et des numéros de référence uniques (IRN) pour une conformité réglementaire complète."
+      }
+    }
+  }
+}
