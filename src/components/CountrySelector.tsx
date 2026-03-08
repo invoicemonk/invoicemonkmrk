@@ -1,9 +1,9 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, Check } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useLocale } from '@/hooks/useLocale';
-import { locales, SupportedCountry, countryToUrlPrefix } from '@/locales';
+import { locales, SupportedCountry, countryToLanguage, SupportedLanguage } from '@/locales';
 import { cn } from '@/lib/utils';
 
 interface CountrySelectorProps {
@@ -11,9 +11,9 @@ interface CountrySelectorProps {
   className?: string;
 }
 
-/** Strip /:country prefix from a pathname */
+/** Strip /:lang prefix from a pathname */
 function stripPrefix(pathname: string): string {
-  return pathname.replace(/^\/[a-z]{2}(\/|$)/, '/');
+  return pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?(\/|$)/, '/');
 }
 
 export function CountrySelector({ variant = 'default', className }: CountrySelectorProps) {
@@ -22,6 +22,8 @@ export function CountrySelector({ variant = 'default', className }: CountrySelec
   const containerRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const navigate = useNavigate();
+  const { lang } = useParams<{ lang: string }>();
+  const currentLang = (lang?.toLowerCase() || 'en') as SupportedLanguage;
 
   const currentLocale = locales[countryCode];
 
@@ -47,10 +49,14 @@ export function CountrySelector({ variant = 'default', className }: CountrySelec
     setCountry(country);
     setIsOpen(false);
 
-    // Navigate to the same page under the new country prefix
-    const newPrefix = countryToUrlPrefix[country];
-    const relPath = stripPrefix(location.pathname);
-    navigate(`/${newPrefix}${relPath}${location.search}${location.hash}`);
+    // Check if the new country requires a different language prefix
+    const newLang = countryToLanguage[country];
+    if (newLang !== currentLang) {
+      // Language changed — navigate to the new language prefix
+      const relPath = stripPrefix(location.pathname);
+      navigate(`/${newLang}${relPath}${location.search}${location.hash}`);
+    }
+    // If same language, no URL change needed — just context update
   };
 
   return (

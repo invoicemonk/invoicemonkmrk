@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { TrailingSlashRedirect } from "@/components/TrailingSlashRedirect";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LocaleProvider } from "@/contexts/LocaleContext";
-import { CountryRedirect } from "@/components/CountryRedirect";
-import { CountryLayout } from "@/components/CountryLayout";
+import { LanguageRedirect } from "@/components/LanguageRedirect";
+import { LanguageLayout } from "@/components/LanguageLayout";
 
 // Pages
 import Index from "./pages/Index";
@@ -95,11 +95,11 @@ const App = () => (
           <ScrollToTop />
           <TrailingSlashRedirect />
           <Routes>
-            {/* Root → detect country & redirect */}
-            <Route path="/" element={<CountryRedirect />} />
+            {/* Root → detect country & redirect to language prefix */}
+            <Route path="/" element={<LanguageRedirect />} />
 
-            {/* ───── Country-prefixed routes ───── */}
-            <Route path="/:country" element={<CountryLayout />}>
+            {/* ───── Language-prefixed routes ───── */}
+            <Route path="/:lang" element={<LanguageLayout />}>
               <Route index element={<Index />} />
 
               {/* Product pages */}
@@ -187,7 +187,7 @@ const App = () => (
               <Route path="help" element={<HelpCenter />} />
               <Route path="help/:slug" element={<HelpArticle />} />
 
-              {/* Legacy redirects (within /:country scope) */}
+              {/* Legacy redirects (within /:lang scope) */}
               <Route path="features" element={<Navigate to="../why-invoicemonk" replace />} />
               <Route path="features/accept-payments" element={<Navigate to="../payments" replace />} />
               <Route path="features/estimates" element={<Navigate to="../estimates" replace />} />
@@ -197,7 +197,7 @@ const App = () => (
               <Route path="privacy" element={<Navigate to="../privacy-policy" replace />} />
               <Route path="terms" element={<Navigate to="../terms-of-service" replace />} />
 
-              {/* 404 within valid country prefix */}
+              {/* 404 within valid language prefix */}
               <Route path="*" element={<NotFound />} />
             </Route>
 

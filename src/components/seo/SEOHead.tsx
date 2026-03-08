@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 import { useLocale } from '@/hooks/useLocale';
-import { supportedCountries, locales, countryToUrlPrefix } from '@/locales';
+import { supportedLanguages, languageToHreflang } from '@/locales';
 
 interface SEOHeadProps {
   title: string;
@@ -21,12 +21,12 @@ interface SEOHeadProps {
 }
 
 /**
- * Strip the two-letter country prefix from a pathname to get the
- * locale-independent relative path.  e.g. "/us/pricing" → "/pricing"
+ * Strip the language prefix from a pathname to get the
+ * locale-independent relative path.  e.g. "/en/pricing" → "/pricing"
  */
-function stripCountryPrefix(pathname: string): string {
-  const match = pathname.match(/^\/[a-z]{2}(\/.*)?$/);
-  return match ? (match[1] || '/') : pathname;
+function stripLanguagePrefix(pathname: string): string {
+  const match = pathname.match(/^\/[a-z]{2}(-[a-z]{2})?(\/.*)?$/);
+  return match ? (match[2] || '/') : pathname;
 }
 
 export function SEOHead({
@@ -44,11 +44,11 @@ export function SEOHead({
   const location = useLocation();
   const baseUrl = 'https://invoicemonk.com';
 
-  // Build self-referencing canonical (includes country prefix)
+  // Build self-referencing canonical (includes language prefix)
   const fullCanonical = canonical || `${baseUrl}${location.pathname}`;
 
-  // Relative page path without country prefix (e.g. "/pricing")
-  const relPath = stripCountryPrefix(location.pathname);
+  // Relative page path without language prefix (e.g. "/pricing")
+  const relPath = stripLanguagePrefix(location.pathname);
 
   return (
     <Helmet>
@@ -61,20 +61,16 @@ export function SEOHead({
       {/* Canonical – self-referencing */}
       <link rel="canonical" href={fullCanonical} />
 
-      {/* hreflang – all country variants + x-default */}
-      {supportedCountries.map((code) => {
-        const loc = locales[code];
-        const prefix = countryToUrlPrefix[code];
-        return (
-          <link
-            key={code}
-            rel="alternate"
-            hrefLang={loc.content.seo.hreflangCode}
-            href={`${baseUrl}/${prefix}${relPath}`}
-          />
-        );
-      })}
-      <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/us${relPath}`} />
+      {/* hreflang – 4 language variants + x-default */}
+      {supportedLanguages.map((langCode) => (
+        <link
+          key={langCode}
+          rel="alternate"
+          hrefLang={languageToHreflang[langCode]}
+          href={`${baseUrl}/${langCode}${relPath}`}
+        />
+      ))}
+      <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/en${relPath}`} />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={ogType} />
