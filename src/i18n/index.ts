@@ -145,6 +145,12 @@ import frAccountants from './fr/accountants.json';
 import ptBRAccountants from './pt-BR/accountants.json';
 import esAccountants from './es/accountants.json';
 
+import enEcommerce from './en/ecommerce.json';
+import deEcommerce from './de/ecommerce.json';
+import frEcommerce from './fr/ecommerce.json';
+import ptBREcommerce from './pt-BR/ecommerce.json';
+import esEcommerce from './es/ecommerce.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
