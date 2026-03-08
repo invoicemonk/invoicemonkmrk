@@ -19,7 +19,8 @@ export function GlobalComplianceSection() {
   const { t } = useTranslation('home');
   const [selectedIndex, setSelectedIndex] = useState(0);
   const selected = countries[selectedIndex];
-  const features = t('globalCompliance.features', { returnObjects: true }) as string[];
+  const featuresRaw = t('globalCompliance.features', { returnObjects: true });
+  const features = Array.isArray(featuresRaw) ? featuresRaw : [];
 
   return (
     <section id="compliance" className="py-20 lg:py-28 bg-background">

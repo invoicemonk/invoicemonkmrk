@@ -20,7 +20,8 @@ export function WaveProductTabs() {
   const { t } = useTranslation('home');
   const [activeTab, setActiveTab] = useState('invoicing');
 
-  const translatedItems = t('products.items', { returnObjects: true }) as {
+  const translatedItemsRaw = t('products.items', { returnObjects: true });
+  const translatedItems = Array.isArray(translatedItemsRaw) ? translatedItemsRaw : [];
     name: string; title: string; description: string; features: string[];
   }[];
 

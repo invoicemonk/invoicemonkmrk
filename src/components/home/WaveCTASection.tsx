@@ -6,7 +6,8 @@ import { useTranslation } from 'react-i18next';
 
 export function WaveCTASection() {
   const { t } = useTranslation('home');
-  const badges = t('cta.badges', { returnObjects: true }) as string[];
+  const badgesRaw = t('cta.badges', { returnObjects: true });
+  const badges = Array.isArray(badgesRaw) ? badgesRaw : [];
 
   return (
     <section className="py-20 lg:py-32 bg-foreground relative overflow-hidden">
