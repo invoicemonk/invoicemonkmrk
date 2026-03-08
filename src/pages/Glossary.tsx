@@ -25,6 +25,12 @@ import {
   type GlossaryTerm 
 } from '@/data/glossaryTerms';
 import { getTranslatedGlossaryTerms, getTranslatedBlogPosts, getLangPrefix } from '@/utils/i18nData';
+
+// Side-effect imports to register translated glossary terms
+import '@/data/glossaryTerms.de';
+import '@/data/glossaryTerms.fr';
+import '@/data/glossaryTerms.pt';
+import '@/data/glossaryTerms.es';
 import { 
   Search, 
   BookOpen, 
