@@ -370,6 +370,71 @@
       "source": "/legal/sla",
       "destination": "/en/legal/sla",
       "permanent": true
+    },
+    {
+      "source": "/tag/:slug*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/:slug*",
+      "destination": "/en/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/savings-and-investment-on-alat-how-it-works/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/lucrative-business-ideas-in-nigeria/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/invoicemonk-free-online-invoice-accounting-platform-nigeria/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/invoicemonk-template-how-to-create-a-perfect-invoice-template-that-gets-paid-faster/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/small-business-marketing-101-a-guide-to-growth/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/top-freelance-websites-in-nigeria/:path*",
+      "destination": "/en/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/:path*",
+      "destination": "/en",
+      "statusCode": 301
+    },
+    {
+      "source": "/trainini",
+      "destination": "/en",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "/en",
+      "statusCode": 301
     }
   ],
   "rewrites": [
