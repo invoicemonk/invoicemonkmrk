@@ -157,6 +157,14 @@ function main() {
   console.log(`❓ ${helpSlugs.length} help articles`);
   helpSlugs.forEach(s => allPages.push({ path: `/help/${s}`, priority: 0.5, changefreq: 'monthly' }));
 
+  const complianceSlugs = extractSlugs(path.join(__dirname, '../src/data/countryCompliancePosts.ts'), /slug:\s*['"][^'"]+['"]/g);
+  console.log(`🏛️ ${complianceSlugs.length} compliance posts`);
+  complianceSlugs.forEach(s => allPages.push({ path: `/blog/${s}`, priority: 0.7, changefreq: 'monthly' }));
+
+  const glossarySlugs = extractSlugs(path.join(__dirname, '../src/data/glossaryTerms.ts'), /slug:\s*['"][^'"]+['"]/g);
+  console.log(`📖 ${glossarySlugs.length} glossary terms`);
+  glossarySlugs.forEach(s => allPages.push({ path: `/glossary#${s}`, priority: 0.4, changefreq: 'monthly' }));
+
   const corridors = getCorridors();
   console.log(`💱 ${corridors.length} corridors`);
   corridors.forEach(({ currency, country }) => allPages.push({ path: `/receive-${currency}-in-${country}-cost`, priority: 0.7, changefreq: 'monthly' }));
