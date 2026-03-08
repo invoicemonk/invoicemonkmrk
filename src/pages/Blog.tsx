@@ -56,6 +56,14 @@ import '@/data/blogPostsCluster5.de';
 import '@/data/blogPostsCluster5.fr';
 import '@/data/blogPostsCluster5.pt';
 import '@/data/blogPostsCluster5.es';
+import '@/data/blogPostsCluster6.de';
+import '@/data/blogPostsCluster6.fr';
+import '@/data/blogPostsCluster6.pt';
+import '@/data/blogPostsCluster6.es';
+import '@/data/blogPostsCluster7.de';
+import '@/data/blogPostsCluster7.fr';
+import '@/data/blogPostsCluster7.pt';
+import '@/data/blogPostsCluster7.es';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;

@@ -239,10 +239,10 @@ const posts: BlogPost[] = [
   },
   {
     slug: 'cash-vs-accrual-accounting-explained',
-    title: 'Comptabilité de caisse vs comptabilité d'engagement : quelle méthode choisir ?',
-    excerpt: 'Comprenez les différences clés entre la comptabilité de caisse et la comptabilité d'engagement.',
+    title: "Comptabilité de caisse vs comptabilité d\u2019engagement : quelle méthode choisir ?",
+    excerpt: "Comprenez les différences clés entre la comptabilité de caisse et la comptabilité d\u2019engagement.",
     category: 'Small Business',
-    tags: ['comptabilité', 'comptabilité de caisse', 'comptabilité d'engagement', 'tenue de livres'],
+    tags: ['comptabilité', 'comptabilité de caisse', "comptabilité d\u2019engagement", 'tenue de livres'],
     author: defaultAuthor,
     date: '2026-01-27',
     readTime: '8 min de lecture',
@@ -251,7 +251,7 @@ const posts: BlogPost[] = [
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/accounting',
-    semanticKeywords: ['comptabilité de caisse', 'comptabilité d'engagement', 'tenue de livres'],
+    semanticKeywords: ['comptabilité de caisse', "comptabilité d\u2019engagement", 'tenue de livres'],
     priority: 'P2',
     content: `
       <p>Le choix de votre méthode comptable impacte la façon dont vous enregistrez vos revenus, payez vos impôts et évaluez votre santé financière. En France, les micro-entreprises utilisent la comptabilité de caisse, tandis que les sociétés commerciales sont tenues à la comptabilité d'engagement.</p>
@@ -283,7 +283,7 @@ const posts: BlogPost[] = [
   },
   {
     slug: 'tax-software-integration-guide',
-    title: 'Guide d'intégration logiciel fiscal : optimisez votre workflow fiscal',
+    title: "Guide d\u2019intégration logiciel fiscal : optimisez votre workflow fiscal",
     excerpt: 'Comment connecter vos logiciels de facturation et comptabilité à vos outils fiscaux. Réduisez les erreurs et gagnez du temps.',
     category: 'Tax and Compliance',
     tags: ['logiciel fiscal', 'intégration', 'automatisation fiscale', 'comptabilité'],
