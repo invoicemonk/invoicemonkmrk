@@ -1,50 +1,76 @@
 
 
-# Translation Plan for All Untranslated Content Sections
+# Remaining Untranslated Content -- Full Audit
 
-## Content Inventory
+## Summary
 
-| Section | Items | Languages (de/fr/pt/es) | Total translations |
-|---|---|---|---|
-| Blog posts (main) | ~50 posts | × 4 | 200 |
-| Blog posts (country compliance) | 43 posts | × 4 | 172 |
-| Help center guides | 16 guides | × 4 | 64 |
-| Glossary terms | ~35 terms | × 4 | 140 |
-| Guide detail pages (pillar hubs) | 8 pages | × 4 | 32 |
-| Topic pages (pillar listing) | 1 index + 8 pillars | × 4 | 36 |
-| Author pages | 3 authors | × 4 | 12 |
-| Corridor pages | 9 corridors | × 4 | 36 |
-| Legal pages | 4 pages (Privacy, Terms, Cookie, SLA) | × 4 | 16 |
-| Blog listing page (UI strings) | 1 page | × 4 | 4 |
-| **Total** | | | **~712** |
+Most pages are properly translated via `useTranslation()`. The remaining untranslated content falls into three categories:
 
-## Current Status
+---
 
-### ✅ Batch 1: Infrastructure (COMPLETE)
-- `src/utils/i18nData.ts` — registry-based helper with English fallback
-- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
-- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
-- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
-- `src/i18n/index.ts` — registered blog, help, glossary namespaces
-- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
+## Category A: Hardcoded English in Shared Components (High Priority)
 
-### ✅ Batch 1b: Legal Page Translations (COMPLETE)
+### 1. `MissionVision.tsx` -- About page sub-component
+- "Our Mission", "Our Vision", mission text, vision text -- all hardcoded English
+- **Fix**: Use `useTranslation('about')` and add `mission.*` / `vision.*` keys to all 5 `about.json` files
 
-### ✅ Batch 2: Help Center (COMPLETE)
+### 2. `PressSection.tsx` -- About page sub-component
+- "Press & Media", "As Featured In", description text, "Read article" -- all hardcoded English
+- **Fix**: Use `useTranslation('about')` and add `press.*` keys to all 5 `about.json` files
 
-### ✅ Batch 3: Glossary Terms (COMPLETE)
+### 3. `About.tsx` -- Team member roles
+- `role: 'Co-founder & CEO'` and `role: 'Co-founder & Communication President'` are hardcoded English
+- **Fix**: Use `t('team.members.0.role')` pattern or keep as proper nouns (roles are borderline -- recommend translating)
 
-### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
+---
 
-### ✅ Batch 5: Corridor Pages (COMPLETE)
+## Category B: Hardcoded English FAQ Schemas (Medium Priority)
 
-### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
+### 4. `Glossary.tsx` -- FAQ schema at top of file
+- 4 glossary FAQs hardcoded in English (lines 9-14): "What is an invoice?", etc.
+- The rest of the Glossary page is translated via `useTranslation('glossary')`
+- **Fix**: Move FAQs to `glossary.json` namespace and use `t('faqs', { returnObjects: true })`
 
-### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
+---
 
-### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
+## Category C: Tool Pages -- Fully Hardcoded (Low Priority)
 
-### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
-- SEOHead already outputs hreflang for all 5 languages on every page
-- Updated sitemap generator to include country compliance posts and glossary terms
-- No 'enOnly' restrictions found — all content sections are fully multilingual
+### 5. `CheapestInternationalPayments.tsx` -- entire page hardcoded English
+### 6. `InternationalPaymentFeeCalculator.tsx` -- entire page hardcoded English
+### 7. `PaypalVsWiseFees.tsx` -- entire page hardcoded English
+### 8. `Explore.tsx` -- entire page hardcoded English
+
+These are specialized SEO landing pages / internal utility pages. Translating them requires creating new i18n namespaces with significant content.
+
+---
+
+## Category D: SEO Meta Tags (Low Priority)
+
+### 9. `seoConfig.ts` -- English-only SEO titles
+- Pages like `/invoicing`, `/expenses`, `/payments` have English-only SEO title templates (e.g., "Invoicing Software for Small Business")
+- These appear in `<title>` and `<meta description>` tags
+- **Fix**: Move SEO strings to i18n or add locale-aware title functions
+
+### 10. `AuthorPage.tsx` -- hardcoded SEO meta
+- `"${author.name} - Author at Invoicemonk"` and `"Articles by ${author.name}"` -- the SEO title is hardcoded English, though the UI labels use `t()`
+
+---
+
+## Recommended Implementation
+
+### Batch 1 (Visible on About page)
+1. Translate `MissionVision.tsx` -- add keys to `about.json` (5 languages)
+2. Translate `PressSection.tsx` -- add keys to `about.json` (5 languages)
+3. Translate team member roles in `About.tsx`
+
+### Batch 2 (Glossary page)
+4. Move Glossary FAQ strings to `glossary.json` namespace
+
+### Batch 3 (Tool pages -- defer or implement)
+5-8. Create namespaces for the 3 tool pages and Explore page
+
+### Batch 4 (SEO meta -- defer)
+9-10. Localize SEO config strings
+
+I recommend implementing Batches 1 and 2 now (high-visibility pages), and deferring Batches 3-4 as lower priority.
+
