@@ -13,58 +13,27 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { useTranslation } from 'react-i18next';
 
-const freeGeneratorFAQs = [
-  { question: 'Is the invoice generator really free?', answer: 'Yes, 100% free with no signup required. You can create unlimited professional invoices and download them as PDF files at no cost.' },
-  { question: 'Do I need to create an account?', answer: 'No account is needed to use the free invoice generator. Simply enter your details, add line items, and download your invoice as a PDF.' },
-  { question: 'Can I add my business logo?', answer: 'Yes, you can upload your business logo to personalize your invoices. Your invoices will look professional and branded.' },
-  { question: 'What if I need more features?', answer: 'The full Invoicemonk platform offers recurring invoices, expense tracking, payment reminders, compliance features, and more. You can upgrade anytime.' },
-];
+const featureKeys = [
+  { key: 'professionalTemplates', icon: FileText },
+  { key: 'quickEasy', icon: Zap },
+  { key: 'pdfDownload', icon: Download },
+  { key: 'complianceReady', icon: Shield },
+] as const;
+
+const stepKeys = ['step1', 'step2', 'step3'] as const;
+const faqKeys = ['isFree', 'needAccount', 'addLogo', 'moreFeatures'] as const;
 
 const FreeInvoiceGenerator = () => {
-  const features = [
-    {
-      icon: FileText,
-      title: 'Professional Templates',
-      description: 'Choose from beautifully designed invoice templates that look great.',
-    },
-    {
-      icon: Zap,
-      title: 'Quick & Easy',
-      description: 'Create your first invoice in under 2 minutes. No learning curve.',
-    },
-    {
-      icon: Download,
-      title: 'PDF Download',
-      description: 'Download your invoices as professional PDF files instantly.',
-    },
-    {
-      icon: Shield,
-      title: 'Compliance Ready',
-      description: 'All invoices meet standard business and tax requirements.',
-    },
-  ];
-
-  const steps = [
-    {
-      step: '01',
-      title: 'Enter your details',
-      description: 'Add your business information and logo to personalize your invoices.',
-    },
-    {
-      step: '02',
-      title: 'Add line items',
-      description: 'Enter the products or services you\'re billing for with quantities and rates.',
-    },
-    {
-      step: '03',
-      title: 'Send or download',
-      description: 'Email directly to your client or download as a professional PDF.',
-    },
-  ];
-
   const { locale } = useLocale();
   const seo = pageSEO['/free-invoice-generator'];
+  const { t } = useTranslation('freeInvoiceGenerator');
+
+  const freeGeneratorFAQs = faqKeys.map(key => ({
+    question: t(`faqs.${key}.question`),
+    answer: t(`faqs.${key}.answer`),
+  }));
 
   return (
     <Layout>
@@ -76,13 +45,13 @@ const FreeInvoiceGenerator = () => {
       {/* Hero Section */}
       <div className="relative">
         <PageHero
-          badge={{ icon: CheckCircle, text: '100% Free' }}
-          title="Free Invoice Generator"
-          accentWord="Free"
-          description="Create professional invoices in minutes. No signup required to get started. Perfect for freelancers and small businesses."
-          primaryCta={{ text: 'Create Free Invoice', href: 'https://app.invoicemonk.com' }}
-          secondaryCta={{ text: 'Learn About Full Platform', href: '/invoicing', external: false }}
-          trustBadge="No credit card required • No signup needed • Unlimited invoices"
+          badge={{ icon: CheckCircle, text: t('hero.badge') }}
+          title={t('hero.title')}
+          accentWord={t('hero.accentWord')}
+          description={t('hero.description')}
+          primaryCta={{ text: t('hero.primaryCta'), href: 'https://app.invoicemonk.com' }}
+          secondaryCta={{ text: t('hero.secondaryCta'), href: '/invoicing', external: false }}
+          trustBadge={t('hero.trustBadge')}
           backgroundVariant="dots"
         />
         {/* Floating Elements */}
@@ -106,17 +75,17 @@ const FreeInvoiceGenerator = () => {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-12">
-            Everything you need to invoice professionally
+            {t('features.title')}
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {features.map((feature, index) => (
-              <Card key={index} className="border-border/50 text-center">
+            {featureKeys.map(({ key, icon: Icon }) => (
+              <Card key={key} className="border-border/50 text-center">
                 <CardContent className="p-6">
                   <div className="inline-flex p-3 rounded-lg bg-primary/10 mb-4">
-                    <feature.icon className="w-6 h-6 text-primary" />
+                    <Icon className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">{feature.title}</h3>
-                  <p className="text-sm text-muted-foreground">{feature.description}</p>
+                  <h3 className="font-semibold text-foreground mb-2">{t(`features.${key}.title`)}</h3>
+                  <p className="text-sm text-muted-foreground">{t(`features.${key}.description`)}</p>
                 </CardContent>
               </Card>
             ))}
@@ -128,16 +97,16 @@ const FreeInvoiceGenerator = () => {
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-12">
-            Create invoices in 3 simple steps
+            {t('steps.title')}
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {steps.map((item, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-primary/20 mb-4">{item.step}</div>
+            {stepKeys.map((key, index) => (
+              <div key={key} className="text-center">
+                <div className="text-4xl font-bold text-primary/20 mb-4">{String(index + 1).padStart(2, '0')}</div>
                 <h3 className="text-heading-sm font-semibold text-foreground mb-2">
-                  {item.title}
+                  {t(`steps.${key}.title`)}
                 </h3>
-                <p className="text-muted-foreground">{item.description}</p>
+                <p className="text-muted-foreground">{t(`steps.${key}.description`)}</p>
               </div>
             ))}
           </div>
@@ -149,22 +118,22 @@ const FreeInvoiceGenerator = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <div className="flex items-center gap-2 mb-6">
             <BookOpen className="w-5 h-5 text-primary" />
-            <h2 className="text-xl font-semibold text-foreground">Related Resources</h2>
+            <h2 className="text-xl font-semibold text-foreground">{t('resources.title')}</h2>
           </div>
           <ul className="space-y-3">
             <li>
               <Link to="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners" className="text-primary hover:underline">
-                5 Essential Elements of an Invoice →
+                {t('resources.essentialElements')}
               </Link>
             </li>
             <li>
               <Link to="/blog/invoice-numbering-best-practices" className="text-primary hover:underline">
-                Invoice Numbering Best Practices →
+                {t('resources.numberingBestPractices')}
               </Link>
             </li>
             <li>
               <Link to="/invoicing" className="text-primary hover:underline">
-                Explore the Full Invoicing Platform →
+                {t('resources.fullPlatform')}
               </Link>
             </li>
           </ul>
@@ -177,15 +146,14 @@ const FreeInvoiceGenerator = () => {
           <Card className="max-w-3xl mx-auto bg-primary">
             <CardContent className="p-8 lg:p-12 text-center">
               <h2 className="text-heading-lg font-bold text-white mb-4">
-                Need more than just invoices?
+                {t('cta.title')}
               </h2>
               <p className="text-white/90 mb-6 max-w-xl mx-auto">
-                Upgrade to the full Invoicemonk platform for recurring invoices, expense tracking, 
-                payment reminders, compliance features, and more.
+                {t('cta.description')}
               </p>
               <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
                 <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
-                  Get Started Free
+                  {t('cta.button')}
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </a>
               </Button>

@@ -10,31 +10,21 @@ import { pageSEO } from '@/components/seo/seoConfig';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
 import { FeatureComparisonTable } from '@/components/pricing/FeatureComparisonTable';
+import { useTranslation } from 'react-i18next';
 
-const faqs = [
-  {
-    question: 'Is there a free tier?',
-    answer: 'Yes! Our Free tier lets you send up to 5 invoices per month with clean, professional layouts. Upgrade to Starter or Professional for unlimited invoices and advanced features.',
-  },
-  {
-    question: 'Can I upgrade or downgrade anytime?',
-    answer: 'Absolutely. You can change your plan at any time. When upgrading, you\'ll be prorated. When downgrading, your new rate starts at the next billing cycle.',
-  },
-  {
-    question: 'What payment methods do you accept?',
-    answer: 'We accept all major credit cards (Visa, Mastercard, American Express) and can arrange invoicing for annual Business plans.',
-  },
-  {
-    question: 'Is my financial data secure?',
-    answer: 'Your security is our priority. We use bank-level encryption, immutable audit logs, and are fully compliant with data protection regulations.',
-  },
-];
+const faqKeys = ['freeTier', 'upgradeDowngrade', 'paymentMethods', 'security'] as const;
 
 const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState(true);
   const { locale, formatCurrency } = useLocale();
   const plans = getPricingPlans(locale);
   const { pricingContent } = locale;
+  const { t } = useTranslation('pricing');
+
+  const faqs = faqKeys.map(key => ({
+    question: t(`faq.items.${key}.question`),
+    answer: t(`faq.items.${key}.answer`),
+  }));
 
   // Determine grid layout based on number of plans
   const gridCols = plans.length === 4 
@@ -54,10 +44,14 @@ const Pricing = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
             <h1 className="text-display text-heading mb-4">
-              Simple, <span className="font-serif italic text-primary">transparent</span> pricing
+              {t('hero.title').split('<accent>')[0]}
+              <span className="font-serif italic text-primary">
+                {t('hero.title').match(/<accent>(.*?)<\/accent>/)?.[1]}
+              </span>
+              {t('hero.title').split('</accent>')[1] || ''}
             </h1>
             <p className="text-body-lg text-muted-foreground mb-8">
-              Start free, upgrade when you need more. No hidden fees, no surprises.
+              {t('hero.description')}
             </p>
             
             {/* Toggle */}
@@ -70,7 +64,7 @@ const Pricing = () => {
                     : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
-                Monthly
+                {t('hero.monthly')}
               </button>
               <button 
                 onClick={() => setIsAnnual(true)} 
@@ -80,7 +74,7 @@ const Pricing = () => {
                     : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
-                Annual
+                {t('hero.annual')}
                 <span className="ml-1.5 text-primary-foreground font-semibold">
                   {pricingContent.annualSavingsText}
                 </span>
@@ -127,10 +121,10 @@ const Pricing = () => {
                       <span className="text-2xl sm:text-3xl lg:text-4xl text-heading tabular-nums whitespace-nowrap">
                         {formatCurrency(price.monthly)}
                       </span>
-                      <span className="text-body text-muted-foreground">/month</span>
+                      <span className="text-body text-muted-foreground">{t('hero.perMonth')}</span>
                       {isAnnual && price.total > 0 && (
                         <p className="text-body-sm text-muted-foreground mt-1 truncate">
-                          {formatCurrency(price.total)}/year
+                          {formatCurrency(price.total)}{t('hero.perYear')}
                         </p>
                       )}
                     </div>
@@ -184,10 +178,14 @@ const Pricing = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-h2 text-heading mb-4">
-              Frequently asked <span className="font-serif italic text-primary">questions</span>
+              {t('faq.title').split('<accent>')[0]}
+              <span className="font-serif italic text-primary">
+                {t('faq.title').match(/<accent>(.*?)<\/accent>/)?.[1]}
+              </span>
+              {t('faq.title').split('</accent>')[1] || ''}
             </h2>
             <p className="text-body-lg text-muted-foreground">
-              Everything you need to know about pricing and billing.
+              {t('faq.description')}
             </p>
           </AnimatedSection>
 
@@ -209,10 +207,14 @@ const Pricing = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto">
             <h2 className="text-h1 text-white mb-6">
-              Ready to get <span className="font-serif italic">started?</span>
+              {t('cta.title').split('<accent>')[0]}
+              <span className="font-serif italic">
+                {t('cta.title').match(/<accent>(.*?)<\/accent>/)?.[1]}
+              </span>
+              {t('cta.title').split('</accent>')[1] || ''}
             </h2>
             <p className="text-body-lg text-white/90 mb-8">
-              Join thousands of businesses who trust Invoicemonk for their invoicing needs.
+              {t('cta.description')}
             </p>
             <Button
               asChild
@@ -220,7 +222,7 @@ const Pricing = () => {
               className="rounded-full px-10 h-14 text-body-lg bg-white hover:bg-white/90 text-black shadow-lg"
             >
               <a href="https://app.invoicemonk.com/signup">
-                Start Your Free Trial
+                {t('cta.button')}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </a>
             </Button>
