@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Logiciel de devis et estimations professionnels | Invoicemonk",
+    "description": "Créez des devis professionnels. Obtenez l'approbation en ligne et convertissez en factures en un clic. Gagnez plus de clients avec de meilleures propositions.",
+    "serviceName": "Invoicemonk Devis & Propositions",
+    "serviceType": "Logiciel de devis",
+    "serviceDescription": "Créez des devis professionnels. Approbation en ligne et conversion en factures en un clic."
+  },
+  "seoFaqs": [
+    { "question": "Quelle est la différence entre un devis et une estimation ?", "answer": "Une estimation est un coût approximatif qui peut changer. Un devis est un engagement de prix fixe qui ne peut généralement pas être modifié une fois accepté." },
+    { "question": "Puis-je convertir un devis en facture ?", "answer": "Oui. Avec Invoicemonk, vous pouvez convertir un devis approuvé en facture en un clic. Tous les éléments sont transférés automatiquement." },
+    { "question": "Comment rédiger un devis professionnel ?", "answer": "Un devis professionnel doit inclure vos coordonnées, les informations du client, un détail des services, les coûts individuels et totaux, la période de validité et les conditions de paiement." },
+    { "question": "Dois-je facturer les devis ?", "answer": "Cela dépend de votre secteur et de la complexité du travail. Les devis simples sont généralement gratuits, mais les propositions détaillées peuvent justifier des frais." }
+  ],
+  "hero": {
+    "badge": "Bientôt disponible",
+    "title": "Devis professionnels, <accent>simplifiés</accent>",
+    "subtitle": "Créez des devis professionnels, obtenez l'approbation client et convertissez en factures en un clic. Le workflow complet du devis au paiement.",
+    "ctaPrimary": "Rejoindre la liste d'attente",
+    "ctaSecondary": "Commencer avec la facturation"
+  },
+  "mockup": {
+    "label": "Devis",
+    "number": "DEV-2024-0042",
+    "status": "Approuvé",
+    "clientLabel": "Client",
+    "clientName": "Acme Corporation",
+    "lineItemsLabel": "Lignes",
+    "totalLabel": "Total",
+    "convertLabel": "Convertir en facture",
+    "items": [
+      { "item": "Design web", "qty": 1, "price": 3500 },
+      { "item": "Développement", "qty": 40, "price": 4000 },
+      { "item": "Configuration SEO", "qty": 1, "price": 800 }
+    ]
+  },
+  "banner": {
+    "title": "Des devis qui travaillent pour vous",
+    "features": ["Devis professionnels", "Approbation en un clic", "Convertir en facture", "Suivi d'expiration"]
+  },
+  "features": {
+    "title": "Gagnez plus de contrats avec des <accent>devis professionnels</accent>",
+    "subtitle": "De la proposition au paiement dans un workflow fluide.",
+    "blocks": [
+      { "title": "Devis professionnels en minutes", "description": "Créez de beaux devis personnalisés qui font une excellente première impression." },
+      { "title": "Approbation client en un clic", "description": "Les clients peuvent examiner et approuver les devis en ligne — sans impression ni signature." },
+      { "title": "Conversion instantanée en facture", "description": "Transformez les devis approuvés en factures d'un seul clic. Pas de ressaisie." }
+    ]
+  },
+  "tabs": {
+    "title": "Tout ce qu'il faut pour des devis professionnels",
+    "subtitle": "Des modèles au suivi.",
+    "items": [
+      { "label": "Modèles", "title": "Beaux modèles de devis", "description": "Choisissez parmi des modèles professionnels ou créez les vôtres. Ajoutez votre marque." },
+      { "label": "Portail client", "title": "Laissez les clients examiner et approuver en ligne", "description": "Les clients reçoivent un lien pour consulter, poser des questions et approuver en un clic." },
+      { "label": "Suivi", "title": "Sachez où en est chaque devis", "description": "Suivez les vues, réponses et statuts d'approbation. Relancez au bon moment." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Du devis à la facture en 3 étapes",
+    "subtitle": "Un workflow simple pour être payé plus vite.",
+    "steps": [
+      { "title": "Créez votre devis", "description": "Construisez un devis professionnel avec des lignes, des prix et des conditions." },
+      { "title": "Envoyez à votre client", "description": "Votre client examine en ligne et approuve en un seul clic." },
+      { "title": "Convertissez en facture", "description": "Transformez les devis approuvés en factures instantanément." }
+    ]
+  },
+  "conversion": {
+    "title": "Gagnez plus de contrats",
+    "subtitle": "Des devis professionnels qui convertissent.",
+    "features": [
+      { "title": "Taux de conversion plus élevés", "description": "Les devis professionnels inspirent confiance et concluent les affaires plus vite." },
+      { "title": "Communication client", "description": "Discutez des modifications et répondez aux questions directement sur le devis." },
+      { "title": "Analyses des devis", "description": "Voyez quels devis convertissent et optimisez vos propositions." }
+    ]
+  },
+  "testimonial": {
+    "quote": "La conversion en un clic du devis à la facture me fait gagner tellement de temps. Mes clients adorent le professionnalisme de tout.",
+    "name": "Funke Okafor",
+    "title": "Architecte d'intérieur",
+    "company": "Okafor Designs"
+  },
+  "blog": {
+    "title": "Conseils pour propositions et devis",
+    "subtitle": "Gagnez plus de clients avec de meilleures propositions."
+  },
+  "faq": {
+    "title": "Questions sur les devis, répondues",
+    "subtitle": "Tout ce que vous devez savoir sur la création et la gestion des devis.",
+    "items": [
+      { "question": "Quelle est la différence entre un devis et une facture ?", "answer": "Un devis est une proposition pour un travail avant qu'il ne soit effectué, tandis qu'une facture est une demande de paiement pour un travail terminé. Avec Invoicemonk, vous pouvez facilement convertir les devis approuvés en factures." },
+      { "question": "Les clients peuvent-ils approuver les devis en ligne ?", "answer": "Oui ! Lorsque vous envoyez un devis, votre client reçoit un lien pour examiner les détails et approuver en un clic." },
+      { "question": "Puis-je définir des dates d'expiration sur les devis ?", "answer": "Absolument. Vous pouvez définir des périodes de validité et nous vous notifierons avant l'expiration." },
+      { "question": "Comment convertir un devis en facture ?", "answer": "Une fois qu'un client approuve votre devis, vous pouvez le convertir en facture en un clic. Tous les détails sont transférés automatiquement." },
+      { "question": "Puis-je suivre les devis en attente ?", "answer": "Oui, votre tableau de bord affiche tous les devis par statut — brouillon, envoyé, vu, approuvé ou expiré." }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Software de Presupuestos y Cotizaciones Profesionales | Invoicemonk",
+    "description": "Cree presupuestos profesionales. Obtenga aprobación en línea y convierta en facturas con un clic. Gane más negocios con mejores propuestas.",
+    "serviceName": "Invoicemonk Presupuestos y Propuestas",
+    "serviceType": "Software de cotizaciones",
+    "serviceDescription": "Cree presupuestos profesionales. Aprobación en línea y conversión en facturas con un clic."
+  },
+  "seoFaqs": [
+    { "question": "¿Cuál es la diferencia entre un presupuesto y una cotización?", "answer": "Un presupuesto es un costo aproximado que puede cambiar. Una cotización es un compromiso de precio fijo que normalmente no puede modificarse una vez aceptado." },
+    { "question": "¿Puedo convertir un presupuesto en factura?", "answer": "Sí. Con Invoicemonk, puede convertir un presupuesto aprobado en factura con un clic. Todos los elementos se transfieren automáticamente." },
+    { "question": "¿Cómo redactar un presupuesto profesional?", "answer": "Un presupuesto profesional debe incluir datos de su empresa, información del cliente, desglose detallado de servicios, costos individuales y totales, período de validez y condiciones de pago." },
+    { "question": "¿Debo cobrar por los presupuestos?", "answer": "Depende de su sector y la complejidad del trabajo. Los presupuestos simples suelen ser gratuitos, pero las propuestas detalladas pueden justificar un cargo." }
+  ],
+  "hero": {
+    "badge": "Próximamente",
+    "title": "Presupuestos profesionales, <accent>optimizados</accent>",
+    "subtitle": "Cree presupuestos profesionales, obtenga aprobación del cliente y convierta en facturas con un clic. El flujo completo del presupuesto al pago.",
+    "ctaPrimary": "Unirse a la lista de espera",
+    "ctaSecondary": "Empezar con facturación"
+  },
+  "mockup": {
+    "label": "Presupuesto",
+    "number": "PRE-2024-0042",
+    "status": "Aprobado",
+    "clientLabel": "Cliente",
+    "clientName": "Acme Corporation",
+    "lineItemsLabel": "Líneas",
+    "totalLabel": "Total",
+    "convertLabel": "Convertir en factura",
+    "items": [
+      { "item": "Diseño web", "qty": 1, "price": 3500 },
+      { "item": "Desarrollo", "qty": 40, "price": 4000 },
+      { "item": "Configuración SEO", "qty": 1, "price": 800 }
+    ]
+  },
+  "banner": {
+    "title": "Presupuestos que trabajan para usted",
+    "features": ["Presupuestos profesionales", "Aprobación con un clic", "Convertir en factura", "Seguimiento de vencimiento"]
+  },
+  "features": {
+    "title": "Gane más trabajo con <accent>presupuestos profesionales</accent>",
+    "subtitle": "De la propuesta al pago en un flujo continuo.",
+    "blocks": [
+      { "title": "Presupuestos profesionales en minutos", "description": "Cree presupuestos hermosos y personalizados que causan una excelente primera impresión." },
+      { "title": "Aprobación del cliente con un clic", "description": "Los clientes pueden revisar y aprobar presupuestos en línea — sin imprimir ni firmar." },
+      { "title": "Conversión instantánea en factura", "description": "Convierta presupuestos aprobados en facturas con un solo clic." }
+    ]
+  },
+  "tabs": {
+    "title": "Todo para presupuestos profesionales",
+    "subtitle": "De plantillas al seguimiento.",
+    "items": [
+      { "label": "Plantillas", "title": "Hermosas plantillas de presupuesto", "description": "Elija entre plantillas profesionales o cree las suyas. Agregue su marca." },
+      { "label": "Portal del cliente", "title": "Los clientes revisan y aprueban en línea", "description": "Los clientes reciben un enlace para ver, hacer preguntas y aprobar con un clic." },
+      { "label": "Seguimiento", "title": "Sepa dónde está cada presupuesto", "description": "Rastree vistas, respuestas y estado de aprobación. Haga seguimiento en el momento adecuado." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Del presupuesto a la factura en 3 pasos",
+    "subtitle": "Un flujo simple para cobrar más rápido.",
+    "steps": [
+      { "title": "Cree su presupuesto", "description": "Construya un presupuesto profesional con líneas, precios y condiciones." },
+      { "title": "Envíe a su cliente", "description": "Su cliente revisa en línea y aprueba con un solo clic." },
+      { "title": "Convierta en factura", "description": "Transforme presupuestos aprobados en facturas instantáneamente." }
+    ]
+  },
+  "conversion": {
+    "title": "Gane más negocios",
+    "subtitle": "Presupuestos profesionales que convierten.",
+    "features": [
+      { "title": "Mayores tasas de conversión", "description": "Los presupuestos profesionales generan confianza y cierran negocios más rápido." },
+      { "title": "Comunicación con el cliente", "description": "Discuta cambios y responda preguntas directamente en el presupuesto." },
+      { "title": "Análisis de presupuestos", "description": "Vea qué presupuestos convierten y optimice sus propuestas." }
+    ]
+  },
+  "testimonial": {
+    "quote": "La conversión con un clic del presupuesto a factura me ahorra muchísimo tiempo. Mis clientes adoran lo profesional que se ve todo.",
+    "name": "Funke Okafor",
+    "title": "Diseñadora de Interiores",
+    "company": "Okafor Designs"
+  },
+  "blog": {
+    "title": "Consejos para propuestas y presupuestos",
+    "subtitle": "Gane más clientes con mejores propuestas."
+  },
+  "faq": {
+    "title": "Preguntas sobre presupuestos, respondidas",
+    "subtitle": "Todo lo que necesita saber sobre crear y gestionar presupuestos.",
+    "items": [
+      { "question": "¿Cuál es la diferencia entre un presupuesto y una factura?", "answer": "Un presupuesto es una propuesta antes de realizar el trabajo, mientras que una factura es un cobro por trabajo completado. Con Invoicemonk, puede convertir presupuestos aprobados en facturas fácilmente." },
+      { "question": "¿Los clientes pueden aprobar presupuestos en línea?", "answer": "¡Sí! Cuando envía un presupuesto, su cliente recibe un enlace para revisar y aprobar con un clic." },
+      { "question": "¿Puedo establecer fechas de vencimiento en los presupuestos?", "answer": "Por supuesto. Puede establecer períodos de validez y le notificaremos antes del vencimiento." },
+      { "question": "¿Cómo convierto un presupuesto en factura?", "answer": "Cuando un cliente aprueba su presupuesto, puede convertirlo en factura con un clic. Todos los detalles se transfieren automáticamente." },
+      { "question": "¿Puedo rastrear presupuestos pendientes?", "answer": "Sí, su panel muestra todos los presupuestos por estado — borrador, enviado, visto, aprobado o vencido." }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Gestion numérique des reçus | Numérisation IA | Invoicemonk",
+    "description": "Capturez, organisez et stockez tous vos reçus numériquement. Numérisation IA, organisation intelligente et stockage cloud sécurisé.",
+    "serviceName": "Invoicemonk Gestion des reçus",
+    "serviceType": "Logiciel de gestion des reçus",
+    "serviceDescription": "Capturez, organisez et stockez tous vos reçus numériquement avec numérisation IA et stockage cloud sécurisé."
+  },
+  "seoFaqs": [
+    { "question": "Pourquoi conserver mes reçus professionnels ?", "answer": "Les reçus sont essentiels pour la conformité fiscale, la vérification des dépenses et la préparation aux audits. Ils servent de preuve de dépenses professionnelles." },
+    { "question": "Combien de temps garder les reçus ?", "answer": "Les durées de conservation varient selon les pays. En France, la durée est de 10 ans pour les documents comptables. La gestion numérique assure un stockage sécurisé." },
+    { "question": "Puis-je utiliser des reçus numériques au lieu du papier ?", "answer": "Oui. La plupart des autorités fiscales acceptent désormais les copies numériques des reçus comme documents valides." },
+    { "question": "Comment fonctionne un logiciel de gestion de reçus ?", "answer": "Le logiciel capture les reçus par photo ou téléchargement, extrait automatiquement les données via OCR, catégorise la dépense et stocke tout de manière sécurisée dans le cloud." }
+  ],
+  "hero": {
+    "badge": "✓ Disponible maintenant",
+    "title": "Ne perdez plus jamais un reçu <accent>encore</accent>",
+    "subtitle": "Capturez, organisez et stockez tous vos reçus numériquement. Avec la numérisation IA et l'organisation intelligente.",
+    "ctaPrimary": "Commencer gratuitement",
+    "ctaSecondary": "Commencer avec la facturation"
+  },
+  "mockup": {
+    "title": "Reçus récents",
+    "count": "12 cette semaine",
+    "scanLabel": "Scanner un nouveau reçu",
+    "receipts": [
+      { "vendor": "Office Depot", "amount": 142.50, "category": "Fournitures", "date": "Aujourd'hui" },
+      { "vendor": "Zoom Pro", "amount": 19.99, "category": "Logiciel", "date": "Hier" },
+      { "vendor": "Air France", "amount": 340, "category": "Voyage", "date": "Lun" },
+      { "vendor": "Starbucks", "amount": 18.45, "category": "Repas", "date": "Lun" }
+    ]
+  },
+  "banner": {
+    "title": "Reçus numériques, organisés automatiquement",
+    "features": ["OCR alimenté par l'IA", "Recherche instantanée", "Stockage cloud sécurisé", "Exports prêts pour les impôts"]
+  },
+  "features": {
+    "title": "Pourquoi vous allez <accent>l'adorer</accent>",
+    "subtitle": "Gestion numérique des reçus intégrée à votre suivi des dépenses.",
+    "blocks": [
+      { "title": "Numérisation IA", "description": "Prenez une photo et notre IA extrait tous les détails automatiquement." },
+      { "title": "Organisation intelligente", "description": "Les reçus sont organisés automatiquement par date, fournisseur et catégorie." },
+      { "title": "Trouvez tout instantanément", "description": "La recherche plein texte trouve n'importe quel reçu en secondes." }
+    ]
+  },
+  "tabs": {
+    "title": "Tout pour la gestion des reçus",
+    "subtitle": "De la capture à la recherche.",
+    "items": [
+      { "label": "Numérisation", "title": "Capture de reçus par IA", "description": "Notre technologie OCR lit tout reçu — imprimé, manuscrit ou estompé. Photographiez et enregistrez." },
+      { "label": "Stockage", "title": "Stockage sécurisé et organisé", "description": "Les reçus sont chiffrés et organisés par date, fournisseur et catégorie. Accès depuis tout appareil." },
+      { "label": "Recherche", "title": "Trouvez n'importe quel reçu instantanément", "description": "Recherche plein texte sur tous vos reçus. Trouvez ce reçu de café d'il y a 3 mois en secondes." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Comment fonctionne la capture de reçus",
+    "subtitle": "De la photo à l'enregistrement organisé en secondes.",
+    "steps": [
+      { "title": "Prenez une photo", "description": "Photographiez n'importe quel reçu avec votre téléphone." },
+      { "title": "L'IA extrait les détails", "description": "Fournisseur, montant, date et catégorie sont capturés automatiquement." },
+      { "title": "Stocké et cherchable", "description": "Trouvez n'importe quel reçu instantanément quand vous en avez besoin." }
+    ]
+  },
+  "storage": {
+    "title": "Sûr, sécurisé, toujours accessible",
+    "subtitle": "Vos reçus sont protégés avec une sécurité de niveau entreprise.",
+    "features": [
+      { "title": "Sauvegarde cloud sécurisée", "description": "Chaque reçu est chiffré et stocké en sécurité dans le cloud. Accédez-y de n'importe où." },
+      { "title": "Conservation conforme", "description": "Les reçus sont conservés selon les exigences réglementaires. Toujours prêts pour les audits." },
+      { "title": "Catégorisation automatique", "description": "Les reçus sont étiquetés et organisés automatiquement. Pas de tri manuel nécessaire." }
+    ],
+    "cloudTitle": "Stockage cloud",
+    "cloudEncryption": "Chiffrement 256 bits",
+    "syncedLabel": "Synchronisé"
+  },
+  "testimonial": {
+    "quote": "Avant j'avais une boîte à chaussures pleine de reçus. Maintenant je prends juste une photo et tout est organisé. La période fiscale est enfin gérable.",
+    "name": "Ngozi Ibe",
+    "title": "Photographe",
+    "company": "Ibe Studios"
+  },
+  "blog": {
+    "title": "Conseils de conservation des documents",
+    "subtitle": "Gardez vos reçus organisés et prêts pour les audits."
+  },
+  "faq": {
+    "title": "Questions sur les reçus, répondues",
+    "subtitle": "Tout ce que vous devez savoir sur la gestion numérique des reçus.",
+    "items": [
+      { "question": "Comment fonctionne la numérisation des reçus ?", "answer": "Prenez simplement une photo ou téléchargez une image. Notre OCR alimenté par l'IA extrait le fournisseur, la date, le montant et la catégorie automatiquement." },
+      { "question": "Combien de temps les reçus sont-ils conservés ?", "answer": "Les reçus sont conservés en sécurité aussi longtemps que vous en avez besoin, conformément aux exigences des autorités fiscales de votre région." },
+      { "question": "Puis-je rechercher mes anciens reçus ?", "answer": "Oui ! Notre recherche plein texte trouve tout reçu par nom de fournisseur, montant, date ou catégorie." },
+      { "question": "Comment s'intègre-t-il aux dépenses ?", "answer": "Les reçus peuvent être attachés aux entrées de dépenses automatiquement ou manuellement. Lors de la numérisation, nous pouvons créer l'entrée de dépense pour vous." },
+      { "question": "Mes données sont-elles sécurisées ?", "answer": "Absolument. Tous les reçus sont chiffrés en transit et au repos. Nous utilisons une sécurité de niveau bancaire." },
+      { "question": "Puis-je exporter les reçus pour mon comptable ?", "answer": "Oui, exportez individuellement ou en masse. Choisissez entre PDF, CSV ou formats image." }
+    ]
+  }
+}

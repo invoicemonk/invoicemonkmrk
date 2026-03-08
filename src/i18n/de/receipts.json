@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Digitale Belegverwaltung | KI-Belegerfassung | Invoicemonk",
+    "description": "Erfassen, organisieren und speichern Sie alle Ihre Belege digital. KI-gestützte Erfassung, intelligente Organisation und sichere Cloud-Speicherung.",
+    "serviceName": "Invoicemonk Belegverwaltung",
+    "serviceType": "Belegverwaltungssoftware",
+    "serviceDescription": "Erfassen, organisieren und speichern Sie alle Ihre Belege digital mit KI-gestützter Erfassung und sicherer Cloud-Speicherung."
+  },
+  "seoFaqs": [
+    { "question": "Warum muss ich Geschäftsbelege aufbewahren?", "answer": "Geschäftsbelege sind für die Steuerkonformität, Ausgabenüberprüfung und Prüfungsvorbereitung unerlässlich. Sie dienen als Nachweis für Geschäftsausgaben." },
+    { "question": "Wie lange sollte ich Belege aufbewahren?", "answer": "Die Aufbewahrungsfristen variieren je nach Land. In Deutschland beträgt die Aufbewahrungsfrist 10 Jahre. Digitale Belegverwaltung stellt sicher, dass Ihre Unterlagen sicher aufbewahrt werden." },
+    { "question": "Kann ich digitale Belege statt Papier verwenden?", "answer": "Ja. Die meisten Steuerbehörden akzeptieren digitale Kopien von Belegen als gültige Unterlagen, sofern sie lesbar sind und das Original genau wiedergeben." },
+    { "question": "Wie funktioniert Belegverwaltungssoftware?", "answer": "Belegverwaltungssoftware ermöglicht die Erfassung per Foto oder Upload, extrahiert automatisch Daten wie Anbieter, Datum und Betrag mittels OCR und speichert alles sicher in der Cloud." }
+  ],
+  "hero": {
+    "badge": "✓ Jetzt verfügbar",
+    "title": "Nie wieder einen Beleg <accent>verlieren</accent>",
+    "subtitle": "Erfassen, organisieren und speichern Sie alle Ihre Belege digital. Mit KI-gestützter Erfassung und intelligenter Organisation.",
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "Mit Rechnungsstellung starten"
+  },
+  "mockup": {
+    "title": "Aktuelle Belege",
+    "count": "12 diese Woche",
+    "scanLabel": "Neuen Beleg scannen",
+    "receipts": [
+      { "vendor": "Office Depot", "amount": 142.50, "category": "Bürobedarf", "date": "Heute" },
+      { "vendor": "Zoom Pro", "amount": 19.99, "category": "Software", "date": "Gestern" },
+      { "vendor": "Lufthansa", "amount": 340, "category": "Reise", "date": "Mo" },
+      { "vendor": "Starbucks", "amount": 18.45, "category": "Verpflegung", "date": "Mo" }
+    ]
+  },
+  "banner": {
+    "title": "Digitale Belege, automatisch organisiert",
+    "features": ["KI-gestützte OCR", "Sofortsuche", "Sichere Cloud-Speicherung", "Steuerfertige Exporte"]
+  },
+  "features": {
+    "title": "Warum Sie es <accent>lieben werden</accent>",
+    "subtitle": "Digitale Belegverwaltung, die sich in Ihre Ausgabenverfolgung integriert.",
+    "blocks": [
+      { "title": "KI-gestützte Erfassung", "description": "Machen Sie ein Foto und unsere KI extrahiert alle Details automatisch." },
+      { "title": "Intelligente Organisation", "description": "Belege werden automatisch nach Datum, Anbieter und Kategorie organisiert." },
+      { "title": "Alles sofort finden", "description": "Volltextsuche findet jeden Beleg in Sekunden." }
+    ]
+  },
+  "tabs": {
+    "title": "Alles für die Belegverwaltung",
+    "subtitle": "Von der Erfassung bis zur Suche.",
+    "items": [
+      { "label": "Scannen", "title": "KI-gestützte Belegerfassung", "description": "Unsere OCR-Technologie liest jeden Beleg — gedruckt, handschriftlich oder verblasst. Einfach fotografieren und speichern." },
+      { "label": "Speicherung", "title": "Sichere, organisierte Speicherung", "description": "Belege werden verschlüsselt und nach Datum, Anbieter und Kategorie organisiert. Zugriff von jedem Gerät." },
+      { "label": "Suche", "title": "Jeden Beleg sofort finden", "description": "Volltextsuche über alle Ihre Belege. Finden Sie den Café-Beleg von vor 3 Monaten in Sekunden." }
+    ]
+  },
+  "howItWorks": {
+    "title": "So funktioniert die Belegerfassung",
+    "subtitle": "Vom Foto zum organisierten Datensatz in Sekunden.",
+    "steps": [
+      { "title": "Foto machen", "description": "Fotografieren Sie jeden Beleg mit Ihrem Handy." },
+      { "title": "KI extrahiert Details", "description": "Anbieter, Betrag, Datum und Kategorie werden automatisch erfasst." },
+      { "title": "Gespeichert und durchsuchbar", "description": "Finden Sie jeden Beleg sofort, wenn Sie ihn brauchen." }
+    ]
+  },
+  "storage": {
+    "title": "Sicher, geschützt, immer zugänglich",
+    "subtitle": "Ihre Belege sind mit Unternehmenssicherheit geschützt.",
+    "features": [
+      { "title": "Sichere Cloud-Sicherung", "description": "Jeder Beleg ist verschlüsselt und sicher in der Cloud gespeichert. Zugriff von überall." },
+      { "title": "Compliance-konforme Aufbewahrung", "description": "Belege werden gemäß regulatorischen Anforderungen gespeichert. Immer bereit für Prüfungen." },
+      { "title": "Automatische Kategorisierung", "description": "Belege werden automatisch getaggt und organisiert. Kein manuelles Sortieren nötig." }
+    ],
+    "cloudTitle": "Cloud-Speicher",
+    "cloudEncryption": "256-Bit-Verschlüsselung",
+    "syncedLabel": "Synchronisiert"
+  },
+  "testimonial": {
+    "quote": "Früher hatte ich einen Schuhkarton voller Belege. Jetzt mache ich einfach ein Foto und alles ist organisiert. Die Steuersaison ist jetzt tatsächlich machbar.",
+    "name": "Ngozi Ibe",
+    "title": "Fotografin",
+    "company": "Ibe Studios"
+  },
+  "blog": {
+    "title": "Tipps zur Belegaufbewahrung",
+    "subtitle": "Halten Sie Ihre Belege organisiert und prüfungsbereit."
+  },
+  "faq": {
+    "title": "Belegfragen, beantwortet",
+    "subtitle": "Alles, was Sie über digitale Belegverwaltung wissen müssen.",
+    "items": [
+      { "question": "Wie funktioniert das Beleg-Scannen?", "answer": "Machen Sie einfach ein Foto Ihres Belegs oder laden Sie ein Bild hoch. Unsere KI-gestützte OCR extrahiert Anbieter, Datum, Betrag und Kategorie automatisch." },
+      { "question": "Wie lange werden Belege gespeichert?", "answer": "Belege werden sicher aufbewahrt, solange Sie sie benötigen, und erfüllen die Anforderungen der Steuerbehörden in Ihrer Region." },
+      { "question": "Kann ich alte Belege suchen?", "answer": "Ja! Unsere Volltextsuche findet jeden Beleg nach Anbietername, Betrag, Datum oder Kategorie." },
+      { "question": "Wie integriert sich das mit Ausgaben?", "answer": "Belege können automatisch oder manuell an Ausgabeneinträge angehängt werden. Beim Scannen können wir den Ausgabeneintrag für Sie erstellen." },
+      { "question": "Sind meine Daten sicher?", "answer": "Absolut. Alle Belege sind sowohl bei der Übertragung als auch im Ruhezustand verschlüsselt. Wir verwenden Sicherheit auf Bankniveau." },
+      { "question": "Kann ich Belege für meinen Steuerberater exportieren?", "answer": "Ja, Sie können Belege einzeln oder in großen Mengen exportieren. Wählen Sie zwischen PDF, CSV oder Bildformaten." }
+    ]
+  }
+}

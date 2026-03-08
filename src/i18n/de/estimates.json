@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Professionelle Kostenvoranschläge & Angebote | Invoicemonk",
+    "description": "Erstellen Sie professionelle Kostenvoranschläge und Angebote. Erhalten Sie Online-Genehmigungen und wandeln Sie sie mit einem Klick in Rechnungen um.",
+    "serviceName": "Invoicemonk Kostenvoranschläge & Angebote",
+    "serviceType": "Angebotssoftware",
+    "serviceDescription": "Erstellen Sie professionelle Kostenvoranschläge und Angebote. Online-Genehmigung und Ein-Klick-Umwandlung in Rechnungen."
+  },
+  "seoFaqs": [
+    { "question": "Was ist der Unterschied zwischen einem Kostenvoranschlag und einem Angebot?", "answer": "Ein Kostenvoranschlag ist eine ungefähre Kostenschätzung für ein Projekt, die sich im Laufe der Arbeit ändern kann. Ein Angebot ist eine verbindliche Preiszusage, die nach Annahme in der Regel nicht mehr geändert werden kann." },
+    { "question": "Kann ich einen Kostenvoranschlag in eine Rechnung umwandeln?", "answer": "Ja. Mit Invoicemonk können Sie einen genehmigten Kostenvoranschlag mit einem Klick in eine Rechnung umwandeln. Alle Positionen, Beträge und Kundendaten werden automatisch übernommen." },
+    { "question": "Wie schreibe ich einen professionellen Kostenvoranschlag?", "answer": "Ein professioneller Kostenvoranschlag sollte Ihre Geschäftsdaten, Kundeninformationen, eine detaillierte Aufschlüsselung der Leistungen, Einzel- und Gesamtkosten, Gültigkeitsdauer und Zahlungsbedingungen enthalten." },
+    { "question": "Sollte ich Kostenvoranschläge berechnen?", "answer": "Das hängt von Ihrer Branche und der Komplexität der Arbeit ab. Einfache Kostenvoranschläge sind in der Regel kostenlos, aber detaillierte Angebote können eine Gebühr rechtfertigen." }
+  ],
+  "hero": {
+    "badge": "Demnächst verfügbar",
+    "title": "Professionelle Kostenvoranschläge, <accent>optimiert</accent>",
+    "subtitle": "Erstellen Sie professionelle Angebote, erhalten Sie Kundengenehmigungen und wandeln Sie sie mit einem Klick in Rechnungen um.",
+    "ctaPrimary": "Auf die Warteliste setzen",
+    "ctaSecondary": "Mit Rechnungsstellung starten"
+  },
+  "mockup": {
+    "label": "Kostenvoranschlag",
+    "number": "KV-2024-0042",
+    "status": "Genehmigt",
+    "clientLabel": "Kunde",
+    "clientName": "Acme GmbH",
+    "lineItemsLabel": "Positionen",
+    "totalLabel": "Gesamt",
+    "convertLabel": "In Rechnung umwandeln",
+    "items": [
+      { "item": "Webdesign", "qty": 1, "price": 3500 },
+      { "item": "Entwicklung", "qty": 40, "price": 4000 },
+      { "item": "SEO-Einrichtung", "qty": 1, "price": 800 }
+    ]
+  },
+  "banner": {
+    "title": "Kostenvoranschläge, die für Sie arbeiten",
+    "features": ["Professionelle Angebote", "Ein-Klick-Genehmigung", "In Rechnung umwandeln", "Ablaufverfolgung"]
+  },
+  "features": {
+    "title": "Gewinnen Sie mehr Aufträge mit <accent>professionellen Angeboten</accent>",
+    "subtitle": "Vom Angebot zur Zahlung in einem nahtlosen Workflow.",
+    "blocks": [
+      { "title": "Professionelle Angebote in Minuten", "description": "Erstellen Sie schöne, gebrandete Kostenvoranschläge für einen großartigen ersten Eindruck." },
+      { "title": "Ein-Klick-Kundengenehmigung", "description": "Kunden können Kostenvoranschläge online prüfen und genehmigen — kein Drucken oder Unterschreiben nötig." },
+      { "title": "Sofort in Rechnung umwandeln", "description": "Wandeln Sie genehmigte Kostenvoranschläge mit einem einzigen Klick in Rechnungen um." }
+    ]
+  },
+  "tabs": {
+    "title": "Alles für professionelle Kostenvoranschläge",
+    "subtitle": "Von Vorlagen bis zur Nachverfolgung.",
+    "items": [
+      { "label": "Vorlagen", "title": "Schöne Angebotsvorlagen", "description": "Wählen Sie aus professionellen Vorlagen oder erstellen Sie Ihre eigenen. Fügen Sie Ihr Branding hinzu." },
+      { "label": "Kundenportal", "title": "Kunden online prüfen und genehmigen lassen", "description": "Kunden erhalten einen Link zum Ansehen, Fragen stellen und Genehmigen mit einem Klick." },
+      { "label": "Nachverfolgung", "title": "Wissen, wo jeder Kostenvoranschlag steht", "description": "Verfolgen Sie Ansichten, Antworten und Genehmigungsstatus. Folgen Sie zum richtigen Zeitpunkt nach." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Vom Kostenvoranschlag zur Rechnung in 3 Schritten",
+    "subtitle": "Ein einfacher Workflow, der Sie schneller bezahlt macht.",
+    "steps": [
+      { "title": "Kostenvoranschlag erstellen", "description": "Erstellen Sie ein professionelles Angebot mit Positionen, Preisen und Bedingungen." },
+      { "title": "An den Kunden senden", "description": "Ihr Kunde prüft online und genehmigt mit einem einzigen Klick." },
+      { "title": "In Rechnung umwandeln", "description": "Wandeln Sie genehmigte Kostenvoranschläge sofort in Rechnungen um." }
+    ]
+  },
+  "conversion": {
+    "title": "Mehr Geschäft gewinnen",
+    "subtitle": "Professionelle Kostenvoranschläge, die überzeugen.",
+    "features": [
+      { "title": "Höhere Konversionsraten", "description": "Professionelle Kostenvoranschläge schaffen Vertrauen und schließen Geschäfte schneller ab." },
+      { "title": "Kundenkommunikation", "description": "Besprechen Sie Änderungen und beantworten Sie Fragen direkt am Kostenvoranschlag." },
+      { "title": "Angebotsanalysen", "description": "Sehen Sie, welche Kostenvoranschläge konvertieren und optimieren Sie Ihre Angebote." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Die Ein-Klick-Umwandlung vom Kostenvoranschlag zur Rechnung spart mir so viel Zeit. Meine Kunden lieben, wie professionell alles aussieht.",
+    "name": "Funke Okafor",
+    "title": "Innenarchitektin",
+    "company": "Okafor Designs"
+  },
+  "blog": {
+    "title": "Tipps für Angebote und Kostenvoranschläge",
+    "subtitle": "Gewinnen Sie mehr Kunden mit besseren Angeboten."
+  },
+  "faq": {
+    "title": "Fragen zu Kostenvoranschlägen, beantwortet",
+    "subtitle": "Alles, was Sie über das Erstellen und Verwalten von Kostenvoranschlägen wissen müssen.",
+    "items": [
+      { "question": "Was ist der Unterschied zwischen einem Kostenvoranschlag und einer Rechnung?", "answer": "Ein Kostenvoranschlag ist ein Angebot für Arbeit, bevor sie erledigt wird, während eine Rechnung eine Abrechnung für abgeschlossene Arbeit ist. Mit Invoicemonk können Sie genehmigte Kostenvoranschläge einfach in Rechnungen umwandeln." },
+      { "question": "Können Kunden Kostenvoranschläge online genehmigen?", "answer": "Ja! Wenn Sie einen Kostenvoranschlag senden, erhält Ihr Kunde einen Link, über den er die Details prüfen und mit einem Klick genehmigen kann." },
+      { "question": "Kann ich Ablaufdaten für Kostenvoranschläge festlegen?", "answer": "Absolut. Sie können Gültigkeitszeiträume festlegen, und wir benachrichtigen Sie, bevor sie ablaufen." },
+      { "question": "Wie wandle ich einen Kostenvoranschlag in eine Rechnung um?", "answer": "Sobald ein Kunde Ihren Kostenvoranschlag genehmigt, können Sie ihn mit einem Klick in eine Rechnung umwandeln. Alle Positionen und Kundendaten werden automatisch übertragen." },
+      { "question": "Kann ich ausstehende Kostenvoranschläge verfolgen?", "answer": "Ja, Ihr Dashboard zeigt alle Kostenvoranschläge nach Status — Entwurf, gesendet, angesehen, genehmigt oder abgelaufen." }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Gestión Digital de Recibos | Escaneo con IA | Invoicemonk",
+    "description": "Capture, organice y almacene todos sus recibos digitalmente. Escaneo con IA, organización inteligente y almacenamiento seguro en la nube.",
+    "serviceName": "Invoicemonk Gestión de Recibos",
+    "serviceType": "Software de Gestión de Recibos",
+    "serviceDescription": "Capture, organice y almacene todos sus recibos digitalmente con escaneo IA y almacenamiento seguro en la nube."
+  },
+  "seoFaqs": [
+    { "question": "¿Por qué necesito guardar recibos comerciales?", "answer": "Los recibos son esenciales para el cumplimiento fiscal, la verificación de gastos y la preparación de auditorías. Sirven como prueba de gastos empresariales." },
+    { "question": "¿Cuánto tiempo debo guardar los recibos?", "answer": "Los períodos de retención varían según el país. En España, el plazo es generalmente de 4-6 años. La gestión digital garantiza que sus registros estén almacenados de forma segura." },
+    { "question": "¿Puedo usar recibos digitales en lugar de papel?", "answer": "Sí. La mayoría de las autoridades fiscales aceptan copias digitales de recibos como registros válidos, siempre que sean legibles." },
+    { "question": "¿Cómo funciona el software de gestión de recibos?", "answer": "El software captura recibos por foto o carga, extrae datos automáticamente mediante OCR, categoriza el gasto y almacena todo de forma segura en la nube." }
+  ],
+  "hero": {
+    "badge": "✓ Disponible ahora",
+    "title": "Nunca más pierda un recibo <accent>otra vez</accent>",
+    "subtitle": "Capture, organice y almacene todos sus recibos digitalmente. Con escaneo IA y organización inteligente.",
+    "ctaPrimary": "Comenzar gratis",
+    "ctaSecondary": "Empezar con facturación"
+  },
+  "mockup": {
+    "title": "Recibos recientes",
+    "count": "12 esta semana",
+    "scanLabel": "Escanear nuevo recibo",
+    "receipts": [
+      { "vendor": "Office Depot", "amount": 142.50, "category": "Suministros", "date": "Hoy" },
+      { "vendor": "Zoom Pro", "amount": 19.99, "category": "Software", "date": "Ayer" },
+      { "vendor": "Iberia", "amount": 340, "category": "Viaje", "date": "Lun" },
+      { "vendor": "Starbucks", "amount": 18.45, "category": "Comidas", "date": "Lun" }
+    ]
+  },
+  "banner": {
+    "title": "Recibos digitales, organizados automáticamente",
+    "features": ["OCR con IA", "Búsqueda instantánea", "Almacenamiento seguro en la nube", "Exportaciones listas para impuestos"]
+  },
+  "features": {
+    "title": "Por qué le va a <accent>encantar</accent>",
+    "subtitle": "Gestión digital de recibos integrada con el seguimiento de gastos.",
+    "blocks": [
+      { "title": "Escaneo con IA", "description": "Tome una foto y nuestra IA extrae todos los detalles automáticamente." },
+      { "title": "Organización inteligente", "description": "Los recibos se organizan automáticamente por fecha, proveedor y categoría." },
+      { "title": "Encuentre todo al instante", "description": "La búsqueda de texto completo encuentra cualquier recibo en segundos." }
+    ]
+  },
+  "tabs": {
+    "title": "Todo para la gestión de recibos",
+    "subtitle": "De la captura a la búsqueda.",
+    "items": [
+      { "label": "Escaneo", "title": "Captura de recibos con IA", "description": "Nuestra tecnología OCR lee cualquier recibo — impreso, manuscrito o desvanecido. Fotografíe y guarde." },
+      { "label": "Almacenamiento", "title": "Almacenamiento seguro y organizado", "description": "Los recibos se cifran y organizan por fecha, proveedor y categoría. Acceso desde cualquier dispositivo." },
+      { "label": "Búsqueda", "title": "Encuentre cualquier recibo al instante", "description": "Búsqueda de texto completo en todos sus recibos. Encuentre ese recibo del café de hace 3 meses en segundos." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Cómo funciona la captura de recibos",
+    "subtitle": "De la foto al registro organizado en segundos.",
+    "steps": [
+      { "title": "Tome una foto", "description": "Fotografíe cualquier recibo con su teléfono." },
+      { "title": "La IA extrae detalles", "description": "Proveedor, monto, fecha y categoría se capturan automáticamente." },
+      { "title": "Almacenado y buscable", "description": "Encuentre cualquier recibo al instante cuando lo necesite." }
+    ]
+  },
+  "storage": {
+    "title": "Seguro, protegido, siempre accesible",
+    "subtitle": "Sus recibos están protegidos con seguridad empresarial.",
+    "features": [
+      { "title": "Respaldo seguro en la nube", "description": "Cada recibo está cifrado y almacenado de forma segura en la nube. Acceda desde cualquier lugar." },
+      { "title": "Retención conforme a normativas", "description": "Los recibos se almacenan según requisitos regulatorios. Siempre listos para auditorías." },
+      { "title": "Categorización automática", "description": "Los recibos se etiquetan y organizan automáticamente. Sin clasificación manual." }
+    ],
+    "cloudTitle": "Almacenamiento en la nube",
+    "cloudEncryption": "Cifrado de 256 bits",
+    "syncedLabel": "Sincronizado"
+  },
+  "testimonial": {
+    "quote": "Antes tenía una caja llena de recibos. Ahora solo tomo una foto y todo queda organizado. La temporada de impuestos es realmente manejable ahora.",
+    "name": "Ngozi Ibe",
+    "title": "Fotógrafa",
+    "company": "Ibe Studios"
+  },
+  "blog": {
+    "title": "Consejos de mantenimiento de registros",
+    "subtitle": "Mantenga sus recibos organizados y listos para auditoría."
+  },
+  "faq": {
+    "title": "Preguntas sobre recibos, respondidas",
+    "subtitle": "Todo lo que necesita saber sobre la gestión digital de recibos.",
+    "items": [
+      { "question": "¿Cómo funciona el escaneo de recibos?", "answer": "Simplemente tome una foto o cargue una imagen. Nuestro OCR con IA extrae proveedor, fecha, monto y categoría automáticamente." },
+      { "question": "¿Cuánto tiempo se almacenan los recibos?", "answer": "Los recibos se almacenan de forma segura el tiempo que necesite, cumpliendo con los requisitos de las autoridades fiscales de su región." },
+      { "question": "¿Puedo buscar recibos antiguos?", "answer": "¡Sí! Nuestra búsqueda de texto completo encuentra cualquier recibo por nombre del proveedor, monto, fecha o categoría." },
+      { "question": "¿Cómo se integra con los gastos?", "answer": "Los recibos pueden adjuntarse a entradas de gastos automática o manualmente. Al escanear, podemos crear la entrada de gasto por usted." },
+      { "question": "¿Mis datos están seguros?", "answer": "Absolutamente. Todos los recibos están cifrados tanto en tránsito como en reposo. Usamos seguridad de nivel bancario." },
+      { "question": "¿Puedo exportar recibos para mi contador?", "answer": "Sí, exporte individualmente o en masa. Elija entre PDF, CSV o formatos de imagen." }
+    ]
+  }
+}
