@@ -58,7 +58,7 @@ export function LanguageLayout() {
     }
 
     // Set html lang attribute for SEO
-    document.documentElement.lang = i18nCode === 'pt-BR' ? 'pt-BR' : i18nCode;
+    document.documentElement.lang = i18nCode === 'pt-BR' ? 'pt-BR' : (i18nCode === 'es' ? 'es' : i18nCode);
   }, [isValidLang, prefix, location.pathname]);
 
   if (!isValidLang) return null; // will redirect

@@ -6,6 +6,7 @@ import enCommon from './en/common.json';
 import deCommon from './de/common.json';
 import frCommon from './fr/common.json';
 import ptBRCommon from './pt-BR/common.json';
+import esCommon from './es/common.json';
 
 /** Map URL language prefix → i18next language code */
 export const langPrefixToI18nCode: Record<string, string> = {
@@ -13,6 +14,7 @@ export const langPrefixToI18nCode: Record<string, string> = {
   de: 'de',
   fr: 'fr',
   pt: 'pt-BR',
+  es: 'es',
 };
 
 // Keep legacy export for backward compat
@@ -31,6 +33,7 @@ i18n
       de: { common: deCommon },
       fr: { common: frCommon },
       'pt-BR': { common: ptBRCommon },
+      es: { common: esCommon },
     },
     lng: 'en',
     fallbackLng: 'en',
