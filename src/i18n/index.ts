@@ -240,6 +240,20 @@ import frHome from './fr/home.json';
 import ptBRHome from './pt-BR/home.json';
 import esHome from './es/home.json';
 
+// Tools (payment calculators)
+import enTools from './en/tools.json';
+import deTools from './de/tools.json';
+import frTools from './fr/tools.json';
+import ptBRTools from './pt-BR/tools.json';
+import esTools from './es/tools.json';
+
+// Explore page
+import enExplore from './en/explore.json';
+import deExplore from './de/explore.json';
+import frExplore from './fr/explore.json';
+import ptBRExplore from './pt-BR/explore.json';
+import esExplore from './es/explore.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
