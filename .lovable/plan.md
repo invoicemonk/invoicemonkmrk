@@ -28,40 +28,23 @@
 - `src/i18n/index.ts` — registered blog, help, glossary namespaces
 - Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
 
-### 🔲 Batch 1b: Legal Page Translations (NEXT)
-- Create `src/i18n/{lang}/legal.json` for Privacy, Terms, Cookie, SLA
-- Update legal page components to use `useTranslation('legal')`
+### ✅ Batch 1b: Legal Page Translations (COMPLETE)
 
-### 🔲 Batch 2–10: Content Translations
-See batches 2–10 below for remaining work.
+### ✅ Batch 2: Help Center (COMPLETE)
 
----
+### ✅ Batch 3: Glossary Terms (COMPLETE)
 
-## Batches 2–10 (Unchanged from original plan)
+### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
 
-### Batch 2: Help Center (16 guides)
-Create `src/data/helpGuides.{de|fr|pt|es}.ts` with translated guide content.
+### ✅ Batch 5: Corridor Pages (COMPLETE)
 
-### Batch 3: Glossary Terms (~35 terms)
-Create `src/data/glossaryTerms.{de|fr|pt|es}.ts` with translated terms.
+### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
 
-### Batch 4: Guide Detail Pages + Topic Pages (8 pillars) + Authors
-Create `src/data/topicalMap.{de|fr|pt|es}.ts` and `src/data/authors.{de|fr|pt|es}.ts`.
+### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
 
-### Batch 5: Corridor Pages (9 corridors)
-Extract static prose to `src/i18n/{lang}/corridor.json` with interpolation.
+### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
 
-### Batch 6: Blog Posts — Pillar Hub Pages (8 posts)
-Create `src/data/blog/pillars.{de|fr|pt|es}.ts`.
-
-### Batch 7: Blog Posts — Cluster Posts (~20 posts)
-Create `src/data/blog/clusters.{de|fr|pt|es}.ts`.
-
-### Batch 8: Blog Posts — Original/Legacy Posts (~20 posts)
-Create `src/data/blog/original.{de|fr|pt|es}.ts`.
-
-### Batch 9: Blog Posts — Country Compliance Posts (43 posts)
-Extend template generators to accept language parameter.
-
-### Batch 10: SEOHead + Sitemap Finalization
-Enable full hreflang on all pages, regenerate sitemap for all 5 languages.
+### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
+- SEOHead already outputs hreflang for all 5 languages on every page
+- Updated sitemap generator to include country compliance posts and glossary terms
+- No 'enOnly' restrictions found — all content sections are fully multilingual
