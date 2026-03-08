@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Aceitar Pagamentos Online | Processamento de Pagamentos | Invoicemonk",
+    "description": "Aceite pagamentos diretamente das faturas. Cartões de crédito, transferências bancárias e carteiras digitais com conciliação automática e taxas baixas."
+  },
+  "hero": {
+    "badge": "Em breve",
+    "title": "Receba mais rápido com <accent>pagamentos integrados</accent>",
+    "description": "Aceite pagamentos diretamente das faturas. Configure parcelamentos, processe reembolsos e concilie tudo automaticamente.",
+    "cta": "Entrar na lista de espera",
+    "secondary": "Começar com Faturamento",
+    "mockup": {
+      "title": "Pagamento recebido!",
+      "subtitle": "Fatura #1042 • Acme Ltda",
+      "amountLabel": "Valor pago",
+      "method": "Método de pagamento",
+      "methodValue": "Visa •••• 4242",
+      "fee": "Taxa de processamento",
+      "net": "Valor líquido",
+      "floatingLabel": "Pagamento instantâneo"
+    }
+  },
+  "banner": {
+    "title": "Aceite os pagamentos que seus clientes preferem",
+    "features": ["Todos os cartões principais", "Transferências & PIX", "Parcelamento & prestações", "Conciliação automática"]
+  },
+  "whyAdd": {
+    "title": "Por que adicionar pagamentos às suas <accent>faturas</accent>",
+    "subtitle": "Facilite ao máximo o pagamento para seus clientes.",
+    "features": [
+      { "title": "Pagamentos mais rápidos, melhor fluxo de caixa", "description": "Clientes podem pagar instantaneamente com um clique. Sem mais esperar por cheques ou transferências." },
+      { "title": "Seus clientes querem pagar online", "description": "Encontre seus clientes onde eles estão. Aceite todos os cartões principais, transferências e carteiras digitais." },
+      { "title": "Nunca perca o controle dos pagamentos", "description": "Cada pagamento é automaticamente vinculado à sua fatura. Visibilidade completa do seu fluxo de caixa." }
+    ]
+  },
+  "tabs": {
+    "title": "Tudo que você precisa para aceitar pagamentos",
+    "subtitle": "Opções flexíveis para você e seus clientes.",
+    "items": [
+      { "label": "Métodos de pagamento", "title": "Aceite como seus clientes preferem pagar", "description": "Cartões de crédito, transferências, carteiras digitais — ofereça todas as opções que seus clientes esperam." },
+      { "label": "Segurança", "title": "Segurança de nível bancário", "description": "Processamento compatível com PCI, transações criptografadas e proteção contra fraudes integrada." },
+      { "label": "Conciliação", "title": "Conciliação automática de pagamentos", "description": "Pagamentos são vinculados às faturas automaticamente. Seus registros ficam precisos sem nenhum esforço." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Desde que adicionei links de pagamento às minhas faturas, recebo em média 12 dias mais rápido. Fez uma enorme diferença no meu fluxo de caixa.",
+    "name": "Amaka Eze",
+    "title": "Diretora Criativa",
+    "company": "Studio Amber"
+  },
+  "howItWorks": {
+    "title": "Como funciona aceitar pagamentos",
+    "subtitle": "Tão simples quanto enviar uma fatura — nós cuidamos do resto.",
+    "steps": [
+      { "title": "Envie sua fatura", "description": "Crie e envie faturas profissionais com links de pagamento integrados." },
+      { "title": "Cliente paga online", "description": "Seu cliente clica no link de pagamento e paga com segurança pelo método preferido." },
+      { "title": "O dinheiro chega rápido", "description": "Os fundos são depositados diretamente na sua conta bancária, geralmente em 1-2 dias úteis." }
+    ]
+  },
+  "pricing": {
+    "title": "Preços simples e <accent>transparentes</accent>",
+    "subtitle": "Sem taxas mensais. Sem cobranças ocultas. Pague apenas quando receber.",
+    "sectionTitle": "Taxas de processamento",
+    "sectionSubtitle": "Em breve — taxas competitivas para todos os tamanhos de negócio.",
+    "cards": {
+      "label": "Cartões de crédito e débito",
+      "cardTypes": "Visa, Mastercard, Amex",
+      "rate": "2,9%",
+      "rateNote": "+ taxa fixa"
+    },
+    "bank": {
+      "label": "Transferências bancárias",
+      "types": "PIX, Boleto",
+      "rate": "1%",
+      "rateNote": "limitado a R$25"
+    }
+  },
+  "blog": {
+    "title": "Receba mais rápido",
+    "subtitle": "Dicas e estratégias para melhorar seu fluxo de caixa."
+  },
+  "faq": {
+    "title": "Perguntas sobre pagamentos",
+    "subtitle": "Tudo que você precisa saber sobre aceitar pagamentos.",
+    "items": [
+      { "question": "Quais métodos de pagamento posso aceitar?", "answer": "Quando nosso recurso de pagamentos for lançado, você poderá aceitar todos os cartões principais (Visa, Mastercard, American Express), cartões de débito, transferências bancárias (PIX) e carteiras digitais populares." },
+      { "question": "Quais são as taxas de processamento?", "answer": "Oferecemos taxas competitivas. Pagamentos com cartão são tipicamente 2,9% + uma pequena taxa fixa. Transferências bancárias têm taxas ainda menores. Os preços completos serão anunciados no lançamento." },
+      { "question": "Quanto tempo leva para receber meu dinheiro?", "answer": "Os fundos geralmente chegam à sua conta bancária em 1-2 dias úteis. Também estamos trabalhando em opções de pagamento instantâneo para planos premium." },
+      { "question": "O processamento de pagamentos é seguro?", "answer": "Absolutamente. Todos os pagamentos são processados por infraestrutura compatível com PCI. As informações de pagamento dos seus clientes são criptografadas e nunca armazenadas em nossos servidores." },
+      { "question": "Posso configurar parcelamento para faturas grandes?", "answer": "Sim! Você poderá oferecer aos seus clientes a opção de pagar em parcelas. Você define as condições, e nós cuidamos da cobrança automática de cada parcela." },
+      { "question": "Como funciona a conciliação automática?", "answer": "Quando um cliente paga uma fatura, o pagamento é automaticamente vinculado e registrado. Sem entrada manual de dados — seus registros ficam atualizados automaticamente." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "Como aceitar pagamentos online em faturas?", "answer": "Com o Invoicemonk, você pode adicionar um link de pagamento diretamente às suas faturas. Os clientes clicam para pagar via cartão de crédito, transferência ou pagamento móvel. O pagamento é registrado e vinculado automaticamente." },
+    { "question": "Quais métodos de pagamento meus clientes podem usar?", "answer": "Os clientes podem pagar com cartões de crédito e débito, transferências bancárias e plataformas de pagamento móvel. O Invoicemonk se integra com gateways populares para opções flexíveis mundialmente." },
+    { "question": "Quanto tempo leva para receber pagamentos?", "answer": "Os tempos variam por método. Pagamentos com cartão são liquidados em 1-3 dias úteis, transferências em 1-5 dias, e pagamentos móveis são frequentemente instantâneos." },
+    { "question": "Os pagamentos de faturas online são seguros?", "answer": "Sim. Todos os pagamentos são processados por gateways compatíveis com PCI com criptografia bancária. Os dados financeiros dos seus clientes nunca são armazenados nos servidores do Invoicemonk." }
+  ]
+}

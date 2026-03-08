@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Accept Online Payments | Payment Processing | Invoicemonk",
+    "description": "Accept payments directly from invoices. Credit cards, bank transfers, and digital wallets with automatic reconciliation and low processing fees."
+  },
+  "hero": {
+    "badge": "Coming Soon",
+    "title": "Get paid faster with <accent>integrated payments</accent>",
+    "description": "Accept payments directly from invoices. Set up payment plans, process refunds, and reconcile everything automatically.",
+    "cta": "Join the Waitlist",
+    "secondary": "Start with Invoicing",
+    "mockup": {
+      "title": "Payment Received!",
+      "subtitle": "Invoice #1042 • Acme Corp",
+      "amountLabel": "Amount Paid",
+      "method": "Payment Method",
+      "methodValue": "Visa •••• 4242",
+      "fee": "Processing Fee",
+      "net": "Net Amount",
+      "floatingLabel": "Instant payout"
+    }
+  },
+  "banner": {
+    "title": "Accept payments your clients prefer",
+    "features": ["Accept all major cards", "Bank transfers & ACH", "Payment plans & installments", "Automatic reconciliation"]
+  },
+  "whyAdd": {
+    "title": "Why add payments to your <accent>invoices</accent>",
+    "subtitle": "Make it as easy as possible for your clients to pay you.",
+    "features": [
+      { "title": "Faster payments, better cash flow", "description": "Clients can pay instantly with a single click. No more waiting for checks or bank transfers." },
+      { "title": "Your customers want to pay online", "description": "Meet your clients where they are. Accept all major credit cards, bank transfers, and digital wallets." },
+      { "title": "Never lose track of payments", "description": "Every payment is automatically matched to its invoice. Complete visibility into your cash flow." }
+    ]
+  },
+  "tabs": {
+    "title": "Everything you need to accept payments",
+    "subtitle": "Flexible options for you and your clients.",
+    "items": [
+      { "label": "Payment Methods", "title": "Accept the way your clients want to pay", "description": "Credit cards, bank transfers, digital wallets — offer all the options your clients expect." },
+      { "label": "Security", "title": "Bank-level payment security", "description": "PCI-compliant processing, encrypted transactions, and fraud protection built in." },
+      { "label": "Reconciliation", "title": "Automatic payment matching", "description": "Payments are matched to invoices automatically. Your books stay accurate without any effort." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Since adding payment links to my invoices, I get paid on average 12 days faster. It's made a huge difference to my cash flow.",
+    "name": "Amaka Eze",
+    "title": "Creative Director",
+    "company": "Studio Amber"
+  },
+  "howItWorks": {
+    "title": "How accepting payments works",
+    "subtitle": "It's as simple as sending an invoice — we handle the rest.",
+    "steps": [
+      { "title": "Send your invoice", "description": "Create and send professional invoices with built-in payment links." },
+      { "title": "Client pays online", "description": "Your client clicks the payment link and pays securely with their preferred method." },
+      { "title": "Money arrives fast", "description": "Funds are deposited directly to your bank account, usually within 1-2 business days." }
+    ]
+  },
+  "pricing": {
+    "title": "Simple, transparent <accent>pricing</accent>",
+    "subtitle": "No monthly fees. No hidden charges. Just pay when you get paid.",
+    "sectionTitle": "Processing Fees",
+    "sectionSubtitle": "Coming soon — competitive rates for every business size.",
+    "cards": {
+      "label": "Credit & Debit Cards",
+      "cardTypes": "Visa, Mastercard, Amex",
+      "rate": "2.9%",
+      "rateNote": "+ fixed fee"
+    },
+    "bank": {
+      "label": "Bank Transfers",
+      "types": "ACH, Direct Debit",
+      "rate": "1%",
+      "rateNote": "capped at $5"
+    }
+  },
+  "blog": {
+    "title": "Getting paid faster",
+    "subtitle": "Tips and strategies to improve your cash flow."
+  },
+  "faq": {
+    "title": "Payments questions, answered",
+    "subtitle": "Everything you need to know about accepting payments.",
+    "items": [
+      { "question": "What payment methods can I accept?", "answer": "When our payments feature launches, you'll be able to accept all major credit cards (Visa, Mastercard, American Express), debit cards, bank transfers (ACH in the US), and popular digital wallets." },
+      { "question": "What are the processing fees?", "answer": "We offer competitive processing rates. Card payments are typically 2.9% + a small fixed fee. Bank transfers have even lower fees. Full pricing will be announced when the feature launches." },
+      { "question": "How quickly will I receive my money?", "answer": "Funds typically arrive in your bank account within 1-2 business days after your client pays. We're also working on instant payout options for premium plans." },
+      { "question": "Is the payment processing secure?", "answer": "Absolutely. All payments are processed through PCI-compliant payment infrastructure. Your clients' payment information is encrypted and never stored on our servers." },
+      { "question": "Can I set up payment plans for large invoices?", "answer": "Yes! You'll be able to offer your clients the option to pay in installments. You set the terms, and we handle the automatic collection of each payment." },
+      { "question": "How does automatic reconciliation work?", "answer": "When a client pays an invoice, the payment is automatically matched and recorded against that invoice. No manual data entry needed — your books stay up to date automatically." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "How do I accept online payments on invoices?", "answer": "With Invoicemonk, you can add a payment link directly to your invoices. Clients click the link to pay via credit card, bank transfer, or mobile payment. The payment is automatically recorded and matched to the invoice." },
+    { "question": "What payment methods can my clients use?", "answer": "Clients can pay using credit and debit cards, bank transfers, and mobile payment platforms. Invoicemonk integrates with popular payment gateways to offer flexible options for your clients worldwide." },
+    { "question": "How long does it take to receive payments?", "answer": "Processing times vary by method. Card payments typically settle in 1-3 business days, bank transfers in 1-5 business days, and mobile payments are often instant. Invoicemonk shows real-time payment status on every invoice." },
+    { "question": "Are online invoice payments secure?", "answer": "Yes. All payments are processed through PCI-compliant payment gateways with bank-level encryption. Your clients' financial data is never stored on Invoicemonk servers, ensuring maximum security." }
+  ]
+}
