@@ -9,12 +9,9 @@ import { ArrowRight } from 'lucide-react';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { useTranslation } from 'react-i18next';
 
-const aboutFAQs = [
-  { question: 'Who founded Invoicemonk?', answer: 'Invoicemonk was co-founded by Olayinka Olayokun (CEO) and Joan Omionawele (Communication President), with a mission to empower freelancers and small businesses worldwide.' },
-  { question: 'What is Invoicemonk\'s mission?', answer: 'Our mission is to champion freelancers and small businesses by providing simple, easy-to-use invoicing and financial management tools that help them thrive.' },
-  { question: 'Where is Invoicemonk available?', answer: 'Invoicemonk is available globally and serves businesses in over 50 countries. Our platform supports multiple currencies and regional compliance requirements.' },
-];
+const faqKeys = ['whoFounded', 'mission', 'availability'] as const;
 
 const teamMembers = [
   {
@@ -43,6 +40,12 @@ const teamMembers = [
 
 const About = () => {
   const seo = pageSEO['/about'];
+  const { t } = useTranslation('about');
+
+  const aboutFAQs = faqKeys.map(key => ({
+    question: t(`faqs.${key}.question`),
+    answer: t(`faqs.${key}.answer`),
+  }));
 
   return (
     <Layout>
@@ -55,13 +58,12 @@ const About = () => {
       <section className="py-20 lg:py-32 bg-gradient-to-b from-background to-accent/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="max-w-4xl mx-auto text-center">
-            <p className="text-primary font-medium mb-2">About Us</p>
+            <p className="text-primary font-medium mb-2">{t('hero.label')}</p>
             <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-6">
-              We are Invoicemonk in every sense of it.
+              {t('hero.title')}
             </h1>
             <p className="text-body-lg text-muted-foreground mb-6">
-              This is why we built straightforward tools that empower freelancers and small 
-              business owners to take full control of the way they work.
+              {t('hero.description')}
             </p>
           </AnimatedSection>
         </div>
@@ -73,32 +75,30 @@ const About = () => {
           <AnimatedSection className="max-w-3xl mx-auto">
             <div className="prose prose-lg max-w-none text-center">
               <p className="text-body-lg text-muted-foreground leading-relaxed">
-                A thing about us at Invoicemonk, we believe the freelancers and small businesses 
-                are the heart of our communities, and championing them is worth fighting for 
-                because it will lead to more new entrepreneurs, and more thriving small businesses.
+                {t('story.paragraph1')}
               </p>
               <p className="text-body-lg text-muted-foreground leading-relaxed mt-6">
-                How we intend to achieve that is by providing a{' '}
+                {t('story.paragraph2prefix')}{' '}
                 <Link to="/invoicing" className="text-primary hover:underline">
-                  simple & easy to use invoice application
+                  {t('story.invoiceLink')}
                 </Link>{' '}
-                and{' '}
+                {t('story.and')}{' '}
                 <Link to="/estimates" className="text-primary hover:underline">
-                  free estimate application
+                  {t('story.estimateLink')}
                 </Link>
                 ,{' '}
                 <Link to="/client-management" className="text-primary hover:underline">
-                  user friendly client management application
+                  {t('story.clientLink')}
                 </Link>
                 ,{' '}
                 <Link to="/payments" className="text-primary hover:underline">
-                  highly functional payment accepting application
+                  {t('story.paymentLink')}
                 </Link>{' '}
-                and a financial management solution they can't live without. We also have{' '}
+                {t('story.paragraph2suffix')}{' '}
                 <Link to="/blog" className="text-primary hover:underline">
-                  a blog to teach, educate and guide freelancers and small business owners
+                  {t('story.blogLink')}
                 </Link>{' '}
-                in their hustle.
+                {t('story.blogSuffix')}
               </p>
             </div>
           </AnimatedSection>
@@ -118,13 +118,12 @@ const About = () => {
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-12">
-            <p className="text-primary font-medium mb-2">Our Team</p>
+            <p className="text-primary font-medium mb-2">{t('team.label')}</p>
             <h2 className="text-heading-lg font-bold text-foreground mb-4">
-              Meet the Founders
+              {t('team.title')}
             </h2>
             <p className="text-body text-muted-foreground max-w-2xl mx-auto">
-              The passionate team behind Invoicemonk, dedicated to empowering freelancers 
-              and small businesses across the world.
+              {t('team.description')}
             </p>
           </AnimatedSection>
           
@@ -152,15 +151,14 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center">
             <h2 className="text-heading-lg font-bold text-foreground mb-4">
-              Open Roles
+              {t('openRoles.title')}
             </h2>
             <p className="text-body text-muted-foreground max-w-xl mx-auto mb-8">
-              Are you interested in joining our team? We're always looking for passionate 
-              individuals to help us build the future of business tools.
+              {t('openRoles.description')}
             </p>
             <Button asChild>
               <Link to="/contact">
-                Join Our Team <ArrowRight className="ml-2 w-4 h-4" />
+                {t('openRoles.cta')} <ArrowRight className="ml-2 w-4 h-4" />
               </Link>
             </Button>
           </AnimatedSection>
