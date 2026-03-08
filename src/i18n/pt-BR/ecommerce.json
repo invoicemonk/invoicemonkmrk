@@ -1,0 +1,111 @@
+{
+  "seo": {
+    "title": "Faturamento para vendedores de e-commerce | Invoicemonk",
+    "description": "Faturamento profissional para empresas de e-commerce. Faturamento B2B atacadista, faturamento multimoeda e cobrança de assinaturas para vendedores online."
+  },
+  "hero": {
+    "badge": "Para E-commerce",
+    "title": "Faturamento feito para vendedores de e-commerce",
+    "accentWord": "e-commerce",
+    "description": "Crie faturas profissionais para pedidos B2B, compradores atacadistas e produtos por assinatura. Gerencie cobrança multimoeda com facilidade.",
+    "primaryCta": "Começar Grátis",
+    "secondaryCta": "Ver Preços",
+    "trustBadge": "Confiado por vendedores online e empresas de e-commerce"
+  },
+  "benefits": {
+    "heading": "Feito para vendedores online",
+    "subheading": "Tudo o que você precisa para faturar clientes, gerenciar contas atacadistas e acompanhar suas finanças de e-commerce profissionalmente",
+    "items": [
+      { "title": "Faturamento por Pedido", "description": "Crie faturas detalhadas para pedidos individuais ou compras em atacado com itens discriminados, códigos de produto e preços por quantidade. Perfeito para transações B2B onde compradores precisam de documentação formal." },
+      { "title": "Cobrança Multimoeda", "description": "Venda globalmente e fature compradores na moeda local sem conversão manual. Cada fatura é formatada com o símbolo de moeda correto, estrutura tributária e detalhes de conformidade para aquele mercado." },
+      { "title": "Cobrança de Assinaturas", "description": "Automatize faturas recorrentes para caixas de assinatura, produtos de associação ou pedidos regulares. Defina o cronograma uma vez e o Invoicemonk cuida de cada ciclo de cobrança." },
+      { "title": "Conformidade Fiscal", "description": "Cálculos fiscais automáticos para diferentes regiões e países. Configure IVA, GST ou imposto sobre vendas por jurisdição e o Invoicemonk aplica as alíquotas corretas em cada fatura." }
+    ]
+  },
+  "useCases": {
+    "heading": "Como vendedores de e-commerce usam o Invoicemonk",
+    "subheading": "Seja vendendo no atacado, gerenciando assinaturas ou enviando internacionalmente — veja como o Invoicemonk se encaixa no seu negócio",
+    "items": [
+      { "title": "Pedidos Atacado & B2B", "description": "Receba um pedido de atacado, crie uma fatura detalhada com códigos de produto, quantidades e preços escalonados, e envie com suas condições de pagamento. Inclua referências de pedido de compra para processamento rápido." },
+      { "title": "Produtos por Assinatura", "description": "Configure faturas recorrentes para caixas de assinatura, produtos de associação ou pedidos regulares. O Invoicemonk gera e envia faturas automaticamente a cada ciclo." },
+      { "title": "Vendas Internacionais", "description": "Venda para compradores em diferentes países e fature cada um na moeda local. Um comprador europeu recebe uma fatura em EUR com IVA, um comprador americano em USD com imposto sobre vendas." }
+    ]
+  },
+  "challenges": {
+    "heading": "Desafios comuns do e-commerce — resolvidos",
+    "subheading": "Construímos o Invoicemonk em torno dos problemas reais de faturamento que vendedores online enfrentam",
+    "items": [
+      { "problem": "Compradores atacadistas precisam de faturas detalhadas e formais que correspondam aos seus pedidos de compra", "solution": "Crie faturas detalhadas com códigos de produto, descrições, quantidades e preços escalonados. Adicione referências de PC para que compradores associem faturas aos seus registros de compra." },
+      { "problem": "Envio manual de faturas recorrentes para assinantes todo mês", "solution": "Faturas recorrentes automatizadas são geradas e enviadas conforme o cronograma para cada assinante. Nenhum trabalho manual necessário." },
+      { "problem": "Conformidade fiscal em múltiplas jurisdições é complexa e propensa a erros", "solution": "Configure alíquotas por região uma vez. O Invoicemonk aplica automaticamente o IVA, GST ou imposto sobre vendas correto em cada fatura." },
+      { "problem": "Sem visibilidade das margens reais após contabilizar frete, taxas e devoluções", "solution": "Acompanhe todos os custos — produto, frete, embalagem, taxas de plataforma — por linha de produto ou canal de vendas." }
+    ]
+  },
+  "workflow": {
+    "heading": "Como funciona",
+    "subheading": "Da configuração de produtos à análise de receita — otimizado para operações de e-commerce",
+    "steps": [
+      { "title": "Configure seu catálogo de produtos", "description": "Adicione seus produtos com descrições, números SKU e preços padrão. Para clientes atacadistas, configure preços escalonados por quantidade. Salve como modelos para futuras faturas." },
+      { "title": "Crie perfis de clientes", "description": "Adicione cada comprador com endereço de cobrança, dados de contato, moeda preferida e condições de pagamento. Para assinantes, configure cronogramas de faturamento recorrente." },
+      { "title": "Fature e acompanhe", "description": "Gere faturas para pedidos individuais, compras em atacado ou assinaturas recorrentes. Cada fatura inclui itens discriminados com códigos de produto, quantidades, frete e impostos." },
+      { "title": "Analise e otimize", "description": "Revise relatórios de receita por cliente, linha de produto ou canal de vendas. Acompanhe despesas contra receita para entender as margens reais." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Por que vendedores de e-commerce escolhem o Invoicemonk em vez das alternativas",
+    "paragraphs": [
+      "A maioria das ferramentas de faturamento é feita para empresas de serviços — consultores, freelancers, agências. Vendedores de e-commerce têm necessidades fundamentalmente diferentes: itens baseados em produtos com SKUs e quantidades, preços escalonados para atacado, rastreamento de custos de frete e conformidade fiscal em múltiplas jurisdições. O Invoicemonk lida com tudo isso.",
+      "Diferente das plataformas de marketplace que só lidam com transações dentro do seu ecossistema, o Invoicemonk oferece faturamento profissional para vendas B2B, pedidos em atacado e produtos por assinatura em qualquer canal.",
+      "E diferente de sistemas ERP complexos que exigem semanas de configuração, o Invoicemonk é projetado para operadores de e-commerce que precisam agir rápido. Adicione seus produtos, crie perfis de clientes e comece a faturar em minutos."
+    ]
+  },
+  "checklist": {
+    "heading": "O que vendedores de e-commerce ganham com o Invoicemonk",
+    "items": [
+      "Faturas profissionais ilimitadas",
+      "Faturamento B2B atacadista",
+      "Suporte multimoeda",
+      "Cobrança de assinaturas",
+      "Lembretes de pagamento automáticos",
+      "Itens de frete & impostos",
+      "Gestão de clientes",
+      "Rastreamento de despesas",
+      "Relatórios de receita",
+      "Registros em conformidade fiscal"
+    ]
+  },
+  "testimonials": {
+    "heading": "Confiado por vendedores de e-commerce",
+    "items": [
+      { "quote": "Vendo produtos artesanais em várias plataformas. O Invoicemonk me ajuda a gerenciar o faturamento B2B atacadista profissionalmente. Meus compradores recebem faturas detalhadas com códigos de produto e quantidades.", "author": "Blessing I.", "role": "Vendedora de E-commerce" },
+      { "quote": "O recurso multimoeda é essencial para meu negócio de dropshipping. Clientes internacionais recebem faturas na sua moeda, o que elimina um enorme ponto de atrito.", "author": "Ola P.", "role": "Varejista Online" },
+      { "quote": "Gerenciar a cobrança de assinaturas manualmente era um pesadelo com mais de 200 assinantes. As faturas recorrentes do Invoicemonk cuidam de tudo automaticamente.", "author": "Adaeze K.", "role": "Fundadora de Caixa de Assinatura" }
+    ]
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "items": [
+      { "question": "Posso criar faturas em lote para pedidos de atacado?", "answer": "Sim. Crie faturas com múltiplos itens, preços por quantidade e descontos de atacado para pedidos B2B." },
+      { "question": "O Invoicemonk suporta multimoeda para e-commerce internacional?", "answer": "Com certeza. Fature compradores internacionais na moeda preferida com formatação automática." },
+      { "question": "Posso configurar faturas recorrentes para produtos por assinatura?", "answer": "Sim. Automatize cobrança recorrente para caixas de assinatura, associações ou pedidos regulares." },
+      { "question": "Como o Invoicemonk lida com frete e impostos nas faturas?", "answer": "Adicione frete como item separado. Configure alíquotas por região e o Invoicemonk calcula impostos automaticamente em cada fatura." },
+      { "question": "Existe um plano gratuito para pequenos vendedores de e-commerce?", "answer": "Sim! Comece grátis com 5 faturas e 5 recibos por mês. Faça upgrade conforme seu negócio cresce." },
+      { "question": "Posso adicionar descrições de produtos às faturas?", "answer": "Sim. Adicione descrições detalhadas, números SKU e especificações a cada item." },
+      { "question": "Como lidar com devoluções e notas de crédito?", "answer": "Crie notas de crédito vinculadas às faturas originais para devoluções, mercadorias danificadas ou correções de faturamento." },
+      { "question": "Posso rastrear despesas relacionadas ao meu negócio de e-commerce?", "answer": "Sim. Rastreie custos de produtos, despesas de frete, materiais de embalagem, taxas de plataforma e custos de marketing." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Leituras relacionadas",
+    "links": {
+      "recurringInvoices": "Guia de Faturas Recorrentes",
+      "internationalPayments": "Taxas de Pagamento Internacional",
+      "invoicingGuide": "Guia de Faturamento"
+    }
+  },
+  "cta": {
+    "heading": "Pronto para profissionalizar seu faturamento de e-commerce?",
+    "description": "Junte-se aos vendedores de e-commerce que confiam no Invoicemonk para faturamento atacadista, por assinatura e internacional.",
+    "button": "Começar Grátis"
+  }
+}

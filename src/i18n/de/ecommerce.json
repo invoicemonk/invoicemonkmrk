@@ -1,0 +1,111 @@
+{
+  "seo": {
+    "title": "Rechnungssoftware für E-Commerce-Händler | Invoicemonk",
+    "description": "Professionelle Rechnungsstellung für E-Commerce-Unternehmen. B2B-Großhandelsabrechnung, Mehrwährungs-Rechnungen und Abo-Abrechnung für Online-Händler."
+  },
+  "hero": {
+    "badge": "Für E-Commerce",
+    "title": "Rechnungsstellung für E-Commerce-Händler",
+    "accentWord": "E-Commerce",
+    "description": "Erstellen Sie professionelle Rechnungen für B2B-Bestellungen, Großhandelskunden und Abo-Produkte. Verwalten Sie Mehrwährungsabrechnung mühelos.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen",
+    "trustBadge": "Vertraut von Online-Händlern und E-Commerce-Unternehmen"
+  },
+  "benefits": {
+    "heading": "Für Online-Händler entwickelt",
+    "subheading": "Alles, was Sie brauchen, um Kunden zu fakturieren, Großhandelskonten zu verwalten und Ihre E-Commerce-Finanzen professionell zu verfolgen",
+    "items": [
+      { "title": "Auftragsbasierte Rechnungsstellung", "description": "Erstellen Sie detaillierte Rechnungen für Einzelbestellungen oder Großeinkäufe mit aufgeschlüsselten Positionen, Produktcodes und Mengenpreisen. Perfekt für B2B-Transaktionen, bei denen Käufer formelle Dokumentation für ihre Beschaffungsunterlagen benötigen." },
+      { "title": "Mehrwährungs-Abrechnung", "description": "Verkaufen Sie weltweit und fakturieren Sie Käufer in ihrer Landeswährung ohne manuelle Umrechnung. Jede Rechnung wird mit dem korrekten Währungssymbol, der Steuerstruktur und den Compliance-Details für diesen Markt formatiert." },
+      { "title": "Abo-Abrechnung", "description": "Automatisieren Sie wiederkehrende Rechnungen für Abo-Boxen, Mitgliedschaftsprodukte oder regelmäßige Bestellungen. Legen Sie den Zeitplan einmal fest und Invoicemonk erledigt jeden Abrechnungszyklus — damit Ihre Abonnenten pünktlich professionelle Rechnungen erhalten." },
+      { "title": "Steuer-Compliance", "description": "Automatische Steuerberechnungen für verschiedene Regionen und Länder. Konfigurieren Sie USt., GST oder Verkaufssteuer pro Rechtsgebiet und Invoicemonk wendet die korrekten Sätze auf jede Rechnung an." }
+    ]
+  },
+  "useCases": {
+    "heading": "Wie E-Commerce-Händler Invoicemonk nutzen",
+    "subheading": "Ob Großhandel, Abonnements oder internationaler Versand — so passt Invoicemonk zu Ihrem Geschäft",
+    "items": [
+      { "title": "Großhandel & B2B-Bestellungen", "description": "Empfangen Sie eine Großhandelsbestellung, erstellen Sie eine aufgeschlüsselte Rechnung mit Produktcodes, Mengen und Staffelpreisen und versenden Sie diese mit Ihren Zahlungsbedingungen. Fügen Sie PO-Referenzen hinzu, damit das Beschaffungsteam die Zahlung schnell bearbeiten kann." },
+      { "title": "Abo-Produkte", "description": "Richten Sie wiederkehrende Rechnungen für Abo-Boxen, Mitgliedschaftsprodukte oder regelmäßige Bestellungen ein. Invoicemonk erstellt und versendet Rechnungen automatisch in jedem Zyklus. Bei Upgrades, Downgrades oder Kündigungen passen Sie den Zeitplan in Sekunden an." },
+      { "title": "Grenzüberschreitende Verkäufe", "description": "Verkaufen Sie an Käufer in verschiedenen Ländern und fakturieren Sie jeden in seiner Landeswährung. Ein europäischer Käufer erhält eine Rechnung in EUR mit USt., ein US-Käufer in USD mit Verkaufssteuer und ein nigerianischer Käufer in NGN." }
+    ]
+  },
+  "challenges": {
+    "heading": "Häufige E-Commerce-Herausforderungen — gelöst",
+    "subheading": "Wir haben Invoicemonk um die echten Abrechnungsprobleme von Online-Händlern herum entwickelt",
+    "items": [
+      { "problem": "Großhandelskunden benötigen detaillierte, formelle Rechnungen, die zu ihren Bestellungen passen", "solution": "Erstellen Sie aufgeschlüsselte Rechnungen mit Produktcodes, Beschreibungen, Mengen und Staffelpreisen. Fügen Sie PO-Referenzen hinzu, damit Käufer Rechnungen sofort ihren Beschaffungsunterlagen zuordnen können." },
+      { "problem": "Monatliches manuelles Versenden wiederkehrender Rechnungen an Abo-Kunden", "solution": "Automatisierte wiederkehrende Rechnungen werden planmäßig für jeden Abonnenten erstellt und versendet. Keine manuelle Arbeit erforderlich — legen Sie einfach Betrag und Häufigkeit fest." },
+      { "problem": "Steuer-Compliance über mehrere Rechtsgebiete hinweg ist komplex und fehleranfällig", "solution": "Konfigurieren Sie Steuersätze pro Region einmalig. Invoicemonk wendet die korrekte USt., GST oder Verkaufssteuer automatisch auf jede Rechnung an." },
+      { "problem": "Keine Transparenz über echte Margen nach Berücksichtigung von Versand, Gebühren und Retouren", "solution": "Verfolgen Sie alle Kosten — Produkt, Versand, Verpackung, Plattformgebühren — pro Produktlinie oder Vertriebskanal. Verstehen Sie Ihre tatsächlichen Margen." }
+    ]
+  },
+  "workflow": {
+    "heading": "So funktioniert es",
+    "subheading": "Von der Produkteinrichtung bis zur Umsatzanalyse — optimiert für E-Commerce-Abläufe",
+    "steps": [
+      { "title": "Produktkatalog einrichten", "description": "Fügen Sie Ihre Produkte mit Beschreibungen, SKU-Nummern und Standardpreisen hinzu. Für Großhandelskunden konfigurieren Sie Staffelpreise nach Menge. Speichern Sie diese als Vorlagen für zukünftige Rechnungen." },
+      { "title": "Kundenprofile erstellen", "description": "Fügen Sie jeden Käufer mit Rechnungsadresse, Kontaktdaten, bevorzugter Währung und Zahlungsbedingungen hinzu. Für Abo-Kunden richten Sie wiederkehrende Rechnungspläne ein." },
+      { "title": "Fakturieren und verfolgen", "description": "Erstellen Sie Rechnungen für Einzelbestellungen, Großeinkäufe oder wiederkehrende Abonnements. Jede Rechnung enthält aufgeschlüsselte Positionen mit Produktcodes, Mengen, Versand und Steuern — alles automatisch berechnet." },
+      { "title": "Analysieren und optimieren", "description": "Überprüfen Sie Umsatzberichte nach Kunde, Produktlinie oder Vertriebskanal. Verfolgen Sie Ausgaben gegen Einnahmen, um echte Margen zu verstehen." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Warum E-Commerce-Händler Invoicemonk den Alternativen vorziehen",
+    "paragraphs": [
+      "Die meisten Rechnungstools sind für Dienstleistungsunternehmen konzipiert — Berater, Freiberufler, Agenturen. E-Commerce-Händler haben grundlegend andere Bedürfnisse: produktbasierte Positionen mit SKUs und Mengen, Staffelpreise für den Großhandel, Versandkostenverfolgung und Steuer-Compliance über mehrere Rechtsgebiete. Invoicemonk bewältigt all dies.",
+      "Im Gegensatz zu Marktplatz-Plattformen, die nur Transaktionen innerhalb ihres Ökosystems abwickeln, bietet Invoicemonk professionelle Rechnungsstellung für B2B-Verkäufe, Großhandelsbestellungen und Abo-Produkte über jeden Kanal hinweg.",
+      "Und im Gegensatz zu komplexen ERP-Systemen, die Wochen der Einrichtung erfordern, ist Invoicemonk für E-Commerce-Betreiber konzipiert, die schnell handeln müssen. Fügen Sie Ihre Produkte hinzu, erstellen Sie Kundenprofile und beginnen Sie in Minuten mit der Rechnungsstellung."
+    ]
+  },
+  "checklist": {
+    "heading": "Was E-Commerce-Händler mit Invoicemonk erhalten",
+    "items": [
+      "Unbegrenzte professionelle Rechnungen",
+      "B2B-Großhandelsabrechnung",
+      "Mehrwährungsunterstützung",
+      "Abo-Abrechnung",
+      "Automatische Zahlungserinnerungen",
+      "Versand- & Steuerpositionen",
+      "Kundenverwaltung",
+      "Ausgabenverfolgung",
+      "Umsatzberichte",
+      "Steuerkonforme Unterlagen"
+    ]
+  },
+  "testimonials": {
+    "heading": "Vertraut von E-Commerce-Händlern",
+    "items": [
+      { "quote": "Ich verkaufe handgefertigte Produkte auf mehreren Plattformen. Invoicemonk hilft mir, B2B-Großhandelsrechnungen professionell zu verwalten. Meine Käufer erhalten aufgeschlüsselte Rechnungen mit Produktcodes und Mengen.", "author": "Blessing I.", "role": "E-Commerce-Händlerin" },
+      { "quote": "Die Mehrwährungsfunktion ist für mein Dropshipping-Geschäft unverzichtbar. Internationale Kunden erhalten Rechnungen in ihrer Währung, was einen enormen Reibungspunkt beseitigt.", "author": "Ola P.", "role": "Online-Händler" },
+      { "quote": "Die manuelle Verwaltung der Abo-Abrechnung war bei über 200 Abonnenten ein Albtraum. Die wiederkehrenden Rechnungen von Invoicemonk erledigen alles automatisch.", "author": "Adaeze K.", "role": "Abo-Box-Gründerin" }
+    ]
+  },
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Kann ich Sammelrechnungen für Großhandelsbestellungen erstellen?", "answer": "Ja. Erstellen Sie Rechnungen mit mehreren Positionen, Mengenpreisen und Großhandelsrabatten für B2B-Bestellungen." },
+      { "question": "Unterstützt Invoicemonk mehrere Währungen für internationalen E-Commerce?", "answer": "Absolut. Fakturieren Sie internationale Käufer in ihrer bevorzugten Währung mit automatischer Formatierung." },
+      { "question": "Kann ich wiederkehrende Rechnungen für Abo-Produkte einrichten?", "answer": "Ja. Automatisieren Sie wiederkehrende Abrechnung für Abo-Boxen, Mitgliedschaften oder regelmäßige Bestellungen." },
+      { "question": "Wie behandelt Invoicemonk Versand und Steuern auf Rechnungen?", "answer": "Fügen Sie Versand als separate Position hinzu. Konfigurieren Sie Steuersätze pro Region und Invoicemonk berechnet Steuern automatisch auf jeder Rechnung." },
+      { "question": "Gibt es einen kostenlosen Plan für kleine E-Commerce-Händler?", "answer": "Ja! Starten Sie kostenlos mit 5 Rechnungen und 5 Quittungen pro Monat. Upgraden Sie, wenn Ihr Geschäft wächst." },
+      { "question": "Kann ich Produktbeschreibungen zu Rechnungen hinzufügen?", "answer": "Ja. Fügen Sie detaillierte Produktbeschreibungen, SKU-Nummern und Spezifikationen zu jeder Position hinzu." },
+      { "question": "Wie gehe ich mit Retouren und Gutschriften um?", "answer": "Erstellen Sie Gutschriften, die mit Originalrechnungen verknüpft sind, für Retouren, beschädigte Waren oder Abrechnungskorrekturen." },
+      { "question": "Kann ich Ausgaben für mein E-Commerce-Geschäft verfolgen?", "answer": "Ja. Verfolgen Sie Produktkosten, Versandkosten, Verpackungsmaterialien, Plattformgebühren und Marketingkosten." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Weiterführende Lektüre",
+    "links": {
+      "recurringInvoices": "Leitfaden für wiederkehrende Rechnungen",
+      "internationalPayments": "Internationale Zahlungsgebühren",
+      "invoicingGuide": "Rechnungsstellungs-Leitfaden"
+    }
+  },
+  "cta": {
+    "heading": "Bereit, Ihre E-Commerce-Abrechnung zu professionalisieren?",
+    "description": "Schließen Sie sich E-Commerce-Händlern an, die Invoicemonk für Großhandels-, Abo- und internationale Rechnungsstellung vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

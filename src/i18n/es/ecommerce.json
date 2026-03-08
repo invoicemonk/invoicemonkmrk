@@ -1,0 +1,111 @@
+{
+  "seo": {
+    "title": "Facturación para vendedores de e-commerce | Invoicemonk",
+    "description": "Facturación profesional para negocios de e-commerce. Facturación B2B mayorista, facturación multidivisa y cobro de suscripciones para vendedores online."
+  },
+  "hero": {
+    "badge": "Para E-commerce",
+    "title": "Facturación diseñada para vendedores de e-commerce",
+    "accentWord": "e-commerce",
+    "description": "Cree facturas profesionales para pedidos B2B, compradores mayoristas y productos por suscripción. Gestione la facturación multidivisa con facilidad.",
+    "primaryCta": "Empezar Gratis",
+    "secondaryCta": "Ver Precios",
+    "trustBadge": "Confiado por vendedores online y empresas de e-commerce"
+  },
+  "benefits": {
+    "heading": "Diseñado para vendedores online",
+    "subheading": "Todo lo que necesita para facturar clientes, gestionar cuentas mayoristas y controlar sus finanzas de e-commerce profesionalmente",
+    "items": [
+      { "title": "Facturación por Pedido", "description": "Cree facturas detalladas para pedidos individuales o compras mayoristas con líneas desglosadas, códigos de producto y precios por cantidad. Perfecto para transacciones B2B donde los compradores necesitan documentación formal." },
+      { "title": "Facturación Multidivisa", "description": "Venda globalmente y facture a compradores en su moneda local sin conversión manual. Cada factura se formatea con el símbolo de moneda correcto, la estructura fiscal y los detalles de cumplimiento para ese mercado." },
+      { "title": "Cobro de Suscripciones", "description": "Automatice facturas recurrentes para cajas de suscripción, productos de membresía o pedidos regulares. Configure el calendario una vez e Invoicemonk gestiona cada ciclo de facturación." },
+      { "title": "Cumplimiento Fiscal", "description": "Cálculos fiscales automáticos para diferentes regiones y países. Configure IVA, GST o impuesto sobre ventas por jurisdicción e Invoicemonk aplica las tasas correctas en cada factura." }
+    ]
+  },
+  "useCases": {
+    "heading": "Cómo los vendedores de e-commerce usan Invoicemonk",
+    "subheading": "Ya sea que venda al por mayor, gestione suscripciones o envíe internacionalmente — así es como Invoicemonk se adapta a su negocio",
+    "items": [
+      { "title": "Pedidos Mayoristas y B2B", "description": "Reciba un pedido mayorista, cree una factura desglosada con códigos de producto, cantidades y precios escalonados, y envíela con sus condiciones de pago. Incluya referencias de orden de compra para un procesamiento rápido." },
+      { "title": "Productos por Suscripción", "description": "Configure facturas recurrentes para cajas de suscripción, productos de membresía o pedidos regulares. Invoicemonk genera y envía facturas automáticamente en cada ciclo." },
+      { "title": "Ventas Transfronterizas", "description": "Venda a compradores en diferentes países y facture a cada uno en su moneda local. Un comprador europeo recibe una factura en EUR con IVA, un comprador estadounidense en USD con impuesto sobre ventas." }
+    ]
+  },
+  "challenges": {
+    "heading": "Desafíos comunes del e-commerce — resueltos",
+    "subheading": "Construimos Invoicemonk en torno a los problemas reales de facturación que enfrentan los vendedores online",
+    "items": [
+      { "problem": "Los compradores mayoristas necesitan facturas detalladas y formales que coincidan con sus órdenes de compra", "solution": "Cree facturas desglosadas con códigos de producto, descripciones, cantidades y precios escalonados. Añada referencias de OC para que los compradores asocien facturas a sus registros de adquisición." },
+      { "problem": "Envío manual de facturas recurrentes a suscriptores cada mes", "solution": "Las facturas recurrentes automatizadas se generan y envían según el calendario para cada suscriptor. No se requiere trabajo manual." },
+      { "problem": "El cumplimiento fiscal en múltiples jurisdicciones es complejo y propenso a errores", "solution": "Configure tasas impositivas por región una vez. Invoicemonk aplica automáticamente el IVA, GST o impuesto sobre ventas correcto en cada factura." },
+      { "problem": "Sin visibilidad de los márgenes reales después de contabilizar envío, comisiones y devoluciones", "solution": "Rastree todos los costos — producto, envío, embalaje, comisiones de plataforma — por línea de producto o canal de ventas." }
+    ]
+  },
+  "workflow": {
+    "heading": "Cómo funciona",
+    "subheading": "Desde la configuración de productos hasta el análisis de ingresos — optimizado para operaciones de e-commerce",
+    "steps": [
+      { "title": "Configure su catálogo de productos", "description": "Añada sus productos con descripciones, números SKU y precios estándar. Para clientes mayoristas, configure precios escalonados por cantidad. Guárdelos como plantillas para futuras facturas." },
+      { "title": "Cree perfiles de clientes", "description": "Añada cada comprador con dirección de facturación, datos de contacto, moneda preferida y condiciones de pago. Para suscriptores, configure calendarios de facturación recurrente." },
+      { "title": "Facture y controle", "description": "Genere facturas para pedidos individuales, compras mayoristas o suscripciones recurrentes. Cada factura incluye líneas desglosadas con códigos de producto, cantidades, envío e impuestos." },
+      { "title": "Analice y optimice", "description": "Revise informes de ingresos por cliente, línea de producto o canal de ventas. Controle gastos contra ingresos para entender los márgenes reales." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Por qué los vendedores de e-commerce eligen Invoicemonk sobre las alternativas",
+    "paragraphs": [
+      "La mayoría de las herramientas de facturación están diseñadas para empresas de servicios — consultores, freelancers, agencias. Los vendedores de e-commerce tienen necesidades fundamentalmente diferentes: líneas basadas en productos con SKU y cantidades, precios escalonados para mayoristas, seguimiento de costos de envío y cumplimiento fiscal en múltiples jurisdicciones. Invoicemonk maneja todo esto.",
+      "A diferencia de las plataformas de marketplace que solo manejan transacciones dentro de su ecosistema, Invoicemonk le ofrece facturación profesional para ventas B2B, pedidos mayoristas y productos por suscripción en cualquier canal.",
+      "Y a diferencia de los sistemas ERP complejos que requieren semanas de configuración, Invoicemonk está diseñado para operadores de e-commerce que necesitan moverse rápido. Añada sus productos, cree perfiles de clientes y comience a facturar en minutos."
+    ]
+  },
+  "checklist": {
+    "heading": "Lo que los vendedores de e-commerce obtienen con Invoicemonk",
+    "items": [
+      "Facturas profesionales ilimitadas",
+      "Facturación B2B mayorista",
+      "Soporte multidivisa",
+      "Cobro de suscripciones",
+      "Recordatorios de pago automáticos",
+      "Líneas de envío e impuestos",
+      "Gestión de clientes",
+      "Seguimiento de gastos",
+      "Informes de ingresos",
+      "Registros fiscalmente conformes"
+    ]
+  },
+  "testimonials": {
+    "heading": "Confiado por vendedores de e-commerce",
+    "items": [
+      { "quote": "Vendo productos artesanales en múltiples plataformas. Invoicemonk me ayuda a gestionar la facturación B2B mayorista profesionalmente. Mis compradores reciben facturas desglosadas con códigos de producto y cantidades.", "author": "Blessing I.", "role": "Vendedora de E-commerce" },
+      { "quote": "La función multidivisa es esencial para mi negocio de dropshipping. Los clientes internacionales reciben facturas en su moneda, lo que elimina un enorme punto de fricción.", "author": "Ola P.", "role": "Minorista Online" },
+      { "quote": "Gestionar el cobro de suscripciones manualmente era una pesadilla con más de 200 suscriptores. Las facturas recurrentes de Invoicemonk manejan todo automáticamente.", "author": "Adaeze K.", "role": "Fundadora de Caja de Suscripción" }
+    ]
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "items": [
+      { "question": "¿Puedo crear facturas masivas para pedidos mayoristas?", "answer": "Sí. Cree facturas con múltiples líneas, precios por cantidad y descuentos mayoristas para pedidos B2B." },
+      { "question": "¿Invoicemonk soporta multidivisa para e-commerce internacional?", "answer": "Por supuesto. Facture a compradores internacionales en su moneda preferida con formato automático." },
+      { "question": "¿Puedo configurar facturas recurrentes para productos por suscripción?", "answer": "Sí. Automatice la facturación recurrente para cajas de suscripción, membresías o pedidos regulares." },
+      { "question": "¿Cómo maneja Invoicemonk el envío y los impuestos en las facturas?", "answer": "Añada el envío como línea separada. Configure tasas impositivas por región e Invoicemonk calcula impuestos automáticamente en cada factura." },
+      { "question": "¿Existe un plan gratuito para pequeños vendedores de e-commerce?", "answer": "¡Sí! Empiece gratis con 5 facturas y 5 recibos al mes. Actualice a medida que su negocio crezca." },
+      { "question": "¿Puedo añadir descripciones de productos a las facturas?", "answer": "Sí. Añada descripciones detalladas, números SKU y especificaciones a cada línea." },
+      { "question": "¿Cómo gestiono devoluciones y notas de crédito?", "answer": "Cree notas de crédito vinculadas a facturas originales para devoluciones, mercancías dañadas o correcciones de facturación." },
+      { "question": "¿Puedo rastrear gastos de mi negocio de e-commerce?", "answer": "Sí. Rastree costos de productos, gastos de envío, materiales de embalaje, comisiones de plataforma y costos de marketing." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Lecturas relacionadas",
+    "links": {
+      "recurringInvoices": "Guía de Facturas Recurrentes",
+      "internationalPayments": "Comisiones de Pago Internacional",
+      "invoicingGuide": "Guía de Facturación"
+    }
+  },
+  "cta": {
+    "heading": "¿Listo para profesionalizar su facturación de e-commerce?",
+    "description": "Únase a los vendedores de e-commerce que confían en Invoicemonk para facturación mayorista, por suscripción e internacional.",
+    "button": "Empezar Gratis"
+  }
+}
