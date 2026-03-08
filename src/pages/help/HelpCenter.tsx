@@ -1,14 +1,27 @@
 import { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { HelpSearch } from '@/components/help/HelpSearch';
 import { HelpCategoryCard } from '@/components/help/HelpCategoryCard';
-import { helpGuides, categoryLabels, categoryOrder } from '@/data/helpGuides';
+import { categoryOrder } from '@/data/helpGuides';
+import { getTranslatedHelpGuides, getLangPrefix } from '@/utils/i18nData';
 import { BookOpen } from 'lucide-react';
 
 export default function HelpCenter() {
   const [query, setQuery] = useState('');
+  const { t, i18n } = useTranslation('help');
+  const lang = getLangPrefix(i18n.language);
+  const helpGuides = getTranslatedHelpGuides(lang);
+
+  // Translated category labels
+  const categoryLabels: Record<string, string> = {
+    'getting-started': t('categories.getting-started'),
+    'core-features': t('categories.core-features'),
+    'financial-tools': t('categories.financial-tools'),
+    'administration': t('categories.administration'),
+  };
 
   const filtered = useMemo(() => {
     if (!query.trim()) return helpGuides;
@@ -19,7 +32,7 @@ export default function HelpCenter() {
         g.description.toLowerCase().includes(q) ||
         g.steps.some(s => s.name.toLowerCase().includes(q) || s.text.toLowerCase().includes(q))
     );
-  }, [query]);
+  }, [query, helpGuides]);
 
   const grouped = categoryOrder
     .map(cat => ({
@@ -32,13 +45,13 @@ export default function HelpCenter() {
   return (
     <Layout>
       <SEOHead
-        title="Help Center — Invoicemonk Product Guides"
-        description="Step-by-step guides for every Invoicemonk feature. Learn how to create invoices, record payments, track expenses, manage your team, and more."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: 'https://invoicemonk.com/' },
-          { name: 'Help Center', url: 'https://invoicemonk.com/help' },
+          { name: t('breadcrumbHome'), url: 'https://invoicemonk.com/' },
+          { name: t('title'), url: 'https://invoicemonk.com/help' },
         ]}
       />
 
@@ -46,13 +59,13 @@ export default function HelpCenter() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-body-sm font-medium mb-6">
             <BookOpen className="w-4 h-4" />
-            Product Documentation
+            {t('badge')}
           </div>
           <h1 className="text-display-sm sm:text-display font-bold text-heading mb-4">
-            Help Center
+            {t('title')}
           </h1>
           <p className="text-body-lg text-muted-foreground max-w-2xl mx-auto mb-10">
-            Step-by-step guides for every Invoicemonk feature. Find what you need and get back to work.
+            {t('subtitle')}
           </p>
           <HelpSearch onSearch={setQuery} />
         </div>
@@ -62,7 +75,7 @@ export default function HelpCenter() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {grouped.length === 0 ? (
             <p className="text-center text-muted-foreground text-body-lg py-12">
-              No guides found matching "{query}". Try a different search term.
+              {t('noResults', { query })}
             </p>
           ) : (
             grouped.map(group => (

@@ -1,10 +1,11 @@
 import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { blogPosts, getBlogCategories, getPostsForPillar } from '@/data/blogPosts';
-import { pillars, pillarClusters } from '@/data/topicalMap';
+import { getBlogCategories, getPostsForPillar } from '@/data/blogPosts';
+import { pillarClusters } from '@/data/topicalMap';
 import { 
   getPostIntent, 
   type ContentIntent, 
@@ -22,12 +23,15 @@ import { useLocale } from '@/hooks/useLocale';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { Grid3X3, List, Sparkles, Filter } from 'lucide-react';
+import { getTranslatedBlogPosts, getTranslatedPillars, getLangPrefix } from '@/utils/i18nData';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;
 
 const Blog = () => {
   const { locale } = useLocale();
+  const { t, i18n } = useTranslation('blog');
+  const lang = getLangPrefix(i18n.language);
   const seo = pageSEO['/blog'];
   const [searchParams, setSearchParams] = useSearchParams();
   
@@ -43,6 +47,8 @@ const Blog = () => {
   const [selectedExperience, setSelectedExperience] = useState<ExperienceLevel | null>(null);
   const [showFilters, setShowFilters] = useState(false);
   
+  const blogPosts = getTranslatedBlogPosts(lang);
+  const pillars = getTranslatedPillars(lang);
   const categories = getBlogCategories();
 
   // Calculate post counts for each pillar
@@ -93,7 +99,7 @@ const Blog = () => {
     }
     
     return posts;
-  }, [selectedPillar, selectedCategory, searchQuery, selectedIntent, selectedStage, selectedExperience]);
+  }, [selectedPillar, selectedCategory, searchQuery, selectedIntent, selectedStage, selectedExperience, blogPosts]);
 
   const selectedPillarData = selectedPillar 
     ? pillars.find(p => p.id === selectedPillar) 
@@ -160,21 +166,20 @@ const Blog = () => {
           <AnimatedSection className="text-center max-w-2xl mx-auto mb-8">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
               <Sparkles className="h-4 w-4" />
-              <span>Insights & Guides</span>
+              <span>{t('badge')}</span>
             </div>
             <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-4">
-              The Invoicemonk Blog
+              {t('title')}
             </h1>
             <p className="text-body-lg text-muted-foreground">
-              Master invoicing, accounting, and business finance with expert guides 
-              organized by topic to help you grow.
+              {t('subtitle')}
             </p>
           </AnimatedSection>
 
           {/* Search Box */}
           <AnimatedSection className="max-w-xl mx-auto mb-8">
             <ContentSearchBox 
-              placeholder="Search for guides, tips, or questions..."
+              placeholder={t('searchPlaceholder')}
             />
           </AnimatedSection>
 
@@ -185,11 +190,11 @@ const Blog = () => {
                 <TabsList className="h-11">
                   <TabsTrigger value="topics" className="gap-2 px-4">
                     <Grid3X3 className="h-4 w-4" />
-                    Browse Topics
+                    {t('browseTopics')}
                   </TabsTrigger>
                   <TabsTrigger value="all" className="gap-2 px-4">
                     <List className="h-4 w-4" />
-                    All Articles
+                    {t('allArticles')}
                   </TabsTrigger>
                 </TabsList>
               </Tabs>
@@ -202,7 +207,7 @@ const Blog = () => {
                   className="gap-2"
                 >
                   <Filter className="h-4 w-4" />
-                  Smart Filters
+                  {t('smartFilters')}
                   {hasIntentFilters && (
                     <span className="bg-primary-foreground text-primary rounded-full w-5 h-5 text-xs flex items-center justify-center">
                       {[selectedIntent, selectedStage, selectedExperience].filter(Boolean).length}
@@ -233,14 +238,14 @@ const Blog = () => {
             <AnimatedSection className="mb-8">
               <div className="flex items-center justify-between p-4 rounded-xl border border-border bg-muted/50">
                 <div>
-                  <p className="text-sm text-muted-foreground">Search results for</p>
+                  <p className="text-sm text-muted-foreground">{t('searchResultsFor')}</p>
                   <h2 className="text-xl font-semibold text-foreground">"{searchQuery}"</h2>
                   <p className="text-sm text-muted-foreground mt-1">
                     {filteredPosts.length} {filteredPosts.length === 1 ? 'article' : 'articles'} found
                   </p>
                 </div>
                 <Button variant="outline" onClick={handlePillarClear}>
-                  Clear Search
+                  {t('clearSearch')}
                 </Button>
               </div>
             </AnimatedSection>
@@ -257,7 +262,7 @@ const Blog = () => {
                 }}
               >
                 <div>
-                  <p className="text-sm text-muted-foreground">Viewing topic</p>
+                  <p className="text-sm text-muted-foreground">{t('viewingTopic')}</p>
                   <h2 
                     className="text-xl font-semibold"
                     style={{ color: selectedPillarData.color }}
@@ -269,7 +274,7 @@ const Blog = () => {
                   </p>
                 </div>
                 <Button variant="outline" onClick={handlePillarClear}>
-                  View All Topics
+                  {t('viewAllTopics')}
                 </Button>
               </div>
             </AnimatedSection>
@@ -297,7 +302,7 @@ const Blog = () => {
                 size="sm"
                 onClick={() => handleCategoryFilter(null)}
               >
-                All
+                {t('all')}
               </Button>
               {categories.map((category) => (
                 <Button
@@ -361,10 +366,10 @@ const Blog = () => {
                 <AnimatedSection className="text-center py-12">
                   <p className="text-muted-foreground">
                     {searchQuery 
-                      ? `No articles found for "${searchQuery}"`
+                      ? t('noArticlesSearch', { query: searchQuery })
                       : hasIntentFilters 
-                        ? 'No articles match your filters'
-                        : 'No posts found in this topic.'
+                        ? t('noArticlesFilter')
+                        : t('noArticlesTopic')
                     }
                   </p>
                   <Button 
@@ -372,7 +377,7 @@ const Blog = () => {
                     onClick={handlePillarClear}
                     className="mt-2"
                   >
-                    View all topics
+                    {t('viewAllTopicsLink')}
                   </Button>
                 </AnimatedSection>
               )}
@@ -383,7 +388,7 @@ const Blog = () => {
           {viewMode === 'topics' && !selectedPillar && !searchQuery && (
             <AnimatedSection className="mt-16">
               <h2 className="text-h3 font-bold text-foreground mb-8 text-center">
-                Recent Articles
+                {t('recentArticles')}
               </h2>
               <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {blogPosts.slice(0, 6).map((post) => (

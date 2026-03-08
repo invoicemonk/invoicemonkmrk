@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
+import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { PersonSchema } from '@/components/seo/PersonSchema';
@@ -8,14 +9,16 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Linkedin, Twitter, Instagram, Facebook, Youtube } from 'lucide-react';
-import { getAuthorBySlug } from '@/data/authors';
-import { blogPosts } from '@/data/blogPosts';
+import { getAuthorBySlugTranslated, getTranslatedBlogPosts, getLangPrefix } from '@/utils/i18nData';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import NotFound from './NotFound';
 
 const AuthorPage = () => {
   const { authorSlug } = useParams<{ authorSlug: string }>();
-  const author = authorSlug ? getAuthorBySlug(authorSlug) : undefined;
+  const { t, i18n } = useTranslation('blog');
+  const lang = getLangPrefix(i18n.language);
+  const author = authorSlug ? getAuthorBySlugTranslated(authorSlug, lang) : undefined;
+  const blogPosts = getTranslatedBlogPosts(lang);
 
   if (!author) {
     return <NotFound />;
@@ -54,7 +57,7 @@ const AuthorPage = () => {
             <Button variant="ghost" asChild className="gap-2">
               <Link to="/blog">
                 <ArrowLeft className="h-4 w-4" />
-                Back to Blog
+                {t('backToBlog')}
               </Link>
             </Button>
           </div>
@@ -164,7 +167,7 @@ const AuthorPage = () => {
           {/* Author's Articles */}
           <div className="max-w-5xl mx-auto">
             <h2 className="text-heading-md font-bold text-foreground mb-8">
-              Articles by {author.name.split(' ')[0]} ({authorPosts.length})
+              {t('articlesByAuthor', { name: author.name.split(' ')[0], count: authorPosts.length })}
             </h2>
             
             {authorPosts.length > 0 ? (
@@ -175,7 +178,7 @@ const AuthorPage = () => {
               </div>
             ) : (
               <p className="text-muted-foreground text-center py-12">
-                No articles published yet.
+                {t('noArticlesYet')}
               </p>
             )}
           </div>
