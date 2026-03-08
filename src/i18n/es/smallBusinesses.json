@@ -1,0 +1,113 @@
+{
+  "seo": {
+    "title": "Facturación para pequeñas empresas | Invoicemonk",
+    "description": "Solución completa de facturación y contabilidad para pequeñas empresas. Colaboración de equipo, seguimiento de gastos y cumplimiento integrado."
+  },
+  "hero": {
+    "badge": "Para pequeñas empresas",
+    "title": "Herramientas financieras que crecen con su negocio",
+    "accentWord": "crecen",
+    "description": "Desde la facturación hasta el seguimiento de gastos, Invoicemonk da a las pequeñas empresas la infraestructura financiera para operar profesionalmente y escalar.",
+    "primaryCta": "Prueba gratuita",
+    "secondaryCta": "Ver planes Business",
+    "stats": [
+      { "value": "50%", "label": "Pagos más rápidos" },
+      { "value": "10hrs", "label": "Ahorradas al mes" },
+      { "value": "100%", "label": "Listo para auditoría" }
+    ]
+  },
+  "benefits": {
+    "title": "Diseñado para negocios en crecimiento",
+    "subtitle": "Todo lo que necesita para gestionar sus finanzas profesionalmente — desde su primera factura hasta el informe anual",
+    "items": [
+      { "title": "Facturación simplificada", "description": "Cree, envíe y rastree facturas para múltiples clientes sin esfuerzo. Guarde datos de clientes y plantillas para que las facturas recurrentes tomen menos de dos minutos." },
+      { "title": "Colaboración de equipo", "description": "Agregue miembros del equipo con acceso basado en roles. Los propietarios controlan la facturación, los miembros crean facturas desde un panel compartido." },
+      { "title": "Insights del negocio", "description": "Obtenga informes claros sobre ingresos, pagos pendientes y flujo de caja. Tome decisiones informadas sobre precios y capacidad." },
+      { "title": "Cumplimiento integrado", "description": "Manténgase listo para auditorías con cumplimiento automático. Cada documento está verificado criptográficamente con una pista de auditoría inmutable." }
+    ]
+  },
+  "useCases": {
+    "title": "Cómo las pequeñas empresas usan Invoicemonk",
+    "subtitle": "Ya sea en comercio, servicios o consultoría — así se adapta Invoicemonk a sus operaciones",
+    "items": [
+      { "title": "Comercio y E-commerce", "description": "Gestione la facturación de inventario y rastree pagos de clientes. Cree facturas para pedidos mayoristas y mantenga registros limpios." },
+      { "title": "Servicios profesionales", "description": "Facture por hora o proyecto con seguimiento detallado. Envíe facturas profesionales que reflejen la calidad de su expertise." },
+      { "title": "Agencias", "description": "Gestione múltiples clientes y facturas recurrentes. Rastree ingresos por cliente y genere informes de rentabilidad." },
+      { "title": "Consultoría", "description": "Cree propuestas y conviértalas en facturas. Rastree hitos de proyecto y facture contra anticipos." }
+    ]
+  },
+  "challenges": {
+    "title": "Desafíos comunes de pequeñas empresas — resueltos",
+    "subtitle": "Construimos Invoicemonk alrededor de los problemas reales que enfrentan los dueños de pequeñas empresas",
+    "items": [
+      { "problem": "Horas cada semana creando facturas, persiguiendo pagos y reconciliando registros manualmente", "solution": "Facturación automatizada, recordatorios y generación de recibos manejan el trabajo repetitivo — más de 10 horas ahorradas al mes." },
+      { "problem": "Sin visión clara del flujo de caja — inseguro de qué facturas están pendientes", "solution": "Un panel en tiempo real muestra cada estado de factura, saldos pendientes y antigüedad de pagos." },
+      { "problem": "Caos en temporada fiscal buscando facturas y recibos en hojas de cálculo y emails", "solution": "Todos los registros financieros están automáticamente organizados, categorizados y exportables." },
+      { "problem": "Superando herramientas básicas pero sin estar listo para software empresarial costoso", "solution": "Invoicemonk escala de solo a equipo — comience gratis y crezca con herramientas profesionales sin precios empresariales." }
+    ]
+  },
+  "workflow": {
+    "title": "Cómo funciona",
+    "subtitle": "Desde la configuración hasta la escalabilidad — en cuatro pasos simples",
+    "steps": [
+      { "title": "Configure su negocio", "description": "Cree su perfil empresarial con datos de la empresa, número fiscal, logo y métodos de pago. Agregue cuentas de moneda para cada moneda que opere." },
+      { "title": "Agregue clientes y comience", "description": "Agregue sus clientes una vez. Crear una factura son pocos clics: seleccione el cliente, agregue partidas, establezca condiciones y envíe." },
+      { "title": "Rastree pagos y gastos", "description": "Cuando un cliente paga, registre el pago y se genera un recibo automáticamente. Rastree gastos por categoría." },
+      { "title": "Reporte y crezca", "description": "Genere informes de ingresos, resúmenes de gastos y estados de resultados. En temporada fiscal, exporte todo para su contador." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Por qué las pequeñas empresas eligen Invoicemonk",
+    "paragraphs": [
+      "La mayoría de pequeñas empresas comienzan con hojas de cálculo. Al crecer, necesitan algo mejor — pero el software empresarial es caro y complejo. Invoicemonk llena exactamente ese vacío.",
+      "Invoicemonk ofrece facturación profesional, seguimiento de gastos, gestión de equipo e informes financieros sin curva de aprendizaje ni precios empresariales.",
+      "Cada documento está verificado criptográficamente con código QR y pista de auditoría inmutable. Su negocio siempre está listo para auditoría."
+    ]
+  },
+  "checklist": {
+    "title": "Todo lo que su negocio necesita",
+    "items": [
+      "Facturas y clientes ilimitados",
+      "Branding y plantillas personalizadas",
+      "Controles de acceso de equipo",
+      "Recordatorios de pago automáticos",
+      "Seguimiento y categorización de gastos",
+      "Informes de ingresos y flujo de caja",
+      "Soporte multi-moneda",
+      "Automatización de facturas recurrentes",
+      "Acceso portal de clientes",
+      "Pistas de auditoría conformes",
+      "Verificación criptográfica",
+      "Soporte prioritario"
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "50%", "label": "Cobro más rápido" },
+      { "value": "10hrs", "label": "Ahorradas en admin al mes" },
+      { "value": "100%", "label": "Cumplimiento listo para auditoría" }
+    ]
+  },
+  "faqs": [
+    { "question": "¿Invoicemonk es adecuado para un negocio con múltiples miembros del equipo?", "answer": "Sí. Los planes Professional y Business permiten invitar miembros con acceso basado en roles." },
+    { "question": "¿Puedo rastrear gastos junto con las facturas?", "answer": "Absolutamente. Registre gastos de negocio, categorícelos y vea su verdadera rentabilidad." },
+    { "question": "¿Invoicemonk soporta facturas recurrentes?", "answer": "Sí. Configure facturas automáticas mensuales, trimestrales o con calendario personalizado." },
+    { "question": "¿Cómo funciona el soporte multi-moneda?", "answer": "Cree cuentas de moneda separadas. Cada cuenta mantiene facturas y reportes separados limpiamente." },
+    { "question": "¿Hay un plan gratuito para pequeñas empresas?", "answer": "¡Sí! Comience gratis con 5 facturas y 5 recibos por mes." },
+    { "question": "¿Puedo generar informes financieros?", "answer": "Sí. Los planes Professional y Business incluyen informes de ingresos, resúmenes de gastos y estados de resultados." },
+    { "question": "¿Cómo ayuda Invoicemonk con el cumplimiento?", "answer": "Cada factura incluye su número fiscal, está verificada criptográficamente y almacenada con pista de auditoría inmutable." }
+  ],
+  "relatedReading": {
+    "title": "Lecturas relacionadas",
+    "links": [
+      { "text": "Bases de contabilidad", "href": "/blog/small-business-accounting-basics" },
+      { "text": "Guía de presupuesto", "href": "/blog/how-to-create-a-budget-for-your-small-business" },
+      { "text": "Guía de finanzas empresariales", "href": "/guides/business-finances" }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para optimizar las finanzas de su negocio?",
+    "description": "Únase a los negocios en crecimiento que confían en Invoicemonk para sus operaciones financieras.",
+    "button": "Comenzar prueba gratuita"
+  }
+}

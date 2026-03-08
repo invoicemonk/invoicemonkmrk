@@ -1,0 +1,113 @@
+{
+  "seo": {
+    "title": "Facturation pour petites entreprises | Invoicemonk",
+    "description": "Solution complète de facturation et comptabilité pour petites entreprises. Collaboration d'équipe, suivi des dépenses et conformité intégrée."
+  },
+  "hero": {
+    "badge": "Pour les petites entreprises",
+    "title": "Des outils financiers qui grandissent avec votre entreprise",
+    "accentWord": "grandissent",
+    "description": "De la facturation au suivi des dépenses, Invoicemonk donne aux petites entreprises l'infrastructure financière pour opérer professionnellement et se développer.",
+    "primaryCta": "Essai gratuit",
+    "secondaryCta": "Voir les plans Business",
+    "stats": [
+      { "value": "50%", "label": "Paiements plus rapides" },
+      { "value": "10h", "label": "Économisées par mois" },
+      { "value": "100%", "label": "Prêt pour l'audit" }
+    ]
+  },
+  "benefits": {
+    "title": "Conçu pour les entreprises en croissance",
+    "subtitle": "Tout ce dont vous avez besoin pour gérer vos finances professionnellement — de votre première facture au bilan annuel",
+    "items": [
+      { "title": "Facturation simplifiée", "description": "Créez, envoyez et suivez vos factures pour plusieurs clients sans effort. Sauvegardez les détails clients et modèles pour que les factures récurrentes prennent moins de deux minutes." },
+      { "title": "Collaboration d'équipe", "description": "Ajoutez des membres d'équipe avec un accès basé sur les rôles. Les propriétaires contrôlent la facturation, les membres créent des factures depuis un tableau de bord partagé." },
+      { "title": "Insights business", "description": "Obtenez des rapports clairs sur le chiffre d'affaires, les paiements en attente et la trésorerie. Prenez des décisions éclairées sur la tarification et la capacité." },
+      { "title": "Conformité intégrée", "description": "Restez prêt pour l'audit avec une conformité automatique. Chaque document est vérifié cryptographiquement avec une piste d'audit immuable." }
+    ]
+  },
+  "useCases": {
+    "title": "Comment les petites entreprises utilisent Invoicemonk",
+    "subtitle": "Que vous soyez dans le commerce, les services ou le conseil — voici comment Invoicemonk s'adapte à vos opérations",
+    "items": [
+      { "title": "Commerce & E-commerce", "description": "Gérez la facturation d'inventaire et suivez les paiements clients. Créez des factures pour les commandes en gros et maintenez des registres propres." },
+      { "title": "Services professionnels", "description": "Facturez à l'heure ou au projet avec un suivi détaillé. Envoyez des factures professionnelles qui reflètent la qualité de votre expertise." },
+      { "title": "Agences", "description": "Gérez plusieurs clients et des factures récurrentes. Suivez le chiffre d'affaires par client et générez des rapports de rentabilité." },
+      { "title": "Conseil", "description": "Créez des devis et convertissez-les en factures. Suivez les jalons de projet et facturez sur les acomptes." }
+    ]
+  },
+  "challenges": {
+    "title": "Défis courants des petites entreprises — résolus",
+    "subtitle": "Nous avons conçu Invoicemonk autour des vrais problèmes des dirigeants de petites entreprises",
+    "items": [
+      { "problem": "Des heures chaque semaine à créer des factures, relancer les paiements et rapprocher manuellement", "solution": "Facturation automatisée, rappels et génération de reçus gèrent le travail répétitif — plus de 10 heures économisées par mois." },
+      { "problem": "Aucune vision claire de la trésorerie — incertain des factures en attente", "solution": "Un tableau de bord en temps réel affiche chaque statut de facture, soldes en attente et ancienneté des paiements." },
+      { "problem": "Panique à la période fiscale pour retrouver factures et reçus dans les tableurs et emails", "solution": "Tous les documents financiers sont automatiquement organisés, catégorisés et exportables. Rapports de conformité en un clic." },
+      { "problem": "Outils basiques devenus insuffisants mais pas prêt pour un logiciel d'entreprise coûteux", "solution": "Invoicemonk évolue du solo à l'équipe — commencez gratuitement et ajoutez des fonctionnalités en grandissant." }
+    ]
+  },
+  "workflow": {
+    "title": "Comment ça marche",
+    "subtitle": "De la mise en place à la croissance — en quatre étapes simples",
+    "steps": [
+      { "title": "Configurer votre entreprise", "description": "Créez votre profil entreprise avec vos coordonnées, numéro fiscal, logo et moyens de paiement. Ajoutez des comptes en devises pour chaque devise utilisée." },
+      { "title": "Ajouter des clients et commencer", "description": "Ajoutez vos clients une fois. Créer une facture ne prend que quelques clics : sélectionnez le client, ajoutez les postes et envoyez." },
+      { "title": "Suivre paiements et dépenses", "description": "Quand un client paie, enregistrez le paiement et un reçu officiel est généré automatiquement. Suivez les dépenses par catégorie." },
+      { "title": "Reporter et grandir", "description": "Générez des rapports de revenus, résumés de dépenses et comptes de résultat. À la période fiscale, exportez tout pour votre comptable." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Pourquoi les petites entreprises choisissent Invoicemonk",
+    "paragraphs": [
+      "La plupart des petites entreprises commencent avec des tableurs. En grandissant, elles ont besoin de mieux — mais les logiciels d'entreprise sont chers et complexes. Invoicemonk comble exactement cet écart.",
+      "Invoicemonk offre facturation professionnelle, suivi des dépenses, gestion d'équipe et rapports financiers sans courbe d'apprentissage ni prix d'entreprise.",
+      "Chaque document est vérifié cryptographiquement avec QR code et piste d'audit immuable. Votre entreprise est toujours prête pour l'audit — pas seulement en fin d'année."
+    ]
+  },
+  "checklist": {
+    "title": "Tout ce dont votre entreprise a besoin",
+    "items": [
+      "Factures et clients illimités",
+      "Branding et modèles personnalisés",
+      "Contrôles d'accès équipe",
+      "Rappels de paiement automatiques",
+      "Suivi et catégorisation des dépenses",
+      "Rapports de revenus et trésorerie",
+      "Support multi-devises",
+      "Automatisation des factures récurrentes",
+      "Accès portail client",
+      "Pistes d'audit conformes",
+      "Vérification cryptographique",
+      "Support client prioritaire"
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "50%", "label": "Encaissement plus rapide" },
+      { "value": "10h", "label": "Économisées en admin par mois" },
+      { "value": "100%", "label": "Conformité prête pour l'audit" }
+    ]
+  },
+  "faqs": [
+    { "question": "Invoicemonk convient-il à une entreprise avec plusieurs membres d'équipe ?", "answer": "Oui. Les plans Professional et Business permettent d'inviter des membres avec accès basé sur les rôles." },
+    { "question": "Puis-je suivre les dépenses en plus des factures ?", "answer": "Absolument. Enregistrez les dépenses, catégorisez-les et voyez votre vraie rentabilité." },
+    { "question": "Invoicemonk supporte-t-il les factures récurrentes ?", "answer": "Oui. Configurez des factures automatiques mensuelles, trimestrielles ou personnalisées." },
+    { "question": "Comment fonctionne le support multi-devises ?", "answer": "Créez des comptes en devises séparés. Chaque compte garde les factures et rapports proprement séparés." },
+    { "question": "Y a-t-il un plan gratuit pour les petites entreprises ?", "answer": "Oui ! Commencez gratuitement avec 5 factures et 5 reçus par mois." },
+    { "question": "Puis-je générer des rapports financiers ?", "answer": "Oui. Les plans Professional et Business incluent rapports de revenus, résumés de dépenses et comptes de résultat." },
+    { "question": "Comment Invoicemonk aide-t-il avec la conformité ?", "answer": "Chaque facture inclut votre numéro fiscal, est vérifiée cryptographiquement et stockée avec une piste d'audit immuable." }
+  ],
+  "relatedReading": {
+    "title": "Lectures connexes",
+    "links": [
+      { "text": "Bases de la comptabilité", "href": "/blog/small-business-accounting-basics" },
+      { "text": "Guide budget entreprise", "href": "/blog/how-to-create-a-budget-for-your-small-business" },
+      { "text": "Guide finances entreprise", "href": "/guides/business-finances" }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à optimiser vos finances d'entreprise ?",
+    "description": "Rejoignez les entreprises en croissance qui font confiance à Invoicemonk pour leurs opérations financières.",
+    "button": "Commencer l'essai gratuit"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Faturamento para contadores e escritórios contábeis | Invoicemonk",
+    "description": "Faturamento multi-cliente para contadores, escritórios contábeis e firmas. Faturamento recorrente, conformidade fiscal e relatórios financeiros detalhados."
+  },
+  "hero": {
+    "badge": "Para contadores",
+    "title": "Faturamento feito para profissionais contábeis",
+    "accentWord": "contábeis",
+    "description": "Gerencie faturamento multi-cliente, automatize faturas recorrentes e mantenha registros fiscalmente conformes — tudo em uma plataforma.",
+    "primaryCta": "Começar grátis",
+    "secondaryCta": "Ver preços",
+    "trustBadge": "Confiado por contadores e escritórios contábeis"
+  },
+  "benefits": {
+    "title": "Feito para fluxos de trabalho contábeis",
+    "subtitle": "Ferramentas projetadas para como contadores realmente trabalham — de gestão multi-cliente a relatórios prontos para auditoria",
+    "items": [
+      { "title": "Gestão multi-cliente", "description": "Gerencie o faturamento de dezenas de clientes em um único painel com branding separado, condições de pagamento e visões financeiras por cliente." },
+      { "title": "Faturamento recorrente", "description": "Configure faturas automáticas mensais ou trimestrais. O Invoicemonk gera e envia conforme o cronograma." },
+      { "title": "Relatórios financeiros", "description": "Gere relatórios detalhados de receita, despesas e contas a receber para cada cliente. Exporte relatórios profissionais para auditorias." },
+      { "title": "Conformidade fiscal", "description": "Cálculos fiscais automáticos em múltiplas jurisdições, formatos de fatura conformes e registros prontos para auditoria." }
+    ]
+  },
+  "useCases": {
+    "title": "Como os contadores usam o Invoicemonk",
+    "subtitle": "Seja contador autônomo ou gerencie um escritório — veja como o Invoicemonk se adapta à sua prática",
+    "items": [
+      { "title": "Clientes de contabilidade", "description": "Gerencie o faturamento de múltiplas pequenas empresas em uma conta. Configure cada cliente com seu próprio branding e configuração fiscal." },
+      { "title": "Assessoria e serviços fiscais", "description": "Fature clientes de assessoria com faturas recorrentes. Crie faturas por projeto com itens detalhados." },
+      { "title": "Preparação de auditoria", "description": "Quando a temporada de auditoria chega, obtenha registros financeiros completos para qualquer cliente em minutos. Cada transação tem trilha de auditoria completa." }
+    ]
+  },
+  "challenges": {
+    "title": "Desafios comuns da contabilidade — resolvidos",
+    "subtitle": "Construímos o Invoicemonk em torno dos problemas reais dos contadores",
+    "items": [
+      { "problem": "Malabarismo entre sistemas de faturamento separados ou planilhas para cada cliente", "solution": "Um painel para todos os clientes com contas isoladas, branding separado e visões financeiras individuais." },
+      { "problem": "Criar manualmente as mesmas faturas recorrentes todo mês", "solution": "Faturas recorrentes automatizadas são geradas e enviadas conforme o cronograma." },
+      { "problem": "Passar dias compilando registros financeiros para auditorias", "solution": "Cada transação é registrada automaticamente com trilha de auditoria completa. Relatórios completos em minutos." },
+      { "problem": "Gerenciar diferentes alíquotas fiscais e regras de conformidade", "solution": "Configure alíquotas por cliente e região. Cálculo automático de IVA, GST e retenção na fonte." }
+    ]
+  },
+  "workflow": {
+    "title": "Como funciona",
+    "subtitle": "Da configuração do cliente a relatórios prontos para auditoria — otimizado para contadores",
+    "steps": [
+      { "title": "Configurar contas de clientes", "description": "Crie um perfil para cada cliente com nome da empresa, logo, endereço, configuração fiscal e condições de pagamento padrão." },
+      { "title": "Configurar cronogramas de faturamento", "description": "Para clientes em retainer, configure faturas recorrentes com valor, frequência e data de envio." },
+      { "title": "Faturar e rastrear pagamentos", "description": "Gere faturas automaticamente ou manualmente. O Invoicemonk rastreia o status de cada fatura em todos os seus clientes." },
+      { "title": "Reportar e conciliar", "description": "No fechamento do mês ou trimestre, gere relatórios financeiros para cada cliente. Exporte dados em formatos padrão." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Por que os contadores escolhem o Invoicemonk",
+    "paragraphs": [
+      "A maioria das ferramentas de faturamento é feita para uma única empresa. Contadores precisam de uma plataforma que gerencie o faturamento de muitas empresas simultaneamente.",
+      "Diferente de software contábil complexo, o Invoicemonk simplifica adicionar clientes e começar a faturar em minutos.",
+      "O Invoicemonk oferece registros prontos para auditoria, suporte fiscal multi-jurisdição e relatórios segundo padrões profissionais."
+    ]
+  },
+  "checklist": {
+    "title": "O que os contadores ganham com o Invoicemonk",
+    "items": [
+      "Gestão multi-cliente",
+      "Faturamento mensal recorrente",
+      "Cálculos fiscais automáticos",
+      "Relatórios financeiros detalhados",
+      "Branding personalizado por cliente",
+      "Painel de rastreamento de pagamentos",
+      "Categorização de despesas",
+      "Registros prontos para auditoria",
+      "Suporte multi-moeda",
+      "Exportação para formatos contábeis"
+    ]
+  },
+  "testimonials": {
+    "title": "Confiado por profissionais contábeis",
+    "items": [
+      { "quote": "Gerenciar o faturamento de mais de 20 clientes PME é fácil com o Invoicemonk. O setup multi-cliente me economiza horas toda semana.", "author": "Grace T.", "role": "Contadora autônoma" },
+      { "quote": "As funcionalidades de conformidade fiscal me dão confiança de que cada fatura atende requisitos regulatórios.", "author": "Samuel A.", "role": "Contador público" },
+      { "quote": "A preparação de auditoria levava uma semana inteira por cliente. Agora obtenho relatórios completos em minutos.", "author": "Funke D.", "role": "Consultora fiscal" }
+    ]
+  },
+  "faqs": [
+    { "question": "Posso gerenciar o faturamento de múltiplos clientes como contador?", "answer": "Sim. O Invoicemonk permite gerenciar múltiplas contas de clientes em um único painel." },
+    { "question": "O Invoicemonk se integra com software contábil?", "answer": "O Invoicemonk gera relatórios em formatos padrão. Exporte dados para QuickBooks, Xero ou outras plataformas." },
+    { "question": "Posso configurar faturas recorrentes para clientes em retainer?", "answer": "Absolutamente. Automatize o faturamento mensal com cronogramas de faturas recorrentes." },
+    { "question": "Como o Invoicemonk lida com cálculos fiscais?", "answer": "Configure alíquotas por jurisdição. O Invoicemonk calcula automaticamente IVA, GST e retenção na fonte." },
+    { "question": "Existe um plano gratuito para contadores autônomos?", "answer": "Sim! Comece grátis com 5 faturas e 5 recibos por mês." },
+    { "question": "Posso personalizar faturas para meus clientes?", "answer": "Sim. Cada perfil de cliente pode ter seu próprio logo e branding nas faturas." },
+    { "question": "Como o Invoicemonk ajuda com preparação de auditoria?", "answer": "Cada transação tem carimbo de tempo e trilha de auditoria completa. Relatórios completos em minutos." },
+    { "question": "Posso rastrear despesas em múltiplas contas de clientes?", "answer": "Sim. Categorize despesas por cliente, projeto ou categoria de custo." }
+  ],
+  "relatedReading": {
+    "title": "Leituras relacionadas",
+    "links": [
+      { "text": "Bases de contabilidade", "href": "/blog/small-business-accounting-basics" },
+      { "text": "Guia de relatórios financeiros", "href": "/blog/financial-reports-every-business-needs" },
+      { "text": "Guia de conformidade fiscal", "href": "/guides/tax-compliance" }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para otimizar sua prática contábil?",
+    "description": "Junte-se aos contadores que confiam no Invoicemonk para faturamento multi-cliente e conformidade.",
+    "button": "Começar grátis"
+  }
+}

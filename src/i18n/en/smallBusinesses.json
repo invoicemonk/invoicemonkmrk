@@ -1,0 +1,113 @@
+{
+  "seo": {
+    "title": "Invoicing for Small Businesses | Invoicemonk",
+    "description": "Complete invoicing and accounting solution for small businesses. Team collaboration, expense tracking, and compliance built-in."
+  },
+  "hero": {
+    "badge": "For Small Businesses",
+    "title": "Financial tools that grow with your business",
+    "accentWord": "grow",
+    "description": "From invoicing to expense tracking, Invoicemonk gives small businesses the financial infrastructure they need to operate professionally and scale.",
+    "primaryCta": "Start Free Trial",
+    "secondaryCta": "View Business Plans",
+    "stats": [
+      { "value": "50%", "label": "Faster payments" },
+      { "value": "10hrs", "label": "Saved monthly" },
+      { "value": "100%", "label": "Audit-ready" }
+    ]
+  },
+  "benefits": {
+    "title": "Built for growing businesses",
+    "subtitle": "Everything you need to manage business finances professionally — from your first invoice to year-end reporting",
+    "items": [
+      { "title": "Streamlined Invoicing", "description": "Create, send, and track invoices for multiple clients effortlessly. Save client details and item templates so repeat invoices take under two minutes. Track every invoice from draft to paid." },
+      { "title": "Team Collaboration", "description": "Add team members with role-based access to manage finances together. Owners control billing and settings, while team members create invoices and manage clients from a shared dashboard." },
+      { "title": "Business Insights", "description": "Get clear reports on revenue, outstanding payments, and cash flow. See which clients bring the most revenue, track payment aging, and make informed decisions about pricing and capacity." },
+      { "title": "Compliance Built-In", "description": "Stay audit-ready with automatic compliance and record-keeping. Every document is cryptographically verified and stored with an immutable audit trail — no manual filing required." }
+    ]
+  },
+  "useCases": {
+    "title": "How small businesses use Invoicemonk",
+    "subtitle": "Whether you're in retail, services, or consulting — here's how Invoicemonk fits your operations",
+    "items": [
+      { "title": "Retail & E-commerce", "description": "Manage inventory invoicing and track customer payments seamlessly. Create invoices for wholesale orders, track outstanding balances, and maintain clean records for tax season." },
+      { "title": "Professional Services", "description": "Bill clients by the hour or project with detailed time tracking. From accountants to consultants, send professional invoices that reflect the quality of your expertise." },
+      { "title": "Agencies", "description": "Handle multiple clients and recurring retainer invoices easily. Track revenue per client, manage team billing, and generate reports that show agency profitability at a glance." },
+      { "title": "Consulting", "description": "Create proposals and convert them to invoices seamlessly. Track project milestones, bill against retainers, and maintain detailed records for enterprise clients." }
+    ]
+  },
+  "challenges": {
+    "title": "Common small business challenges — solved",
+    "subtitle": "We built Invoicemonk around the real problems small business owners face every day",
+    "items": [
+      { "problem": "Spending hours each week creating invoices, chasing payments, and reconciling records manually", "solution": "Automated invoicing, payment reminders, and receipt generation handle the repetitive work — freeing up 10+ hours per month for running your business." },
+      { "problem": "No clear picture of cash flow — unsure which invoices are outstanding and when money will arrive", "solution": "A real-time dashboard shows every invoice status, outstanding balances, and payment aging. See your complete financial picture at a glance." },
+      { "problem": "Scrambling at tax time to find invoices, receipts, and expense records across spreadsheets and email", "solution": "All financial records are automatically organised, categorised, and exportable. Generate compliance-ready reports in one click." },
+      { "problem": "Outgrowing basic tools but not ready for expensive enterprise accounting software", "solution": "Invoicemonk scales from solo to team — start free, add team members and features as you grow. Professional tools without the enterprise price tag." }
+    ]
+  },
+  "workflow": {
+    "title": "How it works",
+    "subtitle": "From setup to scaling — in four simple steps",
+    "steps": [
+      { "title": "Set up your business", "description": "Create your business profile with your company details, tax ID, logo, and payment methods. Complete your profile to 100% so every invoice is automatically compliant with local regulations. Add currency accounts for each currency you operate in." },
+      { "title": "Add clients and start invoicing", "description": "Add your clients once — name, email, tax ID, billing address. From then on, creating an invoice is a few clicks: select the client, add line items, set payment terms, and send. The client receives a professional email with your branding." },
+      { "title": "Track payments and expenses", "description": "When clients pay, record the payment and an official receipt is generated automatically. Track business expenses by category — office, travel, software, marketing. Your financial picture stays up to date without manual reconciliation." },
+      { "title": "Report and grow", "description": "Generate revenue reports, expense summaries, and profit & loss statements. Understand which clients and services are most profitable. At tax time, export everything your accountant needs. As you grow, invite team members and delegate invoicing." }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why small businesses choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Most small businesses start with spreadsheets or basic templates for invoicing. As they grow, they realise they need something better — but enterprise accounting software is expensive, complex, and built for companies with dedicated finance teams. There's a gap in the middle, and that's exactly where Invoicemonk fits.",
+      "Invoicemonk gives you professional invoicing, expense tracking, team management, and financial reporting without the learning curve or the enterprise price tag. Start free, upgrade as you grow, and always have tools that match your current stage — not tools you'll grow into years from now.",
+      "Every document Invoicemonk generates is cryptographically verified with a QR code and stored with an immutable audit trail. This means your business is always audit-ready — not just at year-end, but every single day. Compliance happens automatically, not as an afterthought."
+    ]
+  },
+  "checklist": {
+    "title": "Everything your business needs",
+    "items": [
+      "Unlimited invoices and clients",
+      "Custom branding and templates",
+      "Team member access controls",
+      "Automated payment reminders",
+      "Expense tracking and categorization",
+      "Revenue and cash flow reports",
+      "Multi-currency support",
+      "Recurring invoice automation",
+      "Client portal access",
+      "Tax-compliant audit trails",
+      "Cryptographic verification",
+      "Priority customer support"
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "50%", "label": "Faster payment collection" },
+      { "value": "10hrs", "label": "Saved per month on admin" },
+      { "value": "100%", "label": "Audit-ready compliance" }
+    ]
+  },
+  "faqs": [
+    { "question": "Is Invoicemonk suitable for a business with multiple team members?", "answer": "Yes. On Professional and Business plans, invite team members with role-based access. Owners and admins manage invoicing and settings, while members can create invoices and manage clients. Everyone works from the same dashboard." },
+    { "question": "Can I track expenses alongside invoices?", "answer": "Absolutely. Record business expenses, categorise them (office supplies, travel, marketing, etc.), and see your true profitability. Export expense reports for your accountant at any time." },
+    { "question": "Does Invoicemonk support recurring invoices?", "answer": "Yes. Set up automatic monthly, quarterly, or custom-schedule invoices for retainer clients or ongoing services. Invoicemonk generates and sends them on time, every time." },
+    { "question": "How does multi-currency support work?", "answer": "Create separate currency accounts for each currency you operate in (e.g., NGN, USD, GBP). Each currency account keeps invoices, expenses, and reports cleanly separated — no confusing exchange rate calculations." },
+    { "question": "Is there a free plan for small businesses?", "answer": "Yes! Start free with 5 invoices and 5 receipts per month. Upgrade as your business grows for unlimited invoicing, team management, financial reports, and more." },
+    { "question": "Can I generate financial reports?", "answer": "Yes. Professional and Business plans include revenue reports, expense summaries, profit & loss statements, and compliance reports. All reports are single-currency for accuracy and exportable as CSV or JSON." },
+    { "question": "How does Invoicemonk help with compliance?", "answer": "Every invoice includes your tax identification number, is cryptographically verified with a QR code, and stored with an immutable audit trail. Export compliance-ready reports for regulators or auditors at any time." }
+  ],
+  "relatedReading": {
+    "title": "Related reading",
+    "links": [
+      { "text": "Accounting Basics", "href": "/blog/small-business-accounting-basics" },
+      { "text": "Business Budget Guide", "href": "/blog/how-to-create-a-budget-for-your-small-business" },
+      { "text": "Business Finances Guide", "href": "/guides/business-finances" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to streamline your business finances?",
+    "description": "Join growing businesses that trust Invoicemonk for their financial operations.",
+    "button": "Start Your Free Trial"
+  }
+}
