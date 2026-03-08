@@ -7,17 +7,20 @@ import deCommon from './de/common.json';
 import frCommon from './fr/common.json';
 import ptBRCommon from './pt-BR/common.json';
 
-/** Map URL country prefix → i18next language code */
-export const countryPrefixToLanguage: Record<string, string> = {
+/** Map URL language prefix → i18next language code */
+export const langPrefixToI18nCode: Record<string, string> = {
+  en: 'en',
   de: 'de',
   fr: 'fr',
-  br: 'pt-BR',
-  // All others default to 'en'
+  pt: 'pt-BR',
 };
 
-/** Get language code from country URL prefix */
+// Keep legacy export for backward compat
+export const countryPrefixToLanguage = langPrefixToI18nCode;
+
+/** Get i18n language code from URL language prefix */
 export function getLanguageFromPrefix(prefix: string): string {
-  return countryPrefixToLanguage[prefix] || 'en';
+  return langPrefixToI18nCode[prefix] || 'en';
 }
 
 i18n
@@ -34,7 +37,7 @@ i18n
     defaultNS: 'common',
     ns: ['common'],
     interpolation: {
-      escapeValue: false, // React already escapes
+      escapeValue: false,
     },
     react: {
       useSuspense: false,

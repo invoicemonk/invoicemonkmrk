@@ -26,9 +26,9 @@ const navLinkKeys = [
   { key: 'whyInvoicemonk', href: '/why-invoicemonk' },
 ];
 
-/** Strip the two-letter country prefix so we can compare against link hrefs */
+/** Strip the language prefix so we can compare against link hrefs */
 function stripPrefix(pathname: string): string {
-  return pathname.replace(/^\/[a-z]{2}(\/|$)/, '/');
+  return pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?(\/|$)/, '/');
 }
 
 export function Navbar() {
