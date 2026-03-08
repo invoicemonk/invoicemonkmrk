@@ -97,6 +97,18 @@ import frPhotographers from './fr/photographers.json';
 import ptBRPhotographers from './pt-BR/photographers.json';
 import esPhotographers from './es/photographers.json';
 
+import enConsultants from './en/consultants.json';
+import deConsultants from './de/consultants.json';
+import frConsultants from './fr/consultants.json';
+import ptBRConsultants from './pt-BR/consultants.json';
+import esConsultants from './es/consultants.json';
+
+import enCreatives from './en/creatives.json';
+import deCreatives from './de/creatives.json';
+import frCreatives from './fr/creatives.json';
+import ptBRCreatives from './pt-BR/creatives.json';
+import esCreatives from './es/creatives.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
@@ -105,15 +117,15 @@ export function getLanguageFromPrefix(prefix: string): string {
   return langPrefixToI18nCode[prefix] || 'en';
 }
 
-const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement', 'freelancers', 'photographers'];
+const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement', 'freelancers', 'photographers', 'consultants', 'creatives'];
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting, estimates: enEstimates, receipts: enReceipts, clientManagement: enClientManagement, freelancers: enFreelancers, photographers: enPhotographers },
-    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting, estimates: deEstimates, receipts: deReceipts, clientManagement: deClientManagement, freelancers: deFreelancers, photographers: dePhotographers },
-    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting, estimates: frEstimates, receipts: frReceipts, clientManagement: frClientManagement, freelancers: frFreelancers, photographers: frPhotographers },
-    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting, estimates: ptBREstimates, receipts: ptBRReceipts, clientManagement: ptBRClientManagement, freelancers: ptBRFreelancers, photographers: ptBRPhotographers },
-    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting, estimates: esEstimates, receipts: esReceipts, clientManagement: esClientManagement, freelancers: esFreelancers, photographers: esPhotographers },
+    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting, estimates: enEstimates, receipts: enReceipts, clientManagement: enClientManagement, freelancers: enFreelancers, photographers: enPhotographers, consultants: enConsultants, creatives: enCreatives },
+    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting, estimates: deEstimates, receipts: deReceipts, clientManagement: deClientManagement, freelancers: deFreelancers, photographers: dePhotographers, consultants: deConsultants, creatives: deCreatives },
+    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting, estimates: frEstimates, receipts: frReceipts, clientManagement: frClientManagement, freelancers: frFreelancers, photographers: frPhotographers, consultants: frConsultants, creatives: frCreatives },
+    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting, estimates: ptBREstimates, receipts: ptBRReceipts, clientManagement: ptBRClientManagement, freelancers: ptBRFreelancers, photographers: ptBRPhotographers, consultants: ptBRConsultants, creatives: ptBRCreatives },
+    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting, estimates: esEstimates, receipts: esReceipts, clientManagement: esClientManagement, freelancers: esFreelancers, photographers: esPhotographers, consultants: esConsultants, creatives: esCreatives },
   },
   lng: 'en',
   fallbackLng: 'en',

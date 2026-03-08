@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Rechnungssoftware für Berater | Invoicemonk",
+    "description": "Professionelle Rechnungsstellung für Unternehmensberater und Strategiefirmen. Mehrwährungs-Abrechnung, detaillierte Berichte und unternehmensgerechte Compliance."
+  },
+  "hero": {
+    "badge": "Für Berater",
+    "title": "Professionelle Rechnungsstellung für Berater",
+    "accentWord": "Berater",
+    "description": "Beeindrucken Sie Unternehmenskunden mit professionellen, konformen Rechnungen. Verwalten Sie Retainer, Projektabrechnung und internationale Zahlungen mit Leichtigkeit.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen",
+    "trustBadge": "Vertraut von Unternehmensberatern und Strategiefirmen"
+  },
+  "benefits": {
+    "heading": "Entwickelt für Beratungsprofis",
+    "subheading": "Alles, was Sie für die Kundenabrechnung auf Unternehmensebene brauchen — von Retainer-Rechnungen bis zur Mehrwährungs-Berichterstattung",
+    "items": [
+      { "title": "Unternehmensgerechte Rechnungen", "description": "Erstellen Sie professionelle Rechnungen, die den Beschaffungsstandards und Bestellanforderungen von Unternehmen entsprechen. Detaillierte Leistungsbeschreibungen, Projektreferenzen und Zahlungsbedingungen inklusive." },
+      { "title": "Mehrwährungs-Abrechnung", "description": "Stellen Sie internationalen Kunden Rechnungen in ihrer bevorzugten Währung aus — ohne manuelle Umrechnung. Invoicemonk unterstützt Dutzende von Währungen für nahtlose grenzüberschreitende Beratungsprojekte." },
+      { "title": "Detaillierte Berichte", "description": "Erstellen Sie Einkommensberichte, Ausgabenübersichten und Zahlungsanalysen für Kundenpräsentationen und Ihre eigene Finanzplanung. Exportieren Sie professionelle Berichte für strategische Entscheidungen." },
+      { "title": "Compliance integriert", "description": "Bleiben Sie konform mit Steueranforderungen in mehreren Rechtsordnungen. Invoicemonk strukturiert Rechnungen automatisch nach regulatorischen Standards und gibt Ihren Unternehmenskunden Vertrauen." }
+    ]
+  },
+  "useCases": {
+    "heading": "Wie Berater Invoicemonk nutzen",
+    "subheading": "Von Einzelberatern bis zu Boutique-Firmen — so passt Invoicemonk in Beratungs-Workflows",
+    "items": [
+      { "title": "Retainer-Engagements", "description": "Richten Sie eine wiederkehrende monatliche Rechnung für jeden Retainer-Kunden ein. Invoicemonk erstellt und versendet die Rechnung automatisch am Ersten jedes Monats. Ihr Kunde weiss, wann er sie erwarten kann, und Sie vergessen nie zu fakturieren." },
+      { "title": "Projekt-Meilensteine", "description": "Für Strategie-Engagements oder Transformationsprojekte erstellen Sie meilensteinbasierte Rechnungen. 30% bei Projektstart, 40% bei der Zwischenprüfung und 30% bei der Endlieferung. Jede Rechnung referenziert den spezifischen Meilenstein." },
+      { "title": "Grenzüberschreitende Beratung", "description": "Beraten Sie Kunden in verschiedenen Ländern ohne Rechnungssorgen. Rechnen Sie in Naira, Pfund und Dollar ab — alles von einem Konto. Jede Rechnung enthält die korrekte Währung, Steuerstruktur und Compliance-Details." }
+    ]
+  },
+  "challenges": {
+    "heading": "Häufige Beratungsherausforderungen — gelöst",
+    "subheading": "Wir haben Invoicemonk um die echten Abrechnungsprobleme von Beratern herum entwickelt",
+    "items": [
+      { "problem": "Unternehmenskunden lehnen Rechnungen ab, die nicht ihrem Beschaffungsformat entsprechen", "solution": "Erstellen Sie Rechnungen mit Bestellnummern, detaillierten Leistungsbeschreibungen und Zahlungsbedingungen, die Unternehmens-Buchhaltungsabteilungen zufriedenstellen." },
+      { "problem": "Jonglieren zwischen Retainer-Abrechnung und projektbasierten Rechnungen", "solution": "Verwalten Sie beide Abrechnungsmodelle von einem Dashboard. Richten Sie wiederkehrende Rechnungen für Retainer und Meilenstein-Rechnungen für Projekte ein." },
+      { "problem": "Verlust von abrechenbaren Stunden durch Verwaltungsarbeit", "solution": "Automatisieren Sie Rechnungserstellung, Zahlungserinnerungen und Ausgabenkategorisierung. Verbringen Sie Ihre Zeit mit Kundenarbeit, nicht mit Tabellen." },
+      { "problem": "Schwierigkeiten bei der Nachverfolgung von Einnahmen und Ausgaben bei internationalen Engagements", "solution": "Mehrwährungsunterstützung mit einheitlicher Berichterstattung. Sehen Sie Ihren Gesamtumsatz in Ihrer Basiswährung, während Sie jeden Kunden in seiner Währung abrechnen." }
+    ]
+  },
+  "workflow": {
+    "heading": "So funktioniert es",
+    "subheading": "Vom Setup bis zur Finanzberichterstattung — optimiert für Berater",
+    "steps": [
+      { "title": "Beratungsprofil einrichten", "description": "Fügen Sie Ihre Geschäftsdaten, Ihr Logo und Ihre Standard-Zahlungsbedingungen hinzu. Konfigurieren Sie Ihre Rechnungsvorlage mit Feldern für Bestellnummern, Projektreferenzen und Leistungsbeschreibungen. Die Einrichtung dauert fünf Minuten." },
+      { "title": "Kundenprofile erstellen", "description": "Fügen Sie jeden Kunden mit Rechnungsadresse, Ansprechpartner, bevorzugter Währung und Zahlungsbedingungen hinzu. Für Retainer-Kunden richten Sie einen wiederkehrenden Rechnungsplan ein." },
+      { "title": "Fakturieren und nachverfolgen", "description": "Erstellen Sie Rechnungen mit detaillierten Positionen — Stundensätze, Pauschalhonorare oder Meilenstein-Lieferungen. Versenden Sie sie sofort per E-Mail. Invoicemonk verfolgt den Status jeder Rechnung." },
+      { "title": "Berichten und überprüfen", "description": "Ziehen Sie am Ende jedes Monats oder Quartals Finanzberichte mit Umsatz nach Kunde, offenen Rechnungen und Ausgabenübersichten. Nutzen Sie diese Berichte für Ihre Finanzplanung oder Steuervorbereitung." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Warum Berater Invoicemonk gegenüber Alternativen wählen",
+    "paragraphs": [
+      "Unternehmens-Buchhaltungssoftware wie QuickBooks oder Xero ist für Unternehmen mit Gehaltsabrechnung, Inventar und Abteilungsbudgets konzipiert. Als Berater brauchen Sie das alles nicht. Was Sie brauchen, ist eine saubere, professionelle Möglichkeit, Kunden abzurechnen und Ihren Umsatz zu verfolgen.",
+      "Invoicemonk ist speziell für Dienstleistungsprofis entwickelt. Die Oberfläche ist einfach genug für die Nutzung zwischen Kundengesprächen, aber leistungsstark genug für Unternehmens-Beschaffungsanforderungen und wiederkehrende Retainer-Rechnungen.",
+      "Invoicemonk versteht das Beratungs-Abrechnungsmodell. Ob Sie nach Stunden, Projektmeilensteinen oder auf Retainer-Basis abrechnen — der Rechnungs-Workflow passt sich Ihrer Engagement-Struktur an."
+    ]
+  },
+  "checklist": {
+    "heading": "Was Berater mit Invoicemonk bekommen",
+    "items": [
+      "Professionelle Markenrechnungen",
+      "Retainer-Rechnungsverwaltung",
+      "Projektbasierte Abrechnung",
+      "Mehrwährungsunterstützung",
+      "Automatische Zahlungserinnerungen",
+      "Detaillierte Finanzberichte",
+      "Zeiterfassungs-Integration",
+      "Kundenportal-Zugang",
+      "Wiederkehrende Rechnungen",
+      "Steuerkonforme Aufzeichnungen"
+    ]
+  },
+  "testimonials": {
+    "heading": "Vertraut von Beratern",
+    "items": [
+      { "quote": "Meine Unternehmenskunden sind beeindruckt von den professionellen Rechnungen. Früher habe ich Stunden damit verbracht, Rechnungen in Word zu formatieren. Jetzt dauert es zwei Minuten, und die Compliance-Funktionen geben Kunden Vertrauen.", "author": "Tunde A.", "role": "Unternehmensberater" },
+      { "quote": "Die Verwaltung von Retainer-Kunden und projektbasierter Abrechnung ist nahtlos. Ich habe Kunden auf monatlichen Retainern und andere auf Meilenstein-Abrechnung, und Invoicemonk handhabt beides ohne Verwirrung.", "author": "Amaka E.", "role": "Strategieberaterin" },
+      { "quote": "Die Finanzberichterstattung war ein Wendepunkt. Ich kann den Umsatz nach Kunde abrufen, meine Auslastungsrate verfolgen und die Steuersaison ohne Buchhalter vorbereiten.", "author": "David R.", "role": "IT-Berater" }
+    ]
+  },
+  "faqs": [
+    { "question": "Ist Invoicemonk für Unternehmensberatungsfirmen geeignet?", "answer": "Ja. Invoicemonk wird von Einzelberatern und kleinen Beratungsfirmen gleichermassen genutzt. Sie können mehrere Kunden verwalten, Retainer-Abrechnung verfolgen und professionelle Rechnungen erstellen." },
+    { "question": "Kann ich Kunden auf Retainer-Basis abrechnen?", "answer": "Absolut. Richten Sie wiederkehrende Rechnungen ein, die automatisch nach Ihrem gewählten Zeitplan erstellt und versendet werden. Ideal für Beratungs-Retainer mit monatlicher Pauschale." },
+    { "question": "Unterstützt Invoicemonk Mehrwährungs-Rechnungen?", "answer": "Ja. Stellen Sie internationalen Kunden Rechnungen in ihrer bevorzugten Währung aus. Invoicemonk unterstützt Dutzende von Währungen mit klarer Anzeige." },
+    { "question": "Kann ich Finanzberichte für Kundenpräsentationen erstellen?", "answer": "Ja. Invoicemonk bietet Einkommensberichte, Ausgabenübersichten und Zahlungshistorien, die Sie exportieren und in Kundenpräsentationen verwenden können." },
+    { "question": "Wie hilft Invoicemonk bei der Steuer-Compliance?", "answer": "Alle Rechnungen und Ausgaben werden automatisch kategorisiert und gespeichert. Zur Steuerzeit exportieren Sie Ihre Aufzeichnungen für Ihren Steuerberater." },
+    { "question": "Ist der Einstieg kostenlos?", "answer": "Ja. Die kostenlose Version umfasst 5 Rechnungen und 5 Belege pro Monat ohne Kreditkarte. Upgraden Sie, wenn Ihre Beratungspraxis wächst." },
+    { "question": "Können meine Kunden ihre Rechnungshistorie einsehen?", "answer": "Ja. Invoicemonk bietet ein Kundenportal, in dem Ihre Kunden ihre Rechnungshistorie, den Zahlungsstatus und Rechnungsdownloads einsehen können." }
+  ],
+  "faqHeading": "Häufig gestellte Fragen",
+  "relatedReading": "Weiterführende Lektüre",
+  "relatedLinks": {
+    "pricing": "Ihre Dienstleistungen bepreisen",
+    "retainer": "Retainer-Abrechnung",
+    "gettingPaid": "Schneller bezahlt werden"
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Beratungspraxis zu verbessern?",
+    "description": "Schliessen Sie sich Beratern an, die Invoicemonk für professionelle Rechnungsstellung vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Software de faturamento para consultores | Invoicemonk",
+    "description": "Faturamento profissional para consultores de gestão e firmas de estratégia. Faturamento multi-moeda, relatórios detalhados e conformidade empresarial."
+  },
+  "hero": {
+    "badge": "Para Consultores",
+    "title": "Faturamento profissional para consultores",
+    "accentWord": "consultores",
+    "description": "Impressione clientes corporativos com faturas profissionais e em conformidade. Gerencie retainers, faturamento por projeto e pagamentos internacionais com facilidade.",
+    "primaryCta": "Começar grátis",
+    "secondaryCta": "Ver preços",
+    "trustBadge": "Usado por consultores de gestão e firmas de estratégia"
+  },
+  "benefits": {
+    "heading": "Feito para profissionais de consultoria",
+    "subheading": "Tudo que você precisa para gerenciar o faturamento de clientes no nível empresarial — de faturas retainer a relatórios multi-moeda",
+    "items": [
+      { "title": "Faturas prontas para empresas", "description": "Crie faturas profissionais que atendem aos padrões de compras corporativas e requisitos de pedidos de compra. Descrições detalhadas de escopo, referências de projeto e condições de pagamento incluídas." },
+      { "title": "Faturamento multi-moeda", "description": "Fature clientes internacionais na moeda preferida sem conversão manual. Invoicemonk suporta dezenas de moedas para projetos de consultoria transfronteiriços." },
+      { "title": "Relatórios detalhados", "description": "Gere relatórios de receita, resumos de despesas e análises de pagamentos para apresentações a clientes e suas próprias revisões financeiras." },
+      { "title": "Conformidade integrada", "description": "Mantenha-se em conformidade com requisitos fiscais em múltiplas jurisdições. Invoicemonk estrutura automaticamente as faturas conforme os padrões regulatórios." }
+    ]
+  },
+  "useCases": {
+    "heading": "Como consultores usam o Invoicemonk",
+    "subheading": "De consultores independentes a firmas boutique — veja como o Invoicemonk se encaixa nos fluxos de trabalho de consultoria",
+    "items": [
+      { "title": "Engajamentos retainer", "description": "Configure uma fatura mensal recorrente para cada cliente retainer. Invoicemonk gera e envia a fatura automaticamente no primeiro dia de cada mês." },
+      { "title": "Marcos de projeto", "description": "Para engajamentos de estratégia, crie faturas baseadas em marcos. 30% no início, 40% na revisão intermediária e 30% na entrega final." },
+      { "title": "Consultoria transfronteiriça", "description": "Assessore clientes em diferentes países sem dor de cabeça com faturamento. Fature em Naira, Libras e Dólares — tudo de uma única conta." }
+    ]
+  },
+  "challenges": {
+    "heading": "Desafios comuns de consultoria — resolvidos",
+    "subheading": "Construímos o Invoicemonk em torno dos problemas reais de faturamento que consultores enfrentam",
+    "items": [
+      { "problem": "Clientes corporativos rejeitam faturas que não atendem ao formato de compras", "solution": "Crie faturas com números de pedido, descrições detalhadas de escopo e condições de pagamento que satisfazem departamentos contábeis." },
+      { "problem": "Equilibrar faturamento retainer e faturas por projeto entre múltiplos clientes", "solution": "Gerencie ambos os modelos de faturamento em um painel. Configure faturas recorrentes para retainers e faturas por marcos para projetos." },
+      { "problem": "Perder horas faturáveis com trabalho administrativo", "solution": "Automatize geração de faturas, lembretes de pagamento e categorização de despesas. Dedique seu tempo ao trabalho com clientes." },
+      { "problem": "Dificuldade em rastrear receitas e despesas em engajamentos internacionais", "solution": "Suporte multi-moeda com relatórios unificados. Veja sua receita total na moeda base enquanto fatura cada cliente na sua." }
+    ]
+  },
+  "workflow": {
+    "heading": "Como funciona",
+    "subheading": "Da configuração aos relatórios financeiros — otimizado para consultores",
+    "steps": [
+      { "title": "Configure seu perfil de consultoria", "description": "Adicione seus dados comerciais, logo e condições de pagamento padrão. Configure seu modelo de fatura com campos para números de pedido e referências de projeto." },
+      { "title": "Crie perfis de clientes", "description": "Adicione cada cliente com endereço de faturamento, contato, moeda preferida e condições de pagamento. Para clientes retainer, configure um cronograma de faturamento recorrente." },
+      { "title": "Fature e acompanhe", "description": "Gere faturas com itens detalhados — taxas horárias, honorários fixos ou entregas por marco. Envie instantaneamente por email. Invoicemonk rastreia o status de cada fatura." },
+      { "title": "Relate e revise", "description": "Ao final de cada mês ou trimestre, consulte relatórios financeiros mostrando receita por cliente, faturas pendentes e resumos de despesas." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Por que consultores escolhem o Invoicemonk",
+    "paragraphs": [
+      "Softwares de contabilidade empresarial como QuickBooks ou Xero são projetados para empresas com folha de pagamento, estoque e orçamentos departamentais. Como consultor, você não precisa de nada disso.",
+      "Invoicemonk é feito especialmente para profissionais de serviços. A interface é simples o suficiente para usar entre chamadas com clientes, mas poderosa o suficiente para lidar com requisitos de compras empresariais.",
+      "Invoicemonk entende o modelo de faturamento de consultoria. Seja cobrando por hora, por marco de projeto ou em retainer, o fluxo de faturamento se adapta à sua estrutura de engajamento."
+    ]
+  },
+  "checklist": {
+    "heading": "O que consultores ganham com o Invoicemonk",
+    "items": [
+      "Faturas profissionais com marca",
+      "Gerenciamento de faturas retainer",
+      "Faturamento por projeto",
+      "Suporte multi-moeda",
+      "Lembretes automáticos de pagamento",
+      "Relatórios financeiros detalhados",
+      "Integração de rastreamento de tempo",
+      "Acesso ao portal do cliente",
+      "Faturas recorrentes",
+      "Registros em conformidade fiscal"
+    ]
+  },
+  "testimonials": {
+    "heading": "Usado por consultores",
+    "items": [
+      { "quote": "Meus clientes corporativos ficam impressionados com as faturas profissionais. Antes, eu passava horas formatando faturas no Word. Agora leva dois minutos.", "author": "Tunde A.", "role": "Consultor de gestão" },
+      { "quote": "Gerenciar clientes retainer e faturamento por projeto é fluido. Invoicemonk lida com ambos sem confusão.", "author": "Amaka E.", "role": "Consultora de estratégia" },
+      { "quote": "Os relatórios financeiros foram transformadores. Posso ver receita por cliente e preparar a temporada fiscal sem contratar um contador.", "author": "David R.", "role": "Consultor de TI" }
+    ]
+  },
+  "faqs": [
+    { "question": "O Invoicemonk é adequado para firmas de consultoria de gestão?", "answer": "Sim. Invoicemonk é usado por consultores independentes e pequenas firmas. Gerencie múltiplos clientes, rastreie faturamento retainer e gere faturas profissionais." },
+    { "question": "Posso faturar clientes em retainer?", "answer": "Com certeza. Configure faturas recorrentes automáticas no cronograma escolhido. Ideal para retainers de consultoria com honorários mensais fixos." },
+    { "question": "O Invoicemonk suporta faturamento multi-moeda?", "answer": "Sim. Fature clientes internacionais na moeda preferida. Invoicemonk suporta dezenas de moedas." },
+    { "question": "Posso gerar relatórios financeiros para apresentações a clientes?", "answer": "Sim. Invoicemonk fornece relatórios de receita, resumos de despesas e históricos de pagamento exportáveis." },
+    { "question": "Como o Invoicemonk ajuda com conformidade fiscal?", "answer": "Todas as faturas e despesas são automaticamente categorizadas e armazenadas. Exporte seus registros para seu contador na época dos impostos." },
+    { "question": "É grátis para começar?", "answer": "Sim. O plano gratuito inclui 5 faturas e 5 recibos por mês sem cartão de crédito." },
+    { "question": "Meus clientes podem ver o histórico de faturas?", "answer": "Sim. Invoicemonk oferece um portal do cliente para consultar histórico de faturas, status de pagamentos e baixar faturas." }
+  ],
+  "faqHeading": "Perguntas frequentes",
+  "relatedReading": "Leitura relacionada",
+  "relatedLinks": {
+    "pricing": "Precificando seus serviços",
+    "retainer": "Faturamento retainer",
+    "gettingPaid": "Receber mais rápido"
+  },
+  "cta": {
+    "heading": "Pronto para elevar sua prática de consultoria?",
+    "description": "Junte-se aos consultores que confiam no Invoicemonk para faturamento profissional.",
+    "button": "Começar grátis"
+  }
+}

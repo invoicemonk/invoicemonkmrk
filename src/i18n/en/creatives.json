@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Invoicing for Creatives & Designers | Invoicemonk",
+    "description": "Professional invoicing for graphic designers, illustrators, videographers, and creative freelancers. Project billing, branded invoices, and payment tracking."
+  },
+  "hero": {
+    "badge": "For Creatives",
+    "title": "Invoicing as creative as your work",
+    "accentWord": "creative",
+    "description": "Beautiful, branded invoices for designers, illustrators, and creative professionals. Bill per project, track payments, and focus on your craft.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "View Pricing",
+    "trustBadge": "Trusted by designers and creative professionals"
+  },
+  "benefits": {
+    "heading": "Built for creative professionals",
+    "subheading": "Spend less time on paperwork, more time creating — with tools designed for how creatives actually work",
+    "items": [
+      { "title": "Project-Based Billing", "description": "Invoice per project with deposits, milestones, and final payments. Perfect for design sprints, brand identity projects, and creative campaigns where billing happens in stages." },
+      { "title": "Hourly & Flat Rate", "description": "Bill by the hour or per project. Mix both billing types on a single invoice — flat rate for creative direction, hourly for execution. Clients appreciate the transparency." },
+      { "title": "On-Brand Invoices", "description": "Create invoices that look as good as your creative work. Custom branding and professional templates ensure every client touchpoint reinforces your identity and attention to detail." },
+      { "title": "Financial Clarity", "description": "Track income across clients and projects. Know exactly what you're earning, what's outstanding, and which clients are your most valuable. Make informed decisions about pricing and capacity." }
+    ]
+  },
+  "useCases": {
+    "heading": "How creatives use Invoicemonk",
+    "subheading": "Whether you're a designer, illustrator, videographer, or copywriter — here's how Invoicemonk fits your creative workflow",
+    "items": [
+      { "title": "Brand & Identity Projects", "description": "Send a deposit invoice after the discovery session. Deliver logo concepts, collect feedback, and send the final balance invoice with the complete brand package. Each line item shows deliverables clearly — logo files, brand guidelines, social templates — so clients see the full scope." },
+      { "title": "Retainer Agreements", "description": "Set up recurring monthly invoices for ongoing design, content, or social media management retainers. Invoicemonk generates and sends each invoice automatically, so you never miss a billing cycle. Perfect for creatives with steady client relationships." },
+      { "title": "One-Off Commissions", "description": "For illustration commissions, video edits, or copywriting gigs, create a quick invoice with the project description and rate. Send it immediately after delivery while the value is fresh in the client's mind. Track payment status and let reminders handle the follow-up." }
+    ]
+  },
+  "challenges": {
+    "heading": "Common creative business challenges — solved",
+    "subheading": "We built Invoicemonk around the real problems creatives face every day",
+    "items": [
+      { "problem": "Starting creative projects without securing payment, then chasing clients who vanish", "solution": "Send deposit invoices before starting work. Clients pay upfront, confirming their commitment and protecting your time and creative energy." },
+      { "problem": "Invoices that look generic and unprofessional next to your stunning portfolio work", "solution": "Branded templates with your logo and colours ensure every invoice is an extension of your creative identity — polished and memorable." },
+      { "problem": "Losing track of which projects are paid, which have outstanding balances, and what you actually earned last month", "solution": "A unified dashboard shows every invoice status, total income by client, and outstanding balances — updated in real time." },
+      { "problem": "Spending evenings on admin instead of creating — writing invoices, chasing payments, filing receipts", "solution": "Automated reminders, recurring invoices, and automatic receipt generation handle the admin so you can focus on creative work." }
+    ]
+  },
+  "workflow": {
+    "heading": "How it works",
+    "subheading": "From project brief to getting paid — in four simple steps",
+    "steps": [
+      { "title": "Scope the project and quote", "description": "After the client brief, add their details to Invoicemonk and send a deposit invoice outlining the project scope, deliverables, and payment terms. The client receives a professional email with your branding and a clear payment link." },
+      { "title": "Create and deliver", "description": "Focus on the creative work. When you deliver final assets, create the balance invoice in under two minutes. Add line items for each deliverable — logo files, brand guidelines, social media templates — so the client sees the full value of what they received." },
+      { "title": "Get paid on time", "description": "Invoicemonk sends automatic reminders before and after the due date. You can see when the client opens the invoice. Most clients pay within a week when reminders are active — no awkward follow-up conversations needed." },
+      { "title": "Track and grow", "description": "Review income reports to see which services and clients are most profitable. Use expense tracking to understand your true margins. At tax time, export everything your accountant needs in one click." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Why creatives choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Most invoicing tools are built for accountants, not artists. They're cluttered with features you don't need and missing the ones you do — like deposit workflows, branded templates, and project-based billing. Creatives need something that's fast, beautiful, and fits the way they actually work.",
+      "Invoicemonk takes under two minutes to create and send an invoice. Your branding carries through every document, so the professionalism clients see in your portfolio extends to your business communications. Deposit invoices protect you from scope creep and no-shows. Automatic reminders handle the uncomfortable payment conversations.",
+      "And because every invoice includes a verification QR code and immutable audit trail, your corporate clients get the compliance documentation their finance teams require — without you lifting a finger."
+    ]
+  },
+  "checklist": {
+    "heading": "What creatives get with Invoicemonk",
+    "items": [
+      "Unlimited professional invoices",
+      "Project-based billing",
+      "Deposit & milestone invoicing",
+      "Custom branding & logo",
+      "Hourly and flat-rate billing",
+      "Automatic payment reminders",
+      "Expense tracking",
+      "Client management",
+      "Income reports",
+      "Tax-compliant records",
+      "Recurring invoice automation",
+      "Multi-currency support"
+    ]
+  },
+  "testimonials": {
+    "heading": "Trusted by creatives",
+    "items": [
+      { "quote": "As a graphic designer, my invoices need to look professional. Invoicemonk lets me create branded invoices in seconds — they match my portfolio aesthetic and clients always comment on how polished everything looks.", "author": "Yemi D.", "role": "Graphic Designer" },
+      { "quote": "I juggle multiple creative projects simultaneously. The project-based invoicing and payment tracking keep everything organized. I can see at a glance which clients owe me and which projects are profitable.", "author": "Tola F.", "role": "Freelance Illustrator" },
+      { "quote": "The deposit invoice feature changed my business. I used to start projects without payment, and sometimes clients would ghost. Now I always collect 50% upfront before starting any creative work.", "author": "Kemi R.", "role": "Brand Designer" }
+    ]
+  },
+  "faqs": [
+    { "question": "Can I invoice for different creative services on one invoice?", "answer": "Yes. Add multiple line items for design, illustration, copywriting, video editing, or any creative service on a single invoice. Each line item can have its own rate, quantity, and description — so clients see exactly what they're paying for." },
+    { "question": "Does Invoicemonk support project-based and hourly billing?", "answer": "Absolutely. Bill per project with flat rates, or track hours and bill based on time spent. You can mix both on a single invoice — for example, a flat fee for branding strategy plus hourly rates for execution." },
+    { "question": "Can I add my creative branding to invoices?", "answer": "Yes. Upload your logo and create invoices that reflect your creative identity. Your invoices become an extension of your portfolio — consistent, professional, and memorable." },
+    { "question": "How do deposit invoices work for creative projects?", "answer": "Create a deposit invoice for upfront payment (typically 30–50% of the project), then a final invoice for the balance upon project completion. Invoicemonk tracks both against the same client, so you always know what's outstanding." },
+    { "question": "Is there a free plan for creative freelancers?", "answer": "Yes! The free tier includes 5 invoices and 5 receipts per month with no credit card required. Perfect for creatives who are just getting started or taking on occasional projects." },
+    { "question": "Can I set up recurring invoices for retainer clients?", "answer": "Yes. Set up automatic monthly invoices for retainer agreements — common for ongoing design, content creation, or social media management contracts. Invoicemonk generates and sends them on schedule." },
+    { "question": "Does Invoicemonk handle international clients?", "answer": "Yes. Multi-currency support lets you invoice international clients in their local currency. Each invoice shows the correct currency symbol and amount, and your payment details for that currency." }
+  ],
+  "faqHeading": "Frequently asked questions",
+  "relatedReading": "Related reading",
+  "relatedLinks": {
+    "graphicDesigner": "Graphic Designer Career Guide",
+    "pricing": "Pricing Your Services",
+    "portfolio": "Portfolio Guide"
+  },
+  "cta": {
+    "heading": "Ready to level up your creative business?",
+    "description": "Join creative professionals who trust Invoicemonk for their invoicing.",
+    "button": "Get Started Free"
+  }
+}

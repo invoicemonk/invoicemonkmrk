@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Invoicing Software for Consultants | Invoicemonk",
+    "description": "Professional invoicing for management consultants and strategy firms. Multi-currency billing, detailed reporting, and enterprise-ready compliance."
+  },
+  "hero": {
+    "badge": "For Consultants",
+    "title": "Professional invoicing for consultants",
+    "accentWord": "consultants",
+    "description": "Impress enterprise clients with professional, compliant invoices. Manage retainers, project billing, and international payments with ease.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "View Pricing",
+    "trustBadge": "Trusted by management consultants and strategy firms"
+  },
+  "benefits": {
+    "heading": "Built for consulting professionals",
+    "subheading": "Everything you need to manage client billing at the enterprise level — from retainer invoicing to multi-currency reporting",
+    "items": [
+      { "title": "Enterprise-Ready Invoices", "description": "Create professional invoices that meet corporate procurement standards and purchase order requirements. Include detailed scope descriptions, project references, and payment terms that enterprise clients expect." },
+      { "title": "Multi-Currency Billing", "description": "Invoice international clients in their preferred currency without manual conversion. Invoicemonk handles dozens of currencies, making cross-border consulting engagements seamless and professional." },
+      { "title": "Detailed Reporting", "description": "Generate income reports, expense summaries, and payment analytics for client presentations and your own financial reviews. Export clean, professional reports that support strategic decision-making." },
+      { "title": "Compliance Built-In", "description": "Stay compliant with tax requirements across multiple jurisdictions. Invoicemonk automatically structures invoices to meet regulatory standards, giving your enterprise clients confidence in your operations." }
+    ]
+  },
+  "useCases": {
+    "heading": "How consultants use Invoicemonk",
+    "subheading": "From solo advisors to boutique firms — here's how Invoicemonk fits consulting workflows",
+    "items": [
+      { "title": "Retainer Engagements", "description": "Set up a recurring monthly invoice for each retainer client. Invoicemonk generates and sends the invoice automatically on the first of every month. Your client knows when to expect it, and you never forget to bill. Track retainer revenue separately from project work for clear financial reporting." },
+      { "title": "Project Milestones", "description": "For strategy engagements or transformation projects, create milestone-based invoices tied to deliverables. Invoice 30% at project kickoff, 40% at midpoint review, and 30% on final delivery. Each invoice references the specific milestone and scope of work completed." },
+      { "title": "Cross-Border Advisory", "description": "Advise clients in different countries without invoicing headaches. Bill a Nigerian client in Naira, a UK client in Pounds, and a US client in Dollars — all from one account. Each invoice is formatted with the correct currency, tax structure, and compliance details for that jurisdiction." }
+    ]
+  },
+  "challenges": {
+    "heading": "Common consulting challenges — solved",
+    "subheading": "We built Invoicemonk around the real billing problems consultants face",
+    "items": [
+      { "problem": "Enterprise clients reject invoices that don't meet their procurement format", "solution": "Create invoices with PO numbers, detailed scope descriptions, and payment terms that satisfy corporate accounting departments." },
+      { "problem": "Juggling retainer billing and project-based invoices across multiple clients", "solution": "Manage both billing models from one dashboard. Set up recurring invoices for retainers and milestone invoices for projects — each client gets the right billing structure." },
+      { "problem": "Losing billable hours to admin work like invoicing and financial tracking", "solution": "Automate invoice generation, payment reminders, and expense categorisation. Spend your time on client work, not spreadsheets." },
+      { "problem": "Difficulty tracking revenue and expenses across international engagements", "solution": "Multi-currency support with unified reporting. See your total revenue in your base currency while billing each client in theirs." }
+    ]
+  },
+  "workflow": {
+    "heading": "How it works",
+    "subheading": "From setup to financial reporting — streamlined for consultants",
+    "steps": [
+      { "title": "Set up your consulting profile", "description": "Add your business details, logo, and default payment terms. If you work with enterprise clients, configure your invoice template to include fields for PO numbers, project references, and detailed scope descriptions. This setup takes five minutes and ensures every invoice meets corporate standards." },
+      { "title": "Create client profiles", "description": "Add each client with their billing address, contact person, preferred currency, and payment terms. For retainer clients, set up a recurring invoice schedule. For project clients, create a billing milestone plan. All details are saved for future engagements." },
+      { "title": "Invoice and track", "description": "Generate invoices with detailed line items — hourly rates, fixed fees, or milestone deliverables. Send them instantly via email. Invoicemonk tracks the status of every invoice: sent, viewed, paid, or overdue. Automatic reminders handle follow-ups for you." },
+      { "title": "Report and review", "description": "At the end of each month or quarter, pull financial reports showing revenue by client, outstanding invoices, and expense summaries. Use these reports for your own financial planning, tax preparation, or client presentations where you need to demonstrate project billing history." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Why consultants choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Enterprise accounting software like QuickBooks or Xero is designed for businesses with payroll, inventory, and multi-department budgets. As a consultant, you don't need any of that. What you need is a clean, professional way to bill clients, track payments, and report on your revenue — without spending hours learning complex software.",
+      "Invoicemonk is purpose-built for service professionals. The interface is simple enough to use between client calls, but powerful enough to handle enterprise procurement requirements, multi-currency billing, and recurring retainer invoices. You get the professionalism of enterprise tools without the complexity.",
+      "Most importantly, Invoicemonk understands the consulting billing model. Whether you bill hourly, by project milestone, or on a fixed retainer, the invoicing workflow adapts to your engagement structure — not the other way around."
+    ]
+  },
+  "checklist": {
+    "heading": "What consultants get with Invoicemonk",
+    "items": [
+      "Professional branded invoices",
+      "Retainer invoice management",
+      "Project-based billing",
+      "Multi-currency support",
+      "Automatic payment reminders",
+      "Detailed financial reports",
+      "Time tracking integration",
+      "Client portal access",
+      "Recurring invoices",
+      "Tax-compliant records"
+    ]
+  },
+  "testimonials": {
+    "heading": "Trusted by consultants",
+    "items": [
+      { "quote": "My corporate clients are impressed with the professional invoices. I used to spend hours formatting invoices in Word to meet procurement requirements. Now it takes two minutes, and the compliance features give clients confidence in working with me.", "author": "Tunde A.", "role": "Management Consultant" },
+      { "quote": "Managing retainer clients and project-based billing is seamless. I have clients on monthly retainers and others on milestone billing, and Invoicemonk handles both without any confusion. I can focus on delivering value instead of chasing payments.", "author": "Amaka E.", "role": "Strategy Consultant" },
+      { "quote": "The financial reporting has been a game-changer. I can pull up revenue by client, track my utilisation rate, and prepare for tax season without hiring a bookkeeper. For a solo consultant, that's invaluable.", "author": "David R.", "role": "IT Consultant" }
+    ]
+  },
+  "faqs": [
+    { "question": "Is Invoicemonk suitable for management consulting firms?", "answer": "Yes. Invoicemonk is used by solo consultants and small consulting firms alike. You can manage multiple clients, track retainer billing, and generate professional invoices that meet corporate procurement standards — all from one dashboard." },
+    { "question": "Can I bill clients on retainer?", "answer": "Absolutely. Set up recurring invoices that automatically generate and send on your chosen schedule. This is ideal for consulting retainers where you bill a fixed monthly fee. You can also create milestone-based invoices for project engagements." },
+    { "question": "Does Invoicemonk support multi-currency invoicing?", "answer": "Yes. Invoice international clients in their preferred currency. Invoicemonk supports dozens of currencies, and each invoice clearly displays the currency and amount. This is essential for consultants who work across borders." },
+    { "question": "Can I generate financial reports for client presentations?", "answer": "Yes. Invoicemonk provides income reports, expense summaries, and payment history that you can export and use in client presentations or financial reviews. The reports are clean and professional enough to share with enterprise clients." },
+    { "question": "How does Invoicemonk help with tax compliance?", "answer": "All invoices and expenses are automatically categorised and stored. At tax time, export your records for your accountant or use the built-in reports to calculate your tax obligations. Invoicemonk supports tax configurations for multiple countries." },
+    { "question": "Is it free to get started?", "answer": "Yes. The free tier includes 5 invoices and 5 receipts per month with no credit card required. Upgrade as your consulting practice grows and you need unlimited invoicing, recurring billing, or advanced reporting features." },
+    { "question": "Can my clients see their invoice history?", "answer": "Yes. Invoicemonk provides a client portal where your clients can view their invoice history, payment status, and download invoices. This is particularly valuable for enterprise clients who need records for their own accounting." }
+  ],
+  "faqHeading": "Frequently asked questions",
+  "relatedReading": "Related reading",
+  "relatedLinks": {
+    "pricing": "Pricing Your Services",
+    "retainer": "Retainer Billing",
+    "gettingPaid": "Getting Paid Faster"
+  },
+  "cta": {
+    "heading": "Ready to elevate your consulting practice?",
+    "description": "Join consultants who trust Invoicemonk for professional invoicing.",
+    "button": "Get Started Free"
+  }
+}

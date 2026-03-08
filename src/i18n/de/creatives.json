@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Rechnungsstellung für Kreative & Designer | Invoicemonk",
+    "description": "Professionelle Rechnungsstellung für Grafikdesigner, Illustratoren, Videografen und kreative Freiberufler. Projektabrechnung, gebrandete Rechnungen und Zahlungsverfolgung."
+  },
+  "hero": {
+    "badge": "Für Kreative",
+    "title": "Rechnungsstellung so kreativ wie Ihre Arbeit",
+    "accentWord": "kreativ",
+    "description": "Schöne, gebrandete Rechnungen für Designer, Illustratoren und kreative Profis. Projektweise abrechnen, Zahlungen verfolgen und sich auf Ihr Handwerk konzentrieren.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen",
+    "trustBadge": "Vertraut von Designern und kreativen Profis"
+  },
+  "benefits": {
+    "heading": "Entwickelt für kreative Profis",
+    "subheading": "Weniger Zeit für Papierkram, mehr Zeit zum Kreieren — mit Werkzeugen, die für kreative Arbeitsweisen entwickelt wurden",
+    "items": [
+      { "title": "Projektbasierte Abrechnung", "description": "Rechnen Sie projektweise mit Anzahlungen, Meilensteinen und Endzahlungen ab. Perfekt für Design-Sprints, Markenidentitäts-Projekte und kreative Kampagnen." },
+      { "title": "Stunden- & Pauschalsätze", "description": "Rechnen Sie nach Stunden oder pro Projekt ab. Mischen Sie beide Abrechnungsarten auf einer Rechnung — Pauschale für Creative Direction, Stundensatz für die Ausführung." },
+      { "title": "Gebrandete Rechnungen", "description": "Erstellen Sie Rechnungen, die so gut aussehen wie Ihre kreative Arbeit. Individuelles Branding und professionelle Vorlagen verstärken Ihre Identität bei jedem Kundenkontakt." },
+      { "title": "Finanzielle Klarheit", "description": "Verfolgen Sie Einnahmen über Kunden und Projekte hinweg. Wissen Sie genau, was Sie verdienen, was aussteht und welche Kunden am wertvollsten sind." }
+    ]
+  },
+  "useCases": {
+    "heading": "Wie Kreative Invoicemonk nutzen",
+    "subheading": "Ob Designer, Illustrator, Videograf oder Texter — so passt Invoicemonk in Ihren kreativen Workflow",
+    "items": [
+      { "title": "Marken- & Identitätsprojekte", "description": "Senden Sie nach dem Discovery-Meeting eine Anzahlungsrechnung. Liefern Sie Logo-Entwürfe, sammeln Sie Feedback und senden Sie die Schlussrechnung mit dem kompletten Markenpaket." },
+      { "title": "Retainer-Vereinbarungen", "description": "Richten Sie wiederkehrende monatliche Rechnungen für laufende Design-, Content- oder Social-Media-Management-Retainer ein. Invoicemonk erstellt und versendet jede Rechnung automatisch." },
+      { "title": "Einzelaufträge", "description": "Für Illustrationsaufträge, Videobearbeitungen oder Texter-Jobs erstellen Sie schnell eine Rechnung mit Projektbeschreibung und Tarif. Versenden Sie sie sofort nach der Lieferung." }
+    ]
+  },
+  "challenges": {
+    "heading": "Häufige kreative Geschäftsherausforderungen — gelöst",
+    "subheading": "Wir haben Invoicemonk um die echten Probleme herum entwickelt, denen Kreative täglich begegnen",
+    "items": [
+      { "problem": "Kreativprojekte beginnen, ohne Zahlung gesichert zu haben, und dann Kunden hinterherlaufen", "solution": "Senden Sie Anzahlungsrechnungen vor Arbeitsbeginn. Kunden zahlen im Voraus und bestätigen ihr Engagement." },
+      { "problem": "Rechnungen, die neben Ihrem beeindruckenden Portfolio generisch und unprofessionell aussehen", "solution": "Gebrandete Vorlagen mit Ihrem Logo und Ihren Farben stellen sicher, dass jede Rechnung eine Erweiterung Ihrer kreativen Identität ist." },
+      { "problem": "Den Überblick verlieren, welche Projekte bezahlt sind und was Sie letzten Monat verdient haben", "solution": "Ein einheitliches Dashboard zeigt jeden Rechnungsstatus, Gesamteinnahmen nach Kunde und offene Salden — in Echtzeit aktualisiert." },
+      { "problem": "Abende mit Verwaltung statt Kreation verbringen", "solution": "Automatische Erinnerungen, wiederkehrende Rechnungen und automatische Belegserstellung erledigen die Verwaltung, damit Sie sich auf kreative Arbeit konzentrieren können." }
+    ]
+  },
+  "workflow": {
+    "heading": "So funktioniert es",
+    "subheading": "Vom Projektbriefing bis zur Bezahlung — in vier einfachen Schritten",
+    "steps": [
+      { "title": "Projekt umreissen und Angebot erstellen", "description": "Nach dem Kundenbriefing fügen Sie die Details in Invoicemonk hinzu und senden eine Anzahlungsrechnung mit Projektumfang, Liefergegenständen und Zahlungsbedingungen." },
+      { "title": "Erstellen und liefern", "description": "Konzentrieren Sie sich auf die kreative Arbeit. Bei der Lieferung der finalen Dateien erstellen Sie die Restrechnung in unter zwei Minuten mit detaillierten Positionen." },
+      { "title": "Pünktlich bezahlt werden", "description": "Invoicemonk sendet automatische Erinnerungen vor und nach dem Fälligkeitsdatum. Die meisten Kunden zahlen innerhalb einer Woche, wenn Erinnerungen aktiv sind." },
+      { "title": "Verfolgen und wachsen", "description": "Überprüfen Sie Einkommensberichte, um die profitabelsten Dienstleistungen und Kunden zu identifizieren. Zur Steuerzeit exportieren Sie alles mit einem Klick." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Warum Kreative Invoicemonk gegenüber Alternativen wählen",
+    "paragraphs": [
+      "Die meisten Rechnungstools sind für Buchhalter gebaut, nicht für Künstler. Sie sind vollgestopft mit Funktionen, die Sie nicht brauchen, und es fehlen die, die Sie brauchen — wie Anzahlungs-Workflows, gebrandete Vorlagen und projektbasierte Abrechnung.",
+      "Invoicemonk braucht weniger als zwei Minuten, um eine Rechnung zu erstellen und zu versenden. Ihr Branding zieht sich durch jedes Dokument. Anzahlungsrechnungen schützen Sie vor Scope Creep. Automatische Erinnerungen übernehmen die unangenehmen Zahlungsgespräche.",
+      "Und weil jede Rechnung einen Verifizierungs-QR-Code und einen unveränderlichen Prüfpfad enthält, erhalten Ihre Unternehmenskunden die Compliance-Dokumentation, die ihre Finanzteams benötigen."
+    ]
+  },
+  "checklist": {
+    "heading": "Was Kreative mit Invoicemonk bekommen",
+    "items": [
+      "Unbegrenzte professionelle Rechnungen",
+      "Projektbasierte Abrechnung",
+      "Anzahlungs- & Meilenstein-Rechnungen",
+      "Individuelles Branding & Logo",
+      "Stunden- und Pauschalabrechnung",
+      "Automatische Zahlungserinnerungen",
+      "Ausgabenverfolgung",
+      "Kundenverwaltung",
+      "Einkommensberichte",
+      "Steuerkonforme Aufzeichnungen",
+      "Wiederkehrende Rechnungsautomatisierung",
+      "Mehrwährungsunterstützung"
+    ]
+  },
+  "testimonials": {
+    "heading": "Vertraut von Kreativen",
+    "items": [
+      { "quote": "Als Grafikdesigner müssen meine Rechnungen professionell aussehen. Invoicemonk lässt mich gebrandete Rechnungen in Sekunden erstellen — sie passen zu meiner Portfolio-Ästhetik.", "author": "Yemi D.", "role": "Grafikdesigner" },
+      { "quote": "Ich jongliere mit mehreren kreativen Projekten gleichzeitig. Die projektbasierte Rechnungsstellung und Zahlungsverfolgung halten alles organisiert.", "author": "Tola F.", "role": "Freiberufliche Illustratorin" },
+      { "quote": "Die Anzahlungsrechnung hat mein Geschäft verändert. Jetzt kassiere ich immer 50% im Voraus, bevor ich mit kreativer Arbeit beginne.", "author": "Kemi R.", "role": "Brand-Designerin" }
+    ]
+  },
+  "faqs": [
+    { "question": "Kann ich verschiedene kreative Dienstleistungen auf einer Rechnung abrechnen?", "answer": "Ja. Fügen Sie mehrere Positionen für Design, Illustration, Texterstellung oder Videobearbeitung auf einer einzigen Rechnung hinzu." },
+    { "question": "Unterstützt Invoicemonk projektbasierte und stündliche Abrechnung?", "answer": "Absolut. Rechnen Sie pro Projekt mit Pauschalen ab oder verfolgen Sie Stunden. Sie können beide auf einer Rechnung mischen." },
+    { "question": "Kann ich mein kreatives Branding auf Rechnungen hinzufügen?", "answer": "Ja. Laden Sie Ihr Logo hoch und erstellen Sie Rechnungen, die Ihre kreative Identität widerspiegeln." },
+    { "question": "Wie funktionieren Anzahlungsrechnungen für kreative Projekte?", "answer": "Erstellen Sie eine Anzahlungsrechnung für die Vorauszahlung (typischerweise 30–50%), dann eine Schlussrechnung nach Projektabschluss." },
+    { "question": "Gibt es einen kostenlosen Plan für kreative Freiberufler?", "answer": "Ja! Die kostenlose Version umfasst 5 Rechnungen und 5 Belege pro Monat ohne Kreditkarte." },
+    { "question": "Kann ich wiederkehrende Rechnungen für Retainer-Kunden einrichten?", "answer": "Ja. Richten Sie automatische monatliche Rechnungen für Retainer-Vereinbarungen ein. Invoicemonk erstellt und versendet sie nach Zeitplan." },
+    { "question": "Unterstützt Invoicemonk internationale Kunden?", "answer": "Ja. Mehrwährungsunterstützung ermöglicht die Rechnungsstellung an internationale Kunden in ihrer lokalen Währung." }
+  ],
+  "faqHeading": "Häufig gestellte Fragen",
+  "relatedReading": "Weiterführende Lektüre",
+  "relatedLinks": {
+    "graphicDesigner": "Karriereguide Grafikdesigner",
+    "pricing": "Ihre Dienstleistungen bepreisen",
+    "portfolio": "Portfolio-Leitfaden"
+  },
+  "cta": {
+    "heading": "Bereit, Ihr kreatives Business zu verbessern?",
+    "description": "Schliessen Sie sich kreativen Profis an, die Invoicemonk für ihre Rechnungsstellung vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

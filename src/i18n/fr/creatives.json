@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "Facturation pour créatifs et designers | Invoicemonk",
+    "description": "Facturation professionnelle pour graphistes, illustrateurs, vidéastes et créatifs freelance. Facturation par projet, factures personnalisées et suivi des paiements."
+  },
+  "hero": {
+    "badge": "Pour les créatifs",
+    "title": "Une facturation aussi créative que votre travail",
+    "accentWord": "créative",
+    "description": "De belles factures personnalisées pour designers, illustrateurs et professionnels créatifs. Facturez par projet, suivez les paiements et concentrez-vous sur votre art.",
+    "primaryCta": "Commencer gratuitement",
+    "secondaryCta": "Voir les tarifs",
+    "trustBadge": "Adopté par les designers et professionnels créatifs"
+  },
+  "benefits": {
+    "heading": "Conçu pour les professionnels créatifs",
+    "subheading": "Moins de temps sur la paperasse, plus de temps pour créer — avec des outils conçus pour la façon dont les créatifs travaillent vraiment",
+    "items": [
+      { "title": "Facturation par projet", "description": "Facturez par projet avec acomptes, jalons et paiements finaux. Parfait pour les sprints de design, projets d'identité de marque et campagnes créatives." },
+      { "title": "Tarifs horaires et forfaitaires", "description": "Facturez à l'heure ou par projet. Mélangez les deux types sur une même facture — forfait pour la direction créative, horaire pour l'exécution." },
+      { "title": "Factures à votre image", "description": "Créez des factures aussi belles que votre travail créatif. Branding personnalisé et modèles professionnels pour renforcer votre identité à chaque contact client." },
+      { "title": "Clarté financière", "description": "Suivez vos revenus par client et par projet. Sachez exactement ce que vous gagnez, ce qui est en attente et quels clients sont les plus précieux." }
+    ]
+  },
+  "useCases": {
+    "heading": "Comment les créatifs utilisent Invoicemonk",
+    "subheading": "Que vous soyez designer, illustrateur, vidéaste ou rédacteur — voici comment Invoicemonk s'intègre à votre workflow créatif",
+    "items": [
+      { "title": "Projets de marque et identité", "description": "Envoyez une facture d'acompte après la session de découverte. Livrez les concepts de logo, collectez les retours et envoyez la facture finale avec le package complet de marque." },
+      { "title": "Contrats retainer", "description": "Configurez des factures mensuelles récurrentes pour les retainers de design, contenu ou gestion de réseaux sociaux. Invoicemonk génère et envoie chaque facture automatiquement." },
+      { "title": "Commandes ponctuelles", "description": "Pour les commandes d'illustration, montages vidéo ou rédaction, créez rapidement une facture avec la description du projet et le tarif. Envoyez-la immédiatement après la livraison." }
+    ]
+  },
+  "challenges": {
+    "heading": "Défis courants des entreprises créatives — résolus",
+    "subheading": "Nous avons construit Invoicemonk autour des vrais problèmes que les créatifs rencontrent chaque jour",
+    "items": [
+      { "problem": "Commencer des projets créatifs sans sécuriser le paiement, puis courir après des clients qui disparaissent", "solution": "Envoyez des factures d'acompte avant de commencer. Les clients paient d'avance, confirmant leur engagement." },
+      { "problem": "Des factures génériques et peu professionnelles à côté de votre portfolio magnifique", "solution": "Des modèles personnalisés avec votre logo et vos couleurs — chaque facture est une extension de votre identité créative." },
+      { "problem": "Perdre le fil de quels projets sont payés et ce que vous avez vraiment gagné le mois dernier", "solution": "Un tableau de bord unifié montre le statut de chaque facture, les revenus totaux par client et les soldes en cours — en temps réel." },
+      { "problem": "Passer des soirées sur l'administratif au lieu de créer", "solution": "Rappels automatiques, factures récurrentes et génération automatique de reçus gèrent l'administratif pour vous." }
+    ]
+  },
+  "workflow": {
+    "heading": "Comment ça marche",
+    "subheading": "Du brief projet au paiement — en quatre étapes simples",
+    "steps": [
+      { "title": "Cadrer le projet et devis", "description": "Après le brief client, ajoutez les détails dans Invoicemonk et envoyez une facture d'acompte décrivant le périmètre, les livrables et les conditions de paiement." },
+      { "title": "Créer et livrer", "description": "Concentrez-vous sur le travail créatif. À la livraison des fichiers finaux, créez la facture de solde en moins de deux minutes avec des postes détaillés." },
+      { "title": "Être payé à temps", "description": "Invoicemonk envoie des rappels automatiques avant et après la date d'échéance. La plupart des clients paient dans la semaine." },
+      { "title": "Suivre et grandir", "description": "Analysez les rapports de revenus pour identifier vos services et clients les plus rentables. Au moment des impôts, exportez tout en un clic." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Pourquoi les créatifs choisissent Invoicemonk",
+    "paragraphs": [
+      "La plupart des outils de facturation sont conçus pour les comptables, pas pour les artistes. Ils sont encombrés de fonctions inutiles et manquent celles dont vous avez besoin — comme les workflows d'acompte, les modèles personnalisés et la facturation par projet.",
+      "Invoicemonk prend moins de deux minutes pour créer et envoyer une facture. Votre branding est présent sur chaque document. Les factures d'acompte vous protègent du scope creep. Les rappels automatiques gèrent les conversations de paiement délicates.",
+      "Et parce que chaque facture inclut un QR code de vérification et une piste d'audit immuable, vos clients entreprise obtiennent la documentation de conformité requise par leurs équipes financières."
+    ]
+  },
+  "checklist": {
+    "heading": "Ce que les créatifs obtiennent avec Invoicemonk",
+    "items": [
+      "Factures professionnelles illimitées",
+      "Facturation par projet",
+      "Facturation par acompte et jalons",
+      "Branding et logo personnalisés",
+      "Facturation horaire et forfaitaire",
+      "Rappels de paiement automatiques",
+      "Suivi des dépenses",
+      "Gestion des clients",
+      "Rapports de revenus",
+      "Documents conformes aux impôts",
+      "Automatisation des factures récurrentes",
+      "Support multi-devises"
+    ]
+  },
+  "testimonials": {
+    "heading": "Adopté par les créatifs",
+    "items": [
+      { "quote": "En tant que graphiste, mes factures doivent être professionnelles. Invoicemonk me permet de créer des factures personnalisées en quelques secondes — elles correspondent à l'esthétique de mon portfolio.", "author": "Yemi D.", "role": "Graphiste" },
+      { "quote": "Je jongle avec plusieurs projets créatifs simultanément. La facturation par projet et le suivi des paiements gardent tout organisé.", "author": "Tola F.", "role": "Illustratrice freelance" },
+      { "quote": "La fonction de facture d'acompte a transformé mon activité. Maintenant je collecte toujours 50% d'avance avant de commencer tout travail créatif.", "author": "Kemi R.", "role": "Designer de marque" }
+    ]
+  },
+  "faqs": [
+    { "question": "Puis-je facturer différents services créatifs sur une même facture ?", "answer": "Oui. Ajoutez plusieurs postes pour design, illustration, rédaction ou montage vidéo sur une seule facture." },
+    { "question": "Invoicemonk supporte-t-il la facturation par projet et à l'heure ?", "answer": "Absolument. Facturez par projet avec des forfaits, ou suivez les heures. Vous pouvez mélanger les deux sur une même facture." },
+    { "question": "Puis-je ajouter mon branding créatif aux factures ?", "answer": "Oui. Téléchargez votre logo et créez des factures qui reflètent votre identité créative." },
+    { "question": "Comment fonctionnent les factures d'acompte pour les projets créatifs ?", "answer": "Créez une facture d'acompte pour le paiement initial (généralement 30–50%), puis une facture finale à l'achèvement du projet." },
+    { "question": "Y a-t-il un plan gratuit pour les créatifs freelance ?", "answer": "Oui ! La version gratuite inclut 5 factures et 5 reçus par mois sans carte de crédit." },
+    { "question": "Puis-je configurer des factures récurrentes pour les clients retainer ?", "answer": "Oui. Configurez des factures mensuelles automatiques pour les contrats retainer. Invoicemonk les génère et les envoie selon le calendrier." },
+    { "question": "Invoicemonk gère-t-il les clients internationaux ?", "answer": "Oui. Le support multi-devises permet de facturer les clients internationaux dans leur devise locale." }
+  ],
+  "faqHeading": "Questions fréquemment posées",
+  "relatedReading": "Lectures connexes",
+  "relatedLinks": {
+    "graphicDesigner": "Guide carrière graphiste",
+    "pricing": "Tarifer vos services",
+    "portfolio": "Guide portfolio"
+  },
+  "cta": {
+    "heading": "Prêt à développer votre activité créative ?",
+    "description": "Rejoignez les professionnels créatifs qui font confiance à Invoicemonk pour leur facturation.",
+    "button": "Commencer gratuitement"
+  }
+}
