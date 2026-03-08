@@ -28,6 +28,10 @@ import '@/data/pillars.de';
 import '@/data/pillars.fr';
 import '@/data/pillars.pt';
 import '@/data/pillars.es';
+import '@/data/blogPosts.de';
+import '@/data/blogPosts.fr';
+import '@/data/blogPosts.pt';
+import '@/data/blogPosts.es';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;
