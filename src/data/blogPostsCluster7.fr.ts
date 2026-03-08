@@ -5,8 +5,8 @@ import type { BlogPost } from './blogPosts';
 const posts: BlogPost[] = [
   {
     slug: 'client-onboarding-process',
-    title: 'Comment créer un processus d'onboarding client qui impressionne',
-    excerpt: 'Un bon processus d'accueil donne le ton pour toute la relation. Guide étape par étape avec modèles.',
+    title: "Comment créer un processus d\u2019onboarding client qui impressionne",
+    excerpt: "Un bon processus d\u2019accueil donne le ton pour toute la relation. Guide étape par étape avec modèles.",
     category: 'Client Management',
     tags: ['onboarding client', 'expérience client', 'freelance'],
     author: defaultAuthor,
