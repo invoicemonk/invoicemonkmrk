@@ -25,7 +25,7 @@ export function HelpSidebar({ currentSlug }: HelpSidebarProps) {
         to="/help"
         className="text-body-sm font-semibold text-primary hover:underline"
       >
-        ← All Guides
+        {t('allGuides')}
       </Link>
       {grouped.map(group => (
         <div key={group.category}>
