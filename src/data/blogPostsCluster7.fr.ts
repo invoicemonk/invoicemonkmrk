@@ -257,7 +257,7 @@ const posts: BlogPost[] = [
   {
     slug: 'how-to-create-a-budget-for-your-small-business',
     title: 'Comment créer un budget pour votre petite entreprise',
-    excerpt: 'Guide étape par étape pour créer un budget d'entreprise efficace qui vous aide à planifier et gérer votre trésorerie.',
+    excerpt: "Guide étape par étape pour créer un budget d\u2019entreprise efficace qui vous aide à planifier et gérer votre trésorerie.",
     category: 'Small Business',
     tags: ['budget', 'planification financière', 'petite entreprise', 'trésorerie'],
     author: defaultAuthor,

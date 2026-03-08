@@ -283,7 +283,7 @@ const posts: BlogPost[] = [
   },
   {
     slug: 'tax-software-integration-guide',
-    title: 'Guide d'intégration logiciel fiscal : optimisez votre workflow fiscal',
+    title: "Guide d\u2019intégration logiciel fiscal : optimisez votre workflow fiscal",
     excerpt: 'Comment connecter vos logiciels de facturation et comptabilité à vos outils fiscaux. Réduisez les erreurs et gagnez du temps.',
     category: 'Tax and Compliance',
     tags: ['logiciel fiscal', 'intégration', 'automatisation fiscale', 'comptabilité'],
