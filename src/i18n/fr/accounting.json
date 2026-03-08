@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Logiciel de comptabilité pour petites entreprises | Partie double | Invoicemonk",
+    "description": "Logiciel de comptabilité complet avec partie double, états financiers et rapports fiscaux. Conçu pour les petites entreprises et les indépendants."
+  },
+  "hero": {
+    "badge": "Disponible maintenant",
+    "title": "Comptabilité complète, <accent>simplifiée</accent>",
+    "description": "Logiciel de comptabilité complet avec partie double, états financiers et rapports fiscaux — le tout avec les garanties de conformité d'Invoicemonk.",
+    "cta": "Commencer l'essai gratuit",
+    "secondary": "Commencer avec la facturation",
+    "mockup": {
+      "overview": "Aperçu financier",
+      "period": "T4 2024",
+      "balanceSheet": "Bilan",
+      "totalAssets": "Total des actifs",
+      "totalLiabilities": "Total des passifs",
+      "equity": "Capitaux propres",
+      "revenue": "Chiffre d'affaires",
+      "expenses": "Dépenses",
+      "chartOfAccounts": "Plan comptable",
+      "accounts": ["1000 - Caisse", "1200 - Créances clients", "2000 - Dettes fournisseurs", "4000 - Produits"]
+    }
+  },
+  "banner": {
+    "title": "La comptabilité qui travaille pour vous",
+    "features": ["Comptabilité en partie double", "États financiers", "Rapports fiscaux", "Support multi-entités", "Contrôle d'accès par rôles"]
+  },
+  "whyAdd": {
+    "title": "Ce que vous <accent>obtenez</accent>",
+    "subtitle": "Des outils comptables professionnels basés sur vos données de facturation.",
+    "features": [
+      { "title": "Comptabilité en partie double", "description": "Plan comptable complet avec écritures automatiques. Une vraie comptabilité, simplifiée." },
+      { "title": "États financiers à la demande", "description": "Bilans, comptes de résultat et tableaux de flux de trésorerie à portée de clic." },
+      { "title": "Rapports prêts pour les impôts", "description": "Générez des rapports que votre comptable adorera. Prêts pour toute échéance fiscale." }
+    ]
+  },
+  "tabs": {
+    "title": "Tout ce qu'il faut pour gérer vos comptes",
+    "subtitle": "Des opérations quotidiennes aux rapports de fin d'année.",
+    "items": [
+      { "label": "Plan comptable", "title": "Un plan comptable complet, prêt à l'emploi", "description": "Commencez avec un plan comptable standard ou personnalisez-le pour votre entreprise. Chaque transaction est automatiquement catégorisée et enregistrée correctement." },
+      { "label": "Rapports financiers", "title": "Des états financiers quand vous en avez besoin", "description": "Générez des bilans, comptes de résultat et rapports de trésorerie en un clic. Sachez toujours où en est votre entreprise financièrement." },
+      { "label": "Multi-entités", "title": "Gérez plusieurs entreprises facilement", "description": "Vous dirigez plusieurs entreprises ? Passez d'une entité à l'autre en toute fluidité et obtenez des vues consolidées de tout votre portefeuille." }
+    ]
+  },
+  "automation": {
+    "title": "Vos comptes, toujours à jour",
+    "subtitle": "L'automatisation qui garde votre comptabilité précise.",
+    "features": [
+      { "title": "Écritures automatiques", "description": "Chaque facture et dépense génère automatiquement les écritures comptables appropriées." },
+      { "title": "Rapprochement bancaire", "description": "Connectez votre banque et les transactions sont rapprochées automatiquement." },
+      { "title": "Finances en temps réel", "description": "Consultez votre compte de résultat et bilan mis à jour en temps réel." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Comment fonctionnent les flux comptables",
+    "subtitle": "Des transactions aux rapports en trois étapes simples.",
+    "steps": [
+      { "title": "Facturez et suivez les dépenses", "description": "Toute votre activité financière alimente le système comptable." },
+      { "title": "Catégorisation automatique", "description": "Les transactions sont catégorisées et enregistrées correctement." },
+      { "title": "Générez des rapports", "description": "Consultez vos états financiers quand vous en avez besoin." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Enfin, un logiciel de comptabilité qui ne me donne pas l'impression d'avoir besoin d'un diplôme en finance. Tout se fait automatiquement à partir de mes factures.",
+    "name": "Emeka Nwosu",
+    "title": "PDG",
+    "company": "Nwosu Ventures"
+  },
+  "featuredGuide": {
+    "label": "Guide recommandé",
+    "title": "Bases de la comptabilité pour petites entreprises : un guide simple",
+    "description": "Maîtrisez la comptabilité des petites entreprises en 7 étapes simples. Apprenez à configurer votre plan comptable, choisir entre comptabilité de caisse et d'engagement, et générer des rapports fiscaux.",
+    "cta": "Lire le guide complet"
+  },
+  "blog": {
+    "title": "En savoir plus sur la comptabilité des petites entreprises",
+    "subtitle": "Conseils et guides pour gérer vos finances."
+  },
+  "faq": {
+    "title": "Questions sur la comptabilité",
+    "subtitle": "Tout ce que vous devez savoir sur la gestion de vos comptes.",
+    "items": [
+      { "question": "Ai-je besoin de connaissances comptables ?", "answer": "Pas du tout ! La comptabilité Invoicemonk est conçue pour les entrepreneurs, pas les comptables. Nous gérons la complexité en coulisses et vous offrons des vues claires et simples de vos finances." },
+      { "question": "Comment cela se connecte-t-il à la facturation ?", "answer": "Quand vous créez des factures, paiements et dépenses dans Invoicemonk, ils alimentent automatiquement votre comptabilité. Pas de double saisie, pas de maux de tête de rapprochement." },
+      { "question": "Puis-je l'utiliser avec mon comptable actuel ?", "answer": "Absolument. Vous pouvez inviter votre comptable à consulter vos comptes et exporter des rapports dans des formats qu'il connaît. Nous facilitons aussi son travail." },
+      { "question": "Quels rapports financiers puis-je générer ?", "answer": "Vous pourrez générer des comptes de résultat, bilans, tableaux de flux de trésorerie, analyses d'ancienneté des créances/dettes, et des rapports fiscaux personnalisés." },
+      { "question": "Est-ce adapté aux grandes entreprises ?", "answer": "Oui ! Nos fonctionnalités comptables évoluent avec votre entreprise. Support multi-entités, permissions d'équipe et rapports avancés sont disponibles pour les entreprises en croissance." },
+      { "question": "Puis-je configurer différents rôles pour mon équipe ?", "answer": "Oui. Invoicemonk prend en charge le contrôle d'accès par rôles avec des rôles Finance, Ventes et Direction. Chaque rôle a les permissions appropriées pour que les membres voient uniquement ce dont ils ont besoin." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "Qu'est-ce qu'un logiciel de comptabilité pour petites entreprises ?", "answer": "Un logiciel de comptabilité aide à suivre les revenus et dépenses, générer des rapports financiers, gérer les factures et rester en conformité fiscale — le tout sans diplôme en comptabilité." },
+    { "question": "Ai-je besoin d'un comptable si j'utilise un logiciel ?", "answer": "Pour la comptabilité quotidienne, le logiciel gère la plupart des tâches. Pour les situations fiscales complexes ou les clôtures annuelles, un comptable est recommandé." },
+    { "question": "Quels rapports financiers puis-je générer ?", "answer": "Vous pouvez générer des comptes de résultat, bilans, rapports de trésorerie, résumés de dépenses et rapports fiscaux." },
+    { "question": "Comment un logiciel comptable aide-t-il avec les impôts ?", "answer": "Le logiciel maintient des enregistrements organisés et catégorisés, suit automatiquement les dépenses déductibles et génère des rapports acceptés par les autorités fiscales." }
+  ]
+}

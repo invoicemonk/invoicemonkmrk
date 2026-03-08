@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Buchhaltungssoftware für Kleinunternehmen | Doppelte Buchführung | Invoicemonk",
+    "description": "Komplette Buchhaltungssoftware mit doppelter Buchführung, Finanzberichten und Steuerberichten. Entwickelt für Kleinunternehmen und Freiberufler."
+  },
+  "hero": {
+    "badge": "Jetzt verfügbar",
+    "title": "Komplette Buchhaltung, <accent>einfach gemacht</accent>",
+    "description": "Komplette Buchhaltungssoftware mit doppelter Buchführung, Finanzberichten und Steuerberichten — alles mit den Compliance-Garantien von Invoicemonk.",
+    "cta": "Kostenlos testen",
+    "secondary": "Mit Rechnungsstellung starten",
+    "mockup": {
+      "overview": "Finanzübersicht",
+      "period": "Q4 2024",
+      "balanceSheet": "Bilanz",
+      "totalAssets": "Gesamtvermögen",
+      "totalLiabilities": "Gesamtverbindlichkeiten",
+      "equity": "Eigenkapital",
+      "revenue": "Umsatz",
+      "expenses": "Ausgaben",
+      "chartOfAccounts": "Kontenplan",
+      "accounts": ["1000 - Kasse", "1200 - Forderungen", "2000 - Verbindlichkeiten", "4000 - Umsatzerlöse"]
+    }
+  },
+  "banner": {
+    "title": "Buchhaltung, die für Sie arbeitet",
+    "features": ["Doppelte Buchführung", "Finanzberichte", "Steuerfertige Berichte", "Multi-Entity-Support", "Rollenbasierte Zugriffskontrolle"]
+  },
+  "whyAdd": {
+    "title": "Was Sie <accent>bekommen</accent>",
+    "subtitle": "Professionelle Buchhaltungstools auf Basis Ihrer Rechnungsdaten.",
+    "features": [
+      { "title": "Doppelte Buchführung", "description": "Vollständiger Kontenplan mit automatischen Buchungen. Echte Buchhaltung, einfach gemacht." },
+      { "title": "Finanzberichte auf Abruf", "description": "Bilanzen, GuV und Cashflow-Berichte auf Knopfdruck." },
+      { "title": "Steuerfertige Berichte", "description": "Erstellen Sie Berichte, die Ihr Steuerberater lieben wird. Bereit für jede Abgabefrist." }
+    ]
+  },
+  "tabs": {
+    "title": "Alles, was Sie für Ihre Buchhaltung brauchen",
+    "subtitle": "Von täglichen Buchungen bis zu Jahresabschlüssen.",
+    "items": [
+      { "label": "Kontenplan", "title": "Ein kompletter Kontenplan, sofort einsatzbereit", "description": "Starten Sie mit einem Standard-Kontenplan oder passen Sie ihn an Ihr Unternehmen an. Jede Transaktion wird automatisch korrekt kategorisiert und gebucht." },
+      { "label": "Finanzberichte", "title": "Finanzberichte, wenn Sie sie brauchen", "description": "Erstellen Sie Bilanzen, GuV-Berichte und Cashflow-Analysen mit einem Klick. Wissen Sie immer, wo Ihr Unternehmen finanziell steht." },
+      { "label": "Multi-Entity", "title": "Mehrere Unternehmen einfach verwalten", "description": "Betreiben Sie mehrere Unternehmen? Wechseln Sie nahtlos zwischen Einheiten und erhalten Sie konsolidierte Ansichten Ihres gesamten Portfolios." }
+    ]
+  },
+  "automation": {
+    "title": "Ihre Bücher, immer aktuell",
+    "subtitle": "Automatisierung, die Ihre Buchhaltung präzise hält.",
+    "features": [
+      { "title": "Automatische Buchungen", "description": "Jede Rechnung und Ausgabe erzeugt automatisch korrekte Buchungssätze." },
+      { "title": "Bankabstimmung", "description": "Verbinden Sie Ihre Bank und Transaktionen werden automatisch abgeglichen." },
+      { "title": "Echtzeit-Finanzen", "description": "Sehen Sie Ihre GuV und Bilanz in Echtzeit aktualisiert." }
+    ]
+  },
+  "howItWorks": {
+    "title": "So funktionieren Buchhaltungsabläufe",
+    "subtitle": "Von Transaktionen zu Berichten in drei einfachen Schritten.",
+    "steps": [
+      { "title": "Rechnungen erstellen und Ausgaben erfassen", "description": "Alle Ihre Finanzdaten fließen in das Buchhaltungssystem." },
+      { "title": "Automatische Kategorisierung", "description": "Transaktionen werden korrekt kategorisiert und gebucht." },
+      { "title": "Berichte erstellen", "description": "Rufen Sie Finanzberichte ab, wann immer Sie sie brauchen." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Endlich eine Buchhaltungssoftware, bei der ich mich nicht fühle, als bräuchte ich einen Finanzabschluss. Alles fließt einfach automatisch aus meinen Rechnungen.",
+    "name": "Emeka Nwosu",
+    "title": "Geschäftsführer",
+    "company": "Nwosu Ventures"
+  },
+  "featuredGuide": {
+    "label": "Empfohlener Leitfaden",
+    "title": "Buchhaltungsgrundlagen für Kleinunternehmen: Ein einfacher Leitfaden",
+    "description": "Meistern Sie die Buchhaltung für Kleinunternehmen in 7 einfachen Schritten. Erfahren Sie, wie Sie Ihren Kontenplan einrichten, zwischen Ist- und Sollversteuerung wählen und steuerfertige Finanzberichte erstellen.",
+    "cta": "Vollständigen Leitfaden lesen"
+  },
+  "blog": {
+    "title": "Erfahren Sie mehr über Buchhaltung für Kleinunternehmen",
+    "subtitle": "Tipps und Anleitungen zur Verwaltung Ihrer Finanzen."
+  },
+  "faq": {
+    "title": "Buchhaltungsfragen, beantwortet",
+    "subtitle": "Alles, was Sie über die Verwaltung Ihrer Bücher wissen müssen.",
+    "items": [
+      { "question": "Brauche ich Buchhaltungskenntnisse?", "answer": "Überhaupt nicht! Invoicemonk Buchhaltung ist für Unternehmer konzipiert, nicht für Buchhalter. Wir übernehmen die Komplexität im Hintergrund und bieten Ihnen klare, einfache Ansichten Ihrer Finanzen." },
+      { "question": "Wie ist die Verbindung zur Rechnungsstellung?", "answer": "Wenn Sie Rechnungen, Zahlungen und Ausgaben in Invoicemonk erstellen, fließen sie automatisch in Ihre Buchhaltung. Keine doppelte Erfassung, keine Abstimmungsprobleme." },
+      { "question": "Kann ich das mit meinem bestehenden Steuerberater nutzen?", "answer": "Absolut. Sie können Ihren Steuerberater einladen, Ihre Bücher einzusehen, und Berichte in bekannten Formaten exportieren. Wir erleichtern auch seine Arbeit." },
+      { "question": "Welche Finanzberichte kann ich erstellen?", "answer": "Sie können GuV-Berichte, Bilanzen, Cashflow-Berichte, Fälligkeitsanalysen für Forderungen/Verbindlichkeiten und benutzerdefinierte Steuerberichte erstellen." },
+      { "question": "Ist das für größere Unternehmen geeignet?", "answer": "Ja! Unsere Buchhaltungsfunktionen wachsen mit Ihrem Unternehmen. Multi-Entity-Support, Teamberechtigungen und erweiterte Berichte sind für wachsende Unternehmen verfügbar." },
+      { "question": "Kann ich verschiedene Rollen für mein Team einrichten?", "answer": "Ja. Invoicemonk unterstützt rollenbasierte Zugriffskontrolle mit Finanz-, Vertriebs- und Führungsrollen. Jede Rolle hat passende Berechtigungen, damit Teammitglieder nur das sehen, was sie brauchen." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "Was ist Buchhaltungssoftware für Kleinunternehmen?", "answer": "Buchhaltungssoftware für Kleinunternehmen hilft Ihnen, Einnahmen und Ausgaben zu verfolgen, Finanzberichte zu erstellen, Rechnungen zu verwalten und steuerkonform zu bleiben — alles ohne Buchhaltungsabschluss." },
+    { "question": "Brauche ich einen Steuerberater, wenn ich Buchhaltungssoftware nutze?", "answer": "Für die tägliche Buchführung kann die Software die meisten Aufgaben übernehmen. Für komplexe Steuersituationen oder Jahresabschlüsse wird ein Steuerberater empfohlen." },
+    { "question": "Welche Finanzberichte kann ich erstellen?", "answer": "Sie können GuV-Berichte, Bilanzen, Cashflow-Berichte, Ausgabenübersichten und steuerfertige Berichte erstellen." },
+    { "question": "Wie hilft Buchhaltungssoftware bei Steuern?", "answer": "Buchhaltungssoftware führt organisierte, kategorisierte Aufzeichnungen, verfolgt automatisch steuerlich absetzbare Ausgaben und erstellt Berichte in von Finanzbehörden akzeptierten Formaten." }
+  ]
+}
