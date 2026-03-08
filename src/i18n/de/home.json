@@ -97,6 +97,9 @@
       { "title": "Auftragnehmer", "description": "Verwalten Sie mehrere Kunden, verfolgen Sie Projektausgaben und bleiben Sie organisiert." }
     ]
   },
+  "blogPreview": {
+    "browseAll": "Alle Invoicemonk-Artikel durchsuchen"
+  },
   "blog": {
     "heading": "Aus dem",
     "headingAccent": "Blog",

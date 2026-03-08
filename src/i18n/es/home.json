@@ -97,6 +97,9 @@
       { "title": "Contratistas", "description": "Gestione múltiples clientes, rastree gastos de proyectos y manténgase organizado." }
     ]
   },
+  "blogPreview": {
+    "browseAll": "Ver todos los artículos de Invoicemonk"
+  },
   "blog": {
     "heading": "Desde el",
     "headingAccent": "Blog",
