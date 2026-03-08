@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Software de Orçamentos e Propostas Profissionais | Invoicemonk",
+    "description": "Crie orçamentos profissionais. Obtenha aprovação online e converta em faturas com um clique. Conquiste mais negócios com propostas melhores.",
+    "serviceName": "Invoicemonk Orçamentos e Propostas",
+    "serviceType": "Software de Orçamentos",
+    "serviceDescription": "Crie orçamentos profissionais. Aprovação online e conversão em faturas com um clique."
+  },
+  "seoFaqs": [
+    { "question": "Qual a diferença entre orçamento e proposta?", "answer": "Um orçamento é um custo aproximado que pode mudar. Uma proposta é um compromisso de preço fixo que normalmente não pode ser alterado após aceito." },
+    { "question": "Posso converter um orçamento em fatura?", "answer": "Sim. Com o Invoicemonk, você pode converter um orçamento aprovado em fatura com um clique. Todos os itens são transferidos automaticamente." },
+    { "question": "Como fazer um orçamento profissional?", "answer": "Um orçamento profissional deve incluir dados da empresa, informações do cliente, detalhamento dos serviços, custos individuais e totais, prazo de validade e condições de pagamento." },
+    { "question": "Devo cobrar pelos orçamentos?", "answer": "Depende do setor e da complexidade. Orçamentos simples são geralmente gratuitos, mas propostas detalhadas podem justificar uma taxa." }
+  ],
+  "hero": {
+    "badge": "Em breve",
+    "title": "Orçamentos profissionais, <accent>simplificados</accent>",
+    "subtitle": "Crie orçamentos profissionais, obtenha aprovação do cliente e converta em faturas com um clique. O fluxo completo do orçamento ao pagamento.",
+    "ctaPrimary": "Entrar na lista de espera",
+    "ctaSecondary": "Começar com faturamento"
+  },
+  "mockup": {
+    "label": "Orçamento",
+    "number": "ORC-2024-0042",
+    "status": "Aprovado",
+    "clientLabel": "Cliente",
+    "clientName": "Acme Corporation",
+    "lineItemsLabel": "Itens",
+    "totalLabel": "Total",
+    "convertLabel": "Converter em fatura",
+    "items": [
+      { "item": "Design do site", "qty": 1, "price": 3500 },
+      { "item": "Desenvolvimento", "qty": 40, "price": 4000 },
+      { "item": "Configuração SEO", "qty": 1, "price": 800 }
+    ]
+  },
+  "banner": {
+    "title": "Orçamentos que trabalham por você",
+    "features": ["Orçamentos profissionais", "Aprovação com um clique", "Converter em fatura", "Rastreamento de validade"]
+  },
+  "features": {
+    "title": "Conquiste mais trabalho com <accent>orçamentos profissionais</accent>",
+    "subtitle": "Da proposta ao pagamento em um fluxo contínuo.",
+    "blocks": [
+      { "title": "Orçamentos profissionais em minutos", "description": "Crie orçamentos bonitos e personalizados que causam uma ótima primeira impressão." },
+      { "title": "Aprovação do cliente com um clique", "description": "Clientes podem revisar e aprovar orçamentos online — sem imprimir ou assinar." },
+      { "title": "Conversão instantânea em fatura", "description": "Transforme orçamentos aprovados em faturas com um único clique." }
+    ]
+  },
+  "tabs": {
+    "title": "Tudo para orçamentos profissionais",
+    "subtitle": "De modelos ao rastreamento.",
+    "items": [
+      { "label": "Modelos", "title": "Belos modelos de orçamento", "description": "Escolha entre modelos profissionais ou crie os seus. Adicione sua marca." },
+      { "label": "Portal do cliente", "title": "Clientes revisam e aprovam online", "description": "Clientes recebem um link para visualizar, fazer perguntas e aprovar com um clique." },
+      { "label": "Rastreamento", "title": "Saiba o status de cada orçamento", "description": "Acompanhe visualizações, respostas e status de aprovação." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Do orçamento à fatura em 3 passos",
+    "subtitle": "Um fluxo simples para receber mais rápido.",
+    "steps": [
+      { "title": "Crie seu orçamento", "description": "Construa um orçamento profissional com itens, preços e condições." },
+      { "title": "Envie ao cliente", "description": "Seu cliente revisa online e aprova com um único clique." },
+      { "title": "Converta em fatura", "description": "Transforme orçamentos aprovados em faturas instantaneamente." }
+    ]
+  },
+  "conversion": {
+    "title": "Conquiste mais negócios",
+    "subtitle": "Orçamentos profissionais que convertem.",
+    "features": [
+      { "title": "Taxas de conversão mais altas", "description": "Orçamentos profissionais geram confiança e fecham negócios mais rápido." },
+      { "title": "Comunicação com o cliente", "description": "Discuta alterações e responda perguntas diretamente no orçamento." },
+      { "title": "Análises de orçamentos", "description": "Veja quais orçamentos convertem e otimize suas propostas." }
+    ]
+  },
+  "testimonial": {
+    "quote": "A conversão com um clique do orçamento para fatura me poupa muito tempo. Meus clientes adoram como tudo parece profissional.",
+    "name": "Funke Okafor",
+    "title": "Designer de Interiores",
+    "company": "Okafor Designs"
+  },
+  "blog": {
+    "title": "Dicas para propostas e orçamentos",
+    "subtitle": "Conquiste mais clientes com propostas melhores."
+  },
+  "faq": {
+    "title": "Perguntas sobre orçamentos, respondidas",
+    "subtitle": "Tudo o que você precisa saber sobre criar e gerenciar orçamentos.",
+    "items": [
+      { "question": "Qual a diferença entre orçamento e fatura?", "answer": "Um orçamento é uma proposta antes do trabalho ser feito, enquanto uma fatura é uma cobrança pelo trabalho concluído. Com o Invoicemonk, você pode converter orçamentos aprovados em faturas facilmente." },
+      { "question": "Clientes podem aprovar orçamentos online?", "answer": "Sim! Quando você envia um orçamento, seu cliente recebe um link para revisar e aprovar com um clique." },
+      { "question": "Posso definir datas de validade nos orçamentos?", "answer": "Com certeza. Você pode definir períodos de validade e nós o notificaremos antes do vencimento." },
+      { "question": "Como converter um orçamento em fatura?", "answer": "Quando um cliente aprova seu orçamento, você pode convertê-lo em fatura com um clique. Todos os detalhes são transferidos automaticamente." },
+      { "question": "Posso rastrear orçamentos pendentes?", "answer": "Sim, seu painel mostra todos os orçamentos por status — rascunho, enviado, visualizado, aprovado ou expirado." }
+    ]
+  }
+}

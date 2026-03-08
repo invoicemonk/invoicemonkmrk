@@ -67,6 +67,18 @@ import frAccounting from './fr/accounting.json';
 import ptBRAccounting from './pt-BR/accounting.json';
 import esAccounting from './es/accounting.json';
 
+import enEstimates from './en/estimates.json';
+import deEstimates from './de/estimates.json';
+import frEstimates from './fr/estimates.json';
+import ptBREstimates from './pt-BR/estimates.json';
+import esEstimates from './es/estimates.json';
+
+import enReceipts from './en/receipts.json';
+import deReceipts from './de/receipts.json';
+import frReceipts from './fr/receipts.json';
+import ptBRReceipts from './pt-BR/receipts.json';
+import esReceipts from './es/receipts.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
@@ -75,15 +87,15 @@ export function getLanguageFromPrefix(prefix: string): string {
   return langPrefixToI18nCode[prefix] || 'en';
 }
 
-const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting'];
+const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts'];
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting },
-    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting },
-    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting },
-    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting },
-    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting },
+    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting, estimates: enEstimates, receipts: enReceipts },
+    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting, estimates: deEstimates, receipts: deReceipts },
+    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting, estimates: frEstimates, receipts: frReceipts },
+    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting, estimates: ptBREstimates, receipts: ptBRReceipts },
+    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting, estimates: esEstimates, receipts: esReceipts },
   },
   lng: 'en',
   fallbackLng: 'en',

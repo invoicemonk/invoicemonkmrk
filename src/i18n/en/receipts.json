@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "title": "Digital Receipt Management | AI Receipt Scanning | Invoicemonk",
+    "description": "Capture, organize, and store all your receipts digitally. AI-powered scanning, smart organization, and secure cloud storage.",
+    "serviceName": "Invoicemonk Receipt Management",
+    "serviceType": "Receipt Management Software",
+    "serviceDescription": "Capture, organize, and store all your receipts digitally with AI-powered scanning and secure cloud storage."
+  },
+  "seoFaqs": [
+    { "question": "Why do I need to keep business receipts?", "answer": "Business receipts are essential for tax compliance, expense verification, and audit preparation. They serve as proof of business expenditure and are required by tax authorities like the IRS, HMRC, and FIRS to substantiate deductions claimed on tax returns." },
+    { "question": "How long should I keep receipts?", "answer": "Retention periods vary by country. In the US, the IRS recommends 3-7 years. In the UK, HMRC requires 5 years. In Nigeria, FIRS requires 6 years. Digital receipt management software ensures your records are safely stored for the required period." },
+    { "question": "Can I use digital receipts instead of paper?", "answer": "Yes. Most tax authorities now accept digital copies of receipts as valid records, provided they are legible and accurately represent the original. Digital receipts are actually preferred as they are easier to organize, search, and back up." },
+    { "question": "How does receipt management software work?", "answer": "Receipt management software lets you capture receipts by photo or upload, automatically extracts key data like vendor, date, and amount using OCR technology, categorizes the expense, and stores everything securely in the cloud for easy retrieval." }
+  ],
+  "hero": {
+    "badge": "✓ Available Now",
+    "title": "Never lose a receipt <accent>again</accent>",
+    "subtitle": "Capture, organize, and store all your receipts digitally. Never lose a receipt again with AI-powered scanning and smart organization.",
+    "ctaPrimary": "Start Free",
+    "ctaSecondary": "Start with Invoicing"
+  },
+  "mockup": {
+    "title": "Recent Receipts",
+    "count": "12 this week",
+    "scanLabel": "Scan new receipt",
+    "receipts": [
+      { "vendor": "Office Depot", "amount": 142.50, "category": "Supplies", "date": "Today" },
+      { "vendor": "Zoom Pro", "amount": 19.99, "category": "Software", "date": "Yesterday" },
+      { "vendor": "United Airlines", "amount": 340, "category": "Travel", "date": "Mon" },
+      { "vendor": "Starbucks", "amount": 18.45, "category": "Meals", "date": "Mon" }
+    ]
+  },
+  "banner": {
+    "title": "Digital receipts, organized automatically",
+    "features": ["AI-powered OCR", "Instant search", "Secure cloud storage", "Tax-ready exports"]
+  },
+  "features": {
+    "title": "Why you'll <accent>love it</accent>",
+    "subtitle": "Digital receipt management that integrates with your expense tracking.",
+    "blocks": [
+      { "title": "AI-powered scanning", "description": "Snap a photo and our AI extracts all the details automatically." },
+      { "title": "Smart organization", "description": "Receipts are auto-organized by date, vendor, and category." },
+      { "title": "Find anything instantly", "description": "Full-text search finds any receipt in seconds." }
+    ]
+  },
+  "tabs": {
+    "title": "Everything you need for receipt management",
+    "subtitle": "From capture to search.",
+    "items": [
+      { "label": "Scanning", "title": "AI-powered receipt capture", "description": "Our OCR technology reads any receipt — printed, handwritten, or faded. Just snap and save." },
+      { "label": "Storage", "title": "Secure, organized storage", "description": "Receipts are encrypted and organized by date, vendor, and category. Access from any device." },
+      { "label": "Search", "title": "Find any receipt instantly", "description": "Full-text search across all your receipts. Find that coffee shop receipt from 3 months ago in seconds." }
+    ]
+  },
+  "howItWorks": {
+    "title": "How receipt capture works",
+    "subtitle": "From photo to organized record in seconds.",
+    "steps": [
+      { "title": "Snap a photo", "description": "Take a picture of any receipt with your phone." },
+      { "title": "AI extracts details", "description": "Vendor, amount, date, and category are captured automatically." },
+      { "title": "Stored and searchable", "description": "Find any receipt instantly when you need it." }
+    ]
+  },
+  "storage": {
+    "title": "Safe, secure, always accessible",
+    "subtitle": "Your receipts are protected with enterprise-grade security.",
+    "features": [
+      { "title": "Secure cloud backup", "description": "Every receipt is encrypted and stored safely in the cloud. Access them from anywhere." },
+      { "title": "Compliance-ready retention", "description": "Receipts are stored according to regulatory requirements. Always ready for audits." },
+      { "title": "Automatic categorization", "description": "Receipts are tagged and organized automatically. No manual sorting needed." }
+    ],
+    "cloudTitle": "Cloud Storage",
+    "cloudEncryption": "256-bit encryption",
+    "syncedLabel": "Synced"
+  },
+  "testimonial": {
+    "quote": "I used to have a shoebox full of receipts. Now I just snap a photo and everything is organized. Tax season is actually manageable now.",
+    "name": "Ngozi Ibe",
+    "title": "Photographer",
+    "company": "Ibe Studios"
+  },
+  "blog": {
+    "title": "Record keeping tips",
+    "subtitle": "Keep your receipts organized and audit-ready."
+  },
+  "faq": {
+    "title": "Receipt questions, answered",
+    "subtitle": "Everything you need to know about digital receipt management.",
+    "items": [
+      { "question": "How does receipt scanning work?", "answer": "Simply take a photo of your receipt with your phone or upload an image. Our AI-powered OCR extracts the vendor, date, amount, and category automatically. It works with printed and handwritten receipts." },
+      { "question": "How long are receipts stored?", "answer": "Receipts are stored securely for as long as you need them, meeting tax authority requirements in your region. You can also export or delete receipts at any time." },
+      { "question": "Can I search my old receipts?", "answer": "Yes! Our full-text search lets you find any receipt by vendor name, amount, date, or category. You'll never lose a receipt again." },
+      { "question": "How does this integrate with expenses?", "answer": "Receipts can be attached to expense entries automatically or manually. When you scan a receipt, we can create the expense entry for you." },
+      { "question": "Is my data secure?", "answer": "Absolutely. All receipts are encrypted both in transit and at rest. We use bank-level security to protect your data. You control who has access." },
+      { "question": "Can I export receipts for my accountant?", "answer": "Yes, you can export receipts individually or in bulk. Choose from PDF, CSV, or image formats. Perfect for tax time or audits." }
+    ]
+  }
+}
