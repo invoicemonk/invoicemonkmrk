@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from '@/components/LocalizedLink';
 import logo from '@/assets/invoicemonk-logo.png';
-import { locales, supportedCountries, countryToUrlPrefix } from '@/locales';
+import { locales, supportedCountries, countryToLanguage, SupportedCountry } from '@/locales';
+import { useLocale } from '@/hooks/useLocale';
+import { useNavigate, useLocation, useParams } from 'react-router-dom';
 
 const footerLinks = {
   platform: [
