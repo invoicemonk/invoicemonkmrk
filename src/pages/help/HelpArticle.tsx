@@ -13,6 +13,12 @@ import { ChevronRight, ExternalLink } from 'lucide-react';
 import { icons } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
 
+// Side-effect imports to register translated help guides
+import '@/data/helpGuides.de';
+import '@/data/helpGuides.fr';
+import '@/data/helpGuides.pt';
+import '@/data/helpGuides.es';
+
 export default function HelpArticle() {
   const { slug } = useParams<{ slug: string }>();
   const { t, i18n } = useTranslation('help');
