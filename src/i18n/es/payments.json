@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Aceptar pagos en línea | Procesamiento de pagos | Invoicemonk",
+    "description": "Acepta pagos directamente desde facturas. Tarjetas de crédito, transferencias bancarias y billeteras digitales con conciliación automática y comisiones bajas."
+  },
+  "hero": {
+    "badge": "Próximamente",
+    "title": "Cobra más rápido con <accent>pagos integrados</accent>",
+    "description": "Acepta pagos directamente desde tus facturas. Configura planes de pago, procesa reembolsos y concilia todo automáticamente.",
+    "cta": "Unirse a la lista de espera",
+    "secondary": "Empezar con Facturación",
+    "mockup": {
+      "title": "¡Pago recibido!",
+      "subtitle": "Factura #1042 • Acme S.L.",
+      "amountLabel": "Monto pagado",
+      "method": "Método de pago",
+      "methodValue": "Visa •••• 4242",
+      "fee": "Comisión de procesamiento",
+      "net": "Monto neto",
+      "floatingLabel": "Pago instantáneo"
+    }
+  },
+  "banner": {
+    "title": "Acepta los pagos que tus clientes prefieren",
+    "features": ["Todas las tarjetas principales", "Transferencias y SEPA", "Planes de pago y cuotas", "Conciliación automática"]
+  },
+  "whyAdd": {
+    "title": "Por qué agregar pagos a tus <accent>facturas</accent>",
+    "subtitle": "Hazlo lo más fácil posible para que tus clientes te paguen.",
+    "features": [
+      { "title": "Pagos más rápidos, mejor flujo de caja", "description": "Los clientes pueden pagar al instante con un solo clic. No más esperas por cheques o transferencias." },
+      { "title": "Tus clientes quieren pagar en línea", "description": "Encuentra a tus clientes donde están. Acepta todas las tarjetas principales, transferencias y billeteras digitales." },
+      { "title": "Nunca pierdas el rastro de los pagos", "description": "Cada pago se asocia automáticamente a su factura. Visibilidad completa de tu flujo de caja." }
+    ]
+  },
+  "tabs": {
+    "title": "Todo lo que necesitas para aceptar pagos",
+    "subtitle": "Opciones flexibles para ti y tus clientes.",
+    "items": [
+      { "label": "Métodos de pago", "title": "Acepta como tus clientes prefieran pagar", "description": "Tarjetas de crédito, transferencias, billeteras digitales — ofrece todas las opciones que esperan." },
+      { "label": "Seguridad", "title": "Seguridad de nivel bancario", "description": "Procesamiento compatible con PCI, transacciones cifradas y protección contra fraude integrada." },
+      { "label": "Conciliación", "title": "Conciliación automática de pagos", "description": "Los pagos se asocian a las facturas automáticamente. Tus libros se mantienen precisos sin esfuerzo." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Desde que agregué enlaces de pago a mis facturas, me pagan en promedio 12 días más rápido. Ha hecho una gran diferencia en mi flujo de caja.",
+    "name": "Amaka Eze",
+    "title": "Directora Creativa",
+    "company": "Studio Amber"
+  },
+  "howItWorks": {
+    "title": "Cómo funciona aceptar pagos",
+    "subtitle": "Tan simple como enviar una factura — nosotros nos encargamos del resto.",
+    "steps": [
+      { "title": "Envía tu factura", "description": "Crea y envía facturas profesionales con enlaces de pago integrados." },
+      { "title": "El cliente paga en línea", "description": "Tu cliente hace clic en el enlace de pago y paga de forma segura con su método preferido." },
+      { "title": "El dinero llega rápido", "description": "Los fondos se depositan directamente en tu cuenta bancaria, generalmente en 1-2 días hábiles." }
+    ]
+  },
+  "pricing": {
+    "title": "Precios simples y <accent>transparentes</accent>",
+    "subtitle": "Sin cuotas mensuales. Sin cargos ocultos. Paga solo cuando te paguen.",
+    "sectionTitle": "Comisiones de procesamiento",
+    "sectionSubtitle": "Próximamente — tarifas competitivas para todos los tamaños de negocio.",
+    "cards": {
+      "label": "Tarjetas de crédito y débito",
+      "cardTypes": "Visa, Mastercard, Amex",
+      "rate": "2,9%",
+      "rateNote": "+ comisión fija"
+    },
+    "bank": {
+      "label": "Transferencias bancarias",
+      "types": "SEPA, Domiciliación",
+      "rate": "1%",
+      "rateNote": "máximo $5"
+    }
+  },
+  "blog": {
+    "title": "Cobra más rápido",
+    "subtitle": "Consejos y estrategias para mejorar tu flujo de caja."
+  },
+  "faq": {
+    "title": "Preguntas sobre pagos, respondidas",
+    "subtitle": "Todo lo que necesitas saber sobre aceptar pagos.",
+    "items": [
+      { "question": "¿Qué métodos de pago puedo aceptar?", "answer": "Cuando se lance nuestra función de pagos, podrás aceptar todas las tarjetas principales (Visa, Mastercard, American Express), tarjetas de débito, transferencias bancarias (SEPA) y billeteras digitales populares." },
+      { "question": "¿Cuáles son las comisiones de procesamiento?", "answer": "Ofrecemos tarifas competitivas. Los pagos con tarjeta son típicamente del 2,9% + una pequeña comisión fija. Las transferencias tienen comisiones aún más bajas. Los precios completos se anunciarán en el lanzamiento." },
+      { "question": "¿Cuánto tiempo tarda en llegar mi dinero?", "answer": "Los fondos generalmente llegan a tu cuenta bancaria en 1-2 días hábiles. También estamos trabajando en opciones de pago instantáneo para planes premium." },
+      { "question": "¿Es seguro el procesamiento de pagos?", "answer": "Absolutamente. Todos los pagos se procesan a través de infraestructura compatible con PCI. La información de pago de tus clientes está cifrada y nunca se almacena en nuestros servidores." },
+      { "question": "¿Puedo configurar planes de pago para facturas grandes?", "answer": "¡Sí! Podrás ofrecer a tus clientes la opción de pagar en cuotas. Tú defines las condiciones, y nosotros nos encargamos del cobro automático de cada pago." },
+      { "question": "¿Cómo funciona la conciliación automática?", "answer": "Cuando un cliente paga una factura, el pago se asocia y registra automáticamente. Sin entrada manual de datos — tus libros se mantienen actualizados automáticamente." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "¿Cómo acepto pagos en línea en facturas?", "answer": "Con Invoicemonk, puedes agregar un enlace de pago directamente a tus facturas. Los clientes hacen clic para pagar con tarjeta, transferencia o pago móvil. El pago se registra y asocia automáticamente." },
+    { "question": "¿Qué métodos de pago pueden usar mis clientes?", "answer": "Los clientes pueden pagar con tarjetas de crédito y débito, transferencias bancarias y plataformas de pago móvil. Invoicemonk se integra con pasarelas populares para opciones flexibles en todo el mundo." },
+    { "question": "¿Cuánto tiempo tarda en recibirse un pago?", "answer": "Los tiempos varían según el método. Los pagos con tarjeta se liquidan en 1-3 días hábiles, las transferencias en 1-5 días, y los pagos móviles suelen ser instantáneos." },
+    { "question": "¿Son seguros los pagos de facturas en línea?", "answer": "Sí. Todos los pagos se procesan a través de pasarelas compatibles con PCI con cifrado bancario. Los datos financieros de tus clientes nunca se almacenan en los servidores de Invoicemonk." }
+  ]
+}

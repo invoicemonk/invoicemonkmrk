@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Accepter les paiements en ligne | Traitement des paiements | Invoicemonk",
+    "description": "Acceptez les paiements directement depuis vos factures. Cartes bancaires, virements et portefeuilles numériques avec rapprochement automatique et frais réduits."
+  },
+  "hero": {
+    "badge": "Bientôt disponible",
+    "title": "Soyez payé plus vite avec <accent>les paiements intégrés</accent>",
+    "description": "Acceptez les paiements directement depuis vos factures. Configurez des échéanciers, traitez les remboursements et rapprochez tout automatiquement.",
+    "cta": "Rejoindre la liste d'attente",
+    "secondary": "Commencer avec la facturation",
+    "mockup": {
+      "title": "Paiement reçu !",
+      "subtitle": "Facture #1042 • Acme SARL",
+      "amountLabel": "Montant payé",
+      "method": "Mode de paiement",
+      "methodValue": "Visa •••• 4242",
+      "fee": "Frais de traitement",
+      "net": "Montant net",
+      "floatingLabel": "Versement instantané"
+    }
+  },
+  "banner": {
+    "title": "Acceptez les paiements préférés de vos clients",
+    "features": ["Toutes les cartes principales", "Virements & SEPA", "Échéanciers & versements", "Rapprochement automatique"]
+  },
+  "whyAdd": {
+    "title": "Pourquoi ajouter les paiements à vos <accent>factures</accent>",
+    "subtitle": "Facilitez au maximum le paiement pour vos clients.",
+    "features": [
+      { "title": "Paiements plus rapides, meilleure trésorerie", "description": "Vos clients peuvent payer instantanément en un clic. Fini l'attente des chèques ou des virements." },
+      { "title": "Vos clients veulent payer en ligne", "description": "Rejoignez vos clients là où ils sont. Acceptez toutes les cartes bancaires, virements et portefeuilles numériques." },
+      { "title": "Ne perdez jamais le fil des paiements", "description": "Chaque paiement est automatiquement associé à sa facture. Visibilité complète sur votre trésorerie." }
+    ]
+  },
+  "tabs": {
+    "title": "Tout ce qu'il faut pour accepter les paiements",
+    "subtitle": "Des options flexibles pour vous et vos clients.",
+    "items": [
+      { "label": "Modes de paiement", "title": "Acceptez comme vos clients le souhaitent", "description": "Cartes bancaires, virements, portefeuilles numériques — offrez toutes les options attendues." },
+      { "label": "Sécurité", "title": "Sécurité bancaire des paiements", "description": "Traitement conforme PCI, transactions chiffrées et protection contre la fraude intégrée." },
+      { "label": "Rapprochement", "title": "Rapprochement automatique des paiements", "description": "Les paiements sont automatiquement associés aux factures. Vos comptes restent exacts sans effort." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Depuis que j'ai ajouté des liens de paiement à mes factures, je suis payée en moyenne 12 jours plus vite. Cela a fait une énorme différence pour ma trésorerie.",
+    "name": "Amaka Eze",
+    "title": "Directrice créative",
+    "company": "Studio Amber"
+  },
+  "howItWorks": {
+    "title": "Comment fonctionne l'acceptation des paiements",
+    "subtitle": "C'est aussi simple que d'envoyer une facture — nous nous occupons du reste.",
+    "steps": [
+      { "title": "Envoyez votre facture", "description": "Créez et envoyez des factures professionnelles avec des liens de paiement intégrés." },
+      { "title": "Le client paie en ligne", "description": "Votre client clique sur le lien de paiement et paie en toute sécurité avec son mode préféré." },
+      { "title": "L'argent arrive vite", "description": "Les fonds sont déposés directement sur votre compte bancaire, généralement sous 1 à 2 jours ouvrés." }
+    ]
+  },
+  "pricing": {
+    "title": "Des tarifs simples et <accent>transparents</accent>",
+    "subtitle": "Pas de frais mensuels. Pas de coûts cachés. Payez uniquement quand vous êtes payé.",
+    "sectionTitle": "Frais de traitement",
+    "sectionSubtitle": "Bientôt disponible — des tarifs compétitifs pour toutes les tailles d'entreprise.",
+    "cards": {
+      "label": "Cartes de crédit & débit",
+      "cardTypes": "Visa, Mastercard, Amex",
+      "rate": "2,9%",
+      "rateNote": "+ frais fixes"
+    },
+    "bank": {
+      "label": "Virements bancaires",
+      "types": "SEPA, Prélèvement",
+      "rate": "1%",
+      "rateNote": "plafonné à 5 €"
+    }
+  },
+  "blog": {
+    "title": "Être payé plus rapidement",
+    "subtitle": "Conseils et stratégies pour améliorer votre trésorerie."
+  },
+  "faq": {
+    "title": "Questions sur les paiements",
+    "subtitle": "Tout ce que vous devez savoir sur l'acceptation des paiements.",
+    "items": [
+      { "question": "Quels modes de paiement puis-je accepter ?", "answer": "Au lancement, vous pourrez accepter toutes les cartes bancaires principales (Visa, Mastercard, American Express), les cartes de débit, les virements bancaires (SEPA) et les portefeuilles numériques populaires." },
+      { "question": "Quels sont les frais de traitement ?", "answer": "Nous offrons des tarifs compétitifs. Les paiements par carte sont généralement de 2,9% + un petit frais fixe. Les virements ont des frais encore plus bas. Les tarifs complets seront annoncés au lancement." },
+      { "question": "Combien de temps pour recevoir mon argent ?", "answer": "Les fonds arrivent généralement sur votre compte bancaire sous 1 à 2 jours ouvrés. Nous travaillons aussi sur des options de versement instantané pour les forfaits premium." },
+      { "question": "Le traitement des paiements est-il sécurisé ?", "answer": "Absolument. Tous les paiements sont traités via une infrastructure conforme PCI. Les informations de paiement de vos clients sont chiffrées et jamais stockées sur nos serveurs." },
+      { "question": "Puis-je proposer des échéanciers pour les grosses factures ?", "answer": "Oui ! Vous pourrez offrir à vos clients la possibilité de payer en plusieurs fois. Vous définissez les conditions, et nous gérons le prélèvement automatique de chaque versement." },
+      { "question": "Comment fonctionne le rapprochement automatique ?", "answer": "Quand un client paie une facture, le paiement est automatiquement associé et enregistré. Pas de saisie manuelle — vos comptes restent à jour automatiquement." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "Comment accepter les paiements en ligne sur les factures ?", "answer": "Avec Invoicemonk, vous pouvez ajouter un lien de paiement directement à vos factures. Les clients cliquent pour payer par carte, virement ou paiement mobile. Le paiement est automatiquement enregistré et associé à la facture." },
+    { "question": "Quels modes de paiement mes clients peuvent-ils utiliser ?", "answer": "Les clients peuvent payer par cartes de crédit et débit, virements bancaires et plateformes de paiement mobile. Invoicemonk s'intègre aux passerelles de paiement populaires pour offrir des options flexibles dans le monde entier." },
+    { "question": "Combien de temps faut-il pour recevoir les paiements ?", "answer": "Les délais varient selon la méthode. Les paiements par carte sont réglés en 1 à 3 jours ouvrés, les virements en 1 à 5 jours, et les paiements mobiles sont souvent instantanés." },
+    { "question": "Les paiements de factures en ligne sont-ils sécurisés ?", "answer": "Oui. Tous les paiements sont traités via des passerelles conformes PCI avec un chiffrement de niveau bancaire. Les données financières de vos clients ne sont jamais stockées sur les serveurs d'Invoicemonk." }
+  ]
+}

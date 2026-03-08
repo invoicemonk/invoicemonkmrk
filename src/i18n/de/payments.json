@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Online-Zahlungen akzeptieren | Zahlungsabwicklung | Invoicemonk",
+    "description": "Akzeptieren Sie Zahlungen direkt über Rechnungen. Kreditkarten, Banküberweisungen und digitale Wallets mit automatischer Abstimmung und niedrigen Gebühren."
+  },
+  "hero": {
+    "badge": "Demnächst verfügbar",
+    "title": "Schneller bezahlt werden mit <accent>integrierten Zahlungen</accent>",
+    "description": "Akzeptieren Sie Zahlungen direkt über Rechnungen. Richten Sie Ratenzahlungen ein, verarbeiten Sie Rückerstattungen und gleichen Sie alles automatisch ab.",
+    "cta": "Auf die Warteliste setzen",
+    "secondary": "Mit Rechnungsstellung starten",
+    "mockup": {
+      "title": "Zahlung eingegangen!",
+      "subtitle": "Rechnung #1042 • Acme GmbH",
+      "amountLabel": "Bezahlter Betrag",
+      "method": "Zahlungsmethode",
+      "methodValue": "Visa •••• 4242",
+      "fee": "Bearbeitungsgebühr",
+      "net": "Nettobetrag",
+      "floatingLabel": "Sofortige Auszahlung"
+    }
+  },
+  "banner": {
+    "title": "Akzeptieren Sie die bevorzugten Zahlungsmethoden Ihrer Kunden",
+    "features": ["Alle gängigen Karten akzeptieren", "Banküberweisungen & SEPA", "Ratenzahlung & Raten", "Automatische Abstimmung"]
+  },
+  "whyAdd": {
+    "title": "Warum Zahlungen zu Ihren <accent>Rechnungen</accent> hinzufügen",
+    "subtitle": "Machen Sie es Ihren Kunden so einfach wie möglich, Sie zu bezahlen.",
+    "features": [
+      { "title": "Schnellere Zahlungen, besserer Cashflow", "description": "Kunden können mit einem Klick sofort bezahlen. Kein Warten mehr auf Schecks oder Überweisungen." },
+      { "title": "Ihre Kunden möchten online bezahlen", "description": "Treffen Sie Ihre Kunden dort, wo sie sind. Akzeptieren Sie alle gängigen Kreditkarten, Überweisungen und digitale Wallets." },
+      { "title": "Zahlungen nie aus den Augen verlieren", "description": "Jede Zahlung wird automatisch der entsprechenden Rechnung zugeordnet. Volle Transparenz über Ihren Cashflow." }
+    ]
+  },
+  "tabs": {
+    "title": "Alles, was Sie brauchen, um Zahlungen zu akzeptieren",
+    "subtitle": "Flexible Optionen für Sie und Ihre Kunden.",
+    "items": [
+      { "label": "Zahlungsmethoden", "title": "Akzeptieren Sie die bevorzugte Zahlungsart", "description": "Kreditkarten, Banküberweisungen, digitale Wallets — bieten Sie alle Optionen, die Ihre Kunden erwarten." },
+      { "label": "Sicherheit", "title": "Zahlungssicherheit auf Bankniveau", "description": "PCI-konforme Verarbeitung, verschlüsselte Transaktionen und integrierter Betrugsschutz." },
+      { "label": "Abstimmung", "title": "Automatischer Zahlungsabgleich", "description": "Zahlungen werden automatisch den Rechnungen zugeordnet. Ihre Bücher bleiben ohne Aufwand korrekt." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Seit ich Zahlungslinks zu meinen Rechnungen hinzugefügt habe, werde ich durchschnittlich 12 Tage schneller bezahlt. Das hat einen enormen Unterschied für meinen Cashflow gemacht.",
+    "name": "Amaka Eze",
+    "title": "Kreativdirektorin",
+    "company": "Studio Amber"
+  },
+  "howItWorks": {
+    "title": "So funktioniert die Zahlungsannahme",
+    "subtitle": "So einfach wie eine Rechnung zu senden — wir erledigen den Rest.",
+    "steps": [
+      { "title": "Rechnung senden", "description": "Erstellen und senden Sie professionelle Rechnungen mit integrierten Zahlungslinks." },
+      { "title": "Kunde zahlt online", "description": "Ihr Kunde klickt auf den Zahlungslink und zahlt sicher mit seiner bevorzugten Methode." },
+      { "title": "Geld kommt schnell an", "description": "Das Geld wird direkt auf Ihr Bankkonto überwiesen, in der Regel innerhalb von 1-2 Werktagen." }
+    ]
+  },
+  "pricing": {
+    "title": "Einfache, transparente <accent>Preisgestaltung</accent>",
+    "subtitle": "Keine monatlichen Gebühren. Keine versteckten Kosten. Zahlen Sie nur, wenn Sie bezahlt werden.",
+    "sectionTitle": "Bearbeitungsgebühren",
+    "sectionSubtitle": "Demnächst verfügbar — wettbewerbsfähige Tarife für jede Unternehmensgröße.",
+    "cards": {
+      "label": "Kredit- & Debitkarten",
+      "cardTypes": "Visa, Mastercard, Amex",
+      "rate": "2,9%",
+      "rateNote": "+ Festgebühr"
+    },
+    "bank": {
+      "label": "Banküberweisungen",
+      "types": "SEPA, Lastschrift",
+      "rate": "1%",
+      "rateNote": "max. 5 €"
+    }
+  },
+  "blog": {
+    "title": "Schneller bezahlt werden",
+    "subtitle": "Tipps und Strategien zur Verbesserung Ihres Cashflows."
+  },
+  "faq": {
+    "title": "Zahlungsfragen, beantwortet",
+    "subtitle": "Alles, was Sie über die Annahme von Zahlungen wissen müssen.",
+    "items": [
+      { "question": "Welche Zahlungsmethoden kann ich akzeptieren?", "answer": "Wenn unsere Zahlungsfunktion startet, können Sie alle gängigen Kreditkarten (Visa, Mastercard, American Express), Debitkarten, Banküberweisungen (SEPA) und beliebte digitale Wallets akzeptieren." },
+      { "question": "Wie hoch sind die Bearbeitungsgebühren?", "answer": "Wir bieten wettbewerbsfähige Tarife. Kartenzahlungen betragen in der Regel 2,9% + eine kleine Festgebühr. Banküberweisungen haben noch niedrigere Gebühren. Die vollständige Preisgestaltung wird beim Start bekannt gegeben." },
+      { "question": "Wie schnell erhalte ich mein Geld?", "answer": "Das Geld kommt in der Regel innerhalb von 1-2 Werktagen auf Ihrem Bankkonto an. Wir arbeiten auch an Sofortauszahlungsoptionen für Premium-Pläne." },
+      { "question": "Ist die Zahlungsabwicklung sicher?", "answer": "Absolut. Alle Zahlungen werden über PCI-konforme Infrastruktur verarbeitet. Die Zahlungsdaten Ihrer Kunden werden verschlüsselt und nie auf unseren Servern gespeichert." },
+      { "question": "Kann ich Ratenzahlungen für große Rechnungen einrichten?", "answer": "Ja! Sie können Ihren Kunden die Möglichkeit bieten, in Raten zu zahlen. Sie legen die Bedingungen fest, und wir kümmern uns um den automatischen Einzug jeder Zahlung." },
+      { "question": "Wie funktioniert die automatische Abstimmung?", "answer": "Wenn ein Kunde eine Rechnung bezahlt, wird die Zahlung automatisch dieser Rechnung zugeordnet und verbucht. Keine manuelle Dateneingabe nötig — Ihre Bücher bleiben automatisch aktuell." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "Wie akzeptiere ich Online-Zahlungen auf Rechnungen?", "answer": "Mit Invoicemonk können Sie einen Zahlungslink direkt zu Ihren Rechnungen hinzufügen. Kunden klicken auf den Link, um per Kreditkarte, Überweisung oder mobiler Zahlung zu bezahlen. Die Zahlung wird automatisch erfasst und der Rechnung zugeordnet." },
+    { "question": "Welche Zahlungsmethoden können meine Kunden nutzen?", "answer": "Kunden können mit Kredit- und Debitkarten, Banküberweisungen und mobilen Zahlungsplattformen bezahlen. Invoicemonk integriert sich mit gängigen Zahlungsgateways für flexible Optionen weltweit." },
+    { "question": "Wie lange dauert es, Zahlungen zu erhalten?", "answer": "Die Bearbeitungszeiten variieren je nach Methode. Kartenzahlungen werden in der Regel in 1-3 Werktagen abgewickelt, Banküberweisungen in 1-5 Werktagen, und mobile Zahlungen sind oft sofort verfügbar." },
+    { "question": "Sind Online-Rechnungszahlungen sicher?", "answer": "Ja. Alle Zahlungen werden über PCI-konforme Gateways mit Verschlüsselung auf Bankniveau verarbeitet. Die Finanzdaten Ihrer Kunden werden niemals auf Invoicemonk-Servern gespeichert." }
+  ]
+}
