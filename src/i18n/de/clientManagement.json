@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Kundenverwaltungssoftware | Kunden organisieren | Invoicemonk",
+    "description": "Verwalten Sie Kundeninformationen, verfolgen Sie die Zahlungshistorie und bauen Sie bessere Beziehungen auf. Kostenlos in jedem Invoicemonk-Konto enthalten."
+  },
+  "service": {
+    "name": "Invoicemonk Kundenverwaltung",
+    "type": "Kundenverwaltungssoftware",
+    "description": "Kundenprofile organisieren, Zahlungshistorie verfolgen und Kommunikation verwalten — alles in Ihren Rechnungsworkflow integriert."
+  },
+  "hero": {
+    "badge": "In der Rechnungsstellung enthalten",
+    "title": "Kundenverwaltung, <accent>vereinfacht</accent>",
+    "subtitle": "Schluss mit dem Durchsuchen von Tabellen nach Kundendaten. Zentralisieren Sie Kontakte, verfolgen Sie Zahlungsmuster und stellen Sie jedem Kunden mit einem Klick eine Rechnung — alles in Ihrem Invoicemonk-Workflow.",
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "Alle Rechnungsfunktionen anzeigen"
+  },
+  "mockup": {
+    "title": "Kundenverzeichnis",
+    "count": "12 Kunden",
+    "invoicesLabel": "Rechnungen",
+    "totalBilledLabel": "Gesamt abgerechnet",
+    "searchPlaceholder": "Kunden schnell suchen...",
+    "clients": [
+      { "name": "Acme GmbH", "invoices": 8, "total": 24500, "status": "Aktiv" },
+      { "name": "Tech Startup GmbH", "invoices": 3, "total": 8200, "status": "Aktiv" },
+      { "name": "Design Studio Co", "invoices": 12, "total": 42800, "status": "Aktiv" }
+    ]
+  },
+  "banner": {
+    "title": "Alles, was Sie für die Kundenverwaltung brauchen",
+    "features": ["Unbegrenzte Kunden", "Vollständige Historie", "Schnelle Suche", "Zahlungsverfolgung"]
+  },
+  "features": {
+    "title": "Leistungsstarke <accent>Funktionen</accent>",
+    "subtitle": "Kundenverwaltungstools, die sich nahtlos in Ihren Rechnungsworkflow integrieren.",
+    "blocks": [
+      { "title": "Zentralisierte Datenbank", "description": "Alle Kundendaten, Rechnungsadressen und Präferenzen an einem durchsuchbaren Ort." },
+      { "title": "Rechnungshistorie auf einen Blick", "description": "Sehen Sie jede Rechnung, Zahlung und jeden offenen Saldo pro Kunde sofort." },
+      { "title": "Einblicke in Zahlungsmuster", "description": "Identifizieren Sie säumige Zahler, verfolgen Sie durchschnittliche Zahlungszeiten und erkennen Sie Umsatztrends." }
+    ]
+  },
+  "tabs": {
+    "title": "Kennen Sie Ihre Kunden in- und auswendig",
+    "subtitle": "Profile, Kommunikationshistorie und intelligente Segmentierung — alles an einem Ort.",
+    "items": [
+      { "label": "Kundenprofile", "title": "Vollständige Kundenprofile mit allen Details", "description": "Speichern Sie Kontakte, Rechnungsadressen, Steuer-IDs, Zahlungspräferenzen und benutzerdefinierte Notizen. Jedes Profil verlinkt direkt zu Rechnungen, Kostenvoranschlägen und Zahlungshistorie." },
+      { "label": "Kommunikationsprotokoll", "title": "Verfolgen Sie jede E-Mail, Erinnerung und Nachfassung", "description": "Sehen Sie eine Zeitleiste aller Kommunikationen pro Kunde — gesendete Rechnungen, Zahlungserinnerungen, Dankesschreiben und manuelle Nachfassungen." },
+      { "label": "Intelligente Segmentierung", "title": "Kunden nach wichtigen Kriterien taggen und filtern", "description": "Organisieren Sie Kunden nach Status, Umsatzstufe, Branche oder Zahlungsverhalten. Erstellen Sie benutzerdefinierte Tags und filtern Sie Ihre Kundenliste mit einem Klick." }
+    ]
+  },
+  "alternating": {
+    "title": "Direkt aus Kundenprofilen abrechnen",
+    "subtitle": "Ihre Kundendaten und Rechnungstools, verbunden.",
+    "features": [
+      { "title": "Ein-Klick-Rechnungsstellung aus jedem Kundenprofil", "description": "Öffnen Sie einen Kunden, klicken Sie auf 'Neue Rechnung', und alle Details werden automatisch ausgefüllt — Rechnungsadresse, Steuer-ID, Zahlungsbedingungen und Währung." },
+      { "title": "Zahlungs-Dashboard pro Kunde", "description": "Sehen Sie den Zahlungsstatus jedes Kunden auf einen Blick: durchschnittliche Zahlungstage, offene Beträge, Gesamtumsatz und Überfälligkeitstrends." },
+      { "title": "Massenaktionen für Erinnerungen und Kontoauszüge", "description": "Wählen Sie mehrere Kunden aus und senden Sie Zahlungserinnerungen, erstellen Sie Kontoauszüge oder exportieren Sie Daten in großen Mengen." }
+    ]
+  },
+  "benefits": {
+    "title": "Warum Kunden mit <accent>Invoicemonk</accent> verwalten?",
+    "items": [
+      "Unbegrenzte Kundenprofile",
+      "Schnelle Kundensuche",
+      "Automatische Rechnungszuordnung",
+      "Zahlungshistorie-Tracking",
+      "Benutzerdefinierte Notizen und Tags",
+      "Kundendaten jederzeit exportieren",
+      "Mehrere Kontaktpersonen pro Kunde",
+      "Kundenportal-Zugang",
+      "Automatische Steuer-ID-Validierung",
+      "Duplikat-Erkennung",
+      "Kunden-Aktivitätszeitachse",
+      "Kontoauszugserstellung"
+    ]
+  },
+  "testimonial": {
+    "quote": "Seit dem Wechsel zu Invoicemonk verbringe ich 60% weniger Zeit mit Verwaltung. Die gesamte Kundenhistorie, Rechnungen und Zahlungsstatus an einem Ort hat mein Geschäft verändert.",
+    "name": "Sarah Okonkwo",
+    "title": "Unabhängige Beraterin",
+    "company": "Okonkwo Advisory"
+  },
+  "blog": {
+    "title": "Mehr über Kundenverwaltung erfahren",
+    "subtitle": "Tipps und Strategien für bessere Kundenbeziehungen."
+  },
+  "faq": {
+    "title": "FAQ zur Kundenverwaltung",
+    "subtitle": "Häufige Fragen zur Kundenverwaltung mit Invoicemonk.",
+    "items": [
+      { "question": "Ist die Kundenverwaltung kostenlos?", "answer": "Ja, die Kundenverwaltung ist in jedem Invoicemonk-Konto ohne Zusatzkosten enthalten. Sie können unbegrenzte Kundenprofile speichern und Zahlungshistorien verfolgen." },
+      { "question": "Kann ich meine bestehende Kundenliste importieren?", "answer": "Ja, Sie können Kunden aus CSV-Dateien importieren oder manuell hinzufügen. Alle Kundendaten werden automatisch mit Rechnungshistorie und Zahlungsverfolgung organisiert." },
+      { "question": "Wie integriert sich die Kundenverwaltung mit der Rechnungsstellung?", "answer": "Beim Erstellen einer Rechnung werden Kundendaten automatisch ausgefüllt. Zahlungshistorie, offene Beträge und Kommunikationsaufzeichnungen sind mit jedem Kundenprofil verknüpft." },
+      { "question": "Kann ich Zahlungsmuster pro Kunde verfolgen?", "answer": "Absolut. Jedes Kundenprofil zeigt Zahlungshistorie, durchschnittliche Zahlungszeit und offene Beträge." },
+      { "question": "Welche Importformate werden unterstützt?", "answer": "Sie können Kundendaten aus CSV, Excel (.xlsx) und vCard-Dateien importieren. Wir unterstützen auch direkte Importe aus QuickBooks, FreshBooks und anderen Tools." },
+      { "question": "Erhalten Kunden Portalzugang?", "answer": "Ja, Sie können Kunden optional zu einem Self-Service-Portal einladen, wo sie Rechnungen einsehen, Belege herunterladen und Rechnungsdaten aktualisieren können." },
+      { "question": "Kann ich mehrere Kontakte pro Kunde speichern?", "answer": "Absolut. Jedes Kundenprofil unterstützt mehrere Kontaktpersonen mit verschiedenen Rollen — Rechnungskontakt, Projektmanager, Buchhaltung." }
+    ]
+  },
+  "cta": {
+    "title": "Beginnen Sie <accent>heute</accent> mit der Kundenverwaltung",
+    "subtitle": "Kundenverwaltung ist kostenlos in jedem Invoicemonk-Konto enthalten. Registrieren Sie sich und organisieren Sie Ihre Kundenbeziehungen.",
+    "button": "Kostenloses Konto erstellen"
+  }
+}

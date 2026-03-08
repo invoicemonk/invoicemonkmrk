@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Software de Gestión de Clientes | Organice Clientes | Invoicemonk",
+    "description": "Gestione información de clientes, rastree el historial de pagos y construya mejores relaciones. Incluido gratis con cada cuenta Invoicemonk."
+  },
+  "service": {
+    "name": "Invoicemonk Gestión de Clientes",
+    "type": "Software de Gestión de Clientes",
+    "description": "Organice perfiles de clientes, rastree el historial de pagos y gestione las comunicaciones — todo integrado en su flujo de facturación."
+  },
+  "hero": {
+    "badge": "Incluido con la facturación",
+    "title": "Gestión de clientes, <accent>simplificada</accent>",
+    "subtitle": "Deje de buscar datos de clientes en hojas de cálculo. Centralice contactos, rastree patrones de pago y facture a cualquier cliente con un clic — todo integrado en Invoicemonk.",
+    "ctaPrimary": "Comenzar gratis",
+    "ctaSecondary": "Ver todas las funciones de facturación"
+  },
+  "mockup": {
+    "title": "Directorio de clientes",
+    "count": "12 clientes",
+    "invoicesLabel": "facturas",
+    "totalBilledLabel": "Total facturado",
+    "searchPlaceholder": "Búsqueda rápida de clientes...",
+    "clients": [
+      { "name": "Acme Corporation", "invoices": 8, "total": 24500, "status": "Activo" },
+      { "name": "Tech Startup Inc", "invoices": 3, "total": 8200, "status": "Activo" },
+      { "name": "Design Studio Co", "invoices": 12, "total": 42800, "status": "Activo" }
+    ]
+  },
+  "banner": {
+    "title": "Todo para gestionar sus clientes",
+    "features": ["Clientes ilimitados", "Historial completo", "Búsqueda rápida", "Seguimiento de pagos"]
+  },
+  "features": {
+    "title": "<accent>Funciones</accent> potentes",
+    "subtitle": "Herramientas de gestión de clientes integradas en su flujo de facturación.",
+    "blocks": [
+      { "title": "Base de datos centralizada", "description": "Todos los datos de clientes, direcciones de facturación y preferencias en un solo lugar consultable." },
+      { "title": "Historial de facturas de un vistazo", "description": "Vea cada factura, pago y saldo pendiente por cliente al instante." },
+      { "title": "Insights de patrones de pago", "description": "Identifique pagadores lentos, rastree tiempos promedio de pago y detecte tendencias de ingresos." }
+    ]
+  },
+  "tabs": {
+    "title": "Conozca a sus clientes a fondo",
+    "subtitle": "Perfiles, historial de comunicación y segmentación inteligente — todo en un lugar.",
+    "items": [
+      { "label": "Perfiles de clientes", "title": "Perfiles completos con todos los detalles necesarios", "description": "Almacene contactos, direcciones de facturación, IDs fiscales, preferencias de pago y notas personalizadas. Cada perfil se vincula a facturas, presupuestos e historial de pagos." },
+      { "label": "Registro de comunicación", "title": "Rastree cada email, recordatorio y seguimiento", "description": "Vea una línea de tiempo de todas las comunicaciones por cliente — facturas enviadas, recordatorios de pago, agradecimientos y seguimientos manuales." },
+      { "label": "Segmentación inteligente", "title": "Etiquete y filtre clientes por lo que importa", "description": "Organice clientes por estado, nivel de ingresos, industria o comportamiento de pago. Cree etiquetas personalizadas y filtre su lista de clientes con un clic." }
+    ]
+  },
+  "alternating": {
+    "title": "Facture directamente desde perfiles de clientes",
+    "subtitle": "Sus datos de clientes y herramientas de facturación, conectados.",
+    "features": [
+      { "title": "Facturación con un clic desde cualquier perfil de cliente", "description": "Abra un cliente, haga clic en \"Nueva factura\", y todos los detalles se completan automáticamente — dirección, ID fiscal, condiciones de pago y moneda." },
+      { "title": "Dashboard de salud de pagos por cliente", "description": "Vea el score de pago de cada cliente de un vistazo: días promedio para pagar, total pendiente, ingresos totales y tendencias de morosidad." },
+      { "title": "Acciones masivas para recordatorios y estados de cuenta", "description": "Seleccione múltiples clientes y envíe recordatorios de pago, genere estados de cuenta o exporte datos en masa." }
+    ]
+  },
+  "benefits": {
+    "title": "¿Por qué gestionar clientes con <accent>Invoicemonk</accent>?",
+    "items": [
+      "Perfiles de clientes ilimitados",
+      "Búsqueda rápida de clientes",
+      "Asociación automática de facturas",
+      "Seguimiento del historial de pagos",
+      "Notas y etiquetas personalizadas",
+      "Exportar datos de clientes en cualquier momento",
+      "Múltiples contactos por cliente",
+      "Acceso al portal del cliente",
+      "Validación automática de ID fiscal",
+      "Detección de duplicados",
+      "Línea de tiempo de actividad del cliente",
+      "Generación de estados de cuenta"
+    ]
+  },
+  "testimonial": {
+    "quote": "Desde que cambié a Invoicemonk, paso 60% menos tiempo en administración. Tener todo el historial, facturas y estado de pago de cada cliente en un solo lugar cambió mi negocio.",
+    "name": "Sarah Okonkwo",
+    "title": "Consultora Independiente",
+    "company": "Okonkwo Advisory"
+  },
+  "blog": {
+    "title": "Aprenda más sobre gestión de clientes",
+    "subtitle": "Consejos y estrategias para construir mejores relaciones con clientes."
+  },
+  "faq": {
+    "title": "FAQ de gestión de clientes",
+    "subtitle": "Preguntas comunes sobre gestionar clientes con Invoicemonk.",
+    "items": [
+      { "question": "¿La gestión de clientes es gratuita?", "answer": "Sí, la gestión de clientes está incluida en cada cuenta Invoicemonk sin costo adicional. Puede almacenar perfiles ilimitados y rastrear el historial de pagos." },
+      { "question": "¿Puedo importar mi lista de clientes existente?", "answer": "Sí, puede importar clientes desde archivos CSV o agregarlos manualmente. Todos los datos se organizan automáticamente." },
+      { "question": "¿Cómo se integra la gestión de clientes con la facturación?", "answer": "Al crear una factura, los datos del cliente se completan automáticamente. El historial de pagos y saldos pendientes están vinculados a cada perfil." },
+      { "question": "¿Puedo rastrear patrones de pago por cliente?", "answer": "Por supuesto. Cada perfil muestra el historial de pagos, el tiempo promedio de pago y el saldo pendiente." },
+      { "question": "¿Qué formatos de importación soportan?", "answer": "Puede importar desde CSV, Excel (.xlsx) y vCard. También soportamos importaciones directas desde QuickBooks, FreshBooks y otras herramientas." },
+      { "question": "¿Los clientes tienen acceso a un portal?", "answer": "Sí, puede invitar a los clientes a un portal de autoservicio donde pueden ver facturas, descargar recibos y actualizar sus datos de facturación." },
+      { "question": "¿Puedo almacenar múltiples contactos por cliente?", "answer": "Por supuesto. Cada perfil soporta múltiples contactos con diferentes roles — contacto de facturación, gerente de proyecto, cuentas por pagar." }
+    ]
+  },
+  "cta": {
+    "title": "Empiece a gestionar sus clientes <accent>hoy</accent>",
+    "subtitle": "La gestión de clientes es gratuita con cada cuenta Invoicemonk. Regístrese y organice sus relaciones con clientes.",
+    "button": "Crear cuenta gratuita"
+  }
+}
