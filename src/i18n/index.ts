@@ -79,6 +79,12 @@ import frReceipts from './fr/receipts.json';
 import ptBRReceipts from './pt-BR/receipts.json';
 import esReceipts from './es/receipts.json';
 
+import enClientManagement from './en/clientManagement.json';
+import deClientManagement from './de/clientManagement.json';
+import frClientManagement from './fr/clientManagement.json';
+import ptBRClientManagement from './pt-BR/clientManagement.json';
+import esClientManagement from './es/clientManagement.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
