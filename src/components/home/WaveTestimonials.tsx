@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { useLocale } from '@/hooks/useLocale';
+import { useTranslation } from 'react-i18next';
 
-// Helper to extract initials from name
 const getInitials = (name: string) => {
   return name
     .split(' ')
@@ -16,6 +16,7 @@ const getInitials = (name: string) => {
 
 export function WaveTestimonials() {
   const { locale } = useLocale();
+  const { t } = useTranslation('home');
   const testimonials = locale.content.testimonials;
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -29,7 +30,6 @@ export function WaveTestimonials() {
 
   const current = testimonials[currentIndex];
 
-  // Helper to render quote with highlight
   const renderQuote = (quote: string, highlight: string) => {
     const parts = quote.split(highlight);
     if (parts.length === 1) return <span>{quote}</span>;
@@ -47,10 +47,10 @@ export function WaveTestimonials() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center mb-12">
           <p className="text-body-sm font-medium text-primary uppercase tracking-wide mb-2">
-            Testimonials
+            {t('testimonials.label')}
           </p>
           <h2 className="text-h2 text-heading">
-            Loved by <span className="font-serif italic">{locale.content.seo.targetAudience} businesses</span>
+            {t('testimonials.heading')} <span className="font-serif italic">{locale.content.seo.targetAudience} {t('testimonials.headingSuffix')}</span>
           </h2>
         </AnimatedSection>
 
@@ -67,7 +67,6 @@ export function WaveTestimonials() {
                 transition={{ duration: 0.4 }}
                 className="grid lg:grid-cols-[200px_1fr] gap-8 items-center"
               >
-                {/* Avatar */}
                 <div className="hidden lg:flex flex-col items-center">
                   <div className="w-32 h-32 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <span className="text-3xl font-semibold text-primary">
@@ -83,13 +82,11 @@ export function WaveTestimonials() {
                   </div>
                 </div>
 
-                {/* Quote */}
                 <div>
                   <blockquote className="text-h3 lg:text-h2 text-heading font-normal leading-relaxed mb-8">
                     "{renderQuote(current.quote, current.highlight)}"
                   </blockquote>
 
-                  {/* Mobile avatar */}
                   <div className="flex items-center gap-4 lg:hidden">
                     <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
                       <span className="text-lg font-semibold text-primary">
@@ -107,7 +104,6 @@ export function WaveTestimonials() {
               </motion.div>
             </AnimatePresence>
 
-            {/* Navigation */}
             <div className="flex items-center justify-center gap-6 mt-10">
               <button
                 onClick={prevTestimonial}
@@ -117,7 +113,6 @@ export function WaveTestimonials() {
                 <ChevronLeft className="w-5 h-5 text-foreground" />
               </button>
 
-              {/* Dots */}
               <div className="flex items-center gap-2">
                 {testimonials.map((_, index) => (
                   <button

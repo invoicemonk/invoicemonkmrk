@@ -1,87 +1,34 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/components/LocalizedLink';
-import { FileText, CreditCard, Wallet, Calculator, ArrowRight } from 'lucide-react';
+import { FileText, CreditCard, Wallet, Calculator, ArrowRight, Users, FileCheck, Receipt } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import { useTranslation } from 'react-i18next';
 
-import { Users, FileCheck, Receipt, BarChart3 } from 'lucide-react';
-
-const products = [
-  {
-    id: 'invoicing',
-    name: 'Invoicing',
-    icon: FileText,
-    title: 'Get paid on time, every time',
-    description: 'Create professional invoices in minutes. Send them instantly, track payments, and automate reminders so you never have to chase clients again.',
-    features: ['Customizable templates', 'Automatic reminders', 'Payment tracking', 'Multi-currency'],
-    link: '/invoicing',
-    available: true,
-  },
-  {
-    id: 'payments',
-    name: 'Payments',
-    icon: CreditCard,
-    title: 'Accept payments your way',
-    description: 'Let clients pay directly from invoices with credit cards, bank transfers, or digital wallets. Money lands in your account faster.',
-    features: ['Credit card processing', 'Bank transfers', 'Payment plans', 'Auto-reconciliation'],
-    link: '/payments',
-    available: false,
-  },
-  {
-    id: 'expenses',
-    name: 'Expenses',
-    icon: Wallet,
-    title: 'Track every expense with ease',
-    description: 'Capture receipts, categorize spending automatically, and always know where your money goes. Tax time becomes a breeze.',
-    features: ['Receipt scanning', 'Auto-categorization', 'Tax categories', 'Expense reports'],
-    link: '/expenses',
-    available: true,
-  },
-  {
-    id: 'accounting',
-    name: 'Accounting',
-    icon: Calculator,
-    title: 'No sweat accounting',
-    description: 'Track income and expenses, pull financial reports, and stay on top of your business finances without the accounting degree.',
-    features: ['Double-entry bookkeeping', 'Financial reports', 'Tax preparation', 'Bank connections'],
-    link: '/accounting',
-    available: true,
-  },
-  {
-    id: 'clients',
-    name: 'Clients',
-    icon: Users,
-    title: 'Manage clients effortlessly',
-    description: 'Keep all your client information organized in one place. Track contact details, payment history, and outstanding balances at a glance.',
-    features: ['Contact management', 'Payment history', 'Client notes', 'Quick invoicing'],
-    link: '/client-management',
-    available: true,
-  },
-  {
-    id: 'estimates',
-    name: 'Estimates',
-    icon: FileCheck,
-    title: 'Win more business with quotes',
-    description: 'Create professional estimates and quotes that convert. When approved, turn them into invoices with a single click.',
-    features: ['Professional templates', 'One-click conversion', 'Approval tracking', 'Custom branding'],
-    link: '/estimates',
-    available: false,
-  },
-  {
-    id: 'receipts',
-    name: 'Receipts',
-    icon: Receipt,
-    title: 'Never lose a receipt again',
-    description: 'Snap photos of receipts and let us handle the rest. Automatic data extraction and organization for stress-free bookkeeping.',
-    features: ['Photo capture', 'Auto-extraction', 'Cloud storage', 'Search & filter'],
-    link: '/receipts',
-    available: true,
-  },
+const productMeta = [
+  { id: 'invoicing', icon: FileText, link: '/invoicing', available: true },
+  { id: 'payments', icon: CreditCard, link: '/payments', available: false },
+  { id: 'expenses', icon: Wallet, link: '/expenses', available: true },
+  { id: 'accounting', icon: Calculator, link: '/accounting', available: true },
+  { id: 'clients', icon: Users, link: '/client-management', available: true },
+  { id: 'estimates', icon: FileCheck, link: '/estimates', available: false },
+  { id: 'receipts', icon: Receipt, link: '/receipts', available: true },
 ];
 
 export function WaveProductTabs() {
+  const { t } = useTranslation('home');
   const [activeTab, setActiveTab] = useState('invoicing');
+
+  const translatedItems = t('products.items', { returnObjects: true }) as {
+    name: string; title: string; description: string; features: string[];
+  }[];
+
+  const products = useMemo(() =>
+    productMeta.map((meta, i) => ({ ...meta, ...translatedItems[i] })),
+    [translatedItems]
+  );
+
   const activeProduct = products.find((p) => p.id === activeTab) || products[0];
 
   return (
@@ -89,21 +36,19 @@ export function WaveProductTabs() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
           <h2 className="text-h2 text-heading mb-4">
-            More reasons to love{' '}
+            {t('products.heading')}{' '}
             <span className="font-serif italic text-primary">Invoicemonk</span>
           </h2>
           <p className="text-body-lg text-muted-foreground">
-            Everything you need to manage your business finances, from invoicing to accounting.
+            {t('products.subtitle')}
           </p>
         </AnimatedSection>
 
-        {/* Tab Navigation - Horizontal scroll on mobile */}
         <div className="overflow-x-auto pb-2 mb-12 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-hide">
           <div className="flex sm:flex-wrap sm:justify-center gap-2 min-w-max sm:min-w-0 max-w-3xl mx-auto">
             {products.map((product) => {
               const Icon = product.icon;
               const isActive = activeTab === product.id;
-
               return (
                 <button
                   key={product.id}
@@ -118,7 +63,7 @@ export function WaveProductTabs() {
                   {product.name}
                   {!product.available && (
                     <span className="text-[10px] font-semibold uppercase tracking-wide opacity-70">
-                      Soon
+                      {t('products.soon')}
                     </span>
                   )}
                 </button>
@@ -127,7 +72,6 @@ export function WaveProductTabs() {
           </div>
         </div>
 
-        {/* Tab Content */}
         <div className="max-w-6xl mx-auto">
           <AnimatePresence mode="wait">
             <motion.div
@@ -138,7 +82,6 @@ export function WaveProductTabs() {
               transition={{ duration: 0.3 }}
               className="grid lg:grid-cols-2 gap-12 items-center"
             >
-              {/* Product Mockup / Visual */}
               <div className="order-2 lg:order-1">
                 <div className="relative bg-gradient-to-br from-wave-blue-light to-accent rounded-3xl p-8 aspect-[4/3] flex items-center justify-center">
                   <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-6 w-full max-w-sm">
@@ -154,16 +97,16 @@ export function WaveProductTabs() {
                       </div>
                       {activeProduct.available ? (
                         <span className="px-2 py-1 text-[10px] font-medium rounded-full bg-wave-green/10 text-wave-green">
-                          Available
+                          {t('products.available')}
                         </span>
                       ) : (
                         <span className="px-2 py-1 text-[10px] font-medium rounded-full bg-muted text-muted-foreground">
-                          Coming Soon
+                          {t('products.comingSoon')}
                         </span>
                       )}
                     </div>
                     <div className="space-y-2">
-                      {activeProduct.features.map((feature, index) => (
+                      {activeProduct.features.map((feature) => (
                         <div key={feature} className="flex items-center gap-2 text-body-sm">
                           <div className="w-4 h-4 rounded-full bg-primary/20 flex items-center justify-center">
                             <svg className="w-2.5 h-2.5 text-primary" fill="currentColor" viewBox="0 0 20 20">
@@ -176,18 +119,16 @@ export function WaveProductTabs() {
                     </div>
                   </div>
 
-                  {/* Floating decoration */}
                   <motion.div
                     animate={{ y: [-4, 4, -4] }}
                     transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
                     className="absolute -top-4 -right-4 bg-accent-orange text-accent-orange-foreground rounded-xl px-4 py-2 shadow-soft-lg hidden md:block"
                   >
-                    <span className="text-body-sm font-semibold">Free to start!</span>
+                    <span className="text-body-sm font-semibold">{t('products.freeToStart')}</span>
                   </motion.div>
                 </div>
               </div>
 
-              {/* Product Description */}
               <div className="order-1 lg:order-2">
                 <h3 className="text-h2 text-heading mb-4">
                   {activeProduct.title.split(' ').map((word, i, arr) =>
@@ -210,24 +151,24 @@ export function WaveProductTabs() {
                         className="rounded-full px-8 h-12 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
                       >
                         <a href="https://app.invoicemonk.com/signup">
-                          Start Free
+                          {t('products.startFree')}
                           <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link to={activeProduct.link}>Learn more about {activeProduct.name}</Link>
+                        <Link to={activeProduct.link}>{t('products.learnMore', { name: activeProduct.name })}</Link>
                       </Button>
                     </>
                   ) : (
                     <>
                       <Button asChild size="lg" className="rounded-full px-8 h-12 group">
                         <a href="https://app.invoicemonk.com/signup">
-                          Join Waitlist
+                          {t('products.joinWaitlist')}
                           <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                         </a>
                       </Button>
                       <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-12">
-                        <Link to={activeProduct.link}>Learn more about {activeProduct.name}</Link>
+                        <Link to={activeProduct.link}>{t('products.learnMore', { name: activeProduct.name })}</Link>
                       </Button>
                     </>
                   )}

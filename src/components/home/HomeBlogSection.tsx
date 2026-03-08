@@ -4,8 +4,10 @@ import { Button } from '@/components/ui/button';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { blogPosts } from '@/data/blogPosts';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
+import { useTranslation } from 'react-i18next';
 
 export function HomeBlogSection() {
+  const { t } = useTranslation('home');
   const latestPosts = blogPosts.slice(0, 3);
 
   return (
@@ -13,11 +15,11 @@ export function HomeBlogSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
           <h2 className="text-h2 text-heading mb-4">
-            From the{' '}
-            <span className="font-serif italic text-primary">Blog</span>
+            {t('blog.heading')}{' '}
+            <span className="font-serif italic text-primary">{t('blog.headingAccent')}</span>
           </h2>
           <p className="text-body-lg text-muted-foreground">
-            Tips, guides, and insights to help you run your business better.
+            {t('blog.subtitle')}
           </p>
         </AnimatedSection>
 
@@ -37,7 +39,7 @@ export function HomeBlogSection() {
             className="rounded-full px-8 h-12 group"
           >
             <Link to="/blog">
-              View all blog posts
+              {t('blog.viewAll')}
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </Button>

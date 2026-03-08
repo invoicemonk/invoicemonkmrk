@@ -233,6 +233,13 @@ import frCorridors from './fr/corridors.json';
 import ptBRCorridors from './pt-BR/corridors.json';
 import esCorridors from './es/corridors.json';
 
+// Homepage
+import enHome from './en/home.json';
+import deHome from './de/home.json';
+import frHome from './fr/home.json';
+import ptBRHome from './pt-BR/home.json';
+import esHome from './es/home.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
