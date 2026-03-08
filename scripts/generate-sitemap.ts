@@ -23,6 +23,7 @@ const languages = [
   { prefix: 'de', hreflang: 'de' },
   { prefix: 'fr', hreflang: 'fr' },
   { prefix: 'pt', hreflang: 'pt-BR' },
+  { prefix: 'es', hreflang: 'es' },
 ];
 
 interface PageEntry {
