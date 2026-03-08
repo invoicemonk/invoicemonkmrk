@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Invoicing Software for Contractors | Invoicemonk",
+    "description": "Professional invoicing built for electrical, building, and trade contractors. Mobile invoicing, multi-project tracking, and job expense management."
+  },
+  "hero": {
+    "badge": "For Contractors",
+    "title": "Invoicing built for contractors",
+    "accentWord": "contractors",
+    "description": "Manage multiple projects, track job expenses, and invoice clients from anywhere. Built for contractors who work on-site and on-the-go.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "View Pricing",
+    "trustBadge": "Trusted by electrical, building, and trade contractors"
+  },
+  "benefits": {
+    "heading": "Built for trades and construction",
+    "subheading": "Everything you need to manage finances across multiple job sites — from deposit invoices to final payment",
+    "items": [
+      { "title": "Multi-Project Management", "description": "Track invoices, expenses, and payments across multiple clients and job sites simultaneously. Each project gets its own financial view, so you always know which jobs are profitable and which clients have outstanding balances." },
+      { "title": "Mobile Invoicing", "description": "Create and send invoices from the job site using your phone. Finished a phase of work? Invoice immediately while the details are fresh. No more stacking invoices until the weekend or losing track of billable work." },
+      { "title": "Material Cost Tracking", "description": "Track materials, labour, subcontractor fees, and equipment costs for accurate job costing. Know your true margins on every project and use historical data to price future jobs more accurately." },
+      { "title": "Tax-Ready Records", "description": "Every invoice and expense is automatically categorised and stored for tax compliance. When tax season arrives, your records are already organised — no more shoebox of receipts to sort through." }
+    ]
+  },
+  "useCases": {
+    "heading": "How contractors use Invoicemonk",
+    "subheading": "Whether you're an electrician, plumber, builder, or general contractor — here's how Invoicemonk fits your workflow",
+    "items": [
+      { "title": "Residential Projects", "description": "Quote the job, send a deposit invoice, then bill at agreed milestones — rough-in, inspection, and completion. Track material purchases against each project and know your actual profit margin before the paint dries. Homeowners appreciate the transparency of itemised invoices." },
+      { "title": "Commercial Contracts", "description": "Manage larger commercial projects with progress billing. Create detailed invoices referencing PO numbers, contract terms, and completion percentages. Bill for materials, labour, and equipment separately. Keep records that satisfy commercial clients' accounting departments." },
+      { "title": "Maintenance & Service Calls", "description": "For quick service calls and maintenance jobs, create an invoice on your phone before you leave the site. Add the call-out fee, parts used, and labour time. Send it instantly so the client receives it while the work is still fresh in their mind — resulting in faster payment." }
+    ]
+  },
+  "challenges": {
+    "heading": "Common contractor challenges — solved",
+    "subheading": "We built Invoicemonk around the real problems contractors face on the job",
+    "items": [
+      { "problem": "Forgetting to invoice for extras, change orders, or additional materials", "solution": "Invoice from the job site on your phone immediately after completing work. Add line items for extras in real time before they slip through the cracks." },
+      { "problem": "Not knowing the true cost and profitability of each job", "solution": "Track all expenses — materials, labour, subcontractors, fuel — per project. See your actual margin on every job and use that data to price future projects accurately." },
+      { "problem": "Clients disputing invoices because of unclear billing", "solution": "Detailed line items showing materials, labour hours, and rates. Clients see exactly what they are paying for, which reduces disputes and speeds up payment." },
+      { "problem": "Chasing payments across multiple job sites and clients", "solution": "Automatic payment reminders follow up with every client on schedule. Your dashboard shows all outstanding invoices across every project in one view." }
+    ]
+  },
+  "workflow": {
+    "heading": "How it works",
+    "subheading": "From project setup to final payment — a workflow built for the job site",
+    "steps": [
+      { "title": "Set up your projects", "description": "Create a project for each job site or client engagement. Add the client's details, project scope, and billing structure — whether it's progress billing, fixed-price, or time-and-materials. This takes minutes and organises all your billing from day one." },
+      { "title": "Request deposits upfront", "description": "Before starting work, send a professional deposit invoice — typically 30–50% of the estimated project cost. Invoicemonk tracks the deposit against the total and automatically calculates the remaining balance. This protects your cash flow and sets clear financial expectations with the client." },
+      { "title": "Invoice at milestones", "description": "As you complete phases of work — rough-in, inspection, finishing — create progress invoices directly from your phone. Add line items for materials used, labour hours, and any extras. Send the invoice while you are still on-site so the client receives it immediately." },
+      { "title": "Track costs and close out", "description": "Log expenses as they happen: material purchases, subcontractor payments, equipment rentals. When the project wraps up, send the final invoice with the remaining balance. Your project records show total revenue, total costs, and actual profit margin." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Why contractors choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Most invoicing software is built for office workers sitting at a desk. Contractors need something different — a tool that works on a phone at a dusty job site, that understands progress billing and deposit invoices, and that tracks costs per project rather than per department. That's what Invoicemonk delivers.",
+      "Unlike generic accounting software, Invoicemonk doesn't force you through complex setup wizards or require accounting knowledge. Add a project, create an invoice, send it. The interface is designed for speed because contractors don't have time to learn software — they have jobs to finish.",
+      "And unlike simple invoicing apps that only handle basic billing, Invoicemonk gives you the project-level financial tracking that contractors actually need: cost-per-job analysis, deposit tracking against total project costs, and expense categorisation that makes tax season straightforward."
+    ]
+  },
+  "checklist": {
+    "heading": "What contractors get with Invoicemonk",
+    "items": [
+      "Progress billing & milestones",
+      "Job-based expense tracking",
+      "Material cost management",
+      "Multi-client organization",
+      "Mobile invoicing",
+      "Automatic payment reminders",
+      "Photo attachments for jobs",
+      "Deposit & retainer invoices",
+      "Labour hour tracking",
+      "Tax-compliant records"
+    ]
+  },
+  "testimonials": {
+    "heading": "Trusted by contractors",
+    "items": [
+      { "quote": "I can invoice clients right from the job site. No more waiting until I get back to the office, and no more forgetting to bill for extras. My weekly revenue has gone up simply because I'm invoicing faster and not leaving money on the table.", "author": "Emeka O.", "role": "Electrical Contractor" },
+      { "quote": "Tracking expenses per project has helped me understand my true costs. I used to think certain jobs were profitable until I added up all the material runs and subcontractor fees. Now I'm pricing jobs more accurately and my margins have improved.", "author": "Kola B.", "role": "Building Contractor" },
+      { "quote": "The deposit invoice feature is essential for my business. I require 40% upfront before starting any job, and Invoicemonk makes that process professional. Clients take me more seriously when the deposit request comes as a proper invoice.", "author": "Femi T.", "role": "Plumbing Contractor" }
+    ]
+  },
+  "faqs": [
+    { "question": "Can I create progress billing invoices?", "answer": "Yes. Invoicemonk supports progress billing, milestone invoicing, and deposit requests. Bill clients at project stages — for example, 30% upfront, 40% at rough-in, and 30% at completion. Each invoice references the specific phase of work completed." },
+    { "question": "Can I track expenses per job site?", "answer": "Absolutely. Categorise expenses by project, client, or job site. Track material costs, subcontractor fees, tool rentals, and fuel separately for each job. This gives you accurate cost-per-job data for better pricing on future projects." },
+    { "question": "Does Invoicemonk work on mobile?", "answer": "Yes. Create and send invoices from your phone right at the job site. The mobile interface is designed for field use — no need to wait until you get back to the office to send an invoice or log an expense." },
+    { "question": "Can I invoice for materials and labour separately?", "answer": "Yes. Add separate line items for materials, labour hours, equipment rental, and any other cost categories. Your client sees a clear breakdown of what they are paying for, which reduces disputes and builds trust." },
+    { "question": "How do automatic payment reminders help contractors?", "answer": "Contractors often have multiple clients across different job sites. Automatic reminders ensure every outstanding invoice gets followed up, even when you are busy on-site. Set reminder schedules and Invoicemonk handles the rest — no manual chasing needed." },
+    { "question": "Is Invoicemonk free for contractors?", "answer": "Yes! The free tier includes 5 invoices and 5 receipts per month. As your contracting business grows and you take on more projects, upgrade for unlimited invoicing, detailed job costing reports, and recurring billing features." },
+    { "question": "Can I create deposit invoices?", "answer": "Yes. Request deposits or retainers upfront before starting work. Invoicemonk tracks the deposit against the total project cost and automatically calculates the remaining balance for your final invoice." }
+  ],
+  "faqHeading": "Frequently asked questions",
+  "relatedReading": "Related reading",
+  "relatedLinks": {
+    "milestone": "Milestone Billing",
+    "paymentTerms": "Payment Terms Guide",
+    "gettingPaid": "Getting Paid Faster"
+  },
+  "cta": {
+    "heading": "Ready to simplify your contracting business?",
+    "description": "Join contractors who trust Invoicemonk to manage their invoicing and expenses.",
+    "button": "Get Started Free"
+  }
+}

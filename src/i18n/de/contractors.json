@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Rechnungssoftware für Auftragnehmer | Invoicemonk",
+    "description": "Professionelle Rechnungsstellung für Elektro-, Bau- und Handwerksunternehmer. Mobile Rechnungsstellung, Mehrprojekt-Tracking und Auftragskosten-Management."
+  },
+  "hero": {
+    "badge": "Für Auftragnehmer",
+    "title": "Rechnungsstellung für Auftragnehmer",
+    "accentWord": "Auftragnehmer",
+    "description": "Verwalten Sie mehrere Projekte, verfolgen Sie Auftragskosten und stellen Sie Rechnungen von überall. Entwickelt für Auftragnehmer, die vor Ort und unterwegs arbeiten.",
+    "primaryCta": "Kostenlos starten",
+    "secondaryCta": "Preise ansehen",
+    "trustBadge": "Vertraut von Elektro-, Bau- und Handwerksunternehmern"
+  },
+  "benefits": {
+    "heading": "Entwickelt für Handwerk und Bau",
+    "subheading": "Alles, was Sie für die Finanzverwaltung über mehrere Baustellen hinweg brauchen — von Anzahlungsrechnungen bis zur Schlusszahlung",
+    "items": [
+      { "title": "Mehrprojekt-Verwaltung", "description": "Verfolgen Sie Rechnungen, Ausgaben und Zahlungen über mehrere Kunden und Baustellen gleichzeitig. Jedes Projekt hat seine eigene Finanzübersicht." },
+      { "title": "Mobile Rechnungsstellung", "description": "Erstellen und versenden Sie Rechnungen von der Baustelle mit Ihrem Handy. Eine Arbeitsphase abgeschlossen? Sofort fakturieren, solange die Details frisch sind." },
+      { "title": "Materialkostenverfolgung", "description": "Verfolgen Sie Material, Arbeit, Subunternehmer und Gerätkosten für genaue Auftragskalkulationen. Kennen Sie Ihre echten Margen bei jedem Projekt." },
+      { "title": "Steuerfertige Unterlagen", "description": "Jede Rechnung und Ausgabe wird automatisch kategorisiert und für die Steuerkonformität gespeichert. Keine Schuhkartons voller Belege mehr." }
+    ]
+  },
+  "useCases": {
+    "heading": "Wie Auftragnehmer Invoicemonk nutzen",
+    "subheading": "Ob Elektriker, Klempner, Bauunternehmer oder Generalunternehmer — so passt Invoicemonk in Ihren Workflow",
+    "items": [
+      { "title": "Wohnbauprojekte", "description": "Angebot erstellen, Anzahlungsrechnung senden, dann an vereinbarten Meilensteinen abrechnen — Rohbau, Abnahme und Fertigstellung. Materialkosten pro Projekt verfolgen." },
+      { "title": "Gewerbliche Aufträge", "description": "Grössere Gewerbeprojekte mit Fortschrittsabrechnung verwalten. Detaillierte Rechnungen mit Bestellnummern, Vertragsbedingungen und Fertigstellungsgraden erstellen." },
+      { "title": "Wartung & Serviceeinsätze", "description": "Für schnelle Serviceeinsätze erstellen Sie eine Rechnung auf dem Handy, bevor Sie die Baustelle verlassen. Sofort senden für schnellere Bezahlung." }
+    ]
+  },
+  "challenges": {
+    "heading": "Häufige Auftragnehmer-Herausforderungen — gelöst",
+    "subheading": "Wir haben Invoicemonk um die echten Probleme herum entwickelt, denen Auftragnehmer auf der Baustelle begegnen",
+    "items": [
+      { "problem": "Vergessen, Extras, Nachträge oder zusätzliches Material zu berechnen", "solution": "Sofort von der Baustelle aus mit dem Handy fakturieren. Zusatzpositionen in Echtzeit hinzufügen." },
+      { "problem": "Die echten Kosten und die Rentabilität jedes Auftrags nicht kennen", "solution": "Alle Ausgaben pro Projekt verfolgen — Material, Arbeit, Subunternehmer, Kraftstoff. Die tatsächliche Marge bei jedem Auftrag sehen." },
+      { "problem": "Kunden beanstanden Rechnungen wegen unklarer Abrechnung", "solution": "Detaillierte Positionen mit Material, Arbeitsstunden und Stundensätzen. Kunden sehen genau, wofür sie bezahlen." },
+      { "problem": "Zahlungen über mehrere Baustellen und Kunden hinweg verfolgen", "solution": "Automatische Zahlungserinnerungen verfolgen jeden Kunden nach Zeitplan. Ihr Dashboard zeigt alle offenen Rechnungen auf einen Blick." }
+    ]
+  },
+  "workflow": {
+    "heading": "So funktioniert es",
+    "subheading": "Vom Projektsetup bis zur Schlusszahlung — ein Workflow für die Baustelle",
+    "steps": [
+      { "title": "Projekte einrichten", "description": "Erstellen Sie ein Projekt für jede Baustelle oder jeden Kundenauftrag. Kundendaten, Projektumfang und Abrechnungsstruktur hinzufügen." },
+      { "title": "Anzahlungen vorab anfordern", "description": "Vor Arbeitsbeginn eine professionelle Anzahlungsrechnung senden — typischerweise 30–50% der geschätzten Projektkosten." },
+      { "title": "Bei Meilensteinen fakturieren", "description": "Fortschrittsrechnungen direkt vom Handy erstellen, wenn Arbeitsphasen abgeschlossen sind. Positionen für Material, Arbeitsstunden und Extras hinzufügen." },
+      { "title": "Kosten verfolgen und abschliessen", "description": "Ausgaben laufend erfassen: Materialeinkäufe, Subunternehmer-Zahlungen, Gerätmieten. Schlussrechnung mit Restbetrag senden." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Warum Auftragnehmer Invoicemonk wählen",
+    "paragraphs": [
+      "Die meiste Rechnungssoftware ist für Büroangestellte am Schreibtisch gemacht. Auftragnehmer brauchen etwas anderes — ein Tool, das auf dem Handy an einer staubigen Baustelle funktioniert.",
+      "Anders als generische Buchhaltungssoftware zwingt Invoicemonk Sie nicht durch komplexe Setup-Assistenten. Projekt hinzufügen, Rechnung erstellen, senden.",
+      "Invoicemonk bietet die projektbezogene Finanzverfolgung, die Auftragnehmer wirklich brauchen: Kosten-pro-Auftrag-Analyse, Anzahlungsverfolgung und Ausgabenkategorisierung."
+    ]
+  },
+  "checklist": {
+    "heading": "Was Auftragnehmer mit Invoicemonk bekommen",
+    "items": [
+      "Fortschrittsabrechnung & Meilensteine",
+      "Auftragsbezogene Ausgabenverfolgung",
+      "Materialkostenverwaltung",
+      "Multi-Kunden-Organisation",
+      "Mobile Rechnungsstellung",
+      "Automatische Zahlungserinnerungen",
+      "Foto-Anhänge für Aufträge",
+      "Anzahlungs- & Retainer-Rechnungen",
+      "Arbeitsstunden-Tracking",
+      "Steuerkonforme Aufzeichnungen"
+    ]
+  },
+  "testimonials": {
+    "heading": "Vertraut von Auftragnehmern",
+    "items": [
+      { "quote": "Ich kann Kunden direkt von der Baustelle aus Rechnungen stellen. Kein Warten mehr bis ich im Büro bin. Mein wöchentlicher Umsatz ist gestiegen, weil ich schneller fakturiere.", "author": "Emeka O.", "role": "Elektroinstallateur" },
+      { "quote": "Ausgaben pro Projekt zu verfolgen hat mir geholfen, meine echten Kosten zu verstehen. Jetzt kalkuliere ich Aufträge genauer und meine Margen haben sich verbessert.", "author": "Kola B.", "role": "Bauunternehmer" },
+      { "quote": "Die Anzahlungsrechnung ist essentiell für mein Geschäft. Ich verlange 40% im Voraus, und Invoicemonk macht diesen Prozess professionell.", "author": "Femi T.", "role": "Sanitärinstallateur" }
+    ]
+  },
+  "faqs": [
+    { "question": "Kann ich Fortschrittsabrechnungen erstellen?", "answer": "Ja. Invoicemonk unterstützt Fortschrittsabrechnung, Meilenstein-Fakturierung und Anzahlungsanfragen." },
+    { "question": "Kann ich Ausgaben pro Baustelle verfolgen?", "answer": "Absolut. Kategorisieren Sie Ausgaben nach Projekt, Kunde oder Baustelle." },
+    { "question": "Funktioniert Invoicemonk auf dem Handy?", "answer": "Ja. Erstellen und versenden Sie Rechnungen direkt von der Baustelle." },
+    { "question": "Kann ich Material und Arbeit getrennt berechnen?", "answer": "Ja. Fügen Sie separate Positionen für Material, Arbeitsstunden und Gerätmieten hinzu." },
+    { "question": "Wie helfen automatische Zahlungserinnerungen?", "answer": "Automatische Erinnerungen stellen sicher, dass jede offene Rechnung nachverfolgt wird, auch wenn Sie auf der Baustelle beschäftigt sind." },
+    { "question": "Ist Invoicemonk kostenlos für Auftragnehmer?", "answer": "Ja! Die kostenlose Version umfasst 5 Rechnungen und 5 Belege pro Monat." },
+    { "question": "Kann ich Anzahlungsrechnungen erstellen?", "answer": "Ja. Fordern Sie Anzahlungen vor Arbeitsbeginn an. Invoicemonk verfolgt die Anzahlung gegen die Gesamtkosten." }
+  ],
+  "faqHeading": "Häufig gestellte Fragen",
+  "relatedReading": "Weiterführende Lektüre",
+  "relatedLinks": {
+    "milestone": "Meilenstein-Abrechnung",
+    "paymentTerms": "Zahlungsbedingungen-Guide",
+    "gettingPaid": "Schneller bezahlt werden"
+  },
+  "cta": {
+    "heading": "Bereit, Ihr Auftragnehmer-Geschäft zu vereinfachen?",
+    "description": "Schliessen Sie sich Auftragnehmern an, die Invoicemonk für ihre Rechnungsstellung und Ausgaben vertrauen.",
+    "button": "Kostenlos starten"
+  }
+}

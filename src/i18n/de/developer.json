@@ -1,0 +1,59 @@
+{
+  "seo": {
+    "title": "Entwickler-API | Invoicemonk",
+    "description": "Integrieren Sie Invoicemonk in Ihre Anwendungen mit unserer Entwickler-API. Vollständige Dokumentation und SDKs verfügbar."
+  },
+  "hero": {
+    "badge": "Entwickler-API",
+    "title": "Entwickeln Sie mit Invoicemonk",
+    "accentWord": "Invoicemonk",
+    "description": "Integrieren Sie Rechnungsstellung, Ausgaben und Finanzdaten direkt in Ihre Anwendungen. Unsere API macht es einfach, leistungsstarke Finanz-Workflows zu erstellen.",
+    "primaryCta": "Dokumentation ansehen",
+    "secondaryCta": "API-Schlüssel erhalten",
+    "trustBadge": "99,9% Uptime-SLA • RESTful API • Webhooks"
+  },
+  "features": {
+    "heading": "Entwicklerfreundlich von Grund auf",
+    "items": [
+      { "title": "RESTful API", "description": "Vollständige REST-API zum programmatischen Erstellen, Verwalten und Abrufen von Rechnungen." },
+      { "title": "Webhooks", "description": "Echtzeit-Benachrichtigungen für Rechnungsereignisse, Zahlungen und Statusänderungen." },
+      { "title": "Sicher konzipiert", "description": "OAuth 2.0 Authentifizierung, API-Schlüssel mit Berechtigungen und verschlüsselte Datenübertragung." },
+      { "title": "Hohe Leistung", "description": "Schnelle Antwortzeiten mit 99,9% Uptime-SLA für geschäftskritische Integrationen." }
+    ]
+  },
+  "apiPreview": {
+    "heading": "Einfache, intuitive API",
+    "subheading": "RESTful-Endpunkte, die leicht zu verstehen und zu integrieren sind",
+    "sampleEndpoints": "Beispiel-Endpunkte"
+  },
+  "endpoints": [
+    { "method": "POST", "path": "/v1/invoices", "description": "Neue Rechnung erstellen" },
+    { "method": "GET", "path": "/v1/invoices/:id", "description": "Rechnung abrufen" },
+    { "method": "PUT", "path": "/v1/invoices/:id", "description": "Rechnung aktualisieren" },
+    { "method": "POST", "path": "/v1/invoices/:id/send", "description": "Rechnung an Kunden senden" },
+    { "method": "GET", "path": "/v1/clients", "description": "Alle Kunden auflisten" },
+    { "method": "POST", "path": "/v1/expenses", "description": "Ausgabe erfassen" }
+  ],
+  "codeExample": {
+    "heading": "In Minuten starten"
+  },
+  "resources": {
+    "heading": "Entwickler-Ressourcen",
+    "items": [
+      { "title": "Dokumentation", "description": "Umfassende Anleitungen und API-Referenz", "cta": "Docs lesen" },
+      { "title": "SDKs", "description": "Client-Bibliotheken für beliebte Sprachen", "cta": "Auf GitHub ansehen" },
+      { "title": "API-Status", "description": "Echtzeit-API-Zustand und Verfügbarkeit", "cta": "Status prüfen" }
+    ]
+  },
+  "faqs": [
+    { "question": "Ist die API kostenlos?", "answer": "API-Zugang ist in kostenpflichtigen Plänen enthalten. Erstellen Sie ein kostenloses Konto, um die API-Dokumentation sofort zu erkunden." },
+    { "question": "Welche Authentifizierung verwendet die API?", "answer": "Die Invoicemonk-API verwendet OAuth 2.0 Authentifizierung mit API-Schlüsseln und Berechtigungen." },
+    { "question": "Wie hoch ist die API-Verfügbarkeitsgarantie?", "answer": "Wir bieten ein 99,9% Uptime-SLA für Produktions-API-Zugang." },
+    { "question": "Gibt es SDKs?", "answer": "Ja, wir bieten Client-Bibliotheken für JavaScript, Python und PHP. Alle SDKs sind auf GitHub verfügbar." }
+  ],
+  "cta": {
+    "heading": "Bereit zur Integration?",
+    "description": "Melden Sie sich für kostenlosen API-Zugang an und beginnen Sie noch heute mit Invoicemonk zu entwickeln.",
+    "button": "API-Schlüssel erhalten"
+  }
+}
