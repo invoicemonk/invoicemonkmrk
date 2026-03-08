@@ -294,25 +294,7 @@ export function Footer() {
         </div>
 
         {/* Available In - Country Links */}
-        <div className="mt-10 pt-8 border-t border-white/10">
-          <h4 className="text-[11px] uppercase tracking-widest font-semibold text-white/40 mb-3">{t('footer.availableIn')}</h4>
-          <div className="flex flex-wrap gap-2">
-            {supportedCountries.map((code) => {
-              const locale = locales[code];
-              const prefix = countryToUrlPrefix[code];
-              return (
-                <a
-                  key={code}
-                  href={`/${prefix}/`}
-                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[12px] text-white/60 hover:text-white hover:bg-white/10 transition-colors"
-                >
-                  <span>{locale.flag}</span>
-                  <span>{locale.country}</span>
-                </a>
-              );
-            })}
-          </div>
-        </div>
+        <FooterCountryLinks />
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex items-center justify-center">
