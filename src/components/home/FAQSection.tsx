@@ -5,7 +5,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { homepageFAQs } from '@/data/homepageFAQs';
 import { useLocale } from '@/hooks/useLocale';
 import { useTranslation } from 'react-i18next';
 import { useMemo } from 'react';
@@ -15,8 +14,10 @@ export function FAQSection() {
   const { t } = useTranslation('home');
 
   const allFaqs = useMemo(() => {
-    return [...homepageFAQs, ...locale.content.faqs];
-  }, [locale.content.faqs]);
+    const rawItems = t('faq.items', { returnObjects: true });
+    const genericFaqs = Array.isArray(rawItems) ? rawItems as { question: string; answer: string }[] : [];
+    return [...genericFaqs, ...locale.content.faqs];
+  }, [t, locale.content.faqs]);
 
   const leftFaqs = allFaqs.slice(0, Math.ceil(allFaqs.length / 2));
   const rightFaqs = allFaqs.slice(Math.ceil(allFaqs.length / 2));

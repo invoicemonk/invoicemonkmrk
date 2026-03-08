@@ -115,5 +115,17 @@
     "earnedThisMonth": "{{amount}} ganado este mes",
     "paid": "Pagado",
     "pending": "Pendiente"
+  },
+  "guides": {
+    "title": "Guías y Recursos para empresas | Invoicemonk",
+    "description": "Guías completas sobre facturación, cobros, contabilidad, cumplimiento fiscal, freelancing y propuestas comerciales.",
+    "heading": "Guías y Recursos para empresas",
+    "subtitle": "Todo lo que necesita para dominar la facturación, cobrar más rápido y hacer crecer su negocio. Explore nuestras guías escritas por expertos.",
+    "readGuide": "Leer guía"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Página no encontrada",
+    "link": "Volver al inicio"
   }
 }

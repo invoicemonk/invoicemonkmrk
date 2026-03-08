@@ -23,15 +23,15 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 export default function GuidesIndex() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const lang = getLangPrefix(i18n.language);
   const pillars = getTranslatedPillars(lang);
 
   return (
     <Layout>
       <SEOHead
-        title="Business Guides & Resources | Invoicemonk"
-        description="Comprehensive guides on invoicing, getting paid, accounting, tax compliance, freelancing, and business proposals. Expert knowledge to grow your business."
+        title={t('guides.title')}
+        description={t('guides.description')}
       />
       
       {/* Hero */}
@@ -44,11 +44,10 @@ export default function GuidesIndex() {
             className="max-w-3xl mx-auto text-center"
           >
             <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-4">
-              Business Guides & Resources
+              {t('guides.heading')}
             </h1>
             <p className="text-body-lg text-muted-foreground">
-              Everything you need to master invoicing, get paid faster, and grow your business. 
-              Explore our comprehensive guides written by industry experts.
+              {t('guides.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -83,7 +82,7 @@ export default function GuidesIndex() {
                           {pillar.description}
                         </p>
                         <span className="inline-flex items-center text-sm font-medium text-primary gap-1">
-                          Read Guide <ArrowRight className="h-4 w-4" />
+                          {t('guides.readGuide')} <ArrowRight className="h-4 w-4" />
                         </span>
                       </CardContent>
                     </Card>

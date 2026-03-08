@@ -115,5 +115,17 @@
     "earnedThisMonth": "{{amount}} earned this month",
     "paid": "Paid",
     "pending": "Pending"
+  },
+  "guides": {
+    "title": "Business Guides & Resources | Invoicemonk",
+    "description": "Comprehensive guides on invoicing, getting paid, accounting, tax compliance, freelancing, and business proposals. Expert knowledge to grow your business.",
+    "heading": "Business Guides & Resources",
+    "subtitle": "Everything you need to master invoicing, get paid faster, and grow your business. Explore our comprehensive guides written by industry experts.",
+    "readGuide": "Read Guide"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "link": "Return to Home"
   }
 }

@@ -16,16 +16,19 @@ import { WebSiteSchema } from '@/components/seo/WebSiteSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { useLocale } from '@/hooks/useLocale';
 import { pageSEO } from '@/components/seo/seoConfig';
-import { homepageFAQs } from '@/data/homepageFAQs';
 import { useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Index = () => {
   const { locale } = useLocale();
+  const { t } = useTranslation('home');
   const seo = pageSEO['/'];
 
   const allFaqs = useMemo(() => {
-    return [...homepageFAQs, ...locale.content.faqs];
-  }, [locale.content.faqs]);
+    const rawItems = t('faq.items', { returnObjects: true });
+    const genericFaqs = Array.isArray(rawItems) ? rawItems as { question: string; answer: string }[] : [];
+    return [...genericFaqs, ...locale.content.faqs];
+  }, [t, locale.content.faqs]);
 
   return (
     <>
