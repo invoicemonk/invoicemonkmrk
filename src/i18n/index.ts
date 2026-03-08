@@ -151,6 +151,36 @@ import frEcommerce from './fr/ecommerce.json';
 import ptBREcommerce from './pt-BR/ecommerce.json';
 import esEcommerce from './es/ecommerce.json';
 
+import enCompareFreshbooks from './en/compareFreshbooks.json';
+import deCompareFreshbooks from './de/compareFreshbooks.json';
+import frCompareFreshbooks from './fr/compareFreshbooks.json';
+import ptBRCompareFreshbooks from './pt-BR/compareFreshbooks.json';
+import esCompareFreshbooks from './es/compareFreshbooks.json';
+
+import enCompareQuickbooks from './en/compareQuickbooks.json';
+import deCompareQuickbooks from './de/compareQuickbooks.json';
+import frCompareQuickbooks from './fr/compareQuickbooks.json';
+import ptBRCompareQuickbooks from './pt-BR/compareQuickbooks.json';
+import esCompareQuickbooks from './es/compareQuickbooks.json';
+
+import enCompareWave from './en/compareWave.json';
+import deCompareWave from './de/compareWave.json';
+import frCompareWave from './fr/compareWave.json';
+import ptBRCompareWave from './pt-BR/compareWave.json';
+import esCompareWave from './es/compareWave.json';
+
+import enCompareZoho from './en/compareZoho.json';
+import deCompareZoho from './de/compareZoho.json';
+import frCompareZoho from './fr/compareZoho.json';
+import ptBRCompareZoho from './pt-BR/compareZoho.json';
+import esCompareZoho from './es/compareZoho.json';
+
+import enBestInvoicingSoftware from './en/bestInvoicingSoftware.json';
+import deBestInvoicingSoftware from './de/bestInvoicingSoftware.json';
+import frBestInvoicingSoftware from './fr/bestInvoicingSoftware.json';
+import ptBRBestInvoicingSoftware from './pt-BR/bestInvoicingSoftware.json';
+import esBestInvoicingSoftware from './es/bestInvoicingSoftware.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
@@ -159,15 +189,15 @@ export function getLanguageFromPrefix(prefix: string): string {
   return langPrefixToI18nCode[prefix] || 'en';
 }
 
-const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement', 'freelancers', 'photographers', 'consultants', 'creatives', 'contractors', 'developer', 'agencies', 'lawyers', 'smallBusinesses', 'accountants', 'ecommerce'];
+const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement', 'freelancers', 'photographers', 'consultants', 'creatives', 'contractors', 'developer', 'agencies', 'lawyers', 'smallBusinesses', 'accountants', 'ecommerce', 'compareFreshbooks', 'compareQuickbooks', 'compareWave', 'compareZoho', 'bestInvoicingSoftware'];
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting, estimates: enEstimates, receipts: enReceipts, clientManagement: enClientManagement, freelancers: enFreelancers, photographers: enPhotographers, consultants: enConsultants, creatives: enCreatives, contractors: enContractors, developer: enDeveloper, agencies: enAgencies, lawyers: enLawyers, smallBusinesses: enSmallBusinesses, accountants: enAccountants, ecommerce: enEcommerce },
-    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting, estimates: deEstimates, receipts: deReceipts, clientManagement: deClientManagement, freelancers: deFreelancers, photographers: dePhotographers, consultants: deConsultants, creatives: deCreatives, contractors: deContractors, developer: deDeveloper, agencies: deAgencies, lawyers: deLawyers, smallBusinesses: deSmallBusinesses, accountants: deAccountants, ecommerce: deEcommerce },
-    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting, estimates: frEstimates, receipts: frReceipts, clientManagement: frClientManagement, freelancers: frFreelancers, photographers: frPhotographers, consultants: frConsultants, creatives: frCreatives, contractors: frContractors, developer: frDeveloper, agencies: frAgencies, lawyers: frLawyers, smallBusinesses: frSmallBusinesses, accountants: frAccountants, ecommerce: frEcommerce },
-    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting, estimates: ptBREstimates, receipts: ptBRReceipts, clientManagement: ptBRClientManagement, freelancers: ptBRFreelancers, photographers: ptBRPhotographers, consultants: ptBRConsultants, creatives: ptBRCreatives, contractors: ptBRContractors, developer: ptBRDeveloper, agencies: ptBRAgencies, lawyers: ptBRLawyers, smallBusinesses: ptBRSmallBusinesses, accountants: ptBRAccountants, ecommerce: ptBREcommerce },
-    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting, estimates: esEstimates, receipts: esReceipts, clientManagement: esClientManagement, freelancers: esFreelancers, photographers: esPhotographers, consultants: esConsultants, creatives: esCreatives, contractors: esContractors, developer: esDeveloper, agencies: esAgencies, lawyers: esLawyers, smallBusinesses: esSmallBusinesses, accountants: esAccountants, ecommerce: esEcommerce },
+    en: { common: enCommon, compliance: enCompliance, about: enAbout, pricing: enPricing, whyInvoicemonk: enWhyInvoicemonk, freeInvoiceGenerator: enFreeInvoiceGenerator, invoicing: enInvoicing, expenses: enExpenses, contact: enContact, payments: enPayments, accounting: enAccounting, estimates: enEstimates, receipts: enReceipts, clientManagement: enClientManagement, freelancers: enFreelancers, photographers: enPhotographers, consultants: enConsultants, creatives: enCreatives, contractors: enContractors, developer: enDeveloper, agencies: enAgencies, lawyers: enLawyers, smallBusinesses: enSmallBusinesses, accountants: enAccountants, ecommerce: enEcommerce, compareFreshbooks: enCompareFreshbooks, compareQuickbooks: enCompareQuickbooks, compareWave: enCompareWave, compareZoho: enCompareZoho, bestInvoicingSoftware: enBestInvoicingSoftware },
+    de: { common: deCommon, compliance: deCompliance, about: deAbout, pricing: dePricing, whyInvoicemonk: deWhyInvoicemonk, freeInvoiceGenerator: deFreeInvoiceGenerator, invoicing: deInvoicing, expenses: deExpenses, contact: deContact, payments: dePayments, accounting: deAccounting, estimates: deEstimates, receipts: deReceipts, clientManagement: deClientManagement, freelancers: deFreelancers, photographers: dePhotographers, consultants: deConsultants, creatives: deCreatives, contractors: deContractors, developer: deDeveloper, agencies: deAgencies, lawyers: deLawyers, smallBusinesses: deSmallBusinesses, accountants: deAccountants, ecommerce: deEcommerce, compareFreshbooks: deCompareFreshbooks, compareQuickbooks: deCompareQuickbooks, compareWave: deCompareWave, compareZoho: deCompareZoho, bestInvoicingSoftware: deBestInvoicingSoftware },
+    fr: { common: frCommon, compliance: frCompliance, about: frAbout, pricing: frPricing, whyInvoicemonk: frWhyInvoicemonk, freeInvoiceGenerator: frFreeInvoiceGenerator, invoicing: frInvoicing, expenses: frExpenses, contact: frContact, payments: frPayments, accounting: frAccounting, estimates: frEstimates, receipts: frReceipts, clientManagement: frClientManagement, freelancers: frFreelancers, photographers: frPhotographers, consultants: frConsultants, creatives: frCreatives, contractors: frContractors, developer: frDeveloper, agencies: frAgencies, lawyers: frLawyers, smallBusinesses: frSmallBusinesses, accountants: frAccountants, ecommerce: frEcommerce, compareFreshbooks: frCompareFreshbooks, compareQuickbooks: frCompareQuickbooks, compareWave: frCompareWave, compareZoho: frCompareZoho, bestInvoicingSoftware: frBestInvoicingSoftware },
+    'pt-BR': { common: ptBRCommon, compliance: ptBRCompliance, about: ptBRAbout, pricing: ptBRPricing, whyInvoicemonk: ptBRWhyInvoicemonk, freeInvoiceGenerator: ptBRFreeInvoiceGenerator, invoicing: ptBRInvoicing, expenses: ptBRExpenses, contact: ptBRContact, payments: ptBRPayments, accounting: ptBRAccounting, estimates: ptBREstimates, receipts: ptBRReceipts, clientManagement: ptBRClientManagement, freelancers: ptBRFreelancers, photographers: ptBRPhotographers, consultants: ptBRConsultants, creatives: ptBRCreatives, contractors: ptBRContractors, developer: ptBRDeveloper, agencies: ptBRAgencies, lawyers: ptBRLawyers, smallBusinesses: ptBRSmallBusinesses, accountants: ptBRAccountants, ecommerce: ptBREcommerce, compareFreshbooks: ptBRCompareFreshbooks, compareQuickbooks: ptBRCompareQuickbooks, compareWave: ptBRCompareWave, compareZoho: ptBRCompareZoho, bestInvoicingSoftware: ptBRBestInvoicingSoftware },
+    es: { common: esCommon, compliance: esCompliance, about: esAbout, pricing: esPricing, whyInvoicemonk: esWhyInvoicemonk, freeInvoiceGenerator: esFreeInvoiceGenerator, invoicing: esInvoicing, expenses: esExpenses, contact: esContact, payments: esPayments, accounting: esAccounting, estimates: esEstimates, receipts: esReceipts, clientManagement: esClientManagement, freelancers: esFreelancers, photographers: esPhotographers, consultants: esConsultants, creatives: esCreatives, contractors: esContractors, developer: esDeveloper, agencies: esAgencies, lawyers: esLawyers, smallBusinesses: esSmallBusinesses, accountants: esAccountants, ecommerce: esEcommerce, compareFreshbooks: esCompareFreshbooks, compareQuickbooks: esCompareQuickbooks, compareWave: esCompareWave, compareZoho: esCompareZoho, bestInvoicingSoftware: esBestInvoicingSoftware },
   },
   lng: 'en',
   fallbackLng: 'en',
