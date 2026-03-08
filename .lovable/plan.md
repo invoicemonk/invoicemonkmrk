@@ -1,50 +1,48 @@
 
 
-# Translation Plan for All Untranslated Content Sections
+# Homepage Translation Plan
 
-## Content Inventory
+## Problem
+The homepage has 10 section components, but only `HeroSection` is fully translated. The remaining 9 sections contain hardcoded English strings that display identically across `/de/`, `/fr/`, `/es/`, and `/pt/` routes.
 
-| Section | Items | Languages (de/fr/pt/es) | Total translations |
-|---|---|---|---|
-| Blog posts (main) | ~50 posts | × 4 | 200 |
-| Blog posts (country compliance) | 43 posts | × 4 | 172 |
-| Help center guides | 16 guides | × 4 | 64 |
-| Glossary terms | ~35 terms | × 4 | 140 |
-| Guide detail pages (pillar hubs) | 8 pages | × 4 | 32 |
-| Topic pages (pillar listing) | 1 index + 8 pillars | × 4 | 36 |
-| Author pages | 3 authors | × 4 | 12 |
-| Corridor pages | 9 corridors | × 4 | 36 |
-| Legal pages | 4 pages (Privacy, Terms, Cookie, SLA) | × 4 | 16 |
-| Blog listing page (UI strings) | 1 page | × 4 | 4 |
-| **Total** | | | **~712** |
+## Sections Requiring Translation
 
-## Current Status
+| Section | Hardcoded Strings |
+|---------|------------------|
+| **GlobalComplianceSection** | Heading, eyebrow, feature labels, footer copy |
+| **CompliancePositioningSection** | Heading, subtitle, feature labels, footer |
+| **WaveProductTabs** | Section heading, 7 product names/descriptions/features, CTAs |
+| **WaveFeatureBenefits** | Section heading, 3 benefit titles + descriptions |
+| **ComplianceTrustSection** | Heading, 8 trust item labels + descriptions |
+| **WaveTestimonials** | "Testimonials" label, "Loved by" heading |
+| **WavePersonaSection** | Heading, subtitle, 4 persona titles + descriptions |
+| **HomeBlogSection** | Heading, subtitle, CTA button text |
+| **FAQSection** | Heading, subtitle |
+| **WaveCTASection** | Heading, subtitle, CTA button, 3 trust badges |
 
-### ✅ Batch 1: Infrastructure (COMPLETE)
-- `src/utils/i18nData.ts` — registry-based helper with English fallback
-- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
-- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
-- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
-- `src/i18n/index.ts` — registered blog, help, glossary namespaces
-- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
+## Approach
 
-### ✅ Batch 1b: Legal Page Translations (COMPLETE)
+Create a new i18next namespace `home` with JSON files for all 5 languages (`src/i18n/{en,de,fr,es,pt}/home.json`). This keeps the translations in the established i18next pattern used by other product pages (pricing, invoicing, etc.).
 
-### ✅ Batch 2: Help Center (COMPLETE)
+Each component will use `useTranslation('home')` and replace hardcoded strings with `t()` calls. Data arrays (products, benefits, trust items, personas, features) will be built using `t()` inside the component or via `useMemo`.
 
-### ✅ Batch 3: Glossary Terms (COMPLETE)
+## Implementation Batches
 
-### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
+Due to the volume of content (~200+ translatable strings across 10 sections), this will be done in 2 batches:
 
-### ✅ Batch 5: Corridor Pages (COMPLETE)
+**Batch A** -- Create `home.json` for EN + DE + FR + ES + PT covering:
+- GlobalComplianceSection
+- CompliancePositioningSection
+- ComplianceTrustSection
+- WaveFeatureBenefits
+- WaveCTASection
 
-### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
+**Batch B** -- Extend `home.json` for remaining sections:
+- WaveProductTabs (largest -- 7 products with 4 features each)
+- WavePersonaSection
+- HomeBlogSection
+- FAQSection (heading only)
+- WaveTestimonials (heading only)
 
-### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
+Then update each component to consume the translations via `useTranslation('home')`.
 
-### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
-
-### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
-- SEOHead already outputs hreflang for all 5 languages on every page
-- Updated sitemap generator to include country compliance posts and glossary terms
-- No 'enOnly' restrictions found — all content sections are fully multilingual
