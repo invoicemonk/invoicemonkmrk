@@ -44,7 +44,7 @@ const Payments = () => {
 
   return (
     <Layout>
-      <FAQSchema items={seoFaqs} />
+      <FAQSchema items={[...seoFaqs, ...faqItems]} />
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <ServiceSchema
         serviceName="Invoicemonk Payment Processing"
