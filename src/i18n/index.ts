@@ -226,6 +226,13 @@ import frGlossary from './fr/glossary.json';
 import ptBRGlossary from './pt-BR/glossary.json';
 import esGlossary from './es/glossary.json';
 
+// Corridor pages
+import enCorridors from './en/corridors.json';
+import deCorridors from './de/corridors.json';
+import frCorridors from './fr/corridors.json';
+import ptBRCorridors from './pt-BR/corridors.json';
+import esCorridors from './es/corridors.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
@@ -234,7 +241,7 @@ export function getLanguageFromPrefix(prefix: string): string {
   return langPrefixToI18nCode[prefix] || 'en';
 }
 
-const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement', 'freelancers', 'photographers', 'consultants', 'creatives', 'contractors', 'developer', 'agencies', 'lawyers', 'smallBusinesses', 'accountants', 'ecommerce', 'compareFreshbooks', 'compareQuickbooks', 'compareWave', 'compareZoho', 'bestInvoicingSoftware', 'milestoneBilling', 'multiCurrencyInvoicing', 'recurringBilling', 'retainerBilling', 'blog', 'help', 'glossary'];
+const ns = ['common', 'compliance', 'about', 'pricing', 'whyInvoicemonk', 'freeInvoiceGenerator', 'invoicing', 'expenses', 'contact', 'payments', 'accounting', 'estimates', 'receipts', 'clientManagement', 'freelancers', 'photographers', 'consultants', 'creatives', 'contractors', 'developer', 'agencies', 'lawyers', 'smallBusinesses', 'accountants', 'ecommerce', 'compareFreshbooks', 'compareQuickbooks', 'compareWave', 'compareZoho', 'bestInvoicingSoftware', 'milestoneBilling', 'multiCurrencyInvoicing', 'recurringBilling', 'retainerBilling', 'blog', 'help', 'glossary', 'corridors'];
 
 i18n.use(initReactI18next).init({
   resources: {
