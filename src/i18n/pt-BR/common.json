@@ -115,5 +115,17 @@
     "earnedThisMonth": "{{amount}} ganhos este mês",
     "paid": "Pago",
     "pending": "Pendente"
+  },
+  "guides": {
+    "title": "Guias e Recursos para negócios | Invoicemonk",
+    "description": "Guias completos sobre faturamento, recebimentos, contabilidade, conformidade fiscal, freelancing e propostas comerciais.",
+    "heading": "Guias e Recursos para negócios",
+    "subtitle": "Tudo o que você precisa para dominar o faturamento, receber mais rápido e fazer seu negócio crescer. Explore nossos guias escritos por especialistas.",
+    "readGuide": "Ler guia"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Página não encontrada",
+    "link": "Voltar ao início"
   }
 }

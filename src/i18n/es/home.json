@@ -106,7 +106,15 @@
   "faq": {
     "heading": "Preguntas",
     "headingAccent": "frecuentes",
-    "subtitle": "Todo lo que necesita saber sobre Invoicemonk. ¿No encuentra lo que busca? Contacte a nuestro equipo de soporte."
+    "subtitle": "Todo lo que necesita saber sobre Invoicemonk. ¿No encuentra lo que busca? Contacte a nuestro equipo de soporte.",
+    "items": [
+      { "question": "¿Qué es Invoicemonk?", "answer": "Invoicemonk es una plataforma financiera todo en uno que ayuda a pequeñas empresas y freelancers a gestionar facturación, gastos, pagos y contabilidad. Nuestras herramientas están diseñadas para ser simples, profesionales y conformes con las regulaciones fiscales de todo el mundo." },
+      { "question": "¿Es Invoicemonk realmente gratis?", "answer": "¡Sí! Invoicemonk ofrece un plan gratuito para siempre que incluye 5 facturas y 5 recibos al mes, gestión de clientes y seguimiento básico de gastos. También ofrecemos planes premium con funciones avanzadas como facturación ilimitada, procesamiento de pagos, informes detallados y soporte prioritario." },
+      { "question": "¿Cómo funciona la facturación?", "answer": "Crear facturas con Invoicemonk es sencillo. Elija entre nuestras plantillas profesionales, añada los datos de su empresa y su logotipo, introduzca las líneas de detalle y envíe directamente a sus clientes por correo electrónico. Puede rastrear cuándo se visualizan y pagan las facturas, y configurar recordatorios de pago automáticos." },
+      { "question": "¿Están seguros mis datos?", "answer": "La seguridad es nuestra máxima prioridad. Utilizamos cifrado de nivel bancario (SSL de 256 bits) para proteger todos sus datos. Nuestros servidores están alojados en centros de datos seguros y certificados, y realizamos auditorías de seguridad periódicas. Su información financiera nunca se comparte con terceros." },
+      { "question": "¿Soporta Invoicemonk múltiples monedas?", "answer": "Sí, Invoicemonk soporta facturación y pagos en múltiples monedas. Esto lo hace perfecto para empresas que trabajan con clientes internacionales. Los tipos de cambio se actualizan automáticamente y puede establecer sus monedas preferidas para diferentes clientes." },
+      { "question": "¿Puedo personalizar mis facturas con mi marca?", "answer": "¡Sí! Puede personalizar completamente sus facturas con su logotipo e información empresarial. Elija entre múltiples plantillas profesionales para crear facturas elegantes que representen su marca." }
+    ]
   },
   "testimonials": {
     "label": "Testimonios",

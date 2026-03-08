@@ -106,7 +106,15 @@
   "faq": {
     "heading": "Questions",
     "headingAccent": "fréquentes",
-    "subtitle": "Tout ce que vous devez savoir sur Invoicemonk. Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe support."
+    "subtitle": "Tout ce que vous devez savoir sur Invoicemonk. Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe support.",
+    "items": [
+      { "question": "Qu'est-ce qu'Invoicemonk ?", "answer": "Invoicemonk est une plateforme financière tout-en-un qui aide les petites entreprises et les freelances à gérer la facturation, les dépenses, les paiements et la comptabilité. Nos outils sont conçus pour être simples, professionnels et conformes aux réglementations fiscales mondiales." },
+      { "question": "Invoicemonk est-il vraiment gratuit ?", "answer": "Oui ! Invoicemonk propose un plan gratuit à vie comprenant 5 factures et 5 reçus par mois, la gestion des clients et le suivi basique des dépenses. Nous proposons également des plans premium avec des fonctionnalités avancées comme la facturation illimitée, le traitement des paiements, les rapports détaillés et le support prioritaire." },
+      { "question": "Comment fonctionne la facturation ?", "answer": "Créer des factures avec Invoicemonk est simple. Choisissez parmi nos modèles professionnels, ajoutez vos coordonnées et votre logo, saisissez les postes et envoyez directement à vos clients par e-mail. Vous pouvez suivre quand les factures sont consultées et payées, et configurer des rappels de paiement automatiques." },
+      { "question": "Mes données sont-elles en sécurité ?", "answer": "La sécurité est notre priorité absolue. Nous utilisons un chiffrement de niveau bancaire (SSL 256 bits) pour protéger toutes vos données. Nos serveurs sont hébergés dans des centres de données sécurisés et certifiés, et nous effectuons des audits de sécurité réguliers. Vos informations financières ne sont jamais partagées avec des tiers." },
+      { "question": "Invoicemonk prend-il en charge plusieurs devises ?", "answer": "Oui, Invoicemonk prend en charge la facturation et les paiements en plusieurs devises. C'est parfait pour les entreprises travaillant avec des clients internationaux. Les taux de change sont mis à jour automatiquement et vous pouvez définir vos devises préférées pour différents clients." },
+      { "question": "Puis-je personnaliser mes factures avec mon image de marque ?", "answer": "Oui ! Vous pouvez entièrement personnaliser vos factures avec votre logo et vos informations commerciales. Choisissez parmi plusieurs modèles professionnels pour créer des factures soignées qui représentent votre marque." }
+    ]
   },
   "testimonials": {
     "label": "Témoignages",

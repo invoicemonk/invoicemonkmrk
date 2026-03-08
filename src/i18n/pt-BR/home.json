@@ -106,7 +106,15 @@
   "faq": {
     "heading": "Perguntas",
     "headingAccent": "frequentes",
-    "subtitle": "Tudo o que você precisa saber sobre Invoicemonk. Não encontrou o que procura? Entre em contato com nossa equipe de suporte."
+    "subtitle": "Tudo o que você precisa saber sobre Invoicemonk. Não encontrou o que procura? Entre em contato com nossa equipe de suporte.",
+    "items": [
+      { "question": "O que é o Invoicemonk?", "answer": "O Invoicemonk é uma plataforma financeira completa que ajuda pequenas empresas e freelancers a gerenciar faturamento, despesas, pagamentos e contabilidade. Nossas ferramentas são projetadas para serem simples, profissionais e em conformidade com as regulamentações fiscais em todo o mundo." },
+      { "question": "O Invoicemonk é realmente gratuito?", "answer": "Sim! O Invoicemonk oferece um plano gratuito para sempre que inclui 5 faturas e 5 recibos por mês, gestão de clientes e rastreamento básico de despesas. Também oferecemos planos premium com recursos avançados como faturamento ilimitado, processamento de pagamentos, relatórios detalhados e suporte prioritário." },
+      { "question": "Como funciona o faturamento?", "answer": "Criar faturas com o Invoicemonk é simples. Escolha entre nossos modelos profissionais, adicione os dados da sua empresa e logotipo, insira os itens e envie diretamente aos seus clientes por e-mail. Você pode acompanhar quando as faturas são visualizadas e pagas, e configurar lembretes automáticos de pagamento." },
+      { "question": "Meus dados estão seguros?", "answer": "A segurança é nossa maior prioridade. Utilizamos criptografia de nível bancário (SSL de 256 bits) para proteger todos os seus dados. Nossos servidores estão hospedados em data centers seguros e certificados, e realizamos auditorias de segurança regulares. Suas informações financeiras nunca são compartilhadas com terceiros." },
+      { "question": "O Invoicemonk suporta múltiplas moedas?", "answer": "Sim, o Invoicemonk suporta faturamento e pagamentos em múltiplas moedas. Isso é perfeito para empresas que trabalham com clientes internacionais. As taxas de câmbio são atualizadas automaticamente e você pode definir suas moedas preferidas para diferentes clientes." },
+      { "question": "Posso personalizar minhas faturas com minha marca?", "answer": "Sim! Você pode personalizar completamente suas faturas com seu logotipo e informações da empresa. Escolha entre vários modelos profissionais para criar faturas elegantes que representem sua marca." }
+    ]
   },
   "testimonials": {
     "label": "Depoimentos",

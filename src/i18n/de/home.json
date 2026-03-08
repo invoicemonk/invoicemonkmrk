@@ -106,7 +106,15 @@
   "faq": {
     "heading": "Häufig gestellte",
     "headingAccent": "Fragen",
-    "subtitle": "Alles, was Sie über Invoicemonk wissen müssen. Finden Sie nicht, was Sie suchen? Kontaktieren Sie unser Support-Team."
+    "subtitle": "Alles, was Sie über Invoicemonk wissen müssen. Finden Sie nicht, was Sie suchen? Kontaktieren Sie unser Support-Team.",
+    "items": [
+      { "question": "Was ist Invoicemonk?", "answer": "Invoicemonk ist eine All-in-One-Finanzplattform, die kleinen Unternehmen und Freiberuflern bei der Verwaltung von Rechnungen, Ausgaben, Zahlungen und Buchhaltung hilft. Unsere Tools sind einfach, professionell und weltweit steuerkonform." },
+      { "question": "Ist Invoicemonk wirklich kostenlos?", "answer": "Ja! Invoicemonk bietet einen dauerhaft kostenlosen Plan mit 5 Rechnungen und 5 Belegen pro Monat, Kundenverwaltung und einfacher Ausgabenverfolgung. Wir bieten auch Premium-Pläne mit erweiterten Funktionen wie unbegrenzter Rechnungsstellung, Zahlungsabwicklung, detaillierten Berichten und Priority-Support." },
+      { "question": "Wie funktioniert die Rechnungsstellung?", "answer": "Rechnungen mit Invoicemonk zu erstellen ist einfach. Wählen Sie aus professionellen Vorlagen, fügen Sie Ihre Geschäftsdaten und Ihr Logo hinzu, geben Sie die Positionen ein und senden Sie direkt per E-Mail an Ihre Kunden. Sie können verfolgen, wann Rechnungen angesehen und bezahlt werden, und automatische Zahlungserinnerungen einrichten." },
+      { "question": "Wie sicher sind meine Daten?", "answer": "Sicherheit hat bei uns höchste Priorität. Wir verwenden Verschlüsselung auf Bankniveau (256-Bit-SSL) zum Schutz aller Ihrer Daten. Unsere Server befinden sich in sicheren, zertifizierten Rechenzentren, und wir führen regelmäßige Sicherheitsprüfungen durch. Ihre Finanzdaten werden niemals an Dritte weitergegeben." },
+      { "question": "Unterstützt Invoicemonk mehrere Währungen?", "answer": "Ja, Invoicemonk unterstützt Rechnungsstellung und Zahlungen in mehreren Währungen. Das ist perfekt für Unternehmen mit internationalen Kunden. Wechselkurse werden automatisch aktualisiert, und Sie können bevorzugte Währungen für verschiedene Kunden festlegen." },
+      { "question": "Kann ich meine Rechnungen mit meinem Branding anpassen?", "answer": "Ja! Sie können Ihre Rechnungen vollständig mit Ihrem Logo und Ihren Geschäftsinformationen anpassen. Wählen Sie aus mehreren professionellen Vorlagen, um elegante Rechnungen zu erstellen, die Ihre Marke repräsentieren." }
+    ]
   },
   "testimonials": {
     "label": "Kundenstimmen",

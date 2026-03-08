@@ -115,5 +115,17 @@
     "earnedThisMonth": "{{amount}} diesen Monat verdient",
     "paid": "Bezahlt",
     "pending": "Ausstehend"
+  },
+  "guides": {
+    "title": "Business-Leitfäden & Ressourcen | Invoicemonk",
+    "description": "Umfassende Leitfäden zu Rechnungsstellung, Zahlungseingang, Buchhaltung, Steuer-Compliance, Freelancing und Geschäftsangeboten.",
+    "heading": "Business-Leitfäden & Ressourcen",
+    "subtitle": "Alles, was Sie brauchen, um die Rechnungsstellung zu meistern, schneller bezahlt zu werden und Ihr Unternehmen zu vergrößern. Entdecken Sie unsere umfassenden Leitfäden.",
+    "readGuide": "Leitfaden lesen"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Seite nicht gefunden",
+    "link": "Zur Startseite"
   }
 }

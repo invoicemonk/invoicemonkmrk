@@ -2,13 +2,15 @@ import { Link } from '@/components/LocalizedLink';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
-import { blogPosts } from '@/data/blogPosts';
+import { getTranslatedBlogPosts, getLangPrefix } from '@/utils/i18nData';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { useTranslation } from 'react-i18next';
 
 export function HomeBlogSection() {
-  const { t } = useTranslation('home');
-  const latestPosts = blogPosts.slice(0, 3);
+  const { t, i18n } = useTranslation('home');
+  const lang = getLangPrefix(i18n.language);
+  const posts = getTranslatedBlogPosts(lang);
+  const latestPosts = posts.slice(0, 3);
 
   return (
     <section className="py-20 lg:py-32 bg-primary-soft">
