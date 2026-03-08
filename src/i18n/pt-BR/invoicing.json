@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "badge": "Disponível agora",
+    "title": "Software de faturamento que faz você",
+    "titleAccent": "parecer bem",
+    "description": "Crie faturas bonitas em segundos, automatize lembretes de pagamento e mantenha trilhas de auditoria completas. Faturamento profissional pronto para qualquer auditoria.",
+    "primaryCta": "Começar a faturar grátis",
+    "secondaryCta": "Ver planos de preços",
+    "trustText": "Gratuito • Sem cartão de crédito •",
+    "tryFreeGenerator": "Experimente o gerador de faturas gratuito"
+  },
+  "invoicePreview": {
+    "invoiceNumber": "Fatura #1042",
+    "client": "Acme Corporation",
+    "paid": "Paga",
+    "webDesign": "Serviços de Web Design",
+    "hosting": "Hospedagem Anual",
+    "total": "Total",
+    "paymentReceived": "Pagamento recebido",
+    "timeAgo": "Há 2 minutos"
+  },
+  "banner": {
+    "title": "Pare de correr atrás dos clientes",
+    "features": [
+      "Envie faturas profissionais em minutos",
+      "Receba mais rápido com links de pagamento",
+      "Lembretes automáticos de atraso",
+      "Trilha de auditoria completa para conformidade"
+    ]
+  },
+  "quickFeatures": {
+    "createQuickly": {
+      "title": "Crie rapidamente",
+      "description": "Crie faturas profissionais em minutos com modelos personalizáveis."
+    },
+    "stayOrganized": {
+      "title": "Mantenha-se organizado",
+      "description": "Mantenha todas as informações de clientes e histórico de faturas em um só lugar."
+    },
+    "reduceBookkeeping": {
+      "title": "Reduza a contabilidade",
+      "description": "Rastreamento automático e relatórios economizam horas todo mês."
+    }
+  },
+  "tabbed": {
+    "title": "Gerencie facilmente contas a receber",
+    "subtitle": "Tudo o que você precisa para acompanhar faturas, pagamentos e relacionamentos com clientes em um só lugar.",
+    "tabs": {
+      "customerInfo": {
+        "label": "Info do cliente",
+        "title": "Acesse todas as informações do cliente em um só lugar",
+        "description": "Mantenha todos os detalhes dos clientes, histórico de comunicação e preferências de pagamento organizados. Sem mais buscas em e-mails ou planilhas."
+      },
+      "trackPayments": {
+        "label": "Rastrear pagamentos",
+        "title": "Acompanhe pagamentos e comunicações sem esforço",
+        "description": "Veja atualizações de status em tempo real para cada fatura. Saiba instantaneamente quando as faturas são visualizadas, pagas ou estão atrasadas."
+      },
+      "recurringBilling": {
+        "label": "Faturamento recorrente",
+        "title": "Configure faturamento recorrente para clientes regulares",
+        "description": "Pare de criar as mesmas faturas todo mês. Configure faturamento automático para clientes com contrato — faturas enviadas no prazo, sempre."
+      }
+    }
+  },
+  "getPaidFaster": {
+    "title": "Receba mais rápido",
+    "subtitle": "Acelere seu fluxo de caixa com ferramentas projetadas para que as faturas sejam pagas no prazo.",
+    "invoiceOnTheGo": {
+      "title": "Fature em qualquer lugar",
+      "description": "Crie e envie faturas de qualquer lugar usando nossa plataforma otimizada para celular."
+    },
+    "instantNotifications": {
+      "title": "Notificações instantâneas",
+      "description": "Saiba no momento em que seu cliente visualiza ou paga sua fatura."
+    },
+    "automaticReminders": {
+      "title": "Lembretes automáticos",
+      "description": "Configure sequências inteligentes de lembretes que acompanham faturas atrasadas automaticamente."
+    },
+    "timeline": {
+      "invoiceSent": "Fatura enviada",
+      "viewedByClient": "Visualizada pelo cliente",
+      "awaitingPayment": "Aguardando pagamento",
+      "sentAgo": "Enviada há 2 horas",
+      "now": "Agora"
+    }
+  },
+  "compliance": {
+    "badge": "Conformidade integrada",
+    "title": "Pronto para auditoria desde",
+    "titleAccent": "o primeiro dia",
+    "description": "Cada fatura que você cria é automaticamente protegida com registros imutáveis e trilhas de auditoria completas. Tenha confiança de que seu faturamento atende a qualquer requisito regulatório.",
+    "creditNotesLink": "notas de crédito e correções de faturas",
+    "creditNotesPrefix": "Precisa corrigir um erro de cobrança? Veja nosso guia sobre",
+    "features": [
+      "Registros de faturas imutáveis que não podem ser alterados após a criação",
+      "Trilha de auditoria completa com carimbos de data/hora e identidade do usuário",
+      "Verificação de integridade baseada em hash para cada documento",
+      "Políticas de armazenamento e retenção em conformidade regulatória",
+      "Relatórios prontos para exportação para auditores e reguladores",
+      "Prova criptográfica da autenticidade do documento",
+      "Assinaturas digitais e carimbos criptográficos (CSID) para cada fatura",
+      "Números de referência de fatura únicos (IRN) para rastreabilidade regulatória"
+    ],
+    "auditTrail": "Trilha de auditoria",
+    "logs": {
+      "created": "Fatura criada",
+      "sent": "Enviada ao cliente",
+      "viewed": "Visualizada pelo cliente",
+      "paid": "Pagamento recebido"
+    }
+  },
+  "testimonial": {
+    "quote": "O Invoicemonk transformou a forma como lido com faturamento. Eu costumava gastar horas toda semana cobrando pagamentos — agora é completamente automatizado.",
+    "name": "Chidi Okonkwo",
+    "title": "Fundador",
+    "company": "TechBridge Solutions"
+  },
+  "blog": {
+    "title": "Saiba mais sobre faturamento",
+    "subtitle": "Dicas e melhores práticas para receber mais rápido."
+  },
+  "faq": {
+    "title": "Perguntas sobre faturamento, respondidas",
+    "subtitle": "Tudo o que você precisa saber sobre o faturamento do Invoicemonk.",
+    "items": {
+      "isFree": {
+        "question": "O Invoicemonk é realmente gratuito?",
+        "answer": "Sim! Nossos recursos essenciais de faturamento são totalmente gratuitos, sem cartão de crédito. Você pode enviar até 5 faturas por mês, rastrear pagamentos e gerenciar clientes sem custo. Faça upgrade para faturamento ilimitado."
+      },
+      "getPaidFaster": {
+        "question": "Como recebo mais rápido com o Invoicemonk?",
+        "answer": "O Invoicemonk ajuda você a receber mais rápido com: links de pagamento para pagamento online instantâneo, lembretes automáticos para faturas atrasadas e modelos profissionais que constroem confiança."
+      },
+      "customizeLogo": {
+        "question": "Posso personalizar minhas faturas com meu logotipo?",
+        "answer": "Com certeza! Você pode adicionar seu logotipo e escolher entre vários modelos profissionais. Suas faturas parecerão de uma empresa estabelecida."
+      },
+      "auditTrail": {
+        "question": "Como funciona o recurso de trilha de auditoria?",
+        "answer": "Cada ação nas suas faturas é automaticamente registrada com carimbos de data/hora e informações do usuário. Isso inclui quando as faturas são criadas, enviadas, visualizadas e pagas. Todos os registros são imutáveis e exportáveis para auditores."
+      },
+      "multiCurrency": {
+        "question": "Posso enviar faturas em diferentes moedas?",
+        "answer": "Sim, o Invoicemonk suporta faturamento multi-moeda. Você pode faturar clientes na moeda preferida deles, e as taxas de câmbio são atualizadas automaticamente."
+      },
+      "paymentMethods": {
+        "question": "Quais métodos de pagamento meus clientes podem usar?",
+        "answer": "Quando nosso recurso de pagamentos for lançado, os clientes poderão pagar via cartão de crédito, cartão de débito, transferência bancária e carteiras digitais. Por enquanto, você pode incluir seus dados de pagamento nas faturas."
+      },
+      "eInvoicing": {
+        "question": "O Invoicemonk suporta padrões de e-faturamento?",
+        "answer": "Sim. O Invoicemonk suporta padrões de e-faturamento incluindo ZATCA Fase 2, Peppol, NF-e, KRA TIMS e outros mandatos regionais. Cada fatura pode incluir assinaturas digitais, carimbos criptográficos (CSID) e números de referência únicos (IRN) para conformidade regulatória completa."
+      }
+    }
+  }
+}

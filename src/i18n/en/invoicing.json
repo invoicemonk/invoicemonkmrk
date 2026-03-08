@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "badge": "Available Now",
+    "title": "Invoicing software that makes you",
+    "titleAccent": "look good",
+    "description": "Create beautiful invoices in seconds, automate payment reminders, and maintain complete audit trails. Professional invoicing that's ready for any audit.",
+    "primaryCta": "Start Invoicing Free",
+    "secondaryCta": "View Invoicing Pricing Plans",
+    "trustText": "Free to use • No credit card required •",
+    "tryFreeGenerator": "Try the free invoice generator"
+  },
+  "invoicePreview": {
+    "invoiceNumber": "Invoice #1042",
+    "client": "Acme Corporation",
+    "paid": "Paid",
+    "webDesign": "Web Design Services",
+    "hosting": "Annual Hosting",
+    "total": "Total",
+    "paymentReceived": "Payment received",
+    "timeAgo": "2 minutes ago"
+  },
+  "banner": {
+    "title": "Stop chasing clients around",
+    "features": [
+      "Send professional invoices in minutes",
+      "Get paid faster with payment links",
+      "Automatic overdue reminders",
+      "Complete audit trail for compliance"
+    ]
+  },
+  "quickFeatures": {
+    "createQuickly": {
+      "title": "Create quickly",
+      "description": "Build professional invoices in minutes with customizable templates."
+    },
+    "stayOrganized": {
+      "title": "Stay organized",
+      "description": "Keep all client information and invoice history in one place."
+    },
+    "reduceBookkeeping": {
+      "title": "Reduce bookkeeping",
+      "description": "Automatic tracking and reports save hours every month."
+    }
+  },
+  "tabbed": {
+    "title": "Easily manage accounts receivable",
+    "subtitle": "Everything you need to track invoices, payments, and customer relationships in one place.",
+    "tabs": {
+      "customerInfo": {
+        "label": "Customer Info",
+        "title": "Access your customer information in one place",
+        "description": "Keep all your client details, communication history, and payment preferences organized. No more searching through emails or spreadsheets — everything you need is at your fingertips."
+      },
+      "trackPayments": {
+        "label": "Track Payments",
+        "title": "Track payments and communications effortlessly",
+        "description": "See real-time status updates on every invoice. Know instantly when invoices are viewed, paid, or overdue. Follow up at the right time with full context."
+      },
+      "recurringBilling": {
+        "label": "Recurring Billing",
+        "title": "Set up recurring billing for repeat customers",
+        "description": "Stop creating the same invoices every month. Set up automatic invoicing for retainer clients and subscription services — invoices go out on time, every time."
+      }
+    }
+  },
+  "getPaidFaster": {
+    "title": "Get paid faster",
+    "subtitle": "Speed up your cash flow with tools designed to get invoices paid on time.",
+    "invoiceOnTheGo": {
+      "title": "Invoice on-the-go",
+      "description": "Create and send invoices from anywhere using our mobile-friendly platform."
+    },
+    "instantNotifications": {
+      "title": "Get instant notifications",
+      "description": "Know the moment your client views or pays your invoice."
+    },
+    "automaticReminders": {
+      "title": "Automatic reminders",
+      "description": "Set up smart reminder sequences that follow up on overdue invoices automatically."
+    },
+    "timeline": {
+      "invoiceSent": "Invoice sent",
+      "viewedByClient": "Viewed by client",
+      "awaitingPayment": "Awaiting payment",
+      "sentAgo": "Sent 2 hours ago",
+      "now": "Now"
+    }
+  },
+  "compliance": {
+    "badge": "Compliance-Aware",
+    "title": "Audit-ready from",
+    "titleAccent": "day one",
+    "description": "Every invoice you create is automatically protected with immutable records and complete audit trails. Be confident your invoicing meets any regulatory requirement.",
+    "creditNotesLink": "credit notes and invoice corrections",
+    "creditNotesPrefix": "Need to fix a billing error? See our guide on",
+    "features": [
+      "Immutable invoice records that cannot be altered after creation",
+      "Complete audit trail with timestamps and user identity",
+      "Hash-based integrity verification for every document",
+      "Regulatory-compliant storage and retention policies",
+      "Export-ready reports for auditors and regulators",
+      "Cryptographic proof of document authenticity",
+      "Digital signatures and cryptographic stamps (CSID) for every invoice",
+      "Unique Invoice Reference Numbers (IRN) for regulatory traceability"
+    ],
+    "auditTrail": "Audit Trail",
+    "logs": {
+      "created": "Invoice created",
+      "sent": "Sent to client",
+      "viewed": "Viewed by client",
+      "paid": "Payment received"
+    }
+  },
+  "testimonial": {
+    "quote": "Invoicemonk transformed how I handle invoicing. I used to spend hours every week chasing payments — now it's completely automated.",
+    "name": "Chidi Okonkwo",
+    "title": "Founder",
+    "company": "TechBridge Solutions"
+  },
+  "blog": {
+    "title": "Learn more about invoicing",
+    "subtitle": "Tips and best practices to help you get paid faster."
+  },
+  "faq": {
+    "title": "Invoicing questions, answered",
+    "subtitle": "Everything you need to know about Invoicemonk invoicing.",
+    "items": {
+      "isFree": {
+        "question": "Is Invoicemonk really free?",
+        "answer": "Yes! Our core invoicing features are completely free with no credit card required. You can send up to 5 invoices per month, track payments, and manage clients at no cost. Upgrade for unlimited invoicing. Premium features like advanced analytics and custom branding are available on paid plans."
+      },
+      "getPaidFaster": {
+        "question": "How do I get paid faster with Invoicemonk?",
+        "answer": "Invoicemonk helps you get paid faster through several features: payment links that let clients pay online instantly, automatic payment reminders for overdue invoices, and professional templates that build trust with your clients."
+      },
+      "customizeLogo": {
+        "question": "Can I customize my invoices with my logo?",
+        "answer": "Absolutely! You can add your business logo and choose from multiple professional templates. Your invoices will look like they came from an established business."
+      },
+      "auditTrail": {
+        "question": "How does the audit trail feature work?",
+        "answer": "Every action on your invoices is automatically logged with timestamps and user information. This includes when invoices are created, sent, viewed by clients, and paid. All records are immutable and can be exported for auditors."
+      },
+      "multiCurrency": {
+        "question": "Can I send invoices in different currencies?",
+        "answer": "Yes, Invoicemonk supports multi-currency invoicing. You can invoice clients in their preferred currency, and exchange rates are automatically updated for accurate conversions."
+      },
+      "paymentMethods": {
+        "question": "What payment methods can my clients use?",
+        "answer": "When our payments feature launches, clients will be able to pay via credit card, debit card, bank transfer, and popular digital wallets. For now, you can include your payment details on invoices for manual payments."
+      },
+      "eInvoicing": {
+        "question": "Does Invoicemonk support e-invoicing standards?",
+        "answer": "Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2, Peppol, NF-e, KRA TIMS, and other regional mandates. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance."
+      }
+    }
+  }
+}

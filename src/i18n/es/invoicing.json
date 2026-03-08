@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "badge": "Disponible ahora",
+    "title": "Software de facturación que te hace",
+    "titleAccent": "lucir bien",
+    "description": "Crea facturas hermosas en segundos, automatiza recordatorios de pago y mantén rastros de auditoría completos. Facturación profesional lista para cualquier auditoría.",
+    "primaryCta": "Empezar a facturar gratis",
+    "secondaryCta": "Ver planes de precios",
+    "trustText": "Gratis • Sin tarjeta de crédito •",
+    "tryFreeGenerator": "Prueba el generador de facturas gratuito"
+  },
+  "invoicePreview": {
+    "invoiceNumber": "Factura #1042",
+    "client": "Acme Corporation",
+    "paid": "Pagada",
+    "webDesign": "Servicios de diseño web",
+    "hosting": "Hosting anual",
+    "total": "Total",
+    "paymentReceived": "Pago recibido",
+    "timeAgo": "Hace 2 minutos"
+  },
+  "banner": {
+    "title": "Deja de perseguir a tus clientes",
+    "features": [
+      "Envía facturas profesionales en minutos",
+      "Cobra más rápido con enlaces de pago",
+      "Recordatorios automáticos de atraso",
+      "Rastro de auditoría completo para cumplimiento"
+    ]
+  },
+  "quickFeatures": {
+    "createQuickly": {
+      "title": "Crea rápidamente",
+      "description": "Crea facturas profesionales en minutos con plantillas personalizables."
+    },
+    "stayOrganized": {
+      "title": "Mantente organizado",
+      "description": "Mantén toda la información de clientes y el historial de facturas en un solo lugar."
+    },
+    "reduceBookkeeping": {
+      "title": "Reduce la contabilidad",
+      "description": "El seguimiento automático y los informes ahorran horas cada mes."
+    }
+  },
+  "tabbed": {
+    "title": "Gestiona fácilmente las cuentas por cobrar",
+    "subtitle": "Todo lo que necesitas para rastrear facturas, pagos y relaciones con clientes en un solo lugar.",
+    "tabs": {
+      "customerInfo": {
+        "label": "Info del cliente",
+        "title": "Accede a toda la información del cliente en un solo lugar",
+        "description": "Mantén todos los detalles de clientes, historial de comunicación y preferencias de pago organizados. Sin más búsquedas en correos electrónicos o hojas de cálculo."
+      },
+      "trackPayments": {
+        "label": "Rastrear pagos",
+        "title": "Rastrea pagos y comunicaciones sin esfuerzo",
+        "description": "Ve actualizaciones de estado en tiempo real para cada factura. Sabe al instante cuándo las facturas son vistas, pagadas o están atrasadas."
+      },
+      "recurringBilling": {
+        "label": "Facturación recurrente",
+        "title": "Configura facturación recurrente para clientes regulares",
+        "description": "Deja de crear las mismas facturas cada mes. Configura facturación automática para clientes con contrato — las facturas salen a tiempo, siempre."
+      }
+    }
+  },
+  "getPaidFaster": {
+    "title": "Cobra más rápido",
+    "subtitle": "Acelera tu flujo de caja con herramientas diseñadas para que las facturas se paguen a tiempo.",
+    "invoiceOnTheGo": {
+      "title": "Factura sobre la marcha",
+      "description": "Crea y envía facturas desde cualquier lugar usando nuestra plataforma optimizada para móviles."
+    },
+    "instantNotifications": {
+      "title": "Notificaciones instantáneas",
+      "description": "Entérate en el momento en que tu cliente ve o paga tu factura."
+    },
+    "automaticReminders": {
+      "title": "Recordatorios automáticos",
+      "description": "Configura secuencias inteligentes de recordatorios que hacen seguimiento automático a facturas atrasadas."
+    },
+    "timeline": {
+      "invoiceSent": "Factura enviada",
+      "viewedByClient": "Vista por el cliente",
+      "awaitingPayment": "Esperando pago",
+      "sentAgo": "Enviada hace 2 horas",
+      "now": "Ahora"
+    }
+  },
+  "compliance": {
+    "badge": "Cumplimiento integrado",
+    "title": "Listo para auditoría desde",
+    "titleAccent": "el primer día",
+    "description": "Cada factura que creas está automáticamente protegida con registros inmutables y rastros de auditoría completos. Ten confianza de que tu facturación cumple cualquier requisito regulatorio.",
+    "creditNotesLink": "notas de crédito y correcciones de facturas",
+    "creditNotesPrefix": "¿Necesitas corregir un error de facturación? Consulta nuestra guía sobre",
+    "features": [
+      "Registros de facturas inmutables que no pueden ser alterados después de la creación",
+      "Rastro de auditoría completo con marcas de tiempo e identidad del usuario",
+      "Verificación de integridad basada en hash para cada documento",
+      "Políticas de almacenamiento y retención conformes con las regulaciones",
+      "Informes listos para exportar para auditores y reguladores",
+      "Prueba criptográfica de la autenticidad del documento",
+      "Firmas digitales y sellos criptográficos (CSID) para cada factura",
+      "Números de referencia de factura únicos (IRN) para trazabilidad regulatoria"
+    ],
+    "auditTrail": "Rastro de auditoría",
+    "logs": {
+      "created": "Factura creada",
+      "sent": "Enviada al cliente",
+      "viewed": "Vista por el cliente",
+      "paid": "Pago recibido"
+    }
+  },
+  "testimonial": {
+    "quote": "Invoicemonk transformó la forma en que manejo la facturación. Antes pasaba horas cada semana persiguiendo pagos — ahora está completamente automatizado.",
+    "name": "Chidi Okonkwo",
+    "title": "Fundador",
+    "company": "TechBridge Solutions"
+  },
+  "blog": {
+    "title": "Aprende más sobre facturación",
+    "subtitle": "Consejos y mejores prácticas para cobrar más rápido."
+  },
+  "faq": {
+    "title": "Preguntas sobre facturación, respondidas",
+    "subtitle": "Todo lo que necesitas saber sobre la facturación de Invoicemonk.",
+    "items": {
+      "isFree": {
+        "question": "¿Invoicemonk es realmente gratis?",
+        "answer": "¡Sí! Nuestras funciones esenciales de facturación son completamente gratuitas sin tarjeta de crédito. Puedes enviar hasta 5 facturas por mes, rastrear pagos y gestionar clientes sin costo. Actualiza para facturación ilimitada."
+      },
+      "getPaidFaster": {
+        "question": "¿Cómo cobro más rápido con Invoicemonk?",
+        "answer": "Invoicemonk te ayuda a cobrar más rápido con: enlaces de pago para que los clientes paguen en línea al instante, recordatorios automáticos para facturas atrasadas y plantillas profesionales que generan confianza."
+      },
+      "customizeLogo": {
+        "question": "¿Puedo personalizar mis facturas con mi logotipo?",
+        "answer": "¡Por supuesto! Puedes agregar tu logotipo empresarial y elegir entre múltiples plantillas profesionales. Tus facturas lucirán como si vinieran de una empresa establecida."
+      },
+      "auditTrail": {
+        "question": "¿Cómo funciona el rastro de auditoría?",
+        "answer": "Cada acción en tus facturas se registra automáticamente con marcas de tiempo e información del usuario. Esto incluye cuándo se crean, envían, ven y pagan las facturas. Todos los registros son inmutables y exportables para auditores."
+      },
+      "multiCurrency": {
+        "question": "¿Puedo enviar facturas en diferentes monedas?",
+        "answer": "Sí, Invoicemonk soporta facturación multi-moneda. Puedes facturar a los clientes en su moneda preferida, y los tipos de cambio se actualizan automáticamente."
+      },
+      "paymentMethods": {
+        "question": "¿Qué métodos de pago pueden usar mis clientes?",
+        "answer": "Cuando se lance nuestra función de pagos, los clientes podrán pagar con tarjeta de crédito, tarjeta de débito, transferencia bancaria y billeteras digitales. Por ahora, puedes incluir tus datos de pago en las facturas."
+      },
+      "eInvoicing": {
+        "question": "¿Invoicemonk soporta estándares de e-facturación?",
+        "answer": "Sí. Invoicemonk soporta estándares de e-facturación incluyendo ZATCA Fase 2, Peppol, NF-e, KRA TIMS y otros mandatos regionales. Cada factura puede incluir firmas digitales, sellos criptográficos (CSID) y números de referencia únicos (IRN) para cumplimiento regulatorio completo."
+      }
+    }
+  }
+}
