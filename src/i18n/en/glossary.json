@@ -1,0 +1,26 @@
+{
+  "badge": "Knowledge Base",
+  "title": "Business Finance Glossary",
+  "subtitle": "Essential invoicing, accounting, and business terms explained simply. Build your financial vocabulary with our comprehensive glossary.",
+  "searchPlaceholder": "Search terms...",
+  "allTerms": "All Terms",
+  "noResults": "No terms found matching your search.",
+  "definition": "Definition",
+  "moreDetails": "More Details",
+  "relatedTerms": "Related Terms",
+  "learnMore": "Learn More",
+  "ctaTitle": "Put These Terms Into Practice",
+  "ctaSubtitle": "Start using professional invoicing software that handles the complexity for you.",
+  "getStartedFree": "Get Started Free",
+  "selectPrompt": "Select a term to see its full definition and related resources.",
+  "categories": {
+    "invoicing": "Invoicing",
+    "payments": "Payments",
+    "accounting": "Accounting",
+    "tax": "Tax & Compliance",
+    "freelancing": "Freelancing",
+    "business": "Business"
+  },
+  "seoTitle": "Business Finance Glossary | Invoicing & Accounting Terms | Invoicemonk",
+  "seoDescription": "Comprehensive glossary of invoicing, payments, accounting, tax, and business finance terms. Learn key concepts for small business owners and freelancers."
+}
