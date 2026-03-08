@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Entre em contato",
+    "description": "Tem perguntas sobre o Invoicemonk? Estamos aqui para ajudar. Envie-nos uma mensagem e responderemos o mais rápido possível."
+  },
+  "info": {
+    "email": { "title": "E-mail", "subtitle": "Para consultas gerais" },
+    "office": { "title": "Escritório", "description": "Entre em contato online para a resposta mais rápida" },
+    "responseTime": { "title": "Tempo de resposta", "description": "Normalmente respondemos em até 24 horas em dias úteis." }
+  },
+  "form": {
+    "title": "Envie-nos uma mensagem",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "email": "E-mail",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "placeholders": { "firstName": "João", "lastName": "Silva", "email": "joao@empresa.com.br", "subject": "Como podemos ajudar?", "message": "Conte-nos mais sobre sua consulta..." },
+    "submit": "Enviar mensagem",
+    "submitting": "Enviando...",
+    "errors": { "firstNameRequired": "Nome é obrigatório", "firstNameLength": "Nome deve ter menos de 100 caracteres", "lastNameRequired": "Sobrenome é obrigatório", "lastNameLength": "Sobrenome deve ter menos de 100 caracteres", "emailRequired": "E-mail é obrigatório", "emailInvalid": "Por favor, insira um endereço de e-mail válido", "subjectRequired": "Assunto é obrigatório", "subjectLength": "Assunto deve ter menos de 200 caracteres", "messageRequired": "Mensagem é obrigatória", "messageLength": "Mensagem deve ter menos de 5000 caracteres" }
+  },
+  "toast": { "fixErrors": "Por favor, corrija os erros", "fixErrorsDesc": "Alguns campos precisam da sua atenção.", "success": "Mensagem enviada!", "successDesc": "Responderemos em até 24 horas.", "error": "Falha ao enviar mensagem", "errorDesc": "Por favor, tente novamente mais tarde." },
+  "faqs": {
+    "responseTime": { "question": "Quão rápido receberei uma resposta?", "answer": "Normalmente respondemos em até 24 horas em dias úteis. Para questões urgentes, envie-nos um e-mail diretamente para hello@invoicemonk.com." },
+    "supportChannels": { "question": "Quais canais de suporte estão disponíveis?", "answer": "Você pode nos contatar pelo formulário nesta página, por e-mail em hello@invoicemonk.com ou pelo nosso chat ao vivo. Também temos um Centro de Ajuda abrangente." },
+    "phoneSupport": { "question": "Existe suporte por telefone?", "answer": "Atualmente oferecemos suporte por e-mail e chat. Nossa equipe é responsiva e experiente, garantindo que suas perguntas sejam respondidas rapidamente." }
+  }
+}

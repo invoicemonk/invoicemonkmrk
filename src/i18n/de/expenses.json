@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "badge": "Jetzt verfügbar",
+    "title": "Verfolgen Sie jede Ausgabe mit",
+    "titleAccent": "Leichtigkeit",
+    "description": "Verfolgen Sie Geschäftsausgaben mühelos. Scannen Sie Belege, kategorisieren Sie Ausgaben und pflegen Sie compliance-konforme Aufzeichnungen — alles integriert mit Ihrer Rechnungsstellung.",
+    "primaryCta": "Kostenlose Testversion starten",
+    "secondaryCta": "Mit Rechnungsstellung starten"
+  },
+  "preview": {
+    "title": "Ausgabenübersicht",
+    "thisMonth": "Diesen Monat",
+    "totalExpenses": "Gesamtausgaben",
+    "taxDeductible": "Steuerlich absetzbar",
+    "categories": { "officeSupplies": "Bürobedarf", "software": "Software", "travel": "Reisen", "meals": "Mahlzeiten" }
+  },
+  "banner": {
+    "title": "Ausgabenverfolgung, die für Sie arbeitet",
+    "features": ["Belege sofort scannen", "Ausgaben automatisch kategorisieren", "Steuerabzüge verfolgen", "Spesenberichte erstellen"]
+  },
+  "featureBlocks": {
+    "title": "Was Sie <accent>bekommen</accent>",
+    "subtitle": "Ausgabenverfolgung, die sich nahtlos in Ihren Rechnungsworkflow integriert.",
+    "snapAndForget": { "title": "Knipsen und vergessen", "description": "Machen Sie ein Foto eines Belegs und wir extrahieren alle Details automatisch." },
+    "autoCategorize": { "title": "Alles automatisch kategorisieren", "description": "Ausgaben werden automatisch nach Typ, Anbieter und Steuerkategorie sortiert." },
+    "seeWhereMoneyGoes": { "title": "Sehen Sie, wohin Ihr Geld geht", "description": "Visuelle Aufschlüsselungen helfen Ihnen, Ausgabenmuster auf einen Blick zu verstehen." }
+  },
+  "tabbed": {
+    "title": "Alles, was Sie zur Ausgabenverfolgung brauchen",
+    "subtitle": "Von der Belegerfassung bis zu steuerfertigen Berichten.",
+    "receiptScanning": { "label": "Belegscannen", "title": "Ausgaben unterwegs erfassen", "description": "Machen Sie einfach ein Foto Ihres Belegs und unsere KI extrahiert automatisch Anbieter, Betrag, Datum und Kategorie. Keine manuelle Dateneingabe mehr." },
+    "categories": { "label": "Kategorien", "title": "Automatische intelligente Kategorisierung", "description": "Unser System lernt aus Ihren Ausgaben und kategorisiert sie automatisch. Verfolgen Sie einfach Bürobedarf, Reisen, Mahlzeiten, Software und mehr." },
+    "taxTracking": { "label": "Steuerverfolgung", "title": "Steuerabzüge leicht gemacht", "description": "Steuerlich absetzbare Ausgaben werden automatisch markiert und Berichte für Ihren Steuerberater erstellt. Verpassen Sie nie wieder einen Abzug." }
+  },
+  "automation": {
+    "title": "Sparen Sie jeden Monat Stunden",
+    "subtitle": "Automatisieren Sie die mühsamen Teile der Ausgabenverfolgung.",
+    "autoDataEntry": { "title": "Automatische Dateneingabe", "description": "Kein Tippen mehr. Das Belegscannen erledigt die Arbeit für Sie." },
+    "smartOrganization": { "title": "Intelligente Organisation", "description": "Ausgaben werden automatisch nach Anbieter, Kategorie und Datum sortiert." },
+    "oneClickReports": { "title": "Berichte mit einem Klick", "description": "Erstellen Sie Spesenberichte, die für Kunden oder Steuerberater bereit sind." }
+  },
+  "testimonial": { "quote": "Ich habe die Ausgabenverfolgung immer gefürchtet. Jetzt mache ich einfach ein Foto und alles wird automatisch organisiert. Die Steuersaison ist so viel einfacher.", "name": "Oluwaseun Adeyemi", "title": "Berater", "company": "Adeyemi Advisory" },
+  "blog": { "title": "Tipps zur Ausgabenverwaltung", "subtitle": "Erfahren Sie, wie Sie Ausgaben effizienter verfolgen können." },
+  "faq": {
+    "title": "Fragen zur Ausgabenverfolgung, beantwortet",
+    "subtitle": "Alles, was Sie über die Verwaltung von Ausgaben wissen müssen.",
+    "items": {
+      "receiptScanning": { "question": "Wie funktioniert das Belegscannen?", "answer": "Machen Sie einfach ein Foto Ihres Belegs mit dem Handy oder laden Sie ein Bild hoch. Unsere KI-gestützte OCR-Technologie extrahiert automatisch den Anbieternamen, das Datum, den Betrag und schlägt sogar eine Kategorie vor." },
+      "multipleCategories": { "question": "Kann ich Ausgaben für mehrere Kategorien verfolgen?", "answer": "Ja! Sie können benutzerdefinierte Kategorien erstellen oder unsere vorgefertigten wie Reisen, Bürobedarf, Software, Mahlzeiten und mehr verwenden. Ausgaben werden automatisch basierend auf dem Anbieter kategorisiert." },
+      "taxes": { "question": "Hilft das bei meinen Steuern?", "answer": "Absolut. Wir markieren automatisch steuerlich absetzbare Ausgaben und erstellen Berichte, die Sie mit Ihrem Steuerberater teilen können. Sie werden nie wieder einen Abzug verpassen." },
+      "integration": { "question": "Wie integriert sich das mit der Rechnungsstellung?", "answer": "Ausgaben fließen direkt in Ihre Finanzberichte ein. In Kombination mit der Rechnungsstellung erhalten Sie ein vollständiges Bild Ihrer Geschäftsfinanzen — Einnahmen und Ausgaben an einem Ort." },
+      "budgets": { "question": "Kann ich Ausgabenbudgets festlegen?", "answer": "Ja, Sie können Budgets für verschiedene Ausgabenkategorien festlegen und Benachrichtigungen erhalten, wenn Sie sich Ihren Limits nähern. Ideal, um Ausgaben unter Kontrolle zu halten." }
+    }
+  },
+  "seoFaqs": {
+    "whatIs": { "question": "Was ist Ausgabenverfolgungssoftware?", "answer": "Ausgabenverfolgungssoftware automatisiert den Prozess der Erfassung, Kategorisierung und Berichterstattung von Geschäftsausgaben. Sie ersetzt manuelle Tabellen durch Funktionen wie Belegscannen, automatische Kategorisierung und Echtzeit-Ausgabeneinblicke." },
+    "receiptScanning": { "question": "Wie funktioniert das Belegscannen?", "answer": "Belegscannen verwendet OCR-Technologie (Optische Zeichenerkennung), um einen Beleg zu fotografieren und automatisch den Anbieternamen, das Datum, den Betrag und die Kategorie zu extrahieren." },
+    "categories": { "question": "Kann ich Ausgaben nach Kategorien verfolgen?", "answer": "Ja. Ausgabenverfolgungssoftware ermöglicht es Ihnen, Ausgaben in Kategorien wie Reisen, Bürobedarf, Software und Mahlzeiten zu organisieren." },
+    "taxHelp": { "question": "Hilft Ausgabenverfolgung bei Steuern?", "answer": "Absolut. Ausgabenverfolgungssoftware markiert automatisch steuerlich absetzbare Ausgaben und erstellt Berichte, die Sie mit Ihrem Steuerberater teilen können." }
+  }
+}

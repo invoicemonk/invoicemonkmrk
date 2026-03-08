@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "badge": "Disponible maintenant",
+    "title": "Suivez chaque dépense avec",
+    "titleAccent": "facilité",
+    "description": "Suivez vos dépenses professionnelles sans effort. Numérisez les reçus, catégorisez les dépenses et maintenez des registres conformes — le tout intégré à votre facturation.",
+    "primaryCta": "Commencer votre essai gratuit",
+    "secondaryCta": "Commencer avec la facturation"
+  },
+  "preview": {
+    "title": "Résumé des dépenses",
+    "thisMonth": "Ce mois-ci",
+    "totalExpenses": "Dépenses totales",
+    "taxDeductible": "Déductible d'impôts",
+    "categories": { "officeSupplies": "Fournitures de bureau", "software": "Logiciels", "travel": "Voyages", "meals": "Repas" }
+  },
+  "banner": {
+    "title": "Un suivi des dépenses qui travaille pour vous",
+    "features": ["Numérisez les reçus instantanément", "Catégorisez les dépenses automatiquement", "Suivez les déductions fiscales", "Générez des rapports de dépenses"]
+  },
+  "featureBlocks": {
+    "title": "Ce que vous <accent>obtenez</accent>",
+    "subtitle": "Un suivi des dépenses conçu pour s'intégrer parfaitement à votre flux de facturation.",
+    "snapAndForget": { "title": "Photographiez et oubliez", "description": "Prenez une photo de n'importe quel reçu et nous extrairons tous les détails automatiquement." },
+    "autoCategorize": { "title": "Catégorisation automatique", "description": "Les dépenses sont automatiquement triées par type, fournisseur et catégorie fiscale." },
+    "seeWhereMoneyGoes": { "title": "Voyez où va votre argent", "description": "Des ventilations visuelles vous aident à comprendre vos habitudes de dépenses en un coup d'œil." }
+  },
+  "tabbed": {
+    "title": "Tout ce dont vous avez besoin pour suivre les dépenses",
+    "subtitle": "De la capture de reçus aux rapports fiscaux.",
+    "receiptScanning": { "label": "Numérisation de reçus", "title": "Capturez les dépenses en déplacement", "description": "Prenez simplement une photo de votre reçu et notre IA extrait automatiquement le fournisseur, le montant, la date et la catégorie. Plus de saisie manuelle." },
+    "categories": { "label": "Catégories", "title": "Catégorisation intelligente automatique", "description": "Notre système apprend de vos dépenses et les catégorise automatiquement. Suivez facilement les fournitures, voyages, repas, logiciels et plus." },
+    "taxTracking": { "label": "Suivi fiscal", "title": "Déductions fiscales simplifiées", "description": "Les dépenses déductibles sont automatiquement signalées et des rapports prêts pour votre comptable sont générés. Ne manquez plus jamais une déduction." }
+  },
+  "automation": {
+    "title": "Gagnez des heures chaque mois",
+    "subtitle": "Automatisez les parties fastidieuses du suivi des dépenses.",
+    "autoDataEntry": { "title": "Saisie automatique des données", "description": "Plus besoin de taper. La numérisation des reçus fait le travail pour vous." },
+    "smartOrganization": { "title": "Organisation intelligente", "description": "Dépenses triées par fournisseur, catégorie et date automatiquement." },
+    "oneClickReports": { "title": "Rapports en un clic", "description": "Générez des rapports de dépenses prêts pour les clients ou les comptables." }
+  },
+  "testimonial": { "quote": "Je redoutais le suivi des dépenses. Maintenant je prends juste une photo et tout est organisé automatiquement. La saison fiscale est tellement plus facile.", "name": "Oluwaseun Adeyemi", "title": "Consultant", "company": "Adeyemi Advisory" },
+  "blog": { "title": "Conseils de gestion des dépenses", "subtitle": "Apprenez à suivre vos dépenses plus efficacement." },
+  "faq": {
+    "title": "Questions sur le suivi des dépenses, réponses",
+    "subtitle": "Tout ce que vous devez savoir sur la gestion des dépenses.",
+    "items": {
+      "receiptScanning": { "question": "Comment fonctionne la numérisation des reçus ?", "answer": "Prenez simplement une photo de votre reçu avec votre téléphone ou téléchargez une image. Notre technologie OCR alimentée par l'IA extrait automatiquement le nom du fournisseur, la date, le montant et suggère même une catégorie." },
+      "multipleCategories": { "question": "Puis-je suivre les dépenses pour plusieurs catégories ?", "answer": "Oui ! Vous pouvez créer des catégories personnalisées ou utiliser nos catégories prédéfinies comme Voyages, Fournitures de bureau, Logiciels, Repas et plus. Les dépenses sont automatiquement catégorisées en fonction du fournisseur." },
+      "taxes": { "question": "Cela m'aidera-t-il pour mes impôts ?", "answer": "Absolument. Nous signalons automatiquement les dépenses déductibles d'impôts et générons des rapports que vous pouvez partager avec votre comptable. Vous ne manquerez plus jamais une déduction." },
+      "integration": { "question": "Comment cela s'intègre-t-il à la facturation ?", "answer": "Les dépenses alimentent directement vos rapports financiers. Combiné à la facturation, vous obtenez une image complète de vos finances — revenus et dépenses en un seul endroit." },
+      "budgets": { "question": "Puis-je définir des budgets de dépenses ?", "answer": "Oui, vous pouvez définir des budgets pour différentes catégories de dépenses et recevoir des alertes lorsque vous approchez de vos limites. Idéal pour garder les dépenses sous contrôle." }
+    }
+  },
+  "seoFaqs": {
+    "whatIs": { "question": "Qu'est-ce qu'un logiciel de suivi des dépenses ?", "answer": "Un logiciel de suivi des dépenses automatise le processus d'enregistrement, de catégorisation et de rapport des dépenses professionnelles. Il remplace les tableurs manuels par des fonctionnalités comme la numérisation de reçus, la catégorisation automatique et les aperçus de dépenses en temps réel." },
+    "receiptScanning": { "question": "Comment fonctionne la numérisation des reçus ?", "answer": "La numérisation des reçus utilise la technologie OCR pour photographier un reçu et extraire automatiquement le nom du fournisseur, la date, le montant et la catégorie." },
+    "categories": { "question": "Puis-je suivre les dépenses par catégorie ?", "answer": "Oui. Le logiciel de suivi des dépenses vous permet d'organiser les dépenses en catégories comme voyages, fournitures de bureau, logiciels et repas." },
+    "taxHelp": { "question": "Le suivi des dépenses aide-t-il pour les impôts ?", "answer": "Absolument. Le logiciel signale automatiquement les dépenses déductibles et génère des rapports que vous pouvez partager avec votre comptable." }
+  }
+}
