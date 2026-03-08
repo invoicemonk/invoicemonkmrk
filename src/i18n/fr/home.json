@@ -97,6 +97,9 @@
       { "title": "Entrepreneurs", "description": "Gérez plusieurs clients, suivez les dépenses de projets et restez organisé." }
     ]
   },
+  "blogPreview": {
+    "browseAll": "Parcourir tous les articles Invoicemonk"
+  },
   "blog": {
     "heading": "Depuis le",
     "headingAccent": "Blog",

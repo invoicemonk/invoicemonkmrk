@@ -97,6 +97,9 @@
       { "title": "Empreiteiros", "description": "Gerencie múltiplos clientes, rastreie despesas de projetos e mantenha-se organizado." }
     ]
   },
+  "blogPreview": {
+    "browseAll": "Ver todos os artigos do Invoicemonk"
+  },
   "blog": {
     "heading": "Do",
     "headingAccent": "Blog",

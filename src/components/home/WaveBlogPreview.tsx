@@ -3,7 +3,10 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
-import { blogPosts, getPostsForPillar, type BlogPost } from '@/data/blogPosts';
+import { type BlogPost } from '@/data/blogPosts';
+import { getClusterPostsForPillar } from '@/data/topicalMap';
+import { getTranslatedBlogPosts, getLangPrefix } from '@/utils/i18nData';
+import { useTranslation } from 'react-i18next';
 
 interface WaveBlogPreviewProps {
   title?: string;
@@ -24,11 +27,16 @@ export function WaveBlogPreview({
   limit = 3,
   className = '',
 }: WaveBlogPreviewProps) {
+  const { t, i18n } = useTranslation('home');
+  const lang = getLangPrefix(i18n.language);
+  const translatedPosts = getTranslatedBlogPosts(lang);
+
   // Filter and limit posts
-  let displayPosts = posts || blogPosts;
+  let displayPosts = posts || translatedPosts;
   
   if (pillarId) {
-    displayPosts = getPostsForPillar(pillarId);
+    const clusterSlugs = getClusterPostsForPillar(pillarId);
+    displayPosts = translatedPosts.filter(post => clusterSlugs.includes(post.slug));
   } else if (category) {
     displayPosts = displayPosts.filter(post => 
       post.category.toLowerCase() === category.toLowerCase()
@@ -51,7 +59,7 @@ export function WaveBlogPreview({
           </div>
           <Button asChild variant="ghost" className="group">
             <Link to="/blog" className="flex items-center gap-2">
-              Browse all Invoicemonk articles
+              {t('blogPreview.browseAll', 'Browse all Invoicemonk articles')}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>

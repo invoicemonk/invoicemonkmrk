@@ -97,6 +97,9 @@
       { "title": "Contractors", "description": "Manage multiple clients, track project expenses, and stay organized." }
     ]
   },
+  "blogPreview": {
+    "browseAll": "Browse all Invoicemonk articles"
+  },
   "blog": {
     "heading": "From the",
     "headingAccent": "Blog",
