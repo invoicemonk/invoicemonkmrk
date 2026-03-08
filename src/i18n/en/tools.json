@@ -1,0 +1,237 @@
+{
+  "calculator": {
+    "amountToSend": "Amount to Send",
+    "sendingCurrency": "Sending Currency",
+    "receivingCurrency": "Receiving Currency",
+    "senderCountry": "Sender Country",
+    "receiverCountry": "Receiver Country",
+    "calculateFees": "Calculate Fees",
+    "bestValue": "Best Value",
+    "netReceived": "Estimated net received",
+    "fees": "Fees",
+    "fxSpread": "FX spread",
+    "speed": "Speed",
+    "none": "None",
+    "createInvoice": "Create invoice",
+    "createFreeInvoice": "Create a Free Invoice",
+    "openFreeAccount": "Open a Free Account",
+    "disclaimer": "These estimates are based on average public fee data. Actual rates depend on provider pricing and timing. Final costs are calculated inside your Invoicemonk account.",
+    "midMarketRate": "Mid-market rate",
+    "table": {
+      "method": "Method",
+      "estFees": "Est. Fees",
+      "fxSpread": "FX Spread",
+      "speed": "Speed",
+      "netReceived": "Net Received",
+      "bestFor": "Best For"
+    }
+  },
+  "feeCalculator": {
+    "seo": {
+      "title": "International Payment Fee Calculator 2026 | Compare Wise vs PayPal vs Bank Transfer Fees",
+      "description": "Compare international payment fees across Wise, PayPal, SWIFT, and card processors. See exactly how much you'll receive after fees — free calculator, updated 2026."
+    },
+    "hero": {
+      "title": "International Payment Fee Calculator",
+      "subtitle": "How much will you <strong>actually receive</strong> after fees and exchange rate markups? Compare costs across payment methods instantly."
+    },
+    "article": {
+      "understandingTitle": "Understanding International Payment Fees",
+      "understandingP1": "When you receive an international payment, the amount that lands in your account is rarely the full amount sent. Fees, exchange rate spreads, and intermediary charges can eat into your earnings — sometimes by as much as 5–8% of the total.",
+      "understandingP2": "For freelancers, contractors, and small businesses that rely on cross-border income, understanding these costs is essential. Every percentage point matters when you're building a sustainable business.",
+      "howFeesWorkTitle": "How International Payment Fees Work",
+      "howFeesWorkIntro": "International payment costs typically come from three sources:",
+      "transactionFees": "<strong>Transaction fees</strong> — A flat fee or percentage charged by the payment provider for processing the transfer.",
+      "fxSpreadFees": "<strong>Exchange rate markup (FX spread)</strong> — The difference between the mid-market rate and the rate you actually receive. This is often the largest hidden cost.",
+      "intermediaryFees": "<strong>Intermediary bank fees</strong> — For SWIFT transfers, correspondent banks may deduct fees along the way.",
+      "comparingTitle": "Comparing Payment Methods",
+      "wiseTitle": "Wise",
+      "wiseP": "Wise (formerly TransferWise) is known for transparent pricing. It charges a small percentage fee — typically around 0.6% — and converts at the mid-market exchange rate with no markup. This makes it the cheapest option for most international transfers.",
+      "paypalTitle": "PayPal",
+      "paypalP": "PayPal is widely accepted and convenient, but it's one of the most expensive ways to receive international payments. Cross-border fees can reach 4.49% plus a fixed fee, and PayPal's exchange rate includes a 3–4% spread on top.",
+      "bankTitle": "Bank Transfer (SWIFT)",
+      "bankP": "Traditional bank wires are reliable for large transfers but come with flat fees ($25–50), slow processing (3–5 business days), and exchange rate markups of 2–4%. Intermediary banks may also deduct additional fees.",
+      "cardTitle": "Card Payments",
+      "cardP": "Accepting card payments through processors like Stripe or Square is fast and convenient for online invoicing. Fees are typically around 2.9% + a fixed amount, with a 1–2% FX spread for international transactions.",
+      "tipsTitle": "Tips to Reduce International Payment Costs",
+      "tip1": "<strong>Invoice in the sender's currency</strong> — Let the sender pay in their local currency and use a provider with a low FX spread.",
+      "tip2": "<strong>Batch smaller payments</strong> — Some providers have minimum fees, so consolidating payments can reduce per-transaction costs.",
+      "tip3": "<strong>Choose the right method per client</strong> — High-value clients may warrant bank transfers, while frequent small payments work better with Wise.",
+      "tip4": "<strong>Use multi-currency invoicing</strong> — With <a href=\"__LANG__/invoicing\">Invoicemonk's invoicing tools</a>, you can issue invoices in multiple currencies and let clients pay using the method that works best.",
+      "smarterTitle": "Make Smarter International Payment Decisions",
+      "smarterP": "Before you create your next invoice, use this calculator to understand the real cost of each payment method. Then, issue a professional invoice with <a href=\"__LANG__/free-invoice-generator\">Invoicemonk's free invoice generator</a> optimized for your chosen method."
+    },
+    "faqs": [
+      {
+        "question": "How accurate is this international payment fee calculator?",
+        "answer": "This calculator provides estimates based on publicly available average fee structures. Actual fees depend on provider pricing, transfer amount, and timing. Always confirm final costs with your chosen provider before sending money."
+      },
+      {
+        "question": "What is an FX spread and why does it matter?",
+        "answer": "An FX (foreign exchange) spread is the difference between the mid-market exchange rate and the rate a provider actually offers you. A higher spread means you receive less money. Some providers like Wise use the mid-market rate with zero spread, while others like PayPal add a 3–4% markup."
+      },
+      {
+        "question": "Which is the cheapest way to receive international payments?",
+        "answer": "For most corridors, Wise offers the lowest total cost because it charges a small transparent fee with no FX spread. Bank transfers can be cheaper for very large amounts, while PayPal is the most expensive due to high fees and FX markups."
+      },
+      {
+        "question": "How long do international payments take?",
+        "answer": "Card payments and PayPal are typically instant. Wise transfers take 1–2 business days. Traditional bank (SWIFT) transfers take 3–5 business days and sometimes longer for less common corridors."
+      },
+      {
+        "question": "Can I use this tool for business invoicing?",
+        "answer": "Yes. This tool helps you understand the real cost of receiving payments before you create an invoice. With Invoicemonk, you can issue multi-currency invoices and choose the optimal payment method for each client."
+      }
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "relatedResources": "Related Resources",
+    "relatedLinks": {
+      "paypalVsWise": "PayPal vs Wise: Fee Comparison →",
+      "cheapest": "Cheapest Way to Receive International Payments →",
+      "feesExplained": "International Payment Fees Explained →",
+      "payments": "Invoicemonk Payment Processing →"
+    },
+    "cta": {
+      "title": "Ready to Invoice Internationally?",
+      "subtitle": "Issue multi-currency invoices and get paid faster with Invoicemonk.",
+      "button": "Start Free"
+    }
+  },
+  "cheapest": {
+    "seo": {
+      "title": "Cheapest International Payment Methods for Invoices (2026) | Ranked by Total Cost",
+      "description": "Which is the cheapest way to settle international invoice payments? Wise vs PayPal vs SWIFT vs card — ranked by total cost with a real-time fee calculator. Updated February 2026."
+    },
+    "hero": {
+      "title": "The Cheapest Way to Receive International Payments",
+      "subtitle": "Stop losing money to hidden fees. Find the most cost-effective method for your specific corridor and amount."
+    },
+    "article": {
+      "rankedTitle": "Payment Methods Ranked by Cost (Cheapest First)",
+      "wiseTitle": "1. Wise — Best Overall Value",
+      "wiseP1": "Wise consistently offers the lowest total cost for international payments. With a ~0.6% fee and mid-market exchange rate, there's no hidden FX spread eating into your money. For a $1,000 transfer, you'll pay roughly $6 in fees and receive the full market rate.",
+      "wiseBestFor": "<strong>Best for:</strong> Freelancers, contractors, and businesses receiving regular international payments.",
+      "cardTitle": "2. Card Payments — Good for Online Invoicing",
+      "cardP1": "Accepting card payments through processors like Stripe costs around 2.9% + $0.30 per transaction, plus a 1–2% FX spread for international cards. It's more expensive than Wise but offers instant processing and a smooth client experience.",
+      "cardBestFor": "<strong>Best for:</strong> Online invoicing, e-commerce, clients who prefer paying by card.",
+      "bankTitle": "3. Bank Transfer (SWIFT) — Best for Large Amounts",
+      "bankP1": "Bank wires charge flat fees ($25–50) plus a 2–4% exchange rate markup. For small amounts, the flat fee makes this expensive. But for transfers above $10,000, the percentage cost becomes competitive.",
+      "bankBestFor": "<strong>Best for:</strong> Large one-off payments, established business relationships.",
+      "paypalTitle": "4. PayPal — Most Convenient, Most Expensive",
+      "paypalP1": "PayPal is the easiest option for many clients but charges 4.49% plus a fixed fee and adds a 3–4% exchange rate spread. On a $1,000 payment, total costs can exceed $80.",
+      "paypalBestFor": "<strong>Best for:</strong> Clients who insist on PayPal, small one-off payments where convenience matters more than cost.",
+      "tipsTitle": "5 Tips to Reduce International Payment Fees",
+      "tip1": "<strong>Compare before you invoice.</strong> Use the calculator above to see real cost differences before choosing a payment method.",
+      "tip2": "<strong>Invoice in the client's currency.</strong> Let the sender pay in their local currency — you control the conversion.",
+      "tip3": "<strong>Avoid double conversion.</strong> If both parties have Wise accounts, transfer directly without going through multiple currencies.",
+      "tip4": "<strong>Batch smaller payments.</strong> Consolidate weekly invoices into monthly to reduce per-transaction fixed fees.",
+      "tip5": "<strong>Use <a href=\"__LANG__/invoicing\">multi-currency invoicing</a></strong> to offer clients the flexibility to pay in their preferred currency.",
+      "corridorsTitle": "Country-Specific Corridors",
+      "corridorsIntro": "Costs vary significantly by corridor. Explore specific routes:",
+      "corridorLinks": {
+        "usdNigeria": "Receive USD in Nigeria →",
+        "gbpNigeria": "Receive GBP in Nigeria →",
+        "usdUk": "Receive USD in the UK →",
+        "eurUk": "Receive EUR in the UK →",
+        "usdCanada": "Receive USD in Canada →",
+        "usdAustralia": "Receive USD in Australia →"
+      },
+      "knowCostsTitle": "Know Your Costs Before Invoicing",
+      "knowCostsP": "The best time to optimize payment costs is <em>before</em> you send the invoice. With <a href=\"__LANG__/free-invoice-generator\">Invoicemonk's free invoice generator</a>, you can create professional multi-currency invoices and specify the optimal payment method for each client."
+    },
+    "faqs": [
+      {
+        "question": "What is the cheapest way to receive international payments?",
+        "answer": "For most freelancers and small businesses, Wise offers the lowest total cost. It charges ~0.6% with the mid-market rate and no FX spread. For very large transfers, a bank wire may be competitive if the flat fee is small relative to the amount."
+      },
+      {
+        "question": "How can I avoid high exchange rate fees?",
+        "answer": "Use a provider that offers the mid-market rate (like Wise). Avoid providers with hidden FX spreads — this is where most of the cost hides. Also consider invoicing in the sender's local currency to give them a better experience."
+      },
+      {
+        "question": "Is PayPal the cheapest option for small amounts?",
+        "answer": "No. PayPal's high percentage fee (4.49%) and exchange rate markup (3–4%) make it one of the most expensive options at any amount. Wise is cheaper even for small transfers."
+      },
+      {
+        "question": "Should I invoice in my currency or the client's currency?",
+        "answer": "Invoicing in the client's local currency often results in faster payments and better client experience. Use a low-spread provider like Wise for the currency conversion on your end."
+      }
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "relatedResources": "Related Resources",
+    "relatedLinks": {
+      "feeCalculator": "International Payment Fee Calculator →",
+      "paypalVsWise": "PayPal vs Wise Fee Comparison →",
+      "feesExplained": "International Payment Fees Explained →"
+    },
+    "cta": "Start Free with Invoicemonk"
+  },
+  "paypalVsWise": {
+    "seo": {
+      "title": "Wise vs PayPal Fees for International Transfers (2026) — Which Saves You More?",
+      "description": "Wise vs PayPal fees compared side by side for international invoice payments. Real cost breakdowns for $500, $1K, and $5K transfers. See who wins in 2026."
+    },
+    "hero": {
+      "title": "PayPal vs Wise: Fee Comparison",
+      "subtitle": "Which service costs you less when receiving international payments? Compare fees, exchange rates, and speed side by side."
+    },
+    "comparisonTitle": "Feature-by-Feature Comparison",
+    "comparisonHeaders": {
+      "feature": "Feature",
+      "wise": "Wise",
+      "paypal": "PayPal"
+    },
+    "features": [
+      { "feature": "Low transfer fees", "wise": true, "paypal": false },
+      { "feature": "Mid-market exchange rate", "wise": true, "paypal": false },
+      { "feature": "Instant transfers", "wise": false, "paypal": true },
+      { "feature": "Widely accepted by clients", "wise": false, "paypal": true },
+      { "feature": "Transparent fee breakdown", "wise": true, "paypal": false },
+      { "feature": "Multi-currency accounts", "wise": true, "paypal": true },
+      { "feature": "Business invoicing integration", "wise": false, "paypal": true },
+      { "feature": "Low FX spread", "wise": true, "paypal": false }
+    ],
+    "article": {
+      "whichTitle": "PayPal vs Wise: Which Should Freelancers Use?",
+      "whichP": "Both PayPal and Wise are popular among freelancers and small businesses for receiving international payments. But they serve different needs.",
+      "whenWiseTitle": "When to Use Wise",
+      "whenWiseP1": "Wise is the better choice when cost matters. For a typical $1,000 payment from a US client to a Nigerian freelancer, Wise saves approximately $70–80 compared to PayPal. Wise uses the real mid-market exchange rate and charges a small, transparent fee — usually around 0.6%.",
+      "whenWiseP2": "Wise is ideal for regular freelance income, contractor payments, and any situation where you want to maximize what you receive.",
+      "whenPaypalTitle": "When to Use PayPal",
+      "whenPaypalP1": "PayPal remains useful when clients specifically request it, or when speed is essential. PayPal payments arrive almost instantly, while Wise takes 1–2 business days. PayPal is also more widely recognized, which can make onboarding new clients easier.",
+      "whenPaypalP2": "However, PayPal's total cost — including the ~4.49% transaction fee and 3–4% exchange rate spread — makes it one of the most expensive options for international payments.",
+      "useCaseTitle": "Use Case Breakdown",
+      "useCase1": "<strong>Freelancer receiving regular payments:</strong> Wise — lower fees add up to significant savings over time.",
+      "useCase2": "<strong>One-off client payment:</strong> PayPal — convenience outweighs cost for a single transaction.",
+      "useCase3": "<strong>Small business with multiple international clients:</strong> Both — offer Wise as default, PayPal as fallback.",
+      "optimizeTitle": "Optimize Your Payment Strategy with Invoicemonk",
+      "optimizeP": "With <a href=\"__LANG__/invoicing\">Invoicemonk</a>, you can issue multi-currency invoices and specify different payment methods for different clients. Know your costs before invoicing, and make smarter international payment decisions."
+    },
+    "faqs": [
+      {
+        "question": "Is Wise cheaper than PayPal for international payments?",
+        "answer": "In most cases, yes. Wise charges around 0.6% with the mid-market exchange rate (no FX spread), while PayPal charges 4.49% plus a fixed fee and adds a 3–4% exchange rate markup. For a $1,000 transfer, Wise typically saves $70–80 compared to PayPal."
+      },
+      {
+        "question": "Is PayPal faster than Wise?",
+        "answer": "PayPal transfers are typically instant, while Wise takes 1–2 business days. If speed is your top priority and cost is secondary, PayPal has the edge."
+      },
+      {
+        "question": "Can I use both Wise and PayPal for my freelance business?",
+        "answer": "Absolutely. Many freelancers offer PayPal for clients who prefer it and Wise for clients open to a more cost-effective method. With Invoicemonk, you can specify different payment methods on different invoices."
+      },
+      {
+        "question": "Does Wise support all currencies?",
+        "answer": "Wise supports 50+ currencies with local bank details in major currencies like USD, GBP, EUR, and AUD. PayPal supports 25+ currencies but with less favourable exchange rates."
+      }
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "relatedResources": "Related Resources",
+    "relatedLinks": {
+      "feeCalculator": "International Payment Fee Calculator →",
+      "cheapest": "Cheapest Way to Receive International Payments →",
+      "feesExplained": "International Payment Fees Explained →"
+    },
+    "cta": "Start Free with Invoicemonk"
+  }
+}
