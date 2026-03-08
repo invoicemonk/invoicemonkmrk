@@ -85,6 +85,18 @@ import frClientManagement from './fr/clientManagement.json';
 import ptBRClientManagement from './pt-BR/clientManagement.json';
 import esClientManagement from './es/clientManagement.json';
 
+import enFreelancers from './en/freelancers.json';
+import deFreelancers from './de/freelancers.json';
+import frFreelancers from './fr/freelancers.json';
+import ptBRFreelancers from './pt-BR/freelancers.json';
+import esFreelancers from './es/freelancers.json';
+
+import enPhotographers from './en/photographers.json';
+import dePhotographers from './de/photographers.json';
+import frPhotographers from './fr/photographers.json';
+import ptBRPhotographers from './pt-BR/photographers.json';
+import esPhotographers from './es/photographers.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
