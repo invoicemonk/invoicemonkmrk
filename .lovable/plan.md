@@ -1,141 +1,149 @@
 
 
-# SEO Optimization: Title Tags, Meta Descriptions, and Internal Linking
+# Migration: Country Prefixes → Language Prefixes
 
-## Overview
-Based on the GSC data, the biggest wins come from **CTR optimization** (better title tags and meta descriptions) on pages already ranking in positions 3-15, and **internal linking** to boost pages on the edge of page 1. No new pages needed -- just surgical copy refinements.
+## The Problem
 
----
+The current URL structure uses 16 country prefixes (`/us/`, `/ng/`, `/uk/`, `/de/`, etc.), but only 4 languages exist (English, German, French, Portuguese). This means 13 English-speaking country prefixes serve identical content, creating ~2,500+ duplicate URLs that Google discovers but refuses to index.
 
-## Priority 1: Title Tag and Meta Description Rewrites
+```text
+CURRENT (16 prefixes, massive duplication):
+/us/pricing  ─┐
+/uk/pricing  ─┤
+/ca/pricing  ─┤  All identical English content
+/ng/pricing  ─┤
+/au/pricing  ─┤
+/gh/pricing  ─┤
+... 8 more    ─┘
+/de/pricing  ── German content
+/fr/pricing  ── French content
+/br/pricing  ── Portuguese content
 
-These pages have impressions but near-zero CTR. The fix is rewriting `<SEOHead>` title and description props to match actual user queries from GSC.
+TARGET (4 prefixes, zero duplication):
+/en/pricing  ── English (all English-speaking countries)
+/de/pricing  ── German
+/fr/pricing  ── French
+/pt/pricing  ── Portuguese
+```
 
-### 1a. Credit Notes Page (221 impressions, 1 click, pos 6.3)
+## New Architecture
 
-**File**: `src/data/blogPosts.ts` (the blog post with slug `credit-notes-and-invoice-corrections`)
+### URL Structure
+- `/en/` — English (default, covers US, UK, CA, AU, NG, GH, KE, ZA, PH, ZW, IN, SC, NZ)
+- `/de/` — German (Germany)
+- `/fr/` — French (France)
+- `/pt/` — Portuguese (Brazil)
 
-| Field | Current | New |
-|-------|---------|-----|
-| title | "Credit Notes and Invoice Corrections: The Right Way to Fix Billing Errors" | "Credit Notes: How and When to Use Them (With Examples)" |
-| excerpt | "Learn how to properly issue credit notes..." | "What is a credit note? When should you issue one instead of a refund? Step-by-step guide with examples for small businesses." |
+### Country Selection (separate from URL)
+Country-specific data (currency, pricing, compliance authority, payment gateway) is selected via:
+1. **UI country picker** in the navbar (same as current CountrySelector)
+2. **Persisted in localStorage** (`invoicemonk-country`)
+3. **Auto-detected** on first visit (timezone/IP, same as current CountryRedirect)
 
-**Rationale**: GSC shows queries like "how to issue credit note", "when to use credit note", "credit note vs refund". The current title doesn't match these patterns.
+The URL determines **language**. The country picker determines **locale data** (currency, pricing, tax authority). These are independent concerns.
 
-### 1b. Recurring Invoices Page (232 impressions, 0 clicks, pos 14.4)
+### Example
+A user in Nigeria visits `/en/pricing`:
+- Page content is in English
+- Currency shows ₦ (NGN) because their country is set to NG
+- Compliance references NRS
+- Pricing shows Nigerian tiers (including Starter plan)
 
-**File**: `src/data/blogPosts.ts` (slug `recurring-invoices-automating-billing`)
-
-| Field | Current | New |
-|-------|---------|-----|
-| title | "Recurring Invoices: Automate Your Billing for Subscription and Retainer Clients" | "How to Set Up Recurring Invoices: Automate Billing for Retainers and Subscriptions" |
-| excerpt | "Save time and ensure consistent cash flow..." | "Step-by-step guide to automating recurring invoices. Best practices for retainer billing, subscription clients, and monthly contracts." |
-
-**Rationale**: GSC queries are "how to set up automatic recurring invoices", "best practices for automating recurring invoices", "recurring billing invoices". Adding "How to" and "Set Up" matches the query intent.
-
-### 1c. International Payment Fees Blog (293 impressions, 1 click, pos 12.5)
-
-**File**: `src/data/blogPosts.ts` (slug `international-payment-fees-explained`)
-
-| Field | Current | New |
-|-------|---------|-----|
-| title | "International Payment Fees Explained: How to Save on Cross-Border Transactions" | "International Payment Fees Explained: How to Reduce Fees on Invoice Payments (2026)" |
-| excerpt | (update to match) | "Compare international payment fees across Wise, PayPal, SWIFT, and card processors. Learn how to reduce fees on cross-border invoice payments." |
-
-**Rationale**: Top GSC query is literally "how to reduce fees on international invoice payments" at pos 4.4. Putting this exact phrase in the title will boost CTR.
-
-### 1d. PayPal vs Wise Page (72 impressions, 0 clicks, pos 6.0)
-
-**File**: `src/pages/tools/PaypalVsWiseFees.tsx`
-
-| Field | Current | New |
-|-------|---------|-----|
-| SEOHead title | "PayPal vs Wise Fees Compared \| Which Is Cheaper? \| Invoicemonk" | "PayPal vs Wise Fees: Which Is Cheaper for International Transfers? (2026)" |
-| SEOHead description | "Compare PayPal and Wise fees for international payments..." | "Is Wise cheaper than PayPal? Side-by-side fee comparison for international transfers. See real cost breakdowns for $1K, $5K, and $10K transfers." |
-
-**Rationale**: GSC shows "is wise cheaper than paypal for international transfers" and "wise vs paypal fees" at position 1. Adding the year and a clearer value prop improves CTR.
-
-### 1e. Cheapest International Payments Page
-
-**File**: `src/pages/tools/CheapestInternationalPayments.tsx`
-
-| Field | Current | New |
-|-------|---------|-----|
-| SEOHead title | "Cheapest Way to Receive International Payments \| 2026 Guide \| Invoicemonk" | "Cheapest Way to Receive International Payments in 2026 \| Fee Comparison" |
-| SEOHead description | "Find the cheapest way to receive international payments. Compare Wise, PayPal, bank transfers, and cards." | "Compare the cheapest international payment methods for invoices. Wise vs PayPal vs SWIFT vs cards -- ranked by total cost with a free fee calculator." |
-
-**Rationale**: Matches "cheapest international payment methods for invoices 2026" (pos 6.7) and "settling international payments costs" (pos 4.3).
-
-### 1f. Invoice Disputes Page (64 impressions, 0 clicks, pos 14.6)
-
-**File**: `src/data/blogPosts.ts` (slug `invoice-disputes-how-to-handle-professionally`)
-
-| Field | Current | New |
-|-------|---------|-----|
-| title | "Invoice Disputes: How to Handle Professionally and Preserve Relationships" | "How to Handle Invoice Disputes Professionally (Templates and Scripts)" |
-| excerpt | "Learn professional approaches to resolve billing disagreements..." | "Invoice disputed by a client? Step-by-step process for resolving billing disagreements professionally, with email templates and response scripts." |
-
-**Rationale**: GSC queries include "can you tell me about past invoice disputes and how you've resolved them" at pos 8-10. Adding "Templates and Scripts" increases perceived value.
+A user in Germany visits `/de/pricing`:
+- Page content is in German
+- Currency shows € (EUR)
+- Compliance references Finanzamt
 
 ---
 
-## Priority 2: Internal Linking Boost
+## Migration Plan
 
-Add strategic internal links on high-authority pages to pass link equity to pages near the edge of page 1.
+### Phase 1: Core Infrastructure
 
-### 2a. Homepage Hero or GlobalComplianceSection
-
-**File**: `src/components/home/GlobalComplianceSection.tsx`
-
-Add a subtle link in the compliance section to the international payment fees tools:
-- Within the bullet about "30+ supported jurisdictions" or the tagline area, add a small "See our international fee calculator" link pointing to `/international-payment-fee-calculator`
-
-### 2b. Invoicing Page (best CTR page)
-
-**File**: `src/pages/Invoicing.tsx`
-
-In the existing content, add internal links to:
-- `/blog/recurring-invoices-automating-billing` (from the "Recurring Billing" tab)
-- `/blog/credit-notes-and-invoice-corrections` (from the compliance/audit trail section)
-- `/free-invoice-generator` (as a "Try it free" link)
-
-These are 2-3 small `<Link>` additions within existing copy, not layout changes.
-
-### 2c. Free Invoice Generator Page
-
-**File**: `src/pages/FreeInvoiceGenerator.tsx`
-
-Add a "Related Resources" section at the bottom (similar to CheapestInternationalPayments pattern):
-- Link to `/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners`
-- Link to `/blog/invoice-numbering-best-practices`
-- Link to `/invoicing` (upgrade CTA)
-
----
-
-## Priority 3: Blog Post Meta for "Essential Elements" Page
-
-**File**: `src/data/blogPosts.ts` (slug `5-essential-elements-of-an-invoice-a-guide-for-small-business-owners`)
-
-| Field | Current | New |
-|-------|---------|-----|
-| title | (keep as-is, it's working) | No change |
-| excerpt | (update) | "What must every invoice include? The 5 essential elements every small business invoice needs -- with a downloadable checklist and template." |
-
-Adding "checklist" and "template" matches the query "essential elements invoice template" (pos 10).
-
----
-
-## Files Modified Summary
+**Files to modify/create:**
 
 | File | Change |
 |------|--------|
-| `src/data/blogPosts.ts` | Update title and excerpt for 4 blog posts (credit-notes, recurring-invoices, international-fees, invoice-disputes) |
-| `src/pages/tools/PaypalVsWiseFees.tsx` | Update SEOHead title and description |
-| `src/pages/tools/CheapestInternationalPayments.tsx` | Update SEOHead title and description |
-| `src/pages/Invoicing.tsx` | Add 3 internal links within existing content |
-| `src/pages/FreeInvoiceGenerator.tsx` | Add Related Resources section with 3 links |
-| `src/components/home/GlobalComplianceSection.tsx` | Add subtle internal link to fee calculator |
-| `src/data/blogPosts.ts` | Update excerpt for essential-elements post |
+| `src/locales/types.ts` | Add `SupportedLanguage` type: `'en' \| 'de' \| 'fr' \| 'pt'` |
+| `src/locales/index.ts` | Replace `urlPrefixToCountry` / `countryToUrlPrefix` with `urlPrefixToLanguage` mapping. Keep all 16 `LocaleConfig` objects for country data |
+| `src/App.tsx` | Change route from `/:country` to `/:lang`. Keep all child routes identical |
+| `src/components/CountryLayout.tsx` → `src/components/LanguageLayout.tsx` | Validate `:lang` param against `['en','de','fr','pt']`. Sync i18n language. Country comes from localStorage, not URL |
+| `src/components/CountryRedirect.tsx` → `src/components/LanguageRedirect.tsx` | Detect user's country (timezone/IP), map to language, redirect to `/:lang/` |
+| `src/components/LocalizedLink.tsx` | Use language prefix instead of country prefix |
+| `src/hooks/useLocalizedPath.ts` | Use language prefix |
+| `src/hooks/useCountryPrefix.ts` | Replace with `useLanguagePrefix` |
+| `src/contexts/LocaleContext.tsx` | Country selection now fully from localStorage/UI, not URL |
+| `src/components/CountrySelector.tsx` | Becomes a pure country picker that updates localStorage + context. Does NOT change the URL (unless language changes) |
 
-No new dependencies. No layout changes. Copy-only and link-only refinements targeting GSC-validated queries.
+### Phase 2: SEO & Redirects
+
+| File | Change |
+|------|--------|
+| `src/components/seo/SEOHead.tsx` | hreflang tags emit 4 language variants instead of 16 country variants. Use `en`, `de`, `fr`, `pt-BR` codes |
+| `scripts/generate-sitemap.ts` | Generate URLs for 4 language prefixes only. Total URLs drop from ~3,200 to ~800 |
+| `vercel.json` | Add 301 redirects for all old country prefixes to language prefixes |
+
+**Redirect mapping in `vercel.json`:**
+```json
+{ "source": "/us/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/uk/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/ca/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/au/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/ng/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/gh/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/ke/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/za/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/ph/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/zw/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/in/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/sc/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/nz/:path*", "destination": "/en/:path*", "permanent": true },
+{ "source": "/br/:path*", "destination": "/pt/:path*", "permanent": true }
+```
+(`/de/` and `/fr/` stay the same.)
+
+### Phase 3: Update All Components
+
+Every component using `useParams<{ country }>`, `useCountryPrefix()`, or `useLocalizedPath()` needs updating. Based on the codebase search, this touches ~17+ page files and several shared components. The changes are mechanical: replace country-prefix logic with language-prefix logic.
+
+### Phase 4: hreflang Strategy
+
+**New hreflang output (4 tags instead of 16):**
+```html
+<link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/pricing" />
+<link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/pricing" />
+<link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/pricing" />
+<link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/pricing" />
+<link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/pricing" />
+```
+
+---
+
+## What Gets Preserved
+
+- **All 16 country configs** remain for currency, pricing, compliance, and testimonial data
+- **Country selector UI** stays, but only changes locale context (not the URL)
+- **i18n translations** (Phase 1 work we just did) carries over unchanged
+- **All page components** work the same, just referenced via `/en/` instead of `/us/`
+
+## Impact
+
+| Metric | Before | After |
+|--------|--------|-------|
+| URL prefixes | 16 | 4 |
+| Sitemap URLs | ~3,200 | ~800 |
+| hreflang tags per page | 17 (16 + x-default) | 5 (4 + x-default) |
+| Duplicate content | ~2,500 URLs | 0 |
+| "Discovered not indexed" | ~400+ pages | Should resolve |
+
+## Risks & Mitigations
+
+1. **Existing indexed URLs break** → 301 redirects in `vercel.json` preserve all link equity
+2. **Country-specific SEO keywords** (e.g., "Nigerian invoicing software") → Still served via locale-aware meta tags and page content, just under `/en/` instead of `/ng/`
+3. **Users bookmarked old URLs** → 301 redirects handle transparently
+4. **Google re-crawl time** → Expect 2-4 weeks for full reindexing after deploy
+
+## Execution Order
+
+This is a large migration best done in one coordinated push (not incrementally), since the URL structure change affects every route. Estimated scope: ~25-30 files modified, ~4-5 files created, ~50+ redirect rules in vercel.json.
 
