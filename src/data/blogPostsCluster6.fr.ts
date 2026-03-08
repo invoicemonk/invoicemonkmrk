@@ -239,10 +239,10 @@ const posts: BlogPost[] = [
   },
   {
     slug: 'cash-vs-accrual-accounting-explained',
-    title: 'Comptabilité de caisse vs comptabilité d'engagement : quelle méthode choisir ?',
-    excerpt: 'Comprenez les différences clés entre la comptabilité de caisse et la comptabilité d'engagement.',
+    title: "Comptabilité de caisse vs comptabilité d\u2019engagement : quelle méthode choisir ?",
+    excerpt: "Comprenez les différences clés entre la comptabilité de caisse et la comptabilité d\u2019engagement.",
     category: 'Small Business',
-    tags: ['comptabilité', 'comptabilité de caisse', 'comptabilité d'engagement', 'tenue de livres'],
+    tags: ['comptabilité', 'comptabilité de caisse', "comptabilité d\u2019engagement", 'tenue de livres'],
     author: defaultAuthor,
     date: '2026-01-27',
     readTime: '8 min de lecture',
