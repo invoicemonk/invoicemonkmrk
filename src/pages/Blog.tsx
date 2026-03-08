@@ -36,6 +36,10 @@ import '@/data/blogPosts.pt';
 import '@/data/blogPostsCluster.pt';
 import '@/data/blogPosts.es';
 import '@/data/blogPostsCluster.es';
+import '@/data/countryCompliancePosts.de';
+import '@/data/countryCompliancePosts.fr';
+import '@/data/countryCompliancePosts.pt';
+import '@/data/countryCompliancePosts.es';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;
