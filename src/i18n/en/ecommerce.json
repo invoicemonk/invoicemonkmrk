@@ -1,0 +1,111 @@
+{
+  "seo": {
+    "title": "Invoicing for E-commerce Sellers | Invoicemonk",
+    "description": "Professional invoicing for e-commerce businesses. B2B wholesale billing, multi-currency invoicing, and subscription billing for online sellers."
+  },
+  "hero": {
+    "badge": "For E-commerce",
+    "title": "Invoicing built for e-commerce sellers",
+    "accentWord": "e-commerce",
+    "description": "Create professional invoices for B2B orders, wholesale buyers, and subscription products. Manage multi-currency billing with ease.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "View Pricing",
+    "trustBadge": "Trusted by online sellers and e-commerce businesses"
+  },
+  "benefits": {
+    "heading": "Built for online sellers",
+    "subheading": "Everything you need to invoice customers, manage wholesale accounts, and track your e-commerce finances professionally",
+    "items": [
+      { "title": "Order-Based Invoicing", "description": "Create detailed invoices for individual orders or bulk wholesale purchases with itemised line items, product codes, and quantity pricing. Perfect for B2B transactions where buyers need formal documentation for their procurement records." },
+      { "title": "Multi-Currency Billing", "description": "Sell globally and invoice buyers in their local currency without manual conversion. Each invoice is formatted with the correct currency symbol, tax structure, and compliance details for that market — making international sales seamless." },
+      { "title": "Subscription Billing", "description": "Automate recurring invoices for subscription boxes, membership products, or regular supply orders. Set the schedule once and Invoicemonk handles every billing cycle — so your subscribers receive consistent, professional invoices on time." },
+      { "title": "Tax Compliance", "description": "Automatic tax calculations for different regions and countries. Configure VAT, GST, or sales tax per jurisdiction and Invoicemonk applies the correct rates on every invoice. Stay compliant as you sell across borders without manual tax lookups." }
+    ]
+  },
+  "useCases": {
+    "heading": "How e-commerce sellers use Invoicemonk",
+    "subheading": "Whether you sell wholesale, run subscriptions, or ship internationally — here's how Invoicemonk fits your business",
+    "items": [
+      { "title": "Wholesale & B2B Orders", "description": "Receive a wholesale order, create an itemised invoice with product codes, quantities, and tiered pricing, then send it with your payment terms. Include PO references so the buyer's procurement team can process payment quickly. Track all outstanding wholesale invoices from your dashboard." },
+      { "title": "Subscription Products", "description": "Set up recurring invoices for subscription boxes, membership products, or regular supply orders. Invoicemonk generates and sends invoices automatically each cycle. When customers upgrade, downgrade, or cancel, adjust the recurring schedule in seconds without disrupting other subscribers." },
+      { "title": "Cross-Border Sales", "description": "Sell to buyers in different countries and invoice each one in their local currency. A European buyer gets an invoice in EUR with VAT, a US buyer in USD with sales tax, and a Nigerian buyer in NGN. Each invoice is formatted with the correct tax structure and compliance details for that market." }
+    ]
+  },
+  "challenges": {
+    "heading": "Common e-commerce challenges — solved",
+    "subheading": "We built Invoicemonk around the real billing problems online sellers face",
+    "items": [
+      { "problem": "Wholesale buyers need detailed, formal invoices that match their purchase orders", "solution": "Create itemised invoices with product codes, descriptions, quantities, and tiered pricing. Add PO references so buyers can match invoices to their procurement records instantly." },
+      { "problem": "Manually sending recurring invoices to subscription customers each month", "solution": "Automated recurring invoices generate and send on schedule for every subscriber. No manual work required — just set the amount, frequency, and let Invoicemonk handle each cycle." },
+      { "problem": "Tax compliance across multiple jurisdictions is complex and error-prone", "solution": "Configure tax rates per region once. Invoicemonk applies the correct VAT, GST, or sales tax automatically on every invoice, keeping you compliant as you sell across borders." },
+      { "problem": "No visibility into true margins after accounting for shipping, fees, and returns", "solution": "Track all costs — product, shipping, packaging, platform fees — per product line or sales channel. Understand your actual margins and price products for sustainable profitability." }
+    ]
+  },
+  "workflow": {
+    "heading": "How it works",
+    "subheading": "From product setup to revenue analysis — streamlined for e-commerce operations",
+    "steps": [
+      { "title": "Set up your product catalogue", "description": "Add your products with descriptions, SKU numbers, and standard pricing. For wholesale customers, configure tiered pricing based on quantity. Save these as templates so creating future invoices is a one-click operation rather than re-entering product details every time." },
+      { "title": "Create customer profiles", "description": "Add each buyer with their billing address, contact details, preferred currency, and payment terms. For subscription customers, set up recurring invoice schedules. For wholesale buyers, save their standard order templates and PO number format. All details are stored for repeat orders." },
+      { "title": "Invoice and track", "description": "Generate invoices for individual orders, bulk purchases, or recurring subscriptions. Each invoice includes itemised line items with product codes, quantities, shipping, and tax — all calculated automatically. Send instantly and track payment status from your dashboard." },
+      { "title": "Analyse and optimise", "description": "Review revenue reports by customer, product line, or sales channel. Track expenses against revenue to understand true margins. Use this data to make pricing decisions, identify your most profitable products, and focus your marketing on the channels that deliver the best return." }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Why e-commerce sellers choose Invoicemonk over alternatives",
+    "paragraphs": [
+      "Most invoicing tools are built for service businesses — consultants, freelancers, agencies. E-commerce sellers have fundamentally different needs: product-based line items with SKUs and quantities, tiered wholesale pricing, shipping cost tracking, and tax compliance across multiple jurisdictions. Invoicemonk handles all of these without forcing you into a service-business workflow.",
+      "Unlike marketplace platforms that only handle transactions within their ecosystem, Invoicemonk gives you professional invoicing for B2B sales, wholesale orders, and subscription products across any channel. Whether your buyers find you on Shopify, Amazon, or through direct outreach, every order gets a proper invoice that meets procurement standards.",
+      "And unlike complex ERP systems that require weeks of setup and training, Invoicemonk is designed for e-commerce operators who need to move fast. Add your products, create customer profiles, and start invoicing in minutes. As your business scales from dozens to hundreds of orders, the recurring billing and automated reminders keep your cash flow healthy without adding admin overhead."
+    ]
+  },
+  "checklist": {
+    "heading": "What e-commerce sellers get with Invoicemonk",
+    "items": [
+      "Unlimited professional invoices",
+      "B2B wholesale invoicing",
+      "Multi-currency support",
+      "Subscription billing",
+      "Automatic payment reminders",
+      "Shipping & tax line items",
+      "Customer management",
+      "Expense tracking",
+      "Revenue reports",
+      "Tax-compliant records"
+    ]
+  },
+  "testimonials": {
+    "heading": "Trusted by e-commerce sellers",
+    "items": [
+      { "quote": "I sell handmade products on multiple platforms. Invoicemonk helps me manage B2B wholesale invoicing professionally. My retail buyers get itemised invoices with product codes and quantities, which makes their accounting easier and gets me paid faster.", "author": "Blessing I.", "role": "E-commerce Seller" },
+      { "quote": "The multi-currency feature is essential for my dropshipping business. International clients get invoices in their currency, which removes a huge friction point. I've seen my payment speed improve significantly since switching to Invoicemonk.", "author": "Ola P.", "role": "Online Retailer" },
+      { "quote": "Managing subscription billing manually was a nightmare with 200+ subscribers. Invoicemonk's recurring invoices handle everything automatically. I just review the queue once a month and focus on growing the product instead of chasing payments.", "author": "Adaeze K.", "role": "Subscription Box Founder" }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "items": [
+      { "question": "Can I create bulk invoices for wholesale orders?", "answer": "Yes. Create invoices with multiple line items, quantity pricing, and wholesale discounts for B2B orders. Add product codes, descriptions, quantities, and tiered pricing to give wholesale buyers the detailed documentation they need for their purchasing records." },
+      { "question": "Does Invoicemonk support multi-currency for international e-commerce?", "answer": "Absolutely. Invoice international buyers in their preferred currency with automatic formatting. Whether you ship products to Europe, North America, or Asia, each buyer receives an invoice in their local currency with the correct tax structure and compliance details." },
+      { "question": "Can I set up recurring invoices for subscription products?", "answer": "Yes. Automate recurring billing for subscription boxes, memberships, or regular supply orders. Set the amount, frequency, and start date — Invoicemonk generates and sends the invoice automatically each cycle, so your subscribers never miss a billing period." },
+      { "question": "How does Invoicemonk handle shipping and tax on invoices?", "answer": "Add shipping as a separate line item with its own cost. Configure tax rates per region or country, and Invoicemonk calculates taxes automatically on every invoice. This is essential for e-commerce sellers shipping to multiple jurisdictions with different tax rules." },
+      { "question": "Is there a free plan for small e-commerce sellers?", "answer": "Yes! Start free with 5 invoices and 5 receipts per month. The free tier is perfect for sellers just starting their B2B or wholesale operations. Upgrade as your business grows and you need features like unlimited invoicing, recurring billing, advanced reporting, and multi-currency support." },
+      { "question": "Can I add product images or descriptions to invoices?", "answer": "Yes. Add detailed product descriptions, SKU numbers, and specifications to each line item. This helps wholesale buyers and procurement departments match invoices to their purchase orders and receiving records." },
+      { "question": "How do I handle returns and credit notes?", "answer": "Create credit notes linked to original invoices for returns, damaged goods, or billing corrections. The credit note references the original invoice number and adjusts the customer's balance automatically. This keeps your records clean and professional." },
+      { "question": "Can I track expenses related to my e-commerce business?", "answer": "Yes. Track product costs, shipping expenses, packaging materials, platform fees, and marketing costs. Categorise expenses by product line or sales channel to understand your true margins and make better pricing decisions." }
+    ]
+  },
+  "relatedReading": {
+    "label": "Related reading",
+    "links": {
+      "recurringInvoices": "Recurring Invoices Guide",
+      "internationalPayments": "International Payment Fees",
+      "invoicingGuide": "Invoicing Guide"
+    }
+  },
+  "cta": {
+    "heading": "Ready to professionalize your e-commerce billing?",
+    "description": "Join e-commerce sellers who trust Invoicemonk for wholesale, subscription, and international invoicing.",
+    "button": "Get Started Free"
+  }
+}
