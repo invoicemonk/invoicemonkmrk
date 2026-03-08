@@ -251,7 +251,7 @@ const posts: BlogPost[] = [
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/accounting',
-    semanticKeywords: ['comptabilité de caisse', 'comptabilité d'engagement', 'tenue de livres'],
+    semanticKeywords: ['comptabilité de caisse', "comptabilité d\u2019engagement", 'tenue de livres'],
     priority: 'P2',
     content: `
       <p>Le choix de votre méthode comptable impacte la façon dont vous enregistrez vos revenus, payez vos impôts et évaluez votre santé financière. En France, les micro-entreprises utilisent la comptabilité de caisse, tandis que les sociétés commerciales sont tenues à la comptabilité d'engagement.</p>
