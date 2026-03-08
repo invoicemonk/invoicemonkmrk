@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Client Management Software | Organize Clients | Invoicemonk",
+    "description": "Manage client information, track payment history, and build better relationships. Included free with every Invoicemonk account."
+  },
+  "service": {
+    "name": "Invoicemonk Client Management",
+    "type": "Client Management Software",
+    "description": "Organize client profiles, track payment history, and manage communications — all integrated with your invoicing workflow."
+  },
+  "hero": {
+    "badge": "Included with Invoicing",
+    "title": "Client Management, <accent>simplified</accent>",
+    "subtitle": "Stop digging through spreadsheets for client details. Centralize contacts, track payment patterns, and invoice any client in one click — all built into your Invoicemonk workflow.",
+    "ctaPrimary": "Get Started Free",
+    "ctaSecondary": "View All Invoicing Features"
+  },
+  "mockup": {
+    "title": "Client Directory",
+    "count": "12 clients",
+    "invoicesLabel": "invoices",
+    "totalBilledLabel": "Total Billed",
+    "searchPlaceholder": "Quick search clients...",
+    "clients": [
+      { "name": "Acme Corporation", "invoices": 8, "total": 24500, "status": "Active" },
+      { "name": "Tech Startup Inc", "invoices": 3, "total": 8200, "status": "Active" },
+      { "name": "Design Studio Co", "invoices": 12, "total": 42800, "status": "Active" }
+    ]
+  },
+  "banner": {
+    "title": "Everything you need to manage clients",
+    "features": ["Unlimited clients", "Complete history", "Quick search", "Payment tracking"]
+  },
+  "features": {
+    "title": "Powerful <accent>features</accent>",
+    "subtitle": "Client management tools that integrate seamlessly with your invoicing workflow.",
+    "blocks": [
+      { "title": "Centralized Database", "description": "All client details, billing addresses, and preferences in one searchable place." },
+      { "title": "Invoice History at a Glance", "description": "See every invoice, payment, and outstanding balance per client instantly." },
+      { "title": "Payment Pattern Insights", "description": "Identify slow payers, track average payment times, and spot revenue trends." }
+    ]
+  },
+  "tabs": {
+    "title": "Know your clients inside and out",
+    "subtitle": "Profiles, communication history, and smart segmentation — all in one place.",
+    "items": [
+      { "label": "Client Profiles", "title": "Complete client profiles with every detail you need", "description": "Store contacts, billing addresses, tax IDs, payment preferences, and custom notes. Every profile links directly to invoices, estimates, and payment history — so you never have to search for information again." },
+      { "label": "Communication Log", "title": "Track every email, reminder, and follow-up", "description": "See a timeline of all communications per client — invoices sent, payment reminders, thank-you notes, and manual follow-ups. Know exactly when you last reached out and what was discussed." },
+      { "label": "Smart Segmentation", "title": "Tag and filter clients by what matters to you", "description": "Organize clients by status, revenue tier, industry, or payment behavior. Create custom tags like \"VIP\", \"Slow Payer\", or \"Retainer\" and filter your client list in one click for targeted actions." }
+    ]
+  },
+  "alternating": {
+    "title": "Invoice directly from client profiles",
+    "subtitle": "Your client data and invoicing tools, connected.",
+    "features": [
+      { "title": "One-click invoicing from any client profile", "description": "Open a client, click \"New Invoice\", and all their details auto-fill — billing address, tax ID, payment terms, and currency. No more copy-pasting." },
+      { "title": "Payment health dashboard per client", "description": "See each client's payment score at a glance: average days to pay, total outstanding, lifetime revenue, and overdue trends. Spot issues before they become problems." },
+      { "title": "Bulk actions for reminders and statements", "description": "Select multiple clients and send payment reminders, generate account statements, or export data in bulk. Save hours on month-end follow-ups." }
+    ]
+  },
+  "benefits": {
+    "title": "Why manage clients with <accent>Invoicemonk</accent>?",
+    "items": [
+      "Unlimited client profiles",
+      "Quick client lookup and search",
+      "Automatic invoice association",
+      "Payment history tracking",
+      "Custom notes and tags",
+      "Export client data anytime",
+      "Multiple contact persons per client",
+      "Client portal access",
+      "Automatic tax ID validation",
+      "Duplicate client detection",
+      "Client activity timeline",
+      "Statement generation"
+    ]
+  },
+  "testimonial": {
+    "quote": "Since switching to Invoicemonk, I spend 60% less time on admin. Having every client's history, invoices, and payment status in one place changed how I run my business.",
+    "name": "Sarah Okonkwo",
+    "title": "Independent Consultant",
+    "company": "Okonkwo Advisory"
+  },
+  "blog": {
+    "title": "Learn more about client management",
+    "subtitle": "Tips and strategies to build better client relationships."
+  },
+  "faq": {
+    "title": "Client management FAQ",
+    "subtitle": "Common questions about managing clients with Invoicemonk.",
+    "items": [
+      { "question": "Is client management included free?", "answer": "Yes, client management is included with every Invoicemonk account at no extra cost. You can store unlimited client profiles, track invoice history, and manage payment preferences." },
+      { "question": "Can I import my existing client list?", "answer": "Yes, you can import clients from CSV files or add them manually. All client data is organized automatically with invoice history and payment tracking." },
+      { "question": "How does client management integrate with invoicing?", "answer": "When you create an invoice, your client details auto-fill. Payment history, outstanding balances, and communication records are all linked to each client profile." },
+      { "question": "Can I track payment patterns per client?", "answer": "Absolutely. Each client profile shows their payment history, average payment time, and outstanding balance, helping you identify reliable payers and follow up with slow ones." },
+      { "question": "What import formats do you support?", "answer": "You can import client data from CSV, Excel (.xlsx), and vCard files. We also support direct imports from QuickBooks, FreshBooks, and other popular accounting tools." },
+      { "question": "Do clients get portal access?", "answer": "Yes, you can optionally invite clients to a self-service portal where they can view invoices, download receipts, and update their billing details — reducing back-and-forth emails." },
+      { "question": "Can I store multiple contacts per client?", "answer": "Absolutely. Each client profile supports multiple contact persons with different roles — billing contact, project manager, accounts payable — so you always reach the right person." }
+    ]
+  },
+  "cta": {
+    "title": "Start managing your clients <accent>today</accent>",
+    "subtitle": "Client management is included free with every Invoicemonk account. Sign up and organize your client relationships.",
+    "button": "Create Free Account"
+  }
+}
