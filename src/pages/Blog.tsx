@@ -24,6 +24,10 @@ import { pageSEO } from '@/components/seo/seoConfig';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { Grid3X3, List, Sparkles, Filter } from 'lucide-react';
 import { getTranslatedBlogPosts, getTranslatedPillars, getLangPrefix } from '@/utils/i18nData';
+import '@/data/pillars.de';
+import '@/data/pillars.fr';
+import '@/data/pillars.pt';
+import '@/data/pillars.es';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;

@@ -9,6 +9,10 @@ import { ArrowLeft, ArrowRight, FileText, Wallet, Calculator, Shield, User, Clip
 import { type Pillar } from '@/data/topicalMap';
 import { getPostsForPillar } from '@/data/blogPosts';
 import { getTranslatedPillars, getLangPrefix } from '@/utils/i18nData';
+import '@/data/pillars.de';
+import '@/data/pillars.fr';
+import '@/data/pillars.pt';
+import '@/data/pillars.es';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';

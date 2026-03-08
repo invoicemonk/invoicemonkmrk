@@ -1,24 +1,31 @@
 import { useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { GuideHero, ConceptGrid, ArticleList, GuideCTA, GuideFAQ, GuideCrossLink } from '@/components/guides';
-import { getPillarBySlug, getClusterPostsForPillar } from '@/data/topicalMap';
-import { blogPosts } from '@/data/blogPosts';
+import { getClusterPostsForPillar } from '@/data/topicalMap';
+import { getTranslatedPillars, getTranslatedBlogPosts, getLangPrefix } from '@/utils/i18nData';
+import '@/data/pillars.de';
+import '@/data/pillars.fr';
+import '@/data/pillars.pt';
+import '@/data/pillars.es';
 import NotFound from '@/pages/NotFound';
 
 export default function GettingPaidGuide() {
-  const pillar = getPillarBySlug('getting-paid');
+  const { i18n } = useTranslation();
+  const lang = getLangPrefix(i18n.language);
+  const pillars = getTranslatedPillars(lang);
+  const pillar = pillars.find(p => p.slug === 'getting-paid');
   
   const articles = useMemo(() => {
     if (!pillar) return [];
     const slugs = getClusterPostsForPillar(pillar.id);
+    const blogPosts = getTranslatedBlogPosts(lang);
     return blogPosts.filter(post => slugs.includes(post.slug));
-  }, [pillar]);
+  }, [pillar, lang]);
 
-  if (!pillar) {
-    return <NotFound />;
-  }
+  if (!pillar) return <NotFound />;
 
   const breadcrumbs = [
     { name: 'Home', url: '/' },
@@ -28,12 +35,8 @@ export default function GettingPaidGuide() {
 
   return (
     <Layout>
-      <SEOHead
-        title={`${pillar.title} Guide | Invoicemonk`}
-        description={pillar.longDescription}
-      />
+      <SEOHead title={`${pillar.title} Guide | Invoicemonk`} description={pillar.longDescription} />
       <BreadcrumbSchema items={breadcrumbs} />
-      
       <GuideHero pillar={pillar} />
       <ConceptGrid pillar={pillar} />
       <GuideCrossLink pillar={pillar} />
