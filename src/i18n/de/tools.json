@@ -1,0 +1,237 @@
+{
+  "calculator": {
+    "amountToSend": "Betrag senden",
+    "sendingCurrency": "Sendewährung",
+    "receivingCurrency": "Empfangswährung",
+    "senderCountry": "Absenderland",
+    "receiverCountry": "Empfängerland",
+    "calculateFees": "Gebühren berechnen",
+    "bestValue": "Bestes Angebot",
+    "netReceived": "Geschätzter Nettobetrag",
+    "fees": "Gebühren",
+    "fxSpread": "Wechselkursspanne",
+    "speed": "Geschwindigkeit",
+    "none": "Keine",
+    "createInvoice": "Rechnung erstellen",
+    "createFreeInvoice": "Kostenlose Rechnung erstellen",
+    "openFreeAccount": "Kostenloses Konto eröffnen",
+    "disclaimer": "Diese Schätzungen basieren auf durchschnittlichen öffentlichen Gebührendaten. Die tatsächlichen Kosten hängen von Anbieterpreisen und Zeitpunkt ab. Die endgültigen Kosten werden in Ihrem Invoicemonk-Konto berechnet.",
+    "midMarketRate": "Mittelkurs",
+    "table": {
+      "method": "Methode",
+      "estFees": "Geschätzte Gebühren",
+      "fxSpread": "Wechselkursspanne",
+      "speed": "Geschwindigkeit",
+      "netReceived": "Nettobetrag",
+      "bestFor": "Am besten für"
+    }
+  },
+  "feeCalculator": {
+    "seo": {
+      "title": "Internationaler Zahlungsgebühren-Rechner 2026 | Wise vs PayPal vs Banküberweisung",
+      "description": "Vergleichen Sie internationale Zahlungsgebühren bei Wise, PayPal, SWIFT und Kartenanbietern. Sehen Sie genau, wie viel Sie nach Gebühren erhalten — kostenloser Rechner, aktualisiert 2026."
+    },
+    "hero": {
+      "title": "Internationaler Zahlungsgebühren-Rechner",
+      "subtitle": "Wie viel werden Sie <strong>tatsächlich erhalten</strong> nach Gebühren und Wechselkursaufschlägen? Vergleichen Sie Kosten verschiedener Zahlungsmethoden sofort."
+    },
+    "article": {
+      "understandingTitle": "Internationale Zahlungsgebühren verstehen",
+      "understandingP1": "Wenn Sie eine internationale Zahlung erhalten, ist der Betrag auf Ihrem Konto selten der volle gesendete Betrag. Gebühren, Wechselkursspreads und Vermittlergebühren können Ihre Einnahmen schmälern — manchmal um bis zu 5–8% des Gesamtbetrags.",
+      "understandingP2": "Für Freiberufler, Auftragnehmer und kleine Unternehmen, die auf grenzüberschreitende Einkommen angewiesen sind, ist das Verständnis dieser Kosten unerlässlich. Jeder Prozentpunkt zählt beim Aufbau eines nachhaltigen Unternehmens.",
+      "howFeesWorkTitle": "Wie internationale Zahlungsgebühren funktionieren",
+      "howFeesWorkIntro": "Internationale Zahlungskosten kommen typischerweise aus drei Quellen:",
+      "transactionFees": "<strong>Transaktionsgebühren</strong> — Eine Pauschalgebühr oder ein Prozentsatz, den der Zahlungsanbieter für die Abwicklung berechnet.",
+      "fxSpreadFees": "<strong>Wechselkursaufschlag (FX-Spread)</strong> — Die Differenz zwischen dem Mittelkurs und dem Kurs, den Sie tatsächlich erhalten. Dies ist oft der größte versteckte Kostenfaktor.",
+      "intermediaryFees": "<strong>Vermittlerbankgebühren</strong> — Bei SWIFT-Überweisungen können Korrespondenzbanken unterwegs Gebühren abziehen.",
+      "comparingTitle": "Zahlungsmethoden im Vergleich",
+      "wiseTitle": "Wise",
+      "wiseP": "Wise (ehemals TransferWise) ist bekannt für transparente Preisgestaltung. Es berechnet eine kleine Prozentgebühr — typischerweise ca. 0,6% — und rechnet zum Mittelkurs ohne Aufschlag um. Damit ist es die günstigste Option für die meisten internationalen Überweisungen.",
+      "paypalTitle": "PayPal",
+      "paypalP": "PayPal ist weit verbreitet und bequem, aber eine der teuersten Möglichkeiten, internationale Zahlungen zu empfangen. Grenzüberschreitende Gebühren können 4,49% plus eine Pauschalgebühr erreichen, und PayPals Wechselkurs enthält zusätzlich einen 3–4% Aufschlag.",
+      "bankTitle": "Banküberweisung (SWIFT)",
+      "bankP": "Traditionelle Banküberweisungen sind zuverlässig für große Beträge, kommen aber mit Pauschalgebühren (25–50 $), langsamer Abwicklung (3–5 Werktage) und Wechselkursaufschlägen von 2–4%. Vermittlerbanken können zusätzliche Gebühren abziehen.",
+      "cardTitle": "Kartenzahlungen",
+      "cardP": "Die Annahme von Kartenzahlungen über Anbieter wie Stripe oder Square ist schnell und bequem für Online-Rechnungsstellung. Gebühren liegen typischerweise bei ca. 2,9% + einem festen Betrag, mit 1–2% FX-Spread für internationale Transaktionen.",
+      "tipsTitle": "Tipps zur Reduzierung internationaler Zahlungskosten",
+      "tip1": "<strong>Rechnungen in der Währung des Absenders stellen</strong> — Lassen Sie den Absender in seiner Landeswährung bezahlen und nutzen Sie einen Anbieter mit niedrigem FX-Spread.",
+      "tip2": "<strong>Kleinere Zahlungen bündeln</strong> — Einige Anbieter haben Mindestgebühren, daher kann die Zusammenlegung von Zahlungen die Kosten pro Transaktion senken.",
+      "tip3": "<strong>Die richtige Methode pro Kunde wählen</strong> — Hochwertige Kunden rechtfertigen möglicherweise Banküberweisungen, während häufige kleine Zahlungen besser mit Wise funktionieren.",
+      "tip4": "<strong>Multi-Währungs-Rechnungsstellung nutzen</strong> — Mit <a href=\"__LANG__/invoicing\">Invoicemonks Rechnungstools</a> können Sie Rechnungen in mehreren Währungen ausstellen und Kunden die beste Zahlungsmethode wählen lassen.",
+      "smarterTitle": "Klügere internationale Zahlungsentscheidungen treffen",
+      "smarterP": "Bevor Sie Ihre nächste Rechnung erstellen, nutzen Sie diesen Rechner, um die tatsächlichen Kosten jeder Zahlungsmethode zu verstehen. Erstellen Sie dann eine professionelle Rechnung mit <a href=\"__LANG__/free-invoice-generator\">Invoicemonks kostenlosem Rechnungsgenerator</a>, optimiert für Ihre gewählte Methode."
+    },
+    "faqs": [
+      {
+        "question": "Wie genau ist dieser internationale Zahlungsgebühren-Rechner?",
+        "answer": "Dieser Rechner liefert Schätzungen basierend auf öffentlich verfügbaren durchschnittlichen Gebührenstrukturen. Die tatsächlichen Gebühren hängen von Anbieterpreisen, Überweisungsbetrag und Zeitpunkt ab. Bestätigen Sie immer die endgültigen Kosten bei Ihrem gewählten Anbieter."
+      },
+      {
+        "question": "Was ist ein FX-Spread und warum ist er wichtig?",
+        "answer": "Ein FX-Spread (Devisenkursspanne) ist die Differenz zwischen dem Mittelkurs und dem Kurs, den ein Anbieter Ihnen tatsächlich bietet. Ein höherer Spread bedeutet, dass Sie weniger Geld erhalten. Einige Anbieter wie Wise nutzen den Mittelkurs ohne Spread, während andere wie PayPal einen 3–4% Aufschlag berechnen."
+      },
+      {
+        "question": "Was ist der günstigste Weg, internationale Zahlungen zu empfangen?",
+        "answer": "Für die meisten Korridore bietet Wise die niedrigsten Gesamtkosten, da es eine kleine transparente Gebühr ohne FX-Spread berechnet. Banküberweisungen können bei sehr großen Beträgen günstiger sein, während PayPal aufgrund hoher Gebühren und FX-Aufschläge am teuersten ist."
+      },
+      {
+        "question": "Wie lange dauern internationale Zahlungen?",
+        "answer": "Kartenzahlungen und PayPal sind typischerweise sofort verfügbar. Wise-Überweisungen dauern 1–2 Werktage. Traditionelle Bank-(SWIFT-)Überweisungen dauern 3–5 Werktage und manchmal länger für weniger gängige Korridore."
+      },
+      {
+        "question": "Kann ich dieses Tool für geschäftliche Rechnungsstellung nutzen?",
+        "answer": "Ja. Dieses Tool hilft Ihnen, die tatsächlichen Kosten des Zahlungsempfangs zu verstehen, bevor Sie eine Rechnung erstellen. Mit Invoicemonk können Sie Multi-Währungs-Rechnungen ausstellen und die optimale Zahlungsmethode für jeden Kunden wählen."
+      }
+    ],
+    "faqTitle": "Häufig gestellte Fragen",
+    "relatedResources": "Verwandte Ressourcen",
+    "relatedLinks": {
+      "paypalVsWise": "PayPal vs Wise: Gebührenvergleich →",
+      "cheapest": "Günstigste Methode für internationale Zahlungen →",
+      "feesExplained": "Internationale Zahlungsgebühren erklärt →",
+      "payments": "Invoicemonk Zahlungsabwicklung →"
+    },
+    "cta": {
+      "title": "Bereit für internationale Rechnungsstellung?",
+      "subtitle": "Erstellen Sie Multi-Währungs-Rechnungen und werden Sie schneller bezahlt mit Invoicemonk.",
+      "button": "Kostenlos starten"
+    }
+  },
+  "cheapest": {
+    "seo": {
+      "title": "Günstigste internationale Zahlungsmethoden für Rechnungen (2026) | Nach Gesamtkosten sortiert",
+      "description": "Was ist die günstigste Methode für internationale Rechnungszahlungen? Wise vs PayPal vs SWIFT vs Karte — nach Gesamtkosten sortiert mit Echtzeit-Gebührenrechner. Aktualisiert Februar 2026."
+    },
+    "hero": {
+      "title": "Die günstigste Methode für internationale Zahlungen",
+      "subtitle": "Verlieren Sie kein Geld mehr durch versteckte Gebühren. Finden Sie die kosteneffektivste Methode für Ihren spezifischen Korridor und Betrag."
+    },
+    "article": {
+      "rankedTitle": "Zahlungsmethoden nach Kosten sortiert (günstigste zuerst)",
+      "wiseTitle": "1. Wise — Bestes Preis-Leistungs-Verhältnis",
+      "wiseP1": "Wise bietet durchgehend die niedrigsten Gesamtkosten für internationale Zahlungen. Mit einer ca. 0,6% Gebühr und dem Mittelkurs gibt es keinen versteckten FX-Spread. Bei einer 1.000 $-Überweisung zahlen Sie ungefähr 6 $ an Gebühren und erhalten den vollen Marktkurs.",
+      "wiseBestFor": "<strong>Am besten für:</strong> Freiberufler, Auftragnehmer und Unternehmen, die regelmäßig internationale Zahlungen empfangen.",
+      "cardTitle": "2. Kartenzahlungen — Gut für Online-Rechnungsstellung",
+      "cardP1": "Die Annahme von Kartenzahlungen über Anbieter wie Stripe kostet ca. 2,9% + 0,30 $ pro Transaktion, plus 1–2% FX-Spread für internationale Karten. Teurer als Wise, aber sofortige Verarbeitung und ein reibungsloses Kundenerlebnis.",
+      "cardBestFor": "<strong>Am besten für:</strong> Online-Rechnungsstellung, E-Commerce, Kunden die per Karte zahlen möchten.",
+      "bankTitle": "3. Banküberweisung (SWIFT) — Am besten für große Beträge",
+      "bankP1": "Banküberweisungen haben Pauschalgebühren (25–50 $) plus 2–4% Wechselkursaufschlag. Bei kleinen Beträgen macht die Pauschalgebühr dies teuer. Aber bei Überweisungen über 10.000 $ wird der prozentuale Kostenanteil wettbewerbsfähig.",
+      "bankBestFor": "<strong>Am besten für:</strong> Große Einzelzahlungen, etablierte Geschäftsbeziehungen.",
+      "paypalTitle": "4. PayPal — Am bequemsten, am teuersten",
+      "paypalP1": "PayPal ist für viele Kunden die einfachste Option, berechnet aber 4,49% plus eine Pauschalgebühr und fügt einen 3–4% Wechselkurs-Spread hinzu. Bei einer 1.000 $-Zahlung können die Gesamtkosten 80 $ übersteigen.",
+      "paypalBestFor": "<strong>Am besten für:</strong> Kunden die auf PayPal bestehen, kleine Einzelzahlungen wo Bequemlichkeit wichtiger ist als Kosten.",
+      "tipsTitle": "5 Tipps zur Reduzierung internationaler Zahlungsgebühren",
+      "tip1": "<strong>Vergleichen Sie vor der Rechnungsstellung.</strong> Nutzen Sie den obigen Rechner, um echte Kostenunterschiede zu sehen, bevor Sie eine Zahlungsmethode wählen.",
+      "tip2": "<strong>Stellen Sie Rechnungen in der Kundenwährung aus.</strong> Lassen Sie den Absender in seiner Landeswährung bezahlen — Sie kontrollieren die Umrechnung.",
+      "tip3": "<strong>Vermeiden Sie doppelte Umrechnung.</strong> Wenn beide Parteien Wise-Konten haben, überweisen Sie direkt ohne Umweg über mehrere Währungen.",
+      "tip4": "<strong>Bündeln Sie kleinere Zahlungen.</strong> Fassen Sie wöchentliche Rechnungen zu monatlichen zusammen, um die Pauschalgebühren pro Transaktion zu reduzieren.",
+      "tip5": "<strong>Nutzen Sie <a href=\"__LANG__/invoicing\">Multi-Währungs-Rechnungsstellung</a></strong>, um Kunden die Flexibilität zu bieten, in ihrer bevorzugten Währung zu bezahlen.",
+      "corridorsTitle": "Länderspezifische Korridore",
+      "corridorsIntro": "Die Kosten variieren erheblich je nach Korridor. Erkunden Sie spezifische Routen:",
+      "corridorLinks": {
+        "usdNigeria": "USD in Nigeria empfangen →",
+        "gbpNigeria": "GBP in Nigeria empfangen →",
+        "usdUk": "USD im Vereinigten Königreich empfangen →",
+        "eurUk": "EUR im Vereinigten Königreich empfangen →",
+        "usdCanada": "USD in Kanada empfangen →",
+        "usdAustralia": "USD in Australien empfangen →"
+      },
+      "knowCostsTitle": "Kennen Sie Ihre Kosten vor der Rechnungsstellung",
+      "knowCostsP": "Der beste Zeitpunkt zur Optimierung der Zahlungskosten ist <em>vor</em> dem Versand der Rechnung. Mit <a href=\"__LANG__/free-invoice-generator\">Invoicemonks kostenlosem Rechnungsgenerator</a> können Sie professionelle Multi-Währungs-Rechnungen erstellen und die optimale Zahlungsmethode für jeden Kunden angeben."
+    },
+    "faqs": [
+      {
+        "question": "Was ist die günstigste Methode, internationale Zahlungen zu empfangen?",
+        "answer": "Für die meisten Freiberufler und kleinen Unternehmen bietet Wise die niedrigsten Gesamtkosten. Es berechnet ca. 0,6% mit dem Mittelkurs und ohne FX-Spread. Bei sehr großen Überweisungen kann eine Banküberweisung wettbewerbsfähig sein, wenn die Pauschalgebühr im Verhältnis zum Betrag gering ist."
+      },
+      {
+        "question": "Wie kann ich hohe Wechselkursgebühren vermeiden?",
+        "answer": "Nutzen Sie einen Anbieter, der den Mittelkurs anbietet (wie Wise). Vermeiden Sie Anbieter mit versteckten FX-Spreads — hier verstecken sich die meisten Kosten. Erwägen Sie auch, Rechnungen in der Landeswährung des Absenders zu stellen."
+      },
+      {
+        "question": "Ist PayPal die günstigste Option für kleine Beträge?",
+        "answer": "Nein. PayPals hohe prozentuale Gebühr (4,49%) und der Wechselkursaufschlag (3–4%) machen es zu einer der teuersten Optionen bei jedem Betrag. Wise ist selbst für kleine Überweisungen günstiger."
+      },
+      {
+        "question": "Sollte ich in meiner Währung oder der des Kunden fakturieren?",
+        "answer": "Die Rechnungsstellung in der Landeswährung des Kunden führt oft zu schnelleren Zahlungen und besserer Kundenerfahrung. Nutzen Sie einen Anbieter mit niedrigem Spread wie Wise für die Währungsumrechnung auf Ihrer Seite."
+      }
+    ],
+    "faqTitle": "Häufig gestellte Fragen",
+    "relatedResources": "Verwandte Ressourcen",
+    "relatedLinks": {
+      "feeCalculator": "Internationaler Zahlungsgebühren-Rechner →",
+      "paypalVsWise": "PayPal vs Wise Gebührenvergleich →",
+      "feesExplained": "Internationale Zahlungsgebühren erklärt →"
+    },
+    "cta": "Kostenlos starten mit Invoicemonk"
+  },
+  "paypalVsWise": {
+    "seo": {
+      "title": "Wise vs PayPal Gebühren für internationale Überweisungen (2026) — Was spart mehr?",
+      "description": "Wise vs PayPal Gebühren im direkten Vergleich für internationale Rechnungszahlungen. Echte Kostenaufschlüsselungen für 500 $, 1.000 $ und 5.000 $ Überweisungen. Sehen Sie, wer 2026 gewinnt."
+    },
+    "hero": {
+      "title": "PayPal vs Wise: Gebührenvergleich",
+      "subtitle": "Welcher Service kostet Sie weniger beim Empfang internationaler Zahlungen? Vergleichen Sie Gebühren, Wechselkurse und Geschwindigkeit nebeneinander."
+    },
+    "comparisonTitle": "Feature-für-Feature-Vergleich",
+    "comparisonHeaders": {
+      "feature": "Feature",
+      "wise": "Wise",
+      "paypal": "PayPal"
+    },
+    "features": [
+      { "feature": "Niedrige Überweisungsgebühren", "wise": true, "paypal": false },
+      { "feature": "Mittelkurs-Wechselkurs", "wise": true, "paypal": false },
+      { "feature": "Sofortige Überweisungen", "wise": false, "paypal": true },
+      { "feature": "Weit verbreitet bei Kunden", "wise": false, "paypal": true },
+      { "feature": "Transparente Gebührenaufschlüsselung", "wise": true, "paypal": false },
+      { "feature": "Multi-Währungs-Konten", "wise": true, "paypal": true },
+      { "feature": "Geschäftsrechnungs-Integration", "wise": false, "paypal": true },
+      { "feature": "Niedriger FX-Spread", "wise": true, "paypal": false }
+    ],
+    "article": {
+      "whichTitle": "PayPal vs Wise: Was sollten Freiberufler nutzen?",
+      "whichP": "Sowohl PayPal als auch Wise sind bei Freiberuflern und kleinen Unternehmen beliebt für den Empfang internationaler Zahlungen. Aber sie dienen unterschiedlichen Bedürfnissen.",
+      "whenWiseTitle": "Wann Sie Wise nutzen sollten",
+      "whenWiseP1": "Wise ist die bessere Wahl, wenn Kosten wichtig sind. Bei einer typischen 1.000 $-Zahlung von einem US-Kunden an einen nigerianischen Freiberufler spart Wise ca. 70–80 $ im Vergleich zu PayPal. Wise nutzt den echten Mittelkurs und berechnet eine kleine, transparente Gebühr — normalerweise ca. 0,6%.",
+      "whenWiseP2": "Wise ist ideal für regelmäßiges Freiberufler-Einkommen, Auftragnehmerzahlungen und jede Situation, in der Sie das Maximum erhalten möchten.",
+      "whenPaypalTitle": "Wann Sie PayPal nutzen sollten",
+      "whenPaypalP1": "PayPal bleibt nützlich, wenn Kunden es ausdrücklich wünschen oder wenn Geschwindigkeit entscheidend ist. PayPal-Zahlungen kommen fast sofort an, während Wise 1–2 Werktage braucht. PayPal ist auch bekannter, was das Onboarding neuer Kunden erleichtern kann.",
+      "whenPaypalP2": "Allerdings machen PayPals Gesamtkosten — einschließlich der ca. 4,49% Transaktionsgebühr und 3–4% Wechselkurs-Spread — es zu einer der teuersten Optionen für internationale Zahlungen.",
+      "useCaseTitle": "Anwendungsfälle",
+      "useCase1": "<strong>Freiberufler mit regelmäßigen Zahlungen:</strong> Wise — niedrigere Gebühren summieren sich zu erheblichen Einsparungen.",
+      "useCase2": "<strong>Einmalige Kundenzahlung:</strong> PayPal — Bequemlichkeit überwiegt die Kosten bei einer einzelnen Transaktion.",
+      "useCase3": "<strong>Kleines Unternehmen mit mehreren internationalen Kunden:</strong> Beide — bieten Sie Wise als Standard und PayPal als Ausweichoption an.",
+      "optimizeTitle": "Optimieren Sie Ihre Zahlungsstrategie mit Invoicemonk",
+      "optimizeP": "Mit <a href=\"__LANG__/invoicing\">Invoicemonk</a> können Sie Multi-Währungs-Rechnungen ausstellen und verschiedene Zahlungsmethoden für verschiedene Kunden angeben. Kennen Sie Ihre Kosten vor der Rechnungsstellung und treffen Sie klügere internationale Zahlungsentscheidungen."
+    },
+    "faqs": [
+      {
+        "question": "Ist Wise günstiger als PayPal für internationale Zahlungen?",
+        "answer": "In den meisten Fällen ja. Wise berechnet ca. 0,6% mit dem Mittelkurs (kein FX-Spread), während PayPal 4,49% plus eine Pauschalgebühr berechnet und einen 3–4% Wechselkursaufschlag hinzufügt. Bei einer 1.000 $-Überweisung spart Wise typischerweise 70–80 $ im Vergleich zu PayPal."
+      },
+      {
+        "question": "Ist PayPal schneller als Wise?",
+        "answer": "PayPal-Überweisungen sind typischerweise sofort verfügbar, während Wise 1–2 Werktage braucht. Wenn Geschwindigkeit Ihre höchste Priorität ist und Kosten sekundär, hat PayPal die Nase vorn."
+      },
+      {
+        "question": "Kann ich sowohl Wise als auch PayPal für mein Freiberufler-Geschäft nutzen?",
+        "answer": "Absolut. Viele Freiberufler bieten PayPal für Kunden an, die es bevorzugen, und Wise für Kunden, die einer kostengünstigeren Methode offen gegenüberstehen. Mit Invoicemonk können Sie verschiedene Zahlungsmethoden auf verschiedenen Rechnungen angeben."
+      },
+      {
+        "question": "Unterstützt Wise alle Währungen?",
+        "answer": "Wise unterstützt über 50 Währungen mit lokalen Bankdaten in wichtigen Währungen wie USD, GBP, EUR und AUD. PayPal unterstützt über 25 Währungen, aber mit weniger günstigen Wechselkursen."
+      }
+    ],
+    "faqTitle": "Häufig gestellte Fragen",
+    "relatedResources": "Verwandte Ressourcen",
+    "relatedLinks": {
+      "feeCalculator": "Internationaler Zahlungsgebühren-Rechner →",
+      "cheapest": "Günstigste Methode für internationale Zahlungen →",
+      "feesExplained": "Internationale Zahlungsgebühren erklärt →"
+    },
+    "cta": "Kostenlos starten mit Invoicemonk"
+  }
+}

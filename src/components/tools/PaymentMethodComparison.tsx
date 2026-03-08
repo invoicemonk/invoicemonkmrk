@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { CalculationResult, currencies } from '@/config/paymentFeeModels';
 import { Badge } from '@/components/ui/badge';
 
@@ -17,6 +18,8 @@ function formatCurrency(amount: number, currencyCode: string) {
 }
 
 export function PaymentMethodComparison({ results, receiveCurrency }: PaymentMethodComparisonProps) {
+  const { t } = useTranslation('tools');
+
   if (results.length === 0) return null;
 
   return (
@@ -24,12 +27,12 @@ export function PaymentMethodComparison({ results, receiveCurrency }: PaymentMet
       <table className="w-full text-left border-collapse min-w-[600px]">
         <thead>
           <tr className="border-b border-border">
-            <th className="py-3 px-4 text-sm font-semibold text-foreground">Method</th>
-            <th className="py-3 px-4 text-sm font-semibold text-foreground">Est. Fees</th>
-            <th className="py-3 px-4 text-sm font-semibold text-foreground hidden sm:table-cell">FX Spread</th>
-            <th className="py-3 px-4 text-sm font-semibold text-foreground hidden md:table-cell">Speed</th>
-            <th className="py-3 px-4 text-sm font-semibold text-foreground">Net Received</th>
-            <th className="py-3 px-4 text-sm font-semibold text-foreground hidden lg:table-cell">Best For</th>
+            <th className="py-3 px-4 text-sm font-semibold text-foreground">{t('calculator.table.method')}</th>
+            <th className="py-3 px-4 text-sm font-semibold text-foreground">{t('calculator.table.estFees')}</th>
+            <th className="py-3 px-4 text-sm font-semibold text-foreground hidden sm:table-cell">{t('calculator.table.fxSpread')}</th>
+            <th className="py-3 px-4 text-sm font-semibold text-foreground hidden md:table-cell">{t('calculator.table.speed')}</th>
+            <th className="py-3 px-4 text-sm font-semibold text-foreground">{t('calculator.table.netReceived')}</th>
+            <th className="py-3 px-4 text-sm font-semibold text-foreground hidden lg:table-cell">{t('calculator.table.bestFor')}</th>
           </tr>
         </thead>
         <tbody>
@@ -58,7 +61,7 @@ export function PaymentMethodComparison({ results, receiveCurrency }: PaymentMet
               <td className="py-4 px-4 text-sm text-muted-foreground hidden sm:table-cell">
                 {result.method.estimatedFxSpreadPercent > 0
                   ? `~${result.method.estimatedFxSpreadPercent}%`
-                  : 'Mid-market rate'}
+                  : t('calculator.midMarketRate')}
               </td>
               <td className="py-4 px-4 text-sm text-muted-foreground hidden md:table-cell">
                 {result.method.processingTime}

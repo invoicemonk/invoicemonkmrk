@@ -1,15 +1,10 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Compass, Star, BarChart3 } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-
-const exploreFAQs = [
-  { question: 'What topics can I explore?', answer: 'Our knowledge base covers invoicing, getting paid, business finances, tax compliance, freelancing, and proposals & estimates. Each topic has comprehensive guides and related articles.' },
-  { question: 'Can I leave a review?', answer: 'Yes! Visit the Reviews tab to share your experience with Invoicemonk. Your feedback helps other business owners make informed decisions.' },
-  { question: 'How is content organized?', answer: 'Content is organized into topic clusters following a pillar-and-spoke model. Each pillar topic has related supporting articles that go deeper into specific aspects.' },
-];
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import TopicExplorer from '@/components/explore/TopicExplorer';
 import ReviewDisplay, { sampleReviews } from '@/components/reviews/ReviewDisplay';
@@ -18,16 +13,17 @@ import AnalyticsDashboard from '@/components/analytics/AnalyticsDashboard';
 
 function Explore() {
   const [activeTab, setActiveTab] = useState('topics');
+  const { t } = useTranslation('explore');
+  const faqs = t('faqs', { returnObjects: true }) as { question: string; answer: string }[];
 
   return (
     <Layout>
-      <FAQSchema items={exploreFAQs} />
+      <FAQSchema items={faqs} />
       <SEOHead
-        title="Explore Topics & Reviews | Invoicemonk"
-        description="Explore our comprehensive topic guides, read customer reviews, and track your learning progress. Master invoicing, payments, and business finance."
+        title={t('seo.title')}
+        description={t('seo.description')}
       />
 
-      {/* Hero */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-muted/30 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -37,32 +33,30 @@ function Explore() {
             className="max-w-3xl mx-auto text-center"
           >
             <h1 className="text-display-sm lg:text-display-md font-bold text-foreground mb-4">
-              Explore & Learn
+              {t('hero.title')}
             </h1>
             <p className="text-body-lg text-muted-foreground">
-              Navigate our comprehensive knowledge base, see what others are saying, 
-              and track your learning journey.
+              {t('hero.subtitle')}
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Main Content */}
       <section className="pb-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="w-full max-w-md mx-auto grid grid-cols-3 mb-8">
               <TabsTrigger value="topics" className="flex items-center gap-2">
                 <Compass className="h-4 w-4" />
-                <span className="hidden sm:inline">Topics</span>
+                <span className="hidden sm:inline">{t('tabs.topics')}</span>
               </TabsTrigger>
               <TabsTrigger value="reviews" className="flex items-center gap-2">
                 <Star className="h-4 w-4" />
-                <span className="hidden sm:inline">Reviews</span>
+                <span className="hidden sm:inline">{t('tabs.reviews')}</span>
               </TabsTrigger>
               <TabsTrigger value="analytics" className="flex items-center gap-2">
                 <BarChart3 className="h-4 w-4" />
-                <span className="hidden sm:inline">My Progress</span>
+                <span className="hidden sm:inline">{t('tabs.analytics')}</span>
               </TabsTrigger>
             </TabsList>
 
@@ -74,7 +68,7 @@ function Explore() {
               <div className="max-w-6xl mx-auto">
                 <div className="grid lg:grid-cols-3 gap-8">
                   <div className="lg:col-span-2">
-                    <h2 className="text-2xl font-bold mb-6">Customer Reviews</h2>
+                    <h2 className="text-2xl font-bold mb-6">{t('reviews.title')}</h2>
                     <ReviewDisplay reviews={sampleReviews} layout="list" />
                   </div>
                   <div>

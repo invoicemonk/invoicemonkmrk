@@ -1,97 +1,50 @@
 
 
-# Translate 4 Remaining English-Only Pages
+# Translation Plan for All Untranslated Content Sections
 
-## Scope
+## Content Inventory
 
-4 page components + 2 shared tool sub-components, all currently hardcoded English:
+| Section | Items | Languages (de/fr/pt/es) | Total translations |
+|---|---|---|---|
+| Blog posts (main) | ~50 posts | × 4 | 200 |
+| Blog posts (country compliance) | 43 posts | × 4 | 172 |
+| Help center guides | 16 guides | × 4 | 64 |
+| Glossary terms | ~35 terms | × 4 | 140 |
+| Guide detail pages (pillar hubs) | 8 pages | × 4 | 32 |
+| Topic pages (pillar listing) | 1 index + 8 pillars | × 4 | 36 |
+| Author pages | 3 authors | × 4 | 12 |
+| Corridor pages | 9 corridors | × 4 | 36 |
+| Legal pages | 4 pages (Privacy, Terms, Cookie, SLA) | × 4 | 16 |
+| Blog listing page (UI strings) | 1 page | × 4 | 4 |
+| **Total** | | | **~712** |
 
-| Page | Strings | Sub-components |
-|---|---|---|
-| `Explore.tsx` | Hero, tabs, headings, FAQs, SEO | TopicExplorer, ReviewForm, ReviewDisplay, AnalyticsDashboard |
-| `InternationalPaymentFeeCalculator.tsx` | Hero, full article, FAQs, CTAs, SEO | PaymentFeeCalculator, PaymentMethodComparison |
-| `CheapestInternationalPayments.tsx` | Hero, full article, FAQs, CTAs, SEO | PaymentFeeCalculator |
-| `PaypalVsWiseFees.tsx` | Hero, article, comparison table features, FAQs, SEO | PaymentFeeCalculator |
+## Current Status
 
-`PaymentFeeCalculator` and `PaymentMethodComparison` are shared across all 3 tool pages and contain ~20 hardcoded labels ("Amount to Send", "Calculate Fees", "Estimated net received", "Best Value", "Create invoice", etc.).
+### ✅ Batch 1: Infrastructure (COMPLETE)
+- `src/utils/i18nData.ts` — registry-based helper with English fallback
+- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
+- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
+- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
+- `src/i18n/index.ts` — registered blog, help, glossary namespaces
+- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
 
-## Approach
+### ✅ Batch 1b: Legal Page Translations (COMPLETE)
 
-Use i18next JSON namespaces (consistent with rest of project). Create 2 new namespaces:
+### ✅ Batch 2: Help Center (COMPLETE)
 
-- **`tools.json`** -- covers all 3 tool pages + shared calculator/comparison components
-- **`explore.json`** -- covers the Explore page
+### ✅ Batch 3: Glossary Terms (COMPLETE)
 
-### New files (10 total)
-- `src/i18n/{en,de,fr,es,pt-BR}/tools.json`
-- `src/i18n/{en,de,fr,es,pt-BR}/explore.json`
+### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
 
-### Component edits (7 files)
-1. **`PaymentFeeCalculator.tsx`** -- `useTranslation('tools')` for all labels (amount, currency, calculate, results, disclaimer, CTAs)
-2. **`PaymentMethodComparison.tsx`** -- `useTranslation('tools')` for table headers (Method, Est. Fees, FX Spread, Speed, Net Received, Best For)
-3. **`InternationalPaymentFeeCalculator.tsx`** -- `useTranslation('tools')` for SEO, hero, article prose, FAQs, related links, CTA
-4. **`CheapestInternationalPayments.tsx`** -- same pattern, different content keys
-5. **`PaypalVsWiseFees.tsx`** -- same pattern + comparison features array from `t('paypalVsWise.features', { returnObjects: true })`
-6. **`Explore.tsx`** -- `useTranslation('explore')` for hero, tabs, headings, FAQs, SEO
-7. **`i18n` config** -- register the 2 new namespaces
+### ✅ Batch 5: Corridor Pages (COMPLETE)
 
-### Sub-component scope for Explore
+### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
 
-TopicExplorer, ReviewForm, ReviewDisplay, and AnalyticsDashboard are internal utility components with many hardcoded strings. These will also use `useTranslation('explore')` for their UI labels (form fields, button text, stat labels, etc.).
+### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
 
-## Key structure (tools.json example)
+### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
 
-```json
-{
-  "calculator": {
-    "amountToSend": "Amount to Send",
-    "sendingCurrency": "Sending Currency",
-    "receivingCurrency": "Receiving Currency",
-    "senderCountry": "Sender Country",
-    "receiverCountry": "Receiver Country",
-    "calculateFees": "Calculate Fees",
-    "bestValue": "Best Value",
-    "netReceived": "Estimated net received",
-    "fees": "Fees",
-    "fxSpread": "FX spread",
-    "speed": "Speed",
-    "none": "None",
-    "createInvoice": "Create invoice",
-    "createFreeInvoice": "Create a Free Invoice",
-    "openFreeAccount": "Open a Free Account",
-    "disclaimer": "These estimates are based on...",
-    "table": {
-      "method": "Method",
-      "estFees": "Est. Fees",
-      "fxSpread": "FX Spread",
-      "speed": "Speed",
-      "netReceived": "Net Received",
-      "bestFor": "Best For"
-    }
-  },
-  "feeCalculator": {
-    "seo": { "title": "...", "description": "..." },
-    "hero": { "title": "...", "subtitle": "..." },
-    "article": { ... },
-    "faqs": [ ... ],
-    "relatedResources": "Related Resources",
-    "faqTitle": "Frequently Asked Questions",
-    "cta": { "title": "...", "subtitle": "...", "button": "..." }
-  },
-  "cheapest": { ... },
-  "paypalVsWise": {
-    "features": [ { "feature": "Low transfer fees", "wise": true, "paypal": false } ],
-    ...
-  }
-}
-```
-
-## Implementation order
-
-1. Create `tools.json` for all 5 languages with calculator + 3 page sections
-2. Create `explore.json` for all 5 languages
-3. Register namespaces in i18n config
-4. Update `PaymentFeeCalculator.tsx` and `PaymentMethodComparison.tsx`
-5. Update the 3 tool page components
-6. Update `Explore.tsx` and its sub-components (TopicExplorer, ReviewForm, ReviewDisplay, AnalyticsDashboard)
-
+### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
+- SEOHead already outputs hreflang for all 5 languages on every page
+- Updated sitemap generator to include country compliance posts and glossary terms
+- No 'enOnly' restrictions found — all content sections are fully multilingual

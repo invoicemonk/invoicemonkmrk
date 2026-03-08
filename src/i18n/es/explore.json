@@ -1,0 +1,93 @@
+{
+  "seo": {
+    "title": "Explorar temas y reseñas | Invoicemonk",
+    "description": "Explora nuestras guías temáticas completas, lee reseñas de clientes y rastrea tu progreso de aprendizaje. Domina la facturación, pagos y finanzas empresariales."
+  },
+  "hero": {
+    "title": "Explorar y aprender",
+    "subtitle": "Navega por nuestra completa base de conocimientos, mira lo que otros dicen y rastrea tu viaje de aprendizaje."
+  },
+  "tabs": {
+    "topics": "Temas",
+    "reviews": "Reseñas",
+    "analytics": "Mi progreso"
+  },
+  "faqs": [
+    { "question": "¿Qué temas puedo explorar?", "answer": "Nuestra base de conocimientos cubre facturación, cobro de pagos, finanzas empresariales, cumplimiento fiscal, freelancing y presupuestos y estimaciones. Cada tema tiene guías completas y artículos relacionados." },
+    { "question": "¿Puedo dejar una reseña?", "answer": "¡Sí! Visita la pestaña Reseñas para compartir tu experiencia con Invoicemonk. Tus comentarios ayudan a otros propietarios de negocios a tomar decisiones informadas." },
+    { "question": "¿Cómo está organizado el contenido?", "answer": "El contenido está organizado en clusters temáticos siguiendo un modelo de pilar y radios. Cada tema pilar tiene artículos de apoyo relacionados que profundizan en aspectos específicos." }
+  ],
+  "reviews": {
+    "title": "Reseñas de clientes",
+    "noReviews": "Sin reseñas aún",
+    "noReviewsSubtitle": "Sé el primero en compartir tu experiencia con Invoicemonk",
+    "verified": "Verificado",
+    "basedOn": "Basado en {{count}} reseña",
+    "basedOnPlural": "Basado en {{count}} reseñas"
+  },
+  "reviewForm": {
+    "title": "Comparte tu experiencia",
+    "subtitle": "Tus comentarios ayudan a otras empresas a tomar decisiones informadas",
+    "overallRating": "Calificación general *",
+    "ratingLabels": ["Pobre", "Regular", "Bueno", "Muy bueno", "Excelente"],
+    "yourName": "Tu nombre *",
+    "email": "Correo electrónico *",
+    "emailNote": "No se muestra públicamente",
+    "company": "Empresa",
+    "yourRole": "Tu rol",
+    "rolePlaceholder": "Freelancer, propietario de negocio, etc.",
+    "yourReview": "Tu reseña *",
+    "reviewPlaceholder": "Cuéntanos sobre tu experiencia con Invoicemonk. ¿Qué es lo que más te gusta? ¿Cómo ha ayudado a tu negocio?",
+    "minChars": "Mínimo 50 caracteres ({{count}}/50)",
+    "submitReview": "Enviar reseña",
+    "submitting": "Enviando...",
+    "thankYou": "¡Gracias!",
+    "thankYouMessage": "Tu reseña ha sido enviada y está pendiente de aprobación.",
+    "selectRating": "Por favor selecciona una calificación",
+    "fillRequired": "Por favor completa todos los campos obligatorios",
+    "submitError": "Error al enviar la reseña. Por favor inténtalo de nuevo.",
+    "disclaimer": "Al enviar, aceptas nuestras directrices de reseñas. Las reseñas son moderadas antes de su publicación."
+  },
+  "topicExplorer": {
+    "topicMap": "Mapa de temas",
+    "learningPaths": "Rutas de aprendizaje",
+    "complete": "completado",
+    "articlesInTopic": "Artículos en este tema",
+    "viewCompleteGuide": "Ver guía completa",
+    "progress": "Progreso",
+    "startLearning": "Empezar a aprender",
+    "continueLearning": "Seguir aprendiendo",
+    "reviewPath": "Revisar ruta"
+  },
+  "analyticsDashboard": {
+    "title": "Análisis de contenido",
+    "subtitle": "Rastrea tu progreso de lectura y tu interacción con el contenido",
+    "refresh": "Actualizar",
+    "export": "Exportar",
+    "clear": "Borrar",
+    "clearConfirm": "¿Estás seguro de que quieres borrar todos los datos de análisis? Esto no se puede deshacer.",
+    "totalEvents": "Total de eventos",
+    "allTrackedInteractions": "Todas las interacciones rastreadas",
+    "linkClicks": "Clics en enlaces",
+    "internalNavigation": "Navegación interna",
+    "articlesStarted": "Artículos iniciados",
+    "contentEngagement": "Interacción con contenido",
+    "avgScrollDepth": "Prof. media de desplazamiento",
+    "howFarUsersRead": "Cuánto leen los usuarios",
+    "learningJourneys": "Viajes de aprendizaje",
+    "trackProgress": "Rastrea tu progreso a través de rutas de lectura seleccionadas",
+    "journeysStarted": "Viajes iniciados",
+    "journeysCompleted": "Viajes completados",
+    "completionRate": "Tasa de finalización",
+    "topicEngagement": "Interacción por tema",
+    "articlesByTopic": "Artículos leídos por área temática",
+    "articles": "artículos",
+    "topArticles": "Top artículos",
+    "mostReadContent": "Tu contenido más leído",
+    "startReading": "Comienza a leer artículos para ver tu progreso",
+    "popularLinks": "Enlaces populares",
+    "mostClickedLinks": "Enlaces internos más clicados",
+    "clickLinksToTrack": "Haz clic en enlaces en artículos para ver datos de seguimiento",
+    "fromLastWeek": "respecto a la semana pasada"
+  }
+}

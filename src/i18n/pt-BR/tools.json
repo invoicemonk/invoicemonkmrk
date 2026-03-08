@@ -1,0 +1,237 @@
+{
+  "calculator": {
+    "amountToSend": "Valor a enviar",
+    "sendingCurrency": "Moeda de envio",
+    "receivingCurrency": "Moeda de recebimento",
+    "senderCountry": "País do remetente",
+    "receiverCountry": "País do destinatário",
+    "calculateFees": "Calcular taxas",
+    "bestValue": "Melhor custo-benefício",
+    "netReceived": "Valor líquido estimado recebido",
+    "fees": "Taxas",
+    "fxSpread": "Spread cambial",
+    "speed": "Velocidade",
+    "none": "Nenhum",
+    "createInvoice": "Criar fatura",
+    "createFreeInvoice": "Criar uma fatura grátis",
+    "openFreeAccount": "Abrir uma conta grátis",
+    "disclaimer": "Estas estimativas são baseadas em dados públicos médios de taxas. Os custos reais dependem dos preços do provedor e do momento. Os custos finais são calculados dentro da sua conta Invoicemonk.",
+    "midMarketRate": "Taxa interbancária",
+    "table": {
+      "method": "Método",
+      "estFees": "Taxas est.",
+      "fxSpread": "Spread cambial",
+      "speed": "Velocidade",
+      "netReceived": "Valor líquido recebido",
+      "bestFor": "Melhor para"
+    }
+  },
+  "feeCalculator": {
+    "seo": {
+      "title": "Calculadora de taxas de pagamento internacional 2026 | Comparar Wise vs PayPal vs transferência bancária",
+      "description": "Compare taxas de pagamento internacional entre Wise, PayPal, SWIFT e processadores de cartão. Veja exatamente quanto você receberá após as taxas — calculadora gratuita, atualizada 2026."
+    },
+    "hero": {
+      "title": "Calculadora de taxas de pagamento internacional",
+      "subtitle": "Quanto você vai <strong>realmente receber</strong> após taxas e margens de câmbio? Compare custos de diferentes métodos de pagamento instantaneamente."
+    },
+    "article": {
+      "understandingTitle": "Entendendo as taxas de pagamento internacional",
+      "understandingP1": "Quando você recebe um pagamento internacional, o valor que chega na sua conta raramente é o valor total enviado. Taxas, spreads de câmbio e cobranças de intermediários podem reduzir seus ganhos — às vezes em até 5–8% do total.",
+      "understandingP2": "Para freelancers, prestadores de serviço e pequenas empresas que dependem de renda transfronteiriça, entender esses custos é essencial. Cada ponto percentual conta quando você está construindo um negócio sustentável.",
+      "howFeesWorkTitle": "Como funcionam as taxas de pagamento internacional",
+      "howFeesWorkIntro": "Os custos de pagamento internacional geralmente vêm de três fontes:",
+      "transactionFees": "<strong>Taxas de transação</strong> — Uma taxa fixa ou percentual cobrada pelo provedor de pagamento pelo processamento da transferência.",
+      "fxSpreadFees": "<strong>Margem de câmbio (spread FX)</strong> — A diferença entre a taxa interbancária e a taxa que você realmente recebe. Este é frequentemente o maior custo oculto.",
+      "intermediaryFees": "<strong>Taxas de bancos intermediários</strong> — Para transferências SWIFT, bancos correspondentes podem deduzir taxas ao longo do caminho.",
+      "comparingTitle": "Comparando métodos de pagamento",
+      "wiseTitle": "Wise",
+      "wiseP": "Wise (anteriormente TransferWise) é conhecido por preços transparentes. Cobra uma pequena taxa percentual — tipicamente cerca de 0,6% — e converte na taxa interbancária sem margem. Isso o torna a opção mais barata para a maioria das transferências internacionais.",
+      "paypalTitle": "PayPal",
+      "paypalP": "PayPal é amplamente aceito e conveniente, mas é uma das formas mais caras de receber pagamentos internacionais. As taxas transfronteiriças podem chegar a 4,49% mais uma taxa fixa, e a taxa de câmbio do PayPal inclui um spread de 3–4% por cima.",
+      "bankTitle": "Transferência bancária (SWIFT)",
+      "bankP": "Transferências bancárias tradicionais são confiáveis para grandes valores, mas vêm com taxas fixas ($25–50), processamento lento (3–5 dias úteis) e margens de câmbio de 2–4%. Bancos intermediários também podem deduzir taxas adicionais.",
+      "cardTitle": "Pagamentos com cartão",
+      "cardP": "Aceitar pagamentos com cartão através de processadores como Stripe ou Square é rápido e conveniente para faturamento online. As taxas são tipicamente cerca de 2,9% + um valor fixo, com um spread FX de 1–2% para transações internacionais.",
+      "tipsTitle": "Dicas para reduzir custos de pagamento internacional",
+      "tip1": "<strong>Fature na moeda do remetente</strong> — Deixe o remetente pagar na moeda local dele e use um provedor com baixo spread FX.",
+      "tip2": "<strong>Agrupe pagamentos menores</strong> — Alguns provedores têm taxas mínimas, então consolidar pagamentos pode reduzir custos por transação.",
+      "tip3": "<strong>Escolha o método certo por cliente</strong> — Clientes de alto valor podem justificar transferências bancárias, enquanto pagamentos frequentes pequenos funcionam melhor com Wise.",
+      "tip4": "<strong>Use faturamento multi-moeda</strong> — Com <a href=\"__LANG__/invoicing\">as ferramentas de faturamento da Invoicemonk</a>, você pode emitir faturas em múltiplas moedas e deixar os clientes pagarem com o método que funciona melhor.",
+      "smarterTitle": "Tome decisões de pagamento internacional mais inteligentes",
+      "smarterP": "Antes de criar sua próxima fatura, use esta calculadora para entender o custo real de cada método de pagamento. Depois, emita uma fatura profissional com <a href=\"__LANG__/free-invoice-generator\">o gerador de faturas grátis da Invoicemonk</a> otimizado para o método escolhido."
+    },
+    "faqs": [
+      {
+        "question": "Quão precisa é esta calculadora de taxas de pagamento internacional?",
+        "answer": "Esta calculadora fornece estimativas baseadas em estruturas de taxas médias disponíveis publicamente. As taxas reais dependem dos preços do provedor, valor da transferência e momento. Sempre confirme os custos finais com seu provedor escolhido."
+      },
+      {
+        "question": "O que é um spread FX e por que é importante?",
+        "answer": "Um spread FX (câmbio) é a diferença entre a taxa interbancária e a taxa que um provedor realmente oferece a você. Um spread mais alto significa que você recebe menos dinheiro. Alguns provedores como Wise usam a taxa interbancária sem spread, enquanto outros como PayPal adicionam uma margem de 3–4%."
+      },
+      {
+        "question": "Qual é a forma mais barata de receber pagamentos internacionais?",
+        "answer": "Para a maioria dos corredores, Wise oferece o custo total mais baixo porque cobra uma pequena taxa transparente sem spread FX. Transferências bancárias podem ser mais baratas para valores muito grandes, enquanto PayPal é o mais caro devido a altas taxas e margens FX."
+      },
+      {
+        "question": "Quanto tempo levam os pagamentos internacionais?",
+        "answer": "Pagamentos com cartão e PayPal são tipicamente instantâneos. Transferências Wise levam 1–2 dias úteis. Transferências bancárias tradicionais (SWIFT) levam 3–5 dias úteis e às vezes mais para corredores menos comuns."
+      },
+      {
+        "question": "Posso usar esta ferramenta para faturamento empresarial?",
+        "answer": "Sim. Esta ferramenta ajuda você a entender o custo real de receber pagamentos antes de criar uma fatura. Com Invoicemonk, você pode emitir faturas multi-moeda e escolher o método de pagamento ideal para cada cliente."
+      }
+    ],
+    "faqTitle": "Perguntas frequentes",
+    "relatedResources": "Recursos relacionados",
+    "relatedLinks": {
+      "paypalVsWise": "PayPal vs Wise: Comparação de taxas →",
+      "cheapest": "Forma mais barata de receber pagamentos internacionais →",
+      "feesExplained": "Taxas de pagamento internacional explicadas →",
+      "payments": "Processamento de pagamentos Invoicemonk →"
+    },
+    "cta": {
+      "title": "Pronto para faturar internacionalmente?",
+      "subtitle": "Emita faturas multi-moeda e receba mais rápido com Invoicemonk.",
+      "button": "Começar grátis"
+    }
+  },
+  "cheapest": {
+    "seo": {
+      "title": "Métodos de pagamento internacional mais baratos para faturas (2026) | Classificados por custo total",
+      "description": "Qual é a forma mais barata de liquidar pagamentos de faturas internacionais? Wise vs PayPal vs SWIFT vs cartão — classificados por custo total com calculadora de taxas em tempo real. Atualizado fevereiro 2026."
+    },
+    "hero": {
+      "title": "A forma mais barata de receber pagamentos internacionais",
+      "subtitle": "Pare de perder dinheiro com taxas ocultas. Encontre o método mais econômico para seu corredor e valor específicos."
+    },
+    "article": {
+      "rankedTitle": "Métodos de pagamento classificados por custo (mais barato primeiro)",
+      "wiseTitle": "1. Wise — Melhor custo-benefício geral",
+      "wiseP1": "Wise oferece consistentemente o custo total mais baixo para pagamentos internacionais. Com uma taxa de ~0,6% e a taxa de câmbio interbancária, não há spread FX oculto. Para uma transferência de $1.000, você pagará aproximadamente $6 em taxas e receberá a taxa de mercado completa.",
+      "wiseBestFor": "<strong>Melhor para:</strong> Freelancers, prestadores de serviço e empresas que recebem pagamentos internacionais regulares.",
+      "cardTitle": "2. Pagamentos com cartão — Bons para faturamento online",
+      "cardP1": "Aceitar pagamentos com cartão através de processadores como Stripe custa cerca de 2,9% + $0,30 por transação, mais um spread FX de 1–2% para cartões internacionais. Mais caro que Wise, mas oferece processamento instantâneo e uma experiência fluida para o cliente.",
+      "cardBestFor": "<strong>Melhor para:</strong> Faturamento online, e-commerce, clientes que preferem pagar com cartão.",
+      "bankTitle": "3. Transferência bancária (SWIFT) — Melhor para grandes valores",
+      "bankP1": "Transferências bancárias cobram taxas fixas ($25–50) mais uma margem de câmbio de 2–4%. Para valores pequenos, a taxa fixa torna isso caro. Mas para transferências acima de $10.000, o custo percentual se torna competitivo.",
+      "bankBestFor": "<strong>Melhor para:</strong> Pagamentos grandes únicos, relacionamentos comerciais estabelecidos.",
+      "paypalTitle": "4. PayPal — Mais conveniente, mais caro",
+      "paypalP1": "PayPal é a opção mais fácil para muitos clientes, mas cobra 4,49% mais uma taxa fixa e adiciona um spread de câmbio de 3–4%. Em um pagamento de $1.000, os custos totais podem ultrapassar $80.",
+      "paypalBestFor": "<strong>Melhor para:</strong> Clientes que insistem no PayPal, pagamentos pequenos únicos onde a conveniência importa mais que o custo.",
+      "tipsTitle": "5 dicas para reduzir taxas de pagamento internacional",
+      "tip1": "<strong>Compare antes de faturar.</strong> Use a calculadora acima para ver diferenças reais de custos antes de escolher um método de pagamento.",
+      "tip2": "<strong>Fature na moeda do cliente.</strong> Deixe o remetente pagar na moeda local dele — você controla a conversão.",
+      "tip3": "<strong>Evite conversão dupla.</strong> Se ambas as partes têm contas Wise, transfira diretamente sem passar por múltiplas moedas.",
+      "tip4": "<strong>Agrupe pagamentos menores.</strong> Consolide faturas semanais em mensais para reduzir as taxas fixas por transação.",
+      "tip5": "<strong>Use <a href=\"__LANG__/invoicing\">faturamento multi-moeda</a></strong> para oferecer aos clientes a flexibilidade de pagar na moeda preferida.",
+      "corridorsTitle": "Corredores específicos por país",
+      "corridorsIntro": "Os custos variam significativamente por corredor. Explore rotas específicas:",
+      "corridorLinks": {
+        "usdNigeria": "Receber USD na Nigéria →",
+        "gbpNigeria": "Receber GBP na Nigéria →",
+        "usdUk": "Receber USD no Reino Unido →",
+        "eurUk": "Receber EUR no Reino Unido →",
+        "usdCanada": "Receber USD no Canadá →",
+        "usdAustralia": "Receber USD na Austrália →"
+      },
+      "knowCostsTitle": "Conheça seus custos antes de faturar",
+      "knowCostsP": "O melhor momento para otimizar os custos de pagamento é <em>antes</em> de enviar a fatura. Com <a href=\"__LANG__/free-invoice-generator\">o gerador de faturas grátis da Invoicemonk</a>, você pode criar faturas profissionais multi-moeda e especificar o método de pagamento ideal para cada cliente."
+    },
+    "faqs": [
+      {
+        "question": "Qual é a forma mais barata de receber pagamentos internacionais?",
+        "answer": "Para a maioria dos freelancers e pequenas empresas, Wise oferece o custo total mais baixo. Cobra ~0,6% com a taxa interbancária e sem spread FX. Para transferências muito grandes, uma transferência bancária pode ser competitiva se a taxa fixa for pequena em relação ao valor."
+      },
+      {
+        "question": "Como posso evitar altas taxas de câmbio?",
+        "answer": "Use um provedor que ofereça a taxa interbancária (como Wise). Evite provedores com spreads FX ocultos — é onde a maioria dos custos se esconde. Também considere faturar na moeda local do remetente."
+      },
+      {
+        "question": "O PayPal é a opção mais barata para valores pequenos?",
+        "answer": "Não. A alta taxa percentual do PayPal (4,49%) e a margem de câmbio (3–4%) o tornam uma das opções mais caras em qualquer valor. Wise é mais barato mesmo para transferências pequenas."
+      },
+      {
+        "question": "Devo faturar na minha moeda ou na do cliente?",
+        "answer": "Faturar na moeda local do cliente geralmente resulta em pagamentos mais rápidos e melhor experiência do cliente. Use um provedor com baixo spread como Wise para a conversão de moeda do seu lado."
+      }
+    ],
+    "faqTitle": "Perguntas frequentes",
+    "relatedResources": "Recursos relacionados",
+    "relatedLinks": {
+      "feeCalculator": "Calculadora de taxas de pagamento internacional →",
+      "paypalVsWise": "Comparação de taxas PayPal vs Wise →",
+      "feesExplained": "Taxas de pagamento internacional explicadas →"
+    },
+    "cta": "Começar grátis com Invoicemonk"
+  },
+  "paypalVsWise": {
+    "seo": {
+      "title": "Taxas Wise vs PayPal para transferências internacionais (2026) — Qual economiza mais?",
+      "description": "Taxas Wise vs PayPal comparadas lado a lado para pagamentos de faturas internacionais. Detalhamentos de custos reais para transferências de $500, $1K e $5K. Veja quem ganha em 2026."
+    },
+    "hero": {
+      "title": "PayPal vs Wise: Comparação de taxas",
+      "subtitle": "Qual serviço custa menos ao receber pagamentos internacionais? Compare taxas, câmbio e velocidade lado a lado."
+    },
+    "comparisonTitle": "Comparação recurso por recurso",
+    "comparisonHeaders": {
+      "feature": "Recurso",
+      "wise": "Wise",
+      "paypal": "PayPal"
+    },
+    "features": [
+      { "feature": "Baixas taxas de transferência", "wise": true, "paypal": false },
+      { "feature": "Taxa de câmbio interbancária", "wise": true, "paypal": false },
+      { "feature": "Transferências instantâneas", "wise": false, "paypal": true },
+      { "feature": "Amplamente aceito por clientes", "wise": false, "paypal": true },
+      { "feature": "Detalhamento transparente de taxas", "wise": true, "paypal": false },
+      { "feature": "Contas multi-moeda", "wise": true, "paypal": true },
+      { "feature": "Integração de faturamento empresarial", "wise": false, "paypal": true },
+      { "feature": "Baixo spread FX", "wise": true, "paypal": false }
+    ],
+    "article": {
+      "whichTitle": "PayPal vs Wise: Qual freelancers devem usar?",
+      "whichP": "Tanto PayPal quanto Wise são populares entre freelancers e pequenas empresas para receber pagamentos internacionais. Mas servem necessidades diferentes.",
+      "whenWiseTitle": "Quando usar Wise",
+      "whenWiseP1": "Wise é a melhor escolha quando o custo importa. Para um pagamento típico de $1.000 de um cliente americano para um freelancer nigeriano, Wise economiza aproximadamente $70–80 comparado com PayPal. Wise usa a taxa interbancária real e cobra uma pequena taxa transparente — geralmente cerca de 0,6%.",
+      "whenWiseP2": "Wise é ideal para renda regular de freelance, pagamentos de prestadores e qualquer situação onde você queira maximizar o que recebe.",
+      "whenPaypalTitle": "Quando usar PayPal",
+      "whenPaypalP1": "PayPal continua útil quando clientes o solicitam especificamente, ou quando velocidade é essencial. Pagamentos PayPal chegam quase instantaneamente, enquanto Wise leva 1–2 dias úteis. PayPal também é mais amplamente reconhecido, o que pode facilitar a integração de novos clientes.",
+      "whenPaypalP2": "No entanto, o custo total do PayPal — incluindo a taxa de transação de ~4,49% e o spread de câmbio de 3–4% — o torna uma das opções mais caras para pagamentos internacionais.",
+      "useCaseTitle": "Detalhamento de casos de uso",
+      "useCase1": "<strong>Freelancer recebendo pagamentos regulares:</strong> Wise — taxas mais baixas se acumulam em economias significativas ao longo do tempo.",
+      "useCase2": "<strong>Pagamento único de cliente:</strong> PayPal — a conveniência supera o custo para uma única transação.",
+      "useCase3": "<strong>Pequena empresa com múltiplos clientes internacionais:</strong> Ambos — ofereça Wise como padrão, PayPal como alternativa.",
+      "optimizeTitle": "Otimize sua estratégia de pagamentos com Invoicemonk",
+      "optimizeP": "Com <a href=\"__LANG__/invoicing\">Invoicemonk</a>, você pode emitir faturas multi-moeda e especificar diferentes métodos de pagamento para diferentes clientes. Conheça seus custos antes de faturar e tome decisões de pagamento internacional mais inteligentes."
+    },
+    "faqs": [
+      {
+        "question": "Wise é mais barato que PayPal para pagamentos internacionais?",
+        "answer": "Na maioria dos casos, sim. Wise cobra cerca de 0,6% com a taxa interbancária (sem spread FX), enquanto PayPal cobra 4,49% mais uma taxa fixa e adiciona uma margem de câmbio de 3–4%. Para uma transferência de $1.000, Wise tipicamente economiza $70–80 comparado com PayPal."
+      },
+      {
+        "question": "PayPal é mais rápido que Wise?",
+        "answer": "Transferências PayPal são tipicamente instantâneas, enquanto Wise leva 1–2 dias úteis. Se velocidade é sua prioridade máxima e custo é secundário, PayPal tem a vantagem."
+      },
+      {
+        "question": "Posso usar tanto Wise quanto PayPal para meu negócio freelance?",
+        "answer": "Absolutamente. Muitos freelancers oferecem PayPal para clientes que o preferem e Wise para clientes abertos a um método mais econômico. Com Invoicemonk, você pode especificar diferentes métodos de pagamento em diferentes faturas."
+      },
+      {
+        "question": "Wise suporta todas as moedas?",
+        "answer": "Wise suporta mais de 50 moedas com dados bancários locais nas principais moedas como USD, GBP, EUR e AUD. PayPal suporta mais de 25 moedas, mas com taxas de câmbio menos favoráveis."
+      }
+    ],
+    "faqTitle": "Perguntas frequentes",
+    "relatedResources": "Recursos relacionados",
+    "relatedLinks": {
+      "feeCalculator": "Calculadora de taxas de pagamento internacional →",
+      "cheapest": "Forma mais barata de receber pagamentos internacionais →",
+      "feesExplained": "Taxas de pagamento internacional explicadas →"
+    },
+    "cta": "Começar grátis com Invoicemonk"
+  }
+}

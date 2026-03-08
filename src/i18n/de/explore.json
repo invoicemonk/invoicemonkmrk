@@ -1,0 +1,93 @@
+{
+  "seo": {
+    "title": "Themen & Bewertungen entdecken | Invoicemonk",
+    "description": "Entdecken Sie unsere umfassenden Themenleitfäden, lesen Sie Kundenbewertungen und verfolgen Sie Ihren Lernfortschritt. Meistern Sie Rechnungsstellung, Zahlungen und Unternehmensfinanzen."
+  },
+  "hero": {
+    "title": "Entdecken & Lernen",
+    "subtitle": "Navigieren Sie durch unsere umfassende Wissensdatenbank, sehen Sie, was andere sagen, und verfolgen Sie Ihre Lernreise."
+  },
+  "tabs": {
+    "topics": "Themen",
+    "reviews": "Bewertungen",
+    "analytics": "Mein Fortschritt"
+  },
+  "faqs": [
+    { "question": "Welche Themen kann ich erkunden?", "answer": "Unsere Wissensdatenbank umfasst Rechnungsstellung, Zahlungseingang, Unternehmensfinanzen, Steuerkonformität, Freelancing und Angebote & Kostenvoranschläge. Jedes Thema hat umfassende Leitfäden und verwandte Artikel." },
+    { "question": "Kann ich eine Bewertung abgeben?", "answer": "Ja! Besuchen Sie den Tab Bewertungen, um Ihre Erfahrung mit Invoicemonk zu teilen. Ihr Feedback hilft anderen Geschäftsinhabern, fundierte Entscheidungen zu treffen." },
+    { "question": "Wie sind die Inhalte organisiert?", "answer": "Inhalte sind in Themencluster nach einem Säulen-und-Speichen-Modell organisiert. Jedes Säulenthema hat verwandte unterstützende Artikel, die tiefer in spezifische Aspekte gehen." }
+  ],
+  "reviews": {
+    "title": "Kundenbewertungen",
+    "noReviews": "Noch keine Bewertungen",
+    "noReviewsSubtitle": "Seien Sie der Erste, der seine Erfahrung mit Invoicemonk teilt",
+    "verified": "Verifiziert",
+    "basedOn": "Basierend auf {{count}} Bewertung",
+    "basedOnPlural": "Basierend auf {{count}} Bewertungen"
+  },
+  "reviewForm": {
+    "title": "Teilen Sie Ihre Erfahrung",
+    "subtitle": "Ihr Feedback hilft anderen Unternehmen, fundierte Entscheidungen zu treffen",
+    "overallRating": "Gesamtbewertung *",
+    "ratingLabels": ["Schlecht", "Ausreichend", "Gut", "Sehr gut", "Ausgezeichnet"],
+    "yourName": "Ihr Name *",
+    "email": "E-Mail *",
+    "emailNote": "Wird nicht öffentlich angezeigt",
+    "company": "Unternehmen",
+    "yourRole": "Ihre Rolle",
+    "rolePlaceholder": "Freiberufler, Geschäftsinhaber, usw.",
+    "yourReview": "Ihre Bewertung *",
+    "reviewPlaceholder": "Erzählen Sie uns von Ihrer Erfahrung mit Invoicemonk. Was gefällt Ihnen am besten? Wie hat es Ihrem Unternehmen geholfen?",
+    "minChars": "Mindestens 50 Zeichen ({{count}}/50)",
+    "submitReview": "Bewertung absenden",
+    "submitting": "Wird gesendet...",
+    "thankYou": "Vielen Dank!",
+    "thankYouMessage": "Ihre Bewertung wurde eingereicht und wartet auf Genehmigung.",
+    "selectRating": "Bitte wählen Sie eine Bewertung",
+    "fillRequired": "Bitte füllen Sie alle Pflichtfelder aus",
+    "submitError": "Bewertung konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "disclaimer": "Mit dem Absenden stimmen Sie unseren Bewertungsrichtlinien zu. Bewertungen werden vor der Veröffentlichung moderiert."
+  },
+  "topicExplorer": {
+    "topicMap": "Themenübersicht",
+    "learningPaths": "Lernpfade",
+    "complete": "abgeschlossen",
+    "articlesInTopic": "Artikel zu diesem Thema",
+    "viewCompleteGuide": "Vollständigen Leitfaden anzeigen",
+    "progress": "Fortschritt",
+    "startLearning": "Lernen starten",
+    "continueLearning": "Weiterlernen",
+    "reviewPath": "Pfad überprüfen"
+  },
+  "analyticsDashboard": {
+    "title": "Inhaltsanalysen",
+    "subtitle": "Verfolgen Sie Ihren Lesefortschritt und Ihr Content-Engagement",
+    "refresh": "Aktualisieren",
+    "export": "Exportieren",
+    "clear": "Löschen",
+    "clearConfirm": "Sind Sie sicher, dass Sie alle Analysedaten löschen möchten? Dies kann nicht rückgängig gemacht werden.",
+    "totalEvents": "Gesamte Ereignisse",
+    "allTrackedInteractions": "Alle erfassten Interaktionen",
+    "linkClicks": "Link-Klicks",
+    "internalNavigation": "Interne Navigation",
+    "articlesStarted": "Gestartete Artikel",
+    "contentEngagement": "Content-Engagement",
+    "avgScrollDepth": "Durchschn. Scrolltiefe",
+    "howFarUsersRead": "Wie weit Benutzer lesen",
+    "learningJourneys": "Lernreisen",
+    "trackProgress": "Verfolgen Sie Ihren Fortschritt durch kuratierte Lesepfade",
+    "journeysStarted": "Gestartete Reisen",
+    "journeysCompleted": "Abgeschlossene Reisen",
+    "completionRate": "Abschlussrate",
+    "topicEngagement": "Themen-Engagement",
+    "articlesByTopic": "Gelesene Artikel nach Themenbereich",
+    "articles": "Artikel",
+    "topArticles": "Top-Artikel",
+    "mostReadContent": "Ihre meistgelesenen Inhalte",
+    "startReading": "Beginnen Sie Artikel zu lesen, um Ihren Fortschritt zu sehen",
+    "popularLinks": "Beliebte Links",
+    "mostClickedLinks": "Meistgeklickte interne Links",
+    "clickLinksToTrack": "Klicken Sie auf Links in Artikeln, um Tracking-Daten zu sehen",
+    "fromLastWeek": "gegenüber letzter Woche"
+  }
+}
