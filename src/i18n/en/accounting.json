@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Small Business Accounting Software | Double-Entry Bookkeeping | Invoicemonk",
+    "description": "Complete accounting software with double-entry bookkeeping, financial statements, and tax reports. Designed for small businesses and freelancers."
+  },
+  "hero": {
+    "badge": "Now Available",
+    "title": "Full Accounting, <accent>made simple</accent>",
+    "description": "Complete accounting software with double-entry bookkeeping, financial statements, and tax reports — all with Invoicemonk's compliance guarantees.",
+    "cta": "Start Your Free Trial",
+    "secondary": "Start with Invoicing",
+    "mockup": {
+      "overview": "Financial Overview",
+      "period": "Q4 2024",
+      "balanceSheet": "Balance Sheet",
+      "totalAssets": "Total Assets",
+      "totalLiabilities": "Total Liabilities",
+      "equity": "Equity",
+      "revenue": "Revenue",
+      "expenses": "Expenses",
+      "chartOfAccounts": "Chart of Accounts",
+      "accounts": ["1000 - Cash", "1200 - Accounts Receivable", "2000 - Accounts Payable", "4000 - Revenue"]
+    }
+  },
+  "banner": {
+    "title": "Accounting that works for you",
+    "features": ["Double-entry bookkeeping", "Financial statements", "Tax-ready reports", "Multi-entity support", "Role-based access control"]
+  },
+  "whyAdd": {
+    "title": "What you'll <accent>get</accent>",
+    "subtitle": "Professional accounting tools built on top of your invoicing data.",
+    "features": [
+      { "title": "Double-entry bookkeeping", "description": "Full chart of accounts with automatic journal entries. Real accounting, made simple." },
+      { "title": "Financial statements on demand", "description": "Balance sheets, profit & loss, and cash flow statements at your fingertips." },
+      { "title": "Tax-ready reports", "description": "Generate reports your accountant will love. Ready for any filing deadline." }
+    ]
+  },
+  "tabs": {
+    "title": "Everything you need to manage your books",
+    "subtitle": "From daily transactions to year-end reports.",
+    "items": [
+      { "label": "Chart of Accounts", "title": "A complete chart of accounts, ready to go", "description": "Start with a standard chart of accounts or customize it to fit your business. Every transaction is automatically categorized and recorded correctly." },
+      { "label": "Financial Reports", "title": "Financial statements when you need them", "description": "Generate balance sheets, profit & loss statements, and cash flow reports with a single click. Always know where your business stands financially." },
+      { "label": "Multi-Entity", "title": "Manage multiple businesses easily", "description": "Running more than one business? Switch between entities seamlessly and get consolidated views of your entire portfolio." }
+    ]
+  },
+  "automation": {
+    "title": "Your books, always up to date",
+    "subtitle": "Automation that keeps your accounting accurate.",
+    "features": [
+      { "title": "Automatic journal entries", "description": "Every invoice and expense creates proper accounting entries automatically." },
+      { "title": "Bank reconciliation", "description": "Connect your bank and transactions match automatically." },
+      { "title": "Real-time financials", "description": "See your P&L and balance sheet updated in real-time." }
+    ]
+  },
+  "howItWorks": {
+    "title": "How accounting flows work",
+    "subtitle": "From transactions to reports in three simple steps.",
+    "steps": [
+      { "title": "Invoice and track expenses", "description": "All your financial activity flows into the accounting system." },
+      { "title": "Automatic categorization", "description": "Transactions are categorized and recorded correctly." },
+      { "title": "Generate reports", "description": "Pull financial statements whenever you need them." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Finally, accounting software that doesn't make me feel like I need a finance degree. Everything just flows from my invoices automatically.",
+    "name": "Emeka Nwosu",
+    "title": "CEO",
+    "company": "Nwosu Ventures"
+  },
+  "featuredGuide": {
+    "label": "Featured Guide",
+    "title": "Small Business Accounting Basics: A Simple Guide",
+    "description": "Master small business accounting in 7 simple steps. Learn how to set up your chart of accounts, choose between cash and accrual methods, and generate tax-ready financial reports—no accounting degree required.",
+    "cta": "Read the Complete Guide"
+  },
+  "blog": {
+    "title": "Learn about small business accounting",
+    "subtitle": "Tips and guides to help you manage your finances."
+  },
+  "faq": {
+    "title": "Accounting questions, answered",
+    "subtitle": "Everything you need to know about managing your books.",
+    "items": [
+      { "question": "Do I need accounting knowledge to use this?", "answer": "Not at all! Invoicemonk Accounting is designed for business owners, not accountants. We handle the complexity behind the scenes while giving you clear, simple views of your finances." },
+      { "question": "How does this connect to invoicing?", "answer": "When you create invoices, payments, and expenses in Invoicemonk, they automatically flow into your accounting. No double entry, no reconciliation headaches." },
+      { "question": "Can I use this with my existing accountant?", "answer": "Absolutely. You can invite your accountant to view your books, and export reports in formats they're familiar with. We make their job easier too." },
+      { "question": "What financial reports can I generate?", "answer": "You'll be able to generate profit & loss statements, balance sheets, cash flow statements, accounts receivable/payable aging, and custom reports for tax purposes." },
+      { "question": "Is this suitable for larger businesses?", "answer": "Yes! Our accounting features scale with your business. Multi-entity support, team permissions, and advanced reporting are available for growing businesses." },
+      { "question": "Can I set up different roles for my team?", "answer": "Yes. Invoicemonk supports role-based access control with Finance, Sales, and Executive roles. Each role has appropriate permissions so team members see only what they need, keeping your financial data secure." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "What is small business accounting software?", "answer": "Small business accounting software helps you track income and expenses, generate financial reports, manage invoices, and stay tax-compliant — all without needing an accounting degree. It automates bookkeeping tasks that would otherwise require manual spreadsheets." },
+    { "question": "Do I need an accountant if I use accounting software?", "answer": "For day-to-day bookkeeping, accounting software can handle most tasks. However, for complex tax situations, year-end filings, or strategic financial planning, working with an accountant is recommended. The software makes their job easier by keeping your records organized." },
+    { "question": "What financial reports can I generate?", "answer": "You can generate profit and loss statements, balance sheets, cash flow reports, expense summaries, and tax-ready reports. These reports give you a clear picture of your business financial health at any time." },
+    { "question": "How does accounting software help with taxes?", "answer": "Accounting software maintains organized, categorized records throughout the year, automatically tracks tax-deductible expenses, and generates reports in formats accepted by tax authorities. This makes tax filing faster and reduces the risk of errors or missed deductions." }
+  ]
+}

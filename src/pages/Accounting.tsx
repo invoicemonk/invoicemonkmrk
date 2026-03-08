@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from '@/components/LocalizedLink';
-import { Calculator, ArrowRight, BookOpen, FileSpreadsheet, TrendingUp, Building2, PieChart, BarChart3, Shield, RefreshCw, CheckCircle, Calendar } from 'lucide-react';
+import { Calculator, ArrowRight, BookOpen, FileSpreadsheet, TrendingUp, RefreshCw, CheckCircle, Calendar } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
@@ -16,143 +16,45 @@ import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
-
-const accountingSEOFAQs = [
-  { question: 'What is small business accounting software?', answer: 'Small business accounting software helps you track income and expenses, generate financial reports, manage invoices, and stay tax-compliant — all without needing an accounting degree. It automates bookkeeping tasks that would otherwise require manual spreadsheets.' },
-  { question: 'Do I need an accountant if I use accounting software?', answer: 'For day-to-day bookkeeping, accounting software can handle most tasks. However, for complex tax situations, year-end filings, or strategic financial planning, working with an accountant is recommended. The software makes their job easier by keeping your records organized.' },
-  { question: 'What financial reports can I generate?', answer: 'You can generate profit and loss statements, balance sheets, cash flow reports, expense summaries, and tax-ready reports. These reports give you a clear picture of your business financial health at any time.' },
-  { question: 'How does accounting software help with taxes?', answer: 'Accounting software maintains organized, categorized records throughout the year, automatically tracks tax-deductible expenses, and generates reports in formats accepted by tax authorities. This makes tax filing faster and reduces the risk of errors or missed deductions.' },
-];
-
-const automationFeatures = [
-  {
-    icon: RefreshCw,
-    title: 'Automatic journal entries',
-    description: 'Every invoice and expense creates proper accounting entries automatically.',
-  },
-  {
-    icon: CheckCircle,
-    title: 'Bank reconciliation',
-    description: 'Connect your bank and transactions match automatically.',
-  },
-  {
-    icon: Calendar,
-    title: 'Real-time financials',
-    description: 'See your P&L and balance sheet updated in real-time.',
-  },
-];
-
-const accountingSteps = [
-  {
-    number: 1,
-    title: 'Invoice and track expenses',
-    description: 'All your financial activity flows into the accounting system.',
-  },
-  {
-    number: 2,
-    title: 'Automatic categorization',
-    description: 'Transactions are categorized and recorded correctly.',
-  },
-  {
-    number: 3,
-    title: 'Generate reports',
-    description: 'Pull financial statements whenever you need them.',
-  },
-];
-
-const featureBlocks = [
-  {
-    icon: BookOpen,
-    title: 'Double-entry bookkeeping',
-    description: 'Full chart of accounts with automatic journal entries. Real accounting, made simple.',
-  },
-  {
-    icon: FileSpreadsheet,
-    title: 'Financial statements on demand',
-    description: 'Balance sheets, profit & loss, and cash flow statements at your fingertips.',
-  },
-  {
-    icon: TrendingUp,
-    title: 'Tax-ready reports',
-    description: 'Generate reports your accountant will love. Ready for any filing deadline.',
-  },
-];
-
-const bannerFeatures = [
-  'Double-entry bookkeeping',
-  'Financial statements',
-  'Tax-ready reports',
-  'Multi-entity support',
-  'Role-based access control',
-];
+import { useTranslation } from 'react-i18next';
 
 import accountingChartOfAccounts from '@/assets/accounting-chart-of-accounts.jpg';
 import accountingFinancialReports from '@/assets/accounting-financial-reports.jpg';
 import accountingMultiEntity from '@/assets/accounting-multi-entity.jpg';
 import accountingAutomation from '@/assets/accounting-automation.jpg';
 
-const tabbedFeatures = [
-  {
-    label: 'Chart of Accounts',
-    title: 'A complete chart of accounts, ready to go',
-    description: 'Start with a standard chart of accounts or customize it to fit your business. Every transaction is automatically categorized and recorded correctly.',
-    image: accountingChartOfAccounts,
-  },
-  {
-    label: 'Financial Reports',
-    title: 'Financial statements when you need them',
-    description: 'Generate balance sheets, profit & loss statements, and cash flow reports with a single click. Always know where your business stands financially.',
-    image: accountingFinancialReports,
-  },
-  {
-    label: 'Multi-Entity',
-    title: 'Manage multiple businesses easily',
-    description: 'Running more than one business? Switch between entities seamlessly and get consolidated views of your entire portfolio.',
-    image: accountingMultiEntity,
-  },
-];
-
-const accountingFAQs = [
-  {
-    question: 'Do I need accounting knowledge to use this?',
-    answer: 'Not at all! Invoicemonk Accounting is designed for business owners, not accountants. We handle the complexity behind the scenes while giving you clear, simple views of your finances.',
-  },
-  {
-    question: 'How does this connect to invoicing?',
-    answer: 'When you create invoices, payments, and expenses in Invoicemonk, they automatically flow into your accounting. No double entry, no reconciliation headaches.',
-  },
-  {
-    question: 'Can I use this with my existing accountant?',
-    answer: 'Absolutely. You can invite your accountant to view your books, and export reports in formats they\'re familiar with. We make their job easier too.',
-  },
-  {
-    question: 'What financial reports can I generate?',
-    answer: 'You\'ll be able to generate profit & loss statements, balance sheets, cash flow statements, accounts receivable/payable aging, and custom reports for tax purposes.',
-  },
-  {
-    question: 'Is this suitable for larger businesses?',
-    answer: 'Yes! Our accounting features scale with your business. Multi-entity support, team permissions, and advanced reporting are available for growing businesses.',
-  },
-  {
-    question: 'Can I set up different roles for my team?',
-    answer: 'Yes. Invoicemonk supports role-based access control with Finance, Sales, and Executive roles. Each role has appropriate permissions so team members see only what they need, keeping your financial data secure.',
-  },
-];
+const featureIcons = [BookOpen, FileSpreadsheet, TrendingUp];
+const automationIcons = [RefreshCw, CheckCircle, Calendar];
+const tabImages = [accountingChartOfAccounts, accountingFinancialReports, accountingMultiEntity];
 
 const Accounting = () => {
   const { formatCurrency } = useLocale();
+  const { t } = useTranslation('accounting');
+
+  const seoFaqs = t('seoFaqs', { returnObjects: true }) as { question: string; answer: string }[];
+  const faqItems = t('faq.items', { returnObjects: true }) as { question: string; answer: string }[];
+  const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];
+  const whyFeatures = t('whyAdd.features', { returnObjects: true }) as { title: string; description: string }[];
+  const tabItems = (t('tabs.items', { returnObjects: true }) as { label: string; title: string; description: string }[]).map((tab, i) => ({ ...tab, image: tabImages[i] }));
+  const automationFeatures = (t('automation.features', { returnObjects: true }) as { title: string; description: string }[]).map((f, i) => ({ ...f, icon: automationIcons[i] }));
+  const howSteps = (t('howItWorks.steps', { returnObjects: true }) as { title: string; description: string }[]).map((s, i) => ({ ...s, number: i + 1 }));
+  const mockupAccounts = t('hero.mockup.accounts', { returnObjects: true }) as string[];
+
+  const renderAccent = (key: string) => {
+    const text = t(key);
+    const match = text.match(/(.*)<accent>(.*?)<\/accent>(.*)/);
+    if (!match) return <>{text}</>;
+    return <>{match[1]}<span className="font-serif italic text-primary">{match[2]}</span>{match[3]}</>;
+  };
 
   return (
     <Layout>
-      <FAQSchema items={accountingSEOFAQs} />
-      <SEOHead
-        title="Small Business Accounting Software | Double-Entry Bookkeeping | Invoicemonk"
-        description="Complete accounting software with double-entry bookkeeping, financial statements, and tax reports. Designed for small businesses and freelancers."
-      />
+      <FAQSchema items={seoFaqs} />
+      <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <ServiceSchema
         serviceName="Invoicemonk Accounting Software"
         serviceType="Accounting Software"
-        description="Complete accounting software with double-entry bookkeeping, financial statements, and tax-ready reports for small businesses."
+        description={t('seo.description')}
         url="https://invoicemonk.com/accounting"
       />
       
@@ -171,7 +73,7 @@ const Accounting = () => {
                 transition={{ duration: 0.5 }}
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-wave-green/10 text-wave-green mb-6"
               >
-                <span className="text-body-sm font-medium">Now Available</span>
+                <span className="text-body-sm font-medium">{t('hero.badge')}</span>
               </motion.div>
 
               <motion.div
@@ -191,8 +93,7 @@ const Accounting = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-display text-heading mb-6"
               >
-                Full Accounting,{' '}
-                <span className="font-serif italic text-primary">made simple</span>
+                {renderAccent('hero.title')}
               </motion.h1>
 
               <motion.p
@@ -201,8 +102,7 @@ const Accounting = () => {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="text-body-lg text-muted-foreground mb-8"
               >
-                Complete accounting software with double-entry bookkeeping, financial 
-                statements, and tax reports — all with Invoicemonk's compliance guarantees.
+                {t('hero.description')}
               </motion.p>
 
               <motion.div
@@ -217,7 +117,7 @@ const Accounting = () => {
                   className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
                 >
                   <a href="https://app.invoicemonk.com/signup">
-                    Start Your Free Trial
+                    {t('hero.cta')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
                   </a>
                 </Button>
@@ -227,7 +127,7 @@ const Accounting = () => {
                   size="lg"
                   className="rounded-full px-8 h-14 text-body border-border hover:bg-muted"
                 >
-                  <Link to="/invoicing">Start with Invoicing</Link>
+                  <Link to="/invoicing">{t('hero.secondary')}</Link>
                 </Button>
               </motion.div>
             </div>
@@ -241,25 +141,25 @@ const Accounting = () => {
             >
               <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-6">
                 <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-body font-semibold text-heading">Financial Overview</h3>
-                  <span className="text-caption text-muted-foreground">Q4 2024</span>
+                  <h3 className="text-body font-semibold text-heading">{t('hero.mockup.overview')}</h3>
+                  <span className="text-caption text-muted-foreground">{t('hero.mockup.period')}</span>
                 </div>
                 
                 <div className="space-y-4 mb-6">
                   <div className="bg-muted/50 rounded-xl p-4">
-                    <div className="text-caption text-muted-foreground mb-2">Balance Sheet</div>
+                    <div className="text-caption text-muted-foreground mb-2">{t('hero.mockup.balanceSheet')}</div>
                     <div className="space-y-2">
                       <div className="flex justify-between text-body-sm">
-                        <span className="text-foreground">Total Assets</span>
+                        <span className="text-foreground">{t('hero.mockup.totalAssets')}</span>
                         <span className="font-medium text-heading">{formatCurrency(124500)}</span>
                       </div>
                       <div className="flex justify-between text-body-sm">
-                        <span className="text-foreground">Total Liabilities</span>
+                        <span className="text-foreground">{t('hero.mockup.totalLiabilities')}</span>
                         <span className="font-medium text-heading">{formatCurrency(42300)}</span>
                       </div>
                       <div className="h-px bg-border my-2" />
                       <div className="flex justify-between text-body-sm font-semibold">
-                        <span className="text-primary">Equity</span>
+                        <span className="text-primary">{t('hero.mockup.equity')}</span>
                         <span className="text-primary">{formatCurrency(82200)}</span>
                       </div>
                     </div>
@@ -267,20 +167,20 @@ const Accounting = () => {
                   
                   <div className="grid grid-cols-2 gap-3">
                     <div className="bg-wave-green/10 rounded-xl p-3">
-                      <div className="text-caption text-wave-green mb-1">Revenue</div>
+                      <div className="text-caption text-wave-green mb-1">{t('hero.mockup.revenue')}</div>
                       <div className="text-h4 font-bold text-wave-green">{formatCurrency(48200)}</div>
                     </div>
                     <div className="bg-wave-orange/10 rounded-xl p-3">
-                      <div className="text-caption text-wave-orange mb-1">Expenses</div>
+                      <div className="text-caption text-wave-orange mb-1">{t('hero.mockup.expenses')}</div>
                       <div className="text-h4 font-bold text-wave-orange">{formatCurrency(31400)}</div>
                     </div>
                   </div>
                 </div>
 
                 <div className="border-t border-border pt-4">
-                  <div className="text-caption text-muted-foreground mb-3">Chart of Accounts</div>
+                  <div className="text-caption text-muted-foreground mb-3">{t('hero.mockup.chartOfAccounts')}</div>
                   <div className="space-y-2">
-                    {['1000 - Cash', '1200 - Accounts Receivable', '2000 - Accounts Payable', '4000 - Revenue'].map((account) => (
+                    {mockupAccounts.map((account) => (
                       <div key={account} className="flex items-center gap-2 text-body-sm text-foreground">
                         <div className="w-2 h-2 rounded-full bg-primary/60" />
                         {account}
@@ -296,7 +196,7 @@ const Accounting = () => {
 
       {/* Feature Banner */}
       <WaveFeatureBanner 
-        title="Accounting that works for you"
+        title={t('banner.title')}
         features={bannerFeatures}
         variant="orange"
       />
@@ -306,17 +206,16 @@ const Accounting = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-h2 text-heading mb-4">
-              What you'll <span className="font-serif italic text-primary">get</span>
+              {renderAccent('whyAdd.title')}
             </h2>
             <p className="text-body-lg text-muted-foreground">
-              Professional accounting tools built on top of your invoicing data.
+              {t('whyAdd.subtitle')}
             </p>
           </AnimatedSection>
 
           <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
-            {featureBlocks.map((feature) => {
-              const Icon = feature.icon;
-              
+            {whyFeatures.map((feature, i) => {
+              const Icon = featureIcons[i];
               return (
                 <StaggerItem key={feature.title}>
                   <motion.div
@@ -338,15 +237,15 @@ const Accounting = () => {
 
       {/* Tabbed Feature Section */}
       <WaveTabbedFeature
-        title="Everything you need to manage your books"
-        subtitle="From daily transactions to year-end reports."
-        tabs={tabbedFeatures}
+        title={t('tabs.title')}
+        subtitle={t('tabs.subtitle')}
+        tabs={tabItems}
       />
 
       {/* Alternating Feature - Automation */}
       <WaveAlternatingFeature
-        title="Your books, always up to date"
-        subtitle="Automation that keeps your accounting accurate."
+        title={t('automation.title')}
+        subtitle={t('automation.subtitle')}
         features={automationFeatures}
         image={accountingAutomation}
         className="bg-background"
@@ -354,18 +253,18 @@ const Accounting = () => {
 
       {/* How It Works */}
       <WaveHowItWorks
-        title="How accounting flows work"
-        subtitle="From transactions to reports in three simple steps."
-        steps={accountingSteps}
+        title={t('howItWorks.title')}
+        subtitle={t('howItWorks.subtitle')}
+        steps={howSteps}
       />
 
       {/* Featured Testimonial */}
       <WaveFeaturedTestimonial
-        quote="Finally, accounting software that doesn't make me feel like I need a finance degree. Everything just flows from my invoices automatically."
+        quote={t('testimonial.quote')}
         author={{
-          name: "Emeka Nwosu",
-          title: "CEO",
-          company: "Nwosu Ventures"
+          name: t('testimonial.name'),
+          title: t('testimonial.title'),
+          company: t('testimonial.company')
         }}
         rating={5}
         variant="primary"
@@ -381,18 +280,16 @@ const Accounting = () => {
                   <BookOpen className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <span className="text-caption text-primary font-medium uppercase tracking-wide">Featured Guide</span>
-                  <h2 className="text-h3 text-heading mt-2">Small Business Accounting Basics: A Simple Guide</h2>
+                  <span className="text-caption text-primary font-medium uppercase tracking-wide">{t('featuredGuide.label')}</span>
+                  <h2 className="text-h3 text-heading mt-2">{t('featuredGuide.title')}</h2>
                 </div>
               </div>
               <p className="text-body-lg text-muted-foreground mb-6">
-                Master small business accounting in 7 simple steps. Learn how to set up your chart of accounts, 
-                choose between cash and accrual methods, and generate tax-ready financial reports—no accounting 
-                degree required.
+                {t('featuredGuide.description')}
               </p>
               <Button asChild variant="outline" size="lg" className="rounded-full">
                 <Link to="/blog/small-business-accounting-guide">
-                  Read the Complete Guide
+                  {t('featuredGuide.cta')}
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </Button>
@@ -403,16 +300,16 @@ const Accounting = () => {
 
       {/* Blog Preview */}
       <WaveBlogPreview
-        title="Learn about small business accounting"
-        subtitle="Tips and guides to help you manage your finances."
+        title={t('blog.title')}
+        subtitle={t('blog.subtitle')}
         pillarId="business-finances"
       />
 
       {/* FAQ Section */}
       <WaveProductFAQ
-        title="Accounting questions, answered"
-        subtitle="Everything you need to know about managing your books."
-        faqs={accountingFAQs}
+        title={t('faq.title')}
+        subtitle={t('faq.subtitle')}
+        faqs={faqItems}
       />
 
       {/* Final CTA */}

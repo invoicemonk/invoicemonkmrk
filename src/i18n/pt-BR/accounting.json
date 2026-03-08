@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "Software de Contabilidade para Pequenas Empresas | Partidas Dobradas | Invoicemonk",
+    "description": "Software de contabilidade completo com partidas dobradas, demonstrações financeiras e relatórios fiscais. Projetado para pequenas empresas e freelancers."
+  },
+  "hero": {
+    "badge": "Disponível agora",
+    "title": "Contabilidade completa, <accent>simplificada</accent>",
+    "description": "Software de contabilidade completo com partidas dobradas, demonstrações financeiras e relatórios fiscais — tudo com as garantias de conformidade do Invoicemonk.",
+    "cta": "Começar teste gratuito",
+    "secondary": "Começar com Faturamento",
+    "mockup": {
+      "overview": "Visão financeira",
+      "period": "T4 2024",
+      "balanceSheet": "Balanço patrimonial",
+      "totalAssets": "Total de ativos",
+      "totalLiabilities": "Total de passivos",
+      "equity": "Patrimônio líquido",
+      "revenue": "Receita",
+      "expenses": "Despesas",
+      "chartOfAccounts": "Plano de contas",
+      "accounts": ["1000 - Caixa", "1200 - Contas a receber", "2000 - Contas a pagar", "4000 - Receitas"]
+    }
+  },
+  "banner": {
+    "title": "Contabilidade que trabalha para você",
+    "features": ["Partidas dobradas", "Demonstrações financeiras", "Relatórios fiscais", "Suporte multi-empresa", "Controle de acesso por função"]
+  },
+  "whyAdd": {
+    "title": "O que você <accent>recebe</accent>",
+    "subtitle": "Ferramentas contábeis profissionais baseadas nos seus dados de faturamento.",
+    "features": [
+      { "title": "Partidas dobradas", "description": "Plano de contas completo com lançamentos automáticos. Contabilidade real, simplificada." },
+      { "title": "Demonstrações financeiras sob demanda", "description": "Balanços, DRE e demonstrações de fluxo de caixa ao alcance de um clique." },
+      { "title": "Relatórios prontos para impostos", "description": "Gere relatórios que seu contador vai adorar. Prontos para qualquer prazo fiscal." }
+    ]
+  },
+  "tabs": {
+    "title": "Tudo que você precisa para gerenciar seus livros",
+    "subtitle": "De transações diárias a relatórios anuais.",
+    "items": [
+      { "label": "Plano de contas", "title": "Um plano de contas completo, pronto para usar", "description": "Comece com um plano de contas padrão ou personalize para seu negócio. Cada transação é automaticamente categorizada e registrada corretamente." },
+      { "label": "Relatórios financeiros", "title": "Demonstrações financeiras quando você precisar", "description": "Gere balanços, DRE e relatórios de fluxo de caixa com um clique. Sempre saiba onde sua empresa está financeiramente." },
+      { "label": "Multi-empresa", "title": "Gerencie múltiplas empresas facilmente", "description": "Opera mais de uma empresa? Alterne entre entidades perfeitamente e obtenha visões consolidadas de todo o seu portfólio." }
+    ]
+  },
+  "automation": {
+    "title": "Seus livros, sempre atualizados",
+    "subtitle": "Automação que mantém sua contabilidade precisa.",
+    "features": [
+      { "title": "Lançamentos automáticos", "description": "Cada fatura e despesa cria lançamentos contábeis corretos automaticamente." },
+      { "title": "Conciliação bancária", "description": "Conecte seu banco e as transações são conciliadas automaticamente." },
+      { "title": "Finanças em tempo real", "description": "Veja sua DRE e balanço atualizados em tempo real." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Como funcionam os fluxos contábeis",
+    "subtitle": "De transações a relatórios em três passos simples.",
+    "steps": [
+      { "title": "Fature e registre despesas", "description": "Toda sua atividade financeira alimenta o sistema contábil." },
+      { "title": "Categorização automática", "description": "Transações são categorizadas e registradas corretamente." },
+      { "title": "Gere relatórios", "description": "Consulte demonstrações financeiras sempre que precisar." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Finalmente, um software de contabilidade que não me faz sentir que preciso de um diploma em finanças. Tudo simplesmente flui das minhas faturas automaticamente.",
+    "name": "Emeka Nwosu",
+    "title": "CEO",
+    "company": "Nwosu Ventures"
+  },
+  "featuredGuide": {
+    "label": "Guia em destaque",
+    "title": "Fundamentos de contabilidade para pequenas empresas: um guia simples",
+    "description": "Domine a contabilidade para pequenas empresas em 7 passos simples. Aprenda a configurar seu plano de contas, escolher entre regime de caixa e competência, e gerar relatórios fiscais.",
+    "cta": "Ler o guia completo"
+  },
+  "blog": {
+    "title": "Aprenda sobre contabilidade para pequenas empresas",
+    "subtitle": "Dicas e guias para gerenciar suas finanças."
+  },
+  "faq": {
+    "title": "Perguntas sobre contabilidade",
+    "subtitle": "Tudo que você precisa saber sobre gerenciar seus livros.",
+    "items": [
+      { "question": "Preciso de conhecimento contábil para usar?", "answer": "De jeito nenhum! A contabilidade do Invoicemonk é projetada para empresários, não contadores. Nós cuidamos da complexidade nos bastidores e oferecemos visões claras e simples das suas finanças." },
+      { "question": "Como isso se conecta ao faturamento?", "answer": "Quando você cria faturas, pagamentos e despesas no Invoicemonk, eles fluem automaticamente para sua contabilidade. Sem dupla entrada, sem dores de cabeça com conciliação." },
+      { "question": "Posso usar com meu contador atual?", "answer": "Absolutamente. Você pode convidar seu contador para ver seus livros e exportar relatórios em formatos que ele conhece. Também facilitamos o trabalho dele." },
+      { "question": "Quais relatórios financeiros posso gerar?", "answer": "Você poderá gerar DRE, balanços, demonstrações de fluxo de caixa, análises de vencimento de contas a receber/pagar e relatórios fiscais personalizados." },
+      { "question": "É adequado para empresas maiores?", "answer": "Sim! Nossos recursos contábeis crescem com sua empresa. Suporte multi-empresa, permissões de equipe e relatórios avançados estão disponíveis para empresas em crescimento." },
+      { "question": "Posso configurar diferentes funções para minha equipe?", "answer": "Sim. O Invoicemonk suporta controle de acesso por função com papéis de Finanças, Vendas e Executivo. Cada função tem permissões apropriadas para que os membros vejam apenas o necessário." }
+    ]
+  },
+  "seoFaqs": [
+    { "question": "O que é software de contabilidade para pequenas empresas?", "answer": "Software de contabilidade ajuda a rastrear receitas e despesas, gerar relatórios financeiros, gerenciar faturas e manter a conformidade fiscal — tudo sem precisar de diploma em contabilidade." },
+    { "question": "Preciso de contador se uso software de contabilidade?", "answer": "Para a contabilidade diária, o software cuida da maioria das tarefas. Para situações fiscais complexas ou fechamentos anuais, um contador é recomendado." },
+    { "question": "Quais relatórios financeiros posso gerar?", "answer": "Você pode gerar DRE, balanços, relatórios de fluxo de caixa, resumos de despesas e relatórios fiscais." },
+    { "question": "Como o software contábil ajuda com impostos?", "answer": "O software mantém registros organizados e categorizados, rastreia automaticamente despesas dedutíveis e gera relatórios em formatos aceitos pelas autoridades fiscais." }
+  ]
+}
