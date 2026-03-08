@@ -6,6 +6,10 @@ import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { Card, CardContent } from '@/components/ui/card';
 import { getTranslatedPillars, getLangPrefix } from '@/utils/i18nData';
+import '@/data/pillars.de';
+import '@/data/pillars.fr';
+import '@/data/pillars.pt';
+import '@/data/pillars.es';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   FileText,
