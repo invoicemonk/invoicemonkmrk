@@ -121,6 +121,18 @@ import frDeveloper from './fr/developer.json';
 import ptBRDeveloper from './pt-BR/developer.json';
 import esDeveloper from './es/developer.json';
 
+import enAgencies from './en/agencies.json';
+import deAgencies from './de/agencies.json';
+import frAgencies from './fr/agencies.json';
+import ptBRAgencies from './pt-BR/agencies.json';
+import esAgencies from './es/agencies.json';
+
+import enLawyers from './en/lawyers.json';
+import deLawyers from './de/lawyers.json';
+import frLawyers from './fr/lawyers.json';
+import ptBRLawyers from './pt-BR/lawyers.json';
+import esLawyers from './es/lawyers.json';
+
 export const langPrefixToI18nCode: Record<string, string> = {
   en: 'en', de: 'de', fr: 'fr', pt: 'pt-BR', es: 'es',
 };
