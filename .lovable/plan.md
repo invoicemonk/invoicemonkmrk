@@ -20,31 +20,24 @@
 
 ## Current Status
 
-### ✅ Batch 1: Infrastructure (COMPLETE)
-- `src/utils/i18nData.ts` — registry-based helper with English fallback
-- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
-- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
-- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
-- `src/i18n/index.ts` — registered blog, help, glossary namespaces
-- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
+### ✅ Batch 1-10: All Translations & SEO (COMPLETE)
 
-### ✅ Batch 1b: Legal Page Translations (COMPLETE)
+### ✅ SEO Gap Analysis — Koray's Semantic SEO (COMPLETE)
 
-### ✅ Batch 2: Help Center (COMPLETE)
+#### Phase 1 (Complete)
+- `hasPart` on pillar WebPage schema (guides + BlogTopic)
+- Wikipedia `sameAs` on ~37 glossary terms (all terms with Wikipedia articles)
+- QAPageSchema wired into HelpArticle.tsx
+- LearningResource on `/guides/*`
+- ComparisonReview (pro/con) on `/compare/*`
+- `fetchPriority="high"` on BlogPost hero image
 
-### ✅ Batch 3: Glossary Terms (COMPLETE)
+#### Phase 2 (Complete)
+- BreadcrumbSchema on 30+ pages (product, persona, compare, use-case, tools, about, glossary, contact, pricing, blog, author)
+- ProfilePage schema on AuthorPage (via PersonSchema `mainEntityOfPage`)
+- WebPageSchema with `isPartOf` on Freelancers → freelancer-success, Agencies → client-management
 
-### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
-
-### ✅ Batch 5: Corridor Pages (COMPLETE)
-
-### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
-
-### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
-
-### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
-
-### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
-- SEOHead already outputs hreflang for all 5 languages on every page
-- Updated sitemap generator to include country compliance posts and glossary terms
-- No 'enOnly' restrictions found — all content sections are fully multilingual
+#### Phase 3 (Complete)
+- CollectionPage + SearchAction schema on `/blog`
+- Rich `ImageObject` with caption + `representativeOfPage` in ArticleSchema
+- GST and Income Tax glossary terms added with sameAs
