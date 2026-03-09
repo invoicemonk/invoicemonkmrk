@@ -4,6 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema';
 import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
