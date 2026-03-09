@@ -1,50 +1,66 @@
 
 
-# Translation Plan for All Untranslated Content Sections
+## Fix: 404 for `/es/blog/international-payment-fees-guide`
 
-## Content Inventory
+### Root Cause
+The URL `/es/blog/international-payment-fees-guide` results in a 404 because:
+1. The actual blog post slug is `international-payment-fees-explained` (not `international-payment-fees-guide`)
+2. There's no redirect in place for this legacy/mistyped slug
 
-| Section | Items | Languages (de/fr/pt/es) | Total translations |
-|---|---|---|---|
-| Blog posts (main) | ~50 posts | × 4 | 200 |
-| Blog posts (country compliance) | 43 posts | × 4 | 172 |
-| Help center guides | 16 guides | × 4 | 64 |
-| Glossary terms | ~35 terms | × 4 | 140 |
-| Guide detail pages (pillar hubs) | 8 pages | × 4 | 32 |
-| Topic pages (pillar listing) | 1 index + 8 pillars | × 4 | 36 |
-| Author pages | 3 authors | × 4 | 12 |
-| Corridor pages | 9 corridors | × 4 | 36 |
-| Legal pages | 4 pages (Privacy, Terms, Cookie, SLA) | × 4 | 16 |
-| Blog listing page (UI strings) | 1 page | × 4 | 4 |
-| **Total** | | | **~712** |
+The Spanish translation exists in `blogPostsCluster3.es.ts` with slug `international-payment-fees-explained`.
 
-## Current Status
+---
 
-### ✅ Batch 1: Infrastructure (COMPLETE)
-- `src/utils/i18nData.ts` — registry-based helper with English fallback
-- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
-- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
-- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
-- `src/i18n/index.ts` — registered blog, help, glossary namespaces
-- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
+### Fix: Add Vercel 301 Redirect
 
-### ✅ Batch 1b: Legal Page Translations (COMPLETE)
+Add a redirect in `vercel.json` that preserves the language prefix:
 
-### ✅ Batch 2: Help Center (COMPLETE)
+```json
+{
+  "source": "/:lang/blog/international-payment-fees-guide",
+  "destination": "/:lang/blog/international-payment-fees-explained",
+  "permanent": true
+}
+```
 
-### ✅ Batch 3: Glossary Terms (COMPLETE)
+This handles all languages (`/es/`, `/en/`, `/de/`, etc.) with a single rule.
 
-### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
+---
 
-### ✅ Batch 5: Corridor Pages (COMPLETE)
+### Bulk Legacy Slugs Audit
 
-### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
+I'll scan the codebase for other potential slug mismatches. Common patterns to check:
+- Similar internal links referencing non-existent slugs
+- Any hardcoded blog links that don't match actual slugs
 
-### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
+**Immediate findings from search:**
+- `contentIntents.ts` references `understanding-international-payment-fees` in nextSteps — this slug doesn't exist either
 
-### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
+**Proposed additions to vercel.json:**
+```json
+{
+  "source": "/:lang/blog/understanding-international-payment-fees",
+  "destination": "/:lang/blog/international-payment-fees-explained",
+  "permanent": true
+}
+```
 
-### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
-- SEOHead already outputs hreflang for all 5 languages on every page
-- Updated sitemap generator to include country compliance posts and glossary terms
-- No 'enOnly' restrictions found — all content sections are fully multilingual
+---
+
+### Implementation Steps
+
+1. **vercel.json** — Add two legacy blog slug redirects:
+   - `international-payment-fees-guide` → `international-payment-fees-explained`
+   - `understanding-international-payment-fees` → `international-payment-fees-explained`
+
+2. **contentIntents.ts** — Fix the internal reference to use the correct slug
+
+---
+
+### Technical Details
+
+| File | Change |
+|------|--------|
+| `vercel.json` | Add 2 redirect rules with `:lang` wildcard |
+| `src/data/contentIntents.ts` | Update `nextSteps` array to use correct slug |
+
