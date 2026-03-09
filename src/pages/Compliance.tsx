@@ -11,6 +11,7 @@ import {
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 const featureKeys = [

@@ -6,6 +6,8 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingInvoiceCard, FloatingPaymentBadge, FloatingCalendarBadge } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { WebPageSchema } from '@/components/seo/WebPageSchema';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 

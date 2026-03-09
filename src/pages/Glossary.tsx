@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 
 import { DefinedTermSetSchema } from '@/components/seo/DefinedTermSetSchema';
 import { Input } from '@/components/ui/input';

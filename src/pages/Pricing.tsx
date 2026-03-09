@@ -8,6 +8,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
 import { FeatureComparisonTable } from '@/components/pricing/FeatureComparisonTable';
 import { useTranslation } from 'react-i18next';
