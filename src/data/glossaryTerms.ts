@@ -54,7 +54,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Recurring invoices save time for businesses with retainer clients or subscription-based services. They can be set up to send automatically on a weekly, monthly, quarterly, or annual basis. Automation reduces administrative burden and ensures consistent billing.',
     relatedTerms: ['invoice', 'retainer', 'subscription-billing'],
     category: 'invoicing',
-    relatedArticles: ['recurring-invoices-automating-billing']
+    relatedArticles: ['recurring-invoices-automating-billing'],
+    sameAs: 'https://en.wikipedia.org/wiki/Recurring_invoice'
   },
   {
     term: 'Invoice Number',
