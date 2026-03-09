@@ -130,7 +130,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Positive cash flow means more money coming in than going out. Even profitable businesses can fail with poor cash flow management. Key strategies include timely invoicing, efficient collections, managing payment terms with suppliers, and maintaining cash reserves.',
     relatedTerms: ['accounts-receivable', 'accounts-payable', 'working-capital'],
     category: 'accounting',
-    relatedArticles: ['cash-flow-forecasting-for-freelancers']
+    relatedArticles: ['cash-flow-forecasting-for-freelancers'],
+    sameAs: 'https://en.wikipedia.org/wiki/Cash_flow'
   },
   {
     term: 'Chart of Accounts',
