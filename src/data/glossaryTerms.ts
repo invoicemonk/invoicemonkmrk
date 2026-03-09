@@ -317,7 +317,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Expense reports typically include date, vendor, amount, category, and receipt documentation. They serve both internal tracking and tax compliance purposes. Modern expense management software automates report creation by importing transactions and attaching scanned receipts.',
     relatedTerms: ['tax-deduction', 'accounts-payable', 'cash-flow'],
     category: 'accounting',
-    relatedArticles: ['expense-reports-freelancers']
+    relatedArticles: ['expense-reports-freelancers'],
+    sameAs: 'https://en.wikipedia.org/wiki/Expense_report'
   },
   {
     term: 'Receipt Scanning (OCR)',
