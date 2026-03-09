@@ -56,6 +56,8 @@ export function ItemListSchema({
 }
 
 // Specific variant for blog topic categories
+import { useParams } from 'react-router-dom';
+
 interface BlogTopicListSchemaProps {
   topics: Array<{
     id: string;
@@ -66,11 +68,13 @@ interface BlogTopicListSchemaProps {
 }
 
 export function BlogTopicListSchema({ topics }: BlogTopicListSchemaProps) {
-  const baseUrl = 'https://invoicemonk.com';
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
+  const BASE = 'https://invoicemonk.com';
   
   const items = topics.map(topic => ({
     name: topic.title,
-    url: `${baseUrl}/blog?pillar=${topic.id}`,
+    url: `${BASE}/${prefix}/blog?pillar=${topic.id}`,
     description: topic.description
   }));
 

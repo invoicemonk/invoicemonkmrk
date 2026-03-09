@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useParams } from 'react-router-dom';
 import type { Author } from '@/data/authors';
 
 interface CredentialSchema {
@@ -17,6 +18,10 @@ interface PersonSchemaProps {
  * Includes knowsAbout (expertise), hasCredential (certifications), and sameAs (authoritative profiles)
  */
 export function PersonSchema({ author, isMainEntity = false }: PersonSchemaProps) {
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
+  const BASE = 'https://invoicemonk.com';
+
   // Convert credentials to structured schema format
   const credentialSchemas: CredentialSchema[] = author.credentials.map((credential) => ({
     '@type': 'EducationalOccupationalCredential',
@@ -35,10 +40,10 @@ export function PersonSchema({ author, isMainEntity = false }: PersonSchemaProps
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    '@id': `https://invoicemonk.com/blog/author/${author.slug}#person`,
+    '@id': `${BASE}/${prefix}/blog/author/${author.slug}#person`,
     name: author.name,
-    url: `https://invoicemonk.com/blog/author/${author.slug}`,
-    image: `https://invoicemonk.com${author.avatar}`,
+    url: `${BASE}/${prefix}/blog/author/${author.slug}`,
+    image: `${BASE}${author.avatar}`,
     jobTitle: author.role,
     description: author.bio,
     
@@ -64,7 +69,7 @@ export function PersonSchema({ author, isMainEntity = false }: PersonSchemaProps
   if (isMainEntity) {
     schema.mainEntityOfPage = {
       '@type': 'ProfilePage',
-      '@id': `https://invoicemonk.com/blog/author/${author.slug}`
+      '@id': `${BASE}/${prefix}/blog/author/${author.slug}`
     };
   }
 

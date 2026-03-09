@@ -1,8 +1,12 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocale } from '@/hooks/useLocale';
+import { useParams } from 'react-router-dom';
 
 export function WebSiteSchema() {
   const { locale } = useLocale();
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
+  const BASE = 'https://invoicemonk.com';
 
   const schema = {
     "@context": "https://schema.org",
@@ -21,13 +25,13 @@ export function WebSiteSchema() {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://invoicemonk.com/blog?q={search_term_string}"
+          "urlTemplate": `${BASE}/${prefix}/blog?q={search_term_string}`
         },
         "query-input": "required name=search_term_string"
       },
       {
         "@type": "ReadAction",
-        "target": "https://invoicemonk.com/blog"
+        "target": `${BASE}/${prefix}/blog`
       }
     ]
   };

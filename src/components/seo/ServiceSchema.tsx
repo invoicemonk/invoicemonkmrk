@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useParams } from 'react-router-dom';
 
 interface ServiceSchemaProps {
   serviceName: string;
@@ -24,6 +25,10 @@ export function ServiceSchema({
   price = "0",
   priceCurrency = "USD"
 }: ServiceSchemaProps) {
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
+  const BASE = 'https://invoicemonk.com';
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -48,7 +53,7 @@ export function ServiceSchema({
       "availability": "https://schema.org/InStock",
       "description": "Free tier available with premium options"
     },
-    "termsOfService": "https://invoicemonk.com/terms-of-service",
+    "termsOfService": `${BASE}/${prefix}/terms-of-service`,
     "serviceOutput": {
       "@type": "Thing",
       "name": serviceType
