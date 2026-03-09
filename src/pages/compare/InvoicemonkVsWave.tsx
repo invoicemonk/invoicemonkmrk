@@ -31,6 +31,7 @@ export default function InvoicemonkVsWave() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Compare', url: '/compare/best-invoicing-software' }, { name: 'vs Wave', url: '/compare/invoicemonk-vs-wave' }]} />
       <ComparisonReviewSchema
         itemName="Invoicemonk"
         competitorName="Wave"

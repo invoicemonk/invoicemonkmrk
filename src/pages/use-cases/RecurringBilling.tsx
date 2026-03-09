@@ -28,6 +28,7 @@ export default function RecurringBilling() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Use Cases', url: '/recurring-billing' }, { name: 'Recurring Billing', url: '/recurring-billing' }]} />
       <PageHero
         badge={{ icon: RefreshCw, text: t('hero.badge') }}
         title={t('hero.title')}

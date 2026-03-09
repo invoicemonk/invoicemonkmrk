@@ -31,6 +31,7 @@ export default function InvoicemonkVsZoho() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Compare', url: '/compare/best-invoicing-software' }, { name: 'vs Zoho', url: '/compare/invoicemonk-vs-zoho' }]} />
       <ComparisonReviewSchema
         itemName="Invoicemonk"
         competitorName="Zoho Invoice"

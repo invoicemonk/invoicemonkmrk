@@ -32,6 +32,7 @@ export default function InvoicemonkVsFreshbooks() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Compare', url: '/compare/best-invoicing-software' }, { name: 'vs FreshBooks', url: '/compare/invoicemonk-vs-freshbooks' }]} />
       <ComparisonReviewSchema
         itemName="Invoicemonk"
         competitorName="FreshBooks"

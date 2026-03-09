@@ -32,6 +32,7 @@ export default function InvoicemonkVsQuickbooks() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Compare', url: '/compare/best-invoicing-software' }, { name: 'vs QuickBooks', url: '/compare/invoicemonk-vs-quickbooks' }]} />
       <ComparisonReviewSchema
         itemName="Invoicemonk"
         competitorName="QuickBooks"

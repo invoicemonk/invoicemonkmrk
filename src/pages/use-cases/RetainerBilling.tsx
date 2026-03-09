@@ -26,6 +26,7 @@ export default function RetainerBilling() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Use Cases', url: '/retainer-billing' }, { name: 'Retainer Billing', url: '/retainer-billing' }]} />
       <PageHero
         badge={{ icon: Briefcase, text: t('hero.badge') }}
         title={t('hero.title')}
