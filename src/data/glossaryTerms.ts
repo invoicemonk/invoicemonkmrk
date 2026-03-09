@@ -120,7 +120,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Money a business owes to suppliers and vendors for goods or services received but not yet paid for.',
     extendedDescription: 'Accounts payable is a liability on the balance sheet representing short-term obligations. Managing AP effectively involves tracking payment due dates, taking advantage of early payment discounts, and maintaining good vendor relationships while optimizing cash flow.',
     relatedTerms: ['accounts-receivable', 'vendor', 'cash-flow'],
-    category: 'accounting'
+    category: 'accounting',
+    sameAs: 'https://en.wikipedia.org/wiki/Accounts_payable'
   },
   {
     term: 'Cash Flow',
