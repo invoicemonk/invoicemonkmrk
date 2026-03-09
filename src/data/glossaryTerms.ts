@@ -327,7 +327,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'OCR technology reads printed text on receipts and converts it into structured digital data—extracting vendor names, dates, amounts, and tax information automatically. This eliminates manual data entry, reduces errors, and creates searchable digital records accepted by tax authorities like the IRS, HMRC, and FIRS.',
     relatedTerms: ['expense-report', 'tax-deduction'],
     category: 'accounting',
-    relatedArticles: ['receipt-scanning-apps-comparison', 'digital-receipt-management-guide']
+    relatedArticles: ['receipt-scanning-apps-comparison', 'digital-receipt-management-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Optical_character_recognition'
   },
   {
     term: 'Expense Category',
