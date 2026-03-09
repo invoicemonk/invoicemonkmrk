@@ -396,7 +396,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'CRM systems range from simple spreadsheets to enterprise software like Salesforce. For freelancers and small businesses, a lightweight CRM that tracks contact details, project history, communication logs, and payment status is usually sufficient. Many invoicing platforms include basic CRM features that eliminate the need for separate CRM software.',
     relatedTerms: ['client-onboarding', 'client-retention'],
     category: 'business',
-    relatedArticles: ['crm-for-freelancers-small-business']
+    relatedArticles: ['crm-for-freelancers-small-business'],
+    sameAs: 'https://en.wikipedia.org/wiki/Customer_relationship_management'
   },
   {
     term: 'Client Communication',
