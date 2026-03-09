@@ -809,7 +809,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     ],
     nextSteps: [
       'currency-conversion-international-payments',
-      'understanding-international-payment-fees'
+      'international-payment-fees-explained'
     ]
   },
   'currency-conversion-international-payments': {
