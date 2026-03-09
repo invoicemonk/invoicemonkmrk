@@ -1,50 +1,107 @@
 
 
-# Translation Plan for All Untranslated Content Sections
+## Structured Data Schema Audit Results
 
-## Content Inventory
+### Overview
+Audited all 14 schema files in `src/components/seo/` for relative URL issues. Found **6 schemas** with hardcoded URLs missing language prefix support—similar to the BreadcrumbSchema issue we fixed.
 
-| Section | Items | Languages (de/fr/pt/es) | Total translations |
-|---|---|---|---|
-| Blog posts (main) | ~50 posts | × 4 | 200 |
-| Blog posts (country compliance) | 43 posts | × 4 | 172 |
-| Help center guides | 16 guides | × 4 | 64 |
-| Glossary terms | ~35 terms | × 4 | 140 |
-| Guide detail pages (pillar hubs) | 8 pages | × 4 | 32 |
-| Topic pages (pillar listing) | 1 index + 8 pillars | × 4 | 36 |
-| Author pages | 3 authors | × 4 | 12 |
-| Corridor pages | 9 corridors | × 4 | 36 |
-| Legal pages | 4 pages (Privacy, Terms, Cookie, SLA) | × 4 | 16 |
-| Blog listing page (UI strings) | 1 page | × 4 | 4 |
-| **Total** | | | **~712** |
+---
 
-## Current Status
+### Issues Found by Severity
 
-### ✅ Batch 1: Infrastructure (COMPLETE)
-- `src/utils/i18nData.ts` — registry-based helper with English fallback
-- `src/i18n/{lang}/blog.json` — UI strings for blog pages (5 languages)
-- `src/i18n/{lang}/help.json` — UI strings for help center (5 languages)
-- `src/i18n/{lang}/glossary.json` — UI strings for glossary (5 languages)
-- `src/i18n/index.ts` — registered blog, help, glossary namespaces
-- Updated page components: Blog.tsx, BlogPost.tsx, BlogTopic.tsx, AuthorPage.tsx, HelpCenter.tsx, HelpArticle.tsx, Glossary.tsx, GuidesIndex.tsx
+#### 🔴 HIGH — Missing Language Prefix (6 files)
 
-### ✅ Batch 1b: Legal Page Translations (COMPLETE)
+| Schema | Issues |
+|--------|--------|
+| **ArticleSchema** | Author URLs, pillar hub pages, product pages, blog category URLs all hardcoded without `/{lang}/`. Also `inLanguage: "en"` hardcoded. |
+| **PersonSchema** | Author page URLs and avatar images hardcoded without `/{lang}/` prefix. |
+| **DefinedTermSetSchema** | Glossary URLs (`/glossary#term`) hardcoded without `/{lang}/` prefix. |
+| **ServiceSchema** | `terms-of-service` URL hardcoded without `/{lang}/` prefix. |
+| **ItemListSchema** | `BlogTopicListSchema` uses hardcoded `baseUrl` for blog filter URLs. |
+| **WebSiteSchema** | Search action URL template hardcoded without `/{lang}/` prefix. |
 
-### ✅ Batch 2: Help Center (COMPLETE)
+#### ✅ OK — No Issues (8 files)
 
-### ✅ Batch 3: Glossary Terms (COMPLETE)
+- **FAQSchema** — Uses passed props only, no URL construction
+- **HowToSchema** — Uses passed props only
+- **ReviewSchema** — Uses passed props only
+- **BreadcrumbSchema** — Already fixed (uses `useParams` for lang)
+- **SEOHead** — Generates canonical/hreflang correctly
+- **SoftwareApplicationSchema** — Organization-level, language-agnostic
+- **OrganizationSchema** — Organization-level, language-agnostic (correct)
+- **seoConfig.ts** — Configuration only
 
-### ✅ Batch 4: Guide Detail Pages + Topic Pages + Authors (COMPLETE)
+---
 
-### ✅ Batch 5: Corridor Pages (COMPLETE)
+### Fix Pattern
 
-### ✅ Batch 6: Blog Posts — Pillar Hub Pages (COMPLETE)
+Use the same approach applied to BreadcrumbSchema:
 
-### ✅ Batch 7: Blog Posts — Cluster Posts (COMPLETE)
+```tsx
+import { useParams } from 'react-router-dom';
 
-### ✅ Batch 8: Blog Posts — Country Compliance Posts (COMPLETE)
+const BASE = 'https://invoicemonk.com';
 
-### ✅ Batch 10: SEOHead + Sitemap Finalization (COMPLETE)
-- SEOHead already outputs hreflang for all 5 languages on every page
-- Updated sitemap generator to include country compliance posts and glossary terms
-- No 'enOnly' restrictions found — all content sections are fully multilingual
+// Inside component:
+const { lang } = useParams<{ lang: string }>();
+const prefix = lang?.toLowerCase() || 'en';
+
+const normalize = (path: string) => `${BASE}/${prefix}${path}`;
+```
+
+---
+
+### Detailed Changes Required
+
+#### 1. ArticleSchema.tsx
+- Add `useParams` to get current language
+- Update `inLanguage` dynamically based on lang
+- Prefix all internal URLs:
+  - Author URLs: `/blog/author/{slug}` → `/{lang}/blog/author/{slug}`
+  - Pillar hub pages: `pillar.hubPage` → `/{lang}{pillar.hubPage}`
+  - Product pages: `pillar.targetProduct` → `/{lang}{pillar.targetProduct}`
+  - Blog category URLs: `/blog?category=X` → `/{lang}/blog?category=X`
+  - Key topic links: `topic.link` → `/{lang}{topic.link}`
+
+#### 2. PersonSchema.tsx
+- Add `useParams` for language prefix
+- Update author URLs and mainEntityOfPage
+
+#### 3. DefinedTermSetSchema.tsx
+- Add `useParams` for language prefix
+- Update all glossary term URLs
+
+#### 4. ServiceSchema.tsx
+- Add `useParams` for language prefix
+- Update `termsOfService` URL
+
+#### 5. ItemListSchema.tsx (BlogTopicListSchema)
+- Add `useParams` for language prefix
+- Update blog filter URLs in `BlogTopicListSchema`
+
+#### 6. WebSiteSchema.tsx
+- Add `useParams` for language prefix
+- Update search action URL template and ReadAction target
+
+---
+
+### Language Code Mapping
+
+Need to map route prefix to ISO language codes for `inLanguage`:
+
+| Route | inLanguage |
+|-------|------------|
+| `/en/` | `en` |
+| `/de/` | `de` |
+| `/fr/` | `fr` |
+| `/pt/` | `pt-BR` |
+| `/es/` | `es` |
+
+---
+
+### Impact
+
+- **~15 URL patterns** need language prefix injection
+- **No breaking changes** — all props remain the same
+- **GSC benefit** — Eliminates potential "Page outside known hreflang cluster" warnings for schema URLs
+
