@@ -50,7 +50,7 @@ export function SingleTermSchema({ term }: SingleTermSchemaProps) {
   const prefix = lang?.toLowerCase() || 'en';
   const BASE = 'https://invoicemonk.com';
 
-  const schema = {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'DefinedTerm',
     '@id': `${BASE}/${prefix}/glossary#${term.slug}`,
@@ -62,6 +62,9 @@ export function SingleTermSchema({ term }: SingleTermSchemaProps) {
       name: 'Business Finance & Invoicing Glossary'
     }
   };
+  if (term.sameAs) {
+    schema.sameAs = term.sameAs;
+  }
 
   return (
     <Helmet>
