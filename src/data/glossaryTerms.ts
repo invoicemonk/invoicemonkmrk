@@ -34,7 +34,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Credit notes function as negative invoices, reducing the total amount owed by a customer. They are essential for maintaining accurate accounting records when adjustments are needed. A credit note should reference the original invoice and clearly state the reason for the credit.',
     relatedTerms: ['invoice', 'debit-note', 'accounts-receivable'],
     category: 'invoicing',
-    relatedArticles: ['credit-notes-how-and-when-to-use-them']
+    relatedArticles: ['credit-notes-how-and-when-to-use-them'],
+    sameAs: 'https://en.wikipedia.org/wiki/Credit_note'
   },
   {
     term: 'Pro Forma Invoice',
