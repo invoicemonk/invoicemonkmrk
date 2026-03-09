@@ -200,7 +200,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Common business deductions include office expenses, equipment, travel, professional services, and insurance. Proper documentation is essential—keep receipts and records for the required retention period. Consult a tax professional for jurisdiction-specific rules.',
     relatedTerms: ['taxable-income', 'business-expense', 'depreciation'],
     category: 'tax',
-    relatedArticles: ['small-business-tax-deductions-guide']
+    relatedArticles: ['small-business-tax-deductions-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Tax_deduction'
   },
   {
     term: 'Withholding Tax',
