@@ -24,7 +24,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'An invoice serves as a legal record of a transaction and a formal request for payment. Professional invoices include essential elements like invoice numbers, dates, itemized descriptions, and tax information. They are crucial for cash flow management, tax compliance, and maintaining professional business relationships.',
     relatedTerms: ['credit-note', 'pro-forma-invoice', 'recurring-invoice', 'accounts-receivable'],
     category: 'invoicing',
-    relatedArticles: ['complete-guide-to-business-invoicing', '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners']
+    relatedArticles: ['complete-guide-to-business-invoicing', '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners'],
+    sameAs: 'https://en.wikipedia.org/wiki/Invoice'
   },
   {
     term: 'Credit Note',
