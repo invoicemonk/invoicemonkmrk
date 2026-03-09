@@ -44,7 +44,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Pro forma invoices are used as quotations or estimates and are not demands for payment. They help clients understand expected costs and are commonly used in international trade for customs purposes. Unlike regular invoices, they can be modified before the final invoice is issued.',
     relatedTerms: ['invoice', 'estimate', 'quote'],
     category: 'invoicing',
-    relatedArticles: ['proforma-invoice-vs-commercial-invoice']
+    relatedArticles: ['proforma-invoice-vs-commercial-invoice'],
+    sameAs: 'https://en.wikipedia.org/wiki/Pro_forma_invoice'
   },
   {
     term: 'Recurring Invoice',
