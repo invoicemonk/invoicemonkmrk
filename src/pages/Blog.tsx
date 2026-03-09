@@ -19,6 +19,7 @@ import { IntentFilter, IntentBadge, ExperienceBadge } from '@/components/blog/In
 import { ContentSearchBox } from '@/components/blog/ContentSearchBox';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { BlogTopicListSchema } from '@/components/seo/ItemListSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useLocale } from '@/hooks/useLocale';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
