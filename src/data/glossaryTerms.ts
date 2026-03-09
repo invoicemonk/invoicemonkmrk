@@ -227,7 +227,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Estimates give clients an idea of expected costs before committing. They differ from quotes (which are typically fixed) and should clearly state assumptions and conditions that could affect the final price. Converting accepted estimates to invoices streamlines billing.',
     relatedTerms: ['quote', 'proposal', 'pro-forma-invoice'],
     category: 'business',
-    relatedArticles: ['estimate-vs-quote-vs-invoice-difference']
+    relatedArticles: ['estimate-vs-quote-vs-invoice-difference'],
+    sameAs: 'https://en.wikipedia.org/wiki/Estimation_(project_management)'
   },
   {
     term: 'Quote',
