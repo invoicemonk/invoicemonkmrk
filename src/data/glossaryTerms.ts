@@ -82,7 +82,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Payment terms indicating the full invoice amount is due within 30 days of the invoice date.',
     extendedDescription: 'Net 30 is one of the most common payment terms in business. Variations include Net 15, Net 60, and Net 90 for shorter or longer payment windows. The "net" refers to the total amount due without any deductions.',
     relatedTerms: ['payment-terms', 'due-on-receipt', 'accounts-receivable'],
-    category: 'payments'
+    category: 'payments',
+    sameAs: 'https://en.wikipedia.org/wiki/Net_D'
   },
   {
     term: 'Due on Receipt',
