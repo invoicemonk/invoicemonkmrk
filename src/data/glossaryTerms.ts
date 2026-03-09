@@ -64,7 +64,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Invoice numbering systems help organize records, simplify payment reconciliation, and meet tax authority requirements. Common formats include sequential numbers (001, 002), date-based codes (2024-001), or client-prefixed identifiers (ABC-001). Invoice numbers should never be reused.',
     relatedTerms: ['invoice', 'purchase-order'],
     category: 'invoicing',
-    relatedArticles: ['invoice-numbering-best-practices']
+    relatedArticles: ['invoice-numbering-best-practices'],
+    sameAs: 'https://en.wikipedia.org/wiki/Invoice#Invoice_number'
   },
   {
     term: 'Payment Terms',
