@@ -256,7 +256,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'An ongoing fee paid to secure continued services, often billed monthly for a set number of hours or deliverables.',
     extendedDescription: 'Retainer agreements provide predictable income for service providers and priority access for clients. They typically specify minimum hours/deliverables, rollover policies, and scope boundaries. Monthly retainers are common in consulting, legal, and creative services.',
     relatedTerms: ['recurring-invoice', 'service-agreement', 'scope-of-work'],
-    category: 'business'
+    category: 'business',
+    sameAs: 'https://en.wikipedia.org/wiki/Retainer_agreement'
   },
   {
     term: 'Scope of Work',
