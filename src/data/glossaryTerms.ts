@@ -170,7 +170,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Accrual accounting provides a more accurate picture of a company\'s financial health by matching revenues with related expenses. It\'s required for larger businesses and those seeking outside investment. GAAP (Generally Accepted Accounting Principles) requires accrual-based financial statements.',
     relatedTerms: ['cash-basis-accounting', 'revenue-recognition', 'matching-principle'],
     category: 'accounting',
-    relatedArticles: ['cash-vs-accrual-accounting-explained']
+    relatedArticles: ['cash-vs-accrual-accounting-explained'],
+    sameAs: 'https://en.wikipedia.org/wiki/Accrual'
   },
 
   // Tax Terms
