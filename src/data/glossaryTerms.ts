@@ -104,7 +104,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Commonly expressed as "2/10 Net 30" meaning 2% discount if paid within 10 days, otherwise full amount due in 30 days. Early payment discounts improve cash flow but should be calculated carefully—a 2% discount for 20 days early equals approximately 36% annually.',
     relatedTerms: ['payment-terms', 'cash-flow', 'accounts-receivable'],
     category: 'payments',
-    relatedArticles: ['early-payment-discounts-do-they-work']
+    relatedArticles: ['early-payment-discounts-do-they-work'],
+    sameAs: 'https://en.wikipedia.org/wiki/Cash_discount'
   },
 
   // Accounting Terms
