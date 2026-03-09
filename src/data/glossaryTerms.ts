@@ -237,7 +237,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Unlike estimates, quotes are generally considered binding once accepted. They should specify exactly what is included, the validity period, payment terms, and any conditions. Professional quotes build client confidence and reduce scope creep.',
     relatedTerms: ['estimate', 'proposal', 'invoice'],
     category: 'business',
-    relatedArticles: ['estimate-vs-quote-vs-invoice-difference']
+    relatedArticles: ['estimate-vs-quote-vs-invoice-difference'],
+    sameAs: 'https://en.wikipedia.org/wiki/Quotation_(commerce)'
   },
   {
     term: 'Proposal',
