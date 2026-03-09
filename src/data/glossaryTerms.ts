@@ -182,7 +182,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'VAT is used in over 160 countries including the UK, EU, Nigeria, and Australia (as GST). VAT-registered businesses collect VAT on sales and can reclaim VAT paid on business purchases. Rates and thresholds vary by country.',
     relatedTerms: ['sales-tax', 'gst', 'tax-invoice'],
     category: 'tax',
-    relatedArticles: ['hmrc-invoicing-rules-uk-mtd-compliance']
+    relatedArticles: ['hmrc-invoicing-rules-uk-mtd-compliance'],
+    sameAs: 'https://en.wikipedia.org/wiki/Value-added_tax'
   },
   {
     term: 'Tax Invoice',
