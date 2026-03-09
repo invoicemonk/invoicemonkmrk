@@ -111,7 +111,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Accounts receivable appears as an asset on the balance sheet. Effective AR management includes timely invoicing, clear payment terms, systematic follow-up on overdue accounts, and aging analysis to identify collection issues. High AR can indicate cash flow problems.',
     relatedTerms: ['accounts-payable', 'invoice', 'cash-flow', 'aging-report'],
     category: 'accounting',
-    relatedArticles: ['ultimate-guide-getting-paid-faster']
+    relatedArticles: ['ultimate-guide-getting-paid-faster'],
+    sameAs: 'https://en.wikipedia.org/wiki/Accounts_receivable'
   },
   {
     term: 'Accounts Payable',
