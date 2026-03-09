@@ -15,6 +15,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 const quickFeatureKeys = [
@@ -67,6 +68,7 @@ const Invoicing = () => {
         description="The easiest invoicing software for small businesses and freelancers. Create professional invoices in minutes, automate reminders, and get paid faster. Free tier available."
       />
       <FAQSchema items={invoicingFAQs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/invoicing' }, { name: 'Invoicing', url: '/invoicing' }]} />
       <ServiceSchema
         serviceName="Invoicemonk Invoicing Software"
         serviceType="Invoicing Software"

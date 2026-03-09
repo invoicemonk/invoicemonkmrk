@@ -10,6 +10,7 @@ import {
 } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 
@@ -40,6 +41,7 @@ const Consultants = () => {
         description={t('seo.description')}
       />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Consultants', url: '/consultants' }]} />
 
       {/* Hero Section */}
       <div className="relative">

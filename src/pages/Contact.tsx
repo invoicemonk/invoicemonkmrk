@@ -12,6 +12,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 const faqKeys = ['responseTime', 'supportChannels', 'phoneSupport'] as const;
@@ -98,6 +99,7 @@ const Contact = () => {
   return (
     <Layout>
       <FAQSchema items={contactFAQs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact' }]} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Contact Us | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Get in touch with Invoicemonk. We are here to help with your invoicing needs.'}

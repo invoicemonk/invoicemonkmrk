@@ -15,6 +15,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 import expensesReceiptScanning from '@/assets/expenses-receipt-scanning.jpg';
@@ -75,6 +76,7 @@ const Expenses = () => {
   return (
     <Layout>
       <FAQSchema items={[...expensesSEOFAQs, ...expensesFAQs]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/expenses' }, { name: 'Expenses', url: '/expenses' }]} />
       <SEOHead
         title="Business Expense Tracking Software | Receipt Scanning | Invoicemonk"
         description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports. Integrated with invoicing."

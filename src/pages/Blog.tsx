@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
@@ -19,6 +20,7 @@ import { IntentFilter, IntentBadge, ExperienceBadge } from '@/components/blog/In
 import { ContentSearchBox } from '@/components/blog/ContentSearchBox';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { BlogTopicListSchema } from '@/components/seo/ItemListSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useLocale } from '@/hooks/useLocale';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
@@ -194,6 +196,26 @@ const Blog = () => {
         title={seo.getTitle(locale)}
         description={seo.getDescription(locale)}
       />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }]} />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: seo.getTitle(locale),
+            description: seo.getDescription(locale),
+            url: `https://invoicemonk.com/${lang}/blog`,
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: {
+                '@type': 'EntryPoint',
+                urlTemplate: `https://invoicemonk.com/${lang}/blog?q={search_term_string}`
+              },
+              'query-input': 'required name=search_term_string'
+            }
+          })}
+        </script>
+      </Helmet>
       
       {/* ItemList Schema for blog topics */}
       {viewMode === 'topics' && !selectedPillar && !selectedCategory && (

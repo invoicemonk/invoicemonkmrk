@@ -7,6 +7,7 @@ import { PageHero } from '@/components/shared/PageHero';
 import { FloatingChartCard, FloatingInvoiceCard, FloatingIcon } from '@/components/shared/FloatingElements';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 
 const benefitIcons = [FileText, Users, BarChart3, Shield];
@@ -37,6 +38,7 @@ const SmallBusinesses = () => {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Small Businesses', url: '/small-businesses' }]} />
 
       {/* Hero */}
       <div className="relative">

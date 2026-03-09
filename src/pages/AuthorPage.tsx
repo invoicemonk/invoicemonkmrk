@@ -5,6 +5,7 @@ import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { PersonSchema } from '@/components/seo/PersonSchema';
 import { ItemListSchema } from '@/components/seo/ItemListSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -36,6 +37,7 @@ const AuthorPage = () => {
         ogType="profile"
       />
       <PersonSchema author={author} isMainEntity />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: author.name, url: `/blog/author/${author.slug}` }]} />
       {authorPosts.length > 0 && (
         <ItemListSchema
           name={`Articles by ${author.name}`}

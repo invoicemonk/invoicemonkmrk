@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 
 import { DefinedTermSetSchema } from '@/components/seo/DefinedTermSetSchema';
 import { Input } from '@/components/ui/input';
@@ -143,6 +144,7 @@ const Glossary = () => {
   return (
     <Layout>
       <FAQSchema items={t('faqs', { returnObjects: true }) as Array<{ question: string; answer: string }>} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Glossary', url: '/glossary' }]} />
       <SEOHead
         title={t('seoTitle')}
         description={t('seoDescription')}

@@ -54,7 +54,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Recurring invoices save time for businesses with retainer clients or subscription-based services. They can be set up to send automatically on a weekly, monthly, quarterly, or annual basis. Automation reduces administrative burden and ensures consistent billing.',
     relatedTerms: ['invoice', 'retainer', 'subscription-billing'],
     category: 'invoicing',
-    relatedArticles: ['recurring-invoices-automating-billing']
+    relatedArticles: ['recurring-invoices-automating-billing'],
+    sameAs: 'https://en.wikipedia.org/wiki/Recurring_invoice'
   },
   {
     term: 'Invoice Number',
@@ -63,7 +64,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Invoice numbering systems help organize records, simplify payment reconciliation, and meet tax authority requirements. Common formats include sequential numbers (001, 002), date-based codes (2024-001), or client-prefixed identifiers (ABC-001). Invoice numbers should never be reused.',
     relatedTerms: ['invoice', 'purchase-order'],
     category: 'invoicing',
-    relatedArticles: ['invoice-numbering-best-practices']
+    relatedArticles: ['invoice-numbering-best-practices'],
+    sameAs: 'https://en.wikipedia.org/wiki/Invoice#Invoice_number'
   },
   {
     term: 'Payment Terms',
@@ -72,7 +74,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Common payment terms include Net 15, Net 30, Due on Receipt, and 2/10 Net 30 (2% discount if paid within 10 days). Clear payment terms set expectations, reduce disputes, and can incentivize faster payments. Terms should be agreed upon before work begins and clearly stated on invoices.',
     relatedTerms: ['net-30', 'due-on-receipt', 'early-payment-discount'],
     category: 'payments',
-    relatedArticles: ['how-to-write-invoice-payment-terms', 'understanding-payment-terms-guide']
+    relatedArticles: ['how-to-write-invoice-payment-terms', 'understanding-payment-terms-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Payment_term'
   },
   
   // Payment Terms
@@ -91,7 +94,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Payment terms requiring immediate payment upon receiving the invoice.',
     extendedDescription: 'Due on Receipt terms request payment as soon as the invoice is received, though practically this often means within a few days. These terms are common for new client relationships, smaller amounts, or when the seller needs immediate cash flow.',
     relatedTerms: ['payment-terms', 'net-30', 'cash-on-delivery'],
-    category: 'payments'
+    category: 'payments',
+    sameAs: 'https://en.wikipedia.org/wiki/Payment_term'
   },
   {
     term: 'Early Payment Discount',
@@ -100,7 +104,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Commonly expressed as "2/10 Net 30" meaning 2% discount if paid within 10 days, otherwise full amount due in 30 days. Early payment discounts improve cash flow but should be calculated carefully—a 2% discount for 20 days early equals approximately 36% annually.',
     relatedTerms: ['payment-terms', 'cash-flow', 'accounts-receivable'],
     category: 'payments',
-    relatedArticles: ['early-payment-discounts-do-they-work']
+    relatedArticles: ['early-payment-discounts-do-they-work'],
+    sameAs: 'https://en.wikipedia.org/wiki/Cash_discount'
   },
 
   // Accounting Terms
@@ -186,12 +191,31 @@ export const glossaryTerms: GlossaryTerm[] = [
     sameAs: 'https://en.wikipedia.org/wiki/Value-added_tax'
   },
   {
+    term: 'GST (Goods and Services Tax)',
+    slug: 'gst',
+    definition: 'A broad-based consumption tax levied on most goods and services sold in a country, commonly used in Australia, India, Canada, and New Zealand.',
+    extendedDescription: 'GST is functionally similar to VAT and is collected at each stage of production and distribution. GST-registered businesses can claim input tax credits for GST paid on business purchases. Rates vary by country—10% in Australia, 5% in Canada, and range from 0% to 28% in India with its multi-slab structure.',
+    relatedTerms: ['vat', 'tax-invoice', 'income-tax'],
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Goods_and_services_tax_(Australia)'
+  },
+  {
+    term: 'Income Tax',
+    slug: 'income-tax',
+    definition: 'A tax imposed by governments on the income earned by individuals and businesses within their jurisdiction.',
+    extendedDescription: 'For freelancers and small business owners, income tax applies to business profits after deducting allowable expenses. Tax rates, thresholds, and filing requirements vary by country. Quarterly estimated payments are often required to avoid penalties. Proper bookkeeping and expense tracking are essential for minimizing tax liability.',
+    relatedTerms: ['tax-deduction', 'withholding-tax', 'vat'],
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Income_tax'
+  },
+  {
     term: 'Tax Invoice',
     slug: 'tax-invoice',
     definition: 'An invoice that includes specific tax information required by tax authorities for VAT/GST purposes.',
     extendedDescription: 'Tax invoices must contain elements like tax registration numbers, tax amounts, and in some jurisdictions, specific wording. They enable businesses to claim input tax credits and are essential for tax compliance and audit readiness.',
     relatedTerms: ['vat', 'invoice', 'input-tax-credit'],
-    category: 'tax'
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Tax_invoice'
   },
   {
     term: 'Tax Deduction',
@@ -221,7 +245,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Estimates give clients an idea of expected costs before committing. They differ from quotes (which are typically fixed) and should clearly state assumptions and conditions that could affect the final price. Converting accepted estimates to invoices streamlines billing.',
     relatedTerms: ['quote', 'proposal', 'pro-forma-invoice'],
     category: 'business',
-    relatedArticles: ['estimate-vs-quote-vs-invoice-difference']
+    relatedArticles: ['estimate-vs-quote-vs-invoice-difference'],
+    sameAs: 'https://en.wikipedia.org/wiki/Estimation_(project_management)'
   },
   {
     term: 'Quote',
@@ -230,7 +255,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Unlike estimates, quotes are generally considered binding once accepted. They should specify exactly what is included, the validity period, payment terms, and any conditions. Professional quotes build client confidence and reduce scope creep.',
     relatedTerms: ['estimate', 'proposal', 'invoice'],
     category: 'business',
-    relatedArticles: ['estimate-vs-quote-vs-invoice-difference']
+    relatedArticles: ['estimate-vs-quote-vs-invoice-difference'],
+    sameAs: 'https://en.wikipedia.org/wiki/Quotation_(commerce)'
   },
   {
     term: 'Proposal',
@@ -239,7 +265,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Business proposals go beyond pricing to demonstrate understanding of client needs, proposed methodology, relevant experience, and expected outcomes. Effective proposals are customized, professional, and clearly articulate value. They often include terms and conditions.',
     relatedTerms: ['estimate', 'quote', 'scope-of-work'],
     category: 'business',
-    relatedArticles: ['how-to-write-winning-business-proposal']
+    relatedArticles: ['how-to-write-winning-business-proposal'],
+    sameAs: 'https://en.wikipedia.org/wiki/Business_proposal'
   },
   {
     term: 'Retainer',
@@ -247,7 +274,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'An ongoing fee paid to secure continued services, often billed monthly for a set number of hours or deliverables.',
     extendedDescription: 'Retainer agreements provide predictable income for service providers and priority access for clients. They typically specify minimum hours/deliverables, rollover policies, and scope boundaries. Monthly retainers are common in consulting, legal, and creative services.',
     relatedTerms: ['recurring-invoice', 'service-agreement', 'scope-of-work'],
-    category: 'business'
+    category: 'business',
+    sameAs: 'https://en.wikipedia.org/wiki/Retainer_agreement'
   },
   {
     term: 'Scope of Work',
@@ -256,7 +284,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'A clear scope of work prevents misunderstandings and scope creep. It should detail what is and isn\'t included, milestones, acceptance criteria, and how changes will be handled. Both parties should agree to the scope before work begins.',
     relatedTerms: ['proposal', 'contract', 'deliverable'],
     category: 'business',
-    relatedArticles: ['freelance-contract-templates']
+    relatedArticles: ['freelance-contract-templates'],
+    sameAs: 'https://en.wikipedia.org/wiki/Scope_(project_management)'
   },
   {
     term: 'Purchase Order',
@@ -276,7 +305,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Tracking billable hours accurately is essential for freelancers and consultants. Typically, only 60-70% of total work time is billable due to admin, marketing, and business development. Rates should account for this reality to maintain profitability.',
     relatedTerms: ['time-tracking', 'hourly-rate', 'utilization-rate'],
     category: 'freelancing',
-    relatedArticles: ['freelance-time-tracking-guide']
+    relatedArticles: ['freelance-time-tracking-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Billable_hours'
   },
   {
     term: 'Scope Creep',
@@ -284,7 +314,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'The gradual expansion of a project beyond its original boundaries, often without corresponding adjustments to budget or timeline.',
     extendedDescription: 'Scope creep erodes profitability and strains client relationships. Prevent it with clear scope definitions, change order processes, and regular project reviews. When additional work is requested, document it and discuss budget implications before proceeding.',
     relatedTerms: ['scope-of-work', 'change-order', 'project-management'],
-    category: 'freelancing'
+    category: 'freelancing',
+    sameAs: 'https://en.wikipedia.org/wiki/Scope_creep'
   },
   {
     term: 'Milestone Payment',
@@ -292,7 +323,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'A payment structure where portions of the total fee are paid upon completing defined project phases.',
     extendedDescription: 'Milestone payments reduce risk for both parties by tying payments to deliverables. Common structures include 50% upfront/50% completion, or thirds (33% start, 33% midpoint, 34% completion). Define clear, measurable milestones in your contract.',
     relatedTerms: ['payment-terms', 'project-management', 'deliverable'],
-    category: 'freelancing'
+    category: 'freelancing',
+    sameAs: 'https://en.wikipedia.org/wiki/Milestone_(project_management)'
   },
 
   // Expense Management Terms
@@ -303,7 +335,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Expense reports typically include date, vendor, amount, category, and receipt documentation. They serve both internal tracking and tax compliance purposes. Modern expense management software automates report creation by importing transactions and attaching scanned receipts.',
     relatedTerms: ['tax-deduction', 'accounts-payable', 'cash-flow'],
     category: 'accounting',
-    relatedArticles: ['expense-reports-freelancers']
+    relatedArticles: ['expense-reports-freelancers'],
+    sameAs: 'https://en.wikipedia.org/wiki/Expense_report'
   },
   {
     term: 'Receipt Scanning (OCR)',
@@ -312,7 +345,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'OCR technology reads printed text on receipts and converts it into structured digital data—extracting vendor names, dates, amounts, and tax information automatically. This eliminates manual data entry, reduces errors, and creates searchable digital records accepted by tax authorities like the IRS, HMRC, and FIRS.',
     relatedTerms: ['expense-report', 'tax-deduction'],
     category: 'accounting',
-    relatedArticles: ['receipt-scanning-apps-comparison', 'digital-receipt-management-guide']
+    relatedArticles: ['receipt-scanning-apps-comparison', 'digital-receipt-management-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Optical_character_recognition'
   },
   {
     term: 'Expense Category',
@@ -339,7 +373,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Effective expense tracking involves capturing every business purchase in real-time, categorizing it correctly, and maintaining supporting documentation like receipts. Methods range from simple spreadsheets to automated software that syncs with bank accounts. Consistent tracking enables accurate financial reporting, tax preparation, and cash flow management.',
     relatedTerms: ['expense-category', 'receipt-scanning', 'cash-flow'],
     category: 'accounting',
-    relatedArticles: ['expense-tracking-methods-small-business']
+    relatedArticles: ['expense-tracking-methods-small-business'],
+    sameAs: 'https://en.wikipedia.org/wiki/Expense_management'
   },
   {
     term: 'Digital Receipt',
@@ -348,7 +383,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Digital receipts are accepted by virtually all tax authorities worldwide as valid proof of purchase. They offer advantages over paper: they don\'t fade, are instantly searchable, take up no physical space, and can be automatically matched to expense records. Best practice is to digitize paper receipts immediately upon receiving them.',
     relatedTerms: ['receipt-scanning', 'expense-tracking', 'expense-report'],
     category: 'accounting',
-    relatedArticles: ['digital-receipt-management-guide']
+    relatedArticles: ['digital-receipt-management-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Receipt'
   },
 
   // Client Management Terms
@@ -368,7 +404,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Client retention is typically 5-7x more cost-effective than client acquisition. Key strategies include consistent communication, exceeding expectations, offering retainer packages, gathering feedback through NPS surveys, and making it easy for clients to work with you through tools like client portals and automated invoicing.',
     relatedTerms: ['retainer', 'client-onboarding', 'scope-of-work'],
     category: 'business',
-    relatedArticles: ['client-retention-strategies']
+    relatedArticles: ['client-retention-strategies'],
+    sameAs: 'https://en.wikipedia.org/wiki/Customer_retention'
   },
   {
     term: 'CRM (Customer Relationship Management)',
@@ -377,7 +414,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'CRM systems range from simple spreadsheets to enterprise software like Salesforce. For freelancers and small businesses, a lightweight CRM that tracks contact details, project history, communication logs, and payment status is usually sufficient. Many invoicing platforms include basic CRM features that eliminate the need for separate CRM software.',
     relatedTerms: ['client-onboarding', 'client-retention'],
     category: 'business',
-    relatedArticles: ['crm-for-freelancers-small-business']
+    relatedArticles: ['crm-for-freelancers-small-business'],
+    sameAs: 'https://en.wikipedia.org/wiki/Customer_relationship_management'
   },
   {
     term: 'Client Communication',

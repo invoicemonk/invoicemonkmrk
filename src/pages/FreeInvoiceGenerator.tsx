@@ -13,6 +13,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 const featureKeys = [
@@ -38,6 +39,7 @@ const FreeInvoiceGenerator = () => {
   return (
     <Layout>
       <FAQSchema items={freeGeneratorFAQs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Tools', url: '/free-invoice-generator' }, { name: 'Free Invoice Generator', url: '/free-invoice-generator' }]} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Free Invoice Generator | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Create professional invoices in minutes. No signup required to get started.'}

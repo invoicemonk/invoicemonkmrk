@@ -9,6 +9,7 @@ import { ArrowRight } from 'lucide-react';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 const faqKeys = ['whoFounded', 'mission', 'availability'] as const;
@@ -50,6 +51,7 @@ const About = () => {
   return (
     <Layout>
       <FAQSchema items={aboutFAQs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about' }]} />
       <SEOHead
         title={seo?.getTitle({} as any) || 'About Invoicemonk | Our Story & Mission'}
         description={seo?.getDescription({} as any) || 'Learn about Invoicemonk - the invoicing and accounting platform built for businesses worldwide.'}

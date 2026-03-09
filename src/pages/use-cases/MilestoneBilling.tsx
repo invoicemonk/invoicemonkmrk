@@ -5,6 +5,7 @@ import { ArrowRight, CheckCircle, Target, FileText, Shield, TrendingUp, Clock, D
 import { PageHero } from '@/components/shared/PageHero';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 
@@ -27,6 +28,7 @@ export default function MilestoneBilling() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Use Cases', url: '/milestone-billing' }, { name: 'Milestone Billing', url: '/milestone-billing' }]} />
       <PageHero
         badge={{ icon: Target, text: t('hero.badge') }}
         title={t('hero.title')}

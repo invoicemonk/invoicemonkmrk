@@ -8,6 +8,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
 import { FeatureComparisonTable } from '@/components/pricing/FeatureComparisonTable';
 import { useTranslation } from 'react-i18next';
@@ -172,6 +173,7 @@ const Pricing = () => {
 
       {/* FAQ Schema */}
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Pricing', url: '/pricing' }]} />
 
       {/* FAQ Section */}
       <section className="py-20 lg:py-32 bg-card">

@@ -6,6 +6,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { HowToSchema } from '@/components/seo/HowToSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { QAPageSchema } from '@/components/seo/QAPageSchema';
 import { HelpSidebar } from '@/components/help/HelpSidebar';
 import { getGuideBySlugTranslated, getTranslatedHelpGuides, getLangPrefix } from '@/utils/i18nData';
 import { Button } from '@/components/ui/button';
@@ -55,6 +56,12 @@ export default function HelpArticle() {
         ]}
       />
       {guide.faq && guide.faq.length > 0 && <FAQSchema items={guide.faq} />}
+      {guide.faq && guide.faq.length > 0 && (
+        <QAPageSchema
+          mainEntity={guide.faq[0]}
+          additionalQA={guide.faq.slice(1)}
+        />
+      )}
 
       <section className="pt-32 pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

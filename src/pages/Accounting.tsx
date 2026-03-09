@@ -16,6 +16,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 import accountingChartOfAccounts from '@/assets/accounting-chart-of-accounts.jpg';
@@ -50,6 +51,7 @@ const Accounting = () => {
   return (
     <Layout>
       <FAQSchema items={[...seoFaqs, ...faqItems]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/accounting' }, { name: 'Accounting', url: '/accounting' }]} />
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <ServiceSchema
         serviceName="Invoicemonk Accounting Software"

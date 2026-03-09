@@ -15,6 +15,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 const featureIcons = [Zap, Globe, Clock];
@@ -45,6 +46,7 @@ const Payments = () => {
   return (
     <Layout>
       <FAQSchema items={[...seoFaqs, ...faqItems]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/payments' }, { name: 'Payments', url: '/payments' }]} />
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <ServiceSchema
         serviceName="Invoicemonk Payment Processing"
