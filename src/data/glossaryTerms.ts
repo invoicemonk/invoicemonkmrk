@@ -94,7 +94,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Payment terms requiring immediate payment upon receiving the invoice.',
     extendedDescription: 'Due on Receipt terms request payment as soon as the invoice is received, though practically this often means within a few days. These terms are common for new client relationships, smaller amounts, or when the seller needs immediate cash flow.',
     relatedTerms: ['payment-terms', 'net-30', 'cash-on-delivery'],
-    category: 'payments'
+    category: 'payments',
+    sameAs: 'https://en.wikipedia.org/wiki/Payment_term'
   },
   {
     term: 'Early Payment Discount',
