@@ -6,6 +6,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { HowToSchema } from '@/components/seo/HowToSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { QAPageSchema } from '@/components/seo/QAPageSchema';
 import { HelpSidebar } from '@/components/help/HelpSidebar';
 import { getGuideBySlugTranslated, getTranslatedHelpGuides, getLangPrefix } from '@/utils/i18nData';
 import { Button } from '@/components/ui/button';
