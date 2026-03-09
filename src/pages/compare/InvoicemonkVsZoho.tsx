@@ -30,6 +30,13 @@ export default function InvoicemonkVsZoho() {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <ComparisonReviewSchema
+        itemName="Invoicemonk"
+        competitorName="Zoho Invoice"
+        positiveNotes={chooseInvoicemonk}
+        negativeNotes={chooseCompetitor}
+        url="/compare/invoicemonk-vs-zoho"
+      />
 
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
