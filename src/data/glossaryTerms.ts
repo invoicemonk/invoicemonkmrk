@@ -140,7 +140,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'The chart of accounts organizes transactions into categories like assets, liabilities, equity, revenue, and expenses. A well-structured chart of accounts enables accurate financial reporting, tax preparation, and business analysis. It should be customized for your specific business needs.',
     relatedTerms: ['general-ledger', 'double-entry-bookkeeping', 'financial-statements'],
     category: 'accounting',
-    relatedArticles: ['chart-of-accounts-setup-guide']
+    relatedArticles: ['chart-of-accounts-setup-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Chart_of_accounts'
   },
   {
     term: 'Profit Margin',
