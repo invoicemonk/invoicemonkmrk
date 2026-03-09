@@ -209,7 +209,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Tax deducted at source from payments, typically on income, dividends, or payments to foreign entities.',
     extendedDescription: 'Withholding tax requirements vary by country and payment type. In some jurisdictions, businesses must withhold tax from contractor payments above certain thresholds. The withheld amount is paid directly to tax authorities on behalf of the recipient.',
     relatedTerms: ['income-tax', 'tax-compliance'],
-    category: 'tax'
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Withholding_tax'
   },
 
   // Business Terms
