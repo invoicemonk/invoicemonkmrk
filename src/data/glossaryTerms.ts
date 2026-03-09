@@ -74,7 +74,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Common payment terms include Net 15, Net 30, Due on Receipt, and 2/10 Net 30 (2% discount if paid within 10 days). Clear payment terms set expectations, reduce disputes, and can incentivize faster payments. Terms should be agreed upon before work begins and clearly stated on invoices.',
     relatedTerms: ['net-30', 'due-on-receipt', 'early-payment-discount'],
     category: 'payments',
-    relatedArticles: ['how-to-write-invoice-payment-terms', 'understanding-payment-terms-guide']
+    relatedArticles: ['how-to-write-invoice-payment-terms', 'understanding-payment-terms-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Payment_term'
   },
   
   // Payment Terms
