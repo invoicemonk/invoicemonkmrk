@@ -355,7 +355,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Effective expense tracking involves capturing every business purchase in real-time, categorizing it correctly, and maintaining supporting documentation like receipts. Methods range from simple spreadsheets to automated software that syncs with bank accounts. Consistent tracking enables accurate financial reporting, tax preparation, and cash flow management.',
     relatedTerms: ['expense-category', 'receipt-scanning', 'cash-flow'],
     category: 'accounting',
-    relatedArticles: ['expense-tracking-methods-small-business']
+    relatedArticles: ['expense-tracking-methods-small-business'],
+    sameAs: 'https://en.wikipedia.org/wiki/Expense_management'
   },
   {
     term: 'Digital Receipt',
