@@ -84,7 +84,12 @@ export function ArticleSchema({
     "headline": title,
     "description": description,
     "url": url,
-    "image": imageUrl || `${BASE}/og-image.png`,
+    "image": imageUrl ? {
+      "@type": "ImageObject",
+      "url": imageUrl,
+      "caption": title,
+      "representativeOfPage": true
+    } : `${BASE}/og-image.png`,
     "datePublished": datePublished,
     "dateModified": dateModified || datePublished,
     "inLanguage": inLanguage,

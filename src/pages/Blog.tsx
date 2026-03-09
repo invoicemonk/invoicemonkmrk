@@ -195,6 +195,7 @@ const Blog = () => {
         title={seo.getTitle(locale)}
         description={seo.getDescription(locale)}
       />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }]} />
       
       {/* ItemList Schema for blog topics */}
       {viewMode === 'topics' && !selectedPillar && !selectedCategory && (

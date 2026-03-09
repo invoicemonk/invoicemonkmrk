@@ -37,6 +37,7 @@ const AuthorPage = () => {
         ogType="profile"
       />
       <PersonSchema author={author} isMainEntity />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: author.name, url: `/blog/author/${author.slug}` }]} />
       {authorPosts.length > 0 && (
         <ItemListSchema
           name={`Articles by ${author.name}`}
