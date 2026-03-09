@@ -264,7 +264,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'A commercial document issued by a buyer to a seller, authorizing a purchase transaction.',
     extendedDescription: 'Purchase orders (POs) formalize buying intent and create a contractual obligation when accepted. They specify products/services, quantities, prices, and delivery terms. In B2B transactions, invoices often reference the corresponding PO number for matching.',
     relatedTerms: ['invoice', 'vendor', 'procurement'],
-    category: 'business'
+    category: 'business',
+    sameAs: 'https://en.wikipedia.org/wiki/Purchase_order'
   },
 
   // Freelancing Terms
