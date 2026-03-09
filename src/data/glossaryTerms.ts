@@ -266,7 +266,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'A clear scope of work prevents misunderstandings and scope creep. It should detail what is and isn\'t included, milestones, acceptance criteria, and how changes will be handled. Both parties should agree to the scope before work begins.',
     relatedTerms: ['proposal', 'contract', 'deliverable'],
     category: 'business',
-    relatedArticles: ['freelance-contract-templates']
+    relatedArticles: ['freelance-contract-templates'],
+    sameAs: 'https://en.wikipedia.org/wiki/Scope_(project_management)'
   },
   {
     term: 'Purchase Order',
