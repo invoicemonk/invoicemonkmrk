@@ -420,7 +420,7 @@ const clusterPosts: BlogPost[] = [
     excerpt: 'Maximisez vos économies d\'impôts avec ce guide des dépenses déductibles fréquemment oubliées.',
     category: 'Small Business', tags: ['Impôts', 'Déductions', 'PME', 'Conformité', 'Dépenses'],
     author: defaultAuthor, date: '2026-01-31', readTime: '9 min de lecture',
-    featuredImage: '/blog/tax-deductions.jpg', featuredImageAlt: 'Guide des déductions fiscales PME',
+    featuredImage: '/images/blog/tax-deductions.jpg', featuredImageAlt: 'Guide des déductions fiscales PME',
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: ['déductions fiscales', 'charges déductibles', 'réduire ses impôts'], priority: 'P2',
     content: `
@@ -449,7 +449,7 @@ const clusterPosts: BlogPost[] = [
     excerpt: 'Les contrôles fiscaux ne doivent pas être effrayants. Apprenez ce qui les déclenche et comment préparer vos documents.',
     category: 'Small Business', tags: ['Impôts', 'Contrôle fiscal', 'Conformité', 'Conservation', 'PME'],
     author: defaultAuthor, date: '2026-01-31', readTime: '8 min de lecture',
-    featuredImage: '/blog/tax-audit-preparation.jpg', featuredImageAlt: 'Préparation au contrôle fiscal',
+    featuredImage: '/images/blog/tax-audit-preparation.jpg', featuredImageAlt: 'Préparation au contrôle fiscal',
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: ['préparation contrôle fiscal', 'défense audit', 'documents comptables'], priority: 'P2',
     content: `
@@ -496,7 +496,7 @@ const clusterPosts: BlogPost[] = [
     excerpt: 'Transformez vos propositions en outils de vente persuasifs. Structure, psychologie et tactiques qui gagnent des contrats.',
     category: 'Small Business', tags: ['Propositions', 'Développement commercial', 'Vente', 'Tarification'],
     author: defaultAuthor, date: '2026-01-31', readTime: '10 min de lecture',
-    featuredImage: '/blog/proposal-estimate-quote.jpg', featuredImageAlt: 'Rédiger une proposition commerciale gagnante',
+    featuredImage: '/images/blog/proposal-estimate-quote.jpg', featuredImageAlt: 'Rédiger une proposition commerciale gagnante',
     pillarContent: false, clusterType: 'cluster', targetProduct: '/estimates',
     semanticKeywords: ['rédaction de proposition', 'modèle de proposition', 'gagner des clients'], priority: 'P2',
     content: `
