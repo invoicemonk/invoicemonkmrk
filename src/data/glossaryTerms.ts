@@ -365,7 +365,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Digital receipts are accepted by virtually all tax authorities worldwide as valid proof of purchase. They offer advantages over paper: they don\'t fade, are instantly searchable, take up no physical space, and can be automatically matched to expense records. Best practice is to digitize paper receipts immediately upon receiving them.',
     relatedTerms: ['receipt-scanning', 'expense-tracking', 'expense-report'],
     category: 'accounting',
-    relatedArticles: ['digital-receipt-management-guide']
+    relatedArticles: ['digital-receipt-management-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Receipt'
   },
 
   // Client Management Terms
