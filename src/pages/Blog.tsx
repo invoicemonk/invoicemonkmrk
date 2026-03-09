@@ -197,6 +197,25 @@ const Blog = () => {
         description={seo.getDescription(locale)}
       />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }]} />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: seo.getTitle(locale),
+            description: seo.getDescription(locale),
+            url: `https://invoicemonk.com/${lang}/blog`,
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: {
+                '@type': 'EntryPoint',
+                urlTemplate: `https://invoicemonk.com/${lang}/blog?q={search_term_string}`
+              },
+              'query-input': 'required name=search_term_string'
+            }
+          })}
+        </script>
+      </Helmet>
       
       {/* ItemList Schema for blog topics */}
       {viewMode === 'topics' && !selectedPillar && !selectedCategory && (
