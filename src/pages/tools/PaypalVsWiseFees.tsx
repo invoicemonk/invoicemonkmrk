@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
 import { Link } from '@/components/LocalizedLink';
 import { ArrowRight, Check, X } from 'lucide-react';

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
 import { getCorridorData, keyCorridor } from '@/config/paymentFeeModels';
 import { ArrowRight } from 'lucide-react';
