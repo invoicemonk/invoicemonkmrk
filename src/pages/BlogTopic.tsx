@@ -131,6 +131,15 @@ const BlogTopic = () => {
       {pillar.faq && pillar.faq.length > 0 && (
         <FAQSchema items={pillar.faq} />
       )}
+      <WebPageSchema
+        name={pillar.title}
+        description={pillar.longDescription}
+        url={`/blog/topic/${pillar.id}`}
+        hasPart={posts.map(p => ({
+          name: p.title,
+          url: `/blog/${p.slug}`,
+        }))}
+      />
 
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
