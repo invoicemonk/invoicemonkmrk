@@ -52,6 +52,7 @@ import '@/data/blogPostsCluster7.es';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { WebPageSchema } from '@/components/seo/WebPageSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { ItemListSchema } from '@/components/seo/ItemListSchema';
