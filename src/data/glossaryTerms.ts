@@ -191,6 +191,24 @@ export const glossaryTerms: GlossaryTerm[] = [
     sameAs: 'https://en.wikipedia.org/wiki/Value-added_tax'
   },
   {
+    term: 'GST (Goods and Services Tax)',
+    slug: 'gst',
+    definition: 'A broad-based consumption tax levied on most goods and services sold in a country, commonly used in Australia, India, Canada, and New Zealand.',
+    extendedDescription: 'GST is functionally similar to VAT and is collected at each stage of production and distribution. GST-registered businesses can claim input tax credits for GST paid on business purchases. Rates vary by country—10% in Australia, 5% in Canada, and range from 0% to 28% in India with its multi-slab structure.',
+    relatedTerms: ['vat', 'tax-invoice', 'income-tax'],
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Goods_and_services_tax_(Australia)'
+  },
+  {
+    term: 'Income Tax',
+    slug: 'income-tax',
+    definition: 'A tax imposed by governments on the income earned by individuals and businesses within their jurisdiction.',
+    extendedDescription: 'For freelancers and small business owners, income tax applies to business profits after deducting allowable expenses. Tax rates, thresholds, and filing requirements vary by country. Quarterly estimated payments are often required to avoid penalties. Proper bookkeeping and expense tracking are essential for minimizing tax liability.',
+    relatedTerms: ['tax-deduction', 'withholding-tax', 'vat'],
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Income_tax'
+  },
+  {
     term: 'Tax Invoice',
     slug: 'tax-invoice',
     definition: 'An invoice that includes specific tax information required by tax authorities for VAT/GST purposes.',
