@@ -386,7 +386,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Client retention is typically 5-7x more cost-effective than client acquisition. Key strategies include consistent communication, exceeding expectations, offering retainer packages, gathering feedback through NPS surveys, and making it easy for clients to work with you through tools like client portals and automated invoicing.',
     relatedTerms: ['retainer', 'client-onboarding', 'scope-of-work'],
     category: 'business',
-    relatedArticles: ['client-retention-strategies']
+    relatedArticles: ['client-retention-strategies'],
+    sameAs: 'https://en.wikipedia.org/wiki/Customer_retention'
   },
   {
     term: 'CRM (Customer Relationship Management)',
