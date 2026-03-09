@@ -150,7 +150,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Gross profit margin measures revenue minus cost of goods sold. Net profit margin accounts for all expenses including overhead, taxes, and interest. Higher margins indicate better efficiency and pricing power. Industry benchmarks vary significantly.',
     relatedTerms: ['gross-profit', 'net-profit', 'revenue'],
     category: 'accounting',
-    relatedArticles: ['profit-margins-how-to-calculate-and-improve']
+    relatedArticles: ['profit-margins-how-to-calculate-and-improve'],
+    sameAs: 'https://en.wikipedia.org/wiki/Profit_margin'
   },
   {
     term: 'Cash Basis Accounting',
