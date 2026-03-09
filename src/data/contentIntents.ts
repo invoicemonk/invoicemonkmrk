@@ -829,7 +829,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     ],
     nextSteps: [
       'international-wire-transfer-fees-guide',
-      'understanding-international-payment-fees'
+      'international-payment-fees-explained'
     ]
   },
   'what-is-an-invoice-definition': {
