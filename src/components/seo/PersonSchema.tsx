@@ -69,7 +69,7 @@ export function PersonSchema({ author, isMainEntity = false }: PersonSchemaProps
   if (isMainEntity) {
     schema.mainEntityOfPage = {
       '@type': 'ProfilePage',
-      '@id': `https://invoicemonk.com/blog/author/${author.slug}`
+      '@id': `${BASE}/${prefix}/blog/author/${author.slug}`
     };
   }
 

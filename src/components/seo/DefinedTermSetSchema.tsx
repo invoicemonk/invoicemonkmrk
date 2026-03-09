@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useParams } from 'react-router-dom';
 import { GlossaryTerm } from '@/data/glossaryTerms';
 
 interface DefinedTermSetSchemaProps {
@@ -6,18 +7,22 @@ interface DefinedTermSetSchemaProps {
 }
 
 export function DefinedTermSetSchema({ terms }: DefinedTermSetSchemaProps) {
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
+  const BASE = 'https://invoicemonk.com';
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'DefinedTermSet',
-    '@id': 'https://invoicemonk.com/glossary',
+    '@id': `${BASE}/${prefix}/glossary`,
     name: 'Business Finance & Invoicing Glossary',
     description: 'Comprehensive glossary of invoicing, payments, accounting, and business finance terms for small business owners and freelancers.',
     hasDefinedTerm: terms.map(term => ({
       '@type': 'DefinedTerm',
-      '@id': `https://invoicemonk.com/glossary#${term.slug}`,
+      '@id': `${BASE}/${prefix}/glossary#${term.slug}`,
       name: term.term,
       description: term.definition,
-      inDefinedTermSet: 'https://invoicemonk.com/glossary'
+      inDefinedTermSet: `${BASE}/${prefix}/glossary`
     }))
   };
 
@@ -35,15 +40,19 @@ interface SingleTermSchemaProps {
 }
 
 export function SingleTermSchema({ term }: SingleTermSchemaProps) {
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
+  const BASE = 'https://invoicemonk.com';
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'DefinedTerm',
-    '@id': `https://invoicemonk.com/glossary#${term.slug}`,
+    '@id': `${BASE}/${prefix}/glossary#${term.slug}`,
     name: term.term,
     description: term.definition,
     inDefinedTermSet: {
       '@type': 'DefinedTermSet',
-      '@id': 'https://invoicemonk.com/glossary',
+      '@id': `${BASE}/${prefix}/glossary`,
       name: 'Business Finance & Invoicing Glossary'
     }
   };

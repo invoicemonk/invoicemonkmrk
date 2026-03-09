@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useParams } from 'react-router-dom';
 import { Author } from '@/data/authors';
 import type { Pillar, ClusterType } from '@/data/topicalMap';
 import { pillars } from '@/data/topicalMap';
@@ -54,14 +55,27 @@ export function ArticleSchema({
   relatedArticles,
   entityMentions,
 }: ArticleSchemaProps) {
+  const { lang } = useParams<{ lang: string }>();
+  const prefix = lang?.toLowerCase() || 'en';
+  const BASE = 'https://invoicemonk.com';
+
+  const langMap: Record<string, string> = {
+    en: 'en',
+    de: 'de',
+    fr: 'fr',
+    pt: 'pt-BR',
+    es: 'es'
+  };
+  const inLanguage = langMap[prefix] || 'en';
+
   // Determine article type based on pillar content
   const articleType = isPillarContent ? 'Article' : 'BlogPosting';
   
   // Build entity mentions from pillar topics and provided mentions
-  const mentions = buildEntityMentions(pillar, entityMentions);
+  const mentions = buildEntityMentions(pillar, explicitMentions => explicitMentions, prefix, BASE, entityMentions);
   
   // Build about entities from pillar and content
-  const aboutEntities = buildAboutEntities(pillar, isPillarContent, section);
+  const aboutEntities = buildAboutEntities(pillar, isPillarContent, section, prefix, BASE);
   
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -70,17 +84,17 @@ export function ArticleSchema({
     "headline": title,
     "description": description,
     "url": url,
-    "image": imageUrl || "https://invoicemonk.com/og-image.png",
+    "image": imageUrl || `${BASE}/og-image.png`,
     "datePublished": datePublished,
     "dateModified": dateModified || datePublished,
-    "inLanguage": "en",
+    "inLanguage": inLanguage,
     
     // Enhanced author with E-E-A-T signals
     "author": {
       "@type": "Person",
-      "@id": `https://invoicemonk.com/blog/author/${author.slug}#person`,
+      "@id": `${BASE}/${prefix}/blog/author/${author.slug}#person`,
       "name": author.name,
-      "url": `https://invoicemonk.com/blog/author/${author.slug}`,
+      "url": `${BASE}/${prefix}/blog/author/${author.slug}`,
       "jobTitle": author.role,
       "description": author.bio,
       // E-E-A-T: Expertise signals
@@ -93,12 +107,12 @@ export function ArticleSchema({
     
     "publisher": {
       "@type": "Organization",
-      "@id": "https://invoicemonk.com/#organization",
+      "@id": `${BASE}/#organization`,
       "name": "Invoicemonk",
-      "url": "https://invoicemonk.com",
+      "url": BASE,
       "logo": {
         "@type": "ImageObject",
-        "url": "https://invoicemonk.com/logo.png"
+        "url": `${BASE}/logo.png`
       }
     },
     
@@ -129,10 +143,10 @@ export function ArticleSchema({
   if (pillar) {
     schema.isPartOf = {
       "@type": "WebPage",
-      "@id": `https://invoicemonk.com${pillar.hubPage}`,
+      "@id": `${BASE}/${prefix}${pillar.hubPage}`,
       "name": pillar.title,
       "description": pillar.description,
-      "url": `https://invoicemonk.com${pillar.hubPage}`
+      "url": `${BASE}/${prefix}${pillar.hubPage}`
     };
   }
 
@@ -164,7 +178,7 @@ export function ArticleSchema({
   if (pillar?.targetProduct) {
     schema.citation = {
       "@type": "WebPage",
-      "url": `https://invoicemonk.com${pillar.targetProduct}`,
+      "url": `${BASE}/${prefix}${pillar.targetProduct}`,
       "name": `Invoicemonk ${pillar.title} Product`
     };
   }
@@ -183,7 +197,10 @@ export function ArticleSchema({
  * These create semantic relationships between content and concepts
  */
 function buildEntityMentions(
-  pillar?: Pillar, 
+  pillar: Pillar | undefined, 
+  noop: any,
+  prefix: string,
+  BASE: string,
   explicitMentions?: EntityMention[]
 ): Array<Record<string, unknown>> {
   const mentions: Array<Record<string, unknown>> = [];
@@ -195,7 +212,7 @@ function buildEntityMentions(
         "@type": "Thing",
         "name": topic.title,
         "description": topic.description,
-        ...(topic.link && { "url": `https://invoicemonk.com${topic.link}` })
+        ...(topic.link && { "url": `${BASE}/${prefix}${topic.link.startsWith('/') ? topic.link : '/' + topic.link}` })
       });
     });
 
@@ -206,7 +223,7 @@ function buildEntityMentions(
         "@type": "Thing",
         "name": relatedPillar.title,
         "description": relatedPillar.description,
-        "url": `https://invoicemonk.com${relatedPillar.hubPage}`
+        "url": `${BASE}/${prefix}${relatedPillar.hubPage}`
       });
     });
   }
@@ -231,9 +248,11 @@ function buildEntityMentions(
  * Helps search engines understand the main subject of the article
  */
 function buildAboutEntities(
-  pillar?: Pillar,
-  isPillarContent?: boolean,
-  section?: string
+  pillar: Pillar | undefined,
+  isPillarContent: boolean | undefined,
+  section: string | undefined,
+  prefix: string,
+  BASE: string
 ): Array<Record<string, unknown>> {
   const aboutEntities: Array<Record<string, unknown>> = [];
 
@@ -243,7 +262,7 @@ function buildAboutEntities(
       "@type": "Thing",
       "name": pillar.title,
       "description": pillar.longDescription || pillar.description,
-      "url": `https://invoicemonk.com${pillar.hubPage}`
+      "url": `${BASE}/${prefix}${pillar.hubPage}`
     });
 
     // For pillar content, add the central entity
@@ -253,7 +272,7 @@ function buildAboutEntities(
         "name": "Invoicemonk",
         "applicationCategory": "BusinessApplication",
         "description": "All-in-one business finance platform for invoicing, expenses, payments, and accounting",
-        "url": `https://invoicemonk.com${pillar.targetProduct}`
+        "url": `${BASE}/${prefix}${pillar.targetProduct}`
       });
     }
   } else if (section) {
@@ -262,7 +281,7 @@ function buildAboutEntities(
       "@type": "Thing",
       "name": section,
       "description": `Articles and guides about ${section.toLowerCase()} for small businesses and freelancers`,
-      "url": `https://invoicemonk.com/blog?category=${encodeURIComponent(section)}`
+      "url": `${BASE}/${prefix}/blog?category=${encodeURIComponent(section)}`
     });
 
     // Add Invoicemonk as secondary about entity for all posts
@@ -271,7 +290,7 @@ function buildAboutEntities(
       "name": "Invoicemonk",
       "applicationCategory": "BusinessApplication",
       "description": "All-in-one business finance platform for invoicing, expenses, payments, and accounting",
-      "url": "https://invoicemonk.com"
+      "url": BASE
     });
   }
 
