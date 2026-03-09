@@ -51,6 +51,7 @@ const About = () => {
   return (
     <Layout>
       <FAQSchema items={aboutFAQs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about' }]} />
       <SEOHead
         title={seo?.getTitle({} as any) || 'About Invoicemonk | Our Story & Mission'}
         description={seo?.getDescription({} as any) || 'Learn about Invoicemonk - the invoicing and accounting platform built for businesses worldwide.'}

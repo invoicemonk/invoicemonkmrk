@@ -144,6 +144,7 @@ const Glossary = () => {
   return (
     <Layout>
       <FAQSchema items={t('faqs', { returnObjects: true }) as Array<{ question: string; answer: string }>} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Glossary', url: '/glossary' }]} />
       <SEOHead
         title={t('seoTitle')}
         description={t('seoDescription')}

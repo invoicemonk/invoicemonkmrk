@@ -38,6 +38,7 @@ const Contractors = () => {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Contractors', url: '/contractors' }]} />
 
       <div className="relative">
         <PageHero

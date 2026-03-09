@@ -46,6 +46,7 @@ const Payments = () => {
   return (
     <Layout>
       <FAQSchema items={[...seoFaqs, ...faqItems]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/payments' }, { name: 'Payments', url: '/payments' }]} />
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <ServiceSchema
         serviceName="Invoicemonk Payment Processing"

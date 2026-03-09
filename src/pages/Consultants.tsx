@@ -41,6 +41,7 @@ const Consultants = () => {
         description={t('seo.description')}
       />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Consultants', url: '/consultants' }]} />
 
       {/* Hero Section */}
       <div className="relative">

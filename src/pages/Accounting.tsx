@@ -51,6 +51,7 @@ const Accounting = () => {
   return (
     <Layout>
       <FAQSchema items={[...seoFaqs, ...faqItems]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/accounting' }, { name: 'Accounting', url: '/accounting' }]} />
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <ServiceSchema
         serviceName="Invoicemonk Accounting Software"

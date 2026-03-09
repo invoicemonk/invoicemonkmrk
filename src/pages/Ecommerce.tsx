@@ -35,6 +35,7 @@ const Ecommerce = () => {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'E-commerce', url: '/ecommerce' }]} />
 
       <div className="relative">
         <PageHero

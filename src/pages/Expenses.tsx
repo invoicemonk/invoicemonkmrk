@@ -76,6 +76,7 @@ const Expenses = () => {
   return (
     <Layout>
       <FAQSchema items={[...expensesSEOFAQs, ...expensesFAQs]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/expenses' }, { name: 'Expenses', url: '/expenses' }]} />
       <SEOHead
         title="Business Expense Tracking Software | Receipt Scanning | Invoicemonk"
         description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports. Integrated with invoicing."

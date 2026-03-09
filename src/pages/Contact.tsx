@@ -99,6 +99,7 @@ const Contact = () => {
   return (
     <Layout>
       <FAQSchema items={contactFAQs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact' }]} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Contact Us | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Get in touch with Invoicemonk. We are here to help with your invoicing needs.'}

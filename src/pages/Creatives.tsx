@@ -37,6 +37,7 @@ const Creatives = () => {
         description={t('seo.description')}
       />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Creatives', url: '/creatives' }]} />
 
       {/* Hero */}
       <div className="relative">

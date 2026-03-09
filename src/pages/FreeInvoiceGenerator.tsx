@@ -39,6 +39,7 @@ const FreeInvoiceGenerator = () => {
   return (
     <Layout>
       <FAQSchema items={freeGeneratorFAQs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Tools', url: '/free-invoice-generator' }, { name: 'Free Invoice Generator', url: '/free-invoice-generator' }]} />
       <SEOHead
         title={seo?.getTitle(locale) || 'Free Invoice Generator | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Create professional invoices in minutes. No signup required to get started.'}

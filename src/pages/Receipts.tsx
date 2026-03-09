@@ -46,6 +46,7 @@ const Receipts = () => {
   return (
     <Layout>
       <FAQSchema items={[...seoFaqs, ...faqItems]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/receipts' }, { name: 'Receipts', url: '/receipts' }]} />
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <ServiceSchema
         serviceName={t('seo.serviceName')}

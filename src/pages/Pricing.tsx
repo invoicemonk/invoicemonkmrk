@@ -173,6 +173,7 @@ const Pricing = () => {
 
       {/* FAQ Schema */}
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Pricing', url: '/pricing' }]} />
 
       {/* FAQ Section */}
       <section className="py-20 lg:py-32 bg-card">

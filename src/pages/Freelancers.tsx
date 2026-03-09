@@ -30,6 +30,8 @@ const Freelancers = () => {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Freelancers', url: '/freelancers' }]} />
+      <WebPageSchema name={t('seo.title')} description={t('seo.description')} url="/freelancers" isPartOf={{ name: 'Freelancer Success', url: '/guides/freelancer-success' }} />
 
       <div className="relative">
         <PageHero

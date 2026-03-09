@@ -38,6 +38,8 @@ const Agencies = () => {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Agencies', url: '/agencies' }]} />
+      <WebPageSchema name={t('seo.title')} description={t('seo.description')} url="/agencies" isPartOf={{ name: 'Client Management', url: '/guides/client-management' }} />
 
       <div className="relative">
         <PageHero

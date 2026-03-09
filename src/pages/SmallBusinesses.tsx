@@ -38,6 +38,7 @@ const SmallBusinesses = () => {
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Small Businesses', url: '/small-businesses' }]} />
 
       {/* Hero */}
       <div className="relative">
