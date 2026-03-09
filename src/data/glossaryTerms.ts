@@ -305,7 +305,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'A payment structure where portions of the total fee are paid upon completing defined project phases.',
     extendedDescription: 'Milestone payments reduce risk for both parties by tying payments to deliverables. Common structures include 50% upfront/50% completion, or thirds (33% start, 33% midpoint, 34% completion). Define clear, measurable milestones in your contract.',
     relatedTerms: ['payment-terms', 'project-management', 'deliverable'],
-    category: 'freelancing'
+    category: 'freelancing',
+    sameAs: 'https://en.wikipedia.org/wiki/Milestone_(project_management)'
   },
 
   // Expense Management Terms
