@@ -160,7 +160,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Cash basis accounting is simpler than accrual accounting and is commonly used by small businesses and sole proprietors. It provides a clear picture of actual cash on hand but may not accurately reflect long-term financial position or profitability.',
     relatedTerms: ['accrual-accounting', 'revenue-recognition'],
     category: 'accounting',
-    relatedArticles: ['cash-vs-accrual-accounting-explained']
+    relatedArticles: ['cash-vs-accrual-accounting-explained'],
+    sameAs: 'https://en.wikipedia.org/wiki/Cash_method_of_accounting'
   },
   {
     term: 'Accrual Accounting',
