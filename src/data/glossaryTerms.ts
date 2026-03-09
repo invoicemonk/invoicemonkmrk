@@ -11,6 +11,8 @@ export interface GlossaryTerm {
   relatedTerms?: string[];
   category: 'invoicing' | 'payments' | 'accounting' | 'tax' | 'freelancing' | 'business';
   relatedArticles?: string[];
+  /** Wikipedia URL for entity disambiguation (Semantic SEO) */
+  sameAs?: string;
 }
 
 export const glossaryTerms: GlossaryTerm[] = [
