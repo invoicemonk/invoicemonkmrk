@@ -87,6 +87,16 @@
       "permanent": true
     },
     {
+      "source": "/:lang/blog/international-payment-fees-guide",
+      "destination": "/:lang/blog/international-payment-fees-explained",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/blog/understanding-international-payment-fees",
+      "destination": "/:lang/blog/international-payment-fees-explained",
+      "permanent": true
+    },
+    {
       "source": "/the-basics-of-small-business-accounting-a-guide-for-new-entrepreneurs/:path*",
       "destination": "/en/blog/small-business-accounting-guide",
       "permanent": true
