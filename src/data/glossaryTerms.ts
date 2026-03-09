@@ -196,7 +196,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'An invoice that includes specific tax information required by tax authorities for VAT/GST purposes.',
     extendedDescription: 'Tax invoices must contain elements like tax registration numbers, tax amounts, and in some jurisdictions, specific wording. They enable businesses to claim input tax credits and are essential for tax compliance and audit readiness.',
     relatedTerms: ['vat', 'invoice', 'input-tax-credit'],
-    category: 'tax'
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Tax_invoice'
   },
   {
     term: 'Tax Deduction',
