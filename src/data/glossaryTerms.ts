@@ -287,7 +287,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Tracking billable hours accurately is essential for freelancers and consultants. Typically, only 60-70% of total work time is billable due to admin, marketing, and business development. Rates should account for this reality to maintain profitability.',
     relatedTerms: ['time-tracking', 'hourly-rate', 'utilization-rate'],
     category: 'freelancing',
-    relatedArticles: ['freelance-time-tracking-guide']
+    relatedArticles: ['freelance-time-tracking-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Billable_hours'
   },
   {
     term: 'Scope Creep',
