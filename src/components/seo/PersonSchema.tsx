@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useParams } from 'react-router-dom';
 import type { Author } from '@/data/authors';
 
 interface CredentialSchema {
