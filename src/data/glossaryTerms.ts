@@ -296,7 +296,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'The gradual expansion of a project beyond its original boundaries, often without corresponding adjustments to budget or timeline.',
     extendedDescription: 'Scope creep erodes profitability and strains client relationships. Prevent it with clear scope definitions, change order processes, and regular project reviews. When additional work is requested, document it and discuss budget implications before proceeding.',
     relatedTerms: ['scope-of-work', 'change-order', 'project-management'],
-    category: 'freelancing'
+    category: 'freelancing',
+    sameAs: 'https://en.wikipedia.org/wiki/Scope_creep'
   },
   {
     term: 'Milestone Payment',
