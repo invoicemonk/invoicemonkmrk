@@ -11,6 +11,8 @@ export interface GlossaryTerm {
   relatedTerms?: string[];
   category: 'invoicing' | 'payments' | 'accounting' | 'tax' | 'freelancing' | 'business';
   relatedArticles?: string[];
+  /** Wikipedia URL for entity disambiguation (Semantic SEO) */
+  sameAs?: string;
 }
 
 export const glossaryTerms: GlossaryTerm[] = [
@@ -22,7 +24,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'An invoice serves as a legal record of a transaction and a formal request for payment. Professional invoices include essential elements like invoice numbers, dates, itemized descriptions, and tax information. They are crucial for cash flow management, tax compliance, and maintaining professional business relationships.',
     relatedTerms: ['credit-note', 'pro-forma-invoice', 'recurring-invoice', 'accounts-receivable'],
     category: 'invoicing',
-    relatedArticles: ['complete-guide-to-business-invoicing', '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners']
+    relatedArticles: ['complete-guide-to-business-invoicing', '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners'],
+    sameAs: 'https://en.wikipedia.org/wiki/Invoice'
   },
   {
     term: 'Credit Note',
@@ -31,7 +34,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Credit notes function as negative invoices, reducing the total amount owed by a customer. They are essential for maintaining accurate accounting records when adjustments are needed. A credit note should reference the original invoice and clearly state the reason for the credit.',
     relatedTerms: ['invoice', 'debit-note', 'accounts-receivable'],
     category: 'invoicing',
-    relatedArticles: ['credit-notes-how-and-when-to-use-them']
+    relatedArticles: ['credit-notes-how-and-when-to-use-them'],
+    sameAs: 'https://en.wikipedia.org/wiki/Credit_note'
   },
   {
     term: 'Pro Forma Invoice',
@@ -40,7 +44,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Pro forma invoices are used as quotations or estimates and are not demands for payment. They help clients understand expected costs and are commonly used in international trade for customs purposes. Unlike regular invoices, they can be modified before the final invoice is issued.',
     relatedTerms: ['invoice', 'estimate', 'quote'],
     category: 'invoicing',
-    relatedArticles: ['proforma-invoice-vs-commercial-invoice']
+    relatedArticles: ['proforma-invoice-vs-commercial-invoice'],
+    sameAs: 'https://en.wikipedia.org/wiki/Pro_forma_invoice'
   },
   {
     term: 'Recurring Invoice',
@@ -77,7 +82,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Payment terms indicating the full invoice amount is due within 30 days of the invoice date.',
     extendedDescription: 'Net 30 is one of the most common payment terms in business. Variations include Net 15, Net 60, and Net 90 for shorter or longer payment windows. The "net" refers to the total amount due without any deductions.',
     relatedTerms: ['payment-terms', 'due-on-receipt', 'accounts-receivable'],
-    category: 'payments'
+    category: 'payments',
+    sameAs: 'https://en.wikipedia.org/wiki/Net_D'
   },
   {
     term: 'Due on Receipt',
@@ -105,7 +111,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Accounts receivable appears as an asset on the balance sheet. Effective AR management includes timely invoicing, clear payment terms, systematic follow-up on overdue accounts, and aging analysis to identify collection issues. High AR can indicate cash flow problems.',
     relatedTerms: ['accounts-payable', 'invoice', 'cash-flow', 'aging-report'],
     category: 'accounting',
-    relatedArticles: ['ultimate-guide-getting-paid-faster']
+    relatedArticles: ['ultimate-guide-getting-paid-faster'],
+    sameAs: 'https://en.wikipedia.org/wiki/Accounts_receivable'
   },
   {
     term: 'Accounts Payable',
@@ -113,7 +120,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Money a business owes to suppliers and vendors for goods or services received but not yet paid for.',
     extendedDescription: 'Accounts payable is a liability on the balance sheet representing short-term obligations. Managing AP effectively involves tracking payment due dates, taking advantage of early payment discounts, and maintaining good vendor relationships while optimizing cash flow.',
     relatedTerms: ['accounts-receivable', 'vendor', 'cash-flow'],
-    category: 'accounting'
+    category: 'accounting',
+    sameAs: 'https://en.wikipedia.org/wiki/Accounts_payable'
   },
   {
     term: 'Cash Flow',
@@ -122,7 +130,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Positive cash flow means more money coming in than going out. Even profitable businesses can fail with poor cash flow management. Key strategies include timely invoicing, efficient collections, managing payment terms with suppliers, and maintaining cash reserves.',
     relatedTerms: ['accounts-receivable', 'accounts-payable', 'working-capital'],
     category: 'accounting',
-    relatedArticles: ['cash-flow-forecasting-for-freelancers']
+    relatedArticles: ['cash-flow-forecasting-for-freelancers'],
+    sameAs: 'https://en.wikipedia.org/wiki/Cash_flow'
   },
   {
     term: 'Chart of Accounts',
@@ -131,7 +140,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'The chart of accounts organizes transactions into categories like assets, liabilities, equity, revenue, and expenses. A well-structured chart of accounts enables accurate financial reporting, tax preparation, and business analysis. It should be customized for your specific business needs.',
     relatedTerms: ['general-ledger', 'double-entry-bookkeeping', 'financial-statements'],
     category: 'accounting',
-    relatedArticles: ['chart-of-accounts-setup-guide']
+    relatedArticles: ['chart-of-accounts-setup-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Chart_of_accounts'
   },
   {
     term: 'Profit Margin',
@@ -140,7 +150,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Gross profit margin measures revenue minus cost of goods sold. Net profit margin accounts for all expenses including overhead, taxes, and interest. Higher margins indicate better efficiency and pricing power. Industry benchmarks vary significantly.',
     relatedTerms: ['gross-profit', 'net-profit', 'revenue'],
     category: 'accounting',
-    relatedArticles: ['profit-margins-how-to-calculate-and-improve']
+    relatedArticles: ['profit-margins-how-to-calculate-and-improve'],
+    sameAs: 'https://en.wikipedia.org/wiki/Profit_margin'
   },
   {
     term: 'Cash Basis Accounting',
@@ -149,7 +160,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Cash basis accounting is simpler than accrual accounting and is commonly used by small businesses and sole proprietors. It provides a clear picture of actual cash on hand but may not accurately reflect long-term financial position or profitability.',
     relatedTerms: ['accrual-accounting', 'revenue-recognition'],
     category: 'accounting',
-    relatedArticles: ['cash-vs-accrual-accounting-explained']
+    relatedArticles: ['cash-vs-accrual-accounting-explained'],
+    sameAs: 'https://en.wikipedia.org/wiki/Cash_method_of_accounting'
   },
   {
     term: 'Accrual Accounting',
@@ -158,7 +170,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Accrual accounting provides a more accurate picture of a company\'s financial health by matching revenues with related expenses. It\'s required for larger businesses and those seeking outside investment. GAAP (Generally Accepted Accounting Principles) requires accrual-based financial statements.',
     relatedTerms: ['cash-basis-accounting', 'revenue-recognition', 'matching-principle'],
     category: 'accounting',
-    relatedArticles: ['cash-vs-accrual-accounting-explained']
+    relatedArticles: ['cash-vs-accrual-accounting-explained'],
+    sameAs: 'https://en.wikipedia.org/wiki/Accrual'
   },
 
   // Tax Terms
@@ -169,7 +182,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'VAT is used in over 160 countries including the UK, EU, Nigeria, and Australia (as GST). VAT-registered businesses collect VAT on sales and can reclaim VAT paid on business purchases. Rates and thresholds vary by country.',
     relatedTerms: ['sales-tax', 'gst', 'tax-invoice'],
     category: 'tax',
-    relatedArticles: ['hmrc-invoicing-rules-uk-mtd-compliance']
+    relatedArticles: ['hmrc-invoicing-rules-uk-mtd-compliance'],
+    sameAs: 'https://en.wikipedia.org/wiki/Value-added_tax'
   },
   {
     term: 'Tax Invoice',
@@ -186,7 +200,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Common business deductions include office expenses, equipment, travel, professional services, and insurance. Proper documentation is essential—keep receipts and records for the required retention period. Consult a tax professional for jurisdiction-specific rules.',
     relatedTerms: ['taxable-income', 'business-expense', 'depreciation'],
     category: 'tax',
-    relatedArticles: ['small-business-tax-deductions-guide']
+    relatedArticles: ['small-business-tax-deductions-guide'],
+    sameAs: 'https://en.wikipedia.org/wiki/Tax_deduction'
   },
   {
     term: 'Withholding Tax',
@@ -194,7 +209,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'Tax deducted at source from payments, typically on income, dividends, or payments to foreign entities.',
     extendedDescription: 'Withholding tax requirements vary by country and payment type. In some jurisdictions, businesses must withhold tax from contractor payments above certain thresholds. The withheld amount is paid directly to tax authorities on behalf of the recipient.',
     relatedTerms: ['income-tax', 'tax-compliance'],
-    category: 'tax'
+    category: 'tax',
+    sameAs: 'https://en.wikipedia.org/wiki/Withholding_tax'
   },
 
   // Business Terms
@@ -248,7 +264,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     definition: 'A commercial document issued by a buyer to a seller, authorizing a purchase transaction.',
     extendedDescription: 'Purchase orders (POs) formalize buying intent and create a contractual obligation when accepted. They specify products/services, quantities, prices, and delivery terms. In B2B transactions, invoices often reference the corresponding PO number for matching.',
     relatedTerms: ['invoice', 'vendor', 'procurement'],
-    category: 'business'
+    category: 'business',
+    sameAs: 'https://en.wikipedia.org/wiki/Purchase_order'
   },
 
   // Freelancing Terms

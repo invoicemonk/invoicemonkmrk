@@ -17,13 +17,19 @@ export function DefinedTermSetSchema({ terms }: DefinedTermSetSchemaProps) {
     '@id': `${BASE}/${prefix}/glossary`,
     name: 'Business Finance & Invoicing Glossary',
     description: 'Comprehensive glossary of invoicing, payments, accounting, and business finance terms for small business owners and freelancers.',
-    hasDefinedTerm: terms.map(term => ({
-      '@type': 'DefinedTerm',
-      '@id': `${BASE}/${prefix}/glossary#${term.slug}`,
-      name: term.term,
-      description: term.definition,
-      inDefinedTermSet: `${BASE}/${prefix}/glossary`
-    }))
+    hasDefinedTerm: terms.map(term => {
+      const dt: Record<string, unknown> = {
+        '@type': 'DefinedTerm',
+        '@id': `${BASE}/${prefix}/glossary#${term.slug}`,
+        name: term.term,
+        description: term.definition,
+        inDefinedTermSet: `${BASE}/${prefix}/glossary`
+      };
+      if (term.sameAs) {
+        dt.sameAs = term.sameAs;
+      }
+      return dt;
+    })
   };
 
   return (
@@ -44,7 +50,7 @@ export function SingleTermSchema({ term }: SingleTermSchemaProps) {
   const prefix = lang?.toLowerCase() || 'en';
   const BASE = 'https://invoicemonk.com';
 
-  const schema = {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'DefinedTerm',
     '@id': `${BASE}/${prefix}/glossary#${term.slug}`,
@@ -56,6 +62,9 @@ export function SingleTermSchema({ term }: SingleTermSchemaProps) {
       name: 'Business Finance & Invoicing Glossary'
     }
   };
+  if (term.sameAs) {
+    schema.sameAs = term.sameAs;
+  }
 
   return (
     <Helmet>

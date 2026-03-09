@@ -202,6 +202,7 @@ const BlogPost = () => {
                 width={1200}
                 height={630}
                 className="w-full h-auto object-cover"
+                fetchPriority="high"
               />
             </div>
             

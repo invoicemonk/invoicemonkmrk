@@ -52,6 +52,7 @@ import '@/data/blogPostsCluster7.es';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';
+import { WebPageSchema } from '@/components/seo/WebPageSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { ItemListSchema } from '@/components/seo/ItemListSchema';
@@ -130,6 +131,15 @@ const BlogTopic = () => {
       {pillar.faq && pillar.faq.length > 0 && (
         <FAQSchema items={pillar.faq} />
       )}
+      <WebPageSchema
+        name={pillar.title}
+        description={pillar.longDescription}
+        url={`/blog/topic/${pillar.id}`}
+        hasPart={posts.map(p => ({
+          name: p.title,
+          url: `/blog/${p.slug}`,
+        }))}
+      />
 
       <div className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
