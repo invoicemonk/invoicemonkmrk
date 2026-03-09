@@ -247,7 +247,8 @@ export const glossaryTerms: GlossaryTerm[] = [
     extendedDescription: 'Business proposals go beyond pricing to demonstrate understanding of client needs, proposed methodology, relevant experience, and expected outcomes. Effective proposals are customized, professional, and clearly articulate value. They often include terms and conditions.',
     relatedTerms: ['estimate', 'quote', 'scope-of-work'],
     category: 'business',
-    relatedArticles: ['how-to-write-winning-business-proposal']
+    relatedArticles: ['how-to-write-winning-business-proposal'],
+    sameAs: 'https://en.wikipedia.org/wiki/Business_proposal'
   },
   {
     term: 'Retainer',
