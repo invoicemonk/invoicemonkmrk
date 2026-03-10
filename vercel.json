@@ -103,17 +103,17 @@
     },
     {
       "source": "/how-to-create-a-budget-for-your-small-business-tips-and-tools/:path*",
-      "destination": "/en/blog/business-budget-creation-guide",
+      "destination": "/en/blog/how-to-create-a-budget-for-your-small-business",
       "permanent": true
     },
     {
       "source": "/how-to-become-a-good-graphic-designer/:path*",
-      "destination": "/en/blog/graphic-designer-career-guide",
+      "destination": "/en/blog/how-to-become-a-good-graphic-designer",
       "permanent": true
     },
     {
       "source": "/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management/:path*",
-      "destination": "/en/blog/best-personal-finance-blogs",
+      "destination": "/en/blog/the-10-best-personal-finance-blogs",
       "permanent": true
     },
     {
@@ -382,6 +382,16 @@
       "permanent": true
     },
     {
+      "source": "/:lang/blog/invoice-payment-terms",
+      "destination": "/:lang/blog/how-to-write-invoice-payment-terms",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/blog/invoice-essential-elements-guide",
+      "destination": "/:lang/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners",
+      "permanent": true
+    },
+    {
       "source": "/tag/:slug*",
       "destination": "/en/blog",
       "statusCode": 301
@@ -393,42 +403,42 @@
     },
     {
       "source": "/savings-and-investment-on-alat-how-it-works/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/savings-and-investment-on-alat-how-it-works",
       "statusCode": 301
     },
     {
       "source": "/lucrative-business-ideas-in-nigeria/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/top-10-lucrative-business-ideas-with-small-capital",
       "statusCode": 301
     },
     {
       "source": "/invoicemonk-free-online-invoice-accounting-platform-nigeria/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/invoicemonk-free-online-invoice-and-accounting-platform",
       "statusCode": 301
     },
     {
       "source": "/invoicemonk-template-how-to-create-a-perfect-invoice-template-that-gets-paid-faster/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template",
       "statusCode": 301
     },
     {
       "source": "/small-business-marketing-101-a-guide-to-growth/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/small-business-marketing-101-a-guide-to-growth",
       "statusCode": 301
     },
     {
       "source": "/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners",
       "statusCode": 301
     },
     {
       "source": "/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently",
       "statusCode": 301
     },
     {
       "source": "/top-freelance-websites-in-nigeria/:path*",
-      "destination": "/en/blog",
+      "destination": "/en/blog/top-10-freelance-websites",
       "statusCode": 301
     },
     {

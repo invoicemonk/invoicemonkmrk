@@ -11,9 +11,9 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function ReceiveCurrencyInCountry() {
-  const { currency, country } = useParams<{ currency: string; country: string }>();
+  const { currency, destination } = useParams<{ currency: string; destination: string }>();
   const { t } = useTranslation('corridors');
-  const corridor = currency && country ? getCorridorData(currency, country) : undefined;
+  const corridor = currency && destination ? getCorridorData(currency, destination) : undefined;
 
   if (!corridor) {
     return <Navigate to="/international-payment-fee-calculator" replace />;
@@ -47,7 +47,7 @@ export default function ReceiveCurrencyInCountry() {
         ogType="website"
       />
       <FAQSchema items={faqs} />
-      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Payment Fee Calculator', url: '/international-payment-fee-calculator' }, { name: title, url: `/receive/${currency}/${country}` }]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Payment Fee Calculator', url: '/international-payment-fee-calculator' }, { name: title, url: `/receive/${currency}/${destination}` }]} />
 
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
