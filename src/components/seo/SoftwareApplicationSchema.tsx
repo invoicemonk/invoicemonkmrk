@@ -4,6 +4,8 @@ import { useLocale } from '@/hooks/useLocale';
 interface SoftwareApplicationSchemaProps {
   name?: string;
   description?: string;
+  /** Override the default @id for this schema instance */
+  schemaId?: string;
   /** Set to true when you have verified real reviews */
   hasVerifiedReviews?: boolean;
 }
@@ -11,6 +13,7 @@ interface SoftwareApplicationSchemaProps {
 export function SoftwareApplicationSchema({ 
   name = 'Invoicemonk',
   description,
+  schemaId,
   hasVerifiedReviews = false
 }: SoftwareApplicationSchemaProps) {
   const { locale } = useLocale();
@@ -18,7 +21,7 @@ export function SoftwareApplicationSchema({
   const baseSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "@id": "https://invoicemonk.com/#software",
+    "@id": schemaId || "https://invoicemonk.com/#software",
     "name": name,
     "description": description || locale.content.seo.siteDescription,
     "applicationCategory": "FinanceApplication",

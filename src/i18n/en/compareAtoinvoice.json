@@ -1,0 +1,112 @@
+{
+  "seo": {
+    "title": "Invoicemonk vs Atoinvoice — Best GST Invoice Software for India (2026)",
+    "description": "Compare Invoicemonk and Atoinvoice for Indian businesses. GST compliance, CGST/SGST/IGST support, UPI payments, and free invoicing — see which is best in 2026."
+  },
+  "hero": {
+    "title": "Invoicemonk vs Atoinvoice",
+    "subtitle": "A detailed comparison for Indian businesses looking for the best GST-compliant invoicing software in 2026."
+  },
+  "overview": [
+    "Atoinvoice has been a popular choice among Indian small businesses and freelancers for basic GST invoice generation. However, as businesses grow and need more robust features — multi-currency support, expense tracking, recurring billing, and proper accounting — many users find themselves looking for alternatives.",
+    "Invoicemonk is built as a full invoicing and accounting platform, not just an invoice generator. It supports GST compliance out of the box with CGST, SGST, and IGST calculations, GSTIN fields, HSN/SAC codes, and generates invoices that meet all GST requirements. Beyond invoicing, it includes expense tracking, client management, receipt scanning, and financial reporting — all features that Atoinvoice doesn't offer.",
+    "For Indian businesses specifically, Invoicemonk supports INR billing with Indian payment methods including UPI and Razorpay integration. The free tier includes unlimited invoicing with GST fields, making it a genuine free alternative to Atoinvoice with significantly more functionality."
+  ],
+  "features": [
+    { "name": "Free tier", "invoicemonk": true, "competitor": true },
+    { "name": "GST compliance (CGST/SGST/IGST)", "invoicemonk": true, "competitor": true },
+    { "name": "GSTIN & HSN/SAC codes", "invoicemonk": true, "competitor": true },
+    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": false },
+    { "name": "Expense tracking", "invoicemonk": true, "competitor": false },
+    { "name": "Recurring invoices", "invoicemonk": true, "competitor": false },
+    { "name": "Client management", "invoicemonk": true, "competitor": false },
+    { "name": "Receipt scanning", "invoicemonk": true, "competitor": false },
+    { "name": "Built-in accounting", "invoicemonk": true, "competitor": false },
+    { "name": "Invoice verification portal", "invoicemonk": true, "competitor": false },
+    { "name": "UPI / Razorpay integration", "invoicemonk": true, "competitor": false },
+    { "name": "PDF download", "invoicemonk": true, "competitor": true },
+    { "name": "Professional templates", "invoicemonk": "3+ templates", "competitor": "1 template" },
+    { "name": "API access", "invoicemonk": "Business plan", "competitor": false }
+  ],
+  "pricing": {
+    "title": "Pricing comparison",
+    "invoicemonk": {
+      "title": "Invoicemonk Pricing (India)",
+      "plans": [
+        { "name": "Free", "price": "₹0/mo" },
+        { "name": "Starter", "price": "Affordable" },
+        { "name": "Professional", "price": "Mid-range" },
+        { "name": "Business", "price": "Full suite" }
+      ],
+      "note": "All plans include GST-compliant invoicing, expenses, and accounting. No per-client limits on paid plans. INR billing available."
+    },
+    "competitor": {
+      "title": "Atoinvoice Pricing",
+      "plans": [
+        { "name": "Free", "price": "Free" },
+        { "name": "Premium", "price": "Varies" }
+      ],
+      "note": "Basic invoice generation only. No expense tracking, accounting, or client management features."
+    }
+  },
+  "choose": {
+    "invoicemonk": {
+      "title": "Choose Invoicemonk if you…",
+      "items": [
+        "Need a full invoicing + accounting platform, not just a generator",
+        "Want GST compliance with CGST, SGST, and IGST auto-calculation",
+        "Invoice international clients in multiple currencies",
+        "Need expense tracking and receipt scanning",
+        "Want recurring invoices for retainer clients",
+        "Need client management and payment tracking"
+      ]
+    },
+    "competitor": {
+      "title": "Choose Atoinvoice if you…",
+      "items": [
+        "Only need basic one-off invoice generation",
+        "Don't need expense tracking or accounting features",
+        "Work exclusively with domestic Indian clients",
+        "Prefer the simplest possible tool with no learning curve"
+      ]
+    }
+  },
+  "migration": {
+    "title": "How to switch from Atoinvoice to Invoicemonk",
+    "steps": [
+      { "title": "Create your free Invoicemonk account", "desc": "Sign up at app.invoicemonk.com. Set up your business profile with GSTIN, logo, and default GST rates." },
+      { "title": "Add your clients", "desc": "Enter your client details including their GSTIN numbers. Invoicemonk stores client information for quick re-use on future invoices." },
+      { "title": "Configure your GST settings", "desc": "Set your default CGST, SGST, and IGST rates. Add your HSN/SAC codes for the products and services you sell." },
+      { "title": "Create your first GST invoice", "desc": "Use Invoicemonk's professional templates with automatic GST calculations. Download as PDF or send directly to clients." },
+      { "title": "Explore additional features", "desc": "Set up recurring invoices, track expenses, scan receipts, and use the accounting dashboard — features unavailable in Atoinvoice." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "question": "Is there an atoinvoice alternative for India?", "answer": "Yes. Invoicemonk is a comprehensive atoinvoice alternative built for Indian businesses. It includes everything Atoinvoice offers — GST-compliant invoice generation with CGST, SGST, and IGST — plus expense tracking, client management, recurring billing, accounting, and multi-currency support. The free tier lets you start immediately with no signup fees." },
+      { "question": "Does Invoicemonk support Indian GST?", "answer": "Absolutely. Invoicemonk fully supports Indian GST compliance including CGST, SGST, IGST, and cess calculations. You can add your GSTIN, HSN/SAC codes, and the system auto-calculates tax breakdowns on every invoice. Generated invoices meet all GST requirements for filing and compliance." },
+      { "question": "Is Invoicemonk free like Atoinvoice?", "answer": "Yes. Invoicemonk's free tier includes unlimited invoicing with full GST support, expense tracking, and basic accounting. Unlike Atoinvoice which only generates invoices, Invoicemonk's free plan gives you a complete business management toolkit." },
+      { "question": "Can I use UPI or Razorpay with Invoicemonk?", "answer": "Yes. Invoicemonk integrates with Indian payment methods including UPI and Razorpay, allowing your clients to pay invoices directly. Payment status syncs automatically with your invoice records." },
+      { "question": "Does Invoicemonk support e-invoicing for India?", "answer": "Invoicemonk generates GST-compliant invoices that meet all Indian tax authority requirements. For businesses above the e-invoicing threshold, invoices include all mandatory fields required for e-invoice registration on the GST portal." },
+      { "question": "Best free invoicing software in India?", "answer": "Invoicemonk is among the best free invoicing software for Indian businesses in 2026. It offers GST compliance, multi-currency support, expense tracking, and professional templates — all on the free tier. Unlike basic generators like Atoinvoice, it's a full business platform that grows with your business." },
+      { "question": "Can I generate invoices in INR with proper formatting?", "answer": "Yes. Invoicemonk supports INR (₹) with proper Indian number formatting. You can also invoice international clients in USD, GBP, EUR, and other currencies from the same account." }
+    ]
+  },
+  "related": {
+    "title": "More comparisons",
+    "links": [
+      { "label": "Invoicemonk vs Zoho Invoice", "to": "/compare/invoicemonk-vs-zoho-invoice" },
+      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
+      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
+      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
+      { "label": "Free Invoice Generator India", "to": "/free-invoice-generator-india" },
+      { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to upgrade from Atoinvoice?",
+    "description": "Start free with full GST compliance, expense tracking, and professional invoicing. No credit card required.",
+    "button": "Get Started Free"
+  }
+}

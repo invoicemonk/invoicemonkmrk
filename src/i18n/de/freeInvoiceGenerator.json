@@ -8,6 +8,23 @@
     "secondaryCta": "Vollständige Plattform entdecken",
     "trustBadge": "Keine Kreditkarte erforderlich • Keine Anmeldung nötig • Unbegrenzte Rechnungen"
   },
+  "seoIntro": "Suchen Sie einen kostenlosen Rechnungsgenerator online? Mit Invoicemonk erstellen Sie Rechnungen kostenlos — ohne Konto, ohne versteckte Kosten. Nutzen Sie unseren kostenlosen Rechnungsersteller für professionelle Rechnungen, fügen Sie Ihr Logo hinzu und laden Sie sofort als PDF herunter. Ob Sie einen kostenlosen Rechnungsgenerator, eine kostenlose Rechnungsvorlage zum Download oder ein kostenloses Fakturierungstool benötigen — hier werden Sie fündig.",
+  "seoIntroLinks": {
+    "essentialElements": "Erfahren Sie, was jede professionelle Rechnung braucht",
+    "connector": "oder lesen Sie unseren",
+    "taxCompliance": "Leitfaden zur Steuerkonformität"
+  },
+  "upgradeBanner": {
+    "headline": "Automatische Nummerierung, Zahlungsverfolgung und Steuerkonformität?",
+    "subtext": "Testen Sie die vollständige Invoicemonk-Plattform kostenlos.",
+    "cta": "Loslegen"
+  },
+  "countryGenerators": {
+    "title": "Länderspezifische Rechnungsgeneratoren",
+    "description": "Benötigen Sie Rechnungen, die an die steuerlichen Anforderungen Ihres Landes angepasst sind? Probieren Sie unsere lokalisierten Generatoren:",
+    "australia": "Kostenloser Rechnungsgenerator — Australien (ATO / GST)",
+    "india": "Kostenloser Rechnungsgenerator — Indien (GST / HSN)"
+  },
   "features": {
     "title": "Alles, was Sie für professionelle Rechnungsstellung brauchen",
     "professionalTemplates": {
@@ -57,19 +74,31 @@
     "title": "Häufig gestellte Fragen",
     "isFree": {
       "question": "Ist der Rechnungsgenerator wirklich kostenlos?",
-      "answer": "Ja, 100% kostenlos ohne Anmeldung. Sie können unbegrenzt professionelle Rechnungen erstellen und als PDF-Dateien kostenlos herunterladen."
+      "answer": "Ja, 100% kostenlos ohne Anmeldung. Sie können unbegrenzt professionelle Rechnungen erstellen und als PDF-Dateien kostenlos herunterladen. Es gibt keine versteckten Gebühren — unser kostenloser Rechnungsersteller ist völlig frei nutzbar."
     },
     "needAccount": {
       "question": "Muss ich ein Konto erstellen?",
-      "answer": "Kein Konto erforderlich. Geben Sie einfach Ihre Daten ein, fügen Sie Positionen hinzu und laden Sie Ihre Rechnung als PDF herunter."
+      "answer": "Kein Konto erforderlich. Geben Sie einfach Ihre Daten ein, fügen Sie Positionen hinzu und laden Sie Ihre Rechnung als PDF herunter. Es ist der schnellste Weg, eine Rechnung online kostenlos zu erstellen."
     },
     "addLogo": {
       "question": "Kann ich mein Firmenlogo hinzufügen?",
-      "answer": "Ja, Sie können Ihr Firmenlogo hochladen, um Ihre Rechnungen zu personalisieren. Ihre Rechnungen sehen professionell und markenkonform aus."
+      "answer": "Ja, Sie können Ihr Firmenlogo hochladen, um Ihre Rechnungen zu personalisieren. Ihre Rechnungen sehen professionell und markenkonform aus — wie eine Premium-Rechnungsvorlage."
     },
     "moreFeatures": {
       "question": "Was, wenn ich mehr Funktionen brauche?",
-      "answer": "Die vollständige Invoicemonk-Plattform bietet wiederkehrende Rechnungen, Ausgabenverfolgung, Zahlungserinnerungen, Compliance-Funktionen und mehr. Sie können jederzeit upgraden."
+      "answer": "Die vollständige Invoicemonk-Plattform bietet wiederkehrende Rechnungen, Ausgabenverfolgung, Zahlungserinnerungen, Steuerkonformitätsfunktionen und mehr. Sie können jederzeit von unserem kostenlosen Fakturierungstool zur vollständigen Abrechnungssoftware upgraden."
+    },
+    "howToCreate": {
+      "question": "Wie erstelle ich eine kostenlose Rechnung online?",
+      "answer": "Geben Sie einfach Ihre Geschäftsdaten und Kundeninformationen ein, fügen Sie die Produkte oder Dienstleistungen hinzu und klicken Sie auf PDF herunterladen. Keine Anmeldung oder Zahlung erforderlich — es ist der einfachste kostenlose Rechnungsersteller."
+    },
+    "bestGenerator": {
+      "question": "Was ist der beste kostenlose Rechnungsgenerator?",
+      "answer": "Der kostenlose Rechnungsgenerator von Invoicemonk ermöglicht unbegrenzt professionelle Rechnungen mit mehreren Vorlagen, Logo-Upload, Steuerberechnung und sofortigem PDF-Download — alles ohne Kontoerstellung. Er gilt weithin als der beste kostenlose Fakturierungsgenerator für Freiberufler und kleine Unternehmen."
+    },
+    "freePdfDownload": {
+      "question": "Kann ich meine Rechnung kostenlos als PDF herunterladen?",
+      "answer": "Ja, jede erstellte Rechnung kann als hochwertige PDF-Datei völlig kostenlos heruntergeladen werden. Es gibt keine Begrenzung für die Anzahl der Rechnungs-PDFs, die Sie erstellen können. Unsere kostenlose Rechnungsvorlage funktioniert auf jedem Gerät."
     }
   },
   "form": {

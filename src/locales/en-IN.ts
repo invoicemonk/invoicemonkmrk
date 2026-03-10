@@ -27,8 +27,8 @@ export const enIN: LocaleConfig = {
     socialProof: "Join growing businesses across India",
     paymentGateway: "Razorpay & UPI",
     seo: {
-      siteTitle: "Invoicemonk India - GST-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Indian businesses. GST-compliant, UPI & Razorpay integration. Free tier available.",
+      siteTitle: "Free GST Invoice Generator India — CGST, SGST, IGST & GSTIN | Invoicemonk",
+      siteDescription: "Create GST-compliant invoices with GSTIN, HSN/SAC codes, and automatic CGST/SGST/IGST tax calculation. Free invoice maker for Indian businesses — no signup needed.",
       complianceKeyword: "GST-compliant",
       targetAudience: "Indian",
       region: "India",

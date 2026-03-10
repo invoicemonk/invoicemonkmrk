@@ -8,6 +8,23 @@
     "secondaryCta": "Conhecer a plataforma completa",
     "trustBadge": "Sem cartão de crédito • Sem cadastro necessário • Faturas ilimitadas"
   },
+  "seoIntro": "Procurando um gerador de faturas grátis online? O Invoicemonk permite criar faturas gratuitamente — sem conta, sem taxas ocultas. Use nosso criador de faturas gratuito para gerar faturas profissionais, adicionar seu logotipo e baixar como PDF instantaneamente. Se você precisa de um gerador de faturas grátis, de um modelo de fatura para download gratuito ou de uma ferramenta de faturamento gratuita, você está no lugar certo.",
+  "seoIntroLinks": {
+    "essentialElements": "Saiba o que toda fatura profissional precisa",
+    "connector": "ou explore nosso",
+    "taxCompliance": "guia de conformidade fiscal"
+  },
+  "upgradeBanner": {
+    "headline": "Quer numeração automática, rastreamento de pagamentos e conformidade fiscal?",
+    "subtext": "Experimente a plataforma Invoicemonk completa gratuitamente.",
+    "cta": "Começar"
+  },
+  "countryGenerators": {
+    "title": "Geradores de faturas por país",
+    "description": "Precisa de faturas adaptadas aos requisitos fiscais do seu país? Experimente nossos geradores localizados:",
+    "australia": "Gerador de faturas grátis — Austrália (ATO / GST)",
+    "india": "Gerador de faturas grátis — Índia (GST / HSN)"
+  },
   "features": {
     "title": "Tudo o que você precisa para faturar profissionalmente",
     "professionalTemplates": {
@@ -57,19 +74,31 @@
     "title": "Perguntas frequentes",
     "isFree": {
       "question": "O gerador de faturas é realmente gratuito?",
-      "answer": "Sim, 100% gratuito sem necessidade de cadastro. Você pode criar faturas profissionais ilimitadas e baixá-las como PDF gratuitamente."
+      "answer": "Sim, 100% gratuito sem necessidade de cadastro. Você pode criar faturas profissionais ilimitadas e baixá-las como PDF gratuitamente. Não há taxas ocultas — nosso criador de faturas gratuito é completamente livre para usar."
     },
     "needAccount": {
       "question": "Preciso criar uma conta?",
-      "answer": "Nenhuma conta é necessária. Basta inserir seus dados, adicionar os itens e baixar sua fatura como PDF."
+      "answer": "Nenhuma conta é necessária. Basta inserir seus dados, adicionar os itens e baixar sua fatura como PDF. É a forma mais rápida de criar uma fatura online grátis."
     },
     "addLogo": {
       "question": "Posso adicionar meu logotipo?",
-      "answer": "Sim, você pode fazer upload do seu logotipo para personalizar suas faturas. Suas faturas terão uma aparência profissional e com sua marca."
+      "answer": "Sim, você pode fazer upload do seu logotipo para personalizar suas faturas. Suas faturas terão uma aparência profissional e com sua marca — como usar um modelo de fatura premium."
     },
     "moreFeatures": {
       "question": "E se eu precisar de mais recursos?",
-      "answer": "A plataforma Invoicemonk completa oferece faturas recorrentes, rastreamento de despesas, lembretes de pagamento, recursos de conformidade e mais. Você pode fazer upgrade a qualquer momento."
+      "answer": "A plataforma Invoicemonk completa oferece faturas recorrentes, rastreamento de despesas, lembretes de pagamento, recursos de conformidade fiscal e mais. Você pode fazer upgrade a qualquer momento da nossa ferramenta de faturamento gratuita para o software de faturamento completo."
+    },
+    "howToCreate": {
+      "question": "Como criar uma fatura grátis online?",
+      "answer": "Basta inserir os dados da sua empresa e informações do cliente, adicionar os produtos ou serviços cobrados e clicar em Baixar PDF. Sem cadastro ou pagamento necessário — é o criador de faturas gratuito mais fácil disponível."
+    },
+    "bestGenerator": {
+      "question": "Qual é o melhor gerador de faturas grátis?",
+      "answer": "O gerador de faturas grátis do Invoicemonk permite criar faturas profissionais ilimitadas com vários modelos, upload de logotipo, cálculos de impostos e download instantâneo em PDF — tudo sem criar conta. É amplamente reconhecido como o melhor gerador de faturamento gratuito para freelancers e pequenas empresas."
+    },
+    "freePdfDownload": {
+      "question": "Posso baixar minha fatura como PDF gratuitamente?",
+      "answer": "Sim, cada fatura criada pode ser baixada como arquivo PDF de alta qualidade totalmente grátis. Não há limites no número de PDFs de faturas que você pode gerar. Nosso modelo de fatura gratuito funciona em qualquer dispositivo."
     }
   },
   "form": {

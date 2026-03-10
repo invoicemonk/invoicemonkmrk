@@ -85,6 +85,11 @@ export const pillars: Pillar[] = [
         title: 'Recurring Invoices',
         description: 'Automate billing for retainer clients and subscriptions.',
         link: '/blog/recurring-invoices-automating-billing'
+      },
+      {
+        title: 'Free Invoice Generator',
+        description: 'Create professional invoices online for free — no signup required.',
+        link: '/free-invoice-generator'
       }
     ],
     faq: [
@@ -545,7 +550,9 @@ export const pillarClusters: TopicalCluster[] = [
       'digital-vs-paper-invoices-pros-and-cons',
       'invoice-design-professional-branding-tips',
       'proforma-invoice-vs-commercial-invoice',
-      'what-is-an-invoice-definition'
+      'what-is-an-invoice-definition',
+      'best-invoicing-software-freelancers-small-business',
+      'invoicing-software-built-in-tax-compliance'
     ]
   },
   {
@@ -567,7 +574,9 @@ export const pillarClusters: TopicalCluster[] = [
       'invoice-clients-in-ng', 'invoice-clients-in-us', 'invoice-clients-in-uk',
       'invoice-clients-in-ca', 'invoice-clients-in-au', 'invoice-clients-in-gh',
       'invoice-clients-in-ke', 'invoice-clients-in-za',
-      'multi-currency-invoicing-explained'
+      'multi-currency-invoicing-explained',
+      'best-payment-integrations-freelancers',
+      'payment-gateways-invoicing-software'
     ]
   },
   {
@@ -655,7 +664,9 @@ export const pillarClusters: TopicalCluster[] = [
       'proposal-rejection-next-steps',
       'proposal-vs-estimate-vs-quote-explained',
       'winning-proposal-templates-by-industry',
-      'document-types-comparison-business'
+      'document-types-comparison-business',
+      'best-estimates-features-for-freelancers',
+      'how-to-send-professional-estimates'
     ]
   },
   {
@@ -669,7 +680,11 @@ export const pillarClusters: TopicalCluster[] = [
       'separate-business-personal-expenses',
       'tax-deductible-business-expenses',
       'expense-reports-freelancers',
-      'track-business-expenses-guide'
+      'track-business-expenses-guide',
+      'best-expense-tracking-software-tax-compliance',
+      'expense-tracking-software-free-invoicing',
+      'best-receipt-scanning-invoicing-integration',
+      'automate-receipt-capture-freelancers'
     ]
   },
   {

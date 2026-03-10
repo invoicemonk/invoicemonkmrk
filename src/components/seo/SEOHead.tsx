@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { useLocale } from '@/hooks/useLocale';
-import { supportedLanguages, languageToHreflang } from '@/locales';
+import { supportedLanguages, languageToHreflang, urlPrefixToCountry } from '@/locales';
 
 interface SEOHeadProps {
   title: string;
@@ -42,6 +42,7 @@ export function SEOHead({
 }: SEOHeadProps) {
   const { locale } = useLocale();
   const location = useLocation();
+  const { lang } = useParams<{ lang: string }>();
   const baseUrl = 'https://invoicemonk.com';
 
   // Build self-referencing canonical (includes language prefix)
@@ -50,6 +51,9 @@ export function SEOHead({
   // Relative page path without language prefix (e.g. "/pricing")
   const relPath = stripLanguagePrefix(location.pathname);
 
+  // Geo region from URL country prefix (e.g. "au" → "AU")
+  const countryCode = lang ? urlPrefixToCountry[lang.toLowerCase()] : undefined;
+
   return (
     <Helmet>
       {/* Primary Meta Tags */}
@@ -57,6 +61,7 @@ export function SEOHead({
       <meta name="description" content={description} />
       <meta name="author" content="Invoicemonk" />
       {noindex && <meta name="robots" content="noindex, nofollow" />}
+      {countryCode && <meta name="geo.region" content={countryCode} />}
 
       {/* Canonical – self-referencing */}
       <link rel="canonical" href={fullCanonical} />

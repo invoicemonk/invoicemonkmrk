@@ -85,6 +85,9 @@
       { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
       { "label": "Invoicemonk vs Zoho", "to": "/compare/invoicemonk-vs-zoho-invoice" },
       { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
+      { "label": "Invoicemonk vs Dext", "to": "/compare/invoicemonk-vs-dext" },
+      { "label": "Invoicemonk vs Stripe", "to": "/compare/invoicemonk-vs-stripe" },
+      { "label": "Estimates vs QuickBooks", "to": "/compare/invoicemonk-estimates-vs-quickbooks" },
       { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
     ]
   },

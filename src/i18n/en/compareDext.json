@@ -1,0 +1,111 @@
+{
+  "seo": {
+    "title": "Invoicemonk vs Dext: Receipt Management Comparison | 2026",
+    "description": "Compare Invoicemonk and Dext for receipt scanning and expense management. Features, pricing, and which tool is best for freelancers and small businesses."
+  },
+  "hero": {
+    "title": "Invoicemonk vs Dext",
+    "subtitle": "Dext is a receipt processing powerhouse — but do you need a standalone tool, or does an all-in-one platform serve you better?"
+  },
+  "overview": [
+    "Dext (formerly Receipt Bank) built its reputation on one thing: turning paper receipts into structured financial data with industry-leading OCR accuracy. For accountants managing dozens of clients and processing thousands of receipts monthly, Dext is a proven, reliable tool. Its integrations with Xero, QuickBooks, and Sage make it a natural fit in the accounting software ecosystem.",
+    "But here's the thing: Dext is only a receipt and expense capture tool. It doesn't send invoices. It doesn't manage clients. It doesn't generate financial reports. If you're a freelancer or small business owner, using Dext means you also need separate invoicing software, separate accounting software, and the time to keep all three in sync.",
+    "Invoicemonk takes a different approach: receipt scanning, expense tracking, invoicing, estimates, and accounting in a single platform. Your receipts feed directly into the same system as your invoices, giving you accurate profit-and-loss data without manual reconciliation. And it starts at free — compared to Dext's $20+/month starting price."
+  ],
+  "features": [
+    { "name": "Receipt scanning (OCR)", "invoicemonk": true, "competitor": true },
+    { "name": "Email receipt forwarding", "invoicemonk": true, "competitor": true },
+    { "name": "Invoicing", "invoicemonk": true, "competitor": false },
+    { "name": "Estimates & quotes", "invoicemonk": true, "competitor": false },
+    { "name": "Accounting", "invoicemonk": true, "competitor": false },
+    { "name": "Multi-currency", "invoicemonk": true, "competitor": true },
+    { "name": "Auto-categorisation", "invoicemonk": true, "competitor": true },
+    { "name": "Xero/QuickBooks integration", "invoicemonk": false, "competitor": true },
+    { "name": "High-volume processing", "invoicemonk": "Standard", "competitor": "Enterprise-grade" },
+    { "name": "Free tier", "invoicemonk": true, "competitor": false },
+    { "name": "Starting price", "invoicemonk": "Free", "competitor": "$20/mo" }
+  ],
+  "pricing": {
+    "title": "Pricing comparison",
+    "invoicemonk": {
+      "title": "Invoicemonk",
+      "plans": [
+        { "name": "Free tier", "price": "₦0/mo" },
+        { "name": "Starter", "price": "Affordable" },
+        { "name": "Professional", "price": "Mid-range" },
+        { "name": "Business", "price": "Full suite" }
+      ],
+      "note": "Receipt scanning + invoicing + expenses + accounting on every plan. No per-receipt limits on paid plans."
+    },
+    "competitor": {
+      "title": "Dext",
+      "plans": [
+        { "name": "Essential", "price": "$20/mo" },
+        { "name": "Business", "price": "$30/mo" },
+        { "name": "Enterprise", "price": "Custom" }
+      ],
+      "note": "Receipt processing only. Requires separate invoicing and accounting software. Prices exclude accounting tool costs."
+    },
+    "summary": "Total cost with Dext: $20+/mo (Dext) + invoicing tool + accounting tool. Total cost with Invoicemonk: $0 (free tier covers all three)."
+  },
+  "choose": {
+    "invoicemonk": {
+      "title": "Choose Invoicemonk if you…",
+      "items": [
+        "Want receipt scanning, invoicing, and accounting in one tool",
+        "Need a free starting point with comprehensive features",
+        "Prefer simplicity over maintaining multiple software subscriptions",
+        "Want expenses to automatically feed into your financial reports",
+        "Need multi-currency support for international business"
+      ]
+    },
+    "competitor": {
+      "title": "Choose Dext if you…",
+      "items": [
+        "Process very high volumes of receipts (hundreds per month)",
+        "Need the highest possible OCR accuracy for difficult receipts",
+        "Already use Xero or QuickBooks and want tight integration",
+        "Have an accountant who specifically requires Dext",
+        "Need multi-language receipt processing"
+      ]
+    }
+  },
+  "migration": {
+    "title": "How to switch from Dext to Invoicemonk",
+    "steps": [
+      { "title": "Export your Dext data", "desc": "Download your receipt history and expense records from Dext. Export client/vendor lists if applicable." },
+      { "title": "Sign up for Invoicemonk", "desc": "Create a free account at app.invoicemonk.com. Set up your business profile, expense categories, and tax settings." },
+      { "title": "Set up receipt workflows", "desc": "Configure mobile scanning and email forwarding in Invoicemonk. Update your email filters to forward receipts to your new Invoicemonk receipt address." },
+      { "title": "Import expense categories", "desc": "Recreate your Dext categories in Invoicemonk. Set up auto-categorisation rules for your regular vendors." },
+      { "title": "Cancel Dext (save $240+/year)", "desc": "Once comfortable with Invoicemonk, cancel your Dext subscription. Your exported data serves as a historical reference." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "question": "Is Invoicemonk a good Dext alternative?", "answer": "For freelancers and small businesses — absolutely. Invoicemonk provides receipt scanning alongside invoicing, expenses, and accounting in one platform. You get more functionality at a lower cost. Dext remains the better choice for high-volume receipt processing or accountant firms managing many clients." },
+      { "question": "Is Dext's OCR better than Invoicemonk's?", "answer": "Dext has a slight edge in OCR accuracy for difficult receipts — faded thermal paper, handwritten receipts, and multi-language documents. For typical business receipts (printed, clear, in common languages), both tools perform well. The practical difference is minimal for most freelancers." },
+      { "question": "Can Invoicemonk replace both Dext and my invoicing software?", "answer": "Yes. Invoicemonk combines receipt scanning, expense tracking, invoicing, estimates, and accounting. If you're currently using Dext plus a separate invoicing tool, Invoicemonk replaces both — simplifying your workflow and reducing costs." },
+      { "question": "Does Dext include invoicing?", "answer": "No. Dext is exclusively a receipt capture and expense management tool. You need separate software for invoicing, estimates, and accounting. This means additional cost, additional setup, and manual data synchronisation between systems." },
+      { "question": "Which is better for freelancers: Dext or Invoicemonk?", "answer": "Invoicemonk is better for most freelancers because it combines everything in one tool at a lower price point. Freelancers typically don't need Dext's enterprise-grade receipt processing volume. The all-in-one approach saves time and money." },
+      { "question": "How much does Dext cost compared to Invoicemonk?", "answer": "Dext starts at $20/month for receipt processing only. Add invoicing software ($10–30/month) and accounting software ($10–30/month), and the total stack costs $40–80/month. Invoicemonk's free tier includes all three capabilities at $0/month." }
+    ]
+  },
+  "related": {
+    "title": "More comparisons",
+    "links": [
+      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
+      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
+      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
+      { "label": "Invoicemonk vs Zoho", "to": "/compare/invoicemonk-vs-zoho-invoice" },
+      { "label": "Invoicemonk vs Stripe", "to": "/compare/invoicemonk-vs-stripe" },
+      { "label": "Estimates vs QuickBooks", "to": "/compare/invoicemonk-estimates-vs-quickbooks" },
+      { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
+    ]
+  },
+  "cta": {
+    "title": "All-in-one receipt management + invoicing",
+    "description": "Stop paying for separate tools. Invoicemonk combines receipt scanning, expense tracking, invoicing, and accounting — starting free.",
+    "button": "Get Started Free"
+  }
+}

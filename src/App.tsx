@@ -34,6 +34,8 @@ import BlogPost from "./pages/BlogPost";
 import BlogTopic from "./pages/BlogTopic";
 import AuthorPage from "./pages/AuthorPage";
 import FreeInvoiceGenerator from "./pages/FreeInvoiceGenerator";
+import FreeInvoiceGeneratorAustralia from "./pages/FreeInvoiceGeneratorAustralia";
+import FreeInvoiceGeneratorIndia from "./pages/FreeInvoiceGeneratorIndia";
 import Freelancers from "./pages/Freelancers";
 import Consultants from "./pages/Consultants";
 import Contractors from "./pages/Contractors";
@@ -52,6 +54,10 @@ import InvoicemonkVsFreshbooks from "./pages/compare/InvoicemonkVsFreshbooks";
 import InvoicemonkVsWave from "./pages/compare/InvoicemonkVsWave";
 import InvoicemonkVsZoho from "./pages/compare/InvoicemonkVsZoho";
 import InvoicemonkVsQuickbooks from "./pages/compare/InvoicemonkVsQuickbooks";
+import InvoicemonkVsDext from "./pages/compare/InvoicemonkVsDext";
+import InvoicemonkVsStripe from "./pages/compare/InvoicemonkVsStripe";
+import InvoicemonkEstimatesVsQuickbooks from "./pages/compare/InvoicemonkEstimatesVsQuickbooks";
+import InvoicemonkVsAtoinvoice from "./pages/compare/InvoicemonkVsAtoinvoice";
 import BestInvoicingSoftware from "./pages/compare/BestInvoicingSoftware";
 
 // Use-case pages
@@ -134,6 +140,8 @@ const App = () => (
 
               {/* Tools */}
               <Route path="free-invoice-generator" element={<FreeInvoiceGenerator />} />
+              <Route path="free-invoice-generator-australia" element={<FreeInvoiceGeneratorAustralia />} />
+              <Route path="free-invoice-generator-india" element={<FreeInvoiceGeneratorIndia />} />
               <Route path="international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
               <Route path="paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
               <Route path="cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
@@ -160,6 +168,10 @@ const App = () => (
               <Route path="compare/invoicemonk-vs-wave" element={<InvoicemonkVsWave />} />
               <Route path="compare/invoicemonk-vs-zoho-invoice" element={<InvoicemonkVsZoho />} />
               <Route path="compare/invoicemonk-vs-quickbooks" element={<InvoicemonkVsQuickbooks />} />
+              <Route path="compare/invoicemonk-vs-dext" element={<InvoicemonkVsDext />} />
+              <Route path="compare/invoicemonk-vs-atoinvoice" element={<InvoicemonkVsAtoinvoice />} />
+              <Route path="compare/invoicemonk-vs-stripe" element={<InvoicemonkVsStripe />} />
+              <Route path="compare/invoicemonk-estimates-vs-quickbooks" element={<InvoicemonkEstimatesVsQuickbooks />} />
               <Route path="best-invoicing-software" element={<BestInvoicingSoftware />} />
 
               {/* Use-case pages */}
@@ -196,6 +208,7 @@ const App = () => (
               <Route path="features/client-management" element={<Navigate to="../client-management" replace />} />
               <Route path="privacy" element={<Navigate to="../privacy-policy" replace />} />
               <Route path="terms" element={<Navigate to="../terms-of-service" replace />} />
+              <Route path="blog/what-is-an-invoice-definition-guide" element={<Navigate to="../blog/what-is-an-invoice-definition" replace />} />
 
               {/* 404 within valid language prefix */}
               <Route path="*" element={<NotFound />} />

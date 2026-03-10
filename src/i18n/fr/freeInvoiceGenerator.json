@@ -8,6 +8,23 @@
     "secondaryCta": "Découvrir la plateforme complète",
     "trustBadge": "Pas de carte de crédit requise • Pas d'inscription nécessaire • Factures illimitées"
   },
+  "seoIntro": "Vous cherchez un générateur de factures gratuit en ligne ? Invoicemonk vous permet de créer des factures gratuitement — sans compte, sans frais cachés. Utilisez notre créateur de factures gratuit pour générer des factures professionnelles, ajouter votre logo et télécharger en PDF instantanément. Que vous ayez besoin d'un générateur de factures gratuit, d'un modèle de facture à télécharger gratuitement ou d'un outil de facturation gratuit, vous êtes au bon endroit.",
+  "seoIntroLinks": {
+    "essentialElements": "Découvrez les éléments essentiels d'une facture professionnelle",
+    "connector": "ou consultez notre",
+    "taxCompliance": "guide de conformité fiscale"
+  },
+  "upgradeBanner": {
+    "headline": "Numérotation automatique, suivi des paiements et conformité fiscale ?",
+    "subtext": "Essayez la plateforme Invoicemonk complète gratuitement.",
+    "cta": "Commencer"
+  },
+  "countryGenerators": {
+    "title": "Générateurs de factures par pays",
+    "description": "Besoin de factures adaptées aux exigences fiscales de votre pays ? Essayez nos générateurs localisés :",
+    "australia": "Générateur de factures gratuit — Australie (ATO / GST)",
+    "india": "Générateur de factures gratuit — Inde (GST / HSN)"
+  },
   "features": {
     "title": "Tout ce dont vous avez besoin pour facturer professionnellement",
     "professionalTemplates": {
@@ -57,19 +74,31 @@
     "title": "Questions fréquemment posées",
     "isFree": {
       "question": "Le générateur de factures est-il vraiment gratuit ?",
-      "answer": "Oui, 100% gratuit sans inscription requise. Vous pouvez créer des factures professionnelles illimitées et les télécharger en PDF gratuitement."
+      "answer": "Oui, 100% gratuit sans inscription requise. Vous pouvez créer des factures professionnelles illimitées et les télécharger en PDF gratuitement. Il n'y a pas de frais cachés — notre créateur de factures gratuit est entièrement libre d'utilisation."
     },
     "needAccount": {
       "question": "Dois-je créer un compte ?",
-      "answer": "Aucun compte n'est nécessaire. Entrez simplement vos informations, ajoutez les lignes et téléchargez votre facture en PDF."
+      "answer": "Aucun compte n'est nécessaire. Entrez simplement vos informations, ajoutez les lignes et téléchargez votre facture en PDF. C'est le moyen le plus rapide de créer une facture en ligne gratuitement."
     },
     "addLogo": {
       "question": "Puis-je ajouter mon logo d'entreprise ?",
-      "answer": "Oui, vous pouvez télécharger votre logo d'entreprise pour personnaliser vos factures. Vos factures auront un aspect professionnel et de marque."
+      "answer": "Oui, vous pouvez télécharger votre logo d'entreprise pour personnaliser vos factures. Vos factures auront un aspect professionnel et de marque — comme un modèle de facture premium."
     },
     "moreFeatures": {
       "question": "Et si j'ai besoin de plus de fonctionnalités ?",
-      "answer": "La plateforme Invoicemonk complète offre des factures récurrentes, le suivi des dépenses, les rappels de paiement, les fonctionnalités de conformité et plus encore. Vous pouvez passer à la version supérieure à tout moment."
+      "answer": "La plateforme Invoicemonk complète offre des factures récurrentes, le suivi des dépenses, les rappels de paiement, les fonctionnalités de conformité fiscale et plus encore. Vous pouvez passer de notre outil de facturation gratuit au logiciel de facturation complet à tout moment."
+    },
+    "howToCreate": {
+      "question": "Comment créer une facture gratuite en ligne ?",
+      "answer": "Entrez simplement les informations de votre entreprise et de votre client, ajoutez les produits ou services facturés et cliquez sur Télécharger PDF. Aucune inscription ni paiement requis — c'est le créateur de factures gratuit le plus simple disponible."
+    },
+    "bestGenerator": {
+      "question": "Quel est le meilleur générateur de factures gratuit ?",
+      "answer": "Le générateur de factures gratuit d'Invoicemonk vous permet de créer des factures professionnelles illimitées avec plusieurs modèles, téléchargement de logo, calculs de taxes et téléchargement PDF instantané — le tout sans créer de compte. Il est largement reconnu comme le meilleur générateur de facturation gratuit pour les freelances et les petites entreprises."
+    },
+    "freePdfDownload": {
+      "question": "Puis-je télécharger ma facture en PDF gratuitement ?",
+      "answer": "Oui, chaque facture créée peut être téléchargée en fichier PDF haute qualité entièrement gratuitement. Il n'y a pas de limite au nombre de PDF de factures que vous pouvez générer. Notre modèle de facture gratuit fonctionne sur tout appareil."
     }
   },
   "form": {
