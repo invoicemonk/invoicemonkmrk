@@ -60,6 +60,7 @@ export default function HelpArticle() {
         <QAPageSchema
           mainEntity={guide.faq[0]}
           additionalQA={guide.faq.slice(1)}
+          pageUrl={`/help/${guide.slug}`}
         />
       )}
 

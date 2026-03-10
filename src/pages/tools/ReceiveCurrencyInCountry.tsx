@@ -1,4 +1,4 @@
-import { useParams, Navigate } from 'react-router-dom';
+import { useLocation, Navigate } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { Layout } from '@/components/layout/Layout';
@@ -11,7 +11,10 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function ReceiveCurrencyInCountry() {
-  const { currency, destination } = useParams<{ currency: string; destination: string }>();
+  const { pathname } = useLocation();
+  const match = pathname.match(/receive-([a-z]+)-in-([a-z]+)-cost$/i);
+  const currency = match?.[1];
+  const destination = match?.[2];
   const { t } = useTranslation('corridors');
   const corridor = currency && destination ? getCorridorData(currency, destination) : undefined;
 

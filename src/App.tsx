@@ -145,7 +145,7 @@ const App = () => (
               <Route path="international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
               <Route path="paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
               <Route path="cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
-              <Route path="receive-:currency-in-:destination-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-*" element={<ReceiveCurrencyInCountry />} />
 
               {/* Audience pages */}
               <Route path="freelancers" element={<Freelancers />} />
