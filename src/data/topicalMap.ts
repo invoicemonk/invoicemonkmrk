@@ -574,6 +574,8 @@ export const pillarClusters: TopicalCluster[] = [
       'invoice-clients-in-ng', 'invoice-clients-in-us', 'invoice-clients-in-uk',
       'invoice-clients-in-ca', 'invoice-clients-in-au', 'invoice-clients-in-gh',
       'invoice-clients-in-ke', 'invoice-clients-in-za',
+      'invoice-clients-in-ro', 'invoice-clients-in-hu', 'invoice-clients-in-rs',
+      'invoice-clients-in-pl', 'invoice-clients-in-it', 'invoice-clients-in-bg',
       'multi-currency-invoicing-explained',
       'best-payment-integrations-freelancers',
       'payment-gateways-invoicing-software'
