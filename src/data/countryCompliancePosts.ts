@@ -13,6 +13,8 @@
 import { defaultAuthor } from './authors';
 import type { BlogPost } from './blogPosts';
 
+const countriesWithImages = ['ng', 'us', 'uk', 'ca', 'au', 'gh', 'ke', 'za'];
+
 // ── Country configuration ──
 
 interface CountryConfig {
@@ -335,7 +337,7 @@ function generateTaxCompliantInvoicePost(c: CountryConfig): BlogPost {
     date: '2026-02-20',
     dateModified: '2026-02-21',
     readTime: '10 min read',
-    featuredImage: `/images/blog/tax-compliant-invoice-${c.code}.jpg`,
+    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/tax-compliant-invoice-${c.code}.jpg` : '/images/blog/invoicing-tax-compliance-hero.jpg',
     featuredImageAlt: `Tax-compliant invoice guide for ${c.name} businesses`,
     pillarContent: false,
     clusterType: 'cluster',
@@ -352,6 +354,7 @@ function generateTaxCompliantInvoicePost(c: CountryConfig): BlogPost {
       { question: `What happens if my invoices aren't ${c.authority}-compliant?`, answer: `Non-compliant invoices can result in penalties. ${c.penalties}` },
       { question: `How long must I keep invoice records in ${c.name}?`, answer: `${c.authority} requires businesses to retain invoices and supporting records for at least ${c.recordKeepingYears} years.` },
     ],
+    targetCountry: c.code,
     relatedTools: [
       { label: 'Compliance Hub', url: '/compliance', description: `Verify your ${c.authority} compliance status` },
       { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: `Create ${c.authority}-compliant invoices instantly` },
@@ -427,7 +430,7 @@ function generateVatFormatPost(c: CountryConfig): BlogPost {
     date: '2026-02-19',
     dateModified: '2026-02-21',
     readTime: '9 min read',
-    featuredImage: `/images/blog/vat-invoice-format-${c.code}.jpg`,
+    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/vat-invoice-format-${c.code}.jpg` : '/images/blog/invoice-essential-elements.jpg',
     featuredImageAlt: `${c.taxType} invoice format guide for ${c.name}`,
     pillarContent: false,
     clusterType: 'cluster',
@@ -443,6 +446,7 @@ function generateVatFormatPost(c: CountryConfig): BlogPost {
       { question: `Can I use a simplified invoice format in ${c.name}?`, answer: `Most jurisdictions allow simplified invoices for low-value transactions. Check ${c.authority} rules for the threshold in ${c.name}. Full tax invoices are required for B2B transactions and amounts above the threshold.` },
       { question: `Where can I find a free ${c.taxType} invoice template for ${c.name}?`, answer: `Invoicemonk offers free ${c.authority}-compliant invoice templates at invoicemonk.com/free-invoice-generator. Templates include all mandatory ${c.taxType} fields pre-configured for ${c.demonym} businesses.` },
     ],
+    targetCountry: c.code,
     relatedTools: [
       { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: `Generate ${c.taxType}-compliant invoices` },
     ],
@@ -534,6 +538,7 @@ function generateRegulatorGuidePost(c: CountryConfig): BlogPost {
       { question: `Is electronic invoicing accepted by ${c.authority}?`, answer: `Yes. Electronic invoices are accepted as long as they contain all required elements and can be produced for audit. ${c.einvoicingContext}` },
       { question: `What happens if I make a mistake on a ${c.demonym} invoice?`, answer: `Issue a credit note to cancel the incorrect invoice and create a new, correct invoice. Never delete or alter issued invoices — this is a compliance violation.` },
     ],
+    targetCountry: c.code,
     relatedTools: [
       { label: 'Compliance Hub', url: '/compliance', description: `Check your ${c.authority} compliance` },
       { label: 'Invoicing Software', url: '/invoicing', description: `${c.authority}-compliant invoicing` },
@@ -615,7 +620,7 @@ function generateFreelancerVatPost(c: CountryConfig): BlogPost {
     date: '2026-02-17',
     dateModified: '2026-02-21',
     readTime: '8 min read',
-    featuredImage: `/images/blog/freelancer-vat-${c.code}.jpg`,
+    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/freelancer-vat-${c.code}.jpg` : '/images/blog/quarterly-tax-payments.jpg',
     featuredImageAlt: `Freelancer ${c.taxType} registration guide for ${c.name}`,
     pillarContent: false,
     clusterType: 'cluster',
@@ -631,6 +636,7 @@ function generateFreelancerVatPost(c: CountryConfig): BlogPost {
       { question: `How do I register for ${c.taxType} in ${c.name}?`, answer: `Register through ${c.authority} at ${c.registrationUrl}. You'll need your ${c.taxIdFull} (${c.taxId}), proof of business activity, and bank account details.` },
       { question: `What are my obligations once registered for ${c.taxType}?`, answer: `You must charge ${c.taxType} at ${c.taxRate} on taxable supplies, issue compliant invoices, file returns ${c.filingFrequency}, and remit collected ${c.taxType} to ${c.authority}.` },
     ],
+    targetCountry: c.code,
     relatedTools: [
       { label: 'Freelancer Hub', url: '/freelancers', description: 'Tools for freelancers' },
       { label: 'Compliance', url: '/compliance', description: `${c.authority} compliance` },
@@ -702,7 +708,7 @@ function generateInvoiceFromAbroadPost(c: CountryConfig): BlogPost {
     date: '2026-02-16',
     dateModified: '2026-02-21',
     readTime: '9 min read',
-    featuredImage: `/images/blog/invoice-abroad-${c.code}.jpg`,
+    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/invoice-abroad-${c.code}.jpg` : '/images/blog/multi-currency-invoicing.jpg',
     featuredImageAlt: `How to invoice ${c.demonym} clients from abroad`,
     pillarContent: false,
     clusterType: 'cluster',
@@ -718,6 +724,7 @@ function generateInvoiceFromAbroadPost(c: CountryConfig): BlogPost {
       { question: `How do I receive payments from ${c.name}?`, answer: `Popular options include ${c.paymentMethods}. For international transfers, consider Wise or Payoneer for competitive exchange rates and lower fees.` },
       { question: `What details must I include on a cross-border invoice to ${c.name}?`, answer: `Include your business details, client's details with their ${c.taxId}, clear currency designation, a note about ${c.taxType} treatment (e.g., "reverse charge applies"), your bank details for international transfers, and any applicable withholding tax information.` },
     ],
+    targetCountry: c.code,
     relatedTools: [
       { label: 'Multi-Currency Invoicing', url: '/use-cases/multi-currency-invoicing', description: `Invoice in ${c.currencyCode}` },
       { label: 'Fee Calculator', url: '/international-payment-fee-calculator', description: 'Compare transfer fees' },
@@ -785,7 +792,7 @@ function generateTaxMistakesPost(c: CountryConfig): BlogPost {
     date: '2026-02-15',
     dateModified: '2026-02-21',
     readTime: '8 min read',
-    featuredImage: `/images/blog/tax-mistakes-${c.code}.jpg`,
+    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/tax-mistakes-${c.code}.jpg` : '/images/blog/tax-deductions.jpg',
     featuredImageAlt: `Common tax mistakes freelancers make in ${c.name}`,
     pillarContent: false,
     clusterType: 'cluster',
@@ -800,6 +807,7 @@ function generateTaxMistakesPost(c: CountryConfig): BlogPost {
       { question: `Can I deduct home office expenses in ${c.name}?`, answer: `Yes, if you use a dedicated space in your home exclusively for business. ${c.authority} allows proportional deductions for rent/mortgage, utilities, internet, and insurance. Keep detailed records of your usage.` },
       { question: `What happens if I miss a ${c.authority} filing deadline?`, answer: `${c.penalties}` },
     ],
+    targetCountry: c.code,
     relatedTools: [
       { label: 'Expense Tracking', url: '/expenses', description: 'Track deductible expenses' },
       { label: 'Compliance', url: '/compliance', description: `${c.authority} compliance tools` },

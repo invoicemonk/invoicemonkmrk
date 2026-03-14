@@ -76,6 +76,8 @@ const staticPages: PageEntry[] = [
   { path: '/international-payment-fee-calculator', priority: 0.8, changefreq: 'weekly' },
   { path: '/paypal-vs-wise-fees', priority: 0.8, changefreq: 'weekly' },
   { path: '/cheapest-way-to-receive-international-payments', priority: 0.8, changefreq: 'weekly' },
+  { path: '/invoice-templates', priority: 0.8, changefreq: 'monthly' },
+  { path: '/freelancer-rate-calculator', priority: 0.7, changefreq: 'monthly' },
   { path: '/blog', priority: 0.8, changefreq: 'daily' },
   { path: '/guides', priority: 0.8, changefreq: 'weekly' },
   { path: '/glossary', priority: 0.6, changefreq: 'monthly' },

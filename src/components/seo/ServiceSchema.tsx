@@ -57,6 +57,10 @@ export function ServiceSchema({
     "serviceOutput": {
       "@type": "Thing",
       "name": serviceType
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", ".service-description", "[role='main'] > p:first-of-type"]
     }
   };
 
