@@ -853,10 +853,198 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
       '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners',
       'how-to-create-first-professional-invoice'
     ]
+  },
+
+  // ============================================
+  // NEW EUROPEAN MARKET COMPLIANCE CONTENT
+  // ============================================
+  // Romania (ANAF / e-Factura)
+  'tax-compliant-invoice-ro': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['ANAF compliant invoice', 'tax invoice Romania', 'e-Factura requirements', 'Romania invoice rules'],
+    problemsSolved: ['Need to issue ANAF-compliant invoices', 'Unsure about Romanian invoice requirements', 'e-Factura compliance'],
+    nextSteps: ['vat-invoice-format-ro', 'freelancer-vat-registration-ro']
+  },
+  'vat-invoice-format-ro': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['VAT invoice format Romania', 'Romania VAT 19%', 'ANAF invoice template'],
+    problemsSolved: ['Need correct VAT format for Romania', 'Romanian invoice template'],
+    nextSteps: ['tax-compliant-invoice-ro', 'freelancer-vat-registration-ro']
+  },
+  'freelancer-vat-registration-ro': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer VAT Romania', 'register VAT ANAF', 'Romania VAT threshold freelancer'],
+    problemsSolved: ['Need to register for VAT in Romania', 'Romanian freelancer tax obligations'],
+    nextSteps: ['tax-compliant-invoice-ro', 'freelancer-tax-mistakes-ro']
+  },
+  'invoice-clients-in-ro': {
+    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice Romanian clients', 'billing Romania from abroad', 'cross-border invoice Romania'],
+    problemsSolved: ['Need to invoice clients in Romania', 'Romanian tax rules for foreign suppliers'],
+    nextSteps: ['tax-compliant-invoice-ro', 'multi-currency-invoicing-explained']
+  },
+  'freelancer-tax-mistakes-ro': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer tax mistakes Romania', 'ANAF penalties freelancer', 'common tax errors Romania'],
+    problemsSolved: ['Avoiding tax mistakes as freelancer in Romania', 'ANAF compliance issues'],
+    nextSteps: ['freelancer-vat-registration-ro', 'tax-compliant-invoice-ro']
+  },
+  // Hungary (NAV / Online Számla)
+  'tax-compliant-invoice-hu': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['NAV compliant invoice', 'tax invoice Hungary', 'Online Számla requirements', 'Hungary invoice rules'],
+    problemsSolved: ['Need NAV-compliant invoices', 'Online Számla reporting requirements'],
+    nextSteps: ['vat-invoice-format-hu', 'freelancer-vat-registration-hu']
+  },
+  'vat-invoice-format-hu': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['ÁFA invoice format Hungary', 'Hungary VAT 27%', 'NAV invoice template'],
+    problemsSolved: ['Need correct ÁFA format for Hungary', 'Hungarian invoice template'],
+    nextSteps: ['tax-compliant-invoice-hu', 'freelancer-vat-registration-hu']
+  },
+  'freelancer-vat-registration-hu': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer VAT Hungary', 'register ÁFA NAV', 'Hungary VAT threshold'],
+    problemsSolved: ['Need to register for VAT in Hungary', 'Hungarian freelancer tax obligations'],
+    nextSteps: ['tax-compliant-invoice-hu', 'freelancer-tax-mistakes-hu']
+  },
+  'invoice-clients-in-hu': {
+    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice Hungarian clients', 'billing Hungary from abroad', 'cross-border invoice Hungary'],
+    problemsSolved: ['Need to invoice clients in Hungary', 'Hungarian tax rules for foreign suppliers'],
+    nextSteps: ['tax-compliant-invoice-hu', 'multi-currency-invoicing-explained']
+  },
+  'freelancer-tax-mistakes-hu': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer tax mistakes Hungary', 'NAV penalties', 'common tax errors Hungary'],
+    problemsSolved: ['Avoiding tax mistakes in Hungary', 'NAV compliance issues'],
+    nextSteps: ['freelancer-vat-registration-hu', 'tax-compliant-invoice-hu']
+  },
+  // Serbia (SEF)
+  'tax-compliant-invoice-rs': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['SEF compliant invoice', 'tax invoice Serbia', 'Serbia e-invoicing requirements'],
+    problemsSolved: ['Need SEF-compliant invoices', 'Serbian e-invoicing mandate'],
+    nextSteps: ['vat-invoice-format-rs', 'freelancer-vat-registration-rs']
+  },
+  'vat-invoice-format-rs': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['PDV invoice format Serbia', 'Serbia VAT 20%', 'SEF invoice template'],
+    problemsSolved: ['Need correct PDV format for Serbia', 'Serbian invoice template'],
+    nextSteps: ['tax-compliant-invoice-rs', 'freelancer-vat-registration-rs']
+  },
+  'freelancer-vat-registration-rs': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer PDV Serbia', 'register VAT Serbia', 'Serbia VAT threshold'],
+    problemsSolved: ['Need to register for PDV in Serbia', 'Serbian freelancer tax obligations'],
+    nextSteps: ['tax-compliant-invoice-rs', 'freelancer-tax-mistakes-rs']
+  },
+  'invoice-clients-in-rs': {
+    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice Serbian clients', 'billing Serbia from abroad', 'cross-border invoice Serbia'],
+    problemsSolved: ['Need to invoice clients in Serbia', 'Serbian tax rules for foreign suppliers'],
+    nextSteps: ['tax-compliant-invoice-rs', 'multi-currency-invoicing-explained']
+  },
+  'freelancer-tax-mistakes-rs': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer tax mistakes Serbia', 'SEF penalties', 'common tax errors Serbia'],
+    problemsSolved: ['Avoiding tax mistakes in Serbia', 'SEF compliance issues'],
+    nextSteps: ['freelancer-vat-registration-rs', 'tax-compliant-invoice-rs']
+  },
+  // Poland (KAS / KSeF)
+  'tax-compliant-invoice-pl': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['KAS compliant invoice', 'tax invoice Poland', 'KSeF requirements', 'Poland invoice rules'],
+    problemsSolved: ['Need KAS-compliant invoices', 'KSeF structured e-invoicing compliance'],
+    nextSteps: ['vat-invoice-format-pl', 'freelancer-vat-registration-pl']
+  },
+  'vat-invoice-format-pl': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['VAT invoice format Poland', 'Poland VAT 23%', 'KSeF invoice template', 'JPK_VAT format'],
+    problemsSolved: ['Need correct VAT format for Poland', 'Polish invoice template'],
+    nextSteps: ['tax-compliant-invoice-pl', 'freelancer-vat-registration-pl']
+  },
+  'freelancer-vat-registration-pl': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer VAT Poland', 'register NIP KAS', 'Poland VAT threshold freelancer'],
+    problemsSolved: ['Need to register for VAT in Poland', 'Polish freelancer tax obligations'],
+    nextSteps: ['tax-compliant-invoice-pl', 'freelancer-tax-mistakes-pl']
+  },
+  'invoice-clients-in-pl': {
+    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice Polish clients', 'billing Poland from abroad', 'cross-border invoice Poland'],
+    problemsSolved: ['Need to invoice clients in Poland', 'Polish tax rules for foreign suppliers'],
+    nextSteps: ['tax-compliant-invoice-pl', 'multi-currency-invoicing-explained']
+  },
+  'freelancer-tax-mistakes-pl': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer tax mistakes Poland', 'KAS penalties', 'common tax errors Poland'],
+    problemsSolved: ['Avoiding tax mistakes in Poland', 'KAS compliance issues'],
+    nextSteps: ['freelancer-vat-registration-pl', 'tax-compliant-invoice-pl']
+  },
+  // Italy (AdE / SDI)
+  'tax-compliant-invoice-it': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['fattura elettronica compliant', 'tax invoice Italy', 'SDI FatturaPA requirements', 'Italy invoice rules'],
+    problemsSolved: ['Need SDI-compliant invoices', 'FatturaPA compliance'],
+    nextSteps: ['vat-invoice-format-it', 'freelancer-vat-registration-it']
+  },
+  'vat-invoice-format-it': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['IVA invoice format Italy', 'Italy VAT 22%', 'fattura elettronica template'],
+    problemsSolved: ['Need correct IVA format for Italy', 'Italian invoice template'],
+    nextSteps: ['tax-compliant-invoice-it', 'freelancer-vat-registration-it']
+  },
+  'freelancer-vat-registration-it': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer Partita IVA', 'register VAT Italy', 'Italy forfettario threshold'],
+    problemsSolved: ['Need to register Partita IVA', 'Italian freelancer tax obligations'],
+    nextSteps: ['tax-compliant-invoice-it', 'freelancer-tax-mistakes-it']
+  },
+  'invoice-clients-in-it': {
+    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice Italian clients', 'billing Italy from abroad', 'cross-border invoice Italy'],
+    problemsSolved: ['Need to invoice clients in Italy', 'Italian tax rules for foreign suppliers'],
+    nextSteps: ['tax-compliant-invoice-it', 'multi-currency-invoicing-explained']
+  },
+  'freelancer-tax-mistakes-it': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer tax mistakes Italy', 'Agenzia delle Entrate penalties', 'common tax errors Italy'],
+    problemsSolved: ['Avoiding tax mistakes in Italy', 'Italian tax compliance issues'],
+    nextSteps: ['freelancer-vat-registration-it', 'tax-compliant-invoice-it']
+  },
+  // Bulgaria (NRA)
+  'tax-compliant-invoice-bg': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['NRA compliant invoice', 'tax invoice Bulgaria', 'Bulgaria invoice requirements', 'SAF-T Bulgaria'],
+    problemsSolved: ['Need NRA-compliant invoices', 'Bulgarian invoice numbering rules'],
+    nextSteps: ['vat-invoice-format-bg', 'freelancer-vat-registration-bg']
+  },
+  'vat-invoice-format-bg': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['ДДС invoice format Bulgaria', 'Bulgaria VAT 20%', 'NRA invoice template', 'EN 16931 Bulgaria'],
+    problemsSolved: ['Need correct ДДС format for Bulgaria', 'Bulgarian invoice template'],
+    nextSteps: ['tax-compliant-invoice-bg', 'freelancer-vat-registration-bg']
+  },
+  'freelancer-vat-registration-bg': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer VAT Bulgaria', 'register ДДС NRA', 'Bulgaria VAT threshold'],
+    problemsSolved: ['Need to register for VAT in Bulgaria', 'Bulgarian freelancer tax obligations'],
+    nextSteps: ['tax-compliant-invoice-bg', 'freelancer-tax-mistakes-bg']
+  },
+  'invoice-clients-in-bg': {
+    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice Bulgarian clients', 'billing Bulgaria from abroad', 'cross-border invoice Bulgaria'],
+    problemsSolved: ['Need to invoice clients in Bulgaria', 'Bulgarian tax rules for foreign suppliers'],
+    nextSteps: ['tax-compliant-invoice-bg', 'multi-currency-invoicing-explained']
+  },
+  'freelancer-tax-mistakes-bg': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['freelancer tax mistakes Bulgaria', 'NRA penalties', 'common tax errors Bulgaria'],
+    problemsSolved: ['Avoiding tax mistakes in Bulgaria', 'NRA compliance issues'],
+    nextSteps: ['freelancer-vat-registration-bg', 'tax-compliant-invoice-bg']
   }
 };
-
-// Get intent metadata for a post
 export function getPostIntent(slug: string): ContentMetadata | undefined {
   return postIntentMetadata[slug];
 }
