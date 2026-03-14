@@ -574,6 +574,8 @@ export const pillarClusters: TopicalCluster[] = [
       'invoice-clients-in-ng', 'invoice-clients-in-us', 'invoice-clients-in-uk',
       'invoice-clients-in-ca', 'invoice-clients-in-au', 'invoice-clients-in-gh',
       'invoice-clients-in-ke', 'invoice-clients-in-za',
+      'invoice-clients-in-ro', 'invoice-clients-in-hu', 'invoice-clients-in-rs',
+      'invoice-clients-in-pl', 'invoice-clients-in-it', 'invoice-clients-in-bg',
       'multi-currency-invoicing-explained',
       'best-payment-integrations-freelancers',
       'payment-gateways-invoicing-software'
@@ -623,19 +625,29 @@ export const pillarClusters: TopicalCluster[] = [
       'tax-compliant-invoice-ng', 'tax-compliant-invoice-us', 'tax-compliant-invoice-uk',
       'tax-compliant-invoice-ca', 'tax-compliant-invoice-au', 'tax-compliant-invoice-gh',
       'tax-compliant-invoice-ke', 'tax-compliant-invoice-za',
+      'tax-compliant-invoice-ro', 'tax-compliant-invoice-hu', 'tax-compliant-invoice-rs',
+      'tax-compliant-invoice-pl', 'tax-compliant-invoice-it', 'tax-compliant-invoice-bg',
       'vat-invoice-format-ng', 'vat-invoice-format-us', 'vat-invoice-format-uk',
       'vat-invoice-format-ca', 'vat-invoice-format-au', 'vat-invoice-format-gh',
       'vat-invoice-format-ke', 'vat-invoice-format-za',
+      'vat-invoice-format-ro', 'vat-invoice-format-hu', 'vat-invoice-format-rs',
+      'vat-invoice-format-pl', 'vat-invoice-format-it', 'vat-invoice-format-bg',
       // Freelancer VAT registration (Cluster 2)
       'freelancer-vat-registration-ng', 'freelancer-vat-registration-us',
       'freelancer-vat-registration-uk', 'freelancer-vat-registration-ca',
       'freelancer-vat-registration-au', 'freelancer-vat-registration-gh',
       'freelancer-vat-registration-ke', 'freelancer-vat-registration-za',
+      'freelancer-vat-registration-ro', 'freelancer-vat-registration-hu',
+      'freelancer-vat-registration-rs', 'freelancer-vat-registration-pl',
+      'freelancer-vat-registration-it', 'freelancer-vat-registration-bg',
       // Freelancer tax mistakes (Cluster 3)
       'freelancer-tax-mistakes-ng', 'freelancer-tax-mistakes-us',
       'freelancer-tax-mistakes-uk', 'freelancer-tax-mistakes-ca',
       'freelancer-tax-mistakes-au', 'freelancer-tax-mistakes-gh',
-      'freelancer-tax-mistakes-ke', 'freelancer-tax-mistakes-za'
+      'freelancer-tax-mistakes-ke', 'freelancer-tax-mistakes-za',
+      'freelancer-tax-mistakes-ro', 'freelancer-tax-mistakes-hu',
+      'freelancer-tax-mistakes-rs', 'freelancer-tax-mistakes-pl',
+      'freelancer-tax-mistakes-it', 'freelancer-tax-mistakes-bg'
     ]
   },
   {
