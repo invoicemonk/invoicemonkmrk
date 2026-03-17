@@ -5,8 +5,6 @@ import { registerBlogPosts } from '@/utils/i18nData';
 import { defaultAuthor } from './authors';
 import type { BlogPost } from './blogPosts';
 
-const countriesWithImages = ['ng', 'us', 'uk', 'ca', 'au', 'gh', 'ke', 'za'];
-
 interface CC {
   code: string; name: string; nameEs: string; demonym: string; demonymEs: string;
   authority: string; authorityFull: string; taxType: string; taxRate: string;
@@ -139,7 +137,7 @@ function genTaxCompliant(c: CC): BlogPost {
     excerpt: `Guía paso a paso para crear facturas conformes con ${c.authority} en ${c.nameEs}. Campos obligatorios, reglas de ${c.taxType} y sanciones.`,
     category: 'Tax and Compliance', tags: [c.authority.toLowerCase(), c.name.toLowerCase(), 'cumplimiento fiscal', c.taxType.toLowerCase()],
     author: defaultAuthor, date: '2026-02-20', dateModified: '2026-02-21', readTime: '10 min de lectura',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/tax-compliant-invoice-${c.code}.jpg` : '/images/blog/invoicing-tax-compliance-hero.jpg', featuredImageAlt: `Guía factura conforme ${c.nameEs}`,
+    featuredImage: `/images/blog/tax-compliant-invoice-${c.code}.jpg`, featuredImageAlt: `Guía factura conforme ${c.nameEs}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`factura conforme ${c.authority}`, `factura fiscal ${c.nameEs}`], priority: 'P2',
     content: `
@@ -171,7 +169,7 @@ function genVatFormat(c: CC): BlogPost {
     excerpt: `El formato correcto de factura ${c.taxType} exigido por ${c.authority} en ${c.nameEs}. Campos obligatorios, ejemplos y plantillas gratis.`,
     category: 'Tax and Compliance', tags: [`factura ${c.taxType.toLowerCase()}`, c.name.toLowerCase(), c.authority.toLowerCase()],
     author: defaultAuthor, date: '2026-02-19', dateModified: '2026-02-21', readTime: '9 min de lectura',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/vat-invoice-format-${c.code}.jpg` : '/images/blog/invoice-essential-elements.jpg', featuredImageAlt: `Formato factura ${c.taxType} ${c.nameEs}`,
+    featuredImage: `/images/blog/vat-invoice-format-${c.code}.jpg`, featuredImageAlt: `Formato factura ${c.taxType} ${c.nameEs}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`formato factura ${c.taxType} ${c.nameEs}`], priority: 'P2',
     content: `
@@ -195,7 +193,7 @@ function genFreelancerVat(c: CC): BlogPost {
     excerpt: `¿Necesitas registrarte en ${c.taxType} en ${c.nameEs}? Umbrales, pros/contras y guía paso a paso.`,
     category: 'Tax and Compliance', tags: ['freelance', `registro ${c.taxType.toLowerCase()}`, c.name.toLowerCase()],
     author: defaultAuthor, date: '2026-02-17', dateModified: '2026-02-21', readTime: '8 min de lectura',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/freelancer-vat-${c.code}.jpg` : '/images/blog/quarterly-tax-payments.jpg', featuredImageAlt: `Registro ${c.taxType} freelance ${c.nameEs}`,
+    featuredImage: `/images/blog/freelancer-vat-${c.code}.jpg`, featuredImageAlt: `Registro ${c.taxType} freelance ${c.nameEs}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`freelance ${c.taxType} ${c.nameEs}`], priority: 'P2',
     content: `
@@ -223,7 +221,7 @@ function genInvoiceAbroad(c: CC): BlogPost {
     excerpt: `Guía completa para facturar clientes en ${c.nameEs} desde el extranjero. Divisas, ${c.taxType}, pagos y cumplimiento.`,
     category: 'Tax and Compliance', tags: ['facturación transfronteriza', c.name.toLowerCase(), 'factura internacional'],
     author: defaultAuthor, date: '2026-02-16', dateModified: '2026-02-21', readTime: '9 min de lectura',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/invoice-abroad-${c.code}.jpg` : '/images/blog/multi-currency-invoicing.jpg', featuredImageAlt: `Facturar clientes ${c.demonymEs}s desde el extranjero`,
+    featuredImage: `/images/blog/invoice-abroad-${c.code}.jpg`, featuredImageAlt: `Facturar clientes ${c.demonymEs}s desde el extranjero`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/payments',
     semanticKeywords: [`facturar clientes ${c.demonymEs}s`, `facturación transfronteriza ${c.nameEs}`], priority: 'P2',
     content: `
@@ -251,7 +249,7 @@ function genTaxMistakes(c: CC): BlogPost {
     excerpt: `Los errores fiscales más comunes de freelances ${c.demonymEs}s — de plazos de ${c.taxType} incumplidos a deducciones no reclamadas.`,
     category: 'Tax and Compliance', tags: ['freelance', 'errores fiscales', c.name.toLowerCase()],
     author: defaultAuthor, date: '2026-02-15', dateModified: '2026-02-21', readTime: '8 min de lectura',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/tax-mistakes-${c.code}.jpg` : '/images/blog/tax-deductions.jpg', featuredImageAlt: `Errores fiscales freelances ${c.nameEs}`,
+    featuredImage: `/images/blog/tax-mistakes-${c.code}.jpg`, featuredImageAlt: `Errores fiscales freelances ${c.nameEs}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`errores fiscales freelance ${c.nameEs}`], priority: 'P3',
     content: `

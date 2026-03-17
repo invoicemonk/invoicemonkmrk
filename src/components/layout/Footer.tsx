@@ -176,8 +176,6 @@ export function Footer() {
       { name: t('footer.paymentFeeCalculator'), href: '/international-payment-fee-calculator' },
       { name: t('footer.paypalVsWise'), href: '/paypal-vs-wise-fees' },
       { name: t('footer.cheapestPayments'), href: '/cheapest-way-to-receive-international-payments' },
-      { name: 'Invoice Templates', href: '/invoice-templates' },
-      { name: 'Freelancer Rate Calculator', href: '/freelancer-rate-calculator' },
       { name: t('footer.apiDocs'), href: '/docs/api' },
     ],
     audiences: [

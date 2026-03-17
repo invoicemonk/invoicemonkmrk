@@ -39,10 +39,6 @@ export function WebPageSchema({ name, description, url, hasPart, isPartOf }: Web
       ? { '@type': 'WebPage', name: isPartOf.name, url: normalize(isPartOf.url) }
       : { '@id': `${BASE}/#website` },
     publisher: { '@id': `${BASE}/#organization` },
-    speakable: {
-      '@type': 'SpeakableSpecification',
-      cssSelector: ['h1', '[role="main"] > p:first-of-type'],
-    },
   };
 
   if (hasPart && hasPart.length > 0) {
