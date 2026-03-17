@@ -17,6 +17,7 @@ import { Helmet } from 'react-helmet-async';
 import { InvoiceForm } from '@/components/invoice-generator/InvoiceForm';
 import { InvoicePreview } from '@/components/invoice-generator/InvoicePreview';
 import { InvoiceActions } from '@/components/invoice-generator/InvoiceActions';
+import { InvoiceValidation } from '@/components/invoice-generator/InvoiceValidation';
 import { UpgradeBanner } from '@/components/invoice-generator/UpgradeBanner';
 import { useInvoiceGenerator } from '@/components/invoice-generator/useInvoiceGenerator';
 import { TemplateSwitcher } from '@/components/invoice-generator/TemplateSwitcher';
@@ -31,7 +32,7 @@ const featureKeys = [
   { key: 'complianceReady', icon: Shield },
 ] as const;
 
-const faqKeys = ['isFree', 'needAccount', 'addLogo', 'moreFeatures', 'howToCreate', 'bestGenerator', 'freePdfDownload'] as const;
+const faqKeys = ['isFree', 'needAccount', 'addLogo', 'moreFeatures', 'howToCreate', 'bestGenerator', 'freePdfDownload', 'gstVatSupport', 'perItemTax', 'supportedCurrencies'] as const;
 
 const GENERATOR_SCHEMA_ID = 'https://invoicemonk.com/free-invoice-generator#software';
 
@@ -82,7 +83,7 @@ const FreeInvoiceGenerator = () => {
     "name": "Free Invoice Generator Online",
     "description": "Create professional invoices for free — no signup, no hidden fees. Download as PDF instantly.",
     "url": "https://invoicemonk.com/en/free-invoice-generator",
-    "dateModified": "2026-03-10",
+    "dateModified": "2026-03-17",
     "mainEntity": { "@id": GENERATOR_SCHEMA_ID },
     "isPartOf": { "@id": "https://invoicemonk.com/#website" },
     "publisher": { "@id": "https://invoicemonk.com/#organization" },
@@ -129,7 +130,7 @@ const FreeInvoiceGenerator = () => {
         description={seo?.getDescription(locale) || 'Create professional invoices for free in under 2 minutes. No signup required. Download as PDF, add your logo, choose templates.'}
         article={{
           publishedTime: '2025-01-15',
-          modifiedTime: '2026-03-10',
+          modifiedTime: '2026-03-17',
           author: 'Invoicemonk',
           section: 'Tools',
         }}
@@ -202,6 +203,7 @@ const FreeInvoiceGenerator = () => {
             <div className="space-y-4 lg:sticky lg:top-4">
               <TemplateSwitcher value={data.template} onChange={v => updateField('template', v)} />
               <InvoicePreview ref={previewRef} data={data} totals={totals} formatCurrency={formatCurrency} />
+              <InvoiceValidation data={data} />
               <InvoiceActions data={data} totals={totals} formatCurrency={formatCurrency} onReset={resetInvoice} />
             </div>
           </div>
@@ -213,7 +215,130 @@ const FreeInvoiceGenerator = () => {
         </div>
       </section>
 
-      {/* FAQ — Gap 7: Enriched with semantic keywords in locale files */}
+      {/* SEO Content Sections */}
+      <section className="py-12 lg:py-24 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <h2 className="text-heading-lg font-bold text-foreground text-center mb-10">
+            How to Create a Free Invoice in 3 Steps
+          </h2>
+          <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+            <p>Creating a professional invoice doesn't require expensive software or an accounting degree. With Invoicemonk's free invoice generator, you can create, customize, and download invoices in under 2 minutes:</p>
+            <ol className="space-y-3 text-muted-foreground">
+              <li><strong className="text-foreground">Enter your business details:</strong> Add your business name, address, logo, and contact information. This information is saved locally so you don't have to re-enter it for future invoices.</li>
+              <li><strong className="text-foreground">Add line items:</strong> Enter the products or services you're billing for, including quantities, rates, and applicable tax. The generator calculates subtotals, tax, and the total automatically.</li>
+              <li><strong className="text-foreground">Download or send:</strong> Preview your invoice, choose from multiple professional templates, and download as a high-quality PDF. You can also email the invoice directly to your client.</li>
+            </ol>
+            <p>For a deeper dive into what every invoice needs, read our guide on the <Link to="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners" className="text-primary hover:underline">5 essential elements of an invoice</Link>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <h2 className="text-heading-lg font-bold text-foreground text-center mb-10">
+            What to Include on Your Invoice
+          </h2>
+          <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+            <p>A complete, professional invoice should include these elements:</p>
+            <ul className="space-y-2 text-muted-foreground">
+              <li>✓ Your business name, address, and contact details</li>
+              <li>✓ Client's name and billing address</li>
+              <li>✓ Unique invoice number (see our <Link to="/blog/invoice-numbering-best-practices" className="text-primary hover:underline">numbering best practices</Link>)</li>
+              <li>✓ Invoice date and payment due date</li>
+              <li>✓ Itemized list of products or services with quantities and rates</li>
+              <li>✓ Subtotal, tax amount, and total due</li>
+              <li>✓ Payment terms and accepted payment methods</li>
+              <li>✓ Your Tax ID / VAT / GST number (auto-labeled per country — ABN for Australia, GSTIN for India, TIN for Nigeria, VAT No. for UK/South Africa)</li>
+              <li>✓ Per-item tax rates if your jurisdiction requires split tax (e.g., CGST + SGST in India)</li>
+            </ul>
+            <p>Missing any of these can delay payment or cause compliance issues. Our free generator includes fields for all of them, with <strong className="text-foreground">country-aware labels and default tax rates</strong> for 10+ currencies.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-24 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <h2 className="text-heading-lg font-bold text-foreground text-center mb-10">
+            Why Use a Free Invoice Generator?
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <h3 className="font-semibold text-foreground flex items-center gap-2"><Zap className="w-4 h-4 text-primary" /> No Signup Required</h3>
+              <p className="text-sm text-muted-foreground">Start creating invoices immediately — no account creation, no email verification, no credit card. Your data stays in your browser.</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold text-foreground flex items-center gap-2"><FileText className="w-4 h-4 text-primary" /> Professional PDFs</h3>
+              <p className="text-sm text-muted-foreground">Choose from multiple templates to generate polished, brandable invoices that make a great impression on clients.</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold text-foreground flex items-center gap-2"><Shield className="w-4 h-4 text-primary" /> Tax-Compliant for 10+ Countries</h3>
+              <p className="text-sm text-muted-foreground">Country-aware tax fields (ABN, GSTIN, VAT No., TIN, KRA PIN), per-item tax rate overrides, and automatic tax calculations. Supports USD, GBP, EUR, NGN, CAD, AUD, GHS, KES, ZAR, and INR with default rates.</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold text-foreground flex items-center gap-2"><CheckCircle className="w-4 h-4 text-primary" /> Save Hours Every Month</h3>
+              <p className="text-sm text-muted-foreground">Stop formatting invoices in Word or Excel. Our generator handles layout, calculations, and PDF creation automatically.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Built-In Tax Compliance Section */}
+      <section className="py-12 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <h2 className="text-heading-lg font-bold text-foreground text-center mb-4">
+            Built-In Tax Compliance for 10+ Countries
+          </h2>
+          <p className="text-muted-foreground text-center mb-10">
+            Select your currency and the generator auto-applies the correct tax rate, invoice label, and Tax ID field name.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { flag: '🇺🇸', currency: 'USD', label: 'INVOICE', taxId: 'EIN / Tax ID', rate: '0%' },
+              { flag: '🇬🇧', currency: 'GBP', label: 'VAT INVOICE', taxId: 'VAT No.', rate: '20%' },
+              { flag: '🇪🇺', currency: 'EUR', label: 'INVOICE', taxId: 'VAT ID', rate: '0%' },
+              { flag: '🇳🇬', currency: 'NGN', label: 'INVOICE', taxId: 'TIN', rate: '7.5%' },
+              { flag: '🇨🇦', currency: 'CAD', label: 'INVOICE', taxId: 'GST/HST No.', rate: '5%' },
+              { flag: '🇦🇺', currency: 'AUD', label: 'TAX INVOICE', taxId: 'ABN', rate: '10%' },
+              { flag: '🇬🇭', currency: 'GHS', label: 'INVOICE', taxId: 'TIN', rate: '15%' },
+              { flag: '🇰🇪', currency: 'KES', label: 'TAX INVOICE', taxId: 'KRA PIN', rate: '16%' },
+              { flag: '🇿🇦', currency: 'ZAR', label: 'TAX INVOICE', taxId: 'VAT No.', rate: '15%' },
+              { flag: '🇮🇳', currency: 'INR', label: 'TAX INVOICE', taxId: 'GSTIN', rate: '18%' },
+            ].map(({ flag, currency, label, taxId, rate }) => (
+              <div key={currency} className="flex items-center gap-3 p-3 rounded-lg border border-border/50 bg-muted/20">
+                <span className="text-lg">{flag}</span>
+                <div className="flex-1 min-w-0">
+                  <div className="text-sm font-medium text-foreground">{currency} — {label}</div>
+                  <div className="text-xs text-muted-foreground">{taxId} • Default {rate}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-muted-foreground text-center mt-4">
+            Each line item can have its own tax rate override — perfect for mixed-rate invoices (e.g., CGST + SGST in India, mixed VAT in the EU).
+          </p>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <h2 className="text-heading-lg font-bold text-foreground text-center mb-10">
+            Free Invoice Generator vs. Paid Invoicing Software
+          </h2>
+          <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+            <p>Our free generator is perfect for freelancers and small businesses that need to create occasional invoices. But as your business grows, you may need more:</p>
+            <ul className="space-y-2 text-muted-foreground">
+              <li><strong className="text-foreground">Automatic invoice numbering:</strong> The free generator requires manual numbering. <Link to="/invoicing" className="text-primary hover:underline">Invoicemonk's full platform</Link> auto-numbers sequentially.</li>
+              <li><strong className="text-foreground">Payment tracking:</strong> Know which invoices are paid, pending, or overdue — with automatic <Link to="/blog/payment-reminder-email-templates" className="text-primary hover:underline">payment reminders</Link>.</li>
+              <li><strong className="text-foreground">Recurring invoices:</strong> Set up monthly invoices that send automatically — no manual work each month.</li>
+              <li><strong className="text-foreground">Expense tracking and accounting:</strong> Track business expenses, scan receipts, and generate financial reports from <Link to="/accounting" className="text-primary hover:underline">one platform</Link>.</li>
+              <li><strong className="text-foreground">Multi-currency and compliance:</strong> Invoice in 150+ currencies with built-in <Link to="/compliance" className="text-primary hover:underline">tax compliance</Link> for 8+ countries.</li>
+            </ul>
+            <p>Ready to upgrade? <a href="https://app.invoicemonk.com/signup" className="text-primary hover:underline">Try Invoicemonk free</a> — no credit card required. For a comparison of all options, see our <Link to="/blog/best-invoicing-software-freelancers-small-business" className="text-primary hover:underline">best invoicing software</Link> guide.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
       <section className="py-12 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-10">

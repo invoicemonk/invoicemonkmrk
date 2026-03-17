@@ -49,7 +49,9 @@
       "multipleCategories": { "question": "Posso rastrear despesas em múltiplas categorias?", "answer": "Sim! Você pode criar categorias personalizadas ou usar as pré-definidas como Viagens, Material de escritório, Software, Refeições e mais. Despesas são automaticamente categorizadas com base no fornecedor." },
       "taxes": { "question": "Isso ajudará com meus impostos?", "answer": "Com certeza. Sinalizamos automaticamente despesas dedutíveis e geramos relatórios que você pode compartilhar com seu contador. Você nunca mais perderá uma dedução." },
       "integration": { "question": "Como isso se integra com o faturamento?", "answer": "As despesas fluem diretamente para seus relatórios financeiros. Combinado com faturamento, você obtém uma visão completa das finanças do seu negócio — receitas e despesas em um só lugar." },
-      "budgets": { "question": "Posso definir orçamentos de gastos?", "answer": "Sim, você pode definir orçamentos para diferentes categorias de despesas e receber alertas quando estiver se aproximando dos limites. Ótimo para manter os gastos sob controle." }
+      "budgets": { "question": "Posso definir orçamentos de gastos?", "answer": "Sim, você pode definir orçamentos para diferentes categorias de despesas e receber alertas quando estiver se aproximando dos limites. Ótimo para manter os gastos sob controle." },
+      "bestReceiptApp": { "question": "Qual é o melhor app de digitalização de recibos para pequenas empresas?", "answer": "Invoicemonk combina digitalização de recibos com rastreamento completo de despesas e faturamento em uma plataforma. Nosso OCR com IA captura fornecedor, valor, data e categoria de qualquer recibo — e categoriza a despesa automaticamente." },
+      "receiptAppSmallBiz": { "question": "Como funciona a digitalização de recibos para o rastreamento de despesas de pequenas empresas?", "answer": "Tire uma foto de qualquer recibo com seu celular. Nossa tecnologia OCR lê o nome do fornecedor, data, valor e sugere uma categoria. A despesa é criada, categorizada e armazenada na nuvem automaticamente." }
     }
   },
   "seoFaqs": {

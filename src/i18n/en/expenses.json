@@ -112,6 +112,14 @@
       "budgets": {
         "question": "Can I set spending budgets?",
         "answer": "Yes, you can set budgets for different expense categories and get alerts when you're approaching your limits. Great for keeping spending under control."
+      },
+      "bestReceiptApp": {
+        "question": "What is the best receipt scanning app for small business?",
+        "answer": "Invoicemonk combines receipt scanning with full expense tracking and invoicing in one platform. Our AI-powered OCR captures vendor, amount, date, and category from any receipt — then automatically categorizes the expense and stores it for tax time. Unlike standalone scanners, everything flows into your invoicing and financial reports."
+      },
+      "receiptAppSmallBiz": {
+        "question": "How does receipt scanning work for small business expense tracking?",
+        "answer": "Snap a photo of any receipt with your phone. Our OCR technology reads the vendor name, date, amount, and even suggests a category. The expense is automatically created, categorized, and stored in the cloud — searchable and ready for tax deductions or accountant exports."
       }
     }
   },

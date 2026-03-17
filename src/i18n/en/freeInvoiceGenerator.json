@@ -40,8 +40,8 @@
       "description": "Download your invoices as professional PDF files instantly."
     },
     "complianceReady": {
-      "title": "Compliance Ready",
-      "description": "All invoices meet standard business and tax requirements."
+      "title": "Tax-Compliant for 10+ Countries",
+      "description": "Country-aware tax fields (ABN, GSTIN, VAT No.), per-item tax rate overrides, and automatic calculations for 10 currencies."
     }
   },
   "steps": {
@@ -99,6 +99,18 @@
     "freePdfDownload": {
       "question": "Can I download my invoice as a PDF for free?",
       "answer": "Yes, every invoice you create can be downloaded as a high-quality PDF file completely free of charge. There are no limits on the number of invoice PDFs you can generate. Our free invoice template download works on any device."
+    },
+    "gstVatSupport": {
+      "question": "Does the free invoice generator support GST/VAT?",
+      "answer": "Yes. The generator includes built-in tax compliance for 10+ countries. Select your currency (AUD, GBP, INR, ZAR, etc.) and the correct tax rate, invoice label (TAX INVOICE, VAT INVOICE), and Tax ID field (ABN, GSTIN, VAT No.) are applied automatically. You can also override the tax rate per line item."
+    },
+    "perItemTax": {
+      "question": "Can I set different tax rates for each line item?",
+      "answer": "Yes. Each line item has its own tax rate field, so you can apply different rates to different products or services on the same invoice. This is essential for jurisdictions with multiple tax rates (e.g., CGST + SGST in India, mixed VAT rates in the EU, or GST-free items in Australia)."
+    },
+    "supportedCurrencies": {
+      "question": "What currencies does the free invoice generator support?",
+      "answer": "The generator supports 10 currencies with country-specific tax profiles: USD (US), GBP (UK), EUR (Europe), NGN (Nigeria), CAD (Canada), AUD (Australia), GHS (Ghana), KES (Kenya), ZAR (South Africa), and INR (India). Each currency auto-applies the correct default tax rate and Tax ID label."
     }
   },
   "form": {
@@ -110,10 +122,13 @@
     "address": "Address",
     "email": "Email",
     "phone": "Phone",
+    "businessTaxId": "Tax ID / VAT / GST Number",
     "billTo": "Bill To",
     "clientName": "Client name",
     "clientAddress": "Client address",
     "clientEmail": "Client email",
+    "clientTaxId": "Client Tax ID (optional)",
+    "taxId": "Tax ID",
     "invoiceDetails": "Invoice Details",
     "invoiceNumber": "Invoice #",
     "currency": "Currency",
@@ -125,9 +140,10 @@
     "rate": "Rate",
     "amount": "Amount",
     "itemDescription": "Item description",
+    "itemTax": "Tax %",
     "addItem": "Add Item",
     "taxDiscount": "Tax & Discount",
-    "taxRate": "Tax Rate (%)",
+    "taxRate": "Rate (%)",
     "discount": "Discount (%)",
     "notesTerms": "Notes & Terms",
     "notesPlaceholder": "Notes (e.g., thank you message)",
@@ -155,6 +171,15 @@
     "noSavedInvoices": "No saved invoices yet",
     "invoiceSaved": "Invoice saved",
     "invoiceDeleted": "Invoice deleted",
-    "invoiceLoaded": "Invoice loaded"
+    "invoiceLoaded": "Invoice loaded",
+    "validation": {
+      "title": "Missing fields",
+      "businessName": "Business name is empty",
+      "clientName": "Client name is empty",
+      "invoiceNumber": "Invoice number is empty",
+      "noDescriptions": "No line items have descriptions",
+      "zeroAmount": "All line items have zero amounts",
+      "taxIdRecommended": "Tax ID recommended for compliance"
+    }
   }
 }

@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { urlPrefixToCountry, countryToUrlPrefix } from '@/locales';
 import { Link } from '@/components/LocalizedLink';
 import { useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -30,7 +31,7 @@ import { getGlossaryTermsForPillar } from '@/utils/glossaryMapping';
 import NotFound from './NotFound';
 
 const BlogPost = () => {
-  const { slug } = useParams<{ slug: string }>();
+  const { slug, lang: urlLang } = useParams<{ slug: string; lang: string }>();
   const { locale } = useLocale();
   const { t, i18n } = useTranslation('blog');
   const lang = getLangPrefix(i18n.language);
@@ -44,6 +45,23 @@ const BlogPost = () => {
     const glossaryTerms = getGlossaryTermsForPillar(p?.id);
     return linkGlossaryTermsInText(withLinks, glossaryTerms);
   }, [post]);
+
+  // Cross-country cannibalization fix: if this post targets a specific country
+  // and the URL prefix doesn't match, point canonical to the correct prefix and noindex this version
+  const isCountryMismatch = useMemo(() => {
+    if (!post?.targetCountry || !urlLang) return false;
+    const urlCountry = urlPrefixToCountry[urlLang.toLowerCase()];
+    const postCountry = urlPrefixToCountry[post.targetCountry.toLowerCase()];
+    return !!urlCountry && !!postCountry && urlCountry !== postCountry;
+  }, [post?.targetCountry, urlLang]);
+
+  const correctPrefix = post?.targetCountry
+    ? countryToUrlPrefix[urlPrefixToCountry[post.targetCountry.toLowerCase()]] || 'en'
+    : urlLang || 'en';
+
+  const canonicalUrl = isCountryMismatch
+    ? `https://invoicemonk.com/${correctPrefix}/blog/${post?.slug}`
+    : undefined;
 
   // Add IDs to headings for TOC navigation
   useEffect(() => {
@@ -84,7 +102,7 @@ const BlogPost = () => {
       })
     : null;
 
-  const articleUrl = `https://invoicemonk.com/blog/${post.slug}`;
+  const articleUrl = `https://invoicemonk.com/${correctPrefix}/blog/${post.slug}`;
   const ogImageUrl = `https://invoicemonk.com${post.featuredImage}`;
 
   const breadcrumbs = [
@@ -135,6 +153,8 @@ const BlogPost = () => {
       <SEOHead
         title={`${post.title} | Invoicemonk Blog`}
         description={post.excerpt}
+        canonical={canonicalUrl}
+        noindex={isCountryMismatch}
         ogImage={ogImageUrl}
         ogImageWidth={1200}
         ogImageHeight={630}

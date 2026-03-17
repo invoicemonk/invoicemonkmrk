@@ -40,8 +40,8 @@
       "description": "Téléchargez vos factures en fichiers PDF professionnels instantanément."
     },
     "complianceReady": {
-      "title": "Prêt pour la conformité",
-      "description": "Toutes les factures respectent les exigences commerciales et fiscales standard."
+      "title": "Conforme fiscalement pour 10+ pays",
+      "description": "Champs fiscaux par pays (ABN, GSTIN, N° TVA), taux de taxe par ligne et calculs automatiques pour 10 devises."
     }
   },
   "steps": {
@@ -99,6 +99,18 @@
     "freePdfDownload": {
       "question": "Puis-je télécharger ma facture en PDF gratuitement ?",
       "answer": "Oui, chaque facture créée peut être téléchargée en fichier PDF haute qualité entièrement gratuitement. Il n'y a pas de limite au nombre de PDF de factures que vous pouvez générer. Notre modèle de facture gratuit fonctionne sur tout appareil."
+    },
+    "gstVatSupport": {
+      "question": "Le générateur gratuit prend-il en charge la TVA/GST ?",
+      "answer": "Oui. Le générateur inclut la conformité fiscale pour plus de 10 pays. Sélectionnez votre devise (AUD, GBP, INR, ZAR, etc.) et le taux de taxe correct, le libellé de facture (TAX INVOICE, VAT INVOICE) et le champ d'identifiant fiscal (ABN, GSTIN, N° TVA) sont appliqués automatiquement."
+    },
+    "perItemTax": {
+      "question": "Puis-je définir des taux de taxe différents par ligne ?",
+      "answer": "Oui. Chaque ligne a son propre champ de taux de taxe, ce qui vous permet d'appliquer des taux différents pour différents produits ou services sur la même facture. Essentiel pour les juridictions avec plusieurs taux de TVA."
+    },
+    "supportedCurrencies": {
+      "question": "Quelles devises le générateur gratuit prend-il en charge ?",
+      "answer": "Le générateur prend en charge 10 devises avec des profils fiscaux par pays : USD (États-Unis), GBP (Royaume-Uni), EUR (Europe), NGN (Nigeria), CAD (Canada), AUD (Australie), GHS (Ghana), KES (Kenya), ZAR (Afrique du Sud) et INR (Inde). Chaque devise applique automatiquement le taux de taxe et le libellé d'identifiant fiscal corrects."
     }
   },
   "form": {

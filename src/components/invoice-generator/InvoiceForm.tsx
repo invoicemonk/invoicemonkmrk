@@ -6,6 +6,7 @@ import { Upload, X } from 'lucide-react';
 import { InvoiceData, LineItem } from './types';
 import { InvoiceLineItems } from './InvoiceLineItems';
 import { CurrencySelector } from './CurrencySelector';
+import { getCountryProfile } from './countryProfiles';
 import React, { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -14,7 +15,7 @@ interface Props {
   updateField: <K extends keyof InvoiceData>(field: K, value: InvoiceData[K]) => void;
   addLineItem: () => void;
   removeLineItem: (id: string) => void;
-  updateLineItem: (id: string, field: keyof Omit<LineItem, 'id'>, value: string | number) => void;
+  updateLineItem: (id: string, field: keyof Omit<LineItem, 'id'>, value: string | number | undefined) => void;
   handleLogoUpload: (file: File) => void;
   removeLogo: () => void;
 }
@@ -33,6 +34,7 @@ export function InvoiceForm({
 }: Props) {
   const fileRef = useRef<HTMLInputElement>(null);
   const { t } = useTranslation('freeInvoiceGenerator');
+  const profile = getCountryProfile(data.currency);
 
   return (
     <div className="space-y-6">
@@ -66,6 +68,12 @@ export function InvoiceForm({
           <Input placeholder={t('form.email')} type="email" value={data.businessEmail} onChange={e => updateField('businessEmail', e.target.value)} className="h-9 text-sm" />
           <Input placeholder={t('form.phone')} value={data.businessPhone} onChange={e => updateField('businessPhone', e.target.value)} className="h-9 text-sm" />
         </div>
+        <Input
+          placeholder={profile.taxIdLabel}
+          value={data.businessTaxId}
+          onChange={e => updateField('businessTaxId', e.target.value)}
+          className="h-9 text-sm"
+        />
       </Section>
 
       {/* Client Details */}
@@ -73,6 +81,12 @@ export function InvoiceForm({
         <Input placeholder={t('form.clientName')} value={data.clientName} onChange={e => updateField('clientName', e.target.value)} className="h-9 text-sm" />
         <Input placeholder={t('form.clientAddress')} value={data.clientAddress} onChange={e => updateField('clientAddress', e.target.value)} className="h-9 text-sm" />
         <Input placeholder={t('form.clientEmail')} type="email" value={data.clientEmail} onChange={e => updateField('clientEmail', e.target.value)} className="h-9 text-sm" />
+        <Input
+          placeholder={t('form.clientTaxId')}
+          value={data.clientTaxId}
+          onChange={e => updateField('clientTaxId', e.target.value)}
+          className="h-9 text-sm"
+        />
       </Section>
 
       {/* Invoice Meta */}
@@ -101,14 +115,20 @@ export function InvoiceForm({
 
       {/* Line Items */}
       <Section title={t('form.items')}>
-        <InvoiceLineItems items={data.lineItems} onAdd={addLineItem} onRemove={removeLineItem} onUpdate={updateLineItem} />
+        <InvoiceLineItems
+          items={data.lineItems}
+          globalTaxRate={data.taxRate}
+          onAdd={addLineItem}
+          onRemove={removeLineItem}
+          onUpdate={updateLineItem}
+        />
       </Section>
 
       {/* Tax & Discount */}
       <Section title={t('form.taxDiscount')}>
         <div className="grid grid-cols-2 gap-2">
           <div>
-            <Label className="text-xs text-muted-foreground">{t('form.taxRate')}</Label>
+            <Label className="text-xs text-muted-foreground">{profile.taxName} {t('form.taxRate')}</Label>
             <Input type="number" min={0} max={100} step="0.5" value={data.taxRate || ''} onChange={e => updateField('taxRate', Math.min(100, Math.max(0, Number(e.target.value))))} className="h-9 text-sm" />
           </div>
           <div>

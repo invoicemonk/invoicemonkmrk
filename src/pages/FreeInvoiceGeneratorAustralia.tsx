@@ -38,12 +38,20 @@ const australiaFAQs = [
     answer: 'Yes. Enter your Australian Business Number (ABN) in the sender details section. It will appear prominently on the invoice, which is required for all GST-registered businesses issuing tax invoices.',
   },
   {
+    question: 'Can I apply different GST rates to different items?',
+    answer: 'Yes. Each line item has its own tax rate field, so you can set 10% GST on some items and 0% on GST-free items (like basic food or medical supplies) on the same invoice. This per-item GST override makes it easy to create mixed-rate invoices that are fully ATO-compliant.',
+  },
+  {
     question: 'Do I need to create an account?',
     answer: 'No. The free invoice generator works entirely in your browser with no signup, no account, and no data stored on our servers. Your invoice data stays on your device.',
   },
   {
     question: 'Can I download the invoice as a PDF?',
     answer: 'Yes. Once you\'ve filled in your details, click "Download PDF" to get a professional, print-ready PDF that you can email to clients or attach to your BAS records.',
+  },
+  {
+    question: 'How many invoice templates are available?',
+    answer: 'The generator includes 6 professional templates: Modern, Classic, Minimal, Contractor, Consulting, and E-commerce. All templates include the required "TAX INVOICE" label, ABN fields, and GST breakdown.',
   },
 ];
 
@@ -55,7 +63,7 @@ const howToSteps = [
 ];
 
 const featureHighlights = [
-  { icon: FileText, title: 'ATO-Compliant Templates', description: 'Tax invoices with all required fields — ABN, GST breakdown, and "tax invoice" label included automatically.' },
+  { icon: FileText, title: 'ATO-Compliant Templates', description: 'Choose from 6 professional templates — all include required fields like ABN, GST breakdown, and "TAX INVOICE" label automatically.' },
   { icon: Zap, title: 'Instant GST Calculation', description: 'Add 10% GST per line item or across the invoice. Calculates GST-inclusive and exclusive totals.' },
   { icon: Download, title: 'Free PDF Download', description: 'Download professional PDFs ready for email, print, or BAS record-keeping. No watermarks.' },
   { icon: Shield, title: 'No Signup Required', description: 'Start creating invoices immediately. No account, no credit card, no data stored on our servers.' },
@@ -125,7 +133,8 @@ const FreeInvoiceGeneratorAustralia = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-4 text-xs text-muted-foreground">
             <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-primary" /> ABN &amp; GST fields</span>
-            <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-primary" /> 10% GST auto-calculation</span>
+            <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-primary" /> Per-item GST override</span>
+            <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-primary" /> 6 professional templates</span>
             <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-primary" /> PDF download</span>
             <span className="flex items-center gap-1"><CheckCircle className="w-3 h-3 text-primary" /> AUD currency</span>
           </div>

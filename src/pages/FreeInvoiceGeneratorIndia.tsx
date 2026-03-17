@@ -38,6 +38,10 @@ const indiaFAQs = [
     answer: 'Yes. You can add HSN (Harmonized System of Nomenclature) codes for goods or SAC (Services Accounting Code) for services in the line item descriptions. This is mandatory for businesses with turnover above ₹5 crore.',
   },
   {
+    question: 'Can I set CGST and SGST separately on each item?',
+    answer: 'Yes. Each line item has its own tax rate field, so you can apply different rates to different items on the same invoice. For intra-state transactions, set CGST + SGST rates per item. For inter-state, set IGST. The per-item tax override makes mixed-rate invoices easy — no need for separate invoices.',
+  },
+  {
     question: 'Do I need to create an account?',
     answer: 'No. The free invoice generator works entirely in your browser with no signup, no account, and no data stored on our servers. Your invoice data stays on your device.',
   },
@@ -47,7 +51,7 @@ const indiaFAQs = [
   },
   {
     question: 'Is this the best free invoicing software in India?',
-    answer: 'Invoicemonk is among the best free invoicing tools for Indian businesses in 2026. It offers full GST compliance, professional templates, multi-currency support, and PDF downloads — all free. For businesses needing expense tracking, recurring billing, and accounting, the full platform is also available.',
+    answer: 'Invoicemonk is among the best free invoicing tools for Indian businesses in 2026. It offers full GST compliance with auto-labeled GSTIN fields when INR is selected, per-item tax rate overrides, 18% GST default, 6 professional templates, multi-currency support, and PDF downloads — all free.',
   },
 ];
 
@@ -59,8 +63,8 @@ const howToSteps = [
 ];
 
 const featureHighlights = [
-  { icon: FileText, title: 'GST-Compliant Templates', description: 'Professional invoices with GSTIN, HSN/SAC codes, and CGST/SGST/IGST breakdowns — all fields required by Indian tax authorities.' },
-  { icon: Zap, title: 'Auto GST Calculation', description: 'Set CGST + SGST for intra-state or IGST for inter-state transactions. Tax amounts calculated automatically.' },
+  { icon: FileText, title: 'GST-Compliant Templates', description: 'Choose from 6 professional templates with GSTIN (auto-labeled when INR selected), HSN/SAC codes, and CGST/SGST/IGST breakdowns.' },
+  { icon: Zap, title: 'Auto GST at 18%', description: 'INR currency auto-applies 18% GST default. Override per line item for CGST + SGST splits or mixed rates.' },
   { icon: Download, title: 'Free PDF Download', description: 'Download professional GST invoices as PDFs. No watermarks, no limitations, ready for clients and tax records.' },
   { icon: Shield, title: 'No Signup Required', description: 'Start creating invoices immediately. No account, no credit card, no data stored on our servers.' },
 ];

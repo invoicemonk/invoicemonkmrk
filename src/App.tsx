@@ -88,6 +88,8 @@ import InternationalPaymentFeeCalculator from "./pages/tools/InternationalPaymen
 import PaypalVsWiseFees from "./pages/tools/PaypalVsWiseFees";
 import CheapestInternationalPayments from "./pages/tools/CheapestInternationalPayments";
 import ReceiveCurrencyInCountry from "./pages/tools/ReceiveCurrencyInCountry";
+import InvoiceTemplates from "./pages/tools/InvoiceTemplates";
+import FreelancerRateCalculatorPage from "./pages/tools/FreelancerRateCalculatorPage";
 
 const queryClient = new QueryClient();
 
@@ -146,6 +148,8 @@ const App = () => (
               <Route path="paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
               <Route path="cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
               <Route path="receive-*" element={<ReceiveCurrencyInCountry />} />
+              <Route path="invoice-templates" element={<InvoiceTemplates />} />
+              <Route path="freelancer-rate-calculator" element={<FreelancerRateCalculatorPage />} />
 
               {/* Audience pages */}
               <Route path="freelancers" element={<Freelancers />} />

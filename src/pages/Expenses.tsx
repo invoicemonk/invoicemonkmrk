@@ -35,7 +35,7 @@ const automationKeys = [
   { key: 'oneClickReports', icon: FileBarChart },
 ] as const;
 
-const faqKeys = ['receiptScanning', 'multipleCategories', 'taxes', 'integration', 'budgets'] as const;
+const faqKeys = ['receiptScanning', 'multipleCategories', 'taxes', 'integration', 'budgets', 'bestReceiptApp', 'receiptAppSmallBiz'] as const;
 const seoFaqKeys = ['whatIs', 'receiptScanning', 'categories', 'taxHelp'] as const;
 
 const Expenses = () => {
@@ -78,13 +78,13 @@ const Expenses = () => {
       <FAQSchema items={[...expensesSEOFAQs, ...expensesFAQs]} />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/expenses' }, { name: 'Expenses', url: '/expenses' }]} />
       <SEOHead
-        title="Business Expense Tracking Software | Receipt Scanning | Invoicemonk"
-        description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports. Integrated with invoicing."
+        title="Best Receipt Scanning & Expense Tracking App for Small Business 2026 | Invoicemonk"
+        description="Receipt scanning with AI-powered OCR, automatic expense categorization, and tax-ready reports. Integrated with invoicing — save 5+ hours/month."
       />
       <ServiceSchema
-        serviceName="Invoicemonk Expense Tracking"
-        serviceType="Expense Management Software"
-        description="Track business expenses effortlessly with AI-powered receipt scanning, automatic categorization, and tax-ready reports."
+        serviceName="Invoicemonk Receipt Scanning & Expense Tracking"
+        serviceType="Receipt Scanning and Expense Management Software"
+        description="Receipt scanning with AI-powered OCR, automatic expense categorization, and tax-ready reports integrated with invoicing."
         url="https://invoicemonk.com/expenses"
       />
       

@@ -2,6 +2,7 @@ import { InvoiceData, InvoiceTotals, CURRENCIES } from './types';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { cn } from '@/lib/utils';
+import { getCountryProfile } from './countryProfiles';
 
 interface Props {
   data: InvoiceData;
@@ -9,9 +10,17 @@ interface Props {
   formatCurrency: (n: number) => string;
 }
 
+function TaxIdLine({ label, value, color }: { label: string; value: string; color?: string }) {
+  if (!value) return null;
+  return <p className="text-xs" style={{ color: color ?? '#6b7280' }}>{label}: {value}</p>;
+}
+
 /* ── Modern Template ── */
 function ModernTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: string) => string }) {
   const accent = 'hsl(170, 82%, 26%)';
+  const profile = getCountryProfile(data.currency);
+  const hasPerItemTax = data.lineItems.some(li => li.taxRate !== undefined);
+
   return (
     <div className="bg-white text-gray-900 rounded-lg shadow-sm border border-border min-h-[700px] text-[13px] leading-relaxed print:shadow-none print:border-none print:p-0 font-sans overflow-hidden">
       {/* Accent bar */}
@@ -27,10 +36,11 @@ function ModernTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: st
             {data.businessAddress && <p className="text-gray-500 whitespace-pre-line text-xs mt-1">{data.businessAddress}</p>}
             {data.businessEmail && <p className="text-gray-500 text-xs">{data.businessEmail}</p>}
             {data.businessPhone && <p className="text-gray-500 text-xs">{data.businessPhone}</p>}
+            <TaxIdLine label={profile.taxIdLabel} value={data.businessTaxId} />
           </div>
           <div className="text-right">
             <h1 className="text-3xl font-extrabold tracking-tight mb-2" style={{ color: accent }}>
-              {t('form.invoice')}
+              {profile.invoiceLabel}
             </h1>
             <div className="space-y-0.5">
               <p className="font-semibold text-sm">{data.invoiceNumber || '—'}</p>
@@ -46,6 +56,7 @@ function ModernTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: st
           <p className="font-semibold text-gray-900">{data.clientName || 'Client Name'}</p>
           {data.clientAddress && <p className="text-gray-600 whitespace-pre-line text-xs">{data.clientAddress}</p>}
           {data.clientEmail && <p className="text-gray-600 text-xs">{data.clientEmail}</p>}
+          <TaxIdLine label={t('form.taxId')} value={data.clientTaxId} color="#4b5563" />
         </div>
 
         {/* Table */}
@@ -55,6 +66,9 @@ function ModernTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: st
               <th className="text-left py-3 text-[10px] uppercase tracking-widest font-semibold border-b-2" style={{ borderColor: accent, color: accent }}>{t('form.description')}</th>
               <th className="text-right py-3 text-[10px] uppercase tracking-widest font-semibold border-b-2 w-16" style={{ borderColor: accent, color: accent }}>{t('form.qty')}</th>
               <th className="text-right py-3 text-[10px] uppercase tracking-widest font-semibold border-b-2 w-24" style={{ borderColor: accent, color: accent }}>{t('form.rate')}</th>
+              {hasPerItemTax && (
+                <th className="text-right py-3 text-[10px] uppercase tracking-widest font-semibold border-b-2 w-16" style={{ borderColor: accent, color: accent }}>{profile.taxName}</th>
+              )}
               <th className="text-right py-3 text-[10px] uppercase tracking-widest font-semibold border-b-2 w-24" style={{ borderColor: accent, color: accent }}>{t('form.amount')}</th>
             </tr>
           </thead>
@@ -66,6 +80,9 @@ function ModernTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: st
                   <td className="py-2.5">{item.description || '—'}</td>
                   <td className="py-2.5 text-right text-gray-600">{item.quantity}</td>
                   <td className="py-2.5 text-right text-gray-600">{formatCurrency(item.rate)}</td>
+                  {hasPerItemTax && (
+                    <td className="py-2.5 text-right text-gray-500 text-xs">{item.taxRate !== undefined ? `${item.taxRate}%` : `${data.taxRate}%`}</td>
+                  )}
                   <td className="py-2.5 text-right font-medium">{formatCurrency(amount)}</td>
                 </tr>
               );
@@ -86,9 +103,9 @@ function ModernTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: st
                 <span>-{formatCurrency(totals.discountAmount)}</span>
               </div>
             )}
-            {data.taxRate > 0 && (
+            {totals.taxAmount > 0 && (
               <div className="flex justify-between">
-                <span className="text-gray-400">{t('form.tax')} ({data.taxRate}%)</span>
+                <span className="text-gray-400">{profile.taxName} ({data.taxRate}%)</span>
                 <span>{formatCurrency(totals.taxAmount)}</span>
               </div>
             )}
@@ -118,6 +135,9 @@ function ModernTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: st
 /* ── Classic Template ── */
 function ClassicTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: string) => string }) {
   const accent = 'hsl(220, 60%, 30%)';
+  const profile = getCountryProfile(data.currency);
+  const hasPerItemTax = data.lineItems.some(li => li.taxRate !== undefined);
+
   return (
     <div className="bg-white text-gray-900 rounded-lg shadow-sm border border-border min-h-[700px] text-[13px] leading-relaxed print:shadow-none print:border-none print:p-0 overflow-hidden" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
       <div className="p-8">
@@ -132,10 +152,11 @@ function ClassicTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
               {data.businessAddress && <p className="text-gray-600 whitespace-pre-line text-xs mt-1">{data.businessAddress}</p>}
               {data.businessEmail && <p className="text-gray-600 text-xs">{data.businessEmail}</p>}
               {data.businessPhone && <p className="text-gray-600 text-xs">{data.businessPhone}</p>}
+              <TaxIdLine label={profile.taxIdLabel} value={data.businessTaxId} />
             </div>
             <div className="text-right">
               <h1 className="text-2xl font-bold tracking-wide uppercase mb-2" style={{ color: accent, letterSpacing: '0.15em' }}>
-                {t('form.invoice')}
+                {profile.invoiceLabel}
               </h1>
               <p className="font-semibold text-sm">{data.invoiceNumber || '—'}</p>
             </div>
@@ -149,6 +170,7 @@ function ClassicTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
             <p className="font-semibold">{data.clientName || 'Client Name'}</p>
             {data.clientAddress && <p className="text-gray-600 whitespace-pre-line text-xs">{data.clientAddress}</p>}
             {data.clientEmail && <p className="text-gray-600 text-xs">{data.clientEmail}</p>}
+            <TaxIdLine label={t('form.taxId')} value={data.clientTaxId} color="#4b5563" />
           </div>
           <div className="text-right space-y-1 text-sm pt-2">
             <p><span className="text-gray-500">{t('form.date')}:</span> <span className="font-medium">{data.invoiceDate || '—'}</span></p>
@@ -163,6 +185,9 @@ function ClassicTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
               <th className="text-left py-2.5 px-3 text-[11px] uppercase tracking-wider font-bold text-white border border-gray-300">{t('form.description')}</th>
               <th className="text-right py-2.5 px-3 text-[11px] uppercase tracking-wider font-bold text-white border border-gray-300 w-16">{t('form.qty')}</th>
               <th className="text-right py-2.5 px-3 text-[11px] uppercase tracking-wider font-bold text-white border border-gray-300 w-24">{t('form.rate')}</th>
+              {hasPerItemTax && (
+                <th className="text-right py-2.5 px-3 text-[11px] uppercase tracking-wider font-bold text-white border border-gray-300 w-16">{profile.taxName}</th>
+              )}
               <th className="text-right py-2.5 px-3 text-[11px] uppercase tracking-wider font-bold text-white border border-gray-300 w-24">{t('form.amount')}</th>
             </tr>
           </thead>
@@ -174,6 +199,9 @@ function ClassicTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
                   <td className="py-2 px-3 border border-gray-200">{item.description || '—'}</td>
                   <td className="py-2 px-3 text-right border border-gray-200">{item.quantity}</td>
                   <td className="py-2 px-3 text-right border border-gray-200">{formatCurrency(item.rate)}</td>
+                  {hasPerItemTax && (
+                    <td className="py-2 px-3 text-right border border-gray-200 text-xs text-gray-500">{item.taxRate !== undefined ? `${item.taxRate}%` : `${data.taxRate}%`}</td>
+                  )}
                   <td className="py-2 px-3 text-right font-medium border border-gray-200">{formatCurrency(amount)}</td>
                 </tr>
               );
@@ -194,9 +222,9 @@ function ClassicTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
                 <span>-{formatCurrency(totals.discountAmount)}</span>
               </div>
             )}
-            {data.taxRate > 0 && (
+            {totals.taxAmount > 0 && (
               <div className="flex justify-between py-1.5 border-b border-gray-200">
-                <span className="text-gray-500">{t('form.tax')} ({data.taxRate}%)</span>
+                <span className="text-gray-500">{profile.taxName} ({data.taxRate}%)</span>
                 <span>{formatCurrency(totals.taxAmount)}</span>
               </div>
             )}
@@ -225,6 +253,9 @@ function ClassicTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
 
 /* ── Minimal Template ── */
 function MinimalTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: string) => string }) {
+  const profile = getCountryProfile(data.currency);
+  const hasPerItemTax = data.lineItems.some(li => li.taxRate !== undefined);
+
   return (
     <div className="bg-white text-gray-900 rounded-lg shadow-sm border border-border min-h-[700px] text-[13px] leading-relaxed print:shadow-none print:border-none print:p-0 font-sans overflow-hidden">
       <div className="p-10">
@@ -238,10 +269,11 @@ function MinimalTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
             {data.businessAddress && <p className="text-gray-400 whitespace-pre-line text-xs mt-1">{data.businessAddress}</p>}
             {data.businessEmail && <p className="text-gray-400 text-xs">{data.businessEmail}</p>}
             {data.businessPhone && <p className="text-gray-400 text-xs">{data.businessPhone}</p>}
+            <TaxIdLine label={profile.taxIdLabel} value={data.businessTaxId} color="#9ca3af" />
           </div>
           <div className="text-right">
             <h1 className="text-sm font-medium uppercase tracking-[0.3em] text-gray-400 mb-3">
-              {t('form.invoice')}
+              {profile.invoiceLabel}
             </h1>
             <p className="text-sm font-mono text-gray-900">{data.invoiceNumber || '—'}</p>
             <div className="mt-3 space-y-0.5">
@@ -257,6 +289,7 @@ function MinimalTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
           <p className="font-medium text-gray-800">{data.clientName || 'Client Name'}</p>
           {data.clientAddress && <p className="text-gray-400 whitespace-pre-line text-xs">{data.clientAddress}</p>}
           {data.clientEmail && <p className="text-gray-400 text-xs">{data.clientEmail}</p>}
+          <TaxIdLine label={t('form.taxId')} value={data.clientTaxId} color="#9ca3af" />
         </div>
 
         {/* Table — thin lines only */}
@@ -266,6 +299,9 @@ function MinimalTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
               <th className="text-left py-2 text-[10px] uppercase tracking-[0.2em] text-gray-300 font-normal">{t('form.description')}</th>
               <th className="text-right py-2 text-[10px] uppercase tracking-[0.2em] text-gray-300 font-normal w-16">{t('form.qty')}</th>
               <th className="text-right py-2 text-[10px] uppercase tracking-[0.2em] text-gray-300 font-normal w-24">{t('form.rate')}</th>
+              {hasPerItemTax && (
+                <th className="text-right py-2 text-[10px] uppercase tracking-[0.2em] text-gray-300 font-normal w-16">{profile.taxName}</th>
+              )}
               <th className="text-right py-2 text-[10px] uppercase tracking-[0.2em] text-gray-300 font-normal w-24">{t('form.amount')}</th>
             </tr>
           </thead>
@@ -277,6 +313,9 @@ function MinimalTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
                   <td className="py-3 text-gray-700">{item.description || '—'}</td>
                   <td className="py-3 text-right text-gray-500">{item.quantity}</td>
                   <td className="py-3 text-right text-gray-500">{formatCurrency(item.rate)}</td>
+                  {hasPerItemTax && (
+                    <td className="py-3 text-right text-gray-400 text-xs">{item.taxRate !== undefined ? `${item.taxRate}%` : `${data.taxRate}%`}</td>
+                  )}
                   <td className="py-3 text-right text-gray-800">{formatCurrency(amount)}</td>
                 </tr>
               );
@@ -297,9 +336,9 @@ function MinimalTemplate({ data, totals, formatCurrency, t }: Props & { t: (k: s
                 <span>-{formatCurrency(totals.discountAmount)}</span>
               </div>
             )}
-            {data.taxRate > 0 && (
+            {totals.taxAmount > 0 && (
               <div className="flex justify-between text-gray-400">
-                <span>{t('form.tax')} ({data.taxRate}%)</span>
+                <span>{profile.taxName} ({data.taxRate}%)</span>
                 <span className="text-gray-600">{formatCurrency(totals.taxAmount)}</span>
               </div>
             )}

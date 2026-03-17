@@ -2522,6 +2522,126 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://invoicemonk.com/en/invoice-templates</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/invoice-templates"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/de/invoice-templates</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/invoice-templates"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/fr/invoice-templates</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/invoice-templates"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/pt/invoice-templates</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/invoice-templates"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/es/invoice-templates</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/invoice-templates"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/invoice-templates"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/en/freelancer-rate-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/de/freelancer-rate-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/fr/freelancer-rate-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/pt/freelancer-rate-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/es/freelancer-rate-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/freelancer-rate-calculator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/freelancer-rate-calculator"/>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://invoicemonk.com/en/blog</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/blog"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/blog"/>

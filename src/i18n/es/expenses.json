@@ -49,7 +49,9 @@
       "multipleCategories": { "question": "¿Puedo rastrear gastos en múltiples categorías?", "answer": "¡Sí! Puedes crear categorías personalizadas o usar las predefinidas como Viajes, Material de oficina, Software, Comidas y más. Los gastos se categorizan automáticamente según el proveedor." },
       "taxes": { "question": "¿Esto me ayudará con mis impuestos?", "answer": "Por supuesto. Marcamos automáticamente los gastos deducibles y generamos informes que puedes compartir con tu contador. Nunca más perderás una deducción." },
       "integration": { "question": "¿Cómo se integra esto con la facturación?", "answer": "Los gastos fluyen directamente a tus informes financieros. Combinado con la facturación, obtienes una imagen completa de las finanzas de tu negocio — ingresos y gastos en un solo lugar." },
-      "budgets": { "question": "¿Puedo establecer presupuestos de gastos?", "answer": "Sí, puedes establecer presupuestos para diferentes categorías de gastos y recibir alertas cuando te acerques a tus límites. Ideal para mantener los gastos bajo control." }
+      "budgets": { "question": "¿Puedo establecer presupuestos de gastos?", "answer": "Sí, puedes establecer presupuestos para diferentes categorías de gastos y recibir alertas cuando te acerques a tus límites. Ideal para mantener los gastos bajo control." },
+      "bestReceiptApp": { "question": "¿Cuál es la mejor app de escaneo de recibos para pequeñas empresas?", "answer": "Invoicemonk combina escaneo de recibos con seguimiento completo de gastos y facturación en una plataforma. Nuestro OCR con IA captura proveedor, monto, fecha y categoría de cualquier recibo — y categoriza el gasto automáticamente." },
+      "receiptAppSmallBiz": { "question": "¿Cómo funciona el escaneo de recibos para el seguimiento de gastos de pequeñas empresas?", "answer": "Toma una foto de cualquier recibo con tu teléfono. Nuestra tecnología OCR lee el nombre del proveedor, fecha, monto y sugiere una categoría. El gasto se crea, categoriza y almacena en la nube automáticamente." }
     }
   },
   "seoFaqs": {

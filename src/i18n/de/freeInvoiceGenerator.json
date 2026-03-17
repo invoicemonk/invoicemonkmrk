@@ -40,8 +40,8 @@
       "description": "Laden Sie Ihre Rechnungen sofort als professionelle PDF-Dateien herunter."
     },
     "complianceReady": {
-      "title": "Compliance-bereit",
-      "description": "Alle Rechnungen erfüllen die gängigen Geschäfts- und Steueranforderungen."
+      "title": "Steuerkonform für 10+ Länder",
+      "description": "Länderspezifische Steuerfelder (ABN, GSTIN, USt-IdNr.), Steuersatz-Überschreibung pro Position und automatische Berechnungen für 10 Währungen."
     }
   },
   "steps": {
@@ -99,6 +99,18 @@
     "freePdfDownload": {
       "question": "Kann ich meine Rechnung kostenlos als PDF herunterladen?",
       "answer": "Ja, jede erstellte Rechnung kann als hochwertige PDF-Datei völlig kostenlos heruntergeladen werden. Es gibt keine Begrenzung für die Anzahl der Rechnungs-PDFs, die Sie erstellen können. Unsere kostenlose Rechnungsvorlage funktioniert auf jedem Gerät."
+    },
+    "gstVatSupport": {
+      "question": "Unterstützt der kostenlose Rechnungsgenerator USt/MwSt/GST?",
+      "answer": "Ja. Der Generator enthält Steuerkonformität für über 10 Länder. Wählen Sie Ihre Währung (AUD, GBP, INR, ZAR usw.) und der korrekte Steuersatz, die Rechnungsbezeichnung (TAX INVOICE, VAT INVOICE) und das Steuer-ID-Feld (ABN, GSTIN, USt-IdNr.) werden automatisch angewendet."
+    },
+    "perItemTax": {
+      "question": "Kann ich für jede Position einen anderen Steuersatz festlegen?",
+      "answer": "Ja. Jede Position hat ein eigenes Steuersatzfeld, sodass Sie verschiedene Sätze für verschiedene Produkte oder Dienstleistungen auf derselben Rechnung anwenden können. Unverzichtbar für Jurisdiktionen mit mehreren Steuersätzen."
+    },
+    "supportedCurrencies": {
+      "question": "Welche Währungen unterstützt der kostenlose Rechnungsgenerator?",
+      "answer": "Der Generator unterstützt 10 Währungen mit länderspezifischen Steuerprofilen: USD (USA), GBP (UK), EUR (Europa), NGN (Nigeria), CAD (Kanada), AUD (Australien), GHS (Ghana), KES (Kenia), ZAR (Südafrika) und INR (Indien). Jede Währung wendet automatisch den korrekten Standard-Steuersatz und das Steuer-ID-Label an."
     }
   },
   "form": {

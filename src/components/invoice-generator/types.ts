@@ -1,10 +1,11 @@
-export type InvoiceTemplate = 'modern' | 'classic' | 'minimal';
+export type InvoiceTemplate = 'modern' | 'classic' | 'minimal' | 'contractor' | 'consulting' | 'ecommerce';
 
 export interface LineItem {
   id: string;
   description: string;
   quantity: number;
   rate: number;
+  taxRate?: number; // Per-item tax rate override; undefined = use global rate
 }
 
 export interface InvoiceData {
@@ -14,11 +15,13 @@ export interface InvoiceData {
   businessEmail: string;
   businessPhone: string;
   businessLogo: string | null;
+  businessTaxId: string;
 
   // Client details
   clientName: string;
   clientAddress: string;
   clientEmail: string;
+  clientTaxId: string;
 
   // Invoice meta
   invoiceNumber: string;
@@ -75,9 +78,11 @@ export const DEFAULT_INVOICE_DATA: InvoiceData = {
   businessEmail: '',
   businessPhone: '',
   businessLogo: null,
+  businessTaxId: '',
   clientName: '',
   clientAddress: '',
   clientEmail: '',
+  clientTaxId: '',
   invoiceNumber: '',
   invoiceDate: new Date().toISOString().split('T')[0],
   dueDate: new Date(Date.now() + 30 * 86400000).toISOString().split('T')[0],

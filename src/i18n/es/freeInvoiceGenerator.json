@@ -40,8 +40,8 @@
       "description": "Descarga tus facturas como archivos PDF profesionales al instante."
     },
     "complianceReady": {
-      "title": "Listo para cumplimiento",
-      "description": "Todas las facturas cumplen con los requisitos comerciales y fiscales estándar."
+      "title": "Cumplimiento fiscal para 10+ países",
+      "description": "Campos fiscales por país (ABN, GSTIN, NIF), tasas de impuesto por línea y cálculos automáticos para 10 monedas."
     }
   },
   "steps": {
@@ -99,6 +99,18 @@
     "freePdfDownload": {
       "question": "¿Puedo descargar mi factura como PDF gratis?",
       "answer": "Sí, cada factura que crees se puede descargar como un archivo PDF de alta calidad completamente gratis. No hay límites en la cantidad de PDFs de facturas que puedes generar. Nuestra plantilla de factura gratuita funciona en cualquier dispositivo."
+    },
+    "gstVatSupport": {
+      "question": "¿El generador gratuito soporta IVA/GST?",
+      "answer": "Sí. El generador incluye cumplimiento fiscal para más de 10 países. Selecciona tu moneda (AUD, GBP, INR, ZAR, etc.) y la tasa de impuesto correcta, la etiqueta de factura (TAX INVOICE, VAT INVOICE) y el campo de identificación fiscal (ABN, GSTIN, NIF) se aplican automáticamente."
+    },
+    "perItemTax": {
+      "question": "¿Puedo establecer diferentes tasas de impuesto por línea?",
+      "answer": "Sí. Cada línea tiene su propio campo de tasa impositiva, para que puedas aplicar tasas diferentes a productos o servicios distintos en la misma factura. Esencial para jurisdicciones con múltiples tasas de IVA."
+    },
+    "supportedCurrencies": {
+      "question": "¿Qué monedas soporta el generador gratuito?",
+      "answer": "El generador soporta 10 monedas con perfiles fiscales por país: USD (EE.UU.), GBP (Reino Unido), EUR (Europa), NGN (Nigeria), CAD (Canadá), AUD (Australia), GHS (Ghana), KES (Kenia), ZAR (Sudáfrica) e INR (India). Cada moneda aplica automáticamente la tasa impositiva y etiqueta de identificación fiscal correctas."
     }
   },
   "form": {

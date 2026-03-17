@@ -40,8 +40,8 @@
       "description": "Baixe suas faturas como arquivos PDF profissionais instantaneamente."
     },
     "complianceReady": {
-      "title": "Pronto para conformidade",
-      "description": "Todas as faturas atendem aos requisitos comerciais e fiscais padrão."
+      "title": "Conformidade fiscal para 10+ países",
+      "description": "Campos fiscais por país (ABN, GSTIN, NIF), alíquotas por item e cálculos automáticos para 10 moedas."
     }
   },
   "steps": {
@@ -99,6 +99,18 @@
     "freePdfDownload": {
       "question": "Posso baixar minha fatura como PDF gratuitamente?",
       "answer": "Sim, cada fatura criada pode ser baixada como arquivo PDF de alta qualidade totalmente grátis. Não há limites no número de PDFs de faturas que você pode gerar. Nosso modelo de fatura gratuito funciona em qualquer dispositivo."
+    },
+    "gstVatSupport": {
+      "question": "O gerador gratuito suporta GST/IVA?",
+      "answer": "Sim. O gerador inclui conformidade fiscal para mais de 10 países. Selecione sua moeda (AUD, GBP, INR, ZAR, etc.) e a alíquota correta, o rótulo da fatura (TAX INVOICE, VAT INVOICE) e o campo de identificação fiscal (ABN, GSTIN, NIF) são aplicados automaticamente."
+    },
+    "perItemTax": {
+      "question": "Posso definir alíquotas diferentes por item?",
+      "answer": "Sim. Cada item tem seu próprio campo de alíquota, para que você possa aplicar taxas diferentes a produtos ou serviços distintos na mesma fatura. Essencial para jurisdições com múltiplas alíquotas de impostos."
+    },
+    "supportedCurrencies": {
+      "question": "Quais moedas o gerador gratuito suporta?",
+      "answer": "O gerador suporta 10 moedas com perfis fiscais por país: USD (EUA), GBP (Reino Unido), EUR (Europa), NGN (Nigéria), CAD (Canadá), AUD (Austrália), GHS (Gana), KES (Quênia), ZAR (África do Sul) e INR (Índia). Cada moeda aplica automaticamente a alíquota e o rótulo de identificação fiscal corretos."
     }
   },
   "form": {

@@ -1,5 +1,6 @@
 import { useState, useCallback, useMemo, useEffect } from 'react';
 import { InvoiceData, InvoiceTotals, LineItem, DEFAULT_INVOICE_DATA, CURRENCIES } from './types';
+import { getCountryProfile } from './countryProfiles';
 
 const STORAGE_KEY = 'invoicemonk_free_invoice';
 
@@ -36,7 +37,21 @@ export function useInvoiceGenerator() {
   }, [data]);
 
   const updateField = useCallback(<K extends keyof InvoiceData>(field: K, value: InvoiceData[K]) => {
-    setData(prev => ({ ...prev, [field]: value }));
+    setData(prev => {
+      const next = { ...prev, [field]: value };
+
+      // When currency changes, apply country-aware defaults
+      if (field === 'currency' && typeof value === 'string') {
+        const profile = getCountryProfile(value);
+        // Only update tax rate if it was at the previous profile's default (or zero)
+        const prevProfile = getCountryProfile(prev.currency);
+        if (prev.taxRate === 0 || prev.taxRate === prevProfile.defaultTaxRate) {
+          next.taxRate = profile.defaultTaxRate;
+        }
+      }
+
+      return next;
+    });
   }, []);
 
   // Line item helpers
@@ -54,10 +69,17 @@ export function useInvoiceGenerator() {
     }));
   }, []);
 
-  const updateLineItem = useCallback((id: string, field: keyof Omit<LineItem, 'id'>, value: string | number) => {
+  const updateLineItem = useCallback((id: string, field: keyof Omit<LineItem, 'id'>, value: string | number | undefined) => {
     setData(prev => ({
       ...prev,
-      lineItems: prev.lineItems.map(li => li.id === id ? { ...li, [field]: value } : li),
+      lineItems: prev.lineItems.map(li => {
+        if (li.id !== id) return li;
+        if (field === 'taxRate' && value === undefined) {
+          const { taxRate: _, ...rest } = li;
+          return rest as LineItem;
+        }
+        return { ...li, [field]: value };
+      }),
     }));
   }, []);
 
@@ -77,12 +99,21 @@ export function useInvoiceGenerator() {
     setData(prev => ({ ...prev, businessLogo: null }));
   }, []);
 
-  // Calculations
+  // Calculations — per-item tax support
   const totals: InvoiceTotals = useMemo(() => {
     const subtotal = data.lineItems.reduce((sum, li) => sum + li.quantity * li.rate, 0);
     const discountAmount = subtotal * (data.discountPercent / 100);
     const afterDiscount = subtotal - discountAmount;
-    const taxAmount = afterDiscount * (data.taxRate / 100);
+
+    // Calculate tax per line item, proportional to discount
+    const discountRatio = subtotal > 0 ? afterDiscount / subtotal : 1;
+    const taxAmount = data.lineItems.reduce((sum, li) => {
+      const itemSubtotal = li.quantity * li.rate;
+      const itemAfterDiscount = itemSubtotal * discountRatio;
+      const itemTaxRate = li.taxRate ?? data.taxRate;
+      return sum + itemAfterDiscount * (itemTaxRate / 100);
+    }, 0);
+
     const total = afterDiscount + taxAmount;
     return { subtotal, discountAmount, taxAmount, total };
   }, [data.lineItems, data.taxRate, data.discountPercent]);

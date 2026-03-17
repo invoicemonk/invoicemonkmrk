@@ -76,22 +76,22 @@ export const authors: Record<string, Author> = {
     name: 'Prince Ehima',
     slug: 'prince-ehima',
     avatar: '/authors/prince-ehima.jpg',
-    role: 'Financial Expert & Business Advisor',
-    bio: 'Prince is a seasoned financial expert specializing in tax compliance, accounting best practices, and financial strategy for small businesses and freelancers across multiple markets.',
+    role: 'Creative Designer, IT Specialist & Home Automation Expert',
+    bio: 'Prince is a creative designer and IT specialist with deep expertise in home and office automation, web development, and building digital tools. He is passionate about tax compliance and is currently developing a tool to help businesses streamline their tax filing processes.',
     credentials: [
-      'Certified Financial Advisor',
-      'Tax Compliance Specialist'
+      'IT & Web Development Specialist',
+      'Home & Office Automation Expert'
     ],
     expertise: [
-      'Tax Compliance',
-      'Financial Planning',
-      'Business Accounting',
-      'Small Business Finance',
-      'Regulatory Compliance',
-      'Financial Strategy'
+      'Creative Design',
+      'IT Solutions',
+      'Web Development',
+      'Home Automation',
+      'Office Automation',
+      'Tax Compliance'
     ],
     socialLinks: {
-      linkedin: 'https://linkedin.com/in/prince-ehima'
+      linkedin: 'https://linkedin.com/in/prinnc3'
     }
   }
 };
