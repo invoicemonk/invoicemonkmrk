@@ -6,8 +6,6 @@ import { registerBlogPosts } from '@/utils/i18nData';
 import { defaultAuthor } from './authors';
 import type { BlogPost } from './blogPosts';
 
-const countriesWithImages = ['ng', 'us', 'uk', 'ca', 'au', 'gh', 'ke', 'za'];
-
 interface CountryConfig {
   code: string; name: string; nameDe: string; demonym: string; demonymDe: string;
   authority: string; authorityFull: string; taxType: string; taxRate: string;
@@ -270,7 +268,7 @@ function genTaxCompliantInvoice(c: CountryConfig): BlogPost {
     category: 'Tax and Compliance',
     tags: [c.authority.toLowerCase(), c.name.toLowerCase(), 'steuerkonforme rechnungsstellung', c.taxType.toLowerCase()],
     author: defaultAuthor, date: '2026-02-20', dateModified: '2026-02-21', readTime: '10 Min. Lesezeit',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/tax-compliant-invoice-${c.code}.jpg` : '/images/blog/invoicing-tax-compliance-hero.jpg',
+    featuredImage: `/images/blog/tax-compliant-invoice-${c.code}.jpg`,
     featuredImageAlt: `Leitfaden für steuerkonforme Rechnungen in ${c.nameDe}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`${c.authority} konforme Rechnung`, `Steuerrechnung ${c.nameDe}`, `${c.taxType} Rechnung ${c.nameDe}`],
@@ -342,7 +340,7 @@ function genVatFormat(c: CountryConfig): BlogPost {
     category: 'Tax and Compliance',
     tags: [`${c.taxType.toLowerCase()} rechnung`, c.name.toLowerCase(), c.authority.toLowerCase(), 'rechnungsformat'],
     author: defaultAuthor, date: '2026-02-19', dateModified: '2026-02-21', readTime: '9 Min. Lesezeit',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/vat-invoice-format-${c.code}.jpg` : '/images/blog/invoice-essential-elements.jpg',
+    featuredImage: `/images/blog/vat-invoice-format-${c.code}.jpg`,
     featuredImageAlt: `${c.taxType}-Rechnungsformat-Leitfaden für ${c.nameDe}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`${c.taxType} Rechnungsformat ${c.nameDe}`, `${c.authority} Rechnungsvorlage`],
@@ -405,7 +403,7 @@ function genFreelancerVat(c: CountryConfig): BlogPost {
     category: 'Tax and Compliance',
     tags: ['freelancer', `${c.taxType.toLowerCase()} registrierung`, c.name.toLowerCase(), c.authority.toLowerCase()],
     author: defaultAuthor, date: '2026-02-17', dateModified: '2026-02-21', readTime: '8 Min. Lesezeit',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/freelancer-vat-${c.code}.jpg` : '/images/blog/quarterly-tax-payments.jpg',
+    featuredImage: `/images/blog/freelancer-vat-${c.code}.jpg`,
     featuredImageAlt: `${c.taxType}-Registrierung für Freelancer in ${c.nameDe}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`Freelancer ${c.taxType} ${c.nameDe}`, `${c.taxType} Registrierung Freiberufler`],
@@ -460,7 +458,7 @@ function genInvoiceFromAbroad(c: CountryConfig): BlogPost {
     category: 'Tax and Compliance',
     tags: ['grenzüberschreitende rechnungsstellung', c.name.toLowerCase(), 'internationale rechnung', c.currencyCode.toLowerCase()],
     author: defaultAuthor, date: '2026-02-16', dateModified: '2026-02-21', readTime: '9 Min. Lesezeit',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/invoice-abroad-${c.code}.jpg` : '/images/blog/multi-currency-invoicing.jpg',
+    featuredImage: `/images/blog/invoice-abroad-${c.code}.jpg`,
     featuredImageAlt: `Kunden in ${c.nameDe} aus dem Ausland fakturieren`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/payments',
     semanticKeywords: [`${c.demonymDe} Kunden fakturieren`, `grenzüberschreitende Rechnungsstellung ${c.nameDe}`],
@@ -520,7 +518,7 @@ function genTaxMistakes(c: CountryConfig): BlogPost {
     category: 'Tax and Compliance',
     tags: ['freelancer', 'steuerfehler', c.name.toLowerCase(), c.authority.toLowerCase()],
     author: defaultAuthor, date: '2026-02-15', dateModified: '2026-02-21', readTime: '8 Min. Lesezeit',
-    featuredImage: countriesWithImages.includes(c.code) ? `/images/blog/tax-mistakes-${c.code}.jpg` : '/images/blog/tax-deductions.jpg',
+    featuredImage: `/images/blog/tax-mistakes-${c.code}.jpg`,
     featuredImageAlt: `Häufige Steuerfehler von Freelancern in ${c.nameDe}`,
     pillarContent: false, clusterType: 'cluster', targetProduct: '/compliance',
     semanticKeywords: [`Freelancer Steuerfehler ${c.nameDe}`, `${c.authority} Freelancer Fehler`],
