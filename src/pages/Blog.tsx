@@ -66,6 +66,11 @@ import '@/data/blogPostsCluster7.de';
 import '@/data/blogPostsCluster7.fr';
 import '@/data/blogPostsCluster7.pt';
 import '@/data/blogPostsCluster7.es';
+import '@/data/blogPostsCluster8.de';
+import '@/data/blogPostsCluster8.fr';
+import '@/data/blogPostsCluster8.pt';
+import '@/data/blogPostsCluster8.es';
+import '@/data/blogPostsCluster9';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;

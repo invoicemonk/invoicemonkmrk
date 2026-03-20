@@ -45,11 +45,24 @@ export function SEOHead({
   const { lang } = useParams<{ lang: string }>();
   const baseUrl = 'https://invoicemonk.com';
 
-  // Build self-referencing canonical (includes language prefix)
-  const fullCanonical = canonical || `${baseUrl}${location.pathname}`;
-
   // Relative page path without language prefix (e.g. "/pricing")
   const relPath = stripLanguagePrefix(location.pathname);
+
+  // Route prefixes that have translated content — canonical should self-reference
+  const translatedPrefixes = ['/blog', '/help', '/glossary'];
+  const isTranslatedRoute = translatedPrefixes.some(p => relPath.startsWith(p));
+
+  // For non-translated routes under a non-English language prefix,
+  // override canonical to point to the /en/ equivalent to avoid duplicate content
+  const langPrefix = lang?.toLowerCase() || 'en';
+  const shouldOverrideCanonical = langPrefix !== 'en' && !isTranslatedRoute;
+
+  const fullCanonical = canonical
+    || (shouldOverrideCanonical
+      ? `${baseUrl}/en${relPath}`
+      : `${baseUrl}${location.pathname}`);
+
+  // Geo region from URL country prefix (e.g. "au" → "AU")
 
   // Geo region from URL country prefix (e.g. "au" → "AU")
   const countryCode = lang ? urlPrefixToCountry[lang.toLowerCase()] : undefined;

@@ -147,7 +147,15 @@ const App = () => (
               <Route path="international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
               <Route path="paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
               <Route path="cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
-              <Route path="receive-*" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-usd-in-nigeria-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-gbp-in-nigeria-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-eur-in-nigeria-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-usd-in-uk-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-eur-in-uk-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-usd-in-canada-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-usd-in-australia-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-gbp-in-us-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-eur-in-us-cost" element={<ReceiveCurrencyInCountry />} />
               <Route path="invoice-templates" element={<InvoiceTemplates />} />
               <Route path="freelancer-rate-calculator" element={<FreelancerRateCalculatorPage />} />
 

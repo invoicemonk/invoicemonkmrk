@@ -552,7 +552,8 @@ export const pillarClusters: TopicalCluster[] = [
       'proforma-invoice-vs-commercial-invoice',
       'what-is-an-invoice-definition',
       'best-invoicing-software-freelancers-small-business',
-      'invoicing-software-built-in-tax-compliance'
+      'invoicing-software-built-in-tax-compliance',
+      'invoicing-software-free-vs-paid'
     ]
   },
   {
@@ -578,7 +579,8 @@ export const pillarClusters: TopicalCluster[] = [
       'invoice-clients-in-pl', 'invoice-clients-in-it', 'invoice-clients-in-bg',
       'multi-currency-invoicing-explained',
       'best-payment-integrations-freelancers',
-      'payment-gateways-invoicing-software'
+      'payment-gateways-invoicing-software',
+      'automatic-payment-reminders-getting-paid'
     ]
   },
   {
@@ -600,7 +602,10 @@ export const pillarClusters: TopicalCluster[] = [
       'business-bank-account-vs-personal',
       'financial-reports-every-business-needs',
       'year-end-financial-preparation',
-      'revenue-vs-profit-explained'
+      'revenue-vs-profit-explained',
+      'cash-flow-forecasting-small-businesses',
+      'small-business-accounting-basics',
+      'best-personal-finance-blogs'
     ]
   },
   {

@@ -1043,6 +1043,36 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     queryPatterns: ['freelancer tax mistakes Bulgaria', 'NRA penalties', 'common tax errors Bulgaria'],
     problemsSolved: ['Avoiding tax mistakes in Bulgaria', 'NRA compliance issues'],
     nextSteps: ['freelancer-vat-registration-bg', 'tax-compliant-invoice-bg']
+  },
+  'cash-flow-forecasting-small-businesses': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['cash flow forecasting small business', 'how to forecast cash flow', 'cash flow projection template', 'predict business cash flow'],
+    problemsSolved: ['Need to predict cash flow for my small business', 'Want to avoid cash shortfalls', 'Building a cash flow forecast'],
+    nextSteps: ['small-business-accounting-basics', 'financial-reports-every-business-needs', 'cash-vs-accrual-accounting-explained']
+  },
+  'invoicing-software-free-vs-paid': {
+    intent: 'commercial', stage: 'consideration', experienceLevel: 'beginner',
+    queryPatterns: ['free vs paid invoicing software', 'is free invoicing software good enough', 'best free invoicing tool', 'should I pay for invoicing software'],
+    problemsSolved: ['Deciding between free and paid invoicing software', 'Understanding invoicing software features', 'Choosing the right invoicing tool'],
+    nextSteps: ['best-invoicing-software-freelancers-small-business', 'complete-guide-to-business-invoicing']
+  },
+  'automatic-payment-reminders-getting-paid': {
+    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'beginner',
+    queryPatterns: ['automatic payment reminders', 'automate invoice reminders', 'stop chasing invoices', 'payment reminder automation'],
+    problemsSolved: ['Spending too much time chasing payments', 'Clients paying late consistently', 'Want to automate payment follow-ups'],
+    nextSteps: ['setting-up-automatic-payment-reminders', 'payment-reminder-email-templates', 'how-to-handle-late-payments-professionally']
+  },
+  'small-business-accounting-basics': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['small business accounting basics', 'accounting for beginners business', 'basic bookkeeping small business', 'learn business accounting'],
+    problemsSolved: ['New to business accounting', 'Need to understand basic bookkeeping', 'Setting up accounting for my business'],
+    nextSteps: ['the-basics-of-small-business-accounting', 'chart-of-accounts-for-small-business', 'cash-vs-accrual-accounting-explained']
+  },
+  'best-personal-finance-blogs': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['best personal finance blogs', 'finance blogs for entrepreneurs', 'personal finance blogs freelancers', 'money management blogs'],
+    problemsSolved: ['Looking for personal finance education', 'Want to learn money management as an entrepreneur', 'Finding good finance content'],
+    nextSteps: ['small-business-accounting-basics', 'how-to-create-a-budget-for-your-small-business']
   }
 };
 export function getPostIntent(slug: string): ContentMetadata | undefined {

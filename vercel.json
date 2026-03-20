@@ -387,6 +387,31 @@
       "permanent": true
     },
     {
+      "source": "/:lang/compare/invoicemonk-vs-zoho",
+      "destination": "/:lang/compare/invoicemonk-vs-zoho-invoice",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/compare/best-invoicing-software",
+      "destination": "/:lang/best-invoicing-software",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/blog/best-personal-finance-blogs",
+      "destination": "/:lang/blog/the-10-best-personal-finance-blogs",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/__LANG__/:path*",
+      "destination": "/:lang/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-become-a-good-graphic-designer",
+      "destination": "/en/blog/how-to-become-a-good-graphic-designer",
+      "permanent": true
+    },
+    {
       "source": "/:lang/blog/invoice-essential-elements-guide",
       "destination": "/:lang/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners",
       "permanent": true
