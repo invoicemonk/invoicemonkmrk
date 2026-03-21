@@ -1,6 +1,5 @@
 import { Layout } from '@/components/layout/Layout';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
-import { TeamMemberCard } from '@/components/about/TeamMemberCard';
 import { MissionVision } from '@/components/about/MissionVision';
 import { PressSection } from '@/components/about/PressSection';
 import { Button } from '@/components/ui/button';
@@ -13,31 +12,6 @@ import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
 const faqKeys = ['whoFounded', 'mission', 'availability'] as const;
-
-const teamMembersData = [
-  {
-    name: 'Olayinka Olayokun',
-    roleKey: 'team.roles.ceo',
-    image: '/team/olayinka-olayokun.jpg',
-    socialLinks: [
-      { platform: 'linkedin' as const, url: 'https://linkedin.com/in/olayokunyinka' },
-      { platform: 'instagram' as const, url: 'https://instagram.com/olayokunyinka' },
-      { platform: 'facebook' as const, url: 'https://facebook.com/olayokunyinka' },
-      { platform: 'x' as const, url: 'https://www.x.com/olayokunyinka' },
-      { platform: 'youtube' as const, url: 'https://youtube.com/@olayokunyinka' },
-      { platform: 'producthunt' as const, url: 'https://www.producthunt.com/@olayokunyinka' },
-    ],
-  },
-  {
-    name: 'Joan Omionawele',
-    roleKey: 'team.roles.comms',
-    image: '/team/joan-omionawele.jpg',
-    socialLinks: [
-      { platform: 'linkedin' as const, url: 'https://www.linkedin.com/in/joan-omionawele/' },
-      { platform: 'instagram' as const, url: 'https://instagram.com/thejoan01' },
-    ],
-  },
-];
 
 const About = () => {
   const seo = pageSEO['/about'];
@@ -112,29 +86,6 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <MissionVision />
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-16 lg:py-24 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center mb-12">
-            <p className="text-primary font-medium mb-2">{t('team.label')}</p>
-            <h2 className="text-heading-lg font-bold text-foreground mb-4">
-              {t('team.title')}
-            </h2>
-            <p className="text-body text-muted-foreground max-w-2xl mx-auto">
-              {t('team.description')}
-            </p>
-          </AnimatedSection>
-          
-          <AnimatedSection>
-            <div className="flex flex-wrap justify-center gap-12 lg:gap-24">
-              {teamMembersData.map((member) => (
-                <TeamMemberCard key={member.name} name={member.name} role={t(member.roleKey)} image={member.image} socialLinks={member.socialLinks} />
-              ))}
-            </div>
           </AnimatedSection>
         </div>
       </section>
