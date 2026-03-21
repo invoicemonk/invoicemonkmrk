@@ -1,28 +1,37 @@
 {
   "hero": {
     "label": "About Us",
-    "title": "We are Invoicemonk in every sense of it.",
-    "description": "This is why we built straightforward tools that empower freelancers and small business owners to take full control of the way they work."
+    "title": "Invoicemonk is built for people who take their work seriously.",
+    "description": "Freelancers, founders, and growing businesses power the global economy — but behind the scenes, many struggle with turning their income into structured, compliant, and credible financial records."
   },
   "story": {
-    "paragraph1": "A thing about us at Invoicemonk, we believe the freelancers and small businesses are the heart of our communities, and championing them is worth fighting for because it will lead to more new entrepreneurs, and more thriving small businesses.",
-    "paragraph2prefix": "How we intend to achieve that is by providing a",
-    "invoiceLink": "simple & easy to use invoice application",
+    "p1prefix": "That's where we come in. Invoicemonk is a compliance-first revenue platform that helps businesses take control of how they earn, track, and prove their income. From",
+    "invoicingLink": "invoicing",
     "and": "and",
-    "estimateLink": "free estimate application",
-    "clientLink": "user friendly client management application",
-    "paymentLink": "highly functional payment accepting application",
-    "paragraph2suffix": "and a financial management solution they can't live without. We also have",
-    "blogLink": "a blog to teach, educate and guide freelancers and small business owners",
-    "blogSuffix": "in their hustle."
+    "paymentsLink": "payments",
+    "to": "to",
+    "clientLink": "client management",
+    "p1suffix": "and financial reporting, everything we build is designed to ensure your business isn't just running — but running properly.",
+    "p2": "We believe getting paid is only part of the journey. What matters just as much is how that income is recorded, structured, and presented — because that's what unlocks bigger opportunities: access to funding, global mobility, partnerships, and long-term growth.",
+    "p3intro": "That's why Invoicemonk goes beyond simple tools. We provide a system that helps you:",
+    "bullet1": "Create compliant, professional invoices",
+    "bullet2": "Accept and track payments with clarity",
+    "bullet3": "Maintain clean, audit-ready financial records",
+    "bullet4": "Build a verifiable financial identity",
+    "p4prefix": "Our platform is designed to be simple on the surface, but powerful underneath — so you can focus on your work, while we handle the structure that supports it. We also share knowledge through",
+    "blogLink": "our blog",
+    "p4mid": "and provide tools like",
+    "estimatesLink": "free estimates",
+    "p4suffix": "to help you at every stage.",
+    "closing": "We're not just helping businesses send invoices. We're helping them build credibility, stay compliant, and operate with confidence — anywhere in the world."
   },
   "mission": {
     "label": "Our Mission",
-    "text": "To enable freelancers and businesses throughout the world to do what they love doing without headaches and time wasting."
+    "text": "To help freelancers and businesses operate compliantly, get paid confidently, and build financially credible businesses — without friction."
   },
   "vision": {
     "label": "Our Vision",
-    "text": "To be Nigeria's Number One Indigenous Business Enabler Partner with IT Solutions."
+    "text": "To become the world's most trusted revenue and compliance infrastructure for modern businesses."
   },
   "press": {
     "label": "Press & Media",
@@ -47,15 +56,15 @@
   "faqs": {
     "whoFounded": {
       "question": "Who founded Invoicemonk?",
-      "answer": "Invoicemonk was co-founded by Olayinka Olayokun (CEO) and Joan Omionawele (Communication President), with a mission to empower freelancers and small businesses worldwide."
+      "answer": "Invoicemonk was co-founded by Olayinka Olayokun (CEO) and Joan Omionawele (Communication President), with a mission to help freelancers and businesses build financially credible operations worldwide."
     },
     "mission": {
       "question": "What is Invoicemonk's mission?",
-      "answer": "Our mission is to champion freelancers and small businesses by providing simple, easy-to-use invoicing and financial management tools that help them thrive."
+      "answer": "Our mission is to help freelancers and businesses operate compliantly, get paid confidently, and build financially credible businesses — without friction."
     },
     "availability": {
       "question": "Where is Invoicemonk available?",
-      "answer": "Invoicemonk is available globally and serves businesses in over 50 countries. Our platform supports multiple currencies and regional compliance requirements."
+      "answer": "Invoicemonk is available globally and serves businesses in over 50 countries. Our compliance-first platform supports multiple currencies, regional tax requirements, and audit-ready financial records."
     }
   }
 }
