@@ -4,6 +4,7 @@
     "eyebrowSub": "A maioria das ferramentas de faturação é genérica. A conformidade não é.",
     "heading": "Desenvolvido para conformidade",
     "headingAccent": "multi-país",
+    "body": "A maioria das ferramentas de faturação foi construída para um mercado e depois esticada globalmente. O resultado: campos fiscais errados, referências de fatura ausentes, nenhuma trilha de auditoria e documentos que não resistem quando os reguladores fazem perguntas.\n\nO Invoicemonk foi construído com conformidade em primeiro lugar. Cada fatura é estruturada para atender aos requisitos legais da jurisdição em que é emitida — desde regras de IVA na UE e estados do Golfo, até GST no Sul da Ásia e Oceania, até mandatos de e-faturação na África e América Latina. Seja sua empresa registrada em um país ou faturando clientes em dez, seus documentos são sempre corretamente formatados, corretamente rotulados e juridicamente defensáveis.",
     "features": [
       "30+ jurisdições suportadas",
       "Rótulos fiscais adaptados ao país (IVA, GST, etc.)",
@@ -16,6 +17,7 @@
     ],
     "footerBold": "Suas faturas se adaptam ao seu país — automaticamente.",
     "footerSub": "Sem modelos genéricos. Sem adivinhar campos fiscais.",
+    "pullQuote": "Sua fatura não é apenas uma solicitação de pagamento. É um documento legal. Construímos o Invoicemonk para tratá-la como tal.",
     "feeCalcLink": "Veja nossa calculadora de taxas internacionais →",
     "invoicePreview": "Pré-visualização da fatura",
     "taxLabel": "Rótulo fiscal",
@@ -23,48 +25,85 @@
     "compliance": "Conformidade"
   },
   "positioning": {
-    "heading": "Desenvolvido para todos que",
-    "headingAccent": "faturam",
-    "subtitle": "De freelancers a agências, de consultores a empreiteiros — Invoicemonk ajuda a criar faturas conformes e receber mais rápido.",
+    "heading": "Para cada negócio que leva a sério",
+    "headingAccent": "receber pagamentos",
+    "subtitle": "De freelancers independentes a agências em crescimento. O Invoicemonk oferece faturamento conforme por design, para que você receba no prazo e permaneça pronto para auditoria sem trabalho extra.",
     "features": [
-      "Faturação multi-moeda sem distorção cambial",
-      "Faturas PDF limpas e profissionais",
-      "Conformidade fiscal em vários países",
-      "Rastreamento de receita por cliente e período",
-      "Lembretes de pagamento automatizados"
+      "Faturamento conforme em mais de 30 países e jurisdições",
+      "Faturamento multi-moeda com tratamento preciso de câmbio, sem distorção",
+      "Registros de faturas imutáveis — cada documento é à prova de adulteração por padrão",
+      "Rastreamento de receita e impostos por cliente, período e jurisdição",
+      "Lembretes de pagamento automatizados — receba sem precisar cobrar"
     ],
-    "footer": "Confiado por freelancers, consultores, agências e pequenas empresas em todo o mundo."
+    "footer": "Confiado por freelancers, consultores, agências e pequenas empresas que faturam em mais de 30 países."
   },
   "trust": {
     "heading": "Conformidade que você pode",
     "headingAccent": "provar.",
     "items": [
-      { "label": "Registros de faturas imutáveis", "description": "Uma vez geradas, as faturas não podem ser alteradas silenciosamente." },
-      { "label": "Geração de PDF por snapshot", "description": "Cada PDF captura o estado exato no momento da emissão." },
-      { "label": "Esquemas fiscais versionados", "description": "As estruturas fiscais se atualizam conforme as regulamentações evoluem." },
-      { "label": "Acesso à trilha de auditoria", "description": "Histórico completo de alterações disponível no plano Pro." },
-      { "label": "Links de verificação públicos", "description": "Os clientes podem verificar a autenticidade das faturas de forma independente." },
-      { "label": "Pronto para e-faturação", "description": "Compatível com ZATCA, Peppol e mandatos regionais de e-faturação." },
-      { "label": "Números de referência de fatura", "description": "Geração única de IRN para rastreabilidade regulatória." },
-      { "label": "Assinaturas digitais e CSID", "description": "Carimbos criptográficos verificam a autenticidade do documento." }
+      {
+        "label": "Registros de faturas imutáveis",
+        "description": "Uma vez geradas, as faturas não podem ser alteradas silenciosamente."
+      },
+      {
+        "label": "Geração de PDF por snapshot",
+        "description": "Cada PDF captura o estado exato no momento da emissão."
+      },
+      {
+        "label": "Esquemas fiscais versionados",
+        "description": "As estruturas fiscais se atualizam conforme as regulamentações evoluem."
+      },
+      {
+        "label": "Acesso à trilha de auditoria",
+        "description": "Histórico completo de alterações disponível no plano Pro."
+      },
+      {
+        "label": "Links de verificação públicos",
+        "description": "Os clientes podem verificar a autenticidade das faturas de forma independente."
+      },
+      {
+        "label": "Pronto para e-faturação",
+        "description": "Compatível com ZATCA, Peppol e mandatos regionais de e-faturação."
+      },
+      {
+        "label": "Números de referência de fatura",
+        "description": "Geração única de IRN para rastreabilidade regulatória."
+      },
+      {
+        "label": "Assinaturas digitais e CSID",
+        "description": "Carimbos criptográficos verificam a autenticidade do documento."
+      }
     ]
   },
   "benefits": {
     "heading": "Passe mais tempo fazendo",
-    "headingAccent": "o que você ama",
-    "subtitle": "Invoicemonk cuida dos detalhes para que você possa se concentrar no seu trabalho.",
+    "headingAccent": "o que você faz de melhor",
+    "subtitle": "Conformidade é complexa. Seu software de faturamento não deveria ser. O Invoicemonk cuida das regulamentações para que você cuide do seu trabalho.",
     "items": [
-      { "title": "Respire aliviado", "description": "Pare de se estressar com cobranças. Com lembretes automáticos e rastreamento de pagamentos, gaste menos tempo cobrando e mais fazendo o que ama." },
-      { "title": "Pareça profissional, sinta-se confiante", "description": "Envie faturas elegantes que causam uma ótima impressão. Modelos personalizáveis com sua marca ajudam você a se destacar." },
-      { "title": "Mantenha-se em conformidade, mantenha-se pronto", "description": "Cada transação é registrada com dados imutáveis e trilhas de auditoria completas. Quando os auditores chegarem, você já estará preparado." }
+      {
+        "title": "Pare de se preocupar com auditorias antes que aconteçam",
+        "description": "Cada fatura gerada pelo Invoicemonk já está estruturada para atender aos requisitos das autoridades fiscais. Seus registros são imutáveis, com carimbo de data e hora e prontos para auditoria no momento em que você pressiona enviar. Quando um regulador ou cliente questiona uma fatura — meses ou anos depois — a resposta já está registrada."
+      },
+      {
+        "title": "Pareça profissional. Fature legalmente.",
+        "description": "Cada fatura enviada através do Invoicemonk é limpa, com sua marca e construída para atender aos requisitos locais de formatação — incluindo campos obrigatórios como números de identificação fiscal, números de referência de fatura e itens fiscais específicos da jurisdição. Seus clientes veem um documento elegante. Seu contador vê um registro conforme."
+      },
+      {
+        "title": "Mantenha-se em conformidade, mantenha-se pronto",
+        "description": "Cada transação é registrada com dados imutáveis e trilhas de auditoria completas. Quando os auditores chegarem, você já estará preparado."
+      }
     ]
   },
   "cta": {
-    "heading": "Pronto para simplificar",
-    "headingAccent": "suas finanças?",
-    "subtitle": "Junte-se a empresas de todo o mundo que criam registros financeiros conformes e adaptados ao seu país.",
-    "button": "Começar faturação conforme",
-    "badges": ["Sem cartão de crédito", "Plano gratuito para sempre", "Cancele a qualquer momento"]
+    "heading": "Suas faturas. Conformes por padrão.",
+    "headingAccent": "Grátis para começar.",
+    "subtitle": "Junte-se a milhares de empresas em mais de 30 países que faturam com confiança — sabendo que cada registro está estruturado, rastreável e pronto para auditoria antes de precisar.",
+    "button": "Crie sua primeira fatura conforme — grátis",
+    "badges": [
+      "Sem cartão de crédito",
+      "Plano gratuito para sempre",
+      "Cancele a qualquer momento"
+    ]
   },
   "products": {
     "heading": "Mais razões para amar",
@@ -77,13 +116,84 @@
     "joinWaitlist": "Entrar na lista de espera",
     "learnMore": "Saiba mais sobre {{name}}",
     "items": [
-      { "name": "Faturação", "title": "Receba no prazo, sempre", "description": "Crie faturas profissionais em minutos. Envie-as instantaneamente, rastreie pagamentos e automatize lembretes.", "features": ["Modelos personalizáveis", "Lembretes automáticos", "Rastreamento de pagamentos", "Multi-moeda"] },
-      { "name": "Pagamentos", "title": "Aceite pagamentos do seu jeito", "description": "Permita que clientes paguem diretamente das faturas com cartão, transferência ou carteira digital.", "features": ["Processamento de cartão", "Transferências bancárias", "Planos de pagamento", "Auto-conciliação"] },
-      { "name": "Despesas", "title": "Rastreie cada despesa facilmente", "description": "Capture recibos, categorize gastos automaticamente e saiba sempre para onde vai seu dinheiro.", "features": ["Scan de recibos", "Auto-categorização", "Categorias fiscais", "Relatórios de despesas"] },
-      { "name": "Contabilidade", "title": "Contabilidade sem complicação", "description": "Rastreie receitas e despesas, gere relatórios financeiros e mantenha o controle das suas finanças.", "features": ["Partidas dobradas", "Relatórios financeiros", "Preparação fiscal", "Conexões bancárias"] },
-      { "name": "Clientes", "title": "Gerencie clientes sem esforço", "description": "Organize todas as informações de clientes em um só lugar. Rastreie contatos, histórico de pagamentos e saldos.", "features": ["Gestão de contatos", "Histórico de pagamentos", "Notas de clientes", "Faturação rápida"] },
-      { "name": "Orçamentos", "title": "Ganhe mais negócios com orçamentos", "description": "Crie orçamentos profissionais que convertem. Uma vez aprovados, transforme-os em faturas com um clique.", "features": ["Modelos profissionais", "Conversão em um clique", "Rastreamento de aprovação", "Marca personalizada"] },
-      { "name": "Recibos", "title": "Nunca mais perca um recibo", "description": "Fotografe seus recibos e deixe-nos cuidar do resto. Extração e organização automáticas para uma contabilidade tranquila.", "features": ["Captura fotográfica", "Auto-extração", "Armazenamento na nuvem", "Busca e filtro"] }
+      {
+        "name": "Faturação",
+        "title": "Faturas profissionais que resistem — juridicamente e visualmente",
+        "description": "Crie, envie e gerencie faturas que atendam aos requisitos das autoridades fiscais onde quer que seus clientes estejam. Cada fatura é numerada, estruturada e formatada para cumprir as regulamentações locais — e você não precisa conhecer essas regulamentações para acertar.",
+        "features": [
+          "Formatação de fatura adaptada à jurisdição",
+          "Preenchimento automático de campos fiscais por país",
+          "Registros imutáveis — faturas não podem ser alteradas silenciosamente",
+          "Multi-moeda com tratamento preciso de câmbio",
+          "Lembretes de pagamento automatizados"
+        ]
+      },
+      {
+        "name": "Pagamentos",
+        "title": "Aceite pagamentos do seu jeito",
+        "description": "Permita que clientes paguem diretamente das faturas com cartão, transferência ou carteira digital.",
+        "features": [
+          "Processamento de cartão",
+          "Transferências bancárias",
+          "Planos de pagamento",
+          "Auto-conciliação"
+        ]
+      },
+      {
+        "name": "Despesas",
+        "title": "Rastreie cada despesa facilmente",
+        "description": "Capture recibos, categorize gastos automaticamente e saiba sempre para onde vai seu dinheiro.",
+        "features": [
+          "Scan de recibos",
+          "Auto-categorização",
+          "Categorias fiscais",
+          "Relatórios de despesas"
+        ]
+      },
+      {
+        "name": "Contabilidade",
+        "title": "Contabilidade sem complicação",
+        "description": "Rastreie receitas e despesas, gere relatórios financeiros e mantenha o controle das suas finanças.",
+        "features": [
+          "Partidas dobradas",
+          "Relatórios financeiros",
+          "Preparação fiscal",
+          "Conexões bancárias"
+        ]
+      },
+      {
+        "name": "Clientes",
+        "title": "Gerencie clientes sem esforço",
+        "description": "Organize todas as informações de clientes em um só lugar. Rastreie contatos, histórico de pagamentos e saldos.",
+        "features": [
+          "Gestão de contatos",
+          "Histórico de pagamentos",
+          "Notas de clientes",
+          "Faturação rápida"
+        ]
+      },
+      {
+        "name": "Orçamentos",
+        "title": "Ganhe mais negócios com orçamentos",
+        "description": "Crie orçamentos profissionais que convertem. Uma vez aprovados, transforme-os em faturas com um clique.",
+        "features": [
+          "Modelos profissionais",
+          "Conversão em um clique",
+          "Rastreamento de aprovação",
+          "Marca personalizada"
+        ]
+      },
+      {
+        "name": "Recibos",
+        "title": "Nunca mais perca um recibo",
+        "description": "Fotografe seus recibos e deixe-nos cuidar do resto. Extração e organização automáticas para uma contabilidade tranquila.",
+        "features": [
+          "Captura fotográfica",
+          "Auto-extração",
+          "Armazenamento na nuvem",
+          "Busca e filtro"
+        ]
+      }
     ]
   },
   "personas": {
@@ -91,10 +201,22 @@
     "headingAccent": "como você",
     "subtitle": "Seja você iniciante ou em crescimento, Invoicemonk tem as ferramentas que você precisa.",
     "items": [
-      { "title": "Freelancers", "description": "Fature clientes, rastreie despesas e receba mais rápido — tudo em um só lugar." },
-      { "title": "Consultores", "description": "Faturação profissional com recursos de conformidade que seus clientes corporativos esperam." },
-      { "title": "Pequenas empresas", "description": "Cresça de um negócio individual para uma equipe completa com ferramentas que escalam com você." },
-      { "title": "Empreiteiros", "description": "Gerencie múltiplos clientes, rastreie despesas de projetos e mantenha-se organizado." }
+      {
+        "title": "Freelancers",
+        "description": "Fature clientes, rastreie despesas e receba mais rápido — tudo em um só lugar."
+      },
+      {
+        "title": "Consultores",
+        "description": "Faturação profissional com recursos de conformidade que seus clientes corporativos esperam."
+      },
+      {
+        "title": "Pequenas empresas",
+        "description": "Cresça de um negócio individual para uma equipe completa com ferramentas que escalam com você."
+      },
+      {
+        "title": "Empreiteiros",
+        "description": "Gerencie múltiplos clientes, rastreie despesas de projetos e mantenha-se organizado."
+      }
     ]
   },
   "blogPreview": {
@@ -106,22 +228,99 @@
     "subtitle": "Dicas, guias e insights para ajudá-lo a gerenciar melhor seu negócio.",
     "viewAll": "Ver todos os artigos"
   },
+  "freeTools": {
+    "heading": "Ferramentas gratuitas para",
+    "headingAccent": "seu negócio",
+    "subtitle": "Sem cadastro. Crie faturas, compare taxas, calcule preços e baixe modelos — tudo grátis.",
+    "tryIt": "Experimente grátis",
+    "contextual": "Seja para criar uma fatura profissional, baixar um modelo de fatura gratuito, comparar taxas de pagamentos internacionais ou calcular sua tarifa freelancer — as ferramentas gratuitas do Invoicemonk têm tudo o que você precisa.",
+    "items": [
+      {
+        "name": "Gerador de faturas grátis",
+        "description": "Crie faturas profissionais com campos fiscais, upload de logo e download instantâneo em PDF. Sem conta necessária."
+      },
+      {
+        "name": "Modelos de faturas",
+        "description": "6 modelos específicos por setor para freelancers, prestadores, consultores e e-commerce."
+      },
+      {
+        "name": "Calculadora de taxas de pagamento",
+        "description": "Compare taxas do PayPal, Wise, Payoneer e transferências bancárias para qualquer valor e moeda."
+      },
+      {
+        "name": "Calculadora de tarifa freelancer",
+        "description": "Calcule sua tarifa horária ou por projeto ideal com base em despesas, metas e horas faturáveis."
+      },
+      {
+        "name": "PayPal vs Wise taxas",
+        "description": "Comparação lado a lado de taxas para pagamentos internacionais. Veja exatamente quanto você economiza."
+      },
+      {
+        "name": "Gerador de faturas Austrália",
+        "description": "Faturas em conformidade com ATO com campos ABN e GST pré-configurados para empresas australianas."
+      }
+    ]
+  },
   "faq": {
     "heading": "Perguntas",
     "headingAccent": "frequentes",
     "subtitle": "Tudo o que você precisa saber sobre Invoicemonk. Não encontrou o que procura? Entre em contato com nossa equipe de suporte.",
     "items": [
-      { "question": "O que é o Invoicemonk?", "answer": "O Invoicemonk é uma plataforma financeira completa que ajuda pequenas empresas e freelancers a gerenciar faturamento, despesas, pagamentos e contabilidade. Nossas ferramentas são projetadas para serem simples, profissionais e em conformidade com as regulamentações fiscais em todo o mundo." },
-      { "question": "O Invoicemonk é realmente gratuito?", "answer": "Sim! O Invoicemonk oferece um plano gratuito para sempre que inclui 5 faturas e 5 recibos por mês, gestão de clientes e rastreamento básico de despesas. Também oferecemos planos premium com recursos avançados como faturamento ilimitado, processamento de pagamentos, relatórios detalhados e suporte prioritário." },
-      { "question": "Como funciona o faturamento?", "answer": "Criar faturas com o Invoicemonk é simples. Escolha entre nossos modelos profissionais, adicione os dados da sua empresa e logotipo, insira os itens e envie diretamente aos seus clientes por e-mail. Você pode acompanhar quando as faturas são visualizadas e pagas, e configurar lembretes automáticos de pagamento." },
-      { "question": "Meus dados estão seguros?", "answer": "A segurança é nossa maior prioridade. Utilizamos criptografia de nível bancário (SSL de 256 bits) para proteger todos os seus dados. Nossos servidores estão hospedados em data centers seguros e certificados, e realizamos auditorias de segurança regulares. Suas informações financeiras nunca são compartilhadas com terceiros." },
-      { "question": "O Invoicemonk suporta múltiplas moedas?", "answer": "Sim, o Invoicemonk suporta faturamento e pagamentos em múltiplas moedas. Isso é perfeito para empresas que trabalham com clientes internacionais. As taxas de câmbio são atualizadas automaticamente e você pode definir suas moedas preferidas para diferentes clientes." },
-      { "question": "Posso personalizar minhas faturas com minha marca?", "answer": "Sim! Você pode personalizar completamente suas faturas com seu logotipo e informações da empresa. Escolha entre vários modelos profissionais para criar faturas elegantes que representem sua marca." }
+      {
+        "question": "O que é o Invoicemonk?",
+        "answer": "O Invoicemonk é uma plataforma financeira completa que ajuda pequenas empresas e freelancers a gerenciar faturamento, despesas, pagamentos e contabilidade. Nossas ferramentas são projetadas para serem simples, profissionais e em conformidade com as regulamentações fiscais em todo o mundo."
+      },
+      {
+        "question": "O Invoicemonk é realmente gratuito?",
+        "answer": "Sim! O Invoicemonk oferece um plano gratuito para sempre que inclui 5 faturas e 5 recibos por mês, gestão de clientes e rastreamento básico de despesas. Também oferecemos planos premium com recursos avançados como faturamento ilimitado, processamento de pagamentos, relatórios detalhados e suporte prioritário."
+      },
+      {
+        "question": "Como funciona o faturamento?",
+        "answer": "Criar faturas com o Invoicemonk é simples. Escolha entre nossos modelos profissionais, adicione os dados da sua empresa e logotipo, insira os itens e envie diretamente aos seus clientes por e-mail. Você pode acompanhar quando as faturas são visualizadas e pagas, e configurar lembretes automáticos de pagamento."
+      },
+      {
+        "question": "Meus dados estão seguros?",
+        "answer": "A segurança é nossa maior prioridade. Utilizamos criptografia de nível bancário (SSL de 256 bits) para proteger todos os seus dados. Nossos servidores estão hospedados em data centers seguros e certificados, e realizamos auditorias de segurança regulares. Suas informações financeiras nunca são compartilhadas com terceiros."
+      },
+      {
+        "question": "O Invoicemonk suporta múltiplas moedas?",
+        "answer": "Sim, o Invoicemonk suporta faturamento e pagamentos em múltiplas moedas. Isso é perfeito para empresas que trabalham com clientes internacionais. As taxas de câmbio são atualizadas automaticamente e você pode definir suas moedas preferidas para diferentes clientes."
+      },
+      {
+        "question": "Posso personalizar minhas faturas com minha marca?",
+        "answer": "Sim! Você pode personalizar completamente suas faturas com seu logotipo e informações da empresa. Escolha entre vários modelos profissionais para criar faturas elegantes que representem sua marca."
+      }
     ]
   },
   "testimonials": {
     "label": "Depoimentos",
     "heading": "Amado por",
     "headingSuffix": "empresas"
+  },
+  "toolsHub": {
+    "title": "Ferramentas gratuitas para gerenciar seu negócio",
+    "subtitle": "Sem cadastro. Crie faturas, compare taxas, calcule tarifas e baixe modelos — tudo grátis.",
+    "contextual": "Seja para criar uma fatura profissional, baixar um modelo de fatura gratuito, comparar taxas de pagamento internacional ou calcular sua tarifa freelancer — as ferramentas gratuitas da Invoicemonk têm tudo o que você precisa.",
+    "faqTitle": "Perguntas frequentes",
+    "seoTitle": "Ferramentas gratuitas — Gerador de faturas, calculadora de taxas e mais | Invoicemonk",
+    "seoDescription": "Ferramentas gratuitas para freelancers e pequenas empresas: gerador de faturas, modelos de faturas, calculadora de taxas de pagamento internacional, calculadora de tarifa freelancer e comparações de pagamentos. Sem cadastro.",
+    "faqs": [
+      {
+        "question": "As ferramentas da Invoicemonk são realmente gratuitas?",
+        "answer": "Sim. Todas as ferramentas listadas nesta página — incluindo o gerador de faturas, a calculadora de taxas e a calculadora de tarifas — são 100% gratuitas sem necessidade de cadastro."
+      },
+      {
+        "question": "Preciso de uma conta para usar essas ferramentas?",
+        "answer": "Não. Cada ferramenta funciona instantaneamente no seu navegador sem criar uma conta."
+      },
+      {
+        "question": "Qual ferramenta devo usar primeiro?",
+        "answer": "Comece com o gerador de faturas gratuito se precisar faturar um cliente. Use a calculadora de taxas se trabalhar com clientes internacionais."
+      },
+      {
+        "question": "Posso usar essas ferramentas para meu negócio?",
+        "answer": "Absolutamente. Essas ferramentas são projetadas para freelancers, empreiteiros, consultores e pequenas empresas."
+      }
+    ]
   }
 }

@@ -21,6 +21,8 @@ export function GlobalComplianceSection() {
   const selected = countries[selectedIndex];
   const featuresRaw = t('globalCompliance.features', { returnObjects: true });
   const features = Array.isArray(featuresRaw) ? featuresRaw : [];
+  const body = t('globalCompliance.body', { defaultValue: '' });
+  const pullQuote = t('globalCompliance.pullQuote', { defaultValue: '' });
 
   return (
     <section id="compliance" className="py-20 lg:py-28 bg-background">
@@ -40,6 +42,13 @@ export function GlobalComplianceSection() {
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start mt-12">
           <AnimatedSection delay={0.1}>
+            {body && (
+              <div className="mb-8 space-y-4">
+                {body.split('\n\n').map((paragraph, i) => (
+                  <p key={i} className="text-body text-muted-foreground">{paragraph}</p>
+                ))}
+              </div>
+            )}
             <ul className="space-y-5">
               {features.map((label, i) => {
                 const Icon = featureIcons[i] || Check;
@@ -60,6 +69,11 @@ export function GlobalComplianceSection() {
                 {t('globalCompliance.footerSub')}
               </span>
             </p>
+            {pullQuote && (
+              <blockquote className="mt-6 pl-4 border-l-2 border-primary/30 italic text-body text-muted-foreground">
+                "{pullQuote}"
+              </blockquote>
+            )}
             <Link
               to="/international-payment-fee-calculator"
               className="inline-block mt-4 text-body-sm text-primary hover:underline"

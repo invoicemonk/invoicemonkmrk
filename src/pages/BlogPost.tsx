@@ -19,6 +19,7 @@ import { AuthorCard } from '@/components/blog/AuthorCard';
 import { ClusterNavigation } from '@/components/blog/ClusterNavigation';
 import { ClusterTopicMap } from '@/components/blog/ClusterTopicMap';
 import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
+import { ToolCTA } from '@/components/blog/ToolCTA';
 
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
 import { SEOHead } from '@/components/seo/SEOHead';
@@ -132,6 +133,9 @@ const BlogPost = () => {
         dangerouslySetInnerHTML={{ __html: enhancedContent }}
       />
 
+      {/* Contextual Tool CTA */}
+      <ToolCTA pillarId={pillar?.id} />
+
       {/* Tags */}
       {post.tags && post.tags.length > 0 && (
         <div className="mt-8 pt-8 border-t border-border">
@@ -181,6 +185,7 @@ const BlogPost = () => {
         semanticKeywords={post.semanticKeywords}
         relatedArticles={relatedArticlesSchema}
         entityMentions={post.entityMentions}
+        relatedTools={post.relatedTools}
       />
       <BreadcrumbSchema items={breadcrumbs} />
       

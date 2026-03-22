@@ -8,6 +8,7 @@ import { Link } from '@/components/LocalizedLink';
 import { ArrowRight, Check, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { RelatedTools } from '@/components/tools/RelatedTools';
 
 export default function PaypalVsWiseFees() {
   const { t } = useTranslation('tools');
@@ -22,7 +23,7 @@ export default function PaypalVsWiseFees() {
         ogType="website"
       />
       <FAQSchema items={faqs} />
-      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Tools', url: '/international-payment-fee-calculator' }, { name: 'PayPal vs Wise', url: '/paypal-vs-wise-fees' }]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Tools', url: '/tools' }, { name: 'PayPal vs Wise', url: '/paypal-vs-wise-fees' }]} />
 
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
@@ -116,6 +117,7 @@ export default function PaypalVsWiseFees() {
               <Button size="lg">{t('paypalVsWise.cta')} <ArrowRight className="w-4 h-4 ml-2" /></Button>
             </a>
           </div>
+          <RelatedTools currentHref="/paypal-vs-wise-fees" />
         </div>
       </section>
     </Layout>

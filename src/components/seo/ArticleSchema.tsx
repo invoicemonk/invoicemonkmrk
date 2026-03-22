@@ -28,6 +28,8 @@ interface ArticleSchemaProps {
   relatedArticles?: Array<{ title: string; url: string }>;
   // New: Entity mentions for semantic relationships
   entityMentions?: EntityMention[];
+  // Tool entities the article is about
+  relatedTools?: Array<{ label: string; url: string; description: string }>;
 }
 
 /**
@@ -54,6 +56,7 @@ export function ArticleSchema({
   semanticKeywords,
   relatedArticles,
   entityMentions,
+  relatedTools,
 }: ArticleSchemaProps) {
   const { lang } = useParams<{ lang: string }>();
   const prefix = lang?.toLowerCase() || 'en';
@@ -74,8 +77,8 @@ export function ArticleSchema({
   // Build entity mentions from pillar topics and provided mentions
   const mentions = buildEntityMentions(pillar, explicitMentions => explicitMentions, prefix, BASE, entityMentions);
   
-  // Build about entities from pillar and content
-  const aboutEntities = buildAboutEntities(pillar, isPillarContent, section, prefix, BASE);
+  // Build about entities from pillar and content, including related tools
+  const aboutEntities = buildAboutEntities(pillar, isPillarContent, section, prefix, BASE, relatedTools);
   
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -257,7 +260,8 @@ function buildAboutEntities(
   isPillarContent: boolean | undefined,
   section: string | undefined,
   prefix: string,
-  BASE: string
+  BASE: string,
+  relatedTools?: Array<{ label: string; url: string; description: string }>
 ): Array<Record<string, unknown>> {
   const aboutEntities: Array<Record<string, unknown>> = [];
 
@@ -296,6 +300,19 @@ function buildAboutEntities(
       "applicationCategory": "BusinessApplication",
       "description": "All-in-one business finance platform for invoicing, expenses, payments, and accounting",
       "url": BASE
+    });
+  }
+
+  // Add tool entities as about items when posts reference specific tools
+  if (relatedTools && relatedTools.length > 0) {
+    relatedTools.forEach(tool => {
+      aboutEntities.push({
+        "@type": "WebApplication",
+        "name": tool.label,
+        "description": tool.description,
+        "url": `${BASE}/${prefix}${tool.url}`,
+        "applicationCategory": "BusinessApplication"
+      });
     });
   }
 

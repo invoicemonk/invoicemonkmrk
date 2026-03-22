@@ -9,6 +9,7 @@ import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
 import { getCorridorData, keyCorridor } from '@/config/paymentFeeModels';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { RelatedTools } from '@/components/tools/RelatedTools';
 
 export default function ReceiveCurrencyInCountry() {
   const { pathname } = useLocation();
@@ -128,6 +129,8 @@ export default function ReceiveCurrencyInCountry() {
               <li><Link to="/paypal-vs-wise-fees" className="text-primary hover:underline">{t('paypalVsWiseLink')}</Link></li>
             </ul>
           </section>
+
+          <RelatedTools currentHref={pathname} />
 
           <div className="mt-16 text-center">
             <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">

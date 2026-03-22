@@ -12,13 +12,13 @@ export const enNZ: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "Built for New Zealand Compliance",
-      headline: "Professional invoices for",
-      headlineAccent: "New Zealand businesses",
-      subheadline: "Create IRD-compliant invoices, track GST, and manage your finances with ease.",
-      cta: "Start GST-Compliant Invoicing",
-      secondaryCta: "See How It Works",
-      trustBadge: "Trusted by Kiwi businesses",
+      badge: "TAX-COMPLIANT INVOICING",
+      headline: "Invoicing built around compliance.",
+      headlineAccent: "Not bolted on after.",
+      subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
+      cta: "Start free — no card needed",
+      secondaryCta: "See how compliance works →",
+      trustBadge: "Used by businesses invoicing across 30+ countries, including New Zealand",
     },
     compliance: {
       authority: "IRD",

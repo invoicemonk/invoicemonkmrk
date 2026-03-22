@@ -9,6 +9,7 @@ export function OrganizationSchema() {
     "@type": "Organization",
     "@id": "https://invoicemonk.com/#organization",
     "name": "Invoicemonk",
+    "legalName": "Invoicemonk Ltd",
     "alternateName": "Invoice Monk",
     "url": "https://invoicemonk.com",
     "logo": {
@@ -17,6 +18,7 @@ export function OrganizationSchema() {
       "width": 512,
       "height": 512
     },
+    "image": "https://invoicemonk.com/og-image.png",
     "description": locale.content.seo.siteDescription,
     "foundingDate": "2023",
     "founders": [
@@ -31,6 +33,16 @@ export function OrganizationSchema() {
         "jobTitle": "Co-founder & Communication President"
       }
     ],
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "minValue": 2,
+      "maxValue": 10
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lagos",
+      "addressCountry": "NG"
+    },
     "knowsAbout": [
       "Invoicing Software",
       "Small Business Accounting",
@@ -42,26 +54,19 @@ export function OrganizationSchema() {
       "Freelancer Tools"
     ],
     "areaServed": [
-      {
-        "@type": "Country",
-        "name": "Nigeria"
-      },
-      {
-        "@type": "Country",
-        "name": "United States"
-      },
-      {
-        "@type": "Country",
-        "name": "United Kingdom"
-      },
-      {
-        "@type": "Country",
-        "name": "Canada"
-      },
-      {
-        "@type": "Country",
-        "name": "Australia"
-      }
+      { "@type": "Country", "name": "Australia" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "Germany" },
+      { "@type": "Country", "name": "Ghana" },
+      { "@type": "Country", "name": "India" },
+      { "@type": "Country", "name": "Kenya" },
+      { "@type": "Country", "name": "New Zealand" },
+      { "@type": "Country", "name": "Nigeria" },
+      { "@type": "Country", "name": "Philippines" },
+      { "@type": "Country", "name": "South Africa" },
+      { "@type": "Country", "name": "United Kingdom" },
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "Zimbabwe" }
     ],
     "sameAs": [
       "https://x.com/invoicemonk",
@@ -74,8 +79,10 @@ export function OrganizationSchema() {
       "@type": "ContactPoint",
       "contactType": "customer support",
       "email": "support@invoicemonk.com",
-      "availableLanguage": ["English"]
-    }
+      "availableLanguage": ["English", "Spanish", "French", "German", "Portuguese"]
+    },
+    "naics": "511210",
+    "isicV4": "6201"
   };
 
   return (

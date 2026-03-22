@@ -12,13 +12,13 @@ export const enGB: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "Structured for Jurisdiction-Aware Invoicing",
-      headline: "Beautiful invoices,",
-      headlineAccent: "sorted",
-      subheadline: "Create country-aware invoices, track revenue, and stay compliant across borders.",
-      cta: "Start Compliant Invoicing",
-      secondaryCta: "See How It Adapts",
-      trustBadge: "Trusted by UK businesses",
+      badge: "TAX-COMPLIANT INVOICING",
+      headline: "Invoicing built around compliance.",
+      headlineAccent: "Not bolted on after.",
+      subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
+      cta: "Start free — no card needed",
+      secondaryCta: "See how compliance works →",
+      trustBadge: "Used by businesses invoicing across 30+ countries, including the UK",
     },
     compliance: {
       authority: "HMRC",

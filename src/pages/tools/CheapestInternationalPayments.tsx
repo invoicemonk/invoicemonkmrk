@@ -7,6 +7,7 @@ import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
 import { Link } from '@/components/LocalizedLink';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { RelatedTools } from '@/components/tools/RelatedTools';
 
 export default function CheapestInternationalPayments() {
   const { t } = useTranslation('tools');
@@ -20,7 +21,7 @@ export default function CheapestInternationalPayments() {
         ogType="website"
       />
       <FAQSchema items={faqs} />
-      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Tools', url: '/international-payment-fee-calculator' }, { name: 'Cheapest Payments', url: '/cheapest-international-payments' }]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Tools', url: '/tools' }, { name: 'Cheapest Payments', url: '/cheapest-way-to-receive-international-payments' }]} />
 
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
@@ -104,6 +105,7 @@ export default function CheapestInternationalPayments() {
               <Button size="lg">{t('cheapest.cta')} <ArrowRight className="w-4 h-4 ml-2" /></Button>
             </a>
           </div>
+          <RelatedTools currentHref="/cheapest-way-to-receive-international-payments" />
         </div>
       </section>
     </Layout>

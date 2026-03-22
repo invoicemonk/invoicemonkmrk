@@ -5,6 +5,7 @@ interface ItemListItem {
   url: string;
   description?: string;
   image?: string;
+  sameAs?: string;
 }
 
 interface ItemListSchemaProps {
@@ -35,13 +36,15 @@ export function ItemListSchema({
           "name": item.name,
           "url": item.url,
           ...(item.description && { "description": item.description }),
-          ...(item.image && { "image": item.image })
+          ...(item.image && { "image": item.image }),
+          ...(item.sameAs && { "sameAs": item.sameAs })
         }
       } : {
         "name": item.name,
         "url": item.url,
         ...(item.description && { "description": item.description }),
-        ...(item.image && { "image": item.image })
+        ...(item.image && { "image": item.image }),
+        ...(item.sameAs && { "sameAs": item.sameAs })
       })
     }))
   };

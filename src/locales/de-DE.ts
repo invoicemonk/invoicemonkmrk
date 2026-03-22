@@ -12,13 +12,13 @@ export const deDE: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "Für deutsche Compliance entwickelt",
-      headline: "Professionelle Rechnungen für",
-      headlineAccent: "deutsche Unternehmen",
-      subheadline: "Erstellen Sie Finanzamt-konforme Rechnungen, verfolgen Sie Umsätze und verwalten Sie die USt mit Leichtigkeit.",
-      cta: "Konforme Rechnungsstellung starten",
-      secondaryCta: "So funktioniert es",
-      trustBadge: "Vertraut von deutschen Unternehmen",
+      badge: "STEUERKONFORME RECHNUNGSSTELLUNG",
+      headline: "Rechnungsstellung mit Compliance im Kern.",
+      headlineAccent: "Nicht nachträglich aufgesetzt.",
+      subheadline: "Invoicemonk ist die Rechnungs- und Buchhaltungssoftware, die Freiberufler, Berater und kleine Unternehmen steuerkonform, prüfungssicher und in jedem Land bezahlt hält.",
+      cta: "Kostenlos starten — keine Karte nötig",
+      secondaryCta: "So funktioniert Compliance →",
+      trustBadge: "Genutzt von Unternehmen in über 30 Ländern, einschließlich Deutschland",
     },
     compliance: {
       authority: "Finanzamt",

@@ -4,6 +4,7 @@
     "eyebrowSub": "Die meisten Rechnungstools sind generisch. Compliance nicht.",
     "heading": "Entwickelt für länderübergreifende",
     "headingAccent": "Compliance",
+    "body": "Die meisten Rechnungstools wurden für einen Markt gebaut und dann global gedehnt. Das Ergebnis: falsche Steuerfelder, fehlende Rechnungsreferenzen, kein Audit-Trail und Dokumente, die bei behördlichen Nachfragen nicht standhalten.\n\nInvoicemonk wurde Compliance-first entwickelt. Jede Rechnung ist so strukturiert, dass sie die rechtlichen Anforderungen der jeweiligen Rechtsordnung erfüllt — von USt-Regeln in der EU und den Golfstaaten über GST in Südasien und Ozeanien bis hin zu E-Invoicing-Mandaten in Afrika und Lateinamerika. Ob Ihr Unternehmen in einem Land registriert ist oder Kunden in zehn Ländern berechnet — Ihre Dokumente sind immer korrekt formatiert, korrekt beschriftet und rechtlich belastbar.",
     "features": [
       "30+ unterstützte Rechtsordnungen",
       "Länderspezifische Steuerbezeichnungen (USt, GST, IVA usw.)",
@@ -16,6 +17,7 @@
     ],
     "footerBold": "Ihre Rechnungen passen sich automatisch an Ihr Land an.",
     "footerSub": "Keine generischen Vorlagen. Kein Rätselraten bei Steuerfeldern.",
+    "pullQuote": "Ihre Rechnung ist nicht nur eine Zahlungsaufforderung. Sie ist ein Rechtsdokument. Wir haben Invoicemonk gebaut, um sie als solches zu behandeln.",
     "feeCalcLink": "Sehen Sie unseren internationalen Gebührenrechner →",
     "invoicePreview": "Rechnungsvorschau",
     "taxLabel": "Steuerbezeichnung",
@@ -23,48 +25,85 @@
     "compliance": "Compliance"
   },
   "positioning": {
-    "heading": "Entwickelt für alle, die",
-    "headingAccent": "Rechnungen stellen",
-    "subtitle": "Von Freiberuflern bis Agenturen, Beratern bis Auftragnehmern — Invoicemonk hilft Ihnen, konforme Rechnungen zu erstellen und schneller bezahlt zu werden.",
+    "heading": "Für jedes Unternehmen, das Bezahltwerden",
+    "headingAccent": "ernst nimmt",
+    "subtitle": "Von unabhängigen Freiberuflern bis zu wachsenden Agenturen. Invoicemonk bietet Ihnen Rechnungsstellung, die von Grund auf steuerkonform ist — damit Sie pünktlich bezahlt werden und ohne Mehraufwand prüfungsbereit bleiben.",
     "features": [
-      "Mehrwährungs-Rechnungen ohne Wechselkursverzerrung",
-      "Saubere, professionelle PDF-Rechnungen",
-      "Steuerkonform in mehreren Ländern",
-      "Umsatzverfolgung nach Kunde & Zeitraum",
-      "Automatische Zahlungserinnerungen"
+      "Steuerkonforme Rechnungsstellung in über 30 Ländern und Rechtsordnungen",
+      "Mehrwährungs-Rechnungen mit präziser Wechselkursverarbeitung, ohne Verzerrung",
+      "Unveränderliche Rechnungsdaten — jedes Dokument ist standardmäßig manipulationssicher",
+      "Umsatz- und Steuerverfolgung nach Kunde, Zeitraum und Rechtsordnung",
+      "Automatische Zahlungserinnerungen — bezahlt werden ohne nachzuhaken"
     ],
-    "footer": "Vertraut von Freiberuflern, Beratern, Agenturen und kleinen Unternehmen weltweit."
+    "footer": "Vertraut von Freiberuflern, Beratern, Agenturen und kleinen Unternehmen, die in über 30 Ländern fakturieren."
   },
   "trust": {
     "heading": "Compliance, die Sie",
     "headingAccent": "beweisen können.",
     "items": [
-      { "label": "Unveränderliche Rechnungsdaten", "description": "Einmal erstellt, können Rechnungen nicht stillschweigend geändert werden." },
-      { "label": "Snapshot-basierte PDF-Erstellung", "description": "Jedes PDF erfasst den exakten Stand zum Zeitpunkt der Ausstellung." },
-      { "label": "Versionierte Steuerschemata", "description": "Steuerstrukturen werden bei Änderungen der Vorschriften aktualisiert." },
-      { "label": "Audit-Trail-Zugang", "description": "Vollständiger Änderungsverlauf im Pro-Plan verfügbar." },
-      { "label": "Öffentliche Verifizierungslinks", "description": "Kunden können die Rechnungsauthentizität unabhängig überprüfen." },
-      { "label": "E-Invoicing-bereit", "description": "Unterstützt ZATCA, Peppol und regionale E-Invoicing-Mandate." },
-      { "label": "Rechnungsreferenznummern", "description": "Einzigartige IRN-Generierung für regulatorische Nachverfolgbarkeit." },
-      { "label": "Digitale Signaturen & CSID", "description": "Kryptografische Stempel verifizieren die Dokumentenauthentizität." }
+      {
+        "label": "Unveränderliche Rechnungsdaten",
+        "description": "Einmal erstellt, können Rechnungen nicht stillschweigend geändert werden."
+      },
+      {
+        "label": "Snapshot-basierte PDF-Erstellung",
+        "description": "Jedes PDF erfasst den exakten Stand zum Zeitpunkt der Ausstellung."
+      },
+      {
+        "label": "Versionierte Steuerschemata",
+        "description": "Steuerstrukturen werden bei Änderungen der Vorschriften aktualisiert."
+      },
+      {
+        "label": "Audit-Trail-Zugang",
+        "description": "Vollständiger Änderungsverlauf im Pro-Plan verfügbar."
+      },
+      {
+        "label": "Öffentliche Verifizierungslinks",
+        "description": "Kunden können die Rechnungsauthentizität unabhängig überprüfen."
+      },
+      {
+        "label": "E-Invoicing-bereit",
+        "description": "Unterstützt ZATCA, Peppol und regionale E-Invoicing-Mandate."
+      },
+      {
+        "label": "Rechnungsreferenznummern",
+        "description": "Einzigartige IRN-Generierung für regulatorische Nachverfolgbarkeit."
+      },
+      {
+        "label": "Digitale Signaturen & CSID",
+        "description": "Kryptografische Stempel verifizieren die Dokumentenauthentizität."
+      }
     ]
   },
   "benefits": {
     "heading": "Verbringen Sie mehr Zeit mit",
-    "headingAccent": "dem, was Sie lieben",
-    "subtitle": "Invoicemonk kümmert sich um die Details, damit Sie sich auf Ihr Handwerk konzentrieren können.",
+    "headingAccent": "dem, was Sie am besten können",
+    "subtitle": "Compliance ist komplex. Ihre Rechnungssoftware sollte es nicht sein. Invoicemonk kümmert sich um die Vorschriften, damit Sie sich um Ihre Arbeit kümmern können.",
     "items": [
-      { "title": "Atmen Sie erleichtert auf", "description": "Hören Sie auf, sich wegen Zahlungen zu stressen. Mit automatischen Erinnerungen und Zahlungsverfolgung verbringen Sie weniger Zeit mit dem Hinterherjagen von Rechnungen." },
-      { "title": "Professionell auftreten, selbstbewusst fühlen", "description": "Versenden Sie elegante Rechnungen, die einen großartigen Eindruck hinterlassen. Anpassbare Vorlagen mit Ihrem Branding helfen Ihnen, sich abzuheben." },
-      { "title": "Konform bleiben, vorbereitet sein", "description": "Jede Transaktion wird mit unveränderlichen Aufzeichnungen und vollständigen Audit-Trails protokolliert. Wenn Prüfer kommen, sind Sie bereits vorbereitet." }
+      {
+        "title": "Keine Sorgen mehr vor Prüfungen",
+        "description": "Jede Rechnung, die Invoicemonk erstellt, ist bereits so strukturiert, dass sie den Anforderungen der Finanzbehörden entspricht. Ihre Aufzeichnungen sind unveränderlich, mit Zeitstempel versehen und prüfungsbereit ab dem Moment des Versendens. Wenn ein Prüfer oder Kunde eine Rechnung hinterfragt — Monate oder Jahre später — ist die Antwort bereits aktenkundig."
+      },
+      {
+        "title": "Professionell auftreten. Rechtskonform fakturieren.",
+        "description": "Jede Rechnung, die Sie über Invoicemonk versenden, ist sauber, gebrandmarkt und nach lokalen Rechnungsformatierungsanforderungen erstellt — einschließlich Pflichtfelder wie Steueridentifikationsnummern, Rechnungsreferenznummern und jurisdiktionsspezifische Steuerpositionen. Ihre Kunden sehen ein elegantes Dokument. Ihr Steuerberater sieht einen konformen Datensatz."
+      },
+      {
+        "title": "Konform bleiben, vorbereitet sein",
+        "description": "Jede Transaktion wird mit unveränderlichen Aufzeichnungen und vollständigen Audit-Trails protokolliert. Wenn Prüfer kommen, sind Sie bereits vorbereitet."
+      }
     ]
   },
   "cta": {
-    "heading": "Bereit, Ihre Finanzen zu",
-    "headingAccent": "vereinfachen?",
-    "subtitle": "Schließen Sie sich Unternehmen weltweit an, die konforme, länderspezifische Finanzunterlagen erstellen.",
-    "button": "Konforme Rechnungsstellung starten",
-    "badges": ["Keine Kreditkarte erforderlich", "Für immer kostenlos", "Jederzeit kündbar"]
+    "heading": "Ihre Rechnungen. Standardmäßig konform.",
+    "headingAccent": "Kostenlos starten.",
+    "subtitle": "Schließen Sie sich Tausenden von Unternehmen in über 30 Ländern an, die mit Vertrauen fakturieren — in dem Wissen, dass jeder Datensatz strukturiert, nachverfolgbar und prüfungsbereit ist, bevor sie ihn jemals brauchen.",
+    "button": "Erstellen Sie Ihre erste konforme Rechnung — kostenlos",
+    "badges": [
+      "Keine Kreditkarte erforderlich",
+      "Für immer kostenlos",
+      "Jederzeit kündbar"
+    ]
   },
   "products": {
     "heading": "Noch mehr Gründe,",
@@ -77,13 +116,84 @@
     "joinWaitlist": "Auf Warteliste",
     "learnMore": "Mehr über {{name}} erfahren",
     "items": [
-      { "name": "Rechnungsstellung", "title": "Pünktlich bezahlt werden, jedes Mal", "description": "Erstellen Sie professionelle Rechnungen in Minuten. Senden Sie sie sofort, verfolgen Sie Zahlungen und automatisieren Sie Erinnerungen.", "features": ["Anpassbare Vorlagen", "Automatische Erinnerungen", "Zahlungsverfolgung", "Mehrwährung"] },
-      { "name": "Zahlungen", "title": "Zahlungen so akzeptieren, wie Sie möchten", "description": "Lassen Sie Kunden direkt von Rechnungen mit Kreditkarten, Banküberweisungen oder digitalen Wallets bezahlen.", "features": ["Kreditkartenverarbeitung", "Banküberweisungen", "Zahlungspläne", "Auto-Abstimmung"] },
-      { "name": "Ausgaben", "title": "Jede Ausgabe mühelos verfolgen", "description": "Erfassen Sie Belege, kategorisieren Sie Ausgaben automatisch und wissen Sie immer, wohin Ihr Geld fließt.", "features": ["Beleg-Scanning", "Auto-Kategorisierung", "Steuerkategorien", "Ausgabenberichte"] },
-      { "name": "Buchhaltung", "title": "Buchhaltung ohne Stress", "description": "Verfolgen Sie Einnahmen und Ausgaben, erstellen Sie Finanzberichte und behalten Sie Ihre Geschäftsfinanzen im Blick.", "features": ["Doppelte Buchführung", "Finanzberichte", "Steuervorbereitung", "Bankverbindungen"] },
-      { "name": "Kunden", "title": "Kunden mühelos verwalten", "description": "Organisieren Sie alle Kundeninformationen an einem Ort. Verfolgen Sie Kontaktdaten, Zahlungsverlauf und offene Salden auf einen Blick.", "features": ["Kontaktverwaltung", "Zahlungsverlauf", "Kundennotizen", "Schnelle Rechnungsstellung"] },
-      { "name": "Angebote", "title": "Mehr Aufträge mit Angeboten gewinnen", "description": "Erstellen Sie professionelle Kostenvoranschläge, die überzeugen. Bei Genehmigung wandeln Sie sie mit einem Klick in Rechnungen um.", "features": ["Professionelle Vorlagen", "Ein-Klick-Umwandlung", "Genehmigungsverfolgung", "Eigenes Branding"] },
-      { "name": "Belege", "title": "Nie wieder einen Beleg verlieren", "description": "Fotografieren Sie Belege und lassen Sie uns den Rest erledigen. Automatische Datenextraktion und Organisation für stressfreie Buchführung.", "features": ["Foto-Erfassung", "Auto-Extraktion", "Cloud-Speicher", "Suchen & Filtern"] }
+      {
+        "name": "Rechnungsstellung",
+        "title": "Professionelle Rechnungen, die standhalten — rechtlich und visuell",
+        "description": "Erstellen, versenden und verwalten Sie Rechnungen, die überall dort den Anforderungen der Finanzbehörden entsprechen, wo Ihre Kunden sind. Jede Rechnung ist nummeriert, strukturiert und formatiert, um lokale Vorschriften einzuhalten — und Sie müssen diese Vorschriften nicht kennen, um es richtig zu machen.",
+        "features": [
+          "Jurisdiktionsbewusste Rechnungsformatierung",
+          "Automatische Steuerfeldausfüllung nach Land",
+          "Unveränderliche Aufzeichnungen — Rechnungen können nicht stillschweigend geändert werden",
+          "Mehrwährung mit korrekter Wechselkursverarbeitung",
+          "Automatische Zahlungserinnerungen"
+        ]
+      },
+      {
+        "name": "Zahlungen",
+        "title": "Zahlungen so akzeptieren, wie Sie möchten",
+        "description": "Lassen Sie Kunden direkt von Rechnungen mit Kreditkarten, Banküberweisungen oder digitalen Wallets bezahlen.",
+        "features": [
+          "Kreditkartenverarbeitung",
+          "Banküberweisungen",
+          "Zahlungspläne",
+          "Auto-Abstimmung"
+        ]
+      },
+      {
+        "name": "Ausgaben",
+        "title": "Jede Ausgabe mühelos verfolgen",
+        "description": "Erfassen Sie Belege, kategorisieren Sie Ausgaben automatisch und wissen Sie immer, wohin Ihr Geld fließt.",
+        "features": [
+          "Beleg-Scanning",
+          "Auto-Kategorisierung",
+          "Steuerkategorien",
+          "Ausgabenberichte"
+        ]
+      },
+      {
+        "name": "Buchhaltung",
+        "title": "Buchhaltung ohne Stress",
+        "description": "Verfolgen Sie Einnahmen und Ausgaben, erstellen Sie Finanzberichte und behalten Sie Ihre Geschäftsfinanzen im Blick.",
+        "features": [
+          "Doppelte Buchführung",
+          "Finanzberichte",
+          "Steuervorbereitung",
+          "Bankverbindungen"
+        ]
+      },
+      {
+        "name": "Kunden",
+        "title": "Kunden mühelos verwalten",
+        "description": "Organisieren Sie alle Kundeninformationen an einem Ort. Verfolgen Sie Kontaktdaten, Zahlungsverlauf und offene Salden auf einen Blick.",
+        "features": [
+          "Kontaktverwaltung",
+          "Zahlungsverlauf",
+          "Kundennotizen",
+          "Schnelle Rechnungsstellung"
+        ]
+      },
+      {
+        "name": "Angebote",
+        "title": "Mehr Aufträge mit Angeboten gewinnen",
+        "description": "Erstellen Sie professionelle Kostenvoranschläge, die überzeugen. Bei Genehmigung wandeln Sie sie mit einem Klick in Rechnungen um.",
+        "features": [
+          "Professionelle Vorlagen",
+          "Ein-Klick-Umwandlung",
+          "Genehmigungsverfolgung",
+          "Eigenes Branding"
+        ]
+      },
+      {
+        "name": "Belege",
+        "title": "Nie wieder einen Beleg verlieren",
+        "description": "Fotografieren Sie Belege und lassen Sie uns den Rest erledigen. Automatische Datenextraktion und Organisation für stressfreie Buchführung.",
+        "features": [
+          "Foto-Erfassung",
+          "Auto-Extraktion",
+          "Cloud-Speicher",
+          "Suchen & Filtern"
+        ]
+      }
     ]
   },
   "personas": {
@@ -91,10 +201,22 @@
     "headingAccent": "wie Sie",
     "subtitle": "Ob Sie gerade starten oder skalieren — Invoicemonk hat die Tools, die Sie brauchen.",
     "items": [
-      { "title": "Freiberufler", "description": "Rechnungen an Kunden stellen, Ausgaben verfolgen und schneller bezahlt werden — alles an einem Ort." },
-      { "title": "Berater", "description": "Professionelle Rechnungsstellung mit Compliance-Funktionen, die Ihre Unternehmenskunden erwarten." },
-      { "title": "Kleine Unternehmen", "description": "Wachsen Sie vom Ein-Personen-Betrieb zum vollen Team mit Tools, die mit Ihnen skalieren." },
-      { "title": "Auftragnehmer", "description": "Verwalten Sie mehrere Kunden, verfolgen Sie Projektausgaben und bleiben Sie organisiert." }
+      {
+        "title": "Freiberufler",
+        "description": "Rechnungen an Kunden stellen, Ausgaben verfolgen und schneller bezahlt werden — alles an einem Ort."
+      },
+      {
+        "title": "Berater",
+        "description": "Professionelle Rechnungsstellung mit Compliance-Funktionen, die Ihre Unternehmenskunden erwarten."
+      },
+      {
+        "title": "Kleine Unternehmen",
+        "description": "Wachsen Sie vom Ein-Personen-Betrieb zum vollen Team mit Tools, die mit Ihnen skalieren."
+      },
+      {
+        "title": "Auftragnehmer",
+        "description": "Verwalten Sie mehrere Kunden, verfolgen Sie Projektausgaben und bleiben Sie organisiert."
+      }
     ]
   },
   "blogPreview": {
@@ -106,22 +228,99 @@
     "subtitle": "Tipps, Anleitungen und Einblicke, die Ihnen helfen, Ihr Unternehmen besser zu führen.",
     "viewAll": "Alle Blogbeiträge anzeigen"
   },
+  "freeTools": {
+    "heading": "Kostenlose Tools für",
+    "headingAccent": "Ihr Unternehmen",
+    "subtitle": "Keine Anmeldung erforderlich. Rechnungen erstellen, Gebühren vergleichen, Stundensätze berechnen und Vorlagen herunterladen — alles kostenlos.",
+    "tryIt": "Kostenlos testen",
+    "contextual": "Ob Sie eine professionelle Rechnung erstellen, eine kostenlose Rechnungsvorlage herunterladen, internationale Zahlungsgebühren vergleichen oder Ihren Freelancer-Stundensatz berechnen möchten — die kostenlosen Tools von Invoicemonk haben alles, was Sie brauchen.",
+    "items": [
+      {
+        "name": "Kostenloser Rechnungsgenerator",
+        "description": "Erstellen Sie professionelle Rechnungen mit Steuerfeldern, Logo-Upload und sofortigem PDF-Download. Kein Konto nötig."
+      },
+      {
+        "name": "Rechnungsvorlagen",
+        "description": "6 branchenspezifische Vorlagen für Freiberufler, Auftragnehmer, Berater und E-Commerce-Unternehmen."
+      },
+      {
+        "name": "Zahlungsgebühren-Rechner",
+        "description": "Vergleichen Sie Gebühren bei PayPal, Wise, Payoneer und Banküberweisungen für jeden Betrag und jede Währung."
+      },
+      {
+        "name": "Freelancer-Stundensatzrechner",
+        "description": "Berechnen Sie Ihren idealen Stunden- oder Projektsatz basierend auf Ausgaben, Zielen und abrechenbaren Stunden."
+      },
+      {
+        "name": "PayPal vs Wise Gebühren",
+        "description": "Direkter Gebührenvergleich für internationale Zahlungen. Sehen Sie genau, wie viel Sie sparen."
+      },
+      {
+        "name": "Rechnungsgenerator Australien",
+        "description": "ATO-konforme Rechnungen mit ABN- und GST-Feldern für australische Unternehmen vorkonfiguriert."
+      }
+    ]
+  },
   "faq": {
     "heading": "Häufig gestellte",
     "headingAccent": "Fragen",
     "subtitle": "Alles, was Sie über Invoicemonk wissen müssen. Finden Sie nicht, was Sie suchen? Kontaktieren Sie unser Support-Team.",
     "items": [
-      { "question": "Was ist Invoicemonk?", "answer": "Invoicemonk ist eine All-in-One-Finanzplattform, die kleinen Unternehmen und Freiberuflern bei der Verwaltung von Rechnungen, Ausgaben, Zahlungen und Buchhaltung hilft. Unsere Tools sind einfach, professionell und weltweit steuerkonform." },
-      { "question": "Ist Invoicemonk wirklich kostenlos?", "answer": "Ja! Invoicemonk bietet einen dauerhaft kostenlosen Plan mit 5 Rechnungen und 5 Belegen pro Monat, Kundenverwaltung und einfacher Ausgabenverfolgung. Wir bieten auch Premium-Pläne mit erweiterten Funktionen wie unbegrenzter Rechnungsstellung, Zahlungsabwicklung, detaillierten Berichten und Priority-Support." },
-      { "question": "Wie funktioniert die Rechnungsstellung?", "answer": "Rechnungen mit Invoicemonk zu erstellen ist einfach. Wählen Sie aus professionellen Vorlagen, fügen Sie Ihre Geschäftsdaten und Ihr Logo hinzu, geben Sie die Positionen ein und senden Sie direkt per E-Mail an Ihre Kunden. Sie können verfolgen, wann Rechnungen angesehen und bezahlt werden, und automatische Zahlungserinnerungen einrichten." },
-      { "question": "Wie sicher sind meine Daten?", "answer": "Sicherheit hat bei uns höchste Priorität. Wir verwenden Verschlüsselung auf Bankniveau (256-Bit-SSL) zum Schutz aller Ihrer Daten. Unsere Server befinden sich in sicheren, zertifizierten Rechenzentren, und wir führen regelmäßige Sicherheitsprüfungen durch. Ihre Finanzdaten werden niemals an Dritte weitergegeben." },
-      { "question": "Unterstützt Invoicemonk mehrere Währungen?", "answer": "Ja, Invoicemonk unterstützt Rechnungsstellung und Zahlungen in mehreren Währungen. Das ist perfekt für Unternehmen mit internationalen Kunden. Wechselkurse werden automatisch aktualisiert, und Sie können bevorzugte Währungen für verschiedene Kunden festlegen." },
-      { "question": "Kann ich meine Rechnungen mit meinem Branding anpassen?", "answer": "Ja! Sie können Ihre Rechnungen vollständig mit Ihrem Logo und Ihren Geschäftsinformationen anpassen. Wählen Sie aus mehreren professionellen Vorlagen, um elegante Rechnungen zu erstellen, die Ihre Marke repräsentieren." }
+      {
+        "question": "Was ist Invoicemonk?",
+        "answer": "Invoicemonk ist eine All-in-One-Finanzplattform, die kleinen Unternehmen und Freiberuflern bei der Verwaltung von Rechnungen, Ausgaben, Zahlungen und Buchhaltung hilft. Unsere Tools sind einfach, professionell und weltweit steuerkonform."
+      },
+      {
+        "question": "Ist Invoicemonk wirklich kostenlos?",
+        "answer": "Ja! Invoicemonk bietet einen dauerhaft kostenlosen Plan mit 5 Rechnungen und 5 Belegen pro Monat, Kundenverwaltung und einfacher Ausgabenverfolgung. Wir bieten auch Premium-Pläne mit erweiterten Funktionen wie unbegrenzter Rechnungsstellung, Zahlungsabwicklung, detaillierten Berichten und Priority-Support."
+      },
+      {
+        "question": "Wie funktioniert die Rechnungsstellung?",
+        "answer": "Rechnungen mit Invoicemonk zu erstellen ist einfach. Wählen Sie aus professionellen Vorlagen, fügen Sie Ihre Geschäftsdaten und Ihr Logo hinzu, geben Sie die Positionen ein und senden Sie direkt per E-Mail an Ihre Kunden. Sie können verfolgen, wann Rechnungen angesehen und bezahlt werden, und automatische Zahlungserinnerungen einrichten."
+      },
+      {
+        "question": "Wie sicher sind meine Daten?",
+        "answer": "Sicherheit hat bei uns höchste Priorität. Wir verwenden Verschlüsselung auf Bankniveau (256-Bit-SSL) zum Schutz aller Ihrer Daten. Unsere Server befinden sich in sicheren, zertifizierten Rechenzentren, und wir führen regelmäßige Sicherheitsprüfungen durch. Ihre Finanzdaten werden niemals an Dritte weitergegeben."
+      },
+      {
+        "question": "Unterstützt Invoicemonk mehrere Währungen?",
+        "answer": "Ja, Invoicemonk unterstützt Rechnungsstellung und Zahlungen in mehreren Währungen. Das ist perfekt für Unternehmen mit internationalen Kunden. Wechselkurse werden automatisch aktualisiert, und Sie können bevorzugte Währungen für verschiedene Kunden festlegen."
+      },
+      {
+        "question": "Kann ich meine Rechnungen mit meinem Branding anpassen?",
+        "answer": "Ja! Sie können Ihre Rechnungen vollständig mit Ihrem Logo und Ihren Geschäftsinformationen anpassen. Wählen Sie aus mehreren professionellen Vorlagen, um elegante Rechnungen zu erstellen, die Ihre Marke repräsentieren."
+      }
     ]
   },
   "testimonials": {
     "label": "Kundenstimmen",
     "heading": "Geliebt von",
     "headingSuffix": "Unternehmen"
+  },
+  "toolsHub": {
+    "title": "Kostenlose Tools für Ihr Unternehmen",
+    "subtitle": "Keine Anmeldung erforderlich. Rechnungen erstellen, Gebühren vergleichen, Stundensätze berechnen und Vorlagen herunterladen — alles kostenlos.",
+    "contextual": "Ob Sie eine professionelle Rechnung erstellen, eine kostenlose Rechnungsvorlage herunterladen, internationale Zahlungsgebühren vergleichen oder Ihren Freelancer-Stundensatz berechnen möchten — die kostenlosen Tools von Invoicemonk haben alles, was Sie brauchen.",
+    "faqTitle": "Häufig gestellte Fragen",
+    "seoTitle": "Kostenlose Business-Tools — Rechnungsgenerator, Gebührenrechner & mehr | Invoicemonk",
+    "seoDescription": "Kostenlose Tools für Freiberufler und kleine Unternehmen: Rechnungsgenerator, Rechnungsvorlagen, internationaler Zahlungsgebührenrechner, Freelancer-Honorarrechner und Zahlungsvergleiche. Keine Anmeldung erforderlich.",
+    "faqs": [
+      {
+        "question": "Sind die Invoicemonk-Tools wirklich kostenlos?",
+        "answer": "Ja. Alle auf dieser Seite aufgeführten Tools — einschließlich Rechnungsgenerator, Gebührenrechner und Honorarrechner — sind 100% kostenlos und erfordern keine Anmeldung."
+      },
+      {
+        "question": "Brauche ich ein Konto, um diese Tools zu nutzen?",
+        "answer": "Nein. Jedes Tool funktioniert sofort in Ihrem Browser, ohne ein Konto zu erstellen."
+      },
+      {
+        "question": "Welches Tool sollte ich zuerst verwenden?",
+        "answer": "Beginnen Sie mit dem kostenlosen Rechnungsgenerator, wenn Sie einem Kunden eine Rechnung stellen müssen. Verwenden Sie den Zahlungsgebührenrechner, wenn Sie mit internationalen Kunden arbeiten."
+      },
+      {
+        "question": "Kann ich diese Tools für mein Unternehmen verwenden?",
+        "answer": "Absolut. Diese Tools sind für Freiberufler, Auftragnehmer, Berater und kleine Unternehmen konzipiert."
+      }
+    ]
   }
 }

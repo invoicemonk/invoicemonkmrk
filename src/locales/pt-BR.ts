@@ -12,13 +12,13 @@ export const ptBR: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "Desenvolvido para conformidade brasileira",
-      headline: "Faturas profissionais para",
-      headlineAccent: "empresas brasileiras",
-      subheadline: "Crie faturas compatíveis com Nota Fiscal, acompanhe receitas e mantenha-se em conformidade com a Receita Federal.",
-      cta: "Começar faturamento conforme",
-      secondaryCta: "Veja como funciona",
-      trustBadge: "Utilizado por empresas brasileiras",
+      badge: "FATURAMENTO CONFORME",
+      headline: "Faturamento construído em torno da conformidade.",
+      headlineAccent: "Não adicionado depois.",
+      subheadline: "Invoicemonk é o software de faturamento e contabilidade que mantém freelancers, consultores e pequenas empresas em dia com os impostos, prontos para auditoria e pagos em todos os países onde trabalham.",
+      cta: "Comece grátis — sem cartão",
+      secondaryCta: "Veja como a conformidade funciona →",
+      trustBadge: "Usado por empresas que faturam em mais de 30 países, incluindo o Brasil",
     },
     compliance: {
       authority: "Receita Federal",

@@ -19,6 +19,7 @@ const productKeys = [
 ];
 
 const navLinkKeys = [
+  { key: 'tools', href: '/tools' },
   { key: 'help', href: '/help' },
   { key: 'guides', href: '/guides' },
   { key: 'blog', href: '/blog' },

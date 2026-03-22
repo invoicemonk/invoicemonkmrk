@@ -12,13 +12,13 @@ export const frFR: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "Conçu pour la conformité française",
-      headline: "Factures professionnelles pour",
-      headlineAccent: "les entreprises françaises",
-      subheadline: "Créez des factures conformes à la DGFIP, suivez la TVA et gérez vos finances en toute confiance.",
-      cta: "Commencer la facturation conforme",
-      secondaryCta: "Voir comment ça marche",
-      trustBadge: "Utilisé par les entreprises françaises",
+      badge: "FACTURATION CONFORME",
+      headline: "La facturation conçue autour de la conformité.",
+      headlineAccent: "Pas ajoutée après coup.",
+      subheadline: "Invoicemonk est le logiciel de facturation et de comptabilité qui garde les freelances, consultants et petites entreprises conformes, prêts pour l'audit et payés dans chaque pays où ils travaillent.",
+      cta: "Commencer gratuitement — sans carte",
+      secondaryCta: "Voir comment fonctionne la conformité →",
+      trustBadge: "Utilisé par des entreprises facturant dans plus de 30 pays, dont la France",
     },
     compliance: {
       authority: "DGFIP",

@@ -6,6 +6,7 @@ import { FreelancerRateCalculator } from '@/components/tools/FreelancerRateCalcu
 import { Link } from '@/components/LocalizedLink';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { RelatedTools } from '@/components/tools/RelatedTools';
 
 const faqs = [
   { question: 'How do I calculate my freelance hourly rate?', answer: 'Add your desired annual income + business expenses, divide by (1 − tax rate), add a profit margin, then divide by your total annual billable hours. Our calculator does this automatically.' },
@@ -27,7 +28,7 @@ export default function FreelancerRateCalculatorPage() {
       <FAQSchema items={faqs} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
-        { name: 'Tools', url: '/free-invoice-generator' },
+        { name: 'Tools', url: '/tools' },
         { name: 'Freelancer Rate Calculator', url: '/freelancer-rate-calculator' },
       ]} />
 
@@ -117,6 +118,7 @@ export default function FreelancerRateCalculatorPage() {
               ))}
             </div>
           </section>
+          <RelatedTools currentHref="/freelancer-rate-calculator" />
         </div>
       </section>
     </Layout>

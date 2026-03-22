@@ -9,6 +9,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { HowToSchema } from '@/components/seo/HowToSchema';
+import { RelatedTools } from '@/components/tools/RelatedTools';
 import { useRef } from 'react';
 import { InvoiceForm } from '@/components/invoice-generator/InvoiceForm';
 import { InvoicePreview } from '@/components/invoice-generator/InvoicePreview';
@@ -256,6 +257,12 @@ const FreeInvoiceGeneratorAustralia = () => {
             <li><Link to="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners" className="text-primary hover:underline">5 Essential Elements of an Invoice</Link></li>
             <li><Link to="/invoicing" className="text-primary hover:underline">Invoicemonk — Full Invoicing Platform</Link></li>
           </ul>
+        </div>
+      </section>
+
+      <section className="py-8 lg:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <RelatedTools currentHref="/free-invoice-generator-australia" />
         </div>
       </section>
 

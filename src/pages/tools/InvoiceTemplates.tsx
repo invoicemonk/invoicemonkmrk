@@ -8,6 +8,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, Download, FileText, CheckCircle, Star, Users, Globe, Pencil } from 'lucide-react';
 import { InvoiceTemplatePreview } from '@/components/invoice-templates/InvoiceTemplatePreview';
+import { RelatedTools } from '@/components/tools/RelatedTools';
 import { toast } from '@/hooks/use-toast';
 import { getBuilderForTemplate, getSampleInvoice, Labels } from '@/components/invoice-generator/invoiceTemplateBuilders';
 
@@ -296,16 +297,9 @@ export default function InvoiceTemplates() {
         </div>
       </section>
 
-      {/* Related Tools */}
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
-          <h2 className="text-xl font-semibold text-foreground mb-6">Related Free Tools</h2>
-          <ul className="space-y-3">
-            <li><Link to="/free-invoice-generator" className="text-primary hover:underline">Free Invoice Generator — Create & Download PDF</Link></li>
-            <li><Link to="/freelancer-rate-calculator" className="text-primary hover:underline">Freelancer Rate Calculator — Find Your Ideal Hourly Rate</Link></li>
-            <li><Link to="/international-payment-fee-calculator" className="text-primary hover:underline">International Payment Fee Calculator — Compare Transfer Costs</Link></li>
-            <li><Link to="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template" className="text-primary hover:underline">How to Create the Perfect Invoice Template (Guide)</Link></li>
-          </ul>
+          <RelatedTools currentHref="/invoice-templates" />
         </div>
       </section>
     </Layout>

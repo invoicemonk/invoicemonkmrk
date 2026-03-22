@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight, FileText, Download, Zap, Shield, CheckCircle, BookOpen, Globe } from 'lucide-react';
 import { Link } from '@/components/LocalizedLink';
+import { RelatedTools } from '@/components/tools/RelatedTools';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { useLocale } from '@/hooks/useLocale';
@@ -428,6 +429,11 @@ const FreeInvoiceGenerator = () => {
               </Button>
             </CardContent>
           </Card>
+        </div>
+      </section>
+      <section className="pb-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+          <RelatedTools currentHref="/free-invoice-generator" />
         </div>
       </section>
     </Layout>

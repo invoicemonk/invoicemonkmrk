@@ -218,6 +218,7 @@ export function Footer() {
       { name: t('footer.compliance'), href: '/compliance' },
       { name: t('nav.pricing'), href: '/pricing' },
       { name: t('footer.contact'), href: '/contact' },
+      { name: 'Partner Program', href: '/partner-program' },
     ],
     useCases: [
       { name: t('footer.recurringBilling'), href: '/use-cases/recurring-billing' },

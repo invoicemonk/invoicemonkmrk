@@ -22,6 +22,7 @@ import WhyInvoicemonk from "./pages/WhyInvoicemonk";
 import Compliance from "./pages/Compliance";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import PartnerProgram from "./pages/PartnerProgram";
 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
@@ -90,6 +91,7 @@ import CheapestInternationalPayments from "./pages/tools/CheapestInternationalPa
 import ReceiveCurrencyInCountry from "./pages/tools/ReceiveCurrencyInCountry";
 import InvoiceTemplates from "./pages/tools/InvoiceTemplates";
 import FreelancerRateCalculatorPage from "./pages/tools/FreelancerRateCalculatorPage";
+import ToolsIndex from "./pages/tools/ToolsIndex";
 
 const queryClient = new QueryClient();
 
@@ -124,6 +126,7 @@ const App = () => (
               <Route path="compliance" element={<Compliance />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
+              <Route path="partner-program" element={<PartnerProgram />} />
 
               {/* Legal */}
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
@@ -141,6 +144,7 @@ const App = () => (
               <Route path="blog/author/:authorSlug" element={<AuthorPage />} />
 
               {/* Tools */}
+              <Route path="tools" element={<ToolsIndex />} />
               <Route path="free-invoice-generator" element={<FreeInvoiceGenerator />} />
               <Route path="free-invoice-generator-australia" element={<FreeInvoiceGeneratorAustralia />} />
               <Route path="free-invoice-generator-india" element={<FreeInvoiceGeneratorIndia />} />

@@ -10,8 +10,8 @@ interface PageSEO {
 
 export const pageSEO: Record<string, PageSEO> = {
   '/': {
-    getTitle: (locale) => locale.content.seo.siteTitle,
-    getDescription: (locale) => locale.content.seo.siteDescription,
+    getTitle: (locale) => `Invoicemonk — Invoicing & Accounting Software for ${locale.content.seo.targetAudience} Businesses`,
+    getDescription: (locale) => `Professional invoicing, expense tracking, and accounting in one platform. ${locale.content.seo.complianceKeyword} for ${locale.content.seo.region}. Free tier available — no credit card required.`,
     ogType: 'website',
     priority: 1.0,
     changefreq: 'weekly',

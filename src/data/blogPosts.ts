@@ -247,7 +247,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently">The Importance of Timely Invoicing</a></li>
         <li><a href="/blog/ultimate-guide-getting-paid-faster">The Ultimate Guide to Getting Paid Faster</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'ultimate-guide-getting-paid-faster',
@@ -434,7 +458,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/small-business-accounting-guide">Small Business Accounting Guide</a></li>
         <li><a href="/payments">Accept Online Payments with Invoicemonk</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'small-business-accounting-guide',
@@ -784,7 +832,19 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/best-invoicing-software-freelancers-small-business">Best Invoicing Software Compared</a></li>
         <li><a href="/accounting">Invoicemonk Accounting Tools</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
   },
   {
     slug: 'small-business-tax-compliance-guide',
@@ -1008,7 +1068,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
         <li><a href="/compliance">Tax-Compliant Invoicing with Invoicemonk</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'freelancer-business-guide',
@@ -1197,7 +1281,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/ultimate-guide-getting-paid-faster">Getting Paid Faster Guide</a></li>
         <li><a href="/freelancers">Invoicemonk for Freelancers</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'winning-proposals-estimates-guide',
@@ -1394,7 +1502,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/freelancer-business-guide">Freelancer Business Guide</a></li>
         <li><a href="/estimates">Create Estimates with Invoicemonk</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
 
   // ============================================
@@ -1445,7 +1577,31 @@ export const blogPosts: BlogPost[] = [
       <p>Getting started with Invoicemonk is simple. Sign up for our free tier and start creating professional invoices in minutes. Upgrade when you need more features.</p>
       
       <p>Join thousands of businesses worldwide that trust Invoicemonk for their invoicing and accounting needs.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'small-business-marketing-101-a-guide-to-growth',
@@ -1492,7 +1648,31 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Start Small and Scale</h2>
       <p>You don't need a huge marketing budget to get started. Start with one or two channels, master them, and then expand to others as you grow.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Small_business"
+          },
+          {
+                "name": "Entrepreneurship",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Entrepreneurship"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices \u2014 no signup needed."
+          },
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare international payment fees instantly."
+          }
+    ],
   },
   {
     slug: 'invoicemonk-template-how-to-create-a-perfect-invoice-template',
@@ -1547,7 +1727,31 @@ export const blogPosts: BlogPost[] = [
         <li>Include a thank you note for a personal touch</li>
         <li>Follow up on overdue invoices professionally</li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice"
+          },
+          {
+                "name": "Accounts Receivable",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create a professional invoice in under 2 minutes."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "6 industry-specific templates ready to download."
+          }
+    ],
   },
   {
     slug: 'top-10-lucrative-business-ideas-with-small-capital',
@@ -1598,7 +1802,31 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Getting Started</h2>
       <p>Whichever business you choose, start small, learn as you go, and reinvest your profits. Use tools like <a href="/invoicing">Invoicemonk</a> to manage your finances professionally from day one.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'top-10-freelance-websites',
@@ -1657,7 +1885,31 @@ export const blogPosts: BlogPost[] = [
         <li>Communicate professionally with clients</li>
         <li>Use <a href="/freelancers">Invoicemonk</a> to manage your freelance finances</li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'impact-of-fintech-on-business-growth',
@@ -1703,7 +1955,31 @@ export const blogPosts: BlogPost[] = [
       <p>The FinTech sector is expected to continue growing, with innovations in areas like blockchain, artificial intelligence, and open banking creating new possibilities for businesses.</p>
       
       <p>Businesses that embrace these technologies early will be well-positioned for growth in the digital economy.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners',
@@ -1890,7 +2166,31 @@ export const blogPosts: BlogPost[] = [
       { question: 'What invoice elements are required for tax compliance?', answer: 'Tax compliance requirements vary by country. Common requirements include: your tax registration number (TIN, ABN, GSTIN, VAT number), the tax rate applied, tax amounts broken down by type, the words "Tax Invoice" (required in Australia and some other countries), and HSN/SAC codes for goods and services in India.' },
       { question: 'What happens if my invoice is missing required elements?', answer: "An incomplete invoice can be rejected by the client's accounts payable department, delay payment while details are clarified, fail tax authority requirements (especially for input tax credit claims), and create audit issues. In India, invoices without proper GSTIN and HSN codes are invalid for GST input credit." },
       { question: 'Should I include payment terms on every invoice?', answer: 'Yes. Always specify your payment terms (Net 15, Net 30, Due on Receipt) and the exact due date on every invoice. Invoices with clear due dates get paid an average of 8 days faster than those without. Also include accepted payment methods and bank details so clients can pay immediately.' }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice"
+          },
+          {
+                "name": "Accounts Receivable",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create a professional invoice in under 2 minutes."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "6 industry-specific templates ready to download."
+          }
+    ],
   },
   {
     slug: 'the-importance-of-invoicing-timely-and-how-to-do-it-efficiently',
@@ -1950,7 +2250,31 @@ export const blogPosts: BlogPost[] = [
         <li>Follow up promptly on overdue invoices</li>
         <li>Keep records of all invoices and payments</li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice"
+          },
+          {
+                "name": "Accounts Receivable",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create a professional invoice in under 2 minutes."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "6 industry-specific templates ready to download."
+          }
+    ],
   },
   {
     slug: 'savings-and-investment-on-alat-how-it-works',
@@ -2009,7 +2333,31 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <p>Combine smart savings habits with efficient business management using tools like <a href="/expenses">Invoicemonk expense tracking</a> for comprehensive financial wellness.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'the-basics-of-small-business-accounting',
@@ -2074,7 +2422,31 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Getting Started</h2>
       <p>Start with the basics: open a business bank account, track all transactions, and use software to automate where possible. Invoicemonk can help you manage invoicing and track payments efficiently.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'how-to-create-a-budget-for-your-small-business',
@@ -2145,7 +2517,31 @@ export const blogPosts: BlogPost[] = [
       <p>A budget is only useful if you use it. Review your actual performance against your budget monthly and adjust as circumstances change.</p>
       
       <p>Use tools like <a href="/expenses">Invoicemonk</a> to track income and expenses, making budget monitoring easier.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'how-to-become-a-good-graphic-designer',
@@ -2208,7 +2604,31 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Business Skills Matter</h2>
       <p>As a freelance designer, you'll need business skills too. Use tools like <a href="/freelancers">Invoicemonk</a> to manage client billing professionally.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'the-10-best-personal-finance-blogs',
@@ -2319,7 +2739,19 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/simple-accounting-for-small-business-beginners">Simple Accounting for Small Business Beginners</a></li>
         <li><a href="/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting for Freelancers</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
   }
 ,
   // ============================================
@@ -2427,7 +2859,31 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Next Steps</h2>
       <p>Implement these strategies systematically with <a href="/invoicing">invoicing software</a> that tracks payment status and automates reminders. For more on improving your payment collection overall, see our <a href="/blog/ultimate-guide-getting-paid-faster">complete guide to getting paid faster</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'online-payment-methods-comparison-small-business',
@@ -2551,7 +3007,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Integrating Payment Methods with Your Invoicing</h2>
       <p>The real magic happens when payment methods are built into your invoices. With <a href="/payments">integrated payment solutions</a>, clients can pay directly from the invoice email—no separate steps, no forgotten payments.</p>
       <p>For a complete strategy on accelerating payments, see our <a href="/blog/ultimate-guide-getting-paid-faster">guide to getting paid faster</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   // ============================================
   // NEW CLUSTER POSTS - Tax & Compliance
@@ -2679,7 +3159,31 @@ export const blogPosts: BlogPost[] = [
         <li>Maintain records for audit defense</li>
       </ul>
       <p>For comprehensive guidance on staying audit-ready, see our <a href="/blog/small-business-tax-compliance-guide">tax compliance guide</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'how-to-prepare-business-tax-audit',
@@ -2793,7 +3297,31 @@ export const blogPosts: BlogPost[] = [
         <li>Review your tax return before filing—look for red flags yourself</li>
       </ul>
       <p>For more on maintaining compliance year-round, see our <a href="/blog/small-business-tax-compliance-guide">comprehensive tax compliance guide</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   // ============================================
   // NEW CLUSTER POSTS - Estimates & Proposals
@@ -2892,7 +3420,31 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Next Steps</h2>
       <p>Start improving your proposals today. For more on the relationship between proposals, quotes, and invoices, see our guide on <a href="/blog/estimate-vs-quote-vs-invoice-difference">understanding estimates, quotes, and invoices</a>. For the complete picture on winning and managing client work, visit our <a href="/blog/winning-proposals-estimates-guide">proposals and estimates guide</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   {
     slug: 'estimate-vs-quote-vs-invoice-difference',
@@ -2993,7 +3545,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Using Software to Manage the Flow</h2>
       <p><a href="/estimates">Estimate and proposal tools</a> that convert to invoices with a click save time and ensure consistency. When your estimate becomes a quote becomes an invoice, the information flows through automatically—no retyping, no errors.</p>
       <p>For more on winning clients with professional proposals, see our <a href="/blog/winning-proposals-estimates-guide">complete proposals and estimates guide</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   // ============================================
   // COUNTRY-SPECIFIC COMPLIANCE GUIDES
@@ -3128,7 +3704,31 @@ export const blogPosts: BlogPost[] = [
 
       <h3>What happens if I make a mistake on an invoice?</h3>
       <p>Issue a credit note to cancel the incorrect invoice and create a new, correct invoice. Never delete or alter issued invoices—this is a compliance violation.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'hmrc-invoicing-rules-uk-mtd-compliance',
@@ -3280,7 +3880,31 @@ export const blogPosts: BlogPost[] = [
 
       <h3>How quickly must I issue invoices?</h3>
       <p>VAT invoices must be issued within 30 days of the date of supply or payment (whichever is earlier).</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'irs-invoice-requirements-us-compliance',
@@ -3430,7 +4054,31 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Can I use digital invoices and receipts?</h3>
       <p>Yes, the IRS accepts electronic records as long as they're accurate, complete, and readily accessible.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'cra-invoice-standards-canadian-compliance',
@@ -3598,7 +4246,31 @@ export const blogPosts: BlogPost[] = [
 
       <h3>How often do I file GST/HST returns?</h3>
       <p>Filing frequency depends on revenue: annual (under $1.5M), quarterly ($1.5M-$6M), or monthly (over $6M). You can elect a shorter period.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'ato-invoice-requirements-australian-compliance',
@@ -3789,7 +4461,31 @@ export const blogPosts: BlogPost[] = [
       { question: 'What must be on an Australian tax invoice?', answer: 'An ATO-compliant tax invoice must include: the words "tax invoice", your ABN, your business name, the invoice date, a description of items, the GST amount, and the total price including GST.' },
       { question: 'How long must I keep tax invoices in Australia?', answer: 'The ATO requires you to keep tax invoices and business records for at least 5 years from when the record was prepared or the transaction completed.' },
       { question: 'What is the difference between a receipt and a tax invoice in Australia?', answer: 'A receipt acknowledges payment has been made. A tax invoice is a document that allows GST-registered buyers to claim input tax credits. Only GST-registered businesses can issue tax invoices.' },
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   // ============================================
   // GRA GHANA COMPLIANCE GUIDE
@@ -4427,7 +5123,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Next Steps</h2>
       <p>If you're currently using an informal numbering system (or no system at all), now is the time to implement one properly. Choose a format that fits your business, document your rules, and stick to them consistently. Your future self—and your accountant—will thank you.</p>
       <p>For more on creating professional invoices, see our guide to <a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">essential invoice elements</a> and learn <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">how to create perfect invoice templates</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'how-to-write-invoice-payment-terms',
@@ -4567,7 +5287,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Next Steps</h2>
       <p>Review your current payment terms. Are they clear, specific, and appropriate for your business? If you're experiencing late payments, your terms might be part of the problem.</p>
       <p>For more on getting paid faster, see our <a href="/blog/ultimate-guide-getting-paid-faster">ultimate guide to getting paid faster</a> and learn about <a href="/blog/payment-reminder-email-templates">effective payment reminder templates</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'recurring-invoices-automating-billing',
@@ -4682,7 +5426,19 @@ export const blogPosts: BlogPost[] = [
       <h2>Getting Started with Recurring Invoices</h2>
       <p>Ready to automate your billing? <a href="/invoicing">Invoicemonk</a> makes setting up recurring invoices simple. Create your template, set your schedule, and let the system handle the rest while you focus on serving your clients.</p>
       <p>For more invoicing best practices, see our guides on <a href="/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently">timely invoicing</a> and <a href="/blog/how-to-write-invoice-payment-terms">writing effective payment terms</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice"
+          },
+          {
+                "name": "Accounts Receivable",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+          }
+    ],
   },
   {
     slug: 'invoice-disputes-how-to-handle-professionally',
@@ -4795,7 +5551,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
         <li><a href="/invoicing">Invoicemonk Invoicing Features</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'credit-notes-and-invoice-corrections',
@@ -4925,7 +5705,19 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">Essential Elements of an Invoice</a></li>
         <li><a href="/invoicing">Invoicemonk Invoicing Features</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
   },
   // ============================================
   // ADDITIONAL CLUSTER POSTS - GETTING PAID
@@ -5215,7 +6007,31 @@ export const blogPosts: BlogPost[] = [
       { question: 'Should I charge interest on late payments?', answer: 'Yes, if it is specified in your contract and original invoice. Late payment interest encourages timely payment and compensates you for the cost of delayed cash flow. Common rates are 1-2% per month. In the UK, the Late Payment of Commercial Debts Act gives you a statutory right to charge interest on B2B invoices even without a contract clause.' },
       { question: 'When should I hire a collection agency?', answer: 'Consider a collection agency after 60-90 days of non-payment with no response to your reminders. Collection agencies typically charge 25-50% of the recovered amount. Before engaging one, send a formal demand letter and make one final phone call — many clients pay once they hear the word "collections." For smaller amounts, small claims court may be more cost-effective.' },
       { question: 'Can I send payment reminders by text message?', answer: 'Yes, but only to clients who have explicitly opted in to receiving SMS communications from you. Text messages have a 98% open rate and can be very effective for payment reminders. Always comply with local regulations: TCPA in the US, GDPR in the EU/UK, POPIA in South Africa, and similar laws in your jurisdiction. Include an opt-out option in every message.' },
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'early-payment-discounts-do-they-work',
@@ -5303,7 +6119,31 @@ export const blogPosts: BlogPost[] = [
       { question: 'What does 2/10 Net 30 mean?', answer: '2/10 Net 30 means the client gets a 2% discount if they pay within 10 days; otherwise, the full amount is due in 30 days. Other common variations include 1/10 Net 30 (1% discount) and 3/10 Net 60 (3% discount, 60-day terms).' },
       { question: 'How do I calculate the true cost of an early payment discount?', answer: 'Use this formula: (Discount % ÷ (1 - Discount %)) × (365 ÷ (Full payment days - Discount days)). For 2/10 Net 30: (0.02 ÷ 0.98) × (365 ÷ 20) = 37.2% annualized cost. Compare this to your cost of capital to decide if it makes financial sense.' },
       { question: 'What are alternatives to early payment discounts?', answer: 'Five effective alternatives: (1) shorter payment terms (Net 15 instead of Net 30), (2) requiring 30-50% deposits upfront, (3) automatic payment reminders, (4) offering multiple easy payment methods (card, bank transfer, online), and (5) late payment fees that penalize lateness instead of rewarding earliness.' },
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'cash-flow-forecasting-for-freelancers',
@@ -5428,7 +6268,31 @@ export const blogPosts: BlogPost[] = [
       { question: 'What is a cash flow forecast?', answer: 'A cash flow forecast is a projection of your future income and expenses over a specific period (usually 3-6 months). It shows when cash will arrive and when bills are due, helping you anticipate shortfalls before they become emergencies.' },
       { question: 'How often should I update my cash flow forecast?', answer: 'Weekly is ideal for freelancers. Record actual income received, add new expected payments, adjust for delayed payments, and add new expenses. Compare your forecast to reality and adjust assumptions if you\'re consistently off.' },
       { question: 'What should I do when my forecast shows a cash shortfall?', answer: 'Take action early: send invoices immediately for completed work, follow up on overdue payments, offer early payment discounts on large outstanding invoices, take on short-term projects with fast payment terms, access a credit line proactively, and reduce discretionary spending temporarily.' },
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   // ============================================
   // ADDITIONAL CLUSTER POSTS - BUSINESS FINANCES
@@ -5541,7 +6405,31 @@ export const blogPosts: BlogPost[] = [
       { question: 'Which accounting method should a small business use?', answer: 'Most small businesses and freelancers should start with cash accounting for its simplicity. Switch to accrual when you exceed revenue thresholds (e.g., $25M in the US), need GAAP-compliant reports for investors or lenders, or want more accurate period-by-period financial insights.' },
       { question: 'Can I switch from cash to accrual accounting?', answer: 'Yes, but it requires careful planning. You may need tax authority approval, transition adjustment calculations, and careful timing to minimise tax impact. Consider starting with accrual if you anticipate needing it later, to avoid the complexity of switching.' },
       { question: 'Is cash or accrual accounting better for taxes?', answer: 'Cash accounting gives more control over tax timing — you can defer income by delaying invoicing or accelerate deductions by prepaying expenses before year-end. Accrual may result in paying tax on income you haven\'t yet received. However, larger businesses may be required to use accrual regardless.' },
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'profit-margins-how-to-calculate-and-improve',
@@ -5646,7 +6534,31 @@ export const blogPosts: BlogPost[] = [
       { question: 'How do I calculate profit margin?', answer: 'Gross margin: (Revenue - Cost of Goods Sold) ÷ Revenue × 100. Net margin: Net Income ÷ Revenue × 100. For example, $100,000 revenue with $60,000 COGS gives a 40% gross margin. After $25,000 operating expenses and $5,000 in taxes, net margin is 10%.' },
       { question: 'How can I improve my profit margins?', answer: 'Six strategies: (1) raise prices strategically, (2) reduce cost of goods by negotiating with suppliers, (3) cut overhead and eliminate underperforming expenses, (4) focus on higher-margin products or services, (5) improve operational efficiency to reduce waste, and (6) upsell and cross-sell to existing clients.' },
       { question: 'What is the difference between gross and net profit margin?', answer: 'Gross margin measures profitability after direct costs (COGS) only — it shows how efficiently you deliver your product or service. Net margin is the bottom line after all expenses including overhead, taxes, and interest. You can have strong gross margins but poor net margins if overhead is too high.' },
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   // ============================================
   // ADDITIONAL CLUSTER POSTS - FREELANCER SUCCESS
@@ -5787,7 +6699,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Next Steps</h2>
       <p>Create a template contract with all essential elements, then customize it for each client. Review and update annually as your business evolves. For complex or high-value projects, consider having an attorney review your template.</p>
       <p>For more on running a successful freelance business, see our guides on <a href="/blog/pricing-your-freelance-services">pricing your services</a> and <a href="/blog/freelancer-business-guide">building a freelance business</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'pricing-your-freelance-services',
@@ -5903,7 +6839,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Next Steps</h2>
       <p>Calculate your minimum rate using the formula above. Research market rates in your niche. Increase your rates with your next new client. Track your time to understand your true effective rate.</p>
       <p>For more freelance business strategies, see our guides on <a href="/blog/freelance-contract-templates">contract templates</a> and <a href="/blog/freelance-time-tracking-guide">time tracking</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   {
     slug: 'freelance-time-tracking-guide',
@@ -5997,7 +6957,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Next Steps</h2>
       <p>Choose a time tracking tool and commit to using it for one month. At month's end, review your data: What surprised you? What's your actual hourly rate? Where can you improve?</p>
       <p>For more on freelance business optimization, see our guides on <a href="/blog/pricing-your-freelance-services">pricing your services</a> and <a href="/blog/cash-flow-forecasting-for-freelancers">cash flow forecasting</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   // ============================================
   // ADDITIONAL CLUSTER POSTS - ESTIMATES & PROPOSALS
@@ -6081,7 +7065,31 @@ export const blogPosts: BlogPost[] = [
       <h2>Next Steps</h2>
       <p>Create your follow-up templates now so you're ready when you send your next proposal. Set up a reminder system. Track your close rates before and after implementing consistent follow-up.</p>
       <p>For more on winning work, see our guide on <a href="/blog/how-to-price-project-work">pricing project work</a> and handling <a href="/blog/proposal-rejection-next-steps">proposal rejection</a>.</p>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   {
     slug: 'proposal-rejection-next-steps',
@@ -6200,7 +7208,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/following-up-on-proposals">Following Up on Proposals Effectively</a></li>
         <li><a href="/estimates">Invoicemonk Estimates and Proposals</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   {
     slug: 'how-to-price-project-work',
@@ -6313,7 +7345,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/proposal-rejection-next-steps">Handling Proposal Rejection</a></li>
         <li><a href="/estimates">Invoicemonk Estimates and Proposals</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   // ============================================
   // NEW SEO-OPTIMIZED CLUSTER POSTS - Business Finances
@@ -6473,7 +7529,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/how-to-create-a-budget-for-your-small-business">How to Create a Budget for Your Small Business</a></li>
         <li><a href="/accounting">Get Started with Invoicemonk Accounting</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'how-to-do-accounting-small-business-step-by-step',
@@ -6714,7 +7794,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
         <li><a href="/accounting">Invoicemonk Accounting Tools</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'small-business-accounting-for-owners',
@@ -6946,7 +8050,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
         <li><a href="/blog/profit-margins-how-to-calculate-and-improve">How to Calculate and Improve Profit Margins</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   // ============================================
   // MISSING CLUSTER ARTICLES - Business Finances
@@ -7138,7 +8266,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
         <li><a href="/accounting">Invoicemonk Accounting Features</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'financial-reports-every-business-needs',
@@ -7328,7 +8480,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/cash-vs-accrual-accounting-explained">Cash vs Accrual Accounting Explained</a></li>
         <li><a href="/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Small_business"
+          },
+          {
+                "name": "Entrepreneurship",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Entrepreneurship"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices \u2014 no signup needed."
+          },
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare international payment fees instantly."
+          }
+    ],
   },
   {
     slug: 'monthly-financial-review-checklist',
@@ -7530,7 +8706,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
         <li><a href="/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'business-bank-account-vs-personal',
@@ -7745,7 +8945,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
         <li><a href="/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Small Business Accounting",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounting"
+          },
+          {
+                "name": "Financial Statement",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'year-end-financial-preparation',
@@ -8030,7 +9254,31 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/blog/quarterly-tax-payment-guide">Quarterly Tax Payment Guide</a></li>
         <li><a href="/blog/small-business-tax-deductions-guide">Small Business Tax Deductions Guide</a></li>
       </ul>
-    `
+    `,
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   // ============================================
   // NEW MONTH 1 CONTENT (February 2026)
@@ -8385,7 +9633,31 @@ Thank you for your business!
         question: "Do I need to charge VAT or GST on my invoices?",
         answer: "This depends on your country and revenue threshold. In the UK, VAT registration is required above £85,000 turnover. In Australia, GST applies above $75,000. In India, GST registration thresholds vary by state. In the US, sales tax varies by state. If you're below the threshold and not voluntarily registered, you typically cannot charge VAT/GST."
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'invoice-mistakes-that-cost-you-money',
@@ -8614,7 +9886,31 @@ Thank you for your business!
         question: "How can I reduce invoice errors that hurt my cash flow?",
         answer: "Use a pre-send checklist covering: correct client details, unique invoice number, specific due date, itemized descriptions, accurate calculations, tax compliance, and clear payment instructions. Invoicing software automates many of these checks."
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   // ============================================
   // NEW CLUSTER ARTICLES — Invoicing Mastery
@@ -8752,7 +10048,31 @@ Thank you for your business!
         question: 'Do I need to keep paper copies if I use digital invoicing?',
         answer: 'In most jurisdictions, no. Digital records are sufficient for tax purposes as long as they are properly stored, backed up, and accessible for the required retention period (typically 5–7 years). Check your local tax authority requirements to be sure.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice"
+          },
+          {
+                "name": "Accounts Receivable",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create a professional invoice in under 2 minutes."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "6 industry-specific templates ready to download."
+          }
+    ],
   },
   {
     slug: 'invoice-design-professional-branding-tips',
@@ -8889,7 +10209,31 @@ Thank you for your business!
         question: 'What colours should I use on my invoice?',
         answer: 'Use your brand colours consistently, limiting to 2–3 colours total. Use your primary brand colour for headers and accents, dark text for readability, and make the total amount stand out with a bold accent colour. Avoid overly bright or hard-to-read colour combinations.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice"
+          },
+          {
+                "name": "Accounts Receivable",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create a professional invoice in under 2 minutes."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "6 industry-specific templates ready to download."
+          }
+    ],
   },
   {
     slug: 'proforma-invoice-vs-commercial-invoice',
@@ -9017,7 +10361,31 @@ Thank you for your business!
         question: 'What happens if my proforma and commercial invoice amounts differ?',
         answer: 'Minor differences due to exchange rates or final adjustments are normal, but significant discrepancies can cause customs delays and client disputes. Always communicate changes to the buyer before issuing the commercial invoice, and reference the original proforma number.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice"
+          },
+          {
+                "name": "Accounts Receivable",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create a professional invoice in under 2 minutes."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "6 industry-specific templates ready to download."
+          }
+    ],
   },
   // ============================================
   // NEW CLUSTER ARTICLES — Getting Paid
@@ -9131,7 +10499,31 @@ Thank you for your business!
         question: 'Will automatic payment reminders annoy my clients?',
         answer: 'Professional, well-timed reminders are generally appreciated—clients are busy and often simply forget. The key is tone: keep early reminders friendly and helpful, include the invoice for easy reference, and always provide a direct payment link. Most clients prefer a polite reminder over an awkward phone call.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'payment-terms-comparison-net-30-vs-net-15',
@@ -9251,7 +10643,31 @@ Thank you for your business!
         question: 'Can I change my payment terms for existing clients?',
         answer: 'Yes, but do it professionally. Give clients advance notice (at least one billing cycle), explain the reason, and apply the change to new invoices going forward. Consider offering an early payment discount to soften the transition. Put the updated terms in writing.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'mobile-payment-options-for-small-business',
@@ -9358,7 +10774,31 @@ Thank you for your business!
         question: 'Do I need special hardware to accept mobile payments?',
         answer: 'Not necessarily. QR code payments and invoice-based mobile payments require no hardware—just a smartphone. For contactless card payments (Apple Pay, Google Pay), you need an mPOS reader ($0–$59). Some newer smartphones can accept tap-to-pay directly without additional hardware.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'international-payment-fees-explained',
@@ -9471,7 +10911,19 @@ Thank you for your business!
         question: 'Should I invoice international clients in my currency or theirs?',
         answer: 'Invoicing in your client\'s local currency is often better. The client sees a clear amount with no surprise fees, making them more likely to pay promptly. You then control when to convert the received funds, potentially getting better exchange rates by timing the conversion or batching multiple conversions together.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "International Payment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
+          },
+          {
+                "name": "Foreign Exchange",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
+          }
+    ],
   },
   // ============================================
   // NEW CLUSTER ARTICLES — Tax Compliance
@@ -9591,7 +11043,31 @@ Thank you for your business!
         question: 'How much should I set aside for quarterly taxes?',
         answer: 'A general rule is to set aside 25–30% of your net business income for taxes. This covers both income tax and self-employment tax. The exact percentage depends on your tax bracket, deductions, and country. Open a separate savings account and transfer the percentage from every client payment you receive.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'business-tax-calendar-by-country',
@@ -9705,7 +11181,31 @@ Thank you for your business!
         question: 'Do tax deadlines change if they fall on a weekend or holiday?',
         answer: 'Yes, in most countries. If a deadline falls on a weekend or public holiday, it typically moves to the next business day. However, it is best practice to plan for the original date to avoid last-minute surprises. Check your specific tax authority for confirmation.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'business-record-keeping-requirements',
@@ -9832,7 +11332,31 @@ Thank you for your business!
         question: 'Can I keep digital copies instead of paper originals?',
         answer: 'Yes, most tax authorities accept digital records including scanned receipts, digital invoices, and electronic bank statements. The key requirements are that records must be readable, complete, secure, and backed up. Always check your specific tax authority guidelines, as some documents may require original copies in certain situations.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'tax-software-integration-guide',
@@ -9956,7 +11480,31 @@ Thank you for your business!
         question: 'Do I need separate software for invoicing, accounting, and taxes?',
         answer: 'Not necessarily. All-in-one platforms like Invoicemonk combine invoicing and accounting in one system, reducing the need for multiple tools. However, you may still need dedicated tax preparation software for filing returns. The key is ensuring whatever tools you use can share data seamlessly through integrations.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   // ============================================
   // NEW CLUSTER ARTICLES — Freelancer Success
@@ -10056,7 +11604,31 @@ Thank you for your business!
         question: 'Should I start on freelance platforms or find clients independently?',
         answer: 'Do both simultaneously. Freelance platforms provide quick access to clients actively looking for help, while independent outreach and networking build longer-term, higher-value relationships. Start with platforms to generate income and reviews, then gradually transition to direct clients who typically pay higher rates.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Tax Invoice",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Invoice#Tax_invoice"
+          },
+          {
+                "name": "Tax Compliance",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Tax_compliance"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'freelance-portfolio-best-practices',
@@ -10161,7 +11733,31 @@ Thank you for your business!
         question: 'What should I do if I have no client work for my portfolio?',
         answer: 'Create sample projects that demonstrate your skills: personal projects, pro bono work for charities, redesign challenges of existing products, or polished course projects. The key is showing your abilities through real-quality work. Replace these with actual client work as soon as possible.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'managing-multiple-clients-efficiently',
@@ -10279,7 +11875,31 @@ Thank you for your business!
         question: 'How do I prevent dropping balls when managing multiple clients?',
         answer: 'Use a centralised project management tool with one board per client, set due dates on every task, and implement time blocking to dedicate specific hours to each client. Send weekly status updates to each client, and leave 20% of your schedule unallocated for urgent requests. The key is having systems rather than relying on memory.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'when-to-hire-help-as-a-freelancer',
@@ -10399,7 +12019,31 @@ Thank you for your business!
         question: 'What should a freelancer delegate first?',
         answer: 'Start with time-consuming, low-skill, repeatable tasks: invoicing and payment follow-ups (automate with software first), email management, scheduling, social media, basic bookkeeping, and research. These tasks are easy to document, train for, and hand off, giving you immediate time savings for high-value billable work.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Freelancing",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Freelancer"
+          },
+          {
+                "name": "Self-Employment",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Self-employment"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   // ============================================
   // NEW CLUSTER ARTICLES — Estimates & Proposals
@@ -10516,7 +12160,31 @@ Thank you for your business!
         question: 'Should I send an estimate or a quote to a new client?',
         answer: 'For new clients, start with an estimate if the scope is not fully defined, or a proposal if you need to explain your approach. Move to a formal quote once the scope is agreed upon. Sending a binding quote too early—before you fully understand the project—risks underpricing or scope creep.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   {
     slug: 'winning-proposal-templates-by-industry',
@@ -10639,7 +12307,31 @@ Thank you for your business!
         question: 'Should I use the same proposal template for every client?',
         answer: 'No. While having a base template saves time, every proposal should be customised for the specific client and industry. Customise the executive summary, case studies, terminology, and approach to show you understand their unique situation. Generic proposals signal that you treat every client the same way.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Business Proposal",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Business_proposal"
+          },
+          {
+                "name": "Price Quotation",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Quotation_(commerce)"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Convert accepted estimates into invoices instantly."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Professional templates for every industry."
+          }
+    ],
   },
   {
     slug: 'document-types-comparison-business',
@@ -10758,7 +12450,31 @@ Thank you for your business!
         question: 'Do I need a purchase order for every business transaction?',
         answer: 'Not necessarily. Purchase orders are most common in corporate procurement, government purchasing, and manufacturing where formal authorisation is needed before spending. Small businesses and freelancers typically skip POs for routine purchases and use them only for large orders or when required by the client\'s procurement process.'
       }
-    ]
+    ],
+    entityMentions: [
+          {
+                "name": "Expense Management",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Expense_management"
+          },
+          {
+                "name": "Receipt",
+                "type": "Thing",
+                "sameAs": "https://en.wikipedia.org/wiki/Receipt"
+          }
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Track and compare payment costs as a business expense."
+          },
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Factor expenses into your rate calculation."
+          }
+    ],
   },
 
   // ============================================
@@ -10892,7 +12608,19 @@ Thank you for your business!
       { question: 'How long should I keep expense receipts?', answer: 'Keep expense records for at least 5–7 years depending on your tax jurisdiction. The IRS requires 3–7 years, HMRC requires 5 years, and FIRS requires 6 years. Digital copies are accepted by all major tax authorities.' },
       { question: 'Are digital receipts accepted by the IRS?', answer: 'Yes. The IRS accepts digital copies of receipts as valid documentation, provided the image is legible and accurately represents the original. Many other tax authorities including HMRC, CRA, ATO, and FIRS also accept digital records.' },
       { question: 'What business expenses are tax deductible?', answer: 'Most ordinary and necessary business expenses are deductible, including office supplies, software subscriptions, travel, professional services, insurance, marketing, and home office costs. The key requirement is that the expense must be directly related to your business operations.' }
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'expense-tracking-methods-small-business',
@@ -11023,7 +12751,19 @@ Thank you for your business!
       </ul>
       <p>Most small businesses get the best results from Method 3 (<a href="/expenses">expense tracking apps</a>) combined with Method 5 (bank feeds). This gives you real-time capture, automatic categorization, cloud-stored receipts, and complete transaction coverage.</p>
       <p>For the full picture on managing expenses, see our <a href="/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
-    `
+    `,
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Track and compare payment costs as a business expense."
+          },
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Factor expenses into your rate calculation."
+          }
+    ],
   },
   {
     slug: 'digital-receipt-management-guide',
@@ -11130,7 +12870,19 @@ Thank you for your business!
       { question: 'What is the best way to organize digital receipts?', answer: 'Use a dedicated receipt management app that auto-categorizes by vendor and expense type. If organizing manually, use a date-vendor-amount naming convention (e.g., 2026-03-14-officedepot-47.99) and store in cloud folders organized by month or category. Cross-reference against bank statements monthly.' },
       { question: 'Can I throw away paper receipts after scanning them?', answer: 'Most tax authorities allow you to discard paper originals once you have a legible digital copy. However, keep paper originals for 30 days after scanning as a safety net, and ensure your digital copies are backed up to cloud storage with automatic sync.' },
       { question: 'How do I handle receipts in foreign currencies?', answer: 'Photograph the receipt immediately, noting the exchange rate used. Your bank or credit card statement will show the converted amount in your home currency — this is typically the amount you claim for tax purposes. Receipt scanning apps with multi-currency support can extract amounts in different currencies automatically.' }
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Track and compare payment costs as a business expense."
+          },
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Factor expenses into your rate calculation."
+          }
+    ],
   },
   {
     slug: 'business-expense-categories-guide',
@@ -11228,7 +12980,19 @@ Thank you for your business!
       <h2>Automating Categorization</h2>
       <p><a href="/expenses">Invoicemonk's expense tracking</a> learns from your categorization patterns. After you categorize a vendor once, future transactions from that vendor are automatically suggested with the same category. This saves time and ensures consistency across your records.</p>
       <p>For the complete picture on managing expenses, see our <a href="/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
-    `
+    `,
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Track and compare payment costs as a business expense."
+          },
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Factor expenses into your rate calculation."
+          }
+    ],
   },
   {
     slug: 'receipt-scanning-apps-comparison',
@@ -11365,7 +13129,19 @@ Thank you for your business!
       { question: 'Can receipt scanning apps read faded or crumpled receipts?', answer: 'Most apps struggle with heavily faded thermal receipts or badly crumpled paper. OCR accuracy drops to 60-70% in these conditions. The best practice is to scan receipts immediately — thermal paper starts fading within weeks. For already-faded receipts, try photographing under strong, even lighting on a high-contrast surface.' },
       { question: 'How long should I keep scanned receipts for tax purposes?', answer: 'Retention periods vary by country: 3 years in the US (IRS), 5 years in the UK (HMRC), 5 years in Australia (ATO), 6 years in Canada (CRA), and 6 years in Nigeria (FIRS). Keep your digital receipt archive for the longest applicable period.' },
       { question: 'Do I need a separate receipt scanning app if I use QuickBooks or Xero?', answer: 'QuickBooks and Xero both offer built-in receipt capture, but their OCR accuracy is often lower than dedicated solutions. If you find their built-in scanning misreads amounts frequently, a dedicated app with export capability may be worth adding to your workflow.' }
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Track and compare payment costs as a business expense."
+          },
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Factor expenses into your rate calculation."
+          }
+    ],
   },
   {
     slug: 'separate-business-personal-expenses',
@@ -11433,7 +13209,19 @@ Thank you for your business!
       { question: 'How do I separate business and personal finances?', answer: 'Five steps: open a dedicated business bank account, get a business credit card, pay yourself a regular salary or draw, handle edge cases by reimbursing yourself from the business account with documented memos, and use expense tracking software to automatically categorize transactions.' },
       { question: 'What happens if I mix business and personal expenses?', answer: 'Commingling can result in lost tax deductions (you can\'t prove which expenses were business-related), pierced corporate veil (personal liability for business debts), inaccurate financial reporting, and significantly more time and cost at tax season trying to untangle transactions.' },
       { question: 'Can I use my personal bank account for business?', answer: 'Technically yes as a sole proprietor, but it\'s strongly advised against. A separate business account costs little ($0-$15/month) and provides massive benefits: cleaner taxes, legal protection, professional appearance, and easier bookkeeping. It\'s the single most impactful financial step for new businesses.' },
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Track and compare payment costs as a business expense."
+          },
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Factor expenses into your rate calculation."
+          }
+    ],
   },
   {
     slug: 'tax-deductible-business-expenses',
@@ -11563,7 +13351,19 @@ Thank you for your business!
       { question: 'Do I need receipts for all business expenses?', answer: 'Yes — tax authorities require documentation showing the amount, date, business purpose, and proof of payment for all deductions. Digital receipts and scanned copies are accepted by the IRS, HMRC, ATO, and most other authorities. Use a receipt scanning app to capture them in real-time.' },
       { question: 'What is Section 179 depreciation?', answer: 'Section 179 (US tax code) allows businesses to immediately expense qualifying asset purchases instead of depreciating them over several years. In 2026, you can expense up to $1,220,000 in qualifying equipment, computers, furniture, and software in the year of purchase.' },
       { question: 'How long should I keep tax records?', answer: 'Retention periods vary: 3-7 years in the US (IRS), 6 years in the UK (HMRC), 5 years in Australia (ATO), 6 years in Canada (CRA), and 6 years in Nigeria (FIRS). When in doubt, keep records for the longest applicable period.' },
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   {
     slug: 'expense-reports-freelancers',
@@ -11645,7 +13445,19 @@ Thank you for your business!
       { question: 'Should freelancers include expenses on their invoices?', answer: 'Yes — submit expense reports with your regular invoice rather than waiting until the project ends. This ensures timely reimbursement and keeps the client informed. Agree on reimbursable categories in your contract before work begins, and set a pre-approval threshold for larger expenses.' },
       { question: 'What is the difference between reimbursable and non-reimbursable expenses?', answer: 'Reimbursable expenses are project-related costs the client agreed to pay back (travel, materials, software for the project). Non-reimbursable expenses are your general business costs (office rent, software subscriptions, marketing) that you deduct on your tax return instead.' },
       { question: 'How often should freelancers do expense reports?', answer: 'Monthly is ideal. Doing expense reports monthly takes minutes and keeps you organized. Waiting until year-end means days of work reconstructing transactions and risks missing deductible expenses. Monthly reports also help you spot spending patterns and track project profitability.' },
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Track and compare payment costs as a business expense."
+          },
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Factor expenses into your rate calculation."
+          }
+    ],
   },
 
   // ============================================
@@ -11777,7 +13589,19 @@ Thank you for your business!
       { question: 'What should a client onboarding process include?', answer: 'A complete onboarding process includes: welcome email within 24 hours, client questionnaire, signed contract with scope of work, payment terms and billing setup, kickoff call, and shared project timeline with milestones.' },
       { question: 'How do I handle scope creep with clients?', answer: 'Have a change order process in your contract. When scope changes come up, acknowledge the request, assess the timeline and budget impact, send a written change order, and get approval before starting additional work. Never do extra work without documented approval.' },
       { question: 'When should I fire a client?', answer: 'Consider ending a relationship when the client consistently disrespects your time or expertise, refuses to honor contract terms, causes you to lose money, or the stress outweighs the revenue. Always end professionally with proper notice per your contract terms.' }
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'client-onboarding-process',
@@ -11874,7 +13698,19 @@ Thank you for your business!
       </ul>
 
       <p>A professional onboarding process is part of excellent <a href="/blog/client-management-guide-small-business">client management</a>. It takes about 2 hours to set up once, and then it runs on autopilot for every new client.</p>
-    `
+    `,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'managing-difficult-clients',
@@ -11959,7 +13795,19 @@ Thank you for your business!
       <p><strong>How to exit professionally:</strong> Give proper notice per your contract, deliver any completed work, send a final invoice, and keep the door open: "I've enjoyed working with you, but I don't think we're the right fit for each other going forward."</p>
 
       <p>For related guidance, see <a href="/blog/invoice-disputes-how-to-handle-professionally">handling invoice disputes</a> and our full <a href="/blog/client-management-guide-small-business">client management guide</a>.</p>
-    `
+    `,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'client-communication-templates',
@@ -12022,7 +13870,19 @@ Thank you for your business!
       </ul>
 
       <p>For the complete framework, see our <a href="/blog/client-management-guide-small-business">client management guide</a>.</p>
-    `
+    `,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'client-retention-strategies',
@@ -12096,7 +13956,19 @@ Thank you for your business!
       </ul>
 
       <p>For the complete framework, see our <a href="/blog/client-management-guide-small-business">client management guide</a>.</p>
-    `
+    `,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
   {
     slug: 'crm-for-freelancers-small-business',
@@ -12179,7 +14051,19 @@ Thank you for your business!
       </ol>
 
       <p>For the complete client management framework, see our <a href="/blog/client-management-guide-small-business">client management guide</a>. For retention-specific strategies, see <a href="/blog/client-retention-strategies">client retention strategies</a>.</p>
-    `
+    `,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Set profitable pricing based on your goals and expenses."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Bill clients professionally in under 2 minutes."
+          }
+    ],
   },
 
   // ============================================
@@ -12299,7 +14183,19 @@ Thank you for your business!
 <p>You don't need to master accounting overnight. Start with three actions: open a separate business bank account, choose an <a href="/accounting">accounting platform</a> that automates the basics, and commit to recording transactions weekly. Those three steps alone will put you ahead of the majority of small business owners.</p>
 
 <p>Once your system is running, explore related topics like <a href="/blog/tax-deductible-business-expenses">tax-deductible expenses</a>, <a href="/blog/business-expense-categories-guide">expense categorisation</a>, and <a href="/blog/understanding-financial-reports-small-business">reading financial reports</a> to deepen your financial literacy — and grow your business with confidence.</p>
-`
+`,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'bookkeeping-basics-beginners',
@@ -12401,7 +14297,19 @@ Thank you for your business!
 <h2>Next Steps</h2>
 
 <p>Start with the basics: open a business bank account, set up <a href="/accounting">bookkeeping software</a>, and commit to a weekly routine. As you get comfortable, layer on more advanced practices like <a href="/blog/cash-flow-forecasting-small-businesses">cash-flow forecasting</a> and <a href="/blog/understanding-financial-reports-small-business">financial report analysis</a>. Every hour invested in bookkeeping now saves ten hours of confusion — and potentially thousands in missed deductions — later.</p>
-`
+`,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'diy-small-business-accounting',
@@ -12486,7 +14394,19 @@ Thank you for your business!
 <h2>The Bottom Line</h2>
 
 <p>Yes, you can do your own business accounting — and for many small businesses, you should. Modern <a href="/accounting">accounting software</a> has made it practical for non-accountants to maintain accurate, tax-ready books. Start with the basics, build a consistent routine, and bring in professional help strategically as your business grows. The goal isn't to replace accountants; it's to be a financially informed business owner who knows exactly where your money is going.</p>
-`
+`,
+    relatedTools: [
+          {
+                "label": "Freelancer Rate Calculator",
+                "url": "/freelancer-rate-calculator",
+                "description": "Calculate your ideal hourly or project rate."
+          },
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create professional invoices with accounting fields."
+          }
+    ],
   },
   {
     slug: 'international-wire-transfer-fees-guide',
@@ -12636,7 +14556,19 @@ Thank you for your business!
       { question: 'What does SHA, OUR, and BEN mean on a wire transfer?', answer: "These are fee instructions: OUR means the sender pays all fees (most expensive for sender, recipient gets full amount). SHA (Shared) means sender pays their bank's fee, recipient pays theirs, and correspondent fees are deducted from the transfer. BEN means all fees come from the transfer amount. SHA is the most common for business payments." },
       { question: 'How long does an international wire transfer take?', answer: 'Traditional SWIFT bank wires take 3–5 business days. Multi-currency platforms like Wise deliver in 1–2 business days for most corridors. SEPA transfers within the EU are often instant or same-day. Processing time depends on the currency pair, countries involved, and whether intermediary banks are needed.' },
       { question: 'How do I reduce international wire transfer fees for my business?', answer: "Seven proven strategies: (1) use multi-currency payment platforms instead of bank wires, (2) batch smaller payments into fewer larger ones, (3) invoice in the recipient's currency, (4) negotiate rates with your bank, (5) use local payment rails where available (SEPA, ACH), (6) compare exchange rates against XE.com before accepting any rate, and (7) track and categorize fees to identify savings opportunities." }
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'currency-conversion-international-payments',
@@ -12738,7 +14670,19 @@ Thank you for your business!
       { question: 'What is the cheapest way to send money internationally?', answer: 'Multi-currency platforms like Wise and Payoneer are typically cheapest for business transfers, charging 0.3-1.5% above mid-market rates versus 1.5-4% at traditional banks. For transfers over $50K, forex brokers offer even better rates.' },
       { question: 'Why are international wire transfer fees so high?', answer: 'Wire transfers pass through multiple banks (correspondent banks) in the SWIFT network, and each one charges a fee. Additionally, each bank applies its own exchange rate markup — the hidden cost most people miss.' },
       { question: 'How can I avoid wire transfer fees on invoices?', answer: 'Invoice in your client\'s local currency so they pay via domestic transfer, then use a multi-currency platform to receive and convert funds. This eliminates SWIFT fees and gives you control over when you convert at the best rate.' },
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Payment Fee Calculator",
+                "url": "/international-payment-fee-calculator",
+                "description": "Compare fees across PayPal, Wise, and bank transfers."
+          },
+          {
+                "label": "PayPal vs Wise Fees",
+                "url": "/paypal-vs-wise-fees",
+                "description": "Side-by-side fee comparison for international payments."
+          }
+    ],
   },
   {
     slug: 'what-is-an-invoice-definition',
@@ -13360,7 +15304,19 @@ Thank you for your business!
       { question: 'What is an open invoice?', answer: 'An open invoice is an invoice that has been issued but not yet fully paid. It represents money owed to your business (accounts receivable). Managing open invoices with aging reports and automated reminders is critical for healthy cash flow.' },
       { question: 'What is invoice processing?', answer: 'Invoice processing is the end-to-end workflow of receiving, validating, approving, and paying invoices from the buyer\'s (accounts payable) perspective. It typically involves data capture, 3-way matching against purchase orders and delivery receipts, approval routing, and payment scheduling.' },
       { question: 'What is the invoice price of a car?', answer: 'In the automotive industry, the invoice price is what the car dealer pays the manufacturer for a vehicle — as opposed to the MSRP (sticker price) that customers see. Buyers research invoice prices to negotiate better deals, though dealer incentives mean the true cost is often below the listed invoice price.' },
-    ]
+    ],
+    relatedTools: [
+          {
+                "label": "Free Invoice Generator",
+                "url": "/free-invoice-generator",
+                "description": "Create tax-compliant invoices with VAT/GST fields."
+          },
+          {
+                "label": "Invoice Templates",
+                "url": "/invoice-templates",
+                "description": "Templates with correct tax fields for your jurisdiction."
+          }
+    ],
   },
   // ============================================
   // ESTIMATES & QUOTES CLUSTER
@@ -14585,7 +16541,47 @@ function getDefaultEntityMentions(
       );
   }
 
+  // Add tool entity mentions based on category → creates schema-level connections to tool pages
+  const toolMentions = getToolEntityMentions(category);
+  mentions.push(...toolMentions);
+
   return mentions;
+}
+
+/**
+ * Map categories to relevant tool entities for schema.org mentions.
+ * This creates semantic connections between blog content and tool pages.
+ */
+function getToolEntityMentions(
+  category: string
+): Array<{ name: string; type?: string; url?: string }> {
+  const BASE = 'https://invoicemonk.com';
+  switch (category) {
+    case 'Invoicing and Billing Tips':
+      return [
+        { name: 'Invoicemonk Free Invoice Generator', type: 'SoftwareApplication', url: `${BASE}/en/free-invoice-generator` },
+        { name: 'Invoicemonk Invoice Templates', type: 'SoftwareApplication', url: `${BASE}/en/invoice-templates` },
+      ];
+    case 'Finance':
+    case 'Payments':
+      return [
+        { name: 'Invoicemonk Payment Fee Calculator', type: 'SoftwareApplication', url: `${BASE}/en/international-payment-fee-calculator` },
+        { name: 'Invoicemonk PayPal vs Wise Fee Comparison', type: 'SoftwareApplication', url: `${BASE}/en/paypal-vs-wise-fees` },
+      ];
+    case 'Freelancing':
+      return [
+        { name: 'Invoicemonk Freelancer Rate Calculator', type: 'SoftwareApplication', url: `${BASE}/en/freelancer-rate-calculator` },
+        { name: 'Invoicemonk Free Invoice Generator', type: 'SoftwareApplication', url: `${BASE}/en/free-invoice-generator` },
+      ];
+    case 'Tax and Compliance':
+      return [
+        { name: 'Invoicemonk Free Invoice Generator', type: 'SoftwareApplication', url: `${BASE}/en/free-invoice-generator` },
+      ];
+    default:
+      return [
+        { name: 'Invoicemonk Free Invoice Generator', type: 'SoftwareApplication', url: `${BASE}/en/free-invoice-generator` },
+      ];
+  }
 }
 
 export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {

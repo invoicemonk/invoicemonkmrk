@@ -12,13 +12,13 @@ export const esES: LocaleConfig = {
   },
   content: {
     hero: {
-      badge: "Facturación adaptada a tu jurisdicción",
-      headline: "Crea facturas profesionales",
-      headlineAccent: "en segundos",
-      subheadline: "Crea facturas adaptadas a tu país, rastrea ingresos y cumple con la normativa fiscal sin esfuerzo.",
-      cta: "Comienza a Facturar",
-      secondaryCta: "Ver Cómo Funciona",
-      trustBadge: "Utilizado por empresas en España y Latinoamérica",
+      badge: "FACTURACIÓN CONFORME",
+      headline: "Facturación diseñada en torno al cumplimiento.",
+      headlineAccent: "No añadida después.",
+      subheadline: "Invoicemonk es el software de facturación y contabilidad que mantiene a freelancers, consultores y pequeñas empresas al día con los impuestos, listos para auditorías y cobrados en cada país donde trabajan.",
+      cta: "Empieza gratis — sin tarjeta",
+      secondaryCta: "Cómo funciona la conformidad →",
+      trustBadge: "Usado por empresas que facturan en más de 30 países, incluida España",
     },
     compliance: {
       authority: "AEAT",
