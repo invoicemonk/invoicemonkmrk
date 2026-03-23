@@ -95,7 +95,7 @@ const BlogPost = () => {
     day: 'numeric'
   });
 
-  const formattedModifiedDate = post.dateModified 
+  const formattedModifiedDate = (post.dateModified && post.dateModified > post.date)
     ? new Date(post.dateModified).toLocaleDateString(locale.code, {
         year: 'numeric',
         month: 'long',

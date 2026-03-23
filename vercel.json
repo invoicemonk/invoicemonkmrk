@@ -382,6 +382,36 @@
       "permanent": true
     },
     {
+      "source": "/free-invoice-generator-australia",
+      "destination": "/en/free-invoice-generator-australia",
+      "permanent": true
+    },
+    {
+      "source": "/free-invoice-generator-india",
+      "destination": "/en/free-invoice-generator-india",
+      "permanent": true
+    },
+    {
+      "source": "/invoice-templates",
+      "destination": "/en/invoice-templates",
+      "permanent": true
+    },
+    {
+      "source": "/freelancer-rate-calculator",
+      "destination": "/en/freelancer-rate-calculator",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
+      "destination": "/en/tools",
+      "permanent": true
+    },
+    {
+      "source": "/partner-program",
+      "destination": "/en/partner-program",
+      "permanent": true
+    },
+    {
       "source": "/:lang/blog/invoice-payment-terms",
       "destination": "/:lang/blog/how-to-write-invoice-payment-terms",
       "permanent": true
@@ -483,6 +513,7 @@
     }
   ],
   "rewrites": [
+    { "source": "/b8f4e2a1c3d5e6f7a8b9c0d1e2f3a4b5.txt", "destination": "/b8f4e2a1c3d5e6f7a8b9c0d1e2f3a4b5.txt" },
     { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
     { "source": "/robots.txt", "destination": "/robots.txt" },
     { "source": "/llms.txt", "destination": "/llms.txt" },

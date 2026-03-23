@@ -23,18 +23,3 @@ Disallow: /author/
 Disallow: /training/
 Disallow: /trainini
 
-# Disallow retired country prefixes (301-redirected to language prefixes)
-Disallow: /ng/
-Disallow: /us/
-Disallow: /ca/
-Disallow: /uk/
-Disallow: /au/
-Disallow: /gh/
-Disallow: /ke/
-Disallow: /za/
-Disallow: /ph/
-Disallow: /zw/
-Disallow: /in/
-Disallow: /sc/
-Disallow: /nz/
-Disallow: /br/

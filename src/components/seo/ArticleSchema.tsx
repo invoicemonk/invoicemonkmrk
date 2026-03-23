@@ -94,7 +94,7 @@ export function ArticleSchema({
       "representativeOfPage": true
     } : `${BASE}/og-image.png`,
     "datePublished": datePublished,
-    "dateModified": dateModified || datePublished,
+    "dateModified": (dateModified && dateModified >= datePublished) ? dateModified : datePublished,
     "inLanguage": inLanguage,
     
     // Enhanced author with E-E-A-T signals

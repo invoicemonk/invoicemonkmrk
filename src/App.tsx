@@ -225,6 +225,9 @@ const App = () => (
               <Route path="privacy" element={<Navigate to="../privacy-policy" replace />} />
               <Route path="terms" element={<Navigate to="../terms-of-service" replace />} />
               <Route path="blog/what-is-an-invoice-definition-guide" element={<Navigate to="../blog/what-is-an-invoice-definition" replace />} />
+              <Route path="milestone-billing" element={<Navigate to="../use-cases/milestone-billing" replace />} />
+              <Route path="cheapest-international-payments" element={<Navigate to="../cheapest-way-to-receive-international-payments" replace />} />
+              <Route path="blog/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management" element={<Navigate to="../blog/the-10-best-personal-finance-blogs" replace />} />
 
               {/* 404 within valid language prefix */}
               <Route path="*" element={<NotFound />} />

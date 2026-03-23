@@ -49,8 +49,17 @@ export function SEOHead({
   const relPath = stripLanguagePrefix(location.pathname);
 
   // Route prefixes that have translated content — canonical should self-reference
-  const translatedPrefixes = ['/blog', '/help', '/glossary'];
-  const isTranslatedRoute = translatedPrefixes.some(p => relPath.startsWith(p));
+  const translatedPrefixes = [
+    '/blog', '/help', '/glossary', '/invoice-templates',
+    '/free-invoice-generator', '/tools', '/pricing',
+    '/invoicing', '/expenses', '/payments', '/accounting',
+    '/estimates', '/receipts', '/about', '/contact',
+    '/freelancers', '/consultants', '/contractors', '/agencies',
+    '/creatives', '/photographers', '/lawyers', '/accountants',
+    '/small-businesses', '/ecommerce', '/compliance',
+    '/why-invoicemonk', '/developer',
+  ];
+  const isTranslatedRoute = translatedPrefixes.some(p => relPath === p || relPath.startsWith(p + '/'));
 
   // For non-translated routes under a non-English language prefix,
   // override canonical to point to the /en/ equivalent to avoid duplicate content
@@ -114,7 +123,7 @@ export function SEOHead({
       {article && (
         <>
           <meta property="article:published_time" content={article.publishedTime} />
-          {article.modifiedTime && (
+          {article.modifiedTime && article.modifiedTime > article.publishedTime && (
             <meta property="article:modified_time" content={article.modifiedTime} />
           )}
           <meta property="article:author" content={article.author} />
