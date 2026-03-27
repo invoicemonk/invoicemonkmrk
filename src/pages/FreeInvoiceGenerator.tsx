@@ -1,4 +1,3 @@
-import { useSearchParams } from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -40,8 +39,6 @@ const GENERATOR_SCHEMA_ID = 'https://invoicemonk.com/free-invoice-generator#soft
 
 const FreeInvoiceGenerator = () => {
   const { locale } = useLocale();
-  const [searchParams] = useSearchParams();
-  const hasTemplateParam = !!searchParams.get('template');
   const seo = pageSEO['/free-invoice-generator'];
   const { t } = useTranslation('freeInvoiceGenerator');
   const previewRef = useRef<HTMLDivElement>(null);
@@ -132,7 +129,6 @@ const FreeInvoiceGenerator = () => {
       <SEOHead
         title={seo?.getTitle(locale) || 'Free Invoice Generator Online — Create & Download PDF | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Create professional invoices for free in under 2 minutes. No signup required. Download as PDF, add your logo, choose templates.'}
-        noindex={hasTemplateParam}
         article={{
           publishedTime: '2025-01-15',
           modifiedTime: '2026-03-17',

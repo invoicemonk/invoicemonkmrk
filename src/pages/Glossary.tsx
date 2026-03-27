@@ -148,7 +148,6 @@ const Glossary = () => {
       <SEOHead
         title={t('seoTitle')}
         description={t('seoDescription')}
-        noindex={!!(selectedTerm || selectedCategory)}
       />
       <DefinedTermSetSchema terms={glossaryTerms} />
 

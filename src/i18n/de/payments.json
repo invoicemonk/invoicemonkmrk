@@ -4,10 +4,10 @@
     "description": "Akzeptieren Sie Zahlungen direkt über Rechnungen. Kreditkarten, Banküberweisungen und digitale Wallets mit automatischer Abstimmung und niedrigen Gebühren."
   },
   "hero": {
-    "badge": "Demnächst verfügbar",
+    "badge": "Jetzt verfügbar",
     "title": "Schneller bezahlt werden mit <accent>integrierten Zahlungen</accent>",
     "description": "Akzeptieren Sie Zahlungen direkt über Rechnungen. Richten Sie Ratenzahlungen ein, verarbeiten Sie Rückerstattungen und gleichen Sie alles automatisch ab.",
-    "cta": "Auf die Warteliste setzen",
+    "cta": "Zahlungen akzeptieren",
     "secondary": "Mit Rechnungsstellung starten",
     "mockup": {
       "title": "Zahlung eingegangen!",

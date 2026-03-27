@@ -513,7 +513,6 @@
     }
   ],
   "rewrites": [
-    { "source": "/b8f4e2a1c3d5e6f7a8b9c0d1e2f3a4b5.txt", "destination": "/b8f4e2a1c3d5e6f7a8b9c0d1e2f3a4b5.txt" },
     { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
     { "source": "/robots.txt", "destination": "/robots.txt" },
     { "source": "/llms.txt", "destination": "/llms.txt" },

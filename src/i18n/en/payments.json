@@ -4,10 +4,10 @@
     "description": "Accept payments directly from invoices. Credit cards, bank transfers, and digital wallets with automatic reconciliation and low processing fees."
   },
   "hero": {
-    "badge": "Coming Soon",
+    "badge": "Available Now",
     "title": "Get paid faster with <accent>integrated payments</accent>",
     "description": "Accept payments directly from invoices. Set up payment plans, process refunds, and reconcile everything automatically.",
-    "cta": "Join the Waitlist",
+    "cta": "Start Accepting Payments",
     "secondary": "Start with Invoicing",
     "mockup": {
       "title": "Payment Received!",
@@ -61,7 +61,7 @@
     "title": "Simple, transparent <accent>pricing</accent>",
     "subtitle": "No monthly fees. No hidden charges. Just pay when you get paid.",
     "sectionTitle": "Processing Fees",
-    "sectionSubtitle": "Coming soon — competitive rates for every business size.",
+    "sectionSubtitle": "Competitive rates for every business size.",
     "cards": {
       "label": "Credit & Debit Cards",
       "cardTypes": "Visa, Mastercard, Amex",

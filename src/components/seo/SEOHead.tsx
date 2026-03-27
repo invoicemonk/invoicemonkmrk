@@ -50,16 +50,20 @@ export function SEOHead({
 
   // Route prefixes that have translated content — canonical should self-reference
   const translatedPrefixes = [
-    '/blog', '/help', '/glossary', '/invoice-templates',
-    '/free-invoice-generator', '/tools', '/pricing',
+    '/blog', '/help', '/glossary',
     '/invoicing', '/expenses', '/payments', '/accounting',
-    '/estimates', '/receipts', '/about', '/contact',
+    '/estimates', '/receipts', '/client-management',
     '/freelancers', '/consultants', '/contractors', '/agencies',
-    '/creatives', '/photographers', '/lawyers', '/accountants',
-    '/small-businesses', '/ecommerce', '/compliance',
-    '/why-invoicemonk', '/developer',
+    '/photographers', '/lawyers', '/accountants', '/ecommerce',
+    '/creatives', '/small-businesses',
+    '/compliance', '/pricing', '/about', '/contact',
+    '/why-invoicemonk', '/developer', '/explore',
+    '/free-invoice-generator',
+    '/compare', '/best-invoicing-software',
+    '/use-cases', '/guides', '/tools', '/partner-program',
+    '/privacy-policy', '/terms-of-service', '/cookie-policy', '/legal',
   ];
-  const isTranslatedRoute = translatedPrefixes.some(p => relPath === p || relPath.startsWith(p + '/'));
+  const isTranslatedRoute = translatedPrefixes.some(p => relPath.startsWith(p));
 
   // For non-translated routes under a non-English language prefix,
   // override canonical to point to the /en/ equivalent to avoid duplicate content

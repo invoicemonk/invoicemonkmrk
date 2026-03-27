@@ -158,7 +158,7 @@ export function Footer() {
       { name: t('products.invoicing.name'), href: '/invoicing', badge: t('status.available') },
       { name: t('products.clientManagement.name'), href: '/client-management', badge: t('status.available') },
       { name: t('products.expenses.name'), href: '/expenses', badge: t('status.available') },
-      { name: t('products.payments.name'), href: '/payments', badge: t('status.comingSoon') },
+      { name: t('products.payments.name'), href: '/payments', badge: t('status.available') },
       { name: t('products.accounting.name'), href: '/accounting', badge: t('status.available') },
       { name: t('products.estimates.name'), href: '/estimates', badge: t('status.comingSoon') },
       { name: t('products.receipts.name'), href: '/receipts', badge: t('status.available') },

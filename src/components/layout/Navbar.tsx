@@ -11,7 +11,7 @@ import logo from '@/assets/invoicemonk-logo.png';
 const productKeys = [
   { key: 'invoicing', href: '/invoicing', icon: FileText, status: 'available' },
   { key: 'expenses', href: '/expenses', icon: Wallet, status: 'available' },
-  { key: 'payments', href: '/payments', icon: CreditCard, status: 'coming-soon' },
+  { key: 'payments', href: '/payments', icon: CreditCard, status: 'available' },
   { key: 'accounting', href: '/accounting', icon: Calculator, status: 'available' },
   { key: 'estimates', href: '/estimates', icon: FileCheck, status: 'coming-soon' },
   { key: 'receipts', href: '/receipts', icon: Receipt, status: 'available' },

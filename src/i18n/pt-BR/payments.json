@@ -4,10 +4,10 @@
     "description": "Aceite pagamentos diretamente das faturas. Cartões de crédito, transferências bancárias e carteiras digitais com conciliação automática e taxas baixas."
   },
   "hero": {
-    "badge": "Em breve",
+    "badge": "Disponível agora",
     "title": "Receba mais rápido com <accent>pagamentos integrados</accent>",
     "description": "Aceite pagamentos diretamente das faturas. Configure parcelamentos, processe reembolsos e concilie tudo automaticamente.",
-    "cta": "Entrar na lista de espera",
+    "cta": "Começar a aceitar pagamentos",
     "secondary": "Começar com Faturamento",
     "mockup": {
       "title": "Pagamento recebido!",

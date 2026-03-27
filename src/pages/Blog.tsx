@@ -88,9 +88,6 @@ const Blog = () => {
   const [viewMode, setViewMode] = useState<ViewMode>(selectedPillar ? 'all' : 'topics');
   const [currentPage, setCurrentPage] = useState(1);
   
-  // noindex filtered/paginated views to save crawl budget
-  const hasFilters = !!(selectedPillar || selectedCategory || searchQuery || currentPage > 1);
-  
   // Intent filters
   const [selectedIntent, setSelectedIntent] = useState<ContentIntent | null>(null);
   const [selectedStage, setSelectedStage] = useState<ContentStage | null>(null);
@@ -203,7 +200,6 @@ const Blog = () => {
       <SEOHead
         title={seo.getTitle(locale)}
         description={seo.getDescription(locale)}
-        noindex={hasFilters}
       />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }]} />
       <Helmet>

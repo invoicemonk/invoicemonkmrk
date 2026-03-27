@@ -68,9 +68,9 @@ const Payments = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-wave-orange/10 text-wave-orange mb-6"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-100 text-green-700 mb-6"
               >
-                <span className="text-body-sm font-medium">{t('hero.badge')}</span>
+                <span className="text-body-sm font-medium">✓ {t('hero.badge')}</span>
               </motion.div>
 
               <motion.div

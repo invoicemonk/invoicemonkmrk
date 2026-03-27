@@ -4,10 +4,10 @@
     "description": "Acepta pagos directamente desde facturas. Tarjetas de crédito, transferencias bancarias y billeteras digitales con conciliación automática y comisiones bajas."
   },
   "hero": {
-    "badge": "Próximamente",
+    "badge": "Disponible ahora",
     "title": "Cobra más rápido con <accent>pagos integrados</accent>",
     "description": "Acepta pagos directamente desde tus facturas. Configura planes de pago, procesa reembolsos y concilia todo automáticamente.",
-    "cta": "Unirse a la lista de espera",
+    "cta": "Empezar a aceptar pagos",
     "secondary": "Empezar con Facturación",
     "mockup": {
       "title": "¡Pago recibido!",

@@ -16,12 +16,6 @@ const flagshipFeatures = [
 
 const comingSoonProducts = [
   {
-    name: 'Payments',
-    icon: CreditCard,
-    description: 'Accept online payments, set up payment plans, and reconcile transactions.',
-    href: '/payments',
-  },
-  {
     name: 'Estimates',
     icon: FileCheck,
     description: 'Create professional quotes and convert approved estimates to invoices.',

@@ -1,4 +1,4 @@
-import { useParams, useSearchParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Link } from '@/components/LocalizedLink';
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -82,8 +82,6 @@ const BlogTopic = () => {
   const lang = getLangPrefix(i18n.language);
   const pillars = getTranslatedPillars(lang);
   const [currentPage, setCurrentPage] = useState(1);
-  const [searchParams] = useSearchParams();
-  const hasPageParam = !!(searchParams.get('page') || currentPage > 1);
   
   const pillar = useMemo(() => 
     pillars.find(p => p.id === topicId), 
@@ -122,7 +120,6 @@ const BlogTopic = () => {
       <SEOHead
         title={`${pillar.title} - Expert Guides & Tips | Invoicemonk Blog`}
         description={pillar.longDescription}
-        noindex={hasPageParam}
       />
       <BreadcrumbSchema items={breadcrumbs} />
       <ItemListSchema

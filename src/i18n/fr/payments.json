@@ -4,10 +4,10 @@
     "description": "Acceptez les paiements directement depuis vos factures. Cartes bancaires, virements et portefeuilles numériques avec rapprochement automatique et frais réduits."
   },
   "hero": {
-    "badge": "Bientôt disponible",
+    "badge": "Disponible maintenant",
     "title": "Soyez payé plus vite avec <accent>les paiements intégrés</accent>",
     "description": "Acceptez les paiements directement depuis vos factures. Configurez des échéanciers, traitez les remboursements et rapprochez tout automatiquement.",
-    "cta": "Rejoindre la liste d'attente",
+    "cta": "Commencer à accepter les paiements",
     "secondary": "Commencer avec la facturation",
     "mockup": {
       "title": "Paiement reçu !",

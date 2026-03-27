@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 
 const productMeta = [
   { id: 'invoicing', icon: FileText, link: '/invoicing', available: true },
-  { id: 'payments', icon: CreditCard, link: '/payments', available: false },
+  { id: 'payments', icon: CreditCard, link: '/payments', available: true },
   { id: 'expenses', icon: Wallet, link: '/expenses', available: true },
   { id: 'accounting', icon: Calculator, link: '/accounting', available: true },
   { id: 'clients', icon: Users, link: '/client-management', available: true },
