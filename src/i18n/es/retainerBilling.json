@@ -1,98 +1,98 @@
 {
   "seo": {
-    "title": "Retainer Billing & Client Retainer Invoicing | Invoicemonk",
-    "description": "Automate retainer invoicing for ongoing client relationships. Recurring billing, drawdown tracking, and professional retainer management. Free tier available."
+    "title": "Facturación por Retainer | Facturación de Retainers para Clientes | Invoicemonk",
+    "description": "Automatiza la facturación por retainer para relaciones continuas con clientes. Facturación recurrente, seguimiento de consumo y gestión profesional de retainers. Plan gratuito disponible."
   },
   "hero": {
-    "badge": "Retainer Billing",
-    "title": "Effortless retainer invoicing",
+    "badge": "Facturación por Retainer",
+    "title": "Facturación por retainer sin esfuerzo",
     "accentWord": "retainer",
-    "description": "Automate monthly retainer billing for your clients. Set fixed amounts, recurring schedules, and let Invoicemonk handle the rest.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing"
+    "description": "Automatiza la facturación mensual por retainer para tus clientes. Establece montos fijos, calendarios recurrentes y deja que Invoicemonk se encargue del resto.",
+    "primaryCta": "Empezar Gratis",
+    "secondaryCta": "Ver Precios"
   },
   "overview": {
-    "title": "The power of retainer-based revenue",
+    "title": "El poder de los ingresos basados en retainer",
     "paragraphs": [
-      "Retainer billing transforms the feast-or-famine cycle of project-based work into steady, predictable revenue. For agencies, consultants, and professional service firms, retainers represent the gold standard of client relationships — ongoing commitments that provide financial stability while ensuring clients receive consistent, high-quality service. The difference between a business that struggles with cash flow and one that grows confidently often comes down to how much of its revenue is recurring.",
-      "Managing retainers manually, however, introduces unnecessary friction. Creating the same invoice every month, remembering different amounts for different clients, tracking which retainers have been paid and which are overdue — these tasks consume valuable hours that should be spent on billable work. Worse, manual processes lead to errors: a missed invoice means a missed payment, and an incorrect amount damages client trust.",
-      "Invoicemonk automates the entire retainer billing workflow. Define each client's retainer amount, billing frequency, and payment terms once, and the system handles everything from invoice generation to delivery and follow-up reminders. You maintain full visibility over your recurring revenue while eliminating the administrative burden that comes with managing multiple retainer relationships."
+      "La facturación por retainer transforma el ciclo de altibajos del trabajo por proyecto en ingresos estables y predecibles. Para agencias, consultores y firmas de servicios profesionales, los retainers representan el estándar de oro de las relaciones con clientes — compromisos continuos que proporcionan estabilidad financiera mientras garantizan que los clientes reciban un servicio consistente y de alta calidad. La diferencia entre un negocio que lucha con el flujo de caja y uno que crece con confianza a menudo se reduce a cuánto de sus ingresos es recurrente.",
+      "Sin embargo, gestionar retainers manualmente introduce fricción innecesaria. Crear la misma factura cada mes, recordar diferentes montos para diferentes clientes, rastrear qué retainers se han pagado y cuáles están vencidos — estas tareas consumen horas valiosas que deberían dedicarse a trabajo facturable. Peor aún, los procesos manuales llevan a errores: una factura olvidada significa un pago perdido, y un monto incorrecto daña la confianza del cliente.",
+      "Invoicemonk automatiza todo el flujo de trabajo de facturación por retainer. Define el monto del retainer de cada cliente, la frecuencia de facturación y los términos de pago una vez, y el sistema se encarga de todo, desde la generación de facturas hasta la entrega y los recordatorios de seguimiento. Mantienes visibilidad total sobre tus ingresos recurrentes mientras eliminas la carga administrativa de gestionar múltiples relaciones de retainer."
     ]
   },
   "benefits": {
-    "title": "Why retainer billing with Invoicemonk?",
-    "subtitle": "Predictable revenue, happier clients, less admin work",
+    "title": "¿Por qué facturación por retainer con Invoicemonk?",
+    "subtitle": "Ingresos predecibles, clientes más contentos, menos trabajo administrativo",
     "items": [
-      { "title": "Automated Billing Cycles", "desc": "Set a schedule — monthly, quarterly, or custom — and Invoicemonk generates and sends retainer invoices automatically. No more first-of-the-month invoice marathons." },
-      { "title": "Revenue Forecasting", "desc": "See your total recurring revenue at a glance. Invoicemonk's dashboard shows you exactly how much retainer income to expect each month, making financial planning straightforward." },
-      { "title": "Professional Branded Invoices", "desc": "Every retainer invoice carries your business branding, clear payment terms, and itemized descriptions. Clients receive a polished, professional document every billing cycle." },
-      { "title": "Client Retention Insights", "desc": "Track retainer history per client — see how long they've been on retainer, total billed, and payment patterns. Use this data to strengthen relationships and identify upsell opportunities." },
-      { "title": "Time & Expense Tracking", "desc": "Log hours and expenses against each retainer client. Compare actual work delivered to the retainer amount to ensure profitability and demonstrate value to clients." },
-      { "title": "Flexible Adjustments", "desc": "Increase or decrease retainer amounts mid-contract with changes applying from the next cycle. Handle rate reviews and scope changes without disrupting your billing workflow." }
+      { "title": "Ciclos de Facturación Automatizados", "desc": "Configura un calendario — mensual, trimestral o personalizado — e Invoicemonk genera y envía facturas de retainer automáticamente. No más maratones de facturación a principio de mes." },
+      { "title": "Previsión de Ingresos", "desc": "Consulta tus ingresos recurrentes totales de un vistazo. El panel de Invoicemonk te muestra exactamente cuánto ingreso por retainer esperar cada mes, haciendo la planificación financiera sencilla." },
+      { "title": "Facturas Profesionales con Marca", "desc": "Cada factura de retainer lleva la marca de tu negocio, términos de pago claros y descripciones detalladas. Los clientes reciben un documento pulido y profesional en cada ciclo de facturación." },
+      { "title": "Información sobre Retención de Clientes", "desc": "Rastrea el historial de retainer por cliente — ve cuánto tiempo llevan en retainer, el total facturado y los patrones de pago. Usa estos datos para fortalecer relaciones e identificar oportunidades de venta adicional." },
+      { "title": "Seguimiento de Tiempo y Gastos", "desc": "Registra horas y gastos contra cada cliente con retainer. Compara el trabajo entregado con el monto del retainer para asegurar rentabilidad y demostrar valor a los clientes." },
+      { "title": "Ajustes Flexibles", "desc": "Aumenta o disminuye los montos de retainer a mitad de contrato con cambios que se aplican desde el próximo ciclo. Gestiona revisiones de tarifas y cambios de alcance sin interrumpir tu flujo de facturación." }
     ]
   },
   "example": {
-    "title": "Retainer billing in action",
-    "scenario": "Scenario: A law firm managing 20 retainer clients",
+    "title": "Facturación por retainer en acción",
+    "scenario": "Escenario: Un despacho de abogados gestionando 20 clientes con retainer",
     "paragraphs": [
-      "Adekunle & Partners is a mid-size law firm with 20 clients on monthly retainer agreements ranging from ₦200,000 to ₦2,500,000. Previously, a junior associate spent three days each month preparing and sending retainer invoices — time that could have been billed to clients.",
-      "After switching to Invoicemonk's recurring billing, the firm set up all 20 retainer schedules in one afternoon. Each client's retainer has specific terms: some include VAT, others require withholding tax calculations, and three international clients are billed in USD. All of this is configured once and runs automatically.",
-      "The result: the firm recovered over ₦600,000 in billable hours per month, reduced payment delays by 35%, and now has real-time visibility into their recurring revenue pipeline."
+      "García & Asociados es un despacho de abogados de tamaño medio con 20 clientes en acuerdos de retainer mensual que van desde €2.000 hasta €25.000. Anteriormente, un asociado junior pasaba tres días cada mes preparando y enviando facturas de retainer — tiempo que podría haberse facturado a los clientes.",
+      "Después de cambiar a la facturación recurrente de Invoicemonk, el despacho configuró los 20 calendarios de retainer en una tarde. Cada retainer de cliente tiene términos específicos: algunos incluyen IVA, otros requieren cálculos de retención fiscal, y tres clientes internacionales se facturan en USD. Todo esto se configura una vez y funciona automáticamente.",
+      "El resultado: el despacho recuperó más de €6.000 en horas facturables al mes, redujo los retrasos en pagos en un 35% y ahora tiene visibilidad en tiempo real de su pipeline de ingresos recurrentes."
     ],
     "stats": [
-      { "value": "₦600K+", "label": "Recovered monthly" },
-      { "value": "35%", "label": "Fewer payment delays" },
-      { "value": "20", "label": "Auto-managed retainers" }
+      { "value": "€6K+", "label": "Recuperados al mes" },
+      { "value": "35%", "label": "Menos retrasos en pagos" },
+      { "value": "20", "label": "Retainers auto-gestionados" }
     ]
   },
   "whoUsesIt": {
-    "title": "Who uses retainer billing?",
-    "subtitle": "Retainer models work for any professional service with ongoing client relationships",
+    "title": "¿Quién usa la facturación por retainer?",
+    "subtitle": "Los modelos de retainer funcionan para cualquier servicio profesional con relaciones continuas con clientes",
     "items": [
-      "Marketing and PR agencies",
-      "Law firms and legal practices",
-      "IT consultants and managed service providers",
-      "Business and executive coaches",
-      "Accountants and bookkeepers",
-      "HR consulting firms",
-      "Design studios with ongoing clients",
-      "Virtual assistants and support teams"
+      "Agencias de marketing y relaciones públicas",
+      "Despachos de abogados y bufetes jurídicos",
+      "Consultores IT y proveedores de servicios gestionados",
+      "Coaches de negocios y ejecutivos",
+      "Contadores y tenedores de libros",
+      "Firmas de consultoría de RRHH",
+      "Estudios de diseño con clientes continuos",
+      "Asistentes virtuales y equipos de soporte"
     ]
   },
   "testimonials": {
-    "title": "Trusted by retainer-based businesses",
+    "title": "La confianza de empresas con retainer",
     "items": [
-      { "quote": "Managing 15 retainer clients used to take me a full day each month. Now it runs on autopilot and I focus entirely on delivering value to my clients.", "name": "Funmi A.", "role": "PR Agency Director, Lagos" },
-      { "quote": "The retainer tracking feature lets me show clients exactly how their retainer is being used. It's built trust and helped me retain clients longer.", "name": "James W.", "role": "IT Consultant, Manchester" },
-      { "quote": "We went from chasing retainer payments to having 95% collected within 7 days of invoicing. The automatic reminders make a huge difference.", "name": "Chinedu E.", "role": "Law Partner, Port Harcourt" }
+      { "quote": "Gestionar 15 clientes con retainer solía llevarme un día completo cada mes. Ahora funciona en piloto automático y me enfoco totalmente en entregar valor a mis clientes.", "name": "Elena S.", "role": "Directora de Agencia PR, Madrid" },
+      { "quote": "La función de seguimiento de retainer me permite mostrar a los clientes exactamente cómo se usa su retainer. Ha construido confianza y me ha ayudado a retener clientes más tiempo.", "name": "Javier P.", "role": "Consultor IT, Barcelona" },
+      { "quote": "Pasamos de perseguir pagos de retainer a tener el 95% cobrado dentro de los 7 días de la facturación. Los recordatorios automáticos hacen una gran diferencia.", "name": "Miguel A.", "role": "Socio Legal, Sevilla" }
     ]
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Preguntas frecuentes",
     "items": [
-      { "question": "What is retainer billing?", "answer": "Retainer billing is a recurring payment model where clients pay a fixed amount — monthly, quarterly, or on a custom schedule — for ongoing services or guaranteed access to your expertise." },
-      { "question": "How do I set up retainer invoices in Invoicemonk?", "answer": "Create a recurring invoice with the retainer amount, schedule, and payment terms. Invoicemonk auto-generates and sends the invoice each period." },
-      { "question": "Can I track hours against a retainer?", "answer": "Yes. Track hours and expenses per client through Invoicemonk's time and expense tracking features, then compare actual work against the retainer amount in your reports." },
-      { "question": "What happens if a retainer needs adjusting mid-contract?", "answer": "Update the recurring invoice amount at any time. Changes apply from the next billing cycle onwards. Previous invoices remain unchanged." },
-      { "question": "How do retainers differ from project-based billing?", "answer": "Retainers provide a fixed, predictable income regardless of the specific tasks completed. Project-based billing ties payment to specific deliverables." },
-      { "question": "Can I offer different retainer tiers to clients?", "answer": "Yes. Create unique recurring schedules for each client with different amounts, frequencies, and terms." },
-      { "question": "What if a client wants to pause their retainer?", "answer": "Pause the recurring schedule with one click. No invoices will be generated during the pause period." },
-      { "question": "Do retainer invoices include tax calculations?", "answer": "Yes. Every retainer invoice automatically includes the tax rates you configured — VAT, GST, sales tax, or withholding tax." }
+      { "question": "¿Qué es la facturación por retainer?", "answer": "La facturación por retainer es un modelo de pago recurrente donde los clientes pagan un monto fijo — mensual, trimestral o en un calendario personalizado — por servicios continuos o acceso garantizado a tu experiencia." },
+      { "question": "¿Cómo configuro facturas de retainer en Invoicemonk?", "answer": "Crea una factura recurrente con el monto del retainer, calendario y términos de pago. Invoicemonk genera y envía automáticamente la factura en cada período." },
+      { "question": "¿Puedo rastrear horas contra un retainer?", "answer": "Sí. Rastrea horas y gastos por cliente a través de las funciones de seguimiento de tiempo y gastos de Invoicemonk, luego compara el trabajo real contra el monto del retainer en tus informes." },
+      { "question": "¿Qué pasa si un retainer necesita ajustarse a mitad de contrato?", "answer": "Actualiza el monto de la factura recurrente en cualquier momento. Los cambios se aplican a partir del siguiente ciclo de facturación. Las facturas anteriores permanecen sin cambios." },
+      { "question": "¿En qué se diferencian los retainers de la facturación por proyecto?", "answer": "Los retainers proporcionan un ingreso fijo y predecible independientemente de las tareas específicas completadas. La facturación por proyecto vincula el pago a entregables específicos." },
+      { "question": "¿Puedo ofrecer diferentes niveles de retainer a los clientes?", "answer": "Sí. Crea calendarios recurrentes únicos para cada cliente con diferentes montos, frecuencias y términos." },
+      { "question": "¿Qué pasa si un cliente quiere pausar su retainer?", "answer": "Pausa el calendario recurrente con un solo clic. No se generarán facturas durante el período de pausa." },
+      { "question": "¿Las facturas de retainer incluyen cálculos de impuestos?", "answer": "Sí. Cada factura de retainer incluye automáticamente las tasas impositivas que configuraste — IVA, IGIC, impuesto sobre ventas o retención fiscal." }
     ]
   },
   "related": {
-    "title": "Related reading",
+    "title": "Lectura relacionada",
     "links": [
-      { "label": "Invoice Payment Terms Guide", "to": "/blog/how-to-write-invoice-payment-terms" },
-      { "label": "Managing Multiple Clients", "to": "/blog/managing-multiple-clients-efficiently" },
-      { "label": "For Agencies", "to": "/agencies" },
-      { "label": "For Lawyers", "to": "/lawyers" },
-      { "label": "Recurring Billing", "to": "/use-cases/recurring-billing" }
+      { "label": "Guía de Términos de Pago en Facturas", "to": "/blog/how-to-write-invoice-payment-terms" },
+      { "label": "Gestionar Múltiples Clientes", "to": "/blog/managing-multiple-clients-efficiently" },
+      { "label": "Para Agencias", "to": "/agencies" },
+      { "label": "Para Abogados", "to": "/lawyers" },
+      { "label": "Facturación Recurrente", "to": "/use-cases/recurring-billing" }
     ]
   },
   "cta": {
-    "title": "Lock in recurring revenue",
-    "description": "Set up retainer billing in minutes. Start free — no credit card required.",
-    "button": "Get Started Free"
+    "title": "Asegura ingresos recurrentes",
+    "description": "Configura la facturación por retainer en minutos. Empieza gratis — sin tarjeta de crédito.",
+    "button": "Empezar Gratis"
   }
 }

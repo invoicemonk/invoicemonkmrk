@@ -42,7 +42,7 @@ const BlogPost = () => {
   const enhancedContent = useMemo(() => {
     if (!post) return '';
     const { pillar: p } = getPostClusterInfo(post.slug);
-    const withLinks = enhanceInternalLinks(post.content);
+    const withLinks = enhanceInternalLinks(post.content, urlLang || 'en');
     const glossaryTerms = getGlossaryTermsForPillar(p?.id);
     return linkGlossaryTermsInText(withLinks, glossaryTerms);
   }, [post]);

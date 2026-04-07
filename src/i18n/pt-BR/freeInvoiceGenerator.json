@@ -122,10 +122,13 @@
     "address": "Endereço",
     "email": "E-mail",
     "phone": "Telefone",
+    "businessTaxId": "CNPJ / CPF / Número fiscal",
     "billTo": "Cobrar de",
     "clientName": "Nome do cliente",
     "clientAddress": "Endereço do cliente",
     "clientEmail": "E-mail do cliente",
+    "clientTaxId": "CNPJ/CPF do cliente (opcional)",
+    "taxId": "CNPJ/CPF",
     "invoiceDetails": "Detalhes da fatura",
     "invoiceNumber": "Fatura #",
     "currency": "Moeda",
@@ -137,6 +140,7 @@
     "rate": "Valor",
     "amount": "Total",
     "itemDescription": "Descrição do item",
+    "itemTax": "Imposto %",
     "addItem": "Adicionar item",
     "taxDiscount": "Impostos e descontos",
     "taxRate": "Taxa de imposto (%)",
@@ -167,6 +171,15 @@
     "noSavedInvoices": "Nenhuma fatura salva",
     "invoiceSaved": "Fatura salva",
     "invoiceDeleted": "Fatura excluída",
-    "invoiceLoaded": "Fatura carregada"
+    "invoiceLoaded": "Fatura carregada",
+    "validation": {
+      "title": "Campos ausentes",
+      "businessName": "O nome da empresa está vazio",
+      "clientName": "O nome do cliente está vazio",
+      "invoiceNumber": "O número da fatura está vazio",
+      "noDescriptions": "Nenhum item possui descrição",
+      "zeroAmount": "Todos os itens possuem valor zero",
+      "taxIdRecommended": "CNPJ/CPF recomendado para conformidade fiscal"
+    }
   }
 }

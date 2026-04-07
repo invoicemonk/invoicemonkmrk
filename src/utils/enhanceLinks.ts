@@ -62,8 +62,11 @@ function isExternalLink(href: string): boolean {
  * - Adds semantic classes to internal links based on link type
  * - Preserves existing attributes
  */
-export function enhanceInternalLinks(html: string): string {
+export function enhanceInternalLinks(html: string, langPrefix: string = 'en'): string {
   if (!html) return html;
+
+  // Replace __LANG__ placeholder with actual language prefix
+  html = html.replace(/__LANG__/g, langPrefix);
   
   // Regular expression to match anchor tags
   const anchorRegex = /<a\s+([^>]*?)href=["']([^"']+)["']([^>]*)>(.*?)<\/a>/gi;

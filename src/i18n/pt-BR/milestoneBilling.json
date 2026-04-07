@@ -1,107 +1,107 @@
 {
   "seo": {
-    "title": "Milestone Billing & Progress Invoicing | Invoicemonk",
-    "description": "Bill clients at project milestones with deposit, progress, and final invoices. Perfect for photographers, developers, and project-based businesses. Free tier available."
+    "title": "Faturamento por Marcos e Faturamento Progressivo | Invoicemonk",
+    "description": "Fature clientes nos marcos do projeto com faturas de depósito, progresso e final. Perfeito para fotógrafos, desenvolvedores e negócios baseados em projetos. Plano gratuito disponível."
   },
   "hero": {
-    "badge": "Milestone Billing",
-    "title": "Bill at every project milestone",
-    "accentWord": "milestone",
-    "description": "Collect deposits, send progress invoices, and bill final balances — all tied to clear project milestones.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing"
+    "badge": "Faturamento por Marcos",
+    "title": "Fature em cada marco do projeto",
+    "accentWord": "marco",
+    "description": "Colete depósitos, envie faturas de progresso e fature saldos finais — tudo vinculado a marcos claros do projeto.",
+    "primaryCta": "Começar Grátis",
+    "secondaryCta": "Ver Preços"
   },
   "overview": {
-    "title": "Why milestone billing is the smartest way to invoice projects",
+    "title": "Por que o faturamento por marcos é a forma mais inteligente de faturar projetos",
     "paragraphs": [
-      "Waiting until a project is complete to send an invoice is one of the biggest cash flow mistakes service businesses make. Milestone billing solves this by breaking payment into phases that align with project deliverables — ensuring you're compensated as you deliver value, not weeks or months after the work is done. For the client, it provides built-in checkpoints where they can review progress before the next payment is due, building trust on both sides.",
-      "The psychology behind milestone billing is powerful. Clients who pay in stages feel more invested in the project's success and are more engaged with feedback and approvals. From your perspective, regular payments maintain healthy cash flow and reduce the financial risk of large projects. If a project is cancelled mid-way, you've already been compensated for the work completed — unlike the all-or-nothing approach where cancellation means chasing payment for work already delivered.",
-      "Invoicemonk makes milestone billing straightforward. Create invoices for each phase with clear descriptions of the deliverables, link them to the same client and project, and track the overall project value against payments received. Your client can verify each invoice through their portal, creating a transparent record that eliminates disputes and builds long-term trust."
+      "Esperar até que um projeto esteja completo para enviar uma fatura é um dos maiores erros de fluxo de caixa que empresas de serviços cometem. O faturamento por marcos resolve isso dividindo o pagamento em fases alinhadas com os entregáveis do projeto — garantindo que você seja compensado à medida que entrega valor, não semanas ou meses depois que o trabalho está feito. Para o cliente, fornece pontos de verificação integrados onde eles podem revisar o progresso antes do próximo pagamento ser devido, construindo confiança em ambos os lados.",
+      "A psicologia por trás do faturamento por marcos é poderosa. Clientes que pagam em etapas se sentem mais investidos no sucesso do projeto e estão mais engajados com feedback e aprovações. Da sua perspectiva, pagamentos regulares mantêm um fluxo de caixa saudável e reduzem o risco financeiro de projetos grandes. Se um projeto é cancelado no meio, você já foi compensado pelo trabalho concluído — diferente da abordagem tudo-ou-nada onde o cancelamento significa correr atrás do pagamento por trabalho já entregue.",
+      "O Invoicemonk torna o faturamento por marcos simples. Crie faturas para cada fase com descrições claras dos entregáveis, vincule-as ao mesmo cliente e projeto e acompanhe o valor total do projeto em relação aos pagamentos recebidos. Seu cliente pode verificar cada fatura através do portal, criando um registro transparente que elimina disputas e constrói confiança a longo prazo."
     ]
   },
   "howItWorks": {
-    "title": "How milestone billing works",
-    "subtitle": "Break projects into billable phases for better cash flow and client trust",
+    "title": "Como funciona o faturamento por marcos",
+    "subtitle": "Divida projetos em fases faturáveis para melhor fluxo de caixa e confiança do cliente",
     "steps": [
-      { "title": "1. Deposit invoice", "desc": "Collect an upfront payment (typically 25–50%) before work begins. This secures the client's commitment and covers your initial investment." },
-      { "title": "2. Progress invoices", "desc": "Bill at each milestone as work is delivered and approved. Each invoice references the specific deliverables completed in that phase." },
-      { "title": "3. Final invoice", "desc": "Send the remaining balance upon project completion. With most of the project already paid, collection is smooth and straightforward." }
+      { "title": "1. Fatura de depósito", "desc": "Colete um pagamento inicial (tipicamente 25-50%) antes do início do trabalho. Isso garante o compromisso do cliente e cobre seu investimento inicial." },
+      { "title": "2. Faturas de progresso", "desc": "Fature em cada marco à medida que o trabalho é entregue e aprovado. Cada fatura referencia os entregáveis específicos completados naquela fase." },
+      { "title": "3. Fatura final", "desc": "Envie o saldo restante na conclusão do projeto. Com a maior parte do projeto já paga, a cobrança é tranquila e direta." }
     ]
   },
   "features": {
-    "title": "How Invoicemonk supports milestone billing",
-    "subtitle": "Tools designed for project-based professionals",
+    "title": "Como o Invoicemonk suporta o faturamento por marcos",
+    "subtitle": "Ferramentas projetadas para profissionais baseados em projetos",
     "items": [
-      { "title": "Draft All Milestones Upfront", "desc": "Create all milestone invoices as drafts when the project begins. Send each one as the corresponding phase is completed — your client knows exactly what to expect and when." },
-      { "title": "Client Verification Portal", "desc": "Clients can view all invoices for their project in one place, verify amounts, and download receipts. Transparency eliminates disputes before they start." },
-      { "title": "Flexible Payment Splits", "desc": "Split projects any way you need — 50/50, 30/40/30, or custom percentages per milestone. Each invoice clearly shows the phase, deliverables, and amount due." },
-      { "title": "Tax-Compliant Invoices", "desc": "Every milestone invoice includes the correct tax calculations for your jurisdiction. VAT, GST, and withholding tax are handled automatically so your invoices are always compliant." },
-      { "title": "Payment Tracking Per Project", "desc": "See total project value, amount invoiced, amount paid, and outstanding balance at a glance. Know exactly where each project stands financially." },
-      { "title": "Scope Change Documentation", "desc": "When project scope changes, create additional milestone invoices to document the new work. Your complete invoice history serves as a transparent record of all project changes." }
+      { "title": "Rascunho de Todos os Marcos Antecipadamente", "desc": "Crie todas as faturas de marcos como rascunhos quando o projeto começa. Envie cada uma conforme a fase correspondente é concluída — seu cliente sabe exatamente o que esperar e quando." },
+      { "title": "Portal de Verificação do Cliente", "desc": "Os clientes podem ver todas as faturas do seu projeto em um só lugar, verificar valores e baixar recibos. A transparência elimina disputas antes que comecem." },
+      { "title": "Divisão Flexível de Pagamentos", "desc": "Divida projetos da forma que precisar — 50/50, 30/40/30 ou porcentagens personalizadas por marco. Cada fatura mostra claramente a fase, os entregáveis e o valor devido." },
+      { "title": "Faturas em Conformidade Fiscal", "desc": "Cada fatura de marco inclui os cálculos de impostos corretos para sua jurisdição. IVA, ICMS e retenção fiscal são tratados automaticamente para que suas faturas estejam sempre em conformidade." },
+      { "title": "Rastreamento de Pagamentos por Projeto", "desc": "Veja o valor total do projeto, valor faturado, valor pago e saldo pendente de relance. Saiba exatamente onde cada projeto está financeiramente." },
+      { "title": "Documentação de Mudanças de Escopo", "desc": "Quando o escopo do projeto muda, crie faturas de marcos adicionais para documentar o novo trabalho. Seu histórico completo de faturas serve como um registro transparente de todas as mudanças do projeto." }
     ]
   },
   "example": {
-    "title": "Milestone billing in action",
-    "scenario": "Scenario: A wedding photographer's 3-phase billing",
+    "title": "Faturamento por marcos em ação",
+    "scenario": "Cenário: Faturamento em 3 fases de um fotógrafo de casamentos",
     "paragraphs": [
-      "Ngozi is a wedding photographer in Lagos who books 15–20 weddings per year at an average of ₦500,000 per event. She uses a three-milestone billing structure: 40% booking deposit when the client signs the contract, 30% on the day of the wedding, and 30% upon delivery of the final edited photos.",
-      "Before Invoicemonk, Ngozi tracked payments in a spreadsheet and occasionally forgot to send the final invoice — losing thousands of naira in uncollected balances. With milestone billing in Invoicemonk, she creates all three invoices as drafts when booking a client. The deposit invoice sends immediately, and she marks the remaining two for manual send when each milestone is reached.",
-      "The result: zero missed invoices, faster final payments (clients expect the invoice because they can see it in their portal), and a complete financial record for each wedding project."
+      "Camila é uma fotógrafa de casamentos em São Paulo que reserva entre 15 e 20 casamentos por ano a um valor médio de R$ 8.000 por evento. Ela usa uma estrutura de faturamento em três marcos: 40% de depósito de reserva quando o cliente assina o contrato, 30% no dia do casamento e 30% na entrega das fotos editadas finais.",
+      "Antes do Invoicemonk, Camila rastreava os pagamentos em uma planilha e ocasionalmente esquecia de enviar a fatura final — perdendo centenas de reais em saldos não cobrados. Com o faturamento por marcos no Invoicemonk, ela cria as três faturas como rascunhos ao reservar um cliente. A fatura de depósito é enviada imediatamente, e ela marca as duas restantes para envio manual quando cada marco é alcançado.",
+      "O resultado: zero faturas esquecidas, pagamentos finais mais rápidos (os clientes esperam a fatura porque podem vê-la no portal), e um registro financeiro completo de cada projeto de casamento."
     ],
     "stats": [
-      { "value": "40%", "label": "Booking deposit" },
-      { "value": "30%", "label": "Event day payment" },
-      { "value": "30%", "label": "Final delivery" }
+      { "value": "40%", "label": "Depósito de reserva" },
+      { "value": "30%", "label": "Pagamento do dia do evento" },
+      { "value": "30%", "label": "Entrega final" }
     ]
   },
   "idealFor": {
-    "title": "Ideal for project-based professionals",
-    "subtitle": "Any service with distinct project phases benefits from milestone billing",
+    "title": "Ideal para profissionais baseados em projetos",
+    "subtitle": "Qualquer serviço com fases de projeto distintas se beneficia do faturamento por marcos",
     "items": [
-      "Wedding & event photographers",
-      "Web designers & developers",
-      "Architects & builders",
-      "Marketing & creative agencies",
-      "Interior designers",
-      "Video production teams",
-      "Custom software developers",
-      "Event planners and coordinators"
+      "Fotógrafos de casamentos e eventos",
+      "Designers e desenvolvedores web",
+      "Arquitetos e construtores",
+      "Agências de marketing e criativas",
+      "Designers de interiores",
+      "Equipes de produção de vídeo",
+      "Desenvolvedores de software sob medida",
+      "Planejadores e coordenadores de eventos"
     ]
   },
   "testimonials": {
-    "title": "How professionals use milestone billing",
+    "title": "Como profissionais usam o faturamento por marcos",
     "items": [
-      { "quote": "I used to lose money on every project because I'd forget to send the final invoice. Now all milestones are set up from day one and nothing slips through.", "name": "Emeka O.", "role": "Web Developer, Enugu" },
-      { "quote": "My clients appreciate seeing all the milestone invoices upfront. It sets clear expectations about payment timing and they're always prepared.", "name": "Aisha B.", "role": "Interior Designer, Abuja" },
-      { "quote": "Milestone billing cut our payment collection time in half. Clients who can see the next invoice coming are far more likely to pay on time.", "name": "Tom R.", "role": "Video Producer, London" }
+      { "quote": "Eu costumava perder dinheiro em cada projeto porque esquecia de enviar a fatura final. Agora todos os marcos são configurados desde o primeiro dia e nada escapa.", "name": "Diego R.", "role": "Desenvolvedor Web, Porto Alegre" },
+      { "quote": "Meus clientes apreciam ver todas as faturas de marcos antecipadamente. Estabelece expectativas claras sobre o momento do pagamento e eles estão sempre preparados.", "name": "Beatriz M.", "role": "Designer de Interiores, Rio de Janeiro" },
+      { "quote": "O faturamento por marcos cortou nosso tempo de cobrança pela metade. Clientes que podem ver a próxima fatura chegando têm muito mais probabilidade de pagar no prazo.", "name": "Thiago V.", "role": "Produtor de Vídeo, Brasília" }
     ]
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Perguntas frequentes",
     "items": [
-      { "question": "What is milestone billing?", "answer": "Milestone billing splits a project into distinct phases, with payment due at the completion of each phase. For example, a web developer might bill 30% as a deposit, 40% at design approval, and the remaining 30% at launch. This model protects both the service provider and the client by tying payments to tangible deliverables." },
-      { "question": "How do I create milestone invoices in Invoicemonk?", "answer": "Create separate invoices for each milestone with clear descriptions of the deliverables completed. Link them to the same client for easy tracking. You can also create all milestone invoices upfront as drafts and send them as each phase is completed." },
-      { "question": "Can I combine milestone billing with deposits?", "answer": "Absolutely. The most common approach is to send a deposit invoice before work begins (typically 25–50% of the total), then progress invoices at each milestone, and a final balance invoice at completion. Invoicemonk tracks all linked invoices so you can see the total project value and amount collected at a glance." },
-      { "question": "What industries use milestone billing?", "answer": "Milestone billing is standard in photography (booking → proofs → finals), web development (deposit → design → development → launch), construction (foundation → framing → completion), architecture, consulting engagements, video production, and any project-based service with distinct phases." },
-      { "question": "How does milestone billing protect my cash flow?", "answer": "By collecting payment at each project phase, you avoid the risk of completing an entire project before receiving any payment. If a client becomes unresponsive or disputes the work, your exposure is limited to the current phase rather than the full project value." },
-      { "question": "Can clients see all their milestone invoices in one place?", "answer": "Yes. Clients can access their invoice history through Invoicemonk's verification portal, where they can view all invoices related to their project, check payment status, and download receipts for their records." },
-      { "question": "What percentage should I charge as a deposit?", "answer": "Industry standards vary, but most service providers charge 25–50% as an initial deposit. For high-value projects, a 30% deposit is common. The deposit covers your initial investment of time and materials and signals the client's commitment to the project." },
-      { "question": "Can I adjust milestone amounts after the project starts?", "answer": "Yes. If the project scope changes, you can create additional milestone invoices or adjust upcoming ones. Invoicemonk keeps a complete history of all invoices, so scope changes are fully documented for both parties." }
+      { "question": "O que é faturamento por marcos?", "answer": "O faturamento por marcos divide um projeto em fases distintas, com pagamento devido na conclusão de cada fase. Por exemplo, um desenvolvedor web pode faturar 30% como depósito, 40% na aprovação do design e os 30% restantes no lançamento. Este modelo protege tanto o prestador de serviço quanto o cliente ao vincular pagamentos a entregáveis tangíveis." },
+      { "question": "Como crio faturas por marcos no Invoicemonk?", "answer": "Crie faturas separadas para cada marco com descrições claras dos entregáveis completados. Vincule-as ao mesmo cliente para fácil rastreamento. Você também pode criar todas as faturas de marcos antecipadamente como rascunhos e enviá-las conforme cada fase é concluída." },
+      { "question": "Posso combinar faturamento por marcos com depósitos?", "answer": "Com certeza. A abordagem mais comum é enviar uma fatura de depósito antes do início do trabalho (tipicamente 25-50% do total), depois faturas de progresso em cada marco, e uma fatura de saldo final na conclusão. O Invoicemonk rastreia todas as faturas vinculadas para que você veja o valor total do projeto e o valor cobrado de relance." },
+      { "question": "Quais indústrias usam faturamento por marcos?", "answer": "O faturamento por marcos é padrão em fotografia (reserva → provas → finais), desenvolvimento web (depósito → design → desenvolvimento → lançamento), construção (fundação → estrutura → acabamento), arquitetura, consultoria, produção de vídeo e qualquer serviço baseado em projetos com fases distintas." },
+      { "question": "Como o faturamento por marcos protege meu fluxo de caixa?", "answer": "Ao cobrar pagamentos em cada fase do projeto, você evita o risco de completar um projeto inteiro antes de receber qualquer pagamento. Se um cliente para de responder ou disputa o trabalho, sua exposição é limitada à fase atual em vez do valor total do projeto." },
+      { "question": "Os clientes podem ver todas as suas faturas de marcos em um só lugar?", "answer": "Sim. Os clientes podem acessar seu histórico de faturas pelo portal de verificação do Invoicemonk, onde podem ver todas as faturas relacionadas ao projeto, verificar o status do pagamento e baixar recibos para seus registros." },
+      { "question": "Qual porcentagem devo cobrar como depósito?", "answer": "Os padrões da indústria variam, mas a maioria dos prestadores de serviços cobra entre 25-50% como depósito inicial. Para projetos de alto valor, um depósito de 30% é comum. O depósito cobre seu investimento inicial de tempo e materiais e sinaliza o compromisso do cliente com o projeto." },
+      { "question": "Posso ajustar os valores dos marcos após o início do projeto?", "answer": "Sim. Se o escopo do projeto mudar, você pode criar faturas de marcos adicionais ou ajustar as próximas. O Invoicemonk mantém um histórico completo de todas as faturas, para que as mudanças de escopo fiquem totalmente documentadas para ambas as partes." }
     ]
   },
   "related": {
-    "title": "Related reading",
+    "title": "Leitura relacionada",
     "links": [
-      { "label": "Pricing Your Services", "to": "/blog/pricing-your-freelance-services" },
-      { "label": "Invoice Essential Elements", "to": "/blog/invoice-essential-elements-guide" },
-      { "label": "For Photographers", "to": "/photographers" },
-      { "label": "For Creatives", "to": "/creatives" },
-      { "label": "Retainer Billing", "to": "/use-cases/retainer-billing" }
+      { "label": "Como Precificar Seus Serviços", "to": "/blog/pricing-your-freelance-services" },
+      { "label": "Elementos Essenciais de uma Fatura", "to": "/blog/invoice-essential-elements-guide" },
+      { "label": "Para Fotógrafos", "to": "/photographers" },
+      { "label": "Para Criativos", "to": "/creatives" },
+      { "label": "Faturamento por Retainer", "to": "/use-cases/retainer-billing" }
     ]
   },
   "cta": {
-    "title": "Start billing by milestone",
-    "description": "Protect your cash flow with milestone invoicing. Start free — no credit card required.",
-    "button": "Get Started Free"
+    "title": "Comece a faturar por marcos",
+    "description": "Proteja seu fluxo de caixa com o faturamento por marcos. Comece grátis — sem cartão de crédito.",
+    "button": "Começar Grátis"
   }
 }

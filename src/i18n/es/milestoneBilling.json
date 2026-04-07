@@ -1,107 +1,107 @@
 {
   "seo": {
-    "title": "Milestone Billing & Progress Invoicing | Invoicemonk",
-    "description": "Bill clients at project milestones with deposit, progress, and final invoices. Perfect for photographers, developers, and project-based businesses. Free tier available."
+    "title": "Facturación por Hitos y Facturación Progresiva | Invoicemonk",
+    "description": "Factura a clientes en los hitos del proyecto con facturas de depósito, progreso y final. Perfecto para fotógrafos, desarrolladores y negocios basados en proyectos. Plan gratuito disponible."
   },
   "hero": {
-    "badge": "Milestone Billing",
-    "title": "Bill at every project milestone",
-    "accentWord": "milestone",
-    "description": "Collect deposits, send progress invoices, and bill final balances — all tied to clear project milestones.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing"
+    "badge": "Facturación por Hitos",
+    "title": "Factura en cada hito del proyecto",
+    "accentWord": "hito",
+    "description": "Cobra depósitos, envía facturas de progreso y factura saldos finales — todo vinculado a hitos claros del proyecto.",
+    "primaryCta": "Empezar Gratis",
+    "secondaryCta": "Ver Precios"
   },
   "overview": {
-    "title": "Why milestone billing is the smartest way to invoice projects",
+    "title": "Por qué la facturación por hitos es la forma más inteligente de facturar proyectos",
     "paragraphs": [
-      "Waiting until a project is complete to send an invoice is one of the biggest cash flow mistakes service businesses make. Milestone billing solves this by breaking payment into phases that align with project deliverables — ensuring you're compensated as you deliver value, not weeks or months after the work is done. For the client, it provides built-in checkpoints where they can review progress before the next payment is due, building trust on both sides.",
-      "The psychology behind milestone billing is powerful. Clients who pay in stages feel more invested in the project's success and are more engaged with feedback and approvals. From your perspective, regular payments maintain healthy cash flow and reduce the financial risk of large projects. If a project is cancelled mid-way, you've already been compensated for the work completed — unlike the all-or-nothing approach where cancellation means chasing payment for work already delivered.",
-      "Invoicemonk makes milestone billing straightforward. Create invoices for each phase with clear descriptions of the deliverables, link them to the same client and project, and track the overall project value against payments received. Your client can verify each invoice through their portal, creating a transparent record that eliminates disputes and builds long-term trust."
+      "Esperar hasta que un proyecto esté completo para enviar una factura es uno de los mayores errores de flujo de caja que cometen las empresas de servicios. La facturación por hitos resuelve esto dividiendo el pago en fases alineadas con los entregables del proyecto — asegurando que te compensen a medida que entregas valor, no semanas o meses después de que el trabajo esté hecho. Para el cliente, proporciona puntos de control integrados donde pueden revisar el progreso antes de que venza el siguiente pago, construyendo confianza en ambos lados.",
+      "La psicología detrás de la facturación por hitos es poderosa. Los clientes que pagan por etapas se sienten más involucrados en el éxito del proyecto y están más comprometidos con la retroalimentación y las aprobaciones. Desde tu perspectiva, los pagos regulares mantienen un flujo de caja saludable y reducen el riesgo financiero de proyectos grandes. Si un proyecto se cancela a mitad de camino, ya has sido compensado por el trabajo completado — a diferencia del enfoque de todo o nada donde la cancelación significa perseguir el pago por trabajo ya entregado.",
+      "Invoicemonk hace que la facturación por hitos sea sencilla. Crea facturas para cada fase con descripciones claras de los entregables, vincúlalas al mismo cliente y proyecto, y rastrea el valor total del proyecto contra los pagos recibidos. Tu cliente puede verificar cada factura a través de su portal, creando un registro transparente que elimina disputas y construye confianza a largo plazo."
     ]
   },
   "howItWorks": {
-    "title": "How milestone billing works",
-    "subtitle": "Break projects into billable phases for better cash flow and client trust",
+    "title": "Cómo funciona la facturación por hitos",
+    "subtitle": "Divide proyectos en fases facturables para mejor flujo de caja y confianza del cliente",
     "steps": [
-      { "title": "1. Deposit invoice", "desc": "Collect an upfront payment (typically 25–50%) before work begins. This secures the client's commitment and covers your initial investment." },
-      { "title": "2. Progress invoices", "desc": "Bill at each milestone as work is delivered and approved. Each invoice references the specific deliverables completed in that phase." },
-      { "title": "3. Final invoice", "desc": "Send the remaining balance upon project completion. With most of the project already paid, collection is smooth and straightforward." }
+      { "title": "1. Factura de depósito", "desc": "Cobra un pago inicial (típicamente 25-50%) antes de comenzar el trabajo. Esto asegura el compromiso del cliente y cubre tu inversión inicial." },
+      { "title": "2. Facturas de progreso", "desc": "Factura en cada hito a medida que el trabajo se entrega y aprueba. Cada factura referencia los entregables específicos completados en esa fase." },
+      { "title": "3. Factura final", "desc": "Envía el saldo restante al completar el proyecto. Con la mayor parte del proyecto ya pagada, el cobro es fluido y directo." }
     ]
   },
   "features": {
-    "title": "How Invoicemonk supports milestone billing",
-    "subtitle": "Tools designed for project-based professionals",
+    "title": "Cómo Invoicemonk soporta la facturación por hitos",
+    "subtitle": "Herramientas diseñadas para profesionales basados en proyectos",
     "items": [
-      { "title": "Draft All Milestones Upfront", "desc": "Create all milestone invoices as drafts when the project begins. Send each one as the corresponding phase is completed — your client knows exactly what to expect and when." },
-      { "title": "Client Verification Portal", "desc": "Clients can view all invoices for their project in one place, verify amounts, and download receipts. Transparency eliminates disputes before they start." },
-      { "title": "Flexible Payment Splits", "desc": "Split projects any way you need — 50/50, 30/40/30, or custom percentages per milestone. Each invoice clearly shows the phase, deliverables, and amount due." },
-      { "title": "Tax-Compliant Invoices", "desc": "Every milestone invoice includes the correct tax calculations for your jurisdiction. VAT, GST, and withholding tax are handled automatically so your invoices are always compliant." },
-      { "title": "Payment Tracking Per Project", "desc": "See total project value, amount invoiced, amount paid, and outstanding balance at a glance. Know exactly where each project stands financially." },
-      { "title": "Scope Change Documentation", "desc": "When project scope changes, create additional milestone invoices to document the new work. Your complete invoice history serves as a transparent record of all project changes." }
+      { "title": "Borrador de Todos los Hitos por Adelantado", "desc": "Crea todas las facturas de hitos como borradores cuando comienza el proyecto. Envía cada una a medida que se completa la fase correspondiente — tu cliente sabe exactamente qué esperar y cuándo." },
+      { "title": "Portal de Verificación del Cliente", "desc": "Los clientes pueden ver todas las facturas de su proyecto en un solo lugar, verificar montos y descargar recibos. La transparencia elimina disputas antes de que empiecen." },
+      { "title": "División de Pagos Flexible", "desc": "Divide proyectos de la forma que necesites — 50/50, 30/40/30 o porcentajes personalizados por hito. Cada factura muestra claramente la fase, los entregables y el monto adeudado." },
+      { "title": "Facturas con Cumplimiento Fiscal", "desc": "Cada factura de hito incluye los cálculos de impuestos correctos para tu jurisdicción. IVA, IGIC e impuesto de retención se manejan automáticamente para que tus facturas siempre sean conformes." },
+      { "title": "Seguimiento de Pagos por Proyecto", "desc": "Consulta el valor total del proyecto, monto facturado, monto pagado y saldo pendiente de un vistazo. Sabe exactamente dónde está cada proyecto financieramente." },
+      { "title": "Documentación de Cambios de Alcance", "desc": "Cuando el alcance del proyecto cambia, crea facturas de hitos adicionales para documentar el nuevo trabajo. Tu historial completo de facturas sirve como un registro transparente de todos los cambios del proyecto." }
     ]
   },
   "example": {
-    "title": "Milestone billing in action",
-    "scenario": "Scenario: A wedding photographer's 3-phase billing",
+    "title": "Facturación por hitos en acción",
+    "scenario": "Escenario: Facturación en 3 fases de un fotógrafo de bodas",
     "paragraphs": [
-      "Ngozi is a wedding photographer in Lagos who books 15–20 weddings per year at an average of ₦500,000 per event. She uses a three-milestone billing structure: 40% booking deposit when the client signs the contract, 30% on the day of the wedding, and 30% upon delivery of the final edited photos.",
-      "Before Invoicemonk, Ngozi tracked payments in a spreadsheet and occasionally forgot to send the final invoice — losing thousands of naira in uncollected balances. With milestone billing in Invoicemonk, she creates all three invoices as drafts when booking a client. The deposit invoice sends immediately, and she marks the remaining two for manual send when each milestone is reached.",
-      "The result: zero missed invoices, faster final payments (clients expect the invoice because they can see it in their portal), and a complete financial record for each wedding project."
+      "Marta es una fotógrafa de bodas en Madrid que reserva entre 15 y 20 bodas al año a un promedio de €3.000 por evento. Usa una estructura de facturación en tres hitos: 40% de depósito de reserva cuando el cliente firma el contrato, 30% el día de la boda y 30% al entregar las fotos editadas finales.",
+      "Antes de Invoicemonk, Marta rastreaba los pagos en una hoja de cálculo y ocasionalmente olvidaba enviar la factura final — perdiendo cientos de euros en saldos no cobrados. Con la facturación por hitos en Invoicemonk, crea las tres facturas como borradores al reservar un cliente. La factura de depósito se envía inmediatamente, y marca las dos restantes para envío manual cuando se alcanza cada hito.",
+      "El resultado: cero facturas olvidadas, pagos finales más rápidos (los clientes esperan la factura porque pueden verla en su portal), y un registro financiero completo de cada proyecto de boda."
     ],
     "stats": [
-      { "value": "40%", "label": "Booking deposit" },
-      { "value": "30%", "label": "Event day payment" },
-      { "value": "30%", "label": "Final delivery" }
+      { "value": "40%", "label": "Depósito de reserva" },
+      { "value": "30%", "label": "Pago del día del evento" },
+      { "value": "30%", "label": "Entrega final" }
     ]
   },
   "idealFor": {
-    "title": "Ideal for project-based professionals",
-    "subtitle": "Any service with distinct project phases benefits from milestone billing",
+    "title": "Ideal para profesionales basados en proyectos",
+    "subtitle": "Cualquier servicio con fases de proyecto distintas se beneficia de la facturación por hitos",
     "items": [
-      "Wedding & event photographers",
-      "Web designers & developers",
-      "Architects & builders",
-      "Marketing & creative agencies",
-      "Interior designers",
-      "Video production teams",
-      "Custom software developers",
-      "Event planners and coordinators"
+      "Fotógrafos de bodas y eventos",
+      "Diseñadores y desarrolladores web",
+      "Arquitectos y constructores",
+      "Agencias de marketing y creativas",
+      "Diseñadores de interiores",
+      "Equipos de producción de video",
+      "Desarrolladores de software a medida",
+      "Planificadores y coordinadores de eventos"
     ]
   },
   "testimonials": {
-    "title": "How professionals use milestone billing",
+    "title": "Cómo los profesionales usan la facturación por hitos",
     "items": [
-      { "quote": "I used to lose money on every project because I'd forget to send the final invoice. Now all milestones are set up from day one and nothing slips through.", "name": "Emeka O.", "role": "Web Developer, Enugu" },
-      { "quote": "My clients appreciate seeing all the milestone invoices upfront. It sets clear expectations about payment timing and they're always prepared.", "name": "Aisha B.", "role": "Interior Designer, Abuja" },
-      { "quote": "Milestone billing cut our payment collection time in half. Clients who can see the next invoice coming are far more likely to pay on time.", "name": "Tom R.", "role": "Video Producer, London" }
+      { "quote": "Solía perder dinero en cada proyecto porque olvidaba enviar la factura final. Ahora todos los hitos se configuran desde el día uno y nada se escapa.", "name": "Diego R.", "role": "Desarrollador Web, Bogotá" },
+      { "quote": "Mis clientes aprecian ver todas las facturas de hitos por adelantado. Establece expectativas claras sobre el momento del pago y siempre están preparados.", "name": "Ana M.", "role": "Diseñadora de Interiores, Buenos Aires" },
+      { "quote": "La facturación por hitos redujo nuestro tiempo de cobro a la mitad. Los clientes que pueden ver la próxima factura tienen muchas más probabilidades de pagar a tiempo.", "name": "Carlos V.", "role": "Productor de Video, Ciudad de México" }
     ]
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Preguntas frecuentes",
     "items": [
-      { "question": "What is milestone billing?", "answer": "Milestone billing splits a project into distinct phases, with payment due at the completion of each phase. For example, a web developer might bill 30% as a deposit, 40% at design approval, and the remaining 30% at launch. This model protects both the service provider and the client by tying payments to tangible deliverables." },
-      { "question": "How do I create milestone invoices in Invoicemonk?", "answer": "Create separate invoices for each milestone with clear descriptions of the deliverables completed. Link them to the same client for easy tracking. You can also create all milestone invoices upfront as drafts and send them as each phase is completed." },
-      { "question": "Can I combine milestone billing with deposits?", "answer": "Absolutely. The most common approach is to send a deposit invoice before work begins (typically 25–50% of the total), then progress invoices at each milestone, and a final balance invoice at completion. Invoicemonk tracks all linked invoices so you can see the total project value and amount collected at a glance." },
-      { "question": "What industries use milestone billing?", "answer": "Milestone billing is standard in photography (booking → proofs → finals), web development (deposit → design → development → launch), construction (foundation → framing → completion), architecture, consulting engagements, video production, and any project-based service with distinct phases." },
-      { "question": "How does milestone billing protect my cash flow?", "answer": "By collecting payment at each project phase, you avoid the risk of completing an entire project before receiving any payment. If a client becomes unresponsive or disputes the work, your exposure is limited to the current phase rather than the full project value." },
-      { "question": "Can clients see all their milestone invoices in one place?", "answer": "Yes. Clients can access their invoice history through Invoicemonk's verification portal, where they can view all invoices related to their project, check payment status, and download receipts for their records." },
-      { "question": "What percentage should I charge as a deposit?", "answer": "Industry standards vary, but most service providers charge 25–50% as an initial deposit. For high-value projects, a 30% deposit is common. The deposit covers your initial investment of time and materials and signals the client's commitment to the project." },
-      { "question": "Can I adjust milestone amounts after the project starts?", "answer": "Yes. If the project scope changes, you can create additional milestone invoices or adjust upcoming ones. Invoicemonk keeps a complete history of all invoices, so scope changes are fully documented for both parties." }
+      { "question": "¿Qué es la facturación por hitos?", "answer": "La facturación por hitos divide un proyecto en fases distintas, con pago debido al completar cada fase. Por ejemplo, un desarrollador web puede facturar 30% como depósito, 40% al aprobar el diseño y el 30% restante al lanzamiento. Este modelo protege tanto al proveedor de servicios como al cliente al vincular los pagos a entregables tangibles." },
+      { "question": "¿Cómo creo facturas por hitos en Invoicemonk?", "answer": "Crea facturas separadas para cada hito con descripciones claras de los entregables completados. Vincúlalas al mismo cliente para fácil seguimiento. También puedes crear todas las facturas de hitos por adelantado como borradores y enviarlas a medida que se completa cada fase." },
+      { "question": "¿Puedo combinar la facturación por hitos con depósitos?", "answer": "Por supuesto. El enfoque más común es enviar una factura de depósito antes de comenzar el trabajo (típicamente 25-50% del total), luego facturas de progreso en cada hito, y una factura de saldo final al completar. Invoicemonk rastrea todas las facturas vinculadas para que puedas ver el valor total del proyecto y el monto cobrado de un vistazo." },
+      { "question": "¿Qué industrias usan la facturación por hitos?", "answer": "La facturación por hitos es estándar en fotografía (reserva → pruebas → finales), desarrollo web (depósito → diseño → desarrollo → lanzamiento), construcción (cimentación → estructura → acabado), arquitectura, consultoría, producción de video, y cualquier servicio basado en proyectos con fases distintas." },
+      { "question": "¿Cómo protege la facturación por hitos mi flujo de caja?", "answer": "Al cobrar pagos en cada fase del proyecto, evitas el riesgo de completar un proyecto entero antes de recibir cualquier pago. Si un cliente deja de responder o disputa el trabajo, tu exposición se limita a la fase actual en lugar del valor total del proyecto." },
+      { "question": "¿Los clientes pueden ver todas sus facturas de hitos en un solo lugar?", "answer": "Sí. Los clientes pueden acceder a su historial de facturas a través del portal de verificación de Invoicemonk, donde pueden ver todas las facturas relacionadas con su proyecto, verificar el estado de pago y descargar recibos para sus registros." },
+      { "question": "¿Qué porcentaje debo cobrar como depósito?", "answer": "Los estándares de la industria varían, pero la mayoría de proveedores de servicios cobran entre 25-50% como depósito inicial. Para proyectos de alto valor, un depósito del 30% es común. El depósito cubre tu inversión inicial de tiempo y materiales y señala el compromiso del cliente con el proyecto." },
+      { "question": "¿Puedo ajustar los montos de los hitos después de comenzar el proyecto?", "answer": "Sí. Si el alcance del proyecto cambia, puedes crear facturas de hitos adicionales o ajustar las próximas. Invoicemonk mantiene un historial completo de todas las facturas, para que los cambios de alcance queden totalmente documentados para ambas partes." }
     ]
   },
   "related": {
-    "title": "Related reading",
+    "title": "Lectura relacionada",
     "links": [
-      { "label": "Pricing Your Services", "to": "/blog/pricing-your-freelance-services" },
-      { "label": "Invoice Essential Elements", "to": "/blog/invoice-essential-elements-guide" },
-      { "label": "For Photographers", "to": "/photographers" },
-      { "label": "For Creatives", "to": "/creatives" },
-      { "label": "Retainer Billing", "to": "/use-cases/retainer-billing" }
+      { "label": "Cómo Fijar Precios de Tus Servicios", "to": "/blog/pricing-your-freelance-services" },
+      { "label": "Elementos Esenciales de una Factura", "to": "/blog/invoice-essential-elements-guide" },
+      { "label": "Para Fotógrafos", "to": "/photographers" },
+      { "label": "Para Creativos", "to": "/creatives" },
+      { "label": "Facturación por Retainer", "to": "/use-cases/retainer-billing" }
     ]
   },
   "cta": {
-    "title": "Start billing by milestone",
-    "description": "Protect your cash flow with milestone invoicing. Start free — no credit card required.",
-    "button": "Get Started Free"
+    "title": "Empieza a facturar por hitos",
+    "description": "Protege tu flujo de caja con la facturación por hitos. Empieza gratis — sin tarjeta de crédito.",
+    "button": "Empezar Gratis"
   }
 }

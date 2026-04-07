@@ -122,10 +122,13 @@
     "address": "Dirección",
     "email": "Correo electrónico",
     "phone": "Teléfono",
+    "businessTaxId": "NIF / CIF / Número de IVA",
     "billTo": "Facturar a",
     "clientName": "Nombre del cliente",
     "clientAddress": "Dirección del cliente",
     "clientEmail": "Correo del cliente",
+    "clientTaxId": "NIF del cliente (opcional)",
+    "taxId": "NIF",
     "invoiceDetails": "Detalles de la factura",
     "invoiceNumber": "Factura #",
     "currency": "Moneda",
@@ -137,6 +140,7 @@
     "rate": "Tarifa",
     "amount": "Monto",
     "itemDescription": "Descripción del artículo",
+    "itemTax": "Impuesto %",
     "addItem": "Agregar artículo",
     "taxDiscount": "Impuestos y descuentos",
     "taxRate": "Tasa de impuesto (%)",
@@ -167,6 +171,15 @@
     "noSavedInvoices": "No hay facturas guardadas",
     "invoiceSaved": "Factura guardada",
     "invoiceDeleted": "Factura eliminada",
-    "invoiceLoaded": "Factura cargada"
+    "invoiceLoaded": "Factura cargada",
+    "validation": {
+      "title": "Campos faltantes",
+      "businessName": "El nombre de la empresa está vacío",
+      "clientName": "El nombre del cliente está vacío",
+      "invoiceNumber": "El número de factura está vacío",
+      "noDescriptions": "Ningún artículo tiene descripción",
+      "zeroAmount": "Todos los artículos tienen un monto de cero",
+      "taxIdRecommended": "NIF recomendado para el cumplimiento fiscal"
+    }
   }
 }

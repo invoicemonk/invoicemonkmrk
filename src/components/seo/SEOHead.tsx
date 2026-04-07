@@ -48,8 +48,9 @@ export function SEOHead({
   // Relative page path without language prefix (e.g. "/pricing")
   const relPath = stripLanguagePrefix(location.pathname);
 
-  // Route prefixes that have translated content — canonical should self-reference
-  const translatedPrefixes = [
+  // Route prefixes that have REAL translated content — canonical should self-reference
+  // Only include prefixes where /de/, /fr/, /es/, /pt/ actually have unique translations
+  const fullyTranslatedPrefixes = [
     '/blog', '/help', '/glossary',
     '/invoicing', '/expenses', '/payments', '/accounting',
     '/estimates', '/receipts', '/client-management',
@@ -63,7 +64,7 @@ export function SEOHead({
     '/use-cases', '/guides', '/tools', '/partner-program',
     '/privacy-policy', '/terms-of-service', '/cookie-policy', '/legal',
   ];
-  const isTranslatedRoute = translatedPrefixes.some(p => relPath.startsWith(p));
+  const isTranslatedRoute = fullyTranslatedPrefixes.some(p => relPath.startsWith(p));
 
   // For non-translated routes under a non-English language prefix,
   // override canonical to point to the /en/ equivalent to avoid duplicate content

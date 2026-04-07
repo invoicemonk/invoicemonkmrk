@@ -1,106 +1,106 @@
 {
   "seo": {
-    "title": "Recurring Billing & Subscription Invoicing | Invoicemonk",
-    "description": "Automate recurring invoices for retainer clients, subscriptions, and repeat services. Set it up once and get paid on schedule. Free tier available."
+    "title": "Facturation Récurrente et Abonnements | Invoicemonk",
+    "description": "Automatisez les factures récurrentes pour les clients en retainer, abonnements et services répétitifs. Configurez une seule fois et soyez payé à temps. Offre gratuite disponible."
   },
   "hero": {
-    "badge": "Recurring Billing",
-    "title": "Automate your recurring invoices",
-    "accentWord": "recurring",
-    "description": "Set up billing schedules for retainer clients, subscriptions, and monthly services. Invoicemonk sends invoices automatically so you never miss a billing cycle.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing"
+    "badge": "Facturation Récurrente",
+    "title": "Automatisez vos factures récurrentes",
+    "accentWord": "récurrentes",
+    "description": "Configurez des calendriers de facturation pour les clients en retainer, abonnements et services mensuels. Invoicemonk envoie les factures automatiquement pour que vous ne manquiez jamais un cycle de facturation.",
+    "primaryCta": "Commencer Gratuitement",
+    "secondaryCta": "Voir les Tarifs"
   },
   "overview": {
-    "title": "Why recurring billing matters for your business",
+    "title": "Pourquoi la facturation récurrente est importante pour votre entreprise",
     "paragraphs": [
-      "Recurring billing is the backbone of predictable revenue. Whether you run a marketing agency billing retainer clients monthly, a SaaS company collecting subscription fees, or a consultancy with ongoing engagements, the ability to automate your invoicing cycle eliminates manual work and ensures you get paid consistently. Without automation, businesses lose an average of 5–10 hours per month on repetitive invoicing tasks — time better spent serving clients and growing revenue.",
-      "The challenge with manual recurring billing isn't just the time cost — it's the errors. Missed invoices, incorrect amounts, forgotten tax adjustments, and inconsistent payment terms erode client trust and create accounting headaches. A single missed billing cycle can delay cash flow by 30–60 days, especially when clients use the oversight as an excuse to defer payment.",
-      "Invoicemonk's recurring billing solves these problems by letting you define a schedule once and automating everything from invoice generation to delivery and payment reminders. Every invoice is numbered sequentially, tax-compliant, and branded with your business identity — exactly as if you had created it manually, but without lifting a finger."
+      "La facturation récurrente est le pilier des revenus prévisibles. Que vous dirigiez une agence de marketing facturant des clients en retainer mensuellement, une entreprise SaaS collectant des frais d'abonnement, ou un cabinet de conseil avec des engagements continus, la capacité d'automatiser votre cycle de facturation élimine le travail manuel et garantit que vous êtes payé de manière cohérente. Sans automatisation, les entreprises perdent en moyenne 5 à 10 heures par mois sur des tâches de facturation répétitives — du temps mieux investi à servir les clients et développer le chiffre d'affaires.",
+      "Le défi de la facturation récurrente manuelle n'est pas seulement le coût en temps — ce sont les erreurs. Factures oubliées, montants incorrects, ajustements fiscaux manqués et conditions de paiement incohérentes érodent la confiance des clients et créent des maux de tête comptables. Un seul cycle de facturation manqué peut retarder la trésorerie de 30 à 60 jours, surtout quand les clients utilisent l'oubli comme excuse pour différer le paiement.",
+      "La facturation récurrente d'Invoicemonk résout ces problèmes en vous permettant de définir un calendrier une seule fois et d'automatiser tout, de la génération des factures à la livraison et aux rappels de paiement. Chaque facture est numérotée séquentiellement, conforme fiscalement et porte l'identité de votre marque — exactement comme si vous l'aviez créée manuellement, mais sans lever le petit doigt."
     ]
   },
   "howItWorks": {
-    "title": "How recurring billing works",
-    "subtitle": "Three steps to automated invoicing",
+    "title": "Comment fonctionne la facturation récurrente",
+    "subtitle": "Trois étapes vers la facturation automatisée",
     "steps": [
-      { "title": "1. Set a schedule", "desc": "Choose weekly, monthly, quarterly, or custom intervals. Define start and optional end dates for each billing cycle." },
-      { "title": "2. Invoices auto-generate", "desc": "Invoicemonk creates and sends each invoice on schedule with the correct line items, taxes, and payment terms." },
-      { "title": "3. Track payments", "desc": "Monitor payment status, outstanding balances, and recurring revenue trends in real time from your dashboard." }
+      { "title": "1. Définissez un calendrier", "desc": "Choisissez des intervalles hebdomadaires, mensuels, trimestriels ou personnalisés. Définissez des dates de début et optionnellement de fin pour chaque cycle de facturation." },
+      { "title": "2. Les factures se génèrent automatiquement", "desc": "Invoicemonk crée et envoie chaque facture selon le calendrier avec les postes, taxes et conditions de paiement corrects." },
+      { "title": "3. Suivez les paiements", "desc": "Surveillez l'état des paiements, les soldes impayés et les tendances des revenus récurrents en temps réel depuis votre tableau de bord." }
     ]
   },
   "features": {
-    "title": "How Invoicemonk makes recurring billing effortless",
-    "subtitle": "Every feature designed to save you time and protect your revenue",
+    "title": "Comment Invoicemonk rend la facturation récurrente sans effort",
+    "subtitle": "Chaque fonctionnalité conçue pour vous faire gagner du temps et protéger vos revenus",
     "items": [
-      { "title": "Flexible Schedules", "desc": "Weekly, biweekly, monthly, quarterly, or yearly — set any billing frequency that matches your client agreements. Define start dates, end dates, and even skip specific periods." },
-      { "title": "Automatic Reminders", "desc": "Clients receive professional payment reminders before and after due dates. Configure reminder intervals or use smart defaults that optimize payment collection." },
-      { "title": "Tax Compliance", "desc": "Every recurring invoice includes the correct tax rates for your jurisdiction. As tax rules change, update your rates once and all future invoices reflect the new amounts." },
-      { "title": "Per-Client Customization", "desc": "Each client can have unique line items, amounts, currencies, and payment terms. No two recurring schedules need to be the same — full flexibility for diverse client relationships." },
-      { "title": "Client Portal Access", "desc": "Clients can view their recurring invoice history, download past invoices, and verify payment status through their dedicated portal — reducing support inquiries." },
-      { "title": "Instant Adjustments", "desc": "Need to change a retainer amount mid-contract? Update the schedule and changes apply from the next cycle. Previous invoices remain unchanged for accurate records." }
+      { "title": "Calendriers Flexibles", "desc": "Hebdomadaire, bimensuel, mensuel, trimestriel ou annuel — définissez n'importe quelle fréquence de facturation correspondant à vos accords clients. Définissez des dates de début, de fin et même sautez des périodes spécifiques." },
+      { "title": "Rappels Automatiques", "desc": "Les clients reçoivent des rappels de paiement professionnels avant et après les dates d'échéance. Configurez les intervalles de rappel ou utilisez les paramètres intelligents par défaut qui optimisent le recouvrement." },
+      { "title": "Conformité Fiscale", "desc": "Chaque facture récurrente inclut les taux d'imposition corrects pour votre juridiction. Quand les règles fiscales changent, mettez à jour vos taux une seule fois et toutes les futures factures reflètent les nouveaux montants." },
+      { "title": "Personnalisation par Client", "desc": "Chaque client peut avoir des postes, montants, devises et conditions de paiement uniques. Aucun calendrier récurrent n'a besoin d'être identique — flexibilité totale pour des relations clients diversifiées." },
+      { "title": "Accès au Portail Client", "desc": "Les clients peuvent consulter leur historique de factures récurrentes, télécharger les factures passées et vérifier l'état des paiements via leur portail dédié — réduisant les demandes de support." },
+      { "title": "Ajustements Instantanés", "desc": "Besoin de modifier un montant de retainer en cours de contrat ? Mettez à jour le calendrier et les changements s'appliquent dès le prochain cycle. Les factures précédentes restent inchangées pour des registres précis." }
     ]
   },
   "example": {
-    "title": "Recurring billing in action",
-    "scenario": "Scenario: A marketing agency with 12 retainer clients",
+    "title": "La facturation récurrente en action",
+    "scenario": "Scénario : Une agence marketing avec 12 clients en retainer",
     "paragraphs": [
-      "Sarah runs a digital marketing agency with 12 monthly retainer clients ranging from ₦150,000 to ₦1,200,000 per month. Before Invoicemonk, she spent the first two days of every month manually creating invoices, copying line items, and adjusting payment terms for each client.",
-      "With Invoicemonk's recurring billing, Sarah set up 12 schedules in under an hour. Each schedule has the client's specific retainer amount, preferred currency, and payment terms (Net 15 for most, Net 30 for two enterprise clients). On the 1st of every month, all 12 invoices generate and deliver automatically.",
-      "The result: Sarah recovered 16+ hours per month in administrative time, reduced late payments by 40% thanks to automatic reminders, and her monthly recurring revenue is now tracked in real-time on her dashboard."
+      "Claire dirige une agence de marketing digital avec 12 clients en retainer mensuel allant de 1 500 € à 12 000 € par mois. Avant Invoicemonk, elle passait les deux premiers jours de chaque mois à créer manuellement des factures, copier les postes et ajuster les conditions de paiement pour chaque client.",
+      "Avec la facturation récurrente d'Invoicemonk, Claire a configuré 12 calendriers en moins d'une heure. Chaque calendrier a le montant spécifique du retainer du client, la devise préférée et les conditions de paiement (Net 15 pour la plupart, Net 30 pour deux clients entreprise). Le 1er de chaque mois, les 12 factures se génèrent et se livrent automatiquement.",
+      "Le résultat : Claire a récupéré plus de 16 heures par mois en temps administratif, réduit les retards de paiement de 40 % grâce aux rappels automatiques, et ses revenus récurrents mensuels sont désormais suivis en temps réel sur son tableau de bord."
     ],
     "stats": [
-      { "value": "16+ hrs", "label": "Saved monthly" },
-      { "value": "40%", "label": "Fewer late payments" },
-      { "value": "12", "label": "Auto-billed clients" }
+      { "value": "16+ hrs", "label": "Économisées par mois" },
+      { "value": "40%", "label": "Moins de retards de paiement" },
+      { "value": "12", "label": "Clients auto-facturés" }
     ]
   },
   "whoUsesIt": {
-    "title": "Who uses recurring billing?",
-    "subtitle": "Any business with repeat clients or subscription services benefits from automated billing",
+    "title": "Qui utilise la facturation récurrente ?",
+    "subtitle": "Toute entreprise avec des clients réguliers ou des services d'abonnement bénéficie de la facturation automatisée",
     "items": [
-      "Agencies with retainer clients",
-      "SaaS and subscription businesses",
-      "Consultants on monthly engagements",
-      "Accountants with recurring services",
-      "Property managers collecting rent",
-      "Maintenance and service providers",
-      "IT support companies",
-      "Coaches and trainers"
+      "Agences avec clients en retainer",
+      "Entreprises SaaS et d'abonnement",
+      "Consultants avec engagements mensuels",
+      "Comptables avec services récurrents",
+      "Gestionnaires de biens collectant les loyers",
+      "Prestataires de maintenance et de services",
+      "Entreprises de support informatique",
+      "Coachs et formateurs"
     ]
   },
   "testimonials": {
-    "title": "What businesses say about recurring billing",
+    "title": "Ce que les entreprises disent de la facturation récurrente",
     "items": [
-      { "quote": "Setting up recurring invoices for our 8 retainer clients took 30 minutes. Now I don't think about invoicing at all — it just happens.", "name": "Adebayo K.", "role": "Agency Owner, Lagos" },
-      { "quote": "We reduced our accounts receivable cycle from 45 days to 18 days after switching to automated recurring billing. The payment reminders are a game changer.", "name": "Rachel M.", "role": "IT Consultant, London" },
-      { "quote": "As a property manager, I bill 30+ tenants monthly. Recurring invoices saved my sanity and my weekends.", "name": "David O.", "role": "Property Manager, Abuja" }
+      { "quote": "Configurer les factures récurrentes pour nos 8 clients en retainer a pris 30 minutes. Maintenant, je ne pense plus du tout à la facturation — ça se fait tout seul.", "name": "Thomas B.", "role": "Directeur d'Agence, Paris" },
+      { "quote": "Nous avons réduit notre cycle de créances de 45 jours à 18 jours après être passés à la facturation récurrente automatisée. Les rappels de paiement changent la donne.", "name": "Nathalie R.", "role": "Consultante IT, Bruxelles" },
+      { "quote": "En tant que gestionnaire de biens, je facture plus de 30 locataires mensuellement. Les factures récurrentes ont sauvé ma santé mentale et mes week-ends.", "name": "David P.", "role": "Gestionnaire Immobilier, Lyon" }
     ]
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Questions fréquemment posées",
     "items": [
-      { "question": "How does recurring billing work in Invoicemonk?", "answer": "Set a schedule (weekly, monthly, quarterly, or custom) and Invoicemonk automatically generates, numbers, and sends invoices to your clients on time." },
-      { "question": "Can I customize each recurring invoice?", "answer": "Yes. Every recurring schedule can have its own line items, amounts, currency, tax rates, and payment terms." },
-      { "question": "Will clients receive automatic reminders for recurring invoices?", "answer": "Absolutely. Payment reminders work the same way for recurring invoices — clients receive notifications before and after due dates." },
-      { "question": "Can I pause or stop a recurring schedule?", "answer": "Yes. Pause, modify, or cancel any recurring invoice at any time. All previously generated invoices remain in your records." },
-      { "question": "Does recurring billing support multiple currencies?", "answer": "Yes. Each recurring schedule can be set in any currency Invoicemonk supports." },
-      { "question": "Can I set different billing frequencies for different clients?", "answer": "Each client can have their own unique recurring schedule. Bill one client weekly and another quarterly." },
-      { "question": "What happens if a recurring invoice goes unpaid?", "answer": "Invoicemonk tracks the payment status of every invoice. Unpaid recurring invoices appear in your outstanding receivables and trigger automatic payment reminders." },
-      { "question": "Is there a limit to how many recurring schedules I can create?", "answer": "Free plans support up to 3 active recurring schedules. Paid plans support unlimited schedules." }
+      { "question": "Comment fonctionne la facturation récurrente dans Invoicemonk ?", "answer": "Définissez un calendrier (hebdomadaire, mensuel, trimestriel ou personnalisé) et Invoicemonk génère, numérote et envoie automatiquement les factures à vos clients à temps." },
+      { "question": "Puis-je personnaliser chaque facture récurrente ?", "answer": "Oui. Chaque calendrier récurrent peut avoir ses propres postes, montants, devise, taux d'imposition et conditions de paiement." },
+      { "question": "Les clients recevront-ils des rappels automatiques pour les factures récurrentes ?", "answer": "Absolument. Les rappels de paiement fonctionnent de la même manière pour les factures récurrentes — les clients reçoivent des notifications avant et après les dates d'échéance." },
+      { "question": "Puis-je mettre en pause ou arrêter un calendrier récurrent ?", "answer": "Oui. Mettez en pause, modifiez ou annulez n'importe quelle facture récurrente à tout moment. Toutes les factures précédemment générées restent dans vos registres." },
+      { "question": "La facturation récurrente prend-elle en charge plusieurs devises ?", "answer": "Oui. Chaque calendrier récurrent peut être configuré dans n'importe quelle devise prise en charge par Invoicemonk." },
+      { "question": "Puis-je définir différentes fréquences de facturation pour différents clients ?", "answer": "Chaque client peut avoir son propre calendrier récurrent unique. Facturez un client hebdomadairement et un autre trimestriellement." },
+      { "question": "Que se passe-t-il si une facture récurrente reste impayée ?", "answer": "Invoicemonk suit l'état de paiement de chaque facture. Les factures récurrentes impayées apparaissent dans vos créances en cours et déclenchent des rappels de paiement automatiques." },
+      { "question": "Y a-t-il une limite au nombre de calendriers récurrents que je peux créer ?", "answer": "Les plans gratuits prennent en charge jusqu'à 3 calendriers récurrents actifs. Les plans payants prennent en charge un nombre illimité de calendriers." }
     ]
   },
   "related": {
-    "title": "Related reading",
+    "title": "Lectures connexes",
     "links": [
-      { "label": "Recurring Invoices Guide", "to": "/blog/recurring-invoices-automating-billing" },
-      { "label": "Payment Reminders Best Practices", "to": "/blog/automatic-payment-reminders-getting-paid" },
-      { "label": "For Agencies", "to": "/agencies" },
-      { "label": "Retainer Billing", "to": "/use-cases/retainer-billing" }
+      { "label": "Guide des Factures Récurrentes", "to": "/blog/recurring-invoices-automating-billing" },
+      { "label": "Meilleures Pratiques de Rappels de Paiement", "to": "/blog/automatic-payment-reminders-getting-paid" },
+      { "label": "Pour les Agences", "to": "/agencies" },
+      { "label": "Facturation en Retainer", "to": "/use-cases/retainer-billing" }
     ]
   },
   "cta": {
-    "title": "Automate your billing today",
-    "description": "Set up recurring invoices in minutes. Start free — no credit card required.",
-    "button": "Get Started Free"
+    "title": "Automatisez votre facturation dès aujourd'hui",
+    "description": "Configurez des factures récurrentes en minutes. Commencez gratuitement — aucune carte de crédit requise.",
+    "button": "Commencer Gratuitement"
   }
 }

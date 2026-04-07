@@ -437,6 +437,11 @@
       "permanent": true
     },
     {
+      "source": "/__LANG__/:path*",
+      "destination": "/en/:path*",
+      "permanent": true
+    },
+    {
       "source": "/how-to-become-a-good-graphic-designer",
       "destination": "/en/blog/how-to-become-a-good-graphic-designer",
       "permanent": true

@@ -1439,6 +1439,204 @@ const posts: BlogPost[] = [
       { question: 'Devo começar em plataformas freelancer ou encontrar clientes independentemente?', answer: 'Faça ambos simultaneamente. Plataformas fornecem acesso rápido a clientes que procuram ativamente ajuda, enquanto outreach independente e networking constroem relações de longo prazo e maior valor.' },
     ]
   },
+  {
+    slug: 'invoice-clients-in-au',
+    title: 'Como Faturar Clientes na Austrália: Guia Completo para Freelancers',
+    excerpt: 'Aprenda a criar faturas conformes com as exigências da ATO, incluir o ABN, calcular GST e enviar faturas profissionais para clientes australianos.',
+    category: 'Tax and Compliance',
+    tags: ['faturação', 'Austrália', 'ATO', 'GST', 'ABN', 'tax invoice'],
+    author: defaultAuthor,
+    date: '2026-02-18',
+    readTime: '10 min de leitura',
+    featuredImage: '/images/blog/invoice-clients-au.jpg',
+    featuredImageAlt: 'Freelancer criando uma fatura para cliente australiano',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/invoicing',
+    semanticKeywords: ['fatura Austrália', 'ATO requisitos', 'GST fatura', 'ABN faturação'],
+    priority: 'P2',
+    content: \`
+      <p>Se trabalha com clientes na Austrália — quer esteja baseado no país ou fature internacionalmente — precisa de compreender as regras de faturação da Australian Taxation Office (ATO). As exigências australianas são específicas, especialmente em relação ao GST (Goods and Services Tax) e ao ABN (Australian Business Number).</p>
+      <p>Este guia cobre tudo o que precisa para faturar clientes australianos de forma correta e profissional.</p>
+
+      <h2>Requisitos Obrigatórios de uma Tax Invoice Australiana</h2>
+      <p>Na Austrália, uma "tax invoice" é o documento oficial exigido para transações que incluem GST. Se estiver registado para GST, as suas faturas <strong>devem</strong> incluir:</p>
+      <ul>
+        <li><strong>A palavra "Tax Invoice":</strong> O documento deve ser claramente identificado como Tax Invoice</li>
+        <li><strong>O seu ABN:</strong> O Australian Business Number é obrigatório em todas as tax invoices</li>
+        <li><strong>Data de emissão:</strong> A data em que a fatura foi criada</li>
+        <li><strong>Nome da sua empresa:</strong> Conforme registado na ATO</li>
+        <li><strong>Descrição dos bens ou serviços:</strong> Suficientemente detalhada para identificar o que foi fornecido</li>
+        <li><strong>Montante do GST:</strong> Deve ser mostrado separadamente ou indicar que o preço total inclui GST</li>
+        <li><strong>Valor total:</strong> Incluindo GST</li>
+      </ul>
+      <p>Para faturas acima de A$1.000, também precisa incluir o ABN ou endereço do comprador.</p>
+
+      <h2>GST: Quando Cobrar e Quando Não Cobrar</h2>
+      <p>O GST na Austrália é de <strong>10%</strong> sobre a maioria dos bens e serviços. Contudo, nem tudo está sujeito a GST:</p>
+      <ul>
+        <li><strong>Registado para GST:</strong> Se o seu negócio fatura mais de A$75.000/ano (ou A$150.000 para organizações sem fins lucrativos), deve registar-se para GST</li>
+        <li><strong>GST-free:</strong> Alguns serviços são isentos de GST, incluindo exportações, serviços médicos e educação</li>
+        <li><strong>Input Tax Credits:</strong> Se cobrar GST, pode reclamar créditos pelo GST pago em compras empresariais</li>
+      </ul>
+
+      <h2>Faturar da Austrália para o Estrangeiro</h2>
+      <p>Se presta serviços para clientes fora da Austrália, geralmente não precisa cobrar GST — estes são classificados como "GST-free exports". Contudo, deve:</p>
+      <ul>
+        <li>Incluir o seu ABN na fatura</li>
+        <li>Indicar que a transação é "GST-free — Export"</li>
+        <li>Manter documentação que comprove que o cliente está no estrangeiro</li>
+        <li>Usar a moeda acordada (AUD ou moeda do cliente)</li>
+      </ul>
+
+      <h2>Faturar do Estrangeiro para a Austrália</h2>
+      <p>Se está baseado fora da Austrália e fatura clientes australianos:</p>
+      <ul>
+        <li>Geralmente <strong>não</strong> precisa cobrar GST australiano</li>
+        <li>O cliente australiano pode ter de aplicar "reverse charge" em determinadas circunstâncias</li>
+        <li>Inclua o seu número fiscal local na fatura</li>
+        <li>Emita faturas em AUD ou na moeda acordada com o cliente</li>
+      </ul>
+
+      <h2>Prazos de Pagamento na Austrália</h2>
+      <p>Os prazos de pagamento padrão na Austrália são:</p>
+      <ul>
+        <li><strong>Net 30:</strong> O mais comum para serviços empresariais</li>
+        <li><strong>Net 14:</strong> Cada vez mais popular entre freelancers</li>
+        <li><strong>Na entrega:</strong> Para projetos pontuais ou clientes novos</li>
+      </ul>
+      <p>O prazo médio de pagamento real na Austrália é de 26,4 dias. Incluir condições de pagamento claras e usar <a href="/invoicing">lembretes automáticos de pagamento</a> pode reduzir significativamente os atrasos.</p>
+
+      <h2>BAS e Obrigações Trimestrais</h2>
+      <p>Se estiver registado para GST, deve submeter um Business Activity Statement (BAS) trimestralmente ou mensalmente, reportando:</p>
+      <ul>
+        <li>GST cobrado nas vendas</li>
+        <li>GST pago nas compras (input tax credits)</li>
+        <li>PAYG withholding (se aplicável)</li>
+      </ul>
+      <p>Manter faturas organizadas e precisas facilita enormemente a preparação do BAS.</p>
+
+      <h2>Exemplo de Tax Invoice Australiana</h2>
+      <p>Uma tax invoice australiana correta deve ter este formato:</p>
+      <ul>
+        <li><strong>Cabeçalho:</strong> "TAX INVOICE" em destaque</li>
+        <li><strong>Dados do fornecedor:</strong> Nome, ABN, endereço, contacto</li>
+        <li><strong>Dados do cliente:</strong> Nome, ABN (se aplicável), endereço</li>
+        <li><strong>Número da fatura e data</strong></li>
+        <li><strong>Itens:</strong> Descrição, quantidade, valor unitário, GST por item, total</li>
+        <li><strong>Totais:</strong> Subtotal, GST total, total geral</li>
+        <li><strong>Condições de pagamento e dados bancários</strong></li>
+      </ul>
+      <p>Use o <a href="/free-invoice-generator">gerador de faturas gratuito do Invoicemonk</a> para criar automaticamente faturas conformes com a ATO — basta selecionar AUD como moeda.</p>
+    \`,
+    faq: [
+      { question: 'Preciso de um ABN para faturar na Austrália?', answer: 'Sim, se opera um negócio na Austrália, deve ter um ABN e incluí-lo em todas as tax invoices. Sem ABN, os clientes podem reter 47% do pagamento como withholding tax.' },
+      { question: 'Quando devo registar-me para GST na Austrália?', answer: 'Deve registar-se quando o seu volume de negócios anual atinge A$75.000. Pode registar-se voluntariamente antes disso para reclamar input tax credits.' },
+    ]
+  },
+  {
+    slug: 'freelancer-vat-registration-au',
+    title: 'Registo GST para Freelancers na Austrália: Guia Passo a Passo',
+    excerpt: 'Descubra quando e como se registar para GST como freelancer na Austrália. Inclui limiares, processo de registo, obrigações de BAS e dicas práticas.',
+    category: 'Tax and Compliance',
+    tags: ['GST', 'Austrália', 'registo fiscal', 'freelancer', 'ATO', 'BAS'],
+    author: defaultAuthor,
+    date: '2026-02-20',
+    readTime: '10 min de leitura',
+    featuredImage: '/images/blog/vat-registration-guide.jpg',
+    featuredImageAlt: 'Formulário de registo GST na Austrália',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    semanticKeywords: ['registo GST Austrália', 'freelancer GST', 'ATO registo', 'BAS obrigações'],
+    priority: 'P2',
+    content: \`
+      <p>Como freelancer na Austrália, o GST (Goods and Services Tax) é um dos aspetos fiscais mais importantes que precisa compreender. Saber quando se registar, como cumprir as obrigações e como isso afeta os seus preços pode fazer a diferença entre um negócio rentável e problemas com a ATO.</p>
+
+      <h2>O Que é o GST?</h2>
+      <p>O GST é um imposto de 10% aplicado à maioria dos bens e serviços vendidos ou consumidos na Austrália. Foi introduzido em 2000 e é administrado pela Australian Taxation Office (ATO).</p>
+      <p>Como freelancer, se estiver registado para GST:</p>
+      <ul>
+        <li>Deve cobrar 10% de GST sobre os seus serviços</li>
+        <li>Pode reclamar créditos pelo GST pago nas suas compras empresariais (input tax credits)</li>
+        <li>Deve submeter Business Activity Statements (BAS) regularmente</li>
+      </ul>
+
+      <h2>Quando é Obrigatório Registar-se?</h2>
+      <p>O registo para GST é <strong>obrigatório</strong> quando:</p>
+      <ul>
+        <li>O seu volume de negócios atinge ou excede <strong>A$75.000</strong> em 12 meses consecutivos</li>
+        <li>Prevê que o seu volume de negócios atingirá A$75.000 nos próximos 12 meses</li>
+        <li>Fornece serviços de táxi ou ride-sharing (independentemente do volume de negócios)</li>
+      </ul>
+      <p>Se o seu volume de negócios é inferior a A$75.000, o registo é <strong>voluntário</strong>. Contudo, pode ser vantajoso registar-se voluntariamente para reclamar input tax credits.</p>
+
+      <h2>Vantagens do Registo Voluntário</h2>
+      <p>Mesmo abaixo do limiar, o registo pode ser benéfico se:</p>
+      <ul>
+        <li><strong>Tem despesas empresariais significativas:</strong> Pode recuperar o GST pago em equipamento, software, aluguer de escritório, etc.</li>
+        <li><strong>Trabalha com empresas registadas:</strong> Clientes empresariais preferem fornecedores registados para reclamar os seus próprios créditos</li>
+        <li><strong>Quer parecer mais profissional:</strong> O registo GST transmite seriedade e profissionalismo</li>
+      </ul>
+
+      <h2>Como Se Registar para GST</h2>
+      <p>O processo de registo é relativamente simples:</p>
+      <ol>
+        <li><strong>Obtenha um ABN:</strong> Se ainda não tem, registe-se para um Australian Business Number em abr.gov.au</li>
+        <li><strong>Registe-se para GST:</strong> Pode fazê-lo online através do Business Portal da ATO, por telefone, ou através do seu contabilista</li>
+        <li><strong>Escolha o período de reporte:</strong> Trimestral (mais comum para freelancers) ou mensal</li>
+        <li><strong>Escolha o método de contabilização:</strong> Cash basis (mais simples) ou accrual basis</li>
+      </ol>
+      <p>O registo pode ser efetivado a partir de uma data específica ou retroativamente até 4 anos.</p>
+
+      <h2>Obrigações Após o Registo</h2>
+      <h3>Emitir Tax Invoices</h3>
+      <p>Após o registo, deve emitir "tax invoices" (não apenas "invoices") que incluam:</p>
+      <ul>
+        <li>A palavra "Tax Invoice"</li>
+        <li>O seu ABN</li>
+        <li>O montante de GST cobrado</li>
+        <li>Todos os outros elementos obrigatórios de uma <a href="/blog/invoice-clients-in-au">fatura australiana</a></li>
+      </ul>
+
+      <h3>Submeter BAS</h3>
+      <p>O Business Activity Statement deve ser submetido:</p>
+      <ul>
+        <li><strong>Trimestralmente:</strong> Até 28 dias após o final do trimestre</li>
+        <li><strong>Mensalmente:</strong> Até 21 dias após o final do mês (se volume > A$20M ou por opção)</li>
+      </ul>
+      <p>No BAS, reporta o GST cobrado, o GST pago, e o montante líquido a pagar (ou a receber) da ATO.</p>
+
+      <h3>Manter Registos</h3>
+      <p>Deve manter registos de todas as transações durante <strong>5 anos</strong>, incluindo:</p>
+      <ul>
+        <li>Todas as faturas emitidas e recebidas</li>
+        <li>Recibos de compras empresariais</li>
+        <li>Extratos bancários</li>
+        <li>Registos de BAS submetidos</li>
+      </ul>
+
+      <h2>GST e Preços</h2>
+      <p>Após o registo, precisa decidir como apresentar os preços:</p>
+      <ul>
+        <li><strong>GST inclusive:</strong> A$1.100 (inclui A$100 de GST) — obrigatório para consumidores finais</li>
+        <li><strong>GST exclusive + GST:</strong> A$1.000 + A$100 GST = A$1.100 — comum em transações B2B</li>
+      </ul>
+      <p><strong>Dica importante:</strong> Se se registar voluntariamente, não precisa necessariamente aumentar os preços em 10%. Pode absorver o GST e usar os input tax credits para compensar. Analise o que funciona melhor para o seu mercado.</p>
+
+      <h2>Ferramentas para Gestão do GST</h2>
+      <p>Gerir o GST manualmente é propenso a erros. Use ferramentas que automatizem:</p>
+      <ul>
+        <li><a href="/free-invoice-generator">Gerador de faturas com cálculo automático de GST</a></li>
+        <li><a href="/expenses">Registo de despesas</a> com categorização de GST</li>
+        <li>Software de contabilidade integrado com o BAS</li>
+      </ul>
+    \`,
+    faq: [
+      { question: 'Qual é o limiar para registo obrigatório de GST na Austrália?', answer: 'A$75.000 de volume de negócios em 12 meses consecutivos (ou A$150.000 para organizações sem fins lucrativos). Abaixo deste limiar, o registo é voluntário.' },
+      { question: 'Posso cancelar o meu registo GST?', answer: 'Sim, pode cancelar o registo se o seu volume de negócios cair abaixo de A$75.000 e não espera que volte a ultrapassar. O cancelamento é feito através do Business Portal da ATO.' },
+    ]
+  },
 ];
 
 registerBlogPosts('pt', posts);

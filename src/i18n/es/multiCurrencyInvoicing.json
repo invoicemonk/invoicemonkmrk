@@ -1,83 +1,83 @@
 {
   "seo": {
-    "title": "Multi-Currency Invoicing Software | Invoice in Any Currency | Invoicemonk",
-    "description": "Send invoices in any currency. Multi-currency support for freelancers and businesses with international clients. Automatic exchange rates and tax compliance. Free tier available."
+    "title": "Facturación Multidivisa | Factura en Cualquier Moneda | Invoicemonk",
+    "description": "Envía facturas en cualquier moneda. Soporte multidivisa para freelancers y empresas con clientes internacionales. Tipos de cambio automáticos y cumplimiento fiscal. Plan gratuito disponible."
   },
   "hero": {
-    "badge": "Multi-Currency",
-    "title": "Invoice clients in any currency",
-    "accentWord": "currency",
-    "description": "Bill international clients in their local currency. Invoicemonk handles conversions and keeps your books organized across currencies.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing"
+    "badge": "Multidivisa",
+    "title": "Factura a tus clientes en cualquier moneda",
+    "accentWord": "moneda",
+    "description": "Cobra a clientes internacionales en su moneda local. Invoicemonk gestiona las conversiones y mantiene tus libros organizados en todas las divisas.",
+    "primaryCta": "Empezar Gratis",
+    "secondaryCta": "Ver Precios"
   },
   "overview": {
-    "title": "Why multi-currency invoicing is essential for global businesses",
+    "title": "Por qué la facturación multidivisa es esencial para negocios globales",
     "paragraphs": [
-      "If you work with international clients, invoicing in their local currency isn't just a convenience — it's a competitive advantage. Research consistently shows that invoices sent in the recipient's currency are paid faster, with fewer disputes over amounts. When a client in London receives an invoice in GBP instead of NGN or USD, there's no confusion about the amount due, no mental conversion, and no excuse to delay payment while \"figuring out the exchange rate.\"",
-      "For businesses in Nigeria, the UK, Canada, Australia, and the US, multi-currency invoicing is increasingly the norm rather than the exception. Freelancers on platforms like Upwork and Fiverr routinely serve clients across multiple countries. Agencies win international contracts. E-commerce businesses sell globally. Yet many invoicing tools either don't support multiple currencies or charge premium prices for the feature — forcing small businesses to use workarounds like manual spreadsheet conversions that introduce errors and look unprofessional.",
-      "Invoicemonk includes multi-currency support on every plan, including the free tier. Create invoices in any currency, set custom or market exchange rates, and track revenue per currency or consolidated into your base currency. Every invoice is tax-compliant in the relevant jurisdiction, professionally formatted, and delivered with the same payment reminders and client portal access as single-currency invoices."
+      "Si trabajas con clientes internacionales, facturar en su moneda local no es solo una comodidad — es una ventaja competitiva. Las investigaciones muestran consistentemente que las facturas enviadas en la moneda del destinatario se pagan más rápido, con menos disputas sobre los montos. Cuando un cliente en Londres recibe una factura en GBP en lugar de USD, no hay confusión sobre el monto adeudado, no hay conversión mental y no hay excusa para retrasar el pago mientras \"averiguan el tipo de cambio\".",
+      "Para empresas en España, Latinoamérica, Estados Unidos y Europa, la facturación multidivisa es cada vez más la norma. Freelancers en plataformas como Upwork y Fiverr atienden rutinariamente a clientes en múltiples países. Las agencias ganan contratos internacionales. Los negocios de comercio electrónico venden globalmente. Sin embargo, muchas herramientas de facturación no soportan múltiples monedas o cobran precios premium por esta función — obligando a las pequeñas empresas a usar soluciones improvisadas como conversiones manuales en hojas de cálculo que introducen errores y lucen poco profesionales.",
+      "Invoicemonk incluye soporte multidivisa en todos los planes, incluido el gratuito. Crea facturas en cualquier moneda, establece tipos de cambio personalizados o de mercado, y rastrea ingresos por moneda o consolidados en tu moneda base. Cada factura cumple con las normativas fiscales de la jurisdicción correspondiente, tiene formato profesional y se entrega con los mismos recordatorios de pago y acceso al portal del cliente que las facturas en una sola moneda."
     ]
   },
   "benefits": {
-    "title": "Why multi-currency matters",
-    "subtitle": "Billing in your client's currency improves payment speed, professionalism, and trust",
+    "title": "Por qué importa la facturación multidivisa",
+    "subtitle": "Facturar en la moneda de tu cliente mejora la velocidad de pago, el profesionalismo y la confianza",
     "items": [
-      { "title": "Global Reach", "desc": "Invoice clients anywhere in the world in their local currency. No geographical limitations — if they have a currency, you can invoice in it." },
-      { "title": "Flexible Exchange Rates", "desc": "Set custom rates for specific invoices or use market exchange rates. Invoicemonk clearly displays the rate used on each invoice for full transparency." },
-      { "title": "Tax Compliance Per Currency", "desc": "Tax calculations adjust automatically based on the invoice currency and your configured rates. VAT, GST, sales tax — all handled correctly regardless of the currency." },
-      { "title": "Unified Revenue Reports", "desc": "See revenue across all currencies consolidated into your base currency. Track which currencies generate the most revenue and identify your most profitable markets." },
-      { "title": "Recurring Multi-Currency", "desc": "Combine multi-currency with recurring billing for international retainer clients. Bill a UK client in GBP monthly and an Australian client in AUD quarterly — all automated." },
-      { "title": "Client-Friendly Invoices", "desc": "Clients see amounts in their own currency with no conversion confusion. This removes a common barrier to timely payment and projects professionalism." }
+      { "title": "Alcance Global", "desc": "Factura a clientes en cualquier parte del mundo en su moneda local. Sin limitaciones geográficas — si tienen una moneda, puedes facturar en ella." },
+      { "title": "Tipos de Cambio Flexibles", "desc": "Establece tipos personalizados para facturas específicas o usa tipos de cambio de mercado. Invoicemonk muestra claramente el tipo utilizado en cada factura para total transparencia." },
+      { "title": "Cumplimiento Fiscal por Moneda", "desc": "Los cálculos de impuestos se ajustan automáticamente según la moneda de la factura y tus tasas configuradas. IVA, IGIC, impuestos sobre ventas — todo se maneja correctamente sin importar la moneda." },
+      { "title": "Informes de Ingresos Unificados", "desc": "Consulta los ingresos en todas las monedas consolidados en tu moneda base. Rastrea qué monedas generan más ingresos e identifica tus mercados más rentables." },
+      { "title": "Multidivisa Recurrente", "desc": "Combina multidivisa con facturación recurrente para clientes internacionales con retainer. Factura a un cliente en Reino Unido en GBP mensualmente y a uno en Australia en AUD trimestralmente — todo automatizado." },
+      { "title": "Facturas Amigables para el Cliente", "desc": "Los clientes ven los montos en su propia moneda sin confusión de conversión. Esto elimina una barrera común para el pago puntual y proyecta profesionalismo." }
     ]
   },
   "example": {
-    "title": "Multi-currency invoicing in action",
-    "scenario": "Scenario: A freelance developer serving clients in 4 countries",
+    "title": "Facturación multidivisa en acción",
+    "scenario": "Escenario: Un desarrollador freelance atendiendo clientes en 4 países",
     "paragraphs": [
-      "Tunde is a freelance software developer based in Lagos who works with clients in Nigeria, the UK, the US, and Canada. Before Invoicemonk, he invoiced everyone in USD and let clients figure out the conversion — leading to payment delays averaging 12 days as clients questioned amounts or waited for \"good\" exchange rates.",
-      "With Invoicemonk, Tunde now invoices each client in their local currency: NGN for Nigerian clients, GBP for UK clients, USD for US clients, and CAD for Canadian clients. Each invoice shows the exact amount due with no conversion ambiguity. He set up 4 currency accounts to track revenue per market.",
-      "The result: average payment time dropped from 23 days to 11 days, currency-related disputes disappeared entirely, and Tunde can now see which market generates the highest revenue — information he uses to focus his business development efforts."
+      "Carlos es un desarrollador de software freelance en Madrid que trabaja con clientes en España, Reino Unido, Estados Unidos y México. Antes de Invoicemonk, facturaba a todos en USD y dejaba que los clientes calcularan la conversión — lo que provocaba retrasos en el pago de un promedio de 12 días mientras los clientes cuestionaban los montos o esperaban tipos de cambio \"favorables\".",
+      "Con Invoicemonk, Carlos ahora factura a cada cliente en su moneda local: EUR para clientes españoles, GBP para clientes británicos, USD para clientes estadounidenses y MXN para clientes mexicanos. Cada factura muestra el monto exacto adeudado sin ambigüedad de conversión. Configuró 4 cuentas de moneda para rastrear ingresos por mercado.",
+      "El resultado: el tiempo promedio de pago bajó de 23 días a 11 días, las disputas por moneda desaparecieron por completo, y Carlos ahora puede ver qué mercado genera más ingresos — información que usa para enfocar sus esfuerzos de desarrollo comercial."
     ],
     "stats": [
-      { "value": "52%", "label": "Faster payments" },
-      { "value": "0", "label": "Currency disputes" },
-      { "value": "4", "label": "Currency accounts" }
+      { "value": "52%", "label": "Pagos más rápidos" },
+      { "value": "0", "label": "Disputas por moneda" },
+      { "value": "4", "label": "Cuentas de moneda" }
     ]
   },
   "testimonials": {
-    "title": "What global businesses say",
+    "title": "Lo que dicen las empresas globales",
     "items": [
-      { "quote": "Invoicing my UK clients in GBP instead of NGN cut my average payment time from 3 weeks to 10 days. It's that simple — when they see their own currency, they pay faster.", "name": "Kemi A.", "role": "UX Designer, Lagos" },
-      { "quote": "I work with clients in 6 countries. Having all my revenue consolidated into one dashboard while billing each client locally is exactly what I needed.", "name": "Marcus T.", "role": "Marketing Consultant, Toronto" },
-      { "quote": "The multi-currency feature is why I chose Invoicemonk over Wave. Wave only works in the US and Canada — I needed something truly global.", "name": "Amara N.", "role": "Content Strategist, Accra" }
+      { "quote": "Facturar a mis clientes en Reino Unido en GBP en lugar de EUR redujo mi tiempo promedio de cobro de 3 semanas a 10 días. Es así de simple — cuando ven su propia moneda, pagan más rápido.", "name": "María L.", "role": "Diseñadora UX, Barcelona" },
+      { "quote": "Trabajo con clientes en 6 países. Tener todos mis ingresos consolidados en un panel mientras facturo a cada cliente localmente es exactamente lo que necesitaba.", "name": "Andrés T.", "role": "Consultor de Marketing, Buenos Aires" },
+      { "quote": "La función multidivisa es la razón por la que elegí Invoicemonk sobre Wave. Wave solo funciona en EE.UU. y Canadá — yo necesitaba algo verdaderamente global.", "name": "Sofía R.", "role": "Estratega de Contenidos, Ciudad de México" }
     ]
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Preguntas frecuentes",
     "items": [
-      { "question": "How many currencies does Invoicemonk support?", "answer": "Invoicemonk supports all major world currencies including USD, EUR, GBP, NGN, CAD, AUD, and many more. You can set up currency accounts and invoice each client in their preferred currency, regardless of where your business is based." },
-      { "question": "Does Invoicemonk handle exchange rates?", "answer": "You can set custom exchange rates for each invoice or let Invoicemonk use current market rates. All conversions are clearly displayed on invoices so both you and your client can see the exact rate applied." },
-      { "question": "Can I have multiple currency accounts?", "answer": "Yes. Free plans include 1 currency account, Starter includes 3, and Professional/Business plans support unlimited currency accounts. Each account tracks revenue, expenses, and outstanding invoices in that currency independently." },
-      { "question": "Is multi-currency invoicing free?", "answer": "Multi-currency invoicing is available on all plans. The free tier supports 1 currency account, with more available on paid plans." },
-      { "question": "How do I handle tax on multi-currency invoices?", "answer": "Invoicemonk calculates tax based on the invoice currency and your configured tax rates. Tax compliance is maintained regardless of the currency used." },
-      { "question": "Can I see all my revenue in one currency for reporting?", "answer": "Yes. Invoicemonk's reporting dashboard can consolidate revenue across all currencies into your base currency for unified financial reporting." },
-      { "question": "What about receiving payments in different currencies?", "answer": "Invoicemonk handles invoicing and tracking. For receiving payments, we integrate with payment providers that support multi-currency collection." },
-      { "question": "Do clients see the invoice in their local currency?", "answer": "Yes. When you create an invoice in a client's local currency, they see all amounts — line items, taxes, totals — in that currency." }
+      { "question": "¿Cuántas monedas soporta Invoicemonk?", "answer": "Invoicemonk soporta todas las monedas principales del mundo incluyendo USD, EUR, GBP, MXN, CAD, AUD y muchas más. Puedes configurar cuentas de moneda y facturar a cada cliente en su moneda preferida, sin importar dónde esté tu empresa." },
+      { "question": "¿Invoicemonk maneja los tipos de cambio?", "answer": "Puedes establecer tipos de cambio personalizados para cada factura o dejar que Invoicemonk use los tipos de mercado actuales. Todas las conversiones se muestran claramente en las facturas para que tanto tú como tu cliente puedan ver el tipo exacto aplicado." },
+      { "question": "¿Puedo tener múltiples cuentas de moneda?", "answer": "Sí. Los planes gratuitos incluyen 1 cuenta de moneda, Starter incluye 3, y los planes Professional/Business soportan cuentas de moneda ilimitadas. Cada cuenta rastrea ingresos, gastos y facturas pendientes en esa moneda de forma independiente." },
+      { "question": "¿La facturación multidivisa es gratuita?", "answer": "La facturación multidivisa está disponible en todos los planes. El plan gratuito soporta 1 cuenta de moneda, con más disponibles en planes de pago." },
+      { "question": "¿Cómo manejo los impuestos en facturas multidivisa?", "answer": "Invoicemonk calcula los impuestos según la moneda de la factura y tus tasas fiscales configuradas. El cumplimiento fiscal se mantiene sin importar la moneda utilizada." },
+      { "question": "¿Puedo ver todos mis ingresos en una sola moneda para reportes?", "answer": "Sí. El panel de reportes de Invoicemonk puede consolidar ingresos de todas las monedas en tu moneda base para informes financieros unificados." },
+      { "question": "¿Qué pasa con recibir pagos en diferentes monedas?", "answer": "Invoicemonk gestiona la facturación y el seguimiento. Para recibir pagos, nos integramos con proveedores de pago que soportan cobros multidivisa." },
+      { "question": "¿Los clientes ven la factura en su moneda local?", "answer": "Sí. Cuando creas una factura en la moneda local del cliente, ellos ven todos los montos — líneas de detalle, impuestos, totales — en esa moneda." }
     ]
   },
   "related": {
-    "title": "Related reading",
+    "title": "Lectura relacionada",
     "links": [
-      { "label": "International Payment Fees Explained", "to": "/blog/international-payment-fees-explained" },
-      { "label": "Payment Fee Calculator", "to": "/international-payment-fee-calculator" },
-      { "label": "For E-commerce", "to": "/ecommerce" },
-      { "label": "Cheapest International Payments", "to": "/cheapest-way-to-receive-international-payments" }
+      { "label": "Comisiones de Pagos Internacionales Explicadas", "to": "/blog/international-payment-fees-explained" },
+      { "label": "Calculadora de Comisiones de Pago", "to": "/international-payment-fee-calculator" },
+      { "label": "Para E-commerce", "to": "/ecommerce" },
+      { "label": "Pagos Internacionales Más Baratos", "to": "/cheapest-way-to-receive-international-payments" }
     ]
   },
   "cta": {
-    "title": "Go global with your invoicing",
-    "description": "Start invoicing in multiple currencies — free. No credit card required.",
-    "button": "Get Started Free"
+    "title": "Globaliza tu facturación",
+    "description": "Empieza a facturar en múltiples monedas — gratis. Sin tarjeta de crédito.",
+    "button": "Empezar Gratis"
   }
 }

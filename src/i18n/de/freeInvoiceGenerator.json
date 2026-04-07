@@ -122,10 +122,13 @@
     "address": "Adresse",
     "email": "E-Mail",
     "phone": "Telefon",
+    "businessTaxId": "Steuernummer / USt-IdNr. / GST-Nummer",
     "billTo": "Rechnung an",
     "clientName": "Kundenname",
     "clientAddress": "Kundenadresse",
     "clientEmail": "Kunden-E-Mail",
+    "clientTaxId": "Kunden-Steuernummer (optional)",
+    "taxId": "Steuernummer",
     "invoiceDetails": "Rechnungsdetails",
     "invoiceNumber": "Rechnung #",
     "currency": "Währung",
@@ -137,6 +140,7 @@
     "rate": "Preis",
     "amount": "Betrag",
     "itemDescription": "Positionsbeschreibung",
+    "itemTax": "Steuer %",
     "addItem": "Position hinzufügen",
     "taxDiscount": "Steuer & Rabatt",
     "taxRate": "Steuersatz (%)",
@@ -167,6 +171,15 @@
     "noSavedInvoices": "Keine gespeicherten Rechnungen",
     "invoiceSaved": "Rechnung gespeichert",
     "invoiceDeleted": "Rechnung gelöscht",
-    "invoiceLoaded": "Rechnung geladen"
+    "invoiceLoaded": "Rechnung geladen",
+    "validation": {
+      "title": "Fehlende Felder",
+      "businessName": "Firmenname ist leer",
+      "clientName": "Kundenname ist leer",
+      "invoiceNumber": "Rechnungsnummer ist leer",
+      "noDescriptions": "Keine Positionen haben Beschreibungen",
+      "zeroAmount": "Alle Positionen haben einen Betrag von null",
+      "taxIdRecommended": "Steuernummer wird für die Compliance empfohlen"
+    }
   }
 }

@@ -1,107 +1,107 @@
 {
   "seo": {
-    "title": "Milestone Billing & Progress Invoicing | Invoicemonk",
-    "description": "Bill clients at project milestones with deposit, progress, and final invoices. Perfect for photographers, developers, and project-based businesses. Free tier available."
+    "title": "Facturation par Jalons et Facturation Progressive | Invoicemonk",
+    "description": "Facturez vos clients aux jalons du projet avec des factures d'acompte, de progression et finales. Idéal pour photographes, développeurs et entreprises basées sur les projets. Offre gratuite disponible."
   },
   "hero": {
-    "badge": "Milestone Billing",
-    "title": "Bill at every project milestone",
-    "accentWord": "milestone",
-    "description": "Collect deposits, send progress invoices, and bill final balances — all tied to clear project milestones.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing"
+    "badge": "Facturation par Jalons",
+    "title": "Facturez à chaque jalon du projet",
+    "accentWord": "jalon",
+    "description": "Collectez des acomptes, envoyez des factures de progression et facturez les soldes finaux — le tout lié à des jalons de projet clairs.",
+    "primaryCta": "Commencer Gratuitement",
+    "secondaryCta": "Voir les Tarifs"
   },
   "overview": {
-    "title": "Why milestone billing is the smartest way to invoice projects",
+    "title": "Pourquoi la facturation par jalons est la façon la plus intelligente de facturer les projets",
     "paragraphs": [
-      "Waiting until a project is complete to send an invoice is one of the biggest cash flow mistakes service businesses make. Milestone billing solves this by breaking payment into phases that align with project deliverables — ensuring you're compensated as you deliver value, not weeks or months after the work is done. For the client, it provides built-in checkpoints where they can review progress before the next payment is due, building trust on both sides.",
-      "The psychology behind milestone billing is powerful. Clients who pay in stages feel more invested in the project's success and are more engaged with feedback and approvals. From your perspective, regular payments maintain healthy cash flow and reduce the financial risk of large projects. If a project is cancelled mid-way, you've already been compensated for the work completed — unlike the all-or-nothing approach where cancellation means chasing payment for work already delivered.",
-      "Invoicemonk makes milestone billing straightforward. Create invoices for each phase with clear descriptions of the deliverables, link them to the same client and project, and track the overall project value against payments received. Your client can verify each invoice through their portal, creating a transparent record that eliminates disputes and builds long-term trust."
+      "Attendre qu'un projet soit terminé pour envoyer une facture est l'une des plus grandes erreurs de trésorerie que font les entreprises de services. La facturation par jalons résout ce problème en divisant le paiement en phases alignées sur les livrables du projet — garantissant que vous êtes rémunéré au fur et à mesure que vous livrez de la valeur, pas des semaines ou des mois après que le travail soit fait. Pour le client, cela fournit des points de contrôle intégrés où il peut examiner la progression avant l'échéance du prochain paiement, construisant la confiance des deux côtés.",
+      "La psychologie derrière la facturation par jalons est puissante. Les clients qui paient par étapes se sentent plus investis dans le succès du projet et sont plus engagés dans les retours et les approbations. De votre côté, des paiements réguliers maintiennent une trésorerie saine et réduisent le risque financier des grands projets. Si un projet est annulé à mi-parcours, vous avez déjà été compensé pour le travail accompli — contrairement à l'approche tout-ou-rien où l'annulation signifie poursuivre le paiement pour un travail déjà livré.",
+      "Invoicemonk rend la facturation par jalons simple. Créez des factures pour chaque phase avec des descriptions claires des livrables, liez-les au même client et projet, et suivez la valeur globale du projet par rapport aux paiements reçus. Votre client peut vérifier chaque facture via son portail, créant un registre transparent qui élimine les litiges et construit la confiance à long terme."
     ]
   },
   "howItWorks": {
-    "title": "How milestone billing works",
-    "subtitle": "Break projects into billable phases for better cash flow and client trust",
+    "title": "Comment fonctionne la facturation par jalons",
+    "subtitle": "Divisez les projets en phases facturables pour une meilleure trésorerie et la confiance du client",
     "steps": [
-      { "title": "1. Deposit invoice", "desc": "Collect an upfront payment (typically 25–50%) before work begins. This secures the client's commitment and covers your initial investment." },
-      { "title": "2. Progress invoices", "desc": "Bill at each milestone as work is delivered and approved. Each invoice references the specific deliverables completed in that phase." },
-      { "title": "3. Final invoice", "desc": "Send the remaining balance upon project completion. With most of the project already paid, collection is smooth and straightforward." }
+      { "title": "1. Facture d'acompte", "desc": "Collectez un paiement initial (typiquement 25-50 %) avant le début des travaux. Cela sécurise l'engagement du client et couvre votre investissement initial." },
+      { "title": "2. Factures de progression", "desc": "Facturez à chaque jalon au fur et à mesure que le travail est livré et approuvé. Chaque facture référence les livrables spécifiques complétés dans cette phase." },
+      { "title": "3. Facture finale", "desc": "Envoyez le solde restant à l'achèvement du projet. Avec la majorité du projet déjà payée, le recouvrement est fluide et direct." }
     ]
   },
   "features": {
-    "title": "How Invoicemonk supports milestone billing",
-    "subtitle": "Tools designed for project-based professionals",
+    "title": "Comment Invoicemonk soutient la facturation par jalons",
+    "subtitle": "Des outils conçus pour les professionnels travaillant par projet",
     "items": [
-      { "title": "Draft All Milestones Upfront", "desc": "Create all milestone invoices as drafts when the project begins. Send each one as the corresponding phase is completed — your client knows exactly what to expect and when." },
-      { "title": "Client Verification Portal", "desc": "Clients can view all invoices for their project in one place, verify amounts, and download receipts. Transparency eliminates disputes before they start." },
-      { "title": "Flexible Payment Splits", "desc": "Split projects any way you need — 50/50, 30/40/30, or custom percentages per milestone. Each invoice clearly shows the phase, deliverables, and amount due." },
-      { "title": "Tax-Compliant Invoices", "desc": "Every milestone invoice includes the correct tax calculations for your jurisdiction. VAT, GST, and withholding tax are handled automatically so your invoices are always compliant." },
-      { "title": "Payment Tracking Per Project", "desc": "See total project value, amount invoiced, amount paid, and outstanding balance at a glance. Know exactly where each project stands financially." },
-      { "title": "Scope Change Documentation", "desc": "When project scope changes, create additional milestone invoices to document the new work. Your complete invoice history serves as a transparent record of all project changes." }
+      { "title": "Brouillon de Tous les Jalons d'Avance", "desc": "Créez toutes les factures de jalons en brouillon dès le début du projet. Envoyez chacune au fur et à mesure que la phase correspondante est achevée — votre client sait exactement à quoi s'attendre et quand." },
+      { "title": "Portail de Vérification Client", "desc": "Les clients peuvent voir toutes les factures de leur projet en un seul endroit, vérifier les montants et télécharger les reçus. La transparence élimine les litiges avant qu'ils ne commencent." },
+      { "title": "Répartition Flexible des Paiements", "desc": "Divisez les projets comme vous le souhaitez — 50/50, 30/40/30 ou des pourcentages personnalisés par jalon. Chaque facture montre clairement la phase, les livrables et le montant dû." },
+      { "title": "Factures Conformes Fiscalement", "desc": "Chaque facture de jalon inclut les calculs d'impôts corrects pour votre juridiction. TVA et retenue à la source sont gérées automatiquement pour que vos factures soient toujours conformes." },
+      { "title": "Suivi des Paiements par Projet", "desc": "Consultez la valeur totale du projet, le montant facturé, le montant payé et le solde impayé d'un coup d'œil. Sachez exactement où en est chaque projet financièrement." },
+      { "title": "Documentation des Changements de Périmètre", "desc": "Quand le périmètre du projet change, créez des factures de jalons supplémentaires pour documenter le nouveau travail. Votre historique complet de factures sert de registre transparent de tous les changements du projet." }
     ]
   },
   "example": {
-    "title": "Milestone billing in action",
-    "scenario": "Scenario: A wedding photographer's 3-phase billing",
+    "title": "La facturation par jalons en action",
+    "scenario": "Scénario : La facturation en 3 phases d'un photographe de mariage",
     "paragraphs": [
-      "Ngozi is a wedding photographer in Lagos who books 15–20 weddings per year at an average of ₦500,000 per event. She uses a three-milestone billing structure: 40% booking deposit when the client signs the contract, 30% on the day of the wedding, and 30% upon delivery of the final edited photos.",
-      "Before Invoicemonk, Ngozi tracked payments in a spreadsheet and occasionally forgot to send the final invoice — losing thousands of naira in uncollected balances. With milestone billing in Invoicemonk, she creates all three invoices as drafts when booking a client. The deposit invoice sends immediately, and she marks the remaining two for manual send when each milestone is reached.",
-      "The result: zero missed invoices, faster final payments (clients expect the invoice because they can see it in their portal), and a complete financial record for each wedding project."
+      "Marie est photographe de mariage à Paris et réserve entre 15 et 20 mariages par an à un tarif moyen de 3 000 € par événement. Elle utilise une structure de facturation en trois jalons : 40 % d'acompte à la réservation quand le client signe le contrat, 30 % le jour du mariage, et 30 % à la livraison des photos éditées finales.",
+      "Avant Invoicemonk, Marie suivait les paiements dans un tableur et oubliait parfois d'envoyer la facture finale — perdant des centaines d'euros en soldes non recouvrés. Avec la facturation par jalons dans Invoicemonk, elle crée les trois factures en brouillon lors de la réservation d'un client. La facture d'acompte s'envoie immédiatement, et elle marque les deux restantes pour envoi manuel quand chaque jalon est atteint.",
+      "Le résultat : zéro facture oubliée, des paiements finaux plus rapides (les clients s'attendent à la facture car ils peuvent la voir dans leur portail), et un registre financier complet pour chaque projet de mariage."
     ],
     "stats": [
-      { "value": "40%", "label": "Booking deposit" },
-      { "value": "30%", "label": "Event day payment" },
-      { "value": "30%", "label": "Final delivery" }
+      { "value": "40%", "label": "Acompte de réservation" },
+      { "value": "30%", "label": "Paiement jour J" },
+      { "value": "30%", "label": "Livraison finale" }
     ]
   },
   "idealFor": {
-    "title": "Ideal for project-based professionals",
-    "subtitle": "Any service with distinct project phases benefits from milestone billing",
+    "title": "Idéal pour les professionnels travaillant par projet",
+    "subtitle": "Tout service avec des phases de projet distinctes bénéficie de la facturation par jalons",
     "items": [
-      "Wedding & event photographers",
-      "Web designers & developers",
-      "Architects & builders",
-      "Marketing & creative agencies",
-      "Interior designers",
-      "Video production teams",
-      "Custom software developers",
-      "Event planners and coordinators"
+      "Photographes de mariage et d'événements",
+      "Designers et développeurs web",
+      "Architectes et constructeurs",
+      "Agences marketing et créatives",
+      "Décorateurs d'intérieur",
+      "Équipes de production vidéo",
+      "Développeurs de logiciels sur mesure",
+      "Organisateurs et coordinateurs d'événements"
     ]
   },
   "testimonials": {
-    "title": "How professionals use milestone billing",
+    "title": "Comment les professionnels utilisent la facturation par jalons",
     "items": [
-      { "quote": "I used to lose money on every project because I'd forget to send the final invoice. Now all milestones are set up from day one and nothing slips through.", "name": "Emeka O.", "role": "Web Developer, Enugu" },
-      { "quote": "My clients appreciate seeing all the milestone invoices upfront. It sets clear expectations about payment timing and they're always prepared.", "name": "Aisha B.", "role": "Interior Designer, Abuja" },
-      { "quote": "Milestone billing cut our payment collection time in half. Clients who can see the next invoice coming are far more likely to pay on time.", "name": "Tom R.", "role": "Video Producer, London" }
+      { "quote": "Je perdais de l'argent sur chaque projet parce que j'oubliais d'envoyer la facture finale. Maintenant tous les jalons sont configurés dès le premier jour et rien ne passe à travers les mailles.", "name": "Nicolas R.", "role": "Développeur Web, Toulouse" },
+      { "quote": "Mes clients apprécient de voir toutes les factures de jalons d'avance. Ça fixe des attentes claires sur le calendrier de paiement et ils sont toujours préparés.", "name": "Camille B.", "role": "Architecte d'Intérieur, Lyon" },
+      { "quote": "La facturation par jalons a réduit notre délai de recouvrement de moitié. Les clients qui voient la prochaine facture arriver sont bien plus susceptibles de payer à temps.", "name": "Thomas V.", "role": "Producteur Vidéo, Marseille" }
     ]
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Questions fréquemment posées",
     "items": [
-      { "question": "What is milestone billing?", "answer": "Milestone billing splits a project into distinct phases, with payment due at the completion of each phase. For example, a web developer might bill 30% as a deposit, 40% at design approval, and the remaining 30% at launch. This model protects both the service provider and the client by tying payments to tangible deliverables." },
-      { "question": "How do I create milestone invoices in Invoicemonk?", "answer": "Create separate invoices for each milestone with clear descriptions of the deliverables completed. Link them to the same client for easy tracking. You can also create all milestone invoices upfront as drafts and send them as each phase is completed." },
-      { "question": "Can I combine milestone billing with deposits?", "answer": "Absolutely. The most common approach is to send a deposit invoice before work begins (typically 25–50% of the total), then progress invoices at each milestone, and a final balance invoice at completion. Invoicemonk tracks all linked invoices so you can see the total project value and amount collected at a glance." },
-      { "question": "What industries use milestone billing?", "answer": "Milestone billing is standard in photography (booking → proofs → finals), web development (deposit → design → development → launch), construction (foundation → framing → completion), architecture, consulting engagements, video production, and any project-based service with distinct phases." },
-      { "question": "How does milestone billing protect my cash flow?", "answer": "By collecting payment at each project phase, you avoid the risk of completing an entire project before receiving any payment. If a client becomes unresponsive or disputes the work, your exposure is limited to the current phase rather than the full project value." },
-      { "question": "Can clients see all their milestone invoices in one place?", "answer": "Yes. Clients can access their invoice history through Invoicemonk's verification portal, where they can view all invoices related to their project, check payment status, and download receipts for their records." },
-      { "question": "What percentage should I charge as a deposit?", "answer": "Industry standards vary, but most service providers charge 25–50% as an initial deposit. For high-value projects, a 30% deposit is common. The deposit covers your initial investment of time and materials and signals the client's commitment to the project." },
-      { "question": "Can I adjust milestone amounts after the project starts?", "answer": "Yes. If the project scope changes, you can create additional milestone invoices or adjust upcoming ones. Invoicemonk keeps a complete history of all invoices, so scope changes are fully documented for both parties." }
+      { "question": "Qu'est-ce que la facturation par jalons ?", "answer": "La facturation par jalons divise un projet en phases distinctes, avec un paiement dû à l'achèvement de chaque phase. Par exemple, un développeur web peut facturer 30 % comme acompte, 40 % à l'approbation du design, et les 30 % restants au lancement. Ce modèle protège à la fois le prestataire et le client en liant les paiements à des livrables tangibles." },
+      { "question": "Comment créer des factures par jalons dans Invoicemonk ?", "answer": "Créez des factures séparées pour chaque jalon avec des descriptions claires des livrables complétés. Liez-les au même client pour un suivi facile. Vous pouvez aussi créer toutes les factures de jalons d'avance en brouillon et les envoyer au fur et à mesure que chaque phase est achevée." },
+      { "question": "Puis-je combiner la facturation par jalons avec des acomptes ?", "answer": "Absolument. L'approche la plus courante consiste à envoyer une facture d'acompte avant le début des travaux (typiquement 25-50 % du total), puis des factures de progression à chaque jalon, et une facture de solde final à l'achèvement. Invoicemonk suit toutes les factures liées pour que vous puissiez voir la valeur totale du projet et le montant encaissé d'un coup d'œil." },
+      { "question": "Quelles industries utilisent la facturation par jalons ?", "answer": "La facturation par jalons est standard dans la photographie (réservation → épreuves → finaux), le développement web (acompte → design → développement → lancement), la construction (fondations → gros œuvre → finitions), l'architecture, le conseil, la production vidéo, et tout service basé sur des projets avec des phases distinctes." },
+      { "question": "Comment la facturation par jalons protège-t-elle ma trésorerie ?", "answer": "En collectant des paiements à chaque phase du projet, vous évitez le risque de terminer un projet entier avant de recevoir un paiement. Si un client devient injoignable ou conteste le travail, votre exposition est limitée à la phase en cours plutôt qu'à la valeur totale du projet." },
+      { "question": "Les clients peuvent-ils voir toutes leurs factures de jalons au même endroit ?", "answer": "Oui. Les clients peuvent accéder à leur historique de factures via le portail de vérification d'Invoicemonk, où ils peuvent voir toutes les factures liées à leur projet, vérifier l'état des paiements et télécharger les reçus pour leurs archives." },
+      { "question": "Quel pourcentage devrais-je facturer comme acompte ?", "answer": "Les standards de l'industrie varient, mais la plupart des prestataires facturent 25-50 % comme acompte initial. Pour les projets à haute valeur, un acompte de 30 % est courant. L'acompte couvre votre investissement initial en temps et matériaux et signale l'engagement du client envers le projet." },
+      { "question": "Puis-je ajuster les montants des jalons après le début du projet ?", "answer": "Oui. Si le périmètre du projet change, vous pouvez créer des factures de jalons supplémentaires ou ajuster celles à venir. Invoicemonk conserve un historique complet de toutes les factures, de sorte que les changements de périmètre sont entièrement documentés pour les deux parties." }
     ]
   },
   "related": {
-    "title": "Related reading",
+    "title": "Lectures connexes",
     "links": [
-      { "label": "Pricing Your Services", "to": "/blog/pricing-your-freelance-services" },
-      { "label": "Invoice Essential Elements", "to": "/blog/invoice-essential-elements-guide" },
-      { "label": "For Photographers", "to": "/photographers" },
-      { "label": "For Creatives", "to": "/creatives" },
-      { "label": "Retainer Billing", "to": "/use-cases/retainer-billing" }
+      { "label": "Tarifer Vos Services", "to": "/blog/pricing-your-freelance-services" },
+      { "label": "Éléments Essentiels d'une Facture", "to": "/blog/invoice-essential-elements-guide" },
+      { "label": "Pour les Photographes", "to": "/photographers" },
+      { "label": "Pour les Créatifs", "to": "/creatives" },
+      { "label": "Facturation en Retainer", "to": "/use-cases/retainer-billing" }
     ]
   },
   "cta": {
-    "title": "Start billing by milestone",
-    "description": "Protect your cash flow with milestone invoicing. Start free — no credit card required.",
-    "button": "Get Started Free"
+    "title": "Commencez à facturer par jalons",
+    "description": "Protégez votre trésorerie avec la facturation par jalons. Commencez gratuitement — aucune carte de crédit requise.",
+    "button": "Commencer Gratuitement"
   }
 }

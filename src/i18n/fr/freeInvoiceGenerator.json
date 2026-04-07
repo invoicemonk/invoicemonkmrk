@@ -122,10 +122,13 @@
     "address": "Adresse",
     "email": "E-mail",
     "phone": "Téléphone",
+    "businessTaxId": "N° fiscal / TVA / GST",
     "billTo": "Facturer à",
     "clientName": "Nom du client",
     "clientAddress": "Adresse du client",
     "clientEmail": "E-mail du client",
+    "clientTaxId": "N° fiscal du client (facultatif)",
+    "taxId": "N° fiscal",
     "invoiceDetails": "Détails de la facture",
     "invoiceNumber": "Facture #",
     "currency": "Devise",
@@ -137,6 +140,7 @@
     "rate": "Tarif",
     "amount": "Montant",
     "itemDescription": "Description de l'article",
+    "itemTax": "Taxe %",
     "addItem": "Ajouter un article",
     "taxDiscount": "Taxe et remise",
     "taxRate": "Taux de taxe (%)",
@@ -167,6 +171,15 @@
     "noSavedInvoices": "Aucune facture sauvegardée",
     "invoiceSaved": "Facture sauvegardée",
     "invoiceDeleted": "Facture supprimée",
-    "invoiceLoaded": "Facture chargée"
+    "invoiceLoaded": "Facture chargée",
+    "validation": {
+      "title": "Champs manquants",
+      "businessName": "Le nom de l'entreprise est vide",
+      "clientName": "Le nom du client est vide",
+      "invoiceNumber": "Le numéro de facture est vide",
+      "noDescriptions": "Aucun article n'a de description",
+      "zeroAmount": "Tous les articles ont un montant de zéro",
+      "taxIdRecommended": "N° fiscal recommandé pour la conformité"
+    }
   }
 }

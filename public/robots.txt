@@ -16,10 +16,51 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 
+# Disallow bare-path pages (must use /en/ prefix)
+Disallow: /blog/
+Disallow: /blog$
+Disallow: /guides/
+Disallow: /guides$
+Disallow: /help/
+Disallow: /help$
+Disallow: /glossary$
+Disallow: /explore$
+Disallow: /freelancers$
+Disallow: /consultants$
+Disallow: /contractors$
+Disallow: /agencies$
+Disallow: /photographers$
+Disallow: /lawyers$
+Disallow: /accountants$
+Disallow: /ecommerce$
+Disallow: /creatives$
+Disallow: /small-businesses$
+Disallow: /invoicing$
+Disallow: /expenses$
+Disallow: /payments$
+Disallow: /accounting$
+Disallow: /estimates$
+Disallow: /receipts$
+Disallow: /pricing$
+Disallow: /about$
+Disallow: /contact$
+Disallow: /compliance$
+Disallow: /developer$
+Disallow: /why-invoicemonk$
+Disallow: /free-invoice-generator$
+Disallow: /best-invoicing-software$
+Disallow: /tools$
+Disallow: /compare/
+Disallow: /use-cases/
+Disallow: /client-management$
+Disallow: /partner-program$
+
+# Disallow __LANG__ placeholder URLs
+Disallow: /__LANG__/
+
 # Disallow leaked placeholder and legacy patterns
 Disallow: /*/__LANG__/
 Disallow: /tag/
 Disallow: /author/
 Disallow: /training/
 Disallow: /trainini
-
