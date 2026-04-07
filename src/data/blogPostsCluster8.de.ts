@@ -1575,34 +1575,53 @@ const posts: BlogPost[] = [
       { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
     ],
     content: `
-      <p>Der <strong>Devisenmarkt</strong> bewegt über 7,5 Billionen USD täglich. Dennoch wissen die meisten Kleinunternehmer nicht, wie Währungsumrechnung funktioniert — oder wie viel sie kostet.</p>
+      <p>Der <strong>Devisenmarkt</strong> bewegt über 7,5 Billionen USD täglich und ist damit der größte Finanzmarkt der Welt. Dennoch wissen die meisten Kleinunternehmer und Freelancer, die internationale Zahlungen senden oder empfangen, nicht, wie Währungsumrechnung tatsächlich funktioniert — oder wie viel sie kostet. Die Mechanik zu verstehen, ist der erste Schritt, um mehr von Ihrem Geld zu behalten.</p>
+
       <h2>Was ist Währungsumrechnung?</h2>
-      <p>Währungsumrechnung ist der Austausch einer Währung gegen eine andere zu einem bestimmten <strong>Wechselkurs</strong>. Jeder Kurs wird als <strong>Währungspaar</strong> ausgedrückt — z.B. EUR/USD = 1,08.</p>
+      <p>Währungsumrechnung ist der Prozess, eine Währung zu einem bestimmten <strong>Wechselkurs</strong> gegen eine andere auszutauschen. Wenn ein Kunde in Großbritannien Ihre USD-Rechnung bezahlt, müssen britische Pfund irgendwann in der Zahlungskette in US-Dollar umgerechnet werden. Der Kurs, zu dem diese Umrechnung erfolgt — und wer ihn kontrolliert — bestimmt, wie viel Geld Sie tatsächlich erhalten.</p>
+      <p>Jeder Wechselkurs wird als <strong>Währungspaar</strong> ausgedrückt — z.B. GBP/USD = 1,27 bedeutet, dass ein britisches Pfund 1,27 US-Dollar entspricht. Kurse schwanken ständig basierend auf Wirtschaftsindikatoren, Zentralbankpolitik, geopolitischen Ereignissen und Marktstimmung.</p>
+
       <h2>Der Devisenmittelkurs: Ihr Maßstab</h2>
-      <p>Der <strong>Devisenmittelkurs</strong> ist der Mittelpunkt zwischen Kauf- und Verkaufspreis — der „echte" Kurs. Problem: Sie bekommen ihn fast nie. Banken und Zahlungsanbieter addieren einen Aufschlag von 0,3 % (beste Plattformen) bis 4 %+ (Banken).</p>
-      <p>Bei einer 10.000 €-Überweisung beträgt der Unterschied zwischen 0,5 % und 3 % Aufschlag: 250 €.</p>
+      <p>Der <strong>Devisenmittelkurs</strong> (auch Interbankenkurs oder Kassakurs genannt) ist der Mittelpunkt zwischen Kauf- und Verkaufspreis eines Währungspaares auf dem globalen Devisenmarkt. Es ist der Kurs, den Sie bei Google, XE.com oder Reuters sehen. Er ist der „echte" Kurs — der, zu dem große Banken und Institutionen untereinander handeln.</p>
+      <p>Das Problem: <em>Sie bekommen fast nie den Devisenmittelkurs</em>. Banken, Zahlungsabwickler und Wechselstuben addieren einen Aufschlag — die Differenz zwischen dem Devisenmittelkurs und dem Kurs, den sie Ihnen anbieten. Dieser Aufschlag ist ihr Gewinn an der Umrechnung und reicht von 0,3 % (beste Plattformen) bis 4 %+ (traditionelle Banken).</p>
+      <p>Bei einer 10.000 €-Überweisung beträgt der Unterschied zwischen 0,5 % und 3 % Aufschlag: 250 €. Über ein Jahr regelmäßiger internationaler Zahlungen summiert sich das auf Tausende Euro an versteckten Kosten.</p>
+
       <h2>Wo die Umrechnung stattfindet</h2>
-      <ul>
-        <li><strong>Bank des Senders:</strong> 1,5–3 % Aufschlag</li>
-        <li><strong>Bank des Empfängers:</strong> Weiterer 1,5–3 % Aufschlag</li>
-        <li><strong>Doppelte Umrechnung:</strong> Über Zwischenwährung — schlimmster Fall</li>
-        <li><strong>Zahlungsplattform:</strong> Wise, Payoneer etc. — 0,3–0,7 % Aufschlag, typischerweise günstigste Option</li>
-      </ul>
+      <p>Bei einer typischen internationalen Banküberweisung kann die Währungsumrechnung an mehreren Stellen erfolgen — und jede Umrechnung kostet Geld:</p>
+      <p><strong>Szenario 1: Bank des Senders rechnet um.</strong> Die Bank Ihres Kunden rechnet GBP in USD um, bevor die Überweisung gesendet wird. Der Kunde zahlt den Wechselkurs seiner Bank (typischerweise 1,5–3 % Aufschlag).</p>
+      <p><strong>Szenario 2: Bank des Empfängers rechnet um.</strong> Die Überweisung kommt in GBP an, und Ihre Bank rechnet zu ihrem Kurs in USD um (weitere 1,5–3 % Aufschlag). Dies ist der Standard für viele reguläre <a href="/__LANG__/blog/international-wire-transfer-fees-guide">Banküberweisungen</a>.</p>
+      <p><strong>Szenario 3: Doppelte Umrechnung.</strong> Der schlimmste Fall. Wenn keine der beiden Banken direkt zwischen den Währungen umrechnen kann, wird das Geld zuerst in eine Zwischenwährung (meist USD oder EUR) und dann in die Zielwährung umgerechnet. Jede Umrechnung hat einen Aufschlag. Dies ist häufig bei weniger gehandelten Währungspaaren wie NGN/AUD.</p>
+      <p><strong>Szenario 4: Zahlungsplattform rechnet um.</strong> Dienste wie Wise, Payoneer oder Multi-Währungs-Geschäftskonten rechnen zu nahezu Devisenmittelkursen um (0,3–0,7 % Aufschlag) und liefern Gelder über lokale Banknetzwerke. Dies ist typischerweise die günstigste Option.</p>
+
       <h2>Bessere Wechselkurse erhalten</h2>
-      <ol>
-        <li>Immer zuerst den Devisenmittelkurs prüfen (XE.com, Google)</li>
-        <li>Plattformen mit transparenter Preisgestaltung nutzen</li>
-        <li>Zu günstigen Zeitpunkten umrechnen (Multi-Währungskonten)</li>
-        <li>In Kundenwährung fakturieren — Sie kontrollieren die Umrechnung</li>
-        <li>Doppelte Umrechnung vermeiden</li>
-      </ol>
+
+      <h3>1. Immer zuerst den Devisenmittelkurs prüfen</h3>
+      <p>Bevor Sie eine Umrechnung akzeptieren, prüfen Sie den aktuellen Devisenmittelkurs auf XE.com oder Google. Berechnen Sie dann den Aufschlag, den Ihre Bank oder Ihr Zahlungsanbieter berechnet. Wenn der Mittelkurs für EUR/USD bei 1,08 liegt und Ihre Bank 1,04 anbietet, ist das ein 3,7 %-Aufschlag — inakzeptabel hoch für die meisten Überweisungsbeträge.</p>
+
+      <h3>2. Plattformen mit transparenter Preisgestaltung nutzen</h3>
+      <p>Einige Plattformen zeigen ihren Aufschlag explizit an (z.B. „0,5 % Umrechnungsgebühr + Devisenmittelkurs"). Andere verstecken ihn in einem undurchsichtigen „Wechselkurs" ohne Bezug zum Devisenmittelkurs. Transparente Preisgestaltung ist fast immer günstiger. Vergleichen Sie Plattformen mit unserem <a href="/__LANG__/international-payment-fee-calculator">Gebührenrechner</a>.</p>
+
+      <h3>3. Zu günstigen Zeitpunkten umrechnen</h3>
+      <p>Wenn Ihre Zahlungsplattform Multi-Währungskonten anbietet, können Sie Gelder in der Originalwährung empfangen und umrechnen, wenn der Kurs günstig ist. Das ist keine Währungsspekulation — Sie vermeiden lediglich Umrechnungen an Tagen, an denen Ihre Zielwährung vorübergehend schwach ist. Schon 1 % Kursverbesserung bei einer 20.000 €-Zahlung spart 200 €.</p>
+
+      <h3>4. In Kundenwährung fakturieren</h3>
+      <p>Wenn Sie <a href="/__LANG__/use-cases/multi-currency-invoicing">in der Landeswährung Ihres Kunden fakturieren</a>, zahlt dieser per Inlandsüberweisung (keine Umrechnung auf seiner Seite), und Sie kontrollieren, wann und wie die Umrechnung auf Ihrer Seite erfolgt. <a href="/__LANG__/invoicing">Invoicemonk</a> unterstützt Multi-Währungs-Fakturierung und zeigt Echtzeit-Wechselkurse an.</p>
+
+      <h3>5. Doppelte Umrechnung vermeiden</h3>
+      <p>Wählen Sie wenn möglich eine Zahlungsmethode, die direkt zwischen den beiden beteiligten Währungen umrechnet. Prüfen Sie unser <a href="/__LANG__/cheapest-way-to-receive-international-payments">Tool für günstigste internationale Zahlungen</a> für die besten Routen Ihrer spezifischen Korridore.</p>
+
       <h2>Aufschläge nach Anbietertyp</h2>
-      <ul>
-        <li><strong>Banken:</strong> 1,5–4 % Aufschlag</li>
-        <li><strong>PayPal/Stripe:</strong> 2,5–4 % über Devisenmittelkurs</li>
-        <li><strong>Multi-Währungsplattformen:</strong> 0,3–1,5 %</li>
-        <li><strong>Forex-Broker:</strong> 0,1–0,5 % (ab 50.000 €+)</li>
-      </ul>
+      <p><strong>Traditionelle Banken:</strong> 1,5–4 % Aufschlag. Oft als „wettbewerbsfähiger Kurs" präsentiert ohne Bezug zum Devisenmittelkurs. Gut für Inlandsbanking; teuer für internationale Überweisungen.</p>
+      <p><strong>PayPal/Stripe:</strong> 2,5–4 % über Devisenmittelkurs. Bequem für kleine Beträge; teuer bei Skalierung. Siehe unseren <a href="/__LANG__/paypal-vs-wise-fees">PayPal vs. Wise-Vergleich</a>.</p>
+      <p><strong>Multi-Währungsplattformen (Wise, Payoneer):</strong> 0,3–1,5 % über Devisenmittelkurs. Die besten Kurse für die meisten Geschäftsüberweisungen.</p>
+      <p><strong>Forex-Broker:</strong> 0,1–0,5 % über Devisenmittelkurs. Für große Überweisungen (ab 50.000 €+). Nicht praktisch für regelmäßige Kleinunternehmenszahlungen.</p>
+
+      <h2>Wechselkurse in der Buchhaltung</h2>
+      <p>Wenn Sie Zahlungen in Fremdwährungen senden oder empfangen, muss Ihre <a href="/__LANG__/blog/accounting-101-small-business-owners">Buchhaltung</a> verfolgen: den ursprünglichen Rechnungsbetrag in der Fremdwährung, den verwendeten Wechselkurs, den erhaltenen Betrag in Ihrer Heimatwährung und etwaige Währungsgewinne oder -verluste.</p>
+      <p><a href="/__LANG__/accounting">Invoicemonk</a> erledigt dies automatisch bei Multi-Währungsrechnungen — Wechselkurs bei Rechnungsstellung wird erfasst und bei Zahlungseingang abgeglichen.</p>
+
+      <h2>Wichtigste Erkenntnis</h2>
+      <p>Währungsumrechnung ist der größte versteckte Kostenfaktor bei internationalen Zahlungen. Die wirksamste Maßnahme: Vergleichen Sie den Wechselkurs Ihres aktuellen Anbieters mit dem Devisenmittelkurs — und wechseln Sie, wenn der Aufschlag 1 % übersteigt. Nutzen Sie unseren <a href="/__LANG__/international-payment-fee-calculator">internationalen Gebührenrechner</a> für Ihre spezifischen Überweisungsrouten.</p>
     `,
     faq: [
       { question: 'Was kostet eine internationale Überweisung?', answer: 'Eine typische SWIFT-Überweisung kostet 25–65 € Bankgebühren plus 1–4 % Wechselkursaufschlag. Plattformen wie Wise reduzieren dies auf 5–15 € plus 0,3–0,7 % Aufschlag.' },
