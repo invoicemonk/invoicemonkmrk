@@ -1443,7 +1443,7 @@ const posts: BlogPost[] = [
     targetProduct: '/compliance',
     semanticKeywords: ['SARS Steuerpflichten', 'Freelancer Steuerfehler', 'Steuerfristen Südafrika'],
     priority: 'P2',
-    content: \`
+    content: `
       <p>Als Freelancer in Südafrika sind Sie selbst für Ihre Steuererklärung verantwortlich. Das bedeutet: keine automatische Lohnsteuer, keine Arbeitgeberbeiträge und keine Buchhaltungsabteilung. Fehler können teuer werden — von Strafzahlungen über Zinsen bis hin zu SARS-Prüfungen.</p>
       <p>Dieser Leitfaden deckt die häufigsten Steuerfehler südafrikanischer Freelancer auf und zeigt, wie Sie sie vermeiden.</p>
 
@@ -1524,7 +1524,7 @@ const posts: BlogPost[] = [
         <li>Steuerrücklagen von 25–35 % bilden</li>
         <li>Jährliche Steuererklärung fristgerecht abgeben</li>
       </ol>
-    \`,
+    `,
     faq: [
       { question: 'Wann muss ich mich als Freelancer in Südafrika bei SARS registrieren?', answer: 'Sofort, wenn Sie freiberuflich tätig werden. Es gibt keine Einkommensgrenze für die Registrierungspflicht — auch wenn Ihr Einkommen unter dem Steuerfreibetrag liegt.' },
       { question: 'Wie viel Steuern zahlt ein Freelancer in Südafrika?', answer: 'Der Einkommensteuersatz ist progressiv und reicht von 18 % bis 45 %. Zusätzlich fällt ab R1 Million Umsatz MwSt (15 %) an. Durch Absetzung von Geschäftsausgaben kann die effektive Steuerlast reduziert werden.' },
