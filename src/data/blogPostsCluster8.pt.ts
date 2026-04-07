@@ -1455,7 +1455,7 @@ const posts: BlogPost[] = [
     targetProduct: '/invoicing',
     semanticKeywords: ['fatura Austrália', 'ATO requisitos', 'GST fatura', 'ABN faturação'],
     priority: 'P2',
-    content: \`
+    content: `
       <p>Se trabalha com clientes na Austrália — quer esteja baseado no país ou fature internacionalmente — precisa de compreender as regras de faturação da Australian Taxation Office (ATO). As exigências australianas são específicas, especialmente em relação ao GST (Goods and Services Tax) e ao ABN (Australian Business Number).</p>
       <p>Este guia cobre tudo o que precisa para faturar clientes australianos de forma correta e profissional.</p>
 
@@ -1528,7 +1528,7 @@ const posts: BlogPost[] = [
         <li><strong>Condições de pagamento e dados bancários</strong></li>
       </ul>
       <p>Use o <a href="/free-invoice-generator">gerador de faturas gratuito do Invoicemonk</a> para criar automaticamente faturas conformes com a ATO — basta selecionar AUD como moeda.</p>
-    \`,
+    `,
     faq: [
       { question: 'Preciso de um ABN para faturar na Austrália?', answer: 'Sim, se opera um negócio na Austrália, deve ter um ABN e incluí-lo em todas as tax invoices. Sem ABN, os clientes podem reter 47% do pagamento como withholding tax.' },
       { question: 'Quando devo registar-me para GST na Austrália?', answer: 'Deve registar-se quando o seu volume de negócios anual atinge A$75.000. Pode registar-se voluntariamente antes disso para reclamar input tax credits.' },
@@ -1550,7 +1550,7 @@ const posts: BlogPost[] = [
     targetProduct: '/compliance',
     semanticKeywords: ['registo GST Austrália', 'freelancer GST', 'ATO registo', 'BAS obrigações'],
     priority: 'P2',
-    content: \`
+    content: `
       <p>Como freelancer na Austrália, o GST (Goods and Services Tax) é um dos aspetos fiscais mais importantes que precisa compreender. Saber quando se registar, como cumprir as obrigações e como isso afeta os seus preços pode fazer a diferença entre um negócio rentável e problemas com a ATO.</p>
 
       <h2>O Que é o GST?</h2>
@@ -1631,7 +1631,7 @@ const posts: BlogPost[] = [
         <li><a href="/expenses">Registo de despesas</a> com categorização de GST</li>
         <li>Software de contabilidade integrado com o BAS</li>
       </ul>
-    \`,
+    `,
     faq: [
       { question: 'Qual é o limiar para registo obrigatório de GST na Austrália?', answer: 'A$75.000 de volume de negócios em 12 meses consecutivos (ou A$150.000 para organizações sem fins lucrativos). Abaixo deste limiar, o registo é voluntário.' },
       { question: 'Posso cancelar o meu registo GST?', answer: 'Sim, pode cancelar o registo se o seu volume de negócios cair abaixo de A$75.000 e não espera que volte a ultrapassar. O cancelamento é feito através do Business Portal da ATO.' },
