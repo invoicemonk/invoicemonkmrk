@@ -305,41 +305,72 @@ const posts: BlogPost[] = [
     semanticKeywords: ['calendario fiscal', 'plazos fiscales', 'fechas de declaración', 'fechas de pago de impuestos'],
     priority: 'P2',
     content: `
-      <p>Perder plazos fiscales cuesta a las empresas miles de euros en multas cada año. Conocer sus fechas clave es esencial para el cumplimiento.</p>
+      <p>Perder plazos fiscales cuesta a las empresas miles de euros en multas e intereses cada año. Ya opere en un solo país o de forma transfronteriza, conocer sus fechas clave es esencial para el cumplimiento. Esta guía recopila los plazos fiscales críticos de los principales mercados para que nunca más pierda una fecha.</p>
 
       <h2>España (Agencia Tributaria)</h2>
+      <h3>Declaraciones trimestrales</h3>
+      <p>Los autónomos y empresas en España deben presentar declaraciones trimestrales de IVA e IRPF:</p>
+      <table>
+        <thead><tr><th>Modelo</th><th>Concepto</th><th>Plazo</th></tr></thead>
+        <tbody>
+          <tr><td>Modelo 303</td><td>Autoliquidación IVA</td><td>1-20 de abril/julio/octubre/enero</td></tr>
+          <tr><td>Modelo 130/131</td><td>Pago fraccionado IRPF</td><td>1-20 de abril/julio/octubre/enero</td></tr>
+          <tr><td>Modelo 111</td><td>Retenciones IRPF</td><td>1-20 del mes siguiente al trimestre</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Declaraciones anuales</h3>
       <ul>
-        <li><strong>1-20 Abril/Julio/Octubre/Enero:</strong> Declaraciones trimestrales (IVA Modelo 303, IRPF Modelo 130)</li>
-        <li><strong>Enero:</strong> Resúmenes anuales (Modelo 390, 190)</li>
+        <li><strong>Enero (hasta el 30):</strong> Resumen anual IVA (Modelo 390), retenciones (Modelo 190)</li>
         <li><strong>Abril-Junio:</strong> Declaración de la Renta (IRPF)</li>
-        <li><strong>Julio:</strong> Impuesto de Sociedades</li>
+        <li><strong>Julio (hasta el 25):</strong> Impuesto de Sociedades (Modelo 200)</li>
+        <li><strong>Febrero (hasta el 28):</strong> Modelo 347 (operaciones con terceros > 3.005,06 €)</li>
       </ul>
 
       <h2>Estados Unidos (IRS)</h2>
       <ul>
-        <li><strong>15 enero:</strong> Pago estimado Q4</li>
-        <li><strong>15 abril:</strong> Declaración individual; pago estimado Q1</li>
+        <li><strong>15 enero:</strong> Pago estimado Q4 del año anterior</li>
+        <li><strong>15 abril:</strong> Declaración individual + pago estimado Q1</li>
         <li><strong>15 junio:</strong> Pago estimado Q2</li>
         <li><strong>15 septiembre:</strong> Pago estimado Q3</li>
+        <li><strong>15 octubre:</strong> Declaración extendida</li>
       </ul>
 
       <h2>Reino Unido (HMRC)</h2>
       <ul>
-        <li><strong>31 enero:</strong> Self-Assessment y pago</li>
+        <li><strong>31 enero:</strong> Self-Assessment + pago final + primer pago a cuenta</li>
         <li><strong>31 julio:</strong> Segundo pago a cuenta</li>
+        <li><strong>Trimestral:</strong> Declaraciones de IVA (fechas según el año fiscal)</li>
+      </ul>
+
+      <h2>México (SAT)</h2>
+      <ul>
+        <li><strong>17 de cada mes:</strong> Declaración mensual provisional ISR e IVA</li>
+        <li><strong>Marzo (personas físicas) / Marzo (personas morales):</strong> Declaración anual</li>
+        <li><strong>Enero:</strong> Declaración informativa de operaciones con terceros (DIOT)</li>
+      </ul>
+
+      <h2>Colombia (DIAN)</h2>
+      <ul>
+        <li><strong>Bimestral/Cuatrimestral:</strong> Declaración de IVA (según ingresos)</li>
+        <li><strong>Abril-Mayo:</strong> Declaración de renta personas jurídicas</li>
+        <li><strong>Agosto-Octubre:</strong> Declaración de renta personas naturales</li>
       </ul>
 
       <h2>Consejos para gestionar plazos fiscales</h2>
       <ol>
         <li><strong>Programar recordatorios:</strong> 2 semanas y 1 semana antes de cada plazo</li>
         <li><strong>Automatizar pagos:</strong> Domiciliaciones bancarias cuando sea posible</li>
-        <li><strong>Usar software de contabilidad:</strong> <a href="/__LANG__/accounting">Invoicemonk</a> rastrea plazos y genera informes</li>
+        <li><strong>Planificar con margen:</strong> Apunte a tener todo listo 5 días antes del plazo</li>
+        <li><strong>Usar software de contabilidad:</strong> <a href="/__LANG__/accounting">Invoicemonk</a> rastrea plazos y genera informes fiscales</li>
+        <li><strong>Contar con un asesor:</strong> Para situaciones complejas y plazos extendidos</li>
       </ol>
 
       <h2>Recursos relacionados</h2>
       <ul>
         <li><a href="/__LANG__/blog/small-business-tax-compliance-guide">Guía completa de cumplimiento fiscal</a></li>
         <li><a href="/__LANG__/blog/quarterly-tax-payment-guide">Guía de pagos trimestrales</a></li>
+        <li><a href="/__LANG__/blog/business-record-keeping-requirements">Obligaciones de conservación de documentos</a></li>
       </ul>
     `,
     faq: [

@@ -2,6 +2,8 @@
   "nav": {
     "products": "Produits",
     "tools": "Outils",
+    "freeTools": "Outils gratuits",
+    "viewAllTools": "Voir tous les outils →",
     "help": "Aide",
     "guides": "Guides",
     "blog": "Blog",
@@ -10,6 +12,32 @@
     "login": "Connexion",
     "getStarted": "Commencer",
     "company": "Entreprise"
+  },
+  "navTools": {
+    "freeInvoiceGenerator": {
+      "name": "Générateur de factures",
+      "description": "Factures professionnelles sans inscription"
+    },
+    "invoiceTemplates": {
+      "name": "Modèles de factures",
+      "description": "6 modèles par secteur"
+    },
+    "paymentFeeCalculator": {
+      "name": "Calculateur de frais",
+      "description": "Comparer les frais internationaux"
+    },
+    "freelancerRateCalculator": {
+      "name": "Calculateur de tarif",
+      "description": "Trouvez votre taux horaire idéal"
+    },
+    "paypalVsWise": {
+      "name": "PayPal vs Wise",
+      "description": "Comparaison de frais côte à côte"
+    },
+    "invoiceGeneratorAu": {
+      "name": "Générateur factures AU",
+      "description": "Conforme ATO avec ABN & GST"
+    }
   },
   "products": {
     "invoicing": {

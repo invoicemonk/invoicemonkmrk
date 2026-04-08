@@ -135,31 +135,63 @@ const posts: BlogPost[] = [
       { label: 'Rechnungssoftware', url: '/invoicing', description: 'Professionelle Rechnungen erstellen' },
     ],
     content: `
-      <p>Wenn Sie Kunden haben, die regelmäßig denselben Betrag zahlen, ist manuelles Erstellen von Rechnungen Zeitverschwendung. Wiederkehrende Rechnungen automatisieren diesen Prozess.</p>
+      <p>Wenn Sie Kunden haben, die regelmäßig denselben Betrag zahlen, ist das manuelle Erstellen von Rechnungen jeden Monat Zeitverschwendung. Wiederkehrende Rechnungen automatisieren diesen Prozess und sorgen für eine konsistente Abrechnung ohne administrativen Aufwand. Ob Sie ein Berater mit monatlichen Retainern sind, ein Dienstleister mit Wartungsverträgen oder ein SaaS-Unternehmen mit Abo-Kunden – wiederkehrende Rechnungen können Ihren Abrechnungs-Workflow grundlegend verändern.</p>
+
       <h2>Was sind wiederkehrende Rechnungen?</h2>
-      <p>Rechnungen, die automatisch in festgelegten Intervallen erstellt und versendet werden — wöchentlich, monatlich, quartalsweise oder jährlich.</p>
+      <p>Wiederkehrende Rechnungen sind Rechnungen, die automatisch in festgelegten Intervallen erstellt und versendet werden — wöchentlich, monatlich, quartalsweise oder jährlich. Sobald Sie die Vorlage und den Zeitplan eingerichtet haben, übernimmt Ihre <a href="/invoicing">Rechnungssoftware</a> den Rest.</p>
+      <p>Wichtige Merkmale wiederkehrender Rechnungen:</p>
+      <ul>
+        <li>Automatische Erstellung nach Ihrem festgelegten Zeitplan</li>
+        <li>Einheitliche Formatierung und Positionen</li>
+        <li>Automatischer Versand per E-Mail</li>
+        <li>Fortlaufende Rechnungsnummerierung</li>
+        <li>Zahlungsverfolgung und automatische Erinnerungen</li>
+      </ul>
+
       <h2>Wann wiederkehrende Rechnungen nutzen?</h2>
-      <ul>
-        <li><strong>Monatliche Retainer:</strong> Berater, Agenturen, Steuerberater</li>
-        <li><strong>Abonnements:</strong> SaaS-Produkte, Mitgliedschaften</li>
-        <li><strong>Wartungsverträge:</strong> IT-Support, Gebäudemanagement</li>
-        <li><strong>Mietverhältnisse:</strong> Büroräume, Ausrüstung</li>
-      </ul>
-      <h2>Einrichtung</h2>
+      <p>Wiederkehrende Rechnungen eignen sich ideal für vorhersehbare, regelmäßige Abrechnungssituationen:</p>
+
+      <h3>Monatliche Retainer-Vereinbarungen</h3>
+      <p>Berater, Agenturen und Freiberufler arbeiten häufig auf monatlicher Retainer-Basis. Statt jeden Monat eine neue Rechnung zu erstellen, richten Sie eine wiederkehrende Rechnung ein, die automatisch am 1. (oder Ihrem Wunschdatum) versendet wird. So vergessen Sie nie die Abrechnung, und Ihr Kunde weiß genau, wann er die Rechnung erwarten kann.</p>
+
+      <h3>Abonnements und SaaS</h3>
+      <p>Wenn Sie laufende Dienste anbieten — Software-Abonnements, Wartungspläne, Mitgliedsbeiträge — halten wiederkehrende Rechnungen Ihre Abrechnung konsistent. Kunden schätzen die Vorhersehbarkeit, und Sie sichern einen stetigen Cashflow.</p>
+
+      <h3>Wartungsverträge</h3>
+      <p>IT-Support, Gebäudemanagement, Geräteservice — jeder Vertrag mit festem, wiederkehrendem Betrag ist ein idealer Kandidat für die Automatisierung.</p>
+
+      <h3>Mietverhältnisse</h3>
+      <p>Büroräume, Ausrüstung, Fahrzeuge — bei gleichen monatlichen Beträgen sparen Sie enorm Zeit durch Automatisierung.</p>
+
+      <h2>Einrichtung in 5 Schritten</h2>
       <ol>
-        <li>Kundeninformationen und Kontaktdaten eingeben</li>
-        <li>Leistungen und Beträge definieren</li>
-        <li>Abrechnungsintervall festlegen</li>
-        <li>Zahlungsbedingungen konfigurieren</li>
-        <li>Automatische Erinnerungen aktivieren</li>
+        <li><strong>Kundeninformationen eingeben:</strong> Kontaktdaten, Zahlungspräferenzen und besondere Hinweise</li>
+        <li><strong>Leistungen und Beträge definieren:</strong> Positionen, Mengen und Einzelpreise festlegen</li>
+        <li><strong>Abrechnungsintervall festlegen:</strong> Wöchentlich, monatlich, quartalsweise oder jährlich</li>
+        <li><strong>Zahlungsbedingungen konfigurieren:</strong> Fälligkeitsdatum, akzeptierte Zahlungsmethoden, Verzugsgebühren</li>
+        <li><strong>Automatische Erinnerungen aktivieren:</strong> Vor-Fälligkeits-, Fälligkeits- und Überfälligkeits-Erinnerungen</li>
       </ol>
-      <h2>Best Practices</h2>
+
+      <h2>Best Practices für wiederkehrende Rechnungen</h2>
       <ul>
-        <li>Kunden vor der ersten automatischen Rechnung informieren</li>
-        <li>Preisanpassungen mindestens 30 Tage im Voraus ankündigen</li>
-        <li>Automatische Erinnerungen bei überfälligen Zahlungen einrichten</li>
-        <li>Regelmäßig prüfen, ob Leistungen und Beträge noch aktuell sind</li>
+        <li><strong>Kunden vorab informieren:</strong> Teilen Sie Kunden mit, dass die Abrechnung künftig automatisch erfolgt, bevor die erste Rechnung versendet wird</li>
+        <li><strong>Preisänderungen ankündigen:</strong> Kommunizieren Sie Preisanpassungen mindestens 30 Tage im Voraus</li>
+        <li><strong>Automatische Erinnerungen nutzen:</strong> Richten Sie Erinnerungen für überfällige Zahlungen ein, damit Sie nicht manuell nachfassen müssen</li>
+        <li><strong>Regelmäßig überprüfen:</strong> Prüfen Sie quartalsweise, ob Leistungen, Beträge und Kontaktdaten noch aktuell sind</li>
+        <li><strong>Vertragslaufzeiten beachten:</strong> Setzen Sie Enddaten für befristete Verträge und überprüfen Sie Verlängerungsoptionen rechtzeitig</li>
       </ul>
+
+      <h2>Häufige Fehler vermeiden</h2>
+      <ul>
+        <li><strong>Keine Kommunikation:</strong> Kunden werden von der automatischen Rechnung überrascht</li>
+        <li><strong>Veraltete Daten:</strong> Alte Preise oder falsche Kontaktdaten werden monatelang weiterversendet</li>
+        <li><strong>Fehlende Anpassung:</strong> Einheitliche Rechnungen ohne Berücksichtigung individueller Vereinbarungen</li>
+        <li><strong>Keine Ausstiegsstrategie:</strong> Was passiert, wenn der Vertrag endet?</li>
+      </ul>
+
+      <h2>Software vs. manuelle Abrechnung</h2>
+      <p>Manuelle Erstellung wiederkehrender Rechnungen mit Tabellenkalkulationen funktioniert bei 2-3 Kunden. Bei 10+ Kunden wird es fehleranfällig und zeitintensiv. <a href="/invoicing">Professionelle Rechnungssoftware</a> automatisiert den gesamten Prozess: Erstellung, Versand, Nummerierung und Zahlungsverfolgung.</p>
+
       <p>Mehr zu Rechnungs-Best-Practices in unserem <a href="/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently">Leitfaden zur pünktlichen Rechnungsstellung</a>.</p>
     `
   },

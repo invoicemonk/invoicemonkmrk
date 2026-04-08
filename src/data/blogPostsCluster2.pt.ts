@@ -123,30 +123,54 @@ const posts: BlogPost[] = [
       { label: 'Software de faturamento', url: '/invoicing', description: 'Crie faturas profissionais' },
     ],
     content: `
-      <p>Se seus clientes pagam o mesmo valor regularmente, criar faturas manualmente a cada mês é perda de tempo. Faturas recorrentes automatizam o processo.</p>
+      <p>Se seus clientes pagam o mesmo valor regularmente, criar faturas manualmente a cada mês é perda de tempo. Faturas recorrentes automatizam esse processo, garantindo faturamento consistente sem dor de cabeça administrativa. Seja você um consultor com retainers mensais, um prestador de serviços com contratos de manutenção ou uma empresa SaaS com clientes de assinatura, faturas recorrentes podem transformar seu fluxo de faturamento.</p>
+
       <h2>O que são faturas recorrentes?</h2>
-      <p>Faturas geradas e enviadas automaticamente em intervalos regulares — semanal, mensal, trimestral ou anual.</p>
-      <h2>Quando usar</h2>
+      <p>Faturas recorrentes são faturas geradas e enviadas automaticamente em intervalos definidos — semanal, mensal, trimestral ou anual. Uma vez configurado o modelo e o cronograma, seu <a href="/invoicing">software de faturamento</a> cuida do resto.</p>
+      <p>Recursos principais:</p>
       <ul>
-        <li><strong>Retainers mensais:</strong> Consultores, agências, contadores</li>
-        <li><strong>Assinaturas:</strong> SaaS, membresías</li>
-        <li><strong>Contratos de manutenção:</strong> Suporte TI, gestão predial</li>
+        <li>Geração automática conforme seu cronograma</li>
+        <li>Formatação e itens consistentes</li>
+        <li>Envio automático por e-mail</li>
+        <li>Numeração sequencial de faturas</li>
+        <li>Rastreamento de pagamentos e lembretes automáticos</li>
       </ul>
-      <h2>Configuração</h2>
+
+      <h2>Quando usar</h2>
+      <h3>Retainers mensais</h3>
+      <p>Consultores, agências e profissionais liberais que trabalham com retainers mensais. Em vez de criar uma nova fatura todo mês, configure uma recorrente que seja enviada automaticamente no dia 1 (ou na data de sua preferência). Você nunca esquece de cobrar e seu cliente sabe exatamente quando esperar a fatura.</p>
+
+      <h3>Assinaturas</h3>
+      <p>Se você oferece serviços contínuos — assinaturas de software, planos de manutenção, mensalidades — faturas recorrentes mantêm seu faturamento consistente. Clientes apreciam a previsibilidade e você garante um fluxo de caixa estável.</p>
+
+      <h3>Contratos de manutenção</h3>
+      <p>Suporte de TI, gestão predial, manutenção de equipamentos — qualquer contrato com valor fixo recorrente é candidato ideal para automação.</p>
+
+      <h2>Configuração em 5 passos</h2>
       <ol>
-        <li>Cadastrar dados do cliente</li>
-        <li>Definir serviços e valores</li>
-        <li>Estabelecer intervalo de faturamento</li>
-        <li>Configurar condições de pagamento</li>
-        <li>Ativar lembretes automáticos</li>
+        <li><strong>Dados do cliente:</strong> Informações de contato, preferências de pagamento e observações</li>
+        <li><strong>Serviços e valores:</strong> Definir itens, quantidades e preços unitários</li>
+        <li><strong>Intervalo de faturamento:</strong> Semanal, mensal, trimestral ou anual</li>
+        <li><strong>Condições de pagamento:</strong> Data de vencimento, métodos aceitos (Pix, boleto, cartão), multa e juros por atraso</li>
+        <li><strong>Lembretes automáticos:</strong> Pré-vencimento, no vencimento e pós-vencimento</li>
       </ol>
+
       <h2>Boas práticas</h2>
       <ul>
-        <li>Informar o cliente antes da primeira fatura automática</li>
-        <li>Comunicar reajustes com 30 dias de antecedência</li>
-        <li>Configurar lembretes para pagamentos atrasados</li>
-        <li>Revisar periodicamente valores e serviços</li>
+        <li><strong>Informar o cliente:</strong> Comunique que o faturamento será automático antes da primeira fatura</li>
+        <li><strong>Anunciar reajustes:</strong> Com pelo menos 30 dias de antecedência</li>
+        <li><strong>Configurar lembretes:</strong> Para pagamentos atrasados, evitando cobranças manuais</li>
+        <li><strong>Revisar periodicamente:</strong> Verifique trimestralmente se serviços, valores e dados de contato estão atualizados</li>
+        <li><strong>Definir datas de encerramento:</strong> Para contratos com prazo determinado, programe a finalização automática</li>
       </ul>
+
+      <h2>Erros comuns</h2>
+      <ul>
+        <li><strong>Falta de comunicação:</strong> O cliente é surpreendido por uma fatura automática</li>
+        <li><strong>Dados desatualizados:</strong> Preços antigos ou dados de contato errados enviados por meses</li>
+        <li><strong>Sem estratégia de saída:</strong> O que acontece quando o contrato termina?</li>
+      </ul>
+
       <p>Mais dicas em nosso <a href="/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently">guia de faturamento pontual</a>.</p>
     `
   },
@@ -163,30 +187,50 @@ const posts: BlogPost[] = [
     semanticKeywords: ['disputas fatura', 'contestação fatura', 'desacordo cliente'],
     priority: 'P3',
     content: `
-      <p>Disputas de faturamento são desconfortáveis mas inevitáveis. Como você lida com elas determina se receberá e se a relação com o cliente sobrevive.</p>
-      <h2>Por que surgem</h2>
+      <p>Disputas de faturamento são uma parte desconfortável mas inevitável dos negócios. Seja um mal-entendido sobre o escopo, um desacordo sobre preço ou preocupações com a qualidade, como você lida com esses conflitos determina não apenas se você recebe — mas se preserva o relacionamento com o cliente para trabalhos futuros.</p>
+      <p>Este guia apresenta uma abordagem profissional e sistemática para resolver desentendimentos de faturamento. Você aprenderá quando se manter firme, quando ceder e como prevenir disputas antes que aconteçam.</p>
+
+      <h2>Por que surgem disputas</h2>
+      <p>Entender as causas raiz ajuda a resolver mais rápido e prevenir conflitos futuros. A maioria das disputas se enquadra nestas categorias:</p>
       <ul>
-        <li><strong>Mal-entendido sobre o escopo:</strong> O cliente esperava algo diferente</li>
-        <li><strong>Desacordo no preço:</strong> Valor final acima do esperado</li>
-        <li><strong>Insatisfação com a qualidade</strong></li>
-        <li><strong>Problemas de prazo:</strong> Entrega atrasada</li>
-        <li><strong>Erros simples:</strong> Cálculos incorretos ou cobrança duplicada</li>
+        <li><strong>Mal-entendido sobre o escopo:</strong> O cliente esperava algo diferente do que foi entregue. Isso acontece quando o escopo do projeto não é documentado com precisão no início.</li>
+        <li><strong>Desacordo no preço:</strong> O valor final é superior ao esperado, geralmente devido a alterações ou trabalho adicional não comunicado claramente como extra.</li>
+        <li><strong>Preocupações com qualidade:</strong> O cliente não está satisfeito com a qualidade, mesmo que atenda às especificações técnicas.</li>
+        <li><strong>Problemas de prazo:</strong> O trabalho foi entregue com atraso, ou o cliente esqueceu os detalhes do projeto quando a fatura chegou.</li>
+        <li><strong>Erros simples:</strong> Cálculos incorretos, cobrança duplicada ou informações erradas na fatura.</li>
       </ul>
-      <h2>Processo de resolução</h2>
-      <ol>
-        <li><strong>Ouvir:</strong> Deixar o cliente se expressar</li>
-        <li><strong>Documentar:</strong> Tudo por escrito</li>
-        <li><strong>Verificar:</strong> Revisar fatura e acordos originais</li>
-        <li><strong>Responder:</strong> De forma objetiva e profissional</li>
-        <li><strong>Propor solução:</strong> Crédito, pagamento parcial ou acordo</li>
-      </ol>
-      <h2>Prevenção</h2>
+
+      <h2>Processo de resolução em 6 passos</h2>
+      <h3>Passo 1: Manter a calma e profissionalismo</h3>
+      <p>Sua primeira resposta define o tom de toda a resolução. Resista ao impulso de ficar na defensiva — mesmo que a disputa pareça injusta. Reconheça que recebeu a preocupação e que vai levá-la a sério.</p>
+
+      <h3>Passo 2: Ouvir ativamente</h3>
+      <p>Deixe o cliente explicar sua perspectiva completamente. Muitas vezes, simplesmente se sentir ouvido reduz significativamente a tensão.</p>
+
+      <h3>Passo 3: Revisar a documentação</h3>
+      <p>Antes de responder com sua posição, revise toda a documentação relevante: contrato original, e-mails de aprovação de alterações, entregáveis e a fatura em questão.</p>
+
+      <h3>Passo 4: Responder com fatos</h3>
+      <p>Prepare uma resposta clara que aborde cada ponto da reclamação com documentação de suporte. Faça referência a datas, acordos e entregáveis específicos.</p>
+
+      <h3>Passo 5: Propor uma solução</h3>
+      <p>Dependendo da situação, considere: crédito parcial por trabalho insatisfatório, plano de pagamento para valores disputados, revisão ou correção sem custo, ou desconto para preservar o relacionamento.</p>
+
+      <h3>Passo 6: Documentar o acordo</h3>
+      <p>Uma vez alcançado um acordo, formalize por escrito. Envie um e-mail de confirmação resumindo os termos acordados.</p>
+
+      <h2>Modelo de e-mail para disputas</h2>
+      <p>«Prezado(a) [nome], agradeço por comunicar sua preocupação sobre a fatura [número]. Revisei a documentação do projeto e gostaria de abordar cada ponto. [Detalhes]. Valorizo nosso relacionamento profissional e quero garantir que cheguemos a uma resolução justa.»</p>
+
+      <h2>Prevenção de disputas</h2>
       <ul>
-        <li>Orçamentos detalhados com escopo claro</li>
-        <li>Alterações sempre confirmadas por escrito</li>
-        <li>Faturas detalhadas com <a href="/invoicing">software de faturamento</a></li>
-        <li>Acompanhamento regular durante o projeto</li>
+        <li><strong>Orçamentos detalhados:</strong> Com escopo claro, entregáveis específicos e critérios de aceitação</li>
+        <li><strong>Alterações sempre por escrito:</strong> Qualquer mudança no escopo original deve ser confirmada por e-mail com o impacto no custo</li>
+        <li><strong>Faturas detalhadas:</strong> Use <a href="/invoicing">software de faturamento</a> para criar faturas discriminadas que mostrem exatamente o que está sendo cobrado</li>
+        <li><strong>Comunicação regular:</strong> Atualizações de progresso durante o projeto evitam surpresas no final</li>
+        <li><strong>Faturamento oportuno:</strong> Fature enquanto o trabalho está fresco na memória do cliente</li>
       </ul>
+
       <p>Veja também nosso <a href="/blog/credit-notes-and-invoice-corrections">guia de notas de crédito e correções</a>.</p>
     `
   },

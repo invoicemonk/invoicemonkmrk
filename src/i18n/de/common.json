@@ -2,6 +2,8 @@
   "nav": {
     "products": "Produkte",
     "tools": "Tools",
+    "freeTools": "Kostenlose Tools",
+    "viewAllTools": "Alle Tools anzeigen →",
     "help": "Hilfe",
     "guides": "Anleitungen",
     "blog": "Blog",
@@ -10,6 +12,32 @@
     "login": "Anmelden",
     "getStarted": "Jetzt starten",
     "company": "Unternehmen"
+  },
+  "navTools": {
+    "freeInvoiceGenerator": {
+      "name": "Kostenloser Rechnungsgenerator",
+      "description": "Professionelle Rechnungen ohne Anmeldung"
+    },
+    "invoiceTemplates": {
+      "name": "Rechnungsvorlagen",
+      "description": "6 branchenspezifische Vorlagen"
+    },
+    "paymentFeeCalculator": {
+      "name": "Gebührenrechner",
+      "description": "Internationale Zahlungsgebühren vergleichen"
+    },
+    "freelancerRateCalculator": {
+      "name": "Stundensatz-Rechner",
+      "description": "Idealen Stundensatz berechnen"
+    },
+    "paypalVsWise": {
+      "name": "PayPal vs Wise",
+      "description": "Gebührenvergleich Seite an Seite"
+    },
+    "invoiceGeneratorAu": {
+      "name": "Rechnungsgenerator AU",
+      "description": "ATO-konform mit ABN & GST"
+    }
   },
   "products": {
     "invoicing": {

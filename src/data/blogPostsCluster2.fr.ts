@@ -123,30 +123,54 @@ const posts: BlogPost[] = [
       { label: 'Logiciel de facturation', url: '/invoicing', description: 'Créez des factures professionnelles' },
     ],
     content: `
-      <p>Si vos clients paient le même montant régulièrement, créer manuellement une facture chaque mois est une perte de temps. Les factures récurrentes automatisent ce processus.</p>
+      <p>Si vos clients paient le même montant à intervalle régulier, créer manuellement une facture chaque mois est une perte de temps. Les factures récurrentes automatisent ce processus, garantissant une facturation cohérente sans charge administrative. Que vous soyez consultant avec des contrats mensuels, prestataire avec des contrats de maintenance ou entreprise SaaS avec des clients abonnés, les factures récurrentes peuvent transformer votre workflow de facturation.</p>
+
       <h2>Qu'est-ce qu'une facture récurrente ?</h2>
-      <p>Une facture générée et envoyée automatiquement à intervalles réguliers — hebdomadaire, mensuel, trimestriel ou annuel.</p>
-      <h2>Quand les utiliser</h2>
+      <p>Une facture récurrente est une facture générée et envoyée automatiquement à intervalles définis — hebdomadaire, mensuel, trimestriel ou annuel. Une fois le modèle et le calendrier configurés, votre <a href="/invoicing">logiciel de facturation</a> s'occupe du reste.</p>
+      <p>Caractéristiques clés :</p>
       <ul>
-        <li><strong>Retainers mensuels :</strong> Consultants, agences, experts-comptables</li>
-        <li><strong>Abonnements :</strong> SaaS, adhésions</li>
-        <li><strong>Contrats de maintenance :</strong> Support IT, gestion immobilière</li>
+        <li>Génération automatique selon votre calendrier</li>
+        <li>Formatage et lignes de facturation cohérents</li>
+        <li>Envoi automatique par e-mail</li>
+        <li>Numérotation séquentielle des factures</li>
+        <li>Suivi des paiements et relances automatiques</li>
       </ul>
-      <h2>Mise en place</h2>
+
+      <h2>Quand les utiliser</h2>
+      <h3>Contrats mensuels (retainers)</h3>
+      <p>Consultants, agences et professionnels libéraux travaillent souvent avec des contrats mensuels. Au lieu de créer une nouvelle facture chaque mois, configurez une facture récurrente qui part automatiquement le 1er (ou à votre date préférée). Vous n'oubliez jamais de facturer et votre client sait exactement quand attendre la facture.</p>
+
+      <h3>Abonnements</h3>
+      <p>Si vous proposez des services continus — abonnements logiciels, plans de maintenance, cotisations — les factures récurrentes maintiennent votre facturation cohérente. Les clients apprécient la prévisibilité et vous maintenez un flux de trésorerie régulier.</p>
+
+      <h3>Contrats de maintenance</h3>
+      <p>Support IT, gestion immobilière, entretien d'équipements — tout contrat avec un montant fixe récurrent est un candidat idéal pour l'automatisation.</p>
+
+      <h2>Mise en place en 5 étapes</h2>
       <ol>
-        <li>Saisir les coordonnées du client</li>
-        <li>Définir les prestations et montants</li>
-        <li>Choisir l'intervalle de facturation</li>
-        <li>Configurer les conditions de paiement</li>
-        <li>Activer les relances automatiques</li>
+        <li><strong>Coordonnées client :</strong> Informations de contact, préférences de paiement et notes particulières</li>
+        <li><strong>Prestations et montants :</strong> Définir les lignes de facturation, quantités et prix unitaires</li>
+        <li><strong>Intervalle de facturation :</strong> Hebdomadaire, mensuel, trimestriel ou annuel</li>
+        <li><strong>Conditions de paiement :</strong> Date d'échéance, moyens de paiement acceptés, pénalités de retard</li>
+        <li><strong>Relances automatiques :</strong> Pré-échéance, jour d'échéance et post-échéance</li>
       </ol>
+
       <h2>Bonnes pratiques</h2>
       <ul>
-        <li>Informer le client avant la première facture automatique</li>
-        <li>Annoncer les ajustements de prix 30 jours à l'avance</li>
-        <li>Configurer des relances pour les paiements en retard</li>
-        <li>Réviser régulièrement les montants et prestations</li>
+        <li><strong>Informer le client :</strong> Prévenez que la facturation sera automatique avant la première facture</li>
+        <li><strong>Annoncer les ajustements :</strong> Communiquez les changements de tarif au moins 30 jours à l'avance</li>
+        <li><strong>Configurer des relances :</strong> Pour les paiements en retard, évitez de relancer manuellement</li>
+        <li><strong>Réviser régulièrement :</strong> Vérifiez trimestriellement que les prestations, montants et coordonnées sont à jour</li>
+        <li><strong>Fixer des dates de fin :</strong> Pour les contrats à durée déterminée, programmez l'arrêt automatique</li>
       </ul>
+
+      <h2>Erreurs courantes</h2>
+      <ul>
+        <li><strong>Pas de communication :</strong> Le client est surpris par une facture automatique</li>
+        <li><strong>Données obsolètes :</strong> Anciens tarifs ou coordonnées erronées envoyés pendant des mois</li>
+        <li><strong>Pas de stratégie de sortie :</strong> Que se passe-t-il quand le contrat prend fin ?</li>
+      </ul>
+
       <p>Plus de conseils dans notre <a href="/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently">guide sur la facturation ponctuelle</a>.</p>
     `
   },

@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Link } from '@/components/LocalizedLink';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet, Users } from 'lucide-react';
+import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet, Users, LayoutTemplate, DollarSign, ArrowRightLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { CountrySelector } from '@/components/CountrySelector';
 import logo from '@/assets/invoicemonk-logo.png';
@@ -18,8 +18,16 @@ const productKeys = [
   { key: 'clientManagement', href: '/client-management', icon: Users, status: 'available' },
 ];
 
+const toolKeys = [
+  { key: 'freeInvoiceGenerator', href: '/free-invoice-generator', icon: FileText },
+  { key: 'invoiceTemplates', href: '/invoice-templates', icon: LayoutTemplate },
+  { key: 'paymentFeeCalculator', href: '/international-payment-fee-calculator', icon: Calculator },
+  { key: 'freelancerRateCalculator', href: '/freelancer-rate-calculator', icon: DollarSign },
+  { key: 'paypalVsWise', href: '/paypal-vs-wise-fees', icon: ArrowRightLeft },
+  { key: 'invoiceGeneratorAu', href: '/free-invoice-generator-australia', icon: FileCheck },
+];
+
 const navLinkKeys = [
-  { key: 'tools', href: '/tools' },
   { key: 'help', href: '/help' },
   { key: 'guides', href: '/guides' },
   { key: 'blog', href: '/blog' },
@@ -37,6 +45,8 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const [isToolsOpen, setIsToolsOpen] = useState(false);
+  const [isMobileToolsOpen, setIsMobileToolsOpen] = useState(false);
   const location = useLocation();
   const currentPath = stripPrefix(location.pathname);
 
@@ -49,6 +59,8 @@ export function Navbar() {
   useEffect(() => {
     setIsMobileMenuOpen(false);
     setIsProductsOpen(false);
+    setIsToolsOpen(false);
+    setIsMobileToolsOpen(false);
   }, [location]);
 
   return (
@@ -139,6 +151,67 @@ export function Navbar() {
                 </AnimatePresence>
               </div>
 
+              {/* Tools Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setIsToolsOpen(true)}
+                onMouseLeave={() => setIsToolsOpen(false)}
+              >
+                <button
+                  className={`flex items-center gap-1 text-body-sm font-medium transition-colors duration-200 hover:text-primary ${
+                    isToolsOpen ? 'text-primary' : 'text-foreground/80'
+                  }`}
+                >
+                  {t('nav.tools')}
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isToolsOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                <AnimatePresence>
+                  {isToolsOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      transition={{ duration: 0.2 }}
+                      className="absolute top-full left-1/2 -translate-x-1/2 pt-4"
+                    >
+                      <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-4 w-[340px]">
+                        <div className="space-y-1">
+                          {toolKeys.map((tool) => {
+                            const Icon = tool.icon;
+                            return (
+                              <Link
+                                key={tool.key}
+                                to={tool.href}
+                                className="flex items-center gap-3 p-3 rounded-xl transition-all duration-200 hover:bg-primary/5 group"
+                              >
+                                <div className="flex-shrink-0 w-9 h-9 rounded-lg flex items-center justify-center bg-primary/10 text-primary">
+                                  <Icon className="w-4 h-4" />
+                                </div>
+                                <div className="flex-1 min-w-0">
+                                  <span className="text-body-sm font-medium text-foreground group-hover:text-primary block">
+                                    {t(`navTools.${tool.key}.name`)}
+                                  </span>
+                                  <p className="text-caption text-muted-foreground mt-0.5 truncate">{t(`navTools.${tool.key}.description`)}</p>
+                                </div>
+                              </Link>
+                            );
+                          })}
+                        </div>
+                        <div className="mt-3 pt-3 border-t border-border">
+                          <Link
+                            to="/tools"
+                            className="flex items-center justify-center gap-1 text-body-sm font-medium text-primary hover:text-primary/80 transition-colors py-2"
+                          >
+                            {t('nav.viewAllTools')}
+                          </Link>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
               {navLinkKeys.map((link) => (
                 <Link
                   key={link.key}
@@ -222,6 +295,49 @@ export function Navbar() {
                       );
                     })}
                   </nav>
+                </div>
+
+                {/* Tools Section */}
+                <div className="mb-4">
+                  <button
+                    onClick={() => setIsMobileToolsOpen(!isMobileToolsOpen)}
+                    className="flex items-center justify-between w-full text-caption font-semibold text-muted-foreground uppercase tracking-wider mb-3 px-4"
+                  >
+                    {t('nav.freeTools')}
+                    <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isMobileToolsOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  <AnimatePresence>
+                    {isMobileToolsOpen && (
+                      <motion.nav
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="space-y-1 overflow-hidden"
+                      >
+                        {toolKeys.map((tool, index) => {
+                          const Icon = tool.icon;
+                          return (
+                            <motion.div key={tool.key} initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: index * 0.03 }}>
+                              <Link
+                                to={tool.href}
+                                className="flex items-center gap-3 py-3 px-4 rounded-lg text-foreground hover:bg-primary/5 hover:text-primary transition-colors"
+                              >
+                                <Icon className="w-5 h-5" />
+                                <span className="text-body font-medium">{t(`navTools.${tool.key}.name`)}</span>
+                              </Link>
+                            </motion.div>
+                          );
+                        })}
+                        <Link
+                          to="/tools"
+                          className="block py-3 px-4 rounded-lg text-body font-medium text-primary hover:bg-primary/5 transition-colors"
+                        >
+                          {t('nav.viewAllTools')}
+                        </Link>
+                      </motion.nav>
+                    )}
+                  </AnimatePresence>
                 </div>
 
                 {/* Other Links */}

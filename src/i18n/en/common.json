@@ -2,6 +2,8 @@
   "nav": {
     "products": "Products",
     "tools": "Tools",
+    "freeTools": "Free Tools",
+    "viewAllTools": "View All Tools →",
     "help": "Help",
     "guides": "Guides",
     "blog": "Blog",
@@ -10,6 +12,32 @@
     "login": "Log in",
     "getStarted": "Get Started",
     "company": "Company"
+  },
+  "navTools": {
+    "freeInvoiceGenerator": {
+      "name": "Free Invoice Generator",
+      "description": "Create professional invoices, no signup"
+    },
+    "invoiceTemplates": {
+      "name": "Invoice Templates",
+      "description": "6 industry-specific templates"
+    },
+    "paymentFeeCalculator": {
+      "name": "Payment Fee Calculator",
+      "description": "Compare international payment fees"
+    },
+    "freelancerRateCalculator": {
+      "name": "Rate Calculator",
+      "description": "Find your ideal hourly rate"
+    },
+    "paypalVsWise": {
+      "name": "PayPal vs Wise",
+      "description": "Side-by-side fee comparison"
+    },
+    "invoiceGeneratorAu": {
+      "name": "Invoice Generator AU",
+      "description": "ATO-compliant with ABN & GST"
+    }
   },
   "products": {
     "invoicing": {

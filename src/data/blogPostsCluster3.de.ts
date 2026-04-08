@@ -326,35 +326,69 @@ const posts: BlogPost[] = [
     semanticKeywords: ['Steuerkalender', 'Steuerfristen', 'Steuerabgabetermine', 'Unternehmenssteuerdaten'],
     priority: 'P2',
     content: `
-      <p>Versäumte Steuerfristen kosten Unternehmen jedes Jahr Tausende an Bußgeldern und Zinsen. Ob Sie in einem Land oder grenzüberschreitend tätig sind – Ihre wichtigen Termine zu kennen ist essenziell für die Compliance.</p>
+      <p>Versäumte Steuerfristen kosten Unternehmen jedes Jahr Tausende an Bußgeldern und Zinsen. Ob Sie in einem einzigen Land oder grenzüberschreitend tätig sind — Ihre wichtigen Steuerdaten zu kennen ist essenziell für die Compliance. Dieser Leitfaden fasst die kritischen Steuertermine für die wichtigsten Märkte zusammen, damit Sie nie wieder einen Termin verpassen.</p>
 
       <h2>Deutschland (Finanzamt)</h2>
-      <h3>Wichtige Jahresfrist</h3>
+      <h3>Umsatzsteuervoranmeldung</h3>
+      <p>Die Umsatzsteuervoranmeldung muss monatlich oder vierteljährlich eingereicht werden, abhängig von der Höhe Ihrer Umsatzsteuerlast im Vorjahr:</p>
       <ul>
-        <li><strong>31. Juli:</strong> Einkommensteuererklärung (bei steuerlicher Beratung: 28./29. Februar des Folgejahres)</li>
-        <li><strong>10. März/Juni/September/Dezember:</strong> Vierteljährliche Vorauszahlungen</li>
-        <li><strong>Monatlich/Vierteljährlich:</strong> Umsatzsteuervoranmeldung</li>
+        <li><strong>Monatlich (bis 10. des Folgemonats):</strong> Bei Vorjahres-USt über 7.500 €</li>
+        <li><strong>Vierteljährlich (bis 10. des Folgemonats):</strong> Bei Vorjahres-USt zwischen 1.000 € und 7.500 €</li>
+        <li><strong>Jährlich:</strong> Bei Vorjahres-USt unter 1.000 €</li>
+      </ul>
+
+      <h3>Einkommensteuer-Vorauszahlungen</h3>
+      <ul>
+        <li><strong>10. März:</strong> Q1-Vorauszahlung</li>
+        <li><strong>10. Juni:</strong> Q2-Vorauszahlung</li>
+        <li><strong>10. September:</strong> Q3-Vorauszahlung</li>
+        <li><strong>10. Dezember:</strong> Q4-Vorauszahlung</li>
+      </ul>
+
+      <h3>Jahresfristen</h3>
+      <ul>
+        <li><strong>31. Juli:</strong> Einkommensteuererklärung (ohne Steuerberater)</li>
+        <li><strong>28./29. Februar des Folgejahres:</strong> Mit Steuerberater</li>
+        <li><strong>31. Mai:</strong> Gewerbesteuererklärung (ohne Berater)</li>
       </ul>
 
       <h2>USA (IRS)</h2>
       <ul>
         <li><strong>15. Januar:</strong> Q4 geschätzte Steuerzahlung</li>
-        <li><strong>15. April:</strong> Steuererklärung Einzelpersonen; Q1 geschätzte Zahlung</li>
+        <li><strong>15. April:</strong> Steuererklärung Einzelpersonen + Q1 geschätzte Zahlung</li>
         <li><strong>15. Juni:</strong> Q2 geschätzte Steuerzahlung</li>
         <li><strong>15. September:</strong> Q3 geschätzte Steuerzahlung</li>
+        <li><strong>15. Oktober:</strong> Verlängerte Steuererklärung fällig</li>
       </ul>
 
       <h2>Vereinigtes Königreich (HMRC)</h2>
       <ul>
-        <li><strong>31. Januar:</strong> Self-Assessment-Erklärung und Ausgleichszahlung</li>
-        <li><strong>31. Juli:</strong> Zweite Vorauszahlung</li>
+        <li><strong>31. Januar:</strong> Self-Assessment-Erklärung + Ausgleichszahlung + 1. Vorauszahlung</li>
+        <li><strong>31. Juli:</strong> 2. Vorauszahlung</li>
+        <li><strong>Quartalsweise:</strong> VAT-Erklärungen (Termine abhängig vom Geschäftsjahr)</li>
+      </ul>
+
+      <h2>Nigeria (FIRS)</h2>
+      <ul>
+        <li><strong>31. März:</strong> Unternehmensteuer (Companies Income Tax)</li>
+        <li><strong>31. März:</strong> Persönliche Einkommensteuer</li>
+        <li><strong>21. des Folgemonats:</strong> VAT-Erklärung (monatlich)</li>
+      </ul>
+
+      <h2>Australien (ATO)</h2>
+      <ul>
+        <li><strong>31. Oktober:</strong> Individuelle Steuererklärung (ohne Agent)</li>
+        <li><strong>15. Mai:</strong> Mit registriertem Agent</li>
+        <li><strong>28. des Folgemonats/Quartals:</strong> BAS (Business Activity Statement)</li>
       </ul>
 
       <h2>Tipps zum Fristenmanagement</h2>
       <ol>
         <li><strong>Kalendererinnerungen setzen:</strong> 2 Wochen und 1 Woche vor jeder Frist</li>
-        <li><strong>Zahlungen automatisieren:</strong> Lastschriften einrichten, wo möglich</li>
-        <li><strong>Buchhaltungssoftware nutzen:</strong> <a href="/__LANG__/accounting">Invoicemonk</a> verfolgt Fristen und erstellt Berichte</li>
+        <li><strong>Zahlungen automatisieren:</strong> Lastschriften oder Daueraufträge einrichten</li>
+        <li><strong>Puffer einplanen:</strong> Ziel ist es, 5 Tage vor der Frist fertig zu sein</li>
+        <li><strong>Buchhaltungssoftware nutzen:</strong> <a href="/__LANG__/accounting">Invoicemonk</a> verfolgt Fristen und erstellt steuerrelevante Berichte</li>
+        <li><strong>Steuerberater beauftragen:</strong> Für verlängerte Fristen und komplexe Situationen</li>
       </ol>
 
       <h2>Verwandte Ressourcen</h2>
