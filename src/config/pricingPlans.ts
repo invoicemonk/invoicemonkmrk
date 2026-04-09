@@ -34,6 +34,7 @@ export const starterTierFeatures = [
   '2 payment methods per currency',
   'Accounting & expense tracking',
   'Credit notes',
+  'Online payment',
   'In-app support',
   'Invoicemonk watermark on PDFs',
 ];
@@ -45,6 +46,7 @@ export const professionalTierFeatures = [
   'Up to 5 team members',
   'Full audit trail & data exports',
   'Custom branding & premium templates',
+  'Online payment',
   'No watermark on PDFs',
 ];
 
@@ -55,12 +57,14 @@ export const professionalTierFeaturesIntl = [
   'Up to 5 team members',
   'Full audit trail & data exports',
   'Custom branding & premium templates',
+  'Online payment',
   'No watermark on PDFs',
 ];
 
 export const businessTierFeatures = [
   'Everything in Professional',
   'Unlimited team members',
+  'Online payment',
   'API access',
   'Advanced reports',
   'Enterprise-grade support',
@@ -90,7 +94,7 @@ export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
       name: 'Starter',
       description: 'For solo businesses ready to grow',
       features: starterTierFeatures,
-      cta: 'Start Free Trial',
+      cta: 'Get Started',
       ctaLink: 'https://app.invoicemonk.com/signup?plan=starter',
       popular: false,
       compliance: false,
@@ -103,7 +107,7 @@ export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
     name: 'Professional',
     description: 'For growing businesses',
     features: showStarterTier ? professionalTierFeatures : professionalTierFeaturesIntl,
-    cta: 'Start Free Trial',
+    cta: 'Get Started',
     ctaLink: 'https://app.invoicemonk.com/signup?plan=professional',
     popular: true,
     badge: 'Recommended',
@@ -116,7 +120,7 @@ export function getPricingPlans(locale: LocaleConfig): PricingPlan[] {
     name: 'Business',
     description: 'For enterprises with advanced needs',
     features: businessTierFeatures,
-    cta: 'Contact Sales',
+    cta: 'Get Started',
     ctaLink: 'https://app.invoicemonk.com/signup?plan=business',
     popular: false,
     badge: 'Enterprise',

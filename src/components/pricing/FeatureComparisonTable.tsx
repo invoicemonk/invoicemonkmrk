@@ -40,6 +40,7 @@ const features: ComparisonRow[] = [
   { feature: 'Advanced reports', free: false, starter: false, professional: false, business: true },
   { feature: 'Premium templates', free: false, starter: false, professional: true, business: true },
   { feature: 'Watermark-free PDFs', free: false, starter: false, professional: true, business: true },
+  { feature: 'Online payment', free: false, starter: true, professional: true, business: true },
   { feature: 'API access', free: false, starter: false, professional: false, business: true },
 ];
 
