@@ -6,7 +6,7 @@ Sitemap: https://invoicemonk.com/sitemap.xml
 
 # AI/LLM Context
 # See https://llmstxt.org for specification
-llms.txt: https://invoicemonk.com/llms.txt
+# llms.txt available at https://invoicemonk.com/llms.txt
 
 # Crawl-delay for politeness
 Crawl-delay: 1
