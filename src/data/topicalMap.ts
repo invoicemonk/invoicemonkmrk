@@ -553,7 +553,28 @@ export const pillarClusters: TopicalCluster[] = [
       'what-is-an-invoice-definition',
       'best-invoicing-software-freelancers-small-business',
       'invoicing-software-built-in-tax-compliance',
-      'invoicing-software-free-vs-paid'
+      'invoicing-software-free-vs-paid',
+      // Cluster 11: Global fundamentals
+      'how-to-write-an-invoice-step-by-step',
+      'invoice-numbering-systems-guide',
+      'invoice-vs-receipt-difference-explained',
+      'payment-terms-guide-net-30-explained',
+      // Cluster 15: Industry invoice guides
+      'invoice-guide-photographers',
+      'invoice-guide-graphic-designers',
+      'invoice-guide-web-developers',
+      'invoice-guide-consultants',
+      // Cluster 16: Template & billing variants
+      'retainer-invoice-template-guide',
+      'deposit-invoice-template-guide',
+      'recurring-invoice-setup-guide',
+      'time-and-materials-invoice-guide',
+      'progress-billing-invoice-guide',
+      'self-billing-invoice-guide',
+      'interim-invoice-guide',
+      'final-invoice-close-project-guide',
+      'invoice-automation-small-business-guide',
+      'invoice-email-templates-follow-up'
     ]
   },
   {
@@ -580,7 +601,16 @@ export const pillarClusters: TopicalCluster[] = [
       'multi-currency-invoicing-explained',
       'best-payment-integrations-freelancers',
       'payment-gateways-invoicing-software',
-      'automatic-payment-reminders-getting-paid'
+      'automatic-payment-reminders-getting-paid',
+      // Cluster 16: Payment dispute guides
+      'how-to-handle-invoice-disputes',
+      'how-to-write-payment-demand-letter',
+      'late-payment-laws-by-country',
+      'dealing-with-non-paying-clients',
+      'small-claims-court-unpaid-invoices-guide',
+      'debt-collection-agencies-freelancers-guide',
+      'invoice-payment-methods-compared',
+      'how-to-accept-international-payments-freelancer'
     ]
   },
   {
@@ -605,7 +635,10 @@ export const pillarClusters: TopicalCluster[] = [
       'revenue-vs-profit-explained',
       'cash-flow-forecasting-small-businesses',
       'small-business-accounting-basics',
-      'best-personal-finance-blogs'
+      'best-personal-finance-blogs',
+      // Cluster 16: Long-tail evergreen
+      'year-end-accounting-checklist-small-business',
+      'multi-currency-accounting-small-business'
     ]
   },
   {
@@ -661,7 +694,35 @@ export const pillarClusters: TopicalCluster[] = [
       'nigeria-tax-reform-acts-invoicing',
       // Cluster 10: Kenya eTIMS
       'e-invoicing-kenya-etims', 'kenya-etims-small-business-guide',
-      'kenya-how-to-generate-etims-invoice', 'kenya-vat-invoice-requirements'
+      'kenya-how-to-generate-etims-invoice', 'kenya-vat-invoice-requirements',
+      // Cluster 11: India GST e-invoicing
+      'e-invoicing-india-gst-guide', 'india-gst-registration-small-business',
+      'india-cgst-sgst-igst-explained', 'india-hsn-sac-codes-invoice-guide',
+      'india-gst-return-filing-guide', 'india-input-tax-credit-guide',
+      // Cluster 12: UK HMRC/MTD
+      'e-invoicing-uk-hmrc-mtd-guide', 'uk-mtd-vat-software-requirements',
+      'uk-invoice-requirements-hmrc-2026', 'uk-vat-flat-rate-scheme-invoicing',
+      'uk-cis-reverse-charge-invoicing', 'uk-making-tax-digital-timeline',
+      // Cluster 12: Saudi Arabia ZATCA
+      'e-invoicing-saudi-zatca-fatoorah', 'saudi-zatca-phase-2-integration',
+      'saudi-e-invoice-xml-qr-requirements', 'saudi-vat-invoice-requirements',
+      'saudi-zatca-penalties-non-compliance',
+      // Cluster 12: Malaysia MyInvois
+      'e-invoicing-malaysia-myinvois-guide', 'malaysia-myinvois-timeline-2024-2026',
+      'malaysia-e-invoice-technical-requirements', 'malaysia-sst-invoice-requirements',
+      'malaysia-small-business-myinvois-compliance',
+      // Cluster 13: Global how-tos
+      'proforma-invoice-vs-commercial-invoice', 'credit-note-guide-when-how-to-issue',
+      'how-to-chase-unpaid-invoices', 'how-to-create-proforma-invoice',
+      // Cluster 14: Germany deep dives
+      'germany-zugferd-e-invoice-guide', 'germany-xrechnung-guide',
+      'germany-kleinunternehmer-invoicing', 'germany-vat-reverse-charge-invoicing',
+      'germany-e-invoice-obligation-2025',
+      // Cluster 15: Italy SDI remaining
+      'italy-sdi-integration-guide', 'italy-esterometro-cross-border',
+      'italy-fattura-elettronica-freelancers',
+      // Cluster 16: Tax long-tail
+      'tax-deductions-freelancers-complete-list'
     ]
   },
   {
@@ -676,7 +737,12 @@ export const pillarClusters: TopicalCluster[] = [
       'finding-your-first-freelance-clients',
       'freelance-portfolio-best-practices',
       'managing-multiple-clients-efficiently',
-      'when-to-hire-help-as-a-freelancer'
+      'when-to-hire-help-as-a-freelancer',
+      // Cluster 16: Freelancer long-tail
+      'how-to-set-freelance-rates',
+      'how-to-price-project-work-fixed-fee',
+      'sole-trader-vs-limited-company-invoice-differences',
+      'client-onboarding-checklist-freelancers'
     ]
   },
   {
@@ -710,7 +776,9 @@ export const pillarClusters: TopicalCluster[] = [
       'best-expense-tracking-software-tax-compliance',
       'expense-tracking-software-free-invoicing',
       'best-receipt-scanning-invoicing-integration',
-      'automate-receipt-capture-freelancers'
+      'automate-receipt-capture-freelancers',
+      // Cluster 16: Expense tracking long-tail
+      'business-expense-tracking-spreadsheet-vs-software'
     ]
   },
   {

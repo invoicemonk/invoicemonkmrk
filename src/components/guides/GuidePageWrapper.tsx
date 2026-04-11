@@ -14,6 +14,15 @@ import '@/data/pillars.pt';
 import '@/data/pillars.es';
 import NotFound from '@/pages/NotFound';
 
+// Side-effect imports: ensure cluster posts are registered in the blogPosts array
+import '@/data/blogPostsCluster10';
+import '@/data/blogPostsCluster11';
+import '@/data/blogPostsCluster12';
+import '@/data/blogPostsCluster13';
+import '@/data/blogPostsCluster14';
+import '@/data/blogPostsCluster15';
+import '@/data/blogPostsCluster16';
+
 interface GuidePageWrapperProps {
   pillarSlug: string;
 }

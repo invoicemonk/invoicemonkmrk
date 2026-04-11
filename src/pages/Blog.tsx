@@ -72,6 +72,12 @@ import '@/data/blogPostsCluster8.pt';
 import '@/data/blogPostsCluster8.es';
 import '@/data/blogPostsCluster9';
 import '@/data/blogPostsCluster10';
+import '@/data/blogPostsCluster11';
+import '@/data/blogPostsCluster12';
+import '@/data/blogPostsCluster13';
+import '@/data/blogPostsCluster14';
+import '@/data/blogPostsCluster15';
+import '@/data/blogPostsCluster16';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;

@@ -31,6 +31,15 @@ import { linkGlossaryTermsInText } from '@/components/blog/GlossaryTermLink';
 import { getGlossaryTermsForPillar } from '@/utils/glossaryMapping';
 import NotFound from './NotFound';
 
+// Side-effect imports: ensure cluster posts are registered in the blogPosts array
+import '@/data/blogPostsCluster10';
+import '@/data/blogPostsCluster11';
+import '@/data/blogPostsCluster12';
+import '@/data/blogPostsCluster13';
+import '@/data/blogPostsCluster14';
+import '@/data/blogPostsCluster15';
+import '@/data/blogPostsCluster16';
+
 const BlogPost = () => {
   const { slug, lang: urlLang } = useParams<{ slug: string; lang: string }>();
   const { locale } = useLocale();

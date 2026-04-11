@@ -68,9 +68,12 @@ export function registerPillars(lang: string, data: Pillar[]) {
 
 // ── Data access functions (used by page components) ─────────────────────
 
+const sortByDate = (posts: BlogPost[]) =>
+  [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
 /** Get all blog posts for a language, merging partial translations with English fallback */
 export function getTranslatedBlogPosts(lang: string): BlogPost[] {
-  if (lang === 'en') return enBlogPosts;
+  if (lang === 'en') return sortByDate(enBlogPosts);
   const translated = blogPostRegistry[lang];
   if (!translated) return enBlogPosts;
   // If the translated set is smaller than English, it's a partial translation — merge
@@ -81,9 +84,9 @@ export function getTranslatedBlogPosts(lang: string): BlogPost[] {
         ? translated.find(p => p.slug === enPost.slug)!
         : enPost
     );
-    return merged;
+    return sortByDate(merged);
   }
-  return translated;
+  return sortByDate(translated);
 }
 
 /** Get a single blog post by slug for a language */

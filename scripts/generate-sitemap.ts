@@ -60,7 +60,32 @@ const staticPages: PageEntry[] = [
   { path: '/free-invoice-generator', priority: 0.8, changefreq: 'monthly' },
   { path: '/free-invoice-generator-australia', priority: 0.8, changefreq: 'monthly' },
   { path: '/free-invoice-generator-india', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-nigeria', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-kenya', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-uk', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-saudi-arabia', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-malaysia', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-canada', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-ghana', priority: 0.8, changefreq: 'monthly' },
+  { path: '/free-invoice-generator-south-africa', priority: 0.8, changefreq: 'monthly' },
   { path: '/best-invoicing-software', priority: 0.8, changefreq: 'monthly' },
+  { path: '/compare/best-free-invoicing-software', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-freelancers', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/wave-alternatives', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-nigeria', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-india', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-kenya', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/wave-alternative-nigeria', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-uk', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/wave-alternative-uk', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-saudi-arabia', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-malaysia', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-australia', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-canada', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-ghana', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-south-africa', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/wave-alternative-australia', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/wave-alternative-south-africa', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-freshbooks', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-wave', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-zoho-invoice', priority: 0.7, changefreq: 'monthly' },
@@ -91,7 +116,7 @@ const staticPages: PageEntry[] = [
   { path: '/cookie-policy', priority: 0.3, changefreq: 'yearly' },
 ];
 
-const guideSlugs = ['invoicing', 'getting-paid', 'business-finances', 'tax-compliance', 'freelancing', 'estimates', 'expenses', 'client-management'];
+const guideSlugs = ['invoicing', 'getting-paid', 'business-finances', 'tax-compliance', 'freelancing', 'estimates', 'expenses', 'client-management', 'e-invoicing', 'e-invoicing-mandates'];
 
 function extractSlugs(filePath: string, pattern: RegExp): string[] {
   try {
@@ -150,6 +175,12 @@ function main() {
   guideSlugs.forEach(s => allPages.push({ path: `/guides/${s}`, priority: 0.8, changefreq: 'weekly' }));
 
   const blogSlugs = extractSlugs(path.join(__dirname, '../src/data/blogPosts.ts'), /slug:\s*['"][^'"]+['"]/g);
+  // Also scan cluster files for additional blog posts
+  for (let i = 9; i <= 16; i++) {
+    const clusterPath = path.join(__dirname, `../src/data/blogPostsCluster${i}.ts`);
+    const clusterSlugs = extractSlugs(clusterPath, /slug:\s*['"][^'"]+['"]/g);
+    clusterSlugs.forEach(s => { if (!blogSlugs.includes(s)) blogSlugs.push(s); });
+  }
   console.log(`📝 ${blogSlugs.length} blog posts`);
   blogSlugs.forEach(s => allPages.push({ path: `/blog/${s}`, priority: 0.7, changefreq: 'monthly' }));
 

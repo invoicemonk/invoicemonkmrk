@@ -37,6 +37,14 @@ import AuthorPage from "./pages/AuthorPage";
 import FreeInvoiceGenerator from "./pages/FreeInvoiceGenerator";
 import FreeInvoiceGeneratorAustralia from "./pages/FreeInvoiceGeneratorAustralia";
 import FreeInvoiceGeneratorIndia from "./pages/FreeInvoiceGeneratorIndia";
+import FreeInvoiceGeneratorNigeria from "./pages/FreeInvoiceGeneratorNigeria";
+import FreeInvoiceGeneratorKenya from "./pages/FreeInvoiceGeneratorKenya";
+import FreeInvoiceGeneratorUK from "./pages/FreeInvoiceGeneratorUK";
+import FreeInvoiceGeneratorSaudiArabia from "./pages/FreeInvoiceGeneratorSaudiArabia";
+import FreeInvoiceGeneratorMalaysia from "./pages/FreeInvoiceGeneratorMalaysia";
+import FreeInvoiceGeneratorCanada from "./pages/FreeInvoiceGeneratorCanada";
+import FreeInvoiceGeneratorGhana from "./pages/FreeInvoiceGeneratorGhana";
+import FreeInvoiceGeneratorSouthAfrica from "./pages/FreeInvoiceGeneratorSouthAfrica";
 import Freelancers from "./pages/Freelancers";
 import Consultants from "./pages/Consultants";
 import Contractors from "./pages/Contractors";
@@ -60,6 +68,23 @@ import InvoicemonkVsStripe from "./pages/compare/InvoicemonkVsStripe";
 import InvoicemonkEstimatesVsQuickbooks from "./pages/compare/InvoicemonkEstimatesVsQuickbooks";
 import InvoicemonkVsAtoinvoice from "./pages/compare/InvoicemonkVsAtoinvoice";
 import BestInvoicingSoftware from "./pages/compare/BestInvoicingSoftware";
+import BestFreeInvoicingSoftware from "./pages/compare/BestFreeInvoicingSoftware";
+import BestForFreelancers from "./pages/compare/BestForFreelancers";
+import WaveAlternatives from "./pages/compare/WaveAlternatives";
+import BestInvoicingSoftwareNigeria from "./pages/compare/BestInvoicingSoftwareNigeria";
+import BestInvoicingSoftwareIndia from "./pages/compare/BestInvoicingSoftwareIndia";
+import BestInvoicingSoftwareKenya from "./pages/compare/BestInvoicingSoftwareKenya";
+import WaveAlternativeNigeria from "./pages/compare/WaveAlternativeNigeria";
+import BestInvoicingSoftwareUK from "./pages/compare/BestInvoicingSoftwareUK";
+import WaveAlternativeUK from "./pages/compare/WaveAlternativeUK";
+import BestInvoicingSoftwareSaudiArabia from "./pages/compare/BestInvoicingSoftwareSaudiArabia";
+import BestInvoicingSoftwareMalaysia from "./pages/compare/BestInvoicingSoftwareMalaysia";
+import BestInvoicingSoftwareAustralia from "./pages/compare/BestInvoicingSoftwareAustralia";
+import BestInvoicingSoftwareCanada from "./pages/compare/BestInvoicingSoftwareCanada";
+import BestInvoicingSoftwareGhana from "./pages/compare/BestInvoicingSoftwareGhana";
+import BestInvoicingSoftwareSouthAfrica from "./pages/compare/BestInvoicingSoftwareSouthAfrica";
+import WaveAlternativeAustralia from "./pages/compare/WaveAlternativeAustralia";
+import WaveAlternativeSouthAfrica from "./pages/compare/WaveAlternativeSouthAfrica";
 
 // Use-case pages
 import RecurringBilling from "./pages/use-cases/RecurringBilling";
@@ -77,6 +102,8 @@ import FreelancingGuide from "./pages/guides/FreelancingGuide";
 import EstimatesGuide from "./pages/guides/EstimatesGuide";
 import ExpensesGuide from "./pages/guides/ExpensesGuide";
 import ClientManagementGuide from "./pages/guides/ClientManagementGuide";
+import EInvoicingGuide from "./pages/guides/EInvoicingGuide";
+import EInvoicingMandatesGuide from "./pages/guides/EInvoicingMandatesGuide";
 import Glossary from "./pages/Glossary";
 import Explore from "./pages/Explore";
 
@@ -148,6 +175,14 @@ const App = () => (
               <Route path="free-invoice-generator" element={<FreeInvoiceGenerator />} />
               <Route path="free-invoice-generator-australia" element={<FreeInvoiceGeneratorAustralia />} />
               <Route path="free-invoice-generator-india" element={<FreeInvoiceGeneratorIndia />} />
+              <Route path="free-invoice-generator-nigeria" element={<FreeInvoiceGeneratorNigeria />} />
+              <Route path="free-invoice-generator-kenya" element={<FreeInvoiceGeneratorKenya />} />
+              <Route path="free-invoice-generator-uk" element={<FreeInvoiceGeneratorUK />} />
+              <Route path="free-invoice-generator-saudi-arabia" element={<FreeInvoiceGeneratorSaudiArabia />} />
+              <Route path="free-invoice-generator-malaysia" element={<FreeInvoiceGeneratorMalaysia />} />
+              <Route path="free-invoice-generator-canada" element={<FreeInvoiceGeneratorCanada />} />
+              <Route path="free-invoice-generator-ghana" element={<FreeInvoiceGeneratorGhana />} />
+              <Route path="free-invoice-generator-south-africa" element={<FreeInvoiceGeneratorSouthAfrica />} />
               <Route path="international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
               <Route path="paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
               <Route path="cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
@@ -189,6 +224,23 @@ const App = () => (
               <Route path="compare/invoicemonk-vs-stripe" element={<InvoicemonkVsStripe />} />
               <Route path="compare/invoicemonk-estimates-vs-quickbooks" element={<InvoicemonkEstimatesVsQuickbooks />} />
               <Route path="best-invoicing-software" element={<BestInvoicingSoftware />} />
+              <Route path="compare/best-free-invoicing-software" element={<BestFreeInvoicingSoftware />} />
+              <Route path="compare/best-invoicing-software-freelancers" element={<BestForFreelancers />} />
+              <Route path="compare/wave-alternatives" element={<WaveAlternatives />} />
+              <Route path="compare/best-invoicing-software-nigeria" element={<BestInvoicingSoftwareNigeria />} />
+              <Route path="compare/best-invoicing-software-india" element={<BestInvoicingSoftwareIndia />} />
+              <Route path="compare/best-invoicing-software-kenya" element={<BestInvoicingSoftwareKenya />} />
+              <Route path="compare/wave-alternative-nigeria" element={<WaveAlternativeNigeria />} />
+              <Route path="compare/best-invoicing-software-uk" element={<BestInvoicingSoftwareUK />} />
+              <Route path="compare/wave-alternative-uk" element={<WaveAlternativeUK />} />
+              <Route path="compare/best-invoicing-software-saudi-arabia" element={<BestInvoicingSoftwareSaudiArabia />} />
+              <Route path="compare/best-invoicing-software-malaysia" element={<BestInvoicingSoftwareMalaysia />} />
+              <Route path="compare/best-invoicing-software-australia" element={<BestInvoicingSoftwareAustralia />} />
+              <Route path="compare/best-invoicing-software-canada" element={<BestInvoicingSoftwareCanada />} />
+              <Route path="compare/best-invoicing-software-ghana" element={<BestInvoicingSoftwareGhana />} />
+              <Route path="compare/best-invoicing-software-south-africa" element={<BestInvoicingSoftwareSouthAfrica />} />
+              <Route path="compare/wave-alternative-australia" element={<WaveAlternativeAustralia />} />
+              <Route path="compare/wave-alternative-south-africa" element={<WaveAlternativeSouthAfrica />} />
 
               {/* Use-case pages */}
               <Route path="use-cases/recurring-billing" element={<RecurringBilling />} />
@@ -206,6 +258,8 @@ const App = () => (
               <Route path="guides/estimates" element={<EstimatesGuide />} />
               <Route path="guides/expenses" element={<ExpensesGuide />} />
               <Route path="guides/client-management" element={<ClientManagementGuide />} />
+              <Route path="guides/e-invoicing" element={<EInvoicingGuide />} />
+              <Route path="guides/e-invoicing-mandates" element={<EInvoicingMandatesGuide />} />
 
               {/* Resources */}
               <Route path="glossary" element={<Glossary />} />

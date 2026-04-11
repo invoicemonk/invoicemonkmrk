@@ -1073,6 +1073,510 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     queryPatterns: ['best personal finance blogs', 'finance blogs for entrepreneurs', 'personal finance blogs freelancers', 'money management blogs'],
     problemsSolved: ['Looking for personal finance education', 'Want to learn money management as an entrepreneur', 'Finding good finance content'],
     nextSteps: ['small-business-accounting-basics', 'how-to-create-a-budget-for-your-small-business']
+  },
+
+  // ============================================
+  // CLUSTER 11: INDIA GST + GLOBAL FUNDAMENTALS
+  // ============================================
+  'e-invoicing-india-gst-guide': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['GST e-invoicing India', 'e-invoicing India guide', 'India e-invoice mandate', 'GST compliance small business India'],
+    problemsSolved: ['Need to understand India GST e-invoicing requirements', 'Unsure about e-invoicing thresholds in India', 'Want to comply with GST e-invoicing mandate'],
+    nextSteps: ['india-gst-registration-small-business', 'india-cgst-sgst-igst-explained']
+  },
+  'india-gst-registration-small-business': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['GST registration India', 'how to register for GST', 'GST registration threshold India', 'small business GST India'],
+    problemsSolved: ['Need to register for GST in India', 'Unsure if I need GST registration', 'How to get GSTIN'],
+    nextSteps: ['india-cgst-sgst-igst-explained', 'india-hsn-sac-codes-invoice-guide']
+  },
+  'india-cgst-sgst-igst-explained': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['CGST SGST IGST difference', 'which GST to charge', 'inter-state vs intra-state GST', 'CGST SGST explained'],
+    problemsSolved: ['Confused about CGST vs SGST vs IGST', 'Need to know which tax to apply on invoices', 'Inter-state billing GST rules'],
+    nextSteps: ['india-hsn-sac-codes-invoice-guide', 'india-input-tax-credit-guide']
+  },
+  'india-hsn-sac-codes-invoice-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['HSN code on invoice', 'SAC code services India', 'HSN code mandatory', 'how to find HSN code'],
+    problemsSolved: ['Need to add HSN/SAC codes to invoices', 'Unsure which HSN code to use', 'Mandatory HSN code thresholds'],
+    nextSteps: ['india-gst-return-filing-guide', 'e-invoicing-india-gst-guide']
+  },
+  'india-gst-return-filing-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['GST return filing guide', 'GSTR-1 GSTR-3B filing', 'how to file GST returns', 'GST return due dates'],
+    problemsSolved: ['Need to file GST returns', 'Confused about GSTR forms', 'GST return filing deadlines'],
+    nextSteps: ['india-input-tax-credit-guide', 'india-gst-registration-small-business']
+  },
+  'india-input-tax-credit-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['input tax credit India', 'ITC claim GST', 'how to claim input tax credit', 'GST ITC rules'],
+    problemsSolved: ['Need to claim input tax credit', 'ITC eligibility confusion', 'Maximize GST input credits'],
+    nextSteps: ['india-gst-return-filing-guide', 'india-cgst-sgst-igst-explained']
+  },
+  'how-to-write-an-invoice-step-by-step': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['how to write an invoice', 'invoice writing guide', 'create invoice step by step', 'write first invoice'],
+    problemsSolved: ['Never written an invoice before', 'Need step-by-step invoice creation help', 'What to include on an invoice'],
+    nextSteps: ['5-essential-elements-of-an-invoice-a-guide-for-small-business-owners', 'invoice-numbering-systems-guide']
+  },
+  'invoice-numbering-systems-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'beginner',
+    queryPatterns: ['invoice numbering system', 'how to number invoices', 'invoice number format guide', 'sequential invoice numbering'],
+    problemsSolved: ['Need an invoice numbering system', 'Invoice numbers are disorganized', 'Best invoice numbering format'],
+    nextSteps: ['invoice-numbering-best-practices', 'how-to-write-an-invoice-step-by-step']
+  },
+  'invoice-vs-receipt-difference-explained': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['invoice vs receipt', 'difference between invoice and receipt', 'invoice or receipt which to send', 'receipt vs invoice explained'],
+    problemsSolved: ['Confused about invoice vs receipt', 'Client asking for receipt instead of invoice', 'When to send receipt vs invoice'],
+    nextSteps: ['estimate-vs-quote-vs-invoice-difference', 'how-to-write-an-invoice-step-by-step']
+  },
+  'payment-terms-guide-net-30-explained': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['payment terms explained', 'net 30 meaning', 'invoice payment terms guide', 'common payment terms'],
+    problemsSolved: ['Don\'t understand payment terms', 'What does Net 30 mean', 'Which payment terms to use'],
+    nextSteps: ['how-to-write-invoice-payment-terms', 'early-payment-discounts-do-they-work']
+  },
+  'credit-note-guide-when-how-to-issue': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['what is a credit note', 'how to issue credit note', 'credit note vs refund'],
+    problemsSolved: ['Need to correct an invoice', 'How to handle refunds properly', 'Credit note for VAT adjustment'],
+    nextSteps: ['how-to-write-an-invoice-step-by-step', 'invoice-numbering-systems-guide']
+  },
+  'how-to-chase-unpaid-invoices': {
+    intent: 'problem-solving', stage: 'retention', experienceLevel: 'beginner',
+    queryPatterns: ['how to chase unpaid invoices', 'overdue invoice follow up email', 'payment reminder template'],
+    problemsSolved: ['Client hasn\'t paid invoice', 'How to follow up on late payments', 'Overdue invoice collection'],
+    nextSteps: ['payment-terms-guide-net-30-explained', 'how-to-write-invoice-payment-terms']
+  },
+  'how-to-create-proforma-invoice': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['how to create proforma invoice', 'proforma invoice template', 'proforma invoice example'],
+    problemsSolved: ['Need to create a proforma invoice', 'Proforma invoice for export', 'Formal quote in invoice format'],
+    nextSteps: ['proforma-invoice-vs-commercial-invoice', 'how-to-write-an-invoice-step-by-step']
+  },
+
+  // ============================================
+  // CLUSTER 10: Nigeria FIRS + Kenya eTIMS
+  // ============================================
+  'e-invoicing-nigeria-firs-guide': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['nigeria e-invoicing', 'FIRS e-invoice', 'nigeria electronic invoicing guide', 'e-invoicing Nigeria 2026'],
+    problemsSolved: ['Need to understand Nigeria e-invoicing requirements', 'FIRS compliance for invoicing', 'How e-invoicing works in Nigeria'],
+    nextSteps: ['nigeria-firs-merchant-buyer-solution', 'nigeria-e-invoicing-timeline']
+  },
+  'nigeria-firs-merchant-buyer-solution': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['FIRS merchant buyer solution', 'Nigeria FIRS invoice validation', 'FIRS e-invoice merchant'],
+    problemsSolved: ['How FIRS merchant-buyer solution works', 'Validating invoices through FIRS', 'FIRS compliance integration'],
+    nextSteps: ['nigeria-invoice-irn-qr-code', 'nigeria-e-invoicing-small-business']
+  },
+  'nigeria-e-invoicing-small-business': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Nigeria e-invoicing small business', 'FIRS e-invoice SME', 'small business e-invoicing Nigeria'],
+    problemsSolved: ['Small business compliance with FIRS e-invoicing', 'Affordable e-invoicing for Nigerian SMEs'],
+    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-e-invoicing-penalties']
+  },
+  'nigeria-invoice-irn-qr-code': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['Nigeria invoice IRN', 'FIRS QR code invoice', 'invoice reference number Nigeria'],
+    problemsSolved: ['How to generate IRN for Nigeria invoices', 'QR code requirements on Nigerian invoices'],
+    nextSteps: ['nigeria-firs-merchant-buyer-solution', 'nigeria-vat-invoice-requirements']
+  },
+  'nigeria-e-invoicing-penalties': {
+    intent: 'problem-solving', stage: 'decision', experienceLevel: 'intermediate',
+    queryPatterns: ['Nigeria e-invoicing penalties', 'FIRS non-compliance fine', 'penalty for not using e-invoice Nigeria'],
+    problemsSolved: ['What are penalties for non-compliance with FIRS e-invoicing', 'Avoiding FIRS fines'],
+    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-e-invoicing-timeline']
+  },
+  'nigeria-e-invoicing-timeline': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Nigeria e-invoicing timeline', 'FIRS e-invoice rollout dates', 'when is e-invoicing mandatory Nigeria'],
+    problemsSolved: ['When does e-invoicing become mandatory in Nigeria', 'FIRS implementation schedule'],
+    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-e-invoicing-small-business']
+  },
+  'nigeria-peppol-firs': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['Nigeria PEPPOL', 'FIRS PEPPOL integration', 'PEPPOL e-invoicing Nigeria'],
+    problemsSolved: ['How PEPPOL works with FIRS', 'Cross-border e-invoicing from Nigeria'],
+    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-firs-merchant-buyer-solution']
+  },
+  'nigeria-vat-invoice-requirements': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['Nigeria VAT invoice requirements', 'FIRS VAT invoice', 'VAT on invoice Nigeria'],
+    problemsSolved: ['What VAT details are required on Nigerian invoices', 'Nigeria VAT compliance for invoices'],
+    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-invoice-irn-qr-code']
+  },
+  'nigeria-tax-reform-acts-invoicing': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'intermediate',
+    queryPatterns: ['Nigeria tax reform invoicing', 'Nigeria tax reform acts 2024', 'how tax reform affects invoicing Nigeria'],
+    problemsSolved: ['Impact of Nigeria tax reforms on invoicing', 'New invoicing rules from tax reform'],
+    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-vat-invoice-requirements']
+  },
+  'e-invoicing-kenya-etims': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Kenya eTIMS', 'KRA e-invoicing', 'Kenya electronic tax invoice', 'eTIMS guide'],
+    problemsSolved: ['How Kenya eTIMS works', 'KRA e-invoicing compliance', 'Getting started with eTIMS'],
+    nextSteps: ['kenya-etims-small-business-guide', 'kenya-how-to-generate-etims-invoice']
+  },
+  'kenya-etims-small-business-guide': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['eTIMS small business Kenya', 'KRA e-invoice small business', 'eTIMS for SMEs'],
+    problemsSolved: ['Small business eTIMS compliance', 'Affordable eTIMS solutions for SMEs'],
+    nextSteps: ['e-invoicing-kenya-etims', 'kenya-how-to-generate-etims-invoice']
+  },
+  'kenya-how-to-generate-etims-invoice': {
+    intent: 'informational', stage: 'decision', experienceLevel: 'beginner',
+    queryPatterns: ['how to generate eTIMS invoice', 'create eTIMS invoice step by step', 'eTIMS invoice generation'],
+    problemsSolved: ['Step-by-step eTIMS invoice creation', 'How to use eTIMS system'],
+    nextSteps: ['e-invoicing-kenya-etims', 'kenya-vat-invoice-requirements']
+  },
+  'kenya-vat-invoice-requirements': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['Kenya VAT invoice requirements', 'KRA VAT invoice', 'VAT on invoices Kenya'],
+    problemsSolved: ['VAT details required on Kenyan invoices', 'KRA VAT compliance'],
+    nextSteps: ['e-invoicing-kenya-etims', 'kenya-etims-small-business-guide']
+  },
+
+  // ============================================
+  // CLUSTER 12: UK HMRC/MTD + Saudi ZATCA + Malaysia MyInvois
+  // ============================================
+  'e-invoicing-uk-hmrc-mtd-guide': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['UK e-invoicing', 'HMRC MTD', 'Making Tax Digital invoicing', 'UK digital invoicing guide'],
+    problemsSolved: ['Understanding UK Making Tax Digital requirements', 'HMRC e-invoicing compliance'],
+    nextSteps: ['uk-mtd-vat-software-requirements', 'uk-making-tax-digital-timeline']
+  },
+  'uk-mtd-vat-software-requirements': {
+    intent: 'commercial', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['MTD VAT software', 'HMRC approved software', 'MTD compatible invoicing software'],
+    problemsSolved: ['Finding MTD-compatible software', 'HMRC software requirements for VAT'],
+    nextSteps: ['e-invoicing-uk-hmrc-mtd-guide', 'uk-invoice-requirements-hmrc-2026']
+  },
+  'uk-invoice-requirements-hmrc-2026': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['UK invoice requirements 2026', 'HMRC invoice rules', 'what must be on a UK invoice'],
+    problemsSolved: ['UK legal invoice requirements', 'HMRC-compliant invoice format'],
+    nextSteps: ['e-invoicing-uk-hmrc-mtd-guide', 'uk-vat-flat-rate-scheme-invoicing']
+  },
+  'uk-vat-flat-rate-scheme-invoicing': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['UK flat rate scheme invoicing', 'FRS VAT invoice', 'flat rate VAT scheme invoice'],
+    problemsSolved: ['How to invoice under flat rate VAT scheme', 'FRS invoicing rules'],
+    nextSteps: ['e-invoicing-uk-hmrc-mtd-guide', 'uk-invoice-requirements-hmrc-2026']
+  },
+  'uk-cis-reverse-charge-invoicing': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['UK CIS reverse charge', 'construction reverse charge invoice', 'CIS VAT reverse charge'],
+    problemsSolved: ['CIS reverse charge invoicing rules', 'Construction industry VAT invoicing'],
+    nextSteps: ['e-invoicing-uk-hmrc-mtd-guide', 'uk-invoice-requirements-hmrc-2026']
+  },
+  'uk-making-tax-digital-timeline': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Making Tax Digital timeline', 'MTD rollout dates', 'when does MTD start'],
+    problemsSolved: ['MTD implementation dates', 'When to comply with Making Tax Digital'],
+    nextSteps: ['e-invoicing-uk-hmrc-mtd-guide', 'uk-mtd-vat-software-requirements']
+  },
+  'e-invoicing-saudi-zatca-fatoorah': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Saudi ZATCA e-invoicing', 'Fatoorah e-invoice', 'Saudi Arabia e-invoicing guide'],
+    problemsSolved: ['Understanding Saudi ZATCA e-invoicing requirements', 'Fatoorah compliance'],
+    nextSteps: ['saudi-zatca-phase-2-integration', 'saudi-e-invoice-xml-qr-requirements']
+  },
+  'saudi-zatca-phase-2-integration': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['ZATCA phase 2', 'ZATCA integration API', 'Saudi e-invoice phase 2 integration'],
+    problemsSolved: ['ZATCA Phase 2 technical integration', 'API integration with ZATCA'],
+    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-e-invoice-xml-qr-requirements']
+  },
+  'saudi-e-invoice-xml-qr-requirements': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['Saudi e-invoice XML', 'ZATCA QR code requirements', 'Saudi invoice XML format'],
+    problemsSolved: ['XML format for Saudi e-invoices', 'QR code requirements for ZATCA compliance'],
+    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-vat-invoice-requirements']
+  },
+  'saudi-vat-invoice-requirements': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['Saudi VAT invoice requirements', 'ZATCA VAT invoice', 'Saudi Arabia VAT on invoice'],
+    problemsSolved: ['VAT details required on Saudi invoices', 'ZATCA VAT compliance'],
+    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-zatca-penalties-non-compliance']
+  },
+  'saudi-zatca-penalties-non-compliance': {
+    intent: 'problem-solving', stage: 'decision', experienceLevel: 'intermediate',
+    queryPatterns: ['ZATCA penalties', 'Saudi e-invoicing fines', 'non-compliance ZATCA'],
+    problemsSolved: ['Penalties for not complying with ZATCA', 'Avoiding ZATCA fines'],
+    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-zatca-phase-2-integration']
+  },
+  'e-invoicing-malaysia-myinvois-guide': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Malaysia MyInvois', 'LHDN e-invoicing', 'Malaysia e-invoice guide'],
+    problemsSolved: ['Understanding Malaysia MyInvois system', 'LHDN e-invoicing compliance'],
+    nextSteps: ['malaysia-myinvois-timeline-2024-2026', 'malaysia-e-invoice-technical-requirements']
+  },
+  'malaysia-myinvois-timeline-2024-2026': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['MyInvois timeline', 'Malaysia e-invoice rollout dates', 'when is e-invoicing mandatory Malaysia'],
+    problemsSolved: ['MyInvois implementation dates', 'When to comply with Malaysia e-invoicing'],
+    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-small-business-myinvois-compliance']
+  },
+  'malaysia-e-invoice-technical-requirements': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['MyInvois technical requirements', 'Malaysia e-invoice API', 'LHDN e-invoice integration'],
+    problemsSolved: ['Technical specs for MyInvois integration', 'API requirements for Malaysia e-invoicing'],
+    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-sst-invoice-requirements']
+  },
+  'malaysia-sst-invoice-requirements': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['Malaysia SST invoice', 'SST on invoice Malaysia', 'Malaysia service tax invoice'],
+    problemsSolved: ['SST details on Malaysian invoices', 'Malaysia service and sales tax invoicing'],
+    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-small-business-myinvois-compliance']
+  },
+  'malaysia-small-business-myinvois-compliance': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['MyInvois small business', 'Malaysia e-invoice SME', 'small business e-invoicing Malaysia'],
+    problemsSolved: ['MyInvois compliance for small businesses', 'Affordable e-invoicing for Malaysian SMEs'],
+    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-myinvois-timeline-2024-2026']
+  },
+
+  // ============================================
+  // CLUSTER 14: Germany deep dives
+  // ============================================
+  'germany-zugferd-e-invoice-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['ZUGFeRD e-invoice', 'Germany ZUGFeRD guide', 'ZUGFeRD format explained'],
+    problemsSolved: ['Understanding ZUGFeRD e-invoice format', 'How to create ZUGFeRD invoices'],
+    nextSteps: ['germany-xrechnung-guide', 'germany-e-invoice-obligation-2025']
+  },
+  'germany-xrechnung-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['XRechnung guide', 'Germany XRechnung', 'XRechnung format requirements'],
+    problemsSolved: ['How to create XRechnung invoices', 'XRechnung for public sector invoicing'],
+    nextSteps: ['germany-zugferd-e-invoice-guide', 'germany-e-invoice-obligation-2025']
+  },
+  'germany-kleinunternehmer-invoicing': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Kleinunternehmer invoice', 'small business invoicing Germany', 'Kleinunternehmer Rechnung'],
+    problemsSolved: ['Invoicing rules for Kleinunternehmer', 'Small business exemption invoicing Germany'],
+    nextSteps: ['germany-vat-reverse-charge-invoicing', 'germany-e-invoice-obligation-2025']
+  },
+  'germany-vat-reverse-charge-invoicing': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['Germany reverse charge invoice', 'Reverse Charge Rechnung', 'B2B reverse charge Germany'],
+    problemsSolved: ['How to invoice with reverse charge in Germany', 'B2B cross-border invoicing Germany'],
+    nextSteps: ['germany-zugferd-e-invoice-guide', 'germany-kleinunternehmer-invoicing']
+  },
+  'germany-e-invoice-obligation-2025': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['Germany e-invoice mandate 2025', 'German e-invoicing obligation', 'when is e-invoicing mandatory Germany'],
+    problemsSolved: ['Germany e-invoice mandate timeline', 'Preparing for mandatory e-invoicing in Germany'],
+    nextSteps: ['germany-zugferd-e-invoice-guide', 'germany-xrechnung-guide']
+  },
+
+  // ============================================
+  // CLUSTER 15: Industry invoice guides + Italy SDI
+  // ============================================
+  'invoice-guide-photographers': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['photographer invoice template', 'how to invoice photography', 'photography billing guide'],
+    problemsSolved: ['How to create invoices as a photographer', 'Photography invoicing best practices'],
+    nextSteps: ['invoice-guide-consultants', 'how-to-write-an-invoice-step-by-step']
+  },
+  'invoice-guide-graphic-designers': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['graphic designer invoice', 'design invoice template', 'invoicing for designers'],
+    problemsSolved: ['How to invoice graphic design work', 'Design project billing'],
+    nextSteps: ['invoice-guide-web-developers', 'how-to-write-an-invoice-step-by-step']
+  },
+  'invoice-guide-web-developers': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['web developer invoice', 'developer invoicing guide', 'freelance developer billing'],
+    problemsSolved: ['How to invoice web development projects', 'Developer billing best practices'],
+    nextSteps: ['invoice-guide-consultants', 'how-to-write-an-invoice-step-by-step']
+  },
+  'invoice-guide-consultants': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['consultant invoice template', 'consulting invoice guide', 'how to invoice consulting work'],
+    problemsSolved: ['How to create consulting invoices', 'Billing consulting hours'],
+    nextSteps: ['invoice-guide-photographers', 'how-to-write-an-invoice-step-by-step']
+  },
+  'italy-sdi-integration-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['Italy SDI integration', 'Sistema di Interscambio guide', 'Italian e-invoice SDI'],
+    problemsSolved: ['How to integrate with Italy SDI system', 'Technical requirements for Italian e-invoicing'],
+    nextSteps: ['italy-esterometro-cross-border', 'italy-fattura-elettronica-freelancers']
+  },
+  'italy-esterometro-cross-border': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['Italy esterometro', 'Italian cross-border invoicing', 'esterometro reporting'],
+    problemsSolved: ['Cross-border invoice reporting Italy', 'Esterometro compliance requirements'],
+    nextSteps: ['italy-sdi-integration-guide', 'italy-fattura-elettronica-freelancers']
+  },
+  'italy-fattura-elettronica-freelancers': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['fattura elettronica freelancer', 'Italian e-invoice freelancer', 'electronic invoice Italy freelance'],
+    problemsSolved: ['How freelancers comply with Italian e-invoicing', 'Fattura elettronica for self-employed'],
+    nextSteps: ['italy-sdi-integration-guide', 'italy-esterometro-cross-border']
+  },
+
+  // ============================================
+  // CLUSTER 16: Payment disputes + Billing templates + Long-tail evergreen
+  // ============================================
+  'how-to-handle-invoice-disputes': {
+    intent: 'problem-solving', stage: 'retention', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice dispute resolution', 'client disputing invoice', 'how to handle invoice disagreement'],
+    problemsSolved: ['Client is disputing an invoice', 'Resolving billing disagreements professionally'],
+    nextSteps: ['how-to-write-payment-demand-letter', 'dealing-with-non-paying-clients']
+  },
+  'how-to-write-payment-demand-letter': {
+    intent: 'problem-solving', stage: 'decision', experienceLevel: 'intermediate',
+    queryPatterns: ['payment demand letter template', 'formal payment demand', 'letter demanding payment'],
+    problemsSolved: ['Need to write a formal payment demand', 'Escalating unpaid invoice professionally'],
+    nextSteps: ['small-claims-court-unpaid-invoices-guide', 'dealing-with-non-paying-clients']
+  },
+  'late-payment-laws-by-country': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['late payment laws', 'late payment interest by country', 'legal rights unpaid invoice'],
+    problemsSolved: ['What are my legal rights for late payments', 'Late payment interest rates by jurisdiction'],
+    nextSteps: ['how-to-handle-invoice-disputes', 'how-to-write-payment-demand-letter']
+  },
+  'dealing-with-non-paying-clients': {
+    intent: 'problem-solving', stage: 'decision', experienceLevel: 'intermediate',
+    queryPatterns: ['client not paying', 'non-paying client options', 'what to do when client won\'t pay'],
+    problemsSolved: ['Client refuses to pay invoice', 'Options for collecting unpaid invoices'],
+    nextSteps: ['small-claims-court-unpaid-invoices-guide', 'debt-collection-agencies-freelancers-guide']
+  },
+  'small-claims-court-unpaid-invoices-guide': {
+    intent: 'informational', stage: 'decision', experienceLevel: 'advanced',
+    queryPatterns: ['small claims court invoice', 'sue for unpaid invoice', 'small claims court freelancer'],
+    problemsSolved: ['Taking a client to small claims court', 'Legal action for unpaid invoices'],
+    nextSteps: ['dealing-with-non-paying-clients', 'debt-collection-agencies-freelancers-guide']
+  },
+  'debt-collection-agencies-freelancers-guide': {
+    intent: 'informational', stage: 'decision', experienceLevel: 'intermediate',
+    queryPatterns: ['debt collection freelancer', 'collection agency for unpaid invoice', 'freelancer debt collection'],
+    problemsSolved: ['Using debt collection for unpaid freelance invoices', 'When to hire a collection agency'],
+    nextSteps: ['dealing-with-non-paying-clients', 'small-claims-court-unpaid-invoices-guide']
+  },
+  'retainer-invoice-template-guide': {
+    intent: 'transactional', stage: 'decision', experienceLevel: 'intermediate',
+    queryPatterns: ['retainer invoice template', 'how to invoice retainer', 'monthly retainer billing'],
+    problemsSolved: ['How to bill retainer clients', 'Creating a retainer invoice'],
+    nextSteps: ['recurring-invoice-setup-guide', 'deposit-invoice-template-guide']
+  },
+  'deposit-invoice-template-guide': {
+    intent: 'transactional', stage: 'decision', experienceLevel: 'beginner',
+    queryPatterns: ['deposit invoice template', 'how to invoice for deposit', 'upfront payment invoice'],
+    problemsSolved: ['How to invoice for a deposit', 'Collecting upfront payments'],
+    nextSteps: ['retainer-invoice-template-guide', 'progress-billing-invoice-guide']
+  },
+  'recurring-invoice-setup-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'beginner',
+    queryPatterns: ['recurring invoice setup', 'automatic invoicing', 'set up recurring billing'],
+    problemsSolved: ['How to set up recurring invoices', 'Automating monthly billing'],
+    nextSteps: ['retainer-invoice-template-guide', 'invoice-automation-small-business-guide']
+  },
+  'time-and-materials-invoice-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['time and materials invoice', 'T&M billing', 'how to invoice time and materials'],
+    problemsSolved: ['How to invoice time and materials projects', 'T&M billing best practices'],
+    nextSteps: ['progress-billing-invoice-guide', 'how-to-write-an-invoice-step-by-step']
+  },
+  'progress-billing-invoice-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['progress billing invoice', 'milestone billing', 'progress payment invoice'],
+    problemsSolved: ['How to bill by project milestones', 'Progress billing for large projects'],
+    nextSteps: ['time-and-materials-invoice-guide', 'deposit-invoice-template-guide']
+  },
+  'self-billing-invoice-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['self-billing invoice', 'self-billing arrangement', 'buyer-created invoice'],
+    problemsSolved: ['What is a self-billing invoice', 'Setting up self-billing arrangements'],
+    nextSteps: ['interim-invoice-guide', 'how-to-write-an-invoice-step-by-step']
+  },
+  'interim-invoice-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['interim invoice', 'interim billing', 'partial invoice for long project'],
+    problemsSolved: ['How to create interim invoices', 'Billing for ongoing projects'],
+    nextSteps: ['final-invoice-close-project-guide', 'progress-billing-invoice-guide']
+  },
+  'final-invoice-close-project-guide': {
+    intent: 'informational', stage: 'decision', experienceLevel: 'intermediate',
+    queryPatterns: ['final invoice template', 'close project invoice', 'last invoice for project'],
+    problemsSolved: ['How to create a final project invoice', 'Closing out a project billing'],
+    nextSteps: ['interim-invoice-guide', 'how-to-write-an-invoice-step-by-step']
+  },
+  'invoice-payment-methods-compared': {
+    intent: 'commercial', stage: 'consideration', experienceLevel: 'beginner',
+    queryPatterns: ['best payment methods for invoices', 'invoice payment options', 'how to accept invoice payments'],
+    problemsSolved: ['Which payment method to offer on invoices', 'Comparing payment options for freelancers'],
+    nextSteps: ['how-to-accept-international-payments-freelancer', 'invoice-automation-small-business-guide']
+  },
+  'how-to-set-freelance-rates': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['how to set freelance rates', 'freelance pricing guide', 'what to charge as freelancer 2026'],
+    problemsSolved: ['Don\'t know what to charge', 'Setting competitive freelance rates'],
+    nextSteps: ['how-to-price-project-work-fixed-fee', 'invoice-guide-consultants']
+  },
+  'invoice-email-templates-follow-up': {
+    intent: 'transactional', stage: 'retention', experienceLevel: 'beginner',
+    queryPatterns: ['invoice email template', 'follow up email unpaid invoice', 'payment reminder email template'],
+    problemsSolved: ['Need email templates for sending invoices', 'Follow-up emails for late payments'],
+    nextSteps: ['how-to-chase-unpaid-invoices', 'how-to-handle-invoice-disputes']
+  },
+  'business-expense-tracking-spreadsheet-vs-software': {
+    intent: 'commercial', stage: 'consideration', experienceLevel: 'beginner',
+    queryPatterns: ['expense tracking spreadsheet vs software', 'expense tracker app vs Excel', 'best way to track expenses'],
+    problemsSolved: ['Should I use a spreadsheet or software for expenses', 'Choosing expense tracking method'],
+    nextSteps: ['expense-tracking-methods-small-business', 'invoice-automation-small-business-guide']
+  },
+  'how-to-accept-international-payments-freelancer': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['accept international payments freelancer', 'receive payments from abroad', 'international payment methods freelancer'],
+    problemsSolved: ['How to receive payments from international clients', 'Best international payment options'],
+    nextSteps: ['invoice-payment-methods-compared', 'multi-currency-accounting-small-business']
+  },
+  'tax-deductions-freelancers-complete-list': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['freelancer tax deductions', 'tax write-offs freelancers', 'what can freelancers deduct'],
+    problemsSolved: ['What expenses can I deduct as a freelancer', 'Maximizing freelance tax deductions'],
+    nextSteps: ['year-end-accounting-checklist-small-business', 'business-expense-tracking-spreadsheet-vs-software']
+  },
+  'invoice-automation-small-business-guide': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
+    queryPatterns: ['invoice automation', 'automate invoicing small business', 'automatic invoicing software'],
+    problemsSolved: ['How to automate invoicing process', 'Saving time on invoice creation'],
+    nextSteps: ['recurring-invoice-setup-guide', 'invoice-payment-methods-compared']
+  },
+  'year-end-accounting-checklist-small-business': {
+    intent: 'problem-solving', stage: 'retention', experienceLevel: 'intermediate',
+    queryPatterns: ['year-end accounting checklist', 'end of year bookkeeping', 'small business year-end tasks'],
+    problemsSolved: ['Preparing for year-end accounting', 'Year-end financial checklist'],
+    nextSteps: ['tax-deductions-freelancers-complete-list', 'business-expense-tracking-spreadsheet-vs-software']
+  },
+  'how-to-price-project-work-fixed-fee': {
+    intent: 'problem-solving', stage: 'awareness', experienceLevel: 'intermediate',
+    queryPatterns: ['how to price project work', 'fixed fee pricing', 'project-based pricing guide'],
+    problemsSolved: ['How to set fixed prices for projects', 'Project pricing strategy'],
+    nextSteps: ['how-to-set-freelance-rates', 'time-and-materials-invoice-guide']
+  },
+  'sole-trader-vs-limited-company-invoice-differences': {
+    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
+    queryPatterns: ['sole trader vs limited company invoice', 'invoicing as sole trader', 'limited company invoice requirements'],
+    problemsSolved: ['Invoice differences between sole trader and limited company', 'Which business structure for invoicing'],
+    nextSteps: ['how-to-write-an-invoice-step-by-step', 'invoice-numbering-systems-guide']
+  },
+  'client-onboarding-checklist-freelancers': {
+    intent: 'informational', stage: 'retention', experienceLevel: 'beginner',
+    queryPatterns: ['client onboarding checklist', 'freelancer client onboarding', 'new client setup process'],
+    problemsSolved: ['How to onboard new freelance clients', 'Client onboarding best practices'],
+    nextSteps: ['invoice-guide-consultants', 'how-to-write-an-invoice-step-by-step']
+  },
+  'multi-currency-accounting-small-business': {
+    intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
+    queryPatterns: ['multi-currency accounting', 'foreign currency invoicing', 'multi-currency bookkeeping'],
+    problemsSolved: ['How to handle multiple currencies in accounting', 'Multi-currency invoicing challenges'],
+    nextSteps: ['how-to-accept-international-payments-freelancer', 'invoice-payment-methods-compared']
   }
 };
 export function getPostIntent(slug: string): ContentMetadata | undefined {
