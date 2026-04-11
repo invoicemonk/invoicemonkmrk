@@ -54,6 +54,7 @@ import '@/data/blogPostsCluster8.fr';
 import '@/data/blogPostsCluster8.pt';
 import '@/data/blogPostsCluster8.es';
 import '@/data/blogPostsCluster9';
+import '@/data/blogPostsCluster10';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';

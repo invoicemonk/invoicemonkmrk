@@ -652,7 +652,16 @@ export const pillarClusters: TopicalCluster[] = [
       'freelancer-tax-mistakes-ke', 'freelancer-tax-mistakes-za',
       'freelancer-tax-mistakes-ro', 'freelancer-tax-mistakes-hu',
       'freelancer-tax-mistakes-rs', 'freelancer-tax-mistakes-pl',
-      'freelancer-tax-mistakes-it', 'freelancer-tax-mistakes-bg'
+      'freelancer-tax-mistakes-it', 'freelancer-tax-mistakes-bg',
+      // Cluster 10: Nigeria FIRS e-invoicing
+      'e-invoicing-nigeria-firs-guide', 'nigeria-firs-merchant-buyer-solution',
+      'nigeria-e-invoicing-small-business', 'nigeria-invoice-irn-qr-code',
+      'nigeria-e-invoicing-penalties', 'nigeria-e-invoicing-timeline',
+      'nigeria-peppol-firs', 'nigeria-vat-invoice-requirements',
+      'nigeria-tax-reform-acts-invoicing',
+      // Cluster 10: Kenya eTIMS
+      'e-invoicing-kenya-etims', 'kenya-etims-small-business-guide',
+      'kenya-how-to-generate-etims-invoice', 'kenya-vat-invoice-requirements'
     ]
   },
   {
