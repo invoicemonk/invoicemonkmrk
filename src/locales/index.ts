@@ -10,6 +10,8 @@ import { enPH } from './en-PH';
 import { enZW } from './en-ZW';
 import { enIN } from './en-IN';
 import { enSC } from './en-SC';
+import { enSA } from './en-SA';
+import { enMY } from './en-MY';
 import { deDE } from './de-DE';
 import { ptBR } from './pt-BR';
 import { enNZ } from './en-NZ';
@@ -37,11 +39,13 @@ export const locales: Record<SupportedCountry, LocaleConfig> = {
   NZ: enNZ,
   FR: frFR,
   ES: esES,
+  SA: enSA,
+  MY: enMY,
 };
 
 export const supportedCountries: SupportedCountry[] = [
   "NG", "US", "CA", "GB", "AU", "GH", "KE", "ZA",
-  "PH", "ZW", "IN", "SC", "DE", "BR", "NZ", "FR", "ES",
+  "PH", "ZW", "IN", "SC", "DE", "BR", "NZ", "FR", "ES", "SA", "MY",
 ];
 
 export const supportedLanguages: SupportedLanguage[] = ["en", "de", "fr", "pt", "es"];
@@ -68,6 +72,8 @@ export const countryToLanguage: Record<SupportedCountry, SupportedLanguage> = {
   NZ: "en",
   FR: "fr",
   ES: "es",
+  SA: "en",
+  MY: "en",
 };
 
 /** Language prefix → i18next language code */
@@ -92,13 +98,13 @@ export const languageToHreflang: Record<SupportedLanguage, string> = {
 export const urlPrefixToCountry: Record<string, SupportedCountry> = {
   ng: "NG", us: "US", ca: "CA", uk: "GB", au: "AU", gh: "GH",
   ke: "KE", za: "ZA", ph: "PH", zw: "ZW", in: "IN", sc: "SC",
-  de: "DE", br: "BR", nz: "NZ", fr: "FR", es: "ES",
+  de: "DE", br: "BR", nz: "NZ", fr: "FR", es: "ES", sa: "SA", my: "MY",
 };
 
 export const countryToUrlPrefix: Record<SupportedCountry, string> = {
   NG: "ng", US: "us", CA: "ca", GB: "uk", AU: "au", GH: "gh",
   KE: "ke", ZA: "za", PH: "ph", ZW: "zw", IN: "in", SC: "sc",
-  DE: "de", BR: "br", NZ: "nz", FR: "fr", ES: "es",
+  DE: "de", BR: "br", NZ: "nz", FR: "fr", ES: "es", SA: "sa", MY: "my",
 };
 
 export function getLocale(countryCode: SupportedCountry): LocaleConfig {
