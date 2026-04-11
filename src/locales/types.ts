@@ -89,6 +89,6 @@ export interface LocaleConfig {
 }
 
 export type SupportedCountry = "NG" | "US" | "CA" | "GB" | "AU" | "GH" | "KE" | "ZA"
-  | "PH" | "ZW" | "IN" | "SC" | "DE" | "BR" | "NZ" | "FR" | "ES";
+  | "PH" | "ZW" | "IN" | "SC" | "DE" | "BR" | "NZ" | "FR" | "ES" | "SA" | "MY";
 
 export type SupportedLanguage = "en" | "de" | "fr" | "pt" | "es";

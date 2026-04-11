@@ -71,6 +71,7 @@ import '@/data/blogPostsCluster8.fr';
 import '@/data/blogPostsCluster8.pt';
 import '@/data/blogPostsCluster8.es';
 import '@/data/blogPostsCluster9';
+import '@/data/blogPostsCluster10';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;
