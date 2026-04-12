@@ -65,11 +65,22 @@ const ENGLISH_ONLY_PATHS: string[] = [
   '/legal/sla',
 ];
 
-/** Check if a path is English-only (exact match or corridor pattern) */
+// Country identifiers used to detect country-specific blog posts
+const COUNTRY_KEYWORDS = [
+  'nigeria', 'india', 'kenya', 'uk', 'saudi', 'malaysia',
+  'germany', 'italy', 'ghana', 'south-africa', 'australia', 'canada',
+];
+const countryBlogPattern = new RegExp(
+  `^/blog/.*(?:${COUNTRY_KEYWORDS.join('|')}).*$`
+);
+
+/** Check if a path is English-only (exact match, corridor, or country-specific blog) */
 function isEnglishOnly(pagePath: string): boolean {
   if (ENGLISH_ONLY_PATHS.includes(pagePath)) return true;
   // All corridor pages (receive-XXX-in-YYY-cost) are English-only
   if (/^\/receive-.+-cost$/.test(pagePath)) return true;
+  // Country-specific blog posts are English-only
+  if (countryBlogPattern.test(pagePath)) return true;
   return false;
 }
 

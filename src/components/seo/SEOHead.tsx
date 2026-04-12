@@ -76,6 +76,8 @@ export function SEOHead({
     /^\/freelancer-rate-calculator$/,
     /^\/docs\/api$/,
     /^\/legal\/sla$/,
+    // Country-specific blog posts (English-only content)
+    /^\/blog\/.*(?:nigeria|india|kenya|uk|saudi|malaysia|germany|italy|ghana|south-africa|australia|canada).*$/,
   ];
   const isEnglishOnlyPage = englishOnlyPatterns.some(p => p.test(relPath));
 
@@ -108,8 +110,8 @@ export function SEOHead({
       {/* Canonical – self-referencing */}
       <link rel="canonical" href={fullCanonical} />
 
-      {/* hreflang – 4 language variants + x-default */}
-      {supportedLanguages.map((langCode) => (
+      {/* hreflang – only for translated pages, not English-only content */}
+      {!isEnglishOnlyPage && supportedLanguages.map((langCode) => (
         <link
           key={langCode}
           rel="alternate"
@@ -117,7 +119,7 @@ export function SEOHead({
           href={`${baseUrl}/${langCode}${relPath}`}
         />
       ))}
-      <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/en${relPath}`} />
+      {!isEnglishOnlyPage && <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/en${relPath}`} />}
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={ogType} />
