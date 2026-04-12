@@ -26,6 +26,53 @@ const languages = [
   { prefix: 'es', hreflang: 'es' },
 ];
 
+// ── English-only paths ──
+// Country-specific pages that have NO translations and should only appear under /en/
+const ENGLISH_ONLY_PATHS: string[] = [
+  // Country-specific invoice generators
+  '/free-invoice-generator-australia',
+  '/free-invoice-generator-india',
+  '/free-invoice-generator-nigeria',
+  '/free-invoice-generator-kenya',
+  '/free-invoice-generator-uk',
+  '/free-invoice-generator-saudi-arabia',
+  '/free-invoice-generator-malaysia',
+  '/free-invoice-generator-canada',
+  '/free-invoice-generator-ghana',
+  '/free-invoice-generator-south-africa',
+  // Country-specific comparison pages
+  '/compare/best-invoicing-software-nigeria',
+  '/compare/best-invoicing-software-india',
+  '/compare/best-invoicing-software-kenya',
+  '/compare/best-invoicing-software-uk',
+  '/compare/best-invoicing-software-saudi-arabia',
+  '/compare/best-invoicing-software-malaysia',
+  '/compare/best-invoicing-software-australia',
+  '/compare/best-invoicing-software-canada',
+  '/compare/best-invoicing-software-ghana',
+  '/compare/best-invoicing-software-south-africa',
+  '/compare/wave-alternative-nigeria',
+  '/compare/wave-alternative-uk',
+  '/compare/wave-alternative-australia',
+  '/compare/wave-alternative-south-africa',
+  // Payment tools (English-only)
+  '/international-payment-fee-calculator',
+  '/paypal-vs-wise-fees',
+  '/cheapest-way-to-receive-international-payments',
+  '/freelancer-rate-calculator',
+  // API docs
+  '/docs/api',
+  '/legal/sla',
+];
+
+/** Check if a path is English-only (exact match or corridor pattern) */
+function isEnglishOnly(pagePath: string): boolean {
+  if (ENGLISH_ONLY_PATHS.includes(pagePath)) return true;
+  // All corridor pages (receive-XXX-in-YYY-cost) are English-only
+  if (/^\/receive-.+-cost$/.test(pagePath)) return true;
+  return false;
+}
+
 interface PageEntry {
   path: string; // relative path without language prefix, e.g. "/pricing"
   changefreq?: string;
@@ -150,14 +197,25 @@ function generateXML(pages: PageEntry[]): string {
   const urlEntries: string[] = [];
 
   for (const page of pages) {
-    for (const l of languages) {
+    if (isEnglishOnly(page.path)) {
+      // English-only: single /en/ URL, no hreflang alternates
       urlEntries.push(`  <url>
+    <loc>${SITE_URL}/en${page.path}</loc>
+    <lastmod>${CURRENT_DATE}</lastmod>
+    <changefreq>${page.changefreq || 'monthly'}</changefreq>
+    <priority>${(page.priority ?? 0.5).toFixed(1)}</priority>
+  </url>`);
+    } else {
+      // Multi-language: all 5 prefixes with hreflang
+      for (const l of languages) {
+        urlEntries.push(`  <url>
     <loc>${SITE_URL}/${l.prefix}${page.path}</loc>
 ${hreflangLinks(page.path)}
     <lastmod>${CURRENT_DATE}</lastmod>
     <changefreq>${page.changefreq || 'monthly'}</changefreq>
     <priority>${(page.priority ?? 0.5).toFixed(1)}</priority>
   </url>`);
+      }
     }
   }
 
@@ -200,9 +258,8 @@ function main() {
   console.log(`🏛️ ${complianceSlugs.length} compliance posts`);
   complianceSlugs.forEach(s => allPages.push({ path: `/blog/${s}`, priority: 0.7, changefreq: 'monthly' }));
 
-  const glossarySlugs = extractSlugs(path.join(__dirname, '../src/data/glossaryTerms.ts'), /slug:\s*['"][^'"]+['"]/g);
-  console.log(`📖 ${glossarySlugs.length} glossary terms`);
-  glossarySlugs.forEach(s => allPages.push({ path: `/glossary#${s}`, priority: 0.4, changefreq: 'monthly' }));
+  // NOTE: Glossary fragment URLs (#slug) removed — they resolve to the same /glossary page
+  // The single /glossary entry in staticPages is sufficient
 
   const corridors = getCorridors();
   console.log(`💱 ${corridors.length} corridors`);
@@ -211,7 +268,11 @@ function main() {
   const xml = generateXML(allPages);
   const outputPath = path.join(__dirname, '../public/sitemap.xml');
   fs.writeFileSync(outputPath, xml, 'utf-8');
-  console.log(`✅ Sitemap: ${allPages.length} pages × ${languages.length} languages = ${allPages.length * languages.length} URLs`);
+
+  const enOnlyCount = allPages.filter(p => isEnglishOnly(p.path)).length;
+  const multiLangCount = allPages.length - enOnlyCount;
+  const totalUrls = enOnlyCount + (multiLangCount * languages.length);
+  console.log(`✅ Sitemap: ${allPages.length} pages (${enOnlyCount} EN-only, ${multiLangCount} multi-lang) = ${totalUrls} URLs`);
 }
 
 main();

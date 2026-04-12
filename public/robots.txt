@@ -8,8 +8,6 @@ Sitemap: https://invoicemonk.com/sitemap.xml
 # See https://llmstxt.org for specification
 # llms.txt available at https://invoicemonk.com/llms.txt
 
-# Crawl-delay for politeness
-Crawl-delay: 1
 
 # Disallow admin and app areas
 Disallow: /api/

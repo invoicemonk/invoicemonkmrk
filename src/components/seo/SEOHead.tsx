@@ -64,7 +64,22 @@ export function SEOHead({
     '/use-cases', '/guides', '/tools', '/partner-program',
     '/privacy-policy', '/terms-of-service', '/cookie-policy', '/legal',
   ];
-  const isTranslatedRoute = fullyTranslatedPrefixes.some(p => relPath.startsWith(p));
+
+  // Country-specific pages that exist in English only — override canonical to /en/
+  const englishOnlyPatterns = [
+    /^\/free-invoice-generator-(australia|india|nigeria|kenya|uk|saudi-arabia|malaysia|canada|ghana|south-africa)$/,
+    /^\/compare\/(best-invoicing-software|wave-alternative)-(nigeria|india|kenya|uk|saudi-arabia|malaysia|australia|canada|ghana|south-africa)$/,
+    /^\/receive-.+-cost$/,
+    /^\/international-payment-fee-calculator$/,
+    /^\/paypal-vs-wise-fees$/,
+    /^\/cheapest-way-to-receive-international-payments$/,
+    /^\/freelancer-rate-calculator$/,
+    /^\/docs\/api$/,
+    /^\/legal\/sla$/,
+  ];
+  const isEnglishOnlyPage = englishOnlyPatterns.some(p => p.test(relPath));
+
+  const isTranslatedRoute = !isEnglishOnlyPage && fullyTranslatedPrefixes.some(p => relPath.startsWith(p));
 
   // For non-translated routes under a non-English language prefix,
   // override canonical to point to the /en/ equivalent to avoid duplicate content
