@@ -65,6 +65,7 @@ import InvoicemonkVsZoho from "./pages/compare/InvoicemonkVsZoho";
 import InvoicemonkVsQuickbooks from "./pages/compare/InvoicemonkVsQuickbooks";
 import InvoicemonkVsDext from "./pages/compare/InvoicemonkVsDext";
 import InvoicemonkVsStripe from "./pages/compare/InvoicemonkVsStripe";
+import InvoicemonkVsStripeInvoicing from "./pages/compare/InvoicemonkVsStripeInvoicing";
 import InvoicemonkEstimatesVsQuickbooks from "./pages/compare/InvoicemonkEstimatesVsQuickbooks";
 import InvoicemonkVsAtoinvoice from "./pages/compare/InvoicemonkVsAtoinvoice";
 import BestInvoicingSoftware from "./pages/compare/BestInvoicingSoftware";
@@ -222,6 +223,7 @@ const App = () => (
               <Route path="compare/invoicemonk-vs-dext" element={<InvoicemonkVsDext />} />
               <Route path="compare/invoicemonk-vs-atoinvoice" element={<InvoicemonkVsAtoinvoice />} />
               <Route path="compare/invoicemonk-vs-stripe" element={<InvoicemonkVsStripe />} />
+              <Route path="compare/invoicemonk-vs-stripe-invoicing" element={<InvoicemonkVsStripeInvoicing />} />
               <Route path="compare/invoicemonk-estimates-vs-quickbooks" element={<InvoicemonkEstimatesVsQuickbooks />} />
               <Route path="best-invoicing-software" element={<BestInvoicingSoftware />} />
               <Route path="compare/best-free-invoicing-software" element={<BestFreeInvoicingSoftware />} />

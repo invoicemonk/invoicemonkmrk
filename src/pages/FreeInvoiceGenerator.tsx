@@ -127,7 +127,7 @@ const FreeInvoiceGenerator = () => {
         </script>
       </Helmet>
       <SEOHead
-        title={seo?.getTitle(locale) || 'Free Invoice Generator Online — Create & Download PDF | Invoicemonk'}
+        title={seo?.getTitle(locale) || 'Free Invoice Generator & Invoicing Software Online | Invoicemonk'}
         description={seo?.getDescription(locale) || 'Create professional invoices for free in under 2 minutes. No signup required. Download as PDF, add your logo, choose templates.'}
         article={{
           publishedTime: '2025-01-15',

@@ -151,6 +151,7 @@ const staticPages: PageEntry[] = [
   { path: '/compare/invoicemonk-vs-dext', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-atoinvoice', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-stripe', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-stripe-invoicing', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-estimates-vs-quickbooks', priority: 0.7, changefreq: 'monthly' },
   { path: '/use-cases/recurring-billing', priority: 0.7, changefreq: 'monthly' },
   { path: '/use-cases/multi-currency-invoicing', priority: 0.7, changefreq: 'monthly' },

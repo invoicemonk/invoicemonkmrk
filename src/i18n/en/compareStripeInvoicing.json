@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "title": "Invoicemonk vs Stripe Invoicing: Pricing, Fees & Features (2026)",
+    "description": "Compare Invoicemonk and Stripe Invoicing for small business invoicing. Stripe charges 0.4–0.5% per invoice — Invoicemonk is free. See the full feature and pricing comparison."
+  },
+  "hero": {
+    "title": "Invoicemonk vs Stripe Invoicing",
+    "subtitle": "Stripe Invoicing charges 0.4–0.5% per paid invoice on top of payment processing fees. Invoicemonk invoicing is free. Here's the full comparison."
+  },
+  "overview": [
+    "Stripe Invoicing is an add-on to Stripe's payment processing platform. It lets you create and send invoices that your clients pay online via Stripe Checkout. It's functional, but it's designed as a billing tool for developer-led SaaS companies — not as a standalone invoicing solution for freelancers, contractors, or service businesses.",
+    "The key difference is cost. Stripe Invoicing charges 0.4% per paid invoice (or 0.5% for invoices not using Stripe Checkout) — on top of the standard 2.9% + $0.30 payment processing fee. For a $5,000 invoice, that's $20–$25 in invoicing fees alone, plus $175 in processing fees. Invoicemonk charges $0 for invoicing on all plans, including the free tier.",
+    "Invoicemonk is a purpose-built invoicing platform with expense tracking, receipt scanning, estimates, client management, and multi-currency support. Stripe Invoicing is a feature within a payment platform. If invoicing is your primary need, Invoicemonk delivers more functionality at a fraction of the cost."
+  ],
+  "features": [
+    { "name": "Invoicing cost", "invoicemonk": "Free on all plans", "competitor": "0.4–0.5% per invoice" },
+    { "name": "Professional invoice templates", "invoicemonk": true, "competitor": "Basic" },
+    { "name": "Estimates & quotes", "invoicemonk": true, "competitor": false },
+    { "name": "Expense tracking", "invoicemonk": true, "competitor": false },
+    { "name": "Receipt scanning", "invoicemonk": true, "competitor": false },
+    { "name": "Built-in accounting", "invoicemonk": true, "competitor": false },
+    { "name": "Client portal", "invoicemonk": true, "competitor": "Checkout page" },
+    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": true },
+    { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": true },
+    { "name": "Recurring invoices", "invoicemonk": true, "competitor": true },
+    { "name": "Credit notes", "invoicemonk": true, "competitor": true },
+    { "name": "Invoice verification portal", "invoicemonk": true, "competitor": false },
+    { "name": "No-code setup", "invoicemonk": true, "competitor": false },
+    { "name": "Developer API required", "invoicemonk": false, "competitor": "Recommended" },
+    { "name": "Mobile invoicing", "invoicemonk": true, "competitor": "Dashboard only" },
+    { "name": "Free tier", "invoicemonk": "Yes (5 invoices/mo)", "competitor": false }
+  ],
+  "pricing": {
+    "title": "Pricing: Stripe Invoicing fees vs Invoicemonk",
+    "invoicemonk": {
+      "title": "Invoicemonk",
+      "plans": [
+        { "name": "Free", "price": "$0/mo (5 invoices)" },
+        { "name": "Starter", "price": "Affordable" },
+        { "name": "Professional", "price": "Mid-range" },
+        { "name": "Business", "price": "Full suite" }
+      ],
+      "note": "Invoicing is free on every plan. No per-invoice fees. Payment processing fees are charged by your payment gateway — not by Invoicemonk."
+    },
+    "competitor": {
+      "title": "Stripe Invoicing",
+      "plans": [
+        { "name": "Per paid invoice", "price": "0.4% of invoice amount" },
+        { "name": "Without Checkout", "price": "0.5% of invoice amount" },
+        { "name": "+ Payment processing", "price": "2.9% + $0.30 per transaction" },
+        { "name": "Stripe Tax (optional)", "price": "0.5% per transaction" }
+      ],
+      "note": "Stripe Invoicing fees are in addition to standard Stripe payment processing fees. A $5,000 invoice costs ~$195 in total fees (invoicing + processing)."
+    },
+    "summary": "For a business sending 50 invoices/month averaging $2,000 each: Stripe Invoicing fees alone cost $400–$500/month. Invoicemonk invoicing: $0."
+  },
+  "choose": {
+    "invoicemonk": {
+      "title": "Choose Invoicemonk if you…",
+      "items": [
+        "Want free invoicing with no per-invoice fees",
+        "Need expense tracking, receipt scanning, and accounting in one tool",
+        "Send estimates and convert them to invoices",
+        "Want professional branded invoice templates",
+        "Need a no-code solution that works immediately",
+        "Are a freelancer, contractor, or service business"
+      ]
+    },
+    "competitor": {
+      "title": "Choose Stripe Invoicing if you…",
+      "items": [
+        "Already use Stripe for payment processing",
+        "Need developer-level customization via API",
+        "Run a SaaS business with subscription billing",
+        "Want invoicing integrated directly into your Stripe dashboard"
+      ]
+    }
+  },
+  "migration": {
+    "title": "Switching from Stripe Invoicing to Invoicemonk",
+    "steps": [
+      { "title": "Export your client list", "desc": "Download your Stripe customer data as CSV and import it into Invoicemonk." },
+      { "title": "Set up your business profile", "desc": "Add your logo, business details, and payment instructions in Invoicemonk." },
+      { "title": "Connect Stripe for payments", "desc": "Keep using Stripe for payment processing — Invoicemonk integrates with Stripe for online payments while eliminating the per-invoice fee." },
+      { "title": "Start invoicing for free", "desc": "Create and send your first invoice in under 5 minutes. No invoicing fees, ever." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "How much does Stripe Invoicing cost?", "answer": "Stripe Invoicing charges 0.4% per paid invoice (or 0.5% for invoices not paid through Stripe Checkout). This is on top of Stripe's standard payment processing fee of 2.9% + $0.30 per transaction. For a $5,000 invoice, total fees are approximately $195." },
+      { "question": "Can I use Stripe just for invoicing?", "answer": "Yes, but Stripe Invoicing is designed as an add-on to Stripe's payment processing. You need a Stripe account, and invoicing fees apply per paid invoice. For standalone invoicing without per-invoice fees, Invoicemonk is a better fit." },
+      { "question": "What is the best alternative to Stripe Invoicing?", "answer": "Invoicemonk is a strong alternative for businesses that primarily need invoicing. It offers free invoicing on all plans, plus expense tracking, estimates, receipt scanning, and accounting — features Stripe Invoicing doesn't include." },
+      { "question": "Can I use Invoicemonk with Stripe?", "answer": "Yes. Invoicemonk integrates with Stripe for payment processing. You get purpose-built invoicing (free) while still accepting online payments through Stripe — without the additional 0.4–0.5% invoicing fee." },
+      { "question": "Is Stripe Invoicing free?", "answer": "No. Stripe Invoicing charges 0.4–0.5% per paid invoice in addition to payment processing fees. There is no free tier for Stripe Invoicing." },
+      { "question": "Does Stripe Invoicing include expense tracking?", "answer": "No. Stripe Invoicing only handles invoice creation and payment collection. For expense tracking, receipt scanning, and accounting, you need a separate tool like Invoicemonk." },
+      { "question": "Which is better for freelancers — Stripe or Invoicemonk?", "answer": "Invoicemonk is built for freelancers with features like estimates, branded templates, expense tracking, and a free tier. Stripe Invoicing is designed for developer-led businesses and SaaS companies." }
+    ]
+  },
+  "related": {
+    "title": "Related comparisons",
+    "links": [
+      { "label": "Invoicemonk vs Stripe (full platform)", "to": "/compare/invoicemonk-vs-stripe" },
+      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
+      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
+      { "label": "Best Free Invoicing Software", "to": "/compare/best-free-invoicing-software" },
+      { "label": "Free Invoice Generator", "to": "/free-invoice-generator" }
+    ]
+  },
+  "cta": {
+    "title": "Stop paying per-invoice fees",
+    "description": "Switch to Invoicemonk — free invoicing with expense tracking, estimates, and accounting. No per-invoice fees, ever.",
+    "button": "Start Free"
+  }
+}
