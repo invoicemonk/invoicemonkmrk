@@ -1577,6 +1577,38 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     queryPatterns: ['multi-currency accounting', 'foreign currency invoicing', 'multi-currency bookkeeping'],
     problemsSolved: ['How to handle multiple currencies in accounting', 'Multi-currency invoicing challenges'],
     nextSteps: ['how-to-accept-international-payments-freelancer', 'invoice-payment-methods-compared']
+  },
+  'invoice-international-clients-guide': {
+    intent: 'informational',
+    stage: 'awareness',
+    experienceLevel: 'intermediate',
+    queryPatterns: ['how to invoice international clients', 'international invoicing guide', 'invoice clients abroad', 'cross-border invoicing'],
+    problemsSolved: ['Don\'t know how to invoice clients in other countries', 'Confused about currency and tax on international invoices', 'Losing money on international payment fees'],
+    nextSteps: ['multi-currency-accounting-guide', 'stripe-vs-paypal-vs-wise-freelancers', 'invoice-clients-in-us']
+  },
+  'freelance-payment-mistakes': {
+    intent: 'problem-solving',
+    stage: 'awareness',
+    experienceLevel: 'beginner',
+    queryPatterns: ['freelance payment mistakes', 'freelancer losing money', 'why freelancers don\'t get paid', 'common invoicing mistakes freelancers'],
+    problemsSolved: ['Losing money to payment processing fees', 'Clients paying late consistently', 'Undercharging for freelance work', 'No system for invoicing and payments'],
+    nextSteps: ['how-to-handle-late-payments-professionally', 'freelancer-rate-calculator', 'why-clients-delay-payments']
+  },
+  'stripe-vs-paypal-vs-wise-freelancers': {
+    intent: 'commercial',
+    stage: 'consideration',
+    experienceLevel: 'intermediate',
+    queryPatterns: ['stripe vs paypal vs wise', 'best payment platform for freelancers', 'stripe vs paypal fees freelancer', 'wise vs paypal for international payments'],
+    problemsSolved: ['Don\'t know which payment platform to use', 'Paying too much in payment processing fees', 'Need to compare payment methods for freelance work'],
+    nextSteps: ['invoice-international-clients-guide', 'invoice-payment-methods-compared', 'how-to-accept-international-payments-freelancer']
+  },
+  'why-clients-delay-payments': {
+    intent: 'problem-solving',
+    stage: 'awareness',
+    experienceLevel: 'beginner',
+    queryPatterns: ['why clients delay payments', 'why clients pay late', 'how to get clients to pay on time', 'late payment causes and fixes'],
+    problemsSolved: ['Clients consistently paying invoices late', 'Don\'t understand why payments are delayed', 'Need strategies to improve on-time payment rate'],
+    nextSteps: ['how-to-handle-late-payments-professionally', 'freelance-payment-mistakes', 'payment-reminder-email-templates']
   }
 };
 export function getPostIntent(slug: string): ContentMetadata | undefined {

@@ -151,6 +151,26 @@ export const pillars: Pillar[] = [
         title: 'Cash Flow Forecasting',
         description: 'Predict and plan your incoming payments.',
         link: '/blog/cash-flow-forecasting-for-freelancers'
+      },
+      {
+        title: 'International Invoicing',
+        description: 'Invoice clients across borders with the right currency and tax setup.',
+        link: '/blog/invoice-international-clients-guide'
+      },
+      {
+        title: 'Payment Platform Comparison',
+        description: 'Compare Stripe, PayPal, and Wise fees for freelancers.',
+        link: '/blog/stripe-vs-paypal-vs-wise-freelancers'
+      },
+      {
+        title: 'Payment Mistakes to Avoid',
+        description: 'Common freelancer payment errors costing you money.',
+        link: '/blog/freelance-payment-mistakes'
+      },
+      {
+        title: 'Why Clients Pay Late',
+        description: 'Understand and fix the real causes of payment delays.',
+        link: '/blog/why-clients-delay-payments'
       }
     ],
     faq: [
@@ -610,7 +630,12 @@ export const pillarClusters: TopicalCluster[] = [
       'small-claims-court-unpaid-invoices-guide',
       'debt-collection-agencies-freelancers-guide',
       'invoice-payment-methods-compared',
-      'how-to-accept-international-payments-freelancer'
+      'how-to-accept-international-payments-freelancer',
+      // Cluster 16 TOFU: Freelancer payments
+      'invoice-international-clients-guide',
+      'freelance-payment-mistakes',
+      'stripe-vs-paypal-vs-wise-freelancers',
+      'why-clients-delay-payments'
     ]
   },
   {

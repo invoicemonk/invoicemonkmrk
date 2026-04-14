@@ -20,6 +20,7 @@ import { ClusterNavigation } from '@/components/blog/ClusterNavigation';
 import { ClusterTopicMap } from '@/components/blog/ClusterTopicMap';
 import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
 import { ToolCTA } from '@/components/blog/ToolCTA';
+import { LeadMagnetCTA } from '@/components/blog/LeadMagnetCTA';
 
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
 import { SEOHead } from '@/components/seo/SEOHead';
@@ -144,6 +145,9 @@ const BlogPost = () => {
 
       {/* Contextual Tool CTA */}
       <ToolCTA pillarId={pillar?.id} />
+
+      {/* Lead Magnet Download CTA */}
+      <LeadMagnetCTA pillarId={pillar?.id} />
 
       {/* Tags */}
       {post.tags && post.tags.length > 0 && (
