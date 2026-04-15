@@ -71,7 +71,7 @@ export const esES: LocaleConfig = {
       },
       {
         question: "¿Cuánto cuesta Invoicemonk?",
-        answer: "Invoicemonk ofrece un plan gratuito con 5 facturas al mes. Los planes de pago comienzan en 5€/mes (Profesional) y 19€/mes (Empresa). La facturación anual ahorra un 20%.",
+        answer: "Invoicemonk ofrece un plan gratuito con 5 facturas al mes. Los planes de pago comienzan en 29€/mes (Profesional) y 119€/mes (Empresa). La facturación anual ahorra un 20%.",
       },
       {
         question: "¿Gestiona Invoicemonk el IVA?",
@@ -91,8 +91,8 @@ export const esES: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 5,
-    business: 19,
+    professional: 29,
+    business: 119,
     annualMultiplier: 0.8,
   },
   pricingContent: {

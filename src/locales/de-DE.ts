@@ -71,7 +71,7 @@ export const deDE: LocaleConfig = {
       },
       {
         question: "Was kostet Invoicemonk in Deutschland?",
-        answer: "Invoicemonk bietet einen kostenlosen Plan mit 5 Rechnungen pro Monat. Bezahlpläne beginnen ab 10 €/Monat (Professional) und 25 €/Monat (Business). Jährliche Abrechnung spart 20 %.",
+        answer: "Invoicemonk bietet einen kostenlosen Plan mit 5 Rechnungen pro Monat. Bezahlpläne beginnen ab 29 €/Monat (Professional) und 119 €/Monat (Business). Jährliche Abrechnung spart 20 %.",
       },
       {
         question: "Verwaltet Invoicemonk die USt (Umsatzsteuer) für deutsche Unternehmen?",
@@ -91,8 +91,8 @@ export const deDE: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 10,
-    business: 25,
+    professional: 29,
+    business: 119,
     annualMultiplier: 0.8,
   },
   pricingContent: {

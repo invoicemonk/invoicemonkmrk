@@ -71,7 +71,7 @@ export const enZA: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in South Africa?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at R80/month (Professional) and R250/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at R499/month (Professional) and R1,999/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle VAT for South African businesses?",
@@ -91,8 +91,8 @@ export const enZA: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 80,
-    business: 250,
+    professional: 499,
+    business: 1999,
     annualMultiplier: 0.8,
   },
   pricingContent: {

@@ -71,7 +71,7 @@ export const enZW: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Zimbabwe?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at $10/month (Professional) and $25/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at $29/month (Professional) and $129/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle VAT for Zimbabwean businesses?",
@@ -91,8 +91,8 @@ export const enZW: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 10,
-    business: 25,
+    professional: 29,
+    business: 129,
     annualMultiplier: 0.8,
   },
   pricingContent: {

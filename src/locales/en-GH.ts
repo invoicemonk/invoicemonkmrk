@@ -71,7 +71,7 @@ export const enGH: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Ghana?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at GH₵50/month (Starter), GH₵100/month (Professional), and GH₵200/month (Business). Annual billing gives you 2 months free.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at GH₵300/month (Starter), GH₵600/month (Professional), and GH₵1,400/month (Business). Annual billing gives you 2 months free.",
       },
       {
         question: "Does Invoicemonk handle VAT for Ghanaian businesses?",
@@ -91,9 +91,9 @@ export const enGH: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    starter: 50,
-    professional: 100,
-    business: 200,
+    starter: 300,
+    professional: 600,
+    business: 1400,
     annualMultiplier: 10,
   },
   pricingContent: {

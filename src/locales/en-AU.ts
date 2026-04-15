@@ -71,7 +71,7 @@ export const enAU: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Australia?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at A$8/month (Professional) and A$29/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at A$45/month (Professional) and A$199/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle GST for Australian businesses?",
@@ -91,8 +91,8 @@ export const enAU: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 8,
-    business: 29,
+    professional: 45,
+    business: 199,
     annualMultiplier: 0.8,
   },
   pricingContent: {
