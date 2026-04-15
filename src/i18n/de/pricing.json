@@ -13,7 +13,7 @@
     "items": {
       "freeTier": {
         "question": "Gibt es eine kostenlose Stufe?",
-        "answer": "Ja! Unsere kostenlose Stufe ermöglicht es Ihnen, bis zu 5 Rechnungen pro Monat mit sauberen, professionellen Layouts zu senden. Upgraden Sie auf Starter oder Professional für unbegrenzte Rechnungen und erweiterte Funktionen."
+        "answer": "Ja! Unsere Starter-Stufe ist komplett kostenlos — Sie können bis zu 5 Rechnungen pro Monat mit sauberen, professionellen Layouts senden. Upgraden Sie auf Pro ($29/Monat) oder SME ($129/Monat) für unbegrenzte Rechnungen und erweiterte Funktionen."
       },
       "upgradeDowngrade": {
         "question": "Kann ich jederzeit upgraden oder downgraden?",

@@ -91,12 +91,13 @@ export const enIN: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 2399,
-    business: 9999,
-    annualMultiplier: 0.8,
+    professional: 29,
+    sme: 129,
+    business: 0,
+    annualMultiplier: 10,
   },
   pricingContent: {
-    annualSavingsText: "Save 20%",
+    annualSavingsText: "Save ~17%",
     starterAvailable: false,
   },
   urlPrefix: "in",

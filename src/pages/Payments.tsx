@@ -24,7 +24,7 @@ const Payments = () => {
   const { locale, formatCurrency } = useLocale();
   const { t } = useTranslation('payments');
   
-  const invoiceAmount = locale.pricing.business * 50 + locale.pricing.starter * 50;
+  const invoiceAmount = locale.pricing.business * 50 + locale.pricing.professional * 50;
   const processingFee = Math.round(invoiceAmount * 0.029 * 100) / 100;
   const netAmount = invoiceAmount - processingFee;
   const feePercent = '2.9%';

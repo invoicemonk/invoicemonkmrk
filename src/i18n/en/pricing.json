@@ -13,7 +13,7 @@
     "items": {
       "freeTier": {
         "question": "Is there a free tier?",
-        "answer": "Yes! Our Free tier lets you send up to 5 invoices per month with clean, professional layouts. Upgrade to Starter or Professional for unlimited invoices and advanced features."
+        "answer": "Yes! Our Starter tier is completely free — you can send up to 5 invoices per month with clean, professional layouts. Upgrade to Pro ($29/mo) or SME ($129/mo) for unlimited invoices and advanced features."
       },
       "upgradeDowngrade": {
         "question": "Can I upgrade or downgrade anytime?",

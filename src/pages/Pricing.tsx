@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Check, Shield, ArrowRight, Sparkles } from 'lucide-react';
+import { Check, ArrowRight, Sparkles, Zap, Shield, Building2, Briefcase } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
@@ -15,22 +15,28 @@ import { useTranslation } from 'react-i18next';
 
 const faqKeys = ['freeTier', 'upgradeDowngrade', 'paymentMethods', 'security'] as const;
 
+const planIcons: Record<string, React.ReactNode> = {
+  free: <Zap className="w-5 h-5" />,
+  professional: <Shield className="w-5 h-5" />,
+  sme: <Building2 className="w-5 h-5" />,
+  business: <Briefcase className="w-5 h-5" />,
+};
+
+const formatUSD = (amount: number) => {
+  if (Number.isInteger(amount)) return `$${amount}`;
+  return `$${amount.toFixed(2)}`;
+};
+
 const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState(true);
-  const { locale, formatCurrency } = useLocale();
-  const plans = getPricingPlans(locale);
-  const { pricingContent } = locale;
+  const { locale } = useLocale();
+  const plans = getPricingPlans();
   const { t } = useTranslation('pricing');
 
   const faqs = faqKeys.map(key => ({
     question: t(`faq.items.${key}.question`),
     answer: t(`faq.items.${key}.answer`),
   }));
-
-  // Determine grid layout based on number of plans
-  const gridCols = plans.length === 4 
-    ? 'md:grid-cols-2 lg:grid-cols-4' 
-    : 'md:grid-cols-3';
 
   const seo = pageSEO['/pricing'];
 
@@ -77,16 +83,16 @@ const Pricing = () => {
               >
                 {t('hero.annual')}
                 <span className="ml-1.5 text-primary-foreground font-semibold">
-                  {pricingContent.annualSavingsText}
+                  Save ~17%
                 </span>
               </button>
             </div>
           </AnimatedSection>
 
           {/* Pricing Cards */}
-          <StaggerContainer className={`grid ${gridCols} gap-6 lg:gap-8 max-w-6xl mx-auto`}>
+          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">
             {plans.map((plan) => {
-              const price = calculatePrice(locale, plan.id, isAnnual);
+              const price = calculatePrice(plan.id, isAnnual);
               
               return (
                 <StaggerItem key={plan.id}>
@@ -114,19 +120,30 @@ const Pricing = () => {
                     )}
                     
                     <div className="text-center mb-6">
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3 text-primary">
+                        {planIcons[plan.id]}
+                      </div>
                       <h3 className="text-h3 text-heading mb-1">{plan.name}</h3>
                       <p className="text-body-sm text-muted-foreground">{plan.description}</p>
                     </div>
                     
-                    <div className="text-center mb-8 overflow-hidden">
-                      <span className="text-2xl sm:text-3xl lg:text-4xl text-heading tabular-nums whitespace-nowrap">
-                        {formatCurrency(price.monthly)}
-                      </span>
-                      <span className="text-body text-muted-foreground">{t('hero.perMonth')}</span>
-                      {isAnnual && price.total > 0 && (
-                        <p className="text-body-sm text-muted-foreground mt-1 truncate">
-                          {formatCurrency(price.total)}{t('hero.perYear')}
-                        </p>
+                    <div className="text-center mb-8">
+                      {plan.customPricing ? (
+                        <span className="text-2xl sm:text-3xl lg:text-4xl text-heading font-semibold">
+                          Custom
+                        </span>
+                      ) : (
+                        <>
+                          <span className="text-2xl sm:text-3xl lg:text-4xl text-heading tabular-nums whitespace-nowrap">
+                            {formatUSD(price.monthly)}
+                          </span>
+                          <span className="text-body text-muted-foreground">{t('hero.perMonth')}</span>
+                          {isAnnual && price.total > 0 && (
+                            <p className="text-body-sm text-muted-foreground mt-1 truncate">
+                              {formatUSD(price.total)}{t('hero.perYear')}
+                            </p>
+                          )}
+                        </>
                       )}
                     </div>
                     

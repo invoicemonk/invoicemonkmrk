@@ -92,11 +92,12 @@ export const deDE: LocaleConfig = {
   pricing: {
     free: 0,
     professional: 29,
-    business: 119,
-    annualMultiplier: 0.8,
+    sme: 129,
+    business: 0,
+    annualMultiplier: 10,
   },
   pricingContent: {
-    annualSavingsText: "20 % sparen",
+    annualSavingsText: "Save ~17%",
     starterAvailable: false,
   },
   urlPrefix: "de",

@@ -92,11 +92,12 @@ export const esES: LocaleConfig = {
   pricing: {
     free: 0,
     professional: 29,
-    business: 119,
-    annualMultiplier: 0.8,
+    sme: 129,
+    business: 0,
+    annualMultiplier: 10,
   },
   pricingContent: {
-    annualSavingsText: "Ahorra 20%",
+    annualSavingsText: "Save ~17%",
     starterAvailable: false,
   },
   urlPrefix: "es",

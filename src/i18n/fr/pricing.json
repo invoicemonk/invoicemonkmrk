@@ -13,7 +13,7 @@
     "items": {
       "freeTier": {
         "question": "Existe-t-il un forfait gratuit ?",
-        "answer": "Oui ! Notre forfait gratuit vous permet d'envoyer jusqu'à 5 factures par mois avec des mises en page propres et professionnelles. Passez à Starter ou Professional pour des factures illimitées et des fonctionnalités avancées."
+        "answer": "Oui ! Notre forfait Starter est entièrement gratuit — vous pouvez envoyer jusqu'à 5 factures par mois avec des mises en page propres et professionnelles. Passez à Pro (29$/mois) ou SME (129$/mois) pour des factures illimitées et des fonctionnalités avancées."
       },
       "upgradeDowngrade": {
         "question": "Puis-je changer de forfait à tout moment ?",

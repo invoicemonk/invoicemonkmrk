@@ -62,15 +62,15 @@ export interface LocaleContent {
 
 export interface LocalePricing {
   free: number;              // Always 0
-  starter?: number;          // Nigeria only
-  professional: number;      // Main paid tier
-  business: number;          // Enterprise tier
-  annualMultiplier: number;  // 10 for NG (10 months), 0.8 for intl (20% off)
+  professional: number;      // Pro tier ($29)
+  sme: number;               // SME tier ($129)
+  business: number;          // Biz tier (0 = custom)
+  annualMultiplier: number;  // 10 (pay 10 months, get 12 = ~17% savings)
 }
 
 export interface LocalePricingContent {
-  annualSavingsText: string;  // "2 months free" or "Save 20%"
-  starterAvailable: boolean;  // true for NG only
+  annualSavingsText: string;  // "Save ~17%"
+  starterAvailable: boolean;  // legacy, always false
   currencyNote?: string;      // Optional note about currency
 }
 

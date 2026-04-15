@@ -39,15 +39,13 @@ export function SoftwareApplicationSchema({
           "description": "For individuals getting started"
         },
       ];
-      if (locale.pricingContent.starterAvailable && locale.pricing.starter) {
-        offers.push({
-          "@type": "Offer",
-          "name": "Starter Plan",
-          "price": String(locale.pricing.starter),
-          "priceCurrency": locale.currency.code,
-          "description": "For solo businesses ready to grow"
-        });
-      }
+      offers.push({
+        "@type": "Offer",
+        "name": "Pro Plan",
+        "price": "29",
+        "priceCurrency": "USD",
+        "description": "For growing businesses"
+      });
       offers.push(
         {
           "@type": "Offer",

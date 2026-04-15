@@ -160,7 +160,7 @@ export function HeroSection() {
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                       {[
                         { label: t('hero.outstanding'), value: formatPrice(locale.pricing.business * 8, ''), color: 'text-wave-orange' },
-                        { label: t('hero.overdue'), value: formatPrice((locale.pricing.starter || locale.pricing.professional) * 5, ''), color: 'text-destructive' },
+                        { label: t('hero.overdue'), value: formatPrice(locale.pricing.professional * 5, ''), color: 'text-destructive' },
                         { label: t('hero.paidThirtyDays'), value: formatPrice(locale.pricing.professional * 65, ''), color: 'text-wave-green' },
                         { label: t('hero.totalInvoices'), value: '24', color: 'text-primary' },
                       ].map((stat) => (

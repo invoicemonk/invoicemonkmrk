@@ -13,7 +13,7 @@
     "items": {
       "freeTier": {
         "question": "Existe um plano gratuito?",
-        "answer": "Sim! Nosso plano gratuito permite enviar até 5 faturas por mês com layouts limpos e profissionais. Faça upgrade para Starter ou Professional para faturas ilimitadas e recursos avançados."
+        "answer": "Sim! Nosso plano Starter é completamente gratuito — você pode enviar até 5 faturas por mês com layouts limpos e profissionais. Faça upgrade para Pro ($29/mês) ou SME ($129/mês) para faturas ilimitadas e recursos avançados."
       },
       "upgradeDowngrade": {
         "question": "Posso fazer upgrade ou downgrade a qualquer momento?",

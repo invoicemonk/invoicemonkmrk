@@ -38,7 +38,7 @@ const Invoicing = () => {
   const { t } = useTranslation('invoicing');
 
   const serviceAmount = locale.pricing.business * 50;
-  const hostingAmount = locale.pricing.starter * 50;
+  const hostingAmount = locale.pricing.professional * 50;
   const totalAmount = serviceAmount + hostingAmount;
 
   const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];

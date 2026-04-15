@@ -87,12 +87,13 @@ export const enSA: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 109,
-    business: 479,
-    annualMultiplier: 0.8,
+    professional: 29,
+    sme: 129,
+    business: 0,
+    annualMultiplier: 10,
   },
   pricingContent: {
-    annualSavingsText: "Save 20%",
+    annualSavingsText: "Save ~17%",
     starterAvailable: false,
   },
   urlPrefix: "sa",

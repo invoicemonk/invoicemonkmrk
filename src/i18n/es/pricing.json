@@ -13,7 +13,7 @@
     "items": {
       "freeTier": {
         "question": "¿Hay un plan gratuito?",
-        "answer": "¡Sí! Nuestro plan gratuito te permite enviar hasta 5 facturas por mes con diseños limpios y profesionales. Actualiza a Starter o Professional para facturas ilimitadas y funciones avanzadas."
+        "answer": "¡Sí! Nuestro plan Starter es completamente gratuito — puedes enviar hasta 5 facturas por mes con diseños limpios y profesionales. Actualiza a Pro ($29/mes) o SME ($129/mes) para facturas ilimitadas y funciones avanzadas."
       },
       "upgradeDowngrade": {
         "question": "¿Puedo actualizar o degradar en cualquier momento?",

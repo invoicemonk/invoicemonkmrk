@@ -25,7 +25,7 @@ export const pageSEO: Record<string, PageSEO> = {
   },
   '/pricing': {
     getTitle: (locale) => `Pricing | Invoicemonk ${locale.content.seo.region}`,
-    getDescription: (locale) => `Invoicemonk pricing for ${locale.content.seo.region}. Plans from ${locale.currency.symbol}${locale.pricing.starter}/mo. Free tier available.`,
+    getDescription: (locale) => `Invoicemonk pricing for ${locale.content.seo.region}. Pro plan from $29/mo. Free tier available.`,
     ogType: 'website',
     priority: 0.9,
     changefreq: 'weekly',
