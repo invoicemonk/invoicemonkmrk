@@ -71,7 +71,7 @@ export const enKE: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Kenya?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at KSh500/month (Starter), KSh1,000/month (Professional), and KSh2,000/month (Business). Annual billing gives you 2 months free.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at KSh2,500/month (Starter), KSh5,000/month (Professional), and KSh14,000/month (Business). Annual billing gives you 2 months free.",
       },
       {
         question: "Does Invoicemonk handle VAT for Kenyan businesses?",
@@ -91,9 +91,9 @@ export const enKE: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    starter: 500,
-    professional: 1000,
-    business: 2000,
+    starter: 2500,
+    professional: 5000,
+    business: 14000,
     annualMultiplier: 10,
   },
   pricingContent: {

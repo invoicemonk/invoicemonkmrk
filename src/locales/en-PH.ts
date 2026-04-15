@@ -71,7 +71,7 @@ export const enPH: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in the Philippines?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₱500/month (Professional) and ₱1,000/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₱1,499/month (Professional) and ₱6,999/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle VAT for Philippine businesses?",
@@ -91,8 +91,8 @@ export const enPH: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 500,
-    business: 1000,
+    professional: 1499,
+    business: 6999,
     annualMultiplier: 0.8,
   },
   pricingContent: {

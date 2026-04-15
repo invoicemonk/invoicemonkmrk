@@ -71,7 +71,7 @@ export const enIN: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in India?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₹800/month (Professional) and ₹1,600/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₹2,399/month (Professional) and ₹9,999/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle GST for Indian businesses?",
@@ -91,8 +91,8 @@ export const enIN: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 800,
-    business: 1600,
+    professional: 2399,
+    business: 9999,
     annualMultiplier: 0.8,
   },
   pricingContent: {

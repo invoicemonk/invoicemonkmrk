@@ -71,7 +71,7 @@ export const enNZ: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in New Zealand?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at NZ$15/month (Professional) and NZ$35/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at NZ$49/month (Professional) and NZ$199/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle GST for New Zealand businesses?",
@@ -91,8 +91,8 @@ export const enNZ: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 15,
-    business: 35,
+    professional: 49,
+    business: 199,
     annualMultiplier: 0.8,
   },
   pricingContent: {

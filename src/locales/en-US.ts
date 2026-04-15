@@ -71,7 +71,7 @@ export const enUS: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at $5/month (Professional) and $19/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at $29/month (Professional) and $129/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle sales tax?",
@@ -91,8 +91,8 @@ export const enUS: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 5,
-    business: 19,
+    professional: 29,
+    business: 129,
     annualMultiplier: 0.8,
   },
   pricingContent: {

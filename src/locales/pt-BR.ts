@@ -71,7 +71,7 @@ export const ptBR: LocaleConfig = {
       },
       {
         question: "Quanto custa o Invoicemonk no Brasil?",
-        answer: "O Invoicemonk oferece um plano gratuito com 5 faturas por mês. Os planos pagos começam em R$ 50/mês (Profissional) e R$ 100/mês (Empresarial). O pagamento anual economiza 20%.",
+        answer: "O Invoicemonk oferece um plano gratuito com 5 faturas por mês. Os planos pagos começam em R$ 149/mês (Profissional) e R$ 649/mês (Empresarial). O pagamento anual economiza 20%.",
       },
       {
         question: "O Invoicemonk gerencia impostos brasileiros?",
@@ -91,8 +91,8 @@ export const ptBR: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 50,
-    business: 100,
+    professional: 149,
+    business: 649,
     annualMultiplier: 0.8,
   },
   pricingContent: {

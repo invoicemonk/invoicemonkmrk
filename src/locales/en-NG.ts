@@ -71,7 +71,7 @@ export const enNG: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Nigeria?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₦2,000/month (Starter), ₦4,000/month (Professional), and ₦8,000/month (Business). Annual billing gives you 2 months free.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₦10,000/month (Starter), ₦25,000/month (Professional), and ₦125,000/month (Business). Annual billing gives you 2 months free.",
       },
       {
         question: "Does Invoicemonk handle VAT for Nigerian businesses?",
@@ -91,9 +91,9 @@ export const enNG: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    starter: 2000,
-    professional: 4000,
-    business: 8000,
+    starter: 10000,
+    professional: 25000,
+    business: 125000,
     annualMultiplier: 10,
   },
   pricingContent: {

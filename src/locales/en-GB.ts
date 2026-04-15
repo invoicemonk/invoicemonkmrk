@@ -71,7 +71,7 @@ export const enGB: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in the UK?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at £4/month (Professional) and £12/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at £23/month (Professional) and £99/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle VAT for UK businesses?",
@@ -91,8 +91,8 @@ export const enGB: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 4,
-    business: 12,
+    professional: 23,
+    business: 99,
     annualMultiplier: 0.8,
   },
   pricingContent: {

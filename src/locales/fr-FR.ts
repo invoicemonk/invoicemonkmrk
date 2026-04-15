@@ -71,7 +71,7 @@ export const frFR: LocaleConfig = {
       },
       {
         question: "Combien coûte Invoicemonk en France ?",
-        answer: "Invoicemonk propose un plan gratuit avec 5 factures par mois. Les plans payants commencent à 10 €/mois (Professionnel) et 25 €/mois (Business). La facturation annuelle vous fait économiser 20 %.",
+        answer: "Invoicemonk propose un plan gratuit avec 5 factures par mois. Les plans payants commencent à 29 €/mois (Professionnel) et 119 €/mois (Business). La facturation annuelle vous fait économiser 20 %.",
       },
       {
         question: "Invoicemonk gère-t-il la TVA pour les entreprises françaises ?",
@@ -91,8 +91,8 @@ export const frFR: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 10,
-    business: 25,
+    professional: 29,
+    business: 119,
     annualMultiplier: 0.8,
   },
   pricingContent: {

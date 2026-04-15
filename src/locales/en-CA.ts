@@ -71,7 +71,7 @@ export const enCA: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Canada?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at C$7/month (Professional) and C$20/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at C$39/month (Professional) and C$139/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle GST/HST for Canadian businesses?",
@@ -91,8 +91,8 @@ export const enCA: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 7,
-    business: 20,
+    professional: 39,
+    business: 139,
     annualMultiplier: 0.8,
   },
   pricingContent: {

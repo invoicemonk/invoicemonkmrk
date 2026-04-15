@@ -71,7 +71,7 @@ export const enSC: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Seychelles?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₨150/month (Professional) and ₨300/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₨399/month (Professional) and ₨1,799/month (Business). Annual billing saves you 20%.",
       },
       {
         question: "Does Invoicemonk handle VAT for Seychellois businesses?",
@@ -91,8 +91,8 @@ export const enSC: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 150,
-    business: 300,
+    professional: 399,
+    business: 1799,
     annualMultiplier: 0.8,
   },
   pricingContent: {
