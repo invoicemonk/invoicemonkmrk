@@ -1,193 +1,69 @@
+# Price Increase: Professional $5→$29, Business $19→$129
+
+## Scope
+
+Two things need updating in every locale file:
+
+1. `**pricing` object** — the numeric values for `professional`, `business`, and `starter` (where applicable)
+2. **FAQ answer text** — the hardcoded price strings in the "How much does Invoicemonk cost" FAQ
+
+## New Prices by Locale
+
+Using the USD anchor ($29 Pro, $129 Business) and recalculating each locale proportionally based on current exchange-rate ratios:
 
 
-# SEO Locale Duplication Audit: Findings and Consolidation Plan
+| Locale | Currency | Professional | Business  | Starter (if applicable) |
+| ------ | -------- | ------------ | --------- | ----------------------- |
+| en-US  | USD      | $29          | $129      | —                       |
+| en-GB  | GBP      | £23          | £99       | —                       |
+| en-AU  | AUD      | $45          | $199      | —                       |
+| en-CA  | CAD      | $39          | $139      | —                       |
+| en-IN  | INR      | ₹2,399       | ₹9,999    | —                       |
+| en-NG  | NGN      | ₦25,000      | ₦125,000  | ₦10,000                 |
+| en-GH  | GHS      | GH₵600       | GH₵1,400  | GH₵300                  |
+| en-KE  | KES      | KSh5,000     | KSh14,000 | KSh2,500                |
+| en-ZA  | ZAR      | R499         | R1,999    | —                       |
+| en-ZW  | USD      | $29          | $129      | —                       |
+| en-PH  | PHP      | ₱1,499       | ₱6,999    | —                       |
+| en-SC  | SCR      | ₨399         | ₨1,799    | —                       |
+| en-NZ  | NZD      | NZ$49        | NZ$199    | —                       |
+| en-SA  | SAR      | SAR 109      | SAR 479   | —                       |
+| en-MY  | MYR      | RM 129       | RM 569    | —                       |
+| fr-FR  | EUR      | €29          | €119      | —                       |
+| de-DE  | EUR      | €29          | €119      | —                       |
+| es-ES  | EUR      | €29          | €119      | —                       |
+| pt-BR  | BRL      | R$149        | R$649     | —                       |
 
-## Architecture Reality Check
 
-The site does NOT use country subdirectories (/us/, /ca/, /au/) in production. It migrated to **5 language prefixes only**: `/en/`, `/de/`, `/fr/`, `/pt/`, `/es/`. Old country URLs redirect via `LanguageLayout.tsx`. The sitemap generator confirms this — only these 5 prefixes exist.
+## Files to Modify (19 locale files)
 
-**The real duplication problem is different from what was assumed**: every page in the sitemap is generated for all 5 languages, even country-specific English-only content. And `SEOHead.tsx` treats broad prefix matches like `/free-invoice-generator`, `/compare`, and `/blog` as "fully translated" — so pages like `/de/free-invoice-generator-nigeria` self-canonicalize instead of pointing to `/en/free-invoice-generator-nigeria`.
+For each of these files, two edits:
 
----
+1. Update the `pricing: { professional: X, business: Y }` values (and `starter` for NG/GH/KE)
+2. Update the FAQ answer string that mentions the old prices
 
-## Issue 1: Country-Specific Pages Duplicated Across 5 Languages
 
-### Pages affected (CONSOLIDATE to /en/ only)
+| File                   | Changes                                                    |
+| ---------------------- | ---------------------------------------------------------- |
+| `src/locales/en-US.ts` | pro: 29, biz: 129, FAQ: "$29/month ... $129/month"         |
+| `src/locales/en-GB.ts` | pro: 23, biz: 99, FAQ: "£23/month ... £99/month"           |
+| `src/locales/en-AU.ts` | pro: 45, biz: 199, FAQ: "A$45/month ... A$199/month"       |
+| `src/locales/en-CA.ts` | pro: 39, biz: 139, FAQ: "C$39/month ... C$139/month"       |
+| `src/locales/en-IN.ts` | pro: 2399, biz: 9999, FAQ: "₹2,399/month ... ₹9,999/month" |
+| `src/locales/en-NG.ts` | starter: 12000, pro: 25000, biz: 55000, FAQ updated        |
+| `src/locales/en-GH.ts` | starter: 300, pro: 600, biz: 1400, FAQ updated             |
+| `src/locales/en-KE.ts` | starter: 2500, pro: 5000, biz: 14000, FAQ updated          |
+| `src/locales/en-ZA.ts` | pro: 499, biz: 1999, FAQ updated                           |
+| `src/locales/en-ZW.ts` | pro: 29, biz: 129, FAQ updated                             |
+| `src/locales/en-PH.ts` | pro: 1499, biz: 6999, FAQ updated                          |
+| `src/locales/en-SC.ts` | pro: 399, biz: 1799, FAQ updated                           |
+| `src/locales/en-NZ.ts` | pro: 49, biz: 199, FAQ updated                             |
+| `src/locales/en-SA.ts` | pro: 109, biz: 479, FAQ updated                            |
+| `src/locales/en-MY.ts` | pro: 129, biz: 569, FAQ updated                            |
+| `src/locales/fr-FR.ts` | pro: 29, biz: 119, FAQ: "29 €/mois ... 119 €/mois"         |
+| `src/locales/de-DE.ts` | pro: 29, biz: 119, FAQ: "29 €/Monat ... 119 €/Monat"       |
+| `src/locales/es-ES.ts` | pro: 29, biz: 119, FAQ: "29€/mes ... 119€/mes"             |
+| `src/locales/pt-BR.ts` | pro: 149, biz: 649, FAQ: "R$ 149/mês ... R$ 649/mês"       |
 
-These pages exist in English only but are indexed under all 5 language prefixes:
 
-| Slug | Current: 5 URLs | Should be: 1 URL |
-|------|-----------------|-------------------|
-| `/free-invoice-generator-australia` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-india` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-nigeria` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-kenya` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-uk` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-saudi-arabia` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-malaysia` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-canada` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-ghana` | en, de, fr, pt, es | `/en/` only |
-| `/free-invoice-generator-south-africa` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-nigeria` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-india` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-kenya` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-uk` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-saudi-arabia` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-malaysia` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-australia` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-canada` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-ghana` | en, de, fr, pt, es | `/en/` only |
-| `/compare/best-invoicing-software-south-africa` | en, de, fr, pt, es | `/en/` only |
-| `/compare/wave-alternative-nigeria` | en, de, fr, pt, es | `/en/` only |
-| `/compare/wave-alternative-uk` | en, de, fr, pt, es | `/en/` only |
-| `/compare/wave-alternative-australia` | en, de, fr, pt, es | `/en/` only |
-| `/compare/wave-alternative-south-africa` | en, de, fr, pt, es | `/en/` only |
-
-**Total duplicate URLs to remove from sitemap: 24 pages x 4 extra languages = 96 junk URLs**
-
-### Why SEOHead doesn't catch this
-
-`fullyTranslatedPrefixes` includes `/free-invoice-generator` and `/compare` — so `/de/free-invoice-generator-nigeria` matches and self-canonicalizes. The prefix check is too broad: it matches country-specific sub-pages that have no translations.
-
----
-
-## Issue 2: Payment Corridor Pages Duplicated Across 5 Languages
-
-Every `receive-{CURRENCY}-in-{COUNTRY}-cost` corridor page is also generated in all 5 languages. These are English-only content.
-
-**Additional duplicate URLs: ~N corridors x 4 extra languages**
-
----
-
-## Issue 3: Glossary Fragment URLs (Previously Identified)
-
-205 glossary URLs using `#fragment` anchors — all resolve to the same page per language. This wastes 200 crawl slots.
-
----
-
-## Issue 4: Blog Posts With Country-Specific Slugs
-
-Blog posts like `firs-e-invoicing-nigeria-guide`, `kra-etims-guide-kenya`, `gst-e-invoicing-india` are generated in all 5 languages. The underlying blog post content uses the i18n data registry, BUT many of these posts only have English content. Under `/de/blog/firs-e-invoicing-nigeria-guide`, the blog renders the English fallback.
-
----
-
-## Consolidation Plan
-
-### Step 1: Define English-Only Pages List
-
-Create a constant `ENGLISH_ONLY_SLUGS` containing all country-specific paths that should only exist under `/en/`:
-
-```text
-/free-invoice-generator-australia
-/free-invoice-generator-india
-/free-invoice-generator-nigeria
-/free-invoice-generator-kenya
-/free-invoice-generator-uk
-/free-invoice-generator-saudi-arabia
-/free-invoice-generator-malaysia
-/free-invoice-generator-canada
-/free-invoice-generator-ghana
-/free-invoice-generator-south-africa
-/compare/best-invoicing-software-*  (all country variants)
-/compare/wave-alternative-*  (all country variants)
-/receive-*-cost  (all corridors)
-```
-
-### Step 2: Fix Sitemap Generator (`scripts/generate-sitemap.ts`)
-
-- Add the English-only slugs list
-- In `generateXML()`, when a page matches the English-only list, only emit the `/en/` variant (no hreflang alternates needed)
-- Remove glossary fragment URL generation entirely
-- Regenerate sitemap
-
-**Expected reduction: ~300-400 URLs removed**
-
-### Step 3: Fix SEOHead Canonical Logic (`src/components/seo/SEOHead.tsx`)
-
-The `fullyTranslatedPrefixes` check needs refinement. Instead of broad prefix matching, add an exclusion list for country-specific sub-pages:
-
-```text
-Before: /free-invoice-generator matches ALL sub-paths
-After:  /free-invoice-generator matches, BUT /free-invoice-generator-{country} 
-        is excluded and canonicals to /en/
-```
-
-This ensures that if a user visits `/de/free-invoice-generator-nigeria`, the canonical tag points to `/en/free-invoice-generator-nigeria`.
-
-### Step 4: Remove Crawl-delay from robots.txt
-
-Remove the `Crawl-delay: 1` line — Google ignores it, and it slows other crawlers.
-
-### Step 5: Verify hreflang for Legitimately Translated Pages
-
-Pages that SHOULD keep all 5 language variants (KEEP SEPARATE):
-
-| Page | Reason |
-|------|--------|
-| `/` (homepage) | Translated in all 5 languages |
-| `/pricing` | Localized currency/pricing |
-| `/invoicing`, `/expenses`, `/payments`, `/accounting`, `/estimates`, `/receipts` | Product pages translated |
-| `/blog` (index) | Translated hub |
-| `/freelancers`, `/consultants`, etc. | Audience pages translated |
-| `/free-invoice-generator` (global, no country suffix) | Translated |
-| `/compare/invoicemonk-vs-*` (global comparisons) | Translated |
-| `/blog/{general-slug}` (non-country-specific posts) | Translated via i18n data files |
-
-These already have correct hreflang in the sitemap and SEOHead.
-
----
-
-## hreflang Blocks for Top 3 Traffic Pages
-
-### 1. Homepage (`/`)
-```html
-<link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/" />
-<link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/" />
-<link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/" />
-<link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/" />
-<link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/" />
-<link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/" />
-```
-
-### 2. Free Invoice Generator (`/free-invoice-generator`)
-```html
-<link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/free-invoice-generator" />
-<link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/free-invoice-generator" />
-<link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/free-invoice-generator" />
-<link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/free-invoice-generator" />
-<link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/free-invoice-generator" />
-<link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/free-invoice-generator" />
-```
-
-### 3. Pricing (`/pricing`)
-```html
-<link rel="alternate" hreflang="en" href="https://invoicemonk.com/en/pricing" />
-<link rel="alternate" hreflang="de" href="https://invoicemonk.com/de/pricing" />
-<link rel="alternate" hreflang="fr" href="https://invoicemonk.com/fr/pricing" />
-<link rel="alternate" hreflang="pt-BR" href="https://invoicemonk.com/pt/pricing" />
-<link rel="alternate" hreflang="es" href="https://invoicemonk.com/es/pricing" />
-<link rel="alternate" hreflang="x-default" href="https://invoicemonk.com/en/pricing" />
-```
-
-These are already correctly implemented in the current SEOHead component and sitemap.
-
----
-
-## Priority Order
-
-1. **HIGH** — Fix sitemap: remove glossary fragments + restrict country-specific pages to `/en/` only (~300+ junk URLs removed)
-2. **HIGH** — Fix SEOHead canonical: country-specific sub-pages under non-English prefixes must canonical to `/en/`
-3. **MEDIUM** — Remove Crawl-delay from robots.txt
-4. **LOW** — Audit blog post cluster files for untranslated country-specific posts and restrict their sitemap entries to `/en/`
-
----
-
-## Files to Modify
-
-| File | Change |
-|------|--------|
-| `scripts/generate-sitemap.ts` | Add `ENGLISH_ONLY_PATHS` list; skip non-English variants for those; remove glossary fragments |
-| `src/components/seo/SEOHead.tsx` | Refine `fullyTranslatedPrefixes` to exclude country-specific sub-pages |
-| `public/robots.txt` | Remove `Crawl-delay: 1` |
-| `public/sitemap.xml` | Regenerated output |
-
+No changes needed to `pricingPlans.ts`, `calculatePrice()`, or any component logic — those already read from the locale configs dynamically.
