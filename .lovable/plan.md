@@ -1,69 +1,134 @@
-# Price Increase: Professional $5→$29, Business $19→$129
-
-## Scope
-
-Two things need updating in every locale file:
-
-1. `**pricing` object** — the numeric values for `professional`, `business`, and `starter` (where applicable)
-2. **FAQ answer text** — the hardcoded price strings in the "How much does Invoicemonk cost" FAQ
-
-## New Prices by Locale
-
-Using the USD anchor ($29 Pro, $129 Business) and recalculating each locale proportionally based on current exchange-rate ratios:
 
 
-| Locale | Currency | Professional | Business  | Starter (if applicable) |
-| ------ | -------- | ------------ | --------- | ----------------------- |
-| en-US  | USD      | $29          | $129      | —                       |
-| en-GB  | GBP      | £23          | £99       | —                       |
-| en-AU  | AUD      | $45          | $199      | —                       |
-| en-CA  | CAD      | $39          | $139      | —                       |
-| en-IN  | INR      | ₹2,399       | ₹9,999    | —                       |
-| en-NG  | NGN      | ₦25,000      | ₦125,000  | ₦10,000                 |
-| en-GH  | GHS      | GH₵600       | GH₵1,400  | GH₵300                  |
-| en-KE  | KES      | KSh5,000     | KSh14,000 | KSh2,500                |
-| en-ZA  | ZAR      | R499         | R1,999    | —                       |
-| en-ZW  | USD      | $29          | $129      | —                       |
-| en-PH  | PHP      | ₱1,499       | ₱6,999    | —                       |
-| en-SC  | SCR      | ₨399         | ₨1,799    | —                       |
-| en-NZ  | NZD      | NZ$49        | NZ$199    | —                       |
-| en-SA  | SAR      | SAR 109      | SAR 479   | —                       |
-| en-MY  | MYR      | RM 129       | RM 569    | —                       |
-| fr-FR  | EUR      | €29          | €119      | —                       |
-| de-DE  | EUR      | €29          | €119      | —                       |
-| es-ES  | EUR      | €29          | €119      | —                       |
-| pt-BR  | BRL      | R$149        | R$649     | —                       |
+# E-Invoicing Compliance Content Strategy: 14-Country Article Generation
 
+## What We're Building
 
-## Files to Modify (19 locale files)
+80+ new blog articles covering e-invoicing compliance for 14 countries, generated via AI with strict fact-checking constraints, then stored as TypeScript data files following the existing `blogPosts` pattern.
 
-For each of these files, two edits:
+The spreadsheet defines:
+- **P1 (5 countries):** France (7), Belgium (7), Italy (6), Brazil (8), Spain (7) = **35 articles**
+- **P2 (5 countries):** Poland (6), Mexico (7), Colombia (6), Romania (5), Hungary (5) = **29 articles**
+- **P3 (4 countries):** Serbia (5), Bulgaria (5), Chile (5), Albania (4) = **19 articles**
 
-1. Update the `pricing: { professional: X, business: Y }` values (and `starter` for NG/GH/KE)
-2. Update the FAQ answer string that mentions the old prices
+**Total: ~83 articles** (14 pillar guides + ~69 cluster articles)
 
+---
 
-| File                   | Changes                                                    |
-| ---------------------- | ---------------------------------------------------------- |
-| `src/locales/en-US.ts` | pro: 29, biz: 129, FAQ: "$29/month ... $129/month"         |
-| `src/locales/en-GB.ts` | pro: 23, biz: 99, FAQ: "£23/month ... £99/month"           |
-| `src/locales/en-AU.ts` | pro: 45, biz: 199, FAQ: "A$45/month ... A$199/month"       |
-| `src/locales/en-CA.ts` | pro: 39, biz: 139, FAQ: "C$39/month ... C$139/month"       |
-| `src/locales/en-IN.ts` | pro: 2399, biz: 9999, FAQ: "₹2,399/month ... ₹9,999/month" |
-| `src/locales/en-NG.ts` | starter: 12000, pro: 25000, biz: 55000, FAQ updated        |
-| `src/locales/en-GH.ts` | starter: 300, pro: 600, biz: 1400, FAQ updated             |
-| `src/locales/en-KE.ts` | starter: 2500, pro: 5000, biz: 14000, FAQ updated          |
-| `src/locales/en-ZA.ts` | pro: 499, biz: 1999, FAQ updated                           |
-| `src/locales/en-ZW.ts` | pro: 29, biz: 129, FAQ updated                             |
-| `src/locales/en-PH.ts` | pro: 1499, biz: 6999, FAQ updated                          |
-| `src/locales/en-SC.ts` | pro: 399, biz: 1799, FAQ updated                           |
-| `src/locales/en-NZ.ts` | pro: 49, biz: 199, FAQ updated                             |
-| `src/locales/en-SA.ts` | pro: 109, biz: 479, FAQ updated                            |
-| `src/locales/en-MY.ts` | pro: 129, biz: 569, FAQ updated                            |
-| `src/locales/fr-FR.ts` | pro: 29, biz: 119, FAQ: "29 €/mois ... 119 €/mois"         |
-| `src/locales/de-DE.ts` | pro: 29, biz: 119, FAQ: "29 €/Monat ... 119 €/Monat"       |
-| `src/locales/es-ES.ts` | pro: 29, biz: 119, FAQ: "29€/mes ... 119€/mes"             |
-| `src/locales/pt-BR.ts` | pro: 149, biz: 649, FAQ: "R$ 149/mês ... R$ 649/mês"       |
+## LLM-Optimized Writing Rules (Applied to Every Article)
 
+Based on your confirmed writing framework:
 
-No changes needed to `pricingPlans.ts`, `calculatePrice()`, or any component logic — those already read from the locale configs dynamically.
+1. **First 40-60 words** must directly answer the searcher's question with specific data: mandate dates, system names, penalty amounts, thresholds, authority names
+2. **Question-based H2/H3 subheadings** throughout (e.g., "What is France's PPF/PDP e-invoicing system?", "When does Belgium's PEPPOL mandate take effect?")
+3. **Original data points** in every article: official government mandate dates, penalty amounts, registration URLs, tax rates, system acronyms
+4. **Markdown structure** with proper heading hierarchy, bullet lists, and tables
+5. **Update frequency signal**: every article gets `dateModified` and `lastAudited` fields
+6. **Zero hallucination protocol**: each article's prompt will include verified government data from the spreadsheet + web-researched facts, not freeform generation
+
+---
+
+## Execution Architecture
+
+### Phase 1: Data Preparation
+
+Create a structured JSON reference file for each of the 14 countries containing verified data points:
+- Country name, code, e-invoice system name (PPF, SDI, KSeF, CFDI, etc.)
+- Mandate status and effective dates
+- Tax authority name and URL
+- Penalty structures
+- Tax rates and thresholds
+- Registration process URLs
+
+This file will be the single source of truth that AI prompts reference — preventing hallucination.
+
+### Phase 2: AI-Powered Article Generation (via `lovable_ai.py`)
+
+For each country, generate 1 pillar + 4-7 cluster articles using the AI gateway script with:
+- A strict system prompt enforcing the LLM writing rules
+- Country-specific data injected from the reference file
+- Markdown output converted to HTML for the `content` field
+
+Each article will be generated individually to maintain quality, with a batch script orchestrating the process.
+
+### Phase 3: TypeScript Data File Creation
+
+Articles stored as new cluster files following existing conventions:
+- `src/data/blogPostsCluster17.ts` — P1 countries (France, Belgium, Italy, Brazil, Spain)
+- `src/data/blogPostsCluster18.ts` — P2 countries (Poland, Mexico, Colombia, Romania, Hungary)  
+- `src/data/blogPostsCluster19.ts` — P3 countries (Serbia, Bulgaria, Chile, Albania)
+
+Each file registers posts into the global `blogPosts` array using the same pattern as clusters 9-16.
+
+### Phase 4: Country Config Extension
+
+Extend `countryCompliancePosts.ts` with new `CountryConfig` entries for all 14 countries (FR, BE, IT, BR, ES, PL, MX, CO, RO, HU, RS, BG, CL, AL) — system names, tax rates, penalties, authority URLs.
+
+### Phase 5: Sitemap & SEO Integration
+
+- Add new article slugs to the sitemap generator's English-only paths (these are country-specific compliance content)
+- Ensure `topicalMap.ts` gets a new "Global E-Invoicing Compliance" pillar definition
+- Wire hreflang correctly (English-only for country-specific content per the recent consolidation fix)
+
+---
+
+## Article Structure Template
+
+Each pillar article follows this structure:
+
+```text
+Opening paragraph (40-60 words): Direct answer + 3 data points
+├── H2: What Is [Country]'s [System Name] E-Invoicing System?
+├── H2: Who Must Comply With [System] in 2026?
+│   └── Table: business types, thresholds, dates
+├── H2: What Are the Key Deadlines for [Country] E-Invoicing?
+│   └── Timeline with specific dates
+├── H2: How Does [System] Work? (Technical Requirements)
+├── H2: What Are the Penalties for Non-Compliance?
+│   └── Specific amounts and escalation
+├── H2: How to Set Up [System] E-Invoicing (Step-by-Step)
+├── H2: Which Software Supports [Country] E-Invoicing?
+│   └── Invoicemonk product tie-in
+├── H2: Frequently Asked Questions
+│   └── 5-7 Q&A pairs with structured data
+└── Internal links to cluster articles + product pages
+```
+
+Cluster articles follow similar patterns but narrower in scope (e.g., "France PPF vs PDP: Which Platform Do You Need?", "CFDI 4.0 XML Requirements Explained").
+
+---
+
+## Execution Order
+
+Given the volume (~83 articles), I will batch by priority tier:
+
+1. **Batch 1 — P1 pillar articles only** (5 articles: FR, BE, IT, BR, ES) — highest impact, fastest to validate
+2. **Batch 2 — P1 cluster articles** (30 articles across 5 countries)
+3. **Batch 3 — P2 pillar + clusters** (29 articles)
+4. **Batch 4 — P3 pillar + clusters** (19 articles)
+
+Each batch: generate via AI → validate data points → write to TS file → register in blog system → update sitemap.
+
+---
+
+## Files to Create/Modify
+
+| File | Action |
+|------|--------|
+| `/tmp/einvoicing-country-data.json` | Create — verified reference data for all 14 countries |
+| `/tmp/article-generator.py` | Create — batch generation script using `lovable_ai.py` |
+| `src/data/blogPostsCluster17.ts` | Create — P1 country articles (FR, BE, IT, BR, ES) |
+| `src/data/blogPostsCluster18.ts` | Create — P2 country articles (PL, MX, CO, RO, HU) |
+| `src/data/blogPostsCluster19.ts` | Create — P3 country articles (RS, BG, CL, AL) |
+| `src/data/countryCompliancePosts.ts` | Modify — add 14 new CountryConfig entries |
+| `src/data/topicalMap.ts` | Modify — add e-invoicing compliance pillar |
+| `scripts/generate-sitemap.ts` | Modify — include new slugs in English-only paths |
+
+---
+
+## Quality Assurance
+
+- Every generated article will be reviewed for: correct system names, accurate mandate dates, real penalty amounts, working authority URLs
+- Articles referencing specific legislation will cite the law/regulation name
+- No speculative claims — if data is uncertain, articles will note "as of [date]" with a recommendation to check official sources
+
