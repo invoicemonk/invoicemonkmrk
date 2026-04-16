@@ -1093,3 +1093,11 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     ],
   },
 ];
+
+// Register posts in the global blog posts array
+import { blogPosts } from './blogPosts';
+cluster17Posts.forEach(post => {
+  if (!blogPosts.find(p => p.slug === post.slug)) {
+    blogPosts.push(post);
+  }
+});
