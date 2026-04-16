@@ -69,6 +69,8 @@ const ENGLISH_ONLY_PATHS: string[] = [
 const COUNTRY_KEYWORDS = [
   'nigeria', 'india', 'kenya', 'uk', 'saudi', 'malaysia',
   'germany', 'italy', 'ghana', 'south-africa', 'australia', 'canada',
+  'france', 'belgium', 'brazil', 'spain', 'poland', 'mexico',
+  'colombia', 'romania', 'hungary', 'serbia', 'bulgaria', 'chile', 'albania',
 ];
 const countryBlogPattern = new RegExp(
   `^/blog/.*(?:${COUNTRY_KEYWORDS.join('|')}).*$`
@@ -246,7 +248,7 @@ function main() {
 
   const blogSlugs = extractSlugs(path.join(__dirname, '../src/data/blogPosts.ts'), /slug:\s*['"][^'"]+['"]/g);
   // Also scan cluster files for additional blog posts
-  for (let i = 9; i <= 16; i++) {
+  for (let i = 9; i <= 19; i++) {
     const clusterPath = path.join(__dirname, `../src/data/blogPostsCluster${i}.ts`);
     const clusterSlugs = extractSlugs(clusterPath, /slug:\s*['"][^'"]+['"]/g);
     clusterSlugs.forEach(s => { if (!blogSlugs.includes(s)) blogSlugs.push(s); });
