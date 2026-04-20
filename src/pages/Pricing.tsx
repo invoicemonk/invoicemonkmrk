@@ -13,7 +13,7 @@ import { getPricingPlans, calculatePrice } from '@/config/pricingPlans';
 import { FeatureComparisonTable } from '@/components/pricing/FeatureComparisonTable';
 import { useTranslation } from 'react-i18next';
 
-const faqKeys = ['freeTier', 'upgradeDowngrade', 'paymentMethods', 'security'] as const;
+const faqKeys = ['freeTier', 'upgradeDowngrade', 'paymentMethods', 'security', 'starterIncludes', 'eInvoicingCoverage'] as const;
 
 const planIcons: Record<string, React.ReactNode> = {
   free: <Zap className="w-5 h-5" />,
