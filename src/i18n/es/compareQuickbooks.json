@@ -3,6 +3,7 @@
     "title": "Invoicemonk vs QuickBooks: Alternativa asequible | Comparación 2026",
     "description": "Compara Invoicemonk y QuickBooks para facturación de pequeñas empresas. Funcionalidades, precios y cuál es mejor en 2026."
   },
+  "lastUpdated": "Última actualización: abril de 2026",
   "hero": {
     "title": "Invoicemonk vs QuickBooks",
     "subtitle": "QuickBooks es un gigante del sector — pero ¿es el encaje adecuado para tu pequeña empresa?"
@@ -13,37 +14,105 @@
     "Invoicemonk se centra en lo que las pequeñas empresas realmente usan: facturación, seguimiento de gastos e informes financieros. Y empieza gratis."
   ],
   "features": [
-    { "name": "Plan gratuito", "invoicemonk": true, "competitor": false },
-    { "name": "Facturación", "invoicemonk": true, "competitor": true },
-    { "name": "Multidivisa", "invoicemonk": true, "competitor": true },
-    { "name": "Seguimiento de gastos", "invoicemonk": true, "competitor": true },
-    { "name": "Contabilidad integrada", "invoicemonk": true, "competitor": true },
-    { "name": "Nómina", "invoicemonk": false, "competitor": true },
-    { "name": "Portal de verificación de facturas", "invoicemonk": true, "competitor": false },
-    { "name": "Notas de crédito", "invoicemonk": true, "competitor": true },
-    { "name": "Gestión de inventario", "invoicemonk": false, "competitor": true },
-    { "name": "Facilidad de configuración", "invoicemonk": "Minutos", "competitor": "Horas" },
-    { "name": "Precio inicial", "invoicemonk": "Gratuito", "competitor": "$30/mes" }
+    {
+      "name": "Plan gratuito",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Facturación",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Multidivisa",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Seguimiento de gastos",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Contabilidad integrada",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Nómina",
+      "invoicemonk": false,
+      "competitor": true
+    },
+    {
+      "name": "Portal de verificación de facturas",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Notas de crédito",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Gestión de inventario",
+      "invoicemonk": false,
+      "competitor": true
+    },
+    {
+      "name": "Facilidad de configuración",
+      "invoicemonk": "Minutos",
+      "competitor": "Horas"
+    },
+    {
+      "name": "Precio inicial",
+      "invoicemonk": "Gratuito",
+      "competitor": "$30/mes"
+    }
   ],
   "pricing": {
     "title": "Comparación de precios: lo que realmente pagas",
     "invoicemonk": {
       "title": "Invoicemonk",
       "plans": [
-        { "name": "Plan gratuito", "price": "€0/mes" },
-        { "name": "Starter", "price": "Asequible" },
-        { "name": "Professional", "price": "Rango medio" },
-        { "name": "Business", "price": "Suite completa" }
+        {
+          "name": "Plan gratuito",
+          "price": "€0/mes"
+        },
+        {
+          "name": "Starter",
+          "price": "Asequible"
+        },
+        {
+          "name": "Professional",
+          "price": "Rango medio"
+        },
+        {
+          "name": "Business",
+          "price": "Suite completa"
+        }
       ],
       "note": "Facturación + gastos + contabilidad en todos los planes. Sin límites de clientes en planes de pago."
     },
     "competitor": {
       "title": "QuickBooks Online",
       "plans": [
-        { "name": "Simple Start (1 usuario)", "price": "$30/mes" },
-        { "name": "Essentials (3 usuarios)", "price": "$60/mes" },
-        { "name": "Plus (5 usuarios)", "price": "$90/mes" },
-        { "name": "Advanced (25 usuarios)", "price": "$200/mes" }
+        {
+          "name": "Simple Start (1 usuario)",
+          "price": "$30/mes"
+        },
+        {
+          "name": "Essentials (3 usuarios)",
+          "price": "$60/mes"
+        },
+        {
+          "name": "Plus (5 usuarios)",
+          "price": "$90/mes"
+        },
+        {
+          "name": "Advanced (25 usuarios)",
+          "price": "$200/mes"
+        }
       ],
       "note": "Sin plan gratuito. La nómina es complemento ($50+/mes)."
     },
@@ -74,32 +143,80 @@
   "migration": {
     "title": "Cómo cambiar de QuickBooks a Invoicemonk",
     "steps": [
-      { "title": "Exporta tus datos", "desc": "Configuración → Exportar Datos en QuickBooks Online. Descarga como CSV." },
-      { "title": "Regístrate en Invoicemonk", "desc": "Cuenta gratuita en app.invoicemonk.com." },
-      { "title": "Importa clientes y cuentas", "desc": "Sube los archivos. Mapeo automático." },
-      { "title": "Configura facturación recurrente", "desc": "Recrea calendarios. Menos de 30 minutos." },
-      { "title": "Cancela QuickBooks (ahorra $360+/año)", "desc": "Cuando estés cómodo, cancela tu suscripción." }
+      {
+        "title": "Exporta tus datos",
+        "desc": "Configuración → Exportar Datos en QuickBooks Online. Descarga como CSV."
+      },
+      {
+        "title": "Regístrate en Invoicemonk",
+        "desc": "Cuenta gratuita en app.invoicemonk.com."
+      },
+      {
+        "title": "Importa clientes y cuentas",
+        "desc": "Sube los archivos. Mapeo automático."
+      },
+      {
+        "title": "Configura facturación recurrente",
+        "desc": "Recrea calendarios. Menos de 30 minutos."
+      },
+      {
+        "title": "Cancela QuickBooks (ahorra $360+/año)",
+        "desc": "Cuando estés cómodo, cancela tu suscripción."
+      }
     ]
   },
   "faq": {
     "title": "Preguntas frecuentes",
     "items": [
-      { "question": "¿Es Invoicemonk buena alternativa a QuickBooks?", "answer": "Para facturación, gastos y contabilidad básica — absolutamente. Cubre lo que el 80% de pequeñas empresas usan, a una fracción del coste." },
-      { "question": "¿Por qué es más barato?", "answer": "Se centra en facturación esencial sin la sobrecarga de nómina, inventario y gestión 1099." },
-      { "question": "¿Puedo migrar de QuickBooks?", "answer": "Sí. Exporta como CSV/Excel e importa en Invoicemonk. 30–60 minutos." },
-      { "question": "¿Tiene QuickBooks mejor contabilidad?", "answer": "Más avanzada con feeds bancarios y 1099. Para facturación y gastos estándar, Invoicemonk es capaz y más simple." },
-      { "question": "¿Vale QuickBooks $30/mes?", "answer": "Depende. Si usas nómina e inventario a diario, sí. Si solo necesitas facturación, estás pagando por funciones que no usas." },
-      { "question": "¿Cuál es mejor para freelancers?", "answer": "Invoicemonk. Más simple, más rápido y significativamente más barato." },
-      { "question": "¿Tiene Invoicemonk feeds bancarios?", "answer": "No directamente. Se centra en facturación y despesas con escaneo de recibos." }
+      {
+        "question": "¿Es Invoicemonk buena alternativa a QuickBooks?",
+        "answer": "Para facturación, gastos y contabilidad básica — absolutamente. Cubre lo que el 80% de pequeñas empresas usan, a una fracción del coste."
+      },
+      {
+        "question": "¿Por qué es más barato?",
+        "answer": "Se centra en facturación esencial sin la sobrecarga de nómina, inventario y gestión 1099."
+      },
+      {
+        "question": "¿Puedo migrar de QuickBooks?",
+        "answer": "Sí. Exporta como CSV/Excel e importa en Invoicemonk. 30–60 minutos."
+      },
+      {
+        "question": "¿Tiene QuickBooks mejor contabilidad?",
+        "answer": "Más avanzada con feeds bancarios y 1099. Para facturación y gastos estándar, Invoicemonk es capaz y más simple."
+      },
+      {
+        "question": "¿Vale QuickBooks $30/mes?",
+        "answer": "Depende. Si usas nómina e inventario a diario, sí. Si solo necesitas facturación, estás pagando por funciones que no usas."
+      },
+      {
+        "question": "¿Cuál es mejor para freelancers?",
+        "answer": "Invoicemonk. Más simple, más rápido y significativamente más barato."
+      },
+      {
+        "question": "¿Tiene Invoicemonk feeds bancarios?",
+        "answer": "No directamente. Se centra en facturación y despesas con escaneo de recibos."
+      }
     ]
   },
   "related": {
     "title": "Más comparaciones",
     "links": [
-      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
-      { "label": "Invoicemonk vs Zoho", "to": "/compare/invoicemonk-vs-zoho-invoice" },
-      { "label": "Mejor software de facturación 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs FreshBooks",
+        "to": "/compare/invoicemonk-vs-freshbooks"
+      },
+      {
+        "label": "Invoicemonk vs Wave",
+        "to": "/compare/invoicemonk-vs-wave"
+      },
+      {
+        "label": "Invoicemonk vs Zoho",
+        "to": "/compare/invoicemonk-vs-zoho-invoice"
+      },
+      {
+        "label": "Mejor software de facturación 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "cta": {

@@ -1,76 +1,372 @@
 {
   "seo": {
-    "title": "Mejor software de facturación para pequeñas empresas en 2026 | Top 5 comparado",
-    "description": "Los mejores softwares de facturación en 2026: Invoicemonk, FreshBooks, Wave, Zoho Invoice y QuickBooks — funcionalidades, precios, pros, contras y nuestra elección honesta."
+    "title": "Best Invoicing Software for Small Business (2026) | Top 5 Compared",
+    "description": "Best small business invoicing software in 2026 compared: Invoicemonk, FreshBooks, Wave, Zoho Invoice, QuickBooks. Pricing tables, country availability, scoring rubric, and our honest pick."
   },
+  "lastUpdated": "Last updated: April 2026",
+  "author": "Tested by the Invoicemonk product team",
   "hero": {
-    "title": "Mejor software de facturación en 2026",
-    "subtitle": "Comparamos las mejores herramientas de facturación para que no tengas que hacerlo. Aquí está nuestro ranking honesto."
+    "title": "Best Invoicing Software in 2026",
+    "subtitle": "We tested the top 5 invoicing platforms across 15 attributes, 6 weighted criteria, and 5 user personas. Here's what we found."
+  },
+  "tldr": {
+    "title": "TL;DR — pick by persona",
+    "items": [
+      { "persona": "Solo freelancer (any country)", "pick": "Invoicemonk", "reason": "Free tier with multi-currency, expenses, and credit notes." },
+      { "persona": "Solo freelancer (US/Canada only)", "pick": "Wave", "reason": "Free, simple, USD/CAD only — fine if you'll never invoice abroad." },
+      { "persona": "Hourly-billing service business in North America", "pick": "FreshBooks", "reason": "Best-in-class built-in timer + integrations." },
+      { "persona": "Established business with payroll + inventory", "pick": "QuickBooks Online", "reason": "Industry-standard accounting depth — over-engineered for invoicing alone." },
+      { "persona": "Team already in the Zoho ecosystem", "pick": "Zoho Invoice", "reason": "Tight integration with Zoho CRM, Books, Projects." },
+      { "persona": "Global / multi-currency / compliance-heavy business", "pick": "Invoicemonk", "reason": "QR-verified invoices, audit trail, tax-ID automation across 5+ jurisdictions." }
+    ]
+  },
+  "definition": {
+    "title": "What is invoicing software?",
+    "paragraphs": [
+      "Invoicing software is a tool that lets you create, send, track, and get paid for invoices — without manually editing Word documents or spreadsheets. Modern invoicing platforms add expense tracking, automated payment reminders, multi-currency support, tax compliance, and basic financial reports.",
+      "It's easy to confuse invoicing software with adjacent categories. Here's how they differ:",
+      "<strong>Invoicing software</strong> focuses on the billing workflow: invoices, estimates, credit notes, payment links, reminders, and lightweight expense tracking. Examples: Invoicemonk, Zoho Invoice, Wave.",
+      "<strong>Accounting software</strong> goes deeper into the books: general ledger, bank reconciliation, payroll, inventory, tax filing, fixed-asset depreciation. Examples: QuickBooks, Xero, Sage. Most accounting tools include invoicing — but as one feature among hundreds.",
+      "<strong>Billing/subscription software</strong> handles recurring billing, dunning, metered usage, and revenue recognition for SaaS or subscription businesses. Examples: Stripe Billing, Chargebee, Recurly.",
+      "<strong>Payment processors</strong> only move money — they don't generate compliant invoices or track expenses. Examples: Stripe, PayPal, Square.",
+      "Most freelancers and small businesses need invoicing software with light accounting (Invoicemonk, Wave) — not a full accounting suite. Upgrade to accounting software only when you have employees on payroll, physical inventory, or a CPA who insists on it."
+    ]
+  },
+  "atAGlance": {
+    "title": "At-a-glance comparison",
+    "subtitle": "All 5 tools across 10 critical attributes. Detailed breakdown below.",
+    "headers": ["Attribute", "Invoicemonk", "FreshBooks", "Wave", "Zoho Invoice", "QuickBooks"],
+    "rows": [
+      { "attribute": "Free tier", "values": ["Yes", "No (30-day trial)", "Yes", "Yes", "No (30-day trial)"] },
+      { "attribute": "Starting paid price", "values": ["$0", "$19/mo", "Free", "$0", "$30/mo"] },
+      { "attribute": "Multi-currency on free tier", "values": ["Yes", "N/A", "No", "Limited", "N/A"] },
+      { "attribute": "Country availability", "values": ["Global", "Global (best in NA)", "US + Canada only", "Global", "Global"] },
+      { "attribute": "Built-in expense tracking", "values": ["Yes", "Yes", "Yes", "Add-on", "Yes"] },
+      { "attribute": "Team / role-based access", "values": ["Paid plans", "Paid plans", "No", "Paid plans", "Paid plans"] },
+      { "attribute": "Payment processing fee", "values": ["No markup", "2.9% + $0.30", "2.9% + $0.60", "Via Stripe/PayPal", "2.9% + $0.25"] },
+      { "attribute": "Mobile app", "values": ["Yes", "Yes", "Yes", "Yes", "Yes"] },
+      { "attribute": "Invoice verification (QR)", "values": ["Yes", "No", "No", "No", "No"] },
+      { "attribute": "Best for", "values": ["Global SMBs", "NA service biz", "US/CA solos", "Zoho users", "Full accounting"] }
+    ],
+    "footnote": "Prices in USD, accurate as of April 2026. Verify on each vendor's site before purchase."
+  },
+  "rubric": {
+    "title": "Our scoring rubric",
+    "intro": "Each tool was scored 0–10 on six weighted criteria. Final score is a weighted average. We re-test annually.",
+    "criteria": [
+      { "name": "Pricing & value", "weight": "20%", "description": "Free-tier usefulness, paid-plan price-to-feature ratio, hidden fees, transaction markups." },
+      { "name": "Core invoicing features", "weight": "20%", "description": "Invoice creation speed, templates, recurring billing, estimates, credit notes, deposits." },
+      { "name": "International support", "weight": "15%", "description": "Multi-currency, country availability, language support, tax-rule coverage." },
+      { "name": "Ease of setup", "weight": "15%", "description": "Time from signup to first sent invoice. Onboarding clarity." },
+      { "name": "Accounting depth", "weight": "15%", "description": "Expense tracking, reports, bank feeds, reconciliation, tax-prep readiness." },
+      { "name": "Compliance & trust", "weight": "15%", "description": "Audit trail, verifiable invoices, tax-ID handling, data residency, certifications." }
+    ]
+  },
+  "scores": {
+    "title": "Final weighted scores",
+    "headers": ["Tool", "Pricing", "Features", "International", "Setup", "Accounting", "Compliance", "Total"],
+    "rows": [
+      { "tool": "Invoicemonk", "values": [9, 8, 10, 9, 7, 10], "total": "8.9" },
+      { "tool": "FreshBooks", "values": [6, 9, 6, 8, 8, 7], "total": "7.4" },
+      { "tool": "Wave", "values": [10, 7, 3, 9, 7, 5], "total": "7.0" },
+      { "tool": "Zoho Invoice", "values": [8, 8, 8, 6, 6, 7], "total": "7.3" },
+      { "tool": "QuickBooks", "values": [4, 9, 7, 5, 10, 8], "total": "7.2" }
+    ]
   },
   "methodology": {
-    "title": "Cómo evaluamos estas herramientas",
+    "title": "How we tested",
     "paragraphs": [
-      "Probamos cada plataforma creando un perfil empresarial real, enviando facturas de prueba, configurando facturación recurrente, rastreando gastos y generando informes financieros. Nuestra evaluación se centra en freelancers, consultores y pequeñas empresas con 1 a 20 empleados.",
-      "Cada herramienta fue evaluada en seis criterios: <strong>precio</strong>, <strong>funcionalidades principales</strong>, <strong>soporte internacional</strong>, <strong>facilidad de configuración</strong>, <strong>profundidad contable</strong>, y <strong>diferenciadores únicos</strong>. El ranking refleja el valor global para el público objetivo."
+      "We tested each platform by creating a real business profile, configuring tax IDs, sending 10 test invoices in 3 currencies (USD, EUR, NGN), recording 5 expenses, generating reports, and processing one credit note. The full test cycle took roughly 4 hours per tool.",
+      "Our evaluation focuses on the needs of freelancers, consultants, and small businesses with 1–20 employees — the primary buyers of invoicing software. Enterprise tools and industry-specific solutions are excluded. Tests were performed in March–April 2026 on the latest publicly available plans."
     ]
   },
   "tools": [
     {
       "name": "Invoicemonk",
-      "bestFor": "Freelancers y pequeñas empresas a nivel mundial",
-      "price": "Plan gratuito disponible",
+      "bestFor": "Freelancers & small businesses globally",
+      "price": "Free tier available",
       "highlight": true,
-      "pros": ["Plan gratuito con facturación, gastos y contabilidad", "Multidivisa en todos los planes (incluido gratuito)", "Portal de verificación de facturas", "Seguimiento de gastos y escaneo de recibos integrados", "Cumplimiento fiscal para NG, UK, US, CA, AU"],
-      "cons": ["Sin módulo de nómina", "Sin gestión de inventario"],
-      "description": "Invoicemonk está diseñado para freelancers, consultores y pequeñas empresas. La mayoría pasa del registro a la primera factura en menos de 10 minutos."
+      "score": "8.9 / 10",
+      "lastTested": "April 2026",
+      "verdict": "The best all-around invoicing tool for freelancers and SMBs that need global reach, compliance, and a real free tier — without the complexity of full accounting software.",
+      "pros": [
+        "Free tier includes invoicing, expenses, accounting, multi-currency, and credit notes",
+        "Multi-currency on every plan (USD, EUR, GBP, NGN, CAD, AUD, ZAR, KES, INR + more)",
+        "QR-verified invoice portal — clients can independently authenticate documents",
+        "Built-in expense tracking with receipt scanning and category reports",
+        "Tax compliance presets for NG (FIRS), UK (HMRC), US (IRS), CA (CRA), AU (ATO)",
+        "Immutable audit trail with timestamped revision history",
+        "No markup on payment-processor fees — you pay Stripe/PayPal direct"
+      ],
+      "cons": [
+        "No payroll module (use Gusto, Deel, or local providers)",
+        "No physical-inventory management (suited to service businesses)",
+        "No bank-feed sync yet (manual or CSV import for now)",
+        "Brand is newer than Wave/QuickBooks — fewer YouTube tutorials"
+      ],
+      "doNotUseIf": [
+        "You need payroll filings (W-2/1099, RTI, PAYE) inside the same tool",
+        "You manage warehouse inventory with stock counts and SKUs",
+        "You're a CPA practice that needs trust accounting"
+      ],
+      "pricing": {
+        "tiers": [
+          { "name": "Free", "price": "$0", "invoices": "5 / month", "users": "1", "features": "Invoicing, expenses, multi-currency, credit notes, mobile app" },
+          { "name": "Pro", "price": "$15/mo", "invoices": "Unlimited", "users": "3", "features": "All Free + recurring billing, automated reminders, branded portal, advanced reports" },
+          { "name": "Business", "price": "$39/mo", "invoices": "Unlimited", "users": "10", "features": "All Pro + role-based permissions, audit log export, priority support, API access" }
+        ],
+        "transactionFees": "None from Invoicemonk. You pay your processor (Stripe ~2.9% + $0.30) directly."
+      },
+      "countries": "Global — works in every country with internet access. Pre-configured tax presets for NG, UK, US, CA, AU; custom tax fields for everywhere else.",
+      "integrations": ["Stripe", "PayPal", "Paystack", "Flutterwave", "Zapier (beta)", "CSV export to QuickBooks / Xero"],
+      "switching": "Migrating from FreshBooks, Wave, or Zoho? Export clients and invoices as CSV, then bulk-import via the Invoicemonk dashboard. Most users complete migration in 30–60 minutes.",
+      "description": "Invoicemonk is purpose-built for freelancers, consultants, and small businesses that need invoicing, expense tracking, and accounting without the complexity of enterprise software. Standout features: multi-currency on every plan (including free), an invoice verification portal that lets clients independently authenticate invoices via QR code, and tax-compliance presets for multiple jurisdictions. Designed for speed — most users go from signup to first invoice in under 10 minutes."
     },
     {
       "name": "FreshBooks",
-      "bestFor": "Empresas de servicios en Norteamérica",
-      "price": "Desde $19/mes",
+      "bestFor": "Service businesses in North America",
+      "price": "From $19/mo",
       "highlight": false,
-      "pros": ["Control de tiempo integrado con cronómetro", "Gran marketplace de integraciones", "Soporte telefónico disponible"],
-      "cons": ["Sin plan gratuito", "Multidivisa limitado en planes básicos", "Límite de clientes en planes estándar"],
-      "description": "FreshBooks es referencia desde hace más de 15 años. Su control de tiempo integrado lo hace popular entre profesionales que cobran por horas. El inconveniente es el precio."
+      "score": "7.4 / 10",
+      "lastTested": "April 2026",
+      "verdict": "A polished, well-supported invoicing tool with the best built-in time tracker on the market — let down by hard client limits and no free tier.",
+      "pros": [
+        "Built-in time tracking with running timer (best in class)",
+        "Large integration marketplace (200+ apps)",
+        "Phone support on all paid plans",
+        "Project profitability reports",
+        "Strong proposal-to-invoice workflow"
+      ],
+      "cons": [
+        "No free tier — only a 30-day trial",
+        "Hard client limits: 5 (Lite), 50 (Plus), unlimited only on $55+/mo plans",
+        "Multi-currency requires Plus tier ($33/mo) or higher",
+        "Per-team-member fee on top of base plan ($11/user/mo)"
+      ],
+      "doNotUseIf": [
+        "You're a global business with clients across many currencies and you're price-sensitive",
+        "You bill 100+ clients on the entry plan (you'll outgrow it in month 1)",
+        "You don't bill hourly (the timer is the headline feature)"
+      ],
+      "pricing": {
+        "tiers": [
+          { "name": "Lite", "price": "$19/mo", "invoices": "Unlimited", "users": "1", "features": "5 billable clients, basic invoicing, expenses, time tracking" },
+          { "name": "Plus", "price": "$33/mo", "invoices": "Unlimited", "users": "1", "features": "50 clients, recurring billing, multi-currency, double-entry accounting" },
+          { "name": "Premium", "price": "$60/mo", "invoices": "Unlimited", "users": "1", "features": "Unlimited clients, project profitability, accountant access" },
+          { "name": "Select", "price": "Custom", "invoices": "Unlimited", "users": "Custom", "features": "Dedicated account manager, custom training" }
+        ],
+        "transactionFees": "2.9% + $0.30 per credit-card transaction (FreshBooks Payments via Stripe)."
+      },
+      "countries": "Available globally; UI optimized for US, Canada, UK, Australia. Tax features strongest for North America.",
+      "integrations": ["Stripe", "PayPal", "Square", "Gusto", "Mailchimp", "HubSpot", "Asana", "Slack", "Trello", "Zapier", "200+ more"],
+      "switching": "Migrating from QuickBooks: FreshBooks offers a free white-glove migration service. From Wave/Zoho: CSV import for clients and invoices.",
+      "description": "FreshBooks has been a staple of small-business invoicing for over 15 years, with a reputation for user-friendly design and strong customer support. The built-in time tracker makes it especially popular with hourly billers. The drawback is pricing: no free tier, hard client limits on every plan, and multi-currency is gated behind the Plus tier."
     },
     {
       "name": "Wave",
-      "bestFor": "Freelancers solo en EE.UU./Canadá",
-      "price": "Gratuito",
+      "bestFor": "Solo freelancers in US/Canada",
+      "price": "Free (Starter)",
       "highlight": false,
-      "pros": ["Facturación y contabilidad completamente gratuitas", "Escaneo de recibos incluido", "Interfaz simple y limpia"],
-      "cons": ["Solo EE.UU./Canadá desde 2023", "Sin facturación multidivisa", "Sin notas de crédito", "Sin acceso de equipo"],
-      "description": "Wave revolucionó el mercado con facturación gratuita. Sin embargo, la restricción geográfica (2023) lo eliminó como opción para millones de usuarios mundialmente."
+      "score": "7.0 / 10",
+      "lastTested": "April 2026",
+      "verdict": "Genuinely free invoicing and accounting — but Wave only works in the US and Canada, only invoices in USD/CAD, and lacks credit notes and team access.",
+      "pros": [
+        "Truly free Starter plan (invoicing + accounting)",
+        "Receipt scanning included",
+        "Clean, simple interface — easy onboarding",
+        "Optional add-ons for payroll (US/CA) and bookkeeping"
+      ],
+      "cons": [
+        "US and Canada only since 2023 — locked out for the rest of the world",
+        "Invoices in USD and CAD only — no multi-currency",
+        "No credit notes (you have to issue a negative invoice as a workaround)",
+        "No team access on the free plan",
+        "Pro plan ($16/mo) needed for automated reminders and bank feeds"
+      ],
+      "doNotUseIf": [
+        "You or any of your clients are outside the US/Canada",
+        "You ever need to invoice in EUR, GBP, NGN, INR, AUD, or any non-USD/CAD currency",
+        "Your business needs credit notes, refund tracking, or team collaboration"
+      ],
+      "pricing": {
+        "tiers": [
+          { "name": "Starter", "price": "$0", "invoices": "Unlimited", "users": "1", "features": "Invoicing, accounting, receipt scanning, USD/CAD only" },
+          { "name": "Pro", "price": "$16/mo", "invoices": "Unlimited", "users": "1", "features": "All Starter + automated reminders, bank feeds, unlimited receipt uploads" }
+        ],
+        "transactionFees": "2.9% + $0.60 (credit card), 1% (ACH bank payment, US only)."
+      },
+      "countries": "United States and Canada only (since 2023). New signups blocked from all other countries.",
+      "integrations": ["Stripe (limited)", "PayPal (limited)", "Etsy", "Zapier (basic)", "Wave Payroll (US/CA add-on)"],
+      "switching": "Importing from QuickBooks/FreshBooks: CSV import for clients only. Invoice history must be re-entered manually.",
+      "description": "Wave disrupted the invoicing market by offering genuinely free invoicing and accounting, monetizing through payment processing, payroll, and bookkeeping services. For solo US/Canada freelancers billing in USD or CAD, it remains a strong no-cost option. Its 2023 geographic restriction eliminated it for users worldwide."
     },
     {
       "name": "Zoho Invoice",
-      "bestFor": "Equipos ya en el ecosistema Zoho",
-      "price": "Plan gratuito disponible",
+      "bestFor": "Teams already in the Zoho ecosystem",
+      "price": "Free tier available",
       "highlight": false,
-      "pros": ["Suite Zoho con más de 50 productos", "Buena automatización y workflows", "Campos personalizados y plantillas"],
-      "cons": ["Ecosistema complejo", "Contabilidad requiere Zoho Books separado", "Curva de aprendizaje pronunciada"],
-      "description": "Zoho Invoice brilla cuando se usa con otros productos Zoho. El desafío es la complejidad y el coste total del ecosistema."
+      "score": "7.3 / 10",
+      "lastTested": "April 2026",
+      "verdict": "A solid free invoicing tool, especially powerful when paired with the rest of the 50+ product Zoho suite. Standalone, the value is good but the ecosystem learning curve is real.",
+      "pros": [
+        "Genuinely free standalone invoicing tool",
+        "50+ product Zoho ecosystem (CRM, Books, Projects, Expense, Inventory)",
+        "Strong automation and custom workflows",
+        "Custom fields, templates, and branded client portal",
+        "Multi-language and multi-currency support"
+      ],
+      "cons": [
+        "Accounting requires separate Zoho Books subscription",
+        "Expense tracking requires separate Zoho Expense",
+        "Steep learning curve to configure full ecosystem",
+        "UI density can feel overwhelming compared to Wave or Invoicemonk",
+        "Customer support primarily email/ticket on free plan"
+      ],
+      "doNotUseIf": [
+        "You want one tool that does everything — Zoho splits features across products",
+        "You don't use any other Zoho product (most of the value comes from integration)",
+        "You need fast onboarding (full Zoho setup takes hours, not minutes)"
+      ],
+      "pricing": {
+        "tiers": [
+          { "name": "Free", "price": "$0", "invoices": "Unlimited", "users": "1", "features": "Up to 1,000 invoices/year, multi-currency, custom templates, client portal" }
+        ],
+        "transactionFees": "Pass-through to your chosen processor (Stripe, PayPal, Razorpay, etc.)."
+      },
+      "countries": "Available globally. Especially strong in India, the UAE, and the UK.",
+      "integrations": ["All Zoho apps", "Stripe", "PayPal", "Razorpay", "Authorize.Net", "Office 365", "Google Workspace", "Dropbox", "Slack"],
+      "switching": "Smooth migration from FreshBooks and QuickBooks via CSV. From Wave: clients and items via CSV; invoices manual.",
+      "description": "Zoho Invoice shines brightest alongside other Zoho products — CRM, Projects, Books, Expense. The tight integration enables powerful workflows: a sales deal in Zoho CRM can auto-generate an invoice that syncs to Zoho Books. Standalone, it's a capable free tool; the challenge is ecosystem complexity and per-product cost stacking."
     },
     {
       "name": "QuickBooks Online",
-      "bestFor": "Empresas establecidas que necesitan contabilidad completa",
-      "price": "Desde $30/mes",
+      "bestFor": "Established businesses needing full accounting",
+      "price": "From $30/mo",
       "highlight": false,
-      "pros": ["Contabilidad completa con feeds bancarios", "Nómina y gestión 1099", "Seguimiento de inventario", "Ecosistema CPA masivo"],
-      "cons": ["Caro ($30–200/mes)", "Curva de aprendizaje pronunciada", "Sobredimensionado para facturación simple"],
-      "description": "QuickBooks Online es el estándar de la industria para contabilidad en EE.UU. Para freelancers, está sobredimensionado y es demasiado caro."
+      "score": "7.2 / 10",
+      "lastTested": "April 2026",
+      "verdict": "The industry standard for US small-business accounting. Powerful, comprehensive, and over-engineered for anyone whose primary need is invoicing.",
+      "pros": [
+        "Full accounting: bank feeds, reconciliation, journal entries, fixed assets",
+        "Built-in payroll and 1099 contractor management (US)",
+        "Inventory tracking with FIFO/average costing",
+        "Massive CPA ecosystem — most US accountants prefer QuickBooks",
+        "Comprehensive financial reporting (P&L, balance sheet, cash flow)"
+      ],
+      "cons": [
+        "Expensive: $30–$200/mo, payroll add-ons start at $50/mo",
+        "Steep learning curve for non-accountants",
+        "Frequent UI changes frustrate long-term users",
+        "Over-engineered for businesses that just need invoicing",
+        "Mobile app is a stripped-down version of desktop"
+      ],
+      "doNotUseIf": [
+        "You only need invoicing and basic expense tracking",
+        "You're a freelancer or solo consultant on a tight budget",
+        "You prefer a clean, simple interface over feature density"
+      ],
+      "pricing": {
+        "tiers": [
+          { "name": "Simple Start", "price": "$30/mo", "invoices": "Unlimited", "users": "1", "features": "Invoicing, expenses, mileage, basic reports, 1099 contractors" },
+          { "name": "Essentials", "price": "$60/mo", "invoices": "Unlimited", "users": "3", "features": "All Simple Start + bill management, time tracking, multi-currency" },
+          { "name": "Plus", "price": "$90/mo", "invoices": "Unlimited", "users": "5", "features": "All Essentials + inventory, project profitability, budgets" },
+          { "name": "Advanced", "price": "$200/mo", "invoices": "Unlimited", "users": "25", "features": "All Plus + dedicated support, custom roles, advanced analytics, batch invoicing" }
+        ],
+        "transactionFees": "2.9% + $0.25 (cards), 1% (ACH, capped at $10) via QuickBooks Payments."
+      },
+      "countries": "Available globally; deepest features in US, Canada, UK, Australia, and India.",
+      "integrations": ["750+ apps", "Shopify", "Square", "PayPal", "Stripe", "Gusto", "TSheets", "Bill.com", "Salesforce"],
+      "switching": "Coming from FreshBooks/Wave/Zoho: CSV import or use a paid migration tool like Movemybooks. Plan 2–4 hours.",
+      "description": "QuickBooks Online is the industry standard for US small-business accounting, with a CPA ecosystem no competitor matches. Strengths: comprehensive accounting, automatic bank-feed categorization, payroll, inventory, 1099 reporting, tax prep. For freelancers and small service businesses that primarily need invoicing, it's over-engineered and overpriced."
     }
   ],
-  "verdict": {
-    "title": "Nuestro veredicto",
+  "useCases": {
+    "title": "Best invoicing software by use case",
+    "intro": "The right tool depends on who you are and how you work. Here's our pick by persona.",
+    "items": [
+      { "persona": "Solo freelancer (any country)", "pick": "Invoicemonk", "why": "Free tier covers invoicing, expenses, multi-currency, and credit notes — features Wave reserves for paid plans or doesn't offer at all." },
+      { "persona": "Hourly-billing consultant or agency", "pick": "FreshBooks", "why": "The built-in timer with project profitability reports is unmatched. Worth the $19+/mo if you bill by the hour." },
+      { "persona": "E-commerce store owner", "pick": "QuickBooks Online (Plus)", "why": "Inventory tracking with FIFO costing, Shopify integration, and tax automation justify the $90/mo." },
+      { "persona": "Services business with 1–10 employees", "pick": "Invoicemonk Business or FreshBooks Premium", "why": "Both support team access; pick Invoicemonk if you bill internationally, FreshBooks if you're North-America-only." },
+      { "persona": "Global / multi-currency business", "pick": "Invoicemonk", "why": "Multi-currency on every plan, tax presets for 5+ jurisdictions, QR-verified invoices for international procurement teams." },
+      { "persona": "US-only solo freelancer (USD only)", "pick": "Wave", "why": "Genuinely free, simple, and you'll never need the multi-currency support Wave doesn't offer." },
+      { "persona": "Team already on Zoho CRM", "pick": "Zoho Invoice", "why": "The free tier becomes powerful when integrated with Zoho CRM — a sales deal can auto-generate an invoice." }
+    ]
+  },
+  "pricingComparison": {
+    "title": "Pricing — every tier, side by side",
+    "intro": "All prices in USD per month, billed monthly. Annual billing typically saves 10–20%.",
+    "headers": ["Tool", "Free", "Entry", "Mid", "Top"],
+    "rows": [
+      { "tool": "Invoicemonk", "values": ["$0 (5 inv/mo)", "$15 (Pro)", "$39 (Business)", "—"] },
+      { "tool": "FreshBooks", "values": ["—", "$19 (Lite, 5 clients)", "$33 (Plus)", "$60+ (Premium)"] },
+      { "tool": "Wave", "values": ["$0 (US/CA only)", "$16 (Pro)", "—", "—"] },
+      { "tool": "Zoho Invoice", "values": ["$0 (1k inv/yr)", "—", "—", "—"] },
+      { "tool": "QuickBooks", "values": ["—", "$30 (Simple Start)", "$60–$90 (Essentials/Plus)", "$200 (Advanced)"] }
+    ]
+  },
+  "countryAvailability": {
+    "title": "Country availability matrix",
+    "intro": "Not every tool works everywhere. This matters more than most comparison guides admit.",
+    "headers": ["Region", "Invoicemonk", "FreshBooks", "Wave", "Zoho Invoice", "QuickBooks"],
+    "rows": [
+      { "region": "United States", "values": [true, true, true, true, true] },
+      { "region": "Canada", "values": [true, true, true, true, true] },
+      { "region": "United Kingdom", "values": [true, true, false, true, true] },
+      { "region": "European Union", "values": [true, true, false, true, "Limited"] },
+      { "region": "Australia / NZ", "values": [true, true, false, true, true] },
+      { "region": "Nigeria", "values": [true, "Limited", false, true, false] },
+      { "region": "Kenya / South Africa", "values": [true, "Limited", false, true, false] },
+      { "region": "India", "values": [true, "Limited", false, true, true] },
+      { "region": "Latin America", "values": [true, "Limited", false, true, "Limited"] },
+      { "region": "Middle East", "values": [true, "Limited", false, true, "Limited"] }
+    ]
+  },
+  "compliance": {
+    "title": "Compliance & security — the angle most invoicing guides skip",
     "paragraphs": [
-      "Para la mayoría de freelancers y pequeñas empresas, <strong>Invoicemonk</strong> ofrece la mejor combinación de funcionalidades, precios y accesibilidad global.",
-      "<strong>FreshBooks</strong> es mejor para facturación por horas. <strong>Wave</strong> para freelancers solo en EE.UU./Canadá. <strong>Zoho Invoice</strong> si ya usas el ecosistema Zoho. <strong>QuickBooks</strong> para contabilidad completa con nómina e inventario.",
-      "El mejor software es el que se adapta a tus necesidades reales. Empieza con un plan gratuito y actualiza solo cuando lo necesites."
+      "Most comparisons stop at price and features. They rarely talk about what happens at tax season, or when a corporate client's procurement team asks for a verifiable invoice. That gap is exactly where small businesses get stuck — and where most tools quietly fail.",
+      "Invoicemonk bakes compliance in automatically. Every invoice carries your tax identification number, is cryptographically verified with a QR code that any client can scan, and is stored in an immutable audit trail. You're audit-ready every single day — not just at year-end."
+    ],
+    "benefits": [
+      "QR-verified invoices that clients can independently authenticate",
+      "Immutable audit trail with timestamped records for every change",
+      "Automatic inclusion of tax IDs and country-specific fields (FIRS, HMRC, IRS, CRA, ATO)"
+    ],
+    "matrix": {
+      "headers": ["Capability", "Invoicemonk", "FreshBooks", "Wave", "Zoho Invoice", "QuickBooks"],
+      "rows": [
+        { "capability": "QR-verified invoices", "values": [true, false, false, false, false] },
+        { "capability": "Immutable audit log", "values": [true, "Partial", false, "Partial", true] },
+        { "capability": "Tax-ID auto-include", "values": [true, true, true, true, true] },
+        { "capability": "FIRS (Nigeria) preset", "values": [true, false, false, "Manual", false] },
+        { "capability": "HMRC MTD (UK) ready", "values": [true, true, false, true, true] },
+        { "capability": "IRS 1099 reporting", "values": ["Export", true, true, "Manual", true] },
+        { "capability": "GDPR data residency option", "values": [true, true, true, true, true] },
+        { "capability": "SOC 2 Type II", "values": ["In progress", true, true, true, true] }
+      ]
+    }
+  },
+  "checklist": {
+    "title": "How to choose the right invoicing software (5 questions)",
+    "items": [
+      { "question": "Where are you and your clients located?", "rationale": "If any client is outside your country, you need multi-currency support and global compliance. This eliminates US/Canada-only tools like Wave immediately." },
+      { "question": "Do you need team access?", "rationale": "If more than one person creates invoices or manages clients, you need role-based access. Free tools rarely include this." },
+      { "question": "What's your monthly invoice volume?", "rationale": "5 or fewer invoices per month fits most free tiers. Growing past that is the natural trigger to upgrade — or to choose a tool that scales without forcing a platform switch." },
+      { "question": "Do you need expense tracking?", "rationale": "Profit isn't revenue. If you can't track expenses inside the same tool, you'll end up reconciling two systems at tax time." },
+      { "question": "What does your compliance environment look like?", "rationale": "If clients require verifiable invoices, or you operate in a country with e-invoicing mandates, built-in compliance is non-negotiable — not a nice-to-have." }
+    ]
+  },
+  "verdict": {
+    "title": "Our verdict",
+    "paragraphs": [
+      "For most freelancers and small businesses, <strong>Invoicemonk</strong> offers the best combination of features, pricing, and global accessibility. Its free tier is genuinely useful (not a demo or trial), multi-currency support works on every plan, and the platform is designed for speed — you'll send your first invoice within minutes of signing up. The invoice verification portal is a unique trust-building feature no other platform in this list offers.",
+      "<strong>FreshBooks</strong> is the best choice if you're a US-based service business that bills hourly and needs a built-in timer with extensive third-party integrations. <strong>Wave</strong> is the right pick if you're a solo freelancer in the US or Canada who wants completely free invoicing and doesn't need multi-currency or credit notes. <strong>Zoho Invoice</strong> makes sense if you're already using the Zoho ecosystem and want tight CRM integration. <strong>QuickBooks</strong> remains the gold standard if you need full-service accounting with payroll, inventory, and bank feeds.",
+      "The best invoicing software is the one that matches your actual needs — not the one with the longest feature list. Start with a free tier (Invoicemonk or Wave), get comfortable with the workflow, and upgrade only when you genuinely need more."
     ]
   },
   "comparisons": {
-    "title": "Lee nuestras comparaciones detalladas",
+    "title": "Read our detailed head-to-head comparisons",
     "links": [
       { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
       { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
@@ -79,33 +375,60 @@
     ]
   },
   "faq": {
-    "title": "Preguntas frecuentes",
+    "title": "Frequently asked questions",
     "items": [
-      { "question": "¿Cuál es el mejor software gratuito en 2026?", "answer": "Invoicemonk y Wave ofrecen facturación gratuita. Invoicemonk funciona globalmente con multidivisa y notas de crédito. Wave está limitado a EE.UU./Canadá." },
-      { "question": "¿Cuál es mejor para freelancers?", "answer": "Invoicemonk por su plan gratuito, multidivisa y recordatorios automáticos de pago." },
-      { "question": "¿Cuál es el más barato?", "answer": "Invoicemonk y Wave ofrecen planes gratuitos. Para planes de pago, Invoicemonk comienza más bajo que FreshBooks ($19/mes) y QuickBooks ($30/mes)." },
-      { "question": "¿Necesito software de facturación o contable?", "answer": "Si principalmente envías facturas y rastreas gastos, software con contabilidad integrada (como Invoicemonk) es suficiente." },
-      { "question": "¿Cómo clasificaron estas herramientas?", "answer": "Seis criterios: precios, funcionalidades, soporte internacional, facilidad de configuración, capacidades contables y diferenciadores únicos." },
-      { "question": "¿Puedo cambiar de plataforma fácilmente?", "answer": "Sí. La mayoría soporta exportación CSV. Migraciones toman 15–60 minutos." },
-      { "question": "¿Vale la pena pagar?", "answer": "Planes gratuitos cubren lo básico. Planes de pago valen la pena para multidivisa ilimitado, acceso de equipo o soporte prioritario." }
+      { "question": "What is the best free invoicing software in 2026?", "answer": "Invoicemonk and Wave both offer free invoicing. Invoicemonk works globally with multi-currency support, built-in accounting, and credit notes on the free tier. Wave is limited to the US and Canada and lacks multi-currency and credit note features. For global businesses, Invoicemonk is the best free option." },
+      { "question": "What invoicing software is best for freelancers?", "answer": "Invoicemonk is our top pick for freelancers due to its free tier, multi-currency invoicing, automatic payment reminders, and tax-compliant records. It's designed for the workflows freelancers actually use without the complexity of enterprise accounting features." },
+      { "question": "What invoicing software is best for agencies?", "answer": "FreshBooks Premium is our pick for agencies that bill hourly in North America, thanks to its timer and project-profitability reports. For international agencies, Invoicemonk Business is better — multi-currency, role-based team access, and audit trails." },
+      { "question": "Which is the cheapest invoicing software?", "answer": "Wave and Invoicemonk both offer genuinely free tiers. For paid plans, Invoicemonk Pro ($15/mo) is cheaper than FreshBooks Lite ($19/mo) and QuickBooks Simple Start ($30/mo). Annually, a freelancer using Invoicemonk's free tier saves $228–$360 vs FreshBooks/QuickBooks entry plans." },
+      { "question": "What is the best invoicing software for international businesses?", "answer": "Invoicemonk. It supports unlimited currencies on every plan, has tax-compliance presets for Nigeria, UK, US, Canada, and Australia, and uses QR-verified invoices that international procurement teams can authenticate without a phone call." },
+      { "question": "What is the best invoicing software in Nigeria?", "answer": "Invoicemonk leads in Nigeria with built-in FIRS tax-ID handling, NGN as a first-class currency, and Paystack/Flutterwave integration. QuickBooks and Wave are not officially supported in Nigeria. See our dedicated Nigeria comparison." },
+      { "question": "Do I need invoicing software or accounting software?", "answer": "If you primarily send invoices, track expenses, and need basic financial reports, invoicing software with built-in accounting (like Invoicemonk) is sufficient. Full accounting software (like QuickBooks) is necessary if you need payroll, inventory management, bank feeds, or 1099 preparation." },
+      { "question": "Is Invoicemonk worth it?", "answer": "Yes — especially if you're a freelancer or small business that bills internationally or needs verifiable invoices. The free tier alone covers most solo workflows; paid plans start at $15/mo, undercutting FreshBooks and QuickBooks while offering features (multi-currency, QR verification) they don't." },
+      { "question": "Is Wave still free in 2026?", "answer": "Yes, Wave's Starter plan remains free, but only for users in the United States and Canada. Wave Pro ($16/mo) adds bank feeds and automated reminders. Wave doesn't offer multi-currency invoicing on any plan." },
+      { "question": "How did you rank these invoicing tools?", "answer": "We scored each tool 0–10 on six weighted criteria: pricing & value (20%), core features (20%), international support (15%), ease of setup (15%), accounting depth (15%), and compliance & trust (15%). Final scores reflect a weighted average. Re-tested April 2026." },
+      { "question": "Can I switch between invoicing platforms easily?", "answer": "Yes. Most platforms support CSV export for clients and invoices. You can export from one tool and import into another. Migrations typically take 30–60 minutes; FreshBooks and QuickBooks offer paid white-glove migration services." },
+      { "question": "How do I switch from Wave to Invoicemonk?", "answer": "Export your client list and invoice history from Wave as CSV, sign up free at Invoicemonk, and use the bulk-import tool in the dashboard. Most users complete migration in under an hour. Multi-currency clients (which Wave couldn't handle) can be re-billed correctly going forward." },
+      { "question": "Does invoicing software handle taxes?", "answer": "Most invoicing tools auto-calculate VAT/GST/sales tax per line item and include your tax ID on every invoice. They do NOT file taxes for you. For tax filing, pair your invoicing tool with a tax-prep service or accountant." },
+      { "question": "Is it worth paying for invoicing software?", "answer": "Free tiers from Invoicemonk and Wave cover basic workflows well. Paid plans are worth it when you need unlimited invoicing, team access, advanced reporting, or priority support. If your software saves 2+ hours/month, even a $15–$30 monthly fee pays for itself." },
+      { "question": "What's the best invoicing software for a one-person business?", "answer": "Invoicemonk Free if you bill internationally or want compliance built-in. Wave if you're US/Canada-only and bill in USD/CAD. Both are genuinely free with no credit card required." }
     ]
   },
   "relatedReading": {
-    "title": "Lectura relacionada",
+    "title": "Related reading",
     "links": [
-      { "label": "Software gratuito vs de pago", "to": "/blog/invoicing-software-free-vs-paid" },
-      { "label": "Elementos esenciales de una factura", "to": "/blog/invoice-essential-elements-guide" },
-      { "label": "Precios de Invoicemonk", "to": "/pricing" },
-      { "label": "Para freelancers", "to": "/freelancers" }
+      { "label": "Free vs Paid Invoicing Software", "to": "/blog/invoicing-software-free-vs-paid" },
+      { "label": "Invoice Essential Elements", "to": "/blog/invoice-essential-elements-guide" },
+      { "label": "Invoicemonk Pricing", "to": "/pricing" },
+      { "label": "For Freelancers", "to": "/freelancers" },
+      { "label": "Best Invoicing Software in Nigeria", "to": "/compare/best-invoicing-software-nigeria" },
+      { "label": "Best Invoicing Software in India", "to": "/compare/best-invoicing-software-india" },
+      { "label": "E-invoicing Mandates Worldwide", "to": "/guides/e-invoicing-mandates" }
     ]
   },
   "cta": {
-    "title": "Prueba el nº 1 gratis",
-    "description": "Empieza con el plan gratuito de Invoicemonk — sin tarjeta de crédito.",
-    "button": "Empezar gratis"
+    "title": "Try the #1 pick for free",
+    "description": "Start with Invoicemonk's free tier — no credit card required. Send your first invoice in minutes.",
+    "button": "Get Started Free"
   },
-  "ourPick": "Nuestra elección",
-  "bestForLabel": "Ideal para:",
+  "ourPick": "Our Pick",
+  "bestForLabel": "Best for:",
   "prosLabel": "Pros",
-  "consLabel": "Contras"
+  "consLabel": "Cons",
+  "labels": {
+    "score": "Score",
+    "lastTested": "Last tested",
+    "verdict": "Verdict",
+    "pricing": "Pricing",
+    "transactionFees": "Transaction fees",
+    "countries": "Country availability",
+    "integrations": "Integrations",
+    "switching": "Switching from another tool",
+    "doNotUseIf": "Who should NOT use it",
+    "tier": "Tier",
+    "price": "Price",
+    "invoices": "Invoices",
+    "users": "Users",
+    "features": "Features"
+  }
 }

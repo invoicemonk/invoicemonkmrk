@@ -244,6 +244,18 @@ const Accounting = () => {
         tabs={tabItems}
       />
 
+      {/* Accountant disclaimer — we complement, not replace */}
+      <section className="py-16 lg:py-20 bg-card">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="max-w-3xl mx-auto text-center">
+            <div className="bg-background rounded-2xl border border-border p-8 lg:p-10">
+              <h3 className="text-h3 text-heading mb-4">{t('disclaimer.title')}</h3>
+              <p className="text-body-lg text-muted-foreground">{t('disclaimer.body')}</p>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
       {/* Alternating Feature - Automation */}
       <WaveAlternatingFeature
         title={t('automation.title')}

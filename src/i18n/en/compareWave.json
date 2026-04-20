@@ -1,38 +1,38 @@
 {
   "seo": {
-    "title": "Invoicemonk vs Wave: Which Free Invoicing Software Is Better? | 2026",
-    "description": "Compare Invoicemonk and Wave side by side. Both offer free invoicing, but differ in currency support, global availability, credit notes, and features."
+    "title": "Invoicemonk vs Wave (2026): Free Invoicing With Audit Trail vs US/Canada Only",
+    "description": "Invoicemonk vs Wave in 2026: both offer free invoicing, but Invoicemonk works globally with multi-currency, credit notes and an immutable audit trail. Wave is US/Canada only and limited to USD/CAD."
   },
+  "lastUpdated": "Last updated: April 2026",
   "hero": {
-    "title": "Invoicemonk vs Wave",
-    "subtitle": "Both offer free invoicing — here's how they compare on features, availability, and flexibility."
+    "title": "Invoicemonk vs Wave (2026)",
+    "subtitle": "Both have free plans. Invoicemonk works globally with multi-currency, credit notes and an immutable audit trail on every plan. Wave is restricted to the US and Canada and invoices only in USD or CAD."
   },
   "overview": [
-    "Wave has been a popular choice for solo freelancers and very small businesses thanks to its completely free invoicing and accounting platform. It built a loyal following by removing the cost barrier entirely — you could send unlimited invoices and manage your books without paying a cent. But Wave's model comes with significant limitations that are often overlooked in surface-level comparisons.",
-    "The biggest limitation is geography. Since 2023, Wave is only available in the United States and Canada. If your business is based anywhere else — Nigeria, the UK, Australia, or any other country — Wave simply doesn't work for you. Even for US and Canadian businesses, Wave doesn't support multi-currency invoicing, which is increasingly essential as freelancers and small businesses work with international clients.",
-    "Invoicemonk takes a different approach. It offers a free tier that includes invoicing, expenses, and accounting — similar to Wave — but works globally with multi-currency support on every plan. Additional features like credit notes, an invoice verification portal, and tax compliance for multiple jurisdictions make Invoicemonk the more capable platform for businesses that operate internationally or plan to grow beyond a single market."
+    "Short answer: Invoicemonk is the better choice if you live anywhere outside the US or Canada, invoice in any non-USD/CAD currency, or need an immutable audit trail and credit notes. Wave is the better choice only if you are a US or Canada-based solo freelancer, invoice exclusively in USD or CAD, and need free US payroll add-ons.",
+    "Geography is the deciding factor. Wave has restricted new signups to the US and Canada since 2023 and supports invoicing only in USD or CAD. Invoicemonk works in every country with internet access and includes multi-currency on every plan — Starter (free, 5 invoices/mo), Pro ($29/mo, unlimited), SME ($129/mo, unlimited users) and Biz (custom, e-invoicing & government submission).",
+    "Compliance is the second gap. Every Invoicemonk invoice is hashed into an immutable audit trail and carries a QR code anyone can scan to verify authenticity — features that ship on the free Starter plan. Wave does not offer credit notes (you have to issue a negative invoice as a workaround), an immutable audit log, or invoice verification."
   ],
   "features": [
-    { "name": "Free invoicing", "invoicemonk": true, "competitor": true },
-    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": false },
-    { "name": "Expense tracking", "invoicemonk": true, "competitor": true },
-    { "name": "Recurring invoices", "invoicemonk": true, "competitor": true },
-    { "name": "Client management", "invoicemonk": true, "competitor": true },
-    { "name": "Invoice verification portal", "invoicemonk": true, "competitor": false },
-    { "name": "Built-in accounting", "invoicemonk": true, "competitor": true },
-    { "name": "Receipt scanning", "invoicemonk": true, "competitor": true },
-    { "name": "Credit notes", "invoicemonk": true, "competitor": false },
-    { "name": "Custom branding (free)", "invoicemonk": false, "competitor": false },
-    { "name": "Team access", "invoicemonk": "Professional+", "competitor": false },
-    { "name": "Availability", "invoicemonk": "Global", "competitor": "US & Canada only" }
+    { "name": "Free invoicing", "invoicemonk": "Yes (5 inv/mo)", "competitor": "Yes (unlimited)" },
+    { "name": "Country availability", "invoicemonk": "Global", "competitor": "US & Canada only" },
+    { "name": "Multi-currency invoicing", "invoicemonk": "Yes (every plan)", "competitor": "USD & CAD only" },
+    { "name": "Credit notes", "invoicemonk": "Yes", "competitor": "No" },
+    { "name": "Immutable audit trail", "invoicemonk": "Yes (every plan)", "competitor": "No" },
+    { "name": "QR-verified invoices", "invoicemonk": "Yes", "competitor": "No" },
+    { "name": "E-invoicing & gov submission", "invoicemonk": "Yes (Biz)", "competitor": "No" },
+    { "name": "Recurring invoices", "invoicemonk": "Yes (every plan)", "competitor": "Pro ($16/mo)" },
+    { "name": "Receipt scanning", "invoicemonk": "Yes", "competitor": "Yes (Pro)" },
+    { "name": "Team access", "invoicemonk": "Pro (up to 5), SME+ unlimited", "competitor": "No" },
+    { "name": "Payment processing fee", "invoicemonk": "No markup (via Stripe/Paystack)", "competitor": "2.9% + $0.60 (cards)" }
   ],
   "keyDifferences": {
-    "title": "Key differences explained",
+    "title": "What are the key differences between Invoicemonk and Wave?",
     "items": [
-      { "title": "Global availability", "desc": "Wave only operates in the US and Canada. Invoicemonk works worldwide with localized tax compliance for Nigeria (FIRS), UK (HMRC), US (IRS), Canada (CRA), and Australia (ATO). This makes Invoicemonk the default choice for anyone outside North America — and a better choice for North American businesses with international clients." },
-      { "title": "Multi-currency support", "desc": "Wave invoices only in USD and CAD. Invoicemonk supports all major currencies on every plan, including the free tier. For freelancers with even one international client, this difference alone can justify the switch — billing in a client's currency accelerates payment and reduces disputes." },
-      { "title": "Credit notes and corrections", "desc": "Wave has no credit note functionality. If you need to issue a refund, correction, or adjustment, you must create workarounds that don't follow proper accounting standards. Invoicemonk has built-in credit notes that link to original invoices, maintain proper accounting treatment, and keep your books audit-ready." },
-      { "title": "Revenue model", "desc": "Wave is free but monetizes through payment processing fees (2.9% + $0.60 per credit card transaction) and payroll services. Invoicemonk's free tier is genuinely free with no transaction fees. Paid plans add features like unlimited currency accounts and team access — you choose when and if you upgrade." }
+      { "title": "Where can each be used?", "desc": "Wave restricted new signups to the US and Canada in 2023. Invoicemonk works worldwide with country-specific tax presets for Nigeria (FIRS), UK (HMRC MTD), US (IRS), Canada (CRA), Australia (ATO), Saudi Arabia (ZATCA) and EU PEPPOL." },
+      { "title": "How many currencies are supported?", "desc": "Wave only invoices in USD and CAD. Invoicemonk supports every major currency (USD, EUR, GBP, NGN, INR, CAD, AUD, ZAR, KES and more) on every plan, including the free Starter tier." },
+      { "title": "Can each handle credit notes and corrections?", "desc": "Wave has no native credit-note support — you have to issue a negative invoice. Invoicemonk has built-in credit notes that link to the original invoice, preserve the audit chain and keep books reconciled." },
+      { "title": "What audit-trail protection do you get?", "desc": "Wave offers basic activity logs. Invoicemonk hashes every invoice, payment, edit and credit note into an append-only audit trail on every plan — your year-end and tax-audit defense without an upgrade." }
     ]
   },
   "choose": {
@@ -40,60 +40,58 @@
       "title": "Choose Invoicemonk if you…",
       "items": [
         "Are based outside the US or Canada",
-        "Need multi-currency invoicing for international clients",
-        "Want credit notes and invoice verification",
-        "Need tax compliance beyond US/Canada",
-        "Want team access as your business grows"
+        "Invoice (or might invoice) in EUR, GBP, NGN, INR, AUD or any non-USD/CAD currency",
+        "Need credit notes, refund tracking or invoice corrections",
+        "Want an immutable audit trail and QR-verified invoices",
+        "Need team access as your business grows"
       ]
     },
     "competitor": {
       "title": "Choose Wave if you…",
       "items": [
-        "Are US or Canada-based with only domestic clients",
-        "Need built-in US payroll processing",
-        "Want direct bank connections (US banks)",
+        "Are a US- or Canada-based solo freelancer",
         "Only invoice in USD or CAD",
-        "Don't need credit notes or team features"
+        "Want a free US payroll add-on inside the same tool",
+        "Don't need credit notes, multi-currency or team access",
+        "Are happy without an immutable audit trail"
       ]
     }
   },
   "migration": {
-    "title": "How to migrate from Wave to Invoicemonk",
+    "title": "How do I migrate from Wave to Invoicemonk?",
     "steps": [
-      { "title": "Export your Wave data", "desc": "In Wave, go to Settings → Data Export. Download your customers, invoices, and transactions as CSV files." },
-      { "title": "Sign up for Invoicemonk", "desc": "Create a free account at app.invoicemonk.com. Set up your business profile, logo, and tax configuration." },
-      { "title": "Import your clients", "desc": "Upload your customer CSV. Invoicemonk maps names, emails, and addresses automatically." },
-      { "title": "Configure your currencies", "desc": "If you now work with international clients, set up currency accounts for each market you serve." },
-      { "title": "Start invoicing globally", "desc": "Send your first invoice from Invoicemonk — in any currency, to any country." }
+      { "title": "Export your Wave data", "desc": "Wave → Settings → Data Export. Download customers, invoices and transactions as CSV." },
+      { "title": "Create your Invoicemonk account", "desc": "Sign up free at app.invoicemonk.com. Add business profile, logo and tax ID in under 5 minutes." },
+      { "title": "Import customers and history", "desc": "Upload the Wave CSVs. Names, emails, addresses and invoice history map automatically." },
+      { "title": "Set up multi-currency accounts", "desc": "Add a currency account for every market you invoice — EUR, GBP, NGN and more — included on every plan." },
+      { "title": "Send a globally-compliant invoice", "desc": "Your first Invoicemonk invoice is hashed, QR-verifiable, and ready for any tax authority." }
     ]
   },
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Is Invoicemonk better than Wave?", "answer": "For businesses outside the US and Canada, Invoicemonk is the clear choice — Wave is only available in those two markets. Even within the US and Canada, Invoicemonk offers multi-currency invoicing, credit notes, and an invoice verification portal that Wave lacks. Wave's advantage is its completely free model (monetized through payment processing fees) and built-in payroll for US businesses." },
-      { "question": "Is Wave really free?", "answer": "Wave's invoicing and accounting are free, but the company monetizes through payment processing fees (2.9% + $0.60 per credit card transaction) and payroll services. Invoicemonk also has a free tier with invoicing, expenses, and accounting — but its paid plans offer more features at competitive prices without taking a percentage of your transactions." },
-      { "question": "Can I switch from Wave to Invoicemonk?", "answer": "Yes. Export your client and invoice data from Wave as CSV files and import them into Invoicemonk. The migration process typically takes 15–30 minutes. Our support team can assist with data mapping if needed." },
-      { "question": "Why did Wave stop working in my country?", "answer": "Wave restricted its service to the US and Canada in 2023. If you were using Wave from another country, you need an alternative. Invoicemonk is built for global use with tax compliance for Nigeria, UK, US, Canada, and Australia — and works anywhere in the world." },
-      { "question": "Does Wave support multi-currency invoicing?", "answer": "No. Wave only supports invoicing in USD and CAD. If you have international clients or need to bill in other currencies, Invoicemonk is the better choice with support for all major world currencies on every plan, including the free tier." },
-      { "question": "Which has better accounting features?", "answer": "Both offer double-entry accounting with chart of accounts, financial reports, and transaction categorization. Wave's accounting is completely free. Invoicemonk's accounting is included on all plans and adds multi-currency consolidation and compliance-focused reports that Wave doesn't offer." },
-      { "question": "Can Wave handle credit notes?", "answer": "No. Wave does not support credit notes or invoice corrections. If you need to issue refunds, adjustments, or corrections, you have to create manual workarounds. Invoicemonk has built-in credit note support with proper accounting treatment." }
+      { "question": "Is Invoicemonk better than Wave?", "answer": "For 95% of users — yes. Wave is restricted to the US and Canada and only invoices in USD or CAD. Invoicemonk works globally with multi-currency, credit notes, immutable audit trails and QR-verified invoices on every plan, including the free Starter tier (5 invoices/month). Wave still wins for US-only solo freelancers who need free integrated payroll." },
+      { "question": "Is Wave really free?", "answer": "Wave's invoicing and accounting are free, but the company monetizes through payment processing (2.9% + $0.60 per card transaction) and payroll. Invoicemonk's Starter plan is also free (5 invoices/mo) with no markup on payment processing — you pay your gateway (Stripe/Paystack/Flutterwave) directly." },
+      { "question": "Why doesn't Wave work in my country?", "answer": "Wave withdrew from all markets outside the US and Canada in 2023. If you signed up before that, your account may still work, but you can no longer add new features in restricted markets. Invoicemonk is built for global use with localized tax compliance for 8+ jurisdictions." },
+      { "question": "Does Wave support multi-currency?", "answer": "No. Wave only invoices in USD and CAD. If you have even one international client, Invoicemonk is the safer choice — multi-currency is included on the free Starter plan and every paid tier." },
+      { "question": "Can Wave issue credit notes?", "answer": "No. Wave has no native credit-note feature — refunds and corrections require manual workarounds (negative invoices) that break the audit trail. Invoicemonk has built-in credit notes that link to the original invoice and preserve the hash chain." }, 
+      { "question": "Which has stronger audit and compliance features?", "answer": "Invoicemonk by a wide margin. Every invoice, payment, edit and credit note is hashed into an immutable audit log on every plan. Each invoice carries a QR code clients and tax authorities can scan to verify. Wave offers neither." },
+      { "question": "Can I switch from Wave to Invoicemonk?", "answer": "Yes. Export customers, invoices and transactions from Wave as CSV, then bulk-import via Invoicemonk's dashboard. Most migrations take 15–30 minutes." }
     ]
   },
   "related": {
     "title": "More comparisons",
     "links": [
       { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Invoicemonk vs Zoho", "to": "/compare/invoicemonk-vs-zoho-invoice" },
+      { "label": "Invoicemonk vs Zoho Invoice", "to": "/compare/invoicemonk-vs-zoho-invoice" },
       { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Invoicemonk vs Dext", "to": "/compare/invoicemonk-vs-dext" },
-      { "label": "Invoicemonk vs Stripe", "to": "/compare/invoicemonk-vs-stripe" },
-      { "label": "Estimates vs QuickBooks", "to": "/compare/invoicemonk-estimates-vs-quickbooks" },
+      { "label": "Invoicemonk vs Stripe Invoicing", "to": "/compare/invoicemonk-vs-stripe" },
       { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
     ]
   },
   "cta": {
-    "title": "Try the global alternative to Wave",
-    "description": "Free invoicing that works everywhere, not just the US and Canada.",
+    "title": "Try the global, audit-ready alternative to Wave",
+    "description": "Free invoicing that works in every country — with multi-currency and immutable audit trail on every plan.",
     "button": "Get Started Free"
   }
 }

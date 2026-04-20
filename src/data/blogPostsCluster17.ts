@@ -11,10 +11,10 @@ export const cluster17Posts: BlogPost[] = [
   {
     slug: 'france-e-invoicing-ppf-pdp-guide',
     title: `France E-Invoicing Guide: PPF, PDP & e-Reporting Mandate (2026)`,
-    excerpt: `France mandates e-invoicing (PPF/PDP) from 2026. Get your comprehensive guide to the e-reporting system.`,
-    content: `France's e-invoicing mandate introduces a phased rollout starting September 1, 2026, requiring all businesses to receive e-invoices. Large enterprises must emit e-invoices by this date, with medium and small businesses following by September 1, 2027. Non-compliance can lead to penalties of €15 per missing e-invoice or e-reporting transaction, capped at €15,000 annually per category, as per DGFiP guidelines.
+    excerpt: `France's e-invoicing mandate starts September 1, 2026 for receiving and large-business emission. Learn the PPF/PDP Y-scheme, Factur-X format, and €15-per-invoice penalties (capped €15,000/year).`,
+    content: `<p>France's e-invoicing mandate launches <strong>September 1, 2026</strong>, requiring every VAT-registered business to receive structured e-invoices, with large enterprises also required to emit them. Mid-size and micro-enterprises must emit from <strong>September 1, 2027</strong>. The system uses a Y-scheme between the public PPF platform and certified private PDPs, with Factur-X, UBL 2.1, or CII as accepted formats. Non-compliance: <strong>€15 per missing e-invoice or e-reporting transaction, capped at €15,000 per year per category</strong>, per DGFiP guidelines.</p>
 
-<h2>What is France's E-Invoicing and E-Reporting Mandate?</h2>
+<h2>What Is France's E-Invoicing and E-Reporting Mandate?</h2>
 
 France is implementing a comprehensive e-invoicing and e-reporting mandate to modernize its tax administration, combat VAT fraud, and streamline business processes. This initiative, governed by the Direction Générale des Finances Publiques (DGFiP), requires businesses to issue and receive electronic invoices and to report transaction data electronically. The mandate is based on the Finance Law 2024, subsequently amended by Finance Law 2026, and is set for a phased rollout beginning September 1, 2026. This system mandates the use of specific electronic formats like Factur-X, UBL 2.1, or CII, and routing through certified platforms.
 
@@ -486,7 +486,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['fr', 'ppf-pdp', 'e-invoicing', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-04-20',
     readTime: '18 min read',
     featuredImage: '/images/blog/e-invoicing-fr-hero.jpg',
     featuredImageAlt: `France E-Invoicing Guide: PPF, PDP & e-Reporting Mandate (2026)`,
@@ -496,13 +496,15 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     semanticKeywords: ['e-invoicing france', 'e-invoicing e-reporting', 'pdp e-invoicing', 'e-invoicing 2026'],
     priority: 'P1',
     targetCountry: 'fr',
-    lastAudited: '2026-04-16',
+    lastAudited: '2026-04-20',
     faq: [
       { question: `What are the key deadlines for the French e-invoicing mandate in 2026?`, answer: `Starting September 1, 2026, all businesses must be able to receive e-invoices. Large enterprises (ETI and grandes entreprises) will also be required to emit e-invoices from this date.` },
       { question: `When will mid-size and smaller businesses need to comply with the e-invoicing emission mandate?`, answer: `Mid-size enterprises (PME) and micro-enterprises/TPE will be required to emit e-invoices starting September 1, 2027. The e-reporting obligations will follow the same phased timeline as the emission requirements.` },
       { question: `What is the penalty for not complying with the e-invoicing mandate in France?`, answer: `Failure to issue an e-invoice will incur a penalty of €15 per invoice, with an annual cap of €15,000. Not adhering to e-reporting requirements will result in a €15 penalty per transaction, also capped at €15,000 annually.` },
       { question: `Is there any leniency for the initial period of the French e-invoicing mandate?`, answer: `Yes, the DGFiP has confirmed a first offense tolerance period for the initial phase of the mandate. This allows businesses a grace period for initial non-compliance.` },
-      { question: `What is the anticipated timeline for the PPF and PDP system rollout in France?`, answer: `A pilot program for the new system was launched in January 2025 with a select group of companies. The full rollout is aligned with the phased deadlines for e-invoicing emission and reception obligations.` }
+      { question: `What is the anticipated timeline for the PPF and PDP system rollout in France?`, answer: `A pilot program for the new system was launched in January 2025 with a select group of companies. The full rollout is aligned with the phased deadlines for e-invoicing emission and reception obligations.` },
+      { question: `What is the difference between PPF and PDP in France?`, answer: `The Portail Public de Facturation (PPF) is the free public e-invoicing platform run by the DGFiP, suited to small businesses with low volumes. PDPs (Plateformes de Dématérialisation Partenaires) are certified private platforms offering ERP integration, archiving, and value-added services. Both route invoices through the central PPF directory.` },
+      { question: `Which e-invoice formats are accepted in France from 2026?`, answer: `Three structured formats are accepted: Factur-X (hybrid PDF/XML based on EN 16931, recommended by DGFiP), UBL 2.1 (Universal Business Language XML), and CII (Cross Industry Invoice based on UN/CEFACT). All must comply with the EN 16931 European standard.` }
     ],
     relatedTools: [
       { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance status' },

@@ -215,6 +215,7 @@ export function Footer() {
     company: [
       { name: t('footer.about'), href: '/about' },
       { name: t('footer.whyInvoicemonk'), href: '/why-invoicemonk' },
+      { name: t('nav.platform', 'Platform'), href: '/platform' },
       { name: t('footer.compliance'), href: '/compliance' },
       { name: t('nav.pricing'), href: '/pricing' },
       { name: t('footer.contact'), href: '/contact' },

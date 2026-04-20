@@ -142,8 +142,38 @@ const WhyInvoicemonk = () => {
         </div>
       </section>
 
+      {/* Audience callouts — Freelancers / SMBs / Accountants */}
+      <section className="py-20 lg:py-32 bg-card">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
+            <h2 className="text-h2 text-heading mb-4">{t('audiences.title')}</h2>
+            <p className="text-body-lg text-muted-foreground">{t('audiences.subtitle')}</p>
+          </AnimatedSection>
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {(t('audiences.items', { returnObjects: true }) as { title: string; description: string }[]).map((item, i) => {
+              const icons = [Heart, Layers, FileText];
+              const Icon = icons[i % icons.length];
+              return (
+                <StaggerItem key={item.title}>
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300"
+                  >
+                    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
+                      <Icon className="w-7 h-7 text-primary" />
+                    </div>
+                    <h3 className="text-h4 text-heading mb-3">{item.title}</h3>
+                    <p className="text-body text-muted-foreground">{item.description}</p>
+                  </motion.div>
+                </StaggerItem>
+              );
+            })}
+          </StaggerContainer>
+        </div>
+      </section>
+
       {/* Trust Indicators */}
-      <section className="py-20 bg-card">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="max-w-5xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

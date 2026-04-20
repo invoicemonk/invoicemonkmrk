@@ -106,12 +106,13 @@
     "title": "Partner Dashboard",
     "subtitle": "Everything you need to track and grow your referral business.",
     "features": [
+      "Click-to-conversion tracking with attribution timelines",
+      "Pending vs locked commission breakdown by month",
       "Total clicks, signups, and active customers",
       "Earnings breakdown by currency",
       "Full referral history with status tracking",
-      "Commission history with lifecycle stages",
-      "Payout history and upcoming batches",
-      "Custom referral link management"
+      "Payouts dashboard with batch history and upcoming releases",
+      "Custom referral link management with short codes"
     ]
   },
   "terms": {

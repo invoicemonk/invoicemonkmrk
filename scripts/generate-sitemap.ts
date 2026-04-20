@@ -103,6 +103,7 @@ const staticPages: PageEntry[] = [
   { path: '/receipts', priority: 0.9, changefreq: 'weekly' },
   { path: '/pricing', priority: 0.8, changefreq: 'weekly' },
   { path: '/why-invoicemonk', priority: 0.8, changefreq: 'monthly' },
+  { path: '/platform', priority: 0.8, changefreq: 'monthly' },
   { path: '/compliance', priority: 0.8, changefreq: 'monthly' },
   { path: '/about', priority: 0.7, changefreq: 'monthly' },
   { path: '/contact', priority: 0.6, changefreq: 'monthly' },

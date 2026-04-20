@@ -34,17 +34,23 @@ export const cluster12Posts: BlogPost[] = [
       { name: 'Making Tax Digital', type: 'GovernmentPolicy', sameAs: 'https://en.wikipedia.org/wiki/Making_Tax_Digital' },
       { name: 'Peppol', type: 'Technology', sameAs: 'https://www.wikidata.org/wiki/Q1502948' },
     ],
+    lastAudited: '2026-04-20',
     faq: [
       { question: 'Is e-invoicing mandatory in the UK?', answer: 'Not yet for B2B. However, Making Tax Digital (MTD) requires all VAT-registered businesses to keep digital records and submit VAT returns via MTD-compatible software. The UK government is exploring mandatory B2B e-invoicing aligned with the Peppol framework, with potential implementation from 2028.' },
       { question: 'What is Making Tax Digital?', answer: 'MTD is HMRC\'s programme to digitise the UK tax system. Since April 2022, all VAT-registered businesses must use MTD-compatible software to keep VAT records digitally and submit VAT returns. MTD for Income Tax Self Assessment launches in April 2026 for self-employed individuals and landlords with income above £50,000.' },
       { question: 'Do I need MTD-compatible software?', answer: 'Yes, if you\'re VAT-registered. HMRC requires you to use software that can connect to HMRC systems via API to submit VAT returns. Spreadsheets alone are not sufficient — you need MTD-compatible bridging software or a fully compatible accounting/invoicing tool.' },
+      { question: 'When does MTD for Income Tax start in the UK?', answer: 'MTD for ITSA starts April 2026 for self-employed individuals and landlords with combined business/property income above £50,000. The threshold drops to £30,000 from April 2027 and is expected to reach £20,000 in a future phase.' },
+      { question: 'What is the UK VAT registration threshold in 2026?', answer: 'The UK VAT registration threshold is £90,000 of taxable turnover (raised from £85,000 in April 2024). Businesses below this can register voluntarily; once above, they must register and use MTD-compatible software.' },
+      { question: 'How does the CIS reverse charge change UK invoicing?', answer: 'Under the Construction Industry Scheme domestic reverse charge (in force since March 2021), subcontractors do not charge VAT on in-scope services. Their invoices must state "reverse charge: VAT Act 1994 Section 55A applies" and the contractor accounts for the VAT on their own return.' },
     ],
     content: `
-      <h2>The UK's Path to Digital Tax: MTD and E-Invoicing</h2>
+      <p><strong>UK B2B e-invoicing is not yet mandatory, but Making Tax Digital (MTD) for VAT already is.</strong> Since April 2022, every VAT-registered UK business must keep digital VAT records and file returns through MTD-compatible software via HMRC's API. MTD for Income Tax Self Assessment follows in April 2026 (income above £50,000) and April 2027 (above £30,000), with full B2B e-invoicing expected between 2028 and 2030 on the Peppol network.</p>
+
+      <h2>What Is the UK's Path to Digital Tax (MTD and E-Invoicing)?</h2>
       <p>The United Kingdom is in the middle of one of the most significant tax digitalisation programmes in the world. <strong>Making Tax Digital (MTD)</strong> — launched by <a href="https://www.gov.uk/government/organisations/hm-revenue-customs">HMRC</a> — requires businesses to keep digital records and submit tax returns through compatible software. While mandatory B2B e-invoicing hasn't arrived yet, the groundwork is being laid.</p>
       <p>For UK small businesses and freelancers, understanding the difference between MTD compliance (which is already mandatory) and full e-invoicing (which is coming) is essential to staying ahead of the curve.</p>
 
-      <h2>Making Tax Digital: What's Already Mandatory</h2>
+      <h2>What Parts of Making Tax Digital Are Already Mandatory?</h2>
       <h3>MTD for VAT (Live Since April 2022)</h3>
       <p>All VAT-registered businesses — regardless of turnover — must now:</p>
       <ul>
@@ -63,7 +69,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
       <p>The threshold drops to <strong>£30,000</strong> from April 2027. This is a significant change for freelancers and sole traders who have previously filed simple Self Assessment returns.</p>
 
-      <h2>UK Invoice Requirements: What HMRC Mandates</h2>
+      <h2>What Does HMRC Require on a UK VAT Invoice?</h2>
       <p>Even without mandatory e-invoicing, HMRC has strict requirements for <a href="/blog/tax-compliant-invoice-uk">tax-compliant invoices</a>. Every VAT invoice must include:</p>
       <ul>
         <li>A unique, sequential invoice number</li>
@@ -83,7 +89,7 @@ export const cluster12Posts: BlogPost[] = [
       <h3>The VAT Flat Rate Scheme</h3>
       <p>If you use the <strong>VAT Flat Rate Scheme</strong> (for businesses with turnover under £150,000), your invoicing requirements are slightly different. You charge VAT at the standard rate (20%) on your invoices but pay HMRC a flat percentage of your gross turnover. Your invoices must still show 20% VAT — the flat rate calculation is an internal matter between you and HMRC.</p>
 
-      <h2>E-Invoicing in the UK: Where Things Are Heading</h2>
+      <h2>Where Is UK E-Invoicing Heading?</h2>
       <h3>Peppol and the UK E-Invoicing Framework</h3>
       <p>The UK is a member of the <strong>Peppol</strong> network — the same pan-European e-invoicing infrastructure used by 39 countries. The UK's Peppol Authority manages the framework, and HMRC has signalled its intent to build on Peppol for future B2B e-invoicing mandates.</p>
       <p>Currently, Peppol e-invoicing is:</p>
@@ -103,7 +109,7 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>Interoperability with EU systems</strong> — aligned with EN 16931 standard</li>
       </ul>
 
-      <h2>CIS Reverse Charge: A Special UK Invoicing Rule</h2>
+      <h2>What Is the CIS Reverse Charge for UK Construction?</h2>
       <p>If you work in the <strong>Construction Industry Scheme (CIS)</strong>, the domestic reverse charge for building services changed how you invoice. Since March 2021:</p>
       <ul>
         <li>Subcontractors do <strong>not</strong> charge VAT on services within scope of the reverse charge</li>
@@ -112,7 +118,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
       <p>This affects subcontractors, contractors, and anyone in the construction supply chain. Your invoicing software must support the CIS reverse charge to generate compliant invoices.</p>
 
-      <h2>How to Comply: Step-by-Step for UK Businesses</h2>
+      <h2>How Do UK Businesses Comply With MTD? (Step-by-Step)</h2>
       <ol>
         <li><strong>Check your VAT registration status</strong> — if turnover exceeds £90,000, you must be registered and using MTD-compatible software</li>
         <li><strong>Choose MTD-compatible invoicing software</strong> — it must connect to HMRC via API. <a href="/free-invoice-generator">Invoicemonk</a> supports UK VAT invoicing with correct 20% rate, GBP formatting, and all mandatory fields</li>
@@ -122,7 +128,7 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>Watch for e-invoicing updates</strong> — when Peppol-based B2B e-invoicing becomes mandatory, you'll need software that supports structured invoice formats</li>
       </ol>
 
-      <h2>UK vs Other Countries: E-Invoicing Comparison</h2>
+      <h2>How Does the UK Compare to Other E-Invoicing Countries?</h2>
       <p>The UK is behind Italy, India, and Saudi Arabia in e-invoicing adoption but ahead of the US and Canada:</p>
       <ul>
         <li><strong>Italy</strong> — mandatory B2B e-invoicing via SDI since 2019</li>
@@ -132,7 +138,7 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>US</strong> — no federal mandate, voluntary Peppol adoption</li>
       </ul>
 
-      <h2>Key Dates for UK Businesses</h2>
+      <h2>What Are the Key MTD and E-Invoicing Dates for UK Businesses?</h2>
       <table>
         <thead><tr><th>Date</th><th>Milestone</th></tr></thead>
         <tbody>
@@ -164,6 +170,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/uk-mtd-software.jpg',
     featuredImageAlt: 'MTD-compatible software dashboard showing VAT return submission',
@@ -234,6 +241,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/uk-invoice-requirements.jpg',
     featuredImageAlt: 'Checklist showing mandatory UK invoice fields required by HMRC',
@@ -321,6 +329,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/uk-frs-invoicing.jpg',
     featuredImageAlt: 'UK business owner calculating VAT using the Flat Rate Scheme',
@@ -380,6 +389,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/uk-cis-invoicing.jpg',
     featuredImageAlt: 'Construction contractor reviewing CIS reverse charge invoice requirements',
@@ -464,6 +474,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '7 min read',
     featuredImage: '/images/blog/uk-mtd-timeline.jpg',
     featuredImageAlt: 'Timeline showing Making Tax Digital key dates from 2022 to 2028',
@@ -560,16 +571,18 @@ export const cluster12Posts: BlogPost[] = [
   {
     slug: 'e-invoicing-saudi-zatca-fatoorah',
     title: 'ZATCA E-Invoicing (Fatoorah) in Saudi Arabia: Complete Guide for Businesses (2026)',
-    excerpt: 'Everything businesses need to know about Saudi Arabia\'s ZATCA FATOORAH e-invoicing — Phase 1, Phase 2 integration, penalties, XML/QR requirements, and how to comply.',
+    excerpt: 'Saudi Arabia\'s ZATCA FATOORAH mandates e-invoicing for all VAT-registered businesses. Phase 1 active since Dec 2021, Phase 2 rolling out in waves with penalties up to SAR 50,000.',
     category: 'Tax & Compliance',
     tags: ['e-invoicing', 'ZATCA', 'Saudi Arabia', 'Fatoorah', 'VAT', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-04-20',
+    lastAudited: '2026-04-20',
     readTime: '18 min read',
     featuredImage: '/images/blog/e-invoicing-saudi.jpg',
     featuredImageAlt: 'Saudi business owner reviewing ZATCA Fatoorah e-invoicing requirements',
-    clusterType: 'cluster',
+    clusterType: 'pillar',
+    pillarContent: true,
     targetProduct: '/compliance',
     targetCountry: 'sa',
     semanticKeywords: ['ZATCA e-invoicing', 'Fatoorah Saudi Arabia', 'Saudi e-invoice', 'ZATCA compliance', 'Saudi VAT invoicing'],
@@ -583,13 +596,16 @@ export const cluster12Posts: BlogPost[] = [
       { question: 'Is e-invoicing mandatory in Saudi Arabia?', answer: 'Yes. Phase 1 (Generation) has been mandatory for all VAT-registered businesses since 4 December 2021. Phase 2 (Integration) is being rolled out in waves based on revenue thresholds — businesses must connect their systems to ZATCA\'s FATOORAH platform for real-time invoice validation.' },
       { question: 'What is ZATCA Phase 2?', answer: 'Phase 2 requires businesses to integrate their invoicing systems with ZATCA\'s FATOORAH platform via API. Invoices are validated and stamped by ZATCA in near-real-time before being shared with buyers. Phase 2 is rolling out in waves — the first wave covered businesses with revenue above SAR 3 billion.' },
       { question: 'What format must Saudi e-invoices use?', answer: 'Saudi e-invoices must be in XML format based on the UBL 2.1 standard. They must include a QR code containing the seller\'s name, VAT number, invoice date, total with VAT, and VAT amount. Phase 2 invoices must also include a cryptographic stamp from ZATCA.' },
+      { question: 'How much is VAT in Saudi Arabia?', answer: 'The standard VAT rate in Saudi Arabia is 15%, increased from 5% in July 2020. Some goods and services are zero-rated (exports, international transport) or exempt (financial services, residential real estate).' },
+      { question: 'What is the difference between standard and simplified Saudi invoices?', answer: 'Standard tax invoices (B2B) require full buyer details including VAT registration number. Simplified invoices (B2C) need fewer buyer fields but must include a QR code, seller VAT number, invoice date, total with VAT, and VAT amount.' },
+      { question: 'When is my business included in ZATCA Phase 2?', answer: 'ZATCA notifies businesses at least 6 months before their wave go-live date. Wave 1 (Jan 2023) covered SAR 3B+ revenue, with progressive thresholds added each wave. Check your wave assignment via the ZATCA portal at zatca.gov.sa.' },
+      { question: 'Can foreign companies issue Saudi e-invoices?', answer: 'Yes. Non-resident businesses with Saudi VAT registration must comply with FATOORAH requirements. They typically appoint a local tax representative to handle ZATCA integration and digital certificate management.' },
     ],
     content: `
-      <h2>Saudi Arabia's E-Invoicing Revolution</h2>
-      <p>Saudi Arabia has one of the most ambitious e-invoicing programmes in the world. Under the <strong>FATOORAH</strong> initiative, the <a href="https://zatca.gov.sa">Zakat, Tax and Customs Authority (ZATCA)</a> has mandated electronic invoicing for all VAT-registered businesses — with real-time government integration rolling out in phases.</p>
-      <p>For businesses operating in the Kingdom, compliance is not optional. Non-compliant invoices can result in fines of <strong>SAR 5,000 to SAR 50,000</strong> per violation.</p>
+      <h2>What Is Saudi Arabia's FATOORAH E-Invoicing System?</h2>
+      <p>FATOORAH is Saudi Arabia's mandatory e-invoicing programme operated by the <a href="https://zatca.gov.sa">Zakat, Tax and Customs Authority (ZATCA)</a>. It requires every VAT-registered business in the Kingdom to generate, transmit, and store invoices electronically — with Phase 2 adding real-time API clearance and cryptographic stamping. Non-compliance carries fines of <strong>SAR 5,000 to SAR 50,000</strong> per violation under the VAT Law.</p>
 
-      <h2>Phase 1: Generation (Mandatory Since December 2021)</h2>
+      <h2>When Did Saudi E-Invoicing Become Mandatory?</h2>
       <p>Phase 1 requires all VAT-registered businesses to:</p>
       <ul>
         <li><strong>Generate e-invoices</strong> using a compliant electronic invoicing solution (no handwritten or scanned invoices)</li>
@@ -706,6 +722,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '12 min read',
     featuredImage: '/images/blog/saudi-zatca-phase2.jpg',
     featuredImageAlt: 'Technical diagram showing ZATCA Phase 2 API integration flow',
@@ -804,6 +821,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/saudi-xml-qr.jpg',
     featuredImageAlt: 'Saudi e-invoice showing XML structure and QR code',
@@ -904,6 +922,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/saudi-vat-invoice.jpg',
     featuredImageAlt: 'Saudi VAT invoice showing mandatory fields and 15% VAT calculation',
@@ -994,6 +1013,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '7 min read',
     featuredImage: '/images/blog/saudi-zatca-penalties.jpg',
     featuredImageAlt: 'Warning sign showing ZATCA penalty amounts for e-invoicing non-compliance',
@@ -1066,16 +1086,18 @@ export const cluster12Posts: BlogPost[] = [
   {
     slug: 'e-invoicing-malaysia-myinvois-guide',
     title: 'MyInvois E-Invoicing in Malaysia: Complete Guide for Businesses (2026)',
-    excerpt: 'Everything Malaysian businesses need to know about LHDN\'s MyInvois e-invoicing system — timeline, technical requirements, penalties, and compliance steps.',
+    excerpt: 'Malaysia\'s MyInvois mandate covers all businesses by July 2025. LHDN-validated XML/JSON e-invoices are required, with fines up to RM 20,000 per non-compliant invoice.',
     category: 'Tax & Compliance',
     tags: ['e-invoicing', 'MyInvois', 'Malaysia', 'LHDN', 'SST', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-04-20',
+    lastAudited: '2026-04-20',
     readTime: '16 min read',
     featuredImage: '/images/blog/e-invoicing-malaysia.jpg',
     featuredImageAlt: 'Malaysian business owner reviewing MyInvois e-invoicing requirements',
-    clusterType: 'cluster',
+    clusterType: 'pillar',
+    pillarContent: true,
     targetProduct: '/compliance',
     targetCountry: 'my',
     semanticKeywords: ['MyInvois Malaysia', 'LHDN e-invoicing', 'Malaysia e-invoice', 'MyInvois compliance', 'Malaysia e-invoicing guide'],
@@ -1089,13 +1111,16 @@ export const cluster12Posts: BlogPost[] = [
       { question: 'Is e-invoicing mandatory in Malaysia?', answer: 'Yes. Malaysia\'s MyInvois system is being rolled out in phases. Since August 2024, businesses with annual turnover exceeding RM 100 million must use MyInvois. All remaining businesses must comply by July 2025. The system is managed by LHDN (Inland Revenue Board).' },
       { question: 'What is MyInvois?', answer: 'MyInvois is Malaysia\'s centralized e-invoicing platform operated by LHDN. It validates e-invoices in real-time, providing a unique identifier and QR code for each validated invoice. Businesses can integrate via API or use the MyInvois portal directly.' },
       { question: 'What format do Malaysian e-invoices use?', answer: 'MyInvois uses XML or JSON format based on the Peppol BIS Billing 3.0 standard (UBL 2.1). Each e-invoice must include a unique identifier (IRBM Unique Identifier Number) and a QR code linking to the validated invoice on the MyInvois portal.' },
+      { question: 'What are the SST rates in Malaysia?', answer: 'Sales Tax: 10% on most manufactured goods (5% for some food items). Service Tax: 6% standard rate, expanded to 8% for certain services from March 2024. SST replaced GST in September 2018.' },
+      { question: 'How long do buyers have to reject a MyInvois e-invoice?', answer: 'Buyers have 72 hours from receipt to reject a validated e-invoice via the MyInvois platform. Common rejection reasons include incorrect buyer details, wrong amounts, or services not received. After 72 hours, the invoice is automatically accepted.' },
+      { question: 'What is the IRBM Unique Identifier Number?', answer: 'The IRBM Unique Identifier Number is a system-generated reference assigned by LHDN to every validated MyInvois e-invoice. It must appear on the invoice PDF and is encoded in the QR code that links back to the MyInvois validation record.' },
+      { question: 'Do MEIs and small Malaysian businesses need to comply?', answer: 'Yes. From July 1, 2025, all taxpayers including sole proprietors and micro-businesses must use MyInvois. Low-volume businesses can use the free MyInvois portal manually rather than integrating via API.' },
     ],
     content: `
-      <h2>Malaysia's E-Invoicing Transformation</h2>
-      <p>Malaysia is implementing one of Southeast Asia's most comprehensive e-invoicing systems. <strong>MyInvois</strong>, managed by <a href="https://www.hasil.gov.my">LHDN (Lembaga Hasil Dalam Negeri / Inland Revenue Board)</a>, requires all businesses to issue, validate, and store invoices electronically through a centralized government platform.</p>
-      <p>Unlike some countries that focused only on large businesses, Malaysia's roadmap brings <strong>all taxpayers</strong> — including sole proprietors and SMEs — into the e-invoicing system by July 2025.</p>
+      <h2>What Is Malaysia's MyInvois E-Invoicing Mandate?</h2>
+      <p>MyInvois is Malaysia's mandatory e-invoicing platform operated by <a href="https://www.hasil.gov.my">LHDN (Lembaga Hasil Dalam Negeri)</a>. It validates every B2B, B2G, and B2C invoice in real-time using PEPPOL BIS Billing 3.0 (UBL 2.1) format, returning an IRBM Unique Identifier Number and QR code. The mandate covers all VAT-equivalent (SST) businesses by <strong>1 July 2025</strong>, with non-compliance fines of up to <strong>RM 20,000</strong> per invoice and possible imprisonment up to 6 months.</p>
 
-      <h2>MyInvois Rollout Timeline</h2>
+      <h2>When Does MyInvois Apply to My Business?</h2>
       <table>
         <thead><tr><th>Phase</th><th>Criteria</th><th>Mandatory Date</th></tr></thead>
         <tbody>
@@ -1203,6 +1228,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/malaysia-myinvois-timeline.jpg',
     featuredImageAlt: 'Timeline showing Malaysia MyInvois rollout phases from 2024 to 2026',
@@ -1295,6 +1321,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '11 min read',
     featuredImage: '/images/blog/malaysia-einvoice-tech.jpg',
     featuredImageAlt: 'Technical diagram showing MyInvois API integration architecture',
@@ -1404,6 +1431,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/malaysia-sst-invoice.jpg',
     featuredImageAlt: 'Malaysian invoice showing SST tax calculation and mandatory fields',
@@ -1504,6 +1532,7 @@ export const cluster12Posts: BlogPost[] = [
     author: defaultAuthor,
     date: '2026-04-11',
     dateModified: '2026-04-11',
+    lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/malaysia-sme-myinvois.jpg',
     featuredImageAlt: 'Malaysian small business owner setting up MyInvois on laptop',

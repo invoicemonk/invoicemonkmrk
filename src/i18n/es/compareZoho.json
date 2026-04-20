@@ -3,6 +3,7 @@
     "title": "Invoicemonk vs Zoho Invoice: Alternativa más simple | Comparación 2026",
     "description": "Compara Invoicemonk y Zoho Invoice. Funcionalidades, precios, facilidad de uso y complejidad de configuración para pequeñas empresas en 2026."
   },
+  "lastUpdated": "Última actualización: abril de 2026",
   "hero": {
     "title": "Invoicemonk vs Zoho Invoice",
     "subtitle": "Una plataforma enfocada vs un ecosistema complejo — ¿cuál se adapta a tu negocio?"
@@ -13,24 +14,76 @@
     "Para empresas ya en el ecosistema Zoho, tiene sentido. Para todos los demás, Invoicemonk entrega las mismas capacidades con menos complejidad."
   ],
   "features": [
-    { "name": "Plan gratuito", "invoicemonk": true, "competitor": true },
-    { "name": "Facturas ilimitadas (pago)", "invoicemonk": true, "competitor": true },
-    { "name": "Facturación multidivisa", "invoicemonk": true, "competitor": true },
-    { "name": "Seguimiento de gastos", "invoicemonk": true, "competitor": true },
-    { "name": "Facturas recurrentes", "invoicemonk": true, "competitor": true },
-    { "name": "Portal de verificación de facturas", "invoicemonk": true, "competitor": false },
-    { "name": "Notas de crédito", "invoicemonk": true, "competitor": true },
-    { "name": "Contabilidad integrada", "invoicemonk": true, "competitor": "Producto separado" },
-    { "name": "Acceso de equipo", "invoicemonk": "Professional+", "competitor": "Standard+" },
-    { "name": "Simplicidad de configuración", "invoicemonk": "Minutos", "competitor": "Ecosistema complejo" }
+    {
+      "name": "Plan gratuito",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Facturas ilimitadas (pago)",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Facturación multidivisa",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Seguimiento de gastos",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Facturas recurrentes",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Portal de verificación de facturas",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Notas de crédito",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Contabilidad integrada",
+      "invoicemonk": true,
+      "competitor": "Producto separado"
+    },
+    {
+      "name": "Acceso de equipo",
+      "invoicemonk": "Professional+",
+      "competitor": "Standard+"
+    },
+    {
+      "name": "Simplicidad de configuración",
+      "invoicemonk": "Minutos",
+      "competitor": "Ecosistema complejo"
+    }
   ],
   "keyDifferences": {
     "title": "Principales diferencias explicadas",
     "items": [
-      { "title": "Todo-en-uno vs ecosistema", "desc": "Invoicemonk integra todo en un plan. Zoho divide en productos separados con suscripciones distintas." },
-      { "title": "Tiempo de configuración", "desc": "Invoicemonk: menos de 10 minutos. Ecosistema Zoho completo: horas o días." },
-      { "title": "Portal de verificación de facturas", "desc": "Funcionalidad exclusiva de Invoicemonk para verificación de autenticidad. Zoho no la ofrece." },
-      { "title": "Transparencia de precios", "desc": "Invoicemonk: un producto, niveles claros. Zoho: costes repartidos entre varios productos." }
+      {
+        "title": "Todo-en-uno vs ecosistema",
+        "desc": "Invoicemonk integra todo en un plan. Zoho divide en productos separados con suscripciones distintas."
+      },
+      {
+        "title": "Tiempo de configuración",
+        "desc": "Invoicemonk: menos de 10 minutos. Ecosistema Zoho completo: horas o días."
+      },
+      {
+        "title": "Portal de verificación de facturas",
+        "desc": "Funcionalidad exclusiva de Invoicemonk para verificación de autenticidad. Zoho no la ofrece."
+      },
+      {
+        "title": "Transparencia de precios",
+        "desc": "Invoicemonk: un producto, niveles claros. Zoho: costes repartidos entre varios productos."
+      }
     ]
   },
   "choose": {
@@ -58,32 +111,80 @@
   "migration": {
     "title": "Cómo cambiar de Zoho Invoice a Invoicemonk",
     "steps": [
-      { "title": "Exporta tus datos", "desc": "Configuración → Exportar Datos en Zoho Invoice. Descarga como CSV." },
-      { "title": "Crea tu cuenta", "desc": "Registro gratuito en app.invoicemonk.com." },
-      { "title": "Importa clientes y artículos", "desc": "Sube los CSVs. Mapeo automático." },
-      { "title": "Configura calendarios recurrentes", "desc": "2–3 minutos por calendario." },
-      { "title": "Disfruta la simplicidad", "desc": "Todo en un solo lugar." }
+      {
+        "title": "Exporta tus datos",
+        "desc": "Configuración → Exportar Datos en Zoho Invoice. Descarga como CSV."
+      },
+      {
+        "title": "Crea tu cuenta",
+        "desc": "Registro gratuito en app.invoicemonk.com."
+      },
+      {
+        "title": "Importa clientes y artículos",
+        "desc": "Sube los CSVs. Mapeo automático."
+      },
+      {
+        "title": "Configura calendarios recurrentes",
+        "desc": "2–3 minutos por calendario."
+      },
+      {
+        "title": "Disfruta la simplicidad",
+        "desc": "Todo en un solo lugar."
+      }
     ]
   },
   "faq": {
     "title": "Preguntas frecuentes",
     "items": [
-      { "question": "¿Cómo se compara Invoicemonk con Zoho?", "answer": "Invoicemonk es todo-en-uno. Zoho divide contabilidad, CRM y gastos en productos separados." },
-      { "question": "¿Es Invoicemonk más simple?", "answer": "Significativamente. Configuración en minutos vs navegar un ecosistema complejo." },
-      { "question": "¿Puedo migrar de Zoho?", "answer": "Sí. Exporta CSV e importa en Invoicemonk. 20–30 minutos." },
-      { "question": "¿Es Zoho Invoice gratuito?", "answer": "Plan gratuito hasta 5 clientes. Contabilidad y gastos requieren productos separados pagos. Invoicemonk incluye todo en todos los planes." },
-      { "question": "¿Tiene Zoho mejor automatización?", "answer": "Fuerte pero requiere configuración significativa. Invoicemonk se centra en automatizaciones esenciales que funcionan de inmediato." },
-      { "question": "¿Cuál es mejor para equipos pequeños?", "answer": "Para 1–10 personas, Invoicemonk es más simple y rentable. Zoho es mejor para organizaciones más grandes." },
-      { "question": "¿Tiene Invoicemonk CRM?", "answer": "Gestión de clientes integrada cubre la mayoría de necesidades de facturación. Zoho CRM es más completo pero es producto separado." }
+      {
+        "question": "¿Cómo se compara Invoicemonk con Zoho?",
+        "answer": "Invoicemonk es todo-en-uno. Zoho divide contabilidad, CRM y gastos en productos separados."
+      },
+      {
+        "question": "¿Es Invoicemonk más simple?",
+        "answer": "Significativamente. Configuración en minutos vs navegar un ecosistema complejo."
+      },
+      {
+        "question": "¿Puedo migrar de Zoho?",
+        "answer": "Sí. Exporta CSV e importa en Invoicemonk. 20–30 minutos."
+      },
+      {
+        "question": "¿Es Zoho Invoice gratuito?",
+        "answer": "Plan gratuito hasta 5 clientes. Contabilidad y gastos requieren productos separados pagos. Invoicemonk incluye todo en todos los planes."
+      },
+      {
+        "question": "¿Tiene Zoho mejor automatización?",
+        "answer": "Fuerte pero requiere configuración significativa. Invoicemonk se centra en automatizaciones esenciales que funcionan de inmediato."
+      },
+      {
+        "question": "¿Cuál es mejor para equipos pequeños?",
+        "answer": "Para 1–10 personas, Invoicemonk es más simple y rentable. Zoho es mejor para organizaciones más grandes."
+      },
+      {
+        "question": "¿Tiene Invoicemonk CRM?",
+        "answer": "Gestión de clientes integrada cubre la mayoría de necesidades de facturación. Zoho CRM es más completo pero es producto separado."
+      }
     ]
   },
   "related": {
     "title": "Más comparaciones",
     "links": [
-      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
-      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Mejor software de facturación 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs FreshBooks",
+        "to": "/compare/invoicemonk-vs-freshbooks"
+      },
+      {
+        "label": "Invoicemonk vs Wave",
+        "to": "/compare/invoicemonk-vs-wave"
+      },
+      {
+        "label": "Invoicemonk vs QuickBooks",
+        "to": "/compare/invoicemonk-vs-quickbooks"
+      },
+      {
+        "label": "Mejor software de facturación 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "cta": {

@@ -63,11 +63,12 @@
   },
   "storage": {
     "title": "Safe, secure, always accessible",
-    "subtitle": "Your receipts are protected with enterprise-grade security.",
+    "subtitle": "Receipts that hold up under audit, organized for tax season.",
     "features": [
-      { "title": "Secure cloud backup", "description": "Every receipt is encrypted and stored safely in the cloud. Access them from anywhere." },
-      { "title": "Compliance-ready retention", "description": "Receipts are stored according to regulatory requirements. Always ready for audits." },
-      { "title": "Automatic categorization", "description": "Receipts are tagged and organized automatically. No manual sorting needed." }
+      { "title": "Independent receipt numbering", "description": "Receipts get their own sequential numbers — separate from invoices — so your records stay clean for tax authorities and auditors." },
+      { "title": "Verification ID for every receipt", "description": "Every receipt carries a unique verification ID and integrity hash. Your customer (or an auditor) can confirm authenticity any time." },
+      { "title": "Hashed audit trail", "description": "Each receipt event is timestamped and chained — issued, viewed, emailed, downloaded — so you can prove exactly what happened and when." },
+      { "title": "Email delivery built in", "description": "Send receipts to customers in one click, or have them deliver automatically when an online payment clears." }
     ],
     "cloudTitle": "Cloud Storage",
     "cloudEncryption": "256-bit encryption",

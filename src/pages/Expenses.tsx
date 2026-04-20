@@ -272,6 +272,36 @@ const Expenses = () => {
         className="bg-background"
       />
 
+      {/* Advanced capabilities — multi-currency, multi-business, CSV import */}
+      <section className="py-20 lg:py-32 bg-card">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
+            <h2 className="text-h2 text-heading mb-4">{t('advanced.title')}</h2>
+            <p className="text-body-lg text-muted-foreground">{t('advanced.subtitle')}</p>
+          </AnimatedSection>
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {(t('advanced.items', { returnObjects: true }) as { title: string; description: string }[]).map((item, i) => {
+              const icons = [Wallet, FileText, TrendingDown];
+              const Icon = icons[i % icons.length];
+              return (
+                <StaggerItem key={item.title}>
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="h-full bg-background rounded-2xl p-7 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300"
+                  >
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
+                      <Icon className="w-6 h-6 text-primary" />
+                    </div>
+                    <h3 className="text-h4 text-heading mb-2">{item.title}</h3>
+                    <p className="text-body text-muted-foreground">{item.description}</p>
+                  </motion.div>
+                </StaggerItem>
+              );
+            })}
+          </StaggerContainer>
+        </div>
+      </section>
+
       {/* Featured Testimonial */}
       <WaveFeaturedTestimonial
         quote={t('testimonial.quote')}

@@ -417,6 +417,11 @@
       "permanent": true
     },
     {
+      "source": "/:lang/blog/best-invoicing-software-freelancers-small-business",
+      "destination": "/:lang/best-invoicing-software",
+      "permanent": true
+    },
+    {
       "source": "/:lang/compare/invoicemonk-vs-zoho",
       "destination": "/:lang/compare/invoicemonk-vs-zoho-invoice",
       "permanent": true

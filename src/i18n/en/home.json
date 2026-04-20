@@ -122,76 +122,76 @@
         "description": "Create, send, and manage invoices that meet tax authority requirements wherever your clients are. Every invoice is numbered, structured, and formatted to comply with local regulations — and you don't have to know those regulations to get it right.",
         "features": [
           "Jurisdiction-aware invoice formatting",
-          "Automatic tax field population by country",
+          "Smart numbering with custom prefixes",
           "Immutable records — invoices can't be silently altered",
-          "Multi-currency with correct FX handling",
-          "Automated payment reminders"
+          "Multi-currency with FX-rate snapshots",
+          "Branded templates and deposit invoicing"
         ]
       },
       {
         "name": "Payments",
-        "title": "Accept payments your way",
-        "description": "Let clients pay directly from invoices with credit cards, bank transfers, or digital wallets. Money lands in your account faster.",
+        "title": "Get paid online or record payments yourself",
+        "description": "Accept card payments via Stripe and Paystack split-payouts, or log bank transfers manually with proof uploads. Every payment reconciles cleanly to its invoice.",
         "features": [
-          "Credit card processing",
-          "Bank transfers",
-          "Payment plans",
-          "Auto-reconciliation"
+          "Stripe Connect & Paystack online payments",
+          "Manual payments with proof upload",
+          "Auto-reconciliation to invoices",
+          "Cashflow visibility at a glance"
         ]
       },
       {
         "name": "Expenses",
         "title": "Track every expense with ease",
-        "description": "Capture receipts, categorize spending automatically, and always know where your money goes. Tax time becomes a breeze.",
+        "description": "Snap a receipt and let AI extract the vendor, date, amount, and tax. Categorize automatically, merge duplicate vendors, and set recurring expenses on autopilot.",
         "features": [
-          "Receipt scanning",
-          "Auto-categorization",
-          "Tax categories",
-          "Expense reports"
+          "AI-powered receipt scanning",
+          "Vendor merge & recurring expenses",
+          "Multi-currency with FX snapshot",
+          "Tax-ready expense reports"
         ]
       },
       {
         "name": "Accounting",
-        "title": "No sweat accounting",
-        "description": "Track income and expenses, pull financial reports, and stay on top of your business finances without the accounting degree.",
+        "title": "No-sweat accounting — built in",
+        "description": "Income, expenses, and results in one view. Switch between cash and accrual, see profitability by client or period, and export reports your accountant will love.",
         "features": [
-          "Double-entry bookkeeping",
-          "Financial reports",
-          "Tax preparation",
-          "Bank connections"
+          "Overview, Income, Expenses & Results tabs",
+          "Cash vs accrual accounting",
+          "Profitability reports (Pro+)",
+          "Accountant-ready exports"
         ]
       },
       {
         "name": "Clients",
         "title": "Manage clients effortlessly",
-        "description": "Keep all your client information organized in one place. Track contact details, payment history, and outstanding balances at a glance.",
+        "description": "Keep client info organized with country-specific tax-ID validation. Add new clients inline while invoicing — no context switching.",
         "features": [
-          "Contact management",
-          "Payment history",
-          "Client notes",
-          "Quick invoicing"
+          "Tax-ID validation (SIRET, CAC, VAT)",
+          "Inline add during invoicing",
+          "Payment history & balances",
+          "Client notes & contacts"
         ]
       },
       {
         "name": "Estimates",
         "title": "Win more business with quotes",
-        "description": "Create professional estimates and quotes that convert. When approved, turn them into invoices with a single click.",
+        "description": "Create professional estimates that convert. When approved, turn them into invoices with a single click — no re-entry.",
         "features": [
           "Professional templates",
-          "One-click conversion",
+          "One-click conversion to invoice",
           "Approval tracking",
           "Custom branding"
         ]
       },
       {
         "name": "Receipts",
-        "title": "Never lose a receipt again",
-        "description": "Snap photos of receipts and let us handle the rest. Automatic data extraction and organization for stress-free bookkeeping.",
+        "title": "Receipts your clients can verify",
+        "description": "Every payment generates a receipt with its own number, public verification ID, and hashed audit trail — sent automatically by email.",
         "features": [
-          "Photo capture",
-          "Auto-extraction",
-          "Cloud storage",
-          "Search & filter"
+          "Independent receipt numbering",
+          "Public verification ID",
+          "Hashed audit trail",
+          "Automatic email delivery"
         ]
       }
     ]

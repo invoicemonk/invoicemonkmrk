@@ -1,0 +1,114 @@
+{
+  "seo": {
+    "title": "Invoicemonk vs Stripe Invoicing (2026): Facturación compliance-first + pagos con Stripe",
+    "description": "Invoicemonk vs Stripe Invoicing en 2026: Invoicemonk es gratuito con facturas auditables, gastos y contabilidad. Stripe Invoicing cobra 0,4–0,5 % por factura pagada. Usa ambos: te explicamos cómo."
+  },
+  "lastUpdated": "Última actualización: abril de 2026",
+  "hero": {
+    "title": "Invoicemonk vs Stripe Invoicing (2026)",
+    "subtitle": "Invoicemonk es una plataforma de facturación compliance-first — gratuita para empezar, con facturas auditables, gastos y contabilidad. Stripe Invoicing es un complemento de pagos que cobra 0,4–0,5 % por factura pagada. La mayoría de las empresas usa Invoicemonk para facturar y Stripe para procesar pagos."
+  },
+  "overview": [
+    "Respuesta corta: no es manzanas con manzanas. Stripe es un procesador de pagos con un complemento básico de facturación (Stripe Invoicing) que cobra 0,4–0,5 % por factura pagada, además de las tarifas de pago estándar. Invoicemonk es una plataforma completa de facturación con plantillas de marca, presupuestos, gastos, contabilidad y un registro de auditoría inmutable — y se integra con Stripe para pagos con tarjeta.",
+    "Los precios cuentan la historia. Invoicemonk: Starter 0 $ (5 facturas/mes), Pro 29 $/mes (facturas ilimitadas, 5 usuarios), SME 129 $/mes (usuarios ilimitados), Biz personalizado (e-invoicing y envío gubernamental) — la facturación está incluida en cada nivel sin tarifa por factura. Stripe Invoicing: 0,4 % por factura pagada (o 0,5 % por enlaces de pago alojados en Stripe) más la tarifa estándar de 2,9 % + 0,30 $ por procesamiento de tarjeta.",
+    "Con 50 facturas/mes a 500 $ cada una (25.000 $ de facturación mensual), Stripe Invoicing añade 100–125 $/mes solo en tarifas de facturación, además del procesamiento de pagos. Invoicemonk Pro lo reemplaza con 29 $/mes fijos, incluye gastos, contabilidad, notas de crédito y un registro de auditoría inmutable, y sigue usando Stripe para procesar las tarjetas."
+  ],
+  "features": [
+    { "name": "Procesamiento de pagos nativo", "invoicemonk": "Vía Stripe / Paystack / PayPal", "competitor": "Sí" },
+    { "name": "Plantillas de factura con marca", "invoicemonk": "Sí (premium en SME+)", "competitor": "Básico" },
+    { "name": "Presupuestos y cotizaciones", "invoicemonk": "Sí", "competitor": "No" },
+    { "name": "Seguimiento de gastos", "invoicemonk": "Sí (cada plan)", "competitor": "No" },
+    { "name": "Contabilidad integrada", "invoicemonk": "Sí (cada plan)", "competitor": "No" },
+    { "name": "Notas de crédito", "invoicemonk": "Sí", "competitor": "Sí" },
+    { "name": "Registro de auditoría inmutable", "invoicemonk": "Sí (cada plan)", "competitor": "Solo eventos de pago" },
+    { "name": "Facturas verificadas con QR", "invoicemonk": "Sí", "competitor": "No" },
+    { "name": "E-invoicing y envío gubernamental", "invoicemonk": "Sí (Biz)", "competitor": "Limitado (Stripe Tax beta)" },
+    { "name": "Facturación multi-moneda", "invoicemonk": "Cada plan", "competitor": "Sí" },
+    { "name": "Suscripciones / facturación recurrente", "invoicemonk": "Facturas recurrentes", "competitor": "Stripe Billing (avanzado)" },
+    { "name": "Nivel gratuito (facturación)", "invoicemonk": "Sí (5 fact./mes)", "competitor": "No" },
+    { "name": "Tarifa de facturación por factura pagada", "invoicemonk": "0 $", "competitor": "0,4–0,5 %" }
+  ],
+  "pricing": {
+    "title": "¿Cuánto cuesta facturar en cada uno?",
+    "invoicemonk": {
+      "title": "Precios de Invoicemonk (2026)",
+      "plans": [
+        { "name": "Starter", "price": "0 $/mes" },
+        { "name": "Pro", "price": "29 $/mes" },
+        { "name": "SME", "price": "129 $/mes" },
+        { "name": "Biz", "price": "Personalizado" }
+      ],
+      "note": "La facturación no tiene tarifa por factura en ningún plan. Las tarifas de tarjeta van directamente a tu pasarela (Stripe / Paystack / Flutterwave) — Invoicemonk no aplica margen."
+    },
+    "competitor": {
+      "title": "Precios de Stripe Invoicing (2026)",
+      "plans": [
+        { "name": "Stripe Invoicing", "price": "0,4 % por factura pagada" },
+        { "name": "Enlace de pago alojado en Stripe", "price": "0,5 % por factura pagada" },
+        { "name": "Procesamiento de tarjeta", "price": "2,9 % + 0,30 $ por transacción" },
+        { "name": "Stripe Billing (suscripciones)", "price": "0,5–0,8 % adicional" }
+      ],
+      "note": "Stripe cobra tarifas de facturación Y de procesamiento de pagos. Una factura de 1.000 $ pagada con tarjeta cuesta 34 $ (4 $ facturación + 30 $ procesamiento). No incluye gastos, contabilidad ni presupuestos."
+    },
+    "summary": "Ejemplo práctico — 50 facturas/mes con promedio de 500 $ = 25.000 $ de facturación mensual. Invoicemonk Pro: 29 $/mes fijos para facturación (sigues pagando a Stripe ~740 $/mes por procesamiento de tarjeta). Stripe Invoicing: 100–125 $/mes en tarifas de facturación + los mismos ~740 $/mes de procesamiento. Invoicemonk ahorra 70–95 $/mes solo en facturación."
+  },
+  "choose": {
+    "invoicemonk": {
+      "title": "Elige Invoicemonk si tú…",
+      "items": [
+        "necesitas facturación profesional con plantillas de marca",
+        "quieres gastos, contabilidad y registro de auditoría en la misma herramienta",
+        "envías presupuestos que se convierten en facturas",
+        "quieres un nivel gratuito sin tarifa por factura",
+        "necesitas cumplimiento por país y facturas verificadas con QR"
+      ]
+    },
+    "competitor": {
+      "title": "Elige Stripe (solo) si tú…",
+      "items": [
+        "operas un SaaS dirigido por desarrolladores con facturación por uso",
+        "necesitas gestión avanzada del ciclo de vida de suscripciones (Stripe Billing)",
+        "construyes flujos de pago personalizados vía API",
+        "tienes un equipo de desarrollo para mantener la integración",
+        "no necesitas seguimiento de gastos, contabilidad ni presupuestos"
+      ]
+    }
+  },
+  "migration": {
+    "title": "¿Cómo añado Invoicemonk junto a Stripe?",
+    "steps": [
+      { "title": "Regístrate en Invoicemonk", "desc": "Crea una cuenta gratuita en app.invoicemonk.com. Añade perfil de empresa, marca y configuración fiscal." },
+      { "title": "Conecta tu cuenta de Stripe", "desc": "Vincula tu cuenta de Stripe existente con Invoicemonk. Los pagos con tarjeta se procesan a través de tu cuenta de Stripe a tus tarifas actuales." },
+      { "title": "Importa clientes desde Stripe", "desc": "Exporta los clientes de Stripe como CSV e impórtalos a Invoicemonk. Crea perfiles completos con condiciones de pago y datos de contacto." },
+      { "title": "Envía facturas con marca vía Invoicemonk", "desc": "Crea facturas en Invoicemonk con enlaces de pago de Stripe integrados. Los clientes pagan con el checkout familiar de Stripe; tú mantienes todas las funciones de facturación." },
+      { "title": "Añade gastos y contabilidad", "desc": "Usa el módulo de gastos y los informes contables de Invoicemonk. Ahora ingresos y costes viven en un solo sistema, con un único registro de auditoría." }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      { "question": "¿Es Invoicemonk una alternativa a Stripe?", "answer": "No exactamente. Stripe es un procesador de pagos: mueve dinero. Invoicemonk es una plataforma de facturación y gestión financiera: crea facturas, sigue gastos, gestiona clientes y produce un registro de auditoría inmutable. La mayoría de las empresas usa Invoicemonk para facturar y Stripe para procesar pagos." },
+      { "question": "¿Puedo usar Invoicemonk con Stripe?", "answer": "Sí. Invoicemonk se integra de forma nativa con Stripe, así puedes enviar facturas con marca a través de Invoicemonk y aceptar pagos con tarjeta a través de tu cuenta de Stripe a tus tarifas actuales. También obtienes gastos, contabilidad y un registro de auditoría que Stripe no ofrece." },
+      { "question": "¿Stripe ofrece facturación?", "answer": "Sí — Stripe Invoicing. Cobra 0,4 % por factura pagada, o 0,5 % por enlaces de pago alojados en Stripe, además del 2,9 % + 0,30 $ estándar de procesamiento de tarjeta. La interfaz de facturación es deliberadamente mínima y orientada a empresas dirigidas por desarrolladores, no a empresas de servicios que necesitan plantillas con marca, presupuestos o seguimiento de gastos." },
+      { "question": "¿Stripe Invoicing es gratis?", "answer": "No. Stripe cobra 0,4–0,5 % por factura pagada además del 2,9 % + 0,30 $ estándar de procesamiento. Con 25.000 $/mes de facturación son 100–125 $/mes solo en tarifas de facturación. La facturación de Invoicemonk es gratuita en cada plan — incluido el Starter de 0 $ — sin recargo por factura." },
+      { "question": "¿Cuál es más barato: Stripe Invoicing o Invoicemonk?", "answer": "Invoicemonk, casi siempre. Invoicemonk Pro cuesta 29 $/mes fijos sin tarifa por factura. El recargo del 0,4–0,5 % por factura de Stripe Invoicing suele superar los 29 $/mes una vez que la facturación mensual cruza los ~6.000–7.500 $. Por encima de ese volumen, Invoicemonk ahorra dinero cada mes — e incluye gastos, contabilidad, registro de auditoría y facturas verificadas con QR que Stripe no ofrece." },
+      { "question": "¿Necesito Stripe si uso Invoicemonk?", "answer": "No necesariamente. Invoicemonk admite transferencias bancarias, Paystack, Flutterwave y PayPal además de Stripe. Stripe es la opción recomendada si necesitas pagos con tarjeta en EE.UU., Reino Unido, UE, Canadá o Australia; Paystack/Flutterwave es mejor para mercados africanos." },
+      { "question": "¿Tiene Invoicemonk un registro de auditoría que Stripe no tiene?", "answer": "Sí. Invoicemonk aplica hash a cada factura, pago, edición y nota de crédito en un registro de auditoría inmutable en cada plan. Stripe registra eventos de pago pero no produce un registro criptográfico, encadenado por hash, que puedas entregar a una autoridad fiscal." }
+    ]
+  },
+  "related": {
+    "title": "Más comparaciones",
+    "links": [
+      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
+      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
+      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
+      { "label": "Invoicemonk vs Zoho Invoice", "to": "/compare/invoicemonk-vs-zoho-invoice" },
+      { "label": "Mejor software de facturación 2026", "to": "/best-invoicing-software" }
+    ]
+  },
+  "cta": {
+    "title": "Facturación con marca sobre los pagos de Stripe",
+    "description": "Usa Invoicemonk para facturación conforme y auditable. Conecta Stripe para pagos con tarjeta. Lo mejor de ambos, sin tarifa adicional de facturación.",
+    "button": "Empieza gratis"
+  }
+}

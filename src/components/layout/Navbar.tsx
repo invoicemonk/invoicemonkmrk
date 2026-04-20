@@ -145,6 +145,14 @@ export function Navbar() {
                             );
                           })}
                         </div>
+                        <div className="mt-3 pt-3 border-t border-border">
+                          <Link
+                            to="/platform"
+                            className="flex items-center justify-center gap-1 text-body-sm font-medium text-primary hover:text-primary/80 transition-colors py-2"
+                          >
+                            {t('nav.platform')} →
+                          </Link>
+                        </div>
                       </div>
                     </motion.div>
                   )}

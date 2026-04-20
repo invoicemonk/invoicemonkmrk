@@ -3,6 +3,7 @@
     "title": "Invoicemonk vs Wave: Welche kostenlose Rechnungssoftware ist besser? | 2026",
     "description": "Vergleichen Sie Invoicemonk und Wave Seite an Seite. Beide bieten kostenlose Rechnungsstellung, unterscheiden sich aber in Währungsunterstützung, globaler Verfügbarkeit und Funktionen."
   },
+  "lastUpdated": "Zuletzt aktualisiert: April 2026",
   "hero": {
     "title": "Invoicemonk vs Wave",
     "subtitle": "Beide bieten kostenlose Rechnungsstellung — so vergleichen sie sich bei Funktionen, Verfügbarkeit und Flexibilität."
@@ -13,26 +14,86 @@
     "Invoicemonk verfolgt einen anderen Ansatz. Es bietet eine kostenlose Stufe mit Rechnungsstellung, Ausgaben und Buchhaltung — ähnlich wie Wave — funktioniert aber weltweit mit Mehrwährungsunterstützung auf jedem Plan. Zusätzliche Funktionen wie Gutschriften, ein Rechnungsverifizierungsportal und Steuerkonformität für mehrere Rechtsordnungen machen Invoicemonk zur leistungsfähigeren Plattform."
   ],
   "features": [
-    { "name": "Kostenlose Rechnungsstellung", "invoicemonk": true, "competitor": true },
-    { "name": "Mehrwährungs-Rechnungsstellung", "invoicemonk": true, "competitor": false },
-    { "name": "Ausgabenverfolgung", "invoicemonk": true, "competitor": true },
-    { "name": "Wiederkehrende Rechnungen", "invoicemonk": true, "competitor": true },
-    { "name": "Kundenverwaltung", "invoicemonk": true, "competitor": true },
-    { "name": "Rechnungsverifizierungsportal", "invoicemonk": true, "competitor": false },
-    { "name": "Integrierte Buchhaltung", "invoicemonk": true, "competitor": true },
-    { "name": "Belegerfassung", "invoicemonk": true, "competitor": true },
-    { "name": "Gutschriften", "invoicemonk": true, "competitor": false },
-    { "name": "Eigenes Branding (kostenlos)", "invoicemonk": false, "competitor": false },
-    { "name": "Teamzugang", "invoicemonk": "Professional+", "competitor": false },
-    { "name": "Verfügbarkeit", "invoicemonk": "Weltweit", "competitor": "Nur USA & Kanada" }
+    {
+      "name": "Kostenlose Rechnungsstellung",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Mehrwährungs-Rechnungsstellung",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Ausgabenverfolgung",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Wiederkehrende Rechnungen",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Kundenverwaltung",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Rechnungsverifizierungsportal",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Integrierte Buchhaltung",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Belegerfassung",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Gutschriften",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Eigenes Branding (kostenlos)",
+      "invoicemonk": false,
+      "competitor": false
+    },
+    {
+      "name": "Teamzugang",
+      "invoicemonk": "Professional+",
+      "competitor": false
+    },
+    {
+      "name": "Verfügbarkeit",
+      "invoicemonk": "Weltweit",
+      "competitor": "Nur USA & Kanada"
+    }
   ],
   "keyDifferences": {
     "title": "Hauptunterschiede erklärt",
     "items": [
-      { "title": "Globale Verfügbarkeit", "desc": "Wave ist nur in den USA und Kanada verfügbar. Invoicemonk funktioniert weltweit mit lokalisierter Steuerkonformität für Nigeria (FIRS), UK (HMRC), USA (IRS), Kanada (CRA) und Australien (ATO)." },
-      { "title": "Mehrwährungsunterstützung", "desc": "Wave stellt nur in USD und CAD Rechnungen aus. Invoicemonk unterstützt alle gängigen Währungen auf jedem Plan, einschließlich der kostenlosen Stufe." },
-      { "title": "Gutschriften und Korrekturen", "desc": "Wave hat keine Gutschriftenfunktionalität. Invoicemonk hat integrierte Gutschriften, die mit Originalrechnungen verknüpft sind und eine ordnungsgemäße Buchhaltung gewährleisten." },
-      { "title": "Geschäftsmodell", "desc": "Wave ist kostenlos, monetarisiert aber über Zahlungsverarbeitungsgebühren (2,9% + $0,60 pro Kreditkartentransaktion). Invoicemonks kostenlose Stufe ist wirklich kostenlos ohne Transaktionsgebühren." }
+      {
+        "title": "Globale Verfügbarkeit",
+        "desc": "Wave ist nur in den USA und Kanada verfügbar. Invoicemonk funktioniert weltweit mit lokalisierter Steuerkonformität für Nigeria (FIRS), UK (HMRC), USA (IRS), Kanada (CRA) und Australien (ATO)."
+      },
+      {
+        "title": "Mehrwährungsunterstützung",
+        "desc": "Wave stellt nur in USD und CAD Rechnungen aus. Invoicemonk unterstützt alle gängigen Währungen auf jedem Plan, einschließlich der kostenlosen Stufe."
+      },
+      {
+        "title": "Gutschriften und Korrekturen",
+        "desc": "Wave hat keine Gutschriftenfunktionalität. Invoicemonk hat integrierte Gutschriften, die mit Originalrechnungen verknüpft sind und eine ordnungsgemäße Buchhaltung gewährleisten."
+      },
+      {
+        "title": "Geschäftsmodell",
+        "desc": "Wave ist kostenlos, monetarisiert aber über Zahlungsverarbeitungsgebühren (2,9% + $0,60 pro Kreditkartentransaktion). Invoicemonks kostenlose Stufe ist wirklich kostenlos ohne Transaktionsgebühren."
+      }
     ]
   },
   "choose": {
@@ -60,32 +121,80 @@
   "migration": {
     "title": "So migrieren Sie von Wave zu Invoicemonk",
     "steps": [
-      { "title": "Exportieren Sie Ihre Wave-Daten", "desc": "Gehen Sie in Wave zu Einstellungen → Datenexport. Laden Sie Ihre Kunden, Rechnungen und Transaktionen als CSV-Dateien herunter." },
-      { "title": "Melden Sie sich bei Invoicemonk an", "desc": "Erstellen Sie ein kostenloses Konto bei app.invoicemonk.com. Richten Sie Ihr Unternehmensprofil, Logo und Steuerkonfiguration ein." },
-      { "title": "Importieren Sie Ihre Kunden", "desc": "Laden Sie Ihre Kunden-CSV hoch. Invoicemonk ordnet Namen, E-Mails und Adressen automatisch zu." },
-      { "title": "Konfigurieren Sie Ihre Währungen", "desc": "Wenn Sie jetzt mit internationalen Kunden arbeiten, richten Sie Währungskonten für jeden Markt ein, den Sie bedienen." },
-      { "title": "Beginnen Sie global zu fakturieren", "desc": "Senden Sie Ihre erste Rechnung von Invoicemonk — in jeder Währung, in jedes Land." }
+      {
+        "title": "Exportieren Sie Ihre Wave-Daten",
+        "desc": "Gehen Sie in Wave zu Einstellungen → Datenexport. Laden Sie Ihre Kunden, Rechnungen und Transaktionen als CSV-Dateien herunter."
+      },
+      {
+        "title": "Melden Sie sich bei Invoicemonk an",
+        "desc": "Erstellen Sie ein kostenloses Konto bei app.invoicemonk.com. Richten Sie Ihr Unternehmensprofil, Logo und Steuerkonfiguration ein."
+      },
+      {
+        "title": "Importieren Sie Ihre Kunden",
+        "desc": "Laden Sie Ihre Kunden-CSV hoch. Invoicemonk ordnet Namen, E-Mails und Adressen automatisch zu."
+      },
+      {
+        "title": "Konfigurieren Sie Ihre Währungen",
+        "desc": "Wenn Sie jetzt mit internationalen Kunden arbeiten, richten Sie Währungskonten für jeden Markt ein, den Sie bedienen."
+      },
+      {
+        "title": "Beginnen Sie global zu fakturieren",
+        "desc": "Senden Sie Ihre erste Rechnung von Invoicemonk — in jeder Währung, in jedes Land."
+      }
     ]
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
     "items": [
-      { "question": "Ist Invoicemonk besser als Wave?", "answer": "Für Unternehmen außerhalb der USA und Kanada ist Invoicemonk die klare Wahl — Wave ist nur in diesen beiden Märkten verfügbar. Selbst innerhalb der USA und Kanada bietet Invoicemonk Mehrwährungs-Rechnungsstellung, Gutschriften und ein Rechnungsverifizierungsportal, die Wave fehlen." },
-      { "question": "Ist Wave wirklich kostenlos?", "answer": "Waves Rechnungsstellung und Buchhaltung sind kostenlos, aber das Unternehmen monetarisiert über Zahlungsverarbeitungsgebühren (2,9% + $0,60 pro Kreditkartentransaktion) und Gehaltsabrechnungsdienste. Invoicemonk hat ebenfalls eine kostenlose Stufe — aber seine kostenpflichtigen Pläne bieten mehr Funktionen zu wettbewerbsfähigen Preisen ohne Prozentanteil an Ihren Transaktionen." },
-      { "question": "Kann ich von Wave zu Invoicemonk wechseln?", "answer": "Ja. Exportieren Sie Ihre Kunden- und Rechnungsdaten aus Wave als CSV-Dateien und importieren Sie sie in Invoicemonk. Der Migrationsprozess dauert in der Regel 15–30 Minuten." },
-      { "question": "Warum funktioniert Wave in meinem Land nicht mehr?", "answer": "Wave hat seinen Dienst 2023 auf die USA und Kanada beschränkt. Wenn Sie Wave aus einem anderen Land genutzt haben, brauchen Sie eine Alternative. Invoicemonk ist für den globalen Einsatz konzipiert mit Steuerkonformität für Nigeria, UK, USA, Kanada und Australien." },
-      { "question": "Unterstützt Wave Mehrwährungs-Rechnungsstellung?", "answer": "Nein. Wave unterstützt nur Rechnungsstellung in USD und CAD. Wenn Sie internationale Kunden haben oder in anderen Währungen abrechnen müssen, ist Invoicemonk die bessere Wahl." },
-      { "question": "Welche Plattform hat bessere Buchhaltungsfunktionen?", "answer": "Beide bieten doppelte Buchführung mit Kontenplan, Finanzberichten und Transaktionskategorisierung. Waves Buchhaltung ist komplett kostenlos. Invoicemonks Buchhaltung ist auf allen Plänen enthalten und bietet zusätzlich Mehrwährungs-Konsolidierung und compliance-orientierte Berichte." },
-      { "question": "Kann Wave Gutschriften verarbeiten?", "answer": "Nein. Wave unterstützt keine Gutschriften oder Rechnungskorrekturen. Invoicemonk hat integrierte Gutschriftenunterstützung mit ordnungsgemäßer buchhalterischer Behandlung." }
+      {
+        "question": "Ist Invoicemonk besser als Wave?",
+        "answer": "Für Unternehmen außerhalb der USA und Kanada ist Invoicemonk die klare Wahl — Wave ist nur in diesen beiden Märkten verfügbar. Selbst innerhalb der USA und Kanada bietet Invoicemonk Mehrwährungs-Rechnungsstellung, Gutschriften und ein Rechnungsverifizierungsportal, die Wave fehlen."
+      },
+      {
+        "question": "Ist Wave wirklich kostenlos?",
+        "answer": "Waves Rechnungsstellung und Buchhaltung sind kostenlos, aber das Unternehmen monetarisiert über Zahlungsverarbeitungsgebühren (2,9% + $0,60 pro Kreditkartentransaktion) und Gehaltsabrechnungsdienste. Invoicemonk hat ebenfalls eine kostenlose Stufe — aber seine kostenpflichtigen Pläne bieten mehr Funktionen zu wettbewerbsfähigen Preisen ohne Prozentanteil an Ihren Transaktionen."
+      },
+      {
+        "question": "Kann ich von Wave zu Invoicemonk wechseln?",
+        "answer": "Ja. Exportieren Sie Ihre Kunden- und Rechnungsdaten aus Wave als CSV-Dateien und importieren Sie sie in Invoicemonk. Der Migrationsprozess dauert in der Regel 15–30 Minuten."
+      },
+      {
+        "question": "Warum funktioniert Wave in meinem Land nicht mehr?",
+        "answer": "Wave hat seinen Dienst 2023 auf die USA und Kanada beschränkt. Wenn Sie Wave aus einem anderen Land genutzt haben, brauchen Sie eine Alternative. Invoicemonk ist für den globalen Einsatz konzipiert mit Steuerkonformität für Nigeria, UK, USA, Kanada und Australien."
+      },
+      {
+        "question": "Unterstützt Wave Mehrwährungs-Rechnungsstellung?",
+        "answer": "Nein. Wave unterstützt nur Rechnungsstellung in USD und CAD. Wenn Sie internationale Kunden haben oder in anderen Währungen abrechnen müssen, ist Invoicemonk die bessere Wahl."
+      },
+      {
+        "question": "Welche Plattform hat bessere Buchhaltungsfunktionen?",
+        "answer": "Beide bieten doppelte Buchführung mit Kontenplan, Finanzberichten und Transaktionskategorisierung. Waves Buchhaltung ist komplett kostenlos. Invoicemonks Buchhaltung ist auf allen Plänen enthalten und bietet zusätzlich Mehrwährungs-Konsolidierung und compliance-orientierte Berichte."
+      },
+      {
+        "question": "Kann Wave Gutschriften verarbeiten?",
+        "answer": "Nein. Wave unterstützt keine Gutschriften oder Rechnungskorrekturen. Invoicemonk hat integrierte Gutschriftenunterstützung mit ordnungsgemäßer buchhalterischer Behandlung."
+      }
     ]
   },
   "related": {
     "title": "Weitere Vergleiche",
     "links": [
-      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Invoicemonk vs Zoho", "to": "/compare/invoicemonk-vs-zoho-invoice" },
-      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Beste Rechnungssoftware 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs FreshBooks",
+        "to": "/compare/invoicemonk-vs-freshbooks"
+      },
+      {
+        "label": "Invoicemonk vs Zoho",
+        "to": "/compare/invoicemonk-vs-zoho-invoice"
+      },
+      {
+        "label": "Invoicemonk vs QuickBooks",
+        "to": "/compare/invoicemonk-vs-quickbooks"
+      },
+      {
+        "label": "Beste Rechnungssoftware 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "cta": {

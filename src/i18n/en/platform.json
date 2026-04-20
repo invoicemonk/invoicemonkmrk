@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Platform Capabilities — Multi-Currency, Reports, Audit Trail | Invoicemonk",
+    "description": "Cross-cutting features that power every Invoicemonk product: credit notes, multi-currency, multi-business, team roles, audit trail, CSV import, reports & exports, and more."
+  },
+  "hero": {
+    "badge": "Platform",
+    "title": "One platform.",
+    "titleAccent": "Every capability you need.",
+    "description": "Beyond invoicing, expenses, and accounting — Invoicemonk includes the cross-cutting features that real businesses depend on: multi-currency, multi-business, team roles, credit notes, reports, and audit trails baked into every record.",
+    "primaryCta": "Start Free",
+    "secondaryCta": "See Pricing"
+  },
+  "intro": {
+    "title": "Capabilities that work across every product",
+    "subtitle": "These aren't add-ons — they're the foundation that makes invoicing, accounting, expenses, and payments work together as one system."
+  },
+  "capabilities": {
+    "creditNotes": {
+      "title": "Credit Notes & Corrections",
+      "description": "Need to correct or refund an invoice? Issue a credit note that links to the original, preserves the audit trail, and updates your books and tax records correctly."
+    },
+    "catalog": {
+      "title": "Products & Services Catalog",
+      "description": "Build a reusable catalog of items and services with default pricing, tax rates, units, and descriptions. Add them to invoices and estimates in one click."
+    },
+    "receivables": {
+      "title": "Receivables Intelligence",
+      "description": "See aging buckets, top outstanding clients, and predicted collection dates. Know exactly which invoices to chase and when, with reminder sequences built in."
+    },
+    "reports": {
+      "title": "Reports & Exports",
+      "description": "Profit & loss, balance sheet, sales by client, tax summaries, expense reports, and more — exportable as PDF, CSV, or Excel for your accountant or tax authority."
+    },
+    "multiCurrency": {
+      "title": "Multi-Currency",
+      "description": "Invoice and record expenses in any currency. Each transaction locks an FX-rate snapshot at issue time so historical reports stay accurate forever."
+    },
+    "multiBusiness": {
+      "title": "Multi-Business",
+      "description": "Run several businesses from one login. Each has its own brand, numbering, currency, tax setup, clients, and books — switch between them in one click."
+    },
+    "team": {
+      "title": "Team & Roles",
+      "description": "Invite collaborators with the right level of access. Owners, finance, sales, and view-only roles let teammates do their job without seeing more than they need."
+    },
+    "verification": {
+      "title": "Verification Portal",
+      "description": "Every invoice and receipt carries a public verification link. Clients, suppliers, or auditors can independently confirm a document's authenticity any time."
+    },
+    "auditTrail": {
+      "title": "Audit Trail & Immutability",
+      "description": "Every action — created, edited, sent, viewed, paid, voided — is timestamped and chained to a hash. Records cannot be silently altered, ever."
+    },
+    "csvImport": {
+      "title": "CSV Import",
+      "description": "Migrating from another tool? Import clients, products, expenses, and historical invoices from CSV with smart column mapping and validation."
+    }
+  },
+  "cta": {
+    "title": "One platform. Every capability.",
+    "description": "Start free with invoicing, then unlock the rest as you grow. No data migration. No new logins. No surprises.",
+    "primaryButton": "Get Started Free",
+    "secondaryButton": "Compare Pricing"
+  },
+  "faq": {
+    "title": "Common questions",
+    "items": [
+      {
+        "question": "Are these features all available on the free plan?",
+        "answer": "Core capabilities like multi-currency invoices, the products catalog, basic reports, CSV import, and the audit trail are available on every plan. Advanced reports, team roles, and multi-business support unlock on Pro and above."
+      },
+      {
+        "question": "Can I switch between businesses without logging out?",
+        "answer": "Yes. Once you've created a second business, a switcher appears in the top bar — change context in one click while keeping every record cleanly separated."
+      },
+      {
+        "question": "Will historical reports break when exchange rates change?",
+        "answer": "No. Every invoice, expense, and payment locks an FX-rate snapshot the moment it's recorded. Historical reports always reflect the rates in force at the time of each transaction."
+      },
+      {
+        "question": "How does the verification portal work?",
+        "answer": "Every issued document has a unique verification ID and public URL. Anyone with the link can confirm the document's authenticity, issuer, and original contents — without needing an Invoicemonk account."
+      }
+    ]
+  }
+}

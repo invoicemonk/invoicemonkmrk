@@ -67,17 +67,26 @@
     "title": "Save hours every month",
     "subtitle": "Automate the tedious parts of expense tracking.",
     "autoDataEntry": {
-      "title": "Automatic data entry",
-      "description": "No more typing. Receipt scanning does the work for you."
+      "title": "AI-powered receipt OCR",
+      "description": "Snap a photo and our AI extracts vendor, amount, date, and tax — no typing required."
     },
     "smartOrganization": {
-      "title": "Smart organization",
-      "description": "Expenses sorted by vendor, category, and date automatically."
+      "title": "Vendor merge & dedup",
+      "description": "Vendors are automatically grouped so spending rolls up cleanly per supplier, even with messy receipt data."
     },
     "oneClickReports": {
-      "title": "One-click reports",
-      "description": "Generate expense reports ready for clients or accountants."
+      "title": "Recurring expenses",
+      "description": "Schedule rent, software subscriptions, and other repeating expenses — they post automatically every cycle."
     }
+  },
+  "advanced": {
+    "title": "Built for global, multi-business operators",
+    "subtitle": "Expense tools that grow with you.",
+    "items": [
+      { "title": "Multi-currency with FX snapshot", "description": "Capture expenses in any currency. Each entry locks an exchange-rate snapshot for accurate reporting in your home currency." },
+      { "title": "Multi-business support", "description": "Switch between businesses in one click. Expenses, vendors, and reports stay perfectly separated." },
+      { "title": "CSV import for bulk entry", "description": "Migrating from another tool? Import historical expenses from any CSV file with smart column mapping." }
+    ]
   },
   "testimonial": {
     "quote": "I used to dread expense tracking. Now I just snap a photo and everything is organized automatically. Tax season is so much easier.",

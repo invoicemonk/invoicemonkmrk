@@ -1,0 +1,114 @@
+{
+  "seo": {
+    "title": "Invoicemonk vs. Stripe Invoicing (2026): Compliance-first Rechnungsstellung + Stripe-Zahlungen",
+    "description": "Invoicemonk vs. Stripe Invoicing 2026: Invoicemonk ist kostenlos mit revisionssicheren Rechnungen, Ausgaben und Buchhaltung. Stripe Invoicing berechnet 0,4–0,5 % pro bezahlter Rechnung. Nutzen Sie beides – so geht's."
+  },
+  "lastUpdated": "Zuletzt aktualisiert: April 2026",
+  "hero": {
+    "title": "Invoicemonk vs. Stripe Invoicing (2026)",
+    "subtitle": "Invoicemonk ist eine compliance-first Rechnungsplattform – kostenlos zu starten, mit revisionssicheren Rechnungen, Ausgaben und Buchhaltung. Stripe Invoicing ist ein Zahlungs-Add-on, das 0,4–0,5 % pro bezahlter Rechnung berechnet. Die meisten Unternehmen nutzen Invoicemonk für die Rechnungsstellung und Stripe für die Zahlungsabwicklung."
+  },
+  "overview": [
+    "Kurze Antwort: Das ist kein Äpfel-mit-Äpfeln-Vergleich. Stripe ist ein Zahlungsdienstleister mit einem einfachen Rechnungs-Add-on (Stripe Invoicing), das 0,4–0,5 % pro bezahlter Rechnung zusätzlich zu den üblichen Zahlungsgebühren berechnet. Invoicemonk ist eine vollständige Rechnungsplattform mit gebrandeten Vorlagen, Angeboten, Ausgaben, Buchhaltung und einem unveränderlichen Audit-Trail – und sie integriert sich für Kartenzahlungen mit Stripe.",
+    "Die Preise sprechen für sich. Invoicemonk: Starter 0 $ (5 Rechnungen/Monat), Pro 29 $/Monat (unbegrenzte Rechnungen, 5 Nutzer), SME 129 $/Monat (unbegrenzte Nutzer), Biz individuell (E-Invoicing & Behördenübermittlung) – Rechnungsstellung ist auf jedem Tarif inklusive, ohne Gebühr pro Rechnung. Stripe Invoicing: 0,4 % pro bezahlter Rechnung (oder 0,5 % bei Stripe-gehosteten Zahlungslinks) plus die üblichen 2,9 % + 0,30 $ Kartenbearbeitungsgebühr.",
+    "Bei 50 Rechnungen/Monat zu je 500 $ (25.000 $ monatliches Rechnungsvolumen) verursacht Stripe Invoicing allein 100–125 $/Monat an Rechnungsgebühren – zusätzlich zur Zahlungsabwicklung. Invoicemonk Pro ersetzt das mit pauschalen 29 $/Monat, enthält Ausgaben, Buchhaltung, Gutschriften und einen unveränderlichen Audit-Trail – und nutzt weiterhin Stripe für die Kartenabwicklung."
+  ],
+  "features": [
+    { "name": "Native Zahlungsabwicklung", "invoicemonk": "Über Stripe / Paystack / PayPal", "competitor": "Ja" },
+    { "name": "Gebrandete Rechnungsvorlagen", "invoicemonk": "Ja (Premium ab SME)", "competitor": "Einfach" },
+    { "name": "Angebote & Kostenvoranschläge", "invoicemonk": "Ja", "competitor": "Nein" },
+    { "name": "Ausgabenverfolgung", "invoicemonk": "Ja (jeder Tarif)", "competitor": "Nein" },
+    { "name": "Integrierte Buchhaltung", "invoicemonk": "Ja (jeder Tarif)", "competitor": "Nein" },
+    { "name": "Gutschriften", "invoicemonk": "Ja", "competitor": "Ja" },
+    { "name": "Unveränderlicher Audit-Trail", "invoicemonk": "Ja (jeder Tarif)", "competitor": "Nur Zahlungsereignisse" },
+    { "name": "QR-verifizierte Rechnungen", "invoicemonk": "Ja", "competitor": "Nein" },
+    { "name": "E-Invoicing & Behördenübermittlung", "invoicemonk": "Ja (Biz)", "competitor": "Begrenzt (Stripe Tax Beta)" },
+    { "name": "Mehrwährungs-Rechnungsstellung", "invoicemonk": "Jeder Tarif", "competitor": "Ja" },
+    { "name": "Abonnement/Wiederkehrende Abrechnung", "invoicemonk": "Wiederkehrende Rechnungen", "competitor": "Stripe Billing (erweitert)" },
+    { "name": "Kostenlose Stufe (Rechnungsstellung)", "invoicemonk": "Ja (5 Rg./Monat)", "competitor": "Nein" },
+    { "name": "Rechnungsgebühr pro bezahlter Rechnung", "invoicemonk": "0 $", "competitor": "0,4–0,5 %" }
+  ],
+  "pricing": {
+    "title": "Was kostet die Rechnungsstellung bei beiden?",
+    "invoicemonk": {
+      "title": "Invoicemonk-Preise (2026)",
+      "plans": [
+        { "name": "Starter", "price": "0 $/Monat" },
+        { "name": "Pro", "price": "29 $/Monat" },
+        { "name": "SME", "price": "129 $/Monat" },
+        { "name": "Biz", "price": "Individuell" }
+      ],
+      "note": "Die Rechnungsstellung enthält in keinem Tarif eine Gebühr pro Rechnung. Kartengebühren gehen direkt an Ihren Anbieter (Stripe / Paystack / Flutterwave) – Invoicemonk erhebt keinen Aufschlag."
+    },
+    "competitor": {
+      "title": "Stripe Invoicing-Preise (2026)",
+      "plans": [
+        { "name": "Stripe Invoicing", "price": "0,4 % pro bezahlter Rechnung" },
+        { "name": "Stripe-gehosteter Zahlungslink", "price": "0,5 % pro bezahlter Rechnung" },
+        { "name": "Kartenabwicklung", "price": "2,9 % + 0,30 $ pro Transaktion" },
+        { "name": "Stripe Billing (Abos)", "price": "0,5–0,8 % zusätzlich" }
+      ],
+      "note": "Stripe berechnet sowohl Rechnungs- als auch Zahlungsgebühren. Eine 1.000-$-Rechnung, per Karte bezahlt, kostet 34 $ (4 $ Rechnung + 30 $ Bearbeitung). Keine Ausgaben, Buchhaltung oder Angebote enthalten."
+    },
+    "summary": "Beispielrechnung – 50 Rechnungen/Monat zu durchschnittlich 500 $ = 25.000 $ Monatsvolumen. Invoicemonk Pro: 29 $/Monat pauschal für die Rechnungsstellung (Sie zahlen weiterhin Stripe ca. 740 $/Monat für die Kartenabwicklung). Stripe Invoicing: 100–125 $/Monat Rechnungsgebühren + dieselben ca. 740 $/Monat Bearbeitung. Invoicemonk spart 70–95 $/Monat allein bei der Rechnungsstellung."
+  },
+  "choose": {
+    "invoicemonk": {
+      "title": "Wählen Sie Invoicemonk, wenn Sie…",
+      "items": [
+        "professionelle Rechnungsstellung mit gebrandeten Vorlagen benötigen",
+        "Ausgaben, Buchhaltung und Audit-Trail in einem Tool wollen",
+        "Angebote senden, die in Rechnungen umgewandelt werden",
+        "eine kostenlose Rechnungsstufe ohne Gebühr pro Rechnung möchten",
+        "länderspezifische Compliance und QR-verifizierte Rechnungen brauchen"
+      ]
+    },
+    "competitor": {
+      "title": "Wählen Sie Stripe (allein), wenn Sie…",
+      "items": [
+        "ein entwicklergetriebenes SaaS mit nutzungsbasierter Abrechnung betreiben",
+        "fortgeschrittenes Abonnement-Lifecycle-Management (Stripe Billing) benötigen",
+        "individuelle Zahlungsflüsse per API entwickeln",
+        "ein Entwicklerteam zur Pflege der Integration haben",
+        "keine Ausgabenverfolgung, Buchhaltung oder Angebote benötigen"
+      ]
+    }
+  },
+  "migration": {
+    "title": "Wie ergänze ich Invoicemonk neben Stripe?",
+    "steps": [
+      { "title": "Bei Invoicemonk registrieren", "desc": "Erstellen Sie ein kostenloses Konto auf app.invoicemonk.com. Ergänzen Sie Unternehmensprofil, Branding und Steuereinstellungen." },
+      { "title": "Stripe-Konto verbinden", "desc": "Verknüpfen Sie Ihr bestehendes Stripe-Konto mit Invoicemonk. Kartenzahlungen werden zu Ihren bestehenden Konditionen über Ihr Stripe-Konto abgewickelt." },
+      { "title": "Kunden aus Stripe importieren", "desc": "Exportieren Sie Stripe-Kunden als CSV und importieren Sie sie in Invoicemonk. Bauen Sie vollständige Kundenprofile mit Zahlungskonditionen und Kontaktdaten auf." },
+      { "title": "Gebrandete Rechnungen über Invoicemonk senden", "desc": "Erstellen Sie Rechnungen in Invoicemonk mit eingebetteten Stripe-Zahlungslinks. Kunden zahlen über das vertraute Stripe-Checkout, Sie behalten alle Rechnungsfunktionen." },
+      { "title": "Ausgabenverfolgung und Buchhaltung hinzufügen", "desc": "Nutzen Sie das Ausgabenmodul und die Buchhaltungsberichte von Invoicemonk. Umsatz und Kosten leben nun in einem System, mit einem Audit-Trail." }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "question": "Ist Invoicemonk eine Stripe-Alternative?", "answer": "Nicht ganz. Stripe ist ein Zahlungsdienstleister – er bewegt Geld. Invoicemonk ist eine Rechnungs- und Finanzmanagement-Plattform – sie erstellt Rechnungen, verfolgt Ausgaben, verwaltet Kunden und erzeugt einen unveränderlichen Audit-Trail. Die meisten Unternehmen nutzen Invoicemonk für die Rechnungsstellung und Stripe für die Zahlungsabwicklung." },
+      { "question": "Kann ich Invoicemonk mit Stripe nutzen?", "answer": "Ja. Invoicemonk integriert sich nativ mit Stripe, sodass Sie gebrandete Rechnungen über Invoicemonk senden und Kartenzahlungen über Ihr bestehendes Stripe-Konto zu Ihren bestehenden Konditionen akzeptieren können. Sie erhalten zusätzlich Ausgaben, Buchhaltung und einen Audit-Trail, den Stripe nicht bietet." },
+      { "question": "Bietet Stripe Rechnungsstellung an?", "answer": "Ja – Stripe Invoicing. Es kostet 0,4 % pro bezahlter Rechnung bzw. 0,5 % bei Stripe-gehosteten Zahlungslinks, zusätzlich zu den üblichen 2,9 % + 0,30 $ Kartenabwicklung. Die Rechnungs-UI ist bewusst minimal und auf entwicklergetriebene Unternehmen ausgerichtet, nicht auf Dienstleister, die gebrandete Vorlagen, Angebote oder Ausgabenverfolgung benötigen." },
+      { "question": "Ist Stripe Invoicing kostenlos?", "answer": "Nein. Stripe berechnet 0,4–0,5 % pro bezahlter Rechnung zusätzlich zu den üblichen 2,9 % + 0,30 $ Zahlungsabwicklung. Bei 25.000 $/Monat Rechnungsvolumen sind das allein 100–125 $/Monat Rechnungsgebühren. Die Rechnungsstellung von Invoicemonk ist auf jedem Tarif kostenlos – einschließlich des 0-$-Starters – ohne Aufschlag pro Rechnung." },
+      { "question": "Was ist günstiger: Stripe Invoicing oder Invoicemonk?", "answer": "Invoicemonk, fast immer. Invoicemonk Pro kostet pauschal 29 $/Monat ohne Gebühr pro Rechnung. Der 0,4–0,5 %-Aufschlag von Stripe Invoicing übersteigt 29 $/Monat in der Regel, sobald das monatliche Rechnungsvolumen ca. 6.000–7.500 $ überschreitet. Darüber hinaus spart Invoicemonk jeden Monat Geld – und enthält Ausgaben, Buchhaltung, Audit-Trail und QR-verifizierte Rechnungen, die Stripe nicht bietet." },
+      { "question": "Brauche ich Stripe, wenn ich Invoicemonk nutze?", "answer": "Nicht zwingend. Invoicemonk unterstützt zusätzlich zu Stripe auch Banküberweisungen, Paystack, Flutterwave und PayPal. Stripe ist die empfohlene Wahl für Kartenzahlungen in den USA, UK, EU, Kanada oder Australien; Paystack/Flutterwave eignet sich besser für afrikanische Märkte." },
+      { "question": "Hat Invoicemonk einen Audit-Trail, den Stripe nicht hat?", "answer": "Ja. Invoicemonk hasht jede Rechnung, Zahlung, Bearbeitung und Gutschrift in jedem Tarif in ein unveränderliches Audit-Log. Stripe protokolliert Zahlungsereignisse, erzeugt aber keinen kryptografischen, hash-verketteten Rechnungs-Audit-Trail, den Sie einer Steuerbehörde übergeben können." }
+    ]
+  },
+  "related": {
+    "title": "Weitere Vergleiche",
+    "links": [
+      { "label": "Invoicemonk vs. QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
+      { "label": "Invoicemonk vs. FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
+      { "label": "Invoicemonk vs. Wave", "to": "/compare/invoicemonk-vs-wave" },
+      { "label": "Invoicemonk vs. Zoho Invoice", "to": "/compare/invoicemonk-vs-zoho-invoice" },
+      { "label": "Beste Rechnungssoftware 2026", "to": "/best-invoicing-software" }
+    ]
+  },
+  "cta": {
+    "title": "Gebrandete Rechnungsstellung auf Stripe-Zahlungen",
+    "description": "Nutzen Sie Invoicemonk für konforme, revisionssichere Rechnungsstellung. Verbinden Sie Stripe für Kartenzahlungen. Das Beste aus beiden – ohne zusätzliche Rechnungsgebühr.",
+    "button": "Kostenlos starten"
+  }
+}

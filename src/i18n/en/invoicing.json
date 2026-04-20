@@ -86,6 +86,18 @@
       "now": "Now"
     }
   },
+  "capabilities": {
+    "title": "Built for how you actually invoice",
+    "subtitle": "Beyond the basics — every detail handled so your invoices look professional and stay compliant.",
+    "items": [
+      { "title": "Smart invoice numbering", "description": "Custom prefixes and configurable digit length. Sequence is locked once the first invoice is issued for full audit integrity." },
+      { "title": "Deposit & milestone invoicing", "description": "Issue partial-payment invoices linked to a parent. Perfect for retainers, deposits, and progress billing." },
+      { "title": "Branded invoice templates", "description": "Six professionally designed templates with your logo, brand color, and contact details — every PDF locked to the moment it was issued." },
+      { "title": "Trust score & integrity hash", "description": "Each invoice gets a unique verification ID and tamper-proof hash so clients can confirm authenticity independently." },
+      { "title": "Jurisdiction-aware tax engine", "description": "VAT, GST, IVA, sales tax — the right fields, labels, and rates appear automatically based on where you're invoicing from." },
+      { "title": "Recurring & scheduled invoices", "description": "Set it once, get paid every month. Invoices auto-generate on your schedule with reminders built in." }
+    ]
+  },
   "compliance": {
     "badge": "Compliance-Aware",
     "title": "Audit-ready from",

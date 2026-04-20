@@ -1054,7 +1054,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'commercial', stage: 'consideration', experienceLevel: 'beginner',
     queryPatterns: ['free vs paid invoicing software', 'is free invoicing software good enough', 'best free invoicing tool', 'should I pay for invoicing software'],
     problemsSolved: ['Deciding between free and paid invoicing software', 'Understanding invoicing software features', 'Choosing the right invoicing tool'],
-    nextSteps: ['best-invoicing-software-freelancers-small-business', 'complete-guide-to-business-invoicing']
+    nextSteps: ['complete-guide-to-business-invoicing']
   },
   'automatic-payment-reminders-getting-paid': {
     intent: 'problem-solving', stage: 'consideration', experienceLevel: 'beginner',
