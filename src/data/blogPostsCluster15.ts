@@ -17,6 +17,8 @@ export const cluster15Posts: BlogPost[] = [
     title: 'How to Invoice as a Photographer: Complete Guide with Templates',
     excerpt: 'Learn how to create professional photography invoices — from pricing models to usage rights, deposits, and tax considerations.',
     content: `
+<p>Learn how to create professional photography invoices — from pricing models to usage rights, deposits, and tax considerations. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
+
 <h2>Why Photography Invoicing Is Different</h2>
 <p>Photography invoicing is unlike most freelance billing because you're often selling both <strong>time and intellectual property</strong>. A photo shoot involves session time, editing, equipment, travel, and — crucially — <a href="/blog/what-is-an-invoice-complete-guide">usage licenses</a>. Your invoice needs to reflect all of these elements clearly to avoid disputes and ensure you're compensated for the full value of your work.</p>
 <p>Whether you shoot weddings, commercial product photography, headshots, or editorial content, a well-structured invoice protects your business and communicates professionalism.</p>
@@ -85,7 +87,7 @@ export const cluster15Posts: BlogPost[] = [
 <li>Line 6: Rush delivery surcharge (if applicable)</li>
 <li>Less: Deposit paid on [date] — Invoice #[deposit invoice number]</li>
 </ul>
-<p>Use Invoicemonk's <a href="/free-invoice-generator">free invoice generator</a> to create professional photography invoices with all these elements — no signup required.</p>
+<p>Use Invoicemonk's <a href="/invoicing">free invoice generator</a> to create professional photography invoices with all these elements — no signup required.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -120,6 +122,8 @@ export const cluster15Posts: BlogPost[] = [
     title: 'How to Invoice as a Graphic Designer: Pricing, Templates & Tax Tips',
     excerpt: 'Complete guide to graphic design invoicing — hourly vs project rates, revisions policy, intellectual property transfer, and tax compliance.',
     content: `
+<p>Complete guide to graphic design invoicing — hourly vs project rates, revisions policy, intellectual property transfer, and tax compliance. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
+
 <h2>Why Graphic Design Invoicing Requires Special Attention</h2>
 <p>Graphic design sits at the intersection of creative services and intellectual property. Unlike billing for a physical product, you're invoicing for <strong>creative thinking, execution time, revisions, and IP transfer</strong>. Getting your invoice structure right means fewer disputes, faster payments, and proper compensation for the full value of your work.</p>
 <p>Whether you design logos, brand identities, marketing collateral, web interfaces, or packaging, this guide covers how to invoice professionally and handle the unique challenges of creative billing.</p>
@@ -181,7 +185,7 @@ export const cluster15Posts: BlogPost[] = [
 <li>Line 5: Stock images / fonts purchased (pass-through cost)</li>
 <li>Less: Deposit paid on [date]</li>
 </ul>
-<p>Create professional design invoices with Invoicemonk's <a href="/free-invoice-generator">free invoice generator</a> — includes all the fields you need, with no signup required.</p>
+<p>Create professional design invoices with Invoicemonk's <a href="/invoicing">free invoice generator</a> — includes all the fields you need, with no signup required.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -216,6 +220,8 @@ export const cluster15Posts: BlogPost[] = [
     title: 'How to Invoice as a Web Developer: Billing Models, Milestones & Tax',
     excerpt: 'Complete guide to web development invoicing — hourly vs fixed, milestone billing, hosting pass-throughs, and international tax compliance.',
     content: `
+<p>Complete guide to web development invoicing — hourly vs fixed, milestone billing, hosting pass-throughs, and international tax compliance. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
+
 <h2>Web Development Invoicing: Unique Challenges</h2>
 <p>Web development projects can range from a $500 WordPress site to a $500,000 enterprise platform. Your invoicing approach needs to scale with the project — and handle the unique aspects of software billing: <strong>milestone deliverables, ongoing maintenance, hosting pass-throughs, and international clients</strong>.</p>
 <p>Whether you build custom applications, Shopify stores, WordPress sites, or SaaS products, this guide covers every aspect of professional development invoicing.</p>
@@ -315,6 +321,8 @@ export const cluster15Posts: BlogPost[] = [
     title: 'How to Invoice as a Consultant: Retainers, Hourly & Value Billing Guide',
     excerpt: 'Complete consulting invoice guide — retainer billing, hourly tracking, value-based pricing, expense pass-throughs, and tax compliance.',
     content: `
+<p>Complete consulting invoice guide — retainer billing, hourly tracking, value-based pricing, expense pass-throughs, and tax compliance. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
+
 <h2>Consulting Invoicing: From Solo Advisor to Firm</h2>
 <p>Consulting spans management, IT, marketing, HR, finance, legal, and dozens of other specializations. What they all share is this: you're selling <strong>expertise and time</strong>, and your invoice is the primary document that converts that expertise into revenue. Getting it right means faster payments, fewer disputes, and a more professional client relationship.</p>
 
@@ -420,6 +428,8 @@ export const cluster15Posts: BlogPost[] = [
     title: 'Italy SDI Integration Guide: How to Connect Your Invoicing Software to Sistema di Interscambio',
     excerpt: 'Step-by-step guide to integrating with Italy\'s SDI e-invoicing system — technical requirements, XML format, accreditation, and common errors.',
     content: `
+<p>Step-by-step guide to integrating with Italy\'s SDI e-invoicing system — technical requirements, XML format, accreditation, and common errors. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
+
 <h2>What Is the SDI (Sistema di Interscambio)?</h2>
 <p>The <strong>Sistema di Interscambio</strong> (SDI) is Italy's mandatory electronic invoicing system operated by the Agenzia delle Entrate (Italian Revenue Agency). Since January 2019, all invoices between Italian businesses and consumers must be transmitted through the SDI in <strong>FatturaPA XML format</strong>.</p>
 <p>The SDI acts as a clearinghouse: it receives electronic invoices from sellers, validates them, and forwards them to buyers. It also reports the data directly to the tax authority, eliminating the need for separate VAT reporting in most cases.</p>
@@ -527,6 +537,8 @@ export const cluster15Posts: BlogPost[] = [
     title: 'Italy Esterometro & Cross-Border E-Invoicing: What Changed in 2022-2026',
     excerpt: 'How Italy\'s Esterometro was replaced by SDI cross-border reporting. Guide to invoicing international clients from Italy.',
     content: `
+<p>How Italy\'s Esterometro was replaced by SDI cross-border reporting. Guide to invoicing international clients from Italy. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
+
 <h2>What Was the Esterometro?</h2>
 <p>The <strong>Esterometro</strong> was Italy's cross-border transaction reporting system. Until June 2022, Italian businesses had to submit a separate quarterly report (the Esterometro) to the Agenzia delle Entrate listing all invoices issued to or received from non-Italian entities.</p>
 <p>This was essentially a "catch-all" for international transactions that didn't flow through the <a href="/blog/italy-sdi-integration-guide">SDI e-invoicing system</a>.</p>
@@ -630,6 +642,8 @@ export const cluster15Posts: BlogPost[] = [
     title: 'Fattura Elettronica for Freelancers in Italy: Forfettari, Minimi & SDI Guide',
     excerpt: 'How Italian freelancers (liberi professionisti) handle electronic invoicing — regime forfettario, regime dei minimi, SDI obligations, and practical examples.',
     content: `
+<p>How Italian freelancers (liberi professionisti) handle electronic invoicing — regime forfettario, regime dei minimi, SDI obligations, and practical examples. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
+
 <h2>E-Invoicing Is Now Mandatory for All Italian Freelancers</h2>
 <p>As of <strong>January 1, 2024</strong>, all Italian freelancers (liberi professionisti) must issue electronic invoices through the <a href="/blog/italy-sdi-integration-guide">SDI system</a> — regardless of tax regime or annual revenue. This includes those under the <strong>regime forfettario</strong> (flat-rate scheme) who were previously exempt.</p>
 <p>If you're a freelancer in Italy — whether a web developer, consultant, designer, translator, or any other profession — this guide covers everything you need to know.</p>
@@ -716,7 +730,7 @@ export const cluster15Posts: BlogPost[] = [
 <h2>Tools for Italian Freelancer E-Invoicing</h2>
 <p>Options for generating and transmitting FatturaPA:</p>
 <ul>
-<li><strong>Invoicemonk</strong> — automatic FatturaPA generation and SDI transmission. Handles forfettario and ordinario regimes. <a href="/free-invoice-generator">Try the free invoice generator</a>.</li>
+<li><strong>Invoicemonk</strong> — automatic FatturaPA generation and SDI transmission. Handles forfettario and ordinario regimes. <a href="/invoicing">Try the free invoice generator</a>.</li>
 <li><strong>Agenzia delle Entrate portal</strong> — free but manual. Good for very low-volume invoicing (1-2 per month).</li>
 <li><strong>Aruba / Fattura24 / Fatture in Cloud</strong> — Italian-specific tools with SDI integration.</li>
 </ul>

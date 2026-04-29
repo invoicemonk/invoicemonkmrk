@@ -37,10 +37,9 @@
     "title": "Everything you need to accept payments",
     "subtitle": "Flexible options for you and your clients.",
     "items": [
-      { "label": "Stripe & Paystack", "title": "Stripe Connect and Paystack split payments", "description": "Built-in support for both Stripe Connect (worldwide) and Paystack (Africa). Funds settle directly to your account with platform fees handled automatically." },
-      { "label": "Manual Payments", "title": "Record bank transfers and cash with proof", "description": "Got paid offline? Log the payment, attach a screenshot or receipt as proof, and the invoice updates instantly. Full audit trail preserved." },
-      { "label": "Reconciliation", "title": "Automatic payment matching", "description": "Online payments are matched to invoices the moment they clear, with idempotent webhooks ensuring no double-counting — even on retries." },
-      { "label": "Cashflow", "title": "Live cashflow card on your dashboard", "description": "See expected payments, overdue amounts, and recent receipts at a glance. Know your real cash position without opening a spreadsheet." }
+      { "label": "Payment Methods", "title": "Accept the way your clients want to pay", "description": "Credit cards, bank transfers, digital wallets — offer all the options your clients expect." },
+      { "label": "Security", "title": "Bank-level payment security", "description": "PCI-compliant processing, encrypted transactions, and fraud protection built in." },
+      { "label": "Reconciliation", "title": "Automatic payment matching", "description": "Payments are matched to invoices automatically. Your books stay accurate without any effort." }
     ]
   },
   "testimonial": {

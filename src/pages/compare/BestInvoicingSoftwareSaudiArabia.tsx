@@ -100,7 +100,7 @@ export default function BestInvoicingSoftwareSaudiArabia() {
             <p className="text-muted-foreground mb-4">Related Content</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/blog/e-invoicing-saudi-zatca-fatoorah" className="text-primary hover:underline">ZATCA Fatoorah Complete Guide</Link>
-              <Link to="/free-invoice-generator" className="text-primary hover:underline">Free Invoice Generator</Link>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Free Invoice Generator</a>
               <Link to="/guides/e-invoicing-mandates" className="text-primary hover:underline">E-Invoicing Mandates by Country</Link>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function BestInvoicingSoftwareSaudiArabia() {
           <h2 className="text-heading-lg font-bold text-white mb-4">ZATCA-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create Fatoorah-ready invoices with 15% VAT, QR codes, and multi-currency. No signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

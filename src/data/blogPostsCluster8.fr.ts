@@ -564,7 +564,7 @@ const posts: BlogPost[] = [
 
       <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:16px 20px;margin:20px 0;">
         <p style="margin:0;font-weight:600;">🧾 Besoin de créer une facture conforme ATO gratuite ?</p>
-        <p style="margin:8px 0 0;">Utilisez notre <a href="/__LANG__/free-invoice-generator-australia">générateur de factures gratuit pour entreprises australiennes</a> — sans inscription. Inclut ABN, GST et format prêt pour le BAS.</p>
+        <p style="margin:8px 0 0;">Utilisez notre <a href="/__LANG__/invoicing">générateur de factures gratuit pour entreprises australiennes</a> — sans inscription. Inclut ABN, GST et format prêt pour le BAS.</p>
       </div>
 
       <h2>Exigences d'enregistrement GST</h2>
@@ -627,7 +627,7 @@ const posts: BlogPost[] = [
 
       <h2>Ressources connexes</h2>
       <ul>
-        <li><a href="/__LANG__/free-invoice-generator-australia">Générateur de factures gratuit Australie</a></li>
+        <li><a href="/__LANG__/invoicing">Générateur de factures gratuit Australie</a></li>
         <li><a href="/__LANG__/compliance">Centre de conformité</a></li>
         <li><a href="/__LANG__/invoicing">Logiciel de facturation Invoicemonk</a></li>
       </ul>

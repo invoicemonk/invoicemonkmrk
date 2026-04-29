@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Simple, <accent>transparent</accent> pricing",
-    "description": "Compliance-ready invoicing for global teams. Multi-currency, audit-ready, with hash-chained immutable records — start free and scale as you grow.",
+    "description": "Start free, upgrade when you need more. No hidden fees, no surprises.",
     "monthly": "Monthly",
     "annual": "Annual",
     "perMonth": "/month",
@@ -13,7 +13,7 @@
     "items": {
       "freeTier": {
         "question": "Is there a free tier?",
-        "answer": "Yes! Our Starter tier is completely free — you can send up to 5 invoices per month with hash-chained audit trails, an invoice verification portal for your clients, multi-currency support, and smart invoice numbering. Upgrade to Pro ($29/mo) or SME ($129/mo) for unlimited invoices and advanced features."
+        "answer": "Yes! Our Starter tier is completely free — you can send up to 5 invoices per month with clean, professional layouts. Upgrade to Pro ($29/mo) or SME ($129/mo) for unlimited invoices and advanced features."
       },
       "upgradeDowngrade": {
         "question": "Can I upgrade or downgrade anytime?",
@@ -25,15 +25,7 @@
       },
       "security": {
         "question": "Is my financial data secure?",
-        "answer": "Your security is our priority. We use bank-level encryption, hash-chained immutable audit logs, and are fully compliant with data protection regulations. Every invoice can be cryptographically verified through our public invoice verification portal."
-      },
-      "starterIncludes": {
-        "question": "What's included in the free Starter plan?",
-        "answer": "Starter includes 5 invoices and 5 receipts per month, 1 currency account, 1 business, and 1 team member. You also get enterprise-grade features: hash-chained audit trails for regulatory compliance, a public invoice verification portal to build client trust, multi-currency invoicing with integrated exchange rates, and smart invoice numbering with customizable prefixes."
-      },
-      "eInvoicingCoverage": {
-        "question": "Do you support e-invoicing for my country?",
-        "answer": "Our Business tier (Biz) supports e-invoicing for Italy (FatturaPA), Poland (KSeF), Germany (ZUGFeRD/XRechnung), and PEPPOL network integration for cross-border compliance in Europe, Australia, and beyond. We also support VAT-compliant invoicing for UK, France, Spain, Belgium, and many other jurisdictions with our jurisdiction-aware tax engine."
+        "answer": "Your security is our priority. We use bank-level encryption, immutable audit logs, and are fully compliant with data protection regulations."
       }
     }
   },

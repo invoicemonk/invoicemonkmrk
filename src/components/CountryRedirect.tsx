@@ -110,8 +110,8 @@ async function detectCountryFromIP(): Promise<SupportedCountry | null> {
 }
 
 /**
- * Rendered at `/` only. Detects the user's country and redirects
- * to the appropriate country-prefixed path (e.g. `/us/`, `/ng/`).
+ * Legacy country redirect retained for compatibility only.
+ * Active public routing now uses LanguageRedirect and language-prefixed paths.
  */
 export function CountryRedirect() {
   const navigate = useNavigate();

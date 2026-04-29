@@ -22,10 +22,12 @@ France is implementing a comprehensive e-invoicing and e-reporting mandate to mo
 
 The core objective of the French e-invoicing and e-reporting mandate is to enhance the transparency and efficiency of VAT collection. By standardizing invoice formats and centralizing transaction data, the DGFiP aims to:
 
-*   **Reduce VAT Fraud:** Real-time or near real-time data allows for quicker detection of discrepancies.
-*   **Simplify VAT Declaration:** Pre-filled VAT declarations for businesses can reduce administrative burden.
-*   **Improve Economic Competitiveness:** Digitalization can optimize business-to-business (B2B) exchanges.
-*   **Enhance Data Analytics:** The DGFiP can leverage aggregated data for economic insights.
+<ul>
+  <li><strong>Reduce VAT Fraud:</strong> Real-time or near real-time data allows for quicker detection of discrepancies.</li>
+  <li><strong>Simplify VAT Declaration:</strong> Pre-filled VAT declarations for businesses can reduce administrative burden.</li>
+  <li><strong>Improve Economic Competitiveness:</strong> Digitalization can optimize business-to-business (B2B) exchanges.</li>
+  <li><strong>Enhance Data Analytics:</strong> The DGFiP can leverage aggregated data for economic insights.</li>
+</ul>
 
 This system is a significant step towards full digital tax compliance within the European Union, aligning with broader EU digital transformation goals.
 
@@ -37,9 +39,11 @@ The French e-invoicing mandate applies broadly to nearly all businesses operatin
 
 All businesses established in France that are subject to VAT (TVA) and engage in B2B transactions with other French VAT-registered businesses will be affected. This includes:
 
-*   Large enterprises (ETI and grandes entreprises)
-*   Mid-size enterprises (PME)
-*   Micro-enterprises (TPE)
+<ul>
+  <li>Large enterprises (ETI and grandes entreprises)</li>
+  <li>Mid-size enterprises (PME)</li>
+  <li>Micro-enterprises (TPE)</li>
+</ul>
 
 The obligation applies to all domestic B2B sales and purchases of goods and services. Even auto-entrepreneurs exceeding the VAT threshold of €36,800 for services or €91,900 for goods annual turnover will be included.
 
@@ -47,8 +51,10 @@ The obligation applies to all domestic B2B sales and purchases of goods and serv
 
 The implementation is staggered based on company size:
 
-*   **September 1, 2026:** All businesses must be capable of *receiving* e-invoices. Large enterprises (ETI and grandes entreprises) must begin *emitting* e-invoices.
-*   **September 1, 2027:** Mid-size enterprises (PME) and micro-enterprises (TPE) must begin *emitting* e-invoices.
+<ul>
+  <li><strong>September 1, 2026:</strong> All businesses must be capable of *receiving* e-invoices. Large enterprises (ETI and grandes entreprises) must begin *emitting* e-invoices.</li>
+  <li><strong>September 1, 2027:</strong> Mid-size enterprises (PME) and micro-enterprises (TPE) must begin *emitting* e-invoices.</li>
+</ul>
 
 This phased approach allows businesses time to adapt their systems and processes.
 
@@ -56,10 +62,12 @@ This phased approach allows businesses time to adapt their systems and processes
 
 Beyond domestic B2B e-invoicing, France's mandate includes e-reporting for transactions not covered by e-invoicing. This applies to:
 
-*   **B2C sales:** Transactions made to non-VAT-registered individual customers.
-*   **International B2B sales:** Sales of goods or services to businesses outside of France.
-*   **International B2B purchases:** Purchases of goods or services from businesses outside of France (including intra-Community acquisitions and imports).
-*   **Certain exempt transactions:** Specific transactions that might be exempt from VAT but still require reporting.
+<ul>
+  <li><strong>B2C sales:</strong> Transactions made to non-VAT-registered individual customers.</li>
+  <li><strong>International B2B sales:</strong> Sales of goods or services to businesses outside of France.</li>
+  <li><strong>International B2B purchases:</strong> Purchases of goods or services from businesses outside of France (including intra-Community acquisitions and imports).</li>
+  <li><strong>Certain exempt transactions:</strong> Specific transactions that might be exempt from VAT but still require reporting.</li>
+</ul>
 
 The e-reporting obligation follows the same phased timeline as the e-invoicing emission obligations, tied to company size.
 
@@ -73,10 +81,12 @@ The Portail Public de Facturation (PPF) is the central, public e-invoicing platf
 
 Key functions of the PPF include:
 
-*   **Central Directory:** Maintaining a directory of all registered businesses and their chosen e-invoicing platform (PPF or PDP).
-*   **Data Hub:** Receiving and transmitting e-invoice data between businesses.
-*   **Tax Authority Interface:** Extracting necessary data for VAT pre-filling and tax control purposes for the DGFiP.
-*   **Free Service:** Offering a basic, free e-invoicing and e-reporting service for businesses that choose not to use a private PDP.
+<ul>
+  <li><strong>Central Directory:</strong> Maintaining a directory of all registered businesses and their chosen e-invoicing platform (PPF or PDP).</li>
+  <li><strong>Data Hub:</strong> Receiving and transmitting e-invoice data between businesses.</li>
+  <li><strong>Tax Authority Interface:</strong> Extracting necessary data for VAT pre-filling and tax control purposes for the DGFiP.</li>
+  <li><strong>Free Service:</strong> Offering a basic, free e-invoicing and e-reporting service for businesses that choose not to use a private PDP.</li>
+</ul>
 
 <h3>What are Plateformes de Dématérialisation Partenaires (PDP)?</h3>
 
@@ -84,16 +94,20 @@ Plateformes de Dématérialisation Partenaires (PDP) are private, certified serv
 
 PDPs typically offer:
 
-*   **Enhanced Features:** Services beyond basic e-invoicing, such as integration with ERP systems, automated reconciliation, electronic archiving, and multiple invoice formats. A good PDP can integrate with your existing invoicing system.
-*   **Value-Added Services:** Support for various business processes, international compliance, and advanced analytics.
-*   **Interoperability:** Ensuring seamless communication with other PDPs and the PPF.
+<ul>
+  <li><strong>Enhanced Features:</strong> Services beyond basic e-invoicing, such as integration with ERP systems, automated reconciliation, electronic archiving, and multiple invoice formats. A good PDP can integrate with your existing invoicing system.</li>
+  <li><strong>Value-Added Services:</strong> Support for various business processes, international compliance, and advanced analytics.</li>
+  <li><strong>Interoperability:</strong> Ensuring seamless communication with other PDPs and the PPF.</li>
+</ul>
 
 When a business uses a PDP, the PDP is responsible for:
 
-1.  Receiving e-invoices from its clients.
-2.  Ensuring the invoices are in a compliant format (Factur-X, UBL 2.1, or CII).
-3.  Transmitting the invoice data to the recipient's chosen platform (either another PDP or the PPF).
-4.  Extracting mandatory e-reporting data and transmitting it to the PPF.
+<ol>
+  <li>Receiving e-invoices from its clients.</li>
+  <li>Ensuring the invoices are in a compliant format (Factur-X, UBL 2.1, or CII).</li>
+  <li>Transmitting the invoice data to the recipient's chosen platform (either another PDP or the PPF).</li>
+  <li>Extracting mandatory e-reporting data and transmitting it to the PPF.</li>
+</ol>
 
 <h3>What are the Key Differences Between PPF and PDP?</h3>
 
@@ -109,32 +123,32 @@ Choosing between the PPF and a PDP depends on a business's needs, volume of tran
     </thead>
     <tbody>
         <tr>
-            <td>**Provider**</td>
+            <td><strong>Provider</strong></td>
             <td>French Government (DGFiP)</td>
             <td>Private, certified service providers</td>
         </tr>
         <tr>
-            <td>**Cost**</td>
+            <td><strong>Cost</strong></td>
             <td>Free of charge for basic services</td>
             <td>Subscription fees or transaction-based charges</td>
         </tr>
         <tr>
-            <td>**Features**</td>
+            <td><strong>Features</strong></td>
             <td>Basic e-invoicing and e-reporting functionalities</td>
             <td>Advanced features, ERP integration, archiving, multiple formats, support</td>
         </tr>
         <tr>
-            <td>**Compliance**</td>
+            <td><strong>Compliance</strong></td>
             <td>Ensures core compliance with French regulations</td>
             <td>Ensures compliance, often with additional features for complex scenarios</td>
         </tr>
         <tr>
-            <td>**Integration**</td>
+            <td><strong>Integration</strong></td>
             <td>Potentially limited direct integration with complex internal systems</td>
             <td>Strong integration capabilities with diverse ERP and accounting software</td>
         </tr>
         <tr>
-            <td>**Target Audience**</td>
+            <td><strong>Target Audience</strong></td>
             <td>Small businesses, those with low transaction volumes, or limited IT resources</td>
             <td>Medium to large enterprises, businesses with complex needs, high transaction volumes, or international operations</td>
         </tr>
@@ -151,9 +165,11 @@ To ensure interoperability and data quality, the French e-invoicing mandate spec
 
 The DGFiP has mandated the use of structured electronic formats to ensure machine readability and automated processing. The accepted formats are:
 
-*   **Factur-X:** This is a hybrid format combining a human-readable PDF with an embedded XML data file. It is the preferred and recommended format by the DGFiP due to its dual readability. The XML part can be based on the ZUGFeRD or EN 16931 CIUS standard.
-*   **UBL 2.1:** Universal Business Language, an international XML standard widely used in e-procurement.
-*   **CII (Cross Industry Invoice):** Another international XML standard based on UN/CEFACT syntax.
+<ul>
+  <li><strong>Factur-X:</strong> This is a hybrid format combining a human-readable PDF with an embedded XML data file. It is the preferred and recommended format by the DGFiP due to its dual readability. The XML part can be based on the ZUGFeRD or EN 16931 CIUS standard.</li>
+  <li><strong>UBL 2.1:</strong> Universal Business Language, an international XML standard widely used in e-procurement.</li>
+  <li><strong>CII (Cross Industry Invoice):</strong> Another international XML standard based on UN/CEFACT syntax.</li>
+</ul>
 
 It is crucial that the chosen format adheres to the European standard EN 16931 for semantic data model, ensuring consistency across different e-invoicing systems.
 
@@ -163,35 +179,41 @@ A compliant e-invoice in France must contain specific mandatory information. Thi
 
 Mandatory fields typically include:
 
-*   Invoice number
-*   Invoice date
-*   Date of service or goods delivery
-*   Seller's legal name and VAT number
-*   Buyer's legal name and VAT number
-*   Description of goods or services
-*   Quantity and unit price
-*   Applicable VAT rate (e.g., 20%, 10%, 5.5%, 2.1%)
-*   VAT amount per rate
-*   Total invoice amount excluding VAT
-*   Total invoice amount including VAT
-*   Payment terms
-*   Bank details (IBAN/SWIFT)
+<ul>
+  <li>Invoice number</li>
+  <li>Invoice date</li>
+  <li>Date of service or goods delivery</li>
+  <li>Seller's legal name and VAT number</li>
+  <li>Buyer's legal name and VAT number</li>
+  <li>Description of goods or services</li>
+  <li>Quantity and unit price</li>
+  <li>Applicable VAT rate (e.g., 20%, 10%, 5.5%, 2.1%)</li>
+  <li>VAT amount per rate</li>
+  <li>Total invoice amount excluding VAT</li>
+  <li>Total invoice amount including VAT</li>
+  <li>Payment terms</li>
+  <li>Bank details (IBAN/SWIFT)</li>
+</ul>
 
 Additionally, specific mentions might be required for:
 
-*   Seller's SIRET number (if applicable)
-*   Mentions regarding self-billing, VAT exemption, or reverse charge where applicable.
-*   In specific cases, details like the delivery address or purchase order reference.
+<ul>
+  <li>Seller's SIRET number (if applicable)</li>
+  <li>Mentions regarding self-billing, VAT exemption, or reverse charge where applicable.</li>
+  <li>In specific cases, details like the delivery address or purchase order reference.</li>
+</ul>
 
 <h3>How is E-Invoice Transmission Handled?</h3>
 
 E-invoice transmission follows the "Y-scheme" model:
 
-1.  **Sender:** A business generates an e-invoice, either directly via the PPF or through its chosen PDP.
-2.  **Sender's Platform:** If using a PDP, the PDP receives the e-invoice, performs checks, and sends it to the PPF. If using the PPF directly, the business uploads the invoice to the PPF.
-3.  **PPF Central Directory:** The PPF identifies the recipient's chosen platform (PPF or a specific PDP) via its central directory.
-4.  **Recipient's Platform:** The PPF routes the e-invoice data to the recipient's chosen PDP or directly to the recipient's PPF account.
-5.  **Recipient:** The recipient downloads or integrates the e-invoice from their chosen platform into their accounting system.
+<ol>
+  <li><strong>Sender:</strong> A business generates an e-invoice, either directly via the PPF or through its chosen PDP.</li>
+  <li><strong>Sender's Platform:</strong> If using a PDP, the PDP receives the e-invoice, performs checks, and sends it to the PPF. If using the PPF directly, the business uploads the invoice to the PPF.</li>
+  <li><strong>PPF Central Directory:</strong> The PPF identifies the recipient's chosen platform (PPF or a specific PDP) via its central directory.</li>
+  <li><strong>Recipient's Platform:</strong> The PPF routes the e-invoice data to the recipient's chosen PDP or directly to the recipient's PPF account.</li>
+  <li><strong>Recipient:</strong> The recipient downloads or integrates the e-invoice from their chosen platform into their accounting system.</li>
+</ol>
 
 This ensures that all invoices flow through a monitored and controlled network, enabling the DGFiP to collect necessary data for pre-filling VAT declarations and performing audits.
 
@@ -201,12 +223,14 @@ E-reporting involves transmitting specific transaction data to the DGFiP via the
 
 The reported data typically includes:
 
-*   Transaction date
-*   Total amount of the transaction
-*   VAT amount (if applicable)
-*   Type of transaction (B2C, international B2B, etc.)
-*   Seller's identification
-*   Buyer's identification (if B2B, partial for B2C)
+<ul>
+  <li>Transaction date</li>
+  <li>Total amount of the transaction</li>
+  <li>VAT amount (if applicable)</li>
+  <li>Type of transaction (B2C, international B2B, etc.)</li>
+  <li>Seller's identification</li>
+  <li>Buyer's identification (if B2B, partial for B2C)</li>
+</ul>
 
 The frequency of e-reporting depends on the business's VAT declaration frequency (monthly or quarterly), with the data submitted shortly after the transaction period. For instance, companies filing monthly VAT returns would typically report their transaction data monthly.
 
@@ -216,7 +240,9 @@ The implementation of France's e-invoicing and e-reporting mandate is a multi-ye
 
 <h3>What are the Key Dates for E-Invoicing Reception?</h3>
 
-*   **September 1, 2026:** All businesses subject to VAT in France must be able to *receive* electronic invoices. This means businesses (regardless of their size) must have a system in place (either direct access to the PPF or via a PDP) to process incoming e-invoices from this date.
+<ul>
+  <li><strong>September 1, 2026:</strong> All businesses subject to VAT in France must be able to *receive* electronic invoices. This means businesses (regardless of their size) must have a system in place (either direct access to the PPF or via a PDP) to process incoming e-invoices from this date.</li>
+</ul>
 
 <h3>What are the Key Dates for E-Invoicing Emission by Company Size?</h3>
 
@@ -232,24 +258,24 @@ The obligation to *emit* e-invoices is staggered based on the company's size, re
     </thead>
     <tbody>
         <tr>
-            <td>**Large Enterprises (ETI and grandes entreprises)**</td>
+            <td><strong>Large Enterprises (ETI and grandes entreprises)</strong></td>
             <td>Generally, companies with more than 5,000 employees OR turnover > €1.5 billion euro AND balance sheet total > €2 billion euro</td>
             <td>September 1, 2026</td>
         </tr>
         <tr>
-            <td>**Mid-Size Enterprises (PME)**</td>
+            <td><strong>Mid-Size Enterprises (PME)</strong></td>
             <td>Companies with 50 to 249 employees OR turnover < €50 million euro</td>
             <td>September 1, 2027</td>
         </tr>
         <tr>
-            <td>**Micro-Enterprises / Very Small Enterprises (TPE)**</td>
+            <td><strong>Micro-Enterprises / Very Small Enterprises (TPE)</strong></td>
             <td>Companies with fewer than 10 employees OR turnover < €2 million euro</td>
             <td>September 1, 2027</td>
         </tr>
     </tbody>
 </table>
 
-The e-reporting obligation follows the **same phased timeline** as the emission obligations, meaning companies must begin reporting their B2C and international transactions concurrently with their e-invoicing emission start dates.
+The e-reporting obligation follows the <strong>same phased timeline</strong> as the emission obligations, meaning companies must begin reporting their B2C and international transactions concurrently with their e-invoicing emission start dates.
 
 <h3>Has There Been a Pilot Period?</h3>
 
@@ -261,34 +287,44 @@ Achieving compliance with France's e-invoicing and e-reporting mandate requires 
 
 <h3>Step 1: Assess Your Business's Status and Impact</h3>
 
-*   **Identify company size:** Determine if your business falls under the "large," "mid-size," or "micro/TPE" categories to ascertain your specific transition dates for both reception and emission.
-*   **Review transaction types:** Categorize your sales (B2B domestic, B2C, international B2B) and purchases to understand your e-invoicing and e-reporting obligations.
-*   **Evaluate current invoicing processes:** Analyze your existing invoicing software, ERP systems, and internal workflows. Identify gaps where your current setup does not align with the new digital requirements.
+<ul>
+  <li><strong>Identify company size:</strong> Determine if your business falls under the "large," "mid-size," or "micro/TPE" categories to ascertain your specific transition dates for both reception and emission.</li>
+  <li><strong>Review transaction types:</strong> Categorize your sales (B2B domestic, B2C, international B2B) and purchases to understand your e-invoicing and e-reporting obligations.</li>
+  <li><strong>Evaluate current invoicing processes:</strong> Analyze your existing invoicing software, ERP systems, and internal workflows. Identify gaps where your current setup does not align with the new digital requirements.</li>
+</ul>
 
 <h3>Step 2: Choose Your E-Invoicing Platform (PPF or PDP)</h3>
 
-*   **PPF (Portail Public de Facturation):** For smaller businesses or those with limited IT resources, the free governmental platform might suffice for basic e-invoicing and e-reporting. It offers the core functionalities for compliance.
-*   **PDP (Plateforme de Dématérialisation Partenaire):** For businesses with complex needs, high transaction volumes, specific ERP integrations, or a desire for value-added services, a certified private PDP is often the better choice. Research and select a PDP that meets your operational and financial requirements. Ensure the PDP is officially registered with the DGFiP.
+<ul>
+  <li><strong>PPF (Portail Public de Facturation):</strong> For smaller businesses or those with limited IT resources, the free governmental platform might suffice for basic e-invoicing and e-reporting. It offers the core functionalities for compliance.</li>
+  <li><strong>PDP (Plateforme de Dématérialisation Partenaire):</strong> For businesses with complex needs, high transaction volumes, specific ERP integrations, or a desire for value-added services, a certified private PDP is often the better choice. Research and select a PDP that meets your operational and financial requirements. Ensure the PDP is officially registered with the DGFiP.</li>
+</ul>
 
 <h3>Step 3: Adapt Your Internal Systems and Processes</h3>
 
-*   **Software Updates/Integrations:** If using a PDP, ensure your existing accounting or ERP software can integrate seamlessly. Many invoicing software providers are updating their platforms to support French e-invoicing, including Invoicemonk.
-*   **Data Mapping:** Map all required invoice data fields (e.g., VAT rates, legal mentions) to ensure they are accurately captured and transmitted in the correct electronic format (Factur-X, UBL 2.1, or CII).
-*   **Staff Training:** Educate your finance, accounting, and sales teams on the new e-invoicing and e-reporting procedures. This includes how to issue, receive, and manage electronic invoices, as well as handle e-reporting obligations.
-*   **Master Data Management:** Ensure your customer and supplier master data is accurate and up-to-date, especially VAT numbers and company identification details, which are crucial for the central directory lookup.
-*   **Archiving:** Plan for electronic archiving of e-invoices in compliance with French legal retention periods (generally 6-10 years). Many PDPs offer this as a service.
+<ul>
+  <li><strong>Software Updates/Integrations:</strong> If using a PDP, ensure your existing accounting or ERP software can integrate seamlessly. Many invoicing software providers are updating their platforms to support French e-invoicing, including Invoicemonk.</li>
+  <li><strong>Data Mapping:</strong> Map all required invoice data fields (e.g., VAT rates, legal mentions) to ensure they are accurately captured and transmitted in the correct electronic format (Factur-X, UBL 2.1, or CII).</li>
+  <li><strong>Staff Training:</strong> Educate your finance, accounting, and sales teams on the new e-invoicing and e-reporting procedures. This includes how to issue, receive, and manage electronic invoices, as well as handle e-reporting obligations.</li>
+  <li><strong>Master Data Management:</strong> Ensure your customer and supplier master data is accurate and up-to-date, especially VAT numbers and company identification details, which are crucial for the central directory lookup.</li>
+  <li><strong>Archiving:</strong> Plan for electronic archiving of e-invoices in compliance with French legal retention periods (generally 6-10 years). Many PDPs offer this as a service.</li>
+</ul>
 
 <h3>Step 4: Prepare for E-Reporting</h3>
 
-*   **Data Collection for B2C/International:** Establish processes to accurately collect and categorize transaction data for B2C sales and international B2B transactions.
-*   **Reporting Frequency:** Understand your e-reporting deadlines based on your VAT declaration frequency (monthly or quarterly).
-*   **Automated Transmission:** Configure your chosen platform (PPF or PDP) to automatically transmit e-reporting data to the DGFiP.
+<ul>
+  <li><strong>Data Collection for B2C/International:</strong> Establish processes to accurately collect and categorize transaction data for B2C sales and international B2B transactions.</li>
+  <li><strong>Reporting Frequency:</strong> Understand your e-reporting deadlines based on your VAT declaration frequency (monthly or quarterly).</li>
+  <li><strong>Automated Transmission:</strong> Configure your chosen platform (PPF or PDP) to automatically transmit e-reporting data to the DGFiP.</li>
+</ul>
 
 <h3>Step 5: Test and Verify</h3>
 
-*   **Pilot Participation (if eligible):** If your business is part of the pilot program, actively participate and provide feedback.
-*   **Internal Testing:** Conduct thorough internal testing of your e-invoicing and e-reporting processes before the mandatory effective dates. Test sending and receiving e-invoices, and verify that e-reporting data is correctly generated.
-*   **Check with DGFiP Resources:** Regularly consult the official DGFiP website (e.g., [https://www.impots.gouv.fr](https://www.impots.gouv.fr)) for the latest guidelines, FAQs, and technical specifications.
+<ul>
+  <li><strong>Pilot Participation (if eligible):</strong> If your business is part of the pilot program, actively participate and provide feedback.</li>
+  <li><strong>Internal Testing:</strong> Conduct thorough internal testing of your e-invoicing and e-reporting processes before the mandatory effective dates. Test sending and receiving e-invoices, and verify that e-reporting data is correctly generated.</li>
+  <li><strong>Check with DGFiP Resources:</strong> Regularly consult the official DGFiP website (e.g., [https://www.impots.gouv.fr](https://www.impots.gouv.fr)) for the latest guidelines, FAQs, and technical specifications.</li>
+</ul>
 
 <h3>Compliance Checklist for French E-Invoicing</h3>
 
@@ -360,23 +396,29 @@ Non-compliance with France's e-invoicing and e-reporting mandate carries specifi
 
 <h3>What are the Penalties for Missing E-Invoices?</h3>
 
-*   **Penalty Amount:** A penalty of **€15 per invoice** will be imposed for each electronic invoice that was not issued or received in a compliant electronic format or through the specified platforms (PPF or PDP).
-*   **Annual Cap:** This penalty is capped at **€15,000 per year** for missing e-invoices. This means that a company will not be penalized beyond this amount annually, even if a very large number of invoices are found to be non-compliant.
+<ul>
+  <li><strong>Penalty Amount:</strong> A penalty of <strong>€15 per invoice</strong> will be imposed for each electronic invoice that was not issued or received in a compliant electronic format or through the specified platforms (PPF or PDP).</li>
+  <li><strong>Annual Cap:</strong> This penalty is capped at <strong>€15,000 per year</strong> for missing e-invoices. This means that a company will not be penalized beyond this amount annually, even if a very large number of invoices are found to be non-compliant.</li>
+</ul>
 
 <h3>What are the Penalties for Missing E-Reporting?</h3>
 
-*   **Penalty Amount:** A penalty of **€15 per transaction** will be applied for each transaction that was subject to e-reporting but was not reported correctly or on time. This applies to B2C sales and international B2B transactions.
-*   **Annual Cap:** Similar to e-invoicing, this penalty is capped at **€15,000 per year** for missing e-reporting transactions.
+<ul>
+  <li><strong>Penalty Amount:</strong> A penalty of <strong>€15 per transaction</strong> will be applied for each transaction that was subject to e-reporting but was not reported correctly or on time. This applies to B2C sales and international B2B transactions.</li>
+  <li><strong>Annual Cap:</strong> Similar to e-invoicing, this penalty is capped at <strong>€15,000 per year</strong> for missing e-reporting transactions.</li>
+</ul>
 
 <h3>Is There a First Offence Tolerance?</h3>
 
-Yes, the DGFiP has confirmed a **first offence tolerance** for an initial period once the mandate officially begins. This indicates that businesses might receive a warning or a reduced penalty for initial minor infractions, particularly as they adapt to the new system. However, this tolerance is not a guarantee against penalties and should not be relied upon as an excuse for delaying compliance efforts. The exact duration and scope of this tolerance period will be detailed by the DGFiP.
+Yes, the DGFiP has confirmed a <strong>first offence tolerance</strong> for an initial period once the mandate officially begins. This indicates that businesses might receive a warning or a reduced penalty for initial minor infractions, particularly as they adapt to the new system. However, this tolerance is not a guarantee against penalties and should not be relied upon as an excuse for delaying compliance efforts. The exact duration and scope of this tolerance period will be detailed by the DGFiP.
 
 <h3>Key Points on Penalties:</h3>
 
-*   **Separate Caps:** The €15,000 annual cap for missing e-invoices is separate from the €15,000 annual cap for missing e-reporting. A business could theoretically face penalties up to €30,000 (€15,000 for e-invoicing + €15,000 for e-reporting) if both obligations are breached significantly.
-*   **Per-Invoice/Transaction Basis:** The penalties are levied per individual invoice or transaction, emphasizing the importance of compliance for every single business exchange.
-*   **Prevention is Key:** Given the per-item nature of the penalties and the annual caps, ongoing compliance is crucial. Investing in robust e-invoicing and e-reporting solutions can significantly mitigate penalty risks.
+<ul>
+  <li><strong>Separate Caps:</strong> The €15,000 annual cap for missing e-invoices is separate from the €15,000 annual cap for missing e-reporting. A business could theoretically face penalties up to €30,000 (€15,000 for e-invoicing + €15,000 for e-reporting) if both obligations are breached significantly.</li>
+  <li><strong>Per-Invoice/Transaction Basis:</strong> The penalties are levied per individual invoice or transaction, emphasizing the importance of compliance for every single business exchange.</li>
+  <li><strong>Prevention is Key:</strong> Given the per-item nature of the penalties and the annual caps, ongoing compliance is crucial. Investing in robust e-invoicing and e-reporting solutions can significantly mitigate penalty risks.</li>
+</ul>
 
 These penalties are designed to encourage timely and accurate adoption of the new digital tax compliance framework. Businesses are advised to prepare well in advance of their respective mandate dates to avoid financial repercussions.
 
@@ -388,25 +430,29 @@ France's e-invoicing and e-reporting mandate is deeply integrated with its VAT (
 
 <h3>What is the Standard VAT Rate in France?</h3>
 
-The standard Value Added Tax (TVA) rate in France is **20%**. This rate applies to most goods and services unless they are specifically subject to a reduced rate or are exempt.
+The standard Value Added Tax (TVA) rate in France is <strong>20%</strong>. This rate applies to most goods and services unless they are specifically subject to a reduced rate or are exempt.
 
 <h3>Are There Reduced VAT Rates?</h3>
 
 Yes, France applies several reduced VAT rates to specific categories of goods and services:
 
-*   **10%:** Applies to certain food products, catering services, take-away food, passenger transport, hotel accommodation, some renovation work, cultural events, and certain agricultural products.
-*   **5.5%:** Applies to essential food products, water supplies, books (including e-books), some cultural services, social housing, and energy-saving improvements to housing.
-*   **2.1%:** This super-reduced rate applies to a very limited number of items, primarily certain pharmaceutical products (e.g., reimbursed medicines), and press publications.
+<ul>
+  <li><strong>10%:</strong> Applies to certain food products, catering services, take-away food, passenger transport, hotel accommodation, some renovation work, cultural events, and certain agricultural products.</li>
+  <li><strong>5.5%:</strong> Applies to essential food products, water supplies, books (including e-books), some cultural services, social housing, and energy-saving improvements to housing.</li>
+  <li><strong>2.1%:</strong> This super-reduced rate applies to a very limited number of items, primarily certain pharmaceutical products (e.g., reimbursed medicines), and press publications.</li>
+</ul>
 
 It is critical for businesses to correctly apply these VAT rates on their invoices and accurately report them through the e-invoicing and e-reporting system. Incorrect VAT application can lead to additional penalties and tax adjustments.
 
 <h3>How Does E-Invoicing Impact VAT Declarations?</h3>
 
-One of the primary benefits for the DGFiP is the ability to leverage e-invoicing and e-reporting data to **pre-fill VAT declarations** for businesses.
+One of the primary benefits for the DGFiP is the ability to leverage e-invoicing and e-reporting data to <strong>pre-fill VAT declarations</strong> for businesses.
 
-*   By collecting structured invoice data (for B2B) and transaction data (for B2C and international B2B) in near real-time, the tax authority can populate sections of a company's monthly or quarterly VAT return.
-*   This aims to reduce errors, simplify the declaration process for businesses, and make VAT control more efficient.
-*   Businesses will still be responsible for verifying the pre-filled declaration data and making any necessary adjustments before submission.
+<ul>
+  <li>By collecting structured invoice data (for B2B) and transaction data (for B2C and international B2B) in near real-time, the tax authority can populate sections of a company's monthly or quarterly VAT return.</li>
+  <li>This aims to reduce errors, simplify the declaration process for businesses, and make VAT control more efficient.</li>
+  <li>Businesses will still be responsible for verifying the pre-filled declaration data and making any necessary adjustments before submission.</li>
+</ul>
 
 <h3>Are There VAT Thresholds for Small Businesses (Auto-entrepreneurs)?</h3>
 
@@ -414,8 +460,10 @@ Yes, specific VAT thresholds apply for auto-entrepreneurs (a simplified business
 
 As of the latest data:
 
-*   **€36,800 annual turnover** for services.
-*   **€91,900 annual turnover** for goods.
+<ul>
+  <li><strong>€36,800 annual turnover</strong> for services.</li>
+  <li><strong>€91,900 annual turnover</strong> for goods.</li>
+</ul>
 
 If an auto-entrepreneur exceeds these thresholds, they become subject to VAT, and consequently, the e-invoicing and e-reporting obligations will apply to them as per the general phased timeline for micro-enterprises (TPE).
 
@@ -429,42 +477,48 @@ Understanding the nuances of the French e-invoicing and e-reporting mandate can 
 
 <h3>Is E-Invoicing Mandatory for B2G Transactions in France?</h3>
 
-While the current mandate focuses on B2B, B2C, and international B2B transactions, it's important to note that e-invoicing for Business-to-Government (B2G) transactions has **already been mandatory in France since 2020** through the Chorus Pro platform. The new mandate expands the scope to cover all private sector transactions. Therefore, businesses already issuing e-invoices to public entities via Chorus Pro will have some familiarity with electronic invoicing, though the new system (PPF/PDP) is distinct.
+While the current mandate focuses on B2B, B2C, and international B2B transactions, it's important to note that e-invoicing for Business-to-Government (B2G) transactions has <strong>already been mandatory in France since 2020</strong> through the Chorus Pro platform. The new mandate expands the scope to cover all private sector transactions. Therefore, businesses already issuing e-invoices to public entities via Chorus Pro will have some familiarity with electronic invoicing, though the new system (PPF/PDP) is distinct.
 
 <h3>Can We Still Use Paper Invoices After the Mandate?</h3>
 
-No. Once the mandate takes effect for a business category, **paper invoices will no longer be considered legally valid** for domestic B2B transactions. All invoices exchanged between VAT-registered businesses in France must be in a structured electronic format (Factur-X, UBL 2.1, or CII) and transmitted through the PPF or a certified PDP. For B2C transactions, electronic reporting will replace the need for traditional paper receipts for tax purposes.
+No. Once the mandate takes effect for a business category, <strong>paper invoices will no longer be considered legally valid</strong> for domestic B2B transactions. All invoices exchanged between VAT-registered businesses in France must be in a structured electronic format (Factur-X, UBL 2.1, or CII) and transmitted through the PPF or a certified PDP. For B2C transactions, electronic reporting will replace the need for traditional paper receipts for tax purposes.
 
 <h3>What is Factur-X and Why is it Recommended?</h3>
 
 Factur-X is a hybrid e-invoice format that combines a human-readable PDF document with an embedded XML data file. It is essentially a "PDF A/3" file.
 
-*   **Hybrid Nature:** It offers the best of both worlds: a visually familiar document that can be easily read and understood by humans, and structured data in the XML part that can be directly processed by machines (accounting systems, tax authorities).
-*   **Interoperability:** While not strictly mandatory to use Factur-X over UBL 2.1 or CII, it is the format **recommended by the DGFiP** due to its versatility and ease of adoption for businesses that may not have fully automated their invoice processing.
-*   **Compliance:** It fully complies with the European standard EN 16931 for electronic invoicing, ensuring its broad acceptance and data integrity.
+<ul>
+  <li><strong>Hybrid Nature:</strong> It offers the best of both worlds: a visually familiar document that can be easily read and understood by humans, and structured data in the XML part that can be directly processed by machines (accounting systems, tax authorities).</li>
+  <li><strong>Interoperability:</strong> While not strictly mandatory to use Factur-X over UBL 2.1 or CII, it is the format <strong>recommended by the DGFiP</strong> due to its versatility and ease of adoption for businesses that may not have fully automated their invoice processing.</li>
+  <li><strong>Compliance:</strong> It fully complies with the European standard EN 16931 for electronic invoicing, ensuring its broad acceptance and data integrity.</li>
+</ul>
 
 <h3>What is the Legal Basis for this Mandate?</h3>
 
-The legal framework for France's e-invoicing and e-reporting mandate is primarily established by **Finance Law 2024 (Article 91)**, which was subsequently amended by **Finance Law 2026**. These laws define the scope, timeline, technical requirements, and penalties associated with the mandate. Businesses should refer to the official publications by the DGFiP for the most up-to-date and detailed legal interpretations.
+The legal framework for France's e-invoicing and e-reporting mandate is primarily established by <strong>Finance Law 2024 (Article 91)</strong>, which was subsequently amended by <strong>Finance Law 2026</strong>. These laws define the scope, timeline, technical requirements, and penalties associated with the mandate. Businesses should refer to the official publications by the DGFiP for the most up-to-date and detailed legal interpretations.
 
 <h3>How Will This Mandate Benefit Businesses?</h3>
 
 While initial implementation requires effort, the French e-invoicing and e-reporting mandate offers several long-term benefits for businesses:
 
-*   **Reduced Administrative Costs:** Automation of invoice processing can significantly lower costs associated with printing, postage, manual data entry, and archiving.
-*   **Faster Payment Cycles:** Streamlined e-invoice exchange can lead to quicker invoice approval and payment processes.
-*   **Improved Accuracy:** Reduced manual intervention minimizes human errors in invoicing and data entry.
-*   **Enhanced Cash Flow Management:** Better visibility into receivables and payables.
-*   **Simplified VAT Declarations:** Potential for pre-filled VAT declarations by the DGFiP can save time and reduce errors.
-*   **Environmental Benefits:** Reduced paper consumption.
-*   **Greater Security:** Electronic transmission through certified platforms offers enhanced security compared to traditional methods.
+<ul>
+  <li><strong>Reduced Administrative Costs:</strong> Automation of invoice processing can significantly lower costs associated with printing, postage, manual data entry, and archiving.</li>
+  <li><strong>Faster Payment Cycles:</strong> Streamlined e-invoice exchange can lead to quicker invoice approval and payment processes.</li>
+  <li><strong>Improved Accuracy:</strong> Reduced manual intervention minimizes human errors in invoicing and data entry.</li>
+  <li><strong>Enhanced Cash Flow Management:</strong> Better visibility into receivables and payables.</li>
+  <li><strong>Simplified VAT Declarations:</strong> Potential for pre-filled VAT declarations by the DGFiP can save time and reduce errors.</li>
+  <li><strong>Environmental Benefits:</strong> Reduced paper consumption.</li>
+  <li><strong>Greater Security:</strong> Electronic transmission through certified platforms offers enhanced security compared to traditional methods.</li>
+</ul>
 
 <h3>Can Foreign Companies Be Affected by the French Mandate?</h3>
 
 Yes, foreign companies can be affected if they are registered for VAT (TVA) in France and conduct domestic B2B transactions.
 
-*   **French VAT Registration:** If a foreign company has a VAT registration in France and makes sales to or purchases from other French VAT-registered businesses, they will be subject to the e-invoicing mandate for these domestic transactions. This means they must be able to issue and receive e-invoices via the PPF or a PDP for such transactions.
-*   **E-Reporting:** Foreign companies making B2C sales to French consumers or engaging in cross-border B2B transactions (exports, imports, intra-Community supply/acquisition) will be subject to the e-reporting obligations.
+<ul>
+  <li><strong>French VAT Registration:</strong> If a foreign company has a VAT registration in France and makes sales to or purchases from other French VAT-registered businesses, they will be subject to the e-invoicing mandate for these domestic transactions. This means they must be able to issue and receive e-invoices via the PPF or a PDP for such transactions.</li>
+  <li><strong>E-Reporting:</strong> Foreign companies making B2C sales to French consumers or engaging in cross-border B2B transactions (exports, imports, intra-Community supply/acquisition) will be subject to the e-reporting obligations.</li>
+</ul>
 
 It is crucial for any business with a French VAT presence to assess its obligations under the new mandate.
 
@@ -474,12 +528,14 @@ Navigating the complexities of France's e-invoicing and e-reporting mandate, wit
 
 Invoicemonk is committed to providing an intuitive and compliant platform to manage your invoicing needs. Our focus on current and upcoming tax regulations means you can focus on your business with peace of mind.
 
-*   **Compliant E-Invoice Generation:** Invoicemonk will support the generation of e-invoices in mandatory formats such as Factur-X, UBL 2.1, or CII, ensuring your invoices meet the technical specifications required by the DGFiP. Our platform will be designed to capture all necessary data fields, such as VAT rates (20%, 10%, 5.5%, 2.1%) and specific legal mentions. Learn more about our core capabilities on our <a href="/invoicing">invoicing</a> page.
-*   **Seamless Platform Integration (PDP/PPF Ready):** While we may not be a certified PDP ourselves, Invoicemonk is developing capabilities to seamlessly integrate with chosen PDPs or facilitate direct interaction with the PPF. This means your invoices generated within Invoicemonk can be automatically routed through the required channels for transmission and reporting, whether you opt for a private partner platform or the public portal. Explore how we ensure compliance on our <a href="/compliance">compliance</a> page.
-*   **Automated E-Reporting Functionality:** For B2C and international B2B transactions, Invoicemonk will assist with your e-reporting obligations. Our system will be designed to collect the necessary transaction data and facilitate its transmission to the DGFiP via the appropriate channels, aligning with the phased deadlines.
-*   **Reduced Manual Effort and Error:** By automating invoice generation, formatting, and submission through compliant channels, Invoicemonk helps reduce manual data entry, thereby minimizing the risk of errors and potential penalties (€15 per invoice/transaction, up to €15,000 annual cap). Our <a href="/free-invoice-generator">free invoice generator</a> can give you a taste of our user-friendly interface.
-*   **Centralized Expense and Payment Management:** Beyond just outward invoicing, Invoicemonk provides tools to manage incoming invoices and track all your financial transactions. This comprehensive approach simplifies your overall financial data management, which is crucial for accurate VAT reconciliation under the new mandate. Discover more about managing your <a href="/expenses">expenses</a> and processing <a href="/payments">payments</a>.
-*   **Up-to-Date Compliance:** Invoicemonk continuously monitors regulatory changes, including adjustments to Finance Law 2024 and 2026. Our platform is regularly updated to ensure ongoing compliance with the latest requirements from the DGFiP, giving you peace of mind as the mandate rolls out.
+<ul>
+  <li><strong>Compliant E-Invoice Generation:</strong> Invoicemonk will support the generation of e-invoices in mandatory formats such as Factur-X, UBL 2.1, or CII, ensuring your invoices meet the technical specifications required by the DGFiP. Our platform will be designed to capture all necessary data fields, such as VAT rates (20%, 10%, 5.5%, 2.1%) and specific legal mentions. Learn more about our core capabilities on our <a href="/invoicing">invoicing</a> page.</li>
+  <li><strong>Seamless Platform Integration (PDP/PPF Ready):</strong> While we may not be a certified PDP ourselves, Invoicemonk is developing capabilities to seamlessly integrate with chosen PDPs or facilitate direct interaction with the PPF. This means your invoices generated within Invoicemonk can be automatically routed through the required channels for transmission and reporting, whether you opt for a private partner platform or the public portal. Explore how we ensure compliance on our <a href="/compliance">compliance</a> page.</li>
+  <li><strong>Automated E-Reporting Functionality:</strong> For B2C and international B2B transactions, Invoicemonk will assist with your e-reporting obligations. Our system will be designed to collect the necessary transaction data and facilitate its transmission to the DGFiP via the appropriate channels, aligning with the phased deadlines.</li>
+  <li><strong>Reduced Manual Effort and Error:</strong> By automating invoice generation, formatting, and submission through compliant channels, Invoicemonk helps reduce manual data entry, thereby minimizing the risk of errors and potential penalties (€15 per invoice/transaction, up to €15,000 annual cap). Our <a href="/invoicing">free invoice generator</a> can give you a taste of our user-friendly interface.</li>
+  <li><strong>Centralized Expense and Payment Management:</strong> Beyond just outward invoicing, Invoicemonk provides tools to manage incoming invoices and track all your financial transactions. This comprehensive approach simplifies your overall financial data management, which is crucial for accurate VAT reconciliation under the new mandate. Discover more about managing your <a href="/expenses">expenses</a> and processing <a href="/payments">payments</a>.</li>
+  <li><strong>Up-to-Date Compliance:</strong> Invoicemonk continuously monitors regulatory changes, including adjustments to Finance Law 2024 and 2026. Our platform is regularly updated to ensure ongoing compliance with the latest requirements from the DGFiP, giving you peace of mind as the mandate rolls out.</li>
+</ul>
 
 Invoicemonk is your partner in achieving effortless and compliant invoicing in France, allowing you to focus on growing your business while we handle the complexities of digital tax mandates.`,
     category: 'Tax and Compliance',
@@ -507,9 +563,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: `Which e-invoice formats are accepted in France from 2026?`, answer: `Three structured formats are accepted: Factur-X (hybrid PDF/XML based on EN 16931, recommended by DGFiP), UBL 2.1 (Universal Business Language XML), and CII (Cross Industry Invoice based on UN/CEFACT). All must comply with the EN 16931 European standard.` }
     ],
     relatedTools: [
-      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance status' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create compliant invoices instantly' },
-    ],
+      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance status' },    ],
   },
   {
     slug: 'france-ppf-vs-pdp-e-invoicing-platforms',
@@ -753,7 +807,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <h2>How Invoicemonk Helps</h2>
 <p>Navigating the complexities of French e-invoicing, whether through the PPF or a certified PDP, requires robust tools. Invoicemonk simplifies your billing and compliance needs.</p>
 <ul>
-    <li><strong>Automated Invoicing:</strong> Generate professional, compliant invoices quickly with our <a href="/invoicing">invoicing software</a> and <a href="/free-invoice-generator">free invoice generator</a>.</li>
+    <li><strong>Automated Invoicing:</strong> Generate professional, compliant invoices quickly with our <a href="/invoicing">invoicing software</a> and <a href="/invoicing">free invoice generator</a>.</li>
     <li><strong>Expense Management:</strong> Track and manage all your business expenses with ease, ensuring accurate records for e-reporting and tax purposes via our <a href="/expenses">expenses</a> module.</li>
     <li><strong>Compliance Ready:</strong> While Invoicemonk itself is not a certified PDP, we ensure our invoicing outputs can be readily adapted for submission via your chosen PDP or the PPF, adhering to formats like Factur-X.</li>
     <li><strong>Streamlined Payments:</strong> Facilitate faster payments from your clients with integrated <a href="/payments">payment processing options</a>.</li>
@@ -782,9 +836,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: `When will the pilot phase for the new e-invoicing system begin?`, answer: `The pilot program for the new e-invoicing system was launched in January 2025. This phase involves a select group of companies testing the system before the full rollout.` }
     ],
     relatedTools: [
-      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance status' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create compliant invoices instantly' },
-    ],
+      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance status' },    ],
   },
   {
     slug: 'france-e-reporting-vs-e-invoicing',
@@ -1061,7 +1113,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
         <strong>Expense Management:</strong> Integrate your <a href="/expenses">expense management</a> to maintain a holistic view of your financial transactions, complementing your reporting needs.
     </li>
     <li>
-        <strong>Free Invoice Generator:</strong> Explore our <a href="/free-invoice-generator">free invoice generator</a> to understand how structured data is captured from the start.
+        <strong>Free Invoice Generator:</strong> Explore our <a href="/invoicing">free invoice generator</a> to understand how structured data is captured from the start.
     </li>
 </ul>
 <p>
@@ -1090,9 +1142,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: `What is the timeline for the French E-Reporting pilot program?`, answer: `A pilot program for the French E-Reporting system, as part of the PPF/PDP initiative, was launched in January 2025. This pilot involves a select group of companies to test and refine the system before its full rollout.` }
     ],
     relatedTools: [
-      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance status' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create compliant invoices instantly' },
-    ],
+      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance status' },    ],
   },
   // ─── France Cluster: Factur-X Format Guide ───
   {
@@ -1158,7 +1208,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>French-specific rules:</strong> SIREN/SIRET format validation, French VAT number format (FR + 2 check digits + 9 SIREN digits).</li>
 <li><strong>PDF/A-3 compliance:</strong> The PDF must be a valid PDF/A-3 document with correct XMP metadata.</li>
 </ul>
-<p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a> ensures format compliance automatically.</p>`,
+<p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> ensures format compliance automatically.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'factur-x', 'e-invoicing', 'compliance', 'xml'],
     author: defaultAuthor,
@@ -1179,9 +1229,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'Which Factur-X profile is required for France?', answer: 'The EN16931 profile is the minimum required for compliance with the French e-invoicing mandate. It includes approximately 100 fields covering all mandatory data elements.' },
       { question: 'Is Factur-X the same as ZUGFeRD?', answer: 'Yes, Factur-X and ZUGFeRD 2.1 are technically identical standards—Factur-X is the French name and ZUGFeRD is the German name for the same Franco-German hybrid PDF/XML format.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create Factur-X compliant invoices' },
-    ],
+    relatedTools: [    ],
   },
 
   // ─── France Cluster: Penalties & Compliance ───
@@ -1297,7 +1345,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 </ul>
 
 <h2>What Software Do Small Businesses Need?</h2>
-<p>At minimum, your invoicing software must generate invoices in one of the three accepted formats (Factur-X, UBL 2.1, or CII) and connect to your chosen platform. <a href="/__LANG__/invoicing">Invoicemonk</a> supports all three formats and offers direct PPF/PDP connectivity, making it an ideal solution for French small businesses preparing for the mandate. The <a href="/__LANG__/free-invoice-generator">free invoice generator</a> lets you test compliant invoice creation immediately.</p>`,
+<p>At minimum, your invoicing software must generate invoices in one of the three accepted formats (Factur-X, UBL 2.1, or CII) and connect to your chosen platform. <a href="/__LANG__/invoicing">Invoicemonk</a> supports all three formats and offers direct PPF/PDP connectivity, making it an ideal solution for French small businesses preparing for the mandate. The <a href="/__LANG__/invoicing">free invoice generator</a> lets you test compliant invoice creation immediately.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'small-business', 'tpe', 'pme', 'e-invoicing', 'registration'],
     author: defaultAuthor,
@@ -1317,9 +1365,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'When must French small businesses start e-invoicing?', answer: 'TPEs and PMEs must be able to receive e-invoices by September 1, 2026, and must emit e-invoices by September 1, 2027.' },
       { question: 'Is the PPF free for small businesses?', answer: 'Yes, the Portail Public de Facturation (PPF) is a free government platform that offers basic e-invoicing functionality suitable for most small businesses.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Test compliant invoice creation' },
-    ],
+    relatedTools: [    ],
   },
 
   // ─── France Cluster: Foreign Companies ───
@@ -1494,9 +1540,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'Do Belgian self-employed workers need to use PEPPOL?', answer: 'Yes, all VAT-registered businesses in Belgium, including self-employed workers and sole traders, must send and receive PEPPOL e-invoices for B2B transactions.' },
     ],
     relatedTools: [
-      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create compliant invoices' },
-    ],
+      { label: 'Compliance Hub', url: '/compliance', description: 'Check your e-invoicing compliance' },    ],
   },
 
   // ─── Belgium Cluster: PEPPOL Technical Requirements ───
@@ -1900,9 +1944,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'Do Belgian self-employed workers need PEPPOL?', answer: 'Yes, all VAT-registered businesses in Belgium, including self-employed workers, must use PEPPOL for B2B invoicing since January 1, 2026.' },
       { question: 'How much does PEPPOL cost for a small business in Belgium?', answer: 'Typical costs are €10-€60/month for invoicing software with built-in PEPPOL support. Belgium\'s 120% tax deduction reduces the effective cost further.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   // ═══════════════════════════════════════════════════════════════
   // ITALY — SDI (Sistema di Interscambio)
@@ -2003,9 +2045,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What format does Italy use for e-invoices?', answer: 'Italy uses the FatturaPA XML format (version 1.2.2), which requires a qualified digital signature and must be routed through the SDI (Sistema di Interscambio) platform.' },
       { question: 'What happens if I miss the 12-day SDI transmission deadline?', answer: 'Late transmission penalties range from €250 to €2,000 per violation. However, using ravvedimento operoso (voluntary correction) within 90 days reduces the penalty to 1/9 of the standard amount.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'italy-fatturapa-xml-format-guide',
@@ -2089,9 +2129,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What XML format does Italy require for e-invoices?', answer: 'Italy requires FatturaPA XML version 1.2.2 with either XAdES-BES or CAdES-BES digital signature. The format uses specific type codes (FPR12 for B2B, FPA12 for B2G).' },
       { question: 'What is a Codice Destinatario?', answer: 'A 7-character alphanumeric code registered on the SDI portal that identifies how a business receives e-invoices. If not registered, senders use code 0000000 and delivery falls back to PEC email.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'italy-sdi-cross-border-e-invoicing',
@@ -2240,9 +2278,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What is the maximum penalty for not issuing an e-invoice in Italy?', answer: 'The maximum penalty is 180% of the related VAT amount, with a minimum of €500 per violation. For late or incorrect e-invoices, fines range from €250 to €2,000 per invoice.' },
       { question: 'Can I reduce Italy e-invoicing penalties?', answer: 'Yes, through ravvedimento operoso (voluntary correction). Correcting within 30 days reduces the penalty to approximately €25 per invoice — 1/10 of the €250 minimum.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'italy-e-invoicing-regime-forfettario',
@@ -2498,9 +2534,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What digital certificate does Brazil require for e-invoicing?', answer: 'Brazil requires an e-CNPJ digital certificate (A1 software-based or A3 hardware token) issued by an ICP-Brasil certified authority. Costs range from R$150-500 depending on type and validity period.' },
       { question: 'How does Brazil\'s 2026 tax reform affect e-invoicing?', answer: 'The reform introduces CBS (0.9% test rate in 2026) alongside existing taxes, requiring NF-e XML schemas to accommodate both old and new tax fields during the 2026-2033 transition period.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'brazil-nfe-xml-technical-requirements',
@@ -2584,9 +2618,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What XML format does Brazil use for NF-e?', answer: 'Brazil uses NF-e XML layout 4.00, defined by the Receita Federal. The schema contains over 500 fields covering fiscal, product, and transport data, with mandatory digital signature via e-CNPJ certificate.' },
       { question: 'What is a CFOP code?', answer: 'CFOP (Código Fiscal de Operações e Prestações) is a 4-digit code defining the tax nature of each transaction. Codes starting with 5 are intrastate, 6 are interstate, and 7 are exports.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'brazil-nfse-nacional-services-invoicing',
@@ -2661,9 +2693,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What is NFS-e Nacional?', answer: 'NFS-e Nacional is Brazil\'s unified national services invoicing platform, replacing 5,570+ fragmented municipal systems with a single standardized platform using the ABRASF 2.04 XML format.' },
       { question: 'Is NFS-e Nacional mandatory for all businesses?', answer: 'It is being phased in: MEIs since April 2023, Simples Nacional since September 2023, with larger businesses joining through 2026. Municipalities that haven\'t adopted it continue with local systems.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'brazil-nfce-consumer-electronic-invoice',
@@ -2736,9 +2766,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'Is NFC-e mandatory in all Brazilian states?', answer: 'Yes, NFC-e is now mandatory in all 27 Brazilian states for consumer retail transactions. São Paulo, which previously used the SAT system, is transitioning to NFC-e.' },
       { question: 'Can NFC-e work offline?', answer: 'Yes, NFC-e supports a contingency (offline) mode where invoices are issued locally and must be transmitted to SEFAZ within 24 hours when internet connectivity is restored.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'brazil-e-invoicing-digital-certificate',
@@ -2820,9 +2848,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What is the cheapest e-CNPJ certificate for Brazil e-invoicing?', answer: 'The most affordable option is an A1 certificate at R$150-300/year. It\'s software-based, easy to use with cloud invoicing platforms, and sufficient for most small businesses.' },
       { question: 'Can I use an expired certificate for e-invoicing in Brazil?', answer: 'No, an expired certificate immediately blocks all NF-e, NFS-e, and NFC-e issuance. SEFAZ rejects invoices with expired or invalid digital signatures, with no grace period.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'brazil-tax-reform-e-invoicing-impact',
@@ -2986,9 +3012,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What is the penalty for not issuing an NF-e in Brazil?', answer: 'Non-issuance of NF-e is treated as tax evasion, carrying a penalty of 100% of the applicable tax. States may add their own penalties — São Paulo charges 50% of the operation value.' },
       { question: 'Can my CNPJ be suspended for e-invoicing violations?', answer: 'Yes, persistent non-compliance with e-invoicing obligations can lead to CNPJ suspension by the Receita Federal, effectively blocking the business from operating.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'brazil-e-invoicing-foreign-companies',
@@ -3163,9 +3187,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What is the penalty for non-compliant invoicing software in Spain?', answer: 'Using invoicing software that is not Verifactu-certified can result in fines of up to €50,000 per fiscal year.' },
       { question: 'Is SII the same as Verifactu?', answer: 'No. SII is a real-time VAT reporting system for large businesses (>€6M revenue), active since 2017. Verifactu is a newer anti-fraud software certification system starting in 2026 that applies to all businesses.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'spain-verifactu-invoicing-software-requirements',
@@ -3249,9 +3271,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'Does Spain require invoicing software to be pre-certified?', answer: 'No, Spain uses a "responsible declaration" model where software producers self-certify compliance with Verifactu requirements. AEAT can audit and sanction non-compliant software post-market.' },
       { question: 'What is the Verifactu hash chain?', answer: 'Each invoice record generates a SHA-256 hash incorporating key data plus the previous invoice\'s hash. This creates a tamper-evident chain — modifying any record breaks the chain and is detectable by AEAT.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'spain-sii-real-time-vat-reporting',
@@ -3419,9 +3439,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'Is TicketBAI mandatory in all of Spain?', answer: 'No, TicketBAI is only mandatory in the Basque Country (Álava, Bizkaia, Gipuzkoa). The rest of Spain uses the national Verifactu system starting July 2026.' },
       { question: 'Are there tax incentives for TicketBAI compliance?', answer: 'Yes, the Basque territories offer up to 60% tax deduction on TicketBAI software investment, accelerated depreciation, and monthly income tax deductions of €30-40 in the first year.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'spain-face-b2g-electronic-invoicing',
@@ -3505,9 +3523,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'Is FACe mandatory for all government suppliers in Spain?', answer: 'Yes, since January 15, 2015, all suppliers to Spanish public administrations (state, regional, and local) must submit invoices through FACe in Facturae 3.2.2 XML format.' },
       { question: 'What are DIR3 codes in FACe?', answer: 'DIR3 codes are routing identifiers (accounting office, management body, processing unit) that direct your invoice to the correct department within the public administration. Invalid DIR3 codes cause ~40% of FACe rejections.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'spain-e-invoicing-penalties-compliance',
@@ -3582,9 +3598,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
       { question: 'What is the maximum Verifactu penalty?', answer: 'Up to €50,000 per fiscal year for using invoicing software that doesn\'t meet Verifactu certification requirements. This applies to both the software producer and the business using it.' },
       { question: 'What happens if I miss the SII 4-day deadline?', answer: 'AEAT charges €150 per delayed invoice record, capped at €6,000 per quarter (€24,000 per year).' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start invoicing for free' },
-    ],
+    relatedTools: [    ],
   },
   {
     slug: 'spain-e-invoicing-foreign-companies',

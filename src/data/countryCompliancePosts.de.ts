@@ -388,7 +388,7 @@ function genVatFormat(c: CountryConfig): BlogPost {
       </ul>
 
       <h2>Kostenlose Vorlagen</h2>
-      <p><a href="/free-invoice-generator">Invoicemonks kostenloser Rechnungsgenerator</a> bietet vorgefertigte Vorlagen mit allen ${c.authority}-Pflichtfeldern.</p>
+      <p><a href="/invoicing">Invoicemonks kostenloser Rechnungsgenerator</a> bietet vorgefertigte Vorlagen mit allen ${c.authority}-Pflichtfeldern.</p>
 
       <h2>Digital vs. Papier</h2>
       <p>${c.authority} akzeptiert digitale Rechnungen. ${c.einvoicingContextDe}</p>

@@ -46,14 +46,10 @@ const Index = () => {
       <ItemListSchema
         name="Invoicemonk Free Business Tools"
         description="Free tools for freelancers and small businesses to create invoices, compare payment fees, and calculate rates."
-        items={[
-          { name: 'Free Invoice Generator', url: 'https://invoicemonk.com/en/free-invoice-generator', description: 'Create professional invoices with tax fields and instant PDF download.', sameAs: 'https://en.wikipedia.org/wiki/Invoice_generator' },
-          { name: 'Invoice Templates', url: 'https://invoicemonk.com/en/invoice-templates', description: '6 industry-specific invoice templates ready to customize.', sameAs: 'https://en.wikipedia.org/wiki/Invoice' },
+        items={[          { name: 'Invoice Templates', url: 'https://invoicemonk.com/en/invoice-templates', description: '6 industry-specific invoice templates ready to customize.', sameAs: 'https://en.wikipedia.org/wiki/Invoice' },
           { name: 'Payment Fee Calculator', url: 'https://invoicemonk.com/en/international-payment-fee-calculator', description: 'Compare fees across PayPal, Wise, Payoneer, and bank transfers.', sameAs: 'https://en.wikipedia.org/wiki/Wire_transfer' },
           { name: 'Freelancer Rate Calculator', url: 'https://invoicemonk.com/en/freelancer-rate-calculator', description: 'Calculate your ideal hourly or project rate.', sameAs: 'https://en.wikipedia.org/wiki/Freelancer' },
-          { name: 'PayPal vs Wise Fees', url: 'https://invoicemonk.com/en/paypal-vs-wise-fees', description: 'Side-by-side fee comparison for international payments.', sameAs: 'https://en.wikipedia.org/wiki/Foreign_exchange_market' },
-          { name: 'Invoice Generator Australia', url: 'https://invoicemonk.com/en/free-invoice-generator-australia', description: 'ATO-compliant invoices with ABN and GST fields.', sameAs: 'https://en.wikipedia.org/wiki/Australian_Taxation_Office' },
-        ]}
+          { name: 'PayPal vs Wise Fees', url: 'https://invoicemonk.com/en/paypal-vs-wise-fees', description: 'Side-by-side fee comparison for international payments.', sameAs: 'https://en.wikipedia.org/wiki/Foreign_exchange_market' },        ]}
       />
       <Layout>
         <HeroSection />

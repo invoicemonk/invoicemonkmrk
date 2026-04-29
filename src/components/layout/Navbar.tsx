@@ -19,12 +19,10 @@ const productKeys = [
 ];
 
 const toolKeys = [
-  { key: 'freeInvoiceGenerator', href: '/free-invoice-generator', icon: FileText },
   { key: 'invoiceTemplates', href: '/invoice-templates', icon: LayoutTemplate },
   { key: 'paymentFeeCalculator', href: '/international-payment-fee-calculator', icon: Calculator },
   { key: 'freelancerRateCalculator', href: '/freelancer-rate-calculator', icon: DollarSign },
   { key: 'paypalVsWise', href: '/paypal-vs-wise-fees', icon: ArrowRightLeft },
-  { key: 'invoiceGeneratorAu', href: '/free-invoice-generator-australia', icon: FileCheck },
 ];
 
 const navLinkKeys = [
@@ -144,14 +142,6 @@ export function Navbar() {
                               </Link>
                             );
                           })}
-                        </div>
-                        <div className="mt-3 pt-3 border-t border-border">
-                          <Link
-                            to="/platform"
-                            className="flex items-center justify-center gap-1 text-body-sm font-medium text-primary hover:text-primary/80 transition-colors py-2"
-                          >
-                            {t('nav.platform')} →
-                          </Link>
                         </div>
                       </div>
                     </motion.div>

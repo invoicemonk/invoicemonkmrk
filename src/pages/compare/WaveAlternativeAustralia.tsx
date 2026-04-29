@@ -79,7 +79,7 @@ export default function WaveAlternativeAustralia() {
                 </div>
               </div>
               <Button className="w-full sm:w-auto" asChild>
-                <Link to="/free-invoice-generator-australia">Try Free Invoice Generator Australia<ArrowRight className="ml-2 w-4 h-4" /></Link>
+                <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator Australia<ArrowRight className="ml-2 w-4 h-4" /></a>
               </Button>
             </CardContent>
           </Card>
@@ -107,7 +107,7 @@ export default function WaveAlternativeAustralia() {
           <h2 className="text-heading-lg font-bold text-white mb-4">ATO-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Switch from Wave to Invoicemonk. Same free price, but with GST, ABN, and Peppol support.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator-australia">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

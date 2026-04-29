@@ -105,16 +105,16 @@ export function ClusterNavigation({
         <CardContent className="p-4">
           <div className="flex items-center gap-2 mb-2">
             <Sparkles className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">Put it into practice</span>
+            <span className="text-sm font-medium text-foreground">Start free — no card required</span>
           </div>
           <p className="text-sm text-muted-foreground mb-3">
-            Apply what you've learned with Invoicemonk's {pillar.title.toLowerCase()} tools.
+            Free forever plan. Set up your first invoice in under 60 seconds.
           </p>
           <Button asChild size="sm" className="w-full rounded-full">
-            <Link to={pillar.targetProduct}>
-              Try Free
+            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
+              Create free account
               <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
+            </a>
           </Button>
         </CardContent>
       </Card>

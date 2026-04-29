@@ -1,13 +1,22 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import { Star, ArrowRight, Globe, Shield } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { useLocale } from '@/hooks/useLocale';
+import { getABVariant, useContentAnalytics } from '@/hooks/useContentAnalytics';
 
 export function HeroSection() {
   const { locale, formatPrice } = useLocale();
   const { t } = useTranslation('common');
   const { hero, compliance } = locale.content;
+  const { trackABImpression } = useContentAnalytics();
+  const heroVariant = getABVariant('homepage_organic_intent_hero');
+  const headline = heroVariant === 'B' ? 'Send invoices, get paid, anywhere' : `${hero.headline} ${hero.headlineAccent}`;
+
+  useEffect(() => {
+    trackABImpression('homepage_organic_intent_hero', heroVariant);
+  }, [heroVariant, trackABImpression]);
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-background to-primary-soft py-16 lg:py-24">
@@ -63,8 +72,12 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-display text-heading mb-6"
           >
-            {hero.headline}{' '}
-            <span className="font-serif italic text-primary">{hero.headlineAccent}</span>
+            {heroVariant === 'B' ? headline : (
+              <>
+                {hero.headline}{' '}
+                <span className="font-serif italic text-primary">{hero.headlineAccent}</span>
+              </>
+            )}
           </motion.h1>
 
           {/* Subheadline - Localized */}

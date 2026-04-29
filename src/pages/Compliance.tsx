@@ -1,6 +1,6 @@
 import { Layout } from '@/components/layout/Layout';
 import { StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
-import { Shield, FileCheck, Clock, Lock, FileDigit, Fingerprint, Hash, Link2, BadgeCheck, GitBranch, Archive } from 'lucide-react';
+import { Shield, FileCheck, Clock, Lock, FileDigit, Fingerprint, Hash, Users } from 'lucide-react';
 import { useLocale } from '@/hooks/useLocale';
 import { PageHero } from '@/components/shared/PageHero';
 import { 
@@ -22,10 +22,7 @@ const featureKeys = [
   { key: 'eInvoicing', icon: FileDigit },
   { key: 'digitalSignatures', icon: Fingerprint },
   { key: 'irn', icon: Hash },
-  { key: 'hashChain', icon: Link2 },
-  { key: 'identityLevels', icon: BadgeCheck },
-  { key: 'versionedTaxSchemas', icon: GitBranch },
-  { key: 'retentionPolicies', icon: Archive },
+  { key: 'roleBasedAccess', icon: Users },
 ] as const;
 
 const faqKeys = [

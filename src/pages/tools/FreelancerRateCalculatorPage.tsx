@@ -2,6 +2,7 @@ import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationSchema';
 import { FreelancerRateCalculator } from '@/components/tools/FreelancerRateCalculator';
 import { Link } from '@/components/LocalizedLink';
 import { ArrowRight } from 'lucide-react';
@@ -21,11 +22,16 @@ export default function FreelancerRateCalculatorPage() {
   return (
     <Layout>
       <SEOHead
-        title="Freelancer Rate Calculator 2026 — Find Your Ideal Hourly Rate | Invoicemonk"
-        description="Calculate your freelance hourly rate based on income goals, expenses, taxes, and billable hours. Free interactive calculator — no signup required."
+        title="Freelancer Rate Calculator [2026] — Hourly Rate in USD, EUR, GBP, INR | Invoicemonk"
+        description="Free freelance hourly rate calculator. Enter income goals, expenses, taxes and billable hours — instantly see minimum, recommended and premium rates in 10 currencies. No signup."
         ogImage="https://invoicemonk.com/images/tools/freelancer-rate-calculator.jpg"
       />
       <FAQSchema items={faqs} />
+      <SoftwareApplicationSchema
+        name="Invoicemonk Freelancer Rate Calculator"
+        description="Free interactive calculator that turns your income goals, expenses, tax rate and billable hours into minimum, recommended and premium hourly rates across 10 currencies."
+        schemaId="https://invoicemonk.com/freelancer-rate-calculator#software"
+      />
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Tools', url: '/tools' },
@@ -88,9 +94,9 @@ export default function FreelancerRateCalculatorPage() {
           <div className="text-center mt-12">
             <p className="text-muted-foreground mb-4">Ready to invoice at your new rate?</p>
             <Button asChild size="lg">
-              <Link to="/free-invoice-generator">
+              <a href="https://app.invoicemonk.com/signup?utm_source=rate_calculator&utm_medium=cta&utm_campaign=rate_to_signup" target="_blank" rel="noopener noreferrer">
                 Create a Free Invoice <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+              </a>
             </Button>
           </div>
 
@@ -98,7 +104,7 @@ export default function FreelancerRateCalculatorPage() {
           <section className="mt-16 max-w-3xl mx-auto">
             <h2 className="text-xl font-semibold text-foreground mb-4">Related Tools & Resources</h2>
             <ul className="space-y-2">
-              <li><Link to="/free-invoice-generator" className="text-primary hover:underline">Free Invoice Generator</Link></li>
+              <li><a href="https://app.invoicemonk.com/signup?utm_source=rate_calculator&utm_medium=related_link&utm_campaign=rate_to_signup" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Create Invoice in Invoicemonk</a></li>
               <li><Link to="/invoice-templates" className="text-primary hover:underline">Invoice Template Gallery</Link></li>
               <li><Link to="/international-payment-fee-calculator" className="text-primary hover:underline">International Payment Fee Calculator</Link></li>
               <li><Link to="/blog/pricing-your-freelance-services" className="text-primary hover:underline">How to Price Your Freelance Services (Guide)</Link></li>

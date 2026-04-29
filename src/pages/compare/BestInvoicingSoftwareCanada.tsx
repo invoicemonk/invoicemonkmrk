@@ -100,7 +100,7 @@ export default function BestInvoicingSoftwareCanada() {
             <p className="text-muted-foreground mb-4">Related Content</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/blog/cra-invoice-standards-canadian-compliance" className="text-primary hover:underline">CRA Invoice Standards Guide</Link>
-              <Link to="/free-invoice-generator-canada" className="text-primary hover:underline">Free Invoice Generator Canada</Link>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Free Invoice Generator Canada</a>
               <Link to="/compare/invoicemonk-vs-freshbooks" className="text-primary hover:underline">Invoicemonk vs FreshBooks</Link>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function BestInvoicingSoftwareCanada() {
           <h2 className="text-heading-lg font-bold text-white mb-4">CRA-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create GST/HST-ready invoices with provincial tax rates and BN fields. No signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator-canada">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

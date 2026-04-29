@@ -149,7 +149,7 @@ const clusterPosts: BlogPost[] = [
       </ul>
 
       <h2>Prochaines étapes</h2>
-      <p>Créez votre première facture professionnelle avec le <a href="/free-invoice-generator">générateur de factures gratuit</a> d'Invoicemonk ou découvrez la <a href="/invoicing">plateforme complète</a> pour la numérotation automatique, le suivi des paiements et les fonctionnalités de conformité.</p>
+      <p>Créez votre première facture professionnelle avec le <a href="/invoicing">générateur de factures gratuit</a> d'Invoicemonk ou découvrez la <a href="/invoicing">plateforme complète</a> pour la numérotation automatique, le suivi des paiements et les fonctionnalités de conformité.</p>
     `
   },
   {
@@ -254,7 +254,7 @@ const clusterPosts: BlogPost[] = [
       </ul>
 
       <h2>Obligations fiscales en France</h2>
-      <p>En tant que freelance, vous devez choisir un statut (auto-entrepreneur, EURL, SASU...), émettre des factures conformes et déclarer vos revenus. Un <a href="/free-invoice-generator">générateur de factures gratuit</a> vous aide à démarrer dans les règles.</p>
+      <p>En tant que freelance, vous devez choisir un statut (auto-entrepreneur, EURL, SASU...), émettre des factures conformes et déclarer vos revenus. Un <a href="/invoicing">générateur de factures gratuit</a> vous aide à démarrer dans les règles.</p>
     `
   },
   {
@@ -394,7 +394,7 @@ const clusterPosts: BlogPost[] = [
       </ol>
 
       <h2>Avec Invoicemonk, c'est automatique</h2>
-      <p><a href="/invoicing">Invoicemonk</a> inclut automatiquement toutes ces mentions dans ses modèles professionnels. Essayez le <a href="/free-invoice-generator">générateur de factures gratuit</a> ou consultez notre <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">guide pour créer le modèle parfait</a>.</p>
+      <p><a href="/invoicing">Invoicemonk</a> inclut automatiquement toutes ces mentions dans ses modèles professionnels. Essayez le <a href="/invoicing">générateur de factures gratuit</a> ou consultez notre <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">guide pour créer le modèle parfait</a>.</p>
     `
   },
   {

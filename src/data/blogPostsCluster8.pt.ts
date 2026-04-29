@@ -1527,7 +1527,7 @@ const posts: BlogPost[] = [
         <li><strong>Totais:</strong> Subtotal, GST total, total geral</li>
         <li><strong>Condições de pagamento e dados bancários</strong></li>
       </ul>
-      <p>Use o <a href="/free-invoice-generator">gerador de faturas gratuito do Invoicemonk</a> para criar automaticamente faturas conformes com a ATO — basta selecionar AUD como moeda.</p>
+      <p>Use o <a href="/invoicing">gerador de faturas gratuito do Invoicemonk</a> para criar automaticamente faturas conformes com a ATO — basta selecionar AUD como moeda.</p>
     `,
     faq: [
       { question: 'Preciso de um ABN para faturar na Austrália?', answer: 'Sim, se opera um negócio na Austrália, deve ter um ABN e incluí-lo em todas as tax invoices. Sem ABN, os clientes podem reter 47% do pagamento como withholding tax.' },
@@ -1627,7 +1627,7 @@ const posts: BlogPost[] = [
       <h2>Ferramentas para Gestão do GST</h2>
       <p>Gerir o GST manualmente é propenso a erros. Use ferramentas que automatizem:</p>
       <ul>
-        <li><a href="/free-invoice-generator">Gerador de faturas com cálculo automático de GST</a></li>
+        <li><a href="/invoicing">Gerador de faturas com cálculo automático de GST</a></li>
         <li><a href="/expenses">Registo de despesas</a> com categorização de GST</li>
         <li>Software de contabilidade integrado com o BAS</li>
       </ul>

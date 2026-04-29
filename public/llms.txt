@@ -6,17 +6,16 @@ Invoicemonk is a global all-in-one business finance platform that helps freelanc
 
 ## Core Products
 
-- [Invoicing](https://invoicemonk.com/us/invoicing): Create and send professional, tax-compliant invoices with automatic numbering, multi-currency support, payment tracking, and branded templates.
-- [Expenses](https://invoicemonk.com/us/expenses): Track and categorize business expenses with receipt scanning (OCR), automatic categorization, and tax-deductible expense identification.
-- [Payments](https://invoicemonk.com/us/payments): Accept payments via Stripe (international — US, UK, Canada, Australia, Europe) and Paystack (Nigeria, Ghana, Kenya, South Africa) with embedded payment links on invoices. Multi-currency support.
-- [Accounting](https://invoicemonk.com/us/accounting): Automated bookkeeping, chart of accounts, financial reports (P&L, balance sheet, cash flow), bank reconciliation, and multi-entity support.
-- [Estimates](https://invoicemonk.com/us/estimates): Create professional quotes and proposals with one-click conversion to invoices. Supports estimate, quote, and proposal workflows.
-- [Receipts](https://invoicemonk.com/us/receipts): Generate and manage payment receipts with digital storage, OCR scanning, and compliance-ready documentation.
+- [Invoicing](https://invoicemonk.com/en/invoicing): Create and send professional, tax-compliant invoices with automatic numbering, multi-currency support, payment tracking, and branded templates.
+- [Expenses](https://invoicemonk.com/en/expenses): Track and categorize business expenses with receipt scanning (OCR), automatic categorization, and tax-deductible expense identification.
+- [Payments](https://invoicemonk.com/en/payments): Accept payments via Stripe (international — US, UK, Canada, Australia, Europe) and Paystack (Nigeria, Ghana, Kenya, South Africa) with embedded payment links on invoices. Multi-currency support.
+- [Accounting](https://invoicemonk.com/en/accounting): Automated bookkeeping, chart of accounts, financial reports (P&L, balance sheet, cash flow), bank reconciliation, and multi-entity support.
+- [Estimates](https://invoicemonk.com/en/estimates): Create professional quotes and proposals with one-click conversion to invoices. Supports estimate, quote, and proposal workflows.
+- [Receipts](https://invoicemonk.com/en/receipts): Generate and manage payment receipts with digital storage, OCR scanning, and compliance-ready documentation.
 
 ## Additional Features
 
-- [Client Management](https://invoicemonk.com/us/client-management): CRM-lite features for managing client contacts, payment history, and communication.
-- [Free Invoice Generator](https://invoicemonk.com/us/free-invoice-generator): Create professional invoices for free without signing up.
+- [Client Management](https://invoicemonk.com/en/client-management): CRM-lite features for managing client contacts, payment history, and communication.
 - [Invoice Verification Portal](https://invoicemonk.com): Clients can verify invoice authenticity through a public portal.
 - Credit notes and corrections
 - Recurring invoices and retainer billing
@@ -91,18 +90,18 @@ Built-in compliance for 17 countries, grouped by region:
 ## Comparisons
 
 Invoicemonk is positioned as a compliance-first alternative to:
-- [vs QuickBooks](https://invoicemonk.com/us/compare/invoicemonk-vs-quickbooks): Simpler, more affordable, multi-region compliance across 17 countries
-- [vs FreshBooks](https://invoicemonk.com/us/compare/invoicemonk-vs-freshbooks): Multi-region compliance, better pricing, 5 languages
-- [vs Wave](https://invoicemonk.com/us/compare/invoicemonk-vs-wave): More features, multi-currency, team support, European compliance
-- [vs Zoho Invoice](https://invoicemonk.com/us/compare/invoicemonk-vs-zoho-invoice): Purpose-built for global small business compliance
+- [vs QuickBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-quickbooks): Simpler, more affordable, multi-region compliance across 17 countries
+- [vs FreshBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-freshbooks): Multi-region compliance, better pricing, 5 languages
+- [vs Wave](https://invoicemonk.com/en/compare/invoicemonk-vs-wave): More features, multi-currency, team support, European compliance
+- [vs Zoho Invoice](https://invoicemonk.com/en/compare/invoicemonk-vs-zoho-invoice): Purpose-built for global small business compliance
 
 ## Free Tools
 
-- [Invoice Template Gallery](https://invoicemonk.com/us/invoice-templates): Browse professional invoice templates for every industry
-- [Freelancer Rate Calculator](https://invoicemonk.com/us/freelancer-rate-calculator): Calculate your ideal hourly or project rate
-- [International Payment Fee Calculator](https://invoicemonk.com/us/international-payment-fee-calculator): Compare fees across Wise, PayPal, Stripe, and SWIFT
-- [PayPal vs Wise Fee Comparison](https://invoicemonk.com/us/paypal-vs-wise-fees): Side-by-side fee comparison
-- [Cheapest International Payments](https://invoicemonk.com/us/cheapest-way-to-receive-international-payments): Find the cheapest way to receive payments
+- [Invoice Template Gallery](https://invoicemonk.com/en/invoice-templates): Browse professional invoice templates for every industry
+- [Freelancer Rate Calculator](https://invoicemonk.com/en/freelancer-rate-calculator): Calculate your ideal hourly or project rate
+- [International Payment Fee Calculator](https://invoicemonk.com/en/international-payment-fee-calculator): Compare fees across Wise, PayPal, Stripe, and SWIFT
+- [PayPal vs Wise Fee Comparison](https://invoicemonk.com/en/paypal-vs-wise-fees): Side-by-side fee comparison
+- [Cheapest International Payments](https://invoicemonk.com/en/cheapest-way-to-receive-international-payments): Find the cheapest way to receive payments
 
 ## Key Differentiators
 
@@ -115,42 +114,25 @@ Invoicemonk is positioned as a compliance-first alternative to:
 
 ## Resources
 
-- [Blog](https://invoicemonk.com/us/blog): 50+ articles on invoicing, accounting, freelancing, tax compliance, and business finance
-- [Guides](https://invoicemonk.com/us/guides): Comprehensive guides available in 5 languages on invoicing, getting paid, business finances, tax compliance, freelancing, and estimates
-- [Help Center](https://invoicemonk.com/us/help): Getting started guides and tutorials
-- [About](https://invoicemonk.com/us/about): Company information and team
+- [Blog](https://invoicemonk.com/en/blog): 50+ articles on invoicing, accounting, freelancing, tax compliance, and business finance
+- [Guides](https://invoicemonk.com/en/guides): Comprehensive guides available in 5 languages on invoicing, getting paid, business finances, tax compliance, freelancing, and estimates
+- [Help Center](https://invoicemonk.com/en/help): Getting started guides and tutorials
+- [About](https://invoicemonk.com/en/about): Company information and team
 
-## Supported Countries
+## Supported URL Languages
 
-All URLs are available with country-specific prefixes for localized content:
+Canonical website URLs use language prefixes, not country prefixes:
 
-**Americas:**
-- `/us/` — United States
-- `/ca/` — Canada
-- `/br/` — Brazil
+- `/en/` — English and English-only country/compliance content
+- `/de/` — German
+- `/fr/` — French
+- `/pt/` — Portuguese (Brazilian Portuguese)
+- `/es/` — Spanish
 
-**Europe:**
-- `/uk/` — United Kingdom
-- `/de/` — Germany
-- `/fr/` — France
-- `/es/` — Spain
-
-**Asia-Pacific:**
-- `/au/` — Australia
-- `/nz/` — New Zealand
-- `/in/` — India
-- `/ph/` — Philippines
-- `/sc/` — Seychelles
-
-**Africa:**
-- `/ng/` — Nigeria
-- `/gh/` — Ghana
-- `/ke/` — Kenya
-- `/za/` — South Africa
-- `/zw/` — Zimbabwe
+Retired country prefixes such as `/us/`, `/uk/`, `/ng/`, `/ke/`, `/gh/`, `/za/`, `/in/`, `/au/`, `/ca/`, `/br/`, `/nz/`, `/ph/`, `/sc/`, and `/zw/` redirect to the corresponding `/en/` or language-prefixed canonical pages.
 
 ## Contact
 
 - Website: https://invoicemonk.com
-- Contact: https://invoicemonk.com/us/contact
+- Contact: https://invoicemonk.com/en/contact
 - Sign up: https://app.invoicemonk.com/signup

@@ -59,7 +59,7 @@
       "tip3": "<strong>Choisissez la bonne méthode par client</strong> — Les clients à haute valeur peuvent justifier des virements bancaires, tandis que les petits paiements fréquents fonctionnent mieux avec Wise.",
       "tip4": "<strong>Utilisez la facturation multi-devises</strong> — Avec <a href=\"__LANG__/invoicing\">les outils de facturation d'Invoicemonk</a>, vous pouvez émettre des factures en plusieurs devises et laisser les clients payer avec la méthode qui convient le mieux.",
       "smarterTitle": "Prenez des décisions de paiement international plus intelligentes",
-      "smarterP": "Avant de créer votre prochaine facture, utilisez ce calculateur pour comprendre le coût réel de chaque méthode de paiement. Puis, émettez une facture professionnelle avec <a href=\"__LANG__/free-invoice-generator\">le générateur de factures gratuit d'Invoicemonk</a> optimisé pour la méthode choisie."
+      "smarterP": "Avant de créer votre prochaine facture, utilisez ce calculateur pour comprendre le coût réel de chaque méthode de paiement. Puis, émettez une facture professionnelle avec <a href=\"__LANG__/invoicing\">le générateur de factures gratuit d'Invoicemonk</a> optimisé pour la méthode choisie."
     },
     "faqs": [
       {
@@ -137,7 +137,7 @@
         "usdAustralia": "Recevoir des USD en Australie →"
       },
       "knowCostsTitle": "Connaissez vos coûts avant de facturer",
-      "knowCostsP": "Le meilleur moment pour optimiser les coûts de paiement est <em>avant</em> d'envoyer la facture. Avec <a href=\"__LANG__/free-invoice-generator\">le générateur de factures gratuit d'Invoicemonk</a>, vous pouvez créer des factures professionnelles multi-devises et spécifier la méthode de paiement optimale pour chaque client."
+      "knowCostsP": "Le meilleur moment pour optimiser les coûts de paiement est <em>avant</em> d'envoyer la facture. Avec <a href=\"__LANG__/invoicing\">le générateur de factures gratuit d'Invoicemonk</a>, vous pouvez créer des factures professionnelles multi-devises et spécifier la méthode de paiement optimale pour chaque client."
     },
     "faqs": [
       {

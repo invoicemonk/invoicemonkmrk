@@ -23,7 +23,6 @@ import Compliance from "./pages/Compliance";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import PartnerProgram from "./pages/PartnerProgram";
-import Platform from "./pages/Platform";
 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
@@ -35,17 +34,7 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import BlogTopic from "./pages/BlogTopic";
 import AuthorPage from "./pages/AuthorPage";
-import FreeInvoiceGenerator from "./pages/FreeInvoiceGenerator";
-import FreeInvoiceGeneratorAustralia from "./pages/FreeInvoiceGeneratorAustralia";
-import FreeInvoiceGeneratorIndia from "./pages/FreeInvoiceGeneratorIndia";
-import FreeInvoiceGeneratorNigeria from "./pages/FreeInvoiceGeneratorNigeria";
-import FreeInvoiceGeneratorKenya from "./pages/FreeInvoiceGeneratorKenya";
-import FreeInvoiceGeneratorUK from "./pages/FreeInvoiceGeneratorUK";
-import FreeInvoiceGeneratorSaudiArabia from "./pages/FreeInvoiceGeneratorSaudiArabia";
-import FreeInvoiceGeneratorMalaysia from "./pages/FreeInvoiceGeneratorMalaysia";
-import FreeInvoiceGeneratorCanada from "./pages/FreeInvoiceGeneratorCanada";
-import FreeInvoiceGeneratorGhana from "./pages/FreeInvoiceGeneratorGhana";
-import FreeInvoiceGeneratorSouthAfrica from "./pages/FreeInvoiceGeneratorSouthAfrica";
+import { ExternalRedirect } from "@/components/ExternalRedirect";
 import Freelancers from "./pages/Freelancers";
 import Consultants from "./pages/Consultants";
 import Contractors from "./pages/Contractors";
@@ -156,7 +145,6 @@ const App = () => (
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
               <Route path="partner-program" element={<PartnerProgram />} />
-              <Route path="platform" element={<Platform />} />
 
               {/* Legal */}
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
@@ -175,17 +163,27 @@ const App = () => (
 
               {/* Tools */}
               <Route path="tools" element={<ToolsIndex />} />
-              <Route path="free-invoice-generator" element={<FreeInvoiceGenerator />} />
-              <Route path="free-invoice-generator-australia" element={<FreeInvoiceGeneratorAustralia />} />
-              <Route path="free-invoice-generator-india" element={<FreeInvoiceGeneratorIndia />} />
-              <Route path="free-invoice-generator-nigeria" element={<FreeInvoiceGeneratorNigeria />} />
-              <Route path="free-invoice-generator-kenya" element={<FreeInvoiceGeneratorKenya />} />
-              <Route path="free-invoice-generator-uk" element={<FreeInvoiceGeneratorUK />} />
-              <Route path="free-invoice-generator-saudi-arabia" element={<FreeInvoiceGeneratorSaudiArabia />} />
-              <Route path="free-invoice-generator-malaysia" element={<FreeInvoiceGeneratorMalaysia />} />
-              <Route path="free-invoice-generator-canada" element={<FreeInvoiceGeneratorCanada />} />
-              <Route path="free-invoice-generator-ghana" element={<FreeInvoiceGeneratorGhana />} />
-              <Route path="free-invoice-generator-south-africa" element={<FreeInvoiceGeneratorSouthAfrica />} />
+              {/* Retired: free invoice generator pages now redirect to signup.
+                  The app's free tier (5 invoices/month) is the marketing entry point. */}
+              {[
+                "free-invoice-generator",
+                "free-invoice-generator-australia",
+                "free-invoice-generator-india",
+                "free-invoice-generator-nigeria",
+                "free-invoice-generator-kenya",
+                "free-invoice-generator-uk",
+                "free-invoice-generator-saudi-arabia",
+                "free-invoice-generator-malaysia",
+                "free-invoice-generator-canada",
+                "free-invoice-generator-ghana",
+                "free-invoice-generator-south-africa",
+              ].map((p) => (
+                <Route
+                  key={p}
+                  path={p}
+                  element={<ExternalRedirect to="https://app.invoicemonk.com/signup?utm_source=retired_generator&utm_medium=redirect&utm_campaign=fig_removed" />}
+                />
+              ))}
               <Route path="international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
               <Route path="paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
               <Route path="cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
@@ -198,6 +196,17 @@ const App = () => (
               <Route path="receive-usd-in-australia-cost" element={<ReceiveCurrencyInCountry />} />
               <Route path="receive-gbp-in-us-cost" element={<ReceiveCurrencyInCountry />} />
               <Route path="receive-eur-in-us-cost" element={<ReceiveCurrencyInCountry />} />
+              {/* Africa cluster expansion */}
+              <Route path="receive-usd-in-kenya-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-gbp-in-kenya-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-usd-in-ghana-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-gbp-in-ghana-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-usd-in-south-africa-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-gbp-in-south-africa-cost" element={<ReceiveCurrencyInCountry />} />
+              {/* India (high-intent freelancer corridor) */}
+              <Route path="receive-usd-in-india-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-gbp-in-india-cost" element={<ReceiveCurrencyInCountry />} />
+              <Route path="receive-eur-in-india-cost" element={<ReceiveCurrencyInCountry />} />
               <Route path="invoice-templates" element={<InvoiceTemplates />} />
               <Route path="freelancer-rate-calculator" element={<FreelancerRateCalculatorPage />} />
 

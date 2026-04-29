@@ -89,7 +89,7 @@ export const pillars: Pillar[] = [
       {
         title: 'Free Invoice Generator',
         description: 'Create professional invoices online for free — no signup required.',
-        link: '/free-invoice-generator'
+        link: '/invoicing'
       }
     ],
     faq: [

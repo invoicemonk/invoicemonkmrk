@@ -10,6 +10,25 @@ const INTERNAL_DOMAINS = [
   'localhost',
 ];
 
+// Note: /free-invoice-generator is intentionally excluded — blog conversion CTAs
+// must point to signup, not the free generator. Product pages can still receive
+// in-content tracking when they're cited as educational anchor text.
+const TRACKED_PRODUCT_PATHS = new Set(['/en/payments', '/en/invoicing']);
+
+function addOrganicBlogUtm(href: string): string {
+  if (!href) return href;
+
+  const isAbsolute = /^https?:\/\//i.test(href);
+  const path = isAbsolute ? new URL(href).pathname : href.split('?')[0];
+  const normalizedPath = path.startsWith('/en/') ? path : `/en${path.startsWith('/') ? path : `/${path}`}`;
+
+  if (!TRACKED_PRODUCT_PATHS.has(normalizedPath)) return href;
+  if (/utm_source=/.test(href)) return href;
+
+  const separator = href.includes('?') ? '&' : '?';
+  return `${href}${separator}utm_source=organic_blog&utm_medium=in_content&utm_campaign=blog_to_product`;
+}
+
 // Check if a URL is internal
 function isInternalLink(href: string): boolean {
   if (!href) return false;
@@ -72,6 +91,7 @@ export function enhanceInternalLinks(html: string, langPrefix: string = 'en'): s
   const anchorRegex = /<a\s+([^>]*?)href=["']([^"']+)["']([^>]*)>(.*?)<\/a>/gi;
   
   return html.replace(anchorRegex, (match, beforeHref, href, afterHref, content) => {
+    const trackedHref = addOrganicBlogUtm(href);
     const isExternal = isExternalLink(href);
     const linkType = getLinkType(href);
     
@@ -106,7 +126,7 @@ export function enhanceInternalLinks(html: string, langPrefix: string = 'en'): s
       }
     }
     
-    return `<a href="${href}" ${newAttrs.trim()}>${content}</a>`;
+    return `<a href="${trackedHref}" ${newAttrs.trim()}>${content}</a>`;
   });
 }
 

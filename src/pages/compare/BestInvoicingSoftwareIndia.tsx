@@ -101,7 +101,7 @@ export default function BestInvoicingSoftwareIndia() {
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/blog/e-invoicing-india-gst-guide" className="text-primary hover:underline">GST E-Invoicing Complete Guide</Link>
               <Link to="/blog/india-cgst-sgst-igst-explained" className="text-primary hover:underline">CGST, SGST & IGST Explained</Link>
-              <Link to="/free-invoice-generator-india" className="text-primary hover:underline">Free GST Invoice Generator</Link>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Free GST Invoice Generator</a>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function BestInvoicingSoftwareIndia() {
           <h2 className="text-heading-lg font-bold text-white mb-4">GST-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create GST invoices with GSTIN, HSN codes, and CGST/SGST/IGST — no signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator-india">Try Free GST Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free GST Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

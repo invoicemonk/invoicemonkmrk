@@ -307,9 +307,9 @@ const BlogTopic = () => {
               {t('joinThousands')}
             </p>
             <Button asChild size="lg">
-              <Link to={pillar.targetProduct}>
+              <a href="https://app.invoicemonk.com/signup">
                 {t('getStartedFree')}
-              </Link>
+              </a>
             </Button>
           </AnimatedSection>
         </div>

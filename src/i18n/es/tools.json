@@ -59,7 +59,7 @@
       "tip3": "<strong>Elige el método correcto por cliente</strong> — Los clientes de alto valor pueden justificar transferencias bancarias, mientras que pagos frecuentes pequeños funcionan mejor con Wise.",
       "tip4": "<strong>Usa facturación multi-moneda</strong> — Con <a href=\"__LANG__/invoicing\">las herramientas de facturación de Invoicemonk</a>, puedes emitir facturas en múltiples monedas y dejar que los clientes paguen con el método que mejor les funcione.",
       "smarterTitle": "Toma decisiones de pago internacional más inteligentes",
-      "smarterP": "Antes de crear tu próxima factura, usa esta calculadora para entender el costo real de cada método de pago. Luego, emite una factura profesional con <a href=\"__LANG__/free-invoice-generator\">el generador de facturas gratis de Invoicemonk</a> optimizado para tu método elegido."
+      "smarterP": "Antes de crear tu próxima factura, usa esta calculadora para entender el costo real de cada método de pago. Luego, emite una factura profesional con <a href=\"__LANG__/invoicing\">el generador de facturas gratis de Invoicemonk</a> optimizado para tu método elegido."
     },
     "faqs": [
       {
@@ -137,7 +137,7 @@
         "usdAustralia": "Recibir USD en Australia →"
       },
       "knowCostsTitle": "Conoce tus costos antes de facturar",
-      "knowCostsP": "El mejor momento para optimizar los costos de pago es <em>antes</em> de enviar la factura. Con <a href=\"__LANG__/free-invoice-generator\">el generador de facturas gratis de Invoicemonk</a>, puedes crear facturas profesionales multi-moneda y especificar el método de pago óptimo para cada cliente."
+      "knowCostsP": "El mejor momento para optimizar los costos de pago es <em>antes</em> de enviar la factura. Con <a href=\"__LANG__/invoicing\">el generador de facturas gratis de Invoicemonk</a>, puedes crear facturas profesionales multi-moneda y especificar el método de pago óptimo para cada cliente."
     },
     "faqs": [
       {

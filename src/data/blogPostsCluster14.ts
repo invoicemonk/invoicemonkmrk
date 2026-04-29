@@ -94,7 +94,7 @@ export const cluster14Posts: BlogPost[] = [
         <li>XRechnung profile for B2G invoicing</li>
         <li>Integration with ELSTER for tax reporting</li>
       </ul>
-      <p>Invoicemonk generates <a href="/free-invoice-generator">tax-compliant invoices</a> with all mandatory German fields, making ZUGFeRD compliance straightforward for freelancers and small businesses.</p>
+      <p>Invoicemonk generates <a href="/invoicing">tax-compliant invoices</a> with all mandatory German fields, making ZUGFeRD compliance straightforward for freelancers and small businesses.</p>
 
       <h2>Common ZUGFeRD Mistakes to Avoid</h2>
       <ul>
@@ -131,9 +131,7 @@ export const cluster14Posts: BlogPost[] = [
       { name: 'EN 16931', type: 'Standard', sameAs: 'https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/EN+16931' },
       { name: 'Factur-X', type: 'TechStandard' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create tax-compliant invoices with all mandatory German fields.' },
-      { label: 'Germany Compliance Guide', url: '/blog/tax-compliant-invoice-de', description: 'Complete guide to German invoice requirements.' },
+    relatedTools: [      { label: 'Germany Compliance Guide', url: '/blog/tax-compliant-invoice-de', description: 'Complete guide to German invoice requirements.' },
     ],
   },
 
@@ -214,7 +212,7 @@ export const cluster14Posts: BlogPost[] = [
 
       <h2>XRechnung and ZUGFeRD: Using Both</h2>
       <p>Since ZUGFeRD 2.1, you can generate a ZUGFeRD file with the "XRechnung" profile. This produces a hybrid PDF/XML that contains the XRechnung-compliant XML data embedded in a PDF/A-3 container. Some government agencies accept this format, but not all — check with your specific recipient.</p>
-      <p>For maximum compatibility, generate pure XRechnung XML for B2G invoicing and ZUGFeRD for B2B transactions. Your <a href="/free-invoice-generator">invoicing software</a> should handle both formats.</p>
+      <p>For maximum compatibility, generate pure XRechnung XML for B2G invoicing and ZUGFeRD for B2B transactions. Your <a href="/invoicing">invoicing software</a> should handle both formats.</p>
 
       <h2>Getting Started with XRechnung</h2>
       <p>If you invoice German government agencies, here is your checklist:</p>
@@ -251,9 +249,7 @@ export const cluster14Posts: BlogPost[] = [
       { name: 'KoSIT', type: 'Organization', sameAs: 'https://www.xoev.de/kosit-7395' },
       { name: 'Peppol', type: 'TechStandard', sameAs: 'https://peppol.org/' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create compliant invoices with German tax fields.' },
-      { label: 'ZUGFeRD Guide', url: '/blog/germany-zugferd-e-invoice-guide', description: 'Learn about Germany\'s hybrid PDF/XML e-invoice format.' },
+    relatedTools: [      { label: 'ZUGFeRD Guide', url: '/blog/germany-zugferd-e-invoice-guide', description: 'Learn about Germany\'s hybrid PDF/XML e-invoice format.' },
     ],
   },
 
@@ -329,7 +325,7 @@ export const cluster14Posts: BlogPost[] = [
         <li>Never show a VAT rate or VAT amount — total = net amount</li>
         <li>Keep sequential invoice numbers for audit readiness</li>
         <li>Prepare for e-invoice receiving capability by 2025</li>
-        <li>Use <a href="/free-invoice-generator">compliant invoicing software</a> that supports the Kleinunternehmer mode</li>
+        <li>Use <a href="/invoicing">compliant invoicing software</a> that supports the Kleinunternehmer mode</li>
       </ol>
     `,
     category: 'Tax and Compliance',
@@ -357,9 +353,7 @@ export const cluster14Posts: BlogPost[] = [
       { name: '§19 UStG', type: 'Law' },
       { name: 'Finanzamt', type: 'GovernmentOrganization' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create invoices with Kleinunternehmer mode — no VAT, §19 UStG note included.' },
-      { label: 'Germany E-Invoice Obligation', url: '/blog/germany-e-invoice-obligation-2025', description: 'Timeline for Germany\'s B2B e-invoicing mandate.' },
+    relatedTools: [      { label: 'Germany E-Invoice Obligation', url: '/blog/germany-e-invoice-obligation-2025', description: 'Timeline for Germany\'s B2B e-invoicing mandate.' },
     ],
   },
 
@@ -435,7 +429,7 @@ export const cluster14Posts: BlogPost[] = [
       </ul>
 
       <h2>Reverse Charge and E-Invoicing</h2>
-      <p>With Germany's <a href="/blog/germany-e-invoice-obligation-2025">2025 e-invoicing obligation</a>, reverse charge invoices must also be transmitted as structured e-invoices (ZUGFeRD or XRechnung). The XML format has specific fields for indicating reverse charge status — your <a href="/free-invoice-generator">invoicing software</a> should handle this automatically.</p>
+      <p>With Germany's <a href="/blog/germany-e-invoice-obligation-2025">2025 e-invoicing obligation</a>, reverse charge invoices must also be transmitted as structured e-invoices (ZUGFeRD or XRechnung). The XML format has specific fields for indicating reverse charge status — your <a href="/invoicing">invoicing software</a> should handle this automatically.</p>
       <p>In <a href="/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a>, the tax category code "AE" indicates reverse charge. In <a href="/blog/germany-xrechnung-guide">XRechnung</a>, the same code is used in the tax breakdown section.</p>
     `,
     category: 'Tax and Compliance',
@@ -462,9 +456,7 @@ export const cluster14Posts: BlogPost[] = [
       { name: '§13b UStG', type: 'Law' },
       { name: 'Zusammenfassende Meldung', type: 'TaxReport' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create invoices with reverse charge notes built in.' },
-      { label: 'ZUGFeRD Guide', url: '/blog/germany-zugferd-e-invoice-guide', description: 'How to format reverse charge in ZUGFeRD e-invoices.' },
+    relatedTools: [      { label: 'ZUGFeRD Guide', url: '/blog/germany-zugferd-e-invoice-guide', description: 'How to format reverse charge in ZUGFeRD e-invoices.' },
     ],
   },
 
@@ -554,7 +546,7 @@ export const cluster14Posts: BlogPost[] = [
       <h2>Impact on Freelancers and Small Businesses</h2>
       <p>The e-invoicing obligation affects small businesses disproportionately because they often lack dedicated accounting staff. Here's what different business types should focus on:</p>
       <ul>
-        <li><strong>Freelancers</strong> — use <a href="/free-invoice-generator">invoicing software</a> that generates ZUGFeRD automatically. Manual invoice creation (Word, Excel) will no longer be sufficient for B2B from 2028.</li>
+        <li><strong>Freelancers</strong> — use <a href="/invoicing">invoicing software</a> that generates ZUGFeRD automatically. Manual invoice creation (Word, Excel) will no longer be sufficient for B2B from 2028.</li>
         <li><strong><a href="/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer</a></strong> — you are not exempt from e-invoicing. Your e-invoices will show €0 VAT with the §19 UStG reference in the XML data.</li>
         <li><strong>Service businesses</strong> — ensure your invoicing workflow produces EN 16931-compliant output, not just PDF.</li>
       </ul>
@@ -589,9 +581,7 @@ export const cluster14Posts: BlogPost[] = [
       { name: 'EN 16931', type: 'Standard' },
       { name: 'ViDA', type: 'EUDirective' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create EN 16931-compliant invoices for German B2B transactions.' },
-      { label: 'ZUGFeRD Guide', url: '/blog/germany-zugferd-e-invoice-guide', description: 'Detailed guide to the ZUGFeRD e-invoice format.' },
+    relatedTools: [      { label: 'ZUGFeRD Guide', url: '/blog/germany-zugferd-e-invoice-guide', description: 'Detailed guide to the ZUGFeRD e-invoice format.' },
       { label: 'XRechnung Guide', url: '/blog/germany-xrechnung-guide', description: 'How to create XRechnung invoices for government agencies.' },
     ],
   },

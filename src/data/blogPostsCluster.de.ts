@@ -160,7 +160,7 @@ const clusterPosts: BlogPost[] = [
       </ul>
 
       <h2>Nächste Schritte</h2>
-      <p>Erstellen Sie jetzt Ihre erste professionelle Rechnung mit dem <a href="/free-invoice-generator">kostenlosen Rechnungsgenerator</a> von Invoicemonk – oder entdecken Sie die <a href="/invoicing">vollständige Rechnungsplattform</a> für automatische Nummerierung, Zahlungsverfolgung und Compliance-Funktionen.</p>
+      <p>Erstellen Sie jetzt Ihre erste professionelle Rechnung mit dem <a href="/invoicing">kostenlosen Rechnungsgenerator</a> von Invoicemonk – oder entdecken Sie die <a href="/invoicing">vollständige Rechnungsplattform</a> für automatische Nummerierung, Zahlungsverfolgung und Compliance-Funktionen.</p>
     `
   },
   {
@@ -273,7 +273,7 @@ const clusterPosts: BlogPost[] = [
       </ul>
 
       <h2>Steuerliche Pflichten nicht vergessen</h2>
-      <p>Als Freelancer in Deutschland müssen Sie ein Gewerbe anmelden (oder als Freiberufler tätig sein), Rechnungen mit allen Pflichtangaben erstellen und Steuern abführen. Ein <a href="/free-invoice-generator">kostenloser Rechnungsgenerator</a> hilft Ihnen beim Start.</p>
+      <p>Als Freelancer in Deutschland müssen Sie ein Gewerbe anmelden (oder als Freiberufler tätig sein), Rechnungen mit allen Pflichtangaben erstellen und Steuern abführen. Ein <a href="/invoicing">kostenloser Rechnungsgenerator</a> hilft Ihnen beim Start.</p>
     `
   },
   {
@@ -422,7 +422,7 @@ const clusterPosts: BlogPost[] = [
       </ol>
 
       <h2>Mit Invoicemonk wird es einfach</h2>
-      <p><a href="/invoicing">Invoicemonk</a> enthält automatisch alle diese wesentlichen Elemente in professionellen Rechnungsvorlagen. Probieren Sie den <a href="/free-invoice-generator">kostenlosen Rechnungsgenerator</a> aus oder lesen Sie unseren <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">Leitfaden zur Erstellung der perfekten Rechnungsvorlage</a>.</p>
+      <p><a href="/invoicing">Invoicemonk</a> enthält automatisch alle diese wesentlichen Elemente in professionellen Rechnungsvorlagen. Probieren Sie den <a href="/invoicing">kostenlosen Rechnungsgenerator</a> aus oder lesen Sie unseren <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">Leitfaden zur Erstellung der perfekten Rechnungsvorlage</a>.</p>
     `
   },
   {

@@ -183,7 +183,7 @@ function genVatFormat(c: CC): BlogPost {
       <h2>Erros comuns</h2>
       <ul><li>${c.taxId} ausente</li><li>Sem indicação "Fatura Fiscal"</li><li>Alíquotas desatualizadas</li></ul>
       <h2>Modelos gratuitos</h2>
-      <p><a href="/free-invoice-generator">Gerador de faturas gratuito</a> com todos os campos ${c.authority}.</p>
+      <p><a href="/invoicing">Gerador de faturas gratuito</a> com todos os campos ${c.authority}.</p>
     `,
   };
 }

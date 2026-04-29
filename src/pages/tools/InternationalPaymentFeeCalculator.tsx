@@ -3,6 +3,7 @@ import { Layout } from '@/components/layout/Layout';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationSchema';
 import { PaymentFeeCalculator } from '@/components/tools/PaymentFeeCalculator';
 import { Link } from '@/components/LocalizedLink';
 import { ArrowRight } from 'lucide-react';
@@ -21,6 +22,11 @@ export default function InternationalPaymentFeeCalculator() {
         ogType="website"
       />
       <FAQSchema items={faqs} />
+      <SoftwareApplicationSchema
+        name="Invoicemonk International Payment Fee Calculator"
+        description="Free interactive calculator for comparing estimated international payment fees, FX spreads, transfer speed, and net received amounts across providers."
+        schemaId="https://invoicemonk.com/international-payment-fee-calculator#software"
+      />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Tools', url: '/tools' }, { name: 'Payment Fee Calculator', url: '/international-payment-fee-calculator' }]} />
 
       <section className="py-16 lg:py-24">

@@ -1,5 +1,5 @@
 import { Link } from '@/components/LocalizedLink';
-import { ArrowRight, FileText, LayoutTemplate, Calculator, DollarSign, ArrowRightLeft, FileCheck, Globe } from 'lucide-react';
+import { ArrowRight, LayoutTemplate, Calculator, DollarSign, ArrowRightLeft, Globe } from 'lucide-react';
 
 interface ToolDef {
   name: string;
@@ -9,12 +9,10 @@ interface ToolDef {
 }
 
 const allTools: ToolDef[] = [
-  { name: 'Free Invoice Generator', href: '/free-invoice-generator', description: 'Create professional invoices with tax fields and instant PDF download.', icon: FileText },
   { name: 'Invoice Templates', href: '/invoice-templates', description: '6 industry-specific invoice templates ready to customize.', icon: LayoutTemplate },
   { name: 'Payment Fee Calculator', href: '/international-payment-fee-calculator', description: 'Compare fees across PayPal, Wise, Payoneer, and bank transfers.', icon: Calculator },
   { name: 'Freelancer Rate Calculator', href: '/freelancer-rate-calculator', description: 'Calculate your ideal hourly or project rate.', icon: DollarSign },
   { name: 'PayPal vs Wise Fees', href: '/paypal-vs-wise-fees', description: 'Side-by-side fee comparison for international payments.', icon: ArrowRightLeft },
-  { name: 'Invoice Generator Australia', href: '/free-invoice-generator-australia', description: 'ATO-compliant invoices with ABN and GST fields.', icon: FileCheck },
   { name: 'Cheapest International Payments', href: '/cheapest-way-to-receive-international-payments', description: 'Find the lowest-cost method for your payment corridor.', icon: Globe },
 ];
 

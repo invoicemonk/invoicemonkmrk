@@ -43,9 +43,7 @@ export const cluster10Posts: BlogPost[] = [
       { name: 'Federal Inland Revenue Service', type: 'GovernmentOrganization', url: 'https://firs.gov.ng', sameAs: 'https://en.wikipedia.org/wiki/Federal_Inland_Revenue_Service' },
       { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create FIRS-compliant invoices instantly' },
-      { label: 'Compliance Features', url: '/compliance', description: 'See how Invoicemonk handles Nigerian tax compliance' },
+    relatedTools: [      { label: 'Compliance Features', url: '/compliance', description: 'See how Invoicemonk handles Nigerian tax compliance' },
     ],
     content: `
 <p><strong>Nigeria's FIRS e-invoicing mandate is live.</strong> Large taxpayers (turnover above ₦1 billion) have been required to issue electronic invoices via the TaxPro-Max platform since August 2025. Medium taxpayers join in January 2026 and small taxpayers by mid-2026, with non-compliance penalties starting at ₦50,000 and rising to ₦500,000.</p>
@@ -139,7 +137,7 @@ export const cluster10Posts: BlogPost[] = [
 <p>Select invoicing software that generates FIRS-compliant invoices with IRN, QR codes, and proper VAT calculations. <a href="/__LANG__/blog/best-invoicing-software-nigeria">See our comparison of the best invoicing software for Nigerian businesses</a>.</p>
 
 <h3>Step 4: Configure your invoice template</h3>
-<p>Set up your business details, VAT rate (7.5%), and ensure all mandatory fields are included. With <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a>, this takes less than 5 minutes.</p>
+<p>Set up your business details, VAT rate (7.5%), and ensure all mandatory fields are included. With <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>, this takes less than 5 minutes.</p>
 
 <h3>Step 5: Test and go live</h3>
 <p>Generate test invoices, verify all fields are correct, and begin issuing e-invoices to your clients. Keep records of all invoices for at least 6 years as required by FIRS.</p>
@@ -299,9 +297,7 @@ export const cluster10Posts: BlogPost[] = [
     entityMentions: [
       { name: 'Federal Inland Revenue Service', type: 'GovernmentOrganization', url: 'https://firs.gov.ng' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Start creating compliant invoices today' },
-      { label: 'Best Invoicing Software Nigeria', url: '/compare/best-invoicing-software-nigeria', description: 'Compare top invoicing tools for Nigerian businesses' },
+    relatedTools: [      { label: 'Best Invoicing Software Nigeria', url: '/compare/best-invoicing-software-nigeria', description: 'Compare top invoicing tools for Nigerian businesses' },
     ],
     content: `
 <p><strong>Short answer: yes, but not yet.</strong> The FIRS e-invoicing mandate will eventually cover all Nigerian businesses, but it's being rolled out in phases based on annual turnover. Here's exactly where small businesses stand.</p>
@@ -335,7 +331,7 @@ export const cluster10Posts: BlogPost[] = [
 
 <p>Freelancers and sole traders are included in the e-invoicing mandate if they're registered for VAT (or should be registered — the VAT threshold in Nigeria is ₦25 million annual turnover). Even below the threshold, maintaining proper invoicing records is required for income tax compliance.</p>
 
-<p>For detailed guidance on penalties, see our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>. To start creating compliant invoices, try our <a href="/__LANG__/free-invoice-generator">free invoice generator</a>.</p>
+<p>For detailed guidance on penalties, see our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>. To start creating compliant invoices, try our <a href="/__LANG__/invoicing">free invoice generator</a>.</p>
     `
   },
 
@@ -405,7 +401,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>Both appear on the final invoice PDF</li>
 </ol>
 
-<p><a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a> includes both IRN and QR code generation on all invoices, ensuring your documents are fully FIRS-compliant.</p>
+<p><a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> includes both IRN and QR code generation on all invoices, ensuring your documents are fully FIRS-compliant.</p>
 
 <p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>. To add your TIN correctly, read <a href="/__LANG__/blog/nigeria-invoice-tin-number">how to add TIN to Nigerian invoices</a>.</p>
     `
@@ -465,7 +461,7 @@ export const cluster10Posts: BlogPost[] = [
 
 <h2>How to Avoid These Penalties</h2>
 
-<p>The solution is straightforward: use compliant invoicing software that generates all required fields automatically. <a href="/__LANG__/blog/best-invoicing-software-nigeria">Compare the best invoicing software for Nigeria</a> or <a href="/__LANG__/free-invoice-generator">start creating compliant invoices free with Invoicemonk</a>.</p>
+<p>The solution is straightforward: use compliant invoicing software that generates all required fields automatically. <a href="/__LANG__/blog/best-invoicing-software-nigeria">Compare the best invoicing software for Nigeria</a> or <a href="/__LANG__/invoicing">start creating compliant invoices free with Invoicemonk</a>.</p>
 
 <p>For the complete compliance guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>.</p>
     `
@@ -650,7 +646,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>Not separating VAT amount — must be shown as a distinct line item</li>
 </ul>
 
-<p>Use <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a> to create invoices with all these fields pre-configured. For how to create your first VAT invoice step by step, see <a href="/__LANG__/blog/nigeria-create-vat-invoice">our how-to guide</a>.</p>
+<p>Use <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> to create invoices with all these fields pre-configured. For how to create your first VAT invoice step by step, see <a href="/__LANG__/blog/nigeria-create-vat-invoice">our how-to guide</a>.</p>
     `
   },
 
@@ -744,9 +740,7 @@ export const cluster10Posts: BlogPost[] = [
       { name: 'Kenya Revenue Authority', type: 'GovernmentOrganization', url: 'https://www.kra.go.ke', sameAs: 'https://en.wikipedia.org/wiki/Kenya_Revenue_Authority' },
       { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create KRA-compliant invoices' },
-      { label: 'Best Invoicing Software Kenya', url: '/compare/best-invoice-software-kenya', description: 'Compare top invoicing tools for Kenyan businesses' },
+    relatedTools: [      { label: 'Best Invoicing Software Kenya', url: '/compare/best-invoice-software-kenya', description: 'Compare top invoicing tools for Kenyan businesses' },
     ],
     content: `
 <p><strong>eTIMS is mandatory for every business in Kenya.</strong> Since January 2024, the Kenya Revenue Authority (KRA) requires all taxpayers — including non-VAT-registered traders, freelancers, and professionals — to issue invoices through the electronic Tax Invoice Management System. Penalties reach KES 1 million or 10% of tax involved, and any expense without an eTIMS invoice is non-deductible.</p>
@@ -910,7 +904,7 @@ export const cluster10Posts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>For the complete eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a>.</p>
+<p>For the complete eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>.</p>
     `
   },
 
@@ -983,7 +977,7 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>Currency:</strong> KES for domestic transactions</li>
 </ul>
 
-<p>For the full eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a>.</p>
+<p>For the full eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>.</p>
     `
   },
 
@@ -1044,7 +1038,7 @@ export const cluster10Posts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>For the complete eTIMS guide, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">KRA eTIMS in Kenya</a>. To create compliant invoices instantly, try <a href="/__LANG__/free-invoice-generator">Invoicemonk's free generator</a>.</p>
+<p>For the complete eTIMS guide, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">KRA eTIMS in Kenya</a>. To create compliant invoices instantly, try <a href="/__LANG__/invoicing">Invoicemonk's free generator</a>.</p>
     `
   },
 

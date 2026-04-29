@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from '@/components/LocalizedLink';
-import { FileText, Check, ArrowRight, Send, Clock, Globe, Users, Shield, Repeat, Smartphone, Bell, Zap, Layers, Hash, Sparkles, Palette } from 'lucide-react';
+import { FileText, Check, ArrowRight, Send, Clock, Globe, Users, Shield, Repeat, Smartphone, Bell, Zap } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
@@ -146,7 +146,7 @@ const Invoicing = () => {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="text-body-sm text-muted-foreground mt-6"
               >
-                {t('hero.trustText')} <Link to="/free-invoice-generator" className="text-primary hover:underline">{t('hero.tryFreeGenerator')}</Link>
+                {t('hero.trustText')}
               </motion.p>
             </div>
 
@@ -285,38 +285,8 @@ const Invoicing = () => {
         }
       />
 
-      {/* Capabilities Section — what's actually included */}
-      <section className="py-20 lg:py-32 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
-            <h2 className="text-h2 text-heading mb-4">{t('capabilities.title')}</h2>
-            <p className="text-body-lg text-muted-foreground">{t('capabilities.subtitle')}</p>
-          </AnimatedSection>
-          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {(t('capabilities.items', { returnObjects: true }) as { title: string; description: string }[]).map((item, i) => {
-              const icons = [Hash, Layers, Palette, Shield, Globe, Repeat];
-              const Icon = icons[i % icons.length];
-              return (
-                <StaggerItem key={item.title}>
-                  <motion.div
-                    whileHover={{ y: -4 }}
-                    className="h-full bg-card rounded-2xl p-7 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300"
-                  >
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
-                      <Icon className="w-6 h-6 text-primary" />
-                    </div>
-                    <h3 className="text-h4 text-heading mb-2">{item.title}</h3>
-                    <p className="text-body text-muted-foreground">{item.description}</p>
-                  </motion.div>
-                </StaggerItem>
-              );
-            })}
-          </StaggerContainer>
-        </div>
-      </section>
-
       {/* Compliance Section */}
-      <section className="py-20 lg:py-32 bg-card">
+      <section className="py-20 lg:py-32 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">

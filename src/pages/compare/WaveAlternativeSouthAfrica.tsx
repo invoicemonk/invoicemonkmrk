@@ -79,7 +79,7 @@ export default function WaveAlternativeSouthAfrica() {
                 </div>
               </div>
               <Button className="w-full sm:w-auto" asChild>
-                <Link to="/free-invoice-generator-south-africa">Try Free Invoice Generator South Africa<ArrowRight className="ml-2 w-4 h-4" /></Link>
+                <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator South Africa<ArrowRight className="ml-2 w-4 h-4" /></a>
               </Button>
             </CardContent>
           </Card>
@@ -107,7 +107,7 @@ export default function WaveAlternativeSouthAfrica() {
           <h2 className="text-heading-lg font-bold text-white mb-4">SARS-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Switch from Wave to Invoicemonk. Same free price, but with VAT 15%, SARS fields, and ZAR support.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator-south-africa">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

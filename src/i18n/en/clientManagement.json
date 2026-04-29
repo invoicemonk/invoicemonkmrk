@@ -53,8 +53,7 @@
     "title": "Invoice directly from client profiles",
     "subtitle": "Your client data and invoicing tools, connected.",
     "features": [
-      { "title": "Add a client inline while invoicing", "description": "Need a new client mid-invoice? Add them in a side-panel without leaving the invoice screen — the new profile is saved and ready to reuse." },
-      { "title": "Country-specific tax-ID validation", "description": "We check formats for SIRET (France), CAC (Nigeria), VAT numbers (EU), ABN (Australia), and more — so your invoices carry valid identifiers from day one." },
+      { "title": "One-click invoicing from any client profile", "description": "Open a client, click \"New Invoice\", and all their details auto-fill — billing address, tax ID, payment terms, and currency. No more copy-pasting." },
       { "title": "Payment health dashboard per client", "description": "See each client's payment score at a glance: average days to pay, total outstanding, lifetime revenue, and overdue trends. Spot issues before they become problems." },
       { "title": "Bulk actions for reminders and statements", "description": "Select multiple clients and send payment reminders, generate account statements, or export data in bulk. Save hours on month-end follow-ups." }
     ]

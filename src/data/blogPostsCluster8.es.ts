@@ -111,7 +111,7 @@ const posts: BlogPost[] = [
 
 <p><strong>Condiciones de pago:</strong> 30 días. Transferencia bancaria a ES12 1234 5678 9012 3456 7890, o paga en línea en invoicemonk.com/pay/FAC-2026-042.</p>
 
-<p>Observa cómo este ejemplo incluye todos los <a href="/__LANG__/blog/essential-elements-of-an-invoice">elementos esenciales</a>: número de factura único, fechas, datos del negocio, partidas con descripciones claras, impuestos, total e instrucciones de pago. Crear facturas así es muy fácil con el <a href="/__LANG__/free-invoice-generator">generador de facturas gratuito de Invoicemonk</a>.</p>
+<p>Observa cómo este ejemplo incluye todos los <a href="/__LANG__/blog/essential-elements-of-an-invoice">elementos esenciales</a>: número de factura único, fechas, datos del negocio, partidas con descripciones claras, impuestos, total e instrucciones de pago. Crear facturas así es muy fácil con el <a href="/__LANG__/invoicing">generador de facturas gratuito de Invoicemonk</a>.</p>
 
 <h2>El ciclo de vida de una factura: cómo funciona realmente</h2>
 <p>Entender el ciclo de vida completo de la factura te ayuda a ver dónde encajan las facturas en el proceso de transacción empresarial:</p>
@@ -323,7 +323,7 @@ const posts: BlogPost[] = [
 <p>Tienes varias opciones para crear facturas:</p>
 
 <h3>Opción 1: Generador de facturas gratuito</h3>
-<p>Herramientas como el <a href="/__LANG__/free-invoice-generator">generador de facturas gratuito de Invoicemonk</a> te permiten crear facturas profesionales en PDF en menos de 2 minutos sin necesidad de registro.</p>
+<p>Herramientas como el <a href="/__LANG__/invoicing">generador de facturas gratuito de Invoicemonk</a> te permiten crear facturas profesionales en PDF en menos de 2 minutos sin necesidad de registro.</p>
 
 <h3>Opción 2: Plantillas manuales</h3>
 <p>Crea una plantilla en Word o Google Docs. Funciona para facturas ocasionales pero se vuelve engorroso a medida que creces.</p>
@@ -386,7 +386,7 @@ const posts: BlogPost[] = [
 <h2>Empieza a crear facturas profesionales</h2>
 <p>Entender qué es una factura marca el primer paso hacia prácticas empresariales profesionales. Ya seas un freelancer enviando tu primera factura o un negocio en crecimiento buscando optimizar la facturación, hacerlo bien impacta tu flujo de caja, relaciones con clientes y éxito empresarial.</p>
 
-<p>¿Listo para crear tu primera factura? El <a href="/__LANG__/free-invoice-generator">generador de facturas gratuito de Invoicemonk</a> te permite crear una factura PDF profesional en menos de 2 minutos, sin registro. Para facturación continua con seguimiento de pagos, recordatorios e integración contable, <a href="/__LANG__/invoicing">prueba la plataforma completa gratis</a>.</p>
+<p>¿Listo para crear tu primera factura? El <a href="/__LANG__/invoicing">generador de facturas gratuito de Invoicemonk</a> te permite crear una factura PDF profesional en menos de 2 minutos, sin registro. Para facturación continua con seguimiento de pagos, recordatorios e integración contable, <a href="/__LANG__/invoicing">prueba la plataforma completa gratis</a>.</p>
 
 <h2>Más información sobre facturación</h2>
 <ul>

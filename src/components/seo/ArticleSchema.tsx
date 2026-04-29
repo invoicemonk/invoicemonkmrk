@@ -177,7 +177,7 @@ export function ArticleSchema({
     };
     schema.speakable = {
       "@type": "SpeakableSpecification",
-      "cssSelector": ["article h1", "article h2", "article p:first-of-type"]
+      "cssSelector": ["article h1", "article h2", "[data-answer=\"true\"]", "article .block-answer"]
     };
     schema.learningResourceType = speakableType[clusterType];
   }

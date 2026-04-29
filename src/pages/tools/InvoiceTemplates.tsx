@@ -6,11 +6,11 @@ import { Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowRight, Download, FileText, CheckCircle, Star, Users, Globe, Pencil } from 'lucide-react';
+import { ArrowRight, FileText, CheckCircle, Star, Users, Globe, Pencil } from 'lucide-react';
 import { InvoiceTemplatePreview } from '@/components/invoice-templates/InvoiceTemplatePreview';
 import { RelatedTools } from '@/components/tools/RelatedTools';
-import { toast } from '@/hooks/use-toast';
-import { getBuilderForTemplate, getSampleInvoice, Labels } from '@/components/invoice-generator/invoiceTemplateBuilders';
+
+const SIGNUP_URL = 'https://app.invoicemonk.com/signup?utm_source=invoice_templates&utm_medium=cta&utm_campaign=template_to_signup';
 
 interface InvoiceTemplateItem {
   id: string;
@@ -75,12 +75,12 @@ const templates: InvoiceTemplateItem[] = [
 ];
 
 const faqs = [
-  { question: 'Are these invoice templates really free?', answer: 'Yes — all templates are 100% free. Use our invoice generator to create, customize, and download PDF invoices with any template. No signup or credit card required.' },
-  { question: 'Can I add my logo to the invoice template?', answer: 'Absolutely. Our free invoice generator lets you upload your business logo, which appears on the invoice header. Supports PNG, JPG, and SVG formats.' },
-  { question: 'Are these templates tax-compliant?', answer: 'Yes. Every template includes fields for tax registration numbers (GST, VAT, ABN, GSTIN), tax breakdowns, and compliance details required by tax authorities worldwide.' },
-  { question: 'Can I customize the colors and fonts?', answer: 'The free generator lets you choose between template styles. For full brand customization (custom colors, fonts, and layouts), sign up for Invoicemonk — free tier available.' },
-  { question: 'What format are the invoices downloaded in?', answer: 'All invoices download as professional PDF files that you can email, print, or share with clients. The PDF is generated instantly in your browser.' },
-  { question: 'Do I need to create an account?', answer: 'No account needed for the free invoice generator. Create and download as many invoices as you want. Sign up only if you want to save invoices, track payments, and send automatic reminders.' },
+  { question: 'Are these invoice templates really free?', answer: 'Yes — every template is free to view and use as a reference. To create, customize, and send invoices with these designs, sign up for Invoicemonk — the free plan includes 5 invoices per month.' },
+  { question: 'Can I add my logo to the invoice?', answer: 'Yes. With a free Invoicemonk account you can upload your logo, set brand colors, and apply it to any of these templates. Supports PNG, JPG, and SVG.' },
+  { question: 'Are these templates tax-compliant?', answer: 'Yes. Every template includes fields for tax registration numbers (GST, VAT, ABN, GSTIN), tax breakdowns, and the compliance details required by tax authorities worldwide.' },
+  { question: 'Can I customize colors and fonts?', answer: 'Yes. Sign up for Invoicemonk to fully brand your invoices with custom colors, fonts, and layouts on top of any template.' },
+  { question: 'How do I send a finished invoice to my client?', answer: 'Create the invoice inside Invoicemonk, then send it from your dashboard with a built-in payment link, automatic reminders, and full payment tracking.' },
+  { question: 'Do I need an account?', answer: 'You need a free Invoicemonk account to actually issue invoices. The free plan includes 5 invoices per month — more than enough to get started.' },
 ];
 
 const stats = [
@@ -88,47 +88,6 @@ const stats = [
   { icon: Globe, label: 'Countries supported', value: '190+' },
   { icon: Star, label: 'Average rating', value: '4.9/5' },
 ];
-
-const defaultLabels: Labels = {
-  invoice: 'Invoice',
-  date: 'Date',
-  due: 'Due',
-  billTo: 'Bill To',
-  description: 'Description',
-  qty: 'Qty',
-  rate: 'Rate',
-  amount: 'Amount',
-  subtotal: 'Subtotal',
-  discount: 'Discount',
-  tax: 'Tax',
-  total: 'Total',
-  notes: 'Notes',
-  terms: 'Terms',
-  createdWith: 'Created with Invoicemonk',
-};
-
-function formatUSD(n: number): string {
-  return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-}
-
-function handleDownloadTemplate(templateId: string) {
-  const { data, totals } = getSampleInvoice(templateId);
-  const builder = getBuilderForTemplate(templateId);
-  const html = builder(data, totals, formatUSD, defaultLabels);
-
-  const printWindow = window.open('', '_blank');
-  if (!printWindow) {
-    toast({ title: 'Pop-up blocked', description: 'Please allow pop-ups to download the template.', variant: 'destructive' });
-    return;
-  }
-
-  printWindow.document.write(html);
-  printWindow.document.close();
-  printWindow.onload = () => {
-    printWindow.print();
-    printWindow.onafterprint = () => printWindow.close();
-  };
-}
 
 export default function InvoiceTemplates() {
   return (
@@ -141,14 +100,14 @@ export default function InvoiceTemplates() {
       <FAQSchema items={faqs} />
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
-        { name: 'Tools', url: '/free-invoice-generator' },
+        { name: 'Tools', url: '/tools' },
         { name: 'Invoice Templates', url: '/invoice-templates' },
       ]} />
 
       {/* Hero */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-muted/50 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl text-center">
-          <Badge variant="secondary" className="mb-4">Free — No Signup Required</Badge>
+          <Badge variant="secondary" className="mb-4">Free plan: 5 invoices / month</Badge>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Free Invoice Templates for Every Business
           </h1>
@@ -165,9 +124,9 @@ export default function InvoiceTemplates() {
             ))}
           </div>
           <Button asChild size="lg">
-            <Link to="/free-invoice-generator">
+            <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer">
               Create Your Invoice Now <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
+            </a>
           </Button>
         </div>
       </section>
@@ -201,16 +160,11 @@ export default function InvoiceTemplates() {
                       </li>
                     ))}
                   </ul>
-                  <div className="flex flex-col gap-2">
-                    <Button onClick={() => handleDownloadTemplate(tmpl.id)} className="w-full gap-2">
-                      <Download className="h-4 w-4" /> Download Sample PDF
-                    </Button>
-                    <Button asChild variant="outline" className="w-full gap-2">
-                      <Link to={`/free-invoice-generator?template=${tmpl.id}`}>
-                        <Pencil className="h-4 w-4" /> Customize This Template
-                      </Link>
-                    </Button>
-                  </div>
+                  <Button asChild className="w-full gap-2">
+                    <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer">
+                      <Pencil className="h-4 w-4" /> Use This Template in Invoicemonk
+                    </a>
+                  </Button>
                 </CardContent>
               </Card>
             ))}
@@ -225,8 +179,8 @@ export default function InvoiceTemplates() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Browse Templates', desc: 'Explore our collection of industry-specific invoice templates to find the right fit for your business.' },
-              { step: '2', title: 'Download or Customize', desc: 'Download a sample PDF instantly, or click "Customize" to open it in our free invoice generator with your own details.' },
-              { step: '3', title: 'Send to Your Client', desc: 'Email the finished invoice directly to your client or save the PDF for your records. It\'s that simple.' },
+              { step: '2', title: 'Create Your Account', desc: 'Sign up for Invoicemonk in under a minute — the free plan includes 5 invoices per month with full template, branding, and tax support.' },
+              { step: '3', title: 'Send to Your Client', desc: 'Issue the invoice from your dashboard with a built-in payment link, automatic reminders, and full payment tracking.' },
             ].map((item) => (
               <div key={item.step} className="text-center">
                 <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-lg font-bold mx-auto mb-4">
@@ -239,9 +193,9 @@ export default function InvoiceTemplates() {
           </div>
           <div className="text-center mt-10">
             <Button asChild size="lg">
-              <Link to="/free-invoice-generator">
-                Start Creating — It's Free <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+              <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer">
+                Start Creating — Free Plan Available <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
             </Button>
           </div>
         </div>

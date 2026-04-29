@@ -1,15 +1,13 @@
-import { FileText, LayoutTemplate, Calculator, DollarSign, ArrowRightLeft, FileCheck } from 'lucide-react';
+import { LayoutTemplate, Calculator, DollarSign, ArrowRightLeft } from 'lucide-react';
 import { Link } from '@/components/LocalizedLink';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 import { useTranslation } from 'react-i18next';
 
 const toolMeta = [
-  { key: 'invoiceGenerator', href: '/free-invoice-generator', icon: FileText },
   { key: 'invoiceTemplates', href: '/invoice-templates', icon: LayoutTemplate },
   { key: 'feeCalculator', href: '/international-payment-fee-calculator', icon: Calculator },
   { key: 'rateCalculator', href: '/freelancer-rate-calculator', icon: DollarSign },
   { key: 'paypalVsWise', href: '/paypal-vs-wise-fees', icon: ArrowRightLeft },
-  { key: 'invoiceGeneratorAu', href: '/free-invoice-generator-australia', icon: FileCheck },
 ];
 
 export function HomeFreeToolsSection() {

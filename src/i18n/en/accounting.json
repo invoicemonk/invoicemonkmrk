@@ -39,15 +39,10 @@
     "title": "Everything you need to manage your books",
     "subtitle": "From daily transactions to year-end reports.",
     "items": [
-      { "label": "Overview", "title": "One dashboard for income, expenses, and result", "description": "See revenue, expenses, and net result side-by-side at a glance. Switch between Overview, Income, Expenses, and Result tabs to drill into the numbers that matter." },
-      { "label": "Profitability", "title": "Profitability insights (Pro and above)", "description": "Track gross margin, top revenue clients, and your most expensive vendors. Know which work is actually making you money." },
-      { "label": "Cash vs Accrual", "title": "Choose your accounting basis", "description": "Toggle between cash and accrual accounting per period. Whichever your accountant prefers — your books reflect it correctly." },
-      { "label": "Multi-Entity", "title": "Manage multiple businesses easily", "description": "Running more than one business? Switch between entities seamlessly and keep books perfectly separated." }
+      { "label": "Chart of Accounts", "title": "A complete chart of accounts, ready to go", "description": "Start with a standard chart of accounts or customize it to fit your business. Every transaction is automatically categorized and recorded correctly." },
+      { "label": "Financial Reports", "title": "Financial statements when you need them", "description": "Generate balance sheets, profit & loss statements, and cash flow reports with a single click. Always know where your business stands financially." },
+      { "label": "Multi-Entity", "title": "Manage multiple businesses easily", "description": "Running more than one business? Switch between entities seamlessly and get consolidated views of your entire portfolio." }
     ]
-  },
-  "disclaimer": {
-    "title": "A trusted complement to your accountant",
-    "body": "Invoicemonk Accounting gives you clear, real-time financial visibility — but it doesn't replace professional tax advice or year-end filings. Export anything we generate and hand it to your accountant; we make their job easier, not redundant."
   },
   "automation": {
     "title": "Your books, always up to date",

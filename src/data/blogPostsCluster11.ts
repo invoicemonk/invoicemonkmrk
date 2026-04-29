@@ -45,7 +45,7 @@ export const cluster11Posts: BlogPost[] = [
       { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
     ],
     relatedTools: [
-      { label: 'Free GST Invoice Generator for India', url: '/free-invoice-generator-india', description: 'Create GST-compliant invoices with GSTIN and HSN codes' },
+      { label: 'Free GST Invoice Generator for India', url: '/invoicing', description: 'Create GST-compliant invoices with GSTIN and HSN codes' },
       { label: 'Compliance Features', url: '/compliance', description: 'See how Invoicemonk handles Indian tax compliance' },
     ],
     content: `
@@ -137,7 +137,7 @@ export const cluster11Posts: BlogPost[] = [
 
 <h2>Which Software Supports GST E-Invoicing in India?</h2>
 
-<p><a href="/__LANG__/free-invoice-generator-india">Invoicemonk's free invoice generator</a> creates GST-compliant invoices with:</p>
+<p><a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> creates GST-compliant invoices with:</p>
 <ul>
   <li><strong>Auto-labeled GSTIN fields</strong> when INR currency is selected</li>
   <li><strong>HSN/SAC code support</strong> in line item descriptions</li>
@@ -149,7 +149,7 @@ export const cluster11Posts: BlogPost[] = [
 
 <p>For businesses needing IRP integration, Invoicemonk's paid plans include JSON export in the e-invoice schema format, making it easy to upload to the IRP or connect via API.</p>
 
-<p>Read more about <a href="/__LANG__/compliance">Invoicemonk's compliance features</a> or try our <a href="/__LANG__/free-invoice-generator-india">free GST invoice generator</a> to create your first compliant invoice in under 5 minutes.</p>
+<p>Read more about <a href="/__LANG__/compliance">Invoicemonk's compliance features</a> or try our <a href="/__LANG__/invoicing">free GST invoice generator</a> to create your first compliant invoice in under 5 minutes.</p>
     `
   },
 
@@ -182,7 +182,7 @@ export const cluster11Posts: BlogPost[] = [
       { name: 'Goods and Services Tax Network', type: 'GovernmentOrganization', url: 'https://gstn.org.in' },
     ],
     relatedTools: [
-      { label: 'Free GST Invoice Generator', url: '/free-invoice-generator-india', description: 'Create GST invoices after registration' },
+      { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Create GST invoices after registration' },
     ],
     content: `
 <p><strong>GST registration is the first step toward tax compliance for any Indian business.</strong> Whether you're a freelancer crossing the turnover threshold, a startup launching an e-commerce brand, or a consultant going formal, understanding the GST registration process saves time, avoids penalties, and unlocks benefits like Input Tax Credit (ITC).</p>
@@ -262,7 +262,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Delayed registration</strong> — penalties apply from the date registration was due, not from the date you apply</li>
 </ul>
 
-<p>Once registered, you'll need GST-compliant invoices. Use <a href="/__LANG__/free-invoice-generator-india">Invoicemonk's free GST invoice generator</a> to create professional invoices with GSTIN, HSN codes, and automatic CGST/SGST/IGST calculations.</p>
+<p>Once registered, you'll need GST-compliant invoices. Use <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a> to create professional invoices with GSTIN, HSN codes, and automatic CGST/SGST/IGST calculations.</p>
 
 <p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-india-gst-guide">GST E-Invoicing in India</a>.</p>
     `
@@ -293,7 +293,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'When do I charge IGST?', answer: 'Charge IGST (Integrated GST) when the supplier and buyer are in different states, or for exports and imports. For example, a consultant in Delhi billing a client in Karnataka charges 18% IGST instead of CGST+SGST.' },
     ],
     relatedTools: [
-      { label: 'Free GST Invoice Generator', url: '/free-invoice-generator-india', description: 'Auto-calculates CGST/SGST/IGST' },
+      { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Auto-calculates CGST/SGST/IGST' },
     ],
     content: `
 <p><strong>One of the most confusing aspects of GST for Indian businesses is knowing which tax to charge.</strong> Unlike the previous VAT regime where you dealt with one state-level tax, GST splits into three components: CGST, SGST, and IGST. Getting this wrong on your invoices means compliance headaches, ITC mismatches, and potential penalties.</p>
@@ -386,7 +386,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>IGST paid</strong> can be used against IGST, then CGST, then SGST liability</li>
 </ul>
 
-<p>Invoicemonk's <a href="/__LANG__/free-invoice-generator-india">free GST invoice generator</a> automatically applies the correct tax split when you select INR currency. You can override rates per line item for mixed-rate invoices.</p>
+<p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> automatically applies the correct tax split when you select INR currency. You can override rates per line item for mixed-rate invoices.</p>
     `
   },
 
@@ -415,7 +415,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'What is a SAC code?', answer: 'SAC (Services Accounting Code) is India\'s classification system for services under GST. Every service you invoice must have the correct SAC code. Common SAC codes include 998314 (IT design/development), 998312 (IT consulting), 998361 (advertising), and 998214 (accounting).' },
     ],
     relatedTools: [
-      { label: 'Free GST Invoice Generator', url: '/free-invoice-generator-india', description: 'Add HSN/SAC codes to your invoices' },
+      { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Add HSN/SAC codes to your invoices' },
     ],
     content: `
 <p><strong>Every GST invoice in India must include HSN or SAC codes.</strong> HSN (Harmonized System of Nomenclature) codes classify goods, while SAC (Services Accounting Code) codes classify services. Getting these right is essential for GST compliance — wrong codes lead to incorrect tax rates, ITC mismatches, and scrutiny during audits.</p>
@@ -497,7 +497,7 @@ export const cluster11Posts: BlogPost[] = [
   <li>In the <strong>HSN summary table</strong> at the bottom — showing total value and tax per HSN code</li>
 </ul>
 
-<p>Invoicemonk's <a href="/__LANG__/free-invoice-generator-india">free GST invoice generator</a> lets you add HSN/SAC codes in the line item descriptions. The generator auto-applies 18% GST when INR is selected, with per-item rate overrides for different tax slabs.</p>
+<p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> lets you add HSN/SAC codes in the line item descriptions. The generator auto-applies 18% GST when INR is selected, with per-item rate overrides for different tax slabs.</p>
 
 <p>For the complete GST e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-india-gst-guide">GST E-Invoicing in India</a>.</p>
     `
@@ -528,7 +528,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'What is GSTR-3B?', answer: 'GSTR-3B is a summary self-assessed return where you declare your total output tax liability, Input Tax Credit claimed, and net tax payable. It must be filed monthly by the 20th of the following month, or quarterly under the QRMP scheme. Tax payment is made along with GSTR-3B filing.' },
     ],
     relatedTools: [
-      { label: 'Free GST Invoice Generator', url: '/free-invoice-generator-india', description: 'Generate invoices that match your GSTR-1 entries' },
+      { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Generate invoices that match your GSTR-1 entries' },
     ],
     content: `
 <p><strong>Filing GST returns correctly and on time is one of the biggest compliance challenges for Indian small businesses.</strong> Miss a deadline, and you face late fees of ₹50/day (₹20/day for nil returns) plus 18% annual interest on unpaid tax. This guide explains every return you need to file, when it's due, and how to simplify the process.</p>
@@ -604,7 +604,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Keep digital copies</strong> — of all invoices, credit notes, and purchase records</li>
 </ul>
 
-<p>Accurate invoices are the foundation of smooth GST filing. Create compliant invoices with <a href="/__LANG__/free-invoice-generator-india">Invoicemonk's free GST invoice generator</a>, complete with GSTIN, HSN codes, and correct CGST/SGST/IGST calculations.</p>
+<p>Accurate invoices are the foundation of smooth GST filing. Create compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>, complete with GSTIN, HSN codes, and correct CGST/SGST/IGST calculations.</p>
     `
   },
 
@@ -633,7 +633,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'What are the conditions to claim ITC?', answer: 'To claim ITC: (1) you must have a tax invoice or debit note, (2) you must have received the goods/services, (3) the supplier must have filed their return and paid the tax, (4) the invoice must appear in your GSTR-2B, and (5) you must file your GSTR-3B.' },
     ],
     relatedTools: [
-      { label: 'Free GST Invoice Generator', url: '/free-invoice-generator-india', description: 'Create ITC-eligible invoices for your suppliers' },
+      { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Create ITC-eligible invoices for your suppliers' },
     ],
     content: `
 <p><strong>Input Tax Credit is the backbone of the GST system</strong> — it ensures tax is levied only on the value added at each stage, not on the full price. For small businesses, properly claiming ITC can mean the difference between profitability and overpaying the government. Yet according to a ClearTax survey, <strong>over 40% of small businesses in India lose ITC due to documentation errors or missed deadlines</strong>.</p>
@@ -715,7 +715,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Claiming blocked ITC</strong> — personal expenses or specifically blocked items</li>
 </ul>
 
-<p>Proper invoicing is the foundation of ITC claims. Ensure your suppliers provide valid GST invoices, and create your own compliant invoices with <a href="/__LANG__/free-invoice-generator-india">Invoicemonk's free GST invoice generator</a>.</p>
+<p>Proper invoicing is the foundation of ITC claims. Ensure your suppliers provide valid GST invoices, and create your own compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>.</p>
     `
   },
 
@@ -747,9 +747,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'How do I number my invoices?', answer: 'Use a sequential system that never repeats. Common formats: simple (001, 002, 003), date-based (2026-001, 2026-002), or client-prefixed (ABC-001). The key is consistency — never reuse a number, even for voided invoices. Use credit notes instead.' },
       { question: 'When should I send an invoice?', answer: 'Send immediately after delivering the work or goods. For ongoing services, agree on a billing schedule upfront (weekly, bi-weekly, monthly). The sooner you invoice, the sooner you get paid — research shows invoices sent on the day of delivery get paid 2x faster.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create a professional invoice in under 5 minutes' },
-      { label: 'Invoice Templates', url: '/invoice-templates', description: 'Choose from 6 professional invoice templates' },
+    relatedTools: [      { label: 'Invoice Templates', url: '/invoice-templates', description: 'Choose from 6 professional invoice templates' },
     ],
     content: `
 <p><strong>Writing your first invoice can feel intimidating</strong> — but it doesn't have to be. Whether you're a freelancer billing your first client, a consultant sending a project invoice, or a small business owner getting formal about payments, this guide walks you through every field, every decision, and every best practice.</p>
@@ -856,7 +854,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Missing payment instructions</strong> — the client wants to pay but doesn't know how</li>
 </ol>
 
-<p>Skip the manual work — use <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>
+<p>Skip the manual work — use <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>
     `
   },
 
@@ -883,9 +881,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'Can I start invoice numbers from any number?', answer: 'Yes, you can start from any number (e.g., INV-1001 instead of INV-001). Some businesses start with a higher number to appear more established. However, the sequence must be continuous from your starting point — no gaps allowed in most jurisdictions.' },
       { question: 'What happens if I skip an invoice number?', answer: 'In most countries, gaps in invoice numbering can trigger red flags during tax audits. If you void an invoice, keep the number in your records and mark it as "VOID" or "CANCELLED" rather than reusing or skipping it. Issue a credit note if the invoice was already sent.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Auto-generates sequential invoice numbers' },
-    ],
+    relatedTools: [    ],
     content: `
 <p><strong>Your invoice numbering system isn't just administrative housekeeping — it's a legal requirement in most countries.</strong> Tax authorities use invoice numbers to verify that you've reported all income, that the sequence is unbroken, and that no invoices have been hidden or duplicated.</p>
 
@@ -945,7 +941,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Be consistent</strong> — pick one format and stick with it for the entire financial year</li>
   <li><strong>Include leading zeros</strong> — use 001 instead of 1 for cleaner sorting</li>
   <li><strong>Document your system</strong> — note your numbering convention in your accounting records</li>
-  <li><strong>Use software</strong> — manual numbering leads to errors. Let your <a href="/__LANG__/free-invoice-generator">invoicing software handle it automatically</a></li>
+  <li><strong>Use software</strong> — manual numbering leads to errors. Let your <a href="/__LANG__/invoicing">invoicing software handle it automatically</a></li>
 </ol>
 
 <h2>What About Credit Notes?</h2>
@@ -957,7 +953,7 @@ export const cluster11Posts: BlogPost[] = [
 </ul>
 <p>Always reference the original invoice number on the credit note for traceability.</p>
 
-<p>Invoicemonk's <a href="/__LANG__/free-invoice-generator">free invoice generator</a> auto-generates sequential invoice numbers so you never have to worry about duplicates or gaps.</p>
+<p>Invoicemonk's <a href="/__LANG__/invoicing">free invoice generator</a> auto-generates sequential invoice numbers so you never have to worry about duplicates or gaps.</p>
     `
   },
 
@@ -984,9 +980,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'Is an invoice the same as a receipt?', answer: 'No. An invoice is a request for payment sent before the client pays. A receipt is confirmation that payment has been received, sent after the client pays. An invoice says "you owe me this amount" while a receipt says "thank you, I received your payment."' },
       { question: 'Do I need to issue both an invoice and a receipt?', answer: 'It depends on your business and jurisdiction. In many countries, you must issue an invoice for every sale (especially B2B). Receipts are typically required for cash transactions and B2C sales. Best practice is to provide both — an invoice when requesting payment and a receipt or "paid" stamp on the invoice once received.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create professional invoices instantly' },
-      { label: 'Receipt Features', url: '/receipts', description: 'Generate and manage receipts with Invoicemonk' },
+    relatedTools: [      { label: 'Receipt Features', url: '/receipts', description: 'Generate and manage receipts with Invoicemonk' },
     ],
     content: `
 <p><strong>Invoices and receipts are two of the most fundamental business documents — but they serve completely different purposes.</strong> Confusing them causes accounting errors, tax complications, and client confusion. This guide explains exactly what each document is, when to use it, and how they work together.</p>
@@ -1072,7 +1066,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Record keeping</strong>: Keep both invoices issued and receipts for expenses for the period required by your tax authority (typically 5-7 years).</li>
 </ul>
 
-<p>Create professional invoices with <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a> — then track when they're paid in the full platform with <a href="/__LANG__/receipts">automatic receipt generation</a>.</p>
+<p>Create professional invoices with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> — then track when they're paid in the full platform with <a href="/__LANG__/receipts">automatic receipt generation</a>.</p>
     `
   },
 
@@ -1100,9 +1094,7 @@ export const cluster11Posts: BlogPost[] = [
       { question: 'What does 2/10 Net 30 mean?', answer: '2/10 Net 30 means the client gets a 2% discount if they pay within 10 days; otherwise, the full amount is due within 30 days. It\'s an early payment incentive — the "2" is the discount percentage, "10" is the discount window, and "30" is the final deadline.' },
       { question: 'What payment terms should freelancers use?', answer: 'For new clients, use Net 15 or Due on Receipt to minimize risk. For trusted, long-term clients, Net 30 is standard. For large projects, require a 25-50% deposit upfront with the remainder due on delivery. Avoid Net 60+ unless you have strong cash reserves.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Set payment terms on your invoices' },
-      { label: 'Getting Paid Faster Guide', url: '/guides/getting-paid', description: 'Strategies to accelerate payment collection' },
+    relatedTools: [      { label: 'Getting Paid Faster Guide', url: '/guides/getting-paid', description: 'Strategies to accelerate payment collection' },
     ],
     content: `
 <p><strong>Payment terms are the rules that govern when and how clients pay your invoices.</strong> Getting them right directly impacts your cash flow — a 2022 Xero study found that businesses using shorter payment terms got paid <strong>15 days faster on average</strong> than those using Net 60.</p>
@@ -1185,7 +1177,7 @@ export const cluster11Posts: BlogPost[] = [
 
 <p>Including the <em>specific due date</em> (not just "Net 30") reduces ambiguity and gets invoices paid faster. Studies show invoices with explicit due dates are paid <strong>8 days faster</strong> than those with relative terms alone.</p>
 
-<p>Set clear payment terms on every invoice with <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a>. For more strategies, read our <a href="/__LANG__/guides/getting-paid">complete guide to getting paid faster</a>.</p>
+<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For more strategies, read our <a href="/__LANG__/guides/getting-paid">complete guide to getting paid faster</a>.</p>
     `
   },
 ];

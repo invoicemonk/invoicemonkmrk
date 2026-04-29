@@ -1,10 +1,42 @@
-import { useState, useMemo } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
 import { Badge } from '@/components/ui/badge';
-import { DollarSign, TrendingUp, Clock, Target } from 'lucide-react';
+import { DollarSign, TrendingUp, Clock, Target, Globe2 } from 'lucide-react';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { useContentAnalytics } from '@/hooks/useContentAnalytics';
+
+// Advisory FX baseline (mid-market, refreshed quarterly).
+// Used only for the multi-currency rate display; not for accounting.
+const FX_TO_USD: Record<string, number> = {
+  USD: 1,
+  EUR: 1.08,
+  GBP: 1.27,
+  INR: 0.012,
+  NGN: 0.00067,
+  CAD: 0.73,
+  AUD: 0.66,
+  KES: 0.0077,
+  GHS: 0.066,
+  ZAR: 0.054,
+};
+
+const CURRENCY_META: Record<string, { symbol: string; locale: string; name: string }> = {
+  USD: { symbol: '$', locale: 'en-US', name: 'US Dollar' },
+  EUR: { symbol: '€', locale: 'de-DE', name: 'Euro' },
+  GBP: { symbol: '£', locale: 'en-GB', name: 'British Pound' },
+  INR: { symbol: '₹', locale: 'en-IN', name: 'Indian Rupee' },
+  NGN: { symbol: '₦', locale: 'en-NG', name: 'Nigerian Naira' },
+  CAD: { symbol: 'CA$', locale: 'en-CA', name: 'Canadian Dollar' },
+  AUD: { symbol: 'A$', locale: 'en-AU', name: 'Australian Dollar' },
+  KES: { symbol: 'KSh', locale: 'en-KE', name: 'Kenyan Shilling' },
+  GHS: { symbol: 'GH₵', locale: 'en-GH', name: 'Ghanaian Cedi' },
+  ZAR: { symbol: 'R', locale: 'en-ZA', name: 'South African Rand' },
+};
+
+const CURRENCY_OPTIONS = Object.keys(CURRENCY_META);
 
 interface RateResult {
   minimumHourly: number;
@@ -24,6 +56,9 @@ export function FreelancerRateCalculator() {
   const [vacationWeeks, setVacationWeeks] = useState(4);
   const [billableHours, setBillableHours] = useState(30);
   const [profitMargin, setProfitMargin] = useState(20);
+  const [baseCurrency, setBaseCurrency] = useState<string>('USD');
+  const { trackEvent } = useContentAnalytics();
+  const hasTrackedInitialResult = useRef(false);
 
   const result = useMemo<RateResult>(() => {
     const workingWeeks = 52 - vacationWeeks;
@@ -49,7 +84,42 @@ export function FreelancerRateCalculator() {
     };
   }, [annualIncome, monthlyExpenses, taxRate, vacationWeeks, billableHours, profitMargin]);
 
-  const fmt = (n: number) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
+  const fmt = (n: number, currency: string = baseCurrency) => {
+    const meta = CURRENCY_META[currency] ?? CURRENCY_META.USD;
+    return new Intl.NumberFormat(meta.locale, {
+      style: 'currency',
+      currency,
+      maximumFractionDigits: 0,
+    }).format(n);
+  };
+
+  // Convert the recommended hourly (entered in baseCurrency) into other currencies via USD pivot.
+  const recommendedInUSD = result.recommendedHourly * (FX_TO_USD[baseCurrency] ?? 1);
+  const otherCurrencies = ['USD', 'EUR', 'GBP', 'INR'].filter((c) => c !== baseCurrency);
+  const multiCurrencyRates = otherCurrencies.map((c) => ({
+    code: c,
+    name: CURRENCY_META[c].name,
+    value: recommendedInUSD / (FX_TO_USD[c] ?? 1),
+  }));
+
+  useEffect(() => {
+    if (!hasTrackedInitialResult.current) {
+      hasTrackedInitialResult.current = true;
+      return;
+    }
+
+    trackEvent('calculator_usage', {
+      calculator: 'freelancer_rate',
+      baseCurrency,
+      annualIncome,
+      monthlyExpenses,
+      taxRate,
+      vacationWeeks,
+      billableHours,
+      profitMargin,
+      recommendedHourly: Math.round(result.recommendedHourly),
+    });
+  }, [annualIncome, monthlyExpenses, taxRate, vacationWeeks, billableHours, profitMargin, baseCurrency, result.recommendedHourly, trackEvent]);
 
   return (
     <div className="space-y-8">
@@ -63,6 +133,26 @@ export function FreelancerRateCalculator() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-5">
+            <div>
+              <Label htmlFor="base-currency" className="text-sm font-medium">
+                Base Currency
+              </Label>
+              <Select value={baseCurrency} onValueChange={setBaseCurrency}>
+                <SelectTrigger id="base-currency" className="mt-1.5">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {CURRENCY_OPTIONS.map((c) => (
+                    <SelectItem key={c} value={c}>
+                      {CURRENCY_META[c].symbol} {c} — {CURRENCY_META[c].name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              <p className="text-xs text-muted-foreground mt-1">
+                Income, expenses, and rates use this currency.
+              </p>
+            </div>
             <div>
               <Label htmlFor="annual-income" className="text-sm font-medium">
                 Desired Annual Take-Home Income
@@ -216,6 +306,27 @@ export function FreelancerRateCalculator() {
                 <p className="text-lg font-semibold text-foreground">{item.value}</p>
               </div>
             ))}
+          </div>
+
+          {/* Multi-currency view (Priority 4: international freelancer audience) */}
+          <div className="mt-8 pt-6 border-t border-border">
+            <div className="flex items-center gap-2 mb-3">
+              <Globe2 className="h-4 w-4 text-primary" />
+              <h3 className="text-sm font-semibold text-foreground">
+                Recommended hourly rate in other currencies
+              </h3>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {multiCurrencyRates.map((c) => (
+                <div key={c.code} className="p-3 rounded-lg bg-muted/40 border border-border">
+                  <p className="text-xs text-muted-foreground">{c.code} · {c.name}</p>
+                  <p className="text-lg font-semibold text-foreground">{fmt(c.value, c.code)}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs text-muted-foreground mt-3">
+              Conversions use indicative mid-market rates and are for guidance only — quote your real rate in your client's currency.
+            </p>
           </div>
         </CardContent>
       </Card>

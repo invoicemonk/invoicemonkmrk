@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom';
-import { urlPrefixToCountry, countryToUrlPrefix } from '@/locales';
 import { Link } from '@/components/LocalizedLink';
 import { useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -7,7 +6,7 @@ import { useLocale } from '@/hooks/useLocale';
 import { Layout } from '@/components/layout/Layout';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, Calendar, Clock, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock } from 'lucide-react';
 import { 
   getRelatedPostsEnhanced, 
   getPostClusterInfo,
@@ -19,8 +18,7 @@ import { AuthorCard } from '@/components/blog/AuthorCard';
 import { ClusterNavigation } from '@/components/blog/ClusterNavigation';
 import { ClusterTopicMap } from '@/components/blog/ClusterTopicMap';
 import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
-import { ToolCTA } from '@/components/blog/ToolCTA';
-import { LeadMagnetCTA } from '@/components/blog/LeadMagnetCTA';
+import { SignupCTA } from '@/components/blog/SignupCTA';
 
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
 import { SEOHead } from '@/components/seo/SEOHead';
@@ -28,6 +26,9 @@ import { ArticleSchema } from '@/components/seo/ArticleSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { enhanceInternalLinks } from '@/utils/enhanceLinks';
+import { addBlockAnswers } from '@/utils/blockAnswers';
+import { injectInlineCTAs } from '@/utils/inlineCTAs';
+import { useContentAnalytics } from '@/hooks/useContentAnalytics';
 import { linkGlossaryTermsInText } from '@/components/blog/GlossaryTermLink';
 import { getGlossaryTermsForPillar } from '@/utils/glossaryMapping';
 import NotFound from './NotFound';
@@ -51,30 +52,43 @@ const BlogPost = () => {
   const lang = getLangPrefix(i18n.language);
   const post = slug ? getBlogPostBySlugTranslated(slug, lang) : undefined;
 
-  // Enhance links in post content (must be before early return)
+  // Enhance links + AI block-answers + inline CTAs in post content (must be before early return)
   const enhancedContent = useMemo(() => {
     if (!post) return '';
     const { pillar: p } = getPostClusterInfo(post.slug);
-    const withLinks = enhanceInternalLinks(post.content, urlLang || 'en');
+    const lang = urlLang || 'en';
+    let html = enhanceInternalLinks(post.content, lang);
+    html = addBlockAnswers(html);
+    html = injectInlineCTAs(html, { pillarId: p?.id, lang, slug: post.slug });
     const glossaryTerms = getGlossaryTermsForPillar(p?.id);
-    return linkGlossaryTermsInText(withLinks, glossaryTerms);
-  }, [post]);
+    return linkGlossaryTermsInText(html, glossaryTerms);
+  }, [post, urlLang]);
 
-  // Cross-country cannibalization fix: if this post targets a specific country
-  // and the URL prefix doesn't match, point canonical to the correct prefix and noindex this version
-  const isCountryMismatch = useMemo(() => {
-    if (!post?.targetCountry || !urlLang) return false;
-    const urlCountry = urlPrefixToCountry[urlLang.toLowerCase()];
-    const postCountry = urlPrefixToCountry[post.targetCountry.toLowerCase()];
-    return !!urlCountry && !!postCountry && urlCountry !== postCountry;
-  }, [post?.targetCountry, urlLang]);
+  // Inline-CTA click tracking via event delegation
+  const { trackEvent } = useContentAnalytics(post?.slug, post ? getPostClusterInfo(post.slug).pillar?.id : undefined);
+  useEffect(() => {
+    if (!post) return;
+    const article = document.querySelector('article .prose');
+    if (!article) return;
+    const handler = (e: Event) => {
+      const target = (e.target as HTMLElement)?.closest('.inline-cta__primary') as HTMLAnchorElement | null;
+      if (!target) return;
+      trackEvent('tool_cta_click', {
+        cta: 'inline_mid_article',
+        position: target.dataset.ctaPosition,
+        pillarId: target.dataset.ctaPillar,
+        href: target.getAttribute('href'),
+        slug: post.slug,
+      });
+    };
+    article.addEventListener('click', handler);
+    return () => article.removeEventListener('click', handler);
+  }, [post, trackEvent]);
 
-  const correctPrefix = post?.targetCountry
-    ? countryToUrlPrefix[urlPrefixToCountry[post.targetCountry.toLowerCase()]] || 'en'
-    : urlLang || 'en';
-
-  const canonicalUrl = isCountryMismatch
-    ? `https://invoicemonk.com/${correctPrefix}/blog/${post?.slug}`
+  // Country-targeted posts are canonical English content after the country-prefix migration.
+  const canonicalPrefix = post?.targetCountry ? 'en' : (urlLang || 'en');
+  const canonicalUrl = post?.targetCountry
+    ? `https://invoicemonk.com/${canonicalPrefix}/blog/${post.slug}`
     : undefined;
 
   // Add IDs to headings for TOC navigation
@@ -116,7 +130,7 @@ const BlogPost = () => {
       })
     : null;
 
-  const articleUrl = `https://invoicemonk.com/${correctPrefix}/blog/${post.slug}`;
+  const articleUrl = `https://invoicemonk.com/${canonicalPrefix}/blog/${post.slug}`;
   const ogImageUrl = `https://invoicemonk.com${post.featuredImage}`;
 
   const breadcrumbs = [
@@ -146,11 +160,9 @@ const BlogPost = () => {
         dangerouslySetInnerHTML={{ __html: enhancedContent }}
       />
 
-      {/* Contextual Tool CTA */}
-      <ToolCTA pillarId={pillar?.id} />
-
-      {/* Lead Magnet Download CTA */}
-      <LeadMagnetCTA pillarId={pillar?.id} />
+      {/* Single signup-focused CTA — no competing exits to product pages,
+          tools, or the free invoice generator. */}
+      <SignupCTA pillarId={pillar?.id} medium="article_inline" campaign="blog_signup_cta_inline" />
 
       {/* Tags */}
       {post.tags && post.tags.length > 0 && (
@@ -174,7 +186,6 @@ const BlogPost = () => {
         title={`${post.title} | Invoicemonk Blog`}
         description={post.excerpt}
         canonical={canonicalUrl}
-        noindex={isCountryMismatch}
         ogImage={ogImageUrl}
         ogImageWidth={1200}
         ogImageHeight={630}
@@ -346,41 +357,11 @@ const BlogPost = () => {
             <AuthorCard author={post.author} variant="full" showCredentials />
           </div>
 
-          {/* Related Tools — internal linking boost */}
-          {post.relatedTools && post.relatedTools.length > 0 && (
-            <div className="max-w-3xl mx-auto mt-12">
-              <h2 className="text-heading-sm font-bold text-foreground mb-4">{t('recommendedTools')}</h2>
-              <div className="grid sm:grid-cols-2 gap-3">
-                {post.relatedTools.map((tool) => (
-                  <Link
-                    key={tool.url}
-                    to={tool.url}
-                    className="group flex items-center justify-between gap-3 p-4 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-primary/5 transition-colors"
-                  >
-                    <div>
-                      <span className="font-medium text-foreground group-hover:text-primary transition-colors">{tool.label}</span>
-                      <p className="text-sm text-muted-foreground mt-0.5">{tool.description}</p>
-                    </div>
-                    <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary flex-shrink-0 transition-colors" />
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* CTA Section */}
-          <div className="max-w-3xl mx-auto mt-16 p-8 bg-primary/5 rounded-2xl text-center">
-            <h2 className="text-heading-md font-bold text-foreground mb-3">
-              {locale.content.blog.ctaHeadline}
-            </h2>
-            <p className="text-muted-foreground mb-6">
-              {locale.content.blog.ctaSubtext}
-            </p>
-            <Button asChild size="lg">
-              <Link to={post.targetProduct || pillar?.targetProduct || "/invoicing"}>
-                {locale.content.blog.ctaButtonText}
-              </Link>
-            </Button>
+          {/* Single signup-focused article-end CTA. No Recommended Tools or
+              product-page CTA stack — conversion path stays simple:
+              read article → understand challenge → signup. */}
+          <div className="max-w-3xl mx-auto mt-16">
+            <SignupCTA pillarId={pillar?.id} medium="article_end" campaign="blog_signup_cta" />
           </div>
 
           {/* Related Posts */}

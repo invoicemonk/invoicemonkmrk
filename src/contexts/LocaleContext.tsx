@@ -30,9 +30,9 @@ interface LocaleProviderProps {
 
 /**
  * Simplified locale provider.
- * The URL prefix is now the source of truth for locale selection.
- * CountryLayout calls setCountry() when the prefix changes.
- * CountryRedirect handles initial country detection and redirect.
+ * The URL language prefix is now the source of truth for locale selection.
+ * LanguageLayout calls setCountry() when the prefix changes.
+ * LanguageRedirect handles initial language detection and redirect.
  */
 export function LocaleProvider({ children }: LocaleProviderProps) {
   const [countryCode, setCountryCode] = useState<SupportedCountry>(() => {

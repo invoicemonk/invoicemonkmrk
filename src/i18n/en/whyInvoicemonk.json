@@ -41,24 +41,6 @@
       "description": "Timestamped records, hash-based integrity, and complete audit trails. Be ready for any audit, anytime."
     }
   },
-  "audiences": {
-    "title": "Built for how you actually work",
-    "subtitle": "Different teams. Different needs. One compliance-first platform.",
-    "items": [
-      {
-        "title": "Freelancers & Solo Operators",
-        "description": "Get professional invoices, payment links, and audit-ready records without hiring a bookkeeper. Free tier covers your first 5 invoices and 5 receipts every month."
-      },
-      {
-        "title": "Small & Growing Businesses",
-        "description": "Add accounting, expenses, multi-currency, and team members as you scale — without migrating data or learning a new system."
-      },
-      {
-        "title": "Accountants & Bookkeepers",
-        "description": "Clean exports, cash or accrual basis, hashed audit trails, and per-business separation. We make your job easier instead of competing with you."
-      }
-    ]
-  },
   "trust": {
     "growing": { "label": "Growing", "description": "Invoices processed" },
     "trusted": { "label": "Trusted", "description": "Businesses trust us" },

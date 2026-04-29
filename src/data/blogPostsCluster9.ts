@@ -48,9 +48,7 @@ export const cluster9Posts: BlogPost[] = [
       { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' },
       { name: 'Cash Flow Statement', type: 'DefinedTerm' }
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create professional invoices that help you get paid on time' },
-      { label: 'Accounting Features', url: '/accounting', description: 'Track income, expenses, and cash flow in one place' }
+    relatedTools: [      { label: 'Accounting Features', url: '/accounting', description: 'Track income, expenses, and cash flow in one place' }
     ],
     content: `
 <p>Running out of cash is the number-one reason small businesses fail — not lack of sales, not bad products, but <strong>poor timing between money coming in and money going out</strong>. A 2025 J.P. Morgan study found that the median small business holds only 27 days of cash reserves. One delayed invoice or unexpected expense can tip you into crisis.</p>
@@ -237,9 +235,7 @@ export const cluster9Posts: BlogPost[] = [
     entityMentions: [
       { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' }
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create unlimited professional invoices for free' },
-      { label: 'Pricing Plans', url: '/pricing', description: 'Compare Invoicemonk plans and features' }
+    relatedTools: [      { label: 'Pricing Plans', url: '/pricing', description: 'Compare Invoicemonk plans and features' }
     ],
     content: `
 <p>Choosing invoicing software is one of the first real decisions a small business owner makes — and it's easy to get wrong. Pick a free tool that's too limited and you waste hours on workarounds. Pick a paid tool before you need it and you're spending money that could go elsewhere. This guide helps you make the right call based on where your business actually is.</p>
@@ -398,9 +394,7 @@ export const cluster9Posts: BlogPost[] = [
       { name: 'Invoicemonk', type: 'SoftwareApplication', url: 'https://invoicemonk.com' }
     ],
     relatedTools: [
-      { label: 'Payment Features', url: '/payments', description: 'Automate payment collection and reminders' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create invoices with built-in payment tracking' }
-    ],
+      { label: 'Payment Features', url: '/payments', description: 'Automate payment collection and reminders' },    ],
     content: `
 <p>Late payments aren't just annoying — they're expensive. A Xero study found that small businesses spend an average of <strong>1.5 hours per week chasing overdue invoices</strong>. That's 78 hours a year of unpaid admin work that could be eliminated with one simple setup: automatic payment reminders.</p>
 

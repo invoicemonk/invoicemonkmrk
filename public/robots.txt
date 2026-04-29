@@ -45,7 +45,6 @@ Disallow: /contact$
 Disallow: /compliance$
 Disallow: /developer$
 Disallow: /why-invoicemonk$
-Disallow: /free-invoice-generator$
 Disallow: /best-invoicing-software$
 Disallow: /tools$
 Disallow: /compare/
@@ -55,6 +54,22 @@ Disallow: /partner-program$
 
 # Disallow __LANG__ placeholder URLs
 Disallow: /__LANG__/
+
+# Disallow retired country-prefix URLs (canonical pages use /en/, /de/, /fr/, /pt/, /es/)
+Disallow: /us/
+Disallow: /uk/
+Disallow: /ng/
+Disallow: /ke/
+Disallow: /gh/
+Disallow: /za/
+Disallow: /in/
+Disallow: /au/
+Disallow: /ca/
+Disallow: /br/
+Disallow: /nz/
+Disallow: /ph/
+Disallow: /sc/
+Disallow: /zw/
 
 # Disallow leaked placeholder and legacy patterns
 Disallow: /*/__LANG__/

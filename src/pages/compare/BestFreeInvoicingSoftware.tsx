@@ -146,7 +146,7 @@ export default function BestFreeInvoicingSoftware() {
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create your first professional invoice in under 5 minutes. Multi-currency, tax-compliant, and genuinely free.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-              <Link to="/free-invoice-generator">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
               <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>

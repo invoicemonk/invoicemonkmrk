@@ -521,6 +521,107 @@ const countries: CountryConfig[] = [
     einvoicingContext: 'Albania implemented mandatory real-time fiscalization (Fiskalizimi) in 2021: B2B from January 1, B2C from July 1, and B2G from September 1. All invoices must be reported in real-time to DPT servers, which return a unique NIVF (invoice verification number) and NSLF (security code). The system uses XML format and requires qualified digital certificates.',
     registrationUrl: 'https://www.tatime.gov.al',
   },
+  // East & West Africa expansion (double down on Africa cluster)
+  {
+    code: 'tz',
+    name: 'Tanzania',
+    demonym: 'Tanzanian',
+    authority: 'TRA',
+    authorityFull: 'Tanzania Revenue Authority',
+    taxType: 'VAT',
+    taxRate: '18% (standard), 0% (exports)',
+    currency: 'TSh',
+    currencyCode: 'TZS',
+    taxId: 'TIN',
+    taxIdFull: 'Taxpayer Identification Number',
+    vatThreshold: 'TZS 100 million annual taxable turnover',
+    filingFrequency: 'monthly, by the 20th of the following month',
+    recordKeepingYears: '5',
+    paymentMethods: 'Bank transfer, M-Pesa, Tigo Pesa, Airtel Money, and debit cards',
+    penalties: 'Late filing: TZS 225,000 or 2.5% of unpaid tax per month (whichever is higher). Late payment: 5% of tax due plus interest at the statutory rate. Failure to register: TZS 1.5 million minimum.',
+    einvoicingContext: 'Tanzania mandates Electronic Fiscal Devices (EFDs) issued by TRA-approved suppliers. All VAT-registered businesses must issue receipts through an EFD that transmits transaction data to TRA in near real-time via the EFD-MS (Electronic Fiscal Device Management System).',
+    registrationUrl: 'https://www.tra.go.tz',
+  },
+  {
+    code: 'ug',
+    name: 'Uganda',
+    demonym: 'Ugandan',
+    authority: 'URA',
+    authorityFull: 'Uganda Revenue Authority',
+    taxType: 'VAT',
+    taxRate: '18% (standard), 0% (exports and select goods)',
+    currency: 'USh',
+    currencyCode: 'UGX',
+    taxId: 'TIN',
+    taxIdFull: 'Tax Identification Number',
+    vatThreshold: 'UGX 150 million annual taxable turnover',
+    filingFrequency: 'monthly, by the 15th of the following month via the URA portal',
+    recordKeepingYears: '5',
+    paymentMethods: 'Bank transfer, MTN Mobile Money, Airtel Money, and debit cards',
+    penalties: 'Late filing: UGX 200,000 or 2% of tax due per month. Late payment: 2% per month interest. Failure to register: UGX 1.5 million plus assessment of unpaid tax.',
+    einvoicingContext: 'Uganda rolled out the Electronic Fiscal Receipting and Invoicing Solution (EFRIS) in 2020. All VAT-registered businesses must issue e-invoices and e-receipts through EFRIS, which transmits data to URA in real-time and generates a unique Fiscal Document Number (FDN) and QR code on every document.',
+    registrationUrl: 'https://www.ura.go.ug',
+  },
+  {
+    code: 'rw',
+    name: 'Rwanda',
+    demonym: 'Rwandan',
+    authority: 'RRA',
+    authorityFull: 'Rwanda Revenue Authority',
+    taxType: 'VAT',
+    taxRate: '18% (standard), 0% (exports)',
+    currency: 'RF',
+    currencyCode: 'RWF',
+    taxId: 'TIN',
+    taxIdFull: 'Taxpayer Identification Number',
+    vatThreshold: 'RWF 20 million annual taxable turnover',
+    filingFrequency: 'monthly, by the 15th of the following month via RRA e-Tax',
+    recordKeepingYears: '10',
+    paymentMethods: 'Bank transfer, MTN MoMo, Airtel Money, and debit cards',
+    penalties: 'Late filing: RWF 100,000 to RWF 500,000 depending on taxpayer category. Late payment: 1.5% per month interest plus 10% surcharge. Non-issuance of EBM receipt: RWF 2 million per occurrence.',
+    einvoicingContext: 'Rwanda mandates Electronic Billing Machines (EBM) for all VAT-registered taxpayers. EBM 2.5 (a virtual EBM) and certified hardware EBMs transmit invoice data to RRA in real-time and produce a QR-coded receipt.',
+    registrationUrl: 'https://www.rra.gov.rw',
+  },
+  {
+    code: 'sn',
+    name: 'Senegal',
+    demonym: 'Senegalese',
+    authority: 'DGID',
+    authorityFull: 'Direction Generale des Impots et des Domaines',
+    taxType: 'TVA',
+    taxRate: '18% (standard), 10% (tourism)',
+    currency: 'CFA',
+    currencyCode: 'XOF',
+    taxId: 'NINEA',
+    taxIdFull: "Numero d'Identification National des Entreprises et Associations",
+    vatThreshold: 'XOF 50 million annual turnover (services) or XOF 100 million (goods)',
+    filingFrequency: 'monthly, by the 15th of the following month',
+    recordKeepingYears: '10',
+    paymentMethods: 'Bank transfer, Wave, Orange Money, Free Money, and debit cards',
+    penalties: 'Late filing: 25% surcharge on tax due. Late payment: 5% surcharge plus 0.5% per month interest. Failure to register: XOF 200,000 to XOF 2 million plus reassessment.',
+    einvoicingContext: 'Senegal is rolling out mandatory e-invoicing in phases coordinated by DGID. Large taxpayers were first; SMEs are being onboarded progressively. Invoices must be transmitted to DGID systems and carry a fiscal stamp/QR code for B2B and B2G transactions, aligned with WAEMU regional digital tax initiatives.',
+    registrationUrl: 'https://www.dgid.sn',
+  },
+  {
+    code: 'ci',
+    name: "Cote d'Ivoire",
+    demonym: 'Ivorian',
+    authority: 'DGI',
+    authorityFull: 'Direction Generale des Impots',
+    taxType: 'TVA',
+    taxRate: '18% (standard), 9% (reduced for select goods)',
+    currency: 'CFA',
+    currencyCode: 'XOF',
+    taxId: 'CC',
+    taxIdFull: 'Compte Contribuable',
+    vatThreshold: 'XOF 200 million annual turnover',
+    filingFrequency: 'monthly, by the 15th (large) or 20th (medium) of the following month',
+    recordKeepingYears: '10',
+    paymentMethods: 'Bank transfer, Orange Money, MTN MoMo, Wave, and debit cards',
+    penalties: 'Late filing: 10% surcharge (25% for repeat offences). Late payment: 10% surcharge plus 1% per month interest. Non-compliance with e-invoicing: XOF 1 million to XOF 10 million per occurrence.',
+    einvoicingContext: "Cote d'Ivoire mandates the Systeme de Facture Normalisee Electronique (SFNE) for all VAT-registered businesses. Invoices must be issued through DGI-certified solutions that transmit data in real-time and produce a unique fiscal sticker (vignette) and QR code on every document.",
+    registrationUrl: 'https://www.dgi.gouv.ci',
+  },
 ];
 
 // (featuredImage helper removed — each template now uses its own per-country path)
@@ -558,7 +659,7 @@ function generateTaxCompliantInvoicePost(c: CountryConfig): BlogPost {
     targetCountry: c.code,
     relatedTools: [
       { label: 'Compliance Hub', url: '/compliance', description: `Verify your ${c.authority} compliance status` },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: `Create ${c.authority}-compliant invoices instantly` },
+      { label: 'Invoicemonk Invoicing', url: '/invoicing', description: `Create ${c.authority}-compliant invoices instantly` },
     ],
     content: `
       <p>Issuing a tax-compliant invoice in ${c.name} isn't just good practice — it's a legal requirement. The <strong>${c.authorityFull} (${c.authority})</strong> sets strict rules about what every invoice must contain, how ${c.taxType} should be calculated, and how long records must be retained.</p>
@@ -613,7 +714,7 @@ function generateTaxCompliantInvoicePost(c: CountryConfig): BlogPost {
 
       <h2>How Invoicemonk Helps</h2>
       <p><a href="/invoicing">Invoicemonk</a> is built for ${c.demonym} businesses. Our platform automatically includes all ${c.authority}-required invoice elements, calculates ${c.taxType} at the correct rate, generates sequential invoice numbers, and stores records securely for the required ${c.recordKeepingYears} years.</p>
-      <p><a href="/free-invoice-generator">Create your first compliant invoice free →</a></p>
+      <p><a href="/invoicing">Create your first compliant invoice free →</a></p>
     `,
   };
 }
@@ -645,11 +746,11 @@ function generateVatFormatPost(c: CountryConfig): BlogPost {
       { question: `What is the correct ${c.taxType} rate for invoices in ${c.name}?`, answer: `The current ${c.taxType} rate in ${c.name} is ${c.taxRate}. Always verify the latest rates on the official ${c.authority} website at ${c.registrationUrl}.` },
       { question: `Do all invoices in ${c.name} need ${c.taxType}?`, answer: `Only businesses registered for ${c.taxType} must charge and show ${c.taxType} on invoices. Registration is required when taxable turnover exceeds ${c.vatThreshold}. Some goods and services may be exempt or zero-rated.` },
       { question: `Can I use a simplified invoice format in ${c.name}?`, answer: `Most jurisdictions allow simplified invoices for low-value transactions. Check ${c.authority} rules for the threshold in ${c.name}. Full tax invoices are required for B2B transactions and amounts above the threshold.` },
-      { question: `Where can I find a free ${c.taxType} invoice template for ${c.name}?`, answer: `Invoicemonk offers free ${c.authority}-compliant invoice templates at invoicemonk.com/free-invoice-generator. Templates include all mandatory ${c.taxType} fields pre-configured for ${c.demonym} businesses.` },
+      { question: `Where can I find a free ${c.taxType} invoice template for ${c.name}?`, answer: `Invoicemonk offers free ${c.authority}-compliant invoice templates at invoicemonk.com/invoicing. Templates include all mandatory ${c.taxType} fields pre-configured for ${c.demonym} businesses.` },
     ],
     targetCountry: c.code,
     relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: `Generate ${c.taxType}-compliant invoices` },
+      { label: 'Invoicemonk Invoicing', url: '/invoicing', description: `Generate ${c.taxType}-compliant invoices` },
     ],
     content: `
       <p>Getting the ${c.taxType} invoice format right in ${c.name} is essential for compliance with <strong>${c.authorityFull} (${c.authority})</strong>. An incorrectly formatted invoice can mean your clients can't claim input tax credits, and your business faces penalties during audits.</p>
@@ -692,7 +793,7 @@ function generateVatFormatPost(c: CountryConfig): BlogPost {
       </ul>
 
       <h2>Free Templates for ${c.demonym} Businesses</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk's free invoice generator</a> provides pre-built templates with all ${c.authority}-required fields. Select your country, add your ${c.taxId}, and the platform handles ${c.taxType} calculations automatically.</p>
+      <p><a href="/invoicing">Invoicemonk's free invoice generator</a> provides pre-built templates with all ${c.authority}-required fields. Select your country, add your ${c.taxId}, and the platform handles ${c.taxType} calculations automatically.</p>
 
       <h2>Digital vs Paper Invoices</h2>
       <p>${c.authority} accepts digital invoices provided they contain all mandatory elements and can be produced for audit. ${c.einvoicingContext}</p>
@@ -803,7 +904,7 @@ function generateRegulatorGuidePost(c: CountryConfig): BlogPost {
 
       <h2>How Invoicemonk Helps You Stay Compliant</h2>
       <p><a href="/invoicing">Invoicemonk</a> is designed with ${c.demonym} tax compliance in mind. Our platform automatically includes all required invoice elements, calculates ${c.taxType} at the correct rate, generates sequential invoice numbers, and stores invoices securely for the required ${c.recordKeepingYears} years.</p>
-      <p><a href="/free-invoice-generator">Start your free trial</a> and create ${c.authority}-compliant invoices in minutes.</p>
+      <p><a href="/invoicing">Start your free trial</a> and create ${c.authority}-compliant invoices in minutes.</p>
     `,
   };
 }
@@ -975,7 +1076,7 @@ function generateInvoiceFromAbroadPost(c: CountryConfig): BlogPost {
       </ol>
 
       <h2>How Invoicemonk Simplifies Cross-Border Invoicing</h2>
-      <p><a href="/invoicing">Invoicemonk</a> handles multi-currency invoicing, automatic exchange rate tracking, and generates professional invoices that comply with both your local requirements and ${c.demonym} expectations. <a href="/free-invoice-generator">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> handles multi-currency invoicing, automatic exchange rate tracking, and generates professional invoices that comply with both your local requirements and ${c.demonym} expectations. <a href="/invoicing">Try it free →</a></p>
     `,
   };
 }
@@ -1054,7 +1155,7 @@ function generateTaxMistakesPost(c: CountryConfig): BlogPost {
       <p><strong>Fix:</strong> Use <a href="/blog/tax-compliant-invoice-${c.code}">compliant invoice templates</a> that include all ${c.authority}-required fields automatically.</p>
 
       <h2>Stay Compliant with Invoicemonk</h2>
-      <p><a href="/freelancers">Invoicemonk</a> helps ${c.demonym} freelancers avoid all seven mistakes — with automatic ${c.taxType} calculations, expense tracking, compliant invoicing, and filing reminders. <a href="/free-invoice-generator">Start free →</a></p>
+      <p><a href="/freelancers">Invoicemonk</a> helps ${c.demonym} freelancers avoid all seven mistakes — with automatic ${c.taxType} calculations, expense tracking, compliant invoicing, and filing reminders. <a href="/invoicing">Start free →</a></p>
     `,
   };
 }
@@ -1240,7 +1341,7 @@ const sharedPosts: BlogPost[] = [
       <p>Run expense reports monthly to understand your spending patterns. Look for trends, identify costs you can cut, and ensure you're on budget. These reports also form the basis of your tax filings.</p>
 
       <h2>Get Started with Invoicemonk</h2>
-      <p><a href="/expenses">Invoicemonk's expense tracking</a> combines receipt scanning, auto-categorisation, and tax-ready reporting in one platform. Connect your bank account and start tracking expenses automatically — <a href="/free-invoice-generator">try it free</a>.</p>
+      <p><a href="/expenses">Invoicemonk's expense tracking</a> combines receipt scanning, auto-categorisation, and tax-ready reporting in one platform. Connect your bank account and start tracking expenses automatically — <a href="/invoicing">try it free</a>.</p>
     `,
   },
   {
@@ -1334,7 +1435,7 @@ const sharedPosts: BlogPost[] = [
       </ol>
 
       <h2>How Invoicemonk Handles Multi-Currency</h2>
-      <p><a href="/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency invoicing</a> automates the entire process. Create invoices in any currency, and the platform tracks exchange rates, records transactions in your home currency, and generates accurate reports. <a href="/free-invoice-generator">Try it free →</a></p>
+      <p><a href="/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency invoicing</a> automates the entire process. Create invoices in any currency, and the platform tracks exchange rates, records transactions in your home currency, and generates accurate reports. <a href="/invoicing">Try it free →</a></p>
     `,
   },
 ];

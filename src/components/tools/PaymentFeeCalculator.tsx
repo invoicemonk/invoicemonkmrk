@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight, Calculator } from 'lucide-react';
+import { useContentAnalytics } from '@/hooks/useContentAnalytics';
 
 interface PaymentFeeCalculatorProps {
   filterMethods?: string[];
@@ -40,6 +41,7 @@ export function PaymentFeeCalculator({
   const [senderCountry, setSenderCountry] = useState('US');
   const [receiverCountry, setReceiverCountry] = useState('NG');
   const [hasCalculated, setHasCalculated] = useState(false);
+  const { trackEvent } = useContentAnalytics();
 
   const results = useMemo(() => {
     if (!hasCalculated || amount <= 0) return [];
@@ -52,6 +54,14 @@ export function PaymentFeeCalculator({
 
   const handleCalculate = () => {
     setHasCalculated(true);
+    trackEvent('calculator_usage', {
+      calculator: 'international_payment_fee',
+      amount,
+      sendCurrency,
+      receiveCurrency,
+      senderCountry,
+      receiverCountry,
+    });
     if (onCalculate) {
       const res = calculateFees(amount, sendCurrency, receiveCurrency);
       onCalculate(filterMethods ? res.filter((r) => filterMethods.includes(r.method.id)) : res);
@@ -183,6 +193,7 @@ export function PaymentFeeCalculator({
                     href={`https://app.invoicemonk.com/signup?currency=${sendCurrency}&method=${result.method.id}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => trackEvent('tool_cta_click', { tool: 'international_payment_fee', cta: 'result_card', method: result.method.id })}
                     className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary/80 transition-colors mt-2"
                   >
                     {t('calculator.createInvoice')} <ArrowRight className="w-3 h-3" />
@@ -204,13 +215,13 @@ export function PaymentFeeCalculator({
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
             <a href={`https://app.invoicemonk.com/signup?currency=${sendCurrency}`} target="_blank" rel="noopener noreferrer">
-              <Button size="lg">
+              <Button size="lg" onClick={() => trackEvent('tool_cta_click', { tool: 'international_payment_fee', cta: 'create_free_invoice' })}>
                 {t('calculator.createFreeInvoice')}
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </a>
             <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" onClick={() => trackEvent('tool_cta_click', { tool: 'international_payment_fee', cta: 'open_free_account' })}>
                 {t('calculator.openFreeAccount')}
               </Button>
             </a>

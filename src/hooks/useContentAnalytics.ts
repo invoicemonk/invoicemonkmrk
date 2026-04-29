@@ -34,6 +34,7 @@ const AB_VARIANTS_KEY = 'invoicemonk_ab_variants';
 
 // Get or create session ID
 const getSessionId = (): string => {
+  if (typeof window === 'undefined') return 'prerender_session';
   let sessionId = sessionStorage.getItem('analytics_session');
   if (!sessionId) {
     sessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
@@ -102,6 +103,7 @@ export interface ABVariant {
 
 export const getABVariant = (experimentId: string): 'A' | 'B' => {
   try {
+    if (typeof window === 'undefined') return 'A';
     const stored = localStorage.getItem(AB_VARIANTS_KEY);
     const variants: ABVariant[] = stored ? JSON.parse(stored) : [];
     

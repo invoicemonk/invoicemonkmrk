@@ -59,7 +59,7 @@
       "tip3": "<strong>Die richtige Methode pro Kunde wählen</strong> — Hochwertige Kunden rechtfertigen möglicherweise Banküberweisungen, während häufige kleine Zahlungen besser mit Wise funktionieren.",
       "tip4": "<strong>Multi-Währungs-Rechnungsstellung nutzen</strong> — Mit <a href=\"__LANG__/invoicing\">Invoicemonks Rechnungstools</a> können Sie Rechnungen in mehreren Währungen ausstellen und Kunden die beste Zahlungsmethode wählen lassen.",
       "smarterTitle": "Klügere internationale Zahlungsentscheidungen treffen",
-      "smarterP": "Bevor Sie Ihre nächste Rechnung erstellen, nutzen Sie diesen Rechner, um die tatsächlichen Kosten jeder Zahlungsmethode zu verstehen. Erstellen Sie dann eine professionelle Rechnung mit <a href=\"__LANG__/free-invoice-generator\">Invoicemonks kostenlosem Rechnungsgenerator</a>, optimiert für Ihre gewählte Methode."
+      "smarterP": "Bevor Sie Ihre nächste Rechnung erstellen, nutzen Sie diesen Rechner, um die tatsächlichen Kosten jeder Zahlungsmethode zu verstehen. Erstellen Sie dann eine professionelle Rechnung mit <a href=\"__LANG__/invoicing\">Invoicemonks kostenlosem Rechnungsgenerator</a>, optimiert für Ihre gewählte Methode."
     },
     "faqs": [
       {
@@ -137,7 +137,7 @@
         "usdAustralia": "USD in Australien empfangen →"
       },
       "knowCostsTitle": "Kennen Sie Ihre Kosten vor der Rechnungsstellung",
-      "knowCostsP": "Der beste Zeitpunkt zur Optimierung der Zahlungskosten ist <em>vor</em> dem Versand der Rechnung. Mit <a href=\"__LANG__/free-invoice-generator\">Invoicemonks kostenlosem Rechnungsgenerator</a> können Sie professionelle Multi-Währungs-Rechnungen erstellen und die optimale Zahlungsmethode für jeden Kunden angeben."
+      "knowCostsP": "Der beste Zeitpunkt zur Optimierung der Zahlungskosten ist <em>vor</em> dem Versand der Rechnung. Mit <a href=\"__LANG__/invoicing\">Invoicemonks kostenlosem Rechnungsgenerator</a> können Sie professionelle Multi-Währungs-Rechnungen erstellen und die optimale Zahlungsmethode für jeden Kunden angeben."
     },
     "faqs": [
       {

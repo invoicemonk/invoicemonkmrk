@@ -1083,8 +1083,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -1301,8 +1301,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -1517,8 +1517,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -1592,8 +1592,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -1663,8 +1663,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices \u2014 no signup needed."
           },
           {
@@ -1742,8 +1742,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create a professional invoice in under 2 minutes."
           },
           {
@@ -1817,8 +1817,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -1905,8 +1905,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -1975,8 +1975,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -2149,7 +2149,7 @@ export const blogPosts: BlogPost[] = [
       <p>For country-specific compliance, see our <a href="/compliance">compliance guides</a>.</p>
 
       <h2>Using Invoicemonk</h2>
-      <p><a href="/invoicing">Invoicemonk</a> automatically includes all essential elements in professional templates, calculates taxes correctly for your country, and lets you save client details for future invoices. <a href="/free-invoice-generator">Try the free invoice generator</a> — no signup required.</p>
+      <p><a href="/invoicing">Invoicemonk</a> automatically includes all essential elements in professional templates, calculates taxes correctly for your country, and lets you save client details for future invoices. <a href="/invoicing">Try the free invoice generator</a> — no signup required.</p>
 
       <h2>Related Resources</h2>
       <ul>
@@ -2181,8 +2181,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create a professional invoice in under 2 minutes."
           },
           {
@@ -2265,8 +2265,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create a professional invoice in under 2 minutes."
           },
           {
@@ -2353,8 +2353,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -2495,8 +2495,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -2662,8 +2662,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -2744,8 +2744,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -3299,8 +3299,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -3437,8 +3437,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -3560,8 +3560,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -3685,8 +3685,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -3844,8 +3844,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -4020,8 +4020,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -4194,8 +4194,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -4386,8 +4386,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -4418,7 +4418,7 @@ export const blogPosts: BlogPost[] = [
 
       <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:16px 20px;margin:20px 0;">
         <p style="margin:0;font-weight:600;">🧾 Looking to create a free ATO-compliant invoice?</p>
-        <p style="margin:8px 0 0;">Use our <a href="/free-invoice-generator-australia">free invoice generator for Australian businesses</a> — no signup required. Includes ABN, GST, and BAS-ready formatting.</p>
+        <p style="margin:8px 0 0;">Use our <a href="/invoicing">free invoice generator for Australian businesses</a> — no signup required. Includes ABN, GST, and BAS-ready formatting.</p>
       </div>
 
       <h2>GST Registration Requirements</h2>
@@ -4601,8 +4601,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -5263,8 +5263,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -5696,8 +5696,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -5720,9 +5720,7 @@ export const blogPosts: BlogPost[] = [
     semanticKeywords: ['credit note', 'invoice correction', 'billing adjustment'],
     priority: 'P3',
     relatedTools: [
-      { label: 'Invoicing Software', url: '/invoicing', description: 'Issue invoices & credit notes easily' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create invoices for free' },
-    ],
+      { label: 'Invoicing Software', url: '/invoicing', description: 'Issue invoices & credit notes easily' },    ],
     content: `
       <p>Billing errors happen to every business eventually. A calculation mistake, a returned product, or an agreed-upon discount applied after the original invoice was sent—these situations require corrections. But you can't simply delete an invoice and pretend it never existed. That creates accounting chaos and potential tax compliance issues.</p>
       <p>This guide explains how to properly correct billing errors using credit notes and invoice corrections. You'll learn when to use each method, what information to include, and how to maintain audit-ready records throughout the process.</p>
@@ -6413,8 +6411,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -6550,8 +6548,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -6674,8 +6672,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -6844,8 +6842,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -6979,8 +6977,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -7102,8 +7100,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -7205,8 +7203,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -7348,8 +7346,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -7485,8 +7483,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -7674,8 +7672,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -7939,8 +7937,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -8195,8 +8193,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -8411,8 +8409,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -8620,8 +8618,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices \u2014 no signup needed."
           },
           {
@@ -8851,8 +8849,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -9090,8 +9088,8 @@ export const blogPosts: BlogPost[] = [
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -9394,8 +9392,8 @@ export const blogPosts: BlogPost[] = [
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -9773,8 +9771,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -10188,8 +10186,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create a professional invoice in under 2 minutes."
           },
           {
@@ -10349,8 +10347,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create a professional invoice in under 2 minutes."
           },
           {
@@ -10501,8 +10499,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create a professional invoice in under 2 minutes."
           },
           {
@@ -11183,8 +11181,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -11321,8 +11319,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -11472,8 +11470,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -11620,8 +11618,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -11744,8 +11742,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -11878,8 +11876,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -12020,8 +12018,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -12164,8 +12162,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -12300,8 +12298,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -12447,8 +12445,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Convert accepted estimates into invoices instantly."
           },
           {
@@ -12736,8 +12734,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -13479,8 +13477,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -13722,8 +13720,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -13831,8 +13829,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -13928,8 +13926,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -14003,8 +14001,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -14089,8 +14087,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -14184,8 +14182,8 @@ Thank you for your business!
                 "description": "Set profitable pricing based on your goals and expenses."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Bill clients professionally in under 2 minutes."
           }
     ],
@@ -14316,8 +14314,8 @@ Thank you for your business!
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -14430,8 +14428,8 @@ Thank you for your business!
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -14527,8 +14525,8 @@ Thank you for your business!
                 "description": "Calculate your ideal hourly or project rate."
           },
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create professional invoices with accounting fields."
           }
     ],
@@ -14924,7 +14922,7 @@ Thank you for your business!
 
 <p><strong>Payment terms:</strong> Net 30. Bank transfer to BSB 062-000, Account 12345678, or pay online at invoicemonk.com/pay/INV-2026-042.</p>
 
-<p>Notice how this example includes every <a href="/blog/essential-elements-of-an-invoice">essential element</a>: unique invoice number, dates, business details, line items with clear descriptions, tax, total, and payment instructions. Creating invoices like this is effortless with <a href="/free-invoice-generator">Invoicemonk's free invoice generator</a>.</p>
+<p>Notice how this example includes every <a href="/blog/essential-elements-of-an-invoice">essential element</a>: unique invoice number, dates, business details, line items with clear descriptions, tax, total, and payment instructions. Creating invoices like this is effortless with <a href="/invoicing">Invoicemonk's free invoice generator</a>.</p>
 
 <h2>The Invoice Lifecycle: How Invoicing Actually Works</h2>
 <p>Understanding the full invoice lifecycle helps you see where invoices fit in the business transaction process:</p>
@@ -15184,7 +15182,7 @@ Thank you for your business!
 <p>You have several options for creating invoices, from free to full-featured:</p>
 
 <h3>Option 1: Free Invoice Generator</h3>
-<p>Tools like <a href="/free-invoice-generator">Invoicemonk's free invoice generator</a> let you create professional PDF invoices in under 2 minutes with no signup required. Perfect for your first invoice or occasional use.</p>
+<p>Tools like <a href="/invoicing">Invoicemonk's free invoice generator</a> let you create professional PDF invoices in under 2 minutes with no signup required. Perfect for your first invoice or occasional use.</p>
 
 <h3>Option 2: Manual Templates</h3>
 <ul>
@@ -15401,7 +15399,7 @@ Thank you for your business!
 <h2>Start Creating Professional Invoices</h2>
 <p>Understanding what an invoice is marks the first step toward professional business practices. Whether you're a freelancer sending your first invoice or a growing business looking to streamline billing, getting invoicing right impacts your cash flow, client relationships, and business success.</p>
 
-<p>Ready to create your first invoice? <a href="/free-invoice-generator">Invoicemonk's free invoice generator</a> lets you create a professional PDF invoice in under 2 minutes — no signup required. For ongoing invoicing with payment tracking, reminders, and accounting integration, <a href="/invoicing">try the full platform free</a>.</p>
+<p>Ready to create your first invoice? <a href="/invoicing">Invoicemonk's free invoice generator</a> lets you create a professional PDF invoice in under 2 minutes — no signup required. For ongoing invoicing with payment tracking, reminders, and accounting integration, <a href="/invoicing">try the full platform free</a>.</p>
 
 <h2>Learn More About Invoicing</h2>
 <p>Continue building your invoicing knowledge:</p>
@@ -15432,8 +15430,8 @@ Thank you for your business!
     ],
     relatedTools: [
           {
-                "label": "Free Invoice Generator",
-                "url": "/free-invoice-generator",
+                "label": "Invoicemonk Invoicing",
+                "url": "/invoicing",
                 "description": "Create tax-compliant invoices with VAT/GST fields."
           },
           {
@@ -15469,9 +15467,7 @@ Thank you for your business!
       { name: 'Freelancer', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Freelancer' }
     ],
     relatedTools: [
-      { label: 'Estimates & Quotes', url: '/estimates', description: 'Create professional estimates that convert to invoices with one click.' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Generate invoices from accepted estimates instantly.' }
-    ],
+      { label: 'Estimates & Quotes', url: '/estimates', description: 'Create professional estimates that convert to invoices with one click.' },    ],
     faq: [
       { question: 'What features should freelancer estimate software have?', answer: 'Essential features include customisable templates, itemised line items with quantities and rates, estimate-to-invoice conversion, client approval tracking, multi-currency support, and the ability to add terms and conditions. Optional nice-to-haves include digital signatures, estimate expiry dates, and version history.' },
       { question: 'How do I convert an estimate to an invoice?', answer: 'With Invoicemonk, once a client accepts your estimate, you can convert it to an invoice with a single click. All line items, pricing, and client details carry over automatically — no re-typing required. This saves time and eliminates data-entry errors.' },
@@ -15779,9 +15775,7 @@ Thank you for your business!
       { name: 'Invoice', type: 'Thing', sameAs: 'https://en.wikipedia.org/wiki/Invoice' }
     ],
     relatedTools: [
-      { label: 'Expense Tracking', url: '/expenses', description: 'Track expenses alongside invoicing for free.' },
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Generate unlimited invoices at no cost.' }
-    ],
+      { label: 'Expense Tracking', url: '/expenses', description: 'Track expenses alongside invoicing for free.' },    ],
     faq: [
       { question: 'Which expense tracking software includes free invoicing?', answer: 'Invoicemonk and Wave both offer free tiers that include both expense tracking and invoicing. Invoicemonk stands out with multi-currency support, tax compliance features, and built-in accounting on its free plan — features Wave restricts or doesn\'t offer.' },
       { question: 'What are the limitations of free expense tracking tools?', answer: 'Common limitations include client caps (e.g., FreshBooks limits billable clients), restricted receipt scanning, no multi-currency support, limited reporting, and no bank feed integration. Invoicemonk\'s free tier avoids most of these restrictions.' },

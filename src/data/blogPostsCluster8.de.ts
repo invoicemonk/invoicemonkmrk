@@ -907,7 +907,7 @@ const posts: BlogPost[] = [
       <p>Wichtig: Digitale Rechnungen müssen die gleichen inhaltlichen Anforderungen erfüllen wie Papierrechnungen — vollständiger Firmenname, Steuernummer, fortlaufende Nummer, etc.</p>
 
       <h2>Hybrider Ansatz</h2>
-      <p>Viele Unternehmen nutzen einen hybriden Ansatz: Digitale Rechnungen als Standard, mit der Option, bei Bedarf eine Papierversion zu erstellen. <a href="/free-invoice-generator">Invoicemonks kostenloser Rechnungsgenerator</a> erstellt professionelle PDFs, die Sie digital versenden oder bei Bedarf ausdrucken können.</p>
+      <p>Viele Unternehmen nutzen einen hybriden Ansatz: Digitale Rechnungen als Standard, mit der Option, bei Bedarf eine Papierversion zu erstellen. <a href="/invoicing">Invoicemonks kostenloser Rechnungsgenerator</a> erstellt professionelle PDFs, die Sie digital versenden oder bei Bedarf ausdrucken können.</p>
 
       <h2>Vergleichstabelle</h2>
       <table>

@@ -34,6 +34,10 @@ export const currencies: Currency[] = [
   { code: 'NGN', name: 'Nigerian Naira', symbol: '₦' },
   { code: 'CAD', name: 'Canadian Dollar', symbol: 'CA$' },
   { code: 'AUD', name: 'Australian Dollar', symbol: 'A$' },
+  { code: 'INR', name: 'Indian Rupee', symbol: '₹' },
+  { code: 'KES', name: 'Kenyan Shilling', symbol: 'KSh' },
+  { code: 'GHS', name: 'Ghanaian Cedi', symbol: 'GH₵' },
+  { code: 'ZAR', name: 'South African Rand', symbol: 'R' },
 ];
 
 export const countries: Country[] = [
@@ -46,9 +50,10 @@ export const countries: Country[] = [
   { code: 'AU', name: 'Australia', currency: 'AUD', region: 'Oceania' },
   { code: 'NL', name: 'Netherlands', currency: 'EUR', region: 'Europe' },
   { code: 'IE', name: 'Ireland', currency: 'EUR', region: 'Europe' },
-  { code: 'GH', name: 'Ghana', currency: 'USD', region: 'Africa' },
-  { code: 'KE', name: 'Kenya', currency: 'USD', region: 'Africa' },
-  { code: 'ZA', name: 'South Africa', currency: 'USD', region: 'Africa' },
+  { code: 'GH', name: 'Ghana', currency: 'GHS', region: 'Africa' },
+  { code: 'KE', name: 'Kenya', currency: 'KES', region: 'Africa' },
+  { code: 'ZA', name: 'South Africa', currency: 'ZAR', region: 'Africa' },
+  { code: 'IN', name: 'India', currency: 'INR', region: 'Asia' },
 ];
 
 export const feeModels: FeeModel[] = [
@@ -57,7 +62,7 @@ export const feeModels: FeeModel[] = [
     name: 'Wise',
     description: 'Low-cost transfers using the mid-market exchange rate with transparent, upfront fees.',
     baseFeePercent: 0.6,
-    fixedFee: { USD: 0, GBP: 0, EUR: 0, NGN: 0, CAD: 0, AUD: 0 },
+    fixedFee: { USD: 0, GBP: 0, EUR: 0, NGN: 0, CAD: 0, AUD: 0, INR: 0, KES: 0, GHS: 0, ZAR: 0 },
     estimatedFxSpreadPercent: 0,
     processingTime: '1–2 business days',
     processingDays: [1, 2],
@@ -69,7 +74,7 @@ export const feeModels: FeeModel[] = [
     name: 'PayPal',
     description: 'Widely accepted with instant transfers, but higher fees and unfavourable exchange rates.',
     baseFeePercent: 4.49,
-    fixedFee: { USD: 0.49, GBP: 0.39, EUR: 0.39, NGN: 150, CAD: 0.59, AUD: 0.59 },
+    fixedFee: { USD: 0.49, GBP: 0.39, EUR: 0.39, NGN: 150, CAD: 0.59, AUD: 0.59, INR: 30, KES: 50, GHS: 5, ZAR: 8 },
     estimatedFxSpreadPercent: 3.5,
     processingTime: 'Instant to 1 day',
     processingDays: [0, 1],
@@ -81,7 +86,7 @@ export const feeModels: FeeModel[] = [
     name: 'Bank Transfer (SWIFT)',
     description: 'Traditional wire transfers through the banking network. Reliable but slow with hidden FX markups.',
     baseFeePercent: 0,
-    fixedFee: { USD: 35, GBP: 25, EUR: 30, NGN: 5000, CAD: 35, AUD: 30 },
+    fixedFee: { USD: 35, GBP: 25, EUR: 30, NGN: 5000, CAD: 35, AUD: 30, INR: 1500, KES: 2500, GHS: 200, ZAR: 350 },
     estimatedFxSpreadPercent: 3.0,
     processingTime: '3–5 business days',
     processingDays: [3, 5],
@@ -93,7 +98,7 @@ export const feeModels: FeeModel[] = [
     name: 'Card Payment',
     description: 'Accept payments via credit or debit card through a payment processor. Fast but with processing fees.',
     baseFeePercent: 2.9,
-    fixedFee: { USD: 0.30, GBP: 0.20, EUR: 0.25, NGN: 100, CAD: 0.30, AUD: 0.30 },
+    fixedFee: { USD: 0.30, GBP: 0.20, EUR: 0.25, NGN: 100, CAD: 0.30, AUD: 0.30, INR: 25, KES: 35, GHS: 4, ZAR: 6 },
     estimatedFxSpreadPercent: 1.5,
     processingTime: 'Instant',
     processingDays: [0, 0],
@@ -188,6 +193,17 @@ export const keyCorridor = [
   { currency: 'usd', country: 'australia', sendCurrency: 'USD', receiveCurrency: 'AUD', countryName: 'Australia' },
   { currency: 'gbp', country: 'us', sendCurrency: 'GBP', receiveCurrency: 'USD', countryName: 'United States' },
   { currency: 'eur', country: 'us', sendCurrency: 'EUR', receiveCurrency: 'USD', countryName: 'United States' },
+  // Africa cluster expansion
+  { currency: 'usd', country: 'kenya', sendCurrency: 'USD', receiveCurrency: 'KES', countryName: 'Kenya' },
+  { currency: 'gbp', country: 'kenya', sendCurrency: 'GBP', receiveCurrency: 'KES', countryName: 'Kenya' },
+  { currency: 'usd', country: 'ghana', sendCurrency: 'USD', receiveCurrency: 'GHS', countryName: 'Ghana' },
+  { currency: 'gbp', country: 'ghana', sendCurrency: 'GBP', receiveCurrency: 'GHS', countryName: 'Ghana' },
+  { currency: 'usd', country: 'south-africa', sendCurrency: 'USD', receiveCurrency: 'ZAR', countryName: 'South Africa' },
+  { currency: 'gbp', country: 'south-africa', sendCurrency: 'GBP', receiveCurrency: 'ZAR', countryName: 'South Africa' },
+  // India (high-intent freelancer corridor)
+  { currency: 'usd', country: 'india', sendCurrency: 'USD', receiveCurrency: 'INR', countryName: 'India' },
+  { currency: 'gbp', country: 'india', sendCurrency: 'GBP', receiveCurrency: 'INR', countryName: 'India' },
+  { currency: 'eur', country: 'india', sendCurrency: 'EUR', receiveCurrency: 'INR', countryName: 'India' },
 ];
 
 export function getCorridorData(currency: string, country: string) {

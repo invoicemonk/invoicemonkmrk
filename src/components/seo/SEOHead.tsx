@@ -59,15 +59,20 @@ export function SEOHead({
     '/creatives', '/small-businesses',
     '/compliance', '/pricing', '/about', '/contact',
     '/why-invoicemonk', '/developer', '/explore',
-    '/free-invoice-generator',
     '/compare', '/best-invoicing-software',
     '/use-cases', '/guides', '/tools', '/partner-program',
     '/privacy-policy', '/terms-of-service', '/cookie-policy', '/legal',
   ];
 
+  const countryBlogKeywords = [
+    'nigeria', 'india', 'kenya', 'uk', 'saudi', 'malaysia',
+    'germany', 'italy', 'ghana', 'south-africa', 'australia', 'canada',
+    'france', 'belgium', 'brazil', 'spain', 'poland', 'mexico',
+    'colombia', 'romania', 'hungary', 'serbia', 'bulgaria', 'chile', 'albania',
+  ];
+
   // Country-specific pages that exist in English only — override canonical to /en/
   const englishOnlyPatterns = [
-    /^\/free-invoice-generator-(australia|india|nigeria|kenya|uk|saudi-arabia|malaysia|canada|ghana|south-africa)$/,
     /^\/compare\/(best-invoicing-software|wave-alternative)-(nigeria|india|kenya|uk|saudi-arabia|malaysia|australia|canada|ghana|south-africa)$/,
     /^\/receive-.+-cost$/,
     /^\/international-payment-fee-calculator$/,
@@ -77,7 +82,7 @@ export function SEOHead({
     /^\/docs\/api$/,
     /^\/legal\/sla$/,
     // Country-specific blog posts (English-only content)
-    /^\/blog\/.*(?:nigeria|india|kenya|uk|saudi|malaysia|germany|italy|ghana|south-africa|australia|canada).*$/,
+    new RegExp(`^/blog/.*(?:${countryBlogKeywords.join('|')}).*$`),
   ];
   const isEnglishOnlyPage = englishOnlyPatterns.some(p => p.test(relPath));
 

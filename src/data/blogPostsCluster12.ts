@@ -121,7 +121,7 @@ export const cluster12Posts: BlogPost[] = [
       <h2>How Do UK Businesses Comply With MTD? (Step-by-Step)</h2>
       <ol>
         <li><strong>Check your VAT registration status</strong> — if turnover exceeds £90,000, you must be registered and using MTD-compatible software</li>
-        <li><strong>Choose MTD-compatible invoicing software</strong> — it must connect to HMRC via API. <a href="/free-invoice-generator">Invoicemonk</a> supports UK VAT invoicing with correct 20% rate, GBP formatting, and all mandatory fields</li>
+        <li><strong>Choose MTD-compatible invoicing software</strong> — it must connect to HMRC via API. <a href="/invoicing">Invoicemonk</a> supports UK VAT invoicing with correct 20% rate, GBP formatting, and all mandatory fields</li>
         <li><strong>Set up digital record keeping</strong> — all sales and purchase records must be stored digitally with digital links between systems</li>
         <li><strong>Submit quarterly VAT returns via software</strong> — not through the HMRC portal</li>
         <li><strong>Prepare for MTD for ITSA</strong> — if you're self-employed with income above £50,000, you'll need quarterly digital submissions from April 2026</li>
@@ -157,7 +157,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>If in construction (CIS): ensure your software handles <a href="/blog/tax-compliant-invoice-uk">reverse charge invoicing</a></li>
         <li>For all businesses: start using structured invoicing software now so the transition to mandatory e-invoicing is seamless</li>
       </ul>
-      <p><a href="/free-invoice-generator">Create a UK-compliant invoice for free →</a></p>
+      <p><a href="/invoicing">Create a UK-compliant invoice for free →</a></p>
     `,
   },
 
@@ -215,7 +215,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>How Invoicemonk Supports UK Businesses</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk</a> helps UK businesses create compliant invoices with:</p>
+      <p><a href="/invoicing">Invoicemonk</a> helps UK businesses create compliant invoices with:</p>
       <ul>
         <li>Automatic 20% VAT calculation when GBP is selected</li>
         <li>All mandatory HMRC invoice fields built in</li>
@@ -228,7 +228,7 @@ export const cluster12Posts: BlogPost[] = [
 
       <h2>Preparing for MTD for Income Tax</h2>
       <p>If you're self-employed with income above £50,000, <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">MTD for ITSA launches in April 2026</a>. This means quarterly digital submissions — making it even more important to have your invoicing and record-keeping software set up correctly now.</p>
-      <p><a href="/free-invoice-generator">Create a compliant UK invoice for free →</a></p>
+      <p><a href="/invoicing">Create a compliant UK invoice for free →</a></p>
     `,
   },
 
@@ -316,7 +316,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Create HMRC-Compliant Invoices</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk's free invoice generator</a> includes all mandatory UK fields, automatic 20% VAT calculation, and professional formatting that meets HMRC standards. <a href="/free-invoice-generator">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk's free invoice generator</a> includes all mandatory UK fields, automatic 20% VAT calculation, and professional formatting that meets HMRC standards. <a href="/invoicing">Try it free →</a></p>
     `,
   },
 
@@ -376,7 +376,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>You regularly purchase goods or services with significant VAT amounts</li>
         <li>Your clients are mainly VAT-registered businesses (no advantage to you)</li>
       </ul>
-      <p><a href="/free-invoice-generator">Create a UK VAT invoice with Invoicemonk →</a></p>
+      <p><a href="/invoicing">Create a UK VAT invoice with Invoicemonk →</a></p>
     `,
   },
 
@@ -461,7 +461,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create CIS-Compliant Invoices</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk</a> supports reverse charge invoicing with the mandatory statement, correct formatting, and VAT calculation. <a href="/free-invoice-generator">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> supports reverse charge invoicing with the mandatory statement, correct formatting, and VAT calculation. <a href="/invoicing">Try it free →</a></p>
     `,
   },
 
@@ -560,7 +560,7 @@ export const cluster12Posts: BlogPost[] = [
 
       <h2>The Bigger Picture: UK E-Invoicing</h2>
       <p>MTD is step one. Step two is likely <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">mandatory e-invoicing via the Peppol network</a>. The government's Tax Administration Framework Review has laid the groundwork, and alignment with EU standards (EN 16931) is expected. Businesses that adopt digital invoicing now will have a smoother transition when B2B e-invoicing becomes mandatory.</p>
-      <p><a href="/free-invoice-generator">Start with compliant digital invoicing today →</a></p>
+      <p><a href="/invoicing">Start with compliant digital invoicing today →</a></p>
     `,
   },
 
@@ -709,7 +709,7 @@ export const cluster12Posts: BlogPost[] = [
       <p>Saudi Arabia's system is among the most technically demanding, requiring cryptographic stamps and near-real-time API clearing.</p>
 
       <h2>Next Steps</h2>
-      <p>If you're a business operating in Saudi Arabia, start preparing now. <a href="/free-invoice-generator">Invoicemonk</a> supports SAR invoicing with VAT at 15%, all mandatory fields, and professional formatting. <a href="/free-invoice-generator">Create a compliant Saudi invoice →</a></p>
+      <p>If you're a business operating in Saudi Arabia, start preparing now. <a href="/invoicing">Invoicemonk</a> supports SAR invoicing with VAT at 15%, all mandatory fields, and professional formatting. <a href="/invoicing">Create a compliant Saudi invoice →</a></p>
     `,
   },
 
@@ -808,7 +808,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Getting Started</h2>
-      <p>While full Phase 2 API integration requires technical implementation, you can start creating <a href="/blog/e-invoicing-saudi-zatca-fatoorah">ZATCA-compliant invoices</a> today with the right invoicing software. <a href="/free-invoice-generator">Create a Saudi VAT invoice →</a></p>
+      <p>While full Phase 2 API integration requires technical implementation, you can start creating <a href="/blog/e-invoicing-saudi-zatca-fatoorah">ZATCA-compliant invoices</a> today with the right invoicing software. <a href="/invoicing">Create a Saudi VAT invoice →</a></p>
     `,
   },
 
@@ -909,7 +909,7 @@ export const cluster12Posts: BlogPost[] = [
 
       <h2>Testing in the ZATCA Sandbox</h2>
       <p>Before going live, test your implementation against ZATCA's sandbox API. The sandbox validates your XML structure, QR code encoding, and cryptographic stamps without affecting real tax records.</p>
-      <p>For businesses not yet required to integrate via API, <a href="/free-invoice-generator">Invoicemonk</a> generates Phase 1-compliant invoices with all mandatory fields and SAR formatting. <a href="/free-invoice-generator">Create a Saudi invoice →</a></p>
+      <p>For businesses not yet required to integrate via API, <a href="/invoicing">Invoicemonk</a> generates Phase 1-compliant invoices with all mandatory fields and SAR formatting. <a href="/invoicing">Create a Saudi invoice →</a></p>
     `,
   },
 
@@ -1000,7 +1000,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create Saudi-Compliant Invoices</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk</a> supports Saudi Arabia with 15% VAT calculation, SAR currency, all mandatory fields, and professional formatting. <a href="/free-invoice-generator">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> supports Saudi Arabia with 15% VAT calculation, SAR currency, all mandatory fields, and professional formatting. <a href="/invoicing">Try it free →</a></p>
     `,
   },
 
@@ -1075,7 +1075,7 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>Train your staff</strong> — ensure everyone who issues invoices understands the requirements</li>
         <li><strong>Monitor ZATCA announcements</strong> — rules and wave dates update regularly</li>
       </ol>
-      <p>Start with the basics: <a href="/free-invoice-generator">create compliant Saudi invoices with Invoicemonk →</a></p>
+      <p>Start with the basics: <a href="/invoicing">create compliant Saudi invoices with Invoicemonk →</a></p>
     `,
   },
 
@@ -1215,7 +1215,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Next Steps</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk</a> supports Malaysian ringgit (MYR) invoicing with SST calculations and all mandatory fields. <a href="/free-invoice-generator">Create a compliant Malaysian invoice →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> supports Malaysian ringgit (MYR) invoicing with SST calculations and all mandatory fields. <a href="/invoicing">Create a compliant Malaysian invoice →</a></p>
     `,
   },
 
@@ -1308,7 +1308,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Start Preparing Today</h2>
-      <p>Don't wait until the last month. <a href="/free-invoice-generator">Create MyInvois-ready invoices with Invoicemonk</a> — supporting MYR, SST calculations, and all mandatory fields. <a href="/free-invoice-generator">Try it free →</a></p>
+      <p>Don't wait until the last month. <a href="/invoicing">Create MyInvois-ready invoices with Invoicemonk</a> — supporting MYR, SST calculations, and all mandatory fields. <a href="/invoicing">Try it free →</a></p>
     `,
   },
 
@@ -1418,7 +1418,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>Verify error handling in your system</li>
         <li>Train your team on the new workflow</li>
       </ul>
-      <p>For businesses not yet ready for API integration, <a href="/free-invoice-generator">Invoicemonk</a> generates MyInvois-ready invoices with all mandatory fields. <a href="/free-invoice-generator">Try it free →</a></p>
+      <p>For businesses not yet ready for API integration, <a href="/invoicing">Invoicemonk</a> generates MyInvois-ready invoices with all mandatory fields. <a href="/invoicing">Try it free →</a></p>
     `,
   },
 
@@ -1519,7 +1519,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create SST-Compliant Invoices</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk</a> supports Malaysian ringgit with SST calculations, all mandatory fields, and professional formatting. <a href="/free-invoice-generator">Create a compliant Malaysian invoice →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> supports Malaysian ringgit with SST calculations, all mandatory fields, and professional formatting. <a href="/invoicing">Create a compliant Malaysian invoice →</a></p>
     `,
   },
 
@@ -1568,7 +1568,7 @@ export const cluster12Posts: BlogPost[] = [
       <p><strong>Best for:</strong> Businesses issuing fewer than 10–20 invoices per month. It's free but time-consuming — you're essentially re-typing your invoice into a government website.</p>
 
       <h3>Option 2: Use Invoicing Software with MyInvois Support</h3>
-      <p>Tools like <a href="/free-invoice-generator">Invoicemonk</a> let you create professional invoices with all mandatory fields, then either:</p>
+      <p>Tools like <a href="/invoicing">Invoicemonk</a> let you create professional invoices with all mandatory fields, then either:</p>
       <ul>
         <li>Export the data for manual submission to the portal, or</li>
         <li>Use software that integrates directly via API (automated submission)</li>
@@ -1607,7 +1607,7 @@ export const cluster12Posts: BlogPost[] = [
       <p>That's it. Four weeks. Don't overthink it.</p>
 
       <h2>Get Started Today</h2>
-      <p><a href="/free-invoice-generator">Invoicemonk</a> helps you create professional, compliant Malaysian invoices with all mandatory fields. It's free, requires no signup, and supports MYR with SST calculations. <a href="/free-invoice-generator">Create your first compliant invoice →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> helps you create professional, compliant Malaysian invoices with all mandatory fields. It's free, requires no signup, and supports MYR with SST calculations. <a href="/invoicing">Create your first compliant invoice →</a></p>
     `,
   },
 ];

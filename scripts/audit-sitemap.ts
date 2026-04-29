@@ -15,6 +15,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE_URL = 'https://invoicemonk.com';
+const BLOG_CLUSTER_RANGE = { start: 9, end: 19 };
 
 function readSitemap(): string {
   return fs.readFileSync(path.join(__dirname, '../public/sitemap.xml'), 'utf-8');
@@ -28,6 +29,10 @@ function extractSlugsFromFile(filePath: string): string[] {
     const slug = match.match(/['"]([^'"]+)['"]/);
     return slug ? slug[1] : '';
   }).filter(Boolean);
+}
+
+function unique(items: string[]): string[] {
+  return Array.from(new Set(items.filter(Boolean)));
 }
 
 function extractSitemapUrls(sitemap: string, pattern: RegExp): string[] {
@@ -70,17 +75,22 @@ function main() {
   const sitemap = readSitemap();
 
   // 1. Blog posts
-  const blogSlugs = extractSlugsFromFile('../src/data/blogPosts.ts');
-  const sitemapBlogSlugs = (sitemap.match(/<loc>https:\/\/invoicemonk\.com\/blog\/([^<]+)<\/loc>/g) || [])
-    .map(m => { const s = m.match(/\/blog\/([^<]+)/); return s ? s[1] : ''; })
-    .filter(s => s && !s.startsWith('author/') && !s.startsWith('topic/'));
+  const blogSlugs = unique([
+    ...extractSlugsFromFile('../src/data/blogPosts.ts'),
+    ...Array.from({ length: BLOG_CLUSTER_RANGE.end - BLOG_CLUSTER_RANGE.start + 1 }, (_, i) =>
+      extractSlugsFromFile(`../src/data/blogPostsCluster${BLOG_CLUSTER_RANGE.start + i}.ts`)
+    ).flat(),
+  ]);
+  const sitemapBlogSlugs = unique((sitemap.match(/<loc>https:\/\/invoicemonk\.com\/en\/blog\/([^<]+)<\/loc>/g) || [])
+    .map(m => { const s = m.match(/\/en\/blog\/([^<]+)/); return s ? s[1] : ''; })
+    .filter(s => s && !s.startsWith('author/') && !s.startsWith('topic/')));
   const blogResult = auditCategory('Blog Posts', blogSlugs, sitemapBlogSlugs);
 
   // 2. Help articles
   const helpSlugs = extractSlugsFromFile('../src/data/helpGuides.ts');
-  const sitemapHelpSlugs = (sitemap.match(/<loc>https:\/\/invoicemonk\.com\/help\/([^<]+)<\/loc>/g) || [])
-    .map(m => { const s = m.match(/\/help\/([^<]+)/); return s ? s[1] : ''; })
-    .filter(Boolean);
+  const sitemapHelpSlugs = unique((sitemap.match(/<loc>https:\/\/invoicemonk\.com\/en\/help\/([^<]+)<\/loc>/g) || [])
+    .map(m => { const s = m.match(/\/en\/help\/([^<]+)/); return s ? s[1] : ''; })
+    .filter(Boolean));
   const helpResult = auditCategory('Help Articles', helpSlugs, sitemapHelpSlugs);
 
   // 3. Corridor pages
@@ -91,9 +101,9 @@ function main() {
   while ((match = corridorRegex.exec(feeContent)) !== null) {
     corridorSlugs.push(`receive-${match[1]}-in-${match[2]}-cost`);
   }
-  const sitemapCorridorSlugs = (sitemap.match(/<loc>https:\/\/invoicemonk\.com\/receive-[^<]+-cost<\/loc>/g) || [])
-    .map(m => { const s = m.match(/\.com\/([^<]+)/); return s ? s[1] : ''; })
-    .filter(Boolean);
+  const sitemapCorridorSlugs = unique((sitemap.match(/<loc>https:\/\/invoicemonk\.com\/en\/receive-[^<]+-cost<\/loc>/g) || [])
+    .map(m => { const s = m.match(/\.com\/en\/([^<]+)/); return s ? s[1] : ''; })
+    .filter(Boolean));
   const corridorResult = auditCategory('Currency Corridors', corridorSlugs, sitemapCorridorSlugs);
 
   // Summary

@@ -190,7 +190,7 @@ function genVatFormat(c: CC): BlogPost {
       <h2>Erreurs courantes</h2>
       <ul><li>${c.taxId} manquant</li><li>Pas de mention « Facture fiscale »</li><li>Taux ${c.taxType} obsolètes</li><li>${c.taxType} intégrée sans ventilation</li></ul>
       <h2>Modèles gratuits</h2>
-      <p><a href="/free-invoice-generator">Générateur de factures gratuit</a> avec tous les champs ${c.authority}.</p>
+      <p><a href="/invoicing">Générateur de factures gratuit</a> avec tous les champs ${c.authority}.</p>
     `,
   };
 }

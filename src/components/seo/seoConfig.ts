@@ -128,20 +128,6 @@ export const pageSEO: Record<string, PageSEO> = {
     priority: 0.8,
     changefreq: 'weekly',
   },
-  '/free-invoice-generator': {
-    getTitle: () => `Free Tax-Compliant Invoice Generator — GST, VAT & Multi-Currency PDF | Invoicemonk`,
-    getDescription: () => `Create professional invoices with built-in GST/VAT tax fields, per-item tax rates, and 10 currency profiles. 6 templates, logo upload, PDF download — 100% free, no signup.`,
-    ogType: 'website',
-    priority: 0.9,
-    changefreq: 'weekly',
-  },
-  '/free-invoice-generator-australia': {
-    getTitle: () => 'Free Invoice Generator Australia — ATO-Compliant | No Signup | Invoicemonk',
-    getDescription: () => 'Create ATO-compliant tax invoices with ABN, GST, and BAS-ready formatting. Free, no signup required. The best atoinvoice alternative for Australian freelancers and small businesses.',
-    ogType: 'website',
-    priority: 0.8,
-    changefreq: 'weekly',
-  },
   '/developer': {
     getTitle: () => 'Developer API | Invoicemonk',
     getDescription: () => 'Integrate Invoicemonk into your applications with our developer API. Full documentation and SDKs available.',
@@ -295,13 +281,6 @@ export const pageSEO: Record<string, PageSEO> = {
     ogType: 'website',
     priority: 0.7,
     changefreq: 'monthly',
-  },
-  '/free-invoice-generator-india': {
-    getTitle: () => 'Free GST Invoice Generator India — CGST, SGST, IGST | No Signup | Invoicemonk',
-    getDescription: () => 'Create GST-compliant invoices with GSTIN, HSN codes, and CGST/SGST/IGST calculations. Free atoinvoice alternative for Indian businesses. No signup required.',
-    ogType: 'website',
-    priority: 0.8,
-    changefreq: 'weekly',
   },
   '/best-invoicing-software': {
     getTitle: () => '7 Best Invoicing Software 2026 — Tested for 30 Days Each (Honest Review)',

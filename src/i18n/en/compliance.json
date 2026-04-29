@@ -38,21 +38,9 @@
       "title": "Invoice Reference Numbers",
       "description": "Unique IRN assigned to every invoice for end-to-end traceability."
     },
-    "hashChain": {
-      "title": "Hash-Chained Records",
-      "description": "Every record links cryptographically to the one before it, making silent tampering mathematically detectable."
-    },
-    "identityLevels": {
-      "title": "Business Identity Levels",
-      "description": "Progress from self-declared to verified business identity. Higher tiers unlock stronger trust signals on your invoices."
-    },
-    "versionedTaxSchemas": {
-      "title": "Versioned Tax Schemas",
-      "description": "Tax rules are versioned per jurisdiction. When regulations change, your historical records still reflect the rules in force at issue time."
-    },
-    "retentionPolicies": {
-      "title": "Retention Policies",
-      "description": "Records are locked for the retention period required by your jurisdiction — typically 5–10 years — and cannot be deleted before then."
+    "roleBasedAccess": {
+      "title": "Role-Based Access",
+      "description": "Assign Finance, Sales, and Executive roles with appropriate permissions."
     }
   },
   "faqs": {

@@ -31,9 +31,7 @@ export const cluster13Posts: BlogPost[] = [
       { question: 'Can I use a proforma invoice for customs clearance?', answer: 'In some cases, customs authorities accept proforma invoices for pre-clearance or temporary imports. However, most countries require a commercial invoice for final customs clearance and duty calculation. Always check your destination country\'s requirements.' },
       { question: 'Do proforma invoices need an invoice number?', answer: 'Yes. Assign a unique proforma invoice number (e.g., PI-2026-001) separate from your commercial invoice numbering sequence. This avoids confusion in your accounting records and helps track which proformas convert to actual sales.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create professional proforma and commercial invoices' },
-      { label: 'Invoice Templates', url: '/invoice-templates', description: 'Professional templates for every invoice type' },
+    relatedTools: [      { label: 'Invoice Templates', url: '/invoice-templates', description: 'Professional templates for every invoice type' },
     ],
     content: `
 <p><strong>If you sell internationally — or even domestically to new clients — you'll encounter both proforma invoices and commercial invoices.</strong> They look similar, but serve fundamentally different purposes. Using the wrong one can delay payments, cause customs problems, or create accounting headaches.</p>
@@ -125,7 +123,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Not converting proformas to commercial invoices</strong> — if you deliver the goods, always issue the final commercial invoice for proper tax reporting</li>
 </ul>
 
-<p>Create both proforma and commercial invoices with <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a>. For more on invoice types, see our <a href="/__LANG__/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>
+<p>Create both proforma and commercial invoices with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For more on invoice types, see our <a href="/__LANG__/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>
     `
   },
 
@@ -153,9 +151,7 @@ export const cluster13Posts: BlogPost[] = [
       { question: 'Can I just delete an invoice instead of issuing a credit note?', answer: 'No. Once an invoice has been issued (especially if it has been sent to the client or reported for tax purposes), you must never delete it. Issue a credit note to reverse the charge. Deleting invoices creates gaps in your numbering sequence and violates tax regulations in most countries.' },
       { question: 'Do credit notes need their own numbering sequence?', answer: 'Yes. Credit notes should have a separate sequential numbering system (e.g., CN-2026-001) distinct from your invoice numbers. Each credit note must reference the original invoice number it relates to.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create invoices and manage corrections professionally' },
-    ],
+    relatedTools: [    ],
     content: `
 <p><strong>Mistakes happen.</strong> You overcharged a client, shipped the wrong item, or a customer returned a product. The professional way to handle it? Issue a credit note. Not a casual email saying "ignore that invoice" — a proper, numbered document that keeps your books clean and your tax filings accurate.</p>
 
@@ -249,7 +245,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>No reference to original invoice</strong> — auditors need to trace the credit note back to the original transaction</li>
 </ol>
 
-<p>Manage invoices and credit notes professionally with <a href="/__LANG__/free-invoice-generator">Invoicemonk</a>. For more on invoice fundamentals, read our <a href="/__LANG__/blog/how-to-write-an-invoice-step-by-step">step-by-step invoice writing guide</a>.</p>
+<p>Manage invoices and credit notes professionally with <a href="/__LANG__/invoicing">Invoicemonk</a>. For more on invoice fundamentals, read our <a href="/__LANG__/blog/how-to-write-an-invoice-step-by-step">step-by-step invoice writing guide</a>.</p>
     `
   },
 
@@ -277,9 +273,7 @@ export const cluster13Posts: BlogPost[] = [
       { question: 'Can I charge interest on overdue invoices?', answer: 'Yes, if your payment terms include a late payment clause. Common rates are 1-2% per month. In the UK, the Late Payment of Commercial Debts Act allows 8% + Bank of England base rate. In the EU, Directive 2011/7/EU sets minimum late payment interest. Include the clause on your original invoice to enforce it.' },
       { question: 'Should I stop working for a client with unpaid invoices?', answer: 'Yes, after a reasonable follow-up period (typically 14-30 days overdue). Include a "suspension of services" clause in your contracts and payment terms. Notify the client in writing that work will pause until the outstanding balance is cleared.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create professional invoices with clear payment terms' },
-      { label: 'Payment Terms Guide', url: '/blog/payment-terms-guide-net-30-explained', description: 'Set terms that get you paid on time' },
+    relatedTools: [      { label: 'Payment Terms Guide', url: '/blog/payment-terms-guide-net-30-explained', description: 'Set terms that get you paid on time' },
     ],
     content: `
 <p><strong>An unpaid invoice doesn't just hurt your cash flow — it creates stress, damages relationships, and wastes time you could spend on actual work.</strong> But most freelancers and small business owners hate chasing payments because it feels awkward, confrontational, or desperate.</p>
@@ -378,7 +372,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Don't ignore it</strong> — the longer you wait, the harder it gets to collect</li>
 </ul>
 
-<p>Set clear payment terms on every invoice with <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a>. For payment term strategies, read our <a href="/__LANG__/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>
+<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For payment term strategies, read our <a href="/__LANG__/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>
     `
   },
 
@@ -405,9 +399,7 @@ export const cluster13Posts: BlogPost[] = [
       { question: 'What is the difference between a proforma invoice and a quote?', answer: 'A proforma invoice is formatted like an invoice and often used in international trade for customs and banking purposes. A quote is typically less formal and used domestically. In practice, many businesses use proforma invoices as formal quotes — the key difference is that proforma invoices follow invoice formatting standards and are accepted by banks and customs officials.' },
       { question: 'Should I include tax on a proforma invoice?', answer: 'Yes. Include estimated taxes (VAT, GST, duties) so the buyer has an accurate picture of the total cost. For international trade, show the applicable taxes for the buyer\'s country or note "taxes to be determined by customs" if exact duties are unknown.' },
     ],
-    relatedTools: [
-      { label: 'Free Invoice Generator', url: '/free-invoice-generator', description: 'Create proforma invoices in minutes' },
-      { label: 'Proforma vs Commercial Invoice', url: '/blog/proforma-invoice-vs-commercial-invoice', description: 'Understand the key differences' },
+    relatedTools: [      { label: 'Proforma vs Commercial Invoice', url: '/blog/proforma-invoice-vs-commercial-invoice', description: 'Understand the key differences' },
     ],
     content: `
 <p><strong>A proforma invoice is one of the most useful — and most misunderstood — business documents.</strong> It's not a demand for payment. It's a formal commitment to deliver goods or services at a stated price. And if you sell internationally, banks and customs authorities expect to see one.</p>
@@ -512,7 +504,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Use consistent formatting</strong> — your proforma should look as professional as your commercial invoices</li>
 </ol>
 
-<p>Create professional proforma invoices in minutes with <a href="/__LANG__/free-invoice-generator">Invoicemonk's free invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/__LANG__/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>
+<p>Create professional proforma invoices in minutes with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/__LANG__/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>
     `
   },
 ];

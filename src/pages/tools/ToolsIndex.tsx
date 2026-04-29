@@ -5,18 +5,16 @@ import { ItemListSchema } from '@/components/seo/ItemListSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
-import { FileText, LayoutTemplate, Calculator, DollarSign, ArrowRightLeft, FileCheck, ArrowRight, Globe } from 'lucide-react';
+import { LayoutTemplate, Calculator, DollarSign, ArrowRightLeft, ArrowRight, Globe } from 'lucide-react';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
 
 const BASE = 'https://invoicemonk.com';
 
 const tools = [
-  { key: 'invoiceGenerator', href: '/free-invoice-generator', icon: FileText },
   { key: 'invoiceTemplates', href: '/invoice-templates', icon: LayoutTemplate },
   { key: 'feeCalculator', href: '/international-payment-fee-calculator', icon: Calculator },
   { key: 'rateCalculator', href: '/freelancer-rate-calculator', icon: DollarSign },
   { key: 'paypalVsWise', href: '/paypal-vs-wise-fees', icon: ArrowRightLeft },
-  { key: 'invoiceGeneratorAu', href: '/free-invoice-generator-australia', icon: FileCheck },
   { key: 'cheapestPayments', href: '/cheapest-way-to-receive-international-payments', icon: Globe },
 ];
 
@@ -26,19 +24,19 @@ export default function ToolsIndex() {
   const items = Array.isArray(itemsRaw) ? itemsRaw as { name: string; description: string }[] : [];
 
   const hubTitle = t('toolsHub.title', { defaultValue: 'Free Tools to Run Your Business' });
-  const hubSubtitle = t('toolsHub.subtitle', { defaultValue: 'No signup required. Create invoices, compare fees, calculate rates, and download templates — all free.' });
-  const hubContextual = t('toolsHub.contextual', { defaultValue: 'Whether you need to create a professional invoice, download a free invoice template, compare international payment fees, or calculate your freelance rate — Invoicemonk\'s free tools have you covered.' });
+  const hubSubtitle = t('toolsHub.subtitle', { defaultValue: 'Free tools for freelancers and small businesses: invoice templates, fee calculators, and rate calculators.' });
+  const hubContextual = t('toolsHub.contextual', { defaultValue: 'Whether you need a professional invoice template, want to compare international payment fees, or need to calculate your freelance rate — Invoicemonk\'s free tools have you covered.' });
   const hubFaqTitle = t('toolsHub.faqTitle', { defaultValue: 'Frequently Asked Questions' });
-  const hubSeoTitle = t('toolsHub.seoTitle', { defaultValue: 'Free Business Tools — Invoice Generator, Fee Calculator & More | Invoicemonk' });
-  const hubSeoDesc = t('toolsHub.seoDescription', { defaultValue: 'Free tools for freelancers and small businesses: invoice generator, invoice templates, international payment fee calculator, freelancer rate calculator, and payment comparisons. No signup required.' });
+  const hubSeoTitle = t('toolsHub.seoTitle', { defaultValue: 'Free Business Tools — Invoice Templates, Fee Calculator & More | Invoicemonk' });
+  const hubSeoDesc = t('toolsHub.seoDescription', { defaultValue: 'Free tools for freelancers and small businesses: invoice templates, international payment fee calculator, freelancer rate calculator, and payment comparisons.' });
 
   const faqsRaw = t('toolsHub.faqs', { returnObjects: true });
   const faqs = Array.isArray(faqsRaw)
     ? (faqsRaw as { question: string; answer: string }[])
     : [
-        { question: 'Are Invoicemonk tools really free?', answer: 'Yes. All tools listed on this page are 100% free with no signup required.' },
-        { question: 'Do I need an account to use these tools?', answer: 'No. Every tool works instantly in your browser without creating an account.' },
-        { question: 'Which tool should I use first?', answer: 'Start with the Free Invoice Generator if you need to bill a client.' },
+        { question: 'Are Invoicemonk tools really free?', answer: 'Yes. The tools listed here are 100% free to use.' },
+        { question: 'Do I need an account to use these tools?', answer: 'No account is needed for the calculators and reference tools on this page. To actually issue and send invoices, sign up for the Invoicemonk free plan (5 invoices per month).' },
+        { question: 'Which tool should I use first?', answer: 'Start with the Invoice Templates if you need ideas for billing a new client, or the Payment Fee Calculator if you receive international payments.' },
         { question: 'Can I use these tools for my business?', answer: 'Absolutely. These tools are designed for freelancers, contractors, consultants, and small businesses.' },
       ];
 

@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocale } from '@/hooks/useLocale';
+import { calculatePrice, getPricingPlans } from '@/config/pricingPlans';
 
 interface SoftwareApplicationSchemaProps {
   name?: string;
@@ -17,6 +18,8 @@ export function SoftwareApplicationSchema({
   hasVerifiedReviews = false
 }: SoftwareApplicationSchemaProps) {
   const { locale } = useLocale();
+  const plans = getPricingPlans();
+  const pricedPlans = plans.map((plan) => ({ plan, price: calculatePrice(plan.id, false).monthly }));
 
   const baseSchema: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -29,48 +32,20 @@ export function SoftwareApplicationSchema({
     "operatingSystem": "Web",
     "browserRequirements": "Requires JavaScript. Requires HTML5.",
     "softwareVersion": "1.0",
-    "offers": (() => {
-      const offers = [
-        {
-          "@type": "Offer",
-          "name": "Free Plan",
-          "price": "0",
-          "priceCurrency": locale.currency.code,
-          "description": "For individuals getting started"
-        },
-      ];
-      offers.push({
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "0",
+      "highPrice": "129",
+      "priceCurrency": "USD",
+      "offerCount": pricedPlans.length,
+      "offers": pricedPlans.map(({ plan, price }) => ({
         "@type": "Offer",
-        "name": "Pro Plan",
-        "price": "29",
+        "name": `${plan.name} Plan`,
+        "price": plan.customPricing ? "0" : String(price),
         "priceCurrency": "USD",
-        "description": "For growing businesses"
-      });
-      offers.push(
-        {
-          "@type": "Offer",
-          "name": "Professional Plan",
-          "price": String(locale.pricing.professional),
-          "priceCurrency": locale.currency.code,
-          "description": "For growing businesses"
-        },
-        {
-          "@type": "Offer",
-          "name": "Business Plan",
-          "price": String(locale.pricing.business),
-          "priceCurrency": locale.currency.code,
-          "description": "For enterprises with advanced needs"
-        }
-      );
-      return {
-        "@type": "AggregateOffer",
-        "lowPrice": "0",
-        "highPrice": String(locale.pricing.business),
-        "priceCurrency": locale.currency.code,
-        "offerCount": offers.length,
-        "offers": offers
-      };
-    })(),
+        "description": plan.customPricing ? `${plan.description}; custom pricing` : plan.description,
+      })),
+    },
     "featureList": [
       "Professional Invoice Creation",
       "Expense Tracking with Receipt Scanning",

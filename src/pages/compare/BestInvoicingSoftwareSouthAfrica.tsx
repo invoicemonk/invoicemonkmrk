@@ -100,7 +100,7 @@ export default function BestInvoicingSoftwareSouthAfrica() {
             <p className="text-muted-foreground mb-4">Related Content</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/blog/sars-invoice-requirements-south-africa" className="text-primary hover:underline">SARS Invoice Requirements Guide</Link>
-              <Link to="/free-invoice-generator-south-africa" className="text-primary hover:underline">Free Invoice Generator South Africa</Link>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Free Invoice Generator South Africa</a>
               <Link to="/compare/wave-alternative-south-africa" className="text-primary hover:underline">Wave Alternative for SA</Link>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function BestInvoicingSoftwareSouthAfrica() {
           <h2 className="text-heading-lg font-bold text-white mb-4">SARS-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create SARS-ready invoices with 15% VAT, tax reference numbers, and multi-currency. No signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator-south-africa">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

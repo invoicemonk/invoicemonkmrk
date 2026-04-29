@@ -100,7 +100,7 @@ export default function BestInvoicingSoftwareGhana() {
             <p className="text-muted-foreground mb-4">Related Content</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/blog/gra-invoice-requirements-ghana-compliance" className="text-primary hover:underline">GRA Invoice Requirements Guide</Link>
-              <Link to="/free-invoice-generator-ghana" className="text-primary hover:underline">Free Invoice Generator Ghana</Link>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Free Invoice Generator Ghana</a>
               <Link to="/compare/wave-alternatives" className="text-primary hover:underline">Wave Alternatives</Link>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function BestInvoicingSoftwareGhana() {
           <h2 className="text-heading-lg font-bold text-white mb-4">GRA-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create GRA-ready invoices with VAT, NHIL, GETFund levies, and TIN. No signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator-ghana">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>
