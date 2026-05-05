@@ -669,6 +669,7 @@ export const pillarClusters: TopicalCluster[] = [
   {
     pillarId: 'tax-compliance',
     postSlugs: [
+      'eu-vat-invoice-requirements-freelancers',
       'small-business-tax-compliance-guide',
       'small-business-tax-deductions-guide',
       'how-to-prepare-business-tax-audit',
