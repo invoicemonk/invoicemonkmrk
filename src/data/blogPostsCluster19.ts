@@ -1124,6 +1124,410 @@ export const cluster19Posts: BlogPost[] = [
   },
 
   // ═══════════════════════════════════════════════════
+  // EU PILLAR 2 — Cross-border VAT invoicing for freelancers
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'cross-border-vat-invoicing-freelancers-eu',
+    title: 'Cross-border VAT for freelancers: the complete EU guide',
+    excerpt: 'Do you charge VAT when billing an EU client in another country? This guide explains reverse charge, place of supply, VIES validation, and the exact invoice wording.',
+    category: 'Tax and Compliance',
+    tags: ['cross-border vat', 'reverse charge', 'place of supply', 'vies', 'eu freelancer', 'article 196', 'article 44', 'b2b invoice', 'b2c invoice'],
+    author: defaultAuthor,
+    date: '2026-05-05',
+    dateModified: '2026-05-05',
+    lastAudited: '2026-05-05',
+    readTime: '12 min read',
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'Cross-border VAT invoicing for freelancers in the EU — reverse charge and place of supply',
+    pillarContent: true,
+    clusterType: 'pillar',
+    targetProduct: '/compliance',
+    priority: 'P1',
+    macroContext: 'Cross-border EU VAT, reverse charge, and place of supply rules for freelancers worldwide invoicing EU business clients',
+    semanticKeywords: [
+      'cross-border VAT freelancer EU',
+      'cross-border VAT invoicing EU freelancer',
+      'reverse charge invoice EU B2B',
+      'place of supply rules freelancer',
+      'Article 196 VAT Directive invoice',
+      'VIES VAT number validation freelancer',
+      'how to invoice EU client without VAT',
+      'split VAT cross-border invoice',
+      'non-EU freelancer invoicing EU client',
+      'Article 44 VAT Directive B2B services',
+      'EU cross-border invoice wording'
+    ],
+    entityMentions: [
+      { name: 'European Commission', type: 'GovernmentOrganization', url: 'https://commission.europa.eu' },
+      { name: 'EU VAT Directive 2006/112/EC', type: 'Legislation', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0112' },
+      { name: 'VIES (VAT Information Exchange System)', type: 'WebApplication', url: 'https://ec.europa.eu/taxation_customs/vies/' },
+      { name: 'EU One Stop Shop (OSS)', type: 'GovernmentService', url: 'https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-taxation/oss-one-stop-shop_en' },
+      { name: 'Article 44 EU VAT Directive', type: 'Legislation' },
+      { name: 'Article 45 EU VAT Directive', type: 'Legislation' },
+      { name: 'Article 196 EU VAT Directive', type: 'Legislation' },
+      { name: 'Article 226(11a) EU VAT Directive', type: 'Legislation' }
+    ],
+    relatedTools: [
+      { label: 'Free EU invoice generator', url: '/invoicing', description: 'Create cross-border, reverse-charge invoices for EU clients' },
+      { label: 'Compliance Hub', url: '/compliance', description: 'Country-by-country invoice compliance for the EU' },
+      { label: 'Invoicemonk Accounting', url: '/accounting', description: 'Books that match your cross-border invoices automatically' }
+    ],
+    faq: [
+      {
+        question: 'Do I charge VAT when invoicing a business client in another EU country?',
+        answer: 'No. When a freelancer invoices a VAT-registered business in another EU country, the reverse charge mechanism applies under Articles 44 and 196 of the EU VAT Directive. The freelancer issues an invoice with no VAT and includes the notation "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC." The client then reports and pays the VAT in their own country through their VAT return. The freelancer does not register for VAT in the client\'s country and does not collect any VAT. Before issuing the invoice, the freelancer must verify the client\'s VAT number using the EU\'s VIES database.'
+      },
+      {
+        question: 'What is the reverse charge mechanism and how does it work for freelancers?',
+        answer: 'The reverse charge mechanism is an EU VAT rule that shifts the obligation to report and pay VAT from the supplier to the buyer in cross-border B2B transactions. When a freelancer provides services to a VAT-registered business in another EU country, they issue an invoice without charging VAT and include a mandatory reverse charge notation citing Article 196 of the EU VAT Directive. The client accounts for the VAT in their own country\'s VAT return as both output tax and input tax; the two entries cancel out, making the transaction effectively VAT-neutral for the client. The freelancer collects no VAT and does not need to register for VAT in the client\'s country.'
+      },
+      {
+        question: 'What is the place of supply rule for freelance services in the EU?',
+        answer: 'For B2B services, the EU VAT Directive (Article 44) establishes that the place of supply is where the customer is established, not where the supplier is based or where the work is performed. This means a Bulgarian freelancer billing a German company is subject to German place of supply rules. Because the supplier is not established in Germany, the reverse charge mechanism applies and the German company accounts for the VAT. For B2C services (billing private individuals), the place of supply is where the supplier is established under Article 45, unless the supplier provides digital services exceeding €10,000 per year to EU consumers across multiple member states.'
+      },
+      {
+        question: 'What wording should I put on a reverse charge invoice?',
+        answer: 'A reverse charge invoice must include the words "reverse charge" and a reference to the legal basis. The standard wording accepted across all EU member states is: "VAT is not charged on this invoice. The reverse charge mechanism applies under Article 196 of EU VAT Directive 2006/112/EC. The recipient is liable to account for VAT in their country of establishment." The invoice must also include the supplier\'s VAT number, the client\'s VAT number (verified via VIES), and the net amount only; no VAT line or gross total including tax. Some EU countries additionally require the notation in the local language: "Steuerschuldnerschaft des Leistungsempfängers" in Germany, "BTW verlegd" in the Netherlands, and "Autoliquidation" in France.'
+      },
+      {
+        question: 'Does reverse charge apply to non-EU freelancers billing EU clients?',
+        answer: 'Yes. The reverse charge mechanism applies to non-EU suppliers billing VAT-registered EU businesses, not just intra-EU transactions. Under Article 44 of the EU VAT Directive, the place of supply for B2B services is where the customer is established. When a non-EU freelancer (based in the UK, Nigeria, the US, or anywhere outside the EU) bills a VAT-registered EU business, the EU client accounts for the VAT under the reverse charge. The non-EU freelancer does not charge VAT, does not register for VAT in the EU client\'s country, and includes the Article 196 reverse charge notation on the invoice along with the client\'s verified VAT number.'
+      },
+      {
+        question: 'What is VIES and why do freelancers need to use it?',
+        answer: 'VIES (VAT Information Exchange System) is the European Commission\'s free online tool for verifying EU VAT registration numbers, available at ec.europa.eu/taxation_customs/vies. Freelancers must verify their client\'s VAT number via VIES before applying the reverse charge mechanism to a cross-border invoice. If a client\'s VAT number is invalid and the freelancer applied reverse charge without verifying it, the freelancer may be held liable for the full VAT amount that should have been charged. Saving a screenshot or record of the VIES validation result provides evidence of good-faith compliance in the event of an audit. VIES should be checked for every new client and periodically for repeat clients, as VAT registrations can lapse.'
+      }
+    ],
+    content: `
+      <p>You just finished a project for a client in Germany. You are based in Bulgaria, or Nigeria, or the UK. Do you charge them VAT?</p>
+      <p>The answer is almost certainly no, but it is not as simple as leaving the VAT line blank. There is specific legal language that must appear on the invoice, a client verification step most freelancers skip, and a reporting obligation on your end even though you collected no VAT. This guide explains all of it, including exactly what to write on the invoice today.</p>
+
+      <h2>What is the place of supply rule for freelance services in the EU?</h2>
+      <p data-answer="true">For B2B services the EU VAT Directive (Article 44) places the supply where the customer is established, not where you are. So a Bulgarian freelancer billing a German company falls under German place of supply rules, and reverse charge applies because the supplier is not established in Germany.</p>
+      <p>Before talking about what to write on the invoice, it is worth understanding why. The place of supply is the EU legal concept that decides which country's VAT rules govern a transaction. It answers one question: where is this service treated as having been supplied?</p>
+      <p>For B2B services, which covers the vast majority of freelance work, Article 44 of the EU VAT Directive says the place of supply is where the <em>customer</em> is established. Not where you are. Not where the work was done. Where the client is based.</p>
+      <p>What this means in practice: if you are a Bulgarian freelancer billing a German company, the place of supply is Germany. German VAT rules govern the transaction, not Bulgarian ones. But because you (the supplier) are not established in Germany, you do not register for German VAT or charge it on your invoice. Instead, the EU uses the reverse charge mechanism: the German company reports and pays the VAT on your behalf through its own VAT return.</p>
+      <p>Two distinctions to flag clearly:</p>
+      <ul>
+        <li><strong>B2B vs. B2C:</strong> these rules apply only when billing VAT-registered businesses. If your client is a private individual, different rules apply entirely. See Section 5.</li>
+        <li><strong>Services vs. goods:</strong> this article covers services only. Physical goods follow different place of supply rules.</li>
+      </ul>
+      <p>Now let's look at the reverse charge mechanism in detail, and exactly what your invoice needs to say.</p>
+
+      <h2>How does the reverse charge mechanism work on a cross-border invoice?</h2>
+      <p data-answer="true">Reverse charge shifts the VAT reporting and payment obligation from you to your client. You issue an invoice with no VAT, add a notation citing Article 196 of the EU VAT Directive, and your VAT-registered EU client accounts for the VAT on their own return.</p>
+      <p>The reverse charge is not complicated once the logic is clear. It is a three-step mechanism.</p>
+      <h3>Step 1: You issue an invoice without VAT.</h3>
+      <p>Your invoice shows the net amount only. No VAT rate, no VAT amount, no gross total including tax. The invoice total is exactly the net fee you agreed with the client.</p>
+      <h3>Step 2: You add a reverse charge notation.</h3>
+      <p>This is the mandatory language that tells the client (and their tax authority) why there is no VAT on the invoice. Article 226(11a) of the EU VAT Directive requires the words "reverse charge" to appear. The standard wording used across every member state, accepted in plain English, is:</p>
+      <blockquote>"VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC"</blockquote>
+      <p>Some countries have their own language requirements. In Germany the equivalent is "Steuerschuldnerschaft des Leistungsempfängers (§13b Abs. 5 UStG)." In the Netherlands it is "BTW verlegd." In France it is "Autoliquidation." Including the Article 196 reference alongside any local language version is always safe; it is understood in every member state.</p>
+      <h3>Step 3: The client handles the rest.</h3>
+      <p>The client reports the VAT in their own country's VAT return as if they had charged it themselves, then immediately reclaims it as input tax (the VAT they can recover on business purchases) in the same return. The net effect for them is zero: it is a bookkeeping entry, not a payment. For you: no VAT to collect, no VAT to remit, no VAT registration in the client's country.</p>
+      <p>One thing that does not change: your own VAT reporting. In most EU member states, you must declare cross-border B2B supplies on a periodic VAT return, often called an EC Sales List or recapitulative statement (a summary list of cross-border B2B supplies you filed alongside your normal VAT return). This is a reporting obligation, not a payment, but it is required.</p>
+      <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
+        <p style="margin:0;"><strong>Invoicemonk does this for you.</strong> Select a cross-border EU B2B invoice and the correct Article 196 reverse charge notation appears automatically; you never type it manually. <a href="/invoicing">Try it free</a>.</p>
+      </aside>
+
+      <h2>How do I validate my client's VAT number on VIES?</h2>
+      <p data-answer="true">Use the EU's free VIES tool at ec.europa.eu/taxation_customs/vies, enter your client's VAT number and country, and save the confirmation before issuing a reverse charge invoice. If you skip this and the number is invalid, you (not the client) become liable for the unpaid VAT.</p>
+      <p>This is the most practically important section for risk management, and the one most guides gloss over.</p>
+      <p>Before you issue a reverse charge invoice, you must verify that your client is actually a VAT-registered business. Here is why it matters: if you apply reverse charge to a client who is not VAT-registered (a sole trader below the registration threshold, or a private individual who gave you a fake VAT number) you are responsible for the VAT. Not them. You. The tax authority will come to you for the unpaid tax, plus interest and potentially a fine.</p>
+      <p>The EU provides a free, official tool: <a href="https://ec.europa.eu/taxation_customs/vies/" rel="nofollow noopener" target="_blank">VIES (VAT Information Exchange System)</a>. Enter your client's VAT number, select their country, and the system confirms whether the number is valid and active.</p>
+      <p>Three things to do every time:</p>
+      <ol>
+        <li><strong>Validate before you issue the invoice</strong>, not after. If the number comes back invalid, do not apply reverse charge. Contact the client and ask for a valid number before you proceed.</li>
+        <li><strong>Screenshot or save the VIES confirmation.</strong> If the VAT number is later found to have been invalid, your saved confirmation is evidence that you acted in good faith. Without it, your defence in an audit is significantly weaker.</li>
+        <li><strong>Re-validate long-term clients periodically.</strong> VAT registrations can lapse. A number valid six months ago may not be valid today. For clients you invoice repeatedly, re-check VIES every few months.</li>
+      </ol>
+      <p>One known issue: VIES occasionally goes offline for maintenance. If validation fails due to a system error rather than an invalid number, document your attempt (timestamp, client details, error message) and try again when the system is available.</p>
+      <p>Now let's look at the specific scenarios you might face, because not every cross-border invoice is the same.</p>
+
+      <h2>Which cross-border VAT scenario applies to you?</h2>
+      <p data-answer="true">Four scenarios cover almost every freelancer: A) EU freelancer to VAT-registered EU business (reverse charge), B) non-EU freelancer to VAT-registered EU business (reverse charge), C) any freelancer to a private EU individual (your own country's VAT, with a digital-services exception), and D) same-country domestic (your local VAT applies normally).</p>
+
+      <h3>Scenario A: You are an EU freelancer billing a VAT-registered business in another EU country</h3>
+      <p>The most common cross-border situation. Reverse charge applies automatically under Articles 44 and 196.</p>
+      <p>Your invoice must include:</p>
+      <ul>
+        <li>Your VAT number</li>
+        <li>Your client's VAT number (validated via VIES)</li>
+        <li>The reverse charge notation: "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC"</li>
+        <li>Net amount only, no VAT line</li>
+      </ul>
+      <p>You do not register for VAT in the client's country. You do not charge their local VAT rate. You report the supply in your own country's EC Sales List or equivalent recapitulative statement.</p>
+
+      <h3>Scenario B: You are a non-EU freelancer billing a VAT-registered EU business</h3>
+      <p>This is the situation of every Nigerian, UK, or US freelancer billing a German, Dutch, or French company. Good news: the same reverse charge logic applies. Article 44 puts the place of supply where the client is established. The EU client handles the VAT in their country. You do not register for VAT anywhere in the EU for B2B services.</p>
+      <p>Your invoice must include:</p>
+      <ul>
+        <li>Your own tax identification number (or VAT number, if you have one)</li>
+        <li>Your client's EU VAT number, validated via VIES</li>
+        <li>The reverse charge notation: "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC"</li>
+        <li>Net amount only</li>
+      </ul>
+      <p>One nuance: as a non-EU freelancer, you do not have an EU VAT number. That is fine. Your invoice does not require one as long as the reverse charge applies and your client's VAT number is included and valid.</p>
+
+      <h3>Scenario C: You are billing a private individual in an EU country (B2C)</h3>
+      <p>Different rules apply entirely. For B2C services, the place of supply under Article 45 is where <em>you</em>, the supplier, are established. So if you are a Bulgarian freelancer billing a private client in Germany, Bulgarian VAT rules apply. You charge Bulgarian VAT at the rate applicable in Bulgaria.</p>
+      <p>The exception: digital services to EU consumers. If you provide digital services to private individuals across the EU and your total cross-border B2C digital-services revenue exceeds €10,000 per year, the place of supply shifts to the consumer's country. At that point you either register for VAT in each consumer's country or use the EU One Stop Shop (OSS) scheme to file a single return.</p>
+      <p>For most freelancers billing professional services (development, design, consulting) this exception rarely applies. But it is worth knowing.</p>
+
+      <h3>Scenario D: You are billing a client in the same EU country you are based in</h3>
+      <p>No cross-border rules apply. This is a domestic transaction. You charge your local VAT rate as normal (or use your domestic small business exemption if applicable). The reverse charge mechanism does not apply to same-country transactions.</p>
+
+      <h2>What about the cross-country VAT split scenario?</h2>
+      <p data-answer="true">A genuine VAT split is rare. Multiple invoices to clients in different EU countries are not a "split"; each follows its own reverse charge rules. A real split only happens when one service is delivered or used in two countries at once, like a live event streamed simultaneously to two audiences.</p>
+      <p>This comes up when a freelancer provides a service used in more than one EU country, or when a project involves distinct deliverables that are taxable in different jurisdictions.</p>
+      <p>The most common real-world scenario: a freelancer has multiple clients in different EU countries and invoices each separately. Each invoice follows the reverse charge rules for that client's country. This is not a split; it is just multiple correct invoices.</p>
+      <p>A genuine split scenario: a service physically delivered or used in two countries simultaneously, for example an event streamed live with audiences in France and Germany. In that case, place of supply rules for specific services (not the general Article 44 rule) may apportion VAT across the two countries.</p>
+      <p>For the vast majority of freelance services (development, design, writing, consulting, marketing) the Article 44 general rule applies: place of supply is where the client is established. No split is required. One client, one country, one set of rules.</p>
+      <p>If the split scenario does arise, determine which part of the service is attributable to which country and issue separate invoice line items or separate invoices accordingly. A tax advisor in the relevant country can give a definitive view specific to your contract structure.</p>
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:24px;font-style:italic;color:#475569;"><strong>P.S.</strong> If you are facing a genuine multi-country VAT split on a single contract, get a tax advisor involved <em>before</em> you invoice. The cost of an hour of professional advice is small compared to the cost of getting it wrong.</p>
+
+      <h2>What are the most common cross-border invoicing mistakes?</h2>
+      <p data-answer="true">The five most common mistakes are: skipping VIES validation, writing "0% VAT" instead of the reverse charge note, omitting the reverse charge note entirely, applying reverse charge to a private (B2C) client, and forgetting to declare cross-border supplies in your own VAT recapitulative statement.</p>
+      <ol>
+        <li><strong>Not validating the client's VAT number via VIES before applying reverse charge.</strong> If the number is invalid and you have no verification record, you may be liable for the full VAT amount. Always validate, always save the confirmation.</li>
+        <li><strong>Writing "0% VAT" instead of the reverse charge notation.</strong> Zero-rated VAT and reverse charge are different legal concepts. Writing "0% VAT" tells the client's accountant the supply is exempt, not reverse-charged, which is incorrect and may cause the invoice to be rejected.</li>
+        <li><strong>Forgetting the reverse charge notation entirely.</strong> An invoice with no VAT and no explanation is incomplete. Without the reverse charge wording, the client cannot apply the mechanism and will hold payment until you reissue.</li>
+        <li><strong>Applying reverse charge to a B2C client.</strong> Reverse charge only applies to VAT-registered businesses. If your client is a private individual, different rules apply; you may need to charge VAT at your domestic rate.</li>
+        <li><strong>Not reporting cross-border supplies in your own VAT return.</strong> Even though you collected no VAT, most EU member states require you to declare cross-border B2B supplies in a recapitulative statement or EC Sales List. Skipping this is a compliance failure.</li>
+      </ol>
+
+      <h2>What is the exact wording for a reverse charge invoice? (copy and use this)</h2>
+      <p data-answer="true">Use this verbatim block: "VAT is not charged on this invoice. The reverse charge mechanism applies under Article 196 of EU VAT Directive 2006/112/EC. The recipient is liable to account for VAT in their country of establishment." Add the local-language equivalent for Germany, the Netherlands, or France if relevant.</p>
+      <p>For a standard EU cross-border B2B reverse charge invoice, include this note verbatim:</p>
+      <blockquote>"VAT is not charged on this invoice. The reverse charge mechanism applies under Article 196 of EU VAT Directive 2006/112/EC. The recipient is liable to account for VAT in their country of establishment."</blockquote>
+      <p>Optional but recommended: add the local language equivalent alongside the English. For Germany: "Steuerschuldnerschaft des Leistungsempfängers." For the Netherlands: "BTW verlegd." For France: "Autoliquidation."</p>
+      <p>Your invoice must also include:</p>
+      <ul>
+        <li>Your VAT number (or tax ID, if non-EU)</li>
+        <li>Your client's VAT number (VIES-validated)</li>
+        <li>Net amount only, no VAT line</li>
+      </ul>
+      <p>That is it. Once this wording is on the invoice and the client's VAT number is verified, the transaction is handled correctly on your side.</p>
+      <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
+        <p style="margin:0;"><strong>Invoicemonk generates this wording automatically</strong> for cross-border EU invoices. Select the client's country; the correct notation appears with both VAT number fields and a net-only total. <a href="/invoicing">Create your first cross-border invoice free</a>.</p>
+      </aside>
+
+      <h2>Quick answers (the things people actually ask)</h2>
+
+      <h3>Do I charge VAT when invoicing a business client in another EU country?</h3>
+      <p data-answer="true">No. When a freelancer invoices a VAT-registered business in another EU country, the reverse charge mechanism applies under Articles 44 and 196 of the EU VAT Directive. You issue an invoice with no VAT, add the Article 196 notation, and your client reports and pays the VAT in their own country. Validate their VAT number via VIES before issuing the invoice.</p>
+
+      <h3>What is the reverse charge mechanism and how does it work for freelancers?</h3>
+      <p data-answer="true">Reverse charge shifts the VAT reporting and payment obligation from the supplier to the buyer in cross-border B2B transactions. You issue an invoice without VAT and include the Article 196 notation. The client books the VAT as both output tax and input tax on their own return; the entries cancel out and no money changes hands for VAT.</p>
+
+      <h3>What is the place of supply rule for freelance services in the EU?</h3>
+      <p data-answer="true">For B2B services, Article 44 of the EU VAT Directive places the supply where the customer is established. For B2C services, Article 45 places it where the supplier is established, except for cross-border digital services to EU consumers above €10,000 per year, where the place of supply shifts to the consumer's country.</p>
+
+      <h3>What wording should I put on a reverse charge invoice?</h3>
+      <p data-answer="true">Use: "VAT is not charged on this invoice. The reverse charge mechanism applies under Article 196 of EU VAT Directive 2006/112/EC. The recipient is liable to account for VAT in their country of establishment." Add the local-language equivalent for Germany ("Steuerschuldnerschaft des Leistungsempfängers"), the Netherlands ("BTW verlegd"), or France ("Autoliquidation") when relevant.</p>
+
+      <h3>Does reverse charge apply to non-EU freelancers billing EU clients?</h3>
+      <p data-answer="true">Yes. Article 44 places the supply where the customer is established, so a non-EU freelancer billing a VAT-registered EU business uses reverse charge exactly the same way an EU freelancer does. You do not register for VAT anywhere in the EU; you simply add the Article 196 notation and the client's VIES-validated VAT number to the invoice.</p>
+
+      <h3>What is VIES and why do freelancers need to use it?</h3>
+      <p data-answer="true">VIES is the European Commission's free tool for verifying EU VAT numbers, at ec.europa.eu/taxation_customs/vies. You must validate your client's VAT number on VIES before applying reverse charge; if the number is invalid and you skipped this step, the tax authority can hold you (not the client) liable for the unpaid VAT.</p>
+
+      <h2>The five things every freelancer needs to remember about cross-border VAT</h2>
+      <ol>
+        <li>The place of supply for B2B services is where your client is established, not where you are.</li>
+        <li>For cross-border B2B invoices in the EU, reverse charge applies: no VAT on the invoice, but the Article 196 notation is mandatory.</li>
+        <li>Always verify your client's VAT number on VIES before issuing the invoice, and save the confirmation.</li>
+        <li>B2C rules are different. Reverse charge does not apply to private individuals.</li>
+        <li>You still have reporting obligations in your own country even when collecting no VAT.</li>
+      </ol>
+      <p>Cross-border VAT invoicing has a lot of moving parts: place of supply rules, VIES validation, exact invoice wording, EC Sales List reporting. Invoicemonk handles the invoice side automatically: correct notation, both VAT number fields, net-only amounts for reverse charge transactions.</p>
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=cross_border_vat_pillar" target="_blank" rel="noopener">Create your first cross-border EU invoice free, no credit card required</a>.</strong></p>
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Read our country-specific guides for the local rules that apply on top of these EU-wide principles: <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>, <a href="/en/blog/netherlands-vat-invoicing-freelancers">Dutch invoice requirements</a>, <a href="/en/blog/how-to-invoice-french-clients-freelancer">invoicing French clients</a>, <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>, and <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>.</p>
+    `,
+  },
+
+  // ═══════════════════════════════════════════════════
+  // FRANCE — Freelancer country guide (Week 2 spoke)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'french-invoice-requirements-freelancers',
+    title: 'French invoice requirements for freelancers (2026 guide)',
+    excerpt: 'TVA rules, the franchise en base exemption phrase, SIRET number, autoliquidation, and the September 2026 e-invoicing mandate, all explained in plain English.',
+    category: 'Tax and Compliance',
+    tags: ['french invoice requirements freelancer', 'franchise en base de tva', 'tva non applicable article 293 b', 'autoliquidation tva france', 'siret invoice', 'mentions obligatoires', 'france e-invoicing 2026', 'facture electronique', 'toubon law', 'auto-entrepreneur'],
+    author: defaultAuthor,
+    date: '2026-05-06',
+    dateModified: '2026-05-06',
+    lastAudited: '2026-05-06',
+    readTime: '13 min read',
+    featuredImage: '/images/blog/e-invoicing-fr-hero.jpg',
+    featuredImageAlt: 'French invoice requirements for freelancers — TVA, franchise en base, SIRET, autoliquidation, and the 2026 e-invoicing mandate',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    priority: 'P1',
+    macroContext: 'France-specific freelancer invoicing compliance, TVA, franchise en base, autoliquidation, 2026 e-invoicing mandate',
+    semanticKeywords: [
+      'french invoice requirements freelancer',
+      'franchise en base de TVA',
+      'TVA non applicable article 293 B du CGI',
+      'autoliquidation TVA France',
+      'SIRET on invoice',
+      'mentions obligatoires facture',
+      'France e-invoicing 2026',
+      'facture electronique obligatoire',
+      'Toubon Law invoice French',
+      'auto-entrepreneur invoice France',
+      'numero TVA intracommunautaire',
+      'Plateforme Agreee Factur-X UBL CII'
+    ],
+    entityMentions: [
+      { name: 'Code général des impôts (Article 293 B)', type: 'Legislation' },
+      { name: 'Code général des impôts (Article 283)', type: 'Legislation' },
+      { name: 'Code de commerce', type: 'Legislation' },
+      { name: 'Loi Toubon (1994)', type: 'Legislation' },
+      { name: 'Service des Impôts des Entreprises', type: 'GovernmentOrganization' },
+      { name: 'Factur-X', type: 'Thing' },
+      { name: 'UBL', type: 'Thing' },
+      { name: 'CII', type: 'Thing' },
+      { name: 'Plateforme Agréée (PA)', type: 'Thing' },
+      { name: 'EU VAT Directive 2006/112/EC', type: 'Legislation', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0112' },
+      { name: 'VIES (VAT Information Exchange System)', type: 'WebApplication', url: 'https://ec.europa.eu/taxation_customs/vies/' },
+      { name: 'European Commission eInvoicing France', type: 'GovernmentOrganization', url: 'https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eInvoicing+in+France' }
+    ],
+    relatedTools: [
+      { label: 'Free invoice generator', url: '/invoicing', description: 'Create France-compliant invoices with SIRET, TVA, and franchise en base wording' },
+      { label: 'Compliance Hub', url: '/compliance', description: 'Country-by-country invoice compliance, including France' },
+      { label: 'Invoicemonk Accounting', url: '/accounting', description: 'Books that match your French invoices automatically' }
+    ],
+    faq: [
+      {
+        question: 'What is the exact phrase a French freelancer under franchise en base must put on the invoice?',
+        answer: 'The exact phrase required by Article 293 B of the Code général des impôts is "TVA non applicable, article 293 B du CGI". It must appear on every invoice issued by a freelancer covered by the franchise en base de TVA exemption. The invoice shows no TVA line and no TVA rate; the total equals the net amount. Without this wording, your client cannot tell why TVA is missing and the invoice is non-compliant. The phrase should appear near the totals, in French, even if the rest of the invoice is bilingual.'
+      },
+      {
+        question: 'Do I need a SIRET number to issue invoices as a freelancer in France?',
+        answer: 'Yes. Every French freelancer (auto-entrepreneur, micro-entreprise, or individual entrepreneur) must include a 14-digit SIRET number on every invoice. The SIRET is issued by INSEE when you register your activity and identifies your business at a specific location. Invoices without a SIRET are not legally valid, and your French client cannot record them in their accounts. If your activity is registered as Entrepreneur Individuel, the designation "EI" must also appear next to your name on the invoice.'
+      },
+      {
+        question: 'When does the French e-invoicing mandate start, and does it affect non-French freelancers?',
+        answer: 'The French e-invoicing mandate starts on September 1, 2026, when all French companies must be able to receive electronic invoices and large and medium companies must issue them. Small and micro-businesses must start issuing electronic invoices on September 1, 2027. Non-French freelancers billing French clients are not directly required to comply, but their invoices will be received through a Plateforme Agréée (an accredited platform). Sending PDFs by email will continue to work in the early phase; over time, you should expect French clients to ask for Factur-X, UBL, or CII formatted invoices.'
+      },
+      {
+        question: 'How does autoliquidation work when a non-French freelancer invoices a French B2B client?',
+        answer: 'When a freelancer based outside France invoices a French VAT-registered business, autoliquidation (reverse charge) applies under Article 283 of the Code général des impôts and Article 196 of the EU VAT Directive 2006/112/EC. The freelancer issues an invoice without TVA and includes the wording "Autoliquidation - Article 283 du CGI" together with both VAT numbers (or the freelancer\'s tax ID and the French client\'s numéro de TVA intracommunautaire, verified on VIES). The French client then accounts for the TVA in its own VAT return; the freelancer collects no TVA.'
+      },
+      {
+        question: 'Does the Toubon Law require French freelance invoices to be written entirely in French?',
+        answer: 'The Loi Toubon of 1994 requires that contracts and commercial documents involving French parties be available in French; it does not forbid bilingual invoices. The cleanest solution is a bilingual template with French as the primary language and English (or another language) alongside it. Mandatory wording such as "TVA non applicable, article 293 B du CGI" or "Autoliquidation - Article 283 du CGI" must appear in French exactly. Internationally recognised technical terms (for example, currency codes or product specifications) do not need to be translated.'
+      }
+    ],
+    content: `
+      <p>You just landed a French client. They are asking for your SIRET, a sequential invoice number, the right TVA wording, and they mentioned something about "facturation électronique" coming in 2026. France has more invoicing rules than most EU countries, but once you understand the structure, it stops feeling intimidating. This guide gives you the answer first, then walks through every mandatory field, the franchise en base de TVA exemption phrase, the Toubon Law, autoliquidation for cross-border invoices, and the September 2026 e-invoicing mandate.</p>
+
+      <p data-answer="true">A French freelance invoice must include 14-digit SIRET, sequential invoice number, dates, désignation, HT/TVA/TTC totals, late-payment penalty plus the €40 indemnité, and (if you are exempt from TVA) the verbatim phrase "TVA non applicable, article 293 B du CGI". Cross-border B2B invoices use "Autoliquidation - Article 283 du CGI". Non-compliance can trigger penalties up to €75,000.</p>
+
+      <h2>Why are French invoicing rules different?</h2>
+      <p data-answer="true">French invoicing rules are stricter than the EU baseline because they sit on two layers: the Code de commerce (which sets out commercial obligations between businesses) and the Code général des impôts (which governs TVA). Together they create a longer list of mentions obligatoires than most other EU countries, with fines up to €75,000 per missing or false invoice.</p>
+      <p>If you are billing a French company, the rules apply to your invoice even if you are based outside France, because the French client needs the invoice to deduct TVA and to satisfy its own audit obligations. The two phrases that French freelancers run into most often are "franchise en base de TVA" (the small-business exemption from charging TVA) and "Loi Toubon" (the 1994 law on the use of the French language in commercial documents). We will cover both below.</p>
+
+      <h2>What must every French freelance invoice include?</h2>
+      <p data-answer="true">Every French freelance invoice must show: your full legal name and address (with "EI" if you are an Entrepreneur Individuel), 14-digit SIRET, the client\'s SIRET when they are a French business, a unique sequential invoice number, the date of issue, the date the service was completed, a clear désignation of the service, the HT (net), TVA, and TTC (gross) amounts, payment terms with the late-payment penalty rate and the fixed €40 indemnité forfaitaire de recouvrement, and, when applicable, your numéro de TVA intracommunautaire.</p>
+      <p>Here is the field-by-field checklist:</p>
+      <ul>
+        <li><strong>Your legal name and address.</strong> If you are registered as Entrepreneur Individuel, the letters "EI" must appear next to your name on every invoice.</li>
+        <li><strong>14-digit SIRET.</strong> Issued by INSEE when you register. The first 9 digits (SIREN) identify the business, the last 5 identify the establishment.</li>
+        <li><strong>Client SIRET.</strong> Required when invoicing a French business. For non-French B2B clients, use their VAT number instead.</li>
+        <li><strong>Sequential invoice number.</strong> Must run consecutively without gaps. Many freelancers prefix the year, for example 2026-001.</li>
+        <li><strong>Date of issue and date of service.</strong> Both are mandatory. The date of service can be a single date or a date range.</li>
+        <li><strong>Désignation.</strong> A clear description of the service, including quantity (in days, hours, or units) and unit price.</li>
+        <li><strong>HT, TVA, and TTC amounts.</strong> HT (hors taxes) is the net amount, TVA is the tax (typically 20%), and TTC (toutes taxes comprises) is the gross. If you are exempt under franchise en base, show only the HT amount and the exemption phrase.</li>
+        <li><strong>Payment terms.</strong> The due date, the late-payment penalty rate (taux des pénalités de retard), and the fixed €40 indemnité forfaitaire de recouvrement that applies to every late B2B invoice.</li>
+        <li><strong>TVA intracommunautaire number,</strong> if you have one (required for EU B2B invoices above the €10,000 threshold; see Section 6).</li>
+      </ul>
+      <p style="border-left:3px solid #ef4444;padding:12px 16px;background:#fef2f2;margin:16px 0;"><strong>Tip:</strong> <a href="/invoicing">Invoicemonk\'s free invoice generator</a> includes the French SIRET, "EI" designation, sequential numbering, and the franchise en base / autoliquidation wording out of the box, so you can <a href="/invoicing">create your first French-compliant invoice</a> in under a minute.</p>
+
+      <h2>What is the franchise en base de TVA, and what phrase must appear on the invoice?</h2>
+      <p data-answer="true">The franchise en base de TVA is a French small-business exemption that lets you stop charging TVA when your turnover stays below set thresholds. For 2025 the limits are €37,500 (services) and €85,000 (sales of goods), with a tolerance ceiling of €41,250 / €93,500. If you qualify, every invoice must show the verbatim phrase "TVA non applicable, article 293 B du CGI" and no TVA line.</p>
+      <p>How it works in practice:</p>
+      <ul>
+        <li>You issue invoices with the HT amount only; no TVA rate, no TVA line, no TTC.</li>
+        <li>You add the wording "TVA non applicable, article 293 B du CGI" near the totals, in French, exactly as written above.</li>
+        <li>The "EI" designation still applies if you are an Entrepreneur Individuel.</li>
+        <li>You cannot deduct TVA on your business expenses while you are under franchise en base.</li>
+      </ul>
+      <p><strong>Crossing the threshold.</strong> If your turnover passes the upper tolerance ceiling (€41,250 for services or €93,500 for goods), you become liable for TVA from the first day of the month in which the threshold was crossed. You must register, charge TVA on every subsequent invoice, and update the wording on your template (drop the article 293 B phrase, add the standard 20% TVA line and your numéro de TVA intracommunautaire).</p>
+      <p><em>P.S. If you are unsure which side of the threshold you are on, ask an Expert-Comptable. The cost of a one-off consultation is far below the cost of getting it wrong for a full year.</em></p>
+
+      <h2>Does the Toubon Law require French freelance invoices to be in French?</h2>
+      <p data-answer="true">The Loi Toubon of 1994 requires that contracts and commercial documents involving French parties be available in French; it does not ban bilingual invoices. A bilingual template with French as the primary language solves it. The mandatory wording (franchise en base, autoliquidation, late-payment penalties) must appear in French exactly. Internationally recognised technical terms do not need to be translated.</p>
+      <p>In practice, freelancers based outside France use one of two approaches. Either they issue an invoice entirely in French (most accountants prefer this), or they issue a bilingual invoice with French labels next to English ones (HT / Net, TVA / VAT, TTC / Gross). Both are accepted; the second is friendlier for non-French finance teams that need to understand what they are paying.</p>
+
+      <h2>How does autoliquidation work for cross-border invoices to French clients?</h2>
+      <p data-answer="true">Autoliquidation is the French term for the reverse charge mechanism. It applies to cross-border B2B services in two main scenarios. In Scenario A, a non-French freelancer bills a French VAT-registered business and uses the wording "Autoliquidation - Article 283 du CGI" with no TVA. In Scenario B, a French freelancer under franchise en base bills an EU B2B client above €10,000 in cumulative cross-border services and must obtain a numéro de TVA intracommunautaire from the Service des Impôts des Entreprises.</p>
+      <p><strong>Scenario A: non-French freelancer billing a French B2B client.</strong> Under Article 283 of the Code général des impôts and Article 196 of the EU VAT Directive 2006/112/EC, the place of supply is France (where the client is established), and the French client accounts for TVA in its own VAT return. You issue the invoice without TVA, include both VAT numbers (verified on VIES), and add this wording near the totals:</p>
+      <blockquote style="border-left:3px solid #6366f1;padding:8px 16px;background:#eef2ff;margin:12px 0;"><em>Autoliquidation - Article 283 du CGI. Reverse charge - Article 196, EU VAT Directive 2006/112/EC. The recipient is liable to account for TVA in France.</em></blockquote>
+      <p><strong>Scenario B: French freelancer under franchise en base billing EU B2B clients above €10,000.</strong> Once your cumulative cross-border B2B services to other EU countries exceed €10,000 in a calendar year, you must request a numéro de TVA intracommunautaire from your Service des Impôts des Entreprises. You stay under the franchise en base for your domestic French invoices, but cross-border B2B invoices use the reverse charge with your new TVA intracommunautaire number on each invoice. For the wording and place of supply rules behind this, see our pillar on <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge for EU freelancers</a>.</p>
+
+      <h2>What does the September 2026 French e-invoicing mandate mean for freelancers?</h2>
+      <p data-answer="true">From September 1, 2026, every French company must be able to receive electronic invoices, and large and medium companies must issue them. Small and micro-businesses (most freelancers) must start issuing e-invoices on September 1, 2027. Invoices flow through a Plateforme Agréée and use Factur-X, UBL, or CII formats. Non-French freelancers will continue to send PDF invoices in the early phase, with French clients gradually requesting structured formats.</p>
+      <p>Read this calmly. The 2026 rollout is not asking auto-entrepreneurs to learn XML overnight. The phased timeline is:</p>
+      <ul>
+        <li><strong>September 1, 2026.</strong> All French companies must be able to receive electronic invoices. Large and medium companies must issue them.</li>
+        <li><strong>September 1, 2027.</strong> Small and micro-businesses (TPE/PME) must issue electronic invoices.</li>
+      </ul>
+      <p>Invoices will move through a Plateforme Agréée (PA), the new accredited private platforms that replace the earlier "PDP" naming. The accepted formats are <strong>Factur-X</strong> (a hybrid PDF + XML format that humans and machines can both read), <strong>UBL</strong>, and <strong>CII</strong>.</p>
+      <p>If you are a French freelancer, your invoicing tool will handle the format and the platform connection; you do not have to build any of this yourself. If you are based outside France and bill French clients, you can keep sending PDF invoices through 2026; expect French finance teams to start asking for Factur-X attachments later in 2027.</p>
+
+      <h2>What are the most common French invoice mistakes?</h2>
+      <p>Five errors come up again and again on French freelance invoices:</p>
+      <ol>
+        <li><strong>Missing the "EI" designation.</strong> If you are an Entrepreneur Individuel and your invoice does not show "EI" next to your name, it is technically non-compliant.</li>
+        <li><strong>Wrong franchise en base wording.</strong> Variations such as "TVA non applicable" alone or "Article 293B" without "du CGI" are rejected by some French accounting teams. Use the exact phrase: <em>TVA non applicable, article 293 B du CGI.</em></li>
+        <li><strong>No €40 indemnité forfaitaire on B2B invoices.</strong> The €40 fixed late-payment indemnity is mandatory wording on every B2B invoice issued in France, even if you also state a percentage penalty rate.</li>
+        <li><strong>Confusing "date of issue" and "date of service".</strong> Both are mandatory and they are not always the same. The date of service is when the work was performed; the date of issue is when you sent the invoice.</li>
+        <li><strong>Reusing or skipping invoice numbers.</strong> The sequence must be unbroken and chronological. For the full rules, see our guide on <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering in the EU</a>.</li>
+      </ol>
+
+      <h2>Quick answers</h2>
+
+      <h3>What is the exact phrase a French freelancer under franchise en base must put on the invoice?</h3>
+      <p data-answer="true">The exact phrase required by Article 293 B of the Code général des impôts is "TVA non applicable, article 293 B du CGI". It must appear on every invoice issued under the franchise en base de TVA exemption, in French, near the totals. The invoice shows no TVA line and no TVA rate; the total equals the net amount.</p>
+
+      <h3>Do I need a SIRET number to issue invoices as a freelancer in France?</h3>
+      <p data-answer="true">Yes. Every French freelancer must include a 14-digit SIRET on every invoice. The SIRET is issued by INSEE when you register your activity. Invoices without a SIRET are not legally valid, and your French client cannot record them in their accounts. If your activity is registered as Entrepreneur Individuel, the designation "EI" must also appear next to your name.</p>
+
+      <h3>When does the French e-invoicing mandate start, and does it affect non-French freelancers?</h3>
+      <p data-answer="true">The French e-invoicing mandate starts on September 1, 2026, when all French companies must be able to receive electronic invoices and large and medium companies must issue them. Small and micro-businesses must start issuing on September 1, 2027. Non-French freelancers can continue to send PDF invoices in the early phase, with French clients gradually requesting Factur-X, UBL, or CII formats through a Plateforme Agréée.</p>
+
+      <h3>How does autoliquidation work when a non-French freelancer invoices a French B2B client?</h3>
+      <p data-answer="true">When a freelancer based outside France invoices a French VAT-registered business, autoliquidation applies under Article 283 of the Code général des impôts and Article 196 of the EU VAT Directive. You issue the invoice without TVA and include the wording "Autoliquidation - Article 283 du CGI" with both VAT numbers verified on VIES. The French client then accounts for TVA in its own return.</p>
+
+      <h3>Does the Toubon Law require French freelance invoices to be entirely in French?</h3>
+      <p data-answer="true">No. The Loi Toubon of 1994 requires commercial documents to be available in French; it does not ban bilingual invoices. The cleanest solution is a bilingual template with French as the primary language. Mandatory wording such as "TVA non applicable, article 293 B du CGI" or "Autoliquidation - Article 283 du CGI" must appear in French exactly. Internationally recognised technical terms do not need to be translated.</p>
+
+      <h2>The French invoice checklist to screenshot</h2>
+      <ol>
+        <li>Your legal name and address, with "EI" if you are an Entrepreneur Individuel.</li>
+        <li>14-digit SIRET (yours), and the client\'s SIRET or VAT number.</li>
+        <li>Sequential, unbroken invoice number.</li>
+        <li>Date of issue and date of service.</li>
+        <li>Clear désignation with quantity and unit price.</li>
+        <li>HT, TVA, and TTC amounts (or HT only if you are under franchise en base).</li>
+        <li>Late-payment penalty rate plus the €40 indemnité forfaitaire on B2B invoices.</li>
+        <li>"TVA non applicable, article 293 B du CGI" if exempt; "Autoliquidation - Article 283 du CGI" if cross-border B2B.</li>
+        <li>Numéro de TVA intracommunautaire when applicable.</li>
+      </ol>
+
+      <p>French invoicing rewards consistency. Once your template is right, every invoice after it is right. <a href="/invoicing">Invoicemonk</a> applies the SIRET, the "EI" tag, sequential numbering, and the franchise en base / autoliquidation wording automatically, so you do not have to remember the exact phrase every time.</p>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_french_invoice_requirements" target="_blank" rel="noopener">Create your first French-compliant invoice free, no credit card required</a>.</strong></p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">For the EU-wide rules that sit behind these French specifics, read our pillar on <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge for EU freelancers</a>, plus our country guides on <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>, <a href="/en/blog/netherlands-vat-invoicing-freelancers">Dutch invoice requirements</a>, <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>, and <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>. External: <a href="https://ec.europa.eu/taxation_customs/vies/" rel="nofollow noopener" target="_blank">VIES VAT validation</a> and the <a href="https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eInvoicing+in+France" rel="nofollow noopener" target="_blank">European Commission eInvoicing France page</a>.</p>
+    `,
+  },
+
+  // ═══════════════════════════════════════════════════
   // GERMANY — Freelancer country guide (Week 2 spoke)
   // ═══════════════════════════════════════════════════
   {
@@ -1384,6 +1788,184 @@ export const cluster19Posts: BlogPost[] = [
     featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
     featuredImageAlt: 'Netherlands freelancer invoicing guide',
     readTime: '11 min read',
+  },
+
+  // ═══════════════════════════════════════════════════
+  // SEQUENTIAL INVOICE NUMBERING — EU explainer (Week ?? spoke)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'sequential-invoice-numbering-guide',
+    title: 'Sequential invoice numbering: the complete EU guide (2026)',
+    excerpt: "Gaps in your invoice numbers are a red flag in tax audits. Here's what sequential numbering means, why it's required by EU law, and how to fix gaps correctly.",
+    category: 'Tax and Compliance',
+    tags: ['sequential invoice numbering', 'EU VAT', 'invoice compliance', 'credit note', 'freelancer', 'tax audit'],
+    author: defaultAuthor,
+    date: '2026-05-05',
+    dateModified: '2026-05-05',
+    lastAudited: '2026-05-05',
+    readTime: '11 min read',
+    featuredImage: '/images/blog/invoice-essential-elements.jpg',
+    featuredImageAlt: 'Sequential invoice numbering — EU compliance guide for freelancers',
+    targetProduct: '/invoicing',
+    priority: 'P1',
+    macroContext: 'EU sequential invoice numbering rules under the VAT Directive 2006/112/EC, why gaps trigger tax audits, and how freelancers should correct invoices without breaking the sequence.',
+    semanticKeywords: [
+      'sequential invoice numbering',
+      'invoice numbering EU requirements',
+      'gaps in invoice numbers audit',
+      'invoice number sequence freelancer',
+      'how to number invoices correctly',
+      'what is sequential invoice numbering',
+      'invoice numbering best practices',
+      'credit note invoice correction',
+      'invoice number gap tax authority'
+    ],
+    entityMentions: [
+      { name: 'EU VAT Directive 2006/112/EC', type: 'Legislation', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0112' },
+      { name: 'European Commission', type: 'GovernmentOrganization', url: 'https://commission.europa.eu' },
+      { name: 'Bundeszentralamt für Steuern', type: 'GovernmentOrganization', url: 'https://www.bzst.de' },
+      { name: 'Agencia Tributaria (SII)', type: 'GovernmentOrganization', url: 'https://sede.agenciatributaria.gob.es' },
+      { name: 'Autoridade Tributária e Aduaneira (Portugal)', type: 'GovernmentOrganization', url: 'https://www.portaldasfinancas.gov.pt' }
+    ],
+    relatedTools: [
+      { label: 'Free EU invoice generator', url: '/invoicing', description: 'Sequential numbering enforced automatically' },
+      { label: 'Compliance hub', url: '/compliance', description: 'Country-by-country invoice rules' }
+    ],
+    faq: [
+      {
+        question: 'What is sequential invoice numbering?',
+        answer: 'Sequential invoice numbering means every invoice must carry a unique number that follows a continuous, unbroken, chronological sequence. The EU VAT Directive (2006/112/EC) requires this across all 27 member states. Gaps in the sequence, where a number is missing, are treated by tax authorities as a potential sign of unreported income. The format is flexible (e.g. 001, INV-2026-001, 2026-05-001), but the sequence must be consistent and unbroken from the first invoice issued to the last.'
+      },
+      {
+        question: 'What happens if there are gaps in my invoice numbers?',
+        answer: "Gaps in invoice numbers are a primary audit trigger for EU tax authorities. When an auditor finds a missing number in a sequence, the default assumption is that the missing invoice represents an undeclared transaction. The burden of proof shifts to the business to explain the gap with documentation. If the gap cannot be explained, the tax authority may reconstruct the business's revenue using bank deposits or industry benchmarks, and the resulting assessment is rarely favourable. Gaps can also result in rejected VAT deductions for clients whose accountants flag the missing number."
+      },
+      {
+        question: 'How do I correct an invoice without creating a gap in my sequence?',
+        answer: 'To correct an invoice without creating a gap, issue a credit note rather than deleting the original. A credit note references the original invoice by number and date and formally reverses the transaction. The original invoice number remains in the sequence; the credit note receives its own sequential number. A corrected invoice then gets the next number in the sequence. This keeps the audit trail intact and complies with EU VAT rules, which do not allow retroactive changes to issued invoices.'
+      },
+      {
+        question: 'Can I start my invoice sequence at a number other than 1?',
+        answer: 'Yes. EU law does not require invoice sequences to start at 1. You can begin at any number, such as 100, 500, or 1000, as long as the sequence runs consecutively from that point without gaps. What matters is that the sequence is unbroken, chronological, and consistent. Any changes to your numbering format mid-year should be documented in case an auditor asks for an explanation.'
+      },
+      {
+        question: 'Is it legal to run multiple invoice number series at the same time?',
+        answer: 'Yes, EU law allows multiple sequential invoice series to run simultaneously, for example separate series for different service types or currencies. Each series must be internally sequential with no gaps, and the system must be documented in writing so an auditor can verify completeness across all series. Most tax advisors recommend a single universal sequence to reduce complexity and audit risk.'
+      }
+    ],
+    content: `
+      <p>Picture this. You are mid-way through a tax audit. The inspector asks for your invoice records from the past three years. You pull them up. Invoice 47, invoice 48, invoice 50. They notice invoice 49 is missing. Now you have to explain why.</p>
+      <p>That explanation had better be good. In the EU, a gap in your invoice number sequence is not just a formatting inconsistency. It is legally treated as a potential sign of unreported income, and tax authorities are trained to look for it. This guide explains exactly what sequential numbering means, why the rule exists, and how to make sure you never face that conversation.</p>
+
+      <h2>Section 1: What is sequential invoice numbering?</h2>
+      <p>Sequential invoice numbering means every invoice you issue must carry a unique number that follows a continuous, unbroken, chronological sequence. The EU VAT Directive (2006/112/EC), the law that governs invoicing across all 27 member states, specifically requires that every invoice carry a sequential number, based on one or more series, that uniquely identifies the invoice.</p>
+      <p>In practice this means four things:</p>
+      <ul>
+        <li><strong>Every number is used exactly once.</strong> No duplicates, ever. Two invoices with the same number invalidate both.</li>
+        <li><strong>No gaps.</strong> If invoice 48 exists and invoice 50 exists, invoice 49 must also exist, or you must be able to explain what happened to it.</li>
+        <li><strong>Chronological order.</strong> Invoice numbers must follow the order in which invoices were issued. You cannot issue invoice 105 today and then date invoice 103 last month to shift income to a previous tax period.</li>
+        <li><strong>Permanent.</strong> Once a number is assigned, it cannot be changed. Corrections require a credit note and a new invoice with the next number in the sequence.</li>
+      </ul>
+      <p>The format is flexible. Numbers can be purely numerical (1, 2, 3) or include prefixes and dates (INV-2026-001, 2026-05-001). What matters is that the sequence is consistent, unbroken, and documented.</p>
+
+      <h3>Q: What is sequential invoice numbering?</h3>
+      <p>Sequential invoice numbering means every invoice must carry a unique number that follows a continuous, unbroken, chronological sequence. The EU VAT Directive (2006/112/EC) requires this across all 27 member states. Gaps in the sequence, where a number is missing, are treated by tax authorities as a potential sign of unreported income. The format is flexible (e.g. 001, INV-2026-001, 2026-05-001), but the sequence must be consistent and unbroken from the first invoice issued to the last.</p>
+
+      <h2>Section 2: Why does this rule exist, and why do tax authorities care so much?</h2>
+      <p>Sequential numbering exists for one core reason: it makes VAT fraud difficult. When every business issues invoices in an unbroken sequence, tax authorities can cross-reference your invoice records against your VAT returns, bank statements, and your clients' records. If your sequence runs from 1 to 500 with no gaps, an auditor can verify in minutes that 500 invoices were issued and all the income was reported.</p>
+      <p>Now picture the opposite. A gap exists, say invoice 49 is missing. The auditor's default assumption is not that you made an administrative error. It is that invoice 49 represents a transaction you received payment for and chose not to declare. The burden of proof shifts to you. You have to prove the gap is innocent.</p>
+      <p>What does that investigation look like? Tax auditors run automated software that scans for missing numbers, cross-references invoice sequences against bank deposits, and flags every voided or cancelled number for documentation. If they cannot reconcile the gap, they reconstruct your revenue using industry benchmarks, and the resulting assessment rarely favours the taxpayer.</p>
+
+      <h3>Q: What happens if there are gaps in my invoice numbers?</h3>
+      <p>Gaps in invoice numbers are a primary audit trigger for EU tax authorities. When an auditor finds a missing number in a sequence, the default assumption is that the missing invoice represents an undeclared transaction. The burden of proof shifts to the business to explain the gap with documentation. If the gap cannot be explained, the tax authority may reconstruct the business's revenue using bank deposits or industry benchmarks, and the resulting assessment is rarely favourable. Gaps can also result in rejected VAT deductions for clients whose accountants flag the missing number.</p>
+
+      <p>So what actually creates gaps, and what should you do instead?</p>
+
+      <h2>Section 3: The five most common ways gaps appear, and how to prevent each one</h2>
+      <p>Gaps almost never come from intentional fraud. They come from five very ordinary mistakes, each easy to fix once you know what to look for.</p>
+
+      <h3>1. Deleting an invoice you sent by mistake</h3>
+      <p>The most common gap creator. A freelancer sends an invoice, spots an error, deletes it, and creates a new one. The deleted number disappears from the sequence.</p>
+      <p><strong>Do this instead:</strong> never delete a sent invoice. Issue a credit note that references and cancels the original, then create a corrected invoice with the next number in the sequence.</p>
+
+      <h3>2. Cancelling a project before invoicing</h3>
+      <p>You draft invoice 49 for a client, the project falls through, you delete the draft, and invoice 50 goes to the next client. Gap created.</p>
+      <p><strong>Do this instead:</strong> either avoid assigning a number until the invoice is ready to send, or, if a number was already assigned, document the cancellation formally with a written note in your accounting file explaining what happened to that number.</p>
+
+      <h3>3. Using your invoicing tool incorrectly</h3>
+      <p>Many freelancers rely on Word templates, Excel spreadsheets, or tools that number invoices manually. They skip a number by accident, create a test invoice with a real number, or import invoices from another system with a conflicting sequence.</p>
+      <p><strong>Do this instead:</strong> use a tool that assigns invoice numbers automatically, making it structurally impossible to create a gap. <a href="/invoicing">Invoicemonk</a> does this by design: every invoice in the sequence is tracked, and gaps cannot be created manually.</p>
+
+      <h3>4. Running multiple invoice series without documenting them</h3>
+      <p>Some freelancers run separate sequences for different clients, currencies, or service types, for example "INV" for consulting and "DES" for design work. This is legally permitted in the EU, but only if each series is internally sequential, the system is documented in writing, and auditors can verify completeness across all series.</p>
+      <p><strong>Do this instead:</strong> if you run multiple series, keep a written record of your numbering policy. Most tax advisors recommend a single universal sequence to keep things simple and auditable.</p>
+
+      <h3>5. Using a payment platform transaction ID as the invoice number</h3>
+      <p>Stripe, PayPal, and Wise assign transaction IDs (e.g. "ch_3Oabc123xyz") that are not sequential, contain gaps by design, and do not meet EU invoicing requirements.</p>
+      <p><strong>Do this instead:</strong> use the platform transaction ID as a reference field only. Assign a separate sequential invoice number as the primary identifier on every invoice.</p>
+
+      <h2>Section 4: Acceptable invoice number formats</h2>
+      <p>The EU does not mandate a specific format, only that numbers be sequential and unique. These three formats all comply:</p>
+      <ul>
+        <li><strong>Simple sequential:</strong> 001, 002, 003. Works well for low invoice volumes. Clean and auditable.</li>
+        <li><strong>Year-prefixed:</strong> 2026-001, 2026-002. Organises invoices by year and lets the counter reset annually. Useful for quickly identifying when an invoice was issued.</li>
+        <li><strong>Year-month prefixed:</strong> 2026-05-001, 2026-05-002. The most granular option. Useful for higher invoice volumes.</li>
+      </ul>
+      <p>All three are valid. Pick one format and stick to it. Changing formats mid-year without documentation creates confusion in an audit.</p>
+      <p>One question that comes up often: can you start at a number other than 1? Yes. You can start at 100, 500, 1000, or any number. What matters is that the sequence runs consecutively from that starting point without interruption.</p>
+
+      <h3>Q: Can I start my invoice sequence at a number other than 1?</h3>
+      <p>Yes. EU law does not require invoice sequences to start at 1. You can begin at any number, such as 100, 500, or 1000, as long as the sequence runs consecutively from that point without gaps. What matters is that the sequence is unbroken, chronological, and consistent. Any changes to your numbering format mid-year should be documented in case an auditor asks for an explanation.</p>
+
+      <h3>Q: Is it legal to run multiple invoice number series at the same time?</h3>
+      <p>Yes, EU law allows multiple sequential invoice series to run simultaneously, for example separate series for different service types or currencies. Each series must be internally sequential with no gaps, and the system must be documented in writing so an auditor can verify completeness across all series. Most tax advisors recommend a single universal sequence to reduce complexity and audit risk.</p>
+
+      <h2>Section 5: What to do if you already have gaps</h2>
+      <p>Read this with calm. If you already have gaps in your sequence, you are not in immediate trouble; you are in a documentation race. Five practical steps fix most of the risk.</p>
+      <ol>
+        <li><strong>Audit your records.</strong> Go through every invoice you have issued and map the full sequence. Identify exactly where gaps exist and how many there are.</li>
+        <li><strong>Document what you know.</strong> For each gap, note whether it was a cancelled invoice, a deleted draft, a numbering error, or something else. Written documentation, even a brief note in your accounting file, beats nothing.</li>
+        <li><strong>Do not retroactively fill gaps.</strong> Do not create backdated invoices to fill missing numbers. This is worse than the gap itself: it is potential fraud and significantly harder to explain in an audit.</li>
+        <li><strong>Move forward cleanly.</strong> Switch to a tool that prevents future gaps. <a href="/invoicing">Invoicemonk</a> assigns numbers automatically; once a number is issued, it cannot be deleted, reused, or skipped.</li>
+        <li><strong>If you are already facing an audit:</strong> speak to a tax advisor or accountant in the relevant country before the audit begins. They can help you frame existing gaps in the most defensible way based on the documentation you have.</li>
+      </ol>
+
+      <h2>Section 6: How credit notes protect your sequence</h2>
+      <p>The correct way to cancel or correct an invoice in the EU is to issue a credit note, not delete the original. A credit note is essentially a negative invoice: it references the original by number and date, and formally reverses the transaction.</p>
+      <p>Why does this matter for sequential numbering? Because the original invoice number stays in the sequence. It was issued; it exists in the audit trail. The credit note gets its own sequential number. The sequence remains unbroken.</p>
+      <p>A concrete example: you issue invoice 49 to a client for €2,000. You realise the amount should have been €1,800. You do not delete invoice 49. Instead, you issue credit note CN-001, which references invoice 49 and credits the €200 difference. Then you issue invoice 50 for the corrected amount. Three documents exist in the audit trail; the sequence is intact.</p>
+      <p>What must a credit note include? The same mandatory fields as the original invoice, plus a specific reference to the original invoice number and date, and a description of what is being credited and why.</p>
+
+      <h3>Q: How do I correct an invoice without creating a gap in my sequence?</h3>
+      <p>To correct an invoice without creating a gap, issue a credit note rather than deleting the original. A credit note references the original invoice by number and date and formally reverses the transaction. The original invoice number remains in the sequence; the credit note receives its own sequential number. A corrected invoice then gets the next number in the sequence. This keeps the audit trail intact and complies with EU VAT rules, which do not allow retroactive changes to issued invoices.</p>
+
+      <p>For a full walkthrough of the wording, formatting, and timing rules, see our guide on <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note under EU law</a>.</p>
+
+      <h2>Section 7: Country-specific rules worth knowing</h2>
+      <p>All EU member states require sequential numbering as a baseline, but a few enforce it more aggressively than others.</p>
+      <ul>
+        <li><strong>Germany:</strong> gaps in invoice numbers (Rechnungsnummer) are a specific Finanzamt audit trigger. Cancelled invoices must be documented as Stornorechnungen. See our full <a href="/en/blog/how-to-invoice-german-clients-freelancer">German invoice rules</a> guide.</li>
+        <li><strong>Bulgaria:</strong> strict real-world enforcement. Tax inspectors actively cross-check invoice sequences against POS reports and bank statements during routine audits.</li>
+        <li><strong>Spain:</strong> real-time VAT reporting through the SII (Suministro Inmediato de Información) means invoice sequences are verified electronically in near real time. Gaps are detected almost immediately.</li>
+        <li><strong>Portugal:</strong> businesses must apply for government-issued unique invoice series in advance and use certified software that generates a QR code on each invoice.</li>
+      </ul>
+      <p>For Dutch invoicing, the rule is the same but layered with KVK and BTW-ID specifics; see our <a href="/en/blog/dutch-invoice-requirements-freelancers">Dutch invoice requirements</a> guide. For the EU-wide baseline that sits behind all of this, start with our pillar guide on <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>.</p>
+
+      <h2>The five rules to screenshot</h2>
+      <ol>
+        <li>Every invoice number must be used exactly once. No duplicates.</li>
+        <li>The sequence must be unbroken. No gaps, ever.</li>
+        <li>Numbers must be chronological. No backdating.</li>
+        <li>Cancelled or incorrect invoices must be corrected with a credit note, not deleted.</li>
+        <li>Your numbering format is flexible, but the system must be consistent and documented.</li>
+      </ol>
+
+      <p>Manually managing invoice numbers in a spreadsheet or Word template puts the burden of maintaining a gap-free sequence entirely on you. One mistake, a deleted draft, a skipped number, a test invoice with a real number, creates a gap that could take hours to explain in an audit. Invoicemonk assigns numbers automatically. The sequence is enforced by the system, not by your memory.</p>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_sequential_numbering" target="_blank" rel="noopener">Start issuing sequentially numbered, VAT-compliant invoices free, no credit card required</a>.</strong></p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Need to correct an invoice without breaking your sequence? Read our guide to <a href="/en/blog/credit-note-guide-when-how-to-issue">credit notes under EU law</a>.</p>
+    `,
   },
 ];
 
