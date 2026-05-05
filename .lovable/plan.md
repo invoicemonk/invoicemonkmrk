@@ -1,62 +1,64 @@
+## Plan: Publish "EU VAT Invoice Requirements for Freelancers" pillar article
 
+### What gets created
+A single new blog post added to the existing cluster 19 file (E-Invoicing Compliance, where Bulgaria/Serbia EU posts already live).
 
-## Root cause (100% of the 1,350 Ahrefs warnings)
+- **Slug:** `eu-vat-invoice-requirements-freelancers`
+- **URL:** `/en/blog/eu-vat-invoice-requirements-freelancers`
+- **Title:** EU VAT invoice requirements for freelancers (2026 guide)
+- **Meta description:** As provided in brief
+- **Author:** Olayinka Olayokun (use existing entry from `src/data/authors.ts`; verify slug)
+- **Date:** 2026-05-05
+- **Category:** Tax and Compliance
+- **Pillar content:** `pillarContent: true`, `clusterType: 'pillar'`
+- **Target product:** `/compliance`
+- **Word count:** 3,000–3,500, full HTML body following the brief's 7 sections + 5 AIO answer blocks + conclusion
 
-I parsed the export. Every flagged row has the same three values:
+### Files changed
+1. **`src/data/blogPostsCluster19.ts`** — append the new `BlogPost` object to `cluster19Posts`. Existing footer auto-registers it into the global `blogPosts` array, so it shows on `/blog`, `/blog/[slug]`, sitemap, and search.
+2. **`src/data/topicalMap.ts`** — add `'eu-vat-invoice-requirements-freelancers'` to the top of the `tax-compliance` pillar's `postSlugs` array (line ~672) so it appears in the Tax & Compliance guide hub and gets pillar/cluster schema.
+3. **`src/data/authors.ts`** — verify Olayinka Olayokun exists; if missing, add a minimal author entry (name, slug, role, bio, expertise, socialLinks).
 
-- **Title** = `Invoicemonk - Professional Invoicing & Accounting Software.`
-- **Is rendered page** = `0` (Ahrefs crawled raw HTML, no JS)
-- **Canonical URL** = `https://invoicemonk.com/`
+### Content structure (HTML)
+Sections per the brief, written in the brief's tone (no em dashes, no AI clichés, active voice, conversational, "you/your"):
+- Intro (<100 words, problem-led)
+- §1 Legal foundation (VAT Directive 2006/112/EC)
+- §2 Mandatory fields (the 13 items, each as `<li>`)
+- §3 Reverse charge mechanism
+- §4 Sequential invoice numbering
+- §5 What happens if non-compliant
+- §6 VAT registration thresholds
+- §7 ViDA / e-invoicing mandate
+- Conclusion + primary CTA to `https://app.invoicemonk.com/signup` and secondary CTA to country guides
+- P.S. tip
+- Each AIO Q&A as an `<h2>`/`<h3>` with the verbatim answer paragraph (mirrors the question)
 
-That's not a sitemap-vs-canonical bug in `generate-sitemap.ts` or `SEOHead.tsx`. It's a single bad line in `index.html`:
+### Internal links embedded in body
+- `/en/blog/germany-vat-reverse-charge-invoicing` (German invoice requirements)
+- `/en/blog/freelancer-vat-registration-bg`, `freelancer-vat-registration-ro`, `freelancer-vat-registration-pl`, `freelancer-vat-registration-it`, `freelancer-vat-registration-hu` (country thresholds)
+- `/en/blog/credit-note-guide-when-how-to-issue` (how to issue a credit note)
+- `/en/blog/italy-fattura-elettronica-freelancers`, `france-e-invoicing-ppf-pdp-guide` (ViDA section)
+- `/en/invoicing` (free EU invoice generator)
+- `/en/compliance` (compliance hub)
+- Future Week 2/3/5/7 anchors: noted as TODO comments next to relevant slugs so they're easy to swap in once published
 
-```html
-<!-- index.html, line 50 -->
-<link rel="canonical" href="https://invoicemonk.com/" />
-```
+### SEO / schema fields populated
+- `semanticKeywords`: the 8 supporting keywords from the brief
+- `entityMentions`: European Commission, EU VAT Directive 2006/112/EC, EU ViDA, §14 UStG, §19 UStG
+- `relatedTools`: Invoicing, Compliance Hub, Free Invoice Generator
+- `faq`: the 5 AIO Q&As (also rendered in body so they appear as both readable text and FAQPage schema via the page-level FAQSchema)
+- `priority: 'P1'`, `pillarContent: true`, `targetCountry: 'eu'` (or omit if not used)
 
-Because Invoicemonk is a Vite SPA, every URL serves the same `index.html`. Crawlers that don't execute JS (Ahrefs default, Bing, many LLM/AI crawlers, social previewers) see this hardcoded canonical and conclude *every* page on the site — 1,350 of them — is a duplicate of the homepage. `SEOHead` does write the correct per-page canonical via `react-helmet-async`, but only after JS runs. The static one wins for non-rendering crawlers and stays in the DOM as a duplicate canonical for rendering ones until Helmet mounts.
+### Cannibalization safeguards (already verified)
+No existing post targets the EU-wide pillar query. The new article will be the parent hub for the country-specific child posts (Germany reverse charge, BG/RO/PL/IT/HU freelancer VAT, etc.).
 
-The same root cause also explains why every flagged URL has the generic homepage `<title>` — that's the static title in `index.html` line 8, also overridden by Helmet only after JS executes.
+### Out of scope (not doing now)
+- Translations (DE/FR/ES/PT) — can follow later as parallel files per project convention
+- New featured image asset — will reference an existing fallback image path (`/images/blog/invoice-essential-elements.jpg`) so the post renders without a missing-asset issue; you can swap in a custom hero later
+- Medium republish — handled by you outside the codebase (set canonical to the Invoicemonk URL)
 
-## Fix
-
-### 1. `index.html` — remove the misleading static canonical
-Delete lines 49–50:
-
-```html
-<!-- Canonical fallback for non-JS crawlers -->
-<link rel="canonical" href="https://invoicemonk.com/" />
-```
-
-A wrong canonical is far worse than no canonical. With it removed:
-- Non-JS crawlers see *no* canonical → they treat each URL as its own page (correct).
-- JS-rendering crawlers (Googlebot, Ahrefs with JS enabled) get the correct per-page canonical from `SEOHead`/Helmet.
-
-There is no good "static fallback" possible in a pure SPA because `index.html` is identical for every route — any hardcoded canonical will be wrong for 1,349 of the 1,350 pages.
-
-### 2. (Recommended, same change set) Remove the misleading static `<title>` and `<meta description>` defaults, OR make them generic enough that they don't damage non-rendered snapshots
-Lines 8–9 cause the same pattern — every page reports the homepage title to non-JS crawlers. Two options:
-- **Option A (minimal):** keep them as-is (cosmetic only — Ahrefs flags titles only when missing, not when duplicated across non-rendered snapshots).
-- **Option B (cleaner):** keep them — they're a reasonable site-wide fallback when JS fails entirely. Title duplication isn't what triggered the 1,350 warnings; the canonical is.
-
-Recommendation: **Option A**. Touch only the canonical to keep the diff minimal.
-
-### 3. Re-trigger crawls
-After deploy:
-- GSC → Sitemaps → resubmit `sitemap.xml`
-- Ahrefs → Site Audit → "Restart crawl"
-- Optional but ideal: in Ahrefs project settings, enable **JavaScript rendering**. This makes future audits reflect what Google actually sees and will surface real per-page canonical/title issues instead of the SPA shell.
-
-## Files changed
-
-| File | Change |
-|------|--------|
-| `index.html` | Delete lines 49–50 (the static `<link rel="canonical">` and its comment). |
-
-That's the entire fix. No changes to `SEOHead.tsx`, `generate-sitemap.ts`, or any route — those are already correct; the static tag was overriding them for non-rendered crawls.
-
-## Why I'm not also editing SEOHead/sitemap
-
-In the previous session I outlined three potential mismatches (`/`, `/invoice-templates`, country-keyword regex drift). After parsing the actual Ahrefs file, **none** of those produced flagged URLs in this report — every single one of the 1,350 rows points to the same root cause above. Those three are minor hygiene issues worth fixing later, but they are not what Ahrefs is reporting today, so I'll leave them out of this change to keep the fix surgical and verifiable.
-
+### After implementation
+- Article live at `/en/blog/eu-vat-invoice-requirements-freelancers`
+- Auto-included in sitemap (next build)
+- Listed under Tax & Compliance guide hub
+- Internal links from existing Germany/BG/IT posts can be added in a follow-up pass
