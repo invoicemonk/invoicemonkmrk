@@ -1122,6 +1122,269 @@ export const cluster19Posts: BlogPost[] = [
       <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;"><strong>P.S.</strong> One small thing that will save you hours later: store your client's VAT number against their record the first time they give it to you, and validate it via the EU's <a href="https://ec.europa.eu/taxation_customs/vies/" rel="nofollow noopener" target="_blank">VIES</a> tool. An invalid VAT number means you cannot apply reverse charge, and you find out about it weeks later when payment stalls. Invoicemonk validates VIES numbers automatically when you add an EU client.</p>
     `,
   },
+
+  // ═══════════════════════════════════════════════════
+  // GERMANY — Freelancer country guide (Week 2 spoke)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'how-to-invoice-german-clients-freelancer',
+    title: `How to invoice German clients as a freelancer (2026)`,
+    excerpt: `A plain-English guide to German invoice requirements: mandatory fields under §14 UStG, the Kleinunternehmer exemption, Leistungsdatum, and the ZUGFeRD/XRechnung e-invoicing rollout.`,
+    content: `<p>You just landed your first German client. Their finance team is already asking for an invoice that meets §14 UStG requirements, and they want to know your Leistungsdatum. Sound familiar? Germany has stricter invoice rules than most EU countries, but once you know the differences, it is not complicated. This guide walks you through every mandatory field, the Kleinunternehmer exemption, reverse charge wording, and the e-invoicing rollout that is happening right now.</p>
+
+<h2>Germany's invoicing law: why §14 UStG matters</h2>
+<p>German invoice requirements are spelled out in §14 of the Umsatzsteuergesetz (UStG), the German VAT Act, and your client's accountant will reject any invoice that does not meet them.</p>
+<p>The stakes are real. If your invoice is missing a required field, your client cannot deduct the VAT as input tax (Vorsteuer). Their accounting team will send it back, and you will not get paid until you fix it. During a tax audit, the Finanzamt (Germany's tax authority) scrutinises every incoming invoice, and an incomplete one from you can cause problems for both sides.</p>
+<p>The good news: the list of required fields is finite and learnable. Here is exactly what needs to go on every invoice you send to a German client.</p>
+
+<h2>The mandatory fields for a German invoice</h2>
+<p>Every B2B invoice issued under §14 UStG must include twelve specific fields, each named in German on the original law and each enforceable by the Finanzamt during an audit.</p>
+<ul>
+  <li><strong>Your full legal name and address (Vollständiger Name und Anschrift):</strong> for sole traders and freelancers this is your personal legal name. A brand name alone is not enough. If you trade as "Studio X", the invoice needs "Your Name, trading as Studio X". The same rule applies to your client's name.</li>
+  <li><strong>Your tax identification number, either your Steuernummer or your USt-IdNr.:</strong> your Steuernummer is issued by your local Finanzamt when you register. Your USt-IdNr. is your EU VAT ID, which starts with "DE". You must include at least one. For cross-border EU invoices, the USt-IdNr. is required, not just the Steuernummer.</li>
+  <li><strong>Your client's full name and address:</strong> use the company's official registered name, not the department or the individual contact's name.</li>
+  <li><strong>Your client's VAT number (USt-IdNr.):</strong> required for cross-border B2B invoices where reverse charge applies.</li>
+  <li><strong>A unique, sequential invoice number (Rechnungsnummer):</strong> the sequence must be unbroken. Gaps are a red flag in audits. To cancel a mistake, issue a Stornorechnung (cancellation invoice) and use the next number for the corrected version. Never delete the original.</li>
+  <li><strong>Date of issue (Rechnungsdatum):</strong> the date you create and send the invoice.</li>
+  <li><strong>Date of supply (Leistungsdatum):</strong> the most commonly missed field. This is the date the service was performed or goods were delivered. It is not the same as the invoice date, and Germany requires both. Even if they match, you must say so explicitly: "Leistungsdatum entspricht dem Rechnungsdatum" (date of supply equals invoice date).</li>
+  <li><strong>A specific description of the services (Leistungsbeschreibung):</strong> "Consulting" or "Services" is not enough. A tax auditor must understand what was delivered without asking. Good: "Web development, client portal module, delivered March 2026." Bad: "Project work."</li>
+  <li><strong>The taxable amount per VAT rate (Nettobetrag):</strong> the amount before VAT is added.</li>
+  <li><strong>The applicable VAT rate (Steuersatz):</strong> the standard rate is 19%; the reduced rate is 7% for certain goods and services. If different rates apply to different line items, show each rate with its own subtotal.</li>
+  <li><strong>The total VAT amount (Umsatzsteuerbetrag):</strong> the euro value of the VAT charged.</li>
+  <li><strong>The total gross amount (Bruttobetrag):</strong> the final amount the client pays, including VAT.</li>
+</ul>
+<p><strong>Invoicemonk prompts you for every one of these fields, including the Leistungsdatum, before you can generate a German invoice. Nothing gets missed.</strong></p>
+
+<h2>The Leistungsdatum: Germany's most overlooked rule</h2>
+<p>The Leistungsdatum is the date your service was performed or delivered, and German tax law uses it (not the invoice date) to assign the transaction to a VAT period.</p>
+<p>The Finanzamt cares about this field deeply. If it is missing, the invoice is technically non-compliant even when everything else is correct. Your client's accountant will refuse it.</p>
+<p>Three scenarios cover almost every freelance situation:</p>
+<ul>
+  <li><strong>Service completed on a specific day:</strong> state that date clearly, for example "Leistungsdatum: 14.03.2026".</li>
+  <li><strong>Service delivered over a period</strong> such as a month-long project: state both the start and end dates, for example "Leistungszeitraum: 01.03.2026 bis 31.03.2026".</li>
+  <li><strong>Leistungsdatum is the same as the invoice date:</strong> write "Leistungsdatum entspricht dem Rechnungsdatum". You still have to say it.</li>
+</ul>
+<p>Now, here is the part that surprises most freelancers: whether you charge VAT at all depends on your situation, not your client's.</p>
+
+<h2>Do you need to charge VAT? The Kleinunternehmer exemption explained</h2>
+<p>Many German freelancers qualify for the Kleinunternehmer exemption under §19 UStG, which means they do not charge VAT at all on their invoices.</p>
+<p>The 2025 thresholds (updated from 2024) are:</p>
+<ul>
+  <li>Your turnover in the previous calendar year was <strong>€25,000 or less</strong>, AND</li>
+  <li>You expect <strong>no more than €100,000</strong> in the current year.</li>
+</ul>
+<p>If both conditions are met, you are a Kleinunternehmer and must not add VAT to your invoices.</p>
+<p>Important: you still need to state why. Every invoice from a Kleinunternehmer must include this exact note:</p>
+<blockquote>"Gemäß §19 UStG wird keine Umsatzsteuer berechnet." (No VAT is charged in accordance with §19 UStG.)</blockquote>
+<p>Without this note, an invoice with no VAT line looks like an error rather than a legal exemption. Your client's accountant will send it back.</p>
+<p><strong>What happens when you cross the threshold?</strong> The switch is immediate. The invoice that pushes you over €100,000 in a single year is the one that must start including VAT. The Finanzamt does not warn you; tracking it is your responsibility.</p>
+<p><strong>Can you opt out of the Kleinunternehmer scheme?</strong> Yes, and if you opt out you are bound to that decision for 5 years. The trade-off: you start paying VAT, but you can also reclaim VAT on your business expenses (Vorsteuer). If you have significant equipment or software costs, opting out can be worth it.</p>
+<p><strong>For non-German freelancers billing German clients:</strong> the Kleinunternehmer status is based on where you are established, not where your client is. If you are based in Bulgaria or Nigeria, §19 UStG does not apply to you. Your own country's rules determine whether you charge VAT, and for cross-border EU B2B services the reverse charge mechanism typically applies regardless, which means you would not charge German VAT anyway.</p>
+<p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:24px;font-style:italic;color:#475569;"><strong>P.S.</strong> Not sure whether you qualify as a Kleinunternehmer? The safe default is to check with your Steuerberater (tax advisor) before your first German invoice. The decision affects your VAT obligations for at least a year.</p>
+
+<h2>Reverse charge on German invoices: when and how to use it</h2>
+<p>If you are a non-German freelancer billing a VAT-registered German business, the reverse charge mechanism applies, which means you do not charge German VAT and you add specific wording to the invoice instead.</p>
+<p>The note to include, in English or German:</p>
+<blockquote>"Reverse charge: VAT liability transferred to the recipient. Supplier USt-IdNr.: [your EU VAT ID]. Customer USt-IdNr.: [client's German USt-IdNr.]"<br><br>Or in German: "Steuerschuldnerschaft des Leistungsempfängers (§13b Abs. 5 UStG)"</blockquote>
+<p>Both VAT numbers, yours and your client's, must appear on the invoice. Without the client's USt-IdNr. the reverse charge note has no legal basis, so always ask for it before creating the invoice and validate it through the EU VIES service.</p>
+<p>For a full explanation of how reverse charge works across the EU, see our guide to <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements for freelancers</a>. For a deeper look at the German-specific reverse charge mechanics, see <a href="/en/blog/germany-vat-reverse-charge-invoicing">Germany VAT reverse charge invoicing</a>.</p>
+
+<h2>Germany's e-invoicing rollout: what freelancers need to know now</h2>
+<p>Germany is in the middle of a phased e-invoicing mandate that already affects how you receive invoices and will soon dictate how you issue them.</p>
+<p>The timeline, clearly:</p>
+<ul>
+  <li><strong>January 2025 (already in effect):</strong> all German businesses must be able to receive structured e-invoices in formats like ZUGFeRD or XRechnung. If a client sends you one in these formats, you cannot legally refuse it.</li>
+  <li><strong>January 2027:</strong> businesses with annual turnover above €800,000 must issue e-invoices in structured formats. PDFs alone will no longer be accepted from these businesses.</li>
+  <li><strong>January 2028:</strong> full rollout. All businesses, including freelancers and Kleinunternehmer that exceed the issuance exemption thresholds, must issue structured e-invoices for domestic B2B transactions.</li>
+</ul>
+<p><strong>What are ZUGFeRD and XRechnung?</strong></p>
+<ul>
+  <li><strong>XRechnung</strong> is a pure XML file, machine-readable, designed for automated processing. It is required for invoices to German government bodies.</li>
+  <li><strong>ZUGFeRD</strong> is the freelancer-friendly version: a standard PDF with machine-readable XML embedded inside. You can open and read it like a normal PDF, and your client's accounting software can also process the structured data automatically.</li>
+</ul>
+<p><strong>Does this affect you right now?</strong> If you are invoicing German businesses today, you do not need to issue ZUGFeRD or XRechnung yet. But you should start asking whether your invoicing tool supports it, because by 2027 to 2028 it will not be optional.</p>
+<p><strong>Important exemption:</strong> Kleinunternehmer under §19 UStG are exempt from the e-invoicing issuance obligation, but they still must be able to receive e-invoices.</p>
+<p><strong>Invoicemonk is tracking the German e-invoicing rollout closely. <a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_body&amp;utm_campaign=blog_germany_freelancer" target="_blank" rel="noopener">Sign up</a> to be notified when ZUGFeRD export is available.</strong></p>
+
+<h2>The most common German invoice mistakes and how to avoid them</h2>
+<p>Five mistakes account for almost every rejected German invoice, and all five are easy to prevent once you know to look for them.</p>
+<ul>
+  <li><strong>Missing Leistungsdatum:</strong> the most common error. Even when it matches the invoice date, you must state it explicitly with "Leistungsdatum entspricht dem Rechnungsdatum".</li>
+  <li><strong>Using your brand name instead of your legal name:</strong> "Studio X" alone is not a valid supplier name under §14 UStG. Include your full personal name.</li>
+  <li><strong>No §19 UStG note when you are a Kleinunternehmer:</strong> an invoice with no VAT line and no explanation looks like an error. Always include the exemption note.</li>
+  <li><strong>Gaps in invoice numbering:</strong> deleting or skipping invoice numbers creates audit risk. Issue a Stornorechnung (cancellation invoice) to void a mistake and use the next number in sequence for the corrected version. For more on this, see our guide to <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>.</li>
+  <li><strong>Vague service descriptions:</strong> "Consulting" and "Services" will not satisfy the Finanzamt. Be specific about what was delivered and when.</li>
+</ul>
+
+<h2>Your German invoice checklist</h2>
+<p>Bookmark or screenshot this checklist; it covers every field the Finanzamt and your client's accountant will look for on a German invoice.</p>
+<ul>
+  <li>Full legal names and addresses for both parties</li>
+  <li>Your Steuernummer or USt-IdNr. (USt-IdNr. for cross-border work)</li>
+  <li>Client's USt-IdNr. (for reverse charge invoices)</li>
+  <li>Sequential invoice number with no gaps</li>
+  <li>Invoice date AND Leistungsdatum</li>
+  <li>Specific description of the services delivered</li>
+  <li>Net amount, VAT rate, VAT amount, gross total (or §19 UStG exemption note)</li>
+  <li>Reverse charge note if applicable</li>
+</ul>
+<p style="margin-top:24px;"><strong>Invoicemonk checks all of these for you. <a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_germany_freelancer" target="_blank" rel="noopener">Create your first Germany-compliant invoice free, no credit card required</a>.</strong></p>
+<p>Invoicing clients across Europe? Read our guide to <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements for freelancers</a> for the full picture.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>What must a freelance invoice to a German client include?</h3>
+<p>A freelance invoice sent to a German client must include the full legal names and addresses of both parties, the freelancer's Steuernummer or USt-IdNr., the client's VAT number (USt-IdNr.) for cross-border invoices, a unique sequential invoice number, the date of issue, the date of supply (Leistungsdatum), a specific description of the services performed, the taxable amount, the VAT rate and VAT amount, and the total gross amount. These requirements are set by §14 of the German VAT Act (UStG). If the freelancer is exempt under the Kleinunternehmer scheme (§19 UStG), no VAT is charged but the invoice must include the note "Gemäß §19 UStG wird keine Umsatzsteuer berechnet."</p>
+
+<h3>What is a Leistungsdatum on a German invoice?</h3>
+<p>The Leistungsdatum is the date the service was performed or the goods were delivered. It is a mandatory field on German invoices under §14 UStG and is separate from the invoice date. The Finanzamt uses the Leistungsdatum to determine which VAT period the transaction falls into. If the date of supply is the same as the invoice date, the invoice must still state this explicitly, for example by writing "Leistungsdatum entspricht dem Rechnungsdatum". Missing this field makes the invoice technically non-compliant even if all other fields are correct.</p>
+
+<h3>Do freelancers in Germany need to charge VAT?</h3>
+<p>Not always. Freelancers in Germany who qualify as Kleinunternehmer under §19 UStG are exempt from charging VAT. As of 2025, the Kleinunternehmer thresholds are: turnover of €25,000 or less in the previous year, and no more than €100,000 expected in the current year. Freelancers who qualify must not add VAT to their invoices but must include the note "Gemäß §19 UStG wird keine Umsatzsteuer berechnet." Freelancers above these thresholds must register for VAT and charge the standard rate of 19% (or 7% for qualifying services) on domestic invoices.</p>
+
+<h3>What is ZUGFeRD and does a freelancer need to use it?</h3>
+<p>ZUGFeRD is a hybrid electronic invoice format used in Germany that combines a human-readable PDF with machine-readable XML data embedded inside. It complies with the European standard EN 16931. As of January 2025, all German businesses must be able to receive e-invoices in structured formats like ZUGFeRD or XRechnung. Freelancers are not yet required to issue ZUGFeRD invoices for B2B transactions, but full mandatory issuance applies from January 2028. Kleinunternehmer under §19 UStG are exempt from the issuance obligation but must still be able to receive structured e-invoices.</p>
+
+<h3>What is the Kleinunternehmer rule for German freelancers?</h3>
+<p>The Kleinunternehmerregelung is a VAT exemption under §19 of the German VAT Act (UStG) that allows freelancers and small businesses with modest turnover to skip charging VAT entirely. From 2025, the thresholds are: turnover of €25,000 or less in the previous calendar year, and no more than €100,000 forecast for the current year. Freelancers who qualify do not charge VAT, do not file VAT returns, and do not need a USt-IdNr. for domestic invoices. They must note the exemption on every invoice and cannot reclaim VAT on their own business expenses.</p>
+    `,
+    category: 'Tax and Compliance',
+    tags: ['Germany', 'VAT', 'Freelancer', 'E-Invoicing', 'Kleinunternehmer', 'UStG'],
+    date: '2026-05-05',
+    dateModified: '2026-05-05',
+    lastAudited: '2026-05-05',
+    author: defaultAuthor,
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'Germany freelancer invoicing guide',
+    readTime: '10 min read',
+  },
+
+  // ═══════════════════════════════════════════════════
+  // NETHERLANDS — ZZP'er country guide (Week 2 spoke)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'dutch-invoice-requirements-freelancers',
+    title: `Dutch invoice requirements for freelancers (2026 guide)`,
+    excerpt: `BTW, KVK numbers, the KOR exemption, and the dual VAT number trap: everything a freelancer needs to invoice Dutch clients correctly without exposing their personal BSN.`,
+    content: `<p>Dutch freelancers receive two VAT numbers from the Belastingdienst. Only one of them belongs on your invoices. The other contains your personal citizen service number (BSN), and putting it on a client-facing document is a genuine identity fraud risk. Most guides do not mention this. This one does. Below: the mandatory invoice fields, the BTW-ID vs. OB-nummer distinction, the KOR small-business exemption, and how to handle BTW for international clients.</p>
+
+<h2>The Dutch invoicing landscape: what makes it different</h2>
+<p>The Netherlands follows EU VAT rules but layers Dutch-specific requirements on top, including a mandatory KVK number and the dual VAT number system unique to sole traders.</p>
+<p>Dutch VAT is called BTW (Belasting Toegevoegde Waarde). The tax authority is the Belastingdienst. Dutch freelancers and self-employed professionals are called ZZP'ers (zelfstandige zonder personeel, literally "self-employed without employees"), and there are over 1.78 million of them as of 2025.</p>
+<p>One key point: Dutch invoicing rules apply to you even if you are not based in the Netherlands. If you are billing a Dutch client, your invoice still needs to meet Dutch expectations, including correct BTW handling based on your status and location.</p>
+<p>Now, the most important thing to get right, and the one most freelancers get wrong.</p>
+
+<h2>The dual VAT number trap: BTW-ID vs. OB-nummer</h2>
+<p>Dutch sole traders receive two VAT numbers from the Belastingdienst, and only the BTW-ID belongs on invoices; the OB-nummer is derived from your personal BSN and must never appear on client-facing documents.</p>
+<p>When a Dutch sole trader (eenmanszaak) registers with the Belastingdienst, they receive:</p>
+<ul>
+  <li><strong>BTW-identificatienummer (BTW-ID):</strong> format NL + 9 digits + B + 2 check digits, for example NL123456789B01. Designed for public use on invoices, quotes, and your business website. Contains no personal identity information. <strong>This is the number that goes on your invoices, always.</strong></li>
+  <li><strong>Omzetbelastingnummer (OB-nummer):</strong> used exclusively for communications with the Belastingdienst, including VAT returns and tax correspondence. For sole traders, this number is derived from their personal BSN (Burgerservicenummer, citizen service number). Putting it on a client-facing invoice exposes your personal identity to fraud risk. <strong>It must never appear on any document a third party will see.</strong></li>
+</ul>
+<p>Why does this matter? The two numbers look similar and arrive in the same registration paperwork. Many freelancers, especially those new to the Dutch system, accidentally use the OB-nummer on invoices without realising what it contains.</p>
+<p>The fix is simple: check your registration letter from the Belastingdienst. The BTW-ID starts with "NL" and ends with "B" followed by two digits. If the number you have been putting on invoices does not match that format, stop and switch to the correct one immediately.</p>
+<p><strong>Note:</strong> this dual number system only affects sole traders (eenmanszaak). If you operate through a BV (private limited company), you have a single VAT number that serves both purposes.</p>
+<p><strong>Invoicemonk uses your BTW-ID field for all client-facing documents. Your OB-nummer is never included.</strong></p>
+
+<h2>The mandatory fields for a Dutch invoice</h2>
+<p>A compliant Dutch invoice must contain a specific set of fields, including the KVK number and BTW-ID that go beyond the EU baseline.</p>
+<ul>
+  <li><strong>Your business name and address:</strong> if you trade under a name different from your legal name, your trade name is fine, but your KVK registration must match.</li>
+  <li><strong>Your KVK number (Kamer van Koophandel):</strong> your 8-digit registration number from the Dutch Chamber of Commerce. Every invoice from a Dutch-registered business must include it.</li>
+  <li><strong>Your BTW-identificatienummer (BTW-ID):</strong> the NL + 9 digits + B + 2 digits format. Not your OB-nummer.</li>
+  <li><strong>Your client's full name and address.</strong></li>
+  <li><strong>Your client's BTW number:</strong> required for cross-border EU B2B invoices where reverse charge applies. Always verify it on the EU VIES database before applying reverse charge.</li>
+  <li><strong>A unique sequential invoice number:</strong> an unbroken sequence with no gaps. If you void an invoice, document it; never reuse or skip the number. "2026-001, 2026-002..." is a clean, auditable format.</li>
+  <li><strong>Invoice date (factuurdatum).</strong></li>
+  <li><strong>Date of supply (leveringsdatum):</strong> the date the service was delivered or the goods were transferred. Similar in spirit to Germany's Leistungsdatum.</li>
+  <li><strong>A clear description of services or goods:</strong> specific enough that a tax auditor understands what was delivered without asking.</li>
+  <li><strong>The taxable amount per BTW rate:</strong> the net amount before BTW is added.</li>
+  <li><strong>The BTW rate applied:</strong> the standard rate is 21%. The reduced rate of 9% applies to certain categories (food, books, some medical services). Most freelance services fall under 21%.</li>
+  <li><strong>The total BTW amount.</strong></li>
+  <li><strong>The total gross amount payable.</strong></li>
+  <li><strong>Payment terms:</strong> not legally required for VAT purposes, but Dutch business practice expects a specific due date. "Payment due by 15 June 2026" is better than "Net 30." The standard is 30 days.</li>
+</ul>
+<p>One more Dutch-specific rule: you must send your invoice no later than the 15th day of the month following the month the service was delivered. Complete a project in May, the invoice goes out by 15 June.</p>
+<p><strong>Invoicemonk includes the KVK number and BTW-ID fields as standard. Sequential numbering is enforced automatically; gaps are not possible.</strong></p>
+
+<h2>Do you need to charge BTW? The KOR exemption explained</h2>
+<p>Dutch freelancers with annual turnover of €20,000 or less can opt into the KOR (Kleineondernemersregeling) and stop charging BTW entirely, but the rules around invoice wording and the 3-year lock-in are strict.</p>
+<p><strong>The KOR threshold:</strong> annual turnover of €20,000 or less in the Netherlands.</p>
+<p><strong>What changes when you are on KOR:</strong></p>
+<ul>
+  <li>No BTW line appears on your invoices at all.</li>
+  <li>Do not write "0% BTW"; that implies a different exemption (zero-rated supply) and will confuse your client's accountant.</li>
+  <li>Instead, include this exact note: "BTW vrijgesteld op grond van artikel 25 Wet op de omzetbelasting 1968".</li>
+  <li>Your invoice total equals the net amount; there is no gross/net distinction.</li>
+  <li>You still need every other mandatory field: KVK number, BTW-ID, sequential numbering, and the rest.</li>
+  <li>You cannot reclaim BTW on your own business expenses.</li>
+</ul>
+<p><strong>How to apply:</strong> submit the "Melding omzetbelasting kleineondernemersregeling" form via Mijn Belastingdienst Zakelijk at least 4 weeks before the start of the next quarter. Wait for written confirmation before treating any sales as BTW-exempt.</p>
+<p><strong>The 3-year commitment:</strong> once on KOR, you are locked in for a minimum of 3 years before you can voluntarily opt out. Plan accordingly.</p>
+<p><strong>New from 2025, the EU-KOR:</strong> Dutch freelancers can now apply for VAT exemption in other EU countries through the EU-KOR scheme, provided their total EU-wide turnover does not exceed €100,000 per year. This is a separate application from the domestic KOR and is optional; you can choose which EU countries it applies in.</p>
+<p><strong>For non-Dutch freelancers billing Dutch clients:</strong> KOR is only available to businesses established in the Netherlands. If you are based in Bulgaria, Nigeria, or the UK, KOR does not apply to you. Your own country's rules govern your VAT status, and for cross-border EU B2B services reverse charge typically applies regardless.</p>
+
+<h2>Cross-border invoicing: how BTW works for international clients</h2>
+<p>BTW treatment for cross-border work depends on whether your client is in another EU country, outside the EU, or whether you (the freelancer) are the one based abroad billing a Dutch client.</p>
+<p>Here is where it gets interesting. Three scenarios cover almost every situation.</p>
+<p><strong>Scenario A: you are a Dutch ZZP'er billing an EU business client in another country.</strong> The reverse charge mechanism applies. You do not charge Dutch BTW. Instead, include your BTW-ID and your client's VAT number on the invoice and add the notation "BTW verlegd" (VAT reverse-charged). Your client accounts for the VAT in their own country. Always verify your client's VAT number via the EU VIES system before applying reverse charge. If the number turns out to be invalid, you are required to charge Dutch BTW at the standard rate, even if you already sent the invoice without it.</p>
+<p><strong>Scenario B: you are a Dutch ZZP'er billing a non-EU client (US, UK, Nigeria, etc.).</strong> No BTW applies. Include a note on the invoice explaining the exemption; the service is considered to be supplied outside the EU.</p>
+<p><strong>Scenario C: you are a non-Dutch freelancer billing a Dutch business client.</strong> Reverse charge applies. You do not charge your domestic VAT. Include the reverse charge notation on the invoice (in English, "VAT: reverse charge", or cite Article 196 of the EU VAT Directive). Include both your VAT number and your client's Dutch BTW-ID.</p>
+<p>For a full explanation of how reverse charge works across all 27 EU member states, see our guide to <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements for freelancers</a>. If your next client is in Germany, see our guide to <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients as a freelancer</a> for the country-specific rules.</p>
+
+<h2>The most common Dutch invoice mistakes</h2>
+<p>Five mistakes account for almost every rejected Dutch invoice; each one is easy to prevent once you know to check for it.</p>
+<ul>
+  <li><strong>Using the OB-nummer instead of the BTW-ID:</strong> the OB-nummer is for Belastingdienst communications only. It contains your personal BSN and must never appear on client-facing invoices. Confirm your BTW-ID follows the NL + 9 digits + B + 2 digits format.</li>
+  <li><strong>Missing the KVK number:</strong> a Dutch-specific requirement that the EU VAT baseline does not include. Without it, the invoice is technically invalid under Dutch law.</li>
+  <li><strong>Writing "0% BTW" when on the KOR scheme:</strong> "0% BTW" implies a zero-rated supply, a different legal concept. KOR invoices must include the article 25 exemption wording instead.</li>
+  <li><strong>Not verifying the client's BTW number before applying reverse charge:</strong> if the client's VAT number is invalid, you remain liable for the BTW. Check every new client on VIES before sending the first invoice. For mistakes that need to be corrected after the fact, see our guide on <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>.</li>
+  <li><strong>Missing or vague payment due date:</strong> "Net 30" is unclear. Dutch clients and their accountants expect a specific date. Use "Payment due by [exact date]" on every invoice.</li>
+</ul>
+
+<h2>Your Dutch invoice checklist</h2>
+<p>Bookmark or screenshot this checklist; it covers every field a Dutch client's accountant and the Belastingdienst will look for.</p>
+<ul>
+  <li>Business name and address</li>
+  <li>KVK number (8 digits)</li>
+  <li>BTW-ID (NL format, not your OB-nummer)</li>
+  <li>Client's name and address</li>
+  <li>Client's BTW number (for cross-border EU invoices)</li>
+  <li>Sequential invoice number with no gaps</li>
+  <li>Invoice date and delivery date</li>
+  <li>Specific description of services</li>
+  <li>Net amount, BTW rate, BTW amount, gross total (or KOR exemption note)</li>
+  <li>"BTW verlegd" notation for EU cross-border B2B invoices</li>
+  <li>Specific payment due date</li>
+</ul>
+<p style="margin-top:24px;"><strong>Invoicemonk handles all of this, including the BTW-ID field, sequential numbering, and reverse charge notation. <a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_netherlands_freelancer" target="_blank" rel="noopener">Create your first Dutch-compliant invoice free, no credit card required</a>.</strong></p>
+<p>Invoicing across Europe? Start with our full guide to <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements for freelancers</a>.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>What must a freelance invoice to a Dutch client include?</h3>
+<p>A Dutch invoice must include the freelancer's business name and address, their 8-digit KVK number (Chamber of Commerce registration), their BTW-identificatienummer (in NL + 9 digits + B + 2 digits format), the client's name and address, the client's BTW number for cross-border invoices, a unique sequential invoice number, the invoice date, the date of supply, a clear description of services, the applicable BTW rate (21% standard or 9% reduced), the BTW amount, and the total gross amount. The invoice must be sent no later than the 15th day of the month following the month of supply.</p>
+
+<h3>What is the difference between a BTW-ID and an OB-nummer in the Netherlands?</h3>
+<p>Dutch sole traders (eenmanszaak) receive two VAT-related numbers. The BTW-identificatienummer (BTW-ID) is the public-facing number in the format NL + 9 digits + B + 2 digits; this is the number that belongs on invoices and client-facing documents. The omzetbelastingnummer (OB-nummer) is used only for communications with the Belastingdienst. For sole traders, the OB-nummer is derived from their personal BSN (citizen service number), which means putting it on a client-facing invoice creates an identity fraud risk. Only the BTW-ID should ever appear on invoices.</p>
+
+<h3>What is the KOR scheme and how does it affect Dutch freelance invoices?</h3>
+<p>The KOR (Kleineondernemersregeling) is a Dutch VAT exemption available to freelancers and small businesses with annual turnover of €20,000 or less. If you qualify and opt in, you stop charging BTW entirely. KOR invoices must not include a BTW line or write "0% BTW"; instead, they must include the note "BTW vrijgesteld op grond van artikel 25 Wet op de omzetbelasting 1968." All other mandatory fields (KVK number, BTW-ID, sequential numbering) still apply. KOR participants cannot reclaim BTW on their business expenses and must commit to the scheme for at least 3 years before opting out.</p>
+
+<h3>What does "BTW verlegd" mean on a Dutch invoice?</h3>
+<p>"BTW verlegd" is the Dutch phrase for "VAT reverse-charged." It appears on invoices when a Dutch freelancer bills a VAT-registered business in another EU country. Under the reverse charge mechanism, the Dutch freelancer does not charge BTW; instead, the client accounts for the VAT in their own country. The invoice must include both the freelancer's BTW-ID and the client's VAT number, and the words "BTW verlegd" must appear on the invoice. The client's VAT number should always be verified on the EU's VIES database before applying reverse charge treatment.</p>
+
+<h3>Does a non-Dutch freelancer need to include a KVK number when invoicing a Dutch client?</h3>
+<p>No. The KVK number (Dutch Chamber of Commerce registration number) is only required on invoices from businesses registered in the Netherlands. A freelancer based outside the Netherlands does not have a KVK number and is not required to include one. The invoice must still comply with EU VAT rules, include the correct reverse charge notation and both VAT numbers for B2B cross-border invoices, and meet the Dutch client's own invoicing expectations.</p>
+    `,
+    category: 'Tax and Compliance',
+    tags: ['Netherlands', 'BTW', 'Freelancer', 'ZZP', 'KOR', 'KVK'],
+    date: '2026-05-05',
+    dateModified: '2026-05-05',
+    lastAudited: '2026-05-05',
+    author: defaultAuthor,
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'Netherlands freelancer invoicing guide',
+    readTime: '11 min read',
+  },
 ];
 
 // Register posts in the global blog posts array
