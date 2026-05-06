@@ -1964,7 +1964,453 @@ export const cluster19Posts: BlogPost[] = [
 
       <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_sequential_numbering" target="_blank" rel="noopener">Start issuing sequentially numbered, VAT-compliant invoices free, no credit card required</a>.</strong></p>
 
-      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Need to correct an invoice without breaking your sequence? Read our guide to <a href="/en/blog/credit-note-guide-when-how-to-issue">credit notes under EU law</a>.</p>
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Need to correct an invoice without breaking your sequence? Read our guide to <a href="/en/blog/how-to-issue-credit-note-freelancer">how to issue a credit note</a>.</p>
+    `,
+  },
+
+  // ═══════════════════════════════════════════════════
+  // CREDIT NOTE GUIDE — EU FREELANCER (Week 5)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'how-to-issue-credit-note-freelancer',
+    title: 'How to issue a credit note — the complete freelancer guide',
+    excerpt: "Made an error on an invoice? Here's exactly when to issue a credit note, what it must include, how VAT is affected, and how to keep your invoice sequence intact.",
+    category: 'Tax and Compliance',
+    tags: [
+      'how to issue a credit note',
+      'credit note vs correction invoice',
+      'when to issue a credit note freelancer',
+      'how to cancel an invoice EU',
+      'credit note mandatory fields EU',
+      'credit note VAT adjustment',
+      'correction invoice freelancer',
+      'credit note sequential numbering',
+      'partial credit note invoice',
+      'credit note template freelancer',
+    ],
+    author: defaultAuthor,
+    date: '2026-05-06',
+    dateModified: '2026-05-06',
+    lastAudited: '2026-05-06',
+    readTime: '13 min read',
+    featuredImage: '/images/blog/credit-note-guide.jpg',
+    featuredImageAlt: 'Freelancer issuing a credit note to correct a sent invoice under EU VAT rules',
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    priority: 'P1',
+    pillarContent: false,
+    macroContext: 'EU freelancer credit note compliance: when to issue, mandatory fields, VAT adjustment timing, sequential numbering, full vs partial corrections, and country-specific nuances (Germany Gutschrift trap, France avoir under the 2026 e-invoicing mandate, Netherlands creditnota).',
+    semanticKeywords: [
+      'how to issue a credit note',
+      'credit note vs correction invoice',
+      'when to issue a credit note freelancer',
+      'how to cancel an invoice EU',
+      'credit note mandatory fields EU',
+      'credit note VAT adjustment',
+      'correction invoice freelancer',
+      'credit note sequential numbering',
+      'partial credit note invoice',
+      'credit note template freelancer',
+      'Stornorechnung',
+      'Gutschrift',
+      'avoir',
+      'creditnota',
+    ],
+    entityMentions: [
+      { name: 'EU VAT Directive 2006/112/EC' },
+      { name: 'Stornorechnung' },
+      { name: 'Gutschrift' },
+      { name: 'Rechnungskorrektur' },
+      { name: 'Avoir' },
+      { name: 'Note de crédit' },
+      { name: 'Creditnota' },
+      { name: 'BTW-ID' },
+      { name: 'KVK' },
+      { name: 'Service des Impôts des Entreprises' },
+      { name: 'Plateforme Agréée' },
+    ],
+    relatedTools: [],
+    faq: [
+      {
+        question: 'What is a credit note and when should I issue one?',
+        answer: 'A credit note is a legally binding document that reduces or cancels a previously issued invoice. It is the correct method under EU VAT law for correcting invoicing mistakes, processing cancellations, or issuing partial refunds. A credit note must be issued when an invoice contains a material error (wrong amount, wrong VAT rate, wrong client), when a project is cancelled after an invoice has been sent, when a partial refund is agreed with a client, or when a duplicate invoice has been issued. Deleting or modifying a sent invoice is not a valid correction method in the EU.',
+      },
+      {
+        question: 'What must a credit note include under EU law?',
+        answer: 'Under EU VAT Directive 2006/112/EC, a credit note must include: a clear label identifying it as a credit note, a unique sequential credit note number (in its own number series, separate from invoices), the date of issue, a specific reference to the original invoice by number and date, the full names and addresses of both parties, VAT numbers where applicable, a description of what is being credited and why, the credited amount shown as a negative figure, and the VAT amount being reversed (also negative, if the original invoice included VAT). The credit note must mirror the VAT treatment of the original invoice it corrects.',
+      },
+      {
+        question: 'How does a credit note affect my VAT return?',
+        answer: 'When a freelancer issues a credit note that reduces or cancels a VAT invoice, their output VAT must be adjusted accordingly. If the credit note is issued in the same VAT period as the original invoice, the adjustment appears in the same return. If the original return has already been filed, the adjustment is made in the next VAT return period. The client who received the original invoice must also reduce their input VAT claim by the corresponding amount when they receive the credit note. For reverse charge invoices, the credit note also shows no VAT; the reversal is handled by the client in their own VAT return, mirroring the original reverse charge treatment.',
+      },
+      {
+        question: 'What is the difference between a full cancellation credit note and a partial credit note?',
+        answer: 'A full cancellation credit note completely reverses an original invoice; all amounts are shown as negative figures mirroring the original exactly. It is used when a project is cancelled entirely, an invoice was sent to the wrong client, or the error requires starting fresh. A partial credit note reverses only part of an invoice, for example a single incorrect line item or an agreed price reduction. The original invoice remains valid for the balance; only the credited amount appears on the partial credit note. After either type of credit note, a replacement invoice (if needed) receives the next sequential number; the original number is never reused.',
+      },
+      {
+        question: 'Do credit notes have their own invoice number sequence?',
+        answer: 'Yes. Credit notes must have their own sequential number series, separate from the invoice sequence. A common format is CN-2026-001, CN-2026-002. The original invoice number that the credit note cancels is never reused or removed from the sequence; both the original invoice and the credit note remain permanently in the audit trail. When a corrected replacement invoice is issued after a full credit note, it receives the next number in the invoice sequence (not the original cancelled number). This three-document structure (original invoice, credit note, corrected invoice) is the standard audit trail that EU tax authorities expect to see.',
+      },
+    ],
+    content: `
+      <p>You sent the invoice. Then you spotted the error: wrong amount, wrong VAT rate, wrong client name. Or the client cancelled the project three days later. Your instinct is to delete the invoice and start again. Do not do that.</p>
+
+      <p>In the EU, deleting or modifying a sent invoice is not a valid correction method. The correct approach is a credit note: a separate document that formally reverses or adjusts the original. This guide explains exactly when to use one, what it must contain, how it affects your VAT, and how to do it without creating gaps in your invoice sequence.</p>
+
+      <h2>What is a credit note, and what is it not?</h2>
+      <p data-answer="true">A credit note, sometimes called a correction invoice or cancellation invoice depending on the country, is a legally binding document that reduces or cancels a previously issued invoice. It is the only compliant method under EU VAT law for correcting a sent invoice.</p>
+
+      <p>What makes it different from a replacement invoice: it does not replace the original. Both documents coexist in your records. The credit note references the original by number and date, creates a negative entry in your accounts, and formally adjusts what the client owes.</p>
+
+      <p>Three things a credit note is <em>not</em>:</p>
+      <ul>
+        <li><strong>It is not a refund.</strong> A credit note is a document. If money needs to be returned to the client, that is a separate bank transaction. The credit note provides the legal basis for the refund; it is not the refund itself.</li>
+        <li><strong>It is not a deleted invoice.</strong> You cannot retroactively remove a sent invoice from your records. A sent invoice is a legal document that must be retained, typically for 6 to 10 years depending on the country.</li>
+        <li><strong>It is not optional.</strong> In most EU member states, issuing a credit note when a correction is required is a legal obligation, not a courtesy. Skipping it and simply accepting less payment than invoiced creates a discrepancy that will surface in a VAT audit.</li>
+      </ul>
+
+      <h2>When do you need to issue a credit note?</h2>
+      <p data-answer="true">You need to issue a credit note in five common scenarios: a material error on a sent invoice, a cancelled project, a partial refund or scope reduction agreed with the client, a duplicate or wrong-client invoice, or a retrospective adjustment to a previously paid invoice.</p>
+
+      <h3>Scenario 1: You made an error on the invoice (wrong amount, wrong rate, wrong VAT)</h3>
+      <p>Any material error on a sent invoice requires a correction document. Minor typographical errors that do not affect the transaction (a misspelled street name, for example) generally do not require formal correction. But errors that affect the financial or tax position, such as a wrong net amount, wrong VAT rate, wrong currency, or incorrect service description, must be corrected with a credit note.</p>
+
+      <h3>Scenario 2: The client cancelled the project after you sent the invoice</h3>
+      <p>If a client cancels after the invoice was issued, you cannot simply forget about the invoice. It exists in your accounts as receivable income and VAT collected (or declared). You must issue a credit note for the full amount to formally reverse the transaction.</p>
+
+      <h3>Scenario 3: The client is disputing part of the invoice (partial refund agreed)</h3>
+      <p>If you and the client agree to reduce the invoice amount because the scope changed, a milestone was not completed, or quality was disputed, issue a partial credit note for the difference. The original invoice remains valid for the agreed amount.</p>
+
+      <h3>Scenario 4: The client was invoiced in error (duplicate invoice or wrong client)</h3>
+      <p>If you accidentally sent the same invoice twice, or sent it to the wrong client, issue a full credit note referencing the incorrect invoice. Then, if applicable, issue a new correct invoice to the right client.</p>
+
+      <h3>Scenario 5: A previously paid invoice needs a retrospective adjustment</h3>
+      <p>If an overpayment was made and you need to offset it against a future invoice, a credit note documents the adjustment formally. This keeps both parties' VAT records consistent.</p>
+
+      <p>Now that you know when to issue one, here is exactly what needs to go on it.</p>
+
+      <h2>What a credit note must include</h2>
+      <p data-answer="true">Under EU VAT Directive 2006/112/EC, a credit note is treated as an invoice for VAT purposes. It must contain essentially the same mandatory fields as the original invoice it references, plus the specific reference information that links it back.</p>
+
+      <p>The complete credit note checklist:</p>
+      <ul>
+        <li><strong>The words "Credit Note"</strong> (or country-equivalent). It must be clearly labelled as a credit note, not an invoice. In Germany: "Stornorechnung" or "Gutschrift" (use carefully; Gutschrift has a specific legal meaning in Germany). In France: "Note de crédit" or "Avoir". In the Netherlands: "Creditnota".</li>
+        <li><strong>A unique, sequential credit note number.</strong> Credit notes have their own number sequence, separate from your invoice sequence. Use a format like CN-2026-001, CN-2026-002. These numbers must also be sequential and gap-free.</li>
+        <li><strong>Date of issue.</strong></li>
+        <li><strong>A specific and unambiguous reference to the original invoice.</strong> This is the critical field. Include the original invoice number and date. Example: "This credit note cancels invoice INV-2026-049, dated 3 June 2026." Without this reference, the credit note has no legal link to the transaction it is correcting.</li>
+        <li><strong>Your full name and address.</strong></li>
+        <li><strong>Your VAT number</strong> (if applicable).</li>
+        <li><strong>Your client's full name and address.</strong></li>
+        <li><strong>Your client's VAT number</strong> (if applicable).</li>
+        <li><strong>A description of what is being credited and why.</strong> Be specific. "Credit for cancelled project: web development, contracted May 2026" is correct. "Credit" alone is not sufficient.</li>
+        <li><strong>The credited amount, shown as a negative figure.</strong> The net amount being reversed, displayed as a negative number (for example, -€2,000.00). Some tools show it as a positive with the credit note label making the direction clear; either is acceptable as long as it is unambiguous.</li>
+        <li><strong>The VAT amount being reversed</strong> (if the original invoice included VAT). Also shown as a negative figure.</li>
+        <li><strong>The total amount credited (gross), also negative.</strong></li>
+      </ul>
+
+      <p style="background:#fff7ed;border-left:4px solid #f97316;padding:16px 20px;border-radius:8px;margin:24px 0;"><strong>Invoicemonk callout:</strong> Invoicemonk generates credit notes with all of these fields pre-filled from the original invoice, including the sequential credit note number and the reference to the original. You select the invoice to credit, enter the amount and reason, and the document is ready. <a href="/invoicing">Try the free invoice generator</a>.</p>
+
+      <h2>Full cancellation vs partial credit: which one to use?</h2>
+      <p data-answer="true">Use a full cancellation credit note when the entire transaction is being reversed; use a partial credit note when only part of the invoice is being adjusted. When in doubt, cancel fully and reissue cleanly.</p>
+
+      <h3>Full cancellation credit note</h3>
+      <p>Use when you need to completely reverse an invoice: the project was cancelled, the invoice was sent to the wrong client, or the error is so significant that starting fresh is cleaner.</p>
+      <p>The credit note mirrors the original invoice exactly (same amounts, same line items) but all figures are negative. Net amount: -€2,000.00. VAT: -€380.00. Total: -€2,380.00.</p>
+      <p>After the credit note is issued, the original invoice is formally cancelled. If a new correct invoice is needed, issue it as a new document with the next sequential number.</p>
+
+      <h3>Partial credit note</h3>
+      <p>Use when only part of the invoice needs to be adjusted: a pricing error on one line item, a scope reduction, or a partial refund agreed with the client.</p>
+      <p>The credit note shows only the amount being reversed, not the full invoice total. Example: original invoice was €3,000. Client agreed to pay €2,500 after a scope change. Issue a credit note for -€500 (plus any applicable VAT adjustment). The original invoice remains valid; the net position is €2,500 owed.</p>
+      <p>Which to use depends on whether the transaction itself is being cancelled or just adjusted. When in doubt: cancel fully and reissue cleanly. Partial corrections with multiple credit notes and re-invoices create complex audit trails that are harder to explain.</p>
+
+      <h2>How credit notes affect VAT, and your VAT return</h2>
+      <p data-answer="true">When you issue a VAT invoice, you declare output VAT. If you later issue a credit note that reduces or cancels that invoice, your output VAT must be adjusted accordingly: in the same VAT return period if possible, or in the next period if the original return has already been filed.</p>
+
+      <p>Concretely: you invoiced €2,000 + €380 VAT (19%) in May. In June you issue a full credit note. Your June VAT return must reflect a -€380 adjustment to output VAT. If you already filed the May return without knowing the correction was coming, you correct it in June's return, not by amending the May return.</p>
+
+      <p>For your client: if they already claimed input VAT based on your invoice, they must reduce their input VAT claim by the same amount when they receive the credit note. This is why sending the credit note to the client promptly matters; delays cause their VAT records to be overstated until they receive it.</p>
+
+      <p>For reverse charge invoices: if the original invoice was a reverse charge transaction with no VAT shown, the credit note also shows no VAT. The reversal is handled by the client in their own VAT return. For a deeper walkthrough, see our pillar on <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge for EU freelancers</a>.</p>
+
+      <h2>Credit notes and sequential numbering: keeping the sequence intact</h2>
+      <p data-answer="true">The original invoice number is never reused. Once INV-2026-049 is issued, that number belongs to that document permanently, even if a credit note cancels it completely. Credit notes have their own sequence (CN-2026-001, CN-2026-002), and a corrected replacement invoice receives the next number in the invoice sequence.</p>
+
+      <p>The relationship between credit notes and sequential numbering is one of the most misunderstood aspects of invoice compliance. Here is how they interact:</p>
+
+      <ul>
+        <li><strong>The original invoice number is never reused.</strong> Once INV-2026-049 is issued, that number belongs to that document permanently, even if a credit note cancels it completely. The cancelled invoice and its credit note both remain in your records as an audit trail.</li>
+        <li><strong>Credit notes have their own sequence.</strong> Do not number credit notes within your invoice sequence. Use a separate prefix: CN-2026-001, CN-2026-002. This keeps the two document types clearly distinguishable in your records.</li>
+        <li><strong>A corrected replacement invoice gets the next invoice number.</strong> If you cancel INV-2026-049 with credit note CN-2026-001 and need to reissue a corrected invoice, the corrected version is INV-2026-050: the next number in the invoice sequence.</li>
+      </ul>
+
+      <p>What the audit trail looks like:</p>
+      <table style="width:100%;border-collapse:collapse;margin:16px 0;">
+        <thead>
+          <tr style="background:#f1f5f9;">
+            <th style="text-align:left;padding:10px;border:1px solid #e2e8f0;">Document</th>
+            <th style="text-align:left;padding:10px;border:1px solid #e2e8f0;">Date</th>
+            <th style="text-align:left;padding:10px;border:1px solid #e2e8f0;">Amount</th>
+            <th style="text-align:left;padding:10px;border:1px solid #e2e8f0;">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:10px;border:1px solid #e2e8f0;"><strong>INV-2026-049</strong> (original)</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">3 June 2026</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">€2,000 + VAT</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">Cancelled</td>
+          </tr>
+          <tr>
+            <td style="padding:10px;border:1px solid #e2e8f0;"><strong>CN-2026-001</strong> (credit note)</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">5 June 2026</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">-€2,000 - VAT</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">References INV-2026-049</td>
+          </tr>
+          <tr>
+            <td style="padding:10px;border:1px solid #e2e8f0;"><strong>INV-2026-050</strong> (corrected)</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">5 June 2026</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">€1,800 + VAT</td>
+            <td style="padding:10px;border:1px solid #e2e8f0;">Active</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Three documents. No gaps. A clear audit trail that any tax authority can follow without asking questions. For a full explanation of sequential invoice numbering rules, see our guide to <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering and gap prevention</a>.</p>
+
+      <h2>Country-specific nuances worth knowing</h2>
+      <p data-answer="true">The EU baseline credit note rules are consistent across all 27 member states, but Germany, France, and the Netherlands each add specific requirements freelancers should know.</p>
+
+      <ul>
+        <li><strong>Germany:</strong> the term "Gutschrift" (credit note) has a specific legal meaning. It refers to a self-billing arrangement where the client issues the invoice on behalf of the supplier. Using it to mean a correction invoice is technically incorrect under German VAT law since 2013. Use "Stornorechnung" (cancellation invoice) or "Rechnungskorrektur" (invoice correction) instead. See our guide on <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>.</li>
+        <li><strong>France:</strong> credit notes are called "avoirs" or "notes de crédit". France's e-invoicing mandate (September 2026 for large and medium businesses, September 2027 for small and micro-enterprises) includes credit notes in scope; they must be submitted through the same Plateforme Agréée certified platforms as regular invoices. See our <a href="/en/blog/french-invoice-requirements-freelancers">French invoice requirements guide</a>.</li>
+        <li><strong>Netherlands:</strong> credit notes (creditnota) follow the same BTW rules as invoices. They must include the client's BTW-ID and the KVK number of the Dutch party. See our <a href="/en/blog/netherlands-vat-invoicing-freelancers">Dutch invoice requirements guide</a>.</li>
+      </ul>
+
+      <h2>Quick answers</h2>
+
+      <h3>What is a credit note and when should I issue one?</h3>
+      <p data-answer="true">A credit note is a legally binding document that reduces or cancels a previously issued invoice. It is the correct method under EU VAT law for correcting invoicing mistakes, processing cancellations, or issuing partial refunds. Issue one when an invoice contains a material error, when a project is cancelled after invoicing, when a partial refund is agreed, or when a duplicate invoice has been sent. Deleting or modifying a sent invoice is not a valid correction method in the EU.</p>
+
+      <h3>What must a credit note include under EU law?</h3>
+      <p data-answer="true">Under EU VAT Directive 2006/112/EC, a credit note must include a clear "Credit Note" label, a unique sequential credit note number (separate from invoices), the date of issue, a specific reference to the original invoice by number and date, both parties' names and addresses, VAT numbers where applicable, a description of what is being credited and why, the credited net amount as a negative figure, and the VAT amount being reversed (also negative).</p>
+
+      <h3>How does a credit note affect my VAT return?</h3>
+      <p data-answer="true">Your output VAT is reduced by the amount on the credit note. If the credit note is issued in the same VAT period as the original invoice, the adjustment appears in the same return. If the original return has already been filed, adjust it in the next VAT return period. Your client must reduce their input VAT claim by the same amount on receipt. For reverse charge invoices, the credit note also shows no VAT; the client mirrors the reversal in their own return.</p>
+
+      <h3>What is the difference between a full cancellation credit note and a partial credit note?</h3>
+      <p data-answer="true">A full cancellation credit note completely reverses an original invoice, with all amounts shown as negative figures mirroring the original. A partial credit note reverses only part of an invoice (one line item, an agreed price reduction), and the original invoice remains valid for the balance. After either type, a replacement invoice (if needed) gets the next sequential number; the original number is never reused.</p>
+
+      <h3>Do credit notes have their own invoice number sequence?</h3>
+      <p data-answer="true">Yes. Credit notes use a separate sequential series, commonly formatted as CN-2026-001, CN-2026-002. The cancelled invoice number is never reused. The audit trail shows three documents in sequence: the original invoice, the credit note that references it, and (if needed) a corrected replacement invoice with the next number in the invoice series.</p>
+
+      <h2>The five rules to screenshot</h2>
+      <ol>
+        <li>Never delete or modify a sent invoice. Always issue a credit note instead.</li>
+        <li>A credit note must reference the original invoice by number and date.</li>
+        <li>Credit notes have their own sequential number series, separate from your invoice sequence.</li>
+        <li>VAT on the credit note must mirror the VAT treatment on the original invoice.</li>
+        <li>If you reissue a corrected invoice, it gets the next number in your invoice sequence. Never reuse the cancelled number.</li>
+      </ol>
+
+      <p>Invoicemonk generates credit notes directly from the original invoice: pre-filled with the reference, the correct amounts (positive or negative), and the next sequential credit note number. The audit trail is built automatically.</p>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_credit_note_guide" target="_blank" rel="noopener">Issue your first credit note in Invoicemonk: free, no credit card required</a>.</strong></p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Want to understand how sequential invoice numbering works and why gaps are dangerous? Read our complete guide to <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering and gap prevention</a>. For the EU-wide rules behind credit notes, see <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a> and <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT for EU freelancers</a>. External: <a href="https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eInvoicing+in+France" rel="nofollow noopener" target="_blank">European Commission eInvoicing France page</a>.</p>
+    `,
+  },
+
+  // ═══════════════════════════════════════════════════
+  // POLAND — Foreign freelancer guide & KSeF
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'invoicing-polish-clients-foreign-freelancer',
+    title: 'Invoicing Polish clients as a freelancer — KSeF explained',
+    excerpt: 'Do you need to register for KSeF to invoice a Polish client? NIP numbers, reverse charge wording, Article 106e mandatory fields, and Biała Lista verification - explained in plain English.',
+    category: 'Tax and Compliance',
+    tags: ['invoice Poland foreign freelancer', 'KSeF freelancer', 'NIP number invoice Poland', 'Poland reverse charge invoice', 'Poland VAT invoice requirements freelancer', 'does KSeF apply to foreign companies', 'Polish VAT invoice mandatory fields Article 106e', 'Biała Lista verification', 'invoicing Polish client KSeF', 'invoice Polish business cross-border'],
+    author: defaultAuthor,
+    date: '2026-05-06',
+    dateModified: '2026-05-06',
+    lastAudited: '2026-05-06',
+    readTime: '12 min read',
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'Invoicing Polish clients as a foreign freelancer — NIP, KSeF, and reverse charge',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    priority: 'P2',
+    macroContext: 'Poland KSeF mandate scope, foreign freelancer reverse charge, Article 106e invoice fields, Biała Lista verification, PLN currency conversion, micro-entrepreneur exemption',
+    semanticKeywords: [
+      'invoice Poland foreign freelancer',
+      'KSeF freelancer',
+      'NIP number invoice Poland',
+      'Poland reverse charge invoice',
+      'Poland VAT invoice requirements freelancer',
+      'does KSeF apply to foreign companies',
+      'Polish VAT invoice mandatory fields Article 106e',
+      'Biała Lista verification',
+      'invoicing Polish client KSeF',
+      'invoice Polish business cross-border',
+      'odwrotne obciążenie invoice',
+      'FA(3) XML KSeF format'
+    ],
+    entityMentions: [
+      { name: 'KSeF (Krajowy System e-Faktur)', type: 'GovernmentService', url: 'https://www.podatki.gov.pl/ksef/' },
+      { name: 'NIP (Numer Identyfikacji Podatkowej)', type: 'Thing' },
+      { name: 'Biała Lista podatników VAT', type: 'WebApplication', url: 'https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka/' },
+      { name: 'Article 106e Polish VAT Act', type: 'Legislation' },
+      { name: 'EU VAT Directive 2006/112/EC Article 196', type: 'Legislation' },
+      { name: 'FA(3) XML format', type: 'Thing' },
+      { name: 'Polish Ministry of Finance', type: 'GovernmentOrganization', url: 'https://www.gov.pl/web/finanse' },
+      { name: 'Krajowa Administracja Skarbowa (KAS)', type: 'GovernmentOrganization' },
+      { name: 'Narodowy Bank Polski (NBP)', type: 'GovernmentOrganization', url: 'https://nbp.pl' },
+      { name: 'Faktura korygująca', type: 'Thing' },
+      { name: 'Odwrotne obciążenie', type: 'Thing' },
+      { name: 'Jednoosobowa działalność gospodarcza', type: 'Thing' }
+    ],
+    relatedTools: [
+      { label: 'Compliance Hub', url: '/compliance', description: 'Country-by-country invoice compliance for the EU, including Poland' },
+      { label: 'Free EU invoice generator', url: '/invoicing', description: 'Create reverse-charge invoices for Polish business clients' }
+    ],
+    faq: [
+      {
+        question: 'Do I need to register for KSeF to invoice a Polish client as a foreign freelancer?',
+        answer: 'No. KSeF (Krajowy System e-Faktur) is Poland\'s national e-invoicing system, and the mandate to issue invoices through KSeF applies only to taxpayers established in Poland or with a fixed establishment there. A foreign freelancer with no Polish business registration is out of scope. You issue your invoice the way you normally would, in PDF, with the reverse charge notation under Article 196 of the EU VAT Directive (or your local equivalent for non-EU suppliers). Your Polish client receives it by email and books it in their own accounting system. KSeF registration, the FA(3) XML format, and the KSeF taxpayer app are not your concern.'
+      },
+      {
+        question: 'What is a NIP number and where do I find my Polish client\'s NIP?',
+        answer: 'NIP stands for Numer Identyfikacji Podatkowej, the Polish Tax Identification Number. Every Polish business has one, and it must appear on every invoice you issue to a Polish client. The NIP is a 10-digit number, often written with hyphens (for example, 123-456-78-90) or as a continuous string. For VAT-registered businesses, the EU VAT number is the NIP prefixed with "PL" (PL1234567890), and this is the format you verify in the EU VIES database. Ask the client for their NIP at the start of the engagement, or look it up on the Biała Lista (the Polish Ministry of Finance whitelist of VAT-registered taxpayers) at podatki.gov.pl.'
+      },
+      {
+        question: 'What wording do I put on a reverse charge invoice to a Polish business?',
+        answer: 'On a cross-border B2B invoice to a Polish VAT-registered business, you charge no VAT and include both the EU and the Polish reverse charge notation. The standard wording is: "VAT: Reverse charge - Article 196, EU VAT Directive 2006/112/EC. Odwrotne obciążenie." "Odwrotne obciążenie" is the Polish phrase for reverse charge and signals to the client\'s accountant exactly how to book the invoice. Include your own tax number, the client\'s Polish VAT number in PL format (verified via VIES), the date of supply, a sequential invoice number, and a clear description of the service. The total on the invoice is the net amount only; no VAT line.'
+      },
+      {
+        question: 'Does KSeF apply to foreign companies invoicing Polish clients?',
+        answer: 'KSeF does not apply to foreign companies that have no establishment or fixed place of business in Poland. The Polish KSeF mandate covers Polish-resident taxpayers and entities with a fixed establishment in Poland that participates in the supply. A non-resident freelancer issuing a single cross-border invoice to a Polish client falls outside the scope. The Polish client may receive a paper or PDF invoice from a foreign supplier, book it in their accounts, and report the reverse charge in their own VAT return. The only obligation that affects you is the standard EU reverse charge wording and verification of the client\'s VAT number through VIES.'
+      },
+      {
+        question: 'What does KSeF mean for me if I am a freelancer based in Poland?',
+        answer: 'If you run a jednoosobowa działalność gospodarcza (a Polish sole proprietorship) and you are VAT-registered, KSeF applies to you on the active rollout schedule published by the Polish Ministry of Finance. From 1 February 2026, large taxpayers (annual turnover above PLN 200 million) must issue all B2B invoices through KSeF in the FA(3) XML format. From 1 April 2026, all other VAT-registered businesses, including freelancers, are obligated. From 1 January 2027, the smallest "micro" issuers (single invoice up to PLN 450, monthly turnover up to PLN 10,000) join, and the bank-transfer rule requiring the KSeF invoice ID in the payment reference begins applying. Corrections are issued as a faktura korygująca through KSeF, never as a deletion.'
+      }
+    ],
+    content: `
+      <p>You picked up a project for a client in Warsaw. You have read three blog posts about KSeF, Poland's new national e-invoicing system, and you are now wondering whether you need to register for it, generate XML in a specific schema, or hire a Polish accountant before you can send the first invoice.</p>
+      <p data-answer="true">Almost certainly not. KSeF applies to taxpayers established in Poland. As a foreign freelancer with no Polish business presence, you issue a normal cross-border invoice with the reverse charge notation, send it by email, and let your client handle the Polish side. This guide covers exactly what to put on that invoice, the small list of edge cases where things change, and what KSeF means for the freelancers who do live in Poland.</p>
+
+      <h2>What is KSeF, and why is everyone talking about it?</h2>
+      <p data-answer="true">KSeF (Krajowy System e-Faktur) is Poland's mandatory national e-invoicing platform. From 1 February 2026 large taxpayers must issue B2B invoices through it in a structured XML format; from 1 April 2026 all other VAT-registered businesses join; from 1 January 2027 the smallest micro issuers follow.</p>
+      <p>KSeF is operated by the Polish Ministry of Finance and Krajowa Administracja Skarbowa (KAS, the Polish tax administration). It is a clearance model: the invoice is sent first to the government platform, validated, assigned a unique KSeF invoice ID, and then exchanged with the buyer. There is no separate transmission step like in countries with a five-corner Peppol model. KSeF is the network.</p>
+      <p>The format is FA(3), a structured XML schema published by the Ministry of Finance. PDFs alone are not accepted on the mandate side. The rollout has three confirmed phases:</p>
+      <ul>
+        <li><strong>1 February 2026:</strong> large taxpayers (annual turnover above PLN 200 million in 2024) must issue all B2B invoices through KSeF.</li>
+        <li><strong>1 April 2026:</strong> all other VAT-registered Polish businesses, including most freelancers, must issue B2B invoices through KSeF.</li>
+        <li><strong>1 January 2027:</strong> the smallest "micro" issuers (single invoice up to PLN 450, monthly invoice value up to PLN 10,000) join, and the bank-transfer rule requiring the KSeF invoice ID in the payment reference becomes effective.</li>
+      </ul>
+      <p>The fear most foreign freelancers have when they hear all this is that KSeF will somehow apply to them too. It does not. Let's walk through why.</p>
+
+      <h2>Does KSeF apply to you as a foreign freelancer?</h2>
+      <p data-answer="true">No. KSeF applies to taxpayers established in Poland or with a fixed establishment there. If your business is registered abroad and you have no office, employees, or fixed place of business in Poland, you are out of scope. You issue a normal cross-border invoice in PDF and your Polish client books it on their side.</p>
+      <p>The legal scope of the KSeF mandate is anchored in the Polish VAT Act and tracks the EU concept of "fixed establishment" from the EU VAT Directive. A fixed establishment means a stable presence with both human and technical resources sufficient to supply or receive services. A laptop and a remote contract are not a fixed establishment. An apartment you rent in Kraków while you travel is not a fixed establishment either.</p>
+      <p>That means in the standard scenario - you live in Berlin, London, Lagos, or anywhere outside Poland, you have a foreign business or operate as a sole trader registered in your home country, and you invoice a Polish company once or many times - KSeF does not apply to you.</p>
+      <p>Three edge cases worth flagging:</p>
+      <ul>
+        <li><strong>You opened a Polish branch or subsidiary.</strong> If you set up a Polish entity (a sp. z o.o. or a registered branch), that entity is a Polish taxpayer and falls under KSeF on the schedule above.</li>
+        <li><strong>You are physically present in Poland with staff.</strong> If you rent office space in Warsaw with a Polish employee taking client work, the tax authority may treat you as having a fixed establishment, even without a separate Polish company.</li>
+        <li><strong>Your Polish client requests a KSeF invoice anyway.</strong> Some Polish accountants prefer to receive every invoice through KSeF for consistency. They can ask, but they cannot require it from a non-resident supplier. Keep issuing your standard PDF invoice with the reverse charge notation.</li>
+      </ul>
+      <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
+        <p style="margin:0;"><strong>Invoicemonk handles cross-border Polish invoices out of the box.</strong> Pick "Poland" as the client country and the PL VAT number field, the "Odwrotne obciążenie" notation, and the Article 196 reference appear automatically. <a href="/invoicing">Try the free invoice generator</a>.</p>
+      </aside>
+
+      <h2>What are the mandatory fields on a Polish VAT invoice?</h2>
+      <p data-answer="true">A Polish VAT invoice must include the issue date, a sequential invoice number, the supplier's and buyer's names, addresses and tax numbers, the date of supply, a description of the service, the net amount, the VAT rate and amount (or a reverse charge note), and the total. The list comes from Article 106e of the Polish VAT Act and tracks the EU baseline closely.</p>
+      <p>The full Article 106e checklist for a cross-border invoice from a foreign freelancer to a Polish business client:</p>
+      <ul>
+        <li><strong>Date of issue</strong> (data wystawienia).</li>
+        <li><strong>A sequential invoice number</strong> from an unbroken series. Read our <a href="/en/blog/sequential-invoice-numbering-eu">guide to sequential invoice numbering in the EU</a> if you have not set up a numbering scheme yet.</li>
+        <li><strong>Your full legal name and address</strong> as the supplier.</li>
+        <li><strong>Your tax identification number.</strong> If you are an EU-based supplier, this is your home-country EU VAT number (for example DE123456789, FRXX123456789). If you are a non-EU supplier, this is your local tax number; if you do not have one, your Polish client will accept a "no VAT registration in country of establishment" note alongside your business registration number.</li>
+        <li><strong>Your client's full legal name and address.</strong></li>
+        <li><strong>Your client's NIP, in PL format</strong> (PL followed by 10 digits) for a VAT-registered Polish business. This is the number you verify in VIES before applying reverse charge.</li>
+        <li><strong>Date of supply</strong> (data dokonania dostawy / wykonania usługi). The date the service was performed or completed. If different from the invoice date, both must appear.</li>
+        <li><strong>A specific description of the service</strong> (nazwa towaru lub usługi). "Consulting" is not specific enough; "UX audit of mobile checkout flow, May 2026" is.</li>
+        <li><strong>Quantity, unit price, and net amount per line.</strong></li>
+        <li><strong>Net total</strong> (wartość netto). On a reverse charge invoice, this is also the invoice total.</li>
+        <li><strong>VAT rate and VAT amount</strong> - or, on a reverse charge invoice, the words "Odwrotne obciążenie" and the Article 196 reference instead.</li>
+        <li><strong>Gross total</strong> (wartość brutto). Equal to the net total on a reverse charge invoice.</li>
+        <li><strong>Currency.</strong> You may invoice in any currency, but if you invoice in a foreign currency the Polish client converts to PLN using the National Bank of Poland (NBP) exchange rate from the working day preceding the date of supply for their VAT return. You do not have to do the conversion on the invoice, but quoting the NBP rate as a courtesy is helpful.</li>
+        <li><strong>Payment terms and bank details.</strong></li>
+      </ul>
+      <p>One Polish-specific habit worth adopting before sending the invoice: check the client on the Biała Lista (the white list of VAT-registered taxpayers) at podatki.gov.pl. The Biała Lista shows the client's active VAT status and the bank account they have registered for Polish tax purposes. If the client later disputes the invoice or your payment is delayed, having a Biała Lista screenshot from the day you issued the invoice protects you.</p>
+
+      <h2>How does reverse charge work on a Polish invoice?</h2>
+      <p data-answer="true">On a cross-border B2B invoice to a Polish VAT-registered client, you charge no VAT and add the bilingual notation: "VAT: Reverse charge - Article 196, EU VAT Directive 2006/112/EC. Odwrotne obciążenie." The Polish client reports and recovers the VAT in their own JPK_VAT return.</p>
+      <p>The mechanism is the same as any other intra-EU B2B service supply. Article 44 of the EU VAT Directive places the supply in the country where the customer is established. Article 196 then shifts the VAT obligation onto that customer. Article 226(11a) requires the words "reverse charge" on the invoice.</p>
+      <p>What this looks like on the invoice itself:</p>
+      <blockquote>VAT: Reverse charge - Article 196, EU VAT Directive 2006/112/EC.<br/>Odwrotne obciążenie.</blockquote>
+      <p>Including both lines together is the safest practice. The English line satisfies the EU directive; the Polish line tells the client's accountant exactly how to book the entry without translation. The total on the invoice is the net amount only; no VAT row, no gross total above net.</p>
+      <p>Two verification habits before you send:</p>
+      <ul>
+        <li><strong>Verify the PL VAT number in VIES.</strong> ec.europa.eu/taxation_customs/vies. If the number is invalid you cannot apply reverse charge, and if you do anyway you can be held liable for the Polish VAT. Save a screenshot or print of the result.</li>
+        <li><strong>Cross-check the Biała Lista entry.</strong> The Polish whitelist confirms the client is an active Polish VAT taxpayer and shows the bank account they have officially registered. This is a Polish-specific layer on top of VIES.</li>
+      </ul>
+      <p>And the reassurance worth repeating: KSeF does not enter the picture for you. Your Polish client receives a PDF, books it in their accounts, and reports the reverse charge in their JPK_VAT return. You file your own normal cross-border B2B sales report (the EC Sales List, recapitulative statement, or its equivalent in your home country).</p>
+
+      <h2>If you are based in Poland - what does KSeF mean for you?</h2>
+      <p data-answer="true">If you run a Polish sole proprietorship and you are VAT-registered, KSeF applies to you. From 1 April 2026 you must issue all B2B invoices through KSeF in the FA(3) XML format. The smallest "micro" issuers (single invoice up to PLN 450, monthly turnover up to PLN 10,000) join from 1 January 2027.</p>
+      <p>The practical picture for a Polish-resident freelancer (jednoosobowa działalność gospodarcza, a sole proprietorship) under KSeF:</p>
+      <ul>
+        <li><strong>The format.</strong> Invoices are issued as FA(3) XML. You do not write XML by hand: you use either the free Polish Ministry of Finance taxpayer app, an integrated invoicing tool, or your accountant's software, which generates the XML and submits it to KSeF on your behalf.</li>
+        <li><strong>The unique KSeF invoice ID.</strong> Every successfully cleared invoice receives a KSeF invoice ID. This ID is the legal identifier of the invoice. From 1 August 2026, B2B bank transfers between Polish VAT taxpayers must include the KSeF invoice ID in the payment reference. Your client cannot pay you correctly without it.</li>
+        <li><strong>The micro-entrepreneur exemption.</strong> If your single invoice value does not exceed PLN 450 and your total monthly invoice value does not exceed PLN 10,000, you are not obligated to use KSeF until 1 January 2027. The micro threshold is reviewed monthly: cross it once and you fall under the mandate from the next billing period.</li>
+        <li><strong>Corrections.</strong> Mistakes are fixed by issuing a faktura korygująca (a corrective invoice) through KSeF. You never delete or replace the original; the corrective invoice references the KSeF ID of the invoice it corrects. Read our <a href="/en/blog/credit-note-guide-when-how-to-issue">credit-note guide</a> for the EU principles that the Polish faktura korygująca implements.</li>
+        <li><strong>Invoices to private consumers (B2C).</strong> KSeF currently covers B2B invoices. Invoices to Polish private individuals continue under the existing rules; the Ministry of Finance has signalled future B2C inclusion but it is not in the active mandate.</li>
+      </ul>
+      <p>If you are based in Poland and unsure whether your invoicing setup is KSeF-ready before April 2026, talk to your accountant (księgowy) now. Migration is a software question; the legal obligation is fixed.</p>
+
+      <h2>What are the most common mistakes on invoices to Polish clients?</h2>
+      <ol>
+        <li><strong>Trying to register for KSeF as a foreign freelancer.</strong> KSeF does not apply to non-resident suppliers. You waste days on a registration that gives you nothing and does not satisfy any legal requirement. Issue a normal PDF with the reverse charge notation instead.</li>
+        <li><strong>Putting the NIP without the PL prefix.</strong> The 10-digit NIP alone is the domestic Polish tax number. For a cross-border B2B invoice you need the EU VAT format: PL followed by the 10 digits, with no spaces. That is the format VIES validates.</li>
+        <li><strong>Skipping the "Odwrotne obciążenie" line.</strong> The English Article 196 reference alone is acceptable under the EU directive, but Polish accountants book invoices faster when the Polish phrase is on the page. Including both is a small effort with a real friction reduction.</li>
+        <li><strong>Not verifying the client on Biała Lista.</strong> Biała Lista is a Polish-specific safety net. It confirms the VAT status and the official bank account. Skipping it means you have no defence if the bank account is later flagged as not belonging to the registered taxpayer.</li>
+        <li><strong>Forgetting the date of supply.</strong> Article 106e separates the date of issue from the date of supply (data dokonania dostawy lub wykonania usługi). If you delivered the service in May and invoiced in June, both dates must appear on the invoice. Many freelancers list only the invoice date and confuse the client's accountant.</li>
+      </ol>
+
+      <h2>Quick answers</h2>
+      <h3>Do I need to register for KSeF to invoice a Polish client as a foreign freelancer?</h3>
+      <p data-answer="true">No. KSeF applies only to taxpayers established or with a fixed establishment in Poland. As a non-resident freelancer you issue a normal cross-border PDF invoice with the reverse charge notation under Article 196 of the EU VAT Directive (or your local equivalent for non-EU suppliers). KSeF registration, FA(3) XML, and the KSeF taxpayer app are not your concern.</p>
+
+      <h3>What is a NIP number and where do I find my Polish client's NIP?</h3>
+      <p data-answer="true">NIP (Numer Identyfikacji Podatkowej) is the Polish Tax Identification Number. It is 10 digits long and must appear on every invoice to a Polish client. For VAT-registered businesses the EU VAT number is the NIP prefixed with "PL." Look it up on the Biała Lista at podatki.gov.pl.</p>
+
+      <h3>What wording do I put on a reverse charge invoice to a Polish business?</h3>
+      <p data-answer="true">Use both the EU and Polish notation: "VAT: Reverse charge - Article 196, EU VAT Directive 2006/112/EC. Odwrotne obciążenie." Charge no VAT, show the net amount as the total, and include the client's PL VAT number verified through VIES.</p>
+
+      <h3>Does KSeF apply to foreign companies invoicing Polish clients?</h3>
+      <p data-answer="true">No. KSeF applies to Polish-resident taxpayers and entities with a fixed establishment in Poland. A non-resident freelancer issuing cross-border invoices is out of scope and continues with normal cross-border B2B reverse charge invoicing.</p>
+
+      <h3>What does KSeF mean for me if I am a freelancer based in Poland?</h3>
+      <p data-answer="true">If you are a VAT-registered Polish sole proprietor, KSeF applies from 1 April 2026 (large taxpayers from 1 February 2026; the smallest "micro" issuers from 1 January 2027). All B2B invoices must be issued through KSeF in the FA(3) XML format, and corrections are filed as faktury korygujące through the same system.</p>
+
+      <h2>Your Polish-invoice checklist</h2>
+      <ul>
+        <li>Issue date and sequential invoice number</li>
+        <li>Your full legal name, address, and tax number</li>
+        <li>Client name, address, and PL VAT number (verified via VIES)</li>
+        <li>Date of supply (if different from issue date)</li>
+        <li>Specific service description, quantity, unit price, line net</li>
+        <li>Net total (= invoice total on a reverse charge invoice)</li>
+        <li>"VAT: Reverse charge - Article 196, EU VAT Directive 2006/112/EC. Odwrotne obciążenie."</li>
+        <li>Currency and (optional) NBP exchange-rate note</li>
+        <li>Bank details cross-checked against the Biała Lista</li>
+      </ul>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_poland_freelancer" target="_blank" rel="noopener">Create your first compliant Polish invoice free, no credit card required</a>.</strong></p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Invoicing across multiple EU countries? Read our pillar guide to <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and the reverse charge mechanism</a>, or compare with our country guides for <a href="/en/blog/how-to-invoice-german-clients-freelancer">Germany</a>, <a href="/en/blog/dutch-invoice-requirements-freelancers">the Netherlands</a>, and <a href="/en/blog/french-invoice-requirements-freelancers">France</a>.</p>
     `,
   },
 ];
