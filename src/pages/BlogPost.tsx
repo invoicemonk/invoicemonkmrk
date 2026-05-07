@@ -19,6 +19,7 @@ import { ClusterNavigation } from '@/components/blog/ClusterNavigation';
 import { ClusterTopicMap } from '@/components/blog/ClusterTopicMap';
 import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
 import { SignupCTA } from '@/components/blog/SignupCTA';
+import { ArticleSidebar } from '@/components/blog/ArticleSidebar';
 
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
 import { SEOHead } from '@/components/seo/SEOHead';
@@ -318,17 +319,13 @@ const BlogPost = () => {
                   <ArticleContent />
                 </div>
 
-                {/* Sidebar - Cluster Navigation */}
+                {/* Sidebar - TOC, Series, Signup CTA */}
                 <aside className="hidden lg:block">
-                  <div className="sticky top-24">
-                    {pillar && clusterPosts.length > 0 && (
-                      <ClusterNavigation 
-                        pillar={pillar}
-                        currentPostSlug={post.slug}
-                        relatedPosts={clusterPosts}
-                      />
-                    )}
-                  </div>
+                  <ArticleSidebar
+                    post={post}
+                    pillar={pillar}
+                    clusterPosts={clusterPosts}
+                  />
                 </aside>
               </div>
             )}

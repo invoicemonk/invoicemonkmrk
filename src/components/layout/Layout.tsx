@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { OrganizationSchema } from '@/components/seo/OrganizationSchema';
+import { ExitIntentPopup } from '@/components/marketing/ExitIntentPopup';
 
 interface LayoutProps {
   children: ReactNode;
@@ -16,6 +17,7 @@ export function Layout({ children }: LayoutProps) {
         {children}
       </main>
       <Footer />
+      <ExitIntentPopup />
     </div>
   );
 }
