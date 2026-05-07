@@ -1,4 +1,4 @@
-import { defaultAuthor } from './authors';
+import { defaultAuthor, authors } from './authors';
 import type { BlogPost } from './blogPosts';
 
 /**
@@ -1042,8 +1042,183 @@ export const cluster10Posts: BlogPost[] = [
     `
   },
 
-  // P1-KE-05 is actually Italy SDI (from the topic map) — but we put it in a separate cluster.
-  // We'll skip it here and include it in a later phase.
+  // P1-KE-06 — Foreign freelancer billing Kenyan clients (W7)
+  {
+    slug: 'invoicing-kenyan-clients-foreign-freelancer',
+    title: 'Invoicing Kenyan clients as a foreign freelancer (2026)',
+    excerpt: 'Does eTIMS apply to foreign freelancers billing Kenyan clients? Here is what KRA-compliant means for non-residents, plus the reverse charge rules and invoice wording.',
+    category: 'Tax & Compliance',
+    tags: ['Kenya', 'KRA', 'eTIMS', 'reverse charge', 'withholding tax', 'cross-border', 'freelancer', 'non-resident'],
+    author: authors['ayobami-bami'],
+    date: '2026-07-07',
+    dateModified: '2026-07-07',
+    lastAudited: '2026-07-07',
+    readTime: '14 min read',
+    featuredImage: '/images/blog/kenya-vat-requirements.jpg',
+    featuredImageAlt: 'Foreign freelancer preparing a KRA-compliant invoice for a Kenyan client',
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    targetCountry: 'ke',
+    semanticKeywords: [
+      'invoicing Kenyan clients foreign freelancer',
+      'does eTIMS apply to foreign freelancers Kenya',
+      'KRA PIN invoice non-resident Kenya',
+      'Kenya reverse charge foreign supplier',
+      'non-resident supplier Kenya VAT invoice',
+      'Kenya withholding tax freelancer',
+      'invoice Kenya cross-border services',
+      'KRA compliant invoice foreign business',
+      'Kenya VAT registration non-resident freelancer'
+    ],
+    priority: 'P1',
+    macroContext: 'How non-resident freelancers issue compliant invoices to Kenyan business clients',
+    faq: [
+      { question: 'Does eTIMS apply to foreign freelancers billing Kenyan clients?', answer: 'eTIMS (electronic Tax Invoice Management System) applies to businesses operating in Kenya — those with a Kenyan registration and a KRA PIN. Foreign freelancers without a permanent establishment in Kenya are not required to register for or use eTIMS. Their services are specifically exempted from the eTIMS obligation under Kenya\'s Tax Procedures Act as "services by non-resident persons without a permanent establishment in Kenya." Foreign freelancers should still issue invoices that include the Kenyan client\'s KRA PIN and the correct reverse charge language so the client can process the transaction correctly in their own tax records.' },
+      { question: 'What is the reverse charge mechanism for non-resident suppliers in Kenya?', answer: 'Kenya\'s VAT Act applies a reverse charge mechanism when a Kenyan VAT-registered business receives taxable services from a non-resident supplier without a permanent establishment in Kenya. Under this mechanism, the Kenyan business accounts for and pays the VAT to KRA — the foreign supplier does not charge Kenyan VAT. The foreign freelancer\'s invoice should include the net amount only and a note stating: "No Kenyan VAT charged. VAT accounting is the responsibility of the recipient under the reverse charge provisions of Kenya\'s VAT Act, Cap 476." The client\'s KRA PIN must also appear on the invoice.' },
+      { question: 'What is withholding tax on Kenyan invoices for foreign freelancers?', answer: 'Kenya applies withholding tax (WHT) of 20% on professional fees, management fees, and certain other service payments made to non-resident suppliers without a Kenyan permanent establishment. The Kenyan client deducts this 20% from the payment and remits it directly to KRA, issuing the foreign supplier a withholding tax certificate as proof. A foreign freelancer who invoices KES 100,000 receives KES 80,000 — the client retains and remits the balance. If Kenya has a Double Taxation Agreement (DTA) with the freelancer\'s country of residence, the WHT rate may be reduced. Kenya has DTAs with Germany, the UK, India, Canada, and several other countries.' },
+      { question: 'What must a foreign freelancer\'s invoice to a Kenyan client include?', answer: 'A foreign freelancer billing a Kenyan business client must include: their full legal name, business address, and country of residence; their home country tax identification number; the client\'s full legal name, address, and 11-character KRA PIN; a unique sequential invoice number; the date of issue and date of service; a specific description of services; the net amount in the agreed currency with no Kenyan VAT; and a note stating that no Kenyan VAT is charged and that the reverse charge mechanism applies under Kenya\'s VAT Act. Bank payment details for receiving the net amount after withholding tax deduction should also be included.' },
+      { question: 'Do Kenyan freelancers billing international clients need to use eTIMS?', answer: 'Yes. Kenyan-registered freelancers using eTIMS for domestic clients must also issue invoices through eTIMS for international clients — but these invoices are zero-rated for VAT at 0%, not 16%. The eTIMS platform records the export supply for the freelancer\'s VAT return. The foreign client does not interact with eTIMS and receives the invoice through normal channels such as email or an invoicing platform. The obligation to use eTIMS applies to the Kenyan business regardless of where the client is located, with the VAT rate reflecting the export status of the supply.' },
+    ],
+    entityMentions: [
+      { name: 'Kenya Revenue Authority', type: 'GovernmentOrganization', url: 'https://www.kra.go.ke', sameAs: 'https://en.wikipedia.org/wiki/Kenya_Revenue_Authority' },
+      { name: 'eTIMS', type: 'Thing', url: 'https://etims.kra.go.ke' },
+      { name: 'Kenya VAT Act Cap 476', type: 'Legislation' },
+      { name: 'Kenya Tax Procedures Act', type: 'Legislation' },
+      { name: 'Double Taxation Agreement', type: 'Thing' },
+    ],
+    relatedTools: [
+      { label: 'Free Invoice Generator', url: '/invoicing', description: 'Create cross-border invoices with reverse charge wording and KRA PIN field' },
+      { label: 'Compliance Features', url: '/compliance', description: 'Jurisdiction-aware invoicing across Kenya, EU, UK, and more' },
+      { label: 'Best Invoicing Software Kenya', url: '/compare/best-invoice-software-kenya', description: 'Compare invoicing tools for Kenyan businesses' },
+    ],
+    content: `
+<p>Your Kenyan client just asked for a "KRA-compliant invoice." Maybe they even mentioned eTIMS. Now you are wondering whether you need to register with Kenya's Revenue Authority before you can get paid.</p>
+
+<p>The short answer: almost certainly not. eTIMS — Kenya's mandatory electronic invoicing system — applies to businesses operating in Kenya. As a foreign freelancer without a Kenyan establishment or KRA PIN, you are not required to use it. But your invoice still needs to be right. Here is exactly what "KRA-compliant" means for a non-resident supplier, what the reverse charge rules require, and the withholding tax detail that decides how much money actually reaches your bank account.</p>
+
+<h2>1. What eTIMS is, and who it applies to</h2>
+
+<p>eTIMS (electronic Tax Invoice Management System) is Kenya's national platform for generating, validating, and submitting tax invoices in real time to the Kenya Revenue Authority (KRA). Since January 2024, it has been mandatory for all businesses operating in Kenya, whether VAT-registered or not. Every invoice issued by a Kenyan business must pass through or be reported to eTIMS, and any expense not backed by a valid eTIMS invoice is non-deductible for Kenyan income tax purposes.</p>
+
+<p>The operative phrase is "businesses operating in Kenya." The mandate covers entities with a Kenya presence: sole traders, companies, and professionals registered in Kenya with a KRA PIN. It does not extend to foreign suppliers without a Kenyan establishment.</p>
+
+<p>One important consequence: your Kenyan client needs an eTIMS invoice for purchases to be deductible as a business expense. The exemption under Kenya's Tax Procedures Act specifically covers "services by non-resident persons without a permanent establishment in Kenya," meaning your non-eTIMS invoice remains a valid supporting document for their records, even though it cannot be processed through eTIMS.</p>
+
+<p>For a full guide to how eTIMS works for Kenyan businesses, see Invoicemonk's <a href="/__LANG__/blog/e-invoicing-kenya-etims">eTIMS Kenya guide</a>. For the field-by-field rules Kenyan businesses follow domestically, see our <a href="/__LANG__/blog/kra-invoice-requirements-kenya">KRA invoice requirements</a> guide.</p>
+
+<h2>2. What your Kenyan client actually means by "KRA-compliant"</h2>
+
+<p>Here is where most of the confusion lives. When a Kenyan client asks for a "KRA-compliant invoice," they are not necessarily asking you to use eTIMS. They are asking for an invoice that contains the fields their accountant needs to process the payment correctly, record the expense, and handle their own withholding tax obligations.</p>
+
+<p>For a foreign supplier, "KRA-compliant" in practice means an invoice that includes:</p>
+<ul>
+  <li>Your full legal name, business name, and address</li>
+  <li>Your country of tax residence and tax identification number (whatever your country issues)</li>
+  <li>The client's full legal name and address</li>
+  <li>The client's KRA PIN, an 11-character alphanumeric identifier (for example P051234567A) that all Kenyan businesses must have</li>
+  <li>A sequential invoice number</li>
+  <li>The date of issue and the date of service</li>
+  <li>A clear description of services performed</li>
+  <li>The net amount and currency</li>
+  <li>A note explaining that no Kenyan VAT is charged and why (covered in Section 4)</li>
+</ul>
+
+<p>That is what "KRA-compliant" means for you. It is about the fields on the invoice, not the platform it was issued from.</p>
+
+<h2>3. Do you need to register for VAT in Kenya?</h2>
+
+<p>This is the fear underneath the eTIMS question. For most foreign freelancers, the answer is no.</p>
+
+<p>VAT registration in Kenya is required for businesses with annual taxable turnover exceeding KES 5 million (approximately USD 38,000) from Kenyan sources. As a non-resident foreign freelancer without a permanent establishment in Kenya, you are generally outside the scope of Kenya's VAT Act for your outbound services.</p>
+
+<p>There is an important nuance for digital services. Kenya requires non-resident suppliers of digital services to Kenyan consumers to register for VAT regardless of turnover. If you provide digital products directly to Kenyan individual consumers — software subscriptions, streaming, online courses, digital downloads — VAT registration may apply. If you are billing a Kenyan business client for professional services such as development, design, consulting, or marketing, this rule does not apply.</p>
+
+<p>The distinction matters: B2B professional services from a foreign supplier to a Kenyan business trigger the reverse charge mechanism (Section 4). B2C digital services to Kenyan individuals trigger a different set of rules entirely. When in doubt on your specific situation, consult a Kenyan tax advisor. KRA publishes guidance on non-resident suppliers at kra.go.ke.</p>
+
+<h2>4. Reverse charge in Kenya, and what it means for your invoice</h2>
+
+<p>This is the section most foreign freelancers have never seen explained.</p>
+
+<p>When a Kenyan business receives taxable services from a non-resident supplier without a Kenyan permanent establishment, Kenya's VAT Act applies the reverse charge mechanism. The Kenyan business, not the foreign supplier, accounts for and pays the VAT to KRA. The logic mirrors the EU's reverse charge but is governed by Kenya's domestic VAT legislation rather than the EU VAT Directive. For broader background on the cross-border principle, see our <a href="/__LANG__/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a> pillar.</p>
+
+<p>What this means for your invoice:</p>
+<ul>
+  <li>You do not charge Kenyan VAT (currently 16% standard rate)</li>
+  <li>You invoice at the net amount only</li>
+  <li>You include a note on the invoice explaining the VAT treatment</li>
+</ul>
+
+<p>Suggested wording for your invoice:</p>
+<blockquote>"This invoice is issued by a non-resident supplier without a permanent establishment in Kenya. No Kenyan VAT is charged. VAT accounting is the responsibility of the recipient under the reverse charge provisions of Kenya's VAT Act, Cap 476."</blockquote>
+
+<p>Your invoice must also include your client's KRA PIN. Their accountant needs it to process the reverse charge in their VAT return.</p>
+
+<h3>Withholding tax: the part most guides skip</h3>
+
+<p>Kenya also applies withholding tax (WHT) to certain payments to non-resident suppliers, including professional and management fees. The standard WHT rate for non-resident service providers is 20% of the gross payment. Your Kenyan client deducts this at source, pays you the net amount, and remits the 20% to KRA directly.</p>
+
+<p>What this means for your invoice: you invoice the full agreed amount. Your client deducts 20% WHT and pays you the remainder. They should issue you a withholding tax certificate (available through iTax) as proof of deduction. Keep this for your own tax records in your home country, where it usually entitles you to a foreign tax credit.</p>
+
+<p>If Kenya has a Double Taxation Agreement (DTA) with your country of residence, the WHT rate may be reduced. Kenya has DTAs with several countries including Germany, the UK, India, and Canada. Confirm the current treaty rate with a Kenyan tax advisor or on the KRA website before your first invoice. This is a pricing decision, not a penalty: factor the deduction into the rate you quote, or agree explicitly with the client that the fee is "net of Kenyan WHT."</p>
+
+<h2>5. The complete invoice checklist for foreign freelancers billing Kenyan clients</h2>
+
+<p>Use this as a ready-to-use reference. Every invoice to a Kenyan business client must include:</p>
+<ol>
+  <li>Your full legal name and business name (personal legal name for sole traders)</li>
+  <li>Your business address and country of residence (make your non-Kenyan status clear)</li>
+  <li>Your home country tax identification number (VAT number, tax file number, or equivalent)</li>
+  <li>Your client's full legal name and address</li>
+  <li>Your client's KRA PIN, the 11-character alphanumeric (for example P051234567A). Always ask for it before issuing the first invoice</li>
+  <li>A unique <a href="/__LANG__/blog/eu-vat-invoice-requirements-freelancers">sequential invoice numbering</a> reference</li>
+  <li>Date of issue and date of service</li>
+  <li>A specific description of services. Vague descriptions like "consulting" are not sufficient. "Brand strategy and content framework, delivered June 2026" is correct</li>
+  <li>Net amount and currency. Specify USD, EUR, GBP, or whatever currency was agreed. If quoting in a foreign currency, your client may convert to KES for their VAT return</li>
+  <li>No Kenyan VAT line. You are not charging it</li>
+  <li>The reverse charge and non-resident note (the exact wording from Section 4)</li>
+  <li>Your bank details or payment instructions: IBAN for SEPA, SWIFT/BIC for international wire</li>
+</ol>
+
+<p>There is no legal requirement to denominate your invoice in KES as a foreign supplier. Invoice in your preferred currency. Your client's accountant handles the conversion for their records.</p>
+
+<h2>6. If you are a Kenyan freelancer billing international clients</h2>
+
+<p>If you are a Kenyan freelancer using eTIMS for domestic clients but billing clients outside Kenya, those invoices fall outside eTIMS scope in spirit but not in process. Exports of services are zero-rated for VAT purposes in Kenya: you charge 0% VAT, not 16%. Your eTIMS invoice should reflect the 0% rate with an export notation.</p>
+
+<p>You are still required to issue the invoice through eTIMS even for export transactions. The system records the zero-rated supply for your VAT return. What changes is the VAT rate, not the platform.</p>
+
+<p>Your foreign client does not access or interact with eTIMS. They receive a standard invoice from you, either a PDF export from your eTIMS-integrated software or an Invoicemonk invoice, and handle their own VAT in their country. For a full breakdown of eTIMS registration and the four access channels, see our <a href="/__LANG__/blog/e-invoicing-kenya-etims">eTIMS Kenya guide</a>.</p>
+
+<h2>7. The most common mistakes foreign freelancers make when billing Kenyan clients</h2>
+
+<ol>
+  <li><strong>Assuming eTIMS applies to them.</strong> eTIMS is mandatory for businesses operating in Kenya. Foreign freelancers without a Kenyan establishment or KRA PIN are not within scope. Your invoice does not need to be issued through eTIMS.</li>
+  <li><strong>Not including the client's KRA PIN.</strong> The KRA PIN is essential for the client's accountant to process the reverse charge and withholding tax in their iTax records. Always ask for it before issuing your first invoice.</li>
+  <li><strong>Not pricing in withholding tax.</strong> The 20% non-resident WHT comes out of your payment. Invoice KES 100,000 and you receive KES 80,000. Factor this into your pricing, or agree the fee net of WHT in writing before you start work.</li>
+  <li><strong>Issuing the invoice in KES without an agreed exchange rate.</strong> If you bill in a currency other than your own, lock the conversion approach in advance. Currency moves between invoice date and payment date can quietly cut into your fee.</li>
+  <li><strong>Writing "VAT: 0%" without an explanation.</strong> Zero-rated and reverse charge are different treatments. Include the non-resident reverse charge wording from Section 4 so your client's accountant knows exactly how to process it.</li>
+</ol>
+
+<h2>Quick-reference checklist (screenshot this)</h2>
+
+<p>Foreign freelancer billing a Kenyan business client:</p>
+<ul>
+  <li>Your legal name, address, country of residence, home country tax ID</li>
+  <li>Client's name, address, and KRA PIN (11-character alphanumeric)</li>
+  <li>Sequential invoice number</li>
+  <li>Date of issue and date of service</li>
+  <li>Specific service description</li>
+  <li>Net amount and currency, no Kenyan VAT</li>
+  <li>Non-resident reverse charge note: "No Kenyan VAT charged. Reverse charge applies under Kenya's VAT Act, Cap 476."</li>
+  <li>Bank details for payment</li>
+  <li>Note: 20% withholding tax will be deducted by client at source (unless reduced by a DTA)</li>
+</ul>
+
+<p>Invoicemonk generates all required fields for Kenyan cross-border invoices, including the reverse charge notation and KRA PIN field. <a href="https://app.invoicemonk.com/signup?utm_source=blog&utm_medium=cta&utm_campaign=ke_foreign_freelancer" target="_blank" rel="noopener noreferrer">Create your first Kenyan-compliant invoice free</a>.</p>
+
+<p>For how eTIMS works for Kenyan businesses, read our <a href="/__LANG__/blog/e-invoicing-kenya-etims">full eTIMS Kenya guide</a>, the <a href="/__LANG__/blog/kenya-etims-small-business-guide">small business setup guide</a>, and the <a href="/__LANG__/blog/kenya-how-to-generate-etims-invoice">step-by-step eTIMS invoice walkthrough</a>.</p>
+    `
+  },
 ];
 
 // Register posts in the global blog posts array
