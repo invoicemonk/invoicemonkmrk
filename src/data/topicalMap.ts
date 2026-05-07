@@ -721,7 +721,6 @@ export const pillarClusters: TopicalCluster[] = [
       // Cluster 10: Kenya eTIMS
       'e-invoicing-kenya-etims', 'kenya-etims-small-business-guide',
       'kenya-how-to-generate-etims-invoice', 'kenya-vat-invoice-requirements',
-      'invoicing-kenyan-clients-foreign-freelancer',
       // Cluster 11: India GST e-invoicing
       'e-invoicing-india-gst-guide', 'india-gst-registration-small-business',
       'india-cgst-sgst-igst-explained', 'india-hsn-sac-codes-invoice-guide',

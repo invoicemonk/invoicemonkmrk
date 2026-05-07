@@ -2413,6 +2413,835 @@ export const cluster19Posts: BlogPost[] = [
       <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Invoicing across multiple EU countries? Read our pillar guide to <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and the reverse charge mechanism</a>, or compare with our country guides for <a href="/en/blog/how-to-invoice-german-clients-freelancer">Germany</a>, <a href="/en/blog/dutch-invoice-requirements-freelancers">the Netherlands</a>, and <a href="/en/blog/french-invoice-requirements-freelancers">France</a>.</p>
     `,
   },
+  // ═══════════════════════════════════════════════════
+  // KENYA — Foreign freelancer invoicing Kenyan clients (KRA, eTIMS, reverse charge, WHT)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'invoicing-kenyan-clients-foreign-freelancer',
+    title: 'Invoicing Kenyan clients as a foreign freelancer (2026)',
+    excerpt: 'Does eTIMS apply to foreign freelancers billing Kenyan clients? Here is what KRA-compliant means for non-residents, plus the reverse charge rules and invoice wording.',
+    category: 'Tax and Compliance',
+    tags: ['invoicing Kenyan clients foreign freelancer', 'eTIMS foreign freelancer', 'KRA PIN invoice non-resident', 'Kenya reverse charge', 'Kenya withholding tax freelancer', 'KRA-compliant invoice', 'cross-border services Kenya'],
+    author: defaultAuthor,
+    date: '2026-05-07',
+    dateModified: '2026-05-07',
+    lastAudited: '2026-05-07',
+    readTime: '13 min read',
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'Foreign freelancer invoicing a Kenyan business client with KRA PIN and reverse charge wording',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    priority: 'P1',
+    macroContext: 'Cross-border invoicing for Kenyan clients from non-resident foreign freelancers, eTIMS scope, KRA PIN, Kenyan reverse charge under VAT Act Cap 476, and 20% non-resident withholding tax.',
+    semanticKeywords: [
+      'invoicing Kenyan clients foreign freelancer',
+      'does eTIMS apply to foreign freelancers Kenya',
+      'KRA PIN invoice non-resident Kenya',
+      'Kenya reverse charge foreign supplier',
+      'non-resident supplier Kenya VAT invoice',
+      'Kenya withholding tax freelancer',
+      'invoice Kenya cross-border services',
+      'KRA compliant invoice foreign business',
+      'Kenya VAT registration non-resident freelancer',
+    ],
+    entityMentions: [
+      { name: 'Kenya Revenue Authority (KRA)', type: 'GovernmentOrganization', url: 'https://www.kra.go.ke' },
+      { name: 'eTIMS (electronic Tax Invoice Management System)', type: 'GovernmentService' },
+      { name: 'Kenya VAT Act, Cap 476', type: 'Legislation' },
+      { name: 'Kenya Tax Procedures Act', type: 'Legislation' },
+      { name: 'iTax', type: 'WebApplication', url: 'https://itax.kra.go.ke' },
+      { name: 'KRA PIN', type: 'Thing' },
+      { name: 'Double Taxation Agreement', type: 'Thing' },
+      { name: 'Withholding tax (non-resident)', type: 'Thing' },
+    ],
+    relatedTools: [
+      { label: 'Free invoice generator', url: '/invoicing', description: 'Create reverse-charge invoices for Kenyan business clients with KRA PIN field.' },
+      { label: 'Compliance Hub', url: '/compliance', description: 'Country-by-country invoice compliance, including Kenya.' },
+    ],
+    faq: [
+      {
+        question: 'Does eTIMS apply to foreign freelancers billing Kenyan clients?',
+        answer: 'eTIMS (electronic Tax Invoice Management System) applies to businesses operating in Kenya - those with a Kenyan registration and a KRA PIN. Foreign freelancers without a permanent establishment in Kenya are not required to register for or use eTIMS. Their services are specifically exempted from the eTIMS obligation under Kenya\'s Tax Procedures Act as "services by non-resident persons without a permanent establishment in Kenya." Foreign freelancers should still issue invoices that include the Kenyan client\'s KRA PIN and the correct reverse charge language so the client can process the transaction correctly in their own tax records.',
+      },
+      {
+        question: 'What is the reverse charge mechanism for non-resident suppliers in Kenya?',
+        answer: 'Kenya\'s VAT Act applies a reverse charge mechanism when a Kenyan VAT-registered business receives taxable services from a non-resident supplier without a permanent establishment in Kenya. Under this mechanism, the Kenyan business accounts for and pays the VAT to KRA. The foreign supplier does not charge Kenyan VAT. The invoice should include the net amount only and a note stating: "No Kenyan VAT charged. VAT accounting is the responsibility of the recipient under the reverse charge provisions of Kenya\'s VAT Act, Cap 476." The client\'s KRA PIN must also appear on the invoice.',
+      },
+      {
+        question: 'What is withholding tax on Kenyan invoices for foreign freelancers?',
+        answer: 'Kenya applies withholding tax (WHT) of 20% on professional fees, management fees, and certain other service payments made to non-resident suppliers without a Kenyan permanent establishment. The Kenyan client deducts this 20% from the payment and remits it directly to KRA, issuing the foreign supplier a withholding tax certificate as proof. A foreign freelancer who invoices KES 100,000 receives KES 80,000; the client retains and remits the balance. If Kenya has a Double Taxation Agreement (DTA) with the freelancer\'s country of residence, the WHT rate may be reduced. Kenya has DTAs with Germany, the UK, India, Canada, and several other countries.',
+      },
+      {
+        question: 'What must a foreign freelancer\'s invoice to a Kenyan client include?',
+        answer: 'A foreign freelancer billing a Kenyan business client must include: full legal name, business address, and country of residence; home country tax identification number; the client\'s full legal name, address, and 11-character KRA PIN; a unique sequential invoice number; the date of issue and date of service; a specific description of services; the net amount in the agreed currency with no Kenyan VAT; and a note stating that no Kenyan VAT is charged and that the reverse charge mechanism applies under Kenya\'s VAT Act. Bank payment details for receiving the net amount after withholding tax deduction should also be included.',
+      },
+      {
+        question: 'Do Kenyan freelancers billing international clients need to use eTIMS?',
+        answer: 'Yes. Kenyan-registered freelancers using eTIMS for domestic clients must also issue invoices through eTIMS for international clients, but these invoices are zero-rated for VAT at 0%, not 16%. The eTIMS platform records the export supply for the freelancer\'s VAT return. The foreign client does not interact with eTIMS and receives the invoice through normal channels such as email or an invoicing platform. The obligation to use eTIMS applies to the Kenyan business regardless of where the client is located, with the VAT rate reflecting the export status of the supply.',
+      },
+    ],
+    content: `
+      <p>Your Kenyan client asked for a "KRA-compliant invoice." Maybe they even mentioned eTIMS. Now you are wondering whether you need to register with Kenya's Revenue Authority before you can get paid.</p>
+      <p data-answer="true">The short answer: almost certainly not. eTIMS, Kenya's mandatory electronic invoicing system, applies to businesses operating in Kenya. As a foreign freelancer without a Kenyan establishment or KRA PIN, you are not required to use it. But your invoice still needs to be right. Here is exactly what "KRA-compliant" means for a non-resident supplier, plus the reverse charge rules and the 20% withholding tax detail most guides skip.</p>
+
+      <h2>What eTIMS is, and who it applies to</h2>
+      <p data-answer="true">eTIMS (electronic Tax Invoice Management System) is Kenya's national platform for generating, validating, and submitting tax invoices in real time to the Kenya Revenue Authority (KRA). Since January 2024 it has been mandatory for all businesses operating in Kenya, whether VAT-registered or not. Foreign freelancers without a Kenyan establishment or KRA PIN are out of scope.</p>
+      <p>Every invoice issued by a Kenyan business must pass through or be reported to eTIMS, and any expense not backed by a valid eTIMS invoice is non-deductible for Kenyan income tax purposes. The operative phrase is "businesses operating in Kenya." The mandate covers entities with a Kenya presence: sole traders, companies, and professionals registered in Kenya with a KRA PIN. It does not extend to foreign suppliers without a Kenyan establishment.</p>
+      <p>One important consequence: your Kenyan client needs an eTIMS invoice for purchases to be deductible as a business expense. The exemption under Kenya's Tax Procedures Act specifically covers "services by non-resident persons without a permanent establishment in Kenya," meaning your non-eTIMS invoice is still a valid supporting document for their records, even though it cannot be processed through eTIMS.</p>
+      <p>For a full guide to how eTIMS works for Kenyan businesses, see our <a href="/en/blog/kenya-etims-small-business-guide">eTIMS Kenya guide</a>.</p>
+
+      <h2>What your Kenyan client actually means by "KRA-compliant"</h2>
+      <p data-answer="true">When a Kenyan client asks for a "KRA-compliant invoice," they are not asking you to use eTIMS. They are asking for an invoice that contains the fields their accountant needs to process the payment, record the expense, and handle their own withholding tax obligations.</p>
+      <p>For a foreign supplier, "KRA-compliant" in practice means an invoice that includes:</p>
+      <ul>
+        <li>Your full legal name, business name, and address</li>
+        <li>Your country of tax residence and tax identification number (whatever your country issues)</li>
+        <li>The client's full legal name and address</li>
+        <li>The client's KRA PIN, an 11-character alphanumeric identifier (for example, P051234567A) that all Kenyan businesses must have</li>
+        <li>A sequential invoice number</li>
+        <li>The date of issue and the date of service</li>
+        <li>A clear description of services performed</li>
+        <li>The net amount and currency</li>
+        <li>A note explaining that no Kenyan VAT is charged and why (see Section 4)</li>
+      </ul>
+      <p>That is what "KRA-compliant" means for you. It is about the fields on the invoice, not the platform it was issued from.</p>
+
+      <h2>Do you need to register for VAT in Kenya?</h2>
+      <p data-answer="true">For most foreign freelancers billing Kenyan business clients, no. VAT registration in Kenya is required for businesses with annual taxable turnover exceeding KES 5 million (approximately USD 38,000) from Kenyan sources. As a non-resident foreign freelancer without a permanent establishment in Kenya, you are generally not within the scope of Kenya's VAT Act for your outbound services.</p>
+      <p>There is a nuance for digital services: Kenya requires non-resident suppliers of digital services to Kenyan consumers to register for VAT regardless of turnover. If you provide digital products (software subscriptions, streaming, online courses, digital downloads) directly to Kenyan individual consumers, VAT registration may apply. If you are billing a Kenyan business client for professional services (development, design, consulting, marketing), this rule does not apply.</p>
+      <p>The distinction matters: B2B professional services from a foreign supplier to a Kenyan business trigger the reverse charge mechanism (next section). B2C digital services to Kenyan individuals trigger a different set of rules entirely. When in doubt, consult a Kenyan tax advisor; KRA's guidance on non-resident suppliers is available at <a href="https://www.kra.go.ke" target="_blank" rel="nofollow noopener">kra.go.ke</a>.</p>
+
+      <h2>Reverse charge in Kenya: what it means for your invoice</h2>
+      <p data-answer="true">When a Kenyan business receives taxable services from a non-resident supplier without a Kenyan permanent establishment, Kenya's VAT Act applies the reverse charge mechanism. The Kenyan business, not the foreign supplier, accounts for and pays the VAT to KRA. This is the same logic as the EU's reverse charge, but governed by Kenya's domestic VAT legislation rather than the EU VAT Directive.</p>
+      <p>What this means for your invoice:</p>
+      <ul>
+        <li>You do not charge Kenyan VAT (currently 16% standard rate)</li>
+        <li>You invoice at the net amount only</li>
+        <li>You include a note on the invoice explaining the VAT treatment</li>
+      </ul>
+      <p>Suggested wording for your invoice:</p>
+      <blockquote style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:16px 0;border-radius:6px;">
+        <p style="margin:0;"><em>"This invoice is issued by a non-resident supplier without a permanent establishment in Kenya. No Kenyan VAT is charged. VAT accounting is the responsibility of the recipient under the reverse charge provisions of Kenya's VAT Act, Cap 476."</em></p>
+      </blockquote>
+      <p>Your invoice must also include your client's KRA PIN; their accountant needs it to process the reverse charge in their VAT return.</p>
+
+      <h3>Withholding tax: the detail most guides skip</h3>
+      <p>Kenya also applies withholding tax (WHT) to certain payments to non-resident suppliers, including professional and management fees. The standard WHT rate for non-resident service providers is 20% of the gross payment. Your Kenyan client deducts this 20% at source: they pay you the net amount and remit the 20% to KRA directly.</p>
+      <p>What this means for your invoice: you invoice the full agreed amount. Your client deducts 20% WHT and pays you the remainder. They should issue you a withholding tax certificate (available through iTax) as proof of deduction; keep this for your own tax records in your home country.</p>
+      <p>If Kenya has a Double Taxation Agreement (DTA) with your country of residence, the WHT rate may be reduced. Kenya has DTAs with several countries including Germany, the UK, India, and Canada. Check the current treaty rate with a Kenyan tax advisor or on the KRA website before your first invoice.</p>
+      <p>Here is what a complete, KRA-compliant invoice from a foreign freelancer looks like.</p>
+
+      <h2>The complete invoice checklist for foreign freelancers billing Kenyan clients</h2>
+      <p>Every invoice to a Kenyan business client must include:</p>
+      <ul>
+        <li>Your full legal name and business name (personal legal name for sole traders)</li>
+        <li>Your business address and country of residence; make your non-Kenyan status clear</li>
+        <li>Your home country tax identification number (VAT number, tax file number, or equivalent)</li>
+        <li>Your client's full legal name and address</li>
+        <li>Your client's KRA PIN: 11-character alphanumeric (for example, P051234567A). Always ask for it before issuing the first invoice</li>
+        <li>A unique sequential invoice number</li>
+        <li>Date of issue and date of service</li>
+        <li>A specific description of services. Vague descriptions like "consulting" are not sufficient. "Brand strategy and content framework, delivered June 2026" is correct</li>
+        <li>Net amount and currency. Specify USD, EUR, GBP, or whatever currency was agreed. If quoting in a foreign currency, your client may convert to KES for their VAT return</li>
+        <li>No Kenyan VAT line: you are not charging it</li>
+        <li>The reverse charge and non-resident note (the wording from Section 4)</li>
+        <li>Your bank details or payment instructions: IBAN for SEPA, SWIFT/BIC for international wire</li>
+      </ul>
+      <p>Note on currency: there is no legal requirement to denominate your invoice in KES as a foreign supplier. Invoice in your preferred currency. Your client's accountant handles the conversion for their records.</p>
+      <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
+        <p style="margin:0;"><strong>Invoicemonk pre-fills KRA PIN, the non-resident reverse charge note, and the Cap 476 reference automatically.</strong> Pick "Kenya" as the client country and the right wording appears on the invoice. <a href="/invoicing">Try the free invoice generator</a>.</p>
+      </aside>
+
+      <h2>If you are a Kenyan freelancer billing international clients</h2>
+      <p data-answer="true">If you are a Kenyan freelancer using eTIMS for domestic clients but billing clients outside Kenya, those invoices fall outside eTIMS scope only in terms of VAT charged: exports of services are zero-rated for VAT purposes in Kenya. You charge 0% VAT, not 16%. Your eTIMS invoice should reflect the 0% rate with an export notation.</p>
+      <p>You are still required to issue the invoice through eTIMS even for export transactions; the system records the zero-rated supply for your VAT return. What changes is the VAT rate, not the platform.</p>
+      <p>Your foreign client does not access or interact with eTIMS. They receive a standard invoice from you (a PDF export from your eTIMS-integrated software or an Invoicemonk invoice) and handle their own VAT in their country. For a full breakdown of eTIMS registration and the four access channels, see our <a href="/en/blog/kenya-etims-small-business-guide">eTIMS Kenya guide</a> and the related <a href="/en/blog/kra-invoice-requirements-kenya">KRA invoice requirements</a> overview.</p>
+
+      <h2>The most common mistakes foreign freelancers make when billing Kenyan clients</h2>
+      <ol>
+        <li><strong>Assuming eTIMS applies to them.</strong> eTIMS is mandatory for businesses operating in Kenya. Foreign freelancers without a Kenyan establishment or KRA PIN are not within scope. Your invoice does not need to be issued through eTIMS.</li>
+        <li><strong>Not including the client's KRA PIN.</strong> The KRA PIN is essential for the client's accountant to process the reverse charge and withholding tax in their iTax records. Always ask for it before issuing your first invoice.</li>
+        <li><strong>Not accounting for withholding tax in your pricing.</strong> The 20% non-resident WHT is deducted by the client from your payment. If you invoice KES 100,000, you receive KES 80,000. Factor this into your pricing or discuss it explicitly with the client before agreeing a rate.</li>
+        <li><strong>Issuing the invoice in KES without knowing the exchange rate.</strong> If you agree to bill in a currency other than your own, make sure the exchange rate calculation is clear and agreed in advance. Currency fluctuations between invoice date and payment date can significantly affect what you actually receive.</li>
+        <li><strong>Writing "VAT: 0%" without an explanation.</strong> Zero-rated and reverse charge are different treatments. Include the non-resident reverse charge wording from Section 4 so your client's accountant knows exactly how to process it.</li>
+      </ol>
+
+      <h2>Quick-reference checklist</h2>
+      <p>Foreign freelancer billing a Kenyan business client checklist:</p>
+      <ul>
+        <li>Your legal name, address, country of residence, home country tax ID</li>
+        <li>Client's name, address, and KRA PIN (11-character alphanumeric)</li>
+        <li>Sequential invoice number</li>
+        <li>Date of issue and date of service</li>
+        <li>Specific service description</li>
+        <li>Net amount and currency: no Kenyan VAT</li>
+        <li>Non-resident reverse charge note: "No Kenyan VAT charged. Reverse charge applies under Kenya's VAT Act, Cap 476."</li>
+        <li>Bank details for payment</li>
+        <li>Note: 20% withholding tax will be deducted by client at source</li>
+      </ul>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_kenya_foreign_freelancer" target="_blank" rel="noopener">Create your first Kenyan-compliant invoice free, no credit card required</a>.</strong> Invoicemonk generates all required fields, including the reverse charge notation and the KRA PIN field.</p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">For how eTIMS works for Kenyan businesses, read our full <a href="/en/blog/kenya-etims-small-business-guide">eTIMS Kenya guide</a> and the <a href="/en/blog/kra-invoice-requirements-kenya">KRA invoice requirements</a> overview. Invoicing across borders elsewhere? See the pillar guides on <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge</a>, and <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>.</p>
+    `,
+  },
+  // ═══════════════════════════════════════════════════
+  // PHILIPPINES — BIR invoice requirements for freelancers (post-EOPT, e-invoicing 2026)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'bir-invoice-requirements-freelancers-philippines',
+    title: 'BIR invoice requirements for freelancers in the Philippines (2026)',
+    excerpt: 'Official Receipts are out. Sales Invoices are in. Here is what every Filipino freelancer needs to know about BIR invoicing rules, TIN, VAT, and the 2026 e-invoicing deadline.',
+    category: 'Tax and Compliance',
+    tags: ['BIR invoice requirements freelancer Philippines', 'Philippines freelancer invoice 2026', 'Official Receipt vs Sales Invoice Philippines', 'TIN number invoice Philippines', 'EOPT Act invoice changes Philippines', 'BIR VAT invoice', '8% flat tax freelancer Philippines', 'Philippines e-invoicing mandate 2026', 'non-VAT invoice Philippines freelancer'],
+    author: defaultAuthor,
+    date: '2026-05-07',
+    dateModified: '2026-05-07',
+    lastAudited: '2026-05-07',
+    readTime: '12 min read',
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'Filipino freelancer issuing a BIR-compliant Sales Invoice with TIN and VAT status statement',
+    pillarContent: false,
+    clusterType: 'cluster',
+    targetProduct: '/compliance',
+    priority: 'P1',
+    macroContext: 'Post-EOPT BIR invoicing rules for Filipino freelancers, the Sales Invoice replacing the Official Receipt, the PHP 3M VAT threshold, the 8% flat tax option, and the BIR e-invoicing mandate extension to 31 December 2026.',
+    semanticKeywords: [
+      'BIR invoice requirements freelancer Philippines',
+      'Philippines freelancer invoice requirements 2025',
+      'Official Receipt vs Sales Invoice Philippines',
+      'TIN number invoice Philippines',
+      'EOPT Act invoice changes Philippines',
+      'BIR VAT invoice mandatory fields',
+      '8% flat tax freelancer Philippines',
+      'Philippines e-invoicing mandate 2026',
+      'non-VAT invoice Philippines freelancer',
+      'foreign freelancer billing Philippines client',
+    ],
+    entityMentions: [
+      { name: 'Bureau of Internal Revenue (BIR)', type: 'GovernmentOrganization', url: 'https://www.bir.gov.ph' },
+      { name: 'Ease of Paying Taxes Act (Republic Act 11976)', type: 'Legislation' },
+      { name: 'Revenue Regulation No. 7-2024', type: 'Legislation' },
+      { name: 'Revenue Regulation No. 11-2024', type: 'Legislation' },
+      { name: 'Revenue Regulation No. 11-2025', type: 'Legislation' },
+      { name: 'Revenue Regulation No. 26-2025', type: 'Legislation' },
+      { name: 'Electronic Invoicing System (EIS)', type: 'GovernmentService' },
+      { name: 'Taxpayer Identification Number (TIN)', type: 'Thing' },
+      { name: 'Authority to Print (ATP)', type: 'Thing' },
+      { name: 'BIR Form 2303 (Certificate of Registration)', type: 'Thing' },
+    ],
+    relatedTools: [
+      { label: 'Free invoice generator', url: '/invoicing', description: 'Create BIR-compliant Sales Invoices with TIN and VAT status statement.' },
+      { label: 'Compliance Hub', url: '/compliance', description: 'Country-by-country invoice compliance, including the Philippines.' },
+    ],
+    faq: [
+      {
+        question: 'What replaced the Official Receipt in the Philippines for freelancers?',
+        answer: 'Under the Ease of Paying Taxes Act (Republic Act 11976), which took effect 22 January 2024, the Sales Invoice replaced the Official Receipt as the primary tax document for proving sales and services in the Philippines. Since 27 April 2024, Official Receipts are classified as supplementary documents only and cannot be used to claim input VAT. Filipino freelancers must now issue Sales Invoices (also called Service Invoices) as their primary billing document. Unused Official Receipts can still be used as supplementary documents until consumed, or converted to invoices by crossing out "Official Receipt" and stamping "Invoice" in its place.',
+      },
+      {
+        question: 'What must a BIR-compliant freelance invoice include in the Philippines?',
+        answer: 'A BIR-compliant Sales Invoice in the Philippines must include: the label "Invoice" or "Service Invoice" prominently displayed; the freelancer\'s registered business name, address, and full 12-digit TIN including branch code; a statement of VAT or Non-VAT registration status; the client\'s registered name and TIN (for transactions above PHP 1,000); the date of transaction; a unique sequential invoice number registered with the BIR; a specific description of services with quantity and unit price; and the total amount with applicable VAT breakdown (12% if VAT-registered) or the phrase "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX" if non-VAT registered. These requirements come from Revenue Regulation No. 7-2024, implementing the EOPT Act.',
+      },
+      {
+        question: 'Do Filipino freelancers need to charge VAT?',
+        answer: 'Filipino freelancers are required to register for VAT and charge 12% VAT only if their annual gross sales or receipts exceed PHP 3,000,000 (approximately USD 52,000). Below this threshold, freelancers are non-VAT registered and do not charge VAT. They may choose to pay income tax under the graduated rate (0%-35%) or the simpler 8% flat tax on gross receipts above PHP 250,000, eliminating the need to file a separate 3% percentage tax. For services provided to international clients where payment is received in foreign currency, the transaction is zero-rated at 0% VAT regardless of the freelancer\'s VAT registration status.',
+      },
+      {
+        question: 'Does the BIR e-invoicing mandate apply to Filipino freelancers?',
+        answer: 'The BIR\'s mandatory structured e-invoicing requirement under Revenue Regulation No. 11-2025 primarily affects Large Taxpayers, e-commerce businesses, exporters with tax incentives, and users of Computerised Accounting Systems (CAS). Most solo freelancers classified as micro-taxpayers are currently exempt from the structured e-invoicing obligation. The original March 2026 deadline for in-scope taxpayers was extended to 31 December 2026 under Revenue Regulation No. 26-2025. Freelancers should check their BIR Certificate of Registration (Form 2303) to confirm their classification and monitor BIR announcements as broader rollout timelines are established.',
+      },
+      {
+        question: 'Can a Filipino freelancer use an Official Receipt as an invoice in 2026?',
+        answer: 'No, not as a primary tax document. Since 27 April 2024, under the Ease of Paying Taxes Act, Official Receipts are classified as supplementary documents only. They cannot be used to substantiate a sale or support an input VAT claim by the buyer. Filipino freelancers must issue Sales Invoices (or Service Invoices) as their primary billing document. Unused Official Receipts may be converted to invoices by crossing out "Official Receipt" and stamping "Invoice" in their place. Any Official Receipt still used as a supplementary payment receipt must be stamped with "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX."',
+      },
+    ],
+    content: `
+      <p>If you are a Filipino freelancer, you have probably been issuing Official Receipts to your clients for years. Then someone told you the rules changed. Now you are not sure whether your Official Receipt is still valid, whether you should be issuing a Sales Invoice instead, and what your clients can actually use for input VAT.</p>
+      <p data-answer="true">This guide answers all of that. The Sales Invoice is now the primary tax document under the Ease of Paying Taxes Act. The Official Receipt is supplementary only. Below: the mandatory fields under BIR Revenue Regulation No. 7-2024, the PHP 3 million VAT threshold, the 8% flat tax option, and the e-invoicing deadline extended to 31 December 2026.</p>
+
+      <h2>The Official Receipt is no longer king: what the EOPT Act changed</h2>
+      <p data-answer="true">The Ease of Paying Taxes Act (Republic Act 11976), in force since 22 January 2024, made the Sales Invoice the primary document for proving a sale of goods or services, including freelance work. The Official Receipt has been demoted to a supplementary document and cannot be used to claim input VAT.</p>
+      <p>What this means in practice:</p>
+      <ul>
+        <li><strong>Sales Invoice is the primary document.</strong> It is what your client needs to claim input VAT. It is the basis for your output VAT liability. It is the document the BIR looks at in an audit.</li>
+        <li><strong>Official Receipt is supplementary only.</strong> It proves payment was received, but it cannot be used to claim input VAT. Since 27 April 2024, any Official Receipt used as a primary tax document must be stamped "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX."</li>
+        <li><strong>If you have unused Official Receipts:</strong> you do not need to throw them away. Under Revenue Regulation No. 11-2024, you can convert them to invoices by crossing out the words "Official Receipt" and stamping "Invoice" or "Service Invoice" in their place. They remain valid until fully consumed.</li>
+      </ul>
+      <p>The terminology changed too. BIR no longer uses "Official Receipt" and "Sales Invoice" interchangeably the way it once did. Under the new framework, every service transaction, even freelance work, requires a Sales Invoice as the primary document. The Official Receipt becomes an optional acknowledgement of payment on top of that.</p>
+      <p>So what exactly needs to go on your Sales Invoice?</p>
+
+      <h2>The mandatory fields: what every BIR-compliant freelance invoice must include</h2>
+      <p>Under Revenue Regulation No. 7-2024 (the implementing regulations for the EOPT Act), a BIR-compliant Sales Invoice must include:</p>
+      <ul>
+        <li><strong>The word "Invoice" prominently displayed.</strong> The document must be clearly labelled as a Sales Invoice or Service Invoice. "Official Receipt" alone is no longer valid as a primary document label.</li>
+        <li><strong>Your registered business name and address.</strong> The name on your BIR Certificate of Registration (Form 2303). For sole proprietors, this is typically your personal name followed by your trading name if any.</li>
+        <li><strong>Your Taxpayer Identification Number (TIN) with 4-digit branch code.</strong> Your TIN is assigned by the BIR when you register. The format is 12 digits: 9 TIN digits plus 3 branch code digits (for example, 123-456-789-000). Always include the full number; the branch code is required.</li>
+        <li><strong>A statement of your VAT or Non-VAT registration status.</strong> VAT-registered businesses must include their VAT registration status on the invoice. Non-VAT businesses must include the phrase "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX" in bold on the face of the invoice.</li>
+        <li><strong>Your client's registered business name and TIN.</strong> Required for B2B transactions above PHP 1,000. For B2C transactions, the buyer's details are not mandatory but are recommended for amounts above PHP 500.</li>
+        <li><strong>Date of transaction.</strong></li>
+        <li><strong>A unique, sequential invoice serial number.</strong> Must follow an unbroken sequence. The BIR requires you to register your invoice series through an Authority to Print (ATP) if using manually printed invoices, or through your accounting software if using a computerised system.</li>
+        <li><strong>A specific description of goods or services.</strong> Quantity, unit of measure, and unit price where applicable. "Freelance services" is too vague. "Brand identity design - logo, colour palette, and style guide, delivered June 2026" is correct.</li>
+        <li><strong>The amount of the sale, net of VAT or inclusive of VAT.</strong> Shown separately: taxable sales, VAT-exempt sales, zero-rated sales, and VAT amount, as applicable to your registration status.</li>
+        <li><strong>The total amount payable.</strong></li>
+      </ul>
+      <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
+        <p style="margin:0;"><strong>Invoicemonk generates BIR-compliant Sales Invoices with all of these fields automatically</strong>, including TIN formatting, the VAT status statement, and sequential numbering. <a href="/invoicing">Try the free invoice generator</a>.</p>
+      </aside>
+
+      <h2>Do you need to charge VAT? The PHP 3 million threshold</h2>
+      <p data-answer="true">VAT registration in the Philippines is mandatory when your annual gross sales or receipts exceed PHP 3,000,000 (approximately USD 52,000). Below this threshold, you are not required to register for VAT.</p>
+      <p>If you are below the PHP 3 million threshold, you have two options for income tax:</p>
+      <ul>
+        <li><strong>Graduated income tax rates (0% to 35%):</strong> you pay based on income brackets, and you can deduct allowable business expenses.</li>
+        <li><strong>8% flat tax on gross receipts:</strong> instead of income tax plus percentage tax, you pay a flat 8% on everything you earn above PHP 250,000. This option eliminates the need to file percentage tax (3%) separately. It is simpler for most freelancers with limited deductible expenses.</li>
+      </ul>
+      <p>You choose your tax option by filing BIR Form 1701Q on your first quarterly return of the year.</p>
+      <p>If you are below the VAT threshold, your invoice:</p>
+      <ul>
+        <li>Does not include a VAT line</li>
+        <li>Must include the phrase "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX" in bold</li>
+        <li>Is a Non-VAT Invoice under BIR classification</li>
+      </ul>
+      <p>If you exceed the PHP 3 million threshold, you must register for VAT, charge 12% VAT on domestic services, file monthly VAT returns (BIR Form 2550M), and issue VAT Invoices. You can also claim input VAT on your business expenses.</p>
+      <p><strong>Zero-rated for international clients:</strong> if you provide services to clients outside the Philippines and the payment is received in foreign currency (inward remittance), the transaction is zero-rated for VAT at 0%. Your invoice shows 0% VAT, not 12%. This is the most important VAT rule for Filipino freelancers with international clients.</p>
+
+      <h2>The Official Receipt question: answered once and for all</h2>
+      <h3>Can I still use my old Official Receipts?</h3>
+      <p data-answer="true">Yes, but only as supplementary documents. They must be stamped with "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX." You can also convert them to invoices by crossing out "Official Receipt" and stamping "Invoice" in its place.</p>
+
+      <h3>Can my client claim input VAT from an Official Receipt?</h3>
+      <p data-answer="true">No, not from an Official Receipt issued after 27 April 2024. Only a Sales Invoice (or a converted OR stamped as Invoice) is valid for input VAT claims from that date forward.</p>
+
+      <h3>Do I need a new Authority to Print (ATP)?</h3>
+      <p data-answer="true">If you are printing new invoice booklets, yes. You need a new ATP from the BIR using Form 1906. If you are using accounting software, the software must be registered with the BIR for it to generate valid invoices.</p>
+
+      <h3>Do I need to submit my unused OR inventory to the BIR?</h3>
+      <p data-answer="true">Yes. You should have submitted an inventory list of unused Official Receipts to your Revenue District Office (RDO) when the rule changed. If you have not done this yet, consult your RDO directly.</p>
+
+      <h2>The BIR e-invoicing mandate: what freelancers need to know before December 2026</h2>
+      <p data-answer="true">The BIR introduced mandatory structured e-invoicing under Revenue Regulation No. 11-2025. The system is called the Electronic Invoicing System (EIS) and requires eligible taxpayers to issue invoices in a structured JSON format transmitted directly to the BIR in near-real time. The original March 2026 deadline was extended to 31 December 2026 under Revenue Regulation No. 26-2025.</p>
+      <p>Who is affected right now:</p>
+      <ul>
+        <li>Large Taxpayers (as classified under the EOPT Act)</li>
+        <li>E-commerce and internet transaction businesses</li>
+        <li>Users of Computerised Accounting Systems (CAS) or invoicing software</li>
+        <li>Exporters with tax incentives under Section 304(D)</li>
+      </ul>
+      <p><strong>Does this affect most freelancers?</strong> Not directly, yet. Most solo freelancers are micro-taxpayers and are currently exempt from the structured e-invoicing obligation. However, freelancers using CAS or invoicing software may be in scope depending on their classification. Check your BIR Certificate of Registration (Form 2303) to see how you are classified.</p>
+      <p><strong>What to watch:</strong> the BIR is building out the infrastructure for broader e-invoicing adoption. Freelancers should choose invoicing tools that are BIR-compatible now, rather than scrambling to switch later.</p>
+
+      <h2>For international freelancers billing Filipino clients</h2>
+      <p data-answer="true">If you are based outside the Philippines and billing a Filipino business client, BIR registration and the Philippine invoicing rules do not directly apply to you. You are a non-resident supplier providing cross-border services.</p>
+      <p>What your Filipino client needs from your invoice:</p>
+      <ul>
+        <li>Your full legal name, business name, and country of residence</li>
+        <li>Your home country tax identification number</li>
+        <li>Their full registered business name and TIN</li>
+        <li>A sequential invoice number</li>
+        <li>Date of issue and date of service</li>
+        <li>A specific description of services provided</li>
+        <li>The net amount in the agreed currency</li>
+        <li>A note that no Philippine VAT is charged (the client may self-assess VAT under the reverse charge mechanism for imported services)</li>
+      </ul>
+      <p>Your Filipino client's accountant will handle the VAT treatment on their end. Your invoice does not need to be issued through the BIR's system. For the wider playbook on cross-border invoicing, see our <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT invoicing for freelancers</a> guide.</p>
+
+      <h2>The most common BIR invoicing mistakes Filipino freelancers make</h2>
+      <ol>
+        <li><strong>Still issuing Official Receipts as the primary document.</strong> Since 27 April 2024, Official Receipts are supplementary only. Your client cannot claim input VAT from them. Switch to Sales Invoices immediately if you have not already.</li>
+        <li><strong>Missing the "NOT VALID FOR CLAIM OF INPUT TAX" phrase on Non-VAT invoices.</strong> This phrase is mandatory on every invoice issued by a non-VAT registered freelancer. Without it, the invoice does not clearly communicate its tax status to the client's accountant.</li>
+        <li><strong>Not including the full TIN with branch code.</strong> The TIN alone (9 digits) is not enough. Include the 3-digit branch code to make the full 12-digit number (for example, 123-456-789-000). Omitting the branch code is a common compliance gap.</li>
+        <li><strong>Using vague service descriptions.</strong> "Professional services" or "freelance work" is not sufficient under BIR rules. Describe specifically what was delivered and when.</li>
+        <li><strong>Not registering invoice series with the BIR before use.</strong> If you use printed invoice booklets, they must have an Authority to Print (ATP) from the BIR. Invoices without a valid ATP are not legally recognised as tax documents.</li>
+      </ol>
+
+      <h2>Quick-reference checklist</h2>
+      <p>Filipino freelancer invoice checklist (2026):</p>
+      <ul>
+        <li>Document label: "Service Invoice" or "Sales Invoice" (not "Official Receipt")</li>
+        <li>Your registered name, address, and full TIN (including branch code)</li>
+        <li>Client's registered name and TIN (for transactions above PHP 1,000)</li>
+        <li>Sequential invoice number (registered with BIR via ATP or approved software)</li>
+        <li>Date of transaction</li>
+        <li>Specific description of services, quantity, unit price</li>
+        <li>VAT breakdown (if VAT-registered at 12%) OR "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX" (if non-VAT)</li>
+        <li>Total amount payable</li>
+        <li>Zero-rated notation (0% VAT) for services billed to international clients in foreign currency</li>
+      </ul>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_philippines_freelancer" target="_blank" rel="noopener">Create your first BIR-compliant invoice free, no credit card required</a>.</strong> Invoicemonk generates Sales Invoices with TIN formatting, VAT status statements, and sequential numbering automatically.</p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Billing clients outside the Philippines? Read our guide to <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT invoicing for freelancers</a>, plus our pillar on <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, our deep-dive on <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>, and how to <a href="/en/blog/how-to-issue-credit-note-freelancer">issue a credit note</a>.</p>
+    `,
+  },
+  // ═══════════════════════════════════════════════════
+  // INVOICEMONK VS WAVE — Comparison for international freelancers
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'invoicemonk-vs-wave',
+    title: 'InvoiceMonk vs Wave: which is better for international freelancers? (2026)',
+    excerpt: 'Wave is great for North American freelancers. But if you invoice EU clients, need VAT compliance, or bill across borders, here is why InvoiceMonk is the better fit.',
+    category: 'Comparisons',
+    tags: ['Wave', 'Comparison', 'VAT', 'International', 'Freelancers', 'Invoicing'],
+    author: defaultAuthor,
+    date: '2026-05-07',
+    dateModified: '2026-05-07',
+    readTime: '12 min read',
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'InvoiceMonk vs Wave comparison for international freelancers',
+    targetProduct: '/invoicing',
+    priority: 'P1',
+    semanticKeywords: ['Wave alternative', 'InvoiceMonk vs Wave', 'EU VAT invoicing', 'international freelancer invoicing', 'cross-border invoicing', 'reverse charge'],
+    macroContext: 'Honest comparison of Wave and InvoiceMonk for freelancers who invoice cross-border, with a focus on EU VAT compliance, sequential numbering, and payment-processing geography.',
+    faq: [
+      {
+        question: 'What is the main difference between InvoiceMonk and Wave?',
+        answer: 'Wave is a free accounting and invoicing tool built for freelancers and small businesses in the United States and Canada. InvoiceMonk is a compliance-first invoicing platform built for cross-border freelancers, with EU VAT handling, sequential numbering enforcement, and country-specific invoice fields baked in.',
+      },
+      {
+        question: 'Does Wave support EU VAT invoicing?',
+        answer: 'Wave lets you add a manual VAT line to an invoice, but it does not handle reverse charge wording, VIES VAT-number checks, or country-specific EU invoice requirements automatically. For B2B invoices to EU clients, you have to remember the rules yourself.',
+      },
+      {
+        question: 'Can I use Wave outside the US and Canada?',
+        answer: 'You can sign up from other countries and create invoices, but Wave Payments (card and bank processing) only works for businesses based in the US and Canada. Outside those two countries you lose the integrated payment side of the product.',
+      },
+      {
+        question: 'Is InvoiceMonk free?',
+        answer: 'InvoiceMonk has a free Starter plan that covers unlimited invoices, clients, and basic VAT handling. The paid plan adds advanced compliance features, multi-currency reporting, and team access.',
+      },
+    ],
+    relatedTools: [
+      { label: 'EU VAT invoice requirements for freelancers', url: '/en/blog/eu-vat-invoice-requirements-freelancers', description: 'Pillar guide to VAT-compliant invoices in the EU.' },
+      { label: 'Sequential invoice numbering and gap risk', url: '/en/blog/sequential-invoice-numbering-eu', description: 'Why missing invoice numbers can trigger an audit.' },
+      { label: 'Cross-border VAT and reverse charge', url: '/en/blog/cross-border-vat-invoicing-freelancers-eu', description: 'How the reverse charge mechanism works in practice.' },
+    ],
+    content: `
+      <p>Wave is one of the most loved free accounting tools for freelancers in the US and Canada. It is genuinely good at what it was built to do. But the moment you start invoicing clients in Germany, France, or the Netherlands, you discover that Wave was never designed for cross-border work. This comparison is for the freelancer whose client list has crossed an ocean.</p>
+
+      <h2>What both tools are, and who they were built for</h2>
+      <p>Wave was founded in Toronto in 2010 and acquired by H&amp;R Block in 2019. It now serves around two million small businesses, almost all of them in the US and Canada. The free Starter plan covers unlimited invoicing, basic accounting, and receipt capture. The Pro plan is $19 per month and adds bank-feed automation, recurring billing, and lower processing fees on Wave Payments.</p>
+      <p>InvoiceMonk is younger and narrower. It is a compliance-first invoicing platform built for freelancers and small agencies who invoice across borders. Instead of trying to be a full accounting suite, it focuses on getting the invoice itself right: the right VAT wording, the right sequential number, the right country-specific fields, and a clean audit trail when a tax office asks for one.</p>
+
+      <h3>What is the main difference between InvoiceMonk and Wave?</h3>
+      <p data-answer="true">Wave is a free accounting and invoicing tool built for freelancers and small businesses in the United States and Canada. InvoiceMonk is a compliance-first invoicing platform built for cross-border freelancers, with EU VAT handling, sequential numbering enforcement, and country-specific invoice fields baked in. If your clients are in North America, Wave is hard to beat on price. If your clients are in the EU, InvoiceMonk is built for the rules you actually have to follow.</p>
+
+      <h2>Five areas where Wave falls short for international freelancers</h2>
+      <p>These are the gaps that show up once you stop invoicing only US clients. None of them are dealbreakers for a freelancer working entirely in Toronto or Austin. All of them become daily friction the moment you invoice a Berlin agency.</p>
+
+      <h3>1. VAT handling is manual, not contextual</h3>
+      <p>Wave lets you create a tax called "VAT" and apply it to a line item. That is the extent of its VAT support. It does not know that an invoice from a Bulgarian freelancer to a German company should carry zero VAT and the wording <em>"Reverse charge - Article 196, EU VAT Directive 2006/112/EC"</em>. You type that wording into the notes field yourself, every time, and you remember the rule yourself.</p>
+      <p>InvoiceMonk is built to detect the cross-border B2B scenario from the buyer and seller VAT numbers and prompt you with the correct reverse charge wording before you send the invoice. The freelancer does not need to memorize Article 196.</p>
+
+      <h3>2. Sequential numbering is not enforced</h3>
+      <p>In Wave, invoice numbers are a free text field. You can skip from INV-014 to INV-020 and the software will not warn you. EU tax authorities treat gaps in your invoice sequence as a red flag during a VAT audit, because the simplest interpretation of a missing number is a deleted invoice.</p>
+      <p>InvoiceMonk treats the sequence as a compliance feature, not a label. Cancelled invoices stay in the sequence as voided records, and the system prompts you when a number is about to be skipped. Read more on <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering and why gaps are dangerous</a>.</p>
+
+      <h3>3. Payment processing is geographically limited</h3>
+      <p>Wave Payments, the integrated card and bank processor, only works for businesses based in the US and Canada. If you sign up from Spain, Bulgaria, or Romania, the "Accept Payments" button is greyed out. You can still send invoices, but the "click to pay" experience that Wave is known for is not available to you.</p>
+
+      <h3>4. Country-specific invoice fields are missing</h3>
+      <p>An invoice to a French client should reference SIRET. A Spanish invoice should reference NIF. A Dutch invoice needs the BTW number formatted as NL plus nine digits plus B plus two digits. Wave does not have these fields. You add them as free text, which means a typo is invisible to the software.</p>
+      <p>InvoiceMonk ships country-specific field sets that change based on the buyer's country, so the right tax-ID label appears on the invoice and the format is validated.</p>
+
+      <h3>5. No VIES VAT-number validation</h3>
+      <p>VIES is the EU's official VAT-number checker. If you reverse charge an invoice to a client whose VAT number is invalid on the day you issue, you owe the VAT yourself. Wave does not check VIES. You open vies.ec.europa.eu in another tab, paste the number, screenshot the result, and save it next to the invoice yourself.</p>
+      <p>InvoiceMonk is built to check the buyer VAT number against VIES at issue time and store the validation receipt with the invoice, so the audit trail is automatic.</p>
+
+      <h2>Where Wave is genuinely better</h2>
+      <p>Honesty matters here, because Wave is a strong product and pretending otherwise would not help anyone. Three areas where Wave clearly wins:</p>
+      <ul>
+        <li><strong>Free bookkeeping depth.</strong> Wave's free plan includes real double-entry accounting, bank reconciliation, and a chart of accounts. Most "free invoicing" tools stop at sending invoices.</li>
+        <li><strong>Reporting and reconciliation.</strong> Profit and loss, balance sheet, sales tax report, cash flow. They are all there, all free, and all mature after fifteen years of refinement.</li>
+        <li><strong>Ecosystem and longevity.</strong> Wave has been around since 2010, integrates with H&amp;R Block at tax time in the US, and has a large community of accountants who already know it. That counts.</li>
+      </ul>
+      <p>If you are a US-based freelancer with US clients and you want one free tool that does invoicing and bookkeeping in one place, Wave is hard to argue with.</p>
+
+      <h2>The decision framework</h2>
+      <p>Two short lists. Pick the one that sounds like your week.</p>
+
+      <h3>Choose Wave if</h3>
+      <ul>
+        <li>You and your clients are based in the US or Canada.</li>
+        <li>You want bookkeeping and invoicing in one free tool.</li>
+        <li>You file taxes domestically and never deal with VAT or reverse charge.</li>
+        <li>You want Wave Payments to handle card processing for you.</li>
+      </ul>
+
+      <h3>Choose InvoiceMonk if</h3>
+      <ul>
+        <li>You invoice clients in the EU, UK, or other VAT jurisdictions.</li>
+        <li>You need sequential numbering enforced and audit-ready out of the box.</li>
+        <li>You bill in more than one currency and want consistent records.</li>
+        <li>You would rather have the software remember the country-specific rules than memorize them yourself.</li>
+      </ul>
+
+      <p>Rico is a Bulgarian freelance developer who invoices three German agencies and a Dutch design studio. He used Wave for two years and loved how simple it was. Then his accountant asked him to produce his 2024 invoice register for a routine VAT review. Three invoice numbers were missing, because Rico had deleted draft invoices in Wave and the sequence had quietly skipped. The accountant had to write a memo explaining each gap. Rico moved to InvoiceMonk the same week, mostly so the sequence would simply never break again, and renewed his subscription a year later because nothing had broken since.</p>
+
+      <h2>Feature-by-feature comparison</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Wave</th>
+            <th>InvoiceMonk</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Free plan</td><td>Yes (Starter)</td><td>Yes (Starter)</td></tr>
+          <tr><td>Paid plan starting price</td><td>$19 / month (Pro)</td><td>Coming soon</td></tr>
+          <tr><td>Unlimited invoices</td><td>Yes</td><td>Yes</td></tr>
+          <tr><td>EU VAT reverse charge wording</td><td>Manual notes field</td><td>Prompted automatically</td></tr>
+          <tr><td>Sequential numbering enforcement</td><td>Free text</td><td>Enforced, voids stay in sequence</td></tr>
+          <tr><td>VIES VAT-number validation</td><td>Not available</td><td>Built in</td></tr>
+          <tr><td>Country-specific invoice fields</td><td>Free text only</td><td>Country-aware field sets</td></tr>
+          <tr><td>Multi-currency invoicing</td><td>Limited</td><td>Yes, with FX record</td></tr>
+          <tr><td>Payment processing geography</td><td>US and Canada only</td><td>Coming soon</td></tr>
+          <tr><td>Double-entry bookkeeping</td><td>Yes, free</td><td>Focused on invoicing</td></tr>
+          <tr><td>Bank reconciliation</td><td>Yes (Pro)</td><td>Not the focus</td></tr>
+          <tr><td>Audit-ready invoice register</td><td>Manual export</td><td>Built in</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Does Wave support EU VAT invoicing?</h3>
+      <p data-answer="true">Wave lets you add a manual VAT line to an invoice, but it does not handle reverse charge wording, VIES VAT-number checks, or country-specific EU invoice requirements automatically. For B2B invoices to EU clients you have to remember the rules yourself, type the legal wording into the notes field, and validate the buyer's VAT number outside the product.</p>
+
+      <h3>Can I use Wave outside the US and Canada?</h3>
+      <p data-answer="true">You can sign up from other countries and create invoices in Wave, but Wave Payments (the integrated card and bank processor) only works for businesses based in the US and Canada. Outside those two countries you can still send PDF invoices, but you lose the "click to pay" experience and the automatic payment reconciliation that Wave is known for.</p>
+
+      <h2>The pricing reality for international freelancers</h2>
+      <p>"Wave is free" is true, and it is also incomplete. Free invoicing software is only cheap if every invoice you send is compliant on the first try. For a freelancer invoicing only US clients, that is usually the case. For a freelancer invoicing EU clients on Wave, the real cost shows up in three places:</p>
+      <ul>
+        <li>Time spent looking up the right reverse charge wording for each country.</li>
+        <li>Invoices rejected by client AP teams because the buyer VAT number, SIRET, or NIF is missing or wrong.</li>
+        <li>Hours spent explaining a numbering gap to your accountant or, worse, to a tax inspector.</li>
+      </ul>
+      <p>Compared against an hour of accountant time at typical EU rates, the gap between "free Wave" and a paid compliance-first tool closes quickly.</p>
+
+      <h3>Is InvoiceMonk free?</h3>
+      <p data-answer="true">Yes. InvoiceMonk has a free Starter plan that covers unlimited invoices, unlimited clients, and the basic VAT handling most freelancers need. A paid plan adds advanced compliance features, multi-currency reporting, and team access for agencies. You do not need a credit card to start.</p>
+
+      <h2>Conclusion</h2>
+      <p>Wave is the right tool for freelancers in the US and Canada who want free bookkeeping and invoicing in one place. InvoiceMonk is the right tool for freelancers who invoice across borders and need the rules of EU VAT, sequential numbering, and country-specific fields handled by the software, not by memory.</p>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_invoicemonk_vs_wave" target="_blank" rel="noopener">Create your first compliant cross-border invoice free, no credit card required</a>.</strong></p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">If your clients are in the EU, start with our pillar guide to <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements for freelancers</a>, or jump to a country: <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>, <a href="/en/blog/dutch-invoice-requirements-freelancers">Dutch invoice requirements</a>, and <a href="/en/blog/french-invoice-requirements-freelancers">invoicing French clients</a>.</p>
+    `,
+  },
+
+  // ═══════════════════════════════════════════════════
+  // CAPSTONE — VAT INVOICE CHECKLIST BY COUNTRY (Week 11 hub)
+  // ═══════════════════════════════════════════════════
+  {
+    slug: 'vat-invoice-checklist-by-country',
+    title: 'VAT invoice checklist by country — the 2026 freelancer guide',
+    excerpt: 'What must your invoice include when billing clients in Germany, France, Netherlands, Poland, Kenya, Philippines, and more? The complete country-by-country checklist.',
+    category: 'Tax and Compliance',
+    tags: [
+      'VAT invoice checklist by country',
+      'invoice requirements by country freelancer',
+      'what must a VAT invoice include',
+      'VAT invoice mandatory fields country list',
+      'invoice compliance checklist EU freelancer',
+      'cross-border invoice requirements freelancer',
+      'VAT invoice requirements Europe Africa Asia',
+      'compliant invoice checklist 2026',
+      'EU invoice mandatory fields list',
+      'reverse charge notation by country',
+    ],
+    author: defaultAuthor,
+    date: '2026-05-07',
+    dateModified: '2026-05-07',
+    lastAudited: '2026-05-07',
+    readTime: '14 min read',
+    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImageAlt: 'Country-by-country VAT-compliant invoice checklist for freelancers in 2026',
+    clusterType: 'pillar',
+    targetProduct: '/compliance',
+    priority: 'P1',
+    pillarContent: true,
+    macroContext: 'Cross-market VAT compliance reference covering EU baseline (Article 226), country-specific mandatory fields for Germany, Netherlands, France, Poland, Bulgaria, Kenya, and the Philippines, reverse charge notation in local languages, sequential numbering enforcement, and the global e-invoicing rollout timeline.',
+    semanticKeywords: [
+      'VAT invoice checklist by country',
+      'invoice requirements by country freelancer',
+      'what must a VAT invoice include',
+      'VAT invoice mandatory fields country list',
+      'invoice compliance checklist EU freelancer',
+      'cross-border invoice requirements freelancer',
+      'VAT invoice requirements Europe Africa Asia',
+      'compliant invoice checklist 2026',
+      'EU invoice mandatory fields list',
+      'reverse charge notation by country',
+    ],
+    entityMentions: [
+      { name: 'EU VAT Directive 2006/112/EC', type: 'Legislation' },
+      { name: 'Article 196 EU VAT Directive', type: 'Legislation' },
+      { name: 'Article 226 EU VAT Directive', type: 'Legislation' },
+      { name: 'VIES', type: 'GovernmentService', url: 'https://ec.europa.eu/taxation_customs/vies' },
+      { name: 'Leistungsdatum' },
+      { name: 'USt-IdNr.' },
+      { name: 'Steuerschuldnerschaft des Leistungsempfängers' },
+      { name: 'Kleinunternehmerregelung §19 UStG', type: 'Legislation' },
+      { name: 'KVK' },
+      { name: 'BTW-identificatienummer' },
+      { name: 'OB-nummer' },
+      { name: 'BSN' },
+      { name: 'Kleineondernemersregeling (KOR)' },
+      { name: 'BTW verlegd' },
+      { name: 'SIRET' },
+      { name: 'SIREN' },
+      { name: 'Toubon Law', type: 'Legislation' },
+      { name: 'Franchise en base de TVA' },
+      { name: 'Autoliquidation' },
+      { name: 'NIP' },
+      { name: 'Biała Lista', type: 'GovernmentService', url: 'https://podatki.gov.pl' },
+      { name: 'KSeF (Krajowy System e-Faktur)' },
+      { name: 'Odwrotne obciążenie' },
+      { name: 'KRA PIN' },
+      { name: 'eTIMS' },
+      { name: 'Kenya VAT Act, Cap 476', type: 'Legislation' },
+      { name: 'BIR' },
+      { name: 'Sales Invoice (Philippines)' },
+      { name: 'Ease of Paying Taxes Act (RA 11976)', type: 'Legislation' },
+      { name: 'EIS (Philippines)' },
+      { name: 'ZUGFeRD' },
+      { name: 'XRechnung' },
+      { name: 'ViDA' },
+    ],
+    relatedTools: [
+      { label: 'Compliance Hub', url: '/compliance', description: 'Country-by-country invoice compliance built into Invoicemonk.' },
+      { label: 'Free invoice generator', url: '/invoicing', description: 'Generate compliant invoices with the right fields per country.' },
+    ],
+    faq: [
+      {
+        question: 'What must every EU VAT invoice include?',
+        answer: 'Under EU VAT Directive 2006/112/EC, every VAT invoice issued to a business client in the EU must include: the supplier\'s full legal name, address, and VAT number; the client\'s full legal name, address, and VAT number; a unique sequential invoice number with no gaps; the date of issue; the date of supply; a specific description of services or goods delivered; the net amount per VAT rate; the VAT rate applied; the total VAT amount; and the total gross amount payable. For cross-border B2B invoices, the notation "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC" must replace the VAT line. Individual EU member states add requirements on top of this baseline — Germany requires a Leistungsdatum, France requires a SIRET number and late payment clause, and the Netherlands requires a KVK number.',
+      },
+      {
+        question: 'What is the difference between VAT invoice requirements in Germany and France?',
+        answer: 'Germany and France both follow the EU VAT Directive baseline but add distinct national requirements. Germany\'s most commonly missed field is the Leistungsdatum — the date of supply, which must be stated even when it matches the invoice date. Germany also requires either a Steuernummer or USt-IdNr. and uses "Steuerschuldnerschaft des Leistungsempfängers" for reverse charge notation. France requires a 14-digit SIRET number (not just the 9-digit SIREN), the client\'s SIRET number, an "EI" designation after the supplier\'s name for sole traders, and a mandatory late payment penalty clause (€40 indemnity). For freelancers under the VAT threshold, France requires the exact phrase "TVA non applicable, article 293 B du CGI" while Germany requires "Gemäß §19 UStG wird keine Umsatzsteuer berechnet." France also requires all mandatory fields in French under the Toubon Law.',
+      },
+      {
+        question: 'What must a freelance invoice to a Kenyan client include?',
+        answer: 'A freelance invoice to a Kenyan business client must include the freelancer\'s full legal name and home country tax ID, the client\'s KRA PIN (an 11-character alphanumeric identifier verified on kra.go.ke), a sequential invoice number, the date of issue and date of service, a specific description of services, the net amount in the agreed currency, and a note stating that no Kenyan VAT is charged under the reverse charge provisions of Kenya\'s VAT Act (Cap 476). For foreign freelancers, the Kenyan client will deduct 20% withholding tax from the payment before remitting — the freelancer invoices the full agreed amount and receives 80% unless a Double Taxation Agreement applies.',
+      },
+      {
+        question: 'What changed about Philippine invoice requirements in 2024?',
+        answer: 'Under the Ease of Paying Taxes Act (Republic Act 11976, effective January 2024), the Official Receipt was demoted from primary tax document to supplementary document in the Philippines. Since April 27, 2024, Filipino freelancers must issue Sales Invoices (or Service Invoices) as the primary billing document. Official Receipts can still be used as proof of payment but cannot be used by clients to claim input VAT. Every BIR-compliant Sales Invoice must include the label "Invoice" or "Service Invoice," the freelancer\'s full 12-digit TIN including branch code, the client\'s TIN for transactions above PHP 1,000, a sequential invoice number registered with the BIR, and the phrase "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX" in bold if the freelancer is non-VAT registered.',
+      },
+      {
+        question: 'What is the reverse charge invoice wording that works across all EU countries?',
+        answer: 'The standard reverse charge notation accepted across all 27 EU member states for cross-border B2B service invoices is: "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC." This wording satisfies the EU VAT Directive requirement for a reverse charge notation (Article 226(11a)) in every member state. Some countries additionally require the notation in the local language: Germany uses "Steuerschuldnerschaft des Leistungsempfängers," the Netherlands uses "BTW verlegd," France uses "Autoliquidation — Article 283 du CGI," and Poland uses "Odwrotne obciążenie." Including both the English EU reference and the local language notation is recommended for invoices to clients in these countries.',
+      },
+    ],
+    content: `
+      <p>Every country has its own invoicing rules. Germany requires a Leistungsdatum. France requires a SIRET number and a specific exemption phrase. The Netherlands has two VAT numbers, and putting the wrong one on your invoice is a privacy risk. Poland now routes invoices through a government platform. Kenya deducts withholding tax before paying you. If you invoice clients across multiple countries, keeping track of all this is exhausting.</p>
+
+      <p>This checklist is the reference you bookmark and return to. Every country, every key requirement, every country-specific field that trips people up, in one place.</p>
+
+      <h2>The EU-wide baseline: what every invoice to an EU client must include</h2>
+      <p data-answer="true">Every invoice to a VAT-registered EU business client must follow the EU VAT Directive (2006/112/EC) baseline: supplier and client legal names, addresses, and VAT numbers; a unique sequential invoice number with no gaps; date of issue and date of supply; a specific description of services; net amount per VAT rate; the VAT rate and amount; the total gross amount; and, for cross-border B2B, the reverse charge notation "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC."</p>
+
+      <p>The full baseline checklist:</p>
+      <ul>
+        <li><strong>Supplier's full legal name and address.</strong></li>
+        <li><strong>Supplier's VAT identification number.</strong> Format varies by country (DE + 9 digits for Germany, NL + 9 digits + B + 2 digits for the Netherlands, FR + 2 characters + 9 digits for France).</li>
+        <li><strong>Client's full legal name and address.</strong></li>
+        <li><strong>Client's VAT identification number.</strong> Verify via VIES at <a href="https://ec.europa.eu/taxation_customs/vies" target="_blank" rel="nofollow noopener">ec.europa.eu/taxation_customs/vies</a> before every new invoice.</li>
+        <li><strong>A unique, sequential invoice number.</strong> No gaps; an unbroken chronological series.</li>
+        <li><strong>Date of issue.</strong></li>
+        <li><strong>Date of supply.</strong> The date the service was actually delivered, if different from the invoice date.</li>
+        <li><strong>A specific description of services.</strong> Sufficient for a tax auditor to understand what was delivered without asking.</li>
+        <li><strong>Net amount per VAT rate.</strong></li>
+        <li><strong>VAT rate applied.</strong></li>
+        <li><strong>Total VAT amount.</strong></li>
+        <li><strong>Total gross amount payable.</strong></li>
+        <li><strong>Cross-border B2B reverse charge notation:</strong> "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC."</li>
+      </ul>
+
+      <p><strong>The 15th of the month rule.</strong> For cross-border B2B supplies within the EU, you must issue invoices no later than the 15th of the month following the month of supply. Missing this deadline is a compliance failure even if the invoice content is correct.</p>
+
+      <p>Every country in the EU adds its own requirements on top of this baseline. The sections below cover the most important country-specific additions. For the full pillar guide, see our <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements for freelancers</a>.</p>
+
+      <h2>Country-by-country checklist</h2>
+
+      <h3>Germany</h3>
+      <p><strong>Additional mandatory fields (on top of EU baseline):</strong></p>
+      <ul>
+        <li><strong>Leistungsdatum (date of supply).</strong> You must state it explicitly even when it matches the invoice date. If they are the same, use: "Leistungsdatum entspricht dem Rechnungsdatum."</li>
+        <li><strong>Either your Steuernummer or USt-IdNr.</strong> For cross-border invoices, the USt-IdNr. is required.</li>
+      </ul>
+      <p><strong>Small business exemption:</strong> Kleinunternehmerregelung (§19 UStG). Threshold: €25,000 previous year / €100,000 current year. Phrase: "Gemäß §19 UStG wird keine Umsatzsteuer berechnet."</p>
+      <p><strong>Cross-border reverse charge notation:</strong> "Steuerschuldnerschaft des Leistungsempfängers (§13b Abs. 5 UStG)" alongside the Article 196 EU reference.</p>
+      <p><strong>Watch out:</strong> Never use "Gutschrift" to mean a correction invoice. Since 2013 it means self-billing. Use "Stornorechnung" or "Rechnungskorrektur" instead.</p>
+      <p><strong>E-invoicing:</strong> ZUGFeRD/XRechnung mandatory for B2B from January 2027 (turnover above €800,000) and all businesses from January 2028.</p>
+      <p><a href="/en/blog/how-to-invoice-german-clients-freelancer">Full Germany invoicing guide</a>.</p>
+
+      <h3>Netherlands</h3>
+      <p><strong>Additional mandatory fields:</strong></p>
+      <ul>
+        <li><strong>KVK number</strong> (8-digit Chamber of Commerce registration), for Dutch-registered businesses only.</li>
+        <li><strong>BTW-identificatienummer (BTW-ID)</strong> in NL + 9 digits + B + 2 digits format. Never the OB-nummer.</li>
+        <li><strong>Specific payment due date.</strong> Standard is 30 days.</li>
+        <li><strong>Late payment terms.</strong> Recommended for B2B invoices.</li>
+      </ul>
+      <p><strong>Small business exemption:</strong> KOR (Kleineondernemersregeling). Threshold: €20,000 annual turnover. Phrase: "BTW vrijgesteld op grond van artikel 25 Wet op de omzetbelasting 1968."</p>
+      <p><strong>Cross-border reverse charge notation:</strong> "BTW verlegd" alongside the Article 196 EU reference.</p>
+      <p><strong>Watch out:</strong> Never put your OB-nummer on a client-facing invoice. It contains your personal BSN (citizen service number); a serious identity fraud risk. Only the BTW-ID belongs on invoices.</p>
+      <p><strong>Invoicing deadline:</strong> No later than the 15th of the month following delivery.</p>
+      <p><a href="/en/blog/dutch-invoice-requirements-freelancers">Full Netherlands invoicing guide</a>.</p>
+
+      <h3>France</h3>
+      <p>Now, across the Channel: France stacks the most country-specific requirements of any major EU market.</p>
+      <p><strong>Additional mandatory fields:</strong></p>
+      <ul>
+        <li><strong>SIRET number</strong> (14 digits, not the 9-digit SIREN).</li>
+        <li><strong>Client's SIRET number</strong>, required for B2B invoices.</li>
+        <li><strong>EI designation:</strong> auto-entrepreneurs must add "EI" directly after their name since 2022.</li>
+        <li><strong>Specific payment due date</strong> (not just "30 days").</li>
+        <li><strong>Late payment penalty clause</strong>, mandatory for all B2B: "Indemnité forfaitaire de recouvrement: €40" plus a penalty rate (3x legal interest rate).</li>
+        <li><strong>Toubon Law:</strong> all mandatory fields must appear in French for domestic transactions.</li>
+      </ul>
+      <p><strong>Small business exemption:</strong> Franchise en base de TVA. Threshold: €37,500 (services) / €41,250 upper limit. Phrase: "TVA non applicable, article 293 B du CGI."</p>
+      <p><strong>Cross-border reverse charge notation:</strong> "Autoliquidation — Article 283 du CGI" alongside the Article 196 EU reference.</p>
+      <p><strong>Watch out:</strong> Missing the franchise en base phrase, or writing "0% TVA" instead, is non-compliant even when no TVA is owed. The phrase must appear verbatim.</p>
+      <p><strong>E-invoicing:</strong> Large businesses from September 1, 2026. All businesses including micro-enterprises from September 1, 2027.</p>
+      <p><a href="/en/blog/french-invoice-requirements-freelancers">Full France invoicing guide</a>.</p>
+
+      <h3>Poland</h3>
+      <p><strong>Additional mandatory fields:</strong></p>
+      <ul>
+        <li><strong>NIP number</strong> (10-digit Polish tax ID); your own NIP if Polish-registered, your EU VAT number if not.</li>
+        <li><strong>Client's NIP number</strong>, verified on Poland's Biała Lista (<a href="https://podatki.gov.pl" target="_blank" rel="nofollow noopener">podatki.gov.pl</a>) and on VIES.</li>
+        <li><strong>Date of supply.</strong></li>
+        <li><strong>PLN equivalent</strong> if invoicing in foreign currency.</li>
+      </ul>
+      <p><strong>Small business exemption:</strong> No VAT-threshold equivalent for most purposes; Polish VAT registration is required for most business activity.</p>
+      <p><strong>Cross-border reverse charge notation:</strong> "Odwrotne obciążenie" alongside the Article 196 EU reference.</p>
+      <p><strong>Watch out:</strong> Always verify the client's NIP on the Biała Lista, not just VIES. The Biała Lista confirms active status and registered bank accounts; VIES does not.</p>
+      <p><strong>E-invoicing (KSeF):</strong> Mandatory for all VAT-registered Polish businesses from April 1, 2026. Foreign freelancers without a Polish establishment are not required to use KSeF.</p>
+      <p><a href="/en/blog/invoicing-polish-clients-foreign-freelancer">Full Poland KSeF invoicing guide</a>.</p>
+
+      <h3>Bulgaria</h3>
+      <p>The EU baseline applies with no additional mandatory fields, but one thing matters more here than almost anywhere else.</p>
+      <p><strong>Watch out:</strong> Sequential numbering enforcement is strict. Bulgarian tax authorities actively check for gaps during audits; a missing invoice number is treated as a potential unreported transaction. Maintain an unbroken sequence with meticulous care.</p>
+      <p><strong>VAT rate:</strong> Standard rate 20%.</p>
+
+      <h3>Kenya</h3>
+      <p>Moving to East Africa: Kenya runs a real-time invoice clearance system (eTIMS) for resident businesses, and a separate set of rules for foreign suppliers.</p>
+      <p><strong>For Kenyan-registered businesses:</strong></p>
+      <ul>
+        <li><strong>Seller's KRA PIN</strong>, mandatory for all Kenyan-registered businesses.</li>
+        <li><strong>Buyer's KRA PIN</strong>, required for B2B invoices.</li>
+        <li><strong>QR code</strong> on eTIMS-generated invoices.</li>
+        <li><strong>eTIMS transmission:</strong> all Kenyan-registered businesses must issue invoices through the eTIMS platform.</li>
+      </ul>
+      <p><strong>For foreign freelancers billing Kenyan clients:</strong></p>
+      <ul>
+        <li>Your home country tax ID.</li>
+        <li>The client's KRA PIN (11-character alphanumeric, e.g. P051234567A); verify on <a href="https://kra.go.ke" target="_blank" rel="nofollow noopener">kra.go.ke</a>.</li>
+        <li>Reverse charge note: "No Kenyan VAT charged. Reverse charge applies under Kenya's VAT Act, Cap 476."</li>
+      </ul>
+      <p><strong>Withholding tax note:</strong> clients deduct 20% WHT at source on professional fees to non-residents. Invoice the full amount; receive 80%.</p>
+      <p><strong>Watch out:</strong> eTIMS applies to Kenyan-registered businesses, not foreign freelancers. But foreign freelancers must still include the client's KRA PIN and reverse charge wording, or the client cannot process the invoice correctly.</p>
+      <p><strong>VAT rate:</strong> Standard rate 16%. VAT registration threshold: KES 5 million annual turnover.</p>
+      <p><a href="/en/blog/invoicing-kenyan-clients-foreign-freelancer">Full Kenya invoicing guide for foreign freelancers</a>.</p>
+
+      <h3>Philippines</h3>
+      <p>On the other side of the world: the Philippines reshaped its invoicing rules in 2024, and many freelancers are still using the old documents.</p>
+      <p><strong>Additional mandatory fields:</strong></p>
+      <ul>
+        <li><strong>Document label:</strong> "Service Invoice" or "Sales Invoice", not "Official Receipt" (demoted to supplementary document since April 2024).</li>
+        <li><strong>Your 12-digit TIN including branch code</strong> (e.g. 123-456-789-000).</li>
+        <li><strong>Client's TIN</strong>, required for transactions above PHP 1,000.</li>
+        <li><strong>Authority to Print (ATP) registration:</strong> manual invoice booklets must be BIR-registered.</li>
+        <li><strong>"THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX"</strong> in bold on all Non-VAT invoices.</li>
+      </ul>
+      <p><strong>Small business exemption:</strong> Non-VAT registration below PHP 3,000,000 annual gross receipts. Option to use 8% flat tax on gross income above PHP 250,000 instead of graduated rates plus percentage tax.</p>
+      <p><strong>For international clients:</strong> services paid in foreign currency are zero-rated (0% VAT). State the zero-rating clearly on the invoice.</p>
+      <p><strong>Watch out:</strong> The switch from Official Receipt to Sales Invoice confused many freelancers. Any invoice labelled "Official Receipt" issued after April 27, 2024 is a supplementary document only; clients cannot use it to claim input VAT.</p>
+      <p><strong>E-invoicing:</strong> Structured e-invoicing mandatory for Large Taxpayers and e-commerce businesses by December 31, 2026 (extended from March 2026). Most solo freelancers are currently exempt.</p>
+      <p><a href="/en/blog/bir-invoice-requirements-freelancers-philippines">Full Philippines BIR invoicing guide</a>.</p>
+
+      <h2>The universal fields: what every invoice everywhere needs</h2>
+      <p data-answer="true">Regardless of where your client is located, every professional invoice must include your full legal name and business address, a unique sequential invoice number, the date of issue, the date of service, a specific description of what was delivered, the amount broken into net, tax, and gross, and your payment details (bank account, IBAN, SWIFT/BIC). These seven fields will not satisfy every jurisdiction's full compliance requirements, but an invoice missing any of them will be rejected by almost any client anywhere in the world.</p>
+      <ul>
+        <li>Your full legal name and business address.</li>
+        <li>A sequential invoice number, unique and gap-free.</li>
+        <li>Date of issue.</li>
+        <li>Date of service delivered.</li>
+        <li>A specific description of what was delivered.</li>
+        <li>The amount: net, tax, and gross presented clearly.</li>
+        <li>Your payment details: bank account, IBAN, SWIFT/BIC.</li>
+      </ul>
+
+      <h2>The three mistakes that get invoices rejected everywhere</h2>
+
+      <h3>Mistake 1: Vague service descriptions</h3>
+      <p data-answer="true">"Consulting," "Services," or "Project work" will be flagged by accountants in Germany, France, the Netherlands, Kenya, and the Philippines alike. Every country requires enough specificity for a tax auditor to understand the transaction without asking. Good: "UX design — homepage wireframes and three product page templates, delivered July 2026." Bad: "Design work."</p>
+
+      <h3>Mistake 2: Gaps in invoice numbering</h3>
+      <p data-answer="true">Every country covered in this article treats gaps in invoice number sequences as an audit red flag. Germany's Finanzamt, Bulgaria's tax authority, the EU VAT Directive, and Kenya's KRA all expect an unbroken sequential series. A missing number must be explained in writing or it is assumed to represent unreported income. See our deeper guide on <a href="/en/blog/sequential-invoice-numbering-guide">sequential invoice numbering and why gaps matter</a>.</p>
+
+      <h3>Mistake 3: Applying reverse charge without verifying the client's tax ID</h3>
+      <p data-answer="true">Applying the reverse charge mechanism to an invoice without verifying the client's VAT or tax registration number leaves you liable for the VAT if the number turns out to be invalid. Always verify (VIES for EU clients, the Biała Lista for Polish clients, kra.go.ke for Kenyan clients) and save the confirmation. For the full mechanics, read our guide to <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge</a>.</p>
+
+      <h2>The e-invoicing wave: what is coming and when</h2>
+      <p>E-invoicing mandates are rolling out across every market covered in this article. The trend is universal: tax authorities are moving from periodic VAT return reporting to real-time or near-real-time transaction monitoring. Here is where each country stands as of mid-2026.</p>
+
+      <table style="width:100%;border-collapse:collapse;margin:16px 0;">
+        <thead>
+          <tr style="background:#f8fafc;">
+            <th style="text-align:left;padding:8px;border:1px solid #e5e7eb;">Country</th>
+            <th style="text-align:left;padding:8px;border:1px solid #e5e7eb;">Status</th>
+            <th style="text-align:left;padding:8px;border:1px solid #e5e7eb;">Key deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:8px;border:1px solid #e5e7eb;">France</td><td style="padding:8px;border:1px solid #e5e7eb;">Rolling out</td><td style="padding:8px;border:1px solid #e5e7eb;">Large businesses: September 2026. All businesses: September 2027.</td></tr>
+          <tr><td style="padding:8px;border:1px solid #e5e7eb;">Germany</td><td style="padding:8px;border:1px solid #e5e7eb;">Rolling out</td><td style="padding:8px;border:1px solid #e5e7eb;">Above €800K turnover: January 2027. All businesses: January 2028.</td></tr>
+          <tr><td style="padding:8px;border:1px solid #e5e7eb;">Poland (KSeF)</td><td style="padding:8px;border:1px solid #e5e7eb;">Live</td><td style="padding:8px;border:1px solid #e5e7eb;">All VAT-registered businesses: April 2026. Micro-entrepreneurs: January 2027.</td></tr>
+          <tr><td style="padding:8px;border:1px solid #e5e7eb;">Italy</td><td style="padding:8px;border:1px solid #e5e7eb;">Live</td><td style="padding:8px;border:1px solid #e5e7eb;">Mandatory for all B2B since 2019.</td></tr>
+          <tr><td style="padding:8px;border:1px solid #e5e7eb;">Kenya (eTIMS)</td><td style="padding:8px;border:1px solid #e5e7eb;">Live</td><td style="padding:8px;border:1px solid #e5e7eb;">All businesses since January 2024.</td></tr>
+          <tr><td style="padding:8px;border:1px solid #e5e7eb;">Philippines (EIS)</td><td style="padding:8px;border:1px solid #e5e7eb;">Rolling out</td><td style="padding:8px;border:1px solid #e5e7eb;">Large taxpayers: December 2026.</td></tr>
+          <tr><td style="padding:8px;border:1px solid #e5e7eb;">EU-wide (ViDA)</td><td style="padding:8px;border:1px solid #e5e7eb;">Announced</td><td style="padding:8px;border:1px solid #e5e7eb;">Intra-EU digital reporting: July 2030.</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>For freelancers:</strong> the immediate obligation is to ensure your current invoices meet the content requirements in each country. The structural e-invoicing mandates (XML formats, platform submissions) primarily affect larger businesses first. Solo freelancers have time, but choosing an invoicing tool that is tracking these developments now is the way to avoid a last-minute scramble.</p>
+
+      <h2>Quick answers</h2>
+
+      <h3>What must every EU VAT invoice include?</h3>
+      <p data-answer="true">Under EU VAT Directive 2006/112/EC, every VAT invoice issued to a business client in the EU must include: the supplier's full legal name, address, and VAT number; the client's full legal name, address, and VAT number; a unique sequential invoice number with no gaps; the date of issue; the date of supply; a specific description of services or goods delivered; the net amount per VAT rate; the VAT rate applied; the total VAT amount; and the total gross amount payable. For cross-border B2B invoices, the notation "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC" must replace the VAT line. Individual EU member states add requirements on top of this baseline: Germany requires a Leistungsdatum, France requires a SIRET number and late payment clause, and the Netherlands requires a KVK number.</p>
+
+      <h3>What is the difference between VAT invoice requirements in Germany and France?</h3>
+      <p data-answer="true">Germany and France both follow the EU VAT Directive baseline but add distinct national requirements. Germany's most commonly missed field is the Leistungsdatum, the date of supply, which must be stated even when it matches the invoice date. Germany also requires either a Steuernummer or USt-IdNr. and uses "Steuerschuldnerschaft des Leistungsempfängers" for reverse charge notation. France requires a 14-digit SIRET number (not just the 9-digit SIREN), the client's SIRET number, an "EI" designation after the supplier's name for sole traders, and a mandatory late payment penalty clause (€40 indemnity). For freelancers under the VAT threshold, France requires the exact phrase "TVA non applicable, article 293 B du CGI" while Germany requires "Gemäß §19 UStG wird keine Umsatzsteuer berechnet." France also requires all mandatory fields in French under the Toubon Law.</p>
+
+      <h3>What must a freelance invoice to a Kenyan client include?</h3>
+      <p data-answer="true">A freelance invoice to a Kenyan business client must include the freelancer's full legal name and home country tax ID, the client's KRA PIN (an 11-character alphanumeric identifier verified on kra.go.ke), a sequential invoice number, the date of issue and date of service, a specific description of services, the net amount in the agreed currency, and a note stating that no Kenyan VAT is charged under the reverse charge provisions of Kenya's VAT Act (Cap 476). For foreign freelancers, the Kenyan client will deduct 20% withholding tax from the payment before remitting; the freelancer invoices the full agreed amount and receives 80% unless a Double Taxation Agreement applies.</p>
+
+      <h3>What changed about Philippine invoice requirements in 2024?</h3>
+      <p data-answer="true">Under the Ease of Paying Taxes Act (Republic Act 11976, effective January 2024), the Official Receipt was demoted from primary tax document to supplementary document in the Philippines. Since April 27, 2024, Filipino freelancers must issue Sales Invoices (or Service Invoices) as the primary billing document. Official Receipts can still be used as proof of payment but cannot be used by clients to claim input VAT. Every BIR-compliant Sales Invoice must include the label "Invoice" or "Service Invoice," the freelancer's full 12-digit TIN including branch code, the client's TIN for transactions above PHP 1,000, a sequential invoice number registered with the BIR, and the phrase "THIS DOCUMENT IS NOT VALID FOR CLAIM OF INPUT TAX" in bold if the freelancer is non-VAT registered.</p>
+
+      <h3>What is the reverse charge invoice wording that works across all EU countries?</h3>
+      <p data-answer="true">The standard reverse charge notation accepted across all 27 EU member states for cross-border B2B service invoices is: "VAT: Reverse charge — Article 196, EU VAT Directive 2006/112/EC." This wording satisfies the EU VAT Directive requirement for a reverse charge notation (Article 226(11a)) in every member state. Some countries additionally require the notation in the local language: Germany uses "Steuerschuldnerschaft des Leistungsempfängers," the Netherlands uses "BTW verlegd," France uses "Autoliquidation — Article 283 du CGI," and Poland uses "Odwrotne obciążenie." Including both the English EU reference and the local language notation is recommended for invoices to clients in these countries.</p>
+
+      <h2>Conclusion</h2>
+      <p>Three things to do after reading this article:</p>
+      <ol>
+        <li><strong>Bookmark this page.</strong> Requirements update as legislation changes. Check back when invoicing a country for the first time, or after a significant gap.</li>
+        <li><strong>Verify every new client's tax ID before the first invoice.</strong> VIES for EU clients, Biała Lista for Polish clients, kra.go.ke for Kenyan clients. Save the confirmation.</li>
+        <li><strong>Use a tool that enforces the compliance layer automatically.</strong> Sequential numbering, reverse charge notation, country-specific mandatory fields, VAT number validation. The alternative is researching each country manually every time and hoping you got it right.</li>
+      </ol>
+
+      <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_vat_checklist_by_country" target="_blank" rel="noopener">Invoicemonk builds the compliance requirements for every country in this checklist directly into the invoice, so the right fields appear automatically based on where your client is. Try it free.</a></strong></p>
+
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Need the full guide for a specific country or topic? Start here: <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements for freelancers</a>, <a href="/en/blog/how-to-invoice-german-clients-freelancer">full Germany invoicing guide</a>, <a href="/en/blog/dutch-invoice-requirements-freelancers">full Netherlands invoicing guide</a>, <a href="/en/blog/sequential-invoice-numbering-guide">sequential invoice numbering and why gaps matter</a>, <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge</a>, <a href="/en/blog/french-invoice-requirements-freelancers">full France invoicing guide</a>, <a href="/en/blog/how-to-issue-credit-note-freelancer">how to issue a credit note</a>, <a href="/en/blog/invoicing-polish-clients-foreign-freelancer">full Poland KSeF invoicing guide</a>, <a href="/en/blog/invoicing-kenyan-clients-foreign-freelancer">full Kenya invoicing guide for foreign freelancers</a>, <a href="/en/blog/bir-invoice-requirements-freelancers-philippines">full Philippines BIR invoicing guide</a>, and <a href="/en/blog/invoicemonk-vs-wave">InvoiceMonk vs Wave comparison</a>.</p>
+    `,
+  },
 ];
 
 // Register posts in the global blog posts array
