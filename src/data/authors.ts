@@ -71,29 +71,6 @@ export const authors: Record<string, Author> = {
       instagram: 'https://instagram.com/invoicemonk'
     }
   },
-  'ayobami-bami': {
-    id: 'ayobami-bami',
-    name: 'Ayobami (Bami)',
-    slug: 'ayobami-bami',
-    avatar: '/authors/ayobami-bami.jpg',
-    role: 'Cross-Border Compliance & Freelance Operations Writer',
-    bio: 'Ayobami (Bami) writes about cross-border invoicing, African tax compliance, and how independent professionals navigate VAT, withholding tax, and e-invoicing mandates across Europe and Africa.',
-    credentials: [
-      'Cross-Border Tax Research',
-      'Freelance Operations Specialist'
-    ],
-    expertise: [
-      'Cross-Border Invoicing',
-      'Kenya KRA & eTIMS',
-      'Reverse Charge Mechanism',
-      'Withholding Tax for Freelancers',
-      'Double Taxation Agreements',
-      'African Tax Compliance'
-    ],
-    socialLinks: {
-      linkedin: 'https://linkedin.com/in/ayobami-bami'
-    }
-  },
   'prince-ehima': {
     id: 'prince-ehima',
     name: 'Prince Ehima',
