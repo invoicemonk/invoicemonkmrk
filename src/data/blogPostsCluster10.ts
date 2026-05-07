@@ -1,4 +1,4 @@
-import { defaultAuthor } from './authors';
+import { defaultAuthor, authors } from './authors';
 import type { BlogPost } from './blogPosts';
 
 /**
