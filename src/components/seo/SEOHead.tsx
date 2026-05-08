@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocation, useParams } from 'react-router-dom';
 import { useLocale } from '@/hooks/useLocale';
-import { supportedLanguages, languageToHreflang, urlPrefixToCountry } from '@/locales';
+import { urlPrefixToCountry } from '@/locales';
 
 interface SEOHeadProps {
   title: string;
@@ -20,15 +20,6 @@ interface SEOHeadProps {
   };
 }
 
-/**
- * Strip the language prefix from a pathname to get the
- * locale-independent relative path.  e.g. "/en/pricing" → "/pricing"
- */
-function stripLanguagePrefix(pathname: string): string {
-  const match = pathname.match(/^\/[a-z]{2}(-[a-z]{2})?(\/.*)?$/);
-  return match ? (match[2] || '/') : pathname;
-}
-
 export function SEOHead({
   title,
   description,
@@ -45,62 +36,9 @@ export function SEOHead({
   const { lang } = useParams<{ lang: string }>();
   const baseUrl = 'https://invoicemonk.com';
 
-  // Relative page path without language prefix (e.g. "/pricing")
-  const relPath = stripLanguagePrefix(location.pathname);
+  const fullCanonical = canonical || `${baseUrl}${location.pathname}`;
 
-  // Route prefixes that have REAL translated content — canonical should self-reference
-  // Only include prefixes where /de/, /fr/, /es/, /pt/ actually have unique translations
-  const fullyTranslatedPrefixes = [
-    '/blog', '/help', '/glossary',
-    '/invoicing', '/expenses', '/payments', '/accounting',
-    '/estimates', '/receipts', '/client-management',
-    '/freelancers', '/consultants', '/contractors', '/agencies',
-    '/photographers', '/lawyers', '/accountants', '/ecommerce',
-    '/creatives', '/small-businesses',
-    '/compliance', '/pricing', '/about', '/contact',
-    '/why-invoicemonk', '/developer', '/explore',
-    '/compare', '/best-invoicing-software',
-    '/use-cases', '/guides', '/tools', '/partner-program',
-    '/privacy-policy', '/terms-of-service', '/cookie-policy', '/legal',
-  ];
-
-  const countryBlogKeywords = [
-    'nigeria', 'india', 'kenya', 'uk', 'saudi', 'malaysia',
-    'germany', 'italy', 'ghana', 'south-africa', 'australia', 'canada',
-    'france', 'belgium', 'brazil', 'spain', 'poland', 'mexico',
-    'colombia', 'romania', 'hungary', 'serbia', 'bulgaria', 'chile', 'albania',
-  ];
-
-  // Country-specific pages that exist in English only — override canonical to /en/
-  const englishOnlyPatterns = [
-    /^\/compare\/(best-invoicing-software|wave-alternative)-(nigeria|india|kenya|uk|saudi-arabia|malaysia|australia|canada|ghana|south-africa)$/,
-    /^\/receive-.+-cost$/,
-    /^\/international-payment-fee-calculator$/,
-    /^\/paypal-vs-wise-fees$/,
-    /^\/cheapest-way-to-receive-international-payments$/,
-    /^\/freelancer-rate-calculator$/,
-    /^\/docs\/api$/,
-    /^\/legal\/sla$/,
-    // Country-specific blog posts (English-only content)
-    new RegExp(`^/blog/.*(?:${countryBlogKeywords.join('|')}).*$`),
-  ];
-  const isEnglishOnlyPage = englishOnlyPatterns.some(p => p.test(relPath));
-
-  const isTranslatedRoute = !isEnglishOnlyPage && fullyTranslatedPrefixes.some(p => relPath.startsWith(p));
-
-  // For non-translated routes under a non-English language prefix,
-  // override canonical to point to the /en/ equivalent to avoid duplicate content
-  const langPrefix = lang?.toLowerCase() || 'en';
-  const shouldOverrideCanonical = langPrefix !== 'en' && !isTranslatedRoute;
-
-  const fullCanonical = canonical
-    || (shouldOverrideCanonical
-      ? `${baseUrl}/en${relPath}`
-      : `${baseUrl}${location.pathname}`);
-
-  // Geo region from URL country prefix (e.g. "au" → "AU")
-
-  // Geo region from URL country prefix (e.g. "au" → "AU")
+  // Geo region from URL country prefix (still useful when present)
   const countryCode = lang ? urlPrefixToCountry[lang.toLowerCase()] : undefined;
 
   return (
@@ -114,17 +52,6 @@ export function SEOHead({
 
       {/* Canonical – self-referencing */}
       <link rel="canonical" href={fullCanonical} />
-
-      {/* hreflang – only for translated pages, not English-only content */}
-      {!isEnglishOnlyPage && supportedLanguages.map((langCode) => (
-        <link
-          key={langCode}
-          rel="alternate"
-          hrefLang={languageToHreflang[langCode]}
-          href={`${baseUrl}/${langCode}${relPath}`}
-        />
-      ))}
-      {!isEnglishOnlyPage && <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/en${relPath}`} />}
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={ogType} />
@@ -160,3 +87,4 @@ export function SEOHead({
     </Helmet>
   );
 }
+

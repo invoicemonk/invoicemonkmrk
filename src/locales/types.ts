@@ -1,6 +1,6 @@
 export interface LocaleCurrency {
-  code: string;         // "NGN", "USD", "GBP", "CAD", "AUD"
-  symbol: string;       // "₦", "$", "£", "A$"
+  code: string;
+  symbol: string;
   position: "before" | "after";
 }
 
@@ -15,17 +15,16 @@ export interface LocaleHeroContent {
 }
 
 export interface LocaleComplianceContent {
-  authority: string;    // "FIRS", "IRS", "HMRC", "CRA", "ATO"
+  authority: string;
   message: string;
 }
 
 export interface LocaleSEO {
   siteTitle: string;
   siteDescription: string;
-  complianceKeyword: string;  // "NRS-compliant", "HMRC-compliant", etc.
-  targetAudience: string;     // "Nigerian", "British", "American", etc.
-  region: string;             // "Nigeria", "United Kingdom", etc.
-  hreflangCode: string;       // "en-NG", "en-GB", "en-US", etc.
+  complianceKeyword: string;
+  targetAudience: string;
+  region: string;
 }
 
 export interface LocaleTestimonial {
@@ -61,24 +60,24 @@ export interface LocaleContent {
 }
 
 export interface LocalePricing {
-  free: number;              // Always 0
-  professional: number;      // Pro tier ($29)
-  sme: number;               // SME tier ($129)
-  business: number;          // Biz tier (0 = custom)
-  annualMultiplier: number;  // 10 (pay 10 months, get 12 = ~17% savings)
+  free: number;
+  professional: number;
+  sme: number;
+  business: number;
+  annualMultiplier: number;
 }
 
 export interface LocalePricingContent {
-  annualSavingsText: string;  // "Save ~17%"
-  starterAvailable: boolean;  // legacy, always false
-  currencyNote?: string;      // Optional note about currency
+  annualSavingsText: string;
+  starterAvailable: boolean;
+  currencyNote?: string;
 }
 
 export interface LocaleConfig {
-  code: string;           // "en-NG", "en-US", etc.
-  country: string;        // "Nigeria", "United States"
-  countryCode: string;    // "NG", "US", "CA", "GB", "AU"
-  flag: string;           // Emoji flag
+  code: string;
+  country: string;
+  countryCode: string;
+  flag: string;
   currency: LocaleCurrency;
   content: LocaleContent;
   pricing: LocalePricing;
@@ -91,4 +90,4 @@ export interface LocaleConfig {
 export type SupportedCountry = "NG" | "US" | "CA" | "GB" | "AU" | "GH" | "KE" | "ZA"
   | "PH" | "ZW" | "IN" | "SC" | "DE" | "BR" | "NZ" | "FR" | "ES" | "SA" | "MY";
 
-export type SupportedLanguage = "en" | "de" | "fr" | "pt" | "es";
+export type SupportedLanguage = "en";

@@ -32,7 +32,6 @@ export const enGH: LocaleConfig = {
       complianceKeyword: "GRA-compliant",
       targetAudience: "Ghanaian",
       region: "Ghana",
-      hreflangCode: "en-GH",
     },
     testimonials: [
       {

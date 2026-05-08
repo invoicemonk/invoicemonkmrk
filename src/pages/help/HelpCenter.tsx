@@ -9,12 +9,6 @@ import { categoryOrder } from '@/data/helpGuides';
 import { getTranslatedHelpGuides, getLangPrefix } from '@/utils/i18nData';
 import { BookOpen } from 'lucide-react';
 
-// Side-effect imports to register translated help guides
-import '@/data/helpGuides.de';
-import '@/data/helpGuides.fr';
-import '@/data/helpGuides.pt';
-import '@/data/helpGuides.es';
-
 export default function HelpCenter() {
   const [query, setQuery] = useState('');
   const { t, i18n } = useTranslation('help');

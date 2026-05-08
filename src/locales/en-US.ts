@@ -32,7 +32,6 @@ export const enUS: LocaleConfig = {
       complianceKeyword: "IRS-ready",
       targetAudience: "American",
       region: "United States",
-      hreflangCode: "en-US",
     },
     testimonials: [
       {

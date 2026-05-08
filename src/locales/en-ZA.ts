@@ -32,7 +32,6 @@ export const enZA: LocaleConfig = {
       complianceKeyword: "SARS-compliant",
       targetAudience: "South African",
       region: "South Africa",
-      hreflangCode: "en-ZA",
     },
     testimonials: [
       {

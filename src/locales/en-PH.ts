@@ -32,7 +32,6 @@ export const enPH: LocaleConfig = {
       complianceKeyword: "BIR-compliant",
       targetAudience: "Philippine",
       region: "Philippines",
-      hreflangCode: "en-PH",
     },
     testimonials: [
       {

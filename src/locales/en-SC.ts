@@ -32,7 +32,6 @@ export const enSC: LocaleConfig = {
       complianceKeyword: "SRC-compliant",
       targetAudience: "Seychellois",
       region: "Seychelles",
-      hreflangCode: "en-SC",
     },
     testimonials: [
       {

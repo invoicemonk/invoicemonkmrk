@@ -32,7 +32,6 @@ export const enAU: LocaleConfig = {
       complianceKeyword: "ATO-compliant",
       targetAudience: "Australian",
       region: "Australia",
-      hreflangCode: "en-AU",
     },
     testimonials: [
       {

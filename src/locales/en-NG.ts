@@ -32,7 +32,6 @@ export const enNG: LocaleConfig = {
       complianceKeyword: "NRS-compliant",
       targetAudience: "Nigerian",
       region: "Nigeria",
-      hreflangCode: "en-NG",
     },
     testimonials: [
       {

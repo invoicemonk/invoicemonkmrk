@@ -5,7 +5,6 @@ import { Link } from '@/components/LocalizedLink';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet, Users, LayoutTemplate, DollarSign, ArrowRightLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { CountrySelector } from '@/components/CountrySelector';
 import logo from '@/assets/invoicemonk-logo.png';
 
 const productKeys = [
@@ -225,7 +224,6 @@ export function Navbar() {
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
-              <CountrySelector variant="compact" />
               <a href="https://app.invoicemonk.com/login" className="text-body-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
                 {t('nav.login')}
               </a>
@@ -358,9 +356,6 @@ export function Navbar() {
                 </div>
 
                 <div className="mt-auto flex flex-col gap-3">
-                  <div className="flex items-center justify-center pb-4 border-b border-border">
-                    <CountrySelector variant="default" />
-                  </div>
                   <a href="https://app.invoicemonk.com/login" className="text-center py-3 text-body font-medium text-foreground hover:text-primary transition-colors">
                     {t('nav.login')}
                   </a>

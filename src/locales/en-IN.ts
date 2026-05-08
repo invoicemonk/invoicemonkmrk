@@ -32,7 +32,6 @@ export const enIN: LocaleConfig = {
       complianceKeyword: "GST-compliant",
       targetAudience: "Indian",
       region: "India",
-      hreflangCode: "en-IN",
     },
     testimonials: [
       {

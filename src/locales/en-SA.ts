@@ -32,7 +32,6 @@ export const enSA: LocaleConfig = {
       complianceKeyword: "ZATCA-compliant",
       targetAudience: "Saudi",
       region: "Saudi Arabia",
-      hreflangCode: "en-SA",
     },
     testimonials: [
       {

@@ -32,7 +32,6 @@ export const enGB: LocaleConfig = {
       complianceKeyword: "HMRC-compliant",
       targetAudience: "British",
       region: "United Kingdom",
-      hreflangCode: "en-GB",
     },
     testimonials: [
       {

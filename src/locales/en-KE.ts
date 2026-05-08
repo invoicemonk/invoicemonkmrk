@@ -32,7 +32,6 @@ export const enKE: LocaleConfig = {
       complianceKeyword: "KRA-compliant",
       targetAudience: "Kenyan",
       region: "Kenya",
-      hreflangCode: "en-KE",
     },
     testimonials: [
       {

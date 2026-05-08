@@ -8,10 +8,6 @@ import { LearningResourceSchema } from '@/components/seo/LearningResourceSchema'
 import { GuideHero, ConceptGrid, ArticleList, GuideCTA, GuideFAQ, GuideCrossLink } from '@/components/guides';
 import { getClusterPostsForPillar } from '@/data/topicalMap';
 import { getTranslatedPillars, getTranslatedBlogPosts, getLangPrefix } from '@/utils/i18nData';
-import '@/data/pillars.de';
-import '@/data/pillars.fr';
-import '@/data/pillars.pt';
-import '@/data/pillars.es';
 import NotFound from '@/pages/NotFound';
 
 // Side-effect imports: ensure cluster posts are registered in the blogPosts array

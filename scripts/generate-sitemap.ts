@@ -1,8 +1,7 @@
 /**
- * Multi-language Sitemap Generator with hreflang
+ * Sitemap Generator (English-only)
  *
- * Generates sitemap.xml with all language-prefixed URLs and
- * xhtml:link hreflang annotations for each variant.
+ * Generates sitemap.xml with all /en/-prefixed URLs.
  *
  * Run: npx tsx scripts/generate-sitemap.ts
  */
@@ -17,13 +16,9 @@ const __dirname = path.dirname(__filename);
 const SITE_URL = 'https://invoicemonk.com';
 const CURRENT_DATE = new Date().toISOString().split('T')[0];
 
-// Language prefixes and their hreflang codes
+// Only English is active
 const languages = [
   { prefix: 'en', hreflang: 'en' },
-  { prefix: 'de', hreflang: 'de' },
-  { prefix: 'fr', hreflang: 'fr' },
-  { prefix: 'pt', hreflang: 'pt-BR' },
-  { prefix: 'es', hreflang: 'es' },
 ];
 
 // ── English-only paths ──
@@ -177,44 +172,20 @@ function getCorridors(): Array<{ currency: string; country: string }> {
   } catch { return []; }
 }
 
-/** Build hreflang links for a given relative path */
-function hreflangLinks(relPath: string): string {
-  const links = languages.map(l =>
-    `    <xhtml:link rel="alternate" hreflang="${l.hreflang}" href="${SITE_URL}/${l.prefix}${relPath}"/>`
-  );
-  links.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/en${relPath}"/>`);
-  return links.join('\n');
-}
-
 function generateXML(pages: PageEntry[]): string {
   const urlEntries: string[] = [];
 
   for (const page of pages) {
-    if (isEnglishOnly(page.path)) {
-      // English-only: single /en/ URL, no hreflang alternates
-      urlEntries.push(`  <url>
+    urlEntries.push(`  <url>
     <loc>${SITE_URL}/en${page.path}</loc>
     <lastmod>${CURRENT_DATE}</lastmod>
     <changefreq>${page.changefreq || 'monthly'}</changefreq>
     <priority>${(page.priority ?? 0.5).toFixed(1)}</priority>
   </url>`);
-    } else {
-      // Multi-language: all 5 prefixes with hreflang
-      for (const l of languages) {
-        urlEntries.push(`  <url>
-    <loc>${SITE_URL}/${l.prefix}${page.path}</loc>
-${hreflangLinks(page.path)}
-    <lastmod>${CURRENT_DATE}</lastmod>
-    <changefreq>${page.changefreq || 'monthly'}</changefreq>
-    <priority>${(page.priority ?? 0.5).toFixed(1)}</priority>
-  </url>`);
-      }
-    }
   }
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urlEntries.join('\n')}
 </urlset>`;
 }

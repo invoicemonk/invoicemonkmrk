@@ -32,7 +32,6 @@ export const enZW: LocaleConfig = {
       complianceKeyword: "ZIMRA-compliant",
       targetAudience: "Zimbabwean",
       region: "Zimbabwe",
-      hreflangCode: "en-ZW",
     },
     testimonials: [
       {

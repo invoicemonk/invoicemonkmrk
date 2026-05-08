@@ -32,7 +32,6 @@ export const enCA: LocaleConfig = {
       complianceKeyword: "CRA-compliant",
       targetAudience: "Canadian",
       region: "Canada",
-      hreflangCode: "en-CA",
     },
     testimonials: [
       {

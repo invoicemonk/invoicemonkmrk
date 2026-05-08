@@ -12,15 +12,12 @@ import { enIN } from './en-IN';
 import { enSC } from './en-SC';
 import { enSA } from './en-SA';
 import { enMY } from './en-MY';
-import { deDE } from './de-DE';
-import { ptBR } from './pt-BR';
 import { enNZ } from './en-NZ';
-import { frFR } from './fr-FR';
-import { esES } from './es-ES';
 import { LocaleConfig, SupportedCountry, SupportedLanguage } from './types';
 
 export * from './types';
 
+// Only English is active. DE/BR/FR/ES countries fall back to en-US content.
 export const locales: Record<SupportedCountry, LocaleConfig> = {
   NG: enNG,
   US: enUS,
@@ -34,11 +31,11 @@ export const locales: Record<SupportedCountry, LocaleConfig> = {
   ZW: enZW,
   IN: enIN,
   SC: enSC,
-  DE: deDE,
-  BR: ptBR,
+  DE: enUS,
+  BR: enUS,
   NZ: enNZ,
-  FR: frFR,
-  ES: esES,
+  FR: enUS,
+  ES: enUS,
   SA: enSA,
   MY: enMY,
 };
@@ -48,53 +45,24 @@ export const supportedCountries: SupportedCountry[] = [
   "PH", "ZW", "IN", "SC", "DE", "BR", "NZ", "FR", "ES", "SA", "MY",
 ];
 
-export const supportedLanguages: SupportedLanguage[] = ["en", "de", "fr", "pt", "es"];
+export const supportedLanguages: SupportedLanguage[] = ["en"];
 
 export const defaultCountry: SupportedCountry = "US";
 export const defaultLanguage: SupportedLanguage = "en";
 
-/** Map country code → language prefix for URL */
+/** All countries map to English. */
 export const countryToLanguage: Record<SupportedCountry, SupportedLanguage> = {
-  NG: "en",
-  US: "en",
-  CA: "en",
-  GB: "en",
-  AU: "en",
-  GH: "en",
-  KE: "en",
-  ZA: "en",
-  PH: "en",
-  ZW: "en",
-  IN: "en",
-  SC: "en",
-  DE: "de",
-  BR: "pt",
-  NZ: "en",
-  FR: "fr",
-  ES: "es",
-  SA: "en",
-  MY: "en",
+  NG: "en", US: "en", CA: "en", GB: "en", AU: "en", GH: "en",
+  KE: "en", ZA: "en", PH: "en", ZW: "en", IN: "en", SC: "en",
+  DE: "en", BR: "en", NZ: "en", FR: "en", ES: "en", SA: "en", MY: "en",
 };
 
 /** Language prefix → i18next language code */
 export const languageToI18nCode: Record<SupportedLanguage, string> = {
   en: "en",
-  de: "de",
-  fr: "fr",
-  pt: "pt-BR",
-  es: "es",
 };
 
-/** Language prefix → hreflang code for SEO */
-export const languageToHreflang: Record<SupportedLanguage, string> = {
-  en: "en",
-  de: "de",
-  fr: "fr",
-  pt: "pt-BR",
-  es: "es",
-};
-
-// Keep legacy exports for any remaining references during migration
+// Legacy exports (still imported in a few places).
 export const urlPrefixToCountry: Record<string, SupportedCountry> = {
   ng: "NG", us: "US", ca: "CA", uk: "GB", au: "AU", gh: "GH",
   ke: "KE", za: "ZA", ph: "PH", zw: "ZW", in: "IN", sc: "SC",
@@ -114,9 +82,8 @@ export function getLocale(countryCode: SupportedCountry): LocaleConfig {
 export function formatCurrency(amount: number, locale: LocaleConfig): string {
   const { symbol, position } = locale.currency;
   const formattedAmount = amount.toLocaleString();
-  
-  return position === "before" 
-    ? `${symbol}${formattedAmount}` 
+  return position === "before"
+    ? `${symbol}${formattedAmount}`
     : `${formattedAmount}${symbol}`;
 }
 

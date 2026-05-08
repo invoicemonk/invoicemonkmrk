@@ -32,7 +32,6 @@ export const enMY: LocaleConfig = {
       complianceKeyword: "MyInvois-compatible",
       targetAudience: "Malaysian",
       region: "Malaysia",
-      hreflangCode: "en-MY",
     },
     testimonials: [
       {

@@ -16,6 +16,15 @@
       "destination": "https://invoicemonk.com/:path*",
       "statusCode": 301
     },
+    { "source": "/de/:path*", "destination": "/en/:path*", "permanent": true },
+    { "source": "/es/:path*", "destination": "/en/:path*", "permanent": true },
+    { "source": "/fr/:path*", "destination": "/en/:path*", "permanent": true },
+    { "source": "/pt/:path*", "destination": "/en/:path*", "permanent": true },
+    { "source": "/pt-BR/:path*", "destination": "/en/:path*", "permanent": true },
+    { "source": "/de", "destination": "/en", "permanent": true },
+    { "source": "/es", "destination": "/en", "permanent": true },
+    { "source": "/fr", "destination": "/en", "permanent": true },
+    { "source": "/pt", "destination": "/en", "permanent": true },
     {
       "source": "/us/:path*",
       "destination": "/en/:path*",
@@ -83,7 +92,7 @@
     },
     {
       "source": "/br/:path*",
-      "destination": "/pt/:path*",
+      "destination": "/en/:path*",
       "permanent": true
     },
     {

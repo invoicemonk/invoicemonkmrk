@@ -32,7 +32,6 @@ export const enNZ: LocaleConfig = {
       complianceKeyword: "IRD-compliant",
       targetAudience: "New Zealand",
       region: "New Zealand",
-      hreflangCode: "en-NZ",
     },
     testimonials: [
       {
