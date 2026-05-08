@@ -29,8 +29,8 @@
   "keyDifferences": {
     "title": "What are the key differences between Invoicemonk and Wave?",
     "items": [
-      { "title": "Where can each be used?", "desc": "Wave restricted new signups to the US and Canada in 2023. Invoicemonk works worldwide with country-specific tax presets for Nigeria (FIRS), UK (HMRC MTD), US (IRS), Canada (CRA), Australia (ATO), Saudi Arabia (ZATCA) and EU PEPPOL." },
-      { "title": "How many currencies are supported?", "desc": "Wave only invoices in USD and CAD. Invoicemonk supports every major currency (USD, EUR, GBP, NGN, INR, CAD, AUD, ZAR, KES and more) on every plan, including the free Starter tier." },
+      { "title": "Where can each be used?", "desc": "Wave restricted new signups to the US and Canada in 2023. Invoicemonk works worldwide with country-specific tax presets for the UK (HMRC MTD), US (IRS), Canada (CRA), Australia (ATO), Saudi Arabia (ZATCA), Nigeria (FIRS) and EU PEPPOL." },
+      { "title": "How many currencies are supported?", "desc": "Wave only invoices in USD and CAD. Invoicemonk supports every major currency (USD, EUR, GBP, CAD, AUD, INR, NGN, ZAR, KES and more) on every plan, including the free Starter tier." },
       { "title": "Can each handle credit notes and corrections?", "desc": "Wave has no native credit-note support — you have to issue a negative invoice. Invoicemonk has built-in credit notes that link to the original invoice, preserve the audit chain and keep books reconciled." },
       { "title": "What audit-trail protection do you get?", "desc": "Wave offers basic activity logs. Invoicemonk hashes every invoice, payment, edit and credit note into an append-only audit trail on every plan — your year-end and tax-audit defense without an upgrade." }
     ]
@@ -40,7 +40,7 @@
       "title": "Choose Invoicemonk if you…",
       "items": [
         "Are based outside the US or Canada",
-        "Invoice (or might invoice) in EUR, GBP, NGN, INR, AUD or any non-USD/CAD currency",
+        "Invoice (or might invoice) in EUR, GBP, INR, AUD, NGN or any non-USD/CAD currency",
         "Need credit notes, refund tracking or invoice corrections",
         "Want an immutable audit trail and QR-verified invoices",
         "Need team access as your business grows"
@@ -63,7 +63,7 @@
       { "title": "Export your Wave data", "desc": "Wave → Settings → Data Export. Download customers, invoices and transactions as CSV." },
       { "title": "Create your Invoicemonk account", "desc": "Sign up free at app.invoicemonk.com. Add business profile, logo and tax ID in under 5 minutes." },
       { "title": "Import customers and history", "desc": "Upload the Wave CSVs. Names, emails, addresses and invoice history map automatically." },
-      { "title": "Set up multi-currency accounts", "desc": "Add a currency account for every market you invoice — EUR, GBP, NGN and more — included on every plan." },
+      { "title": "Set up multi-currency accounts", "desc": "Add a currency account for every market you invoice — EUR, GBP, INR and more — included on every plan." },
       { "title": "Send a globally-compliant invoice", "desc": "Your first Invoicemonk invoice is hashed, QR-verifiable, and ready for any tax authority." }
     ]
   },

@@ -78,7 +78,7 @@
   "methodology": {
     "title": "How we tested",
     "paragraphs": [
-      "We tested each platform by creating a real business profile, configuring tax IDs, sending 10 test invoices in 3 currencies (USD, EUR, NGN), recording 5 expenses, generating reports, and processing one credit note. The full test cycle took roughly 4 hours per tool.",
+      "We tested each platform by creating a real business profile, configuring tax IDs, sending 10 test invoices in 3 currencies (USD, EUR, GBP), recording 5 expenses, generating reports, and processing one credit note. The full test cycle took roughly 4 hours per tool.",
       "Our evaluation focuses on the needs of freelancers, consultants, and small businesses with 1–20 employees — the primary buyers of invoicing software. Enterprise tools and industry-specific solutions are excluded. Tests were performed in March–April 2026 on the latest publicly available plans."
     ]
   },
@@ -94,9 +94,9 @@
       "pros": [
         "Compliance-first architecture: immutable audit logs and timestamped revision history on every plan, including Free",
         "QR-verified invoice portal — clients (and tax authorities) can independently authenticate any document",
-        "Tax compliance presets for NG (FIRS), UK (HMRC), US (IRS), CA (CRA), AU (ATO) and more — auto-includes tax IDs and country-specific fields",
-        "E-invoicing & direct government submission on the Biz plan (FIRS MBS, KSA ZATCA, EU PEPPOL & more)",
-        "Multi-currency on every plan (USD, EUR, GBP, NGN, CAD, AUD, ZAR, KES, INR + more)",
+        "Tax compliance presets for UK (HMRC), US (IRS), CA (CRA), AU (ATO), KSA (ZATCA), EU (PEPPOL), NG (FIRS) and more — auto-includes tax IDs and country-specific fields",
+        "E-invoicing & direct government submission on the Biz plan (KSA ZATCA, EU PEPPOL, FIRS MBS & more)",
+        "Multi-currency on every plan (USD, EUR, GBP, CAD, AUD, INR, NGN, ZAR, KES + more)",
         "Free tier is genuinely useful: 5 invoices/month with the same compliance backbone as paid plans",
         "No markup on payment-processor fees — you pay Stripe/Paystack/Flutterwave direct"
       ],
@@ -120,10 +120,10 @@
         ],
         "transactionFees": "None from Invoicemonk. You pay your processor (Stripe / Paystack / Flutterwave ~2.9% + $0.30) directly."
       },
-      "countries": "Global — works in every country with internet access. Pre-configured tax & e-invoicing presets for NG (FIRS), UK (HMRC MTD), US (IRS), CA (CRA), AU (ATO), KSA (ZATCA), EU (PEPPOL); custom tax fields for everywhere else.",
-      "integrations": ["Stripe", "PayPal", "Paystack", "Flutterwave", "Zapier (beta)", "CSV export to QuickBooks / Xero"],
+      "countries": "Global — works in every country with internet access. Pre-configured tax & e-invoicing presets for UK (HMRC MTD), US (IRS), CA (CRA), AU (ATO), KSA (ZATCA), EU (PEPPOL), NG (FIRS); custom tax fields for everywhere else.",
+      "integrations": ["Stripe", "PayPal", "Razorpay", "Paystack", "Flutterwave", "Zapier (beta)", "CSV export to QuickBooks / Xero"],
       "switching": "Migrating from FreshBooks, Wave, or Zoho? Export clients and invoices as CSV, then bulk-import via the Invoicemonk dashboard. Most users complete migration in 30–60 minutes.",
-      "description": "Invoicemonk is built compliance-first: every invoice — even on the free tier — is hashed into an immutable audit trail, carries the issuer's tax ID, and can be independently verified by any client via QR code. That foundation is what separates it from the other tools in this guide, which treat compliance as an upsell or an afterthought. On top of that compliance core, you get multi-currency on every plan, country-specific tax presets, and an e-invoicing module (Biz plan) that submits directly to FIRS, ZATCA, PEPPOL and other government networks. Designed for speed — most users go from signup to first compliant invoice in under 10 minutes."
+      "description": "Invoicemonk is built compliance-first: every invoice — even on the free tier — is hashed into an immutable audit trail, carries the issuer's tax ID, and can be independently verified by any client via QR code. That foundation is what separates it from the other tools in this guide, which treat compliance as an upsell or an afterthought. On top of that compliance core, you get multi-currency on every plan, country-specific tax presets, and an e-invoicing module (Biz plan) that submits directly to ZATCA, PEPPOL, FIRS and other government networks. Designed for speed — most users go from signup to first compliant invoice in under 10 minutes."
     },
     {
       "name": "FreshBooks",
@@ -188,7 +188,7 @@
       ],
       "doNotUseIf": [
         "You or any of your clients are outside the US/Canada",
-        "You ever need to invoice in EUR, GBP, NGN, INR, AUD, or any non-USD/CAD currency",
+        "You ever need to invoice in EUR, GBP, INR, AUD, NGN, or any non-USD/CAD currency",
         "Your business needs credit notes, refund tracking, or team collaboration"
       ],
       "pricing": {
@@ -329,13 +329,13 @@
     "title": "Compliance & audit trail — the angle most invoicing guides skip",
     "paragraphs": [
       "Most comparisons stop at price and templates. They rarely address what happens when a tax authority opens an audit, when a corporate client's procurement team demands a verifiable invoice, or when an e-invoicing mandate goes live in your country. That gap is exactly where small businesses get penalised — and where most tools quietly fail.",
-      "Invoicemonk is built compliance-first. Every invoice — even on the Free plan — is hashed into an immutable audit trail, carries the issuer's tax ID, and can be independently authenticated by any client via a QR-code verification portal. On the Biz plan, invoices are submitted directly to government e-invoicing networks (FIRS MBS in Nigeria, ZATCA in Saudi Arabia, PEPPOL in the EU, and more). You're audit-ready every single day — not just at year-end."
+      "Invoicemonk is built compliance-first. Every invoice — even on the Free plan — is hashed into an immutable audit trail, carries the issuer's tax ID, and can be independently authenticated by any client via a QR-code verification portal. On the Biz plan, invoices are submitted directly to government e-invoicing networks (ZATCA in Saudi Arabia, PEPPOL in the EU, FIRS MBS in Nigeria, and more). You're audit-ready every single day — not just at year-end."
     ],
     "benefits": [
       "Immutable audit trail with timestamped revision history on every plan (including Free)",
       "QR-verified invoice portal — clients and tax authorities can independently authenticate any document",
-      "Automatic inclusion of tax IDs and country-specific fields (FIRS, HMRC MTD, IRS, CRA, ATO, ZATCA)",
-      "E-invoicing & direct government submission on the Biz plan (FIRS MBS, ZATCA, PEPPOL & more)",
+      "Automatic inclusion of tax IDs and country-specific fields (HMRC MTD, IRS, CRA, ATO, ZATCA, FIRS)",
+      "E-invoicing & direct government submission on the Biz plan (ZATCA, PEPPOL, FIRS MBS & more)",
       "Cryptographic invoice hashing prevents back-dating and silent edits"
     ],
     "matrix": {
@@ -367,7 +367,7 @@
   "verdict": {
     "title": "Our verdict",
     "paragraphs": [
-      "For most freelancers and small businesses that care about being audit-ready, <strong>Invoicemonk</strong> is the strongest pick on this list. It's the only platform here built compliance-first: an immutable audit trail and QR-verified invoices ship on every plan — including the Free tier — and the Biz plan adds direct e-invoicing submission to government networks (FIRS, ZATCA, PEPPOL). Combined with multi-currency on every plan and a genuinely useful free tier (5 invoices/month), it covers solo freelancers up to scaling enterprises without forcing a platform switch.",
+      "For most freelancers and small businesses that care about being audit-ready, <strong>Invoicemonk</strong> is the strongest pick on this list. It's the only platform here built compliance-first: an immutable audit trail and QR-verified invoices ship on every plan — including the Free tier — and the Biz plan adds direct e-invoicing submission to government networks (ZATCA, PEPPOL, FIRS). Combined with multi-currency on every plan and a genuinely useful free tier (5 invoices/month), it covers solo freelancers up to scaling enterprises without forcing a platform switch.",
       "<strong>FreshBooks</strong> is the best choice if you're a US-based service business that bills hourly and needs a built-in timer with extensive third-party integrations. <strong>Wave</strong> is the right pick if you're a solo freelancer in the US or Canada who wants completely free invoicing and doesn't need multi-currency, credit notes, or an audit trail. <strong>Zoho Invoice</strong> makes sense if you're already using the Zoho ecosystem and want tight CRM integration. <strong>QuickBooks</strong> remains the gold standard for full-service US accounting with payroll, inventory, and bank feeds — but it's over-engineered and overpriced if you primarily need compliant invoicing.",
       "The best invoicing software is the one that keeps you compliant when it matters — not the one with the longest feature list. Start free with Invoicemonk, get comfortable with the workflow, and upgrade only when you genuinely need more."
     ]
@@ -388,8 +388,7 @@
       { "question": "What invoicing software is best for freelancers?", "answer": "Invoicemonk is our top pick for freelancers due to its free tier, multi-currency invoicing, automatic payment reminders, and tax-compliant records. It's designed for the workflows freelancers actually use without the complexity of enterprise accounting features." },
       { "question": "What invoicing software is best for agencies?", "answer": "FreshBooks Premium is our pick for agencies that bill hourly in North America, thanks to its timer and project-profitability reports. For international agencies, Invoicemonk Business is better — multi-currency, role-based team access, and audit trails." },
       { "question": "Which is the cheapest invoicing software?", "answer": "Wave and Invoicemonk both offer genuinely free tiers. For paid plans with full team access and unlimited invoices, Invoicemonk Pro ($29/mo for up to 5 users) is significantly cheaper than QuickBooks Essentials ($60/mo for 3 users). FreshBooks Lite is $19/mo but caps you at 5 clients and 1 user. The real cost question isn't sticker price — it's whether the tool keeps you compliant." },
-      { "question": "What is the best invoicing software for international businesses?", "answer": "Invoicemonk. It supports unlimited currencies on every plan, has tax-compliance presets for Nigeria (FIRS), UK (HMRC MTD), US (IRS), Canada (CRA), Australia (ATO), Saudi Arabia (ZATCA), and the EU (PEPPOL), and uses QR-verified invoices that international procurement teams can authenticate without a phone call." },
-      { "question": "What is the best invoicing software in Nigeria?", "answer": "Invoicemonk leads in Nigeria with built-in FIRS tax-ID handling, FIRS MBS e-invoicing submission on the Biz plan, NGN as a first-class currency, and Paystack/Flutterwave integration. QuickBooks and Wave are not officially supported in Nigeria. See our dedicated Nigeria comparison." },
+      { "question": "What is the best invoicing software for international businesses?", "answer": "Invoicemonk. It supports unlimited currencies on every plan, has tax-compliance presets for the UK (HMRC MTD), US (IRS), Canada (CRA), Australia (ATO), Saudi Arabia (ZATCA), the EU (PEPPOL) and Nigeria (FIRS), and uses QR-verified invoices that international procurement teams can authenticate without a phone call." },
       { "question": "Do I need invoicing software or accounting software?", "answer": "If you primarily send invoices, track expenses, and need basic financial reports plus an audit trail, invoicing software with built-in accounting (like Invoicemonk) is sufficient. Full accounting software (like QuickBooks) is necessary if you need payroll, inventory management, bank feeds, or 1099 preparation." },
       { "question": "Is Invoicemonk worth it?", "answer": "Yes — especially if you're a freelancer, SME, or enterprise that needs to be audit-ready every day. The free tier alone covers most solo workflows with the same compliance backbone as paid plans (immutable audit trail, QR-verified invoices). Pro starts at $29/mo for up to 5 users with unlimited invoicing; SME ($129/mo) adds online payments and unlimited team; Biz adds e-invoicing & direct government submission." },
       { "question": "Is Wave still free in 2026?", "answer": "Yes, Wave's Starter plan remains free, but only for users in the United States and Canada. Wave Pro ($16/mo) adds bank feeds and automated reminders. Wave doesn't offer multi-currency invoicing on any plan." },

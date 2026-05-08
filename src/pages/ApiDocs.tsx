@@ -129,7 +129,7 @@ const ApiDocs = () => {
     "issuer_name": "Business Name",
     "payment_status": "Issued - Awaiting Payment",
     "total_amount": 50000.00,
-    "currency": "NGN",
+    "currency": "USD",
     "integrity_valid": true
   }
 }`}</pre>

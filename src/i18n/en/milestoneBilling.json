@@ -44,8 +44,8 @@
     "title": "Milestone billing in action",
     "scenario": "Scenario: A wedding photographer's 3-phase billing",
     "paragraphs": [
-      "Ngozi is a wedding photographer in Lagos who books 15–20 weddings per year at an average of ₦500,000 per event. She uses a three-milestone billing structure: 40% booking deposit when the client signs the contract, 30% on the day of the wedding, and 30% upon delivery of the final edited photos.",
-      "Before Invoicemonk, Ngozi tracked payments in a spreadsheet and occasionally forgot to send the final invoice — losing thousands of naira in uncollected balances. With milestone billing in Invoicemonk, she creates all three invoices as drafts when booking a client. The deposit invoice sends immediately, and she marks the remaining two for manual send when each milestone is reached.",
+      "Nora is a wedding photographer who books 15–20 weddings per year at an average of $3,500 per event. She uses a three-milestone billing structure: 40% booking deposit when the client signs the contract, 30% on the day of the wedding, and 30% upon delivery of the final edited photos.",
+      "Before Invoicemonk, Nora tracked payments in a spreadsheet and occasionally forgot to send the final invoice — losing thousands in uncollected balances. With milestone billing in Invoicemonk, she creates all three invoices as drafts when booking a client. The deposit invoice sends immediately, and she marks the remaining two for manual send when each milestone is reached.",
       "The result: zero missed invoices, faster final payments (clients expect the invoice because they can see it in their portal), and a complete financial record for each wedding project."
     ],
     "stats": [
@@ -71,8 +71,8 @@
   "testimonials": {
     "title": "How professionals use milestone billing",
     "items": [
-      { "quote": "I used to lose money on every project because I'd forget to send the final invoice. Now all milestones are set up from day one and nothing slips through.", "name": "Emeka O.", "role": "Web Developer, Enugu" },
-      { "quote": "My clients appreciate seeing all the milestone invoices upfront. It sets clear expectations about payment timing and they're always prepared.", "name": "Aisha B.", "role": "Interior Designer, Abuja" },
+      { "quote": "I used to lose money on every project because I'd forget to send the final invoice. Now all milestones are set up from day one and nothing slips through.", "name": "Eric O.", "role": "Web Developer" },
+      { "quote": "My clients appreciate seeing all the milestone invoices upfront. It sets clear expectations about payment timing and they're always prepared.", "name": "Alice B.", "role": "Interior Designer" },
       { "quote": "Milestone billing cut our payment collection time in half. Clients who can see the next invoice coming are far more likely to pay on time.", "name": "Tom R.", "role": "Video Producer, London" }
     ]
   },

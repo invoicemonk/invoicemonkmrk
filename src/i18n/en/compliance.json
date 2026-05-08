@@ -50,7 +50,7 @@
     },
     "taxAuthorities": {
       "question": "Which tax authorities does Invoicemonk support?",
-      "answer": "Invoicemonk supports compliance requirements for FIRS (Nigeria), HMRC (UK), IRS (US), CRA (Canada), and ATO (Australia), with more regions being added regularly."
+      "answer": "Invoicemonk supports compliance requirements for HMRC (UK), IRS (US), CRA (Canada), ATO (Australia), ZATCA (Saudi Arabia), FIRS (Nigeria) and EU PEPPOL, with more regions being added regularly."
     },
     "exportReports": {
       "question": "Can I export reports for my auditor?",

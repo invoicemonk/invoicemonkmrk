@@ -77,9 +77,9 @@
   "testimonials": {
     "heading": "Trusted by contractors",
     "items": [
-      { "quote": "I can invoice clients right from the job site. No more waiting until I get back to the office, and no more forgetting to bill for extras. My weekly revenue has gone up simply because I'm invoicing faster and not leaving money on the table.", "author": "Emeka O.", "role": "Electrical Contractor" },
-      { "quote": "Tracking expenses per project has helped me understand my true costs. I used to think certain jobs were profitable until I added up all the material runs and subcontractor fees. Now I'm pricing jobs more accurately and my margins have improved.", "author": "Kola B.", "role": "Building Contractor" },
-      { "quote": "The deposit invoice feature is essential for my business. I require 40% upfront before starting any job, and Invoicemonk makes that process professional. Clients take me more seriously when the deposit request comes as a proper invoice.", "author": "Femi T.", "role": "Plumbing Contractor" }
+      { "quote": "I can invoice clients right from the job site. No more waiting until I get back to the office, and no more forgetting to bill for extras. My weekly revenue has gone up simply because I'm invoicing faster and not leaving money on the table.", "author": "Eric O.", "role": "Electrical Contractor" },
+      { "quote": "Tracking expenses per project has helped me understand my true costs. I used to think certain jobs were profitable until I added up all the material runs and subcontractor fees. Now I'm pricing jobs more accurately and my margins have improved.", "author": "Karl B.", "role": "Building Contractor" },
+      { "quote": "The deposit invoice feature is essential for my business. I require 40% upfront before starting any job, and Invoicemonk makes that process professional. Clients take me more seriously when the deposit request comes as a proper invoice.", "author": "Frank T.", "role": "Plumbing Contractor" }
     ]
   },
   "faqs": [

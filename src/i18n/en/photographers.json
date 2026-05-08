@@ -79,9 +79,9 @@
   "testimonials": {
     "title": "Trusted by photographers",
     "items": [
-      { "quote": "I used to dread invoicing after shoots. Now it takes 2 minutes. The deposit invoice feature is perfect for weddings — I send the booking invoice right after the consultation and the client pays within days.", "author": "Funke A.", "role": "Wedding Photographer" },
+      { "quote": "I used to dread invoicing after shoots. Now it takes 2 minutes. The deposit invoice feature is perfect for weddings — I send the booking invoice right after the consultation and the client pays within days.", "author": "Faye A.", "role": "Wedding Photographer" },
       { "quote": "My clients love the professional invoices. It makes my small business look established and trustworthy. The QR verification code on each invoice is a nice touch that adds credibility.", "author": "James K.", "role": "Commercial Photographer" },
-      { "quote": "Juggling event bookings used to mean juggling spreadsheets. Now I have one dashboard showing every booking, every deposit, every balance due. I can see my cash flow months ahead.", "author": "Ngozi P.", "role": "Event Photographer" }
+      { "quote": "Juggling event bookings used to mean juggling spreadsheets. Now I have one dashboard showing every booking, every deposit, every balance due. I can see my cash flow months ahead.", "author": "Nora P.", "role": "Event Photographer" }
     ]
   },
   "faq": {

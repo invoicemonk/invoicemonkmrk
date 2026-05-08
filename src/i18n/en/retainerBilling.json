@@ -35,12 +35,12 @@
     "title": "Retainer billing in action",
     "scenario": "Scenario: A law firm managing 20 retainer clients",
     "paragraphs": [
-      "Adekunle & Partners is a mid-size law firm with 20 clients on monthly retainer agreements ranging from ₦200,000 to ₦2,500,000. Previously, a junior associate spent three days each month preparing and sending retainer invoices — time that could have been billed to clients.",
+      "Hartwell & Partners is a mid-size law firm with 20 clients on monthly retainer agreements ranging from $2,000 to $25,000. Previously, a junior associate spent three days each month preparing and sending retainer invoices — time that could have been billed to clients.",
       "After switching to Invoicemonk's recurring billing, the firm set up all 20 retainer schedules in one afternoon. Each client's retainer has specific terms: some include VAT, others require withholding tax calculations, and three international clients are billed in USD. All of this is configured once and runs automatically.",
-      "The result: the firm recovered over ₦600,000 in billable hours per month, reduced payment delays by 35%, and now has real-time visibility into their recurring revenue pipeline."
+      "The result: the firm recovered over $6,000 in billable hours per month, reduced payment delays by 35%, and now has real-time visibility into their recurring revenue pipeline."
     ],
     "stats": [
-      { "value": "₦600K+", "label": "Recovered monthly" },
+      { "value": "$6K+", "label": "Recovered monthly" },
       { "value": "35%", "label": "Fewer payment delays" },
       { "value": "20", "label": "Auto-managed retainers" }
     ]
@@ -62,9 +62,9 @@
   "testimonials": {
     "title": "Trusted by retainer-based businesses",
     "items": [
-      { "quote": "Managing 15 retainer clients used to take me a full day each month. Now it runs on autopilot and I focus entirely on delivering value to my clients.", "name": "Funmi A.", "role": "PR Agency Director, Lagos" },
+      { "quote": "Managing 15 retainer clients used to take me a full day each month. Now it runs on autopilot and I focus entirely on delivering value to my clients.", "name": "Sarah M.", "role": "PR Agency Director" },
       { "quote": "The retainer tracking feature lets me show clients exactly how their retainer is being used. It's built trust and helped me retain clients longer.", "name": "James W.", "role": "IT Consultant, Manchester" },
-      { "quote": "We went from chasing retainer payments to having 95% collected within 7 days of invoicing. The automatic reminders make a huge difference.", "name": "Chinedu E.", "role": "Law Partner, Port Harcourt" }
+      { "quote": "We went from chasing retainer payments to having 95% collected within 7 days of invoicing. The automatic reminders make a huge difference.", "name": "James R.", "role": "Law Partner" }
     ]
   },
   "faq": {

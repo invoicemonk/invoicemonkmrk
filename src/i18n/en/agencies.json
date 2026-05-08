@@ -28,7 +28,7 @@
     "items": [
       { "title": "Monthly Retainers", "description": "Set up recurring invoices for every retainer client — SEO, social media management, PPC, or content creation. Invoicemonk sends each invoice automatically on the agreed date. Track retainer revenue separately from project work for clear financial visibility across your entire book of business." },
       { "title": "Campaign Projects", "description": "For campaign or project work, create milestone-based invoices. Bill 30% at kickoff for strategy and planning, 40% after creative delivery, and 30% on campaign launch. Each invoice details the deliverables completed, making it easy for client procurement to approve payment quickly." },
-      { "title": "International Accounts", "description": "Bill global clients in their local currency without manual conversion headaches. A London client gets an invoice in GBP, a New York client in USD, and a Lagos client in NGN — all from one dashboard. Each invoice is formatted with the correct currency symbol, tax structure, and compliance details." }
+      { "title": "International Accounts", "description": "Bill global clients in their local currency without manual conversion headaches. A London client gets an invoice in GBP, a New York client in USD, and a Berlin client in EUR — all from one dashboard. Each invoice is formatted with the correct currency symbol, tax structure, and compliance details." }
     ]
   },
   "challenges": {
@@ -77,15 +77,15 @@
   "testimonials": {
     "title": "Trusted by agencies",
     "items": [
-      { "quote": "We manage 30+ retainer clients. Invoicemonk's recurring invoices save us hours every month. Before, our finance manager spent two full days sending monthly invoices. Now it's completely automated and clients pay faster because of the reminders.", "author": "Kemi B.", "role": "Operations Manager, Digital Agency" },
+      { "quote": "We manage 30+ retainer clients. Invoicemonk's recurring invoices save us hours every month. Before, our finance manager spent two full days sending monthly invoices. Now it's completely automated and clients pay faster because of the reminders.", "author": "Kate B.", "role": "Operations Manager, Digital Agency" },
       { "quote": "The multi-currency support is a game changer for our international client base. We have clients in five countries and each gets invoices in their local currency. It makes our agency look polished and removes friction from the payment process.", "author": "David L.", "role": "Creative Director" },
-      { "quote": "Project profitability tracking has changed how we run our agency. We discovered two accounts were actually unprofitable once we factored in all the costs. Now we use Invoicemonk data to negotiate better rates at renewal time.", "author": "Chioma N.", "role": "Managing Director, Marketing Agency" }
+      { "quote": "Project profitability tracking has changed how we run our agency. We discovered two accounts were actually unprofitable once we factored in all the costs. Now we use Invoicemonk data to negotiate better rates at renewal time.", "author": "Claire N.", "role": "Managing Director, Marketing Agency" }
     ]
   },
   "faqs": [
     { "question": "Can Invoicemonk handle retainer billing for agencies?", "answer": "Yes. Set up recurring invoices for retainer clients with automatic scheduling and customisable amounts. Invoicemonk generates and sends the invoice on your chosen date each month, so you never miss a billing cycle — even during your busiest campaign launches." },
     { "question": "Does Invoicemonk support multiple team members?", "answer": "Invoicemonk supports multi-user access so your project managers, account leads, and finance team can collaborate on invoicing. Each team member can create invoices, track payments, and manage their assigned clients without stepping on each other's work." },
-    { "question": "Can I invoice different clients in different currencies?", "answer": "Absolutely. Invoicemonk supports multi-currency invoicing, perfect for agencies with international clients. Bill a client in London in GBP, a client in New York in USD, and a client in Lagos in NGN — all from the same account with correct currency formatting." },
+    { "question": "Can I invoice different clients in different currencies?", "answer": "Absolutely. Invoicemonk supports multi-currency invoicing, perfect for agencies with international clients. Bill a client in London in GBP, a client in New York in USD, and a client in Berlin in EUR — all from the same account with correct currency formatting." },
     { "question": "How does Invoicemonk help agencies track project profitability?", "answer": "With expense tracking and detailed financial reports, you can see revenue vs. costs per client or per project. Understand which accounts are profitable, which are break-even, and which need renegotiation — all from your dashboard." },
     { "question": "Is there a free plan for agencies?", "answer": "Yes! Invoicemonk offers a free tier that includes 5 invoices and 5 receipts per month. Start with the free plan and upgrade as your agency grows and needs features like unlimited invoicing, advanced reporting, team access, and client portals." },
     { "question": "Can I brand invoices with my agency's identity?", "answer": "Yes. Upload your agency logo and create invoice templates that reflect your agency's professional identity. Consistent branding across all client communications reinforces your agency's positioning and builds trust." },

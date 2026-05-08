@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Multi-currency invoicing for international freelancers",
-    "description": "Invoice clients in EUR, GBP, USD, or any currency — with VAT-compliant invoices that meet German, French, Dutch, and Kenyan requirements. Try free."
+    "description": "Invoice clients in EUR, GBP, USD, or any currency — with VAT-compliant invoices that meet German, French, Dutch, and EU requirements. Try free."
   },
   "hero": {
     "badge": "Multi-currency + compliant",
@@ -30,7 +30,7 @@
       },
       {
         "title": "The right compliance fields appear automatically",
-        "body": "Invoicemonk knows what each country requires. German client? The Leistungsdatum field appears. Dutch client? BTW-ID and KVK number fields. French client? SIRET, TVA status, and the late payment clause. Kenyan client? KRA PIN field and reverse charge wording. You fill in the details — Invoicemonk handles the structure."
+        "body": "Invoicemonk knows what each country requires. German client? The Leistungsdatum field appears. Dutch client? BTW-ID and KVK number fields. French client? SIRET, TVA status, and the late payment clause. Polish client? NIP number and KSeF-ready fields. You fill in the details — Invoicemonk handles the structure."
       },
       {
         "title": "Send a compliant invoice in any currency",
@@ -78,7 +78,7 @@
   },
   "finalCta": {
     "title": "Ready to invoice internationally without the stress?",
-    "description": "Join freelancers in Europe, East Africa, and Southeast Asia who use Invoicemonk to send compliant invoices in any currency — free to start, no credit card required.",
+    "description": "Join freelancers in Europe, North America, and Asia-Pacific who use Invoicemonk to send compliant invoices in any currency — free to start, no credit card required.",
     "button": "Create your free account",
     "note": "No credit card required. Free plan available."
   }

@@ -28,7 +28,7 @@
     "items": [
       { "title": "Retainer Engagements", "description": "Set up a recurring monthly invoice for each retainer client. Invoicemonk generates and sends the invoice automatically on the first of every month. Your client knows when to expect it, and you never forget to bill. Track retainer revenue separately from project work for clear financial reporting." },
       { "title": "Project Milestones", "description": "For strategy engagements or transformation projects, create milestone-based invoices tied to deliverables. Invoice 30% at project kickoff, 40% at midpoint review, and 30% on final delivery. Each invoice references the specific milestone and scope of work completed." },
-      { "title": "Cross-Border Advisory", "description": "Advise clients in different countries without invoicing headaches. Bill a Nigerian client in Naira, a UK client in Pounds, and a US client in Dollars — all from one account. Each invoice is formatted with the correct currency, tax structure, and compliance details for that jurisdiction." }
+      { "title": "Cross-Border Advisory", "description": "Advise clients in different countries without invoicing headaches. Bill an EU client in Euros, a UK client in Pounds, and a US client in Dollars — all from one account. Each invoice is formatted with the correct currency, tax structure, and compliance details for that jurisdiction." }
     ]
   },
   "challenges": {
@@ -77,8 +77,8 @@
   "testimonials": {
     "heading": "Trusted by consultants",
     "items": [
-      { "quote": "My corporate clients are impressed with the professional invoices. I used to spend hours formatting invoices in Word to meet procurement requirements. Now it takes two minutes, and the compliance features give clients confidence in working with me.", "author": "Tunde A.", "role": "Management Consultant" },
-      { "quote": "Managing retainer clients and project-based billing is seamless. I have clients on monthly retainers and others on milestone billing, and Invoicemonk handles both without any confusion. I can focus on delivering value instead of chasing payments.", "author": "Amaka E.", "role": "Strategy Consultant" },
+      { "quote": "My corporate clients are impressed with the professional invoices. I used to spend hours formatting invoices in Word to meet procurement requirements. Now it takes two minutes, and the compliance features give clients confidence in working with me.", "author": "Daniel K.", "role": "Management Consultant" },
+      { "quote": "Managing retainer clients and project-based billing is seamless. I have clients on monthly retainers and others on milestone billing, and Invoicemonk handles both without any confusion. I can focus on delivering value instead of chasing payments.", "author": "Anna E.", "role": "Strategy Consultant" },
       { "quote": "The financial reporting has been a game-changer. I can pull up revenue by client, track my utilisation rate, and prepare for tax season without hiring a bookkeeper. For a solo consultant, that's invaluable.", "author": "David R.", "role": "IT Consultant" }
     ]
   },

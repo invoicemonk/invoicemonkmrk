@@ -30,7 +30,7 @@
     "invoicemonk": {
       "title": "Invoicemonk",
       "plans": [
-        { "name": "Free tier", "price": "₦0/mo" },
+        { "name": "Free tier", "price": "$0/mo" },
         { "name": "Starter", "price": "Affordable" },
         { "name": "Professional", "price": "Mid-range" },
         { "name": "Business", "price": "Full suite" }
