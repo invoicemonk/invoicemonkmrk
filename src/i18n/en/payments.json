@@ -1,100 +1,180 @@
 {
   "seo": {
-    "title": "Accept Online Payments | Payment Processing | Invoicemonk",
-    "description": "Accept payments directly from invoices. Credit cards, bank transfers, and digital wallets with automatic reconciliation and low processing fees."
+    "title": "Get paid faster on international invoices — InvoiceMonk",
+    "description": "Accept payments from clients in Europe, East Africa, and Southeast Asia. Multi-currency settlement, low international transfer fees, and automatic reconciliation — built into your invoicing workflow."
   },
   "hero": {
-    "badge": "Available Now",
-    "title": "Get paid faster with <accent>integrated payments</accent>",
-    "description": "Accept payments directly from invoices. Set up payment plans, process refunds, and reconcile everything automatically.",
-    "cta": "Start Accepting Payments",
-    "secondary": "Start with Invoicing",
+    "badge": "Payments",
+    "title": "Get paid faster on every <accent>invoice</accent> you send.",
+    "description": "Set up payment plans, send automatic reminders, and accept payments in the currency your client prefers — with every transaction automatically reconciled against the correct invoice.",
+    "cta": "Start accepting payments free",
+    "secondary": "View pricing",
+    "socialProof": "Used by freelancers and independent professionals billing clients across 30+ countries.",
     "mockup": {
       "title": "Payment Received!",
-      "subtitle": "Invoice #1042 • Acme Corp",
+      "subtitle": "Invoice #1042 • Acme GmbH",
       "amountLabel": "Amount Paid",
       "method": "Payment Method",
-      "methodValue": "Visa •••• 4242",
+      "methodValue": "SEPA Transfer",
       "fee": "Processing Fee",
       "net": "Net Amount",
-      "floatingLabel": "Instant payout"
+      "floatingLabel": "Auto-reconciled"
     }
   },
-  "banner": {
-    "title": "Accept payments your clients prefer",
-    "features": ["Accept all major cards", "Bank transfers & ACH", "Payment plans & installments", "Automatic reconciliation"]
-  },
-  "whyAdd": {
-    "title": "Why add payments to your <accent>invoices</accent>",
-    "subtitle": "Make it as easy as possible for your clients to pay you.",
-    "features": [
-      { "title": "Faster payments, better cash flow", "description": "Clients can pay instantly with a single click. No more waiting for checks or bank transfers." },
-      { "title": "Your customers want to pay online", "description": "Meet your clients where they are. Accept all major credit cards, bank transfers, and digital wallets." },
-      { "title": "Never lose track of payments", "description": "Every payment is automatically matched to its invoice. Complete visibility into your cash flow." }
+  "trustBar": [
+    "Accept all major currencies",
+    "Bank transfers and ACH",
+    "Automatic reconciliation",
+    "Payment plans and instalments"
+  ],
+  "problem": {
+    "label": "Why international payments are harder than they should be",
+    "paragraphs": [
+      "Sending a compliant invoice is only half the job. Getting paid on it is the other half — and for freelancers billing internationally, payment collection has its own layer of friction.",
+      "Your German client pays via SEPA bank transfer. Your UK client pays via bank transfer in GBP. Your US client wants to pay by card. Your Kenyan client deducts 20% withholding tax before transferring the balance. Your French client pays 45 days after invoice date because that is standard French commercial practice.",
+      "Each payment method, each currency, each payment timeline is different. Most invoicing tools leave you to manage all of it manually — chasing payments by email, tracking transfers in a spreadsheet, reconciling everything at the end of the month.",
+      "InvoiceMonk builds the payment layer into the invoicing workflow. Send the invoice. Get paid. Everything reconciles automatically."
     ]
   },
-  "tabs": {
-    "title": "Everything you need to accept payments",
-    "subtitle": "Flexible options for you and your clients.",
+  "howItWorks": {
+    "label": "How InvoiceMonk handles payments end to end",
+    "subtitle": "From the moment you send the invoice to the moment your records update — all in one workflow.",
+    "steps": [
+      {
+        "title": "Send your invoice with a payment link",
+        "description": "Every invoice you send from InvoiceMonk includes a secure payment link. Your client clicks the link, selects their preferred payment method, and pays. No separate payment platform. No manual bank details to copy. No chasing."
+      },
+      {
+        "title": "Your client pays the way they prefer",
+        "description": "InvoiceMonk accepts credit and debit cards, bank transfers, ACH payments, and digital wallets. Your clients pay using the method that works in their country — without friction on their end or manual processing on yours."
+      },
+      {
+        "title": "Everything reconciles automatically",
+        "description": "When a payment arrives, InvoiceMonk matches it to the correct invoice, updates the payment status, and records the transaction. No manual reconciliation. No end-of-month spreadsheet. Your records are always current."
+      }
+    ]
+  },
+  "features": {
+    "label": "Built for freelancers who get paid across borders",
+    "subtitle": "Everything you need to collect international payments without the friction.",
     "items": [
-      { "label": "Payment Methods", "title": "Accept the way your clients want to pay", "description": "Credit cards, bank transfers, digital wallets — offer all the options your clients expect." },
-      { "label": "Security", "title": "Bank-level payment security", "description": "PCI-compliant processing, encrypted transactions, and fraud protection built in." },
-      { "label": "Reconciliation", "title": "Automatic payment matching", "description": "Payments are matched to invoices automatically. Your books stay accurate without any effort." }
+      {
+        "title": "Multi-currency payment acceptance",
+        "description": "Accept payments in EUR, GBP, USD, CHF, CAD, AUD, and more. Your clients pay in their local currency and InvoiceMonk handles the currency matching against the invoiced amount. No manual conversion. No exchange rate disputes."
+      },
+      {
+        "title": "SEPA bank transfer support",
+        "description": "European clients pay primarily by SEPA bank transfer — not by card. InvoiceMonk includes your IBAN and BIC details on EU invoices automatically, making it straightforward for German, French, Dutch, and other European clients to pay you via their standard banking method."
+      },
+      {
+        "title": "Withholding tax notation for African clients",
+        "description": "If you bill clients in Kenya, Ghana, or South Africa, local withholding tax rules may apply. InvoiceMonk includes the correct withholding tax notation on invoices to these markets — so you know the net amount you will receive before the payment arrives, and your client's accountant can process the deduction correctly."
+      },
+      {
+        "title": "Automatic payment reminders",
+        "description": "Set your payment terms once. InvoiceMonk sends automatic reminders before the due date, on the due date, and after the due date if payment has not been received. You stop chasing payments manually and your clients have a clear, professional prompt to pay."
+      },
+      {
+        "title": "Payment plans and instalments",
+        "description": "For larger projects, offer clients a structured payment plan — deposit, progress payment, and final invoice. Each instalment is a separate sequentially numbered invoice, VAT-compliant for the client's country, with its own payment link and automatic reminder schedule."
+      },
+      {
+        "title": "Automatic reconciliation",
+        "description": "Every payment received is automatically matched to its invoice, the payment status is updated, and the transaction is recorded. Your accounts receivable is always current. You know exactly what has been paid, what is outstanding, and what is overdue — without touching a spreadsheet."
+      }
+    ]
+  },
+  "fees": {
+    "label": "Transparent processing fees — no surprises",
+    "intro": "InvoiceMonk charges straightforward processing fees with no hidden costs. Here is what you pay per transaction:",
+    "headers": { "method": "Payment method", "fee": "Fee" },
+    "rows": [
+      { "method": "Credit and debit cards", "fee": "2.9% + processing fee" },
+      { "method": "Bank transfers (ACH)", "fee": "1%" },
+      { "method": "SEPA bank transfers", "fee": "Low flat fee" },
+      { "method": "International wire transfers", "fee": "Varies by bank" }
+    ],
+    "note": "Bank transfer fees are significantly lower than card processing fees for large invoice amounts. For invoices above €500, bank transfer is almost always the lower-cost option for both you and your client. InvoiceMonk shows your client both options at checkout so they can choose."
+  },
+  "reduceFees": {
+    "label": "How to reduce the fees you pay on international invoices",
+    "intro": "International payments cost more than domestic ones — but the difference is manageable if you structure your invoicing correctly. Three things that reduce your international payment costs with InvoiceMonk:",
+    "tips": [
+      {
+        "title": "Invoice in your client's currency",
+        "description": "Currency conversion fees are charged by whoever initiates the conversion. If you invoice in EUR and your client pays in EUR, the conversion happens on your side when you receive the funds. If you invoice in your own currency and your client converts, they absorb the conversion cost. Discuss with each client which approach works best."
+      },
+      {
+        "title": "Use bank transfer instead of card for large invoices",
+        "description": "Card processing fees of 2.9% on a €5,000 invoice cost €145. A SEPA bank transfer for the same invoice costs a few euros. For clients in Europe, SEPA bank transfer is the standard payment method and your clients will expect it."
+      },
+      {
+        "title": "Set clear payment terms upfront",
+        "description": "Late payments cost you more than processing fees in most cases — through delayed cash flow, time spent chasing, and potential bad debt. InvoiceMonk's automatic reminders and clearly stated payment terms reduce late payments significantly. French commercial law mandates payment within 30 days by default — InvoiceMonk states this on French invoices automatically."
+      }
     ]
   },
   "testimonial": {
-    "quote": "Since adding payment links to my invoices, I get paid on average 12 days faster. It's made a huge difference to my cash flow.",
-    "name": "Anna Edwards",
-    "title": "Creative Director",
-    "company": "Studio Amber"
-  },
-  "howItWorks": {
-    "title": "How accepting payments works",
-    "subtitle": "It's as simple as sending an invoice — we handle the rest.",
-    "steps": [
-      { "title": "Send your invoice", "description": "Create and send professional invoices with built-in payment links." },
-      { "title": "Client pays online", "description": "Your client clicks the payment link and pays securely with their preferred method." },
-      { "title": "Money arrives fast", "description": "Funds are deposited directly to your bank account, usually within 1-2 business days." }
-    ]
-  },
-  "pricing": {
-    "title": "Simple, transparent <accent>pricing</accent>",
-    "subtitle": "No monthly fees. No hidden charges. Just pay when you get paid.",
-    "sectionTitle": "Processing Fees",
-    "sectionSubtitle": "Competitive rates for every business size.",
-    "cards": {
-      "label": "Credit & Debit Cards",
-      "cardTypes": "Visa, Mastercard, Amex",
-      "rate": "2.9%",
-      "rateNote": "+ fixed fee"
-    },
-    "bank": {
-      "label": "Bank Transfers",
-      "types": "ACH, Direct Debit",
-      "rate": "1%",
-      "rateNote": "capped at $5"
-    }
-  },
-  "blog": {
-    "title": "Getting paid faster",
-    "subtitle": "Tips and strategies to improve your cash flow."
+    "quote": "Get paid faster with integrated payments — our clients actually pay on time now. Having the payment link directly on the invoice changed everything.",
+    "name": "Verified InvoiceMonk user",
+    "title": "Creative agency",
+    "company": ""
   },
   "faq": {
     "title": "Payments questions, answered",
-    "subtitle": "Everything you need to know about accepting payments.",
+    "subtitle": "Everything you need to know about accepting international payments with InvoiceMonk.",
     "items": [
-      { "question": "What payment methods can I accept?", "answer": "When our payments feature launches, you'll be able to accept all major credit cards (Visa, Mastercard, American Express), debit cards, bank transfers (ACH in the US), and popular digital wallets." },
-      { "question": "What are the processing fees?", "answer": "We offer competitive processing rates. Card payments are typically 2.9% + a small fixed fee. Bank transfers have even lower fees. Full pricing will be announced when the feature launches." },
-      { "question": "How quickly will I receive my money?", "answer": "Funds typically arrive in your bank account within 1-2 business days after your client pays. We're also working on instant payout options for premium plans." },
-      { "question": "Is the payment processing secure?", "answer": "Absolutely. All payments are processed through PCI-compliant payment infrastructure. Your clients' payment information is encrypted and never stored on our servers." },
-      { "question": "Can I set up payment plans for large invoices?", "answer": "Yes! You'll be able to offer your clients the option to pay in installments. You set the terms, and we handle the automatic collection of each payment." },
-      { "question": "How does automatic reconciliation work?", "answer": "When a client pays an invoice, the payment is automatically matched and recorded against that invoice. No manual data entry needed — your books stay up to date automatically." }
+      {
+        "question": "What payment methods can my clients use?",
+        "answer": "Your clients can pay via credit and debit card, bank transfer (ACH), SEPA bank transfer for European clients, and digital wallets where supported. InvoiceMonk shows your client their available payment options at the checkout — they choose the method that works best for them in their country."
+      },
+      {
+        "question": "What are the processing fees?",
+        "answer": "Card payments: 2.9% plus a small processing fee. Bank transfers (ACH): 1%. SEPA bank transfers: low flat fee. International wire transfers vary by the client's bank. InvoiceMonk displays the fee transparently at checkout — no hidden charges."
+      },
+      {
+        "question": "How quickly will I receive my money?",
+        "answer": "Bank transfers and ACH payments typically arrive within 2-5 business days. Card payments are processed within 2 business days in most cases. SEPA transfers arrive within 1 business day for standard SEPA and same day for SEPA Instant where supported."
+      },
+      {
+        "question": "Can I set up automatic payment reminders?",
+        "answer": "Yes. Set your payment terms once and InvoiceMonk sends automatic reminders before the due date, on the due date, and on a schedule you define for overdue invoices. You can customise the reminder message and frequency for each client."
+      },
+      {
+        "question": "How does InvoiceMonk handle withholding tax on international invoices?",
+        "answer": "For markets where withholding tax applies to payments from local businesses to non-resident suppliers — such as Kenya's 20% non-resident professional fee WHT — InvoiceMonk includes the correct withholding tax notation on the invoice. You invoice the full agreed amount. Your client deducts the withholding tax and remits it to their local tax authority, then pays you the net amount. InvoiceMonk records both the invoiced amount and the net received amount in your payment history."
+      },
+      {
+        "question": "Can I accept partial payments or payment plan instalments?",
+        "answer": "Yes. For project-based billing, set up milestone invoices for each payment stage — deposit, progress payment, and final invoice. Each milestone invoice is a separate document with its own sequential number, VAT treatment, and payment link. InvoiceMonk tracks the payment status of each milestone independently."
+      }
+    ]
+  },
+  "bottomCta": {
+    "headline": "Send the invoice. Get paid. InvoiceMonk handles the rest.",
+    "subheadline": "Join freelancers and independent professionals across Europe, East Africa, and Southeast Asia who use InvoiceMonk to get paid faster — with less chasing, less manual reconciliation, and no compliance surprises.",
+    "cta": "Start accepting payments free",
+    "microcopy": "No credit card required. Free plan available. Upgrade when you are ready.",
+    "trustSignals": [
+      "Multi-currency payment acceptance",
+      "Automatic reconciliation",
+      "SEPA bank transfer support",
+      "Free to start"
+    ]
+  },
+  "relatedLinks": {
+    "label": "Keep exploring",
+    "items": [
+      { "title": "International payment fee calculator", "href": "/international-payment-fee-calculator", "description": "See exactly what you receive after fees on Wise, PayPal, SWIFT and card payments." },
+      { "title": "PayPal vs Wise fee comparison", "href": "/paypal-vs-wise-fees", "description": "Real cost breakdown on $500, $1K and $5K transfers." },
+      { "title": "How to reduce fees on international invoice payments", "href": "/cheapest-way-to-receive-international-payments", "description": "Ranked guide to the cheapest way to receive international payments." },
+      { "title": "EU VAT invoice requirements for freelancers", "href": "/guides/e-invoicing-mandates-guide", "description": "Country-by-country e-invoicing and VAT mandates for EU freelancers." }
     ]
   },
   "seoFaqs": [
-    { "question": "How do I accept online payments on invoices?", "answer": "With Invoicemonk, you can add a payment link directly to your invoices. Clients click the link to pay via credit card, bank transfer, or mobile payment. The payment is automatically recorded and matched to the invoice." },
-    { "question": "What payment methods can my clients use?", "answer": "Clients can pay using credit and debit cards, bank transfers, and mobile payment platforms. Invoicemonk integrates with popular payment gateways to offer flexible options for your clients worldwide." },
-    { "question": "How long does it take to receive payments?", "answer": "Processing times vary by method. Card payments typically settle in 1-3 business days, bank transfers in 1-5 business days, and mobile payments are often instant. Invoicemonk shows real-time payment status on every invoice." },
-    { "question": "Are online invoice payments secure?", "answer": "Yes. All payments are processed through PCI-compliant payment gateways with bank-level encryption. Your clients' financial data is never stored on Invoicemonk servers, ensuring maximum security." }
+    { "question": "How do I accept online payments on invoices?", "answer": "With InvoiceMonk, every invoice includes a secure payment link. Your client clicks the link, selects their preferred payment method — card, bank transfer, ACH, SEPA, or digital wallet — and pays. The payment is automatically matched and reconciled to the correct invoice." },
+    { "question": "What payment methods can my clients use?", "answer": "Clients can pay using credit and debit cards, ACH bank transfers, SEPA bank transfers for European clients, international wire transfers, and supported digital wallets. InvoiceMonk shows the available payment options at checkout based on the client's country." },
+    { "question": "How long does it take to receive international payments?", "answer": "Card payments typically settle within 2 business days. ACH and standard bank transfers arrive in 2-5 business days. SEPA transfers arrive within 1 business day, and SEPA Instant payments arrive the same day where supported." },
+    { "question": "Are online invoice payments secure?", "answer": "Yes. All payments are processed through PCI-compliant payment infrastructure with bank-level encryption. Your clients' financial data is never stored on InvoiceMonk servers." }
   ]
 }

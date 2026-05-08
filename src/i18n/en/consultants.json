@@ -1,106 +1,131 @@
 {
   "seo": {
-    "title": "Invoicing Software for Consultants | Invoicemonk",
-    "description": "Professional invoicing for management consultants and strategy firms. Multi-currency billing, detailed reporting, and enterprise-ready compliance."
+    "title": "Invoicing software for consultants who work internationally — Invoicemonk",
+    "description": "Manage retainers, project billing, and multi-currency invoicing across Germany, France, Netherlands, Kenya and 30+ countries. VAT-compliant invoices built in automatically."
   },
   "hero": {
     "badge": "For Consultants",
-    "title": "Professional invoicing for consultants",
-    "accentWord": "consultants",
-    "description": "Impress enterprise clients with professional, compliant invoices. Manage retainers, project billing, and international payments with ease.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing",
-    "trustBadge": "Trusted by management consultants and strategy firms"
+    "title": "Professional invoicing for consultants who work across borders.",
+    "accentWord": "across borders",
+    "description": "Manage retainers, project milestones, and multi-currency billing across multiple countries — with VAT-compliant invoices that meet the legal requirements of every client you work with. Enterprise-ready invoicing. Solo-friendly pricing.",
+    "primaryCta": "Start free today",
+    "secondaryCta": "View pricing",
+    "trustBadge": "Trusted by independent consultants billing clients across Europe, East Africa, and Southeast Asia."
   },
-  "benefits": {
-    "heading": "Built for consulting professionals",
-    "subheading": "Everything you need to manage client billing at the enterprise level — from retainer invoicing to multi-currency reporting",
+  "trustBar": {
     "items": [
-      { "title": "Enterprise-Ready Invoices", "description": "Create professional invoices that meet corporate procurement standards and purchase order requirements. Include detailed scope descriptions, project references, and payment terms that enterprise clients expect." },
-      { "title": "Multi-Currency Billing", "description": "Invoice international clients in their preferred currency without manual conversion. Invoicemonk handles dozens of currencies, making cross-border consulting engagements seamless and professional." },
-      { "title": "Detailed Reporting", "description": "Generate income reports, expense summaries, and payment analytics for client presentations and your own financial reviews. Export clean, professional reports that support strategic decision-making." },
-      { "title": "Compliance Built-In", "description": "Stay compliant with tax requirements across multiple jurisdictions. Invoicemonk automatically structures invoices to meet regulatory standards, giving your enterprise clients confidence in your operations." }
+      "Multi-currency billing",
+      "EU VAT compliance built in",
+      "Retainer and project billing",
+      "Audit-ready records"
     ]
   },
+  "problem": {
+    "heading": "The invoicing problem every international consultant knows",
+    "paragraphs": [
+      "You land a consulting engagement with a client in Germany. Or France. Or the Netherlands. You have done the work. Now you need to get paid.",
+      "You open your invoicing tool and send the invoice.",
+      "Their finance team sends it back. The German client needs a Leistungsdatum — the date your service was delivered — stated explicitly, even if it is the same as the invoice date. The Dutch client needs your BTW-ID, not your OB-nummer — and if you put the wrong one on the invoice, you have just exposed your personal citizen service number to a third party. The French client needs a SIRET number, a specific TVA phrase if you are under the threshold, and a mandatory late payment clause that French commercial law requires on every B2B invoice.",
+      "And if you are managing multiple clients across multiple countries simultaneously — each with different currencies, different VAT rules, and different payment terms — doing this manually is not a compliance problem. It is a full-time job."
+    ],
+    "pullQuote": "Invoicemonk handles it automatically."
+  },
   "useCases": {
-    "heading": "How consultants use Invoicemonk",
-    "subheading": "From solo advisors to boutique firms — here's how Invoicemonk fits consulting workflows",
+    "heading": "Built for every consulting billing structure",
     "items": [
-      { "title": "Retainer Engagements", "description": "Set up a recurring monthly invoice for each retainer client. Invoicemonk generates and sends the invoice automatically on the first of every month. Your client knows when to expect it, and you never forget to bill. Track retainer revenue separately from project work for clear financial reporting." },
-      { "title": "Project Milestones", "description": "For strategy engagements or transformation projects, create milestone-based invoices tied to deliverables. Invoice 30% at project kickoff, 40% at midpoint review, and 30% on final delivery. Each invoice references the specific milestone and scope of work completed." },
-      { "title": "Cross-Border Advisory", "description": "Advise clients in different countries without invoicing headaches. Bill an EU client in Euros, a UK client in Pounds, and a US client in Dollars — all from one account. Each invoice is formatted with the correct currency, tax structure, and compliance details for that jurisdiction." }
+      { "title": "Retainer engagements", "description": "Set up recurring monthly invoices for retainer clients with automatic scheduling, fixed amounts, and VAT treatment applied correctly for each client's country. Your retainer invoices go out on time, every time — compliant with the mandatory fields required in Germany, France, the Netherlands, or wherever your client is based." },
+      { "title": "Project-based billing", "description": "Invoice by project milestone or deliverable. Each invoice is sequentially numbered, VAT-compliant, and structured for the client's country. If the project spans multiple billing stages, Invoicemonk tracks the full engagement history so you always know what has been invoiced and what remains." },
+      { "title": "Cross-border invoicing", "description": "When you bill a VAT-registered business in another country, Invoicemonk automatically applies the reverse charge mechanism — generating the Article 196 EU VAT Directive notation, including both VAT numbers, and presenting the net amount only. Your EU clients can process it immediately. No back-and-forth with their accountants." },
+      { "title": "Multi-currency billing", "description": "Bill clients in EUR, GBP, USD, CHF, or any currency you agree. The compliance layer works correctly regardless of currency — so a EUR invoice to a German client and a GBP invoice to a UK client both carry the correct mandatory fields for their respective countries." }
+    ]
+  },
+  "compliance": {
+    "heading": "Your clients are in different countries. Their invoice requirements are different too.",
+    "intro": "Invoicemonk includes the mandatory fields required by law in each of these markets. Select your client's country and they appear in the invoice automatically.",
+    "countries": [
+      { "flag": "🇩🇪", "country": "Germany", "fields": "Leistungsdatum, Steuernummer or USt-IdNr., Kleinunternehmer exemption phrase, sequential numbering, Stornorechnung for corrections" },
+      { "flag": "🇳🇱", "country": "Netherlands", "fields": "BTW-ID (never OB-nummer), KVK number, BTW verlegd notation, specific payment due date, KOR exemption phrase" },
+      { "flag": "🇫🇷", "country": "France", "fields": "SIRET number (14 digits), client SIRET, EI designation, TVA status, franchise en base phrase, mandatory late payment clause" },
+      { "flag": "🇵🇱", "country": "Poland", "fields": "NIP number, Biała Lista verification guidance, reverse charge in Polish (odwrotne obciążenie), KSeF-ready fields" },
+      { "flag": "🇬🇧", "country": "United Kingdom", "fields": "UK VAT number, Making Tax Digital (MTD) compatible invoices, reverse charge for cross-border services" },
+      { "flag": "🇰🇪", "country": "Kenya", "fields": "KRA PIN field, reverse charge under Kenya VAT Act Cap 476, withholding tax notation (20% non-resident WHT)" },
+      { "flag": "🇿🇦", "country": "South Africa", "fields": "SARS-compliant invoice structure, VAT registration number, zero-rated export notation for foreign clients" },
+      { "flag": "🌍", "country": "All EU countries", "fields": "Article 196 reverse charge wording, VIES VAT number field, sequential numbering, 15th of month invoicing rule" }
+    ],
+    "closing": "Managing a client in a country not listed? Invoicemonk applies the international B2B compliance baseline — reverse charge notation, both VAT number fields, and sequential numbering — for any cross-border invoice."
+  },
+  "features": {
+    "heading": "Compliance features that protect your business",
+    "items": [
+      { "title": "Sequential numbering — enforced, not optional", "description": "A gap in your invoice number sequence is an audit red flag in every EU country. Invoicemonk enforces sequential numbering at the system level — every invoice gets the next number automatically. Gaps are impossible. Your records are clean whether you invoice two clients a month or twenty." },
+      { "title": "Reverse charge — correct wording, every time", "description": "Cross-border EU invoicing requires specific legal language — the reverse charge notation must reference Article 196 of the EU VAT Directive, include both VAT numbers, and show the net amount only. Invoicemonk generates all of this automatically when you add an EU business client. No research. No wrong wording. No rejected invoices." },
+      { "title": "VAT exemption handling — across all markets", "description": "If you operate under a VAT exemption threshold — Germany's Kleinunternehmerregelung, France's franchise en base, the Netherlands' KOR — Invoicemonk generates the correct exemption phrase for each country in the correct language. Your invoice is compliant whether you charge VAT or not." },
+      { "title": "Multi-client, multi-jurisdiction management", "description": "Every client profile in Invoicemonk stores their country, currency, VAT number, and payment terms. When you create a new invoice for that client, the compliance configuration is already applied. Managing ten clients in five countries does not require ten separate research sessions — it requires one click." },
+      { "title": "Credit notes — issued without breaking your sequence", "description": "When a project is cancelled, a scope changes, or an invoice needs correcting, Invoicemonk generates a credit note that references the original, reverses the VAT correctly, and keeps your sequence intact. Three clean documents in the audit trail — original invoice, credit note, corrected invoice — every time." },
+      { "title": "Audit-ready records — always", "description": "Every invoice is stored with an immutable audit trail, timestamp, and payment status. Run a tax-ready report for any period in seconds. Your records are organised, accessible, and structured correctly for any compliance requirement." }
     ]
   },
   "challenges": {
-    "heading": "Common consulting challenges — solved",
-    "subheading": "We built Invoicemonk around the real billing problems consultants face",
+    "heading": "Common cross-border consulting challenges — solved",
     "items": [
-      { "problem": "Enterprise clients reject invoices that don't meet their procurement format", "solution": "Create invoices with PO numbers, detailed scope descriptions, and payment terms that satisfy corporate accounting departments." },
-      { "problem": "Juggling retainer billing and project-based invoices across multiple clients", "solution": "Manage both billing models from one dashboard. Set up recurring invoices for retainers and milestone invoices for projects — each client gets the right billing structure." },
-      { "problem": "Losing billable hours to admin work like invoicing and financial tracking", "solution": "Automate invoice generation, payment reminders, and expense categorisation. Spend your time on client work, not spreadsheets." },
-      { "problem": "Difficulty tracking revenue and expenses across international engagements", "solution": "Multi-currency support with unified reporting. See your total revenue in your base currency while billing each client in theirs." }
+      { "problem": "A client's accountant rejected my invoice and asked for fields I had never heard of.", "solution": "Invoicemonk builds the mandatory fields for your client's country into the invoice automatically. You never need to know what a Leistungsdatum or a SIRET is — the field appears on the invoice before you can send it without it." },
+      { "problem": "I am not sure whether to charge VAT when billing a client in another EU country.", "solution": "For cross-border B2B EU invoices, the reverse charge mechanism applies — you do not charge VAT. Invoicemonk detects the cross-border transaction and applies the reverse charge automatically. For domestic invoices, your local VAT rate or exemption phrase is applied based on your registration status." },
+      { "problem": "I manage retainer clients in three different countries with different billing cycles.", "solution": "Set up each retainer client once with their country, currency, and billing frequency. Invoicemonk generates the correct invoice for each client on schedule — with the mandatory fields for their country, in the right currency, on the right date." },
+      { "problem": "I made an error on an invoice I already sent and deleted it to start over.", "solution": "Deleting a sent invoice creates a gap in your sequence — which is an audit risk in every EU country. The correct approach is a credit note. Invoicemonk generates credit notes directly from the original invoice, references it correctly, and keeps your sequence intact." }
     ]
   },
-  "workflow": {
-    "heading": "How it works",
-    "subheading": "From setup to financial reporting — streamlined for consultants",
-    "steps": [
-      { "title": "Set up your consulting profile", "description": "Add your business details, logo, and default payment terms. If you work with enterprise clients, configure your invoice template to include fields for PO numbers, project references, and detailed scope descriptions. This setup takes five minutes and ensures every invoice meets corporate standards." },
-      { "title": "Create client profiles", "description": "Add each client with their billing address, contact person, preferred currency, and payment terms. For retainer clients, set up a recurring invoice schedule. For project clients, create a billing milestone plan. All details are saved for future engagements." },
-      { "title": "Invoice and track", "description": "Generate invoices with detailed line items — hourly rates, fixed fees, or milestone deliverables. Send them instantly via email. Invoicemonk tracks the status of every invoice: sent, viewed, paid, or overdue. Automatic reminders handle follow-ups for you." },
-      { "title": "Report and review", "description": "At the end of each month or quarter, pull financial reports showing revenue by client, outstanding invoices, and expense summaries. Use these reports for your own financial planning, tax preparation, or client presentations where you need to demonstrate project billing history." }
-    ]
-  },
-  "whyChoose": {
-    "heading": "Why consultants choose Invoicemonk over alternatives",
-    "paragraphs": [
-      "Enterprise accounting software like QuickBooks or Xero is designed for businesses with payroll, inventory, and multi-department budgets. As a consultant, you don't need any of that. What you need is a clean, professional way to bill clients, track payments, and report on your revenue — without spending hours learning complex software.",
-      "Invoicemonk is purpose-built for service professionals. The interface is simple enough to use between client calls, but powerful enough to handle enterprise procurement requirements, multi-currency billing, and recurring retainer invoices. You get the professionalism of enterprise tools without the complexity.",
-      "Most importantly, Invoicemonk understands the consulting billing model. Whether you bill hourly, by project milestone, or on a fixed retainer, the invoicing workflow adapts to your engagement structure — not the other way around."
-    ]
+  "testimonial": {
+    "quote": "Your software is good, no reason for me to switch. It does what I need for a fair price. And your support is excellent.",
+    "author": "Rico Metzger",
+    "role": "Senior Software Engineer — Bulgaria",
+    "context": "Invoices international clients across Europe. Renewed specifically for sequential numbering enforcement and correct VAT handling on cross-border EU invoices."
   },
   "checklist": {
-    "heading": "What consultants get with Invoicemonk",
-    "items": [
-      "Professional branded invoices",
-      "Retainer invoice management",
-      "Project-based billing",
-      "Multi-currency support",
-      "Automatic payment reminders",
-      "Detailed financial reports",
+    "heading": "Everything in your Invoicemonk account",
+    "columnOne": [
+      "Professional compliant invoices",
+      "Project-based milestone billing",
+      "Retainer and recurring billing",
       "Time tracking integration",
-      "Client portal access",
-      "Recurring invoices",
-      "Tax-compliant records"
+      "Multi-currency support",
+      "Credit note generation"
+    ],
+    "columnTwo": [
+      "Reverse charge automation",
+      "Detailed financial reports",
+      "Tax-compliant records",
+      "Multi-client management",
+      "Automatic payment reminders",
+      "Priority customer support"
     ]
   },
-  "testimonials": {
-    "heading": "Trusted by consultants",
-    "items": [
-      { "quote": "My corporate clients are impressed with the professional invoices. I used to spend hours formatting invoices in Word to meet procurement requirements. Now it takes two minutes, and the compliance features give clients confidence in working with me.", "author": "Daniel K.", "role": "Management Consultant" },
-      { "quote": "Managing retainer clients and project-based billing is seamless. I have clients on monthly retainers and others on milestone billing, and Invoicemonk handles both without any confusion. I can focus on delivering value instead of chasing payments.", "author": "Anna E.", "role": "Strategy Consultant" },
-      { "quote": "The financial reporting has been a game-changer. I can pull up revenue by client, track my utilisation rate, and prepare for tax season without hiring a bookkeeper. For a solo consultant, that's invaluable.", "author": "David R.", "role": "IT Consultant" }
-    ]
-  },
-  "faqs": [
-    { "question": "Is Invoicemonk suitable for management consulting firms?", "answer": "Yes. Invoicemonk is used by solo consultants and small consulting firms alike. You can manage multiple clients, track retainer billing, and generate professional invoices that meet corporate procurement standards — all from one dashboard." },
-    { "question": "Can I bill clients on retainer?", "answer": "Absolutely. Set up recurring invoices that automatically generate and send on your chosen schedule. This is ideal for consulting retainers where you bill a fixed monthly fee. You can also create milestone-based invoices for project engagements." },
-    { "question": "Does Invoicemonk support multi-currency invoicing?", "answer": "Yes. Invoice international clients in their preferred currency. Invoicemonk supports dozens of currencies, and each invoice clearly displays the currency and amount. This is essential for consultants who work across borders." },
-    { "question": "Can I generate financial reports for client presentations?", "answer": "Yes. Invoicemonk provides income reports, expense summaries, and payment history that you can export and use in client presentations or financial reviews. The reports are clean and professional enough to share with enterprise clients." },
-    { "question": "How does Invoicemonk help with tax compliance?", "answer": "All invoices and expenses are automatically categorised and stored. At tax time, export your records for your accountant or use the built-in reports to calculate your tax obligations. Invoicemonk supports tax configurations for multiple countries." },
-    { "question": "Is it free to get started?", "answer": "Yes. The free tier includes 5 invoices and 5 receipts per month with no credit card required. Upgrade as your consulting practice grows and you need unlimited invoicing, recurring billing, or advanced reporting features." },
-    { "question": "Can my clients see their invoice history?", "answer": "Yes. Invoicemonk provides a client portal where your clients can view their invoice history, payment status, and download invoices. This is particularly valuable for enterprise clients who need records for their own accounting." }
-  ],
   "faqHeading": "Frequently asked questions",
+  "faqs": [
+    { "question": "Can Invoicemonk handle invoicing for multiple clients in different countries simultaneously?", "answer": "Yes. Each client profile stores their country, currency, VAT number, and payment terms. When you create a new invoice for that client, the compliance configuration — mandatory fields, VAT treatment, reverse charge notation — is already applied. You can manage clients across ten countries without researching each country's invoicing rules separately." },
+    { "question": "Does Invoicemonk support multi-currency invoicing?", "answer": "Yes. Invoice in EUR, GBP, USD, CHF, CAD, AUD, or any currency your client pays in. The VAT compliance fields and country-specific mandatory fields apply correctly regardless of currency denomination." },
+    { "question": "Can I generate financial reports for my consulting practice?", "answer": "Yes. Invoicemonk generates tax-ready reports covering all invoices, payments received, outstanding balances, and VAT summaries for any period. Reports can be exported in standard formats for use with your accountant or accounting software." },
+    { "question": "Is there a free plan for consultants?", "answer": "Yes. Invoicemonk's free plan includes VAT-compliant invoicing, sequential numbering enforcement, reverse charge automation, and country-specific mandatory fields — with no time limit and no feature gates on compliance. Upgrade when your billing volume grows." },
+    { "question": "Can my clients view their invoice history and payment status?", "answer": "Yes. Invoicemonk includes a client portal where your clients can view their invoices, check payment status, and download documents. This reduces back-and-forth email and gives clients a professional experience." },
+    { "question": "How does Invoicemonk handle retainer billing for clients in different countries?", "answer": "Set up each retainer client once with their country, currency, billing frequency, and VAT treatment. Invoicemonk generates the correct invoice for each client on schedule — with the mandatory fields for their country built in. A German retainer client gets a Leistungsdatum on every monthly invoice. A French retainer client gets the TVA status and SIRET. You set it up once and Invoicemonk handles it from there." }
+  ],
+  "bottomCta": {
+    "heading": "Ready to simplify your international consulting billing?",
+    "description": "Join consultants across Europe, East Africa, and Southeast Asia who use Invoicemonk to invoice internationally — with compliance built in from the start.",
+    "button": "Start free today",
+    "fineprint": "No credit card required. Free plan available. Upgrade when you are ready.",
+    "trustSignals": [
+      "VAT-compliant invoices",
+      "Sequential numbering enforced",
+      "30+ countries supported",
+      "Audit-ready from day one"
+    ]
+  },
   "relatedReading": "Related reading",
   "relatedLinks": {
-    "pricing": "Pricing Your Services",
-    "retainer": "Retainer Billing",
-    "gettingPaid": "Getting Paid Faster"
-  },
-  "cta": {
-    "heading": "Ready to elevate your consulting practice?",
-    "description": "Join consultants who trust Invoicemonk for professional invoicing.",
-    "button": "Get Started Free"
+    "euVat": "EU VAT invoice requirements for freelancers",
+    "reverseCharge": "Cross-border VAT and reverse charge explained",
+    "germanClients": "How to invoice German clients",
+    "frenchClients": "How to invoice French clients",
+    "vsWave": "Invoicemonk vs Wave"
   }
 }

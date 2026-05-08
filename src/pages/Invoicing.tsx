@@ -1,87 +1,69 @@
 import { motion } from 'framer-motion';
 import { Link } from '@/components/LocalizedLink';
-import { FileText, Check, ArrowRight, Send, Clock, Globe, Users, Shield, Repeat, Smartphone, Bell, Zap } from 'lucide-react';
+import {
+  Check,
+  ArrowRight,
+  Globe,
+  Repeat,
+  ListOrdered,
+  Coins,
+  ShieldCheck,
+  FileMinus,
+  Shield,
+  UserPlus,
+  FileText,
+  Send,
+} from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/ui/AnimatedSection';
-import { WaveFeatureBanner } from '@/components/ui/WaveFeatureBanner';
 import { WaveTabbedFeature } from '@/components/home/WaveTabbedFeature';
-import { WaveAlternatingFeature } from '@/components/home/WaveAlternatingFeature';
 import { WaveFeaturedTestimonial } from '@/components/home/WaveFeaturedTestimonial';
 import { WaveProductFAQ } from '@/components/home/WaveProductFAQ';
-import { WaveBlogPreview } from '@/components/home/WaveBlogPreview';
-import { WaveCTASection } from '@/components/home/WaveCTASection';
-import { useLocale } from '@/hooks/useLocale';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 
-const quickFeatureKeys = [
-  { key: 'createQuickly', icon: FileText },
-  { key: 'stayOrganized', icon: Users },
-  { key: 'reduceBookkeeping', icon: Clock },
-] as const;
-
-const getPaidFasterKeys = [
-  { key: 'invoiceOnTheGo', icon: Smartphone },
-  { key: 'instantNotifications', icon: Bell },
-  { key: 'automaticReminders', icon: Zap },
-] as const;
-
-const faqKeys = ['isFree', 'getPaidFaster', 'customizeLogo', 'auditTrail', 'multiCurrency', 'paymentMethods', 'eInvoicing'] as const;
+const FEATURE_ICONS = [Globe, Repeat, ListOrdered, Coins, ShieldCheck, FileMinus];
+const STEP_ICONS = [UserPlus, FileText, Send];
 
 const Invoicing = () => {
-  const { locale, formatCurrency } = useLocale();
-  const { compliance } = locale.content;
   const { t } = useTranslation('invoicing');
 
-  const serviceAmount = locale.pricing.business * 50;
-  const hostingAmount = locale.pricing.professional * 50;
-  const totalAmount = serviceAmount + hostingAmount;
-
-  const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];
-  const complianceFeatures = t('compliance.features', { returnObjects: true }) as string[];
+  const trustBar = t('trustBar.items', { returnObjects: true }) as string[];
+  const features = t('features.items', { returnObjects: true }) as { title: string; body: string }[];
+  const auditFeatures = t('auditReady.features', { returnObjects: true }) as string[];
+  const steps = t('howItWorks.steps', { returnObjects: true }) as { title: string; body: string }[];
+  const comparisonRows = t('comparison.rows', { returnObjects: true }) as string[][];
+  const faqs = t('faq.items', { returnObjects: true }) as { question: string; answer: string }[];
+  const bottomTrust = t('bottomCta.trust', { returnObjects: true }) as string[];
+  const relatedLinks = t('related.links', { returnObjects: true }) as { label: string; to: string }[];
 
   const tabbedFeatures = [
-    { label: t('tabbed.tabs.customerInfo.label'), title: t('tabbed.tabs.customerInfo.title'), description: t('tabbed.tabs.customerInfo.description') },
-    { label: t('tabbed.tabs.trackPayments.label'), title: t('tabbed.tabs.trackPayments.title'), description: t('tabbed.tabs.trackPayments.description') },
-    { label: t('tabbed.tabs.recurringBilling.label'), title: t('tabbed.tabs.recurringBilling.title'), description: t('tabbed.tabs.recurringBilling.description') + ' <a href="/blog/recurring-invoices-automating-billing">' + t('tabbed.tabs.recurringBilling.label') + '</a>.' },
+    { label: t('tabbed.tabs.eu.label'), title: t('tabbed.tabs.eu.title'), description: t('tabbed.tabs.eu.description') },
+    { label: t('tabbed.tabs.africa.label'), title: t('tabbed.tabs.africa.title'), description: t('tabbed.tabs.africa.description') },
+    { label: t('tabbed.tabs.global.label'), title: t('tabbed.tabs.global.title'), description: t('tabbed.tabs.global.description') },
   ];
-
-  const getPaidFasterFeatures = getPaidFasterKeys.map(({ key, icon }) => ({
-    icon,
-    title: t(`getPaidFaster.${key}.title`),
-    description: t(`getPaidFaster.${key}.description`),
-  }));
-
-  const invoicingFAQs = faqKeys.map(key => ({
-    question: t(`faq.items.${key}.question`),
-    answer: t(`faq.items.${key}.answer`),
-  }));
 
   return (
     <Layout>
-      <SEOHead
-        title="Invoicing Software for Small Business | Free to Start | Invoicemonk"
-        description="The easiest invoicing software for small businesses and freelancers. Create professional invoices in minutes, automate reminders, and get paid faster. Free tier available."
-      />
-      <FAQSchema items={invoicingFAQs} />
-      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/invoicing' }, { name: 'Invoicing', url: '/invoicing' }]} />
+      <SEOHead title={t('meta.title')} description={t('meta.description')} />
+      <FAQSchema items={faqs} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Invoicing', url: '/invoicing' }]} />
       <ServiceSchema
-        serviceName="Invoicemonk Invoicing Software"
-        serviceType="Invoicing Software"
-        description="Create beautiful professional invoices in minutes. Automate payment reminders, maintain complete audit trails, and get paid faster."
+        serviceName="InvoiceMonk Invoicing Software"
+        serviceType="VAT-compliant invoicing software"
+        description="Create VAT-compliant invoices for clients in 30+ countries. Reverse charge, sequential numbering, and country-specific mandatory fields built in."
         url="https://invoicemonk.com/invoicing"
       />
-      
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-32">
+
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-gradient-to-b from-background to-accent/30 py-20 lg:py-28">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
         </div>
-        
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -89,22 +71,21 @@ const Invoicing = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-wave-green/10 text-wave-green mb-6"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6"
               >
-                <Check className="w-4 h-4" />
+                <ShieldCheck className="w-4 h-4" />
                 <span className="text-body-sm font-medium">{t('hero.badge')}</span>
               </motion.div>
-
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-display text-heading mb-6"
               >
-                {t('hero.title')}{' '}
-                <span className="font-serif italic text-primary">{t('hero.titleAccent')}</span>
+                {t('hero.titleStart')}{' '}
+                <span className="font-serif italic text-primary">{t('hero.titleAccent')}</span>{' '}
+                {t('hero.titleEnd')}
               </motion.h1>
-
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -113,33 +94,22 @@ const Invoicing = () => {
               >
                 {t('hero.description')}
               </motion.p>
-
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="flex flex-col sm:flex-row gap-4"
               >
-                <Button
-                  asChild
-                  size="lg"
-                  className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
-                >
+                <Button asChild size="lg" className="rounded-full px-8 h-14 text-body-lg group">
                   <a href="https://app.invoicemonk.com/signup">
                     {t('hero.primaryCta')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
                   </a>
                 </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  size="lg"
-                  className="rounded-full px-8 h-14 text-body border-border hover:bg-muted"
-                >
+                <Button asChild variant="ghost" size="lg" className="rounded-full px-6 h-14 text-body">
                   <Link to="/pricing">{t('hero.secondaryCta')}</Link>
                 </Button>
               </motion.div>
-
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -167,40 +137,48 @@ const Invoicing = () => {
                       <div className="text-caption text-muted-foreground">{t('invoicePreview.client')}</div>
                     </div>
                   </div>
-                  <span className="px-3 py-1 text-caption font-medium rounded-full bg-wave-green/10 text-wave-green">
-                    {t('invoicePreview.paid')}
+                  <span className="px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary">
+                    {t('invoicePreview.compliant')}
                   </span>
                 </div>
-                
                 <div className="space-y-3 mb-4 pb-4 border-b border-border">
                   <div className="flex justify-between text-body-sm">
-                    <span className="text-muted-foreground">{t('invoicePreview.webDesign')}</span>
-                    <span className="text-foreground font-medium">{formatCurrency(serviceAmount)}</span>
+                    <span className="text-muted-foreground">{t('invoicePreview.designServices')}</span>
+                    <span className="text-foreground font-medium">€2,400.00</span>
                   </div>
                   <div className="flex justify-between text-body-sm">
-                    <span className="text-muted-foreground">{t('invoicePreview.hosting')}</span>
-                    <span className="text-foreground font-medium">{formatCurrency(hostingAmount)}</span>
+                    <span className="text-muted-foreground">{t('invoicePreview.consulting')}</span>
+                    <span className="text-foreground font-medium">€1,800.00</span>
                   </div>
                 </div>
-                
-                <div className="flex items-center justify-between">
-                  <span className="text-body-sm text-muted-foreground">{t('invoicePreview.total')}</span>
-                  <span className="text-h3 font-bold text-heading">{formatCurrency(totalAmount)}</span>
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between text-body-sm">
+                    <span className="text-muted-foreground">{t('invoicePreview.subtotal')}</span>
+                    <span className="text-foreground">€4,200.00</span>
+                  </div>
+                  <div className="flex items-center justify-between text-caption">
+                    <span className="text-muted-foreground">{t('invoicePreview.vat')}</span>
+                    <span className="text-muted-foreground">€0.00</span>
+                  </div>
+                  <div className="flex items-center justify-between pt-2 border-t border-border">
+                    <span className="text-body-sm text-muted-foreground">{t('invoicePreview.total')}</span>
+                    <span className="text-h3 font-bold text-heading">€4,200.00</span>
+                  </div>
                 </div>
               </div>
 
               <motion.div
                 animate={{ y: [-4, 4, -4] }}
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-                className="absolute -bottom-6 -left-6 bg-card rounded-xl shadow-soft-lg p-4 border border-border"
+                className="absolute -bottom-6 -left-6 bg-card rounded-xl shadow-soft-lg p-4 border border-border max-w-[280px]"
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-wave-green/10 flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-wave-green/10 flex items-center justify-center flex-shrink-0">
                     <Check className="w-5 h-5 text-wave-green" />
                   </div>
                   <div>
-                    <p className="text-body-sm font-medium text-foreground">{t('invoicePreview.paymentReceived')}</p>
-                    <p className="text-caption text-muted-foreground">{t('invoicePreview.timeAgo')}</p>
+                    <p className="text-body-sm font-medium text-foreground">{t('invoicePreview.fieldVerified')}</p>
+                    <p className="text-caption text-muted-foreground">{t('invoicePreview.fieldsLine')}</p>
                   </div>
                 </div>
               </motion.div>
@@ -209,29 +187,56 @@ const Invoicing = () => {
         </div>
       </section>
 
-      {/* Feature Banner */}
-      <WaveFeatureBanner 
-        title={t('banner.title')}
-        features={bannerFeatures}
-      />
-
-      {/* Quick Features - 3 cards */}
-      <section className="py-20 lg:py-32 bg-card">
+      {/* Trust bar */}
+      <section className="bg-card border-y border-border py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
-            {quickFeatureKeys.map(({ key, icon }) => {
-              const Icon = icon;
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+            {trustBar.map((item) => (
+              <div key={item} className="flex items-center gap-2 text-body-sm text-foreground">
+                <Check className="w-4 h-4 text-primary flex-shrink-0" />
+                <span>{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Problem */}
+      <section className="py-20 lg:py-28 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="max-w-3xl mx-auto">
+            <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
+              {t('problem.label')}
+            </span>
+            <h2 className="text-h2 text-heading mb-6">{t('problem.title')}</h2>
+            <p className="text-body-lg text-foreground font-medium mb-6">{t('problem.leadShort')}</p>
+            <p className="text-body text-muted-foreground mb-4">{t('problem.body1')}</p>
+            <p className="text-body text-muted-foreground mb-8">{t('problem.body2')}</p>
+            <p className="text-h3 font-serif italic text-primary">{t('problem.closer')}</p>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* Features grid */}
+      <section className="py-20 lg:py-28 bg-card">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-h2 text-heading">{t('features.label')}</h2>
+          </AnimatedSection>
+          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
+            {features.map((feature, i) => {
+              const Icon = FEATURE_ICONS[i] ?? Globe;
               return (
-                <StaggerItem key={key}>
+                <StaggerItem key={feature.title}>
                   <motion.div
                     whileHover={{ y: -4 }}
-                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300 text-center"
+                    className="h-full bg-background rounded-2xl p-8 border border-border hover:border-primary/20 hover:shadow-card-hover transition-all duration-300"
                   >
-                    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5 mx-auto">
-                      <Icon className="w-7 h-7 text-primary" />
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
+                      <Icon className="w-6 h-6 text-primary" />
                     </div>
-                    <h3 className="text-h4 text-heading mb-2">{t(`quickFeatures.${key}.title`)}</h3>
-                    <p className="text-body text-muted-foreground">{t(`quickFeatures.${key}.description`)}</p>
+                    <h3 className="text-h4 text-heading mb-3">{feature.title}</h3>
+                    <p className="text-body text-muted-foreground">{feature.body}</p>
                   </motion.div>
                 </StaggerItem>
               );
@@ -240,77 +245,34 @@ const Invoicing = () => {
         </div>
       </section>
 
-      {/* Tabbed Feature Section */}
+      {/* Tabs (EU / Africa / Global) */}
       <WaveTabbedFeature
         title={t('tabbed.title')}
         subtitle={t('tabbed.subtitle')}
         tabs={tabbedFeatures}
       />
 
-      {/* Get Paid Faster - Alternating Feature */}
-      <WaveAlternatingFeature
-        title={t('getPaidFaster.title')}
-        subtitle={t('getPaidFaster.subtitle')}
-        features={getPaidFasterFeatures}
-        className="bg-card"
-        imagePlaceholder={
-          <div className="bg-background rounded-2xl shadow-soft-xl border border-border p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-wave-green/10 flex items-center justify-center">
-                <Zap className="w-5 h-5 text-wave-green" />
-              </div>
-              <div>
-                <p className="text-body-sm font-medium text-heading">Invoice #1043</p>
-                <p className="text-caption text-muted-foreground">{t('getPaidFaster.timeline.sentAgo')}</p>
-              </div>
-            </div>
-            <div className="space-y-3">
-              <div className="flex items-center gap-3 text-body-sm">
-                <div className="w-2 h-2 rounded-full bg-wave-green" />
-                <span className="text-foreground">{t('getPaidFaster.timeline.invoiceSent')}</span>
-                <span className="text-muted-foreground ml-auto">10:32 AM</span>
-              </div>
-              <div className="flex items-center gap-3 text-body-sm">
-                <div className="w-2 h-2 rounded-full bg-wave-green" />
-                <span className="text-foreground">{t('getPaidFaster.timeline.viewedByClient')}</span>
-                <span className="text-muted-foreground ml-auto">11:15 AM</span>
-              </div>
-              <div className="flex items-center gap-3 text-body-sm">
-                <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="text-foreground">{t('getPaidFaster.timeline.awaitingPayment')}</span>
-                <span className="text-muted-foreground ml-auto">{t('getPaidFaster.timeline.now')}</span>
-              </div>
-            </div>
-          </div>
-        }
-      />
-
-      {/* Compliance Section */}
-      <section className="py-20 lg:py-32 bg-background">
+      {/* Audit ready */}
+      <section className="py-20 lg:py-28 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <AnimatedSection>
                 <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
-                  {t('compliance.badge')}
+                  {t('auditReady.label')}
                 </span>
                 <h2 className="text-h2 text-heading mb-6">
-                  {t('compliance.title')}{' '}
-                  <span className="font-serif italic text-primary">{t('compliance.titleAccent')}</span>
+                  {t('auditReady.title')}{' '}
+                  <span className="font-serif italic text-primary">{t('auditReady.titleAccent')}</span>
                 </h2>
-                <p className="text-body-lg text-muted-foreground mb-8">
-                  {t('compliance.description')}{' '}
-                  {t('compliance.creditNotesPrefix')}{' '}
-                  <Link to="/blog/credit-notes-and-invoice-corrections" className="text-primary hover:underline">{t('compliance.creditNotesLink')}</Link>.
-                </p>
-                
+                <p className="text-body-lg text-muted-foreground mb-8">{t('auditReady.description')}</p>
                 <ul className="space-y-4">
-                  {complianceFeatures.map((feature, index) => (
+                  {auditFeatures.map((feature, index) => (
                     <motion.li
-                      key={index}
+                      key={feature}
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ delay: index * 0.1 }}
+                      transition={{ delay: index * 0.08 }}
                       viewport={{ once: true }}
                       className="flex items-start gap-3"
                     >
@@ -322,40 +284,34 @@ const Invoicing = () => {
                   ))}
                 </ul>
               </AnimatedSection>
-              
+
               <AnimatedSection delay={0.2}>
-                <div className="relative">
-                  <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-8">
-                    <div className="flex items-center gap-3 mb-6">
-                      <Shield className="w-8 h-8 text-primary" />
-                      <div>
-                        <h4 className="text-body font-semibold text-heading">{t('compliance.auditTrail')}</h4>
-                        <p className="text-body-sm text-muted-foreground">{t('invoicePreview.invoiceNumber')}</p>
-                      </div>
+                <div className="bg-background rounded-2xl shadow-soft-xl border border-border p-8">
+                  <div className="flex items-center gap-3 mb-6">
+                    <Shield className="w-8 h-8 text-primary" />
+                    <div>
+                      <h4 className="text-body font-semibold text-heading">{t('auditReady.auditTrail')}</h4>
+                      <p className="text-body-sm text-muted-foreground">Invoice #1042</p>
                     </div>
-                    
-                    <div className="space-y-4">
-                      {[
-                        { action: t('compliance.logs.created'), time: 'Jan 15, 2024 9:32 AM', user: 'John D.' },
-                        { action: t('compliance.logs.sent'), time: 'Jan 15, 2024 9:33 AM', user: 'System' },
-                        { action: t('compliance.logs.viewed'), time: 'Jan 15, 2024 2:15 PM', user: 'Client' },
-                        { action: t('compliance.logs.paid'), time: 'Jan 17, 2024 10:42 AM', user: 'System' },
-                      ].map((log, index) => (
-                        <div key={index} className="flex items-start gap-3 text-body-sm">
-                          <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                          <div className="flex-1">
-                            <p className="font-medium text-foreground">{log.action}</p>
-                            <p className="text-muted-foreground">{log.time} • {log.user}</p>
-                          </div>
+                  </div>
+                  <div className="space-y-4">
+                    {[
+                      { action: t('auditReady.logs.created'), time: 'May 1, 2026 9:32 AM', user: 'You' },
+                      { action: t('auditReady.logs.sent'), time: 'May 1, 2026 9:33 AM', user: 'System' },
+                      { action: t('auditReady.logs.viewed'), time: 'May 1, 2026 2:15 PM', user: 'Client' },
+                      { action: t('auditReady.logs.paid'), time: 'May 3, 2026 10:42 AM', user: 'System' },
+                    ].map((log) => (
+                      <div key={log.action} className="flex items-start gap-3 text-body-sm">
+                        <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                        <div className="flex-1">
+                          <p className="font-medium text-foreground">{log.action}</p>
+                          <p className="text-muted-foreground">{log.time} • {log.user}</p>
                         </div>
-                      ))}
-                    </div>
-                    
-                    <div className="mt-6 pt-6 border-t border-border">
-                      <p className="text-caption text-muted-foreground">
-                        Hash: a7f3b9c2d1e8...4k9m
-                      </p>
-                    </div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-6 pt-6 border-t border-border">
+                    <p className="text-caption text-muted-foreground font-mono">Hash: a7f3b9c2d1e8...4k9m</p>
                   </div>
                 </div>
               </AnimatedSection>
@@ -364,34 +320,135 @@ const Invoicing = () => {
         </div>
       </section>
 
-      {/* Featured Testimonial */}
+      {/* Social proof testimonial */}
       <WaveFeaturedTestimonial
         quote={t('testimonial.quote')}
-        author={{
-          name: t('testimonial.name'),
-          title: t('testimonial.title'),
-          company: t('testimonial.company')
-        }}
+        author={{ name: t('testimonial.name'), title: t('testimonial.title') }}
         rating={5}
         variant="primary"
       />
 
-      {/* Blog Preview */}
-      <WaveBlogPreview
-        title={t('blog.title')}
-        subtitle={t('blog.subtitle')}
-        pillarId="invoicing-mastery"
+      {/* Rico testimonial */}
+      <WaveFeaturedTestimonial
+        quote={t('ricoTestimonial.quote')}
+        author={{
+          name: t('ricoTestimonial.name'),
+          title: t('ricoTestimonial.title'),
+          company: t('ricoTestimonial.context'),
+        }}
+        rating={5}
+        variant="card"
       />
 
-      {/* FAQ Section */}
-      <WaveProductFAQ
-        title={t('faq.title')}
-        subtitle={t('faq.subtitle')}
-        faqs={invoicingFAQs}
-      />
+      {/* How it works */}
+      <section className="py-20 lg:py-28 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-h2 text-heading">{t('howItWorks.label')}</h2>
+          </AnimatedSection>
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
+            {steps.map((step, i) => {
+              const Icon = STEP_ICONS[i] ?? UserPlus;
+              return (
+                <StaggerItem key={step.title}>
+                  <div className="h-full bg-card rounded-2xl p-8 border border-border relative">
+                    <div className="flex items-center gap-3 mb-5">
+                      <span className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-body-sm font-semibold">
+                        {i + 1}
+                      </span>
+                      <Icon className="w-6 h-6 text-primary" />
+                    </div>
+                    <h3 className="text-h4 text-heading mb-3">{step.title}</h3>
+                    <p className="text-body text-muted-foreground">{step.body}</p>
+                  </div>
+                </StaggerItem>
+              );
+            })}
+          </StaggerContainer>
+        </div>
+      </section>
 
-      {/* Final CTA */}
-      <WaveCTASection />
+      {/* Comparison table */}
+      <section className="py-20 lg:py-28 bg-card">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
+            <span className="inline-block px-3 py-1 text-caption font-medium rounded-full bg-primary/10 text-primary mb-4">
+              {t('comparison.label')}
+            </span>
+            <h2 className="text-h2 text-heading">{t('comparison.title')}</h2>
+          </AnimatedSection>
+
+          <div className="max-w-5xl mx-auto overflow-x-auto rounded-2xl border border-border bg-background">
+            <table className="w-full text-left text-body-sm">
+              <thead>
+                <tr className="border-b border-border bg-muted/40">
+                  <th className="px-6 py-4 font-semibold text-heading">{t('comparison.headers.feature')}</th>
+                  <th className="px-6 py-4 font-semibold text-primary bg-primary/5">{t('comparison.headers.invoicemonk')}</th>
+                  <th className="px-6 py-4 font-semibold text-heading">{t('comparison.headers.generic')}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonRows.map(([feature, im, gen], idx) => (
+                  <tr key={feature} className={idx % 2 === 1 ? 'bg-muted/20' : ''}>
+                    <td className="px-6 py-4 text-foreground font-medium">{feature}</td>
+                    <td className="px-6 py-4 text-foreground bg-primary/5">{im}</td>
+                    <td className="px-6 py-4 text-muted-foreground">{gen}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <WaveProductFAQ title={t('faq.title')} subtitle={t('faq.subtitle')} faqs={faqs} />
+
+      {/* Bottom CTA */}
+      <section className="py-20 lg:py-28 bg-primary">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection className="max-w-3xl mx-auto text-center">
+            <h2 className="text-h2 text-primary-foreground mb-4">{t('bottomCta.title')}</h2>
+            <p className="text-body-lg text-primary-foreground/80 mb-8">{t('bottomCta.subtitle')}</p>
+            <Button asChild size="lg" variant="secondary" className="rounded-full px-8 h-14 text-body-lg group">
+              <a href="https://app.invoicemonk.com/signup">
+                {t('bottomCta.cta')}
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
+              </a>
+            </Button>
+            <p className="text-body-sm text-primary-foreground/70 mt-4">{t('bottomCta.smallPrint')}</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-3xl mx-auto">
+              {bottomTrust.map((item) => (
+                <div key={item} className="flex items-center justify-center gap-2 text-body-sm text-primary-foreground/90">
+                  <Check className="w-4 h-4 flex-shrink-0" />
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* Related links */}
+      <section className="py-16 bg-background border-t border-border">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-h4 text-heading mb-6 text-center">{t('related.title')}</h3>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {relatedLinks.map((link) => (
+                <Link
+                  key={link.to}
+                  to={link.to}
+                  className="group flex items-center justify-between gap-3 p-4 rounded-xl border border-border bg-card hover:border-primary/30 transition-colors"
+                >
+                  <span className="text-body text-foreground group-hover:text-primary transition-colors">{link.label}</span>
+                  <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 };

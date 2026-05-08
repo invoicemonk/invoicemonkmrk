@@ -1,107 +1,108 @@
 {
+  "meta": {
+    "title": "VAT-compliant invoicing software for international freelancers | InvoiceMonk",
+    "description": "Create invoices that hold up in Germany, France, Netherlands, Kenya, Philippines and 30+ countries. Reverse charge, sequential numbering, and mandatory fields built in."
+  },
   "hero": {
-    "badge": "Available Now",
-    "title": "Invoicing software that makes you",
-    "titleAccent": "look good",
-    "description": "Create beautiful invoices in seconds, automate payment reminders, and maintain complete audit trails. Professional invoicing that's ready for any audit.",
-    "primaryCta": "Start Invoicing Free",
-    "secondaryCta": "View Invoicing Pricing Plans",
-    "trustText": "Free to use • No credit card required •",
-    "tryFreeGenerator": "Try the free invoice generator"
+    "badge": "Invoicing",
+    "titleStart": "Invoices that hold up",
+    "titleAccent": "anywhere",
+    "titleEnd": "you send them.",
+    "description": "Every invoice you create in InvoiceMonk is automatically structured with the mandatory fields, VAT treatment, and compliance language required in your client's country. Not bolted on after. Built in from the start.",
+    "primaryCta": "Start invoicing free",
+    "secondaryCta": "View pricing",
+    "trustText": "Used by freelancers billing clients in 30+ countries. Free plan available, no credit card required."
   },
   "invoicePreview": {
     "invoiceNumber": "Invoice #1042",
-    "client": "Acme Corporation",
-    "paid": "Paid",
-    "webDesign": "Web Design Services",
-    "hosting": "Annual Hosting",
+    "client": "Müller GmbH, Berlin",
+    "compliant": "VAT compliant",
+    "designServices": "UX Design Services",
+    "consulting": "Strategy Consulting",
+    "subtotal": "Subtotal",
+    "vat": "VAT: Reverse charge (Article 196)",
     "total": "Total",
-    "paymentReceived": "Payment received",
-    "timeAgo": "2 minutes ago"
+    "fieldVerified": "All mandatory fields verified",
+    "fieldsLine": "Leistungsdatum, BTW-ID, sequential number"
   },
-  "banner": {
-    "title": "Stop chasing clients around",
-    "features": [
-      "Send professional invoices in minutes",
-      "Get paid faster with payment links",
-      "Automatic overdue reminders",
-      "Complete audit trail for compliance"
+  "trustBar": {
+    "items": [
+      "Sequential numbering enforced",
+      "Reverse charge, automatic",
+      "Country-specific mandatory fields",
+      "Audit-ready from day one"
     ]
   },
-  "quickFeatures": {
-    "createQuickly": {
-      "title": "Create quickly",
-      "description": "Build professional invoices in minutes with customizable templates."
-    },
-    "stayOrganized": {
-      "title": "Stay organized",
-      "description": "Keep all client information and invoice history in one place."
-    },
-    "reduceBookkeeping": {
-      "title": "Reduce bookkeeping",
-      "description": "Automatic tracking and reports save hours every month."
-    }
+  "problem": {
+    "label": "The problem",
+    "title": "Why your current invoicing tool keeps letting you down",
+    "leadShort": "You send the invoice. Their accountant sends it back.",
+    "body1": "Maybe the German client's team flagged a missing Leistungsdatum. Maybe the Dutch client's bookkeeper asked why there is no KVK number. Maybe the French client's accountant rejected it because the TVA exemption phrase was missing. Maybe the Kenyan client deducted 20% withholding tax and nobody told you that was coming.",
+    "body2": "Generic invoicing tools were not built for this. They let you add a currency and a logo. They do not know what the law requires in Berlin, Amsterdam, Paris, or Nairobi.",
+    "closer": "InvoiceMonk does."
+  },
+  "features": {
+    "label": "What InvoiceMonk builds into every invoice",
+    "items": [
+      {
+        "title": "Country-specific mandatory fields, automatic",
+        "body": "Select your client's country and InvoiceMonk applies the correct mandatory fields for that jurisdiction. German invoices get the Leistungsdatum field. Dutch invoices get BTW-ID and KVK number. French invoices get SIRET, TVA status, and the late payment clause. Kenyan invoices get the KRA PIN field. You never need to research what goes on an invoice again."
+      },
+      {
+        "title": "Reverse charge notation, generated correctly",
+        "body": "When you invoice a VAT-registered business client in another country, InvoiceMonk detects the cross-border transaction and generates the correct reverse charge notation automatically, including the Article 196 EU VAT Directive wording your client's accountant will look for. No manual research. No wrong wording. No rejected invoices."
+      },
+      {
+        "title": "Sequential numbering, enforced by the system",
+        "body": "EU tax authorities treat gaps in invoice numbers as a red flag. InvoiceMonk assigns every invoice the next number in an unbroken sequence, automatically. You cannot skip, delete, or reuse a number. Gaps are structurally impossible. Your audit trail is clean by default."
+      },
+      {
+        "title": "Multi-currency invoicing, fully compliant",
+        "body": "Invoice in EUR, GBP, USD, CHF, CAD, AUD, KES, PHP, or any currency your client pays in. The compliance fields and VAT treatment apply correctly regardless of which currency the invoice is denominated in."
+      },
+      {
+        "title": "VAT and tax exemption handling, built in",
+        "body": "Operating under Germany's Kleinunternehmerregelung? France's franchise en base de TVA? The Netherlands' KOR scheme? InvoiceMonk generates the correct exemption phrase on your invoice automatically. Your invoice is compliant whether you charge VAT or not."
+      },
+      {
+        "title": "Credit notes, issued correctly every time",
+        "body": "Made an error on a sent invoice? InvoiceMonk generates a credit note that references the original by number and date, reverses the VAT correctly, and keeps your sequence intact. No gaps. No deleted documents. No audit risk."
+      }
+    ]
   },
   "tabbed": {
-    "title": "Easily manage accounts receivable",
-    "subtitle": "Everything you need to track invoices, payments, and customer relationships in one place.",
+    "title": "Built for the clients you actually invoice",
+    "subtitle": "Every market has its own invoice rules. InvoiceMonk applies the right ones automatically.",
     "tabs": {
-      "customerInfo": {
-        "label": "Customer Info",
-        "title": "Access your customer information in one place",
-        "description": "Keep all your client details, communication history, and payment preferences organized. No more searching through emails or spreadsheets — everything you need is at your fingertips."
+      "eu": {
+        "label": "EU clients",
+        "title": "Everything EU clients require, built in",
+        "description": "EU VAT invoicing has 13 mandatory fields under the VAT Directive 2006/112/EC. Miss one and the invoice is legally non-compliant, meaning your client cannot claim input VAT and their accountant will reject it. InvoiceMonk includes every mandatory field for every EU member state, plus country-specific additions for Germany, France, Netherlands, Poland, and Bulgaria."
       },
-      "trackPayments": {
-        "label": "Track Payments",
-        "title": "Track payments and communications effortlessly",
-        "description": "See real-time status updates on every invoice. Know instantly when invoices are viewed, paid, or overdue. Follow up at the right time with full context."
+      "africa": {
+        "label": "African clients",
+        "title": "Invoice Kenyan, Ghanaian, and South African clients correctly",
+        "description": "Each African market has its own invoice requirements. Kenya requires a KRA PIN and reverse charge language under the VAT Act Cap 476. Ghana requires GRA VAT fields. South Africa requires SARS-compliant invoice structure. InvoiceMonk includes the correct mandatory fields for each market, so your invoice arrives ready to process, not ready to reject."
       },
-      "recurringBilling": {
-        "label": "Recurring Billing",
-        "title": "Set up recurring billing for repeat customers",
-        "description": "Stop creating the same invoices every month. Set up automatic invoicing for retainer clients and subscription services — invoices go out on time, every time."
+      "global": {
+        "label": "Global clients",
+        "title": "Any country, any currency, always compliant",
+        "description": "For clients outside InvoiceMonk's specific country templates, the platform applies the international B2B invoice baseline: both party details, sequential invoice number, date of supply, specific service description, net amount, VAT treatment with reverse charge notation where applicable, and your payment details. A professional, compliant invoice for any client anywhere."
       }
     }
   },
-  "getPaidFaster": {
-    "title": "Get paid faster",
-    "subtitle": "Speed up your cash flow with tools designed to get invoices paid on time.",
-    "invoiceOnTheGo": {
-      "title": "Invoice on-the-go",
-      "description": "Create and send invoices from anywhere using our mobile-friendly platform."
-    },
-    "instantNotifications": {
-      "title": "Get instant notifications",
-      "description": "Know the moment your client views or pays your invoice."
-    },
-    "automaticReminders": {
-      "title": "Automatic reminders",
-      "description": "Set up smart reminder sequences that follow up on overdue invoices automatically."
-    },
-    "timeline": {
-      "invoiceSent": "Invoice sent",
-      "viewedByClient": "Viewed by client",
-      "awaitingPayment": "Awaiting payment",
-      "sentAgo": "Sent 2 hours ago",
-      "now": "Now"
-    }
-  },
-  "compliance": {
-    "badge": "Compliance-Aware",
-    "title": "Audit-ready from",
-    "titleAccent": "day one",
-    "description": "Every invoice you create is automatically protected with immutable records and complete audit trails. Be confident your invoicing meets any regulatory requirement.",
-    "creditNotesLink": "credit notes and invoice corrections",
-    "creditNotesPrefix": "Need to fix a billing error? See our guide on",
+  "auditReady": {
+    "label": "Audit-ready from the moment you create the invoice",
+    "title": "Stop worrying about audits before",
+    "titleAccent": "they happen.",
+    "description": "Every invoice you create in InvoiceMonk is automatically structured with immutable records that cannot be altered after sending. Gaps in your invoice sequence are impossible. Incorrect VAT treatment is flagged before the invoice goes out. Every document is traceable, timestamped, and stored.",
     "features": [
       "Immutable invoice records that cannot be altered after creation",
-      "Complete audit trail with timestamps and user identity",
-      "Hash-based integrity verification for every document",
-      "Regulatory-compliant storage and retention policies",
-      "Export-ready reports for auditors and regulators",
-      "Cryptographic proof of document authenticity",
-      "Digital signatures and cryptographic stamps (CSID) for every invoice",
-      "Unique Invoice Reference Numbers (IRN) for regulatory traceability"
+      "Complete audit trail with timestamps for every invoice",
+      "Sequential numbering with no gaps, ever",
+      "Tax-ready reports for any filing period",
+      "Cryptographic proof of documents automatically",
+      "Digital signature and cryptographic stamps (QES) for every invoice"
     ],
     "auditTrail": "Audit Trail",
     "logs": {
@@ -112,47 +113,103 @@
     }
   },
   "testimonial": {
-    "quote": "Invoicemonk transformed how I handle invoicing. I used to spend hours every week chasing payments — now it's completely automated.",
-    "name": "Chidi Okonkwo",
-    "title": "Founder",
-    "company": "TechBridge Solutions"
+    "quote": "I used to worry every time a client asked for an invoice. Now I know InvoiceMonk has the formatting, the reference numbers, the compliance, it handles it all.",
+    "name": "Verified InvoiceMonk user",
+    "title": "Freelancer"
   },
-  "blog": {
-    "title": "Learn more about invoicing",
-    "subtitle": "Tips and best practices to help you get paid faster."
+  "ricoTestimonial": {
+    "quote": "Your software is good, no reason for me to switch. It does what I need for a fair price. And your support is excellent.",
+    "name": "Rico Metzger",
+    "title": "Senior Software Engineer, Bulgaria",
+    "context": "Freelancer billing international clients across Europe. Renewed specifically for sequential numbering enforcement and correct VAT handling on cross-border EU invoices."
+  },
+  "howItWorks": {
+    "label": "From client to compliant invoice in three steps",
+    "steps": [
+      {
+        "title": "Add your client",
+        "body": "Enter your client's name, country, and billing address. InvoiceMonk saves these details so every future invoice for that client starts pre-configured for their country's requirements."
+      },
+      {
+        "title": "Build your invoice",
+        "body": "Add your line items, rate, and currency. InvoiceMonk applies the correct mandatory fields, VAT treatment, and compliance language for your client's country, automatically."
+      },
+      {
+        "title": "Send and track",
+        "body": "Send the invoice directly from InvoiceMonk. Track when it is opened, when payment is due, and receive automatic reminders. Your records update in real time."
+      }
+    ]
+  },
+  "comparison": {
+    "label": "InvoiceMonk vs generic invoicing tools",
+    "title": "Compliance is the difference",
+    "headers": {
+      "feature": "Feature",
+      "invoicemonk": "InvoiceMonk",
+      "generic": "Generic tools"
+    },
+    "rows": [
+      ["EU VAT mandatory fields", "Automatic", "Manual"],
+      ["Reverse charge notation", "Automatic", "Not available"],
+      ["Sequential numbering enforcement", "Enforced, gaps impossible", "Manual, gaps possible"],
+      ["Country-specific fields (KVK, SIRET, NIP, KRA PIN)", "Built in", "Not available"],
+      ["Small business exemption phrases", "Automatic", "Not available"],
+      ["VIES VAT number validation", "Yes", "No"],
+      ["Multi-currency invoicing", "Yes", "Sometimes"],
+      ["Credit notes with correct VAT reversal", "Yes", "Sometimes"],
+      ["Audit trail", "Complete", "Basic"],
+      ["Free plan", "Yes", "Sometimes"]
+    ]
   },
   "faq": {
     "title": "Invoicing questions, answered",
-    "subtitle": "Everything you need to know about Invoicemonk invoicing.",
-    "items": {
-      "isFree": {
-        "question": "Is Invoicemonk really free?",
-        "answer": "Yes! Our core invoicing features are completely free with no credit card required. You can send up to 5 invoices per month, track payments, and manage clients at no cost. Upgrade for unlimited invoicing. Premium features like advanced analytics and custom branding are available on paid plans."
+    "subtitle": "Everything you need to know about InvoiceMonk invoicing.",
+    "items": [
+      {
+        "question": "Is InvoiceMonk really free?",
+        "answer": "Yes. InvoiceMonk's free plan includes VAT-compliant invoicing with automatic reverse charge notation, sequential numbering enforcement, and country-specific mandatory fields, for every invoice, to every country. No time limit. No feature gates on compliance. Upgrade when your business grows."
       },
-      "getPaidFaster": {
-        "question": "How do I get paid faster with Invoicemonk?",
-        "answer": "Invoicemonk helps you get paid faster through several features: payment links that let clients pay online instantly, automatic payment reminders for overdue invoices, and professional templates that build trust with your clients."
+      {
+        "question": "How do I get started with InvoiceMonk?",
+        "answer": "Create a free account, add your business details and tax identification number, add your first client and their country, and create your first invoice. The compliance fields for your client's country appear automatically. The whole setup takes under five minutes."
       },
-      "customizeLogo": {
-        "question": "Can I customize my invoices with my logo?",
-        "answer": "Absolutely! You can add your business logo and choose from multiple professional templates. Your invoices will look like they came from an established business."
+      {
+        "question": "Can I customise my invoices with my logo?",
+        "answer": "Yes. You can add your business logo, choose your invoice colour, and customise the layout. All mandatory compliance fields remain in place regardless of design choices, compliance and branding are not in conflict."
       },
-      "auditTrail": {
-        "question": "How does the audit trail feature work?",
-        "answer": "Every action on your invoices is automatically logged with timestamps and user information. This includes when invoices are created, sent, viewed by clients, and paid. All records are immutable and can be exported for auditors."
+      {
+        "question": "Can I save invoice templates for different currencies?",
+        "answer": "Yes. InvoiceMonk saves your client profiles including their country, currency preference, and VAT number. Every new invoice for that client starts pre-configured. For different currencies, simply select the currency at the invoice level."
       },
-      "multiCurrency": {
-        "question": "Can I send invoices in different currencies?",
-        "answer": "Yes, Invoicemonk supports multi-currency invoicing. You can invoice clients in their preferred currency, and exchange rates are automatically updated for accurate conversions."
+      {
+        "question": "Does InvoiceMonk support withholding tax?",
+        "answer": "Yes. For markets where withholding tax applies, such as Kenya's 20% non-resident WHT, InvoiceMonk includes the correct notation on the invoice so your client's accountant knows how to process the deduction. You invoice the full agreed amount and the client handles the withholding."
       },
-      "paymentMethods": {
-        "question": "What payment methods can my clients use?",
-        "answer": "When our payments feature launches, clients will be able to pay via credit card, debit card, bank transfer, and popular digital wallets. For now, you can include your payment details on invoices for manual payments."
-      },
-      "eInvoicing": {
-        "question": "Does Invoicemonk support e-invoicing standards?",
-        "answer": "Yes. Invoicemonk supports e-invoicing standards including ZATCA Phase 2, Peppol, NF-e, KRA TIMS, and other regional mandates. Every invoice can include digital signatures, cryptographic stamps (CSID), and unique Invoice Reference Numbers (IRN) for full regulatory compliance."
+      {
+        "question": "Does InvoiceMonk integrate with accounting software?",
+        "answer": "InvoiceMonk is focused on invoicing and compliance. Export your invoice data, reports, and records at any time in standard formats compatible with your accounting software."
       }
-    }
+    ]
+  },
+  "bottomCta": {
+    "title": "Your invoices. Compliant by default. Free to start.",
+    "subtitle": "Join freelancers in Europe, East Africa, and Southeast Asia who send invoices that hold up, in every country, for every client, from day one.",
+    "cta": "Create your free account",
+    "smallPrint": "No credit card required. Free plan available. Upgrade when you are ready.",
+    "trust": [
+      "VAT-compliant invoices",
+      "Sequential numbering enforced",
+      "30+ countries supported",
+      "Audit-ready from day one"
+    ]
+  },
+  "related": {
+    "title": "Keep reading",
+    "links": [
+      { "label": "EU VAT invoice requirements for freelancers", "to": "/blog/eu-vat-invoice-requirements-freelancers" },
+      { "label": "How to invoice German clients", "to": "/blog/how-to-invoice-german-clients-freelancer" },
+      { "label": "Cross-border VAT and reverse charge explained", "to": "/blog/cross-border-vat-invoicing-freelancers-eu" },
+      { "label": "InvoiceMonk vs Wave", "to": "/blog/invoicemonk-vs-wave" }
+    ]
   }
 }

@@ -1,108 +1,129 @@
 {
   "seo": {
-    "title": "Invoicing for Creatives & Designers | Invoicemonk",
-    "description": "Professional invoicing for graphic designers, illustrators, videographers, and creative freelancers. Project billing, branded invoices, and payment tracking."
+    "title": "Invoicing software for creative professionals who work internationally — InvoiceMonk",
+    "description": "Send VAT-compliant invoices to clients in Germany, France, Netherlands, Kenya and 30+ countries. Project billing, milestone payments, and multi-currency — built for creatives."
   },
   "hero": {
     "badge": "For Creatives",
-    "title": "Invoicing as creative as your work",
-    "accentWord": "creative",
-    "description": "Beautiful, branded invoices for designers, illustrators, and creative professionals. Bill per project, track payments, and focus on your craft.",
-    "primaryCta": "Start Free",
-    "secondaryCta": "View Pricing",
-    "trustBadge": "Trusted by designers and creative professionals"
+    "title": "Invoicing built for creatives who work with clients everywhere",
+    "accentWord": "creatives",
+    "description": "Whether you are a designer in Bulgaria billing a German agency, a photographer in the Philippines billing a UK brand, or a copywriter anywhere billing clients across Europe — InvoiceMonk handles the compliance so you can focus on the work.",
+    "primaryCta": "Start free today",
+    "secondaryCta": "View pricing",
+    "trustBadge": "Trusted by designers, photographers, copywriters, and creative professionals billing clients across 30+ countries."
   },
-  "benefits": {
-    "heading": "Built for creative professionals",
-    "subheading": "Spend less time on paperwork, more time creating — with tools designed for how creatives actually work",
-    "items": [
-      { "title": "Project-Based Billing", "description": "Invoice per project with deposits, milestones, and final payments. Perfect for design sprints, brand identity projects, and creative campaigns where billing happens in stages." },
-      { "title": "Hourly & Flat Rate", "description": "Bill by the hour or per project. Mix both billing types on a single invoice — flat rate for creative direction, hourly for execution. Clients appreciate the transparency." },
-      { "title": "On-Brand Invoices", "description": "Create invoices that look as good as your creative work. Custom branding and professional templates ensure every client touchpoint reinforces your identity and attention to detail." },
-      { "title": "Financial Clarity", "description": "Track income across clients and projects. Know exactly what you're earning, what's outstanding, and which clients are your most valuable. Make informed decisions about pricing and capacity." }
+  "trustBar": [
+    "Project and milestone billing",
+    "EU VAT compliance built in",
+    "Multi-currency invoicing",
+    "Audit-ready records"
+  ],
+  "problem": {
+    "label": "The invoice problem every creative working internationally has faced",
+    "paragraphs": [
+      "You delivered the work. The client loved it. Now you need to get paid.",
+      "You send the invoice. Three days later their finance team replies: the invoice is missing the Leistungsdatum. Or the BTW-ID is wrong. Or there is no reverse charge notation. Or the TVA exemption phrase is missing. Or the invoice number is out of sequence because you deleted a draft two months ago.",
+      "You fix it manually, send it again, and wait another week for payment.",
+      "This is not a creative problem. It is a compliance problem — and it happens every time you work with a new international client whose country has invoicing rules your tool has never heard of.",
+      "InvoiceMonk was built specifically for this. You do the creative work. InvoiceMonk handles the compliance."
     ]
   },
   "useCases": {
-    "heading": "How creatives use Invoicemonk",
-    "subheading": "Whether you're a designer, illustrator, videographer, or copywriter — here's how Invoicemonk fits your creative workflow",
+    "heading": "Built for every creative billing structure",
     "items": [
-      { "title": "Brand & Identity Projects", "description": "Send a deposit invoice after the discovery session. Deliver logo concepts, collect feedback, and send the final balance invoice with the complete brand package. Each line item shows deliverables clearly — logo files, brand guidelines, social templates — so clients see the full scope." },
-      { "title": "Retainer Agreements", "description": "Set up recurring monthly invoices for ongoing design, content, or social media management retainers. Invoicemonk generates and sends each invoice automatically, so you never miss a billing cycle. Perfect for creatives with steady client relationships." },
-      { "title": "One-Off Commissions", "description": "For illustration commissions, video edits, or copywriting gigs, create a quick invoice with the project description and rate. Send it immediately after delivery while the value is fresh in the client's mind. Track payment status and let reminders handle the follow-up." }
+      { "title": "Project-based billing", "description": "Invoice for a completed project — brand identity, website, campaign, editorial shoot, written content — with a single VAT-compliant invoice that includes the mandatory fields for your client's country. One invoice, one payment, no compliance surprises." },
+      { "title": "Milestone payments", "description": "Split large projects into deposit, progress, and final invoices. Each milestone invoice is sequentially numbered, VAT-compliant, and structured for the client's jurisdiction. Your client knows what they are paying and when — and every document is audit-ready." },
+      { "title": "Retainer billing", "description": "Set up recurring monthly invoices for ongoing clients — social media management, content creation, design retainers, photography packages. InvoiceMonk generates each invoice automatically on schedule, with the correct compliance fields for that client's country applied every time." },
+      { "title": "Multi-client, multi-currency billing", "description": "Bill a German agency in EUR, a UK brand in GBP, and a US startup in USD — all from the same account. Each invoice carries the correct mandatory fields and VAT treatment for the client's country, regardless of currency." }
+    ]
+  },
+  "countries": {
+    "heading": "Your clients are in different countries. InvoiceMonk knows what each one requires.",
+    "intro": "Select your client's country when you add them to InvoiceMonk. The mandatory fields for that country appear on every invoice you create for them — automatically.",
+    "items": [
+      { "flag": "🇩🇪", "name": "Germany", "details": "Leistungsdatum, Steuernummer or USt-IdNr., Kleinunternehmer exemption phrase, sequential numbering, Stornorechnung for corrections" },
+      { "flag": "🇳🇱", "name": "Netherlands", "details": "BTW-ID (never OB-nummer), KVK number, BTW verlegd notation, specific payment due date, KOR exemption phrase" },
+      { "flag": "🇫🇷", "name": "France", "details": "SIRET number (14 digits), client SIRET, EI designation, TVA status, franchise en base phrase, mandatory late payment clause" },
+      { "flag": "🇬🇧", "name": "United Kingdom", "details": "UK VAT number, reverse charge for cross-border services, Making Tax Digital compatible invoices" },
+      { "flag": "🇧🇬", "name": "Bulgaria", "details": "Sequential numbering enforcement, EU reverse charge notation, Article 196 EU VAT Directive wording" },
+      { "flag": "🇰🇪", "name": "Kenya", "details": "KRA PIN field, reverse charge under Kenya VAT Act Cap 476, withholding tax notation" },
+      { "flag": "🇵🇭", "name": "Philippines", "details": "BIR-compliant Sales Invoice fields, TIN with branch code, zero-rated notation for international clients" },
+      { "flag": "🌍", "name": "All EU countries", "details": "Article 196 reverse charge notation, VIES VAT number field, sequential numbering, 15th of month rule" }
+    ],
+    "closing": "Working with a client in a country not listed? InvoiceMonk applies the international B2B compliance baseline — reverse charge notation, both VAT number fields, and sequential numbering — for any cross-border invoice."
+  },
+  "features": {
+    "heading": "Everything a creative professional needs to get paid — and stay compliant",
+    "items": [
+      { "title": "Invoice in minutes — not hours", "description": "Add your client, select their country, add your line items and rate. InvoiceMonk applies the correct mandatory fields for that country automatically. A compliant international invoice takes the same time as a domestic one. Send it as a PDF or a direct payment link." },
+      { "title": "Sequential numbering — enforced automatically", "description": "EU tax authorities treat gaps in invoice numbers as an audit red flag. InvoiceMonk assigns every invoice the next number in an unbroken sequence — automatically. You cannot skip or delete a number, even accidentally. Your records are clean by default." },
+      { "title": "Reverse charge — the right wording, every time", "description": "When you invoice a VAT-registered business in another EU country, InvoiceMonk detects the cross-border transaction and generates the Article 196 reverse charge notation automatically. No research. No wrong wording. No rejected invoices." },
+      { "title": "VAT exemption phrases — in the right language", "description": "If you operate under a VAT exemption threshold, InvoiceMonk generates the correct exemption phrase for your client's country — in the legally required language. Germany's §19 UStG phrase. France's article 293 B du CGI phrase. The Netherlands' artikel 25 Wet OB phrase. All automatic." },
+      { "title": "Automatic payment reminders", "description": "Set payment terms once and InvoiceMonk sends automatic reminders before and after the due date. You spend less time chasing payments and more time on the work that pays you." },
+      { "title": "Credit notes — without breaking your sequence", "description": "Scope changed after the invoice was sent? Client cancelled? InvoiceMonk generates a credit note from the original invoice — referencing it correctly, reversing the VAT, and keeping your sequence intact. Three clean documents in the audit trail every time." }
     ]
   },
   "challenges": {
-    "heading": "Common creative business challenges — solved",
-    "subheading": "We built Invoicemonk around the real problems creatives face every day",
+    "heading": "Common challenges creative professionals face — solved",
     "items": [
-      { "problem": "Starting creative projects without securing payment, then chasing clients who vanish", "solution": "Send deposit invoices before starting work. Clients pay upfront, confirming their commitment and protecting your time and creative energy." },
-      { "problem": "Invoices that look generic and unprofessional next to your stunning portfolio work", "solution": "Branded templates with your logo and colours ensure every invoice is an extension of your creative identity — polished and memorable." },
-      { "problem": "Losing track of which projects are paid, which have outstanding balances, and what you actually earned last month", "solution": "A unified dashboard shows every invoice status, total income by client, and outstanding balances — updated in real time." },
-      { "problem": "Spending evenings on admin instead of creating — writing invoices, chasing payments, filing receipts", "solution": "Automated reminders, recurring invoices, and automatic receipt generation handle the admin so you can focus on creative work." }
+      { "problem": "My EU client's accountant keeps rejecting my invoices for missing fields I do not know about.", "solution": "InvoiceMonk builds the mandatory fields for your client's country into the invoice before you can send it without them. A German client's invoice will always have the Leistungsdatum. A Dutch client's invoice will always have the BTW-ID and KVK number. You never need to research the rules — the fields appear automatically." },
+      { "problem": "I am not sure whether to charge VAT when billing an international client.", "solution": "For cross-border B2B EU invoices, the reverse charge mechanism applies — you do not charge VAT. InvoiceMonk detects the cross-border transaction and applies the reverse charge automatically. For domestic invoices, your local VAT rate or exemption phrase is applied based on your registration status." },
+      { "problem": "I deleted an invoice I sent by mistake and now my numbers are out of sequence.", "solution": "Deleting a sent invoice creates a gap in your sequence — an audit risk in every EU country. The correct approach is a credit note. InvoiceMonk generates credit notes directly from the original invoice. Going forward, gaps are impossible — the system enforces the sequence automatically." },
+      { "problem": "I work with clients in multiple countries and each one seems to want something different on the invoice.", "solution": "InvoiceMonk stores your client's country, currency, and VAT number. Every invoice for that client is automatically configured for their country's requirements. Managing five clients in five countries does not require five separate research sessions." },
+      { "problem": "My Kenyan client deducted 20% from my payment without warning.", "solution": "Kenya applies 20% withholding tax on professional fees paid to non-resident suppliers. InvoiceMonk includes the withholding tax notation on Kenyan client invoices so you know what to expect before the payment arrives. Factor it into your rate — or confirm whether a Double Taxation Agreement with your country reduces the rate." }
     ]
   },
-  "workflow": {
-    "heading": "How it works",
-    "subheading": "From project brief to getting paid — in four simple steps",
-    "steps": [
-      { "title": "Scope the project and quote", "description": "After the client brief, add their details to Invoicemonk and send a deposit invoice outlining the project scope, deliverables, and payment terms. The client receives a professional email with your branding and a clear payment link." },
-      { "title": "Create and deliver", "description": "Focus on the creative work. When you deliver final assets, create the balance invoice in under two minutes. Add line items for each deliverable — logo files, brand guidelines, social media templates — so the client sees the full value of what they received." },
-      { "title": "Get paid on time", "description": "Invoicemonk sends automatic reminders before and after the due date. You can see when the client opens the invoice. Most clients pay within a week when reminders are active — no awkward follow-up conversations needed." },
-      { "title": "Track and grow", "description": "Review income reports to see which services and clients are most profitable. Use expense tracking to understand your true margins. At tax time, export everything your accountant needs in one click." }
-    ]
-  },
-  "whyChoose": {
-    "heading": "Why creatives choose Invoicemonk over alternatives",
-    "paragraphs": [
-      "Most invoicing tools are built for accountants, not artists. They're cluttered with features you don't need and missing the ones you do — like deposit workflows, branded templates, and project-based billing. Creatives need something that's fast, beautiful, and fits the way they actually work.",
-      "Invoicemonk takes under two minutes to create and send an invoice. Your branding carries through every document, so the professionalism clients see in your portfolio extends to your business communications. Deposit invoices protect you from scope creep and no-shows. Automatic reminders handle the uncomfortable payment conversations.",
-      "And because every invoice includes a verification QR code and immutable audit trail, your corporate clients get the compliance documentation their finance teams require — without you lifting a finger."
-    ]
+  "testimonial": {
+    "quote": "Your software is good, no reason for me to switch. It does what I need for a fair price. And your support is excellent.",
+    "author": "Rico Metzger",
+    "role": "Senior Software Engineer — Bulgaria",
+    "context": "Creative professional billing international clients across Europe. Renewed specifically for sequential numbering enforcement and correct VAT handling on cross-border EU invoices."
   },
   "checklist": {
-    "heading": "What creatives get with Invoicemonk",
-    "items": [
+    "heading": "Everything in your InvoiceMonk account",
+    "columnA": [
+      "Professional compliant invoices",
+      "Project and milestone billing",
+      "Retainer and recurring billing",
       "Unlimited professional invoices",
-      "Project-based billing",
-      "Deposit & milestone invoicing",
-      "Custom branding & logo",
-      "Hourly and flat-rate billing",
-      "Automatic payment reminders",
-      "Expense tracking",
-      "Client management",
-      "Income reports",
+      "Multi-currency support",
+      "Automatic payment reminders"
+    ],
+    "columnB": [
+      "Reverse charge automation",
+      "Country-specific mandatory fields",
+      "Sequential numbering enforcement",
+      "Credit note generation",
       "Tax-compliant records",
-      "Recurring invoice automation",
-      "Multi-currency support"
+      "Free to start — no credit card"
     ]
   },
-  "testimonials": {
-    "heading": "Trusted by creatives",
-    "items": [
-      { "quote": "As a graphic designer, my invoices need to look professional. Invoicemonk lets me create branded invoices in seconds — they match my portfolio aesthetic and clients always comment on how polished everything looks.", "author": "Yemi D.", "role": "Graphic Designer" },
-      { "quote": "I juggle multiple creative projects simultaneously. The project-based invoicing and payment tracking keep everything organized. I can see at a glance which clients owe me and which projects are profitable.", "author": "Tola F.", "role": "Freelance Illustrator" },
-      { "quote": "The deposit invoice feature changed my business. I used to start projects without payment, and sometimes clients would ghost. Now I always collect 50% upfront before starting any creative work.", "author": "Kate R.", "role": "Brand Designer" }
-    ]
-  },
-  "faqs": [
-    { "question": "Can I invoice for different creative services on one invoice?", "answer": "Yes. Add multiple line items for design, illustration, copywriting, video editing, or any creative service on a single invoice. Each line item can have its own rate, quantity, and description — so clients see exactly what they're paying for." },
-    { "question": "Does Invoicemonk support project-based and hourly billing?", "answer": "Absolutely. Bill per project with flat rates, or track hours and bill based on time spent. You can mix both on a single invoice — for example, a flat fee for branding strategy plus hourly rates for execution." },
-    { "question": "Can I add my creative branding to invoices?", "answer": "Yes. Upload your logo and create invoices that reflect your creative identity. Your invoices become an extension of your portfolio — consistent, professional, and memorable." },
-    { "question": "How do deposit invoices work for creative projects?", "answer": "Create a deposit invoice for upfront payment (typically 30–50% of the project), then a final invoice for the balance upon project completion. Invoicemonk tracks both against the same client, so you always know what's outstanding." },
-    { "question": "Is there a free plan for creative freelancers?", "answer": "Yes! The free tier includes 5 invoices and 5 receipts per month with no credit card required. Perfect for creatives who are just getting started or taking on occasional projects." },
-    { "question": "Can I set up recurring invoices for retainer clients?", "answer": "Yes. Set up automatic monthly invoices for retainer agreements — common for ongoing design, content creation, or social media management contracts. Invoicemonk generates and sends them on schedule." },
-    { "question": "Does Invoicemonk handle international clients?", "answer": "Yes. Multi-currency support lets you invoice international clients in their local currency. Each invoice shows the correct currency symbol and amount, and your payment details for that currency." }
-  ],
   "faqHeading": "Frequently asked questions",
+  "faqs": [
+    { "question": "Is InvoiceMonk suitable for freelance creatives — not just agencies?", "answer": "Yes. InvoiceMonk is built specifically for independent professionals — solo designers, photographers, copywriters, illustrators, videographers, and other creatives who work with clients directly. The free plan includes all compliance features with no limits on invoicing volume." },
+    { "question": "Can I invoice for creative projects in different currencies?", "answer": "Yes. Invoice in EUR, GBP, USD, CHF, AUD, or any currency your client pays in. The VAT compliance fields and country-specific mandatory fields apply correctly regardless of currency. A EUR invoice to a German client and a GBP invoice to a UK brand both carry the correct compliance structure." },
+    { "question": "How do I handle a deposit invoice followed by a final invoice?", "answer": "Create a deposit invoice for the agreed upfront amount. InvoiceMonk assigns it the next sequential number. When the project is complete, create the final invoice — InvoiceMonk assigns the next number in sequence. Both invoices are stored in the client's history with their payment status. Your audit trail is clean from start to finish." },
+    { "question": "Can I set up recurring invoices for retainer clients?", "answer": "Yes. Set the billing amount, frequency, and start date once. InvoiceMonk generates and sends the invoice automatically on schedule — with the correct compliance fields for your client's country applied every time. You can adjust the amount, pause, or cancel at any time." },
+    { "question": "What happens if a client disputes a project invoice?", "answer": "Create a credit note directly from the disputed invoice in InvoiceMonk. The credit note references the original by number and date, reverses the VAT correctly, and keeps your sequence intact. If a revised invoice is needed, it gets the next number in your sequence. Your records remain clean throughout the dispute." },
+    { "question": "Is there a free plan for creative professionals?", "answer": "Yes. InvoiceMonk's free plan includes VAT-compliant invoicing, sequential numbering enforcement, reverse charge automation, and country-specific mandatory fields — with no time limit and no feature gates on compliance. Upgrade when your billing volume grows." }
+  ],
+  "bottomCta": {
+    "heading": "Spend less time on invoicing. Get paid without the compliance stress.",
+    "description": "Join creative professionals across Europe, East Africa, and Southeast Asia who use InvoiceMonk to send invoices that hold up — in every country, for every client.",
+    "button": "Start free today",
+    "fineprint": "No credit card required. Free plan available. Upgrade when you are ready.",
+    "trustSignals": [
+      "VAT-compliant invoices",
+      "Project and milestone billing",
+      "30+ countries supported",
+      "Free to start"
+    ]
+  },
   "relatedReading": "Related reading",
   "relatedLinks": {
-    "graphicDesigner": "Graphic Designer Career Guide",
-    "pricing": "Pricing Your Services",
-    "portfolio": "Portfolio Guide"
-  },
-  "cta": {
-    "heading": "Ready to level up your creative business?",
-    "description": "Join creative professionals who trust Invoicemonk for their invoicing.",
-    "button": "Get Started Free"
+    "euVat": "EU VAT invoice requirements for freelancers",
+    "germanClients": "How to invoice German clients",
+    "reverseCharge": "Cross-border VAT and reverse charge explained",
+    "vsWave": "InvoiceMonk vs Wave"
   }
 }

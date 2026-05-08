@@ -38,8 +38,8 @@ export const pageSEO: Record<string, PageSEO> = {
     changefreq: 'weekly',
   },
   '/payments': {
-    getTitle: (locale) => `Accept Online Payments for ${locale.content.seo.targetAudience} Businesses | Invoicemonk`,
-    getDescription: (locale) => `Get paid faster with ${locale.content.paymentGateway} integration. Accept online payments directly from your invoices. Built for ${locale.content.seo.region}.`,
+    getTitle: () => `Get paid faster on international invoices — InvoiceMonk`,
+    getDescription: () => `Accept payments from clients in Europe, East Africa, and Southeast Asia. Multi-currency settlement, low international transfer fees, and automatic reconciliation — built into your invoicing workflow.`,
     ogType: 'website',
     priority: 0.8,
     changefreq: 'weekly',
