@@ -19,6 +19,8 @@ interface SectionWithParas { title: string; paragraphs: string[]; }
 interface Scenario { title: string; intro: string; withCompetitor: SectionWithParas; withInvoicemonk: SectionWithParas; }
 interface SourceItem { label: string; url: string; }
 interface SourcesBlock { title: string; items: SourceItem[]; }
+interface FeatureGroup { title: string; rows: FeatureRow[]; }
+interface SideBySide { title: string; rows: FeatureRow[]; }
 
 export default function InvoicemonkVsAtoinvoice() {
   const { t } = useTranslation('compareAtoinvoice');
