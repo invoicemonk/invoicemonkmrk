@@ -19,6 +19,8 @@ interface SectionWithParas { title: string; paragraphs: string[]; }
 interface Scenario { title: string; intro: string; withCompetitor: SectionWithParas; withInvoicemonk: SectionWithParas; }
 interface SourceItem { label: string; url: string; }
 interface SourcesBlock { title: string; items: SourceItem[]; }
+interface FeatureGroup { title: string; rows: FeatureRow[]; }
+interface SideBySide { title: string; rows: FeatureRow[]; }
 
 export default function InvoicemonkVsAtoinvoice() {
   const { t } = useTranslation('compareAtoinvoice');
@@ -40,6 +42,8 @@ export default function InvoicemonkVsAtoinvoice() {
   const bottomLine = t('bottomLine', { returnObjects: true, defaultValue: null }) as SectionWithParas | null;
   const sources = t('sources', { returnObjects: true, defaultValue: null }) as SourcesBlock | null;
   const lastUpdated = t('lastUpdated', { defaultValue: '' }) as string;
+  const featureGroups = t('featureGroups', { returnObjects: true, defaultValue: null }) as FeatureGroup[] | null;
+  const sideBySide = t('sideBySide', { returnObjects: true, defaultValue: null }) as SideBySide | null;
 
   return (
     <Layout>
@@ -93,7 +97,19 @@ export default function InvoicemonkVsAtoinvoice() {
             </div>
           )}
 
-          <ComparisonTable competitorName="AtoInvoice" features={features} />
+          {featureGroups && featureGroups.length > 0 ? (
+            <div className="space-y-10">
+              <h2 className="text-heading-lg font-bold text-foreground text-center">Feature Comparison</h2>
+              {featureGroups.map((group) => (
+                <div key={group.title}>
+                  <h3 className="text-lg font-semibold text-foreground mb-4">{group.title}</h3>
+                  <ComparisonTable competitorName="AtoInvoice" features={group.rows} />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <ComparisonTable competitorName="AtoInvoice" features={features} />
+          )}
 
           <div className="mt-16">
             <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('pricing.title')}</h2>
@@ -189,6 +205,15 @@ export default function InvoicemonkVsAtoinvoice() {
           <div className="space-y-6">{faqs.map((faq, i) => (<div key={i}><h3 className="font-semibold text-foreground mb-2">{faq.question}</h3><p className="text-muted-foreground">{faq.answer}</p></div>))}</div>
         </div>
       </section>
+
+      {sideBySide && (
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+            <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{sideBySide.title}</h2>
+            <ComparisonTable competitorName="AtoInvoice" features={sideBySide.rows} />
+          </div>
+        </section>
+      )}
 
       {bottomLine && (
         <section className="py-16 lg:py-24">
