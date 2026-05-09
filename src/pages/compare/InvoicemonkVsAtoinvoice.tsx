@@ -97,7 +97,19 @@ export default function InvoicemonkVsAtoinvoice() {
             </div>
           )}
 
-          <ComparisonTable competitorName="AtoInvoice" features={features} />
+          {featureGroups && featureGroups.length > 0 ? (
+            <div className="space-y-10">
+              <h2 className="text-heading-lg font-bold text-foreground text-center">Feature Comparison</h2>
+              {featureGroups.map((group) => (
+                <div key={group.title}>
+                  <h3 className="text-lg font-semibold text-foreground mb-4">{group.title}</h3>
+                  <ComparisonTable competitorName="AtoInvoice" features={group.rows} />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <ComparisonTable competitorName="AtoInvoice" features={features} />
+          )}
 
           <div className="mt-16">
             <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('pricing.title')}</h2>
