@@ -206,6 +206,15 @@ export default function InvoicemonkVsAtoinvoice() {
         </div>
       </section>
 
+      {sideBySide && (
+        <section className="py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+            <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{sideBySide.title}</h2>
+            <ComparisonTable competitorName="AtoInvoice" features={sideBySide.rows} />
+          </div>
+        </section>
+      )}
+
       {bottomLine && (
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
