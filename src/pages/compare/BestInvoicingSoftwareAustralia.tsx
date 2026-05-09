@@ -20,7 +20,7 @@ const tools = [
   {
     name: 'Xero',
     bestFor: 'Established businesses wanting full accounting',
-    price: 'From AU$29/mo',
+    price: 'From $15/mo',
     highlight: false,
     pros: ['Australia\'s leading accounting platform', 'Direct bank feeds', 'BAS lodgement integration', 'Extensive app marketplace'],
     cons: ['No free plan', 'Expensive for basic invoicing', 'Complex for freelancers', 'Invoice limits on Starter plan'],

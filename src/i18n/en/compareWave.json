@@ -10,7 +10,7 @@
   },
   "overview": [
     "Short answer: Invoicemonk is the better choice if you live anywhere outside the US or Canada, invoice in any non-USD/CAD currency, or need an immutable audit trail and credit notes. Wave is the better choice only if you are a US or Canada-based solo freelancer, invoice exclusively in USD or CAD, and need free US payroll add-ons.",
-    "Geography is the deciding factor. Wave has restricted new signups to the US and Canada since 2023 and supports invoicing only in USD or CAD. Invoicemonk works in every country with internet access and includes multi-currency on every plan — Starter (free, 5 invoices/mo), Pro ($29/mo, unlimited), SME ($129/mo, unlimited users) and Biz (custom, e-invoicing & government submission).",
+    "Geography is the deciding factor. Wave has restricted new signups to the US and Canada since 2023 and supports invoicing only in USD or CAD. Invoicemonk works in every country with internet access and includes multi-currency on every plan — Starter (free, 5 invoices/mo), Pro ($15/mo, unlimited), SME ($49/mo, unlimited users) and Biz (custom, e-invoicing & government submission).",
     "Compliance is the second gap. Every Invoicemonk invoice is hashed into an immutable audit trail and carries a QR code anyone can scan to verify authenticity — features that ship on the free Starter plan. Wave does not offer credit notes (you have to issue a negative invoice as a workaround), an immutable audit log, or invoice verification."
   ],
   "features": [

@@ -10,8 +10,8 @@
   },
   "overview": [
     "Short answer: this isn't apples-to-apples. Stripe is a payment processor with a basic invoicing add-on (Stripe Invoicing) that charges 0.4–0.5% per paid invoice on top of standard payment fees. Invoicemonk is a full invoicing platform with branded templates, estimates, expenses, accounting and an immutable audit trail — and it integrates with Stripe for card payments.",
-    "Pricing tells the story. Invoicemonk: Starter $0 (5 invoices/mo), Pro $29/mo (unlimited invoices, 5 users), SME $129/mo (unlimited users), Biz custom (e-invoicing & government submission) — invoicing is included on every tier with no per-invoice fee. Stripe Invoicing: 0.4% per paid invoice (or 0.5% for Stripe-hosted payment links) plus the standard 2.9% + $0.30 card processing fee.",
-    "On 50 invoices/month at $500 each ($25,000 in monthly billing), Stripe Invoicing adds $100–$125/month in invoicing fees alone — on top of payment processing. Invoicemonk Pro replaces that with a flat $29/month, throws in expenses, accounting, credit notes and an immutable audit trail, and still uses Stripe to process the cards."
+    "Pricing tells the story. Invoicemonk: Starter $0 (5 invoices/mo), Pro $15/mo (unlimited invoices, 5 users), SME $49/mo (unlimited users), Biz custom (e-invoicing & government submission) — invoicing is included on every tier with no per-invoice fee. Stripe Invoicing: 0.4% per paid invoice (or 0.5% for Stripe-hosted payment links) plus the standard 2.9% + $0.30 card processing fee.",
+    "On 50 invoices/month at $500 each ($25,000 in monthly billing), Stripe Invoicing adds $100–$125/month in invoicing fees alone — on top of payment processing. Invoicemonk Pro replaces that with a flat $15/month, throws in expenses, accounting, credit notes and an immutable audit trail, and still uses Stripe to process the cards."
   ],
   "features": [
     { "name": "Native payment processing", "invoicemonk": "Via Stripe / Paystack / PayPal", "competitor": "Yes" },
@@ -34,8 +34,8 @@
       "title": "Invoicemonk pricing (2026)",
       "plans": [
         { "name": "Starter", "price": "$0/mo" },
-        { "name": "Pro", "price": "$29/mo" },
-        { "name": "SME", "price": "$129/mo" },
+        { "name": "Pro", "price": "$15/mo" },
+        { "name": "SME", "price": "$49/mo" },
         { "name": "Biz", "price": "Custom" }
       ],
       "note": "Invoicing has no per-invoice fee on any plan. Card processing fees go directly to your gateway (Stripe / Paystack / Flutterwave) — Invoicemonk takes no markup."
@@ -50,7 +50,7 @@
       ],
       "note": "Stripe charges invoicing fees AND payment processing fees. A $1,000 invoice paid by card costs $34 ($4 invoicing + $30 processing). No expenses, accounting or estimates included."
     },
-    "summary": "Worked example — 50 invoices/month averaging $500 each = $25,000 monthly billing. Invoicemonk Pro: $29/mo flat for invoicing (you still pay Stripe ~$740/mo for card processing). Stripe Invoicing: $100–$125/mo invoicing fees + the same ~$740/mo processing. Invoicemonk saves $70–$95/month on invoicing alone."
+    "summary": "Worked example — 50 invoices/month averaging $500 each = $25,000 monthly billing. Invoicemonk Pro: $15/mo flat for invoicing (you still pay Stripe ~$740/mo for card processing). Stripe Invoicing: $100–$125/mo invoicing fees + the same ~$740/mo processing. Invoicemonk saves $85–$110/month on invoicing alone."
   },
   "choose": {
     "invoicemonk": {
@@ -91,7 +91,7 @@
       { "question": "Can I use Invoicemonk with Stripe?", "answer": "Yes. Invoicemonk integrates natively with Stripe so you can send branded invoices through Invoicemonk and accept card payments through your existing Stripe account at your existing rates. You also get expenses, accounting and an audit trail Stripe doesn't provide." },
       { "question": "Does Stripe offer invoicing?", "answer": "Yes — Stripe Invoicing. It charges 0.4% per paid invoice, or 0.5% for Stripe-hosted payment links, on top of standard 2.9% + $0.30 card processing. The invoicing UI is intentionally minimal and aimed at developer-led businesses, not service businesses that need branded templates, estimates or expense tracking." },
       { "question": "Is Stripe Invoicing free?", "answer": "No. Stripe charges 0.4–0.5% per paid invoice on top of standard 2.9% + $0.30 payment processing. On $25,000/month in invoicing that's $100–$125/month in invoicing fees alone. Invoicemonk's invoicing is free on every plan — including the $0 Starter — with no per-invoice markup." },
-      { "question": "Which is cheaper: Stripe Invoicing or Invoicemonk?", "answer": "Invoicemonk, almost always. Invoicemonk Pro is $29/mo flat with no per-invoice fee. Stripe Invoicing's 0.4–0.5% per-invoice surcharge typically exceeds $29/mo once monthly invoicing crosses ~$6,000–$7,500. Above that volume, Invoicemonk saves money every month — and includes expenses, accounting, audit trail and QR-verified invoices Stripe doesn't." },
+      { "question": "Which is cheaper: Stripe Invoicing or Invoicemonk?", "answer": "Invoicemonk, almost always. Invoicemonk Pro is $15/mo flat with no per-invoice fee. Stripe Invoicing's 0.4–0.5% per-invoice surcharge typically exceeds $15/mo once monthly invoicing crosses ~$3,000–$3,750. Above that volume, Invoicemonk saves money every month — and includes expenses, accounting, audit trail and QR-verified invoices Stripe doesn't." },
       { "question": "Do I need Stripe if I use Invoicemonk?", "answer": "Not necessarily. Invoicemonk supports bank transfers, PayPal, Razorpay, Paystack and Flutterwave in addition to Stripe. Stripe is the recommended choice if you need card payments in the US, UK, EU, Canada or Australia; Razorpay is strong for India, MercadoPago for LATAM, and Paystack/Flutterwave for African markets." },
       { "question": "Does Invoicemonk have an audit trail Stripe doesn't?", "answer": "Yes. Invoicemonk hashes every invoice, payment, edit and credit note into an immutable audit log on every plan. Stripe records payment events but does not produce a cryptographic, hash-chained invoice audit trail you can hand to a tax authority." }
     ]

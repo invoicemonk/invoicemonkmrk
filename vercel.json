@@ -1,6 +1,76 @@
 {
   "redirects": [
     {
+      "source": "/blog/credit-note-guide-when-how-to-issue",
+      "destination": "/en/blog/credit-notes-and-invoice-corrections",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/credit-note-guide-when-how-to-issue",
+      "destination": "/:lang/blog/credit-notes-and-invoice-corrections",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/cash-flow-forecasting-small-businesses",
+      "destination": "/en/blog/cash-flow-forecasting-for-freelancers",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/cash-flow-forecasting-small-businesses",
+      "destination": "/:lang/blog/cash-flow-forecasting-for-freelancers",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/automatic-payment-reminders-getting-paid",
+      "destination": "/en/blog/setting-up-automatic-payment-reminders",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/automatic-payment-reminders-getting-paid",
+      "destination": "/:lang/blog/setting-up-automatic-payment-reminders",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-to-price-project-work-fixed-fee",
+      "destination": "/en/blog/how-to-price-project-work",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/how-to-price-project-work-fixed-fee",
+      "destination": "/:lang/blog/how-to-price-project-work",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/invoice-numbering-systems-guide",
+      "destination": "/en/blog/invoice-numbering-best-practices",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/invoice-numbering-systems-guide",
+      "destination": "/:lang/blog/invoice-numbering-best-practices",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-to-handle-invoice-disputes",
+      "destination": "/en/blog/invoice-disputes-how-to-handle-professionally",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/how-to-handle-invoice-disputes",
+      "destination": "/:lang/blog/invoice-disputes-how-to-handle-professionally",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/recurring-invoice-setup-guide",
+      "destination": "/en/blog/recurring-invoices-automating-billing",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/recurring-invoice-setup-guide",
+      "destination": "/:lang/blog/recurring-invoices-automating-billing",
+      "statusCode": 301
+    },
+    {
       "source": "/:path((?!.*\\.).*)/",
       "destination": "/:path",
       "permanent": true
@@ -16,15 +86,51 @@
       "destination": "https://invoicemonk.com/:path*",
       "statusCode": 301
     },
-    { "source": "/de/:path*", "destination": "/en/:path*", "permanent": true },
-    { "source": "/es/:path*", "destination": "/en/:path*", "permanent": true },
-    { "source": "/fr/:path*", "destination": "/en/:path*", "permanent": true },
-    { "source": "/pt/:path*", "destination": "/en/:path*", "permanent": true },
-    { "source": "/pt-BR/:path*", "destination": "/en/:path*", "permanent": true },
-    { "source": "/de", "destination": "/en", "permanent": true },
-    { "source": "/es", "destination": "/en", "permanent": true },
-    { "source": "/fr", "destination": "/en", "permanent": true },
-    { "source": "/pt", "destination": "/en", "permanent": true },
+    {
+      "source": "/de/:path*",
+      "destination": "/en/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/es/:path*",
+      "destination": "/en/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/fr/:path*",
+      "destination": "/en/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/pt/:path*",
+      "destination": "/en/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/pt-BR/:path*",
+      "destination": "/en/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/de",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/es",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/fr",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/pt",
+      "destination": "/en",
+      "permanent": true
+    },
     {
       "source": "/us/:path*",
       "destination": "/en/:path*",
@@ -109,6 +215,26 @@
       "source": "/the-basics-of-small-business-accounting-a-guide-for-new-entrepreneurs/:path*",
       "destination": "/en/blog/small-business-accounting-guide",
       "permanent": true
+    },
+    {
+      "source": "/:lang/blog/small-business-accounting-basics",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang/blog/small-business-accounting-for-owners",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang/blog/the-basics-of-small-business-accounting",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang/blog/simple-accounting-for-small-business-beginners",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
     },
     {
       "source": "/how-to-create-a-budget-for-your-small-business-tips-and-tools/:path*",
@@ -507,7 +633,17 @@
     },
     {
       "source": "/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently/:path*",
-      "destination": "/en/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently",
+      "destination": "/en/blog/ultimate-guide-getting-paid-faster",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently",
+      "destination": "/:lang/blog/ultimate-guide-getting-paid-faster",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang/blog/timely-invoicing-getting-paid-faster",
+      "destination": "/:lang/blog/ultimate-guide-getting-paid-faster",
       "statusCode": 301
     },
     {
@@ -532,11 +668,26 @@
     }
   ],
   "rewrites": [
-    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/robots.txt", "destination": "/robots.txt" },
-    { "source": "/llms.txt", "destination": "/llms.txt" },
-    { "source": "/llms-full.txt", "destination": "/llms-full.txt" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
+    },
+    {
+      "source": "/llms.txt",
+      "destination": "/llms.txt"
+    },
+    {
+      "source": "/llms-full.txt",
+      "destination": "/llms-full.txt"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
     {

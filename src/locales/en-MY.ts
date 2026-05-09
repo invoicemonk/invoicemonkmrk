@@ -70,7 +70,7 @@ export const enMY: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Malaysia?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at RM 129/month (Professional) and RM 569/month (Business). Annual billing saves 20%.",
+        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at $15/month (Pro) and $49/month (SME). Annual billing saves 20%.",
       },
       {
         question: "Is e-invoicing mandatory for all Malaysian businesses?",
@@ -86,8 +86,8 @@ export const enMY: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 29,
-    sme: 129,
+    professional: 15,
+    sme: 49,
     business: 0,
     annualMultiplier: 10,
   },

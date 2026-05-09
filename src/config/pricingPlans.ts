@@ -19,8 +19,10 @@ export interface PricingPlan {
 export const starterFeatures = [
   '5 invoices/month',
   '5 receipts/month',
+  'Up to 5 clients',
   '1 currency account',
   'Up to 1 team member',
+  'Watermark-free PDFs',
   'Accounting module',
   'Expense tracking',
   'Credit notes',
@@ -30,8 +32,10 @@ export const starterFeatures = [
 export const proFeatures = [
   'Unlimited invoices',
   'Unlimited receipts',
+  'Unlimited clients',
   'Unlimited currency accounts',
   'Up to 5 team members',
+  'Watermark-free PDFs',
   'Accounting module',
   'Expense tracking',
   'Credit notes',
@@ -43,11 +47,11 @@ export const proFeatures = [
 
 export const smeFeatures = [
   'Everything in Pro',
+  'Unlimited clients',
   'Unlimited team members',
   'Online payment',
   'Advanced reports',
   'Premium templates',
-  'Watermark-free PDFs',
 ];
 
 export const bizFeatures = [
@@ -114,8 +118,8 @@ export function calculatePrice(
 ): { monthly: number; total: number } {
   const prices: Record<string, number> = {
     free: 0,
-    professional: 29,
-    sme: 129,
+    professional: 15,
+    sme: 49,
     business: 0,
   };
 

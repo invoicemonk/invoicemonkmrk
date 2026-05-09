@@ -67,9 +67,9 @@ export const pillars: Pillar[] = [
         link: '/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template'
       },
       {
-        title: 'Timely Invoicing',
-        description: 'Master the timing of your invoices for better cash flow.',
-        link: '/blog/the-importance-of-invoicing-timely-and-how-to-do-it-efficiently'
+        title: 'Get Paid Faster',
+        description: 'Strategies to shorten your invoice-to-payment cycle and improve cash flow.',
+        link: '/blog/ultimate-guide-getting-paid-faster'
       },
       {
         title: 'Invoice Numbering',
@@ -207,7 +207,7 @@ export const pillars: Pillar[] = [
       {
         title: 'Accounting Basics',
         description: 'Foundation concepts every business owner needs.',
-        link: '/blog/the-basics-of-small-business-accounting'
+        link: '/blog/small-business-accounting-guide'
       },
       {
         title: 'Budget Creation',
@@ -559,7 +559,7 @@ export const pillarClusters: TopicalCluster[] = [
       'complete-guide-to-business-invoicing',
       'invoicemonk-template-how-to-create-a-perfect-invoice-template',
       '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners',
-      'the-importance-of-invoicing-timely-and-how-to-do-it-efficiently',
+      'ultimate-guide-getting-paid-faster',
       'invoice-numbering-best-practices',
       'how-to-write-invoice-payment-terms',
       'recurring-invoices-automating-billing',
@@ -576,7 +576,6 @@ export const pillarClusters: TopicalCluster[] = [
       'invoicing-software-free-vs-paid',
       // Cluster 11: Global fundamentals
       'how-to-write-an-invoice-step-by-step',
-      'invoice-numbering-systems-guide',
       'invoice-vs-receipt-difference-explained',
       'payment-terms-guide-net-30-explained',
       // Cluster 15: Industry invoice guides
@@ -587,7 +586,6 @@ export const pillarClusters: TopicalCluster[] = [
       // Cluster 16: Template & billing variants
       'retainer-invoice-template-guide',
       'deposit-invoice-template-guide',
-      'recurring-invoice-setup-guide',
       'time-and-materials-invoice-guide',
       'progress-billing-invoice-guide',
       'self-billing-invoice-guide',
@@ -621,9 +619,8 @@ export const pillarClusters: TopicalCluster[] = [
       'multi-currency-invoicing-explained',
       'best-payment-integrations-freelancers',
       'payment-gateways-invoicing-software',
-      'automatic-payment-reminders-getting-paid',
+      
       // Cluster 16: Payment dispute guides
-      'how-to-handle-invoice-disputes',
       'how-to-write-payment-demand-letter',
       'late-payment-laws-by-country',
       'dealing-with-non-paying-clients',
@@ -642,14 +639,11 @@ export const pillarClusters: TopicalCluster[] = [
     pillarId: 'business-finances',
     postSlugs: [
       'small-business-accounting-guide',
-      'the-basics-of-small-business-accounting',
       'how-to-create-a-budget-for-your-small-business',
       'chart-of-accounts-for-small-business',
       'profit-margins-how-to-calculate-and-improve',
       'cash-vs-accrual-accounting-explained',
-      'simple-accounting-for-small-business-beginners',
       'how-to-do-accounting-small-business-step-by-step',
-      'small-business-accounting-for-owners',
       'accounting-101-small-business-owners',
       'bookkeeping-basics-beginners',
       'diy-small-business-accounting',
@@ -658,8 +652,6 @@ export const pillarClusters: TopicalCluster[] = [
       'financial-reports-every-business-needs',
       'year-end-financial-preparation',
       'revenue-vs-profit-explained',
-      'cash-flow-forecasting-small-businesses',
-      'small-business-accounting-basics',
       'best-personal-finance-blogs',
       // Cluster 16: Long-tail evergreen
       'year-end-accounting-checklist-small-business',
@@ -738,7 +730,7 @@ export const pillarClusters: TopicalCluster[] = [
       'malaysia-e-invoice-technical-requirements', 'malaysia-sst-invoice-requirements',
       'malaysia-small-business-myinvois-compliance',
       // Cluster 13: Global how-tos
-      'proforma-invoice-vs-commercial-invoice', 'credit-note-guide-when-how-to-issue',
+      'proforma-invoice-vs-commercial-invoice',
       'how-to-chase-unpaid-invoices', 'how-to-create-proforma-invoice',
       // Cluster 14: Germany deep dives
       'germany-zugferd-e-invoice-guide', 'germany-xrechnung-guide',
@@ -815,7 +807,6 @@ export const pillarClusters: TopicalCluster[] = [
       'when-to-hire-help-as-a-freelancer',
       // Cluster 16: Freelancer long-tail
       'how-to-set-freelance-rates',
-      'how-to-price-project-work-fixed-fee',
       'sole-trader-vs-limited-company-invoice-differences',
       'client-onboarding-checklist-freelancers'
     ]

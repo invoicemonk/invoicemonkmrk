@@ -86,8 +86,8 @@ export const enSA: LocaleConfig = {
   },
   pricing: {
     free: 0,
-    professional: 29,
-    sme: 129,
+    professional: 15,
+    sme: 49,
     business: 0,
     annualMultiplier: 10,
   },

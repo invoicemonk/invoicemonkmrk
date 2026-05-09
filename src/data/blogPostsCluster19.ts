@@ -1050,7 +1050,7 @@ export const cluster19Posts: BlogPost[] = [
       <p>What that means in practice:</p>
       <ul>
         <li>You cannot delete an invoice and reuse its number.</li>
-        <li>If you make an error, you must issue a credit note (not delete the original). See our guide on <a href="/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>.</li>
+        <li>If you make an error, you must issue a credit note (not delete the original). See our guide on <a href="/en/blog/credit-notes-and-invoice-corrections">how to issue a credit note</a>.</li>
         <li>Gaps in numbering are a red flag during tax audits. They can be interpreted as attempts to hide income.</li>
         <li>In Bulgaria, Germany, and France, the rules around this are strictly enforced.</li>
       </ul>
@@ -1342,7 +1342,7 @@ export const cluster19Posts: BlogPost[] = [
       </ol>
       <p>Cross-border VAT invoicing has a lot of moving parts: place of supply rules, VIES validation, exact invoice wording, EC Sales List reporting. Invoicemonk handles the invoice side automatically: correct notation, both VAT number fields, net-only amounts for reverse charge transactions.</p>
       <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=cross_border_vat_pillar" target="_blank" rel="noopener">Create your first cross-border EU invoice free, no credit card required</a>.</strong></p>
-      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Read our country-specific guides for the local rules that apply on top of these EU-wide principles: <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>, <a href="/en/blog/netherlands-vat-invoicing-freelancers">Dutch invoice requirements</a>, <a href="/en/blog/how-to-invoice-french-clients-freelancer">invoicing French clients</a>, <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>, and <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>.</p>
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">Read our country-specific guides for the local rules that apply on top of these EU-wide principles: <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>, <a href="/en/blog/netherlands-vat-invoicing-freelancers">Dutch invoice requirements</a>, <a href="/en/blog/how-to-invoice-french-clients-freelancer">invoicing French clients</a>, <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>, and <a href="/en/blog/credit-notes-and-invoice-corrections">how to issue a credit note</a>.</p>
     `,
   },
 
@@ -1523,7 +1523,7 @@ export const cluster19Posts: BlogPost[] = [
 
       <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_french_invoice_requirements" target="_blank" rel="noopener">Create your first French-compliant invoice free, no credit card required</a>.</strong></p>
 
-      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">For the EU-wide rules that sit behind these French specifics, read our pillar on <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge for EU freelancers</a>, plus our country guides on <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>, <a href="/en/blog/netherlands-vat-invoicing-freelancers">Dutch invoice requirements</a>, <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>, and <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>. External: <a href="https://ec.europa.eu/taxation_customs/vies/" rel="nofollow noopener" target="_blank">VIES VAT validation</a> and the <a href="https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eInvoicing+in+France" rel="nofollow noopener" target="_blank">European Commission eInvoicing France page</a>.</p>
+      <p style="border-top:1px solid #e5e7eb;padding-top:16px;margin-top:32px;font-style:italic;color:#475569;">For the EU-wide rules that sit behind these French specifics, read our pillar on <a href="/en/blog/cross-border-vat-invoicing-freelancers-eu">cross-border VAT and reverse charge for EU freelancers</a>, plus our country guides on <a href="/en/blog/eu-vat-invoice-requirements-freelancers">EU VAT invoice requirements</a>, <a href="/en/blog/how-to-invoice-german-clients-freelancer">invoicing German clients</a>, <a href="/en/blog/netherlands-vat-invoicing-freelancers">Dutch invoice requirements</a>, <a href="/en/blog/sequential-invoice-numbering-eu">sequential invoice numbering</a>, and <a href="/en/blog/credit-notes-and-invoice-corrections">how to issue a credit note</a>. External: <a href="https://ec.europa.eu/taxation_customs/vies/" rel="nofollow noopener" target="_blank">VIES VAT validation</a> and the <a href="https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eInvoicing+in+France" rel="nofollow noopener" target="_blank">European Commission eInvoicing France page</a>.</p>
     `,
   },
 
@@ -1616,7 +1616,7 @@ export const cluster19Posts: BlogPost[] = [
   <li><strong>Missing Leistungsdatum:</strong> the most common error. Even when it matches the invoice date, you must state it explicitly with "Leistungsdatum entspricht dem Rechnungsdatum".</li>
   <li><strong>Using your brand name instead of your legal name:</strong> "Studio X" alone is not a valid supplier name under §14 UStG. Include your full personal name.</li>
   <li><strong>No §19 UStG note when you are a Kleinunternehmer:</strong> an invoice with no VAT line and no explanation looks like an error. Always include the exemption note.</li>
-  <li><strong>Gaps in invoice numbering:</strong> deleting or skipping invoice numbers creates audit risk. Issue a Stornorechnung (cancellation invoice) to void a mistake and use the next number in sequence for the corrected version. For more on this, see our guide to <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>.</li>
+  <li><strong>Gaps in invoice numbering:</strong> deleting or skipping invoice numbers creates audit risk. Issue a Stornorechnung (cancellation invoice) to void a mistake and use the next number in sequence for the corrected version. For more on this, see our guide to <a href="/en/blog/credit-notes-and-invoice-corrections">how to issue a credit note</a>.</li>
   <li><strong>Vague service descriptions:</strong> "Consulting" and "Services" will not satisfy the Finanzamt. Be specific about what was delivered and when.</li>
 </ul>
 
@@ -1741,7 +1741,7 @@ export const cluster19Posts: BlogPost[] = [
   <li><strong>Using the OB-nummer instead of the BTW-ID:</strong> the OB-nummer is for Belastingdienst communications only. It contains your personal BSN and must never appear on client-facing invoices. Confirm your BTW-ID follows the NL + 9 digits + B + 2 digits format.</li>
   <li><strong>Missing the KVK number:</strong> a Dutch-specific requirement that the EU VAT baseline does not include. Without it, the invoice is technically invalid under Dutch law.</li>
   <li><strong>Writing "0% BTW" when on the KOR scheme:</strong> "0% BTW" implies a zero-rated supply, a different legal concept. KOR invoices must include the article 25 exemption wording instead.</li>
-  <li><strong>Not verifying the client's BTW number before applying reverse charge:</strong> if the client's VAT number is invalid, you remain liable for the BTW. Check every new client on VIES before sending the first invoice. For mistakes that need to be corrected after the fact, see our guide on <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note</a>.</li>
+  <li><strong>Not verifying the client's BTW number before applying reverse charge:</strong> if the client's VAT number is invalid, you remain liable for the BTW. Check every new client on VIES before sending the first invoice. For mistakes that need to be corrected after the fact, see our guide on <a href="/en/blog/credit-notes-and-invoice-corrections">how to issue a credit note</a>.</li>
   <li><strong>Missing or vague payment due date:</strong> "Net 30" is unclear. Dutch clients and their accountants expect a specific date. Use "Payment due by [exact date]" on every invoice.</li>
 </ul>
 
@@ -1939,7 +1939,7 @@ export const cluster19Posts: BlogPost[] = [
       <h3>Q: How do I correct an invoice without creating a gap in my sequence?</h3>
       <p>To correct an invoice without creating a gap, issue a credit note rather than deleting the original. A credit note references the original invoice by number and date and formally reverses the transaction. The original invoice number remains in the sequence; the credit note receives its own sequential number. A corrected invoice then gets the next number in the sequence. This keeps the audit trail intact and complies with EU VAT rules, which do not allow retroactive changes to issued invoices.</p>
 
-      <p>For a full walkthrough of the wording, formatting, and timing rules, see our guide on <a href="/en/blog/credit-note-guide-when-how-to-issue">how to issue a credit note under EU law</a>.</p>
+      <p>For a full walkthrough of the wording, formatting, and timing rules, see our guide on <a href="/en/blog/credit-notes-and-invoice-corrections">how to issue a credit note under EU law</a>.</p>
 
       <h2>Section 7: Country-specific rules worth knowing</h2>
       <p>All EU member states require sequential numbering as a baseline, but a few enforce it more aggressively than others.</p>
@@ -2365,7 +2365,7 @@ export const cluster19Posts: BlogPost[] = [
         <li><strong>The format.</strong> Invoices are issued as FA(3) XML. You do not write XML by hand: you use either the free Polish Ministry of Finance taxpayer app, an integrated invoicing tool, or your accountant's software, which generates the XML and submits it to KSeF on your behalf.</li>
         <li><strong>The unique KSeF invoice ID.</strong> Every successfully cleared invoice receives a KSeF invoice ID. This ID is the legal identifier of the invoice. From 1 August 2026, B2B bank transfers between Polish VAT taxpayers must include the KSeF invoice ID in the payment reference. Your client cannot pay you correctly without it.</li>
         <li><strong>The micro-entrepreneur exemption.</strong> If your single invoice value does not exceed PLN 450 and your total monthly invoice value does not exceed PLN 10,000, you are not obligated to use KSeF until 1 January 2027. The micro threshold is reviewed monthly: cross it once and you fall under the mandate from the next billing period.</li>
-        <li><strong>Corrections.</strong> Mistakes are fixed by issuing a faktura korygująca (a corrective invoice) through KSeF. You never delete or replace the original; the corrective invoice references the KSeF ID of the invoice it corrects. Read our <a href="/en/blog/credit-note-guide-when-how-to-issue">credit-note guide</a> for the EU principles that the Polish faktura korygująca implements.</li>
+        <li><strong>Corrections.</strong> Mistakes are fixed by issuing a faktura korygująca (a corrective invoice) through KSeF. You never delete or replace the original; the corrective invoice references the KSeF ID of the invoice it corrects. Read our <a href="/en/blog/credit-notes-and-invoice-corrections">credit-note guide</a> for the EU principles that the Polish faktura korygująca implements.</li>
         <li><strong>Invoices to private consumers (B2C).</strong> KSeF currently covers B2B invoices. Invoices to Polish private individuals continue under the existing rules; the Ministry of Finance has signalled future B2C inclusion but it is not in the active mandate.</li>
       </ul>
       <p>If you are based in Poland and unsure whether your invoicing setup is KSeF-ready before April 2026, talk to your accountant (księgowy) now. Migration is a software question; the legal obligation is fixed.</p>

@@ -1044,35 +1044,17 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     problemsSolved: ['Avoiding tax mistakes in Bulgaria', 'NRA compliance issues'],
     nextSteps: ['freelancer-vat-registration-bg', 'tax-compliant-invoice-bg']
   },
-  'cash-flow-forecasting-small-businesses': {
-    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
-    queryPatterns: ['cash flow forecasting small business', 'how to forecast cash flow', 'cash flow projection template', 'predict business cash flow'],
-    problemsSolved: ['Need to predict cash flow for my small business', 'Want to avoid cash shortfalls', 'Building a cash flow forecast'],
-    nextSteps: ['small-business-accounting-basics', 'financial-reports-every-business-needs', 'cash-vs-accrual-accounting-explained']
-  },
   'invoicing-software-free-vs-paid': {
     intent: 'commercial', stage: 'consideration', experienceLevel: 'beginner',
     queryPatterns: ['free vs paid invoicing software', 'is free invoicing software good enough', 'best free invoicing tool', 'should I pay for invoicing software'],
     problemsSolved: ['Deciding between free and paid invoicing software', 'Understanding invoicing software features', 'Choosing the right invoicing tool'],
     nextSteps: ['complete-guide-to-business-invoicing']
   },
-  'automatic-payment-reminders-getting-paid': {
-    intent: 'problem-solving', stage: 'consideration', experienceLevel: 'beginner',
-    queryPatterns: ['automatic payment reminders', 'automate invoice reminders', 'stop chasing invoices', 'payment reminder automation'],
-    problemsSolved: ['Spending too much time chasing payments', 'Clients paying late consistently', 'Want to automate payment follow-ups'],
-    nextSteps: ['setting-up-automatic-payment-reminders', 'payment-reminder-email-templates', 'how-to-handle-late-payments-professionally']
-  },
-  'small-business-accounting-basics': {
-    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
-    queryPatterns: ['small business accounting basics', 'accounting for beginners business', 'basic bookkeeping small business', 'learn business accounting'],
-    problemsSolved: ['New to business accounting', 'Need to understand basic bookkeeping', 'Setting up accounting for my business'],
-    nextSteps: ['the-basics-of-small-business-accounting', 'chart-of-accounts-for-small-business', 'cash-vs-accrual-accounting-explained']
-  },
   'best-personal-finance-blogs': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['best personal finance blogs', 'finance blogs for entrepreneurs', 'personal finance blogs freelancers', 'money management blogs'],
     problemsSolved: ['Looking for personal finance education', 'Want to learn money management as an entrepreneur', 'Finding good finance content'],
-    nextSteps: ['small-business-accounting-basics', 'how-to-create-a-budget-for-your-small-business']
+    nextSteps: ['small-business-accounting-guide', 'how-to-create-a-budget-for-your-small-business']
   },
 
   // ============================================
@@ -1118,13 +1100,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['how to write an invoice', 'invoice writing guide', 'create invoice step by step', 'write first invoice'],
     problemsSolved: ['Never written an invoice before', 'Need step-by-step invoice creation help', 'What to include on an invoice'],
-    nextSteps: ['5-essential-elements-of-an-invoice-a-guide-for-small-business-owners', 'invoice-numbering-systems-guide']
-  },
-  'invoice-numbering-systems-guide': {
-    intent: 'informational', stage: 'consideration', experienceLevel: 'beginner',
-    queryPatterns: ['invoice numbering system', 'how to number invoices', 'invoice number format guide', 'sequential invoice numbering'],
-    problemsSolved: ['Need an invoice numbering system', 'Invoice numbers are disorganized', 'Best invoice numbering format'],
-    nextSteps: ['invoice-numbering-best-practices', 'how-to-write-an-invoice-step-by-step']
+    nextSteps: ['5-essential-elements-of-an-invoice-a-guide-for-small-business-owners', 'invoice-numbering-best-practices']
   },
   'invoice-vs-receipt-difference-explained': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
@@ -1137,12 +1113,6 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     queryPatterns: ['payment terms explained', 'net 30 meaning', 'invoice payment terms guide', 'common payment terms'],
     problemsSolved: ['Don\'t understand payment terms', 'What does Net 30 mean', 'Which payment terms to use'],
     nextSteps: ['how-to-write-invoice-payment-terms', 'early-payment-discounts-do-they-work']
-  },
-  'credit-note-guide-when-how-to-issue': {
-    intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
-    queryPatterns: ['what is a credit note', 'how to issue credit note', 'credit note vs refund'],
-    problemsSolved: ['Need to correct an invoice', 'How to handle refunds properly', 'Credit note for VAT adjustment'],
-    nextSteps: ['how-to-write-an-invoice-step-by-step', 'invoice-numbering-systems-guide']
   },
   'how-to-chase-unpaid-invoices': {
     intent: 'problem-solving', stage: 'retention', experienceLevel: 'beginner',
@@ -1422,7 +1392,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
   // ============================================
   // CLUSTER 16: Payment disputes + Billing templates + Long-tail evergreen
   // ============================================
-  'how-to-handle-invoice-disputes': {
+  'invoice-disputes-how-to-handle-professionally': {
     intent: 'problem-solving', stage: 'retention', experienceLevel: 'intermediate',
     queryPatterns: ['invoice dispute resolution', 'client disputing invoice', 'how to handle invoice disagreement'],
     problemsSolved: ['Client is disputing an invoice', 'Resolving billing disagreements professionally'],
@@ -1438,7 +1408,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
     queryPatterns: ['late payment laws', 'late payment interest by country', 'legal rights unpaid invoice'],
     problemsSolved: ['What are my legal rights for late payments', 'Late payment interest rates by jurisdiction'],
-    nextSteps: ['how-to-handle-invoice-disputes', 'how-to-write-payment-demand-letter']
+    nextSteps: ['invoice-disputes-how-to-handle-professionally', 'how-to-write-payment-demand-letter']
   },
   'dealing-with-non-paying-clients': {
     intent: 'problem-solving', stage: 'decision', experienceLevel: 'intermediate',
@@ -1462,19 +1432,13 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'transactional', stage: 'decision', experienceLevel: 'intermediate',
     queryPatterns: ['retainer invoice template', 'how to invoice retainer', 'monthly retainer billing'],
     problemsSolved: ['How to bill retainer clients', 'Creating a retainer invoice'],
-    nextSteps: ['recurring-invoice-setup-guide', 'deposit-invoice-template-guide']
+    nextSteps: ['recurring-invoices-automating-billing', 'deposit-invoice-template-guide']
   },
   'deposit-invoice-template-guide': {
     intent: 'transactional', stage: 'decision', experienceLevel: 'beginner',
     queryPatterns: ['deposit invoice template', 'how to invoice for deposit', 'upfront payment invoice'],
     problemsSolved: ['How to invoice for a deposit', 'Collecting upfront payments'],
     nextSteps: ['retainer-invoice-template-guide', 'progress-billing-invoice-guide']
-  },
-  'recurring-invoice-setup-guide': {
-    intent: 'informational', stage: 'consideration', experienceLevel: 'beginner',
-    queryPatterns: ['recurring invoice setup', 'automatic invoicing', 'set up recurring billing'],
-    problemsSolved: ['How to set up recurring invoices', 'Automating monthly billing'],
-    nextSteps: ['retainer-invoice-template-guide', 'invoice-automation-small-business-guide']
   },
   'time-and-materials-invoice-guide': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
@@ -1516,13 +1480,13 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'problem-solving', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['how to set freelance rates', 'freelance pricing guide', 'what to charge as freelancer 2026'],
     problemsSolved: ['Don\'t know what to charge', 'Setting competitive freelance rates'],
-    nextSteps: ['how-to-price-project-work-fixed-fee', 'invoice-guide-consultants']
+    nextSteps: ['how-to-price-project-work', 'invoice-guide-consultants']
   },
   'invoice-email-templates-follow-up': {
     intent: 'transactional', stage: 'retention', experienceLevel: 'beginner',
     queryPatterns: ['invoice email template', 'follow up email unpaid invoice', 'payment reminder email template'],
     problemsSolved: ['Need email templates for sending invoices', 'Follow-up emails for late payments'],
-    nextSteps: ['how-to-chase-unpaid-invoices', 'how-to-handle-invoice-disputes']
+    nextSteps: ['how-to-chase-unpaid-invoices', 'invoice-disputes-how-to-handle-professionally']
   },
   'business-expense-tracking-spreadsheet-vs-software': {
     intent: 'commercial', stage: 'consideration', experienceLevel: 'beginner',
@@ -1546,7 +1510,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
     queryPatterns: ['invoice automation', 'automate invoicing small business', 'automatic invoicing software'],
     problemsSolved: ['How to automate invoicing process', 'Saving time on invoice creation'],
-    nextSteps: ['recurring-invoice-setup-guide', 'invoice-payment-methods-compared']
+    nextSteps: ['recurring-invoices-automating-billing', 'invoice-payment-methods-compared']
   },
   'year-end-accounting-checklist-small-business': {
     intent: 'problem-solving', stage: 'retention', experienceLevel: 'intermediate',
@@ -1554,7 +1518,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     problemsSolved: ['Preparing for year-end accounting', 'Year-end financial checklist'],
     nextSteps: ['tax-deductions-freelancers-complete-list', 'business-expense-tracking-spreadsheet-vs-software']
   },
-  'how-to-price-project-work-fixed-fee': {
+  'how-to-price-project-work': {
     intent: 'problem-solving', stage: 'awareness', experienceLevel: 'intermediate',
     queryPatterns: ['how to price project work', 'fixed fee pricing', 'project-based pricing guide'],
     problemsSolved: ['How to set fixed prices for projects', 'Project pricing strategy'],
@@ -1564,7 +1528,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['sole trader vs limited company invoice', 'invoicing as sole trader', 'limited company invoice requirements'],
     problemsSolved: ['Invoice differences between sole trader and limited company', 'Which business structure for invoicing'],
-    nextSteps: ['how-to-write-an-invoice-step-by-step', 'invoice-numbering-systems-guide']
+    nextSteps: ['how-to-write-an-invoice-step-by-step', 'invoice-numbering-best-practices']
   },
   'client-onboarding-checklist-freelancers': {
     intent: 'informational', stage: 'retention', experienceLevel: 'beginner',

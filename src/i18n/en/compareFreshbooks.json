@@ -10,12 +10,12 @@
   },
   "overview": [
     "Short answer: Invoicemonk is the better choice if you want a free tier, multi-currency on every plan, and built-in compliance (audit trail + QR-verified invoices). FreshBooks is the better choice if you bill hourly and need its built-in timer plus a deep North American app marketplace. FreshBooks has no free tier — its Lite plan costs $19/month and caps you at 5 billable clients.",
-    "Pricing is the most measurable gap. Invoicemonk: Starter $0 (5 invoices/mo), Pro $29/mo (unlimited invoices, up to 5 users), SME $129/mo (unlimited users + advanced reports), Biz custom (e-invoicing & government submission). FreshBooks: Lite $19/mo (5 clients), Plus $33/mo (50 clients), Premium $60/mo (unlimited clients), Select custom — plus $11/user/month for additional team members.",
+    "Pricing is the most measurable gap. Invoicemonk: Starter $0 (5 invoices/mo), Pro $15/mo (unlimited invoices, up to 5 users), SME $49/mo (unlimited users + advanced reports), Biz custom (e-invoicing & government submission). FreshBooks: Lite $19/mo (5 clients), Plus $33/mo (50 clients), Premium $60/mo (unlimited clients), Select custom — plus $11/user/month for additional team members.",
     "Compliance is the second gap and the one most reviews skip. Every Invoicemonk invoice — even on the free plan — is hashed into an immutable audit trail and carries a QR code your clients (and tax authorities) can scan to independently verify. FreshBooks does not offer an immutable audit log or invoice verification."
   ],
   "features": [
     { "name": "Free tier", "invoicemonk": "Yes (5 inv/mo)", "competitor": "No (30-day trial)" },
-    { "name": "Starting paid price", "invoicemonk": "$29/mo (Pro)", "competitor": "$19/mo (Lite)" },
+    { "name": "Starting paid price", "invoicemonk": "$15/mo (Pro)", "competitor": "$19/mo (Lite)" },
     { "name": "Client limit on entry plan", "invoicemonk": "Unlimited (Pro+)", "competitor": "5 (Lite)" },
     { "name": "Immutable audit trail", "invoicemonk": "Yes (every plan)", "competitor": "No" },
     { "name": "QR-verified invoices", "invoicemonk": "Yes", "competitor": "No" },
@@ -33,8 +33,8 @@
       "title": "Invoicemonk pricing (2026)",
       "plans": [
         { "name": "Starter", "price": "$0/mo" },
-        { "name": "Pro", "price": "$29/mo" },
-        { "name": "SME", "price": "$129/mo" },
+        { "name": "Pro", "price": "$15/mo" },
+        { "name": "SME", "price": "$49/mo" },
         { "name": "Biz", "price": "Custom" }
       ],
       "note": "Every plan includes invoicing, expenses, accounting, credit notes and the immutable audit trail. Annual billing saves ~17% (pay 10 months, get 12)."
@@ -85,7 +85,7 @@
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Is Invoicemonk cheaper than FreshBooks?", "answer": "Yes. Invoicemonk's Starter plan is free for up to 5 invoices/month. Pro is $29/month with unlimited invoices and up to 5 users — versus FreshBooks Lite at $19/month with a 5-client cap and $11/user add-ons. For most growing businesses, Invoicemonk Pro is cheaper than FreshBooks Plus + 1 extra user ($33 + $11 = $44/mo)." },
+      { "question": "Is Invoicemonk cheaper than FreshBooks?", "answer": "Yes. Invoicemonk's Starter plan is free for up to 5 invoices/month. Pro is $15/month with unlimited invoices and up to 5 users — versus FreshBooks Lite at $19/month with a 5-client cap and $11/user add-ons. For most growing businesses, Invoicemonk Pro is cheaper than FreshBooks Plus + 1 extra user ($33 + $11 = $44/mo)." },
       { "question": "Does FreshBooks have an audit trail like Invoicemonk?", "answer": "No. FreshBooks logs basic activity but does not produce an immutable, hash-chained audit trail. Invoicemonk hashes every invoice, payment and revision into an append-only log on every plan, including the free Starter tier — this is the foundation for tax-audit defense and dispute resolution." },
       { "question": "Can I migrate from FreshBooks to Invoicemonk?", "answer": "Yes. Export clients, invoices and expenses as CSV from FreshBooks, then bulk-import via Invoicemonk's dashboard. Most users finish the migration in 15–30 minutes. Reach out to support@invoicemonk.com for help with custom fields or large datasets." },
       { "question": "Does Invoicemonk have time tracking like FreshBooks?", "answer": "Invoicemonk supports time-based line items on invoices (hours × rate) but doesn't include a running stopwatch like FreshBooks. If hourly billing with a live timer is your core workflow, FreshBooks is the better fit. For project- and milestone-based billing, Invoicemonk's invoicing is faster and cheaper." },

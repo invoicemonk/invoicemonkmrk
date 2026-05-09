@@ -10,7 +10,7 @@
   },
   "overview": [
     "Short answer: Invoicemonk is the better choice if you want one tool with invoicing, expenses, accounting and a compliance/audit layer in a single subscription. Zoho Invoice is the better choice only if you already use Zoho CRM, Books or Projects and want native cross-product workflows. Standalone, Zoho Invoice's free tier is generous but tops out at 1,000 invoices/year and 1 user.",
-    "Pricing is the easiest comparison. Invoicemonk: Starter $0 (5 invoices/mo, audit trail included), Pro $29/mo (unlimited invoices, up to 5 users), SME $129/mo (unlimited users), Biz custom (e-invoicing & government submission). Zoho Invoice: Free (1,000 invoices/year, 1 user) — but to add accounting you need Zoho Books ($20–$275/mo) and to add expense management you need Zoho Expense ($5+/user/mo).",
+    "Pricing is the easiest comparison. Invoicemonk: Starter $0 (5 invoices/mo, audit trail included), Pro $15/mo (unlimited invoices, up to 5 users), SME $49/mo (unlimited users), Biz custom (e-invoicing & government submission). Zoho Invoice: Free (1,000 invoices/year, 1 user) — but to add accounting you need Zoho Books ($20–$275/mo) and to add expense management you need Zoho Expense ($5+/user/mo).",
     "Compliance is the differentiator most reviews skip. Every Invoicemonk invoice is hashed into an immutable audit log and carries a QR code for independent verification — on every plan, including Starter. Zoho Invoice does not offer an immutable audit chain or QR-verifiable invoices, and government e-invoicing submission requires the separate Zoho Finance Plus suite."
   ],
   "features": [

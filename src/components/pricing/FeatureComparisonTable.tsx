@@ -22,6 +22,7 @@ interface ComparisonRow {
 const limits: ComparisonRow[] = [
   { feature: 'Invoices/month', starter: '5', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
   { feature: 'Receipts/month', starter: '5', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
+  { feature: 'Clients', starter: 'Up to 5', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
   { feature: 'Currency accounts', starter: '1', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
   { feature: 'Team members', starter: '1', pro: 'Up to 5', sme: 'Unlimited', biz: 'Unlimited' },
   { feature: 'Payment methods per currency', starter: '1', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
@@ -37,7 +38,7 @@ const features: ComparisonRow[] = [
   { feature: 'Custom branding', starter: false, pro: true, sme: true, biz: true },
   { feature: 'Data exports', starter: false, pro: true, sme: true, biz: true },
   { feature: 'Premium templates', starter: false, pro: true, sme: true, biz: true },
-  { feature: 'Watermark-free PDFs', starter: false, pro: true, sme: true, biz: true },
+  { feature: 'Watermark-free PDFs', starter: true, pro: true, sme: true, biz: true },
   { feature: 'Online payment', starter: false, pro: true, sme: true, biz: true },
   { feature: 'Advanced reports', starter: false, pro: false, sme: true, biz: true },
   { feature: 'API access', starter: false, pro: false, sme: false, biz: true },

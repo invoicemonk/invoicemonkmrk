@@ -295,6 +295,10 @@ const App = () => (
               <Route path="milestone-billing" element={<Navigate to="../use-cases/milestone-billing" replace />} />
               <Route path="cheapest-international-payments" element={<Navigate to="../cheapest-way-to-receive-international-payments" replace />} />
               <Route path="blog/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management" element={<Navigate to="../blog/the-10-best-personal-finance-blogs" replace />} />
+              <Route path="blog/small-business-accounting-basics" element={<Navigate to="../blog/small-business-accounting-guide" replace />} />
+              <Route path="blog/small-business-accounting-for-owners" element={<Navigate to="../blog/small-business-accounting-guide" replace />} />
+              <Route path="blog/the-basics-of-small-business-accounting" element={<Navigate to="../blog/small-business-accounting-guide" replace />} />
+              <Route path="blog/simple-accounting-for-small-business-beginners" element={<Navigate to="../blog/small-business-accounting-guide" replace />} />
 
               {/* 404 within valid language prefix */}
               <Route path="*" element={<NotFound />} />
