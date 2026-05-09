@@ -42,6 +42,8 @@ export default function InvoicemonkVsAtoinvoice() {
   const bottomLine = t('bottomLine', { returnObjects: true, defaultValue: null }) as SectionWithParas | null;
   const sources = t('sources', { returnObjects: true, defaultValue: null }) as SourcesBlock | null;
   const lastUpdated = t('lastUpdated', { defaultValue: '' }) as string;
+  const featureGroups = t('featureGroups', { returnObjects: true, defaultValue: null }) as FeatureGroup[] | null;
+  const sideBySide = t('sideBySide', { returnObjects: true, defaultValue: null }) as SideBySide | null;
 
   return (
     <Layout>
