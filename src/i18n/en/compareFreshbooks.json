@@ -1,34 +1,77 @@
 {
   "seo": {
-    "title": "Invoicemonk vs FreshBooks (2026): Compliance, Pricing & Features Compared",
-    "description": "Invoicemonk vs FreshBooks in 2026: Invoicemonk is free to start with audit-ready, QR-verified invoices; FreshBooks starts at $19/mo with a 5-client cap. Full pricing, compliance and feature comparison."
+    "title": "Invoicemonk vs FreshBooks (2026): Better for International Freelancers?",
+    "description": "FreshBooks Payments is US/CA only and its multi-currency reverts to USD. Invoicemonk is built for cross-border freelancers — compliant invoices, true multi-currency, no geo limits."
   },
-  "lastUpdated": "Last updated: April 2026",
+  "lastUpdated": "Last updated: May 2026",
   "hero": {
-    "title": "Invoicemonk vs FreshBooks (2026)",
-    "subtitle": "Invoicemonk starts free with immutable audit trails and QR-verified invoices on every plan. FreshBooks starts at $19/month with a 5-client limit and no audit trail. Here's how they compare across pricing, compliance and core invoicing."
+    "title": "Invoicemonk vs FreshBooks (2026): Which Is Better for International Freelancers?",
+    "subtitle": "Quick answer: FreshBooks is a polished tool used by 30M+ people in 160+ countries — but its built-in payment processing is restricted to US and Canada businesses, ACH is US-only, and independent testing has confirmed its default currency reverts to USD. Invoicemonk is purpose-built for cross-border freelance invoicing: compliance-first invoices, true multi-currency, automatic reminders, and payment tracking — no matter the country or currency."
   },
-  "overview": [
-    "Short answer: Invoicemonk is the better choice if you want a free tier, multi-currency on every plan, and built-in compliance (audit trail + QR-verified invoices). FreshBooks is the better choice if you bill hourly and need its built-in timer plus a deep North American app marketplace. FreshBooks has no free tier — its Lite plan costs $19/month and caps you at 5 billable clients.",
-    "Pricing is the most measurable gap. Invoicemonk: Starter $0 (5 invoices/mo), Pro $15/mo (unlimited invoices, up to 5 users), SME $49/mo (unlimited users + advanced reports), Biz custom (e-invoicing & government submission). FreshBooks: Lite $19/mo (5 clients), Plus $33/mo (50 clients), Premium $60/mo (unlimited clients), Select custom — plus $11/user/month for additional team members.",
-    "Compliance is the second gap and the one most reviews skip. Every Invoicemonk invoice — even on the free plan — is hashed into an immutable audit trail and carries a QR code your clients (and tax authorities) can scan to independently verify. FreshBooks does not offer an immutable audit log or invoice verification."
-  ],
+  "audience": {
+    "title": "Who this comparison is for",
+    "body": "This guide is for freelancers — developers, designers, growth consultants, writers, and other independent professionals — who send invoices across borders. If you are based outside the United States and Canada, or if you bill clients in currencies other than your own, the details below matter. FreshBooks and Invoicemonk are both viable invoicing tools, but they serve different use cases."
+  },
+  "companyOverview": {
+    "title": "Company overview",
+    "freshbooks": {
+      "title": "FreshBooks",
+      "body": "Founded in Toronto in 2003 as a simple invoice-by-email tool, FreshBooks has grown into one of the most widely used cloud accounting platforms for small businesses, with 30M+ users in 160+ countries. It positions itself as a full accounting platform — invoicing, expenses, time tracking, projects, and reporting — for freelancers and small service-based businesses."
+    },
+    "invoicemonk": {
+      "title": "Invoicemonk",
+      "body": "Invoicemonk is built specifically for the cross-border freelance market: independent professionals who earn from clients in a different country, need invoices that comply with both jurisdictions, and want creation, delivery, reminders, and payment tracking handled in one tool. Where FreshBooks is a broad accounting platform that includes invoicing, Invoicemonk is a compliance-first invoicing platform built around international freelancers."
+    }
+  },
+  "paymentGeography": {
+    "title": "The most important difference: payment processing geography",
+    "body": "FreshBooks Payments, powered by Stripe, is available only to businesses based in the United States and Canada. Per FreshBooks' own support docs: \"FreshBooks Payments powered by Stripe is only available for businesses in Canada and the United States. International businesses can use Stripe Standard instead.\"",
+    "points": [
+      "If you are a freelancer based in Nigeria, Kenya, India, the Philippines, Germany, or anywhere outside North America, FreshBooks' native payment processing is not available to you.",
+      "ACH bank transfers — FreshBooks' lowest-fee payment option at 1% — are restricted to US-based customers only.",
+      "International freelancers who want to accept payments through FreshBooks must connect a separate Stripe Standard account, adding setup and configuration overhead."
+    ],
+    "footer": "Invoicemonk's payment workflow is built from the ground up for international freelancers — no geographic restrictions on the core invoicing or payment-tracking functionality."
+  },
+  "multiCurrency": {
+    "title": "Multi-currency invoicing: what FreshBooks can and cannot do",
+    "body": "FreshBooks supports ~170 currencies and lets you set a per-client currency. But Tech.co's 2026 review found that testers \"couldn't switch default currencies on their invoices. Instead, they found that the accepted currency reverted to USD, causing frustration.\" The review concludes: \"Unlike QuickBooks, Xero, or ZohoBooks, you will not be able to create multi-currency invoicing, so international operations will be restricted to accepting a single currency.\"",
+    "footer": "There is also a deeper distinction: FreshBooks has multi-currency invoicing (you can display an invoice in a foreign currency) but not multi-currency accounting (your books are kept in one base currency, with no proper revaluation). Invoicemonk treats multi-currency as a first-class feature — built for the freelancer who regularly bills clients in different currencies from different countries."
+  },
+  "compliance": {
+    "title": "Compliance-first invoicing: the gap FreshBooks does not fill",
+    "body": "For a freelance invoice to be legally valid and processable by your client's finance team, it often needs more than a logo, a line item, and a total. Depending on the countries involved, a compliant invoice may require:",
+    "points": [
+      "Your tax identification number or VAT registration number",
+      "Your client's company registration or VAT number",
+      "Specific invoice numbering format required by your country's tax authority",
+      "Correct currency notation and exchange rate disclosure",
+      "Payment terms that meet local legal requirements",
+      "Jurisdiction-specific tax line items (GST, VAT, withholding tax, etc.)",
+      "Particular date and address formats required by local regulation"
+    ],
+    "footer": "FreshBooks was designed for North American small businesses around the US and Canadian tax framework. It handles US sales tax and basic Canadian GST/HST but does not provide compliance guidance for the requirements a freelancer in Lagos, Nairobi, Jakarta, or Warsaw must meet when billing internationally. Invoicemonk's compliance-first approach generates invoices that meet the requirements of both jurisdictions automatically — without the freelancer needing to know the rules upfront."
+  },
   "features": [
     { "name": "Free tier", "invoicemonk": "Yes (5 inv/mo)", "competitor": "No (30-day trial)" },
     { "name": "Starting paid price", "invoicemonk": "$15/mo (Pro)", "competitor": "$19/mo (Lite)" },
     { "name": "Client limit on entry plan", "invoicemonk": "Unlimited (Pro+)", "competitor": "5 (Lite)" },
-    { "name": "Immutable audit trail", "invoicemonk": "Yes (every plan)", "competitor": "No" },
-    { "name": "QR-verified invoices", "invoicemonk": "Yes", "competitor": "No" },
-    { "name": "E-invoicing & gov submission", "invoicemonk": "Yes (Biz)", "competitor": "No" },
-    { "name": "Multi-currency on free/entry", "invoicemonk": "Yes", "competitor": "Plus tier ($33/mo) only" },
-    { "name": "Built-in time tracker", "invoicemonk": "No", "competitor": "Yes" },
+    { "name": "Native payment processing outside US/CA", "invoicemonk": true, "competitor": "Stripe Standard required" },
+    { "name": "ACH bank transfer", "invoicemonk": true, "competitor": "US only" },
+    { "name": "Compliance-first invoice generation", "invoicemonk": true, "competitor": false },
+    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": "Limited (defaults revert to USD)" },
+    { "name": "True multi-currency accounting", "invoicemonk": true, "competitor": false },
+    { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": true },
+    { "name": "Recurring invoices", "invoicemonk": true, "competitor": true },
+    { "name": "Built-in time tracking", "invoicemonk": false, "competitor": true },
+    { "name": "Project profitability", "invoicemonk": false, "competitor": "Premium only" },
     { "name": "Built-in accounting", "invoicemonk": "Yes (every plan)", "competitor": "Plus+ only" },
-    { "name": "Credit notes", "invoicemonk": "Yes", "competitor": "Yes" },
-    { "name": "Team members", "invoicemonk": "Up to 5 (Pro), unlimited (SME+)", "competitor": "$11/user/mo add-on" },
-    { "name": "Country availability", "invoicemonk": "Global", "competitor": "Global (best in NA)" }
+    { "name": "Remove platform branding", "invoicemonk": true, "competitor": "Select only" },
+    { "name": "Phone support", "invoicemonk": true, "competitor": true },
+    { "name": "Country availability", "invoicemonk": "Global", "competitor": "Global (best in US/CA)" }
   ],
   "pricing": {
-    "title": "How much does each cost?",
+    "title": "Pricing comparison",
     "invoicemonk": {
       "title": "Invoicemonk pricing (2026)",
       "plans": [
@@ -37,7 +80,7 @@
         { "name": "SME", "price": "$49/mo" },
         { "name": "Biz", "price": "Custom" }
       ],
-      "note": "Every plan includes invoicing, expenses, accounting, credit notes and the immutable audit trail. Annual billing saves ~17% (pay 10 months, get 12)."
+      "note": "Every plan includes invoicing, expenses, accounting, credit notes, multi-currency, and the immutable audit trail — regardless of country. Annual billing saves ~17%."
     },
     "competitor": {
       "title": "FreshBooks pricing (2026)",
@@ -47,30 +90,87 @@
         { "name": "Premium (unlimited clients)", "price": "$60/mo" },
         { "name": "Select", "price": "Custom" }
       ],
-      "note": "No free tier. Hard client caps on Lite and Plus. Each additional team member is $11/month on top of the base plan. Prices shown for annual billing."
+      "note": "No free tier. Hard client caps on Lite/Plus. Extra users $11/mo. Card 2.9% + $0.30; ACH 1% (US only). Payroll add-on from $40/mo + $6/employee. International users must connect Stripe Standard separately."
+    }
+  },
+  "trueCost": {
+    "title": "The true cost for international freelancers",
+    "body": "A freelancer outside the US/CA on FreshBooks Plus ($33/mo) processing $4,000/month through Stripe Standard pays roughly:",
+    "items": [
+      { "label": "Monthly subscription", "value": "$33" },
+      { "label": "Stripe Standard fees (~2.9% + $0.30)", "value": "~$120" },
+      { "label": "Total monthly cost", "value": "~$153" }
+    ],
+    "footer": "This is before any currency conversion fees Stripe or your receiving bank may apply on cross-border transactions."
+  },
+  "scenario": {
+    "title": "One invoice, two experiences",
+    "intro": "Scenario: You are a freelance designer based in Accra, Ghana. Your client is a marketing agency in London, UK. You have completed a brand project worth £4,200. You need to send a legally valid invoice, receive payment, and follow up if it goes overdue.",
+    "competitor": {
+      "title": "With FreshBooks",
+      "items": [
+        "Sign up for FreshBooks Plus at $33/month. The interface is polished.",
+        "Create an invoice. Currency defaults to USD — switch it to GBP manually (a confirmed recurring friction).",
+        "FreshBooks Payments is unavailable in Ghana. Set up a separate Stripe Standard account, requiring identity verification, business documentation, and several days of setup.",
+        "Send the invoice. Your London client can pay by card via Stripe.",
+        "Automatic reminders fire correctly — this works well.",
+        "All revenue is recorded in your single base currency — true multi-currency accounting is not available.",
+        "For your tax filing in Ghana, the invoice may not include all fields required by the Ghana Revenue Authority for cross-border service income. Verify compliance manually or with an accountant."
+      ]
+    },
+    "invoicemonk": {
+      "title": "With Invoicemonk",
+      "items": [
+        "Create an account. No geographic restrictions.",
+        "Create an invoice in GBP. Invoicemonk generates a compliant invoice for a Ghana freelancer billing a UK client.",
+        "Send the invoice directly through Invoicemonk. No external payment processor setup required.",
+        "Automatic reminders fire before and after the due date — your client receives a professional nudge automatically.",
+        "Track payment status in your dashboard. When paid, it updates automatically.",
+        "Your invoice is compliant with both jurisdictions — no manual compliance check needed."
+      ]
     }
   },
   "choose": {
     "invoicemonk": {
       "title": "Choose Invoicemonk if you…",
       "items": [
-        "Want a free tier with the same audit trail as paid plans",
-        "Need multi-currency invoicing without upgrading",
-        "Issue invoices in a country with e-invoicing rules (NG, KSA, EU PEPPOL, etc.)",
-        "Want clients (or auditors) to verify invoice authenticity via QR",
-        "Plan to grow past 5–50 clients without hitting plan caps"
+        "Bill international clients from any country — no geographic restrictions, no payment-processor workarounds",
+        "Need invoices that comply with cross-border requirements automatically",
+        "Invoice in multiple currencies and want clean, accurate books",
+        "Already use a separate bookkeeping tool and primarily need reliable invoicing + payment tracking",
+        "Want every invoice hashed into an immutable audit trail and QR-verifiable on every plan"
       ]
     },
     "competitor": {
       "title": "Choose FreshBooks if you…",
       "items": [
-        "Bill hourly and need a built-in running timer",
-        "Need a large North American app marketplace (200+ integrations)",
-        "Want phone support included on every paid plan",
-        "Operate primarily in the US or Canada with domestic clients",
-        "Don't need an immutable audit trail or e-invoicing"
+        "Are based in the US or Canada and want native payment processing with ACH at 1%",
+        "Bill hourly and need built-in time tracking that converts to invoice line items",
+        "Need project profitability tracking across multiple concurrent client engagements",
+        "Want a full accounting suite — invoicing, expenses, time, projects, reporting — in one platform",
+        "Don't need an immutable audit trail or government e-invoicing"
       ]
     }
+  },
+  "summary": {
+    "title": "Side-by-side summary",
+    "rows": [
+      { "label": "Monthly price", "invoicemonk": "From $0 (Pro $15)", "competitor": "From $19 (Lite)" },
+      { "label": "Free trial / tier", "invoicemonk": "Free Starter plan", "competitor": "30-day trial" },
+      { "label": "Client limit", "invoicemonk": "Unlimited", "competitor": "5 / 50 / Unlimited" },
+      { "label": "International users", "invoicemonk": "All countries", "competitor": "All countries" },
+      { "label": "Native payments (non-US/CA)", "invoicemonk": "Yes", "competitor": "No" },
+      { "label": "Multi-currency invoicing", "invoicemonk": "Yes", "competitor": "Limited" },
+      { "label": "True multi-currency accounting", "invoicemonk": "Yes", "competitor": "No" },
+      { "label": "Compliance-first invoicing", "invoicemonk": "Yes", "competitor": "No" },
+      { "label": "Automatic payment reminders", "invoicemonk": "Yes", "competitor": "Yes" },
+      { "label": "Time tracking", "invoicemonk": "No", "competitor": "Yes" },
+      { "label": "Project profitability", "invoicemonk": "No", "competitor": "Premium only" },
+      { "label": "Full accounting suite", "invoicemonk": "Yes", "competitor": "Yes" },
+      { "label": "Phone support", "invoicemonk": "Yes", "competitor": "Yes" },
+      { "label": "Card processing fee", "invoicemonk": "See pricing", "competitor": "2.9% + $0.30" },
+      { "label": "ACH bank transfer", "invoicemonk": "Yes", "competitor": "1% (US only)" }
+    ]
   },
   "migration": {
     "title": "How do I switch from FreshBooks to Invoicemonk?",
@@ -78,20 +178,34 @@
       { "title": "Export from FreshBooks", "desc": "FreshBooks → Settings → Account & Billing → Export Data. Download clients, invoices and expenses as CSV." },
       { "title": "Create your Invoicemonk account", "desc": "Sign up free at app.invoicemonk.com. Add business name, logo, tax ID and currency in 2–3 minutes." },
       { "title": "Import clients & invoices", "desc": "Upload the CSV files. Names, emails, addresses, payment terms and historical totals map automatically." },
-      { "title": "Recreate recurring schedules", "desc": "Each recurring schedule takes 2–3 minutes to rebuild — Invoicemonk's recurring engine supports the same cadence options as FreshBooks." },
-      { "title": "Send your first audit-ready invoice", "desc": "Your first Invoicemonk invoice is hashed, timestamped and QR-verifiable from the moment it's sent." }
+      { "title": "Recreate recurring schedules", "desc": "Each recurring schedule takes 2–3 minutes to rebuild — Invoicemonk supports the same cadence options as FreshBooks." },
+      { "title": "Send your first compliant invoice", "desc": "Your first Invoicemonk invoice is hashed, timestamped and QR-verifiable from the moment it's sent." }
     ]
   },
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Is Invoicemonk cheaper than FreshBooks?", "answer": "Yes. Invoicemonk's Starter plan is free for up to 5 invoices/month. Pro is $15/month with unlimited invoices and up to 5 users — versus FreshBooks Lite at $19/month with a 5-client cap and $11/user add-ons. For most growing businesses, Invoicemonk Pro is cheaper than FreshBooks Plus + 1 extra user ($33 + $11 = $44/mo)." },
-      { "question": "Does FreshBooks have an audit trail like Invoicemonk?", "answer": "No. FreshBooks logs basic activity but does not produce an immutable, hash-chained audit trail. Invoicemonk hashes every invoice, payment and revision into an append-only log on every plan, including the free Starter tier — this is the foundation for tax-audit defense and dispute resolution." },
-      { "question": "Can I migrate from FreshBooks to Invoicemonk?", "answer": "Yes. Export clients, invoices and expenses as CSV from FreshBooks, then bulk-import via Invoicemonk's dashboard. Most users finish the migration in 15–30 minutes. Reach out to support@invoicemonk.com for help with custom fields or large datasets." },
-      { "question": "Does Invoicemonk have time tracking like FreshBooks?", "answer": "Invoicemonk supports time-based line items on invoices (hours × rate) but doesn't include a running stopwatch like FreshBooks. If hourly billing with a live timer is your core workflow, FreshBooks is the better fit. For project- and milestone-based billing, Invoicemonk's invoicing is faster and cheaper." },
-      { "question": "Which is better for international clients?", "answer": "Invoicemonk. Multi-currency invoicing is included on every plan (Starter and up), with pre-built tax presets for the UK (HMRC MTD), US (IRS), Canada (CRA), Australia (ATO), KSA (ZATCA), Nigeria (FIRS) and EU PEPPOL. FreshBooks gates multi-currency behind the Plus plan ($33/mo) and focuses tax features on US/Canada." },
-      { "question": "What's the QR-verified invoice on Invoicemonk?", "answer": "Every Invoicemonk invoice carries a QR code that links to an independent verification page on app.invoicemonk.com. Anyone — your client, an auditor, a tax officer — can scan and confirm the invoice number, totals, issuer tax ID and issue date match the official record. FreshBooks does not offer this." },
-      { "question": "Does Invoicemonk support e-invoicing for tax authorities?", "answer": "Yes, on the Biz plan. Invoicemonk's e-invoicing module submits directly to ZATCA (Saudi Arabia), EU PEPPOL networks, FIRS MBS (Nigeria) and other government platforms. FreshBooks does not currently offer direct government e-invoicing submission." }
+      { "question": "Is FreshBooks available outside the US and Canada?", "answer": "Yes. FreshBooks is available in 160+ countries for invoicing, expense tracking and accounting. However, FreshBooks Payments (its built-in payment processing) is only available to businesses based in the US and Canada. International businesses must connect Stripe Standard separately for online payment processing." },
+      { "question": "Does FreshBooks support invoicing in multiple currencies?", "answer": "FreshBooks supports invoicing in ~170 currencies and lets you set a per-client currency. However, independent testing has found the default currency can revert to USD, and FreshBooks does not support true multi-currency accounting — foreign currency transactions are recorded in a single base currency without proper revaluation." },
+      { "question": "What are FreshBooks' transaction fees?", "answer": "For US-based users: card processing is 2.9% + $0.30 per transaction via FreshBooks Payments; ACH bank transfers are 1%. For international users on Stripe Standard, Stripe's standard fees apply (typically 2.9% + $0.30 for cards plus an additional ~1.5% for international cards)." },
+      { "question": "Can FreshBooks handle cross-border tax compliance?", "answer": "FreshBooks calculates US sales tax and supports US/Canadian tax frameworks. It does not provide compliance guidance or automated invoice generation for jurisdiction-specific requirements such as UK VAT, Nigerian FIRS rules, or EU digital services tax." },
+      { "question": "Does FreshBooks have a free plan?", "answer": "No. FreshBooks does not offer a permanently free plan — only a 30-day free trial across all plans, after which a paid subscription ($19/month minimum) is required. Invoicemonk's Starter plan is permanently free for up to 5 invoices/month." },
+      { "question": "How does Invoicemonk compare for time tracking?", "answer": "FreshBooks includes built-in time tracking that converts directly to invoice line items — a strong feature for hourly freelancers. Invoicemonk supports time-based line items but does not include a running stopwatch. If hourly billing with a live timer is your core workflow, FreshBooks has the advantage in this specific area." },
+      { "question": "Which is better for a freelance developer billing US clients from Africa?", "answer": "Invoicemonk. FreshBooks is accessible but requires Stripe Standard setup for payment processing, has known currency reversion issues, and does not provide compliance-first invoice generation for cross-border Africa-to-US transactions. Invoicemonk is purpose-built for this scenario." }
+    ]
+  },
+  "sources": {
+    "title": "Sources and further reading",
+    "items": [
+      { "label": "FreshBooks Support: How do I accept online payments with FreshBooks Payments?", "url": "https://support.freshbooks.com", "note": "Verified May 2026. FreshBooks Payments is restricted to US and Canada businesses." },
+      { "label": "FreshBooks Blog: Add FreshBooks Payments to Your Invoices", "url": "https://www.freshbooks.com/blog", "note": "Updated Feb 2026. ACH bank transfer fee is 1%, US customers only." },
+      { "label": "FreshBooks Features: Accept Payments in 25 currencies", "url": "https://www.freshbooks.com/en-gb/features", "note": "Verified May 2026." },
+      { "label": "Tech.co: FreshBooks Review 2026", "url": "https://tech.co", "note": "Updated Feb 2026. Testers confirmed default currency reverts to USD; multi-currency restricted to a single currency." },
+      { "label": "Tekpon: FreshBooks Pricing 2026", "url": "https://tekpon.com", "note": "Updated Mar 2026. Plan pricing reference." },
+      { "label": "ITQlick: FreshBooks Pricing — Hidden Costs", "url": "https://itqlick.com", "note": "Additional user fee $11/person/month." },
+      { "label": "Capterra: FreshBooks Software 2026", "url": "https://capterra.com", "note": "User reviews on ease of use and international bank connectivity issues." },
+      { "label": "FreshBooks Blog: Multi-Currency Accounting", "url": "https://www.freshbooks.com/blog", "note": "30M users across 160+ countries; currency/language support." },
+      { "label": "Software Advice: FreshBooks 2026", "url": "https://softwareadvice.com", "note": "Lite plan introductory pricing and plan feature breakdown." }
     ]
   },
   "related": {
@@ -106,8 +220,8 @@
     ]
   },
   "cta": {
-    "title": "Ready to switch from FreshBooks?",
-    "description": "Start free with audit-ready invoicing in under 10 minutes. No credit card required.",
-    "button": "Get Started Free"
+    "title": "Start sending compliant cross-border invoices today",
+    "description": "No credit card required. Set up your first compliant international invoice in under 5 minutes.",
+    "button": "Try Invoicemonk Free"
   }
 }
