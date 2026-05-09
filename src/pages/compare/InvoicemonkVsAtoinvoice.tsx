@@ -15,6 +15,10 @@ interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: 
 interface PlanItem { name: string; price: string; }
 interface StepItem { title: string; desc: string; }
 interface LinkItem { label: string; to: string; }
+interface SectionWithParas { title: string; paragraphs: string[]; }
+interface Scenario { title: string; intro: string; withCompetitor: SectionWithParas; withInvoicemonk: SectionWithParas; }
+interface SourceItem { label: string; url: string; }
+interface SourcesBlock { title: string; items: SourceItem[]; }
 
 export default function InvoicemonkVsAtoinvoice() {
   const { t } = useTranslation('compareAtoinvoice');
@@ -28,14 +32,23 @@ export default function InvoicemonkVsAtoinvoice() {
   const chooseInvoicemonk = t('choose.invoicemonk.items', { returnObjects: true }) as string[];
   const chooseCompetitor = t('choose.competitor.items', { returnObjects: true }) as string[];
 
+  const whatCompetitorIs = t('whatCompetitorIs', { returnObjects: true, defaultValue: null }) as SectionWithParas | null;
+  const whatInvoicemonkIs = t('whatInvoicemonkIs', { returnObjects: true, defaultValue: null }) as SectionWithParas | null;
+  const workflow = t('workflow', { returnObjects: true, defaultValue: null }) as Scenario | null;
+  const scenario = t('scenario', { returnObjects: true, defaultValue: null }) as Scenario | null;
+  const thirdPartyNote = t('thirdPartyNote', { returnObjects: true, defaultValue: null }) as SectionWithParas | null;
+  const bottomLine = t('bottomLine', { returnObjects: true, defaultValue: null }) as SectionWithParas | null;
+  const sources = t('sources', { returnObjects: true, defaultValue: null }) as SourcesBlock | null;
+  const lastUpdated = t('lastUpdated', { defaultValue: '' }) as string;
+
   return (
     <Layout>
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
       <FAQSchema items={faqs} />
-      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Compare', url: '/compare/best-invoicing-software' }, { name: 'vs Atoinvoice', url: '/compare/invoicemonk-vs-atoinvoice' }]} />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Compare', url: '/compare/best-invoicing-software' }, { name: 'vs AtoInvoice', url: '/compare/invoicemonk-vs-atoinvoice' }]} />
       <ComparisonReviewSchema
         itemName="Invoicemonk"
-        competitorName="Atoinvoice"
+        competitorName="AtoInvoice"
         positiveNotes={chooseInvoicemonk}
         negativeNotes={chooseCompetitor}
         url="/compare/invoicemonk-vs-atoinvoice"
@@ -44,13 +57,43 @@ export default function InvoicemonkVsAtoinvoice() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">{t('hero.title')}</h1>
-          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">{t('hero.subtitle')}</p>
+          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-4">{t('hero.subtitle')}</p>
+          {lastUpdated && <p className="text-xs text-muted-foreground text-center mb-12">{lastUpdated}</p>}
 
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-16">
             {overview.map((p, i) => <p key={i}>{p}</p>)}
           </div>
 
-          <ComparisonTable competitorName="Atoinvoice" features={features} />
+          {whatCompetitorIs && (
+            <div className="mb-16">
+              <h2 className="text-heading-lg font-bold text-foreground mb-6">{whatCompetitorIs.title}</h2>
+              <div className="space-y-4 text-muted-foreground">
+                {whatCompetitorIs.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+              </div>
+            </div>
+          )}
+
+          {whatInvoicemonkIs && (
+            <div className="mb-16">
+              <h2 className="text-heading-lg font-bold text-foreground mb-6">{whatInvoicemonkIs.title}</h2>
+              <div className="space-y-4 text-muted-foreground">
+                {whatInvoicemonkIs.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+              </div>
+            </div>
+          )}
+
+          {workflow && (
+            <div className="mb-16">
+              <h2 className="text-heading-lg font-bold text-foreground mb-4">{workflow.title}</h2>
+              <p className="text-muted-foreground mb-6">{workflow.intro}</p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card><CardContent className="p-6"><h3 className="font-semibold text-foreground mb-3">{workflow.withCompetitor.title}</h3><div className="space-y-3 text-sm text-muted-foreground">{workflow.withCompetitor.paragraphs.map((p, i) => <p key={i}>{p}</p>)}</div></CardContent></Card>
+                <Card className="border-primary/30"><CardContent className="p-6"><h3 className="font-semibold text-foreground mb-3">{workflow.withInvoicemonk.title}</h3><div className="space-y-3 text-sm text-muted-foreground">{workflow.withInvoicemonk.paragraphs.map((p, i) => <p key={i}>{p}</p>)}</div></CardContent></Card>
+              </div>
+            </div>
+          )}
+
+          <ComparisonTable competitorName="AtoInvoice" features={features} />
 
           <div className="mt-16">
             <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('pricing.title')}</h2>
@@ -103,6 +146,26 @@ export default function InvoicemonkVsAtoinvoice() {
             </Card>
           </div>
 
+          {scenario && (
+            <div className="mt-16">
+              <h2 className="text-heading-lg font-bold text-foreground mb-4">{scenario.title}</h2>
+              <p className="text-muted-foreground mb-6">{scenario.intro}</p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card><CardContent className="p-6"><h3 className="font-semibold text-foreground mb-3">{scenario.withCompetitor.title}</h3><div className="space-y-3 text-sm text-muted-foreground">{scenario.withCompetitor.paragraphs.map((p, i) => <p key={i}>{p}</p>)}</div></CardContent></Card>
+                <Card className="border-primary/30"><CardContent className="p-6"><h3 className="font-semibold text-foreground mb-3">{scenario.withInvoicemonk.title}</h3><div className="space-y-3 text-sm text-muted-foreground">{scenario.withInvoicemonk.paragraphs.map((p, i) => <p key={i}>{p}</p>)}</div></CardContent></Card>
+              </div>
+            </div>
+          )}
+
+          {thirdPartyNote && (
+            <div className="mt-16">
+              <h2 className="text-heading-lg font-bold text-foreground mb-6">{thirdPartyNote.title}</h2>
+              <div className="space-y-4 text-muted-foreground">
+                {thirdPartyNote.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+              </div>
+            </div>
+          )}
+
           <div className="mt-16">
             <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('migration.title')}</h2>
             <div className="space-y-4 max-w-2xl mx-auto">
@@ -127,7 +190,18 @@ export default function InvoicemonkVsAtoinvoice() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24">
+      {bottomLine && (
+        <section className="py-16 lg:py-24">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+            <h2 className="text-heading-lg font-bold text-foreground mb-6">{bottomLine.title}</h2>
+            <div className="space-y-4 text-muted-foreground">
+              {bottomLine.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-muted-foreground mb-4">{t('related.title')}</p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -137,6 +211,19 @@ export default function InvoicemonkVsAtoinvoice() {
           </div>
         </div>
       </section>
+
+      {sources && (
+        <section className="py-12 bg-muted/30">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+            <h2 className="text-base font-semibold text-foreground mb-4">{sources.title}</h2>
+            <ul className="space-y-2 text-sm text-muted-foreground list-disc pl-5">
+              {sources.items.map((s) => (
+                <li key={s.url}><a href={s.url} target="_blank" rel="nofollow noopener" className="hover:text-primary hover:underline">{s.label}</a></li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
