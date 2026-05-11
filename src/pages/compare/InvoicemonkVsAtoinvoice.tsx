@@ -9,6 +9,7 @@ import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema'
 import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
+import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -64,9 +65,14 @@ export default function InvoicemonkVsAtoinvoice() {
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-4">{t('hero.subtitle')}</p>
           {lastUpdated && <p className="text-xs text-muted-foreground text-center mb-12">{lastUpdated}</p>}
 
-          <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-16">
+          <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-8">
             {overview.map((p, i) => <p key={i}>{p}</p>)}
           </div>
+
+          <InlineSignupCTA variant="compact" />
+
+          <InlineSignupCTA variant="compact" />
+
 
           {whatCompetitorIs && (
             <div className="mb-16">
@@ -243,12 +249,14 @@ export default function InvoicemonkVsAtoinvoice() {
             <h2 className="text-base font-semibold text-foreground mb-4">{sources.title}</h2>
             <ul className="space-y-2 text-sm text-muted-foreground list-disc pl-5">
               {sources.items.map((s) => (
-                <li key={s.url}><a href={s.url} target="_blank" rel="nofollow noopener" className="hover:text-primary hover:underline">{s.label}</a></li>
+                <li key={s.url}>{s.label}</li>
               ))}
             </ul>
           </div>
         </section>
       )}
+
+      <InlineSignupCTA variant="banner" />
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

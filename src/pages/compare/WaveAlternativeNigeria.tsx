@@ -6,6 +6,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
+import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 
 const faqs = [
   { question: 'Why is Wave not ideal for Nigerian businesses?', answer: 'Wave\'s payment processing doesn\'t work in Nigeria, there are no FIRS compliance features, no TIN fields, and no 7.5% VAT defaults for NGN. Nigerian businesses need invoicing software with local tax compliance built in.' },
@@ -82,12 +83,16 @@ export default function WaveAlternativeNigeria() {
         </div>
       </section>
 
+      <InlineSignupCTA variant="banner" />
+
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">Frequently Asked Questions</h2>
           <div className="space-y-6">{faqs.map((faq, i) => (<div key={i}><h3 className="font-semibold text-foreground mb-2">{faq.question}</h3><p className="text-muted-foreground">{faq.answer}</p></div>))}</div>
         </div>
       </section>
+
+      <InlineSignupCTA variant="banner" />
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

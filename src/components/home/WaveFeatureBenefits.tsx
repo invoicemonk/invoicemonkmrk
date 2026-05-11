@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { useTranslation } from 'react-i18next';
-import featureRelief from '@/assets/feature-relief.jpg';
+import featureRelief from '@/assets/feature-relief.png';
 import featureProfessional from '@/assets/feature-professional.jpg';
 import featureCompliance from '@/assets/feature-compliance.jpg';
 
 const images = [featureRelief, featureProfessional, featureCompliance];
-const imageAlts = ['Person relaxed at desk with laptop', 'Professional invoice on screen', 'Audit trail dashboard'];
+const imageAlts = ['Invoicemonk invoice with immutable record badge and audit trail', 'Professional invoice on screen', 'Audit trail dashboard'];
 const reverseFlags = [false, true, false];
 
 export function WaveFeatureBenefits() {

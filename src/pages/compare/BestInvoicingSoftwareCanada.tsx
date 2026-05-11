@@ -1,3 +1,4 @@
+import React from 'react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -6,6 +7,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
+import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 
 const tools = [
   {
@@ -73,7 +75,8 @@ export default function BestInvoicingSoftwareCanada() {
 
           <div className="space-y-8 mt-12">
             {tools.map((tool, i) => (
-              <Card key={i} className={tool.highlight ? 'border-primary ring-1 ring-primary/20' : 'border-border/50'}>
+              <React.Fragment key={i}>
+                <Card className={tool.highlight ? 'border-primary ring-1 ring-primary/20' : 'border-border/50'}>
                 <CardContent className="p-6">
                   <div className="flex items-center gap-2 mb-2">
                     <h2 className="text-lg font-bold text-foreground">{i + 1}. {tool.name}</h2>
@@ -93,7 +96,9 @@ export default function BestInvoicingSoftwareCanada() {
                   </div>
                 </CardContent>
               </Card>
-            ))}
+            {i === 0 && <InlineSignupCTA variant="compact" />}
+            </React.Fragment>
+              ))}
           </div>
 
           <div className="mt-12 text-center">
@@ -107,12 +112,16 @@ export default function BestInvoicingSoftwareCanada() {
         </div>
       </section>
 
+      <InlineSignupCTA variant="banner" />
+
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">Frequently Asked Questions</h2>
           <div className="space-y-6">{faqs.map((faq, i) => (<div key={i}><h3 className="font-semibold text-foreground mb-2">{faq.question}</h3><p className="text-muted-foreground">{faq.answer}</p></div>))}</div>
         </div>
       </section>
+
+      <InlineSignupCTA variant="banner" />
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -19,9 +19,14 @@ import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 import { ReactNode } from 'react';
+import estimatesTemplates from '@/assets/estimates-templates.jpg';
+import estimatesClientPortal from '@/assets/estimates-client-portal.jpg';
+import estimatesTracking from '@/assets/estimates-tracking.jpg';
+import estimatesConversion from '@/assets/estimates-conversion.jpg';
 
 const featureIcons = [FileText, CheckCircle, RefreshCw];
 const conversionIcons = [TrendingUp, MessageSquare, BarChart];
+const tabImages = [estimatesTemplates, estimatesClientPortal, estimatesTracking];
 
 const Estimates = () => {
   const { t } = useTranslation('estimates');
@@ -41,7 +46,7 @@ const Estimates = () => {
   const faqItems = t('faq.items', { returnObjects: true }) as { question: string; answer: string }[];
   const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];
   const featureBlocks = (t('features.blocks', { returnObjects: true }) as { title: string; description: string }[]).map((b, i) => ({ ...b, icon: featureIcons[i] }));
-  const tabItems = t('tabs.items', { returnObjects: true }) as { label: string; title: string; description: string }[];
+  const tabItems = (t('tabs.items', { returnObjects: true }) as { label: string; title: string; description: string }[]).map((tab, i) => ({ ...tab, image: tabImages[i] }));
   const howSteps = (t('howItWorks.steps', { returnObjects: true }) as { title: string; description: string }[]).map((s, i) => ({ ...s, number: i + 1 }));
   const convFeatures = (t('conversion.features', { returnObjects: true }) as { title: string; description: string }[]).map((f, i) => ({ ...f, icon: conversionIcons[i] }));
 

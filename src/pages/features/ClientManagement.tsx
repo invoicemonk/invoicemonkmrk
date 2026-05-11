@@ -15,9 +15,14 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { useTranslation } from 'react-i18next';
 import { ReactNode } from 'react';
+import clientsProfiles from '@/assets/clients-profiles.jpg';
+import clientsCommunication from '@/assets/clients-communication.jpg';
+import clientsSegmentation from '@/assets/clients-segmentation.jpg';
+import clientsAlternating from '@/assets/clients-alternating.jpg';
 
 const featureIcons = [Users, FileText, BarChart3];
 const altIcons = [FileText, BarChart3, Repeat];
+const tabImages = [clientsProfiles, clientsCommunication, clientsSegmentation];
 
 const ClientManagement = () => {
   const { t } = useTranslation('clientManagement');
@@ -33,7 +38,7 @@ const ClientManagement = () => {
   const clients = t('mockup.clients', { returnObjects: true }) as { name: string; invoices: number; total: number; status: string }[];
   const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];
   const featureBlocks = (t('features.blocks', { returnObjects: true }) as { title: string; description: string }[]).map((b, i) => ({ ...b, icon: featureIcons[i] }));
-  const tabItems = t('tabs.items', { returnObjects: true }) as { label: string; title: string; description: string }[];
+  const tabItems = (t('tabs.items', { returnObjects: true }) as { label: string; title: string; description: string }[]).map((tab, i) => ({ ...tab, image: tabImages[i] }));
   const altFeatures = (t('alternating.features', { returnObjects: true }) as { title: string; description: string }[]).map((f, i) => ({ ...f, icon: altIcons[i] }));
   const benefitItems = t('benefits.items', { returnObjects: true }) as string[];
   const faqItems = t('faq.items', { returnObjects: true }) as { question: string; answer: string }[];
@@ -159,7 +164,7 @@ const ClientManagement = () => {
       </section>
 
       <WaveTabbedFeature title={t('tabs.title')} subtitle={t('tabs.subtitle')} tabs={tabItems} />
-      <WaveAlternatingFeature title={t('alternating.title')} subtitle={t('alternating.subtitle')} features={altFeatures} className="bg-card" />
+      <WaveAlternatingFeature title={t('alternating.title')} subtitle={t('alternating.subtitle')} features={altFeatures} image={clientsAlternating} className="bg-card" />
 
       {/* Benefits Checklist */}
       <section className="py-20 lg:py-32 bg-muted/30">

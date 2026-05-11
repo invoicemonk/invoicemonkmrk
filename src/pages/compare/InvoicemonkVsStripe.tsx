@@ -9,6 +9,7 @@ import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema'
 import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
+import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -62,6 +63,8 @@ export default function InvoicemonkVsStripe() {
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-16">
             {overview.map((p, i) => <p key={i}>{p}</p>)}
           </div>
+
+          <InlineSignupCTA variant="compact" />
 
           {whatStripeIs && (
             <div className="mb-16">
@@ -124,6 +127,8 @@ export default function InvoicemonkVsStripe() {
             </div>
           )}
 
+          <InlineSignupCTA variant="compact" />
+
           <div className="grid md:grid-cols-2 gap-8 mt-16">
             <Card className="border-primary/30"><CardContent className="p-6"><h3 className="font-semibold text-foreground mb-3">{t('choose.invoicemonk.title')}</h3><ul className="space-y-2 text-sm text-muted-foreground">{chooseInvoicemonk.map((item) => (<li key={item} className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />{item}</li>))}</ul></CardContent></Card>
             <Card><CardContent className="p-6"><h3 className="font-semibold text-foreground mb-3">{t('choose.competitor.title')}</h3><ul className="space-y-2 text-sm text-muted-foreground">{chooseCompetitor.map((item) => (<li key={item} className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />{item}</li>))}</ul></CardContent></Card>
@@ -177,12 +182,14 @@ export default function InvoicemonkVsStripe() {
             <h2 className="text-base font-semibold text-foreground mb-4">{sources.title}</h2>
             <ul className="space-y-2 text-sm text-muted-foreground list-disc pl-5">
               {sources.items.map((s) => (
-                <li key={s.url}><a href={s.url} target="_blank" rel="nofollow noopener" className="hover:text-primary hover:underline">{s.label}</a></li>
+                <li key={s.url}>{s.label}</li>
               ))}
             </ul>
           </div>
         </section>
       )}
+
+      <InlineSignupCTA variant="banner" />
 
       <section className="py-16 lg:py-24 bg-primary"><div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center"><h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2><p className="text-white/90 mb-8 max-w-xl mx-auto">{t('cta.description')}</p><Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild><a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">{t('cta.button')}<ArrowRight className="ml-2 w-4 h-4" /></a></Button></div></section>
     </Layout>

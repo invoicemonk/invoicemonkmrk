@@ -1,3 +1,4 @@
+import React from 'react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -10,6 +11,7 @@ import { MatrixTable } from '@/components/compare/MatrixTable';
 import { PricingTiers } from '@/components/compare/PricingTiers';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
+import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 
 interface FAQItem { question: string; answer: string; }
 interface LinkItem { label: string; to: string; }
@@ -178,7 +180,7 @@ export default function BestInvoicingSoftware() {
           <p className="text-muted-foreground mb-6">{t('rubric.intro')}</p>
           <div className="grid sm:grid-cols-2 gap-4 mb-10">
             {rubricCriteria.map((c, i) => (
-              <Card key={i} className="border-border/60">
+                <Card key={i} className="border-border/60">
                 <CardContent className="p-5">
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="font-semibold text-foreground">{c.name}</h3>
@@ -231,7 +233,8 @@ export default function BestInvoicingSoftware() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
           <div className="space-y-10">
             {tools.map((tool, i) => (
-              <Card key={i} className={tool.highlight ? 'border-primary ring-1 ring-primary/20' : 'border-border/50'} id={tool.name.toLowerCase().replace(/\s+/g, '-')}>
+              <React.Fragment key={i}>
+              <Card className={tool.highlight ? 'border-primary ring-1 ring-primary/20' : 'border-border/50'} id={tool.name.toLowerCase().replace(/\s+/g, '-')}>
                 <CardContent className="p-6 lg:p-8">
                   <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
                     <div>
@@ -302,10 +305,14 @@ export default function BestInvoicingSoftware() {
                   </div>
                 </CardContent>
               </Card>
+              {i === 0 && <InlineSignupCTA variant="compact" />}
+              </React.Fragment>
             ))}
           </div>
         </div>
       </section>
+
+      <InlineSignupCTA variant="banner" />
 
       {/* Use cases */}
       <section className="py-12 bg-muted/20">
@@ -416,6 +423,8 @@ export default function BestInvoicingSoftware() {
       </section>
 
       {/* CTA */}
+      <InlineSignupCTA variant="banner" />
+
       <section className="py-16 lg:py-20 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2>

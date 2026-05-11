@@ -1,7 +1,7 @@
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowRight, CheckCircle, AlertTriangle, ExternalLink } from 'lucide-react';
+import { ArrowRight, CheckCircle, AlertTriangle } from 'lucide-react';
 import { Fragment } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { SEOHead } from '@/components/seo/SEOHead';
@@ -11,6 +11,7 @@ import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema'
 import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
+import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -123,12 +124,16 @@ export default function InvoicemonkVsWave() {
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-12">
             {overview.map((p, i) => <p key={i}>{p}</p>)}
           </div>
+
+          <InlineSignupCTA variant="compact" />
           <h2 className="text-heading-lg font-bold text-foreground mb-6">Invoicing for international freelancers</h2>
           <ComparisonTable competitorName="Wave" features={features} />
         </div>
       </section>
 
       {/* DEEP DIVE */}
+      <InlineSignupCTA variant="banner" />
+
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-12">{t('deepDive.title')}</h2>
@@ -361,11 +366,7 @@ export default function InvoicemonkVsWave() {
           <h2 className="text-lg font-semibold text-foreground mb-4">{t('sources.title')}</h2>
           <ul className="space-y-2 text-sm">
             {sources.map((s) => (
-              <li key={s.url}>
-                <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
-                  {s.label}<ExternalLink className="w-3 h-3" />
-                </a>
-              </li>
+              <li key={s.url}>{s.label}</li>
             ))}
           </ul>
         </div>
@@ -384,6 +385,8 @@ export default function InvoicemonkVsWave() {
       </section>
 
       {/* CTA */}
+      <InlineSignupCTA variant="banner" />
+
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2>

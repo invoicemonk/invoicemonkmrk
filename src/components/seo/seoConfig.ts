@@ -269,8 +269,8 @@ export const pageSEO: Record<string, PageSEO> = {
     changefreq: 'monthly',
   },
   '/compare/invoicemonk-vs-quickbooks': {
-    getTitle: () => 'Invoicemonk vs QuickBooks: Affordable Alternative | 2026 Comparison',
-    getDescription: () => 'Compare Invoicemonk and QuickBooks for small business invoicing. See features, pricing, and which is the best fit.',
+    getTitle: () => 'Invoicemonk vs QuickBooks Online (2026): Best for International Freelancers?',
+    getDescription: () => 'QuickBooks Online starts at $38/mo and rises to $275/mo, with 12–17% annual price hikes and no native international payments. See how Invoicemonk compares for cross-border freelance invoicing.',
     ogType: 'website',
     priority: 0.7,
     changefreq: 'monthly',

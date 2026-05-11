@@ -25,9 +25,13 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
+import invoicingEuVat from '@/assets/invoicing-eu-vat.jpg';
+import invoicingAfrica from '@/assets/invoicing-africa.jpg';
+import invoicingGlobal from '@/assets/invoicing-global.jpg';
 
 const FEATURE_ICONS = [Globe, Repeat, ListOrdered, Coins, ShieldCheck, FileMinus];
 const STEP_ICONS = [UserPlus, FileText, Send];
+const TABBED_IMAGES = [invoicingEuVat, invoicingAfrica, invoicingGlobal];
 
 const Invoicing = () => {
   const { t } = useTranslation('invoicing');
@@ -42,9 +46,9 @@ const Invoicing = () => {
   const relatedLinks = t('related.links', { returnObjects: true }) as { label: string; to: string }[];
 
   const tabbedFeatures = [
-    { label: t('tabbed.tabs.eu.label'), title: t('tabbed.tabs.eu.title'), description: t('tabbed.tabs.eu.description') },
-    { label: t('tabbed.tabs.africa.label'), title: t('tabbed.tabs.africa.title'), description: t('tabbed.tabs.africa.description') },
-    { label: t('tabbed.tabs.global.label'), title: t('tabbed.tabs.global.title'), description: t('tabbed.tabs.global.description') },
+    { label: t('tabbed.tabs.eu.label'), title: t('tabbed.tabs.eu.title'), description: t('tabbed.tabs.eu.description'), image: TABBED_IMAGES[0] },
+    { label: t('tabbed.tabs.africa.label'), title: t('tabbed.tabs.africa.title'), description: t('tabbed.tabs.africa.description'), image: TABBED_IMAGES[1] },
+    { label: t('tabbed.tabs.global.label'), title: t('tabbed.tabs.global.title'), description: t('tabbed.tabs.global.description'), image: TABBED_IMAGES[2] },
   ];
 
   return (

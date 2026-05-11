@@ -9,6 +9,7 @@ import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema'
 import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
+import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -117,6 +118,8 @@ export default function InvoicemonkVsFreshbooks() {
         </div>
       </section>
 
+      <InlineSignupCTA variant="banner" />
+
       {/* Compliance */}
       <section className="pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
@@ -194,6 +197,8 @@ export default function InvoicemonkVsFreshbooks() {
       </section>
 
       {/* Scenario */}
+      <InlineSignupCTA variant="banner" />
+
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
           <h2 className="text-heading-md font-bold text-foreground text-center mb-4">{t('scenario.title')}</h2>
@@ -320,6 +325,8 @@ export default function InvoicemonkVsFreshbooks() {
       </section>
 
       {/* CTA */}
+      <InlineSignupCTA variant="banner" />
+
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2>
@@ -339,7 +346,7 @@ export default function InvoicemonkVsFreshbooks() {
           <ul className="space-y-3 text-xs text-muted-foreground">
             {sources.map((s, i) => (
               <li key={i}>
-                <a href={s.url} target="_blank" rel="noopener noreferrer nofollow" className="text-primary hover:underline font-medium">{s.label}</a>
+                <span className="font-medium text-foreground">{s.label}</span>
                 <span> — {s.note}</span>
               </li>
             ))}

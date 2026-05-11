@@ -19,9 +19,13 @@ import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { useTranslation } from 'react-i18next';
 import { ReactNode } from 'react';
+import receiptsScanning from '@/assets/receipts-scanning.jpg';
+import receiptsStorage from '@/assets/receipts-storage.jpg';
+import receiptsSearch from '@/assets/receipts-search.jpg';
 
 const featureIcons = [Camera, FolderOpen, Search];
 const storageIcons = [Cloud, Shield, Tag];
+const tabImages = [receiptsScanning, receiptsStorage, receiptsSearch];
 
 const Receipts = () => {
   const { t } = useTranslation('receipts');
@@ -38,7 +42,7 @@ const Receipts = () => {
   const faqItems = t('faq.items', { returnObjects: true }) as { question: string; answer: string }[];
   const bannerFeatures = t('banner.features', { returnObjects: true }) as string[];
   const featureBlocks = (t('features.blocks', { returnObjects: true }) as { title: string; description: string }[]).map((b, i) => ({ ...b, icon: featureIcons[i] }));
-  const tabItems = t('tabs.items', { returnObjects: true }) as { label: string; title: string; description: string }[];
+  const tabItems = (t('tabs.items', { returnObjects: true }) as { label: string; title: string; description: string }[]).map((tab, i) => ({ ...tab, image: tabImages[i] }));
   const howSteps = (t('howItWorks.steps', { returnObjects: true }) as { title: string; description: string }[]).map((s, i) => ({ ...s, number: i + 1 }));
   const storageFeatures = (t('storage.features', { returnObjects: true }) as { title: string; description: string }[]).map((f, i) => ({ ...f, icon: storageIcons[i] }));
   const receipts = t('mockup.receipts', { returnObjects: true }) as { vendor: string; amount: number; category: string; date: string }[];
