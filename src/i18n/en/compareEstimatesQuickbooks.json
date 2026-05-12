@@ -1,93 +1,260 @@
 {
   "seo": {
-    "title": "Invoicemonk Estimates vs QuickBooks Estimates: 2026 Comparison",
-    "description": "Compare estimates and quotes features in Invoicemonk vs QuickBooks. Which tool creates better proposals, converts estimates to invoices faster, and costs less?"
+    "title": "Invoicemonk Estimates vs QuickBooks: Best for International Freelancers? (2026)",
+    "description": "QuickBooks estimates work well for US/Canada users, but break for international freelancers on deposits, multi-currency, and cross-border compliance. Full 2026 comparison."
   },
   "hero": {
-    "title": "Invoicemonk Estimates vs QuickBooks",
-    "subtitle": "Both tools create estimates — but their approach, pricing, and workflow couldn't be more different."
+    "title": "Invoicemonk Estimates vs QuickBooks: Which Is Better for International Freelancers?",
+    "subtitle": "QuickBooks built a great estimates workflow — for US and Canada-based businesses with QuickBooks Payments. For everyone else, three things break.",
+    "meta": "Last updated: May 2026 · 13 min read"
   },
-  "overview": [
-    "Creating and sending estimates is a critical part of winning business. Both Invoicemonk and QuickBooks offer estimates features, but they serve different audiences with different philosophies. QuickBooks treats estimates as one feature among hundreds in a comprehensive accounting platform. Invoicemonk treats estimates as a core part of the client engagement workflow — from initial quote to final invoice.",
-    "The practical difference shows up in the details: Invoicemonk's estimates include online client approval portals, one-click estimate-to-invoice conversion, and branded templates that match your invoices. QuickBooks' estimates are functional but basic — designed to feed data into the accounting system rather than to win you business.",
-    "For freelancers and small service businesses where estimates directly drive revenue, the quality of your estimates tool matters more than most people realise. A polished, easy-to-approve estimate converts at a higher rate than a generic one. And the ability to convert approved estimates to invoices with one click saves hours of re-entry."
-  ],
-  "features": [
-    { "name": "Create estimates/quotes", "invoicemonk": true, "competitor": true },
-    { "name": "Online client approval", "invoicemonk": true, "competitor": false },
-    { "name": "One-click estimate-to-invoice", "invoicemonk": true, "competitor": true },
-    { "name": "Branded estimate templates", "invoicemonk": true, "competitor": "Basic" },
-    { "name": "Tiered pricing on estimates", "invoicemonk": true, "competitor": false },
-    { "name": "Automatic follow-up reminders", "invoicemonk": true, "competitor": false },
-    { "name": "Estimate expiry dates", "invoicemonk": true, "competitor": true },
-    { "name": "Multi-currency estimates", "invoicemonk": true, "competitor": true },
-    { "name": "Estimate analytics", "invoicemonk": true, "competitor": "Basic" },
-    { "name": "Free tier (estimates)", "invoicemonk": true, "competitor": false },
-    { "name": "Starting price", "invoicemonk": "Free", "competitor": "$30/mo" }
-  ],
-  "pricing": {
-    "title": "What estimates cost you",
-    "invoicemonk": {
-      "title": "Invoicemonk",
-      "plans": [
-        { "name": "Free tier", "price": "$0/mo" },
-        { "name": "Starter", "price": "Affordable" },
-        { "name": "Professional", "price": "Mid-range" },
-        { "name": "Business", "price": "Full suite" }
-      ],
-      "note": "Estimates, invoicing, expenses, and accounting included on every plan. Unlimited estimates on paid plans."
-    },
-    "competitor": {
-      "title": "QuickBooks Online",
-      "plans": [
-        { "name": "Simple Start (1 user)", "price": "$30/mo" },
-        { "name": "Essentials (3 users)", "price": "$60/mo" },
-        { "name": "Plus (5 users)", "price": "$90/mo" }
-      ],
-      "note": "Estimates are included but basic. No online approval portal. No automatic follow-up reminders."
-    },
-    "summary": "For a freelancer sending 10 estimates per month: Invoicemonk = $0/year with full features. QuickBooks = $360+/year with basic estimates."
+  "quickAnswer": {
+    "label": "Quick answer",
+    "body": "QuickBooks has a capable estimates feature that converts accepted quotes directly into invoices, supports progress invoicing, and integrates deposit requests into the same document. It is well-built for the use case it serves: a US-based small business managing domestic client proposals within a full accounting system. For international freelancers, QuickBooks estimates carry three problems that compound each other: the estimates feature requires a minimum $38/month subscription, QuickBooks Payments (the payment layer tied to deposit requests on estimates) is only available to US and Canada-based businesses, and the estimate template does not generate compliance-first documentation for cross-border transactions. Invoicemonk's estimates workflow (launching soon — join the waitlist) is being built specifically for international freelancers, with compliant cross-border quotes, multi-currency support, and a direct pipeline from accepted estimate to payment-ready invoice, in every country, without geographic restrictions."
   },
-  "choose": {
-    "invoicemonk": {
-      "title": "Choose Invoicemonk estimates if you…",
-      "items": [
-        "Want online client approval with one-click acceptance",
-        "Need branded estimate templates that match your invoices",
-        "Want automatic follow-up reminders on pending estimates",
-        "Need a free tier that includes full estimates functionality",
-        "Value a streamlined estimate-to-invoice workflow"
+  "whyEstimatesMatter": {
+    "title": "Why estimates matter as much as invoices",
+    "paragraphs": [
+      "Most freelancers focus their tool evaluation on invoicing. Estimates are often treated as an afterthought — a PDF sent before the real transaction begins. For international freelancers, this is a costly mistake.",
+      "An estimate is the first formal document your client receives from you. It establishes the scope of work, the price, the currency, the payment terms, and in many jurisdictions it has legal significance as a pre-contractual document. A poorly structured estimate can create disputes about what was agreed, delay project approval, and — for international clients with formal procurement processes — fail to pass the compliance checks their purchasing teams apply before authorising any vendor engagement.",
+      "The workflow from estimate to invoice is also where the most administrative friction accumulates. Freelancers who use one tool for estimates and another for invoices, or who manually re-enter estimate data into an invoice after client approval, introduce transcription errors, lose time, and create a disconnected paper trail that is difficult to audit.",
+      "The right estimates tool connects directly to your invoicing workflow, carries the same compliance logic as your invoices, and allows your client to approve and pay from the same document. This comparison examines how QuickBooks and Invoicemonk handle this end-to-end estimates workflow for international freelancers specifically."
+    ]
+  },
+  "quickbooksWorkflow": {
+    "title": "What QuickBooks Estimates does",
+    "paragraphs": [
+      "QuickBooks Online includes estimates as a core feature across all plans from Simple Start upward. The platform allows you to create professional estimates, send them to clients, and automatically convert accepted estimates into invoices without re-entering any data.",
+      "The workflow is straightforward: create an estimate in the Sales section, add line items and tax rates, send it to the client, and mark it as accepted once the client approves. From the accepted estimate, you click Convert to Invoice and QuickBooks generates a linked invoice carrying all the estimate's data, with any partial billing or milestone billing handled through progress invoicing.",
+      "QuickBooks' estimating page also promotes a Deposits on Estimates feature, citing a case study where Fuller Glass Company gets deposits seven days faster and saves 104 hours per year in administrative work. Per QuickBooks: \"Now I just set the deposit to 50% right on the estimate, send it, and customers can click and pay instantly.\" This is a genuinely efficient workflow for the businesses it was designed to serve."
+    ],
+    "statusTitle": "The estimate status system in QuickBooks Online",
+    "statusBody": "QuickBooks tracks estimates through a status workflow: Pending, Accepted, Converted, and Declined. Estimates are non-posting transactions, meaning they do not affect your accounts or financial reports until converted to an invoice. The Estimates and Progress Invoicing Summary by Customer report shows which estimates have been fully or partially billed.",
+    "frictionTitle": "Where the QuickBooks estimates workflow has friction",
+    "frictionBody": "QuickBooks community forums document several recurring issues. After the May 2026 interface update, some options previously available on estimates were changed or removed — including the ability to close an estimate without marking it declined — causing frustration for users managing back-ordered or postponed work. Multiple posts confirm the option to convert an estimate to an invoice was temporarily unavailable for some users after the update, requiring cache clears or desktop reinstalls. More significantly for international freelancers: QuickBooks support has confirmed you can only turn an estimate into an invoice in QBO, not link an existing invoice to an estimate retroactively, which complicates workflows where approval and invoicing happen out of sequence."
+  },
+  "threeProblems": {
+    "title": "The three problems with QuickBooks estimates for international freelancers",
+    "items": [
+      {
+        "title": "1. Deposits on Estimates does not work outside the US and Canada",
+        "body": "QuickBooks' most-promoted estimates capability — request a deposit directly from the estimate document with a clickable payment link — requires QuickBooks Payments. Per QuickBooks' own documentation and community support, QuickBooks Payments is only available to businesses based in the US and Canada. International freelancers must request deposits separately through a manually created invoice or external payment method, breaking the seamless estimate-to-payment workflow entirely."
+      },
+      {
+        "title": "2. The estimate template does not generate cross-border compliant documentation",
+        "body": "A professional estimate sent to an enterprise or mid-market client in another country often needs to meet specific documentation requirements before it can be approved through their procurement system: tax IDs, VAT registration numbers, currency notation that meets local standards, validity period language required by the client's jurisdiction, and pre-contractual disclosure terms. QuickBooks templates are designed for the US and Canadian market — they produce well-formatted documents, but ensuring those documents meet international procurement standards is entirely the freelancer's responsibility."
+      },
+      {
+        "title": "3. The minimum cost is $38/month for the estimates feature",
+        "body": "QuickBooks Solopreneur at $20/month does not include the full estimates and convert-to-invoice workflow. Simple Start at $38/month is the entry point. For a freelancer whose primary need is sending compliant estimates to international clients and converting them cleanly into invoices, paying $38/month for a feature bundled with payroll infrastructure, inventory management setup, and US-focused accounting tools they will never use is significant overhead."
+      }
+    ]
+  },
+  "invoicemonkWorkflow": {
+    "title": "What Invoicemonk Estimates will do",
+    "comingSoonNote": "Invoicemonk Estimates is launching soon. Join the waitlist to be first in.",
+    "paragraphs": [
+      "Invoicemonk's estimates feature is being built specifically for the international freelance workflow: creating a professional, compliance-aware quote, sending it to a client in their currency, converting it to a payment-ready invoice the moment it is accepted, and collecting a deposit if required — without geographic restrictions on any part of the process.",
+      "The intended workflow: you create an estimate in Invoicemonk. The platform generates a compliant document that meets the requirements for a quote from your jurisdiction to your client's jurisdiction, applying the relevant fields and terms for the countries involved. You send it directly from the platform. Your client receives a professional estimate in their currency with a clear approval mechanism.",
+      "When the client approves, you convert the estimate to an invoice in one action. All line items, currency values, tax fields, and client details carry over automatically with no re-entry. If you want to collect a deposit, you can generate a deposit invoice from the same estimate before the full project invoice, maintaining a clean paper trail between all documents. Invoicemonk's payments layer (already live today) then handles the collection — globally, not US/CA only."
+    ]
+  },
+  "featuresMatrix": {
+    "title": "Feature comparison: estimates",
+    "headers": ["Feature", "Invoicemonk", "QB Simple Start ($38/mo)", "QB Essentials ($75/mo)", "QB Plus ($115/mo)"],
+    "rows": [
+      { "label": "Create and send estimates", "values": [true, true, true, true] },
+      { "label": "Convert estimate to invoice", "values": [true, true, true, true] },
+      { "label": "Progress invoicing from estimate", "values": [true, true, true, true] },
+      { "label": "Deposit request from estimate", "values": [true, "US/CA only", "US/CA only", "US/CA only"] },
+      { "label": "Multi-currency estimates", "values": [true, false, false, "Region-dependent"] },
+      { "label": "Compliance-first cross-border estimates", "values": [true, false, false, false] },
+      { "label": "Estimate status tracking", "values": [true, true, true, true] },
+      { "label": "Estimate expiry dates", "values": [true, true, true, true] },
+      { "label": "One-click estimate to invoice", "values": [true, true, true, true] },
+      { "label": "Linked deposit invoice", "values": [true, "Manual", "Manual", "Manual (non-US)"] },
+      { "label": "Automatic reminders on converted invoice", "values": [true, true, true, true] },
+      { "label": "International deposit payment link", "values": [true, false, false, false] },
+      { "label": "Compliance fields for cross-border quotes", "values": [true, false, false, false] }
+    ],
+    "footnote": "Invoicemonk Estimates is launching soon — feature commitments reflect the published product roadmap. Invoicemonk Payments is live today and powers the deposit/invoice collection layer."
+  },
+  "platformMatrix": {
+    "title": "Feature comparison: full platform",
+    "headers": ["Feature", "Invoicemonk", "QB Simple Start", "QB Essentials", "QB Plus"],
+    "rows": [
+      { "label": "Monthly price", "values": ["From $0 (Pro $15, SME $49)", "$38", "$75", "$115"] },
+      { "label": "Estimates and invoicing", "values": [true, true, true, true] },
+      { "label": "Multi-currency invoicing", "values": [true, false, false, "Region-dependent"] },
+      { "label": "International payment processing", "values": [true, false, false, false] },
+      { "label": "Compliance-first invoice generation", "values": [true, false, false, false] },
+      { "label": "Automatic payment reminders", "values": [true, true, true, true] },
+      { "label": "Time tracking", "values": [false, false, true, true] },
+      { "label": "Inventory management", "values": [false, false, false, true] },
+      { "label": "Payroll (add-on)", "values": [false, true, true, true] },
+      { "label": "Over 65 financial reports", "values": [false, "Basic", "Basic", true] },
+      { "label": "International bank connectivity", "values": [true, "Limited", "Limited", "Limited"] },
+      { "label": "Documented annual price increase", "values": ["N/A", "12.7%/yr", "11.9%/yr", "13.1%/yr"] },
+      { "label": "Built for international freelancers", "values": [true, false, false, false] }
+    ]
+  },
+  "pricingDetail": {
+    "title": "Pricing comparison",
+    "quickbooks": {
+      "title": "QuickBooks Online pricing for estimates (2026)",
+      "intro": "Estimates are available from Simple Start upward. All prices are standard monthly rates following the May 1, 2026 increase, as documented by NerdWallet and CostBench.",
+      "plans": [
+        { "name": "Solopreneur — $20/mo", "desc": "Basic invoicing and expense tracking. Does not include the full estimates-to-invoice workflow with progress invoicing. Suitable for gig workers filing Schedule C." },
+        { "name": "Simple Start — $38/mo", "desc": "Entry point for estimates, convert-to-invoice, basic progress invoicing, 1 user. No multi-currency. QuickBooks Payments deposits not available outside US/CA. Median annual spend ≈ $456." },
+        { "name": "Essentials — $75/mo", "desc": "Adds bill management, time tracking, up to 3 users. Still no multi-currency invoicing in most regions. International deposits still unavailable. Median annual spend ≈ $900." },
+        { "name": "Plus — $115/mo", "desc": "Most popular. Adds multi-currency in some regions, inventory, project profitability, up to 5 users. International deposit requests still unavailable. Median annual spend ≈ $1,380." }
+      ],
+      "hiddenTitle": "Hidden costs relevant to international freelancers",
+      "hidden": [
+        "QuickBooks Payments credit card processing on converted invoices: 2.99% per transaction.",
+        "International card surcharge: +1%.",
+        "For freelancers outside US/CA, QuickBooks Payments is unavailable for the estimate deposit workflow — third-party payment integration required at additional cost.",
+        "Annual price increases averaging 12.7%–13.1% per year since 2023 (NerdWallet, March 2026)."
       ]
     },
-    "competitor": {
-      "title": "Choose QuickBooks estimates if you…",
-      "items": [
-        "Already use QuickBooks for accounting and want estimates in the same system",
-        "Need estimates integrated with inventory and project costing",
-        "Have a US-based CPA who manages your QuickBooks account",
-        "Need 1099 contractor estimates alongside employee payroll"
-      ]
+    "invoicemonk": {
+      "title": "Invoicemonk pricing (2026)",
+      "intro": "When Invoicemonk Estimates launches it will be included on every paid plan, with no geographic restrictions on deposits, multi-currency, or compliance fields.",
+      "plans": [
+        { "name": "Starter — $0/mo", "desc": "Free tier: 5 invoices/month, 5 receipts/month, up to 5 clients, 1 currency account, watermark-free PDFs, accounting module, expense tracking." },
+        { "name": "Pro — $15/mo", "desc": "Unlimited invoices, unlimited clients, unlimited currency accounts, up to 5 team members, custom branding, full audit trail, data exports." },
+        { "name": "SME — $49/mo", "desc": "Everything in Pro plus unlimited team members, online payments, advanced reports, premium templates." },
+        { "name": "Biz — Custom", "desc": "E-invoicing & government submission, dedicated account manager, custom integrations, SLA guarantee, priority support." }
+      ],
+      "annualNote": "Annual billing: pay for 10 months, get 12 (~17% off). No documented annual price-increase pattern."
     }
   },
-  "migration": {
-    "title": "How to switch estimates from QuickBooks to Invoicemonk",
-    "steps": [
-      { "title": "Export QuickBooks estimates", "desc": "Go to Reports → Sales → Estimates by Customer in QuickBooks. Export your estimate history and client list." },
-      { "title": "Sign up for Invoicemonk", "desc": "Create a free account and set up your business profile with branding, tax settings, and payment terms." },
-      { "title": "Import clients", "desc": "Upload your client list from the QuickBooks export. Invoicemonk maps contact details automatically." },
-      { "title": "Create estimate templates", "desc": "Design branded estimate templates that match your business identity. Set up default terms, validity periods, and follow-up schedules." },
-      { "title": "Start sending from Invoicemonk", "desc": "Send new estimates through Invoicemonk. Clients approve online and you convert to invoices with one click." }
+  "scenario": {
+    "title": "The international freelancer scenario: one project, full workflow",
+    "intro": "You are a freelance UX designer based in Accra, Ghana. A SaaS startup in Amsterdam approaches you to redesign their onboarding flow. The project scope is $8,500, billed in USD, with a 40% deposit on project start and the remainder on delivery. The Amsterdam team uses a formal procurement process — their accounts payable system requires compliant vendor documentation before approving any payment.",
+    "quickbooks": {
+      "title": "With QuickBooks Simple Start ($38/mo)",
+      "steps": [
+        "You create an estimate in QuickBooks. The template is clean and professional.",
+        "You attempt to set up a deposit request directly on the estimate. QuickBooks Payments is not available for your Ghana-registered business — you cannot use the deposit-on-estimate feature.",
+        "Your Amsterdam client's accounts payable team reviews the estimate. It is missing fields required for non-EU vendor documentation under their procurement standards. They request a revised quote. You research the requirements manually or consult an accountant, add the fields, and resend.",
+        "The estimate is approved. You manually create a deposit invoice in QuickBooks, send it separately, and follow up manually when it is not paid by the due date.",
+        "When the project completes you convert the estimate to a final invoice. This part works cleanly. You send the invoice and wait."
+      ],
+      "summary": "Friction: deposit-on-estimate unavailable, compliance fields required manual research, separate deposit invoice required manual creation, payment reminder automation limited without QB Payments. Monthly cost: $38."
+    },
+    "invoicemonk": {
+      "title": "With Invoicemonk (when Estimates launches)",
+      "steps": [
+        "You create an estimate in Invoicemonk. The platform applies the relevant compliance fields for a Ghana-to-Netherlands cross-border service transaction.",
+        "You set a 40% deposit on the estimate directly, with a payment link embedded. The client approves the estimate and pays the deposit from the same document.",
+        "When the project completes you convert the estimate to a final invoice in one click. All line items, USD amounts, and client details carry through automatically.",
+        "You set a reminder for three days before the due date. The reminder fires automatically. The invoice is paid.",
+        "The complete workflow — first estimate to final payment — was tracked in one place with no manual re-entry, no compliance research, and no geographic restrictions."
+      ],
+      "summary": "Monthly cost on Pro: $15. Available globally. Estimates feature launching soon — join the waitlist."
+    }
+  },
+  "whereQbWins": {
+    "title": "Where QuickBooks Estimates is genuinely better",
+    "items": [
+      "You are a US or Canada-based freelancer with access to QuickBooks Payments — the deposits-on-estimates feature works as marketed.",
+      "You need progress invoicing tightly integrated with full double-entry accounting, with each invoice automatically linked to the original estimate in your reports.",
+      "Your accountant uses QuickBooks and needs estimates to flow directly into your chart of accounts and financial reporting.",
+      "You need project costing from estimates — QuickBooks Plus links estimates to project costs so you can measure quoted-vs-actual."
+    ]
+  },
+  "whereImWins": {
+    "title": "Where Invoicemonk Estimates is the better choice",
+    "items": [
+      "You are based outside the US and Canada and need deposit requests to actually work on your estimates.",
+      "Your clients have formal procurement processes that require compliant vendor documentation on the quote itself.",
+      "You need multi-currency estimates without paying $115/month for QuickBooks Plus.",
+      "You want a single connected workflow from estimate to paid invoice without paying for full accounting infrastructure you don't use.",
+      "Your annual software budget matters — QuickBooks Plus is on track to exceed $1,750/year by 2028 at its documented price-increase pace."
+    ]
+  },
+  "workflowMatrix": {
+    "title": "Estimates workflow: step-by-step comparison",
+    "headers": ["Step", "Invoicemonk", "QuickBooks (international freelancer)"],
+    "rows": [
+      { "label": "Create estimate", "values": ["Compliance fields applied for your country pair", "Generic template, manual compliance check needed"] },
+      { "label": "Set deposit on estimate", "values": ["Yes, with embedded payment link", "No (QB Payments US/CA only)"] },
+      { "label": "Send estimate in client's currency", "values": ["Yes", "Plus plan required ($115/mo)"] },
+      { "label": "Client approves estimate", "values": ["Status updates automatically", "Status updated manually or via portal"] },
+      { "label": "Request deposit payment", "values": ["Included in estimate workflow", "Separate manual invoice required"] },
+      { "label": "Convert to invoice", "values": ["One click, all data carries through", "One click, all data carries through"] },
+      { "label": "Apply compliance fields to invoice", "values": ["Yes, automatically", "No, manual verification needed"] },
+      { "label": "Set payment reminders", "values": ["Yes", "Yes (full feature with QB Payments US/CA)"] },
+      { "label": "Track estimate vs invoice vs payment", "values": ["Yes, one dashboard", "Yes, via reports"] },
+      { "label": "Works in your country", "values": ["All countries", "US/CA for full feature set"] }
+    ]
+  },
+  "summaryMatrix": {
+    "title": "Side-by-side summary",
+    "headers": ["", "Invoicemonk", "QB Simple Start", "QB Essentials", "QB Plus"],
+    "rows": [
+      { "label": "Monthly price", "values": ["From $0 (Pro $15 / SME $49)", "$38", "$75", "$115"] },
+      { "label": "Annual price (standard)", "values": ["From $0 (Pro $180 / SME $588)", "$456", "$900", "$1,380"] },
+      { "label": "Estimates + convert-to-invoice", "values": [true, true, true, true] },
+      { "label": "Deposit on estimate (all countries)", "values": [true, false, false, false] },
+      { "label": "Multi-currency estimates", "values": [true, false, false, "Region-dependent"] },
+      { "label": "Compliance-first cross-border estimates", "values": [true, false, false, false] },
+      { "label": "Progress invoicing", "values": [true, true, true, true] },
+      { "label": "International payment processing", "values": [true, false, false, false] },
+      { "label": "Time tracking", "values": [false, false, true, true] },
+      { "label": "Full accounting suite", "values": [false, true, true, true] },
+      { "label": "Documented annual price increase", "values": ["N/A", "12.7%/yr", "11.9%/yr", "13.1%/yr"] },
+      { "label": "Built for international freelancers", "values": [true, false, false, false] }
     ]
   },
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Does QuickBooks have good estimates features?", "answer": "QuickBooks' estimates are functional but basic. You can create estimates and convert them to invoices, but there's no online approval portal, no automatic follow-ups, and limited template customisation. For businesses where estimates drive revenue, a more capable tool like Invoicemonk is worth considering." },
-      { "question": "Can I convert estimates to invoices in Invoicemonk?", "answer": "Yes. Once a client approves your estimate (through the online approval portal), you can convert it to an invoice with a single click. All line items, tax calculations, and client details carry over automatically — no re-entry needed." },
-      { "question": "Does Invoicemonk have online estimate approval?", "answer": "Yes. Invoicemonk generates a unique approval link for each estimate. Clients can view the estimate in their browser, add comments, and approve with a single click. You receive an instant notification when an estimate is approved." },
-      { "question": "Is Invoicemonk's free tier enough for estimates?", "answer": "Yes. The free tier includes full estimates functionality: branded templates, online approval, estimate-to-invoice conversion, and multi-currency support. There are no artificial limits on the number of estimates." },
-      { "question": "What's the biggest difference between Invoicemonk and QuickBooks estimates?", "answer": "The online client approval workflow. Invoicemonk sends estimates with an approval link where clients can review, comment, and approve in one click. QuickBooks sends estimates as PDF attachments that clients must review and respond to manually — adding friction to the approval process." },
-      { "question": "Can QuickBooks estimates handle multiple currencies?", "answer": "Yes, but only on the Essentials plan ($60/month) and above. Invoicemonk includes multi-currency estimates on all plans, including the free tier." }
+      { "question": "Does QuickBooks include estimates on all plans?", "answer": "The full estimates-to-invoice workflow with progress invoicing is available from Simple Start at $38/month. Solopreneur at $20/month includes basic invoicing and estimates but is not designed for the structured multi-phase project billing freelancers with complex estimate workflows need." },
+      { "question": "Can QuickBooks convert an estimate to an invoice automatically?", "answer": "Yes. When an estimate is marked as accepted in QuickBooks Online, you can convert it to an invoice with a single click from the Sales menu. All line items and client details carry through, and progress invoicing lets you bill partial amounts across multiple invoices." },
+      { "question": "Can QuickBooks request a deposit directly from an estimate?", "answer": "QuickBooks' Deposits on Estimates feature lets you request a specific amount or percentage with a payment link on the estimate document, but it requires QuickBooks Payments — only available to businesses based in the United States and Canada. International freelancers cannot use this feature." },
+      { "question": "Does QuickBooks generate compliant estimates for cross-border transactions?", "answer": "QuickBooks generates professional estimate templates designed for the US and Canadian market. It does not automatically apply or validate the compliance requirements for cross-border vendor documentation between specific country pairs. International freelancers are responsible for ensuring their estimates meet the documentation requirements of their client's jurisdiction." },
+      { "question": "Will Invoicemonk support progress invoicing from estimates?", "answer": "Yes. Invoicemonk Estimates is being built to support milestone and deposit invoicing from a single estimate, allowing you to invoice a deposit on project start and the remainder on delivery or at any milestone, with all documents linked to the original estimate." },
+      { "question": "What happens to a QuickBooks estimate if the client partially pays a deposit?", "answer": "Per QuickBooks community documentation: if you create a $500 estimate and convert only a portion to an invoice, the remaining estimate balance continues to show as an open estimate in the Open Estimate section. This is intended for tracking unbilled balances, though some users find the persistent open notification confusing." },
+      { "question": "Is the estimates feature free in QuickBooks?", "answer": "No. The estimates feature is included in the paid QuickBooks Online subscription. Simple Start at $38/month is the minimum plan with the full convert-to-invoice workflow. There is no free QuickBooks Online plan." },
+      { "question": "Is Invoicemonk Estimates available today?", "answer": "Invoicemonk Estimates is launching soon — join the waitlist on the Estimates page to be notified at launch. Invoicemonk Invoicing and Payments are live today, and Pro starts at $15/month with no geographic restrictions on multi-currency or international payments." }
+    ]
+  },
+  "bottomLine": {
+    "title": "The bottom line",
+    "paragraphs": [
+      "QuickBooks has a well-built estimates workflow. For US and Canada-based freelancers or small businesses with an accountant, the ability to request deposits directly from estimates, convert to invoices in one click, track progress billing, and have everything feed into a full accounting layer is genuinely impressive. It is a strong product for that audience.",
+      "For international freelancers, the estimates workflow breaks at three points: deposits-on-estimates require QuickBooks Payments (US/CA only), multi-currency estimates require the $115/month Plus plan, and the estimate template does not generate compliance-first documentation for cross-border transactions — meaning every quote to an international enterprise client carries a risk of being returned for correction.",
+      "Invoicemonk's estimates workflow is being built for exactly that gap: a compliant cross-border quote, a deposit request embedded in the same document, and a clean one-click path from accepted estimate to payment-ready invoice — globally, in every currency, without a $115/month accounting subscription to access it. Invoicing and Payments are live today; Estimates is coming soon."
+    ]
+  },
+  "cta": {
+    "title": "Be first to send a compliant cross-border estimate",
+    "description": "Estimates is launching soon. Join the waitlist to be first in — and start invoicing internationally on Invoicemonk free today.",
+    "primaryButton": "Join the Estimates waitlist",
+    "primaryHref": "/estimates",
+    "secondaryButton": "Start invoicing free",
+    "secondaryHref": "https://app.invoicemonk.com/signup"
+  },
+  "sources": {
+    "title": "Sources and further reading",
+    "note": "Citations are listed as plain text for reader reference. We do not link out to competitor or third-party sites.",
+    "items": [
+      { "label": "QuickBooks Estimating Software Page", "citation": "quickbooks.intuit.com — Professional Estimating Software and Template (verified May 2026). Source for estimate-to-invoice conversion, Deposits on Estimates feature, and Fuller Glass Company case study." },
+      { "label": "QuickBooks Community Forum — Estimates/Invoices", "citation": "quickbooks.intuit.com (February 2026). Source for estimate-to-invoice workflow and non-posting transaction confirmation." },
+      { "label": "QuickBooks Community Forum — Linking existing invoices to estimates", "citation": "quickbooks.intuit.com (February 2026). Source for confirmed limitation that you can only create an invoice from an estimate, not the reverse." },
+      { "label": "QuickBooks Community Forum — Closing an estimate", "citation": "quickbooks.intuit.com (2026). Source for post-May 2026 interface change removing the close-estimate option." },
+      { "label": "QuickBooks Community Forum — Creating an invoice from an estimate", "citation": "quickbooks.intuit.com (February 2026). Source for UI troubleshooting after interface changes." },
+      { "label": "Method.me — How to convert an estimate to an invoice in QBO", "citation": "method.me (December 2025). Source for step-by-step workflow documentation." },
+      { "label": "CostBench — QuickBooks Online Pricing 2026", "citation": "costbench.com (April 2026). Source for plan pricing: Solopreneur $20, Simple Start $38, Essentials $75, Plus $115, Advanced $275." },
+      { "label": "NerdWallet — QuickBooks Pricing 2026", "citation": "nerdwallet.com (March 2026). Source for documented annual price increases: Simple Start 12.7%, Essentials 11.9%, Plus 13.1%, Advanced 17.3%." },
+      { "label": "CheckThat.ai — QuickBooks Pricing 2026", "citation": "checkthat.ai (March 2026). Source for minimum freelancer cost and payment processing fees (1–3.4% per transaction)." },
+      { "label": "Wealthvieu — QuickBooks Pricing 2026", "citation": "wealthvieu.com (May 2026). Source for add-on costs: payroll $45–$125/mo plus per-employee fees, time tracking $20–$40/mo." },
+      { "label": "QuickBooks Community Forum — Paying an international vendor", "citation": "quickbooks.intuit.com (2026). Source for QuickBooks Payments US/CA restriction confirmation from Intuit support." },
+      { "label": "CoCounant — QBO vs Self-Employed", "citation": "cocountant.com (February 2025). Source for Solopreneur invoicing/estimates inclusion and QBO estimate-to-invoice workflow description." },
+      { "label": "Certumsolutions — QuickBooks Online Plans Compared 2026", "citation": "certumsolutions.com (May 2026). Source for Solopreneur plan positioning for self-employed/gig workers." },
+      { "label": "Capterra — QuickBooks Solopreneur Software 2026", "citation": "capterra.com (March 2026). Source for user reviews on Solopreneur invoicing and estimate capabilities." }
     ]
   },
   "related": {
@@ -101,10 +268,5 @@
       { "label": "Invoicemonk vs Stripe", "to": "/compare/invoicemonk-vs-stripe" },
       { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
     ]
-  },
-  "cta": {
-    "title": "Win more projects with better estimates",
-    "description": "Professional estimates with online approval, automatic follow-ups, and one-click conversion to invoices. Start free.",
-    "button": "Get Started Free"
   }
 }
