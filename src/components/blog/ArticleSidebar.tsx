@@ -19,7 +19,7 @@ interface ArticleSidebarProps {
   clusterPosts?: BlogPost[];
 }
 
-const APP_SIGNUP = 'https://app.invoicemonk.com/signup';
+const APP_SIGNUP = 'https://app.invoicemonk.com/signup?plan=professional';
 const APP_LOGIN = 'https://app.invoicemonk.com/login';
 
 export function ArticleSidebar({ post, pillar, clusterPosts = [] }: ArticleSidebarProps) {
@@ -71,7 +71,7 @@ export function ArticleSidebar({ post, pillar, clusterPosts = [] }: ArticleSideb
   );
 
   const ctaCampaign = pillar?.id || 'general';
-  const signupHref = `${APP_SIGNUP}?utm_source=blog&utm_medium=sidebar_cta&utm_campaign=${ctaCampaign}`;
+  const signupHref = `${APP_SIGNUP}&utm_source=blog&utm_medium=sidebar_cta&utm_campaign=${ctaCampaign}`;
   const accent = pillar?.color;
 
   return (
@@ -182,10 +182,10 @@ export function ArticleSidebar({ post, pillar, clusterPosts = [] }: ArticleSideb
             />
           </div>
           <h3 className="font-semibold text-foreground mb-2">
-            Try Invoicemonk free
+            Try Invoicemonk
           </h3>
           <p className="text-sm text-muted-foreground mb-4">
-            Send compliant invoices and get paid faster. Free plan, no credit card required.
+            Send compliant invoices and get paid faster. Pro from $15/month, cancel anytime.
           </p>
           <Button
             asChild
@@ -195,7 +195,7 @@ export function ArticleSidebar({ post, pillar, clusterPosts = [] }: ArticleSideb
             }
           >
             <a href={signupHref}>
-              <span>Get started free</span>
+              <span>Get started</span>
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
           </Button>

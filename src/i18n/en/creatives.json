@@ -8,7 +8,7 @@
     "title": "Invoicing built for creatives who work with clients everywhere",
     "accentWord": "creatives",
     "description": "Whether you are a designer in Bulgaria billing a German agency, a photographer in the Philippines billing a UK brand, or a copywriter anywhere billing clients across Europe — InvoiceMonk handles the compliance so you can focus on the work.",
-    "primaryCta": "Start free today",
+    "primaryCta": "Get started today",
     "secondaryCta": "View pricing",
     "trustBadge": "Trusted by designers, photographers, copywriters, and creative professionals billing clients across 30+ countries."
   },
@@ -95,23 +95,23 @@
       "Sequential numbering enforcement",
       "Credit note generation",
       "Tax-compliant records",
-      "Free to start — no credit card"
+      "Pro from $15/month"
     ]
   },
   "faqHeading": "Frequently asked questions",
   "faqs": [
-    { "question": "Is InvoiceMonk suitable for freelance creatives — not just agencies?", "answer": "Yes. InvoiceMonk is built specifically for independent professionals — solo designers, photographers, copywriters, illustrators, videographers, and other creatives who work with clients directly. The free plan includes all compliance features with no limits on invoicing volume." },
+    { "question": "Is InvoiceMonk suitable for freelance creatives — not just agencies?", "answer": "Yes. InvoiceMonk is built specifically for independent professionals — solo designers, photographers, copywriters, illustrators, videographers, and other creatives who work with clients directly. The Pro plan includes all compliance features with no limits on invoicing volume." },
     { "question": "Can I invoice for creative projects in different currencies?", "answer": "Yes. Invoice in EUR, GBP, USD, CHF, AUD, or any currency your client pays in. The VAT compliance fields and country-specific mandatory fields apply correctly regardless of currency. A EUR invoice to a German client and a GBP invoice to a UK brand both carry the correct compliance structure." },
     { "question": "How do I handle a deposit invoice followed by a final invoice?", "answer": "Create a deposit invoice for the agreed upfront amount. InvoiceMonk assigns it the next sequential number. When the project is complete, create the final invoice — InvoiceMonk assigns the next number in sequence. Both invoices are stored in the client's history with their payment status. Your audit trail is clean from start to finish." },
     { "question": "Can I set up recurring invoices for retainer clients?", "answer": "Yes. Set the billing amount, frequency, and start date once. InvoiceMonk generates and sends the invoice automatically on schedule — with the correct compliance fields for your client's country applied every time. You can adjust the amount, pause, or cancel at any time." },
     { "question": "What happens if a client disputes a project invoice?", "answer": "Create a credit note directly from the disputed invoice in InvoiceMonk. The credit note references the original by number and date, reverses the VAT correctly, and keeps your sequence intact. If a revised invoice is needed, it gets the next number in your sequence. Your records remain clean throughout the dispute." },
-    { "question": "Is there a free plan for creative professionals?", "answer": "Yes. InvoiceMonk's free plan includes VAT-compliant invoicing, sequential numbering enforcement, reverse charge automation, and country-specific mandatory fields — with no time limit and no feature gates on compliance. Upgrade when your billing volume grows." }
+    { "question": "Is there a free plan for creative professionals?", "answer": "Yes. Invoicemonk's Pro plan includes VAT-compliant invoicing, sequential numbering enforcement, reverse charge automation, and country-specific mandatory fields — with no time limit and no feature gates on compliance. Upgrade when your billing volume grows." }
   ],
   "bottomCta": {
     "heading": "Spend less time on invoicing. Get paid without the compliance stress.",
     "description": "Join creative professionals across Europe, East Africa, and Southeast Asia who use InvoiceMonk to send invoices that hold up — in every country, for every client.",
-    "button": "Start free today",
-    "fineprint": "No credit card required. Free plan available. Upgrade when you are ready.",
+    "button": "Get started today",
+    "fineprint": " Pro from $15/month. Upgrade when you are ready.",
     "trustSignals": [
       "VAT-compliant invoices",
       "Project and milestone billing",

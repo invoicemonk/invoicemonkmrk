@@ -16,7 +16,6 @@ import { useTranslation } from 'react-i18next';
 const faqKeys = ['freeTier', 'upgradeDowngrade', 'paymentMethods', 'security'] as const;
 
 const planIcons: Record<string, React.ReactNode> = {
-  free: <Zap className="w-5 h-5" />,
   professional: <Shield className="w-5 h-5" />,
   sme: <Building2 className="w-5 h-5" />,
   business: <Briefcase className="w-5 h-5" />,
@@ -44,7 +43,7 @@ const Pricing = () => {
     <Layout>
       <SEOHead
         title={seo?.getTitle(locale) || 'Pricing | Invoicemonk'}
-        description={seo?.getDescription(locale) || 'Simple, transparent pricing. Start free, upgrade when you need more.'}
+        description={seo?.getDescription(locale) || 'Simple, transparent pricing. Pro from $15/month. Three plans built for freelancers and teams.'}
       />
       {/* Hero */}
       <section className="py-20 lg:py-32 bg-gradient-to-b from-background to-primary-soft">
@@ -90,7 +89,7 @@ const Pricing = () => {
           </AnimatedSection>
 
           {/* Pricing Cards */}
-          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
             {plans.map((plan) => {
               const price = calculatePrice(plan.id, isAnnual);
               
@@ -240,7 +239,7 @@ const Pricing = () => {
               size="lg"
               className="rounded-full px-10 h-14 text-body-lg bg-white hover:bg-white/90 text-black shadow-lg"
             >
-              <a href="https://app.invoicemonk.com/signup">
+              <a href="https://app.invoicemonk.com/signup?plan=professional">
                 {t('cta.button')}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </a>

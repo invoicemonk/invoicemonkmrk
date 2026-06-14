@@ -13,43 +13,42 @@ type PlanValue = string | boolean;
 
 interface ComparisonRow {
   feature: string;
-  starter: PlanValue;
   pro: PlanValue;
   sme: PlanValue;
   biz: PlanValue;
 }
 
 const limits: ComparisonRow[] = [
-  { feature: 'Invoices/month', starter: '5', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
-  { feature: 'Receipts/month', starter: '5', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
-  { feature: 'Clients', starter: 'Up to 5', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
-  { feature: 'Currency accounts', starter: '1', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
-  { feature: 'Team members', starter: '1', pro: 'Up to 5', sme: 'Unlimited', biz: 'Unlimited' },
-  { feature: 'Payment methods per currency', starter: '1', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
+  { feature: 'Invoices/month', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
+  { feature: 'Receipts/month', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
+  { feature: 'Clients', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
+  { feature: 'Currency accounts', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
+  { feature: 'Team members', pro: 'Up to 5', sme: 'Unlimited', biz: 'Unlimited' },
+  { feature: 'Payment methods per currency', pro: 'Unlimited', sme: 'Unlimited', biz: 'Unlimited' },
 ];
 
 const features: ComparisonRow[] = [
-  { feature: 'Accounting module', starter: true, pro: true, sme: true, biz: true },
-  { feature: 'Expense tracking', starter: true, pro: true, sme: true, biz: true },
-  { feature: 'Credit notes', starter: true, pro: true, sme: true, biz: true },
-  { feature: 'In-app support', starter: true, pro: true, sme: true, biz: true },
-  { feature: 'Invoice verification', starter: true, pro: true, sme: true, biz: true },
-  { feature: 'Full audit trail', starter: false, pro: true, sme: true, biz: true },
-  { feature: 'Custom branding', starter: false, pro: true, sme: true, biz: true },
-  { feature: 'Data exports', starter: false, pro: true, sme: true, biz: true },
-  { feature: 'Premium templates', starter: false, pro: true, sme: true, biz: true },
-  { feature: 'Watermark-free PDFs', starter: true, pro: true, sme: true, biz: true },
-  { feature: 'Online payment', starter: false, pro: true, sme: true, biz: true },
-  { feature: 'Advanced reports', starter: false, pro: false, sme: true, biz: true },
-  { feature: 'API access', starter: false, pro: false, sme: false, biz: true },
-  { feature: 'E-invoicing & gov submission', starter: false, pro: false, sme: false, biz: true },
-  { feature: 'Dedicated account manager', starter: false, pro: false, sme: false, biz: true },
-  { feature: 'Custom integrations', starter: false, pro: false, sme: false, biz: true },
-  { feature: 'SLA guarantee', starter: false, pro: false, sme: false, biz: true },
-  { feature: 'Priority support', starter: false, pro: false, sme: false, biz: true },
+  { feature: 'Accounting module', pro: true, sme: true, biz: true },
+  { feature: 'Expense tracking', pro: true, sme: true, biz: true },
+  { feature: 'Credit notes', pro: true, sme: true, biz: true },
+  { feature: 'In-app support', pro: true, sme: true, biz: true },
+  { feature: 'Invoice verification', pro: true, sme: true, biz: true },
+  { feature: 'Full audit trail', pro: true, sme: true, biz: true },
+  { feature: 'Custom branding', pro: true, sme: true, biz: true },
+  { feature: 'Data exports', pro: true, sme: true, biz: true },
+  { feature: 'Premium templates', pro: true, sme: true, biz: true },
+  { feature: 'Watermark-free PDFs', pro: true, sme: true, biz: true },
+  { feature: 'Online payment', pro: true, sme: true, biz: true },
+  { feature: 'Advanced reports', pro: false, sme: true, biz: true },
+  { feature: 'API access', pro: false, sme: false, biz: true },
+  { feature: 'E-invoicing & gov submission', pro: false, sme: false, biz: true },
+  { feature: 'Dedicated account manager', pro: false, sme: false, biz: true },
+  { feature: 'Custom integrations', pro: false, sme: false, biz: true },
+  { feature: 'SLA guarantee', pro: false, sme: false, biz: true },
+  { feature: 'Priority support', pro: false, sme: false, biz: true },
 ];
 
-const planHeaders = ['Starter', 'Pro', 'SME', 'Biz'];
+const planHeaders = ['Pro', 'SME', 'Biz'];
 
 function CellValue({ value }: { value: PlanValue }) {
   if (typeof value === 'string') {
@@ -71,13 +70,13 @@ function CellValue({ value }: { value: PlanValue }) {
 
 export function FeatureComparisonTable() {
   const getValues = (row: ComparisonRow): PlanValue[] =>
-    [row.starter, row.pro, row.sme, row.biz];
+    [row.pro, row.sme, row.biz];
 
   const renderSection = (title: string, rows: ComparisonRow[]) => (
     <>
       <TableRow>
         <TableCell
-          colSpan={5}
+          colSpan={4}
           className="bg-accent/50 font-semibold text-body-sm text-heading py-3"
         >
           {title}

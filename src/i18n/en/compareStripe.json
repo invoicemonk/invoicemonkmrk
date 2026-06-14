@@ -143,7 +143,7 @@
   "migration": {
     "title": "How to switch from Stripe Invoicing to Invoicemonk",
     "steps": [
-      { "title": "Create your free Invoicemonk account", "desc": "Sign up at app.invoicemonk.com. Add your business profile, branding and tax settings — no jurisdiction restriction." },
+      { "title": "Create your Invoicemonk Pro account", "desc": "Sign up at app.invoicemonk.com. Add your business profile, branding and tax settings — no jurisdiction restriction." },
       { "title": "Export customers and open invoices from Stripe", "desc": "Export your Stripe customer list and any open invoices as CSV from the Stripe dashboard." },
       { "title": "Import into Invoicemonk", "desc": "Upload the CSV to Invoicemonk and enrich client profiles with billing terms, VAT numbers and contact details." },
       { "title": "Connect Stripe for card processing only", "desc": "Link your Stripe account to Invoicemonk so cards continue settling through Stripe at your existing rates, while invoicing happens in Invoicemonk." },

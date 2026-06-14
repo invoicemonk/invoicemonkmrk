@@ -13,11 +13,11 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Malaysian freelancers & SMEs preparing for MyInvois',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['MyInvois-ready invoice fields', 'MYR + multi-currency invoicing', 'SST support', 'Professional templates with TIN fields', 'Free invoice generator — no signup'],
     cons: ['No direct LHDN MyInvois API integration (yet)', 'No Bahasa Malaysia UI'],
-    description: 'Invoicemonk helps Malaysian businesses prepare for the MyInvois e-invoicing mandate. It includes TIN fields for seller and buyer, SST calculation support, MYR currency with proper formatting, and multi-currency invoicing for businesses billing internationally. The free plan covers unlimited invoicing with 6 professional templates.',
+    description: 'Invoicemonk helps Malaysian businesses prepare for the MyInvois e-invoicing mandate. It includes TIN fields for seller and buyer, SST calculation support, MYR currency with proper formatting, and multi-currency invoicing for businesses billing internationally. The Pro plan covers unlimited invoicing with 6 professional templates.',
   },
   {
     name: 'SQL Account',
@@ -49,7 +49,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Malaysia?', answer: 'Invoicemonk is among the best invoicing tools for Malaysian businesses in 2026. It includes MyInvois-ready fields, SST support, TIN fields, MYR formatting, and multi-currency invoicing — all on a free plan.' },
+  { question: 'What is the best invoicing software for Malaysia?', answer: 'Invoicemonk is among the best invoicing tools for Malaysian businesses in 2026. It includes MyInvois-ready fields, SST support, TIN fields, MYR formatting, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Is MyInvois e-invoicing mandatory in Malaysia?', answer: 'Yes. LHDN\'s MyInvois e-invoicing is being rolled out in phases. Businesses with RM100M+ annual turnover were mandated from August 2024. All remaining businesses must comply by July 2025. The system requires electronic submission of invoices to LHDN for validation.' },
   { question: 'What is SST and how does it affect invoicing?', answer: 'SST (Sales and Service Tax) replaced GST in Malaysia in 2018. Sales Tax is 5-10% on manufactured goods, and Service Tax is 8% on prescribed services. Your invoicing software should correctly apply SST rates and include your SST registration number on invoices.' },
 ];

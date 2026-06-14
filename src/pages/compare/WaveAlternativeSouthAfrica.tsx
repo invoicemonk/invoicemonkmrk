@@ -11,7 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 const faqs = [
   { question: 'Why is Wave not ideal for South African businesses?', answer: 'Wave\'s payment processing doesn\'t work in South Africa, there are no SARS compliance features, no tax reference number fields, and no 15% VAT defaults for ZAR. South African businesses need invoicing software with local tax compliance built in.' },
   { question: 'What is the best Wave alternative for South Africa?', answer: 'Invoicemonk is the best free Wave alternative for South African businesses. It matches Wave\'s free pricing while adding SARS-compliant fields, 15% VAT auto-calculation, tax reference numbers, and multi-currency support for international clients.' },
-  { question: 'Is Invoicemonk free for South African businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 15% VAT calculation, tax reference number fields, multi-currency support, and expense tracking. No credit card or signup required for the free invoice generator.' },
+  { question: 'How does Invoicemonk price compare for South African businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 15% VAT calculation, tax reference number fields, multi-currency support, and expense tracking. Pro starts at $15/month with unlimited invoices and cancel anytime.' },
 ];
 
 export default function WaveAlternativeSouthAfrica() {
@@ -64,7 +64,7 @@ export default function WaveAlternativeSouthAfrica() {
                 <div>
                   <p className="text-xs font-medium text-green-700 mb-2">Why Switch from Wave</p>
                   <ul className="space-y-1">
-                    {['SARS-compliant tax invoice fields', '15% VAT auto-calculated for ZAR', 'Tax reference number fields', 'Multi-currency (ZAR + international)', 'Free — no credit card required'].map((p, j) => (
+                    {['SARS-compliant tax invoice fields', '15% VAT auto-calculated for ZAR', 'Tax reference number fields', 'Multi-currency (ZAR + international)', 'Free — '].map((p, j) => (
                       <li key={j} className="flex gap-2 text-sm text-muted-foreground"><CheckCircle className="w-3.5 h-3.5 text-green-600 mt-0.5 flex-shrink-0" />{p}</li>
                     ))}
                   </ul>

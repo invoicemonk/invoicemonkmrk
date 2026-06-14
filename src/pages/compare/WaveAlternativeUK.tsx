@@ -13,7 +13,7 @@ const comparisonPoints = [
   { feature: 'UK VAT at 20% auto-calculated', wave: false, invoicemonk: true },
   { feature: 'CIS reverse charge invoicing', wave: false, invoicemonk: true },
   { feature: 'Multi-currency invoicing', wave: true, invoicemonk: true },
-  { feature: 'Free plan available', wave: true, invoicemonk: true },
+  { feature: 'Pro from $15/month', wave: true, invoicemonk: true },
   { feature: 'VAT number fields (seller + buyer)', wave: false, invoicemonk: true },
   { feature: 'Professional invoice templates', wave: true, invoicemonk: true },
   { feature: 'PDF download', wave: true, invoicemonk: true },
@@ -22,7 +22,7 @@ const comparisonPoints = [
 ];
 
 const faqs = [
-  { question: 'Why switch from Wave to Invoicemonk in the UK?', answer: 'Wave lacks UK-specific compliance features: no MTD VAT support, no CIS reverse charge invoicing, no automatic 20% VAT for GBP, and no VAT number fields. Invoicemonk includes all of these on its free plan, plus multi-currency invoicing for UK businesses billing internationally.' },
+  { question: 'Why switch from Wave to Invoicemonk in the UK?', answer: 'Wave lacks UK-specific compliance features: no MTD VAT support, no CIS reverse charge invoicing, no automatic 20% VAT for GBP, and no VAT number fields. Invoicemonk includes all of these on its Pro plan ($15/month), plus multi-currency invoicing for UK businesses billing internationally.' },
   { question: 'Is Wave free in the UK?', answer: 'Wave\'s invoicing is free, but payment processing charges fees (2.9% + 20p for cards). Wave also lacks UK tax compliance features, meaning you\'d need additional software for MTD compliance — adding hidden costs.' },
   { question: 'Can I import my Wave data into Invoicemonk?', answer: 'Yes. Export your client list and invoice history from Wave as CSV, then import into Invoicemonk. Your invoice numbering can continue from where Wave left off.' },
 ];

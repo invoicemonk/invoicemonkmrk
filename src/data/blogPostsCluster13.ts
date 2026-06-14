@@ -123,7 +123,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Not converting proformas to commercial invoices</strong> — if you deliver the goods, always issue the final commercial invoice for proper tax reporting</li>
 </ul>
 
-<p>Create both proforma and commercial invoices with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For more on invoice types, see our <a href="/__LANG__/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>
+<p>Create both proforma and commercial invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more on invoice types, see our <a href="/__LANG__/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>
     `
   },
 
@@ -251,7 +251,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Don't ignore it</strong> — the longer you wait, the harder it gets to collect</li>
 </ul>
 
-<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For payment term strategies, read our <a href="/__LANG__/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>
+<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For payment term strategies, read our <a href="/__LANG__/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>
     `
   },
 
@@ -383,7 +383,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Use consistent formatting</strong> — your proforma should look as professional as your commercial invoices</li>
 </ol>
 
-<p>Create professional proforma invoices in minutes with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/__LANG__/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>
+<p>Create professional proforma invoices in minutes with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/__LANG__/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>
     `
   },
 ];

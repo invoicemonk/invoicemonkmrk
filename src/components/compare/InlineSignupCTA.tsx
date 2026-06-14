@@ -16,9 +16,9 @@ interface InlineSignupCTAProps {
  */
 export function InlineSignupCTA({
   heading = 'Ready to switch?',
-  body = 'Start free in under a minute. No credit card required.',
-  buttonLabel = 'Start free with Invoicemonk',
-  href = 'https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=inline_cta&utm_campaign=mid_page',
+  body = 'Get started with Invoicemonk Pro from $15/month. Upgrade, downgrade, or cancel anytime.',
+  buttonLabel = 'Get started with Invoicemonk',
+  href = 'https://app.invoicemonk.com/signup?plan=professional&utm_source=compare&utm_medium=inline_cta&utm_campaign=mid_page',
   variant = 'card',
 }: InlineSignupCTAProps) {
   if (variant === 'compact') {

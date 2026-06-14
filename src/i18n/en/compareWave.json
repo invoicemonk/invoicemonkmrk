@@ -175,7 +175,7 @@
         "You bill domestic clients in USD or CAD",
         "You don't need cross-border compliance",
         "You don't need invoices that comply outside the US/Canadian tax framework",
-        "You're happy with chatbot-only support on the free plan"
+        "You're happy with chatbot-only support on the Pro plan"
       ]
     },
     "invoicemonk": {
@@ -237,7 +237,7 @@
       { "question": "Can I use Wave as a freelancer outside the US and Canada?", "answer": "You can access your Wave account and do manual bookkeeping, but Wave cannot send invoices, process payments, or send payment reminders on your behalf if your business is registered outside the United States or Canada. Wave officially discontinued support for international users in November 2020." },
       { "question": "Does Invoicemonk work for freelancers in Africa, Asia, or Europe?", "answer": "Yes. Invoicemonk is available to freelancers in all countries and is specifically designed for cross-border invoicing — billing clients in a different country from where you are based." },
       { "question": "Does Wave handle VAT or foreign tax compliance?", "answer": "Wave was built for the US and Canadian tax frameworks. It does not provide compliance guidance or invoice generation for VAT jurisdictions, GST, or other international tax requirements." },
-      { "question": "Is Wave free forever?", "answer": "Wave's Starter plan has no monthly subscription fee, but it charges transaction fees (2.9% + $0.60 per transaction for card payments; 1% minimum $1 for ACH). For international users, even the free plan is functionally limited to basic bookkeeping." },
+      { "question": "Is Wave free forever?", "answer": "Wave's Starter plan has no monthly subscription fee, but it charges transaction fees (2.9% + $0.60 per transaction for card payments; 1% minimum $1 for ACH). For international users, even the Pro plan is functionally limited to basic bookkeeping." },
       { "question": "Can Invoicemonk replace Wave for bookkeeping?", "answer": "Invoicemonk is focused on the invoicing and payment-tracking workflow that matters most to freelancers. If you need deep double-entry accounting, Wave's bookkeeping features — or a dedicated accounting tool — may serve that need alongside Invoicemonk." },
       { "question": "What should Wave international users switch to?", "answer": "Wave itself recommends Zoho Books for users outside the US and Canada. Invoicemonk is a stronger option specifically for freelancers doing cross-border work, because it is built around the compliance and invoicing requirements of international freelance — not just general small business accounting." }
     ]
@@ -272,7 +272,7 @@
   },
   "cta": {
     "title": "Start sending compliant cross-border invoices today",
-    "description": "No credit card required. Set up your first compliant invoice in under 5 minutes.",
+    "description": " Set up your first compliant invoice in under 5 minutes.",
     "button": "Try Invoicemonk Free"
   }
 }

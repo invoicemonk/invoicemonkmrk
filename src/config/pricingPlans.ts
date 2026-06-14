@@ -3,8 +3,10 @@ export interface PlanFeature {
   included: boolean;
 }
 
+export type PricingPlanId = 'professional' | 'sme' | 'business';
+
 export interface PricingPlan {
-  id: 'free' | 'professional' | 'sme' | 'business';
+  id: PricingPlanId;
   name: string;
   description: string;
   features: string[];
@@ -15,19 +17,6 @@ export interface PricingPlan {
   compliance?: boolean;
   customPricing?: boolean;
 }
-
-export const starterFeatures = [
-  '5 invoices/month',
-  '5 receipts/month',
-  'Up to 5 clients',
-  '1 currency account',
-  'Up to 1 team member',
-  'Watermark-free PDFs',
-  'Accounting module',
-  'Expense tracking',
-  'Credit notes',
-  'In-app support',
-];
 
 export const proFeatures = [
   'Unlimited invoices',
@@ -67,21 +56,11 @@ export const bizFeatures = [
 export function getPricingPlans(): PricingPlan[] {
   return [
     {
-      id: 'free',
-      name: 'Starter',
-      description: 'For individuals getting started',
-      features: starterFeatures,
-      cta: 'Continue with Free plan',
-      ctaLink: 'https://app.invoicemonk.com/signup',
-      popular: false,
-      compliance: false,
-    },
-    {
       id: 'professional',
       name: 'Pro',
-      description: 'For growing businesses',
+      description: 'For freelancers and growing businesses',
       features: proFeatures,
-      cta: 'Get Started',
+      cta: 'Get started',
       ctaLink: 'https://app.invoicemonk.com/signup?plan=professional',
       popular: true,
       badge: 'Recommended',
@@ -92,7 +71,7 @@ export function getPricingPlans(): PricingPlan[] {
       name: 'SME',
       description: 'For scaling companies',
       features: smeFeatures,
-      cta: 'Get Started',
+      cta: 'Get started',
       ctaLink: 'https://app.invoicemonk.com/signup?plan=sme',
       popular: false,
       compliance: true,
@@ -113,11 +92,10 @@ export function getPricingPlans(): PricingPlan[] {
 }
 
 export function calculatePrice(
-  planId: 'free' | 'professional' | 'sme' | 'business',
+  planId: PricingPlanId,
   isAnnual: boolean
 ): { monthly: number; total: number } {
-  const prices: Record<string, number> = {
-    free: 0,
+  const prices: Record<PricingPlanId, number> = {
     professional: 15,
     sme: 49,
     business: 0,

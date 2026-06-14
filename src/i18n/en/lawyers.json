@@ -8,7 +8,7 @@
     "title": "Professional billing for legal practices",
     "accentWord": "legal",
     "description": "Track billable hours, manage retainers, and send detailed invoices that meet your clients' procurement standards.",
-    "primaryCta": "Start Free",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Pricing",
     "trustBadge": "Trusted by law firms and solo practitioners"
   },
@@ -89,7 +89,7 @@
     { "question": "Does Invoicemonk support trust account billing?", "answer": "You can create invoices that reference trust account balances and track retainer drawdowns for compliance. Each invoice clearly shows the retainer balance before and after billing, maintaining the transparency regulators and clients expect." },
     { "question": "Can I generate LEDES-format invoices?", "answer": "Invoicemonk produces detailed, itemized invoices suitable for corporate clients. The line-item detail level supports matter numbers, activity codes, and task descriptions. Contact us for specific LEDES-format export needs." },
     { "question": "How does Invoicemonk help with compliance?", "answer": "All invoices include required tax information, are stored securely with immutable audit trails, and can be exported for audit purposes. Each invoice receives a cryptographic verification code and QR code that anyone — including auditors — can use to verify authenticity." },
-    { "question": "Is there a free plan for solo practitioners?", "answer": "Yes! Solo lawyers can start free with 5 invoices and 5 receipts per month. Upgrade as your practice grows for unlimited invoicing, team management, and detailed financial reports." },
+    { "question": "Is there a free plan for solo practitioners?", "answer": "Yes! Solo lawyers can get started from $15/month with unlimited invoices. Upgrade as your practice grows for unlimited invoicing, team management, and detailed financial reports." },
     { "question": "Can I track expenses per case or matter?", "answer": "Yes. Record expenses against specific clients and categorise them — filing fees, court costs, expert witnesses, travel. See your true profitability per matter by comparing fees billed against expenses incurred." },
     { "question": "Does Invoicemonk generate receipts when clients pay?", "answer": "Every payment recorded automatically generates a professional receipt with a unique verification code and QR code. This is especially valuable for legal practices where proof of payment needs to be independently verifiable." }
   ],

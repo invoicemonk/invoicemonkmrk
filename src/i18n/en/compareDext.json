@@ -227,7 +227,7 @@
     "title": "Side-by-side summary",
     "rows": [
       { "name": "Monthly price", "invoicemonk": "Free to $49/mo", "competitor": "$31.50/mo ($25.21/mo annual)" },
-      { "name": "Free plan", "invoicemonk": "Yes, no card required", "competitor": "14-day trial only" },
+      { "name": "Free plan", "invoicemonk": "Yes, ", "competitor": "14-day trial only" },
       { "name": "Primary function", "invoicemonk": "Outbound invoicing and payment collection", "competitor": "Inbound receipt and invoice capture" },
       { "name": "Send invoices to clients", "invoicemonk": true, "competitor": false },
       { "name": "Accept client payments", "invoicemonk": true, "competitor": false },
@@ -276,7 +276,7 @@
       { "label": "G2: 'Dext Pricing 2026' — g2.com (November 2025). Source for Business plan pricing ($31.50/mo for 5 users and 250 documents, $25.21/mo annual) and Practice plan pricing ($239.19/mo for 10 clients, $207.99/mo annual). Plans in USD, GBP, EUR, CAD, AUD, ZAR." },
       { "label": "Capterra: 'Dext Software Pricing, Alternatives and More 2026' — capterra.com (verified May 2026). Source for user reviews on ease of use, Xero integration, and general practitioner sentiment." },
       { "label": "GetApp: 'Dext 2026 Pricing, Features, Reviews and Alternatives' — getapp.com (verified May 2026). Source for reviewer industry breakdown (38% accountants, 53% accounting use case), Xero/QBO integrations both rated 4.9/5, and 29-review pricing analysis." },
-      { "label": "Capterra: Dext Pricing page — capterra.com/p/160189/Dext/pricing/ (verified May 2026). Source for 14-day free trial confirmation." },
+      { "label": "Capterra: Dext Pricing page — capterra.com/p/160189/Dext/pricing/ (verified May 2026). Source for 14-day Pro plan confirmation." },
       { "label": "Research.com: 'Dext Review 2026: Pricing, Features, Pros and Cons' — research.com (verified May 2026). Source for Dext user types and automatic currency detection features." },
       { "label": "TrustRadius: 'Dext Pricing 2026' — trustradius.com. Source for starting price of $32/mo and annual discount availability." },
       { "label": "Dext Official: Receipt and invoice capture software page — dext.com/en/business/product/capture-receipts-and-invoices (verified May 2026). Source for 99.9% OCR accuracy claim including handwritten and crumpled receipts." }
@@ -295,7 +295,7 @@
   },
   "cta": {
     "title": "Start sending compliant cross-border invoices today",
-    "description": "No credit card required. Set up your first compliant international invoice in under 5 minutes.",
-    "button": "Try Invoicemonk free"
+    "description": " Set up your first compliant international invoice in under 5 minutes.",
+    "button": "Try Invoicemonk"
   }
 }

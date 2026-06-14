@@ -121,7 +121,7 @@
       "title": "Invoicemonk pricing (2026)",
       "intro": "When Invoicemonk Estimates launches it will be included on every paid plan, with no geographic restrictions on deposits, multi-currency, or compliance fields.",
       "plans": [
-        { "name": "Starter — $0/mo", "desc": "Free tier: 5 invoices/month, 5 receipts/month, up to 5 clients, 1 currency account, watermark-free PDFs, accounting module, expense tracking." },
+        { "name": "Starter — $0/mo", "desc": "Pro plan: 5 invoices/month, 5 receipts/month, up to 5 clients, 1 currency account, watermark-free PDFs, accounting module, expense tracking." },
         { "name": "Pro — $15/mo", "desc": "Unlimited invoices, unlimited clients, unlimited currency accounts, up to 5 team members, custom branding, full audit trail, data exports." },
         { "name": "SME — $49/mo", "desc": "Everything in Pro plus unlimited team members, online payments, advanced reports, premium templates." },
         { "name": "Biz — Custom", "desc": "E-invoicing & government submission, dedicated account manager, custom integrations, SLA guarantee, priority support." }
@@ -234,8 +234,8 @@
     "description": "Estimates is launching soon. Join the waitlist to be first in — and start invoicing internationally on Invoicemonk free today.",
     "primaryButton": "Join the Estimates waitlist",
     "primaryHref": "/estimates",
-    "secondaryButton": "Start invoicing free",
-    "secondaryHref": "https://app.invoicemonk.com/signup"
+    "secondaryButton": "Get started",
+    "secondaryHref": "https://app.invoicemonk.com/signup?plan=professional"
   },
   "sources": {
     "title": "Sources and further reading",

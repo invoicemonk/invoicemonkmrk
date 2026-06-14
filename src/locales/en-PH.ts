@@ -16,7 +16,7 @@ export const enPH: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including the Philippines",
     },
@@ -28,7 +28,7 @@ export const enPH: LocaleConfig = {
     paymentGateway: "GCash & Maya",
     seo: {
       siteTitle: "Invoicemonk Philippines - BIR-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Philippine businesses. BIR-compliant, GCash & Maya integration. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Philippine businesses. BIR-compliant, GCash & Maya integration. Pro from $15/month.",
       complianceKeyword: "BIR-compliant",
       targetAudience: "Philippine",
       region: "Philippines",
@@ -70,7 +70,7 @@ export const enPH: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in the Philippines?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₱1,499/month (Professional) and ₱6,999/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at ₱1,499/month and SME at ₱6,999/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle VAT for Philippine businesses?",

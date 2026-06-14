@@ -373,7 +373,7 @@ export const decisionTemplates: DecisionGuide[] = [
         factor: 'Price',
         weight: 'medium',
         questions: [
-          'Is there a free tier for starting out?',
+          'Is there a Pro plan for starting out?',
           'Does pricing scale with your business?',
           'Are there hidden fees for payments or exports?'
         ]
@@ -409,7 +409,7 @@ export const decisionTemplates: DecisionGuide[] = [
         recommendation: 'Only for occasional, simple invoicing'
       }
     ],
-    callToAction: 'Try Invoicemonk free and see how it works for your business'
+    callToAction: 'Try Invoicemonk and see how it works for your business'
   }
 ];
 

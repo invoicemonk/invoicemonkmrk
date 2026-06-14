@@ -13,11 +13,11 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Saudi freelancers & SMEs needing ZATCA Fatoorah compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['ZATCA Fatoorah-compliant fields', 'SAR + multi-currency invoicing', 'VAT at 15% auto-calculated', 'QR code generation for e-invoices', 'Free invoice generator — no signup'],
     cons: ['No direct ZATCA API integration (yet)', 'No Arabic UI (English only)'],
-    description: 'Invoicemonk generates Fatoorah-compliant invoices with all ZATCA-required fields: seller and buyer VAT registration numbers, 15% VAT auto-calculation for SAR, QR codes containing the mandatory five fields (seller name, VAT number, timestamp, total, VAT amount), and cryptographic stamp support. The free plan includes multi-currency invoicing for billing international clients.',
+    description: 'Invoicemonk generates Fatoorah-compliant invoices with all ZATCA-required fields: seller and buyer VAT registration numbers, 15% VAT auto-calculation for SAR, QR codes containing the mandatory five fields (seller name, VAT number, timestamp, total, VAT amount), and cryptographic stamp support. The Pro plan includes multi-currency invoicing for billing international clients.',
   },
   {
     name: 'Qoyod',
@@ -26,7 +26,7 @@ const tools = [
     highlight: false,
     pros: ['Arabic interface', 'ZATCA Phase 2 certified', 'Full accounting suite', 'HR and payroll features'],
     cons: ['No free plan', 'Expensive for simple invoicing', 'Limited multi-currency', 'Saudi-only — no global compliance'],
-    description: 'Qoyod is a Saudi-built accounting platform with full ZATCA Phase 2 certification and Arabic-first design. It\'s comprehensive but expensive — starting at SAR 149/month with no free tier. Best for established businesses needing full ERP features.',
+    description: 'Qoyod is a Saudi-built accounting platform with full ZATCA Phase 2 certification and Arabic-first design. It\'s comprehensive but expensive — starting at SAR 149/month with no Pro plan. Best for established businesses needing full ERP features.',
   },
   {
     name: 'Wafeq',
@@ -42,14 +42,14 @@ const tools = [
     bestFor: 'Zoho ecosystem users in Saudi Arabia',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid plans'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No ZATCA-specific features', 'No Arabic invoice templates', 'No QR code for Saudi compliance'],
-    description: 'Zoho Invoice offers a free tier but caps you at 5 customers. It lacks Saudi-specific ZATCA features — no QR codes, no Fatoorah compliance, and no Arabic invoice templates. You\'d need to configure everything manually.',
+    description: 'Zoho Invoice offers a Pro plan but caps you at 5 customers. It lacks Saudi-specific ZATCA features — no QR codes, no Fatoorah compliance, and no Arabic invoice templates. You\'d need to configure everything manually.',
   },
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Saudi Arabia?', answer: 'Invoicemonk is among the best invoicing tools for Saudi businesses in 2026. It includes ZATCA Fatoorah-compliant fields, 15% VAT auto-calculation for SAR, QR code generation, and multi-currency invoicing — all on a free plan.' },
+  { question: 'What is the best invoicing software for Saudi Arabia?', answer: 'Invoicemonk is among the best invoicing tools for Saudi businesses in 2026. It includes ZATCA Fatoorah-compliant fields, 15% VAT auto-calculation for SAR, QR code generation, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Is ZATCA e-invoicing mandatory in Saudi Arabia?', answer: 'Yes. ZATCA e-invoicing (Fatoorah) Phase 1 (generation) has been mandatory since December 2021. Phase 2 (integration) is rolling out in waves — businesses receive notification from ZATCA at least 6 months before their compliance deadline.' },
   { question: 'What are the ZATCA QR code requirements?', answer: 'ZATCA-compliant QR codes must contain five fields: seller name, VAT registration number, invoice timestamp, invoice total (with VAT), and VAT amount. For Phase 2, the QR code must also include a cryptographic stamp (CSID) from ZATCA\'s systems.' },
 ];

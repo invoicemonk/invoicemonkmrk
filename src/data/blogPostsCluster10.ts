@@ -137,7 +137,7 @@ export const cluster10Posts: BlogPost[] = [
 <p>Select invoicing software that generates FIRS-compliant invoices with IRN, QR codes, and proper VAT calculations. <a href="/__LANG__/blog/best-invoicing-software-nigeria">See our comparison of the best invoicing software for Nigerian businesses</a>.</p>
 
 <h3>Step 4: Configure your invoice template</h3>
-<p>Set up your business details, VAT rate (7.5%), and ensure all mandatory fields are included. With <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>, this takes less than 5 minutes.</p>
+<p>Set up your business details, VAT rate (7.5%), and ensure all mandatory fields are included. With <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>, this takes less than 5 minutes.</p>
 
 <h3>Step 5: Test and go live</h3>
 <p>Generate test invoices, verify all fields are correct, and begin issuing e-invoices to your clients. Keep records of all invoices for at least 6 years as required by FIRS.</p>
@@ -154,7 +154,7 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>NGN currency formatting</strong> with proper thousand separators</li>
   <li><strong>Paystack integration</strong> for instant online payments</li>
   <li><strong>Audit-ready records</strong> stored securely for 7+ years</li>
-  <li><strong>Free tier</strong> with 5 invoices/month — no credit card needed</li>
+  <li><strong>Pro plan</strong> with Pro plan from $15/month</li>
 </ul>
 
 <p><a href="/__LANG__/pricing">Start with Invoicemonk free →</a></p>
@@ -324,7 +324,7 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>VAT benefits:</strong> Properly documented invoices make VAT filing and refund claims faster</li>
   <li><strong>Professional image:</strong> E-invoices with QR codes and IRN look more professional to clients</li>
   <li><strong>B2B requirements:</strong> Large company clients already in Phase 1/2 may require e-invoices from their suppliers</li>
-  <li><strong>Free tools available:</strong> Invoicemonk's free tier lets you issue 5 compliant invoices per month at no cost</li>
+  <li><strong>Free tools available:</strong> Invoicemonk's Pro plan ($15/month) lets you issue unlimited compliant invoices</li>
 </ul>
 
 <h2>What If I'm a Freelancer or Sole Trader?</h2>
@@ -401,7 +401,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>Both appear on the final invoice PDF</li>
 </ol>
 
-<p><a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> includes both IRN and QR code generation on all invoices, ensuring your documents are fully FIRS-compliant.</p>
+<p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> includes both IRN and QR code generation on all invoices, ensuring your documents are fully FIRS-compliant.</p>
 
 <p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>. To add your TIN correctly, read <a href="/__LANG__/blog/nigeria-invoice-tin-number">how to add TIN to Nigerian invoices</a>.</p>
     `
@@ -646,7 +646,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>Not separating VAT amount — must be shown as a distinct line item</li>
 </ul>
 
-<p>Use <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> to create invoices with all these fields pre-configured. For how to create your first VAT invoice step by step, see <a href="/__LANG__/blog/nigeria-create-vat-invoice">our how-to guide</a>.</p>
+<p>Use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> to create invoices with all these fields pre-configured. For how to create your first VAT invoice step by step, see <a href="/__LANG__/blog/nigeria-create-vat-invoice">our how-to guide</a>.</p>
     `
   },
 
@@ -904,7 +904,7 @@ export const cluster10Posts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>For the complete eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>.</p>
+<p>For the complete eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
     `
   },
 
@@ -977,7 +977,7 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>Currency:</strong> KES for domestic transactions</li>
 </ul>
 
-<p>For the full eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>.</p>
+<p>For the full eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
     `
   },
 

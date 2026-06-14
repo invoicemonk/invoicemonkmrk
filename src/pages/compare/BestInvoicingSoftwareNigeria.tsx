@@ -13,11 +13,11 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Nigerian freelancers & SMEs',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['FIRS e-invoicing compliant', 'NGN + multi-currency support', 'VAT at 7.5% auto-calculated', 'TIN fields built in', 'Free invoice generator — no signup'],
     cons: ['No Paystack integration (yet)', 'No payroll module'],
-    description: 'Invoicemonk is purpose-built for Nigerian businesses navigating the FIRS e-invoicing mandate. It auto-applies 7.5% VAT when NGN is selected, includes TIN fields for both seller and buyer, and supports Invoice Reference Numbers (IRN) and QR codes. The free plan includes multi-currency invoicing — essential for Nigerian businesses billing international clients in USD, GBP, or EUR.',
+    description: 'Invoicemonk is purpose-built for Nigerian businesses navigating the FIRS e-invoicing mandate. It auto-applies 7.5% VAT when NGN is selected, includes TIN fields for both seller and buyer, and supports Invoice Reference Numbers (IRN) and QR codes. The Pro plan includes multi-currency invoicing — essential for Nigerian businesses billing international clients in USD, GBP, or EUR.',
   },
   {
     name: 'Wave',
@@ -42,16 +42,16 @@ const tools = [
     bestFor: 'Zoho ecosystem users in Nigeria',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid plans'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No Nigeria-specific VAT defaults', 'Complex for simple needs', 'Full features need Zoho Books'],
-    description: 'Zoho Invoice offers a free tier but caps you at 5 customers. It doesn\'t have Nigeria-specific VAT or TIN features built in, so you\'d need to configure everything manually. Works best if you\'re already in the Zoho ecosystem.',
+    description: 'Zoho Invoice offers a Pro plan but caps you at 5 customers. It doesn\'t have Nigeria-specific VAT or TIN features built in, so you\'d need to configure everything manually. Works best if you\'re already in the Zoho ecosystem.',
   },
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Nigeria?', answer: 'Invoicemonk is the best invoicing software for Nigerian businesses in 2026. It includes FIRS e-invoicing compliance, 7.5% VAT auto-calculation for NGN, TIN fields, and multi-currency invoicing for billing international clients — all on a free plan.' },
+  { question: 'What is the best invoicing software for Nigeria?', answer: 'Invoicemonk is the best invoicing software for Nigerian businesses in 2026. It includes FIRS e-invoicing compliance, 7.5% VAT auto-calculation for NGN, TIN fields, and multi-currency invoicing for billing international clients — all from $15/month on the Pro plan.' },
   { question: 'Does invoicing software need to be FIRS compliant in Nigeria?', answer: 'Yes. With the FIRS e-invoicing mandate rolling out from 2025-2026, all businesses above the threshold must issue electronic invoices with IRN numbers, QR codes, and TIN details via the TaxPro-Max system. Invoicing software should support these requirements.' },
-  { question: 'Can Nigerian freelancers use free invoicing software?', answer: 'Yes. Invoicemonk offers a genuinely free plan with unlimited invoices, 7.5% VAT calculation, TIN fields, and multi-currency support. This covers everything a Nigerian freelancer needs for tax-compliant invoicing.' },
+  { question: "Can Nigerian freelancers use free invoicing software?', answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes unlimited invoices, 7.5% VAT calculation, TIN fields, and multi-currency support. This covers everything a Nigerian freelancer needs for tax-compliant invoicing." },
 ];
 
 export default function BestInvoicingSoftwareNigeria() {

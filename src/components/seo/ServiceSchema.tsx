@@ -6,7 +6,7 @@ interface ServiceSchemaProps {
   serviceType: string;
   description: string;
   url: string;
-  /** Optional price - defaults to "0" for free tier */
+  /** Optional price - defaults to "0" for Pro plan */
   price?: string;
   priceCurrency?: string;
 }
@@ -51,7 +51,7 @@ export function ServiceSchema({
       "price": price,
       "priceCurrency": priceCurrency,
       "availability": "https://schema.org/InStock",
-      "description": "Free tier available with premium options"
+      "description": "Pro from $15/month with premium options"
     },
     "termsOfService": `${BASE}/${prefix}/terms-of-service`,
     "serviceOutput": {

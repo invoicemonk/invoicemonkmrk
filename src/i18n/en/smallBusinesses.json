@@ -8,7 +8,7 @@
     "title": "Financial tools that grow with your business",
     "accentWord": "grow",
     "description": "From invoicing to expense tracking, Invoicemonk gives small businesses the financial infrastructure they need to operate professionally and scale.",
-    "primaryCta": "Start Free Trial",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Business Plans",
     "stats": [
       { "value": "50%", "label": "Faster payments" },
@@ -60,7 +60,7 @@
     "title": "Why small businesses choose Invoicemonk over alternatives",
     "paragraphs": [
       "Most small businesses start with spreadsheets or basic templates for invoicing. As they grow, they realise they need something better — but enterprise accounting software is expensive, complex, and built for companies with dedicated finance teams. There's a gap in the middle, and that's exactly where Invoicemonk fits.",
-      "Invoicemonk gives you professional invoicing, expense tracking, team management, and financial reporting without the learning curve or the enterprise price tag. Start free, upgrade as you grow, and always have tools that match your current stage — not tools you'll grow into years from now.",
+      "Invoicemonk gives you professional invoicing, expense tracking, team management, and financial reporting without the learning curve or the enterprise price tag. Pro starts at $15/month, and always have tools that match your current stage — not tools you'll grow into years from now.",
       "Every document Invoicemonk generates is cryptographically verified with a QR code and stored with an immutable audit trail. This means your business is always audit-ready — not just at year-end, but every single day. Compliance happens automatically, not as an afterthought."
     ]
   },
@@ -93,7 +93,7 @@
     { "question": "Can I track expenses alongside invoices?", "answer": "Absolutely. Record business expenses, categorise them (office supplies, travel, marketing, etc.), and see your true profitability. Export expense reports for your accountant at any time." },
     { "question": "Does Invoicemonk support recurring invoices?", "answer": "Yes. Set up automatic monthly, quarterly, or custom-schedule invoices for retainer clients or ongoing services. Invoicemonk generates and sends them on time, every time." },
     { "question": "How does multi-currency support work?", "answer": "Create separate currency accounts for each currency you operate in (e.g., USD, EUR, GBP). Each currency account keeps invoices, expenses, and reports cleanly separated — no confusing exchange rate calculations." },
-    { "question": "Is there a free plan for small businesses?", "answer": "Yes! Start free with 5 invoices and 5 receipts per month. Upgrade as your business grows for unlimited invoicing, team management, financial reports, and more." },
+    { "question": "What does Invoicemonk cost for small businesses?", "answer": "Yes! Pro from $15/month with unlimited invoices. Upgrade as your business grows for unlimited invoicing, team management, financial reports, and more." },
     { "question": "Can I generate financial reports?", "answer": "Yes. Professional and Business plans include revenue reports, expense summaries, profit & loss statements, and compliance reports. All reports are single-currency for accuracy and exportable as CSV or JSON." },
     { "question": "How does Invoicemonk help with compliance?", "answer": "Every invoice includes your tax identification number, is cryptographically verified with a QR code, and stored with an immutable audit trail. Export compliance-ready reports for regulators or auditors at any time." }
   ],

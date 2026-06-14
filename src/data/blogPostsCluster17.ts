@@ -1208,7 +1208,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>French-specific rules:</strong> SIREN/SIRET format validation, French VAT number format (FR + 2 check digits + 9 SIREN digits).</li>
 <li><strong>PDF/A-3 compliance:</strong> The PDF must be a valid PDF/A-3 document with correct XMP metadata.</li>
 </ul>
-<p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> ensures format compliance automatically.</p>`,
+<p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> ensures format compliance automatically.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'factur-x', 'e-invoicing', 'compliance', 'xml'],
     author: defaultAuthor,
@@ -1756,7 +1756,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     slug: 'belgium-peppol-access-point-guide',
     title: `How to Choose a PEPPOL Access Point in Belgium: Costs, Providers & Integration`,
     excerpt: `Selecting the right PEPPOL Access Point is critical for Belgian e-invoicing compliance. Compare costs, features, and integration options.`,
-    content: `<p>Every Belgian business subject to the PEPPOL e-invoicing mandate needs a certified Access Point (AP) to send and receive structured e-invoices on the network. Access Points are private service providers certified by <a href="https://peppol.org">OpenPEPPOL</a> to connect businesses to the PEPPOL infrastructure. Costs typically range from €10–€200/month depending on volume and features, with some providers offering free tiers for low-volume users. Choosing the right AP affects your compliance experience, integration complexity, and ongoing costs.</p>
+    content: `<p>Every Belgian business subject to the PEPPOL e-invoicing mandate needs a certified Access Point (AP) to send and receive structured e-invoices on the network. Access Points are private service providers certified by <a href="https://peppol.org">OpenPEPPOL</a> to connect businesses to the PEPPOL infrastructure. Costs typically range from €10–€200/month depending on volume and features, with some providers offering Pro plans for low-volume users. Choosing the right AP affects your compliance experience, integration complexity, and ongoing costs.</p>
 
 <h2>What Does a PEPPOL Access Point Do?</h2>
 <p>An Access Point handles the technical complexity of PEPPOL e-invoicing:</p>

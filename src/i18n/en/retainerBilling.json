@@ -1,14 +1,14 @@
 {
   "seo": {
     "title": "Retainer Billing & Client Retainer Invoicing | Invoicemonk",
-    "description": "Automate retainer invoicing for ongoing client relationships. Recurring billing, drawdown tracking, and professional retainer management. Free tier available."
+    "description": "Automate retainer invoicing for ongoing client relationships. Recurring billing, drawdown tracking, and professional retainer management. Pro from $15/month."
   },
   "hero": {
     "badge": "Retainer Billing",
     "title": "Effortless retainer invoicing",
     "accentWord": "retainer",
     "description": "Automate monthly retainer billing for your clients. Set fixed amounts, recurring schedules, and let Invoicemonk handle the rest.",
-    "primaryCta": "Start Free",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Pricing"
   },
   "overview": {
@@ -92,7 +92,7 @@
   },
   "cta": {
     "title": "Lock in recurring revenue",
-    "description": "Set up retainer billing in minutes. Start free — no credit card required.",
+    "description": "Set up retainer billing in minutes. ",
     "button": "Get Started Free"
   }
 }

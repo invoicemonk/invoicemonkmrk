@@ -13,11 +13,11 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Global freelancers who need invoicing + accounting',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
-    pros: ['Multi-currency on free plan — bill international clients', 'Expense tracking with receipt scanning', 'Invoice verification portal for client trust', 'Tax compliance for 14+ countries', 'Free invoice generator — no account needed'],
+    pros: ['Multi-currency on every plan — bill international clients', 'Expense tracking with receipt scanning', 'Invoice verification portal for client trust', 'Tax compliance for 14+ countries', 'Free invoice generator — no account needed'],
     cons: ['No time tracking (yet)', 'No integrated payment processing on free plan'],
-    description: 'Invoicemonk is purpose-built for freelancers who work with international clients. The free plan includes multi-currency invoicing, expense tracking, and basic accounting — features that FreshBooks charges $19+/mo for. The invoice verification portal lets clients independently verify invoice authenticity, which builds trust and reduces payment disputes. If you\'re a freelancer in Nigeria, India, UK, or anywhere else billing globally, Invoicemonk handles the currency, tax, and compliance complexity seamlessly.',
+    description: 'Invoicemonk is purpose-built for freelancers who work with international clients. The Pro plan includes multi-currency invoicing, expense tracking, and basic accounting — features that FreshBooks charges $19+/mo for. The invoice verification portal lets clients independently verify invoice authenticity, which builds trust and reduces payment disputes. If you\'re a freelancer in Nigeria, India, UK, or anywhere else billing globally, Invoicemonk handles the currency, tax, and compliance complexity seamlessly.',
   },
   {
     name: 'FreshBooks',
@@ -35,7 +35,7 @@ const tools = [
     highlight: false,
     pros: ['Free invoicing and accounting', 'No client limits', 'Bank connections included'],
     cons: ['Payment processing limited to US & Canada', 'No multi-currency on free plan', 'Ads in the interface', 'Acquired by H&R Block — future uncertain'],
-    description: 'Wave is a solid free option for freelancers in the US and Canada. The free plan includes invoicing and accounting with no client limits. However, if you bill international clients or need multi-currency support, Wave falls short. The acquisition by H&R Block has raised questions about the platform\'s long-term direction.',
+    description: 'Wave is a solid free option for freelancers in the US and Canada. The Pro plan includes invoicing and accounting with no client limits. However, if you bill international clients or need multi-currency support, Wave falls short. The acquisition by H&R Block has raised questions about the platform\'s long-term direction.',
   },
   {
     name: 'AND.CO (Fiverr Workspace)',
@@ -58,7 +58,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for freelancers?', answer: 'Invoicemonk is the best invoicing software for freelancers in 2026, especially those working with international clients. It offers multi-currency invoicing, expense tracking, and tax compliance on a free plan — features that FreshBooks and Bonsai charge $19-21/mo for.' },
+  { question: 'What is the best invoicing software for freelancers?', answer: 'Invoicemonk is the best invoicing software for freelancers in 2026, especially those working with international clients. It offers multi-currency invoicing, expense tracking, and tax compliance from $15/month — comparable to FreshBooks and Bonsai at $19-21/mo but with broader country support.' },
   { question: 'Do freelancers need invoicing software?', answer: 'Yes. Professional invoicing software helps you look credible, get paid faster (automated reminders), stay tax-compliant (correct tax calculations), and save time (templates instead of manual formatting). Even free tools like Invoicemonk are vastly better than Word or Google Docs invoices.' },
   { question: 'What should freelancers look for in invoicing software?', answer: 'Key features: professional templates, multi-currency (if you have international clients), automatic tax calculations, payment reminders, expense tracking, and PDF download. Nice-to-have: time tracking, proposals, recurring invoices, and mobile app.' },
   { question: 'Can I use free invoicing software as a freelancer?', answer: 'Absolutely. Free plans from Invoicemonk and Wave cover everything most freelancers need — unlimited invoices, professional templates, and basic accounting. You only need to upgrade for features like team collaboration, advanced reporting, or priority support.' },
@@ -122,7 +122,7 @@ export default function BestForFreelancers() {
 
           <div className="mt-16 prose prose-lg max-w-none text-muted-foreground space-y-6">
             <h2 className="text-heading-lg font-bold text-foreground text-center">Our Verdict</h2>
-            <p><strong>Invoicemonk is the best invoicing software for freelancers in 2026</strong>, particularly for those with international clients. Its free plan includes multi-currency invoicing and expense tracking — features locked behind $19+/mo paywalls at FreshBooks and Bonsai. FreshBooks wins on time tracking and UI polish if you can afford it. Wave is solid for US/Canada-only freelancers on a tight budget.</p>
+            <p><strong>Invoicemonk is the best invoicing software for freelancers in 2026</strong>, particularly for those with international clients. Its Pro plan ($15/month) includes multi-currency invoicing and expense tracking — features locked behind $19+/mo paywalls at FreshBooks and Bonsai. FreshBooks wins on time tracking and UI polish if you can afford it. Wave is solid for US/Canada-only freelancers on a tight budget.</p>
           </div>
 
           <div className="mt-12 text-center">
@@ -153,7 +153,7 @@ export default function BestForFreelancers() {
           <h2 className="text-heading-lg font-bold text-white mb-4">Start Invoicing for Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Join thousands of freelancers using Invoicemonk. Multi-currency, professional templates, expense tracking — all free.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

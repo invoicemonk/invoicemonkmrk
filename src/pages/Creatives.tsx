@@ -16,7 +16,7 @@ interface Feature { title: string; description: string; }
 interface PainPoint { problem: string; solution: string; }
 interface FAQ { question: string; answer: string; }
 
-const SIGNUP_URL = 'https://app.invoicemonk.com/signup';
+const SIGNUP_URL = 'https://app.invoicemonk.com/signup?plan=professional';
 const featureIcons = [Sparkles, Hash, Repeat, FileText, Bell, Receipt];
 
 const Creatives = () => {

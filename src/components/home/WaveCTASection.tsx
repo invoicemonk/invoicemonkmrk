@@ -38,7 +38,7 @@ export function WaveCTASection() {
               size="lg"
               className="rounded-full px-10 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-lg group"
             >
-              <a href="https://app.invoicemonk.com/signup">
+              <a href="https://app.invoicemonk.com/signup?plan=professional">
                 {t('cta.button')}
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
               </a>

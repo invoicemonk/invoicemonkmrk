@@ -29,10 +29,10 @@ export function CTASection() {
                   variant="secondary"
                   className="rounded-full px-8 h-12 text-body bg-white text-primary hover:bg-white/90 shadow-soft-lg hover:shadow-soft-xl transition-all duration-300 hover:-translate-y-0.5 group"
                 >
-                  <Link to="/signup">
-                    Start Invoicing Free
+                  <a href="https://app.invoicemonk.com/signup?plan=professional">
+                    Get started
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-                  </Link>
+                  </a>
                 </Button>
                 <Button
                   asChild
@@ -44,7 +44,7 @@ export function CTASection() {
                 </Button>
               </div>
               <p className="text-body-sm text-primary-foreground/60 mt-6">
-                No credit card required • Free plan available
+                Pro from $15/month. Cancel anytime.
               </p>
             </div>
           </div>

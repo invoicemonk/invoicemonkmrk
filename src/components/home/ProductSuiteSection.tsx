@@ -80,8 +80,8 @@ export function ProductSuiteSection() {
                   
                   <div className="flex flex-col sm:flex-row gap-3">
                     <Button asChild size="lg" className="rounded-full group">
-                      <a href="https://app.invoicemonk.com/signup">
-                        Start Invoicing Free
+                      <a href="https://app.invoicemonk.com/signup?plan=professional">
+                        Get started
                         <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                       </a>
                     </Button>

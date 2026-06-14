@@ -37,7 +37,7 @@ const Freelancers = () => {
         title={t('hero.title')}
         accentWord={t('hero.accentWord')}
         description={t('hero.description')}
-        primaryCta={{ text: t('hero.ctaPrimary'), href: 'https://app.invoicemonk.com/signup' }}
+        primaryCta={{ text: t('hero.ctaPrimary'), href: 'https://app.invoicemonk.com/signup?plan=professional' }}
         secondaryCta={{ text: t('hero.ctaSecondary'), href: '#how-it-works', external: false }}
         trustBadge={t('hero.trustBadge')}
         backgroundVariant="gradient"
@@ -168,7 +168,7 @@ const Freelancers = () => {
           <p className="text-muted-foreground mb-4 leading-relaxed">{t('pricing.description')}</p>
           <p className="text-foreground font-medium mb-8">{t('pricing.highlight')}</p>
           <Button size="lg" asChild>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">
               {t('pricing.cta')}
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>
@@ -198,7 +198,7 @@ const Freelancers = () => {
           <h2 className="text-heading-lg font-bold mb-4">{t('bottomCta.title')}</h2>
           <p className="text-white/90 mb-8 leading-relaxed">{t('bottomCta.subtitle')}</p>
           <Button size="lg" variant="secondary" asChild>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">
               {t('bottomCta.button')}
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>

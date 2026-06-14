@@ -33,7 +33,7 @@ const faqs = [
   { question: 'What happens if I don\'t comply with e-invoicing mandates?', answer: 'Penalties vary by country. In India, non-compliant invoices are invalid for GST input tax credit claims. In Italy, fines range from €250 to €2,000 per invoice. In Saudi Arabia, penalties start at SAR 5,000. Most countries provide transition periods before enforcement.' },
   { question: 'Can I use Invoicemonk for e-invoicing?', answer: 'Yes. Invoicemonk generates tax-compliant invoices with all required fields — tax IDs, VAT/GST calculations, line-item breakdowns, and proper formatting. For countries requiring government portal submission (India IRP, Nigeria FIRS, Kenya eTIMS), Invoicemonk produces invoices in the correct format for upload.' },
   { question: 'What is Peppol e-invoicing?', answer: 'Peppol (Pan-European Public Procurement Online) is an international e-invoicing framework used in 39+ countries. It provides a standardized way to send e-invoices between businesses and governments. Australia, Singapore, New Zealand, and many EU countries use Peppol for B2G and increasingly B2B transactions.' },
-  { question: 'How much does e-invoicing compliance cost?', answer: 'With Invoicemonk, e-invoicing compliance is included in all plans, including the free tier. You get tax-compliant invoice generation, multi-currency support, and tax calculation at no extra cost. Enterprise ERP solutions can charge $5,000–$50,000+ for e-invoicing modules.' },
+  { question: 'How much does e-invoicing compliance cost?', answer: 'With Invoicemonk, e-invoicing compliance is included in all plans, including the Pro plan. You get tax-compliant invoice generation, multi-currency support, and tax calculation at no extra cost. Enterprise ERP solutions can charge $5,000–$50,000+ for e-invoicing modules.' },
   { question: 'Will e-invoicing replace PDF invoices?', answer: 'For tax reporting purposes, yes — structured data is replacing PDFs in mandated countries. However, most e-invoicing systems generate a human-readable PDF alongside the structured data file. Your clients still receive a PDF, but the tax authority gets the machine-readable version.' },
   { question: 'What is the difference between e-invoicing and e-reporting?', answer: 'E-invoicing involves sending the actual invoice in a structured format through a government platform. E-reporting (used in countries like France and Spain) means you submit invoice data to the tax authority separately while still sending invoices directly to your clients. Both aim to close the VAT gap.' },
   { question: 'Which countries will mandate e-invoicing next?', answer: 'The EU has proposed mandatory B2B e-invoicing across all member states by 2028 via the ViDA (VAT in the Digital Age) directive. France is implementing e-invoicing from 2026. Belgium, Spain, and several African nations are also preparing mandates. The global trend is clearly toward universal e-invoicing.' },
@@ -269,13 +269,13 @@ export default function EInvoicingGuide() {
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">E-Invoicing Compliant Invoices — Free</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Create tax-compliant invoices with proper tax IDs, VAT/GST calculations, and structured data. Start free — no signup required for the generator.</p>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Create tax-compliant invoices with proper tax IDs, VAT/GST calculations, and structured data. no signup required for the generator.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
               <Link to="/free-invoice-generator">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-              <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">Start Full Platform Free<ArrowRight className="ml-2 w-4 h-4" /></a>
+              <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Start Full Platform Free<ArrowRight className="ml-2 w-4 h-4" /></a>
             </Button>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const enSA: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Saudi Arabia",
     },
@@ -28,7 +28,7 @@ export const enSA: LocaleConfig = {
     paymentGateway: "Bank Transfer",
     seo: {
       siteTitle: "Invoicemonk Saudi Arabia - ZATCA-Compliant E-Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Saudi Arabian businesses. ZATCA Fatoorah compliant with QR code and cryptographic stamp support. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Saudi Arabian businesses. ZATCA Fatoorah compliant with QR code and cryptographic stamp support. Pro from $15/month.",
       complianceKeyword: "ZATCA-compliant",
       targetAudience: "Saudi",
       region: "Saudi Arabia",
@@ -70,7 +70,7 @@ export const enSA: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Saudi Arabia?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at SAR 109/month (Professional) and SAR 479/month (Business). Annual billing saves 20%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at SAR 109/month and SME at SAR 479/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Can I generate QR codes on my invoices for ZATCA?",
@@ -80,7 +80,7 @@ export const enSA: LocaleConfig = {
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",
       ctaSubtext: "Join Saudi businesses using Invoicemonk to stay ZATCA-compliant and get paid faster.",
-      ctaButtonText: "Start Invoicing Free",
+      ctaButtonText: "Get Started",
     },
     socialProofHeadline: "Loved by Saudi businesses",
   },

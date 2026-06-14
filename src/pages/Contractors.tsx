@@ -46,7 +46,7 @@ const Contractors = () => {
           title={t('hero.title')}
           accentWord={t('hero.accentWord')}
           description={t('hero.description')}
-          primaryCta={{ text: t('hero.primaryCta'), href: 'https://app.invoicemonk.com/signup' }}
+          primaryCta={{ text: t('hero.primaryCta'), href: 'https://app.invoicemonk.com/signup?plan=professional' }}
           secondaryCta={{ text: t('hero.secondaryCta'), href: '/pricing', external: false }}
           trustBadge={t('hero.trustBadge')}
           backgroundVariant="gradient"
@@ -212,7 +212,7 @@ const Contractors = () => {
           <h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.heading')}</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">{t('cta.description')}</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">
               {t('cta.button')}
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>

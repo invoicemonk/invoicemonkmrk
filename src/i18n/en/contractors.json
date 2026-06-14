@@ -1,14 +1,14 @@
 {
   "seo": {
     "title": "Contractor Invoicing Software — Invoice Clients from the Job Site | Invoicemonk",
-    "description": "Contractor invoicing software for electrical, building, and trade contractors. Mobile invoicing from the job site, multi-project tracking, expense management, and progress billing. Free plan available."
+    "description": "Contractor invoicing software for electrical, building, and trade contractors. Mobile invoicing from the job site, multi-project tracking, expense management, and progress billing. Pro from $15/month."
   },
   "hero": {
     "badge": "For Contractors",
     "title": "Invoicing built for contractors",
     "accentWord": "contractors",
     "description": "Manage multiple projects, track job expenses, and invoice clients from anywhere. Built for contractors who work on-site and on-the-go.",
-    "primaryCta": "Start Free",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Pricing",
     "trustBadge": "Trusted by electrical, building, and trade contractors"
   },
@@ -88,7 +88,7 @@
     { "question": "Does Invoicemonk work on mobile?", "answer": "Yes. Create and send invoices from your phone right at the job site. The mobile interface is designed for field use — no need to wait until you get back to the office to send an invoice or log an expense." },
     { "question": "Can I invoice for materials and labour separately?", "answer": "Yes. Add separate line items for materials, labour hours, equipment rental, and any other cost categories. Your client sees a clear breakdown of what they are paying for, which reduces disputes and builds trust." },
     { "question": "How do automatic payment reminders help contractors?", "answer": "Contractors often have multiple clients across different job sites. Automatic reminders ensure every outstanding invoice gets followed up, even when you are busy on-site. Set reminder schedules and Invoicemonk handles the rest — no manual chasing needed." },
-    { "question": "Is Invoicemonk free for contractors?", "answer": "Yes! The free tier includes 5 invoices and 5 receipts per month. As your contracting business grows and you take on more projects, upgrade for unlimited invoicing, detailed job costing reports, and recurring billing features." },
+    { "question": "Is Invoicemonk free for contractors?", "answer": "Yes! The Pro plan starts at $15/month with unlimited invoices. As your contracting business grows and you take on more projects, upgrade for unlimited invoicing, detailed job costing reports, and recurring billing features." },
     { "question": "Can I create deposit invoices?", "answer": "Yes. Request deposits or retainers upfront before starting work. Invoicemonk tracks the deposit against the total project cost and automatically calculates the remaining balance for your final invoice." }
   ],
   "faqHeading": "Frequently asked questions",

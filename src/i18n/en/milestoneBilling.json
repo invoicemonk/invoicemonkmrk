@@ -1,14 +1,14 @@
 {
   "seo": {
     "title": "Milestone Billing & Progress Invoicing | Invoicemonk",
-    "description": "Bill clients at project milestones with deposit, progress, and final invoices. Perfect for photographers, developers, and project-based businesses. Free tier available."
+    "description": "Bill clients at project milestones with deposit, progress, and final invoices. Perfect for photographers, developers, and project-based businesses. Pro from $15/month."
   },
   "hero": {
     "badge": "Milestone Billing",
     "title": "Bill at every project milestone",
     "accentWord": "milestone",
     "description": "Collect deposits, send progress invoices, and bill final balances — all tied to clear project milestones.",
-    "primaryCta": "Start Free",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Pricing"
   },
   "overview": {
@@ -101,7 +101,7 @@
   },
   "cta": {
     "title": "Start billing by milestone",
-    "description": "Protect your cash flow with milestone invoicing. Start free — no credit card required.",
+    "description": "Protect your cash flow with milestone invoicing. ",
     "button": "Get Started Free"
   }
 }

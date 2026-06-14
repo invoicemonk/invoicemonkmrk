@@ -37,11 +37,11 @@ export const cluster9Posts: BlogPost[] = [
       },
       {
         question: 'How much does paid invoicing software cost?',
-        answer: 'Most paid invoicing software ranges from $8 to $30 per month for small businesses. Enterprise plans can run $50+ per month. Many platforms, including Invoicemonk, offer a generous free tier that covers basic needs, with paid plans for advanced features.'
+        answer: 'Most paid invoicing software ranges from $8 to $30 per month for small businesses. Enterprise plans can run $50+ per month. Many platforms, including Invoicemonk, offer a generous Pro plan that covers basic needs, with paid plans for advanced features.'
       },
       {
-        question: 'Can I start free and upgrade later?',
-        answer: 'Yes — most invoicing platforms are designed for exactly this path. Start with a free plan to learn the interface and test the workflow. Upgrade when you need features like automation, reporting, or team access. Your data and invoice history typically carry over seamlessly.'
+        question: 'Can I start small and upgrade later?',
+        answer: 'Yes — most invoicing platforms are designed for exactly this path. Start with a low-cost plan to learn the interface and test the workflow. Upgrade when you need features like automation, reporting, or team access. Your data and invoice history typically carry over seamlessly.'
       }
     ],
     entityMentions: [
@@ -77,7 +77,7 @@ export const cluster9Posts: BlogPost[] = [
 <h2>Feature Comparison: Free vs Paid</h2>
 
 <table>
-  <thead><tr><th>Feature</th><th>Free tier (typical)</th><th>Paid plan (typical)</th></tr></thead>
+  <thead><tr><th>Feature</th><th>Pro plan (typical)</th><th>Paid plan (typical)</th></tr></thead>
   <tbody>
     <tr><td>Invoice creation</td><td>✓ (limited/month)</td><td>✓ (unlimited)</td></tr>
     <tr><td>Custom branding</td><td>Partial (platform watermark)</td><td>✓ Full white-label</td></tr>
@@ -102,7 +102,7 @@ export const cluster9Posts: BlogPost[] = [
   <li><strong>You're just starting out.</strong> You have fewer than 10 clients, send a handful of invoices per month, and your main goal is looking professional without spending money.</li>
   <li><strong>Your billing is simple.</strong> One currency, one tax rate, no recurring clients needing automatic billing.</li>
   <li><strong>You're testing the waters.</strong> Not sure if freelancing or a side business will stick? Free tools let you operate professionally while you validate the idea.</li>
-  <li><strong>You're price-sensitive.</strong> Every pound and dollar matters in the early days. A free invoice generator like <a href="/en/free-invoice-generator">Invoicemonk's</a> lets you create unlimited invoices at zero cost.</li>
+  <li><strong>You're price-sensitive.</strong> Every pound and dollar matters in the early days. <a href="/en/invoice-templates">Invoicemonk's free invoice templates</a> let you draft compliant invoices before you commit to the $15/month Pro plan.</li>
 </ol>
 
 <h2>When You Should Pay for Invoicing Software</h2>
@@ -147,11 +147,11 @@ export const cluster9Posts: BlogPost[] = [
   <li><strong>Mobile access.</strong> Can you create and send invoices from your phone? For freelancers and field service businesses, this is essential.</li>
 </ol>
 
-<h2>The Best Approach: Start Free, Upgrade When the Pain Is Real</h2>
+<h2>The Best Approach: Get Started, Upgrade When the Pain Is Real</h2>
 
-<p>Don't over-invest in software before you know what you need. Start with a free plan, pay attention to where you spend time on workarounds, and upgrade when one of these features would save you measurable time or money.</p>
+<p>Don't over-invest in software before you know what you need. Start with a low-cost plan, pay attention to where you spend time on workarounds, and upgrade when one of these features would save you measurable time or money.</p>
 
-<p>Invoicemonk is designed for exactly this journey. The <a href="/en/free-invoice-generator">free invoice generator</a> handles unlimited invoicing with professional templates. When you're ready for automation, reporting, and multi-currency support, <a href="/en/pricing">paid plans</a> start at an accessible price point with no data migration needed.</p>
+<p>Invoicemonk is designed for exactly this journey. The <a href="/en/invoice-templates">invoice templates</a> are free to download as references. When you're ready for automation, reporting, and multi-currency support, <a href="/en/pricing">paid plans</a> start at an accessible price point with no data migration needed.</p>
 
 <h2>Key Takeaways</h2>
 

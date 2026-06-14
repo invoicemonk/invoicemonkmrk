@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Kenyan freelancers & SMEs',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['KRA PIN and eTIMS-aware fields', 'VAT at 16% auto-calculated for KES', 'Multi-currency for international billing', 'Free invoice generator — no signup', 'Compliance features for East Africa'],
     cons: ['No M-Pesa integration (yet)', 'No payroll module'],
@@ -42,16 +42,16 @@ const tools = [
     bestFor: 'Zoho ecosystem users',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid'],
     cons: ['5-customer limit on free plan', 'No Kenya-specific VAT defaults', 'No eTIMS support'],
-    description: 'Zoho Invoice offers a free tier but limits you to 5 customers and lacks Kenya-specific tax features. Works best as part of the broader Zoho suite.',
+    description: 'Zoho Invoice offers a Pro plan but limits you to 5 customers and lacks Kenya-specific tax features. Works best as part of the broader Zoho suite.',
   },
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software in Kenya?', answer: 'Invoicemonk is the best invoicing software for Kenyan businesses in 2026. It includes KRA compliance features, 16% VAT auto-calculation for KES, KRA PIN fields, and multi-currency invoicing — all on a free plan.' },
+  { question: 'What is the best invoicing software in Kenya?', answer: 'Invoicemonk is the best invoicing software for Kenyan businesses in 2026. It includes KRA compliance features, 16% VAT auto-calculation for KES, KRA PIN fields, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Is eTIMS compliance mandatory for Kenyan businesses?', answer: 'Yes. The Kenya Revenue Authority (KRA) mandates eTIMS (electronic Tax Invoice Management System) for all VAT-registered businesses. All tax invoices must be generated through or reported to the eTIMS system, with proper serial numbers, QR codes, and control unit numbers.' },
-  { question: 'Can I create free invoices in Kenya?', answer: 'Yes. Invoicemonk offers a free plan with unlimited invoices, 16% VAT calculation, KRA PIN fields, and multi-currency support — no signup required for the free generator.' },
+  { question: "What does Invoicemonk cost for Kenyan freelancers?', answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes unlimited invoices, 16% VAT calculation, KRA PIN fields, and multi-currency support — Pro from $15/month with cancel anytime." },
 ];
 
 export default function BestInvoicingSoftwareKenya() {

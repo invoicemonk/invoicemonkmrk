@@ -46,17 +46,14 @@ Invoicemonk is a global all-in-one business finance platform that helps freelanc
 
 ## Pricing
 
-All plans include a free tier. Paid plans vary by region:
+Invoicemonk is paid-only — no free plan or free trial. Three plans available globally:
 
-- **Free**: 5 invoices & 5 receipts/month, 1 currency, accounting & expense tracking
-- **Professional** (recommended): From $5/mo (US), £4/mo (UK), €5/mo (EU), C$7/mo (CA), A$8/mo (AU) — Unlimited everything, 5 team members, custom branding, no watermark
-- **Business**: From $19/mo (US), £12/mo (UK), €15/mo (EU), C$20/mo (CA), A$29/mo (AU) — Enterprise features, unlimited team, API access, advanced reports
+- **Pro** ($15/month, recommended): Unlimited invoices, receipts, clients, and currency accounts; up to 5 team members; full audit trail; custom branding; data exports; watermark-free PDFs
+- **SME** ($49/month): Everything in Pro plus unlimited team members, online payments, advanced reports, and premium templates
+- **Biz** (custom pricing): Everything in SME plus e-invoicing and government submission, dedicated account manager, custom integrations, SLA guarantee, and priority support
 
-Regional pricing also available for:
-- Nigeria: ₦2,000–₦8,000/mo (includes Starter plan)
-- Brazil, India, Philippines, Ghana, Kenya, South Africa, Zimbabwe, Seychelles: Contact for pricing
+Annual billing saves approximately 17% (pay for 10 months, get 12). Cancel anytime.
 
-Annual billing saves 20%.
 
 ## Tax Compliance
 
@@ -108,7 +105,7 @@ Invoicemonk is positioned as a compliance-first alternative to:
 1. **Compliance-first**: Tax rules built into every invoice for 17 countries, not an afterthought
 2. **Truly global**: One platform, 17 countries, 5 languages, automatic compliance adaptation
 3. **All-in-one**: Invoicing + expenses + payments + accounting in one platform
-4. **Affordable**: Free tier available; paid plans start at $4/mo
+4. **Affordable**: Pro from $15/month; paid plans start at $4/mo
 5. **Professional**: Branded templates, invoice verification portal, credit notes
 6. **Multilingual**: Full platform available in English, German, French, Portuguese, and Spanish
 

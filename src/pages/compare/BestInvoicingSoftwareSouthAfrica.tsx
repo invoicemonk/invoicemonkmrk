@@ -13,11 +13,11 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'South African freelancers & SMEs needing SARS compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['SARS-compliant invoice fields', 'VAT at 15% auto-calculated for ZAR', 'Multi-currency (ZAR, USD, GBP, EUR)', 'Tax reference number fields', 'Free invoice generator — no signup'],
     cons: ['No direct SARS eFiling integration', 'No payroll module'],
-    description: 'Invoicemonk handles South African invoicing requirements with SARS-compliant fields. When ZAR is selected, it auto-applies 15% VAT and includes tax reference number fields for both seller and buyer. The free plan covers multi-currency invoicing for billing international clients.',
+    description: 'Invoicemonk handles South African invoicing requirements with SARS-compliant fields. When ZAR is selected, it auto-applies 15% VAT and includes tax reference number fields for both seller and buyer. The Pro plan covers multi-currency invoicing for billing international clients.',
   },
   {
     name: 'Xero',

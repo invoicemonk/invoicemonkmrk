@@ -16,7 +16,7 @@ export const enSC: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Seychelles",
     },
@@ -28,7 +28,7 @@ export const enSC: LocaleConfig = {
     paymentGateway: "Bank Transfer",
     seo: {
       siteTitle: "Invoicemonk Seychelles - SRC-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Seychellois businesses. SRC-compliant with VAT support. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Seychellois businesses. SRC-compliant with VAT support. Pro from $15/month.",
       complianceKeyword: "SRC-compliant",
       targetAudience: "Seychellois",
       region: "Seychelles",
@@ -70,7 +70,7 @@ export const enSC: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Seychelles?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₨399/month (Professional) and ₨1,799/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at ₨399/month and SME at ₨1,799/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle VAT for Seychellois businesses?",

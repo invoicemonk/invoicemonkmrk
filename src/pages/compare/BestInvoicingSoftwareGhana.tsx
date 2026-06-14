@@ -13,11 +13,11 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Ghanaian freelancers & SMEs needing GRA compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['GRA-compliant invoice fields (TIN)', 'VAT at 15% + levies auto-calculated for GHS', 'Multi-currency (GHS, USD, GBP, EUR)', 'Free invoice generator — no signup', 'Expense tracking included'],
     cons: ['No direct GRA filing integration', 'No mobile money payment processing'],
-    description: 'Invoicemonk handles Ghanaian tax complexity — standard VAT at 15%, plus NHIL (2.5%), GETFund (2.5%), and COVID levy (1%). When GHS is selected, it includes TIN fields and auto-applies the correct rates. The free plan covers multi-currency invoicing for billing international clients.',
+    description: 'Invoicemonk handles Ghanaian tax complexity — standard VAT at 15%, plus NHIL (2.5%), GETFund (2.5%), and COVID levy (1%). When GHS is selected, it includes TIN fields and auto-applies the correct rates. The Pro plan covers multi-currency invoicing for billing international clients.',
   },
   {
     name: 'Wave',
@@ -33,9 +33,9 @@ const tools = [
     bestFor: 'Zoho ecosystem users',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid plans'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No Ghana-specific tax defaults', 'Complex for simple needs', 'Full features need Zoho Books'],
-    description: 'Zoho Invoice offers a free tier but caps at 5 customers. It doesn\'t have Ghana-specific VAT or TIN features built in. Works best if you\'re already in the Zoho ecosystem.',
+    description: 'Zoho Invoice offers a Pro plan but caps at 5 customers. It doesn\'t have Ghana-specific VAT or TIN features built in. Works best if you\'re already in the Zoho ecosystem.',
   },
   {
     name: 'Sage Business Cloud',
@@ -49,7 +49,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Ghana?', answer: 'Invoicemonk is the best invoicing software for Ghanaian businesses in 2026. It includes GRA-compliant TIN fields, auto-calculates VAT at 15% plus NHIL and GETFund levies, and supports multi-currency invoicing — all with a free plan.' },
+  { question: 'What is the best invoicing software for Ghana?', answer: 'Invoicemonk is the best invoicing software for Ghanaian businesses in 2026. It includes GRA-compliant TIN fields, auto-calculates VAT at 15% plus NHIL and GETFund levies, and supports multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'What tax rates apply to Ghanaian invoices?', answer: 'Ghana applies standard VAT at 15%, plus NHIL at 2.5%, GETFund levy at 2.5%, and COVID-19 Health Recovery Levy at 1%. The effective tax rate is 21% on taxable goods and services.' },
   { question: 'Do I need a TIN for invoicing in Ghana?', answer: 'Yes. The Ghana Revenue Authority (GRA) requires all businesses to have a Tax Identification Number (TIN) displayed on invoices. Invoicemonk includes TIN fields by default when GHS is selected.' },
 ];

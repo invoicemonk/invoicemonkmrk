@@ -730,7 +730,7 @@ export const cluster15Posts: BlogPost[] = [
 <h2>Tools for Italian Freelancer E-Invoicing</h2>
 <p>Options for generating and transmitting FatturaPA:</p>
 <ul>
-<li><strong>Invoicemonk</strong> — automatic FatturaPA generation and SDI transmission. Handles forfettario and ordinario regimes. <a href="/invoicing">Try the free invoice generator</a>.</li>
+<li><strong>Invoicemonk</strong> — automatic FatturaPA generation and SDI transmission. Handles forfettario and ordinario regimes. <a href="/invoicing">Try Invoicemonk's invoice generator</a>.</li>
 <li><strong>Agenzia delle Entrate portal</strong> — free but manual. Good for very low-volume invoicing (1-2 per month).</li>
 <li><strong>Aruba / Fattura24 / Fatture in Cloud</strong> — Italian-specific tools with SDI integration.</li>
 </ul>

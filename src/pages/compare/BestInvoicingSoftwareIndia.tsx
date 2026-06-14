@@ -13,11 +13,11 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Indian freelancers & small businesses',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['GST-compliant with GSTIN fields', 'CGST/SGST/IGST auto-calculation', 'HSN/SAC code support', '18% GST default for INR', 'Multi-currency for international billing'],
     cons: ['No Tally integration', 'No GSP certification (yet)'],
-    description: 'Invoicemonk is the best GST-compliant invoicing tool for Indian businesses. Select INR currency and it auto-applies 18% GST with GSTIN fields, HSN/SAC code support, and per-item CGST/SGST/IGST overrides. The free plan includes multi-currency invoicing — essential for Indian freelancers billing international clients. Six professional templates ensure your invoices look as credible as your work.',
+    description: 'Invoicemonk is the best GST-compliant invoicing tool for Indian businesses. Select INR currency and it auto-applies 18% GST with GSTIN fields, HSN/SAC code support, and per-item CGST/SGST/IGST overrides. The Pro plan includes multi-currency invoicing — essential for Indian freelancers billing international clients. Six professional templates ensure your invoices look as credible as your work.',
   },
   {
     name: 'Vyapar',
@@ -33,7 +33,7 @@ const tools = [
     bestFor: 'Zoho ecosystem users',
     price: 'Free (5 customers) / Zoho Books from ₹999/mo',
     highlight: false,
-    pros: ['Free tier with GST support', 'Part of the Zoho suite', 'Workflow automation', 'E-invoicing via Zoho Books'],
+    pros: ['Pro plan with GST support', 'Part of the Zoho suite', 'Workflow automation', 'E-invoicing via Zoho Books'],
     cons: ['5-customer limit on free plan', 'Full GST compliance needs Zoho Books', 'Complex setup for beginners'],
     description: 'Zoho Invoice offers free GST invoicing but caps you at 5 customers. For proper e-invoicing, GST return filing, and IRP integration, you need Zoho Books (starting at ₹999/mo). Best for businesses already using Zoho CRM or Zoho Expense.',
   },
@@ -49,9 +49,9 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software in India?', answer: 'Invoicemonk is the best invoicing software for Indian businesses in 2026, offering GST compliance with CGST/SGST/IGST auto-calculation, GSTIN fields, HSN/SAC code support, and multi-currency invoicing — all on a free plan. Vyapar is best for inventory-heavy businesses, and ClearTax for tax-filing-focused workflows.' },
+  { question: 'What is the best invoicing software in India?', answer: 'Invoicemonk is the best invoicing software for Indian businesses in 2026, offering GST compliance with CGST/SGST/IGST auto-calculation, GSTIN fields, HSN/SAC code support, and multi-currency invoicing — all from $15/month on the Pro plan. Vyapar is best for inventory-heavy businesses, and ClearTax for tax-filing-focused workflows.' },
   { question: 'Do I need GST-compliant invoicing software?', answer: 'Yes, if you\'re GST-registered. All GST invoices must include GSTIN, HSN/SAC codes, correct CGST/SGST/IGST split, and other mandatory fields. Using compliant software ensures accuracy and makes GSTR-1 filing easier.' },
-  { question: 'Is there free invoicing software for India?', answer: 'Yes. Invoicemonk offers a free plan with GST-compliant invoicing, GSTIN fields, HSN/SAC code support, and CGST/SGST/IGST calculations. Zoho Invoice also has a free tier but limits you to 5 customers.' },
+  { question: "What's the best invoicing software for India?", answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes GST-compliant invoicing, GSTIN fields, HSN/SAC code support, and CGST/SGST/IGST calculations. Zoho Invoice also has a Pro plan but limits you to 5 customers.' },
 ];
 
 export default function BestInvoicingSoftwareIndia() {

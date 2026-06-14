@@ -105,7 +105,7 @@ const Invoicing = () => {
                 className="flex flex-col sm:flex-row gap-4"
               >
                 <Button asChild size="lg" className="rounded-full px-8 h-14 text-body-lg group">
-                  <a href="https://app.invoicemonk.com/signup">
+                  <a href="https://app.invoicemonk.com/signup?plan=professional">
                     {t('hero.primaryCta')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
                   </a>
@@ -415,7 +415,7 @@ const Invoicing = () => {
             <h2 className="text-h2 text-primary-foreground mb-4">{t('bottomCta.title')}</h2>
             <p className="text-body-lg text-primary-foreground/80 mb-8">{t('bottomCta.subtitle')}</p>
             <Button asChild size="lg" variant="secondary" className="rounded-full px-8 h-14 text-body-lg group">
-              <a href="https://app.invoicemonk.com/signup">
+              <a href="https://app.invoicemonk.com/signup?plan=professional">
                 {t('bottomCta.cta')}
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
               </a>

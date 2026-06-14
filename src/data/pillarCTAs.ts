@@ -8,7 +8,7 @@
  * for SEO and education — but CTA components do not.
  */
 
-export const SIGNUP_URL = 'https://app.invoicemonk.com/signup';
+export const SIGNUP_URL = 'https://app.invoicemonk.com/signup?plan=professional';
 
 export function buildSignupHref(campaign: string, medium = 'article_end'): string {
   return `${SIGNUP_URL}?utm_source=organic_blog&utm_medium=${medium}&utm_campaign=${campaign}`;

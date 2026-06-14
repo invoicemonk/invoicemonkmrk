@@ -42,9 +42,9 @@ export const helpGuides: HelpGuide[] = [
       { name: 'Set Up Payment Methods', text: 'Add your bank account or mobile money details so clients know how to pay you.' },
     ],
     relatedGuides: ['managing-clients', 'creating-invoices', 'business-settings'],
-    targetFeature: 'https://app.invoicemonk.com/signup',
+    targetFeature: 'https://app.invoicemonk.com/signup?plan=professional',
     faq: [
-      { question: 'Is Invoicemonk free to use?', answer: 'Yes, the Starter plan is completely free. You can create invoices, manage clients, and track basic expenses at no cost. Upgrade for advanced features like reports, team management, and custom branding.' },
+      { question: 'How much does Invoicemonk cost?', answer: "Invoicemonk's Pro plan starts at $15/month with unlimited invoices, clients, expense tracking, custom branding, and full audit trail. SME at $49/month adds online payments and advanced reports; Biz is custom-priced. You can cancel anytime." },
       { question: 'Do I need a TIN to use Invoicemonk?', answer: 'While not strictly required to create an account, adding your Tax Identification Number ensures your invoices are fully compliant with local regulations. For Nigerian businesses, this is your FIRS TIN.' },
       { question: 'How do I complete my business profile to 100%?', answer: 'Fill in all fields: business name, legal name, TIN, VAT number (if applicable), logo, full address, contact email, and phone number. Invoicemonk shows your completion percentage and highlights missing fields.' },
     ],
@@ -69,7 +69,7 @@ export const helpGuides: HelpGuide[] = [
       </ul>
 
       <h2>Step 3: Choose Your Plan</h2>
-      <p>Invoicemonk offers a free Starter plan to get you going. As your business grows, upgrade for more features:</p>
+      <p>Invoicemonk's Pro plan starts at $15/month. As your business grows, upgrade for more features:</p>
       <ul>
         <li><strong>Starter (Free)</strong> — Basic invoicing and client management</li>
         <li><strong>Starter Paid</strong> — More invoices and expense tracking</li>

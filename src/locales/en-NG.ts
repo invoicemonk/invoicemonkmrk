@@ -16,7 +16,7 @@ export const enNG: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Nigeria",
     },
@@ -28,7 +28,7 @@ export const enNG: LocaleConfig = {
     paymentGateway: "Paystack",
     seo: {
       siteTitle: "Invoicemonk Nigeria - NRS-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Nigerian businesses. NRS-compliant, Paystack integration. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Nigerian businesses. NRS-compliant, Paystack integration. Pro from $15/month.",
       complianceKeyword: "NRS-compliant",
       targetAudience: "Nigerian",
       region: "Nigeria",
@@ -70,7 +70,7 @@ export const enNG: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Nigeria?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at ₦10,000/month (Starter), ₦25,000/month (Professional), and ₦125,000/month (Business). Annual billing gives you 2 months free.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at ₦25,000/month and SME at ₦125,000/month. Biz pricing is custom. You can cancel anytime, and annual billing gives you 2 months free.",
       },
       {
         question: "Does Invoicemonk handle VAT for Nigerian businesses?",

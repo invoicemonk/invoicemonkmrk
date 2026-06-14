@@ -16,7 +16,7 @@ export const enMY: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Malaysia",
     },
@@ -28,7 +28,7 @@ export const enMY: LocaleConfig = {
     paymentGateway: "Bank Transfer",
     seo: {
       siteTitle: "Invoicemonk Malaysia - MyInvois-Compatible E-Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Malaysian businesses. LHDN MyInvois compatible with SST support. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Malaysian businesses. LHDN MyInvois compatible with SST support. Pro from $15/month.",
       complianceKeyword: "MyInvois-compatible",
       targetAudience: "Malaysian",
       region: "Malaysia",
@@ -70,7 +70,7 @@ export const enMY: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Malaysia?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at $15/month (Pro) and $49/month (SME). Annual billing saves 20%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at $15/month and SME at $49/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Is e-invoicing mandatory for all Malaysian businesses?",
@@ -80,7 +80,7 @@ export const enMY: LocaleConfig = {
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",
       ctaSubtext: "Join Malaysian businesses using Invoicemonk to stay LHDN-compliant and get paid faster.",
-      ctaButtonText: "Start Invoicing Free",
+      ctaButtonText: "Get Started",
     },
     socialProofHeadline: "Loved by Malaysian businesses",
   },

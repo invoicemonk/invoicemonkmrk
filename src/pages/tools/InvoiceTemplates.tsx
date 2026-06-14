@@ -75,12 +75,12 @@ const templates: InvoiceTemplateItem[] = [
 ];
 
 const faqs = [
-  { question: 'Are these invoice templates really free?', answer: 'Yes — every template is free to view and use as a reference. To create, customize, and send invoices with these designs, sign up for Invoicemonk — the free plan includes 5 invoices per month.' },
-  { question: 'Can I add my logo to the invoice?', answer: 'Yes. With a free Invoicemonk account you can upload your logo, set brand colors, and apply it to any of these templates. Supports PNG, JPG, and SVG.' },
+  { question: 'Are these invoice templates really free?', answer: 'Yes — every template is free to view and use as a reference. To create, customize, and send invoices with these designs, sign up for Invoicemonk — the Pro plan includes 5 invoices per month.' },
+  { question: 'Can I add my logo to the invoice?', answer: 'Yes. With a Invoicemonk Pro account you can upload your logo, set brand colors, and apply it to any of these templates. Supports PNG, JPG, and SVG.' },
   { question: 'Are these templates tax-compliant?', answer: 'Yes. Every template includes fields for tax registration numbers (GST, VAT, ABN, GSTIN), tax breakdowns, and the compliance details required by tax authorities worldwide.' },
   { question: 'Can I customize colors and fonts?', answer: 'Yes. Sign up for Invoicemonk to fully brand your invoices with custom colors, fonts, and layouts on top of any template.' },
   { question: 'How do I send a finished invoice to my client?', answer: 'Create the invoice inside Invoicemonk, then send it from your dashboard with a built-in payment link, automatic reminders, and full payment tracking.' },
-  { question: 'Do I need an account?', answer: 'You need a free Invoicemonk account to actually issue invoices. The free plan includes 5 invoices per month — more than enough to get started.' },
+  { question: 'Do I need an account?', answer: 'You need a Invoicemonk Pro account to actually issue invoices. The Pro plan includes 5 invoices per month — more than enough to get started.' },
 ];
 
 const stats = [
@@ -107,7 +107,7 @@ export default function InvoiceTemplates() {
       {/* Hero */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-muted/50 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl text-center">
-          <Badge variant="secondary" className="mb-4">Free plan: 5 invoices / month</Badge>
+          <Badge variant="secondary" className="mb-4">Pro from $15/month</Badge>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Free Invoice Templates for Every Business
           </h1>
@@ -179,7 +179,7 @@ export default function InvoiceTemplates() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { step: '1', title: 'Browse Templates', desc: 'Explore our collection of industry-specific invoice templates to find the right fit for your business.' },
-              { step: '2', title: 'Create Your Account', desc: 'Sign up for Invoicemonk in under a minute — the free plan includes 5 invoices per month with full template, branding, and tax support.' },
+              { step: '2', title: 'Create Your Account', desc: 'Sign up for Invoicemonk in under a minute — the Pro plan includes 5 invoices per month with full template, branding, and tax support.' },
               { step: '3', title: 'Send to Your Client', desc: 'Issue the invoice from your dashboard with a built-in payment link, automatic reminders, and full payment tracking.' },
             ].map((item) => (
               <div key={item.step} className="text-center">

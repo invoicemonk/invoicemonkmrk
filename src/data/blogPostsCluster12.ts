@@ -316,7 +316,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Create HMRC-Compliant Invoices</h2>
-      <p><a href="/invoicing">Invoicemonk's free invoice generator</a> includes all mandatory UK fields, automatic 20% VAT calculation, and professional formatting that meets HMRC standards. <a href="/invoicing">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk's invoice generator</a> includes all mandatory UK fields, automatic 20% VAT calculation, and professional formatting that meets HMRC standards. <a href="/invoicing">Get started →</a></p>
     `,
   },
 
@@ -461,7 +461,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create CIS-Compliant Invoices</h2>
-      <p><a href="/invoicing">Invoicemonk</a> supports reverse charge invoicing with the mandatory statement, correct formatting, and VAT calculation. <a href="/invoicing">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> supports reverse charge invoicing with the mandatory statement, correct formatting, and VAT calculation. <a href="/invoicing">Get started →</a></p>
     `,
   },
 
@@ -1000,7 +1000,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create Saudi-Compliant Invoices</h2>
-      <p><a href="/invoicing">Invoicemonk</a> supports Saudi Arabia with 15% VAT calculation, SAR currency, all mandatory fields, and professional formatting. <a href="/invoicing">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> supports Saudi Arabia with 15% VAT calculation, SAR currency, all mandatory fields, and professional formatting. <a href="/invoicing">Get started →</a></p>
     `,
   },
 
@@ -1308,7 +1308,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Start Preparing Today</h2>
-      <p>Don't wait until the last month. <a href="/invoicing">Create MyInvois-ready invoices with Invoicemonk</a> — supporting MYR, SST calculations, and all mandatory fields. <a href="/invoicing">Try it free →</a></p>
+      <p>Don't wait until the last month. <a href="/invoicing">Create MyInvois-ready invoices with Invoicemonk</a> — supporting MYR, SST calculations, and all mandatory fields. <a href="/invoicing">Get started →</a></p>
     `,
   },
 
@@ -1418,7 +1418,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>Verify error handling in your system</li>
         <li>Train your team on the new workflow</li>
       </ul>
-      <p>For businesses not yet ready for API integration, <a href="/invoicing">Invoicemonk</a> generates MyInvois-ready invoices with all mandatory fields. <a href="/invoicing">Try it free →</a></p>
+      <p>For businesses not yet ready for API integration, <a href="/invoicing">Invoicemonk</a> generates MyInvois-ready invoices with all mandatory fields. <a href="/invoicing">Get started →</a></p>
     `,
   },
 

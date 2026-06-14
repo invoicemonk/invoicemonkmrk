@@ -13,9 +13,9 @@ const alternatives = [
   {
     name: 'Invoicemonk',
     bestFor: 'Best overall Wave alternative',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
-    pros: ['Multi-currency on free plan (Wave doesn\'t offer this)', 'Works globally — not limited to US/Canada', 'Expense tracking + receipt scanning included', 'Invoice verification portal', 'Tax compliance for 14+ countries'],
+    pros: ['Multi-currency on every plan (Wave doesn\'t offer this)', 'Works globally — not limited to US/Canada', 'Expense tracking + receipt scanning included', 'Invoice verification portal', 'Tax compliance for 14+ countries'],
     cons: ['No payroll module', 'No direct bank connections (yet)'],
     description: 'Invoicemonk is the strongest Wave alternative for businesses that need global reach. Wave\'s payment processing and multi-currency features are US/Canada-only, while Invoicemonk works worldwide. Both offer free invoicing and accounting, but Invoicemonk adds multi-currency support on every plan, expense tracking with receipt scanning, and tax compliance for 14+ countries — all free.',
   },
@@ -33,9 +33,9 @@ const alternatives = [
     bestFor: 'Zoho ecosystem users',
     price: 'Free (5 customers) / Paid via Zoho Books',
     highlight: false,
-    pros: ['Free tier available', 'Integrates with Zoho suite', 'Workflow automation'],
+    pros: ['Pro from $15/month', 'Integrates with Zoho suite', 'Workflow automation'],
     cons: ['Free plan limited to 5 customers', 'Full features need Zoho Books subscription', 'Less intuitive than Wave'],
-    description: 'Zoho Invoice is free but caps you at 5 customers on the free plan. It shines if you use other Zoho products (CRM, Projects, Books). As a standalone Wave replacement, the customer limit and complexity are drawbacks.',
+    description: 'Zoho Invoice is free but caps you at 5 customers on the Pro plan. It shines if you use other Zoho products (CRM, Projects, Books). As a standalone Wave replacement, the customer limit and complexity are drawbacks.',
   },
   {
     name: 'QuickBooks Self-Employed',
@@ -50,7 +50,7 @@ const alternatives = [
 
 const faqs = [
   { question: 'Why should I switch from Wave?', answer: 'Common reasons to switch from Wave: you need multi-currency invoicing (Wave is US/Canada only for payments), you work with international clients, you want more reliable customer support, or you\'re concerned about Wave\'s future direction since the H&R Block acquisition. Invoicemonk matches Wave\'s free pricing while adding global features.' },
-  { question: 'Is Invoicemonk really free like Wave?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, expense tracking, and basic accounting — similar to Wave. Unlike Wave, Invoicemonk also includes multi-currency support and global tax compliance on the free plan. Neither requires a credit card to start.' },
+  { question: "How does Invoicemonk compare to Wave on price?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, expense tracking, and basic accounting — similar to Wave. Unlike Wave, Invoicemonk also includes multi-currency support and global tax compliance — Wave's free tier is US/Canada only." },
   { question: 'Can I migrate from Wave to another tool?', answer: 'Yes. Export your Wave data (invoices, clients, expenses) as CSV files, then import them into your new tool. Invoicemonk, FreshBooks, and Zoho all support CSV imports. The migration typically takes 30-60 minutes for small businesses.' },
   { question: 'What happened to Wave after the H&R Block acquisition?', answer: 'H&R Block acquired Wave in 2019. Since then, Wave has shifted features behind paid tiers and focused more on North American small businesses. Some users report slower feature development and concerns about long-term pricing changes.' },
 ];
@@ -141,9 +141,9 @@ export default function WaveAlternatives() {
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">Switch from Wave in 5 Minutes</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Start with Invoicemonk's free plan — import your clients, create invoices, and track expenses. No credit card required.</p>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Start with Invoicemonk Pro ($15/month) — import your clients, create invoices, and track expenses. </p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

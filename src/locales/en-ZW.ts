@@ -16,7 +16,7 @@ export const enZW: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Zimbabwe",
     },
@@ -28,7 +28,7 @@ export const enZW: LocaleConfig = {
     paymentGateway: "Paynow & EcoCash",
     seo: {
       siteTitle: "Invoicemonk Zimbabwe - ZIMRA-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Zimbabwean businesses. ZIMRA-compliant, USD-based pricing. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Zimbabwean businesses. ZIMRA-compliant, USD-based pricing. Pro from $15/month.",
       complianceKeyword: "ZIMRA-compliant",
       targetAudience: "Zimbabwean",
       region: "Zimbabwe",
@@ -70,7 +70,7 @@ export const enZW: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Zimbabwe?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at $15/month (Pro) and $49/month (SME). Annual billing saves you 20%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at $15/month and SME at $49/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle VAT for Zimbabwean businesses?",

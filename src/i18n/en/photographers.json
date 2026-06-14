@@ -8,7 +8,7 @@
     "title": "Invoicing made simple for photographers",
     "accentWord": "photographers",
     "description": "Create deposit invoices, bill for photo packages, and get paid faster. Focus on capturing moments, not chasing payments.",
-    "ctaPrimary": "Start Free",
+    "ctaPrimary": "Get Started",
     "ctaSecondary": "View Pricing",
     "trustBadge": "Trusted by professional photographers"
   },
@@ -91,7 +91,7 @@
       { "question": "Does Invoicemonk support package-based pricing?", "answer": "Absolutely. Add line items for different packages with clear descriptions and pricing. You can also add individual add-ons as separate line items." },
       { "question": "Can I add my photography branding to invoices?", "answer": "Yes. Upload your logo and create a professional look that matches your photography style." },
       { "question": "How do automatic payment reminders work?", "answer": "Set reminder schedules and Invoicemonk automatically emails clients before and after payment due dates." },
-      { "question": "Is Invoicemonk free for photographers?", "answer": "Yes! The free tier includes 5 invoices and 5 receipts per month with no credit card required." },
+      { "question": "Is Invoicemonk free for photographers?", "answer": "Yes! The Pro plan starts at $15/month with unlimited invoices with " },
       { "question": "Can I track expenses for each photography project?", "answer": "Yes. Record expenses like equipment rental, travel costs, props, and assistant fees. See your true profit per project." },
       { "question": "Does Invoicemonk generate receipts when clients pay?", "answer": "Every payment you record automatically generates a professional receipt with a unique verification code and QR code." }
     ]

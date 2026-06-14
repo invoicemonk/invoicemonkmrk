@@ -16,7 +16,7 @@ export const enGH: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Ghana",
     },
@@ -28,7 +28,7 @@ export const enGH: LocaleConfig = {
     paymentGateway: "Paystack",
     seo: {
       siteTitle: "Invoicemonk Ghana - GRA-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing software for Ghanaian businesses. GRA-compliant with Paystack integration. Free tier available.",
+      siteDescription: "Professional invoicing software for Ghanaian businesses. GRA-compliant with Paystack integration. Pro from $15/month.",
       complianceKeyword: "GRA-compliant",
       targetAudience: "Ghanaian",
       region: "Ghana",
@@ -70,7 +70,7 @@ export const enGH: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Ghana?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at GH₵300/month (Starter), GH₵600/month (Professional), and GH₵1,400/month (Business). Annual billing gives you 2 months free.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at GH₵600/month and SME at GH₵1,400/month. Biz pricing is custom. You can cancel anytime, and annual billing gives you 2 months free.",
       },
       {
         question: "Does Invoicemonk handle VAT for Ghanaian businesses?",

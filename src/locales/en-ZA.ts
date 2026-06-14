@@ -16,7 +16,7 @@ export const enZA: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including South Africa",
     },
@@ -28,7 +28,7 @@ export const enZA: LocaleConfig = {
     paymentGateway: "Paystack",
     seo: {
       siteTitle: "Invoicemonk South Africa - SARS-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing software for South African businesses. SARS-compliant with local payments. Free tier available.",
+      siteDescription: "Professional invoicing software for South African businesses. SARS-compliant with local payments. Pro from $15/month.",
       complianceKeyword: "SARS-compliant",
       targetAudience: "South African",
       region: "South Africa",
@@ -70,7 +70,7 @@ export const enZA: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in South Africa?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at R499/month (Professional) and R1,999/month (Business). Annual billing saves you 20%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at R499/month and SME at R1,999/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle VAT for South African businesses?",

@@ -58,7 +58,7 @@ const WhyInvoicemonk = () => {
           title={t('hero.title')}
           accentWord={t('hero.accentWord')}
           description={t('hero.description')}
-          primaryCta={{ text: t('hero.primaryCta'), href: 'https://app.invoicemonk.com/signup' }}
+          primaryCta={{ text: t('hero.primaryCta'), href: 'https://app.invoicemonk.com/signup?plan=professional' }}
           secondaryCta={{ text: t('hero.secondaryCta'), href: '/compliance', external: false }}
           backgroundVariant="gradient"
         />
@@ -182,7 +182,7 @@ const WhyInvoicemonk = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button asChild size="lg" className="rounded-full px-8 group">
-                <a href="https://app.invoicemonk.com/signup">
+                <a href="https://app.invoicemonk.com/signup?plan=professional">
                   {t('cta.primaryButton')}
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                 </a>

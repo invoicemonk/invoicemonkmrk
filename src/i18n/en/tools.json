@@ -59,7 +59,7 @@
       "tip3": "<strong>Choose the right method per client</strong> — High-value clients may warrant bank transfers, while frequent small payments work better with Wise.",
       "tip4": "<strong>Use multi-currency invoicing</strong> — With <a href=\"__LANG__/invoicing\">Invoicemonk's invoicing tools</a>, you can issue invoices in multiple currencies and let clients pay using the method that works best.",
       "smarterTitle": "Make Smarter International Payment Decisions",
-      "smarterP": "Before you create your next invoice, use this calculator to understand the real cost of each payment method. Then, issue a professional invoice with <a href=\"__LANG__/invoicing\">Invoicemonk's free invoice generator</a> optimized for your chosen method."
+      "smarterP": "Before you create your next invoice, use this calculator to understand the real cost of each payment method. Then, issue a professional invoice with <a href=\"__LANG__/invoicing\">Invoicemonk's invoice generator</a> optimized for your chosen method."
     },
     "faqs": [
       {
@@ -94,7 +94,7 @@
     "cta": {
       "title": "Ready to Invoice Internationally?",
       "subtitle": "Issue multi-currency invoices and get paid faster with Invoicemonk.",
-      "button": "Start Free"
+      "button": "Get Started"
     }
   },
   "cheapest": {
@@ -137,7 +137,7 @@
         "usdAustralia": "Receive USD in Australia →"
       },
       "knowCostsTitle": "Know Your Costs Before Invoicing",
-      "knowCostsP": "The best time to optimize payment costs is <em>before</em> you send the invoice. With <a href=\"__LANG__/invoicing\">Invoicemonk's free invoice generator</a>, you can create professional multi-currency invoices and specify the optimal payment method for each client."
+      "knowCostsP": "The best time to optimize payment costs is <em>before</em> you send the invoice. With <a href=\"__LANG__/invoicing\">Invoicemonk's invoice generator</a>, you can create professional multi-currency invoices and specify the optimal payment method for each client."
     },
     "faqs": [
       {
@@ -164,7 +164,7 @@
       "paypalVsWise": "PayPal vs Wise Fee Comparison →",
       "feesExplained": "International Payment Fees Explained →"
     },
-    "cta": "Start Free with Invoicemonk"
+    "cta": "Get Started with Invoicemonk"
   },
   "paypalVsWise": {
     "seo": {
@@ -232,6 +232,6 @@
       "cheapest": "Cheapest Way to Receive International Payments →",
       "feesExplained": "International Payment Fees Explained →"
     },
-    "cta": "Start Free with Invoicemonk"
+    "cta": "Get Started with Invoicemonk"
   }
 }

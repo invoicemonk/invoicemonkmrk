@@ -16,7 +16,7 @@ export const enKE: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Kenya",
     },
@@ -28,7 +28,7 @@ export const enKE: LocaleConfig = {
     paymentGateway: "Paystack",
     seo: {
       siteTitle: "Invoicemonk Kenya - KRA-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing software for Kenyan businesses. KRA-compliant with mobile payments. Free tier available.",
+      siteDescription: "Professional invoicing software for Kenyan businesses. KRA-compliant with mobile payments. Pro from $15/month.",
       complianceKeyword: "KRA-compliant",
       targetAudience: "Kenyan",
       region: "Kenya",
@@ -70,7 +70,7 @@ export const enKE: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Kenya?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at KSh2,500/month (Starter), KSh5,000/month (Professional), and KSh14,000/month (Business). Annual billing gives you 2 months free.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at KSh5,000/month and SME at KSh14,000/month. Biz pricing is custom. You can cancel anytime, and annual billing gives you 2 months free.",
       },
       {
         question: "Does Invoicemonk handle VAT for Kenyan businesses?",

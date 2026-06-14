@@ -76,7 +76,7 @@ export default function InvoicemonkVsStripeInvoicing() {
       <section className="py-16 lg:py-24"><div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center"><p className="text-muted-foreground mb-4">{t('related.title')}</p><div className="flex flex-wrap justify-center gap-4">{relatedLinks.map((link) => (<Link key={link.to} to={link.to} className="text-primary hover:underline">{link.label}</Link>))}</div></div></section>
       <InlineSignupCTA variant="banner" />
 
-      <section className="py-16 lg:py-24 bg-primary"><div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center"><h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2><p className="text-white/90 mb-8 max-w-xl mx-auto">{t('cta.description')}</p><Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild><a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">{t('cta.button')}<ArrowRight className="ml-2 w-4 h-4" /></a></Button></div></section>
+      <section className="py-16 lg:py-24 bg-primary"><div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center"><h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2><p className="text-white/90 mb-8 max-w-xl mx-auto">{t('cta.description')}</p><Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild><a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">{t('cta.button')}<ArrowRight className="ml-2 w-4 h-4" /></a></Button></div></section>
     </Layout>
   );
 }

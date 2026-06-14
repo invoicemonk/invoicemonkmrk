@@ -60,7 +60,7 @@ export interface LocaleContent {
 }
 
 export interface LocalePricing {
-  free: number;
+  free?: number;
   professional: number;
   sme: number;
   business: number;
@@ -69,7 +69,7 @@ export interface LocalePricing {
 
 export interface LocalePricingContent {
   annualSavingsText: string;
-  starterAvailable: boolean;
+  starterAvailable?: boolean;
   currencyNote?: string;
 }
 

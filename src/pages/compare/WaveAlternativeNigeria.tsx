@@ -11,7 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 const faqs = [
   { question: 'Why is Wave not ideal for Nigerian businesses?', answer: 'Wave\'s payment processing doesn\'t work in Nigeria, there are no FIRS compliance features, no TIN fields, and no 7.5% VAT defaults for NGN. Nigerian businesses need invoicing software with local tax compliance built in.' },
   { question: 'What is the best Wave alternative for Nigeria?', answer: 'Invoicemonk is the best Wave alternative for Nigerian businesses. It matches Wave\'s free pricing while adding FIRS e-invoicing compliance, 7.5% VAT auto-calculation, TIN fields, and multi-currency support for billing international clients.' },
-  { question: 'Is Invoicemonk free for Nigerian businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 7.5% VAT calculation, TIN fields, multi-currency support, and expense tracking. No credit card or signup required for the free invoice generator.' },
+  { question: 'How does Invoicemonk price compare for Nigerian businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 7.5% VAT calculation, TIN fields, multi-currency support, and expense tracking. Pro starts at $15/month with unlimited invoices and cancel anytime.' },
 ];
 
 export default function WaveAlternativeNigeria() {
@@ -40,7 +40,7 @@ export default function WaveAlternativeNigeria() {
               <li><strong>No payment processing</strong> — Wave's payments are US/Canada only. Nigerian clients can't pay via Wave.</li>
               <li><strong>No FIRS compliance</strong> — no TIN fields, no IRN generation, no TaxPro-Max integration.</li>
               <li><strong>No 7.5% VAT default</strong> — you'd manually calculate and add Nigerian VAT every time.</li>
-              <li><strong>No multi-currency</strong> — the free plan doesn't support NGN alongside USD/GBP/EUR.</li>
+              <li><strong>No multi-currency</strong> — the Pro plan doesn't support NGN alongside USD/GBP/EUR.</li>
             </ul>
           </div>
 
@@ -50,15 +50,15 @@ export default function WaveAlternativeNigeria() {
                 <h2 className="text-lg font-bold text-foreground">Our Recommendation: Invoicemonk</h2>
                 <span className="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-medium">Best Wave Alternative for Nigeria</span>
               </div>
-              <p className="text-sm text-muted-foreground mb-3">Free tier available · FIRS compliant</p>
-              <p className="text-muted-foreground text-sm mb-4">Invoicemonk matches Wave's free pricing while solving every Nigerian-specific gap. FIRS e-invoicing compliance, 7.5% VAT auto-calculation, TIN fields for seller and buyer, IRN and QR code support, and multi-currency invoicing for billing international clients — all on the free plan.</p>
+              <p className="text-sm text-muted-foreground mb-3">Pro from $15/month · FIRS compliant</p>
+              <p className="text-muted-foreground text-sm mb-4">Invoicemonk matches Wave's free pricing while solving every Nigerian-specific gap. FIRS e-invoicing compliance, 7.5% VAT auto-calculation, TIN fields for seller and buyer, IRN and QR code support, and multi-currency invoicing for billing international clients — all on the Pro plan.</p>
               
               <h3 className="font-semibold text-foreground mb-3 mt-6">Wave vs Invoicemonk for Nigeria</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead><tr className="border-b"><th className="text-left py-2 pr-4">Feature</th><th className="text-center py-2 px-4">Wave</th><th className="text-center py-2 px-4">Invoicemonk</th></tr></thead>
                   <tbody>
-                    <tr className="border-b border-border/50"><td className="py-2 pr-4">Free plan</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>
+                    <tr className="border-b border-border/50"><td className="py-2 pr-4">Paid plan</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>
                     <tr className="border-b border-border/50"><td className="py-2 pr-4">Payments in Nigeria</td><td className="text-center py-2 px-4 text-red-500">✗</td><td className="text-center py-2 px-4 text-muted-foreground">Coming soon</td></tr>
                     <tr className="border-b border-border/50"><td className="py-2 pr-4">FIRS e-invoicing</td><td className="text-center py-2 px-4 text-red-500">✗</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>
                     <tr className="border-b border-border/50"><td className="py-2 pr-4">TIN fields</td><td className="text-center py-2 px-4 text-red-500">✗</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>

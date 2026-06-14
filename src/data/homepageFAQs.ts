@@ -11,9 +11,9 @@ export const homepageFAQs: FAQItem[] = [
       'Invoicemonk is an all-in-one business finance platform that helps small businesses and freelancers manage invoicing, expenses, payments, and accounting. Our tools are designed to be simple, professional, and compliant with tax regulations worldwide.',
   },
   {
-    question: 'Is Invoicemonk really free?',
+    question: 'How much does Invoicemonk cost?',
     answer:
-      'Yes! Invoicemonk offers a free forever plan that includes 5 invoices and 5 receipts per month, client management, and basic expense tracking. We also offer premium plans with advanced features like unlimited invoicing, payment processing, detailed reporting, and priority support.',
+      "Invoicemonk's Pro plan starts at $15/month with unlimited invoices, client management, expense tracking, and full audit trail. SME at $49/month adds online payments and advanced reports; Biz is custom-priced with e-invoicing, dedicated support, and SLA. You can cancel anytime.",
   },
   {
     question: 'How does invoicing work?',
