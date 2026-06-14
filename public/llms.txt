@@ -46,17 +46,14 @@ Invoicemonk is a global all-in-one business finance platform that helps freelanc
 
 ## Pricing
 
-Invoicemonk is paid-only — no free plan or free trial. Paid plans vary by region:
+Invoicemonk is paid-only — no free plan or free trial. Three plans available globally:
 
-- **Free**: 5 invoices & 5 receipts/month, 1 currency, accounting & expense tracking
-- **Professional** (recommended): From $5/mo (US), £4/mo (UK), €5/mo (EU), C$7/mo (CA), A$8/mo (AU) — Unlimited everything, 5 team members, custom branding, no watermark
-- **Business**: From $19/mo (US), £12/mo (UK), €15/mo (EU), C$20/mo (CA), A$29/mo (AU) — Enterprise features, unlimited team, API access, advanced reports
+- **Pro** ($15/month, recommended): Unlimited invoices, receipts, clients, and currency accounts; up to 5 team members; full audit trail; custom branding; data exports; watermark-free PDFs
+- **SME** ($49/month): Everything in Pro plus unlimited team members, online payments, advanced reports, and premium templates
+- **Biz** (custom pricing): Everything in SME plus e-invoicing and government submission, dedicated account manager, custom integrations, SLA guarantee, and priority support
 
-Regional pricing also available for:
-- Nigeria: ₦2,000–₦8,000/mo (includes Starter plan)
-- Brazil, India, Philippines, Ghana, Kenya, South Africa, Zimbabwe, Seychelles: Contact for pricing
+Annual billing saves approximately 17% (pay for 10 months, get 12). Cancel anytime.
 
-Annual billing saves 20%.
 
 ## Tax Compliance
 
