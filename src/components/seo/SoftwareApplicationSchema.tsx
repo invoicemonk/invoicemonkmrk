@@ -34,7 +34,7 @@ export function SoftwareApplicationSchema({
     "softwareVersion": "1.0",
     "offers": {
       "@type": "AggregateOffer",
-      "lowPrice": "0",
+      "lowPrice": "15",
       "highPrice": "129",
       "priceCurrency": "USD",
       "offerCount": pricedPlans.length,
