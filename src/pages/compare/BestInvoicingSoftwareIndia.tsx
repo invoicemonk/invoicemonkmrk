@@ -51,7 +51,7 @@ const tools = [
 const faqs = [
   { question: 'What is the best invoicing software in India?', answer: 'Invoicemonk is the best invoicing software for Indian businesses in 2026, offering GST compliance with CGST/SGST/IGST auto-calculation, GSTIN fields, HSN/SAC code support, and multi-currency invoicing — all from $15/month on the Pro plan. Vyapar is best for inventory-heavy businesses, and ClearTax for tax-filing-focused workflows.' },
   { question: 'Do I need GST-compliant invoicing software?', answer: 'Yes, if you\'re GST-registered. All GST invoices must include GSTIN, HSN/SAC codes, correct CGST/SGST/IGST split, and other mandatory fields. Using compliant software ensures accuracy and makes GSTR-1 filing easier.' },
-  { question: 'What's the best invoicing software for India?', answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes GST-compliant invoicing, GSTIN fields, HSN/SAC code support, and CGST/SGST/IGST calculations. Zoho Invoice also has a Pro plan but limits you to 5 customers.' },
+  { question: "What's the best invoicing software for India?", answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes GST-compliant invoicing, GSTIN fields, HSN/SAC code support, and CGST/SGST/IGST calculations. Zoho Invoice also has a Pro plan but limits you to 5 customers.' },
 ];
 
 export default function BestInvoicingSoftwareIndia() {

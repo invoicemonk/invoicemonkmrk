@@ -13,7 +13,7 @@ export const homepageFAQs: FAQItem[] = [
   {
     question: 'How much does Invoicemonk cost?',
     answer:
-      'Invoicemonk's Pro plan starts at $15/month with unlimited invoices, client management, expense tracking, and full audit trail. SME at $49/month adds online payments and advanced reports; Biz is custom-priced with e-invoicing, dedicated support, and SLA. You can cancel anytime.',
+      "Invoicemonk's Pro plan starts at $15/month with unlimited invoices, client management, expense tracking, and full audit trail. SME at $49/month adds online payments and advanced reports; Biz is custom-priced with e-invoicing, dedicated support, and SLA. You can cancel anytime.",
   },
   {
     question: 'How does invoicing work?',
