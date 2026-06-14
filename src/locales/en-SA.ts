@@ -70,7 +70,7 @@ export const enSA: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Saudi Arabia?",
-        answer: "Invoicemonk offers a free plan with 5 invoices per month. Paid plans start at SAR 109/month (Professional) and SAR 479/month (Business). Annual billing saves 20%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at SAR 109/month and SME at SAR 479/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Can I generate QR codes on my invoices for ZATCA?",
