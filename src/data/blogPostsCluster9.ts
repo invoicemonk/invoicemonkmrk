@@ -40,7 +40,7 @@ export const cluster9Posts: BlogPost[] = [
         answer: 'Most paid invoicing software ranges from $8 to $30 per month for small businesses. Enterprise plans can run $50+ per month. Many platforms, including Invoicemonk, offer a generous Pro plan that covers basic needs, with paid plans for advanced features.'
       },
       {
-        question: 'Can I start free and upgrade later?',
+        question: 'Can I start small and upgrade later?',
         answer: 'Yes — most invoicing platforms are designed for exactly this path. Start with a low-cost plan to learn the interface and test the workflow. Upgrade when you need features like automation, reporting, or team access. Your data and invoice history typically carry over seamlessly.'
       }
     ],
@@ -102,7 +102,7 @@ export const cluster9Posts: BlogPost[] = [
   <li><strong>You're just starting out.</strong> You have fewer than 10 clients, send a handful of invoices per month, and your main goal is looking professional without spending money.</li>
   <li><strong>Your billing is simple.</strong> One currency, one tax rate, no recurring clients needing automatic billing.</li>
   <li><strong>You're testing the waters.</strong> Not sure if freelancing or a side business will stick? Free tools let you operate professionally while you validate the idea.</li>
-  <li><strong>You're price-sensitive.</strong> Every pound and dollar matters in the early days. A free invoice generator like <a href="/en/free-invoice-generator">Invoicemonk's</a> lets you create unlimited invoices at zero cost.</li>
+  <li><strong>You're price-sensitive.</strong> Every pound and dollar matters in the early days. <a href="/en/invoice-templates">Invoicemonk's free invoice templates</a> let you draft compliant invoices before you commit to the $15/month Pro plan.</li>
 </ol>
 
 <h2>When You Should Pay for Invoicing Software</h2>
