@@ -137,7 +137,7 @@ export const cluster11Posts: BlogPost[] = [
 
 <h2>Which Software Supports GST E-Invoicing in India?</h2>
 
-<p><a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> creates GST-compliant invoices with:</p>
+<p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> creates GST-compliant invoices with:</p>
 <ul>
   <li><strong>Auto-labeled GSTIN fields</strong> when INR currency is selected</li>
   <li><strong>HSN/SAC code support</strong> in line item descriptions</li>
@@ -854,7 +854,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Missing payment instructions</strong> — the client wants to pay but doesn't know how</li>
 </ol>
 
-<p>Skip the manual work — use <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>
+<p>Skip the manual work — use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>
     `
   },
 
@@ -967,7 +967,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Record keeping</strong>: Keep both invoices issued and receipts for expenses for the period required by your tax authority (typically 5-7 years).</li>
 </ul>
 
-<p>Create professional invoices with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> — then track when they're paid in the full platform with <a href="/__LANG__/receipts">automatic receipt generation</a>.</p>
+<p>Create professional invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> — then track when they're paid in the full platform with <a href="/__LANG__/receipts">automatic receipt generation</a>.</p>
     `
   },
 
@@ -1078,7 +1078,7 @@ export const cluster11Posts: BlogPost[] = [
 
 <p>Including the <em>specific due date</em> (not just "Net 30") reduces ambiguity and gets invoices paid faster. Studies show invoices with explicit due dates are paid <strong>8 days faster</strong> than those with relative terms alone.</p>
 
-<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a>. For more strategies, read our <a href="/__LANG__/guides/getting-paid">complete guide to getting paid faster</a>.</p>
+<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more strategies, read our <a href="/__LANG__/guides/getting-paid">complete guide to getting paid faster</a>.</p>
     `
   },
 ];

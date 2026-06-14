@@ -793,7 +793,7 @@ function generateVatFormatPost(c: CountryConfig): BlogPost {
       </ul>
 
       <h2>Free Templates for ${c.demonym} Businesses</h2>
-      <p><a href="/invoicing">Invoicemonk's free invoice generator</a> provides pre-built templates with all ${c.authority}-required fields. Select your country, add your ${c.taxId}, and the platform handles ${c.taxType} calculations automatically.</p>
+      <p><a href="/invoicing">Invoicemonk's invoice generator</a> provides pre-built templates with all ${c.authority}-required fields. Select your country, add your ${c.taxId}, and the platform handles ${c.taxType} calculations automatically.</p>
 
       <h2>Digital vs Paper Invoices</h2>
       <p>${c.authority} accepts digital invoices provided they contain all mandatory elements and can be produced for audit. ${c.einvoicingContext}</p>
@@ -992,7 +992,7 @@ function generateFreelancerVatPost(c: CountryConfig): BlogPost {
       </ul>
 
       <h2>How Invoicemonk Helps</h2>
-      <p><a href="/freelancers">Invoicemonk for freelancers</a> automatically calculates ${c.taxType}, generates compliant invoices, and tracks your turnover against the registration threshold. Start for free and stay compliant as you grow.</p>
+      <p><a href="/freelancers">Invoicemonk for freelancers</a> automatically calculates ${c.taxType}, generates compliant invoices, and tracks your turnover against the registration threshold. Pro starts at $15/month and scales with you.</p>
     `,
   };
 }
@@ -1076,7 +1076,7 @@ function generateInvoiceFromAbroadPost(c: CountryConfig): BlogPost {
       </ol>
 
       <h2>How Invoicemonk Simplifies Cross-Border Invoicing</h2>
-      <p><a href="/invoicing">Invoicemonk</a> handles multi-currency invoicing, automatic exchange rate tracking, and generates professional invoices that comply with both your local requirements and ${c.demonym} expectations. <a href="/invoicing">Try it free →</a></p>
+      <p><a href="/invoicing">Invoicemonk</a> handles multi-currency invoicing, automatic exchange rate tracking, and generates professional invoices that comply with both your local requirements and ${c.demonym} expectations. <a href="/invoicing">Get started →</a></p>
     `,
   };
 }
@@ -1341,7 +1341,7 @@ const sharedPosts: BlogPost[] = [
       <p>Run expense reports monthly to understand your spending patterns. Look for trends, identify costs you can cut, and ensure you're on budget. These reports also form the basis of your tax filings.</p>
 
       <h2>Get Started with Invoicemonk</h2>
-      <p><a href="/expenses">Invoicemonk's expense tracking</a> combines receipt scanning, auto-categorisation, and tax-ready reporting in one platform. Connect your bank account and start tracking expenses automatically — <a href="/invoicing">try it free</a>.</p>
+      <p><a href="/expenses">Invoicemonk's expense tracking</a> combines receipt scanning, auto-categorisation, and tax-ready reporting in one platform. Connect your bank account and start tracking expenses automatically — <a href="/invoicing">get started</a>.</p>
     `,
   },
   {
@@ -1435,7 +1435,7 @@ const sharedPosts: BlogPost[] = [
       </ol>
 
       <h2>How Invoicemonk Handles Multi-Currency</h2>
-      <p><a href="/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency invoicing</a> automates the entire process. Create invoices in any currency, and the platform tracks exchange rates, records transactions in your home currency, and generates accurate reports. <a href="/invoicing">Try it free →</a></p>
+      <p><a href="/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency invoicing</a> automates the entire process. Create invoices in any currency, and the platform tracks exchange rates, records transactions in your home currency, and generates accurate reports. <a href="/invoicing">Get started →</a></p>
     `,
   },
 ];

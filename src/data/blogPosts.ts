@@ -2304,7 +2304,7 @@ export const blogPosts: BlogPost[] = [
       <p>For country-specific compliance, see our <a href="/compliance">compliance guides</a>.</p>
 
       <h2>Using Invoicemonk</h2>
-      <p><a href="/invoicing">Invoicemonk</a> automatically includes all essential elements in professional templates, calculates taxes correctly for your country, and lets you save client details for future invoices. <a href="/invoicing">Try the free invoice generator</a> — no signup required.</p>
+      <p><a href="/invoicing">Invoicemonk</a> automatically includes all essential elements in professional templates, calculates taxes correctly for your country, and lets you save client details for future invoices. <a href="/invoicing">Try Invoicemonk's invoice generator</a> — no signup required.</p>
 
       <h2>Related Resources</h2>
       <ul>
@@ -14696,7 +14696,7 @@ Thank you for your business!
 
 <p><strong>Payment terms:</strong> Net 30. Bank transfer to BSB 062-000, Account 12345678, or pay online at invoicemonk.com/pay/INV-2026-042.</p>
 
-<p>Notice how this example includes every <a href="/blog/essential-elements-of-an-invoice">essential element</a>: unique invoice number, dates, business details, line items with clear descriptions, tax, total, and payment instructions. Creating invoices like this is effortless with <a href="/invoicing">Invoicemonk's free invoice generator</a>.</p>
+<p>Notice how this example includes every <a href="/blog/essential-elements-of-an-invoice">essential element</a>: unique invoice number, dates, business details, line items with clear descriptions, tax, total, and payment instructions. Creating invoices like this is effortless with <a href="/invoicing">Invoicemonk's invoice generator</a>.</p>
 
 <h2>The Invoice Lifecycle: How Invoicing Actually Works</h2>
 <p>Understanding the full invoice lifecycle helps you see where invoices fit in the business transaction process:</p>
@@ -14956,7 +14956,7 @@ Thank you for your business!
 <p>You have several options for creating invoices, from free to full-featured:</p>
 
 <h3>Option 1: Free Invoice Generator</h3>
-<p>Tools like <a href="/invoicing">Invoicemonk's free invoice generator</a> let you create professional PDF invoices in under 2 minutes with no signup required. Perfect for your first invoice or occasional use.</p>
+<p>Tools like <a href="/invoicing">Invoicemonk's invoice generator</a> let you create professional PDF invoices in under 2 minutes with no signup required. Perfect for your first invoice or occasional use.</p>
 
 <h3>Option 2: Manual Templates</h3>
 <ul>
@@ -15173,7 +15173,7 @@ Thank you for your business!
 <h2>Start Creating Professional Invoices</h2>
 <p>Understanding what an invoice is marks the first step toward professional business practices. Whether you're a freelancer sending your first invoice or a growing business looking to streamline billing, getting invoicing right impacts your cash flow, client relationships, and business success.</p>
 
-<p>Ready to create your first invoice? <a href="/invoicing">Invoicemonk's free invoice generator</a> lets you create a professional PDF invoice in under 2 minutes — no signup required. For ongoing invoicing with payment tracking, reminders, and accounting integration, <a href="/invoicing">try the full platform free</a>.</p>
+<p>Ready to create your first invoice? <a href="/invoicing">Invoicemonk's invoice generator</a> lets you create a professional PDF invoice in under 2 minutes — no signup required. For ongoing invoicing with payment tracking, reminders, and accounting integration, <a href="/invoicing">try the full platform free</a>.</p>
 
 <h2>Learn More About Invoicing</h2>
 <p>Continue building your invoicing knowledge:</p>

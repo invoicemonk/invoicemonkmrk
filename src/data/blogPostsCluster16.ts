@@ -2211,7 +2211,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>Applicable tax treatment</strong> — zero-rating clause, reverse charge note, etc.</li>
 <li><strong>Exchange rate reference</strong> — if applicable, note which rate source you used</li>
 </ul>
-<p><a href="/invoicing">Invoicemonk's free invoice generator</a> includes all these fields with country-specific presets, so you don't miss anything.</p>
+<p><a href="/invoicing">Invoicemonk's invoice generator</a> includes all these fields with country-specific presets, so you don't miss anything.</p>
 
 <h2>5 Common Mistakes That Delay International Payments</h2>
 <ol>
@@ -2264,7 +2264,7 @@ Any special invoicing requirements: ___</p>
 
 <h2>Mistake 1: Not Invoicing Immediately</h2>
 <p>The longer you wait to invoice after delivering work, the longer you wait to get paid. It's that simple. Yet many freelancers batch invoicing to "invoice day" at the end of the month.</p>
-<p><strong>The fix:</strong> Invoice within 24 hours of project completion or milestone delivery. Use <a href="/invoicing">Invoicemonk's free invoice generator</a> to create and send invoices in under 2 minutes — no excuse to delay.</p>
+<p><strong>The fix:</strong> Invoice within 24 hours of project completion or milestone delivery. Use <a href="/invoicing">Invoicemonk's invoice generator</a> to create and send invoices in under 2 minutes — no excuse to delay.</p>
 
 <h2>Mistake 2: Vague Payment Terms</h2>
 <p>"Payment due upon receipt" sounds professional but means nothing legally. What's "receipt"? When the email lands? When the client opens it? When their accounts payable processes it?</p>

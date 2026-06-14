@@ -151,7 +151,7 @@ export const cluster9Posts: BlogPost[] = [
 
 <p>Don't over-invest in software before you know what you need. Start with a low-cost plan, pay attention to where you spend time on workarounds, and upgrade when one of these features would save you measurable time or money.</p>
 
-<p>Invoicemonk is designed for exactly this journey. The <a href="/en/free-invoice-generator">free invoice generator</a> handles unlimited invoicing with professional templates. When you're ready for automation, reporting, and multi-currency support, <a href="/en/pricing">paid plans</a> start at an accessible price point with no data migration needed.</p>
+<p>Invoicemonk is designed for exactly this journey. The <a href="/en/invoice-templates">invoice templates</a> are free to download as references. When you're ready for automation, reporting, and multi-currency support, <a href="/en/pricing">paid plans</a> start at an accessible price point with no data migration needed.</p>
 
 <h2>Key Takeaways</h2>
 

@@ -1208,7 +1208,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>French-specific rules:</strong> SIREN/SIRET format validation, French VAT number format (FR + 2 check digits + 9 SIREN digits).</li>
 <li><strong>PDF/A-3 compliance:</strong> The PDF must be a valid PDF/A-3 document with correct XMP metadata.</li>
 </ul>
-<p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/__LANG__/invoicing">Invoicemonk's free invoice generator</a> ensures format compliance automatically.</p>`,
+<p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> ensures format compliance automatically.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'factur-x', 'e-invoicing', 'compliance', 'xml'],
     author: defaultAuthor,
