@@ -10244,7 +10244,7 @@ Thank you for your business!
   {
     slug: 'setting-up-automatic-payment-reminders',
     title: 'Set Up Automatic Payment Reminders in Minutes (Free Tool)',
-    excerpt: 'See exactly how to set up automatic payment reminders in Invoicemonk — with screenshots, an optimal schedule, and copy-paste templates. Reduce late payments by 25–30%, free, no credit card.',
+    excerpt: 'See exactly how to set up automatic payment reminders in Invoicemonk — with screenshots, an optimal schedule, and copy-paste templates. Reduce late payments by 25–30%, $15/month, cancel anytime.',
     category: 'Payments and Cash Flow',
     tags: ['payment reminders', 'automation', 'cash flow', 'invoicing', 'late payments', 'accounts receivable'],
     author: defaultAuthor,
@@ -10391,7 +10391,7 @@ Thank you for your business!
         <li><a href="/blog/early-payment-discounts-do-they-work">Early Payment Discounts Strategy</a></li>
       </ul>
 
-      <p>Ready to stop chasing payments manually? <a href="https://app.invoicemonk.com/signup?plan=professional">Set up your reminder schedule free — no credit card</a>.</p>
+      <p>Ready to stop chasing payments manually? <a href="https://app.invoicemonk.com/signup?plan=professional">Set up your reminder schedule from $15/month, cancel anytime</a>.</p>
     `,
     faq: [
       {
@@ -10419,7 +10419,7 @@ Thank you for your business!
     relatedTools: [
       { label: 'Invoicemonk Payments', url: '/payments', description: 'Automate payment reminders and collect online.' },
       { label: 'Payment Reminder Email Templates', url: '/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
-      { label: 'Get Started on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — free, no credit card.' }
+      { label: 'Get Started on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — $15/month, cancel anytime.' }
     ],
   },
   {
