@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Simple, <accent>transparent</accent> pricing",
-    "description": "Start free, upgrade when you need more. No hidden fees, no surprises.",
+    "description": "Three plans built for freelancers, small businesses, and growing teams. Cancel anytime.",
     "monthly": "Monthly",
     "annual": "Annual",
     "perMonth": "/month",
@@ -12,8 +12,8 @@
     "description": "Everything you need to know about pricing and billing.",
     "items": {
       "freeTier": {
-        "question": "Is there a free tier?",
-        "answer": "Yes! Our Starter tier is completely free — you can send up to 5 invoices per month to up to 5 clients, with watermark-free, professional PDFs. Upgrade to Pro ($15/mo) or SME ($49/mo) for unlimited invoices, unlimited clients, and advanced features."
+        "question": "Do you offer a free plan or free trial?",
+        "answer": "No. Invoicemonk is a paid product. Pro starts at $15/month, SME at $49/month, and Biz is custom-priced. You can upgrade, downgrade, or cancel anytime, and annual billing saves about 17%."
       },
       "upgradeDowngrade": {
         "question": "Can I upgrade or downgrade anytime?",
@@ -32,6 +32,6 @@
   "cta": {
     "title": "Ready to get <accent>started?</accent>",
     "description": "Join thousands of businesses who trust Invoicemonk for their invoicing needs.",
-    "button": "Get Started Now"
+    "button": "Get started"
   }
 }
