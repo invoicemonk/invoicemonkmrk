@@ -183,6 +183,56 @@ export type Database = {
           },
         ]
       }
+      business_sensitive_data: {
+        Row: {
+          business_id: string
+          cac_number: string | null
+          created_at: string
+          flag_reason: string | null
+          government_id_type: string | null
+          government_id_value: string | null
+          paystack_subaccount_code: string | null
+          stripe_connect_account_id: string | null
+          tax_id: string | null
+          updated_at: string
+          vat_registration_number: string | null
+        }
+        Insert: {
+          business_id: string
+          cac_number?: string | null
+          created_at?: string
+          flag_reason?: string | null
+          government_id_type?: string | null
+          government_id_value?: string | null
+          paystack_subaccount_code?: string | null
+          stripe_connect_account_id?: string | null
+          tax_id?: string | null
+          updated_at?: string
+          vat_registration_number?: string | null
+        }
+        Update: {
+          business_id?: string
+          cac_number?: string | null
+          created_at?: string
+          flag_reason?: string | null
+          government_id_type?: string | null
+          government_id_value?: string | null
+          paystack_subaccount_code?: string | null
+          stripe_connect_account_id?: string | null
+          tax_id?: string | null
+          updated_at?: string
+          vat_registration_number?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "business_sensitive_data_business_id_fkey"
+            columns: ["business_id"]
+            isOneToOne: true
+            referencedRelation: "businesses"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       businesses: {
         Row: {
           address: Json | null
@@ -190,7 +240,6 @@ export type Database = {
           brand_color: string | null
           business_identity_level: string | null
           business_type: string | null
-          cac_number: string | null
           compliance_status: string | null
           contact_email: string | null
           contact_phone: string | null
@@ -201,9 +250,6 @@ export type Database = {
           default_currency: string | null
           document_verification_status: string
           entity_type: string
-          flag_reason: string | null
-          government_id_type: string | null
-          government_id_value: string | null
           id: string
           invoice_number_digits: number
           invoice_prefix: string | null
@@ -217,17 +263,14 @@ export type Database = {
           name: string
           next_invoice_number: number | null
           next_receipt_number: number
+          onboarding_step: string | null
           online_payments_enabled: boolean
-          paystack_subaccount_code: string | null
           paystack_subaccount_status: string
           registration_status: string | null
           regulator_code: string | null
           rejection_reason: string | null
-          stripe_connect_account_id: string | null
           stripe_connect_status: string
-          tax_id: string | null
           updated_at: string
-          vat_registration_number: string | null
           verification_notes: string | null
           verification_source: string
           verification_status: string
@@ -241,7 +284,6 @@ export type Database = {
           brand_color?: string | null
           business_identity_level?: string | null
           business_type?: string | null
-          cac_number?: string | null
           compliance_status?: string | null
           contact_email?: string | null
           contact_phone?: string | null
@@ -252,9 +294,6 @@ export type Database = {
           default_currency?: string | null
           document_verification_status?: string
           entity_type?: string
-          flag_reason?: string | null
-          government_id_type?: string | null
-          government_id_value?: string | null
           id?: string
           invoice_number_digits?: number
           invoice_prefix?: string | null
@@ -268,17 +307,14 @@ export type Database = {
           name: string
           next_invoice_number?: number | null
           next_receipt_number?: number
+          onboarding_step?: string | null
           online_payments_enabled?: boolean
-          paystack_subaccount_code?: string | null
           paystack_subaccount_status?: string
           registration_status?: string | null
           regulator_code?: string | null
           rejection_reason?: string | null
-          stripe_connect_account_id?: string | null
           stripe_connect_status?: string
-          tax_id?: string | null
           updated_at?: string
-          vat_registration_number?: string | null
           verification_notes?: string | null
           verification_source?: string
           verification_status?: string
@@ -292,7 +328,6 @@ export type Database = {
           brand_color?: string | null
           business_identity_level?: string | null
           business_type?: string | null
-          cac_number?: string | null
           compliance_status?: string | null
           contact_email?: string | null
           contact_phone?: string | null
@@ -303,9 +338,6 @@ export type Database = {
           default_currency?: string | null
           document_verification_status?: string
           entity_type?: string
-          flag_reason?: string | null
-          government_id_type?: string | null
-          government_id_value?: string | null
           id?: string
           invoice_number_digits?: number
           invoice_prefix?: string | null
@@ -319,17 +351,14 @@ export type Database = {
           name?: string
           next_invoice_number?: number | null
           next_receipt_number?: number
+          onboarding_step?: string | null
           online_payments_enabled?: boolean
-          paystack_subaccount_code?: string | null
           paystack_subaccount_status?: string
           registration_status?: string | null
           regulator_code?: string | null
           rejection_reason?: string | null
-          stripe_connect_account_id?: string | null
           stripe_connect_status?: string
-          tax_id?: string | null
           updated_at?: string
-          vat_registration_number?: string | null
           verification_notes?: string | null
           verification_source?: string
           verification_status?: string
@@ -778,6 +807,66 @@ export type Database = {
         }
         Update: {
           domain?: string
+        }
+        Relationships: []
+      }
+      expense_inbox_items: {
+        Row: {
+          approved_expense_id: string | null
+          business_id: string
+          confidence: number | null
+          created_at: string
+          extracted_data: Json | null
+          file_name: string
+          file_size: number | null
+          file_type: string | null
+          handwriting_detected: boolean
+          id: string
+          reviewed_at: string | null
+          reviewed_by: string | null
+          scan_error: string | null
+          status: Database["public"]["Enums"]["expense_inbox_status"]
+          storage_path: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          approved_expense_id?: string | null
+          business_id: string
+          confidence?: number | null
+          created_at?: string
+          extracted_data?: Json | null
+          file_name: string
+          file_size?: number | null
+          file_type?: string | null
+          handwriting_detected?: boolean
+          id?: string
+          reviewed_at?: string | null
+          reviewed_by?: string | null
+          scan_error?: string | null
+          status?: Database["public"]["Enums"]["expense_inbox_status"]
+          storage_path: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          approved_expense_id?: string | null
+          business_id?: string
+          confidence?: number | null
+          created_at?: string
+          extracted_data?: Json | null
+          file_name?: string
+          file_size?: number | null
+          file_type?: string | null
+          handwriting_detected?: boolean
+          id?: string
+          reviewed_at?: string | null
+          reviewed_by?: string | null
+          scan_error?: string | null
+          status?: Database["public"]["Enums"]["expense_inbox_status"]
+          storage_path?: string
+          updated_at?: string
+          user_id?: string
         }
         Relationships: []
       }
@@ -1860,9 +1949,14 @@ export type Database = {
           created_at: string | null
           email: string
           email_verified: boolean | null
+          failed_checkout_attempts: number
           full_name: string | null
           has_selected_plan: boolean
           id: string
+          intended_billing_period: string | null
+          intended_tier: string | null
+          intended_tier_set_at: string | null
+          last_failed_checkout_at: string | null
           updated_at: string | null
         }
         Insert: {
@@ -1874,9 +1968,14 @@ export type Database = {
           created_at?: string | null
           email: string
           email_verified?: boolean | null
+          failed_checkout_attempts?: number
           full_name?: string | null
           has_selected_plan?: boolean
           id: string
+          intended_billing_period?: string | null
+          intended_tier?: string | null
+          intended_tier_set_at?: string | null
+          last_failed_checkout_at?: string | null
           updated_at?: string | null
         }
         Update: {
@@ -1888,9 +1987,14 @@ export type Database = {
           created_at?: string | null
           email?: string
           email_verified?: boolean | null
+          failed_checkout_attempts?: number
           full_name?: string | null
           has_selected_plan?: boolean
           id?: string
+          intended_billing_period?: string | null
+          intended_tier?: string | null
+          intended_tier_set_at?: string | null
+          last_failed_checkout_at?: string | null
           updated_at?: string | null
         }
         Relationships: []
@@ -2487,6 +2591,7 @@ export type Database = {
           current_period_start: string | null
           id: string
           pricing_region: string | null
+          starter_grace_expires_at: string | null
           status: Database["public"]["Enums"]["subscription_status"]
           stripe_customer_id: string | null
           stripe_subscription_id: string | null
@@ -2503,6 +2608,7 @@ export type Database = {
           current_period_start?: string | null
           id?: string
           pricing_region?: string | null
+          starter_grace_expires_at?: string | null
           status?: Database["public"]["Enums"]["subscription_status"]
           stripe_customer_id?: string | null
           stripe_subscription_id?: string | null
@@ -2519,6 +2625,7 @@ export type Database = {
           current_period_start?: string | null
           id?: string
           pricing_region?: string | null
+          starter_grace_expires_at?: string | null
           status?: Database["public"]["Enums"]["subscription_status"]
           stripe_customer_id?: string | null
           stripe_subscription_id?: string | null
@@ -2643,6 +2750,81 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      sync_subscription_runs: {
+        Row: {
+          downgraded: number
+          duration_ms: number | null
+          errors: Json | null
+          id: string
+          ran_at: string
+          renewed: number
+          repointed: number
+          synced: number
+          triggered_by: string
+          triggered_by_user: string | null
+        }
+        Insert: {
+          downgraded?: number
+          duration_ms?: number | null
+          errors?: Json | null
+          id?: string
+          ran_at?: string
+          renewed?: number
+          repointed?: number
+          synced?: number
+          triggered_by?: string
+          triggered_by_user?: string | null
+        }
+        Update: {
+          downgraded?: number
+          duration_ms?: number | null
+          errors?: Json | null
+          id?: string
+          ran_at?: string
+          renewed?: number
+          repointed?: number
+          synced?: number
+          triggered_by?: string
+          triggered_by_user?: string | null
+        }
+        Relationships: []
+      }
+      tax_report_mappings: {
+        Row: {
+          created_at: string
+          deductible_percent: number
+          expense_category: string
+          id: string
+          jurisdiction: string
+          notes: string | null
+          report_line_code: string
+          report_line_label: string
+          sort_order: number
+        }
+        Insert: {
+          created_at?: string
+          deductible_percent?: number
+          expense_category: string
+          id?: string
+          jurisdiction: string
+          notes?: string | null
+          report_line_code: string
+          report_line_label: string
+          sort_order?: number
+        }
+        Update: {
+          created_at?: string
+          deductible_percent?: number
+          expense_category?: string
+          id?: string
+          jurisdiction?: string
+          notes?: string | null
+          report_line_code?: string
+          report_line_label?: string
+          sort_order?: number
+        }
+        Relationships: []
       }
       tax_schemas: {
         Row: {
@@ -3055,6 +3237,7 @@ export type Database = {
           verification_submitted_at: string
         }[]
       }
+      admin_paid_intent_lost_count: { Args: { days?: number }; Returns: number }
       admin_set_verification: {
         Args: {
           _business_id: string
@@ -3143,6 +3326,28 @@ export type Database = {
           _date_start?: string
         }
         Returns: Json
+      }
+      get_business_sensitive: {
+        Args: { _business_id: string }
+        Returns: {
+          business_id: string
+          cac_number: string | null
+          created_at: string
+          flag_reason: string | null
+          government_id_type: string | null
+          government_id_value: string | null
+          paystack_subaccount_code: string | null
+          stripe_connect_account_id: string | null
+          tax_id: string | null
+          updated_at: string
+          vat_registration_number: string | null
+        }
+        SetofOptions: {
+          from: "*"
+          to: "business_sensitive_data"
+          isOneToOne: true
+          isSetofReturn: false
+        }
       }
       get_business_sensitive_fields: {
         Args: { _business_id: string }
@@ -3362,6 +3567,12 @@ export type Database = {
         | "BUSINESS_VERIFICATION_CHANGED"
       business_role: "owner" | "admin" | "member" | "auditor"
       commission_status: "pending" | "locked" | "paid" | "voided"
+      expense_inbox_status:
+        | "pending"
+        | "scanning"
+        | "failed"
+        | "approved"
+        | "rejected"
       invoice_kind: "standard" | "deposit" | "final"
       invoice_status:
         | "draft"
@@ -3570,6 +3781,13 @@ export const Constants = {
       ],
       business_role: ["owner", "admin", "member", "auditor"],
       commission_status: ["pending", "locked", "paid", "voided"],
+      expense_inbox_status: [
+        "pending",
+        "scanning",
+        "failed",
+        "approved",
+        "rejected",
+      ],
       invoice_kind: ["standard", "deposit", "final"],
       invoice_status: [
         "draft",
