@@ -53,7 +53,7 @@
     "footer": "FreshBooks was designed for North American small businesses around the US and Canadian tax framework. It handles US sales tax and basic Canadian GST/HST but does not provide compliance guidance for the requirements a freelancer in Lagos, Nairobi, Jakarta, or Warsaw must meet when billing internationally. Invoicemonk's compliance-first approach generates invoices that meet the requirements of both jurisdictions automatically — without the freelancer needing to know the rules upfront."
   },
   "features": [
-    { "name": "Free tier", "invoicemonk": "Yes (5 inv/mo)", "competitor": "No (30-day trial)" },
+    { "name": "Pro plan", "invoicemonk": "Yes (5 inv/mo)", "competitor": "No (30-day trial)" },
     { "name": "Starting paid price", "invoicemonk": "$15/mo (Pro)", "competitor": "$19/mo (Lite)" },
     { "name": "Client limit on entry plan", "invoicemonk": "Unlimited (Pro+)", "competitor": "5 (Lite)" },
     { "name": "Native payment processing outside US/CA", "invoicemonk": true, "competitor": "Stripe Standard required" },
@@ -90,7 +90,7 @@
         { "name": "Premium (unlimited clients)", "price": "$60/mo" },
         { "name": "Select", "price": "Custom" }
       ],
-      "note": "No free tier. Hard client caps on Lite/Plus. Extra users $11/mo. Card 2.9% + $0.30; ACH 1% (US only). Payroll add-on from $40/mo + $6/employee. International users must connect Stripe Standard separately."
+      "note": "No Pro plan. Hard client caps on Lite/Plus. Extra users $11/mo. Card 2.9% + $0.30; ACH 1% (US only). Payroll add-on from $40/mo + $6/employee. International users must connect Stripe Standard separately."
     }
   },
   "trueCost": {
@@ -156,7 +156,7 @@
     "title": "Side-by-side summary",
     "rows": [
       { "label": "Monthly price", "invoicemonk": "From $0 (Pro $15)", "competitor": "From $19 (Lite)" },
-      { "label": "Free trial / tier", "invoicemonk": "Free Starter plan", "competitor": "30-day trial" },
+      { "label": "Get started / tier", "invoicemonk": "Free Starter plan", "competitor": "30-day trial" },
       { "label": "Client limit", "invoicemonk": "Unlimited", "competitor": "5 / 50 / Unlimited" },
       { "label": "International users", "invoicemonk": "All countries", "competitor": "All countries" },
       { "label": "Native payments (non-US/CA)", "invoicemonk": "Yes", "competitor": "No" },
@@ -189,7 +189,7 @@
       { "question": "Does FreshBooks support invoicing in multiple currencies?", "answer": "FreshBooks supports invoicing in ~170 currencies and lets you set a per-client currency. However, independent testing has found the default currency can revert to USD, and FreshBooks does not support true multi-currency accounting — foreign currency transactions are recorded in a single base currency without proper revaluation." },
       { "question": "What are FreshBooks' transaction fees?", "answer": "For US-based users: card processing is 2.9% + $0.30 per transaction via FreshBooks Payments; ACH bank transfers are 1%. For international users on Stripe Standard, Stripe's standard fees apply (typically 2.9% + $0.30 for cards plus an additional ~1.5% for international cards)." },
       { "question": "Can FreshBooks handle cross-border tax compliance?", "answer": "FreshBooks calculates US sales tax and supports US/Canadian tax frameworks. It does not provide compliance guidance or automated invoice generation for jurisdiction-specific requirements such as UK VAT, Nigerian FIRS rules, or EU digital services tax." },
-      { "question": "Does FreshBooks have a free plan?", "answer": "No. FreshBooks does not offer a permanently free plan — only a 30-day free trial across all plans, after which a paid subscription ($19/month minimum) is required. Invoicemonk's Starter plan is permanently free for up to 5 invoices/month." },
+      { "question": "Does FreshBooks have a free plan?", "answer": "No. FreshBooks does not offer a permanently free plan — only a 30-day Pro plan across all plans, after which a paid subscription ($19/month minimum) is required. Invoicemonk's Starter plan is permanently free for up to 5 invoices/month." },
       { "question": "How does Invoicemonk compare for time tracking?", "answer": "FreshBooks includes built-in time tracking that converts directly to invoice line items — a strong feature for hourly freelancers. Invoicemonk supports time-based line items but does not include a running stopwatch. If hourly billing with a live timer is your core workflow, FreshBooks has the advantage in this specific area." },
       { "question": "Which is better for a freelance developer billing US clients from Africa?", "answer": "Invoicemonk. FreshBooks is accessible but requires Stripe Standard setup for payment processing, has known currency reversion issues, and does not provide compliance-first invoice generation for cross-border Africa-to-US transactions. Invoicemonk is purpose-built for this scenario." }
     ]

@@ -7,7 +7,7 @@
   "hero": {
     "title": "Invoicemonk vs Zoho Invoice (2026): Which Is Better for International Freelancers?",
     "quickAnswerLabel": "Quick answer",
-    "quickAnswer": "Zoho Invoice is a genuinely impressive free invoicing tool with a 4.7/5 rating on G2 and Capterra, strong automation, time tracking, and a capable client portal. For freelancers who stay within its free plan limits and work primarily in a domestic market, it is one of the best free tools available. For international freelancers, three limitations matter: the free plan caps invoices at 500 per year and projects at 3, payment gateway availability varies by region, and it does not generate compliance-first invoices for cross-border transactions. Invoicemonk is purpose-built for cross-border freelance invoicing — compliant invoice generation, multi-currency support, automatic reminders and payment tracking — with no invoice or project caps."
+    "quickAnswer": "Zoho Invoice is a genuinely impressive free invoicing tool with a 4.7/5 rating on G2 and Capterra, strong automation, time tracking, and a capable client portal. For freelancers who stay within its free plan limits and work primarily in a domestic market, it is one of the best free tools available. For international freelancers, three limitations matter: the Pro plan caps invoices at 500 per year and projects at 3, payment gateway availability varies by region, and it does not generate compliance-first invoices for cross-border transactions. Invoicemonk is purpose-built for cross-border freelance invoicing — compliant invoice generation, multi-currency support, automatic reminders and payment tracking — with no invoice or project caps."
   },
   "whoFor": {
     "title": "Who this comparison is for",
@@ -15,7 +15,7 @@
   },
   "overview": {
     "title": "Company and product overview",
-    "zoho": "Zoho Invoice is part of the Zoho Corporation suite — over 55 business products used by 100M+ users globally. Zoho was founded in 1996 and is headquartered in Chennai, India and Austin, Texas. In 2021, Zoho made Zoho Invoice completely free for all small businesses and freelancers, forever. The free product includes invoice creation, expense tracking, time tracking, payment reminders, recurring invoices, a client portal, and integrations with 10+ payment gateways. Per Zoho's pricing page the free plan allows up to 2 users, 3 projects, 500 invoices/year and 1,000 clients. Zoho Invoice scores 4.7/5 on both G2 and Capterra.",
+    "zoho": "Zoho Invoice is part of the Zoho Corporation suite — over 55 business products used by 100M+ users globally. Zoho was founded in 1996 and is headquartered in Chennai, India and Austin, Texas. In 2021, Zoho made Zoho Invoice completely free for all small businesses and freelancers, forever. The free product includes invoice creation, expense tracking, time tracking, payment reminders, recurring invoices, a client portal, and integrations with 10+ payment gateways. Per Zoho's pricing page the Pro plan allows up to 2 users, 3 projects, 500 invoices/year and 1,000 clients. Zoho Invoice scores 4.7/5 on both G2 and Capterra.",
     "invoicemonk": "Invoicemonk is built specifically for cross-border freelance invoicing. Where Zoho Invoice is a broad free invoicing tool serving many use cases, Invoicemonk is purpose-built for the freelancer who invoices clients in a different country, needs invoices that comply with the legal requirements of both jurisdictions, and wants the complete payment workflow to run without manual intervention regardless of where their business is registered."
   },
   "keyFacts": {
@@ -129,7 +129,7 @@
       "Native integration with the Zoho ecosystem (CRM, Projects, Analytics) eliminates duplicate data entry.",
       "Strong client portal where customers view invoices, history and pay from a branded environment — included free.",
       "iOS & Android apps rated ~4.8/5 — \"nearly as powerful as the web version.\"",
-      "24/5 free email and voice support across all users, including the free plan."
+      "24/5 free email and voice support across all users, including the Pro plan."
     ]
   },
   "whereInvoicemonkWins": {
@@ -149,7 +149,7 @@
     "zoho": {
       "title": "With Zoho Invoice",
       "paragraphs": [
-        "You log in. Your five clients are saved. You begin creating the new invoice for your US client in USD — the invoice is well-formatted and easy to complete. You notice it will carry \"Powered by Zoho Invoice\" branding; this cannot be removed on the free plan.",
+        "You log in. Your five clients are saved. You begin creating the new invoice for your US client in USD — the invoice is well-formatted and easy to complete. You notice it will carry \"Powered by Zoho Invoice\" branding; this cannot be removed on the Pro plan.",
         "You attempt to connect a payment method for international receipt. Stripe is listed as a gateway integration. If you have completed Stripe's Nigerian business verification, you can add a payment link. If not, you direct the client to a bank transfer and mark the invoice paid manually when funds arrive.",
         "For the German client, your invoice may need specific fields for a non-EU vendor providing services to an EU business. Zoho Invoice does not prompt you for these fields. You add what you know manually and hope the client's finance team processes it.",
         "You check the dashboard: you are on invoice 287 of your 500 annual allowance in May, on track to hit the cap in September with three months remaining."

@@ -9,7 +9,7 @@
   },
   "overview": [
     "Stripe Invoicing is an add-on to Stripe's payment processing platform. It lets you create and send invoices that your clients pay online via Stripe Checkout. It's functional, but it's designed as a billing tool for developer-led SaaS companies — not as a standalone invoicing solution for freelancers, contractors, or service businesses.",
-    "The key difference is cost. Stripe Invoicing charges 0.4% per paid invoice (or 0.5% for invoices not using Stripe Checkout) — on top of the standard 2.9% + $0.30 payment processing fee. For a $5,000 invoice, that's $20–$25 in invoicing fees alone, plus $175 in processing fees. Invoicemonk charges $0 for invoicing on all plans, including the free tier.",
+    "The key difference is cost. Stripe Invoicing charges 0.4% per paid invoice (or 0.5% for invoices not using Stripe Checkout) — on top of the standard 2.9% + $0.30 payment processing fee. For a $5,000 invoice, that's $20–$25 in invoicing fees alone, plus $175 in processing fees. Invoicemonk charges $0 for invoicing on all plans, including the Pro plan.",
     "Invoicemonk is a purpose-built invoicing platform with expense tracking, receipt scanning, estimates, client management, and multi-currency support. Stripe Invoicing is a feature within a payment platform. If invoicing is your primary need, Invoicemonk delivers more functionality at a fraction of the cost."
   ],
   "features": [
@@ -28,7 +28,7 @@
     { "name": "No-code setup", "invoicemonk": true, "competitor": false },
     { "name": "Developer API required", "invoicemonk": false, "competitor": "Recommended" },
     { "name": "Mobile invoicing", "invoicemonk": true, "competitor": "Dashboard only" },
-    { "name": "Free tier", "invoicemonk": "Yes (5 invoices/mo)", "competitor": false }
+    { "name": "Pro plan", "invoicemonk": "Yes (5 invoices/mo)", "competitor": false }
   ],
   "pricing": {
     "title": "Pricing: Stripe Invoicing fees vs Invoicemonk",
@@ -92,9 +92,9 @@
       { "question": "Can I use Stripe just for invoicing?", "answer": "Yes, but Stripe Invoicing is designed as an add-on to Stripe's payment processing. You need a Stripe account, and invoicing fees apply per paid invoice. For standalone invoicing without per-invoice fees, Invoicemonk is a better fit." },
       { "question": "What is the best alternative to Stripe Invoicing?", "answer": "Invoicemonk is a strong alternative for businesses that primarily need invoicing. It offers free invoicing on all plans, plus expense tracking, estimates, receipt scanning, and accounting — features Stripe Invoicing doesn't include." },
       { "question": "Can I use Invoicemonk with Stripe?", "answer": "Yes. Invoicemonk integrates with Stripe for payment processing. You get purpose-built invoicing (free) while still accepting online payments through Stripe — without the additional 0.4–0.5% invoicing fee." },
-      { "question": "Is Stripe Invoicing free?", "answer": "No. Stripe Invoicing charges 0.4–0.5% per paid invoice in addition to payment processing fees. There is no free tier for Stripe Invoicing." },
+      { "question": "Is Stripe Invoicing free?", "answer": "No. Stripe Invoicing charges 0.4–0.5% per paid invoice in addition to payment processing fees. There is no Pro plan for Stripe Invoicing." },
       { "question": "Does Stripe Invoicing include expense tracking?", "answer": "No. Stripe Invoicing only handles invoice creation and payment collection. For expense tracking, receipt scanning, and accounting, you need a separate tool like Invoicemonk." },
-      { "question": "Which is better for freelancers — Stripe or Invoicemonk?", "answer": "Invoicemonk is built for freelancers with features like estimates, branded templates, expense tracking, and a free tier. Stripe Invoicing is designed for developer-led businesses and SaaS companies." }
+      { "question": "Which is better for freelancers — Stripe or Invoicemonk?", "answer": "Invoicemonk is built for freelancers with features like estimates, branded templates, expense tracking, and a Pro plan. Stripe Invoicing is designed for developer-led businesses and SaaS companies." }
     ]
   },
   "related": {

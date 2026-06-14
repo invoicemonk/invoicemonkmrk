@@ -17,7 +17,7 @@ const tools = [
     highlight: true,
     pros: ['MyInvois-ready invoice fields', 'MYR + multi-currency invoicing', 'SST support', 'Professional templates with TIN fields', 'Free invoice generator — no signup'],
     cons: ['No direct LHDN MyInvois API integration (yet)', 'No Bahasa Malaysia UI'],
-    description: 'Invoicemonk helps Malaysian businesses prepare for the MyInvois e-invoicing mandate. It includes TIN fields for seller and buyer, SST calculation support, MYR currency with proper formatting, and multi-currency invoicing for businesses billing internationally. The free plan covers unlimited invoicing with 6 professional templates.',
+    description: 'Invoicemonk helps Malaysian businesses prepare for the MyInvois e-invoicing mandate. It includes TIN fields for seller and buyer, SST calculation support, MYR currency with proper formatting, and multi-currency invoicing for businesses billing internationally. The Pro plan covers unlimited invoicing with 6 professional templates.',
   },
   {
     name: 'SQL Account',

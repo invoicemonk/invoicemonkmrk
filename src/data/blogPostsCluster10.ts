@@ -154,7 +154,7 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>NGN currency formatting</strong> with proper thousand separators</li>
   <li><strong>Paystack integration</strong> for instant online payments</li>
   <li><strong>Audit-ready records</strong> stored securely for 7+ years</li>
-  <li><strong>Free tier</strong> with 5 invoices/month — no credit card needed</li>
+  <li><strong>Pro plan</strong> with Pro plan from $15/month</li>
 </ul>
 
 <p><a href="/__LANG__/pricing">Start with Invoicemonk free →</a></p>
@@ -324,7 +324,7 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>VAT benefits:</strong> Properly documented invoices make VAT filing and refund claims faster</li>
   <li><strong>Professional image:</strong> E-invoices with QR codes and IRN look more professional to clients</li>
   <li><strong>B2B requirements:</strong> Large company clients already in Phase 1/2 may require e-invoices from their suppliers</li>
-  <li><strong>Free tools available:</strong> Invoicemonk's free tier lets you issue 5 compliant invoices per month at no cost</li>
+  <li><strong>Free tools available:</strong> Invoicemonk's Pro plan ($15/month) lets you issue unlimited compliant invoices</li>
 </ul>
 
 <h2>What If I'm a Freelancer or Sole Trader?</h2>

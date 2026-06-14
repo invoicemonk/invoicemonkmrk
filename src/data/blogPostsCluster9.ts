@@ -37,7 +37,7 @@ export const cluster9Posts: BlogPost[] = [
       },
       {
         question: 'How much does paid invoicing software cost?',
-        answer: 'Most paid invoicing software ranges from $8 to $30 per month for small businesses. Enterprise plans can run $50+ per month. Many platforms, including Invoicemonk, offer a generous free tier that covers basic needs, with paid plans for advanced features.'
+        answer: 'Most paid invoicing software ranges from $8 to $30 per month for small businesses. Enterprise plans can run $50+ per month. Many platforms, including Invoicemonk, offer a generous Pro plan that covers basic needs, with paid plans for advanced features.'
       },
       {
         question: 'Can I start free and upgrade later?',
@@ -77,7 +77,7 @@ export const cluster9Posts: BlogPost[] = [
 <h2>Feature Comparison: Free vs Paid</h2>
 
 <table>
-  <thead><tr><th>Feature</th><th>Free tier (typical)</th><th>Paid plan (typical)</th></tr></thead>
+  <thead><tr><th>Feature</th><th>Pro plan (typical)</th><th>Paid plan (typical)</th></tr></thead>
   <tbody>
     <tr><td>Invoice creation</td><td>✓ (limited/month)</td><td>✓ (unlimited)</td></tr>
     <tr><td>Custom branding</td><td>Partial (platform watermark)</td><td>✓ Full white-label</td></tr>

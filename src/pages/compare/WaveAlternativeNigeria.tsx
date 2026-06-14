@@ -40,7 +40,7 @@ export default function WaveAlternativeNigeria() {
               <li><strong>No payment processing</strong> — Wave's payments are US/Canada only. Nigerian clients can't pay via Wave.</li>
               <li><strong>No FIRS compliance</strong> — no TIN fields, no IRN generation, no TaxPro-Max integration.</li>
               <li><strong>No 7.5% VAT default</strong> — you'd manually calculate and add Nigerian VAT every time.</li>
-              <li><strong>No multi-currency</strong> — the free plan doesn't support NGN alongside USD/GBP/EUR.</li>
+              <li><strong>No multi-currency</strong> — the Pro plan doesn't support NGN alongside USD/GBP/EUR.</li>
             </ul>
           </div>
 
@@ -51,7 +51,7 @@ export default function WaveAlternativeNigeria() {
                 <span className="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-medium">Best Wave Alternative for Nigeria</span>
               </div>
               <p className="text-sm text-muted-foreground mb-3">Pro from $15/month · FIRS compliant</p>
-              <p className="text-muted-foreground text-sm mb-4">Invoicemonk matches Wave's free pricing while solving every Nigerian-specific gap. FIRS e-invoicing compliance, 7.5% VAT auto-calculation, TIN fields for seller and buyer, IRN and QR code support, and multi-currency invoicing for billing international clients — all on the free plan.</p>
+              <p className="text-muted-foreground text-sm mb-4">Invoicemonk matches Wave's free pricing while solving every Nigerian-specific gap. FIRS e-invoicing compliance, 7.5% VAT auto-calculation, TIN fields for seller and buyer, IRN and QR code support, and multi-currency invoicing for billing international clients — all on the Pro plan.</p>
               
               <h3 className="font-semibold text-foreground mb-3 mt-6">Wave vs Invoicemonk for Nigeria</h3>
               <div className="overflow-x-auto">

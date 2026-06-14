@@ -44,7 +44,7 @@ const tools = [
     highlight: false,
     pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid'],
     cons: ['5-customer limit on free plan', 'No Kenya-specific VAT defaults', 'No eTIMS support'],
-    description: 'Zoho Invoice offers a free tier but limits you to 5 customers and lacks Kenya-specific tax features. Works best as part of the broader Zoho suite.',
+    description: 'Zoho Invoice offers a Pro plan but limits you to 5 customers and lacks Kenya-specific tax features. Works best as part of the broader Zoho suite.',
   },
 ];
 

@@ -904,7 +904,7 @@ function generateRegulatorGuidePost(c: CountryConfig): BlogPost {
 
       <h2>How Invoicemonk Helps You Stay Compliant</h2>
       <p><a href="/invoicing">Invoicemonk</a> is designed with ${c.demonym} tax compliance in mind. Our platform automatically includes all required invoice elements, calculates ${c.taxType} at the correct rate, generates sequential invoice numbers, and stores invoices securely for the required ${c.recordKeepingYears} years.</p>
-      <p><a href="/invoicing">Start your free trial</a> and create ${c.authority}-compliant invoices in minutes.</p>
+      <p><a href="/invoicing">Start your Pro plan</a> and create ${c.authority}-compliant invoices in minutes.</p>
     `,
   };
 }

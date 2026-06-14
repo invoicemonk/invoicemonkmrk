@@ -70,7 +70,7 @@ export const enZA: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in South Africa?",
-        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at R499/month and SME at R1,999/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
+        answer: "Invoicemonk no longer offers a free plan or Pro plan. Pro starts at R499/month and SME at R1,999/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle VAT for South African businesses?",

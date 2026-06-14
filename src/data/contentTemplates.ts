@@ -373,7 +373,7 @@ export const decisionTemplates: DecisionGuide[] = [
         factor: 'Price',
         weight: 'medium',
         questions: [
-          'Is there a free tier for starting out?',
+          'Is there a Pro plan for starting out?',
           'Does pricing scale with your business?',
           'Are there hidden fees for payments or exports?'
         ]

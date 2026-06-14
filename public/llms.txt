@@ -46,7 +46,7 @@ Invoicemonk is a global all-in-one business finance platform that helps freelanc
 
 ## Pricing
 
-Invoicemonk is paid-only — no free plan or free trial. Paid plans vary by region:
+Invoicemonk is paid-only — no free plan or Pro plan. Paid plans vary by region:
 
 - **Free**: 5 invoices & 5 receipts/month, 1 currency, accounting & expense tracking
 - **Professional** (recommended): From $5/mo (US), £4/mo (UK), €5/mo (EU), C$7/mo (CA), A$8/mo (AU) — Unlimited everything, 5 team members, custom branding, no watermark

@@ -17,7 +17,7 @@ const tools = [
     highlight: true,
     pros: ['ZATCA Fatoorah-compliant fields', 'SAR + multi-currency invoicing', 'VAT at 15% auto-calculated', 'QR code generation for e-invoices', 'Free invoice generator — no signup'],
     cons: ['No direct ZATCA API integration (yet)', 'No Arabic UI (English only)'],
-    description: 'Invoicemonk generates Fatoorah-compliant invoices with all ZATCA-required fields: seller and buyer VAT registration numbers, 15% VAT auto-calculation for SAR, QR codes containing the mandatory five fields (seller name, VAT number, timestamp, total, VAT amount), and cryptographic stamp support. The free plan includes multi-currency invoicing for billing international clients.',
+    description: 'Invoicemonk generates Fatoorah-compliant invoices with all ZATCA-required fields: seller and buyer VAT registration numbers, 15% VAT auto-calculation for SAR, QR codes containing the mandatory five fields (seller name, VAT number, timestamp, total, VAT amount), and cryptographic stamp support. The Pro plan includes multi-currency invoicing for billing international clients.',
   },
   {
     name: 'Qoyod',
@@ -26,7 +26,7 @@ const tools = [
     highlight: false,
     pros: ['Arabic interface', 'ZATCA Phase 2 certified', 'Full accounting suite', 'HR and payroll features'],
     cons: ['No free plan', 'Expensive for simple invoicing', 'Limited multi-currency', 'Saudi-only — no global compliance'],
-    description: 'Qoyod is a Saudi-built accounting platform with full ZATCA Phase 2 certification and Arabic-first design. It\'s comprehensive but expensive — starting at SAR 149/month with no free tier. Best for established businesses needing full ERP features.',
+    description: 'Qoyod is a Saudi-built accounting platform with full ZATCA Phase 2 certification and Arabic-first design. It\'s comprehensive but expensive — starting at SAR 149/month with no Pro plan. Best for established businesses needing full ERP features.',
   },
   {
     name: 'Wafeq',
@@ -44,7 +44,7 @@ const tools = [
     highlight: false,
     pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No ZATCA-specific features', 'No Arabic invoice templates', 'No QR code for Saudi compliance'],
-    description: 'Zoho Invoice offers a free tier but caps you at 5 customers. It lacks Saudi-specific ZATCA features — no QR codes, no Fatoorah compliance, and no Arabic invoice templates. You\'d need to configure everything manually.',
+    description: 'Zoho Invoice offers a Pro plan but caps you at 5 customers. It lacks Saudi-specific ZATCA features — no QR codes, no Fatoorah compliance, and no Arabic invoice templates. You\'d need to configure everything manually.',
   },
 ];
 

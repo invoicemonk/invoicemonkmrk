@@ -13,7 +13,7 @@ export const homepageFAQs: FAQItem[] = [
   {
     question: 'Is Invoicemonk really free?',
     answer:
-      'Yes! Invoicemonk offers a free forever plan that includes 5 invoices and 5 receipts per month, client management, and basic expense tracking. We also offer premium plans with advanced features like unlimited invoicing, payment processing, detailed reporting, and priority support.',
+      'Yes! Invoicemonk offers a free forever plan that starts at $15/month with unlimited invoices, client management, and basic expense tracking. We also offer premium plans with advanced features like unlimited invoicing, payment processing, detailed reporting, and priority support.',
   },
   {
     question: 'How does invoicing work?',

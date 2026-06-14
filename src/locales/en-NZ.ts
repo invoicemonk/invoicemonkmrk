@@ -43,7 +43,7 @@ export const enNZ: LocaleConfig = {
         location: "Auckland, New Zealand",
       },
       {
-        quote: "As a sole trader, I needed something simple and compliant. Invoicemonk ticks every box and the free plan got me started.",
+        quote: "As a sole trader, I needed something simple and compliant. Invoicemonk ticks every box and the Pro plan got me started.",
         highlight: "simple and compliant",
         name: "Sarah Thompson",
         title: "Freelance Writer",
@@ -70,7 +70,7 @@ export const enNZ: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in New Zealand?",
-        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at NZ$49/month and SME at NZ$199/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
+        answer: "Invoicemonk no longer offers a free plan or Pro plan. Pro starts at NZ$49/month and SME at NZ$199/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle GST for New Zealand businesses?",

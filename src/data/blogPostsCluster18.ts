@@ -523,7 +523,7 @@ Most Polish accounting platforms (e.g., wFirma, Fakturownia, InFakt) are adding 
 
 <h2>How Invoicemonk Helps Polish Small Businesses</h2>
 
-<a href="/invoicing">Invoicemonk</a> offers an affordable solution for Polish small businesses and freelancers. Our <a href="/pricing">free tier</a> includes FA(2) XML generation and KSeF integration, making compliance accessible without additional software costs.`,
+<a href="/invoicing">Invoicemonk</a> offers an affordable solution for Polish small businesses and freelancers. Our <a href="/pricing">Pro plan</a> includes FA(2) XML generation and KSeF integration, making compliance accessible without additional software costs.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,

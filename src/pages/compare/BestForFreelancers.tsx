@@ -15,9 +15,9 @@ const tools = [
     bestFor: 'Global freelancers who need invoicing + accounting',
     price: 'Pro from $15/month',
     highlight: true,
-    pros: ['Multi-currency on free plan — bill international clients', 'Expense tracking with receipt scanning', 'Invoice verification portal for client trust', 'Tax compliance for 14+ countries', 'Free invoice generator — no account needed'],
+    pros: ['Multi-currency on every plan — bill international clients', 'Expense tracking with receipt scanning', 'Invoice verification portal for client trust', 'Tax compliance for 14+ countries', 'Free invoice generator — no account needed'],
     cons: ['No time tracking (yet)', 'No integrated payment processing on free plan'],
-    description: 'Invoicemonk is purpose-built for freelancers who work with international clients. The free plan includes multi-currency invoicing, expense tracking, and basic accounting — features that FreshBooks charges $19+/mo for. The invoice verification portal lets clients independently verify invoice authenticity, which builds trust and reduces payment disputes. If you\'re a freelancer in Nigeria, India, UK, or anywhere else billing globally, Invoicemonk handles the currency, tax, and compliance complexity seamlessly.',
+    description: 'Invoicemonk is purpose-built for freelancers who work with international clients. The Pro plan includes multi-currency invoicing, expense tracking, and basic accounting — features that FreshBooks charges $19+/mo for. The invoice verification portal lets clients independently verify invoice authenticity, which builds trust and reduces payment disputes. If you\'re a freelancer in Nigeria, India, UK, or anywhere else billing globally, Invoicemonk handles the currency, tax, and compliance complexity seamlessly.',
   },
   {
     name: 'FreshBooks',
@@ -35,7 +35,7 @@ const tools = [
     highlight: false,
     pros: ['Free invoicing and accounting', 'No client limits', 'Bank connections included'],
     cons: ['Payment processing limited to US & Canada', 'No multi-currency on free plan', 'Ads in the interface', 'Acquired by H&R Block — future uncertain'],
-    description: 'Wave is a solid free option for freelancers in the US and Canada. The free plan includes invoicing and accounting with no client limits. However, if you bill international clients or need multi-currency support, Wave falls short. The acquisition by H&R Block has raised questions about the platform\'s long-term direction.',
+    description: 'Wave is a solid free option for freelancers in the US and Canada. The Pro plan includes invoicing and accounting with no client limits. However, if you bill international clients or need multi-currency support, Wave falls short. The acquisition by H&R Block has raised questions about the platform\'s long-term direction.',
   },
   {
     name: 'AND.CO (Fiverr Workspace)',

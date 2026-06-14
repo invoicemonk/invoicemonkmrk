@@ -906,7 +906,7 @@ export const blogPosts: BlogPost[] = [
       <p>The right accounting software automates much of the work described in this guide. Here's how the leading platforms compare for small businesses:</p>
       <ul>
         <li><strong><a href="/accounting">Invoicemonk</a> — Best all-in-one for freelancers and service businesses.</strong> Combines invoicing, expense tracking, receipt scanning, and accounting in one platform. Pro from $15/month. Multi-currency and multi-jurisdiction tax compliance built in. Ideal if you want one tool instead of three.</li>
-        <li><strong>QuickBooks Online — Best for US businesses needing payroll.</strong> The most popular small business accounting software in the US. Comprehensive features including payroll, inventory, and the largest ecosystem of accountants. Expensive ($30+/month, no free tier) and increasingly complex.</li>
+        <li><strong>QuickBooks Online — Best for US businesses needing payroll.</strong> The most popular small business accounting software in the US. Comprehensive features including payroll, inventory, and the largest ecosystem of accountants. Expensive ($30+/month, no Pro plan) and increasingly complex.</li>
         <li><strong>Xero — Best for accountant collaboration.</strong> Dominant in the UK, Australia, and New Zealand. Excellent bank reconciliation and the largest network of bookkeepers/accountants outside the US. Strong multi-currency. From $29/month.</li>
         <li><strong>Wave — Best free option for US/Canadian businesses.</strong> Genuinely free accounting and invoicing with no client limits. Limited features (no multi-currency, basic receipt scanning) and US/Canada-focused. Good starting point if budget is the primary concern.</li>
       </ul>
@@ -969,7 +969,7 @@ export const blogPosts: BlogPost[] = [
       <p>Open a dedicated business bank account and credit card. Pay yourself a regular salary or draw. Never use personal accounts for business expenses or vice versa. This simplifies accounting, protects your liability protection, and makes tax preparation straightforward.</p>
 
       <h3>What is the best free accounting software?</h3>
-      <p>For US and Canadian businesses, Wave offers free accounting and invoicing with no limits. For international businesses, <a href="/accounting">Invoicemonk's free tier</a> provides multi-currency support and tax compliance for multiple jurisdictions. Both are genuine free tools, not limited trials. If you need payroll, no major platform offers that for free — expect to pay $30+/month for payroll add-ons.</p>
+      <p>For US and Canadian businesses, Wave offers free accounting and invoicing with no limits. For international businesses, <a href="/accounting">Invoicemonk's Pro plan</a> provides multi-currency support and tax compliance for multiple jurisdictions. Both are genuine free tools, not limited trials. If you need payroll, no major platform offers that for free — expect to pay $30+/month for payroll add-ons.</p>
 
       <h3>How do I do my own accounting without an accountant?</h3>
       <p>Start with accounting software (Invoicemonk, QuickBooks, or Wave) and follow these steps: (1) separate business and personal accounts, (2) record every transaction daily, (3) reconcile bank accounts monthly, (4) review your income statement and balance sheet quarterly, and (5) set aside money for taxes. Handle day-to-day bookkeeping yourself, but consider hiring an accountant for annual tax preparation and strategic tax planning — a good accountant typically saves you more than they cost.</p>
@@ -1729,7 +1729,7 @@ export const blogPosts: BlogPost[] = [
       <p>Our platform automatically calculates taxes and helps you stay compliant with local tax laws.</p>
       
       <h2>Getting Started</h2>
-      <p>Getting started with Invoicemonk is simple. Sign up for our free tier and start creating professional invoices in minutes. Upgrade when you need more features.</p>
+      <p>Getting started with Invoicemonk is simple. Sign up for our Pro plan and start creating professional invoices in minutes. Upgrade when you need more features.</p>
       
       <p>Join thousands of businesses worldwide that trust Invoicemonk for their invoicing and accounting needs.</p>
     `,
@@ -3747,7 +3747,7 @@ export const blogPosts: BlogPost[] = [
         <li>Stores invoices securely for the required 6 years</li>
         <li>Provides audit-ready reports on demand</li>
       </ul>
-      <p>Start your <a href="/invoicing">free trial</a> and create FIRS-compliant invoices in minutes.</p>
+      <p>Start your <a href="/invoicing">Pro plan</a> and create FIRS-compliant invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in Nigeria?</h3>
@@ -4292,7 +4292,7 @@ export const blogPosts: BlogPost[] = [
         <li>Secure 6+ year record storage</li>
         <li>Reports for GST/HST return preparation</li>
       </ul>
-      <p><a href="/invoicing">Start your free trial</a> and create CRA-compliant invoices today.</p>
+      <p><a href="/invoicing">Start your Pro plan</a> and create CRA-compliant invoices today.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>When must I register for GST/HST?</h3>
@@ -4501,7 +4501,7 @@ export const blogPosts: BlogPost[] = [
         <li>Secure storage for 5+ years</li>
         <li>Reports for BAS preparation</li>
       </ul>
-      <p><a href="/invoicing">Start your free trial</a> and create ATO-compliant tax invoices today.</p>
+      <p><a href="/invoicing">Start your Pro plan</a> and create ATO-compliant tax invoices today.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>Do I need to register for GST?</h3>
@@ -4692,7 +4692,7 @@ export const blogPosts: BlogPost[] = [
         <li>Provides audit-ready reports on demand</li>
         <li>Supports GHS and multi-currency invoicing</li>
       </ul>
-      <p>Start your <a href="/invoicing">free trial</a> and create GRA-compliant invoices in minutes.</p>
+      <p>Start your <a href="/invoicing">Pro plan</a> and create GRA-compliant invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in Ghana?</h3>
@@ -4856,7 +4856,7 @@ export const blogPosts: BlogPost[] = [
         <li>Supports KES and multi-currency invoicing</li>
         <li>Integrates with M-Pesa and other Kenyan payment methods</li>
       </ul>
-      <p>Start your <a href="/invoicing">free trial</a> and create KRA-compliant invoices in minutes.</p>
+      <p>Start your <a href="/invoicing">Pro plan</a> and create KRA-compliant invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in Kenya?</h3>
@@ -5044,7 +5044,7 @@ export const blogPosts: BlogPost[] = [
         <li>Provides audit-ready reports for SARS compliance</li>
         <li>Supports ZAR and multi-currency invoicing</li>
       </ul>
-      <p>Start your <a href="/invoicing">free trial</a> and create SARS-compliant tax invoices in minutes.</p>
+      <p>Start your <a href="/invoicing">Pro plan</a> and create SARS-compliant tax invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in South Africa?</h3>
@@ -5538,7 +5538,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Getting Started with Recurring Invoices</h2>
-      <p>Ready to automate your billing? <a href="https://app.invoicemonk.com/signup?plan=professional">Create a free Invoicemonk account</a>, set your schedule, and let the system handle the rest while you focus on serving your clients.</p>
+      <p>Ready to automate your billing? <a href="https://app.invoicemonk.com/signup?plan=professional">Create a Invoicemonk Pro account</a>, set your schedule, and let the system handle the rest while you focus on serving your clients.</p>
       <p>For more invoicing best practices, see our guides on <a href="/blog/ultimate-guide-getting-paid-faster">getting paid faster</a> and <a href="/blog/how-to-write-invoice-payment-terms">writing effective payment terms</a>.</p>
 
       <h2>FAQ</h2>
@@ -9205,7 +9205,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Option C: Professional Invoicing Software (Recommended)</h3>
       <p><strong>Pros:</strong> Professional templates, automatic calculations, payment tracking, reminders, tax reports, looks more credible</p>
-      <p><strong>Cons:</strong> Some tools have monthly fees (though many offer free tiers)</p>
+      <p><strong>Cons:</strong> Some tools have monthly fees (though many offer Pro plans)</p>
 
       <p><strong>Our recommendation:</strong> Start with <a href="/invoicing">professional invoicing software</a> like Invoicemonk. It's designed specifically for freelancers and small businesses, and the time you save is worth it. Plus, businesses using invoicing software get paid an average of 14 days faster.</p>
 
@@ -12993,7 +12993,7 @@ Thank you for your business!
           <tr style="border-bottom:1px solid #eee;"><td style="padding:8px;">Expense reporting</td><td style="padding:8px;">✅ Automatic</td><td style="padding:8px;">❌ Export required</td><td style="padding:8px;">✅ Built-in</td></tr>
           <tr style="border-bottom:1px solid #eee;"><td style="padding:8px;">Tax compliance</td><td style="padding:8px;">✅ IRS, HMRC, ATO, FIRS</td><td style="padding:8px;">⚠️ Basic</td><td style="padding:8px;">✅ Varies by platform</td></tr>
           <tr style="border-bottom:1px solid #eee;"><td style="padding:8px;">Offline scanning</td><td style="padding:8px;">✅</td><td style="padding:8px;">✅ Most apps</td><td style="padding:8px;">⚠️ Some</td></tr>
-          <tr><td style="padding:8px;">Free tier</td><td style="padding:8px;">✅ Unlimited scans</td><td style="padding:8px;">✅ Limited scans</td><td style="padding:8px;">❌ Usually paid</td></tr>
+          <tr><td style="padding:8px;">Pro plan</td><td style="padding:8px;">✅ Unlimited scans</td><td style="padding:8px;">✅ Limited scans</td><td style="padding:8px;">❌ Usually paid</td></tr>
         </tbody>
       </table>
 
@@ -15194,7 +15194,7 @@ Thank you for your business!
       { question: 'What should an invoice include?', answer: 'A complete invoice should include: your business name and tax ID, client details, a unique invoice number, issue and due dates, line items with descriptions and amounts, tax breakdown, total due, and payment instructions or link.' },
       { question: 'How long should I keep invoices?', answer: 'Most tax authorities require 3-7 years: the IRS requires 3-7 years, HMRC requires 6 years, the ATO requires 5 years, and the CRA requires 6 years. Digital invoicing makes long-term storage easy and searchable.' },
       { question: 'What is a proforma invoice?', answer: 'A proforma invoice is a preliminary invoice sent before work begins or goods are shipped. It looks like a regular invoice but is not a demand for payment — it serves as a quote, customs document, or pre-approval request.' },
-      { question: 'Can I create an invoice for free?', answer: 'Yes. Free invoice generators like Invoicemonk let you create professional PDF invoices with no signup required. For ongoing invoicing with payment tracking and reminders, most platforms offer free tiers for low-volume users.' },
+      { question: 'Can I create an invoice for free?', answer: 'Yes. Free invoice generators like Invoicemonk let you create professional PDF invoices with no signup required. For ongoing invoicing with payment tracking and reminders, most platforms offer Pro plans for low-volume users.' },
       { question: 'What is a VAT invoice?', answer: 'A VAT invoice is a standard invoice that includes additional mandatory fields for VAT compliance: your VAT registration number, the client\'s VAT number (for B2B), the applicable VAT rate, and the VAT amount shown separately. Businesses need VAT invoices to reclaim input VAT on their tax returns.' },
       { question: 'What is invoice factoring?', answer: 'Invoice factoring is selling your unpaid invoices to a third-party company (a factor) at a discount in exchange for immediate cash. The factor advances 70–90% of the invoice value upfront, then collects payment from your client directly. Fees typically range from 1–5% of the invoice value.' },
       { question: 'What is invoice financing?', answer: 'Invoice financing (or invoice discounting) uses your unpaid invoices as collateral for a loan. Unlike factoring, you retain ownership of the invoices and continue collecting payments from clients yourself. It\'s confidential — clients don\'t know you\'re using a financing arrangement.' },
@@ -15449,7 +15449,7 @@ Thank you for your business!
       { label: 'Receipts', url: '/receipts', description: 'Scan and store receipts digitally for tax compliance.' }
     ],
     faq: [
-      { question: 'What is the best expense tracking software for tax compliance?', answer: 'The best options combine expense categorisation with tax-aligned categories, receipt storage, and reporting that matches tax authority requirements. Invoicemonk, QuickBooks, Xero, and FreshBooks all offer tax-compliant expense tracking — but Invoicemonk stands out with a free tier that includes expense tracking and built-in tax compliance features.' },
+      { question: 'What is the best expense tracking software for tax compliance?', answer: 'The best options combine expense categorisation with tax-aligned categories, receipt storage, and reporting that matches tax authority requirements. Invoicemonk, QuickBooks, Xero, and FreshBooks all offer tax-compliant expense tracking — but Invoicemonk stands out with a Pro plan that includes expense tracking and built-in tax compliance features.' },
       { question: 'How does expense tracking help with tax compliance?', answer: 'Proper expense tracking ensures every business expense is categorised correctly, supported by receipt documentation, and readily accessible during audits. Without it, you risk missing legitimate deductions, failing to substantiate claims, and facing penalties from tax authorities.' },
       { question: 'Do I need receipt scanning for tax compliance?', answer: 'Most tax authorities accept digital copies of receipts. Receipt scanning ensures you have a permanent, searchable record of every expense — critical if you\'re audited. The IRS, HMRC, FIRS, and ATO all accept digital receipts as valid documentation.' },
       { question: 'What expense categories are needed for tax compliance?', answer: 'Standard tax-deductible categories include office supplies, travel, meals, professional services, software subscriptions, insurance, marketing, utilities, and vehicle expenses. Your categories should align with the tax form line items for your jurisdiction.' },
@@ -15484,7 +15484,7 @@ Thank you for your business!
 
       <h3>Invoicemonk</h3>
       <p><strong>Best for:</strong> Freelancers and small businesses who want expense tracking with invoicing and accounting in one platform.</p>
-      <p>Invoicemonk combines expense tracking with <a href="/invoicing">invoicing</a>, <a href="/receipts">receipt management</a>, and <a href="/accounting">accounting</a> in a single platform. Expenses are automatically reflected in your financial reports, and tax-aligned categories ensure you're always audit-ready. The free tier includes expense tracking — </p>
+      <p>Invoicemonk combines expense tracking with <a href="/invoicing">invoicing</a>, <a href="/receipts">receipt management</a>, and <a href="/accounting">accounting</a> in a single platform. Expenses are automatically reflected in your financial reports, and tax-aligned categories ensure you're always audit-ready. The Pro plan includes expense tracking — </p>
 
       <h3>QuickBooks</h3>
       <p><strong>Best for:</strong> Businesses that need payroll and inventory alongside expense tracking.</p>
@@ -15551,40 +15551,40 @@ Thank you for your business!
     relatedTools: [
       { label: 'Expense Tracking', url: '/expenses', description: 'Track expenses alongside invoicing for free.' },    ],
     faq: [
-      { question: 'Which expense tracking software includes free invoicing?', answer: 'Invoicemonk and Wave both offer free tiers that include both expense tracking and invoicing. Invoicemonk stands out with multi-currency support, tax compliance features, and built-in accounting on its free plan — features Wave restricts or doesn\'t offer.' },
-      { question: 'What are the limitations of free expense tracking tools?', answer: 'Common limitations include client caps (e.g., FreshBooks limits billable clients), restricted receipt scanning, no multi-currency support, limited reporting, and no bank feed integration. Invoicemonk\'s free tier avoids most of these restrictions.' },
-      { question: 'Is free invoicing software good enough for a real business?', answer: 'For freelancers and micro-businesses, absolutely. Free tiers handle core workflows: creating invoices, tracking expenses, and basic reporting. You\'ll typically need to upgrade when you need advanced features like recurring invoices, team access, or API integrations.' },
+      { question: 'Which expense tracking software includes free invoicing?', answer: 'Invoicemonk and Wave both offer Pro plans that include both expense tracking and invoicing. Invoicemonk stands out with multi-currency support, tax compliance features, and built-in accounting on its free plan — features Wave restricts or doesn\'t offer.' },
+      { question: 'What are the limitations of free expense tracking tools?', answer: 'Common limitations include client caps (e.g., FreshBooks limits billable clients), restricted receipt scanning, no multi-currency support, limited reporting, and no bank feed integration. Invoicemonk\'s Pro plan avoids most of these restrictions.' },
+      { question: 'Is free invoicing software good enough for a real business?', answer: 'For freelancers and micro-businesses, absolutely. Pro plans handle core workflows: creating invoices, tracking expenses, and basic reporting. You\'ll typically need to upgrade when you need advanced features like recurring invoices, team access, or API integrations.' },
       { question: 'Can I track expenses and create invoices in one tool?', answer: 'Yes. Integrated platforms like Invoicemonk let you track expenses and create invoices in the same dashboard. This means your financial data is unified — expenses appear in your P&L, invoices track your revenue, and reports show the complete picture.' },
-      { question: 'Should I pay for expense tracking software or use a free tool?', answer: 'Start free. Most freelancers and solo businesses can run entirely on free tiers for months or years. Upgrade when you hit a specific limitation — not because you think you should be paying for software.' },
+      { question: 'Should I pay for expense tracking software or use a free tool?', answer: 'Start free. Most freelancers and solo businesses can run entirely on Pro plans for months or years. Upgrade when you hit a specific limitation — not because you think you should be paying for software.' },
       { question: 'How do I switch from spreadsheets to expense tracking software?', answer: 'Export your spreadsheet data as CSV, import it into your new tool, and set up your expense categories to match. Going forward, use the software exclusively. Most tools like Invoicemonk make the transition seamless with CSV import support.' }
     ],
     content: `
       <h2>Why Expense Tracking and Invoicing Should Live Together</h2>
       <p>Many freelancers and small businesses use separate tools for expense tracking and invoicing — a spreadsheet for expenses, a different app for invoices, maybe a third for receipts. This fragmented approach creates three problems: duplicate data entry, inconsistent records, and an incomplete financial picture.</p>
       <p>When your expense tracking and invoicing live in the same platform, every transaction — incoming and outgoing — is recorded in one place. Your profit and loss is always accurate. Your tax reports pull from a single source of truth. And you save the 2–3 hours per week that businesses typically spend reconciling data across tools.</p>
-      <p>The good news: you don't need to pay for this integration. Several platforms offer both expense tracking and invoicing on free tiers. The question is which one gives you the most functionality without hidden limitations.</p>
+      <p>The good news: you don't need to pay for this integration. Several platforms offer both expense tracking and invoicing on Pro plans. The question is which one gives you the most functionality without hidden limitations.</p>
 
       <h2>Top Free Expense Tracking + Invoicing Platforms</h2>
 
       <h3>1. Invoicemonk — Best Overall Free Platform</h3>
-      <p><a href="/expenses">Invoicemonk</a> offers a genuinely useful free tier that includes expense tracking, invoicing, receipt management, and basic accounting. Unlike competitors that gate essential features behind paywalls, Invoicemonk's free plan includes multi-currency support, tax-compliant categories, and an invoice verification portal.</p>
-      <p><strong>Free tier includes:</strong> Unlimited invoices, expense tracking with categories, receipt scanning, basic financial reports, multi-currency support, tax compliance features.</p>
+      <p><a href="/expenses">Invoicemonk</a> offers a genuinely useful Pro plan that includes expense tracking, invoicing, receipt management, and basic accounting. Unlike competitors that gate essential features behind paywalls, Invoicemonk's Pro plan includes multi-currency support, tax-compliant categories, and an invoice verification portal.</p>
+      <p><strong>Pro plan includes:</strong> Unlimited invoices, expense tracking with categories, receipt scanning, basic financial reports, multi-currency support, tax compliance features.</p>
       <p><strong>Upgrade for:</strong> Recurring invoices, advanced reporting, team access, API integrations.</p>
 
       <h3>2. Wave — Best for US/Canada Solo Freelancers</h3>
       <p>Wave offers free accounting, invoicing, and expense tracking with no client limits. It's a solid choice for North American freelancers who don't need multi-currency support. The trade-off is that Wave monetises through payment processing fees, and its receipt scanning is basic compared to dedicated tools.</p>
-      <p><strong>Free tier includes:</strong> Unlimited invoicing, expense tracking, basic accounting, bank connections (US/Canada).</p>
+      <p><strong>Pro plan includes:</strong> Unlimited invoicing, expense tracking, basic accounting, bank connections (US/Canada).</p>
       <p><strong>Limitations:</strong> No multi-currency, limited receipt scanning, US/Canada bank feeds only. See <a href="/compare/invoicemonk-vs-wave">Invoicemonk vs Wave</a> for a full comparison.</p>
 
       <h3>3. Zoho Invoice — Best for Zoho Ecosystem Users</h3>
       <p>Zoho Invoice offers a free plan for up to 5 clients, including expense tracking and invoicing. If you're already in the Zoho ecosystem (Zoho CRM, Zoho Books), the integration is seamless. For everyone else, the 5-client limit is restrictive.</p>
-      <p><strong>Free tier includes:</strong> Invoicing for 5 clients, basic expense tracking, time tracking.</p>
+      <p><strong>Pro plan includes:</strong> Invoicing for 5 clients, basic expense tracking, time tracking.</p>
       <p><strong>Limitations:</strong> 5-client cap, limited automation, expense tracking is basic. See <a href="/compare/invoicemonk-vs-zoho-invoice">Invoicemonk vs Zoho</a>.</p>
 
       <h2>Feature Comparison: Free Tiers</h2>
-      <p>Here's how the free tiers stack up on the features that matter most:</p>
+      <p>Here's how the Pro plans stack up on the features that matter most:</p>
       <ul>
-        <li><strong>Client limits:</strong> Invoicemonk (reasonable free limits) vs Wave (unlimited) vs Zoho (5 clients) vs FreshBooks (no free tier)</li>
+        <li><strong>Client limits:</strong> Invoicemonk (reasonable free limits) vs Wave (unlimited) vs Zoho (5 clients) vs FreshBooks (no Pro plan)</li>
         <li><strong>Multi-currency:</strong> Invoicemonk ✓ | Wave ✗ | Zoho ✗ on free | FreshBooks N/A</li>
         <li><strong>Receipt scanning:</strong> Invoicemonk ✓ | Wave (basic) | Zoho ✗ on free | FreshBooks N/A</li>
         <li><strong>Tax compliance:</strong> Invoicemonk ✓ | Wave (US/CA only) | Zoho (limited) | FreshBooks N/A</li>
@@ -15592,17 +15592,17 @@ Thank you for your business!
       </ul>
 
       <h2>When Free Isn't Enough: Signs You Need to Upgrade</h2>
-      <p>Free tiers are genuinely sufficient for many businesses, but here are the signs you've outgrown them:</p>
+      <p>Pro plans are genuinely sufficient for many businesses, but here are the signs you've outgrown them:</p>
       <ul>
         <li><strong>You're hitting client limits:</strong> If you can't add new clients without deleting old ones, it's time to upgrade.</li>
         <li><strong>You need recurring invoices:</strong> Sending the same invoice manually every month is a waste of time. <a href="/use-cases/recurring-billing">Recurring billing automation</a> pays for itself quickly.</li>
-        <li><strong>You have a team:</strong> Multiple users need access to financial data — free tiers rarely support this.</li>
+        <li><strong>You have a team:</strong> Multiple users need access to financial data — Pro plans rarely support this.</li>
         <li><strong>You need API access:</strong> Integrating with other tools (CRM, project management) typically requires a paid plan.</li>
         <li><strong>Your tax requirements are complex:</strong> Multi-jurisdiction compliance, advanced reporting, or accountant access usually require paid features.</li>
       </ul>
 
       <h2>Making the Most of Free Expense Tracking</h2>
-      <p>If you're committed to staying on a free tier, here are strategies to maximise its value:</p>
+      <p>If you're committed to staying on a Pro plan, here are strategies to maximise its value:</p>
       <ol>
         <li><strong>Categorise religiously:</strong> Set up your categories once and categorise every expense immediately. This saves hours at tax time.</li>
         <li><strong>Scan receipts instantly:</strong> Take a photo the moment you get a receipt. Waiting leads to lost receipts and missed deductions.</li>

@@ -35,7 +35,7 @@ export default function ToolsIndex() {
     ? (faqsRaw as { question: string; answer: string }[])
     : [
         { question: 'Are Invoicemonk tools really free?', answer: 'Yes. The tools listed here are 100% free to use.' },
-        { question: 'Do I need an account to use these tools?', answer: 'No account is needed for the calculators and reference tools on this page. To actually issue and send invoices, sign up for the Invoicemonk free plan (5 invoices per month).' },
+        { question: 'Do I need an account to use these tools?', answer: 'No account is needed for the calculators and reference tools on this page. To actually issue and send invoices, sign up for the Invoicemonk Pro plan (5 invoices per month).' },
         { question: 'Which tool should I use first?', answer: 'Start with the Invoice Templates if you need ideas for billing a new client, or the Payment Fee Calculator if you receive international payments.' },
         { question: 'Can I use these tools for my business?', answer: 'Absolutely. These tools are designed for freelancers, contractors, consultants, and small businesses.' },
       ];

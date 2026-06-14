@@ -203,7 +203,7 @@
   "migration": {
     "title": "How to Move from AtoInvoice to Invoicemonk",
     "steps": [
-      { "title": "Create your free Invoicemonk account", "desc": "Sign up at app.invoicemonk.com. Set up your business profile once with logo, default currency, and payment instructions." },
+      { "title": "Create your Invoicemonk Pro account", "desc": "Sign up at app.invoicemonk.com. Set up your business profile once with logo, default currency, and payment instructions." },
       { "title": "Add the clients you bill regularly", "desc": "Save each client's details so you never retype them again. International clients can be in any country and any currency." },
       { "title": "Turn on automated reminders", "desc": "Set the cadence (for example, three days before due, on the due date, and seven days after). Invoicemonk handles the follow-ups so you do not have to." },
       { "title": "Send your first compliant invoice", "desc": "Pick a template, add line items, and send. The invoice carries your branding, country-specific fields, and a pay-online option for the client." }

@@ -17,7 +17,7 @@ const tools = [
     highlight: true,
     pros: ['FIRS e-invoicing compliant', 'NGN + multi-currency support', 'VAT at 7.5% auto-calculated', 'TIN fields built in', 'Free invoice generator — no signup'],
     cons: ['No Paystack integration (yet)', 'No payroll module'],
-    description: 'Invoicemonk is purpose-built for Nigerian businesses navigating the FIRS e-invoicing mandate. It auto-applies 7.5% VAT when NGN is selected, includes TIN fields for both seller and buyer, and supports Invoice Reference Numbers (IRN) and QR codes. The free plan includes multi-currency invoicing — essential for Nigerian businesses billing international clients in USD, GBP, or EUR.',
+    description: 'Invoicemonk is purpose-built for Nigerian businesses navigating the FIRS e-invoicing mandate. It auto-applies 7.5% VAT when NGN is selected, includes TIN fields for both seller and buyer, and supports Invoice Reference Numbers (IRN) and QR codes. The Pro plan includes multi-currency invoicing — essential for Nigerian businesses billing international clients in USD, GBP, or EUR.',
   },
   {
     name: 'Wave',
@@ -44,7 +44,7 @@ const tools = [
     highlight: false,
     pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No Nigeria-specific VAT defaults', 'Complex for simple needs', 'Full features need Zoho Books'],
-    description: 'Zoho Invoice offers a free tier but caps you at 5 customers. It doesn\'t have Nigeria-specific VAT or TIN features built in, so you\'d need to configure everything manually. Works best if you\'re already in the Zoho ecosystem.',
+    description: 'Zoho Invoice offers a Pro plan but caps you at 5 customers. It doesn\'t have Nigeria-specific VAT or TIN features built in, so you\'d need to configure everything manually. Works best if you\'re already in the Zoho ecosystem.',
   },
 ];
 

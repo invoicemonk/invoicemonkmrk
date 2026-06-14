@@ -150,7 +150,7 @@ Manage client relationships and billing.
 ## Pricing — Detailed Breakdown
 
 ### Free Plan (All Regions)
-- 5 invoices and 5 receipts per month
+- unlimited invoices and receipts
 - 1 currency account
 - 1 payment method per currency
 - Accounting and expense tracking

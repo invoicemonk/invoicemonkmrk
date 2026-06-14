@@ -17,7 +17,7 @@ const tools = [
     highlight: true,
     pros: ['MTD-compatible VAT records', 'GBP + multi-currency invoicing', 'UK VAT at 20% auto-calculated', 'CIS reverse charge support', 'Free invoice generator — no signup'],
     cons: ['No direct HMRC MTD API filing (yet)', 'No payroll module'],
-    description: 'Invoicemonk is built for UK businesses navigating Making Tax Digital. It auto-applies 20% VAT when GBP is selected, supports CIS reverse charge invoicing for construction, includes VAT number fields for both seller and buyer, and handles multi-currency invoicing for UK businesses billing international clients. The free plan covers unlimited invoicing with professional templates.',
+    description: 'Invoicemonk is built for UK businesses navigating Making Tax Digital. It auto-applies 20% VAT when GBP is selected, supports CIS reverse charge invoicing for construction, includes VAT number fields for both seller and buyer, and handles multi-currency invoicing for UK businesses billing international clients. The Pro plan covers unlimited invoicing with professional templates.',
   },
   {
     name: 'FreeAgent',
