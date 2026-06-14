@@ -239,7 +239,7 @@ const Pricing = () => {
               size="lg"
               className="rounded-full px-10 h-14 text-body-lg bg-white hover:bg-white/90 text-black shadow-lg"
             >
-              <a href="https://app.invoicemonk.com/signup">
+              <a href="https://app.invoicemonk.com/signup?plan=professional">
                 {t('cta.button')}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </a>
