@@ -147,7 +147,7 @@ export const cluster9Posts: BlogPost[] = [
   <li><strong>Mobile access.</strong> Can you create and send invoices from your phone? For freelancers and field service businesses, this is essential.</li>
 </ol>
 
-<h2>The Best Approach: Start Free, Upgrade When the Pain Is Real</h2>
+<h2>The Best Approach: Get Started, Upgrade When the Pain Is Real</h2>
 
 <p>Don't over-invest in software before you know what you need. Start with a free plan, pay attention to where you spend time on workarounds, and upgrade when one of these features would save you measurable time or money.</p>
 

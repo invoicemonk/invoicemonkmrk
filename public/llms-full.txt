@@ -384,7 +384,7 @@ Online sellers and digital product businesses. Key needs: recurring billing, mul
 ### vs FreshBooks (https://invoicemonk.com/en/compare/invoicemonk-vs-freshbooks)
 - Multi-region tax compliance built-in for 17 countries
 - Better pricing for international businesses
-- More comprehensive free tier
+- Lower entry price than most competitors
 - Credit notes and invoice verification included
 - Multilingual platform (5 languages)
 

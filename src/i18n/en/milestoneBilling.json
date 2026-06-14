@@ -8,7 +8,7 @@
     "title": "Bill at every project milestone",
     "accentWord": "milestone",
     "description": "Collect deposits, send progress invoices, and bill final balances — all tied to clear project milestones.",
-    "primaryCta": "Start Free",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Pricing"
   },
   "overview": {
@@ -101,7 +101,7 @@
   },
   "cta": {
     "title": "Start billing by milestone",
-    "description": "Protect your cash flow with milestone invoicing. Start free — ",
+    "description": "Protect your cash flow with milestone invoicing. ",
     "button": "Get Started Free"
   }
 }

@@ -10419,7 +10419,7 @@ Thank you for your business!
     relatedTools: [
       { label: 'Invoicemonk Payments', url: '/payments', description: 'Automate payment reminders and collect online.' },
       { label: 'Payment Reminder Email Templates', url: '/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
-      { label: 'Start Free on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — free, no credit card.' }
+      { label: 'Get Started on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — free, no credit card.' }
     ],
   },
   {

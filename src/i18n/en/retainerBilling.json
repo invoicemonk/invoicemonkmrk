@@ -8,7 +8,7 @@
     "title": "Effortless retainer invoicing",
     "accentWord": "retainer",
     "description": "Automate monthly retainer billing for your clients. Set fixed amounts, recurring schedules, and let Invoicemonk handle the rest.",
-    "primaryCta": "Start Free",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Pricing"
   },
   "overview": {
@@ -92,7 +92,7 @@
   },
   "cta": {
     "title": "Lock in recurring revenue",
-    "description": "Set up retainer billing in minutes. Start free — ",
+    "description": "Set up retainer billing in minutes. ",
     "button": "Get Started Free"
   }
 }

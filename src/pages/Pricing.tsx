@@ -43,7 +43,7 @@ const Pricing = () => {
     <Layout>
       <SEOHead
         title={seo?.getTitle(locale) || 'Pricing | Invoicemonk'}
-        description={seo?.getDescription(locale) || 'Simple, transparent pricing. Start free, upgrade when you need more.'}
+        description={seo?.getDescription(locale) || 'Simple, transparent pricing. Pro from $15/month. Upgrade when you need more.'}
       />
       {/* Hero */}
       <section className="py-20 lg:py-32 bg-gradient-to-b from-background to-primary-soft">

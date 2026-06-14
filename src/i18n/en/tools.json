@@ -94,7 +94,7 @@
     "cta": {
       "title": "Ready to Invoice Internationally?",
       "subtitle": "Issue multi-currency invoices and get paid faster with Invoicemonk.",
-      "button": "Start Free"
+      "button": "Get Started"
     }
   },
   "cheapest": {
@@ -164,7 +164,7 @@
       "paypalVsWise": "PayPal vs Wise Fee Comparison →",
       "feesExplained": "International Payment Fees Explained →"
     },
-    "cta": "Start Free with Invoicemonk"
+    "cta": "Get Started with Invoicemonk"
   },
   "paypalVsWise": {
     "seo": {
@@ -232,6 +232,6 @@
       "cheapest": "Cheapest Way to Receive International Payments →",
       "feesExplained": "International Payment Fees Explained →"
     },
-    "cta": "Start Free with Invoicemonk"
+    "cta": "Get Started with Invoicemonk"
   }
 }

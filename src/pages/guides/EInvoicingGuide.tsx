@@ -269,7 +269,7 @@ export default function EInvoicingGuide() {
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">E-Invoicing Compliant Invoices — Free</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Create tax-compliant invoices with proper tax IDs, VAT/GST calculations, and structured data. Start free — no signup required for the generator.</p>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Create tax-compliant invoices with proper tax IDs, VAT/GST calculations, and structured data. no signup required for the generator.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
               <Link to="/free-invoice-generator">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>

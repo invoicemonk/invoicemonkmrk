@@ -8,7 +8,7 @@
     "title": "Automate your recurring invoices",
     "accentWord": "recurring",
     "description": "Set up billing schedules for retainer clients, subscriptions, and monthly services. Invoicemonk sends invoices automatically so you never miss a billing cycle.",
-    "primaryCta": "Start Free",
+    "primaryCta": "Get Started",
     "secondaryCta": "View Pricing"
   },
   "overview": {
@@ -100,7 +100,7 @@
   },
   "cta": {
     "title": "Automate your billing today",
-    "description": "Set up recurring invoices in minutes. Start free — ",
+    "description": "Set up recurring invoices in minutes. ",
     "button": "Get Started Free"
   }
 }
