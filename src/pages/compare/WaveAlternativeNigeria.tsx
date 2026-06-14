@@ -58,7 +58,7 @@ export default function WaveAlternativeNigeria() {
                 <table className="w-full text-sm">
                   <thead><tr className="border-b"><th className="text-left py-2 pr-4">Feature</th><th className="text-center py-2 px-4">Wave</th><th className="text-center py-2 px-4">Invoicemonk</th></tr></thead>
                   <tbody>
-                    <tr className="border-b border-border/50"><td className="py-2 pr-4">Free plan</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>
+                    <tr className="border-b border-border/50"><td className="py-2 pr-4">Paid plan</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>
                     <tr className="border-b border-border/50"><td className="py-2 pr-4">Payments in Nigeria</td><td className="text-center py-2 px-4 text-red-500">✗</td><td className="text-center py-2 px-4 text-muted-foreground">Coming soon</td></tr>
                     <tr className="border-b border-border/50"><td className="py-2 pr-4">FIRS e-invoicing</td><td className="text-center py-2 px-4 text-red-500">✗</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>
                     <tr className="border-b border-border/50"><td className="py-2 pr-4">TIN fields</td><td className="text-center py-2 px-4 text-red-500">✗</td><td className="text-center py-2 px-4"><CheckCircle className="w-4 h-4 text-green-600 mx-auto" /></td></tr>

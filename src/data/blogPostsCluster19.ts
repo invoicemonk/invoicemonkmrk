@@ -2852,7 +2852,7 @@ export const cluster19Posts: BlogPost[] = [
       <h2>Where Wave is genuinely better</h2>
       <p>Honesty matters here, because Wave is a strong product and pretending otherwise would not help anyone. Three areas where Wave clearly wins:</p>
       <ul>
-        <li><strong>Free bookkeeping depth.</strong> Wave's free plan includes real double-entry accounting, bank reconciliation, and a chart of accounts. Most "free invoicing" tools stop at sending invoices.</li>
+        <li><strong>Free bookkeeping depth.</strong> Wave's free plan includes real double-entry accounting, bank reconciliation, and a chart of accounts. Most low-cost invoicing tools stop at sending invoices.</li>
         <li><strong>Reporting and reconciliation.</strong> Profit and loss, balance sheet, sales tax report, cash flow. They are all there, all free, and all mature after fifteen years of refinement.</li>
         <li><strong>Ecosystem and longevity.</strong> Wave has been around since 2010, integrates with H&amp;R Block at tax time in the US, and has a large community of accountants who already know it. That counts.</li>
       </ul>
@@ -2889,7 +2889,7 @@ export const cluster19Posts: BlogPost[] = [
           </tr>
         </thead>
         <tbody>
-          <tr><td>Free plan</td><td>Yes (Starter)</td><td>Yes (Starter)</td></tr>
+          <tr><td>Free plan</td><td>No (Pro from $15/mo)</td><td>Yes</td></tr>
           <tr><td>Paid plan starting price</td><td>$19 / month (Pro)</td><td>Coming soon</td></tr>
           <tr><td>Unlimited invoices</td><td>Yes</td><td>Yes</td></tr>
           <tr><td>EU VAT reverse charge wording</td><td>Manual notes field</td><td>Prompted automatically</td></tr>

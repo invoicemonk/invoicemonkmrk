@@ -49,7 +49,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Australia?', answer: 'Invoicemonk is the best invoicing software for Australian businesses in 2026. It includes ATO-compliant fields (ABN, GST at 10%), Peppol e-invoicing for government contracts, and multi-currency support — all with a free plan. For full accounting with BAS lodgement, Xero is the market leader.' },
+  { question: 'What is the best invoicing software for Australia?', answer: 'Invoicemonk is the best invoicing software for Australian businesses in 2026. It includes ATO-compliant fields (ABN, GST at 10%), Peppol e-invoicing for government contracts, and multi-currency support — all from $15/month on the Pro plan. For full accounting with BAS lodgement, Xero is the market leader.' },
   { question: 'Do Australian invoices need an ABN?', answer: 'Yes. The ATO requires a valid ABN on all tax invoices. Without an ABN, the payer must withhold 47% of the payment amount. Invoicemonk includes ABN fields by default when AUD is selected.' },
   { question: 'Is Peppol e-invoicing mandatory in Australia?', answer: 'Peppol e-invoicing is mandatory for businesses supplying to Australian Government agencies. For B2B transactions, it\'s voluntary but encouraged. The government is incentivizing adoption through the Peppol network.' },
 ];

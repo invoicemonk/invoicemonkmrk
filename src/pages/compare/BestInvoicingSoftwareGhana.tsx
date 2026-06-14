@@ -49,7 +49,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Ghana?', answer: 'Invoicemonk is the best invoicing software for Ghanaian businesses in 2026. It includes GRA-compliant TIN fields, auto-calculates VAT at 15% plus NHIL and GETFund levies, and supports multi-currency invoicing — all with a free plan.' },
+  { question: 'What is the best invoicing software for Ghana?', answer: 'Invoicemonk is the best invoicing software for Ghanaian businesses in 2026. It includes GRA-compliant TIN fields, auto-calculates VAT at 15% plus NHIL and GETFund levies, and supports multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'What tax rates apply to Ghanaian invoices?', answer: 'Ghana applies standard VAT at 15%, plus NHIL at 2.5%, GETFund levy at 2.5%, and COVID-19 Health Recovery Levy at 1%. The effective tax rate is 21% on taxable goods and services.' },
   { question: 'Do I need a TIN for invoicing in Ghana?', answer: 'Yes. The Ghana Revenue Authority (GRA) requires all businesses to have a Tax Identification Number (TIN) displayed on invoices. Invoicemonk includes TIN fields by default when GHS is selected.' },
 ];
