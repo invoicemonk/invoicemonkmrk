@@ -149,7 +149,7 @@ export function WaveProductTabs() {
                         size="lg"
                         className="rounded-full px-8 h-12 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
                       >
-                        <a href="https://app.invoicemonk.com/signup">
+                        <a href="https://app.invoicemonk.com/signup?plan=professional">
                           {t('products.startFree')}
                           <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                         </a>
@@ -161,7 +161,7 @@ export function WaveProductTabs() {
                   ) : (
                     <>
                       <Button asChild size="lg" className="rounded-full px-8 h-12 group">
-                        <a href="https://app.invoicemonk.com/signup">
+                        <a href="https://app.invoicemonk.com/signup?plan=professional">
                           {t('products.joinWaitlist')}
                           <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                         </a>

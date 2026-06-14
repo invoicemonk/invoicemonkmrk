@@ -275,7 +275,7 @@ export default function EInvoicingGuide() {
               <Link to="/free-invoice-generator">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-              <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">Start Full Platform Free<ArrowRight className="ml-2 w-4 h-4" /></a>
+              <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Start Full Platform Free<ArrowRight className="ml-2 w-4 h-4" /></a>
             </Button>
           </div>
         </div>

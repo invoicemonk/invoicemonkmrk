@@ -111,7 +111,7 @@ export default function InvoicemonkEstimatesVsQuickbooks() {
         <InlineSignupCTA
           heading="Skip the QuickBooks lock-in"
           body="Invoicing is live on Invoicemonk today. Estimates is launching soon — get on the waitlist."
-          buttonLabel="Start free with Invoicemonk"
+          buttonLabel="Get started with Invoicemonk"
           variant="compact"
         />
       </div>
@@ -164,7 +164,7 @@ export default function InvoicemonkEstimatesVsQuickbooks() {
         <InlineSignupCTA
           heading="Ready to ditch the $115/mo plan?"
           body="Multi-currency, international payments, no geographic restrictions — from $0 on Starter."
-          buttonLabel="Start free with Invoicemonk"
+          buttonLabel="Get started with Invoicemonk"
           variant="compact"
         />
       </div>
@@ -262,7 +262,7 @@ export default function InvoicemonkEstimatesVsQuickbooks() {
       <InlineSignupCTA
         heading="Run this scenario yourself"
         body="Send your first international invoice on Invoicemonk free — and get on the Estimates waitlist."
-        buttonLabel="Start free with Invoicemonk"
+        buttonLabel="Get started with Invoicemonk"
         variant="banner"
       />
 

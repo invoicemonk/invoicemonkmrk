@@ -227,7 +227,7 @@
     "title": "Side-by-side summary",
     "rows": [
       { "name": "Monthly price", "invoicemonk": "Free to $49/mo", "competitor": "$31.50/mo ($25.21/mo annual)" },
-      { "name": "Free plan", "invoicemonk": "Yes, no card required", "competitor": "14-day trial only" },
+      { "name": "Free plan", "invoicemonk": "Yes, ", "competitor": "14-day trial only" },
       { "name": "Primary function", "invoicemonk": "Outbound invoicing and payment collection", "competitor": "Inbound receipt and invoice capture" },
       { "name": "Send invoices to clients", "invoicemonk": true, "competitor": false },
       { "name": "Accept client payments", "invoicemonk": true, "competitor": false },
@@ -295,7 +295,7 @@
   },
   "cta": {
     "title": "Start sending compliant cross-border invoices today",
-    "description": "No credit card required. Set up your first compliant international invoice in under 5 minutes.",
-    "button": "Try Invoicemonk free"
+    "description": " Set up your first compliant international invoice in under 5 minutes.",
+    "button": "Try Invoicemonk"
   }
 }

@@ -42,7 +42,7 @@ export const helpGuides: HelpGuide[] = [
       { name: 'Set Up Payment Methods', text: 'Add your bank account or mobile money details so clients know how to pay you.' },
     ],
     relatedGuides: ['managing-clients', 'creating-invoices', 'business-settings'],
-    targetFeature: 'https://app.invoicemonk.com/signup',
+    targetFeature: 'https://app.invoicemonk.com/signup?plan=professional',
     faq: [
       { question: 'Is Invoicemonk free to use?', answer: 'Yes, the Starter plan is completely free. You can create invoices, manage clients, and track basic expenses at no cost. Upgrade for advanced features like reports, team management, and custom branding.' },
       { question: 'Do I need a TIN to use Invoicemonk?', answer: 'While not strictly required to create an account, adding your Tax Identification Number ensures your invoices are fully compliant with local regulations. For Nigerian businesses, this is your FIRS TIN.' },

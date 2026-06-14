@@ -9,9 +9,9 @@
     "titleAccent": "anywhere",
     "titleEnd": "you send them.",
     "description": "Every invoice you create in InvoiceMonk is automatically structured with the mandatory fields, VAT treatment, and compliance language required in your client's country. Not bolted on after. Built in from the start.",
-    "primaryCta": "Start invoicing free",
+    "primaryCta": "Get started",
     "secondaryCta": "View pricing",
-    "trustText": "Used by freelancers billing clients in 30+ countries. Free plan available, no credit card required."
+    "trustText": "Used by freelancers billing clients in 30+ countries. Pro from $15/month, "
   },
   "invoicePreview": {
     "invoiceNumber": "Invoice #1042",
@@ -195,7 +195,7 @@
     "title": "Your invoices. Compliant by default. Free to start.",
     "subtitle": "Join freelancers in Europe, East Africa, and Southeast Asia who send invoices that hold up, in every country, for every client, from day one.",
     "cta": "Create your free account",
-    "smallPrint": "No credit card required. Free plan available. Upgrade when you are ready.",
+    "smallPrint": " Pro from $15/month. Upgrade when you are ready.",
     "trust": [
       "VAT-compliant invoices",
       "Sequential numbering enforced",

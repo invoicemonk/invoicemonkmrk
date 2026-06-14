@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Nigerian freelancers & SMEs',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['FIRS e-invoicing compliant', 'NGN + multi-currency support', 'VAT at 7.5% auto-calculated', 'TIN fields built in', 'Free invoice generator — no signup'],
     cons: ['No Paystack integration (yet)', 'No payroll module'],
@@ -42,7 +42,7 @@ const tools = [
     bestFor: 'Zoho ecosystem users in Nigeria',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid plans'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No Nigeria-specific VAT defaults', 'Complex for simple needs', 'Full features need Zoho Books'],
     description: 'Zoho Invoice offers a free tier but caps you at 5 customers. It doesn\'t have Nigeria-specific VAT or TIN features built in, so you\'d need to configure everything manually. Works best if you\'re already in the Zoho ecosystem.',
   },

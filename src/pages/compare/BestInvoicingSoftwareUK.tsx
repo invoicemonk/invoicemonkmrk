@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'UK freelancers & small businesses needing MTD compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['MTD-compatible VAT records', 'GBP + multi-currency invoicing', 'UK VAT at 20% auto-calculated', 'CIS reverse charge support', 'Free invoice generator — no signup'],
     cons: ['No direct HMRC MTD API filing (yet)', 'No payroll module'],

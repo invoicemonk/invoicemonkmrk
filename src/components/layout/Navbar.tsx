@@ -228,7 +228,7 @@ export function Navbar() {
                 {t('nav.login')}
               </a>
               <Button asChild className="rounded-full px-6 shadow-soft hover:shadow-soft-md transition-all duration-300 hover:-translate-y-0.5">
-                <a href="https://app.invoicemonk.com/signup">{t('nav.getStarted')}</a>
+                <a href="https://app.invoicemonk.com/signup?plan=professional">{t('nav.getStarted')}</a>
               </Button>
             </div>
 
@@ -360,7 +360,7 @@ export function Navbar() {
                     {t('nav.login')}
                   </a>
                   <Button asChild className="w-full rounded-full">
-                    <a href="https://app.invoicemonk.com/signup">{t('nav.getStarted')}</a>
+                    <a href="https://app.invoicemonk.com/signup?plan=professional">{t('nav.getStarted')}</a>
                   </Button>
                 </div>
               </div>

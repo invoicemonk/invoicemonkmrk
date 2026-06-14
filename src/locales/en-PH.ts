@@ -16,7 +16,7 @@ export const enPH: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including the Philippines",
     },
@@ -28,7 +28,7 @@ export const enPH: LocaleConfig = {
     paymentGateway: "GCash & Maya",
     seo: {
       siteTitle: "Invoicemonk Philippines - BIR-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Philippine businesses. BIR-compliant, GCash & Maya integration. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Philippine businesses. BIR-compliant, GCash & Maya integration. Pro from $15/month.",
       complianceKeyword: "BIR-compliant",
       targetAudience: "Philippine",
       region: "Philippines",

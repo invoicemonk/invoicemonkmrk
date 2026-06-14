@@ -234,8 +234,8 @@
     "description": "Estimates is launching soon. Join the waitlist to be first in — and start invoicing internationally on Invoicemonk free today.",
     "primaryButton": "Join the Estimates waitlist",
     "primaryHref": "/estimates",
-    "secondaryButton": "Start invoicing free",
-    "secondaryHref": "https://app.invoicemonk.com/signup"
+    "secondaryButton": "Get started",
+    "secondaryHref": "https://app.invoicemonk.com/signup?plan=professional"
   },
   "sources": {
     "title": "Sources and further reading",

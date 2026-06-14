@@ -220,7 +220,7 @@ export function PaymentFeeCalculator({
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </a>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="lg" onClick={() => trackEvent('tool_cta_click', { tool: 'international_payment_fee', cta: 'open_free_account' })}>
                 {t('calculator.openFreeAccount')}
               </Button>

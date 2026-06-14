@@ -114,7 +114,7 @@ export function ExitIntentPopup() {
                 {submitting ? <Loader2 className="h-4 w-4 animate-spin" /> : "Send me the playbooks"}
               </Button>
               <p className="text-xs text-muted-foreground text-center">
-                Free forever plan available —{" "}
+                 available —{" "}
                 <a href="https://app.invoicemonk.com" className="underline hover:text-primary">
                   create your account
                 </a>

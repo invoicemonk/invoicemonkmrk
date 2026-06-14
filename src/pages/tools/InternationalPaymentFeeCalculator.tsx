@@ -100,7 +100,7 @@ export default function InternationalPaymentFeeCalculator() {
           <div className="mt-16 text-center">
             <h2 className="text-2xl font-bold text-foreground mb-4">{t('feeCalculator.cta.title')}</h2>
             <p className="text-muted-foreground mb-6">{t('feeCalculator.cta.subtitle')}</p>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">
               <Button size="lg">
                 {t('feeCalculator.cta.button')} <ArrowRight className="w-4 h-4 ml-2" />
               </Button>

@@ -108,7 +108,7 @@ Invoicemonk is positioned as a compliance-first alternative to:
 1. **Compliance-first**: Tax rules built into every invoice for 17 countries, not an afterthought
 2. **Truly global**: One platform, 17 countries, 5 languages, automatic compliance adaptation
 3. **All-in-one**: Invoicing + expenses + payments + accounting in one platform
-4. **Affordable**: Free tier available; paid plans start at $4/mo
+4. **Affordable**: Pro from $15/month; paid plans start at $4/mo
 5. **Professional**: Branded templates, invoice verification portal, credit notes
 6. **Multilingual**: Full platform available in English, German, French, Portuguese, and Spanish
 

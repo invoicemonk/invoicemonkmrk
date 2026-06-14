@@ -16,7 +16,7 @@ export const enSC: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Seychelles",
     },
@@ -28,7 +28,7 @@ export const enSC: LocaleConfig = {
     paymentGateway: "Bank Transfer",
     seo: {
       siteTitle: "Invoicemonk Seychelles - SRC-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for Seychellois businesses. SRC-compliant with VAT support. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for Seychellois businesses. SRC-compliant with VAT support. Pro from $15/month.",
       complianceKeyword: "SRC-compliant",
       targetAudience: "Seychellois",
       region: "Seychelles",

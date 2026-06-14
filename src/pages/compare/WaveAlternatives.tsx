@@ -13,7 +13,7 @@ const alternatives = [
   {
     name: 'Invoicemonk',
     bestFor: 'Best overall Wave alternative',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['Multi-currency on free plan (Wave doesn\'t offer this)', 'Works globally — not limited to US/Canada', 'Expense tracking + receipt scanning included', 'Invoice verification portal', 'Tax compliance for 14+ countries'],
     cons: ['No payroll module', 'No direct bank connections (yet)'],
@@ -33,7 +33,7 @@ const alternatives = [
     bestFor: 'Zoho ecosystem users',
     price: 'Free (5 customers) / Paid via Zoho Books',
     highlight: false,
-    pros: ['Free tier available', 'Integrates with Zoho suite', 'Workflow automation'],
+    pros: ['Pro from $15/month', 'Integrates with Zoho suite', 'Workflow automation'],
     cons: ['Free plan limited to 5 customers', 'Full features need Zoho Books subscription', 'Less intuitive than Wave'],
     description: 'Zoho Invoice is free but caps you at 5 customers on the free plan. It shines if you use other Zoho products (CRM, Projects, Books). As a standalone Wave replacement, the customer limit and complexity are drawbacks.',
   },
@@ -141,9 +141,9 @@ export default function WaveAlternatives() {
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">Switch from Wave in 5 Minutes</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Start with Invoicemonk's free plan — import your clients, create invoices, and track expenses. No credit card required.</p>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Start with Invoicemonk's free plan — import your clients, create invoices, and track expenses. </p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

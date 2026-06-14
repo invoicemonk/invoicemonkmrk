@@ -16,7 +16,7 @@ export const enIN: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including India",
     },

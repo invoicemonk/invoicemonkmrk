@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Kenyan freelancers & SMEs',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['KRA PIN and eTIMS-aware fields', 'VAT at 16% auto-calculated for KES', 'Multi-currency for international billing', 'Free invoice generator — no signup', 'Compliance features for East Africa'],
     cons: ['No M-Pesa integration (yet)', 'No payroll module'],
@@ -42,7 +42,7 @@ const tools = [
     bestFor: 'Zoho ecosystem users',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid'],
     cons: ['5-customer limit on free plan', 'No Kenya-specific VAT defaults', 'No eTIMS support'],
     description: 'Zoho Invoice offers a free tier but limits you to 5 customers and lacks Kenya-specific tax features. Works best as part of the broader Zoho suite.',
   },

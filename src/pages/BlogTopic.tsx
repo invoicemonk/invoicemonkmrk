@@ -263,7 +263,7 @@ const BlogTopic = () => {
               {t('joinThousands')}
             </p>
             <Button asChild size="lg">
-              <a href="https://app.invoicemonk.com/signup">
+              <a href="https://app.invoicemonk.com/signup?plan=professional">
                 {t('getStartedFree')}
               </a>
             </Button>

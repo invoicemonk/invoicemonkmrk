@@ -16,7 +16,7 @@ export const enKE: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Kenya",
     },
@@ -28,7 +28,7 @@ export const enKE: LocaleConfig = {
     paymentGateway: "Paystack",
     seo: {
       siteTitle: "Invoicemonk Kenya - KRA-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing software for Kenyan businesses. KRA-compliant with mobile payments. Free tier available.",
+      siteDescription: "Professional invoicing software for Kenyan businesses. KRA-compliant with mobile payments. Pro from $15/month.",
       complianceKeyword: "KRA-compliant",
       targetAudience: "Kenyan",
       region: "Kenya",

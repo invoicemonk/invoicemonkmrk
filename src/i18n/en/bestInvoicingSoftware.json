@@ -86,7 +86,7 @@
     {
       "name": "Invoicemonk",
       "bestFor": "Compliance-first invoicing for freelancers, SMEs & enterprises globally",
-      "price": "Free tier available · Pro from $15/mo",
+      "price": "Pro from $15/month · Pro from $15/mo",
       "highlight": true,
       "score": "9.2 / 10",
       "lastTested": "April 2026",
@@ -206,7 +206,7 @@
     {
       "name": "Zoho Invoice",
       "bestFor": "Teams already in the Zoho ecosystem",
-      "price": "Free tier available",
+      "price": "Pro from $15/month",
       "highlight": false,
       "score": "7.3 / 10",
       "lastTested": "April 2026",
@@ -369,7 +369,7 @@
     "paragraphs": [
       "For most freelancers and small businesses that care about being audit-ready, <strong>Invoicemonk</strong> is the strongest pick on this list. It's the only platform here built compliance-first: an immutable audit trail and QR-verified invoices ship on every plan — including the Free tier — and the Biz plan adds direct e-invoicing submission to government networks (ZATCA, PEPPOL, FIRS). Combined with multi-currency on every plan and a genuinely useful free tier (5 invoices/month), it covers solo freelancers up to scaling enterprises without forcing a platform switch.",
       "<strong>FreshBooks</strong> is the best choice if you're a US-based service business that bills hourly and needs a built-in timer with extensive third-party integrations. <strong>Wave</strong> is the right pick if you're a solo freelancer in the US or Canada who wants completely free invoicing and doesn't need multi-currency, credit notes, or an audit trail. <strong>Zoho Invoice</strong> makes sense if you're already using the Zoho ecosystem and want tight CRM integration. <strong>QuickBooks</strong> remains the gold standard for full-service US accounting with payroll, inventory, and bank feeds — but it's over-engineered and overpriced if you primarily need compliant invoicing.",
-      "The best invoicing software is the one that keeps you compliant when it matters — not the one with the longest feature list. Start free with Invoicemonk, get comfortable with the workflow, and upgrade only when you genuinely need more."
+      "The best invoicing software is the one that keeps you compliant when it matters — not the one with the longest feature list. Get started with Invoicemonk, get comfortable with the workflow, and upgrade only when you genuinely need more."
     ]
   },
   "comparisons": {
@@ -397,7 +397,7 @@
       { "question": "How do I switch from Wave to Invoicemonk?", "answer": "Export your client list and invoice history from Wave as CSV, sign up free at Invoicemonk, and use the bulk-import tool in the dashboard. Most users complete migration in under an hour. Multi-currency clients (which Wave couldn't handle) can be re-billed correctly going forward." },
       { "question": "Does invoicing software handle taxes?", "answer": "Most invoicing tools auto-calculate VAT/GST/sales tax per line item and include your tax ID on every invoice. They do NOT file taxes for you. For tax filing, pair your invoicing tool with a tax-prep service or accountant." },
       { "question": "Is it worth paying for invoicing software?", "answer": "Free tiers from Invoicemonk and Wave cover basic workflows well — and Invoicemonk's free tier ships with the same audit-trail and QR-verification backbone as its paid plans. Paid plans are worth it when you need unlimited invoicing, team access, advanced reporting, online payments, or e-invoicing/government submission. If your software saves 2+ hours/month or prevents a single compliance penalty, even a $15–$49 monthly fee pays for itself." },
-      { "question": "What's the best invoicing software for a one-person business?", "answer": "Invoicemonk Free if you bill internationally or want compliance built-in. Wave if you're US/Canada-only and bill in USD/CAD. Both are genuinely free with no credit card required." }
+      { "question": "What's the best invoicing software for a one-person business?", "answer": "Invoicemonk Free if you bill internationally or want compliance built-in. Wave if you're US/Canada-only and bill in USD/CAD. Both are genuinely free with " }
     ]
   },
   "relatedReading": {
@@ -414,7 +414,7 @@
   },
   "cta": {
     "title": "Try the #1 pick for free",
-    "description": "Start with Invoicemonk's free tier — no credit card required. Send your first invoice in minutes.",
+    "description": "Start with Invoicemonk's free tier —  Send your first invoice in minutes.",
     "button": "Get Started Free"
   },
   "ourPick": "Our Pick",

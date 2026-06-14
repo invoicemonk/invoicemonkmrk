@@ -67,7 +67,7 @@ const Compliance = () => {
           title={t('hero.title')}
           accentWord={t('hero.accentWord')}
           description={t('hero.description', { message: compliance.message })}
-          primaryCta={{ text: t('hero.primaryCta'), href: 'https://app.invoicemonk.com/signup' }}
+          primaryCta={{ text: t('hero.primaryCta'), href: 'https://app.invoicemonk.com/signup?plan=professional' }}
           secondaryCta={{ text: t('hero.secondaryCta'), href: '/why-invoicemonk', external: false }}
           trustBadge={t('hero.trustBadge')}
           backgroundVariant="mesh"

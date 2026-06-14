@@ -16,7 +16,7 @@ export const enUS: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including the United States",
     },
@@ -28,7 +28,7 @@ export const enUS: LocaleConfig = {
     paymentGateway: "Stripe",
     seo: {
       siteTitle: "Invoicemonk - Professional Invoicing Software for Small Business",
-      siteDescription: "Invoicing and accounting software for American small businesses and freelancers. IRS-ready with Stripe payments. Free tier available.",
+      siteDescription: "Invoicing and accounting software for American small businesses and freelancers. IRS-ready with Stripe payments. Pro from $15/month.",
       complianceKeyword: "IRS-ready",
       targetAudience: "American",
       region: "United States",

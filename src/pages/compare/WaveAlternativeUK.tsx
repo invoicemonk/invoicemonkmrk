@@ -13,7 +13,7 @@ const comparisonPoints = [
   { feature: 'UK VAT at 20% auto-calculated', wave: false, invoicemonk: true },
   { feature: 'CIS reverse charge invoicing', wave: false, invoicemonk: true },
   { feature: 'Multi-currency invoicing', wave: true, invoicemonk: true },
-  { feature: 'Free plan available', wave: true, invoicemonk: true },
+  { feature: 'Pro from $15/month', wave: true, invoicemonk: true },
   { feature: 'VAT number fields (seller + buyer)', wave: false, invoicemonk: true },
   { feature: 'Professional invoice templates', wave: true, invoicemonk: true },
   { feature: 'PDF download', wave: true, invoicemonk: true },

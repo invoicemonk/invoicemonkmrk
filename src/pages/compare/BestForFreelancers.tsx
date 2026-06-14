@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Global freelancers who need invoicing + accounting',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['Multi-currency on free plan — bill international clients', 'Expense tracking with receipt scanning', 'Invoice verification portal for client trust', 'Tax compliance for 14+ countries', 'Free invoice generator — no account needed'],
     cons: ['No time tracking (yet)', 'No integrated payment processing on free plan'],
@@ -153,7 +153,7 @@ export default function BestForFreelancers() {
           <h2 className="text-heading-lg font-bold text-white mb-4">Start Invoicing for Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Join thousands of freelancers using Invoicemonk. Multi-currency, professional templates, expense tracking — all free.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Create Free Account<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

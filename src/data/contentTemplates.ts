@@ -409,7 +409,7 @@ export const decisionTemplates: DecisionGuide[] = [
         recommendation: 'Only for occasional, simple invoicing'
       }
     ],
-    callToAction: 'Try Invoicemonk free and see how it works for your business'
+    callToAction: 'Try Invoicemonk and see how it works for your business'
   }
 ];
 

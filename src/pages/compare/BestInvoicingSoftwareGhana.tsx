@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Ghanaian freelancers & SMEs needing GRA compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['GRA-compliant invoice fields (TIN)', 'VAT at 15% + levies auto-calculated for GHS', 'Multi-currency (GHS, USD, GBP, EUR)', 'Free invoice generator — no signup', 'Expense tracking included'],
     cons: ['No direct GRA filing integration', 'No mobile money payment processing'],
@@ -33,7 +33,7 @@ const tools = [
     bestFor: 'Zoho ecosystem users',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid plans'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No Ghana-specific tax defaults', 'Complex for simple needs', 'Full features need Zoho Books'],
     description: 'Zoho Invoice offers a free tier but caps at 5 customers. It doesn\'t have Ghana-specific VAT or TIN features built in. Works best if you\'re already in the Zoho ecosystem.',
   },

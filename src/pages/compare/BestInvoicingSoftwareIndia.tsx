@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Indian freelancers & small businesses',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['GST-compliant with GSTIN fields', 'CGST/SGST/IGST auto-calculation', 'HSN/SAC code support', '18% GST default for INR', 'Multi-currency for international billing'],
     cons: ['No Tally integration', 'No GSP certification (yet)'],

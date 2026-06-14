@@ -905,7 +905,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Best Accounting Software for Small Business</h2>
       <p>The right accounting software automates much of the work described in this guide. Here's how the leading platforms compare for small businesses:</p>
       <ul>
-        <li><strong><a href="/accounting">Invoicemonk</a> — Best all-in-one for freelancers and service businesses.</strong> Combines invoicing, expense tracking, receipt scanning, and accounting in one platform. Free tier available. Multi-currency and multi-jurisdiction tax compliance built in. Ideal if you want one tool instead of three.</li>
+        <li><strong><a href="/accounting">Invoicemonk</a> — Best all-in-one for freelancers and service businesses.</strong> Combines invoicing, expense tracking, receipt scanning, and accounting in one platform. Pro from $15/month. Multi-currency and multi-jurisdiction tax compliance built in. Ideal if you want one tool instead of three.</li>
         <li><strong>QuickBooks Online — Best for US businesses needing payroll.</strong> The most popular small business accounting software in the US. Comprehensive features including payroll, inventory, and the largest ecosystem of accountants. Expensive ($30+/month, no free tier) and increasingly complex.</li>
         <li><strong>Xero — Best for accountant collaboration.</strong> Dominant in the UK, Australia, and New Zealand. Excellent bank reconciliation and the largest network of bookkeepers/accountants outside the US. Strong multi-currency. From $29/month.</li>
         <li><strong>Wave — Best free option for US/Canadian businesses.</strong> Genuinely free accounting and invoicing with no client limits. Limited features (no multi-currency, basic receipt scanning) and US/Canada-focused. Good starting point if budget is the primary concern.</li>
@@ -2790,7 +2790,7 @@ export const blogPosts: BlogPost[] = [
       <div style="background:#fef2f2;border-left:4px solid #dc2626;padding:20px 24px;margin:32px 0;border-radius:8px;">
         <p style="margin:0 0 12px 0;font-weight:700;font-size:1.05rem;">Managing freelance finances?</p>
         <p style="margin:0 0 16px 0;color:#475569;">All the budgeting wisdom in the world can't fix invoices that go unpaid. Invoicemonk handles your invoicing automatically — recurring bills, payment reminders, and real-time tracking so you actually get paid on time.</p>
-        <a href="/en/free-invoice-generator" style="display:inline-block;background:#dc2626;color:white;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Try Invoicemonk free →</a>
+        <a href="/en/free-invoice-generator" style="display:inline-block;background:#dc2626;color:white;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Try Invoicemonk →</a>
       </div>
       
       <h2>Related Resources</h2>
@@ -4100,7 +4100,7 @@ export const blogPosts: BlogPost[] = [
         <li>Expense tracking and receipt capture</li>
         <li>Financial reports for tax preparation</li>
       </ul>
-      <p><a href="/invoicing">Try Invoicemonk free</a> and simplify your tax documentation.</p>
+      <p><a href="/invoicing">Try Invoicemonk</a> and simplify your tax documentation.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>Does the IRS require invoices to have specific information?</h3>
@@ -5538,7 +5538,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Getting Started with Recurring Invoices</h2>
-      <p>Ready to automate your billing? <a href="https://app.invoicemonk.com/signup">Create a free Invoicemonk account</a>, set your schedule, and let the system handle the rest while you focus on serving your clients.</p>
+      <p>Ready to automate your billing? <a href="https://app.invoicemonk.com/signup?plan=professional">Create a free Invoicemonk account</a>, set your schedule, and let the system handle the rest while you focus on serving your clients.</p>
       <p>For more invoicing best practices, see our guides on <a href="/blog/ultimate-guide-getting-paid-faster">getting paid faster</a> and <a href="/blog/how-to-write-invoice-payment-terms">writing effective payment terms</a>.</p>
 
       <h2>FAQ</h2>
@@ -5837,7 +5837,7 @@ export const blogPosts: BlogPost[] = [
       <div style="background:#fef2f2;border-left:4px solid #dc2626;padding:20px 24px;margin:32px 0;border-radius:8px;">
         <p style="margin:0 0 12px 0;font-weight:700;font-size:1.05rem;">Generate compliant credit notes in seconds</p>
         <p style="margin:0 0 16px 0;color:#475569;">Invoicemonk creates a credit note from any existing invoice in one click — with the original invoice reference, sequential CN numbering, and the correct VAT/GST reversal already filled in.</p>
-        <a href="/en/invoicing" style="display:inline-block;background:#dc2626;color:white;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Try Invoicemonk free →</a>
+        <a href="/en/invoicing" style="display:inline-block;background:#dc2626;color:white;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Try Invoicemonk →</a>
       </div>
 
       <h2>Common Credit Note Mistakes to Avoid</h2>
@@ -10315,7 +10315,7 @@ Thank you for your business!
       </ul>
 
       <h2>Set Up Automatic Reminders in Invoicemonk in 5 Minutes</h2>
-      <p>Here's the exact flow inside <a href="/payments">Invoicemonk</a>. Free plan, no credit card required.</p>
+      <p>Here's the exact flow inside <a href="/payments">Invoicemonk</a>. </p>
 
       <figure>
         <img src="/images/blog/auto-reminder-settings-invoicemonk.jpg" alt="Invoicemonk Payment Reminders settings with Before Due Date and After Due Date intervals and a custom message field" loading="lazy" />
@@ -10391,7 +10391,7 @@ Thank you for your business!
         <li><a href="/blog/early-payment-discounts-do-they-work">Early Payment Discounts Strategy</a></li>
       </ul>
 
-      <p>Ready to stop chasing payments manually? <a href="https://app.invoicemonk.com/signup">Set up your reminder schedule free — no credit card</a>.</p>
+      <p>Ready to stop chasing payments manually? <a href="https://app.invoicemonk.com/signup?plan=professional">Set up your reminder schedule free — no credit card</a>.</p>
     `,
     faq: [
       {
@@ -10419,7 +10419,7 @@ Thank you for your business!
     relatedTools: [
       { label: 'Invoicemonk Payments', url: '/payments', description: 'Automate payment reminders and collect online.' },
       { label: 'Payment Reminder Email Templates', url: '/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
-      { label: 'Start Free on Invoicemonk', url: 'https://app.invoicemonk.com/signup', description: 'Set up automatic reminders in 5 minutes — free, no credit card.' }
+      { label: 'Start Free on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — free, no credit card.' }
     ],
   },
   {
@@ -15484,7 +15484,7 @@ Thank you for your business!
 
       <h3>Invoicemonk</h3>
       <p><strong>Best for:</strong> Freelancers and small businesses who want expense tracking with invoicing and accounting in one platform.</p>
-      <p>Invoicemonk combines expense tracking with <a href="/invoicing">invoicing</a>, <a href="/receipts">receipt management</a>, and <a href="/accounting">accounting</a> in a single platform. Expenses are automatically reflected in your financial reports, and tax-aligned categories ensure you're always audit-ready. The free tier includes expense tracking — no credit card required.</p>
+      <p>Invoicemonk combines expense tracking with <a href="/invoicing">invoicing</a>, <a href="/receipts">receipt management</a>, and <a href="/accounting">accounting</a> in a single platform. Expenses are automatically reflected in your financial reports, and tax-aligned categories ensure you're always audit-ready. The free tier includes expense tracking — </p>
 
       <h3>QuickBooks</h3>
       <p><strong>Best for:</strong> Businesses that need payroll and inventory alongside expense tracking.</p>

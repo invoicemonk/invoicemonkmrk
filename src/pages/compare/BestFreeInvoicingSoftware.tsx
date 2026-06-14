@@ -195,7 +195,7 @@ export default function BestFreeInvoicingSoftware() {
                     variant="compact"
                     heading="Billing international clients?"
                     body="Invoicemonk generates compliance-ready invoices for your country and your client's country — automatically. Free to start."
-                    buttonLabel="Try Invoicemonk free"
+                    buttonLabel="Try Invoicemonk"
                   />
                 )}
                 {i === 2 && (
@@ -284,7 +284,7 @@ export default function BestFreeInvoicingSoftware() {
                     <li><strong className="text-foreground">SME — $49/mo:</strong> Everything in Pro + online payments, advanced reports, premium templates, unlimited team.</li>
                     <li><strong className="text-foreground">Biz — Custom:</strong> E-invoicing & government submission, dedicated account manager, SLA guarantee.</li>
                   </ul>
-                  <p className="text-xs text-muted-foreground mt-3">No credit card required. The Free plan is permanent — there is no expiring trial. <Link to="/pricing" className="text-primary hover:underline">See full pricing</Link>.</p>
+                  <p className="text-xs text-muted-foreground mt-3"> The Free plan is permanent — there is no expiring trial. <Link to="/pricing" className="text-primary hover:underline">See full pricing</Link>.</p>
                 </CardContent>
               </Card>
             </div>
@@ -314,8 +314,8 @@ export default function BestFreeInvoicingSoftware() {
             <InlineSignupCTA
               variant="compact"
               heading="Ready to send compliant cross-border invoices?"
-              body="Set up your first compliant international invoice in under 5 minutes. No credit card required."
-              buttonLabel="Try Invoicemonk free"
+              body="Set up your first compliant international invoice in under 5 minutes. "
+              buttonLabel="Try Invoicemonk"
             />
           </div>
 
@@ -358,10 +358,10 @@ export default function BestFreeInvoicingSoftware() {
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">Send compliant cross-border invoices — free to start</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Multi-currency, country-specific compliance, automatic reminders. The Free plan is permanent — no credit card required.</p>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Multi-currency, country-specific compliance, automatic reminders. The Free plan is permanent — </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=best_free_invoicing" target="_blank" rel="noopener noreferrer">Try Invoicemonk free<ArrowRight className="ml-2 w-4 h-4" /></a>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=best_free_invoicing" target="_blank" rel="noopener noreferrer">Try Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
               <Link to="/pricing">See full pricing<ArrowRight className="ml-2 w-4 h-4" /></Link>

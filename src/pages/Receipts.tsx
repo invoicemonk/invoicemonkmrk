@@ -83,7 +83,7 @@ const Receipts = () => {
               </motion.p>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group">
-                  <a href="https://app.invoicemonk.com/signup">
+                  <a href="https://app.invoicemonk.com/signup?plan=professional">
                     {t('hero.ctaPrimary')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
                   </a>

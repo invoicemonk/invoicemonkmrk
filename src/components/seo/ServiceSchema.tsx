@@ -51,7 +51,7 @@ export function ServiceSchema({
       "price": price,
       "priceCurrency": priceCurrency,
       "availability": "https://schema.org/InStock",
-      "description": "Free tier available with premium options"
+      "description": "Pro from $15/month with premium options"
     },
     "termsOfService": `${BASE}/${prefix}/terms-of-service`,
     "serviceOutput": {

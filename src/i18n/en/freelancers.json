@@ -10,7 +10,7 @@
     "description": "Your German client needs a Leistungsdatum. Your Dutch client needs a BTW-ID. Your French client needs a SIRET number and a specific TVA phrase. Your Kenyan client needs a KRA PIN and reverse charge wording. InvoiceMonk knows what each country requires — and builds it into your invoice automatically.",
     "ctaPrimary": "Create your free account",
     "ctaSecondary": "See how it works",
-    "trustBadge": "Trusted by freelancers billing clients in 30+ countries. Free to start — no credit card required."
+    "trustBadge": "Trusted by freelancers billing clients in 30+ countries. Free to start — "
   },
   "problem": {
     "title": "Why freelancers who bill internationally keep getting invoices sent back",
@@ -71,7 +71,7 @@
     "description": "InvoiceMonk's free plan includes VAT-compliant invoicing, sequential numbering enforcement, reverse charge notation, and country-specific mandatory fields — for every invoice you send, to every country you work in.",
     "highlight": "No credit card. No time limit. No feature gates on compliance.",
     "cta": "Create your free account",
-    "fineprint": "No credit card required. Cancel any time."
+    "fineprint": " Cancel any time."
   },
   "faq": {
     "title": "Freelancer invoicing — questions answered",
@@ -88,7 +88,7 @@
     "title": "Ready to send invoices your clients can actually use?",
     "subtitle": "Join freelancers in Europe, East Africa, and Southeast Asia who use InvoiceMonk to invoice internationally — with the right compliance fields built in from the start.",
     "button": "Create your free account",
-    "fineprint": "Free plan available. No credit card required. Upgrade when you are ready.",
+    "fineprint": "Pro from $15/month.  Upgrade when you are ready.",
     "trustSignals": [
       "VAT-compliant invoices",
       "Sequential numbering enforced",

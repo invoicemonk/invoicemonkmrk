@@ -113,7 +113,7 @@ export default function PaypalVsWiseFees() {
           </section>
 
           <div className="mt-16 text-center">
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">
               <Button size="lg">{t('paypalVsWise.cta')} <ArrowRight className="w-4 h-4 ml-2" /></Button>
             </a>
           </div>

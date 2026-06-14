@@ -50,7 +50,7 @@ export default function WaveAlternativeNigeria() {
                 <h2 className="text-lg font-bold text-foreground">Our Recommendation: Invoicemonk</h2>
                 <span className="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-medium">Best Wave Alternative for Nigeria</span>
               </div>
-              <p className="text-sm text-muted-foreground mb-3">Free tier available · FIRS compliant</p>
+              <p className="text-sm text-muted-foreground mb-3">Pro from $15/month · FIRS compliant</p>
               <p className="text-muted-foreground text-sm mb-4">Invoicemonk matches Wave's free pricing while solving every Nigerian-specific gap. FIRS e-invoicing compliance, 7.5% VAT auto-calculation, TIN fields for seller and buyer, IRN and QR code support, and multi-currency invoicing for billing international clients — all on the free plan.</p>
               
               <h3 className="font-semibold text-foreground mb-3 mt-6">Wave vs Invoicemonk for Nigeria</h3>

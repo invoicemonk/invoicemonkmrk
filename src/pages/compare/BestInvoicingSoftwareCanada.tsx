@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Canadian freelancers & SMEs needing CRA compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['CRA-compliant invoice fields (GST/HST/PST)', 'Auto-calculates provincial tax rates', 'Multi-currency (CAD, USD, EUR)', 'BN (Business Number) fields', 'Free invoice generator — no signup'],
     cons: ['No direct CRA filing integration', 'No payroll module'],

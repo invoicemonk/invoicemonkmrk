@@ -64,7 +64,7 @@ export default function WaveAlternativeAustralia() {
                 <div>
                   <p className="text-xs font-medium text-green-700 mb-2">Why Switch from Wave</p>
                   <ul className="space-y-1">
-                    {['ATO-compliant ABN & GST fields', '10% GST auto-calculated for AUD', 'Peppol e-invoicing support', 'Multi-currency (AUD + international)', 'Free — no credit card required'].map((p, j) => (
+                    {['ATO-compliant ABN & GST fields', '10% GST auto-calculated for AUD', 'Peppol e-invoicing support', 'Multi-currency (AUD + international)', 'Free — '].map((p, j) => (
                       <li key={j} className="flex gap-2 text-sm text-muted-foreground"><CheckCircle className="w-3.5 h-3.5 text-green-600 mt-0.5 flex-shrink-0" />{p}</li>
                     ))}
                   </ul>

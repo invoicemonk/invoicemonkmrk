@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'South African freelancers & SMEs needing SARS compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['SARS-compliant invoice fields', 'VAT at 15% auto-calculated for ZAR', 'Multi-currency (ZAR, USD, GBP, EUR)', 'Tax reference number fields', 'Free invoice generator — no signup'],
     cons: ['No direct SARS eFiling integration', 'No payroll module'],

@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Recurring Billing & Subscription Invoicing | Invoicemonk",
-    "description": "Automate recurring invoices for retainer clients, subscriptions, and repeat services. Set it up once and get paid on schedule. Free tier available."
+    "description": "Automate recurring invoices for retainer clients, subscriptions, and repeat services. Set it up once and get paid on schedule. Pro from $15/month."
   },
   "hero": {
     "badge": "Recurring Billing",
@@ -100,7 +100,7 @@
   },
   "cta": {
     "title": "Automate your billing today",
-    "description": "Set up recurring invoices in minutes. Start free — no credit card required.",
+    "description": "Set up recurring invoices in minutes. Start free — ",
     "button": "Get Started Free"
   }
 }

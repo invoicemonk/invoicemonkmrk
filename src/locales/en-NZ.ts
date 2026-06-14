@@ -16,7 +16,7 @@ export const enNZ: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including New Zealand",
     },
@@ -28,7 +28,7 @@ export const enNZ: LocaleConfig = {
     paymentGateway: "Stripe & POLi",
     seo: {
       siteTitle: "Invoicemonk New Zealand - IRD-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing and accounting software for New Zealand businesses. IRD-compliant, GST tracking. Free tier available.",
+      siteDescription: "Professional invoicing and accounting software for New Zealand businesses. IRD-compliant, GST tracking. Pro from $15/month.",
       complianceKeyword: "IRD-compliant",
       targetAudience: "New Zealand",
       region: "New Zealand",

@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Malaysian freelancers & SMEs preparing for MyInvois',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['MyInvois-ready invoice fields', 'MYR + multi-currency invoicing', 'SST support', 'Professional templates with TIN fields', 'Free invoice generator — no signup'],
     cons: ['No direct LHDN MyInvois API integration (yet)', 'No Bahasa Malaysia UI'],

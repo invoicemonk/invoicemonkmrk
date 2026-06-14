@@ -134,8 +134,8 @@
     "sla": "Service Level Agreement"
   },
   "hero": {
-    "freeTier": "Free tier available",
-    "noCreditCard": "No credit card required",
+    "freeTier": "Pro from $15/month",
+    "noCreditCard": "",
     "paymentReceived": "Payment Received",
     "jurisdictionAware": "Jurisdiction-Aware",
     "allRecordsAuditReady": "All records audit-ready",

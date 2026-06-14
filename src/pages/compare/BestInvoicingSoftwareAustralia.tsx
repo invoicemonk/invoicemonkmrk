@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Australian freelancers & SMEs needing ATO compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['ATO-compliant invoice fields (ABN, GST)', '10% GST auto-calculated for AUD', 'Peppol e-invoicing support', 'Multi-currency for international clients', 'Free invoice generator — no signup'],
     cons: ['No direct ATO BAS lodgement', 'No payroll module'],
@@ -42,7 +42,7 @@ const tools = [
     bestFor: 'Zoho ecosystem users in Australia',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Time tracking included'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Time tracking included'],
     cons: ['5-customer limit on free plan', 'No Australia-specific GST defaults', 'Full features need Zoho Books', 'Limited BAS support'],
     description: 'Zoho Invoice offers a free tier but limits you to 5 customers. It doesn\'t have Australian GST defaults or ABN fields built in, so manual configuration is needed. Best if you\'re already in the Zoho ecosystem.',
   },

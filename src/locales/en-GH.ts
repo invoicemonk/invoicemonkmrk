@@ -16,7 +16,7 @@ export const enGH: LocaleConfig = {
       headline: "Invoicing built around compliance.",
       headlineAccent: "Not bolted on after.",
       subheadline: "Invoicemonk is the invoicing and accounting software that keeps freelancers, consultants, and small businesses tax-ready, audit-proof, and paid in every country they work in.",
-      cta: "Start free — no card needed",
+      cta: "Get started",
       secondaryCta: "See how compliance works →",
       trustBadge: "Used by businesses invoicing across 30+ countries, including Ghana",
     },
@@ -28,7 +28,7 @@ export const enGH: LocaleConfig = {
     paymentGateway: "Paystack",
     seo: {
       siteTitle: "Invoicemonk Ghana - GRA-Compliant Invoicing Software",
-      siteDescription: "Professional invoicing software for Ghanaian businesses. GRA-compliant with Paystack integration. Free tier available.",
+      siteDescription: "Professional invoicing software for Ghanaian businesses. GRA-compliant with Paystack integration. Pro from $15/month.",
       complianceKeyword: "GRA-compliant",
       targetAudience: "Ghanaian",
       region: "Ghana",

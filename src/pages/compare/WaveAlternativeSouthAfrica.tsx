@@ -64,7 +64,7 @@ export default function WaveAlternativeSouthAfrica() {
                 <div>
                   <p className="text-xs font-medium text-green-700 mb-2">Why Switch from Wave</p>
                   <ul className="space-y-1">
-                    {['SARS-compliant tax invoice fields', '15% VAT auto-calculated for ZAR', 'Tax reference number fields', 'Multi-currency (ZAR + international)', 'Free — no credit card required'].map((p, j) => (
+                    {['SARS-compliant tax invoice fields', '15% VAT auto-calculated for ZAR', 'Tax reference number fields', 'Multi-currency (ZAR + international)', 'Free — '].map((p, j) => (
                       <li key={j} className="flex gap-2 text-sm text-muted-foreground"><CheckCircle className="w-3.5 h-3.5 text-green-600 mt-0.5 flex-shrink-0" />{p}</li>
                     ))}
                   </ul>

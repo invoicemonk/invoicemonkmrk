@@ -13,7 +13,7 @@ const tools = [
   {
     name: 'Invoicemonk',
     bestFor: 'Saudi freelancers & SMEs needing ZATCA Fatoorah compliance',
-    price: 'Free tier available',
+    price: 'Pro from $15/month',
     highlight: true,
     pros: ['ZATCA Fatoorah-compliant fields', 'SAR + multi-currency invoicing', 'VAT at 15% auto-calculated', 'QR code generation for e-invoices', 'Free invoice generator — no signup'],
     cons: ['No direct ZATCA API integration (yet)', 'No Arabic UI (English only)'],
@@ -42,7 +42,7 @@ const tools = [
     bestFor: 'Zoho ecosystem users in Saudi Arabia',
     price: 'Free (5 customers)',
     highlight: false,
-    pros: ['Free tier available', 'Professional templates', 'Multi-currency on paid plans'],
+    pros: ['Pro from $15/month', 'Professional templates', 'Multi-currency on paid plans'],
     cons: ['5-customer limit on free plan', 'No ZATCA-specific features', 'No Arabic invoice templates', 'No QR code for Saudi compliance'],
     description: 'Zoho Invoice offers a free tier but caps you at 5 customers. It lacks Saudi-specific ZATCA features — no QR codes, no Fatoorah compliance, and no Arabic invoice templates. You\'d need to configure everything manually.',
   },
