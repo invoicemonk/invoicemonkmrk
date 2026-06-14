@@ -44,7 +44,7 @@ export const helpGuides: HelpGuide[] = [
     relatedGuides: ['managing-clients', 'creating-invoices', 'business-settings'],
     targetFeature: 'https://app.invoicemonk.com/signup?plan=professional',
     faq: [
-      { question: 'How much does Invoicemonk cost?', answer: 'Invoicemonk's Pro plan starts at $15/month with unlimited invoices, clients, expense tracking, custom branding, and full audit trail. SME at $49/month adds online payments and advanced reports; Biz is custom-priced. You can cancel anytime.' },
+      { question: 'How much does Invoicemonk cost?', answer: "Invoicemonk's Pro plan starts at $15/month with unlimited invoices, clients, expense tracking, custom branding, and full audit trail. SME at $49/month adds online payments and advanced reports; Biz is custom-priced. You can cancel anytime." },
       { question: 'Do I need a TIN to use Invoicemonk?', answer: 'While not strictly required to create an account, adding your Tax Identification Number ensures your invoices are fully compliant with local regulations. For Nigerian businesses, this is your FIRS TIN.' },
       { question: 'How do I complete my business profile to 100%?', answer: 'Fill in all fields: business name, legal name, TIN, VAT number (if applicable), logo, full address, contact email, and phone number. Invoicemonk shows your completion percentage and highlights missing fields.' },
     ],
