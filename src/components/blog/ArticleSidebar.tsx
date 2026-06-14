@@ -19,7 +19,7 @@ interface ArticleSidebarProps {
   clusterPosts?: BlogPost[];
 }
 
-const APP_SIGNUP = 'https://app.invoicemonk.com/signup';
+const APP_SIGNUP = 'https://app.invoicemonk.com/signup?plan=professional';
 const APP_LOGIN = 'https://app.invoicemonk.com/login';
 
 export function ArticleSidebar({ post, pillar, clusterPosts = [] }: ArticleSidebarProps) {
