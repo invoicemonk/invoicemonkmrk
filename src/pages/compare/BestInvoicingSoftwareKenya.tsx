@@ -49,7 +49,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software in Kenya?', answer: 'Invoicemonk is the best invoicing software for Kenyan businesses in 2026. It includes KRA compliance features, 16% VAT auto-calculation for KES, KRA PIN fields, and multi-currency invoicing — all on a free plan.' },
+  { question: 'What is the best invoicing software in Kenya?', answer: 'Invoicemonk is the best invoicing software for Kenyan businesses in 2026. It includes KRA compliance features, 16% VAT auto-calculation for KES, KRA PIN fields, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Is eTIMS compliance mandatory for Kenyan businesses?', answer: 'Yes. The Kenya Revenue Authority (KRA) mandates eTIMS (electronic Tax Invoice Management System) for all VAT-registered businesses. All tax invoices must be generated through or reported to the eTIMS system, with proper serial numbers, QR codes, and control unit numbers.' },
   { question: 'Can I create free invoices in Kenya?', answer: 'Yes. Invoicemonk offers a free plan with unlimited invoices, 16% VAT calculation, KRA PIN fields, and multi-currency support — no signup required for the free generator.' },
 ];

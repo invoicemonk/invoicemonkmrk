@@ -49,7 +49,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Malaysia?', answer: 'Invoicemonk is among the best invoicing tools for Malaysian businesses in 2026. It includes MyInvois-ready fields, SST support, TIN fields, MYR formatting, and multi-currency invoicing — all on a free plan.' },
+  { question: 'What is the best invoicing software for Malaysia?', answer: 'Invoicemonk is among the best invoicing tools for Malaysian businesses in 2026. It includes MyInvois-ready fields, SST support, TIN fields, MYR formatting, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Is MyInvois e-invoicing mandatory in Malaysia?', answer: 'Yes. LHDN\'s MyInvois e-invoicing is being rolled out in phases. Businesses with RM100M+ annual turnover were mandated from August 2024. All remaining businesses must comply by July 2025. The system requires electronic submission of invoices to LHDN for validation.' },
   { question: 'What is SST and how does it affect invoicing?', answer: 'SST (Sales and Service Tax) replaced GST in Malaysia in 2018. Sales Tax is 5-10% on manufactured goods, and Service Tax is 8% on prescribed services. Your invoicing software should correctly apply SST rates and include your SST registration number on invoices.' },
 ];

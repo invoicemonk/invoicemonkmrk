@@ -1155,7 +1155,7 @@ function generateTaxMistakesPost(c: CountryConfig): BlogPost {
       <p><strong>Fix:</strong> Use <a href="/blog/tax-compliant-invoice-${c.code}">compliant invoice templates</a> that include all ${c.authority}-required fields automatically.</p>
 
       <h2>Stay Compliant with Invoicemonk</h2>
-      <p><a href="/freelancers">Invoicemonk</a> helps ${c.demonym} freelancers avoid all seven mistakes — with automatic ${c.taxType} calculations, expense tracking, compliant invoicing, and filing reminders. <a href="/invoicing">Start free →</a></p>
+      <p><a href="/freelancers">Invoicemonk</a> helps ${c.demonym} freelancers avoid all seven mistakes — with automatic ${c.taxType} calculations, expense tracking, compliant invoicing, and filing reminders. <a href="/invoicing">Get started →</a></p>
     `,
   };
 }

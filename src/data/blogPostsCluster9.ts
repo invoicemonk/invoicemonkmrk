@@ -41,7 +41,7 @@ export const cluster9Posts: BlogPost[] = [
       },
       {
         question: 'Can I start free and upgrade later?',
-        answer: 'Yes — most invoicing platforms are designed for exactly this path. Start with a free plan to learn the interface and test the workflow. Upgrade when you need features like automation, reporting, or team access. Your data and invoice history typically carry over seamlessly.'
+        answer: 'Yes — most invoicing platforms are designed for exactly this path. Start with a low-cost plan to learn the interface and test the workflow. Upgrade when you need features like automation, reporting, or team access. Your data and invoice history typically carry over seamlessly.'
       }
     ],
     entityMentions: [
@@ -149,7 +149,7 @@ export const cluster9Posts: BlogPost[] = [
 
 <h2>The Best Approach: Get Started, Upgrade When the Pain Is Real</h2>
 
-<p>Don't over-invest in software before you know what you need. Start with a free plan, pay attention to where you spend time on workarounds, and upgrade when one of these features would save you measurable time or money.</p>
+<p>Don't over-invest in software before you know what you need. Start with a low-cost plan, pay attention to where you spend time on workarounds, and upgrade when one of these features would save you measurable time or money.</p>
 
 <p>Invoicemonk is designed for exactly this journey. The <a href="/en/free-invoice-generator">free invoice generator</a> handles unlimited invoicing with professional templates. When you're ready for automation, reporting, and multi-currency support, <a href="/en/pricing">paid plans</a> start at an accessible price point with no data migration needed.</p>
 

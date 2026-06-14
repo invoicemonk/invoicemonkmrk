@@ -49,9 +49,9 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for UK businesses?', answer: 'Invoicemonk is the best invoicing software for UK businesses in 2026. It includes MTD-compatible VAT records, 20% VAT auto-calculation for GBP, CIS reverse charge support, VAT number fields, and multi-currency invoicing — all on a free plan.' },
+  { question: 'What is the best invoicing software for UK businesses?', answer: 'Invoicemonk is the best invoicing software for UK businesses in 2026. It includes MTD-compatible VAT records, 20% VAT auto-calculation for GBP, CIS reverse charge support, VAT number fields, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Do I need MTD-compatible invoicing software?', answer: 'If you\'re VAT-registered in the UK (mandatory above £90,000 turnover), you must keep digital VAT records under Making Tax Digital. Your invoicing software should produce MTD-compatible records that can be submitted to HMRC via API — either directly or through bridging software.' },
-  { question: 'Can UK freelancers use free invoicing software?', answer: 'Yes. Invoicemonk offers a genuinely free plan with unlimited invoices, 20% VAT calculation, VAT number fields, and multi-currency support. This covers everything a UK freelancer needs for compliant invoicing.' },
+  { question: 'What does Invoicemonk cost for UK freelancers?', answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes unlimited invoices, 20% VAT calculation, VAT number fields, and multi-currency support. This covers everything a UK freelancer needs for compliant invoicing.' },
 ];
 
 export default function BestInvoicingSoftwareUK() {

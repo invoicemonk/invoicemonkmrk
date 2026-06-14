@@ -49,7 +49,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for Saudi Arabia?', answer: 'Invoicemonk is among the best invoicing tools for Saudi businesses in 2026. It includes ZATCA Fatoorah-compliant fields, 15% VAT auto-calculation for SAR, QR code generation, and multi-currency invoicing — all on a free plan.' },
+  { question: 'What is the best invoicing software for Saudi Arabia?', answer: 'Invoicemonk is among the best invoicing tools for Saudi businesses in 2026. It includes ZATCA Fatoorah-compliant fields, 15% VAT auto-calculation for SAR, QR code generation, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Is ZATCA e-invoicing mandatory in Saudi Arabia?', answer: 'Yes. ZATCA e-invoicing (Fatoorah) Phase 1 (generation) has been mandatory since December 2021. Phase 2 (integration) is rolling out in waves — businesses receive notification from ZATCA at least 6 months before their compliance deadline.' },
   { question: 'What are the ZATCA QR code requirements?', answer: 'ZATCA-compliant QR codes must contain five fields: seller name, VAT registration number, invoice timestamp, invoice total (with VAT), and VAT amount. For Phase 2, the QR code must also include a cryptographic stamp (CSID) from ZATCA\'s systems.' },
 ];

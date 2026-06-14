@@ -11,7 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 const faqs = [
   { question: 'Why is Wave not ideal for Australian businesses?', answer: 'Wave\'s payment processing doesn\'t work in Australia, there are no ATO compliance features, no ABN fields, and no 10% GST defaults for AUD. Australian businesses need invoicing software with local tax compliance built in.' },
   { question: 'What is the best Wave alternative for Australia?', answer: 'Invoicemonk is the best free Wave alternative for Australian businesses. It matches Wave\'s free pricing while adding ATO-compliant fields (ABN, GST at 10%), Peppol e-invoicing support, and multi-currency for international clients.' },
-  { question: 'Is Invoicemonk free for Australian businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 10% GST calculation, ABN fields, multi-currency support, and expense tracking. No credit card or signup required for the free invoice generator.' },
+  { question: 'How does Invoicemonk price compare for Australian businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 10% GST calculation, ABN fields, multi-currency support, and expense tracking. Pro starts at $15/month with unlimited invoices and cancel anytime.' },
 ];
 
 export default function WaveAlternativeAustralia() {

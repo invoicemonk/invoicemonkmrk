@@ -6483,7 +6483,7 @@ export const blogPosts: BlogPost[] = [
       <div style="background:#fef2f2;border-left:4px solid #dc2626;padding:20px 24px;margin:32px 0;border-radius:8px;">
         <p style="margin:0 0 12px 0;font-weight:700;font-size:1.05rem;">Forecast your freelance income with Invoicemonk</p>
         <p style="margin:0 0 16px 0;color:#475569;">Stop guessing your DSO. Invoicemonk tracks every invoice from sent → viewed → paid, so the inflow column of your forecast is real data instead of optimism. Recurring invoices, reminders and payment tracking — all in one place.</p>
-        <a href="/en/free-invoice-generator" style="display:inline-block;background:#dc2626;color:white;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Start free →</a>
+        <a href="/en/free-invoice-generator" style="display:inline-block;background:#dc2626;color:white;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Get started →</a>
       </div>
 
       <h2>Start Today</h2>
