@@ -16,7 +16,6 @@ import { useTranslation } from 'react-i18next';
 const faqKeys = ['freeTier', 'upgradeDowngrade', 'paymentMethods', 'security'] as const;
 
 const planIcons: Record<string, React.ReactNode> = {
-  free: <Zap className="w-5 h-5" />,
   professional: <Shield className="w-5 h-5" />,
   sme: <Building2 className="w-5 h-5" />,
   business: <Briefcase className="w-5 h-5" />,
