@@ -150,7 +150,7 @@ export function WaveProductTabs() {
                         className="rounded-full px-8 h-12 bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
                       >
                         <a href="https://app.invoicemonk.com/signup?plan=professional">
-                          {t('products.startFree')}
+                          {t('products.getStarted')}
                           <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                         </a>
                       </Button>

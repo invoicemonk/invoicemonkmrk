@@ -89,7 +89,6 @@ export const enKE: LocaleConfig = {
     socialProofHeadline: "Loved by Kenyan businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enKE: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "ke",
   dateFormat: "DD/MM/YYYY",

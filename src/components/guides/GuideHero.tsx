@@ -63,7 +63,7 @@ export function GuideHero({ pillar }: GuideHeroProps) {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button asChild size="lg" className="rounded-full">
               <Link to={pillar.targetProduct}>
-                Try {pillar.title.split(' ')[0]} Free
+                Get started with Invoicemonk
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

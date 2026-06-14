@@ -89,7 +89,6 @@ export const enPH: LocaleConfig = {
     socialProofHeadline: "Loved by Philippine businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enPH: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "ph",
   dateFormat: "MM/DD/YYYY",

@@ -11,7 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 const faqs = [
   { question: 'Why is Wave not ideal for South African businesses?', answer: 'Wave\'s payment processing doesn\'t work in South Africa, there are no SARS compliance features, no tax reference number fields, and no 15% VAT defaults for ZAR. South African businesses need invoicing software with local tax compliance built in.' },
   { question: 'What is the best Wave alternative for South Africa?', answer: 'Invoicemonk is the best free Wave alternative for South African businesses. It matches Wave\'s free pricing while adding SARS-compliant fields, 15% VAT auto-calculation, tax reference numbers, and multi-currency support for international clients.' },
-  { question: 'How does Invoicemonk price compare for South African businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 15% VAT calculation, tax reference number fields, multi-currency support, and expense tracking. Pro starts at $15/month with unlimited invoices and cancel anytime.' },
+  { question: 'How does Invoicemonk price compare for South African businesses?', answer: 'Invoicemonk Pro starts at $15/month with unlimited invoices, 15% VAT calculation, tax reference number fields, multi-currency support, and expense tracking. Cancel anytime.' },
 ];
 
 export default function WaveAlternativeSouthAfrica() {
@@ -80,7 +80,7 @@ export default function WaveAlternativeSouthAfrica() {
                 </div>
               </div>
               <Button className="w-full sm:w-auto" asChild>
-                <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator South Africa<ArrowRight className="ml-2 w-4 h-4" /></a>
+                <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
               </Button>
             </CardContent>
           </Card>
@@ -112,7 +112,7 @@ export default function WaveAlternativeSouthAfrica() {
           <h2 className="text-heading-lg font-bold text-white mb-4">SARS-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Switch from Wave to Invoicemonk. Same free price, but with VAT 15%, SARS fields, and ZAR support.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

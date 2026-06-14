@@ -158,7 +158,7 @@
       ["Multi-currency invoicing", "Yes", "Sometimes"],
       ["Credit notes with correct VAT reversal", "Yes", "Sometimes"],
       ["Audit trail", "Complete", "Basic"],
-      ["Free plan", "Yes", "Sometimes"]
+      ["Entry price", "Pro from $15/mo", "Varies"]
     ]
   },
   "faq": {
@@ -167,7 +167,7 @@
     "items": [
       {
         "question": "How much does Invoicemonk cost?",
-        "answer": "Yes. Invoicemonk's Pro plan includes VAT-compliant invoicing with automatic reverse charge notation, sequential numbering enforcement, and country-specific mandatory fields, for every invoice, to every country. No time limit. No feature gates on compliance. Upgrade when your business grows."
+        "answer": "Invoicemonk's Pro plan starts at $15/month and includes VAT-compliant invoicing with automatic reverse charge notation, sequential numbering enforcement, and country-specific mandatory fields, for every invoice, to every country. SME is $49/month and Biz is custom. No free plan or trial — cancel anytime."
       },
       {
         "question": "How do I get started with InvoiceMonk?",
@@ -194,7 +194,7 @@
   "bottomCta": {
     "title": "Your invoices. Compliant by default. Free to start.",
     "subtitle": "Join freelancers in Europe, East Africa, and Southeast Asia who send invoices that hold up, in every country, for every client, from day one.",
-    "cta": "Create your free account",
+    "cta": "Get started",
     "smallPrint": " Pro from $15/month. Upgrade when you are ready.",
     "trust": [
       "VAT-compliant invoices",

@@ -26,7 +26,7 @@ export const termsEN: LegalPageContent = {
   <li><strong>"Content"</strong> means any data, text, images, or other materials uploaded, submitted, or transmitted through the Service.</li>
   <li><strong>"User Data"</strong> means all data, including personal data and business information, that you provide or generate through your use of the Service.</li>
   <li><strong>"Subscription"</strong> means your paid access to premium features of the Service.</li>
-  <li><strong>"Free Tier"</strong> means the limited free version of our Service.</li>
+  
 </ul>`,
     },
     {

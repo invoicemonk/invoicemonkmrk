@@ -1,11 +1,11 @@
 {
   "seo": {
     "title": "Invoicemonk vs Stripe Invoicing: Pricing, Fees & Features (2026)",
-    "description": "Compare Invoicemonk and Stripe Invoicing for small business invoicing. Stripe charges 0.4–0.5% per invoice — Invoicemonk is free. See the full feature and pricing comparison."
+    "description": "Compare Invoicemonk and Stripe Invoicing for small business invoicing. Stripe charges 0.4–0.5% per invoice — Invoicemonk Pro is a flat $15/month with no per-invoice fees. See the full feature and pricing comparison."
   },
   "hero": {
     "title": "Invoicemonk vs Stripe Invoicing",
-    "subtitle": "Stripe Invoicing charges 0.4–0.5% per paid invoice on top of payment processing fees. Invoicemonk invoicing is free. Here's the full comparison."
+    "subtitle": "Stripe Invoicing charges 0.4–0.5% per paid invoice on top of payment processing fees. Invoicemonk Pro is a flat $15/month with no per-invoice fees. Here's the full comparison."
   },
   "overview": [
     "Stripe Invoicing is an add-on to Stripe's payment processing platform. It lets you create and send invoices that your clients pay online via Stripe Checkout. It's functional, but it's designed as a billing tool for developer-led SaaS companies — not as a standalone invoicing solution for freelancers, contractors, or service businesses.",
@@ -40,7 +40,7 @@
         { "name": "Professional", "price": "Mid-range" },
         { "name": "Business", "price": "Full suite" }
       ],
-      "note": "Invoicing is free on every plan. No per-invoice fees. Payment processing fees are charged by your payment gateway — not by Invoicemonk."
+      "note": "No per-invoice fees on any Invoicemonk plan. Payment processing fees are charged by your payment gateway — not by Invoicemonk."
     },
     "competitor": {
       "title": "Stripe Invoicing",

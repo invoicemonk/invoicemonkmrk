@@ -194,7 +194,7 @@ export default function InvoiceTemplates() {
           <div className="text-center mt-10">
             <Button asChild size="lg">
               <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer">
-                Start Creating — Free Plan Available <ArrowRight className="ml-2 h-4 w-4" />
+                Get started <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </Button>
           </div>

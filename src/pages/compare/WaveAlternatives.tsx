@@ -50,7 +50,7 @@ const alternatives = [
 
 const faqs = [
   { question: 'Why should I switch from Wave?', answer: 'Common reasons to switch from Wave: you need multi-currency invoicing (Wave is US/Canada only for payments), you work with international clients, you want more reliable customer support, or you\'re concerned about Wave\'s future direction since the H&R Block acquisition. Invoicemonk matches Wave\'s free pricing while adding global features.' },
-  { question: "How does Invoicemonk compare to Wave on price?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, expense tracking, and basic accounting — similar to Wave. Unlike Wave, Invoicemonk also includes multi-currency support and global tax compliance — Wave's free tier is US/Canada only." },
+  { question: "How does Invoicemonk compare to Wave on price?", answer: "Invoicemonk is paid-only. Pro starts at $15/month with unlimited invoices, multi-currency invoicing, and cross-border compliance built in — features Wave's free Starter tier does not offer." },
   { question: 'Can I migrate from Wave to another tool?', answer: 'Yes. Export your Wave data (invoices, clients, expenses) as CSV files, then import them into your new tool. Invoicemonk, FreshBooks, and Zoho all support CSV imports. The migration typically takes 30-60 minutes for small businesses.' },
   { question: 'What happened to Wave after the H&R Block acquisition?', answer: 'H&R Block acquired Wave in 2019. Since then, Wave has shifted features behind paid tiers and focused more on North American small businesses. Some users report slower feature development and concerns about long-term pricing changes.' },
 ];

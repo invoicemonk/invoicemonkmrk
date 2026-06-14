@@ -220,11 +220,11 @@ export default function EInvoicingGuide() {
           <div className="mb-16">
             <h2 className="text-heading-md font-bold text-foreground mb-6">Related Tools & Resources</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link to="/free-invoice-generator">
+              <Link to="/invoicing">
                 <Card className="hover:border-primary/50 transition-colors h-full">
                   <CardContent className="p-4">
-                    <h3 className="font-semibold text-foreground mb-1">Free Invoice Generator</h3>
-                    <p className="text-sm text-muted-foreground">Create tax-compliant invoices with VAT/GST calculations — free, no signup.</p>
+                    <h3 className="font-semibold text-foreground mb-1">Invoicemonk Invoicing</h3>
+                    <p className="text-sm text-muted-foreground">Compliance-first invoicing with VAT/GST calculations on the Pro plan from $15/month.</p>
                   </CardContent>
                 </Card>
               </Link>
@@ -268,14 +268,14 @@ export default function EInvoicingGuide() {
       {/* CTA */}
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-heading-lg font-bold text-white mb-4">E-Invoicing Compliant Invoices — Free</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Create tax-compliant invoices with proper tax IDs, VAT/GST calculations, and structured data. no signup required for the generator.</p>
+          <h2 className="text-heading-lg font-bold text-white mb-4">E-Invoicing Compliant Invoices from $15/month</h2>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Create tax-compliant invoices with proper tax IDs, VAT/GST calculations, and structured data. Pro from $15/month — cancel anytime.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-              <Link to="/free-invoice-generator">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+              <a href="https://app.invoicemonk.com/signup?plan=professional&utm_source=guide&utm_medium=cta&utm_campaign=einvoicing" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-              <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Start Full Platform Free<ArrowRight className="ml-2 w-4 h-4" /></a>
+              <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">Start with Pro<ArrowRight className="ml-2 w-4 h-4" /></a>
             </Button>
           </div>
         </div>

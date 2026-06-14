@@ -11,7 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 const faqs = [
   { question: 'Why is Wave not ideal for Nigerian businesses?', answer: 'Wave\'s payment processing doesn\'t work in Nigeria, there are no FIRS compliance features, no TIN fields, and no 7.5% VAT defaults for NGN. Nigerian businesses need invoicing software with local tax compliance built in.' },
   { question: 'What is the best Wave alternative for Nigeria?', answer: 'Invoicemonk is the best Wave alternative for Nigerian businesses. It matches Wave\'s free pricing while adding FIRS e-invoicing compliance, 7.5% VAT auto-calculation, TIN fields, and multi-currency support for billing international clients.' },
-  { question: 'How does Invoicemonk price compare for Nigerian businesses?', answer: 'Yes. Invoicemonk\'s free plan includes unlimited invoices, 7.5% VAT calculation, TIN fields, multi-currency support, and expense tracking. Pro starts at $15/month with unlimited invoices and cancel anytime.' },
+  { question: 'How does Invoicemonk price compare for Nigerian businesses?', answer: 'Invoicemonk Pro starts at $15/month with unlimited invoices, 7.5% VAT calculation, TIN fields, multi-currency support, and expense tracking. Cancel anytime.' },
 ];
 
 export default function WaveAlternativeNigeria() {
@@ -99,7 +99,7 @@ export default function WaveAlternativeNigeria() {
           <h2 className="text-heading-lg font-bold text-white mb-4">Switch from Wave — Free, FIRS-Compliant</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create FIRS-ready invoices with 7.5% VAT, TIN, and multi-currency. No signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

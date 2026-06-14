@@ -76,6 +76,9 @@ import BestInvoicingSoftwareGhana from "./pages/compare/BestInvoicingSoftwareGha
 import BestInvoicingSoftwareSouthAfrica from "./pages/compare/BestInvoicingSoftwareSouthAfrica";
 import WaveAlternativeAustralia from "./pages/compare/WaveAlternativeAustralia";
 import WaveAlternativeSouthAfrica from "./pages/compare/WaveAlternativeSouthAfrica";
+import BestInvoicingSoftwareItaly from "./pages/compare/BestInvoicingSoftwareItaly";
+import BestInvoicingSoftwareFrance from "./pages/compare/BestInvoicingSoftwareFrance";
+import BestInvoicingSoftwareUSA from "./pages/compare/BestInvoicingSoftwareUSA";
 
 // Use-case pages
 import RecurringBilling from "./pages/use-cases/RecurringBilling";
@@ -163,8 +166,8 @@ const App = () => (
 
               {/* Tools */}
               <Route path="tools" element={<ToolsIndex />} />
-              {/* Retired: free invoice generator pages now redirect to signup.
-                  The app's free tier (5 invoices/month) is the marketing entry point. */}
+              {/* Retired: free invoice generator pages now redirect to the Pro signup.
+                  Invoicemonk no longer has a free tier. */}
               {[
                 "free-invoice-generator",
                 "free-invoice-generator-australia",
@@ -254,6 +257,9 @@ const App = () => (
               <Route path="compare/best-invoicing-software-south-africa" element={<BestInvoicingSoftwareSouthAfrica />} />
               <Route path="compare/wave-alternative-australia" element={<WaveAlternativeAustralia />} />
               <Route path="compare/wave-alternative-south-africa" element={<WaveAlternativeSouthAfrica />} />
+              <Route path="compare/best-invoicing-software-italy" element={<BestInvoicingSoftwareItaly />} />
+              <Route path="compare/best-invoicing-software-france" element={<BestInvoicingSoftwareFrance />} />
+              <Route path="compare/best-invoicing-software-usa" element={<BestInvoicingSoftwareUSA />} />
 
               {/* Use-case pages */}
               <Route path="use-cases/recurring-billing" element={<RecurringBilling />} />

@@ -226,8 +226,8 @@
   "summaryTable": {
     "title": "Side-by-side summary",
     "rows": [
-      { "name": "Monthly price", "invoicemonk": "Free to $49/mo", "competitor": "$31.50/mo ($25.21/mo annual)" },
-      { "name": "Free plan", "invoicemonk": "Yes, ", "competitor": "14-day trial only" },
+      { "name": "Monthly price", "invoicemonk": "Pro from $15/mo, SME $49/mo", "competitor": "$31.50/mo ($25.21/mo annual)" },
+      { "name": "Free plan or trial", "invoicemonk": "No — cancel anytime", "competitor": "14-day trial only" },
       { "name": "Primary function", "invoicemonk": "Outbound invoicing and payment collection", "competitor": "Inbound receipt and invoice capture" },
       { "name": "Send invoices to clients", "invoicemonk": true, "competitor": false },
       { "name": "Accept client payments", "invoicemonk": true, "competitor": false },

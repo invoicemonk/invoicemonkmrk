@@ -25,7 +25,7 @@ export const pageSEO: Record<string, PageSEO> = {
   },
   '/pricing': {
     getTitle: (locale) => `Pricing | Invoicemonk ${locale.content.seo.region}`,
-    getDescription: (locale) => `Invoicemonk pricing for ${locale.content.seo.region}. Pro plan from $15/mo. Free tier available.`,
+    getDescription: (locale) => `Invoicemonk pricing for ${locale.content.seo.region}. Pro from $15/mo, SME from $49/mo, Biz custom. Cancel anytime.`,
     ogType: 'website',
     priority: 0.9,
     changefreq: 'weekly',
@@ -81,7 +81,7 @@ export const pageSEO: Record<string, PageSEO> = {
   },
   '/small-businesses': {
     getTitle: (locale) => `Invoicing Software for ${locale.content.seo.targetAudience} Small Businesses | Invoicemonk`,
-    getDescription: (locale) => `Complete invoicing and accounting solution for small businesses in ${locale.content.seo.region}. Free tier available.`,
+    getDescription: (locale) => `Complete invoicing and accounting solution for small businesses in ${locale.content.seo.region}. Pro from $15/mo.`,
     ogType: 'website',
     priority: 0.8,
     changefreq: 'weekly',

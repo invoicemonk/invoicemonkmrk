@@ -89,7 +89,6 @@ export const enIN: LocaleConfig = {
     socialProofHeadline: "Loved by Indian businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enIN: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "in",
   dateFormat: "DD/MM/YYYY",

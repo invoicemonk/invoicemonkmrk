@@ -86,7 +86,7 @@
       { "question": "Does recurring billing support multiple currencies?", "answer": "Yes. Each recurring schedule can be set in any currency Invoicemonk supports." },
       { "question": "Can I set different billing frequencies for different clients?", "answer": "Each client can have their own unique recurring schedule. Bill one client weekly and another quarterly." },
       { "question": "What happens if a recurring invoice goes unpaid?", "answer": "Invoicemonk tracks the payment status of every invoice. Unpaid recurring invoices appear in your outstanding receivables and trigger automatic payment reminders." },
-      { "question": "Is there a limit to how many recurring schedules I can create?", "answer": "Free plans support up to 3 active recurring schedules. Paid plans support unlimited schedules." }
+      { "question": "Is there a limit to how many recurring schedules I can create?", "answer": "All paid plans support unlimited active recurring schedules." }
     ]
   },
   "related": {
@@ -101,6 +101,6 @@
   "cta": {
     "title": "Automate your billing today",
     "description": "Set up recurring invoices in minutes. ",
-    "button": "Get Started Free"
+    "button": "Get started"
   }
 }

@@ -36,9 +36,9 @@ export const helpGuides: HelpGuide[] = [
     category: 'getting-started',
     estimatedTime: 'PT5M',
     steps: [
-      { name: 'Create Your Account', text: 'Visit app.invoicemonk.com, click "Get Started Free", enter your details, and verify your email address.' },
+      { name: 'Create Your Account', text: 'Visit app.invoicemonk.com, click "Get started", enter your details, and verify your email address.' },
       { name: 'Set Up Your Business Profile', text: 'Enter your business name, legal name, country, TIN, logo, address, and VAT details if applicable.' },
-      { name: 'Choose Your Plan', text: 'Start with the free Starter plan or upgrade to Starter Paid, Professional, or Business for more features.' },
+      { name: 'Choose Your Plan', text: 'Pick the plan that fits your business: Pro ($15/month), SME ($49/month), or Biz (custom pricing).' },
       { name: 'Set Up Payment Methods', text: 'Add your bank account or mobile money details so clients know how to pay you.' },
     ],
     relatedGuides: ['managing-clients', 'creating-invoices', 'business-settings'],
@@ -50,7 +50,7 @@ export const helpGuides: HelpGuide[] = [
     ],
     content: `
       <h2>Step 1: Create Your Account</h2>
-      <p>Getting started with Invoicemonk takes less than two minutes. Visit <a href="https://app.invoicemonk.com" target="_blank" rel="noopener noreferrer">app.invoicemonk.com</a> and click <strong>"Get Started Free"</strong>.</p>
+      <p>Getting started with Invoicemonk takes less than two minutes. Visit <a href="https://app.invoicemonk.com" target="_blank" rel="noopener noreferrer">app.invoicemonk.com</a> and click <strong>"Get started"</strong>.</p>
       <ul>
         <li>Enter your full name, email address, and a secure password</li>
         <li>Verify your email address by clicking the link sent to your inbox</li>

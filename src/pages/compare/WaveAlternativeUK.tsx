@@ -65,7 +65,7 @@ export default function WaveAlternativeUK() {
 
           <div className="mt-12 text-center">
             <Button size="lg" asChild>
-              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Invoicemonk Free<ArrowRight className="ml-2 w-4 h-4" /></a>
+              <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
             </Button>
           </div>
 
@@ -96,7 +96,7 @@ export default function WaveAlternativeUK() {
           <h2 className="text-heading-lg font-bold text-white mb-4">Switch from Wave — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Get MTD-ready invoicing with UK VAT, CIS support, and multi-currency. No signup required for the free generator.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

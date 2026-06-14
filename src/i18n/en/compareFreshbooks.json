@@ -176,7 +176,7 @@
     "title": "How do I switch from FreshBooks to Invoicemonk?",
     "steps": [
       { "title": "Export from FreshBooks", "desc": "FreshBooks → Settings → Account & Billing → Export Data. Download clients, invoices and expenses as CSV." },
-      { "title": "Create your Invoicemonk account", "desc": "Sign up free at app.invoicemonk.com. Add business name, logo, tax ID and currency in 2–3 minutes." },
+      { "title": "Create your Invoicemonk account", "desc": "Create your account at app.invoicemonk.com. Add business name, logo, tax ID and currency in 2–3 minutes." },
       { "title": "Import clients & invoices", "desc": "Upload the CSV files. Names, emails, addresses, payment terms and historical totals map automatically." },
       { "title": "Recreate recurring schedules", "desc": "Each recurring schedule takes 2–3 minutes to rebuild — Invoicemonk supports the same cadence options as FreshBooks." },
       { "title": "Send your first compliant invoice", "desc": "Your first Invoicemonk invoice is hashed, timestamped and QR-verifiable from the moment it's sent." }
@@ -222,6 +222,6 @@
   "cta": {
     "title": "Start sending compliant cross-border invoices today",
     "description": " Set up your first compliant international invoice in under 5 minutes.",
-    "button": "Try Invoicemonk Free"
+    "button": "Get started with Invoicemonk"
   }
 }

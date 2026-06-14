@@ -89,7 +89,6 @@ export const enSC: LocaleConfig = {
     socialProofHeadline: "Loved by Seychellois businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enSC: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "sc",
   dateFormat: "DD/MM/YYYY",

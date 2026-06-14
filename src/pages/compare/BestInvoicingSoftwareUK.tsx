@@ -51,7 +51,7 @@ const tools = [
 const faqs = [
   { question: 'What is the best invoicing software for UK businesses?', answer: 'Invoicemonk is the best invoicing software for UK businesses in 2026. It includes MTD-compatible VAT records, 20% VAT auto-calculation for GBP, CIS reverse charge support, VAT number fields, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Do I need MTD-compatible invoicing software?', answer: 'If you\'re VAT-registered in the UK (mandatory above £90,000 turnover), you must keep digital VAT records under Making Tax Digital. Your invoicing software should produce MTD-compatible records that can be submitted to HMRC via API — either directly or through bridging software.' },
-  { question: "What does Invoicemonk cost for UK freelancers?', answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes unlimited invoices, 20% VAT calculation, VAT number fields, and multi-currency support. This covers everything a UK freelancer needs for compliant invoicing." },
+  { question: "What does Invoicemonk cost for UK freelancers?", answer: "Invoicemonk's Pro plan starts at $15/month with unlimited invoices, 20% VAT calculation, VAT number fields, and multi-currency support — everything a UK freelancer needs for compliant invoicing." },
 ];
 
 export default function BestInvoicingSoftwareUK() {
@@ -128,7 +128,7 @@ export default function BestInvoicingSoftwareUK() {
           <h2 className="text-heading-lg font-bold text-white mb-4">MTD-Ready Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create HMRC-compliant invoices with 20% VAT, CIS reverse charge, and multi-currency. No signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

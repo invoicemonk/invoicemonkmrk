@@ -84,12 +84,11 @@ export const enUS: LocaleConfig = {
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",
       ctaSubtext: "Join thousands of American businesses using Invoicemonk to manage their finances.",
-      ctaButtonText: "Start Your Free Trial",
+      ctaButtonText: "Get started",
     },
     socialProofHeadline: "Loved by American businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enUS: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "us",
   dateFormat: "MM/DD/YYYY",

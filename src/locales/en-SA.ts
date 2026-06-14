@@ -85,7 +85,6 @@ export const enSA: LocaleConfig = {
     socialProofHeadline: "Loved by Saudi businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -93,7 +92,6 @@ export const enSA: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "sa",
   dateFormat: "DD/MM/YYYY",

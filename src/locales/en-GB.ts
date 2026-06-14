@@ -84,12 +84,11 @@ export const enGB: LocaleConfig = {
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",
       ctaSubtext: "Join thousands of UK businesses using Invoicemonk to stay HMRC-compliant.",
-      ctaButtonText: "Start Your Free Trial",
+      ctaButtonText: "Get started",
     },
     socialProofHeadline: "Loved by UK businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enGB: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "uk",
   dateFormat: "DD/MM/YYYY",

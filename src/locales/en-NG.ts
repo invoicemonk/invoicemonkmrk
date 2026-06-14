@@ -89,7 +89,6 @@ export const enNG: LocaleConfig = {
     socialProofHeadline: "Loved by Nigerian businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enNG: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "ng",
   dateFormat: "DD/MM/YYYY",

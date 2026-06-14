@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Multi-currency invoicing for international freelancers",
-    "description": "Invoice clients in EUR, GBP, USD, or any currency — with VAT-compliant invoices that meet German, French, Dutch, and EU requirements. Try free."
+    "description": "Invoice clients in EUR, GBP, USD, or any currency — with VAT-compliant invoices that meet German, French, Dutch, and EU requirements. Pro from $15/month."
   },
   "hero": {
     "badge": "Multi-currency + compliant",
@@ -78,8 +78,8 @@
   },
   "finalCta": {
     "title": "Ready to invoice internationally without the stress?",
-    "description": "Join freelancers in Europe, North America, and Asia-Pacific who use Invoicemonk to send compliant invoices in any currency — free to start, ",
-    "button": "Create your free account",
-    "note": " Pro from $15/month."
+    "description": "Join freelancers in Europe, North America, and Asia-Pacific who use Invoicemonk to send compliant invoices in any currency.",
+    "button": "Get started",
+    "note": "Pro from $15/month. Cancel anytime."
   }
 }

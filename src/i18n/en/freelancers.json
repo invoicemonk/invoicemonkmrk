@@ -8,7 +8,7 @@
     "title": "Invoice clients anywhere. Get paid without the compliance stress.",
     "accentWord": "without the compliance stress",
     "description": "Your German client needs a Leistungsdatum. Your Dutch client needs a BTW-ID. Your French client needs a SIRET number and a specific TVA phrase. Your Kenyan client needs a KRA PIN and reverse charge wording. InvoiceMonk knows what each country requires — and builds it into your invoice automatically.",
-    "ctaPrimary": "Create your free account",
+    "ctaPrimary": "Get started",
     "ctaSecondary": "See how it works",
     "trustBadge": "Trusted by freelancers billing clients in 30+ countries. Free to start — "
   },
@@ -67,10 +67,10 @@
     "context": "Rico invoices international clients across Europe. He found InvoiceMonk through a Google search, chose it over the alternatives, and renewed his subscription specifically for sequential numbering enforcement and correct VAT handling on cross-border EU invoices."
   },
   "pricing": {
-    "title": "Free to start. Built to grow with you.",
+    "title": "Simple pricing. Built to grow with you.",
     "description": "Invoicemonk's Pro plan includes VAT-compliant invoicing, sequential numbering enforcement, reverse charge notation, and country-specific mandatory fields — for every invoice you send, to every country you work in.",
-    "highlight": "No credit card. No time limit. No feature gates on compliance.",
-    "cta": "Create your free account",
+    "highlight": "Pro from $15/month. No feature gates on compliance.",
+    "cta": "Get started",
     "fineprint": " Cancel any time."
   },
   "faq": {
@@ -87,7 +87,7 @@
   "bottomCta": {
     "title": "Ready to send invoices your clients can actually use?",
     "subtitle": "Join freelancers in Europe, East Africa, and Southeast Asia who use InvoiceMonk to invoice internationally — with the right compliance fields built in from the start.",
-    "button": "Create your free account",
+    "button": "Get started",
     "fineprint": "Pro from $15/month.  Upgrade when you are ready.",
     "trustSignals": [
       "VAT-compliant invoices",

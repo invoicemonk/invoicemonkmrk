@@ -149,62 +149,40 @@ Manage client relationships and billing.
 
 ## Pricing — Detailed Breakdown
 
-### Free Plan (All Regions)
-- unlimited invoices and receipts
-- 1 currency account
-- 1 payment method per currency
-- Accounting and expense tracking
-- Credit notes
-- Invoice verification portal
-- Invoicemonk watermark on PDFs
+Invoicemonk is paid-only. No free plan or free trial. Three plans available globally.
 
-### Professional Plan (All Regions — Recommended)
-- **United States**: $5/month ($48/year)
-- **United Kingdom**: £4/month (£38.40/year)
-- **Germany**: €5/month (€48/year)
-- **France**: €5/month (€48/year)
-- **Spain**: €5/month (€48/year)
-- **Canada**: C$7/month (C$67.20/year)
-- **Australia**: A$8/month (A$76.80/year)
-- **Nigeria**: ₦4,000/month (₦40,000/year)
-- **Brazil, India, Philippines, New Zealand, Ghana, Kenya, South Africa, Zimbabwe, Seychelles**: Contact for pricing
+### Pro Plan (Recommended — All Regions)
+- **Global**: $15/month ($150/year — about 17% off annual)
 - Unlimited invoices and receipts
+- Unlimited clients
 - Unlimited currency accounts
-- Unlimited payment methods
 - Up to 5 team members
-- Full audit trail and data exports
-- Custom branding and premium templates
-- No watermark on PDFs
-
-### Starter Plan (Nigeria Only)
-- **Price**: ₦2,000/month (₦20,000/year — 2 months free)
-- Unlimited invoices and receipts
-- 3 currency accounts
-- 2 payment methods per currency
-- Accounting and expense tracking
+- Watermark-free PDFs
+- Accounting module and expense tracking
 - Credit notes
+- Full audit trail and data exports
+- Custom branding
 - In-app support
-- Invoicemonk watermark on PDFs
 
-### Business Plan (All Regions)
-- **United States**: $19/month ($182.40/year)
-- **United Kingdom**: £12/month (£115.20/year)
-- **Germany**: €15/month (€144/year)
-- **France**: €15/month (€144/year)
-- **Spain**: €15/month (€144/year)
-- **Canada**: C$20/month (C$192/year)
-- **Australia**: A$29/month (A$278.40/year)
-- **Nigeria**: ₦8,000/month (₦80,000/year)
-- **Brazil, India, Philippines, New Zealand, Ghana, Kenya, South Africa, Zimbabwe, Seychelles**: Contact for pricing
-- Everything in Professional
+### SME Plan (All Regions)
+- **Global**: $49/month ($490/year — about 17% off annual)
+- Everything in Pro
+- Unlimited clients
 - Unlimited team members
-- API access
+- Online payment
 - Advanced reports
-- Enterprise-grade support
+- Premium templates
 
-**Annual Billing Discounts:**
-- All regions: 20% off monthly price
-- Nigeria: Pay for 10 months, get 12 (2 months free)
+### Biz Plan (Custom — All Regions)
+- Custom pricing — contact sales@invoicemonk.com
+- Everything in SME
+- E-invoicing and government submission
+- Dedicated account manager
+- Custom integrations
+- SLA guarantee
+- Priority support
+
+
 
 ---
 

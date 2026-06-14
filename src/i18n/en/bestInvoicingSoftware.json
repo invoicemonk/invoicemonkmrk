@@ -329,10 +329,10 @@
     "title": "Compliance & audit trail — the angle most invoicing guides skip",
     "paragraphs": [
       "Most comparisons stop at price and templates. They rarely address what happens when a tax authority opens an audit, when a corporate client's procurement team demands a verifiable invoice, or when an e-invoicing mandate goes live in your country. That gap is exactly where small businesses get penalised — and where most tools quietly fail.",
-      "Invoicemonk is built compliance-first. Every invoice — even on the Free plan — is hashed into an immutable audit trail, carries the issuer's tax ID, and can be independently authenticated by any client via a QR-code verification portal. On the Biz plan, invoices are submitted directly to government e-invoicing networks (ZATCA in Saudi Arabia, PEPPOL in the EU, FIRS MBS in Nigeria, and more). You're audit-ready every single day — not just at year-end."
+      "Invoicemonk is built compliance-first. Every invoice — on every plan, starting with Pro at $15/month — is hashed into an immutable audit trail, carries the issuer's tax ID, and can be independently authenticated by any client via a QR-code verification portal. On the Biz plan, invoices are submitted directly to government e-invoicing networks (ZATCA in Saudi Arabia, PEPPOL in the EU, FIRS MBS in Nigeria, and more). You're audit-ready every single day — not just at year-end."
     ],
     "benefits": [
-      "Immutable audit trail with timestamped revision history on every plan (including Free)",
+      "Immutable audit trail with timestamped revision history on every plan",
       "QR-verified invoice portal — clients and tax authorities can independently authenticate any document",
       "Automatic inclusion of tax IDs and country-specific fields (HMRC MTD, IRS, CRA, ATO, ZATCA, FIRS)",
       "E-invoicing & direct government submission on the Biz plan (ZATCA, PEPPOL, FIRS MBS & more)",
@@ -384,7 +384,7 @@
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "What is the best free invoicing software in 2026?", "answer": "Invoicemonk and Wave both offer free invoicing. Invoicemonk works globally with multi-currency support, built-in accounting, and credit notes on the Pro plan. Wave is limited to the US and Canada and lacks multi-currency and credit note features. For global businesses, Invoicemonk is the best free option." },
+      { "question": "What is the best free invoicing software in 2026?", "answer": "Wave and Zoho Invoice are the leading genuinely free options. Wave is limited to the US and Canada; Zoho Invoice caps usage at 500 invoices and 3 projects per year. If you need cross-border compliance, multi-currency, and a full audit trail, Invoicemonk Pro at $15/month is the best paid alternative — there is no Invoicemonk free plan." },
       { "question": "What invoicing software is best for freelancers?", "answer": "Invoicemonk is our top pick for freelancers due to its Pro plan, multi-currency invoicing, automatic payment reminders, and tax-compliant records. It's designed for the workflows freelancers actually use without the complexity of enterprise accounting features." },
       { "question": "What invoicing software is best for agencies?", "answer": "FreshBooks Premium is our pick for agencies that bill hourly in North America, thanks to its timer and project-profitability reports. For international agencies, Invoicemonk Business is better — multi-currency, role-based team access, and audit trails." },
       { "question": "Which is the cheapest invoicing software?", "answer": "Wave and Invoicemonk both offer genuinely Pro plans. For paid plans with full team access and unlimited invoices, Invoicemonk Pro ($15/mo for up to 5 users) is significantly cheaper than QuickBooks Essentials ($60/mo for 3 users). FreshBooks Lite is $19/mo but caps you at 5 clients and 1 user. The real cost question isn't sticker price — it's whether the tool keeps you compliant." },
@@ -394,7 +394,7 @@
       { "question": "Is Wave still free in 2026?", "answer": "Yes, Wave's Starter plan remains free, but only for users in the United States and Canada. Wave Pro ($16/mo) adds bank feeds and automated reminders. Wave doesn't offer multi-currency invoicing on any plan." },
       { "question": "How did you rank these invoicing tools?", "answer": "We scored each tool 0–10 on six weighted criteria: pricing & value (20%), core features (20%), international support (15%), ease of setup (15%), accounting depth (15%), and compliance & trust (15%). Final scores reflect a weighted average. Re-tested April 2026." },
       { "question": "Can I switch between invoicing platforms easily?", "answer": "Yes. Most platforms support CSV export for clients and invoices. You can export from one tool and import into another. Migrations typically take 30–60 minutes; FreshBooks and QuickBooks offer paid white-glove migration services." },
-      { "question": "How do I switch from Wave to Invoicemonk?", "answer": "Export your client list and invoice history from Wave as CSV, sign up free at Invoicemonk, and use the bulk-import tool in the dashboard. Most users complete migration in under an hour. Multi-currency clients (which Wave couldn't handle) can be re-billed correctly going forward." },
+      { "question": "How do I switch from Wave to Invoicemonk?", "answer": "Export your client list and invoice history from Wave as CSV, create your Invoicemonk account, and use the bulk-import tool in the dashboard. Most users complete migration in under an hour. Multi-currency clients (which Wave couldn't handle) can be re-billed correctly going forward." },
       { "question": "Does invoicing software handle taxes?", "answer": "Most invoicing tools auto-calculate VAT/GST/sales tax per line item and include your tax ID on every invoice. They do NOT file taxes for you. For tax filing, pair your invoicing tool with a tax-prep service or accountant." },
       { "question": "Is it worth paying for invoicing software?", "answer": "Pro plans from Invoicemonk and Wave cover basic workflows well — and Invoicemonk's Pro plan ships with the same audit-trail and QR-verification backbone as its paid plans. Paid plans are worth it when you need unlimited invoicing, team access, advanced reporting, online payments, or e-invoicing/government submission. If your software saves 2+ hours/month or prevents a single compliance penalty, even a $15–$49 monthly fee pays for itself." },
       { "question": "What's the best invoicing software for a one-person business?", "answer": "Invoicemonk Free if you bill internationally or want compliance built-in. Wave if you're US/Canada-only and bill in USD/CAD. Both are genuinely free with " }
@@ -413,9 +413,9 @@
     ]
   },
   "cta": {
-    "title": "Try the #1 pick for free",
+    "title": "Get started with the #1 pick",
     "description": "Start with Invoicemonk's Pro plan —  Send your first invoice in minutes.",
-    "button": "Get Started Free"
+    "button": "Get started"
   },
   "ourPick": "Our Pick",
   "bestForLabel": "Best for:",

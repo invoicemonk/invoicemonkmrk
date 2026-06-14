@@ -90,7 +90,7 @@ const tableRows = [
   { tool: 'Wave', cost: 'Free', invoices: 'Unlimited', clients: 'Unlimited', intl: 'US & Canada only', currency: 'Limited', xborder: 'US & Canada only', compliance: 'No', branding: 'None' },
   { tool: 'PayPal Invoicing', cost: 'Free*', invoices: 'Unlimited', clients: 'Unlimited', intl: '200+ countries', currency: 'Yes (25)', xborder: 'PayPal only', compliance: 'No', branding: 'Minimal' },
   { tool: 'Stripe Invoicing', cost: 'Free + 0.4%/invoice', invoices: 'Unlimited', clients: 'Unlimited', intl: '46 countries only', currency: 'Yes', xborder: 'Yes', compliance: 'No', branding: 'None' },
-  { tool: 'Invoicemonk', cost: 'Free plan; Pro from $15/mo', invoices: 'Unlimited (Pro)', clients: 'Unlimited (Pro)', intl: 'All countries', currency: 'Yes', xborder: 'Yes', compliance: 'Yes', branding: 'None' },
+  { tool: 'Invoicemonk', cost: 'Pro from $15/mo', invoices: 'Unlimited', clients: 'Unlimited', intl: 'All countries', currency: 'Yes', xborder: 'Yes', compliance: 'Yes', branding: 'None' },
 ];
 
 const sources = [
@@ -277,14 +277,13 @@ export default function BestFreeInvoicingSoftware() {
               <Card className="border-primary/40 bg-primary/5">
                 <CardContent className="p-5">
                   <h3 className="font-bold text-foreground mb-2">Invoicemonk</h3>
-                  <p className="text-sm text-muted-foreground mb-3">Purpose-built for cross-border freelance invoicing — compliance-first invoice generation, multi-currency, automatic payment reminders, and payment tracking included.</p>
+                  <p className="text-sm text-muted-foreground mb-3">Purpose-built for cross-border freelance invoicing — compliance-first invoice generation, multi-currency, automatic payment reminders, and payment tracking included. Invoicemonk is paid-only; no free tier.</p>
                   <ul className="text-sm text-muted-foreground space-y-1.5">
-                    <li><strong className="text-foreground">Starter — Free forever:</strong> 5 invoices/month, 5 clients, 1 currency account, watermark-free PDFs, accounting & expense tracking.</li>
                     <li><strong className="text-foreground">Pro — $15/mo:</strong> Unlimited invoices, unlimited clients, unlimited currency accounts, up to 5 team members, custom branding, full audit trail, data exports.</li>
                     <li><strong className="text-foreground">SME — $49/mo:</strong> Everything in Pro + online payments, advanced reports, premium templates, unlimited team.</li>
                     <li><strong className="text-foreground">Biz — Custom:</strong> E-invoicing & government submission, dedicated account manager, SLA guarantee.</li>
                   </ul>
-                  <p className="text-xs text-muted-foreground mt-3"> The Free plan is permanent — there is no expiring trial. <Link to="/pricing" className="text-primary hover:underline">See full pricing</Link>.</p>
+                  <p className="text-xs text-muted-foreground mt-3">No free plan or trial. Cancel anytime. <Link to="/pricing" className="text-primary hover:underline">See full pricing</Link>.</p>
                 </CardContent>
               </Card>
             </div>
@@ -357,8 +356,8 @@ export default function BestFreeInvoicingSoftware() {
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-heading-lg font-bold text-white mb-4">Send compliant cross-border invoices — free to start</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Multi-currency, country-specific compliance, automatic reminders. The Free plan is permanent — </p>
+          <h2 className="text-heading-lg font-bold text-white mb-4">Send compliant cross-border invoices from $15/month</h2>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Multi-currency, country-specific compliance, automatic reminders. Pro from $15/month — cancel anytime.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
               <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=best_free_invoicing" target="_blank" rel="noopener noreferrer">Try Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>

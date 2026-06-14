@@ -85,7 +85,6 @@ export const enMY: LocaleConfig = {
     socialProofHeadline: "Loved by Malaysian businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -93,7 +92,6 @@ export const enMY: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "my",
   dateFormat: "DD/MM/YYYY",

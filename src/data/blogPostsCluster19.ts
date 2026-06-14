@@ -2234,7 +2234,7 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-05-06',
     lastAudited: '2026-05-06',
     readTime: '12 min read',
-    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImage: '/images/blog/invoicing-polish-clients-foreign-freelancer.jpg',
     featuredImageAlt: 'Invoicing Polish clients as a foreign freelancer — NIP, KSeF, and reverse charge',
     pillarContent: false,
     clusterType: 'cluster',
@@ -2427,7 +2427,7 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-05-07',
     lastAudited: '2026-05-07',
     readTime: '13 min read',
-    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImage: '/images/blog/invoicing-kenyan-clients-foreign-freelancer.jpg',
     featuredImageAlt: 'Foreign freelancer invoicing a Kenyan business client with KRA PIN and reverse charge wording',
     pillarContent: false,
     clusterType: 'cluster',
@@ -2600,7 +2600,7 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-05-07',
     lastAudited: '2026-05-07',
     readTime: '12 min read',
-    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImage: '/images/blog/bir-invoice-requirements-freelancers-philippines.jpg',
     featuredImageAlt: 'Filipino freelancer issuing a BIR-compliant Sales Invoice with TIN and VAT status statement',
     pillarContent: false,
     clusterType: 'cluster',
@@ -2788,7 +2788,7 @@ export const cluster19Posts: BlogPost[] = [
     date: '2026-05-07',
     dateModified: '2026-05-07',
     readTime: '12 min read',
-    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImage: '/images/blog/invoicemonk-vs-wave.jpg',
     featuredImageAlt: 'InvoiceMonk vs Wave comparison for international freelancers',
     targetProduct: '/invoicing',
     priority: 'P1',
@@ -2889,8 +2889,8 @@ export const cluster19Posts: BlogPost[] = [
           </tr>
         </thead>
         <tbody>
-          <tr><td>Free plan</td><td>No (Pro from $15/mo)</td><td>Yes</td></tr>
-          <tr><td>Paid plan starting price</td><td>$19 / month (Pro)</td><td>Coming soon</td></tr>
+          <tr><td>Free plan</td><td>Yes</td><td>No (Pro from $15/mo)</td></tr>
+          <tr><td>Paid plan starting price</td><td>Wave Pro $19/month</td><td>Pro $15/month</td></tr>
           <tr><td>Unlimited invoices</td><td>Yes</td><td>Yes</td></tr>
           <tr><td>EU VAT reverse charge wording</td><td>Manual notes field</td><td>Prompted automatically</td></tr>
           <tr><td>Sequential numbering enforcement</td><td>Free text</td><td>Enforced, voids stay in sequence</td></tr>
@@ -2956,7 +2956,7 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-05-07',
     lastAudited: '2026-05-07',
     readTime: '14 min read',
-    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
+    featuredImage: '/images/blog/vat-invoice-checklist-by-country.jpg',
     featuredImageAlt: 'Country-by-country VAT-compliant invoice checklist for freelancers in 2026',
     clusterType: 'pillar',
     targetProduct: '/compliance',

@@ -84,12 +84,11 @@ export const enAU: LocaleConfig = {
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",
       ctaSubtext: "Join thousands of Australian businesses using Invoicemonk to stay ATO-compliant.",
-      ctaButtonText: "Start Your Free Trial",
+      ctaButtonText: "Get started",
     },
     socialProofHeadline: "Loved by Australian businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enAU: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "au",
   dateFormat: "DD/MM/YYYY",

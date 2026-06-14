@@ -51,7 +51,7 @@ const tools = [
 const faqs = [
   { question: 'What is the best invoicing software in India?', answer: 'Invoicemonk is the best invoicing software for Indian businesses in 2026, offering GST compliance with CGST/SGST/IGST auto-calculation, GSTIN fields, HSN/SAC code support, and multi-currency invoicing — all from $15/month on the Pro plan. Vyapar is best for inventory-heavy businesses, and ClearTax for tax-filing-focused workflows.' },
   { question: 'Do I need GST-compliant invoicing software?', answer: 'Yes, if you\'re GST-registered. All GST invoices must include GSTIN, HSN/SAC codes, correct CGST/SGST/IGST split, and other mandatory fields. Using compliant software ensures accuracy and makes GSTR-1 filing easier.' },
-  { question: "What's the best invoicing software for India?", answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes GST-compliant invoicing, GSTIN fields, HSN/SAC code support, and CGST/SGST/IGST calculations. Zoho Invoice also has a Pro plan but limits you to 5 customers.' },
+  { question: "What's the best invoicing software for India?", answer: "Invoicemonk's Pro plan ($15/month) includes GST-compliant invoicing, GSTIN fields, HSN/SAC code support, and CGST/SGST/IGST calculations. Zoho Invoice also has a Pro plan but limits you to 5 customers." },
 ];
 
 export default function BestInvoicingSoftwareIndia() {
@@ -128,7 +128,7 @@ export default function BestInvoicingSoftwareIndia() {
           <h2 className="text-heading-lg font-bold text-white mb-4">GST-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create GST invoices with GSTIN, HSN codes, and CGST/SGST/IGST — no signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free GST Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

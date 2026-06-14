@@ -67,8 +67,8 @@
       "answer": "Every transaction creates immutable, timestamped records with hash-based integrity verification. Complete audit trails and export-ready reports keep you prepared for any regulatory review."
     },
     "freeTrial": {
-      "question": "Can I try Invoicemonk for free?",
-      "answer": "Absolutely. Our Pro plan starts at $15/month with unlimited invoices with core features.  Upgrade to paid plans when you need unlimited invoicing and advanced features."
+      "question": "Do you offer a free trial?",
+      "answer": "Invoicemonk no longer offers a free plan or free trial. Pro starts at $15/month with unlimited invoices, clients, and core features. SME is $49/month and Biz is custom. You can cancel anytime."
     }
   }
 }

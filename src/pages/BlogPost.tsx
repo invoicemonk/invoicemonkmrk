@@ -45,6 +45,7 @@ import '@/data/blogPostsCluster16';
 import '@/data/blogPostsCluster17';
 import '@/data/blogPostsCluster18';
 import '@/data/blogPostsCluster19';
+import '@/data/blogPostsCluster20';
 
 const BlogPost = () => {
   const { slug, lang: urlLang } = useParams<{ slug: string; lang: string }>();

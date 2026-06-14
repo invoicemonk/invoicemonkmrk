@@ -37,6 +37,7 @@ import '@/data/blogPostsCluster16';
 import '@/data/blogPostsCluster17';
 import '@/data/blogPostsCluster18';
 import '@/data/blogPostsCluster19';
+import '@/data/blogPostsCluster20';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;

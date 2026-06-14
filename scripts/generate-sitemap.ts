@@ -36,6 +36,9 @@ const ENGLISH_ONLY_PATHS: string[] = [
   '/compare/best-invoicing-software-canada',
   '/compare/best-invoicing-software-ghana',
   '/compare/best-invoicing-software-south-africa',
+  '/compare/best-invoicing-software-italy',
+  '/compare/best-invoicing-software-france',
+  '/compare/best-invoicing-software-usa',
   '/compare/wave-alternative-nigeria',
   '/compare/wave-alternative-uk',
   '/compare/wave-alternative-australia',
@@ -118,6 +121,9 @@ const staticPages: PageEntry[] = [
   { path: '/compare/best-invoicing-software-canada', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/best-invoicing-software-ghana', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/best-invoicing-software-south-africa', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-italy', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-france', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/best-invoicing-software-usa', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/wave-alternative-australia', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/wave-alternative-south-africa', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-freshbooks', priority: 0.7, changefreq: 'monthly' },
@@ -198,7 +204,7 @@ function main() {
 
   const blogSlugs = extractSlugs(path.join(__dirname, '../src/data/blogPosts.ts'), /slug:\s*['"][^'"]+['"]/g);
   // Also scan cluster files for additional blog posts
-  for (let i = 9; i <= 19; i++) {
+  for (let i = 9; i <= 20; i++) {
     const clusterPath = path.join(__dirname, `../src/data/blogPostsCluster${i}.ts`);
     const clusterSlugs = extractSlugs(clusterPath, /slug:\s*['"][^'"]+['"]/g);
     clusterSlugs.forEach(s => { if (!blogSlugs.includes(s)) blogSlugs.push(s); });

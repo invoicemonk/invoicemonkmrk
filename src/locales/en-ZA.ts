@@ -84,12 +84,11 @@ export const enZA: LocaleConfig = {
     blog: {
       ctaHeadline: "Ready to streamline your invoicing?",
       ctaSubtext: "Join thousands of South African businesses using Invoicemonk to stay SARS-compliant.",
-      ctaButtonText: "Start Your Free Trial",
+      ctaButtonText: "Get started",
     },
     socialProofHeadline: "Loved by South African businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enZA: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "za",
   dateFormat: "DD/MM/YYYY",

@@ -84,9 +84,9 @@ export default function EInvoicingMandatesGuide() {
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">Stay Compliant Everywhere</h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">Invoicemonk supports tax compliance for 14+ countries. Create compliant invoices — free.</p>
+          <p className="text-white/90 mb-8 max-w-xl mx-auto">Invoicemonk supports tax compliance for 14+ countries. Pro from $15/month — cancel anytime.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <Link to="/free-invoice-generator">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></Link>
+            <a href="https://app.invoicemonk.com/signup?plan=professional&utm_source=guide&utm_medium=cta&utm_campaign=einvoicing" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

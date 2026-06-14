@@ -51,7 +51,7 @@ const tools = [
 const faqs = [
   { question: 'What is the best invoicing software in Kenya?', answer: 'Invoicemonk is the best invoicing software for Kenyan businesses in 2026. It includes KRA compliance features, 16% VAT auto-calculation for KES, KRA PIN fields, and multi-currency invoicing — all from $15/month on the Pro plan.' },
   { question: 'Is eTIMS compliance mandatory for Kenyan businesses?', answer: 'Yes. The Kenya Revenue Authority (KRA) mandates eTIMS (electronic Tax Invoice Management System) for all VAT-registered businesses. All tax invoices must be generated through or reported to the eTIMS system, with proper serial numbers, QR codes, and control unit numbers.' },
-  { question: "What does Invoicemonk cost for Kenyan freelancers?', answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes unlimited invoices, 16% VAT calculation, KRA PIN fields, and multi-currency support — Pro from $15/month with cancel anytime." },
+  { question: "What does Invoicemonk cost for Kenyan freelancers?", answer: "Invoicemonk's Pro plan starts at $15/month with unlimited invoices, 16% VAT calculation, KRA PIN fields, and multi-currency support. Cancel anytime." },
 ];
 
 export default function BestInvoicingSoftwareKenya() {
@@ -128,7 +128,7 @@ export default function BestInvoicingSoftwareKenya() {
           <h2 className="text-heading-lg font-bold text-white mb-4">KRA-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create eTIMS-ready invoices with 16% VAT and KRA PIN. No signup required.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

@@ -225,7 +225,7 @@
     "title": "How do I migrate from Wave to Invoicemonk?",
     "steps": [
       { "title": "Export your Wave data", "desc": "Wave → Settings → Data Export. Download customers, invoices and transactions as CSV. International users still have read access for export." },
-      { "title": "Create your Invoicemonk account", "desc": "Sign up free at app.invoicemonk.com. Add business profile, logo and tax ID in under 5 minutes." },
+      { "title": "Create your Invoicemonk account", "desc": "Create your account at app.invoicemonk.com. Add business profile, logo and tax ID in under 5 minutes." },
       { "title": "Import customers and history", "desc": "Upload the Wave CSVs. Names, emails, addresses and invoice history map automatically." },
       { "title": "Set up multi-currency accounts", "desc": "Add a currency account for every market you invoice — EUR, GBP, INR and more — included on every plan." },
       { "title": "Send a globally-compliant invoice", "desc": "Your first Invoicemonk invoice is hashed, QR-verifiable, and ready for any tax authority." }

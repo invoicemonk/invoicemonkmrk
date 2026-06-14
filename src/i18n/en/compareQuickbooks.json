@@ -130,7 +130,7 @@
       ],
       "note": "No permanent free plan. Payroll, time tracking, and Live Bookkeeping all charged separately. Multi-currency requires Plus in most regions. Annual increases have averaged 12–17% since 2023."
     },
-    "summary": "A freelancer on Simple Start pays $456/year. On Plus — the plan most accountants recommend for any complexity — $1,380/year. Invoicemonk Pro is $180/year and Starter is free, both with multi-currency and compliance-first invoicing included."
+    "summary": "A freelancer on Simple Start pays $456/year. On Plus — the plan most accountants recommend for any complexity — $1,380/year. Invoicemonk Pro is $180/year with multi-currency and compliance-first invoicing included."
   },
   "scenarios": {
     "title": "The freelancer scenario: is QuickBooks worth the cost?",
@@ -205,7 +205,7 @@
     "title": "How to switch from QuickBooks to Invoicemonk",
     "steps": [
       { "title": "Export from QuickBooks", "desc": "QuickBooks Online → Settings → Export Data. Download customers, invoices, chart of accounts, and expenses as CSV/Excel." },
-      { "title": "Create your Invoicemonk account", "desc": "Sign up free at app.invoicemonk.com. Add business profile, logo, tax ID, and default currency in under 5 minutes." },
+      { "title": "Create your Invoicemonk account", "desc": "Create your account at app.invoicemonk.com. Add business profile, logo, tax ID, and default currency in under 5 minutes." },
       { "title": "Import clients & chart of accounts", "desc": "Upload the QuickBooks CSVs. Client details and account structures map automatically." },
       { "title": "Recreate recurring billing", "desc": "Each recurring schedule takes 2–3 minutes to rebuild. Most freelancers finish in under 30 minutes." },
       { "title": "Cancel QuickBooks", "desc": "Once Invoicemonk is set up, cancel QuickBooks. Your exported data remains a historical reference." }

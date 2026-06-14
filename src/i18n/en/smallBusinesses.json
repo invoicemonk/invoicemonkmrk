@@ -43,7 +43,7 @@
       { "problem": "Spending hours each week creating invoices, chasing payments, and reconciling records manually", "solution": "Automated invoicing, payment reminders, and receipt generation handle the repetitive work — freeing up 10+ hours per month for running your business." },
       { "problem": "No clear picture of cash flow — unsure which invoices are outstanding and when money will arrive", "solution": "A real-time dashboard shows every invoice status, outstanding balances, and payment aging. See your complete financial picture at a glance." },
       { "problem": "Scrambling at tax time to find invoices, receipts, and expense records across spreadsheets and email", "solution": "All financial records are automatically organised, categorised, and exportable. Generate compliance-ready reports in one click." },
-      { "problem": "Outgrowing basic tools but not ready for expensive enterprise accounting software", "solution": "Invoicemonk scales from solo to team — start free, add team members and features as you grow. Professional tools without the enterprise price tag." }
+      { "problem": "Outgrowing basic tools but not ready for expensive enterprise accounting software", "solution": "Invoicemonk scales from solo to team — start with Pro at $15/mo and add team members and features as you grow. Professional tools without the enterprise price tag." }
     ]
   },
   "workflow": {
@@ -108,6 +108,6 @@
   "cta": {
     "title": "Ready to streamline your business finances?",
     "description": "Join growing businesses that trust Invoicemonk for their financial operations.",
-    "button": "Start Your Free Trial"
+    "button": "Get started"
   }
 }

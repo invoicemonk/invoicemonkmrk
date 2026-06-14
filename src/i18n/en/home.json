@@ -96,9 +96,9 @@
   },
   "cta": {
     "heading": "Your invoices. Compliant by default.",
-    "headingAccent": "Free to start.",
+    "headingAccent": "From $15/month.",
     "subtitle": "Join thousands of businesses across more than 30 countries who invoice with confidence — knowing every record is structured, traceable, and audit-ready before they ever need it to be.",
-    "button": "Create your first compliant invoice — free",
+    "button": "Create your first compliant invoice",
     "badges": [
       "",
       "",
@@ -111,7 +111,7 @@
     "soon": "Soon",
     "available": "Available",
     "comingSoon": "Coming Soon",
-    "freeToStart": "Free to start!",
+    "freeToStart": "Pro from $15/mo",
     "getStarted": "Get Started",
     "joinWaitlist": "Join Waitlist",
     "learnMore": "Learn more about {{name}}",

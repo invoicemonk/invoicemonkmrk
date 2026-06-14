@@ -89,7 +89,6 @@ export const enGH: LocaleConfig = {
     socialProofHeadline: "Loved by Ghanaian businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enGH: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "gh",
   dateFormat: "DD/MM/YYYY",

@@ -51,7 +51,7 @@ const tools = [
 const faqs = [
   { question: 'What is the best invoicing software for Nigeria?', answer: 'Invoicemonk is the best invoicing software for Nigerian businesses in 2026. It includes FIRS e-invoicing compliance, 7.5% VAT auto-calculation for NGN, TIN fields, and multi-currency invoicing for billing international clients — all from $15/month on the Pro plan.' },
   { question: 'Does invoicing software need to be FIRS compliant in Nigeria?', answer: 'Yes. With the FIRS e-invoicing mandate rolling out from 2025-2026, all businesses above the threshold must issue electronic invoices with IRN numbers, QR codes, and TIN details via the TaxPro-Max system. Invoicing software should support these requirements.' },
-  { question: "Can Nigerian freelancers use free invoicing software?', answer: 'Yes. Invoicemonk's Pro plan ($15/month) includes unlimited invoices, 7.5% VAT calculation, TIN fields, and multi-currency support. This covers everything a Nigerian freelancer needs for tax-compliant invoicing." },
+  { question: "What does Invoicemonk cost for Nigerian freelancers?", answer: "Invoicemonk's Pro plan starts at $15/month with unlimited invoices, 7.5% VAT calculation, TIN fields, and multi-currency support — everything a Nigerian freelancer needs for tax-compliant invoicing." },
 ];
 
 export default function BestInvoicingSoftwareNigeria() {
@@ -128,7 +128,7 @@ export default function BestInvoicingSoftwareNigeria() {
           <h2 className="text-heading-lg font-bold text-white mb-4">FIRS-Compliant Invoicing — Free</h2>
           <p className="text-white/90 mb-8 max-w-xl mx-auto">Create FIRS-ready invoices with 7.5% VAT, TIN, and IRN. No signup required for the free generator.</p>
           <Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild>
-            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Try Free Invoice Generator<ArrowRight className="ml-2 w-4 h-4" /></a>
+            <a href="https://app.invoicemonk.com/signup?utm_source=compare&utm_medium=cta&utm_campaign=compare_to_signup" target="_blank" rel="noopener noreferrer">Get started with Invoicemonk<ArrowRight className="ml-2 w-4 h-4" /></a>
           </Button>
         </div>
       </section>

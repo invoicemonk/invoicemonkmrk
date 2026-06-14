@@ -89,7 +89,6 @@ export const enZW: LocaleConfig = {
     socialProofHeadline: "Loved by Zimbabwean businesses",
   },
   pricing: {
-    free: 0,
     professional: 15,
     sme: 49,
     business: 0,
@@ -97,7 +96,6 @@ export const enZW: LocaleConfig = {
   },
   pricingContent: {
     annualSavingsText: "Save ~17%",
-    starterAvailable: false,
   },
   urlPrefix: "zw",
   dateFormat: "DD/MM/YYYY",
