@@ -105,14 +105,14 @@ export function ClusterNavigation({
         <CardContent className="p-4">
           <div className="flex items-center gap-2 mb-2">
             <Sparkles className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">Start free — no card required</span>
+            <span className="text-sm font-medium text-foreground">Pro from $15/month</span>
           </div>
           <p className="text-sm text-muted-foreground mb-3">
-            Free forever plan. Set up your first invoice in under 60 seconds.
+            Send compliant invoices in minutes. Cancel anytime.
           </p>
           <Button asChild size="sm" className="w-full rounded-full">
-            <a href="https://app.invoicemonk.com/signup" target="_blank" rel="noopener noreferrer">
-              Create free account
+            <a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">
+              Get started
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
