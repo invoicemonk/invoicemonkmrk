@@ -71,7 +71,7 @@ export function ArticleSidebar({ post, pillar, clusterPosts = [] }: ArticleSideb
   );
 
   const ctaCampaign = pillar?.id || 'general';
-  const signupHref = `${APP_SIGNUP}?utm_source=blog&utm_medium=sidebar_cta&utm_campaign=${ctaCampaign}`;
+  const signupHref = `${APP_SIGNUP}&utm_source=blog&utm_medium=sidebar_cta&utm_campaign=${ctaCampaign}`;
   const accent = pillar?.color;
 
   return (
