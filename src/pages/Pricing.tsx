@@ -89,7 +89,7 @@ const Pricing = () => {
           </AnimatedSection>
 
           {/* Pricing Cards */}
-          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
             {plans.map((plan) => {
               const price = calculatePrice(plan.id, isAnnual);
               
