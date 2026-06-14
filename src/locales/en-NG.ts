@@ -70,7 +70,7 @@ export const enNG: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Nigeria?",
-        answer: "Invoicemonk no longer offers a free plan or Pro plan. Pro starts at ₦25,000/month and SME at ₦125,000/month. Biz pricing is custom. You can cancel anytime, and annual billing gives you 2 months free.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at ₦25,000/month and SME at ₦125,000/month. Biz pricing is custom. You can cancel anytime, and annual billing gives you 2 months free.",
       },
       {
         question: "Does Invoicemonk handle VAT for Nigerian businesses?",

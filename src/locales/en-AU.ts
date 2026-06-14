@@ -70,7 +70,7 @@ export const enAU: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in Australia?",
-        answer: "Invoicemonk no longer offers a free plan or Pro plan. Pro starts at A$45/month and SME at A$199/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at A$45/month and SME at A$199/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle GST for Australian businesses?",

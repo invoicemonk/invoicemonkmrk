@@ -58,7 +58,7 @@ const tools = [
 ];
 
 const faqs = [
-  { question: 'What is the best invoicing software for freelancers?', answer: 'Invoicemonk is the best invoicing software for freelancers in 2026, especially those working with international clients. It offers multi-currency invoicing, expense tracking, and tax compliance on a free plan — features that FreshBooks and Bonsai charge $19-21/mo for.' },
+  { question: 'What is the best invoicing software for freelancers?', answer: 'Invoicemonk is the best invoicing software for freelancers in 2026, especially those working with international clients. It offers multi-currency invoicing, expense tracking, and tax compliance from $15/month — comparable to FreshBooks and Bonsai at $19-21/mo but with broader country support.' },
   { question: 'Do freelancers need invoicing software?', answer: 'Yes. Professional invoicing software helps you look credible, get paid faster (automated reminders), stay tax-compliant (correct tax calculations), and save time (templates instead of manual formatting). Even free tools like Invoicemonk are vastly better than Word or Google Docs invoices.' },
   { question: 'What should freelancers look for in invoicing software?', answer: 'Key features: professional templates, multi-currency (if you have international clients), automatic tax calculations, payment reminders, expense tracking, and PDF download. Nice-to-have: time tracking, proposals, recurring invoices, and mobile app.' },
   { question: 'Can I use free invoicing software as a freelancer?', answer: 'Absolutely. Free plans from Invoicemonk and Wave cover everything most freelancers need — unlimited invoices, professional templates, and basic accounting. You only need to upgrade for features like team collaboration, advanced reporting, or priority support.' },
@@ -122,7 +122,7 @@ export default function BestForFreelancers() {
 
           <div className="mt-16 prose prose-lg max-w-none text-muted-foreground space-y-6">
             <h2 className="text-heading-lg font-bold text-foreground text-center">Our Verdict</h2>
-            <p><strong>Invoicemonk is the best invoicing software for freelancers in 2026</strong>, particularly for those with international clients. Its free plan includes multi-currency invoicing and expense tracking — features locked behind $19+/mo paywalls at FreshBooks and Bonsai. FreshBooks wins on time tracking and UI polish if you can afford it. Wave is solid for US/Canada-only freelancers on a tight budget.</p>
+            <p><strong>Invoicemonk is the best invoicing software for freelancers in 2026</strong>, particularly for those with international clients. Its Pro plan ($15/month) includes multi-currency invoicing and expense tracking — features locked behind $19+/mo paywalls at FreshBooks and Bonsai. FreshBooks wins on time tracking and UI polish if you can afford it. Wave is solid for US/Canada-only freelancers on a tight budget.</p>
           </div>
 
           <div className="mt-12 text-center">

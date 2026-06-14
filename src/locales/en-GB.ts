@@ -70,7 +70,7 @@ export const enGB: LocaleConfig = {
       },
       {
         question: "How much does Invoicemonk cost in the UK?",
-        answer: "Invoicemonk no longer offers a free plan or Pro plan. Pro starts at £23/month and SME at £99/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
+        answer: "Invoicemonk no longer offers a free plan or free trial. Pro starts at £23/month and SME at £99/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.",
       },
       {
         question: "Does Invoicemonk handle VAT for UK businesses?",

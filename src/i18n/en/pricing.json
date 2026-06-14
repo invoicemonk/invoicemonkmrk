@@ -12,7 +12,7 @@
     "description": "Everything you need to know about pricing and billing.",
     "items": {
       "freeTier": {
-        "question": "Do you offer a free plan or Pro plan?",
+        "question": "Do you offer a free plan or free trial?",
         "answer": "No. Invoicemonk is a paid product. Pro starts at $15/month, SME at $49/month, and Biz is custom-priced. You can upgrade, downgrade, or cancel anytime, and annual billing saves about 17%."
       },
       "upgradeDowngrade": {

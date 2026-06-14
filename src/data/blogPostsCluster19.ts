@@ -2808,8 +2808,8 @@ export const cluster19Posts: BlogPost[] = [
         answer: 'You can sign up from other countries and create invoices, but Wave Payments (card and bank processing) only works for businesses based in the US and Canada. Outside those two countries you lose the integrated payment side of the product.',
       },
       {
-        question: 'Is InvoiceMonk free?',
-        answer: 'InvoiceMonk has a free Starter plan that covers unlimited invoices, clients, and basic VAT handling. The paid plan adds advanced compliance features, multi-currency reporting, and team access.',
+        question: 'How much does InvoiceMonk cost?',
+        answer: 'InvoiceMonk is paid-only. The Pro plan starts at $15/month with unlimited invoices, clients, multi-currency, and full VAT handling. SME at $49/month adds online payments and advanced reports; Biz is custom-priced with e-invoicing and a dedicated account manager.',
       },
     ],
     relatedTools: [
@@ -2919,8 +2919,8 @@ export const cluster19Posts: BlogPost[] = [
       </ul>
       <p>Compared against an hour of accountant time at typical EU rates, the gap between "free Wave" and a paid compliance-first tool closes quickly.</p>
 
-      <h3>Is InvoiceMonk free?</h3>
-      <p data-answer="true">Yes. InvoiceMonk has a free Starter plan that covers unlimited invoices, unlimited clients, and the basic VAT handling most freelancers need. A paid plan adds advanced compliance features, multi-currency reporting, and team access for agencies. You do not need a credit card to start.</p>
+      <h3>How much does InvoiceMonk cost?</h3>
+      <p data-answer="true">No. InvoiceMonk is paid-only — there's no free plan or trial. The Pro plan starts at $15/month with unlimited invoices and clients, multi-currency, and full VAT handling. You can cancel anytime.</p>
 
       <h2>Conclusion</h2>
       <p>Wave is the right tool for freelancers in the US and Canada who want free bookkeeping and invoicing in one place. InvoiceMonk is the right tool for freelancers who invoice across borders and need the rules of EU VAT, sequential numbering, and country-specific fields handled by the software, not by memory.</p>
