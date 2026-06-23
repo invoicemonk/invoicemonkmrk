@@ -17,7 +17,7 @@ before any new pages are built.
 ## Mandates currently named in marketing copy
 
 | # | Mandate | Country | Strongest claim on site today | Weakest / vaguest claim | Files |
-|---|---|---|---|---|---|
+|---|---------|---------|-------------------------------|-------------------------|-------|
 | 1 | **ZATCA Phase 1 + Phase 2 (Fatoorah)** | Saudi Arabia | "Fatoorah-compliant e-invoices with QR codes, cryptographic stamps (CSID), and all mandatory fields required by ZATCA Phase 1 and Phase 2" + "direct government submission on the Biz plan" | (consistent — strong everywhere) | `en-SA.ts`, `bestInvoicingSoftware.json`, `home.json`, `whyInvoicemonk.json`, `llms-full.txt` |
 | 2 | **MyInvois (LHDN)** | Malaysia | "Generates e-invoices in the format required by LHDN's MyInvois platform, including all mandatory fields" | "MyInvois-ready format" / "MyInvois-compatible" — *format-compatible, not submission-integrated* | `en-MY.ts` |
 | 3 | **Peppol** | EU + AU + NZ + SG + JP + UK + CA | "EU PEPPOL submission on the Biz plan" / "direct government submission to PEPPOL" | "Supports e-invoicing standards including Peppol" — locale FAQs only name-check it | `bestInvoicingSoftware.json`, `home.json`, `whyInvoicemonk.json`, `en-GB.ts`, `en-CA.ts` |
