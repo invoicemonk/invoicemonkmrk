@@ -1,89 +1,110 @@
-## Goal
 
-Remove every reference to a free plan, Starter tier, free trial, and "no credit card / no card needed" language across the marketing site. Pro ($15/mo) becomes the entry tier; SME ($49/mo) and Biz (custom) remain. Standardize CTA to "Get started" → Pro signup (`https://app.invoicemonk.com/signup?plan=professional`).
+# Reposition Invoicemonk as the Global E-Invoicing Platform (revised)
 
-## Scope
+## What changed from v1
 
-~100 files across pricing config, locales, i18n JSON, comparison pages, blog data, tools, and shared CTA components.
+You're right on both points. Revised:
 
-### 1. Pricing config & components
+1. **No "coming soon", no "roadmap" pages, no waitlist CTAs.** I will not author a page for any mandate the product does not actually support today. Scope is now driven by what's real, not what we wish was real. Before writing a single mandate page, I will audit the codebase, locale FAQs, `pricingPlans.ts`, `llms.txt`, blog content, and any product copy you can point me to, then come back with a confirmed "Live mandates" list. We build pages only for that list. Anything else waits until product ships it.
 
-- `src/config/pricingPlans.ts`
-  - Remove `'free'` from the `PricingPlan.id` union and from `calculatePrice`.
-  - Drop the `starterFeatures` export and the Starter plan object from `getPricingPlans()`.
-  - Result: 3 plans returned (Pro, SME, Biz). Pro keeps `popular: true`.
-- `src/locales/types.ts`
-  - Remove `free` from the `pricing` shape and `starterAvailable` from `pricingContent` (or keep field but set false everywhere — simpler to delete).
-- All `src/locales/en-*.ts` (AU, CA, GB, GH, IN, KE, MY, NG, NZ, PH, SA, SC, US, ZA, ZW)
-  - Drop `free: 0` and `starterAvailable: false`.
-  - Hero CTA: replace `"Start free — no card needed"` / similar with `"Get started"`.
-  - Trust badges / social proof: remove "free plan", "no card needed" wording.
-  - FAQs: rewrite the `"How much does Invoicemonk cost…"` answer to start at Pro ($15) and drop "free plan with 5 invoices".
-  - Blog CTAs: replace `"Start Invoicing Free"` / `"Start Invoicing Today"` with `"Get Started"`.
+2. **`/invoicing` vs `/e-invoicing` — different intents, no cannibalization, but only if we differentiate them deliberately.** Plan below.
 
-### 2. Pricing page
+## /invoicing vs /e-invoicing: the differentiation rule
 
-- `src/i18n/en/pricing.json` — rewrite `faq.items.freeTier` into a "Do you offer a free trial?" Q with answer: no free plan or trial; Pro starts at $15/mo, cancel anytime. Update hero description if needed.
-- `src/pages/Pricing.tsx` — verify Starter card removal renders cleanly with 3 columns; adjust grid (`md:grid-cols-3`) if currently `grid-cols-4`.
-- `src/components/pricing/FeatureComparisonTable.tsx` — remove Starter column.
+These are two different search clusters with two different buyers:
 
-### 3. Homepage & shared CTAs
+| Page | Primary keyword cluster | Buyer intent | What the page sells |
+|---|---|---|---|
+| `/invoicing` | "invoicing software", "online invoicing", "send an invoice", "invoice generator" | "I need to send a professional invoice and get paid." | The everyday product: templates, reminders, multi-currency, payments. |
+| `/e-invoicing` (new) | "e-invoicing software", "Peppol access point", "ZATCA-compliant invoicing", "MyInvois middleware", "eTIMS integration", "IRN generator", "MTD invoicing" | "My government / my client requires a structured e-invoice. Which software is compliant?" | The category claim: a global platform that issues structured, mandate-compliant e-invoices in every jurisdiction we cover. |
 
-- `src/components/home/CTASection.tsx`, `WaveCTASection`, `HeroSection`, hero badges — swap "Start free", "no card" copy for "Get started".
-- `src/components/compare/InlineSignupCTA.tsx`, `src/components/blog/SignupCTA.tsx`, `ClusterNavigation`, `ArticleSidebar`, `PillarPageLayout`, `TopicExplorer` — same swap; all CTA links → Pro signup URL.
+Concrete anti-cannibalization rules I will enforce:
 
-### 4. i18n JSON (English)
+- **Distinct canonicals and self-referencing `og:url`** on both pages.
+- **No keyword overlap in titles or H1s.** `/invoicing` keeps "invoicing software". `/e-invoicing` owns "e-invoicing platform / software". Neither page targets both phrases.
+- **Different meta descriptions** with non-overlapping noun phrases.
+- **One-way internal-link hierarchy**: `/e-invoicing` is the *parent*. `/invoicing` links up to it ("E-invoicing →"). `/invoicing` does not compete on e-invoicing keywords. Mandate pages link up to `/e-invoicing`, not to `/invoicing`.
+- **Schema separation**: `/invoicing` keeps `ServiceSchema`. `/e-invoicing` gets `SoftwareApplicationSchema` with `applicationSubCategory: "ElectronicInvoicingSoftware"`. Homepage `SoftwareApplicationSchema` also moves to that subcategory.
+- **Sitemap priority**: `/e-invoicing` at `0.95`, `/invoicing` drops to `0.8`. Tells crawlers which page is the category authority.
+- **Stale free-tier copy on `/invoicing`** ("free to start") gets fixed in the same pass — it contradicts our paid-only model and currently outranks the truth.
 
-Sweep and rewrite for: `home.json`, `whyInvoicemonk.json`, `compliance.json`, `accounting.json`, `accountants.json`, `agencies.json`, `bestInvoicingSoftware.json`, `consultants.json`, `contractors.json`, `corridors.json`, `creatives.json`, `developer.json`, `ecommerce.json`, `expenses.json`, `freelancers.json`, `invoicing.json`, `lawyers.json`, `milestoneBilling.json`, `multiCurrencyInvoicing.json`, `payments.json`, `photographers.json`, `receipts.json`, `recurringBilling.json`, `retainerBilling.json`, `smallBusinesses.json`, `tools.json`, `common.json`, plus comparison JSONs (`compareAtoinvoice`, `compareDext`, `compareEstimatesQuickbooks`, `compareFreshbooks`, `compareQuickbooks`, `compareStripe`, `compareStripeInvoicing`, `compareWave`, `compareZoho`).
+If after the audit it turns out `/invoicing` and `/e-invoicing` would overlap >20% on intent, the cleaner move is to **fold `/invoicing` into a 301 redirect to `/e-invoicing`** and keep one strong page. I will flag this in the audit deliverable before building.
 
-Rules:
-- "Free forever / Free plan / Free tier" → remove or rephrase to "Pro plan from $15/mo".
-- "Start free", "Start free — no card needed", "Try free" CTAs → "Get started".
-- "No credit card required" → delete.
-- Pricing tables/feature lists that include a Starter row: drop the row; ensure remaining 3 tiers render.
-- FAQ items asking about free plan/trial: rewrite to "Invoicemonk no longer offers a free plan or trial. Pro starts at $15/mo and you can cancel anytime."
+## How this boosts rankings and conversion (not hurt them)
 
-### 5. Comparison pages (TSX + JSON)
+Five mechanisms, each measurable:
 
-- `BestFreeInvoicingSoftware.tsx`: this page's premise conflicts with the new model. Repurpose to "Best low-cost invoicing software" — keep URL for SEO, rewrite hero/intro to clarify Invoicemonk is paid-only starting at $15 and only competitors with free tiers are listed as free. Update internal positioning so Invoicemonk is recommended as the paid option.
-- All `BestInvoicingSoftware*.tsx` country pages and `WaveAlternative*.tsx`: remove Starter row from comparison tables; rewrite "Invoicemonk has a free plan" claims to "Invoicemonk starts at $15/mo (Pro)"; CTAs → Pro signup.
-- `InvoicemonkVsAtoinvoice`, `InvoicemonkEstimatesVsQuickbooks`, etc.: same sweep. Where the contrast was "free vs paid", reframe to "$15 vs $X with these features".
+1. **Net-new keyword surface, zero overlap with existing pages.** The new pages target "e-invoicing + {mandate/country}" queries we currently rank for nowhere. There is no existing page to demote. Upside is additive.
+2. **Topical authority concentration.** Today, e-invoicing content is scattered across two blog guides, one bullet on the homepage, one comparison row, and a Biz-tier pricing line. Crawlers can't tell which URL is the canonical answer. After the rebuild, `/e-invoicing` is unambiguously the answer, and every other mention links to it — internal PageRank flows up, not sideways.
+3. **AI-overview / LLM citation wins.** `/e-invoicing` is structured for the 40-word direct-answer block + mandate matrix + FAQ schema pattern that AI overviews and Perplexity cite. `llms.txt` rewritten to lead with the category claim. This is the channel where Invoicemonk has the most room to grow because no SME-focused competitor owns it yet.
+4. **Higher commercial intent = higher conversion.** "I need ZATCA-compliant invoicing" is a buyer with a deadline. "I need invoicing software" is a browser. Routing high-intent traffic to a page with a single Pro CTA and `intent={mandate}` attribution lets us measure and prove the conversion lift mandate-by-mandate.
+5. **Comparison pages get a defensible wedge.** Adding an "E-invoicing mandates supported" row to every `/compare/*` table changes the frame from "price + features" (where Wave wins on free) to "compliance coverage" (where we win). This raises conversion on pages that already get traffic — fastest payback in the whole plan.
 
-### 6. Blog & long-form data
+What could hurt SEO if done wrong, and how I prevent each:
 
-- Blog data files (`blogPosts.ts`, `blogPostsCluster9/10/13/16/17/18/19.ts`, `countryCompliancePosts.ts`, `helpGuides.ts`, `contentTemplates.ts`): find body copy mentioning "free plan", "free tier", "free trial", "no credit card" and rewrite to reference paid Pro tier.
-- `src/utils/blockAnswers.ts`: update any quick-answer snippets referencing the free plan.
+- **Keyword cannibalization between `/invoicing` and `/e-invoicing`** → enforced by the differentiation rules above; flagged in audit before build.
+- **Thin mandate pages** → minimum 800 words, real citations to the tax authority's spec, a unique mandate matrix row, mandate-specific FAQ. No template stuffing.
+- **Over-claiming mandates we don't support** → eliminated by the audit gate. No page ships unless product-confirmed live.
+- **Internal-link explosion diluting authority** → `enhanceLinks.ts` capped at one auto-link per term per article, first occurrence only.
+- **Homepage hero change tanking conversion** → the hero change is A/B-tested via the existing `getABVariant('homepage_organic_intent_hero')` mechanism, not a hard cut. Winner ships.
+- **Sitewide meta change harming branded traffic** → branded queries ("invoicemonk") rank on title + Organization schema regardless of category positioning. Adding "e-invoicing" to the title won't displace the brand. Locale region suffix stays intact.
 
-### 7. Tools pages
+## Revised scope
 
-- `src/pages/tools/ToolsIndex.tsx`, `InvoiceTemplates.tsx`: replace "Start free" CTAs with "Get started" → Pro signup; remove "free plan" mentions in copy (keep "free tools" since the tools themselves remain free, just reword to avoid confusing with the product plan).
+### Phase 0 — Audit (deliverable, before any page is built)
 
-### 8. Legal & public assets
+I produce a single audit document listing:
 
-- `src/data/legal/terms.en.ts`: remove or rewrite any clause referring to a free plan/trial.
-- `public/llms.txt`, `public/llms-full.txt`: regenerate the pricing/plans sections — Pro $15, SME $49, Biz custom; no free plan, no trial.
-- `src/App.tsx`: only touched if it surfaces a banner mentioning "start free"; otherwise no change.
+- Every mandate currently named in the codebase + where (file:line).
+- For each mandate, the *strongest* claim we currently make and the *weakest* claim we currently make. Inconsistencies flagged.
+- A proposed "Live mandates" list for your sign-off. **Nothing builds until you confirm this list.**
+- Suggested verdict on `/invoicing` vs `/e-invoicing` (keep both with differentiation, or 301 `/invoicing` → `/e-invoicing`).
 
-### 9. SEO
+### Phase 1 — Category claim (after audit sign-off)
 
-- `src/components/seo/SoftwareApplicationSchema.tsx`: if it currently emits a `price: "0"` `Offer`, change the lowest offer to `"15"` `USD` so Google's structured-data preview matches the new entry price.
+5 surfaces, same as before:
+1. Homepage hero copy in `src/locales/en-*.ts`.
+2. Homepage meta in `src/components/seo/seoConfig.ts`.
+3. `SoftwareApplicationSchema` subcategory + featureList.
+4. `index.html` `<title>` + description for non-JS crawlers.
+5. Navbar adds top-level "E-invoicing" entry.
 
-### 10. Out of scope
+### Phase 2 — Flagship pillar
 
-- App / dashboard product (`app.invoicemonk.com`) — not in this repo.
-- Backend, Supabase schema, edge functions.
-- Non-English locale JSON beyond what already exists; the project's `i18n/index.ts` falls back to English.
-- Pricing analytics, billing, or actual plan removal in the product DB.
+`/e-invoicing` built to AI-overview spec: 40-word answer, mandate matrix (Live-only), segment CTAs, FAQ schema, single Pro CTA.
 
-## Acceptance
+### Phase 3 — Mandate sub-pages (Live mandates only)
 
-- `rg -i "free plan|free tier|start free|no card needed|no credit card|free trial|starter tier|continue with free"` returns 0 hits in `src/` and `public/` (excluding `BestFreeInvoicingSoftware.tsx` route slug and any unavoidable legal historical reference).
-- `/en/pricing` shows 3 plans (Pro, SME, Biz); no Starter card; FAQ confirms no free plan/trial.
-- Homepage, all locale pages, and every comparison page CTA reads "Get started" and points to `https://app.invoicemonk.com/signup?plan=professional`.
-- `npm run build` (auto) passes; no TS errors from the removed `'free'` union member.
+One page per confirmed-live mandate, shared template, real citations, single Pro CTA with `intent={mandate}` attribution.
 
-## Technical notes
+### Phase 4 — Conversion plumbing
 
-- Wide find-and-replace is risky; do it file-by-file with `code--line_replace` after `code--view`, batched in parallel per directory.
-- The `PricingPlan.id` union change will surface TS errors anywhere `'free'` is referenced — fix those as compile errors guide.
-- Keep `BestFreeInvoicingSoftware` route alive (301 churn hurts SEO) but rewrite content honestly.
+- "E-invoicing mandates" row added to every `/compare/*` matrix.
+- Locale FAQs re-ordered so the e-invoicing question is first; answer leads with the local mandate.
+- `pillarCTAs.ts`, `homepageFAQs.ts`, `ExitIntentPopup`, inline signup CTAs updated with `intent` attribution.
+
+### Phase 5 — AI-search + topical authority
+
+- `public/llms.txt` and `public/llms-full.txt` rewritten so paragraph 1 names Invoicemonk as the global e-invoicing platform and enumerates live mandates.
+- `OrganizationSchema` `description` + `knowsAbout` updated.
+- `topicalMap.ts` re-rooted with E-invoicing as the top node.
+
+### Phase 6 — Proof
+
+Per-mandate "How Invoicemonk meets {mandate}" sections with citations to the tax authority's published spec. No claim ships without a source.
+
+## Out of scope (unchanged)
+
+- App / dashboard product copy.
+- Non-English locales (translation pass after EN converts).
+- Building the actual product integrations.
+- No re-pricing. Pro $15, SME $49, Biz custom.
+- **No "coming soon" or "roadmap" pages of any kind.**
+
+## Brand rules respected
+
+Clarity Teal primary, slate headings, no red, no hardcoded hex, no em dashes, active voice, no "Learn more" anchors, single primary CTA per page → `/signup?plan=professional&intent={mandate}`, FAQ schema page-level only, long-form to `/blog/[slug]`, product pillar + mandate pages under `/e-invoicing/*`.
+
+## Success signals
+
+GSC impressions/clicks on "e-invoicing + {mandate}" queries, LLM citation rate for "best e-invoicing software for freelancers/SMEs", Pro signups attributed via `intent` query param, position movement on `/compare/*` after the e-invoicing row lands.
