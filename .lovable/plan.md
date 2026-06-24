@@ -1,110 +1,39 @@
+# Why the hero hasn't changed — and how to unblock it
 
-# Reposition Invoicemonk as the Global E-Invoicing Platform (revised)
+## Root cause
 
-## What changed from v1
+1. **Phase 1 hasn't run.** The repositioning is still awaiting your audit sign-off. No file in `src/` has been edited with the new e-invoicing hero copy.
+2. **A/B test hardcodes variant B.** `src/components/home/HeroSection.tsx:15` forces variant B visitors to `'Send invoices, get paid, anywhere'`, ignoring i18n. About half of all traffic sees this regardless of what we put in locale files.
 
-You're right on both points. Revised:
+## Two decisions needed from you
 
-1. **No "coming soon", no "roadmap" pages, no waitlist CTAs.** I will not author a page for any mandate the product does not actually support today. Scope is now driven by what's real, not what we wish was real. Before writing a single mandate page, I will audit the codebase, locale FAQs, `pricingPlans.ts`, `llms.txt`, blog content, and any product copy you can point me to, then come back with a confirmed "Live mandates" list. We build pages only for that list. Anything else waits until product ships it.
+**A. Audit sign-off (still pending from previous turn).** Confirm Live vs Remove for the 16 mandates in `.lovable/e-invoicing-audit.md`, and whether CSID/IRN/digital-signature claims hold globally or per-mandate. Without this, Phase 1 cannot ship truthful copy. I confirm Live
 
-2. **`/invoicing` vs `/e-invoicing` — different intents, no cannibalization, but only if we differentiate them deliberately.** Plan below.
+**B. A/B variant B.** Pick one:
 
-## /invoicing vs /e-invoicing: the differentiation rule
+- **Kill variant B.** Remove the hardcoded string; both arms render the new e-invoicing headline from i18n. Cleanest, fastest, ends the running experiment.
+- **Rewrite variant B.** Replace the hardcoded string with a second e-invoicing variation (e.g. `'E-invoicing for every mandate, in every market'`) so the A/B test continues but on category-claim copy.
+- **Keep variant B as-is.** Not recommended — it actively undermines the repositioning for half your traffic.
 
-These are two different search clusters with two different buyers:
+## What ships in Phase 1 once both are answered
 
-| Page | Primary keyword cluster | Buyer intent | What the page sells |
-|---|---|---|---|
-| `/invoicing` | "invoicing software", "online invoicing", "send an invoice", "invoice generator" | "I need to send a professional invoice and get paid." | The everyday product: templates, reminders, multi-currency, payments. |
-| `/e-invoicing` (new) | "e-invoicing software", "Peppol access point", "ZATCA-compliant invoicing", "MyInvois middleware", "eTIMS integration", "IRN generator", "MTD invoicing" | "My government / my client requires a structured e-invoice. Which software is compliant?" | The category claim: a global platform that issues structured, mandate-compliant e-invoices in every jurisdiction we cover. |
+Single pass, no new pages yet:
 
-Concrete anti-cannibalization rules I will enforce:
+1. `**src/locales/en-*.ts**` — `hero.headline` / `hero.headlineAccent` rewritten to `The global e-invoicing platform.` / `Mandate-compliant in {N} jurisdictions.` where `{N}` is the count you approve from the audit. Per-locale overrides where a local mandate is Live (e.g. en-SA leads with ZATCA Phase 2).
+2. `**src/components/home/HeroSection.tsx**` — variant B handled per your choice in decision B. Sub-headline rewritten to the conversion line ending in Pro CTA.
+3. `**src/components/seo/seoConfig.ts**` — homepage title + meta updated to `Invoicemonk — Global E-Invoicing Software for Freelancers, SMEs & Agencies` and matching description (≤160 chars).
+4. `**src/components/seo/SoftwareApplicationSchema.tsx**` — add `applicationSubCategory: "ElectronicInvoicingSoftware"` and `featureList` enumerating approved-Live mandates only.
+5. `**index.html**` — `<title>` and `<meta name="description">` mirrored to the new homepage values for first-paint and crawler parity.
 
-- **Distinct canonicals and self-referencing `og:url`** on both pages.
-- **No keyword overlap in titles or H1s.** `/invoicing` keeps "invoicing software". `/e-invoicing` owns "e-invoicing platform / software". Neither page targets both phrases.
-- **Different meta descriptions** with non-overlapping noun phrases.
-- **One-way internal-link hierarchy**: `/e-invoicing` is the *parent*. `/invoicing` links up to it ("E-invoicing →"). `/invoicing` does not compete on e-invoicing keywords. Mandate pages link up to `/e-invoicing`, not to `/invoicing`.
-- **Schema separation**: `/invoicing` keeps `ServiceSchema`. `/e-invoicing` gets `SoftwareApplicationSchema` with `applicationSubCategory: "ElectronicInvoicingSoftware"`. Homepage `SoftwareApplicationSchema` also moves to that subcategory.
-- **Sitemap priority**: `/e-invoicing` at `0.95`, `/invoicing` drops to `0.8`. Tells crawlers which page is the category authority.
-- **Stale free-tier copy on `/invoicing`** ("free to start") gets fixed in the same pass — it contradicts our paid-only model and currently outranks the truth.
+## Out of scope for this unblock
 
-If after the audit it turns out `/invoicing` and `/e-invoicing` would overlap >20% on intent, the cleaner move is to **fold `/invoicing` into a 301 redirect to `/e-invoicing`** and keep one strong page. I will flag this in the audit deliverable before building.
+- `/e-invoicing` pillar page (Phase 2)
+- Per-mandate sub-pages (Phase 3)
+- Comparison / locale FAQ / `pillarCTAs` / `ExitIntentPopup` rewrites (Phase 4)
+- `llms.txt`, `topicalMap.ts`, `OrganizationSchema` (Phase 5)
+- Per-mandate proof citations (Phase 6)
 
-## How this boosts rankings and conversion (not hurt them)
+## What I need from you to proceed
 
-Five mechanisms, each measurable:
-
-1. **Net-new keyword surface, zero overlap with existing pages.** The new pages target "e-invoicing + {mandate/country}" queries we currently rank for nowhere. There is no existing page to demote. Upside is additive.
-2. **Topical authority concentration.** Today, e-invoicing content is scattered across two blog guides, one bullet on the homepage, one comparison row, and a Biz-tier pricing line. Crawlers can't tell which URL is the canonical answer. After the rebuild, `/e-invoicing` is unambiguously the answer, and every other mention links to it — internal PageRank flows up, not sideways.
-3. **AI-overview / LLM citation wins.** `/e-invoicing` is structured for the 40-word direct-answer block + mandate matrix + FAQ schema pattern that AI overviews and Perplexity cite. `llms.txt` rewritten to lead with the category claim. This is the channel where Invoicemonk has the most room to grow because no SME-focused competitor owns it yet.
-4. **Higher commercial intent = higher conversion.** "I need ZATCA-compliant invoicing" is a buyer with a deadline. "I need invoicing software" is a browser. Routing high-intent traffic to a page with a single Pro CTA and `intent={mandate}` attribution lets us measure and prove the conversion lift mandate-by-mandate.
-5. **Comparison pages get a defensible wedge.** Adding an "E-invoicing mandates supported" row to every `/compare/*` table changes the frame from "price + features" (where Wave wins on free) to "compliance coverage" (where we win). This raises conversion on pages that already get traffic — fastest payback in the whole plan.
-
-What could hurt SEO if done wrong, and how I prevent each:
-
-- **Keyword cannibalization between `/invoicing` and `/e-invoicing`** → enforced by the differentiation rules above; flagged in audit before build.
-- **Thin mandate pages** → minimum 800 words, real citations to the tax authority's spec, a unique mandate matrix row, mandate-specific FAQ. No template stuffing.
-- **Over-claiming mandates we don't support** → eliminated by the audit gate. No page ships unless product-confirmed live.
-- **Internal-link explosion diluting authority** → `enhanceLinks.ts` capped at one auto-link per term per article, first occurrence only.
-- **Homepage hero change tanking conversion** → the hero change is A/B-tested via the existing `getABVariant('homepage_organic_intent_hero')` mechanism, not a hard cut. Winner ships.
-- **Sitewide meta change harming branded traffic** → branded queries ("invoicemonk") rank on title + Organization schema regardless of category positioning. Adding "e-invoicing" to the title won't displace the brand. Locale region suffix stays intact.
-
-## Revised scope
-
-### Phase 0 — Audit (deliverable, before any page is built)
-
-I produce a single audit document listing:
-
-- Every mandate currently named in the codebase + where (file:line).
-- For each mandate, the *strongest* claim we currently make and the *weakest* claim we currently make. Inconsistencies flagged.
-- A proposed "Live mandates" list for your sign-off. **Nothing builds until you confirm this list.**
-- Suggested verdict on `/invoicing` vs `/e-invoicing` (keep both with differentiation, or 301 `/invoicing` → `/e-invoicing`).
-
-### Phase 1 — Category claim (after audit sign-off)
-
-5 surfaces, same as before:
-1. Homepage hero copy in `src/locales/en-*.ts`.
-2. Homepage meta in `src/components/seo/seoConfig.ts`.
-3. `SoftwareApplicationSchema` subcategory + featureList.
-4. `index.html` `<title>` + description for non-JS crawlers.
-5. Navbar adds top-level "E-invoicing" entry.
-
-### Phase 2 — Flagship pillar
-
-`/e-invoicing` built to AI-overview spec: 40-word answer, mandate matrix (Live-only), segment CTAs, FAQ schema, single Pro CTA.
-
-### Phase 3 — Mandate sub-pages (Live mandates only)
-
-One page per confirmed-live mandate, shared template, real citations, single Pro CTA with `intent={mandate}` attribution.
-
-### Phase 4 — Conversion plumbing
-
-- "E-invoicing mandates" row added to every `/compare/*` matrix.
-- Locale FAQs re-ordered so the e-invoicing question is first; answer leads with the local mandate.
-- `pillarCTAs.ts`, `homepageFAQs.ts`, `ExitIntentPopup`, inline signup CTAs updated with `intent` attribution.
-
-### Phase 5 — AI-search + topical authority
-
-- `public/llms.txt` and `public/llms-full.txt` rewritten so paragraph 1 names Invoicemonk as the global e-invoicing platform and enumerates live mandates.
-- `OrganizationSchema` `description` + `knowsAbout` updated.
-- `topicalMap.ts` re-rooted with E-invoicing as the top node.
-
-### Phase 6 — Proof
-
-Per-mandate "How Invoicemonk meets {mandate}" sections with citations to the tax authority's published spec. No claim ships without a source.
-
-## Out of scope (unchanged)
-
-- App / dashboard product copy.
-- Non-English locales (translation pass after EN converts).
-- Building the actual product integrations.
-- No re-pricing. Pro $15, SME $49, Biz custom.
-- **No "coming soon" or "roadmap" pages of any kind.**
-
-## Brand rules respected
-
-Clarity Teal primary, slate headings, no red, no hardcoded hex, no em dashes, active voice, no "Learn more" anchors, single primary CTA per page → `/signup?plan=professional&intent={mandate}`, FAQ schema page-level only, long-form to `/blog/[slug]`, product pillar + mandate pages under `/e-invoicing/*`.
-
-## Success signals
-
-GSC impressions/clicks on "e-invoicing + {mandate}" queries, LLM citation rate for "best e-invoicing software for freelancers/SMEs", Pro signups attributed via `intent` query param, position movement on `/compare/*` after the e-invoicing row lands.
+1. Audit results (Live / Remove per mandate, claims scope). Live
+2. Decision B above (kill / rewrite / keep variant B). Kill variant B
