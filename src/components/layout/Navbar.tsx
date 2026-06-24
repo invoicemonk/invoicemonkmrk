@@ -240,7 +240,7 @@ export function Navbar() {
                       transition={{ duration: 0.2 }}
                       className="absolute top-full left-1/2 -translate-x-1/2 pt-4"
                     >
-                      <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-5 w-[680px]">
+                      <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-5 w-[680px] max-h-[calc(100vh-6rem)] overflow-y-auto overscroll-contain">
                         <Link
                           to="/e-invoicing"
                           className="flex items-center justify-between px-3 py-2 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors mb-4"
