@@ -76,7 +76,7 @@ export const helpGuides: HelpGuide[] = [
         <li><strong>Professional</strong> — Reports, team management, custom templates</li>
         <li><strong>Business</strong> — Full suite with audit logs, multi-currency, and priority support</li>
       </ul>
-      <p>Pricing adjusts by region — Nigerian businesses see prices in Naira. Visit our <a href="/pricing">pricing page</a> for full details.</p>
+      <p>Pricing adjusts by region — Nigerian businesses see prices in Naira. Visit our <a href="/en/pricing">pricing page</a> for full details.</p>
 
       <h2>Step 4: Set Up Payment Methods</h2>
       <p>Go to <strong>Business Settings</strong> and add your payment details (bank account, mobile money, etc.). These appear on your invoices so clients know exactly how to pay you.</p>
@@ -767,7 +767,7 @@ export const helpGuides: HelpGuide[] = [
         <li>Submit and track the ticket status from the Support page</li>
       </ul>
 
-      <p>You can also reach us through our <a href="/contact">contact page</a> or via the live chat widget on our website.</p>
+      <p>You can also reach us through our <a href="/en/contact">contact page</a> or via the live chat widget on our website.</p>
     `,
   },
 ];

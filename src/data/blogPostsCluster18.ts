@@ -121,7 +121,7 @@ A grace period applies from the mandatory start date through June 30, 2026, duri
 
 <h2>Which Software Supports Poland KSeF?</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports KSeF-compliant invoice generation with FA(2) XML export, automated KSeF submission, and real-time status tracking. Our <a href="/compliance">compliance engine</a> validates invoices against KSeF requirements before submission, preventing rejection and penalties.
+<a href="/en/invoicing">Invoicemonk</a> supports KSeF-compliant invoice generation with FA(2) XML export, automated KSeF submission, and real-time status tracking. Our <a href="/en/compliance">compliance engine</a> validates invoices against KSeF requirements before submission, preventing rejection and penalties.
 
 <h2>Frequently Asked Questions</h2>
 
@@ -137,10 +137,10 @@ A grace period applies from the mandatory start date through June 30, 2026, duri
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '16 min read',
     featuredImage: '/images/blog/e-invoicing-pl-hero.jpg',
-    featuredImageAlt: 'Poland KSeF e-invoicing compliance guide',
+    featuredImageAlt: 'Editorial illustration of Poland\'s SEF system clearance hub for the poland e invoicing ksef guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/compliance',
@@ -233,20 +233,20 @@ KSeF performs real-time validation on submission. Common rejection reasons inclu
 <li><strong>XSD Validation:</strong> Validate your XML against the official FA(2) XSD schema published at podatki.gov.pl</li>
 <li><strong>Business Rule Validation:</strong> Check NIP checksums, VAT arithmetic, date logic, and currency rules</li>
 <li><strong>Sandbox Testing:</strong> Submit to the KSeF test environment to catch integration errors</li>
-<li><strong>Use Invoicemonk:</strong> Our <a href="/compliance">compliance engine</a> performs all three validation layers automatically before KSeF submission</li>
+<li><strong>Use Invoicemonk:</strong> Our <a href="/en/compliance">compliance engine</a> performs all three validation layers automatically before KSeF submission</li>
 </ol>
 
 <h2>How Does Invoicemonk Handle FA(2)?</h2>
 
-<a href="/invoicing">Invoicemonk</a> automatically generates FA(2)-compliant XML from your invoice data. Our system handles NIP validation, VAT calculation with proper rounding, and sequential numbering — ensuring every invoice passes KSeF validation on first submission.`,
+<a href="/en/invoicing">Invoicemonk</a> automatically generates FA(2)-compliant XML from your invoice data. Our system handles NIP validation, VAT calculation with proper rounding, and sequential numbering — ensuring every invoice passes KSeF validation on first submission.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '10 min read',
     featuredImage: '/images/blog/poland-ksef-fa2-xml-schema-guide.jpg',
-    featuredImageAlt: 'Poland KSeF FA(2) XML schema technical guide',
+    featuredImageAlt: 'Poland XML schema and technical format requirements',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -341,15 +341,15 @@ Once sandbox testing is successful:
 
 <h2>How Does Invoicemonk Simplify KSeF Registration?</h2>
 
-<a href="/invoicing">Invoicemonk</a> handles KSeF API integration out of the box. Simply enter your NIP and API token, and our system manages FA(2) generation, submission, status tracking, and error handling automatically. Our <a href="/compliance">compliance dashboard</a> shows real-time KSeF submission status for every invoice.`,
+<a href="/en/invoicing">Invoicemonk</a> handles KSeF API integration out of the box. Simply enter your NIP and API token, and our system manages FA(2) generation, submission, status tracking, and error handling automatically. Our <a href="/en/compliance">compliance dashboard</a> shows real-time KSeF submission status for every invoice.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/poland-ksef-registration-setup-guide.jpg',
-    featuredImageAlt: 'KSeF registration setup guide for Polish businesses',
+    featuredImageAlt: 'Editorial illustration of Poland\'s registration and onboarding workflow for the poland ksef registration setup guide guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -433,15 +433,15 @@ If an invoice is rejected or contains errors:
 
 <h2>How Invoicemonk Prevents KSeF Penalties</h2>
 
-<a href="/invoicing">Invoicemonk's</a> built-in <a href="/compliance">compliance engine</a> validates every invoice against KSeF requirements before submission, catching errors that would trigger rejection. Our system maintains a 99%+ first-submission acceptance rate, eliminating late-submission penalties.`,
+<a href="/en/invoicing">Invoicemonk's</a> built-in <a href="/en/compliance">compliance engine</a> validates every invoice against KSeF requirements before submission, catching errors that would trigger rejection. Our system maintains a 99%+ first-submission acceptance rate, eliminating late-submission penalties.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/poland-ksef-penalties-compliance.jpg',
-    featuredImageAlt: 'Poland KSeF penalties and compliance risks',
+    featuredImageAlt: 'Editorial illustration of Poland\'s penalty structure and compliance shield for the poland ksef penalties compliance guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -523,15 +523,15 @@ Most Polish accounting platforms (e.g., wFirma, Fakturownia, InFakt) are adding 
 
 <h2>How Invoicemonk Helps Polish Small Businesses</h2>
 
-<a href="/invoicing">Invoicemonk</a> offers an affordable solution for Polish small businesses and freelancers. Our <a href="/pricing">Pro plan</a> includes FA(2) XML generation and KSeF integration, making compliance accessible without additional software costs.`,
+<a href="/en/invoicing">Invoicemonk</a> offers an affordable solution for Polish small businesses and freelancers. Our <a href="/en/pricing">Pro plan</a> includes FA(2) XML generation and KSeF integration, making compliance accessible without additional software costs.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/poland-ksef-small-business-guide.jpg',
-    featuredImageAlt: 'KSeF guide for Polish small businesses and freelancers',
+    featuredImageAlt: 'Editorial illustration of Poland\'s SEF system clearance hub for the poland ksef small business guide guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/freelancers',
@@ -615,15 +615,15 @@ Foreign companies cannot use Profil Zaufany (it requires a Polish PESEL number).
 
 <h2>How Invoicemonk Supports Foreign Companies in Poland</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic PLN conversion and FA(2) XML generation. Foreign companies can issue KSeF-compliant invoices in their home currency while meeting all Polish VAT requirements.`,
+<a href="/en/invoicing">Invoicemonk</a> supports <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic PLN conversion and FA(2) XML generation. Foreign companies can issue KSeF-compliant invoices in their home currency while meeting all Polish VAT requirements.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/poland-ksef-foreign-companies.jpg',
-    featuredImageAlt: 'Poland KSeF guide for foreign companies',
+    featuredImageAlt: 'Poland rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -729,7 +729,7 @@ SAT enforces significant penalties under the Código Fiscal de la Federación (C
 
 <h2>Which Software Supports Mexico CFDI 4.0?</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports CFDI 4.0 generation with integrated PAC certification, automatic RFC validation against SAT records, and Complemento de Pago management. Our <a href="/compliance">compliance engine</a> validates all mandatory fields before PAC submission.
+<a href="/en/invoicing">Invoicemonk</a> supports CFDI 4.0 generation with integrated PAC certification, automatic RFC validation against SAT records, and Complemento de Pago management. Our <a href="/en/compliance">compliance engine</a> validates all mandatory fields before PAC submission.
 
 <h2>Frequently Asked Questions</h2>
 
@@ -742,10 +742,10 @@ SAT enforces significant penalties under the Código Fiscal de la Federación (C
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '16 min read',
     featuredImage: '/images/blog/e-invoicing-mx-hero.jpg',
-    featuredImageAlt: 'Mexico CFDI 4.0 e-invoicing compliance guide',
+    featuredImageAlt: 'Editorial illustration of Mexico\'s end-to-end e-invoicing compliance guide for the mexico e invoicing cfdi guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/compliance',
@@ -831,15 +831,15 @@ The Uso CFDI field indicates the receiver's intended tax deduction purpose. In C
 
 <h2>How Invoicemonk Handles CFDI 4.0 XML</h2>
 
-<a href="/invoicing">Invoicemonk</a> automatically generates CFDI 4.0-compliant XML with real-time RFC validation against SAT records, ClaveProdServ catalog lookup, and Uso CFDI compatibility checks — preventing the most common rejection errors before PAC submission.`,
+<a href="/en/invoicing">Invoicemonk</a> automatically generates CFDI 4.0-compliant XML with real-time RFC validation against SAT records, ClaveProdServ catalog lookup, and Uso CFDI compatibility checks — preventing the most common rejection errors before PAC submission.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '10 min read',
     featuredImage: '/images/blog/mexico-cfdi-40-xml-requirements.jpg',
-    featuredImageAlt: 'Mexico CFDI 4.0 XML technical requirements',
+    featuredImageAlt: 'Editorial illustration of Mexico\'s XML schema and technical format requirements for the mexico cfdi 40 xml requirements guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -911,15 +911,15 @@ Switching PACs is straightforward because the CFDI format is standardized:
 
 <h2>How Invoicemonk Integrates With PACs</h2>
 
-<a href="/invoicing">Invoicemonk</a> includes built-in PAC integration, handling the certification process transparently. You don't need to manage PAC relationships separately — our system selects the optimal certified provider and handles all API communication, retries, and status tracking.`,
+<a href="/en/invoicing">Invoicemonk</a> includes built-in PAC integration, handling the certification process transparently. You don't need to manage PAC relationships separately — our system selects the optimal certified provider and handles all API communication, retries, and status tracking.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/mexico-pac-provider-guide.jpg',
-    featuredImageAlt: 'Mexico PAC provider selection guide',
+    featuredImageAlt: 'Editorial illustration of Mexico\'s end-to-end e-invoicing compliance guide for the mexico pac provider guide guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -998,15 +998,15 @@ A single payment covering multiple invoices generates one REP with multiple Doct
 
 <h2>How Invoicemonk Automates Complemento de Pago</h2>
 
-<a href="/invoicing">Invoicemonk</a> automatically tracks PPD invoices and generates Complemento de Pago CFDIs when payments are recorded. Our system handles partial payment tracking, balance calculations, and tax breakdowns per related document — ensuring 5-day deadline compliance.`,
+<a href="/en/invoicing">Invoicemonk</a> automatically tracks PPD invoices and generates Complemento de Pago CFDIs when payments are recorded. Our system handles partial payment tracking, balance calculations, and tax breakdowns per related document — ensuring 5-day deadline compliance.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/mexico-cfdi-complemento-pago-guide.jpg',
-    featuredImageAlt: 'Mexico Complemento de Pago payment receipt guide',
+    featuredImageAlt: 'Editorial illustration of Mexico\'s end-to-end e-invoicing compliance guide for the mexico cfdi complemento pago guide guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/payments',
@@ -1078,15 +1078,15 @@ CFDIs can only be cancelled within the same fiscal year they were issued or with
 
 <h2>How Invoicemonk Manages CFDI Cancellations</h2>
 
-<a href="/invoicing">Invoicemonk</a> streamlines CFDI cancellation with automated motivo code selection, replacement CFDI linking, and receiver notification tracking. Our system monitors the 72-hour acceptance window and alerts you when action is needed.`,
+<a href="/en/invoicing">Invoicemonk</a> streamlines CFDI cancellation with automated motivo code selection, replacement CFDI linking, and receiver notification tracking. Our system monitors the 72-hour acceptance window and alerts you when action is needed.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/mexico-cfdi-cancellation-rules.jpg',
-    featuredImageAlt: 'Mexico CFDI cancellation rules and process',
+    featuredImageAlt: 'Editorial illustration of Mexico\'s e-invoicing compliance workflow for the mexico cfdi cancellation rules guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1162,15 +1162,15 @@ SAT uses automated systems to flag non-compliance:
 
 <h2>How Invoicemonk Prevents CFDI Penalties</h2>
 
-<a href="/invoicing">Invoicemonk's</a> <a href="/compliance">compliance engine</a> validates all CFDI fields before PAC submission, automatically generates Complemento de Pago within the 5-day window, and maintains a complete audit trail — the three key factors in avoiding SAT penalties.`,
+<a href="/en/invoicing">Invoicemonk's</a> <a href="/en/compliance">compliance engine</a> validates all CFDI fields before PAC submission, automatically generates Complemento de Pago within the 5-day window, and maintains a complete audit trail — the three key factors in avoiding SAT penalties.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/mexico-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'Mexico SAT CFDI penalties and fines',
+    featuredImageAlt: 'Mexico penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -1236,15 +1236,15 @@ When a Mexican company pays a non-resident without PE:
 
 <h2>How Invoicemonk Supports Foreign Companies in Mexico</h2>
 
-<a href="/invoicing">Invoicemonk</a> provides <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic MXN conversion, CFDI 4.0 generation for companies with Mexican RFC, and withholding tax calculation support for cross-border transactions.`,
+<a href="/en/invoicing">Invoicemonk</a> provides <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic MXN conversion, CFDI 4.0 generation for companies with Mexican RFC, and withholding tax calculation support for cross-border transactions.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/mexico-e-invoicing-foreign-companies.jpg',
-    featuredImageAlt: 'Mexico CFDI guide for foreign companies',
+    featuredImage: '/blog/colombia-e-invoicing-dian-guide.jpg',
+    featuredImageAlt: 'Mexico rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1345,15 +1345,15 @@ DIAN uses UBL 2.1 (Universal Business Language) with Colombian extensions:
 
 <h2>Which Software Supports Colombia E-Invoicing?</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports Colombian facturación electrónica with UBL 2.1 generation, CUFE calculation, and DIAN validation integration. Our <a href="/compliance">compliance engine</a> ensures all invoices pass DIAN validation before submission.`,
+<a href="/en/invoicing">Invoicemonk</a> supports Colombian facturación electrónica with UBL 2.1 generation, CUFE calculation, and DIAN validation integration. Our <a href="/en/compliance">compliance engine</a> ensures all invoices pass DIAN validation before submission.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '15 min read',
-    featuredImage: '/images/blog/e-invoicing-co-hero.jpg',
-    featuredImageAlt: 'Colombia DIAN e-invoicing compliance guide',
+    featuredImage: '/blog/colombia-documento-soporte-guide.jpg',
+    featuredImageAlt: 'Editorial illustration of Colombia\'s DIAN clearance hub and invoice validation for the colombia e invoicing dian guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/compliance',
@@ -1431,15 +1431,15 @@ Documento Soporte is NOT required for:
 
 <h2>How Invoicemonk Handles Documento Soporte</h2>
 
-<a href="/invoicing">Invoicemonk</a> includes Documento Soporte generation as part of the Colombian compliance module. Flag any supplier as "non-obligado a facturar" and our system automatically generates the correct document type with CUDE calculation and DIAN submission.`,
+<a href="/en/invoicing">Invoicemonk</a> includes Documento Soporte generation as part of the Colombian compliance module. Flag any supplier as "non-obligado a facturar" and our system automatically generates the correct document type with CUDE calculation and DIAN submission.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/colombia-documento-soporte-guide.jpg',
-    featuredImageAlt: 'Colombia Documento Soporte compliance guide',
+    featuredImage: '/blog/colombia-nomina-electronica-guide.jpg',
+    featuredImageAlt: 'Colombia Documento Soporte for non-obligated suppliers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -1513,15 +1513,15 @@ Each Nómina Electrónica document must include:
 
 <h2>How Invoicemonk Supports Nómina Electrónica</h2>
 
-While <a href="/invoicing">Invoicemonk</a> primarily focuses on invoicing, our Colombian compliance module integrates with payroll systems to ensure nómina electrónica submissions are tracked alongside other DIAN obligations, providing a unified <a href="/compliance">compliance dashboard</a>.`,
+While <a href="/en/invoicing">Invoicemonk</a> primarily focuses on invoicing, our Colombian compliance module integrates with payroll systems to ensure nómina electrónica submissions are tracked alongside other DIAN obligations, providing a unified <a href="/en/compliance">compliance dashboard</a>.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/colombia-nomina-electronica-guide.jpg',
-    featuredImageAlt: 'Colombia Nómina Electrónica payroll compliance',
+    featuredImage: '/blog/colombia-e-invoicing-nota-credito-debito.jpg',
+    featuredImageAlt: 'Colombia electronic payroll (Nómina Electrónica) flow',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -1601,15 +1601,15 @@ A Nota Débito (debit note) increases the value of a previously issued invoice:
 
 <h2>How Invoicemonk Manages Credit & Debit Notes</h2>
 
-<a href="/invoicing">Invoicemonk</a> links credit and debit notes to original invoices automatically, generating the correct CUFE reference, discrepancy reason code, and UBL 2.1 XML. Our system updates the invoice balance in real-time and submits notes to DIAN through our <a href="/compliance">compliance pipeline</a>.`,
+<a href="/en/invoicing">Invoicemonk</a> links credit and debit notes to original invoices automatically, generating the correct CUFE reference, discrepancy reason code, and UBL 2.1 XML. Our system updates the invoice balance in real-time and submits notes to DIAN through our <a href="/en/compliance">compliance pipeline</a>.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/colombia-e-invoicing-nota-credito-debito.jpg',
-    featuredImageAlt: 'Colombia credit and debit notes e-invoicing guide',
+    featuredImage: '/blog/colombia-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Editorial illustration of Colombia\'s credit and debit note handling for the colombia e invoicing nota credito debito guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1678,15 +1678,15 @@ A Nota Débito (debit note) increases the value of a previously issued invoice:
 
 <h2>How Invoicemonk Prevents DIAN Penalties</h2>
 
-<a href="/invoicing">Invoicemonk's</a> <a href="/compliance">compliance engine</a> validates all e-invoice fields before DIAN submission, tracks transmission deadlines, and maintains the complete document chain (invoices, credit/debit notes, Documentos Soporte) required for audit defense.`,
+<a href="/en/invoicing">Invoicemonk's</a> <a href="/en/compliance">compliance engine</a> validates all e-invoice fields before DIAN submission, tracks transmission deadlines, and maintains the complete document chain (invoices, credit/debit notes, Documentos Soporte) required for audit defense.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/colombia-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'Colombia DIAN e-invoicing penalties and fines',
+    featuredImage: '/blog/colombia-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Colombia penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -1753,15 +1753,15 @@ When Colombian companies pay non-resident suppliers:
 
 <h2>How Invoicemonk Supports Foreign Companies in Colombia</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with UBL 2.1 generation for Colombian compliance. Foreign companies with NIT can issue DIAN-validated e-invoices while maintaining their home currency for international operations.`,
+<a href="/en/invoicing">Invoicemonk</a> supports <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with UBL 2.1 generation for Colombian compliance. Foreign companies with NIT can issue DIAN-validated e-invoices while maintaining their home currency for international operations.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/colombia-e-invoicing-foreign-companies.jpg',
-    featuredImageAlt: 'Colombia e-invoicing guide for foreign companies',
+    featuredImage: '/blog/colombia-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Colombia rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1855,15 +1855,15 @@ Alongside RO e-Factura, Romania operates the e-Transport system for tracking phy
 
 <h2>Which Software Supports RO e-Factura?</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports RO e-Factura with CIUS-RO XML generation, ANAF SPV integration, and real-time submission tracking. Our <a href="/compliance">compliance engine</a> validates invoices against ANAF's rules before submission.`,
+<a href="/en/invoicing">Invoicemonk</a> supports RO e-Factura with CIUS-RO XML generation, ANAF SPV integration, and real-time submission tracking. Our <a href="/en/compliance">compliance engine</a> validates invoices against ANAF's rules before submission.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '14 min read',
     featuredImage: '/images/blog/e-invoicing-ro-hero.jpg',
-    featuredImageAlt: 'Romania RO e-Factura ANAF compliance guide',
+    featuredImageAlt: 'Editorial illustration of Romania\'s end-to-end e-invoicing compliance guide for the romania e invoicing anaf guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/compliance',
@@ -1937,15 +1937,15 @@ CIUS-RO is Romania's implementation of the European e-invoice standard, building
 
 <h2>How Invoicemonk Handles CIUS-RO</h2>
 
-<a href="/invoicing">Invoicemonk</a> generates CIUS-RO compliant UBL 2.1 XML automatically, validates against ANAF rules before submission, and handles CUI verification through the official ANAF API — ensuring first-submission acceptance.`,
+<a href="/en/invoicing">Invoicemonk</a> generates CIUS-RO compliant UBL 2.1 XML automatically, validates against ANAF rules before submission, and handles CUI verification through the official ANAF API — ensuring first-submission acceptance.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/romania-cius-ro-xml-format-guide.jpg',
-    featuredImageAlt: 'Romania CIUS-RO XML format technical guide',
+    featuredImageAlt: 'Romania XML schema and technical format requirements',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -2008,15 +2008,15 @@ The two systems are linked — the e-invoice (RO e-Factura) documents the transa
 
 <h2>How Invoicemonk Supports e-Transport Compliance</h2>
 
-<a href="/invoicing">Invoicemonk's</a> Romanian compliance module links e-invoices to e-Transport declarations, ensuring that every invoiced goods delivery has a corresponding UIT code. Our <a href="/compliance">compliance dashboard</a> flags missing transport registrations.`,
+<a href="/en/invoicing">Invoicemonk's</a> Romanian compliance module links e-invoices to e-Transport declarations, ensuring that every invoiced goods delivery has a corresponding UIT code. Our <a href="/en/compliance">compliance dashboard</a> flags missing transport registrations.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/romania-e-transport-compliance-guide.jpg',
-    featuredImageAlt: 'Romania e-Transport goods monitoring system',
+    featuredImageAlt: 'Romania end-to-end e-invoicing compliance guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -2076,15 +2076,15 @@ The two systems are linked — the e-invoice (RO e-Factura) documents the transa
 
 <h2>How Invoicemonk Prevents ANAF Penalties</h2>
 
-<a href="/invoicing">Invoicemonk's</a> <a href="/compliance">compliance engine</a> validates every invoice against CIUS-RO requirements, ensures 5-day submission deadlines are met, and verifies CUI/CIF data against ANAF's registry before submission.`,
+<a href="/en/invoicing">Invoicemonk's</a> <a href="/en/compliance">compliance engine</a> validates every invoice against CIUS-RO requirements, ensures 5-day submission deadlines are met, and verifies CUI/CIF data against ANAF's registry before submission.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/romania-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'Romania ANAF e-invoicing penalties',
+    featuredImageAlt: 'Romania penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -2143,15 +2143,15 @@ The two systems are linked — the e-invoice (RO e-Factura) documents the transa
 
 <h2>How Invoicemonk Supports Foreign Companies in Romania</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic RON conversion and CIUS-RO XML generation, enabling foreign companies to meet ANAF requirements while invoicing in their home currency.`,
+<a href="/en/invoicing">Invoicemonk</a> supports <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic RON conversion and CIUS-RO XML generation, enabling foreign companies to meet ANAF requirements while invoicing in their home currency.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/romania-e-invoicing-foreign-companies.jpg',
-    featuredImageAlt: 'Romania e-invoicing guide for foreign companies',
+    featuredImageAlt: 'Romania rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2244,15 +2244,15 @@ NAV actively monitors compliance — their system can detect missing reports by 
 
 <h2>Which Software Supports NAV Online Számla?</h2>
 
-<a href="/invoicing">Invoicemonk</a> includes automatic NAV Online Számla reporting with XML 3.0 generation, real-time API submission, and compliance monitoring. Our <a href="/compliance">compliance dashboard</a> tracks submission status for every invoice.`,
+<a href="/en/invoicing">Invoicemonk</a> includes automatic NAV Online Számla reporting with XML 3.0 generation, real-time API submission, and compliance monitoring. Our <a href="/en/compliance">compliance dashboard</a> tracks submission status for every invoice.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '14 min read',
-    featuredImage: '/images/blog/e-invoicing-hu-hero.jpg',
-    featuredImageAlt: 'Hungary NAV Online Számla RTIR compliance guide',
+    featuredImage: '/blog/hungary-nav-online-szamla-xml-guide.jpg',
+    featuredImageAlt: 'Editorial illustration of Hungary\'s NAV Online Számla real-time reporting for the hungary e invoicing nav rtir guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/compliance',
@@ -2338,15 +2338,15 @@ NAV API uses a two-layer authentication:
 
 <h2>How Invoicemonk Handles NAV XML 3.0</h2>
 
-<a href="/invoicing">Invoicemonk</a> automatically generates NAV XML 3.0 from invoice data, handles API authentication, and submits in real-time. Our <a href="/compliance">compliance engine</a> validates all fields and arithmetic before submission, preventing the most common rejection errors.`,
+<a href="/en/invoicing">Invoicemonk</a> automatically generates NAV XML 3.0 from invoice data, handles API authentication, and submits in real-time. Our <a href="/en/compliance">compliance engine</a> validates all fields and arithmetic before submission, preventing the most common rejection errors.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '10 min read',
-    featuredImage: '/images/blog/hungary-nav-online-szamla-xml-guide.jpg',
-    featuredImageAlt: 'Hungary NAV Online Számla XML 3.0 technical guide',
+    featuredImage: '/blog/hungary-nav-rtir-registration-setup.jpg',
+    featuredImageAlt: 'Hungary XML schema and technical format requirements',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -2424,15 +2424,15 @@ Switch your invoicing software to the production API endpoint and begin real-tim
 
 <h2>How Invoicemonk Simplifies NAV Setup</h2>
 
-<a href="/invoicing">Invoicemonk</a> requires only your adószám and technical user credentials to begin automated NAV reporting. Our system handles API authentication, XML generation, and real-time submission — no manual API configuration needed.`,
+<a href="/en/invoicing">Invoicemonk</a> requires only your adószám and technical user credentials to begin automated NAV reporting. Our system handles API authentication, XML generation, and real-time submission — no manual API configuration needed.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/hungary-nav-rtir-registration-setup.jpg',
-    featuredImageAlt: 'Hungary NAV Online Számla registration guide',
+    featuredImage: '/blog/hungary-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Editorial illustration of Hungary\'s registration and onboarding workflow for the hungary nav rtir registration setup guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -2493,15 +2493,15 @@ However, this is discretionary — NAV can impose full penalties from the first 
 
 <h2>How Invoicemonk Prevents NAV Penalties</h2>
 
-<a href="/invoicing">Invoicemonk's</a> <a href="/compliance">compliance engine</a> ensures every invoice is automatically reported to NAV within the required timeframe. Our system retries failed submissions, alerts on validation errors, and provides a compliance dashboard showing real-time reporting status.`,
+<a href="/en/invoicing">Invoicemonk's</a> <a href="/en/compliance">compliance engine</a> ensures every invoice is automatically reported to NAV within the required timeframe. Our system retries failed submissions, alerts on validation errors, and provides a compliance dashboard showing real-time reporting status.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/hungary-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'Hungary NAV e-invoicing penalties',
+    featuredImage: '/blog/hungary-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Hungary penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -2571,15 +2571,15 @@ For invoices in foreign currency:
 
 <h2>How Invoicemonk Supports Foreign Companies in Hungary</h2>
 
-<a href="/invoicing">Invoicemonk</a> supports <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic MNB exchange rate lookup and NAV XML 3.0 generation. Foreign companies can invoice in their home currency while our system handles the HUF conversion and real-time NAV reporting.`,
+<a href="/en/invoicing">Invoicemonk</a> supports <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> with automatic MNB exchange rate lookup and NAV XML 3.0 generation. Foreign companies can invoice in their home currency while our system handles the HUF conversion and real-time NAV reporting.`,
     category: 'Tax and Compliance',
     tags: [],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/hungary-e-invoicing-foreign-companies.jpg',
-    featuredImageAlt: 'Hungary e-invoicing guide for foreign companies',
+    featuredImage: '/blog/hungary-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Hungary rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',

@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
-import { useLocation, useParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useLocale } from '@/hooks/useLocale';
-import { urlPrefixToCountry } from '@/locales';
 
 interface SEOHeadProps {
   title: string;
@@ -17,9 +16,16 @@ interface SEOHeadProps {
     modifiedTime?: string;
     author: string;
     section: string;
+    tags?: string[];
   };
 }
 
+/**
+ * Single-locale SEO head. Do NOT add hreflang tags, alternate-language
+ * links, or geo.region meta here — the project ships English only and a
+ * past attempt to expose alternates damaged indexing.
+ * See mem://constraints/single-locale.
+ */
 export function SEOHead({
   title,
   description,
@@ -33,13 +39,9 @@ export function SEOHead({
 }: SEOHeadProps) {
   const { locale } = useLocale();
   const location = useLocation();
-  const { lang } = useParams<{ lang: string }>();
   const baseUrl = 'https://invoicemonk.com';
 
   const fullCanonical = canonical || `${baseUrl}${location.pathname}`;
-
-  // Geo region from URL country prefix (still useful when present)
-  const countryCode = lang ? urlPrefixToCountry[lang.toLowerCase()] : undefined;
 
   return (
     <Helmet>
@@ -48,7 +50,6 @@ export function SEOHead({
       <meta name="description" content={description} />
       <meta name="author" content="Invoicemonk" />
       {noindex && <meta name="robots" content="noindex, nofollow" />}
-      {countryCode && <meta name="geo.region" content={countryCode} />}
 
       {/* Canonical – self-referencing */}
       <link rel="canonical" href={fullCanonical} />
@@ -82,6 +83,9 @@ export function SEOHead({
           )}
           <meta property="article:author" content={article.author} />
           <meta property="article:section" content={article.section} />
+          {article.tags?.map((tag) => (
+            <meta key={tag} property="article:tag" content={tag} />
+          ))}
         </>
       )}
     </Helmet>

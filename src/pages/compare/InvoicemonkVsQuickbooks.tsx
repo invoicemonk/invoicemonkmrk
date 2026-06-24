@@ -10,6 +10,7 @@ import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
+import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -263,6 +264,9 @@ export default function InvoicemonkVsQuickbooks() {
         </section>
 
         <InlineSignupCTA variant="banner" />
+
+        <MandateMatrixSection />
+
 
         <section className="py-16 bg-primary">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-2xl">

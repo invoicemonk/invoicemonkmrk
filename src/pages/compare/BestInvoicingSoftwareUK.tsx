@@ -8,6 +8,7 @@ import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
+import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 
 const tools = [
   {
@@ -122,6 +123,9 @@ export default function BestInvoicingSoftwareUK() {
       </section>
 
       <InlineSignupCTA variant="banner" />
+
+      <MandateMatrixSection highlightSlug="mtd-uk" />
+
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

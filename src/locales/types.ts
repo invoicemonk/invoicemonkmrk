@@ -85,7 +85,6 @@ export interface LocaleConfig {
   taxLabels: { primary: string; rate?: string };
 }
 
-export type SupportedCountry = "NG" | "US" | "CA" | "GB" | "AU" | "GH" | "KE" | "ZA"
-  | "PH" | "ZW" | "IN" | "SC" | "DE" | "BR" | "NZ" | "FR" | "ES" | "SA" | "MY";
-
+/** Single locale only. See src/locales/index.ts for the rationale. */
+export type SupportedCountry = "US";
 export type SupportedLanguage = "en";

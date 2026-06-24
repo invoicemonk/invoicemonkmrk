@@ -24,7 +24,7 @@ export const cluster14Posts: BlogPost[] = [
       <p>ZUGFeRD was developed by the Forum elektronische Rechnung Deutschland (FeRD) under the umbrella of the AWV (Arbeitsgemeinschaft für wirtschaftliche Verwaltung). The format is based on the European standard EN 16931 and is fully compatible with the EU's Directive 2014/55/EU on electronic invoicing in public procurement.</p>
 
       <h2>ZUGFeRD vs XRechnung: What's the Difference?</h2>
-      <p>German businesses often encounter two e-invoicing formats: ZUGFeRD and <a href="/blog/germany-xrechnung-guide">XRechnung</a>. While both comply with EN 16931, they serve different purposes:</p>
+      <p>German businesses often encounter two e-invoicing formats: ZUGFeRD and <a href="/en/blog/germany-xrechnung-guide">XRechnung</a>. While both comply with EN 16931, they serve different purposes:</p>
       <ul>
         <li><strong>ZUGFeRD</strong> is a hybrid PDF/XML format designed primarily for B2B transactions. The PDF component makes it accessible to businesses of all sizes — even those without specialized e-invoicing software.</li>
         <li><strong>XRechnung</strong> is a pure XML format required for B2G (business-to-government) invoicing in Germany. It contains no visual component — only structured data that government procurement systems process automatically.</li>
@@ -55,12 +55,12 @@ export const cluster14Posts: BlogPost[] = [
         <li><strong>2027</strong>: Businesses with turnover above €800,000 must send e-invoices.</li>
         <li><strong>2028</strong>: All businesses must send e-invoices for domestic B2B transactions.</li>
       </ul>
-      <p>For a complete timeline, see our <a href="/blog/germany-e-invoice-obligation-2025">Germany E-Invoice Obligation 2025 guide</a>.</p>
+      <p>For a complete timeline, see our <a href="/en/blog/germany-e-invoice-obligation-2025">Germany E-Invoice Obligation 2025 guide</a>.</p>
 
       <h2>How to Create ZUGFeRD Invoices</h2>
       <p>Creating ZUGFeRD-compliant invoices requires software that can generate the hybrid PDF/A-3 file with embedded XML. Here is the typical process:</p>
       <ol>
-        <li><strong>Create your invoice</strong> in your <a href="/invoicing">invoicing software</a> with all mandatory fields: seller and buyer details, tax numbers (Steuernummer or USt-IdNr.), line items with net amounts, VAT rates, and totals.</li>
+        <li><strong>Create your invoice</strong> in your <a href="/en/invoicing">invoicing software</a> with all mandatory fields: seller and buyer details, tax numbers (Steuernummer or USt-IdNr.), line items with net amounts, VAT rates, and totals.</li>
         <li><strong>Select the ZUGFeRD profile</strong> appropriate for your use case. For most B2B transactions, "Basic" or "EN 16931" is sufficient. For government invoices, select the "XRechnung" profile.</li>
         <li><strong>Export as ZUGFeRD</strong>. Your software generates a PDF/A-3 file with the factur-x.xml attachment containing the structured invoice data.</li>
         <li><strong>Send to your client</strong>. The recipient can view the PDF normally or import the XML into their accounting system automatically.</li>
@@ -79,7 +79,7 @@ export const cluster14Posts: BlogPost[] = [
         <li>Payment terms and bank details (IBAN, BIC)</li>
         <li>Delivery date or service period</li>
       </ul>
-      <p>For businesses using the <a href="/blog/germany-kleinunternehmer-invoicing">Kleinunternehmerregelung</a> (small business VAT exemption), invoices must include a note stating that no VAT is charged under §19 UStG.</p>
+      <p>For businesses using the <a href="/en/blog/germany-kleinunternehmer-invoicing">Kleinunternehmerregelung</a> (small business VAT exemption), invoices must include a note stating that no VAT is charged under §19 UStG.</p>
 
       <h2>ZUGFeRD for Cross-Border EU Trade</h2>
       <p>Because ZUGFeRD 2.x is based on EN 16931 and is technically identical to France's Factur-X, it works seamlessly for cross-border B2B transactions within the EU. Italian businesses using SDI, Romanian businesses on e-Factura, and Hungarian businesses reporting through NAV RTIR can all process the XML component of a ZUGFeRD invoice.</p>
@@ -94,7 +94,7 @@ export const cluster14Posts: BlogPost[] = [
         <li>XRechnung profile for B2G invoicing</li>
         <li>Integration with ELSTER for tax reporting</li>
       </ul>
-      <p>Invoicemonk generates <a href="/invoicing">tax-compliant invoices</a> with all mandatory German fields, making ZUGFeRD compliance straightforward for freelancers and small businesses.</p>
+      <p>Invoicemonk generates <a href="/en/invoicing">tax-compliant invoices</a> with all mandatory German fields, making ZUGFeRD compliance straightforward for freelancers and small businesses.</p>
 
       <h2>Common ZUGFeRD Mistakes to Avoid</h2>
       <ul>
@@ -109,11 +109,11 @@ export const cluster14Posts: BlogPost[] = [
     tags: ['zugferd', 'e-invoicing', 'germany', 'en 16931', 'electronic invoice', 'factur-x', 'b2b invoicing'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '12 min read',
     featuredImage: '/images/blog/germany-zugferd-guide.jpg',
-    featuredImageAlt: 'ZUGFeRD e-invoice format diagram showing PDF and XML layers',
+    featuredImageAlt: 'Editorial illustration of Germany\'s end-to-end e-invoicing compliance guide for the germany zugferd e invoice guide guide',
     clusterType: 'cluster',
     targetProduct: '/invoicing',
     targetCountry: 'de',
@@ -142,7 +142,7 @@ export const cluster14Posts: BlogPost[] = [
     excerpt: 'Complete guide to XRechnung — Germany\'s mandatory e-invoice format for government invoicing. Learn the format, Leitweg-ID, Peppol delivery, and how to create compliant XRechnung invoices.',
     content: `
       <h2>What Is XRechnung?</h2>
-      <p>XRechnung is Germany's national standard for electronic invoicing to public sector entities. It is a pure XML format — unlike <a href="/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a>, there is no human-readable PDF component. XRechnung invoices are processed entirely by machines, making them ideal for automated government procurement workflows.</p>
+      <p>XRechnung is Germany's national standard for electronic invoicing to public sector entities. It is a pure XML format — unlike <a href="/en/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a>, there is no human-readable PDF component. XRechnung invoices are processed entirely by machines, making them ideal for automated government procurement workflows.</p>
       <p>The format was developed by KoSIT (Koordinierungsstelle für IT-Standards) and is mandatory for all invoices to German federal government agencies since November 2020. Most German state governments (Länder) have adopted the same requirement, though some accept ZUGFeRD with an XRechnung profile as an alternative.</p>
 
       <h2>When Is XRechnung Required?</h2>
@@ -152,7 +152,7 @@ export const cluster14Posts: BlogPost[] = [
         <li><strong>State governments (Länder)</strong> — most states have adopted similar mandates, though timelines vary. Check your specific Bundesland.</li>
         <li><strong>Municipalities</strong> — adoption is ongoing; many larger municipalities already require XRechnung</li>
       </ul>
-      <p>For B2B transactions between private companies, XRechnung is not required — but Germany's 2025 e-invoice obligation means businesses must accept structured formats including XRechnung. Most B2B scenarios use <a href="/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a> instead.</p>
+      <p>For B2B transactions between private companies, XRechnung is not required — but Germany's 2025 e-invoice obligation means businesses must accept structured formats including XRechnung. Most B2B scenarios use <a href="/en/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a> instead.</p>
 
       <h2>XRechnung Format and Structure</h2>
       <p>An XRechnung invoice is an XML file that conforms to two specifications simultaneously:</p>
@@ -184,7 +184,7 @@ export const cluster14Posts: BlogPost[] = [
       <h3>2. OZG-RE (Onlinezugangsgesetz Rechnungseingang)</h3>
       <p>A platform used by several German states for receiving e-invoices. Similar to ZRE but operated at the state level.</p>
       <h3>3. Peppol Network</h3>
-      <p>The Pan-European Public Procurement OnLine network. If your <a href="/invoicing">invoicing software</a> supports Peppol, you can deliver XRechnung invoices directly to the government's Peppol access point — no manual upload required.</p>
+      <p>The Pan-European Public Procurement OnLine network. If your <a href="/en/invoicing">invoicing software</a> supports Peppol, you can deliver XRechnung invoices directly to the government's Peppol access point — no manual upload required.</p>
       <h3>4. Email with XML attachment</h3>
       <p>Some smaller municipalities accept XRechnung files as email attachments, though this is becoming less common as dedicated platforms roll out.</p>
 
@@ -212,7 +212,7 @@ export const cluster14Posts: BlogPost[] = [
 
       <h2>XRechnung and ZUGFeRD: Using Both</h2>
       <p>Since ZUGFeRD 2.1, you can generate a ZUGFeRD file with the "XRechnung" profile. This produces a hybrid PDF/XML that contains the XRechnung-compliant XML data embedded in a PDF/A-3 container. Some government agencies accept this format, but not all — check with your specific recipient.</p>
-      <p>For maximum compatibility, generate pure XRechnung XML for B2G invoicing and ZUGFeRD for B2B transactions. Your <a href="/invoicing">invoicing software</a> should handle both formats.</p>
+      <p>For maximum compatibility, generate pure XRechnung XML for B2G invoicing and ZUGFeRD for B2B transactions. Your <a href="/en/invoicing">invoicing software</a> should handle both formats.</p>
 
       <h2>Getting Started with XRechnung</h2>
       <p>If you invoice German government agencies, here is your checklist:</p>
@@ -228,11 +228,11 @@ export const cluster14Posts: BlogPost[] = [
     tags: ['xrechnung', 'e-invoicing', 'germany', 'b2g', 'peppol', 'leitweg-id', 'government invoicing'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '11 min read',
     featuredImage: '/images/blog/germany-xrechnung-guide.jpg',
-    featuredImageAlt: 'XRechnung XML invoice format for German government invoicing',
+    featuredImageAlt: 'Editorial illustration of Germany\'s end-to-end e-invoicing compliance guide for the germany xrechnung guide guide',
     clusterType: 'cluster',
     targetProduct: '/invoicing',
     targetCountry: 'de',
@@ -287,7 +287,7 @@ export const cluster14Posts: BlogPost[] = [
         <li>The gross amount (which equals the net amount since there's no VAT)</li>
         <li>Delivery date or service period</li>
       </ul>
-      <p>Using <a href="/invoicing">invoicing software</a> that supports the Kleinunternehmer setting ensures the §19 UStG note is automatically included and that no VAT calculation appears on your invoices.</p>
+      <p>Using <a href="/en/invoicing">invoicing software</a> that supports the Kleinunternehmer setting ensures the §19 UStG note is automatically included and that no VAT calculation appears on your invoices.</p>
 
       <h2>Critical Mistakes That Trigger VAT Liability</h2>
       <h3>1. Accidentally Showing VAT on an Invoice</h3>
@@ -300,9 +300,9 @@ export const cluster14Posts: BlogPost[] = [
       <p>Kleinunternehmer should use their Steuernummer, not a USt-IdNr. If you display a VAT ID, clients will expect VAT charges, and the Finanzamt may interpret it as opting for Regelbesteuerung.</p>
 
       <h2>Kleinunternehmer and E-Invoicing in 2025</h2>
-      <p>Germany's new <a href="/blog/germany-e-invoice-obligation-2025">e-invoice obligation starting 2025</a> applies to all businesses — including Kleinunternehmer. This means:</p>
+      <p>Germany's new <a href="/en/blog/germany-e-invoice-obligation-2025">e-invoice obligation starting 2025</a> applies to all businesses — including Kleinunternehmer. This means:</p>
       <ul>
-        <li>From 2025, you must be able to <strong>receive</strong> e-invoices (<a href="/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a> or <a href="/blog/germany-xrechnung-guide">XRechnung</a>)</li>
+        <li>From 2025, you must be able to <strong>receive</strong> e-invoices (<a href="/en/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a> or <a href="/en/blog/germany-xrechnung-guide">XRechnung</a>)</li>
         <li>From 2028, you must <strong>send</strong> e-invoices for domestic B2B transactions</li>
         <li>The Kleinunternehmer exemption from VAT does <strong>not</strong> exempt you from e-invoicing</li>
       </ul>
@@ -325,18 +325,18 @@ export const cluster14Posts: BlogPost[] = [
         <li>Never show a VAT rate or VAT amount — total = net amount</li>
         <li>Keep sequential invoice numbers for audit readiness</li>
         <li>Prepare for e-invoice receiving capability by 2025</li>
-        <li>Use <a href="/invoicing">compliant invoicing software</a> that supports the Kleinunternehmer mode</li>
+        <li>Use <a href="/en/invoicing">compliant invoicing software</a> that supports the Kleinunternehmer mode</li>
       </ol>
     `,
     category: 'Tax and Compliance',
     tags: ['kleinunternehmer', 'germany', 'vat exemption', 'small business', 'freelancer germany', '§19 UStG', 'invoicing without vat'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/germany-kleinunternehmer.jpg',
-    featuredImageAlt: 'German freelancer reviewing Kleinunternehmer invoice without VAT',
+    featuredImageAlt: 'Editorial illustration of Germany\'s e-invoicing compliance workflow for the germany kleinunternehmer invoicing guide',
     clusterType: 'cluster',
     targetProduct: '/invoicing',
     targetCountry: 'de',
@@ -396,7 +396,7 @@ export const cluster14Posts: BlogPost[] = [
         <li><strong>Display your USt-IdNr.</strong> (VAT ID) and the buyer's USt-IdNr. for cross-border transactions</li>
         <li><strong>Include all standard §14 UStG fields</strong> — invoice number, date, descriptions, amounts, delivery date</li>
       </ol>
-      <p>Using <a href="/invoicing">invoicing software</a> with reverse charge support automates the correct note placement and ensures no VAT is accidentally calculated.</p>
+      <p>Using <a href="/en/invoicing">invoicing software</a> with reverse charge support automates the correct note placement and ensures no VAT is accidentally calculated.</p>
 
       <h2>Reverse Charge Invoice Example</h2>
       <p>Here's what changes compared to a standard invoice:</p>
@@ -429,18 +429,18 @@ export const cluster14Posts: BlogPost[] = [
       </ul>
 
       <h2>Reverse Charge and E-Invoicing</h2>
-      <p>With Germany's <a href="/blog/germany-e-invoice-obligation-2025">2025 e-invoicing obligation</a>, reverse charge invoices must also be transmitted as structured e-invoices (ZUGFeRD or XRechnung). The XML format has specific fields for indicating reverse charge status — your <a href="/invoicing">invoicing software</a> should handle this automatically.</p>
-      <p>In <a href="/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a>, the tax category code "AE" indicates reverse charge. In <a href="/blog/germany-xrechnung-guide">XRechnung</a>, the same code is used in the tax breakdown section.</p>
+      <p>With Germany's <a href="/en/blog/germany-e-invoice-obligation-2025">2025 e-invoicing obligation</a>, reverse charge invoices must also be transmitted as structured e-invoices (ZUGFeRD or XRechnung). The XML format has specific fields for indicating reverse charge status — your <a href="/en/invoicing">invoicing software</a> should handle this automatically.</p>
+      <p>In <a href="/en/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a>, the tax category code "AE" indicates reverse charge. In <a href="/en/blog/germany-xrechnung-guide">XRechnung</a>, the same code is used in the tax breakdown section.</p>
     `,
     category: 'Tax and Compliance',
     tags: ['reverse charge', 'germany', 'vat', '§13b UStG', 'cross-border invoicing', 'eu vat', 'construction reverse charge'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '11 min read',
     featuredImage: '/images/blog/germany-reverse-charge.jpg',
-    featuredImageAlt: 'Reverse charge VAT mechanism diagram for German invoicing',
+    featuredImageAlt: 'Editorial illustration of Germany\'s e-invoicing compliance workflow for the germany vat reverse charge invoicing guide',
     clusterType: 'cluster',
     targetProduct: '/invoicing',
     targetCountry: 'de',
@@ -468,13 +468,13 @@ export const cluster14Posts: BlogPost[] = [
     content: `
       <h2>What Changed on January 1, 2025?</h2>
       <p>Germany's Wachstumschancengesetz (Growth Opportunities Act), passed in March 2024, introduced a mandatory e-invoicing obligation for all domestic B2B transactions. Starting January 1, 2025, every German business must be able to <strong>receive</strong> electronic invoices in structured formats.</p>
-      <p>This is a fundamental shift. Previously, e-invoicing was only mandatory for B2G (business-to-government) transactions via <a href="/blog/germany-xrechnung-guide">XRechnung</a>. Now, the obligation extends to all B2B transactions between German businesses — covering millions of companies from solo freelancers to large corporations.</p>
+      <p>This is a fundamental shift. Previously, e-invoicing was only mandatory for B2G (business-to-government) transactions via <a href="/en/blog/germany-xrechnung-guide">XRechnung</a>. Now, the obligation extends to all B2B transactions between German businesses — covering millions of companies from solo freelancers to large corporations.</p>
 
       <h2>Timeline: Receiving vs Sending</h2>
       <p>The obligation is phased to give businesses time to adapt:</p>
       <h3>2025: Receiving Obligation (All Businesses)</h3>
       <ul>
-        <li>All German businesses must accept e-invoices in <a href="/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a> or <a href="/blog/germany-xrechnung-guide">XRechnung</a> format</li>
+        <li>All German businesses must accept e-invoices in <a href="/en/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a> or <a href="/en/blog/germany-xrechnung-guide">XRechnung</a> format</li>
         <li>You can still <strong>send</strong> paper invoices or PDFs during this transition period</li>
         <li>If a business partner sends you an e-invoice, you must be able to process it</li>
       </ul>
@@ -492,8 +492,8 @@ export const cluster14Posts: BlogPost[] = [
       <h2>What Counts as an "E-Invoice"?</h2>
       <p>Under the new rules, an e-invoice (elektronische Rechnung) is specifically defined as an invoice in a structured electronic format that complies with the European standard EN 16931. This includes:</p>
       <ul>
-        <li><strong><a href="/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a></strong> (version 2.0.1 or later) — hybrid PDF/XML format</li>
-        <li><strong><a href="/blog/germany-xrechnung-guide">XRechnung</a></strong> — pure XML format</li>
+        <li><strong><a href="/en/blog/germany-zugferd-e-invoice-guide">ZUGFeRD</a></strong> (version 2.0.1 or later) — hybrid PDF/XML format</li>
+        <li><strong><a href="/en/blog/germany-xrechnung-guide">XRechnung</a></strong> — pure XML format</li>
         <li><strong>Any other EN 16931-compliant format</strong> — e.g., Peppol BIS Billing 3.0</li>
       </ul>
       <p>What does <strong>not</strong> count as an e-invoice:</p>
@@ -508,8 +508,8 @@ export const cluster14Posts: BlogPost[] = [
       <p>The obligation applies to:</p>
       <ul>
         <li>All German businesses (GmbH, UG, AG, GbR, sole traders, freelancers)</li>
-        <li><a href="/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer</a> (small businesses exempt from VAT) — they too must receive and eventually send e-invoices</li>
-        <li>Businesses using the <a href="/blog/germany-vat-reverse-charge-invoicing">reverse charge mechanism</a> — reverse charge invoices must also be in e-invoice format</li>
+        <li><a href="/en/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer</a> (small businesses exempt from VAT) — they too must receive and eventually send e-invoices</li>
+        <li>Businesses using the <a href="/en/blog/germany-vat-reverse-charge-invoicing">reverse charge mechanism</a> — reverse charge invoices must also be in e-invoice format</li>
       </ul>
       <p>Exemptions:</p>
       <ul>
@@ -528,7 +528,7 @@ export const cluster14Posts: BlogPost[] = [
       </ol>
       <h3>Before 2027/2028</h3>
       <ol>
-        <li><strong>Enable e-invoice sending</strong> — configure your <a href="/invoicing">invoicing software</a> to generate ZUGFeRD or XRechnung output</li>
+        <li><strong>Enable e-invoice sending</strong> — configure your <a href="/en/invoicing">invoicing software</a> to generate ZUGFeRD or XRechnung output</li>
         <li><strong>Establish a delivery channel</strong> — email with XML attachment, Peppol network, or a bilateral EDI connection</li>
         <li><strong>Train your team</strong> — ensure bookkeepers and accounts receivable staff understand the new format</li>
         <li><strong>Archive properly</strong> — e-invoices must be archived in their original format for 10 years (GoBD compliance)</li>
@@ -546,24 +546,24 @@ export const cluster14Posts: BlogPost[] = [
       <h2>Impact on Freelancers and Small Businesses</h2>
       <p>The e-invoicing obligation affects small businesses disproportionately because they often lack dedicated accounting staff. Here's what different business types should focus on:</p>
       <ul>
-        <li><strong>Freelancers</strong> — use <a href="/invoicing">invoicing software</a> that generates ZUGFeRD automatically. Manual invoice creation (Word, Excel) will no longer be sufficient for B2B from 2028.</li>
-        <li><strong><a href="/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer</a></strong> — you are not exempt from e-invoicing. Your e-invoices will show €0 VAT with the §19 UStG reference in the XML data.</li>
+        <li><strong>Freelancers</strong> — use <a href="/en/invoicing">invoicing software</a> that generates ZUGFeRD automatically. Manual invoice creation (Word, Excel) will no longer be sufficient for B2B from 2028.</li>
+        <li><strong><a href="/en/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer</a></strong> — you are not exempt from e-invoicing. Your e-invoices will show €0 VAT with the §19 UStG reference in the XML data.</li>
         <li><strong>Service businesses</strong> — ensure your invoicing workflow produces EN 16931-compliant output, not just PDF.</li>
       </ul>
 
       <h2>The Bigger Picture: EU ViDA</h2>
       <p>Germany's e-invoicing obligation aligns with the EU's VAT in the Digital Age (ViDA) initiative, which plans to mandate e-invoicing for cross-border B2B transactions across all EU member states by 2028-2030. Germany is ahead of the curve — by the time ViDA takes effect, German businesses will already have the infrastructure in place.</p>
-      <p>Countries like <a href="/blog/tax-compliant-invoice-it">Italy</a> (SDI since 2019), <a href="/blog/tax-compliant-invoice-ro">Romania</a> (e-Factura since 2024), and <a href="/blog/tax-compliant-invoice-pl">Poland</a> (KSeF from 2026) have already implemented similar mandates. Germany joins this growing list of EU countries closing the VAT gap through digital invoicing.</p>
+      <p>Countries like <a href="/en/blog/tax-compliant-invoice-it">Italy</a> (SDI since 2019), <a href="/en/blog/tax-compliant-invoice-ro">Romania</a> (e-Factura since 2024), and <a href="/en/blog/tax-compliant-invoice-pl">Poland</a> (KSeF from 2026) have already implemented similar mandates. Germany joins this growing list of EU countries closing the VAT gap through digital invoicing.</p>
     `,
     category: 'Tax and Compliance',
     tags: ['e-invoicing', 'germany', '2025', 'wachstumschancengesetz', 'b2b', 'en 16931', 'mandatory e-invoice'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '12 min read',
     featuredImage: '/images/blog/germany-e-invoice-2025.jpg',
-    featuredImageAlt: 'Timeline showing Germany e-invoice obligation phases from 2025 to 2028',
+    featuredImageAlt: 'Editorial illustration of Germany\'s e-invoicing compliance workflow for the germany e invoice obligation 2025 guide',
     clusterType: 'cluster',
     targetProduct: '/invoicing',
     targetCountry: 'de',

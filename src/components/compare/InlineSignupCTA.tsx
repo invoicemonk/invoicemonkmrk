@@ -7,6 +7,8 @@ interface InlineSignupCTAProps {
   buttonLabel?: string;
   href?: string;
   variant?: 'card' | 'banner' | 'compact';
+  /** Conversion intent (e.g. compare slug, mandate slug). Appended as `&intent=` to the signup URL. */
+  intent?: string;
 }
 
 /**
@@ -20,7 +22,12 @@ export function InlineSignupCTA({
   buttonLabel = 'Get started with Invoicemonk',
   href = 'https://app.invoicemonk.com/signup?plan=professional&utm_source=compare&utm_medium=inline_cta&utm_campaign=mid_page',
   variant = 'card',
+  intent,
 }: InlineSignupCTAProps) {
+  const finalHref = intent && !/[?&]intent=/.test(href)
+    ? `${href}${href.includes('?') ? '&' : '?'}intent=${encodeURIComponent(intent)}`
+    : href;
+  const linkHref = finalHref;
   if (variant === 'compact') {
     return (
       <div className="my-8 rounded-xl border border-primary/30 bg-primary/5 p-5 lg:p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -29,7 +36,7 @@ export function InlineSignupCTA({
           <p className="text-sm text-muted-foreground">{body}</p>
         </div>
         <Button size="default" asChild className="flex-shrink-0">
-          <a href={href} target="_blank" rel="noopener noreferrer">
+          <a href={linkHref} target="_blank" rel="noopener noreferrer">
             {buttonLabel}<ArrowRight className="ml-2 w-4 h-4" />
           </a>
         </Button>
@@ -47,7 +54,7 @@ export function InlineSignupCTA({
               <p className="text-sm text-muted-foreground">{body}</p>
             </div>
             <Button size="lg" asChild className="flex-shrink-0">
-              <a href={href} target="_blank" rel="noopener noreferrer">
+              <a href={linkHref} target="_blank" rel="noopener noreferrer">
                 {buttonLabel}<ArrowRight className="ml-2 w-4 h-4" />
               </a>
             </Button>
@@ -63,7 +70,7 @@ export function InlineSignupCTA({
         <h3 className="text-xl font-bold text-foreground mb-2">{heading}</h3>
         <p className="text-muted-foreground mb-6">{body}</p>
         <Button size="lg" asChild>
-          <a href={href} target="_blank" rel="noopener noreferrer">
+          <a href={linkHref} target="_blank" rel="noopener noreferrer">
             {buttonLabel}<ArrowRight className="ml-2 w-4 h-4" />
           </a>
         </Button>

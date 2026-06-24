@@ -4,6 +4,11 @@
  */
 
 const pillarGlossaryMap: Record<string, string[]> = {
+  'e-invoicing-platform': [
+    'csid', 'irn', 'myinvois-uuid', 'qr-tax-invoice', 'xades', 'ubl-2-1',
+    'peppol-bis', 'peppol-access-point', 'chave-de-acesso', 'icp-brasil',
+    'control-unit-invoice-number', 'fatoorah', 'myinvois', 'fdms'
+  ],
   'invoicing-mastery': [
     'invoice', 'credit-note', 'pro-forma-invoice', 'recurring-invoice',
     'invoice-number', 'payment-terms', 'tax-invoice', 'purchase-order'

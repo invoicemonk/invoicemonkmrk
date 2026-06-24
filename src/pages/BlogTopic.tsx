@@ -21,6 +21,12 @@ import '@/data/blogPostsCluster17';
 import '@/data/blogPostsCluster18';
 import '@/data/blogPostsCluster19';
 import '@/data/blogPostsCluster20';
+import '@/data/blogPostsClusterEInvoicing';
+import '@/data/blogPostsClusterEInvoicing2';
+import '@/data/blogPostsClusterEInvoicing3';
+import '@/data/blogPostsClusterEInvoicing4';
+import '@/data/blogPostsClusterEInvoicing5';
+import '@/data/blogPostsClusterEInvoicing6';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';
@@ -153,29 +159,33 @@ const BlogTopic = () => {
           </AnimatedSection>
 
           {/* Key Topics Grid */}
-          {pillar.keyTopics && pillar.keyTopics.length > 0 && (
-            <AnimatedSection className="mb-16">
-              <h2 className="text-h3 font-bold text-foreground mb-8 text-center">
-                {t('keyTopics')}
-              </h2>
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {pillar.keyTopics.map((topic, index) => (
-                  <Link 
-                    key={index}
-                    to={topic.link || '#'}
-                    className="group p-5 rounded-xl border border-border bg-card hover:shadow-md hover:border-primary/30 transition-all"
-                  >
-                    <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
-                      {topic.title}
-                    </h3>
-                    <p className="text-sm text-muted-foreground line-clamp-2">
-                      {topic.description}
-                    </p>
-                  </Link>
-                ))}
-              </div>
-            </AnimatedSection>
-          )}
+          {(() => {
+            const linkedTopics = (pillar.keyTopics || []).filter((t) => !!t.link);
+            if (linkedTopics.length === 0) return null;
+            return (
+              <AnimatedSection className="mb-16">
+                <h2 className="text-h3 font-bold text-foreground mb-8 text-center">
+                  {t('keyTopics')}
+                </h2>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {linkedTopics.map((topic, index) => (
+                    <Link
+                      key={index}
+                      to={topic.link as string}
+                      className="group p-5 rounded-xl border border-border bg-card hover:shadow-md hover:border-primary/30 transition-all"
+                    >
+                      <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
+                        {topic.title}
+                      </h3>
+                      <p className="text-sm text-muted-foreground line-clamp-2">
+                        {topic.description}
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </AnimatedSection>
+            );
+          })()}
 
           {/* All Articles */}
           <AnimatedSection className="mb-8">

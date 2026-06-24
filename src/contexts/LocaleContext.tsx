@@ -1,16 +1,13 @@
-import React, { createContext, useState, useCallback, useMemo } from 'react';
+import React, { createContext, useMemo } from 'react';
 import {
   LocaleConfig,
   SupportedCountry,
-  locales,
   defaultCountry,
   getLocale,
   formatCurrency as formatCurrencyUtil,
   formatPrice as formatPriceUtil,
   supportedCountries,
 } from '@/locales';
-
-const LOCALE_STORAGE_KEY = 'invoicemonk-country';
 
 interface LocaleContextType {
   locale: LocaleConfig;
@@ -19,65 +16,29 @@ interface LocaleContextType {
   formatCurrency: (amount: number) => string;
   formatPrice: (amount: number, period?: string) => string;
   isLoading: boolean;
-  supportedCountries: SupportedCountry[];
+  supportedCountries: readonly SupportedCountry[];
 }
 
 export const LocaleContext = createContext<LocaleContextType | undefined>(undefined);
 
-interface LocaleProviderProps {
-  children: React.ReactNode;
-}
-
 /**
- * Simplified locale provider.
- * The URL language prefix is now the source of truth for locale selection.
- * LanguageLayout calls setCountry() when the prefix changes.
- * LanguageRedirect handles initial language detection and redirect.
+ * Single-locale provider. The project ships English only.
+ * `setCountry` is a no-op kept for API compatibility with older call sites.
  */
-export function LocaleProvider({ children }: LocaleProviderProps) {
-  const [countryCode, setCountryCode] = useState<SupportedCountry>(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem(LOCALE_STORAGE_KEY);
-      if (saved && supportedCountries.includes(saved as SupportedCountry)) {
-        return saved as SupportedCountry;
-      }
-    }
-    return defaultCountry;
-  });
-
-  const setCountry = useCallback((country: SupportedCountry) => {
-    setCountryCode(country);
-    localStorage.setItem(LOCALE_STORAGE_KEY, country);
-  }, []);
-
-  const locale = useMemo(() => getLocale(countryCode), [countryCode]);
-
-  const formatCurrency = useCallback(
-    (amount: number) => formatCurrencyUtil(amount, locale),
-    [locale],
-  );
-
-  const formatPrice = useCallback(
-    (amount: number, period?: string) => formatPriceUtil(amount, locale, period),
-    [locale],
-  );
-
-  const value = useMemo(
-    () => ({
+export function LocaleProvider({ children }: { children: React.ReactNode }) {
+  const value = useMemo<LocaleContextType>(() => {
+    const locale = getLocale();
+    return {
       locale,
-      countryCode,
-      setCountry,
-      formatCurrency,
-      formatPrice,
+      countryCode: defaultCountry,
+      setCountry: () => {},
+      formatCurrency: (amount: number) => formatCurrencyUtil(amount, locale),
+      formatPrice: (amount: number, period?: string) =>
+        formatPriceUtil(amount, locale, period),
       isLoading: false,
       supportedCountries,
-    }),
-    [locale, countryCode, setCountry, formatCurrency, formatPrice],
-  );
+    };
+  }, []);
 
-  return (
-    <LocaleContext.Provider value={value}>
-      {children}
-    </LocaleContext.Provider>
-  );
+  return <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>;
 }

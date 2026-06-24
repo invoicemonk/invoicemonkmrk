@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Invoicemonk Blog — E-Invoicing, Compliance &amp; Small Business Finance</title>
+    <link>https://invoicemonk.com/en/blog</link>
+    <atom:link href="https://invoicemonk.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Mandate-compliant e-invoicing guides, compliance playbooks, and small-business invoicing how-tos from Invoicemonk.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jun 2026 05:13:14 GMT</lastBuildDate>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <item>
+      <title>Common MyInvois Malaysia Errors and How to Fix Them: Validation, TIN Mismatches, Cancellation Windows, and QR Failures (2026)</title>
+      <link>https://invoicemonk.com/en/blog/myinvois-malaysia-common-errors</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/myinvois-malaysia-common-errors</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>The recurring failure modes in MyInvois — payload validation rejections, TIN mismatches, missed 72-hour cancellation windows, QR errors, self-billed scenarios, consolidated B2C cut-offs, and foreign-currency rejects — and the exact fix for each.</description>
+    </item>
+    <item>
+      <title>SARS South Africa Explained: VAT Modernisation, the 2026 Multi-Year E-Invoicing Plan, and What Is Coming Through 2028</title>
+      <link>https://invoicemonk.com/en/blog/sars-south-africa-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/sars-south-africa-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for the SARS VAT modernisation programme — what is in force today, the multi-year e-invoicing and real-time digital reporting roadmap SARS confirmed in February 2026, and how the architecture differs from a hard clearance regime.</description>
+    </item>
+    <item>
+      <title>GRA E-VAT Ghana Explained: Scope, Thresholds, VAT Act 2025 (Act 1151), and the Levy Stack from 2026</title>
+      <link>https://invoicemonk.com/en/blog/gra-e-vat-ghana-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/gra-e-vat-ghana-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for the GRA Electronic VAT Invoicing System under the new VAT Act 2025 (Act 1151) — what E-VAT is, who must comply, the unified 15% rate, NHIL/GETFL retention and COVID levy repeal, and what the 2026 reforms change.</description>
+    </item>
+    <item>
+      <title>How to Comply with GRA E-VAT in Ghana: Onboard, Connect, and Issue Your First Certified Invoice (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-gra-e-vat-ghana</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-gra-e-vat-ghana</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Step-by-step playbook for the Ghana Revenue Authority Electronic VAT (E-VAT) Invoicing System under the new VAT Act 2025 (Act 1151) — unified 15% rate, NHIL and GETFL retained, COVID levy repealed, GRA-issued IRN, and QR.</description>
+    </item>
+    <item>
+      <title>SEFAZ Brazil Explained: NF-e, NFS-e, CT-e, the Chave de Acesso, and the IBS/CBS Reform Through 2033</title>
+      <link>https://invoicemonk.com/en/blog/sefaz-brazil-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/sefaz-brazil-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for Brazilian electronic fiscal documents in 2026 — what SEFAZ is, how NF-e, NFS-e, and CT-e differ, what the 44-digit chave de acesso encodes, the ICMS/PIS/COFINS to IBS/CBS reform timeline, and what NT 2025/002 changes.</description>
+    </item>
+    <item>
+      <title>How to Comply with SEFAZ in Brazil: Issue Your First NF-e and NFS-e End to End (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-sefaz-brazil</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-sefaz-brazil</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Step-by-step playbook for issuing Brazilian fiscal documents in 2026 — state and municipal inscriptions, ICP-Brasil A1 certificate loading, NF-e XML signing, SEFAZ clearance, the 44-digit chave de acesso, NFS-e per municipality, and the IBS/CBS reform fields now mandatory under NT 2025/002.</description>
+    </item>
+    <item>
+      <title>ICP-Brasil A1 Certificates Explained: Why Brazilian E-Invoicing (NF-e and NFS-e) Depends on Them</title>
+      <link>https://invoicemonk.com/en/blog/icp-brasil-a1-certificates</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/icp-brasil-a1-certificates</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>An ICP-Brasil A1 certificate is the digital identity Brazilian taxpayers use to sign NF-e and NFS-e invoices. This guide explains A1 vs A3, how an Autoridade Certificadora issues them, how XML-DSig / XAdES signs every payload before SEFAZ, and how to operate annual renewal.</description>
+    </item>
+    <item>
+      <title>KRA eTIMS Kenya Explained: Scope, Variants, VAT Handling, and the 2026 Income-Tax Linkage</title>
+      <link>https://invoicemonk.com/en/blog/kra-etims-kenya-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/kra-etims-kenya-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for KRA eTIMS — what the Electronic Tax Invoice Management System is, who must comply (including non-VAT taxpayers), how the eTIMS variants differ, what 16% / 8% / 0% VAT handling looks like, and how 2026 income-tax validation rewires the stakes.</description>
+    </item>
+    <item>
+      <title>How to Comply with KRA eTIMS in Kenya: Onboard, Connect, and Issue Your First Control Unit Invoice (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-kra-etims-kenya</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-kra-etims-kenya</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Step-by-step playbook for issuing KRA Electronic Tax Invoice Management System (eTIMS) invoices in Kenya — iTax onboarding, picking the right eTIMS variant (Lite, Online, OSCU, VSCU, Multi-Paypoint), provisioning the signing credential, and printing the Control Unit Invoice Number plus QR.</description>
+    </item>
+    <item>
+      <title>Common MTD UK Errors and How to Fix Them: OAuth, Digital Links, Box Mismatches, and Late Returns (2026)</title>
+      <link>https://invoicemonk.com/en/blog/mtd-uk-common-errors</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/mtd-uk-common-errors</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>The recurring failure modes in MTD for VAT — OAuth disconnections, broken digital links, Box 1 / Box 6 mismatches, missed obligations, error-correction thresholds — and the documented fix for each, mapped to HMRC error codes.</description>
+    </item>
+    <item>
+      <title>MTD UK Explained: Scope, Digital Links, ITSA, and What Changes Through 2028</title>
+      <link>https://invoicemonk.com/en/blog/mtd-uk-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/mtd-uk-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for Making Tax Digital — what MTD is, who must comply for VAT today, when MTD ITSA arrives for income tax (April 2026, £50,000), what the digital-link rule actually means, and the new VAT penalty rates.</description>
+    </item>
+    <item>
+      <title>How to Comply with MTD for VAT in the UK: Sign Up, Connect to HMRC, and File Your First Digital Return (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-mtd-uk</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-mtd-uk</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Step-by-step playbook for Making Tax Digital (MTD) for VAT — HMRC sign-up, OAuth to MTD-compatible software, the nine VAT return boxes, the digital-link rule, and how MTD ITSA (April 2026, £50,000) plugs into the same architecture.</description>
+    </item>
+    <item>
+      <title>Real-Time Invoice Reporting: How Tax Authorities See Every Transaction As It Happens (and What ViDA Means for 2030)</title>
+      <link>https://invoicemonk.com/en/blog/real-time-invoice-reporting</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/real-time-invoice-reporting</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Real-time invoice reporting (RTIR) and continuous transaction controls (CTC) are the architectures that let ZATCA, MyInvois, GST IRN, FIRS, Hungary RTIR, and (from 2030) the EU ViDA Digital Reporting Requirements see every B2B invoice within seconds of issuance. This guide explains how it works, the trade-offs, and what to design for.</description>
+    </item>
+    <item>
+      <title>QR Codes on Tax Invoices: TLV, Signed JWT, and Verification URL Formats Compared</title>
+      <link>https://invoicemonk.com/en/blog/qr-codes-on-tax-invoices</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/qr-codes-on-tax-invoices</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Every clearance regime mandates a QR on the buyer-facing invoice, but the format diverges sharply. ZATCA uses Base64-encoded TLV. India uses a signed JWT. FIRS, GRA, and KRA use verification URLs. MyInvois uses a hybrid. This guide compares every format with field-level detail.</description>
+    </item>
+    <item>
+      <title>GST IRN India Explained: Scope, Threshold History, Input Tax Credit, and the 2026 Timeline</title>
+      <link>https://invoicemonk.com/en/blog/gst-irn-india-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/gst-irn-india-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for GST e-invoicing in India — what the IRN is, who must comply, the threshold step-down from ₹500 crore to ₹5 crore, how the signed JWT QR enables ITC, the 30-day upload limit, and what is changing through 2026.</description>
+    </item>
+    <item>
+      <title>How to Comply with GST IRN in India: Onboard with NIC IRP and Issue Your First Signed QR Invoice (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-gst-irn-india</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-gst-irn-india</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Step-by-step playbook for issuing GST e-invoices in India through the NIC Invoice Registration Portal — onboarding, GST INV-01 JSON, IRN issuance, signed QR, 30-day upload limit, and 2FA enforcement.</description>
+    </item>
+    <item>
+      <title>MyInvois Malaysia Explained: Scope, Rollout Waves, SST Handling, and the 2026 Phase 4 Deferral</title>
+      <link>https://invoicemonk.com/en/blog/myinvois-malaysia-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/myinvois-malaysia-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for LHDN MyInvois — what it is, who must comply, the five-phase rollout schedule, how 8% SST is handled, the 72-hour rejection window, and what changes through 2026.</description>
+    </item>
+    <item>
+      <title>How to Comply with MyInvois in Malaysia: Onboard with LHDN and Issue Your First UUID-Stamped Invoice (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-myinvois-malaysia</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-myinvois-malaysia</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Step-by-step playbook for issuing LHDN MyInvois e-invoices in Malaysia — onboarding, UBL 2.1 / JSON payload, UUID issuance, 72-hour rejection window, and the Phase 4 / Phase 5 small-taxpayer rollout deferred to 2026.</description>
+    </item>
+    <item>
+      <title>Choosing an E-Invoicing Platform: 12-Point Checklist for Multi-Jurisdiction Compliance</title>
+      <link>https://invoicemonk.com/en/blog/choosing-an-e-invoicing-platform-checklist</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/choosing-an-e-invoicing-platform-checklist</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A buyer-side checklist for selecting an e-invoicing platform that handles ZATCA, MyInvois, GST IRN, NRS MBS, Peppol, MTD, and the next mandate that lands in your market — without per-country SKUs.</description>
+    </item>
+    <item>
+      <title>Clearance vs Reporting Models in E-Invoicing: How ZATCA, MyInvois, FIRS, MTD, and Peppol Differ</title>
+      <link>https://invoicemonk.com/en/blog/clearance-vs-reporting-models</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/clearance-vs-reporting-models</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Every e-invoicing mandate is either clearance (regulator gates each invoice) or reporting (regulator receives data after the fact). A side-by-side comparison across ZATCA, MyInvois, NRS MBS, MTD, GST IRN, and Peppol.</description>
+    </item>
+    <item>
+      <title>What Is an IRN? Invoice Reference Number Explained Across India, Nigeria, and Ghana</title>
+      <link>https://invoicemonk.com/en/blog/what-is-irn</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/what-is-irn</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>An IRN is the tax-authority-issued identifier that turns a structured payload into a legally valid invoice. Definitions and mechanics for GST India, NRS Nigeria, and GRA Ghana — plus how the IRN differs from a UUID or a CSID.</description>
+    </item>
+    <item>
+      <title>What Is a CSID? Cryptographic Stamp Identifier Explained for ZATCA E-Invoicing</title>
+      <link>https://invoicemonk.com/en/blog/what-is-csid</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/what-is-csid</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A CSID is the ZATCA-issued digital certificate that signs every Phase 2 e-invoice. Definition, CSR + OTP provisioning, the ECC P-256 + XAdES signature flow, and how it differs from the QR.</description>
+    </item>
+    <item>
+      <title>FIRS / NRS MBS Nigeria Explained: Scope, Rollout Waves, Penalties, and 2026 Timeline</title>
+      <link>https://invoicemonk.com/en/blog/firs-mbs-nigeria-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/firs-mbs-nigeria-explained</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A plain-English explainer for the NRS Merchant-Buyer Solution (formerly FIRS MBS) — what it is, who is in scope, the 2025–2026 rollout schedule, penalties, and what changes next.</description>
+    </item>
+    <item>
+      <title>How to Comply with FIRS MBS in Nigeria: Onboard, Sign, and Issue Your First IRN (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-firs-mbs-nigeria</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-firs-mbs-nigeria</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>NRS Merchant-Buyer Solution playbook for Nigerian taxpayers: register, provision a signing credential, build the JSON payload, submit, and bind the IRN + QR to the buyer PDF.</description>
+    </item>
+    <item>
+      <title>XAdES Digital Signatures Explained: How E-Invoices Are Signed and Verified</title>
+      <link>https://invoicemonk.com/en/blog/xades-digital-signatures-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/xades-digital-signatures-explained</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>XAdES is the ETSI XML signature standard used by ZATCA, Peppol, and other e-invoicing regimes. Inside the baseline levels (B-B, B-T, B-LT, B-LTA), certificate chains, and what fails in production.</description>
+    </item>
+    <item>
+      <title>UBL 2.1 Explained: The XML Standard Behind Modern E-Invoicing</title>
+      <link>https://invoicemonk.com/en/blog/ubl-2-1-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/ubl-2-1-explained</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>UBL 2.1 is the OASIS XML standard for business documents. We explain the 65 document types, the extension model, and how Peppol BIS, ZATCA, and MyInvois customise it.</description>
+    </item>
+    <item>
+      <title>What is a Peppol Access Point? The Four-Corner Model and AS4 in Plain English</title>
+      <link>https://invoicemonk.com/en/blog/what-is-peppol-access-point</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/what-is-peppol-access-point</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A Peppol Access Point is a certified service that sends and receives e-invoices on the Peppol network. Inside the four-corner model, SMP/SML lookup, AS4, and how to choose an AP.</description>
+    </item>
+    <item>
+      <title>Peppol vs National E-Invoicing Portals: Network Model vs Clearance Compared</title>
+      <link>https://invoicemonk.com/en/blog/peppol-vs-national-portals</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/peppol-vs-national-portals</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Side-by-side comparison of the Peppol four-corner network vs clearance portals (ZATCA, MyInvois, GST IRN, SDI, KSeF) on routing, latency, archiving, and obligations.</description>
+    </item>
+    <item>
+      <title>Peppol EU Explained: Scope, Country Mandates, and What Changes Through 2028</title>
+      <link>https://invoicemonk.com/en/blog/peppol-eu-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/peppol-eu-explained</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Plain-English explainer for Peppol in the EU — the four-corner model, BIS Billing 3.0, country-by-country mandates, and the ViDA timetable to 2035.</description>
+    </item>
+    <item>
+      <title>How to Comply with Peppol in the EU: Connect, Validate, and Send Your First Invoice (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-peppol-eu</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-peppol-eu</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Step-by-step Peppol BIS Billing 3.0 onboarding for the EU — pick an Access Point, register your Participant ID, validate, send, handle MLR responses.</description>
+    </item>
+    <item>
+      <title>ZATCA Phase 1 vs Phase 2: What Changes When You Integrate (2026)</title>
+      <link>https://invoicemonk.com/en/blog/zatca-phase-1-vs-phase-2</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/zatca-phase-1-vs-phase-2</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Side-by-side comparison of the Saudi Generation Phase and Integration Phase — rules, artefacts, transport, certificates, QR tags, retention, penalties, and the migration playbook for your wave.</description>
+    </item>
+    <item>
+      <title>ZATCA Phase 1 Explained: The Saudi Generation Phase (2026)</title>
+      <link>https://invoicemonk.com/en/blog/zatca-phase-1-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/zatca-phase-1-explained</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Plain-English explainer for the ZATCA Phase 1 Generation Phase: what it requires, who it applies to, when it went live, what it does not require, and how it sets up Phase 2 integration.</description>
+    </item>
+    <item>
+      <title>How to Comply with ZATCA Phase 1: Generation Phase Setup (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-zatca-phase-1</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-zatca-phase-1</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Practical setup guide for the ZATCA Phase 1 Generation Phase: structured tamper-resistant invoices, sequential numbering, TLV QR for B2C Simplified Tax Invoices, immutable storage — and a Phase 2-ready foundation.</description>
+    </item>
+    <item>
+      <title>ZATCA Phase 2 Common Errors and How to Fix Them (2026)</title>
+      <link>https://invoicemonk.com/en/blog/zatca-phase-2-common-errors</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/zatca-phase-2-common-errors</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Catalogue of the most common ZATCA Fatoora rejection reasons in 2026 — PIH mismatch, XAdES signature failure, TLV QR length, ICV gaps, schema validation — with the exact fix and source for each.</description>
+    </item>
+    <item>
+      <title>ZATCA Phase 2 Explained: Scope, Thresholds, Waves, Penalties, Timeline (2026)</title>
+      <link>https://invoicemonk.com/en/blog/zatca-phase-2-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/zatca-phase-2-explained</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Plain-English explainer for the ZATCA Phase 2 Integration Phase: who it applies to, the wave schedule from Wave 1 (SAR 3 bn) to Wave 21 and beyond, what changes vs Phase 1, and the penalty schedule.</description>
+    </item>
+    <item>
+      <title>How to Comply with ZATCA Phase 2: Onboarding and Your First Cleared Invoice (2026)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-zatca-phase-2</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-zatca-phase-2</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Saudi VAT-registered playbook: request a CSID, generate UBL 2.1 KSA-extension XML, apply XAdES signing, attach the TLV QR, and clear your first invoice through ZATCA Fatoora.</description>
+    </item>
+    <item>
+      <title>How to Choose an E-Invoicing Solution for France: PPF/PDP Buyer Checklist (2026)</title>
+      <link>https://invoicemonk.com/en/blog/france-e-invoicing-buyer-checklist</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/france-e-invoicing-buyer-checklist</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing Compliance</category>
+      <description>A decision-grade checklist for French businesses evaluating PPF, PDP, or hybrid e-invoicing tools ahead of the September 2026 mandate. Twenty questions to ask any vendor — and the right answers.</description>
+    </item>
+    <item>
+      <title>Automated Invoice Compliance &amp; Fraud Detection: What to Look For (2026)</title>
+      <link>https://invoicemonk.com/en/blog/automated-invoice-compliance-fraud-detection</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/automated-invoice-compliance-fraud-detection</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Compliance</category>
+      <description>Duplicate invoices, sequential-numbering gaps, supplier impersonation, and AI-generated fake invoices are all on the rise. Here is what automated invoice compliance and fraud detection should actually do.</description>
+    </item>
+    <item>
+      <title>Software for Automated Sales Tax Calculation on Invoices (US, EU VAT &amp; GST)</title>
+      <link>https://invoicemonk.com/en/blog/automated-sales-tax-calculation-software</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/automated-sales-tax-calculation-software</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Buyer Guides</category>
+      <description>Looking for software that calculates the correct sales tax, VAT, or GST on every invoice automatically? Here are the leading rate engines and how to wire them into your invoicing.</description>
+    </item>
+    <item>
+      <title>Best Automated E-Invoicing Software for the EU 2026 Mandate (Buyer Comparison)</title>
+      <link>https://invoicemonk.com/en/blog/best-automated-e-invoicing-software-eu-2026</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/best-automated-e-invoicing-software-eu-2026</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Buyer Guides</category>
+      <description>France, Germany, Belgium, Poland, and Spain all phase in mandatory e-invoicing across 2026–2028. Here are the platforms that automate the format conversion, clearance, and archive — and how Invoicemonk stacks up.</description>
+    </item>
+    <item>
+      <title>Desktop vs Cloud Invoicing Software for Freelancers (2026): Why Cloud Wins</title>
+      <link>https://invoicemonk.com/en/blog/desktop-vs-cloud-invoicing-software-freelancers</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/desktop-vs-cloud-invoicing-software-freelancers</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Buyer Guides</category>
+      <description>Looking for desktop invoicing software for your freelance business? Here is why cloud-based tools beat desktop on compliance, mobility, and total cost — and what to use instead.</description>
+    </item>
+    <item>
+      <title>Tax Software Integration Guide: Streamline Your Tax Workflow</title>
+      <link>https://invoicemonk.com/en/blog/tax-software-integration-guide</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/tax-software-integration-guide</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Tax and Compliance</category>
+      <description>Learn how to integrate your invoicing and accounting software with tax preparation tools. Reduce errors, save time, and ensure compliance with automated data flows.</description>
+    </item>
+    <item>
+      <title>Set Up Automatic Payment Reminders in Minutes (Free Tool)</title>
+      <link>https://invoicemonk.com/en/blog/setting-up-automatic-payment-reminders</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/setting-up-automatic-payment-reminders</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Payments and Cash Flow</category>
+      <description>See exactly how to set up automatic payment reminders in Invoicemonk — with screenshots, an optimal schedule, and copy-paste templates. Reduce late payments by 25–30%, $15/month, cancel anytime.</description>
+    </item>
+    <item>
+      <title>How to Price Freelance Projects: Fixed Fee vs Hourly (With Calculator)</title>
+      <link>https://invoicemonk.com/en/blog/how-to-price-project-work</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-price-project-work</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Small Business</category>
+      <description>Estimate fixed-fee projects accurately, compare against hourly billing, and present quotes that win — with a free freelance rate calculator.</description>
+    </item>
+    <item>
+      <title>Cash Flow Forecasting for Freelancers: Predict Your Income in 30 Minutes</title>
+      <link>https://invoicemonk.com/en/blog/cash-flow-forecasting-for-freelancers</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/cash-flow-forecasting-for-freelancers</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Finance</category>
+      <description>Never get caught by a cash crunch again. Learn 3 simple forecasting techniques that help freelancers predict income and plan for dry spells — with free template.</description>
+    </item>
+    <item>
+      <title>Credit Notes &amp; Invoice Corrections: When to Issue One (with VAT/GST Examples)</title>
+      <link>https://invoicemonk.com/en/blog/credit-notes-and-invoice-corrections</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/credit-notes-and-invoice-corrections</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Invoicing and Billing Tips</category>
+      <description>When to issue a credit note vs void an invoice, what tax authorities in the UK, EU, India and Nigeria require, and how to handle full vs partial credits — with examples for 2026.</description>
+    </item>
+    <item>
+      <title>Invoice Disputes: How to Handle Them Professionally (2026)</title>
+      <link>https://invoicemonk.com/en/blog/invoice-disputes-how-to-handle-professionally</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/invoice-disputes-how-to-handle-professionally</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Invoicing and Billing Tips</category>
+      <description>Resolve invoice disputes in 14 days or less. Proven 6-step process, email templates, and prevention strategies for freelancers and agencies.</description>
+    </item>
+    <item>
+      <title>How to Set Up Recurring Invoices Automatically (2026 Guide)</title>
+      <link>https://invoicemonk.com/en/blog/recurring-invoices-automating-billing</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/recurring-invoices-automating-billing</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Invoicing and Billing Tips</category>
+      <description>Automate monthly billing in 5 minutes. Step-by-step setup, frequency rules, proration, and price-change handling for retainers and subscriptions.</description>
+    </item>
+    <item>
+      <title>Invoice Numbering: Best Practices &amp; Systems That Scale (2026)</title>
+      <link>https://invoicemonk.com/en/blog/invoice-numbering-best-practices</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/invoice-numbering-best-practices</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Invoicing and Billing Tips</category>
+      <description>Choose the right invoice numbering system from day one. We cover sequential, date-based, and project-coded formats — with examples for freelancers and growing businesses.</description>
+    </item>
+    <item>
+      <title>The 15 Best Personal Finance Blogs in 2026 | Top Picks &amp; New Voices</title>
+      <link>https://invoicemonk.com/en/blog/the-10-best-personal-finance-blogs</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/the-10-best-personal-finance-blogs</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>Finance</category>
+      <description>What are the best personal finance blogs in 2026? Our updated list of the top 15 personal finance blogs — from FIRE movement classics to new voices in financial independence, budgeting, and wealth building. Updated February 2026.</description>
+    </item>
+  </channel>
+</rss>

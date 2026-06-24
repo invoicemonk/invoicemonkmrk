@@ -10,17 +10,24 @@ interface PageSEO {
 
 export const pageSEO: Record<string, PageSEO> = {
   '/': {
-    getTitle: (locale) => `Invoicemonk — Invoicing & Accounting Software for ${locale.content.seo.targetAudience} Businesses`,
-    getDescription: (locale) => `Professional invoicing, expense tracking, and accounting in one platform. ${locale.content.seo.complianceKeyword} for ${locale.content.seo.region}. Pro plan from $15/month.`,
+    getTitle: (locale) => `Invoicemonk: The Global E-Invoicing Platform for Small Business | ${locale.content.seo.region}`,
+    getDescription: (locale) => `Global e-invoicing platform. Mandate-compliant in 16 jurisdictions (ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, eTIMS, and more) with the local artefact (CSID, IRN, UUID, QR, fiscal signature) the tax authority requires. ${locale.content.seo.complianceKeyword} for ${locale.content.seo.region}. Pro from $15/month.`,
     ogType: 'website',
     priority: 1.0,
     changefreq: 'weekly',
   },
   '/invoicing': {
-    getTitle: (locale) => `Free Invoicing Software for Small Business — Create Invoices in 2 Minutes | Invoicemonk`,
-    getDescription: (locale) => `The easiest invoicing software for freelancers and small businesses in ${locale.content.seo.region}. Professional templates, automatic reminders, multi-currency — free to start.`,
+    getTitle: (locale) => `Professional Invoicing Software for Small Business | Invoicemonk ${locale.content.seo.region}`,
+    getDescription: (locale) => `Professional invoicing software for freelancers and small businesses in ${locale.content.seo.region}. Templates, reminders, multi-currency, payments. Pro from $15/month.`,
     ogType: 'website',
-    priority: 0.9,
+    priority: 0.8,
+    changefreq: 'weekly',
+  },
+  '/e-invoicing': {
+    getTitle: () => `E-Invoicing Platform — Mandate-Compliant in 16 Jurisdictions | Invoicemonk`,
+    getDescription: () => `The global e-invoicing platform for small business. CSID, IRN, UUID, QR, and Peppol routing across 16 mandates from ZATCA to MyInvois, FIRS, GST India, MTD, and Peppol EU.`,
+    ogType: 'website',
+    priority: 0.95,
     changefreq: 'weekly',
   },
   '/pricing': {

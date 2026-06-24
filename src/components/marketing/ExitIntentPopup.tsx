@@ -71,10 +71,10 @@ export function ExitIntentPopup() {
               Check your inbox for compliance and getting-paid playbooks.
             </DialogDescription>
             <a
-              href="https://app.invoicemonk.com"
+              href="https://app.invoicemonk.com/signup?plan=professional&intent=exit_intent"
               className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
             >
-              Start your free account
+              Start with Pro
             </a>
           </div>
         ) : (
@@ -115,7 +115,7 @@ export function ExitIntentPopup() {
               </Button>
               <p className="text-xs text-muted-foreground text-center">
                  available —{" "}
-                <a href="https://app.invoicemonk.com" className="underline hover:text-primary">
+                <a href="https://app.invoicemonk.com/signup?plan=professional&intent=exit_intent" className="underline hover:text-primary">
                   create your account
                 </a>
                 .

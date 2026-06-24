@@ -8,6 +8,7 @@ import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
+import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 
 const tools = [
   {
@@ -132,6 +133,9 @@ export default function BestInvoicingSoftwareFrance() {
           <div className="space-y-6">{faqs.map((faq, i) => (<div key={i}><h3 className="font-semibold text-foreground mb-2">{faq.question}</h3><p className="text-muted-foreground">{faq.answer}</p></div>))}</div>
         </div>
       </section>
+
+      <MandateMatrixSection highlightSlug="peppol-eu" />
+
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

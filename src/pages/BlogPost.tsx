@@ -26,6 +26,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { ArticleSchema } from '@/components/seo/ArticleSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
+import { LearningResourceSchema } from '@/components/seo/LearningResourceSchema';
 import { enhanceInternalLinks } from '@/utils/enhanceLinks';
 import { addBlockAnswers } from '@/utils/blockAnswers';
 import { injectInlineCTAs } from '@/utils/inlineCTAs';
@@ -46,6 +47,12 @@ import '@/data/blogPostsCluster17';
 import '@/data/blogPostsCluster18';
 import '@/data/blogPostsCluster19';
 import '@/data/blogPostsCluster20';
+import '@/data/blogPostsClusterEInvoicing';
+import '@/data/blogPostsClusterEInvoicing2';
+import '@/data/blogPostsClusterEInvoicing3';
+import '@/data/blogPostsClusterEInvoicing4';
+import '@/data/blogPostsClusterEInvoicing5';
+import '@/data/blogPostsClusterEInvoicing6';
 
 const BlogPost = () => {
   const { slug, lang: urlLang } = useParams<{ slug: string; lang: string }>();
@@ -196,7 +203,8 @@ const BlogPost = () => {
           publishedTime: post.date,
           modifiedTime: post.dateModified,
           author: post.author.name,
-          section: pillar?.title || post.category
+          section: pillar?.title || post.category,
+          tags: post.tags,
         }}
       />
       <ArticleSchema
@@ -217,6 +225,27 @@ const BlogPost = () => {
         relatedTools={post.relatedTools}
       />
       <BreadcrumbSchema items={breadcrumbs} />
+
+      {/* LearningResource schema for country-targeted compliance guides */}
+      {post.targetCountry && (() => {
+        const teachesSource = (post.semanticKeywords && post.semanticKeywords.length > 0)
+          ? post.semanticKeywords
+          : (post.tags || []);
+        const teaches = teachesSource.slice(0, 6);
+        const m = post.readTime?.match(/(\d+)/);
+        const timeRequired = `PT${m ? m[1] : '10'}M`;
+        return (
+          <LearningResourceSchema
+            name={post.title}
+            description={post.excerpt}
+            url={`/blog/${post.slug}`}
+            teaches={teaches}
+            timeRequired={timeRequired}
+            educationalLevel="Intermediate"
+          />
+        );
+      })()}
+
       
       {/* FAQ Schema - from pillar or article-specific FAQ */}
       {isPillarPage && pillar?.faq && pillar.faq.length > 0 && (

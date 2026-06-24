@@ -176,7 +176,7 @@ const countries: CountryConfig[] = [
     recordKeepingYears: '5',
     paymentMethods: 'M-Pesa, Paystack, bank transfer, and debit cards',
     penalties: 'Late filing: KSh10,000 or 5% of tax due (whichever is higher). Late payment: 2% per month on unpaid tax. Failure to register: KSh100,000 or imprisonment.',
-    einvoicingContext: 'Kenya has implemented the Tax Invoice Management System (TIMS) through KRA, requiring businesses to use KRA-approved Electronic Tax Invoice (ETI) systems. Invoices must be validated and stamped by TIMS in real-time.',
+    einvoicingContext: 'Kenya runs KRA eTIMS (the electronic Tax Invoice Management System that replaced TIMS in late 2023). Every VAT-registered business must transmit invoices to KRA in real time through an eTIMS-approved VSCU or OSCU channel and bind the KRA-issued Control Unit Invoice Number and signed QR to each invoice.',
     registrationUrl: 'https://www.kra.go.ke',
   },
   {
@@ -701,7 +701,7 @@ function generateTaxCompliantInvoicePost(c: CountryConfig): BlogPost {
       </ul>
 
       <h2>Record Keeping and Retention</h2>
-      <p>${c.authority} requires businesses to retain all invoices, receipts, contracts, and financial records for a minimum of <strong>${c.recordKeepingYears} years</strong>. Digital records are accepted — using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+      <p>${c.authority} requires businesses to retain all invoices, receipts, contracts, and financial records for a minimum of <strong>${c.recordKeepingYears} years</strong>. Digital records are accepted — using <a href="/en/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
 
       <h2>E-Invoicing Status</h2>
       <p>${c.einvoicingContext}</p>
@@ -713,8 +713,8 @@ function generateTaxCompliantInvoicePost(c: CountryConfig): BlogPost {
       <p>To get paid faster, offer your clients multiple payment options. Popular methods in ${c.name} include ${c.paymentMethods}. Including payment links directly on your invoices reduces friction and speeds up collection.</p>
 
       <h2>How Invoicemonk Helps</h2>
-      <p><a href="/invoicing">Invoicemonk</a> is built for ${c.demonym} businesses. Our platform automatically includes all ${c.authority}-required invoice elements, calculates ${c.taxType} at the correct rate, generates sequential invoice numbers, and stores records securely for the required ${c.recordKeepingYears} years.</p>
-      <p><a href="/invoicing">Create your first compliant invoice free →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk</a> is built for ${c.demonym} businesses. Our platform automatically includes all ${c.authority}-required invoice elements, calculates ${c.taxType} at the correct rate, generates sequential invoice numbers, and stores records securely for the required ${c.recordKeepingYears} years.</p>
+      <p><a href="/en/invoicing">Create your first compliant invoice free →</a></p>
     `,
   };
 }
@@ -793,11 +793,11 @@ function generateVatFormatPost(c: CountryConfig): BlogPost {
       </ul>
 
       <h2>Free Templates for ${c.demonym} Businesses</h2>
-      <p><a href="/invoicing">Invoicemonk's invoice generator</a> provides pre-built templates with all ${c.authority}-required fields. Select your country, add your ${c.taxId}, and the platform handles ${c.taxType} calculations automatically.</p>
+      <p><a href="/en/invoicing">Invoicemonk's invoice generator</a> provides pre-built templates with all ${c.authority}-required fields. Select your country, add your ${c.taxId}, and the platform handles ${c.taxType} calculations automatically.</p>
 
       <h2>Digital vs Paper Invoices</h2>
       <p>${c.authority} accepts digital invoices provided they contain all mandatory elements and can be produced for audit. ${c.einvoicingContext}</p>
-      <p>Using <a href="/invoicing">invoicing software</a> ensures consistency and reduces errors compared to manual formatting.</p>
+      <p>Using <a href="/en/invoicing">invoicing software</a> ensures consistency and reduces errors compared to manual formatting.</p>
     `,
   };
 }
@@ -884,7 +884,7 @@ function generateRegulatorGuidePost(c: CountryConfig): BlogPost {
 
       <h2>Record Keeping Requirements</h2>
       <p>${c.authority} requires businesses to maintain comprehensive records for a minimum of ${c.recordKeepingYears} years, including all issued and received invoices, bank statements, contracts, receipts, and tax returns.</p>
-      <p>Digital record-keeping is accepted and recommended. Using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+      <p>Digital record-keeping is accepted and recommended. Using <a href="/en/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
 
       <h2>E-Invoicing and Digital Compliance</h2>
       <p>${c.einvoicingContext}</p>
@@ -903,8 +903,8 @@ function generateRegulatorGuidePost(c: CountryConfig): BlogPost {
       <p>${c.penalties}</p>
 
       <h2>How Invoicemonk Helps You Stay Compliant</h2>
-      <p><a href="/invoicing">Invoicemonk</a> is designed with ${c.demonym} tax compliance in mind. Our platform automatically includes all required invoice elements, calculates ${c.taxType} at the correct rate, generates sequential invoice numbers, and stores invoices securely for the required ${c.recordKeepingYears} years.</p>
-      <p><a href="/invoicing">Start your Pro plan</a> and create ${c.authority}-compliant invoices in minutes.</p>
+      <p><a href="/en/invoicing">Invoicemonk</a> is designed with ${c.demonym} tax compliance in mind. Our platform automatically includes all required invoice elements, calculates ${c.taxType} at the correct rate, generates sequential invoice numbers, and stores invoices securely for the required ${c.recordKeepingYears} years.</p>
+      <p><a href="/en/invoicing">Start your Pro plan</a> and create ${c.authority}-compliant invoices in minutes.</p>
     `,
   };
 }
@@ -992,7 +992,7 @@ function generateFreelancerVatPost(c: CountryConfig): BlogPost {
       </ul>
 
       <h2>How Invoicemonk Helps</h2>
-      <p><a href="/freelancers">Invoicemonk for freelancers</a> automatically calculates ${c.taxType}, generates compliant invoices, and tracks your turnover against the registration threshold. Pro starts at $15/month and scales with you.</p>
+      <p><a href="/en/freelancers">Invoicemonk for freelancers</a> automatically calculates ${c.taxType}, generates compliant invoices, and tracks your turnover against the registration threshold. Pro starts at $15/month and scales with you.</p>
     `,
   };
 }
@@ -1040,7 +1040,7 @@ function generateInvoiceFromAbroadPost(c: CountryConfig): BlogPost {
         <li><strong>Invoice in ${c.currencyCode} (${c.currency}):</strong> More convenient for your client, but you bear exchange rate risk</li>
         <li><strong>Invoice in your home currency:</strong> Simpler for your accounting, but may cause friction for the client</li>
       </ul>
-      <p><a href="/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency feature</a> lets you invoice in any currency while tracking the value in your home currency automatically.</p>
+      <p><a href="/en/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency feature</a> lets you invoice in any currency while tracking the value in your home currency automatically.</p>
 
       <h2>${c.taxType} Obligations for Foreign Suppliers</h2>
       <p>If you're based outside ${c.name} and invoicing ${c.demonym} clients:</p>
@@ -1063,7 +1063,7 @@ function generateInvoiceFromAbroadPost(c: CountryConfig): BlogPost {
         <li><strong>PayPal/Payoneer:</strong> Widely used, convenient but higher fees</li>
         <li><strong>Local payment integration:</strong> ${c.paymentMethods}</li>
       </ul>
-      <p>Compare fees using our <a href="/international-payment-fee-calculator">international payment fee calculator</a>.</p>
+      <p>Compare fees using our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a>.</p>
 
       <h2>Essential Invoice Elements for Cross-Border Billing</h2>
       <ol>
@@ -1076,7 +1076,7 @@ function generateInvoiceFromAbroadPost(c: CountryConfig): BlogPost {
       </ol>
 
       <h2>How Invoicemonk Simplifies Cross-Border Invoicing</h2>
-      <p><a href="/invoicing">Invoicemonk</a> handles multi-currency invoicing, automatic exchange rate tracking, and generates professional invoices that comply with both your local requirements and ${c.demonym} expectations. <a href="/invoicing">Get started →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk</a> handles multi-currency invoicing, automatic exchange rate tracking, and generates professional invoices that comply with both your local requirements and ${c.demonym} expectations. <a href="/en/invoicing">Get started →</a></p>
     `,
   };
 }
@@ -1136,7 +1136,7 @@ function generateTaxMistakesPost(c: CountryConfig): BlogPost {
         <li>Professional insurance</li>
         <li>Accounting and legal fees</li>
       </ul>
-      <p><strong>Fix:</strong> Use <a href="/expenses">expense tracking software</a> to capture every business expense as it happens.</p>
+      <p><strong>Fix:</strong> Use <a href="/en/expenses">expense tracking software</a> to capture every business expense as it happens.</p>
 
       <h2>4. Mixing Personal and Business Finances</h2>
       <p>Using one bank account for everything makes it nearly impossible to accurately calculate business income and expenses. ${c.authority} may question deductions you can't clearly separate from personal spending.</p>
@@ -1144,7 +1144,7 @@ function generateTaxMistakesPost(c: CountryConfig): BlogPost {
 
       <h2>5. Poor Record Keeping</h2>
       <p>${c.authority} requires records to be kept for ${c.recordKeepingYears} years. Lost receipts and incomplete records lead to disallowed deductions during audits.</p>
-      <p><strong>Fix:</strong> Go digital. Scan receipts immediately and use <a href="/invoicing">invoicing software</a> that stores everything securely.</p>
+      <p><strong>Fix:</strong> Go digital. Scan receipts immediately and use <a href="/en/invoicing">invoicing software</a> that stores everything securely.</p>
 
       <h2>6. Filing Returns Late</h2>
       <p>Filing deadlines aren't optional. In ${c.name}, ${c.taxType} returns are due ${c.filingFrequency}. Missing deadlines triggers automatic penalties.</p>
@@ -1155,7 +1155,7 @@ function generateTaxMistakesPost(c: CountryConfig): BlogPost {
       <p><strong>Fix:</strong> Use <a href="/blog/tax-compliant-invoice-${c.code}">compliant invoice templates</a> that include all ${c.authority}-required fields automatically.</p>
 
       <h2>Stay Compliant with Invoicemonk</h2>
-      <p><a href="/freelancers">Invoicemonk</a> helps ${c.demonym} freelancers avoid all seven mistakes — with automatic ${c.taxType} calculations, expense tracking, compliant invoicing, and filing reminders. <a href="/invoicing">Get started →</a></p>
+      <p><a href="/en/freelancers">Invoicemonk</a> helps ${c.demonym} freelancers avoid all seven mistakes — with automatic ${c.taxType} calculations, expense tracking, compliant invoicing, and filing reminders. <a href="/en/invoicing">Get started →</a></p>
     `,
   };
 }
@@ -1248,10 +1248,10 @@ const sharedPosts: BlogPost[] = [
 
       <h2>How to Track Both</h2>
       <ol>
-        <li><strong>Set up proper accounting:</strong> Use <a href="/accounting">accounting software</a> that automatically categorises income and expenses</li>
-        <li><strong>Review monthly:</strong> Check your <a href="/blog/monthly-financial-review-checklist">monthly financial review checklist</a></li>
+        <li><strong>Set up proper accounting:</strong> Use <a href="/en/accounting">accounting software</a> that automatically categorises income and expenses</li>
+        <li><strong>Review monthly:</strong> Check your <a href="/en/blog/monthly-financial-review-checklist">monthly financial review checklist</a></li>
         <li><strong>Know your margins:</strong> Calculate gross and net margins for each service or product line</li>
-        <li><strong>Track expenses diligently:</strong> Use <a href="/expenses">expense tracking</a> to capture every cost</li>
+        <li><strong>Track expenses diligently:</strong> Use <a href="/en/expenses">expense tracking</a> to capture every cost</li>
       </ol>
 
       <h2>The Bottom Line</h2>
@@ -1304,14 +1304,14 @@ const sharedPosts: BlogPost[] = [
 
       <h2>Step 1: Separate Business and Personal</h2>
       <p>The first rule of expense tracking: open a dedicated business bank account. Mixing personal and business spending makes categorisation nearly impossible and raises red flags during audits.</p>
-      <p>Read more: <a href="/blog/separate-business-personal-expenses">How to separate business and personal expenses →</a></p>
+      <p>Read more: <a href="/en/blog/separate-business-personal-expenses">How to separate business and personal expenses →</a></p>
 
       <h2>Step 2: Choose Your Tracking Method</h2>
       <p>From simple to sophisticated:</p>
       <ol>
         <li><strong>Spreadsheet:</strong> Free but manual — works for very simple businesses</li>
         <li><strong>Receipt scanning app:</strong> Photograph receipts and extract data automatically</li>
-        <li><strong>Expense tracking software:</strong> <a href="/expenses">Purpose-built tools</a> with bank sync, auto-categorisation, and reporting</li>
+        <li><strong>Expense tracking software:</strong> <a href="/en/expenses">Purpose-built tools</a> with bank sync, auto-categorisation, and reporting</li>
         <li><strong>Full accounting suite:</strong> End-to-end from expenses to financial statements</li>
       </ul>
 
@@ -1329,10 +1329,10 @@ const sharedPosts: BlogPost[] = [
         <li>Professional development and training</li>
         <li>Home office (if applicable)</li>
       </ul>
-      <p>Read more: <a href="/blog/business-expense-categories-guide">Complete guide to expense categories →</a></p>
+      <p>Read more: <a href="/en/blog/business-expense-categories-guide">Complete guide to expense categories →</a></p>
 
       <h2>Step 4: Capture Receipts Immediately</h2>
-      <p>The #1 rule: capture receipts the moment you make a purchase. Whether you snap a photo with your phone or use a <a href="/receipts">receipt scanning tool</a>, don't wait. Receipts fade, get lost, and become unreadable over time.</p>
+      <p>The #1 rule: capture receipts the moment you make a purchase. Whether you snap a photo with your phone or use a <a href="/en/receipts">receipt scanning tool</a>, don't wait. Receipts fade, get lost, and become unreadable over time.</p>
 
       <h2>Step 5: Reconcile Regularly</h2>
       <p>Review and reconcile expenses at least weekly — monthly at minimum. Match bank transactions to receipts, categorise anything that was auto-categorised incorrectly, and flag any suspicious charges.</p>
@@ -1341,7 +1341,7 @@ const sharedPosts: BlogPost[] = [
       <p>Run expense reports monthly to understand your spending patterns. Look for trends, identify costs you can cut, and ensure you're on budget. These reports also form the basis of your tax filings.</p>
 
       <h2>Get Started with Invoicemonk</h2>
-      <p><a href="/expenses">Invoicemonk's expense tracking</a> combines receipt scanning, auto-categorisation, and tax-ready reporting in one platform. Connect your bank account and start tracking expenses automatically — <a href="/invoicing">get started</a>.</p>
+      <p><a href="/en/expenses">Invoicemonk's expense tracking</a> combines receipt scanning, auto-categorisation, and tax-ready reporting in one platform. Connect your bank account and start tracking expenses automatically — <a href="/en/invoicing">get started</a>.</p>
     `,
   },
   {
@@ -1424,7 +1424,7 @@ const sharedPosts: BlogPost[] = [
         <li><strong>Stripe:</strong> Great for online payments, supports 135+ currencies</li>
         <li><strong>Bank transfer:</strong> Traditional but can involve high intermediary fees</li>
       </ul>
-      <p>Compare options using our <a href="/international-payment-fee-calculator">international payment fee calculator</a>.</p>
+      <p>Compare options using our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a>.</p>
 
       <h2>Accounting for Multi-Currency Transactions</h2>
       <ol>
@@ -1435,7 +1435,7 @@ const sharedPosts: BlogPost[] = [
       </ol>
 
       <h2>How Invoicemonk Handles Multi-Currency</h2>
-      <p><a href="/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency invoicing</a> automates the entire process. Create invoices in any currency, and the platform tracks exchange rates, records transactions in your home currency, and generates accurate reports. <a href="/invoicing">Get started →</a></p>
+      <p><a href="/en/use-cases/multi-currency-invoicing">Invoicemonk's multi-currency invoicing</a> automates the entire process. Create invoices in any currency, and the platform tracks exchange rates, records transactions in your home currency, and generates accurate reports. <a href="/en/invoicing">Get started →</a></p>
     `,
   },
 ];

@@ -20,10 +20,10 @@ export const cluster11Posts: BlogPost[] = [
     tags: ['e-invoicing', 'GST', 'India', 'compliance', 'GSTIN', 'small business', 'IRP'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     readTime: '18 min read',
     featuredImage: '/images/blog/e-invoicing-india.jpg',
-    featuredImageAlt: 'Indian business owner reviewing GST e-invoicing requirements on laptop',
+    featuredImageAlt: 'Editorial illustration of India\'s end-to-end e-invoicing compliance guide for the e invoicing india gst guide guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'in',
@@ -162,11 +162,11 @@ export const cluster11Posts: BlogPost[] = [
     tags: ['GST', 'India', 'registration', 'small business', 'compliance', 'GSTIN'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '14 min read',
     featuredImage: '/images/blog/gst-registration-india.jpg',
-    featuredImageAlt: 'Indian entrepreneur completing GST registration on computer',
+    featuredImageAlt: 'Editorial illustration of India\'s registration and onboarding workflow for the india gst registration small business guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'in',
@@ -264,7 +264,7 @@ export const cluster11Posts: BlogPost[] = [
 
 <p>Once registered, you'll need GST-compliant invoices. Use <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a> to create professional invoices with GSTIN, HSN codes, and automatic CGST/SGST/IGST calculations.</p>
 
-<p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-india-gst-guide">GST E-Invoicing in India</a>.</p>
+<p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>
     `
   },
 
@@ -277,11 +277,11 @@ export const cluster11Posts: BlogPost[] = [
     tags: ['GST', 'CGST', 'SGST', 'IGST', 'India', 'invoicing', 'tax compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/cgst-sgst-igst.jpg',
-    featuredImageAlt: 'Diagram showing CGST SGST and IGST flow in Indian GST system',
+    featuredImageAlt: 'Editorial illustration of India\'s e-invoicing compliance workflow for the india cgst sgst igst explained guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'in',
@@ -399,11 +399,11 @@ export const cluster11Posts: BlogPost[] = [
     tags: ['HSN', 'SAC', 'GST', 'India', 'invoicing', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '12 min read',
     featuredImage: '/images/blog/hsn-sac-codes-india.jpg',
-    featuredImageAlt: 'Indian business owner looking up HSN and SAC codes for GST invoice',
+    featuredImageAlt: 'Editorial illustration of India\'s end-to-end e-invoicing compliance guide for the india hsn sac codes invoice guide guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'in',
@@ -499,7 +499,7 @@ export const cluster11Posts: BlogPost[] = [
 
 <p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> lets you add HSN/SAC codes in the line item descriptions. The generator auto-applies 18% GST when INR is selected, with per-item rate overrides for different tax slabs.</p>
 
-<p>For the complete GST e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-india-gst-guide">GST E-Invoicing in India</a>.</p>
+<p>For the complete GST e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>
     `
   },
 
@@ -512,11 +512,11 @@ export const cluster11Posts: BlogPost[] = [
     tags: ['GST', 'GSTR-1', 'GSTR-3B', 'India', 'tax filing', 'compliance', 'annual return'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '15 min read',
     featuredImage: '/images/blog/gst-return-filing.jpg',
-    featuredImageAlt: 'Indian accountant filing GST returns on computer showing GSTR-3B form',
+    featuredImageAlt: 'Editorial illustration of India\'s end-to-end e-invoicing compliance guide for the india gst return filing guide guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'in',
@@ -617,11 +617,11 @@ export const cluster11Posts: BlogPost[] = [
     tags: ['ITC', 'GST', 'India', 'input tax credit', 'tax compliance', 'GSTR-2B'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '13 min read',
     featuredImage: '/images/blog/input-tax-credit-india.jpg',
-    featuredImageAlt: 'Indian business owner reviewing ITC claims on GST portal',
+    featuredImageAlt: 'Editorial illustration of India\'s credit and debit note handling for the india input tax credit guide guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'in',

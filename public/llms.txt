@@ -1,135 +1,137 @@
 # Invoicemonk
 
-> Compliance-first invoicing, accounting, and financial management platform for small businesses and freelancers worldwide — serving 17 countries across 5 languages.
+> The global e-invoicing platform for small business: mandate-compliant in 16 jurisdictions across the Middle East, Asia-Pacific, Europe, Africa, and the Americas. Every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal).
 
-Invoicemonk is a global all-in-one business finance platform that helps freelancers, consultants, contractors, and small businesses create professional invoices, track expenses, accept payments, manage accounting, generate estimates, and issue receipts — with built-in tax compliance for 17 countries across the Americas, Europe, Asia-Pacific, and Africa.
+Invoicemonk is the e-invoicing platform built for freelancers, consultants, contractors, and small businesses that need structured, mandate-compliant invoices in every country they work in. The platform issues and submits e-invoices that meet the legal requirements of the local tax authority: clearance with ZATCA Fatoorah, validation by LHDN MyInvois, IRN issuance by NIC IRP and FIRS MBS and GRA E-VAT, Control Unit Invoice Number by KRA eTIMS, Peppol BIS Billing 3.0 routing across the EU and Canada, MTD digital VAT records for HMRC, and SARS, ZIMRA, SRC, NF-e/NFS-e, BIR EIS, and US IPP for federal B2G.
+
+## Live E-Invoicing Mandates (16)
+
+**Middle East**
+- Fatoorah Phase 2 — Integration Phase: Saudi Arabia (CSID): https://invoicemonk.com/en/e-invoicing/zatca-phase-2
+- Fatoorah Phase 1 — Generation Phase: Saudi Arabia (Tamper-resistant XML): https://invoicemonk.com/en/e-invoicing/zatca-phase-1
+
+**Asia-Pacific**
+- MyInvois e-Invoicing: Malaysia (MyInvois UUID): https://invoicemonk.com/en/e-invoicing/myinvois-malaysia
+- GST e-Invoicing (IRN + QR): India (IRN): https://invoicemonk.com/en/e-invoicing/gst-irn-india
+- EIS — Electronic Invoicing System (CAS / e-Invoice / e-Receipt): Philippines (BIR EIS reference): https://invoicemonk.com/en/e-invoicing/bir-cas-philippines
+
+**Europe**
+- Peppol BIS Billing 3.0 (B2B and B2G): European Union (Peppol BIS UBL): https://invoicemonk.com/en/e-invoicing/peppol-eu
+- Making Tax Digital for VAT: United Kingdom (MTD digital VAT record): https://invoicemonk.com/en/e-invoicing/mtd-uk
+
+**Africa**
+- FIRS Merchant-Buyer Solution (MBS) e-Invoicing: Nigeria (FIRS IRN): https://invoicemonk.com/en/e-invoicing/firs-mbs-nigeria
+- eTIMS (Electronic Tax Invoice Management System): Kenya (CU Invoice Number): https://invoicemonk.com/en/e-invoicing/kra-etims-kenya
+- Certified Invoicing System (E-VAT): Ghana (GRA IRN): https://invoicemonk.com/en/e-invoicing/gra-e-vat-ghana
+- SARS Tax Invoice Requirements (VAT Act s.20) + e-Filing VAT201: South Africa (Signed tax invoice): https://invoicemonk.com/en/e-invoicing/sars-south-africa
+- Fiscalisation Data Management System (FDMS): Zimbabwe (FDMS fiscal signature): https://invoicemonk.com/en/e-invoicing/zimra-zimbabwe
+- VAT Act tax invoice requirements + SRC e-Filing: Seychelles (Signed VAT invoice): https://invoicemonk.com/en/e-invoicing/src-seychelles
+
+**Americas**
+- NF-e (Nota Fiscal Eletrônica) and NFS-e (services): Brazil (NF-e Chave de Acesso): https://invoicemonk.com/en/e-invoicing/sef-brazil
+- Invoice Processing Platform (IPP) — Federal B2G e-Invoicing: United States (IPP invoice ID): https://invoicemonk.com/en/e-invoicing/b2g-us
+- CRA GST/HST tax invoice + Peppol BIS Billing Canada: Canada (GST/HST signed invoice + Peppol UBL): https://invoicemonk.com/en/e-invoicing/cra-peppol-canada
+
+## Cryptographic Artefacts: Global and Per-Mandate
+
+Invoicemonk issues cryptographically signed structured invoices in every supported jurisdiction, using the local artefact the authority requires:
+- **CSID**: ZATCA (Saudi Arabia)
+- **IRN**: GST India (NIC IRP), FIRS Nigeria, GRA Ghana
+- **UUID**: MyInvois (Malaysia)
+- **QR + Control Unit Invoice Number**: KRA eTIMS (Kenya)
+- **Chave de Acesso**: NF-e / NFS-e (Brazil)
+- **Fiscal signature**: ZIMRA FDMS (Zimbabwe)
+- **XAdES digital signatures**: Peppol (EU), HMRC MTD (UK)
+- **ICP-Brasil A1**: Brazilian NF-e / NFS-e signing
+
+Each mandate page documents the local artefact, signing algorithm, certificate authority, and the spec section that requires it.
+
+## E-Invoicing Cluster Articles (36)
+
+Long-form supportive articles under the /e-invoicing pillar. Every article carries a direct-answer paragraph, fact box, table of contents, compliance checklist, authority citations, and an expanded FAQ.
+
+- [How to Comply with ZATCA Phase 2: Onboarding and Your First Cleared Invoice (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-zatca-phase-2)
+- [ZATCA Phase 2 Explained: Scope, Thresholds, Waves, Penalties, Timeline (2026)](https://invoicemonk.com/en/blog/zatca-phase-2-explained)
+- [ZATCA Phase 2 Common Errors and How to Fix Them (2026)](https://invoicemonk.com/en/blog/zatca-phase-2-common-errors)
+- [How to Comply with ZATCA Phase 1: Generation Phase Setup (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-zatca-phase-1)
+- [ZATCA Phase 1 Explained: The Saudi Generation Phase (2026)](https://invoicemonk.com/en/blog/zatca-phase-1-explained)
+- [ZATCA Phase 1 vs Phase 2: What Changes When You Integrate (2026)](https://invoicemonk.com/en/blog/zatca-phase-1-vs-phase-2)
+- [How to Comply with Peppol in the EU: Connect, Validate, and Send Your First Invoice (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-peppol-eu)
+- [Peppol EU Explained: Scope, Country Mandates, and What Changes Through 2028](https://invoicemonk.com/en/blog/peppol-eu-explained)
+- [Peppol vs National E-Invoicing Portals: Network Model vs Clearance Compared](https://invoicemonk.com/en/blog/peppol-vs-national-portals)
+- [What is a Peppol Access Point? The Four-Corner Model and AS4 in Plain English](https://invoicemonk.com/en/blog/what-is-peppol-access-point)
+- [UBL 2.1 Explained: The XML Standard Behind Modern E-Invoicing](https://invoicemonk.com/en/blog/ubl-2-1-explained)
+- [XAdES Digital Signatures Explained: How E-Invoices Are Signed and Verified](https://invoicemonk.com/en/blog/xades-digital-signatures-explained)
+- [How to Comply with FIRS MBS in Nigeria: Onboard, Sign, and Issue Your First IRN (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-firs-mbs-nigeria)
+- [FIRS / NRS MBS Nigeria Explained: Scope, Rollout Waves, Penalties, and 2026 Timeline](https://invoicemonk.com/en/blog/firs-mbs-nigeria-explained)
+- [What Is a CSID? Cryptographic Stamp Identifier Explained for ZATCA E-Invoicing](https://invoicemonk.com/en/blog/what-is-csid)
+- [What Is an IRN? Invoice Reference Number Explained Across India, Nigeria, and Ghana](https://invoicemonk.com/en/blog/what-is-irn)
+- [Clearance vs Reporting Models in E-Invoicing: How ZATCA, MyInvois, FIRS, MTD, and Peppol Differ](https://invoicemonk.com/en/blog/clearance-vs-reporting-models)
+- [Choosing an E-Invoicing Platform: 12-Point Checklist for Multi-Jurisdiction Compliance](https://invoicemonk.com/en/blog/choosing-an-e-invoicing-platform-checklist)
+- [How to Comply with MyInvois in Malaysia: Onboard with LHDN and Issue Your First UUID-Stamped Invoice (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-myinvois-malaysia)
+- [MyInvois Malaysia Explained: Scope, Rollout Waves, SST Handling, and the 2026 Phase 4 Deferral](https://invoicemonk.com/en/blog/myinvois-malaysia-explained)
+- [How to Comply with GST IRN in India: Onboard with NIC IRP and Issue Your First Signed QR Invoice (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-gst-irn-india)
+- [GST IRN India Explained: Scope, Threshold History, Input Tax Credit, and the 2026 Timeline](https://invoicemonk.com/en/blog/gst-irn-india-explained)
+- [QR Codes on Tax Invoices: TLV, Signed JWT, and Verification URL Formats Compared](https://invoicemonk.com/en/blog/qr-codes-on-tax-invoices)
+- [Real-Time Invoice Reporting: How Tax Authorities See Every Transaction As It Happens (and What ViDA Means for 2030)](https://invoicemonk.com/en/blog/real-time-invoice-reporting)
+- [How to Comply with MTD for VAT in the UK: Sign Up, Connect to HMRC, and File Your First Digital Return (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-mtd-uk)
+- [MTD UK Explained: Scope, Digital Links, ITSA, and What Changes Through 2028](https://invoicemonk.com/en/blog/mtd-uk-explained)
+- [Common MTD UK Errors and How to Fix Them: OAuth, Digital Links, Box Mismatches, and Late Returns (2026)](https://invoicemonk.com/en/blog/mtd-uk-common-errors)
+- [How to Comply with KRA eTIMS in Kenya: Onboard, Connect, and Issue Your First Control Unit Invoice (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-kra-etims-kenya)
+- [KRA eTIMS Kenya Explained: Scope, Variants, VAT Handling, and the 2026 Income-Tax Linkage](https://invoicemonk.com/en/blog/kra-etims-kenya-explained)
+- [ICP-Brasil A1 Certificates Explained: Why Brazilian E-Invoicing (NF-e and NFS-e) Depends on Them](https://invoicemonk.com/en/blog/icp-brasil-a1-certificates)
+- [How to Comply with SEFAZ in Brazil: Issue Your First NF-e and NFS-e End to End (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-sefaz-brazil)
+- [SEFAZ Brazil Explained: NF-e, NFS-e, CT-e, the Chave de Acesso, and the IBS/CBS Reform Through 2033](https://invoicemonk.com/en/blog/sefaz-brazil-explained)
+- [How to Comply with GRA E-VAT in Ghana: Onboard, Connect, and Issue Your First Certified Invoice (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-gra-e-vat-ghana)
+- [GRA E-VAT Ghana Explained: Scope, Thresholds, VAT Act 2025 (Act 1151), and the Levy Stack from 2026](https://invoicemonk.com/en/blog/gra-e-vat-ghana-explained)
+- [SARS South Africa Explained: VAT Modernisation, the 2026 Multi-Year E-Invoicing Plan, and What Is Coming Through 2028](https://invoicemonk.com/en/blog/sars-south-africa-explained)
+- [Common MyInvois Malaysia Errors and How to Fix Them: Validation, TIN Mismatches, Cancellation Windows, and QR Failures (2026)](https://invoicemonk.com/en/blog/myinvois-malaysia-common-errors)
 
 ## Core Products
 
-- [Invoicing](https://invoicemonk.com/en/invoicing): Create and send professional, tax-compliant invoices with automatic numbering, multi-currency support, payment tracking, and branded templates.
-- [Expenses](https://invoicemonk.com/en/expenses): Track and categorize business expenses with receipt scanning (OCR), automatic categorization, and tax-deductible expense identification.
-- [Payments](https://invoicemonk.com/en/payments): Accept payments via Stripe (international — US, UK, Canada, Australia, Europe) and Paystack (Nigeria, Ghana, Kenya, South Africa) with embedded payment links on invoices. Multi-currency support.
-- [Accounting](https://invoicemonk.com/en/accounting): Automated bookkeeping, chart of accounts, financial reports (P&L, balance sheet, cash flow), bank reconciliation, and multi-entity support.
-- [Estimates](https://invoicemonk.com/en/estimates): Create professional quotes and proposals with one-click conversion to invoices. Supports estimate, quote, and proposal workflows.
-- [Receipts](https://invoicemonk.com/en/receipts): Generate and manage payment receipts with digital storage, OCR scanning, and compliance-ready documentation.
-
-## Additional Features
-
-- [Client Management](https://invoicemonk.com/en/client-management): CRM-lite features for managing client contacts, payment history, and communication.
-- [Invoice Verification Portal](https://invoicemonk.com): Clients can verify invoice authenticity through a public portal.
-- Credit notes and corrections
-- Recurring invoices and retainer billing
-- Milestone-based billing
-- Multi-currency invoicing
-- Custom branding and premium templates
-- Multilingual invoicing (English, German, French, Portuguese, Spanish)
+- [E-Invoicing](https://invoicemonk.com/en/e-invoicing): The mandate-compliant e-invoicing platform: 16 live mandates with CSID, IRN, UUID, QR, and Peppol routing.
+- [Invoicing](https://invoicemonk.com/en/invoicing): Everyday professional invoicing: templates, reminders, multi-currency, payments.
+- [Expenses](https://invoicemonk.com/en/expenses): Receipt scanning (OCR), automatic categorization, tax-deductible expense identification.
+- [Payments](https://invoicemonk.com/en/payments): Accept payments via Stripe (US, UK, Canada, Australia, Europe) and Paystack (Nigeria, Ghana, Kenya, South Africa).
+- [Accounting](https://invoicemonk.com/en/accounting): Automated bookkeeping, chart of accounts, financial reports, multi-entity support.
+- [Estimates](https://invoicemonk.com/en/estimates): Quotes and proposals with one-click conversion to invoices.
+- [Receipts](https://invoicemonk.com/en/receipts): Payment receipts with OCR scanning and compliance-ready storage.
 
 ## Who It's For
 
-- Freelancers (designers, writers, developers, marketers)
-- Consultants and professional service providers
-- Contractors (construction, electrical, plumbing)
-- Small businesses and startups
-- Agencies (marketing, creative, digital)
-- Photographers and creatives
-- Lawyers and legal professionals
-- Accountants and bookkeepers
-- E-commerce businesses
-
-## Supported Languages
-
-- English
-- German (Deutsch)
-- French (Français)
-- Portuguese (Português)
-- Spanish (Español)
+Freelancers, consultants, contractors, small businesses, agencies, photographers, lawyers, accountants, and e-commerce sellers operating across one or more of the 16 supported e-invoicing mandates.
 
 ## Pricing
 
-Invoicemonk is paid-only — no free plan or free trial. Three plans available globally:
+Paid-only: no free plan or free trial.
 
-- **Pro** ($15/month, recommended): Unlimited invoices, receipts, clients, and currency accounts; up to 5 team members; full audit trail; custom branding; data exports; watermark-free PDFs
-- **SME** ($49/month): Everything in Pro plus unlimited team members, online payments, advanced reports, and premium templates
-- **Biz** (custom pricing): Everything in SME plus e-invoicing and government submission, dedicated account manager, custom integrations, SLA guarantee, and priority support
+- **Pro** ($15/month, recommended): Unlimited invoices, receipts, clients, and currency accounts; up to 5 team members; full audit trail; custom branding; data exports; watermark-free PDFs; all mandate-compliant e-invoicing capabilities.
+- **SME** ($49/month): Pro plus unlimited team members, online payments, advanced reports, premium templates.
+- **Biz** (custom): SME plus dedicated account manager, custom integrations, SLA guarantee, priority support.
 
-Annual billing saves approximately 17% (pay for 10 months, get 12). Cancel anytime.
-
-
-## Tax Compliance
-
-Built-in compliance for 17 countries, grouped by region:
-
-**Americas:**
-- **United States**: IRS — Tax-ready invoices with required documentation
-- **Canada**: CRA — GST/HST compliant
-- **Brazil**: Receita Federal — Nota Fiscal compliant invoicing
-
-**Europe:**
-- **United Kingdom**: HMRC — Making Tax Digital (MTD) ready
-- **Germany**: Finanzamt — Umsatzsteuer (USt) compliant invoicing
-- **France**: DGFiP — TVA (VAT) compliant invoicing
-- **Spain**: AEAT — IVA compliant invoicing
-
-**Asia-Pacific:**
-- **Australia**: ATO — GST-compliant tax invoices
-- **New Zealand**: IRD — GST-compliant invoicing
-- **India**: GST — GSTIN-compliant tax invoicing
-- **Philippines**: BIR — VAT-compliant invoicing
-- **Seychelles**: SRC — Tax-compliant invoicing
-
-**Africa:**
-- **Nigeria**: FIRS — VAT-compliant invoicing
-- **Ghana**: GRA — VAT-compliant invoicing
-- **Kenya**: KRA — VAT-compliant invoicing
-- **South Africa**: SARS — VAT-compliant invoicing
-- **Zimbabwe**: ZIMRA — Tax-compliant invoicing
+Annual billing saves approximately 17%. Cancel anytime.
 
 ## Comparisons
 
-Invoicemonk is positioned as a compliance-first alternative to:
-- [vs QuickBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-quickbooks): Simpler, more affordable, multi-region compliance across 17 countries
-- [vs FreshBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-freshbooks): Multi-region compliance, better pricing, 5 languages
-- [vs Wave](https://invoicemonk.com/en/compare/invoicemonk-vs-wave): More features, multi-currency, team support, European compliance
-- [vs Zoho Invoice](https://invoicemonk.com/en/compare/invoicemonk-vs-zoho-invoice): Purpose-built for global small business compliance
+- [vs QuickBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-quickbooks)
+- [vs FreshBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-freshbooks)
+- [vs Wave](https://invoicemonk.com/en/compare/invoicemonk-vs-wave)
+- [vs Zoho Invoice](https://invoicemonk.com/en/compare/invoicemonk-vs-zoho-invoice)
 
-## Free Tools
-
-- [Invoice Template Gallery](https://invoicemonk.com/en/invoice-templates): Browse professional invoice templates for every industry
-- [Freelancer Rate Calculator](https://invoicemonk.com/en/freelancer-rate-calculator): Calculate your ideal hourly or project rate
-- [International Payment Fee Calculator](https://invoicemonk.com/en/international-payment-fee-calculator): Compare fees across Wise, PayPal, Stripe, and SWIFT
-- [PayPal vs Wise Fee Comparison](https://invoicemonk.com/en/paypal-vs-wise-fees): Side-by-side fee comparison
-- [Cheapest International Payments](https://invoicemonk.com/en/cheapest-way-to-receive-international-payments): Find the cheapest way to receive payments
+The defensible wedge across all comparisons: e-invoicing mandate coverage. None of the above match Invoicemonk's 16-mandate live footprint with a single platform.
 
 ## Key Differentiators
 
-1. **Compliance-first**: Tax rules built into every invoice for 17 countries, not an afterthought
-2. **Truly global**: One platform, 17 countries, 5 languages, automatic compliance adaptation
-3. **All-in-one**: Invoicing + expenses + payments + accounting in one platform
-4. **Affordable**: Pro from $15/month; paid plans start at $4/mo
-5. **Professional**: Branded templates, invoice verification portal, credit notes
-6. **Multilingual**: Full platform available in English, German, French, Portuguese, and Spanish
-
-## Resources
-
-- [Blog](https://invoicemonk.com/en/blog): 50+ articles on invoicing, accounting, freelancing, tax compliance, and business finance
-- [Guides](https://invoicemonk.com/en/guides): Comprehensive guides available in 5 languages on invoicing, getting paid, business finances, tax compliance, freelancing, and estimates
-- [Help Center](https://invoicemonk.com/en/help): Getting started guides and tutorials
-- [About](https://invoicemonk.com/en/about): Company information and team
-
-## Supported URL Languages
-
-Canonical website URLs use language prefixes, not country prefixes:
-
-- `/en/` — English and English-only country/compliance content
-- `/de/` — German
-- `/fr/` — French
-- `/pt/` — Portuguese (Brazilian Portuguese)
-- `/es/` — Spanish
-
-Retired country prefixes such as `/us/`, `/uk/`, `/ng/`, `/ke/`, `/gh/`, `/za/`, `/in/`, `/au/`, `/ca/`, `/br/`, `/nz/`, `/ph/`, `/sc/`, and `/zw/` redirect to the corresponding `/en/` or language-prefixed canonical pages.
+1. **Mandate-compliant by default**: 16 live e-invoicing mandates, not roadmap items
+2. **Local artefact, every jurisdiction**: CSID, IRN, UUID, QR, fiscal signature, ICP-Brasil, XAdES
+3. **One platform, all transports**: direct API, Peppol Access Point, national portals
+4. **Real-time clearance and reporting** where mandated (ZATCA, MyInvois, eTIMS, ZIMRA FDMS)
+5. **Affordable**: Pro from $15/month
+6. **Single language**: English (en) — no per-country localisation; product ships globally in one locale
 
 ## Contact
 
 - Website: https://invoicemonk.com
+- E-Invoicing platform: https://invoicemonk.com/en/e-invoicing
 - Contact: https://invoicemonk.com/en/contact
-- Sign up: https://app.invoicemonk.com/signup
+- Sign up: https://app.invoicemonk.com/signup?plan=professional

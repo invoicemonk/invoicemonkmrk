@@ -12,6 +12,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { pageSEO } from '@/components/seo/seoConfig';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { GlobalCapabilityBlock } from '@/components/e-invoicing/GlobalCapabilityBlock';
 import { useTranslation } from 'react-i18next';
 
 const featureKeys = [
@@ -91,6 +92,9 @@ const Compliance = () => {
       {/* Features Section */}
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto mb-12">
+            <GlobalCapabilityBlock />
+          </div>
           <StaggerContainer className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {complianceFeatures.map((feature) => {
               const Icon = feature.icon;

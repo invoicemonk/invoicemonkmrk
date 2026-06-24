@@ -387,6 +387,42 @@ export function clearAnalytics(): void {
   localStorage.removeItem(AB_VARIANTS_KEY);
   localStorage.removeItem('invoicemonk_reading_progress');
   sessionStorage.removeItem('analytics_session');
+  sessionStorage.removeItem('invoicemonk_last_intent');
+}
+
+/**
+ * Track a CTA click with an attached conversion intent (mandate slug,
+ * segment, exit_intent, etc.). The intent is persisted to sessionStorage
+ * so the downstream signup flow can read `getLastIntent()` even after
+ * the user leaves the marketing site for app.invoicemonk.com.
+ */
+export function trackCTAClick(intent: string, meta?: Record<string, unknown>): void {
+  try {
+    if (typeof window === 'undefined') return;
+    sessionStorage.setItem('invoicemonk_last_intent', intent);
+    storeAnalyticsEvent({
+      type: 'link_click',
+      timestamp: Date.now(),
+      data: { intent, ...(meta || {}) },
+    });
+    try {
+      // @ts-expect-error dataLayer global
+      (window.dataLayer = window.dataLayer || []).push({ event: 'cta_click', intent, ...(meta || {}) });
+    } catch {
+      // ignore
+    }
+  } catch {
+    // ignore
+  }
+}
+
+export function getLastIntent(): string | null {
+  try {
+    if (typeof window === 'undefined') return null;
+    return sessionStorage.getItem('invoicemonk_last_intent');
+  } catch {
+    return null;
+  }
 }
 
 export default useContentAnalytics;

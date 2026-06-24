@@ -29,7 +29,7 @@ export const cluster16Posts: BlogPost[] = [
 <ol>
 <li><strong>Day 1 (due date)</strong>: Invoice becomes overdue — wait 2-3 days for processing delays</li>
 <li><strong>Day 3-5</strong>: Send a friendly reminder email referencing the invoice number and amount</li>
-<li><strong>Day 14</strong>: Send a firmer reminder with <a href="/blog/how-to-chase-unpaid-invoices">follow-up language</a></li>
+<li><strong>Day 14</strong>: Send a firmer reminder with <a href="/en/blog/how-to-chase-unpaid-invoices">follow-up language</a></li>
 <li><strong>Day 30</strong>: Phone call to discuss the situation</li>
 <li><strong>Day 45-60</strong>: <strong>Send formal payment demand letter</strong></li>
 <li><strong>Day 75+</strong>: Consider legal action or debt collection</li>
@@ -45,7 +45,7 @@ export const cluster16Posts: BlogPost[] = [
 <li><strong>Statement of the debt</strong> — clearly state what is owed and why</li>
 <li><strong>Payment deadline</strong> — typically 7-14 days from the letter date</li>
 <li><strong>Consequences of non-payment</strong> — legal action, credit reporting, or debt collection</li>
-<li><strong>Payment instructions</strong> — how to pay (bank details, payment link via <a href="/payments">online payment portal</a>)</li>
+<li><strong>Payment instructions</strong> — how to pay (bank details, payment link via <a href="/en/payments">online payment portal</a>)</li>
 <li><strong>Your signature</strong></li>
 </ul>
 
@@ -69,7 +69,7 @@ export const cluster16Posts: BlogPost[] = [
 <p>Under the Late Payment of Commercial Debts (Interest) Act 1998, you can charge statutory interest of 8% plus the Bank of England base rate on overdue B2B invoices. You can also claim fixed compensation: £40 for debts under £1,000, £70 for debts up to £10,000, and £100 for debts over £10,000. Reference this in your demand letter for UK clients.</p>
 
 <h3>Nigeria</h3>
-<p>Nigeria does not have a specific late payment act, but contract law applies. Your demand letter should reference the original agreement terms and the Nigerian Arbitration and Conciliation Act if you included an arbitration clause. For businesses registered with <a href="/blog/e-invoicing-nigeria-firs-guide">FIRS</a>, maintaining invoice records strengthens your position.</p>
+<p>Nigeria does not have a specific late payment act, but contract law applies. Your demand letter should reference the original agreement terms and the Nigerian Arbitration and Conciliation Act if you included an arbitration clause. For businesses registered with <a href="/en/blog/firs-mbs-nigeria-explained">FIRS</a>, maintaining invoice records strengthens your position.</p>
 
 <h3>India</h3>
 <p>Under the Indian Contract Act and MSME Development Act (for qualifying businesses), suppliers can claim compound interest on delayed payments. Send the demand letter via registered post for legal proof of delivery.</p>
@@ -79,9 +79,9 @@ export const cluster16Posts: BlogPost[] = [
 
 <h2>After the Demand Letter: Next Steps</h2>
 <ul>
-<li><strong>Client pays</strong> — issue a <a href="/receipts">receipt</a> and consider whether to continue the relationship</li>
+<li><strong>Client pays</strong> — issue a <a href="/en/receipts">receipt</a> and consider whether to continue the relationship</li>
 <li><strong>Client proposes a payment plan</strong> — negotiate and document the agreement in writing</li>
-<li><strong>Client disputes the invoice</strong> — follow the <a href="/blog/invoice-disputes-how-to-handle-professionally">dispute resolution process</a></li>
+<li><strong>Client disputes the invoice</strong> — follow the <a href="/en/blog/invoice-disputes-how-to-handle-professionally">dispute resolution process</a></li>
 <li><strong>No response</strong> — proceed to small claims court or a debt collection agency</li>
 </ul>
 
@@ -111,7 +111,7 @@ export const cluster16Posts: BlogPost[] = [
 
 <h2>Why Late Payment Laws Matter</h2>
 <p>Late payments cost small businesses billions annually in lost productivity, cash flow disruptions, and administrative overhead. Many countries have enacted specific legislation to protect businesses from chronic late payers, but most freelancers and small business owners <strong>don't know their rights</strong>.</p>
-<p>This guide covers the late payment laws in 10 major markets so you can enforce your right to timely payment and include the appropriate clauses in your <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a>.</p>
+<p>This guide covers the late payment laws in 10 major markets so you can enforce your right to timely payment and include the appropriate clauses in your <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a>.</p>
 
 <h2>United Kingdom</h2>
 <h3>Legislation: Late Payment of Commercial Debts (Interest) Act 1998</h3>
@@ -144,9 +144,9 @@ export const cluster16Posts: BlogPost[] = [
 <li>Late payment interest must be specified in your contract — it won't apply automatically</li>
 <li>Standard commercial interest rates range from 15-25% per annum</li>
 <li>The Arbitration and Mediation Act 2023 provides a framework for dispute resolution</li>
-<li>FIRS e-invoicing compliance (<a href="/blog/e-invoicing-nigeria-firs-guide">FIRS guide</a>) creates a formal paper trail useful in disputes</li>
+<li>FIRS e-invoicing compliance (<a href="/en/blog/firs-mbs-nigeria-explained">FIRS guide</a>) creates a formal paper trail useful in disputes</li>
 </ul>
-<p>Include explicit late payment clauses in every contract and <a href="/blog/how-to-write-payment-demand-letter">send demand letters</a> before legal action.</p>
+<p>Include explicit late payment clauses in every contract and <a href="/en/blog/how-to-write-payment-demand-letter">send demand letters</a> before legal action.</p>
 
 <h2>India</h2>
 <h3>Legislation: MSMED Act 2006</h3>
@@ -157,7 +157,7 @@ export const cluster16Posts: BlogPost[] = [
 <li><strong>MSME Samadhaan portal</strong>: Online filing for delayed payment cases</li>
 <li><strong>No waiver allowed</strong>: The buyer cannot contractually override the 45-day payment period</li>
 </ul>
-<p>Register your business on the Udyam portal to qualify for MSMED protections. The Act is powerful but underused — only a fraction of eligible businesses file claims. For GST-compliant invoicing, see our <a href="/blog/e-invoicing-india-gst-guide">India GST e-invoicing guide</a>.</p>
+<p>Register your business on the Udyam portal to qualify for MSMED protections. The Act is powerful but underused — only a fraction of eligible businesses file claims. For GST-compliant invoicing, see our <a href="/en/blog/gst-irn-india-explained">India GST e-invoicing guide</a>.</p>
 
 <h2>Australia</h2>
 <h3>Legislation: No Federal Late Payment Act (State-Level Protections)</h3>
@@ -172,22 +172,22 @@ export const cluster16Posts: BlogPost[] = [
 
 <h2>Kenya</h2>
 <h3>Legislation: No Specific Late Payment Act</h3>
-<p>Kenya relies on contractual terms and the Law of Contract Act. Late payment interest must be contractually agreed. The eTIMS e-invoicing system (<a href="/blog/e-invoicing-kenya-etims">eTIMS guide</a>) creates an official record of invoices useful in disputes.</p>
+<p>Kenya relies on contractual terms and the Law of Contract Act. Late payment interest must be contractually agreed. The eTIMS e-invoicing system (<a href="/en/blog/kra-etims-kenya-explained">eTIMS guide</a>) creates an official record of invoices useful in disputes.</p>
 
 <h2>Saudi Arabia</h2>
 <h3>Legislation: Commercial Court Law</h3>
-<p>Saudi Arabia's Commercial Court handles payment disputes. Sharia law principles apply — interest (riba) is not automatically enforceable, but liquidated damages clauses and compensation for actual losses are permitted. ZATCA e-invoicing compliance (<a href="/blog/e-invoicing-saudi-zatca-fatoorah">ZATCA guide</a>) provides strong evidentiary support in court proceedings.</p>
+<p>Saudi Arabia's Commercial Court handles payment disputes. Sharia law principles apply — interest (riba) is not automatically enforceable, but liquidated damages clauses and compensation for actual losses are permitted. ZATCA e-invoicing compliance (<a href="/en/blog/zatca-phase-2-explained">ZATCA guide</a>) provides strong evidentiary support in court proceedings.</p>
 
 <h2>Malaysia</h2>
 <h3>Legislation: Construction Industry Payment and Adjudication Act 2012 (CIPAA)</h3>
-<p>CIPAA protects contractors in the construction sector with statutory adjudication. For other industries, contractual terms govern. The MyInvois e-invoicing system (<a href="/blog/e-invoicing-malaysia-myinvois-guide">MyInvois guide</a>) creates official records.</p>
+<p>CIPAA protects contractors in the construction sector with statutory adjudication. For other industries, contractual terms govern. The MyInvois e-invoicing system (<a href="/en/blog/myinvois-malaysia-explained">MyInvois guide</a>) creates official records.</p>
 
 <h2>How to Protect Yourself Regardless of Jurisdiction</h2>
 <ol>
 <li><strong>Include late payment clauses</strong> in every contract — specify the interest rate and any fixed compensation</li>
-<li><strong>Issue invoices promptly</strong> using <a href="/invoicing">professional invoicing software</a> to start the clock</li>
+<li><strong>Issue invoices promptly</strong> using <a href="/en/invoicing">professional invoicing software</a> to start the clock</li>
 <li><strong>Use e-invoicing</strong> where available — it creates a legally admissible audit trail</li>
-<li><strong>Set up automatic reminders</strong> — <a href="/blog/setting-up-automatic-payment-reminders">automated reminders</a> reduce overdue invoices by 30%</li>
+<li><strong>Set up automatic reminders</strong> — <a href="/en/blog/setting-up-automatic-payment-reminders">automated reminders</a> reduce overdue invoices by 30%</li>
 <li><strong>Know your local laws</strong> — many protections are underused because businesses don't know they exist</li>
 </ol>
 
@@ -233,19 +233,19 @@ export const cluster16Posts: BlogPost[] = [
 <h2>Prevention: The 6-Layer Payment Protection System</h2>
 
 <h3>Layer 1: Written Agreements</h3>
-<p>Never start work without a signed contract or accepted <a href="/blog/winning-proposals-estimates-guide">proposal</a>. The document should clearly state: scope of work, deliverables, timeline, pricing, payment terms, late payment penalties, and intellectual property transfer conditions.</p>
+<p>Never start work without a signed contract or accepted <a href="/en/blog/winning-proposals-estimates-guide">proposal</a>. The document should clearly state: scope of work, deliverables, timeline, pricing, payment terms, late payment penalties, and intellectual property transfer conditions.</p>
 
 <h3>Layer 2: Upfront Deposits</h3>
 <p>Require 25-50% upfront before starting work. This does two things: it provides cash flow protection and tests the client's willingness to pay. If they won't pay a deposit, they're unlikely to pay the final invoice.</p>
 
 <h3>Layer 3: Milestone Billing</h3>
-<p>For projects over $2,000, break the payment into milestones tied to deliverables. Bill 30% upfront, 30% at mid-project, 40% on completion. This limits your maximum exposure at any point. Use <a href="/blog/how-to-write-an-invoice-step-by-step">milestone invoices</a> with clear descriptions of what each payment covers.</p>
+<p>For projects over $2,000, break the payment into milestones tied to deliverables. Bill 30% upfront, 30% at mid-project, 40% on completion. This limits your maximum exposure at any point. Use <a href="/en/blog/how-to-write-an-invoice-step-by-step">milestone invoices</a> with clear descriptions of what each payment covers.</p>
 
 <h3>Layer 4: Professional Invoicing</h3>
-<p>Use <a href="/invoicing">proper invoicing software</a> with automatic numbering, clear payment terms, and multiple payment options. Include your bank details and an <a href="/payments">online payment link</a> on every invoice to remove friction.</p>
+<p>Use <a href="/en/invoicing">proper invoicing software</a> with automatic numbering, clear payment terms, and multiple payment options. Include your bank details and an <a href="/en/payments">online payment link</a> on every invoice to remove friction.</p>
 
 <h3>Layer 5: Automatic Reminders</h3>
-<p>Set up <a href="/blog/setting-up-automatic-payment-reminders">automated payment reminders</a> at 3 days before due, on the due date, and 3, 7, 14, and 30 days after. Most late payments are resolved with a simple reminder — many clients genuinely forget.</p>
+<p>Set up <a href="/en/blog/setting-up-automatic-payment-reminders">automated payment reminders</a> at 3 days before due, on the due date, and 3, 7, 14, and 30 days after. Most late payments are resolved with a simple reminder — many clients genuinely forget.</p>
 
 <h3>Layer 6: IP Withholding Clauses</h3>
 <p>Include a clause that intellectual property (designs, code, content) doesn't transfer until final payment is received. For web developers and designers, this is powerful leverage — you can take down a website or withhold source files until paid.</p>
@@ -259,10 +259,10 @@ export const cluster16Posts: BlogPost[] = [
 <p>Send a written reminder that explicitly references the payment terms and any late payment penalties. CC the client's accounts department if they have one. Start documenting all communications.</p>
 
 <h3>Stage 3: Formal Demand (Day 30-60)</h3>
-<p>Send a <a href="/blog/how-to-write-payment-demand-letter">formal demand letter</a> with a 14-day deadline. State the consequences of non-payment clearly. This often triggers payment because it signals you're serious about legal action.</p>
+<p>Send a <a href="/en/blog/how-to-write-payment-demand-letter">formal demand letter</a> with a 14-day deadline. State the consequences of non-payment clearly. This often triggers payment because it signals you're serious about legal action.</p>
 
 <h3>Stage 4: Legal Action (Day 60+)</h3>
-<p>Options include small claims court (usually for amounts under $5,000-$10,000), mediation services, or engaging a debt collection agency (who typically charge 15-25% of the recovered amount). Review the <a href="/blog/late-payment-laws-by-country">late payment laws</a> in your client's jurisdiction.</p>
+<p>Options include small claims court (usually for amounts under $5,000-$10,000), mediation services, or engaging a debt collection agency (who typically charge 15-25% of the recovered amount). Review the <a href="/en/blog/late-payment-laws-by-country">late payment laws</a> in your client's jurisdiction.</p>
 
 <h2>When to Write Off a Bad Debt</h2>
 <p>Sometimes the cost of recovery exceeds the debt. Consider writing off if:</p>
@@ -300,7 +300,7 @@ export const cluster16Posts: BlogPost[] = [
 
 <h2>When Small Claims Court Makes Sense</h2>
 <p>Small claims court is designed for resolving disputes involving relatively small amounts without needing a lawyer. It's faster, cheaper, and more accessible than regular civil court. For freelancers and small businesses owed money by non-paying clients, it's often the most practical legal remedy.</p>
-<p>Before filing, ensure you've exhausted other options: you've sent reminders, a <a href="/blog/how-to-write-payment-demand-letter">formal demand letter</a>, and attempted to negotiate. Courts look favorably on claimants who've tried to resolve the matter before filing.</p>
+<p>Before filing, ensure you've exhausted other options: you've sent reminders, a <a href="/en/blog/how-to-write-payment-demand-letter">formal demand letter</a>, and attempted to negotiate. Courts look favorably on claimants who've tried to resolve the matter before filing.</p>
 
 <h2>Small Claims Court Limits by Country</h2>
 
@@ -345,14 +345,14 @@ export const cluster16Posts: BlogPost[] = [
 <p>Gather all of the following before filing:</p>
 <ol>
 <li><strong>The signed contract or proposal</strong> — proving the agreement existed</li>
-<li><strong>The invoice(s)</strong> in question — printed from your <a href="/invoicing">invoicing software</a> with timestamps</li>
+<li><strong>The invoice(s)</strong> in question — printed from your <a href="/en/invoicing">invoicing software</a> with timestamps</li>
 <li><strong>Proof of delivery</strong> — emails confirming receipt of deliverables, signed delivery notes</li>
 <li><strong>Communication trail</strong> — all emails, messages, and call logs related to the work and payment requests</li>
 <li><strong>Your demand letter</strong> — proof you attempted to resolve before filing</li>
-<li><strong>Any partial payments</strong> — <a href="/receipts">receipts</a> for payments received</li>
+<li><strong>Any partial payments</strong> — <a href="/en/receipts">receipts</a> for payments received</li>
 <li><strong>Bank statements</strong> — showing no payment was received</li>
 </ol>
-<p>Organize documents chronologically. Courts appreciate clear, well-organized evidence. If you use <a href="/invoicing">Invoicemonk</a>, you can export a complete invoice history with audit trails.</p>
+<p>Organize documents chronologically. Courts appreciate clear, well-organized evidence. If you use <a href="/en/invoicing">Invoicemonk</a>, you can export a complete invoice history with audit trails.</p>
 
 <h2>The Filing Process (Step by Step)</h2>
 <ol>
@@ -372,7 +372,7 @@ export const cluster16Posts: BlogPost[] = [
 <li><strong>Stick to the facts</strong> — avoid emotional language about how the non-payment affected you</li>
 <li><strong>Bring organized evidence</strong> — tabbed folders with copies for the judge, defendant, and yourself</li>
 <li><strong>Practice your statement</strong> — you'll have 5-10 minutes to present your case</li>
-<li><strong>Include all costs</strong> — claim the original debt, statutory interest (<a href="/blog/late-payment-laws-by-country">where applicable</a>), and court filing fees</li>
+<li><strong>Include all costs</strong> — claim the original debt, statutory interest (<a href="/en/blog/late-payment-laws-by-country">where applicable</a>), and court filing fees</li>
 </ul>
 
 <h2>FAQ</h2>
@@ -403,7 +403,7 @@ export const cluster16Posts: BlogPost[] = [
 <p>Debt collection agencies are a last resort — but sometimes a necessary one. Consider engaging one when:</p>
 <ul>
 <li>The invoice is <strong>90+ days overdue</strong></li>
-<li>You've exhausted <a href="/blog/how-to-chase-unpaid-invoices">reminder sequences</a> and <a href="/blog/how-to-write-payment-demand-letter">demand letters</a></li>
+<li>You've exhausted <a href="/en/blog/how-to-chase-unpaid-invoices">reminder sequences</a> and <a href="/en/blog/how-to-write-payment-demand-letter">demand letters</a></li>
 <li>The client is unresponsive or actively avoiding you</li>
 <li>The amount owed is <strong>$1,000+ but under $10,000</strong> (too large to write off, too small for legal proceedings)</li>
 <li>You don't have time or energy for legal action</li>
@@ -452,14 +452,14 @@ export const cluster16Posts: BlogPost[] = [
 <p>Platforms like Resolver (UK) or online mediation services offer cheaper alternatives to both collection agencies and courts. Particularly effective for international disputes.</p>
 
 <h3>Small Claims Court</h3>
-<p>For debts under <a href="/blog/small-claims-court-unpaid-invoices-guide">small claims thresholds</a>, filing yourself costs only the court fee ($30-$500 depending on jurisdiction). You keep 100% of the recovered amount minus court costs.</p>
+<p>For debts under <a href="/en/blog/small-claims-court-unpaid-invoices-guide">small claims thresholds</a>, filing yourself costs only the court fee ($30-$500 depending on jurisdiction). You keep 100% of the recovered amount minus court costs.</p>
 
 <h2>Protecting Your Reputation</h2>
 <p>Using a collection agency can strain client relationships. Consider:</p>
 <ul>
 <li>Warning the client before placing the account ("If we don't resolve this by [date], I'll need to engage a third party")</li>
 <li>Starting with flat-fee letter services before full contingency collection</li>
-<li>Only collecting on clearly valid, properly documented debts — with <a href="/invoicing">properly issued invoices</a></li>
+<li>Only collecting on clearly valid, properly documented debts — with <a href="/en/invoicing">properly issued invoices</a></li>
 </ul>
 
 <h2>FAQ</h2>
@@ -517,7 +517,7 @@ export const cluster16Posts: BlogPost[] = [
 </ul>
 
 <h2>How to Structure a Retainer Invoice in Invoicemonk</h2>
-<p>Use <a href="/invoicing">Invoicemonk's</a> recurring invoice feature to automate retainer billing:</p>
+<p>Use <a href="/en/invoicing">Invoicemonk's</a> recurring invoice feature to automate retainer billing:</p>
 <ol>
 <li>Create a recurring invoice template with the retainer fee as a line item</li>
 <li>Set the frequency to monthly with auto-send enabled</li>
@@ -538,10 +538,10 @@ export const cluster16Posts: BlogPost[] = [
 
 <h2>FAQ</h2>
 <h3>Should retainer invoices be paid in advance or arrears?</h3>
-<p>Best practice is <strong>payment in advance</strong> — the retainer is due at the beginning of the billing period. This protects your cash flow and ensures you're not working on credit. Include this requirement in your retainer agreement and <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a>.</p>
+<p>Best practice is <strong>payment in advance</strong> — the retainer is due at the beginning of the billing period. This protects your cash flow and ensures you're not working on credit. Include this requirement in your retainer agreement and <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a>.</p>
 
 <h3>How do I handle tax on retainer invoices?</h3>
-<p>Retainer fees are subject to the same tax treatment as regular service fees — charge VAT/GST if applicable. The tax is calculated on the total retainer amount plus any overages. See our country-specific guides for <a href="/blog/e-invoicing-india-gst-guide">India GST</a>, <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">UK VAT</a>, or <a href="/blog/e-invoicing-nigeria-firs-guide">Nigeria VAT</a>.</p>
+<p>Retainer fees are subject to the same tax treatment as regular service fees — charge VAT/GST if applicable. The tax is calculated on the total retainer amount plus any overages. See our country-specific guides for <a href="/en/blog/gst-irn-india-explained">India GST</a>, <a href="/en/blog/e-invoicing-uk-hmrc-mtd-guide">UK VAT</a>, or <a href="/en/blog/firs-mbs-nigeria-explained">Nigeria VAT</a>.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -561,7 +561,7 @@ export const cluster16Posts: BlogPost[] = [
 <p>Create professional deposit invoices that secure upfront payments, protect your cash flow, and maintain clear accounting records. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>Why Use Deposit Invoices?</h2>
-<p>A deposit invoice (also called an advance payment invoice or prepayment invoice) requests partial payment before work begins. Deposits protect you from <a href="/blog/dealing-with-non-paying-clients">non-paying clients</a>, fund material costs upfront, and demonstrate client commitment. They're standard practice for projects over $1,000.</p>
+<p>A deposit invoice (also called an advance payment invoice or prepayment invoice) requests partial payment before work begins. Deposits protect you from <a href="/en/blog/dealing-with-non-paying-clients">non-paying clients</a>, fund material costs upfront, and demonstrate client commitment. They're standard practice for projects over $1,000.</p>
 
 <h2>How Deposit Invoicing Works</h2>
 <ol>
@@ -580,7 +580,7 @@ export const cluster16Posts: BlogPost[] = [
 <li><strong>Remaining balance</strong> — "Balance of $2,500 due upon project completion"</li>
 <li><strong>Project/service description</strong> — what the deposit covers</li>
 <li><strong>Refund policy</strong> — under what conditions (if any) the deposit is refundable</li>
-<li><strong>Standard invoice elements</strong> — number, date, your details, client details, <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a></li>
+<li><strong>Standard invoice elements</strong> — number, date, your details, client details, <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a></li>
 </ul>
 
 <h2>Tax Treatment of Deposits</h2>
@@ -589,10 +589,10 @@ export const cluster16Posts: BlogPost[] = [
 <p>VAT is due on deposits when payment is received (not when the final invoice is issued). The deposit invoice must show the VAT amount. When you send the final invoice, show the total VAT for the project minus the VAT already charged on the deposit.</p>
 
 <h3>India GST</h3>
-<p>Under <a href="/blog/e-invoicing-india-gst-guide">GST rules</a>, tax is payable on advance payments received for services. Issue a receipt voucher for the deposit and adjust it against the final invoice.</p>
+<p>Under <a href="/en/blog/gst-irn-india-explained">GST rules</a>, tax is payable on advance payments received for services. Issue a receipt voucher for the deposit and adjust it against the final invoice.</p>
 
 <h3>Nigeria VAT</h3>
-<p>VAT is charged on the deposit amount at the standard 7.5% rate. The <a href="/blog/e-invoicing-nigeria-firs-guide">FIRS e-invoicing</a> system requires proper documentation of advance payments.</p>
+<p>VAT is charged on the deposit amount at the standard 7.5% rate. The <a href="/en/blog/firs-mbs-nigeria-explained">FIRS e-invoicing</a> system requires proper documentation of advance payments.</p>
 
 <h2>Deposit Invoice Template</h2>
 <p>Here's a typical structure:</p>
@@ -610,7 +610,7 @@ Tax (if applicable): $375<br/>
 </blockquote>
 
 <h2>Recording Deposits in Your Accounts</h2>
-<p>Deposits should be recorded as a liability (deferred revenue), not as income, until the work is delivered. When the project is completed and the final invoice is issued, the deposit moves from liability to revenue. <a href="/accounting">Invoicemonk's accounting module</a> handles this automatically.</p>
+<p>Deposits should be recorded as a liability (deferred revenue), not as income, until the work is delivered. When the project is completed and the final invoice is issued, the deposit moves from liability to revenue. <a href="/en/accounting">Invoicemonk's accounting module</a> handles this automatically.</p>
 
 <h2>FAQ</h2>
 <h3>What percentage should I charge as a deposit?</h3>
@@ -661,7 +661,7 @@ Tax (if applicable): $375<br/>
 <li><strong>Materials list</strong> — each item, quantity, unit cost, and markup</li>
 <li><strong>Markup percentage (if any)</strong> — typically 10-20% on materials</li>
 <li><strong>Not-to-exceed (NTE) amount</strong> — if agreed, show how the total relates to the cap</li>
-<li><strong>Standard invoice fields</strong> — number, date, <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a>, tax</li>
+<li><strong>Standard invoice fields</strong> — number, date, <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a>, tax</li>
 </ul>
 
 <h2>Time Tracking Best Practices</h2>
@@ -690,10 +690,10 @@ Tax (if applicable): $375<br/>
 
 <h2>FAQ</h2>
 <h3>Can I use T&M billing with Invoicemonk?</h3>
-<p>Yes. Create an invoice with multiple line items — one per time entry or summarized by day/task — plus separate line items for materials. <a href="/invoicing">Invoicemonk</a> calculates totals, applies tax, and generates a professional PDF.</p>
+<p>Yes. Create an invoice with multiple line items — one per time entry or summarized by day/task — plus separate line items for materials. <a href="/en/invoicing">Invoicemonk</a> calculates totals, applies tax, and generates a professional PDF.</p>
 
 <h3>How do I handle disputes on T&M hours?</h3>
-<p>Prevent disputes by sending weekly or bi-weekly timesheets for client approval before invoicing. If a <a href="/blog/invoice-disputes-how-to-handle-professionally">dispute arises</a>, your approved timesheets serve as documentation. Never invoice hours the client hasn't reviewed.</p>
+<p>Prevent disputes by sending weekly or bi-weekly timesheets for client approval before invoicing. If a <a href="/en/blog/invoice-disputes-how-to-handle-professionally">dispute arises</a>, your approved timesheets serve as documentation. Never invoice hours the client hasn't reviewed.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -743,7 +743,7 @@ Tax (if applicable): $375<br/>
 
 <h2>Creating a Progress Billing Schedule</h2>
 <ol>
-<li><strong>Define the total project value</strong> — agreed in the contract or <a href="/blog/winning-proposals-estimates-guide">proposal</a></li>
+<li><strong>Define the total project value</strong> — agreed in the contract or <a href="/en/blog/winning-proposals-estimates-guide">proposal</a></li>
 <li><strong>Break into milestones</strong> — 3-7 stages depending on project size</li>
 <li><strong>Assign values</strong> — based on effort, not just timeline (early stages often require more effort)</li>
 <li><strong>Define acceptance criteria</strong> — what constitutes "milestone complete"</li>
@@ -771,14 +771,14 @@ Tax (if applicable): $375<br/>
 <li>Add the change order amount to the current or next progress invoice</li>
 <li>Reference the change order number on the invoice</li>
 </ol>
-<p>Never absorb scope changes into existing milestones — this leads to <a href="/blog/invoice-disputes-how-to-handle-professionally">disputes</a> about what was included in the original price.</p>
+<p>Never absorb scope changes into existing milestones — this leads to <a href="/en/blog/invoice-disputes-how-to-handle-professionally">disputes</a> about what was included in the original price.</p>
 
 <h2>FAQ</h2>
 <h3>What's a retention holdback?</h3>
 <p>A retention (or retainage) is a percentage of each progress payment withheld until the project is fully complete and accepted. Typically 5-10%. The retention is released as a final invoice after the client signs off on the completed project. It's standard in construction but increasingly used in software and creative projects.</p>
 
 <h3>Can I use progress billing with Invoicemonk?</h3>
-<p>Yes. Create each progress invoice as a separate invoice referencing the project and milestone number. Use the notes field to include cumulative billing summaries. <a href="/invoicing">Invoicemonk</a> makes it easy to track payment status across multiple invoices for the same project.</p>
+<p>Yes. Create each progress invoice as a separate invoice referencing the project and milestone number. Use the notes field to include cumulative billing summaries. <a href="/en/invoicing">Invoicemonk</a> makes it easy to track payment status across multiple invoices for the same project.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -860,7 +860,7 @@ Tax (if applicable): $375<br/>
 <p>Yes. Self-billing requires the supplier's agreement. You can refuse and insist on issuing your own invoices. However, in some industries (particularly retail and agriculture), self-billing is standard and refusing may cost you the client relationship.</p>
 
 <h3>How does self-billing affect my accounting?</h3>
-<p>From the supplier's perspective, you receive a self-billing invoice instead of creating one yourself. Record it as sales revenue just as you would a regular invoice you issued. The key difference is that you don't control the invoice number series — use the buyer's reference numbers in your <a href="/accounting">accounting records</a>.</p>
+<p>From the supplier's perspective, you receive a self-billing invoice instead of creating one yourself. Record it as sales revenue just as you would a regular invoice you issued. The key difference is that you don't control the invoice number series — use the buyer's reference numbers in your <a href="/en/accounting">accounting records</a>.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -881,7 +881,7 @@ Tax (if applicable): $375<br/>
 
 <h2>What Is an Interim Invoice?</h2>
 <p>An interim invoice is issued <strong>during a project</strong> — before the final deliverable — to bill for work completed to date. Unlike progress billing (which follows a predefined schedule), interim invoices are more flexible and can be issued as needed to maintain cash flow.</p>
-<p>Think of it this way: <a href="/blog/progress-billing-invoice-guide">progress billing</a> is planned from the start; interim invoicing is responsive to the actual pace of work.</p>
+<p>Think of it this way: <a href="/en/blog/progress-billing-invoice-guide">progress billing</a> is planned from the start; interim invoicing is responsive to the actual pace of work.</p>
 
 <h2>When to Use Interim Invoices</h2>
 <ul>
@@ -897,9 +897,9 @@ Tax (if applicable): $375<br/>
 <thead><tr><th>Type</th><th>When Issued</th><th>Based On</th></tr></thead>
 <tbody>
 <tr><td>Interim Invoice</td><td>During project, as needed</td><td>Work done to date</td></tr>
-<tr><td><a href="/blog/progress-billing-invoice-guide">Progress Invoice</a></td><td>At predefined milestones</td><td>Milestone completion</td></tr>
-<tr><td><a href="/blog/deposit-invoice-template-guide">Deposit Invoice</a></td><td>Before work begins</td><td>Agreed upfront amount</td></tr>
-<tr><td><a href="/blog/retainer-invoice-template-guide">Retainer Invoice</a></td><td>Monthly (recurring)</td><td>Fixed retainer fee</td></tr>
+<tr><td><a href="/en/blog/progress-billing-invoice-guide">Progress Invoice</a></td><td>At predefined milestones</td><td>Milestone completion</td></tr>
+<tr><td><a href="/en/blog/deposit-invoice-template-guide">Deposit Invoice</a></td><td>Before work begins</td><td>Agreed upfront amount</td></tr>
+<tr><td><a href="/en/blog/retainer-invoice-template-guide">Retainer Invoice</a></td><td>Monthly (recurring)</td><td>Fixed retainer fee</td></tr>
 <tr><td>Final Invoice</td><td>Project completion</td><td>Remaining balance</td></tr>
 </tbody>
 </table>
@@ -912,7 +912,7 @@ Tax (if applicable): $375<br/>
 <li><strong>Cumulative billing summary</strong> — total billed to date, including this invoice</li>
 <li><strong>Estimated remaining value</strong> — gives the client visibility into total project cost</li>
 <li><strong>Invoice sequence</strong> — "Interim Invoice 3 of estimated 6"</li>
-<li><strong>Standard elements</strong> — <a href="/blog/invoice-numbering-best-practices">invoice number</a>, date, tax, payment terms</li>
+<li><strong>Standard elements</strong> — <a href="/en/blog/invoice-numbering-best-practices">invoice number</a>, date, tax, payment terms</li>
 </ul>
 
 <h2>Best Practices</h2>
@@ -920,13 +920,13 @@ Tax (if applicable): $375<br/>
 <li><strong>Set expectations upfront</strong> — agree to interim billing in the contract before starting work</li>
 <li><strong>Invoice at regular intervals</strong> — monthly is standard for professional services</li>
 <li><strong>Include a running total</strong> — "Total billed to date: $15,000 of $25,000 estimated"</li>
-<li><strong>Attach time logs or work reports</strong> — especially for <a href="/blog/time-and-materials-invoice-guide">T&M projects</a></li>
+<li><strong>Attach time logs or work reports</strong> — especially for <a href="/en/blog/time-and-materials-invoice-guide">T&M projects</a></li>
 <li><strong>Number sequentially</strong> — INT-001, INT-002, INT-003, then FINAL-001</li>
 </ol>
 
 <h2>FAQ</h2>
 <h3>Can I mix interim and milestone invoicing?</h3>
-<p>Yes. Some projects use milestone billing for major deliverables but interim billing for ongoing support or maintenance phases. Define the billing structure clearly in your contract to avoid <a href="/blog/invoice-disputes-how-to-handle-professionally">disputes</a>.</p>
+<p>Yes. Some projects use milestone billing for major deliverables but interim billing for ongoing support or maintenance phases. Define the billing structure clearly in your contract to avoid <a href="/en/blog/invoice-disputes-how-to-handle-professionally">disputes</a>.</p>
 
 <h3>What if the project scope increases?</h3>
 <p>Document the scope change as a formal change order, adjust the total estimated value, and reference the change order on subsequent interim invoices. The cumulative billing summary should reflect the updated total.</p>
@@ -949,7 +949,7 @@ Tax (if applicable): $375<br/>
 <p>The final invoice wraps up a project — here\'s how to structure it, reconcile deposits and progress payments, and ensure clean project closure. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>Why the Final Invoice Matters</h2>
-<p>The final invoice is the last financial document in a project engagement. It reconciles all prior payments — <a href="/blog/deposit-invoice-template-guide">deposits</a>, <a href="/blog/progress-billing-invoice-guide">progress payments</a>, <a href="/blog/interim-invoice-guide">interim invoices</a> — and bills the remaining balance. Getting it right ensures you're fully paid and the project closes cleanly for both parties.</p>
+<p>The final invoice is the last financial document in a project engagement. It reconciles all prior payments — <a href="/en/blog/deposit-invoice-template-guide">deposits</a>, <a href="/en/blog/progress-billing-invoice-guide">progress payments</a>, <a href="/en/blog/interim-invoice-guide">interim invoices</a> — and bills the remaining balance. Getting it right ensures you're fully paid and the project closes cleanly for both parties.</p>
 <p>A well-structured final invoice also serves as a project summary, making it easy for the client's accounts team to verify the total spend and close their purchase order.</p>
 
 <h2>Essential Elements of a Final Invoice</h2>
@@ -985,23 +985,23 @@ Change Order #1 (additional features): +$3,000<br/>
 <h2>Best Practices for Project Closure</h2>
 
 <h3>1. Get Sign-Off Before Invoicing</h3>
-<p>Before sending the final invoice, obtain written confirmation that all deliverables have been received and accepted. This prevents <a href="/blog/invoice-disputes-how-to-handle-professionally">post-invoice disputes</a>. An email saying "Confirmed — all deliverables received and approved" is sufficient.</p>
+<p>Before sending the final invoice, obtain written confirmation that all deliverables have been received and accepted. This prevents <a href="/en/blog/invoice-disputes-how-to-handle-professionally">post-invoice disputes</a>. An email saying "Confirmed — all deliverables received and approved" is sufficient.</p>
 
 <h3>2. Reference All Prior Invoices</h3>
 <p>List every prior invoice (number, date, amount) on the final invoice. This makes reconciliation easy for the client's accounts team and prevents "but we already paid for that" confusion.</p>
 
 <h3>3. Release Retentions</h3>
-<p>If a <a href="/blog/progress-billing-invoice-guide">retention</a> was held from prior progress payments, the final invoice should include its release as a credit or adjustment.</p>
+<p>If a <a href="/en/blog/progress-billing-invoice-guide">retention</a> was held from prior progress payments, the final invoice should include its release as a credit or adjustment.</p>
 
 <h3>4. Include Close-Out Documentation</h3>
 <p>Attach or reference: final deliverables list, client acceptance sign-off, warranty terms, and support contact information. This creates a complete project close-out package.</p>
 
 <h3>5. Set Clear Payment Terms</h3>
-<p>Final invoices should have tighter payment terms — Net 7 or Net 15 — since the work is fully delivered and the client has no remaining leverage. Reference your <a href="/blog/payment-terms-net-30-60-90-guide">payment terms guide</a> for more on setting terms.</p>
+<p>Final invoices should have tighter payment terms — Net 7 or Net 15 — since the work is fully delivered and the client has no remaining leverage. Reference your <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms guide</a> for more on setting terms.</p>
 
 <h2>FAQ</h2>
 <h3>What if the client disputes the final invoice?</h3>
-<p>Address any concerns immediately. If the dispute is about scope, refer to the signed acceptance. If it's about pricing, refer to the original contract and change orders. For resolution strategies, see our <a href="/blog/invoice-disputes-how-to-handle-professionally">dispute resolution guide</a>.</p>
+<p>Address any concerns immediately. If the dispute is about scope, refer to the signed acceptance. If it's about pricing, refer to the original contract and change orders. For resolution strategies, see our <a href="/en/blog/invoice-disputes-how-to-handle-professionally">dispute resolution guide</a>.</p>
 
 <h3>Should I transfer IP before receiving final payment?</h3>
 <p>No. Best practice is to include a clause stating that intellectual property transfers only upon receipt of final payment. This is your strongest leverage for ensuring the final invoice is paid promptly.</p>
@@ -1028,7 +1028,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <p>Compare the most popular invoice payment methods by fees, speed, security, and client convenience — and which to offer your clients. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>Why Payment Method Choice Matters</h2>
-<p>The payment method you offer on your invoices directly affects how quickly you get paid. Research shows that invoices with <a href="/payments">online payment options</a> are paid <strong>2x faster</strong> than those requiring manual bank transfers. But not all payment methods are equal in terms of fees, security, and client convenience.</p>
+<p>The payment method you offer on your invoices directly affects how quickly you get paid. Research shows that invoices with <a href="/en/payments">online payment options</a> are paid <strong>2x faster</strong> than those requiring manual bank transfers. But not all payment methods are equal in terms of fees, security, and client convenience.</p>
 
 <h2>Payment Method Comparison</h2>
 
@@ -1061,7 +1061,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>Client effort</strong>: Low — email-based payment</li>
 <li><strong>Chargebacks</strong>: Yes — PayPal Buyer Protection heavily favors buyers</li>
 </ul>
-<p>For a deeper comparison, see our <a href="/paypal-vs-wise-fees">PayPal vs Wise fees calculator</a>.</p>
+<p>For a deeper comparison, see our <a href="/en/paypal-vs-wise-fees">PayPal vs Wise fees calculator</a>.</p>
 
 <h3>Wise (formerly TransferWise)</h3>
 <p><strong>Best for:</strong> International payments, multi-currency invoicing</p>
@@ -1072,7 +1072,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>Client effort</strong>: Medium — requires Wise account or bank transfer to Wise details</li>
 <li><strong>Chargebacks</strong>: None — bank transfer-based</li>
 </ul>
-<p>Use our <a href="/international-payment-fee-calculator">international payment fee calculator</a> to compare costs across corridors.</p>
+<p>Use our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a> to compare costs across corridors.</p>
 
 <h3>Cryptocurrency</h3>
 <p><strong>Best for:</strong> Tech-savvy clients, jurisdictions with banking restrictions</p>
@@ -1088,15 +1088,15 @@ Change Order #1 (additional features): +$3,000<br/>
 <h2>Which Payment Methods Should You Offer?</h2>
 <p>Offer at least two options to maximize payment speed:</p>
 <ol>
-<li><strong>Primary</strong>: Online card payment via <a href="/payments">payment link</a> — lowest friction for clients</li>
+<li><strong>Primary</strong>: Online card payment via <a href="/en/payments">payment link</a> — lowest friction for clients</li>
 <li><strong>Secondary</strong>: Bank transfer — for clients who prefer it or for large amounts (avoiding card fees)</li>
 <li><strong>Optional</strong>: Wise or PayPal for international clients — depending on your corridors</li>
 </ol>
-<p>Include payment details and links directly on your <a href="/invoicing">invoice</a> to remove friction.</p>
+<p>Include payment details and links directly on your <a href="/en/invoicing">invoice</a> to remove friction.</p>
 
 <h2>FAQ</h2>
 <h3>Which payment method has the lowest fees?</h3>
-<p>Domestic bank transfers are typically free. For international payments, Wise usually offers the lowest total cost. For card payments, rates are 2.5-3.5% regardless of provider. Use our <a href="/cheapest-way-to-receive-international-payments">cheapest international payments guide</a> for corridor-specific analysis.</p>
+<p>Domestic bank transfers are typically free. For international payments, Wise usually offers the lowest total cost. For card payments, rates are 2.5-3.5% regardless of provider. Use our <a href="/en/cheapest-way-to-receive-international-payments">cheapest international payments guide</a> for corridor-specific analysis.</p>
 
 <h3>Should I absorb payment processing fees or pass them to the client?</h3>
 <p>Industry standard varies. Most B2B invoices absorb the fee into pricing. Some freelancers add a "convenience fee" for card payments and offer a discount for bank transfer. Check local regulations — some jurisdictions restrict surcharging card payments.</p>
@@ -1132,7 +1132,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>Divide by billable hours</strong>: Realistically, freelancers bill 60-70% of their working hours (the rest is admin, marketing, professional development)</li>
 </ol>
 <p>Example: ($30,000 expenses + $70,000 salary) ÷ 1,200 billable hours = <strong>$83/hour minimum</strong></p>
-<p>Use our <a href="/freelancer-rate-calculator">freelance rate calculator</a> to run your own numbers.</p>
+<p>Use our <a href="/en/freelancer-rate-calculator">freelance rate calculator</a> to run your own numbers.</p>
 
 <h3>2. Market-Based Pricing (The Anchor)</h3>
 <p>Research what your peers charge for similar services in your market:</p>
@@ -1155,7 +1155,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <h2>Hourly vs Project vs Day Rate</h2>
 
 <h3>Hourly Rate</h3>
-<p>Best for ongoing work, uncertain scope, or <a href="/blog/time-and-materials-invoice-guide">T&M billing</a>. Downside: you're penalized for efficiency (faster = less revenue).</p>
+<p>Best for ongoing work, uncertain scope, or <a href="/en/blog/time-and-materials-invoice-guide">T&M billing</a>. Downside: you're penalized for efficiency (faster = less revenue).</p>
 
 <h3>Project Rate</h3>
 <p>Best for well-defined deliverables. Calculate: estimated hours × hourly rate × 1.2 (buffer). You benefit from efficiency — finish faster, earn more per hour.</p>
@@ -1230,7 +1230,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <blockquote>
 <p><strong>Subject: Progress Invoice #[NUMBER] — [Project Name] Milestone [X]</strong></p>
 <p>Hi [Client Name],</p>
-<p>Great news — we've completed [milestone description] on the [Project Name] project. Please find the corresponding <a href="/blog/progress-billing-invoice-guide">progress invoice</a> attached.</p>
+<p>Great news — we've completed [milestone description] on the [Project Name] project. Please find the corresponding <a href="/en/blog/progress-billing-invoice-guide">progress invoice</a> attached.</p>
 <p><strong>This invoice:</strong> [Currency] [Amount] (Milestone [X] of [Total])<br/>
 <strong>Total billed to date:</strong> [Currency] [Cumulative Amount]<br/>
 <strong>Remaining:</strong> [Currency] [Remaining Amount]</p>
@@ -1274,7 +1274,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <p><strong>Subject: Action Required: Invoice #[NUMBER] — 14 days overdue</strong></p>
 <p>Hi [Client Name],</p>
 <p>I'm following up again regarding Invoice #[NUMBER] for [Currency] [Amount], now 14 days past the due date of [Date].</p>
-<p>As per our agreed <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a>, this payment is now significantly overdue. Please arrange payment at your earliest convenience or contact me to discuss if there are any issues.</p>
+<p>As per our agreed <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a>, this payment is now significantly overdue. Please arrange payment at your earliest convenience or contact me to discuss if there are any issues.</p>
 <p>[Payment Link]</p>
 <p>Regards,<br/>[Your Name]</p>
 </blockquote>
@@ -1284,7 +1284,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <p><strong>Subject: Final Notice: Invoice #[NUMBER] — 30 days overdue</strong></p>
 <p>Hi [Client Name],</p>
 <p>This is a final reminder regarding Invoice #[NUMBER] for [Currency] [Amount], which has been outstanding since [Due Date] — now 30 days overdue.</p>
-<p>I've previously reached out on [dates of prior reminders]. If payment is not received within 7 days, I will need to consider further action, which may include <a href="/blog/late-payment-laws-by-country">statutory interest charges</a> and engaging a third party for collection.</p>
+<p>I've previously reached out on [dates of prior reminders]. If payment is not received within 7 days, I will need to consider further action, which may include <a href="/en/blog/late-payment-laws-by-country">statutory interest charges</a> and engaging a third party for collection.</p>
 <p>I would much prefer to resolve this directly. Please contact me at [phone/email] to discuss.</p>
 <p>[Payment Link]</p>
 <p>[Your Name]</p>
@@ -1296,7 +1296,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <blockquote>
 <p><strong>Subject: Payment Received — Invoice #[NUMBER] ✓</strong></p>
 <p>Hi [Client Name],</p>
-<p>Thank you! I've received your payment of [Currency] [Amount] for Invoice #[NUMBER]. A <a href="/receipts">receipt</a> is attached for your records.</p>
+<p>Thank you! I've received your payment of [Currency] [Amount] for Invoice #[NUMBER]. A <a href="/en/receipts">receipt</a> is attached for your records.</p>
 <p>It's been great working with you on [project]. Looking forward to our next collaboration!</p>
 <p>Best,<br/>[Your Name]</p>
 </blockquote>
@@ -1337,7 +1337,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <blockquote>
 <p><strong>Subject: Automated Invoice Setup — [Service] Monthly Billing</strong></p>
 <p>Hi [Client Name],</p>
-<p>As agreed, I've set up <a href="/blog/recurring-invoices-automating-billing">automated monthly invoicing</a> for your [service description] retainer.</p>
+<p>As agreed, I've set up <a href="/en/blog/recurring-invoices-automating-billing">automated monthly invoicing</a> for your [service description] retainer.</p>
 <p>You'll receive an invoice for [Currency] [Amount] on the 1st of each month, starting [Date]. Payment is due within [X] days of receipt.</p>
 <p>The first invoice is attached. You can set up a standing order or pay each month via the payment link included on the invoice.</p>
 <p>Please let me know if any details need adjusting.</p>
@@ -1348,7 +1348,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <blockquote>
 <p><strong>Subject: Updated Invoice #[NUMBER] — Late Payment Interest Applied</strong></p>
 <p>Hi [Client Name],</p>
-<p>Invoice #[NUMBER] for [Currency] [Original Amount] was due on [Due Date] and remains unpaid. As stated in our payment terms and in accordance with <a href="/blog/late-payment-laws-by-country">applicable legislation</a>, late payment interest of [Rate]% has been applied.</p>
+<p>Invoice #[NUMBER] for [Currency] [Original Amount] was due on [Due Date] and remains unpaid. As stated in our payment terms and in accordance with <a href="/en/blog/late-payment-laws-by-country">applicable legislation</a>, late payment interest of [Rate]% has been applied.</p>
 <p><strong>Original Amount:</strong> [Currency] [Amount]<br/>
 <strong>Interest ([X] days at [Rate]%):</strong> [Currency] [Interest Amount]<br/>
 <strong>Total Now Due:</strong> [Currency] [Total]</p>
@@ -1373,10 +1373,10 @@ Change Order #1 (additional features): +$3,000<br/>
 <h2>Tips for Effective Invoice Emails</h2>
 <ul>
 <li><strong>Always include the invoice number and amount in the subject line</strong> — makes it searchable</li>
-<li><strong>Include a direct payment link</strong> — <a href="/payments">Invoicemonk payment links</a> reduce friction and get you paid faster</li>
+<li><strong>Include a direct payment link</strong> — <a href="/en/payments">Invoicemonk payment links</a> reduce friction and get you paid faster</li>
 <li><strong>Keep it short</strong> — the email is a cover letter, not the invoice itself</li>
 <li><strong>Match tone to relationship</strong> — formal for new/corporate clients, friendly for established relationships</li>
-<li><strong>Set up <a href="/blog/setting-up-automatic-payment-reminders">automated reminders</a></strong> so you don't have to send follow-ups manually</li>
+<li><strong>Set up <a href="/en/blog/setting-up-automatic-payment-reminders">automated reminders</a></strong> so you don't have to send follow-ups manually</li>
 </ul>
 `,
     author: defaultAuthor,
@@ -1397,7 +1397,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <p>Compare spreadsheet-based expense tracking with dedicated software — features, costs, limitations, and when to make the switch. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>The Spreadsheet vs Software Debate</h2>
-<p>Every business starts tracking expenses in a spreadsheet — it's free, familiar, and flexible. But as your business grows, the limitations of spreadsheets become painful: manual data entry, formula errors, no receipt storage, and no integration with your <a href="/invoicing">invoicing</a> or <a href="/accounting">accounting</a> system.</p>
+<p>Every business starts tracking expenses in a spreadsheet — it's free, familiar, and flexible. But as your business grows, the limitations of spreadsheets become painful: manual data entry, formula errors, no receipt storage, and no integration with your <a href="/en/invoicing">invoicing</a> or <a href="/en/accounting">accounting</a> system.</p>
 <p>This guide helps you decide when a spreadsheet is good enough and when it's time to upgrade to dedicated expense tracking software.</p>
 
 <h2>Spreadsheet Expense Tracking</h2>
@@ -1448,13 +1448,13 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>You have 20+ expenses per month</strong> — manual entry becomes a time sink</li>
 <li><strong>You need to track receipts</strong> — for tax compliance or client billing</li>
 <li><strong>You file VAT/GST returns</strong> — tax categories and reports are essential</li>
-<li><strong>You bill expenses to clients</strong> — integration with <a href="/invoicing">invoicing software</a> saves hours</li>
+<li><strong>You bill expenses to clients</strong> — integration with <a href="/en/invoicing">invoicing software</a> saves hours</li>
 <li><strong>You have employees or contractors</strong> — they need to submit expenses for approval</li>
 <li><strong>Your accountant asks for proper records</strong> — at year-end or audit time</li>
 </ul>
 
 <h2>Invoicemonk for Expense Tracking</h2>
-<p><a href="/expenses">Invoicemonk's expense tracking</a> is built into your invoicing and accounting workflow:</p>
+<p><a href="/en/expenses">Invoicemonk's expense tracking</a> is built into your invoicing and accounting workflow:</p>
 <ul>
 <li>Receipt photo capture and OCR extraction</li>
 <li>Automatic tax categorization aligned with your jurisdiction</li>
@@ -1515,7 +1515,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <ul>
 <li><strong>Card payments</strong>: Accept credit/debit cards in 135+ currencies</li>
 <li><strong>Fees</strong>: 2.9% + $0.30 domestic; +1% for international cards</li>
-<li><strong>Best for</strong>: Embedding <a href="/payments">pay-now links</a> directly on invoices</li>
+<li><strong>Best for</strong>: Embedding <a href="/en/payments">pay-now links</a> directly on invoices</li>
 </ul>
 
 <h3>Direct Bank Wire</h3>
@@ -1525,7 +1525,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>Note</strong>: Provide SWIFT/BIC details on your invoice</li>
 </ul>
 
-<p>Compare fees for your specific corridor using our <a href="/international-payment-fee-calculator">international payment fee calculator</a>.</p>
+<p>Compare fees for your specific corridor using our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a>.</p>
 
 <h2>Step 2: Invoice in the Right Currency</h2>
 <p>You have three options:</p>
@@ -1534,7 +1534,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>Invoice in the client's currency</strong> — smoother for the client, but you bear the FX risk. Lock in rates at invoice time.</li>
 <li><strong>Invoice in a major intermediary currency</strong> (USD, EUR, GBP) — common compromise when neither party's currency is dominant.</li>
 </ol>
-<p><a href="/invoicing">Invoicemonk</a> supports <a href="/blog/use-cases-multi-currency-invoicing">multi-currency invoicing</a> — set any currency per invoice and the system handles the formatting and conversion tracking.</p>
+<p><a href="/en/invoicing">Invoicemonk</a> supports <a href="/en/blog/use-cases-multi-currency-invoicing">multi-currency invoicing</a> — set any currency per invoice and the system handles the formatting and conversion tracking.</p>
 
 <h2>Step 3: Understand Tax Implications</h2>
 
@@ -1549,20 +1549,20 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>India</strong>: Export of services is zero-rated under GST (subject to conditions)</li>
 <li><strong>Australia</strong>: GST-free if the service is used outside Australia</li>
 </ul>
-<p>Always note the VAT treatment on your invoice. See our country guides for specific rules: <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">UK</a>, <a href="/blog/e-invoicing-india-gst-guide">India</a>, <a href="/blog/e-invoicing-nigeria-firs-guide">Nigeria</a>.</p>
+<p>Always note the VAT treatment on your invoice. See our country guides for specific rules: <a href="/en/blog/e-invoicing-uk-hmrc-mtd-guide">UK</a>, <a href="/en/blog/gst-irn-india-explained">India</a>, <a href="/en/blog/firs-mbs-nigeria-explained">Nigeria</a>.</p>
 
 <h2>Step 4: Optimize Your Setup</h2>
 <ul>
 <li><strong>Get local account details</strong> in your clients' currencies via Wise — clients pay locally, you avoid wire fees</li>
 <li><strong>Batch conversions</strong> — if you receive multiple currencies, convert in bulk when rates are favorable</li>
 <li><strong>Set payment terms in the client's time zone</strong> — "Net 15" means 15 business days in their calendar</li>
-<li><strong>Include clear payment instructions</strong> on every invoice — <a href="/blog/invoice-payment-methods-compared">multiple payment options</a> reduce friction</li>
+<li><strong>Include clear payment instructions</strong> on every invoice — <a href="/en/blog/invoice-payment-methods-compared">multiple payment options</a> reduce friction</li>
 <li><strong>Track exchange rate gains/losses</strong> — for your accounting records and tax filing</li>
 </ul>
 
 <h2>FAQ</h2>
 <h3>What's the cheapest way to receive international payments?</h3>
-<p>For most corridors, Wise Business with local receiving details is cheapest. The client pays a free local transfer, and you pay 0.3-1.5% for conversion. Compare this to PayPal (4.99%+) or bank wires ($30-$60 in fees). See our <a href="/cheapest-way-to-receive-international-payments">cheapest way guide</a> for corridor-specific analysis.</p>
+<p>For most corridors, Wise Business with local receiving details is cheapest. The client pays a free local transfer, and you pay 0.3-1.5% for conversion. Compare this to PayPal (4.99%+) or bank wires ($30-$60 in fees). See our <a href="/en/cheapest-way-to-receive-international-payments">cheapest way guide</a> for corridor-specific analysis.</p>
 
 <h3>Should I open a foreign bank account?</h3>
 <p>Generally not necessary. Wise and similar platforms provide local account details in major currencies. A foreign bank account only makes sense if you have significant ongoing business in that country (e.g., local employees or a physical office).</p>
@@ -1601,7 +1601,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <h2>Technology & Software</h2>
 <ul>
 <li><strong>Computer hardware</strong> — laptops, desktops, tablets, monitors</li>
-<li><strong>Software subscriptions</strong> — <a href="/invoicing">invoicing software</a>, design tools, project management, cloud storage</li>
+<li><strong>Software subscriptions</strong> — <a href="/en/invoicing">invoicing software</a>, design tools, project management, cloud storage</li>
 <li><strong>Domain names and hosting</strong> — for your business website</li>
 <li><strong>Phone</strong> — proportional cost of phone plan and device</li>
 <li><strong>Accessories</strong> — keyboard, mouse, webcam, headset, cables</li>
@@ -1648,8 +1648,8 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>Professional indemnity insurance</strong> — errors and omissions coverage</li>
 <li><strong>Public liability insurance</strong></li>
 <li><strong>Equipment insurance</strong></li>
-<li><strong>Bank fees</strong> — business account fees, transaction fees, <a href="/blog/invoice-payment-methods-compared">payment processing fees</a></li>
-<li><strong>Currency conversion fees</strong> — for <a href="/blog/how-to-accept-international-payments-freelancer">international payments</a></li>
+<li><strong>Bank fees</strong> — business account fees, transaction fees, <a href="/en/blog/invoice-payment-methods-compared">payment processing fees</a></li>
+<li><strong>Currency conversion fees</strong> — for <a href="/en/blog/how-to-accept-international-payments-freelancer">international payments</a></li>
 <li><strong>Bad debts</strong> — invoices you've been unable to collect (subject to conditions)</li>
 </ul>
 
@@ -1662,7 +1662,7 @@ Change Order #1 (additional features): +$3,000<br/>
 
 <h2>Documentation Tips</h2>
 <ol>
-<li><strong>Keep every receipt</strong> — use <a href="/expenses">expense tracking software</a> to photograph and categorize receipts instantly</li>
+<li><strong>Keep every receipt</strong> — use <a href="/en/expenses">expense tracking software</a> to photograph and categorize receipts instantly</li>
 <li><strong>Separate personal and business expenses</strong> — use a dedicated business bank account and credit card</li>
 <li><strong>Record the business purpose</strong> — note why each expense was incurred</li>
 <li><strong>Retain records for 5-7 years</strong> — most tax authorities can audit you for 5-7 years back</li>
@@ -1701,22 +1701,22 @@ Change Order #1 (additional features): +$3,000<br/>
 
 <h3>Stage 1: Invoice Creation</h3>
 <p><strong>Manual process:</strong> Open a template, manually enter client details, line items, calculate totals, format, save, and export as PDF.</p>
-<p><strong>Automated:</strong> Select a client, add line items (or use saved products/services), and <a href="/invoicing">Invoicemonk</a> auto-fills client details, calculates totals with tax, applies your template, and generates a professional PDF — in under 2 minutes.</p>
+<p><strong>Automated:</strong> Select a client, add line items (or use saved products/services), and <a href="/en/invoicing">Invoicemonk</a> auto-fills client details, calculates totals with tax, applies your template, and generates a professional PDF — in under 2 minutes.</p>
 <p><strong>Time saved:</strong> 15-30 minutes per invoice</p>
 
 <h3>Stage 2: Invoice Delivery</h3>
 <p><strong>Manual process:</strong> Attach PDF to email, write an accompanying message, send manually.</p>
-<p><strong>Automated:</strong> One-click send directly from your invoicing software. The email includes a professional template, the invoice attachment, and a <a href="/payments">payment link</a>. For <a href="/blog/recurring-invoices-automating-billing">recurring invoices</a>, delivery is fully automatic.</p>
+<p><strong>Automated:</strong> One-click send directly from your invoicing software. The email includes a professional template, the invoice attachment, and a <a href="/en/payments">payment link</a>. For <a href="/en/blog/recurring-invoices-automating-billing">recurring invoices</a>, delivery is fully automatic.</p>
 <p><strong>Time saved:</strong> 5-10 minutes per invoice</p>
 
 <h3>Stage 3: Payment Follow-Up</h3>
 <p><strong>Manual process:</strong> Track due dates in a spreadsheet, write and send reminder emails manually, follow up by phone.</p>
-<p><strong>Automated:</strong> Set up <a href="/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a> at 3 days before due, on the due date, and 3/7/14/30 days after. The system sends professional reminders with the original invoice attached and a payment link — without you lifting a finger.</p>
+<p><strong>Automated:</strong> Set up <a href="/en/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a> at 3 days before due, on the due date, and 3/7/14/30 days after. The system sends professional reminders with the original invoice attached and a payment link — without you lifting a finger.</p>
 <p><strong>Time saved:</strong> 1-3 hours per month</p>
 
 <h3>Stage 4: Payment Recording</h3>
 <p><strong>Manual process:</strong> Check bank account daily, match payments to invoices, update status manually.</p>
-<p><strong>Automated:</strong> When clients pay via <a href="/payments">online payment link</a>, the payment is recorded automatically and the invoice status updates to "Paid." For bank transfers, manual recording takes one click.</p>
+<p><strong>Automated:</strong> When clients pay via <a href="/en/payments">online payment link</a>, the payment is recorded automatically and the invoice status updates to "Paid." For bank transfers, manual recording takes one click.</p>
 <p><strong>Time saved:</strong> 2-5 hours per month</p>
 
 <h3>Stage 5: Reconciliation & Reporting</h3>
@@ -1731,7 +1731,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li><strong>Value of time:</strong> 12 hours × $50/hour = <strong>$600/month</strong></li>
 <li><strong>Faster payments:</strong> Automated reminders reduce average payment time by 8 days, improving cash flow</li>
 <li><strong>Reduced bad debt:</strong> Consistent follow-up recovers 5-10% more revenue from overdue invoices</li>
-<li><strong>Cost of automation:</strong> $19-$39/month for <a href="/pricing">Invoicemonk</a></li>
+<li><strong>Cost of automation:</strong> $19-$39/month for <a href="/en/pricing">Invoicemonk</a></li>
 <li><strong>Net benefit:</strong> <strong>$550+/month</strong> or <strong>$6,600+ annually</strong></li>
 </ul>
 
@@ -1751,10 +1751,10 @@ Change Order #1 (additional features): +$3,000<br/>
 
 <h2>FAQ</h2>
 <h3>Can I automate invoicing if I have complex pricing?</h3>
-<p>Yes. Even with <a href="/blog/time-and-materials-invoice-guide">T&M billing</a>, <a href="/blog/progress-billing-invoice-guide">progress billing</a>, or multi-currency pricing, automation handles the calculations. You still make the billing decisions — the software eliminates the manual work of creating, sending, and tracking invoices.</p>
+<p>Yes. Even with <a href="/en/blog/time-and-materials-invoice-guide">T&M billing</a>, <a href="/en/blog/progress-billing-invoice-guide">progress billing</a>, or multi-currency pricing, automation handles the calculations. You still make the billing decisions — the software eliminates the manual work of creating, sending, and tracking invoices.</p>
 
 <h3>Will automation make my invoicing feel impersonal?</h3>
-<p>No. Automated invoices use your branding, templates, and personalized messages. Clients receive a professional-looking invoice with your logo and a friendly email — they won't know it was automated. Use our <a href="/blog/invoice-email-templates-follow-up">invoice email templates</a> to personalize the communication.</p>
+<p>No. Automated invoices use your branding, templates, and personalized messages. Clients receive a professional-looking invoice with your logo and a friendly email — they won't know it was automated. Use our <a href="/en/blog/invoice-email-templates-follow-up">invoice email templates</a> to personalize the communication.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -1774,14 +1774,14 @@ Change Order #1 (additional features): +$3,000<br/>
 <p>Close your financial year with confidence — a step-by-step checklist covering reconciliation, tax prep, deductions, and planning for the new year. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>Why Year-End Accounting Matters</h2>
-<p>Year-end is when everything comes together — revenue, expenses, tax obligations, and financial planning for the next year. A thorough year-end process ensures you file accurate taxes, claim all legitimate <a href="/blog/tax-deductions-freelancers-complete-list">deductions</a>, and start the new year with clean books.</p>
+<p>Year-end is when everything comes together — revenue, expenses, tax obligations, and financial planning for the next year. A thorough year-end process ensures you file accurate taxes, claim all legitimate <a href="/en/blog/tax-deductions-freelancers-complete-list">deductions</a>, and start the new year with clean books.</p>
 <p>This checklist covers everything you need to do in the final weeks of your financial year.</p>
 
 <h2>4-6 Weeks Before Year-End</h2>
 
 <h3>1. Reconcile All Accounts</h3>
 <ul>
-<li>Match every bank transaction to an invoice, expense, or transfer in your <a href="/accounting">accounting software</a></li>
+<li>Match every bank transaction to an invoice, expense, or transfer in your <a href="/en/accounting">accounting software</a></li>
 <li>Resolve any unmatched or duplicated transactions</li>
 <li>Reconcile PayPal, Stripe, and other payment platform balances</li>
 <li>Verify petty cash balance matches your records</li>
@@ -1789,7 +1789,7 @@ Change Order #1 (additional features): +$3,000<br/>
 
 <h3>2. Chase Outstanding Invoices</h3>
 <ul>
-<li>Review all <a href="/blog/how-to-chase-unpaid-invoices">overdue invoices</a> and send final reminders</li>
+<li>Review all <a href="/en/blog/how-to-chase-unpaid-invoices">overdue invoices</a> and send final reminders</li>
 <li>Decide which uncollectible invoices to write off as bad debt</li>
 <li>Send year-end statements to clients with outstanding balances</li>
 <li>Consider offering a small discount for immediate payment on old debts</li>
@@ -1799,7 +1799,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <ul>
 <li>Go through every expense and ensure correct categorization</li>
 <li>Check for personal expenses accidentally recorded as business</li>
-<li>Verify all <a href="/expenses">receipts</a> are attached to their expense records</li>
+<li>Verify all <a href="/en/expenses">receipts</a> are attached to their expense records</li>
 <li>Calculate home office, vehicle, and other proportional deductions</li>
 </ul>
 
@@ -1810,7 +1810,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li>Verify total invoiced matches total revenue recorded</li>
 <li>Check for invoices issued but not recorded (or vice versa)</li>
 <li>Reconcile multi-currency transactions and exchange rate gains/losses</li>
-<li>Verify <a href="/blog/deposit-invoice-template-guide">deposits received</a> are properly classified (deferred revenue vs. recognized revenue)</li>
+<li>Verify <a href="/en/blog/deposit-invoice-template-guide">deposits received</a> are properly classified (deferred revenue vs. recognized revenue)</li>
 </ul>
 
 <h3>5. Tax Preparation</h3>
@@ -1842,7 +1842,7 @@ Change Order #1 (additional features): +$3,000<br/>
 
 <h3>8. Backup Everything</h3>
 <ul>
-<li>Export all invoices, expenses, and reports from your <a href="/invoicing">invoicing software</a></li>
+<li>Export all invoices, expenses, and reports from your <a href="/en/invoicing">invoicing software</a></li>
 <li>Download bank statements for the full year</li>
 <li>Archive all receipts and supporting documents</li>
 <li>Store backups securely (encrypted cloud storage recommended)</li>
@@ -1852,7 +1852,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <ul>
 <li>Review pricing — are your rates still competitive and profitable?</li>
 <li>Set revenue goals for the coming year</li>
-<li>Update your <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a> if needed</li>
+<li>Update your <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a> if needed</li>
 <li>Adjust tax installment payments based on this year's actual liability</li>
 <li>Schedule quarterly reviews instead of waiting until year-end</li>
 </ul>
@@ -1868,10 +1868,10 @@ Change Order #1 (additional features): +$3,000<br/>
 
 <h2>FAQ</h2>
 <h3>Do I need an accountant for year-end?</h3>
-<p>If you're a solo freelancer with straightforward income and expenses, you can likely handle year-end yourself using good <a href="/accounting">accounting software</a>. However, if you have employees, multiple revenue streams, international income, or complex tax situations, an accountant is worth the investment — they'll often save you more in deductions than they cost.</p>
+<p>If you're a solo freelancer with straightforward income and expenses, you can likely handle year-end yourself using good <a href="/en/accounting">accounting software</a>. However, if you have employees, multiple revenue streams, international income, or complex tax situations, an accountant is worth the investment — they'll often save you more in deductions than they cost.</p>
 
 <h3>What records do I need to keep and for how long?</h3>
-<p>In most jurisdictions, keep business records for at least 5-7 years from the end of the tax year they relate to. This includes invoices, receipts, bank statements, contracts, and tax returns. Digital records are acceptable — use <a href="/expenses">Invoicemonk's expense tracking</a> to maintain a permanent digital archive.</p>
+<p>In most jurisdictions, keep business records for at least 5-7 years from the end of the tax year they relate to. This includes invoices, receipts, bank statements, contracts, and tax returns. Digital records are acceptable — use <a href="/en/expenses">Invoicemonk's expense tracking</a> to maintain a permanent digital archive.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -1891,14 +1891,14 @@ Change Order #1 (additional features): +$3,000<br/>
 <p>Key differences in invoicing between sole traders and limited companies — from legal requirements to tax treatment, numbering, and what to include. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>Why Business Structure Affects Your Invoices</h2>
-<p>The way you structure your business — sole trader (sole proprietor) or limited company (corporation) — directly impacts what your invoices must include, how you handle tax, and your legal obligations. Using the wrong format can lead to compliance issues, <a href="/blog/invoice-disputes-how-to-handle-professionally">disputes</a>, and tax penalties.</p>
+<p>The way you structure your business — sole trader (sole proprietor) or limited company (corporation) — directly impacts what your invoices must include, how you handle tax, and your legal obligations. Using the wrong format can lead to compliance issues, <a href="/en/blog/invoice-disputes-how-to-handle-professionally">disputes</a>, and tax penalties.</p>
 
 <h2>Invoice Requirements: Sole Trader</h2>
 <p>As a sole trader (sole proprietor in the US, individual entrepreneur in many countries), your invoice must include:</p>
 <ul>
 <li><strong>Your full legal name</strong> (or trading name + your name)</li>
 <li><strong>Your address</strong> — business or home address</li>
-<li><strong>Invoice number</strong> — <a href="/blog/invoice-numbering-best-practices">sequential and unique</a></li>
+<li><strong>Invoice number</strong> — <a href="/en/blog/invoice-numbering-best-practices">sequential and unique</a></li>
 <li><strong>Date of issue</strong></li>
 <li><strong>Client name and address</strong></li>
 <li><strong>Description of goods/services</strong></li>
@@ -1909,8 +1909,8 @@ Change Order #1 (additional features): +$3,000<br/>
 <p>Key points for sole traders:</p>
 <ul>
 <li>You ARE the business — your personal name must appear (even if you use a trading name)</li>
-<li>In the UK, if VAT-registered and using the Flat Rate Scheme, note "Flat Rate VAT" on invoices (<a href="/blog/uk-vat-flat-rate-scheme-invoicing">UK FRS guide</a>)</li>
-<li>In Germany, Kleinunternehmer (small business exemption) invoices must state the exemption (<a href="/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer guide</a>)</li>
+<li>In the UK, if VAT-registered and using the Flat Rate Scheme, note "Flat Rate VAT" on invoices (<a href="/en/blog/uk-vat-flat-rate-scheme-invoicing">UK FRS guide</a>)</li>
+<li>In Germany, Kleinunternehmer (small business exemption) invoices must state the exemption (<a href="/en/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer guide</a>)</li>
 </ul>
 
 <h2>Invoice Requirements: Limited Company</h2>
@@ -1961,7 +1961,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li>Update all invoice templates with the company name and registration details</li>
 <li>Open a company bank account and update payment details on invoices</li>
 <li>Register for VAT/GST under the company (separate from your personal registration)</li>
-<li>Update your <a href="/invoicing">invoicing software</a> business profile</li>
+<li>Update your <a href="/en/invoicing">invoicing software</a> business profile</li>
 <li>Notify clients of the change — especially the new bank details and company name</li>
 <li>Issue a final invoice as sole trader and the first invoice as the new company</li>
 </ol>
@@ -1991,7 +1991,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <p>A systematic onboarding process that sets expectations, prevents scope creep, and ensures smooth billing from day one. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>Why Onboarding Matters</h2>
-<p>The first 48 hours of a new client relationship set the tone for everything that follows — including how smoothly you get paid. A structured onboarding process reduces <a href="/blog/invoice-disputes-how-to-handle-professionally">invoice disputes</a> by 60%, prevents scope creep, and positions you as a professional from the start.</p>
+<p>The first 48 hours of a new client relationship set the tone for everything that follows — including how smoothly you get paid. A structured onboarding process reduces <a href="/en/blog/invoice-disputes-how-to-handle-professionally">invoice disputes</a> by 60%, prevents scope creep, and positions you as a professional from the start.</p>
 <p>Most freelancers skip onboarding, jump straight into the work, and then deal with miscommunication, scope creep, and payment issues for the rest of the project. This checklist prevents that.</p>
 
 <h2>The Onboarding Checklist</h2>
@@ -2000,18 +2000,18 @@ Change Order #1 (additional features): +$3,000<br/>
 <ol>
 <li>☐ <strong>Discovery call</strong> — understand the client's goals, timeline, and budget</li>
 <li>☐ <strong>Scope definition</strong> — document exactly what's included (and what's NOT)</li>
-<li>☐ <strong>Send <a href="/blog/winning-proposals-estimates-guide">proposal/estimate</a></strong> — with pricing, timeline, and terms</li>
-<li>☐ <strong>Discuss payment terms</strong> — <a href="/blog/payment-terms-net-30-60-90-guide">Net 15/30</a>, deposit required, payment method</li>
-<li>☐ <strong>Red flag check</strong> — assess <a href="/blog/dealing-with-non-paying-clients">non-payment risk</a></li>
+<li>☐ <strong>Send <a href="/en/blog/winning-proposals-estimates-guide">proposal/estimate</a></strong> — with pricing, timeline, and terms</li>
+<li>☐ <strong>Discuss payment terms</strong> — <a href="/en/blog/payment-terms-net-30-60-90-guide">Net 15/30</a>, deposit required, payment method</li>
+<li>☐ <strong>Red flag check</strong> — assess <a href="/en/blog/dealing-with-non-paying-clients">non-payment risk</a></li>
 </ol>
 
 <h3>Phase 2: Contract and Setup</h3>
 <ol>
 <li>☐ <strong>Send contract</strong> — scope, deliverables, timeline, pricing, payment terms, IP transfer, termination clause</li>
 <li>☐ <strong>Collect client details</strong> — full legal name/company, address, tax ID (if needed), billing contact</li>
-<li>☐ <strong>Set up client in <a href="/invoicing">invoicing software</a></strong> — create client profile with billing details</li>
-<li>☐ <strong>Send <a href="/blog/deposit-invoice-template-guide">deposit invoice</a></strong> — don't start work until deposit is received</li>
-<li>☐ <strong>Confirm payment method</strong> — bank transfer details, <a href="/payments">online payment link</a>, or other method</li>
+<li>☐ <strong>Set up client in <a href="/en/invoicing">invoicing software</a></strong> — create client profile with billing details</li>
+<li>☐ <strong>Send <a href="/en/blog/deposit-invoice-template-guide">deposit invoice</a></strong> — don't start work until deposit is received</li>
+<li>☐ <strong>Confirm payment method</strong> — bank transfer details, <a href="/en/payments">online payment link</a>, or other method</li>
 </ol>
 
 <h3>Phase 3: Kickoff</h3>
@@ -2030,7 +2030,7 @@ Change Order #1 (additional features): +$3,000<br/>
 <li>"Payment is due within [X] days of receipt."</li>
 <li>"I'll send automatic reminders at [schedule]."</li>
 <li>"For any invoice questions, contact me immediately so we can resolve before the due date."</li>
-<li>"<a href="/blog/late-payment-laws-by-country">Late payment interest</a> of [X]% applies after [X] days, as stated in our contract."</li>
+<li>"<a href="/en/blog/late-payment-laws-by-country">Late payment interest</a> of [X]% applies after [X] days, as stated in our contract."</li>
 </ul>
 
 <h2>Client Information Collection Template</h2>
@@ -2052,7 +2052,7 @@ Any special invoicing requirements: ___</p>
 <p>Scale the process to the project size. For a $500 one-off project, a clear email confirming scope, price, and payment terms is sufficient. For $5,000+ projects, use the full checklist with a signed contract and deposit invoice. The billing setup conversation should happen regardless of project size.</p>
 
 <h3>What if the client won't sign a contract?</h3>
-<p>This is a red flag. At minimum, get agreement via email — send a summary of scope, pricing, and terms and ask them to confirm in writing. If they refuse even that, seriously consider walking away. Clients who resist written agreements are disproportionately likely to <a href="/blog/dealing-with-non-paying-clients">not pay</a>.</p>
+<p>This is a red flag. At minimum, get agreement via email — send a summary of scope, pricing, and terms and ask them to confirm in writing. If they refuse even that, seriously consider walking away. Clients who resist written agreements are disproportionately likely to <a href="/en/blog/dealing-with-non-paying-clients">not pay</a>.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -2109,7 +2109,7 @@ Any special invoicing requirements: ___</p>
 <p>At month-end or year-end, revalue all outstanding foreign currency balances (receivables, payables, bank balances) at the current rate. Record unrealized gains/losses.</p>
 
 <h2>Multi-Currency in Invoicemonk</h2>
-<p><a href="/invoicing">Invoicemonk</a> handles multi-currency natively:</p>
+<p><a href="/en/invoicing">Invoicemonk</a> handles multi-currency natively:</p>
 <ul>
 <li>Create invoices in any currency with automatic formatting</li>
 <li>Record exchange rates at invoice and payment time</li>
@@ -2117,7 +2117,7 @@ Any special invoicing requirements: ___</p>
 <li>Maintain separate currency accounts for each currency you operate in</li>
 <li>Generate reports in your functional currency with proper conversions</li>
 </ul>
-<p>For international payment optimization, see our <a href="/blog/how-to-accept-international-payments-freelancer">international payments guide</a> and <a href="/international-payment-fee-calculator">fee calculator</a>.</p>
+<p>For international payment optimization, see our <a href="/en/blog/how-to-accept-international-payments-freelancer">international payments guide</a> and <a href="/en/international-payment-fee-calculator">fee calculator</a>.</p>
 
 <h2>Tax Implications</h2>
 <ul>
@@ -2138,10 +2138,10 @@ Any special invoicing requirements: ___</p>
 
 <h2>FAQ</h2>
 <h3>Do I need separate bank accounts for each currency?</h3>
-<p>Not necessarily, but it helps. Platforms like Wise provide multi-currency accounts where you can hold balances in different currencies. This avoids forced conversion and reduces fees. <a href="/accounting">Invoicemonk's accounting module</a> supports multiple currency accounts.</p>
+<p>Not necessarily, but it helps. Platforms like Wise provide multi-currency accounts where you can hold balances in different currencies. This avoids forced conversion and reduces fees. <a href="/en/accounting">Invoicemonk's accounting module</a> supports multiple currency accounts.</p>
 
 <h3>How do I handle VAT/GST on foreign currency invoices?</h3>
-<p>Calculate VAT/GST in the invoice currency, but report it to your tax authority in your functional currency at the exchange rate on the invoice date (or the payment date, depending on your country's rules). Your <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">country-specific guide</a> will detail the exact rule.</p>
+<p>Calculate VAT/GST in the invoice currency, but report it to your tax authority in your functional currency at the exchange rate on the invoice date (or the payment date, depending on your country's rules). Your <a href="/en/blog/e-invoicing-uk-hmrc-mtd-guide">country-specific guide</a> will detail the exact rule.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-11',
@@ -2175,7 +2175,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>Client's currency</strong> — easier for the client, but you absorb exchange rate fluctuations</li>
 <li><strong>USD or EUR</strong> — a common "neutral" currency for international work, especially in tech and creative industries</li>
 </ul>
-<p>Whichever you choose, state it clearly on the invoice. Include the three-letter ISO currency code (USD, EUR, GBP) — not just a symbol, since "$" could mean USD, CAD, AUD, or several others. For multi-currency tracking, see our <a href="/blog/multi-currency-accounting-guide">multi-currency accounting guide</a>.</p>
+<p>Whichever you choose, state it clearly on the invoice. Include the three-letter ISO currency code (USD, EUR, GBP) — not just a symbol, since "$" could mean USD, CAD, AUD, or several others. For multi-currency tracking, see our <a href="/en/blog/multi-currency-accounting-guide">multi-currency accounting guide</a>.</p>
 
 <h2>Step 2: Understand Cross-Border Tax Rules</h2>
 <h3>VAT / GST on International Services</h3>
@@ -2186,7 +2186,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>Australia to overseas</strong>: "GST-free export — Section 38-190 of GST Act"</li>
 <li><strong>India to overseas</strong>: "Export of services — zero-rated supply under IGST Act"</li>
 </ul>
-<p>Always include both your tax ID and your client's tax ID (if applicable). For country-specific rules, check our <a href="/guides/e-invoicing">e-invoicing compliance guide</a>.</p>
+<p>Always include both your tax ID and your client's tax ID (if applicable). For country-specific rules, check our <a href="/en/guides/e-invoicing">e-invoicing compliance guide</a>.</p>
 
 <h3>Withholding Tax</h3>
 <p>Some countries require clients to withhold a percentage of your payment and remit it to their tax authority. This is common in India (TDS), the US (for non-treaty countries), and parts of Latin America. Check if a <strong>Double Tax Treaty (DTT)</strong> exists between your country and your client's to reduce or eliminate withholding.</p>
@@ -2199,7 +2199,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>Bank wire (SWIFT)</strong> — reliable but slow (3-5 days) with $15-50 fees per transfer</li>
 <li><strong>Stripe</strong> — great for recurring billing, 2.9% + 30¢ per transaction</li>
 </ul>
-<p>Compare exact costs for your specific corridor using our <a href="/international-payment-fee-calculator">international payment fee calculator</a>. Also see our detailed <a href="/blog/stripe-vs-paypal-vs-wise-freelancers">Stripe vs PayPal vs Wise comparison</a>.</p>
+<p>Compare exact costs for your specific corridor using our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a>. Also see our detailed <a href="/en/blog/stripe-vs-paypal-vs-wise-freelancers">Stripe vs PayPal vs Wise comparison</a>.</p>
 
 <h2>Step 4: Format Your International Invoice Correctly</h2>
 <p>An international invoice must include everything a domestic invoice does, plus:</p>
@@ -2211,7 +2211,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>Applicable tax treatment</strong> — zero-rating clause, reverse charge note, etc.</li>
 <li><strong>Exchange rate reference</strong> — if applicable, note which rate source you used</li>
 </ul>
-<p><a href="/invoicing">Invoicemonk's invoice generator</a> includes all these fields with country-specific presets, so you don't miss anything.</p>
+<p><a href="/en/invoicing">Invoicemonk's invoice generator</a> includes all these fields with country-specific presets, so you don't miss anything.</p>
 
 <h2>5 Common Mistakes That Delay International Payments</h2>
 <ol>
@@ -2229,7 +2229,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>50% upfront</strong> — recommended for new international clients</li>
 <li><strong>Milestone billing</strong> — for large projects, bill at defined stages</li>
 </ul>
-<p>Learn more about structuring terms in our <a href="/blog/payment-terms-net-30-60-90-guide">payment terms guide</a>.</p>
+<p>Learn more about structuring terms in our <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms guide</a>.</p>
 
 <h2>FAQ</h2>
 <h3>Do I need to register for VAT in my client's country?</h3>
@@ -2260,27 +2260,27 @@ Any special invoicing requirements: ___</p>
 
 <h2>Why Freelancers Lose Money on Payments</h2>
 <p>Freelancing is about skill, but getting paid is about systems. Most freelancers focus on perfecting their craft while ignoring the financial infrastructure that determines how much they actually take home. The result? Thousands lost annually to avoidable mistakes.</p>
-<p>These aren't theoretical problems — they're the most common issues we see across thousands of freelancers using <a href="/invoicing">invoicing software</a>. Fix them and you'll immediately improve your cash flow.</p>
+<p>These aren't theoretical problems — they're the most common issues we see across thousands of freelancers using <a href="/en/invoicing">invoicing software</a>. Fix them and you'll immediately improve your cash flow.</p>
 
 <h2>Mistake 1: Not Invoicing Immediately</h2>
 <p>The longer you wait to invoice after delivering work, the longer you wait to get paid. It's that simple. Yet many freelancers batch invoicing to "invoice day" at the end of the month.</p>
-<p><strong>The fix:</strong> Invoice within 24 hours of project completion or milestone delivery. Use <a href="/invoicing">Invoicemonk's invoice generator</a> to create and send invoices in under 2 minutes — no excuse to delay.</p>
+<p><strong>The fix:</strong> Invoice within 24 hours of project completion or milestone delivery. Use <a href="/en/invoicing">Invoicemonk's invoice generator</a> to create and send invoices in under 2 minutes — no excuse to delay.</p>
 
 <h2>Mistake 2: Vague Payment Terms</h2>
 <p>"Payment due upon receipt" sounds professional but means nothing legally. What's "receipt"? When the email lands? When the client opens it? When their accounts payable processes it?</p>
-<p><strong>The fix:</strong> Use specific terms: "Payment due within 14 calendar days of invoice date." Include the exact due date on the invoice. For a complete breakdown, see our <a href="/blog/payment-terms-net-30-60-90-guide">payment terms guide</a>.</p>
+<p><strong>The fix:</strong> Use specific terms: "Payment due within 14 calendar days of invoice date." Include the exact due date on the invoice. For a complete breakdown, see our <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms guide</a>.</p>
 
 <h2>Mistake 3: Absorbing Payment Processing Fees</h2>
 <p>If you charge $5,000 and accept PayPal, you lose ~$175 to fees. Over a year with $60K revenue, that's $2,100 — gone. Many freelancers never calculate this.</p>
-<p><strong>The fix:</strong> Either factor fees into your rate (the cleaner approach) or specify the payment method with lowest fees. Compare your options with our <a href="/international-payment-fee-calculator">payment fee calculator</a>. Consider offering bank transfer as the primary option with a small convenience fee for PayPal/card payments.</p>
+<p><strong>The fix:</strong> Either factor fees into your rate (the cleaner approach) or specify the payment method with lowest fees. Compare your options with our <a href="/en/international-payment-fee-calculator">payment fee calculator</a>. Consider offering bank transfer as the primary option with a small convenience fee for PayPal/card payments.</p>
 
 <h2>Mistake 4: No Late Payment Policy</h2>
 <p>Without consequences for late payment, clients have zero incentive to pay on time. "I'll get to it next week" becomes next month.</p>
-<p><strong>The fix:</strong> Include late payment terms in your contract and on every invoice: "A late fee of 1.5% per month applies to overdue balances." You don't always have to enforce it, but having it creates urgency. Learn more about <a href="/blog/how-to-handle-late-payments-professionally">handling late payments professionally</a>.</p>
+<p><strong>The fix:</strong> Include late payment terms in your contract and on every invoice: "A late fee of 1.5% per month applies to overdue balances." You don't always have to enforce it, but having it creates urgency. Learn more about <a href="/en/blog/how-to-handle-late-payments-professionally">handling late payments professionally</a>.</p>
 
 <h2>Mistake 5: Undercharging (Then Resenting the Work)</h2>
 <p>This is the most expensive mistake of all. Charging $50/hour when your market rate is $85 doesn't just cost $35/hour — it attracts price-sensitive clients who are more likely to dispute invoices and pay late.</p>
-<p><strong>The fix:</strong> Calculate your true rate using our <a href="/freelancer-rate-calculator">freelancer rate calculator</a>. Factor in taxes, insurance, retirement savings, unpaid time (admin, sales, learning), and your target annual income. Then add a margin.</p>
+<p><strong>The fix:</strong> Calculate your true rate using our <a href="/en/freelancer-rate-calculator">freelancer rate calculator</a>. Factor in taxes, insurance, retirement savings, unpaid time (admin, sales, learning), and your target annual income. Then add a margin.</p>
 
 <h2>Mistake 6: Not Requiring Deposits</h2>
 <p>Starting work without a deposit is lending your time interest-free. If the client cancels or ghosts, you've worked for nothing.</p>
@@ -2288,17 +2288,17 @@ Any special invoicing requirements: ___</p>
 
 <h2>Mistake 7: Manual Everything</h2>
 <p>Manually creating invoices in Word, tracking payments in a spreadsheet, and sending reminder emails by hand is slow, error-prone, and doesn't scale.</p>
-<p><strong>The fix:</strong> Use professional invoicing software with automatic payment reminders, payment tracking, and recurring invoice support. <a href="/invoicing">Invoicemonk</a> automates the entire invoicing workflow so you can focus on billable work.</p>
+<p><strong>The fix:</strong> Use professional invoicing software with automatic payment reminders, payment tracking, and recurring invoice support. <a href="/en/invoicing">Invoicemonk</a> automates the entire invoicing workflow so you can focus on billable work.</p>
 
 <h2>The Compound Effect</h2>
 <p>Each mistake alone might cost $500-2,000 per year. Combined, they easily add up to $5,000-10,000 in lost income — money that's rightfully yours. The good news? Every fix is implementable today. Start with the one that resonates most and work through the list.</p>
 
 <h2>FAQ</h2>
 <h3>How much should I charge for late fees?</h3>
-<p>Industry standard is 1-2% per month on the overdue balance. Check your local <a href="/blog/late-payment-laws-by-country">late payment laws</a> — some jurisdictions cap the rate or require specific notice periods.</p>
+<p>Industry standard is 1-2% per month on the overdue balance. Check your local <a href="/en/blog/late-payment-laws-by-country">late payment laws</a> — some jurisdictions cap the rate or require specific notice periods.</p>
 
 <h3>Should I fire clients who consistently pay late?</h3>
-<p>Yes — if they pay late despite reminders and late fees. Your time spent chasing payments has an opportunity cost. Replace them with clients who respect your terms. See our guide on <a href="/blog/dealing-with-non-paying-clients">dealing with non-paying clients</a>.</p>
+<p>Yes — if they pay late despite reminders and late fees. Your time spent chasing payments has an opportunity cost. Replace them with clients who respect your terms. See our guide on <a href="/en/blog/dealing-with-non-paying-clients">dealing with non-paying clients</a>.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-13',
@@ -2350,7 +2350,7 @@ Any special invoicing requirements: ___</p>
 <li>2-7 day payout schedule (not instant)</li>
 </ul>
 <h3>Best for</h3>
-<p>Freelancers with recurring clients, subscription-based services, or those who need automated billing. Also ideal if you use <a href="/blog/payment-gateways-invoicing-software">invoicing software with payment gateway integration</a>.</p>
+<p>Freelancers with recurring clients, subscription-based services, or those who need automated billing. Also ideal if you use <a href="/en/blog/payment-gateways-invoicing-software">invoicing software with payment gateway integration</a>.</p>
 
 <h2>PayPal: Most Widely Accepted, Most Expensive</h2>
 <h3>Pros</h3>
@@ -2387,7 +2387,7 @@ Any special invoicing requirements: ___</p>
 <li>No built-in invoicing features</li>
 </ul>
 <h3>Best for</h3>
-<p>Freelancers with international clients, especially for larger payments where percentage-based fees add up. Pair with <a href="/invoicing">Invoicemonk</a> for invoicing and use Wise for payment receipt. See our <a href="/paypal-vs-wise-fees">detailed PayPal vs Wise fee comparison</a>.</p>
+<p>Freelancers with international clients, especially for larger payments where percentage-based fees add up. Pair with <a href="/en/invoicing">Invoicemonk</a> for invoicing and use Wise for payment receipt. See our <a href="/en/paypal-vs-wise-fees">detailed PayPal vs Wise fee comparison</a>.</p>
 
 <h2>Real-World Cost Comparison</h2>
 <p>Let's compare what you'd actually receive on a $5,000 invoice from a UK client (paid in GBP, converted to USD):</p>
@@ -2396,7 +2396,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>PayPal</strong>: $5,000 - $220 (4.4%) - $0.30 - $175 (3.5% conversion) = <strong>$4,604.70</strong></li>
 <li><strong>Wise</strong>: $5,000 - $50 (1%) - $25 (0.5% conversion) = <strong>$4,925.00</strong></li>
 </ul>
-<p>On this single invoice, Wise saves you <strong>$170 vs Stripe</strong> and <strong>$320 vs PayPal</strong>. Over a year of international invoicing, the savings compound significantly. Use our <a href="/international-payment-fee-calculator">payment fee calculator</a> to run your own numbers.</p>
+<p>On this single invoice, Wise saves you <strong>$170 vs Stripe</strong> and <strong>$320 vs PayPal</strong>. Over a year of international invoicing, the savings compound significantly. Use our <a href="/en/international-payment-fee-calculator">payment fee calculator</a> to run your own numbers.</p>
 
 <h2>Which Should You Choose?</h2>
 <ul>
@@ -2405,7 +2405,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>Primarily international clients</strong> → Wise (lowest fees by far)</li>
 <li><strong>Clients who only use PayPal</strong> → PayPal (but negotiate who absorbs the fees)</li>
 </ul>
-<p>Many successful freelancers offer all three and let clients choose — while noting their preferred method on the invoice. <a href="/invoicing">Invoicemonk</a> lets you include multiple payment options on every invoice.</p>
+<p>Many successful freelancers offer all three and let clients choose — while noting their preferred method on the invoice. <a href="/en/invoicing">Invoicemonk</a> lets you include multiple payment options on every invoice.</p>
 
 <h2>FAQ</h2>
 <h3>Can I use multiple payment platforms?</h3>
@@ -2451,7 +2451,7 @@ Any special invoicing requirements: ___</p>
 
 <h3>Reason 4: Invoice Confusion or Disputes</h3>
 <p>The client doesn't recognize a line item, the total doesn't match what they expected, or the invoice references a project name they use internally. Rather than asking for clarification (which feels confrontational), they set the invoice aside to "deal with later."</p>
-<p><strong>How common:</strong> ~15% of cases. Itemized invoices with clear descriptions dramatically reduce this. See our guide on <a href="/blog/invoice-disputes-how-to-handle-professionally">handling invoice disputes</a>.</p>
+<p><strong>How common:</strong> ~15% of cases. Itemized invoices with clear descriptions dramatically reduce this. See our guide on <a href="/en/blog/invoice-disputes-how-to-handle-professionally">handling invoice disputes</a>.</p>
 
 <h3>Reason 5: No Urgency (Your Terms Are Too Lenient)</h3>
 <p>Net 60 terms with no late penalty means the client has zero incentive to prioritize your invoice. When cash is tight, they'll pay suppliers with stricter terms first.</p>
@@ -2467,7 +2467,7 @@ Any special invoicing requirements: ___</p>
 <li><strong>3 days after</strong>: "Invoice #1234 is now overdue"</li>
 <li><strong>7 days after</strong>: "Second reminder — please arrange payment for Invoice #1234"</li>
 </ul>
-<p><a href="/invoicing">Invoicemonk</a> automates this entire sequence — you set it once and never think about it again. For email templates, see our <a href="/blog/payment-reminder-email-templates">payment reminder templates</a>.</p>
+<p><a href="/en/invoicing">Invoicemonk</a> automates this entire sequence — you set it once and never think about it again. For email templates, see our <a href="/en/blog/payment-reminder-email-templates">payment reminder templates</a>.</p>
 
 <h3>Fix 2: Make Payment Stupidly Easy</h3>
 <p>Every click, every manual step, every moment of friction delays payment. Include:</p>
@@ -2490,7 +2490,7 @@ Any special invoicing requirements: ___</p>
 <li>Net 30 invoices: 61% paid on time</li>
 <li>Net 60 invoices: 42% paid on time</li>
 </ul>
-<p>Shorter terms create natural urgency. For new clients, start with Net 14 and adjust based on their payment history. Consider offering <a href="/blog/early-payment-discounts-do-they-work">early payment discounts</a> as an incentive.</p>
+<p>Shorter terms create natural urgency. For new clients, start with Net 14 and adjust based on their payment history. Consider offering <a href="/en/blog/early-payment-discounts-do-they-work">early payment discounts</a> as an incentive.</p>
 
 <h3>Fix 5: Require Deposits for New Clients</h3>
 <p>A deposit (25-50% of the project total) accomplishes three things:</p>
@@ -2506,10 +2506,10 @@ Any special invoicing requirements: ___</p>
 
 <h2>FAQ</h2>
 <h3>Should I charge late fees?</h3>
-<p>Yes — include them in your terms (1-2% per month is standard). You don't have to enforce them every time, but having them creates urgency and gives you leverage for serial late-payers. Check <a href="/blog/late-payment-laws-by-country">late payment laws in your country</a>.</p>
+<p>Yes — include them in your terms (1-2% per month is standard). You don't have to enforce them every time, but having them creates urgency and gives you leverage for serial late-payers. Check <a href="/en/blog/late-payment-laws-by-country">late payment laws in your country</a>.</p>
 
 <h3>When should I stop working for a client who pays late?</h3>
-<p>If a client pays late more than twice despite your automated reminders and clear terms, have a direct conversation. If it continues, stop accepting new work until outstanding invoices are settled. Read our guide on <a href="/blog/dealing-with-non-paying-clients">dealing with non-paying clients</a>.</p>
+<p>If a client pays late more than twice despite your automated reminders and clear terms, have a direct conversation. If it continues, stop accepting new work until outstanding invoices are settled. Read our guide on <a href="/en/blog/dealing-with-non-paying-clients">dealing with non-paying clients</a>.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-13',

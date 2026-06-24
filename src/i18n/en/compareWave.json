@@ -29,17 +29,66 @@
     "Compliance is the second gap. Every Invoicemonk invoice is hashed into an immutable audit trail and carries a QR code anyone can scan to verify authenticity — features that ship on the free Starter plan. Wave does not offer credit notes, an immutable audit log, or invoice verification."
   ],
   "features": [
-    { "name": "Available to users outside US & Canada", "invoicemonk": "All countries", "competitor": "No (since Nov 2020)" },
-    { "name": "Send invoices by email", "invoicemonk": true, "competitor": "Not for international users" },
-    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": "Bookkeeping only" },
-    { "name": "Compliance-first invoice generation", "invoicemonk": true, "competitor": false },
-    { "name": "Country-specific invoice requirements", "invoicemonk": true, "competitor": false },
-    { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": "Not for international users" },
-    { "name": "Payment tracking", "invoicemonk": true, "competitor": "Manual outside US/CA" },
-    { "name": "Invoice templates", "invoicemonk": true, "competitor": true },
-    { "name": "Recurring invoices", "invoicemonk": true, "competitor": "US/CA only" },
-    { "name": "Client portal", "invoicemonk": true, "competitor": false },
-    { "name": "Mobile app", "invoicemonk": true, "competitor": true }
+    {
+      "name": "E-invoicing mandates supported",
+      "invoicemonk": "16 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
+      "competitor": "0 (US/Canada accounting only)"
+    },
+    {
+      "name": "Available to users outside US & Canada",
+      "invoicemonk": "All countries",
+      "competitor": "No (since Nov 2020)"
+    },
+    {
+      "name": "Send invoices by email",
+      "invoicemonk": true,
+      "competitor": "Not for international users"
+    },
+    {
+      "name": "Multi-currency invoicing",
+      "invoicemonk": true,
+      "competitor": "Bookkeeping only"
+    },
+    {
+      "name": "Compliance-first invoice generation",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Country-specific invoice requirements",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Automatic payment reminders",
+      "invoicemonk": true,
+      "competitor": "Not for international users"
+    },
+    {
+      "name": "Payment tracking",
+      "invoicemonk": true,
+      "competitor": "Manual outside US/CA"
+    },
+    {
+      "name": "Invoice templates",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Recurring invoices",
+      "invoicemonk": true,
+      "competitor": "US/CA only"
+    },
+    {
+      "name": "Client portal",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Mobile app",
+      "invoicemonk": true,
+      "competitor": true
+    }
   ],
   "deepDive": {
     "title": "Where the gap matters most",
@@ -110,58 +159,216 @@
       "title": "Invoicemonk pricing (2026)",
       "intro": "Invoicemonk is designed for freelancers doing cross-border work, with pricing that reflects the full scope of what international freelancers need — compliance-first invoicing, multi-currency, automated reminders, payment tracking — available in every country from day one.",
       "tiers": [
-        { "name": "Starter", "price": "Free", "desc": "5 invoices/mo, 5 clients, 1 currency. No watermark." },
-        { "name": "Pro", "price": "$15/mo", "desc": "Unlimited invoices, multi-currency, up to 5 team members, custom branding." },
-        { "name": "SME", "price": "$49/mo", "desc": "Online payments, advanced reports, premium templates, unlimited team." },
-        { "name": "Biz", "price": "Custom", "desc": "E-invoicing & government submission, dedicated manager, SLA." }
+        {
+          "name": "Starter",
+          "price": "Free",
+          "desc": "5 invoices/mo, 5 clients, 1 currency. No watermark."
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo",
+          "desc": "Unlimited invoices, multi-currency, up to 5 team members, custom branding."
+        },
+        {
+          "name": "SME",
+          "price": "$49/mo",
+          "desc": "Online payments, advanced reports, premium templates, unlimited team."
+        },
+        {
+          "name": "Biz",
+          "price": "Custom",
+          "desc": "E-invoicing & government submission, dedicated manager, SLA."
+        }
       ]
     }
   },
   "fullMatrix": {
     "title": "The full feature comparison",
-    "columns": ["Invoicemonk", "Wave Starter (Free)", "Wave Pro ($16/mo)"],
+    "columns": [
+      "Invoicemonk",
+      "Wave Starter (Free)",
+      "Wave Pro ($16/mo)"
+    ],
     "groups": [
+      {
+        "name": "E-invoicing & compliance",
+        "rows": [
+          {
+            "name": "E-invoicing mandates supported",
+            "values": [
+              "16 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
+              "0 (US/Canada accounting only)"
+            ]
+          }
+        ]
+      },
       {
         "name": "Availability",
         "rows": [
-          { "name": "International users (outside US/CA)", "values": ["✅", "❌", "❌"] },
-          { "name": "Invoice sending for international users", "values": ["✅", "❌", "❌"] }
+          {
+            "name": "International users (outside US/CA)",
+            "values": [
+              "✅",
+              "❌",
+              "❌"
+            ]
+          },
+          {
+            "name": "Invoice sending for international users",
+            "values": [
+              "✅",
+              "❌",
+              "❌"
+            ]
+          }
         ]
       },
       {
         "name": "Invoicing",
         "rows": [
-          { "name": "Unlimited invoices", "values": ["✅ (Pro+)", "✅", "✅"] },
-          { "name": "Multi-currency invoicing", "values": ["✅", "Bookkeeping only", "Bookkeeping only"] },
-          { "name": "Compliance-first invoice generation", "values": ["✅", "❌", "❌"] },
-          { "name": "Automatic payment reminders", "values": ["✅", "❌ International", "US/CA only"] },
-          { "name": "Recurring invoices", "values": ["✅", "US/CA only", "US/CA only"] },
-          { "name": "Invoice templates", "values": ["✅", "✅", "✅"] },
-          { "name": "Remove branding", "values": ["✅", "❌", "✅"] }
+          {
+            "name": "Unlimited invoices",
+            "values": [
+              "✅ (Pro+)",
+              "✅",
+              "✅"
+            ]
+          },
+          {
+            "name": "Multi-currency invoicing",
+            "values": [
+              "✅",
+              "Bookkeeping only",
+              "Bookkeeping only"
+            ]
+          },
+          {
+            "name": "Compliance-first invoice generation",
+            "values": [
+              "✅",
+              "❌",
+              "❌"
+            ]
+          },
+          {
+            "name": "Automatic payment reminders",
+            "values": [
+              "✅",
+              "❌ International",
+              "US/CA only"
+            ]
+          },
+          {
+            "name": "Recurring invoices",
+            "values": [
+              "✅",
+              "US/CA only",
+              "US/CA only"
+            ]
+          },
+          {
+            "name": "Invoice templates",
+            "values": [
+              "✅",
+              "✅",
+              "✅"
+            ]
+          },
+          {
+            "name": "Remove branding",
+            "values": [
+              "✅",
+              "❌",
+              "✅"
+            ]
+          }
         ]
       },
       {
         "name": "Payments & Tracking",
         "rows": [
-          { "name": "Payment tracking", "values": ["✅", "Manual", "Manual"] },
-          { "name": "Online payment acceptance", "values": ["✅", "US/CA only", "US/CA only"] }
+          {
+            "name": "Payment tracking",
+            "values": [
+              "✅",
+              "Manual",
+              "Manual"
+            ]
+          },
+          {
+            "name": "Online payment acceptance",
+            "values": [
+              "✅",
+              "US/CA only",
+              "US/CA only"
+            ]
+          }
         ]
       },
       {
         "name": "Accounting",
         "rows": [
-          { "name": "Expense tracking", "values": ["✅", "✅", "✅"] },
-          { "name": "Bank reconciliation", "values": ["✅", "Manual", "Automated"] },
-          { "name": "Financial reports", "values": ["✅", "Basic", "Basic"] },
-          { "name": "Payroll", "values": ["❌", "Add-on ($40+/mo)", "Add-on ($40+/mo)"] }
+          {
+            "name": "Expense tracking",
+            "values": [
+              "✅",
+              "✅",
+              "✅"
+            ]
+          },
+          {
+            "name": "Bank reconciliation",
+            "values": [
+              "✅",
+              "Manual",
+              "Automated"
+            ]
+          },
+          {
+            "name": "Financial reports",
+            "values": [
+              "✅",
+              "Basic",
+              "Basic"
+            ]
+          },
+          {
+            "name": "Payroll",
+            "values": [
+              "❌",
+              "Add-on ($40+/mo)",
+              "Add-on ($40+/mo)"
+            ]
+          }
         ]
       },
       {
         "name": "Support",
         "rows": [
-          { "name": "Support for international users", "values": ["✅", "❌", "❌"] },
-          { "name": "Human support", "values": ["✅", "❌", "Live chat"] },
-          { "name": "Knowledge base", "values": ["✅", "✅", "✅"] }
+          {
+            "name": "Support for international users",
+            "values": [
+              "✅",
+              "❌",
+              "❌"
+            ]
+          },
+          {
+            "name": "Human support",
+            "values": [
+              "✅",
+              "❌",
+              "Live chat"
+            ]
+          },
+          {
+            "name": "Knowledge base",
+            "values": [
+              "✅",
+              "✅",
+              "✅"
+            ]
+          }
         ]
       }
     ]
@@ -224,22 +431,55 @@
   "migration": {
     "title": "How do I migrate from Wave to Invoicemonk?",
     "steps": [
-      { "title": "Export your Wave data", "desc": "Wave → Settings → Data Export. Download customers, invoices and transactions as CSV. International users still have read access for export." },
-      { "title": "Create your Invoicemonk account", "desc": "Create your account at app.invoicemonk.com. Add business profile, logo and tax ID in under 5 minutes." },
-      { "title": "Import customers and history", "desc": "Upload the Wave CSVs. Names, emails, addresses and invoice history map automatically." },
-      { "title": "Set up multi-currency accounts", "desc": "Add a currency account for every market you invoice — EUR, GBP, INR and more — included on every plan." },
-      { "title": "Send a globally-compliant invoice", "desc": "Your first Invoicemonk invoice is hashed, QR-verifiable, and ready for any tax authority." }
+      {
+        "title": "Export your Wave data",
+        "desc": "Wave → Settings → Data Export. Download customers, invoices and transactions as CSV. International users still have read access for export."
+      },
+      {
+        "title": "Create your Invoicemonk account",
+        "desc": "Create your account at app.invoicemonk.com. Add business profile, logo and tax ID in under 5 minutes."
+      },
+      {
+        "title": "Import customers and history",
+        "desc": "Upload the Wave CSVs. Names, emails, addresses and invoice history map automatically."
+      },
+      {
+        "title": "Set up multi-currency accounts",
+        "desc": "Add a currency account for every market you invoice — EUR, GBP, INR and more — included on every plan."
+      },
+      {
+        "title": "Send a globally-compliant invoice",
+        "desc": "Your first Invoicemonk invoice is hashed, QR-verifiable, and ready for any tax authority."
+      }
     ]
   },
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Can I use Wave as a freelancer outside the US and Canada?", "answer": "You can access your Wave account and do manual bookkeeping, but Wave cannot send invoices, process payments, or send payment reminders on your behalf if your business is registered outside the United States or Canada. Wave officially discontinued support for international users in November 2020." },
-      { "question": "Does Invoicemonk work for freelancers in Africa, Asia, or Europe?", "answer": "Yes. Invoicemonk is available to freelancers in all countries and is specifically designed for cross-border invoicing — billing clients in a different country from where you are based." },
-      { "question": "Does Wave handle VAT or foreign tax compliance?", "answer": "Wave was built for the US and Canadian tax frameworks. It does not provide compliance guidance or invoice generation for VAT jurisdictions, GST, or other international tax requirements." },
-      { "question": "Is Wave free forever?", "answer": "Wave's Starter plan has no monthly subscription fee, but it charges transaction fees (2.9% + $0.60 per transaction for card payments; 1% minimum $1 for ACH). For international users, even the Pro plan is functionally limited to basic bookkeeping." },
-      { "question": "Can Invoicemonk replace Wave for bookkeeping?", "answer": "Invoicemonk is focused on the invoicing and payment-tracking workflow that matters most to freelancers. If you need deep double-entry accounting, Wave's bookkeeping features — or a dedicated accounting tool — may serve that need alongside Invoicemonk." },
-      { "question": "What should Wave international users switch to?", "answer": "Wave itself recommends Zoho Books for users outside the US and Canada. Invoicemonk is a stronger option specifically for freelancers doing cross-border work, because it is built around the compliance and invoicing requirements of international freelance — not just general small business accounting." }
+      {
+        "question": "Can I use Wave as a freelancer outside the US and Canada?",
+        "answer": "You can access your Wave account and do manual bookkeeping, but Wave cannot send invoices, process payments, or send payment reminders on your behalf if your business is registered outside the United States or Canada. Wave officially discontinued support for international users in November 2020."
+      },
+      {
+        "question": "Does Invoicemonk work for freelancers in Africa, Asia, or Europe?",
+        "answer": "Yes. Invoicemonk is available to freelancers in all countries and is specifically designed for cross-border invoicing — billing clients in a different country from where you are based."
+      },
+      {
+        "question": "Does Wave handle VAT or foreign tax compliance?",
+        "answer": "Wave was built for the US and Canadian tax frameworks. It does not provide compliance guidance or invoice generation for VAT jurisdictions, GST, or other international tax requirements."
+      },
+      {
+        "question": "Is Wave free forever?",
+        "answer": "Wave's Starter plan has no monthly subscription fee, but it charges transaction fees (2.9% + $0.60 per transaction for card payments; 1% minimum $1 for ACH). For international users, even the Pro plan is functionally limited to basic bookkeeping."
+      },
+      {
+        "question": "Can Invoicemonk replace Wave for bookkeeping?",
+        "answer": "Invoicemonk is focused on the invoicing and payment-tracking workflow that matters most to freelancers. If you need deep double-entry accounting, Wave's bookkeeping features — or a dedicated accounting tool — may serve that need alongside Invoicemonk."
+      },
+      {
+        "question": "What should Wave international users switch to?",
+        "answer": "Wave itself recommends Zoho Books for users outside the US and Canada. Invoicemonk is a stronger option specifically for freelancers doing cross-border work, because it is built around the compliance and invoicing requirements of international freelance — not just general small business accounting."
+      }
     ]
   },
   "bottomLine": {
@@ -252,22 +492,55 @@
   "sources": {
     "title": "Sources and further reading",
     "items": [
-      { "label": "Wave Help Center: Changes for Wave users outside the United States and Canada", "url": "https://support.waveapps.com/" },
-      { "label": "Wave Pricing", "url": "https://www.waveapps.com/pricing" },
-      { "label": "NerdWallet: Wave Accounting Review 2026", "url": "https://www.nerdwallet.com/" },
-      { "label": "ITQlick: Wave Accounting Pricing 2026", "url": "https://www.itqlick.com/" },
-      { "label": "Capterra: Wave Software 2026", "url": "https://www.capterra.com/" },
-      { "label": "GetApp: Wave 2026 Pricing, Features, Reviews & Alternatives", "url": "https://www.getapp.com/" }
+      {
+        "label": "Wave Help Center: Changes for Wave users outside the United States and Canada",
+        "url": "https://support.waveapps.com/"
+      },
+      {
+        "label": "Wave Pricing",
+        "url": "https://www.waveapps.com/pricing"
+      },
+      {
+        "label": "NerdWallet: Wave Accounting Review 2026",
+        "url": "https://www.nerdwallet.com/"
+      },
+      {
+        "label": "ITQlick: Wave Accounting Pricing 2026",
+        "url": "https://www.itqlick.com/"
+      },
+      {
+        "label": "Capterra: Wave Software 2026",
+        "url": "https://www.capterra.com/"
+      },
+      {
+        "label": "GetApp: Wave 2026 Pricing, Features, Reviews & Alternatives",
+        "url": "https://www.getapp.com/"
+      }
     ]
   },
   "related": {
     "title": "More comparisons",
     "links": [
-      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Invoicemonk vs Zoho Invoice", "to": "/compare/invoicemonk-vs-zoho-invoice" },
-      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Invoicemonk vs Stripe Invoicing", "to": "/compare/invoicemonk-vs-stripe" },
-      { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs FreshBooks",
+        "to": "/compare/invoicemonk-vs-freshbooks"
+      },
+      {
+        "label": "Invoicemonk vs Zoho Invoice",
+        "to": "/compare/invoicemonk-vs-zoho-invoice"
+      },
+      {
+        "label": "Invoicemonk vs QuickBooks",
+        "to": "/compare/invoicemonk-vs-quickbooks"
+      },
+      {
+        "label": "Invoicemonk vs Stripe Invoicing",
+        "to": "/compare/invoicemonk-vs-stripe"
+      },
+      {
+        "label": "Best Invoicing Software 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "cta": {

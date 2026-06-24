@@ -20,11 +20,11 @@ export const cluster15Posts: BlogPost[] = [
 <p>Learn how to create professional photography invoices — from pricing models to usage rights, deposits, and tax considerations. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>Why Photography Invoicing Is Different</h2>
-<p>Photography invoicing is unlike most freelance billing because you're often selling both <strong>time and intellectual property</strong>. A photo shoot involves session time, editing, equipment, travel, and — crucially — <a href="/blog/what-is-an-invoice-complete-guide">usage licenses</a>. Your invoice needs to reflect all of these elements clearly to avoid disputes and ensure you're compensated for the full value of your work.</p>
+<p>Photography invoicing is unlike most freelance billing because you're often selling both <strong>time and intellectual property</strong>. A photo shoot involves session time, editing, equipment, travel, and — crucially — <a href="/en/blog/what-is-an-invoice-complete-guide">usage licenses</a>. Your invoice needs to reflect all of these elements clearly to avoid disputes and ensure you're compensated for the full value of your work.</p>
 <p>Whether you shoot weddings, commercial product photography, headshots, or editorial content, a well-structured invoice protects your business and communicates professionalism.</p>
 
 <h2>Essential Elements of a Photography Invoice</h2>
-<p>Every photography invoice should include these core elements beyond the <a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">standard invoice fields</a>:</p>
+<p>Every photography invoice should include these core elements beyond the <a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">standard invoice fields</a>:</p>
 <ul>
 <li><strong>Session/shoot date and location</strong> — when and where the work was performed</li>
 <li><strong>Number of final images delivered</strong> — establishes the scope of deliverables</li>
@@ -48,7 +48,7 @@ export const cluster15Posts: BlogPost[] = [
 <p>Popular for weddings and portraits. You define packages (e.g., "Gold Package: 6 hours, 300 edited images, online gallery, 1 album") and invoice the package price with any add-ons listed separately.</p>
 
 <h3>Usage-Based Licensing</h3>
-<p>For commercial clients, the shooting fee may be separate from usage licensing. Invoicemonk allows you to add multiple line items — one for the creative fee and another for the usage license, with different <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a> if needed.</p>
+<p>For commercial clients, the shooting fee may be separate from usage licensing. Invoicemonk allows you to add multiple line items — one for the creative fee and another for the usage license, with different <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a> if needed.</p>
 
 <h2>How to Handle Deposits and Milestones</h2>
 <p>Most photographers collect deposits before a shoot. Structure your invoicing as:</p>
@@ -56,15 +56,15 @@ export const cluster15Posts: BlogPost[] = [
 <li><strong>Deposit invoice</strong> — typically 25-50% of the total, due before the shoot date</li>
 <li><strong>Final invoice</strong> — remaining balance, due upon image delivery or within your payment terms</li>
 </ol>
-<p>Invoicemonk's <a href="/use-cases/milestone-billing">milestone billing</a> feature lets you split projects into phases and invoice each separately.</p>
+<p>Invoicemonk's <a href="/en/use-cases/milestone-billing">milestone billing</a> feature lets you split projects into phases and invoice each separately.</p>
 
 <h2>Tax Considerations for Photographers</h2>
 <p>Photography services are taxed differently across jurisdictions:</p>
 <ul>
-<li><strong>UK</strong> — Photography services are standard-rated for VAT at 20%. <a href="/blog/hmrc-invoice-requirements-uk-guide">HMRC requires</a> VAT invoices for all taxable supplies.</li>
+<li><strong>UK</strong> — Photography services are standard-rated for VAT at 20%. <a href="/en/blog/hmrc-invoice-requirements-uk-guide">HMRC requires</a> VAT invoices for all taxable supplies.</li>
 <li><strong>US</strong> — Some states exempt photography services from sales tax; others treat them as taxable services. Digital photo delivery may be treated differently from physical prints.</li>
-<li><strong>Australia</strong> — Photography is subject to <a href="/blog/ato-invoice-requirements-australian-compliance">10% GST</a> if you're registered.</li>
-<li><strong>Nigeria</strong> — Subject to <a href="/blog/e-invoicing-nigeria-firs-guide">7.5% VAT</a> with TIN requirements.</li>
+<li><strong>Australia</strong> — Photography is subject to <a href="/en/blog/ato-invoice-requirements-australian-compliance">10% GST</a> if you're registered.</li>
+<li><strong>Nigeria</strong> — Subject to <a href="/en/blog/firs-mbs-nigeria-explained">7.5% VAT</a> with TIN requirements.</li>
 </ul>
 
 <h2>Common Photography Invoice Mistakes</h2>
@@ -73,7 +73,7 @@ export const cluster15Posts: BlogPost[] = [
 <li><strong>Bundling everything into one line</strong> — breaks down your pricing into creative fee, editing, travel, and licensing</li>
 <li><strong>Forgetting to invoice for overages</strong> — extra hours, additional images, or rush delivery</li>
 <li><strong>Not collecting deposits</strong> — protects you against cancellations and no-shows</li>
-<li><strong>Missing tax information</strong> — can lead to compliance issues and <a href="/blog/freelancer-tax-mistakes-to-avoid">tax penalties</a></li>
+<li><strong>Missing tax information</strong> — can lead to compliance issues and <a href="/en/blog/freelancer-tax-mistakes-to-avoid">tax penalties</a></li>
 </ul>
 
 <h2>Photography Invoice Template</h2>
@@ -87,7 +87,7 @@ export const cluster15Posts: BlogPost[] = [
 <li>Line 6: Rush delivery surcharge (if applicable)</li>
 <li>Less: Deposit paid on [date] — Invoice #[deposit invoice number]</li>
 </ul>
-<p>Use Invoicemonk's <a href="/invoicing">free invoice generator</a> to create professional photography invoices with all these elements — no signup required.</p>
+<p>Use Invoicemonk's <a href="/en/invoicing">free invoice generator</a> to create professional photography invoices with all these elements — no signup required.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -98,7 +98,7 @@ export const cluster15Posts: BlogPost[] = [
 <p>List physical products (albums, prints, canvases) as separate line items with applicable sales tax. Digital delivery and physical products may be taxed differently in your jurisdiction.</p>
 
 <h3>What payment terms should I set for photography?</h3>
-<p>Standard is <a href="/blog/payment-terms-net-30-60-90-guide">Net 30</a> for commercial clients and payment upon delivery for individuals. For weddings and events, collect 25-50% upfront and the balance before or on the event date.</p>
+<p>Standard is <a href="/en/blog/payment-terms-net-30-60-90-guide">Net 30</a> for commercial clients and payment upon delivery for individuals. For weddings and events, collect 25-50% upfront and the balance before or on the event date.</p>
 
 <h3>How do I invoice for stock photography?</h3>
 <p>For direct stock licensing (not through agencies), invoice per image with clear license terms: usage type, duration, territory, and exclusivity. Invoicemonk lets you create itemized invoices with detailed descriptions per image.</p>
@@ -131,7 +131,7 @@ export const cluster15Posts: BlogPost[] = [
 <h2>Choosing Your Pricing Model</h2>
 
 <h3>Hourly Rate</h3>
-<p>Best for ongoing retainer work, consulting, and projects with undefined scope. Track your hours carefully — <a href="/blog/time-tracking-accurate-invoicing">accurate time tracking</a> is essential for hourly billing. Your invoice should list date, task description, hours, and rate for each work session.</p>
+<p>Best for ongoing retainer work, consulting, and projects with undefined scope. Track your hours carefully — <a href="/en/blog/time-tracking-accurate-invoicing">accurate time tracking</a> is essential for hourly billing. Your invoice should list date, task description, hours, and rate for each work session.</p>
 
 <h3>Project-Based / Flat Fee</h3>
 <p>Best for defined deliverables like logo design, brand identity packages, or specific collateral. Your invoice lists the project name, deliverables, and total fee. Break into phases for larger projects: discovery, concepts, refinement, final files.</p>
@@ -140,7 +140,7 @@ export const cluster15Posts: BlogPost[] = [
 <p>For experienced designers, pricing based on the value to the client (e.g., a logo for a startup vs. a Fortune 500 rebrand). Your invoice reflects the agreed project fee without detailed hourly breakdowns.</p>
 
 <h2>What to Include on a Graphic Design Invoice</h2>
-<p>Beyond <a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">standard invoice elements</a>:</p>
+<p>Beyond <a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">standard invoice elements</a>:</p>
 <ul>
 <li><strong>Project name and description</strong> — "Brand Identity Design for Acme Corp"</li>
 <li><strong>Deliverables list</strong> — logo files (AI, EPS, PNG, SVG), brand guidelines PDF, business card design, etc.</li>
@@ -170,10 +170,10 @@ export const cluster15Posts: BlogPost[] = [
 
 <h2>Tax Considerations for Graphic Designers</h2>
 <ul>
-<li><strong>UK</strong> — Design services are standard-rated at 20% VAT. Register if turnover exceeds £90,000. <a href="/blog/hmrc-invoice-requirements-uk-guide">HMRC compliance</a> required.</li>
-<li><strong>Germany</strong> — Freelance designers may qualify for <a href="/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer</a> VAT exemption if annual revenue is under €22,000.</li>
+<li><strong>UK</strong> — Design services are standard-rated at 20% VAT. Register if turnover exceeds £90,000. <a href="/en/blog/hmrc-invoice-requirements-uk-guide">HMRC compliance</a> required.</li>
+<li><strong>Germany</strong> — Freelance designers may qualify for <a href="/en/blog/germany-kleinunternehmer-invoicing">Kleinunternehmer</a> VAT exemption if annual revenue is under €22,000.</li>
 <li><strong>US</strong> — Design services are generally not subject to sales tax, but some states tax digital products. Check state-specific rules.</li>
-<li><strong>India</strong> — <a href="/blog/e-invoicing-india-gst-guide">18% GST</a> applies to design services.</li>
+<li><strong>India</strong> — <a href="/en/blog/gst-irn-india-explained">18% GST</a> applies to design services.</li>
 </ul>
 
 <h2>Graphic Design Invoice Template Structure</h2>
@@ -185,7 +185,7 @@ export const cluster15Posts: BlogPost[] = [
 <li>Line 5: Stock images / fonts purchased (pass-through cost)</li>
 <li>Less: Deposit paid on [date]</li>
 </ul>
-<p>Create professional design invoices with Invoicemonk's <a href="/invoicing">free invoice generator</a> — includes all the fields you need, with no signup required.</p>
+<p>Create professional design invoices with Invoicemonk's <a href="/en/invoicing">free invoice generator</a> — includes all the fields you need, with no signup required.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -196,13 +196,13 @@ export const cluster15Posts: BlogPost[] = [
 <p>Never agree to unlimited revisions. Define 2-3 rounds in your contract. Add a note on your invoice: "Includes X revision rounds. Additional revisions billed at $Y/hour." This sets clear expectations.</p>
 
 <h3>What payment terms work best for design projects?</h3>
-<p>For projects under $2,000: 50% upfront, 50% on completion. For larger projects: 30% deposit, 30% at midpoint, 40% on delivery. Use <a href="/blog/payment-terms-net-30-60-90-guide">Net 15 or Net 30</a> for established clients.</p>
+<p>For projects under $2,000: 50% upfront, 50% on completion. For larger projects: 30% deposit, 30% at midpoint, 40% on delivery. Use <a href="/en/blog/payment-terms-net-30-60-90-guide">Net 15 or Net 30</a> for established clients.</p>
 
 <h3>Should I charge for initial consultations?</h3>
 <p>For brief discovery calls (15-30 min), usually no. For in-depth creative briefing sessions (1+ hours), yes — add as a line item or fold into the project fee.</p>
 
 <h3>How do I invoice for ongoing retainer work?</h3>
-<p>Set up <a href="/use-cases/recurring-billing">recurring invoices</a> with a fixed monthly fee. Include a note about the hours/deliverables covered and how overages are billed.</p>
+<p>Set up <a href="/en/use-cases/recurring-billing">recurring invoices</a> with a fixed monthly fee. Include a note about the hours/deliverables covered and how overages are billed.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-08',
@@ -229,7 +229,7 @@ export const cluster15Posts: BlogPost[] = [
 <h2>Billing Models for Web Developers</h2>
 
 <h3>Hourly Billing</h3>
-<p>Best for: maintenance work, bug fixes, consulting, and scope-uncertain projects. Track every minute with <a href="/blog/time-tracking-accurate-invoicing">time tracking tools</a>. Your invoice lists each task, date, hours, and rate. Group by project phase (front-end, back-end, DevOps) for clarity.</p>
+<p>Best for: maintenance work, bug fixes, consulting, and scope-uncertain projects. Track every minute with <a href="/en/blog/time-tracking-accurate-invoicing">time tracking tools</a>. Your invoice lists each task, date, hours, and rate. Group by project phase (front-end, back-end, DevOps) for clarity.</p>
 
 <h3>Fixed-Price / Project-Based</h3>
 <p>Best for: defined-scope projects (landing pages, portfolio sites, specific features). Define the scope carefully upfront. Your invoice references the project agreement and lists the total fee, broken into milestones if applicable.</p>
@@ -242,10 +242,10 @@ export const cluster15Posts: BlogPost[] = [
 <li><strong>Development complete</strong> (30-40%) — functional build on staging</li>
 <li><strong>Launch & handover</strong> (10-20%) — deployment, training, documentation</li>
 </ol>
-<p>Invoicemonk's <a href="/use-cases/milestone-billing">milestone billing</a> feature makes it easy to track and invoice each phase.</p>
+<p>Invoicemonk's <a href="/en/use-cases/milestone-billing">milestone billing</a> feature makes it easy to track and invoice each phase.</p>
 
 <h3>Retainer / Monthly Maintenance</h3>
-<p>For ongoing clients: a fixed monthly fee covering X hours of updates, security patches, and support. Set up <a href="/use-cases/recurring-billing">recurring invoices</a> and track hours against the allocation.</p>
+<p>For ongoing clients: a fixed monthly fee covering X hours of updates, security patches, and support. Set up <a href="/en/use-cases/recurring-billing">recurring invoices</a> and track hours against the allocation.</p>
 
 <h2>What to Include on a Development Invoice</h2>
 <ul>
@@ -271,13 +271,13 @@ export const cluster15Posts: BlogPost[] = [
 <h2>International Tax for Web Developers</h2>
 <p>Web development is frequently cross-border, which creates tax complexity:</p>
 <ul>
-<li><strong>EU to non-EU client</strong> — <a href="/blog/germany-vat-reverse-charge-invoicing">reverse charge</a> mechanism applies; no VAT charged</li>
-<li><strong>UK</strong> — <a href="/blog/hmrc-invoice-requirements-uk-guide">20% VAT</a> on domestic sales; zero-rated for exports</li>
-<li><strong>India</strong> — <a href="/blog/e-invoicing-india-gst-guide">18% GST</a> on software services; export of services is zero-rated</li>
+<li><strong>EU to non-EU client</strong> — <a href="/en/blog/germany-vat-reverse-charge-invoicing">reverse charge</a> mechanism applies; no VAT charged</li>
+<li><strong>UK</strong> — <a href="/en/blog/hmrc-invoice-requirements-uk-guide">20% VAT</a> on domestic sales; zero-rated for exports</li>
+<li><strong>India</strong> — <a href="/en/blog/gst-irn-india-explained">18% GST</a> on software services; export of services is zero-rated</li>
 <li><strong>US</strong> — No federal sales tax on services, but some states are ambiguous on SaaS/digital services</li>
-<li><strong>Nigeria</strong> — <a href="/blog/e-invoicing-nigeria-firs-guide">7.5% VAT</a> with FIRS compliance</li>
+<li><strong>Nigeria</strong> — <a href="/en/blog/firs-mbs-nigeria-explained">7.5% VAT</a> with FIRS compliance</li>
 </ul>
-<p>Use Invoicemonk's <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> to bill international clients in their currency.</p>
+<p>Use Invoicemonk's <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> to bill international clients in their currency.</p>
 
 <h2>Common Mistakes Web Developers Make When Invoicing</h2>
 <ul>
@@ -294,7 +294,7 @@ export const cluster15Posts: BlogPost[] = [
 <p>Yes. Discovery is valuable work. Either charge a separate discovery phase fee or include it as the first milestone (20-30% of total project cost). Never do unpaid discovery — it devalues your expertise.</p>
 
 <h3>How do I handle clients who pay late on milestone invoices?</h3>
-<p>Include clear <a href="/blog/payment-terms-net-30-60-90-guide">payment terms</a> in your contract: "Work on the next phase begins upon receipt of payment for the current phase." Use Invoicemonk's payment reminders to automate follow-ups.</p>
+<p>Include clear <a href="/en/blog/payment-terms-net-30-60-90-guide">payment terms</a> in your contract: "Work on the next phase begins upon receipt of payment for the current phase." Use Invoicemonk's payment reminders to automate follow-ups.</p>
 
 <h3>Should I transfer source code before final payment?</h3>
 <p>No. Deploy to a staging environment for approval. Transfer source code and production access only after full payment. Include this in your invoice terms.</p>
@@ -303,7 +303,7 @@ export const cluster15Posts: BlogPost[] = [
 <p>Two options: (1) Client pays hosting provider directly — you invoice for management time. (2) You pay hosting and invoice the client monthly with a management markup (typically 15-25%).</p>
 
 <h3>What rate should I charge?</h3>
-<p>Use the <a href="/freelancer-rate-calculator">freelancer rate calculator</a> to determine your ideal hourly or project rate based on your expenses, desired income, and utilization rate.</p>
+<p>Use the <a href="/en/freelancer-rate-calculator">freelancer rate calculator</a> to determine your ideal hourly or project rate based on your expenses, desired income, and utilization rate.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-08',
@@ -329,7 +329,7 @@ export const cluster15Posts: BlogPost[] = [
 <h2>Consulting Billing Models</h2>
 
 <h3>Hourly Billing</h3>
-<p>The most common model for independent consultants. Track your time meticulously — <a href="/blog/time-tracking-accurate-invoicing">accurate time tracking</a> is non-negotiable. Your invoice should detail:</p>
+<p>The most common model for independent consultants. Track your time meticulously — <a href="/en/blog/time-tracking-accurate-invoicing">accurate time tracking</a> is non-negotiable. Your invoice should detail:</p>
 <ul>
 <li>Date of each work session</li>
 <li>Activity description (meeting, research, deliverable creation)</li>
@@ -338,14 +338,14 @@ export const cluster15Posts: BlogPost[] = [
 </ul>
 
 <h3>Retainer Billing</h3>
-<p>A fixed monthly fee for guaranteed availability and a set number of hours. Best for long-term advisory relationships. Set up <a href="/use-cases/recurring-billing">recurring invoices</a> with:</p>
+<p>A fixed monthly fee for guaranteed availability and a set number of hours. Best for long-term advisory relationships. Set up <a href="/en/use-cases/recurring-billing">recurring invoices</a> with:</p>
 <ul>
 <li>Monthly retainer fee (fixed)</li>
 <li>Hours included in retainer</li>
 <li>Overage rate for additional hours</li>
 <li>Rollover policy (do unused hours carry forward?)</li>
 </ul>
-<p>Invoicemonk's <a href="/use-cases/retainer-billing">retainer billing</a> feature automates this with configurable terms.</p>
+<p>Invoicemonk's <a href="/en/use-cases/retainer-billing">retainer billing</a> feature automates this with configurable terms.</p>
 
 <h3>Project-Based / Fixed Fee</h3>
 <p>For defined-scope engagements: strategy documents, audits, implementation plans. Invoice at milestones or 50/50 (upfront + completion). Your invoice references the Statement of Work (SOW) and lists deliverables.</p>
@@ -359,7 +359,7 @@ export const cluster15Posts: BlogPost[] = [
 <li><strong>Time period covered</strong> — "Services rendered: March 1-31, 2026"</li>
 <li><strong>Detailed activity log</strong> — for hourly billing (can be attached as a separate schedule)</li>
 <li><strong>Expense reimbursements</strong> — travel, accommodation, materials (attach receipts)</li>
-<li><strong>Payment terms</strong> — <a href="/blog/payment-terms-net-30-60-90-guide">Net 30 is standard</a> for consulting; Net 15 for smaller firms</li>
+<li><strong>Payment terms</strong> — <a href="/en/blog/payment-terms-net-30-60-90-guide">Net 30 is standard</a> for consulting; Net 15 for smaller firms</li>
 <li><strong>Late payment terms</strong> — "1.5% per month on overdue balances"</li>
 </ul>
 
@@ -374,19 +374,19 @@ export const cluster15Posts: BlogPost[] = [
 
 <h2>International Consulting Tax Considerations</h2>
 <ul>
-<li><strong>UK</strong> — <a href="/blog/hmrc-invoice-requirements-uk-guide">20% VAT</a> on domestic consulting. Zero-rated for exports to non-EU clients.</li>
-<li><strong>EU</strong> — <a href="/blog/germany-vat-reverse-charge-invoicing">Reverse charge</a> for B2B cross-border services. The client accounts for VAT.</li>
+<li><strong>UK</strong> — <a href="/en/blog/hmrc-invoice-requirements-uk-guide">20% VAT</a> on domestic consulting. Zero-rated for exports to non-EU clients.</li>
+<li><strong>EU</strong> — <a href="/en/blog/germany-vat-reverse-charge-invoicing">Reverse charge</a> for B2B cross-border services. The client accounts for VAT.</li>
 <li><strong>US</strong> — No federal sales tax on consulting services. Some states may tax certain advisory services.</li>
-<li><strong>India</strong> — <a href="/blog/e-invoicing-india-gst-guide">18% GST</a> on consulting services. Export of services is zero-rated with FIRC.</li>
-<li><strong>Kenya</strong> — <a href="/blog/e-invoicing-kenya-etims">16% VAT</a> with eTIMS compliance.</li>
+<li><strong>India</strong> — <a href="/en/blog/gst-irn-india-explained">18% GST</a> on consulting services. Export of services is zero-rated with FIRC.</li>
+<li><strong>Kenya</strong> — <a href="/en/blog/kra-etims-kenya-explained">16% VAT</a> with eTIMS compliance.</li>
 </ul>
-<p>For cross-border consulting, use Invoicemonk's <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> to bill in your client's currency and handle exchange rates automatically.</p>
+<p>For cross-border consulting, use Invoicemonk's <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> to bill in your client's currency and handle exchange rates automatically.</p>
 
 <h2>Common Consulting Invoice Mistakes</h2>
 <ul>
 <li><strong>Vague descriptions</strong> — "Consulting services" tells the client nothing. Be specific: "Market entry strategy workshop — 4 hours"</li>
 <li><strong>Not tracking small tasks</strong> — 15-minute calls, email reviews, and quick analyses add up. Track and invoice them.</li>
-<li><strong>Inconsistent invoicing</strong> — invoice on the same day each month. Use <a href="/use-cases/recurring-billing">recurring invoices</a> for retainers.</li>
+<li><strong>Inconsistent invoicing</strong> — invoice on the same day each month. Use <a href="/en/use-cases/recurring-billing">recurring invoices</a> for retainers.</li>
 <li><strong>Missing expense documentation</strong> — always attach receipts for pass-through expenses</li>
 <li><strong>Not invoicing for overages</strong> — if the client exceeds retainer hours, invoice the overage promptly</li>
 </ul>
@@ -400,13 +400,13 @@ export const cluster15Posts: BlogPost[] = [
 <p>Prevention is best: share time logs weekly. If disputed, provide detailed time entries with activity descriptions. Tools like Invoicemonk let you attach time reports to invoices.</p>
 
 <h3>What's a good late payment policy?</h3>
-<p>Include in your contract and on invoices: "Payment due within 30 days. Accounts overdue by 30+ days incur 1.5% monthly interest." Follow up with <a href="/blog/how-to-send-payment-reminders">professional payment reminders</a>.</p>
+<p>Include in your contract and on invoices: "Payment due within 30 days. Accounts overdue by 30+ days incur 1.5% monthly interest." Follow up with <a href="/en/blog/how-to-send-payment-reminders">professional payment reminders</a>.</p>
 
 <h3>Should I offer early payment discounts?</h3>
-<p>For cash flow-critical situations, offering <a href="/blog/early-payment-discounts-do-they-work">2/10 Net 30</a> (2% discount for payment within 10 days) can accelerate payments.</p>
+<p>For cash flow-critical situations, offering <a href="/en/blog/early-payment-discounts-do-they-work">2/10 Net 30</a> (2% discount for payment within 10 days) can accelerate payments.</p>
 
 <h3>How do I set my consulting rate?</h3>
-<p>Use the <a href="/freelancer-rate-calculator">freelancer rate calculator</a> as a starting point. Factor in your expertise level, market rates, client size, and the value you deliver.</p>
+<p>Use the <a href="/en/freelancer-rate-calculator">freelancer rate calculator</a> as a starting point. Factor in your expertise level, market rates, client size, and the value you deliver.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-08',
@@ -501,7 +501,7 @@ export const cluster15Posts: BlogPost[] = [
 <li>Invoicemonk generates the FatturaPA XML with all required codes</li>
 <li>The XML is transmitted to SDI via our accredited channel</li>
 <li>You receive delivery confirmations directly in your dashboard</li>
-<li>For <a href="/blog/tax-compliant-invoice-it">Italian tax compliance</a>, all mandatory fields are auto-populated</li>
+<li>For <a href="/en/blog/tax-compliant-invoice-it">Italian tax compliance</a>, all mandatory fields are auto-populated</li>
 </ol>
 
 <h2>Frequently Asked Questions</h2>
@@ -516,10 +516,10 @@ export const cluster15Posts: BlogPost[] = [
 <p>The FatturaPA XML is the legal invoice. You can include a PDF rendering as an attachment within the XML file for the client's convenience, but the XML is what matters legally.</p>
 
 <h3>How do I invoice international clients from Italy?</h3>
-<p>Since July 2022, cross-border invoices must also go through SDI using TipoDocumento TD01 with Codice Destinatario "XXXXXXX" (seven X's). See our <a href="/blog/italy-esterometro-cross-border">Esterometro cross-border guide</a>.</p>
+<p>Since July 2022, cross-border invoices must also go through SDI using TipoDocumento TD01 with Codice Destinatario "XXXXXXX" (seven X's). See our <a href="/en/blog/italy-esterometro-cross-border">Esterometro cross-border guide</a>.</p>
 
 <h3>Do forfettari (flat-rate taxpayers) need to use SDI?</h3>
-<p>Yes, since January 2024, all forfettari must use SDI regardless of revenue. Previously, those under €25,000 were exempt. See our <a href="/blog/italy-fattura-elettronica-freelancers">freelancer guide</a>.</p>
+<p>Yes, since January 2024, all forfettari must use SDI regardless of revenue. Previously, those under €25,000 were exempt. See our <a href="/en/blog/italy-fattura-elettronica-freelancers">freelancer guide</a>.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-08',
@@ -541,7 +541,7 @@ export const cluster15Posts: BlogPost[] = [
 
 <h2>What Was the Esterometro?</h2>
 <p>The <strong>Esterometro</strong> was Italy's cross-border transaction reporting system. Until June 2022, Italian businesses had to submit a separate quarterly report (the Esterometro) to the Agenzia delle Entrate listing all invoices issued to or received from non-Italian entities.</p>
-<p>This was essentially a "catch-all" for international transactions that didn't flow through the <a href="/blog/italy-sdi-integration-guide">SDI e-invoicing system</a>.</p>
+<p>This was essentially a "catch-all" for international transactions that didn't flow through the <a href="/en/blog/italy-sdi-integration-guide">SDI e-invoicing system</a>.</p>
 
 <h2>What Changed: SDI Replaces Esterometro</h2>
 <p>From <strong>July 1, 2022</strong>, the Esterometro was abolished. Instead, all cross-border invoices must be transmitted through the SDI system, just like domestic invoices. This was a major change:</p>
@@ -560,7 +560,7 @@ export const cluster15Posts: BlogPost[] = [
 <li><strong>VAT treatment</strong>: Natura N3.2 (non-taxable — intra-EU supply) or N2.1 (not subject — reverse charge)</li>
 <li><strong>VAT rate</strong>: 0% with the reverse charge mechanism noted</li>
 </ul>
-<p>The <a href="/blog/germany-vat-reverse-charge-invoicing">reverse charge mechanism</a> means the buyer accounts for VAT in their own country.</p>
+<p>The <a href="/en/blog/germany-vat-reverse-charge-invoicing">reverse charge mechanism</a> means the buyer accounts for VAT in their own country.</p>
 
 <h3>Sales to Non-EU Businesses and Consumers</h3>
 <ul>
@@ -624,7 +624,7 @@ export const cluster15Posts: BlogPost[] = [
 <p>Minor purchases (under €5,000 annually from non-EU sources) previously had simplified reporting, but since 2024, all transactions must go through SDI regardless of amount.</p>
 
 <h3>How does this affect freelancers working with international clients?</h3>
-<p>If you're a <a href="/blog/italy-fattura-elettronica-freelancers">freelancer in Italy</a>, you must transmit all international invoices through SDI. The good news: it simplifies your VAT obligations because everything is in one system.</p>
+<p>If you're a <a href="/en/blog/italy-fattura-elettronica-freelancers">freelancer in Italy</a>, you must transmit all international invoices through SDI. The good news: it simplifies your VAT obligations because everything is in one system.</p>
 `,
     author: defaultAuthor,
     date: '2026-04-08',
@@ -645,7 +645,7 @@ export const cluster15Posts: BlogPost[] = [
 <p>How Italian freelancers (liberi professionisti) handle electronic invoicing — regime forfettario, regime dei minimi, SDI obligations, and practical examples. This guide gives the answer first, then covers required invoice fields, workflow choices, compliance checks, common mistakes, and practical next steps so readers can act without comparing multiple sources.</p>
 
 <h2>E-Invoicing Is Now Mandatory for All Italian Freelancers</h2>
-<p>As of <strong>January 1, 2024</strong>, all Italian freelancers (liberi professionisti) must issue electronic invoices through the <a href="/blog/italy-sdi-integration-guide">SDI system</a> — regardless of tax regime or annual revenue. This includes those under the <strong>regime forfettario</strong> (flat-rate scheme) who were previously exempt.</p>
+<p>As of <strong>January 1, 2024</strong>, all Italian freelancers (liberi professionisti) must issue electronic invoices through the <a href="/en/blog/italy-sdi-integration-guide">SDI system</a> — regardless of tax regime or annual revenue. This includes those under the <strong>regime forfettario</strong> (flat-rate scheme) who were previously exempt.</p>
 <p>If you're a freelancer in Italy — whether a web developer, consultant, designer, translator, or any other profession — this guide covers everything you need to know.</p>
 
 <h2>Tax Regimes for Italian Freelancers</h2>
@@ -712,9 +712,9 @@ export const cluster15Posts: BlogPost[] = [
 <p>If you work with clients outside Italy (very common for developers, designers, and translators):</p>
 <ul>
 <li>You must still transmit through SDI using Codice Destinatario <strong>XXXXXXX</strong></li>
-<li>For EU B2B: use Natura N2.1 and note "<a href="/blog/germany-vat-reverse-charge-invoicing">reverse charge</a>" — the client accounts for VAT</li>
+<li>For EU B2B: use Natura N2.1 and note "<a href="/en/blog/germany-vat-reverse-charge-invoicing">reverse charge</a>" — the client accounts for VAT</li>
 <li>For non-EU: use Natura N2.1 (services not subject to Italian VAT)</li>
-<li>See our detailed <a href="/blog/italy-esterometro-cross-border">Esterometro/cross-border guide</a></li>
+<li>See our detailed <a href="/en/blog/italy-esterometro-cross-border">Esterometro/cross-border guide</a></li>
 </ul>
 
 <h2>Common Mistakes Freelancers Make</h2>
@@ -730,7 +730,7 @@ export const cluster15Posts: BlogPost[] = [
 <h2>Tools for Italian Freelancer E-Invoicing</h2>
 <p>Options for generating and transmitting FatturaPA:</p>
 <ul>
-<li><strong>Invoicemonk</strong> — automatic FatturaPA generation and SDI transmission. Handles forfettario and ordinario regimes. <a href="/invoicing">Try Invoicemonk's invoice generator</a>.</li>
+<li><strong>Invoicemonk</strong> — automatic FatturaPA generation and SDI transmission. Handles forfettario and ordinario regimes. <a href="/en/invoicing">Try Invoicemonk's invoice generator</a>.</li>
 <li><strong>Agenzia delle Entrate portal</strong> — free but manual. Good for very low-volume invoicing (1-2 per month).</li>
 <li><strong>Aruba / Fattura24 / Fatture in Cloud</strong> — Italian-specific tools with SDI integration.</li>
 </ul>

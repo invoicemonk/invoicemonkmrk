@@ -8,20 +8,22 @@ import { ArrowRight, Globe, Shield, FileText, CheckCircle, AlertTriangle } from 
 import { Link } from '@/components/LocalizedLink';
 
 const countryGuides = [
-  { country: 'Nigeria', system: 'FIRS E-Invoicing', link: '/blog/e-invoicing-nigeria-firs-guide', status: 'Mandatory (phased rollout 2025–2026)', format: 'JSON/XML via TaxPro-Max', deadline: '2025–2026' },
-  { country: 'India', system: 'GST E-Invoicing (IRP)', link: '/blog/e-invoicing-india-gst-guide', status: 'Mandatory (₹5 crore+ threshold)', format: 'JSON via IRP portal', deadline: 'Active since 2020' },
-  { country: 'Kenya', system: 'KRA eTIMS', link: '/blog/e-invoicing-kenya-etims', status: 'Mandatory for VAT-registered businesses', format: 'Via eTIMS system', deadline: 'Active since 2024' },
-  { country: 'Italy', system: 'SDI (Sistema di Interscambio)', link: '/blog/tax-compliant-invoice-it', status: 'Mandatory since 2019', format: 'FatturaPA XML', deadline: '2019' },
-  { country: 'Romania', system: 'RO e-Factura / SAF-T', link: '/blog/tax-compliant-invoice-ro', status: 'Mandatory since 2024', format: 'XML via e-Factura', deadline: '2024' },
-  { country: 'Hungary', system: 'NAV RTIR', link: '/blog/tax-compliant-invoice-hu', status: 'Real-time reporting mandatory', format: 'XML via NAV Online', deadline: 'Active since 2018' },
-  { country: 'Poland', system: 'KSeF', link: '/blog/tax-compliant-invoice-pl', status: 'Mandatory from 2026', format: 'XML via KSeF platform', deadline: '2026' },
-  { country: 'Saudi Arabia', system: 'ZATCA FATOORA', link: '/blog/e-invoicing-saudi-zatca-guide', status: 'Mandatory (Phase 2 integration)', format: 'XML UBL 2.1', deadline: 'Phase 2: 2024+' },
-  { country: 'Malaysia', system: 'MyInvois (LHDN)', link: '/blog/e-invoicing-malaysia-myinvois-guide', status: 'Mandatory (phased from 2024)', format: 'XML/JSON via MyInvois', deadline: '2024–2025' },
-  { country: 'Germany', system: 'XRechnung / ZUGFeRD', link: '/blog/tax-compliant-invoice-de', status: 'Mandatory for B2G; B2B from 2025', format: 'XRechnung XML / ZUGFeRD', deadline: 'B2B: 2025+' },
-  { country: 'United Kingdom', system: 'Making Tax Digital (MTD)', link: '/blog/tax-compliant-invoice-uk', status: 'Digital record-keeping mandatory', format: 'Via MTD-compatible software', deadline: 'Active since 2019' },
-  { country: 'Ghana', system: 'GRA E-VAT', link: '/blog/tax-compliant-invoice-gh', status: 'E-VAT system rollout', format: 'Via GRA portal', deadline: '2024–2025' },
-  { country: 'South Africa', system: 'SARS E-Invoicing', link: '/blog/tax-compliant-invoice-za', status: 'Under development', format: 'TBD', deadline: 'Expected 2025–2026' },
-  { country: 'Australia', system: 'Peppol E-Invoicing', link: '/blog/tax-compliant-invoice-au', status: 'Mandatory for government suppliers', format: 'Peppol BIS 3.0', deadline: 'Active for B2G' },
+  // Primary link: the /e-invoicing source page that describes Invoicemonk's implementation
+  // of the mandate. Secondary link (blog) is preserved in src/pages/guides for legacy posts.
+  { country: 'Nigeria', system: 'FIRS Merchant-Buyer Solution', link: '/e-invoicing/firs-mbs-nigeria', status: 'Mandatory (large taxpayers from Aug 2025)', format: 'Signed JSON via FIRS MBS', deadline: '2025–2026' },
+  { country: 'India', system: 'GST E-Invoicing (IRP)', link: '/e-invoicing/gst-irn-india', status: 'Mandatory (₹5 crore+ threshold)', format: 'JSON via NIC IRP', deadline: 'Active since 2020' },
+  { country: 'Kenya', system: 'KRA eTIMS', link: '/e-invoicing/kra-etims-kenya', status: 'Mandatory for VAT-registered businesses', format: 'Control unit number + QR via eTIMS', deadline: 'Active since 2024' },
+  { country: 'Italy', system: 'SDI / FatturaPA (via Peppol bridge)', link: '/e-invoicing/peppol-eu', status: 'Mandatory since 2019', format: 'FatturaPA XML', deadline: '2019' },
+  { country: 'Romania', system: 'RO e-Factura / SAF-T (Peppol)', link: '/e-invoicing/peppol-eu', status: 'Mandatory since 2024', format: 'XML via e-Factura', deadline: '2024' },
+  { country: 'Hungary', system: 'NAV RTIR (Peppol bridge)', link: '/e-invoicing/peppol-eu', status: 'Real-time reporting mandatory', format: 'XML via NAV Online', deadline: 'Active since 2018' },
+  { country: 'Poland', system: 'KSeF (Peppol bridge)', link: '/e-invoicing/peppol-eu', status: 'Mandatory from 2026', format: 'XML via KSeF platform', deadline: '2026' },
+  { country: 'Saudi Arabia', system: 'ZATCA Fatoorah Phase 2', link: '/e-invoicing/zatca-phase-2', status: 'Mandatory (Phase 2 integration)', format: 'CSID-signed UBL 2.1', deadline: 'Phase 2: 2024+' },
+  { country: 'Malaysia', system: 'MyInvois (LHDN)', link: '/e-invoicing/myinvois-malaysia', status: 'Mandatory (phased from 2024)', format: 'UBL 2.1 XML/JSON, MyInvois UUID', deadline: '2024–2025' },
+  { country: 'Germany', system: 'XRechnung / ZUGFeRD (Peppol BIS)', link: '/e-invoicing/peppol-eu', status: 'Mandatory for B2G; B2B from 2025', format: 'XRechnung XML / ZUGFeRD', deadline: 'B2B: 2025+' },
+  { country: 'United Kingdom', system: 'Making Tax Digital (MTD) for VAT', link: '/e-invoicing/mtd-uk', status: 'Digital record-keeping mandatory', format: 'MTD API digital records', deadline: 'Active since 2022' },
+  { country: 'Ghana', system: 'GRA E-VAT', link: '/e-invoicing/gra-e-vat-ghana', status: 'E-VAT system rollout', format: 'GRA IRN + signature', deadline: '2024–2025' },
+  { country: 'South Africa', system: 'SARS E-Invoicing', link: '/e-invoicing/sars-south-africa', status: 'Under development', format: 'Structured tax invoice + signature', deadline: 'Expected 2025–2026' },
+  { country: 'Australia', system: 'Peppol E-Invoicing', link: '/e-invoicing/peppol-eu', status: 'Mandatory for government suppliers', format: 'Peppol BIS Billing 3.0', deadline: 'Active for B2G' },
 ];
 
 const faqs = [

@@ -78,12 +78,16 @@ interface PageEntry {
   path: string; // relative path without language prefix, e.g. "/pricing"
   changefreq?: string;
   priority?: number;
+  /** Per-entry ISO date override; falls back to CURRENT_DATE when omitted. */
+  lastmod?: string;
 }
+
 
 // ── Static pages ──
 const staticPages: PageEntry[] = [
   { path: '/', priority: 1.0, changefreq: 'weekly' },
-  { path: '/invoicing', priority: 0.9, changefreq: 'weekly' },
+  { path: '/invoicing', priority: 0.8, changefreq: 'weekly' },
+  { path: '/e-invoicing', priority: 0.95, changefreq: 'weekly' },
   { path: '/expenses', priority: 0.9, changefreq: 'weekly' },
   { path: '/payments', priority: 0.9, changefreq: 'weekly' },
   { path: '/accounting', priority: 0.9, changefreq: 'weekly' },
@@ -184,11 +188,12 @@ function generateXML(pages: PageEntry[]): string {
   for (const page of pages) {
     urlEntries.push(`  <url>
     <loc>${SITE_URL}/en${page.path}</loc>
-    <lastmod>${CURRENT_DATE}</lastmod>
+    <lastmod>${page.lastmod || CURRENT_DATE}</lastmod>
     <changefreq>${page.changefreq || 'monthly'}</changefreq>
     <priority>${(page.priority ?? 0.5).toFixed(1)}</priority>
   </url>`);
   }
+
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -202,15 +207,104 @@ function main() {
 
   guideSlugs.forEach(s => allPages.push({ path: `/guides/${s}`, priority: 0.8, changefreq: 'weekly' }));
 
+  // ── Build a slug → lastmod map by scanning every blog data file for per-post
+  //    dates. Precedence: lastAudited > dateModified > date. Drives <lastmod>
+  //    so the freshness signal mirrors per-post review state.
+  const blogDates: Record<string, string> = {};
+  function scanDates(file: string) {
+    if (!fs.existsSync(file)) return;
+    const src = fs.readFileSync(file, 'utf-8');
+    // Split on `{ slug:` post boundaries so slug/date pairs stay aligned.
+    const postBlocks = src.split(/(?=\n\s*\{\s*\n\s*slug:\s*['"])/);
+    for (const block of postBlocks) {
+      const slugMatch = block.match(/slug:\s*['"]([^'"]+)['"]/);
+      if (!slugMatch) continue;
+      const slug = slugMatch[1];
+      const lastAudited = block.match(/lastAudited:\s*['"]([^'"]+)['"]/)?.[1];
+      const dateModified = block.match(/dateModified:\s*['"]([^'"]+)['"]/)?.[1];
+      const date = block.match(/\bdate:\s*['"]([^'"]+)['"]/)?.[1];
+      const best = lastAudited || dateModified || date;
+      if (best && !blogDates[slug]) blogDates[slug] = best;
+    }
+  }
+
+  // Mandate page lastmod from per-mandate lastReviewed (falls back to global).
+  const mandateLastReviewed: Record<string, string> = {};
+  try {
+    const mSrc = fs.readFileSync(path.join(__dirname, '../src/data/mandates.ts'), 'utf-8');
+    const fallback = mSrc.match(/MANDATES_LAST_REVIEWED\s*=\s*['"]([^'"]+)['"]/)?.[1];
+    const perSlug = mSrc.matchAll(/MANDATE_LAST_REVIEWED_BY_SLUG[^{]*\{([^}]+)\}/g);
+    for (const block of perSlug) {
+      const entryRe = /['"]([^'"]+)['"]\s*:\s*['"]([^'"]+)['"]/g;
+      let m: RegExpExecArray | null;
+      while ((m = entryRe.exec(block[1])) !== null) mandateLastReviewed[m[1]] = m[2];
+    }
+    // Stash the global fallback under a sentinel key.
+    if (fallback) mandateLastReviewed.__fallback__ = fallback;
+  } catch { /* noop */ }
+
+  // E-invoicing mandate pages — driven by src/data/mandates.ts
+  const mandateSlugs = extractSlugs(
+    path.join(__dirname, '../src/data/mandates.ts'),
+    /slug:\s*['"][^'"]+['"]/g,
+  );
+  console.log(`📜 ${mandateSlugs.length} e-invoicing mandate pages`);
+  mandateSlugs.forEach((s) =>
+    allPages.push({
+      path: `/e-invoicing/${s}`,
+      priority: 0.85,
+      changefreq: 'monthly',
+      lastmod: mandateLastReviewed[s] || mandateLastReviewed.__fallback__,
+    }),
+  );
+
   const blogSlugs = extractSlugs(path.join(__dirname, '../src/data/blogPosts.ts'), /slug:\s*['"][^'"]+['"]/g);
-  // Also scan cluster files for additional blog posts
+  scanDates(path.join(__dirname, '../src/data/blogPosts.ts'));
+  // Also scan numbered cluster files for additional blog posts
   for (let i = 9; i <= 20; i++) {
     const clusterPath = path.join(__dirname, `../src/data/blogPostsCluster${i}.ts`);
     const clusterSlugs = extractSlugs(clusterPath, /slug:\s*['"][^'"]+['"]/g);
     clusterSlugs.forEach(s => { if (!blogSlugs.includes(s)) blogSlugs.push(s); });
+    scanDates(clusterPath);
   }
-  console.log(`📝 ${blogSlugs.length} blog posts`);
-  blogSlugs.forEach(s => allPages.push({ path: `/blog/${s}`, priority: 0.7, changefreq: 'monthly' }));
+  // E-invoicing cluster files (blogPostsClusterEInvoicing{,2..6}.ts) — 36 posts
+  const eInvoicingClusterFiles = [
+    'blogPostsClusterEInvoicing.ts',
+    'blogPostsClusterEInvoicing2.ts',
+    'blogPostsClusterEInvoicing3.ts',
+    'blogPostsClusterEInvoicing4.ts',
+    'blogPostsClusterEInvoicing5.ts',
+    'blogPostsClusterEInvoicing6.ts',
+  ];
+  let eInvAdded = 0;
+  for (const file of eInvoicingClusterFiles) {
+    const clusterPath = path.join(__dirname, `../src/data/${file}`);
+    const clusterSlugs = extractSlugs(clusterPath, /slug:\s*['"][^'"]+['"]/g);
+    clusterSlugs.forEach(s => {
+      if (!blogSlugs.includes(s)) { blogSlugs.push(s); eInvAdded++; }
+    });
+    scanDates(clusterPath);
+  }
+  console.log(`🧾 ${eInvAdded} e-invoicing cluster blog posts`);
+
+  // Legacy e-invoicing slugs being 301-redirected to the new *-explained
+  // archetypes — excluded from the sitemap so the new pages own the URL space.
+  const LEGACY_REDIRECTED_BLOG_SLUGS = new Set([
+    'e-invoicing-india-gst-guide',
+    'e-invoicing-malaysia-myinvois-guide',
+    'e-invoicing-saudi-zatca-guide',
+    'e-invoicing-nigeria-firs-guide',
+    'e-invoicing-kenya-etims',
+  ]);
+  const filteredBlogSlugs = blogSlugs.filter(s => !LEGACY_REDIRECTED_BLOG_SLUGS.has(s));
+  const dropped = blogSlugs.length - filteredBlogSlugs.length;
+  console.log(`📝 ${filteredBlogSlugs.length} blog posts (${dropped} legacy redirected, excluded)`);
+  filteredBlogSlugs.forEach(s => allPages.push({
+    path: `/blog/${s}`,
+    priority: 0.7,
+    changefreq: 'monthly',
+    lastmod: blogDates[s],
+  }));
 
   const authorSlugs = extractSlugs(path.join(__dirname, '../src/data/authors.ts'), /slug:\s*['"][^'"]+['"]/g);
   console.log(`👤 ${authorSlugs.length} authors`);
@@ -225,8 +319,17 @@ function main() {
   helpSlugs.forEach(s => allPages.push({ path: `/help/${s}`, priority: 0.5, changefreq: 'monthly' }));
 
   const complianceSlugs = extractSlugs(path.join(__dirname, '../src/data/countryCompliancePosts.ts'), /slug:\s*['"][^'"]+['"]/g);
+  scanDates(path.join(__dirname, '../src/data/countryCompliancePosts.ts'));
   console.log(`🏛️ ${complianceSlugs.length} compliance posts`);
-  complianceSlugs.forEach(s => allPages.push({ path: `/blog/${s}`, priority: 0.7, changefreq: 'monthly' }));
+  complianceSlugs
+    .filter(s => !LEGACY_REDIRECTED_BLOG_SLUGS.has(s))
+    .forEach(s => allPages.push({
+      path: `/blog/${s}`,
+      priority: 0.7,
+      changefreq: 'monthly',
+      lastmod: blogDates[s],
+    }));
+
 
   // NOTE: Glossary fragment URLs (#slug) removed — they resolve to the same /glossary page
   // The single /glossary entry in staticPages is sufficient

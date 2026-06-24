@@ -1060,7 +1060,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
   // ============================================
   // CLUSTER 11: INDIA GST + GLOBAL FUNDAMENTALS
   // ============================================
-  'e-invoicing-india-gst-guide': {
+  'gst-irn-india-explained': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['GST e-invoicing India', 'e-invoicing India guide', 'India e-invoice mandate', 'GST compliance small business India'],
     problemsSolved: ['Need to understand India GST e-invoicing requirements', 'Unsure about e-invoicing thresholds in India', 'Want to comply with GST e-invoicing mandate'],
@@ -1082,7 +1082,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
     queryPatterns: ['HSN code on invoice', 'SAC code services India', 'HSN code mandatory', 'how to find HSN code'],
     problemsSolved: ['Need to add HSN/SAC codes to invoices', 'Unsure which HSN code to use', 'Mandatory HSN code thresholds'],
-    nextSteps: ['india-gst-return-filing-guide', 'e-invoicing-india-gst-guide']
+    nextSteps: ['india-gst-return-filing-guide', 'gst-irn-india-explained']
   },
   'india-gst-return-filing-guide': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
@@ -1130,7 +1130,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
   // ============================================
   // CLUSTER 10: Nigeria FIRS + Kenya eTIMS
   // ============================================
-  'e-invoicing-nigeria-firs-guide': {
+  'firs-mbs-nigeria-explained': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['nigeria e-invoicing', 'FIRS e-invoice', 'nigeria electronic invoicing guide', 'e-invoicing Nigeria 2026'],
     problemsSolved: ['Need to understand Nigeria e-invoicing requirements', 'FIRS compliance for invoicing', 'How e-invoicing works in Nigeria'],
@@ -1146,7 +1146,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['Nigeria e-invoicing small business', 'FIRS e-invoice SME', 'small business e-invoicing Nigeria'],
     problemsSolved: ['Small business compliance with FIRS e-invoicing', 'Affordable e-invoicing for Nigerian SMEs'],
-    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-e-invoicing-penalties']
+    nextSteps: ['firs-mbs-nigeria-explained', 'nigeria-e-invoicing-penalties']
   },
   'nigeria-invoice-irn-qr-code': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
@@ -1158,33 +1158,33 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'problem-solving', stage: 'decision', experienceLevel: 'intermediate',
     queryPatterns: ['Nigeria e-invoicing penalties', 'FIRS non-compliance fine', 'penalty for not using e-invoice Nigeria'],
     problemsSolved: ['What are penalties for non-compliance with FIRS e-invoicing', 'Avoiding FIRS fines'],
-    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-e-invoicing-timeline']
+    nextSteps: ['firs-mbs-nigeria-explained', 'nigeria-e-invoicing-timeline']
   },
   'nigeria-e-invoicing-timeline': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['Nigeria e-invoicing timeline', 'FIRS e-invoice rollout dates', 'when is e-invoicing mandatory Nigeria'],
     problemsSolved: ['When does e-invoicing become mandatory in Nigeria', 'FIRS implementation schedule'],
-    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-e-invoicing-small-business']
+    nextSteps: ['firs-mbs-nigeria-explained', 'nigeria-e-invoicing-small-business']
   },
   'nigeria-peppol-firs': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
     queryPatterns: ['Nigeria PEPPOL', 'FIRS PEPPOL integration', 'PEPPOL e-invoicing Nigeria'],
     problemsSolved: ['How PEPPOL works with FIRS', 'Cross-border e-invoicing from Nigeria'],
-    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-firs-merchant-buyer-solution']
+    nextSteps: ['firs-mbs-nigeria-explained', 'nigeria-firs-merchant-buyer-solution']
   },
   'nigeria-vat-invoice-requirements': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
     queryPatterns: ['Nigeria VAT invoice requirements', 'FIRS VAT invoice', 'VAT on invoice Nigeria'],
     problemsSolved: ['What VAT details are required on Nigerian invoices', 'Nigeria VAT compliance for invoices'],
-    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-invoice-irn-qr-code']
+    nextSteps: ['firs-mbs-nigeria-explained', 'nigeria-invoice-irn-qr-code']
   },
   'nigeria-tax-reform-acts-invoicing': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'intermediate',
     queryPatterns: ['Nigeria tax reform invoicing', 'Nigeria tax reform acts 2024', 'how tax reform affects invoicing Nigeria'],
     problemsSolved: ['Impact of Nigeria tax reforms on invoicing', 'New invoicing rules from tax reform'],
-    nextSteps: ['e-invoicing-nigeria-firs-guide', 'nigeria-vat-invoice-requirements']
+    nextSteps: ['firs-mbs-nigeria-explained', 'nigeria-vat-invoice-requirements']
   },
-  'e-invoicing-kenya-etims': {
+  'kra-etims-kenya-explained': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['Kenya eTIMS', 'KRA e-invoicing', 'Kenya electronic tax invoice', 'eTIMS guide'],
     problemsSolved: ['How Kenya eTIMS works', 'KRA e-invoicing compliance', 'Getting started with eTIMS'],
@@ -1194,19 +1194,19 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['eTIMS small business Kenya', 'KRA e-invoice small business', 'eTIMS for SMEs'],
     problemsSolved: ['Small business eTIMS compliance', 'Affordable eTIMS solutions for SMEs'],
-    nextSteps: ['e-invoicing-kenya-etims', 'kenya-how-to-generate-etims-invoice']
+    nextSteps: ['kra-etims-kenya-explained', 'kenya-how-to-generate-etims-invoice']
   },
   'kenya-how-to-generate-etims-invoice': {
     intent: 'informational', stage: 'decision', experienceLevel: 'beginner',
     queryPatterns: ['how to generate eTIMS invoice', 'create eTIMS invoice step by step', 'eTIMS invoice generation'],
     problemsSolved: ['Step-by-step eTIMS invoice creation', 'How to use eTIMS system'],
-    nextSteps: ['e-invoicing-kenya-etims', 'kenya-vat-invoice-requirements']
+    nextSteps: ['kra-etims-kenya-explained', 'kenya-vat-invoice-requirements']
   },
   'kenya-vat-invoice-requirements': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
     queryPatterns: ['Kenya VAT invoice requirements', 'KRA VAT invoice', 'VAT on invoices Kenya'],
     problemsSolved: ['VAT details required on Kenyan invoices', 'KRA VAT compliance'],
-    nextSteps: ['e-invoicing-kenya-etims', 'kenya-etims-small-business-guide']
+    nextSteps: ['kra-etims-kenya-explained', 'kenya-etims-small-business-guide']
   },
 
   // ============================================
@@ -1248,7 +1248,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     problemsSolved: ['MTD implementation dates', 'When to comply with Making Tax Digital'],
     nextSteps: ['e-invoicing-uk-hmrc-mtd-guide', 'uk-mtd-vat-software-requirements']
   },
-  'e-invoicing-saudi-zatca-fatoorah': {
+  'zatca-phase-2-explained': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['Saudi ZATCA e-invoicing', 'Fatoorah e-invoice', 'Saudi Arabia e-invoicing guide'],
     problemsSolved: ['Understanding Saudi ZATCA e-invoicing requirements', 'Fatoorah compliance'],
@@ -1258,27 +1258,27 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
     queryPatterns: ['ZATCA phase 2', 'ZATCA integration API', 'Saudi e-invoice phase 2 integration'],
     problemsSolved: ['ZATCA Phase 2 technical integration', 'API integration with ZATCA'],
-    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-e-invoice-xml-qr-requirements']
+    nextSteps: ['zatca-phase-2-explained', 'saudi-e-invoice-xml-qr-requirements']
   },
   'saudi-e-invoice-xml-qr-requirements': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
     queryPatterns: ['Saudi e-invoice XML', 'ZATCA QR code requirements', 'Saudi invoice XML format'],
     problemsSolved: ['XML format for Saudi e-invoices', 'QR code requirements for ZATCA compliance'],
-    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-vat-invoice-requirements']
+    nextSteps: ['zatca-phase-2-explained', 'saudi-vat-invoice-requirements']
   },
   'saudi-vat-invoice-requirements': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
     queryPatterns: ['Saudi VAT invoice requirements', 'ZATCA VAT invoice', 'Saudi Arabia VAT on invoice'],
     problemsSolved: ['VAT details required on Saudi invoices', 'ZATCA VAT compliance'],
-    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-zatca-penalties-non-compliance']
+    nextSteps: ['zatca-phase-2-explained', 'saudi-zatca-penalties-non-compliance']
   },
   'saudi-zatca-penalties-non-compliance': {
     intent: 'problem-solving', stage: 'decision', experienceLevel: 'intermediate',
     queryPatterns: ['ZATCA penalties', 'Saudi e-invoicing fines', 'non-compliance ZATCA'],
     problemsSolved: ['Penalties for not complying with ZATCA', 'Avoiding ZATCA fines'],
-    nextSteps: ['e-invoicing-saudi-zatca-fatoorah', 'saudi-zatca-phase-2-integration']
+    nextSteps: ['zatca-phase-2-explained', 'saudi-zatca-phase-2-integration']
   },
-  'e-invoicing-malaysia-myinvois-guide': {
+  'myinvois-malaysia-explained': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['Malaysia MyInvois', 'LHDN e-invoicing', 'Malaysia e-invoice guide'],
     problemsSolved: ['Understanding Malaysia MyInvois system', 'LHDN e-invoicing compliance'],
@@ -1288,25 +1288,25 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['MyInvois timeline', 'Malaysia e-invoice rollout dates', 'when is e-invoicing mandatory Malaysia'],
     problemsSolved: ['MyInvois implementation dates', 'When to comply with Malaysia e-invoicing'],
-    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-small-business-myinvois-compliance']
+    nextSteps: ['myinvois-malaysia-explained', 'malaysia-small-business-myinvois-compliance']
   },
   'malaysia-e-invoice-technical-requirements': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'advanced',
     queryPatterns: ['MyInvois technical requirements', 'Malaysia e-invoice API', 'LHDN e-invoice integration'],
     problemsSolved: ['Technical specs for MyInvois integration', 'API requirements for Malaysia e-invoicing'],
-    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-sst-invoice-requirements']
+    nextSteps: ['myinvois-malaysia-explained', 'malaysia-sst-invoice-requirements']
   },
   'malaysia-sst-invoice-requirements': {
     intent: 'informational', stage: 'consideration', experienceLevel: 'intermediate',
     queryPatterns: ['Malaysia SST invoice', 'SST on invoice Malaysia', 'Malaysia service tax invoice'],
     problemsSolved: ['SST details on Malaysian invoices', 'Malaysia service and sales tax invoicing'],
-    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-small-business-myinvois-compliance']
+    nextSteps: ['myinvois-malaysia-explained', 'malaysia-small-business-myinvois-compliance']
   },
   'malaysia-small-business-myinvois-compliance': {
     intent: 'informational', stage: 'awareness', experienceLevel: 'beginner',
     queryPatterns: ['MyInvois small business', 'Malaysia e-invoice SME', 'small business e-invoicing Malaysia'],
     problemsSolved: ['MyInvois compliance for small businesses', 'Affordable e-invoicing for Malaysian SMEs'],
-    nextSteps: ['e-invoicing-malaysia-myinvois-guide', 'malaysia-myinvois-timeline-2024-2026']
+    nextSteps: ['myinvois-malaysia-explained', 'malaysia-myinvois-timeline-2024-2026']
   },
 
   // ============================================

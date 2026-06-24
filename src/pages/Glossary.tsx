@@ -29,6 +29,7 @@ import {
   Shield, 
   User, 
   Briefcase,
+  Globe,
   ArrowRight,
   ChevronRight
 } from 'lucide-react';
@@ -40,6 +41,7 @@ const categoryIcons: Record<GlossaryTerm['category'], typeof FileText> = {
   tax: Shield,
   freelancing: User,
   business: Briefcase,
+  'e-invoicing': Globe,
 };
 
 const categoryColors: Record<GlossaryTerm['category'], string> = {
@@ -49,6 +51,7 @@ const categoryColors: Record<GlossaryTerm['category'], string> = {
   tax: 'bg-purple-500/10 text-purple-600',
   freelancing: 'bg-orange-500/10 text-orange-600',
   business: 'bg-rose-500/10 text-rose-600',
+  'e-invoicing': 'bg-cyan-500/10 text-cyan-600',
 };
 
 const Glossary = () => {
@@ -71,6 +74,7 @@ const Glossary = () => {
     tax: { icon: categoryIcons.tax, label: t('categories.tax'), color: categoryColors.tax },
     freelancing: { icon: categoryIcons.freelancing, label: t('categories.freelancing'), color: categoryColors.freelancing },
     business: { icon: categoryIcons.business, label: t('categories.business'), color: categoryColors.business },
+    'e-invoicing': { icon: categoryIcons['e-invoicing'], label: t('categories.eInvoicing', 'E-Invoicing'), color: categoryColors['e-invoicing'] },
   };
 
   // Filter terms based on search and category

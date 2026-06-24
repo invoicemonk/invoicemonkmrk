@@ -10,6 +10,7 @@ import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
+import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -190,6 +191,9 @@ export default function InvoicemonkVsStripe() {
       )}
 
       <InlineSignupCTA variant="banner" />
+
+      <MandateMatrixSection />
+
 
       <section className="py-16 lg:py-24 bg-primary"><div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center"><h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2><p className="text-white/90 mb-8 max-w-xl mx-auto">{t('cta.description')}</p><Button size="lg" className="bg-white hover:bg-white/90 text-black" asChild><a href="https://app.invoicemonk.com/signup?plan=professional" target="_blank" rel="noopener noreferrer">{t('cta.button')}<ArrowRight className="ml-2 w-4 h-4" /></a></Button></div></section>
     </Layout>

@@ -422,7 +422,7 @@ Yes, the DGFiP has confirmed a <strong>first offence tolerance</strong> for an i
 
 These penalties are designed to encourage timely and accurate adoption of the new digital tax compliance framework. Businesses are advised to prepare well in advance of their respective mandate dates to avoid financial repercussions.
 
-For further information on specific tax compliance requirements, you can also reference our articles on similar initiatives, such as <a href="/blog/invoicing-software-built-in-tax-compliance">Invoicing Software Built-in Tax Compliance</a> or <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">E-invoicing UK HMRC MTD Guide</a>, and even insights from emerging markets like <a href="/blog/firs-invoice-requirements-nigeria">FIRS Invoice Requirements Nigeria</a>. These resources can provide a broader context of global compliance trends.
+For further information on specific tax compliance requirements, you can also reference our articles on similar initiatives, such as <a href="/en/blog/invoicing-software-built-in-tax-compliance">Invoicing Software Built-in Tax Compliance</a> or <a href="/en/blog/e-invoicing-uk-hmrc-mtd-guide">E-invoicing UK HMRC MTD Guide</a>, and even insights from emerging markets like <a href="/en/blog/firs-invoice-requirements-nigeria">FIRS Invoice Requirements Nigeria</a>. These resources can provide a broader context of global compliance trends.
 
 <h2>What are the VAT and Tax Considerations in France?</h2>
 
@@ -529,11 +529,11 @@ Navigating the complexities of France's e-invoicing and e-reporting mandate, wit
 Invoicemonk is committed to providing an intuitive and compliant platform to manage your invoicing needs. Our focus on current and upcoming tax regulations means you can focus on your business with peace of mind.
 
 <ul>
-  <li><strong>Compliant E-Invoice Generation:</strong> Invoicemonk will support the generation of e-invoices in mandatory formats such as Factur-X, UBL 2.1, or CII, ensuring your invoices meet the technical specifications required by the DGFiP. Our platform will be designed to capture all necessary data fields, such as VAT rates (20%, 10%, 5.5%, 2.1%) and specific legal mentions. Learn more about our core capabilities on our <a href="/invoicing">invoicing</a> page.</li>
-  <li><strong>Seamless Platform Integration (PDP/PPF Ready):</strong> While we may not be a certified PDP ourselves, Invoicemonk is developing capabilities to seamlessly integrate with chosen PDPs or facilitate direct interaction with the PPF. This means your invoices generated within Invoicemonk can be automatically routed through the required channels for transmission and reporting, whether you opt for a private partner platform or the public portal. Explore how we ensure compliance on our <a href="/compliance">compliance</a> page.</li>
+  <li><strong>Compliant E-Invoice Generation:</strong> Invoicemonk will support the generation of e-invoices in mandatory formats such as Factur-X, UBL 2.1, or CII, ensuring your invoices meet the technical specifications required by the DGFiP. Our platform will be designed to capture all necessary data fields, such as VAT rates (20%, 10%, 5.5%, 2.1%) and specific legal mentions. Learn more about our core capabilities on our <a href="/en/invoicing">invoicing</a> page.</li>
+  <li><strong>Seamless Platform Integration (PDP/PPF Ready):</strong> While we may not be a certified PDP ourselves, Invoicemonk is developing capabilities to seamlessly integrate with chosen PDPs or facilitate direct interaction with the PPF. This means your invoices generated within Invoicemonk can be automatically routed through the required channels for transmission and reporting, whether you opt for a private partner platform or the public portal. Explore how we ensure compliance on our <a href="/en/compliance">compliance</a> page.</li>
   <li><strong>Automated E-Reporting Functionality:</strong> For B2C and international B2B transactions, Invoicemonk will assist with your e-reporting obligations. Our system will be designed to collect the necessary transaction data and facilitate its transmission to the DGFiP via the appropriate channels, aligning with the phased deadlines.</li>
-  <li><strong>Reduced Manual Effort and Error:</strong> By automating invoice generation, formatting, and submission through compliant channels, Invoicemonk helps reduce manual data entry, thereby minimizing the risk of errors and potential penalties (€15 per invoice/transaction, up to €15,000 annual cap). Our <a href="/invoicing">free invoice generator</a> can give you a taste of our user-friendly interface.</li>
-  <li><strong>Centralized Expense and Payment Management:</strong> Beyond just outward invoicing, Invoicemonk provides tools to manage incoming invoices and track all your financial transactions. This comprehensive approach simplifies your overall financial data management, which is crucial for accurate VAT reconciliation under the new mandate. Discover more about managing your <a href="/expenses">expenses</a> and processing <a href="/payments">payments</a>.</li>
+  <li><strong>Reduced Manual Effort and Error:</strong> By automating invoice generation, formatting, and submission through compliant channels, Invoicemonk helps reduce manual data entry, thereby minimizing the risk of errors and potential penalties (€15 per invoice/transaction, up to €15,000 annual cap). Our <a href="/en/invoicing">free invoice generator</a> can give you a taste of our user-friendly interface.</li>
+  <li><strong>Centralized Expense and Payment Management:</strong> Beyond just outward invoicing, Invoicemonk provides tools to manage incoming invoices and track all your financial transactions. This comprehensive approach simplifies your overall financial data management, which is crucial for accurate VAT reconciliation under the new mandate. Discover more about managing your <a href="/en/expenses">expenses</a> and processing <a href="/en/payments">payments</a>.</li>
   <li><strong>Up-to-Date Compliance:</strong> Invoicemonk continuously monitors regulatory changes, including adjustments to Finance Law 2024 and 2026. Our platform is regularly updated to ensure ongoing compliance with the latest requirements from the DGFiP, giving you peace of mind as the mandate rolls out.</li>
 </ul>
 
@@ -542,10 +542,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['fr', 'ppf-pdp', 'e-invoicing', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-20',
+    dateModified: '2026-06-24',
     readTime: '18 min read',
     featuredImage: '/images/blog/e-invoicing-fr-hero.jpg',
-    featuredImageAlt: `France E-Invoicing Guide: PPF, PDP & e-Reporting Mandate (2026)`,
+    featuredImageAlt: 'Editorial illustration of France\'s end-to-end e-invoicing compliance guide for the france e invoicing ppf pdp guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/compliance',
@@ -569,7 +569,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     slug: 'france-ppf-vs-pdp-e-invoicing-platforms',
     title: `PPF vs PDP: Which Platform Should French Businesses Use for E-Invoicing?`,
     excerpt: `French businesses: Discover PPF vs PDP e-invoicing requirements before the Oct 2026 deadline. Make the right choice for your company.`,
-    content: `<p>For French businesses navigating the upcoming e-invoicing mandate, the choice between the <a href="https://www.impots.gouv.fr">Portail Public de Facturation (PPF)</a> and a <a href="/blog/france-e-invoicing-ppf-pdp-guide">Plateforme de Dématérialisation Partenaire (PDP)</a> is critical. The PPF is the free public platform, while PDPs are certified private platforms offering additional services, both routing invoices through a central directory managed by the <a href="https://www.impots.gouv.fr">DGFiP</a>. The mandate phases in from September 1, 2026, requiring all businesses to receive e-invoices and large enterprises to emit them, with penalties for non-compliance reaching €15 per invoice, capped at €15,000 annually.</p>
+    content: `<p>For French businesses navigating the upcoming e-invoicing mandate, the choice between the <a href="https://www.impots.gouv.fr">Portail Public de Facturation (PPF)</a> and a <a href="/en/blog/france-e-invoicing-ppf-pdp-guide">Plateforme de Dématérialisation Partenaire (PDP)</a> is critical. The PPF is the free public platform, while PDPs are certified private platforms offering additional services, both routing invoices through a central directory managed by the <a href="https://www.impots.gouv.fr">DGFiP</a>. The mandate phases in from September 1, 2026, requiring all businesses to receive e-invoices and large enterprises to emit them, with penalties for non-compliance reaching €15 per invoice, capped at €15,000 annually.</p>
 
 <h2>What is France's E-Invoicing Mandate Timeline?</h2>
 <p>France's e-invoicing and e-reporting mandate introduces a phased approach, requiring all businesses to adapt to digital invoicing. The system, based on the "Y" invoice model, mandates that all B2B invoices are issued electronically and transmitted via either the Portrail Public de Facturation (PPF) or a certified Plateforme de Dématérialisation Partenaire (PDP). E-reporting also applies to B2C and international B2B transactions, transmitting transaction data to the DGFiP.</p>
@@ -686,7 +686,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     <li><strong>Businesses with international operations:</strong> PDPs often provide support for various e-invoicing standards, facilitating compliance across different jurisdictions.</li>
     <li><strong>Businesses prioritizing automation and efficiency:</strong> Those looking to reduce manual tasks, minimize errors, and improve cash flow management.</li>
 </ul>
-<p>You can find out more about e-invoicing in France by reading our article <a href="/blog/france-e-invoicing-ppf-pdp-guide">France E-Invoicing: Your Guide to PPF and PDP Platforms</a>.</p>
+<p>You can find out more about e-invoicing in France by reading our article <a href="/en/blog/france-e-invoicing-ppf-pdp-guide">France E-Invoicing: Your Guide to PPF and PDP Platforms</a>.</p>
 
 <h2>PPF vs. PDP: Key Differences and Comparison</h2>
 <p>The choice between PPF and PDP depends heavily on a business's size, operational complexity, budget, and strategic goals. While both ensure compliance, they offer different levels of service and integration.</p>
@@ -770,7 +770,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     <li><strong>PMEs (Petites et Moyennes Entreprises):</strong>
         <ul>
             <li><strong>PPF:</strong> Viable for those with modest invoice volumes and no complex integration requirements. They might use the PPF directly or through free/basic modules provided by their accounting software.</li>
-            <li><strong>PDP:</strong> Increasingly beneficial, especially for PMEs looking to streamline accounts payable and receivable, integrate with their accounting software (<a href="/expenses">e.g., Invoicemonk for expense management</a>), and improve overall financial efficiency. The investment in a PDP can pay off through reduced manual errors, faster processing, and better cash flow management.</li>
+            <li><strong>PDP:</strong> Increasingly beneficial, especially for PMEs looking to streamline accounts payable and receivable, integrate with their accounting software (<a href="/en/expenses">e.g., Invoicemonk for expense management</a>), and improve overall financial efficiency. The investment in a PDP can pay off through reduced manual errors, faster processing, and better cash flow management.</li>
         </ul>
     </li>
 </ul>
@@ -807,20 +807,20 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <h2>How Invoicemonk Helps</h2>
 <p>Navigating the complexities of French e-invoicing, whether through the PPF or a certified PDP, requires robust tools. Invoicemonk simplifies your billing and compliance needs.</p>
 <ul>
-    <li><strong>Automated Invoicing:</strong> Generate professional, compliant invoices quickly with our <a href="/invoicing">invoicing software</a> and <a href="/invoicing">free invoice generator</a>.</li>
-    <li><strong>Expense Management:</strong> Track and manage all your business expenses with ease, ensuring accurate records for e-reporting and tax purposes via our <a href="/expenses">expenses</a> module.</li>
+    <li><strong>Automated Invoicing:</strong> Generate professional, compliant invoices quickly with our <a href="/en/invoicing">invoicing software</a> and <a href="/en/invoicing">free invoice generator</a>.</li>
+    <li><strong>Expense Management:</strong> Track and manage all your business expenses with ease, ensuring accurate records for e-reporting and tax purposes via our <a href="/en/expenses">expenses</a> module.</li>
     <li><strong>Compliance Ready:</strong> While Invoicemonk itself is not a certified PDP, we ensure our invoicing outputs can be readily adapted for submission via your chosen PDP or the PPF, adhering to formats like Factur-X.</li>
-    <li><strong>Streamlined Payments:</strong> Facilitate faster payments from your clients with integrated <a href="/payments">payment processing options</a>.</li>
-    <li><strong>Compliance Resources:</strong> Stay informed with our <a href="/compliance">compliance resources</a> and blog, keeping you up-to-date on the latest e-invoicing mandates.</li>
+    <li><strong>Streamlined Payments:</strong> Facilitate faster payments from your clients with integrated <a href="/en/payments">payment processing options</a>.</li>
+    <li><strong>Compliance Resources:</strong> Stay informed with our <a href="/en/compliance">compliance resources</a> and blog, keeping you up-to-date on the latest e-invoicing mandates.</li>
 </ul>`,
     category: 'Tax and Compliance',
     tags: ['fr', 'ppf-pdp', 'e-invoicing', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/france-ppf-vs-pdp-e-invoicing-platforms.jpg',
-    featuredImageAlt: `PPF vs PDP: Which Platform Should French Businesses Use for E-Invoicing?`,
+    featuredImageAlt: 'Editorial illustration of France\'s e-invoicing compliance workflow for the france ppf vs pdp e invoicing platforms guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -852,7 +852,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     E-reporting in France refers to the electronic transmission of transaction data to the Direction Générale des Finances Publiques (DGFiP) for transactions that are not covered by the B2B e-invoicing mandate. Its primary purpose is to enable the French tax authority to pre-fill VAT returns, particularly for business-to-consumer (B2C) sales and international business-to-business (B2B) transactions. The legal framework for e-reporting, alongside e-invoicing, is established under the <cite>Finance Law 2024</cite>, as amended by <cite>Finance Law 2026</cite>.
 </p>
 <p>
-    The e-reporting obligation requires the submission of specific data fields, typically involving the transaction amount, VAT rate (<a href="/compliance">France has a standard VAT rate of 20%, with reduced rates of 10%, 5.5%, and 2.1%</a>), and tax amount, without the need to transmit the full invoice document. This data is transmitted through either the Portail Public de Facturation (PPF) or a certified Plateforme de Dématérialisation Partenaire (PDP), similar to the e-invoicing process.
+    The e-reporting obligation requires the submission of specific data fields, typically involving the transaction amount, VAT rate (<a href="/en/compliance">France has a standard VAT rate of 20%, with reduced rates of 10%, 5.5%, and 2.1%</a>), and tax amount, without the need to transmit the full invoice document. This data is transmitted through either the Portail Public de Facturation (PPF) or a certified Plateforme de Dématérialisation Partenaire (PDP), similar to the e-invoicing process.
 </p>
 
 <h2>When Does France's E-Reporting Mandate Begin?</h2>
@@ -884,7 +884,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     E-invoicing refers to the mandatory electronic transmission of invoices for domestic B2B transactions. Under the French mandate, these invoices must be issued, transmitted, and received digitally in structured formats such as Factur-X (CII/UBL hybrid), UBL 2.1, or CII.
 </p>
 <p>
-    The e-invoice must contain all the legal information of a traditional invoice. For more detailed information on France's e-invoicing system, refer to <a href="/blog/france-e-invoicing-ppf-pdp-guide">France E-Invoicing: PPF & PDP Guide</a>.
+    The e-invoice must contain all the legal information of a traditional invoice. For more detailed information on France's e-invoicing system, refer to <a href="/en/blog/france-e-invoicing-ppf-pdp-guide">France E-Invoicing: PPF & PDP Guide</a>.
 </p>
 
 <h3>What is E-Reporting?</h3>
@@ -1023,7 +1023,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 </p>
 <ol>
     <li>
-        <strong>Business Choice:</strong> A business chooses to use either the free PPF or a private PDP for transmitting its electronic data. For more details on this choice, see <a href="/blog/france-ppf-vs-pdp-e-invoicing-platforms">France PPF vs. PDP E-Invoicing Platforms</a>.
+        <strong>Business Choice:</strong> A business chooses to use either the free PPF or a private PDP for transmitting its electronic data. For more details on this choice, see <a href="/en/blog/france-ppf-vs-pdp-e-invoicing-platforms">France PPF vs. PDP E-Invoicing Platforms</a>.
     </li>
     <li>
         <strong>Data Transmission:</strong>
@@ -1104,29 +1104,29 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
         <strong>Automated E-Reporting:</strong> Invoicemonk extracts the necessary data for your B2C and international B2B transactions and transmits it securely through certified channels (PPF/PDP compatible).
     </li>
     <li>
-        <strong>Seamless E-Invoicing:</strong> Generate and send compliant <a href="/invoicing">e-invoices</a> in Factur-X, UBL, or CII formats for your domestic B2B sales.
+        <strong>Seamless E-Invoicing:</strong> Generate and send compliant <a href="/en/invoicing">e-invoices</a> in Factur-X, UBL, or CII formats for your domestic B2B sales.
     </li>
     <li>
-        <strong>Payment Integration:</strong> Our platform tracks <a href="/payments">payment statuses</a> automatically, ensuring accurate and timely payment reporting for services.
+        <strong>Payment Integration:</strong> Our platform tracks <a href="/en/payments">payment statuses</a> automatically, ensuring accurate and timely payment reporting for services.
     </li>
     <li>
-        <strong>Expense Management:</strong> Integrate your <a href="/expenses">expense management</a> to maintain a holistic view of your financial transactions, complementing your reporting needs.
+        <strong>Expense Management:</strong> Integrate your <a href="/en/expenses">expense management</a> to maintain a holistic view of your financial transactions, complementing your reporting needs.
     </li>
     <li>
-        <strong>Free Invoice Generator:</strong> Explore our <a href="/invoicing">free invoice generator</a> to understand how structured data is captured from the start.
+        <strong>Free Invoice Generator:</strong> Explore our <a href="/en/invoicing">free invoice generator</a> to understand how structured data is captured from the start.
     </li>
 </ul>
 <p>
-    Partner with Invoicemonk to navigate the complexities of French tax compliance efficiently and accurately. <a href="/compliance">Learn more about our compliance solutions</a>.
+    Partner with Invoicemonk to navigate the complexities of French tax compliance efficiently and accurately. <a href="/en/compliance">Learn more about our compliance solutions</a>.
 </p>`,
     category: 'Tax and Compliance',
     tags: ['fr', 'ppf-pdp', 'e-invoicing', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/france-e-reporting-vs-e-invoicing.jpg',
-    featuredImageAlt: `France E-Reporting: What It Is and How It Differs from E-Invoicing`,
+    featuredImageAlt: 'Editorial illustration of France\'s e-invoicing compliance workflow for the france e reporting vs e invoicing guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -1213,10 +1213,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['france', 'factur-x', 'e-invoicing', 'compliance', 'xml'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '10 min read',
     featuredImage: '/images/blog/e-invoicing-fr-facturx.jpg',
-    featuredImageAlt: 'Factur-X e-invoice format guide for France',
+    featuredImageAlt: 'France XML schema and technical format requirements',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1282,10 +1282,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['france', 'penalties', 'e-invoicing', 'dgfip', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/e-invoicing-fr-penalties.jpg',
-    featuredImageAlt: 'France e-invoicing penalties and compliance guide',
+    featuredImageAlt: 'France penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -1350,10 +1350,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['france', 'small-business', 'tpe', 'pme', 'e-invoicing', 'registration'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/e-invoicing-fr-small-biz.jpg',
-    featuredImageAlt: 'France e-invoicing registration guide for small businesses',
+    featuredImageAlt: 'France registration and onboarding workflow',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1422,10 +1422,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['france', 'foreign-companies', 'e-invoicing', 'vat', 'cross-border'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/e-invoicing-fr-foreign.jpg',
-    featuredImageAlt: 'France e-invoicing guide for foreign companies',
+    featuredImageAlt: 'France rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1522,10 +1522,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['belgium', 'peppol', 'e-invoicing', 'compliance', 'spf-finances'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '14 min read',
     featuredImage: '/images/blog/e-invoicing-be-hero.jpg',
-    featuredImageAlt: 'Belgium E-Invoicing PEPPOL Mandate Guide 2026',
+    featuredImageAlt: 'Belgium Peppol four-corner network exchange',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/compliance',
@@ -1599,10 +1599,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['belgium', 'peppol', 'technical', 'bis-billing', 'ubl', 'access-point'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '10 min read',
     featuredImage: '/images/blog/e-invoicing-be-technical.jpg',
-    featuredImageAlt: 'Belgium PEPPOL technical requirements guide',
+    featuredImageAlt: 'Belgium XML schema and technical format requirements',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1665,10 +1665,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['belgium', 'b2g', 'mercurius', 'peppol', 'government'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/e-invoicing-be-b2g.jpg',
-    featuredImageAlt: 'Belgium B2G e-invoicing Mercurius platform guide',
+    featuredImageAlt: 'Editorial illustration of Belgium\'s FACe B2G invoicing portal workflow for the belgium e invoicing b2g mercurius guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1731,10 +1731,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['belgium', 'penalties', 'vat', 'peppol', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
     featuredImage: '/images/blog/e-invoicing-be-penalties.jpg',
-    featuredImageAlt: 'Belgium e-invoicing penalties and VAT compliance',
+    featuredImageAlt: 'Belgium penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
@@ -1800,10 +1800,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['belgium', 'peppol', 'access-point', 'integration', 'costs'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
     featuredImage: '/images/blog/e-invoicing-be-access-point.jpg',
-    featuredImageAlt: 'Belgium PEPPOL Access Point selection guide',
+    featuredImageAlt: 'Editorial illustration of Belgium\'s Peppol four-corner network exchange for the belgium peppol access point guide guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1868,10 +1868,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['belgium', 'tax-deduction', 'e-invoicing', 'incentive', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '7 min read',
     featuredImage: '/images/blog/e-invoicing-be-tax-deduction.jpg',
-    featuredImageAlt: 'Belgium 120% tax deduction for e-invoicing costs',
+    featuredImageAlt: 'Editorial illustration of Belgium\'s e-invoicing compliance workflow for the belgium e invoicing tax deduction guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -1929,10 +1929,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['belgium', 'small-business', 'self-employed', 'peppol', 'e-invoicing'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '7 min read',
     featuredImage: '/images/blog/e-invoicing-be-small-biz.jpg',
-    featuredImageAlt: 'Belgium PEPPOL e-invoicing guide for small businesses',
+    featuredImageAlt: 'Editorial illustration of Belgium\'s e-invoicing compliance workflow for the belgium e invoicing small business guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2029,10 +2029,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['italy', 'sdi', 'fatturapa', 'e-invoicing', 'vat-compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '12 min read',
-    featuredImage: '/images/blog/e-invoicing-italy-sdi.jpg',
-    featuredImageAlt: 'Italy SDI e-invoicing system guide',
+    featuredImage: '/blog/italy-e-invoicing-sdi-guide.jpg',
+    featuredImageAlt: 'Editorial illustration of Italy\'s SdI clearance hub routing FatturaPA invoices for the italy e invoicing sdi guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/invoicing',
@@ -2114,10 +2114,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['italy', 'fatturapa', 'xml', 'sdi', 'technical-guide'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-fatturapa-xml.jpg',
-    featuredImageAlt: 'FatturaPA XML format technical guide',
+    featuredImage: '/blog/italy-fatturapa-xml-format-guide.jpg',
+    featuredImageAlt: 'Editorial illustration of Italy\'s XML schema and technical format requirements for the italy fatturapa xml format guide guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2179,10 +2179,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['italy', 'sdi', 'cross-border', 'esterometro', 'vat'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-italy-cross-border.jpg',
-    featuredImageAlt: 'Italy SDI cross-border e-invoicing guide',
+    featuredImage: '/blog/italy-sdi-cross-border-e-invoicing.jpg',
+    featuredImageAlt: 'Editorial illustration of Italy\'s cross-border invoice routing for the italy sdi cross border e invoicing guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2263,10 +2263,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['italy', 'penalties', 'sdi', 'ravvedimento-operoso', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-italy-penalties.jpg',
-    featuredImageAlt: 'Italy e-invoicing penalties and fines guide',
+    featuredImage: '/blog/italy-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Italy penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2343,10 +2343,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['italy', 'regime-forfettario', 'sdi', 'flat-rate', 'small-business'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-italy-forfettario.jpg',
-    featuredImageAlt: 'Italy regime forfettario e-invoicing compliance guide',
+    featuredImage: '/blog/italy-e-invoicing-regime-forfettario.jpg',
+    featuredImageAlt: 'Editorial illustration of Italy\'s regime forfettario flat-tax scheme rules for the italy e invoicing regime forfettario guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2423,10 +2423,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['italy', 'sdi', 'foreign-companies', 'fiscal-representative', 'cross-border'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-italy-foreign.jpg',
-    featuredImageAlt: 'Italy e-invoicing guide for foreign companies',
+    featuredImage: '/blog/italy-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Italy rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2518,10 +2518,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'nf-e', 'nfs-e', 'sped', 'e-invoicing', 'tax-reform'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '13 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-nfe.jpg',
-    featuredImageAlt: 'Brazil NF-e e-invoicing system guide',
+    featuredImage: '/blog/brazil-e-invoicing-nfe-nfse-guide.jpg',
+    featuredImageAlt: 'Editorial illustration of Brazil\'s municipal services invoicing (NFS-e) for the brazil e invoicing nfe nfse guide guide',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/invoicing',
@@ -2603,10 +2603,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'nf-e', 'xml', 'layout-4.00', 'technical-guide'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '10 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-xml.jpg',
-    featuredImageAlt: 'Brazil NF-e XML layout 4.00 technical guide',
+    featuredImage: '/blog/brazil-nfe-xml-technical-requirements.jpg',
+    featuredImageAlt: 'Brazil XML schema and technical format requirements',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2678,10 +2678,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'nfs-e', 'nfs-e-nacional', 'services-invoice', 'ISS'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-nfse.jpg',
-    featuredImageAlt: 'Brazil NFS-e Nacional services invoicing guide',
+    featuredImage: '/blog/brazil-nfse-nacional-services-invoicing.jpg',
+    featuredImageAlt: 'Editorial illustration of Brazil\'s municipal services invoicing (NFS-e) for the brazil nfse nacional services invoicing guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2751,10 +2751,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'nfc-e', 'consumer-invoice', 'retail', 'point-of-sale'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-nfce.jpg',
-    featuredImageAlt: 'Brazil NFC-e consumer electronic invoice guide',
+    featuredImage: '/blog/brazil-nfce-consumer-electronic-invoice.jpg',
+    featuredImageAlt: 'Editorial illustration of Brazil\'s consumer electronic receipts (NFC-e) for the brazil nfce consumer electronic invoice guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2833,10 +2833,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'digital-certificate', 'e-CNPJ', 'ICP-Brasil', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-certificate.jpg',
-    featuredImageAlt: 'Brazil e-CNPJ digital certificate guide',
+    featuredImage: '/blog/brazil-e-invoicing-digital-certificate.jpg',
+    featuredImageAlt: 'Brazil digital certificate setup and management',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2915,10 +2915,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'tax-reform', 'IBS', 'CBS', 'ICMS', 'transition'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-tax-reform.jpg',
-    featuredImageAlt: 'Brazil 2026 tax reform e-invoicing impact guide',
+    featuredImage: '/blog/brazil-tax-reform-e-invoicing-impact.jpg',
+    featuredImageAlt: 'Editorial illustration of Brazil\'s upcoming tax reform impact for the brazil tax reform e invoicing impact guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -2997,10 +2997,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'penalties', 'SEFAZ', 'NF-e', 'compliance', 'fines'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-penalties.jpg',
-    featuredImageAlt: 'Brazil e-invoicing penalties and fines guide',
+    featuredImage: '/blog/brazil-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Brazil penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -3074,10 +3074,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['brazil', 'foreign-companies', 'CNPJ', 'import', 'NF-e-registration'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-brazil-foreign.jpg',
-    featuredImageAlt: 'Brazil NF-e guide for foreign companies',
+    featuredImage: '/blog/brazil-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Brazil rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -3171,10 +3171,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['spain', 'verifactu', 'SII', 'FACe', 'ticketbai', 'e-invoicing'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '12 min read',
-    featuredImage: '/images/blog/e-invoicing-spain-verifactu.jpg',
-    featuredImageAlt: 'Spain e-invoicing Verifactu SII FACe compliance guide',
+    featuredImage: '/blog/spain-e-invoicing-verifactu-sii-guide.jpg',
+    featuredImageAlt: 'Spain Verifactu certified billing software requirements',
     pillarContent: true,
     clusterType: 'pillar',
     targetProduct: '/invoicing',
@@ -3256,10 +3256,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['spain', 'verifactu', 'software-certification', 'anti-fraud', 'hash-chain'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-spain-verifactu-software.jpg',
-    featuredImageAlt: 'Spain Verifactu software requirements guide',
+    featuredImage: '/blog/spain-verifactu-invoicing-software-requirements.jpg',
+    featuredImageAlt: 'Spain Verifactu certified billing software requirements (2)',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -3336,10 +3336,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['spain', 'SII', 'real-time-reporting', 'VAT', 'AEAT', 'large-companies'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-spain-sii.jpg',
-    featuredImageAlt: 'Spain SII real-time VAT reporting system guide',
+    featuredImage: '/blog/spain-ticketbai-basque-country-invoicing.jpg',
+    featuredImageAlt: 'Editorial illustration of Spain\'s SII real-time VAT ledger reporting for the spain sii real time vat reporting guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -3424,10 +3424,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['spain', 'ticketbai', 'basque-country', 'anti-fraud', 'e-invoicing'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-spain-ticketbai.jpg',
-    featuredImageAlt: 'TicketBAI Basque Country e-invoicing compliance guide',
+    featuredImage: '/blog/spain-face-b2g-electronic-invoicing.jpg',
+    featuredImageAlt: 'Spain TicketBAI Basque Country fiscalisation',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -3508,10 +3508,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['spain', 'FACe', 'B2G', 'facturae', 'government-invoicing'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-spain-face.jpg',
-    featuredImageAlt: 'Spain FACe B2G government e-invoicing guide',
+    featuredImage: '/blog/spain-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Editorial illustration of Spain\'s FACe B2G invoicing portal workflow for the spain face b2g electronic invoicing guide',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -3583,10 +3583,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['spain', 'penalties', 'verifactu', 'SII', 'fines', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '8 min read',
-    featuredImage: '/images/blog/e-invoicing-spain-penalties.jpg',
-    featuredImageAlt: 'Spain e-invoicing penalties and fines guide',
+    featuredImage: '/blog/spain-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Spain penalty structure and compliance shield',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',
@@ -3663,10 +3663,10 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     tags: ['spain', 'foreign-companies', 'NIF-VAT', 'fiscal-representative', 'cross-border'],
     author: defaultAuthor,
     date: '2026-04-16',
-    dateModified: '2026-04-16',
+    dateModified: '2026-06-24',
     readTime: '9 min read',
-    featuredImage: '/images/blog/e-invoicing-spain-foreign.jpg',
-    featuredImageAlt: 'Spain e-invoicing guide for foreign companies',
+    featuredImage: '/blog/spain-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Spain rules for foreign companies and non-resident sellers',
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/invoicing',

@@ -4,8 +4,11 @@
  * Source Context: Help small businesses, freelancers, and entrepreneurs manage 
  * invoicing, payments, and accounting with compliance-first software that works globally.
  * 
- * Central Entity: Invoicing Software
- * Central Search Intent: Users want to get paid faster, stay compliant, and save time on bookkeeping.
+ * Central Entity: Global E-Invoicing Platform (mandate-compliant in 16 jurisdictions).
+ * Child Pillars: Invoicing, Payments, Business Finances, Tax & Compliance.
+ * Central Search Intent: Users want a single platform that issues mandate-compliant
+ * structured invoices (CSID, IRN, UUID, QR, digital signatures) wherever they operate,
+ * gets them paid faster, and keeps bookkeeping aligned with the local tax authority.
  */
 
 export type ClusterType = 'pillar' | 'cluster' | 'supporting' | 'outer';
@@ -35,6 +38,18 @@ export interface Pillar {
   color: string;
   keyTopics: KeyTopic[];
   faq: FAQItem[];
+  /**
+   * Supportive content (Koray): cluster article slugs that prove this pillar's
+   * topical authority. For the e-invoicing pillar these are grouped by mandate
+   * via convention (slug prefix), but a flat list is sufficient for the data layer.
+   */
+  clusterPosts?: string[];
+  /**
+   * Supportive content (Koray): outer-entity / supporting article slugs that span
+   * multiple cluster articles or pillars (e.g. CSID, IRN, Peppol Access Point
+   * explainers for the e-invoicing pillar).
+   */
+  supportingPosts?: string[];
 }
 
 export interface TopicalCluster {
@@ -44,6 +59,130 @@ export interface TopicalCluster {
 
 // Pillar definitions aligned with product offerings
 export const pillars: Pillar[] = [
+  {
+    id: 'e-invoicing-platform',
+    title: 'Global E-Invoicing Platform',
+    slug: 'e-invoicing',
+    description:
+      'Mandate-compliant e-invoicing in 16 jurisdictions, with the local artefact (CSID, IRN, UUID, QR, digital signature) issued automatically.',
+    longDescription:
+      'Invoicemonk is the global e-invoicing platform for small business. We issue cryptographically signed structured invoices that satisfy ZATCA (Saudi Arabia), MyInvois (Malaysia), GST IRN (India), Peppol (EU), FIRS MBS (Nigeria), MTD (UK), KRA eTIMS (Kenya), GRA e-VAT (Ghana), BIR CAS (Philippines), SARS (South Africa), ZIMRA (Zimbabwe), SRC (Seychelles), SEF (Brazil), US B2G, and CRA + Peppol (Canada). Every mandate page names the authority, mandate phase, required artefact, transport, who it applies to, and the live-since date.',
+    targetProduct: '/e-invoicing',
+    hubPage: '/e-invoicing',
+    blogHubPage: '/guides/e-invoicing',
+    icon: 'Globe',
+    color: 'hsl(var(--primary))',
+    keyTopics: [
+      { title: 'E-Invoicing Guide', description: 'The full informational hub: what e-invoicing is, which mandates exist, and how compliance works in each jurisdiction.', link: '/guides/e-invoicing' },
+      { title: 'ZATCA Phase 2 (Saudi Arabia)', description: 'CSID-signed XML/UBL 2.1 to ZATCA Fatoora, explained end-to-end.', link: '/blog/zatca-phase-2-explained' },
+      { title: 'GST IRN (India)', description: 'IRN + signed QR via NIC IRP — what each field means and how it is generated.', link: '/blog/gst-irn-india-explained' },
+      { title: 'MyInvois (Malaysia)', description: 'UUID-stamped JSON via LHDN MyInvois API, with timing and rollout phases.', link: '/blog/myinvois-malaysia-explained' },
+      { title: 'Peppol (EU)', description: 'Digitally signed BIS Billing 3.0 via Peppol Access Point — network, identifiers, and routing.', link: '/blog/peppol-eu-explained' },
+      { title: 'FIRS MBS (Nigeria)', description: 'Signed e-invoice to FIRS Merchant Buyer System: payload, signing, and submission.', link: '/blog/firs-mbs-nigeria-explained' },
+      { title: 'MTD (UK)', description: 'MTD for VAT digital submissions to HMRC — what is required and what is not.', link: '/blog/mtd-uk-explained' },
+      { title: 'KRA eTIMS (Kenya)', description: 'Control unit invoice number + QR via eTIMS, from device registration to invoice issuance.', link: '/blog/kra-etims-kenya-explained' },
+    ],
+    faq: [
+      {
+        question: 'What is an e-invoicing platform?',
+        answer: 'An e-invoicing platform issues structured, machine-readable invoices (XML, UBL, JSON) in the format the local tax authority requires, signs them with the mandated artefact (CSID, IRN, UUID, QR, digital signature), and transports them to the authority through the prescribed channel (direct API, Peppol Access Point, SDI, NIC IRP, MyInvois portal API). Invoicemonk does this in 16 jurisdictions.',
+      },
+      {
+        question: 'Which jurisdictions does Invoicemonk cover?',
+        answer: 'Saudi Arabia (ZATCA Phase 1 & Phase 2), Malaysia (MyInvois), India (GST IRN), the EU (Peppol BIS Billing 3.0), Nigeria (FIRS MBS), the UK (MTD for VAT), Kenya (KRA eTIMS), Ghana (GRA e-VAT), the Philippines (BIR CAS), South Africa (SARS), Zimbabwe (ZIMRA), Seychelles (SRC), Brazil (SEF), the US (federal B2G), and Canada (CRA + Peppol).',
+      },
+      {
+        question: 'What artefact does Invoicemonk issue?',
+        answer: 'The local one. CSID for ZATCA, IRN + signed QR for GST India, UUID for MyInvois, control unit invoice number + QR for eTIMS, and digital signatures for Peppol, EU, and UK transports. Every artefact appears on both the PDF and the structured XML/JSON.',
+      },
+      {
+        question: 'Do I need a separate plan for e-invoicing?',
+        answer: 'E-invoicing is on the Professional plan. The same plan covers every supported mandate — no per-jurisdiction add-on.',
+      },
+    ],
+    // Cluster articles: 3 archetypes per mandate × 16 mandates = 48 slugs.
+    // Existing legacy posts (5) are reused; the rest are roadmap slugs to be written
+    // per .lovable/e-invoicing-cluster-roadmap.md (Passes G+).
+    clusterPosts: [
+      // ZATCA Phase 2 (Saudi Arabia)
+      'how-to-comply-with-zatca-phase-2',
+      'zatca-phase-2-explained',
+      'zatca-phase-2-common-errors',
+      // ZATCA Phase 1 (Saudi Arabia)
+      'how-to-comply-with-zatca-phase-1',
+      'zatca-phase-1-explained',
+      'zatca-phase-1-vs-phase-2',
+      // MyInvois (Malaysia)
+      'how-to-comply-with-myinvois-malaysia',
+      'myinvois-malaysia-explained',
+      'myinvois-malaysia-common-errors',
+      // GST IRN (India)
+      'how-to-comply-with-gst-irn-india',
+      'gst-irn-india-explained',
+      // Peppol EU
+      'how-to-comply-with-peppol-eu',
+      'peppol-eu-explained',
+      'peppol-vs-national-portals',
+      // FIRS MBS (Nigeria)
+      'how-to-comply-with-firs-mbs-nigeria',
+      'firs-mbs-nigeria-explained',
+      // MTD (UK)
+      'how-to-comply-with-mtd-uk',
+      'mtd-uk-explained',
+      'mtd-uk-common-errors',
+      // KRA eTIMS (Kenya)
+      'how-to-comply-with-kra-etims-kenya',
+      'kra-etims-kenya-explained',
+      // GRA E-VAT (Ghana)
+      'how-to-comply-with-gra-e-vat-ghana',
+      'gra-e-vat-ghana-explained',
+      'gra-e-vat-ghana-common-errors',
+      // BIR CAS (Philippines)
+      'how-to-comply-with-bir-cas-philippines',
+      'bir-cas-philippines-explained',
+      'bir-cas-philippines-common-errors',
+      // SARS (South Africa)
+      'how-to-comply-with-sars-south-africa',
+      'sars-south-africa-explained',
+      'sars-south-africa-vs-kra-etims',
+      // ZIMRA FDMS (Zimbabwe)
+      'how-to-comply-with-zimra-fdms',
+      'zimra-fdms-explained',
+      'zimra-fdms-common-errors',
+      // SRC (Seychelles)
+      'how-to-comply-with-src-seychelles',
+      'src-seychelles-explained',
+      'src-seychelles-common-errors',
+      // SEFAZ (Brazil)
+      'how-to-comply-with-sefaz-brazil',
+      'sefaz-brazil-explained',
+      // US B2G
+      'how-to-comply-with-us-b2g-e-invoicing',
+      'us-b2g-e-invoicing-explained',
+      'us-b2g-vs-peppol',
+      // CRA + Peppol (Canada)
+      'how-to-comply-with-cra-peppol-canada',
+      'cra-peppol-canada-explained',
+      'cra-peppol-canada-common-errors',
+      // NOTE: The 5 legacy posts (e-invoicing-{india-gst,malaysia-myinvois,saudi-zatca,nigeria-firs,kenya-etims}-guide)
+      // were removed from this cluster and 301-redirect to their *-explained
+      // replacement in App.tsx — see P1 cannibalisation fix.
+    ],
+
+    // Outer-entity supporting articles (concept layer that spans multiple mandates)
+    supportingPosts: [
+      'what-is-csid',
+      'what-is-irn',
+      'what-is-peppol-access-point',
+      'clearance-vs-reporting-models',
+      'ubl-2-1-explained',
+      'xades-digital-signatures-explained',
+      'qr-codes-on-tax-invoices',
+      'icp-brasil-a1-certificates',
+      'real-time-invoice-reporting',
+      'choosing-an-e-invoicing-platform-checklist',
+    ],
+  },
   {
     id: 'invoicing-mastery',
     title: 'Invoicing Mastery',
@@ -554,6 +693,59 @@ export const pillars: Pillar[] = [
 // Map existing posts to their pillars (hub pages listed first in each cluster)
 export const pillarClusters: TopicalCluster[] = [
   {
+    pillarId: 'e-invoicing-platform',
+    postSlugs: [
+      // Batch 1 — ZATCA (Saudi Arabia)
+      'how-to-comply-with-zatca-phase-2',
+      'zatca-phase-2-explained',
+      'zatca-phase-2-common-errors',
+      'how-to-comply-with-zatca-phase-1',
+      'zatca-phase-1-explained',
+      'zatca-phase-1-vs-phase-2',
+      // Batch 2 — Peppol EU + supporting
+      'how-to-comply-with-peppol-eu',
+      'peppol-eu-explained',
+      'peppol-vs-national-portals',
+      'what-is-peppol-access-point',
+      'ubl-2-1-explained',
+      'xades-digital-signatures-explained',
+      // Batch 3 — FIRS Nigeria + supporting
+      'how-to-comply-with-firs-mbs-nigeria',
+      'firs-mbs-nigeria-explained',
+      'what-is-csid',
+      'what-is-irn',
+      'clearance-vs-reporting-models',
+      'choosing-an-e-invoicing-platform-checklist',
+      // Batch 4 — MyInvois Malaysia + GST IRN India + supporting
+      'how-to-comply-with-myinvois-malaysia',
+      'myinvois-malaysia-explained',
+      'how-to-comply-with-gst-irn-india',
+      'gst-irn-india-explained',
+      'qr-codes-on-tax-invoices',
+      'real-time-invoice-reporting',
+      // Batch 5 — MTD UK + KRA eTIMS Kenya + supporting
+      'how-to-comply-with-mtd-uk',
+      'mtd-uk-explained',
+      'mtd-uk-common-errors',
+      'how-to-comply-with-kra-etims-kenya',
+      'kra-etims-kenya-explained',
+      'icp-brasil-a1-certificates',
+      // Batch 6 — SEFAZ Brazil + GRA Ghana + SARS South Africa + MyInvois errors
+      'how-to-comply-with-sefaz-brazil',
+      'sefaz-brazil-explained',
+      'how-to-comply-with-gra-e-vat-ghana',
+      'gra-e-vat-ghana-explained',
+      'sars-south-africa-explained',
+      'myinvois-malaysia-common-errors',
+      // Legacy posts referenced by the pillar
+      'zatca-phase-2-explained',
+      'myinvois-malaysia-explained',
+      'gst-irn-india-explained',
+      'firs-mbs-nigeria-explained',
+      'kra-etims-kenya-explained',
+    ],
+  },
+  {
     pillarId: 'invoicing-mastery',
     postSlugs: [
       'complete-guide-to-business-invoicing',
@@ -705,16 +897,16 @@ export const pillarClusters: TopicalCluster[] = [
       'freelancer-tax-mistakes-rs', 'freelancer-tax-mistakes-pl',
       'freelancer-tax-mistakes-it', 'freelancer-tax-mistakes-bg',
       // Cluster 10: Nigeria FIRS e-invoicing
-      'e-invoicing-nigeria-firs-guide', 'nigeria-firs-merchant-buyer-solution',
+      'firs-mbs-nigeria-explained', 'nigeria-firs-merchant-buyer-solution',
       'nigeria-e-invoicing-small-business', 'nigeria-invoice-irn-qr-code',
       'nigeria-e-invoicing-penalties', 'nigeria-e-invoicing-timeline',
       'nigeria-peppol-firs', 'nigeria-vat-invoice-requirements',
       'nigeria-tax-reform-acts-invoicing',
       // Cluster 10: Kenya eTIMS
-      'e-invoicing-kenya-etims', 'kenya-etims-small-business-guide',
+      'kra-etims-kenya-explained', 'kenya-etims-small-business-guide',
       'kenya-how-to-generate-etims-invoice', 'kenya-vat-invoice-requirements',
       // Cluster 11: India GST e-invoicing
-      'e-invoicing-india-gst-guide', 'india-gst-registration-small-business',
+      'gst-irn-india-explained', 'india-gst-registration-small-business',
       'india-cgst-sgst-igst-explained', 'india-hsn-sac-codes-invoice-guide',
       'india-gst-return-filing-guide', 'india-input-tax-credit-guide',
       // Cluster 12: UK HMRC/MTD
@@ -722,11 +914,11 @@ export const pillarClusters: TopicalCluster[] = [
       'uk-invoice-requirements-hmrc-2026', 'uk-vat-flat-rate-scheme-invoicing',
       'uk-cis-reverse-charge-invoicing', 'uk-making-tax-digital-timeline',
       // Cluster 12: Saudi Arabia ZATCA
-      'e-invoicing-saudi-zatca-fatoorah', 'saudi-zatca-phase-2-integration',
+      'zatca-phase-2-explained', 'saudi-zatca-phase-2-integration',
       'saudi-e-invoice-xml-qr-requirements', 'saudi-vat-invoice-requirements',
       'saudi-zatca-penalties-non-compliance',
       // Cluster 12: Malaysia MyInvois
-      'e-invoicing-malaysia-myinvois-guide', 'malaysia-myinvois-timeline-2024-2026',
+      'myinvois-malaysia-explained', 'malaysia-myinvois-timeline-2024-2026',
       'malaysia-e-invoice-technical-requirements', 'malaysia-sst-invoice-requirements',
       'malaysia-small-business-myinvois-compliance',
       // Cluster 13: Global how-tos

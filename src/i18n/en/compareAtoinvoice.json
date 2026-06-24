@@ -64,88 +64,292 @@
     {
       "title": "Core Invoicing",
       "rows": [
-        { "name": "Create professional invoice", "invoicemonk": true, "competitor": true },
-        { "name": "Download as PDF", "invoicemonk": true, "competitor": true },
-        { "name": "Send by email", "invoicemonk": "Direct from platform", "competitor": "Via Gmail only (manual attach)" },
-        { "name": "Saved invoice history", "invoicemonk": true, "competitor": false },
-        { "name": "Client database", "invoicemonk": true, "competitor": false },
-        { "name": "Invoice templates", "invoicemonk": "Multiple", "competitor": "One" },
-        { "name": "Custom branding and logo", "invoicemonk": true, "competitor": true },
-        { "name": "Line items, discounts, tax", "invoicemonk": true, "competitor": true },
-        { "name": "Notes and payment terms", "invoicemonk": true, "competitor": true },
-        { "name": "Invoice numbering", "invoicemonk": "Automatic", "competitor": "Manual" },
-        { "name": "Recurring invoices", "invoicemonk": true, "competitor": false },
-        { "name": "Duplicate invoice", "invoicemonk": true, "competitor": false },
-        { "name": "Estimates and quotes", "invoicemonk": true, "competitor": false }
+        {
+          "name": "E-invoicing mandates supported",
+          "invoicemonk": "16 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
+          "competitor": "1 (Australia Peppol only)"
+        },
+        {
+          "name": "Create professional invoice",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Download as PDF",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Send by email",
+          "invoicemonk": "Direct from platform",
+          "competitor": "Via Gmail only (manual attach)"
+        },
+        {
+          "name": "Saved invoice history",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Client database",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Invoice templates",
+          "invoicemonk": "Multiple",
+          "competitor": "One"
+        },
+        {
+          "name": "Custom branding and logo",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Line items, discounts, tax",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Notes and payment terms",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Invoice numbering",
+          "invoicemonk": "Automatic",
+          "competitor": "Manual"
+        },
+        {
+          "name": "Recurring invoices",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Duplicate invoice",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Estimates and quotes",
+          "invoicemonk": true,
+          "competitor": false
+        }
       ]
     },
     {
       "title": "Payments and Reminders",
       "rows": [
-        { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": false },
-        { "name": "Client pays directly from invoice", "invoicemonk": true, "competitor": false },
-        { "name": "Payment tracking dashboard", "invoicemonk": true, "competitor": false },
-        { "name": "Payment status per invoice", "invoicemonk": true, "competitor": false },
-        { "name": "Overdue invoice alerts", "invoicemonk": true, "competitor": false },
-        { "name": "Online payment acceptance", "invoicemonk": true, "competitor": false },
-        { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": "Partial (USD, EUR, GBP, PKR)" },
-        { "name": "Multi-currency accounting", "invoicemonk": true, "competitor": false }
+        {
+          "name": "Automatic payment reminders",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Client pays directly from invoice",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Payment tracking dashboard",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Payment status per invoice",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Overdue invoice alerts",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Online payment acceptance",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Multi-currency invoicing",
+          "invoicemonk": true,
+          "competitor": "Partial (USD, EUR, GBP, PKR)"
+        },
+        {
+          "name": "Multi-currency accounting",
+          "invoicemonk": true,
+          "competitor": false
+        }
       ]
     },
     {
       "title": "Compliance and International",
       "rows": [
-        { "name": "Available to users worldwide", "invoicemonk": true, "competitor": "Yes (free tool, no accounts)" },
-        { "name": "Compliance-first invoice generation", "invoicemonk": true, "competitor": false },
-        { "name": "Cross-border invoice requirements", "invoicemonk": true, "competitor": false },
-        { "name": "Country-specific invoice fields", "invoicemonk": true, "competitor": false },
-        { "name": "VAT and tax handling", "invoicemonk": true, "competitor": "Basic (flat tax percentage only)" },
-        { "name": "MTD (Making Tax Digital) support", "invoicemonk": false, "competitor": false }
+        {
+          "name": "Available to users worldwide",
+          "invoicemonk": true,
+          "competitor": "Yes (free tool, no accounts)"
+        },
+        {
+          "name": "Compliance-first invoice generation",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Cross-border invoice requirements",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Country-specific invoice fields",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "VAT and tax handling",
+          "invoicemonk": true,
+          "competitor": "Basic (flat tax percentage only)"
+        },
+        {
+          "name": "MTD (Making Tax Digital) support",
+          "invoicemonk": false,
+          "competitor": false
+        }
       ]
     },
     {
       "title": "Platform and Support",
       "rows": [
-        { "name": "User accounts and login", "invoicemonk": true, "competitor": false },
-        { "name": "Mobile app", "invoicemonk": true, "competitor": "Browser only" },
-        { "name": "Client portal", "invoicemonk": true, "competitor": false },
-        { "name": "Expense tracking", "invoicemonk": true, "competitor": false },
-        { "name": "Financial reports", "invoicemonk": true, "competitor": false },
-        { "name": "Data export", "invoicemonk": true, "competitor": "PDF only" },
-        { "name": "API access", "invoicemonk": false, "competitor": false },
-        { "name": "Human support", "invoicemonk": true, "competitor": "Contact form and WhatsApp number only" },
-        { "name": "Support response time", "invoicemonk": "Documented SLA", "competitor": "Unknown" }
+        {
+          "name": "User accounts and login",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Mobile app",
+          "invoicemonk": true,
+          "competitor": "Browser only"
+        },
+        {
+          "name": "Client portal",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Expense tracking",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Financial reports",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Data export",
+          "invoicemonk": true,
+          "competitor": "PDF only"
+        },
+        {
+          "name": "API access",
+          "invoicemonk": false,
+          "competitor": false
+        },
+        {
+          "name": "Human support",
+          "invoicemonk": true,
+          "competitor": "Contact form and WhatsApp number only"
+        },
+        {
+          "name": "Support response time",
+          "invoicemonk": "Documented SLA",
+          "competitor": "Unknown"
+        }
       ]
     }
   ],
   "features": [
-    { "name": "Saved invoice history", "invoicemonk": true, "competitor": false },
-    { "name": "Client database", "invoicemonk": true, "competitor": false },
-    { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": false },
-    { "name": "Client pays directly from invoice", "invoicemonk": true, "competitor": false },
-    { "name": "Payment tracking dashboard", "invoicemonk": true, "competitor": false },
-    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": "Partial (USD, EUR, GBP, PKR)" },
-    { "name": "Compliance-first invoice generation", "invoicemonk": true, "competitor": false },
-    { "name": "Mobile app", "invoicemonk": true, "competitor": false },
-    { "name": "PDF download", "invoicemonk": true, "competitor": true },
-    { "name": "User accounts and login", "invoicemonk": true, "competitor": false }
+    {
+      "name": "Saved invoice history",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Client database",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Automatic payment reminders",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Client pays directly from invoice",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Payment tracking dashboard",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Multi-currency invoicing",
+      "invoicemonk": true,
+      "competitor": "Partial (USD, EUR, GBP, PKR)"
+    },
+    {
+      "name": "Compliance-first invoice generation",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Mobile app",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "PDF download",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "User accounts and login",
+      "invoicemonk": true,
+      "competitor": false
+    }
   ],
   "pricing": {
     "title": "Pricing Comparison",
     "invoicemonk": {
       "title": "Invoicemonk Pricing (2026)",
       "plans": [
-        { "name": "Starter", "price": "$0/mo" },
-        { "name": "Pro", "price": "$15/mo" },
-        { "name": "SME", "price": "$49/mo" },
-        { "name": "Biz", "price": "Custom" }
+        {
+          "name": "Starter",
+          "price": "$0/mo"
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo"
+        },
+        {
+          "name": "SME",
+          "price": "$49/mo"
+        },
+        {
+          "name": "Biz",
+          "price": "Custom"
+        }
       ],
       "note": "Invoicemonk is built for the ongoing invoicing workflow of a cross-border freelancer. All core features including compliance-first invoice generation, multi-currency support, automatic payment reminders, payment tracking, and client management are included, with pricing designed for independent professionals rather than businesses with accounting teams."
     },
     "competitor": {
       "title": "AtoInvoice Pricing (2026)",
       "plans": [
-        { "name": "Free", "price": "$0" }
+        {
+          "name": "Free",
+          "price": "$0"
+        }
       ],
       "note": "AtoInvoice is entirely free. There are no pricing plans, no subscription tiers, no payment required, and no account to create. Every feature described above is available at no cost, indefinitely. The reason it is free is precisely because it does very little. There is no infrastructure to support user accounts, invoice storage, payment processing, or reminder automation."
     }
@@ -203,41 +407,130 @@
   "migration": {
     "title": "How to Move from AtoInvoice to Invoicemonk",
     "steps": [
-      { "title": "Create your Invoicemonk Pro account", "desc": "Sign up at app.invoicemonk.com. Set up your business profile once with logo, default currency, and payment instructions." },
-      { "title": "Add the clients you bill regularly", "desc": "Save each client's details so you never retype them again. International clients can be in any country and any currency." },
-      { "title": "Turn on automated reminders", "desc": "Set the cadence (for example, three days before due, on the due date, and seven days after). Invoicemonk handles the follow-ups so you do not have to." },
-      { "title": "Send your first compliant invoice", "desc": "Pick a template, add line items, and send. The invoice carries your branding, country-specific fields, and a pay-online option for the client." }
+      {
+        "title": "Create your Invoicemonk Pro account",
+        "desc": "Sign up at app.invoicemonk.com. Set up your business profile once with logo, default currency, and payment instructions."
+      },
+      {
+        "title": "Add the clients you bill regularly",
+        "desc": "Save each client's details so you never retype them again. International clients can be in any country and any currency."
+      },
+      {
+        "title": "Turn on automated reminders",
+        "desc": "Set the cadence (for example, three days before due, on the due date, and seven days after). Invoicemonk handles the follow-ups so you do not have to."
+      },
+      {
+        "title": "Send your first compliant invoice",
+        "desc": "Pick a template, add line items, and send. The invoice carries your branding, country-specific fields, and a pay-online option for the client."
+      }
     ]
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "items": [
-      { "question": "Is AtoInvoice actually free?", "answer": "Yes, completely. AtoInvoice requires no payment, no account, and no subscription. It is a free browser-based PDF generator. There are no premium tiers or paid plans on the current atoinvoice.com." },
-      { "question": "Does AtoInvoice save my invoices?", "answer": "No. AtoInvoice does not have user accounts and does not store your invoice data between sessions. Every time you visit the site, you start from scratch. If you need to resend an invoice or reference a previous one, you would need to have saved the PDF yourself." },
-      { "question": "Can clients pay directly from an AtoInvoice invoice?", "answer": "No. AtoInvoice generates a PDF only. There is no payment link, no payment processing, and no way for clients to pay from the invoice itself. Your client would need to initiate payment separately through their own bank transfer process." },
-      { "question": "Does AtoInvoice send payment reminders?", "answer": "No. There is no reminder functionality. All follow-up is manual." },
-      { "question": "Does Invoicemonk work for freelancers in Ghana, Nigeria, Kenya, or other African countries?", "answer": "Yes. Invoicemonk is available to freelancers in all countries with no geographic restrictions. Cross-border invoicing from African countries to US, UK, EU, or other international clients is a primary use case the platform is designed for." },
-      { "question": "Does AtoInvoice handle VAT or cross-border compliance?", "answer": "No. AtoInvoice provides a flat tax percentage field on the invoice form. It does not know or apply the specific compliance requirements for cross-border transactions, VAT registration requirements, or country-specific invoice mandatory fields." },
-      { "question": "What is the difference between a PDF invoice generator and invoicing software?", "answer": "A PDF invoice generator creates a formatted document. Invoicing software manages the complete invoicing lifecycle: creation, delivery, reminders, payment processing, payment tracking, and reporting. AtoInvoice is a PDF generator. Invoicemonk is invoicing software." }
+      {
+        "question": "Is AtoInvoice actually free?",
+        "answer": "Yes, completely. AtoInvoice requires no payment, no account, and no subscription. It is a free browser-based PDF generator. There are no premium tiers or paid plans on the current atoinvoice.com."
+      },
+      {
+        "question": "Does AtoInvoice save my invoices?",
+        "answer": "No. AtoInvoice does not have user accounts and does not store your invoice data between sessions. Every time you visit the site, you start from scratch. If you need to resend an invoice or reference a previous one, you would need to have saved the PDF yourself."
+      },
+      {
+        "question": "Can clients pay directly from an AtoInvoice invoice?",
+        "answer": "No. AtoInvoice generates a PDF only. There is no payment link, no payment processing, and no way for clients to pay from the invoice itself. Your client would need to initiate payment separately through their own bank transfer process."
+      },
+      {
+        "question": "Does AtoInvoice send payment reminders?",
+        "answer": "No. There is no reminder functionality. All follow-up is manual."
+      },
+      {
+        "question": "Does Invoicemonk work for freelancers in Ghana, Nigeria, Kenya, or other African countries?",
+        "answer": "Yes. Invoicemonk is available to freelancers in all countries with no geographic restrictions. Cross-border invoicing from African countries to US, UK, EU, or other international clients is a primary use case the platform is designed for."
+      },
+      {
+        "question": "Does AtoInvoice handle VAT or cross-border compliance?",
+        "answer": "No. AtoInvoice provides a flat tax percentage field on the invoice form. It does not know or apply the specific compliance requirements for cross-border transactions, VAT registration requirements, or country-specific invoice mandatory fields."
+      },
+      {
+        "question": "What is the difference between a PDF invoice generator and invoicing software?",
+        "answer": "A PDF invoice generator creates a formatted document. Invoicing software manages the complete invoicing lifecycle: creation, delivery, reminders, payment processing, payment tracking, and reporting. AtoInvoice is a PDF generator. Invoicemonk is invoicing software."
+      }
     ]
   },
   "sideBySide": {
     "title": "Side-by-Side Summary",
     "rows": [
-      { "name": "Monthly price", "invoicemonk": "Starter $0, Pro $15", "competitor": "Free" },
-      { "name": "User accounts", "invoicemonk": true, "competitor": false },
-      { "name": "Invoice history", "invoicemonk": true, "competitor": false },
-      { "name": "Automatic reminders", "invoicemonk": true, "competitor": false },
-      { "name": "Client can pay from invoice", "invoicemonk": true, "competitor": false },
-      { "name": "Multi-currency", "invoicemonk": "Full", "competitor": "Partial (4 currencies, PDF only)" },
-      { "name": "Compliance-first invoicing", "invoicemonk": true, "competitor": false },
-      { "name": "Client database", "invoicemonk": true, "competitor": false },
-      { "name": "Mobile app", "invoicemonk": true, "competitor": false },
-      { "name": "Payment tracking", "invoicemonk": true, "competitor": false },
-      { "name": "Financial reports", "invoicemonk": true, "competitor": false },
-      { "name": "Countries supported", "invoicemonk": "All", "competitor": "All (no accounts to restrict)" },
-      { "name": "Support", "invoicemonk": true, "competitor": "Contact form only" },
-      { "name": "Best for", "invoicemonk": "Freelancers managing active cross-border client portfolios", "competitor": "Generating a one-off invoice PDF quickly" }
+      {
+        "name": "Monthly price",
+        "invoicemonk": "Starter $0, Pro $15",
+        "competitor": "Free"
+      },
+      {
+        "name": "User accounts",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Invoice history",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Automatic reminders",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Client can pay from invoice",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Multi-currency",
+        "invoicemonk": "Full",
+        "competitor": "Partial (4 currencies, PDF only)"
+      },
+      {
+        "name": "Compliance-first invoicing",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Client database",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Mobile app",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Payment tracking",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Financial reports",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Countries supported",
+        "invoicemonk": "All",
+        "competitor": "All (no accounts to restrict)"
+      },
+      {
+        "name": "Support",
+        "invoicemonk": true,
+        "competitor": "Contact form only"
+      },
+      {
+        "name": "Best for",
+        "invoicemonk": "Freelancers managing active cross-border client portfolios",
+        "competitor": "Generating a one-off invoice PDF quickly"
+      }
     ]
   },
   "bottomLine": {
@@ -252,22 +545,55 @@
   "related": {
     "title": "More comparisons",
     "links": [
-      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
-      { "label": "Invoicemonk vs Stripe", "to": "/compare/invoicemonk-vs-stripe" },
-      { "label": "EU VAT invoice requirements for freelancers", "to": "/blog/eu-vat-invoice-requirements-freelancers" },
-      { "label": "Cross-border VAT invoicing for EU freelancers", "to": "/blog/cross-border-vat-invoicing-freelancers-eu" },
-      { "label": "Best invoicing software 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs Wave",
+        "to": "/compare/invoicemonk-vs-wave"
+      },
+      {
+        "label": "Invoicemonk vs Stripe",
+        "to": "/compare/invoicemonk-vs-stripe"
+      },
+      {
+        "label": "EU VAT invoice requirements for freelancers",
+        "to": "/blog/eu-vat-invoice-requirements-freelancers"
+      },
+      {
+        "label": "Cross-border VAT invoicing for EU freelancers",
+        "to": "/blog/cross-border-vat-invoicing-freelancers-eu"
+      },
+      {
+        "label": "Best invoicing software 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "sources": {
     "title": "Sources and Verification",
     "items": [
-      { "label": "AtoInvoice.com: Direct site verification, May 2026. The tool is a free, no-account PDF invoice generator supporting USD, EUR, GBP, and PKR. No pricing plans, no user accounts, no reminders, no payment processing, no saved invoice history.", "url": "https://atoinvoice.com" },
-      { "label": "Leaproll.com: AtoInvoice com (AutoInvoice): Services, Pricing, Users, Benefits and Competitors (April 2026). Third-party description; features described do not reflect what is available on atoinvoice.com as verified in May 2026.", "url": "https://leaproll.com" },
-      { "label": "TapTax: Best MTD Software for Sole Traders in 2026 (February 2026). Source for UK Making Tax Digital mandatory timeline.", "url": "https://taptax.co.uk" },
-      { "label": "HMRC: Making Tax Digital for Income Tax requirements. MTD for ITSA went live April 2026 for self-employed individuals and landlords with qualifying income above £50,000.", "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax" },
-      { "label": "Figsflow: Top 9 Totally Free MTD Software for Accountants in 2026 (May 2026).", "url": "https://figsflow.com" },
-      { "label": "TechRadar: I thought Making Tax Digital would be expensive (May 2026).", "url": "https://www.techradar.com" }
+      {
+        "label": "AtoInvoice.com: Direct site verification, May 2026. The tool is a free, no-account PDF invoice generator supporting USD, EUR, GBP, and PKR. No pricing plans, no user accounts, no reminders, no payment processing, no saved invoice history.",
+        "url": "https://atoinvoice.com"
+      },
+      {
+        "label": "Leaproll.com: AtoInvoice com (AutoInvoice): Services, Pricing, Users, Benefits and Competitors (April 2026). Third-party description; features described do not reflect what is available on atoinvoice.com as verified in May 2026.",
+        "url": "https://leaproll.com"
+      },
+      {
+        "label": "TapTax: Best MTD Software for Sole Traders in 2026 (February 2026). Source for UK Making Tax Digital mandatory timeline.",
+        "url": "https://taptax.co.uk"
+      },
+      {
+        "label": "HMRC: Making Tax Digital for Income Tax requirements. MTD for ITSA went live April 2026 for self-employed individuals and landlords with qualifying income above £50,000.",
+        "url": "https://www.gov.uk/government/collections/making-tax-digital-for-income-tax"
+      },
+      {
+        "label": "Figsflow: Top 9 Totally Free MTD Software for Accountants in 2026 (May 2026).",
+        "url": "https://figsflow.com"
+      },
+      {
+        "label": "TechRadar: I thought Making Tax Digital would be expensive (May 2026).",
+        "url": "https://www.techradar.com"
+      }
     ]
   },
   "cta": {

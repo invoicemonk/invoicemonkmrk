@@ -24,33 +24,126 @@
     ]
   },
   "features": [
-    { "name": "Available to freelancers worldwide", "invoicemonk": true, "competitor": "Only 46 countries" },
-    { "name": "Compliance-first invoice generation", "invoicemonk": true, "competitor": false },
-    { "name": "Cross-border invoice requirements", "invoicemonk": true, "competitor": false },
-    { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": true },
-    { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": true },
-    { "name": "Recurring invoices", "invoicemonk": true, "competitor": true },
-    { "name": "Branded invoice templates", "invoicemonk": true, "competitor": "Basic" },
-    { "name": "Estimates and quotes", "invoicemonk": true, "competitor": "Plus tier only" },
-    { "name": "Expense tracking", "invoicemonk": true, "competitor": false },
-    { "name": "Built-in accounting", "invoicemonk": true, "competitor": false },
-    { "name": "Immutable audit trail", "invoicemonk": true, "competitor": "Payment events only" },
-    { "name": "Client management dashboard", "invoicemonk": true, "competitor": "Basic" },
-    { "name": "Per-invoice fee", "invoicemonk": "$0", "competitor": "0.4–0.5% (cap $2)" },
-    { "name": "International card surcharge", "invoicemonk": "Pass-through", "competitor": "+1.5%" },
-    { "name": "Currency conversion fee", "invoicemonk": "Pass-through", "competitor": "+1.0%" },
-    { "name": "Account freeze risk", "invoicemonk": "Low", "competitor": "Documented for irregular billing" },
-    { "name": "Designed for freelancers", "invoicemonk": true, "competitor": false },
-    { "name": "Developer API", "invoicemonk": false, "competitor": true }
+    {
+      "name": "E-invoicing mandates supported",
+      "invoicemonk": "16 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
+      "competitor": "0 (payments processor, no tax e-invoicing artefacts)"
+    },
+    {
+      "name": "Available to freelancers worldwide",
+      "invoicemonk": true,
+      "competitor": "Only 46 countries"
+    },
+    {
+      "name": "Compliance-first invoice generation",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Cross-border invoice requirements",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Multi-currency invoicing",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Automatic payment reminders",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Recurring invoices",
+      "invoicemonk": true,
+      "competitor": true
+    },
+    {
+      "name": "Branded invoice templates",
+      "invoicemonk": true,
+      "competitor": "Basic"
+    },
+    {
+      "name": "Estimates and quotes",
+      "invoicemonk": true,
+      "competitor": "Plus tier only"
+    },
+    {
+      "name": "Expense tracking",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Built-in accounting",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Immutable audit trail",
+      "invoicemonk": true,
+      "competitor": "Payment events only"
+    },
+    {
+      "name": "Client management dashboard",
+      "invoicemonk": true,
+      "competitor": "Basic"
+    },
+    {
+      "name": "Per-invoice fee",
+      "invoicemonk": "$0",
+      "competitor": "0.4–0.5% (cap $2)"
+    },
+    {
+      "name": "International card surcharge",
+      "invoicemonk": "Pass-through",
+      "competitor": "+1.5%"
+    },
+    {
+      "name": "Currency conversion fee",
+      "invoicemonk": "Pass-through",
+      "competitor": "+1.0%"
+    },
+    {
+      "name": "Account freeze risk",
+      "invoicemonk": "Low",
+      "competitor": "Documented for irregular billing"
+    },
+    {
+      "name": "Designed for freelancers",
+      "invoicemonk": true,
+      "competitor": false
+    },
+    {
+      "name": "Developer API",
+      "invoicemonk": false,
+      "competitor": true
+    }
   ],
   "feeBreakdown": {
     "title": "What Stripe actually costs an international freelancer",
     "intro": "Stripe's pricing is layered. Each layer adds cost on top of the previous one. The illustration below assumes a freelancer based outside the US processing roughly $4,000 per month (4 invoices at $1,000) using international cards in a cross-border scenario.",
     "rows": [
-      { "label": "Base card processing", "rate": "2.9% + $0.30/txn", "monthly": "$120.40" },
-      { "label": "International card surcharge", "rate": "+1.5%", "monthly": "$60.00" },
-      { "label": "Currency conversion", "rate": "+1.0%", "monthly": "$40.00" },
-      { "label": "Invoicing Starter fee", "rate": "0.4% (cap $2/invoice)", "monthly": "$8.00" }
+      {
+        "label": "Base card processing",
+        "rate": "2.9% + $0.30/txn",
+        "monthly": "$120.40"
+      },
+      {
+        "label": "International card surcharge",
+        "rate": "+1.5%",
+        "monthly": "$60.00"
+      },
+      {
+        "label": "Currency conversion",
+        "rate": "+1.0%",
+        "monthly": "$40.00"
+      },
+      {
+        "label": "Invoicing Starter fee",
+        "rate": "0.4% (cap $2/invoice)",
+        "monthly": "$8.00"
+      }
     ],
     "total": "$228.40 per month",
     "footnote": "That is roughly $2,740 per year on $48,000 of annual freelance revenue, before any chargeback disputes ($15 non-refundable each) or instant payout surcharges (1.0%–1.5%). Effective rates above 5% on cross-border invoices are common."
@@ -60,22 +153,52 @@
     "invoicemonk": {
       "title": "Invoicemonk pricing (2026)",
       "plans": [
-        { "name": "Starter", "price": "$0/mo" },
-        { "name": "Pro", "price": "$15/mo" },
-        { "name": "SME", "price": "$49/mo" },
-        { "name": "Biz", "price": "Custom" }
+        {
+          "name": "Starter",
+          "price": "$0/mo"
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo"
+        },
+        {
+          "name": "SME",
+          "price": "$49/mo"
+        },
+        {
+          "name": "Biz",
+          "price": "Custom"
+        }
       ],
       "note": "Invoicing has no per-invoice fee on any plan. Card processing is passed through to your gateway (Stripe, Paystack, Flutterwave, PayPal, Razorpay) at their published rates with no Invoicemonk markup."
     },
     "competitor": {
       "title": "Stripe pricing (2026)",
       "plans": [
-        { "name": "Invoicing Starter", "price": "0.4% (cap $2)/invoice" },
-        { "name": "Invoicing Plus", "price": "0.5% (cap $2)/invoice" },
-        { "name": "Card processing", "price": "2.9% + $0.30/txn" },
-        { "name": "Intl card surcharge", "price": "+1.5%" },
-        { "name": "Currency conversion", "price": "+1.0%" },
-        { "name": "Chargeback dispute", "price": "$15 non-refundable" }
+        {
+          "name": "Invoicing Starter",
+          "price": "0.4% (cap $2)/invoice"
+        },
+        {
+          "name": "Invoicing Plus",
+          "price": "0.5% (cap $2)/invoice"
+        },
+        {
+          "name": "Card processing",
+          "price": "2.9% + $0.30/txn"
+        },
+        {
+          "name": "Intl card surcharge",
+          "price": "+1.5%"
+        },
+        {
+          "name": "Currency conversion",
+          "price": "+1.0%"
+        },
+        {
+          "name": "Chargeback dispute",
+          "price": "$15 non-refundable"
+        }
       ],
       "note": "Stripe's invoicing fees are in addition to, not instead of, payment processing. Every paid invoice carries both layers."
     },
@@ -143,22 +266,55 @@
   "migration": {
     "title": "How to switch from Stripe Invoicing to Invoicemonk",
     "steps": [
-      { "title": "Create your Invoicemonk Pro account", "desc": "Sign up at app.invoicemonk.com. Add your business profile, branding and tax settings — no jurisdiction restriction." },
-      { "title": "Export customers and open invoices from Stripe", "desc": "Export your Stripe customer list and any open invoices as CSV from the Stripe dashboard." },
-      { "title": "Import into Invoicemonk", "desc": "Upload the CSV to Invoicemonk and enrich client profiles with billing terms, VAT numbers and contact details." },
-      { "title": "Connect Stripe for card processing only", "desc": "Link your Stripe account to Invoicemonk so cards continue settling through Stripe at your existing rates, while invoicing happens in Invoicemonk." },
-      { "title": "Send your first compliant invoice", "desc": "Create a branded, compliance-first invoice in Invoicemonk and enable automatic reminders. Track payment status from the dashboard." }
+      {
+        "title": "Create your Invoicemonk Pro account",
+        "desc": "Sign up at app.invoicemonk.com. Add your business profile, branding and tax settings — no jurisdiction restriction."
+      },
+      {
+        "title": "Export customers and open invoices from Stripe",
+        "desc": "Export your Stripe customer list and any open invoices as CSV from the Stripe dashboard."
+      },
+      {
+        "title": "Import into Invoicemonk",
+        "desc": "Upload the CSV to Invoicemonk and enrich client profiles with billing terms, VAT numbers and contact details."
+      },
+      {
+        "title": "Connect Stripe for card processing only",
+        "desc": "Link your Stripe account to Invoicemonk so cards continue settling through Stripe at your existing rates, while invoicing happens in Invoicemonk."
+      },
+      {
+        "title": "Send your first compliant invoice",
+        "desc": "Create a branded, compliance-first invoice in Invoicemonk and enable automatic reminders. Track payment status from the dashboard."
+      }
     ]
   },
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Can I use Stripe as a freelancer if my country is not supported?", "answer": "Technically, some freelancers incorporate a US LLC to access Stripe. This requires forming a US business entity, obtaining a US employer identification number, maintaining a US bank account and complying with US tax filing requirements. It is legal but operationally significant. For most independent freelancers, this is disproportionate overhead compared to using an invoicing tool that supports their country directly." },
-      { "question": "Does Stripe Invoicing handle cross-border tax compliance?", "answer": "No. Stripe Invoicing generates payment requests with line items and tax fields. It does not know the specific compliance requirements of the countries involved in your cross-border freelance transaction and does not generate invoices that automatically meet those requirements. Stripe Tax is a separate paid product that handles tax calculation in supported jurisdictions but does not cover cross-border freelance invoice compliance comprehensively." },
-      { "question": "What happens if Stripe freezes my freelance account?", "answer": "If Stripe's automated risk systems flag your account, funds can be held temporarily or, in more serious cases, for extended periods. Stripe typically communicates via email and requires documentation to resolve holds. For freelancers dependent on specific payment schedules, a fund hold can create serious cash flow problems — particularly for those with irregular billing patterns, large individual invoices or clients across multiple countries." },
-      { "question": "Is Stripe Invoicing free?", "answer": "There is no monthly subscription fee, but every paid invoice incurs 0.4%–0.5% (capped at $2), and every payment processed through Stripe incurs 2.9% + $0.30 plus international (+1.5%) and currency conversion (+1.0%) surcharges where applicable. For international freelancers the effective all-in cost frequently exceeds 5% per transaction." },
-      { "question": "Does Stripe support invoicing in multiple currencies?", "answer": "Yes. Stripe Invoicing supports 135 currencies. Note the 1.0% currency conversion surcharge when the invoice currency differs from your settlement currency." },
-      { "question": "How many countries does Stripe support for merchant accounts?", "answer": "As of 2026, Stripe supports merchant accounts in 46 fully supported countries. It also operates through Paystack in five African countries (Ghana, Kenya, Nigeria, South Africa and Côte d'Ivoire) with different feature availability. Businesses outside these markets cannot create standard Stripe accounts." }
+      {
+        "question": "Can I use Stripe as a freelancer if my country is not supported?",
+        "answer": "Technically, some freelancers incorporate a US LLC to access Stripe. This requires forming a US business entity, obtaining a US employer identification number, maintaining a US bank account and complying with US tax filing requirements. It is legal but operationally significant. For most independent freelancers, this is disproportionate overhead compared to using an invoicing tool that supports their country directly."
+      },
+      {
+        "question": "Does Stripe Invoicing handle cross-border tax compliance?",
+        "answer": "No. Stripe Invoicing generates payment requests with line items and tax fields. It does not know the specific compliance requirements of the countries involved in your cross-border freelance transaction and does not generate invoices that automatically meet those requirements. Stripe Tax is a separate paid product that handles tax calculation in supported jurisdictions but does not cover cross-border freelance invoice compliance comprehensively."
+      },
+      {
+        "question": "What happens if Stripe freezes my freelance account?",
+        "answer": "If Stripe's automated risk systems flag your account, funds can be held temporarily or, in more serious cases, for extended periods. Stripe typically communicates via email and requires documentation to resolve holds. For freelancers dependent on specific payment schedules, a fund hold can create serious cash flow problems — particularly for those with irregular billing patterns, large individual invoices or clients across multiple countries."
+      },
+      {
+        "question": "Is Stripe Invoicing free?",
+        "answer": "There is no monthly subscription fee, but every paid invoice incurs 0.4%–0.5% (capped at $2), and every payment processed through Stripe incurs 2.9% + $0.30 plus international (+1.5%) and currency conversion (+1.0%) surcharges where applicable. For international freelancers the effective all-in cost frequently exceeds 5% per transaction."
+      },
+      {
+        "question": "Does Stripe support invoicing in multiple currencies?",
+        "answer": "Yes. Stripe Invoicing supports 135 currencies. Note the 1.0% currency conversion surcharge when the invoice currency differs from your settlement currency."
+      },
+      {
+        "question": "How many countries does Stripe support for merchant accounts?",
+        "answer": "As of 2026, Stripe supports merchant accounts in 46 fully supported countries. It also operates through Paystack in five African countries (Ghana, Kenya, Nigeria, South Africa and Côte d'Ivoire) with different feature availability. Businesses outside these markets cannot create standard Stripe accounts."
+      }
     ]
   },
   "bottomLine": {
@@ -172,25 +328,67 @@
   "related": {
     "title": "More comparisons",
     "links": [
-      { "label": "Invoicemonk vs Wave for international freelancers", "to": "/blog/invoicemonk-vs-wave" },
-      { "label": "Cross-border VAT and reverse charge explained", "to": "/blog/cross-border-vat-invoicing-freelancers-eu" },
-      { "label": "EU VAT invoice requirements for freelancers", "to": "/blog/eu-vat-invoice-requirements-freelancers" },
-      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Best invoicing software 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs Wave for international freelancers",
+        "to": "/blog/invoicemonk-vs-wave"
+      },
+      {
+        "label": "Cross-border VAT and reverse charge explained",
+        "to": "/blog/cross-border-vat-invoicing-freelancers-eu"
+      },
+      {
+        "label": "EU VAT invoice requirements for freelancers",
+        "to": "/blog/eu-vat-invoice-requirements-freelancers"
+      },
+      {
+        "label": "Invoicemonk vs QuickBooks",
+        "to": "/compare/invoicemonk-vs-quickbooks"
+      },
+      {
+        "label": "Invoicemonk vs FreshBooks",
+        "to": "/compare/invoicemonk-vs-freshbooks"
+      },
+      {
+        "label": "Best invoicing software 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "sources": {
     "title": "Sources and further reading",
     "items": [
-      { "label": "Stripe Support: Stripe Invoicing pricing (verified May 2026)", "url": "https://support.stripe.com" },
-      { "label": "Stripe Pricing Page (verified May 2026)", "url": "https://stripe.com/pricing" },
-      { "label": "CheckThat.ai: Stripe Pricing 2026 — Plans, Costs and Hidden Fees", "url": "https://checkthat.ai" },
-      { "label": "Flexprice: Stripe Pricing Breakdown 2026", "url": "https://flexprice.io" },
-      { "label": "Red Stag Fulfillment: How Many Countries Does Stripe Support in 2026?", "url": "https://redstagfulfillment.com" },
-      { "label": "Dodo Payments: Stripe Supported Countries 2026", "url": "https://dodopayments.com" },
-      { "label": "Capterra: Stripe Invoicing Software 2026", "url": "https://capterra.com" },
-      { "label": "Research.com: Stripe Invoicing Review 2026", "url": "https://research.com" }
+      {
+        "label": "Stripe Support: Stripe Invoicing pricing (verified May 2026)",
+        "url": "https://support.stripe.com"
+      },
+      {
+        "label": "Stripe Pricing Page (verified May 2026)",
+        "url": "https://stripe.com/pricing"
+      },
+      {
+        "label": "CheckThat.ai: Stripe Pricing 2026 — Plans, Costs and Hidden Fees",
+        "url": "https://checkthat.ai"
+      },
+      {
+        "label": "Flexprice: Stripe Pricing Breakdown 2026",
+        "url": "https://flexprice.io"
+      },
+      {
+        "label": "Red Stag Fulfillment: How Many Countries Does Stripe Support in 2026?",
+        "url": "https://redstagfulfillment.com"
+      },
+      {
+        "label": "Dodo Payments: Stripe Supported Countries 2026",
+        "url": "https://dodopayments.com"
+      },
+      {
+        "label": "Capterra: Stripe Invoicing Software 2026",
+        "url": "https://capterra.com"
+      },
+      {
+        "label": "Research.com: Stripe Invoicing Review 2026",
+        "url": "https://research.com"
+      }
     ]
   },
   "cta": {

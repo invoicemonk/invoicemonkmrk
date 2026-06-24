@@ -6,6 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, FileText, Receipt, CreditCard, Calculator, FileCheck, Wallet, Users, LayoutTemplate, DollarSign, ArrowRightLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import logo from '@/assets/invoicemonk-logo.png';
+import { mandatesByRegion, regionLabel, MANDATE_COUNT, type RegionKey } from '@/data/mandates';
+
+const EINVOICING_REGION_ORDER: RegionKey[] = ['middle-east', 'asia-pacific', 'europe', 'africa', 'americas'];
 
 const productKeys = [
   { key: 'invoicing', href: '/invoicing', icon: FileText, status: 'available' },
@@ -43,7 +46,9 @@ export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
   const [isToolsOpen, setIsToolsOpen] = useState(false);
+  const [isEInvoicingOpen, setIsEInvoicingOpen] = useState(false);
   const [isMobileToolsOpen, setIsMobileToolsOpen] = useState(false);
+  const [isMobileEInvoicingOpen, setIsMobileEInvoicingOpen] = useState(false);
   const location = useLocation();
   const currentPath = stripPrefix(location.pathname);
 
@@ -57,7 +62,9 @@ export function Navbar() {
     setIsMobileMenuOpen(false);
     setIsProductsOpen(false);
     setIsToolsOpen(false);
+    setIsEInvoicingOpen(false);
     setIsMobileToolsOpen(false);
+    setIsMobileEInvoicingOpen(false);
   }, [location]);
 
   return (
@@ -209,6 +216,71 @@ export function Navbar() {
                 </AnimatePresence>
               </div>
 
+              {/* E-Invoicing Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setIsEInvoicingOpen(true)}
+                onMouseLeave={() => setIsEInvoicingOpen(false)}
+              >
+                <button
+                  className={`flex items-center gap-1 text-body-sm font-medium transition-colors duration-200 hover:text-primary ${
+                    isEInvoicingOpen || currentPath.startsWith('/e-invoicing') ? 'text-primary' : 'text-foreground/80'
+                  }`}
+                >
+                  E-invoicing
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isEInvoicingOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                <AnimatePresence>
+                  {isEInvoicingOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      transition={{ duration: 0.2 }}
+                      className="absolute top-full left-1/2 -translate-x-1/2 pt-4"
+                    >
+                      <div className="bg-card rounded-2xl shadow-soft-xl border border-border p-5 w-[680px]">
+                        <Link
+                          to="/e-invoicing"
+                          className="flex items-center justify-between px-3 py-2 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors mb-4"
+                        >
+                          <div>
+                            <div className="text-body-sm font-semibold text-primary">Global E-Invoicing Platform</div>
+                            <div className="text-caption text-muted-foreground mt-0.5">Mandate-compliant in {MANDATE_COUNT} jurisdictions</div>
+                          </div>
+                          <span className="text-body-sm font-medium text-primary">View all {MANDATE_COUNT} mandates →</span>
+                        </Link>
+                        <div className="grid grid-cols-3 gap-4">
+                          {EINVOICING_REGION_ORDER.map((region) => {
+                            const items = mandatesByRegion[region] || [];
+                            if (items.length === 0) return null;
+                            return (
+                              <div key={region}>
+                                <h4 className="text-caption font-semibold text-muted-foreground uppercase tracking-wider mb-2">{regionLabel[region]}</h4>
+                                <ul className="space-y-1">
+                                  {items.map((m) => (
+                                    <li key={m.slug}>
+                                      <Link
+                                        to={`/e-invoicing/${m.slug}`}
+                                        className="block text-body-sm text-foreground/80 hover:text-primary py-1"
+                                      >
+                                        {m.jurisdiction}
+                                        <span className="block text-caption text-muted-foreground">{m.mandate.split(' — ')[0].split(',')[0]}</span>
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
               {navLinkKeys.map((link) => (
                 <Link
                   key={link.key}
@@ -338,6 +410,49 @@ export function Navbar() {
 
                 {/* Other Links */}
                 <div className="mb-4">
+                  <button
+                    onClick={() => setIsMobileEInvoicingOpen(!isMobileEInvoicingOpen)}
+                    className="flex items-center justify-between w-full text-caption font-semibold text-muted-foreground uppercase tracking-wider mb-3 px-4"
+                  >
+                    E-invoicing ({MANDATE_COUNT} mandates)
+                    <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isMobileEInvoicingOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  <AnimatePresence>
+                    {isMobileEInvoicingOpen && (
+                      <motion.nav
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="space-y-1 overflow-hidden mb-3"
+                      >
+                        <Link
+                          to="/e-invoicing"
+                          className="block py-2 px-4 rounded-lg text-body font-semibold text-primary hover:bg-primary/5 transition-colors"
+                        >
+                          View all {MANDATE_COUNT} mandates →
+                        </Link>
+                        {EINVOICING_REGION_ORDER.map((region) => {
+                          const items = mandatesByRegion[region] || [];
+                          if (items.length === 0) return null;
+                          return (
+                            <div key={region} className="pt-2">
+                              <div className="px-4 text-caption font-semibold text-muted-foreground uppercase tracking-wider">{regionLabel[region]}</div>
+                              {items.map((m) => (
+                                <Link
+                                  key={m.slug}
+                                  to={`/e-invoicing/${m.slug}`}
+                                  className="block py-2 px-4 rounded-lg text-body-sm text-foreground hover:bg-primary/5 hover:text-primary transition-colors"
+                                >
+                                  {m.jurisdiction}
+                                </Link>
+                              ))}
+                            </div>
+                          );
+                        })}
+                      </motion.nav>
+                    )}
+                  </AnimatePresence>
                   <h4 className="text-caption font-semibold text-muted-foreground uppercase tracking-wider mb-3 px-4">{t('nav.company')}</h4>
                   <nav className="space-y-1">
                     {navLinkKeys.map((link, index) => (

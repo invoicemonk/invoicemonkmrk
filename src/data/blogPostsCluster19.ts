@@ -122,8 +122,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/e-invoicing-compliance-hero.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/serbia-sef-xml-ubl-format-guide.jpg',
+    featuredImageAlt: 'Serbian SEF UBL 2.1 XML document with clearance stamp',
     readTime: '4 min read',
   },
   {
@@ -242,8 +242,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/serbia-sef-xml-ubl-format-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/serbia-sef-registration-setup-guide.jpg',
+    featuredImageAlt: 'Serbian SEF onboarding wizard with eID smart card',
     readTime: '5 min read',
   },
   {
@@ -259,8 +259,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/serbia-sef-registration-setup-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/serbia-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Warning shield beside a dinar penalty notice for Serbian e-invoicing',
     readTime: '4 min read',
   },
   {
@@ -276,8 +276,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/serbia-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/serbia-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Passport and globe beside a Serbian PIB tax-ID form for foreign companies',
     readTime: '4 min read',
   },
   {
@@ -293,8 +293,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/serbia-e-invoicing-foreign-companies.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/bulgaria-e-invoicing-nra-guide.jpg',
+    featuredImageAlt: 'Bulgarian NRA tax authority hub clearing an electronic invoice',
     readTime: '4 min read',
   },
   // ═══════════════════════════════════════════════════
@@ -406,8 +406,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/bulgaria-e-invoicing-nra-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/bulgaria-e-invoicing-xml-peppol-format.jpg',
+    featuredImageAlt: 'Peppol four-corner network with UBL XML document for Bulgaria',
     readTime: '4 min read',
   },
   {
@@ -423,8 +423,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/bulgaria-e-invoicing-xml-peppol-format.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/bulgaria-e-invoicing-registration-guide.jpg',
+    featuredImageAlt: 'Bulgarian e-invoicing registration wizard with Peppol access-point key',
     readTime: '5 min read',
   },
   {
@@ -535,8 +535,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/bulgaria-e-invoicing-registration-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/bulgaria-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Warning shield beside a lev penalty notice for Bulgarian e-invoicing',
     readTime: '4 min read',
   },
   {
@@ -552,8 +552,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/bulgaria-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/bulgaria-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Passport and globe beside a Bulgarian VAT registration form for foreign companies',
     readTime: '4 min read',
   },
   {
@@ -569,8 +569,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/bulgaria-e-invoicing-foreign-companies.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/chile-e-invoicing-dte-sii-guide.jpg',
+    featuredImageAlt: 'Chilean SII clearance hub routing a DTE with folio range counter',
     readTime: '4 min read',
   },
   // ═══════════════════════════════════════════════════
@@ -693,8 +693,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/chile-e-invoicing-dte-sii-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/chile-dte-xml-format-requirements.jpg',
+    featuredImageAlt: 'Chilean DTE XML document paired with a TED timbre barcode stamp',
     readTime: '5 min read',
   },
   {
@@ -710,8 +710,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/chile-dte-xml-format-requirements.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/chile-sii-registration-setup-guide.jpg',
+    featuredImageAlt: 'Chilean SII registration wizard with digital certificate token',
     readTime: '4 min read',
   },
   {
@@ -824,8 +824,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/chile-sii-registration-setup-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/chile-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Caution shield beside a UTM-denominated penalty ledger for Chilean e-invoicing',
     readTime: '5 min read',
   },
   {
@@ -841,8 +841,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/chile-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/chile-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Passport and globe beside a Chilean RUT registration form for foreign companies',
     readTime: '5 min read',
   },
   {
@@ -858,8 +858,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/chile-e-invoicing-foreign-companies.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/albania-e-invoicing-fiskalizimi-guide.jpg',
+    featuredImageAlt: 'Albanian Fiskalizimi clearance hub linking a fiscal device, tax authority cloud and receipt',
     readTime: '4 min read',
   },
   // ═══════════════════════════════════════════════════
@@ -878,8 +878,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/albania-e-invoicing-fiskalizimi-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/albania-fiskalizimi-xml-format-guide.jpg',
+    featuredImageAlt: 'Albanian Fiskalizimi XML schema with NIVF and NSLF fiscal identifier badges',
     readTime: '4 min read',
   },
   {
@@ -895,8 +895,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/albania-fiskalizimi-xml-format-guide.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/albania-e-invoicing-penalties-compliance.jpg',
+    featuredImageAlt: 'Caution shield beside a lek penalty notice for Albanian e-invoicing',
     readTime: '4 min read',
   },
   {
@@ -912,8 +912,8 @@ export const cluster19Posts: BlogPost[] = [
     dateModified: '2026-04-16',
     lastAudited: '2026-04-20',
     author: defaultAuthor,
-    featuredImage: '/images/blog/albania-e-invoicing-penalties-compliance.jpg',
-    featuredImageAlt: 'E-invoicing compliance guide',
+    featuredImage: '/blog/albania-e-invoicing-foreign-companies.jpg',
+    featuredImageAlt: 'Passport and globe beside an Albanian NIPT tax-ID form for foreign companies',
     readTime: '5 min read',
   },
   {
@@ -1003,7 +1003,7 @@ export const cluster19Posts: BlogPost[] = [
     ],
     content: `
       <p>You just landed a client in Germany or the Netherlands. Great news. Then their accountant emails back asking for a "VAT-compliant invoice" and you stare at the screen wondering what that actually means. What goes on it? What if you get it wrong? And do you even need to charge VAT?</p>
-      <p>This guide answers all of that. It covers the EU-wide rules that apply in all 27 member states, the mandatory fields every compliant invoice must include, how the reverse charge mechanism works (and when it applies to you), the sequential numbering rule that quietly trips up most freelancers, what happens when you issue a non-compliant invoice, and how <a href="/invoicing">Invoicemonk</a> handles all of this automatically.</p>
+      <p>This guide answers all of that. It covers the EU-wide rules that apply in all 27 member states, the mandatory fields every compliant invoice must include, how the reverse charge mechanism works (and when it applies to you), the sequential numbering rule that quietly trips up most freelancers, what happens when you issue a non-compliant invoice, and how <a href="/en/invoicing">Invoicemonk</a> handles all of this automatically.</p>
 
       <h2>Section 1: The legal foundation, what EU law actually says</h2>
       <p>EU invoicing is governed by a single piece of legislation: the <strong>VAT Directive (Council Directive 2006/112/EC)</strong>. This directive sets the baseline that all 27 member states must follow. Individual countries can add requirements on top of it (Germany and Italy do), but they cannot drop below the floor it sets.</p>
@@ -1028,7 +1028,7 @@ export const cluster19Posts: BlogPost[] = [
         <li><strong>A reverse charge note where applicable.</strong> The phrase "VAT: reverse charge" plus a reference to Article 196 of the VAT Directive.</li>
       </ol>
       <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
-        <p style="margin:0;"><strong>Invoicemonk does this for you.</strong> When you invoice an EU business, the platform automatically includes all 13 fields and flags the correct reverse charge language based on your client's location and VAT status. <a href="/invoicing">Get started</a>.</p>
+        <p style="margin:0;"><strong>Invoicemonk does this for you.</strong> When you invoice an EU business, the platform automatically includes all 13 fields and flags the correct reverse charge language based on your client's location and VAT status. <a href="/en/invoicing">Get started</a>.</p>
       </aside>
 
       <h2>Section 3: The reverse charge mechanism, the most important concept for cross-border invoicing</h2>
@@ -1043,7 +1043,7 @@ export const cluster19Posts: BlogPost[] = [
       </ul>
       <p>When does it apply? For services supplied by a freelancer to a VAT-registered business in another EU member state, reverse charge applies automatically. The "place of supply" rule under EU law deems services to be supplied where the client is established, not where you are.</p>
       <p>What if your client is a private individual rather than a business? Different rules apply, the reverse charge does not. We cover that in detail in our cross-border VAT guide for EU freelancers (publishing soon).</p>
-      <p><strong>The mistake to avoid:</strong> not including the reverse charge note. Without it, the client cannot apply the mechanism. Their accountant will reject the invoice and may hold payment until you reissue it. <a href="/blog/germany-vat-reverse-charge-invoicing">Our German invoice requirements guide</a> walks through a worked example.</p>
+      <p><strong>The mistake to avoid:</strong> not including the reverse charge note. Without it, the client cannot apply the mechanism. Their accountant will reject the invoice and may hold payment until you reissue it. <a href="/en/blog/germany-vat-reverse-charge-invoicing">Our German invoice requirements guide</a> walks through a worked example.</p>
 
       <h2>Section 4: Sequential invoice numbering, why gaps are a serious problem</h2>
       <p>Most freelancers do not realise this until their accountant or a tax auditor brings it up. EU rules require invoice numbers to form a <strong>continuous, unbroken sequence</strong>.</p>
@@ -1078,16 +1078,16 @@ export const cluster19Posts: BlogPost[] = [
       </ul>
       <p>If you are above the threshold, you must register for VAT and charge it on domestic sales. If you are below, you do not charge VAT but must note the reason on your invoice.</p>
       <p>Here's the catch most freelancers miss: <strong>for cross-border B2B EU invoices, the reverse charge applies regardless of your registration status</strong>. So even a German Kleinunternehmer invoicing a Dutch company applies reverse charge, just with a slightly different note.</p>
-      <p>Country-specific deep dives: <a href="/blog/freelancer-vat-registration-bg">Bulgaria</a>, <a href="/blog/freelancer-vat-registration-ro">Romania</a>, <a href="/blog/freelancer-vat-registration-pl">Poland</a>, <a href="/blog/freelancer-vat-registration-it">Italy</a>, <a href="/blog/freelancer-vat-registration-hu">Hungary</a>.</p>
+      <p>Country-specific deep dives: <a href="/en/blog/freelancer-vat-registration-bg">Bulgaria</a>, <a href="/en/blog/freelancer-vat-registration-ro">Romania</a>, <a href="/en/blog/freelancer-vat-registration-pl">Poland</a>, <a href="/en/blog/freelancer-vat-registration-it">Italy</a>, <a href="/en/blog/freelancer-vat-registration-hu">Hungary</a>.</p>
 
       <h2>Section 7: What's changing, the EU's e-invoicing mandate</h2>
       <p>Worth knowing about, even if you don't have to act on it yet. The EU's <strong>VAT in the Digital Age (ViDA)</strong> directive is rolling out structured e-invoicing requirements for intra-EU B2B transactions from <strong>July 2030</strong>. From that date, cross-border B2B invoices will need to be issued in a structured electronic format and reported to tax authorities in near real time.</p>
       <p>Several countries are already ahead of the timeline:</p>
       <ul>
-        <li><strong>Italy:</strong> Mandatory B2B e-invoicing via SDI since 2019. See our <a href="/blog/italy-fattura-elettronica-freelancers">Italy fattura elettronica guide for freelancers</a>.</li>
+        <li><strong>Italy:</strong> Mandatory B2B e-invoicing via SDI since 2019. See our <a href="/en/blog/italy-fattura-elettronica-freelancers">Italy fattura elettronica guide for freelancers</a>.</li>
         <li><strong>Romania:</strong> Mandatory B2B e-invoicing via RO e-Factura since 2024.</li>
         <li><strong>Germany:</strong> ZUGFeRD/XRechnung phasing in, with full B2B enforcement by January 2028.</li>
-        <li><strong>France:</strong> PPF/PDP rollout currently underway. See our <a href="/blog/france-e-invoicing-ppf-pdp-guide">France e-invoicing guide</a>.</li>
+        <li><strong>France:</strong> PPF/PDP rollout currently underway. See our <a href="/en/blog/france-e-invoicing-ppf-pdp-guide">France e-invoicing guide</a>.</li>
       </ul>
       <p>Invoicemonk is building these formats natively, not bolting them on. By the time ViDA is enforced, you will not have to think about it.</p>
 
@@ -1227,7 +1227,7 @@ export const cluster19Posts: BlogPost[] = [
       <p>The client reports the VAT in their own country's VAT return as if they had charged it themselves, then immediately reclaims it as input tax (the VAT they can recover on business purchases) in the same return. The net effect for them is zero: it is a bookkeeping entry, not a payment. For you: no VAT to collect, no VAT to remit, no VAT registration in the client's country.</p>
       <p>One thing that does not change: your own VAT reporting. In most EU member states, you must declare cross-border B2B supplies on a periodic VAT return, often called an EC Sales List or recapitulative statement (a summary list of cross-border B2B supplies you filed alongside your normal VAT return). This is a reporting obligation, not a payment, but it is required.</p>
       <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
-        <p style="margin:0;"><strong>Invoicemonk does this for you.</strong> Select a cross-border EU B2B invoice and the correct Article 196 reverse charge notation appears automatically; you never type it manually. <a href="/invoicing">Get started</a>.</p>
+        <p style="margin:0;"><strong>Invoicemonk does this for you.</strong> Select a cross-border EU B2B invoice and the correct Article 196 reverse charge notation appears automatically; you never type it manually. <a href="/en/invoicing">Get started</a>.</p>
       </aside>
 
       <h2>How do I validate my client's VAT number on VIES?</h2>
@@ -1309,7 +1309,7 @@ export const cluster19Posts: BlogPost[] = [
       </ul>
       <p>That is it. Once this wording is on the invoice and the client's VAT number is verified, the transaction is handled correctly on your side.</p>
       <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
-        <p style="margin:0;"><strong>Invoicemonk generates this wording automatically</strong> for cross-border EU invoices. Select the client's country; the correct notation appears with both VAT number fields and a net-only total. <a href="/invoicing">Create your first cross-border invoice</a>.</p>
+        <p style="margin:0;"><strong>Invoicemonk generates this wording automatically</strong> for cross-border EU invoices. Select the client's country; the correct notation appears with both VAT number fields and a net-only total. <a href="/en/invoicing">Create your first cross-border invoice</a>.</p>
       </aside>
 
       <h2>Quick answers (the things people actually ask)</h2>
@@ -1445,7 +1445,7 @@ export const cluster19Posts: BlogPost[] = [
         <li><strong>Payment terms.</strong> The due date, the late-payment penalty rate (taux des pénalités de retard), and the fixed €40 indemnité forfaitaire de recouvrement that applies to every late B2B invoice.</li>
         <li><strong>TVA intracommunautaire number,</strong> if you have one (required for EU B2B invoices above the €10,000 threshold; see Section 6).</li>
       </ul>
-      <p style="border-left:3px solid #ef4444;padding:12px 16px;background:#fef2f2;margin:16px 0;"><strong>Tip:</strong> <a href="/invoicing">Invoicemonk\'s free invoice generator</a> includes the French SIRET, "EI" designation, sequential numbering, and the franchise en base / autoliquidation wording out of the box, so you can <a href="/invoicing">create your first French-compliant invoice</a> in under a minute.</p>
+      <p style="border-left:3px solid #ef4444;padding:12px 16px;background:#fef2f2;margin:16px 0;"><strong>Tip:</strong> <a href="/en/invoicing">Invoicemonk\'s free invoice generator</a> includes the French SIRET, "EI" designation, sequential numbering, and the franchise en base / autoliquidation wording out of the box, so you can <a href="/en/invoicing">create your first French-compliant invoice</a> in under a minute.</p>
 
       <h2>What is the franchise en base de TVA, and what phrase must appear on the invoice?</h2>
       <p data-answer="true">The franchise en base de TVA is a French small-business exemption that lets you stop charging TVA when your turnover stays below set thresholds. For 2025 the limits are €37,500 (services) and €85,000 (sales of goods), with a tolerance ceiling of €41,250 / €93,500. If you qualify, every invoice must show the verbatim phrase "TVA non applicable, article 293 B du CGI" and no TVA line.</p>
@@ -1519,7 +1519,7 @@ export const cluster19Posts: BlogPost[] = [
         <li>Numéro de TVA intracommunautaire when applicable.</li>
       </ol>
 
-      <p>French invoicing rewards consistency. Once your template is right, every invoice after it is right. <a href="/invoicing">Invoicemonk</a> applies the SIRET, the "EI" tag, sequential numbering, and the franchise en base / autoliquidation wording automatically, so you do not have to remember the exact phrase every time.</p>
+      <p>French invoicing rewards consistency. Once your template is right, every invoice after it is right. <a href="/en/invoicing">Invoicemonk</a> applies the SIRET, the "EI" tag, sequential numbering, and the franchise en base / autoliquidation wording automatically, so you do not have to remember the exact phrase every time.</p>
 
       <p style="margin-top:24px;"><strong><a href="https://app.invoicemonk.com/signup?utm_source=organic_blog&amp;utm_medium=article_end&amp;utm_campaign=blog_french_invoice_requirements" target="_blank" rel="noopener">Create your first French-compliant invoice </a>.</strong></p>
 
@@ -1894,7 +1894,7 @@ export const cluster19Posts: BlogPost[] = [
 
       <h3>3. Using your invoicing tool incorrectly</h3>
       <p>Many freelancers rely on Word templates, Excel spreadsheets, or tools that number invoices manually. They skip a number by accident, create a test invoice with a real number, or import invoices from another system with a conflicting sequence.</p>
-      <p><strong>Do this instead:</strong> use a tool that assigns invoice numbers automatically, making it structurally impossible to create a gap. <a href="/invoicing">Invoicemonk</a> does this by design: every invoice in the sequence is tracked, and gaps cannot be created manually.</p>
+      <p><strong>Do this instead:</strong> use a tool that assigns invoice numbers automatically, making it structurally impossible to create a gap. <a href="/en/invoicing">Invoicemonk</a> does this by design: every invoice in the sequence is tracked, and gaps cannot be created manually.</p>
 
       <h3>4. Running multiple invoice series without documenting them</h3>
       <p>Some freelancers run separate sequences for different clients, currencies, or service types, for example "INV" for consulting and "DES" for design work. This is legally permitted in the EU, but only if each series is internally sequential, the system is documented in writing, and auditors can verify completeness across all series.</p>
@@ -1926,7 +1926,7 @@ export const cluster19Posts: BlogPost[] = [
         <li><strong>Audit your records.</strong> Go through every invoice you have issued and map the full sequence. Identify exactly where gaps exist and how many there are.</li>
         <li><strong>Document what you know.</strong> For each gap, note whether it was a cancelled invoice, a deleted draft, a numbering error, or something else. Written documentation, even a brief note in your accounting file, beats nothing.</li>
         <li><strong>Do not retroactively fill gaps.</strong> Do not create backdated invoices to fill missing numbers. This is worse than the gap itself: it is potential fraud and significantly harder to explain in an audit.</li>
-        <li><strong>Move forward cleanly.</strong> Switch to a tool that prevents future gaps. <a href="/invoicing">Invoicemonk</a> assigns numbers automatically; once a number is issued, it cannot be deleted, reused, or skipped.</li>
+        <li><strong>Move forward cleanly.</strong> Switch to a tool that prevents future gaps. <a href="/en/invoicing">Invoicemonk</a> assigns numbers automatically; once a number is issued, it cannot be deleted, reused, or skipped.</li>
         <li><strong>If you are already facing an audit:</strong> speak to a tax advisor or accountant in the relevant country before the audit begins. They can help you frame existing gaps in the most defensible way based on the documentation you have.</li>
       </ol>
 
@@ -2108,7 +2108,7 @@ export const cluster19Posts: BlogPost[] = [
         <li><strong>The total amount credited (gross), also negative.</strong></li>
       </ul>
 
-      <p style="background:#fff7ed;border-left:4px solid #f97316;padding:16px 20px;border-radius:8px;margin:24px 0;"><strong>Invoicemonk callout:</strong> Invoicemonk generates credit notes with all of these fields pre-filled from the original invoice, including the sequential credit note number and the reference to the original. You select the invoice to credit, enter the amount and reason, and the document is ready. <a href="/invoicing">Try Invoicemonk's invoice generator</a>.</p>
+      <p style="background:#fff7ed;border-left:4px solid #f97316;padding:16px 20px;border-radius:8px;margin:24px 0;"><strong>Invoicemonk callout:</strong> Invoicemonk generates credit notes with all of these fields pre-filled from the original invoice, including the sequential credit note number and the reference to the original. You select the invoice to credit, enter the amount and reason, and the document is ready. <a href="/en/invoicing">Try Invoicemonk's invoice generator</a>.</p>
 
       <h2>Full cancellation vs partial credit: which one to use?</h2>
       <p data-answer="true">Use a full cancellation credit note when the entire transaction is being reversed; use a partial credit note when only part of the invoice is being adjusted. When in doubt, cancel fully and reissue cleanly.</p>
@@ -2321,7 +2321,7 @@ export const cluster19Posts: BlogPost[] = [
         <li><strong>Your Polish client requests a KSeF invoice anyway.</strong> Some Polish accountants prefer to receive every invoice through KSeF for consistency. They can ask, but they cannot require it from a non-resident supplier. Keep issuing your standard PDF invoice with the reverse charge notation.</li>
       </ul>
       <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
-        <p style="margin:0;"><strong>Invoicemonk handles cross-border Polish invoices out of the box.</strong> Pick "Poland" as the client country and the PL VAT number field, the "Odwrotne obciążenie" notation, and the Article 196 reference appear automatically. <a href="/invoicing">Try Invoicemonk's invoice generator</a>.</p>
+        <p style="margin:0;"><strong>Invoicemonk handles cross-border Polish invoices out of the box.</strong> Pick "Poland" as the client country and the PL VAT number field, the "Odwrotne obciążenie" notation, and the Article 196 reference appear automatically. <a href="/en/invoicing">Try Invoicemonk's invoice generator</a>.</p>
       </aside>
 
       <h2>What are the mandatory fields on a Polish VAT invoice?</h2>
@@ -2550,7 +2550,7 @@ export const cluster19Posts: BlogPost[] = [
       </ul>
       <p>Note on currency: there is no legal requirement to denominate your invoice in KES as a foreign supplier. Invoice in your preferred currency. Your client's accountant handles the conversion for their records.</p>
       <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
-        <p style="margin:0;"><strong>Invoicemonk pre-fills KRA PIN, the non-resident reverse charge note, and the Cap 476 reference automatically.</strong> Pick "Kenya" as the client country and the right wording appears on the invoice. <a href="/invoicing">Try Invoicemonk's invoice generator</a>.</p>
+        <p style="margin:0;"><strong>Invoicemonk pre-fills KRA PIN, the non-resident reverse charge note, and the Cap 476 reference automatically.</strong> Pick "Kenya" as the client country and the right wording appears on the invoice. <a href="/en/invoicing">Try Invoicemonk's invoice generator</a>.</p>
       </aside>
 
       <h2>If you are a Kenyan freelancer billing international clients</h2>
@@ -2687,7 +2687,7 @@ export const cluster19Posts: BlogPost[] = [
         <li><strong>The total amount payable.</strong></li>
       </ul>
       <aside style="border-left:4px solid #0F766E;padding:12px 16px;background:#f0fdfa;margin:24px 0;border-radius:6px;">
-        <p style="margin:0;"><strong>Invoicemonk generates BIR-compliant Sales Invoices with all of these fields automatically</strong>, including TIN formatting, the VAT status statement, and sequential numbering. <a href="/invoicing">Try Invoicemonk's invoice generator</a>.</p>
+        <p style="margin:0;"><strong>Invoicemonk generates BIR-compliant Sales Invoices with all of these fields automatically</strong>, including TIN formatting, the VAT status statement, and sequential numbering. <a href="/en/invoicing">Try Invoicemonk's invoice generator</a>.</p>
       </aside>
 
       <h2>Do you need to charge VAT? The PHP 3 million threshold</h2>

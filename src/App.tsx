@@ -100,6 +100,8 @@ import EInvoicingGuide from "./pages/guides/EInvoicingGuide";
 import EInvoicingMandatesGuide from "./pages/guides/EInvoicingMandatesGuide";
 import Glossary from "./pages/Glossary";
 import Explore from "./pages/Explore";
+import EInvoicing from "./pages/EInvoicing";
+import MandatePage from "./pages/e-invoicing/MandatePage";
 
 // Help Center
 import HelpCenter from "./pages/help/HelpCenter";
@@ -135,6 +137,8 @@ const App = () => (
 
               {/* Product pages */}
               <Route path="invoicing" element={<Invoicing />} />
+              <Route path="e-invoicing" element={<EInvoicing />} />
+              <Route path="e-invoicing/:mandateSlug" element={<MandatePage />} />
               <Route path="expenses" element={<Expenses />} />
               <Route path="payments" element={<Payments />} />
               <Route path="accounting" element={<Accounting />} />
@@ -305,6 +309,15 @@ const App = () => (
               <Route path="blog/small-business-accounting-for-owners" element={<Navigate to="../blog/small-business-accounting-guide" replace />} />
               <Route path="blog/the-basics-of-small-business-accounting" element={<Navigate to="../blog/small-business-accounting-guide" replace />} />
               <Route path="blog/simple-accounting-for-small-business-beginners" element={<Navigate to="../blog/small-business-accounting-guide" replace />} />
+
+              {/* P1 cannibalisation fix — retire legacy e-invoicing long-form
+                  posts in favour of the per-mandate *-explained articles. */}
+              <Route path="blog/e-invoicing-india-gst-guide" element={<Navigate to="../blog/gst-irn-india-explained" replace />} />
+              <Route path="blog/e-invoicing-malaysia-myinvois-guide" element={<Navigate to="../blog/myinvois-malaysia-explained" replace />} />
+              <Route path="blog/e-invoicing-saudi-zatca-guide" element={<Navigate to="../blog/zatca-phase-2-explained" replace />} />
+              <Route path="blog/e-invoicing-nigeria-firs-guide" element={<Navigate to="../blog/firs-mbs-nigeria-explained" replace />} />
+              <Route path="blog/e-invoicing-kenya-etims" element={<Navigate to="../blog/kra-etims-kenya-explained" replace />} />
+
 
               {/* 404 within valid language prefix */}
               <Route path="*" element={<NotFound />} />

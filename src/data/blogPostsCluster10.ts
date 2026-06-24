@@ -20,10 +20,10 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['e-invoicing', 'FIRS', 'Nigeria', 'compliance', 'VAT', 'small business', 'TaxPro-Max'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     readTime: '18 min read',
     featuredImage: '/images/blog/e-invoicing-nigeria.jpg',
-    featuredImageAlt: 'Nigerian business owner reviewing FIRS e-invoicing compliance requirements on laptop',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s FIRS TaxPro-Max submission flow for the e invoicing nigeria firs guide guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -187,11 +187,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['FIRSMBS', 'FIRS', 'Nigeria', 'e-invoicing', 'VAT', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '12 min read',
     featuredImage: '/images/blog/firs-mbs.jpg',
-    featuredImageAlt: 'Diagram showing FIRS Merchant Buyer Solution data flow between sellers and buyers',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s FIRS TaxPro-Max submission flow for the nigeria firs merchant buyer solution guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -255,7 +255,7 @@ export const cluster10Posts: BlogPost[] = [
 
 <p>The right invoicing software handles most FIRSMBS requirements automatically. <a href="/__LANG__/compliance">Invoicemonk</a> generates all mandatory fields — IRN, QR code, TIN fields, and VAT breakdown — so you don't need to manually construct compliant invoices.</p>
 
-<p>For the full picture of Nigeria's e-invoicing requirements, see our <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">complete FIRS e-invoicing guide</a>.</p>
+<p>For the full picture of Nigeria's e-invoicing requirements, see our <a href="/__LANG__/blog/firs-mbs-nigeria-explained">complete FIRS e-invoicing guide</a>.</p>
 
 <h2>Key Takeaways</h2>
 
@@ -278,11 +278,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['FIRS', 'e-invoicing', 'Nigeria', 'small business', 'SME', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/nigeria-sme-einvoicing.jpg',
-    featuredImageAlt: 'Nigerian small business owner checking e-invoicing compliance status',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s e-invoicing compliance workflow for the nigeria e invoicing small business guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -344,11 +344,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['IRN', 'QR code', 'FIRS', 'Nigeria', 'e-invoicing', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/nigeria-irn-qr.jpg',
-    featuredImageAlt: 'QR code on a Nigerian e-invoice showing IRN verification',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s IRN issuance and QR-code validation for the nigeria invoice irn qr code guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -403,7 +403,7 @@ export const cluster10Posts: BlogPost[] = [
 
 <p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> includes both IRN and QR code generation on all invoices, ensuring your documents are fully FIRS-compliant.</p>
 
-<p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>. To add your TIN correctly, read <a href="/__LANG__/blog/nigeria-invoice-tin-number">how to add TIN to Nigerian invoices</a>.</p>
+<p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. To add your TIN correctly, read <a href="/__LANG__/blog/nigeria-invoice-tin-number">how to add TIN to Nigerian invoices</a>.</p>
     `
   },
 
@@ -416,11 +416,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['FIRS', 'penalties', 'Nigeria', 'e-invoicing', 'compliance', 'fines'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/nigeria-einvoicing-penalties.jpg',
-    featuredImageAlt: 'Warning sign about FIRS e-invoicing non-compliance penalties in Nigeria',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s penalty structure and compliance shield for the nigeria e invoicing penalties guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -463,7 +463,7 @@ export const cluster10Posts: BlogPost[] = [
 
 <p>The solution is straightforward: use compliant invoicing software that generates all required fields automatically. <a href="/__LANG__/blog/best-invoicing-software-nigeria">Compare the best invoicing software for Nigeria</a> or <a href="/__LANG__/invoicing">start creating compliant invoices free with Invoicemonk</a>.</p>
 
-<p>For the complete compliance guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>.</p>
+<p>For the complete compliance guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>.</p>
     `
   },
 
@@ -476,11 +476,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['FIRS', 'timeline', 'Nigeria', 'e-invoicing', 'deadlines', 'mandate'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '7 min read',
     featuredImage: '/images/blog/nigeria-einvoicing-timeline.jpg',
-    featuredImageAlt: 'Timeline showing FIRS e-invoicing rollout phases for Nigerian businesses',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s e-invoicing compliance workflow for the nigeria e invoicing timeline guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -527,7 +527,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>Run a pilot with a few invoices before full transition</li>
 </ol>
 
-<p>For the complete guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>.</p>
+<p>For the complete guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>.</p>
     `
   },
 
@@ -540,11 +540,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['PEPPOL', 'FIRS', 'Nigeria', 'e-invoicing', 'international trade', 'cross-border'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/nigeria-peppol.jpg',
-    featuredImageAlt: 'Global PEPPOL network map highlighting Nigeria connection for e-invoicing',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s Peppol four-corner network exchange for the nigeria peppol firs guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -576,7 +576,7 @@ export const cluster10Posts: BlogPost[] = [
 
 <p>Nigeria's PEPPOL integration is being rolled out alongside the broader FIRS e-invoicing mandate. While domestic e-invoicing via TaxPro-Max is the immediate priority, PEPPOL connectivity will follow for businesses engaged in international trade.</p>
 
-<p>For the full domestic e-invoicing guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>. For the global picture, check our <a href="/__LANG__/blog/e-invoicing-mandates-by-country">e-invoicing mandates by country tracker</a>.</p>
+<p>For the full domestic e-invoicing guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. For the global picture, check our <a href="/__LANG__/blog/e-invoicing-mandates-by-country">e-invoicing mandates by country tracker</a>.</p>
     `
   },
 
@@ -589,11 +589,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['VAT', 'invoice requirements', 'Nigeria', 'FIRS', 'compliance', 'checklist'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/nigeria-vat-requirements.jpg',
-    featuredImageAlt: 'Checklist of VAT invoice requirements for Nigerian businesses',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s e-invoicing compliance workflow for the nigeria vat invoice requirements guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -659,11 +659,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['Nigeria', 'tax reform', 'invoicing', 'VAT', 'FIRS', 'legislation'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '11 min read',
     featuredImage: '/images/blog/nigeria-tax-reform.jpg',
-    featuredImageAlt: 'Nigerian tax reform 2025 impact on business invoicing requirements',
+    featuredImageAlt: 'Editorial illustration of Nigeria\'s upcoming tax reform impact for the nigeria tax reform acts invoicing guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ng',
@@ -700,7 +700,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>Ensure your digital records are backed up and searchable</li>
 </ol>
 
-<p>For the full e-invoicing compliance guide, see <a href="/__LANG__/blog/e-invoicing-nigeria-firs-guide">FIRS E-Invoicing in Nigeria</a>. To understand the penalties for non-compliance, read our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>.</p>
+<p>For the full e-invoicing compliance guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. To understand the penalties for non-compliance, read our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>.</p>
     `
   },
 
@@ -717,10 +717,10 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['eTIMS', 'KRA', 'Kenya', 'e-invoicing', 'compliance', 'VAT', 'small business'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     readTime: '16 min read',
     featuredImage: '/images/blog/etims-kenya.jpg',
-    featuredImageAlt: 'Kenyan business owner registering for KRA eTIMS electronic invoicing',
+    featuredImageAlt: 'Editorial illustration of Kenya\'s KRA eTIMS device and invoice flow for the e invoicing kenya etims guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ke',
@@ -847,11 +847,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['eTIMS', 'KRA', 'Kenya', 'small business', 'setup guide', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '12 min read',
     featuredImage: '/images/blog/kenya-etims-setup.jpg',
-    featuredImageAlt: 'Small business owner in Kenya setting up eTIMS on their computer',
+    featuredImageAlt: 'Editorial illustration of Kenya\'s KRA eTIMS device and invoice flow for the kenya etims small business guide guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ke',
@@ -904,7 +904,7 @@ export const cluster10Posts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>For the complete eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
+<p>For the complete eTIMS overview, see <a href="/__LANG__/blog/kra-etims-kenya-explained">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
     `
   },
 
@@ -917,11 +917,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['eTIMS', 'KRA', 'Kenya', 'how-to', 'invoice generation', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/kenya-generate-etims.jpg',
-    featuredImageAlt: 'Step-by-step process of generating a KRA eTIMS invoice in Kenya',
+    featuredImageAlt: 'Editorial illustration of Kenya\'s KRA eTIMS device and invoice flow for the kenya how to generate etims invoice guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ke',
@@ -977,7 +977,7 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>Currency:</strong> KES for domestic transactions</li>
 </ul>
 
-<p>For the full eTIMS overview, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
+<p>For the full eTIMS overview, see <a href="/__LANG__/blog/kra-etims-kenya-explained">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
     `
   },
 
@@ -990,11 +990,11 @@ export const cluster10Posts: BlogPost[] = [
     tags: ['VAT', 'invoice requirements', 'Kenya', 'KRA', 'compliance', 'eTIMS'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/kenya-vat-requirements.jpg',
-    featuredImageAlt: 'Checklist of VAT invoice requirements for Kenyan businesses',
+    featuredImageAlt: 'Editorial illustration of Kenya\'s e-invoicing compliance workflow for the kenya vat invoice requirements guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'ke',
@@ -1038,7 +1038,7 @@ export const cluster10Posts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>For the complete eTIMS guide, see <a href="/__LANG__/blog/e-invoicing-kenya-etims">KRA eTIMS in Kenya</a>. To create compliant invoices instantly, try <a href="/__LANG__/invoicing">Invoicemonk's free generator</a>.</p>
+<p>For the complete eTIMS guide, see <a href="/__LANG__/blog/kra-etims-kenya-explained">KRA eTIMS in Kenya</a>. To create compliant invoices instantly, try <a href="/__LANG__/invoicing">Invoicemonk's free generator</a>.</p>
     `
   },
 

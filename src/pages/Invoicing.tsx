@@ -117,6 +117,17 @@ const Invoicing = () => {
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                className="text-body-sm text-muted-foreground mt-6"
+              >
+                Need country-specific clearance, CSID, IRN, UUID, or Peppol?{' '}
+                <Link to="/e-invoicing" className="text-primary font-medium hover:underline">
+                  See the E-invoicing platform (16 mandates)
+                </Link>
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="text-body-sm text-muted-foreground mt-6"
               >

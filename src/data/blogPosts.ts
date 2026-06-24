@@ -147,7 +147,7 @@ export const blogPosts: BlogPost[] = [
       <p>Even experienced business owners make invoicing mistakes. Here are the most common ones and how to prevent them:</p>
       
       <h3>Delaying Invoice Sending</h3>
-      <p>The longer you wait to send an invoice, the longer you wait to get paid. Invoice immediately upon completing work or delivering goods. Using <a href="/invoicing">invoicing software</a> makes this easy—you can create and send invoices in minutes.</p>
+      <p>The longer you wait to send an invoice, the longer you wait to get paid. Invoice immediately upon completing work or delivering goods. Using <a href="/en/invoicing">invoicing software</a> makes this easy—you can create and send invoices in minutes.</p>
       
       <h3>Vague Descriptions</h3>
       <p>Don't write "consulting services - $5,000." Instead, specify: "Strategic marketing consultation (20 hours @ $250/hr), January 1-15, 2026, including competitive analysis report and 90-day action plan." Clear descriptions prevent disputes and speed up approval.</p>
@@ -163,7 +163,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>How Invoicing Software Transforms Your Business</h2>
       <p>Manual invoicing—using spreadsheets or word processors—works when you're small. But as your business grows, the limitations become painful. You spend hours on admin work, mistakes creep in, and tracking payments becomes a nightmare.</p>
-      <p><a href="/invoicing">Professional invoicing software</a> solves these problems:</p>
+      <p><a href="/en/invoicing">Professional invoicing software</a> solves these problems:</p>
       <ul>
         <li><strong>Templates:</strong> Create invoices in minutes with your branding and saved details</li>
         <li><strong>Automation:</strong> Schedule recurring invoices for regular clients</li>
@@ -199,7 +199,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Be professional about collections:</strong> Polite persistence works better than aggressive demands</li>
         <li><strong>Consider deposits for new clients:</strong> Reduce risk by collecting partial payment upfront</li>
       </ul>
-      <p>For more detailed strategies, see our guide on <a href="/blog/ultimate-guide-getting-paid-faster">getting paid faster</a>.</p>
+      <p>For more detailed strategies, see our guide on <a href="/en/blog/ultimate-guide-getting-paid-faster">getting paid faster</a>.</p>
 
       <h2>Building Your Invoicing System</h2>
       <p>A complete invoicing system includes more than just sending invoices. Here's what you need:</p>
@@ -211,16 +211,16 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Payment reconciliation:</strong> Match payments to invoices efficiently</li>
         <li><strong>Reporting:</strong> Understand your cash flow and client payment patterns</li>
       </ul>
-      <p>You can build this system manually, but <a href="/invoicing">invoicing software like Invoicemonk</a> provides all these components in one integrated platform, saving you time and reducing errors.</p>
+      <p>You can build this system manually, but <a href="/en/invoicing">invoicing software like Invoicemonk</a> provides all these components in one integrated platform, saving you time and reducing errors.</p>
 
       <h2>Industry-Specific Invoicing Considerations</h2>
       <p>Different industries have different invoicing norms and requirements:</p>
       
       <h3>Freelancers and Consultants</h3>
-      <p>Track hours carefully and provide detailed descriptions of work. Consider using project-based pricing for clearer expectations. Learn more in our <a href="/blog/freelancer-business-guide">freelancer business guide</a>.</p>
+      <p>Track hours carefully and provide detailed descriptions of work. Consider using project-based pricing for clearer expectations. Learn more in our <a href="/en/blog/freelancer-business-guide">freelancer business guide</a>.</p>
       
       <h3>Contractors and Trades</h3>
-      <p>Include material costs separately from labor. Use progress billing for larger projects. Document change orders carefully. See our <a href="/contractors">contractor-specific guidance</a>.</p>
+      <p>Include material costs separately from labor. Use progress billing for larger projects. Document change orders carefully. See our <a href="/en/contractors">contractor-specific guidance</a>.</p>
       
       <h3>Retail and E-commerce</h3>
       <p>Issue receipts for immediate transactions, invoices for credit sales. Include product codes and detailed descriptions for easy reference.</p>
@@ -235,16 +235,16 @@ export const blogPosts: BlogPost[] = [
         <li>Create or update your invoice template with all essential elements</li>
         <li>Establish clear payment terms and communicate them to clients</li>
         <li>Set up a tracking system for invoice status and follow-ups</li>
-        <li>Consider <a href="/invoicing">professional invoicing software</a> to automate and streamline the process</li>
+        <li>Consider <a href="/en/invoicing">professional invoicing software</a> to automate and streamline the process</li>
       </ol>
       <p>Professional invoicing isn't just about getting paid—it's about building a business that runs smoothly, maintains strong client relationships, and positions you for growth.</p>
 
       <h2>Related Resources</h2>
       <p>Continue building your invoicing and business finance knowledge:</p>
       <ul>
-        <li><a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">How to Create the Perfect Invoice Template</a></li>
-        <li><a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">5 Essential Elements of an Invoice</a></li>
-        <li><a href="/blog/ultimate-guide-getting-paid-faster">The Ultimate Guide to Getting Paid Faster</a></li>
+        <li><a href="/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">How to Create the Perfect Invoice Template</a></li>
+        <li><a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">5 Essential Elements of an Invoice</a></li>
+        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">The Ultimate Guide to Getting Paid Faster</a></li>
       </ul>
     `,
     entityMentions: [
@@ -317,7 +317,7 @@ export const blogPosts: BlogPost[] = [
       <p>The best time to ensure fast payment is before you do any work at all. Payment expectations should be crystal clear from the first conversation:</p>
       
       <h3>Define Terms in Writing</h3>
-      <p>Never assume clients understand your payment terms. Include them in proposals, contracts, and quotes. Specify the due date, accepted payment methods, late payment penalties, and any deposit requirements. For the fastest cycles, default to <strong>Net 15</strong> and consider an early-payment discount such as <strong>2/10 Net 15</strong> (2% off if paid within 10 days). See our guide to <a href="/blog/invoice-payment-terms-net-30-60-90">understanding payment terms</a>.</p>
+      <p>Never assume clients understand your payment terms. Include them in proposals, contracts, and quotes. Specify the due date, accepted payment methods, late payment penalties, and any deposit requirements. For the fastest cycles, default to <strong>Net 15</strong> and consider an early-payment discount such as <strong>2/10 Net 15</strong> (2% off if paid within 10 days). See our guide to <a href="/en/blog/invoice-payment-terms-net-30-60-90">understanding payment terms</a>.</p>
       
       <h3>Discuss Payment Upfront</h3>
       <p>Many business owners feel awkward discussing money. Get over it. Clients expect to pay for value—talking about payment is professional, not pushy. Cover payment terms in your initial meetings and confirm understanding before starting work.</p>
@@ -347,10 +347,10 @@ export const blogPosts: BlogPost[] = [
       <p>Your invoice itself affects how quickly you get paid. Follow these practices:</p>
       
       <h3>Invoice Immediately</h3>
-      <p>Send invoices the day you complete work or deliver goods. Every day you delay sending an invoice is a day you delay getting paid. Use <a href="/invoicing">invoicing software</a> to create and send invoices in minutes.</p>
+      <p>Send invoices the day you complete work or deliver goods. Every day you delay sending an invoice is a day you delay getting paid. Use <a href="/en/invoicing">invoicing software</a> to create and send invoices in minutes.</p>
       
       <h3>Be Clear and Detailed</h3>
-      <p>Confusion delays payment. Include specific descriptions, dates, and references that help clients understand exactly what they're paying for. Read our <a href="/blog/complete-guide-to-business-invoicing">complete invoicing guide</a> for detailed best practices.</p>
+      <p>Confusion delays payment. Include specific descriptions, dates, and references that help clients understand exactly what they're paying for. Read our <a href="/en/blog/complete-guide-to-business-invoicing">complete invoicing guide</a> for detailed best practices.</p>
       
       <h3>Make the Total Obvious</h3>
       <p>The amount due should be the most prominent element on your invoice. Don't make clients hunt for it.</p>
@@ -374,7 +374,7 @@ export const blogPosts: BlogPost[] = [
       <p>Escalate gradually. At 7 days overdue, send a firmer reminder. At 14 days, call. At 30 days, consider formal collection processes. Document everything.</p>
       
       <h3>Automate the Process</h3>
-      <p><a href="/invoicing">Invoicing software</a> can send these reminders automatically, saving you time and ensuring consistency. Automation removes the emotional burden of chasing payments.</p>
+      <p><a href="/en/invoicing">Invoicing software</a> can send these reminders automatically, saving you time and ensuring consistency. Automation removes the emotional burden of chasing payments.</p>
 
       <h2>Handling Late Payments Professionally</h2>
       <p>Despite your best efforts, some payments will be late. How you handle these situations affects both your cash flow and client relationships:</p>
@@ -407,7 +407,7 @@ export const blogPosts: BlogPost[] = [
       <p>For projects spanning weeks or months, invoice at defined milestones rather than only at completion. This keeps cash flowing throughout the project and limits your exposure.</p>
       
       <h3>Progress Billing</h3>
-      <p>For ongoing work, invoice weekly or bi-weekly rather than monthly. More frequent billing means faster payment cycles. Learn more in our <a href="/blog/winning-proposals-estimates-guide">proposals and estimates guide</a>.</p>
+      <p>For ongoing work, invoice weekly or bi-weekly rather than monthly. More frequent billing means faster payment cycles. Learn more in our <a href="/en/blog/winning-proposals-estimates-guide">proposals and estimates guide</a>.</p>
       
       <h3>Retainer Agreements</h3>
       <p>For ongoing client relationships, consider monthly retainers paid in advance. This provides predictable cash flow and simplifies billing for both parties.</p>
@@ -439,7 +439,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Accounting integration:</strong> Connect invoicing with your accounting for accurate records</li>
         <li><strong>Client portals:</strong> Let clients view invoices and pay online at their convenience</li>
       </ul>
-      <p><a href="/payments">Invoicemonk</a> provides all these capabilities in one integrated platform, designed specifically for small businesses and freelancers who need to get paid faster.</p>
+      <p><a href="/en/payments">Invoicemonk</a> provides all these capabilities in one integrated platform, designed specifically for small businesses and freelancers who need to get paid faster.</p>
 
       <h2>Measuring Payment Performance</h2>
       <p>What gets measured gets managed. Track these metrics:</p>
@@ -463,13 +463,13 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/invoice-payment-terms-net-30-60-90">Understanding Invoice Payment Terms (Net 15, 30, 60, 90)</a></li>
-        <li><a href="/blog/payment-reminder-email-templates">Payment Reminder Email Templates</a></li>
-        <li><a href="/use-cases/milestone-billing">Milestone Billing for Larger Projects</a></li>
-        <li><a href="/use-cases/recurring-billing">Recurring Billing for Retainers and Subscriptions</a></li>
-        <li><a href="/blog/small-business-accounting-guide">Small Business Accounting Guide</a></li>
-        <li><a href="/payments">Accept Online Payments with Invoicemonk</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/invoice-payment-terms-net-30-60-90">Understanding Invoice Payment Terms (Net 15, 30, 60, 90)</a></li>
+        <li><a href="/en/blog/payment-reminder-email-templates">Payment Reminder Email Templates</a></li>
+        <li><a href="/en/use-cases/milestone-billing">Milestone Billing for Larger Projects</a></li>
+        <li><a href="/en/use-cases/recurring-billing">Recurring Billing for Retainers and Subscriptions</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Small Business Accounting Guide</a></li>
+        <li><a href="/en/payments">Accept Online Payments with Invoicemonk</a></li>
       </ul>
     `,
     entityMentions: [
@@ -521,7 +521,7 @@ export const blogPosts: BlogPost[] = [
     ],
     content: `
       <p>Here's the uncomfortable truth: <strong>82% of small businesses that fail cite cash flow problems as a factor</strong> — and most cash flow problems trace back to poor accounting habits. Not complicated accounting, not advanced financial modelling. Just the basics, done consistently.</p>
-      <p>This guide is written for the people who actually have to make the decisions: small business owners and freelancers. You don't need to become a CPA. You need to know what your numbers are telling you, what to do about them, and where the system starts. Spoiler: it starts with the invoice. Every dollar of revenue you record begins as an invoice you sent — get that step right and the rest of accounting becomes mostly automatic. Tools like <a href="/invoicing">Invoicemonk's invoicing</a> feed clean data into your books so you spend less time on bookkeeping and more time on the decisions that matter.</p>
+      <p>This guide is written for the people who actually have to make the decisions: small business owners and freelancers. You don't need to become a CPA. You need to know what your numbers are telling you, what to do about them, and where the system starts. Spoiler: it starts with the invoice. Every dollar of revenue you record begins as an invoice you sent — get that step right and the rest of accounting becomes mostly automatic. Tools like <a href="/en/invoicing">Invoicemonk's invoicing</a> feed clean data into your books so you spend less time on bookkeeping and more time on the decisions that matter.</p>
 
       <h2>Bookkeeping vs Accounting: What's the Difference?</h2>
       <p><strong>Bookkeeping</strong> is the day-to-day recording of transactions — logging income, expenses, and bank movements, categorising them, and reconciling to your bank statement. <strong>Accounting</strong> is the broader discipline that includes bookkeeping plus interpreting the data: preparing financial statements, tax planning, advising on decisions. Most small business owners do their own bookkeeping and outsource the accounting work (especially tax). That split is what this guide will help you build.</p>
@@ -578,12 +578,12 @@ export const blogPosts: BlogPost[] = [
       <p><strong>Best for:</strong> Inventory-based businesses, companies with complex payment terms, and businesses planning to grow substantially.</p>
 
       <h3>Making the Choice</h3>
-      <p>Cash basis is simpler and often sufficient for small businesses with less than $25 million in annual revenue. However, if you carry significant inventory, have complex payment terms, or plan to seek investment, accrual accounting provides better insights. Consult with an accountant about your specific situation before deciding. For a deeper dive, see our <a href="/blog/cash-vs-accrual-accounting-explained">cash vs accrual comparison</a>.</p>
+      <p>Cash basis is simpler and often sufficient for small businesses with less than $25 million in annual revenue. However, if you carry significant inventory, have complex payment terms, or plan to seek investment, accrual accounting provides better insights. Consult with an accountant about your specific situation before deciding. For a deeper dive, see our <a href="/en/blog/cash-vs-accrual-accounting-explained">cash vs accrual comparison</a>.</p>
 
       <h2>Single-Entry vs Double-Entry Bookkeeping</h2>
       <p><strong>Single-entry bookkeeping</strong> records each transaction once — similar to a checkbook register. It's simple and works for very small businesses with straightforward finances. You track income and expenses in a single ledger.</p>
       <p><strong>Double-entry bookkeeping</strong> records every transaction in two accounts — a debit and a credit. For example, when you receive a $500 client payment, you debit (increase) cash and credit (decrease) accounts receivable. This method catches errors automatically because the books must always balance.</p>
-      <p>Most businesses should use double-entry bookkeeping. It's the standard for any business that needs accurate financial statements, and modern <a href="/accounting">accounting software like Invoicemonk</a> handles the debit/credit complexity for you behind the scenes — you just record the transaction once.</p>
+      <p>Most businesses should use double-entry bookkeeping. It's the standard for any business that needs accurate financial statements, and modern <a href="/en/accounting">accounting software like Invoicemonk</a> handles the debit/credit complexity for you behind the scenes — you just record the transaction once.</p>
 
       <h2>Understanding Your Chart of Accounts</h2>
       <p>A chart of accounts is your accounting system's backbone—it's an organized list of all the categories you'll use to classify transactions. Think of it as a filing system for your financial data.</p>
@@ -643,7 +643,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Think ahead:</strong> Add accounts for activities you plan to have, not just current ones</li>
         <li><strong>Stay consistent:</strong> Use the same account numbers and names across all systems</li>
       </ul>
-      <p><a href="/accounting">Invoicemonk</a> provides a pre-configured chart of accounts that you can customize for your business, saving you time and ensuring you follow best practices. For a fuller walk-through, see our <a href="/blog/chart-of-accounts-for-small-business">chart of accounts setup guide</a>.</p>
+      <p><a href="/en/accounting">Invoicemonk</a> provides a pre-configured chart of accounts that you can customize for your business, saving you time and ensuring you follow best practices. For a fuller walk-through, see our <a href="/en/blog/chart-of-accounts-for-small-business">chart of accounts setup guide</a>.</p>
 
       <h2>Essential Financial Statements for Small Business Owners</h2>
       <p>Three financial statements tell the story of your business. Understanding them is crucial for making informed decisions and attracting investors or lenders.</p>
@@ -756,13 +756,13 @@ export const blogPosts: BlogPost[] = [
       <p>Compare your records against bank statements monthly at minimum. This catches errors, fraud, and missing transactions. It's easier to fix problems when they're recent.</p>
 
       <h3>Use Accounting Software</h3>
-      <p>Spreadsheets work when you're tiny, but software like <a href="/accounting">Invoicemonk</a> saves time, reduces errors, and provides better insights as you grow. The investment pays for itself quickly through time saved and errors prevented.</p>
+      <p>Spreadsheets work when you're tiny, but software like <a href="/en/accounting">Invoicemonk</a> saves time, reduces errors, and provides better insights as you grow. The investment pays for itself quickly through time saved and errors prevented.</p>
 
       <h2>Bookkeeping Methods Compared</h2>
       <p>You have three realistic options for actually recording transactions. Pick the one that matches where your business is today, not where you want it to be in three years.</p>
       <ul>
         <li><strong>Spreadsheet method.</strong> Columns for date, description, amount in, amount out, running balance. Free and straightforward. Works well under ~50 transactions/month — beyond that it becomes error-prone.</li>
-        <li><strong>Accounting software.</strong> Tools like <a href="/accounting">Invoicemonk</a> connect to your bank, categorise transactions, and generate reports. Worth the investment once you're doing consistent business or have more than ~50 transactions/month.</li>
+        <li><strong>Accounting software.</strong> Tools like <a href="/en/accounting">Invoicemonk</a> connect to your bank, categorise transactions, and generate reports. Worth the investment once you're doing consistent business or have more than ~50 transactions/month.</li>
         <li><strong>Bank-statement method.</strong> Categorise transactions directly on your bank statement. Minimal but workable for very simple side-hustles or businesses with one income stream.</li>
       </ul>
 
@@ -818,13 +818,13 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Tax Planning vs. Tax Preparation</h3>
       <p>Tax preparation is looking backward—filing returns for completed years. Tax planning is looking forward—structuring your business and timing decisions to minimize taxes legally. Good accountants do both.</p>
-      <p>For more detailed guidance, see our <a href="/blog/small-business-tax-compliance-guide">tax compliance guide</a>.</p>
+      <p>For more detailed guidance, see our <a href="/en/blog/small-business-tax-compliance-guide">tax compliance guide</a>.</p>
 
       <h2>Budgeting for Your Small Business</h2>
       <p>A budget is your financial plan for the future. It helps you make better decisions and avoid surprises:</p>
 
       <h3>Creating a Budget</h3>
-      <p>Start with projected revenue based on historical data and realistic growth assumptions. Then project expenses, including both fixed costs (rent, salaries) and variable costs (materials, commissions). The difference is your projected profit. For detailed guidance, see our article on <a href="/blog/how-to-create-a-budget-for-your-small-business">creating a business budget</a>.</p>
+      <p>Start with projected revenue based on historical data and realistic growth assumptions. Then project expenses, including both fixed costs (rent, salaries) and variable costs (materials, commissions). The difference is your projected profit. For detailed guidance, see our article on <a href="/en/blog/how-to-create-a-budget-for-your-small-business">creating a business budget</a>.</p>
 
       <h3>Monitoring vs. Budget</h3>
       <p>A budget is only useful if you compare actual results against it. Monthly review is ideal. Investigate significant variances—both positive and negative—and adjust your approach accordingly.</p>
@@ -881,7 +881,7 @@ export const blogPosts: BlogPost[] = [
       <table>
         <thead><tr><th>Business stage</th><th>Recommended accounting setup</th></tr></thead>
         <tbody>
-          <tr><td>Side hustle / early freelancing</td><td>Invoicing software (e.g. <a href="/invoicing">Invoicemonk</a>) + spreadsheet for expenses</td></tr>
+          <tr><td>Side hustle / early freelancing</td><td>Invoicing software (e.g. <a href="/en/invoicing">Invoicemonk</a>) + spreadsheet for expenses</td></tr>
           <tr><td>Full-time solo business</td><td>Integrated invoicing + expense tracking + bank feed</td></tr>
           <tr><td>Small team (2–5 people)</td><td>Full accounting software + part-time bookkeeper</td></tr>
           <tr><td>Growing business (5+ people)</td><td>Accounting software + part-time accountant + tax advisor</td></tr>
@@ -905,18 +905,18 @@ export const blogPosts: BlogPost[] = [
       <h2>Best Accounting Software for Small Business</h2>
       <p>The right accounting software automates much of the work described in this guide. Here's how the leading platforms compare for small businesses:</p>
       <ul>
-        <li><strong><a href="/accounting">Invoicemonk</a> — Best all-in-one for freelancers and service businesses.</strong> Combines invoicing, expense tracking, receipt scanning, and accounting in one platform. Pro from $15/month. Multi-currency and multi-jurisdiction tax compliance built in. Ideal if you want one tool instead of three.</li>
+        <li><strong><a href="/en/accounting">Invoicemonk</a> — Best all-in-one for freelancers and service businesses.</strong> Combines invoicing, expense tracking, receipt scanning, and accounting in one platform. Pro from $15/month. Multi-currency and multi-jurisdiction tax compliance built in. Ideal if you want one tool instead of three.</li>
         <li><strong>QuickBooks Online — Best for US businesses needing payroll.</strong> The most popular small business accounting software in the US. Comprehensive features including payroll, inventory, and the largest ecosystem of accountants. Expensive ($30+/month, no Pro plan) and increasingly complex.</li>
         <li><strong>Xero — Best for accountant collaboration.</strong> Dominant in the UK, Australia, and New Zealand. Excellent bank reconciliation and the largest network of bookkeepers/accountants outside the US. Strong multi-currency. From $29/month.</li>
         <li><strong>Wave — Best free option for US/Canadian businesses.</strong> Genuinely free accounting and invoicing with no client limits. Limited features (no multi-currency, basic receipt scanning) and US/Canada-focused. Good starting point if budget is the primary concern.</li>
       </ul>
-      <p>For a detailed comparison with pricing tables and feature matrices, see our <a href="/best-invoicing-software">Best Invoicing Software</a> guide.</p>
+      <p>For a detailed comparison with pricing tables and feature matrices, see our <a href="/en/best-invoicing-software">Best Invoicing Software</a> guide.</p>
 
       <h2>Accounting by Business Type</h2>
       <p>While the fundamentals are the same, different business types face unique accounting challenges:</p>
 
       <h3>Freelancers and Sole Proprietors</h3>
-      <p>Your biggest challenges are separating personal and business finances, managing irregular income, and handling self-employment tax. Use cash basis accounting (simpler, shows real cash position), set aside 25–30% of every payment for taxes, and track mileage if you drive for work. Quarterly estimated tax payments are usually required. <a href="/blog/freelance-finance-guide">Our freelance finance guide</a> covers this in depth.</p>
+      <p>Your biggest challenges are separating personal and business finances, managing irregular income, and handling self-employment tax. Use cash basis accounting (simpler, shows real cash position), set aside 25–30% of every payment for taxes, and track mileage if you drive for work. Quarterly estimated tax payments are usually required. <a href="/en/blog/freelance-finance-guide">Our freelance finance guide</a> covers this in depth.</p>
 
       <h3>Retail and Inventory Businesses</h3>
       <p>Inventory accounting adds complexity: you must track cost of goods sold (COGS), manage stock valuations (FIFO, LIFO, or weighted average), and handle shrinkage. Accrual accounting is usually better for inventory businesses because it matches revenue with the costs of the products sold. You'll also need to handle sales tax collection and remittance. Consider software with built-in inventory tracking.</p>
@@ -932,7 +932,7 @@ export const blogPosts: BlogPost[] = [
       <ol>
         <li><strong>Week 1:</strong> Separate business and personal finances if you haven't already</li>
         <li><strong>Week 2:</strong> Choose an accounting method (cash or accrual) and set up your chart of accounts</li>
-        <li><strong>Week 3:</strong> Set up <a href="/accounting">accounting software</a> to track income and expenses</li>
+        <li><strong>Week 3:</strong> Set up <a href="/en/accounting">accounting software</a> to track income and expenses</li>
         <li><strong>Week 4:</strong> Establish a routine for recording transactions and reconciling accounts</li>
         <li><strong>Month 2:</strong> Create a simple budget, run your first 30-minute owner check-in, and review actual results</li>
         <li><strong>Ongoing:</strong> Understand your tax obligations and set aside money accordingly</li>
@@ -945,7 +945,7 @@ export const blogPosts: BlogPost[] = [
       <p>Bookkeeping is the day-to-day recording of transactions — categorising expenses, reconciling accounts, and maintaining ledgers. Accounting is the broader discipline that includes interpreting financial data, preparing financial statements, tax planning, and strategic advice. Bookkeeping is a subset of accounting.</p>
 
       <h3>How much does it cost to do accounting for a small business?</h3>
-      <p>Costs vary based on complexity. DIY with software like <a href="/accounting">Invoicemonk</a> costs $15-50/month. Hiring a bookkeeper runs $150-500/month. A full accountant costs $200-500/month for ongoing work, plus $500-2,000 for annual tax preparation. Start with software and add professional help as your business grows.</p>
+      <p>Costs vary based on complexity. DIY with software like <a href="/en/accounting">Invoicemonk</a> costs $15-50/month. Hiring a bookkeeper runs $150-500/month. A full accountant costs $200-500/month for ongoing work, plus $500-2,000 for annual tax preparation. Start with software and add professional help as your business grows.</p>
 
       <h3>What's the easiest accounting method for small businesses?</h3>
       <p>Cash basis accounting is simpler for most small businesses. You record income when received and expenses when paid. It requires less expertise and shows your real-time cash position. Most businesses under $25 million revenue can use this method.</p>
@@ -969,23 +969,23 @@ export const blogPosts: BlogPost[] = [
       <p>Open a dedicated business bank account and credit card. Pay yourself a regular salary or draw. Never use personal accounts for business expenses or vice versa. This simplifies accounting, protects your liability protection, and makes tax preparation straightforward.</p>
 
       <h3>What is the best free accounting software?</h3>
-      <p>For US and Canadian businesses, Wave offers free accounting and invoicing with no limits. For international businesses, <a href="/accounting">Invoicemonk's Pro plan</a> provides multi-currency support and tax compliance for multiple jurisdictions. Both are genuine free tools, not limited trials. If you need payroll, no major platform offers that for free — expect to pay $30+/month for payroll add-ons.</p>
+      <p>For US and Canadian businesses, Wave offers free accounting and invoicing with no limits. For international businesses, <a href="/en/accounting">Invoicemonk's Pro plan</a> provides multi-currency support and tax compliance for multiple jurisdictions. Both are genuine free tools, not limited trials. If you need payroll, no major platform offers that for free — expect to pay $30+/month for payroll add-ons.</p>
 
       <h3>How do I do my own accounting without an accountant?</h3>
       <p>Start with accounting software (Invoicemonk, QuickBooks, or Wave) and follow these steps: (1) separate business and personal accounts, (2) record every transaction daily, (3) reconcile bank accounts monthly, (4) review your income statement and balance sheet quarterly, and (5) set aside money for taxes. Handle day-to-day bookkeeping yourself, but consider hiring an accountant for annual tax preparation and strategic tax planning — a good accountant typically saves you more than they cost.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/how-to-create-a-budget-for-your-small-business">How to Create a Budget for Your Small Business</a></li>
-        <li><a href="/blog/chart-of-accounts-for-small-business">Chart of Accounts: A Complete Guide</a></li>
-        <li><a href="/blog/cash-vs-accrual-accounting-explained">Cash vs. Accrual Accounting Explained</a></li>
-        <li><a href="/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
+        <li><a href="/en/blog/how-to-create-a-budget-for-your-small-business">How to Create a Budget for Your Small Business</a></li>
+        <li><a href="/en/blog/chart-of-accounts-for-small-business">Chart of Accounts: A Complete Guide</a></li>
+        <li><a href="/en/blog/cash-vs-accrual-accounting-explained">Cash vs. Accrual Accounting Explained</a></li>
+        <li><a href="/en/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
         <li><a href="/en/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting for Small Businesses</a></li>
-        <li><a href="/blog/diy-small-business-accounting">DIY vs Hiring an Accountant</a></li>
-        <li><a href="/blog/small-business-tax-compliance-guide">Small Business Tax Compliance Guide</a></li>
-        <li><a href="/guides/business-finances">The Complete Business Finances Guide</a></li>
-        <li><a href="/best-invoicing-software">Best Invoicing Software Compared</a></li>
-        <li><a href="/accounting">Invoicemonk Accounting Tools</a></li>
+        <li><a href="/en/blog/diy-small-business-accounting">DIY vs Hiring an Accountant</a></li>
+        <li><a href="/en/blog/small-business-tax-compliance-guide">Small Business Tax Compliance Guide</a></li>
+        <li><a href="/en/guides/business-finances">The Complete Business Finances Guide</a></li>
+        <li><a href="/en/best-invoicing-software">Best Invoicing Software Compared</a></li>
+        <li><a href="/en/accounting">Invoicemonk Accounting Tools</a></li>
       </ul>
     `,
     entityMentions: [
@@ -1064,7 +1064,7 @@ export const blogPosts: BlogPost[] = [
       <p>When in doubt, keep it longer. Storage is cheap; reconstructing records is expensive.</p>
       
       <h3>Digital vs. Paper</h3>
-      <p>Most jurisdictions now accept digital records. Use <a href="/compliance">accounting software</a> to maintain organized, backed-up records. If you receive paper documents, scan them and organize digitally. Ensure your digital backup system is reliable.</p>
+      <p>Most jurisdictions now accept digital records. Use <a href="/en/compliance">accounting software</a> to maintain organized, backed-up records. If you receive paper documents, scan them and organize digitally. Ensure your digital backup system is reliable.</p>
 
       <h2>Common Tax Deductions</h2>
       <p>Deductions reduce your taxable income, lowering your tax bill. Common legitimate business deductions include:</p>
@@ -1211,7 +1211,7 @@ export const blogPosts: BlogPost[] = [
         <li>Understand your specific obligations based on business structure and location</li>
         <li>Set up organized record-keeping from day one</li>
         <li>Calendar all deadlines with reminders</li>
-        <li>Track income and expenses diligently using <a href="/compliance">proper software</a></li>
+        <li>Track income and expenses diligently using <a href="/en/compliance">proper software</a></li>
         <li>Set aside money for taxes as you earn—don't wait</li>
         <li>Review tax situation quarterly and make estimated payments</li>
         <li>Engage professionals for complex situations or as needed</li>
@@ -1219,9 +1219,9 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Small Business Accounting Guide</a></li>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/compliance">Tax-Compliant Invoicing with Invoicemonk</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/compliance">Tax-Compliant Invoicing with Invoicemonk</a></li>
       </ul>
     `,
     entityMentions: [
@@ -1285,7 +1285,7 @@ export const blogPosts: BlogPost[] = [
       <p>At minimum, you need a professional email address and a way for potential clients to learn about your services—whether that's a simple website, a strong LinkedIn profile, or a portfolio on a platform like Behance or Dribbble.</p>
       
       <h3>Tools and Systems</h3>
-      <p>Set up the tools you'll need: invoicing software like <a href="/freelancers">Invoicemonk</a>, project management tools, time tracking if you bill hourly, and communication tools your clients prefer.</p>
+      <p>Set up the tools you'll need: invoicing software like <a href="/en/freelancers">Invoicemonk</a>, project management tools, time tracking if you bill hourly, and communication tools your clients prefer.</p>
 
       <h2>Finding Your First Clients</h2>
       <p>The first few clients are often the hardest. Here's where to find them:</p>
@@ -1294,7 +1294,7 @@ export const blogPosts: BlogPost[] = [
       <p>Start with people you know. Tell friends, family, former colleagues, and professional contacts that you're freelancing. Many first clients come from personal connections. Don't be shy—people want to help if they know what you're looking for.</p>
       
       <h3>Freelance Platforms</h3>
-      <p>Sites like Upwork, Fiverr, Toptal, and others connect freelancers with clients. Competition is intense, but they're valuable for building experience and reviews. For platform recommendations, see our guide to <a href="/blog/top-10-freelance-websites">top freelance websites</a>.</p>
+      <p>Sites like Upwork, Fiverr, Toptal, and others connect freelancers with clients. Competition is intense, but they're valuable for building experience and reviews. For platform recommendations, see our guide to <a href="/en/blog/top-10-freelance-websites">top freelance websites</a>.</p>
       
       <h3>Direct Outreach</h3>
       <p>Identify potential clients and reach out directly. Research them, personalize your message, and focus on how you can solve their problems. Cold outreach has low response rates but can land excellent clients.</p>
@@ -1329,16 +1329,16 @@ export const blogPosts: BlogPost[] = [
       <p>Financial management is where many freelancers struggle. Get this right to build a sustainable business:</p>
       
       <h3>Invoicing</h3>
-      <p>Invoice promptly, professionally, and consistently. Include all necessary details for quick payment. Use <a href="/invoicing">professional invoicing software</a> to streamline this. See our <a href="/blog/complete-guide-to-business-invoicing">complete invoicing guide</a> for best practices.</p>
+      <p>Invoice promptly, professionally, and consistently. Include all necessary details for quick payment. Use <a href="/en/invoicing">professional invoicing software</a> to streamline this. See our <a href="/en/blog/complete-guide-to-business-invoicing">complete invoicing guide</a> for best practices.</p>
       
       <h3>Getting Paid</h3>
-      <p>Set clear payment terms. Consider requiring deposits for new clients. Follow up on overdue invoices promptly and professionally. See our guide to <a href="/blog/ultimate-guide-getting-paid-faster">getting paid faster</a>.</p>
+      <p>Set clear payment terms. Consider requiring deposits for new clients. Follow up on overdue invoices promptly and professionally. See our guide to <a href="/en/blog/ultimate-guide-getting-paid-faster">getting paid faster</a>.</p>
       
       <h3>Taxes</h3>
-      <p>Set aside 25-30% of income for taxes. Pay quarterly estimated taxes. Track all deductible expenses. Consider working with an accountant. See our <a href="/blog/small-business-tax-compliance-guide">tax compliance guide</a> for details.</p>
+      <p>Set aside 25-30% of income for taxes. Pay quarterly estimated taxes. Track all deductible expenses. Consider working with an accountant. See our <a href="/en/blog/small-business-tax-compliance-guide">tax compliance guide</a> for details.</p>
       
       <h3>Budgeting</h3>
-      <p>Freelance income is variable. Budget based on your lowest reasonable monthly income, not your best months. Build an emergency fund of 3-6 months of expenses. See our <a href="/blog/small-business-accounting-guide">accounting guide</a> for more.</p>
+      <p>Freelance income is variable. Budget based on your lowest reasonable monthly income, not your best months. Build an emergency fund of 3-6 months of expenses. See our <a href="/en/blog/small-business-accounting-guide">accounting guide</a> for more.</p>
       
       <h3>Separating Business and Personal</h3>
       <p>Keep separate accounts. Pay yourself a regular amount (even if it varies). Don't dip into business funds for personal expenses.</p>
@@ -1410,7 +1410,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Essential Tools for Freelancers</h2>
       <ul>
-        <li><strong>Invoicing:</strong> <a href="/freelancers">Invoicemonk</a> for professional invoicing and financial management</li>
+        <li><strong>Invoicing:</strong> <a href="/en/freelancers">Invoicemonk</a> for professional invoicing and financial management</li>
         <li><strong>Contracts:</strong> Tools for creating, sending, and tracking agreements</li>
         <li><strong>Project management:</strong> Keep track of tasks, deadlines, and client communication</li>
         <li><strong>Time tracking:</strong> Essential for hourly billing, useful for understanding where time goes</li>
@@ -1430,11 +1430,11 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/top-10-freelance-websites">Top 10 Freelance Websites to Find Work</a></li>
-        <li><a href="/blog/how-to-become-a-good-graphic-designer">How to Become a Good Graphic Designer</a></li>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/ultimate-guide-getting-paid-faster">Getting Paid Faster Guide</a></li>
-        <li><a href="/freelancers">Invoicemonk for Freelancers</a></li>
+        <li><a href="/en/blog/top-10-freelance-websites">Top 10 Freelance Websites to Find Work</a></li>
+        <li><a href="/en/blog/how-to-become-a-good-graphic-designer">How to Become a Good Graphic Designer</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">Getting Paid Faster Guide</a></li>
+        <li><a href="/en/freelancers">Invoicemonk for Freelancers</a></li>
       </ul>
     `,
     entityMentions: [
@@ -1552,7 +1552,7 @@ export const blogPosts: BlogPost[] = [
       <p>Get explicit approval—signature, written confirmation, or formal acceptance. Don't assume silence is consent.</p>
       
       <h3>Invoice Promptly</h3>
-      <p>If you require a deposit, invoice immediately upon acceptance. For project fees, invoice according to the schedule defined in your proposal. Use <a href="/invoicing">invoicing software</a> to streamline this.</p>
+      <p>If you require a deposit, invoice immediately upon acceptance. For project fees, invoice according to the schedule defined in your proposal. Use <a href="/en/invoicing">invoicing software</a> to streamline this.</p>
       
       <h3>Reference the Proposal</h3>
       <p>Your invoices should reference the proposal and any scope changes. This maintains continuity and reminds clients what they're paying for.</p>
@@ -1618,7 +1618,7 @@ export const blogPosts: BlogPost[] = [
       <p>Dedicated tools offer templates, tracking, e-signatures, and analytics. They show when proposals are viewed and which sections get attention.</p>
       
       <h3>Estimate Features</h3>
-      <p>Use <a href="/estimates">Invoicemonk's estimate features</a> to create professional quotes and estimates that convert to invoices seamlessly.</p>
+      <p>Use <a href="/en/estimates">Invoicemonk's estimate features</a> to create professional quotes and estimates that convert to invoices seamlessly.</p>
       
       <h3>Template Library</h3>
       <p>Build a library of reusable sections: company background, case studies, terms, team bios. Customize for each proposal without starting from scratch.</p>
@@ -1653,9 +1653,9 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/freelancer-business-guide">Freelancer Business Guide</a></li>
-        <li><a href="/estimates">Create Estimates with Invoicemonk</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/freelancer-business-guide">Freelancer Business Guide</a></li>
+        <li><a href="/en/estimates">Create Estimates with Invoicemonk</a></li>
       </ul>
     `,
     entityMentions: [
@@ -1956,7 +1956,7 @@ export const blogPosts: BlogPost[] = [
       <p>If you're organized and creative, event planning can be a lucrative venture.</p>
       
       <h2>Getting Started</h2>
-      <p>Whichever business you choose, start small, learn as you go, and reinvest your profits. Use tools like <a href="/invoicing">Invoicemonk</a> to manage your finances professionally from day one.</p>
+      <p>Whichever business you choose, start small, learn as you go, and reinvest your profits. Use tools like <a href="/en/invoicing">Invoicemonk</a> to manage your finances professionally from day one.</p>
     `,
     entityMentions: [
           {
@@ -2038,7 +2038,7 @@ export const blogPosts: BlogPost[] = [
         <li>Start with competitive rates to build reviews</li>
         <li>Deliver quality work consistently</li>
         <li>Communicate professionally with clients</li>
-        <li>Use <a href="/freelancers">Invoicemonk</a> to manage your freelance finances</li>
+        <li>Use <a href="/en/freelancers">Invoicemonk</a> to manage your freelance finances</li>
       </ul>
     `,
     entityMentions: [
@@ -2098,7 +2098,7 @@ export const blogPosts: BlogPost[] = [
       <p>Alternative lending platforms are providing small businesses with access to credit that was previously unavailable through traditional banks.</p>
       
       <h3>4. Streamlined Accounting</h3>
-      <p>Cloud-based accounting and invoicing platforms like <a href="/accounting">Invoicemonk</a> are helping businesses manage their finances more efficiently and professionally.</p>
+      <p>Cloud-based accounting and invoicing platforms like <a href="/en/accounting">Invoicemonk</a> are helping businesses manage their finances more efficiently and professionally.</p>
       
       <h3>5. Lower Transaction Costs</h3>
       <p>FinTech solutions often offer lower transaction fees than traditional banking, improving profit margins for businesses.</p>
@@ -2178,7 +2178,7 @@ export const blogPosts: BlogPost[] = [
         <li>Client's tax number (if B2B and required by law)</li>
         <li>Purchase order (PO) number if they've provided one</li>
       </ul>
-      <p><em>Tip: Always verify the client's billing details before sending. Invoices addressed to the wrong person or entity can delay payment by weeks. See our <a href="/blog/how-to-create-first-professional-invoice">step-by-step invoice creation guide</a> for more detail.</em></p>
+      <p><em>Tip: Always verify the client's billing details before sending. Invoices addressed to the wrong person or entity can delay payment by weeks. See our <a href="/en/blog/how-to-create-first-professional-invoice">step-by-step invoice creation guide</a> for more detail.</em></p>
 
       <h2>2. Unique Invoice Number</h2>
       <p>Every invoice needs a unique identifier for tracking, reference, and legal compliance. This is non-negotiable — duplicate or missing invoice numbers cause payment confusion and create audit problems.</p>
@@ -2190,7 +2190,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Combined:</strong> INV-2026-03-001 — includes year and month for better organisation</li>
         <li><strong>Client-coded:</strong> ABC-001, ABC-002 — useful when you invoice repeat clients frequently</li>
       </ul>
-      <p><strong>Key rules:</strong> Never reuse an invoice number, even for voided invoices. If you cancel invoice INV-005, document it and skip to INV-006. Most tax authorities require sequential numbering without gaps. For a deeper dive, see our <a href="/blog/invoice-numbering-best-practices">invoice numbering best practices</a> guide.</p>
+      <p><strong>Key rules:</strong> Never reuse an invoice number, even for voided invoices. If you cancel invoice INV-005, document it and skip to INV-006. Most tax authorities require sequential numbering without gaps. For a deeper dive, see our <a href="/en/blog/invoice-numbering-best-practices">invoice numbering best practices</a> guide.</p>
 
       <h2>3. Detailed Description of Services/Products</h2>
       <p>The line-item section is the heart of your invoice. Vague descriptions like "consulting services" invite questions and delays. Be specific about what you delivered.</p>
@@ -2237,7 +2237,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Net 60/90:</strong> Common with large enterprises — be prepared for the cash flow impact</li>
         <li><strong>50% Upfront:</strong> Half before work begins — recommended for large projects</li>
       </ul>
-      <p>For detailed guidance, see our <a href="/blog/how-to-write-invoice-payment-terms">payment terms guide</a>.</p>
+      <p>For detailed guidance, see our <a href="/en/blog/how-to-write-invoice-payment-terms">payment terms guide</a>.</p>
 
       <h2>5. Total Amount and Payment Terms</h2>
       <p>The total due should be the most prominent number on your invoice — make it bold, large, and impossible to miss.</p>
@@ -2255,7 +2255,7 @@ export const blogPosts: BlogPost[] = [
       <p>Make it as easy as possible to pay. Include:</p>
       <ul>
         <li>Bank transfer details (account name, number, sort code/IBAN, SWIFT for international)</li>
-        <li>Online payment link (if using <a href="/invoicing">invoicing software</a>)</li>
+        <li>Online payment link (if using <a href="/en/invoicing">invoicing software</a>)</li>
         <li>Mobile payment options (UPI in India, mobile money in Africa)</li>
         <li>Accepted methods (credit card, PayPal, bank transfer)</li>
       </ul>
@@ -2301,18 +2301,18 @@ export const blogPosts: BlogPost[] = [
           <tr><td style="padding:8px;">Canada</td><td style="padding:8px;">GST/HST number, tax breakdown by province</td><td style="padding:8px;">CRA</td></tr>
         </tbody>
       </table>
-      <p>For country-specific compliance, see our <a href="/compliance">compliance guides</a>.</p>
+      <p>For country-specific compliance, see our <a href="/en/compliance">compliance guides</a>.</p>
 
       <h2>Using Invoicemonk</h2>
-      <p><a href="/invoicing">Invoicemonk</a> automatically includes all essential elements in professional templates, calculates taxes correctly for your country, and lets you save client details for future invoices. <a href="/invoicing">Try Invoicemonk's invoice generator</a> — no signup required.</p>
+      <p><a href="/en/invoicing">Invoicemonk</a> automatically includes all essential elements in professional templates, calculates taxes correctly for your country, and lets you save client details for future invoices. <a href="/en/invoicing">Try Invoicemonk's invoice generator</a> — no signup required.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/how-to-create-first-professional-invoice">How to Create Your First Professional Invoice</a></li>
-        <li><a href="/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/invoice-numbering-best-practices">Invoice Numbering Best Practices</a></li>
-        <li><a href="/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
-        <li><a href="/blog/invoice-mistakes-that-cost-you-money">Invoice Mistakes That Cost You Money</a></li>
+        <li><a href="/en/blog/how-to-create-first-professional-invoice">How to Create Your First Professional Invoice</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/invoice-numbering-best-practices">Invoice Numbering Best Practices</a></li>
+        <li><a href="/en/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
+        <li><a href="/en/blog/invoice-mistakes-that-cost-you-money">Invoice Mistakes That Cost You Money</a></li>
       </ul>
     `,
     faq: [
@@ -2403,7 +2403,7 @@ export const blogPosts: BlogPost[] = [
         <li>Take advantage of promotional rates when available</li>
       </ul>
       
-      <p>Combine smart savings habits with efficient business management using tools like <a href="/expenses">Invoicemonk expense tracking</a> for comprehensive financial wellness.</p>
+      <p>Combine smart savings habits with efficient business management using tools like <a href="/en/expenses">Invoicemonk expense tracking</a> for comprehensive financial wellness.</p>
     `,
     entityMentions: [
           {
@@ -2479,7 +2479,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Step-by-Step Budget Creation</h2>
 
       <h3>Step 1: Gather Financial Data</h3>
-      <p>Collect your historical financial information including past revenue, expenses, and any seasonal patterns. Pull data from your <a href="/accounting">accounting software</a>, bank statements, and tax returns. If you're a new business, research industry benchmarks — trade associations and the SBA publish average cost structures by industry.</p>
+      <p>Collect your historical financial information including past revenue, expenses, and any seasonal patterns. Pull data from your <a href="/en/accounting">accounting software</a>, bank statements, and tax returns. If you're a new business, research industry benchmarks — trade associations and the SBA publish average cost structures by industry.</p>
 
       <h3>Step 2: Forecast Your Revenue</h3>
       <p>Project your expected income for the budget period. Three common forecasting methods:</p>
@@ -2541,10 +2541,10 @@ export const blogPosts: BlogPost[] = [
         <li>Revenue that's tracking below forecast — what's changed and what can you do about it?</li>
         <li>Categories that are consistently under budget — can you reallocate that money to growth initiatives?</li>
       </ul>
-      <p>Use <a href="/expenses">Invoicemonk's expense tracking</a> to automatically categorize all spending and compare against your budget in real time. Combined with <a href="/invoicing">invoice tracking</a>, you get a complete picture of money in and money out.</p>
+      <p>Use <a href="/en/expenses">Invoicemonk's expense tracking</a> to automatically categorize all spending and compare against your budget in real time. Combined with <a href="/en/invoicing">invoice tracking</a>, you get a complete picture of money in and money out.</p>
 
       <h2>Budget Templates and Tools</h2>
-      <p>You don't need to start from scratch. <a href="/accounting">Invoicemonk</a> provides built-in expense categories, automatic transaction imports, and real-time financial reports that make budget monitoring effortless. Key features that help with budgeting:</p>
+      <p>You don't need to start from scratch. <a href="/en/accounting">Invoicemonk</a> provides built-in expense categories, automatic transaction imports, and real-time financial reports that make budget monitoring effortless. Key features that help with budgeting:</p>
       <ul>
         <li>Automatic expense categorization from bank feeds</li>
         <li>Real-time profit & loss reports to compare against budget</li>
@@ -2553,7 +2553,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Next Steps</h2>
-      <p>Once your budget is in place, build on it. Learn <a href="/blog/small-business-accounting-guide">the basics of small business accounting</a> to understand the financial statements your budget feeds into. Explore <a href="/blog/cash-vs-accrual-accounting-explained">cash vs accrual accounting</a> to choose the right method for your business. And use your <a href="/expenses">expense tracking tools</a> to make budget monitoring automatic.</p>
+      <p>Once your budget is in place, build on it. Learn <a href="/en/blog/small-business-accounting-guide">the basics of small business accounting</a> to understand the financial statements your budget feeds into. Explore <a href="/en/blog/cash-vs-accrual-accounting-explained">cash vs accrual accounting</a> to choose the right method for your business. And use your <a href="/en/expenses">expense tracking tools</a> to make budget monitoring automatic.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -2657,7 +2657,7 @@ export const blogPosts: BlogPost[] = [
       <p>Join design communities, find mentors, and be open to constructive criticism.</p>
       
       <h2>Business Skills Matter</h2>
-      <p>As a freelance designer, you'll need business skills too. Use tools like <a href="/freelancers">Invoicemonk</a> to manage client billing professionally.</p>
+      <p>As a freelance designer, you'll need business skills too. Use tools like <a href="/en/freelancers">Invoicemonk</a> to manage client billing professionally.</p>
     `,
     entityMentions: [
           {
@@ -2686,16 +2686,16 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'the-10-best-personal-finance-blogs',
-    title: 'The 15 Best Personal Finance Blogs in 2026 | Top Picks & New Voices',
-    excerpt: 'What are the best personal finance blogs in 2026? Our updated list of the top 15 personal finance blogs — from FIRE movement classics to new voices in financial independence, budgeting, and wealth building. Updated February 2026.',
+    title: 'The 16 Best Personal Finance Blogs in 2026 | Top Picks & New Voices',
+    excerpt: 'What are the best personal finance blogs in 2026? Our updated list of the top 16 personal finance blogs — from FIRE movement classics to new voices in financial independence, budgeting, and wealth building. Updated June 2026.',
     category: 'Finance',
     tags: ['personal finance', 'financial education', 'money management', 'wealth building', 'best personal finance blogs 2026', 'top personal finance blogs 2026'],
     author: defaultAuthor,
     date: '2023-11-05',
-    dateModified: '2026-05-09',
+    dateModified: '2026-06-24',
     readTime: '12 min read',
-    featuredImage: '/images/blog/top-finance-blogs.jpg',
-    featuredImageAlt: 'Top personal finance blogs for financial education in 2026',
+    featuredImage: '/blog/personal-finance-blogs.jpg',
+    featuredImageAlt: 'Curated list of the best personal finance blogs for 2026',
     clusterType: 'outer',
     semanticKeywords: ['best personal finance blogs 2026', 'financial education blogs', 'money management resources', 'wealth building tips', 'FIRE movement blogs', 'budgeting blogs'],
     relatedTools: [
@@ -2704,76 +2704,81 @@ export const blogPosts: BlogPost[] = [
     ],
     content: `
       <p>Finding reliable personal finance advice can transform your relationship with money. Whether you're just starting your financial journey or optimizing an established portfolio, learning from experienced voices accelerates your progress.</p>
-      <p>We've updated our list for 2026 to include 15 of the best personal finance blogs—a mix of established authorities and emerging voices covering everything from basic budgeting to achieving financial independence.</p>
+      <p>We've updated our list for 2026 to include 16 of the best personal finance blogs—a mix of established authorities and emerging voices covering everything from basic budgeting to achieving financial independence.</p>
       
       <h2>The Essential Personal Finance Blogs for 2026</h2>
-      
-      <h3>1. The Simple Dollar</h3>
+
+      <h3>1. Money Mood Board</h3>
+      <p><strong>Best for:</strong> Readers who want money advice that fits their mindset and life stage</p>
+      <p><a href="https://moneymoodboard.com" target="_blank" rel="noopener">Money Mood Board</a> is one of the freshest voices in personal finance, blending money mindset, intentional budgeting, and financial wellbeing into practical posts you can actually apply. The blog is especially strong for readers who feel underserved by traditional finance writing — covering everything from values-led spending to building calm, resilient money habits.</p>
+
+      <h3>2. The Simple Dollar</h3>
       <p><strong>Best for:</strong> Beginners to intermediate savers</p>
       <p>Founded by Trent Hamm after digging himself out of debt, The Simple Dollar covers budgeting basics to investment strategies. Their practical, judgment-free approach makes complex topics accessible. Recent popular posts focus on inflation-proofing your finances and building emergency funds in uncertain times.</p>
       
-      <h3>2. Mr. Money Mustache</h3>
+      <h3>3. Mr. Money Mustache</h3>
       <p><strong>Best for:</strong> FIRE movement enthusiasts and frugal living advocates</p>
       <p>Pete Adeney retired at 30 and has been writing about financial independence ever since. His entertaining, sometimes provocative writing challenges consumerism while showing how early retirement is achievable on a middle-class income. Still one of the most influential voices in the FIRE community.</p>
       
-      <h3>3. Get Rich Slowly</h3>
+      <h3>4. Get Rich Slowly</h3>
       <p><strong>Best for:</strong> Those who prefer steady, sustainable approaches</p>
       <p>J.D. Roth's blog is the antidote to get-rich-quick schemes. His philosophy: build wealth slowly through consistent habits. The blog covers saving, investing, and mindset shifts, with honest reflections on his own financial successes and mistakes.</p>
       
-      <h3>4. NerdWallet</h3>
+      <h3>5. NerdWallet</h3>
       <p><strong>Best for:</strong> Product comparisons and unbiased financial guidance</p>
       <p>More than a blog, NerdWallet is a comprehensive resource for comparing credit cards, loans, investments, and insurance. Their team of writers provides unbiased, well-researched advice on nearly every financial decision you'll face.</p>
       
-      <h3>5. Financial Samurai</h3>
+      <h3>6. Financial Samurai</h3>
       <p><strong>Best for:</strong> High earners and those interested in real estate investing</p>
       <p>Sam Dogen left a lucrative finance career to write about building wealth through savings, investing, and passive income. His posts are data-driven and often controversial, covering topics like optimal savings rates by age and real estate investment strategies. He's particularly strong on real estate and passive income.</p>
       
-      <h3>6. I Will Teach You To Be Rich</h3>
+      <h3>7. I Will Teach You To Be Rich</h3>
       <p><strong>Best for:</strong> Those focused on earning more, not just spending less</p>
       <p>Ramit Sethi's philosophy differs from traditional frugality: focus on earning more while spending guiltlessly on what you love. His blog and bestselling book cover salary negotiation, starting side businesses, and automating finances. Great for ambitious professionals.</p>
       
-      <h3>7. The Financial Diet</h3>
+      <h3>8. The Financial Diet</h3>
       <p><strong>Best for:</strong> Millennials and Gen Z readers</p>
       <p>Chelsea Fagan's blog speaks directly to younger audiences navigating career, money, and lifestyle decisions. TFD covers budgeting, career advice, and the emotional side of money with a relatable, honest voice. Their YouTube channel has over 1 million subscribers.</p>
       
-      <h3>8. Afford Anything</h3>
+      <h3>9. Afford Anything</h3>
       <p><strong>Best for:</strong> Real estate investors and lifestyle designers</p>
       <p>Paula Pant's mantra: "You can afford anything, but not everything." Her blog focuses on building rental property portfolios and designing a life of freedom through smart financial choices. Her podcast features in-depth interviews with financial experts and everyday people building wealth.</p>
       
-      <h3>9. White Coat Investor</h3>
+      <h3>10. White Coat Investor</h3>
       <p><strong>Best for:</strong> Doctors, dentists, and high-income professionals</p>
       <p>Dr. James Dahle created this resource specifically for physicians navigating high student loans and high incomes. However, the advice on tax-advantaged investing, protecting income, and avoiding financial pitfalls applies to many high earners.</p>
       
-      <h3>10. Of Dollars and Data</h3>
+      <h3>11. Of Dollars and Data</h3>
       <p><strong>Best for:</strong> Data-driven investors and analytical thinkers</p>
       <p>Nick Maggiulli brings data analysis to personal finance questions. His posts use statistics and research to answer questions like "Should you buy or rent?" and "What's the best savings rate?" Excellent for those who want evidence-based answers.</p>
       
-      <h3>11. Mad Fientist</h3>
+      <h3>12. Mad Fientist</h3>
       <p><strong>Best for:</strong> Tax optimization and early retirement planning</p>
       <p>Brandon (the Mad Fientist) focuses on advanced strategies for achieving financial independence, particularly tax optimization. His analysis of retirement account strategies and withdrawal techniques is unmatched. His podcast features interviews with FIRE legends.</p>
       
-      <h3>12. Bitches Get Riches</h3>
+      <h3>13. Bitches Get Riches</h3>
       <p><strong>Best for:</strong> Those who appreciate humor with their financial advice</p>
       <p>Piggy and Kitty deliver personal finance advice with irreverent humor and a feminist lens. They cover everything from salary negotiation to investing basics, making finance accessible and entertaining for readers who find traditional finance blogs dry.</p>
       
-      <h3>13. ESI Money</h3>
+      <h3>14. ESI Money</h3>
       <p><strong>Best for:</strong> Real millionaire insights and practical wealth building</p>
       <p>ESI Money features interviews with actual millionaires sharing how they built wealth. The "Earn, Save, Invest" framework provides a clear roadmap, and the millionaire interviews offer diverse perspectives on paths to financial success.</p>
       
-      <h3>14. Making Sense of Cents</h3>
+      <h3>15. Making Sense of Cents</h3>
       <p><strong>Best for:</strong> Side hustlers and those interested in blogging income</p>
       <p>Michelle Schroeder-Gardner shares her journey from debt to earning over $100,000/month from her blog. While covering traditional personal finance topics, she's especially valuable for those interested in building online income streams and paying off debt.</p>
       
-      <h3>15. Physician on FIRE</h3>
+      <h3>16. Physician on FIRE</h3>
       <p><strong>Best for:</strong> Early retirement planning and giving strategies</p>
       <p>Leif achieved financial independence as a physician and now writes about early retirement, tax-efficient giving, and designing a fulfilling post-career life. His focus on charitable giving and purpose-driven wealth is refreshing.</p>
+      
       
       <h2>How to Get the Most from Finance Blogs</h2>
       <p>Reading personal finance content is only valuable if you apply what you learn:</p>
       <ul>
         <li><strong>Start with one blog:</strong> Find a voice that resonates and go deep before diversifying</li>
         <li><strong>Take action:</strong> After each article, identify one thing to implement</li>
-        <li><strong>Track your progress:</strong> Use tools like <a href="/accounting">Invoicemonk</a> to monitor your business and personal finances</li>
+        <li><strong>Track your progress:</strong> Use tools like <a href="/en/accounting">Invoicemonk</a> to monitor your business and personal finances</li>
         <li><strong>Build consistency:</strong> Small actions compound over time</li>
         <li><strong>Adapt advice:</strong> What works in one country may need adjustment for local tax laws and financial products</li>
       </ul>
@@ -2795,9 +2800,9 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Small Business Accounting Guide</a></li>
-        <li><a href="/blog/small-business-accounting-guide">Simple Accounting for Small Business Beginners</a></li>
-        <li><a href="/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting for Freelancers</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Simple Accounting for Small Business Beginners</a></li>
+        <li><a href="/en/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting for Freelancers</a></li>
       </ul>
     `,
     entityMentions: [
@@ -2908,7 +2913,7 @@ export const blogPosts: BlogPost[] = [
       <ul>
         <li><strong>Clear payment terms upfront:</strong> Agree on payment terms before starting work</li>
         <li><strong>Deposits for new clients:</strong> Require 50% upfront for first-time clients</li>
-        <li><strong>Easy payment methods:</strong> Accept credit cards and online payments via <a href="/payments">payment tools</a></li>
+        <li><strong>Easy payment methods:</strong> Accept credit cards and online payments via <a href="/en/payments">payment tools</a></li>
         <li><strong>Invoice immediately:</strong> Don't wait—invoice as soon as work is complete</li>
         <li><strong>Professional invoices:</strong> Clear, complete invoices get paid faster than confusing ones</li>
       </ul>
@@ -2918,7 +2923,7 @@ export const blogPosts: BlogPost[] = [
       <p>Before escalating, weigh the costs against the likelihood of recovery and the impact on your time and stress levels.</p>
 
       <h2>Next Steps</h2>
-      <p>Implement these strategies systematically with <a href="/invoicing">invoicing software</a> that tracks payment status and automates reminders. For more on improving your payment collection overall, see our <a href="/blog/ultimate-guide-getting-paid-faster">complete guide to getting paid faster</a>.</p>
+      <p>Implement these strategies systematically with <a href="/en/invoicing">invoicing software</a> that tracks payment status and automates reminders. For more on improving your payment collection overall, see our <a href="/en/blog/ultimate-guide-getting-paid-faster">complete guide to getting paid faster</a>.</p>
     `,
     entityMentions: [
           {
@@ -3065,8 +3070,8 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Integrating Payment Methods with Your Invoicing</h2>
-      <p>The real magic happens when payment methods are built into your invoices. With <a href="/payments">integrated payment solutions</a>, clients can pay directly from the invoice email—no separate steps, no forgotten payments.</p>
-      <p>For a complete strategy on accelerating payments, see our <a href="/blog/ultimate-guide-getting-paid-faster">guide to getting paid faster</a>.</p>
+      <p>The real magic happens when payment methods are built into your invoices. With <a href="/en/payments">integrated payment solutions</a>, clients can pay directly from the invoice email—no separate steps, no forgotten payments.</p>
+      <p>For a complete strategy on accelerating payments, see our <a href="/en/blog/ultimate-guide-getting-paid-faster">guide to getting paid faster</a>.</p>
     `,
     entityMentions: [
           {
@@ -3151,7 +3156,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Software and Subscriptions</h2>
       <p>Your digital tools are deductible:</p>
       <ul>
-        <li><a href="/invoicing">Invoicing software</a> and accounting tools</li>
+        <li><a href="/en/invoicing">Invoicing software</a> and accounting tools</li>
         <li>Cloud storage and backup services</li>
         <li>Project management and collaboration tools</li>
         <li>Industry-specific software</li>
@@ -3211,14 +3216,14 @@ export const blogPosts: BlogPost[] = [
       <p>For larger purchases, you may need to depreciate over several years rather than deducting immediately. Check current rules for immediate expensing thresholds.</p>
 
       <h2>Keeping Records for Deductions</h2>
-      <p>Deductions are only valid if you can prove them. Use <a href="/expenses">expense tracking tools</a> to:</p>
+      <p>Deductions are only valid if you can prove them. Use <a href="/en/expenses">expense tracking tools</a> to:</p>
       <ul>
         <li>Capture receipts as you spend</li>
         <li>Categorize expenses correctly</li>
         <li>Generate reports for tax preparation</li>
         <li>Maintain records for audit defense</li>
       </ul>
-      <p>For comprehensive guidance on staying audit-ready, see our <a href="/blog/small-business-tax-compliance-guide">tax compliance guide</a>.</p>
+      <p>For comprehensive guidance on staying audit-ready, see our <a href="/en/blog/small-business-tax-compliance-guide">tax compliance guide</a>.</p>
     `,
     entityMentions: [
           {
@@ -3288,7 +3293,7 @@ export const blogPosts: BlogPost[] = [
       <p>Maintain organized records for at least 5-7 years (check your jurisdiction's requirements). Essential documents include:</p>
       <h3>Income Documentation</h3>
       <ul>
-        <li>All invoices issued (use <a href="/invoicing">invoicing software</a> for easy retrieval)</li>
+        <li>All invoices issued (use <a href="/en/invoicing">invoicing software</a> for easy retrieval)</li>
         <li>Bank statements showing deposits</li>
         <li>Payment processor records</li>
         <li>1099s, W-2s, or equivalent tax forms received</li>
@@ -3350,13 +3355,13 @@ export const blogPosts: BlogPost[] = [
       <h2>Preventing Audit Problems</h2>
       <p>Good habits make audits non-events:</p>
       <ul>
-        <li>Use <a href="/accounting">accounting software</a> to track all transactions</li>
-        <li>Capture receipts immediately with <a href="/expenses">expense tracking</a></li>
+        <li>Use <a href="/en/accounting">accounting software</a> to track all transactions</li>
+        <li>Capture receipts immediately with <a href="/en/expenses">expense tracking</a></li>
         <li>Keep business and personal finances completely separate</li>
         <li>Document the business purpose of expenses as you incur them</li>
         <li>Review your tax return before filing—look for red flags yourself</li>
       </ul>
-      <p>For more on maintaining compliance year-round, see our <a href="/blog/small-business-tax-compliance-guide">comprehensive tax compliance guide</a>.</p>
+      <p>For more on maintaining compliance year-round, see our <a href="/en/blog/small-business-tax-compliance-guide">comprehensive tax compliance guide</a>.</p>
     `,
     entityMentions: [
           {
@@ -3474,12 +3479,12 @@ export const blogPosts: BlogPost[] = [
         <li>Get formal acceptance in writing (signed proposal or contract)</li>
         <li>Collect any required deposit</li>
         <li>Send a welcome email with project kickoff details</li>
-        <li>Create the first milestone or <a href="/invoicing">invoice</a> as appropriate</li>
+        <li>Create the first milestone or <a href="/en/invoicing">invoice</a> as appropriate</li>
       </ol>
-      <p>Using <a href="/estimates">proposal and estimate tools</a> that convert directly to invoices streamlines this process and ensures consistency.</p>
+      <p>Using <a href="/en/estimates">proposal and estimate tools</a> that convert directly to invoices streamlines this process and ensures consistency.</p>
 
       <h2>Next Steps</h2>
-      <p>Start improving your proposals today. For more on the relationship between proposals, quotes, and invoices, see our guide on <a href="/blog/estimate-vs-quote-vs-invoice-difference">understanding estimates, quotes, and invoices</a>. For the complete picture on winning and managing client work, visit our <a href="/blog/winning-proposals-estimates-guide">proposals and estimates guide</a>.</p>
+      <p>Start improving your proposals today. For more on the relationship between proposals, quotes, and invoices, see our guide on <a href="/en/blog/estimate-vs-quote-vs-invoice-difference">understanding estimates, quotes, and invoices</a>. For the complete picture on winning and managing client work, visit our <a href="/en/blog/winning-proposals-estimates-guide">proposals and estimates guide</a>.</p>
     `,
     entityMentions: [
           {
@@ -3571,9 +3576,9 @@ export const blogPosts: BlogPost[] = [
       <h3>Invoice Best Practices</h3>
       <ul>
         <li>Send promptly—don't wait until month-end</li>
-        <li>Include all required elements (see our <a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">invoice elements guide</a>)</li>
+        <li>Include all required elements (see our <a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">invoice elements guide</a>)</li>
         <li>Reference the original quote or estimate if applicable</li>
-        <li>Use <a href="/invoicing">invoicing software</a> for professional presentation and tracking</li>
+        <li>Use <a href="/en/invoicing">invoicing software</a> for professional presentation and tracking</li>
       </ul>
 
       <h2>How They Work Together</h2>
@@ -3603,8 +3608,8 @@ export const blogPosts: BlogPost[] = [
       <p>When in doubt about legal implications, consult with a legal professional in your jurisdiction.</p>
 
       <h2>Using Software to Manage the Flow</h2>
-      <p><a href="/estimates">Estimate and proposal tools</a> that convert to invoices with a click save time and ensure consistency. When your estimate becomes a quote becomes an invoice, the information flows through automatically—no retyping, no errors.</p>
-      <p>For more on winning clients with professional proposals, see our <a href="/blog/winning-proposals-estimates-guide">complete proposals and estimates guide</a>.</p>
+      <p><a href="/en/estimates">Estimate and proposal tools</a> that convert to invoices with a click save time and ensure consistency. When your estimate becomes a quote becomes an invoice, the information flows through automatically—no retyping, no errors.</p>
+      <p>For more on winning clients with professional proposals, see our <a href="/en/blog/winning-proposals-estimates-guide">complete proposals and estimates guide</a>.</p>
     `,
     entityMentions: [
           {
@@ -3709,7 +3714,7 @@ export const blogPosts: BlogPost[] = [
         <li>Receipts for expenses</li>
         <li>VAT returns and payments</li>
       </ul>
-      <p>Digital record-keeping is accepted and often preferred. Using <a href="/invoicing">invoicing software</a> ensures your records are organized, searchable, and audit-ready.</p>
+      <p>Digital record-keeping is accepted and often preferred. Using <a href="/en/invoicing">invoicing software</a> ensures your records are organized, searchable, and audit-ready.</p>
 
       <h2>E-Invoicing and Digital Compliance</h2>
       <p>Nigeria is moving toward greater digitalization of tax processes. The FIRS TaxPro-Max platform allows electronic filing of returns. While electronic invoicing isn't yet mandatory, it's increasingly expected and offers significant advantages:</p>
@@ -3747,7 +3752,7 @@ export const blogPosts: BlogPost[] = [
         <li>Stores invoices securely for the required 6 years</li>
         <li>Provides audit-ready reports on demand</li>
       </ul>
-      <p>Start your <a href="/invoicing">Pro plan</a> and create FIRS-compliant invoices in minutes.</p>
+      <p>Start your <a href="/en/invoicing">Pro plan</a> and create FIRS-compliant invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in Nigeria?</h3>
@@ -3874,7 +3879,7 @@ export const blogPosts: BlogPost[] = [
         <li>For each purchase: time of supply, value, and amount of input tax claimed</li>
         <li>Total output and input tax for each VAT period</li>
       </ul>
-      <p>Records must be kept for at least 6 years. <a href="/invoicing">Digital invoicing software</a> that's MTD-compatible simplifies this significantly.</p>
+      <p>Records must be kept for at least 6 years. <a href="/en/invoicing">Digital invoicing software</a> that's MTD-compatible simplifies this significantly.</p>
 
       <h2>Digital Links and Software Requirements</h2>
       <p>MTD requires "digital links" between your records and VAT return. This means:</p>
@@ -3926,7 +3931,7 @@ export const blogPosts: BlogPost[] = [
         <li>Providing audit-ready reports</li>
         <li>Supporting credit note workflows</li>
       </ul>
-      <p><a href="/invoicing">Start creating compliant invoices</a> for your UK business today.</p>
+      <p><a href="/en/invoicing">Start creating compliant invoices</a> for your UK business today.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>When do I need to register for VAT?</h3>
@@ -4100,7 +4105,7 @@ export const blogPosts: BlogPost[] = [
         <li>Expense tracking and receipt capture</li>
         <li>Financial reports for tax preparation</li>
       </ul>
-      <p><a href="/invoicing">Try Invoicemonk</a> and simplify your tax documentation.</p>
+      <p><a href="/en/invoicing">Try Invoicemonk</a> and simplify your tax documentation.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>Does the IRS require invoices to have specific information?</h3>
@@ -4292,7 +4297,7 @@ export const blogPosts: BlogPost[] = [
         <li>Secure 6+ year record storage</li>
         <li>Reports for GST/HST return preparation</li>
       </ul>
-      <p><a href="/invoicing">Start your Pro plan</a> and create CRA-compliant invoices today.</p>
+      <p><a href="/en/invoicing">Start your Pro plan</a> and create CRA-compliant invoices today.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>When must I register for GST/HST?</h3>
@@ -4353,7 +4358,7 @@ export const blogPosts: BlogPost[] = [
 
       <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:16px 20px;margin:20px 0;">
         <p style="margin:0;font-weight:600;">🧾 Looking to create a free ATO-compliant invoice?</p>
-        <p style="margin:8px 0 0;">Use our <a href="/invoicing">free invoice generator for Australian businesses</a> — no signup required. Includes ABN, GST, and BAS-ready formatting.</p>
+        <p style="margin:8px 0 0;">Use our <a href="/en/invoicing">free invoice generator for Australian businesses</a> — no signup required. Includes ABN, GST, and BAS-ready formatting.</p>
       </div>
 
       <h2>GST Registration Requirements</h2>
@@ -4501,7 +4506,7 @@ export const blogPosts: BlogPost[] = [
         <li>Secure storage for 5+ years</li>
         <li>Reports for BAS preparation</li>
       </ul>
-      <p><a href="/invoicing">Start your Pro plan</a> and create ATO-compliant tax invoices today.</p>
+      <p><a href="/en/invoicing">Start your Pro plan</a> and create ATO-compliant tax invoices today.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>Do I need to register for GST?</h3>
@@ -4649,7 +4654,7 @@ export const blogPosts: BlogPost[] = [
         <li>Receipts for expenses</li>
         <li>VAT returns and payment confirmations</li>
       </ul>
-      <p>Digital record-keeping is accepted and recommended. Using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+      <p>Digital record-keeping is accepted and recommended. Using <a href="/en/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
 
       <h2>E-Invoicing and Digital Compliance</h2>
       <p>Ghana has been accelerating its digital tax infrastructure. GRA now requires businesses above the VAT threshold to use <strong>certified e-VAT software</strong> for generating invoices. Key developments include:</p>
@@ -4692,7 +4697,7 @@ export const blogPosts: BlogPost[] = [
         <li>Provides audit-ready reports on demand</li>
         <li>Supports GHS and multi-currency invoicing</li>
       </ul>
-      <p>Start your <a href="/invoicing">Pro plan</a> and create GRA-compliant invoices in minutes.</p>
+      <p>Start your <a href="/en/invoicing">Pro plan</a> and create GRA-compliant invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in Ghana?</h3>
@@ -4717,9 +4722,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'kra-invoice-requirements-kenya',
     title: 'KRA Invoice Requirements: Complete Kenya Tax Compliance Guide',
-    excerpt: 'Everything Kenyan businesses need to know about KRA-compliant invoicing. Learn the legal requirements, VAT obligations, TIMS e-invoicing rules, and best practices for staying audit-ready with the Kenya Revenue Authority.',
+    excerpt: 'Everything Kenyan businesses need to know about KRA-compliant invoicing. Learn the legal requirements, VAT obligations, eTIMS e-invoicing rules, and best practices for staying audit-ready with the Kenya Revenue Authority.',
     category: 'Tax and Compliance',
-    tags: ['KRA', 'Kenya', 'tax compliance', 'VAT', 'invoice requirements', 'TIMS'],
+    tags: ['KRA', 'Kenya', 'tax compliance', 'VAT', 'invoice requirements', 'eTIMS'],
     author: defaultAuthor,
     date: '2026-02-20',
     readTime: '14 min read',
@@ -4728,7 +4733,7 @@ export const blogPosts: BlogPost[] = [
     pillarContent: false,
     clusterType: 'cluster',
     targetProduct: '/compliance',
-    semanticKeywords: ['KRA invoice', 'Kenya tax', 'VAT Kenya', 'KRA compliance', 'TIMS', 'Kenyan business invoice'],
+    semanticKeywords: ['KRA invoice', 'Kenya tax', 'VAT Kenya', 'KRA compliance', 'eTIMS', 'Kenyan business invoice'],
     priority: 'P2',
     entityMentions: [
       { name: 'Kenya Revenue Authority', type: 'GovernmentOrganization', url: 'https://kra.go.ke' },
@@ -4738,15 +4743,15 @@ export const blogPosts: BlogPost[] = [
       { question: 'What is the current VAT rate in Kenya?', answer: 'The standard VAT rate in Kenya is 16%. A reduced rate of 8% applies to petroleum products, and exports are zero-rated at 0%.' },
       { question: 'Do I need a KRA PIN to invoice in Kenya?', answer: 'Yes. All businesses and individuals conducting business in Kenya must have a KRA Personal Identification Number (PIN). It is required on all tax-compliant invoices.' },
       { question: 'How long must I keep invoices and records in Kenya?', answer: 'KRA requires businesses to retain all financial records for a minimum of 5 years from the end of the relevant tax period.' },
-      { question: 'What is TIMS and is it mandatory?', answer: 'TIMS (Tax Invoice Management System) is KRA\'s electronic tax invoice system. All VAT-registered taxpayers must use TIMS-compliant Electronic Tax Invoice (ETI) devices or systems to generate, validate, and transmit invoices to KRA in real time.' },
-      { question: 'What happens if I make a mistake on a Kenyan invoice?', answer: 'Issue a credit note through your TIMS-compliant system referencing the original invoice, then create a corrected invoice. Never delete or alter issued invoices — this is a compliance violation.' },
+      { question: 'What is KRA eTIMS and is it mandatory?', answer: 'KRA eTIMS (the electronic Tax Invoice Management System that replaced the older TIMS in late 2023) is mandatory for every VAT-registered taxpayer in Kenya. Invoices must be transmitted to KRA in real time through an approved VSCU or OSCU channel, and each invoice must carry the KRA-issued Control Unit Invoice Number and signed QR.' },
+      { question: 'What happens if I make a mistake on a Kenyan invoice?', answer: 'Issue a credit note through your eTIMS-compliant system referencing the original Control Unit Invoice Number, then create a corrected invoice. Never delete or alter issued invoices — this is a compliance violation.' },
     ],
     relatedTools: [
       { label: 'Compliance Hub', url: '/compliance', description: 'Check your KRA compliance' },
       { label: 'Invoicing Software', url: '/invoicing', description: 'KRA-compliant invoicing' },
     ],
     content: `
-      <p>Operating a business in Kenya means complying with the <strong>Kenya Revenue Authority (KRA)</strong> regulations. With the introduction of the Tax Invoice Management System (TIMS), Kenya has become one of Africa's most digitally advanced tax jurisdictions, making it critical for businesses to understand and meet all invoicing requirements.</p>
+      <p>Operating a business in Kenya means complying with the <strong>Kenya Revenue Authority (KRA)</strong> regulations. With the introduction of the electronic Tax Invoice Management System (eTIMS, which replaced TIMS in late 2023), Kenya has become one of Africa's most digitally advanced tax jurisdictions, making it critical for businesses to understand and meet all invoicing requirements.</p>
 
       <h2>Understanding KRA and the Kenyan Tax Framework</h2>
       <p>The Kenya Revenue Authority was established in 1995 to enhance tax revenue collection. KRA administers all national taxes and is at the forefront of digital tax administration in East Africa.</p>
@@ -4774,14 +4779,14 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Subtotal amount</strong> — before VAT</li>
         <li><strong>VAT amount</strong> — calculated at the applicable rate</li>
         <li><strong>Total amount payable</strong> — including VAT</li>
-        <li><strong>TIMS QR code or Control Unit number</strong> — for electronic verification</li>
+        <li><strong>KRA eTIMS QR and Control Unit Invoice Number</strong> for electronic verification</li>
       </ol>
 
       <h2>VAT Registration and Obligations</h2>
       <p>Businesses with annual taxable turnover exceeding <strong>KSh 5,000,000</strong> (approximately USD 38,000) are required to register for VAT with KRA. Once registered, you must:</p>
       <ul>
         <li>Charge VAT at 16% on taxable supplies</li>
-        <li>Issue VAT-compliant invoices through a TIMS-compliant system</li>
+        <li>Issue VAT-compliant invoices through an eTIMS-compliant VSCU or OSCU channel</li>
         <li>File VAT returns monthly by the 20th of the following month</li>
         <li>Remit collected VAT to KRA</li>
         <li>Maintain records for at least 5 years</li>
@@ -4810,28 +4815,28 @@ export const blogPosts: BlogPost[] = [
         <li>VAT returns and payment confirmations</li>
         <li>TIMS transaction logs</li>
       </ul>
-      <p>Digital record-keeping is accepted and increasingly required. Using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+      <p>Digital record-keeping is accepted and increasingly required. Using <a href="/en/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
 
       <h2>E-Invoicing and TIMS</h2>
-      <p>Kenya has implemented one of Africa's most advanced e-invoicing systems through the <strong>Tax Invoice Management System (TIMS)</strong>. Key requirements include:</p>
+      <p>Kenya has implemented one of Africa's most advanced e-invoicing systems through the <strong>electronic Tax Invoice Management System (eTIMS)</strong>. Key requirements include:</p>
       <ul>
         <li><strong>Mandatory ETI devices:</strong> All VAT-registered taxpayers must use Electronic Tax Invoice (ETI) systems — either hardware devices or approved software</li>
         <li><strong>Real-time validation:</strong> Every invoice is transmitted to KRA in real time for validation and receives a unique Control Unit number</li>
         <li><strong>QR codes:</strong> Each invoice must contain a scannable QR code linking to KRA's verification system</li>
         <li><strong>Buyer verification:</strong> The system validates the buyer's KRA PIN before the invoice is finalised</li>
-        <li><strong>No manual invoices:</strong> Hand-written or non-TIMS invoices are not valid for VAT purposes</li>
+        <li><strong>No manual invoices:</strong> Hand-written or non-eTIMS invoices are not valid for VAT purposes</li>
       </ul>
-      <p>Businesses must ensure their invoicing software integrates with or is compliant with KRA's TIMS requirements.</p>
+      <p>Businesses must ensure their invoicing software integrates with KRA eTIMS through the VSCU or OSCU channel and binds the KRA-issued Control Unit Invoice Number and QR to each invoice.</p>
 
       <h2>Common Compliance Mistakes to Avoid</h2>
       <ul>
         <li><strong>Missing KRA PIN on invoices</strong> — makes invoices invalid for tax purposes</li>
-        <li><strong>Not using TIMS-compliant systems</strong> — renders VAT invoices legally invalid</li>
+        <li><strong>Not using eTIMS-compliant systems</strong> renders VAT invoices legally invalid</li>
         <li><strong>Incorrect VAT rate application</strong> — ensure you use 16% standard, 8% reduced, or 0% as appropriate</li>
         <li><strong>Late VAT filing or remittance</strong> — attracts severe penalties</li>
         <li><strong>Gaps in invoice numbering</strong> — raises audit red flags with KRA</li>
         <li><strong>Not retaining records for 5 years</strong> — the minimum is strictly enforced</li>
-        <li><strong>Issuing invoices without QR codes</strong> — non-compliant under TIMS regulations</li>
+        <li><strong>Issuing invoices without QR codes</strong> is non-compliant under eTIMS regulations</li>
       </ul>
 
       <h2>Penalties for Non-Compliance</h2>
@@ -4840,7 +4845,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Late filing of VAT returns:</strong> KSh 10,000 or 5% of the tax due, whichever is higher</li>
         <li><strong>Late payment of VAT:</strong> 2% of the unpaid tax per month, compounding</li>
         <li><strong>Failure to register for VAT:</strong> Fine of up to KSh 100,000 and/or imprisonment of up to 3 years</li>
-        <li><strong>Failure to use TIMS:</strong> Additional penalties and potential deregistration</li>
+        <li><strong>Failure to use eTIMS:</strong> Additional penalties and potential deregistration</li>
         <li><strong>Issuing non-compliant invoices:</strong> Assessment, back-taxes, and penalties</li>
         <li><strong>Tax evasion:</strong> Criminal prosecution with substantial fines and imprisonment</li>
       </ul>
@@ -4856,7 +4861,7 @@ export const blogPosts: BlogPost[] = [
         <li>Supports KES and multi-currency invoicing</li>
         <li>Integrates with M-Pesa and other Kenyan payment methods</li>
       </ul>
-      <p>Start your <a href="/invoicing">Pro plan</a> and create KRA-compliant invoices in minutes.</p>
+      <p>Start your <a href="/en/invoicing">Pro plan</a> and create KRA-compliant invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in Kenya?</h3>
@@ -4868,11 +4873,11 @@ export const blogPosts: BlogPost[] = [
       <h3>How long must I keep invoices and records?</h3>
       <p>KRA requires businesses to retain all financial records for at least 5 years from the end of the relevant tax period.</p>
 
-      <h3>What is TIMS and is it mandatory?</h3>
-      <p>TIMS (Tax Invoice Management System) is KRA's electronic invoicing system. All VAT-registered taxpayers must use TIMS-compliant ETI devices or software to generate invoices that are validated by KRA in real time.</p>
+      <h3>What is KRA eTIMS and is it mandatory?</h3>
+      <p>KRA eTIMS (the electronic Tax Invoice Management System that replaced the older TIMS in late 2023) is mandatory for every VAT-registered taxpayer in Kenya. Invoices must be transmitted to KRA in real time through an approved VSCU or OSCU channel, and each invoice must carry the KRA-issued Control Unit Invoice Number and signed QR.</p>
 
       <h3>What happens if I make a mistake on an invoice?</h3>
-      <p>Issue a credit note through your TIMS-compliant system referencing the original invoice, then create a corrected invoice. Never delete or alter issued invoices — this is a compliance violation.</p>
+      <p>Issue a credit note through your eTIMS-compliant system referencing the original Control Unit Invoice Number, then create a corrected invoice. Never delete or alter issued invoices — this is a compliance violation.</p>
     `
   },
   // ============================================
@@ -5000,7 +5005,7 @@ export const blogPosts: BlogPost[] = [
         <li>Debit and credit notes</li>
         <li>VAT returns and payment confirmations</li>
       </ul>
-      <p>Digital record-keeping is accepted. Using <a href="/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
+      <p>Digital record-keeping is accepted. Using <a href="/en/invoicing">invoicing software</a> ensures your records are organised, searchable, and audit-ready.</p>
 
       <h2>E-Invoicing and Digital Compliance</h2>
       <p>South Africa's digital tax infrastructure continues to evolve:</p>
@@ -5044,7 +5049,7 @@ export const blogPosts: BlogPost[] = [
         <li>Provides audit-ready reports for SARS compliance</li>
         <li>Supports ZAR and multi-currency invoicing</li>
       </ul>
-      <p>Start your <a href="/invoicing">Pro plan</a> and create SARS-compliant tax invoices in minutes.</p>
+      <p>Start your <a href="/en/invoicing">Pro plan</a> and create SARS-compliant tax invoices in minutes.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>What is the current VAT rate in South Africa?</h3>
@@ -5128,7 +5133,7 @@ export const blogPosts: BlogPost[] = [
       <p>Combine elements for the best of multiple approaches. Format: 2026-ABC-001 (year + client + sequence).</p>
       <p><strong>Pros:</strong> Maximum information at a glance. Highly flexible.</p>
       <p><strong>Cons:</strong> Longer invoice numbers. More complex to implement manually.</p>
-      <p><strong>Best for:</strong> Growing businesses that need detailed tracking and use <a href="/invoicing">invoicing software</a> to manage complexity.</p>
+      <p><strong>Best for:</strong> Growing businesses that need detailed tracking and use <a href="/en/invoicing">invoicing software</a> to manage complexity.</p>
 
       <h2>Rules for Effective Invoice Numbers</h2>
       <p>Whichever system you choose, follow these essential rules:</p>
@@ -5171,7 +5176,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Let Software Handle the Complexity</h2>
-      <p>While understanding numbering principles is valuable, the easiest solution is to use <a href="/invoicing">professional invoicing software</a> that handles numbering automatically. Good software will:</p>
+      <p>While understanding numbering principles is valuable, the easiest solution is to use <a href="/en/invoicing">professional invoicing software</a> that handles numbering automatically. Good software will:</p>
       <ul>
         <li>Generate sequential numbers without duplicates</li>
         <li>Allow you to customize your preferred format</li>
@@ -5203,7 +5208,7 @@ export const blogPosts: BlogPost[] = [
         <li><code>CN-001, CN-002...</code></li>
         <li><code>CR-2026-001, CR-2026-002...</code></li>
       </ul>
-      <p>Always reference the original invoice number on the credit note for traceability. For the full process, see our <a href="/blog/credit-notes-and-invoice-corrections">credit notes and invoice corrections guide</a>.</p>
+      <p>Always reference the original invoice number on the credit note for traceability. For the full process, see our <a href="/en/blog/credit-notes-and-invoice-corrections">credit notes and invoice corrections guide</a>.</p>
 
       <h2>FAQ</h2>
       <h3>Can I start invoice numbers from any number?</h3>
@@ -5214,7 +5219,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Next Steps</h2>
       <p>If you're currently using an informal numbering system (or no system at all), now is the time to implement one properly. Choose a format that fits your business, document your rules, and stick to them consistently. Your future self—and your accountant—will thank you.</p>
-      <p>For more on creating professional invoices, see our guide to <a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">essential invoice elements</a> and learn <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">how to create perfect invoice templates</a>.</p>
+      <p>For more on creating professional invoices, see our guide to <a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">essential invoice elements</a> and learn <a href="/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">how to create perfect invoice templates</a>.</p>
     `,
     entityMentions: [
           {
@@ -5373,12 +5378,12 @@ export const blogPosts: BlogPost[] = [
         <li>Include terms in your proposals and contracts</li>
         <li>Print them on every invoice</li>
         <li>Get explicit agreement for any custom arrangements</li>
-        <li>Use <a href="/invoicing">invoicing software</a> to standardize terms across all invoices</li>
+        <li>Use <a href="/en/invoicing">invoicing software</a> to standardize terms across all invoices</li>
       </ol>
 
       <h2>Next Steps</h2>
       <p>Review your current payment terms. Are they clear, specific, and appropriate for your business? If you're experiencing late payments, your terms might be part of the problem.</p>
-      <p>For more on getting paid faster, see our <a href="/blog/ultimate-guide-getting-paid-faster">ultimate guide to getting paid faster</a> and learn about <a href="/blog/payment-reminder-email-templates">effective payment reminder templates</a>.</p>
+      <p>For more on getting paid faster, see our <a href="/en/blog/ultimate-guide-getting-paid-faster">ultimate guide to getting paid faster</a> and learn about <a href="/en/blog/payment-reminder-email-templates">effective payment reminder templates</a>.</p>
     `,
     entityMentions: [
           {
@@ -5430,7 +5435,7 @@ export const blogPosts: BlogPost[] = [
       <p>If you have clients who pay you the same amount on a regular schedule, manually creating invoices each month is a waste of your time. Manual invoicing wastes 2–4 hours per month for businesses with just 5–10 recurring clients — nearly a full work week per year on repetitive data entry. Recurring invoices automate this process, ensuring consistent billing without the administrative headache. Whether you're a consultant with monthly retainers, a service provider with maintenance contracts, or a SaaS business with subscription clients, recurring invoices can transform your billing workflow.</p>
 
       <h2>What Are Recurring Invoices?</h2>
-      <p>Recurring invoices are invoices that are automatically generated and sent at specified intervals—weekly, monthly, quarterly, or annually. Once you set up the template and schedule, your <a href="/invoicing">invoicing software</a> handles the rest.</p>
+      <p>Recurring invoices are invoices that are automatically generated and sent at specified intervals—weekly, monthly, quarterly, or annually. Once you set up the template and schedule, your <a href="/en/invoicing">invoicing software</a> handles the rest.</p>
       <p>Key features of recurring invoices include:</p>
       <ul>
         <li>Automatic generation on your specified schedule</li>
@@ -5539,14 +5544,14 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Getting Started with Recurring Invoices</h2>
       <p>Ready to automate your billing? <a href="https://app.invoicemonk.com/signup?plan=professional">Create a Invoicemonk Pro account</a>, set your schedule, and let the system handle the rest while you focus on serving your clients.</p>
-      <p>For more invoicing best practices, see our guides on <a href="/blog/ultimate-guide-getting-paid-faster">getting paid faster</a> and <a href="/blog/how-to-write-invoice-payment-terms">writing effective payment terms</a>.</p>
+      <p>For more invoicing best practices, see our guides on <a href="/en/blog/ultimate-guide-getting-paid-faster">getting paid faster</a> and <a href="/en/blog/how-to-write-invoice-payment-terms">writing effective payment terms</a>.</p>
 
       <h2>FAQ</h2>
       <h3>Can I set different payment terms for recurring invoices?</h3>
       <p>Yes. Recurring invoices typically use shorter payment terms (Net 7 or Net 15) than project invoices, since the client expects the billing and should already have processes in place. Some businesses require payment in advance — the recurring invoice acts as a reminder to pay before the service period begins.</p>
 
       <h3>How do I handle failed payments on recurring invoices?</h3>
-      <p>Set up <a href="/blog/automatic-payment-reminders-getting-paid">automatic payment reminders</a> that trigger if a recurring invoice isn't paid by the due date. After three failed payment cycles, pause the service and reach out to the client directly before resuming billing.</p>
+      <p>Set up <a href="/en/blog/automatic-payment-reminders-getting-paid">automatic payment reminders</a> that trigger if a recurring invoice isn't paid by the due date. After three failed payment cycles, pause the service and reach out to the client directly before resuming billing.</p>
     `,
     entityMentions: [
           {
@@ -5658,12 +5663,12 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>How Invoicemonk Helps Prevent and Resolve Disputes</h2>
-      <p>Professional invoicing practices reduce disputes significantly. <a href="/invoicing">Invoicemonk</a> helps by providing:</p>
+      <p>Professional invoicing practices reduce disputes significantly. <a href="/en/invoicing">Invoicemonk</a> helps by providing:</p>
       <ul>
         <li><strong>Detailed Invoice Templates:</strong> Clear line items that clients can easily verify</li>
         <li><strong>Payment History Tracking:</strong> Complete records of all invoices and payments</li>
         <li><strong>Automatic Reminders:</strong> Timely notifications that reduce "forgotten invoice" disputes</li>
-        <li><strong>Credit Note Generation:</strong> When corrections are needed, create <a href="/blog/credit-notes-and-invoice-corrections">credit notes</a> that link to original invoices</li>
+        <li><strong>Credit Note Generation:</strong> When corrections are needed, create <a href="/en/blog/credit-notes-and-invoice-corrections">credit notes</a> that link to original invoices</li>
       </ul>
 
       <h2>FAQ</h2>
@@ -5678,10 +5683,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/credit-notes-and-invoice-corrections">Credit Notes and Invoice Corrections Guide</a></li>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
-        <li><a href="/invoicing">Invoicemonk Invoicing Features</a></li>
+        <li><a href="/en/blog/credit-notes-and-invoice-corrections">Credit Notes and Invoice Corrections Guide</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
+        <li><a href="/en/invoicing">Invoicemonk Invoicing Features</a></li>
       </ul>
     `,
     entityMentions: [
@@ -5850,7 +5855,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Using Invoicemonk for Credit Notes</h2>
-      <p><a href="/invoicing">Invoicemonk</a> simplifies the credit note process:</p>
+      <p><a href="/en/invoicing">Invoicemonk</a> simplifies the credit note process:</p>
       <ul>
         <li><strong>One-Click Credit Note Creation:</strong> Generate a credit note directly from any existing invoice</li>
         <li><strong>Automatic Linking:</strong> Credit notes are automatically tied to original invoices in your records</li>
@@ -5861,10 +5866,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/invoice-disputes-how-to-handle-professionally">Invoice Disputes: How to Handle Professionally</a></li>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">Essential Elements of an Invoice</a></li>
-        <li><a href="/invoicing">Invoicemonk Invoicing Features</a></li>
+        <li><a href="/en/blog/invoice-disputes-how-to-handle-professionally">Invoice Disputes: How to Handle Professionally</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">Essential Elements of an Invoice</a></li>
+        <li><a href="/en/invoicing">Invoicemonk Invoicing Features</a></li>
       </ul>
     `,
     faq: [
@@ -6157,13 +6162,13 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Keep records:</strong> Document all communications for potential disputes</li>
         <li><strong>Don't apologize:</strong> You're entitled to be paid for your work</li>
         <li><strong>Follow up on the phone:</strong> For 30+ day overdue invoices, a phone call often works better than email</li>
-        <li><strong>Include a payment link:</strong> Clients who can pay with one click pay faster. <a href="/payments">Invoicemonk's payment links</a> make this effortless</li>
+        <li><strong>Include a payment link:</strong> Clients who can pay with one click pay faster. <a href="/en/payments">Invoicemonk's payment links</a> make this effortless</li>
         <li><strong>Track opens:</strong> If using email marketing tools, track whether reminders are being opened. No opens may indicate a wrong email address or spam filtering</li>
       </ul>
 
       <h2>Automate Your Reminders</h2>
-      <p>Manually sending payment reminders is time-consuming and easy to forget. <a href="/invoicing">Invoicemonk</a> can automatically send payment reminders on your schedule, saving you time and ensuring consistent follow-up. Set your reminder schedule once and every invoice follows the same professional escalation path.</p>
-      <p>For more strategies on getting paid, see our <a href="/blog/ultimate-guide-getting-paid-faster">ultimate guide to getting paid faster</a> and learn about <a href="/blog/early-payment-discounts-do-they-work">early payment discounts</a>.</p>
+      <p>Manually sending payment reminders is time-consuming and easy to forget. <a href="/en/invoicing">Invoicemonk</a> can automatically send payment reminders on your schedule, saving you time and ensuring consistent follow-up. Set your reminder schedule once and every invoice follows the same professional escalation path.</p>
+      <p>For more strategies on getting paid, see our <a href="/en/blog/ultimate-guide-getting-paid-faster">ultimate guide to getting paid faster</a> and learn about <a href="/en/blog/early-payment-discounts-do-they-work">early payment discounts</a>.</p>
     `,
     faq: [
       { question: 'When should I send a payment reminder?', answer: 'Send the first reminder 3-5 days before the due date as a friendly heads-up. Follow up on the due date itself, then at 3 days, 7 days, 14 days, 21 days, and 30 days overdue with increasingly firm language. After 30 days, transition to formal demands.' },
@@ -6278,7 +6283,7 @@ export const blogPosts: BlogPost[] = [
       <h2>The Bottom Line</h2>
       <p>Early payment discounts are a tool, not a universal solution. They work best for high-margin businesses with specific cash flow needs and clients who will actually use them. For most small businesses, improving invoicing processes, setting clearer payment terms, and automating reminders provides better returns.</p>
       <p>Before offering discounts, calculate the true cost, consider alternatives, and test with a few clients before rolling out broadly.</p>
-      <p>For more cash flow strategies, see our <a href="/blog/ultimate-guide-getting-paid-faster">guide to getting paid faster</a> and learn about <a href="/blog/how-to-write-invoice-payment-terms">effective payment terms</a>.</p>
+      <p>For more cash flow strategies, see our <a href="/en/blog/ultimate-guide-getting-paid-faster">guide to getting paid faster</a> and learn about <a href="/en/blog/how-to-write-invoice-payment-terms">effective payment terms</a>.</p>
     `,
     faq: [
       { question: 'Are early payment discounts worth it for small businesses?', answer: 'It depends on your margins and cash flow needs. A 2/10 Net 30 discount has an annualized cost of ~36%, making it more expensive than most business loans. It makes sense for high-margin businesses (50%+ gross margin) with urgent cash needs, but most small businesses get better results from shorter payment terms and automatic reminders.' },
@@ -6400,7 +6405,7 @@ export const blogPosts: BlogPost[] = [
       <h2>When Cash Gets Tight</h2>
       <p>If your forecast shows a coming crunch, take action early:</p>
       <ul>
-        <li><strong>Follow up on outstanding invoices:</strong> Use <a href="/blog/payment-reminder-email-templates">effective reminder templates</a></li>
+        <li><strong>Follow up on outstanding invoices:</strong> Use <a href="/en/blog/payment-reminder-email-templates">effective reminder templates</a></li>
         <li><strong>Negotiate extended terms with vendors:</strong> Push expenses later</li>
         <li><strong>Take on short-term work:</strong> Quick projects with fast payment terms</li>
         <li><strong>Access your credit line:</strong> Better to draw on credit early than desperately</li>
@@ -6410,7 +6415,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Tools for Cash Flow Forecasting</h2>
       <p>While a spreadsheet works, dedicated tools make forecasting easier:</p>
       <ul>
-        <li><strong>Invoicing software:</strong> <a href="/invoicing">Invoicemonk</a> tracks outstanding invoices and expected payments</li>
+        <li><strong>Invoicing software:</strong> <a href="/en/invoicing">Invoicemonk</a> tracks outstanding invoices and expected payments</li>
         <li><strong>Accounting software:</strong> Provides cash flow reports and projections</li>
         <li><strong>Dedicated cash flow tools:</strong> Float, Pulse, and others specialize in forecasting</li>
       </ul>
@@ -6488,7 +6493,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Start Today</h2>
       <p>Don't wait for a cash crisis to start forecasting. Open a spreadsheet, list your next three months of expected income and expenses, and see where you stand. The visibility alone reduces stress and helps you make better business decisions.</p>
-      <p>For more on managing freelance finances, see our <a href="/blog/freelancer-business-guide">freelancer business guide</a> and learn about <a href="/blog/small-business-accounting-guide">small business accounting basics</a>.</p>
+      <p>For more on managing freelance finances, see our <a href="/en/blog/freelancer-business-guide">freelancer business guide</a> and learn about <a href="/en/blog/small-business-accounting-guide">small business accounting basics</a>.</p>
     `,
     faq: [
       { question: 'How do freelancers forecast cash flow?', answer: 'List all expected income (outstanding invoices, contracted work, likely projects) and fixed expenses for the next 3-6 months. Calculate weekly running balances: starting cash + income - expenses = ending cash. Update weekly with actuals. A simple spreadsheet works perfectly for most freelancers.' },
@@ -6621,11 +6626,11 @@ export const blogPosts: BlogPost[] = [
       <p>If you think you'll need to switch eventually, consider starting with accrual to avoid the complexity of changing later.</p>
 
       <h2>A Hybrid Approach</h2>
-      <p>Some businesses use cash accounting for tax purposes but maintain accrual-style reports for management. This gives you simplicity for compliance while still getting accurate performance insights. <a href="/accounting">Accounting software</a> can often generate both views.</p>
+      <p>Some businesses use cash accounting for tax purposes but maintain accrual-style reports for management. This gives you simplicity for compliance while still getting accurate performance insights. <a href="/en/accounting">Accounting software</a> can often generate both views.</p>
 
       <h2>Next Steps</h2>
       <p>If you're just starting out, cash basis is usually fine. As you grow, reassess whether accrual provides better insights. Either way, be consistent—mixing methods creates confusion and compliance problems.</p>
-      <p>For more on business finance fundamentals, see our guides on <a href="/blog/small-business-accounting-guide">accounting basics</a> and <a href="/blog/how-to-create-a-budget-for-your-small-business">creating a business budget</a>.</p>
+      <p>For more on business finance fundamentals, see our guides on <a href="/en/blog/small-business-accounting-guide">accounting basics</a> and <a href="/en/blog/how-to-create-a-budget-for-your-small-business">creating a business budget</a>.</p>
     `,
     faq: [
       { question: 'What is the difference between cash and accrual accounting?', answer: 'Cash accounting records income when you receive payment and expenses when you pay them. Accrual accounting records income when earned and expenses when incurred, regardless of when cash changes hands. Cash is simpler; accrual gives a more accurate picture of financial performance.' },
@@ -6747,14 +6752,14 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Tracking Margins Over Time</h2>
-      <p>Calculate your margins monthly or quarterly and track trends. Declining margins are an early warning sign—address them before they become critical. Use <a href="/accounting">accounting software</a> to automate these calculations.</p>
+      <p>Calculate your margins monthly or quarterly and track trends. Declining margins are an early warning sign—address them before they become critical. Use <a href="/en/accounting">accounting software</a> to automate these calculations.</p>
 
       <h2>The Margin-Volume Trade-off</h2>
       <p>Sometimes you can increase volume by accepting lower margins (discounts, competitive pricing). Other times, higher margins come at the cost of volume. Find the sweet spot that maximizes total profit, not just margin percentage.</p>
 
       <h2>Next Steps</h2>
       <p>Calculate your current gross, operating, and net margins. Compare them to last year and to industry benchmarks. Identify your biggest opportunity—is it pricing, costs, or product mix?—and take action.</p>
-      <p>For more on business finances, see our guides on <a href="/blog/how-to-create-a-budget-for-your-small-business">creating a budget</a> and <a href="/blog/cash-vs-accrual-accounting-explained">choosing an accounting method</a>.</p>
+      <p>For more on business finances, see our guides on <a href="/en/blog/how-to-create-a-budget-for-your-small-business">creating a budget</a> and <a href="/en/blog/cash-vs-accrual-accounting-explained">choosing an accounting method</a>.</p>
     `,
     faq: [
       { question: 'What is a good profit margin for a small business?', answer: 'It varies by industry. Professional services typically achieve 50-70% gross and 10-20% net margins. Retail averages 25-50% gross and 2-10% net. Software/SaaS enjoys 70-85% gross margins. Compare your margins to industry benchmarks rather than absolute numbers.' },
@@ -6921,11 +6926,11 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Getting Contracts Signed</h2>
-      <p>Always get signed agreement before starting work. Use electronic signature tools for convenience. Keep signed copies for your records. For extra protection, use <a href="/invoicing">invoicing software</a> that links invoices to specific contracts and deliverables.</p>
+      <p>Always get signed agreement before starting work. Use electronic signature tools for convenience. Keep signed copies for your records. For extra protection, use <a href="/en/invoicing">invoicing software</a> that links invoices to specific contracts and deliverables.</p>
 
       <h2>Next Steps</h2>
       <p>Create a template contract with all essential elements, then customize it for each client. Review and update annually as your business evolves. For complex or high-value projects, consider having an attorney review your template.</p>
-      <p>For more on running a successful freelance business, see our guides on <a href="/blog/pricing-your-freelance-services">pricing your services</a> and <a href="/blog/freelancer-business-guide">building a freelance business</a>.</p>
+      <p>For more on running a successful freelance business, see our guides on <a href="/en/blog/pricing-your-freelance-services">pricing your services</a> and <a href="/en/blog/freelancer-business-guide">building a freelance business</a>.</p>
     `,
     entityMentions: [
           {
@@ -7065,7 +7070,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Next Steps</h2>
       <p>Calculate your minimum rate using the formula above. Research market rates in your niche. Increase your rates with your next new client. Track your time to understand your true effective rate.</p>
-      <p>For more freelance business strategies, see our guides on <a href="/blog/freelance-contract-templates">contract templates</a> and <a href="/blog/freelance-time-tracking-guide">time tracking</a>.</p>
+      <p>For more freelance business strategies, see our guides on <a href="/en/blog/freelance-contract-templates">contract templates</a> and <a href="/en/blog/freelance-time-tracking-guide">time tracking</a>.</p>
     `,
     entityMentions: [
           {
@@ -7159,7 +7164,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Simple timer apps:</strong> Toggl, Clockify—just start/stop timers</li>
         <li><strong>Project management integration:</strong> Harvest, Asana, Monday.com</li>
         <li><strong>Automatic tracking:</strong> RescueTime, Timing—track passively</li>
-        <li><strong>Invoicing integration:</strong> <a href="/invoicing">Invoicemonk</a>—connect time to invoices directly</li>
+        <li><strong>Invoicing integration:</strong> <a href="/en/invoicing">Invoicemonk</a>—connect time to invoices directly</li>
       </ul>
       <p>The best tool is one you'll actually use. Start simple and add complexity only if needed.</p>
 
@@ -7183,7 +7188,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Next Steps</h2>
       <p>Choose a time tracking tool and commit to using it for one month. At month's end, review your data: What surprised you? What's your actual hourly rate? Where can you improve?</p>
-      <p>For more on freelance business optimization, see our guides on <a href="/blog/pricing-your-freelance-services">pricing your services</a> and <a href="/blog/cash-flow-forecasting-for-freelancers">cash flow forecasting</a>.</p>
+      <p>For more on freelance business optimization, see our guides on <a href="/en/blog/pricing-your-freelance-services">pricing your services</a> and <a href="/en/blog/cash-flow-forecasting-for-freelancers">cash flow forecasting</a>.</p>
     `,
     entityMentions: [
           {
@@ -7287,11 +7292,11 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Automate Where Possible</h2>
-      <p>Use your CRM or task management system to automate follow-up reminders. Never rely on memory for something this important. <a href="/estimates">Proposal software</a> can track opens and remind you to follow up.</p>
+      <p>Use your CRM or task management system to automate follow-up reminders. Never rely on memory for something this important. <a href="/en/estimates">Proposal software</a> can track opens and remind you to follow up.</p>
 
       <h2>Next Steps</h2>
       <p>Create your follow-up templates now so you're ready when you send your next proposal. Set up a reminder system. Track your close rates before and after implementing consistent follow-up.</p>
-      <p>For more on winning work, see our guide on <a href="/blog/how-to-price-project-work">pricing project work</a> and handling <a href="/blog/proposal-rejection-next-steps">proposal rejection</a>.</p>
+      <p>For more on winning work, see our guide on <a href="/en/blog/how-to-price-project-work">pricing project work</a> and handling <a href="/en/blog/proposal-rejection-next-steps">proposal rejection</a>.</p>
     `,
     entityMentions: [
           {
@@ -7430,10 +7435,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/how-to-price-project-work">How to Price Project Work</a></li>
-        <li><a href="/blog/winning-proposal-templates-by-industry">Winning Proposal Templates by Industry</a></li>
-        <li><a href="/blog/following-up-on-proposals">Following Up on Proposals Effectively</a></li>
-        <li><a href="/estimates">Invoicemonk Estimates and Proposals</a></li>
+        <li><a href="/en/blog/how-to-price-project-work">How to Price Project Work</a></li>
+        <li><a href="/en/blog/winning-proposal-templates-by-industry">Winning Proposal Templates by Industry</a></li>
+        <li><a href="/en/blog/following-up-on-proposals">Following Up on Proposals Effectively</a></li>
+        <li><a href="/en/estimates">Invoicemonk Estimates and Proposals</a></li>
       </ul>
     `,
     entityMentions: [
@@ -7512,7 +7517,7 @@ export const blogPosts: BlogPost[] = [
       <p>This weighted three-point estimate consistently produces more accurate numbers than gut feeling, especially for tasks you've done before but with new variables.</p>
 
       <h3>Step 3: Calculate Labor Costs</h3>
-      <p>Multiply hours by your effective hourly rate. If you don't know your rate yet, use our <a href="/freelancer-rate-calculator">freelance rate calculator</a> to set one that covers taxes, benefits, non-billable time, and business expenses. For agencies, include the fully-loaded cost of each team member involved.</p>
+      <p>Multiply hours by your effective hourly rate. If you don't know your rate yet, use our <a href="/en/freelancer-rate-calculator">freelance rate calculator</a> to set one that covers taxes, benefits, non-billable time, and business expenses. For agencies, include the fully-loaded cost of each team member involved.</p>
 
       <h3>Step 4: Add Direct Costs</h3>
       <p>Include materials, software licenses, stock photos, contractors, hosting during development, and any other project-specific expenses. Don't forget travel costs if applicable.</p>
@@ -7522,7 +7527,7 @@ export const blogPosts: BlogPost[] = [
       <ul>
         <li><strong>Project management</strong> — emails, calls, status updates (typically 10–15% of project hours)</li>
         <li><strong>Revision rounds</strong> — assume 2–3 rounds unless you cap it in the proposal</li>
-        <li><strong>Admin and invoicing</strong> — proposal writing, contracts, <a href="/invoicing">invoice creation</a>, follow-up</li>
+        <li><strong>Admin and invoicing</strong> — proposal writing, contracts, <a href="/en/invoicing">invoice creation</a>, follow-up</li>
         <li><strong>Context-switching</strong> — if you're juggling multiple projects, add ~10% for cognitive overhead</li>
         <li><strong>Tools and resources</strong> — stock photos, fonts, plugins, hosting, third-party APIs</li>
       </ul>
@@ -7583,15 +7588,15 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Cap revisions</strong> — "2 rounds of revisions included; additional rounds at $X/hour"</li>
         <li><strong>Define scope tightly</strong> — ambiguity is where scope creep lives</li>
         <li><strong>Use change orders</strong> — any work outside the original scope requires a signed change order with additional fees</li>
-        <li><strong>Require a <a href="/blog/deposit-invoice-template-guide">deposit</a></strong> — 25–50% upfront before work begins</li>
-        <li><strong>Bill with <a href="/blog/progress-billing-invoice-guide">progress invoices</a></strong> — don't wait until the end to discover the client won't pay</li>
+        <li><strong>Require a <a href="/en/blog/deposit-invoice-template-guide">deposit</a></strong> — 25–50% upfront before work begins</li>
+        <li><strong>Bill with <a href="/en/blog/progress-billing-invoice-guide">progress invoices</a></strong> — don't wait until the end to discover the client won't pay</li>
       </ul>
 
       <h2>Fixed Fee vs Hourly</h2>
       <p>Neither model is universally better — the right choice depends on the project:</p>
       <ul>
         <li><strong>Choose fixed fee when</strong> scope is well-defined, you've done similar work before, and the client values cost certainty.</li>
-        <li><strong>Choose hourly (or <a href="/blog/time-and-materials-invoice-guide">time and materials</a>) when</strong> scope is genuinely unknown, requirements will evolve, or the client wants flexibility to change direction.</li>
+        <li><strong>Choose hourly (or <a href="/en/blog/time-and-materials-invoice-guide">time and materials</a>) when</strong> scope is genuinely unknown, requirements will evolve, or the client wants flexibility to change direction.</li>
         <li><strong>Choose a hybrid when</strong> uncertainty is concentrated in one phase. Fixed-fee the discovery and planning, then T&amp;M the implementation.</li>
       </ul>
 
@@ -7619,18 +7624,18 @@ export const blogPosts: BlogPost[] = [
       <p>It happens. Document what went wrong (scope creep? underestimation? client delays?) and adjust your estimation process for next time. If you're consistently underestimating, increase your default contingency buffer. If scope creep is the issue, tighten your change-order process and revision caps.</p>
 
       <h3>Should I price fixed-fee or hourly for complex projects?</h3>
-      <p>For projects with high uncertainty, use a hybrid: fixed-fee for the discovery and planning phase (where scope is clear), then <a href="/blog/time-and-materials-invoice-guide">time-and-materials billing</a> for implementation. This gives the client cost certainty for planning while protecting you during execution.</p>
+      <p>For projects with high uncertainty, use a hybrid: fixed-fee for the discovery and planning phase (where scope is clear), then <a href="/en/blog/time-and-materials-invoice-guide">time-and-materials billing</a> for implementation. This gives the client cost certainty for planning while protecting you during execution.</p>
 
       <h3>How much contingency buffer should I add?</h3>
       <p>Use 10% for straightforward projects with clear scope and known technology, 20% for moderate complexity with some unknowns, and 30–50% for high complexity involving new technology or unclear requirements.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/proposal-vs-estimate-vs-quote-explained">Proposal vs Estimate vs Quote Explained</a></li>
-        <li><a href="/blog/winning-proposal-templates-by-industry">Winning Proposal Templates by Industry</a></li>
-        <li><a href="/blog/proposal-rejection-next-steps">Handling Proposal Rejection</a></li>
-        <li><a href="/freelancer-rate-calculator">Freelance Rate Calculator</a></li>
-        <li><a href="/estimates">Invoicemonk Estimates and Proposals</a></li>
+        <li><a href="/en/blog/proposal-vs-estimate-vs-quote-explained">Proposal vs Estimate vs Quote Explained</a></li>
+        <li><a href="/en/blog/winning-proposal-templates-by-industry">Winning Proposal Templates by Industry</a></li>
+        <li><a href="/en/blog/proposal-rejection-next-steps">Handling Proposal Rejection</a></li>
+        <li><a href="/en/freelancer-rate-calculator">Freelance Rate Calculator</a></li>
+        <li><a href="/en/estimates">Invoicemonk Estimates and Proposals</a></li>
       </ul>
     `,
     entityMentions: [
@@ -7749,7 +7754,7 @@ export const blogPosts: BlogPost[] = [
         <li>What it was for</li>
         <li>Invoice number (if applicable)</li>
       </ol>
-      <p>If you use <a href="/invoicing">invoicing software</a>, income is tracked automatically when you mark invoices as paid.</p>
+      <p>If you use <a href="/en/invoicing">invoicing software</a>, income is tracked automatically when you mark invoices as paid.</p>
       
       <h3>For Expenses</h3>
       <p>When you spend money, record:</p>
@@ -7806,7 +7811,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Make quarterly payments:</strong> If required, pay estimated taxes each quarter</li>
         <li><strong>Keep organized records:</strong> Everything in its place, easy to find</li>
       </ul>
-      <p>For more details, see our <a href="/blog/quarterly-tax-payment-guide">quarterly tax payment guide</a>.</p>
+      <p>For more details, see our <a href="/en/blog/quarterly-tax-payment-guide">quarterly tax payment guide</a>.</p>
 
       <h2>Step 7: Review and Analyze Monthly</h2>
       <p>Accounting isn't just record-keeping—it's decision-making. Monthly, ask yourself:</p>
@@ -7866,7 +7871,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Tools to Make Accounting Easier</h2>
       <p>The right tools save significant time:</p>
       <ul>
-        <li><strong><a href="/accounting">Invoicemonk</a>:</strong> All-in-one invoicing and accounting for small businesses</li>
+        <li><strong><a href="/en/accounting">Invoicemonk</a>:</strong> All-in-one invoicing and accounting for small businesses</li>
         <li><strong>Receipt scanning apps:</strong> Capture and organize receipts digitally</li>
         <li><strong>Bank feeds:</strong> Automatic transaction import from your bank</li>
         <li><strong>Payment reminders:</strong> Automated follow-ups for unpaid invoices</li>
@@ -7896,10 +7901,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
-        <li><a href="/blog/small-business-accounting-guide">Simple Accounting for Small Business: A Beginner's Guide</a></li>
-        <li><a href="/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
-        <li><a href="/accounting">Invoicemonk Accounting Tools</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Simple Accounting for Small Business: A Beginner's Guide</a></li>
+        <li><a href="/en/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
+        <li><a href="/en/accounting">Invoicemonk Accounting Tools</a></li>
       </ul>
     `,
     entityMentions: [
@@ -8101,7 +8106,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Using Invoicemonk for Your Chart of Accounts</h2>
-      <p><a href="/accounting">Invoicemonk</a> comes with a pre-configured chart of accounts suitable for most small businesses, including:</p>
+      <p><a href="/en/accounting">Invoicemonk</a> comes with a pre-configured chart of accounts suitable for most small businesses, including:</p>
       <ul>
         <li>Standard account categories properly numbered</li>
         <li>Easy customization to add, modify, or hide accounts</li>
@@ -8111,11 +8116,11 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
-        <li><a href="/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
-        <li><a href="/blog/cash-vs-accrual-accounting-explained">Cash vs Accrual Accounting Explained</a></li>
-        <li><a href="/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
-        <li><a href="/accounting">Invoicemonk Accounting Features</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
+        <li><a href="/en/blog/cash-vs-accrual-accounting-explained">Cash vs Accrual Accounting Explained</a></li>
+        <li><a href="/en/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
+        <li><a href="/en/accounting">Invoicemonk Accounting Features</a></li>
       </ul>
     `,
     entityMentions: [
@@ -8308,10 +8313,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Frequently Asked Questions</h2>
       <h3>Do I need an accountant to create these reports?</h3>
-      <p>Not necessarily. Modern <a href="/accounting">accounting software</a> automatically generates these reports from your transaction data. However, an accountant can help ensure your books are accurate, explain what the numbers mean for your specific situation, and advise on improvements. Many small business owners handle routine bookkeeping themselves but consult with an accountant quarterly or annually.</p>
+      <p>Not necessarily. Modern <a href="/en/accounting">accounting software</a> automatically generates these reports from your transaction data. However, an accountant can help ensure your books are accurate, explain what the numbers mean for your specific situation, and advise on improvements. Many small business owners handle routine bookkeeping themselves but consult with an accountant quarterly or annually.</p>
 
       <h3>What software generates financial reports automatically?</h3>
-      <p>Most small business accounting platforms—including <a href="/accounting">Invoicemonk</a>—automatically generate P&L statements, balance sheets, and cash flow reports. The key is consistent data entry: if your invoices, expenses, and bank transactions are recorded properly, reports generate with a few clicks. Look for software that also provides AR/AP aging and budget comparison features.</p>
+      <p>Most small business accounting platforms—including <a href="/en/accounting">Invoicemonk</a>—automatically generate P&L statements, balance sheets, and cash flow reports. The key is consistent data entry: if your invoices, expenses, and bank transactions are recorded properly, reports generate with a few clicks. Look for software that also provides AR/AP aging and budget comparison features.</p>
 
       <h3>Which report matters most for my business?</h3>
       <p>All three core reports matter, but your immediate focus depends on your situation. Cash-strapped businesses should prioritize cash flow. Businesses struggling with profitability need to analyze the P&L. Those seeking loans or investment must ensure the balance sheet is strong. The best approach is reviewing all three together—each provides context for the others.</p>
@@ -8321,15 +8326,15 @@ export const blogPosts: BlogPost[] = [
       
       <p>The investment in learning to read and use these reports pays dividends through better decisions, earlier problem detection, and greater confidence in your business direction.</p>
       
-      <p><a href="/accounting">Invoicemonk</a> automatically generates all essential financial reports from your transaction data, making it easy to stay on top of your business finances without manual spreadsheet work. Get started today and gain the financial visibility your business deserves.</p>
+      <p><a href="/en/accounting">Invoicemonk</a> automatically generates all essential financial reports from your transaction data, making it easy to stay on top of your business finances without manual spreadsheet work. Get started today and gain the financial visibility your business deserves.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
-        <li><a href="/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
-        <li><a href="/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
-        <li><a href="/blog/cash-vs-accrual-accounting-explained">Cash vs Accrual Accounting Explained</a></li>
-        <li><a href="/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
+        <li><a href="/en/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
+        <li><a href="/en/blog/cash-vs-accrual-accounting-explained">Cash vs Accrual Accounting Explained</a></li>
+        <li><a href="/en/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
       </ul>
     `,
     entityMentions: [
@@ -8395,7 +8400,7 @@ export const blogPosts: BlogPost[] = [
         <li>All withdrawals have proper documentation (what was the payment for?)</li>
         <li>Outstanding checks and deposits in transit are identified</li>
       </ul>
-      <p>Most <a href="/accounting">accounting software</a> simplifies this with automatic bank feeds and matching suggestions. Reconcile every account monthly—waiting longer makes errors harder to find.</p>
+      <p>Most <a href="/en/accounting">accounting software</a> simplifies this with automatic bank feeds and matching suggestions. Reconcile every account monthly—waiting longer makes errors harder to find.</p>
 
       <h3>Credit Card Reconciliation</h3>
       <p>Apply the same process to each business credit card:</p>
@@ -8539,7 +8544,7 @@ export const blogPosts: BlogPost[] = [
       <p>A thorough monthly review typically takes 30-60 minutes for a straightforward small business. If you're spending more time, you might have bookkeeping issues that need addressing or might be over-analyzing. If you're spending less than 20 minutes, you're probably skipping important steps. With practice and good systems, most business owners settle into an efficient 45-minute routine.</p>
 
       <h3>What if I'm behind on bookkeeping?</h3>
-      <p>Start where you are. Schedule dedicated time to catch up—even 30 minutes daily can clear a backlog within a couple of weeks. Consider hiring a bookkeeper for a one-time catch-up project if you're significantly behind. Going forward, commit to entering transactions weekly rather than letting them pile up. Modern <a href="/accounting">accounting software with bank feeds</a> significantly reduces manual entry time.</p>
+      <p>Start where you are. Schedule dedicated time to catch up—even 30 minutes daily can clear a backlog within a couple of weeks. Consider hiring a bookkeeper for a one-time catch-up project if you're significantly behind. Going forward, commit to entering transactions weekly rather than letting them pile up. Modern <a href="/en/accounting">accounting software with bank feeds</a> significantly reduces manual entry time.</p>
 
       <h3>Can I do this without an accountant?</h3>
       <p>Yes, most small business owners can handle monthly financial reviews themselves with good accounting software and a systematic approach. However, consider consulting an accountant at least quarterly or annually to validate your processes, identify issues you might miss, and provide strategic guidance. Think of it as getting a professional second opinion on your self-diagnosis.</p>
@@ -8547,15 +8552,15 @@ export const blogPosts: BlogPost[] = [
       <h2>Make Monthly Reviews a Non-Negotiable Habit</h2>
       <p>The businesses that thrive are those that understand their numbers. By committing to a monthly financial review, you transform from a business owner who reacts to financial problems into one who anticipates and prevents them. The 30-60 minutes you invest each month will save you countless hours of crisis management and help you make decisions that drive profitable growth.</p>
       
-      <p><a href="/accounting">Invoicemonk</a> provides all the reports and tools you need for effective monthly reviews—automatic reconciliation, real-time dashboards, and the key financial statements that keep you in control. Start your monthly review practice today.</p>
+      <p><a href="/en/accounting">Invoicemonk</a> provides all the reports and tools you need for effective monthly reviews—automatic reconciliation, real-time dashboards, and the key financial statements that keep you in control. Start your monthly review practice today.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
-        <li><a href="/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
-        <li><a href="/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting</a></li>
-        <li><a href="/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
-        <li><a href="/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
+        <li><a href="/en/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting</a></li>
+        <li><a href="/en/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
+        <li><a href="/en/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
       </ul>
     `,
     entityMentions: [
@@ -8666,7 +8671,7 @@ export const blogPosts: BlogPost[] = [
       <p>With dedicated business accounts, you know exactly how your business is performing. Revenue is clearly revenue—not mixed with personal income. Expenses are clearly expenses—not confused with personal spending. You can answer fundamental questions like "Is my business profitable?" without extensive forensic accounting.</p>
 
       <h3>Easier Bookkeeping</h3>
-      <p>Modern <a href="/accounting">accounting software</a> connects directly to bank accounts and imports transactions automatically. When your business account contains only business transactions, categorization is straightforward. When personal purchases are mixed in, every transaction requires review and many require exclusion—multiplying your bookkeeping time.</p>
+      <p>Modern <a href="/en/accounting">accounting software</a> connects directly to bank accounts and imports transactions automatically. When your business account contains only business transactions, categorization is straightforward. When personal purchases are mixed in, every transaction requires review and many require exclusion—multiplying your bookkeeping time.</p>
 
       <h3>Accurate Profit Calculation</h3>
       <p>Understanding your true profit margin is impossible with mixed finances. Are you paying yourself appropriately? Is the business generating enough to cover taxes, reinvestment, and owner compensation? You can't answer these questions without knowing exactly what the business earned and spent.</p>
@@ -8746,7 +8751,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h3>Software Integration</h3>
-      <p>Ensure the bank offers automatic feeds to your <a href="/accounting">accounting software</a>. Manual transaction entry is tedious and error-prone. Most major banks integrate with major accounting platforms.</p>
+      <p>Ensure the bank offers automatic feeds to your <a href="/en/accounting">accounting software</a>. Manual transaction entry is tedious and error-prone. Most major banks integrate with major accounting platforms.</p>
 
       <h3>Future Needs</h3>
       <p>Consider whether the bank offers business credit lines, business loans, and merchant services. Establishing a relationship now may help when you need financing later.</p>
@@ -8786,15 +8791,15 @@ export const blogPosts: BlogPost[] = [
       <h2>Take Action Today</h2>
       <p>If you haven't separated your business and personal finances, do it now. Open a business checking account this week. Get a business credit card. Set up a business savings account for taxes. The process takes a few hours and eliminates years of potential problems.</p>
       
-      <p><a href="/accounting">Invoicemonk</a> connects to your business accounts, making financial management seamless. All your invoices, payments, and expenses flow through proper channels with automatic tracking and reporting. Get started with the financial foundation your business deserves.</p>
+      <p><a href="/en/accounting">Invoicemonk</a> connects to your business accounts, making financial management seamless. All your invoices, payments, and expenses flow through proper channels with automatic tracking and reporting. Get started with the financial foundation your business deserves.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
-        <li><a href="/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
-        <li><a href="/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
-        <li><a href="/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
-        <li><a href="/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/chart-of-accounts-for-small-business">Chart of Accounts Setup Guide</a></li>
+        <li><a href="/en/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
+        <li><a href="/en/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
+        <li><a href="/en/blog/year-end-financial-preparation">Year-End Financial Preparation</a></li>
       </ul>
     `,
     entityMentions: [
@@ -9087,7 +9092,7 @@ export const blogPosts: BlogPost[] = [
       <p>Ideally, start in November. This gives you time to execute tax-reduction strategies before December 31, address bookkeeping issues before the pressure of tax season, and make strategic payments or deferrals. Starting in January means you're only reacting to what happened rather than optimizing outcomes.</p>
 
       <h3>What if my books aren't up to date?</h3>
-      <p>Start where you are, but make catching up a priority. Schedule dedicated time—or hire a bookkeeper for a catch-up project. Focus first on bank reconciliations, then expense categorization. You can't do meaningful tax planning or financial analysis with incomplete records. <a href="/accounting">Modern accounting software</a> with bank feeds can dramatically speed catch-up.</p>
+      <p>Start where you are, but make catching up a priority. Schedule dedicated time—or hire a bookkeeper for a catch-up project. Focus first on bank reconciliations, then expense categorization. You can't do meaningful tax planning or financial analysis with incomplete records. <a href="/en/accounting">Modern accounting software</a> with bank feeds can dramatically speed catch-up.</p>
 
       <h3>Should I do this myself or hire help?</h3>
       <p>It depends on your situation. Most small business owners can handle the operational checklist items themselves—reconciliations, collections, document gathering, administrative tasks. Tax planning and strategy benefit from professional input, especially for reducing liability and avoiding penalties. Annual financial analysis can be self-service with good tools, but an outside perspective often catches things you'd miss. At minimum, consult with a tax professional before making year-end tax decisions.</p>
@@ -9095,15 +9100,15 @@ export const blogPosts: BlogPost[] = [
       <h2>Start Your Year-End Process Today</h2>
       <p>Year-end preparation is an investment that pays dividends through lower taxes, cleaner records, better insights, and a stronger start to the new year. Don't wait until December 31st—start working through this checklist now, and you'll enter the new year with confidence and momentum.</p>
       
-      <p><a href="/accounting">Invoicemonk</a> gives you the tools to manage year-end efficiently—from financial reports and reconciliation features to organized records that make tax preparation simple. Get your finances in order for a successful new year.</p>
+      <p><a href="/en/accounting">Invoicemonk</a> gives you the tools to manage year-end efficiently—from financial reports and reconciliation features to organized records that make tax preparation simple. Get your finances in order for a successful new year.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
-        <li><a href="/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
-        <li><a href="/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
-        <li><a href="/blog/quarterly-tax-payment-guide">Quarterly Tax Payment Guide</a></li>
-        <li><a href="/blog/small-business-tax-deductions-guide">Small Business Tax Deductions Guide</a></li>
+        <li><a href="/en/blog/small-business-accounting-guide">Complete Small Business Accounting Guide</a></li>
+        <li><a href="/en/blog/monthly-financial-review-checklist">Monthly Financial Review Checklist</a></li>
+        <li><a href="/en/blog/financial-reports-every-business-needs">Financial Reports Every Business Needs</a></li>
+        <li><a href="/en/blog/quarterly-tax-payment-guide">Quarterly Tax Payment Guide</a></li>
+        <li><a href="/en/blog/small-business-tax-deductions-guide">Small Business Tax Deductions Guide</a></li>
       </ul>
     `,
     entityMentions: [
@@ -9207,7 +9212,7 @@ export const blogPosts: BlogPost[] = [
       <p><strong>Pros:</strong> Professional templates, automatic calculations, payment tracking, reminders, tax reports, looks more credible</p>
       <p><strong>Cons:</strong> Some tools have monthly fees (though many offer Pro plans)</p>
 
-      <p><strong>Our recommendation:</strong> Start with <a href="/invoicing">professional invoicing software</a> like Invoicemonk. It's designed specifically for freelancers and small businesses, and the time you save is worth it. Plus, businesses using invoicing software get paid an average of 14 days faster.</p>
+      <p><strong>Our recommendation:</strong> Start with <a href="/en/invoicing">professional invoicing software</a> like Invoicemonk. It's designed specifically for freelancers and small businesses, and the time you save is worth it. Plus, businesses using invoicing software get paid an average of 14 days faster.</p>
 
       <h2>Step 2: Add Your Business Information</h2>
       <p>The top of your invoice should prominently display your business identity:</p>
@@ -9227,7 +9232,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Contact person:</strong> The name of who handles payments</li>
         <li><strong>Reference numbers:</strong> Include any PO numbers or project codes they've provided</li>
       </ul>
-      <p><strong>Important:</strong> Always verify client details before sending. Invoices sent to the wrong person or department can delay payment by weeks. Learn more about <a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">essential invoice elements</a>.</p>
+      <p><strong>Important:</strong> Always verify client details before sending. Invoices sent to the wrong person or department can delay payment by weeks. Learn more about <a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">essential invoice elements</a>.</p>
 
       <h2>Step 4: Create a Unique Invoice Number</h2>
       <p>Every invoice needs a unique identifier. This is essential for:</p>
@@ -9246,7 +9251,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Combined:</strong> INV-2026-02-001 (includes year and month)</li>
         <li><strong>Client-coded:</strong> ABC-001 (useful for repeat clients)</li>
       </ul>
-      <p><strong>Key rule:</strong> Never reuse an invoice number. If you void an invoice, document it and skip to the next number. For more details, see our guide on <a href="/blog/invoice-numbering-best-practices">invoice numbering best practices</a>.</p>
+      <p><strong>Key rule:</strong> Never reuse an invoice number. If you void an invoice, document it and skip to the next number. For more details, see our guide on <a href="/en/blog/invoice-numbering-best-practices">invoice numbering best practices</a>.</p>
 
       <h2>Step 5: Specify Dates</h2>
       <p>Your invoice needs two critical dates:</p>
@@ -9269,7 +9274,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Net 30:</strong> Payment due within 30 days (industry standard for many sectors)</li>
         <li><strong>50% Upfront:</strong> Half before work, half upon completion (recommended for large projects)</li>
       </ul>
-      <p>For detailed guidance on setting payment terms, read our <a href="/blog/how-to-write-invoice-payment-terms">payment terms guide</a>.</p>
+      <p>For detailed guidance on setting payment terms, read our <a href="/en/blog/how-to-write-invoice-payment-terms">payment terms guide</a>.</p>
 
       <h2>Step 6: Itemize Your Work</h2>
       <p>This is the heart of your invoice. List each service or product with clear details.</p>
@@ -9335,7 +9340,7 @@ export const blogPosts: BlogPost[] = [
         <li>Mobile money details (for Nigeria: Paystack, Flutterwave)</li>
       </ul>
 
-      <p><strong>Pro tip:</strong> Offering multiple payment methods increases the chance of prompt payment. Invoicing software like <a href="/invoicing">Invoicemonk</a> automatically includes payment links on your invoices.</p>
+      <p><strong>Pro tip:</strong> Offering multiple payment methods increases the chance of prompt payment. Invoicing software like <a href="/en/invoicing">Invoicemonk</a> automatically includes payment links on your invoices.</p>
 
       <h2>Step 9: Review Before Sending</h2>
       <p>Before hitting send, run through this checklist:</p>
@@ -9378,7 +9383,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>7 days overdue:</strong> Polite follow-up</li>
         <li><strong>14+ days overdue:</strong> Firmer reminder, consider phone call</li>
       </ul>
-      <p>Learn more about payment follow-ups in our guide on <a href="/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a>.</p>
+      <p>Learn more about payment follow-ups in our guide on <a href="/en/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a>.</p>
 
       <h2>Your First Invoice Template</h2>
       <p>Here's a simple structure you can follow:</p>
@@ -9424,7 +9429,7 @@ Thank you for your business!
       <h2>Next Steps: Building Your Invoicing System</h2>
       <p>Congratulations! You now know how to create a professional invoice. Here's how to build on this foundation:</p>
       <ol>
-        <li><strong>Set up invoicing software:</strong> <a href="/invoicing">Invoicemonk</a> is designed for freelancers and small businesses</li>
+        <li><strong>Set up invoicing software:</strong> <a href="/en/invoicing">Invoicemonk</a> is designed for freelancers and small businesses</li>
         <li><strong>Create your template:</strong> Save your business info and branding for future invoices</li>
         <li><strong>Establish payment terms:</strong> Decide on standard terms for all clients</li>
         <li><strong>Set up reminders:</strong> Automate follow-ups to reduce late payments</li>
@@ -9448,11 +9453,11 @@ Thank you for your business!
       <h2>Related Resources</h2>
       <p>Continue building your invoicing expertise:</p>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">5 Essential Elements of an Invoice</a></li>
-        <li><a href="/blog/invoice-numbering-best-practices">Invoice Numbering Best Practices</a></li>
-        <li><a href="/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
-        <li><a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">How to Create a Perfect Invoice Template</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">5 Essential Elements of an Invoice</a></li>
+        <li><a href="/en/blog/invoice-numbering-best-practices">Invoice Numbering Best Practices</a></li>
+        <li><a href="/en/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
+        <li><a href="/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">How to Create a Perfect Invoice Template</a></li>
       </ul>
     `,
     faq: [
@@ -9541,7 +9546,7 @@ Thank you for your business!
       <ul>
         <li><strong>Invoice immediately:</strong> Make invoicing the final step of every project</li>
         <li><strong>Schedule invoice time:</strong> Block time weekly (or daily for high-volume businesses) for invoicing</li>
-        <li><strong>Use automation:</strong> <a href="/invoicing">Invoicing software</a> lets you create and send invoices in minutes</li>
+        <li><strong>Use automation:</strong> <a href="/en/invoicing">Invoicing software</a> lets you create and send invoices in minutes</li>
         <li><strong>Set up recurring invoices:</strong> For regular clients, automate the process entirely</li>
       </ul>
       <p><em>Freelancer example: Sarah, a graphic designer, used to invoice at month-end. She switched to same-day invoicing and reduced her average payment time from 45 days to 18 days.</em></p>
@@ -9575,7 +9580,7 @@ Thank you for your business!
         <li><strong>Ask upfront:</strong> Before starting work, ask "Who should I address invoices to?"</li>
         <li><strong>Get billing details:</strong> Company legal name, billing address, AP contact, PO requirements</li>
         <li><strong>Verify regularly:</strong> Contacts change—confirm details periodically for ongoing clients</li>
-        <li><strong>Store in your system:</strong> Save correct details in your <a href="/invoicing">invoicing software</a> for future use</li>
+        <li><strong>Store in your system:</strong> Save correct details in your <a href="/en/invoicing">invoicing software</a> for future use</li>
       </ul>
 
       <h2>Mistake #4: Unclear Payment Instructions</h2>
@@ -9606,7 +9611,7 @@ Thank you for your business!
         <li><strong>Let software handle it:</strong> Invoicing software automatically assigns unique numbers</li>
         <li><strong>Document voided invoices:</strong> Keep a record of why invoices were cancelled</li>
       </ul>
-      <p>For detailed numbering strategies, see our <a href="/blog/invoice-numbering-best-practices">invoice numbering best practices</a> guide.</p>
+      <p>For detailed numbering strategies, see our <a href="/en/blog/invoice-numbering-best-practices">invoice numbering best practices</a> guide.</p>
 
       <h2>Mistake #6: Not Specifying Payment Terms</h2>
 
@@ -9621,7 +9626,7 @@ Thank you for your business!
         <li><strong>Consider deposits:</strong> Request 50% upfront for large projects</li>
         <li><strong>Offer incentives:</strong> "2% discount if paid within 10 days"</li>
       </ul>
-      <p>Learn more in our guide on <a href="/blog/how-to-write-invoice-payment-terms">writing effective payment terms</a>.</p>
+      <p>Learn more in our guide on <a href="/en/blog/how-to-write-invoice-payment-terms">writing effective payment terms</a>.</p>
 
       <h2>Mistake #7: Ignoring Tax Requirements</h2>
 
@@ -9634,9 +9639,9 @@ Thank you for your business!
         <li><strong>Know your requirements:</strong> Understand what your tax authority requires on invoices</li>
         <li><strong>Include tax ID:</strong> VAT, GST, TIN, or other registration numbers</li>
         <li><strong>Show calculations:</strong> Subtotal, tax rate, tax amount, total</li>
-        <li><strong>Use compliant software:</strong> <a href="/invoicing">Invoicemonk</a> handles tax calculations for multiple countries</li>
+        <li><strong>Use compliant software:</strong> <a href="/en/invoicing">Invoicemonk</a> handles tax calculations for multiple countries</li>
       </ul>
-      <p>See our country-specific guides: <a href="/blog/firs-invoice-requirements-nigeria">Nigeria (FIRS)</a>, <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK (HMRC)</a>, <a href="/blog/irs-invoice-requirements-us-compliance">US (IRS)</a>.</p>
+      <p>See our country-specific guides: <a href="/en/blog/firs-invoice-requirements-nigeria">Nigeria (FIRS)</a>, <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK (HMRC)</a>, <a href="/en/blog/irs-invoice-requirements-us-compliance">US (IRS)</a>.</p>
 
       <h2>Mistake #8: Unprofessional Presentation</h2>
 
@@ -9649,7 +9654,7 @@ Thank you for your business!
         <li><strong>Add your logo:</strong> Brand consistency matters</li>
         <li><strong>Use clean formatting:</strong> Clear sections, readable fonts, aligned numbers</li>
         <li><strong>Maintain consistency:</strong> Every invoice should look the same</li>
-        <li><strong>Use templates:</strong> Professional <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">invoice templates</a> save time and look great</li>
+        <li><strong>Use templates:</strong> Professional <a href="/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">invoice templates</a> save time and look great</li>
       </ul>
       <p><em>Consultant example: James upgraded from Word documents to branded invoice templates. His clients started commenting on how "put together" his business seemed.</em></p>
 
@@ -9669,7 +9674,7 @@ Thank you for your business!
             <li>14 days overdue: Firmer reminder</li>
           </ul>
         </li>
-        <li><strong>Automate reminders:</strong> Set up <a href="/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a></li>
+        <li><strong>Automate reminders:</strong> Set up <a href="/en/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a></li>
         <li><strong>Stay professional:</strong> Consistent follow-up, not angry demands</li>
       </ul>
 
@@ -9686,7 +9691,7 @@ Thank you for your business!
         <li><strong>Use templates:</strong> Client and service information saved for quick invoice creation</li>
         <li><strong>Track in one place:</strong> Dashboard showing paid, pending, and overdue at a glance</li>
       </ul>
-      <p>Businesses using <a href="/invoicing">invoicing software</a> get paid an average of 14 days faster than those using manual methods.</p>
+      <p>Businesses using <a href="/en/invoicing">invoicing software</a> get paid an average of 14 days faster than those using manual methods.</p>
 
       <h2>Quick Reference: Invoice Error Checklist</h2>
       <p>Before sending any invoice, verify:</p>
@@ -9717,11 +9722,11 @@ Thank you for your business!
       <h2>Related Resources</h2>
       <p>Continue improving your invoicing and payment collection:</p>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/ultimate-guide-getting-paid-faster">Getting Paid Faster: Cash Flow Strategies</a></li>
-        <li><a href="/blog/how-to-handle-late-payments-professionally">How to Handle Late Payments Professionally</a></li>
-        <li><a href="/blog/setting-up-automatic-payment-reminders">Setting Up Automatic Payment Reminders</a></li>
-        <li><a href="/payments">Invoicemonk Payment Collection</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">Getting Paid Faster: Cash Flow Strategies</a></li>
+        <li><a href="/en/blog/how-to-handle-late-payments-professionally">How to Handle Late Payments Professionally</a></li>
+        <li><a href="/en/blog/setting-up-automatic-payment-reminders">Setting Up Automatic Payment Reminders</a></li>
+        <li><a href="/en/payments">Invoicemonk Payment Collection</a></li>
       </ul>
     `,
     faq: [
@@ -9791,7 +9796,7 @@ Thank you for your business!
       <p>Digital invoicing encompasses several formats:</p>
       <ul>
         <li><strong>PDF invoices:</strong> Created in software and emailed as attachments</li>
-        <li><strong>Online invoices:</strong> Hosted on platforms like <a href="/invoicing">Invoicemonk</a> with clickable payment links</li>
+        <li><strong>Online invoices:</strong> Hosted on platforms like <a href="/en/invoicing">Invoicemonk</a> with clickable payment links</li>
         <li><strong>E-invoicing (structured data):</strong> Machine-readable formats like UBL or Peppol required by some tax authorities</li>
         <li><strong>Mobile invoices:</strong> Created and sent from smartphone apps</li>
       </ul>
@@ -9807,7 +9812,7 @@ Thank you for your business!
         <li>Send invoices in seconds, not days</li>
         <li>Clients can pay immediately via embedded payment links</li>
         <li>Automatic delivery confirmation and read receipts</li>
-        <li><a href="/blog/setting-up-automatic-payment-reminders">Automated payment reminders</a> reduce follow-up time</li>
+        <li><a href="/en/blog/setting-up-automatic-payment-reminders">Automated payment reminders</a> reduce follow-up time</li>
       </ul>
 
       <h3>Cost Savings</h3>
@@ -9821,7 +9826,7 @@ Thank you for your business!
       <p>For a business sending 100 invoices monthly, switching to digital saves $1,200–$2,400 annually in direct costs alone.</p>
 
       <h3>Better Record Keeping</h3>
-      <p>Digital invoices are automatically stored, searchable, and backed up. No risk of water damage, fire, or misplaced files. This makes <a href="/blog/how-to-prepare-business-tax-audit">tax audit preparation</a> significantly easier.</p>
+      <p>Digital invoices are automatically stored, searchable, and backed up. No risk of water damage, fire, or misplaced files. This makes <a href="/en/blog/how-to-prepare-business-tax-audit">tax audit preparation</a> significantly easier.</p>
 
       <h3>Environmental Impact</h3>
       <p>Going paperless reduces your carbon footprint. If every UK business switched to digital invoicing, it would save an estimated 500,000 trees annually.</p>
@@ -9846,10 +9851,10 @@ Thank you for your business!
       <h2>Compliance Considerations</h2>
       <p>Tax authorities worldwide are increasingly mandating digital invoicing:</p>
       <ul>
-        <li><strong>Nigeria (FIRS):</strong> Electronic filing encouraged, digital records accepted — see our <a href="/blog/firs-invoice-requirements-nigeria">FIRS compliance guide</a></li>
-        <li><strong>UK (HMRC):</strong> Making Tax Digital requires digital record-keeping — read our <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC MTD guide</a></li>
+        <li><strong>Nigeria (FIRS):</strong> Electronic filing encouraged, digital records accepted — see our <a href="/en/blog/firs-invoice-requirements-nigeria">FIRS compliance guide</a></li>
+        <li><strong>UK (HMRC):</strong> Making Tax Digital requires digital record-keeping — read our <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC MTD guide</a></li>
         <li><strong>EU:</strong> Many countries mandate e-invoicing for B2G transactions</li>
-        <li><strong>US (IRS):</strong> Both formats accepted, but digital records must be maintained — see our <a href="/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a></li>
+        <li><strong>US (IRS):</strong> Both formats accepted, but digital records must be maintained — see our <a href="/en/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a></li>
       </ul>
       <p>Regardless of which format you send, you must keep records for 5–7 years depending on jurisdiction.</p>
 
@@ -9857,8 +9862,8 @@ Thank you for your business!
       <ol>
         <li><strong>Start with new clients:</strong> Default to digital for all new client relationships</li>
         <li><strong>Transition existing clients:</strong> Send both formats for a month, then switch to digital only</li>
-        <li><strong>Choose the right platform:</strong> <a href="/invoicing">Invoicemonk</a> makes creating professional digital invoices simple</li>
-        <li><strong>Ensure compliance:</strong> Verify your digital invoices meet local <a href="/compliance">tax authority requirements</a></li>
+        <li><strong>Choose the right platform:</strong> <a href="/en/invoicing">Invoicemonk</a> makes creating professional digital invoices simple</li>
+        <li><strong>Ensure compliance:</strong> Verify your digital invoices meet local <a href="/en/compliance">tax authority requirements</a></li>
         <li><strong>Back up everything:</strong> Use cloud storage with automatic backups</li>
       </ol>
 
@@ -9880,10 +9885,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/invoice-design-professional-branding-tips">Invoice Design: Professional Branding Tips</a></li>
-        <li><a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">5 Essential Elements of an Invoice</a></li>
-        <li><a href="/blog/recurring-invoices-automating-billing">Recurring Invoices: Automating Billing</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/invoice-design-professional-branding-tips">Invoice Design: Professional Branding Tips</a></li>
+        <li><a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">5 Essential Elements of an Invoice</a></li>
+        <li><a href="/en/blog/recurring-invoices-automating-billing">Recurring Invoices: Automating Billing</a></li>
       </ul>
     `,
     faq: [
@@ -10002,7 +10007,7 @@ Thank you for your business!
         <li><strong>Payment zone:</strong> Clear payment instructions, bank details, or payment link</li>
         <li><strong>Footer:</strong> Thank you note, terms, contact information</li>
       </ol>
-      <p>For the complete list of required elements, see our guide on <a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">essential invoice elements</a>.</p>
+      <p>For the complete list of required elements, see our guide on <a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">essential invoice elements</a>.</p>
 
       <h2>Branding Dos and Don'ts</h2>
 
@@ -10025,7 +10030,7 @@ Thank you for your business!
       </ul>
 
       <h2>Digital vs Print Design Considerations</h2>
-      <p>If you send <a href="/blog/digital-vs-paper-invoices-pros-and-cons">digital invoices</a>, consider how they look on screens:</p>
+      <p>If you send <a href="/en/blog/digital-vs-paper-invoices-pros-and-cons">digital invoices</a>, consider how they look on screens:</p>
       <ul>
         <li>Test readability on mobile devices—many clients review invoices on phones</li>
         <li>Use clickable payment links and email addresses</li>
@@ -10034,21 +10039,21 @@ Thank you for your business!
       </ul>
 
       <h2>Using Invoice Templates</h2>
-      <p>Starting from scratch is unnecessary. Professional <a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">invoice templates</a> save time and ensure consistency. The best templates let you:</p>
+      <p>Starting from scratch is unnecessary. Professional <a href="/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">invoice templates</a> save time and ensure consistency. The best templates let you:</p>
       <ul>
         <li>Upload your logo and brand colours once</li>
         <li>Auto-populate client and business information</li>
         <li>Maintain consistent formatting across all invoices</li>
         <li>Generate professional PDFs automatically</li>
       </ul>
-      <p><a href="/invoicing">Invoicemonk</a> provides customisable templates that adapt to your brand identity while ensuring all <a href="/compliance">compliance requirements</a> are met.</p>
+      <p><a href="/en/invoicing">Invoicemonk</a> provides customisable templates that adapt to your brand identity while ensuring all <a href="/en/compliance">compliance requirements</a> are met.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">How to Create a Perfect Invoice Template</a></li>
-        <li><a href="/blog/digital-vs-paper-invoices-pros-and-cons">Digital vs Paper Invoices</a></li>
-        <li><a href="/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">Essential Invoice Elements</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template">How to Create a Perfect Invoice Template</a></li>
+        <li><a href="/en/blog/digital-vs-paper-invoices-pros-and-cons">Digital vs Paper Invoices</a></li>
+        <li><a href="/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners">Essential Invoice Elements</a></li>
       </ul>
     `,
     faq: [
@@ -10169,7 +10174,7 @@ Thank you for your business!
         <li><strong>Missing customs information:</strong> Commercial invoices for international trade must include HS codes, country of origin, and Incoterms</li>
         <li><strong>Not converting to commercial:</strong> Every proforma should eventually result in either a commercial invoice or cancellation</li>
       </ol>
-      <p>For more on avoiding invoice errors, read our guide on <a href="/blog/invoice-mistakes-that-cost-you-money">invoice mistakes that cost you money</a>.</p>
+      <p>For more on avoiding invoice errors, read our guide on <a href="/en/blog/invoice-mistakes-that-cost-you-money">invoice mistakes that cost you money</a>.</p>
 
       <h2>International Trade Requirements</h2>
       <p>When trading internationally, commercial invoices typically must include:</p>
@@ -10180,10 +10185,10 @@ Thank you for your business!
         <li>Currency and exchange rate (if applicable)</li>
         <li>Detailed product descriptions with weights and quantities</li>
       </ul>
-      <p>Different countries have specific requirements. Check our compliance guides for <a href="/blog/firs-invoice-requirements-nigeria">Nigeria</a>, <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK</a>, <a href="/blog/irs-invoice-requirements-us-compliance">US</a>, <a href="/blog/cra-invoice-standards-canadian-compliance">Canada</a>, and <a href="/blog/ato-invoice-requirements-australian-compliance">Australia</a>.</p>
+      <p>Different countries have specific requirements. Check our compliance guides for <a href="/en/blog/firs-invoice-requirements-nigeria">Nigeria</a>, <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK</a>, <a href="/en/blog/irs-invoice-requirements-us-compliance">US</a>, <a href="/en/blog/cra-invoice-standards-canadian-compliance">Canada</a>, and <a href="/en/blog/ato-invoice-requirements-australian-compliance">Australia</a>.</p>
 
       <h2>How Invoicemonk Helps</h2>
-      <p><a href="/invoicing">Invoicemonk</a> supports both proforma and commercial invoices, making it easy to:</p>
+      <p><a href="/en/invoicing">Invoicemonk</a> supports both proforma and commercial invoices, making it easy to:</p>
       <ul>
         <li>Create professional proforma invoices with one click</li>
         <li>Convert proforma to commercial invoices automatically</li>
@@ -10193,10 +10198,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/how-to-write-invoice-payment-terms">Invoice Payment Terms Guide</a></li>
-        <li><a href="/blog/credit-notes-and-invoice-corrections">Credit Notes and Invoice Corrections</a></li>
-        <li><a href="/estimates">Invoicemonk Estimates & Quotes</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/how-to-write-invoice-payment-terms">Invoice Payment Terms Guide</a></li>
+        <li><a href="/en/blog/credit-notes-and-invoice-corrections">Credit Notes and Invoice Corrections</a></li>
+        <li><a href="/en/estimates">Invoicemonk Estimates & Quotes</a></li>
       </ul>
     `,
     faq: [
@@ -10302,8 +10307,8 @@ Thank you for your business!
       <p>Brief and factual: "Invoice #1047 is due today. Click here to pay securely online." Always include a direct payment link — removing friction is the single biggest factor in same-day payment.</p>
 
       <h3>Overdue reminders (3, 7, 14 days)</h3>
-      <p>Gradually increase formality. At 3 days, assume oversight. At 7 days, reference your <a href="/blog/how-to-write-invoice-payment-terms">payment terms</a> and any late fees. At 14 days, indicate you'll need to discuss directly if payment isn't received soon.</p>
-      <p>For copy-paste wording at every stage, see our <a href="/blog/payment-reminder-email-templates">payment reminder email templates</a>.</p>
+      <p>Gradually increase formality. At 3 days, assume oversight. At 7 days, reference your <a href="/en/blog/how-to-write-invoice-payment-terms">payment terms</a> and any late fees. At 14 days, indicate you'll need to discuss directly if payment isn't received soon.</p>
+      <p>For copy-paste wording at every stage, see our <a href="/en/blog/payment-reminder-email-templates">payment reminder email templates</a>.</p>
 
       <h2>Results: What Automatic Reminders Actually Achieve</h2>
       <p>Based on aggregate data from invoicing platforms:</p>
@@ -10315,7 +10320,7 @@ Thank you for your business!
       </ul>
 
       <h2>Set Up Automatic Reminders in Invoicemonk in 5 Minutes</h2>
-      <p>Here's the exact flow inside <a href="/payments">Invoicemonk</a>. </p>
+      <p>Here's the exact flow inside <a href="/en/payments">Invoicemonk</a>. </p>
 
       <figure>
         <img src="/images/blog/auto-reminder-settings-invoicemonk.jpg" alt="Invoicemonk Payment Reminders settings with Before Due Date and After Due Date intervals and a custom message field" loading="lazy" />
@@ -10341,7 +10346,7 @@ Thank you for your business!
       <h2>Best Practices for Effective Reminders</h2>
 
       <h3>Always include a payment link</h3>
-      <p>Every reminder should have a prominent "Pay Now" link. The fewer clicks between reading the email and completing payment, the faster you get paid. See <a href="/blog/online-payment-methods-comparison-small-business">online payment methods</a> for what to offer.</p>
+      <p>Every reminder should have a prominent "Pay Now" link. The fewer clicks between reading the email and completing payment, the faster you get paid. See <a href="/en/blog/online-payment-methods-comparison-small-business">online payment methods</a> for what to offer.</p>
 
       <h3>Keep the tone relationship-first</h3>
       <p>Even overdue reminders should assume good faith. "We understand things get busy" outperforms "Your payment is overdue." You want to get paid <em>and</em> keep the client.</p>
@@ -10358,11 +10363,11 @@ Thank you for your business!
       <h2>When Reminders Aren't Enough</h2>
       <p>Automatic reminders handle the 80% of late payments that are simple oversights. For the remaining 20%, layer in:</p>
       <ul>
-        <li><strong>Late payment fees</strong> — clearly stated in your <a href="/blog/how-to-write-invoice-payment-terms">payment terms</a> and applied consistently.</li>
-        <li><strong>Early payment discounts</strong> — small incentives for prompt payment (<a href="/blog/early-payment-discounts-do-they-work">do they work?</a>).</li>
+        <li><strong>Late payment fees</strong> — clearly stated in your <a href="/en/blog/how-to-write-invoice-payment-terms">payment terms</a> and applied consistently.</li>
+        <li><strong>Early payment discounts</strong> — small incentives for prompt payment (<a href="/en/blog/early-payment-discounts-do-they-work">do they work?</a>).</li>
         <li><strong>Deposits and milestone billing</strong> — collect throughout the project, not all at the end.</li>
         <li><strong>Credit checks</strong> — for large engagements, verify payment history before committing.</li>
-        <li><strong>Professional escalation</strong> — when automation fails, see <a href="/blog/how-to-handle-late-payments-professionally">handling late payments professionally</a>.</li>
+        <li><strong>Professional escalation</strong> — when automation fails, see <a href="/en/blog/how-to-handle-late-payments-professionally">handling late payments professionally</a>.</li>
       </ul>
 
       <h2>Measuring Results</h2>
@@ -10385,10 +10390,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
-        <li><a href="/blog/payment-reminder-email-templates">Payment Reminder Email Templates</a></li>
-        <li><a href="/blog/how-to-handle-late-payments-professionally">Handling Late Payments Professionally</a></li>
-        <li><a href="/blog/early-payment-discounts-do-they-work">Early Payment Discounts Strategy</a></li>
+        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
+        <li><a href="/en/blog/payment-reminder-email-templates">Payment Reminder Email Templates</a></li>
+        <li><a href="/en/blog/how-to-handle-late-payments-professionally">Handling Late Payments Professionally</a></li>
+        <li><a href="/en/blog/early-payment-discounts-do-they-work">Early Payment Discounts Strategy</a></li>
       </ul>
 
       <p>Ready to stop chasing payments manually? <a href="https://app.invoicemonk.com/signup?plan=professional">Set up your reminder schedule from $15/month, cancel anytime</a>.</p>
@@ -10443,7 +10448,7 @@ Thank you for your business!
       <p>This guide compares the most common payment terms and helps you choose the right ones for your business.</p>
 
       <h2>Understanding Payment Terms</h2>
-      <p>Payment terms define when a client must pay an invoice. "Net" refers to the total number of days the client has to pay from the invoice date. For a deeper dive into writing effective terms, see our <a href="/blog/how-to-write-invoice-payment-terms">invoice payment terms guide</a>.</p>
+      <p>Payment terms define when a client must pay an invoice. "Net" refers to the total number of days the client has to pay from the invoice date. For a deeper dive into writing effective terms, see our <a href="/en/blog/how-to-write-invoice-payment-terms">invoice payment terms guide</a>.</p>
 
       <h2>Common Payment Terms Compared</h2>
       <table>
@@ -10501,7 +10506,7 @@ Thank you for your business!
       </ul>
 
       <h2>Early Payment Discounts</h2>
-      <p>Offering a small discount for early payment (like 2/10 Net 30) can dramatically improve cash flow. Learn more in our guide on <a href="/blog/early-payment-discounts-do-they-work">early payment discounts</a>.</p>
+      <p>Offering a small discount for early payment (like 2/10 Net 30) can dramatically improve cash flow. Learn more in our guide on <a href="/en/blog/early-payment-discounts-do-they-work">early payment discounts</a>.</p>
 
       <h2>How to Choose the Right Terms</h2>
       <p>Consider these factors:</p>
@@ -10520,15 +10525,15 @@ Thank you for your business!
         <li>Offer early payment discounts as an incentive</li>
         <li>For large projects, propose milestone payments instead of one lump sum</li>
         <li>Put terms in writing in your contract before starting work</li>
-        <li>Use <a href="/blog/setting-up-automatic-payment-reminders">automatic reminders</a> to ensure terms are respected</li>
+        <li>Use <a href="/en/blog/setting-up-automatic-payment-reminders">automatic reminders</a> to ensure terms are respected</li>
       </ul>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
-        <li><a href="/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
-        <li><a href="/blog/early-payment-discounts-do-they-work">Do Early Payment Discounts Work?</a></li>
-        <li><a href="/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting</a></li>
+        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
+        <li><a href="/en/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
+        <li><a href="/en/blog/early-payment-discounts-do-they-work">Do Early Payment Discounts Work?</a></li>
+        <li><a href="/en/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting</a></li>
       </ul>
     `,
     faq: [
@@ -10616,7 +10621,7 @@ Thank you for your business!
       <p>Accept payments via Apple Pay, Google Pay, Samsung Pay, and other digital wallets. These use NFC (Near Field Communication) technology.</p>
 
       <h3>4. In-App and Online Mobile Payments</h3>
-      <p>For service businesses, sending <a href="/invoicing">mobile-friendly invoices</a> with embedded payment links lets clients pay from their phone in seconds.</p>
+      <p>For service businesses, sending <a href="/en/invoicing">mobile-friendly invoices</a> with embedded payment links lets clients pay from their phone in seconds.</p>
 
       <h2>Comparing Mobile Payment Providers</h2>
       <table>
@@ -10639,7 +10644,7 @@ Thank you for your business!
         <li><strong>Average transaction size:</strong> Percentage-based fees hurt less on large transactions</li>
         <li><strong>Industry:</strong> Some solutions are tailored for specific industries</li>
         <li><strong>Integration needs:</strong> Does it work with your existing invoicing and accounting software?</li>
-        <li><strong>International payments:</strong> If you serve international clients, consider <a href="/blog/international-payment-fees-explained">international payment fees</a></li>
+        <li><strong>International payments:</strong> If you serve international clients, consider <a href="/en/blog/international-payment-fees-explained">international payment fees</a></li>
       </ol>
 
       <h2>Security Considerations</h2>
@@ -10652,14 +10657,14 @@ Thank you for your business!
       </ul>
 
       <h2>Integrating with Your Invoicing System</h2>
-      <p>The best setup connects your mobile payments with your invoicing software. When a client pays via mobile, the invoice should automatically mark as paid, your books update, and a receipt is sent. <a href="/payments">Invoicemonk</a> integrates with popular payment processors to create this seamless flow.</p>
+      <p>The best setup connects your mobile payments with your invoicing software. When a client pays via mobile, the invoice should automatically mark as paid, your books update, and a receipt is sent. <a href="/en/payments">Invoicemonk</a> integrates with popular payment processors to create this seamless flow.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
-        <li><a href="/blog/online-payment-methods-comparison-small-business">Online Payment Methods Comparison</a></li>
-        <li><a href="/blog/international-payment-fees-explained">International Payment Fees Explained</a></li>
-        <li><a href="/payments">Invoicemonk Payment Solutions</a></li>
+        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
+        <li><a href="/en/blog/online-payment-methods-comparison-small-business">Online Payment Methods Comparison</a></li>
+        <li><a href="/en/blog/international-payment-fees-explained">International Payment Fees Explained</a></li>
+        <li><a href="/en/payments">Invoicemonk Payment Solutions</a></li>
       </ul>
     `,
     faq: [
@@ -10769,15 +10774,15 @@ Thank you for your business!
       </ul>
 
       <h3>5. Include a Currency Clause</h3>
-      <p>Add a clause to your <a href="/blog/how-to-write-invoice-payment-terms">payment terms</a> specifying the currency and who bears exchange rate risk. This prevents disputes when amounts differ due to rate fluctuations.</p>
+      <p>Add a clause to your <a href="/en/blog/how-to-write-invoice-payment-terms">payment terms</a> specifying the currency and who bears exchange rate risk. This prevents disputes when amounts differ due to rate fluctuations.</p>
 
       <h2>Regional Considerations</h2>
 
       <h3>Nigeria</h3>
-      <p>Nigerian freelancers and businesses face unique challenges with multiple exchange rates and CBN regulations. Domiciliary accounts allow receiving USD, GBP, and EUR directly. See our <a href="/blog/firs-invoice-requirements-nigeria">Nigeria compliance guide</a>.</p>
+      <p>Nigerian freelancers and businesses face unique challenges with multiple exchange rates and CBN regulations. Domiciliary accounts allow receiving USD, GBP, and EUR directly. See our <a href="/en/blog/firs-invoice-requirements-nigeria">Nigeria compliance guide</a>.</p>
 
       <h3>United Kingdom</h3>
-      <p>Post-Brexit, UK businesses need to consider EU payment regulations separately. SEPA transfers remain available but with additional compliance. Read our <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK invoicing guide</a>.</p>
+      <p>Post-Brexit, UK businesses need to consider EU payment regulations separately. SEPA transfers remain available but with additional compliance. Read our <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK invoicing guide</a>.</p>
 
       <h3>United States</h3>
       <p>ACH transfers are domestic only. For international payments, consider Wise or dedicated FX services rather than traditional SWIFT wires.</p>
@@ -10785,7 +10790,7 @@ Thank you for your business!
       <h2>Setting Up Your International Payment System</h2>
       <ol>
         <li><strong>Open a multi-currency account</strong> to receive payments without forced conversion</li>
-        <li><strong>Set up your invoicing platform</strong> to support multiple currencies—<a href="/invoicing">Invoicemonk</a> handles this automatically</li>
+        <li><strong>Set up your invoicing platform</strong> to support multiple currencies—<a href="/en/invoicing">Invoicemonk</a> handles this automatically</li>
         <li><strong>Establish payment terms</strong> that specify currency, method, and fee responsibility</li>
         <li><strong>Monitor exchange rates</strong> and convert when rates are favourable</li>
         <li><strong>Track all fees</strong> for tax deduction purposes</li>
@@ -10793,10 +10798,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
-        <li><a href="/blog/mobile-payment-options-for-small-business">Mobile Payment Options</a></li>
-        <li><a href="/blog/online-payment-methods-comparison-small-business">Online Payment Methods Comparison</a></li>
-        <li><a href="/payments">Invoicemonk Payment Solutions</a></li>
+        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
+        <li><a href="/en/blog/mobile-payment-options-for-small-business">Mobile Payment Options</a></li>
+        <li><a href="/en/blog/online-payment-methods-comparison-small-business">Online Payment Methods Comparison</a></li>
+        <li><a href="/en/payments">Invoicemonk Payment Solutions</a></li>
       </ul>
     `,
     faq: [
@@ -10857,7 +10862,7 @@ Thank you for your business!
       </ul>
 
       <h2>Quarterly Tax Deadlines</h2>
-      <p>Note that deadlines vary by country. See our <a href="/blog/business-tax-calendar-by-country">tax calendar by country</a> for specific dates.</p>
+      <p>Note that deadlines vary by country. See our <a href="/en/blog/business-tax-calendar-by-country">tax calendar by country</a> for specific dates.</p>
 
       <h3>United States (IRS)</h3>
       <table>
@@ -10871,18 +10876,18 @@ Thank you for your business!
           <tr><td>Q4</td><td>Sep 1 – Dec 31</td><td>January 15 (next year)</td></tr>
         </tbody>
       </table>
-      <p>For detailed US requirements, see our <a href="/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a>.</p>
+      <p>For detailed US requirements, see our <a href="/en/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a>.</p>
 
       <h3>United Kingdom (HMRC)</h3>
       <p>UK self-assessment uses two payment-on-account instalments (January 31 and July 31) rather than quarterly payments.</p>
 
       <h3>Nigeria (FIRS)</h3>
-      <p>Companies pay provisional tax in instalments. See our <a href="/blog/firs-invoice-requirements-nigeria">FIRS compliance guide</a> for specifics.</p>
+      <p>Companies pay provisional tax in instalments. See our <a href="/en/blog/firs-invoice-requirements-nigeria">FIRS compliance guide</a> for specifics.</p>
 
       <h2>How to Calculate Quarterly Payments</h2>
       <ol>
         <li><strong>Estimate annual income:</strong> Project your total business income for the year</li>
-        <li><strong>Subtract deductions:</strong> Remove eligible business expenses and <a href="/blog/small-business-tax-deductions-guide">tax deductions</a></li>
+        <li><strong>Subtract deductions:</strong> Remove eligible business expenses and <a href="/en/blog/small-business-tax-deductions-guide">tax deductions</a></li>
         <li><strong>Calculate tax liability:</strong> Apply your tax bracket rates to taxable income</li>
         <li><strong>Add self-employment tax:</strong> Include social security/Medicare (US) or National Insurance (UK)</li>
         <li><strong>Divide by 4:</strong> Each quarterly payment is roughly 25% of your annual tax bill</li>
@@ -10916,19 +10921,19 @@ Thank you for your business!
       <h2>Staying Organised</h2>
       <p>Proper bookkeeping makes quarterly taxes manageable:</p>
       <ul>
-        <li>Track income and expenses monthly using <a href="/accounting">accounting software</a></li>
+        <li>Track income and expenses monthly using <a href="/en/accounting">accounting software</a></li>
         <li>Set aside 25–30% of every payment received for taxes</li>
-        <li>Keep receipts for all <a href="/blog/small-business-tax-deductions-guide">deductible expenses</a></li>
-        <li>Review <a href="/blog/financial-reports-every-business-needs">financial reports</a> quarterly before making payments</li>
+        <li>Keep receipts for all <a href="/en/blog/small-business-tax-deductions-guide">deductible expenses</a></li>
+        <li>Review <a href="/en/blog/financial-reports-every-business-needs">financial reports</a> quarterly before making payments</li>
         <li>Use a dedicated tax savings account</li>
       </ul>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
-        <li><a href="/blog/small-business-tax-deductions-guide">Small Business Tax Deductions</a></li>
-        <li><a href="/blog/business-tax-calendar-by-country">Tax Calendar by Country</a></li>
-        <li><a href="/blog/how-to-prepare-business-tax-audit">Tax Audit Preparation</a></li>
+        <li><a href="/en/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
+        <li><a href="/en/blog/small-business-tax-deductions-guide">Small Business Tax Deductions</a></li>
+        <li><a href="/en/blog/business-tax-calendar-by-country">Tax Calendar by Country</a></li>
+        <li><a href="/en/blog/how-to-prepare-business-tax-audit">Tax Audit Preparation</a></li>
       </ul>
     `,
     faq: [
@@ -10987,7 +10992,7 @@ Thank you for your business!
       <p>This calendar covers the most important tax dates for small businesses in five major markets.</p>
 
       <h2>United States (IRS)</h2>
-      <p>For detailed US compliance, see our <a href="/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a>.</p>
+      <p>For detailed US compliance, see our <a href="/en/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a>.</p>
       <h3>Key Annual Dates</h3>
       <ul>
         <li><strong>January 15:</strong> Q4 estimated tax payment due</li>
@@ -11002,7 +11007,7 @@ Thank you for your business!
       <p>Sales tax deadlines vary by state—monthly, quarterly, or annually depending on volume.</p>
 
       <h2>United Kingdom (HMRC)</h2>
-      <p>Read our detailed <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC MTD compliance guide</a>.</p>
+      <p>Read our detailed <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC MTD compliance guide</a>.</p>
       <h3>Key Annual Dates</h3>
       <ul>
         <li><strong>January 31:</strong> Self-assessment return and balancing payment due; first payment on account</li>
@@ -11016,7 +11021,7 @@ Thank you for your business!
       <p>VAT returns are due quarterly, one month and seven days after the quarter ends. Making Tax Digital requires digital submission.</p>
 
       <h2>Nigeria (FIRS)</h2>
-      <p>See our <a href="/blog/firs-invoice-requirements-nigeria">FIRS Nigeria compliance guide</a>.</p>
+      <p>See our <a href="/en/blog/firs-invoice-requirements-nigeria">FIRS Nigeria compliance guide</a>.</p>
       <h3>Key Annual Dates</h3>
       <ul>
         <li><strong>January 31:</strong> Annual income tax return for individuals</li>
@@ -11027,7 +11032,7 @@ Thank you for your business!
       </ul>
 
       <h2>Canada (CRA)</h2>
-      <p>Read our <a href="/blog/cra-invoice-standards-canadian-compliance">CRA compliance guide</a>.</p>
+      <p>Read our <a href="/en/blog/cra-invoice-standards-canadian-compliance">CRA compliance guide</a>.</p>
       <h3>Key Annual Dates</h3>
       <ul>
         <li><strong>March 15:</strong> Quarterly instalment payment (Q1)</li>
@@ -11041,7 +11046,7 @@ Thank you for your business!
       <p>Filing frequency depends on revenue: annual, quarterly, or monthly.</p>
 
       <h2>Australia (ATO)</h2>
-      <p>See our <a href="/blog/ato-invoice-requirements-australian-compliance">ATO compliance guide</a>.</p>
+      <p>See our <a href="/en/blog/ato-invoice-requirements-australian-compliance">ATO compliance guide</a>.</p>
       <h3>Key Annual Dates</h3>
       <ul>
         <li><strong>July 1:</strong> Start of Australian financial year</li>
@@ -11056,17 +11061,17 @@ Thank you for your business!
       <ol>
         <li><strong>Set calendar reminders:</strong> 2 weeks and 1 week before each deadline</li>
         <li><strong>Automate payments:</strong> Set up direct debits where available</li>
-        <li><strong>Keep records current:</strong> Monthly <a href="/blog/monthly-financial-review-checklist">financial reviews</a> prevent year-end scrambles</li>
-        <li><strong>Use accounting software:</strong> <a href="/accounting">Invoicemonk</a> tracks deadlines and generates reports</li>
+        <li><strong>Keep records current:</strong> Monthly <a href="/en/blog/monthly-financial-review-checklist">financial reviews</a> prevent year-end scrambles</li>
+        <li><strong>Use accounting software:</strong> <a href="/en/accounting">Invoicemonk</a> tracks deadlines and generates reports</li>
         <li><strong>Hire a professional:</strong> For complex or multi-country situations</li>
       </ol>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
-        <li><a href="/blog/quarterly-tax-payment-guide">Quarterly Tax Payment Guide</a></li>
-        <li><a href="/blog/business-record-keeping-requirements">Record-Keeping Requirements</a></li>
-        <li><a href="/blog/how-to-prepare-business-tax-audit">Tax Audit Preparation</a></li>
+        <li><a href="/en/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
+        <li><a href="/en/blog/quarterly-tax-payment-guide">Quarterly Tax Payment Guide</a></li>
+        <li><a href="/en/blog/business-record-keeping-requirements">Record-Keeping Requirements</a></li>
+        <li><a href="/en/blog/how-to-prepare-business-tax-audit">Tax Audit Preparation</a></li>
       </ul>
     `,
     faq: [
@@ -11127,7 +11132,7 @@ Thank you for your business!
       <h2>Why Record Keeping Matters</h2>
       <ul>
         <li><strong>Tax compliance:</strong> Tax authorities require you to substantiate every income and deduction claim</li>
-        <li><strong>Audit protection:</strong> If audited, you need proof to support your tax return — see our <a href="/blog/how-to-prepare-business-tax-audit">audit preparation guide</a></li>
+        <li><strong>Audit protection:</strong> If audited, you need proof to support your tax return — see our <a href="/en/blog/how-to-prepare-business-tax-audit">audit preparation guide</a></li>
         <li><strong>Business insights:</strong> Good records help you make better financial decisions</li>
         <li><strong>Legal protection:</strong> Records protect you in disputes with clients, suppliers, or partners</li>
         <li><strong>Loan applications:</strong> Lenders require organised financial documentation</li>
@@ -11137,7 +11142,7 @@ Thank you for your business!
 
       <h3>Income Records</h3>
       <ul>
-        <li>All invoices sent (copies) — use <a href="/invoicing">invoicing software</a> for automatic archiving</li>
+        <li>All invoices sent (copies) — use <a href="/en/invoicing">invoicing software</a> for automatic archiving</li>
         <li>Bank statements showing deposits</li>
         <li>Payment receipts from clients</li>
         <li>Sales records and point-of-sale reports</li>
@@ -11192,20 +11197,20 @@ Thank you for your business!
         <li><strong>Secure:</strong> Protected from unauthorised access or modification</li>
         <li><strong>Backed up:</strong> Multiple copies in different locations</li>
       </ul>
-      <p>Learn about the broader shift in our <a href="/blog/digital-vs-paper-invoices-pros-and-cons">digital vs paper invoices</a> comparison.</p>
+      <p>Learn about the broader shift in our <a href="/en/blog/digital-vs-paper-invoices-pros-and-cons">digital vs paper invoices</a> comparison.</p>
 
       <h2>Organising Your Records</h2>
       <ol>
-        <li><strong>Use accounting software:</strong> <a href="/accounting">Invoicemonk</a> automatically organises income and expense records</li>
+        <li><strong>Use accounting software:</strong> <a href="/en/accounting">Invoicemonk</a> automatically organises income and expense records</li>
         <li><strong>Create a folder structure:</strong> Organise by year, then by category (income, expenses, taxes, contracts)</li>
         <li><strong>Scan paper receipts immediately:</strong> Use a receipt scanning app to digitise paper documents</li>
-        <li><strong>Reconcile monthly:</strong> Match records to bank statements during your <a href="/blog/monthly-financial-review-checklist">monthly financial review</a></li>
+        <li><strong>Reconcile monthly:</strong> Match records to bank statements during your <a href="/en/blog/monthly-financial-review-checklist">monthly financial review</a></li>
         <li><strong>Back up regularly:</strong> Use cloud storage with automatic backups</li>
       </ol>
 
       <h2>Common Record-Keeping Mistakes</h2>
       <ul>
-        <li><strong>Mixing personal and business:</strong> Keep separate <a href="/blog/business-bank-account-vs-personal">business bank accounts</a></li>
+        <li><strong>Mixing personal and business:</strong> Keep separate <a href="/en/blog/business-bank-account-vs-personal">business bank accounts</a></li>
         <li><strong>Losing receipts:</strong> Photograph receipts the day you receive them</li>
         <li><strong>Not tracking cash transactions:</strong> Cash sales still need documentation</li>
         <li><strong>Discarding records too early:</strong> When in doubt, keep it longer</li>
@@ -11214,10 +11219,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
-        <li><a href="/blog/how-to-prepare-business-tax-audit">Tax Audit Preparation Guide</a></li>
-        <li><a href="/blog/small-business-tax-deductions-guide">Tax Deductions Guide</a></li>
-        <li><a href="/blog/business-tax-calendar-by-country">Tax Calendar by Country</a></li>
+        <li><a href="/en/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
+        <li><a href="/en/blog/how-to-prepare-business-tax-audit">Tax Audit Preparation Guide</a></li>
+        <li><a href="/en/blog/small-business-tax-deductions-guide">Tax Deductions Guide</a></li>
+        <li><a href="/en/blog/business-tax-calendar-by-country">Tax Calendar by Country</a></li>
       </ul>
     `,
     faq: [
@@ -11281,14 +11286,14 @@ Thank you for your business!
         <li>Manually entering the same data into multiple systems</li>
         <li>Risking transcription errors that could trigger audits</li>
         <li>Spending hours on data reconciliation each quarter</li>
-        <li>Missing <a href="/blog/small-business-tax-deductions-guide">deductions</a> because expense data isn't flowing properly</li>
+        <li>Missing <a href="/en/blog/small-business-tax-deductions-guide">deductions</a> because expense data isn't flowing properly</li>
       </ul>
       <p>Integrated systems eliminate these issues by automatically syncing data between platforms.</p>
 
       <h2>Key Integration Points</h2>
 
       <h3>1. Invoicing → Accounting</h3>
-      <p>When you create an invoice in <a href="/invoicing">Invoicemonk</a>, the data should automatically appear in your accounting records:</p>
+      <p>When you create an invoice in <a href="/en/invoicing">Invoicemonk</a>, the data should automatically appear in your accounting records:</p>
       <ul>
         <li>Revenue recognition when invoice is sent</li>
         <li>Payment recording when invoice is paid</li>
@@ -11297,7 +11302,7 @@ Thank you for your business!
       </ul>
 
       <h3>2. Expenses → Accounting</h3>
-      <p>Expense data should flow automatically into your <a href="/accounting">accounting software</a>:</p>
+      <p>Expense data should flow automatically into your <a href="/en/accounting">accounting software</a>:</p>
       <ul>
         <li>Receipt scans auto-categorised to expense accounts</li>
         <li>Bank feed integration for automatic transaction import</li>
@@ -11345,7 +11350,7 @@ Thank you for your business!
 
       <h2>Common Integration Challenges</h2>
       <ul>
-        <li><strong>Data mapping:</strong> Different systems use different category names — standardise your <a href="/blog/chart-of-accounts-for-small-business">chart of accounts</a></li>
+        <li><strong>Data mapping:</strong> Different systems use different category names — standardise your <a href="/en/blog/chart-of-accounts-for-small-business">chart of accounts</a></li>
         <li><strong>Duplicate entries:</strong> Ensure data flows one direction to prevent duplicates</li>
         <li><strong>Currency handling:</strong> Multi-currency transactions need consistent conversion rules</li>
         <li><strong>Historical data:</strong> Migrating past data requires careful mapping and validation</li>
@@ -11357,7 +11362,7 @@ Thank you for your business!
         <li><strong>Accuracy:</strong> Reduce human error in financial data</li>
         <li><strong>Real-time visibility:</strong> See your tax position at any time, not just at year-end</li>
         <li><strong>Easier audits:</strong> Complete, consistent data trail across all systems</li>
-        <li><strong>Better decisions:</strong> Accurate, timely <a href="/blog/financial-reports-every-business-needs">financial reports</a> for business planning</li>
+        <li><strong>Better decisions:</strong> Accurate, timely <a href="/en/blog/financial-reports-every-business-needs">financial reports</a> for business planning</li>
       </ul>
 
       <h2>Integrating Compliance-First Invoicing Into Your Existing Accounting Stack</h2>
@@ -11367,16 +11372,16 @@ Thank you for your business!
         <li><strong>QuickBooks / Xero / Zoho as the system of record for bookkeeping</strong> — bank feeds, reconciliation, P&amp;L, tax filing.</li>
         <li><strong>A one-way sync from Invoicemonk → accounting</strong> for invoices, payments, credit notes, and tax lines. Invoicemonk pushes; accounting pulls. Never two-way — it breaks audit trails.</li>
       </ol>
-      <p>For US multi-state nexus, layer a sales-tax engine on top — see our <a href="/blog/automated-sales-tax-calculation-software">guide to automated sales-tax software</a>. For French and Italian businesses preparing for e-invoicing mandates, see <a href="/blog/france-e-invoicing-buyer-checklist">how to choose an e-invoicing solution for France</a> and the <a href="/compare/best-invoicing-software-italy">Italy SDI-compliant invoicing comparison</a>.</p>
+      <p>For US multi-state nexus, layer a sales-tax engine on top — see our <a href="/en/blog/automated-sales-tax-calculation-software">guide to automated sales-tax software</a>. For French and Italian businesses preparing for e-invoicing mandates, see <a href="/en/blog/france-e-invoicing-buyer-checklist">how to choose an e-invoicing solution for France</a> and the <a href="/en/compare/best-invoicing-software-italy">Italy SDI-compliant invoicing comparison</a>.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
-        <li><a href="/blog/quarterly-tax-payment-guide">Quarterly Tax Payment Guide</a></li>
-        <li><a href="/blog/business-record-keeping-requirements">Record-Keeping Requirements</a></li>
-        <li><a href="/accounting">Invoicemonk Accounting Features</a></li>
-        <li><a href="/compare/best-invoicing-software-usa">Best compliance-first invoicing software for US businesses</a></li>
-        <li><a href="/blog/automated-invoice-compliance-fraud-detection">Automated invoice compliance &amp; fraud detection</a></li>
+        <li><a href="/en/blog/small-business-tax-compliance-guide">Complete Tax Compliance Guide</a></li>
+        <li><a href="/en/blog/quarterly-tax-payment-guide">Quarterly Tax Payment Guide</a></li>
+        <li><a href="/en/blog/business-record-keeping-requirements">Record-Keeping Requirements</a></li>
+        <li><a href="/en/accounting">Invoicemonk Accounting Features</a></li>
+        <li><a href="/en/compare/best-invoicing-software-usa">Best compliance-first invoicing software for US businesses</a></li>
+        <li><a href="/en/blog/automated-invoice-compliance-fraud-detection">Automated invoice compliance &amp; fraud detection</a></li>
       </ul>
     `,
     faq: [
@@ -11448,7 +11453,7 @@ Thank you for your business!
       <p><strong>Action step:</strong> Send a simple message to 20 people in your network announcing your freelance services. Be specific about what you offer and who you help.</p>
 
       <h2>Freelance Platforms</h2>
-      <p>Online platforms connect freelancers with clients actively looking for help. For a detailed comparison, see our guide on <a href="/blog/top-10-freelance-websites">top freelance websites</a>.</p>
+      <p>Online platforms connect freelancers with clients actively looking for help. For a detailed comparison, see our guide on <a href="/en/blog/top-10-freelance-websites">top freelance websites</a>.</p>
       <h3>Getting Started on Platforms</h3>
       <ul>
         <li><strong>Complete your profile thoroughly:</strong> Incomplete profiles get ignored</li>
@@ -11472,7 +11477,7 @@ Thank you for your business!
       <p>Creating content that demonstrates your expertise attracts clients who are already looking for someone like you:</p>
       <ul>
         <li><strong>LinkedIn articles:</strong> Share insights relevant to your target clients</li>
-        <li><strong>Portfolio website:</strong> Showcase your best work—see our <a href="/blog/freelance-portfolio-best-practices">portfolio best practices</a> guide</li>
+        <li><strong>Portfolio website:</strong> Showcase your best work—see our <a href="/en/blog/freelance-portfolio-best-practices">portfolio best practices</a> guide</li>
         <li><strong>Social media:</strong> Share tips, case studies, and behind-the-scenes content</li>
         <li><strong>Guest posts:</strong> Write for publications your target clients read</li>
       </ul>
@@ -11480,10 +11485,10 @@ Thank you for your business!
       <h2>Setting Up for Success</h2>
       <p>Once you start landing clients, be ready to handle the business side:</p>
       <ul>
-        <li><strong>Have contracts ready:</strong> Protect yourself with proper <a href="/blog/freelance-contract-templates">freelance contracts</a></li>
-        <li><strong>Set your pricing:</strong> Know your rates before the first conversation — see <a href="/blog/pricing-your-freelance-services">pricing strategies</a></li>
-        <li><strong>Use invoicing software:</strong> <a href="/invoicing">Professional invoicing</a> sets the right first impression</li>
-        <li><strong>Track your time:</strong> Accurate <a href="/blog/freelance-time-tracking-guide">time tracking</a> ensures fair billing</li>
+        <li><strong>Have contracts ready:</strong> Protect yourself with proper <a href="/en/blog/freelance-contract-templates">freelance contracts</a></li>
+        <li><strong>Set your pricing:</strong> Know your rates before the first conversation — see <a href="/en/blog/pricing-your-freelance-services">pricing strategies</a></li>
+        <li><strong>Use invoicing software:</strong> <a href="/en/invoicing">Professional invoicing</a> sets the right first impression</li>
+        <li><strong>Track your time:</strong> Accurate <a href="/en/blog/freelance-time-tracking-guide">time tracking</a> ensures fair billing</li>
       </ul>
 
       <h2>Building Referral Systems</h2>
@@ -11497,10 +11502,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
-        <li><a href="/blog/top-10-freelance-websites">Top 10 Freelance Websites</a></li>
-        <li><a href="/blog/freelance-portfolio-best-practices">Freelance Portfolio Best Practices</a></li>
-        <li><a href="/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
+        <li><a href="/en/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
+        <li><a href="/en/blog/top-10-freelance-websites">Top 10 Freelance Websites</a></li>
+        <li><a href="/en/blog/freelance-portfolio-best-practices">Freelance Portfolio Best Practices</a></li>
+        <li><a href="/en/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
       </ul>
     `,
     faq: [
@@ -11613,7 +11618,7 @@ Thank you for your business!
         <li><strong>Redesign challenges:</strong> Redesign existing products or websites as exercises</li>
         <li><strong>Course projects:</strong> Polished work from training or certifications</li>
       </ul>
-      <p>Once you land clients through <a href="/blog/finding-your-first-freelance-clients">targeted outreach</a>, replace sample work with real client projects as quickly as possible.</p>
+      <p>Once you land clients through <a href="/en/blog/finding-your-first-freelance-clients">targeted outreach</a>, replace sample work with real client projects as quickly as possible.</p>
 
       <h2>Keeping Your Portfolio Current</h2>
       <ul>
@@ -11626,10 +11631,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
-        <li><a href="/blog/finding-your-first-freelance-clients">Finding Your First Freelance Clients</a></li>
-        <li><a href="/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
-        <li><a href="/blog/how-to-become-a-good-graphic-designer">Graphic Designer Career Guide</a></li>
+        <li><a href="/en/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
+        <li><a href="/en/blog/finding-your-first-freelance-clients">Finding Your First Freelance Clients</a></li>
+        <li><a href="/en/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
+        <li><a href="/en/blog/how-to-become-a-good-graphic-designer">Graphic Designer Career Guide</a></li>
       </ul>
     `,
     faq: [
@@ -11717,7 +11722,7 @@ Thank you for your business!
         <li><strong>Themed days:</strong> Some freelancers dedicate entire days to specific clients</li>
         <li><strong>Buffer time:</strong> Leave 20% of your schedule unallocated for urgent requests</li>
       </ul>
-      <p>Track your time accurately with our recommended <a href="/blog/freelance-time-tracking-guide">time tracking methods</a>.</p>
+      <p>Track your time accurately with our recommended <a href="/en/blog/freelance-time-tracking-guide">time tracking methods</a>.</p>
 
       <h3>3. Communication Protocols</h3>
       <p>Set clear expectations with each client:</p>
@@ -11729,7 +11734,7 @@ Thank you for your business!
       </ul>
 
       <h3>4. Financial Tracking</h3>
-      <p>With multiple clients, tracking income becomes complex. Use <a href="/invoicing">invoicing software</a> to:</p>
+      <p>With multiple clients, tracking income becomes complex. Use <a href="/en/invoicing">invoicing software</a> to:</p>
       <ul>
         <li>Track hours and amounts per client</li>
         <li>Send invoices on schedule</li>
@@ -11745,7 +11750,7 @@ Thank you for your business!
         <li><strong>Your energy:</strong> Context-switching is mentally exhausting</li>
         <li><strong>Quality standards:</strong> More clients means more risk of quality declining</li>
       </ul>
-      <p>Most freelancers can effectively manage 3–5 active clients simultaneously. Beyond that, consider <a href="/blog/when-to-hire-help-as-a-freelancer">hiring help</a>.</p>
+      <p>Most freelancers can effectively manage 3–5 active clients simultaneously. Beyond that, consider <a href="/en/blog/when-to-hire-help-as-a-freelancer">hiring help</a>.</p>
 
       <h2>When to Say No</h2>
       <p>Saying no is a skill. Turn down work when:</p>
@@ -11768,10 +11773,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
-        <li><a href="/blog/freelance-time-tracking-guide">Time Tracking for Freelancers</a></li>
-        <li><a href="/blog/when-to-hire-help-as-a-freelancer">When to Hire Help</a></li>
-        <li><a href="/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
+        <li><a href="/en/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
+        <li><a href="/en/blog/freelance-time-tracking-guide">Time Tracking for Freelancers</a></li>
+        <li><a href="/en/blog/when-to-hire-help-as-a-freelancer">When to Hire Help</a></li>
+        <li><a href="/en/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
       </ul>
     `,
     faq: [
@@ -11875,7 +11880,7 @@ Thank you for your business!
       </ol>
       <p>Common first delegations:</p>
       <ul>
-        <li>Invoicing and payment follow-up — automate with <a href="/invoicing">invoicing software</a> first</li>
+        <li>Invoicing and payment follow-up — automate with <a href="/en/invoicing">invoicing software</a> first</li>
         <li>Social media management</li>
         <li>Email triage and response drafting</li>
         <li>Research and data gathering</li>
@@ -11898,7 +11903,7 @@ Thank you for your business!
         <li><strong>Start small:</strong> Begin with 5–10 hours/week and increase gradually</li>
         <li><strong>Set clear expectations:</strong> Define deliverables, deadlines, and quality standards</li>
         <li><strong>Check in regularly:</strong> Weekly meetings at first, then reduce as trust builds</li>
-        <li><strong>Use contracts:</strong> Even for VAs and subcontractors—see <a href="/blog/freelance-contract-templates">contract templates</a></li>
+        <li><strong>Use contracts:</strong> Even for VAs and subcontractors—see <a href="/en/blog/freelance-contract-templates">contract templates</a></li>
       </ul>
 
       <h2>Scaling Beyond One Hire</h2>
@@ -11907,15 +11912,15 @@ Thank you for your business!
         <li>Delegate more complex tasks to skilled subcontractors</li>
         <li>Build a roster of trusted specialists you can call on</li>
         <li>Consider transitioning from freelancer to agency</li>
-        <li>Invest in systems that support growth (CRM, project management, <a href="/accounting">accounting software</a>)</li>
+        <li>Invest in systems that support growth (CRM, project management, <a href="/en/accounting">accounting software</a>)</li>
       </ol>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
-        <li><a href="/blog/managing-multiple-clients-efficiently">Managing Multiple Clients</a></li>
-        <li><a href="/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
-        <li><a href="/blog/freelance-time-tracking-guide">Time Tracking for Freelancers</a></li>
+        <li><a href="/en/blog/freelancer-business-guide">Complete Freelancer Business Guide</a></li>
+        <li><a href="/en/blog/managing-multiple-clients-efficiently">Managing Multiple Clients</a></li>
+        <li><a href="/en/blog/pricing-your-freelance-services">Pricing Your Freelance Services</a></li>
+        <li><a href="/en/blog/freelance-time-tracking-guide">Time Tracking for Freelancers</a></li>
       </ul>
     `,
     faq: [
@@ -12000,7 +12005,7 @@ Thank you for your business!
         <li>New client relationships where trust hasn't been established</li>
         <li>Large-value projects ($5,000+)</li>
       </ul>
-      <p>For tips on crafting compelling proposals, see our guide on <a href="/blog/how-to-write-winning-business-proposal">writing winning proposals</a>.</p>
+      <p>For tips on crafting compelling proposals, see our guide on <a href="/en/blog/how-to-write-winning-business-proposal">writing winning proposals</a>.</p>
 
       <h2>What Is an Estimate?</h2>
       <p>An estimate is an approximate calculation of how much a project will cost. It's not a commitment—it's your best educated guess based on the information available.</p>
@@ -12011,7 +12016,7 @@ Thank you for your business!
         <li>When the client needs a ballpark figure for budgeting</li>
         <li>Time-and-materials work where the final cost is uncertain</li>
       </ul>
-      <p>For more on the differences between these and invoices, read our <a href="/blog/estimate-vs-quote-vs-invoice-difference">detailed comparison</a>.</p>
+      <p>For more on the differences between these and invoices, read our <a href="/en/blog/estimate-vs-quote-vs-invoice-difference">detailed comparison</a>.</p>
 
       <h2>What Is a Quote?</h2>
       <p>A quote (or quotation) is a fixed-price offer for specific work. Once accepted, the price is generally considered binding—you've committed to delivering the defined scope at the stated price.</p>
@@ -12030,7 +12035,7 @@ Thank you for your business!
         <li><strong>Estimates:</strong> Not binding. They set expectations but allow for adjustment as the project unfolds.</li>
         <li><strong>Quotes:</strong> Usually considered binding for the validity period. If a client accepts your quote, you're expected to honour that price.</li>
       </ul>
-      <p>Always include expiry dates on quotes, and clearly state whether estimates are subject to change. Protect yourself with proper <a href="/blog/freelance-contract-templates">contracts</a>.</p>
+      <p>Always include expiry dates on quotes, and clearly state whether estimates are subject to change. Protect yourself with proper <a href="/en/blog/freelance-contract-templates">contracts</a>.</p>
 
       <h2>Choosing the Right Document</h2>
       <ol>
@@ -12049,14 +12054,14 @@ Thank you for your business!
         <li>Issue a formal quote when scope is agreed</li>
         <li>Convert to an invoice once work is completed</li>
       </ul>
-      <p><a href="/estimates">Invoicemonk</a> supports this entire workflow, letting you convert between document types seamlessly.</p>
+      <p><a href="/en/estimates">Invoicemonk</a> supports this entire workflow, letting you convert between document types seamlessly.</p>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/winning-proposals-estimates-guide">Complete Proposals & Estimates Guide</a></li>
-        <li><a href="/blog/how-to-write-winning-business-proposal">Writing Winning Proposals</a></li>
-        <li><a href="/blog/estimate-vs-quote-vs-invoice-difference">Estimate vs Quote vs Invoice</a></li>
-        <li><a href="/blog/how-to-price-project-work">How to Price Project Work</a></li>
+        <li><a href="/en/blog/winning-proposals-estimates-guide">Complete Proposals & Estimates Guide</a></li>
+        <li><a href="/en/blog/how-to-write-winning-business-proposal">Writing Winning Proposals</a></li>
+        <li><a href="/en/blog/estimate-vs-quote-vs-invoice-difference">Estimate vs Quote vs Invoice</a></li>
+        <li><a href="/en/blog/how-to-price-project-work">How to Price Project Work</a></li>
       </ul>
     `,
     faq: [
@@ -12115,7 +12120,7 @@ Thank you for your business!
       <p>This guide provides proposal frameworks for six major industries, plus tips on customising templates for any sector.</p>
 
       <h2>Universal Proposal Structure</h2>
-      <p>Every effective proposal follows this basic structure, regardless of industry. For comprehensive guidance, see our <a href="/blog/how-to-write-winning-business-proposal">complete proposal writing guide</a>.</p>
+      <p>Every effective proposal follows this basic structure, regardless of industry. For comprehensive guidance, see our <a href="/en/blog/how-to-write-winning-business-proposal">complete proposal writing guide</a>.</p>
       <ol>
         <li><strong>Executive summary:</strong> The client's problem and your solution in 2–3 paragraphs</li>
         <li><strong>Understanding:</strong> Demonstrate that you understand their situation</li>
@@ -12192,18 +12197,18 @@ Thank you for your business!
       <h2>After the Proposal</h2>
       <p>Sending the proposal is not the final step:</p>
       <ul>
-        <li>Follow up strategically — see our <a href="/blog/following-up-on-proposals">proposal follow-up guide</a></li>
+        <li>Follow up strategically — see our <a href="/en/blog/following-up-on-proposals">proposal follow-up guide</a></li>
         <li>Be prepared for questions and negotiations</li>
-        <li>If rejected, learn from it — read about <a href="/blog/proposal-rejection-next-steps">handling proposal rejection</a></li>
-        <li>Convert accepted proposals to <a href="/estimates">formal estimates</a> and then invoices</li>
+        <li>If rejected, learn from it — read about <a href="/en/blog/proposal-rejection-next-steps">handling proposal rejection</a></li>
+        <li>Convert accepted proposals to <a href="/en/estimates">formal estimates</a> and then invoices</li>
       </ul>
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/winning-proposals-estimates-guide">Complete Proposals & Estimates Guide</a></li>
-        <li><a href="/blog/proposal-vs-estimate-vs-quote-explained">Proposal vs Estimate vs Quote</a></li>
-        <li><a href="/blog/how-to-price-project-work">How to Price Project Work</a></li>
-        <li><a href="/estimates">Invoicemonk Estimates & Proposals</a></li>
+        <li><a href="/en/blog/winning-proposals-estimates-guide">Complete Proposals & Estimates Guide</a></li>
+        <li><a href="/en/blog/proposal-vs-estimate-vs-quote-explained">Proposal vs Estimate vs Quote</a></li>
+        <li><a href="/en/blog/how-to-price-project-work">How to Price Project Work</a></li>
+        <li><a href="/en/estimates">Invoicemonk Estimates & Proposals</a></li>
       </ul>
     `,
     faq: [
@@ -12287,7 +12292,7 @@ Thank you for your business!
         <li><strong>Key elements:</strong> Invoice number, date, itemised charges, payment terms, total due</li>
         <li><strong>Legal status:</strong> Creates a legal obligation to pay</li>
       </ul>
-      <p>For everything about invoicing, see our <a href="/blog/complete-guide-to-business-invoicing">complete invoicing guide</a>.</p>
+      <p>For everything about invoicing, see our <a href="/en/blog/complete-guide-to-business-invoicing">complete invoicing guide</a>.</p>
 
       <h2>Receipts</h2>
       <p>A receipt confirms that payment has been received. It's issued by the seller to the buyer as proof of purchase.</p>
@@ -12296,7 +12301,7 @@ Thank you for your business!
         <li><strong>Key elements:</strong> Date, amount paid, payment method, items purchased</li>
         <li><strong>Important:</strong> Receipts are essential for expense tracking and tax deductions</li>
       </ul>
-      <p>Learn about managing receipts with <a href="/receipts">Invoicemonk's receipt management tools</a>.</p>
+      <p>Learn about managing receipts with <a href="/en/receipts">Invoicemonk's receipt management tools</a>.</p>
 
       <h2>Purchase Orders (POs)</h2>
       <p>A purchase order is created by the buyer to authorise a purchase from a seller. It specifies what is being ordered, in what quantity, and at what agreed price.</p>
@@ -12307,7 +12312,7 @@ Thank you for your business!
       </ul>
 
       <h2>Quotes and Estimates</h2>
-      <p>These pre-sale documents help clients understand costs before committing. For a detailed comparison, see <a href="/blog/proposal-vs-estimate-vs-quote-explained">proposal vs estimate vs quote explained</a>.</p>
+      <p>These pre-sale documents help clients understand costs before committing. For a detailed comparison, see <a href="/en/blog/proposal-vs-estimate-vs-quote-explained">proposal vs estimate vs quote explained</a>.</p>
 
       <h2>Credit Notes</h2>
       <p>A credit note reduces or cancels the amount owed on a previously issued invoice. It's essentially a "negative invoice."</p>
@@ -12315,11 +12320,11 @@ Thank you for your business!
         <li><strong>When to use:</strong> Returns, overcharges, discounts applied after invoicing, cancelled orders</li>
         <li><strong>Key rule:</strong> Never delete or alter an issued invoice—issue a credit note instead</li>
       </ul>
-      <p>For details, read our guide on <a href="/blog/credit-notes-and-invoice-corrections">credit notes and invoice corrections</a>.</p>
+      <p>For details, read our guide on <a href="/en/blog/credit-notes-and-invoice-corrections">credit notes and invoice corrections</a>.</p>
 
       <h2>Proforma Invoices</h2>
       <p>A proforma invoice is a preliminary invoice sent before goods are shipped. It's commonly used in international trade for customs pre-clearance.</p>
-      <p>Learn the key differences in our <a href="/blog/proforma-invoice-vs-commercial-invoice">proforma vs commercial invoice guide</a>.</p>
+      <p>Learn the key differences in our <a href="/en/blog/proforma-invoice-vs-commercial-invoice">proforma vs commercial invoice guide</a>.</p>
 
       <h2>The Document Flow</h2>
       <p>In a typical business transaction, documents flow in this order:</p>
@@ -12335,7 +12340,7 @@ Thank you for your business!
       <h2>Tax and Compliance Implications</h2>
       <p>Different documents have different tax implications:</p>
       <ul>
-        <li><strong>Invoices:</strong> Must meet local tax authority requirements — see our <a href="/compliance">compliance guides</a></li>
+        <li><strong>Invoices:</strong> Must meet local tax authority requirements — see our <a href="/en/compliance">compliance guides</a></li>
         <li><strong>Receipts:</strong> Essential for claiming tax deductions</li>
         <li><strong>Credit notes:</strong> Must reference the original invoice for proper accounting</li>
         <li><strong>Purchase orders:</strong> Support expense justification during audits</li>
@@ -12343,10 +12348,10 @@ Thank you for your business!
 
       <h2>Related Resources</h2>
       <ul>
-        <li><a href="/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
-        <li><a href="/blog/proposal-vs-estimate-vs-quote-explained">Proposal vs Estimate vs Quote</a></li>
-        <li><a href="/blog/proforma-invoice-vs-commercial-invoice">Proforma vs Commercial Invoice</a></li>
-        <li><a href="/blog/credit-notes-and-invoice-corrections">Credit Notes and Corrections</a></li>
+        <li><a href="/en/blog/complete-guide-to-business-invoicing">Complete Guide to Business Invoicing</a></li>
+        <li><a href="/en/blog/proposal-vs-estimate-vs-quote-explained">Proposal vs Estimate vs Quote</a></li>
+        <li><a href="/en/blog/proforma-invoice-vs-commercial-invoice">Proforma vs Commercial Invoice</a></li>
+        <li><a href="/en/blog/credit-notes-and-invoice-corrections">Credit Notes and Corrections</a></li>
       </ul>
     `,
     faq: [
@@ -12437,27 +12442,27 @@ Thank you for your business!
       <h3>Paper Receipts and Manual Ledger</h3>
       <p>The traditional approach: save every paper receipt in an envelope or folder, then manually enter amounts into a ledger or notebook. <strong>Cost: Free. Risk: High.</strong> Paper receipts fade (thermal paper loses print within 6–12 months), envelopes get lost, and manual entry is error-prone. Only viable for businesses with fewer than 20 transactions per month.</p>
       <h3>Spreadsheets (Excel or Google Sheets)</h3>
-      <p>A step up from paper. You create columns for date, vendor, amount, category, and notes. Spreadsheets are free and customizable, but they require manual data entry, don't capture receipt images, and become unwieldy past 100 monthly transactions. They also lack the automation needed for efficient <a href="/blog/business-expense-categories-guide">expense categorization</a>.</p>
+      <p>A step up from paper. You create columns for date, vendor, amount, category, and notes. Spreadsheets are free and customizable, but they require manual data entry, don't capture receipt images, and become unwieldy past 100 monthly transactions. They also lack the automation needed for efficient <a href="/en/blog/business-expense-categories-guide">expense categorization</a>.</p>
       <h3>Dedicated Expense Tracking Apps</h3>
-      <p>Apps like <a href="/expenses">Invoicemonk</a> let you snap photos of receipts, auto-extract data using OCR, categorize expenses, and sync with bank accounts. This is the sweet spot for most small businesses—combining ease of use with the documentation rigor that tax authorities require.</p>
+      <p>Apps like <a href="/en/expenses">Invoicemonk</a> let you snap photos of receipts, auto-extract data using OCR, categorize expenses, and sync with bank accounts. This is the sweet spot for most small businesses—combining ease of use with the documentation rigor that tax authorities require.</p>
       <h3>Full Accounting Software</h3>
-      <p>All-in-one solutions that handle invoicing, expense tracking, payroll, and financial reporting. Best for businesses with employees, inventory, or complex financial needs. If you're already using <a href="/accounting">accounting software</a>, make sure you're using its expense features rather than tracking separately.</p>
+      <p>All-in-one solutions that handle invoicing, expense tracking, payroll, and financial reporting. Best for businesses with employees, inventory, or complex financial needs. If you're already using <a href="/en/accounting">accounting software</a>, make sure you're using its expense features rather than tracking separately.</p>
       <h3>Bank Feed Integration</h3>
       <p>Automatic import of transactions from your business bank account and credit cards. This ensures no transaction is missed, but you still need to categorize each one and attach supporting documentation.</p>
-      <p>For a detailed comparison, read our guide on <a href="/blog/expense-tracking-methods-small-business">expense tracking methods for small businesses</a>.</p>
+      <p>For a detailed comparison, read our guide on <a href="/en/blog/expense-tracking-methods-small-business">expense tracking methods for small businesses</a>.</p>
 
       <h2>Step 2: Go Paperless with Digital Receipt Management</h2>
       <p>Paper receipts are the weakest link in expense management. Thermal receipts (the kind from most retailers) fade within 6–18 months, making them useless for tax documentation. The solution: go digital immediately.</p>
       <h3>How Digital Receipt Management Works</h3>
       <ol>
-        <li><strong>Capture:</strong> Snap a photo of the receipt immediately after purchase using your phone or a <a href="/blog/receipt-scanning-apps-comparison">receipt scanning app</a></li>
+        <li><strong>Capture:</strong> Snap a photo of the receipt immediately after purchase using your phone or a <a href="/en/blog/receipt-scanning-apps-comparison">receipt scanning app</a></li>
         <li><strong>Extract:</strong> OCR technology reads the receipt and extracts vendor name, date, amount, and tax information</li>
-        <li><strong>Categorize:</strong> The expense is automatically or manually assigned to the correct <a href="/blog/business-expense-categories-guide">expense category</a></li>
+        <li><strong>Categorize:</strong> The expense is automatically or manually assigned to the correct <a href="/en/blog/business-expense-categories-guide">expense category</a></li>
         <li><strong>Store:</strong> The digital receipt is stored in the cloud with the expense record, searchable and backed up</li>
       </ol>
       <h3>Are Digital Receipts Accepted by Tax Authorities?</h3>
       <p><strong>Yes.</strong> The IRS (US), HMRC (UK), CRA (Canada), ATO (Australia), and FIRS (Nigeria) all accept digital copies of receipts as valid documentation, provided the image is legible and the original information is preserved. Some jurisdictions require the digital copy to be made "as soon as practicable."</p>
-      <p>For a complete walkthrough, see our <a href="/blog/digital-receipt-management-guide">digital receipt management guide</a>.</p>
+      <p>For a complete walkthrough, see our <a href="/en/blog/digital-receipt-management-guide">digital receipt management guide</a>.</p>
 
       <h2>Step 3: Categorize Expenses Properly</h2>
       <p>Proper expense categorization serves two purposes: it maps to your <a href="/glossary?term=chart-of-accounts">chart of accounts</a> for accurate financial reporting, and it maps to tax-deductible line items for easy filing.</p>
@@ -12472,12 +12477,12 @@ Thank you for your business!
         <li><strong>Software & Subscriptions:</strong> SaaS tools, cloud services, memberships</li>
         <li><strong>Meals & Entertainment:</strong> Client meals, team lunches (subject to percentage limits)</li>
       </ul>
-      <p>Get the full breakdown in our <a href="/blog/business-expense-categories-guide">business expense categories guide</a>.</p>
+      <p>Get the full breakdown in our <a href="/en/blog/business-expense-categories-guide">business expense categories guide</a>.</p>
 
       <h2>Step 4: Separate Business and Personal Expenses</h2>
       <p>Commingling business and personal expenses is one of the most common—and most dangerous—financial mistakes small business owners make. It creates tax headaches, weakens legal protections (especially for LLCs and corporations), and makes financial reporting unreliable.</p>
       <p>The fix is straightforward: open a dedicated business bank account and business credit card. Pay all business expenses from business accounts and all personal expenses from personal ones. If you need to use personal funds for a business expense, reimburse yourself properly and document it.</p>
-      <p>For the complete guide, read <a href="/blog/separate-business-personal-expenses">how to separate business and personal expenses</a>.</p>
+      <p>For the complete guide, read <a href="/en/blog/separate-business-personal-expenses">how to separate business and personal expenses</a>.</p>
 
       <h2>Step 5: Maximize Tax Deductions</h2>
       <p>Every legitimate business expense you fail to claim is money given directly to the tax authority. The key to maximizing deductions is knowing what qualifies and documenting everything.</p>
@@ -12490,26 +12495,26 @@ Thank you for your business!
         <li><strong>Bank fees:</strong> Business account fees, payment processing charges</li>
         <li><strong>Depreciation:</strong> Equipment and assets that lose value over time (Section 179 in the US)</li>
       </ul>
-      <p>See our complete <a href="/blog/tax-deductible-business-expenses">tax-deductible business expenses list for 2026</a>.</p>
+      <p>See our complete <a href="/en/blog/tax-deductible-business-expenses">tax-deductible business expenses list for 2026</a>.</p>
 
       <h2>Step 6: Create Expense Reports</h2>
       <p>Even if you're a solo freelancer, expense reports help you understand spending patterns, bill clients for reimbursable expenses, and prepare for tax filing. A good expense report groups expenses by category, includes receipt documentation, and totals by project or time period.</p>
-      <p>Learn how in our guide to <a href="/blog/expense-reports-freelancers">expense reports for freelancers</a>.</p>
+      <p>Learn how in our guide to <a href="/en/blog/expense-reports-freelancers">expense reports for freelancers</a>.</p>
 
       <h2>Step 7: Review and Reconcile Monthly</h2>
       <p>Set aside time at the end of each month to review all expenses, reconcile against bank statements, and ensure everything is properly categorized. This monthly habit catches errors early, ensures nothing is missed, and makes quarterly and year-end tasks much easier.</p>
-      <p>This aligns with the practices in our <a href="/blog/monthly-financial-review-checklist">monthly financial review checklist</a>.</p>
+      <p>This aligns with the practices in our <a href="/en/blog/monthly-financial-review-checklist">monthly financial review checklist</a>.</p>
 
       <h2>Tools That Make Expense Management Easy</h2>
-      <p><a href="/expenses">Invoicemonk's expense tracking</a> brings all these steps together in one platform: snap receipt photos, auto-categorize expenses with OCR, sync bank feeds, generate tax-ready reports, and attach expenses directly to client invoices for reimbursement. It integrates with the invoicing and accounting features you already use, creating a single source of truth for your business finances.</p>
+      <p><a href="/en/expenses">Invoicemonk's expense tracking</a> brings all these steps together in one platform: snap receipt photos, auto-categorize expenses with OCR, sync bank feeds, generate tax-ready reports, and attach expenses directly to client invoices for reimbursement. It integrates with the invoicing and accounting features you already use, creating a single source of truth for your business finances.</p>
 
       <h2>Expense Management by Business Type</h2>
       <h3>For Freelancers</h3>
       <p>Focus on tracking deductible expenses (home office, software, travel), keeping receipts for client-reimbursable costs, and maintaining records that satisfy your tax authority. A simple app-based approach works well for most freelancers.</p>
       <h3>For Small Business Owners</h3>
-      <p>Add employee expense policies, approval workflows, and departmental budgets. Integrate expense tracking with your <a href="/accounting">accounting system</a> for automatic journal entries.</p>
+      <p>Add employee expense policies, approval workflows, and departmental budgets. Integrate expense tracking with your <a href="/en/accounting">accounting system</a> for automatic journal entries.</p>
       <h3>For Agencies and Consultants</h3>
-      <p>Track expenses by project and client for profitability analysis. Separate billable (reimbursable) expenses from internal costs. Use <a href="/blog/expense-reports-freelancers">expense reports</a> to bill clients accurately.</p>
+      <p>Track expenses by project and client for profitability analysis. Separate billable (reimbursable) expenses from internal costs. Use <a href="/en/blog/expense-reports-freelancers">expense reports</a> to bill clients accurately.</p>
     `,
     faq: [
       { question: 'What is the best way to track business expenses?', answer: 'Use expense tracking software that lets you snap photos of receipts, auto-categorize spending, and sync with your bank accounts. This combines ease of use with the documentation rigor required by tax authorities.' },
@@ -12596,7 +12601,7 @@ Thank you for your business!
 
       <h2>Method 3: Expense Tracking Apps</h2>
       <p><strong>Best for:</strong> Solo businesses and small teams who want automation without the complexity of full accounting software.</p>
-      <p>Dedicated expense apps like <a href="/expenses">Invoicemonk</a> combine receipt scanning, OCR data extraction, bank sync, and categorization in a mobile-first experience. Snap a photo of a receipt, and the app extracts the vendor, date, amount, and tax information automatically.</p>
+      <p>Dedicated expense apps like <a href="/en/expenses">Invoicemonk</a> combine receipt scanning, OCR data extraction, bank sync, and categorization in a mobile-first experience. Snap a photo of a receipt, and the app extracts the vendor, date, amount, and tax information automatically.</p>
       <h3>Pros</h3>
       <ul>
         <li><strong>Receipt capture:</strong> OCR extracts data from photos—no manual entry</li>
@@ -12612,14 +12617,14 @@ Thank you for your business!
         <li>Requires initial setup and bank linking</li>
         <li>OCR accuracy varies—always verify extracted data</li>
       </ul>
-      <p><strong>Verdict:</strong> The sweet spot for most small businesses. The time saved and deductions captured more than cover the subscription cost. Read our <a href="/blog/receipt-scanning-apps-comparison">receipt scanning apps comparison</a> for detailed reviews.</p>
+      <p><strong>Verdict:</strong> The sweet spot for most small businesses. The time saved and deductions captured more than cover the subscription cost. Read our <a href="/en/blog/receipt-scanning-apps-comparison">receipt scanning apps comparison</a> for detailed reviews.</p>
 
       <h2>Method 4: Full Accounting Software</h2>
       <p><strong>Best for:</strong> Businesses with employees, inventory, or complex financial reporting needs.</p>
-      <p>All-in-one platforms that handle invoicing, expense tracking, payroll, inventory, and financial reporting. If you're already using <a href="/accounting">accounting software</a>, make sure you're leveraging its expense features rather than maintaining a separate system.</p>
+      <p>All-in-one platforms that handle invoicing, expense tracking, payroll, inventory, and financial reporting. If you're already using <a href="/en/accounting">accounting software</a>, make sure you're leveraging its expense features rather than maintaining a separate system.</p>
       <h3>Pros</h3>
       <ul>
-        <li>Expenses integrate directly with your general ledger and <a href="/blog/business-expense-categories-guide">chart of accounts</a></li>
+        <li>Expenses integrate directly with your general ledger and <a href="/en/blog/business-expense-categories-guide">chart of accounts</a></li>
         <li>Automatic journal entries from expense records</li>
         <li>Financial reports include expense data without manual import</li>
         <li>Multi-user access with approval workflows</li>
@@ -12643,7 +12648,7 @@ Thank you for your business!
       </ul>
       <h3>Cons</h3>
       <ul>
-        <li>Requires a business bank account (which you should have anyway—see <a href="/blog/separate-business-personal-expenses">separating business and personal expenses</a>)</li>
+        <li>Requires a business bank account (which you should have anyway—see <a href="/en/blog/separate-business-personal-expenses">separating business and personal expenses</a>)</li>
         <li>Still need to attach receipts manually for tax documentation</li>
         <li>Cash transactions won't appear in bank feeds</li>
       </ul>
@@ -12657,8 +12662,8 @@ Thank you for your business!
         <li><strong>200+ transactions, employees, inventory:</strong> Full accounting software</li>
         <li><strong>Any size:</strong> Add bank feed integration for completeness</li>
       </ul>
-      <p>Most small businesses get the best results from Method 3 (<a href="/expenses">expense tracking apps</a>) combined with Method 5 (bank feeds). This gives you real-time capture, automatic categorization, cloud-stored receipts, and complete transaction coverage.</p>
-      <p>For the full picture on managing expenses, see our <a href="/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
+      <p>Most small businesses get the best results from Method 3 (<a href="/en/expenses">expense tracking apps</a>) combined with Method 5 (bank feeds). This gives you real-time capture, automatic categorization, cloud-stored receipts, and complete transaction coverage.</p>
+      <p>For the full picture on managing expenses, see our <a href="/en/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
     `,
     relatedTools: [
           {
@@ -12712,7 +12717,7 @@ Thank you for your business!
       <h2>The Digital Receipt Workflow</h2>
       <p>A successful digital receipt system follows four steps: capture, extract, categorize, and store.</p>
       <h3>Step 1: Capture Immediately</h3>
-      <p>The most important habit: photograph or scan every receipt at the point of purchase. Don't put it in your pocket "to scan later"—later never comes. Use your phone camera or a dedicated <a href="/blog/receipt-scanning-apps-comparison">receipt scanning app</a> with OCR capability.</p>
+      <p>The most important habit: photograph or scan every receipt at the point of purchase. Don't put it in your pocket "to scan later"—later never comes. Use your phone camera or a dedicated <a href="/en/blog/receipt-scanning-apps-comparison">receipt scanning app</a> with OCR capability.</p>
       <h3>Step 2: Extract Data with OCR</h3>
       <p>Optical Character Recognition (OCR) technology reads the printed text on your receipt and converts it into structured digital data. Modern OCR can extract:</p>
       <ul>
@@ -12722,9 +12727,9 @@ Thank you for your business!
         <li>Tax amounts (VAT, GST, sales tax)</li>
         <li>Payment method used</li>
       </ul>
-      <p><a href="/receipts">Invoicemonk's receipt scanner</a> uses advanced OCR to extract all this data automatically—just snap a photo and verify the results.</p>
+      <p><a href="/en/receipts">Invoicemonk's receipt scanner</a> uses advanced OCR to extract all this data automatically—just snap a photo and verify the results.</p>
       <h3>Step 3: Categorize</h3>
-      <p>Assign the expense to the correct <a href="/blog/business-expense-categories-guide">expense category</a>. Smart apps learn your patterns: if you always categorize Starbucks as "Meals & Entertainment," the app will suggest that category automatically for future Starbucks receipts.</p>
+      <p>Assign the expense to the correct <a href="/en/blog/business-expense-categories-guide">expense category</a>. Smart apps learn your patterns: if you always categorize Starbucks as "Meals & Entertainment," the app will suggest that category automatically for future Starbucks receipts.</p>
       <h3>Step 4: Store Securely</h3>
       <p>Digital receipts should be stored in the cloud with automatic backup. This ensures they're accessible from any device, protected against hardware failure, and searchable by date, vendor, amount, or category.</p>
 
@@ -12745,7 +12750,7 @@ Thank you for your business!
         <li><strong>Verify OCR data:</strong> Always check that extracted amounts match the receipt</li>
         <li><strong>Use consistent naming:</strong> If not using software, name files with date-vendor-amount format (2026-02-15-officedepot-47.99)</li>
         <li><strong>Back up to cloud:</strong> Don't rely on a single device—use cloud storage with automatic sync</li>
-        <li><strong>Monthly review:</strong> Cross-reference digital receipts against bank statements during your <a href="/blog/monthly-financial-review-checklist">monthly financial review</a></li>
+        <li><strong>Monthly review:</strong> Cross-reference digital receipts against bank statements during your <a href="/en/blog/monthly-financial-review-checklist">monthly financial review</a></li>
       </ul>
 
       <h2>Handling Special Receipt Types</h2>
@@ -12770,7 +12775,7 @@ Thank you for your business!
         </tbody>
       </table>
 
-      <p>Ready to go paperless? <a href="/receipts">Invoicemonk's receipt scanner</a> makes the transition seamless—snap, extract, categorize, and store in seconds. See also our <a href="/blog/complete-guide-expense-management">complete expense management guide</a> and <a href="/blog/receipt-scanning-apps-comparison">receipt scanning apps comparison</a>.</p>
+      <p>Ready to go paperless? <a href="/en/receipts">Invoicemonk's receipt scanner</a> makes the transition seamless—snap, extract, categorize, and store in seconds. See also our <a href="/en/blog/complete-guide-expense-management">complete expense management guide</a> and <a href="/en/blog/receipt-scanning-apps-comparison">receipt scanning apps comparison</a>.</p>
     `,
     faq: [
       { question: 'Are digital receipts legally valid for tax purposes?', answer: 'Yes. All major tax authorities — including the IRS, HMRC, ATO, CRA, and FIRS — accept digital copies of receipts as valid documentation. The digital copy must be legible, complete, and stored securely for the required retention period (typically 3–8 years depending on your country).' },
@@ -12834,7 +12839,7 @@ Thank you for your business!
       <p>Stationery, printer ink, paper, pens, desk accessories. Equipment purchases under your capitalization threshold go here; larger purchases may need to be <a href="/glossary?term=tax-deduction">depreciated</a>.</p>
 
       <h3>3. Software & Subscriptions</h3>
-      <p>SaaS tools, cloud storage, project management software, <a href="/expenses">expense tracking software</a>, design tools, email marketing platforms. This category has grown significantly—most businesses now have 5–15 software subscriptions.</p>
+      <p>SaaS tools, cloud storage, project management software, <a href="/en/expenses">expense tracking software</a>, design tools, email marketing platforms. This category has grown significantly—most businesses now have 5–15 software subscriptions.</p>
 
       <h3>4. Travel & Transportation</h3>
       <p>Flights, hotels, car rentals, rideshares (Uber, Bolt), parking, tolls, mileage for business driving. Keep detailed records including purpose of each trip. The IRS allows either actual expenses or the standard mileage rate ($0.70/mile in 2026).</p>
@@ -12858,7 +12863,7 @@ Thank you for your business!
       <p>Business bank account fees, credit card processing fees, payment gateway charges, wire transfer fees, merchant account fees. Often overlooked but fully deductible.</p>
 
       <h2>Mapping Categories to Your Chart of Accounts</h2>
-      <p>Your <a href="/blog/chart-of-accounts-for-small-business">chart of accounts</a> is the master list of all accounts used in your financial system. Expense categories should be a subset of your chart of accounts, structured hierarchically:</p>
+      <p>Your <a href="/en/blog/chart-of-accounts-for-small-business">chart of accounts</a> is the master list of all accounts used in your financial system. Expense categories should be a subset of your chart of accounts, structured hierarchically:</p>
       <ul>
         <li><strong>Account:</strong> 6000 – Operating Expenses</li>
         <li><strong>Sub-account:</strong> 6100 – Marketing & Advertising</li>
@@ -12875,19 +12880,19 @@ Thank you for your business!
         <li><strong>Rent → </strong> Schedule C, Line 20b</li>
         <li><strong>Utilities → </strong> Schedule C, Line 25</li>
       </ul>
-      <p>When categories map directly to tax lines, year-end filing becomes a matter of pulling reports rather than manually sorting transactions. For the full list of deductible expenses, see our <a href="/blog/tax-deductible-business-expenses">tax-deductible business expenses guide</a>.</p>
+      <p>When categories map directly to tax lines, year-end filing becomes a matter of pulling reports rather than manually sorting transactions. For the full list of deductible expenses, see our <a href="/en/blog/tax-deductible-business-expenses">tax-deductible business expenses guide</a>.</p>
 
       <h2>Common Categorization Mistakes</h2>
       <ul>
         <li><strong>Too few categories:</strong> Lumping everything into "Miscellaneous" loses valuable insights</li>
         <li><strong>Too many categories:</strong> 50+ categories create confusion and inconsistency. Aim for 10–15 main categories with sub-categories as needed</li>
         <li><strong>Inconsistent assignment:</strong> The same vendor going to different categories each month undermines reporting accuracy</li>
-        <li><strong>Personal expenses mixed in:</strong> Keep personal spending completely separate—see our guide on <a href="/blog/separate-business-personal-expenses">separating business and personal expenses</a></li>
+        <li><strong>Personal expenses mixed in:</strong> Keep personal spending completely separate—see our guide on <a href="/en/blog/separate-business-personal-expenses">separating business and personal expenses</a></li>
       </ul>
 
       <h2>Automating Categorization</h2>
-      <p><a href="/expenses">Invoicemonk's expense tracking</a> learns from your categorization patterns. After you categorize a vendor once, future transactions from that vendor are automatically suggested with the same category. This saves time and ensures consistency across your records.</p>
-      <p>For the complete picture on managing expenses, see our <a href="/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
+      <p><a href="/en/expenses">Invoicemonk's expense tracking</a> learns from your categorization patterns. After you categorize a vendor once, future transactions from that vendor are automatically suggested with the same category. This saves time and ensures consistency across your records.</p>
+      <p>For the complete picture on managing expenses, see our <a href="/en/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
     `,
     relatedTools: [
           {
@@ -12939,7 +12944,7 @@ Thank you for your business!
 
       <h2>Invoicemonk Receipt Scanner</h2>
       <p><strong>Best for:</strong> Small businesses and freelancers who want receipt scanning integrated with invoicing and expense management.</p>
-      <p><a href="/receipts">Invoicemonk's receipt scanner</a> is built into the expense tracking platform, meaning scanned receipts automatically attach to expense records, flow into financial reports, and connect to client invoices for reimbursement. Key features:</p>
+      <p><a href="/en/receipts">Invoicemonk's receipt scanner</a> is built into the expense tracking platform, meaning scanned receipts automatically attach to expense records, flow into financial reports, and connect to client invoices for reimbursement. Key features:</p>
       <ul>
         <li>High-accuracy OCR with vendor, date, amount, and tax extraction</li>
         <li>Auto-categorization that learns from your patterns</li>
@@ -13011,7 +13016,7 @@ Thank you for your business!
       <h2>How to Choose the Right Receipt Scanner for Your Business</h2>
       <p>The best choice depends on your situation:</p>
       <ul>
-        <li><strong>Freelancers and solopreneurs:</strong> Choose an all-in-one platform like <a href="/receipts">Invoicemonk</a> that combines scanning with invoicing and expense tracking — fewer tools means less data fragmentation</li>
+        <li><strong>Freelancers and solopreneurs:</strong> Choose an all-in-one platform like <a href="/en/receipts">Invoicemonk</a> that combines scanning with invoicing and expense tracking — fewer tools means less data fragmentation</li>
         <li><strong>Teams with existing accounting software:</strong> Check if your current platform has built-in scanning. If it does but accuracy is poor, a dedicated scanner with CSV export may be more reliable</li>
         <li><strong>International businesses:</strong> Multi-currency support is essential. Ensure the app can read receipts in multiple languages and extract tax amounts in different formats (VAT, GST, sales tax)</li>
         <li><strong>High-volume businesses (50+ receipts/month):</strong> Auto-categorization and bank feed integration become critical time-savers at scale</li>
@@ -13026,7 +13031,7 @@ Thank you for your business!
         <li><strong>Throwing away originals too early:</strong> While digital copies are legally accepted, keep paper originals for 30 days after scanning as a safety net</li>
       </ul>
 
-      <p>For the complete digital receipt workflow, see our <a href="/blog/digital-receipt-management-guide">digital receipt management guide</a>. For the broader expense management picture, read our <a href="/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
+      <p>For the complete digital receipt workflow, see our <a href="/en/blog/digital-receipt-management-guide">digital receipt management guide</a>. For the broader expense management picture, read our <a href="/en/blog/complete-guide-expense-management">complete expense management guide</a>.</p>
     `,
     faq: [
       { question: 'What is the best free receipt scanning app for small business?', answer: 'Invoicemonk offers free receipt scanning with OCR that extracts vendor, amount, date, and tax automatically. For businesses already using accounting software, check if your platform includes built-in scanning before paying for a separate app.' },
@@ -13087,7 +13092,7 @@ Thank you for your business!
 
       <h2>Step-by-Step Separation Guide</h2>
       <h3>Step 1: Open a Dedicated Business Bank Account</h3>
-      <p>This is the foundation. Choose a bank that offers low fees, online banking, and easy integration with your <a href="/expenses">expense tracking software</a>. Many banks offer free business checking for small businesses with low transaction volumes.</p>
+      <p>This is the foundation. Choose a bank that offers low fees, online banking, and easy integration with your <a href="/en/expenses">expense tracking software</a>. Many banks offer free business checking for small businesses with low transaction volumes.</p>
       <h3>Step 2: Get a Business Credit Card</h3>
       <p>A dedicated business credit card simplifies tracking and often earns rewards on business spending. Use it exclusively for business purchases. If you have employees, issue them cards with spending limits.</p>
       <h3>Step 3: Pay Yourself a Regular Salary or Draw</h3>
@@ -13100,7 +13105,7 @@ Thank you for your business!
         <li>Keep the receipt with your business records</li>
       </ol>
       <h3>Step 5: Use Expense Tracking Software</h3>
-      <p><a href="/expenses">Invoicemonk</a> connects to your business bank account, automatically imports transactions, and helps you categorize each one. This ensures nothing falls through the cracks and creates the documentation you need for <a href="/blog/tax-deductible-business-expenses">tax deductions</a>.</p>
+      <p><a href="/en/expenses">Invoicemonk</a> connects to your business bank account, automatically imports transactions, and helps you categorize each one. This ensures nothing falls through the cracks and creates the documentation you need for <a href="/en/blog/tax-deductible-business-expenses">tax deductions</a>.</p>
 
       <h2>Common Mistakes to Avoid</h2>
       <ul>
@@ -13110,7 +13115,7 @@ Thank you for your business!
         <li><strong>"I'll sort it out later":</strong> Later never comes. Separate now and save hours at tax time</li>
       </ul>
 
-      <p>For the complete picture, see our <a href="/blog/complete-guide-expense-management">expense management guide</a> and <a href="/blog/business-expense-categories-guide">expense categories guide</a>.</p>
+      <p>For the complete picture, see our <a href="/en/blog/complete-guide-expense-management">expense management guide</a> and <a href="/en/blog/business-expense-categories-guide">expense categories guide</a>.</p>
     `,
     faq: [
       { question: 'Why should I separate business and personal expenses?', answer: 'Four critical reasons: (1) tax compliance — you must substantiate business deductions with clear records, (2) legal protection — commingling funds can pierce your LLC\'s corporate veil, (3) financial clarity — accurate profit margins require clean data, and (4) audit protection — separate accounts demonstrate organized record-keeping.' },
@@ -13180,7 +13185,7 @@ Thank you for your business!
       <h2>Category 3: Technology and Software</h2>
       <ul>
         <li>Computer, laptop, tablet purchases (may qualify for Section 179 immediate expensing)</li>
-        <li>Software subscriptions: <a href="/expenses">expense tracking</a>, project management, design tools, email marketing</li>
+        <li>Software subscriptions: <a href="/en/expenses">expense tracking</a>, project management, design tools, email marketing</li>
         <li>Cloud storage and hosting</li>
         <li>Domain names and website costs</li>
         <li>Printer, scanner, and supplies</li>
@@ -13245,13 +13250,13 @@ Thank you for your business!
       <h2>Record-Keeping Requirements</h2>
       <p>To claim any deduction, you need:</p>
       <ul>
-        <li><strong>Receipt or proof of payment:</strong> Digital receipts are accepted—use <a href="/receipts">Invoicemonk's receipt scanner</a></li>
+        <li><strong>Receipt or proof of payment:</strong> Digital receipts are accepted—use <a href="/en/receipts">Invoicemonk's receipt scanner</a></li>
         <li><strong>Amount and date:</strong> Exact amount paid and when</li>
         <li><strong>Business purpose:</strong> Brief note explaining why the expense is business-related</li>
         <li><strong>Retention period:</strong> Keep records for 3–7 years depending on jurisdiction</li>
       </ul>
 
-      <p>Don't leave money on the table. Use <a href="/expenses">expense tracking software</a> to capture every deductible expense in real-time. For country-specific compliance guidance, see our <a href="/guides/tax-compliance">tax compliance guide</a>.</p>
+      <p>Don't leave money on the table. Use <a href="/en/expenses">expense tracking software</a> to capture every deductible expense in real-time. For country-specific compliance guidance, see our <a href="/en/guides/tax-compliance">tax compliance guide</a>.</p>
     `,
     faq: [
       { question: 'What business expenses are tax deductible?', answer: 'Any expense that is ordinary (common in your industry) and necessary (helpful for your business) is generally deductible. Common categories include home office, vehicle and transportation, technology and software, professional services, marketing, travel, insurance, education, and financial costs like bank fees and payment processing.' },
@@ -13311,17 +13316,17 @@ Thank you for your business!
       </ul>
       <h3>Best Practices</h3>
       <ul>
-        <li>Submit expense reports with your regular <a href="/invoicing">invoice</a>—don't wait until the end of the project</li>
-        <li>Agree on reimbursable categories in your <a href="/blog/freelance-contract-templates">contract</a> before work begins</li>
+        <li>Submit expense reports with your regular <a href="/en/invoicing">invoice</a>—don't wait until the end of the project</li>
+        <li>Agree on reimbursable categories in your <a href="/en/blog/freelance-contract-templates">contract</a> before work begins</li>
         <li>Set a pre-approval threshold (e.g., "Expenses over $100 require client approval before purchase")</li>
         <li>Include receipt scans—clients appreciate transparency and it speeds up approval</li>
       </ul>
 
       <h2>Type 2: Tax Filing Expense Reports</h2>
-      <p>Even if no one reimburses you, you need organized expense records for <a href="/blog/tax-deductible-business-expenses">tax deductions</a>. Your "expense report" is essentially a categorized summary of all business spending for a given period.</p>
+      <p>Even if no one reimburses you, you need organized expense records for <a href="/en/blog/tax-deductible-business-expenses">tax deductions</a>. Your "expense report" is essentially a categorized summary of all business spending for a given period.</p>
       <h3>Monthly Summary Format</h3>
       <ul>
-        <li>Group expenses by <a href="/blog/business-expense-categories-guide">category</a></li>
+        <li>Group expenses by <a href="/en/blog/business-expense-categories-guide">category</a></li>
         <li>Total each category</li>
         <li>Grand total of all business expenses</li>
         <li>Attach all supporting receipts</li>
@@ -13329,7 +13334,7 @@ Thank you for your business!
       <p>Doing this monthly (rather than annually) saves massive time at tax season and makes it easier to spot unusual spending patterns.</p>
 
       <h2>Creating Expense Reports in Invoicemonk</h2>
-      <p><a href="/expenses">Invoicemonk</a> automates expense report creation:</p>
+      <p><a href="/en/expenses">Invoicemonk</a> automates expense report creation:</p>
       <ol>
         <li>Track expenses throughout the month (snap receipts, categorize, add project tags)</li>
         <li>Filter by date range, client, or project</li>
@@ -13346,7 +13351,7 @@ Thank you for your business!
       <h2>Tracking Project Profitability</h2>
       <p>Beyond reimbursement and taxes, expense reports help you understand project profitability. Compare the revenue from each client against the expenses incurred to serve them. Some "profitable" projects look very different once you factor in travel, software, and subcontractor costs.</p>
 
-      <p>For the complete expense management workflow, see our <a href="/blog/complete-guide-expense-management">expense management guide</a>.</p>
+      <p>For the complete expense management workflow, see our <a href="/en/blog/complete-guide-expense-management">expense management guide</a>.</p>
     `,
     faq: [
       { question: 'How do I create an expense report as a freelancer?', answer: 'Include these columns for each expense: date, vendor/merchant, description, category, amount, receipt attached (Y/N), and billable to client (Y/N). Group by category, total each group, and attach receipt scans. Submit with your regular invoice for reimbursable expenses.' },
@@ -13415,12 +13420,12 @@ Thank you for your business!
       <ol>
         <li><strong>Welcome email (within 24 hours):</strong> Thank the client, confirm the engagement, and outline next steps. This email sets the tone for the entire relationship</li>
         <li><strong>Client questionnaire:</strong> Gather essential information—goals, preferences, key stakeholders, communication preferences, decision-making process</li>
-        <li><strong>Contract and <a href="/glossary?term=scope-of-work">scope of work</a>:</strong> Formalize the agreement with a <a href="/blog/freelance-contract-templates">professional contract</a> that defines deliverables, timeline, payment terms, and change order processes</li>
-        <li><strong>Payment setup:</strong> Set up the client in your billing system. With <a href="/client-management">Invoicemonk</a>, you can store client details, set default payment terms, and automate invoicing from day one</li>
+        <li><strong>Contract and <a href="/glossary?term=scope-of-work">scope of work</a>:</strong> Formalize the agreement with a <a href="/en/blog/freelance-contract-templates">professional contract</a> that defines deliverables, timeline, payment terms, and change order processes</li>
+        <li><strong>Payment setup:</strong> Set up the client in your billing system. With <a href="/en/client-management">Invoicemonk</a>, you can store client details, set default payment terms, and automate invoicing from day one</li>
         <li><strong>Kickoff call:</strong> A 30–60 minute call to align on goals, process, and expectations. Record key decisions and share notes afterward</li>
         <li><strong>Project timeline:</strong> Share a clear timeline with milestones, check-in dates, and deliverable deadlines</li>
       </ol>
-      <p>For a detailed walkthrough with templates, see our <a href="/blog/client-onboarding-process">client onboarding guide</a>.</p>
+      <p>For a detailed walkthrough with templates, see our <a href="/en/blog/client-onboarding-process">client onboarding guide</a>.</p>
 
       <h2>Phase 2: Communication During the Project</h2>
       <p>The #1 client complaint about service providers is poor communication. Not bad work—bad communication. Here's how to get it right.</p>
@@ -13438,7 +13443,7 @@ Thank you for your business!
         <li>Send a written change order with updated cost and timeline</li>
         <li>Get approval before starting the additional work</li>
       </ol>
-      <p>Never do extra work and "surprise" the client with a bigger invoice. Get templates for these conversations in our <a href="/blog/client-communication-templates">client communication templates</a> article.</p>
+      <p>Never do extra work and "surprise" the client with a bigger invoice. Get templates for these conversations in our <a href="/en/blog/client-communication-templates">client communication templates</a> article.</p>
 
       <h2>Phase 3: Managing Difficult Situations</h2>
       <p>Every freelancer and business owner encounters challenging client situations. The professionals who thrive are the ones who handle them with clarity and boundaries—not avoidance.</p>
@@ -13449,14 +13454,14 @@ Thank you for your business!
         <li><strong>The Micromanager:</strong> Questions every decision and wants to approve every detail</li>
         <li><strong>The Late Payer:</strong> Consistently pays invoices past the due date</li>
       </ul>
-      <p>For detailed strategies for each type, including when to walk away, see our guide on <a href="/blog/managing-difficult-clients">handling difficult clients</a>.</p>
+      <p>For detailed strategies for each type, including when to walk away, see our guide on <a href="/en/blog/managing-difficult-clients">handling difficult clients</a>.</p>
 
       <h2>Phase 4: Payment Management</h2>
       <p>Getting paid shouldn't be awkward. Build payment into your process so it happens naturally:</p>
       <ul>
-        <li><strong>Clear payment terms:</strong> Establish <a href="/blog/how-to-write-invoice-payment-terms">payment terms</a> during onboarding, not after delivering work</li>
-        <li><strong>Professional invoicing:</strong> Send <a href="/invoicing">branded invoices</a> promptly after each milestone or billing period</li>
-        <li><strong>Automatic reminders:</strong> Use <a href="/blog/setting-up-automatic-payment-reminders">automated payment reminders</a> so you never have to send awkward manual follow-ups</li>
+        <li><strong>Clear payment terms:</strong> Establish <a href="/en/blog/how-to-write-invoice-payment-terms">payment terms</a> during onboarding, not after delivering work</li>
+        <li><strong>Professional invoicing:</strong> Send <a href="/en/invoicing">branded invoices</a> promptly after each milestone or billing period</li>
+        <li><strong>Automatic reminders:</strong> Use <a href="/en/blog/setting-up-automatic-payment-reminders">automated payment reminders</a> so you never have to send awkward manual follow-ups</li>
         <li><strong>Multiple payment options:</strong> Accept bank transfers, cards, and digital payments to remove friction</li>
       </ul>
 
@@ -13466,20 +13471,20 @@ Thank you for your business!
       <ol>
         <li><strong>Post-project debrief:</strong> Schedule a brief call to review what went well and what could improve</li>
         <li><strong>Ask for feedback:</strong> Use a simple NPS (Net Promoter Score) question: "On a scale of 0–10, how likely are you to recommend us?"</li>
-        <li><strong>Offer retainer packages:</strong> Propose <a href="/use-cases/retainer-billing">retainer arrangements</a> for ongoing work—this creates predictable revenue for you and priority access for them</li>
+        <li><strong>Offer retainer packages:</strong> Propose <a href="/en/use-cases/retainer-billing">retainer arrangements</a> for ongoing work—this creates predictable revenue for you and priority access for them</li>
         <li><strong>Stay in touch:</strong> Send quarterly check-ins, share relevant articles or insights, congratulate them on business milestones</li>
         <li><strong>Ask for referrals:</strong> The best time to ask is right after delivering successful results</li>
       </ol>
-      <p>For all seven strategies in detail, see our <a href="/blog/client-retention-strategies">client retention strategies guide</a>.</p>
+      <p>For all seven strategies in detail, see our <a href="/en/blog/client-retention-strategies">client retention strategies guide</a>.</p>
 
       <h2>Phase 6: Choosing the Right Tools</h2>
       <p>You don't need an enterprise CRM. For most freelancers and small businesses, a tool that tracks client details, project history, and payment status is sufficient.</p>
       <ul>
         <li><strong>Under 10 clients:</strong> A well-organized spreadsheet can work</li>
-        <li><strong>10–30 clients:</strong> <a href="/client-management">Invoicing software with built-in client management</a> (like Invoicemonk) is the sweet spot</li>
+        <li><strong>10–30 clients:</strong> <a href="/en/client-management">Invoicing software with built-in client management</a> (like Invoicemonk) is the sweet spot</li>
         <li><strong>30+ clients:</strong> Consider a lightweight CRM with invoicing integration</li>
       </ul>
-      <p>See our detailed comparison in <a href="/blog/crm-for-freelancers-small-business">Do Freelancers Need a CRM?</a></p>
+      <p>See our detailed comparison in <a href="/en/blog/crm-for-freelancers-small-business">Do Freelancers Need a CRM?</a></p>
 
       <h2>Client Management Checklist</h2>
       <ul>
@@ -13566,7 +13571,7 @@ Thank you for your business!
       </ul>
 
       <h2>Step 3: Contract and Scope of Work</h2>
-      <p>Never start work without a signed agreement. Your <a href="/blog/freelance-contract-templates">contract</a> should define:</p>
+      <p>Never start work without a signed agreement. Your <a href="/en/blog/freelance-contract-templates">contract</a> should define:</p>
       <ul>
         <li>Specific deliverables and what's NOT included</li>
         <li>Timeline with milestones</li>
@@ -13577,7 +13582,7 @@ Thank you for your business!
       </ul>
 
       <h2>Step 4: Payment Setup</h2>
-      <p>Get billing logistics handled before work begins. With <a href="/client-management">Invoicemonk</a>, set up the client profile with their billing details, preferred payment method, and default payment terms. Send the first invoice (deposit or milestone payment) as part of onboarding—not as an afterthought.</p>
+      <p>Get billing logistics handled before work begins. With <a href="/en/client-management">Invoicemonk</a>, set up the client profile with their billing details, preferred payment method, and default payment terms. Send the first invoice (deposit or milestone payment) as part of onboarding—not as an afterthought.</p>
 
       <h2>Step 5: Kickoff Call</h2>
       <p>A 30–60 minute call to align on everything. Agenda:</p>
@@ -13605,7 +13610,7 @@ Thank you for your business!
         <li>☐ Communication cadence agreed upon</li>
       </ul>
 
-      <p>A professional onboarding process is part of excellent <a href="/blog/client-management-guide-small-business">client management</a>. It takes about 2 hours to set up once, and then it runs on autopilot for every new client.</p>
+      <p>A professional onboarding process is part of excellent <a href="/en/blog/client-management-guide-small-business">client management</a>. It takes about 2 hours to set up once, and then it runs on autopilot for every new client.</p>
     `,
     relatedTools: [
           {
@@ -13677,7 +13682,7 @@ Thank you for your business!
       <p>Consistently pays invoices past the due date, always with excuses.</p>
       <p><strong>How to handle:</strong></p>
       <ul>
-        <li>Use <a href="/blog/setting-up-automatic-payment-reminders">automated payment reminders</a> so you don't have to send awkward manual follow-ups</li>
+        <li>Use <a href="/en/blog/setting-up-automatic-payment-reminders">automated payment reminders</a> so you don't have to send awkward manual follow-ups</li>
         <li>Require a deposit or milestone payments upfront for new projects</li>
         <li>Add late payment fees to your contract (1.5–2% per month is standard)</li>
         <li>For chronic late payers, switch to payment-before-delivery for future work</li>
@@ -13702,7 +13707,7 @@ Thank you for your business!
       </ul>
       <p><strong>How to exit professionally:</strong> Give proper notice per your contract, deliver any completed work, send a final invoice, and keep the door open: "I've enjoyed working with you, but I don't think we're the right fit for each other going forward."</p>
 
-      <p>For related guidance, see <a href="/blog/invoice-disputes-how-to-handle-professionally">handling invoice disputes</a> and our full <a href="/blog/client-management-guide-small-business">client management guide</a>.</p>
+      <p>For related guidance, see <a href="/en/blog/invoice-disputes-how-to-handle-professionally">handling invoice disputes</a> and our full <a href="/en/blog/client-management-guide-small-business">client management guide</a>.</p>
     `,
     relatedTools: [
           {
@@ -13754,7 +13759,7 @@ Thank you for your business!
       <p>"Hi [Name], Thanks for the idea—I think [feature/change] would be a great addition. To keep things transparent, I've put together a quick change order: <strong>Additional work:</strong> [description]. <strong>Timeline impact:</strong> [X additional days]. <strong>Cost:</strong> [amount]. If you'd like to proceed, just reply to approve and I'll update the project plan. We can also discuss alternatives if you'd prefer to stay within the original scope."</p>
 
       <h2>Template 4: Payment Reminder (Friendly)</h2>
-      <p>For invoices 1–3 days past due. For more templates, see our <a href="/blog/payment-reminder-email-templates">payment reminder templates</a>.</p>
+      <p>For invoices 1–3 days past due. For more templates, see our <a href="/en/blog/payment-reminder-email-templates">payment reminder templates</a>.</p>
       <p>"Hi [Name], Just a friendly reminder that invoice [#] for [amount] was due on [date]. I've attached the invoice again for convenience. Payment can be made via [payment methods]. Please let me know if you have any questions!"</p>
 
       <h2>Template 5: Payment Reminder (Firm)</h2>
@@ -13777,7 +13782,7 @@ Thank you for your business!
         <li><strong>Include a clear call to action:</strong> Every email should tell the client exactly what you need from them</li>
       </ul>
 
-      <p>For the complete framework, see our <a href="/blog/client-management-guide-small-business">client management guide</a>.</p>
+      <p>For the complete framework, see our <a href="/en/blog/client-management-guide-small-business">client management guide</a>.</p>
     `,
     relatedTools: [
           {
@@ -13820,13 +13825,13 @@ Thank you for your business!
       <p>This is the foundation. No amount of clever retention tactics can compensate for mediocre work. But "excellent" doesn't just mean good output—it means meeting deadlines, communicating proactively, and making the entire experience smooth. Clients remember how working with you felt as much as the final deliverable.</p>
 
       <h2>Strategy 2: Communicate Proactively</h2>
-      <p>Don't wait for clients to ask for updates. Send weekly progress reports, flag potential issues early, and respond to messages within your stated timeframe. Use our <a href="/blog/client-communication-templates">communication templates</a> to make this effortless.</p>
+      <p>Don't wait for clients to ask for updates. Send weekly progress reports, flag potential issues early, and respond to messages within your stated timeframe. Use our <a href="/en/blog/client-communication-templates">communication templates</a> to make this effortless.</p>
 
       <h2>Strategy 3: Ask for (and Act on) Feedback</h2>
       <p>After each project, ask two questions: "What went well?" and "What could I improve?" Better yet, use a simple Net Promoter Score survey: "On a scale of 0–10, how likely are you to recommend us?" Act visibly on the feedback you receive—clients who see their input implemented become loyal advocates.</p>
 
       <h2>Strategy 4: Offer Retainer Packages</h2>
-      <p>Convert project-based relationships to <a href="/use-cases/retainer-billing">retainer arrangements</a>. Retainers create predictable revenue for you and priority access for the client. Common retainer structures:</p>
+      <p>Convert project-based relationships to <a href="/en/use-cases/retainer-billing">retainer arrangements</a>. Retainers create predictable revenue for you and priority access for the client. Common retainer structures:</p>
       <ul>
         <li><strong>Hours-based:</strong> 10–20 hours/month at a discounted rate</li>
         <li><strong>Deliverables-based:</strong> Set number of deliverables per month</li>
@@ -13848,11 +13853,11 @@ Thank you for your business!
       <h2>Strategy 7: Make Working With You Effortless</h2>
       <p>Remove friction from every interaction:</p>
       <ul>
-        <li>Professional, clear <a href="/invoicing">invoices</a> that are easy to pay</li>
+        <li>Professional, clear <a href="/en/invoicing">invoices</a> that are easy to pay</li>
         <li>Multiple payment options (bank transfer, card, digital wallet)</li>
         <li>Organized project files in a shared location</li>
-        <li>Consistent <a href="/blog/client-onboarding-process">onboarding process</a> for new projects</li>
-        <li><a href="/client-management">Client portal</a> where they can view project status and invoices</li>
+        <li>Consistent <a href="/en/blog/client-onboarding-process">onboarding process</a> for new projects</li>
+        <li><a href="/en/client-management">Client portal</a> where they can view project status and invoices</li>
       </ul>
 
       <h2>Measuring Retention</h2>
@@ -13863,7 +13868,7 @@ Thank you for your business!
         <li><strong>Revenue per client:</strong> Total revenue divided by number of active clients</li>
       </ul>
 
-      <p>For the complete framework, see our <a href="/blog/client-management-guide-small-business">client management guide</a>.</p>
+      <p>For the complete framework, see our <a href="/en/blog/client-management-guide-small-business">client management guide</a>.</p>
     `,
     relatedTools: [
           {
@@ -13922,7 +13927,7 @@ Thank you for your business!
       <p><strong>Pros:</strong> Free, customizable, familiar. <strong>Cons:</strong> No automation, no reminders, no integration with invoicing.</p>
 
       <h2>Option 2: Invoicing Software with Client Management (10–30 Clients)</h2>
-      <p>This is the sweet spot for most freelancers and small businesses. <a href="/client-management">Invoicemonk</a> combines client tracking with invoicing, so your client data and billing live in one place:</p>
+      <p>This is the sweet spot for most freelancers and small businesses. <a href="/en/client-management">Invoicemonk</a> combines client tracking with invoicing, so your client data and billing live in one place:</p>
       <ul>
         <li>Client profiles with contact details and billing info</li>
         <li>Project and invoice history per client</li>
@@ -13958,7 +13963,7 @@ Thank you for your business!
         <li>Review and update weekly (10 minutes)</li>
       </ol>
 
-      <p>For the complete client management framework, see our <a href="/blog/client-management-guide-small-business">client management guide</a>. For retention-specific strategies, see <a href="/blog/client-retention-strategies">client retention strategies</a>.</p>
+      <p>For the complete client management framework, see our <a href="/en/blog/client-management-guide-small-business">client management guide</a>. For retention-specific strategies, see <a href="/en/blog/client-retention-strategies">client retention strategies</a>.</p>
     `,
     relatedTools: [
           {
@@ -14030,13 +14035,13 @@ Thank you for your business!
 
 <h3>The Chart of Accounts</h3>
 
-<p>A <a href="/blog/chart-of-accounts-for-small-business">chart of accounts</a> is your financial filing system. It's a numbered list of every category where money can be recorded — revenue accounts, expense accounts, asset accounts, and so on. A well-structured chart of accounts makes categorising transactions fast, ensures consistent reporting, and simplifies tax filing. Most <a href="/accounting">accounting software</a> comes with a default chart you can customise for your industry.</p>
+<p>A <a href="/en/blog/chart-of-accounts-for-small-business">chart of accounts</a> is your financial filing system. It's a numbered list of every category where money can be recorded — revenue accounts, expense accounts, asset accounts, and so on. A well-structured chart of accounts makes categorising transactions fast, ensures consistent reporting, and simplifies tax filing. Most <a href="/en/accounting">accounting software</a> comes with a default chart you can customise for your industry.</p>
 
 <h2>Cash Basis vs. Accrual Basis Accounting</h2>
 
 <p>One of the first decisions you'll make is choosing an accounting method. <strong>Cash-basis accounting</strong> records income when money hits your bank account and expenses when money leaves. It's simpler, more intuitive, and works well for freelancers and small service businesses.</p>
 
-<p><strong>Accrual-basis accounting</strong> records income when it's earned (e.g., when you send an invoice) and expenses when they're incurred, regardless of when cash changes hands. It gives a more accurate picture of profitability and is required under <strong>Generally Accepted Accounting Principles (GAAP)</strong> for most businesses above a certain size. For a deeper comparison, read our guide on <a href="/blog/cash-vs-accrual-accounting-explained">cash vs. accrual accounting</a>.</p>
+<p><strong>Accrual-basis accounting</strong> records income when it's earned (e.g., when you send an invoice) and expenses when they're incurred, regardless of when cash changes hands. It gives a more accurate picture of profitability and is required under <strong>Generally Accepted Accounting Principles (GAAP)</strong> for most businesses above a certain size. For a deeper comparison, read our guide on <a href="/en/blog/cash-vs-accrual-accounting-explained">cash vs. accrual accounting</a>.</p>
 
 <p>If your business carries inventory, has significant receivables, or plans to seek investment, accrual is the better choice — even if it requires more bookkeeping effort.</p>
 
@@ -14044,11 +14049,11 @@ Thank you for your business!
 
 <h3>1. Separate Business and Personal Finances</h3>
 
-<p>Open a dedicated business bank account and, if relevant, a business credit card. Commingling personal and business funds is the single most common accounting mistake, and it creates nightmares at tax time. Read our detailed guide on <a href="/blog/separate-business-personal-expenses">why separation matters</a>.</p>
+<p>Open a dedicated business bank account and, if relevant, a business credit card. Commingling personal and business funds is the single most common accounting mistake, and it creates nightmares at tax time. Read our detailed guide on <a href="/en/blog/separate-business-personal-expenses">why separation matters</a>.</p>
 
 <h3>2. Choose Your Accounting Software</h3>
 
-<p>Manual spreadsheets work until they don't. Modern tools like <a href="/accounting">Invoicemonk</a> automate categorisation, bank reconciliation, and financial reporting — saving hours each week and reducing errors. The right software also generates the reports your accountant or tax authority needs, without you re-entering data.</p>
+<p>Manual spreadsheets work until they don't. Modern tools like <a href="/en/accounting">Invoicemonk</a> automate categorisation, bank reconciliation, and financial reporting — saving hours each week and reducing errors. The right software also generates the reports your accountant or tax authority needs, without you re-entering data.</p>
 
 <h3>3. Build Your Chart of Accounts</h3>
 
@@ -14056,7 +14061,7 @@ Thank you for your business!
 
 <h3>4. Establish a Recording Routine</h3>
 
-<p>Consistency beats perfection. Set aside 15 minutes daily or one hour weekly to log transactions, scan receipts, and check bank feeds. A regular cadence keeps your books current and prevents the dreaded "shoebox of receipts" crisis in April. For a structured routine, see our <a href="/blog/monthly-financial-review-checklist">monthly financial review checklist</a>.</p>
+<p>Consistency beats perfection. Set aside 15 minutes daily or one hour weekly to log transactions, scan receipts, and check bank feeds. A regular cadence keeps your books current and prevents the dreaded "shoebox of receipts" crisis in April. For a structured routine, see our <a href="/en/blog/monthly-financial-review-checklist">monthly financial review checklist</a>.</p>
 
 <h2>The Three Essential Financial Reports</h2>
 
@@ -14076,21 +14081,21 @@ Thank you for your business!
 
 <p><strong>Waiting until tax season:</strong> Cramming a year's worth of bookkeeping into a few weeks produces errors and missed deductions. Do it regularly — daily or weekly — and tax season becomes a non-event.</p>
 
-<p><strong>Not reconciling bank statements:</strong> Bank reconciliation catches errors, duplicate charges, and fraud. Match your books to your bank statement monthly. If your <a href="/accounting">accounting software</a> connects to your bank, this can be largely automated.</p>
+<p><strong>Not reconciling bank statements:</strong> Bank reconciliation catches errors, duplicate charges, and fraud. Match your books to your bank statement monthly. If your <a href="/en/accounting">accounting software</a> connects to your bank, this can be largely automated.</p>
 
 <p><strong>Skipping backups:</strong> Cloud-based tools solve this automatically, but if you use spreadsheets, back up your files regularly. Losing a year of financial records is catastrophic.</p>
 
 <h2>When to DIY vs. Hire an Accountant</h2>
 
-<p>Most solo freelancers and micro-businesses can handle day-to-day bookkeeping themselves using modern software. But as complexity grows — multiple revenue streams, payroll, international sales, inventory — a professional accountant adds more value than they cost. For a detailed breakdown, read <a href="/blog/diy-small-business-accounting">our guide on DIY vs. hiring</a>.</p>
+<p>Most solo freelancers and micro-businesses can handle day-to-day bookkeeping themselves using modern software. But as complexity grows — multiple revenue streams, payroll, international sales, inventory — a professional accountant adds more value than they cost. For a detailed breakdown, read <a href="/en/blog/diy-small-business-accounting">our guide on DIY vs. hiring</a>.</p>
 
-<p>A common hybrid approach: handle daily <a href="/blog/bookkeeping-basics-beginners">bookkeeping</a> yourself and hire an accountant for quarterly reviews and annual tax filing. This keeps costs low while ensuring professional oversight.</p>
+<p>A common hybrid approach: handle daily <a href="/en/blog/bookkeeping-basics-beginners">bookkeeping</a> yourself and hire an accountant for quarterly reviews and annual tax filing. This keeps costs low while ensuring professional oversight.</p>
 
 <h2>Getting Started Today</h2>
 
-<p>You don't need to master accounting overnight. Start with three actions: open a separate business bank account, choose an <a href="/accounting">accounting platform</a> that automates the basics, and commit to recording transactions weekly. Those three steps alone will put you ahead of the majority of small business owners.</p>
+<p>You don't need to master accounting overnight. Start with three actions: open a separate business bank account, choose an <a href="/en/accounting">accounting platform</a> that automates the basics, and commit to recording transactions weekly. Those three steps alone will put you ahead of the majority of small business owners.</p>
 
-<p>Once your system is running, explore related topics like <a href="/blog/tax-deductible-business-expenses">tax-deductible expenses</a>, <a href="/blog/business-expense-categories-guide">expense categorisation</a>, and <a href="/blog/understanding-financial-reports-small-business">reading financial reports</a> to deepen your financial literacy — and grow your business with confidence.</p>
+<p>Once your system is running, explore related topics like <a href="/en/blog/tax-deductible-business-expenses">tax-deductible expenses</a>, <a href="/en/blog/business-expense-categories-guide">expense categorisation</a>, and <a href="/en/blog/understanding-financial-reports-small-business">reading financial reports</a> to deepen your financial literacy — and grow your business with confidence.</p>
 `,
     relatedTools: [
           {
@@ -14134,7 +14139,7 @@ Thank you for your business!
 
 <h2>What Is Bookkeeping?</h2>
 
-<p><strong>Bookkeeping</strong> is the systematic recording of all financial transactions a business makes. Every sale, every purchase, every payment — bookkeeping captures it in an organised way so you can understand where your money is going. It's the foundation that <a href="/blog/accounting-101-small-business-owners">accounting</a> builds on: without accurate records, financial reports, tax filings, and business decisions all suffer.</p>
+<p><strong>Bookkeeping</strong> is the systematic recording of all financial transactions a business makes. Every sale, every purchase, every payment — bookkeeping captures it in an organised way so you can understand where your money is going. It's the foundation that <a href="/en/blog/accounting-101-small-business-owners">accounting</a> builds on: without accurate records, financial reports, tax filings, and business decisions all suffer.</p>
 
 <p>Think of bookkeeping as data entry and accounting as data analysis. A bookkeeper records that you spent $450 on software subscriptions this month; an accountant analyses whether that spending is sustainable relative to your revenue. Both roles are essential, but bookkeeping comes first.</p>
 
@@ -14150,7 +14155,7 @@ Thank you for your business!
 
 <p><strong>Double-entry bookkeeping</strong> records every transaction in two accounts: a debit and a credit. When you receive $1,000 from a client, your cash account is debited (increases) and your revenue account is credited (increases). This system, developed over 500 years ago, ensures that your books always balance — total debits must equal total credits.</p>
 
-<p>Double-entry is the standard for any business that's serious about financial accuracy. It catches errors automatically, supports proper financial reporting, and is required if you follow <a href="/blog/accounting-101-small-business-owners">Generally Accepted Accounting Principles (GAAP)</a>. Modern <a href="/accounting">accounting software</a> handles the double-entry mechanics behind the scenes, so you don't need to manually manage debits and credits.</p>
+<p>Double-entry is the standard for any business that's serious about financial accuracy. It catches errors automatically, supports proper financial reporting, and is required if you follow <a href="/en/blog/accounting-101-small-business-owners">Generally Accepted Accounting Principles (GAAP)</a>. Modern <a href="/en/accounting">accounting software</a> handles the double-entry mechanics behind the scenes, so you don't need to manually manage debits and credits.</p>
 
 <h2>Essential Bookkeeping Tasks</h2>
 
@@ -14158,23 +14163,23 @@ Thank you for your business!
 
 <p><strong>Record income and expenses:</strong> Log every transaction — invoices sent, payments received, bills paid, and purchases made. If your software connects to your bank feed, most of this is automated; you just review and categorise.</p>
 
-<p><strong>Scan and file receipts:</strong> Photograph or scan receipts the day you get them. Paper receipts fade; digital copies don't. Tools with <a href="/blog/digital-receipt-management-guide">OCR receipt scanning</a> can extract amounts and vendors automatically, saving you from manual data entry.</p>
+<p><strong>Scan and file receipts:</strong> Photograph or scan receipts the day you get them. Paper receipts fade; digital copies don't. Tools with <a href="/en/blog/digital-receipt-management-guide">OCR receipt scanning</a> can extract amounts and vendors automatically, saving you from manual data entry.</p>
 
 <h3>Weekly Tasks (30 Minutes)</h3>
 
-<p><strong>Review outstanding invoices:</strong> Check which clients haven't paid and follow up promptly. Late payments compound — a $5,000 invoice that's 60 days overdue is costing you real money in lost cash-flow opportunity. Use <a href="/blog/automatic-payment-reminders-getting-paid">automated payment reminders</a> to reduce the manual effort.</p>
+<p><strong>Review outstanding invoices:</strong> Check which clients haven't paid and follow up promptly. Late payments compound — a $5,000 invoice that's 60 days overdue is costing you real money in lost cash-flow opportunity. Use <a href="/en/blog/automatic-payment-reminders-getting-paid">automated payment reminders</a> to reduce the manual effort.</p>
 
-<p><strong>Categorise transactions:</strong> Ensure every transaction is assigned to the correct account in your <a href="/blog/chart-of-accounts-for-small-business">chart of accounts</a>. Miscategorised expenses lead to inaccurate financial reports and potentially missed <a href="/blog/tax-deductible-business-expenses">tax deductions</a>.</p>
+<p><strong>Categorise transactions:</strong> Ensure every transaction is assigned to the correct account in your <a href="/en/blog/chart-of-accounts-for-small-business">chart of accounts</a>. Miscategorised expenses lead to inaccurate financial reports and potentially missed <a href="/en/blog/tax-deductible-business-expenses">tax deductions</a>.</p>
 
 <h3>Monthly Tasks (1-2 Hours)</h3>
 
-<p><strong>Bank reconciliation:</strong> Compare your bookkeeping records against your bank statement to ensure they match. <strong>Bank reconciliation</strong> catches errors, duplicate charges, bank fees you missed, and potential fraud. This is arguably the most important bookkeeping task you'll do — never skip it. Your <a href="/accounting">accounting platform</a> can automate much of this process by matching imported bank transactions to recorded entries.</p>
+<p><strong>Bank reconciliation:</strong> Compare your bookkeeping records against your bank statement to ensure they match. <strong>Bank reconciliation</strong> catches errors, duplicate charges, bank fees you missed, and potential fraud. This is arguably the most important bookkeeping task you'll do — never skip it. Your <a href="/en/accounting">accounting platform</a> can automate much of this process by matching imported bank transactions to recorded entries.</p>
 
-<p><strong>Review financial reports:</strong> Pull your income statement and balance sheet. Are revenue trends heading in the right direction? Are any expense categories growing unexpectedly? A <a href="/blog/monthly-financial-review-checklist">monthly review</a> turns raw data into actionable insight.</p>
+<p><strong>Review financial reports:</strong> Pull your income statement and balance sheet. Are revenue trends heading in the right direction? Are any expense categories growing unexpectedly? A <a href="/en/blog/monthly-financial-review-checklist">monthly review</a> turns raw data into actionable insight.</p>
 
 <h2>Setting Up Your Bookkeeping System</h2>
 
-<p><strong>Step 1: Choose your tool.</strong> Spreadsheets work for the simplest businesses, but they don't scale and offer no automation. Cloud-based <a href="/accounting">bookkeeping software</a> like Invoicemonk connects to your bank, categorises transactions, and generates reports — dramatically reducing manual work.</p>
+<p><strong>Step 1: Choose your tool.</strong> Spreadsheets work for the simplest businesses, but they don't scale and offer no automation. Cloud-based <a href="/en/accounting">bookkeeping software</a> like Invoicemonk connects to your bank, categorises transactions, and generates reports — dramatically reducing manual work.</p>
 
 <p><strong>Step 2: Set up your chart of accounts.</strong> This is your category structure. Start with defaults and customise for your business. A freelance designer needs different categories than a catering company.</p>
 
@@ -14192,19 +14197,19 @@ Thank you for your business!
 
 <p><strong>Procrastinating on data entry:</strong> The longer you wait, the harder it gets. A week's worth of transactions takes minutes to categorise; three months' worth takes days and is riddled with errors because you've forgotten context.</p>
 
-<p><strong>Not keeping receipts:</strong> Many tax authorities require receipts for expenses above a certain threshold. Without them, deductions can be disallowed in an audit. Go digital with a <a href="/blog/receipt-scanning-apps-comparison">receipt-scanning app</a> to make this effortless.</p>
+<p><strong>Not keeping receipts:</strong> Many tax authorities require receipts for expenses above a certain threshold. Without them, deductions can be disallowed in an audit. Go digital with a <a href="/en/blog/receipt-scanning-apps-comparison">receipt-scanning app</a> to make this effortless.</p>
 
-<p><strong>Mixing personal and business transactions:</strong> This is so common and so problematic that we wrote an <a href="/blog/separate-business-personal-expenses">entire guide on it</a>. Get a dedicated business bank account — it's the single most impactful step you can take.</p>
+<p><strong>Mixing personal and business transactions:</strong> This is so common and so problematic that we wrote an <a href="/en/blog/separate-business-personal-expenses">entire guide on it</a>. Get a dedicated business bank account — it's the single most impactful step you can take.</p>
 
 <p><strong>Ignoring reconciliation:</strong> If your books don't match your bank, something is wrong. It could be a missed transaction, a duplicate entry, or fraud. Monthly reconciliation is non-negotiable.</p>
 
 <h2>Bookkeeping vs. Hiring a Bookkeeper</h2>
 
-<p>If your business has fewer than ~100 transactions per month and straightforward operations, DIY bookkeeping with good software is entirely practical. As volume and complexity grow, outsourcing to a bookkeeper — typically $300–$800/month — frees up hours for revenue-generating work. For a deeper analysis, see <a href="/blog/diy-small-business-accounting">our DIY vs. hiring guide</a>.</p>
+<p>If your business has fewer than ~100 transactions per month and straightforward operations, DIY bookkeeping with good software is entirely practical. As volume and complexity grow, outsourcing to a bookkeeper — typically $300–$800/month — frees up hours for revenue-generating work. For a deeper analysis, see <a href="/en/blog/diy-small-business-accounting">our DIY vs. hiring guide</a>.</p>
 
 <h2>Next Steps</h2>
 
-<p>Start with the basics: open a business bank account, set up <a href="/accounting">bookkeeping software</a>, and commit to a weekly routine. As you get comfortable, layer on more advanced practices like <a href="/en/blog/cash-flow-forecasting-for-freelancers">cash-flow forecasting</a> and <a href="/blog/understanding-financial-reports-small-business">financial report analysis</a>. Every hour invested in bookkeeping now saves ten hours of confusion — and potentially thousands in missed deductions — later.</p>
+<p>Start with the basics: open a business bank account, set up <a href="/en/accounting">bookkeeping software</a>, and commit to a weekly routine. As you get comfortable, layer on more advanced practices like <a href="/en/blog/cash-flow-forecasting-for-freelancers">cash-flow forecasting</a> and <a href="/en/blog/understanding-financial-reports-small-business">financial report analysis</a>. Every hour invested in bookkeeping now saves ten hours of confusion — and potentially thousands in missed deductions — later.</p>
 `,
     relatedTools: [
           {
@@ -14247,11 +14252,11 @@ Thank you for your business!
 
 <p>DIY accounting doesn't mean doing everything from scratch on a blank spreadsheet. It means using <strong>accounting software</strong> to record transactions, categorise expenses, reconcile bank accounts, and generate financial reports — then using those reports to make business decisions and file taxes. The software automates the mechanical work; you provide the judgment calls (Is this expense a "marketing" or "office" cost? Should I upgrade to accrual-basis accounting?).</p>
 
-<p>Tools like <a href="/accounting">Invoicemonk</a> connect to your bank account, auto-import transactions, and generate the income statements and balance sheets that used to require a professional to produce. That's what makes DIY accounting viable for millions of small businesses today.</p>
+<p>Tools like <a href="/en/accounting">Invoicemonk</a> connect to your bank account, auto-import transactions, and generate the income statements and balance sheets that used to require a professional to produce. That's what makes DIY accounting viable for millions of small businesses today.</p>
 
 <h2>When DIY Accounting Makes Sense</h2>
 
-<p><strong>You're a solo operator or freelancer.</strong> With one revenue stream, a business bank account, and straightforward expenses, your accounting complexity is low. Learning the <a href="/blog/bookkeeping-basics-beginners">bookkeeping basics</a> takes a few hours; maintaining the system takes 15-30 minutes per week.</p>
+<p><strong>You're a solo operator or freelancer.</strong> With one revenue stream, a business bank account, and straightforward expenses, your accounting complexity is low. Learning the <a href="/en/blog/bookkeeping-basics-beginners">bookkeeping basics</a> takes a few hours; maintaining the system takes 15-30 minutes per week.</p>
 
 <p><strong>Your revenue is under $200K–$300K.</strong> Below this threshold, transaction volume is manageable and tax situations tend to be simpler. You're unlikely to need complex depreciation schedules, multi-state tax filings, or inventory costing.</p>
 
@@ -14275,7 +14280,7 @@ Thank you for your business!
 
 <p>The most common and cost-effective strategy combines DIY daily bookkeeping with periodic professional oversight. Here's how it works:</p>
 
-<p><strong>You handle:</strong> day-to-day transaction recording, receipt scanning, invoice creation, expense categorisation, and monthly bank reconciliation using <a href="/accounting">accounting software</a>.</p>
+<p><strong>You handle:</strong> day-to-day transaction recording, receipt scanning, invoice creation, expense categorisation, and monthly bank reconciliation using <a href="/en/accounting">accounting software</a>.</p>
 
 <p><strong>Your accountant handles:</strong> quarterly financial reviews, tax planning strategy, annual tax preparation and filing, and any complex transactions (asset purchases, loan restructuring, business entity changes).</p>
 
@@ -14283,13 +14288,13 @@ Thank you for your business!
 
 <h2>How to Set Yourself Up for DIY Success</h2>
 
-<p><strong>1. Separate your finances.</strong> Open a business bank account and business credit card. This is step one, and it's non-negotiable. Learn why in our guide to <a href="/blog/separate-business-personal-expenses">separating business and personal expenses</a>.</p>
+<p><strong>1. Separate your finances.</strong> Open a business bank account and business credit card. This is step one, and it's non-negotiable. Learn why in our guide to <a href="/en/blog/separate-business-personal-expenses">separating business and personal expenses</a>.</p>
 
-<p><strong>2. Choose the right software.</strong> You need a tool that connects to your bank, categorises transactions, and generates at minimum an income statement, balance sheet, and cash-flow report. <a href="/accounting">Invoicemonk</a> handles all of this and integrates <a href="/invoicing">invoicing</a> and <a href="/expenses">expense tracking</a> into one platform, so you aren't stitching together multiple tools.</p>
+<p><strong>2. Choose the right software.</strong> You need a tool that connects to your bank, categorises transactions, and generates at minimum an income statement, balance sheet, and cash-flow report. <a href="/en/accounting">Invoicemonk</a> handles all of this and integrates <a href="/en/invoicing">invoicing</a> and <a href="/en/expenses">expense tracking</a> into one platform, so you aren't stitching together multiple tools.</p>
 
-<p><strong>3. Learn the basics.</strong> Read our <a href="/blog/accounting-101-small-business-owners">Accounting 101</a> and <a href="/blog/bookkeeping-basics-beginners">Bookkeeping Basics</a> guides. Understanding revenue vs. profit, assets vs. liabilities, and cash vs. accrual accounting gives you the vocabulary to interpret your own reports and communicate with a tax professional when needed.</p>
+<p><strong>3. Learn the basics.</strong> Read our <a href="/en/blog/accounting-101-small-business-owners">Accounting 101</a> and <a href="/en/blog/bookkeeping-basics-beginners">Bookkeeping Basics</a> guides. Understanding revenue vs. profit, assets vs. liabilities, and cash vs. accrual accounting gives you the vocabulary to interpret your own reports and communicate with a tax professional when needed.</p>
 
-<p><strong>4. Build a routine.</strong> 15 minutes daily or one hour weekly — pick a cadence and protect it. Consistency prevents the "six months of unfiled receipts" problem that makes DIY accounting feel impossible. Our <a href="/blog/monthly-financial-review-checklist">monthly review checklist</a> provides a structured framework.</p>
+<p><strong>4. Build a routine.</strong> 15 minutes daily or one hour weekly — pick a cadence and protect it. Consistency prevents the "six months of unfiled receipts" problem that makes DIY accounting feel impossible. Our <a href="/en/blog/monthly-financial-review-checklist">monthly review checklist</a> provides a structured framework.</p>
 
 <p><strong>5. Know your limits.</strong> You don't need to know everything. If a transaction confuses you — a partial refund, a barter arrangement, an asset depreciation question — flag it and ask your accountant at the next quarterly review. The goal is accurate daily recording, not perfect accounting theory.</p>
 
@@ -14301,7 +14306,7 @@ Thank you for your business!
 
 <h2>The Bottom Line</h2>
 
-<p>Yes, you can do your own business accounting — and for many small businesses, you should. Modern <a href="/accounting">accounting software</a> has made it practical for non-accountants to maintain accurate, tax-ready books. Start with the basics, build a consistent routine, and bring in professional help strategically as your business grows. The goal isn't to replace accountants; it's to be a financially informed business owner who knows exactly where your money is going.</p>
+<p>Yes, you can do your own business accounting — and for many small businesses, you should. Modern <a href="/en/accounting">accounting software</a> has made it practical for non-accountants to maintain accurate, tax-ready books. Start with the basics, build a consistent routine, and bring in professional help strategically as your business grows. The goal isn't to replace accountants; it's to be a financially informed business owner who knows exactly where your money is going.</p>
 `,
     relatedTools: [
           {
@@ -14361,7 +14366,7 @@ Thank you for your business!
 
 <p><strong>3. Receiving bank fee:</strong> The recipient's bank may charge an incoming wire fee. Some banks waive this for business accounts; others charge $5–$20.</p>
 
-<p><strong>4. Exchange-rate markup:</strong> This is the largest hidden cost. Banks typically add 1–4% to the mid-market exchange rate. On a $10,000 transfer, a 3% markup costs $300 — more than the combined flat fees. Compare rates against XE.com or Google before accepting any bank's exchange rate. For a deeper dive, see our guide on <a href="/blog/currency-conversion-international-payments">how currency conversion works</a>.</p>
+<p><strong>4. Exchange-rate markup:</strong> This is the largest hidden cost. Banks typically add 1–4% to the mid-market exchange rate. On a $10,000 transfer, a 3% markup costs $300 — more than the combined flat fees. Compare rates against XE.com or Google before accepting any bank's exchange rate. For a deeper dive, see our guide on <a href="/en/blog/currency-conversion-international-payments">how currency conversion works</a>.</p>
 
 <h2>Fee Instructions: OUR, SHA, and BEN</h2>
 
@@ -14373,7 +14378,7 @@ Thank you for your business!
 
 <p><strong>BEN (Beneficiary):</strong> All fees are deducted from the transfer amount. The sender pays nothing extra, but the recipient can lose a significant portion to accumulated fees. This is rarely ideal for business relationships.</p>
 
-<p>If you're invoicing a client, specifying "SHA" in your <a href="/blog/invoice-payment-terms-net-30-60-90">payment terms</a> sets clear expectations about fee responsibility.</p>
+<p>If you're invoicing a client, specifying "SHA" in your <a href="/en/blog/invoice-payment-terms-net-30-60-90">payment terms</a> sets clear expectations about fee responsibility.</p>
 
 <h2>Strategies to Reduce Wire-Transfer Fees</h2>
 
@@ -14381,7 +14386,7 @@ Thank you for your business!
 
 <p>Platforms like Wise (formerly TransferWise), Payoneer, and dedicated business payment solutions bypass the traditional SWIFT corridor for many routes. They use local bank networks in both countries, eliminating correspondent-bank fees and offering exchange rates within 0.3–0.7% of the mid-market rate — compared to 1–4% from traditional banks.</p>
 
-<p>Use our <a href="/international-payment-fee-calculator">international payment fee calculator</a> to compare costs across platforms for your specific transfer route. For a direct comparison of two popular options, see <a href="/paypal-vs-wise-fees">PayPal vs. Wise fees</a>.</p>
+<p>Use our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a> to compare costs across platforms for your specific transfer route. For a direct comparison of two popular options, see <a href="/en/paypal-vs-wise-fees">PayPal vs. Wise fees</a>.</p>
 
 <h3>2. Batch Smaller Payments</h3>
 
@@ -14389,7 +14394,7 @@ Thank you for your business!
 
 <h3>3. Invoice in the Recipient's Currency</h3>
 
-<p>When you <a href="/use-cases/multi-currency-invoicing">invoice in your client's currency</a>, they can pay via local bank transfer in their country, and you receive funds into a multi-currency account. This eliminates the SWIFT chain entirely for supported currency corridors. <a href="/invoicing">Invoicemonk</a> supports multi-currency invoicing with automatic exchange-rate display.</p>
+<p>When you <a href="/en/use-cases/multi-currency-invoicing">invoice in your client's currency</a>, they can pay via local bank transfer in their country, and you receive funds into a multi-currency account. This eliminates the SWIFT chain entirely for supported currency corridors. <a href="/en/invoicing">Invoicemonk</a> supports multi-currency invoicing with automatic exchange-rate display.</p>
 
 <h3>4. Negotiate with Your Bank</h3>
 
@@ -14397,7 +14402,7 @@ Thank you for your business!
 
 <h3>5. Consider Local Payment Rails</h3>
 
-<p>For certain corridors — US to UK, EU to EU, within SEPA — local payment networks (ACH, Faster Payments, SEPA Credit Transfer) are dramatically cheaper than SWIFT. If both sender and recipient have accounts in the same payment network's region, these transfers can be free or near-free. Check which local rails are available with our <a href="/receive-currency-in-country">country payment guide</a>.</p>
+<p>For certain corridors — US to UK, EU to EU, within SEPA — local payment networks (ACH, Faster Payments, SEPA Credit Transfer) are dramatically cheaper than SWIFT. If both sender and recipient have accounts in the same payment network's region, these transfers can be free or near-free. Check which local rails are available with our <a href="/en/receive-currency-in-country">country payment guide</a>.</p>
 
 <h2>Comparing Your Options</h2>
 
@@ -14411,13 +14416,13 @@ Thank you for your business!
 
 <p><strong>Standard bank wire (no negotiation):</strong> $40–$65 plus 2–4% exchange markup, 3–5 business days.</p>
 
-<p>For a personalised comparison, run your specific numbers through our <a href="/international-payment-fee-calculator">fee calculator</a>.</p>
+<p>For a personalised comparison, run your specific numbers through our <a href="/en/international-payment-fee-calculator">fee calculator</a>.</p>
 
 <h2>Recording Wire-Transfer Fees in Your Books</h2>
 
-<p>Wire-transfer fees are a legitimate business expense. Record them in a "Bank Fees" or "Payment Processing Fees" category in your <a href="/blog/chart-of-accounts-for-small-business">chart of accounts</a>. Exchange-rate differences should be recorded as "Foreign Exchange Gain/Loss." Tracking these separately helps you quantify how much international payments actually cost and whether switching platforms would save money.</p>
+<p>Wire-transfer fees are a legitimate business expense. Record them in a "Bank Fees" or "Payment Processing Fees" category in your <a href="/en/blog/chart-of-accounts-for-small-business">chart of accounts</a>. Exchange-rate differences should be recorded as "Foreign Exchange Gain/Loss." Tracking these separately helps you quantify how much international payments actually cost and whether switching platforms would save money.</p>
 
-<p><a href="/accounting">Invoicemonk's accounting module</a> can automatically categorise these fees when they appear in your bank feed, making the bookkeeping seamless.</p>
+<p><a href="/en/accounting">Invoicemonk's accounting module</a> can automatically categorise these fees when they appear in your bank feed, making the bookkeeping seamless.</p>
 
 <h2>Wire Transfer Fee Comparison Table</h2>
 
@@ -14443,18 +14448,18 @@ Thank you for your business!
   </tbody>
 </table>
 
-<p><em>Costs are approximate and vary by corridor, currency pair, and account type. Use our <a href="/international-payment-fee-calculator">international payment fee calculator</a> for exact costs on your specific route.</em></p>
+<p><em>Costs are approximate and vary by corridor, currency pair, and account type. Use our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a> for exact costs on your specific route.</em></p>
 
 <h2>Key Takeaway</h2>
 
-<p>The biggest savings come from two changes: switching from traditional bank wires to a multi-currency platform for most transfers, and invoicing in your client's local currency whenever possible. Together, these can reduce your international payment costs by 50–80%. Start by running your most common transfer routes through our <a href="/international-payment-fee-calculator">fee calculator</a> to see exactly how much you could save.</p>
+<p>The biggest savings come from two changes: switching from traditional bank wires to a multi-currency platform for most transfers, and invoicing in your client's local currency whenever possible. Together, these can reduce your international payment costs by 50–80%. Start by running your most common transfer routes through our <a href="/en/international-payment-fee-calculator">fee calculator</a> to see exactly how much you could save.</p>
 
 <h2>Related Resources</h2>
 <ul>
-  <li><a href="/blog/currency-conversion-international-payments">How Currency Conversion Works in International Transfers</a></li>
-  <li><a href="/paypal-vs-wise-fees">PayPal vs. Wise: Real Fee Comparison</a></li>
-  <li><a href="/cheapest-way-to-receive-international-payments">Cheapest Way to Receive International Payments</a></li>
-  <li><a href="/use-cases/multi-currency-invoicing">Multi-Currency Invoicing Guide</a></li>
+  <li><a href="/en/blog/currency-conversion-international-payments">How Currency Conversion Works in International Transfers</a></li>
+  <li><a href="/en/paypal-vs-wise-fees">PayPal vs. Wise: Real Fee Comparison</a></li>
+  <li><a href="/en/cheapest-way-to-receive-international-payments">Cheapest Way to Receive International Payments</a></li>
+  <li><a href="/en/use-cases/multi-currency-invoicing">Multi-Currency Invoicing Guide</a></li>
 </ul>
 `,
     faq: [
@@ -14523,7 +14528,7 @@ Thank you for your business!
 
 <p><strong>Scenario 1: Sender's bank converts.</strong> Your client's bank converts GBP to USD before sending the transfer. The client pays their bank's exchange rate (typically 1.5–3% markup).</p>
 
-<p><strong>Scenario 2: Recipient's bank converts.</strong> The transfer arrives in GBP, and your bank converts it to USD at their rate (another 1.5–3% markup). This is the default for many standard <a href="/blog/international-wire-transfer-fees-guide">wire transfers</a>.</p>
+<p><strong>Scenario 2: Recipient's bank converts.</strong> The transfer arrives in GBP, and your bank converts it to USD at their rate (another 1.5–3% markup). This is the default for many standard <a href="/en/blog/international-wire-transfer-fees-guide">wire transfers</a>.</p>
 
 <p><strong>Scenario 3: Double conversion.</strong> The worst case. If neither bank can directly convert between the two currencies, the money is first converted to an intermediary currency (usually USD or EUR), then converted again to the target currency. Each conversion incurs a markup. This is common for less-traded currency pairs like NGN/AUD or THB/CZK.</p>
 
@@ -14537,7 +14542,7 @@ Thank you for your business!
 
 <h3>2. Use Platforms with Transparent Pricing</h3>
 
-<p>Some platforms display their markup explicitly (e.g., "0.5% conversion fee + mid-market rate"). Others hide it in an opaque "exchange rate" with no reference to the mid-market rate. Transparent pricing is almost always cheaper because companies that hide their margins tend to have higher margins. Compare platforms with our <a href="/international-payment-fee-calculator">fee calculator</a>.</p>
+<p>Some platforms display their markup explicitly (e.g., "0.5% conversion fee + mid-market rate"). Others hide it in an opaque "exchange rate" with no reference to the mid-market rate. Transparent pricing is almost always cheaper because companies that hide their margins tend to have higher margins. Compare platforms with our <a href="/en/international-payment-fee-calculator">fee calculator</a>.</p>
 
 <h3>3. Hold and Convert at Optimal Times</h3>
 
@@ -14545,11 +14550,11 @@ Thank you for your business!
 
 <h3>4. Invoice in Your Client's Currency</h3>
 
-<p>When you <a href="/use-cases/multi-currency-invoicing">invoice in your client's local currency</a>, they pay via a domestic transfer (no conversion on their end), and you control when and how conversion happens on your side. <a href="/invoicing">Invoicemonk</a> supports multi-currency invoicing and displays real-time exchange rates so both parties know exactly what to expect.</p>
+<p>When you <a href="/en/use-cases/multi-currency-invoicing">invoice in your client's local currency</a>, they pay via a domestic transfer (no conversion on their end), and you control when and how conversion happens on your side. <a href="/en/invoicing">Invoicemonk</a> supports multi-currency invoicing and displays real-time exchange rates so both parties know exactly what to expect.</p>
 
 <h3>5. Avoid Double Conversion</h3>
 
-<p>If you can, choose a payment method that converts directly between the two currencies involved. If direct conversion isn't available for your <strong>currency pair</strong>, use a platform that at least converts through a single intermediary (typically USD or EUR) rather than a chain of conversions. Check our <a href="/cheapest-way-to-receive-international-payments">cheapest international payments</a> tool for the best routes for your specific corridors.</p>
+<p>If you can, choose a payment method that converts directly between the two currencies involved. If direct conversion isn't available for your <strong>currency pair</strong>, use a platform that at least converts through a single intermediary (typically USD or EUR) rather than a chain of conversions. Check our <a href="/en/cheapest-way-to-receive-international-payments">cheapest international payments</a> tool for the best routes for your specific corridors.</p>
 
 <h2>Exchange Rate Markups by Provider Type</h2>
 
@@ -14557,7 +14562,7 @@ Thank you for your business!
 
 <p><strong>Traditional banks:</strong> 1.5–4% markup. Often presented as a "competitive rate" with no reference to the mid-market rate. Best for domestic banking; expensive for international transfers.</p>
 
-<p><strong>PayPal / Stripe:</strong> 2.5–4% above mid-market for currency conversion. Convenient for small amounts; expensive at scale. See our detailed <a href="/paypal-vs-wise-fees">PayPal vs. Wise comparison</a>.</p>
+<p><strong>PayPal / Stripe:</strong> 2.5–4% above mid-market for currency conversion. Convenient for small amounts; expensive at scale. See our detailed <a href="/en/paypal-vs-wise-fees">PayPal vs. Wise comparison</a>.</p>
 
 <p><strong>Multi-currency platforms (Wise, Payoneer):</strong> 0.3–1.5% above mid-market. The best rates for most business transfers. Some offer rate locks and forward contracts for larger amounts.</p>
 
@@ -14565,13 +14570,13 @@ Thank you for your business!
 
 <h2>Recording Exchange Rates in Your Accounting</h2>
 
-<p>If you send or receive payments in foreign currencies, your <a href="/blog/accounting-101-small-business-owners">accounting</a> needs to track: the original invoice amount in the foreign currency, the exchange rate used for conversion, the amount received in your home currency, and any foreign-exchange gain or loss (the difference between the rate when you invoiced and the rate when you received payment).</p>
+<p>If you send or receive payments in foreign currencies, your <a href="/en/blog/accounting-101-small-business-owners">accounting</a> needs to track: the original invoice amount in the foreign currency, the exchange rate used for conversion, the amount received in your home currency, and any foreign-exchange gain or loss (the difference between the rate when you invoiced and the rate when you received payment).</p>
 
-<p><a href="/accounting">Invoicemonk</a> handles this automatically when you create multi-currency invoices, recording the exchange rate at invoice time and reconciling it against the actual rate when payment arrives.</p>
+<p><a href="/en/accounting">Invoicemonk</a> handles this automatically when you create multi-currency invoices, recording the exchange rate at invoice time and reconciling it against the actual rate when payment arrives.</p>
 
 <h2>Key Takeaway</h2>
 
-<p>Currency conversion is the largest hidden cost in international payments. The single most impactful action you can take is to compare your current provider's exchange rate against the mid-market rate — and switch if the markup exceeds 1%. Use our <a href="/international-payment-fee-calculator">international payment fee calculator</a> to run the numbers for your specific transfer routes.</p>
+<p>Currency conversion is the largest hidden cost in international payments. The single most impactful action you can take is to compare your current provider's exchange rate against the mid-market rate — and switch if the markup exceeds 1%. Use our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a> to run the numbers for your specific transfer routes.</p>
 `,
     faq: [
       { question: 'How much does an international wire transfer cost?', answer: 'A typical international SWIFT wire transfer costs $25-$65 in bank fees plus a 1-4% exchange rate markup. For a $5,000 transfer, total costs can reach $250+. Platforms like Wise reduce this to $5-$15 plus a 0.3-0.7% markup.' },
@@ -14635,19 +14640,19 @@ Thank you for your business!
 <p>Invoices aren't just formalities — they serve critical functions for your business:</p>
 
 <h3>1. Legal Protection</h3>
-<p>An invoice creates a documented record of what was agreed upon and delivered. If there's ever a dispute about payment or services, your invoice serves as evidence of the transaction. In most jurisdictions, an invoice is a legally enforceable document — particularly when it includes a unique number, tax identification, and clear <a href="/blog/how-to-write-invoice-payment-terms">payment terms</a>.</p>
+<p>An invoice creates a documented record of what was agreed upon and delivered. If there's ever a dispute about payment or services, your invoice serves as evidence of the transaction. In most jurisdictions, an invoice is a legally enforceable document — particularly when it includes a unique number, tax identification, and clear <a href="/en/blog/how-to-write-invoice-payment-terms">payment terms</a>.</p>
 
 <h3>2. Getting Paid</h3>
 <p>This might seem obvious, but without a formal invoice, getting paid becomes much harder. A well-structured invoice gives clients all the information they need to process payment quickly.</p>
 
 <h3>3. Tax Compliance</h3>
-<p>Tax authorities worldwide require documentation of business income and expenses. In VAT/GST countries, you generally <em>cannot</em> claim tax credits without a valid tax invoice. Invoices provide the paper trail needed for accurate tax reporting and audit readiness. See our <a href="/compliance">compliance guides</a> for country-specific requirements.</p>
+<p>Tax authorities worldwide require documentation of business income and expenses. In VAT/GST countries, you generally <em>cannot</em> claim tax credits without a valid tax invoice. Invoices provide the paper trail needed for accurate tax reporting and audit readiness. See our <a href="/en/compliance">compliance guides</a> for country-specific requirements.</p>
 
 <h3>4. Business Organization</h3>
 <p>Invoices help you track what you've sold, to whom, and whether you've been paid. This data is essential for <a href="/glossary?term=cash-flow">cash flow management</a> and business planning.</p>
 
 <h3>5. Professional Image</h3>
-<p>A well-designed invoice reflects professionalism and builds trust with clients. It's often the last impression before payment, reinforcing the quality of your work. Research shows that <a href="/blog/branded-invoice-design-best-practices">branded invoices</a> get paid up to 3x faster than generic ones.</p>
+<p>A well-designed invoice reflects professionalism and builds trust with clients. It's often the last impression before payment, reinforcing the quality of your work. Research shows that <a href="/en/blog/branded-invoice-design-best-practices">branded invoices</a> get paid up to 3x faster than generic ones.</p>
 
 <h2>Real-World Invoice Example</h2>
 <p>Here's what a typical freelance invoice looks like in practice:</p>
@@ -14707,7 +14712,7 @@ Thank you for your business!
 
 <p><strong>Payment terms:</strong> Net 30. Bank transfer to BSB 062-000, Account 12345678, or pay online at invoicemonk.com/pay/INV-2026-042.</p>
 
-<p>Notice how this example includes every <a href="/blog/essential-elements-of-an-invoice">essential element</a>: unique invoice number, dates, business details, line items with clear descriptions, tax, total, and payment instructions. Creating invoices like this is effortless with <a href="/invoicing">Invoicemonk's invoice generator</a>.</p>
+<p>Notice how this example includes every <a href="/en/blog/essential-elements-of-an-invoice">essential element</a>: unique invoice number, dates, business details, line items with clear descriptions, tax, total, and payment instructions. Creating invoices like this is effortless with <a href="/en/invoicing">Invoicemonk's invoice generator</a>.</p>
 
 <h2>The Invoice Lifecycle: How Invoicing Actually Works</h2>
 <p>Understanding the full invoice lifecycle helps you see where invoices fit in the business transaction process:</p>
@@ -14720,10 +14725,10 @@ Thank you for your business!
   <li><strong>Payment processing:</strong> The client processes the invoice through their accounts payable system.</li>
   <li><strong>Payment received:</strong> Money arrives in your account. The invoice is marked as <strong>paid</strong>.</li>
   <li><strong>Receipt issued:</strong> You send a receipt confirming payment — <em>"Thank you, payment received."</em></li>
-  <li><strong>Reconciliation:</strong> Both parties reconcile the transaction in their <a href="/accounting">accounting records</a>.</li>
+  <li><strong>Reconciliation:</strong> Both parties reconcile the transaction in their <a href="/en/accounting">accounting records</a>.</li>
 </ol>
 
-<p>For longer projects, steps 3–6 repeat at each <a href="/use-cases/milestone-billing">milestone</a>. For retainer clients, step 4 happens automatically with <a href="/use-cases/recurring-billing">recurring invoicing</a>.</p>
+<p>For longer projects, steps 3–6 repeat at each <a href="/en/use-cases/milestone-billing">milestone</a>. For retainer clients, step 4 happens automatically with <a href="/en/use-cases/recurring-billing">recurring invoicing</a>.</p>
 
 <h2>Invoice vs. Receipt: What's the Difference?</h2>
 <p>People often confuse invoices with receipts, but they serve different purposes:</p>
@@ -14765,7 +14770,7 @@ Thank you for your business!
   </tbody>
 </table>
 
-<p><strong>Simple rule:</strong> You send an invoice to ask for money. You give a <a href="/receipts">receipt</a> to confirm you received money.</p>
+<p><strong>Simple rule:</strong> You send an invoice to ask for money. You give a <a href="/en/receipts">receipt</a> to confirm you received money.</p>
 
 <h2>Invoice vs. Bill: Are They the Same?</h2>
 <p>This is where it gets interesting — invoice and bill can mean the same thing, but the perspective differs:</p>
@@ -14776,12 +14781,12 @@ Thank you for your business!
 <p>So the same document can be an invoice from the seller's perspective and a bill from the buyer's perspective. In accounting, when you receive an invoice from a supplier, it creates an <em>accounts payable</em> entry in your books. Understanding this distinction matters for accounting accuracy and clear communication with clients and suppliers.</p>
 
 <h2>Invoice vs. Quote (Estimate)</h2>
-<p>Before you do the work, you might provide a <strong>quote</strong> or <strong><a href="/estimates">estimate</a></strong> — this tells the client what the work will cost. After you complete the work, you send an <strong>invoice</strong> for the actual amount owed.</p>
+<p>Before you do the work, you might provide a <strong>quote</strong> or <strong><a href="/en/estimates">estimate</a></strong> — this tells the client what the work will cost. After you complete the work, you send an <strong>invoice</strong> for the actual amount owed.</p>
 <ul>
   <li><strong>Quote/Estimate:</strong> "This is what it will cost" (before work)</li>
   <li><strong>Invoice:</strong> "This is what you owe" (after work)</li>
 </ul>
-<p>Quotes aren't binding requests for payment — they're proposals. Invoices are formal payment demands. With <a href="/estimates">Invoicemonk</a>, you can convert an approved quote into an invoice with one click.</p>
+<p>Quotes aren't binding requests for payment — they're proposals. Invoices are formal payment demands. With <a href="/en/estimates">Invoicemonk</a>, you can convert an approved quote into an invoice with one click.</p>
 
 <h2>Invoice vs. Purchase Order</h2>
 <p>A <strong>purchase order (PO)</strong> is a document sent by the <em>buyer</em> to the seller, authorizing a purchase. It works in the opposite direction from an invoice:</p>
@@ -14792,7 +14797,7 @@ Thank you for your business!
 <p>In corporate B2B transactions, the buyer issues a PO first, the seller fulfils the order, then the seller sends an invoice referencing the PO number. Including the PO number on your invoice dramatically speeds up payment — corporate accounts payable teams often can't process invoices without one.</p>
 
 <h2>What Should an Invoice Include?</h2>
-<p>A professional invoice contains these <a href="/blog/essential-elements-of-an-invoice">essential elements</a>:</p>
+<p>A professional invoice contains these <a href="/en/blog/essential-elements-of-an-invoice">essential elements</a>:</p>
 
 <h3>Your Business Information</h3>
 <ul>
@@ -14810,10 +14815,10 @@ Thank you for your business!
 
 <h3>Invoice Details</h3>
 <ul>
-  <li><strong>Invoice number:</strong> Unique identifier for tracking — see <a href="/blog/invoice-numbering-systems-best-practices">numbering best practices</a></li>
+  <li><strong>Invoice number:</strong> Unique identifier for tracking — see <a href="/en/blog/invoice-numbering-systems-best-practices">numbering best practices</a></li>
   <li><strong>Invoice date:</strong> When you're issuing the invoice</li>
   <li><strong>Due date:</strong> When payment is expected</li>
-  <li><strong>Currency:</strong> Essential for <a href="/use-cases/multi-currency-invoicing">international invoicing</a></li>
+  <li><strong>Currency:</strong> Essential for <a href="/en/use-cases/multi-currency-invoicing">international invoicing</a></li>
 </ul>
 
 <h3>Line Items</h3>
@@ -14836,7 +14841,7 @@ Thank you for your business!
 <ul>
   <li>Accepted payment methods</li>
   <li>Bank details or online payment link</li>
-  <li><a href="/blog/how-to-write-invoice-payment-terms">Payment terms</a> (e.g., "Net 30", "Due on Receipt")</li>
+  <li><a href="/en/blog/how-to-write-invoice-payment-terms">Payment terms</a> (e.g., "Net 30", "Due on Receipt")</li>
   <li>Late fee policy (if applicable)</li>
 </ul>
 
@@ -14848,53 +14853,53 @@ Thank you for your business!
 <p><strong>When to use:</strong> One-time projects, product sales, completed service engagements.</p>
 
 <h3>Proforma Invoice</h3>
-<p>A <strong><a href="/blog/proforma-invoice-vs-commercial-invoice">proforma invoice</a></strong> is a preliminary document sent before work begins or goods ship. It's essentially a "preview invoice" that shows the expected charges, taxes, and terms. It's not a demand for payment — it's more like a detailed quote formatted as an invoice. Proforma invoices are commonly used in international trade to help buyers arrange financing or import licences before goods ship.</p>
+<p>A <strong><a href="/en/blog/proforma-invoice-vs-commercial-invoice">proforma invoice</a></strong> is a preliminary document sent before work begins or goods ship. It's essentially a "preview invoice" that shows the expected charges, taxes, and terms. It's not a demand for payment — it's more like a detailed quote formatted as an invoice. Proforma invoices are commonly used in international trade to help buyers arrange financing or import licences before goods ship.</p>
 <p><strong>When to use:</strong> International trade (customs), deposit requests, client budget approvals.</p>
 
 <h3>Recurring Invoice</h3>
-<p>An invoice that automatically generates on a regular schedule — perfect for subscriptions, retainers, or ongoing services. <a href="/use-cases/recurring-billing">Recurring billing</a> eliminates the tedium of creating the same invoice every month. <a href="/invoicing">Invoicemonk</a> supports automated recurring invoicing with customisable schedules.</p>
+<p>An invoice that automatically generates on a regular schedule — perfect for subscriptions, retainers, or ongoing services. <a href="/en/use-cases/recurring-billing">Recurring billing</a> eliminates the tedium of creating the same invoice every month. <a href="/en/invoicing">Invoicemonk</a> supports automated recurring invoicing with customisable schedules.</p>
 <p><strong>When to use:</strong> Monthly retainers, SaaS subscriptions, ongoing maintenance contracts, rent.</p>
 
 <h3>Credit Invoice (Credit Note)</h3>
-<p>A <strong><a href="/blog/credit-notes-and-invoice-corrections">credit note</a></strong> is a negative invoice that reduces the amount owed on a previous invoice — for example, if goods were returned, a service was partially delivered, or there was a billing error. Rather than editing or deleting the original invoice (which would break your audit trail), you issue a credit note that references the original and reduces the balance. This keeps your books clean and compliant.</p>
+<p>A <strong><a href="/en/blog/credit-notes-and-invoice-corrections">credit note</a></strong> is a negative invoice that reduces the amount owed on a previous invoice — for example, if goods were returned, a service was partially delivered, or there was a billing error. Rather than editing or deleting the original invoice (which would break your audit trail), you issue a credit note that references the original and reduces the balance. This keeps your books clean and compliant.</p>
 <p><strong>When to use:</strong> Refunds, pricing corrections, returned goods, negotiated discounts after invoicing.</p>
 
 <h3>Interim (Progress) Invoice</h3>
 <p>Issued at milestones during a long project, allowing you to bill for work completed so far rather than waiting until the entire project is done.</p>
-<p><strong>When to use:</strong> Construction projects, large design engagements, software development, any project spanning 2+ months. See <a href="/use-cases/milestone-billing">milestone billing</a>.</p>
+<p><strong>When to use:</strong> Construction projects, large design engagements, software development, any project spanning 2+ months. See <a href="/en/use-cases/milestone-billing">milestone billing</a>.</p>
 
 <h3>Time-Based Invoice</h3>
-<p>Used by consultants, lawyers, and freelancers who bill by the hour. Line items show hours worked, hourly rate, and task descriptions. Accurate <a href="/blog/time-tracking-accurate-invoicing">time tracking</a> is essential for this invoice type.</p>
+<p>Used by consultants, lawyers, and freelancers who bill by the hour. Line items show hours worked, hourly rate, and task descriptions. Accurate <a href="/en/blog/time-tracking-accurate-invoicing">time tracking</a> is essential for this invoice type.</p>
 
 <h3>Past Due Invoice</h3>
-<p>An invoice that has gone past its payment due date. These often include updated language, late fees, or revised payment terms. For strategies on handling late payments, see our <a href="/blog/payment-reminder-email-templates">payment reminder templates</a>.</p>
+<p>An invoice that has gone past its payment due date. These often include updated language, late fees, or revised payment terms. For strategies on handling late payments, see our <a href="/en/blog/payment-reminder-email-templates">payment reminder templates</a>.</p>
 
 <h3>Commercial Invoice</h3>
-<p>A specific type of invoice used in international trade. It's required by customs authorities and includes additional details like country of origin, harmonised system (HS) codes, and shipping terms (Incoterms). If you ship physical goods across borders, you'll need these. For a detailed comparison, see <a href="/blog/proforma-invoice-vs-commercial-invoice">proforma vs. commercial invoices</a>.</p>
+<p>A specific type of invoice used in international trade. It's required by customs authorities and includes additional details like country of origin, harmonised system (HS) codes, and shipping terms (Incoterms). If you ship physical goods across borders, you'll need these. For a detailed comparison, see <a href="/en/blog/proforma-invoice-vs-commercial-invoice">proforma vs. commercial invoices</a>.</p>
 
 <h2>When to Use Each Invoice Type</h2>
 
 <p><strong>One-off projects or product sales:</strong> Standard invoice.</p>
 <p><strong>International shipments:</strong> Proforma invoice (before shipping) + commercial invoice (with shipment).</p>
-<p><strong>Monthly retainers or subscriptions:</strong> Recurring invoice via <a href="/use-cases/recurring-billing">automated billing</a>.</p>
+<p><strong>Monthly retainers or subscriptions:</strong> Recurring invoice via <a href="/en/use-cases/recurring-billing">automated billing</a>.</p>
 <p><strong>Corrections or returns:</strong> Credit note referencing the original invoice.</p>
 <p><strong>Hourly consulting or legal work:</strong> Time-based invoice with detailed time entries.</p>
-<p><strong>Milestone-based projects:</strong> Standard invoices at each <a href="/use-cases/milestone-billing">milestone</a>, with the milestone described in the line items.</p>
+<p><strong>Milestone-based projects:</strong> Standard invoices at each <a href="/en/use-cases/milestone-billing">milestone</a>, with the milestone described in the line items.</p>
 
 <h2>Invoicing by Industry: How It Differs</h2>
 <p>While the core concept is the same, invoicing practices vary significantly by industry:</p>
 
 <h3>Freelancers & Consultants</h3>
-<p>Typically invoice after project completion or monthly for hourly work. Key needs: time tracking integration, <a href="/use-cases/multi-currency-invoicing">multi-currency support</a> for international clients, and professional templates. See our <a href="/freelancers">freelancer invoicing guide</a>.</p>
+<p>Typically invoice after project completion or monthly for hourly work. Key needs: time tracking integration, <a href="/en/use-cases/multi-currency-invoicing">multi-currency support</a> for international clients, and professional templates. See our <a href="/en/freelancers">freelancer invoicing guide</a>.</p>
 
 <h3>Contractors & Tradespeople</h3>
-<p>Often use progress invoicing tied to project milestones (e.g., 30% deposit, 40% at rough-in, 30% at completion). Need mobile invoicing from job sites and detailed material/labour breakdowns. See <a href="/contractors">contractor invoicing</a>.</p>
+<p>Often use progress invoicing tied to project milestones (e.g., 30% deposit, 40% at rough-in, 30% at completion). Need mobile invoicing from job sites and detailed material/labour breakdowns. See <a href="/en/contractors">contractor invoicing</a>.</p>
 
 <h3>Agencies</h3>
-<p>Manage multiple clients with different billing models — retainers, project-based, and hourly. Need multi-project tracking and branded invoices per client. See <a href="/agencies">agency invoicing</a>.</p>
+<p>Manage multiple clients with different billing models — retainers, project-based, and hourly. Need multi-project tracking and branded invoices per client. See <a href="/en/agencies">agency invoicing</a>.</p>
 
 <h3>E-commerce</h3>
-<p>High-volume, automated invoicing triggered by orders. Need inventory integration, bulk invoicing, and tax compliance across multiple jurisdictions. See <a href="/ecommerce">e-commerce invoicing</a>.</p>
+<p>High-volume, automated invoicing triggered by orders. Need inventory integration, bulk invoicing, and tax compliance across multiple jurisdictions. See <a href="/en/ecommerce">e-commerce invoicing</a>.</p>
 
 <h2>Digital vs. Paper Invoices</h2>
 <p>The shift to digital invoicing is accelerating worldwide. Here's how they compare:</p>
@@ -14941,7 +14946,7 @@ Thank you for your business!
   </tbody>
 </table>
 
-<p>Many countries now mandate or incentivize e-invoicing. India's GST system, Brazil's NF-e, and the EU's Peppol network all require or encourage digital invoice formats. Even where not mandated, digital invoicing with online payment links (like those from <a href="/invoicing">Invoicemonk</a>) cuts average payment time from 30 days to under 14.</p>
+<p>Many countries now mandate or incentivize e-invoicing. India's GST system, Brazil's NF-e, and the EU's Peppol network all require or encourage digital invoice formats. Even where not mandated, digital invoicing with online payment links (like those from <a href="/en/invoicing">Invoicemonk</a>) cuts average payment time from 30 days to under 14.</p>
 
 <h2>International Invoicing Basics</h2>
 <p>If you work with clients in other countries, invoicing adds a few extra considerations:</p>
@@ -14949,8 +14954,8 @@ Thank you for your business!
   <li><strong>Currency:</strong> Invoice in the client's local currency or agree on a base currency. Multi-currency invoicing software handles conversion automatically</li>
   <li><strong>Tax:</strong> International B2B invoices are often zero-rated for VAT/GST (the "reverse charge" mechanism). Check the rules for your specific country pair</li>
   <li><strong>Language:</strong> While not always legally required, invoicing in the client's language improves clarity and payment speed</li>
-  <li><strong>Payment method:</strong> International bank transfers (SWIFT) carry high fees. Consider platforms like Wise or Payoneer — see our <a href="/international-payment-fee-calculator">fee calculator</a> to compare costs</li>
-  <li><strong>Compliance:</strong> Different countries have different required invoice fields. <a href="/blog/ato-invoice-requirements-australian-compliance">Australia requires ABN</a>, <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK requires VAT number</a>, India requires GSTIN and HSN codes</li>
+  <li><strong>Payment method:</strong> International bank transfers (SWIFT) carry high fees. Consider platforms like Wise or Payoneer — see our <a href="/en/international-payment-fee-calculator">fee calculator</a> to compare costs</li>
+  <li><strong>Compliance:</strong> Different countries have different required invoice fields. <a href="/en/blog/ato-invoice-requirements-australian-compliance">Australia requires ABN</a>, <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">UK requires VAT number</a>, India requires GSTIN and HSN codes</li>
 </ul>
 
 <h2>When Should You Send an Invoice?</h2>
@@ -14967,7 +14972,7 @@ Thank you for your business!
 <p>You have several options for creating invoices, from free to full-featured:</p>
 
 <h3>Option 1: Free Invoice Generator</h3>
-<p>Tools like <a href="/invoicing">Invoicemonk's invoice generator</a> let you create professional PDF invoices in under 2 minutes with no signup required. Perfect for your first invoice or occasional use.</p>
+<p>Tools like <a href="/en/invoicing">Invoicemonk's invoice generator</a> let you create professional PDF invoices in under 2 minutes with no signup required. Perfect for your first invoice or occasional use.</p>
 
 <h3>Option 2: Manual Templates</h3>
 <ul>
@@ -14977,36 +14982,36 @@ Thank you for your business!
 <p>These work for occasional invoices but become cumbersome as you grow — manual numbering, no payment tracking, and no reminders.</p>
 
 <h3>Option 3: Invoicing Software</h3>
-<p><a href="/invoicing">Professional invoicing software like Invoicemonk</a> offers significant advantages for regular invoicing:</p>
+<p><a href="/en/invoicing">Professional invoicing software like Invoicemonk</a> offers significant advantages for regular invoicing:</p>
 <ul>
   <li>Professional templates with your branding</li>
   <li>Automatic invoice numbering</li>
-  <li>Payment tracking and <a href="/blog/setting-up-automatic-payment-reminders">automated reminders</a></li>
+  <li>Payment tracking and <a href="/en/blog/setting-up-automatic-payment-reminders">automated reminders</a></li>
   <li>Online payment options for clients</li>
   <li>Tax calculations and reporting</li>
   <li>Client database for quick invoicing</li>
   <li>Multi-currency support</li>
-  <li>Integration with <a href="/accounting">accounting</a> and <a href="/expenses">expense tracking</a></li>
+  <li>Integration with <a href="/en/accounting">accounting</a> and <a href="/en/expenses">expense tracking</a></li>
 </ul>
-<p>For most businesses, dedicated invoicing software pays for itself in time saved and faster payments. See our <a href="/best-invoicing-software">comparison of the best invoicing software</a>.</p>
+<p>For most businesses, dedicated invoicing software pays for itself in time saved and faster payments. See our <a href="/en/best-invoicing-software">comparison of the best invoicing software</a>.</p>
 
 <h2>Common Invoice Mistakes to Avoid</h2>
 <p>These mistakes cause payment delays and look unprofessional:</p>
 <ul>
-  <li><strong>Missing or duplicate invoice numbers:</strong> This creates confusion for both parties and complicates accounting. Use a systematic <a href="/blog/invoice-numbering-systems-best-practices">numbering system</a> and let your software auto-increment</li>
+  <li><strong>Missing or duplicate invoice numbers:</strong> This creates confusion for both parties and complicates accounting. Use a systematic <a href="/en/blog/invoice-numbering-systems-best-practices">numbering system</a> and let your software auto-increment</li>
   <li><strong>Vague descriptions:</strong> "Services rendered" tells the client nothing. Be specific: "Website redesign — homepage, about page, and contact form (15 hours @ $100/hr)." Detailed descriptions reduce disputes and speed up approvals</li>
-  <li><strong>No payment terms or due date:</strong> Without a clear deadline, payment gets deprioritized. Always include explicit <a href="/blog/invoice-payment-terms-net-30-60-90">payment terms</a> and a specific date</li>
+  <li><strong>No payment terms or due date:</strong> Without a clear deadline, payment gets deprioritized. Always include explicit <a href="/en/blog/invoice-payment-terms-net-30-60-90">payment terms</a> and a specific date</li>
   <li><strong>Wrong calculations:</strong> Math errors undermine your professionalism. Use software that auto-calculates totals and tax</li>
-  <li><strong>Sending late:</strong> The longer you wait to invoice, the longer you wait to get paid. Invoice immediately upon delivery or completion. For tips on faster payments, read our <a href="/blog/ultimate-guide-getting-paid-faster">guide to getting paid faster</a></li>
+  <li><strong>Sending late:</strong> The longer you wait to invoice, the longer you wait to get paid. Invoice immediately upon delivery or completion. For tips on faster payments, read our <a href="/en/blog/ultimate-guide-getting-paid-faster">guide to getting paid faster</a></li>
   <li><strong>Difficult payment process:</strong> Every extra step reduces payment speed. Include a direct payment link — clients who can pay with one click pay 3x faster</li>
-  <li><strong>Not following up:</strong> 48% of invoices are paid late. Set up <a href="/blog/payment-reminder-email-templates">automated payment reminders</a> so overdue invoices don't fall through the cracks</li>
-  <li><strong>Missing information:</strong> Incomplete invoices trigger "can you resend?" emails and add days to payment. Always check your <a href="/blog/essential-elements-of-an-invoice">invoice checklist</a></li>
+  <li><strong>Not following up:</strong> 48% of invoices are paid late. Set up <a href="/en/blog/payment-reminder-email-templates">automated payment reminders</a> so overdue invoices don't fall through the cracks</li>
+  <li><strong>Missing information:</strong> Incomplete invoices trigger "can you resend?" emails and add days to payment. Always check your <a href="/en/blog/essential-elements-of-an-invoice">invoice checklist</a></li>
 </ul>
 
 <h2>Invoices and Your Accounting</h2>
-<p>Every invoice you issue creates an accounts-receivable entry in your books. When the client pays, that entry is cleared against your bank account. If you use <a href="/blog/cash-vs-accrual-accounting-explained">accrual accounting</a>, the revenue is recognised when the invoice is sent, not when payment is received. This distinction matters for accurate <a href="/blog/understanding-financial-reports-small-business">financial reporting</a> and tax obligations.</p>
+<p>Every invoice you issue creates an accounts-receivable entry in your books. When the client pays, that entry is cleared against your bank account. If you use <a href="/en/blog/cash-vs-accrual-accounting-explained">accrual accounting</a>, the revenue is recognised when the invoice is sent, not when payment is received. This distinction matters for accurate <a href="/en/blog/understanding-financial-reports-small-business">financial reporting</a> and tax obligations.</p>
 
-<p>Using an integrated platform like <a href="/invoicing">Invoicemonk</a> that connects invoicing to accounting means invoices automatically flow into your financial records — no double entry, no reconciliation headaches, no missed revenue.</p>
+<p>Using an integrated platform like <a href="/en/invoicing">Invoicemonk</a> that connects invoicing to accounting means invoices automatically flow into your financial records — no double entry, no reconciliation headaches, no missed revenue.</p>
 
 <h2>What Is an Invoice Number?</h2>
 <p>An <strong>invoice number</strong> is a unique identifier assigned to each invoice you issue. Its primary purpose is to ensure every transaction is individually trackable — for your records, your client's records, and tax authorities.</p>
@@ -15017,7 +15022,7 @@ Thank you for your business!
   <li><strong>Project-based:</strong> PROJ-ACME-001 — ties invoices to specific clients or projects</li>
   <li><strong>Hybrid:</strong> 2026-ACME-003 — combines date and client for maximum context</li>
 </ul>
-<p>Most countries legally require invoices to carry a unique number. Duplicate or missing numbers can trigger audit flags and complicate tax filings. Invoicing software like <a href="/invoicing">Invoicemonk</a> auto-generates sequential numbers so you never have to worry about gaps or duplicates. For a deeper dive, see our guide to <a href="/blog/invoice-numbering-systems-best-practices">invoice numbering best practices</a>.</p>
+<p>Most countries legally require invoices to carry a unique number. Duplicate or missing numbers can trigger audit flags and complicate tax filings. Invoicing software like <a href="/en/invoicing">Invoicemonk</a> auto-generates sequential numbers so you never have to worry about gaps or duplicates. For a deeper dive, see our guide to <a href="/en/blog/invoice-numbering-systems-best-practices">invoice numbering best practices</a>.</p>
 
 <h2>What Is an Invoice Payment?</h2>
 <p>An <strong>invoice payment</strong> is the act of a buyer settling the amount due on an invoice. While it sounds straightforward, the mechanics vary depending on the payment method, terms, and business context.</p>
@@ -15025,11 +15030,11 @@ Thank you for your business!
 <ul>
   <li><strong>Bank transfer (ACH/BACS/EFT):</strong> Direct transfer between bank accounts — low fees, common for B2B</li>
   <li><strong>Credit/debit card:</strong> Convenient for clients, higher processing fees (1.5–3%)</li>
-  <li><strong>Online payment link:</strong> Client clicks a link on the invoice and pays instantly — <a href="/invoicing">Invoicemonk</a> embeds these automatically</li>
+  <li><strong>Online payment link:</strong> Client clicks a link on the invoice and pays instantly — <a href="/en/invoicing">Invoicemonk</a> embeds these automatically</li>
   <li><strong>Digital wallets:</strong> PayPal, Wise, mobile money (M-Pesa, Paystack) — common for international and African markets</li>
   <li><strong>Cheque:</strong> Still used in some industries but slow and declining</li>
 </ul>
-<p>Invoice payments can also be <strong>partial</strong> — a client pays a deposit or instalment rather than the full amount. In this case, the invoice remains "open" (see below) until the balance is cleared. <a href="/blog/how-to-write-invoice-payment-terms">Payment terms</a> like Net 30 or Due on Receipt define when payment is expected.</p>
+<p>Invoice payments can also be <strong>partial</strong> — a client pays a deposit or instalment rather than the full amount. In this case, the invoice remains "open" (see below) until the balance is cleared. <a href="/en/blog/how-to-write-invoice-payment-terms">Payment terms</a> like Net 30 or Due on Receipt define when payment is expected.</p>
 
 <h2>What Is a VAT Invoice?</h2>
 <p>A <strong>VAT invoice</strong> is an invoice that includes specific value-added tax (VAT) information required by tax authorities. It's not a different document — it's a standard invoice with additional mandatory fields.</p>
@@ -15041,7 +15046,7 @@ Thank you for your business!
   <li>The VAT amount shown separately from the net price</li>
   <li>A clear breakdown: net amount + VAT = gross total</li>
 </ul>
-<p>Many countries distinguish between <strong>full VAT invoices</strong> (required above a threshold, e.g., £250 in the UK) and <strong>simplified VAT invoices</strong> (for smaller transactions, fewer required fields). If you're VAT-registered, issuing proper VAT invoices is legally mandatory — your clients need them to reclaim input VAT. For country-specific requirements, see our <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC compliance guide</a> or <a href="/compliance">compliance hub</a>.</p>
+<p>Many countries distinguish between <strong>full VAT invoices</strong> (required above a threshold, e.g., £250 in the UK) and <strong>simplified VAT invoices</strong> (for smaller transactions, fewer required fields). If you're VAT-registered, issuing proper VAT invoices is legally mandatory — your clients need them to reclaim input VAT. For country-specific requirements, see our <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC compliance guide</a> or <a href="/en/compliance">compliance hub</a>.</p>
 
 <h2>What Is a Tax Invoice?</h2>
 <p>A <strong>tax invoice</strong> is the broader term for any invoice that includes tax details required by a country's revenue authority. While "VAT invoice" is the term in Europe and Africa, other regions use different names for essentially the same concept:</p>
@@ -15050,7 +15055,7 @@ Thank you for your business!
   <li><strong>Sales tax invoice</strong> — United States (though the US doesn't have a formal "tax invoice" requirement at the federal level)</li>
   <li><strong>Tax invoice</strong> — Generic term used across multiple GST/VAT jurisdictions</li>
 </ul>
-<p>The key distinction from a regular invoice: a tax invoice must include your tax registration number and a tax breakdown. In GST countries like Australia, you must issue a tax invoice for sales of $82.50 (including GST) or more. Buyers need this document to claim GST credits on their own tax returns. Without a valid tax invoice, your client cannot recover the tax they paid — so getting this right protects both of you. For more, see our <a href="/blog/ato-invoice-requirements-australian-compliance">ATO compliance guide</a>.</p>
+<p>The key distinction from a regular invoice: a tax invoice must include your tax registration number and a tax breakdown. In GST countries like Australia, you must issue a tax invoice for sales of $82.50 (including GST) or more. Buyers need this document to claim GST credits on their own tax returns. Without a valid tax invoice, your client cannot recover the tax they paid — so getting this right protects both of you. For more, see our <a href="/en/blog/ato-invoice-requirements-australian-compliance">ATO compliance guide</a>.</p>
 
 <h2>What Is an Open Invoice?</h2>
 <p>An <strong>open invoice</strong> (also called an outstanding invoice or unpaid invoice) is an invoice that has been issued but not yet fully paid. It represents money your business is owed — part of your <a href="/glossary?term=accounts-receivable">accounts receivable</a>.</p>
@@ -15058,7 +15063,7 @@ Thank you for your business!
 <p>Best practices for managing open invoices:</p>
 <ul>
   <li><strong>Track aging:</strong> Group open invoices by how overdue they are (current, 30 days, 60 days, 90+ days). An <strong>aging report</strong> highlights problem clients before small debts become big ones</li>
-  <li><strong>Automate reminders:</strong> Set up <a href="/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a> at 7, 14, and 30 days overdue</li>
+  <li><strong>Automate reminders:</strong> Set up <a href="/en/blog/setting-up-automatic-payment-reminders">automatic payment reminders</a> at 7, 14, and 30 days overdue</li>
   <li><strong>Offer easy payment:</strong> Include online payment links so clients can settle invoices in one click</li>
   <li><strong>Review weekly:</strong> A weekly open-invoice review keeps cash flow predictable and catches overdue payments early</li>
 </ul>
@@ -15153,7 +15158,7 @@ Thank you for your business!
   <li><strong>Audit trail:</strong> The PO number creates a clear paper trail from purchase request → order → delivery → invoice → payment</li>
   <li><strong>Dispute prevention:</strong> If there's ever a disagreement about what was ordered or agreed, the PO number connects all the documentation</li>
 </ul>
-<p><strong>Best practice:</strong> Always ask corporate clients for a PO number before you start work. Include it prominently on your invoice — most invoicing software (including <a href="/invoicing">Invoicemonk</a>) has a dedicated PO number field. If your client didn't issue a PO, note "No PO required" or reference the email/contract that authorised the work.</p>
+<p><strong>Best practice:</strong> Always ask corporate clients for a PO number before you start work. Include it prominently on your invoice — most invoicing software (including <a href="/en/invoicing">Invoicemonk</a>) has a dedicated PO number field. If your client didn't issue a PO, note "No PO required" or reference the email/contract that authorised the work.</p>
 
 <h2>Invoice Terminology Glossary</h2>
 <p>Here are common terms you'll encounter in invoicing:</p>
@@ -15184,17 +15189,17 @@ Thank you for your business!
 <h2>Start Creating Professional Invoices</h2>
 <p>Understanding what an invoice is marks the first step toward professional business practices. Whether you're a freelancer sending your first invoice or a growing business looking to streamline billing, getting invoicing right impacts your cash flow, client relationships, and business success.</p>
 
-<p>Ready to create your first invoice? <a href="/invoicing">Invoicemonk's invoice generator</a> lets you create a professional PDF invoice in under 2 minutes — no signup required. For ongoing invoicing with payment tracking, reminders, and accounting integration, <a href="/invoicing">try the full platform</a>.</p>
+<p>Ready to create your first invoice? <a href="/en/invoicing">Invoicemonk's invoice generator</a> lets you create a professional PDF invoice in under 2 minutes — no signup required. For ongoing invoicing with payment tracking, reminders, and accounting integration, <a href="/en/invoicing">try the full platform</a>.</p>
 
 <h2>Learn More About Invoicing</h2>
 <p>Continue building your invoicing knowledge:</p>
 <ul>
-  <li><a href="/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
-  <li><a href="/blog/essential-elements-of-an-invoice">Essential Elements Every Invoice Needs</a></li>
-  <li><a href="/blog/how-to-write-invoice-payment-terms">Understanding Invoice Payment Terms</a></li>
-  <li><a href="/blog/invoice-numbering-systems-best-practices">Invoice Numbering Best Practices</a></li>
-  <li><a href="/blog/how-to-create-first-professional-invoice">How to Create Your First Professional Invoice</a></li>
-  <li><a href="/blog/common-invoicing-mistakes-avoid">Common Invoicing Mistakes to Avoid</a></li>
+  <li><a href="/en/blog/complete-guide-to-business-invoicing">The Complete Guide to Business Invoicing</a></li>
+  <li><a href="/en/blog/essential-elements-of-an-invoice">Essential Elements Every Invoice Needs</a></li>
+  <li><a href="/en/blog/how-to-write-invoice-payment-terms">Understanding Invoice Payment Terms</a></li>
+  <li><a href="/en/blog/invoice-numbering-systems-best-practices">Invoice Numbering Best Practices</a></li>
+  <li><a href="/en/blog/how-to-create-first-professional-invoice">How to Create Your First Professional Invoice</a></li>
+  <li><a href="/en/blog/common-invoicing-mistakes-avoid">Common Invoicing Mistakes to Avoid</a></li>
 </ul>
     `,
     faq: [
@@ -15271,7 +15276,7 @@ Thank you for your business!
       <h2>Essential Estimate Features Every Freelancer Needs</h2>
 
       <h3>1. Customisable Professional Templates</h3>
-      <p>Your estimate should look like it came from a serious business, not a text message. Look for software that lets you add your logo, brand colours, and custom header/footer. <a href="/estimates">Invoicemonk's estimate templates</a> are fully brandable and render beautifully on desktop and mobile — because your client will almost certainly read your estimate on their phone first.</p>
+      <p>Your estimate should look like it came from a serious business, not a text message. Look for software that lets you add your logo, brand colours, and custom header/footer. <a href="/en/estimates">Invoicemonk's estimate templates</a> are fully brandable and render beautifully on desktop and mobile — because your client will almost certainly read your estimate on their phone first.</p>
 
       <h3>2. Itemised Line Items with Descriptions</h3>
       <p>Never send a single-line estimate that says "Website redesign — $5,000." Break your pricing into granular line items: discovery and research, wireframes, visual design, development, QA testing, launch support. Each line should have a quantity, unit rate, and brief description. This transparency justifies your pricing and helps clients understand exactly what they're paying for.</p>
@@ -15283,10 +15288,10 @@ Thank you for your business!
       <p>Knowing when a client opens your estimate is powerful. It tells you when to follow up (they opened it but haven't responded), whether your estimate landed (they never opened it — check their spam folder), and how engaged they are. Invoicemonk sends real-time notifications when clients view estimates, giving you an information advantage.</p>
 
       <h3>5. Multi-Currency and Tax Support</h3>
-      <p>If you work with international clients, your estimate software must handle multiple currencies gracefully. Clients should see prices in their local currency, and tax calculations should adjust automatically based on jurisdiction. This matters for <a href="/use-cases/multi-currency-invoicing">multi-currency invoicing</a> workflows where the estimate sets the billing currency for the entire project.</p>
+      <p>If you work with international clients, your estimate software must handle multiple currencies gracefully. Clients should see prices in their local currency, and tax calculations should adjust automatically based on jurisdiction. This matters for <a href="/en/use-cases/multi-currency-invoicing">multi-currency invoicing</a> workflows where the estimate sets the billing currency for the entire project.</p>
 
       <h3>6. Terms, Conditions, and Expiry Dates</h3>
-      <p>Every estimate should include your payment terms (deposit required? payment on completion?), revision policy, and a clear expiry date. Software that lets you set default terms saves time on every estimate you create. For best practices on payment terms, see our guide to <a href="/blog/how-to-write-invoice-payment-terms">writing invoice payment terms</a>.</p>
+      <p>Every estimate should include your payment terms (deposit required? payment on completion?), revision policy, and a clear expiry date. Software that lets you set default terms saves time on every estimate you create. For best practices on payment terms, see our guide to <a href="/en/blog/how-to-write-invoice-payment-terms">writing invoice payment terms</a>.</p>
 
       <h2>Real-World Scenario: How a Web Designer Uses Estimates</h2>
       <p>Sarah is a freelance web designer who quotes 3–5 projects per week. Before using dedicated estimate software, she sent pricing via email — and her close rate was about 25%. Here's what changed when she adopted a professional estimating workflow:</p>
@@ -15303,7 +15308,7 @@ Thank you for your business!
         <li><strong>Quote:</strong> A fixed-price offer for a defined scope. Use when you know exactly what the client needs and can commit to a price. A quote is typically binding for its validity period.</li>
         <li><strong>Proposal:</strong> A comprehensive document that includes your approach, methodology, timeline, pricing, and credentials. Use for high-value projects where the client is evaluating multiple vendors.</li>
       </ul>
-      <p>For a detailed breakdown, see our guide on <a href="/blog/estimate-vs-quote-vs-invoice-difference">estimate vs quote vs invoice differences</a>.</p>
+      <p>For a detailed breakdown, see our guide on <a href="/en/blog/estimate-vs-quote-vs-invoice-difference">estimate vs quote vs invoice differences</a>.</p>
 
       <h2>Common Estimating Mistakes Freelancers Make</h2>
       <p><strong>Underestimating scope:</strong> The #1 mistake. Always add a 15–20% buffer for unforeseen work. If the project comes in under budget, the client is delighted. If it doesn't, you're protected.</p>
@@ -15313,13 +15318,13 @@ Thank you for your business!
       <p><strong>Skipping the deposit:</strong> For projects over $1,000, always require a deposit before starting work. A 25–50% deposit protects your cash flow and confirms the client's commitment.</p>
 
       <h2>How Invoicemonk Streamlines Your Estimates Workflow</h2>
-      <p>Invoicemonk's <a href="/estimates">Estimates & Quotes</a> module is purpose-built for freelancers and small businesses. Create branded estimates in minutes, track client views in real time, convert accepted estimates to invoices with one click, and manage your entire quote-to-cash pipeline from a single dashboard. Combined with <a href="/invoicing">invoicing</a>, <a href="/expenses">expense tracking</a>, and <a href="/accounting">accounting</a>, it's a complete financial toolkit — no enterprise complexity, no per-user fees on paid plans.</p>
+      <p>Invoicemonk's <a href="/en/estimates">Estimates & Quotes</a> module is purpose-built for freelancers and small businesses. Create branded estimates in minutes, track client views in real time, convert accepted estimates to invoices with one click, and manage your entire quote-to-cash pipeline from a single dashboard. Combined with <a href="/en/invoicing">invoicing</a>, <a href="/en/expenses">expense tracking</a>, and <a href="/en/accounting">accounting</a>, it's a complete financial toolkit — no enterprise complexity, no per-user fees on paid plans.</p>
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/how-to-write-winning-business-proposal">How to Write a Winning Business Proposal</a></li>
-        <li><a href="/blog/how-to-price-project-work">How to Price Project Work Accurately</a></li>
-        <li><a href="/blog/following-up-on-proposals">Smart Follow-Up Strategies for Proposals</a></li>
+        <li><a href="/en/blog/how-to-write-winning-business-proposal">How to Write a Winning Business Proposal</a></li>
+        <li><a href="/en/blog/how-to-price-project-work">How to Price Project Work Accurately</a></li>
+        <li><a href="/en/blog/following-up-on-proposals">Smart Follow-Up Strategies for Proposals</a></li>
       </ul>
     `
   },
@@ -15372,7 +15377,7 @@ Thank you for your business!
       <p>This information lets you create an estimate that addresses their specific situation — not a generic one-size-fits-all quote.</p>
 
       <h2>Step 2: Build a Detailed, Itemised Estimate</h2>
-      <p>Use <a href="/estimates">Invoicemonk's estimate builder</a> to create a branded document with:</p>
+      <p>Use <a href="/en/estimates">Invoicemonk's estimate builder</a> to create a branded document with:</p>
       <ul>
         <li><strong>Project title:</strong> Descriptive, not generic ("Website Redesign for Acme Corp" not "Web Project")</li>
         <li><strong>Line items:</strong> Each deliverable as a separate line with quantity, rate, and description</li>
@@ -15403,7 +15408,7 @@ Thank you for your business!
         <li><strong>Day 7–10:</strong> Second follow-up adding value (a relevant case study or insight)</li>
         <li><strong>Day 14:</strong> Final follow-up noting the estimate's approaching expiry</li>
       </ul>
-      <p>With Invoicemonk's view tracking, you'll know exactly when the client opened your estimate, so you can time your follow-ups perfectly. Learn more about <a href="/blog/following-up-on-proposals">smart follow-up strategies</a>.</p>
+      <p>With Invoicemonk's view tracking, you'll know exactly when the client opened your estimate, so you can time your follow-ups perfectly. Learn more about <a href="/en/blog/following-up-on-proposals">smart follow-up strategies</a>.</p>
 
       <h2>Estimate Email Template</h2>
       <p>Here's a template you can adapt:</p>
@@ -15418,15 +15423,15 @@ Thank you for your business!
 
       <h2>Common Mistakes When Sending Estimates</h2>
       <p><strong>Sending too quickly:</strong> Rushing an estimate after a brief email exchange often leads to inaccurate pricing and missed scope. Take time to understand the project.</p>
-      <p><strong>No follow-up:</strong> 80% of sales require 5+ follow-ups, yet most freelancers stop after one. Use <a href="/blog/following-up-on-proposals">strategic follow-up sequences</a> to stay top-of-mind.</p>
+      <p><strong>No follow-up:</strong> 80% of sales require 5+ follow-ups, yet most freelancers stop after one. Use <a href="/en/blog/following-up-on-proposals">strategic follow-up sequences</a> to stay top-of-mind.</p>
       <p><strong>Burying the price:</strong> Don't make clients hunt for the total. The overall price and payment schedule should be easy to find — ideally in a summary section at the top of the estimate.</p>
       <p><strong>No call to action:</strong> Every estimate should end with a clear next step. "Reply to accept" or "Click to approve" removes ambiguity and makes it easy for the client to say yes.</p>
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/best-estimates-features-for-freelancers">Best Estimates Features for Freelancers</a></li>
-        <li><a href="/blog/estimate-vs-quote-vs-invoice-difference">Estimate vs Quote vs Invoice: What's the Difference?</a></li>
-        <li><a href="/blog/how-to-write-winning-business-proposal">How to Write a Winning Business Proposal</a></li>
+        <li><a href="/en/blog/best-estimates-features-for-freelancers">Best Estimates Features for Freelancers</a></li>
+        <li><a href="/en/blog/estimate-vs-quote-vs-invoice-difference">Estimate vs Quote vs Invoice: What's the Difference?</a></li>
+        <li><a href="/en/blog/how-to-write-winning-business-proposal">How to Write a Winning Business Proposal</a></li>
       </ul>
     `
   },
@@ -15477,10 +15482,10 @@ Thank you for your business!
       <h2>What to Look for in Tax-Compliant Expense Tracking Software</h2>
 
       <h3>1. Tax-Aligned Expense Categories</h3>
-      <p>Your software should come with categories that map directly to your tax return line items. Office supplies, travel, meals, professional development, software subscriptions — each category should correspond to a deductible expense type recognised by your tax authority. <a href="/expenses">Invoicemonk's expense tracking</a> comes with pre-configured categories for multiple jurisdictions.</p>
+      <p>Your software should come with categories that map directly to your tax return line items. Office supplies, travel, meals, professional development, software subscriptions — each category should correspond to a deductible expense type recognised by your tax authority. <a href="/en/expenses">Invoicemonk's expense tracking</a> comes with pre-configured categories for multiple jurisdictions.</p>
 
       <h3>2. Receipt Capture and Storage</h3>
-      <p>Every expense needs a receipt. The best software lets you snap a photo of a receipt, extracts key data (date, amount, merchant), and attaches it to the expense entry automatically. This creates an audit trail that satisfies tax authorities without any manual filing. See our <a href="/blog/digital-receipt-management-guide">digital receipt management guide</a> for best practices.</p>
+      <p>Every expense needs a receipt. The best software lets you snap a photo of a receipt, extracts key data (date, amount, merchant), and attaches it to the expense entry automatically. This creates an audit trail that satisfies tax authorities without any manual filing. See our <a href="/en/blog/digital-receipt-management-guide">digital receipt management guide</a> for best practices.</p>
 
       <h3>3. Bank and Card Integration</h3>
       <p>Manually entering every expense is unsustainable. Look for software that syncs with your bank accounts and credit cards, importing transactions automatically. You review and categorise — the software does the data entry. This also catches expenses you might forget to record.</p>
@@ -15489,33 +15494,33 @@ Thank you for your business!
       <p>If you have international expenses — software subscriptions, overseas travel, foreign contractors — your tracking tool must handle multiple currencies. Invoicemonk automatically converts foreign-currency expenses at the transaction date's exchange rate, which is what most tax authorities require for reporting.</p>
 
       <h3>5. Tax-Ready Reports</h3>
-      <p>At minimum, you need an expense summary by category for the tax year, a detailed transaction report with receipt attachments, and a profit and loss statement. These should be exportable as PDF or CSV for your accountant. Invoicemonk generates all of these from your <a href="/accounting">built-in accounting</a> module.</p>
+      <p>At minimum, you need an expense summary by category for the tax year, a detailed transaction report with receipt attachments, and a profit and loss statement. These should be exportable as PDF or CSV for your accountant. Invoicemonk generates all of these from your <a href="/en/accounting">built-in accounting</a> module.</p>
 
       <h2>Top Expense Tracking Software Compared</h2>
 
       <h3>Invoicemonk</h3>
       <p><strong>Best for:</strong> Freelancers and small businesses who want expense tracking with invoicing and accounting in one platform.</p>
-      <p>Invoicemonk combines expense tracking with <a href="/invoicing">invoicing</a>, <a href="/receipts">receipt management</a>, and <a href="/accounting">accounting</a> in a single platform. Expenses are automatically reflected in your financial reports, and tax-aligned categories ensure you're always audit-ready. The Pro plan includes expense tracking — </p>
+      <p>Invoicemonk combines expense tracking with <a href="/en/invoicing">invoicing</a>, <a href="/en/receipts">receipt management</a>, and <a href="/en/accounting">accounting</a> in a single platform. Expenses are automatically reflected in your financial reports, and tax-aligned categories ensure you're always audit-ready. The Pro plan includes expense tracking — </p>
 
       <h3>QuickBooks</h3>
       <p><strong>Best for:</strong> Businesses that need payroll and inventory alongside expense tracking.</p>
-      <p>QuickBooks offers robust expense tracking with bank feeds, receipt scanning, and mileage tracking. The downside is cost: plans start at $30/month, and the learning curve can be steep for simple use cases. For a detailed comparison, see <a href="/compare/invoicemonk-vs-quickbooks">Invoicemonk vs QuickBooks</a>.</p>
+      <p>QuickBooks offers robust expense tracking with bank feeds, receipt scanning, and mileage tracking. The downside is cost: plans start at $30/month, and the learning curve can be steep for simple use cases. For a detailed comparison, see <a href="/en/compare/invoicemonk-vs-quickbooks">Invoicemonk vs QuickBooks</a>.</p>
 
       <h3>FreshBooks</h3>
       <p><strong>Best for:</strong> Service businesses focused on client-facing invoicing with expense tracking.</p>
-      <p>FreshBooks offers good expense tracking with receipt scanning and bank connections. However, it limits the number of billable clients on lower tiers, which can be restrictive for growing businesses. Compare in detail: <a href="/compare/invoicemonk-vs-freshbooks">Invoicemonk vs FreshBooks</a>.</p>
+      <p>FreshBooks offers good expense tracking with receipt scanning and bank connections. However, it limits the number of billable clients on lower tiers, which can be restrictive for growing businesses. Compare in detail: <a href="/en/compare/invoicemonk-vs-freshbooks">Invoicemonk vs FreshBooks</a>.</p>
 
       <h3>Wave</h3>
       <p><strong>Best for:</strong> Solo freelancers who need free basic accounting with expense tracking.</p>
-      <p>Wave offers free accounting and expense tracking, but with limited receipt scanning capabilities and no multi-currency support. For businesses that need more, see <a href="/compare/invoicemonk-vs-wave">Invoicemonk vs Wave</a>.</p>
+      <p>Wave offers free accounting and expense tracking, but with limited receipt scanning capabilities and no multi-currency support. For businesses that need more, see <a href="/en/compare/invoicemonk-vs-wave">Invoicemonk vs Wave</a>.</p>
 
       <h2>Tax Compliance by Jurisdiction</h2>
       <p>Different tax authorities have different requirements for expense documentation:</p>
       <ul>
-        <li><strong>US (IRS):</strong> Keep records for 7 years. Expenses over $75 require receipts. Mileage logs must include date, destination, business purpose, and miles driven. See our <a href="/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a>.</li>
-        <li><strong>UK (HMRC):</strong> Keep records for 6 years. Making Tax Digital requires digital record-keeping. See our <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC MTD guide</a>.</li>
-        <li><strong>Nigeria (FIRS):</strong> Keep records for 6 years. VAT-registered businesses must maintain detailed expense records. See our <a href="/blog/firs-invoice-requirements-nigeria">FIRS compliance guide</a>.</li>
-        <li><strong>Australia (ATO):</strong> Keep records for 5 years. GST-registered businesses need tax invoices for GST credits. See our <a href="/blog/ato-invoice-requirements-australian-compliance">ATO compliance guide</a>.</li>
+        <li><strong>US (IRS):</strong> Keep records for 7 years. Expenses over $75 require receipts. Mileage logs must include date, destination, business purpose, and miles driven. See our <a href="/en/blog/irs-invoice-requirements-us-compliance">IRS compliance guide</a>.</li>
+        <li><strong>UK (HMRC):</strong> Keep records for 6 years. Making Tax Digital requires digital record-keeping. See our <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC MTD guide</a>.</li>
+        <li><strong>Nigeria (FIRS):</strong> Keep records for 6 years. VAT-registered businesses must maintain detailed expense records. See our <a href="/en/blog/firs-invoice-requirements-nigeria">FIRS compliance guide</a>.</li>
+        <li><strong>Australia (ATO):</strong> Keep records for 5 years. GST-registered businesses need tax invoices for GST credits. See our <a href="/en/blog/ato-invoice-requirements-australian-compliance">ATO compliance guide</a>.</li>
       </ul>
 
       <h2>Setting Up Tax-Compliant Expense Tracking</h2>
@@ -15531,9 +15536,9 @@ Thank you for your business!
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
-        <li><a href="/blog/small-business-tax-deductions-guide">Small Business Tax Deductions Guide</a></li>
-        <li><a href="/blog/receipt-scanning-apps-comparison">Receipt Scanning Apps Compared</a></li>
+        <li><a href="/en/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
+        <li><a href="/en/blog/small-business-tax-deductions-guide">Small Business Tax Deductions Guide</a></li>
+        <li><a href="/en/blog/receipt-scanning-apps-comparison">Receipt Scanning Apps Compared</a></li>
       </ul>
     `
   },
@@ -15578,19 +15583,19 @@ Thank you for your business!
       <h2>Top Free Expense Tracking + Invoicing Platforms</h2>
 
       <h3>1. Invoicemonk — Best Paid Platform from $15/month</h3>
-      <p><a href="/expenses">Invoicemonk</a> is paid-only — there is no free plan or trial. The Pro plan ($15/month) includes expense tracking, invoicing, receipt management, and basic accounting, with multi-currency support, tax-compliant categories, and an invoice verification portal that competitors typically gate behind higher tiers.</p>
+      <p><a href="/en/expenses">Invoicemonk</a> is paid-only — there is no free plan or trial. The Pro plan ($15/month) includes expense tracking, invoicing, receipt management, and basic accounting, with multi-currency support, tax-compliant categories, and an invoice verification portal that competitors typically gate behind higher tiers.</p>
       <p><strong>Pro plan includes:</strong> Unlimited invoices, expense tracking with categories, receipt scanning, basic financial reports, multi-currency support, tax compliance features.</p>
       <p><strong>Upgrade for:</strong> Recurring invoices, advanced reporting, team access, API integrations.</p>
 
       <h3>2. Wave — Best for US/Canada Solo Freelancers</h3>
       <p>Wave offers free accounting, invoicing, and expense tracking with no client limits. It's a solid choice for North American freelancers who don't need multi-currency support. The trade-off is that Wave monetises through payment processing fees, and its receipt scanning is basic compared to dedicated tools.</p>
       <p><strong>Pro plan includes:</strong> Unlimited invoicing, expense tracking, basic accounting, bank connections (US/Canada).</p>
-      <p><strong>Limitations:</strong> No multi-currency, limited receipt scanning, US/Canada bank feeds only. See <a href="/compare/invoicemonk-vs-wave">Invoicemonk vs Wave</a> for a full comparison.</p>
+      <p><strong>Limitations:</strong> No multi-currency, limited receipt scanning, US/Canada bank feeds only. See <a href="/en/compare/invoicemonk-vs-wave">Invoicemonk vs Wave</a> for a full comparison.</p>
 
       <h3>3. Zoho Invoice — Best for Zoho Ecosystem Users</h3>
       <p>Zoho Invoice offers a free plan for up to 5 clients, including expense tracking and invoicing. If you're already in the Zoho ecosystem (Zoho CRM, Zoho Books), the integration is seamless. For everyone else, the 5-client limit is restrictive.</p>
       <p><strong>Pro plan includes:</strong> Invoicing for 5 clients, basic expense tracking, time tracking.</p>
-      <p><strong>Limitations:</strong> 5-client cap, limited automation, expense tracking is basic. See <a href="/compare/invoicemonk-vs-zoho-invoice">Invoicemonk vs Zoho</a>.</p>
+      <p><strong>Limitations:</strong> 5-client cap, limited automation, expense tracking is basic. See <a href="/en/compare/invoicemonk-vs-zoho-invoice">Invoicemonk vs Zoho</a>.</p>
 
       <h2>Feature Comparison: Free Tiers</h2>
       <p>Here's how the Pro plans stack up on the features that matter most:</p>
@@ -15606,7 +15611,7 @@ Thank you for your business!
       <p>Pro plans are genuinely sufficient for many businesses, but here are the signs you've outgrown them:</p>
       <ul>
         <li><strong>You're hitting client limits:</strong> If you can't add new clients without deleting old ones, it's time to upgrade.</li>
-        <li><strong>You need recurring invoices:</strong> Sending the same invoice manually every month is a waste of time. <a href="/use-cases/recurring-billing">Recurring billing automation</a> pays for itself quickly.</li>
+        <li><strong>You need recurring invoices:</strong> Sending the same invoice manually every month is a waste of time. <a href="/en/use-cases/recurring-billing">Recurring billing automation</a> pays for itself quickly.</li>
         <li><strong>You have a team:</strong> Multiple users need access to financial data — Pro plans rarely support this.</li>
         <li><strong>You need API access:</strong> Integrating with other tools (CRM, project management) typically requires a paid plan.</li>
         <li><strong>Your tax requirements are complex:</strong> Multi-jurisdiction compliance, advanced reporting, or accountant access usually require paid features.</li>
@@ -15618,15 +15623,15 @@ Thank you for your business!
         <li><strong>Categorise religiously:</strong> Set up your categories once and categorise every expense immediately. This saves hours at tax time.</li>
         <li><strong>Scan receipts instantly:</strong> Take a photo the moment you get a receipt. Waiting leads to lost receipts and missed deductions.</li>
         <li><strong>Review weekly:</strong> A 15-minute weekly review catches errors and keeps your books clean.</li>
-        <li><strong>Use the reports:</strong> Even basic reports reveal spending patterns that can save money. Check your <a href="/accounting">P&L monthly</a>.</li>
+        <li><strong>Use the reports:</strong> Even basic reports reveal spending patterns that can save money. Check your <a href="/en/accounting">P&L monthly</a>.</li>
         <li><strong>Invoice promptly:</strong> Track expenses and send invoices from the same platform so your financial picture is always complete.</li>
       </ol>
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/best-expense-tracking-software-tax-compliance">Best Expense Tracking Software with Tax Compliance</a></li>
-        <li><a href="/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
-        <li><a href="/blog/track-business-expenses-guide">Complete Guide to Tracking Business Expenses</a></li>
+        <li><a href="/en/blog/best-expense-tracking-software-tax-compliance">Best Expense Tracking Software with Tax Compliance</a></li>
+        <li><a href="/en/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
+        <li><a href="/en/blog/track-business-expenses-guide">Complete Guide to Tracking Business Expenses</a></li>
       </ul>
     `
   },
@@ -15676,7 +15681,7 @@ Thank you for your business!
       <h2>What "Built-In Tax Compliance" Actually Means</h2>
 
       <h3>Automatic Tax Calculation</h3>
-      <p>Configure your tax rates once, and every invoice calculates tax automatically. No more manual multiplication, no rounding errors, no forgetting to add tax to a rush invoice. <a href="/invoicing">Invoicemonk</a> stores tax rates per jurisdiction and applies them based on your client's location.</p>
+      <p>Configure your tax rates once, and every invoice calculates tax automatically. No more manual multiplication, no rounding errors, no forgetting to add tax to a rush invoice. <a href="/en/invoicing">Invoicemonk</a> stores tax rates per jurisdiction and applies them based on your client's location.</p>
 
       <h3>Legally Required Invoice Elements</h3>
       <p>Different countries require different information on invoices. Built-in compliance means the software knows what's needed and includes it automatically:</p>
@@ -15694,7 +15699,7 @@ Thank you for your business!
       <h2>Platforms Compared on Tax Compliance</h2>
 
       <h3>Invoicemonk</h3>
-      <p>The strongest multi-jurisdiction compliance support. <a href="/compliance">Invoicemonk's compliance engine</a> covers the US, UK, Nigeria, Australia, Canada, Ghana, Kenya, and South Africa with pre-configured tax rules for each. Invoices automatically include the correct tax registration numbers, calculations, and formatting. The <a href="/accounting">built-in accounting</a> module generates tax reports that map directly to authority requirements.</p>
+      <p>The strongest multi-jurisdiction compliance support. <a href="/en/compliance">Invoicemonk's compliance engine</a> covers the US, UK, Nigeria, Australia, Canada, Ghana, Kenya, and South Africa with pre-configured tax rules for each. Invoices automatically include the correct tax registration numbers, calculations, and formatting. The <a href="/en/accounting">built-in accounting</a> module generates tax reports that map directly to authority requirements.</p>
 
       <h3>QuickBooks</h3>
       <p>Strong US and UK tax support through its established ecosystem. QuickBooks handles US sales tax and UK VAT well, with automated calculations and MTD-compatible filing. However, support for African and emerging markets is limited.</p>
@@ -15713,12 +15718,12 @@ Thank you for your business!
         <li><strong>Australia (ATO):</strong> Denial of GST credits for non-compliant invoices, plus administrative penalties</li>
         <li><strong>US (IRS):</strong> Accuracy-related penalties of 20% of underpaid tax, plus interest</li>
       </ul>
-      <p>These penalties are entirely avoidable with software that handles compliance automatically. For detailed compliance requirements by country, see our <a href="/compliance">compliance page</a> and country-specific guides for <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC</a>, <a href="/blog/firs-invoice-requirements-nigeria">FIRS</a>, <a href="/blog/ato-invoice-requirements-australian-compliance">ATO</a>, and <a href="/blog/irs-invoice-requirements-us-compliance">IRS</a>.</p>
+      <p>These penalties are entirely avoidable with software that handles compliance automatically. For detailed compliance requirements by country, see our <a href="/en/compliance">compliance page</a> and country-specific guides for <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC</a>, <a href="/en/blog/firs-invoice-requirements-nigeria">FIRS</a>, <a href="/en/blog/ato-invoice-requirements-australian-compliance">ATO</a>, and <a href="/en/blog/irs-invoice-requirements-us-compliance">IRS</a>.</p>
 
       <h2>Setting Up Tax-Compliant Invoicing</h2>
       <ol>
         <li><strong>Register for tax:</strong> Ensure you're registered with your tax authority and have your registration number (VAT number, TIN, ABN, EIN).</li>
-        <li><strong>Configure your software:</strong> Enter your tax registration details and set up the correct tax rates for your jurisdiction in <a href="/invoicing">Invoicemonk's settings</a>.</li>
+        <li><strong>Configure your software:</strong> Enter your tax registration details and set up the correct tax rates for your jurisdiction in <a href="/en/invoicing">Invoicemonk's settings</a>.</li>
         <li><strong>Set default tax per client:</strong> If you serve clients in multiple jurisdictions, set the correct tax treatment per client (taxable, exempt, reverse charge).</li>
         <li><strong>Review your first few invoices:</strong> Verify that tax is calculated correctly and all required elements appear on the invoice.</li>
         <li><strong>Generate test reports:</strong> Run a VAT/GST report for the current period to confirm the numbers match your expectations.</li>
@@ -15726,9 +15731,9 @@ Thank you for your business!
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/small-business-tax-compliance-guide">Small Business Tax Compliance Guide</a></li>
-        <li><a href="/blog/small-business-tax-deductions-guide">Tax Deductions Guide</a></li>
-        <li><a href="/blog/how-to-prepare-business-tax-audit">How to Prepare for a Tax Audit</a></li>
+        <li><a href="/en/blog/small-business-tax-compliance-guide">Small Business Tax Compliance Guide</a></li>
+        <li><a href="/en/blog/small-business-tax-deductions-guide">Tax Deductions Guide</a></li>
+        <li><a href="/en/blog/how-to-prepare-business-tax-audit">How to Prepare for a Tax Audit</a></li>
       </ul>
     `
   },
@@ -15789,14 +15794,14 @@ Thank you for your business!
       <p><strong>Best for:</strong> Clients who already have PayPal accounts and prefer its familiarity.</p>
       <p>PayPal charges 2.99% + fixed fee for domestic transactions, with higher rates for international payments. Its main advantage is ubiquity — most clients already have a PayPal account, reducing friction to zero. The downside is higher fees for international transactions and slower access to funds compared to Stripe.</p>
       <p><strong>Pros:</strong> Massive consumer adoption, buyer/seller protection, easy for clients.</p>
-      <p><strong>Cons:</strong> Higher international fees, holds funds for new accounts, complex fee structure. See our <a href="/paypal-vs-wise-fees">PayPal vs Wise fees comparison</a>.</p>
+      <p><strong>Cons:</strong> Higher international fees, holds funds for new accounts, complex fee structure. See our <a href="/en/paypal-vs-wise-fees">PayPal vs Wise fees comparison</a>.</p>
 
       <h3>Wise (TransferWise)</h3>
       <p><strong>Best for:</strong> International payments with the lowest conversion fees.</p>
       <p>Wise uses the real mid-market exchange rate with a small transparent fee (typically 0.4–0.8%). For freelancers with international clients, Wise can save 3–5% per transaction compared to PayPal or traditional wire transfers. It's not a traditional payment gateway — clients transfer money directly — but it's the cheapest option for cross-border payments.</p>
       <p><strong>Pros:</strong> Best exchange rates, transparent fees, multi-currency accounts, fast transfers.</p>
       <p><strong>Cons:</strong> Not a card payment processor (bank transfer only), less suitable for instant payments.</p>
-      <p>For detailed fee comparisons, use our <a href="/international-payment-fee-calculator">international payment fee calculator</a>.</p>
+      <p>For detailed fee comparisons, use our <a href="/en/international-payment-fee-calculator">international payment fee calculator</a>.</p>
 
       <h3>Square</h3>
       <p><strong>Best for:</strong> Freelancers who also accept in-person payments.</p>
@@ -15812,10 +15817,10 @@ Thank you for your business!
       </ul>
 
       <h2>Integrating Payments with Your Invoicing Workflow</h2>
-      <p><a href="/payments">Invoicemonk's payment integration</a> lets you connect your preferred payment gateways so clients see a "Pay Now" button on every invoice. When they pay:</p>
+      <p><a href="/en/payments">Invoicemonk's payment integration</a> lets you connect your preferred payment gateways so clients see a "Pay Now" button on every invoice. When they pay:</p>
       <ol>
         <li>The invoice is automatically marked as paid</li>
-        <li>Revenue is recorded in your <a href="/accounting">accounting</a></li>
+        <li>Revenue is recorded in your <a href="/en/accounting">accounting</a></li>
         <li>Payment processing fees are logged as expenses</li>
         <li>You receive a notification</li>
         <li>The client receives a payment confirmation</li>
@@ -15823,13 +15828,13 @@ Thank you for your business!
       <p>This end-to-end automation means zero manual reconciliation and a complete financial picture at all times.</p>
 
       <h2>Payment Fees as Tax Deductions</h2>
-      <p>Every payment processing fee is a legitimate business expense that reduces your taxable income. Ensure your <a href="/expenses">expense tracking</a> categorises these fees separately. Over a year, a freelancer processing $100,000 in payments through Stripe will pay roughly $3,200 in fees — that's a meaningful tax deduction you don't want to miss.</p>
+      <p>Every payment processing fee is a legitimate business expense that reduces your taxable income. Ensure your <a href="/en/expenses">expense tracking</a> categorises these fees separately. Over a year, a freelancer processing $100,000 in payments through Stripe will pay roughly $3,200 in fees — that's a meaningful tax deduction you don't want to miss.</p>
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/online-payment-methods-comparison-small-business">Online Payment Methods Compared</a></li>
-        <li><a href="/blog/international-payment-fees-explained">International Payment Fees Explained</a></li>
-        <li><a href="/blog/mobile-payment-options-for-small-business">Mobile Payment Options for Small Business</a></li>
+        <li><a href="/en/blog/online-payment-methods-comparison-small-business">Online Payment Methods Compared</a></li>
+        <li><a href="/en/blog/international-payment-fees-explained">International Payment Fees Explained</a></li>
+        <li><a href="/en/blog/mobile-payment-options-for-small-business">Mobile Payment Options for Small Business</a></li>
       </ul>
     `
   },
@@ -15874,7 +15879,7 @@ Thank you for your business!
       <h2>Major Payment Gateways and Their Invoicing Compatibility</h2>
 
       <h3>Stripe + Invoicing Software</h3>
-      <p>Stripe is the most developer-friendly payment gateway and integrates with virtually every invoicing platform. When connected to <a href="/payments">Invoicemonk</a>, clients see a Stripe-powered payment form directly on their invoice view. They enter card details, Stripe processes the payment, and Invoicemonk automatically records it.</p>
+      <p>Stripe is the most developer-friendly payment gateway and integrates with virtually every invoicing platform. When connected to <a href="/en/payments">Invoicemonk</a>, clients see a Stripe-powered payment form directly on their invoice view. They enter card details, Stripe processes the payment, and Invoicemonk automatically records it.</p>
       <p><strong>Compatible with:</strong> Invoicemonk, QuickBooks, FreshBooks, Xero, Zoho Invoice, Wave (via apps)</p>
       <p><strong>Best for:</strong> Card payments (credit/debit), ACH bank debits (US), SEPA transfers (EU)</p>
       <p><strong>Fee:</strong> 2.9% + $0.30 domestic, +1.5% for international cards</p>
@@ -15886,7 +15891,7 @@ Thank you for your business!
       <p><strong>Fee:</strong> 2.99% + fixed fee (varies by currency)</p>
 
       <h3>GoCardless + Invoicing Software</h3>
-      <p>GoCardless specialises in direct debit payments — ideal for <a href="/use-cases/recurring-billing">recurring billing</a>. Clients authorise a direct debit once, and subsequent payments are collected automatically. Fees are significantly lower than card payments (typically 1% + £0.20, capped at £4).</p>
+      <p>GoCardless specialises in direct debit payments — ideal for <a href="/en/use-cases/recurring-billing">recurring billing</a>. Clients authorise a direct debit once, and subsequent payments are collected automatically. Fees are significantly lower than card payments (typically 1% + £0.20, capped at £4).</p>
       <p><strong>Compatible with:</strong> Xero, QuickBooks, FreshBooks, Zoho Books</p>
       <p><strong>Best for:</strong> Recurring payments, retainer clients, subscription billing</p>
       <p><strong>Fee:</strong> ~1% + £0.20, capped at £4 per transaction</p>
@@ -15902,7 +15907,7 @@ Thank you for your business!
       <ol>
         <li><strong>Create a gateway account:</strong> Sign up with Stripe, PayPal, or your preferred provider. Complete identity verification.</li>
         <li><strong>Generate API keys:</strong> In your gateway dashboard, create API keys (a public key and a secret key).</li>
-        <li><strong>Enter keys in your invoicing software:</strong> In <a href="/payments">Invoicemonk's payment settings</a>, paste your API keys. The integration is live immediately.</li>
+        <li><strong>Enter keys in your invoicing software:</strong> In <a href="/en/payments">Invoicemonk's payment settings</a>, paste your API keys. The integration is live immediately.</li>
         <li><strong>Test with a small invoice:</strong> Create a test invoice and pay it yourself to confirm the flow works end-to-end.</li>
         <li><strong>Enable on all invoices:</strong> Once confirmed, enable the payment gateway as the default for all new invoices.</li>
       </ol>
@@ -15910,17 +15915,17 @@ Thank you for your business!
       <h2>Best Practices for Invoice Payment Collection</h2>
       <ul>
         <li><strong>Offer 2–3 payment options:</strong> Card (Stripe), PayPal, and bank transfer cover most client preferences.</li>
-        <li><strong>Set up automatic reminders:</strong> When invoices are overdue, <a href="/blog/setting-up-automatic-payment-reminders">automatic reminders</a> nudge clients to use the embedded payment link.</li>
-        <li><strong>Track payment fees:</strong> Record gateway fees as business expenses for <a href="/blog/small-business-tax-deductions-guide">tax deductions</a>.</li>
+        <li><strong>Set up automatic reminders:</strong> When invoices are overdue, <a href="/en/blog/setting-up-automatic-payment-reminders">automatic reminders</a> nudge clients to use the embedded payment link.</li>
+        <li><strong>Track payment fees:</strong> Record gateway fees as business expenses for <a href="/en/blog/small-business-tax-deductions-guide">tax deductions</a>.</li>
         <li><strong>Monitor failed payments:</strong> Check for failed payments weekly and follow up with clients to resolve card issues.</li>
         <li><strong>Consider fee absorption:</strong> Some freelancers add a small surcharge for card payments or offer a discount for bank transfers. Check local regulations on surcharging before implementing this.</li>
       </ul>
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/best-payment-integrations-freelancers">Best Payment Integrations for Freelancers</a></li>
-        <li><a href="/blog/online-payment-methods-comparison-small-business">Online Payment Methods Comparison</a></li>
-        <li><a href="/blog/international-payment-fees-explained">International Payment Fees Explained</a></li>
+        <li><a href="/en/blog/best-payment-integrations-freelancers">Best Payment Integrations for Freelancers</a></li>
+        <li><a href="/en/blog/online-payment-methods-comparison-small-business">Online Payment Methods Comparison</a></li>
+        <li><a href="/en/blog/international-payment-fees-explained">International Payment Fees Explained</a></li>
       </ul>
     `
   },
@@ -15964,12 +15969,12 @@ Thank you for your business!
     content: `
       <h2>Why Receipt Scanning Needs Invoicing Integration</h2>
       <p>Receipt scanning in isolation is useful but incomplete. You capture the expense, but then what? If your receipt scanner and invoicing tool are separate systems, you end up with expenses in one place and revenue in another. Your financial picture is fragmented — you can't generate an accurate P&L, you can't see your true profitability, and tax time requires manual reconciliation across tools.</p>
-      <p>When receipt scanning is integrated with your invoicing platform, every financial transaction — money in (invoices) and money out (expenses with receipts) — lives in one system. Your <a href="/accounting">accounting</a> is always current, your <a href="/compliance">tax compliance</a> is automatic, and you can answer "how profitable was last month?" with a single click.</p>
+      <p>When receipt scanning is integrated with your invoicing platform, every financial transaction — money in (invoices) and money out (expenses with receipts) — lives in one system. Your <a href="/en/accounting">accounting</a> is always current, your <a href="/en/compliance">tax compliance</a> is automatic, and you can answer "how profitable was last month?" with a single click.</p>
 
       <h2>Top Receipt Scanning Solutions Compared</h2>
 
       <h3>1. Invoicemonk — Best Integrated Solution</h3>
-      <p><a href="/receipts">Invoicemonk's receipt management</a> is built directly into its invoicing and expense tracking platform. Scan a receipt, and the expense is automatically categorised, recorded, and reflected in your financial reports. No third-party integration needed, no data sync issues, no extra subscription.</p>
+      <p><a href="/en/receipts">Invoicemonk's receipt management</a> is built directly into its invoicing and expense tracking platform. Scan a receipt, and the expense is automatically categorised, recorded, and reflected in your financial reports. No third-party integration needed, no data sync issues, no extra subscription.</p>
       <p><strong>Key features:</strong> OCR data extraction, auto-categorisation, expense linking, tax-ready reporting, search by date/merchant/amount.</p>
       <p><strong>Pricing:</strong> Included in all plans, including free.</p>
 
@@ -15997,7 +16002,7 @@ Thank you for your business!
       </ul>
 
       <h2>The Tax Compliance Connection</h2>
-      <p>Receipt scanning isn't just about organisation — it's about <a href="/compliance">tax compliance</a>. Tax authorities require documentary evidence for every business expense you claim. Without receipts, you can't substantiate deductions, and unsubstantiated deductions trigger penalties during audits.</p>
+      <p>Receipt scanning isn't just about organisation — it's about <a href="/en/compliance">tax compliance</a>. Tax authorities require documentary evidence for every business expense you claim. Without receipts, you can't substantiate deductions, and unsubstantiated deductions trigger penalties during audits.</p>
       <p>Different authorities have different receipt requirements:</p>
       <ul>
         <li><strong>IRS (US):</strong> Receipts required for expenses over $75. All receipts recommended.</li>
@@ -16005,7 +16010,7 @@ Thank you for your business!
         <li><strong>FIRS (Nigeria):</strong> Receipts supporting all claimed deductions. Digital copies accepted.</li>
         <li><strong>ATO (Australia):</strong> Receipts for all expenses over AUD 82.50 (or all GST-claimable expenses).</li>
       </ul>
-      <p>For detailed requirements, see our country-specific compliance guides: <a href="/blog/irs-invoice-requirements-us-compliance">IRS</a>, <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC</a>, <a href="/blog/firs-invoice-requirements-nigeria">FIRS</a>, <a href="/blog/ato-invoice-requirements-australian-compliance">ATO</a>.</p>
+      <p>For detailed requirements, see our country-specific compliance guides: <a href="/en/blog/irs-invoice-requirements-us-compliance">IRS</a>, <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">HMRC</a>, <a href="/en/blog/firs-invoice-requirements-nigeria">FIRS</a>, <a href="/en/blog/ato-invoice-requirements-australian-compliance">ATO</a>.</p>
 
       <h2>Building a Receipt Management Habit</h2>
       <ol>
@@ -16017,9 +16022,9 @@ Thank you for your business!
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/digital-receipt-management-guide">Digital Receipt Management Guide</a></li>
-        <li><a href="/blog/receipt-scanning-apps-comparison">Receipt Scanning Apps Comparison</a></li>
-        <li><a href="/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
+        <li><a href="/en/blog/digital-receipt-management-guide">Digital Receipt Management Guide</a></li>
+        <li><a href="/en/blog/receipt-scanning-apps-comparison">Receipt Scanning Apps Comparison</a></li>
+        <li><a href="/en/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
       </ul>
     `
   },
@@ -16067,7 +16072,7 @@ Thank you for your business!
 
       <h3>Step 1: Set Up Digital Receipt Forwarding</h3>
       <p>Most of your receipts are probably already digital — email confirmations from SaaS subscriptions, online purchases, and digital services. Set up a forwarding rule in your email client that automatically sends any email with "receipt," "invoice," or "payment confirmation" in the subject line to your receipt management tool.</p>
-      <p>Invoicemonk's <a href="/receipts">receipt management</a> accepts forwarded emails and automatically extracts the receipt data, creating an expense entry without any manual input. This alone can capture 50–70% of your business expenses automatically.</p>
+      <p>Invoicemonk's <a href="/en/receipts">receipt management</a> accepts forwarded emails and automatically extracts the receipt data, creating an expense entry without any manual input. This alone can capture 50–70% of your business expenses automatically.</p>
 
       <h3>Step 2: Configure Mobile Scanning for Physical Receipts</h3>
       <p>For physical receipts (restaurants, office supplies, taxis), install your receipt scanning app on your phone and build the habit of scanning immediately after purchase. Don't put the receipt in your wallet "to scan later" — you won't. Scan it in the moment, confirm the OCR extraction, and discard the paper.</p>
@@ -16078,7 +16083,7 @@ Thank you for your business!
       <p>Bank feeds also serve as a reconciliation tool: every scanned receipt should match a bank transaction. If they don't, something is wrong — either an expense was categorised incorrectly or a transaction was missed.</p>
 
       <h3>Step 4: Set Up Auto-Categorisation Rules</h3>
-      <p>After a few weeks of scanning, your software learns your patterns. Amazon purchases go to "Office Supplies." Uber receipts go to "Travel." Adobe subscriptions go to "Software." <a href="/expenses">Invoicemonk's smart categorisation</a> creates rules based on merchant names, so new transactions from known merchants are categorised automatically.</p>
+      <p>After a few weeks of scanning, your software learns your patterns. Amazon purchases go to "Office Supplies." Uber receipts go to "Travel." Adobe subscriptions go to "Software." <a href="/en/expenses">Invoicemonk's smart categorisation</a> creates rules based on merchant names, so new transactions from known merchants are categorised automatically.</p>
 
       <h3>Step 5: Weekly Review (15 Minutes)</h3>
       <p>Even with full automation, a weekly review is essential. Spend 15 minutes checking:</p>
@@ -16094,7 +16099,7 @@ Thank you for your business!
 
       <h3>Invoicemonk</h3>
       <p><strong>Best for:</strong> Freelancers who want receipt capture integrated with invoicing and accounting.</p>
-      <p><a href="/receipts">Invoicemonk</a> offers mobile scanning, email forwarding, OCR extraction, and auto-categorisation — all integrated with <a href="/invoicing">invoicing</a> and <a href="/accounting">accounting</a>. Your receipts feed directly into your financial reports and tax submissions. Available on all plans including free.</p>
+      <p><a href="/en/receipts">Invoicemonk</a> offers mobile scanning, email forwarding, OCR extraction, and auto-categorisation — all integrated with <a href="/en/invoicing">invoicing</a> and <a href="/en/accounting">accounting</a>. Your receipts feed directly into your financial reports and tax submissions. Available on all plans including free.</p>
 
       <h3>Dext</h3>
       <p><strong>Best for:</strong> Businesses that need industrial-grade receipt processing with accounting integration.</p>
@@ -16115,9 +16120,9 @@ Thank you for your business!
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/best-receipt-scanning-invoicing-integration">Best Receipt Scanning with Invoicing Integration</a></li>
-        <li><a href="/blog/digital-receipt-management-guide">Digital Receipt Management Guide</a></li>
-        <li><a href="/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
+        <li><a href="/en/blog/best-receipt-scanning-invoicing-integration">Best Receipt Scanning with Invoicing Integration</a></li>
+        <li><a href="/en/blog/digital-receipt-management-guide">Digital Receipt Management Guide</a></li>
+        <li><a href="/en/blog/expense-tracking-methods-small-business">Expense Tracking Methods for Small Business</a></li>
       </ul>
     `
   },
@@ -16164,7 +16169,7 @@ Thank you for your business!
         <li><strong>Revenue (Top Line):</strong> Total money earned from sales and services before any deductions</li>
         <li><strong>Cost of Goods Sold (COGS):</strong> Direct costs to deliver your product or service — materials, subcontractors, direct labour</li>
         <li><strong>Gross Profit:</strong> Revenue minus COGS. This shows whether your core offering is profitable before overheads</li>
-        <li><strong>Operating Expenses:</strong> Rent, utilities, software, marketing — everything that keeps the business running. Track <a href="/blog/tax-deductible-business-expenses">deductible expenses</a> carefully</li>
+        <li><strong>Operating Expenses:</strong> Rent, utilities, software, marketing — everything that keeps the business running. Track <a href="/en/blog/tax-deductible-business-expenses">deductible expenses</a> carefully</li>
         <li><strong>Net Profit (Bottom Line):</strong> What's left after all expenses, taxes, and interest. This is your actual profit</li>
       </ul>
 
@@ -16200,21 +16205,21 @@ Thank you for your business!
       <p>These three reports aren't isolated — they tell a connected story:</p>
       <ul>
         <li>Net profit from the income statement flows into equity on the balance sheet</li>
-        <li>Accounts receivable on the balance sheet reflects unpaid <a href="/invoicing">invoices</a> from the income statement</li>
+        <li>Accounts receivable on the balance sheet reflects unpaid <a href="/en/invoicing">invoices</a> from the income statement</li>
         <li>The cash flow statement reconciles why profit and cash in the bank don't always match (hint: it's usually unpaid invoices and upfront expenses)</li>
       </ul>
 
       <h2>Getting Started</h2>
-      <p>You don't need to become an accountant. Start by reviewing your income statement and cash flow statement monthly using <a href="/accounting">accounting software</a> that generates them automatically. Look for trends, not just numbers. And when something looks off, dig deeper or ask your accountant.</p>
+      <p>You don't need to become an accountant. Start by reviewing your income statement and cash flow statement monthly using <a href="/en/accounting">accounting software</a> that generates them automatically. Look for trends, not just numbers. And when something looks off, dig deeper or ask your accountant.</p>
 
-      <p>For foundational bookkeeping practices, see our <a href="/blog/accounting-101-small-business-owners">Accounting 101 guide</a> and <a href="/guides/business-finances">Business Finances guide</a>.</p>
+      <p>For foundational bookkeeping practices, see our <a href="/en/blog/accounting-101-small-business-owners">Accounting 101 guide</a> and <a href="/en/guides/business-finances">Business Finances guide</a>.</p>
 
       <h2>Related Reading</h2>
       <ul>
-        <li><a href="/blog/accounting-101-small-business-owners">Accounting 101 for Small Business Owners</a></li>
+        <li><a href="/en/blog/accounting-101-small-business-owners">Accounting 101 for Small Business Owners</a></li>
         <li><a href="/en/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting for Small Businesses</a></li>
-        <li><a href="/blog/business-expense-categories-guide">Business Expense Categories Guide</a></li>
-        <li><a href="/guides/business-finances">Business Finances Guide</a></li>
+        <li><a href="/en/blog/business-expense-categories-guide">Business Expense Categories Guide</a></li>
+        <li><a href="/en/guides/business-finances">Business Finances Guide</a></li>
       </ul>
     `
   },

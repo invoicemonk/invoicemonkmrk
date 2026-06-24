@@ -63,60 +63,221 @@
     {
       "title": "What each tool does",
       "rows": [
-        { "name": "Create outbound invoices to send to clients", "invoicemonk": true, "competitor": false },
-        { "name": "Send invoices to clients by email", "invoicemonk": true, "competitor": false },
-        { "name": "Accept client payments", "invoicemonk": true, "competitor": false },
-        { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": false },
-        { "name": "Payment tracking dashboard", "invoicemonk": true, "competitor": false },
-        { "name": "Client database", "invoicemonk": true, "competitor": false },
-        { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": false },
-        { "name": "Compliance-first cross-border invoice generation", "invoicemonk": true, "competitor": false },
-        { "name": "Capture inbound receipts and purchase invoices", "invoicemonk": false, "competitor": true },
-        { "name": "OCR data extraction from documents", "invoicemonk": false, "competitor": "99.9% accuracy" },
-        { "name": "Auto-categorise expenses", "invoicemonk": "Manual", "competitor": true },
-        { "name": "Publish data to Xero, QuickBooks, Sage", "invoicemonk": false, "competitor": true },
-        { "name": "Expense management for your own costs", "invoicemonk": "Basic", "competitor": true },
-        { "name": "Mileage tracking", "invoicemonk": false, "competitor": true },
-        { "name": "Bank statement extraction", "invoicemonk": false, "competitor": true },
-        { "name": "Integration with 11,500+ banks", "invoicemonk": false, "competitor": true },
-        { "name": "E-commerce data sync (Shopify, Amazon, Stripe)", "invoicemonk": false, "competitor": true }
+        {
+          "name": "E-invoicing mandates supported",
+          "invoicemonk": "16 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
+          "competitor": "0 (receipt capture, not an invoice issuer)"
+        },
+        {
+          "name": "Create outbound invoices to send to clients",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Send invoices to clients by email",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Accept client payments",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Automatic payment reminders",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Payment tracking dashboard",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Client database",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Multi-currency invoicing",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Compliance-first cross-border invoice generation",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Capture inbound receipts and purchase invoices",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "OCR data extraction from documents",
+          "invoicemonk": false,
+          "competitor": "99.9% accuracy"
+        },
+        {
+          "name": "Auto-categorise expenses",
+          "invoicemonk": "Manual",
+          "competitor": true
+        },
+        {
+          "name": "Publish data to Xero, QuickBooks, Sage",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Expense management for your own costs",
+          "invoicemonk": "Basic",
+          "competitor": true
+        },
+        {
+          "name": "Mileage tracking",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Bank statement extraction",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Integration with 11,500+ banks",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "E-commerce data sync (Shopify, Amazon, Stripe)",
+          "invoicemonk": false,
+          "competitor": true
+        }
       ]
     },
     {
       "title": "Invoicing features (Invoicemonk only)",
       "rows": [
-        { "name": "Invoice templates", "invoicemonk": true, "competitor": false },
-        { "name": "Custom branding", "invoicemonk": true, "competitor": false },
-        { "name": "Recurring invoices", "invoicemonk": true, "competitor": false },
-        { "name": "Estimates and quotes", "invoicemonk": true, "competitor": false },
-        { "name": "Late payment fees", "invoicemonk": true, "competitor": false },
-        { "name": "Invoice history", "invoicemonk": true, "competitor": false },
-        { "name": "Client payment portal", "invoicemonk": true, "competitor": false },
-        { "name": "International payment processing", "invoicemonk": true, "competitor": false }
+        {
+          "name": "Invoice templates",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Custom branding",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Recurring invoices",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Estimates and quotes",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Late payment fees",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Invoice history",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Client payment portal",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "International payment processing",
+          "invoicemonk": true,
+          "competitor": false
+        }
       ]
     },
     {
       "title": "Document capture features (Dext only)",
       "rows": [
-        { "name": "Mobile receipt scanning", "invoicemonk": false, "competitor": true },
-        { "name": "Email-in document submission", "invoicemonk": false, "competitor": true },
-        { "name": "Auto-fetch from supplier portals", "invoicemonk": false, "competitor": true },
-        { "name": "Line item extraction", "invoicemonk": false, "competitor": true },
-        { "name": "Smart split for recurring suppliers", "invoicemonk": false, "competitor": true },
-        { "name": "Duplicate detection", "invoicemonk": false, "competitor": true },
-        { "name": "7-year document storage", "invoicemonk": false, "competitor": true },
-        { "name": "GDPR-compliant UK and EU cloud hosting", "invoicemonk": false, "competitor": true }
+        {
+          "name": "Mobile receipt scanning",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Email-in document submission",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Auto-fetch from supplier portals",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Line item extraction",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Smart split for recurring suppliers",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Duplicate detection",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "7-year document storage",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "GDPR-compliant UK and EU cloud hosting",
+          "invoicemonk": false,
+          "competitor": true
+        }
       ]
     },
     {
       "title": "Shared features",
       "rows": [
-        { "name": "Mobile app", "invoicemonk": true, "competitor": true },
-        { "name": "Multi-currency support", "invoicemonk": true, "competitor": "Detection only" },
-        { "name": "Cloud-based platform", "invoicemonk": true, "competitor": true },
-        { "name": "Bank-level encryption", "invoicemonk": true, "competitor": true },
-        { "name": "Integration with accounting software", "invoicemonk": true, "competitor": "30+ integrations" },
-        { "name": "Available internationally", "invoicemonk": true, "competitor": true }
+        {
+          "name": "Mobile app",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Multi-currency support",
+          "invoicemonk": true,
+          "competitor": "Detection only"
+        },
+        {
+          "name": "Cloud-based platform",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Bank-level encryption",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Integration with accounting software",
+          "invoicemonk": true,
+          "competitor": "30+ integrations"
+        },
+        {
+          "name": "Available internationally",
+          "invoicemonk": true,
+          "competitor": true
+        }
       ]
     }
   ],
@@ -128,21 +289,57 @@
     "invoicemonk": {
       "title": "Invoicemonk pricing (2026)",
       "plans": [
-        { "name": "Starter", "price": "Free", "detail": "5 invoices/mo, 5 receipts/mo, up to 5 clients, 1 currency account, 1 user, watermark-free PDFs, accounting module, expense tracking, credit notes" },
-        { "name": "Pro", "price": "$15/mo", "detail": "Unlimited invoices, receipts, clients, currency accounts. Up to 5 users. Custom branding, audit trail, data exports" },
-        { "name": "SME", "price": "$49/mo", "detail": "Everything in Pro, plus online payments, advanced reports, premium templates, unlimited team" },
-        { "name": "Biz", "price": "Custom", "detail": "E-invoicing & government submission, dedicated account manager, custom integrations, SLA" }
+        {
+          "name": "Starter",
+          "price": "Free",
+          "detail": "5 invoices/mo, 5 receipts/mo, up to 5 clients, 1 currency account, 1 user, watermark-free PDFs, accounting module, expense tracking, credit notes"
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo",
+          "detail": "Unlimited invoices, receipts, clients, currency accounts. Up to 5 users. Custom branding, audit trail, data exports"
+        },
+        {
+          "name": "SME",
+          "price": "$49/mo",
+          "detail": "Everything in Pro, plus online payments, advanced reports, premium templates, unlimited team"
+        },
+        {
+          "name": "Biz",
+          "price": "Custom",
+          "detail": "E-invoicing & government submission, dedicated account manager, custom integrations, SLA"
+        }
       ],
       "note": "Annual billing: pay for 10 months, get 12 (~17% off). Every plan includes compliant cross-border invoicing, multi-currency, accounting, and credit notes."
     },
     "competitor": {
       "title": "Dext pricing (2026)",
       "plans": [
-        { "name": "Business Essentials", "price": "$31.50/mo", "detail": "5 users, 250 documents/month. Receipt and invoice capture, expense management, bank feeds, accounting integration" },
-        { "name": "Business Essentials (annual)", "price": "$25.21/mo", "detail": "20% saving on annual subscription" },
-        { "name": "Business Advanced", "price": "Higher tier", "detail": "Adds practice productivity features, enhanced automation rules, larger document allowances" },
-        { "name": "Practice Essentials", "price": "$239.19/mo", "detail": "10 client accounts. For accounting firms providing Dext to their clients. Annual: $207.99/mo (~13% off)" },
-        { "name": "Practice Advanced", "price": "Custom", "detail": "Adds Workflows, practice-level Insights, Teams and Locations features. Pricing scales with client account volume" }
+        {
+          "name": "Business Essentials",
+          "price": "$31.50/mo",
+          "detail": "5 users, 250 documents/month. Receipt and invoice capture, expense management, bank feeds, accounting integration"
+        },
+        {
+          "name": "Business Essentials (annual)",
+          "price": "$25.21/mo",
+          "detail": "20% saving on annual subscription"
+        },
+        {
+          "name": "Business Advanced",
+          "price": "Higher tier",
+          "detail": "Adds practice productivity features, enhanced automation rules, larger document allowances"
+        },
+        {
+          "name": "Practice Essentials",
+          "price": "$239.19/mo",
+          "detail": "10 client accounts. For accounting firms providing Dext to their clients. Annual: $207.99/mo (~13% off)"
+        },
+        {
+          "name": "Practice Advanced",
+          "price": "Custom",
+          "detail": "Adds Workflows, practice-level Insights, Teams and Locations features. Pricing scales with client account volume"
+        }
       ],
       "note": "Plans available in USD, GBP, EUR, CAD, AUD, and ZAR. No free plan — 14-day trial only. Document allowance limits apply per month."
     },
@@ -226,22 +423,86 @@
   "summaryTable": {
     "title": "Side-by-side summary",
     "rows": [
-      { "name": "Monthly price", "invoicemonk": "Pro from $15/mo, SME $49/mo", "competitor": "$31.50/mo ($25.21/mo annual)" },
-      { "name": "Free plan or trial", "invoicemonk": "No — cancel anytime", "competitor": "14-day trial only" },
-      { "name": "Primary function", "invoicemonk": "Outbound invoicing and payment collection", "competitor": "Inbound receipt and invoice capture" },
-      { "name": "Send invoices to clients", "invoicemonk": true, "competitor": false },
-      { "name": "Accept client payments", "invoicemonk": true, "competitor": false },
-      { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": false },
-      { "name": "Compliance-first invoice generation", "invoicemonk": true, "competitor": false },
-      { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": false },
-      { "name": "Receipt and document capture", "invoicemonk": false, "competitor": true },
-      { "name": "OCR data extraction", "invoicemonk": false, "competitor": "99.9% accuracy" },
-      { "name": "Publish to Xero or QuickBooks", "invoicemonk": false, "competitor": true },
-      { "name": "Expense categorisation", "invoicemonk": "Manual", "competitor": "AI" },
-      { "name": "Mobile receipt scanning", "invoicemonk": false, "competitor": true },
-      { "name": "7-year document storage", "invoicemonk": false, "competitor": true },
-      { "name": "11,500+ bank integrations", "invoicemonk": false, "competitor": true },
-      { "name": "Best for", "invoicemonk": "International freelancers billing clients", "competitor": "Freelancers managing expenses with accountants" }
+      {
+        "name": "Monthly price",
+        "invoicemonk": "Pro from $15/mo, SME $49/mo",
+        "competitor": "$31.50/mo ($25.21/mo annual)"
+      },
+      {
+        "name": "Free plan or trial",
+        "invoicemonk": "No — cancel anytime",
+        "competitor": "14-day trial only"
+      },
+      {
+        "name": "Primary function",
+        "invoicemonk": "Outbound invoicing and payment collection",
+        "competitor": "Inbound receipt and invoice capture"
+      },
+      {
+        "name": "Send invoices to clients",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Accept client payments",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Automatic payment reminders",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Compliance-first invoice generation",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Multi-currency invoicing",
+        "invoicemonk": true,
+        "competitor": false
+      },
+      {
+        "name": "Receipt and document capture",
+        "invoicemonk": false,
+        "competitor": true
+      },
+      {
+        "name": "OCR data extraction",
+        "invoicemonk": false,
+        "competitor": "99.9% accuracy"
+      },
+      {
+        "name": "Publish to Xero or QuickBooks",
+        "invoicemonk": false,
+        "competitor": true
+      },
+      {
+        "name": "Expense categorisation",
+        "invoicemonk": "Manual",
+        "competitor": "AI"
+      },
+      {
+        "name": "Mobile receipt scanning",
+        "invoicemonk": false,
+        "competitor": true
+      },
+      {
+        "name": "7-year document storage",
+        "invoicemonk": false,
+        "competitor": true
+      },
+      {
+        "name": "11,500+ bank integrations",
+        "invoicemonk": false,
+        "competitor": true
+      },
+      {
+        "name": "Best for",
+        "invoicemonk": "International freelancers billing clients",
+        "competitor": "Freelancers managing expenses with accountants"
+      }
     ]
   },
   "bottomLine": {
@@ -256,41 +517,105 @@
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Can Dext send invoices to my clients?", "answer": "No. Dext captures and processes inbound financial documents (receipts, purchase invoices, bank statements) and publishes the extracted data to accounting software. It does not create or send outbound invoices to clients. For outbound invoicing, you need a dedicated invoicing tool such as Invoicemonk." },
-      { "question": "Does Dext process client payments?", "answer": "No. Dext does not process payments of any kind. It is a document capture and data extraction platform, not a payment processor or invoicing platform." },
-      { "question": "Can Dext send automatic payment reminders?", "answer": "No. Payment reminders are a feature of outbound invoicing tools. Dext has no reminder functionality because it is not designed for the client billing workflow." },
-      { "question": "What is Dext best used for by freelancers?", "answer": "Dext is most valuable to freelancers who work with an accountant or bookkeeper and want to submit business expenses cleanly and automatically, or who spend significant time each month manually entering receipt and invoice data into accounting software. It eliminates that data entry work through AI-powered OCR extraction and direct integration with accounting software." },
-      { "question": "Does Dext work for freelancers outside the UK and US?", "answer": "Yes. According to G2's pricing documentation, Dext's plans are available in USD, GBP, EUR, CAD, AUD, and ZAR. The platform connects with over 11,500 banks and financial institutions worldwide, making it practically usable in most countries." },
-      { "question": "What was Dext previously called?", "answer": "Dext was previously called Receipt Bank. The company rebranded from Receipt Bank to Dext in 2021. Dext Prepare is the new name for the core Receipt Bank product." },
-      { "question": "Does Invoicemonk integrate with Dext?", "answer": "Invoicemonk and Dext operate on different sides of the financial workflow and do not currently integrate directly. Invoicemonk manages your outbound invoicing and payment collection. Dext manages your inbound document capture and expense processing. Both can feed into your accounting software, where your records are consolidated." },
-      { "question": "Can I use both Invoicemonk and Dext together?", "answer": "Yes — and for many international freelancers with professional accounting support and regular business expenses, using both makes sense. Invoicemonk handles outbound invoices and payments from clients. Dext handles inbound receipts and expenses going to your accountant. They are not duplicates." }
+      {
+        "question": "Can Dext send invoices to my clients?",
+        "answer": "No. Dext captures and processes inbound financial documents (receipts, purchase invoices, bank statements) and publishes the extracted data to accounting software. It does not create or send outbound invoices to clients. For outbound invoicing, you need a dedicated invoicing tool such as Invoicemonk."
+      },
+      {
+        "question": "Does Dext process client payments?",
+        "answer": "No. Dext does not process payments of any kind. It is a document capture and data extraction platform, not a payment processor or invoicing platform."
+      },
+      {
+        "question": "Can Dext send automatic payment reminders?",
+        "answer": "No. Payment reminders are a feature of outbound invoicing tools. Dext has no reminder functionality because it is not designed for the client billing workflow."
+      },
+      {
+        "question": "What is Dext best used for by freelancers?",
+        "answer": "Dext is most valuable to freelancers who work with an accountant or bookkeeper and want to submit business expenses cleanly and automatically, or who spend significant time each month manually entering receipt and invoice data into accounting software. It eliminates that data entry work through AI-powered OCR extraction and direct integration with accounting software."
+      },
+      {
+        "question": "Does Dext work for freelancers outside the UK and US?",
+        "answer": "Yes. According to G2's pricing documentation, Dext's plans are available in USD, GBP, EUR, CAD, AUD, and ZAR. The platform connects with over 11,500 banks and financial institutions worldwide, making it practically usable in most countries."
+      },
+      {
+        "question": "What was Dext previously called?",
+        "answer": "Dext was previously called Receipt Bank. The company rebranded from Receipt Bank to Dext in 2021. Dext Prepare is the new name for the core Receipt Bank product."
+      },
+      {
+        "question": "Does Invoicemonk integrate with Dext?",
+        "answer": "Invoicemonk and Dext operate on different sides of the financial workflow and do not currently integrate directly. Invoicemonk manages your outbound invoicing and payment collection. Dext manages your inbound document capture and expense processing. Both can feed into your accounting software, where your records are consolidated."
+      },
+      {
+        "question": "Can I use both Invoicemonk and Dext together?",
+        "answer": "Yes — and for many international freelancers with professional accounting support and regular business expenses, using both makes sense. Invoicemonk handles outbound invoices and payments from clients. Dext handles inbound receipts and expenses going to your accountant. They are not duplicates."
+      }
     ]
   },
   "sources": {
     "title": "Sources and further reading",
     "items": [
-      { "label": "Dext Official: 'Dext is a bookkeeping automation platform' — dext.com/en (verified May 2026). Source for core product definition." },
-      { "label": "Dext Official: 'Dext is the new name for our company. Dext Prepare is the new name for Receipt Bank' — dext.com/us/receipt-bank (verified May 2026). Source for company history: founded 2010 as Receipt Bank, rebranded as Dext in 2021." },
-      { "label": "Dext Official: Bookkeeping automation platform page — dext.com/us/bookkeeping-automation-platform (verified May 2026). Source for 700,000 businesses and 12,000 accounting firms figure, and 3–4× efficiency gains reported by accounting firms." },
-      { "label": "Dext Help Centre: 'Getting started with Dext for accountants and bookkeepers' — help.dext.com (verified May 2026). Source for core workflow documentation." },
-      { "label": "G2: 'Dext Pricing 2026' — g2.com (November 2025). Source for Business plan pricing ($31.50/mo for 5 users and 250 documents, $25.21/mo annual) and Practice plan pricing ($239.19/mo for 10 clients, $207.99/mo annual). Plans in USD, GBP, EUR, CAD, AUD, ZAR." },
-      { "label": "Capterra: 'Dext Software Pricing, Alternatives and More 2026' — capterra.com (verified May 2026). Source for user reviews on ease of use, Xero integration, and general practitioner sentiment." },
-      { "label": "GetApp: 'Dext 2026 Pricing, Features, Reviews and Alternatives' — getapp.com (verified May 2026). Source for reviewer industry breakdown (38% accountants, 53% accounting use case), Xero/QBO integrations both rated 4.9/5, and 29-review pricing analysis." },
-      { "label": "Capterra: Dext Pricing page — capterra.com/p/160189/Dext/pricing/ (verified May 2026). Source for 14-day Pro plan confirmation." },
-      { "label": "Research.com: 'Dext Review 2026: Pricing, Features, Pros and Cons' — research.com (verified May 2026). Source for Dext user types and automatic currency detection features." },
-      { "label": "TrustRadius: 'Dext Pricing 2026' — trustradius.com. Source for starting price of $32/mo and annual discount availability." },
-      { "label": "Dext Official: Receipt and invoice capture software page — dext.com/en/business/product/capture-receipts-and-invoices (verified May 2026). Source for 99.9% OCR accuracy claim including handwritten and crumpled receipts." }
+      {
+        "label": "Dext Official: 'Dext is a bookkeeping automation platform' — dext.com/en (verified May 2026). Source for core product definition."
+      },
+      {
+        "label": "Dext Official: 'Dext is the new name for our company. Dext Prepare is the new name for Receipt Bank' — dext.com/us/receipt-bank (verified May 2026). Source for company history: founded 2010 as Receipt Bank, rebranded as Dext in 2021."
+      },
+      {
+        "label": "Dext Official: Bookkeeping automation platform page — dext.com/us/bookkeeping-automation-platform (verified May 2026). Source for 700,000 businesses and 12,000 accounting firms figure, and 3–4× efficiency gains reported by accounting firms."
+      },
+      {
+        "label": "Dext Help Centre: 'Getting started with Dext for accountants and bookkeepers' — help.dext.com (verified May 2026). Source for core workflow documentation."
+      },
+      {
+        "label": "G2: 'Dext Pricing 2026' — g2.com (November 2025). Source for Business plan pricing ($31.50/mo for 5 users and 250 documents, $25.21/mo annual) and Practice plan pricing ($239.19/mo for 10 clients, $207.99/mo annual). Plans in USD, GBP, EUR, CAD, AUD, ZAR."
+      },
+      {
+        "label": "Capterra: 'Dext Software Pricing, Alternatives and More 2026' — capterra.com (verified May 2026). Source for user reviews on ease of use, Xero integration, and general practitioner sentiment."
+      },
+      {
+        "label": "GetApp: 'Dext 2026 Pricing, Features, Reviews and Alternatives' — getapp.com (verified May 2026). Source for reviewer industry breakdown (38% accountants, 53% accounting use case), Xero/QBO integrations both rated 4.9/5, and 29-review pricing analysis."
+      },
+      {
+        "label": "Capterra: Dext Pricing page — capterra.com/p/160189/Dext/pricing/ (verified May 2026). Source for 14-day Pro plan confirmation."
+      },
+      {
+        "label": "Research.com: 'Dext Review 2026: Pricing, Features, Pros and Cons' — research.com (verified May 2026). Source for Dext user types and automatic currency detection features."
+      },
+      {
+        "label": "TrustRadius: 'Dext Pricing 2026' — trustradius.com. Source for starting price of $32/mo and annual discount availability."
+      },
+      {
+        "label": "Dext Official: Receipt and invoice capture software page — dext.com/en/business/product/capture-receipts-and-invoices (verified May 2026). Source for 99.9% OCR accuracy claim including handwritten and crumpled receipts."
+      }
     ]
   },
   "related": {
     "title": "More comparisons",
     "links": [
-      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
-      { "label": "Invoicemonk vs Zoho", "to": "/compare/invoicemonk-vs-zoho-invoice" },
-      { "label": "Invoicemonk vs Stripe", "to": "/compare/invoicemonk-vs-stripe" },
-      { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs QuickBooks",
+        "to": "/compare/invoicemonk-vs-quickbooks"
+      },
+      {
+        "label": "Invoicemonk vs FreshBooks",
+        "to": "/compare/invoicemonk-vs-freshbooks"
+      },
+      {
+        "label": "Invoicemonk vs Wave",
+        "to": "/compare/invoicemonk-vs-wave"
+      },
+      {
+        "label": "Invoicemonk vs Zoho",
+        "to": "/compare/invoicemonk-vs-zoho-invoice"
+      },
+      {
+        "label": "Invoicemonk vs Stripe",
+        "to": "/compare/invoicemonk-vs-stripe"
+      },
+      {
+        "label": "Best Invoicing Software 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "cta": {

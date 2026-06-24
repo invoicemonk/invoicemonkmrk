@@ -28,7 +28,7 @@ export function SoftwareApplicationSchema({
     "name": name,
     "description": description || locale.content.seo.siteDescription,
     "applicationCategory": "FinanceApplication",
-    "applicationSubCategory": "Invoicing Software",
+    "applicationSubCategory": "ElectronicInvoicingSoftware",
     "operatingSystem": "Web",
     "browserRequirements": "Requires JavaScript. Requires HTML5.",
     "softwareVersion": "1.0",
@@ -47,6 +47,9 @@ export function SoftwareApplicationSchema({
       })),
     },
     "featureList": [
+      "Mandate-compliant e-invoicing (16 jurisdictions)",
+      "CSID, IRN, UUID, QR and digital signatures",
+      "Peppol BIS Billing 3.0 routing via certified Access Point",
       "Professional Invoice Creation",
       "Expense Tracking with Receipt Scanning",
       "Payment Processing",

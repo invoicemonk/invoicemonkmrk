@@ -38,6 +38,12 @@ import '@/data/blogPostsCluster17';
 import '@/data/blogPostsCluster18';
 import '@/data/blogPostsCluster19';
 import '@/data/blogPostsCluster20';
+import '@/data/blogPostsClusterEInvoicing';
+import '@/data/blogPostsClusterEInvoicing2';
+import '@/data/blogPostsClusterEInvoicing3';
+import '@/data/blogPostsClusterEInvoicing4';
+import '@/data/blogPostsClusterEInvoicing5';
+import '@/data/blogPostsClusterEInvoicing6';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;

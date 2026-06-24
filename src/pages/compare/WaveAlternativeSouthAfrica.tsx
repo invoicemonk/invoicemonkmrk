@@ -7,6 +7,7 @@ import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
+import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 
 const faqs = [
   { question: 'Why is Wave not ideal for South African businesses?', answer: 'Wave\'s payment processing doesn\'t work in South Africa, there are no SARS compliance features, no tax reference number fields, and no 15% VAT defaults for ZAR. South African businesses need invoicing software with local tax compliance built in.' },
@@ -106,6 +107,9 @@ export default function WaveAlternativeSouthAfrica() {
       </section>
 
       <InlineSignupCTA variant="banner" />
+
+      <MandateMatrixSection highlightSlug="sars-south-africa" />
+
 
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

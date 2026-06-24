@@ -11,6 +11,7 @@ import { HomeFreeToolsSection } from '@/components/home/HomeFreeToolsSection';
 import { HomeBlogSection } from '@/components/home/HomeBlogSection';
 import { FAQSection } from '@/components/home/FAQSection';
 import { WaveCTASection } from '@/components/home/WaveCTASection';
+import { GlobalCapabilityBlock } from '@/components/e-invoicing/GlobalCapabilityBlock';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationSchema';
 import { WebSiteSchema } from '@/components/seo/WebSiteSchema';
@@ -58,6 +59,9 @@ const Index = () => {
         <WaveProductTabs />
         <WaveFeatureBenefits />
         <ComplianceTrustSection />
+        <section className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <GlobalCapabilityBlock />
+        </section>
         <WaveTestimonials />
         <WavePersonaSection />
         <HomeFreeToolsSection />

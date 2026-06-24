@@ -8,29 +8,32 @@ import { Link } from '@/components/LocalizedLink';
 
 const mandates = [
   { region: 'Asia-Pacific', countries: [
-    { name: 'India', system: 'GST E-Invoicing (IRP)', status: 'live', threshold: '₹5 crore+', link: '/blog/e-invoicing-india-gst-guide', detail: 'Mandatory since 2020 (phased). IRN via IRP. Expanding to all GST-registered businesses.' },
-    { name: 'Malaysia', system: 'MyInvois (LHDN)', status: 'upcoming', threshold: 'All businesses by 2026', link: '/compliance', detail: 'Mandatory for businesses with RM100M+ turnover from Aug 2024. Full rollout by July 2025.' },
-    { name: 'Australia', system: 'Peppol e-Invoicing', status: 'live', threshold: 'Government suppliers', link: '/blog/ato-invoice-requirements-australian-compliance', detail: 'Mandatory for government suppliers. Voluntary for B2B via Peppol network.' },
+    { name: 'India', system: 'GST E-Invoicing (IRP)', status: 'live', threshold: '₹5 crore+', link: '/e-invoicing/gst-irn-india', detail: 'Mandatory since 2020 (phased). IRN via IRP. Expanding to all GST-registered businesses.' },
+    { name: 'Malaysia', system: 'MyInvois (LHDN)', status: 'live', threshold: 'Phased rollout, all taxpayers by Jul 2025', link: '/e-invoicing/myinvois-malaysia', detail: 'Mandatory for businesses with RM100M+ turnover from Aug 2024. Full rollout by July 2025.' },
+    { name: 'Philippines', system: 'BIR CAS', status: 'live', threshold: 'Large taxpayers + e-commerce', link: '/e-invoicing/bir-cas-philippines', detail: 'BIR Computerized Accounting System for the large-taxpayer service and e-commerce platforms.' },
+    { name: 'Australia', system: 'Peppol e-Invoicing', status: 'live', threshold: 'Government suppliers', link: '/e-invoicing/peppol-eu', detail: 'Mandatory for government suppliers. Voluntary for B2B via Peppol network.' },
   ]},
   { region: 'Africa', countries: [
-    { name: 'Nigeria', system: 'FIRS TaxPro-Max', status: 'live', threshold: 'Phased rollout', link: '/blog/e-invoicing-nigeria-firs-guide', detail: 'Mandatory for large taxpayers (Aug 2025). SMEs phasing in from Jan 2026.' },
-    { name: 'Kenya', system: 'KRA eTIMS', status: 'live', threshold: 'All VAT-registered', link: '/blog/e-invoicing-kenya-etims', detail: 'Mandatory for all VAT-registered businesses. eTIMS device or software required.' },
-    { name: 'South Africa', system: 'SARS (under review)', status: 'planned', threshold: 'TBD', link: '/blog/sars-invoice-requirements-south-africa', detail: 'SARS is reviewing e-invoicing mandate. No confirmed timeline yet.' },
+    { name: 'Nigeria', system: 'FIRS Merchant-Buyer Solution', status: 'live', threshold: 'Phased rollout (large from Aug 2025)', link: '/e-invoicing/firs-mbs-nigeria', detail: 'Mandatory for large taxpayers (Aug 2025). SMEs phasing in from Jan 2026.' },
+    { name: 'Kenya', system: 'KRA eTIMS', status: 'live', threshold: 'All VAT-registered', link: '/e-invoicing/kra-etims-kenya', detail: 'Mandatory for all VAT-registered businesses. eTIMS device or software required.' },
+    { name: 'Ghana', system: 'GRA E-VAT', status: 'live', threshold: 'Phased rollout', link: '/e-invoicing/gra-e-vat-ghana', detail: 'Ghana Revenue Authority E-VAT certified-invoice issuance.' },
+    { name: 'South Africa', system: 'SARS e-invoicing', status: 'planned', threshold: 'TBD', link: '/e-invoicing/sars-south-africa', detail: 'SARS is reviewing the e-invoicing mandate. Invoicemonk issues structured tax invoices ready for the future regime.' },
+    { name: 'Zimbabwe', system: 'ZIMRA FDMS', status: 'live', threshold: 'VAT-registered + fiscalised', link: '/e-invoicing/zimra-zimbabwe', detail: 'ZIMRA Fiscalisation Data Management System fiscal signatures on every invoice.' },
+    { name: 'Seychelles', system: 'SRC e-invoicing', status: 'live', threshold: 'VAT-registered', link: '/e-invoicing/src-seychelles', detail: 'Seychelles Revenue Commission structured-invoice regime.' },
   ]},
   { region: 'Europe', countries: [
-    { name: 'Italy', system: 'SDI', status: 'live', threshold: 'All businesses', link: '/blog/tax-compliant-invoice-it', detail: 'Mandatory since 2019 for all Italian businesses and cross-border B2B from 2022.' },
-    { name: 'Poland', system: 'KSeF', status: 'upcoming', threshold: 'All businesses by 2026', link: '/blog/tax-compliant-invoice-pl', detail: 'Krajowy System e-Faktur mandatory from Feb 2026 for all VAT-registered businesses.' },
-    { name: 'Romania', system: 'RO e-Factura', status: 'live', threshold: 'All B2B', link: '/blog/tax-compliant-invoice-ro', detail: 'Mandatory for all B2B domestic transactions since January 2024.' },
-    { name: 'Germany', system: 'ZUGFeRD / XRechnung', status: 'live', threshold: 'B2G mandatory, B2B from 2025', link: '/blog/tax-compliant-invoice-de', detail: 'B2G mandatory via Peppol. B2B e-invoicing obligation started Jan 2025.' },
-    { name: 'Hungary', system: 'NAV RTIR', status: 'live', threshold: 'All VAT invoices', link: '/blog/tax-compliant-invoice-hu', detail: 'Real-time invoice reporting mandatory for all invoices with VAT above HUF 100,000.' },
-    { name: 'EU-wide', system: 'ViDA Directive', status: 'planned', threshold: 'All cross-border B2B', link: '/compliance', detail: 'VAT in the Digital Age: mandatory cross-border e-invoicing planned for 2028-2030.' },
+    { name: 'United Kingdom', system: 'HMRC MTD for VAT', status: 'live', threshold: 'All VAT-registered', link: '/e-invoicing/mtd-uk', detail: 'Making Tax Digital for VAT: digital VAT records and MTD-API returns since April 2022.' },
+    { name: 'EU (Peppol BIS Billing 3.0)', system: 'Peppol four-corner network', status: 'live', threshold: 'All EU B2G; B2B per country', link: '/e-invoicing/peppol-eu', detail: 'Peppol BIS 3.0 routing via certified Access Point — covers Italy SDI, Romania e-Factura, Hungary NAV, Poland KSeF, Germany XRechnung, France B2B, Belgium 2026.' },
+    { name: 'EU-wide', system: 'ViDA Directive (planned)', status: 'planned', threshold: 'All cross-border B2B', link: '/e-invoicing', detail: 'VAT in the Digital Age: mandatory cross-border e-invoicing planned for 2028-2030. Invoicemonk ready via Peppol.' },
   ]},
   { region: 'Middle East', countries: [
-    { name: 'Saudi Arabia', system: 'ZATCA Fatoorah', status: 'live', threshold: 'All VAT-registered', link: '/compliance', detail: 'Phase 1 (generation) mandatory since Dec 2021. Phase 2 (integration) rolling out by group.' },
+    { name: 'Saudi Arabia (Phase 2)', system: 'ZATCA Fatoorah — Integration', status: 'live', threshold: 'All VAT-registered (waves)', link: '/e-invoicing/zatca-phase-2', detail: 'CSID-signed UBL 2.1 cleared through Fatoorah (B2B) / reported (B2C).' },
+    { name: 'Saudi Arabia (Phase 1)', system: 'ZATCA Fatoorah — Generation', status: 'live', threshold: 'All VAT-registered not yet on Phase 2', link: '/e-invoicing/zatca-phase-1', detail: 'Tamper-resistant structured invoices with QR on Simplified Tax Invoices.' },
   ]},
   { region: 'Americas', countries: [
-    { name: 'United States', system: 'No federal mandate', status: 'none', threshold: 'N/A', link: '/blog/irs-invoice-requirements-us-compliance', detail: 'No federal e-invoicing mandate. Some states exploring digital reporting. Business Networks (Peppol) voluntary.' },
-    { name: 'Canada', system: 'No mandate', status: 'none', threshold: 'N/A', link: '/blog/cra-invoice-standards-canadian-compliance', detail: 'No e-invoicing mandate. CRA exploring digital reporting options.' },
+    { name: 'Brazil', system: 'NF-e / NFS-e (SEFAZ)', status: 'live', threshold: 'All businesses', link: '/e-invoicing/sef-brazil', detail: 'NF-e signed with ICP-Brasil A1 and authorised by SEFAZ; Chave de Acesso on every invoice.' },
+    { name: 'United States (B2G)', system: 'US Federal B2G', status: 'live', threshold: 'Federal suppliers', link: '/e-invoicing/b2g-us', detail: 'Treasury Bureau of the Fiscal Service Invoice Processing Platform for federal B2G.' },
+    { name: 'Canada', system: 'CRA + Peppol Authority Canada', status: 'live', threshold: 'GST/HST registrants', link: '/e-invoicing/cra-peppol-canada', detail: 'CRA-compliant tax invoices, Peppol routing where the buyer has a Canadian participant ID.' },
   ]},
 ];
 

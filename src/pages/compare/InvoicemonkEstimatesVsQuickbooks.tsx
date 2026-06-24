@@ -10,6 +10,7 @@ import { MatrixTable } from '@/components/compare/MatrixTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
+import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 
 interface FAQItem { question: string; answer: string; }
 interface MatrixRow { label: string; values: (boolean | string | number)[]; }
@@ -352,6 +353,8 @@ export default function InvoicemonkEstimatesVsQuickbooks() {
       </section>
 
       {/* Final CTA */}
+      <MandateMatrixSection />
+
       <section className="py-16 lg:py-24 bg-primary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-heading-lg font-bold text-white mb-4">{t('cta.title')}</h2>

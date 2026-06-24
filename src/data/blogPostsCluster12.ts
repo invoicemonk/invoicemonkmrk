@@ -19,10 +19,10 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['e-invoicing', 'HMRC', 'MTD', 'UK', 'VAT', 'Making Tax Digital', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     readTime: '16 min read',
     featuredImage: '/images/blog/e-invoicing-uk.jpg',
-    featuredImageAlt: 'UK business owner reviewing HMRC MTD compliance requirements on laptop',
+    featuredImageAlt: 'United Kingdom end-to-end e-invoicing compliance guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'uk',
@@ -70,7 +70,7 @@ export const cluster12Posts: BlogPost[] = [
       <p>The threshold drops to <strong>£30,000</strong> from April 2027. This is a significant change for freelancers and sole traders who have previously filed simple Self Assessment returns.</p>
 
       <h2>What Does HMRC Require on a UK VAT Invoice?</h2>
-      <p>Even without mandatory e-invoicing, HMRC has strict requirements for <a href="/blog/tax-compliant-invoice-uk">tax-compliant invoices</a>. Every VAT invoice must include:</p>
+      <p>Even without mandatory e-invoicing, HMRC has strict requirements for <a href="/en/blog/tax-compliant-invoice-uk">tax-compliant invoices</a>. Every VAT invoice must include:</p>
       <ul>
         <li>A unique, sequential invoice number</li>
         <li>Your business name, address, and VAT registration number</li>
@@ -121,7 +121,7 @@ export const cluster12Posts: BlogPost[] = [
       <h2>How Do UK Businesses Comply With MTD? (Step-by-Step)</h2>
       <ol>
         <li><strong>Check your VAT registration status</strong> — if turnover exceeds £90,000, you must be registered and using MTD-compatible software</li>
-        <li><strong>Choose MTD-compatible invoicing software</strong> — it must connect to HMRC via API. <a href="/invoicing">Invoicemonk</a> supports UK VAT invoicing with correct 20% rate, GBP formatting, and all mandatory fields</li>
+        <li><strong>Choose MTD-compatible invoicing software</strong> — it must connect to HMRC via API. <a href="/en/invoicing">Invoicemonk</a> supports UK VAT invoicing with correct 20% rate, GBP formatting, and all mandatory fields</li>
         <li><strong>Set up digital record keeping</strong> — all sales and purchase records must be stored digitally with digital links between systems</li>
         <li><strong>Submit quarterly VAT returns via software</strong> — not through the HMRC portal</li>
         <li><strong>Prepare for MTD for ITSA</strong> — if you're self-employed with income above £50,000, you'll need quarterly digital submissions from April 2026</li>
@@ -152,12 +152,12 @@ export const cluster12Posts: BlogPost[] = [
       <h2>Next Steps</h2>
       <p>If you're a UK business owner, freelancer, or contractor, the actions are clear:</p>
       <ul>
-        <li>If VAT-registered: ensure you're using <a href="/blog/hmrc-invoicing-rules-uk-mtd-compliance">MTD-compatible software</a> today</li>
+        <li>If VAT-registered: ensure you're using <a href="/en/blog/hmrc-invoicing-rules-uk-mtd-compliance">MTD-compatible software</a> today</li>
         <li>If self-employed with income above £50,000: prepare for quarterly ITSA submissions by April 2026</li>
-        <li>If in construction (CIS): ensure your software handles <a href="/blog/tax-compliant-invoice-uk">reverse charge invoicing</a></li>
+        <li>If in construction (CIS): ensure your software handles <a href="/en/blog/tax-compliant-invoice-uk">reverse charge invoicing</a></li>
         <li>For all businesses: start using structured invoicing software now so the transition to mandatory e-invoicing is seamless</li>
       </ul>
-      <p><a href="/invoicing">Create a UK-compliant invoice for free →</a></p>
+      <p><a href="/en/invoicing">Create a UK-compliant invoice for free →</a></p>
     `,
   },
 
@@ -169,11 +169,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['MTD', 'HMRC', 'UK', 'VAT', 'software', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/uk-mtd-software.jpg',
-    featuredImageAlt: 'MTD-compatible software dashboard showing VAT return submission',
+    featuredImageAlt: 'Editorial illustration of United Kingdom\'s e-invoicing compliance workflow for the uk mtd vat software requirements guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'uk',
@@ -215,7 +215,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>How Invoicemonk Supports UK Businesses</h2>
-      <p><a href="/invoicing">Invoicemonk</a> helps UK businesses create compliant invoices with:</p>
+      <p><a href="/en/invoicing">Invoicemonk</a> helps UK businesses create compliant invoices with:</p>
       <ul>
         <li>Automatic 20% VAT calculation when GBP is selected</li>
         <li>All mandatory HMRC invoice fields built in</li>
@@ -227,8 +227,8 @@ export const cluster12Posts: BlogPost[] = [
       <p>While Invoicemonk handles the invoicing side, pair it with MTD-compatible accounting software for VAT return submission.</p>
 
       <h2>Preparing for MTD for Income Tax</h2>
-      <p>If you're self-employed with income above £50,000, <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">MTD for ITSA launches in April 2026</a>. This means quarterly digital submissions — making it even more important to have your invoicing and record-keeping software set up correctly now.</p>
-      <p><a href="/invoicing">Create a compliant UK invoice for free →</a></p>
+      <p>If you're self-employed with income above £50,000, <a href="/en/blog/e-invoicing-uk-hmrc-mtd-guide">MTD for ITSA launches in April 2026</a>. This means quarterly digital submissions — making it even more important to have your invoicing and record-keeping software set up correctly now.</p>
+      <p><a href="/en/invoicing">Create a compliant UK invoice for free →</a></p>
     `,
   },
 
@@ -240,11 +240,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['UK', 'HMRC', 'invoice requirements', 'VAT invoice', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/uk-invoice-requirements.jpg',
-    featuredImageAlt: 'Checklist showing mandatory UK invoice fields required by HMRC',
+    featuredImageAlt: 'Editorial illustration of United Kingdom\'s e-invoicing compliance workflow for the uk invoice requirements hmrc 2026 guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'uk',
@@ -316,7 +316,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Create HMRC-Compliant Invoices</h2>
-      <p><a href="/invoicing">Invoicemonk's invoice generator</a> includes all mandatory UK fields, automatic 20% VAT calculation, and professional formatting that meets HMRC standards. <a href="/invoicing">Get started →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk's invoice generator</a> includes all mandatory UK fields, automatic 20% VAT calculation, and professional formatting that meets HMRC standards. <a href="/en/invoicing">Get started →</a></p>
     `,
   },
 
@@ -328,11 +328,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['UK', 'VAT', 'Flat Rate Scheme', 'FRS', 'invoicing', 'HMRC'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/uk-frs-invoicing.jpg',
-    featuredImageAlt: 'UK business owner calculating VAT using the Flat Rate Scheme',
+    featuredImageAlt: 'Editorial illustration of United Kingdom\'s e-invoicing compliance workflow for the uk vat flat rate scheme invoicing guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'uk',
@@ -359,7 +359,7 @@ export const cluster12Posts: BlogPost[] = [
 
       <h2>Limited Cost Trader Rules</h2>
       <p>If you spend less than 2% of your turnover on "relevant goods" (or less than £1,000 per year), HMRC classifies you as a <strong>limited cost trader</strong> and your flat rate jumps to <strong>16.5%</strong> regardless of your industry. This affects many service businesses — freelancers, consultants, and digital agencies often fall into this category because they have minimal physical goods purchases.</p>
-      <p>At 16.5%, the FRS is rarely beneficial. If you're a limited cost trader, consider whether <a href="/blog/tax-compliant-invoice-uk">standard VAT accounting</a> would save you more.</p>
+      <p>At 16.5%, the FRS is rarely beneficial. If you're a limited cost trader, consider whether <a href="/en/blog/tax-compliant-invoice-uk">standard VAT accounting</a> would save you more.</p>
 
       <h2>Common FRS Invoicing Mistakes</h2>
       <ol>
@@ -376,7 +376,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>You regularly purchase goods or services with significant VAT amounts</li>
         <li>Your clients are mainly VAT-registered businesses (no advantage to you)</li>
       </ul>
-      <p><a href="/invoicing">Create a UK VAT invoice with Invoicemonk →</a></p>
+      <p><a href="/en/invoicing">Create a UK VAT invoice with Invoicemonk →</a></p>
     `,
   },
 
@@ -388,11 +388,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['UK', 'CIS', 'reverse charge', 'construction', 'VAT', 'invoicing'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/uk-cis-invoicing.jpg',
-    featuredImageAlt: 'Construction contractor reviewing CIS reverse charge invoice requirements',
+    featuredImageAlt: 'Editorial illustration of United Kingdom\'s e-invoicing compliance workflow for the uk cis reverse charge invoicing guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'uk',
@@ -420,7 +420,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>How to Create a Reverse Charge Invoice</h2>
-      <p>Your reverse charge invoice must include all the standard <a href="/blog/uk-invoice-requirements-hmrc-2026">HMRC invoice requirements</a>, plus:</p>
+      <p>Your reverse charge invoice must include all the standard <a href="/en/blog/uk-invoice-requirements-hmrc-2026">HMRC invoice requirements</a>, plus:</p>
       <ol>
         <li><strong>The statement</strong>: "Reverse charge: VAT Act 1994 Section 55A applies"</li>
         <li><strong>The amount of VAT that would have been charged</strong> — show it as a reference figure</li>
@@ -461,7 +461,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create CIS-Compliant Invoices</h2>
-      <p><a href="/invoicing">Invoicemonk</a> supports reverse charge invoicing with the mandatory statement, correct formatting, and VAT calculation. <a href="/invoicing">Get started →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk</a> supports reverse charge invoicing with the mandatory statement, correct formatting, and VAT calculation. <a href="/en/invoicing">Get started →</a></p>
     `,
   },
 
@@ -473,11 +473,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['MTD', 'HMRC', 'UK', 'timeline', 'Making Tax Digital', 'ITSA'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '7 min read',
     featuredImage: '/images/blog/uk-mtd-timeline.jpg',
-    featuredImageAlt: 'Timeline showing Making Tax Digital key dates from 2022 to 2028',
+    featuredImageAlt: 'Editorial illustration of United Kingdom\'s e-invoicing compliance workflow for the uk making tax digital timeline guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'uk',
@@ -528,7 +528,7 @@ export const cluster12Posts: BlogPost[] = [
       <h2>How to Prepare: Action Checklist</h2>
       <h3>If You're VAT-Registered (Now)</h3>
       <ul>
-        <li>✅ Use <a href="/blog/uk-mtd-vat-software-requirements">MTD-compatible software</a> for VAT returns</li>
+        <li>✅ Use <a href="/en/blog/uk-mtd-vat-software-requirements">MTD-compatible software</a> for VAT returns</li>
         <li>✅ Ensure digital links between all record-keeping systems</li>
         <li>✅ Review your software annually — HMRC updates requirements</li>
       </ul>
@@ -559,8 +559,8 @@ export const cluster12Posts: BlogPost[] = [
       <p>Late payments attract interest at Bank of England base rate + 2.5%.</p>
 
       <h2>The Bigger Picture: UK E-Invoicing</h2>
-      <p>MTD is step one. Step two is likely <a href="/blog/e-invoicing-uk-hmrc-mtd-guide">mandatory e-invoicing via the Peppol network</a>. The government's Tax Administration Framework Review has laid the groundwork, and alignment with EU standards (EN 16931) is expected. Businesses that adopt digital invoicing now will have a smoother transition when B2B e-invoicing becomes mandatory.</p>
-      <p><a href="/invoicing">Start with compliant digital invoicing today →</a></p>
+      <p>MTD is step one. Step two is likely <a href="/en/blog/e-invoicing-uk-hmrc-mtd-guide">mandatory e-invoicing via the Peppol network</a>. The government's Tax Administration Framework Review has laid the groundwork, and alignment with EU standards (EN 16931) is expected. Businesses that adopt digital invoicing now will have a smoother transition when B2B e-invoicing becomes mandatory.</p>
+      <p><a href="/en/invoicing">Start with compliant digital invoicing today →</a></p>
     `,
   },
 
@@ -576,11 +576,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['e-invoicing', 'ZATCA', 'Saudi Arabia', 'Fatoorah', 'VAT', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-20',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '18 min read',
     featuredImage: '/images/blog/e-invoicing-saudi.jpg',
-    featuredImageAlt: 'Saudi business owner reviewing ZATCA Fatoorah e-invoicing requirements',
+    featuredImageAlt: 'Editorial illustration of Saudi Arabia\'s e-invoicing compliance workflow for the e invoicing saudi zatca fatoorah guide',
     clusterType: 'pillar',
     pillarContent: true,
     targetProduct: '/compliance',
@@ -704,12 +704,12 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>Saudi (ZATCA)</strong> — XML + QR + cryptographic stamp + API clearance</li>
         <li><strong>India (IRP)</strong> — JSON + QR + IRN + API validation</li>
         <li><strong>Italy (SDI)</strong> — XML + digital signature + exchange system</li>
-        <li><strong>Nigeria (FIRS)</strong> — <a href="/blog/e-invoicing-nigeria-firs-guide">FIRS TaxPro-Max integration</a></li>
+        <li><strong>Nigeria (FIRS)</strong> — <a href="/en/blog/firs-mbs-nigeria-explained">FIRS TaxPro-Max integration</a></li>
       </ul>
       <p>Saudi Arabia's system is among the most technically demanding, requiring cryptographic stamps and near-real-time API clearing.</p>
 
       <h2>Next Steps</h2>
-      <p>If you're a business operating in Saudi Arabia, start preparing now. <a href="/invoicing">Invoicemonk</a> supports SAR invoicing with VAT at 15%, all mandatory fields, and professional formatting. <a href="/invoicing">Create a compliant Saudi invoice →</a></p>
+      <p>If you're a business operating in Saudi Arabia, start preparing now. <a href="/en/invoicing">Invoicemonk</a> supports SAR invoicing with VAT at 15%, all mandatory fields, and professional formatting. <a href="/en/invoicing">Create a compliant Saudi invoice →</a></p>
     `,
   },
 
@@ -721,11 +721,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['ZATCA', 'Phase 2', 'Saudi Arabia', 'API', 'e-invoicing', 'integration'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '12 min read',
     featuredImage: '/images/blog/saudi-zatca-phase2.jpg',
-    featuredImageAlt: 'Technical diagram showing ZATCA Phase 2 API integration flow',
+    featuredImageAlt: 'Editorial illustration of Saudi Arabia\'s e-invoicing compliance workflow for the saudi zatca phase 2 integration guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'sa',
@@ -808,7 +808,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Getting Started</h2>
-      <p>While full Phase 2 API integration requires technical implementation, you can start creating <a href="/blog/e-invoicing-saudi-zatca-fatoorah">ZATCA-compliant invoices</a> today with the right invoicing software. <a href="/invoicing">Create a Saudi VAT invoice →</a></p>
+      <p>While full Phase 2 API integration requires technical implementation, you can start creating <a href="/en/blog/zatca-phase-2-explained">ZATCA-compliant invoices</a> today with the right invoicing software. <a href="/en/invoicing">Create a Saudi VAT invoice →</a></p>
     `,
   },
 
@@ -820,11 +820,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['Saudi Arabia', 'ZATCA', 'XML', 'QR code', 'UBL', 'e-invoicing', 'technical'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '10 min read',
     featuredImage: '/images/blog/saudi-xml-qr.jpg',
-    featuredImageAlt: 'Saudi e-invoice showing XML structure and QR code',
+    featuredImageAlt: 'Saudi Arabia XML schema and technical format requirements',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'sa',
@@ -909,7 +909,7 @@ export const cluster12Posts: BlogPost[] = [
 
       <h2>Testing in the ZATCA Sandbox</h2>
       <p>Before going live, test your implementation against ZATCA's sandbox API. The sandbox validates your XML structure, QR code encoding, and cryptographic stamps without affecting real tax records.</p>
-      <p>For businesses not yet required to integrate via API, <a href="/invoicing">Invoicemonk</a> generates Phase 1-compliant invoices with all mandatory fields and SAR formatting. <a href="/invoicing">Create a Saudi invoice →</a></p>
+      <p>For businesses not yet required to integrate via API, <a href="/en/invoicing">Invoicemonk</a> generates Phase 1-compliant invoices with all mandatory fields and SAR formatting. <a href="/en/invoicing">Create a Saudi invoice →</a></p>
     `,
   },
 
@@ -921,11 +921,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['Saudi Arabia', 'VAT', 'invoice requirements', 'ZATCA', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/saudi-vat-invoice.jpg',
-    featuredImageAlt: 'Saudi VAT invoice showing mandatory fields and 15% VAT calculation',
+    featuredImageAlt: 'Editorial illustration of Saudi Arabia\'s e-invoicing compliance workflow for the saudi vat invoice requirements guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'sa',
@@ -934,7 +934,7 @@ export const cluster12Posts: BlogPost[] = [
     priority: 'P1',
     content: `
       <h2>Saudi Arabia's VAT Invoice System</h2>
-      <p>Since VAT was introduced in Saudi Arabia on 1 January 2018 at 5% (increased to <strong>15% on 1 July 2020</strong>), ZATCA has established strict requirements for tax invoices. With the <a href="/blog/e-invoicing-saudi-zatca-fatoorah">FATOORAH e-invoicing mandate</a>, these requirements are now enforced electronically.</p>
+      <p>Since VAT was introduced in Saudi Arabia on 1 January 2018 at 5% (increased to <strong>15% on 1 July 2020</strong>), ZATCA has established strict requirements for tax invoices. With the <a href="/en/blog/zatca-phase-2-explained">FATOORAH e-invoicing mandate</a>, these requirements are now enforced electronically.</p>
 
       <h2>Two Types of Saudi VAT Invoices</h2>
       <h3>1. Tax Invoice (فاتورة ضريبية) — For B2B</h3>
@@ -1000,7 +1000,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create Saudi-Compliant Invoices</h2>
-      <p><a href="/invoicing">Invoicemonk</a> supports Saudi Arabia with 15% VAT calculation, SAR currency, all mandatory fields, and professional formatting. <a href="/invoicing">Get started →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk</a> supports Saudi Arabia with 15% VAT calculation, SAR currency, all mandatory fields, and professional formatting. <a href="/en/invoicing">Get started →</a></p>
     `,
   },
 
@@ -1012,11 +1012,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['ZATCA', 'penalties', 'Saudi Arabia', 'e-invoicing', 'non-compliance', 'fines'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '7 min read',
     featuredImage: '/images/blog/saudi-zatca-penalties.jpg',
-    featuredImageAlt: 'Warning sign showing ZATCA penalty amounts for e-invoicing non-compliance',
+    featuredImageAlt: 'Saudi Arabia penalty structure and compliance shield',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'sa',
@@ -1025,7 +1025,7 @@ export const cluster12Posts: BlogPost[] = [
     priority: 'P1',
     content: `
       <h2>ZATCA's Enforcement Approach</h2>
-      <p>The Zakat, Tax and Customs Authority takes e-invoicing compliance seriously. Since the <a href="/blog/e-invoicing-saudi-zatca-fatoorah">FATOORAH mandate</a> came into effect, ZATCA has conducted thousands of inspections and issued millions of SAR in penalties. Their approach follows a graduated enforcement model — warnings first, then escalating fines for repeated violations.</p>
+      <p>The Zakat, Tax and Customs Authority takes e-invoicing compliance seriously. Since the <a href="/en/blog/zatca-phase-2-explained">FATOORAH mandate</a> came into effect, ZATCA has conducted thousands of inspections and issued millions of SAR in penalties. Their approach follows a graduated enforcement model — warnings first, then escalating fines for repeated violations.</p>
 
       <h2>Penalty Schedule</h2>
       <table>
@@ -1075,7 +1075,7 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>Train your staff</strong> — ensure everyone who issues invoices understands the requirements</li>
         <li><strong>Monitor ZATCA announcements</strong> — rules and wave dates update regularly</li>
       </ol>
-      <p>Start with the basics: <a href="/invoicing">create compliant Saudi invoices with Invoicemonk →</a></p>
+      <p>Start with the basics: <a href="/en/invoicing">create compliant Saudi invoices with Invoicemonk →</a></p>
     `,
   },
 
@@ -1091,11 +1091,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['e-invoicing', 'MyInvois', 'Malaysia', 'LHDN', 'SST', 'compliance'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-20',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '16 min read',
     featuredImage: '/images/blog/e-invoicing-malaysia.jpg',
-    featuredImageAlt: 'Malaysian business owner reviewing MyInvois e-invoicing requirements',
+    featuredImageAlt: 'Malaysia end-to-end e-invoicing compliance guide',
     clusterType: 'pillar',
     pillarContent: true,
     targetProduct: '/compliance',
@@ -1215,7 +1215,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Next Steps</h2>
-      <p><a href="/invoicing">Invoicemonk</a> supports Malaysian ringgit (MYR) invoicing with SST calculations and all mandatory fields. <a href="/invoicing">Create a compliant Malaysian invoice →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk</a> supports Malaysian ringgit (MYR) invoicing with SST calculations and all mandatory fields. <a href="/en/invoicing">Create a compliant Malaysian invoice →</a></p>
     `,
   },
 
@@ -1227,11 +1227,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['MyInvois', 'Malaysia', 'LHDN', 'timeline', 'e-invoicing', 'rollout'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '8 min read',
     featuredImage: '/images/blog/malaysia-myinvois-timeline.jpg',
-    featuredImageAlt: 'Timeline showing Malaysia MyInvois rollout phases from 2024 to 2026',
+    featuredImageAlt: 'Editorial illustration of Malaysia\'s e-invoicing compliance workflow for the malaysia myinvois timeline 2024 2026 guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'my',
@@ -1294,7 +1294,7 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>Find your MSIC code</strong> — the Malaysia Standard Industrial Classification code for your business activity</li>
         <li><strong>Register on the MyInvois portal</strong> — create your account at myinvois.hasil.gov.my</li>
         <li><strong>Decide: portal or API?</strong> — if you issue fewer than 50 invoices/month, the portal is sufficient</li>
-        <li><strong>Update your invoicing software</strong> — ensure it captures all <a href="/blog/e-invoicing-malaysia-myinvois-guide">mandatory fields</a></li>
+        <li><strong>Update your invoicing software</strong> — ensure it captures all <a href="/en/blog/myinvois-malaysia-explained">mandatory fields</a></li>
         <li><strong>Test the system</strong> — use the sandbox before your go-live date</li>
         <li><strong>Set up your buyer notification process</strong> — buyers have 72 hours to accept or reject</li>
       </ol>
@@ -1308,7 +1308,7 @@ export const cluster12Posts: BlogPost[] = [
       </ul>
 
       <h2>Start Preparing Today</h2>
-      <p>Don't wait until the last month. <a href="/invoicing">Create MyInvois-ready invoices with Invoicemonk</a> — supporting MYR, SST calculations, and all mandatory fields. <a href="/invoicing">Get started →</a></p>
+      <p>Don't wait until the last month. <a href="/en/invoicing">Create MyInvois-ready invoices with Invoicemonk</a> — supporting MYR, SST calculations, and all mandatory fields. <a href="/en/invoicing">Get started →</a></p>
     `,
   },
 
@@ -1320,11 +1320,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['MyInvois', 'Malaysia', 'API', 'technical', 'e-invoicing', 'LHDN'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '11 min read',
     featuredImage: '/images/blog/malaysia-einvoice-tech.jpg',
-    featuredImageAlt: 'Technical diagram showing MyInvois API integration architecture',
+    featuredImageAlt: 'Malaysia XML schema and technical format requirements',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'my',
@@ -1418,7 +1418,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>Verify error handling in your system</li>
         <li>Train your team on the new workflow</li>
       </ul>
-      <p>For businesses not yet ready for API integration, <a href="/invoicing">Invoicemonk</a> generates MyInvois-ready invoices with all mandatory fields. <a href="/invoicing">Get started →</a></p>
+      <p>For businesses not yet ready for API integration, <a href="/en/invoicing">Invoicemonk</a> generates MyInvois-ready invoices with all mandatory fields. <a href="/en/invoicing">Get started →</a></p>
     `,
   },
 
@@ -1430,11 +1430,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['Malaysia', 'SST', 'sales tax', 'service tax', 'invoice requirements', 'LHDN'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/malaysia-sst-invoice.jpg',
-    featuredImageAlt: 'Malaysian invoice showing SST tax calculation and mandatory fields',
+    featuredImageAlt: 'Editorial illustration of Malaysia\'s e-invoicing compliance workflow for the malaysia sst invoice requirements guide',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'my',
@@ -1501,7 +1501,7 @@ export const cluster12Posts: BlogPost[] = [
       <p>Foreign providers of digital services to Malaysian consumers must register for service tax if their annual revenue from Malaysian customers exceeds <strong>RM 500,000</strong>. This applies to SaaS, streaming services, and digital advertising.</p>
 
       <h2>SST and MyInvois</h2>
-      <p>With the <a href="/blog/e-invoicing-malaysia-myinvois-guide">MyInvois e-invoicing mandate</a>, SST compliance becomes more automated:</p>
+      <p>With the <a href="/en/blog/myinvois-malaysia-explained">MyInvois e-invoicing mandate</a>, SST compliance becomes more automated:</p>
       <ul>
         <li>MyInvois validates tax calculations in real-time</li>
         <li>SST registration numbers are cross-checked against LHDN's database</li>
@@ -1519,7 +1519,7 @@ export const cluster12Posts: BlogPost[] = [
       </ol>
 
       <h2>Create SST-Compliant Invoices</h2>
-      <p><a href="/invoicing">Invoicemonk</a> supports Malaysian ringgit with SST calculations, all mandatory fields, and professional formatting. <a href="/invoicing">Create a compliant Malaysian invoice →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk</a> supports Malaysian ringgit with SST calculations, all mandatory fields, and professional formatting. <a href="/en/invoicing">Create a compliant Malaysian invoice →</a></p>
     `,
   },
 
@@ -1531,11 +1531,11 @@ export const cluster12Posts: BlogPost[] = [
     tags: ['MyInvois', 'Malaysia', 'small business', 'SME', 'compliance', 'LHDN'],
     author: defaultAuthor,
     date: '2026-04-11',
-    dateModified: '2026-04-11',
+    dateModified: '2026-06-24',
     lastAudited: '2026-04-20',
     readTime: '9 min read',
     featuredImage: '/images/blog/malaysia-sme-myinvois.jpg',
-    featuredImageAlt: 'Malaysian small business owner setting up MyInvois on laptop',
+    featuredImageAlt: 'Malaysia e-invoicing compliance workflow',
     clusterType: 'cluster',
     targetProduct: '/compliance',
     targetCountry: 'my',
@@ -1544,7 +1544,7 @@ export const cluster12Posts: BlogPost[] = [
     priority: 'P1',
     content: `
       <h2>MyInvois Is Coming for Everyone — Including You</h2>
-      <p>If you're a Malaysian small business owner, freelancer, or sole proprietor, <a href="/blog/e-invoicing-malaysia-myinvois-guide">MyInvois e-invoicing</a> becomes mandatory for you in <strong>Phase 3 (July 2025)</strong>. This guide cuts through the jargon and tells you exactly what you need to do.</p>
+      <p>If you're a Malaysian small business owner, freelancer, or sole proprietor, <a href="/en/blog/myinvois-malaysia-explained">MyInvois e-invoicing</a> becomes mandatory for you in <strong>Phase 3 (July 2025)</strong>. This guide cuts through the jargon and tells you exactly what you need to do.</p>
 
       <h2>Do I Really Need to Comply?</h2>
       <p><strong>Yes.</strong> Phase 3 covers all remaining taxpayers, regardless of size. Even if you:</p>
@@ -1568,7 +1568,7 @@ export const cluster12Posts: BlogPost[] = [
       <p><strong>Best for:</strong> Businesses issuing fewer than 10–20 invoices per month. It's free but time-consuming — you're essentially re-typing your invoice into a government website.</p>
 
       <h3>Option 2: Use Invoicing Software with MyInvois Support</h3>
-      <p>Tools like <a href="/invoicing">Invoicemonk</a> let you create professional invoices with all mandatory fields, then either:</p>
+      <p>Tools like <a href="/en/invoicing">Invoicemonk</a> let you create professional invoices with all mandatory fields, then either:</p>
       <ul>
         <li>Export the data for manual submission to the portal, or</li>
         <li>Use software that integrates directly via API (automated submission)</li>
@@ -1607,7 +1607,7 @@ export const cluster12Posts: BlogPost[] = [
       <p>That's it. Four weeks. Don't overthink it.</p>
 
       <h2>Get Started Today</h2>
-      <p><a href="/invoicing">Invoicemonk</a> helps you create professional, compliant Malaysian invoices with all mandatory fields. It's free, requires no signup, and supports MYR with SST calculations. <a href="/invoicing">Create your first compliant invoice →</a></p>
+      <p><a href="/en/invoicing">Invoicemonk</a> helps you create professional, compliant Malaysian invoices with all mandatory fields. It's free, requires no signup, and supports MYR with SST calculations. <a href="/en/invoicing">Create your first compliant invoice →</a></p>
     `,
   },
 ];

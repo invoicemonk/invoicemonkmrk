@@ -89,8 +89,28 @@ export function enhanceInternalLinks(html: string, langPrefix: string = 'en'): s
   
   // Regular expression to match anchor tags
   const anchorRegex = /<a\s+([^>]*?)href=["']([^"']+)["']([^>]*)>(.*?)<\/a>/gi;
-  
+
+  // Phase 5: per-article first-occurrence cap. The same href + identical
+  // visible anchor text after the first occurrence is unlinked so internal
+  // link weight is concentrated on the first mention. Distinct anchor text
+  // pointing at the same URL still ships (treated as a different term).
+  const seenTerms = new Set<string>();
+
   return html.replace(anchorRegex, (match, beforeHref, href, afterHref, content) => {
+    const visibleText = String(content).replace(/<[^>]*>/g, '').trim().toLowerCase();
+    const isInternal = isInternalLink(href);
+    if (isInternal && visibleText) {
+      // Normalise href: strip query + fragment + leading lang prefix so the
+      // cap matches the same destination across UTM variants.
+      const hrefPath = href.split('?')[0].split('#')[0].replace(/^\/[a-z]{2}(-[a-z]{2})?\//, '/');
+      const key = `${hrefPath}|${visibleText}`;
+      if (seenTerms.has(key)) {
+        // Strip the anchor; keep the original visible text in place.
+        return content;
+      }
+      seenTerms.add(key);
+    }
+
     const trackedHref = addOrganicBlogUtm(href);
     const isExternal = isExternalLink(href);
     const linkType = getLinkType(href);

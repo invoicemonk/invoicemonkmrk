@@ -39,55 +39,196 @@
     {
       "title": "Core invoicing",
       "rows": [
-        { "name": "Invoice creation", "invoicemonk": true, "competitor": true },
-        { "name": "Unlimited invoices", "invoicemonk": true, "competitor": "500/year cap" },
-        { "name": "Multi-currency invoicing", "invoicemonk": true, "competitor": true },
-        { "name": "Compliance-first invoice generation", "invoicemonk": true, "competitor": false },
-        { "name": "Cross-border invoice requirements", "invoicemonk": true, "competitor": false },
-        { "name": "Automatic payment reminders", "invoicemonk": true, "competitor": true },
-        { "name": "Recurring invoices", "invoicemonk": true, "competitor": true },
-        { "name": "Custom branding & logo", "invoicemonk": true, "competitor": true },
-        { "name": "Remove platform branding", "invoicemonk": true, "competitor": "No (\"Powered by Zoho\")" },
-        { "name": "Estimates & quotes", "invoicemonk": true, "competitor": true },
-        { "name": "Credit notes", "invoicemonk": true, "competitor": true },
-        { "name": "Immutable audit trail", "invoicemonk": true, "competitor": false }
+        {
+          "name": "E-invoicing mandates supported",
+          "invoicemonk": "16 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
+          "competitor": "3 (MTD UK, GST IRN India, ZATCA partial)"
+        },
+        {
+          "name": "Invoice creation",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Unlimited invoices",
+          "invoicemonk": true,
+          "competitor": "500/year cap"
+        },
+        {
+          "name": "Multi-currency invoicing",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Compliance-first invoice generation",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Cross-border invoice requirements",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Automatic payment reminders",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Recurring invoices",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Custom branding & logo",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Remove platform branding",
+          "invoicemonk": true,
+          "competitor": "No (\"Powered by Zoho\")"
+        },
+        {
+          "name": "Estimates & quotes",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Credit notes",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Immutable audit trail",
+          "invoicemonk": true,
+          "competitor": false
+        }
       ]
     },
     {
       "title": "Client and project management",
       "rows": [
-        { "name": "Client database", "invoicemonk": "Unlimited (Pro+)", "competitor": "Up to 1,000" },
-        { "name": "Client portal", "invoicemonk": true, "competitor": true },
-        { "name": "Project tracking", "invoicemonk": true, "competitor": "3-project cap (free)" },
-        { "name": "Unlimited projects", "invoicemonk": true, "competitor": false },
-        { "name": "Time tracking", "invoicemonk": false, "competitor": true },
-        { "name": "Expense tracking", "invoicemonk": true, "competitor": true },
-        { "name": "Expense → invoice conversion", "invoicemonk": true, "competitor": true }
+        {
+          "name": "Client database",
+          "invoicemonk": "Unlimited (Pro+)",
+          "competitor": "Up to 1,000"
+        },
+        {
+          "name": "Client portal",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Project tracking",
+          "invoicemonk": true,
+          "competitor": "3-project cap (free)"
+        },
+        {
+          "name": "Unlimited projects",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Time tracking",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Expense tracking",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Expense → invoice conversion",
+          "invoicemonk": true,
+          "competitor": true
+        }
       ]
     },
     {
       "title": "Payments and international use",
       "rows": [
-        { "name": "Pay directly from invoice", "invoicemonk": true, "competitor": true },
-        { "name": "Payment gateway integrations", "invoicemonk": "Built-in international", "competitor": "10+ (region-dependent)" },
-        { "name": "Wise / Payoneer support", "invoicemonk": true, "competitor": false },
-        { "name": "Payment tracking dashboard", "invoicemonk": true, "competitor": true },
-        { "name": "Overdue invoice management", "invoicemonk": true, "competitor": true },
-        { "name": "Multi-currency accounting", "invoicemonk": true, "competitor": true },
-        { "name": "Documented regional limitations", "invoicemonk": "None", "competitor": "Yes (in user reviews)" },
-        { "name": "Government e-invoicing (KSA, EU, NG)", "invoicemonk": "Yes (Biz)", "competitor": "Separate Zoho product" }
+        {
+          "name": "Pay directly from invoice",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Payment gateway integrations",
+          "invoicemonk": "Built-in international",
+          "competitor": "10+ (region-dependent)"
+        },
+        {
+          "name": "Wise / Payoneer support",
+          "invoicemonk": true,
+          "competitor": false
+        },
+        {
+          "name": "Payment tracking dashboard",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Overdue invoice management",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Multi-currency accounting",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Documented regional limitations",
+          "invoicemonk": "None",
+          "competitor": "Yes (in user reviews)"
+        },
+        {
+          "name": "Government e-invoicing (KSA, EU, NG)",
+          "invoicemonk": "Yes (Biz)",
+          "competitor": "Separate Zoho product"
+        }
       ]
     },
     {
       "title": "Platform and ecosystem",
       "rows": [
-        { "name": "Mobile app (iOS & Android)", "invoicemonk": true, "competitor": "Yes (~4.8/5)" },
-        { "name": "Web browser access", "invoicemonk": true, "competitor": true },
-        { "name": "Zoho ecosystem integration", "invoicemonk": false, "competitor": true },
-        { "name": "Built-in accounting", "invoicemonk": "Every plan", "competitor": "Separate (Zoho Books)" },
-        { "name": "Financial reports", "invoicemonk": true, "competitor": true },
-        { "name": "Data export", "invoicemonk": true, "competitor": true },
-        { "name": "24/5 email & voice support", "invoicemonk": true, "competitor": true }
+        {
+          "name": "Mobile app (iOS & Android)",
+          "invoicemonk": true,
+          "competitor": "Yes (~4.8/5)"
+        },
+        {
+          "name": "Web browser access",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Zoho ecosystem integration",
+          "invoicemonk": false,
+          "competitor": true
+        },
+        {
+          "name": "Built-in accounting",
+          "invoicemonk": "Every plan",
+          "competitor": "Separate (Zoho Books)"
+        },
+        {
+          "name": "Financial reports",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "Data export",
+          "invoicemonk": true,
+          "competitor": true
+        },
+        {
+          "name": "24/5 email & voice support",
+          "invoicemonk": true,
+          "competitor": true
+        }
       ]
     }
   ],
@@ -167,25 +308,149 @@
   },
   "summary": {
     "title": "Side-by-side summary",
-    "headers": ["", "Invoicemonk", "Zoho Invoice (Free)", "Zoho Books (Standard)"],
+    "headers": [
+      "",
+      "Invoicemonk",
+      "Zoho Invoice (Free)",
+      "Zoho Books (Standard)"
+    ],
     "rows": [
-      { "label": "Monthly price (entry)", "values": ["$0 (Starter)", "Free", "$15 ($10 annual)"] },
-      { "label": "Invoice cap", "values": ["None (Pro+)", "500/year", "5,000/year"] },
-      { "label": "Project cap", "values": ["None", "3", "Varies"] },
-      { "label": "User limit", "values": ["Up to 5 (Pro), unlimited (SME+)", "2", "3"] },
-      { "label": "Compliance-first invoicing", "values": [true, false, false] },
-      { "label": "Multi-currency invoicing", "values": [true, true, true] },
-      { "label": "Automatic payment reminders", "values": [true, true, true] },
-      { "label": "Time tracking", "values": [false, true, true] },
-      { "label": "Client portal", "values": [true, true, true] },
-      { "label": "Platform branding removed", "values": [true, false, true] },
-      { "label": "Wise / Payoneer support", "values": [true, false, false] },
-      { "label": "Documented regional gateway gaps", "values": ["None", "Yes", "Yes"] },
-      { "label": "Mobile app", "values": [true, "Yes (~4.8/5)", true] },
-      { "label": "24/5 support", "values": [true, true, true] },
-      { "label": "Zoho ecosystem integration", "values": [false, true, true] },
-      { "label": "Cross-border compliance", "values": [true, false, false] },
-      { "label": "Immutable audit trail", "values": [true, false, false] }
+      {
+        "label": "Monthly price (entry)",
+        "values": [
+          "$0 (Starter)",
+          "Free",
+          "$15 ($10 annual)"
+        ]
+      },
+      {
+        "label": "Invoice cap",
+        "values": [
+          "None (Pro+)",
+          "500/year",
+          "5,000/year"
+        ]
+      },
+      {
+        "label": "Project cap",
+        "values": [
+          "None",
+          "3",
+          "Varies"
+        ]
+      },
+      {
+        "label": "User limit",
+        "values": [
+          "Up to 5 (Pro), unlimited (SME+)",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "label": "Compliance-first invoicing",
+        "values": [
+          true,
+          false,
+          false
+        ]
+      },
+      {
+        "label": "Multi-currency invoicing",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Automatic payment reminders",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Time tracking",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Client portal",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Platform branding removed",
+        "values": [
+          true,
+          false,
+          true
+        ]
+      },
+      {
+        "label": "Wise / Payoneer support",
+        "values": [
+          true,
+          false,
+          false
+        ]
+      },
+      {
+        "label": "Documented regional gateway gaps",
+        "values": [
+          "None",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Mobile app",
+        "values": [
+          true,
+          "Yes (~4.8/5)",
+          true
+        ]
+      },
+      {
+        "label": "24/5 support",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Zoho ecosystem integration",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Cross-border compliance",
+        "values": [
+          true,
+          false,
+          false
+        ]
+      },
+      {
+        "label": "Immutable audit trail",
+        "values": [
+          true,
+          false,
+          false
+        ]
+      }
     ],
     "footnote": "Pricing verified against Zoho's official May 2026 pricing pages and invoicemonk.com/pricing."
   },
@@ -200,37 +465,109 @@
   "faq": {
     "title": "Frequently asked questions",
     "items": [
-      { "question": "Is Zoho Invoice really free forever?", "answer": "Yes. Per Zoho's official pricing page, Zoho Invoice is free for all small businesses and freelancers permanently — no subscription, no credit card, no time limit. The free plan is subject to hard usage limits: 2 users, 3 projects, 500 invoices/year and 1,000 clients." },
-      { "question": "What happens when I exceed Zoho Invoice's free plan limits?", "answer": "Zoho Invoice has no paid upgrade path. When you exceed the limits, the intended path is migrating to Zoho Books — a full accounting platform from $15/mo monthly or $10/mo annually. This is a product migration, not a plan upgrade." },
-      { "question": "Does Zoho Invoice work for freelancers outside the US and India?", "answer": "Zoho Invoice is available globally and supports multiple currencies. Payment gateway availability varies by country and some listed integrations may not function reliably in all regions. User reviews document limitations for certain payment methods in markets outside the US, India, UK, Canada and Australia." },
-      { "question": "Does Zoho Invoice handle cross-border tax compliance?", "answer": "Zoho Invoice lets you add tax rates and labels to invoices. It does not automatically apply or validate the specific compliance requirements for cross-border invoices between particular country pairs. The freelancer is responsible for knowing and applying the correct fields." },
-      { "question": "Does Zoho Invoice integrate with Wise or Payoneer?", "answer": "No. As of May 2026, Zoho Invoice does not natively integrate with Wise or Payoneer. A Capterra reviewer specifically flagged this: \"I'd like more integrations with other payment systems (e.g. Wise). Currently it only integrates with Stripe which is a bit limiting.\"" },
-      { "question": "Can Zoho Invoice send invoices in multiple currencies?", "answer": "Yes. Zoho Invoice supports multi-currency invoicing — different clients can be invoiced in their local currency with conversion applied based on current exchange rates." },
-      { "question": "What is the main advantage of Invoicemonk over Zoho Invoice for international freelancers?", "answer": "Compliance-first invoice generation for cross-border transactions, no invoice or project caps, integrated international payment infrastructure (including Wise/Payoneer) without regional gateway limitations, and the ability to remove all platform branding from outgoing invoices." }
+      {
+        "question": "Is Zoho Invoice really free forever?",
+        "answer": "Yes. Per Zoho's official pricing page, Zoho Invoice is free for all small businesses and freelancers permanently — no subscription, no credit card, no time limit. The free plan is subject to hard usage limits: 2 users, 3 projects, 500 invoices/year and 1,000 clients."
+      },
+      {
+        "question": "What happens when I exceed Zoho Invoice's free plan limits?",
+        "answer": "Zoho Invoice has no paid upgrade path. When you exceed the limits, the intended path is migrating to Zoho Books — a full accounting platform from $15/mo monthly or $10/mo annually. This is a product migration, not a plan upgrade."
+      },
+      {
+        "question": "Does Zoho Invoice work for freelancers outside the US and India?",
+        "answer": "Zoho Invoice is available globally and supports multiple currencies. Payment gateway availability varies by country and some listed integrations may not function reliably in all regions. User reviews document limitations for certain payment methods in markets outside the US, India, UK, Canada and Australia."
+      },
+      {
+        "question": "Does Zoho Invoice handle cross-border tax compliance?",
+        "answer": "Zoho Invoice lets you add tax rates and labels to invoices. It does not automatically apply or validate the specific compliance requirements for cross-border invoices between particular country pairs. The freelancer is responsible for knowing and applying the correct fields."
+      },
+      {
+        "question": "Does Zoho Invoice integrate with Wise or Payoneer?",
+        "answer": "No. As of May 2026, Zoho Invoice does not natively integrate with Wise or Payoneer. A Capterra reviewer specifically flagged this: \"I'd like more integrations with other payment systems (e.g. Wise). Currently it only integrates with Stripe which is a bit limiting.\""
+      },
+      {
+        "question": "Can Zoho Invoice send invoices in multiple currencies?",
+        "answer": "Yes. Zoho Invoice supports multi-currency invoicing — different clients can be invoiced in their local currency with conversion applied based on current exchange rates."
+      },
+      {
+        "question": "What is the main advantage of Invoicemonk over Zoho Invoice for international freelancers?",
+        "answer": "Compliance-first invoice generation for cross-border transactions, no invoice or project caps, integrated international payment infrastructure (including Wise/Payoneer) without regional gateway limitations, and the ability to remove all platform branding from outgoing invoices."
+      }
     ]
   },
   "sources": {
     "title": "Sources and further reading",
     "items": [
-      { "label": "Zoho Invoice Pricing Page (2026)", "url": "https://www.zoho.com/invoice/pricing.html", "note": "Free plan limits: 2 users, 3 projects, 500 invoices/year, 1,000 clients." },
-      { "label": "Zoho Books Pricing Page (2026)", "url": "https://www.zoho.com/books/pricing/", "note": "Standard $15/mo ($10 annual), 5,000 invoices/yr, 3 users." },
-      { "label": "Capterra — Zoho Invoice reviews", "url": "https://www.capterra.com/p/137253/Zoho-Invoice/", "note": "Regional payment limitations and Wise integration request." },
-      { "label": "GetApp — Zoho Invoice 2026 reviews", "url": "https://www.getapp.com/finance-accounting-software/a/zoho-invoice/", "note": "Aggregate value-for-money sentiment for freelancers." },
-      { "label": "G2 — Zoho Invoice reviews", "url": "https://www.g2.com/products/zoho-invoice/reviews", "note": "Razorpay reliability issues reported by Indian users." },
-      { "label": "InvoiceMojo — Zoho Invoicing review", "url": "https://invoicemojo.com/zoho-invoicing-review/", "note": "4.7/5 G2 & Capterra ratings, ~4.8 mobile app, 500-invoice analysis." },
-      { "label": "Plutio — Still Using Zoho Invoice?", "url": "https://www.plutio.com/blog/zoho-invoice-alternative", "note": "Practical analysis of 500-invoice cap and 3-project limit impact." },
-      { "label": "ITQlick — Zoho Invoice Pricing 2026", "url": "https://www.itqlick.com/zoho-invoice/pricing", "note": "Annual TCO and Zoho Books upgrade pricing context." },
-      { "label": "Helcim — Zoho payment integrations", "url": "https://www.helcim.com/guides/zoho-integrations/", "note": "Payment gateway integration structure; Wise absence." }
+      {
+        "label": "Zoho Invoice Pricing Page (2026)",
+        "url": "https://www.zoho.com/invoice/pricing.html",
+        "note": "Free plan limits: 2 users, 3 projects, 500 invoices/year, 1,000 clients."
+      },
+      {
+        "label": "Zoho Books Pricing Page (2026)",
+        "url": "https://www.zoho.com/books/pricing/",
+        "note": "Standard $15/mo ($10 annual), 5,000 invoices/yr, 3 users."
+      },
+      {
+        "label": "Capterra — Zoho Invoice reviews",
+        "url": "https://www.capterra.com/p/137253/Zoho-Invoice/",
+        "note": "Regional payment limitations and Wise integration request."
+      },
+      {
+        "label": "GetApp — Zoho Invoice 2026 reviews",
+        "url": "https://www.getapp.com/finance-accounting-software/a/zoho-invoice/",
+        "note": "Aggregate value-for-money sentiment for freelancers."
+      },
+      {
+        "label": "G2 — Zoho Invoice reviews",
+        "url": "https://www.g2.com/products/zoho-invoice/reviews",
+        "note": "Razorpay reliability issues reported by Indian users."
+      },
+      {
+        "label": "InvoiceMojo — Zoho Invoicing review",
+        "url": "https://invoicemojo.com/zoho-invoicing-review/",
+        "note": "4.7/5 G2 & Capterra ratings, ~4.8 mobile app, 500-invoice analysis."
+      },
+      {
+        "label": "Plutio — Still Using Zoho Invoice?",
+        "url": "https://www.plutio.com/blog/zoho-invoice-alternative",
+        "note": "Practical analysis of 500-invoice cap and 3-project limit impact."
+      },
+      {
+        "label": "ITQlick — Zoho Invoice Pricing 2026",
+        "url": "https://www.itqlick.com/zoho-invoice/pricing",
+        "note": "Annual TCO and Zoho Books upgrade pricing context."
+      },
+      {
+        "label": "Helcim — Zoho payment integrations",
+        "url": "https://www.helcim.com/guides/zoho-integrations/",
+        "note": "Payment gateway integration structure; Wise absence."
+      }
     ]
   },
   "related": {
     "title": "More comparisons",
     "links": [
-      { "label": "Invoicemonk vs FreshBooks", "to": "/compare/invoicemonk-vs-freshbooks" },
-      { "label": "Invoicemonk vs Wave", "to": "/compare/invoicemonk-vs-wave" },
-      { "label": "Invoicemonk vs QuickBooks", "to": "/compare/invoicemonk-vs-quickbooks" },
-      { "label": "Invoicemonk vs Stripe Invoicing", "to": "/compare/invoicemonk-vs-stripe" },
-      { "label": "Best Invoicing Software 2026", "to": "/best-invoicing-software" }
+      {
+        "label": "Invoicemonk vs FreshBooks",
+        "to": "/compare/invoicemonk-vs-freshbooks"
+      },
+      {
+        "label": "Invoicemonk vs Wave",
+        "to": "/compare/invoicemonk-vs-wave"
+      },
+      {
+        "label": "Invoicemonk vs QuickBooks",
+        "to": "/compare/invoicemonk-vs-quickbooks"
+      },
+      {
+        "label": "Invoicemonk vs Stripe Invoicing",
+        "to": "/compare/invoicemonk-vs-stripe"
+      },
+      {
+        "label": "Best Invoicing Software 2026",
+        "to": "/best-invoicing-software"
+      }
     ]
   },
   "cta": {
