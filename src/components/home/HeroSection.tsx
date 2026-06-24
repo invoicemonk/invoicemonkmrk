@@ -63,12 +63,8 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-display text-heading mb-6"
           >
-            {heroVariant === 'B' ? headline : (
-              <>
-                {hero.headline}{' '}
-                <span className="font-serif italic text-primary">{hero.headlineAccent}</span>
-              </>
-            )}
+            {hero.headline}{' '}
+            <span className="font-serif italic text-primary">{hero.headlineAccent}</span>
           </motion.h1>
 
           {/* Subheadline - Localized */}
