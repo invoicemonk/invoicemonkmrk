@@ -2694,7 +2694,7 @@ export const blogPosts: BlogPost[] = [
     date: '2023-11-05',
     dateModified: '2026-06-24',
     readTime: '12 min read',
-    featuredImage: '/blog/personal-finance-blogs.jpg',
+    featuredImage: '/images/blog/personal-finance-blogs.jpg',
     featuredImageAlt: 'Curated list of the best personal finance blogs for 2026',
     clusterType: 'outer',
     semanticKeywords: ['best personal finance blogs 2026', 'financial education blogs', 'money management resources', 'wealth building tips', 'FIRE movement blogs', 'budgeting blogs'],
@@ -10423,7 +10423,7 @@ Thank you for your business!
     ],
     relatedTools: [
       { label: 'Invoicemonk Payments', url: '/payments', description: 'Automate payment reminders and collect online.' },
-      { label: 'Payment Reminder Email Templates', url: '/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
+      { label: 'Payment Reminder Email Templates', url: '/images/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
       { label: 'Get Started on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — $15/month, cancel anytime.' }
     ],
   },
