@@ -44,6 +44,7 @@ import '@/data/blogPostsClusterEInvoicing3';
 import '@/data/blogPostsClusterEInvoicing4';
 import '@/data/blogPostsClusterEInvoicing5';
 import '@/data/blogPostsClusterEInvoicing6';
+import '@/data/blogPostsClusterEInvoicingItalyBulgaria';
 
 type ViewMode = 'topics' | 'all';
 const POSTS_PER_PAGE = 12;

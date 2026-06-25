@@ -267,7 +267,7 @@ function main() {
     clusterSlugs.forEach(s => { if (!blogSlugs.includes(s)) blogSlugs.push(s); });
     scanDates(clusterPath);
   }
-  // E-invoicing cluster files (blogPostsClusterEInvoicing{,2..6}.ts) — 36 posts
+  // E-invoicing cluster files (blogPostsClusterEInvoicing{,2..6} + ItalyBulgaria) — 44 posts
   const eInvoicingClusterFiles = [
     'blogPostsClusterEInvoicing.ts',
     'blogPostsClusterEInvoicing2.ts',
@@ -275,7 +275,9 @@ function main() {
     'blogPostsClusterEInvoicing4.ts',
     'blogPostsClusterEInvoicing5.ts',
     'blogPostsClusterEInvoicing6.ts',
+    'blogPostsClusterEInvoicingItalyBulgaria.ts',
   ];
+
   let eInvAdded = 0;
   for (const file of eInvoicingClusterFiles) {
     const clusterPath = path.join(__dirname, `../src/data/${file}`);

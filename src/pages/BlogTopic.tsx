@@ -27,6 +27,7 @@ import '@/data/blogPostsClusterEInvoicing3';
 import '@/data/blogPostsClusterEInvoicing4';
 import '@/data/blogPostsClusterEInvoicing5';
 import '@/data/blogPostsClusterEInvoicing6';
+import '@/data/blogPostsClusterEInvoicingItalyBulgaria';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPagination } from '@/components/blog/BlogPagination';
 import { SEOHead } from '@/components/seo/SEOHead';

@@ -84,6 +84,8 @@ function main() {
     'blogPostsClusterEInvoicing4.ts',
     'blogPostsClusterEInvoicing5.ts',
     'blogPostsClusterEInvoicing6.ts',
+    'blogPostsClusterEInvoicingItalyBulgaria.ts',
+
   ];
 
   const all: Item[] = [];

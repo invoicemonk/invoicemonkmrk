@@ -53,6 +53,7 @@ import '@/data/blogPostsClusterEInvoicing3';
 import '@/data/blogPostsClusterEInvoicing4';
 import '@/data/blogPostsClusterEInvoicing5';
 import '@/data/blogPostsClusterEInvoicing6';
+import '@/data/blogPostsClusterEInvoicingItalyBulgaria';
 
 const BlogPost = () => {
   const { slug, lang: urlLang } = useParams<{ slug: string; lang: string }>();

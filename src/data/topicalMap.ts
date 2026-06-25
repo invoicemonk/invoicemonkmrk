@@ -164,6 +164,15 @@ export const pillars: Pillar[] = [
       'how-to-comply-with-cra-peppol-canada',
       'cra-peppol-canada-explained',
       'cra-peppol-canada-common-errors',
+      // SdI / FatturaPA (Italy)
+      'sdi-italy-explained',
+      'how-to-comply-with-sdi-italy',
+      'best-e-invoicing-software-for-small-businesses-in-italy',
+      'how-to-choose-e-invoicing-software-for-italian-vat-compliance',
+      // NRA SAF-T (Bulgaria)
+      'nra-bulgaria-explained',
+      'best-e-invoicing-platforms-for-small-businesses-in-bulgaria',
+      'how-to-choose-e-invoicing-provider-bulgarian-tax-laws',
       // NOTE: The 5 legacy posts (e-invoicing-{india-gst,malaysia-myinvois,saudi-zatca,nigeria-firs,kenya-etims}-guide)
       // were removed from this cluster and 301-redirect to their *-explained
       // replacement in App.tsx — see P1 cannibalisation fix.
@@ -181,6 +190,7 @@ export const pillars: Pillar[] = [
       'icp-brasil-a1-certificates',
       'real-time-invoice-reporting',
       'choosing-an-e-invoicing-platform-checklist',
+      'enterprise-e-invoicing-europe-comparison',
     ],
   },
   {

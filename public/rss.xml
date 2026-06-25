@@ -6,7 +6,7 @@
     <atom:link href="https://invoicemonk.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Mandate-compliant e-invoicing guides, compliance playbooks, and small-business invoicing how-tos from Invoicemonk.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 05:13:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 08:51:24 GMT</lastBuildDate>
     <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
     <item>
       <title>Common MyInvois Malaysia Errors and How to Fix Them: Validation, TIN Mismatches, Cancellation Windows, and QR Failures (2026)</title>
@@ -201,6 +201,78 @@
       <description>NRS Merchant-Buyer Solution playbook for Nigerian taxpayers: register, provision a signing credential, build the JSON payload, submit, and bind the IRN + QR to the buyer PDF.</description>
     </item>
     <item>
+      <title>Enterprise E-Invoicing in Europe Compared: Coverage, Integrations, ViDA-Readiness (2026)</title>
+      <link>https://invoicemonk.com/en/blog/enterprise-e-invoicing-europe-comparison</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/enterprise-e-invoicing-europe-comparison</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Comparison of enterprise e-invoicing platforms operating across the EU: mandate coverage, ERP/accounting integrations, ViDA readiness, and where each one excels.</description>
+    </item>
+    <item>
+      <title>How to Choose an E-Invoicing Provider Compliant with Bulgarian Tax Laws</title>
+      <link>https://invoicemonk.com/en/blog/how-to-choose-e-invoicing-provider-bulgarian-tax-laws</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-choose-e-invoicing-provider-bulgarian-tax-laws</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Eight-criterion framework for picking an e-invoicing provider that satisfies ZDDS, the Accountancy Act, SAF-T BG, Peppol B2G, and the upcoming CTC mandate.</description>
+    </item>
+    <item>
+      <title>Best E-Invoicing Platforms for Small Businesses in Bulgaria (2026)</title>
+      <link>https://invoicemonk.com/en/blog/best-e-invoicing-platforms-for-small-businesses-in-bulgaria</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/best-e-invoicing-platforms-for-small-businesses-in-bulgaria</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Bulgarian SMB shortlist: platforms that handle ZDDS VAT invoicing today, are ready for SAF-T BG submission, and offer Peppol routing for B2G tenders.</description>
+    </item>
+    <item>
+      <title>NRA Bulgaria E-Invoicing &amp; SAF-T Explained: Phased Rollout 2026–2030</title>
+      <link>https://invoicemonk.com/en/blog/nra-bulgaria-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/nra-bulgaria-explained</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Bulgaria\</description>
+    </item>
+    <item>
+      <title>How to Choose E-Invoicing Software for Italian VAT Compliance (2026 Buyer\</title>
+      <link>https://invoicemonk.com/en/blog/how-to-choose-e-invoicing-software-for-italian-vat-compliance</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-choose-e-invoicing-software-for-italian-vat-compliance</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Decision framework for selecting an SdI-ready platform that satisfies Italian VAT — TipoDocumento coverage, Natura codes, split-payment, reverse-charge, and conservazione sostitutiva.</description>
+    </item>
+    <item>
+      <title>Best E-Invoicing Software for Small Businesses in Italy (2026): SdI-Ready Platforms Compared</title>
+      <link>https://invoicemonk.com/en/blog/best-e-invoicing-software-for-small-businesses-in-italy</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/best-e-invoicing-software-for-small-businesses-in-italy</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>A buyer\</description>
+    </item>
+    <item>
+      <title>How to Comply with SdI Italy: Onboarding, FatturaPA, and Your First Cleared Invoice</title>
+      <link>https://invoicemonk.com/en/blog/how-to-comply-with-sdi-italy</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-comply-with-sdi-italy</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>Italian VAT-registered playbook: register an intermediary, build the FatturaPA XML, sign where required, submit to SdI, and reconcile the ricevuta di consegna.</description>
+    </item>
+    <item>
+      <title>SdI (Sistema di Interscambio) Explained: How Italian FatturaPA Clearance Works (2026)</title>
+      <link>https://invoicemonk.com/en/blog/sdi-italy-explained</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/sdi-italy-explained</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>E-Invoicing</category>
+      <description>The Agenzia delle Entrate clearance hub for every Italian B2B, B2C, and B2G invoice — what SdI validates, how the Codice Destinatario routes the FatturaPA, and what changes under ViDA.</description>
+    </item>
+    <item>
+      <title>The 16 Best Personal Finance Blogs in 2026 | Top Picks &amp; New Voices</title>
+      <link>https://invoicemonk.com/en/blog/the-10-best-personal-finance-blogs</link>
+      <guid isPermaLink="true">https://invoicemonk.com/en/blog/the-10-best-personal-finance-blogs</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Finance</category>
+      <description>What are the best personal finance blogs in 2026? Our updated list of the top 16 personal finance blogs — from FIRE movement classics to new voices in financial independence, budgeting, and wealth building. Updated June 2026.</description>
+    </item>
+    <item>
       <title>XAdES Digital Signatures Explained: How E-Invoices Are Signed and Verified</title>
       <link>https://invoicemonk.com/en/blog/xades-digital-signatures-explained</link>
       <guid isPermaLink="true">https://invoicemonk.com/en/blog/xades-digital-signatures-explained</guid>
@@ -335,78 +407,6 @@
       <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
       <category>Buyer Guides</category>
       <description>Looking for desktop invoicing software for your freelance business? Here is why cloud-based tools beat desktop on compliance, mobility, and total cost — and what to use instead.</description>
-    </item>
-    <item>
-      <title>Tax Software Integration Guide: Streamline Your Tax Workflow</title>
-      <link>https://invoicemonk.com/en/blog/tax-software-integration-guide</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/tax-software-integration-guide</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <category>Tax and Compliance</category>
-      <description>Learn how to integrate your invoicing and accounting software with tax preparation tools. Reduce errors, save time, and ensure compliance with automated data flows.</description>
-    </item>
-    <item>
-      <title>Set Up Automatic Payment Reminders in Minutes (Free Tool)</title>
-      <link>https://invoicemonk.com/en/blog/setting-up-automatic-payment-reminders</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/setting-up-automatic-payment-reminders</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Payments and Cash Flow</category>
-      <description>See exactly how to set up automatic payment reminders in Invoicemonk — with screenshots, an optimal schedule, and copy-paste templates. Reduce late payments by 25–30%, $15/month, cancel anytime.</description>
-    </item>
-    <item>
-      <title>How to Price Freelance Projects: Fixed Fee vs Hourly (With Calculator)</title>
-      <link>https://invoicemonk.com/en/blog/how-to-price-project-work</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/how-to-price-project-work</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Small Business</category>
-      <description>Estimate fixed-fee projects accurately, compare against hourly billing, and present quotes that win — with a free freelance rate calculator.</description>
-    </item>
-    <item>
-      <title>Cash Flow Forecasting for Freelancers: Predict Your Income in 30 Minutes</title>
-      <link>https://invoicemonk.com/en/blog/cash-flow-forecasting-for-freelancers</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/cash-flow-forecasting-for-freelancers</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Finance</category>
-      <description>Never get caught by a cash crunch again. Learn 3 simple forecasting techniques that help freelancers predict income and plan for dry spells — with free template.</description>
-    </item>
-    <item>
-      <title>Credit Notes &amp; Invoice Corrections: When to Issue One (with VAT/GST Examples)</title>
-      <link>https://invoicemonk.com/en/blog/credit-notes-and-invoice-corrections</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/credit-notes-and-invoice-corrections</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Invoicing and Billing Tips</category>
-      <description>When to issue a credit note vs void an invoice, what tax authorities in the UK, EU, India and Nigeria require, and how to handle full vs partial credits — with examples for 2026.</description>
-    </item>
-    <item>
-      <title>Invoice Disputes: How to Handle Them Professionally (2026)</title>
-      <link>https://invoicemonk.com/en/blog/invoice-disputes-how-to-handle-professionally</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/invoice-disputes-how-to-handle-professionally</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Invoicing and Billing Tips</category>
-      <description>Resolve invoice disputes in 14 days or less. Proven 6-step process, email templates, and prevention strategies for freelancers and agencies.</description>
-    </item>
-    <item>
-      <title>How to Set Up Recurring Invoices Automatically (2026 Guide)</title>
-      <link>https://invoicemonk.com/en/blog/recurring-invoices-automating-billing</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/recurring-invoices-automating-billing</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Invoicing and Billing Tips</category>
-      <description>Automate monthly billing in 5 minutes. Step-by-step setup, frequency rules, proration, and price-change handling for retainers and subscriptions.</description>
-    </item>
-    <item>
-      <title>Invoice Numbering: Best Practices &amp; Systems That Scale (2026)</title>
-      <link>https://invoicemonk.com/en/blog/invoice-numbering-best-practices</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/invoice-numbering-best-practices</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Invoicing and Billing Tips</category>
-      <description>Choose the right invoice numbering system from day one. We cover sequential, date-based, and project-coded formats — with examples for freelancers and growing businesses.</description>
-    </item>
-    <item>
-      <title>The 15 Best Personal Finance Blogs in 2026 | Top Picks &amp; New Voices</title>
-      <link>https://invoicemonk.com/en/blog/the-10-best-personal-finance-blogs</link>
-      <guid isPermaLink="true">https://invoicemonk.com/en/blog/the-10-best-personal-finance-blogs</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <category>Finance</category>
-      <description>What are the best personal finance blogs in 2026? Our updated list of the top 15 personal finance blogs — from FIRE movement classics to new voices in financial independence, budgeting, and wealth building. Updated February 2026.</description>
     </item>
   </channel>
 </rss>

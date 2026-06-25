@@ -94,6 +94,8 @@ export const MANDATE_LAST_REVIEWED_BY_SLUG: Record<string, string> = {
   'sef-brazil': MANDATES_LAST_REVIEWED,
   'b2g-us': MANDATES_LAST_REVIEWED,
   'cra-peppol-canada': MANDATES_LAST_REVIEWED,
+  'sdi-italy': MANDATES_LAST_REVIEWED,
+  'nra-bulgaria': MANDATES_LAST_REVIEWED,
 };
 
 /**
@@ -180,6 +182,17 @@ export const MANDATE_RELATED_SLUGS: Record<string, string[]> = {
     'how-to-comply-with-cra-peppol-canada',
     'cra-peppol-canada-explained',
     'cra-peppol-canada-common-errors',
+  ],
+  'sdi-italy': [
+    'sdi-italy-explained',
+    'how-to-comply-with-sdi-italy',
+    'best-e-invoicing-software-for-small-businesses-in-italy',
+    'how-to-choose-e-invoicing-software-for-italian-vat-compliance',
+  ],
+  'nra-bulgaria': [
+    'nra-bulgaria-explained',
+    'best-e-invoicing-platforms-for-small-businesses-in-bulgaria',
+    'how-to-choose-e-invoicing-provider-bulgarian-tax-laws',
   ],
 };
 
@@ -903,6 +916,98 @@ export const mandates: Mandate[] = [
       { question: 'Do I need a Canadian Peppol participant ID?', answer: 'Invoicemonk\'s Access Point partner registers and manages your Canadian Peppol participant ID; no separate setup.' },
       { question: 'Are GST/HST returns filed from Invoicemonk?', answer: 'Return figures are exposed for CRA My Business Account submission with digital linkage to source invoices.' },
       { question: 'Are zero-rated and exempt supplies coded correctly?', answer: 'Yes. Zero-rated (e.g. basic groceries, exports) and exempt (e.g. financial services, residential rent) supplies are coded per CRA schedules.' },
+    ],
+  },
+  {
+    slug: 'sdi-italy',
+    jurisdiction: 'Italy',
+    region: 'europe',
+    authority: 'Agenzia delle Entrate (AdE) — Sistema di Interscambio (SdI)',
+    mandate: 'FatturaPA via Sistema di Interscambio (clearance)',
+    artefact: 'FatturaPA XML (v1.2.x) signed with CAdES-BES (.xml.p7m) or XAdES, delivered through SdI with the AdE delivery receipt (ricevuta di consegna)',
+    transport: 'Direct submission to the AdE Sistema di Interscambio (SdI) via SDICoop web service, PEC, SDIFTP, or accredited intermediary',
+    appliesTo: 'All Italian VAT-registered businesses for B2B, B2C, and B2G invoices. Mandatory for flat-rate (regime forfettario) taxpayers from 1 January 2024.',
+    liveSince: '2024-02-01',
+    localArtefactName: 'FatturaPA + SdI receipt',
+    oneLine: 'FatturaPA XML signed and routed through the AdE Sistema di Interscambio, with the Codice Destinatario picking the buyer channel.',
+    title: 'FatturaPA / SdI e-Invoicing (Italy) | Invoicemonk',
+    metaDescription: 'Issue Italian FatturaPA e-invoices through the Agenzia delle Entrate Sistema di Interscambio (SdI). Codice Destinatario routing, CAdES signing, AdE delivery receipts. Live since February 2024.',
+    directAnswer: 'Invoicemonk issues Italian e-invoices in the FatturaPA XML format, signs them with a qualified certificate, and submits them to the Agenzia delle Entrate Sistema di Interscambio (SdI) for clearance. SdI validates and routes the invoice to the buyer using the 7-character Codice Destinatario or the buyer\'s PEC address, returning the ricevuta di consegna. Live since February 2024.',
+    sections: [
+      {
+        heading: 'What SdI / FatturaPA requires',
+        body: 'Italy operates a full clearance model. Every B2B, B2C, and B2G invoice between Italian-resident parties must be issued as a FatturaPA XML (currently version 1.2.x), signed with a CAdES-BES (.xml.p7m) or XAdES qualified signature where required, and submitted to the Sistema di Interscambio (SdI) — the AdE hub. SdI runs schema, schematron, and VAT-number validation; on success it returns the ricevuta di consegna (delivery receipt) and forwards the invoice to the buyer via the 7-character Codice Destinatario or, as a fallback, the buyer\'s PEC address. The B2B mandate has been in force since 1 January 2019 (DL 119/2018) and was extended to flat-rate (regime forfettario, up to €25k turnover initially, then all forfettari from 1 January 2024). Cross-border invoices (Esterometro) are reported through the same SdI channel using TipoDocumento codes TD17/TD18/TD19. From 2030, ViDA aligns the FatturaPA schema with the EU EN 16931 semantic model for intra-EU digital reporting.',
+      },
+      {
+        heading: 'How Invoicemonk meets SdI',
+        body: 'Invoicemonk builds the FatturaPA XML to the AdE\'s published schema, applies the correct ProgressivoInvio, signs the payload as .xml.p7m where the channel requires it, and submits to SdI through the SDICoop web service. We capture the SdI Identificativo SdI, the ricevuta di consegna (or ricevuta di scarto with the error code on rejection), and bind both to the invoice record. Buyer routing follows the Codice Destinatario (7 characters for SdI-registered buyers, "0000000" with a PEC fallback for consumers/foreign buyers). Reverse-charge, split payment (IVA scissione dei pagamenti), and the TD-code matrix (TD01–TD28) are handled per the AdE technical specifications. Self-billing (autofattura) is supported under TD20.',
+      },
+      {
+        heading: 'Who this applies to',
+        body: 'All Italian VAT-registered businesses, including flat-rate (regime forfettario) and minimi taxpayers from 1 January 2024. Foreign sellers without an Italian VAT registration are out of scope but may receive FatturaPA copies routed via Codice Destinatario "XXXXXXX".',
+      },
+    ],
+    citations: [
+      { label: 'AdE — FatturaPA specifications and technical documentation', url: 'https://www.fatturapa.gov.it/it/norme-e-regole/documentazione-fattura-elettronica/formato-fatturapa/' },
+      { label: 'AdE — Provvedimento 30 aprile 2018 (B2B mandate)', url: 'https://www.agenziaentrate.gov.it/portale/web/guest/normativa-e-prassi' },
+      { label: 'AdE — Provvedimento 28 ottobre 2021 (specifiche tecniche v1.7)', url: 'https://www.agenziaentrate.gov.it/' },
+      { label: 'DL 36/2022 art.18 (forfettari extension)', url: 'https://www.gazzettaufficiale.it/' },
+      { label: 'Sistema di Interscambio — portal', url: 'https://www.fatturapa.gov.it/' },
+      { label: 'EU Council Directive 2022/542 + ViDA package', url: 'https://eur-lex.europa.eu/' },
+    ],
+    faqs: [
+      { question: 'What is the Codice Destinatario and how do I find a buyer\'s code?', answer: 'A 7-character alphanumeric identifier the buyer registers with AdE (or with their accredited intermediary). If the buyer has not registered one, Italian buyers use "0000000" plus a PEC address; foreign buyers use "XXXXXXX". Invoicemonk validates the format and routes accordingly.' },
+      { question: 'Do I need to sign every FatturaPA?', answer: 'B2G invoices (to public administrations) must be signed CAdES-BES (.xml.p7m). B2B/B2C signatures are not mandated by SdI for the standard SDICoop submission channel since 2019, but most accountants still require them for evidential value. Invoicemonk signs by default and lets you opt out per customer.' },
+      { question: 'How are cross-border invoices handled (Esterometro replacement)?', answer: 'Since 1 July 2022 cross-border data flows through the same SdI channel using TipoDocumento TD17 (purchase of services from abroad), TD18 (intra-EU acquisitions), TD19 (purchases under art.17 c.2 DPR 633/72). Invoicemonk emits the correct TD code automatically based on the counterparty\'s country and VAT number.' },
+      { question: 'What is the AdE ricevuta di consegna vs ricevuta di scarto?', answer: 'Consegna is the success receipt — SdI has delivered the invoice. Scarto is rejection with one of the documented error codes (00200 schema, 00301 invalid VAT number, etc.). Invoicemonk surfaces both with the AdE error description and the corrective action.' },
+      { question: 'Does ViDA change anything for Italian FatturaPA?', answer: 'From 2030, ViDA introduces an EU-level digital reporting requirement based on EN 16931. The Italian FatturaPA schema will need to expose the EN 16931 semantic model for intra-EU transactions; AdE has signalled the SdI infrastructure will be retained. We are tracking the AdE consultation and will publish the schema delta when finalised.' },
+      { question: 'Are flat-rate taxpayers (regime forfettario) in scope?', answer: 'Yes — all forfettari since 1 January 2024 regardless of turnover. The previous €25k threshold (in force from 1 July 2022) was removed by DL 36/2022 art.18.' },
+    ],
+  },
+  {
+    slug: 'nra-bulgaria',
+    jurisdiction: 'Bulgaria',
+    region: 'europe',
+    authority: 'НАП — Национална агенция за приходите (NRA, National Revenue Agency)',
+    mandate: 'SAF-T BG reporting + B2G Peppol BIS Billing 3.0 and planned domestic e-invoicing',
+    artefact: 'SAF-T BG XML (OECD SAF-T 2.0 with Bulgarian extensions); Peppol BIS Billing 3.0 UBL routed via certified Access Point for B2G',
+    transport: 'SAF-T XML submitted to NRA portal monthly/annually; B2G invoices through the Peppol four-corner network',
+    appliesTo: 'Phased SAF-T: large enterprises from 1 January 2026; medium enterprises from 1 January 2027; small enterprises from 1 January 2028; micro from 1 January 2030. B2G Peppol mandatory since 2019. Domestic B2B e-invoicing in public consultation.',
+    liveSince: '2026-01-01',
+    localArtefactName: 'SAF-T BG XML + Peppol BIS',
+    oneLine: 'SAF-T BG XML to the NRA plus Peppol BIS Billing 3.0 routing for Bulgarian B2G invoices.',
+    title: 'NRA e-Invoicing & SAF-T (Bulgaria) | Invoicemonk',
+    metaDescription: 'Submit Bulgarian SAF-T BG XML to the NRA and route B2G invoices through Peppol BIS Billing 3.0. Phased SAF-T rollout 2026–2030, domestic e-invoicing in consultation. Live since January 2026.',
+    directAnswer: 'Invoicemonk generates Bulgarian SAF-T BG XML files for monthly and annual NRA submission, and routes B2G invoices as Peppol BIS Billing 3.0 UBL through a certified Access Point. The SAF-T rollout is phased 2026–2030 by turnover; B2G Peppol is in force since 2019. Live since January 2026.',
+    sections: [
+      {
+        heading: 'What the NRA requires',
+        body: 'Bulgaria operates two distinct compliance surfaces. First, SAF-T BG — the Bulgarian implementation of the OECD SAF-T 2.0 schema with NRA-specific extensions — is being rolled out in waves: large enterprises (turnover >BGN 300m, or "групи 1" per NRA classification) from 1 January 2026, medium enterprises from 1 January 2027, small enterprises from 1 January 2028, and microenterprises from 1 January 2030. SAF-T BG covers the GeneralLedger, SourceDocuments (sales, purchases, payments), MasterFiles, and inventory blocks, submitted monthly for transactional data and annually for the master files. Second, B2G e-invoicing has been mandatory since November 2019 under the Public Procurement Act amendments transposing EU Directive 2014/55, using Peppol BIS Billing 3.0 routed through a certified Access Point. A domestic B2B e-invoicing mandate is currently in public consultation (Ministry of Finance draft, late 2025) and is expected to launch alongside the small-enterprise SAF-T wave.',
+      },
+      {
+        heading: 'How Invoicemonk meets NRA',
+        body: 'Invoicemonk produces SAF-T BG XML conformant to the NRA published schema, populated from the invoice ledger, the chart of accounts mapping, and the inventory module. The monthly SourceDocuments file, the annual MasterFiles file, and the on-demand audit file are all generated to the NRA naming convention and submitted through the NRA SAF-T portal. For B2G, we route Peppol BIS Billing 3.0 UBL through our certified Access Point partner with the buyer\'s Peppol participant ID (typically 9938:VAT-number for Bulgarian public bodies). VAT split-payment treatment, reverse-charge under art.163a ZDDS, and the standard 20% / reduced 9% / 0% rate matrix are handled per ZDDS rules.',
+      },
+      {
+        heading: 'Who this applies to',
+        body: 'Every business in Bulgaria reaches SAF-T scope on its wave date by turnover band; B2G suppliers to Bulgarian public bodies need Peppol from the moment they tender. The planned domestic B2B mandate, when adopted, will apply to all VAT-registered businesses on a phased timeline.',
+      },
+    ],
+    citations: [
+      { label: 'НАП — SAF-T BG техническа документация', url: 'https://nra.bg/wps/portal/nra/za-nas/normativni-aktove/saf-t' },
+      { label: 'OECD SAF-T 2.0 standard', url: 'https://www.oecd.org/tax/forum-on-tax-administration/publications-and-products/saft.htm' },
+      { label: 'Закон за обществените поръчки (Public Procurement Act) — art.39a Peppol B2G', url: 'https://www.aop.bg/' },
+      { label: 'EU Directive 2014/55/EU on e-invoicing in public procurement', url: 'https://eur-lex.europa.eu/eli/dir/2014/55/oj' },
+      { label: 'Закон за ДДС (ZDDS, Bulgarian VAT Act)', url: 'https://nra.bg/wps/portal/nra/normativna-uredba' },
+      { label: 'Ministry of Finance — domestic e-invoicing consultation paper (2025)', url: 'https://www.minfin.bg/' },
+    ],
+    faqs: [
+      { question: 'When does SAF-T BG apply to my business?', answer: 'By wave: large enterprises (group 1, turnover above BGN 300m or assets above BGN 150m) from 1 January 2026; medium from 1 January 2027; small from 1 January 2028; micro from 1 January 2030. The NRA publishes the definitive classification each year — Invoicemonk surfaces the wave date in your dashboard once your TIN is on file.' },
+      { question: 'What is the difference between the SAF-T monthly and annual files?', answer: 'Monthly: SourceDocuments — sales invoices, purchase invoices, payments, journal entries for the period. Annual: MasterFiles — chart of accounts, customers, suppliers, products, tax codes. Plus an on-demand audit file the NRA can request during an inspection.' },
+      { question: 'Is Bulgarian B2B e-invoicing mandatory today?', answer: 'No — not yet. The Ministry of Finance is consulting on a CTC-style mandate (likely clearance through an NRA portal). Invoicemonk will ship the integration ahead of the live date. B2G is already Peppol-mandatory since 2019.' },
+      { question: 'Do I need a Peppol Access Point for Bulgarian B2G?', answer: 'Yes. Bulgarian public bodies register Peppol participant IDs under scheme 9938 (Bulgarian VAT). Invoicemonk\'s Access Point partner routes the UBL document end to end.' },
+      { question: 'How is the SAF-T BG payments block populated?', answer: 'From the matched payments in your accounts-receivable / accounts-payable ledger. We populate Payment.PaymentRefNo, Date, Method (per NRA code list), and the InvoiceReference back to the source document.' },
+      { question: 'Does SAF-T replace VAT returns?', answer: 'No. The monthly VAT return (декларация по ЗДДС) and VIES recapitulative statement remain. SAF-T provides the NRA with the full transactional dataset behind those returns for audit and risk-scoring.' },
     ],
   },
 ];

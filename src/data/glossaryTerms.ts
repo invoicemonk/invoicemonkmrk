@@ -556,6 +556,51 @@ export const glossaryTerms: GlossaryTerm[] = [
     relatedTerms: ['qr-tax-invoice', 'xades'],
     category: 'e-invoicing',
     sameAs: 'https://www.zimra.co.zw/'
+  },
+  {
+    term: 'FatturaPA',
+    slug: 'fatturapa',
+    definition: 'The Italian XML format (currently version 1.2.x) for electronic invoices, mandated by the Agenzia delle Entrate for every B2B, B2C, and B2G invoice between Italian-resident parties and routed through the Sistema di Interscambio.',
+    extendedDescription: 'FatturaPA is the schema; the SdI is the channel. The payload carries CedentePrestatore (seller), CessionarioCommittente (buyer), DatiGeneraliDocumento (with the TipoDocumento code TD01–TD28), DatiBeniServizi (line items), DatiPagamento, and — for B2G — a CAdES-BES signature wrapper (.xml.p7m). ViDA will align the schema with EN 16931 from 2030 for intra-EU reporting.',
+    relatedTerms: ['sdi', 'codice-destinatario', 'peppol-bis-billing-3', 'xades'],
+    category: 'e-invoicing',
+    sameAs: 'https://www.fatturapa.gov.it/'
+  },
+  {
+    term: 'SdI (Sistema di Interscambio)',
+    slug: 'sdi',
+    definition: 'The Agenzia delle Entrate clearance hub that validates, registers, and routes every FatturaPA between Italian sellers and buyers, returning the ricevuta di consegna on success or a ricevuta di scarto with an error code on rejection.',
+    extendedDescription: 'SdI is the canonical European example of a clearance-style continuous-transaction-controls regime alongside Hungary RTIR and Spain TicketBAI/Veri*Factu. It accepts submissions via SDICoop web service, PEC, SDIFTP, or accredited intermediary, validates against the FatturaPA schematron, and forwards the document to the buyer via the Codice Destinatario or PEC fallback.',
+    relatedTerms: ['fatturapa', 'codice-destinatario'],
+    category: 'e-invoicing',
+    sameAs: 'https://www.fatturapa.gov.it/'
+  },
+  {
+    term: 'Codice Destinatario',
+    slug: 'codice-destinatario',
+    definition: 'The 7-character alphanumeric identifier registered with the Agenzia delle Entrate that tells SdI which channel to use when delivering a FatturaPA to the buyer.',
+    extendedDescription: 'Italian VAT-registered buyers with an accredited intermediary register a specific code (e.g. KRRH6B9 for some providers). Buyers without a registered code use "0000000" combined with a PEC email address. Foreign buyers use "XXXXXXX". A FatturaPA with an invalid Codice Destinatario is rejected with error code 00311.',
+    relatedTerms: ['fatturapa', 'sdi'],
+    category: 'e-invoicing',
+    sameAs: 'https://www.fatturapa.gov.it/'
+  },
+  {
+    term: 'SAF-T BG (Bulgarian SAF-T)',
+    slug: 'saf-t-bulgaria',
+    definition: 'Bulgaria\'s adoption of the OECD Standard Audit File for Tax (SAF-T 2.0) with NRA-specific extensions, submitted monthly for transactional data and annually for master files, rolled out in waves from 2026 to 2030 by enterprise size.',
+    extendedDescription: 'The Bulgarian schema covers GeneralLedgerEntries, SourceDocuments (sales, purchases, payments), MasterFiles (chart of accounts, customers, suppliers, products, tax codes), and a movement-of-goods block. The NRA uses SAF-T as the audit and risk-scoring substrate behind monthly VAT returns and the VIES recapitulative statement, not as a replacement for either.',
+    relatedTerms: ['ubl-2-1', 'peppol-bis-billing-3'],
+    category: 'e-invoicing',
+    sameAs: 'https://nra.bg/'
+  },
+  {
+    term: 'Peppol BIS Billing 3.0',
+    slug: 'peppol-bis-billing-3',
+    definition: 'The OpenPeppol Core Invoice Usage Specification of EN 16931 used to exchange structured UBL 2.1 invoices across the four-corner Peppol network — mandatory for all EU B2G under Directive 2014/55/EU and the default for Bulgarian, Italian cross-border, and most Nordic B2B flows.',
+    extendedDescription: 'BIS Billing 3.0 specifies the UBL 2.1 profile, schematron validation rules, and country specialisations (XRechnung in Germany, Factur-X bridge in France, FatturaPA bridge in Italy, Peppol BIS Canada). Access Points must validate against the BIS schematron before routing, ensuring buyer-side acceptance regardless of the originating jurisdiction.',
+    relatedTerms: ['peppol-bis', 'peppol-access-point', 'ubl-2-1'],
+    category: 'e-invoicing',
+    sameAs: 'https://docs.peppol.eu/poacc/billing/3.0/'
   }
 ];
 
