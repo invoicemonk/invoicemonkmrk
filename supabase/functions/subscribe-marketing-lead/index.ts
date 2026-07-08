@@ -24,6 +24,15 @@ function rateLimit(ip: string): boolean {
   return entry.count <= MAX_REQ;
 }
 
+// Lead magnet allow-list — file paths under public/downloads. Keep in
+// sync with src/data/leadMagnets.ts. Prevents open-redirect abuse.
+const MAGNET_FILES: Record<string, string> = {
+  "international-invoicing-checklist": "/downloads/international-invoicing-checklist.pdf",
+  "get-paid-playbook": "/downloads/get-paid-playbook.pdf",
+  "invoice-template-pack": "/downloads/invoice-template-pack.pdf",
+  "freelancer-payment-checklist": "/downloads/freelancer-payment-checklist.pdf",
+};
+
 serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
@@ -59,6 +68,8 @@ serve(async (req) => {
     const firstName = typeof body?.firstName === "string" ? body.firstName.trim() : "";
     const email = typeof body?.email === "string" ? body.email.trim().toLowerCase() : "";
     const source = typeof body?.source === "string" ? body.source.slice(0, 100) : "exit_intent";
+    const magnetKey = typeof body?.magnet === "string" ? body.magnet.slice(0, 80) : "";
+    const magnetFile = magnetKey && MAGNET_FILES[magnetKey] ? MAGNET_FILES[magnetKey] : null;
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!firstName || firstName.length > 50 || !email || email.length > 255 || !emailRegex.test(email)) {
@@ -67,6 +78,12 @@ serve(async (req) => {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
+
+    const attributes: Record<string, string> = {
+      FIRSTNAME: firstName,
+      SIGNUP_SOURCE: source,
+    };
+    if (magnetKey) attributes.LEAD_MAGNET = magnetKey;
 
     const brevoRes = await fetch(BREVO_CONTACTS_URL, {
       method: "POST",
@@ -77,17 +94,23 @@ serve(async (req) => {
       },
       body: JSON.stringify({
         email,
-        attributes: { FIRSTNAME: firstName, SIGNUP_SOURCE: source },
+        attributes,
         listIds: [listId],
         updateEnabled: true,
       }),
     });
 
+    const buildResponse = (extra: Record<string, unknown>) => ({
+      success: true,
+      ...(magnetFile ? { downloadUrl: magnetFile } : {}),
+      ...extra,
+    });
+
     if (!brevoRes.ok) {
       const errText = await brevoRes.text();
-      // Treat duplicate as success (idempotent)
+      // Treat duplicate as success (idempotent) — still return the download URL.
       if (brevoRes.status === 400 && errText.includes("duplicate_parameter")) {
-        return new Response(JSON.stringify({ success: true, duplicate: true }), {
+        return new Response(JSON.stringify(buildResponse({ duplicate: true })), {
           status: 200,
           headers: { ...corsHeaders, "Content-Type": "application/json" },
         });
@@ -99,7 +122,7 @@ serve(async (req) => {
       });
     }
 
-    return new Response(JSON.stringify({ success: true }), {
+    return new Response(JSON.stringify(buildResponse({})), {
       status: 200,
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
