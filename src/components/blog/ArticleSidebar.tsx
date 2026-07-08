@@ -166,44 +166,94 @@ export function ArticleSidebar({ post, pillar, clusterPosts = [] }: ArticleSideb
         </Card>
       )}
 
-      {/* Signup CTA */}
+      {/* Signup CTA — value bullets + proof line + dual CTAs */}
       <Card
         className="border-2 overflow-hidden"
         style={accent ? { borderColor: accent } : { borderColor: 'hsl(var(--primary))' }}
       >
-        <CardContent className="p-6 text-center">
+        <CardContent className="p-6">
           <div
-            className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4"
+            className="w-11 h-11 rounded-xl flex items-center justify-center mb-3"
             style={{
-              backgroundColor: accent ? `${accent}15` : 'hsl(var(--primary) / 0.1)',
+              backgroundColor: accent ? `${accent}20` : 'hsl(var(--primary) / 0.15)',
             }}
           >
-            <Sparkles
-              className="h-6 w-6"
-              style={{ color: accent || 'hsl(var(--primary))' }}
-            />
+            <Sparkles className="h-5 w-5" style={{ color: accent || 'hsl(var(--primary))' }} />
           </div>
-          <h3 className="font-semibold text-foreground mb-2">
-            Try Invoicemonk
+          <h3 className="font-bold text-foreground text-base mb-1">
+            Get compliant invoicing today
           </h3>
-          <p className="text-sm text-muted-foreground mb-4">
-            Send compliant invoices and get paid faster. Pro from $15/month, cancel anytime.
+          <p className="text-xs text-muted-foreground mb-4">
+            Pro from $15/mo. Cancel anytime.
           </p>
+
+          <ul className="space-y-1.5 mb-4">
+            {VALUE_BULLETS.map((b) => (
+              <li key={b} className="flex items-start gap-2 text-xs text-foreground/80">
+                <CheckCircle2 className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" style={{ color: accent || 'hsl(var(--primary))' }} />
+                <span>{b}</span>
+              </li>
+            ))}
+          </ul>
+
           <Button
             asChild
-            className="w-full group"
-            style={
-              accent ? { backgroundColor: accent, color: 'white' } : undefined
-            }
+            size="sm"
+            className="w-full group mb-2"
+            style={accent ? { backgroundColor: accent, color: 'white' } : undefined}
           >
-            <a href={signupHref}>
-              <span>Get started</span>
+            <a
+              href={signupHref}
+              onClick={() =>
+                logConversion({
+                  eventType: 'click',
+                  placement: 'sidebar',
+                  pillarId: pillar?.id,
+                  slug: post.slug,
+                  ctaVariant: 'signup',
+                })
+              }
+            >
+              <span>Create account</span>
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
           </Button>
           <a
+            href="#content-upgrade"
+            onClick={(e) => {
+              e.preventDefault();
+              const el = document.querySelector('#content-upgrade') as HTMLElement | null;
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                const input = el.querySelector('input[type="email"]') as HTMLInputElement | null;
+                setTimeout(() => input?.focus(), 500);
+              }
+              logConversion({
+                eventType: 'click',
+                placement: 'sidebar',
+                pillarId: pillar?.id,
+                slug: post.slug,
+                ctaVariant: 'download_soft',
+              });
+            }}
+            className="flex items-center justify-center gap-1.5 w-full py-2 rounded-md text-xs font-medium text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Download className="w-3.5 h-3.5" />
+            Or grab the free checklist
+          </a>
+
+          <div className="mt-4 pt-4 border-t border-border/60 flex items-center gap-1.5 justify-center">
+            <div className="flex" aria-hidden="true">
+              {[0, 1, 2, 3, 4].map((i) => (
+                <Star key={i} className="w-3 h-3 fill-primary text-primary" />
+              ))}
+            </div>
+            <span className="text-[11px] text-muted-foreground">{PROOF_LINE}</span>
+          </div>
+
+          <a
             href={APP_LOGIN}
-            className="block mt-3 text-xs text-muted-foreground hover:text-primary transition-colors"
+            className="block mt-3 text-[11px] text-muted-foreground hover:text-primary transition-colors text-center"
           >
             Already have an account? Log in
           </a>
