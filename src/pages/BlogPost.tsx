@@ -71,31 +71,69 @@ const BlogPost = () => {
     const lang = urlLang || 'en';
     let html = enhanceInternalLinks(post.content, lang);
     html = addBlockAnswers(html);
-    html = injectInlineCTAs(html, { pillarId: p?.id, lang, slug: post.slug });
+    html = injectInlineCTAs(html, {
+      pillarId: p?.id,
+      lang,
+      slug: post.slug,
+      targetCountry: post.targetCountry,
+    });
     const glossaryTerms = getGlossaryTermsForPillar(p?.id);
     return linkGlossaryTermsInText(html, glossaryTerms);
   }, [post, urlLang]);
 
-  // Inline-CTA click tracking via event delegation
+  // Split content around the 2nd <h2> so we can inject a real React
+  // ContentUpgradeCard after the first section (before the first mid CTA).
+  const { beforeUpgrade, afterUpgrade } = useMemo(() => {
+    const html = enhancedContent;
+    const h2Regex = /<h2\b[^>]*>/gi;
+    const positions: number[] = [];
+    let m: RegExpExecArray | null;
+    while ((m = h2Regex.exec(html)) !== null) positions.push(m.index);
+    if (positions.length < 2) return { beforeUpgrade: html, afterUpgrade: '' };
+    const cut = positions[1];
+    return { beforeUpgrade: html.slice(0, cut), afterUpgrade: html.slice(cut) };
+  }, [enhancedContent]);
+
+  // Inline-CTA click tracking via event delegation (both primary + soft)
   const { trackEvent } = useContentAnalytics(post?.slug, post ? getPostClusterInfo(post.slug).pillar?.id : undefined);
   useEffect(() => {
     if (!post) return;
-    const article = document.querySelector('article .prose');
+    const article = document.querySelector('article');
     if (!article) return;
     const handler = (e: Event) => {
-      const target = (e.target as HTMLElement)?.closest('.inline-cta__primary') as HTMLAnchorElement | null;
-      if (!target) return;
-      trackEvent('tool_cta_click', {
-        cta: 'inline_mid_article',
-        position: target.dataset.ctaPosition,
-        pillarId: target.dataset.ctaPillar,
-        href: target.getAttribute('href'),
-        slug: post.slug,
-      });
+      const el = e.target as HTMLElement | null;
+      const primary = el?.closest('.inline-cta__primary') as HTMLAnchorElement | null;
+      const soft = el?.closest('.inline-cta__soft') as HTMLAnchorElement | null;
+      if (primary) {
+        trackEvent('tool_cta_click', {
+          cta: 'inline_mid_article',
+          position: primary.dataset.ctaPosition,
+          pillarId: primary.dataset.ctaPillar,
+          href: primary.getAttribute('href'),
+          slug: post.slug,
+        });
+        return;
+      }
+      if (soft) {
+        e.preventDefault();
+        const anchor = document.querySelector('#content-upgrade') as HTMLElement | null;
+        if (anchor) {
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          const input = anchor.querySelector('input[type="email"]') as HTMLInputElement | null;
+          setTimeout(() => input?.focus(), 500);
+        }
+        trackEvent('tool_cta_click', {
+          cta: 'inline_mid_article_soft',
+          position: soft.dataset.ctaPosition,
+          pillarId: soft.dataset.ctaPillar,
+          slug: post.slug,
+        });
+      }
     };
     article.addEventListener('click', handler);
     return () => article.removeEventListener('click', handler);
   }, [post, trackEvent]);
+
 
   // Country-targeted posts are canonical English content after the country-prefix migration.
   const canonicalPrefix = post?.targetCountry ? 'en' : (urlLang || 'en');
