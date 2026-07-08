@@ -1,11 +1,13 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Link } from '@/components/LocalizedLink';
-import { BookOpen, ChevronDown, ChevronUp, ArrowRight, Sparkles } from 'lucide-react';
+import { BookOpen, ChevronDown, ChevronUp, ArrowRight, Sparkles, CheckCircle2, Download, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 import type { Pillar } from '@/data/topicalMap';
 import type { BlogPost } from '@/data/blogPosts';
+import { VALUE_BULLETS, PROOF_LINE } from '@/data/pillarCTAs';
+import { logConversion } from '@/lib/conversionTracking';
 
 interface TocItem {
   id: string;
