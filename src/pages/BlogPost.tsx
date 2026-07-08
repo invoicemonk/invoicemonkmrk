@@ -446,12 +446,23 @@ const BlogPost = () => {
             <AuthorCard author={post.author} variant="full" showCredentials />
           </div>
 
-          {/* Single signup-focused article-end CTA. No Recommended Tools or
-              product-page CTA stack — conversion path stays simple:
-              read article → understand challenge → signup. */}
+          {/* Article-end signup CTA (dual: signup + soft download fallback). */}
           <div className="max-w-3xl mx-auto mt-16">
-            <SignupCTA pillarId={pillar?.id} medium="article_end" campaign="blog_signup_cta" />
+            <SignupCTA
+              pillarId={pillar?.id}
+              slug={post.slug}
+              medium="article_end"
+              campaign="blog_signup_cta"
+            />
           </div>
+
+          {/* Sticky bottom conversion bar (dismissible, remembers 7 days). */}
+          <StickyBlogCTA
+            pillarId={pillar?.id}
+            slug={post.slug}
+            targetCountry={post.targetCountry}
+          />
+
 
           {/* Related Posts */}
           {relatedPosts.length > 0 && (
