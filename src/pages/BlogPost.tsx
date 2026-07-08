@@ -202,17 +202,37 @@ const BlogPost = () => {
   // Determine if this is a pillar page that should use special layout
   const isPillarPage = post.pillarContent && pillar;
 
-  // Common article content
+  // Common article content — split around 2nd h2 to inject the
+  // ContentUpgradeCard (email capture) as real React, then continue with
+  // the enhanced HTML (which already contains the funnel mid-article CTAs).
   const ArticleContent = () => (
     <>
-      <div 
+      <div
         className="prose prose-lg dark:prose-invert max-w-none"
-        dangerouslySetInnerHTML={{ __html: enhancedContent }}
+        dangerouslySetInnerHTML={{ __html: beforeUpgrade }}
       />
 
-      {/* Single signup-focused CTA — no competing exits to product pages,
-          tools, or the free invoice generator. */}
-      <SignupCTA pillarId={pillar?.id} medium="article_inline" campaign="blog_signup_cta_inline" />
+      <ContentUpgradeCard
+        pillarId={pillar?.id}
+        targetCountry={post.targetCountry}
+        slug={post.slug}
+        placement="article_top"
+      />
+
+      {afterUpgrade && (
+        <div
+          className="prose prose-lg dark:prose-invert max-w-none"
+          dangerouslySetInnerHTML={{ __html: afterUpgrade }}
+        />
+      )}
+
+      {/* End-of-article dual CTA (signup + soft download fallback) */}
+      <SignupCTA
+        pillarId={pillar?.id}
+        slug={post.slug}
+        medium="article_inline"
+        campaign="blog_signup_cta_inline"
+      />
 
       {/* Tags */}
       {post.tags && post.tags.length > 0 && (
@@ -228,6 +248,7 @@ const BlogPost = () => {
         </div>
       )}
     </>
+
   );
 
   return (
