@@ -80,7 +80,7 @@ export function logConversion(payload: ConversionEventPayload): void {
         cta_variant: payload.ctaVariant ?? null,
         session_id: getSessionId(),
         page_url: typeof window !== 'undefined' ? window.location.pathname : null,
-        extra: payload.extra ?? null,
+        extra: (payload.extra ?? null) as never,
       })
       .then(() => {})
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
