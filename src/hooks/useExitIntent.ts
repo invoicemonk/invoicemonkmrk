@@ -35,7 +35,6 @@ export function useExitIntent(): { open: boolean; setOpen: (v: boolean) => void;
       triggered = true;
       try {
         localStorage.setItem(STORAGE_SEEN, Date.now().toString());
-        // Analytics
         // @ts-expect-error dataLayer global
         (window.dataLayer = window.dataLayer || []).push({ event: "exit_intent_shown" });
       } catch {
@@ -50,15 +49,36 @@ export function useExitIntent(): { open: boolean; setOpen: (v: boolean) => void;
 
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
     let mobileTimer: number | undefined;
+    let dwellTimer: number | undefined;
+    let dwellArmed = false;
+
+    const armDwell = () => {
+      if (dwellArmed) return;
+      dwellArmed = true;
+      dwellTimer = window.setTimeout(trigger, 30000);
+    };
+
+    const onScroll = () => {
+      if (!isMobile) return;
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = docHeight > 0 ? scrollTop / docHeight : 0;
+      if (pct >= 0.6) armDwell();
+    };
+
     if (isMobile) {
-      mobileTimer = window.setTimeout(trigger, 45000);
+      // Fallback: force show after 60s on mobile even without deep scroll.
+      mobileTimer = window.setTimeout(trigger, 60000);
+      window.addEventListener("scroll", onScroll, { passive: true });
     } else {
       document.documentElement.addEventListener("mouseleave", onMouseLeave);
     }
 
     return () => {
       document.documentElement.removeEventListener("mouseleave", onMouseLeave);
+      window.removeEventListener("scroll", onScroll);
       if (mobileTimer) window.clearTimeout(mobileTimer);
+      if (dwellTimer) window.clearTimeout(dwellTimer);
     };
   }, []);
 

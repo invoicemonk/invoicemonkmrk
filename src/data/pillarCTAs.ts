@@ -1,11 +1,13 @@
 /**
  * Shared CTA copy per pillar.
  *
- * Conversion policy: Blog CTAs send ready-to-convert readers directly to
- * signup. We do not route them through the free invoice generator or
- * product pages (/compliance, /invoicing, /payments, /accounting).
- * Contextual links inside article body text can still cite product pages
- * for SEO and education — but CTA components do not.
+ * Two-tier conversion strategy:
+ *   1. SOFT — download a free checklist (email capture, nurture)
+ *   2. HARD — create a paid Invoicemonk account (signup)
+ *
+ * Both CTAs sit side-by-side on every article-level surface. The soft
+ * path exists because cold blog traffic almost never converts straight
+ * to a paid plan; we capture the lead first and warm them up.
  */
 
 export const SIGNUP_URL = 'https://app.invoicemonk.com/signup?plan=professional';
@@ -14,6 +16,16 @@ export function buildSignupHref(campaign: string, medium = 'article_end', intent
   const intentParam = intent ? `&intent=${encodeURIComponent(intent)}` : '';
   return `${SIGNUP_URL}&utm_source=organic_blog&utm_medium=${medium}&utm_campaign=${campaign}${intentParam}`;
 }
+
+/** Trust / proof line used across sidebar, mid-article CTAs, exit popup. */
+export const PROOF_LINE = 'Trusted by 80+ businesses across 20+ countries.';
+
+/** 3-bullet value block used in sidebar and end-of-article cards. */
+export const VALUE_BULLETS: string[] = [
+  'Country-specific invoice compliance built in',
+  'Automated reminders, payment tracking & audit trail',
+  'One platform for invoicing, payments, and records',
+];
 
 // Long-form soft sell (used by article-end CTA)
 export const softSellByPillar: Record<string, string> = {
