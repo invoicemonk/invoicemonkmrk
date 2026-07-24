@@ -40,7 +40,7 @@ function stripPrefix(pathname: string): string {
   return pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?(\/|$)/, '/');
 }
 
-export function Navbar() {
+export function Navbar({ topOffset = 0 }: { topOffset?: number } = {}) {
   const { t } = useTranslation('common');
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -73,7 +73,8 @@ export function Navbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        style={{ top: topOffset }}
+        className={`fixed left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
             ? 'bg-card/95 backdrop-blur-md shadow-soft border-b border-border'
             : 'bg-transparent'
