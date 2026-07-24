@@ -171,6 +171,7 @@ export function Footer() {
       { name: 'Invoice Templates', href: '/invoice-templates' },
       { name: 'Freelancer Rate Calculator', href: '/freelancer-rate-calculator' },
       { name: t('footer.apiDocs'), href: '/docs/api' },
+      { name: 'Mobile App (Android)', href: 'https://play.google.com/store/apps/details?id=com.invoicemonk.app', external: true },
     ],
     audiences: [
       { name: t('footer.forFreelancers'), href: '/freelancers' },
