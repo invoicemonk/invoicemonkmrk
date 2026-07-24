@@ -1050,6 +1050,8 @@ export type Database = {
           actor_role: string | null
           business_id: string | null
           export_type: string
+          file_path: string | null
+          file_url: string | null
           format: string
           id: string
           integrity_hash: string
@@ -1065,6 +1067,8 @@ export type Database = {
           actor_role?: string | null
           business_id?: string | null
           export_type: string
+          file_path?: string | null
+          file_url?: string | null
           format: string
           id?: string
           integrity_hash: string
@@ -1080,6 +1084,8 @@ export type Database = {
           actor_role?: string | null
           business_id?: string | null
           export_type?: string
+          file_path?: string | null
+          file_url?: string | null
           format?: string
           id?: string
           integrity_hash?: string
@@ -2074,6 +2080,39 @@ export type Database = {
         }
         Relationships: []
       }
+      push_tokens: {
+        Row: {
+          created_at: string
+          device_id: string | null
+          id: string
+          last_seen_at: string
+          platform: string
+          token: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          device_id?: string | null
+          id?: string
+          last_seen_at?: string
+          platform: string
+          token: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          device_id?: string | null
+          id?: string
+          last_seen_at?: string
+          platform?: string
+          token?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       rate_limit_log: {
         Row: {
           created_at: string
@@ -2621,6 +2660,62 @@ export type Database = {
         }
         Relationships: []
       }
+      scan_jobs: {
+        Row: {
+          business_id: string
+          confidence: number | null
+          created_at: string
+          error: string | null
+          extracted_json: Json | null
+          id: string
+          linked_expense_inbox_id: string | null
+          linked_invoice_id: string | null
+          source: Database["public"]["Enums"]["scan_source"]
+          status: Database["public"]["Enums"]["scan_status"]
+          storage_path: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          business_id: string
+          confidence?: number | null
+          created_at?: string
+          error?: string | null
+          extracted_json?: Json | null
+          id?: string
+          linked_expense_inbox_id?: string | null
+          linked_invoice_id?: string | null
+          source: Database["public"]["Enums"]["scan_source"]
+          status?: Database["public"]["Enums"]["scan_status"]
+          storage_path: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          business_id?: string
+          confidence?: number | null
+          created_at?: string
+          error?: string | null
+          extracted_json?: Json | null
+          id?: string
+          linked_expense_inbox_id?: string | null
+          linked_invoice_id?: string | null
+          source?: Database["public"]["Enums"]["scan_source"]
+          status?: Database["public"]["Enums"]["scan_status"]
+          storage_path?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "scan_jobs_business_id_fkey"
+            columns: ["business_id"]
+            isOneToOne: false
+            referencedRelation: "businesses"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       submission_queue: {
         Row: {
           created_at: string
@@ -2666,8 +2761,11 @@ export type Database = {
           current_period_start: string | null
           id: string
           pricing_region: string | null
+          revenuecat_app_user_id: string | null
+          revenuecat_product_id: string | null
           starter_grace_expires_at: string | null
           status: Database["public"]["Enums"]["subscription_status"]
+          store: string | null
           stripe_customer_id: string | null
           stripe_subscription_id: string | null
           tier: Database["public"]["Enums"]["subscription_tier"]
@@ -2683,8 +2781,11 @@ export type Database = {
           current_period_start?: string | null
           id?: string
           pricing_region?: string | null
+          revenuecat_app_user_id?: string | null
+          revenuecat_product_id?: string | null
           starter_grace_expires_at?: string | null
           status?: Database["public"]["Enums"]["subscription_status"]
+          store?: string | null
           stripe_customer_id?: string | null
           stripe_subscription_id?: string | null
           tier?: Database["public"]["Enums"]["subscription_tier"]
@@ -2700,8 +2801,11 @@ export type Database = {
           current_period_start?: string | null
           id?: string
           pricing_region?: string | null
+          revenuecat_app_user_id?: string | null
+          revenuecat_product_id?: string | null
           starter_grace_expires_at?: string | null
           status?: Database["public"]["Enums"]["subscription_status"]
+          store?: string | null
           stripe_customer_id?: string | null
           stripe_subscription_id?: string | null
           tier?: Database["public"]["Enums"]["subscription_tier"]
@@ -3660,6 +3764,8 @@ export type Database = {
       partner_status: "active" | "paused" | "suspended"
       payout_batch_status: "draft" | "processing" | "paid" | "cancelled"
       product_service_type: "product" | "service"
+      scan_source: "receipt" | "invoice"
+      scan_status: "pending" | "processing" | "done" | "failed"
       subscription_status: "active" | "cancelled" | "past_due" | "trialing"
       subscription_tier:
         | "starter"
@@ -3876,6 +3982,8 @@ export const Constants = {
       partner_status: ["active", "paused", "suspended"],
       payout_batch_status: ["draft", "processing", "paid", "cancelled"],
       product_service_type: ["product", "service"],
+      scan_source: ["receipt", "invoice"],
+      scan_status: ["pending", "processing", "done", "failed"],
       subscription_status: ["active", "cancelled", "past_due", "trialing"],
       subscription_tier: [
         "starter",
