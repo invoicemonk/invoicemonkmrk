@@ -40,7 +40,7 @@ function stripPrefix(pathname: string): string {
   return pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?(\/|$)/, '/');
 }
 
-export function Navbar() {
+export function Navbar({ topOffset = 0 }: { topOffset?: number } = {}) {
   const { t } = useTranslation('common');
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
