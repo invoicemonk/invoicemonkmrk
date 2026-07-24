@@ -98,6 +98,7 @@ const staticPages: PageEntry[] = [
   { path: '/compliance', priority: 0.8, changefreq: 'monthly' },
   { path: '/about', priority: 0.7, changefreq: 'monthly' },
   { path: '/contact', priority: 0.6, changefreq: 'monthly' },
+  { path: '/mobile', priority: 0.7, changefreq: 'monthly' },
   { path: '/freelancers', priority: 0.8, changefreq: 'monthly' },
   { path: '/consultants', priority: 0.8, changefreq: 'monthly' },
   { path: '/contractors', priority: 0.8, changefreq: 'monthly' },

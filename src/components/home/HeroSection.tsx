@@ -107,6 +107,26 @@ export function HeroSection() {
             </Button>
           </motion.div>
 
+          {/* Android app chip — passive signal, non-competing with primary CTA */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="mt-5 flex items-center justify-center"
+          >
+            <a
+              href="https://play.google.com/store/apps/details?id=com.invoicemonk.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-card border border-border text-caption text-muted-foreground hover:text-foreground hover:border-primary/40 transition-colors"
+            >
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M3.6 1.6c-.4.3-.6.8-.6 1.4v18c0 .6.2 1.1.6 1.4l10.5-10.4L3.6 1.6zm11.7 11.5l2.8 2.8-11.6 6.6 8.8-9.4zm0-2.2L6.5 1.5l11.6 6.6-2.8 2.8zm3.9 2.3l-2.9-1.6 2.9-2.9 3 1.7c.9.5.9 1.8 0 2.3l-3 1.5z"/>
+              </svg>
+              Also on Android — Get it on Google Play
+            </a>
+          </motion.div>
+
           {/* Trust badge - Localized */}
           <motion.div
             initial={{ opacity: 0 }}

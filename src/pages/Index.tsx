@@ -14,6 +14,7 @@ import { WaveCTASection } from '@/components/home/WaveCTASection';
 import { GlobalCapabilityBlock } from '@/components/e-invoicing/GlobalCapabilityBlock';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationSchema';
+import { MobileApplicationSchema } from '@/components/seo/MobileApplicationSchema';
 import { WebSiteSchema } from '@/components/seo/WebSiteSchema';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
@@ -42,6 +43,7 @@ const Index = () => {
       />
       <WebSiteSchema />
       <SoftwareApplicationSchema />
+      <MobileApplicationSchema />
       <FAQSchema items={allFaqs} />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }]} />
       <ItemListSchema

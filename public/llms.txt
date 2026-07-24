@@ -1,10 +1,10 @@
 # Invoicemonk
 
-> The global e-invoicing platform for small business: mandate-compliant in 16 jurisdictions across the Middle East, Asia-Pacific, Europe, Africa, and the Americas. Every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal).
+> The global e-invoicing platform for small business: mandate-compliant in 18 jurisdictions across the Middle East, Asia-Pacific, Europe, Africa, and the Americas. Every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal).
 
 Invoicemonk is the e-invoicing platform built for freelancers, consultants, contractors, and small businesses that need structured, mandate-compliant invoices in every country they work in. The platform issues and submits e-invoices that meet the legal requirements of the local tax authority: clearance with ZATCA Fatoorah, validation by LHDN MyInvois, IRN issuance by NIC IRP and FIRS MBS and GRA E-VAT, Control Unit Invoice Number by KRA eTIMS, Peppol BIS Billing 3.0 routing across the EU and Canada, MTD digital VAT records for HMRC, and SARS, ZIMRA, SRC, NF-e/NFS-e, BIR EIS, and US IPP for federal B2G.
 
-## Live E-Invoicing Mandates (16)
+## Live E-Invoicing Mandates (18)
 
 **Middle East**
 - Fatoorah Phase 2 — Integration Phase: Saudi Arabia (CSID): https://invoicemonk.com/en/e-invoicing/zatca-phase-2
@@ -18,6 +18,8 @@ Invoicemonk is the e-invoicing platform built for freelancers, consultants, cont
 **Europe**
 - Peppol BIS Billing 3.0 (B2B and B2G): European Union (Peppol BIS UBL): https://invoicemonk.com/en/e-invoicing/peppol-eu
 - Making Tax Digital for VAT: United Kingdom (MTD digital VAT record): https://invoicemonk.com/en/e-invoicing/mtd-uk
+- FatturaPA via Sistema di Interscambio (clearance): Italy (FatturaPA + SdI receipt): https://invoicemonk.com/en/e-invoicing/sdi-italy
+- SAF-T BG reporting + B2G Peppol BIS Billing 3.0 and planned domestic e-invoicing: Bulgaria (SAF-T BG XML + Peppol BIS): https://invoicemonk.com/en/e-invoicing/nra-bulgaria
 
 **Africa**
 - FIRS Merchant-Buyer Solution (MBS) e-Invoicing: Nigeria (FIRS IRN): https://invoicemonk.com/en/e-invoicing/firs-mbs-nigeria
@@ -89,7 +91,7 @@ Long-form supportive articles under the /e-invoicing pillar. Every article carri
 
 ## Core Products
 
-- [E-Invoicing](https://invoicemonk.com/en/e-invoicing): The mandate-compliant e-invoicing platform: 16 live mandates with CSID, IRN, UUID, QR, and Peppol routing.
+- [E-Invoicing](https://invoicemonk.com/en/e-invoicing): The mandate-compliant e-invoicing platform: 18 live mandates with CSID, IRN, UUID, QR, and Peppol routing.
 - [Invoicing](https://invoicemonk.com/en/invoicing): Everyday professional invoicing: templates, reminders, multi-currency, payments.
 - [Expenses](https://invoicemonk.com/en/expenses): Receipt scanning (OCR), automatic categorization, tax-deductible expense identification.
 - [Payments](https://invoicemonk.com/en/payments): Accept payments via Stripe (US, UK, Canada, Australia, Europe) and Paystack (Nigeria, Ghana, Kenya, South Africa).
@@ -99,7 +101,7 @@ Long-form supportive articles under the /e-invoicing pillar. Every article carri
 
 ## Who It's For
 
-Freelancers, consultants, contractors, small businesses, agencies, photographers, lawyers, accountants, and e-commerce sellers operating across one or more of the 16 supported e-invoicing mandates.
+Freelancers, consultants, contractors, small businesses, agencies, photographers, lawyers, accountants, and e-commerce sellers operating across one or more of the 18 supported e-invoicing mandates.
 
 ## Pricing
 
@@ -118,16 +120,21 @@ Annual billing saves approximately 17%. Cancel anytime.
 - [vs Wave](https://invoicemonk.com/en/compare/invoicemonk-vs-wave)
 - [vs Zoho Invoice](https://invoicemonk.com/en/compare/invoicemonk-vs-zoho-invoice)
 
-The defensible wedge across all comparisons: e-invoicing mandate coverage. None of the above match Invoicemonk's 16-mandate live footprint with a single platform.
+The defensible wedge across all comparisons: e-invoicing mandate coverage. None of the above match Invoicemonk's 18-mandate live footprint with a single platform.
 
 ## Key Differentiators
 
-1. **Mandate-compliant by default**: 16 live e-invoicing mandates, not roadmap items
+1. **Mandate-compliant by default**: 18 live e-invoicing mandates, not roadmap items
 2. **Local artefact, every jurisdiction**: CSID, IRN, UUID, QR, fiscal signature, ICP-Brasil, XAdES
 3. **One platform, all transports**: direct API, Peppol Access Point, national portals
 4. **Real-time clearance and reporting** where mandated (ZATCA, MyInvois, eTIMS, ZIMRA FDMS)
 5. **Affordable**: Pro from $15/month
 6. **Single language**: English (en) — no per-country localisation; product ships globally in one locale
+
+## Mobile Apps
+
+- Android: https://play.google.com/store/apps/details?id=com.invoicemonk.app (https://invoicemonk.com/en/mobile)
+- iOS: not yet available
 
 ## Contact
 

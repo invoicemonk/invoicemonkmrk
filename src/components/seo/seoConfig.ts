@@ -37,6 +37,13 @@ export const pageSEO: Record<string, PageSEO> = {
     priority: 0.9,
     changefreq: 'weekly',
   },
+  '/mobile': {
+    getTitle: () => `Invoicemonk for Android — Mobile Invoicing App | Invoicemonk`,
+    getDescription: () => `Download the Invoicemonk Android app on Google Play. Create mandate-compliant invoices, scan receipts, and track payments from your phone.`,
+    ogType: 'website',
+    priority: 0.7,
+    changefreq: 'monthly',
+  },
   '/expenses': {
     getTitle: (locale) => `Best Receipt Scanning & Expense Tracking App for Small Business 2026 | Invoicemonk`,
     getDescription: (locale) => `Receipt scanning with AI-powered OCR, automatic expense categorization, and tax-ready reports. Stay ${locale.content.seo.complianceKeyword.toLowerCase()} and save 5+ hours/month on bookkeeping.`,

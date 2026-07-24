@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from '@/components/LocalizedLink';
 import logo from '@/assets/invoicemonk-logo.png';
+import { GooglePlayBadge } from '@/components/marketing/GooglePlayBadge';
 
 const footerLinks = {
   platform: [
@@ -240,6 +241,21 @@ export function Footer() {
             <p className="text-body-sm text-white/60 max-w-xs">
               {t('footer.tagline')}
             </p>
+            <div className="mt-5">
+              <p className="text-caption font-semibold text-white/80 mb-2 uppercase tracking-wider">Get the app</p>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.invoicemonk.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Get Invoicemonk on Google Play"
+                className="inline-block hover:opacity-90 transition-opacity"
+              >
+                <GooglePlayBadge height={40} />
+              </a>
+              <Link to="/mobile" className="block mt-2 text-caption text-white/50 hover:text-primary transition-colors">
+                Learn about the mobile app →
+              </Link>
+            </div>
             <SocialIcons />
           </div>
 

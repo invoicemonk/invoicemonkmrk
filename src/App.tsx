@@ -23,6 +23,7 @@ import Compliance from "./pages/Compliance";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import PartnerProgram from "./pages/PartnerProgram";
+import Mobile from "./pages/Mobile";
 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
@@ -152,6 +153,7 @@ const App = () => (
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
               <Route path="partner-program" element={<PartnerProgram />} />
+              <Route path="mobile" element={<Mobile />} />
 
               {/* Legal */}
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
