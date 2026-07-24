@@ -93,6 +93,7 @@ const staticPages: PageEntry[] = [
   { path: '/accounting', priority: 0.9, changefreq: 'weekly' },
   { path: '/estimates', priority: 0.9, changefreq: 'weekly' },
   { path: '/receipts', priority: 0.9, changefreq: 'weekly' },
+  { path: '/receipts/waitlist-ios', priority: 0.6, changefreq: 'monthly' },
   { path: '/pricing', priority: 0.8, changefreq: 'weekly' },
   { path: '/why-invoicemonk', priority: 0.8, changefreq: 'monthly' },
   { path: '/compliance', priority: 0.8, changefreq: 'monthly' },
@@ -133,6 +134,11 @@ const staticPages: PageEntry[] = [
   { path: '/compare/wave-alternative-south-africa', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-freshbooks', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-wave', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare', priority: 0.9, changefreq: 'weekly' },
+  { path: '/compare/best-receipt-scanner-app', priority: 0.85, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-expensify', priority: 0.75, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-shoeboxed', priority: 0.75, changefreq: 'monthly' },
+  { path: '/compare/invoicemonk-vs-wave-receipts', priority: 0.75, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-zoho-invoice', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-quickbooks', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-dext', priority: 0.7, changefreq: 'monthly' },
@@ -262,7 +268,7 @@ function main() {
   const blogSlugs = extractSlugs(path.join(__dirname, '../src/data/blogPosts.ts'), /slug:\s*['"][^'"]+['"]/g);
   scanDates(path.join(__dirname, '../src/data/blogPosts.ts'));
   // Also scan numbered cluster files for additional blog posts
-  for (let i = 9; i <= 20; i++) {
+  for (let i = 9; i <= 21; i++) {
     const clusterPath = path.join(__dirname, `../src/data/blogPostsCluster${i}.ts`);
     const clusterSlugs = extractSlugs(clusterPath, /slug:\s*['"][^'"]+['"]/g);
     clusterSlugs.forEach(s => { if (!blogSlugs.includes(s)) blogSlugs.push(s); });

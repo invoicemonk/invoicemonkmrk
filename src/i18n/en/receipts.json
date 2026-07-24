@@ -1,23 +1,26 @@
 {
   "seo": {
-    "title": "Digital Receipt Management | AI Receipt Scanning | Invoicemonk",
-    "description": "Capture, organize, and store all your receipts digitally. AI-powered scanning, smart organization, and secure cloud storage.",
-    "serviceName": "Invoicemonk Receipt Management",
-    "serviceType": "Receipt Management Software",
-    "serviceDescription": "Capture, organize, and store all your receipts digitally with AI-powered scanning and secure cloud storage."
+    "title": "Receipt Scanner App — Scan, Track & Export Receipts | Invoicemonk",
+    "description": "The Invoicemonk receipt scanner app captures every receipt in seconds. AI-powered OCR, auto-categorised expenses, tax-ready exports, cloud sync. Free on Google Play.",
+    "serviceName": "Invoicemonk Receipt Scanner App",
+    "serviceType": "Receipt Scanning & Expense Tracking Software",
+    "serviceDescription": "Free Android receipt scanner app with AI-powered OCR, automatic expense categorisation, and cloud sync to your Invoicemonk account for invoicing and tax-ready exports."
   },
   "seoFaqs": [
-    { "question": "Why do I need to keep business receipts?", "answer": "Business receipts are essential for tax compliance, expense verification, and audit preparation. They serve as proof of business expenditure and are required by tax authorities like the IRS, HMRC, CRA, and ATO to substantiate deductions claimed on tax returns." },
-    { "question": "How long should I keep receipts?", "answer": "Retention periods vary by country. In the US, the IRS recommends 3-7 years. In the UK, HMRC requires 5 years. In Canada, the CRA requires 6 years, and in Australia the ATO requires 5 years. Digital receipt management software ensures your records are safely stored for the required period." },
-    { "question": "Can I use digital receipts instead of paper?", "answer": "Yes. Most tax authorities now accept digital copies of receipts as valid records, provided they are legible and accurately represent the original. Digital receipts are actually preferred as they are easier to organize, search, and back up." },
-    { "question": "How does receipt management software work?", "answer": "Receipt management software lets you capture receipts by photo or upload, automatically extracts key data like vendor, date, and amount using OCR technology, categorizes the expense, and stores everything securely in the cloud for easy retrieval." }
+    { "question": "What is the best receipt scanner app for small business?", "answer": "The best receipt scanner app is one that captures the receipt accurately, categorises the expense automatically, and links the record to your invoicing and tax reporting. Invoicemonk's Android app does all three: AI-powered OCR extracts vendor, date, tax, and total in seconds; expenses are auto-tagged for IRS, HMRC, CRA, ATO, and other jurisdictions; and every scan syncs to your Invoicemonk web account so receipts sit next to the invoices they relate to." },
+    { "question": "Is Invoicemonk's receipt scanner app free?", "answer": "Yes. The Invoicemonk Android app is free to download and use for receipt scanning and expense tracking. A paid Invoicemonk subscription (Pro from $15/month) unlocks invoicing, client management, multi-currency, and compliance features on the web app." },
+    { "question": "Does the receipt scanner work offline?", "answer": "Yes. Scan receipts anywhere — the app queues them locally and syncs to your Invoicemonk account when you're back online. Great for travel days and client site visits." },
+    { "question": "How accurate is the OCR?", "answer": "Our OCR reads printed, thermal, and most handwritten receipts, and extracts vendor, date, subtotal, tax, total, and currency. You can review and correct any field in one tap before saving." },
+    { "question": "Can I export receipts for my accountant?", "answer": "Yes. Export receipts as PDF, CSV, or a zipped image bundle. Filter by date range, category, or client — perfect for tax season, expense reimbursements, or an audit." },
+    { "question": "Is there an iPhone version?", "answer": "Not yet — the iOS app is in development. Join the iOS waitlist to be notified when it launches, or use the Invoicemonk web app on your iPhone browser in the meantime." }
   ],
   "hero": {
-    "badge": "✓ Available Now",
-    "title": "Never lose a receipt <accent>again</accent>",
-    "subtitle": "Capture, organize, and store all your receipts digitally. Never lose a receipt again with AI-powered scanning and smart organization.",
-    "ctaPrimary": "Get Started",
-    "ctaSecondary": "Start with Invoicing"
+    "badge": "✓ Free on Google Play",
+    "title": "The receipt scanner app that pays for <accent>itself</accent>",
+    "subtitle": "Snap any receipt with the free Invoicemonk Android app. AI-powered OCR captures vendor, date, tax, and total in seconds — then auto-categorises the expense and syncs to your Invoicemonk account for invoicing and tax-ready exports.",
+    "ctaPrimary": "Get it on Google Play",
+    "ctaSecondary": "Try on web",
+    "iosNote": "iPhone? Join the iOS waitlist →"
   },
   "mockup": {
     "title": "Recent Receipts",
@@ -31,8 +34,8 @@
     ]
   },
   "banner": {
-    "title": "Digital receipts, organized automatically",
-    "features": ["AI-powered OCR", "Instant search", "Secure cloud storage", "Tax-ready exports"]
+    "title": "The only scanner that turns receipts into invoices",
+    "features": ["AI-powered OCR", "Auto-categorised expenses", "Cloud sync to web app", "Tax-ready CSV & PDF exports"]
   },
   "features": {
     "title": "Why you'll <accent>love it</accent>",

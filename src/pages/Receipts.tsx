@@ -17,6 +17,9 @@ import { ServiceSchema } from '@/components/seo/ServiceSchema';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { MobileApplicationSchema } from '@/components/seo/MobileApplicationSchema';
+import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationSchema';
+import { GooglePlayBadge } from '@/components/marketing/GooglePlayBadge';
 import { useTranslation } from 'react-i18next';
 import { ReactNode } from 'react';
 import receiptsScanning from '@/assets/receipts-scanning.jpg';
@@ -26,6 +29,7 @@ import receiptsSearch from '@/assets/receipts-search.jpg';
 const featureIcons = [Camera, FolderOpen, Search];
 const storageIcons = [Cloud, Shield, Tag];
 const tabImages = [receiptsScanning, receiptsStorage, receiptsSearch];
+const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.invoicemonk.app&utm_source=invoicemonk_site&utm_medium=receipts_page&utm_campaign=play_hero';
 
 const Receipts = () => {
   const { t } = useTranslation('receipts');
@@ -52,6 +56,12 @@ const Receipts = () => {
       <FAQSchema items={[...seoFaqs, ...faqItems]} />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Features', url: '/receipts' }, { name: 'Receipts', url: '/receipts' }]} />
       <SEOHead title={t('seo.title')} description={t('seo.description')} />
+      <MobileApplicationSchema schemaId="https://invoicemonk.com/receipts#mobile-app-android" />
+      <SoftwareApplicationSchema
+        name="Invoicemonk Receipt Scanner"
+        description="Free Android receipt scanner app with AI OCR. Auto-categorises expenses and syncs to your Invoicemonk invoicing account."
+        schemaId="https://invoicemonk.com/receipts#software"
+      />
       <ServiceSchema
         serviceName={t('seo.serviceName')}
         serviceType={t('seo.serviceType')}
@@ -82,16 +92,27 @@ const Receipts = () => {
                 {t('hero.subtitle')}
               </motion.p>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group">
+                <a
+                  href={PLAY_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={t('hero.ctaPrimary')}
+                  className="inline-flex items-center justify-center rounded-xl overflow-hidden shadow-soft-md hover:opacity-95 transition-opacity"
+                >
+                  <GooglePlayBadge height={56} />
+                </a>
+                <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-14 text-body border-border hover:bg-muted">
                   <a href="https://app.invoicemonk.com/signup?plan=professional">
-                    {t('hero.ctaPrimary')}
-                    <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
+                    {t('hero.ctaSecondary')}
+                    <ArrowRight className="ml-2 w-5 h-5" />
                   </a>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-14 text-body border-border hover:bg-muted">
-                  <Link to="/invoicing">{t('hero.ctaSecondary')}</Link>
-                </Button>
               </motion.div>
+              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, delay: 0.6 }} className="mt-4 text-body-sm text-muted-foreground">
+                <Link to="/receipts/waitlist-ios" className="underline hover:text-primary">
+                  {t('hero.iosNote')}
+                </Link>
+              </motion.p>
             </div>
 
             {/* Product Mockup */}
@@ -202,6 +223,22 @@ const Receipts = () => {
       <WaveBlogPreview title={t('blog.title')} subtitle={t('blog.subtitle')} pillarId="tax-compliance" />
       <WaveProductFAQ title={t('faq.title')} subtitle={t('faq.subtitle')} faqs={faqItems} />
       <WaveCTASection />
+
+      {/* Sticky mobile Get on Google Play CTA */}
+      <div
+        className="md:hidden fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/95 backdrop-blur px-4 py-3 shadow-soft-lg"
+        style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 0.75rem)' }}
+      >
+        <a
+          href={PLAY_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={t('hero.ctaPrimary')}
+          className="flex items-center justify-center rounded-xl overflow-hidden"
+        >
+          <GooglePlayBadge height={52} />
+        </a>
+      </div>
     </Layout>
   );
 };

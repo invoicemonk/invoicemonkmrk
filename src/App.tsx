@@ -24,6 +24,7 @@ import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import PartnerProgram from "./pages/PartnerProgram";
 import Mobile from "./pages/Mobile";
+import WaitlistIOS from "./pages/receipts/WaitlistIOS";
 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
@@ -80,6 +81,11 @@ import WaveAlternativeSouthAfrica from "./pages/compare/WaveAlternativeSouthAfri
 import BestInvoicingSoftwareItaly from "./pages/compare/BestInvoicingSoftwareItaly";
 import BestInvoicingSoftwareFrance from "./pages/compare/BestInvoicingSoftwareFrance";
 import BestInvoicingSoftwareUSA from "./pages/compare/BestInvoicingSoftwareUSA";
+import CompareIndex from "./pages/compare/CompareIndex";
+import BestReceiptScannerApp from "./pages/compare/BestReceiptScannerApp";
+import InvoicemonkVsExpensify from "./pages/compare/InvoicemonkVsExpensify";
+import InvoicemonkVsShoeboxed from "./pages/compare/InvoicemonkVsShoeboxed";
+import InvoicemonkVsWaveReceipts from "./pages/compare/InvoicemonkVsWaveReceipts";
 
 // Use-case pages
 import RecurringBilling from "./pages/use-cases/RecurringBilling";
@@ -145,6 +151,7 @@ const App = () => (
               <Route path="accounting" element={<Accounting />} />
               <Route path="estimates" element={<Estimates />} />
               <Route path="receipts" element={<Receipts />} />
+              <Route path="receipts/waitlist-ios" element={<WaitlistIOS />} />
 
               {/* Company pages */}
               <Route path="pricing" element={<Pricing />} />
@@ -236,6 +243,7 @@ const App = () => (
               <Route path="client-management" element={<ClientManagement />} />
 
               {/* Comparison pages */}
+              <Route path="compare" element={<CompareIndex />} />
               <Route path="compare/invoicemonk-vs-freshbooks" element={<InvoicemonkVsFreshbooks />} />
               <Route path="compare/invoicemonk-vs-wave" element={<InvoicemonkVsWave />} />
               <Route path="compare/invoicemonk-vs-zoho-invoice" element={<InvoicemonkVsZoho />} />
@@ -266,6 +274,10 @@ const App = () => (
               <Route path="compare/best-invoicing-software-italy" element={<BestInvoicingSoftwareItaly />} />
               <Route path="compare/best-invoicing-software-france" element={<BestInvoicingSoftwareFrance />} />
               <Route path="compare/best-invoicing-software-usa" element={<BestInvoicingSoftwareUSA />} />
+              <Route path="compare/best-receipt-scanner-app" element={<BestReceiptScannerApp />} />
+              <Route path="compare/invoicemonk-vs-expensify" element={<InvoicemonkVsExpensify />} />
+              <Route path="compare/invoicemonk-vs-shoeboxed" element={<InvoicemonkVsShoeboxed />} />
+              <Route path="compare/invoicemonk-vs-wave-receipts" element={<InvoicemonkVsWaveReceipts />} />
 
               {/* Use-case pages */}
               <Route path="use-cases/recurring-billing" element={<RecurringBilling />} />

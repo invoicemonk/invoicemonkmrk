@@ -70,6 +70,18 @@ export default function InvoicemonkVsDext() {
         </div>
       </section>
 
+      {/* DISAMBIGUATION */}
+      <section className="pb-4">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <Card className="border-border bg-muted/30">
+            <CardContent className="p-5 text-sm text-muted-foreground">
+              <strong className="text-foreground">Looking for the mobile receipt scanner comparison?</strong> This page covers Dext, the bookkeeper/accountant OCR workflow. For the phone-first scanner-app comparison see the{' '}
+              <Link to="/compare/best-receipt-scanner-app" className="text-primary underline">Best Receipt Scanner App 2026 leaderboard</Link>.
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Quick answer */}
       <section className="pb-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">

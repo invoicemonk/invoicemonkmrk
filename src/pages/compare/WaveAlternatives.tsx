@@ -73,7 +73,15 @@ export default function WaveAlternatives() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">Best Wave Alternatives in 2026</h1>
-          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-8">Wave is solid — but if you need multi-currency, global tax compliance, or better support, here are the top alternatives.</p>
+          <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6">Wave is solid — but if you need multi-currency, global tax compliance, or better support, here are the top alternatives.</p>
+
+          <Card className="border-border bg-muted/30 mb-8">
+            <CardContent className="p-5 text-sm text-muted-foreground">
+              <strong className="text-foreground">Looking for a head-to-head?</strong> See{' '}
+              <Link to="/compare/invoicemonk-vs-wave" className="text-primary underline">Invoicemonk vs Wave</Link> for the full accounting comparison, or{' '}
+              <Link to="/compare/invoicemonk-vs-wave-receipts" className="text-primary underline">Invoicemonk vs Wave Receipts</Link> if you're specifically replacing the discontinued Wave Receipts app.
+            </CardContent>
+          </Card>
 
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-16">
             <h2 className="text-heading-md font-bold text-foreground">Why Look for a Wave Alternative?</h2>

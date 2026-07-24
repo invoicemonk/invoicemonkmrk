@@ -86,6 +86,19 @@ export default function InvoicemonkVsWave() {
         </div>
       </section>
 
+      {/* DISAMBIGUATION */}
+      <section className="pb-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <Card className="border-border bg-muted/30">
+            <CardContent className="p-5 text-sm text-muted-foreground">
+              <strong className="text-foreground">Which Wave comparison should I read?</strong> You're on the <em>full accounting + invoicing</em> comparison. Also see the{' '}
+              <Link to="/compare/wave-alternatives" className="text-primary underline">broader Wave alternatives roundup</Link> or the receipts-only view after the app sunset:{' '}
+              <Link to="/compare/invoicemonk-vs-wave-receipts" className="text-primary underline">Invoicemonk vs Wave Receipts</Link>.
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* WHO FOR */}
       <section className="pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">

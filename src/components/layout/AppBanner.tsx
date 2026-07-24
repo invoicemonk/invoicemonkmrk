@@ -3,37 +3,57 @@ import { X } from 'lucide-react';
 import { GooglePlayBadge } from '@/components/marketing/GooglePlayBadge';
 
 const STORAGE_KEY = 'im_app_banner_dismissed_v2';
-const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.invoicemonk.app';
+const IOS_STORAGE_KEY = 'im_app_banner_ios_dismissed_v1';
+const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.invoicemonk.app&utm_source=invoicemonk_site&utm_medium=app_banner&utm_campaign=android';
 
 export const APP_BANNER_HEIGHT = 56; // px — taller to fit the Play badge
 
-function isAndroid(): boolean {
-  if (typeof navigator === 'undefined') return false;
-  return /Android/i.test(navigator.userAgent);
+type Platform = 'android' | 'ios' | null;
+
+function detectPlatform(): Platform {
+  if (typeof navigator === 'undefined') return null;
+  const ua = navigator.userAgent;
+  if (/Android/i.test(ua)) return 'android';
+  // iPadOS 13+ reports as Mac; treat touch Macs as iOS too.
+  if (/iPhone|iPad|iPod/i.test(ua)) return 'ios';
+  if (/Macintosh/.test(ua) && typeof navigator.maxTouchPoints === 'number' && navigator.maxTouchPoints > 1) return 'ios';
+  return null;
 }
 
-export function useAppBannerVisible() {
-  const [visible, setVisible] = useState(false);
+interface BannerState {
+  visible: boolean;
+  platform: Platform;
+}
+
+export function useAppBannerVisible(): boolean {
+  return useAppBannerState().visible;
+}
+
+export function useAppBannerState(): BannerState {
+  const [state, setState] = useState<BannerState>({ visible: false, platform: null });
   useEffect(() => {
-    if (!isAndroid()) return;
+    const platform = detectPlatform();
+    if (!platform) return;
+    const key = platform === 'android' ? STORAGE_KEY : IOS_STORAGE_KEY;
     try {
-      if (!localStorage.getItem(STORAGE_KEY)) setVisible(true);
+      if (!localStorage.getItem(key)) setState({ visible: true, platform });
     } catch {
-      setVisible(true);
+      setState({ visible: true, platform });
     }
-    const onDismiss = () => setVisible(false);
+    const onDismiss = () => setState((s) => ({ ...s, visible: false }));
     window.addEventListener('im-app-banner-dismissed', onDismiss);
     return () => window.removeEventListener('im-app-banner-dismissed', onDismiss);
   }, []);
-  return visible;
+  return state;
 }
 
 export function AppBanner() {
-  const visible = useAppBannerVisible();
-  if (!visible) return null;
+  const { visible, platform } = useAppBannerState();
+  if (!visible || !platform) return null;
 
   const dismiss = () => {
-    try { localStorage.setItem(STORAGE_KEY, '1'); } catch {}
+    const key = platform === 'android' ? STORAGE_KEY : IOS_STORAGE_KEY;
+    try { localStorage.setItem(key, '1'); } catch {}
     window.dispatchEvent(new Event('im-app-banner-dismissed'));
   };
 
@@ -46,19 +66,30 @@ export function AppBanner() {
         <div className="flex items-center justify-between gap-3 h-full">
           <div className="flex items-center gap-3 min-w-0">
             <span className="text-body-sm font-medium truncate">
-              Invoicemonk for Android is here.
+              {platform === 'android'
+                ? 'Invoicemonk for Android is here.'
+                : 'iPhone app coming soon — join the waitlist.'}
             </span>
           </div>
           <div className="flex items-center gap-2 flex-shrink-0">
-            <a
-              href={PLAY_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Get Invoicemonk on Google Play"
-              className="hover:opacity-90 transition-opacity"
-            >
-              <GooglePlayBadge height={36} />
-            </a>
+            {platform === 'android' ? (
+              <a
+                href={PLAY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Get Invoicemonk on Google Play"
+                className="hover:opacity-90 transition-opacity"
+              >
+                <GooglePlayBadge height={36} />
+              </a>
+            ) : (
+              <a
+                href="/receipts/waitlist-ios"
+                className="text-body-sm font-semibold underline underline-offset-2 hover:opacity-90"
+              >
+                Join waitlist
+              </a>
+            )}
             <button
               onClick={dismiss}
               aria-label="Dismiss"
