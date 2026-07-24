@@ -18,10 +18,9 @@ export function Layout({ children }: LayoutProps) {
       <AppBanner />
       <Navbar topOffset={offset} />
       <main
-        className="flex-1"
-        style={{ paddingTop: `calc(4rem + ${offset}px)` }}
+        className="flex-1 pt-16 lg:pt-20"
+        style={{ paddingTop: `calc(var(--nav-h, 4rem) + ${offset}px)` }}
       >
-        <div className="lg:hidden" style={{ height: 0 }} />
         {children}
       </main>
       <Footer />
