@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "VAT-compliant invoicing software for international freelancers | InvoiceMonk",
-    "description": "Create invoices that hold up in Germany, France, Netherlands, Kenya, Philippines and 30+ countries. Reverse charge, sequential numbering, and mandatory fields built in."
+    "title": "Invoicing Software for Freelancers & Small Business | Invoicemonk",
+    "description": "Professional invoicing software for freelancers and small businesses: branded templates, recurring invoices, automatic reminders, multi-currency and online payments. Pro from $15/month."
   },
   "hero": {
-    "badge": "Invoicing",
-    "titleStart": "Invoices that hold up",
-    "titleAccent": "anywhere",
-    "titleEnd": "you send them.",
-    "description": "Every invoice you create in InvoiceMonk is automatically structured with the mandatory fields, VAT treatment, and compliance language required in your client's country. Not bolted on after. Built in from the start.",
+    "badge": "Invoicing software",
+    "titleStart": "Send professional invoices and get",
+    "titleAccent": "paid faster",
+    "titleEnd": ".",
+    "description": "Create branded invoices in seconds, set them to repeat, chase them automatically, and let clients pay online in their own currency. Everything you need to bill clients and collect the money.",
     "primaryCta": "Get started",
     "secondaryCta": "View pricing",
-    "trustText": "Used by freelancers billing clients in 30+ countries. Pro from $15/month, "
+    "trustText": "Used by freelancers and small businesses billing clients in 30+ countries. Pro from $15/month, "
   },
   "invoicePreview": {
     "invoiceNumber": "Invoice #1042",
@@ -27,10 +27,10 @@
   },
   "trustBar": {
     "items": [
-      "Sequential numbering enforced",
-      "Reverse charge, automatic",
-      "Country-specific mandatory fields",
-      "Audit-ready from day one"
+      "Branded invoice templates",
+      "Recurring invoices and retainers",
+      "Automatic payment reminders",
+      "Multi-currency and online payment"
     ]
   },
   "problem": {
@@ -149,16 +149,56 @@
       "generic": "Generic tools"
     },
     "rows": [
-      ["EU VAT mandatory fields", "Automatic", "Manual"],
-      ["Reverse charge notation", "Automatic", "Not available"],
-      ["Sequential numbering enforcement", "Enforced, gaps impossible", "Manual, gaps possible"],
-      ["Country-specific fields (KVK, SIRET, NIP, KRA PIN)", "Built in", "Not available"],
-      ["Small business exemption phrases", "Automatic", "Not available"],
-      ["VIES VAT number validation", "Yes", "No"],
-      ["Multi-currency invoicing", "Yes", "Sometimes"],
-      ["Credit notes with correct VAT reversal", "Yes", "Sometimes"],
-      ["Audit trail", "Complete", "Basic"],
-      ["Entry price", "Pro from $15/mo", "Varies"]
+      [
+        "EU VAT mandatory fields",
+        "Automatic",
+        "Manual"
+      ],
+      [
+        "Reverse charge notation",
+        "Automatic",
+        "Not available"
+      ],
+      [
+        "Sequential numbering enforcement",
+        "Enforced, gaps impossible",
+        "Manual, gaps possible"
+      ],
+      [
+        "Country-specific fields (KVK, SIRET, NIP, KRA PIN)",
+        "Built in",
+        "Not available"
+      ],
+      [
+        "Small business exemption phrases",
+        "Automatic",
+        "Not available"
+      ],
+      [
+        "VIES VAT number validation",
+        "Yes",
+        "No"
+      ],
+      [
+        "Multi-currency invoicing",
+        "Yes",
+        "Sometimes"
+      ],
+      [
+        "Credit notes with correct VAT reversal",
+        "Yes",
+        "Sometimes"
+      ],
+      [
+        "Audit trail",
+        "Complete",
+        "Basic"
+      ],
+      [
+        "Entry price",
+        "Pro from $15/mo",
+        "Varies"
+      ]
     ]
   },
   "faq": {
@@ -206,10 +246,22 @@
   "related": {
     "title": "Keep reading",
     "links": [
-      { "label": "EU VAT invoice requirements for freelancers", "to": "/blog/eu-vat-invoice-requirements-freelancers" },
-      { "label": "How to invoice German clients", "to": "/blog/how-to-invoice-german-clients-freelancer" },
-      { "label": "Cross-border VAT and reverse charge explained", "to": "/blog/cross-border-vat-invoicing-freelancers-eu" },
-      { "label": "InvoiceMonk vs Wave", "to": "/blog/invoicemonk-vs-wave" }
+      {
+        "label": "EU VAT invoice requirements for freelancers",
+        "to": "/blog/eu-vat-invoice-requirements-freelancers"
+      },
+      {
+        "label": "How to invoice German clients",
+        "to": "/blog/how-to-invoice-german-clients-freelancer"
+      },
+      {
+        "label": "Cross-border VAT and reverse charge explained",
+        "to": "/blog/cross-border-vat-invoicing-freelancers-eu"
+      },
+      {
+        "label": "InvoiceMonk vs Wave",
+        "to": "/blog/invoicemonk-vs-wave"
+      }
     ]
   }
 }

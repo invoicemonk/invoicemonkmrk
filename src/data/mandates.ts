@@ -1036,6 +1036,12 @@ export const mandateSlugs: string[] = mandates.map((m) => m.slug);
 /** Count used in titles, llms.txt, schema. */
 export const MANDATE_COUNT = mandates.length;
 
+/** Distinct jurisdictions covered (Saudi Arabia has two mandate phases). */
+export const JURISDICTION_COUNT = new Set(mandates.map((m) => m.jurisdiction)).size;
+
+/** Canonical claim string — never hardcode counts in copy. */
+export const COVERAGE_CLAIM = `${MANDATE_COUNT} mandates across ${JURISDICTION_COUNT} jurisdictions`;
+
 export function getMandate(slug: string): Mandate | undefined {
   return mandates.find((m) => m.slug === slug);
 }

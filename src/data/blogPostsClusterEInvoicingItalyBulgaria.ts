@@ -104,7 +104,7 @@ export const eInvoicingClusterPostsItalyBulgaria: BlogPost[] = [
     ],
     relatedTools: [
       { label: 'SdI / FatturaPA mandate page', url: '/e-invoicing/sdi-italy', description: 'How Invoicemonk implements SdI' },
-      { label: 'E-invoicing pillar', url: '/e-invoicing', description: '16 mandates, one platform' },
+      { label: 'E-invoicing pillar', url: '/e-invoicing', description: '18 mandates, one platform' },
       { label: 'Peppol EU explained', url: '/blog/peppol-eu-explained', description: 'The EU cross-border companion' },
     ],
   },
@@ -244,7 +244,7 @@ export const eInvoicingClusterPostsItalyBulgaria: BlogPost[] = [
       <h2 id="matrix">Comparison matrix</h2><div class="overflow-x-auto"><table>
         <thead><tr><th>Platform</th><th>SDICoop</th><th>Codice Destinatario validation</th><th>Conservazione bundled</th><th>Forfettari plan</th><th>Multi-jurisdiction</th></tr></thead>
         <tbody>
-          <tr><td>Invoicemonk</td><td>✔</td><td>✔ (AdE registry)</td><td>✔ (AgID)</td><td>✔</td><td>16 mandates</td></tr>
+          <tr><td>Invoicemonk</td><td>✔</td><td>✔ (AdE registry)</td><td>✔ (AgID)</td><td>✔</td><td>18 mandates</td></tr>
           <tr><td>Fatture in Cloud</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>Italy only</td></tr>
           <tr><td>Aruba</td><td>✔</td><td>Partial</td><td>✔</td><td>✔</td><td>Italy only</td></tr>
           <tr><td>FattureGo</td><td>✔</td><td>✔</td><td>Add-on</td><td>Free tier</td><td>Italy only</td></tr>
@@ -511,7 +511,7 @@ export const eInvoicingClusterPostsItalyBulgaria: BlogPost[] = [
       <h2 id="matrix">Comparison matrix</h2><div class="overflow-x-auto"><table>
         <thead><tr><th>Platform</th><th>ZDDS invoice</th><th>SAF-T BG ready</th><th>Peppol B2G</th><th>QES signing</th><th>Multi-jurisdiction</th></tr></thead>
         <tbody>
-          <tr><td>Invoicemonk</td><td>✔</td><td>✔ (all waves)</td><td>✔ (certified AP)</td><td>✔</td><td>16 mandates</td></tr>
+          <tr><td>Invoicemonk</td><td>✔</td><td>✔ (all waves)</td><td>✔ (certified AP)</td><td>✔</td><td>18 mandates</td></tr>
           <tr><td>Microinvest Delta Pro</td><td>✔</td><td>Roadmap</td><td>Via partner</td><td>✔</td><td>BG only</td></tr>
           <tr><td>Balans</td><td>✔</td><td>Beta</td><td>Via partner</td><td>✔</td><td>BG only</td></tr>
           <tr><td>Plus Minus</td><td>✔</td><td>Roadmap</td><td>—</td><td>Partial</td><td>BG only</td></tr>
@@ -682,7 +682,7 @@ export const eInvoicingClusterPostsItalyBulgaria: BlogPost[] = [
       </ul></nav>
       <h2 id="landscape">The European mandate landscape</h2><p>Europe is the most fragmented e-invoicing market in the world. Italy has been on full B2B clearance since 2019; France launched PPF/PDP in stages 2024–2026; Spain runs TicketBAI in the Basque Country and Veri*Factu nationally; Germany\'s B2B mandate phases in 2025–2028; Poland\'s KSeF was deferred to 2026; Romania\'s e-Factura is live for B2B since 2024; Greece\'s myDATA is the real-time reporting baseline. Bulgaria\'s SAF-T phases in 2026–2030. ViDA layers an EU-wide EN 16931 reporting obligation on top from 2030 for intra-EU transactions.</p>
       <h2 id="vendors">The enterprise shortlist</h2>
-      <h3>1. Invoicemonk — best for multi-mandate breadth without per-country add-ons</h3><p>Native coverage of 16 mandates including SdI, Peppol EU, MTD, plus the upcoming Bulgarian and German B2B regimes. One subscription, one schema engine. Integrates with SAP, Oracle Fusion, Dynamics 365, NetSuite, Sage X3, Odoo, QuickBooks, and Xero through standard connectors.</p>
+      <h3>1. Invoicemonk — best for multi-mandate breadth without per-country add-ons</h3><p>Native coverage of 18 mandates including SdI, Peppol EU, MTD, plus the upcoming Bulgarian and German B2B regimes. One subscription, one schema engine. Integrates with SAP, Oracle Fusion, Dynamics 365, NetSuite, Sage X3, Odoo, QuickBooks, and Xero through standard connectors.</p>
       <h3>2. SAP Document and Reporting Compliance — best if you are SAP-mandated</h3><p>The native SAP option. Strong on SAP ERP integration, weaker on non-SAP back-ends. Per-country activation pricing.</p>
       <h3>3. Pagero — best for Peppol-heavy Nordic operations</h3><p>Long-running European e-invoicing operator now part of Thomson Reuters. Strong Peppol presence, broad EU coverage, ERP-agnostic.</p>
       <h3>4. Sovos — best for indirect tax integration</h3><p>Tax-compliance vendor that bundles e-invoicing with VAT determination. Strong in jurisdictions with complex tax-rate logic (ES, IT, PT).</p>
@@ -729,7 +729,7 @@ export const eInvoicingClusterPostsItalyBulgaria: BlogPost[] = [
         <li><a href="https://ec.europa.eu/taxation_customs/business/vat/vat-digital-age-vida_en" rel="noopener noreferrer">European Commission — VAT in the Digital Age</a></li>
       </ul>
       <h2>Related reading</h2><ul>
-        <li><a href="/__LANG__/e-invoicing">E-invoicing pillar — 16 mandates</a></li>
+        <li><a href="/__LANG__/e-invoicing">E-invoicing pillar — 18 mandates</a></li>
         <li><a href="/__LANG__/blog/peppol-eu-explained">Peppol EU explained</a></li>
         <li><a href="/__LANG__/blog/sdi-italy-explained">SdI / FatturaPA explained</a></li>
         <li><a href="/__LANG__/blog/nra-bulgaria-explained">NRA Bulgaria explained</a></li>
@@ -757,7 +757,7 @@ export const eInvoicingClusterPostsItalyBulgaria: BlogPost[] = [
       { question: 'How should we evaluate ERP-integration claims?', answer: 'Demand a 30-day sandbox with your actual master data and IDoc / API contracts. Validate bidirectional customer / supplier sync, webhook latency, and the failure-replay path.' },
     ],
     relatedTools: [
-      { label: 'E-invoicing pillar', url: '/e-invoicing', description: '16 mandates, one platform' },
+      { label: 'E-invoicing pillar', url: '/e-invoicing', description: '18 mandates, one platform' },
       { label: 'SdI / FatturaPA', url: '/e-invoicing/sdi-italy', description: 'Italian mandate' },
       { label: 'Peppol EU', url: '/e-invoicing/peppol-eu', description: 'EU four-corner network' },
       { label: 'NRA Bulgaria', url: '/e-invoicing/nra-bulgaria', description: 'SAF-T + Peppol B2G' },

@@ -57,9 +57,9 @@ const Invoicing = () => {
       <FAQSchema items={faqs} />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Invoicing', url: '/invoicing' }]} />
       <ServiceSchema
-        serviceName="InvoiceMonk Invoicing Software"
-        serviceType="VAT-compliant invoicing software"
-        description="Create VAT-compliant invoices for clients in 30+ countries. Reverse charge, sequential numbering, and country-specific mandatory fields built in."
+        serviceName="Invoicemonk Invoicing Software"
+        serviceType="Invoicing software"
+        description="Invoicing software for freelancers and small businesses: branded templates, recurring invoices, automatic reminders, multi-currency billing and online payments."
         url="https://invoicemonk.com/invoicing"
       />
 
@@ -122,7 +122,7 @@ const Invoicing = () => {
               >
                 Need country-specific clearance, CSID, IRN, UUID, or Peppol?{' '}
                 <Link to="/e-invoicing" className="text-primary font-medium hover:underline">
-                  See the E-invoicing platform (16 mandates)
+                  See the E-invoicing platform (18 mandates)
                 </Link>
               </motion.p>
               <motion.p

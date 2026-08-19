@@ -1,6 +1,6 @@
 # Invoicemonk: Comprehensive Documentation for AI Systems
 
-> The global e-invoicing platform for small business: mandate-compliant in 16 jurisdictions across the Middle East, Asia-Pacific, Europe, Africa, and the Americas. Every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal). Available in 5 languages.
+> The global e-invoicing platform for small business: mandate-compliant in 17 jurisdictions across the Middle East, Asia-Pacific, Europe, Africa, and the Americas. Every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal). Available in 5 languages.
 
 ---
 

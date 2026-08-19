@@ -66,7 +66,7 @@
       "rows": [
         {
           "name": "E-invoicing mandates supported",
-          "invoicemonk": "16 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
+          "invoicemonk": "18 mandates across 17 jurisdictions (ZATCA Ph1/Ph2, MyInvois, GST IRN, Peppol EU, SdI Italy, NRA Bulgaria, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA+Peppol)",
           "competitor": "1 (Australia Peppol only)"
         },
         {
