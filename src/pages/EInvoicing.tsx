@@ -317,6 +317,66 @@ export default function EInvoicing() {
           </div>
         </section>
 
+        {/* Definition — answer-first source block */}
+        <section className="py-16 lg:py-20 bg-background border-t border-border">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-3xl mx-auto">
+              <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-primary/10 text-primary mb-4 uppercase tracking-wide">
+                Definition
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">What e-invoicing actually is</h2>
+              <p data-answer="true" className="mt-4 text-lg text-foreground leading-relaxed">
+                E-invoicing is the issuing of an invoice as a structured, machine-readable file — not a PDF — in the
+                format a tax authority prescribes, carrying the artefact that authority requires (a CSID, IRN, UUID,
+                QR code, or fiscal signature), and delivered over the mandated transport: a direct authority API, a
+                Peppol Access Point, or a national portal.
+              </p>
+              <p className="mt-4 text-muted-foreground leading-relaxed">
+                A PDF emailed to a client is a digital invoice, not an e-invoice. Only the structured file that the
+                authority accepts and stamps counts as compliant, and in a mandated market an unstamped invoice is not
+                a valid tax document — which is why invoicing software and an e-invoicing platform are not the same
+                product.
+              </p>
+
+              <h3 className="mt-12 text-2xl font-bold text-foreground">What a mandate changes for you</h3>
+              <dl className="mt-6 space-y-6">
+                {[
+                  {
+                    term: 'The file format is chosen for you',
+                    def: 'You issue UBL, XML, or JSON in the authority-defined schema (FatturaPA, Peppol BIS Billing 3.0, ZATCA UBL 2.1, GST e-invoice JSON), with every mandatory field populated and validated before it leaves.',
+                  },
+                  {
+                    term: 'The invoice must be cleared or reported',
+                    def: 'Depending on the market, the invoice is pre-cleared before you send it, reported in near real time after issue, or routed to the buyer over a certified network. Send it the old way and it never becomes a legal invoice.',
+                  },
+                  {
+                    term: 'The artefact must be on the document',
+                    def: 'The stamp the authority returns — CSID, IRN, UUID, QR, or signature — has to be embedded on the invoice the buyer receives, or their accountant cannot claim the input tax.',
+                  },
+                  {
+                    term: 'You must archive what you issued',
+                    def: 'The structured original, its authority response, and the audit trail have to be retained for the statutory period and produced on request.',
+                  },
+                ].map((row) => (
+                  <div key={row.term} className="rounded-2xl border border-border bg-card p-6">
+                    <dt className="text-base font-semibold text-foreground">{row.term}</dt>
+                    <dd className="mt-2 text-sm text-muted-foreground leading-relaxed">{row.def}</dd>
+                  </div>
+                ))}
+              </dl>
+
+              <p className="mt-8 text-sm text-muted-foreground">
+                Billing clients in markets with no mandate?{' '}
+                <Link to="/invoicing" className="text-primary font-medium hover:underline">
+                  See Invoicemonk invoicing software
+                </Link>
+                .
+              </p>
+            </div>
+          </div>
+        </section>
+
+
         {/* Mandate matrix */}
         <section id="mandate-matrix" className="py-20 lg:py-24 bg-card">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
