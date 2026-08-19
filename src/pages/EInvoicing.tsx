@@ -70,7 +70,7 @@ const pillarFaqs = [
   {
     question: 'What is an e-invoicing platform?',
     answer:
-      'An e-invoicing platform issues invoices as structured data (XML or JSON) and exchanges them with tax authorities or trading partners over a defined transport (direct API, Peppol Access Point, or national portal). Invoicemonk is an e-invoicing platform live in ${MANDATE_COUNT} mandates across ${REGION_ORDER.length} regions.`,
+      `An e-invoicing platform issues invoices as structured data (XML or JSON) and exchanges them with tax authorities or trading partners over a defined transport (direct API, Peppol Access Point, or national portal). Invoicemonk is an e-invoicing platform live in ${MANDATE_COUNT} mandates across ${REGION_ORDER.length} regions.`,
   },
   {
     question: 'Is e-invoicing mandatory in 2026?',
