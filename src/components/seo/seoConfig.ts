@@ -11,7 +11,7 @@ interface PageSEO {
 export const pageSEO: Record<string, PageSEO> = {
   '/': {
     getTitle: (locale) => `Invoicemonk: The Global E-Invoicing Platform for Small Business | ${locale.content.seo.region}`,
-    getDescription: (locale) => `Global e-invoicing platform. Mandate-compliant in 16 jurisdictions (ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, eTIMS, and more) with the local artefact (CSID, IRN, UUID, QR, fiscal signature) the tax authority requires. ${locale.content.seo.complianceKeyword} for ${locale.content.seo.region}. Pro from $15/month.`,
+    getDescription: (locale) => `Global e-invoicing platform. Mandate-compliant in 17 jurisdictions (ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, eTIMS, and more) with the local artefact (CSID, IRN, UUID, QR, fiscal signature) the tax authority requires. ${locale.content.seo.complianceKeyword} for ${locale.content.seo.region}. Pro from $15/month.`,
     ogType: 'website',
     priority: 1.0,
     changefreq: 'weekly',
@@ -24,8 +24,8 @@ export const pageSEO: Record<string, PageSEO> = {
     changefreq: 'weekly',
   },
   '/e-invoicing': {
-    getTitle: () => `E-Invoicing Platform — Mandate-Compliant in 16 Jurisdictions | Invoicemonk`,
-    getDescription: () => `The global e-invoicing platform for small business. CSID, IRN, UUID, QR, and Peppol routing across 16 mandates from ZATCA to MyInvois, FIRS, GST India, MTD, and Peppol EU.`,
+    getTitle: () => `E-Invoicing Platform — Mandate-Compliant in 17 Jurisdictions | Invoicemonk`,
+    getDescription: () => `The global e-invoicing platform for small business. CSID, IRN, UUID, QR, and Peppol routing across 18 mandates from ZATCA to MyInvois, FIRS, GST India, MTD, and Peppol EU.`,
     ogType: 'website',
     priority: 0.95,
     changefreq: 'weekly',

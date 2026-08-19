@@ -19,7 +19,7 @@ export function OrganizationSchema() {
       "height": 512
     },
     "image": "https://invoicemonk.com/og-image.png",
-    "description": "Invoicemonk is the global e-invoicing platform for small business — mandate-compliant in 16 jurisdictions (ZATCA Phase 1 & 2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA + Peppol Canada). Every invoice is issued with the local artefact — CSID, IRN, UUID, QR, or digital signature — and delivered to the authority through the prescribed transport.",
+    "description": "Invoicemonk is the global e-invoicing platform for small business — mandate-compliant in 17 jurisdictions (ZATCA Phase 1 & 2, MyInvois, GST IRN, Peppol EU, FIRS MBS, MTD UK, KRA eTIMS, GRA e-VAT, BIR CAS, SARS, ZIMRA, SRC, SEF Brazil, US B2G, CRA + Peppol Canada). Every invoice is issued with the local artefact — CSID, IRN, UUID, QR, or digital signature — and delivered to the authority through the prescribed transport.",
     "foundingDate": "2023",
     "founders": [
       {

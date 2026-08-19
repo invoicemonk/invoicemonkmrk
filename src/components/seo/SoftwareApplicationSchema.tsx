@@ -47,7 +47,7 @@ export function SoftwareApplicationSchema({
       })),
     },
     "featureList": [
-      "Mandate-compliant e-invoicing (16 jurisdictions)",
+      "Mandate-compliant e-invoicing (17 jurisdictions)",
       "CSID, IRN, UUID, QR and digital signatures",
       "Peppol BIS Billing 3.0 routing via certified Access Point",
       "Professional Invoice Creation",

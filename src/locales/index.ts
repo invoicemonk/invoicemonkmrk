@@ -28,7 +28,7 @@ const enDefault: LocaleConfig = {
     hero: {
       badge: 'GLOBAL E-INVOICING PLATFORM',
       headline: 'The global e-invoicing platform for small business.',
-      headlineAccent: 'Mandate-compliant in 16 jurisdictions.',
+      headlineAccent: 'Mandate-compliant in 17 jurisdictions.',
       subheadline:
         'Invoicemonk issues structured, mandate-compliant e-invoices across ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, eTIMS and more — with the local artefact (CSID, IRN, UUID, QR, fiscal signature) the tax authority requires.',
       cta: 'Get started',
@@ -82,7 +82,7 @@ const enDefault: LocaleConfig = {
       {
         question: 'Does Invoicemonk support e-invoicing?',
         answer:
-          'Yes. Invoicemonk is mandate-compliant across 16 jurisdictions including ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, and eTIMS — issuing the local artefact (CSID, IRN, UUID, QR, fiscal signature) the tax authority requires.',
+          'Yes. Invoicemonk is mandate-compliant across 17 jurisdictions including ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, and eTIMS — issuing the local artefact (CSID, IRN, UUID, QR, fiscal signature) the tax authority requires.',
       },
       {
         question: 'What payment methods are supported?',

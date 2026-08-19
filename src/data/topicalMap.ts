@@ -4,7 +4,7 @@
  * Source Context: Help small businesses, freelancers, and entrepreneurs manage 
  * invoicing, payments, and accounting with compliance-first software that works globally.
  * 
- * Central Entity: Global E-Invoicing Platform (mandate-compliant in 16 jurisdictions).
+ * Central Entity: Global E-Invoicing Platform (mandate-compliant in 17 jurisdictions).
  * Child Pillars: Invoicing, Payments, Business Finances, Tax & Compliance.
  * Central Search Intent: Users want a single platform that issues mandate-compliant
  * structured invoices (CSID, IRN, UUID, QR, digital signatures) wherever they operate,
@@ -64,7 +64,7 @@ export const pillars: Pillar[] = [
     title: 'Global E-Invoicing Platform',
     slug: 'e-invoicing',
     description:
-      'Mandate-compliant e-invoicing in 16 jurisdictions, with the local artefact (CSID, IRN, UUID, QR, digital signature) issued automatically.',
+      'Mandate-compliant e-invoicing in 17 jurisdictions, with the local artefact (CSID, IRN, UUID, QR, digital signature) issued automatically.',
     longDescription:
       'Invoicemonk is the global e-invoicing platform for small business. We issue cryptographically signed structured invoices that satisfy ZATCA (Saudi Arabia), MyInvois (Malaysia), GST IRN (India), Peppol (EU), FIRS MBS (Nigeria), MTD (UK), KRA eTIMS (Kenya), GRA e-VAT (Ghana), BIR CAS (Philippines), SARS (South Africa), ZIMRA (Zimbabwe), SRC (Seychelles), SEF (Brazil), US B2G, and CRA + Peppol (Canada). Every mandate page names the authority, mandate phase, required artefact, transport, who it applies to, and the live-since date.',
     targetProduct: '/e-invoicing',
@@ -85,7 +85,7 @@ export const pillars: Pillar[] = [
     faq: [
       {
         question: 'What is an e-invoicing platform?',
-        answer: 'An e-invoicing platform issues structured, machine-readable invoices (XML, UBL, JSON) in the format the local tax authority requires, signs them with the mandated artefact (CSID, IRN, UUID, QR, digital signature), and transports them to the authority through the prescribed channel (direct API, Peppol Access Point, SDI, NIC IRP, MyInvois portal API). Invoicemonk does this in 16 jurisdictions.',
+        answer: 'An e-invoicing platform issues structured, machine-readable invoices (XML, UBL, JSON) in the format the local tax authority requires, signs them with the mandated artefact (CSID, IRN, UUID, QR, digital signature), and transports them to the authority through the prescribed channel (direct API, Peppol Access Point, SDI, NIC IRP, MyInvois portal API). Invoicemonk does this in 17 jurisdictions.',
       },
       {
         question: 'Which jurisdictions does Invoicemonk cover?',
@@ -100,7 +100,7 @@ export const pillars: Pillar[] = [
         answer: 'E-invoicing is on the Professional plan. The same plan covers every supported mandate — no per-jurisdiction add-on.',
       },
     ],
-    // Cluster articles: 3 archetypes per mandate × 16 mandates = 48 slugs.
+    // Cluster articles: 3 archetypes per mandate × 18 mandates = 48 slugs.
     // Existing legacy posts (5) are reused; the rest are roadmap slugs to be written
     // per .lovable/e-invoicing-cluster-roadmap.md (Passes G+).
     clusterPosts: [

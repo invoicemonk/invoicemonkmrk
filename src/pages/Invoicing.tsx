@@ -122,7 +122,7 @@ const Invoicing = () => {
               >
                 Need country-specific clearance, CSID, IRN, UUID, or Peppol?{' '}
                 <Link to="/e-invoicing" className="text-primary font-medium hover:underline">
-                  See the E-invoicing platform (16 mandates)
+                  See the E-invoicing platform (18 mandates)
                 </Link>
               </motion.p>
               <motion.p
