@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocale } from '@/hooks/useLocale';
 import { calculatePrice, getPricingPlans } from '@/config/pricingPlans';
+import { JURISDICTION_COUNT } from '@/data/mandates';
 
 interface SoftwareApplicationSchemaProps {
   name?: string;
@@ -47,7 +48,7 @@ export function SoftwareApplicationSchema({
       })),
     },
     "featureList": [
-      "Mandate-compliant e-invoicing (17 jurisdictions)",
+      `Mandate-compliant e-invoicing (${JURISDICTION_COUNT} jurisdictions)`,
       "CSID, IRN, UUID, QR and digital signatures",
       "Peppol BIS Billing 3.0 routing via certified Access Point",
       "Professional Invoice Creation",
