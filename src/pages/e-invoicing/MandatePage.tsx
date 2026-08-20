@@ -18,6 +18,7 @@ import {
 import { GlobalCapabilityBlock } from '@/components/e-invoicing/GlobalCapabilityBlock';
 import {
   getMandate,
+  MANDATE_COUNT,
   MANDATES_LAST_REVIEWED,
   MANDATE_LAST_REVIEWED_BY_SLUG,
   MANDATE_RELATED_SLUGS,
@@ -50,7 +51,7 @@ export default function MandatePage() {
   const liveYear = (mandate.liveSince || '').slice(0, 4);
 
   // Intent-matched hero anchors — replace generic copy that the audit flagged.
-  const matrixAnchor = `All 16 live e-invoicing mandates`;
+  const matrixAnchor = `All ${MANDATE_COUNT} live e-invoicing mandates`;
   const backAnchor = `← E-invoicing mandate matrix`;
 
   // Related guides: filter to slugs that resolve to a real blog post so the
