@@ -1,7 +1,7 @@
 import { ArrowRight, Download, Sparkles, CheckCircle2 } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 import { useContentAnalytics } from '@/hooks/useContentAnalytics';
-import { buildSignupHref, getSoftSell, PROOF_LINE, VALUE_BULLETS } from '@/data/pillarCTAs';
+import { buildSignupHref, getTierCTA, PROOF_LINE, VALUE_BULLETS } from '@/data/pillarCTAs';
 import { logConversion, logConversionOnce } from '@/lib/conversionTracking';
 
 interface SignupCTAProps {
@@ -13,6 +13,10 @@ interface SignupCTAProps {
   campaign?: string;
   /** Override headline. */
   headline?: string;
+  /** Mandate slug for central-tier (e-invoicing) articles. */
+  mandateSlug?: string;
+  /** Jurisdiction name for central-tier (e-invoicing) articles. */
+  jurisdiction?: string;
   /** Anchor to scroll to for the soft (checklist) CTA. */
   upgradeAnchor?: string;
 }
@@ -27,12 +31,16 @@ export function SignupCTA({
   slug,
   medium = 'article_end',
   campaign = 'blog_signup_cta',
-  headline = 'Solve invoicing compliance — start with Invoicemonk',
+  headline,
+  mandateSlug,
+  jurisdiction,
   upgradeAnchor = '#content-upgrade',
 }: SignupCTAProps) {
-  const subtext = getSoftSell(pillarId);
+  const tierCta = getTierCTA(pillarId, { mandateSlug, jurisdiction });
+  const subtext = tierCta.subtext;
+  const resolvedHeadline = headline || tierCta.headline;
   const { trackEvent } = useContentAnalytics(slug, pillarId);
-  const href = buildSignupHref(campaign, medium);
+  const href = buildSignupHref(campaign, medium, tierCta.intent);
   const rootRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
@@ -65,7 +73,7 @@ export function SignupCTA({
       pillarId,
       slug,
       ctaVariant: 'signup',
-      extra: { campaign },
+      extra: { campaign, tierCampaign: tierCta.campaign, intent: tierCta.intent },
     });
   };
 
@@ -98,7 +106,7 @@ export function SignupCTA({
           <Sparkles className="w-5 h-5" />
         </div>
         <div className="flex-1 min-w-0">
-          <p className="font-bold text-foreground text-xl leading-snug">{headline}</p>
+          <p className="font-bold text-foreground text-xl leading-snug">{resolvedHeadline}</p>
           <p className="text-sm text-muted-foreground mt-2 leading-relaxed">{subtext}</p>
         </div>
       </div>
@@ -120,7 +128,7 @@ export function SignupCTA({
           onClick={onSignupClick}
           className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-primary/90 transition-colors"
         >
-          Create your Invoicemonk account
+          {tierCta.primaryLabel}
           <ArrowRight className="w-4 h-4" />
         </a>
         <a
