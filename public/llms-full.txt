@@ -6,7 +6,7 @@
 
 ## Company Overview
 
-Invoicemonk is the global e-invoicing platform for freelancers, consultants, contractors, small businesses, and agencies. It issues structured, mandate-compliant invoices that satisfy 16 live e-invoicing mandates: ZATCA Phase 1 and Phase 2 (Saudi Arabia), MyInvois (Malaysia), GST IRN (India), Peppol BIS Billing 3.0 (EU), FIRS MBS (Nigeria), Making Tax Digital for VAT (UK), KRA eTIMS (Kenya), GRA e-VAT (Ghana), BIR CAS (Philippines), SARS (South Africa), ZIMRA FDMS (Zimbabwe), SRC (Seychelles), NF-e / NFS-e via SEF (Brazil), US federal B2G via IPP, and CRA + Peppol (Canada). Around that platform sits the everyday product suite: invoicing, expense tracking, payment collection, accounting, estimates, and receipt management.
+Invoicemonk is the global e-invoicing platform for freelancers, consultants, contractors, small businesses, and agencies. It issues structured, mandate-compliant invoices that satisfy 18 live e-invoicing mandates across 17 jurisdictions: ZATCA Phase 1 and Phase 2 (Saudi Arabia), MyInvois (Malaysia), GST IRN (India), Peppol BIS Billing 3.0 (EU), FIRS MBS (Nigeria), Making Tax Digital for VAT (UK), KRA eTIMS (Kenya), GRA e-VAT (Ghana), BIR CAS (Philippines), SARS (South Africa), ZIMRA FDMS (Zimbabwe), SRC (Seychelles), NF-e / NFS-e via SEF (Brazil), US federal B2G via IPP, CRA + Peppol (Canada), SdI / FatturaPA (Italy), and NRA SAF-T (Bulgaria). Around that platform sits the everyday product suite: invoicing, expense tracking, payment collection, accounting, estimates, and receipt management.
 
 ## Live E-Invoicing Mandates (16)
 
