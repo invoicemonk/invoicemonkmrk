@@ -18,6 +18,7 @@ import {
 import { Link } from '@/components/LocalizedLink';
 import {
   MANDATE_COUNT,
+  JURISDICTION_COUNT,
   mandatesByRegion,
   regionLabel,
   type RegionKey,
@@ -167,12 +168,12 @@ export default function EInvoicing() {
   return (
     <>
       <SEOHead
-        title={`E-Invoicing Platform: Mandate-Compliant in ${MANDATE_COUNT} Jurisdictions | Invoicemonk`}
+        title={`E-Invoicing Platform: Mandate-Compliant in ${JURISDICTION_COUNT} Jurisdictions | Invoicemonk`}
         description={`The global e-invoicing platform for small business. CSID, IRN, UUID, QR, and Peppol routing across ${MANDATE_COUNT} mandates from ZATCA to MyInvois, FIRS, GST India, MTD, and Peppol EU.`}
       />
       <SoftwareApplicationSchema
         name="Invoicemonk E-Invoicing"
-        description={`Mandate-compliant e-invoicing platform live in ${MANDATE_COUNT} jurisdictions.`}
+        description={`Mandate-compliant e-invoicing platform live in ${JURISDICTION_COUNT} jurisdictions.`}
         schemaId="https://invoicemonk.com/#e-invoicing-software"
       />
       <EInvoicingCollectionSchema />
@@ -216,7 +217,7 @@ export default function EInvoicing() {
                   transition={{ duration: 0.5, delay: 0.1 }}
                   className="mt-6 text-lg text-muted-foreground leading-relaxed"
                 >
-                  Live in {MANDATE_COUNT} jurisdictions across {REGION_ORDER.length} regions: ZATCA, MyInvois, GST IRN,
+                  Live in {JURISDICTION_COUNT} jurisdictions across {REGION_ORDER.length} regions: ZATCA, MyInvois, GST IRN,
                   Peppol, FIRS, MTD, eTIMS, GRA, BIR, SARS, ZIMRA, SRC, NF-e, IPP, and CRA. Every invoice carries the
                   local cryptographic artefact the tax authority requires.
                 </motion.p>

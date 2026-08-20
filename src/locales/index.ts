@@ -32,7 +32,7 @@ const enDefault: LocaleConfig = {
       subheadline:
         'Invoicemonk issues structured, mandate-compliant e-invoices across ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, eTIMS and more — with the local artefact (CSID, IRN, UUID, QR, fiscal signature) the tax authority requires.',
       cta: 'Get started',
-      secondaryCta: 'See the 16 live mandates →',
+      secondaryCta: 'See the 18 live mandates →',
       trustBadge: 'Used by businesses invoicing across 30+ countries',
     },
     compliance: {
