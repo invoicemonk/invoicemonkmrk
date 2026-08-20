@@ -25,8 +25,18 @@ export interface KeyTopic {
   link?: string;
 }
 
+/**
+ * Contextual tier (Koray). 'central' = the regulated e-invoicing entity we own;
+ * 'money' = commercial invoicing-software intent that converts to paid Pro.
+ * Borders are enforced by tier: central pages never target software phrasing,
+ * money pages never target mandate phrasing.
+ */
+export type PillarTier = 'central' | 'money';
+
 export interface Pillar {
   id: string;
+  /** Contextual tier — drives CTA logic and border enforcement. */
+  tier: PillarTier;
   title: string;
   slug: string;
   description: string;
@@ -61,6 +71,7 @@ export interface TopicalCluster {
 export const pillars: Pillar[] = [
   {
     id: 'e-invoicing-platform',
+    tier: 'central',
     title: 'Global E-Invoicing Platform',
     slug: 'e-invoicing',
     description:
@@ -195,6 +206,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'invoicing-mastery',
+    tier: 'money',
     title: 'Invoicing Mastery',
     slug: 'invoicing',
     description: 'Master the art of professional invoicing to get paid faster and look more professional.',
@@ -266,6 +278,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'getting-paid',
+    tier: 'money',
     title: 'Getting Paid Faster',
     slug: 'getting-paid',
     description: 'Strategies and tools to accelerate your payment collection and improve cash flow.',
@@ -343,6 +356,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'business-finances',
+    tier: 'money',
     title: 'Business Finances',
     slug: 'business-finances',
     description: 'Essential accounting and expense management knowledge for small business success.',
@@ -400,6 +414,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'tax-compliance',
+    tier: 'central',
     title: 'Tax & Compliance',
     slug: 'tax-compliance',
     description: 'Stay audit-ready and compliant with tax regulations across different regions.',
@@ -462,6 +477,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'freelancer-success',
+    tier: 'money',
     title: 'Freelancer Success',
     slug: 'freelancing',
     description: 'Build a thriving freelance business with practical guidance and tools.',
@@ -524,6 +540,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'estimates-proposals',
+    tier: 'money',
     title: 'Estimates & Proposals',
     slug: 'estimates',
     description: 'Win more clients with compelling proposals and accurate estimates.',
@@ -581,6 +598,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'expense-management',
+    tier: 'money',
     title: 'Expense Management',
     slug: 'expenses',
     description: 'Track, categorize, and optimize your business expenses effortlessly.',
@@ -643,6 +661,7 @@ export const pillars: Pillar[] = [
   },
   {
     id: 'client-management',
+    tier: 'money',
     title: 'Client Management',
     slug: 'client-management',
     description: 'Build stronger client relationships and streamline your client workflows.',
@@ -1126,4 +1145,16 @@ export function getClusterType(postSlug: string, isPillarContent?: boolean): Clu
 
 export function getSemanticCategory(oldCategory: string): string {
   return categoryMapping[oldCategory] || oldCategory;
+}
+
+/** Pillars that belong to the central (regulated e-invoicing) entity. */
+export const centralPillars = pillars.filter((p) => p.tier === 'central');
+
+/** Pillars that carry commercial invoicing-software intent. */
+export const moneyPillars = pillars.filter((p) => p.tier === 'money');
+
+/** Tier of a pillar id; unknown ids default to the money layer. */
+export function getPillarTier(pillarId?: string): PillarTier {
+  if (!pillarId) return 'money';
+  return pillars.find((p) => p.id === pillarId)?.tier ?? 'money';
 }

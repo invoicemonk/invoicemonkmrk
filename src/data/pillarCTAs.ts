@@ -10,6 +10,8 @@
  * to a paid plan; we capture the lead first and warm them up.
  */
 
+import { getPillarTier } from '@/data/topicalMap';
+
 export const SIGNUP_URL = 'https://app.invoicemonk.com/signup?plan=professional';
 
 export function buildSignupHref(campaign: string, medium = 'article_end', intent?: string): string {
@@ -46,4 +48,49 @@ export const defaultSoftSell =
 
 export function getSoftSell(pillarId?: string): string {
   return (pillarId && softSellByPillar[pillarId]) || defaultSoftSell;
+}
+
+/**
+ * Per-tier CTA copy (Koray contextual borders → conversion layer).
+ *
+ * central tier — regulated e-invoicing readers: the ask is compliance
+ *   ("issue a cleared artefact today"), with the jurisdiction passed into the
+ *   signup URL so onboarding lands on the right compliance profile.
+ * money tier — commercial invoicing-software readers: the ask is the product
+ *   and its price (Pro, $15/mo).
+ */
+export interface TierCTA {
+  headline: string;
+  subtext: string;
+  primaryLabel: string;
+  campaign: string;
+  /** Value passed to signup as `intent` (jurisdiction slug or pillar id). */
+  intent?: string;
+}
+
+export function getTierCTA(
+  pillarId?: string,
+  opts: { mandateSlug?: string; jurisdiction?: string } = {}
+): TierCTA {
+  const tier = getPillarTier(pillarId);
+
+  if (tier === 'central') {
+    const place = opts.jurisdiction ? ` in ${opts.jurisdiction}` : '';
+    return {
+      headline: `Issue a cleared e-invoice${place} today`,
+      subtext:
+        'Invoicemonk generates the structured file, signs it, and submits it to the tax authority — the artefact, the transport, and the audit trail handled for you. Pro, $15/mo.',
+      primaryLabel: 'Start issuing compliant e-invoices',
+      campaign: 'tier_central_compliance',
+      intent: opts.mandateSlug || pillarId,
+    };
+  }
+
+  return {
+    headline: 'Invoice, get paid, and keep the records — from $15/mo',
+    subtext: getSoftSell(pillarId),
+    primaryLabel: 'Create your Invoicemonk account',
+    campaign: 'tier_money_product',
+    intent: pillarId,
+  };
 }
