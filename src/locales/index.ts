@@ -44,7 +44,7 @@ const enDefault: LocaleConfig = {
     seo: {
       siteTitle: 'Invoicemonk — Professional Invoicing Software for Small Business',
       siteDescription:
-        'Invoicing and accounting software for small businesses and freelancers worldwide. Mandate-compliant e-invoicing with Stripe payments. Pro from $15/month.',
+        'Invoicing and accounting software for small businesses and freelancers worldwide. Mandate-compliant e-invoicing with Stripe payments. Free plan available; Pro from $15/month.',
       complianceKeyword: 'Tax-ready',
       targetAudience: 'small business',
       region: 'Global',
@@ -92,7 +92,7 @@ const enDefault: LocaleConfig = {
       {
         question: 'How much does Invoicemonk cost?',
         answer:
-          'Pro starts at $15/month and SME at $49/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.',
+          'Invoicemonk has a Free plan at $0/month (3 invoices per month, 1 user). Pro is $15/month and SME $49/month. Biz pricing is custom. You can cancel anytime, and annual billing saves about 17%.',
       },
       {
         question: 'Does Invoicemonk handle sales tax / VAT / GST?',
@@ -108,6 +108,7 @@ const enDefault: LocaleConfig = {
     socialProofHeadline: 'Loved by small businesses worldwide',
   },
   pricing: {
+    free: 0,
     professional: 15,
     sme: 49,
     business: 0,

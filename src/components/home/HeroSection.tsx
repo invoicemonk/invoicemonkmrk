@@ -179,7 +179,7 @@ export function HeroSection() {
                     {/* Stats grid - Localized currencies */}
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                       {[
-                        { label: t('hero.outstanding'), value: formatPrice(locale.pricing.business * 8, ''), color: 'text-wave-orange' },
+                        { label: t('hero.outstanding'), value: formatPrice(locale.pricing.sme * 8, ''), color: 'text-wave-orange' },
                         { label: t('hero.overdue'), value: formatPrice(locale.pricing.professional * 5, ''), color: 'text-destructive' },
                         { label: t('hero.paidThirtyDays'), value: formatPrice(locale.pricing.professional * 65, ''), color: 'text-wave-green' },
                         { label: t('hero.totalInvoices'), value: '24', color: 'text-primary' },
@@ -194,9 +194,9 @@ export function HeroSection() {
                     {/* Recent invoices */}
                     <div className="hidden lg:block space-y-2">
                       {[
-                        { client: 'Acme Corp', amount: formatPrice(locale.pricing.business * 6, ''), status: t('hero.paid') },
+                        { client: 'Acme Corp', amount: formatPrice(locale.pricing.sme * 6, ''), status: t('hero.paid') },
                         { client: 'TechStart Inc', amount: formatPrice(locale.pricing.professional * 6, ''), status: t('hero.pending') },
-                        { client: 'Design Studio', amount: formatPrice(locale.pricing.business * 8, ''), status: t('hero.paid') },
+                        { client: 'Design Studio', amount: formatPrice(locale.pricing.sme * 8, ''), status: t('hero.paid') },
                       ].map((invoice) => (
                         <div key={invoice.client} className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-muted/50">
                           <span className="text-body-sm text-foreground">{invoice.client}</span>
@@ -232,7 +232,7 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="text-body-sm font-medium text-foreground">{t('hero.paymentReceived')}</p>
-                  <p className="text-caption text-muted-foreground">{formatPrice(locale.pricing.business * 6, '')} from Acme Corp</p>
+                  <p className="text-caption text-muted-foreground">{formatPrice(locale.pricing.sme * 6, '')} from Acme Corp</p>
                 </div>
               </div>
             </motion.div>

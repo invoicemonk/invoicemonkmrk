@@ -33,34 +33,17 @@ export const cluster13Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Invoice Templates', url: '/invoice-templates', description: 'Professional templates for every invoice type' },
     ],
-    content: `
-<p><strong>If you sell internationally — or even domestically to new clients — you'll encounter both proforma invoices and commercial invoices.</strong> They look similar, but serve fundamentally different purposes. Using the wrong one can delay payments, cause customs problems, or create accounting headaches.</p>
-
-<h2>What Is a Proforma Invoice?</h2>
-
-<p>A proforma invoice is a <strong>preliminary bill of sale</strong> sent before goods are delivered or services rendered. Think of it as a detailed quote or estimate in invoice format. It tells the buyer:</p>
-<ul>
+    content: `<p><strong>If you sell internationally — or even domestically to new clients — you'll encounter both proforma invoices and commercial invoices.</strong> They look similar, but serve fundamentally different purposes. Using the wrong one can delay payments, cause customs problems, or create accounting headaches.</p><h2>What Is a Proforma Invoice?</h2><p class="block-answer" data-answer="true">A proforma invoice is a preliminary bill of sale sent before goods are delivered or services rendered.  Think of it as a detailed quote or estimate in invoice format.</p><p>A proforma invoice is a <strong>preliminary bill of sale</strong> sent before goods are delivered or services rendered. Think of it as a detailed quote or estimate in invoice format. It tells the buyer:</p><ul>
   <li>What you plan to sell</li>
   <li>The expected price, including any taxes and shipping</li>
   <li>Estimated delivery timeline</li>
   <li>Payment terms you're proposing</li>
-</ul>
-
-<p><strong>Key point</strong>: A proforma invoice is <em>not</em> a demand for payment. It's a commitment to deliver at the stated price if the buyer agrees.</p>
-
-<h2>What Is a Commercial Invoice?</h2>
-
-<p>A commercial invoice is the <strong>official payment request</strong> issued after goods are shipped or services delivered. It's the legally binding document that:</p>
-<ul>
+</ul><p><strong>Key point</strong>: A proforma invoice is <em>not</em> a demand for payment. It's a commitment to deliver at the stated price if the buyer agrees.</p><h2>What Is a Commercial Invoice?</h2><p class="block-answer" data-answer="true">A commercial invoice is the official payment request issued after goods are shipped or services delivered.</p><p>A commercial invoice is the <strong>official payment request</strong> issued after goods are shipped or services delivered. It's the legally binding document that:</p><ul>
   <li>Demands payment from the buyer</li>
   <li>Records the sale for tax purposes</li>
   <li>Serves as the basis for customs clearance in international trade</li>
   <li>Must be reported to tax authorities (VAT, GST, etc.)</li>
-</ul>
-
-<h2>Key Differences at a Glance</h2>
-
-<table>
+</ul><h2>Key Differences at a Glance</h2><table>
   <thead><tr><th>Feature</th><th>Proforma Invoice</th><th>Commercial Invoice</th></tr></thead>
   <tbody>
     <tr><td><strong>Purpose</strong></td><td>Estimate / quote</td><td>Demand for payment</td></tr>
@@ -71,31 +54,18 @@ export const cluster13Posts: BlogPost[] = [
     <tr><td><strong>Accounting</strong></td><td>Not recorded as revenue</td><td>Recorded as accounts receivable</td></tr>
     <tr><td><strong>Numbering</strong></td><td>Separate sequence (PI-XXX)</td><td>Main invoice sequence (INV-XXX)</td></tr>
   </tbody>
-</table>
-
-<h2>When to Use a Proforma Invoice</h2>
-
-<ol>
+</table><h2>When to Use a Proforma Invoice</h2><p class="block-answer" data-answer="true">International trade — buyers in other countries need a proforma to arrange payment (especially letters of credit), apply for import licences, or get pre-clearance from customs New client relationships — send a proforma before starting work so both parties agree on scope and price</p><ol>
   <li><strong>International trade</strong> — buyers in other countries need a proforma to arrange payment (especially letters of credit), apply for import licences, or get pre-clearance from customs</li>
   <li><strong>New client relationships</strong> — send a proforma before starting work so both parties agree on scope and price</li>
   <li><strong>Custom or made-to-order goods</strong> — confirm specifications and pricing before production begins</li>
   <li><strong>Budget approval</strong> — corporate clients often need a proforma to get internal purchase approval before issuing a purchase order</li>
   <li><strong>Grant or funding applications</strong> — organisations may need a proforma invoice to justify budget requests</li>
-</ol>
-
-<h2>When to Use a Commercial Invoice</h2>
-
-<ol>
+</ol><h2>When to Use a Commercial Invoice</h2><p class="block-answer" data-answer="true">After delivering goods or services — this is your standard sales invoice Shipping internationally — required by customs in virtually every country for duty and tax calculation</p><ol>
   <li><strong>After delivering goods or services</strong> — this is your standard sales invoice</li>
   <li><strong>Shipping internationally</strong> — required by customs in virtually every country for duty and tax calculation</li>
   <li><strong>Recording revenue</strong> — commercial invoices are the documents you report to tax authorities</li>
   <li><strong>Claiming input tax credits</strong> — buyers need your commercial invoice to claim VAT/GST credits</li>
-</ol>
-
-<h2>What Both Invoices Should Include</h2>
-
-<p>Despite their different purposes, both documents share most fields:</p>
-<ul>
+</ol><h2>What Both Invoices Should Include</h2><p class="block-answer" data-answer="true">Despite their different purposes, both documents share most fields:</p><p>Despite their different purposes, both documents share most fields:</p><ul>
   <li>Seller and buyer names, addresses, and tax IDs</li>
   <li>Unique document number</li>
   <li>Date of issue</li>
@@ -103,28 +73,18 @@ export const cluster13Posts: BlogPost[] = [
   <li>Quantities, unit prices, and total amounts</li>
   <li>Currency</li>
   <li>Payment terms</li>
-</ul>
-
-<p><strong>Additional fields for commercial invoices in international trade:</strong></p>
-<ul>
+</ul><p><strong>Additional fields for commercial invoices in international trade:</strong></p><ul>
   <li>HS (Harmonized System) codes for each product</li>
   <li>Country of origin</li>
   <li>Incoterms (FOB, CIF, DDP, etc.)</li>
   <li>Weight and packaging details</li>
   <li>Shipping method and carrier</li>
-</ul>
-
-<h2>Common Mistakes to Avoid</h2>
-
-<ul>
+</ul><h2>Common Mistakes to Avoid</h2><p class="block-answer" data-answer="true">Common Mistakes to Avoid includes: Recording a proforma as revenue — it's not income until you issue the commercial invoice Using proforma numbers in your main sequence — keep separate numbering to avoid gaps in your commercial invoice trail</p><ul>
   <li><strong>Recording a proforma as revenue</strong> — it's not income until you issue the commercial invoice</li>
   <li><strong>Using proforma numbers in your main sequence</strong> — keep separate numbering to avoid gaps in your commercial invoice trail</li>
   <li><strong>Sending a proforma when customs needs a commercial invoice</strong> — this delays clearance and can result in goods being held</li>
   <li><strong>Not converting proformas to commercial invoices</strong> — if you deliver the goods, always issue the final commercial invoice for proper tax reporting</li>
-</ul>
-
-<p>Create both proforma and commercial invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more on invoice types, see our <a href="/__LANG__/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>
-    `
+</ul><p>Create both proforma and commercial invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more on invoice types, see our <a href="/__LANG__/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>`
   },
 
 
@@ -154,84 +114,44 @@ export const cluster13Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Payment Terms Guide', url: '/blog/payment-terms-guide-net-30-explained', description: 'Set terms that get you paid on time' },
     ],
-    content: `
-<p><strong>An unpaid invoice doesn't just hurt your cash flow — it creates stress, damages relationships, and wastes time you could spend on actual work.</strong> But most freelancers and small business owners hate chasing payments because it feels awkward, confrontational, or desperate.</p>
-
-<p>It doesn't have to be any of those things. With the right system — clear timelines, professional scripts, and escalation steps — you can collect what you're owed without burning bridges.</p>
-
-<h2>Why Invoices Go Unpaid</h2>
-
-<p>Before assuming the worst, understand the common reasons:</p>
-<ul>
+    content: `<p><strong>An unpaid invoice doesn't just hurt your cash flow — it creates stress, damages relationships, and wastes time you could spend on actual work.</strong> But most freelancers and small business owners hate chasing payments because it feels awkward, confrontational, or desperate.</p><p>It doesn't have to be any of those things. With the right system — clear timelines, professional scripts, and escalation steps — you can collect what you're owed without burning bridges.</p><h2>Why Invoices Go Unpaid</h2><p class="block-answer" data-answer="true">Before assuming the worst, understand the common reasons:</p><p>Before assuming the worst, understand the common reasons:</p><ul>
   <li><strong>Oversight</strong> — the client simply forgot (this is the most common reason)</li>
   <li><strong>Cash flow issues</strong> — the client has money problems but intends to pay</li>
   <li><strong>Internal process delays</strong> — the invoice is stuck in an approval queue</li>
   <li><strong>Dispute</strong> — the client is unhappy with the work but hasn't told you</li>
   <li><strong>Missing information</strong> — the invoice went to the wrong person or lacked a PO number</li>
-</ul>
-
-<h2>The Follow-Up Timeline</h2>
-
-<p>Use this proven escalation schedule:</p>
-
-<h3>Day 1-3 After Due Date: Friendly Reminder</h3>
-<p>Assume it's an oversight. Keep it light and helpful.</p>
-
-<blockquote>
+</ul><h2>The Follow-Up Timeline</h2><p class="block-answer" data-answer="true">Use this proven escalation schedule:</p><p>Use this proven escalation schedule:</p><h3>Day 1-3 After Due Date: Friendly Reminder</h3><p>Assume it's an oversight. Keep it light and helpful.</p><blockquote>
 <p><strong>Subject:</strong> Quick reminder — Invoice #[XXX] was due on [date]</p>
 <p>Hi [Name],</p>
 <p>Hope you're well. Just a quick note that Invoice #[XXX] for [amount] was due on [date]. In case it slipped through, I've reattached it here.</p>
 <p>If you've already sent payment, please disregard this — and thank you!</p>
 <p>Best,<br/>[Your name]</p>
-</blockquote>
-
-<h3>Day 7: Polite Follow-Up</h3>
-<p>Slightly more direct. Ask if there's an issue.</p>
-
-<blockquote>
+</blockquote><h3>Day 7: Polite Follow-Up</h3><p>Slightly more direct. Ask if there's an issue.</p><blockquote>
 <p><strong>Subject:</strong> Following up on Invoice #[XXX] — now 7 days overdue</p>
 <p>Hi [Name],</p>
 <p>Following up on my earlier reminder regarding Invoice #[XXX] for [amount], which was due on [date]. Could you let me know when I can expect payment, or if there's anything I need to address on my end?</p>
 <p>Happy to discuss if there are any questions about the invoice.</p>
 <p>Thanks,<br/>[Your name]</p>
-</blockquote>
-
-<h3>Day 14: Firm Reminder</h3>
-<p>Reference your payment terms. Mention late fees if applicable.</p>
-
-<blockquote>
+</blockquote><h3>Day 14: Firm Reminder</h3><p>Reference your payment terms. Mention late fees if applicable.</p><blockquote>
 <p><strong>Subject:</strong> Invoice #[XXX] — 14 days overdue, action needed</p>
 <p>Hi [Name],</p>
 <p>Invoice #[XXX] for [amount] is now 14 days past due. Per our agreed payment terms, invoices unpaid after [X] days are subject to [Y]% monthly late fee.</p>
 <p>I'd prefer to resolve this without any fees. Could you confirm a payment date by [specific date]?</p>
 <p>Best regards,<br/>[Your name]</p>
-</blockquote>
-
-<h3>Day 30: Formal Demand</h3>
-<p>Business tone. Reference the contract. Mention next steps.</p>
-
-<blockquote>
+</blockquote><h3>Day 30: Formal Demand</h3><p>Business tone. Reference the contract. Mention next steps.</p><blockquote>
 <p><strong>Subject:</strong> Formal payment notice — Invoice #[XXX], 30 days overdue</p>
 <p>Dear [Name],</p>
 <p>This is a formal notice that Invoice #[XXX] for [amount], issued on [date] and due on [due date], remains unpaid after 30 days.</p>
 <p>Per our agreement dated [contract date], a late payment fee of [amount] has been applied. The revised total is [new total].</p>
 <p>Please arrange payment within 7 days. If payment is not received by [date], I will need to [suspend services / refer to collections / seek legal advice].</p>
 <p>Regards,<br/>[Your name]</p>
-</blockquote>
-
-<h3>Day 60+: Escalation</h3>
-<p>At this point, consider:</p>
-<ul>
+</blockquote><h3>Day 60+: Escalation</h3><p>At this point, consider:</p><ul>
   <li><strong>Formal demand letter</strong> — sent via recorded/certified mail</li>
   <li><strong>Mediation</strong> — a neutral third party helps negotiate</li>
   <li><strong>Small claims court</strong> — for amounts under the threshold (varies by country: £10,000 in UK, $10,000 in most US states)</li>
   <li><strong>Collection agency</strong> — they take 15-50% but handle the entire process</li>
   <li><strong>Legal action</strong> — for larger amounts, consult a solicitor/attorney</li>
-</ul>
-
-<h2>Prevention: How to Reduce Late Payments</h2>
-
-<ol>
+</ul><h2>Prevention: How to Reduce Late Payments</h2><p class="block-answer" data-answer="true">Prevention: How to Reduce Late Payments includes: Clear payment terms upfront — state terms in your contract AND on every invoice Invoice immediately — the sooner you invoice, the sooner you get paid</p><ol>
   <li><strong>Clear payment terms upfront</strong> — state terms in your contract AND on every invoice</li>
   <li><strong>Invoice immediately</strong> — the sooner you invoice, the sooner you get paid</li>
   <li><strong>Make paying easy</strong> — include a payment link, bank details, and multiple payment options</li>
@@ -239,20 +159,13 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Set up automatic reminders</strong> — don't rely on manual follow-ups</li>
   <li><strong>Offer early payment discounts</strong> — 2/10 Net 30 (2% discount if paid within 10 days)</li>
   <li><strong>Vet new clients</strong> — check references and start with smaller projects</li>
-</ol>
-
-<h2>What NOT to Do</h2>
-
-<ul>
+</ol><h2>What NOT to Do</h2><p class="block-answer" data-answer="true">Don't be aggressive in early follow-ups — most late payments are genuine oversights Don't threaten legal action prematurely — it burns the relationship and often isn't necessary</p><ul>
   <li><strong>Don't be aggressive in early follow-ups</strong> — most late payments are genuine oversights</li>
   <li><strong>Don't threaten legal action prematurely</strong> — it burns the relationship and often isn't necessary</li>
   <li><strong>Don't continue delivering work</strong> — stop after 14-30 days overdue with written notice</li>
   <li><strong>Don't accept verbal promises without a date</strong> — always get a specific payment date in writing</li>
   <li><strong>Don't ignore it</strong> — the longer you wait, the harder it gets to collect</li>
-</ul>
-
-<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For payment term strategies, read our <a href="/__LANG__/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>
-    `
+</ul><p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For payment term strategies, read our <a href="/__LANG__/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>`
   },
 
   // P3-G-08 — How to Create a Proforma Invoice
@@ -280,111 +193,61 @@ export const cluster13Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Proforma vs Commercial Invoice', url: '/blog/proforma-invoice-vs-commercial-invoice', description: 'Understand the key differences' },
     ],
-    content: `
-<p><strong>A proforma invoice is one of the most useful — and most misunderstood — business documents.</strong> It's not a demand for payment. It's a formal commitment to deliver goods or services at a stated price. And if you sell internationally, banks and customs authorities expect to see one.</p>
-
-<p>This guide walks you through creating a proforma invoice from scratch, with examples and best practices.</p>
-
-<h2>When You Need a Proforma Invoice</h2>
-
-<ul>
+    content: `<p><strong>A proforma invoice is one of the most useful — and most misunderstood — business documents.</strong> It's not a demand for payment. It's a formal commitment to deliver goods or services at a stated price. And if you sell internationally, banks and customs authorities expect to see one.</p><p>This guide walks you through creating a proforma invoice from scratch, with examples and best practices.</p><h2>When You Need a Proforma Invoice</h2><p class="block-answer" data-answer="true">International sales — buyers need it for import licences, letters of credit, and customs pre-clearance Formal quotations — when a client needs a detailed, invoice-formatted quote for budget approval</p><ul>
   <li><strong>International sales</strong> — buyers need it for import licences, letters of credit, and customs pre-clearance</li>
   <li><strong>Formal quotations</strong> — when a client needs a detailed, invoice-formatted quote for budget approval</li>
   <li><strong>New client relationships</strong> — to formalise pricing before starting work</li>
   <li><strong>Custom or made-to-order products</strong> — to confirm specs and pricing before production</li>
   <li><strong>Grant or funding applications</strong> — organisations may need proforma invoices to justify purchases</li>
-</ul>
-
-<h2>Step-by-Step: Creating a Proforma Invoice</h2>
-
-<h3>Step 1: Label It Clearly</h3>
-<p>Write <strong>"PROFORMA INVOICE"</strong> prominently at the top. This prevents confusion with a commercial invoice and ensures it's not accidentally processed as a payment demand.</p>
-
-<h3>Step 2: Add Your Business Details</h3>
-<ul>
+</ul><h2>Step-by-Step: Creating a Proforma Invoice</h2><h3>Step 1: Label It Clearly</h3><p>Write <strong>"PROFORMA INVOICE"</strong> prominently at the top. This prevents confusion with a commercial invoice and ensures it's not accidentally processed as a payment demand.</p><h3>Step 2: Add Your Business Details</h3><ul>
   <li>Business name and logo</li>
   <li>Address</li>
   <li>Tax ID (VAT number, GSTIN, TIN, ABN, etc.)</li>
   <li>Contact email and phone</li>
-</ul>
-
-<h3>Step 3: Add Buyer Details</h3>
-<ul>
+</ul><h3>Step 3: Add Buyer Details</h3><ul>
   <li>Buyer's business name</li>
   <li>Address (including country for international trade)</li>
   <li>Tax ID (if applicable)</li>
   <li>Contact person</li>
-</ul>
-
-<h3>Step 4: Assign a Proforma Invoice Number</h3>
-<p>Use a separate numbering sequence from your commercial invoices:</p>
-<ul>
+</ul><h3>Step 4: Assign a Proforma Invoice Number</h3><p>Use a separate numbering sequence from your commercial invoices:</p><ul>
   <li><code>PI-2026-001</code>, <code>PI-2026-002</code>...</li>
   <li>Or <code>PRO-001</code>, <code>PRO-002</code>...</li>
-</ul>
-<p>Never use your main invoice number sequence — proforma invoices are not revenue and shouldn't appear in your tax filings.</p>
-
-<h3>Step 5: Add Date and Validity Period</h3>
-<ul>
+</ul><p>Never use your main invoice number sequence — proforma invoices are not revenue and shouldn't appear in your tax filings.</p><h3>Step 5: Add Date and Validity Period</h3><ul>
   <li><strong>Issue date</strong> — when you're sending the proforma</li>
   <li><strong>Valid until</strong> — how long the pricing is guaranteed (typically 15-30 days)</li>
-</ul>
-
-<h3>Step 6: Itemise Products or Services</h3>
-<p>Include the same level of detail as a commercial invoice:</p>
-<table>
+</ul><h3>Step 6: Itemise Products or Services</h3><p>Include the same level of detail as a commercial invoice:</p><table>
   <thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Total</th></tr></thead>
   <tbody>
     <tr><td>Website redesign — 5 pages</td><td>1</td><td>$3,500</td><td>$3,500</td></tr>
     <tr><td>SEO audit and optimisation</td><td>1</td><td>$1,200</td><td>$1,200</td></tr>
     <tr><td>Content writing (10 pages)</td><td>10</td><td>$150</td><td>$1,500</td></tr>
   </tbody>
-</table>
-
-<p>For international trade, also include:</p>
-<ul>
+</table><p>For international trade, also include:</p><ul>
   <li><strong>HS codes</strong> — Harmonized System tariff codes for each product</li>
   <li><strong>Country of origin</strong></li>
   <li><strong>Weight and dimensions</strong></li>
   <li><strong>Incoterms</strong> (FOB, CIF, DDP, etc.)</li>
-</ul>
-
-<h3>Step 7: Calculate Totals</h3>
-<ul>
+</ul><h3>Step 7: Calculate Totals</h3><ul>
   <li>Subtotal</li>
   <li>Estimated taxes (VAT/GST/duties)</li>
   <li>Shipping and handling (if applicable)</li>
   <li>Total estimated cost</li>
-</ul>
-
-<h3>Step 8: Add Payment Terms</h3>
-<p>State the terms that will apply if the buyer proceeds:</p>
-<ul>
+</ul><h3>Step 8: Add Payment Terms</h3><p>State the terms that will apply if the buyer proceeds:</p><ul>
   <li>Payment method (bank transfer, letter of credit, etc.)</li>
   <li>Payment timeline (e.g., 50% deposit, 50% on delivery)</li>
   <li>Currency</li>
   <li>Bank details (for international wire transfers: SWIFT/BIC, IBAN)</li>
-</ul>
-
-<h3>Step 9: Add Notes</h3>
-<ul>
+</ul><h3>Step 9: Add Notes</h3><ul>
   <li><strong>"This is a proforma invoice and not a demand for payment"</strong> — clarifies the document's status</li>
   <li>Estimated delivery timeline</li>
   <li>Any conditions or assumptions</li>
-</ul>
-
-<h2>Proforma Invoice Best Practices</h2>
-
-<ol>
+</ul><h2>Proforma Invoice Best Practices</h2><p class="block-answer" data-answer="true">Proforma Invoice Best Practices includes: Be accurate — the commercial invoice should closely match the proforma; significant differences raise red flags with customs Set an expiry date — prices change; protect yourself with a validity period</p><ol>
   <li><strong>Be accurate</strong> — the commercial invoice should closely match the proforma; significant differences raise red flags with customs</li>
   <li><strong>Set an expiry date</strong> — prices change; protect yourself with a validity period</li>
   <li><strong>Keep records</strong> — even though proformas aren't tax documents, keep copies for reference</li>
   <li><strong>Convert to commercial invoice</strong> — when the sale proceeds, create a proper commercial invoice (ideally with a reference to the proforma number)</li>
   <li><strong>Use consistent formatting</strong> — your proforma should look as professional as your commercial invoices</li>
-</ol>
-
-<p>Create professional proforma invoices in minutes with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/__LANG__/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>
-    `
+</ol><p>Create professional proforma invoices in minutes with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/__LANG__/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>`
   },
 ];
 

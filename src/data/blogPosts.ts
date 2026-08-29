@@ -2138,7 +2138,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners',
-    title: '5 Essential Elements Every Invoice Must Include (With Checklist)',
+    title: '5 Essential Elements of an Invoice (2026 Checklist)',
     excerpt: 'Missing one element can delay payment by weeks. Here are the 5 things every invoice needs — plus 3 optional elements that make you look professional. Free checklist included.',
     category: 'Invoicing and Billing Tips',
     tags: ['invoice elements', 'invoicing', 'small business', 'billing best practices'],
@@ -2314,7 +2314,10 @@ export const blogPosts: BlogPost[] = [
         <li><a href="/en/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
         <li><a href="/en/blog/invoice-mistakes-that-cost-you-money">Invoice Mistakes That Cost You Money</a></li>
       </ul>
-    `,
+    
+      <h2>Get every element right automatically</h2>
+      <p>Sequential numbering, tax lines, payment terms and client details are built into <a href="/en/invoicing">Invoicemonk's invoicing software</a>, so no required field goes missing — and <a href="/en/payments">online payments</a> sit on every invoice you send. See <a href="/en/pricing">pricing</a> or read the <a href="/en/compare/best-invoicing-software-usa">best invoicing software for US businesses</a> comparison.</p>
+`,
     faq: [
       { question: 'What are the 5 essential elements of an invoice?', answer: 'Every invoice must include: (1) clear business identification for both you and the client, (2) a unique invoice number, (3) detailed descriptions of services or products with quantities and prices, (4) invoice date and payment due date, and (5) the total amount due with tax breakdown and payment instructions.' },
       { question: 'What makes an invoice legally valid?', answer: 'A legally valid invoice must identify the seller and buyer, include a unique reference number, specify what was sold with quantities and prices, show the date, state the total amount due including applicable taxes, and include any tax registration numbers required by your jurisdiction (VAT number, ABN, GSTIN, etc.).' },
@@ -4048,6 +4051,8 @@ export const blogPosts: BlogPost[] = [
         <li>Asset purchase documentation</li>
       </ul>
       <p>Electronic records are acceptable if they're legible and can be readily produced for examination.</p>
+      <p>Those same records do double duty outside tax season: lenders, landlords, and visa officers ask self-employed applicants for billing history. See <a href="/en/blog/invoice-as-proof-of-income">using an invoice as proof of income</a> for what they accept and what to send alongside it.</p>
+
 
       <h2>1099 Reporting and Invoices</h2>
       <p>If you pay independent contractors or vendors $600 or more annually, you must issue a 1099-NEC form. Maintain invoices from these vendors to:</p>
@@ -5248,8 +5253,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'how-to-write-invoice-payment-terms',
-    title: 'Invoice Payment Terms: How to Write Terms That Get You Paid on Time (2026)',
-    excerpt: 'Net 30? Due on receipt? 2/10 Net 30? Learn exactly how to write invoice payment terms that protect your business and reduce late payments — with copy-paste examples.',
+    title: 'Invoice Payment Terms: Examples, Wording, and Templates (2026)',
+    excerpt: 'Invoice payment terms explained with copy-paste examples and wording: Net 30, Net 15, due on receipt, 2/10 Net 30, deposits, and where to put terms on the invoice.',
     category: 'Invoicing and Billing Tips',
     tags: ['invoicing', 'payment terms', 'net 30', 'payment policies', 'cash flow'],
     author: defaultAuthor,
@@ -5381,10 +5386,67 @@ export const blogPosts: BlogPost[] = [
         <li>Use <a href="/en/invoicing">invoicing software</a> to standardize terms across all invoices</li>
       </ol>
 
+      <h2>Payment Terms Examples You Can Copy</h2>
+      <p>These are the exact wordings to place next to the invoice total. Replace the bracketed values and keep the calculated due date visible.</p>
+      <ul>
+        <li><strong>Standard 30-day:</strong> "Payment terms: Net 30 — due [date]. Payment is considered received when cleared funds reach our account."</li>
+        <li><strong>Short cycle:</strong> "Payment terms: Net 15 — due [date]." See <a href="/en/blog/what-is-net-15-payment-terms">what Net 15 means and when to use it</a>.</li>
+        <li><strong>Immediate:</strong> "Due on receipt — payable immediately upon delivery of this invoice."</li>
+        <li><strong>Early-payment discount:</strong> "2/10 Net 30 — deduct 2% if paid within 10 days; full balance due [date]."</li>
+        <li><strong>Deposit:</strong> "50% deposit due before work begins; balance due on delivery." See the <a href="/en/blog/deposit-invoice-template-guide">deposit invoice guide</a>.</li>
+        <li><strong>Milestone:</strong> "33% on signature, 33% at [milestone], 34% on final delivery, each payable Net 14."</li>
+        <li><strong>Retainer:</strong> "Monthly retainer invoiced in advance on the 1st, payable Net 15."</li>
+        <li><strong>End of month:</strong> "Net 30 EOM — due 30 days after the end of the month of invoice."</li>
+      </ul>
+
+      <h2>Payment Terms Compared at a Glance</h2>
+      <table>
+        <thead>
+          <tr><th>Term</th><th>Payment due</th><th>Typical use</th><th>Cash-flow impact</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Due on receipt</td><td>Immediately</td><td>New clients, one-off jobs, small amounts</td><td>Best</td></tr>
+          <tr><td>Net 7</td><td>7 days</td><td>Fast-turnaround services</td><td>Very good</td></tr>
+          <tr><td>Net 15</td><td>15 days</td><td>Small businesses, freelancers, retainers</td><td>Good</td></tr>
+          <tr><td>Net 30</td><td>30 days</td><td>Corporate clients, larger projects</td><td>Average</td></tr>
+          <tr><td>Net 45 / Net 60</td><td>45–60 days</td><td>Enterprise, government, distribution</td><td>Poor — needs a buffer</td></tr>
+          <tr><td>2/10 Net 30</td><td>30 days, 2% off within 10</td><td>Clients with cash on hand</td><td>Good, at ~2% cost</td></tr>
+        </tbody>
+      </table>
+      <p>The two most commonly compared terms are broken down further in <a href="/en/blog/payment-terms-comparison-net-30-vs-net-15">Net 30 vs Net 15</a>.</p>
+
+      <h2>Payment Terms Wording: Strong vs Weak</h2>
+      <table>
+        <thead><tr><th>Weak wording</th><th>Why it fails</th><th>Use instead</th></tr></thead>
+        <tbody>
+          <tr><td>"Please pay at your earliest convenience"</td><td>No due date, nothing to enforce or age</td><td>"Net 15 — due 18 March 2026"</td></tr>
+          <tr><td>"Payment due in one month"</td><td>Ambiguous: 28, 30, or 31 days?</td><td>"Net 30 — due 2 April 2026"</td></tr>
+          <tr><td>"Late fees may apply"</td><td>Discretionary, so clients assume they won't</td><td>"1.5% interest per month on overdue balances"</td></tr>
+          <tr><td>"Payment on completion"</td><td>Completion is disputable</td><td>"Balance due on delivery of final files"</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Where Payment Terms Go on the Invoice</h2>
+      <p data-answer="true">Print the payment term and the calculated due date in the same block as the invoice total, not only in the footer. The payer reads the amount owed; anything more than a glance away from that number gets missed. Keep the longer legal clauses — interest, ownership, disputes, jurisdiction — in the footer as <a href="/en/blog/invoice-terms-and-conditions-wording">invoice terms and conditions</a>.</p>
+      <ul>
+        <li><strong>Beside the total:</strong> payment term, calculated due date, accepted payment methods.</li>
+        <li><strong>Footer, every page:</strong> late fee rate, ownership clause, dispute window, governing law.</li>
+        <li><strong>Quote or contract:</strong> the same terms, agreed before work starts — this is what makes them stick.</li>
+      </ul>
+
+      <h2>A Complete Copy-Paste Terms Block</h2>
+      <blockquote>
+        <p><strong>Payment terms.</strong> Net 30 — payment due [date]. Payment is considered received when cleared funds reach our account. Overdue balances accrue interest at 1.5% per month, or the maximum rate permitted by law, whichever is lower. Disputes must be raised in writing within 7 days of the invoice date. Accepted methods: bank transfer, card, [method].</p>
+      </blockquote>
+
       <h2>Next Steps</h2>
       <p>Review your current payment terms. Are they clear, specific, and appropriate for your business? If you're experiencing late payments, your terms might be part of the problem.</p>
       <p>For more on getting paid faster, see our <a href="/en/blog/ultimate-guide-getting-paid-faster">ultimate guide to getting paid faster</a> and learn about <a href="/en/blog/payment-reminder-email-templates">effective payment reminder templates</a>.</p>
-    `,
+    
+      
+      <h2>Put your payment terms on autopilot</h2>
+      <p>Terms only work when every invoice carries them. <a href="/en/invoicing">Invoicemonk's invoicing software</a> stores your default terms, late-fee wording and due-date rules so they apply automatically to each invoice you send, and <a href="/en/payments">online payments</a> let clients settle by card or bank transfer the moment they read them. See <a href="/en/pricing">plans and pricing</a>, or compare the options in our <a href="/en/compare/best-invoicing-software-usa">best invoicing software for US businesses</a> guide.</p>
+`,
     entityMentions: [
           {
                 "name": "International Payment",
@@ -5895,8 +5957,8 @@ export const blogPosts: BlogPost[] = [
   // ============================================
   {
     slug: 'payment-reminder-email-templates',
-    title: '12 Payment Reminder Email Templates [Copy & Paste] — From Friendly to Final Notice (2026)',
-    excerpt: 'Copy-paste payment reminder email templates for every stage — friendly nudge, firm follow-up, and final notice. Includes subject lines with 45%+ open rates.',
+    title: 'Payment Reminder Email: 12 Templates and Samples (2026)',
+    excerpt: 'Payment reminder email samples for every stage — before due, overdue, and final notice — plus subject lines, an escalation timeline, and how to automate the sequence.',
     category: 'Finance',
     tags: ['payments', 'reminders', 'email templates', 'collections'],
     author: defaultAuthor,
@@ -6166,10 +6228,51 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Track opens:</strong> If using email marketing tools, track whether reminders are being opened. No opens may indicate a wrong email address or spam filtering</li>
       </ul>
 
+      <h2>The Escalation Timeline at a Glance</h2>
+      <p data-answer="true">A payment reminder sequence that works runs on fixed days, not on how you feel about the client: a heads-up 3 days before the due date, a notice on the due date, then follow-ups at 3, 7, 14, 21, and 30 days overdue, with tone escalating from friendly to formal demand. Fixed timing is what makes reminders read as process rather than confrontation.</p>
+      <table>
+        <thead><tr><th>Day</th><th>Channel</th><th>Tone</th><th>Ask</th></tr></thead>
+        <tbody>
+          <tr><td>-3 days</td><td>Email</td><td>Friendly heads-up</td><td>Confirm the invoice is scheduled</td></tr>
+          <tr><td>Due date</td><td>Email</td><td>Neutral notice</td><td>Payment due today</td></tr>
+          <tr><td>+3 days</td><td>Email</td><td>Gentle</td><td>Ask for a payment date</td></tr>
+          <tr><td>+7 days</td><td>Email + call</td><td>Firm</td><td>Confirm date in writing</td></tr>
+          <tr><td>+14 days</td><td>Email + call</td><td>Firm, mention late fee</td><td>Payment or payment plan</td></tr>
+          <tr><td>+21 days</td><td>Email to AP + decision maker</td><td>Escalation warning</td><td>Pay before work pauses</td></tr>
+          <tr><td>+30 days</td><td>Email, formal</td><td>Final notice</td><td>Pay within 7 days</td></tr>
+          <tr><td>+45 to +60</td><td>Letter/email</td><td>Formal demand</td><td>Pay before collections</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Payment Reminder Email Sample (Short Version)</h2>
+      <p>If you only take one sample from this page, take this one — it works at any stage with two words changed:</p>
+      <blockquote>
+        <p><strong>Subject:</strong> Invoice #1042 — $2,400 due 18 March</p>
+        <p>Hi [Name],</p>
+        <p>A quick note that invoice #1042 for $2,400 is due on 18 March. The invoice and payment link are attached.</p>
+        <p>If it is already scheduled, no action needed — could you confirm the payment date so I can update my records?</p>
+        <p>Thanks,<br/>[Your name]</p>
+      </blockquote>
+      <p>Three things make this sample work: the invoice number and amount are in the subject line, the ask is a <em>date</em> rather than an apology, and there is exactly one action to take.</p>
+
+      <h2>Stop Sending These Manually</h2>
+      <p data-answer="true">Manual reminders fail because they depend on someone noticing an overdue invoice. Automated reminders send the same sequence on the same days for every client, which removes both the delay and the awkwardness. Full setup walkthrough: <a href="/en/blog/setting-up-automatic-payment-reminders">setting up automatic payment reminders</a>.</p>
+      <ul>
+        <li>Pick your schedule once — the -3/0/+3/+7/+14/+21/+30 timeline above is a sound default.</li>
+        <li>Attach the invoice and a payment link to every reminder.</li>
+        <li>Stop the sequence automatically when payment clears.</li>
+        <li>Use a softer variant for long-term clients and a firmer one for repeat late payers.</li>
+        <li>Pair reminders with a late fee clause from your <a href="/en/blog/invoice-terms-and-conditions-wording">invoice terms and conditions</a>, so escalation has consequences.</li>
+      </ul>
+
       <h2>Automate Your Reminders</h2>
       <p>Manually sending payment reminders is time-consuming and easy to forget. <a href="/en/invoicing">Invoicemonk</a> can automatically send payment reminders on your schedule, saving you time and ensuring consistent follow-up. Set your reminder schedule once and every invoice follows the same professional escalation path.</p>
       <p>For more strategies on getting paid, see our <a href="/en/blog/ultimate-guide-getting-paid-faster">ultimate guide to getting paid faster</a> and learn about <a href="/en/blog/early-payment-discounts-do-they-work">early payment discounts</a>.</p>
-    `,
+    
+      
+      <h2>Send these reminders automatically</h2>
+      <p>Copy-paste templates work, but automated ones never get forgotten. <a href="/en/invoicing">Invoicemonk</a> schedules the whole escalation sequence per invoice and marks it paid the second the money lands through <a href="/en/payments">online payments</a>. Check <a href="/en/pricing">pricing</a> or see how it stacks up in our <a href="/en/compare/best-invoicing-software-usa">US invoicing software comparison</a>.</p>
+`,
     faq: [
       { question: 'When should I send a payment reminder?', answer: 'Send the first reminder 3-5 days before the due date as a friendly heads-up. Follow up on the due date itself, then at 3 days, 7 days, 14 days, 21 days, and 30 days overdue with increasingly firm language. After 30 days, transition to formal demands.' },
       { question: 'How do I write a polite payment reminder email?', answer: 'Keep it professional and brief: reference the invoice number and amount, restate the due date, attach the invoice again, and include a direct payment link. Assume the client simply forgot rather than being intentionally late.' },
@@ -10248,8 +10351,8 @@ Thank you for your business!
   // ============================================
   {
     slug: 'setting-up-automatic-payment-reminders',
-    title: 'Set Up Automatic Payment Reminders in Minutes (Free Tool)',
-    excerpt: 'See exactly how to set up automatic payment reminders in Invoicemonk — with screenshots, an optimal schedule, and copy-paste templates. Reduce late payments by 25–30%, $15/month, cancel anytime.',
+    title: 'Automated Payment Reminders: How to Set Them Up (2026)',
+    excerpt: 'Automated payment reminders explained: the schedule that works, how to set automatic invoice reminders up in minutes, and what results to expect. Reduce late payments by 25–30%.',
     category: 'Payments and Cash Flow',
     tags: ['payment reminders', 'automation', 'cash flow', 'invoicing', 'late payments', 'accounts receivable'],
     author: defaultAuthor,
@@ -10261,12 +10364,16 @@ Thank you for your business!
     featuredImageAlt: 'Invoicemonk payment reminder settings with before-due and overdue intervals',
     clusterType: 'cluster',
     targetProduct: '/payments',
-    semanticKeywords: ['automatic payment reminders', 'set up payment reminders', 'invoice reminder schedule', 'payment follow-up automation', 'overdue invoice reminders', 'pre-due reminder', 'reduce late payments', 'accounts receivable automation', 'send reminder invoice'],
+    semanticKeywords: ['automated payment reminders', 'automatic payment reminders', 'automated invoice reminders', 'set up payment reminders', 'invoice reminder schedule', 'payment follow-up automation', 'overdue invoice reminders', 'pre-due reminder', 'reduce late payments', 'accounts receivable automation', 'send reminder invoice'],
     macroContext: 'How small businesses and freelancers set up automatic payment reminders to get invoices paid 11 days faster without awkward manual follow-ups.',
     priority: 'P2',
     content: `
       <p>Small businesses spend an average of <strong>1.5 hours per week chasing overdue invoices</strong> — that's 78 hours a year of unpaid admin (Xero). And it doesn't work well: <strong>over 60% of invoices are paid late</strong> when businesses rely on manual follow-ups.</p>
       <p>Automatic payment reminders fix this. They follow up consistently, politely, and on schedule — without you lifting a finger. Businesses using them get paid <strong>an average of 11–14 days faster</strong> and see <strong>25–30% fewer late payments</strong>. This guide shows the optimal schedule, the exact copy to use at each stage, and how to set it up in Invoicemonk in 5 minutes (with screenshots).</p>
+
+      <h2>What Are Automated Payment Reminders?</h2>
+      <p data-answer="true">Automated payment reminders are scheduled emails your invoicing software sends on fixed days around an invoice's due date — typically 3 days before, on the due date, and at 3, 7, 14, 21 and 30 days overdue — and stops automatically the moment the invoice is paid. Unlike manual follow-ups, they run identically for every client, so nothing slips and nothing feels personal.</p>
+      <p>The wording matters as much as the timing: use the stage-by-stage copy in our <a href="/en/blog/payment-reminder-email-templates">payment reminder email templates</a>, and make sure the late-fee clause you reference actually appears in your <a href="/en/blog/how-to-write-invoice-payment-terms">invoice payment terms</a>.</p>
 
       <h2>Why Manual Reminders Fail</h2>
       <p>Most business owners intend to follow up on unpaid invoices but face the same barriers:</p>
@@ -10396,7 +10503,7 @@ Thank you for your business!
         <li><a href="/en/blog/early-payment-discounts-do-they-work">Early Payment Discounts Strategy</a></li>
       </ul>
 
-      <p>Ready to stop chasing payments manually? <a href="https://app.invoicemonk.com/signup?plan=professional">Set up your reminder schedule from $15/month, cancel anytime</a>.</p>
+      <p>Ready to stop chasing payments manually? <a href="https://app.invoicemonk.com/signup?plan=professional">Set up your reminder schedule from $15/month, cancel anytime</a>. See <a href="/en/pricing">pricing</a>, what the <a href="/en/invoicing">invoicing feature set</a> covers, or compare options in our <a href="/en/compare/best-invoicing-software-usa">best invoicing software in the USA</a> guide.</p>
     `,
     faq: [
       {
@@ -10423,14 +10530,14 @@ Thank you for your business!
     ],
     relatedTools: [
       { label: 'Invoicemonk Payments', url: '/payments', description: 'Automate payment reminders and collect online.' },
-      { label: 'Payment Reminder Email Templates', url: '/images/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
+      { label: 'Payment Reminder Email Templates', url: '/en/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
       { label: 'Get Started on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — $15/month, cancel anytime.' }
     ],
   },
   {
     slug: 'payment-terms-comparison-net-30-vs-net-15',
-    title: 'Net 30 vs Net 15 vs Due on Receipt: Payment Terms Compared (2026)',
-    excerpt: 'Which payment terms should you use? We compare Net 30, Net 15, Net 60, and Due on Receipt — with data on how each affects your cash flow and late payment rates.',
+    title: 'Net 30 vs Net 15: Payment Terms Compared (2026)',
+    excerpt: 'Net 30 vs Net 15 vs Net 60 vs due on receipt, compared side by side — due dates, cash-flow impact, late payment rates, and which term fits which client.',
     category: 'Payments and Cash Flow',
     tags: ['payment terms', 'net 30', 'net 15', 'cash flow', 'invoicing', 'accounts receivable'],
     author: defaultAuthor,
@@ -10448,7 +10555,7 @@ Thank you for your business!
       <p>This guide compares the most common payment terms and helps you choose the right ones for your business.</p>
 
       <h2>Understanding Payment Terms</h2>
-      <p>Payment terms define when a client must pay an invoice. "Net" refers to the total number of days the client has to pay from the invoice date. For a deeper dive into writing effective terms, see our <a href="/en/blog/how-to-write-invoice-payment-terms">invoice payment terms guide</a>.</p>
+      <p>Payment terms define when a client must pay an invoice. "Net" refers to the total number of days the client has to pay from the invoice date. For a deeper dive into writing effective terms, see our <a href="/en/blog/how-to-write-invoice-payment-terms">invoice payment terms guide</a>, and for the shorter cycle in detail, <a href="/en/blog/what-is-net-15-payment-terms">what Net 15 means and when to use it</a>.</p>
 
       <h2>Common Payment Terms Compared</h2>
       <table>
@@ -10535,7 +10642,10 @@ Thank you for your business!
         <li><a href="/en/blog/early-payment-discounts-do-they-work">Do Early Payment Discounts Work?</a></li>
         <li><a href="/en/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting</a></li>
       </ul>
-    `,
+    
+      <h2>Set Net 15 or Net 30 as your default</h2>
+      <p>Pick the term once and let the software enforce it: <a href="/en/invoicing">Invoicemonk</a> applies your default terms, calculates due dates and chases overdue invoices for you, while <a href="/en/payments">built-in payments</a> shorten the gap between due date and deposit. See <a href="/en/pricing">plans and pricing</a> or the <a href="/en/compare/best-invoicing-software-usa">best invoicing software for US businesses</a>.</p>
+`,
     faq: [
       {
         question: 'What is the difference between Net 30 and Net 15 payment terms?',
@@ -11963,8 +12073,8 @@ Thank you for your business!
   // ============================================
   {
     slug: 'proposal-vs-estimate-vs-quote-explained',
-    title: 'Proposal vs Estimate vs Quote: What\'s the Difference?',
-    excerpt: 'Confused about proposals, estimates, and quotes? Learn the key differences, when to use each document, and how they affect your client relationships and legal obligations.',
+    title: 'Proposal vs Estimate vs Quote: Differences Explained (2026)',
+    excerpt: 'Proposal vs estimate vs quote: what each document commits you to, when to send which, whether they are legally binding, and how to convert one into an invoice.',
     category: 'Estimates and Proposals',
     tags: ['proposals', 'estimates', 'quotes', 'business documents', 'client management', 'pricing'],
     author: defaultAuthor,
@@ -12063,7 +12173,10 @@ Thank you for your business!
         <li><a href="/en/blog/estimate-vs-quote-vs-invoice-difference">Estimate vs Quote vs Invoice</a></li>
         <li><a href="/en/blog/how-to-price-project-work">How to Price Project Work</a></li>
       </ul>
-    `,
+    
+      <h2>From quote to paid invoice in one place</h2>
+      <p>Send an estimate, get it approved, and convert it to an invoice without retyping anything in <a href="/en/invoicing">Invoicemonk</a>, then collect through <a href="/en/payments">online payments</a>. See <a href="/en/pricing">plans and pricing</a> or our <a href="/en/compare/best-invoicing-software-usa">comparison of US invoicing software</a>.</p>
+`,
     faq: [
       {
         question: 'Is a quote legally binding?',
@@ -15567,7 +15680,7 @@ Thank you for your business!
     relatedTools: [
       { label: 'Expense Tracking', url: '/expenses', description: 'Track expenses alongside invoicing for free.' },    ],
     faq: [
-      { question: 'Which expense tracking software includes invoicing on its entry plan?', answer: 'Wave offers expense tracking and invoicing on its free plan (US and Canada only). Invoicemonk is paid-only, starting at $15/month on the Pro plan, but adds multi-currency support, tax compliance features, and built-in accounting that Wave restricts or doesn\'t offer.' },
+      { question: 'Which expense tracking software includes invoicing on its entry plan?', answer: 'Wave offers expense tracking and invoicing on its free plan (US and Canada only). Invoicemonk has a Free plan (3 invoices/month, 1 user), with unlimited invoicing from $15/month on the Pro plan, but adds multi-currency support, tax compliance features, and built-in accounting that Wave restricts or doesn\'t offer.' },
       { question: 'What are the limitations of free expense tracking tools?', answer: 'Common limitations include client caps (e.g., FreshBooks limits billable clients), restricted receipt scanning, no multi-currency support, limited reporting, and no bank feed integration. Invoicemonk\'s Pro plan avoids most of these restrictions.' },
       { question: 'Is free invoicing software good enough for a real business?', answer: 'For freelancers and micro-businesses, absolutely. Pro plans handle core workflows: creating invoices, tracking expenses, and basic reporting. You\'ll typically need to upgrade when you need advanced features like recurring invoices, team access, or API integrations.' },
       { question: 'Can I track expenses and create invoices in one tool?', answer: 'Yes. Integrated platforms like Invoicemonk let you track expenses and create invoices in the same dashboard. This means your financial data is unified — expenses appear in your P&L, invoices track your revenue, and reports show the complete picture.' },
@@ -15583,7 +15696,7 @@ Thank you for your business!
       <h2>Top Free Expense Tracking + Invoicing Platforms</h2>
 
       <h3>1. Invoicemonk — Best Paid Platform from $15/month</h3>
-      <p><a href="/en/expenses">Invoicemonk</a> is paid-only — there is no free plan or trial. The Pro plan ($15/month) includes expense tracking, invoicing, receipt management, and basic accounting, with multi-currency support, tax-compliant categories, and an invoice verification portal that competitors typically gate behind higher tiers.</p>
+      <p><a href="/en/expenses">Invoicemonk</a> has a Free plan ($0/month, 3 invoices/month, 1 user). The Pro plan ($15/month) includes expense tracking, invoicing, receipt management, and basic accounting, with multi-currency support, tax-compliant categories, and an invoice verification portal that competitors typically gate behind higher tiers.</p>
       <p><strong>Pro plan includes:</strong> Unlimited invoices, expense tracking with categories, receipt scanning, basic financial reports, multi-currency support, tax compliance features.</p>
       <p><strong>Upgrade for:</strong> Recurring invoices, advanced reporting, team access, API integrations.</p>
 

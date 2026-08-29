@@ -358,8 +358,8 @@ export const eInvoicingClusterPostsBatch2: BlogPost[] = [
   // ============================================================
   {
     slug: 'what-is-peppol-access-point',
-    title: 'What is a Peppol Access Point? The Four-Corner Model and AS4 in Plain English',
-    excerpt: 'A Peppol Access Point is a certified service that sends and receives e-invoices on the Peppol network. Inside the four-corner model, SMP/SML lookup, AS4, and how to choose an AP.',
+    title: 'What Is a Peppol Access Point? Certified APs, Four-Corner Model, AS4',
+    excerpt: 'A Peppol access point is a certified service that sends and receives e-invoices on the Peppol network. What certification means, the four-corner model, SMP/SML lookup, AS4, and how to choose one.',
     content: `<p><strong>A Peppol Access Point (AP) is a certified service provider that sends and receives structured business documents on the Peppol network on behalf of a participant. APs sit at corners 2 and 3 of the four-corner model: they resolve the receiver's endpoint via the Peppol SML/SMP, transmit documents over AS4 with signed non-repudiation receipts, and validate against Peppol BIS Schematron. You almost never run your own AP — you use the one operated by your invoicing platform.</strong></p><div class="fact-box">
         <h3>At a glance</h3>
         <ul>
@@ -381,6 +381,8 @@ export const eInvoicingClusterPostsBatch2: BlogPost[] = [
           <li><a href="#choose">How to choose an Access Point</a></li>
           <li><a href="#self-host">Should I run my own AP?</a></li>
           <li><a href="#fails">What fails in production</a></li>
+          <li><a href="#certified">What "certified access point" means</a></li>
+          <li><a href="#countries">Access points by country</a></li>
           <li><a href="#sources">Sources</a></li>
         </ul>
       </nav>
@@ -425,7 +427,7 @@ export const eInvoicingClusterPostsBatch2: BlogPost[] = [
         <li>Lookup is SML → SMP; transport is AS4; the AP also validates and handles MLR.</li>
         <li>Use the AP bundled with your invoicing platform — running your own is rarely worth it.</li>
         <li>The most common failure modes are SMP misses and declared-document-type mismatches, both fixed by coordination with the buyer.</li>
-      </ul><h2>Related reading</h2><p class="block-answer" data-answer="true">Pillar: e-invoicing.  Mandate: Peppol EU.</p><p>Pillar: <a href="/__LANG__/e-invoicing">e-invoicing</a>. Mandate: <a href="/__LANG__/e-invoicing/peppol-eu">Peppol EU</a>. Siblings: <a href="/__LANG__/blog/peppol-eu-explained">Peppol EU explained</a>, <a href="/__LANG__/blog/how-to-comply-with-peppol-eu">how to comply with Peppol in the EU</a>, <a href="/__LANG__/blog/peppol-vs-national-portals">Peppol vs national portals</a>, <a href="/__LANG__/blog/ubl-2-1-explained">UBL 2.1 explained</a>.</p><h2 id="sources">Sources</h2><ul>
+      </ul><h2>Related reading</h2><p class="block-answer" data-answer="true">Pillar: e-invoicing.  Mandate: Peppol EU.</p><p>Pillar: <a href="/__LANG__/e-invoicing">e-invoicing</a>. Mandate: <a href="/__LANG__/e-invoicing/peppol-eu">Peppol EU</a>. Siblings: <a href="/__LANG__/blog/peppol-eu-explained">Peppol EU explained</a>, <a href="/__LANG__/blog/how-to-comply-with-peppol-eu">how to comply with Peppol in the EU</a>, <a href="/__LANG__/blog/peppol-vs-national-portals">Peppol vs national portals</a>, <a href="/__LANG__/blog/ubl-2-1-explained">UBL 2.1 explained</a>.</p><h2 id="certified">What "certified access point" means</h2><p class="block-answer" data-answer="true">A certified Peppol access point is a provider that has passed OpenPeppol conformance and security testing, signed the Peppol Transport Infrastructure Agreement with a national Peppol Authority, and holds a valid Peppol PKI certificate. Certification is renewed annually, so a provider listed as certified two years ago may not be certified today.</p><p>Check any provider against the <a href="https://peppol.org/members/" rel="noopener noreferrer">OpenPeppol member directory</a> before you sign, and confirm it is covered by the Peppol Authority for the country you invoice into.</p><h2 id="countries">Access points by country</h2><p class="block-answer" data-answer="true">Requirements differ by Peppol Authority.  Country guides: Belgium access points, Belgium mandate, Bulgaria, Nigeria (FIRS) — plus every deadline in the e-invoicing mandate tracker.</p><p>Requirements differ by Peppol Authority. Country guides: <a href="/__LANG__/blog/belgium-peppol-access-point-guide">Belgium access points</a>, <a href="/__LANG__/blog/belgium-e-invoicing-peppol-mandate-guide">Belgium mandate</a>, <a href="/__LANG__/blog/bulgaria-e-invoicing-xml-peppol-format">Bulgaria</a>, <a href="/__LANG__/blog/nigeria-peppol-firs">Nigeria (FIRS)</a> — plus every deadline in the <a href="/__LANG__/e-invoicing">e-invoicing mandate tracker</a>.</p><h2 id="sources">Sources</h2><ul>
         <li><a href="https://docs.peppol.eu/edelivery/as4/specification/" rel="noopener noreferrer">OpenPeppol — Peppol AS4 Profile v2.0.3</a></li>
         <li><a href="https://docs.peppol.eu/edelivery/" rel="noopener noreferrer">OpenPeppol eDEC Specifications</a></li>
         <li><a href="https://ec.europa.eu/digital-building-blocks/sites/download/attachments/467118037/%28eDelivery%29%28SML%2BSMP%29%28COD%29%281.20%29.pdf" rel="noopener noreferrer">European Commission — SML &amp; SMP Component Offering (v1.20)</a></li>
@@ -444,7 +446,7 @@ export const eInvoicingClusterPostsBatch2: BlogPost[] = [
     pillarContent: false,
     clusterType: 'supporting',
     targetProduct: '/e-invoicing',
-    semanticKeywords: ['Peppol Access Point', 'AS4', 'SMP', 'SML', 'four-corner model', 'OpenPeppol certification', 'Peppol Participant Identifier', 'Peppol Directory', 'Peppol AP lookup'],
+    semanticKeywords: ['Peppol access point', 'Peppol certified access point', 'certified Peppol access point', 'do I need a Peppol access point', 'AS4', 'SMP', 'SML', 'four-corner model', 'OpenPeppol certification', 'Peppol Participant Identifier', 'Peppol Directory', 'Peppol AP lookup'],
     priority: 'P2',
     lastAudited: '2026-06-23',
     faq: [

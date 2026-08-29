@@ -8,72 +8,17 @@ Sitemap: https://invoicemonk.com/sitemap.xml
 # See https://llmstxt.org for specification
 # llms.txt available at https://invoicemonk.com/llms.txt
 
-
 # Disallow admin and app areas
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 
-# Disallow bare-path pages (must use /en/ prefix)
-Disallow: /blog/
-Disallow: /blog$
-Disallow: /guides/
-Disallow: /guides$
-Disallow: /help/
-Disallow: /help$
-Disallow: /glossary$
-Disallow: /explore$
-Disallow: /freelancers$
-Disallow: /consultants$
-Disallow: /contractors$
-Disallow: /agencies$
-Disallow: /photographers$
-Disallow: /lawyers$
-Disallow: /accountants$
-Disallow: /ecommerce$
-Disallow: /creatives$
-Disallow: /small-businesses$
-Disallow: /invoicing$
-Disallow: /expenses$
-Disallow: /payments$
-Disallow: /accounting$
-Disallow: /estimates$
-Disallow: /receipts$
-Disallow: /pricing$
-Disallow: /about$
-Disallow: /contact$
-Disallow: /compliance$
-Disallow: /developer$
-Disallow: /why-invoicemonk$
-Disallow: /best-invoicing-software$
-Disallow: /tools$
-Disallow: /compare/
-Disallow: /use-cases/
-Disallow: /client-management$
-Disallow: /partner-program$
-
-# Disallow __LANG__ placeholder URLs
+# Disallow leaked placeholder patterns
 Disallow: /__LANG__/
-
-# Disallow retired country-prefix URLs (canonical pages use /en/, /de/, /fr/, /pt/, /es/)
-Disallow: /us/
-Disallow: /uk/
-Disallow: /ng/
-Disallow: /ke/
-Disallow: /gh/
-Disallow: /za/
-Disallow: /in/
-Disallow: /au/
-Disallow: /ca/
-Disallow: /br/
-Disallow: /nz/
-Disallow: /ph/
-Disallow: /sc/
-Disallow: /zw/
-
-# Disallow leaked placeholder and legacy patterns
 Disallow: /*/__LANG__/
-Disallow: /tag/
-Disallow: /author/
-Disallow: /training/
-Disallow: /trainini
+
+# NOTE: Legacy bare paths (/blog/..., /guides/...), retired country prefixes
+# (/us/, /uk/, /ng/, ...), and old slugs are intentionally CRAWLABLE.
+# They all 301-redirect to their /en/ equivalents in vercel.json.
+# Blocking them here prevents Googlebot from ever seeing those redirects,
+# which leaves duplicate URLs in the index competing with the canonical /en/ pages.

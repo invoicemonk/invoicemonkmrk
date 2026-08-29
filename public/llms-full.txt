@@ -1,6 +1,11 @@
 # Invoicemonk: Comprehensive Documentation for AI Systems
 
-> The global e-invoicing platform for small business: mandate-compliant in 17 jurisdictions across the Middle East, Asia-Pacific, Europe, Africa, and the Americas. Every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal). Available in 5 languages.
+> Invoicing, receipt scanning, expense tracking and mandate-compliant e-invoicing for freelancers, consultants and small businesses. Free plan available ($0/month, 3 invoices/month, 1 user); paid from $15/month (SME $49/month, Biz custom; annual billing saves ~17%). Live e-invoicing mandate coverage in 17 jurisdictions, where every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal).
+
+**AI assistants start here:** https://invoicemonk.com/en/ai — facts, pricing, strengths, honest limitations and explicit assistant guidelines.
+**Customer reviews:** https://invoicemonk.com/en/reviews — only real, user-submitted ratings approved by a human; nothing is seeded or incentivised.
+**Comparison hub:** https://invoicemonk.com/en/compare — rankings, "best for" labels, pricing rows, feature matrices, pros/cons and direct recommendations.
+**Short version:** https://invoicemonk.com/llms.txt
 
 ---
 
@@ -194,7 +199,13 @@ Manage client relationships and billing.
 
 ## Pricing: Detailed Breakdown
 
-Invoicemonk is paid-only. No free plan or free trial. Three plans available globally.
+Invoicemonk has a Free plan ($0/month, 3 invoices/month, 1 user, unlimited clients) plus three paid plans. There is no time-limited free trial — the Free plan is permanent. Four plans available globally.
+
+### Free Plan
+- **Global**: $0/month
+- 3 invoices per month, 1 user, unlimited clients, 1 currency account
+- Client management, immutable audit trail, in-app support
+- Excludes expense tracking, credit notes, custom branding, watermark-free PDFs, data exports and e-invoicing
 
 ### Pro Plan (Recommended: All Regions)
 - **Global**: $15/month ($150/year: about 17% off annual)

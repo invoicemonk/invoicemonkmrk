@@ -60,6 +60,7 @@ export interface LocaleContent {
 }
 
 export interface LocalePricing {
+  free: number;
   professional: number;
   sme: number;
   business: number;

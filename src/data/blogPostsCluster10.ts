@@ -45,58 +45,25 @@ export const cluster10Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Compliance Features', url: '/compliance', description: 'See how Invoicemonk handles Nigerian tax compliance' },
     ],
-    content: `
-<p><strong>Nigeria's FIRS e-invoicing mandate is live.</strong> Large taxpayers (turnover above ₦1 billion) have been required to issue electronic invoices via the TaxPro-Max platform since August 2025. Medium taxpayers join in January 2026 and small taxpayers by mid-2026, with non-compliance penalties starting at ₦50,000 and rising to ₦500,000.</p>
-
-<p>This guide explains the FIRS rules, the rollout timeline, the mandatory invoice fields (IRN, QR code, 7.5% VAT, TIN), the penalty structure, and a step-by-step path to get your business compliant. A 2025 Lagos Chamber of Commerce survey found 68% of small businesses were unaware of the mandate — closing that gap is now urgent as enforcement begins.</p>
-
-<h2>What Is FIRS E-Invoicing?</h2>
-
-<p>E-invoicing (electronic invoicing) is the automated creation, transmission, and storage of invoices in a structured digital format. Unlike simply emailing a PDF, e-invoicing means your invoice data flows directly into the FIRS tax administration system — the <strong>TaxPro-Max platform</strong> — for real-time validation and reporting.</p>
-
-<p>Nigeria's e-invoicing system requires every invoice to include:</p>
-<ul>
+    content: `<p><strong>Nigeria's FIRS e-invoicing mandate is live.</strong> Large taxpayers (turnover above ₦1 billion) have been required to issue electronic invoices via the TaxPro-Max platform since August 2025. Medium taxpayers join in January 2026 and small taxpayers by mid-2026, with non-compliance penalties starting at ₦50,000 and rising to ₦500,000.</p><p>This guide explains the FIRS rules, the rollout timeline, the mandatory invoice fields (IRN, QR code, 7.5% VAT, TIN), the penalty structure, and a step-by-step path to get your business compliant. A 2025 Lagos Chamber of Commerce survey found 68% of small businesses were unaware of the mandate — closing that gap is now urgent as enforcement begins.</p><h2>What Is FIRS E-Invoicing?</h2><p class="block-answer" data-answer="true">E-invoicing (electronic invoicing) is the automated creation, transmission, and storage of invoices in a structured digital format.</p><p>E-invoicing (electronic invoicing) is the automated creation, transmission, and storage of invoices in a structured digital format. Unlike simply emailing a PDF, e-invoicing means your invoice data flows directly into the FIRS tax administration system — the <strong>TaxPro-Max platform</strong> — for real-time validation and reporting.</p><p>Nigeria's e-invoicing system requires every invoice to include:</p><ul>
   <li><strong>Invoice Reference Number (IRN)</strong> — A unique identifier generated for each invoice</li>
   <li><strong>QR Code</strong> — Machine-readable verification code linked to the IRN</li>
   <li><strong>Tax Identification Number (TIN)</strong> — Both seller and buyer TINs</li>
   <li><strong>VAT breakdown</strong> — Clearly separated 7.5% VAT amount</li>
   <li><strong>Digital timestamp</strong> — Date and time of invoice generation</li>
-</ul>
-
-<h2>Who Must Comply? The Rollout Timeline</h2>
-
-<p>FIRS is phasing in e-invoicing by taxpayer size:</p>
-
-<table>
+</ul><h2>Who Must Comply? The Rollout Timeline</h2><p class="block-answer" data-answer="true">FIRS is phasing in e-invoicing by taxpayer size:</p><p>FIRS is phasing in e-invoicing by taxpayer size:</p><table>
   <thead><tr><th>Phase</th><th>Taxpayer Category</th><th>Compliance Deadline</th></tr></thead>
   <tbody>
     <tr><td>Phase 1</td><td>Large taxpayers (annual turnover above ₦1 billion)</td><td>August 2025 ✅</td></tr>
     <tr><td>Phase 2</td><td>Medium taxpayers (₦250 million – ₦1 billion)</td><td>January 2026</td></tr>
     <tr><td>Phase 3</td><td>Small taxpayers (below ₦250 million)</td><td>Mid-2026 (projected)</td></tr>
   </tbody>
-</table>
-
-<p><strong>Even if you're in Phase 3, don't wait.</strong> Businesses that adopt e-invoicing early benefit from cleaner records, faster VAT refunds, and a smoother transition when enforcement reaches your tier.</p>
-
-<h2>How Does the FIRS Merchant Buyer Solution (FIRSMBS) Work?</h2>
-
-<p>A key component of Nigeria's e-invoicing ecosystem is the <strong>FIRS Merchant Buyer Solution (FIRSMBS)</strong>. This system facilitates the exchange of invoice data between sellers and buyers, ensuring both parties have matching records for VAT purposes.</p>
-
-<p>Under FIRSMBS:</p>
-<ul>
+</table><p><strong>Even if you're in Phase 3, don't wait.</strong> Businesses that adopt e-invoicing early benefit from cleaner records, faster VAT refunds, and a smoother transition when enforcement reaches your tier.</p><h2>How Does the FIRS Merchant Buyer Solution (FIRSMBS) Work?</h2><p class="block-answer" data-answer="true">A key component of Nigeria's e-invoicing ecosystem is the FIRS Merchant Buyer Solution (FIRSMBS).  This system facilitates the exchange of invoice data between sellers and buyers, ensuring both parties have matching records for VAT purposes.</p><p>A key component of Nigeria's e-invoicing ecosystem is the <strong>FIRS Merchant Buyer Solution (FIRSMBS)</strong>. This system facilitates the exchange of invoice data between sellers and buyers, ensuring both parties have matching records for VAT purposes.</p><p>Under FIRSMBS:</p><ul>
   <li>Sellers generate e-invoices with IRN and QR codes</li>
   <li>Buyers validate received invoices against their purchase records</li>
   <li>FIRS cross-references both sides to detect discrepancies and fraud</li>
   <li>VAT input claims are only valid when backed by a verified e-invoice</li>
-</ul>
-
-<p>For a detailed breakdown, see our guide on <a href="/__LANG__/blog/nigeria-firs-merchant-buyer-solution">how FIRSMBS works</a>.</p>
-
-<h2>What Must a FIRS-Compliant Invoice Include?</h2>
-
-<p>Under the e-invoicing mandate, every invoice must contain these <strong>mandatory fields</strong>:</p>
-
-<ol>
+</ul><p>For a detailed breakdown, see our guide on <a href="/__LANG__/blog/nigeria-firs-merchant-buyer-solution">how FIRSMBS works</a>.</p><h2>What Must a FIRS-Compliant Invoice Include?</h2><p class="block-answer" data-answer="true">Under the e-invoicing mandate, every invoice must contain these mandatory fields:</p><p>Under the e-invoicing mandate, every invoice must contain these <strong>mandatory fields</strong>:</p><ol>
   <li><strong>Seller details:</strong> Business name, address, TIN, and VAT registration number</li>
   <li><strong>Buyer details:</strong> Name, address, and TIN (for B2B transactions)</li>
   <li><strong>Invoice number:</strong> Unique sequential identifier</li>
@@ -107,46 +74,13 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>Total amount:</strong> Including and excluding VAT</li>
   <li><strong>QR code:</strong> Linked to the IRN for verification</li>
   <li><strong>Currency:</strong> NGN or foreign currency with exchange rate</li>
-</ol>
-
-<p>For the complete checklist, see our <a href="/__LANG__/blog/nigeria-vat-invoice-requirements">VAT invoice requirements guide</a>.</p>
-
-<h2>What Are the Penalties for Non-Compliance?</h2>
-
-<p>FIRS has signaled that enforcement will be strict. Penalties include:</p>
-
-<ul>
+</ol><p>For the complete checklist, see our <a href="/__LANG__/blog/nigeria-vat-invoice-requirements">VAT invoice requirements guide</a>.</p><h2>What Are the Penalties for Non-Compliance?</h2><p class="block-answer" data-answer="true">FIRS has signaled that enforcement will be strict.</p><p>FIRS has signaled that enforcement will be strict. Penalties include:</p><ul>
   <li><strong>₦50,000</strong> fine for first instance of non-compliant invoicing</li>
   <li><strong>₦500,000</strong> for repeated violations or systematic non-compliance</li>
   <li><strong>Denial of VAT input credit</strong> for buyers who accept non-compliant invoices</li>
   <li><strong>Suspension of tax clearance certificate</strong> — blocking government contracts, import permits, and banking facilities</li>
   <li><strong>Additional interest charges</strong> at the Central Bank of Nigeria minimum rediscount rate on any resulting tax underpayment</li>
-</ul>
-
-<p>Read our full guide on <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">e-invoicing penalties in Nigeria</a>.</p>
-
-<h2>How Do I Become FIRS E-Invoicing Compliant? (Step-by-Step)</h2>
-
-<h3>Step 1: Verify your TIN</h3>
-<p>Ensure your Tax Identification Number is active and correctly linked to your business on the <a href="https://taxpromax.firs.gov.ng" rel="noopener noreferrer" target="_blank">TaxPro-Max platform</a>. If you don't have a TIN, apply immediately — it's free.</p>
-
-<h3>Step 2: Register on TaxPro-Max</h3>
-<p>Create or update your TaxPro-Max account. This is the portal through which all e-invoicing data will flow to FIRS.</p>
-
-<h3>Step 3: Choose e-invoicing software</h3>
-<p>Select invoicing software that generates FIRS-compliant invoices with IRN, QR codes, and proper VAT calculations. <a href="/__LANG__/blog/best-invoicing-software-nigeria">See our comparison of the best invoicing software for Nigerian businesses</a>.</p>
-
-<h3>Step 4: Configure your invoice template</h3>
-<p>Set up your business details, VAT rate (7.5%), and ensure all mandatory fields are included. With <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>, this takes less than 5 minutes.</p>
-
-<h3>Step 5: Test and go live</h3>
-<p>Generate test invoices, verify all fields are correct, and begin issuing e-invoices to your clients. Keep records of all invoices for at least 6 years as required by FIRS.</p>
-
-<h2>Which Software Supports FIRS E-Invoicing?</h2>
-
-<p>Invoicemonk is built from the ground up for Nigerian tax compliance:</p>
-
-<ul>
+</ul><p>Read our full guide on <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">e-invoicing penalties in Nigeria</a>.</p><h2>How Do I Become FIRS E-Invoicing Compliant? (Step-by-Step)</h2><h3>Step 1: Verify your TIN</h3><p>Ensure your Tax Identification Number is active and correctly linked to your business on the <a href="https://taxpromax.firs.gov.ng" rel="noopener noreferrer" target="_blank">TaxPro-Max platform</a>. If you don't have a TIN, apply immediately — it's free.</p><h3>Step 2: Register on TaxPro-Max</h3><p>Create or update your TaxPro-Max account. This is the portal through which all e-invoicing data will flow to FIRS.</p><h3>Step 3: Choose e-invoicing software</h3><p>Select invoicing software that generates FIRS-compliant invoices with IRN, QR codes, and proper VAT calculations. <a href="/__LANG__/blog/best-invoicing-software-nigeria">See our comparison of the best invoicing software for Nigerian businesses</a>.</p><h3>Step 4: Configure your invoice template</h3><p>Set up your business details, VAT rate (7.5%), and ensure all mandatory fields are included. With <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>, this takes less than 5 minutes.</p><h3>Step 5: Test and go live</h3><p>Generate test invoices, verify all fields are correct, and begin issuing e-invoices to your clients. Keep records of all invoices for at least 6 years as required by FIRS.</p><h2>Which Software Supports FIRS E-Invoicing?</h2><p class="block-answer" data-answer="true">Invoicemonk is built from the ground up for Nigerian tax compliance:</p><p>Invoicemonk is built from the ground up for Nigerian tax compliance:</p><ul>
   <li><strong>Automatic 7.5% VAT calculation</strong> on every invoice</li>
   <li><strong>TIN fields</strong> for both seller and buyer, prominently displayed</li>
   <li><strong>Invoice Reference Numbers</strong> generated automatically</li>
@@ -155,27 +89,12 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>Paystack integration</strong> for instant online payments</li>
   <li><strong>Audit-ready records</strong> stored securely for 7+ years</li>
   <li><strong>Pro plan</strong> with Pro plan from $15/month</li>
-</ul>
-
-<p><a href="/__LANG__/pricing">Start with Invoicemonk free →</a></p>
-
-<h2>How Does Nigeria's E-Invoicing Compare Globally?</h2>
-
-<p>Nigeria joins a global wave of e-invoicing mandates. India (GST e-invoicing since 2020), Saudi Arabia (ZATCA Fatoorah since 2021), and the EU (ViDA directive) have all moved to mandatory digital invoicing. For Nigerian businesses with international clients, compliance with FIRS e-invoicing positions you well for cross-border trade.</p>
-
-<p>See our <a href="/__LANG__/blog/e-invoicing-mandates-by-country">global e-invoicing mandates tracker</a> for the full picture.</p>
-
-<h2>Next Steps</h2>
-
-<p>Don't wait for the enforcement deadline. Start your e-invoicing journey today:</p>
-
-<ol>
+</ul><p><a href="/__LANG__/pricing">Start with Invoicemonk free →</a></p><h2>How Does Nigeria's E-Invoicing Compare Globally?</h2><p class="block-answer" data-answer="true">Nigeria joins a global wave of e-invoicing mandates.  India (GST e-invoicing since 2020), Saudi Arabia (ZATCA Fatoorah since 2021), and the EU (ViDA directive) have all moved to mandatory digital invoicing.</p><p>Nigeria joins a global wave of e-invoicing mandates. India (GST e-invoicing since 2020), Saudi Arabia (ZATCA Fatoorah since 2021), and the EU (ViDA directive) have all moved to mandatory digital invoicing. For Nigerian businesses with international clients, compliance with FIRS e-invoicing positions you well for cross-border trade.</p><p>See our <a href="/__LANG__/blog/e-invoicing-mandates-by-country">global e-invoicing mandates tracker</a> for the full picture.</p><h2>Next Steps</h2><p>Don't wait for the enforcement deadline. Start your e-invoicing journey today:</p><ol>
   <li><a href="/__LANG__/blog/nigeria-firs-merchant-buyer-solution">Understand how FIRSMBS works →</a></li>
   <li><a href="/__LANG__/blog/nigeria-e-invoicing-small-business">Check if the mandate applies to your business →</a></li>
   <li><a href="/__LANG__/blog/best-invoicing-software-nigeria">Compare the best invoicing software for Nigeria →</a></li>
   <li><a href="/__LANG__/blog/nigeria-create-vat-invoice">Create your first FIRS-compliant invoice →</a></li>
-</ol>
-    `
+</ol>`
   },
 
   // P1-NG-02 — FIRSMBS Explainer
@@ -209,64 +128,33 @@ export const cluster10Posts: BlogPost[] = [
     relatedTools: [
       { label: 'Compliance Features', url: '/compliance', description: 'See how Invoicemonk handles FIRS compliance' },
     ],
-    content: `
-<p>The <strong>FIRS Merchant Buyer Solution (FIRSMBS)</strong> is the backbone of Nigeria's e-invoicing infrastructure. It's the system that connects sellers and buyers through electronic invoice data, allowing the Federal Inland Revenue Service to verify transactions in real time and close the VAT gap.</p>
-
-<p>If you're a Nigerian business owner, understanding FIRSMBS isn't optional — it's the mechanism through which your invoices are validated, your VAT input credits are confirmed, and your compliance status is determined.</p>
-
-<h2>How FIRSMBS Works</h2>
-
-<p>Think of FIRSMBS as a three-way handshake between the seller, the buyer, and FIRS:</p>
-
-<ol>
+    content: `<p>The <strong>FIRS Merchant Buyer Solution (FIRSMBS)</strong> is the backbone of Nigeria's e-invoicing infrastructure. It's the system that connects sellers and buyers through electronic invoice data, allowing the Federal Inland Revenue Service to verify transactions in real time and close the VAT gap.</p><p>If you're a Nigerian business owner, understanding FIRSMBS isn't optional — it's the mechanism through which your invoices are validated, your VAT input credits are confirmed, and your compliance status is determined.</p><h2>How FIRSMBS Works</h2><p class="block-answer" data-answer="true">Think of FIRSMBS as a three-way handshake between the seller, the buyer, and FIRS:</p><p>Think of FIRSMBS as a three-way handshake between the seller, the buyer, and FIRS:</p><ol>
   <li><strong>Seller generates an e-invoice</strong> with an Invoice Reference Number (IRN) and QR code using compliant software</li>
   <li><strong>Invoice data is transmitted to FIRS</strong> through the TaxPro-Max platform</li>
   <li><strong>Buyer receives the invoice</strong> and their system validates it against their purchase records</li>
   <li><strong>FIRS cross-references both records</strong> — matching the seller's output VAT with the buyer's input VAT claim</li>
-</ol>
-
-<p>This matching system means:</p>
-<ul>
+</ol><p>This matching system means:</p><ul>
   <li><strong>No more phantom invoices</strong> — you can't claim VAT input credit on invoices that the seller didn't report</li>
   <li><strong>Automatic discrepancy detection</strong> — mismatches between seller and buyer data trigger FIRS alerts</li>
   <li><strong>Faster VAT refunds</strong> — verified invoices speed up the refund process</li>
   <li><strong>Reduced audit burden</strong> — compliant businesses face fewer manual FIRS audits</li>
-</ul>
-
-<h2>What Your Business Needs to Do</h2>
-
-<h3>As a seller (issuing invoices)</h3>
-<ul>
+</ul><h2>What Your Business Needs to Do</h2><h3>As a seller (issuing invoices)</h3><ul>
   <li>Use invoicing software that generates IRN and QR codes</li>
   <li>Include both your TIN and the buyer's TIN on every B2B invoice</li>
   <li>Ensure your VAT calculations at 7.5% are accurate</li>
   <li>Transmit invoice data to TaxPro-Max within the required timeframe</li>
-</ul>
-
-<h3>As a buyer (receiving invoices)</h3>
-<ul>
+</ul><h3>As a buyer (receiving invoices)</h3><ul>
   <li>Verify that received invoices contain valid IRN and QR codes</li>
   <li>Cross-check the seller's TIN on the FIRS verification portal</li>
   <li>Only claim VAT input credit on invoices that pass FIRSMBS validation</li>
   <li>Reject and request corrections for non-compliant invoices</li>
-</ul>
-
-<h2>FIRSMBS and Your Invoicing Software</h2>
-
-<p>The right invoicing software handles most FIRSMBS requirements automatically. <a href="/__LANG__/compliance">Invoicemonk</a> generates all mandatory fields — IRN, QR code, TIN fields, and VAT breakdown — so you don't need to manually construct compliant invoices.</p>
-
-<p>For the full picture of Nigeria's e-invoicing requirements, see our <a href="/__LANG__/blog/firs-mbs-nigeria-explained">complete FIRS e-invoicing guide</a>.</p>
-
-<h2>Key Takeaways</h2>
-
-<ul>
+</ul><h2>FIRSMBS and Your Invoicing Software</h2><p class="block-answer" data-answer="true">The right invoicing software handles most FIRSMBS requirements automatically.  Invoicemonk generates all mandatory fields — IRN, QR code, TIN fields, and VAT breakdown — so you don't need to manually construct compliant invoices.</p><p>The right invoicing software handles most FIRSMBS requirements automatically. <a href="/__LANG__/compliance">Invoicemonk</a> generates all mandatory fields — IRN, QR code, TIN fields, and VAT breakdown — so you don't need to manually construct compliant invoices.</p><p>For the full picture of Nigeria's e-invoicing requirements, see our <a href="/__LANG__/blog/firs-mbs-nigeria-explained">complete FIRS e-invoicing guide</a>.</p><h2>Key Takeaways</h2><p class="block-answer" data-answer="true">Key Takeaways includes: FIRSMBS matches seller and buyer invoice data to verify VAT compliance Non-matching invoices can result in denied VAT input credits for buyers</p><ul>
   <li>FIRSMBS matches seller and buyer invoice data to verify VAT compliance</li>
   <li>Non-matching invoices can result in denied VAT input credits for buyers</li>
   <li>Both sellers and buyers have responsibilities under the system</li>
   <li>Compliant invoicing software like Invoicemonk automates the technical requirements</li>
   <li>Early adoption means smoother compliance when enforcement reaches your business tier</li>
-</ul>
-    `
+</ul>`
   },
 
   // P1-NG-03 — Small Business FAQ
@@ -299,40 +187,20 @@ export const cluster10Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Best Invoicing Software Nigeria', url: '/compare/best-invoicing-software-nigeria', description: 'Compare top invoicing tools for Nigerian businesses' },
     ],
-    content: `
-<p><strong>Short answer: yes, but not yet.</strong> The FIRS e-invoicing mandate will eventually cover all Nigerian businesses, but it's being rolled out in phases based on annual turnover. Here's exactly where small businesses stand.</p>
-
-<h2>The Phase Rollout for Nigerian Businesses</h2>
-
-<p>FIRS is implementing e-invoicing in three phases:</p>
-
-<table>
+    content: `<p><strong>Short answer: yes, but not yet.</strong> The FIRS e-invoicing mandate will eventually cover all Nigerian businesses, but it's being rolled out in phases based on annual turnover. Here's exactly where small businesses stand.</p><h2>The Phase Rollout for Nigerian Businesses</h2><p class="block-answer" data-answer="true">FIRS is implementing e-invoicing in three phases:</p><p>FIRS is implementing e-invoicing in three phases:</p><table>
   <thead><tr><th>Phase</th><th>Turnover Threshold</th><th>Deadline</th><th>Status</th></tr></thead>
   <tbody>
     <tr><td>Phase 1</td><td>Above ₦1 billion</td><td>August 2025</td><td>✅ Live</td></tr>
     <tr><td>Phase 2</td><td>₦250 million – ₦1 billion</td><td>January 2026</td><td>🔄 In progress</td></tr>
     <tr><td>Phase 3</td><td>Below ₦250 million</td><td>Mid-2026 (projected)</td><td>⏳ Upcoming</td></tr>
   </tbody>
-</table>
-
-<h2>Why Small Businesses Should Start Now</h2>
-
-<p>Even though Phase 3 hasn't started, there are compelling reasons to adopt e-invoicing immediately:</p>
-
-<ul>
+</table><h2>Why Small Businesses Should Start Now</h2><p class="block-answer" data-answer="true">Even though Phase 3 hasn't started, there are compelling reasons to adopt e-invoicing immediately:</p><p>Even though Phase 3 hasn't started, there are compelling reasons to adopt e-invoicing immediately:</p><ul>
   <li><strong>Smooth transition:</strong> Avoid the last-minute rush when your deadline arrives</li>
   <li><strong>VAT benefits:</strong> Properly documented invoices make VAT filing and refund claims faster</li>
   <li><strong>Professional image:</strong> E-invoices with QR codes and IRN look more professional to clients</li>
   <li><strong>B2B requirements:</strong> Large company clients already in Phase 1/2 may require e-invoices from their suppliers</li>
   <li><strong>Free tools available:</strong> Invoicemonk's Pro plan ($15/month) lets you issue unlimited compliant invoices</li>
-</ul>
-
-<h2>What If I'm a Freelancer or Sole Trader?</h2>
-
-<p>Freelancers and sole traders are included in the e-invoicing mandate if they're registered for VAT (or should be registered — the VAT threshold in Nigeria is ₦25 million annual turnover). Even below the threshold, maintaining proper invoicing records is required for income tax compliance.</p>
-
-<p>For detailed guidance on penalties, see our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>. To start creating compliant invoices, try our <a href="/__LANG__/invoicing">free invoice generator</a>.</p>
-    `
+</ul><h2>What If I'm a Freelancer or Sole Trader?</h2><p class="block-answer" data-answer="true">Freelancers and sole traders are included in the e-invoicing mandate if they're registered for VAT (or should be registered — the VAT threshold in Nigeria is ₦25 million annual turnover).  Even below the threshold, maintaining proper invoicing records is required for income tax compliance.</p><p>Freelancers and sole traders are included in the e-invoicing mandate if they're registered for VAT (or should be registered — the VAT threshold in Nigeria is ₦25 million annual turnover). Even below the threshold, maintaining proper invoicing records is required for income tax compliance.</p><p>For detailed guidance on penalties, see our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>. To start creating compliant invoices, try our <a href="/__LANG__/invoicing">free invoice generator</a>.</p>`
   },
 
   // P1-NG-04 — IRN & QR Code
@@ -362,49 +230,23 @@ export const cluster10Posts: BlogPost[] = [
     entityMentions: [
       { name: 'Federal Inland Revenue Service', type: 'GovernmentOrganization', url: 'https://firs.gov.ng' },
     ],
-    content: `
-<p>Two new elements are central to Nigeria's e-invoicing system: the <strong>Invoice Reference Number (IRN)</strong> and the <strong>QR code</strong>. Together, they make every invoice uniquely identifiable and instantly verifiable — both by FIRS and by your clients.</p>
-
-<h2>What Is an Invoice Reference Number (IRN)?</h2>
-
-<p>The IRN is a unique alphanumeric code assigned to each e-invoice. Think of it as a digital serial number that:</p>
-
-<ul>
+    content: `<p>Two new elements are central to Nigeria's e-invoicing system: the <strong>Invoice Reference Number (IRN)</strong> and the <strong>QR code</strong>. Together, they make every invoice uniquely identifiable and instantly verifiable — both by FIRS and by your clients.</p><h2>What Is an Invoice Reference Number (IRN)?</h2><p class="block-answer" data-answer="true">The IRN is a unique alphanumeric code assigned to each e-invoice.</p><p>The IRN is a unique alphanumeric code assigned to each e-invoice. Think of it as a digital serial number that:</p><ul>
   <li>Links your invoice to the FIRS central database</li>
   <li>Prevents duplicate invoices from being submitted</li>
   <li>Enables instant verification by buyers and tax authorities</li>
   <li>Creates an immutable audit trail for each transaction</li>
-</ul>
-
-<h2>What Is the QR Code on Nigerian E-Invoices?</h2>
-
-<p>The QR code is a machine-readable encoding of key invoice data. When scanned, it reveals:</p>
-
-<ul>
+</ul><h2>What Is the QR Code on Nigerian E-Invoices?</h2><p class="block-answer" data-answer="true">The QR code is a machine-readable encoding of key invoice data.</p><p>The QR code is a machine-readable encoding of key invoice data. When scanned, it reveals:</p><ul>
   <li>Seller's name and TIN</li>
   <li>Invoice date and time</li>
   <li>Total invoice amount</li>
   <li>VAT amount</li>
   <li>IRN for verification</li>
-</ul>
-
-<p>This allows buyers, auditors, and FIRS officials to verify an invoice's authenticity instantly using a smartphone — without logging into the TaxPro-Max portal.</p>
-
-<h2>How to Get IRN and QR Codes on Your Invoices</h2>
-
-<p>You don't need to generate these manually. Compliant invoicing software handles it automatically:</p>
-
-<ol>
+</ul><p>This allows buyers, auditors, and FIRS officials to verify an invoice's authenticity instantly using a smartphone — without logging into the TaxPro-Max portal.</p><h2>How to Get IRN and QR Codes on Your Invoices</h2><p class="block-answer" data-answer="true">You don't need to generate these manually.</p><p>You don't need to generate these manually. Compliant invoicing software handles it automatically:</p><ol>
   <li>You create your invoice with business details, line items, and VAT</li>
   <li>The software generates a unique IRN</li>
   <li>A QR code is created encoding the IRN and key invoice data</li>
   <li>Both appear on the final invoice PDF</li>
-</ol>
-
-<p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> includes both IRN and QR code generation on all invoices, ensuring your documents are fully FIRS-compliant.</p>
-
-<p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. To add your TIN correctly, read <a href="/__LANG__/blog/nigeria-invoice-tin-number">how to add TIN to Nigerian invoices</a>.</p>
-    `
+</ol><p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> includes both IRN and QR code generation on all invoices, ensuring your documents are fully FIRS-compliant.</p><p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. To add your TIN correctly, read <a href="/__LANG__/blog/nigeria-invoice-tin-number">how to add TIN to Nigerian invoices</a>.</p>`
   },
 
   // P1-NG-05 — Penalties
@@ -431,12 +273,7 @@ export const cluster10Posts: BlogPost[] = [
       { question: 'What is the fine for not using e-invoicing in Nigeria?', answer: 'First-time non-compliance can result in a ₦50,000 fine. Repeated violations can escalate to ₦500,000. Additional consequences include denial of VAT input credits and suspension of tax clearance certificates.' },
       { question: 'Can my tax clearance certificate be suspended?', answer: 'Yes. Persistent non-compliance with the e-invoicing mandate can result in FIRS suspending your tax clearance certificate (TCC), which is required for government contracts, import/export activities, and certain banking services.' },
     ],
-    content: `
-<p>FIRS has made it clear: e-invoicing compliance is not optional, and the penalties for non-compliance are designed to be painful enough to drive adoption. Here's what Nigerian businesses risk by ignoring the mandate.</p>
-
-<h2>Financial Penalties</h2>
-
-<table>
+    content: `<p>FIRS has made it clear: e-invoicing compliance is not optional, and the penalties for non-compliance are designed to be painful enough to drive adoption. Here's what Nigerian businesses risk by ignoring the mandate.</p><h2>Financial Penalties</h2><table>
   <thead><tr><th>Violation</th><th>Penalty</th></tr></thead>
   <tbody>
     <tr><td>First instance of non-compliant invoicing</td><td>₦50,000</td></tr>
@@ -445,26 +282,13 @@ export const cluster10Posts: BlogPost[] = [
     <tr><td>Late VAT filing</td><td>₦5,000/month of delay</td></tr>
     <tr><td>Late VAT payment</td><td>Interest at CBN minimum rediscount rate</td></tr>
   </tbody>
-</table>
-
-<h2>Operational Consequences</h2>
-
-<p>Beyond fines, non-compliance triggers serious operational disruptions:</p>
-
-<ul>
+</table><h2>Operational Consequences</h2><p class="block-answer" data-answer="true">Beyond fines, non-compliance triggers serious operational disruptions:</p><p>Beyond fines, non-compliance triggers serious operational disruptions:</p><ul>
   <li><strong>Denied VAT input credit:</strong> Buyers cannot claim input VAT on invoices that aren't FIRSMBS-verified</li>
   <li><strong>Tax clearance certificate suspension:</strong> Your TCC may be suspended, blocking government contracts and import permits</li>
   <li><strong>Increased audit risk:</strong> Non-compliant businesses are flagged for priority FIRS audits</li>
   <li><strong>Banking restrictions:</strong> Some banks require valid TCC for loan applications and account services</li>
   <li><strong>Supply chain exclusion:</strong> Large companies in Phase 1 may stop working with suppliers who can't provide e-invoices</li>
-</ul>
-
-<h2>How to Avoid These Penalties</h2>
-
-<p>The solution is straightforward: use compliant invoicing software that generates all required fields automatically. <a href="/__LANG__/blog/best-invoicing-software-nigeria">Compare the best invoicing software for Nigeria</a> or <a href="/__LANG__/invoicing">start creating compliant invoices free with Invoicemonk</a>.</p>
-
-<p>For the complete compliance guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>.</p>
-    `
+</ul><h2>How to Avoid These Penalties</h2><p class="block-answer" data-answer="true">The solution is straightforward: use compliant invoicing software that generates all required fields automatically.  Compare the best invoicing software for Nigeria or start creating compliant invoices free with Invoicemonk.</p><p>The solution is straightforward: use compliant invoicing software that generates all required fields automatically. <a href="/__LANG__/blog/best-invoicing-software-nigeria">Compare the best invoicing software for Nigeria</a> or <a href="/__LANG__/invoicing">start creating compliant invoices free with Invoicemonk</a>.</p><p>For the complete compliance guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>.</p>`
   },
 
   // P1-NG-06 — Timeline (W2)
@@ -490,45 +314,27 @@ export const cluster10Posts: BlogPost[] = [
     faq: [
       { question: 'When is e-invoicing mandatory for all Nigerian businesses?', answer: 'E-invoicing became mandatory for large taxpayers (above ₦1 billion turnover) in August 2025, medium taxpayers (₦250M–₦1B) in January 2026, and small taxpayers (below ₦250M) are projected for mid-2026.' },
     ],
-    content: `
-<p>Nigeria's transition to mandatory e-invoicing isn't happening overnight. FIRS is rolling out the requirement in phases to give businesses time to prepare. Here's the detailed timeline.</p>
-
-<h2>The Three-Phase Rollout</h2>
-
-<table>
+    content: `<p>Nigeria's transition to mandatory e-invoicing isn't happening overnight. FIRS is rolling out the requirement in phases to give businesses time to prepare. Here's the detailed timeline.</p><h2>The Three-Phase Rollout</h2><table>
   <thead><tr><th>Phase</th><th>Taxpayer Category</th><th>Annual Turnover</th><th>Deadline</th><th>Status</th></tr></thead>
   <tbody>
     <tr><td>Phase 1</td><td>Large taxpayers</td><td>Above ₦1 billion</td><td>August 2025</td><td>✅ Enforcement active</td></tr>
     <tr><td>Phase 2</td><td>Medium taxpayers</td><td>₦250 million – ₦1 billion</td><td>January 2026</td><td>🔄 In progress</td></tr>
     <tr><td>Phase 3</td><td>Small taxpayers</td><td>Below ₦250 million</td><td>Mid-2026 (projected)</td><td>⏳ Announced</td></tr>
   </tbody>
-</table>
-
-<h2>Key Milestones</h2>
-
-<ul>
+</table><h2>Key Milestones</h2><p class="block-answer" data-answer="true">Key Milestones includes: 2024: FIRS announced the e-invoicing framework and began stakeholder consultations Q1 2025: TaxPro-Max platform updated to support e-invoice submission</p><ul>
   <li><strong>2024:</strong> FIRS announced the e-invoicing framework and began stakeholder consultations</li>
   <li><strong>Q1 2025:</strong> TaxPro-Max platform updated to support e-invoice submission</li>
   <li><strong>August 2025:</strong> Phase 1 enforcement begins for large taxpayers</li>
   <li><strong>January 2026:</strong> Phase 2 extends to medium taxpayers</li>
   <li><strong>Mid-2026:</strong> Phase 3 brings small businesses into mandatory compliance</li>
   <li><strong>2027+:</strong> Full enforcement across all taxpayer categories with enhanced audit capabilities</li>
-</ul>
-
-<h2>How to Prepare Before Your Deadline</h2>
-
-<p>Regardless of your phase, preparation takes the same steps:</p>
-
-<ol>
+</ul><h2>How to Prepare Before Your Deadline</h2><p class="block-answer" data-answer="true">Regardless of your phase, preparation takes the same steps:</p><p>Regardless of your phase, preparation takes the same steps:</p><ol>
   <li>Verify your TIN is active on TaxPro-Max</li>
   <li>Choose compliant invoicing software (<a href="/__LANG__/blog/best-invoicing-software-nigeria">see our comparison</a>)</li>
   <li>Configure your invoice templates with all mandatory fields</li>
   <li>Train your team on the new invoicing workflow</li>
   <li>Run a pilot with a few invoices before full transition</li>
-</ol>
-
-<p>For the complete guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>.</p>
-    `
+</ol><p>For the complete guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>.</p>`
   },
 
   // P1-NG-07 — PEPPOL (W2)
@@ -554,30 +360,12 @@ export const cluster10Posts: BlogPost[] = [
     faq: [
       { question: 'What is PEPPOL and why does it matter for Nigerian businesses?', answer: 'PEPPOL (Pan-European Public Procurement Online) is an international e-invoicing network used in 40+ countries. Nigeria\'s participation means Nigerian businesses can exchange e-invoices seamlessly with international trading partners, reducing cross-border invoicing friction.' },
     ],
-    content: `
-<p>Nigeria is taking a significant step toward international trade integration by joining the <strong>PEPPOL (Pan-European Public Procurement Online)</strong> network. While the name sounds European, PEPPOL has expanded globally — and Nigeria's participation positions its businesses for seamless cross-border e-invoicing.</p>
-
-<h2>What Is PEPPOL?</h2>
-
-<p>PEPPOL is a standardized network for exchanging electronic business documents — primarily e-invoices — between businesses and governments across borders. Think of it as a universal language for e-invoices that works regardless of the software used by sender or receiver.</p>
-
-<p>Over 40 countries participate in the PEPPOL network, including the UK (for NHS invoicing), Australia, New Zealand, Singapore, and most EU member states.</p>
-
-<h2>What This Means for Nigerian Businesses</h2>
-
-<ul>
+    content: `<p>Nigeria is taking a significant step toward international trade integration by joining the <strong>PEPPOL (Pan-European Public Procurement Online)</strong> network. While the name sounds European, PEPPOL has expanded globally — and Nigeria's participation positions its businesses for seamless cross-border e-invoicing.</p><h2>What Is PEPPOL?</h2><p class="block-answer" data-answer="true">PEPPOL is a standardized network for exchanging electronic business documents — primarily e-invoices — between businesses and governments across borders.  Think of it as a universal language for e-invoices that works regardless of the software used by sender or receiver.</p><p>PEPPOL is a standardized network for exchanging electronic business documents — primarily e-invoices — between businesses and governments across borders. Think of it as a universal language for e-invoices that works regardless of the software used by sender or receiver.</p><p>Over 40 countries participate in the PEPPOL network, including the UK (for NHS invoicing), Australia, New Zealand, Singapore, and most EU member states.</p><h2>What This Means for Nigerian Businesses</h2><p class="block-answer" data-answer="true">Simplified international invoicing: Send compliant e-invoices to partners in PEPPOL-connected countries without format conversion Faster cross-border payments: Standardized formats reduce processing delays in buyer organizations</p><ul>
   <li><strong>Simplified international invoicing:</strong> Send compliant e-invoices to partners in PEPPOL-connected countries without format conversion</li>
   <li><strong>Faster cross-border payments:</strong> Standardized formats reduce processing delays in buyer organizations</li>
   <li><strong>Government procurement access:</strong> Many PEPPOL countries require e-invoices for public sector contracts</li>
   <li><strong>Enhanced credibility:</strong> PEPPOL compliance signals professionalism to international clients</li>
-</ul>
-
-<h2>Timeline and Implementation</h2>
-
-<p>Nigeria's PEPPOL integration is being rolled out alongside the broader FIRS e-invoicing mandate. While domestic e-invoicing via TaxPro-Max is the immediate priority, PEPPOL connectivity will follow for businesses engaged in international trade.</p>
-
-<p>For the full domestic e-invoicing guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. For the global picture, check our <a href="/__LANG__/blog/e-invoicing-mandates-by-country">e-invoicing mandates by country tracker</a>.</p>
-    `
+</ul><h2>Timeline and Implementation</h2><p class="block-answer" data-answer="true">Nigeria's PEPPOL integration is being rolled out alongside the broader FIRS e-invoicing mandate.  While domestic e-invoicing via TaxPro-Max is the immediate priority, PEPPOL connectivity will follow for businesses engaged in international trade.</p><p>Nigeria's PEPPOL integration is being rolled out alongside the broader FIRS e-invoicing mandate. While domestic e-invoicing via TaxPro-Max is the immediate priority, PEPPOL connectivity will follow for businesses engaged in international trade.</p><p>For the full domestic e-invoicing guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. For the global picture, check our <a href="/__LANG__/blog/e-invoicing-mandates-by-country">e-invoicing mandates by country tracker</a>.</p>`
   },
 
   // P1-NG-08 — VAT Invoice Requirements (W2)
@@ -604,14 +392,7 @@ export const cluster10Posts: BlogPost[] = [
       { question: 'What must a Nigerian VAT invoice include?', answer: 'A Nigerian VAT invoice must include: seller and buyer names and addresses, both TINs, a unique invoice number, date of issue, description of goods/services, quantities and prices, VAT amount at 7.5%, total amount including and excluding VAT, and (under the new mandate) an IRN and QR code.' },
       { question: 'Is 7.5% the correct VAT rate for Nigeria?', answer: 'Yes. Nigeria\'s standard VAT rate is 7.5%, effective since February 2020. Some goods and services are VAT-exempt (basic food items, medical supplies, educational materials). Always verify the applicable rate for your specific products or services.' },
     ],
-    content: `
-<p>Getting your VAT invoice right isn't just good practice in Nigeria — it's a legal requirement. An invoice missing mandatory fields can result in denied VAT input credits for your buyer, penalties from FIRS, and damaged business relationships.</p>
-
-<h2>Mandatory VAT Invoice Fields</h2>
-
-<p>Every VAT invoice issued by a Nigerian business must include:</p>
-
-<ol>
+    content: `<p>Getting your VAT invoice right isn't just good practice in Nigeria — it's a legal requirement. An invoice missing mandatory fields can result in denied VAT input credits for your buyer, penalties from FIRS, and damaged business relationships.</p><h2>Mandatory VAT Invoice Fields</h2><p class="block-answer" data-answer="true">Every VAT invoice issued by a Nigerian business must include:</p><p>Every VAT invoice issued by a Nigerian business must include:</p><ol>
   <li><strong>The words "VAT INVOICE"</strong> or "TAX INVOICE" prominently displayed</li>
   <li><strong>Seller's full name</strong> and registered business address</li>
   <li><strong>Seller's TIN</strong> (Tax Identification Number)</li>
@@ -627,27 +408,17 @@ export const cluster10Posts: BlogPost[] = [
   <li><strong>VAT rate</strong> (7.5%) and <strong>VAT amount</strong></li>
   <li><strong>Total amount</strong> including VAT</li>
   <li><strong>Currency</strong> (NGN, or foreign currency with exchange rate)</li>
-</ol>
-
-<h3>Additional fields under e-invoicing mandate</h3>
-<ul>
+</ol><h3>Additional fields under e-invoicing mandate</h3><ul>
   <li><strong>Invoice Reference Number (IRN)</strong></li>
   <li><strong>QR code</strong> for verification</li>
   <li><strong>Digital timestamp</strong></li>
-</ul>
-
-<h2>Common Mistakes to Avoid</h2>
-
-<ul>
+</ul><h2>Common Mistakes to Avoid</h2><p class="block-answer" data-answer="true">Common Mistakes to Avoid includes: Missing or incorrect TIN — always verify against the FIRS portal Wrong VAT rate — the standard rate is 7.</p><ul>
   <li>Missing or incorrect TIN — always verify against the FIRS portal</li>
   <li>Wrong VAT rate — the standard rate is 7.5%, not 5% (the old rate)</li>
   <li>Missing the "VAT INVOICE" label — this is a legal requirement</li>
   <li>Gaps in invoice numbering — raises red flags during audits</li>
   <li>Not separating VAT amount — must be shown as a distinct line item</li>
-</ul>
-
-<p>Use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> to create invoices with all these fields pre-configured. For how to create your first VAT invoice step by step, see <a href="/__LANG__/blog/nigeria-create-vat-invoice">our how-to guide</a>.</p>
-    `
+</ul><p>Use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> to create invoices with all these fields pre-configured. For how to create your first VAT invoice step by step, see <a href="/__LANG__/blog/nigeria-create-vat-invoice">our how-to guide</a>.</p>`
   },
 
   // P1-NG-09 — Tax Reform Acts (W3)
@@ -673,35 +444,13 @@ export const cluster10Posts: BlogPost[] = [
     faq: [
       { question: 'How do the 2025 tax reform acts affect invoicing?', answer: 'The reforms strengthen e-invoicing mandates, tighten VAT compliance requirements, and introduce new reporting obligations. Businesses must now include additional fields on invoices and comply with stricter deadlines for submission to the TaxPro-Max platform.' },
     ],
-    content: `
-<p>Nigeria's 2025 tax reform package represents the most significant overhaul of the country's tax framework in over a decade. For business owners, the reforms have direct implications for how you invoice, what you include on your invoices, and how you report to FIRS.</p>
-
-<h2>Key Changes Affecting Invoicing</h2>
-
-<h3>1. Strengthened e-invoicing mandate</h3>
-<p>The reforms codify the FIRS e-invoicing requirement into law, giving it stronger legal backing and enforcement mechanisms. What was previously an administrative directive is now statutory.</p>
-
-<h3>2. Expanded VAT scope</h3>
-<p>Some previously exempt goods and services may now be subject to VAT. Review your product/service classifications to ensure you're applying the correct rate.</p>
-
-<h3>3. Tighter reporting timelines</h3>
-<p>VAT returns and e-invoice submissions must now be filed more promptly. Late submissions face steeper penalties than before.</p>
-
-<h3>4. Enhanced record-keeping requirements</h3>
-<p>Businesses must maintain digital records of all invoices for a minimum of 6 years, accessible to FIRS upon request.</p>
-
-<h2>What You Need to Do</h2>
-
-<ol>
+    content: `<p>Nigeria's 2025 tax reform package represents the most significant overhaul of the country's tax framework in over a decade. For business owners, the reforms have direct implications for how you invoice, what you include on your invoices, and how you report to FIRS.</p><h2>Key Changes Affecting Invoicing</h2><h3>1. Strengthened e-invoicing mandate</h3><p>The reforms codify the FIRS e-invoicing requirement into law, giving it stronger legal backing and enforcement mechanisms. What was previously an administrative directive is now statutory.</p><h3>2. Expanded VAT scope</h3><p>Some previously exempt goods and services may now be subject to VAT. Review your product/service classifications to ensure you're applying the correct rate.</p><h3>3. Tighter reporting timelines</h3><p>VAT returns and e-invoice submissions must now be filed more promptly. Late submissions face steeper penalties than before.</p><h3>4. Enhanced record-keeping requirements</h3><p>Businesses must maintain digital records of all invoices for a minimum of 6 years, accessible to FIRS upon request.</p><h2>What You Need to Do</h2><p class="block-answer" data-answer="true">Review your current invoicing practices against the updated requirements Update your invoicing software to ensure all mandatory fields are included</p><ol>
   <li>Review your current invoicing practices against the updated requirements</li>
   <li>Update your invoicing software to ensure all mandatory fields are included</li>
   <li>Check if any of your products/services have changed VAT classification</li>
   <li>Set calendar reminders for the new filing deadlines</li>
   <li>Ensure your digital records are backed up and searchable</li>
-</ol>
-
-<p>For the full e-invoicing compliance guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. To understand the penalties for non-compliance, read our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>.</p>
-    `
+</ol><p>For the full e-invoicing compliance guide, see <a href="/__LANG__/blog/firs-mbs-nigeria-explained">FIRS E-Invoicing in Nigeria</a>. To understand the penalties for non-compliance, read our <a href="/__LANG__/blog/nigeria-e-invoicing-penalties">penalties guide</a>.</p>`
   },
 
   // ═══════════════════════════════════════════════════════
@@ -742,59 +491,23 @@ export const cluster10Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Best Invoicing Software Kenya', url: '/compare/best-invoice-software-kenya', description: 'Compare top invoicing tools for Kenyan businesses' },
     ],
-    content: `
-<p><strong>eTIMS is mandatory for every business in Kenya.</strong> Since January 2024, the Kenya Revenue Authority (KRA) requires all taxpayers — including non-VAT-registered traders, freelancers, and professionals — to issue invoices through the electronic Tax Invoice Management System. Penalties reach KES 1 million or 10% of tax involved, and any expense without an eTIMS invoice is non-deductible.</p>
-
-<p>This guide covers what eTIMS is, who must comply, the registration process via iTax, the four eTIMS channels (Online, Trader App, API, Lite), the mandatory invoice fields, and the penalty structure — everything a Kenyan business needs to stay compliant in 2026.</p>
-
-<h2>What Is eTIMS?</h2>
-
-<p>eTIMS stands for <strong>electronic Tax Invoice Management System</strong>. It's KRA's platform for real-time transmission of invoice data from businesses to the tax authority. Every time you make a sale, the invoice is generated through or reported to eTIMS, creating a direct link between your business transactions and KRA's records.</p>
-
-<p>Key features of eTIMS:</p>
-<ul>
+    content: `<p><strong>eTIMS is mandatory for every business in Kenya.</strong> Since January 2024, the Kenya Revenue Authority (KRA) requires all taxpayers — including non-VAT-registered traders, freelancers, and professionals — to issue invoices through the electronic Tax Invoice Management System. Penalties reach KES 1 million or 10% of tax involved, and any expense without an eTIMS invoice is non-deductible.</p><p>This guide covers what eTIMS is, who must comply, the registration process via iTax, the four eTIMS channels (Online, Trader App, API, Lite), the mandatory invoice fields, and the penalty structure — everything a Kenyan business needs to stay compliant in 2026.</p><h2>What Is eTIMS?</h2><p class="block-answer" data-answer="true">eTIMS stands for electronic Tax Invoice Management System.  It's KRA's platform for real-time transmission of invoice data from businesses to the tax authority.</p><p>eTIMS stands for <strong>electronic Tax Invoice Management System</strong>. It's KRA's platform for real-time transmission of invoice data from businesses to the tax authority. Every time you make a sale, the invoice is generated through or reported to eTIMS, creating a direct link between your business transactions and KRA's records.</p><p>Key features of eTIMS:</p><ul>
   <li><strong>Real-time reporting:</strong> Invoice data is transmitted to KRA as invoices are generated</li>
   <li><strong>Unique invoice numbers:</strong> Each eTIMS invoice gets a KRA-assigned serial number</li>
   <li><strong>QR codes:</strong> Every invoice includes a scannable QR code for verification</li>
   <li><strong>Control Unit Number (CU):</strong> Devices/software must be registered with KRA</li>
-</ul>
-
-<h2>Who Must Use eTIMS in Kenya?</h2>
-
-<p>As of 2024, <strong>all taxpayers</strong> in Kenya must use eTIMS, including:</p>
-<ul>
+</ul><h2>Who Must Use eTIMS in Kenya?</h2><p class="block-answer" data-answer="true">As of 2024, all taxpayers in Kenya must use eTIMS, including:</p><p>As of 2024, <strong>all taxpayers</strong> in Kenya must use eTIMS, including:</p><ul>
   <li>VAT-registered businesses (mandatory since 2023)</li>
   <li>Non-VAT registered businesses (mandatory since January 2024)</li>
   <li>Sole traders and freelancers</li>
   <li>Professionals (doctors, lawyers, accountants)</li>
   <li>All businesses making sales, regardless of size</li>
-</ul>
-
-<p>The only exceptions are very small traders using the simplified eTIMS Lite option (via USSD or mobile app) for transactions under KES 25,000.</p>
-
-<h2>How Do I Register for eTIMS? (Step-by-Step)</h2>
-
-<h3>Step 1: Ensure you have a KRA PIN</h3>
-<p>Every business needs an active KRA PIN. If you don't have one, register at <a href="https://itax.kra.go.ke" rel="noopener noreferrer" target="_blank">itax.kra.go.ke</a>.</p>
-
-<h3>Step 2: Register for eTIMS on iTax</h3>
-<p>Log into your iTax account, navigate to the eTIMS section, and complete the registration form. You'll need to provide your business details and choose your preferred eTIMS solution type.</p>
-
-<h3>Step 3: Choose your eTIMS solution</h3>
-<ul>
+</ul><p>The only exceptions are very small traders using the simplified eTIMS Lite option (via USSD or mobile app) for transactions under KES 25,000.</p><h2>How Do I Register for eTIMS? (Step-by-Step)</h2><h3>Step 1: Ensure you have a KRA PIN</h3><p>Every business needs an active KRA PIN. If you don't have one, register at <a href="https://itax.kra.go.ke" rel="noopener noreferrer" target="_blank">itax.kra.go.ke</a>.</p><h3>Step 2: Register for eTIMS on iTax</h3><p>Log into your iTax account, navigate to the eTIMS section, and complete the registration form. You'll need to provide your business details and choose your preferred eTIMS solution type.</p><h3>Step 3: Choose your eTIMS solution</h3><ul>
   <li><strong>eTIMS Online (Web):</strong> Access through the KRA portal — best for low-volume businesses</li>
   <li><strong>eTIMS Trader App:</strong> Mobile app for Android — best for traders and small businesses</li>
   <li><strong>eTIMS API Integration:</strong> For invoicing software like Invoicemonk — best for growing businesses</li>
   <li><strong>eTIMS Lite (USSD):</strong> Via *222# — for micro-enterprises without smartphones</li>
-</ul>
-
-<h3>Step 4: Start issuing eTIMS invoices</h3>
-<p>Once registered, every sale must be invoiced through your chosen eTIMS channel. Non-compliance can result in penalties and denied expense deductions.</p>
-
-<h2>What Are the Mandatory Fields on a Kenyan eTIMS Invoice?</h2>
-
-<p>Every eTIMS invoice must contain:</p>
-<ol>
+</ul><h3>Step 4: Start issuing eTIMS invoices</h3><p>Once registered, every sale must be invoiced through your chosen eTIMS channel. Non-compliance can result in penalties and denied expense deductions.</p><h2>What Are the Mandatory Fields on a Kenyan eTIMS Invoice?</h2><p class="block-answer" data-answer="true">the Mandatory Fields on a Kenyan eTIMS Invoice is every eTIMS invoice must contain:</p><p>Every eTIMS invoice must contain:</p><ol>
   <li>Seller's KRA PIN and business name</li>
   <li>Buyer's KRA PIN (for B2B) or name (for B2C)</li>
   <li>eTIMS serial number (system-generated)</li>
@@ -805,37 +518,22 @@ export const cluster10Posts: BlogPost[] = [
   <li>Total amount</li>
   <li>QR code for verification</li>
   <li>Control Unit (CU) number</li>
-</ol>
-
-<h2>What Are the Penalties for eTIMS Non-Compliance?</h2>
-
-<ul>
+</ol><h2>What Are the Penalties for eTIMS Non-Compliance?</h2><p class="block-answer" data-answer="true">the Penalties for eTIMS Non-Compliance includes: Denied expense deductions: KRA will not allow tax deductions for expenses not backed by eTIMS invoices Fines: Up to KES 1 million or 10% of the tax involved</p><ul>
   <li><strong>Denied expense deductions:</strong> KRA will not allow tax deductions for expenses not backed by eTIMS invoices</li>
   <li><strong>Fines:</strong> Up to KES 1 million or 10% of the tax involved</li>
   <li><strong>Business closure risk:</strong> KRA can issue compliance notices leading to closure orders</li>
   <li><strong>Tax assessment penalties:</strong> KRA may issue estimated assessments based on industry averages</li>
-</ul>
-
-<h2>Which Software Helps With KRA eTIMS Compliance?</h2>
-
-<p>Invoicemonk creates invoices that include all KRA-required fields:</p>
-<ul>
+</ul><h2>Which Software Helps With KRA eTIMS Compliance?</h2><p class="block-answer" data-answer="true">Invoicemonk creates invoices that include all KRA-required fields:</p><p>Invoicemonk creates invoices that include all KRA-required fields:</p><ul>
   <li>KRA PIN fields for seller and buyer</li>
   <li>Automatic VAT calculation at 16%</li>
   <li>KES currency formatting</li>
   <li>QR code generation</li>
   <li>Professional templates that clients trust</li>
-</ul>
-
-<p><a href="/__LANG__/pricing">Start with Invoicemonk free →</a></p>
-
-<h2>Next Steps</h2>
-<ol>
+</ul><p><a href="/__LANG__/pricing">Start with Invoicemonk free →</a></p><h2>Next Steps</h2><ol>
   <li><a href="/__LANG__/blog/kenya-etims-small-business-guide">Full eTIMS setup guide for small businesses →</a></li>
   <li><a href="/__LANG__/blog/kenya-how-to-generate-etims-invoice">How to generate an eTIMS invoice step by step →</a></li>
   <li><a href="/__LANG__/blog/best-invoice-software-kenya">Compare the best invoicing software for Kenya →</a></li>
-</ol>
-    `
+</ol>`
   },
 
   // P1-KE-02 — Small Business Guide
@@ -862,39 +560,13 @@ export const cluster10Posts: BlogPost[] = [
       { question: 'How long does eTIMS setup take?', answer: 'With a valid KRA PIN, eTIMS registration typically takes 24-48 hours for approval. The actual setup process — registering on iTax and configuring your invoicing solution — can be done in under an hour.' },
       { question: 'Do I need to buy special hardware for eTIMS?', answer: 'No. You can use the free KRA eTIMS Trader App on your phone, the eTIMS web portal, or eTIMS-compatible invoicing software like Invoicemonk. Physical Electronic Tax Registers (ETRs) are optional and only needed for high-volume retail businesses.' },
     ],
-    content: `
-<p>Setting up eTIMS doesn't have to be complicated. This guide walks you through every step, from registration to issuing your first compliant invoice.</p>
-
-<h2>Before You Start: What You Need</h2>
-
-<ul>
+    content: `<p>Setting up eTIMS doesn't have to be complicated. This guide walks you through every step, from registration to issuing your first compliant invoice.</p><h2>Before You Start: What You Need</h2><p class="block-answer" data-answer="true">Before You Start: What You Need includes: Active KRA PIN for your business Business registration certificate (if applicable)</p><ul>
   <li>Active KRA PIN for your business</li>
   <li>Business registration certificate (if applicable)</li>
   <li>Valid email address and phone number</li>
   <li>Bank account details</li>
   <li>A smartphone or computer with internet access</li>
-</ul>
-
-<h2>Step-by-Step Setup</h2>
-
-<h3>1. Log into iTax</h3>
-<p>Go to <a href="https://itax.kra.go.ke" rel="noopener noreferrer" target="_blank">itax.kra.go.ke</a> and log in with your KRA PIN and password.</p>
-
-<h3>2. Navigate to eTIMS Registration</h3>
-<p>Select "eTIMS" from the menu. Click "Apply for eTIMS" and fill in your business details.</p>
-
-<h3>3. Choose Your Solution Type</h3>
-<p>For most small businesses, the <strong>eTIMS Trader App</strong> or <strong>eTIMS Online</strong> (web portal) is the best choice — both are free. If you want to integrate with invoicing software, select the API option.</p>
-
-<h3>4. Download and Configure</h3>
-<p>If using the Trader App, download it from Google Play Store. Enter your KRA PIN and the activation code sent to your email.</p>
-
-<h3>5. Issue Your First Invoice</h3>
-<p>Create a test invoice to ensure everything works. Check that the eTIMS serial number and QR code appear correctly.</p>
-
-<h2>Common Setup Issues and Fixes</h2>
-
-<table>
+</ul><h2>Step-by-Step Setup</h2><h3>1. Log into iTax</h3><p>Go to <a href="https://itax.kra.go.ke" rel="noopener noreferrer" target="_blank">itax.kra.go.ke</a> and log in with your KRA PIN and password.</p><h3>2. Navigate to eTIMS Registration</h3><p>Select "eTIMS" from the menu. Click "Apply for eTIMS" and fill in your business details.</p><h3>3. Choose Your Solution Type</h3><p>For most small businesses, the <strong>eTIMS Trader App</strong> or <strong>eTIMS Online</strong> (web portal) is the best choice — both are free. If you want to integrate with invoicing software, select the API option.</p><h3>4. Download and Configure</h3><p>If using the Trader App, download it from Google Play Store. Enter your KRA PIN and the activation code sent to your email.</p><h3>5. Issue Your First Invoice</h3><p>Create a test invoice to ensure everything works. Check that the eTIMS serial number and QR code appear correctly.</p><h2>Common Setup Issues and Fixes</h2><table>
   <thead><tr><th>Problem</th><th>Solution</th></tr></thead>
   <tbody>
     <tr><td>KRA PIN not recognized</td><td>Verify your PIN is active at your local KRA office</td></tr>
@@ -902,10 +574,7 @@ export const cluster10Posts: BlogPost[] = [
     <tr><td>App crashes during setup</td><td>Update to the latest version from Play Store</td></tr>
     <tr><td>QR code not generating</td><td>Ensure internet connection is stable during invoice creation</td></tr>
   </tbody>
-</table>
-
-<p>For the complete eTIMS overview, see <a href="/__LANG__/blog/kra-etims-kenya-explained">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
-    `
+</table><p>For the complete eTIMS overview, see <a href="/__LANG__/blog/kra-etims-kenya-explained">our comprehensive eTIMS guide</a>. To generate invoices, try <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>`
   },
 
   // P1-KE-03 — How to Generate eTIMS Invoice
@@ -931,12 +600,7 @@ export const cluster10Posts: BlogPost[] = [
     faq: [
       { question: 'Can I generate eTIMS invoices from my phone?', answer: 'Yes. The KRA eTIMS Trader App for Android lets you create and send eTIMS invoices directly from your smartphone. You can also use the eTIMS web portal from any device with a browser.' },
     ],
-    content: `
-<p>Generating an eTIMS invoice is straightforward once you're set up. Here's the step-by-step process.</p>
-
-<h2>Method 1: eTIMS Trader App (Mobile)</h2>
-
-<ol>
+    content: `<p>Generating an eTIMS invoice is straightforward once you're set up. Here's the step-by-step process.</p><h2>Method 1: eTIMS Trader App (Mobile)</h2><p class="block-answer" data-answer="true">Method 1: eTIMS Trader App (Mobile) includes: Open the eTIMS Trader App on your phone Tap "New Invoice"</p><ol>
   <li>Open the eTIMS Trader App on your phone</li>
   <li>Tap "New Invoice"</li>
   <li>Enter the buyer's details (KRA PIN for B2B, or name for B2C)</li>
@@ -945,40 +609,24 @@ export const cluster10Posts: BlogPost[] = [
   <li>Tap "Generate Invoice"</li>
   <li>The system assigns an eTIMS serial number and generates a QR code</li>
   <li>Share the invoice via SMS, WhatsApp, or email</li>
-</ol>
-
-<h2>Method 2: eTIMS Online Portal (Web)</h2>
-
-<ol>
+</ol><h2>Method 2: eTIMS Online Portal (Web)</h2><p class="block-answer" data-answer="true">Method 2: eTIMS Online Portal (Web) includes: Log into the eTIMS web portal via iTax Navigate to "Invoice Management" → "Create Invoice"</p><ol>
   <li>Log into the eTIMS web portal via iTax</li>
   <li>Navigate to "Invoice Management" → "Create Invoice"</li>
   <li>Fill in buyer details and line items</li>
   <li>Select the correct VAT rate for each item (16%, 8%, 0%, or exempt)</li>
   <li>Submit the invoice</li>
   <li>Download or print the generated invoice with QR code</li>
-</ol>
-
-<h2>Method 3: Invoicing Software (API Integration)</h2>
-
-<p>For businesses using invoicing software like Invoicemonk:</p>
-<ol>
+</ol><h2>Method 3: Invoicing Software (API Integration)</h2><p class="block-answer" data-answer="true">For businesses using invoicing software like Invoicemonk:</p><p>For businesses using invoicing software like Invoicemonk:</p><ol>
   <li>Create your invoice as normal in the software</li>
   <li>The software formats the invoice with all KRA-required fields</li>
   <li>Invoice data can be exported for eTIMS submission</li>
   <li>Professional PDF with QR code is generated for the client</li>
-</ol>
-
-<h2>Key Fields to Get Right</h2>
-
-<ul>
+</ol><h2>Key Fields to Get Right</h2><p class="block-answer" data-answer="true">Key Fields to Get Right includes: VAT rate: Standard 16%, reduced 8% (petroleum, electricity), zero-rated 0%, or exempt Buyer KRA PIN: Mandatory for B2B transactions — buyer can't claim deductions without it</p><ul>
   <li><strong>VAT rate:</strong> Standard 16%, reduced 8% (petroleum, electricity), zero-rated 0%, or exempt</li>
   <li><strong>Buyer KRA PIN:</strong> Mandatory for B2B transactions — buyer can't claim deductions without it</li>
   <li><strong>Item descriptions:</strong> Must be specific — "Services rendered" is insufficient; use "Website design — 5-page corporate site"</li>
   <li><strong>Currency:</strong> KES for domestic transactions</li>
-</ul>
-
-<p>For the full eTIMS overview, see <a href="/__LANG__/blog/kra-etims-kenya-explained">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>
-    `
+</ul><p>For the full eTIMS overview, see <a href="/__LANG__/blog/kra-etims-kenya-explained">our complete guide</a>. To create professional invoices, use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>.</p>`
   },
 
   // P1-KE-04 — VAT Invoice Requirements (W2)
@@ -1004,12 +652,7 @@ export const cluster10Posts: BlogPost[] = [
     faq: [
       { question: 'What is the VAT rate in Kenya?', answer: 'Kenya has three VAT rates: standard 16% (most goods/services), reduced 8% (petroleum products, electricity), and zero-rated 0% (exports, some agricultural products). Some goods and services are VAT-exempt.' },
     ],
-    content: `
-<p>Kenya's VAT Act and the eTIMS system specify exactly what must appear on every tax invoice. Getting these right is essential — incomplete invoices result in denied deductions for your buyer and potential penalties for you.</p>
-
-<h2>Mandatory Fields for Kenyan VAT Invoices</h2>
-
-<ol>
+    content: `<p>Kenya's VAT Act and the eTIMS system specify exactly what must appear on every tax invoice. Getting these right is essential — incomplete invoices result in denied deductions for your buyer and potential penalties for you.</p><h2>Mandatory Fields for Kenyan VAT Invoices</h2><p class="block-answer" data-answer="true">Mandatory Fields for Kenyan VAT Invoices includes: "TAX INVOICE" label clearly displayed Seller's business name and registered address</p><ol>
   <li><strong>"TAX INVOICE"</strong> label clearly displayed</li>
   <li>Seller's business name and registered address</li>
   <li>Seller's KRA PIN</li>
@@ -1024,11 +667,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>QR code for eTIMS verification</li>
   <li>Control Unit (CU) number</li>
   <li>Currency (KES for domestic)</li>
-</ol>
-
-<h2>VAT Rates in Kenya</h2>
-
-<table>
+</ol><h2>VAT Rates in Kenya</h2><table>
   <thead><tr><th>Rate</th><th>Applies To</th></tr></thead>
   <tbody>
     <tr><td>16%</td><td>Standard rate — most goods and services</td></tr>
@@ -1036,10 +675,7 @@ export const cluster10Posts: BlogPost[] = [
     <tr><td>0%</td><td>Exports, certain agricultural products, medical equipment</td></tr>
     <tr><td>Exempt</td><td>Financial services, education, unprocessed food</td></tr>
   </tbody>
-</table>
-
-<p>For the complete eTIMS guide, see <a href="/__LANG__/blog/kra-etims-kenya-explained">KRA eTIMS in Kenya</a>. To create compliant invoices instantly, try <a href="/__LANG__/invoicing">Invoicemonk's free generator</a>.</p>
-    `
+</table><p>For the complete eTIMS guide, see <a href="/__LANG__/blog/kra-etims-kenya-explained">KRA eTIMS in Kenya</a>. To create compliant invoices instantly, try <a href="/__LANG__/invoicing">Invoicemonk's free generator</a>.</p>`
   },
 
   // P1-KE-05 is actually Italy SDI (from the topic map) — but we put it in a separate cluster.

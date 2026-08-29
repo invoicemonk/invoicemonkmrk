@@ -120,6 +120,23 @@ export default function InvoicemonkVsExpensify() {
           },
         ],
       }}
+      prosCons={[
+        {
+          name: 'Invoicemonk',
+          bestFor: 'Best for freelancers and small teams that invoice as well as scan',
+          price: 'Free Android app; Pro $15/mo',
+          recommended: true,
+          pros: ['Unlimited free scans on the Android app', 'Invoicing, expenses and receipts in one account', 'Flat pricing, not per user', 'Mandate-compliant e-invoicing in 17 countries'],
+          cons: ['No reimbursement approval workflow', 'No corporate card feeds', 'No free-forever plan for invoicing'],
+        },
+        {
+          name: 'Expensify',
+          bestFor: 'Best for teams that reimburse employees and need approvals',
+          price: 'Free (25 scans/mo); Collect $5/user/mo',
+          pros: ['Mature SmartScan OCR', 'Approvals, per-diems and card feeds', 'NetSuite and Sage integrations on Control'],
+          cons: ['Free tier capped at 25 scans per month', 'Per-user pricing scales with headcount', 'No invoicing for clients'],
+        },
+      ]}
       whoFor={[
         {
           title: 'Pick Invoicemonk if…',

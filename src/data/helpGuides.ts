@@ -69,12 +69,12 @@ export const helpGuides: HelpGuide[] = [
       </ul>
 
       <h2>Step 3: Choose Your Plan</h2>
-      <p>Invoicemonk's Pro plan starts at $15/month. As your business grows, upgrade for more features:</p>
+      <p>Invoicemonk has four plans. As your business grows, upgrade for more features:</p>
       <ul>
-        <li><strong>Starter (Free)</strong> — Basic invoicing and client management</li>
-        <li><strong>Starter Paid</strong> — More invoices and expense tracking</li>
-        <li><strong>Professional</strong> — Reports, team management, custom templates</li>
-        <li><strong>Business</strong> — Full suite with audit logs, multi-currency, and priority support</li>
+        <li><strong>Free ($0/month)</strong> — 3 invoices per month, 1 user, unlimited clients, client management and immutable audit trail</li>
+        <li><strong>Pro ($15/month)</strong> — Unlimited invoices, receipts and currency accounts, up to 5 team members, expense tracking, custom branding, watermark-free PDFs</li>
+        <li><strong>SME ($49/month)</strong> — Everything in Pro plus unlimited team members, online payments, advanced reports and premium templates</li>
+        <li><strong>Biz (custom)</strong> — Everything in SME plus e-invoicing &amp; government submission, API access, dedicated account manager and SLA</li>
       </ul>
       <p>Pricing adjusts by region — Nigerian businesses see prices in Naira. Visit our <a href="/en/pricing">pricing page</a> for full details.</p>
 
@@ -162,7 +162,7 @@ export const helpGuides: HelpGuide[] = [
       <ul>
         <li>Click <strong>Create Invoice</strong> from the dashboard or navigate to <strong>Invoices → New Invoice</strong></li>
         <li>Select a <strong>client</strong> from your database (or add a new one inline)</li>
-        <li>Choose an <strong>invoice template</strong> (Professional plan and above)</li>
+        <li>Choose an <strong>invoice template</strong> (Pro plan and above; premium templates on SME and Biz)</li>
         <li>Set the <strong>issue date</strong> and <strong>due date</strong></li>
       </ul>
 
@@ -449,7 +449,7 @@ export const helpGuides: HelpGuide[] = [
     ],
     content: `
       <h2>Report Categories</h2>
-      <p>Invoicemonk generates professional reports across five categories. Reports are available on Professional and Business plans.</p>
+      <p>Invoicemonk generates professional reports across five categories. Advanced reports are available on the SME and Biz plans.</p>
 
       <h3>Revenue Reports</h3>
       <ul>
@@ -548,11 +548,11 @@ export const helpGuides: HelpGuide[] = [
     targetFeature: 'https://app.invoicemonk.com',
     faq: [
       { question: 'What are the available team roles?', answer: 'Owner has full access including billing. Admin can manage invoices, clients, and settings but not billing. Member can create and view invoices and clients but cannot change settings.' },
-      { question: 'Which plans support team management?', answer: 'Team management is available on Professional and Business plans. The Starter plans are single-user only.' },
+      { question: 'Which plans support team management?', answer: 'Team management is available on Pro (up to 5 members), SME and Biz (unlimited). The Free plan is single-user only.' },
     ],
     content: `
       <h2>Available Roles</h2>
-      <p>On Professional and Business plans, you can invite team members to your Invoicemonk business and assign roles to control what they can do.</p>
+      <p>On the Pro, SME and Biz plans, you can invite team members to your Invoicemonk business and assign roles to control what they can do.</p>
       <ul>
         <li><strong>Owner</strong> — Full access to everything including billing and team management</li>
         <li><strong>Admin</strong> — Can manage invoices, clients, and settings, but cannot manage billing</li>

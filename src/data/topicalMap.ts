@@ -108,7 +108,7 @@ export const pillars: Pillar[] = [
       },
       {
         question: 'Do I need a separate plan for e-invoicing?',
-        answer: 'E-invoicing is on the Professional plan. The same plan covers every supported mandate — no per-jurisdiction add-on.',
+        answer: 'E-invoicing is on the Biz plan. The same plan covers every supported mandate — no per-jurisdiction add-on.',
       },
     ],
     // Cluster articles: 3 archetypes per mandate × 18 mandates = 48 slugs.

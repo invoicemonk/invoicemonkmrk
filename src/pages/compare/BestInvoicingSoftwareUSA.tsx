@@ -9,6 +9,9 @@ import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
+import { ItemListSchema } from '@/components/seo/ItemListSchema';
+import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationSchema';
+import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema';
 
 const tools = [
   {
@@ -74,6 +77,25 @@ export default function BestInvoicingSoftwareUSA() {
         description="Compare the best compliance-first invoicing software for US freelancers and small businesses: Invoicemonk, FreshBooks, QuickBooks Online, and Wave. IRS requirements, sales tax, 1099-NEC, and audit trail compared."
       />
       <FAQSchema items={faqs} />
+      <ItemListSchema
+        name="Best invoicing software in the USA (2026)"
+        description="Ranked shortlist of invoicing software for US freelancers and small businesses, compared on IRS record-keeping, sales tax, 1099-NEC, and price."
+        items={tools.map((tool) => ({ name: tool.name, url: '/compare/best-invoicing-software-usa', description: `${tool.price} — best for ${tool.bestFor}` }))}
+      />
+      <SoftwareApplicationSchema
+        schemaId="https://invoicemonk.com/#software-usa"
+        description="Compliance-first invoicing software for US freelancers and small businesses: sequential numbering, state and local sales-tax lines, EIN/SSN fields, 1099-NEC vendor capture, and a 7-year archive."
+      />
+      {tools.filter((tool) => !tool.highlight).map((tool) => (
+        <ComparisonReviewSchema
+          key={tool.name}
+          itemName="Invoicemonk"
+          competitorName={tool.name}
+          positiveNotes={tools[0].pros}
+          negativeNotes={tool.cons}
+          url="/compare/best-invoicing-software-usa"
+        />
+      ))}
       <BreadcrumbSchema items={[
         { name: 'Home', url: '/' },
         { name: 'Compare', url: '/best-invoicing-software' },
@@ -84,6 +106,80 @@ export default function BestInvoicingSoftwareUSA() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">Best Invoicing Software in the USA (2026)</h1>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-8">The IRS does not give you a template — it gives you record-keeping rules. We compared the four invoicing platforms US freelancers and small businesses actually shortlist when compliance matters as much as speed.</p>
+
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-10 text-center">
+            <strong className="text-foreground">Short answer:</strong> Invoicemonk is the best invoicing software for most US freelancers and small businesses in 2026 — sequential numbering, sales-tax lines, EIN/SSN fields and a 7-year archive from $15/month. Choose FreshBooks if built-in time tracking matters more than tax compliance, QuickBooks Online if you need full bookkeeping and payroll, and Wave if your only constraint is budget.
+          </p>
+
+          <div className="overflow-x-auto rounded-lg border border-border/60">
+            <table className="w-full text-sm">
+              <caption className="sr-only">Invoicing software for US businesses compared on price, sales tax, IRS retention and best fit</caption>
+              <thead className="bg-muted/50">
+                <tr>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Software</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Starting price</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Sales tax</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">7-year archive</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Best fit</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: 'Invoicemonk', price: '$15/mo', tax: 'Per-invoice state + local lines, engine integrations', archive: 'Included', fit: 'Compliance-first invoicing' },
+                  { name: 'FreshBooks', price: '$19/mo', tax: 'Manual rates only', archive: 'Not positioned for it', fit: 'Time tracking + polish' },
+                  { name: 'QuickBooks Online', price: '$35/mo', tax: 'Built-in engine', archive: 'Via full accounting', fit: 'Bookkeeping and payroll' },
+                  { name: 'Wave', price: 'Free', tax: 'Manual rates only', archive: 'Limited audit trail', fit: 'Tight budgets' },
+                ].map((row) => (
+                  <tr key={row.name} className="border-t border-border/60">
+                    <th scope="row" className="text-left font-medium text-foreground p-3">{row.name}</th>
+                    <td className="p-3 text-muted-foreground">{row.price}</td>
+                    <td className="p-3 text-muted-foreground">{row.tax}</td>
+                    <td className="p-3 text-muted-foreground">{row.archive}</td>
+                    <td className="p-3 text-muted-foreground">{row.fit}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted-foreground mt-3">Prices are list prices for the entry paid plan in USD, checked February 2026, excluding promotional discounts and payment-processing fees.</p>
+
+          <h2 className="text-heading-lg font-bold text-foreground mt-12 mb-4">Pricing compared, plan by plan</h2>
+          <p className="text-muted-foreground mb-6">Entry price is rarely the real price. The table below shows what each platform charges as you move up a tier, and where the usual hidden costs sit — client caps, per-user fees, and payment processing.</p>
+          <div className="overflow-x-auto rounded-lg border border-border/60">
+            <table className="w-full text-sm">
+              <caption className="sr-only">Invoicing software pricing tiers for US businesses compared</caption>
+              <thead className="bg-muted/50">
+                <tr>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Software</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Free plan</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Entry paid</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Mid tier</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Client limit</th>
+                  <th scope="col" className="text-left font-semibold text-foreground p-3">Watch out for</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: 'Invoicemonk', free: 'Yes, limited invoices', entry: '$15/mo (Pro)', mid: 'Business tier', clients: 'Unlimited on paid plans', gotcha: 'Sales-tax rate lookup needs an engine integration' },
+                  { name: 'FreshBooks', free: 'No (trial only)', entry: '$19/mo', mid: '$33/mo', clients: '5 on entry plan', gotcha: 'Extra team members billed per seat' },
+                  { name: 'QuickBooks Online', free: 'No (trial only)', entry: '$35/mo', mid: '$65/mo', clients: 'Unlimited', gotcha: 'Payroll is a separate subscription' },
+                  { name: 'Wave', free: 'Yes, invoicing included', entry: '$16/mo (Pro)', mid: 'n/a', clients: 'Unlimited', gotcha: 'Multi-currency and receipt scanning are paid extras' },
+                ].map((row) => (
+                  <tr key={row.name} className="border-t border-border/60">
+                    <th scope="row" className="text-left font-medium text-foreground p-3">{row.name}</th>
+                    <td className="p-3 text-muted-foreground">{row.free}</td>
+                    <td className="p-3 text-muted-foreground">{row.entry}</td>
+                    <td className="p-3 text-muted-foreground">{row.mid}</td>
+                    <td className="p-3 text-muted-foreground">{row.clients}</td>
+                    <td className="p-3 text-muted-foreground">{row.gotcha}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-muted-foreground mt-4">
+            See the full breakdown on our <Link to="/pricing" className="text-primary hover:underline">pricing page</Link>, or read what the <Link to="/invoicing" className="text-primary hover:underline">invoicing feature set</Link> and <Link to="/payments" className="text-primary hover:underline">online payments</Link> cover before you commit.
+          </p>
 
           <div className="space-y-8 mt-12">
             {tools.map((tool, i) => (

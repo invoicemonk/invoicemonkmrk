@@ -8,6 +8,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
+import { supabase } from '@/integrations/supabase/client';
 
 interface ReviewFormProps {
   onSuccess?: () => void;
@@ -36,10 +37,17 @@ export function ReviewForm({ onSuccess, className }: ReviewFormProps) {
     setIsSubmitting(true);
     setErrorMessage('');
     try {
-      const review = { id: `review_${Date.now()}`, rating, name: name.trim(), email: email.trim(), company: company.trim() || undefined, role: role.trim() || undefined, reviewText: reviewText.trim(), createdAt: new Date().toISOString(), status: 'pending' };
-      const existingReviews = JSON.parse(localStorage.getItem('invoicemonk_reviews') || '[]');
-      existingReviews.push(review);
-      localStorage.setItem('invoicemonk_reviews', JSON.stringify(existingReviews));
+      const { error } = await supabase.from('reviews').insert({
+        author_name: name.trim(),
+        email: email.trim(),
+        company: company.trim() || null,
+        role: role.trim() || null,
+        rating,
+        review_text: reviewText.trim(),
+        status: 'pending',
+        verified: false,
+      });
+      if (error) throw error;
       setSubmitStatus('success');
       onSuccess?.();
       setTimeout(() => { setRating(0); setName(''); setEmail(''); setCompany(''); setRole(''); setReviewText(''); setSubmitStatus('idle'); }, 3000);

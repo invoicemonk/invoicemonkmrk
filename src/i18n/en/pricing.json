@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Simple, <accent>transparent</accent> pricing",
-    "description": "Three plans built for freelancers, small businesses, and growing teams. Cancel anytime.",
+    "description": "Start free, then scale. Four plans built for freelancers, small businesses, and growing teams. Cancel anytime.",
     "monthly": "Monthly",
     "annual": "Annual",
     "perMonth": "/month",
@@ -12,8 +12,8 @@
     "description": "Everything you need to know about pricing and billing.",
     "items": {
       "freeTier": {
-        "question": "Do you offer a free plan or free trial?",
-        "answer": "No. Invoicemonk is a paid product. Pro starts at $15/month, SME at $49/month, and Biz is custom-priced. You can upgrade, downgrade, or cancel anytime, and annual billing saves about 17%."
+        "question": "Do you offer a free plan?",
+        "answer": "Yes. The Free plan is $0/month permanently and includes 3 invoices per month, 1 user, unlimited clients and a full audit trail. There is no time-limited trial because you can stay on Free as long as you like. Pro is $15/month, SME $49/month, and Biz is custom-priced. Annual billing saves about 17%."
       },
       "upgradeDowngrade": {
         "question": "Can I upgrade or downgrade anytime?",

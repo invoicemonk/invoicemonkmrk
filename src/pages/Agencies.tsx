@@ -210,10 +210,14 @@ const Agencies = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-muted-foreground mb-4">{t('relatedReading.title')}</p>
           <div className="flex flex-wrap justify-center gap-4">
+            <Link to="/agency-billing-software" className="text-primary hover:underline">
+              Billing software for SEO and marketing agencies
+            </Link>
             {relatedLinks.map((link, i) => (
               <Link key={i} to={link.href} className="text-primary hover:underline">{link.text}</Link>
             ))}
           </div>
+
         </div>
       </section>
 

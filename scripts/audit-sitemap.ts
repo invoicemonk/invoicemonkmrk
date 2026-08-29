@@ -15,7 +15,17 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE_URL = 'https://invoicemonk.com';
-const BLOG_CLUSTER_RANGE = { start: 9, end: 19 };
+
+// Legacy slugs that 301-redirect to newer archetypes — intentionally absent
+// from the sitemap (must match generate-sitemap.ts).
+const LEGACY_REDIRECTED_BLOG_SLUGS = [
+  'e-invoicing-india-gst-guide',
+  'e-invoicing-malaysia-myinvois-guide',
+  'e-invoicing-saudi-zatca-guide',
+  'e-invoicing-nigeria-firs-guide',
+  'e-invoicing-kenya-etims',
+];
+
 
 function readSitemap(): string {
   return fs.readFileSync(path.join(__dirname, '../public/sitemap.xml'), 'utf-8');
@@ -74,13 +84,14 @@ function main() {
   console.log('🔍 Auditing sitemap...');
   const sitemap = readSitemap();
 
-  // 1. Blog posts
-  const blogSlugs = unique([
-    ...extractSlugsFromFile('../src/data/blogPosts.ts'),
-    ...Array.from({ length: BLOG_CLUSTER_RANGE.end - BLOG_CLUSTER_RANGE.start + 1 }, (_, i) =>
-      extractSlugsFromFile(`../src/data/blogPostsCluster${BLOG_CLUSTER_RANGE.start + i}.ts`)
-    ).flat(),
-  ]);
+  // 1. Blog posts — scan every blog data file, plus country compliance posts
+  const dataDir = path.join(__dirname, '../src/data');
+  const blogFiles = fs
+    .readdirSync(dataDir)
+    .filter(f => /^blogPosts.*\.ts$/.test(f) || f === 'countryCompliancePosts.ts');
+  const blogSlugs = unique(blogFiles.flatMap(f => extractSlugsFromFile(`../src/data/${f}`)))
+    .filter(s => !LEGACY_REDIRECTED_BLOG_SLUGS.includes(s));
+
   const sitemapBlogSlugs = unique((sitemap.match(/<loc>https:\/\/invoicemonk\.com\/en\/blog\/([^<]+)<\/loc>/g) || [])
     .map(m => { const s = m.match(/\/en\/blog\/([^<]+)/); return s ? s[1] : ''; })
     .filter(s => s && !s.startsWith('author/') && !s.startsWith('topic/')));

@@ -97,7 +97,7 @@
         "Tax compliance presets for UK (HMRC), US (IRS), CA (CRA), AU (ATO), KSA (ZATCA), EU (PEPPOL), NG (FIRS) and more — auto-includes tax IDs and country-specific fields",
         "E-invoicing & direct government submission on the Biz plan (KSA ZATCA, EU PEPPOL, FIRS MBS & more)",
         "Multi-currency on every plan (USD, EUR, GBP, CAD, AUD, INR, NGN, ZAR, KES + more)",
-        "Pro plan is genuinely useful: 5 invoices/month with the same compliance backbone as paid plans",
+        "Free plan is genuinely useful: 3 invoices/month with the same compliance backbone as the paid plans",
         "No markup on payment-processor fees — you pay Stripe/Paystack/Flutterwave direct"
       ],
       "cons": [
@@ -113,8 +113,8 @@
       ],
       "pricing": {
         "tiers": [
-          { "name": "Starter (Free)", "price": "$0", "invoices": "5 / month", "users": "1", "features": "Invoicing, expenses, accounting, credit notes, 1 currency account, immutable audit trail" },
-          { "name": "Pro", "price": "$15/mo", "invoices": "Unlimited", "users": "Up to 5", "features": "All Starter + unlimited currency accounts, custom branding, full audit trail export, data exports" },
+          { "name": "Free", "price": "$0", "invoices": "3 / month", "users": "1", "features": "Invoicing, client management, 1 currency account, immutable audit trail" },
+          { "name": "Pro", "price": "$15/mo", "invoices": "Unlimited", "users": "Up to 5", "features": "All Free + unlimited invoices, expenses, accounting, credit notes, unlimited currency accounts, custom branding, full audit trail export, data exports" },
           { "name": "SME", "price": "$49/mo", "invoices": "Unlimited", "users": "Unlimited", "features": "All Pro + online payments, advanced reports, premium templates, watermark-free PDFs" },
           { "name": "Biz", "price": "Custom", "invoices": "Unlimited", "users": "Unlimited", "features": "All SME + e-invoicing & government submission, dedicated account manager, custom integrations, SLA" }
         ],

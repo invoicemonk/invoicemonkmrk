@@ -167,6 +167,51 @@ export default function BestReceiptScannerApp() {
             'If you send invoices too, pick Invoicemonk. If you manage employee reimbursements, pick Expensify. If you\'re a bookkeeping firm feeding data into Xero/QuickBooks, pick Dext. If you want a paper-envelope mail-in for old boxes of receipts, pick Shoeboxed.',
         },
       ]}
+      prosCons={[
+        {
+          name: 'Invoicemonk',
+          bestFor: 'Best overall for freelancers and small businesses that also invoice',
+          price: 'From $15/mo (Pro)',
+          recommended: true,
+          pros: ['Free Android scanner app', 'Receipts, expenses and invoices in one account', 'AI OCR with audit trail and exports', 'Multi-currency and mandate-compliant invoicing'],
+          cons: ['No free-forever plan for the full product', 'No reimbursement approval workflows', 'iOS capture still rolling out'],
+        },
+        {
+          name: 'Expensify',
+          bestFor: 'Best for teams that need reimbursements and approvals',
+          price: 'From $5/user/mo',
+          pros: ['Mature SmartScan OCR', 'Approval flows and per-diems', 'Corporate card feeds'],
+          cons: ['Free tier capped at 25 scans/month', 'Per-user pricing adds up', 'No invoicing side'],
+        },
+        {
+          name: 'Shoeboxed',
+          bestFor: 'Best for paper-heavy and audit-defence workflows',
+          price: 'From $22.50/mo',
+          pros: ['Magic Envelope mail-in scanning', 'Human-verified data', 'Strong for accountants'],
+          cons: ['No free tier', 'No invoicing or approvals', 'Highest entry price in the group'],
+        },
+        {
+          name: 'Dext',
+          bestFor: 'Best for accounting practices feeding Xero or QuickBooks',
+          price: 'From $24/mo',
+          pros: ['Top OCR accuracy', 'Deep ledger integrations', 'Supplier fetch automation'],
+          cons: ['Priced for practices, not solo operators', 'No invoicing', 'Overkill for low receipt volume'],
+        },
+        {
+          name: 'Zoho Expense',
+          bestFor: 'Best for existing Zoho suite users',
+          price: 'From $5/user/mo',
+          pros: ['Free up to 3 users', 'Policy engine and multi-currency', 'Zoho integrations'],
+          cons: ['Weaker OCR on non-English receipts', 'Invoicing needs a separate Zoho product', 'Per-user pricing'],
+        },
+        {
+          name: 'Wave Receipts',
+          bestFor: 'Best only for legacy Wave users in the US or Canada',
+          price: 'Bundled with Wave Pro $16/mo',
+          pros: ['Bundled with free Wave accounting', 'Simple interface'],
+          cons: ['Standalone app discontinued in Feb 2024', 'US/Canada only', 'No mandate compliance'],
+        },
+      ]}
       faqs={[
         {
           question: 'What is the best receipt scanner app for small business in 2026?',

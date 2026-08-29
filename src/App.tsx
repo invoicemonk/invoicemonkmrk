@@ -19,6 +19,8 @@ import Estimates from "./pages/Estimates";
 import Receipts from "./pages/Receipts";
 import Pricing from "./pages/Pricing";
 import WhyInvoicemonk from "./pages/WhyInvoicemonk";
+import AIInfo from "./pages/AIInfo";
+import Reviews from './pages/Reviews';
 import Compliance from "./pages/Compliance";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -43,6 +45,7 @@ import Contractors from "./pages/Contractors";
 import SmallBusinesses from "./pages/SmallBusinesses";
 import Developer from "./pages/Developer";
 import Agencies from "./pages/Agencies";
+import AgencyBillingSoftware from "./pages/AgencyBillingSoftware";
 import Photographers from "./pages/Photographers";
 import Lawyers from "./pages/Lawyers";
 import Accountants from "./pages/Accountants";
@@ -64,6 +67,8 @@ import BestInvoicingSoftware from "./pages/compare/BestInvoicingSoftware";
 import BestFreeInvoicingSoftware from "./pages/compare/BestFreeInvoicingSoftware";
 import BestForFreelancers from "./pages/compare/BestForFreelancers";
 import WaveAlternatives from "./pages/compare/WaveAlternatives";
+import QuickBooksAlternatives from "./pages/compare/QuickBooksAlternatives";
+import FreshBooksAlternatives from "./pages/compare/FreshBooksAlternatives";
 import BestInvoicingSoftwareNigeria from "./pages/compare/BestInvoicingSoftwareNigeria";
 import BestInvoicingSoftwareIndia from "./pages/compare/BestInvoicingSoftwareIndia";
 import BestInvoicingSoftwareKenya from "./pages/compare/BestInvoicingSoftwareKenya";
@@ -156,6 +161,8 @@ const App = () => (
               {/* Company pages */}
               <Route path="pricing" element={<Pricing />} />
               <Route path="why-invoicemonk" element={<WhyInvoicemonk />} />
+              <Route path="ai" element={<AIInfo />} />
+              <Route path="reviews" element={<Reviews />} />
               <Route path="compliance" element={<Compliance />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
@@ -233,6 +240,7 @@ const App = () => (
               <Route path="small-businesses" element={<SmallBusinesses />} />
               <Route path="developer" element={<Developer />} />
               <Route path="agencies" element={<Agencies />} />
+              <Route path="agency-billing-software" element={<AgencyBillingSoftware />} />
               <Route path="photographers" element={<Photographers />} />
               <Route path="lawyers" element={<Lawyers />} />
               <Route path="accountants" element={<Accountants />} />
@@ -257,6 +265,8 @@ const App = () => (
               <Route path="compare/best-free-invoicing-software" element={<BestFreeInvoicingSoftware />} />
               <Route path="compare/best-invoicing-software-freelancers" element={<BestForFreelancers />} />
               <Route path="compare/wave-alternatives" element={<WaveAlternatives />} />
+              <Route path="compare/quickbooks-alternatives" element={<QuickBooksAlternatives />} />
+              <Route path="compare/freshbooks-alternatives" element={<FreshBooksAlternatives />} />
               <Route path="compare/best-invoicing-software-nigeria" element={<BestInvoicingSoftwareNigeria />} />
               <Route path="compare/best-invoicing-software-india" element={<BestInvoicingSoftwareIndia />} />
               <Route path="compare/best-invoicing-software-kenya" element={<BestInvoicingSoftwareKenya />} />

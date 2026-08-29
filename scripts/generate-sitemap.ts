@@ -14,7 +14,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE_URL = 'https://invoicemonk.com';
-const CURRENT_DATE = new Date().toISOString().split('T')[0];
 
 // Only English is active
 const languages = [
@@ -78,7 +77,7 @@ interface PageEntry {
   path: string; // relative path without language prefix, e.g. "/pricing"
   changefreq?: string;
   priority?: number;
-  /** Per-entry ISO date override; falls back to CURRENT_DATE when omitted. */
+  /** Per-entry ISO date override; omitted from output when absent. */
   lastmod?: string;
 }
 
@@ -105,6 +104,7 @@ const staticPages: PageEntry[] = [
   { path: '/contractors', priority: 0.8, changefreq: 'monthly' },
   { path: '/small-businesses', priority: 0.8, changefreq: 'monthly' },
   { path: '/agencies', priority: 0.8, changefreq: 'monthly' },
+  { path: '/agency-billing-software', priority: 0.8, changefreq: 'monthly' },
   { path: '/photographers', priority: 0.8, changefreq: 'monthly' },
   { path: '/lawyers', priority: 0.8, changefreq: 'monthly' },
   { path: '/accountants', priority: 0.8, changefreq: 'monthly' },
@@ -115,6 +115,10 @@ const staticPages: PageEntry[] = [
   { path: '/compare/best-free-invoicing-software', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/best-invoicing-software-freelancers', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/wave-alternatives', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/quickbooks-alternatives', priority: 0.7, changefreq: 'monthly' },
+  { path: '/compare/freshbooks-alternatives', priority: 0.7, changefreq: 'monthly' },
+  { path: '/ai', priority: 0.8, changefreq: 'monthly' },
+  { path: '/reviews', priority: 0.7, changefreq: 'weekly' },
   { path: '/compare/best-invoicing-software-nigeria', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/best-invoicing-software-india', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/best-invoicing-software-kenya', priority: 0.7, changefreq: 'monthly' },
@@ -193,13 +197,17 @@ function generateXML(pages: PageEntry[]): string {
   const urlEntries: string[] = [];
 
   for (const page of pages) {
+    // <lastmod> is emitted ONLY from a real page-specific date (lastAudited /
+    // dateModified / date / lastReviewed). Never fall back to the build date —
+    // a generation-time timestamp is not a content-change signal.
     urlEntries.push(`  <url>
-    <loc>${SITE_URL}/en${page.path}</loc>
-    <lastmod>${page.lastmod || CURRENT_DATE}</lastmod>
+    <loc>${SITE_URL}/en${page.path}</loc>${page.lastmod ? `
+    <lastmod>${page.lastmod}</lastmod>` : ''}
     <changefreq>${page.changefreq || 'monthly'}</changefreq>
     <priority>${(page.priority ?? 0.5).toFixed(1)}</priority>
   </url>`);
   }
+
 
 
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -268,7 +276,7 @@ function main() {
   const blogSlugs = extractSlugs(path.join(__dirname, '../src/data/blogPosts.ts'), /slug:\s*['"][^'"]+['"]/g);
   scanDates(path.join(__dirname, '../src/data/blogPosts.ts'));
   // Also scan numbered cluster files for additional blog posts
-  for (let i = 9; i <= 21; i++) {
+  for (let i = 9; i <= 22; i++) {
     const clusterPath = path.join(__dirname, `../src/data/blogPostsCluster${i}.ts`);
     const clusterSlugs = extractSlugs(clusterPath, /slug:\s*['"][^'"]+['"]/g);
     clusterSlugs.forEach(s => { if (!blogSlugs.includes(s)) blogSlugs.push(s); });

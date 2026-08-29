@@ -278,13 +278,13 @@ export default function BestFreeInvoicingSoftware() {
               <Card className="border-primary/40 bg-primary/5">
                 <CardContent className="p-5">
                   <h3 className="font-bold text-foreground mb-2">Invoicemonk</h3>
-                  <p className="text-sm text-muted-foreground mb-3">Purpose-built for cross-border freelance invoicing — compliance-first invoice generation, multi-currency, automatic payment reminders, and payment tracking included. Invoicemonk is paid-only; no free tier.</p>
+                  <p className="text-sm text-muted-foreground mb-3">Purpose-built for cross-border freelance invoicing — compliance-first invoice generation, multi-currency, automatic payment reminders, and payment tracking included. Invoicemonk has a Free plan ($0/month, 3 invoices/month, 1 user).</p>
                   <ul className="text-sm text-muted-foreground space-y-1.5">
                     <li><strong className="text-foreground">Pro — $15/mo:</strong> Unlimited invoices, unlimited clients, unlimited currency accounts, up to 5 team members, custom branding, full audit trail, data exports.</li>
                     <li><strong className="text-foreground">SME — $49/mo:</strong> Everything in Pro + online payments, advanced reports, premium templates, unlimited team.</li>
                     <li><strong className="text-foreground">Biz — Custom:</strong> E-invoicing & government submission, dedicated account manager, SLA guarantee.</li>
                   </ul>
-                  <p className="text-xs text-muted-foreground mt-3">No free plan or trial. Cancel anytime. <Link to="/pricing" className="text-primary hover:underline">See full pricing</Link>.</p>
+                  <p className="text-xs text-muted-foreground mt-3">Free plan available permanently. Cancel anytime. <Link to="/pricing" className="text-primary hover:underline">See full pricing</Link>.</p>
                 </CardContent>
               </Card>
             </div>

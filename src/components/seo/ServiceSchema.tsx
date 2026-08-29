@@ -6,7 +6,7 @@ interface ServiceSchemaProps {
   serviceType: string;
   description: string;
   url: string;
-  /** Optional price - defaults to "0" for Pro plan */
+  /** Optional lowest price for this service - defaults to "0" (Free plan) */
   price?: string;
   priceCurrency?: string;
 }
@@ -49,9 +49,16 @@ export function ServiceSchema({
     "offers": {
       "@type": "Offer",
       "price": price,
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": price,
+        "priceCurrency": priceCurrency,
+        "billingIncrement": 1,
+        "unitCode": "MON"
+      },
       "priceCurrency": priceCurrency,
       "availability": "https://schema.org/InStock",
-      "description": "Pro from $15/month with premium options"
+      "description": "Free plan available; Pro from $15/month, SME $49/month, Biz custom"
     },
     "termsOfService": `${BASE}/${prefix}/terms-of-service`,
     "serviceOutput": {

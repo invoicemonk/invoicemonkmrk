@@ -17,14 +17,12 @@ import { addBlockAnswers } from '../src/utils/blockAnswers';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const FILES = [
-  'blogPostsClusterEInvoicing.ts',
-  'blogPostsClusterEInvoicing2.ts',
-  'blogPostsClusterEInvoicing3.ts',
-  'blogPostsClusterEInvoicing4.ts',
-  'blogPostsClusterEInvoicing5.ts',
-  'blogPostsClusterEInvoicing6.ts',
-];
+// Every article data file. Files whose content blocks use ${} interpolation
+// or escaped backticks are skipped (the regex below can't safely rewrite them).
+const FILES = fs
+  .readdirSync(path.join(__dirname, '../src/data'))
+  .filter((f) => /^blogPosts.*\.ts$/.test(f))
+  .sort();
 
 // Match `content: `…`` template-literal blocks. We confirmed these files
 // contain no ${} interpolations or escaped backticks, so this is safe.
@@ -36,6 +34,14 @@ let totalNewAnswers = 0;
 for (const file of FILES) {
   const filePath = path.join(__dirname, '../src/data', file);
   const src = fs.readFileSync(filePath, 'utf-8');
+
+  // Safety: skip any file whose content template literals interpolate or
+  // escape backticks — rewriting those with a regex would corrupt source.
+  const risky = /content:\s*`[\s\S]*?\$\{/.test(src) || /\\`/.test(src);
+  if (risky) {
+    console.log(`⏭️  ${file}: skipped (template interpolation / escaped backtick)`);
+    continue;
+  }
 
   let postsInFile = 0;
   let answersInFile = 0;

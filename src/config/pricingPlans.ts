@@ -3,7 +3,7 @@ export interface PlanFeature {
   included: boolean;
 }
 
-export type PricingPlanId = 'professional' | 'sme' | 'business';
+export type PricingPlanId = 'free' | 'professional' | 'sme' | 'business';
 
 export interface PricingPlan {
   id: PricingPlanId;
@@ -17,6 +17,16 @@ export interface PricingPlan {
   compliance?: boolean;
   customPricing?: boolean;
 }
+
+export const freeFeatures = [
+  '3 invoices per month',
+  'Unlimited clients',
+  '1 user',
+  '1 currency account',
+  'Client management',
+  'Immutable audit trail',
+  'In-app support',
+];
 
 export const proFeatures = [
   'Unlimited invoices',
@@ -55,6 +65,16 @@ export const bizFeatures = [
 
 export function getPricingPlans(): PricingPlan[] {
   return [
+    {
+      id: 'free',
+      name: 'Free',
+      description: 'For trying Invoicemonk with light invoicing needs',
+      features: freeFeatures,
+      cta: 'Start for free',
+      ctaLink: 'https://app.invoicemonk.com/signup?plan=free',
+      popular: false,
+      compliance: true,
+    },
     {
       id: 'professional',
       name: 'Pro',
@@ -96,6 +116,7 @@ export function calculatePrice(
   isAnnual: boolean
 ): { monthly: number; total: number } {
   const prices: Record<PricingPlanId, number> = {
+    free: 0,
     professional: 15,
     sme: 49,
     business: 0,

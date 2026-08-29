@@ -35,16 +35,17 @@ export function SoftwareApplicationSchema({
     "softwareVersion": "1.0",
     "offers": {
       "@type": "AggregateOffer",
-      "lowPrice": "15",
-      "highPrice": "129",
+      "lowPrice": "0",
+      "highPrice": "49",
       "priceCurrency": "USD",
       "offerCount": pricedPlans.length,
       "offers": pricedPlans.map(({ plan, price }) => ({
         "@type": "Offer",
         "name": `${plan.name} Plan`,
-        "price": plan.customPricing ? "0" : String(price),
-        "priceCurrency": "USD",
-        "description": plan.customPricing ? `${plan.description}; custom pricing` : plan.description,
+        ...(plan.customPricing
+          ? { "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "valueAddedTaxIncluded": false } }
+          : { "price": String(price), "priceCurrency": "USD" }),
+        "description": plan.customPricing ? `${plan.description}; custom pricing — contact sales` : plan.description,
       })),
     },
     "featureList": [

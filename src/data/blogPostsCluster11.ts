@@ -48,26 +48,12 @@ export const cluster11Posts: BlogPost[] = [
       { label: 'Free GST Invoice Generator for India', url: '/invoicing', description: 'Create GST-compliant invoices with GSTIN and HSN codes' },
       { label: 'Compliance Features', url: '/compliance', description: 'See how Invoicemonk handles Indian tax compliance' },
     ],
-    content: `
-<p><strong>GST e-invoicing is mandatory in India for businesses above ₹5 crore turnover.</strong> Since the rollout began in October 2020, the Goods and Services Tax Network (GSTN) has progressively lowered the threshold from ₹500 crore to ₹5 crore (August 2023), with universal coverage expected by 2026–2027. Non-compliance carries penalties of ₹10,000 or 100% of tax due per invoice.</p>
-
-<p>This guide covers how the Invoice Registration Portal (IRP) works, the IRN generation process, mandatory fields (GSTIN, HSN/SAC, CGST/SGST/IGST), the penalty regime, and step-by-step compliance for freelancers, e-commerce sellers, and exporters. Over 800 million e-invoices were generated in 2025, and the system is now the backbone of India's GST enforcement.</p>
-
-<h2>What Is GST E-Invoicing?</h2>
-
-<p>GST e-invoicing is <em>not</em> about generating invoices on a government portal. Instead, it's a system where businesses generate invoices on their own software, then report them to the <strong>Invoice Registration Portal (IRP)</strong> in a standardised JSON format. The IRP validates the invoice, generates an <strong>Invoice Reference Number (IRN)</strong> and a digitally signed <strong>QR code</strong>, and returns them to the business.</p>
-
-<p>Key components of the e-invoice ecosystem:</p>
-<ul>
+    content: `<p><strong>GST e-invoicing is mandatory in India for businesses above ₹5 crore turnover.</strong> Since the rollout began in October 2020, the Goods and Services Tax Network (GSTN) has progressively lowered the threshold from ₹500 crore to ₹5 crore (August 2023), with universal coverage expected by 2026–2027. Non-compliance carries penalties of ₹10,000 or 100% of tax due per invoice.</p><p>This guide covers how the Invoice Registration Portal (IRP) works, the IRN generation process, mandatory fields (GSTIN, HSN/SAC, CGST/SGST/IGST), the penalty regime, and step-by-step compliance for freelancers, e-commerce sellers, and exporters. Over 800 million e-invoices were generated in 2025, and the system is now the backbone of India's GST enforcement.</p><h2>What Is GST E-Invoicing?</h2><p class="block-answer" data-answer="true">GST e-invoicing is not about generating invoices on a government portal.  Instead, it's a system where businesses generate invoices on their own software, then report them to the Invoice Registration Portal (IRP) in a standardised JSON format.</p><p>GST e-invoicing is <em>not</em> about generating invoices on a government portal. Instead, it's a system where businesses generate invoices on their own software, then report them to the <strong>Invoice Registration Portal (IRP)</strong> in a standardised JSON format. The IRP validates the invoice, generates an <strong>Invoice Reference Number (IRN)</strong> and a digitally signed <strong>QR code</strong>, and returns them to the business.</p><p>Key components of the e-invoice ecosystem:</p><ul>
   <li><strong>Invoice Registration Portal (IRP)</strong> — The central hub that validates invoices, generates IRN, and pushes data to the GST portal and e-way bill system</li>
   <li><strong>Invoice Reference Number (IRN)</strong> — A unique 64-character hash that serves as the invoice's digital identity</li>
   <li><strong>QR Code</strong> — Contains key invoice parameters for quick verification by recipients and tax authorities</li>
   <li><strong>e-Invoice Schema</strong> — The standardised JSON format (based on PEPPOL) that all invoices must follow</li>
-</ul>
-
-<h2>Who Must Comply With GST E-Invoicing? (Threshold Timeline)</h2>
-
-<table>
+</ul><h2>Who Must Comply With GST E-Invoicing? (Threshold Timeline)</h2><table>
   <thead><tr><th>Phase</th><th>Turnover Threshold</th><th>Effective Date</th></tr></thead>
   <tbody>
     <tr><td>Phase 1</td><td>₹500 crore and above</td><td>October 2020 ✅</td></tr>
@@ -78,14 +64,7 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Phase 6</td><td>₹5 crore and above</td><td>August 2023 ✅</td></tr>
     <tr><td>Expected</td><td>All GST-registered businesses</td><td>2026–2027 (projected)</td></tr>
   </tbody>
-</table>
-
-<p><strong>Even if your turnover is below ₹5 crore, prepare now.</strong> The government has consistently lowered the threshold. Businesses that adopt e-invoicing early benefit from cleaner GST returns (auto-population of GSTR-1), faster ITC claims, and smoother compliance when the mandate reaches their tier.</p>
-
-<h2>How Does the IRP E-Invoicing Process Work?</h2>
-
-<p>The e-invoicing workflow follows these steps:</p>
-<ol>
+</table><p><strong>Even if your turnover is below ₹5 crore, prepare now.</strong> The government has consistently lowered the threshold. Businesses that adopt e-invoicing early benefit from cleaner GST returns (auto-population of GSTR-1), faster ITC claims, and smoother compliance when the mandate reaches their tier.</p><h2>How Does the IRP E-Invoicing Process Work?</h2><p class="block-answer" data-answer="true">The e-invoicing workflow follows these steps:</p><p>The e-invoicing workflow follows these steps:</p><ol>
   <li><strong>Generate invoice</strong> on your billing/accounting software with all mandatory fields</li>
   <li><strong>Convert to JSON</strong> in the e-invoice schema format</li>
   <li><strong>Upload to IRP</strong> via API or bulk upload</li>
@@ -93,14 +72,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>IRN generated</strong> — a unique hash is created and a QR code is digitally signed</li>
   <li><strong>Data pushed</strong> to the GST portal (auto-populates GSTR-1) and e-way bill portal</li>
   <li><strong>Signed invoice returned</strong> to your software with IRN and QR code</li>
-</ol>
-
-<p>The entire process takes seconds when automated. The 24-hour reporting window means you must report the invoice to IRP within 24 hours of generation (for businesses with turnover above ₹100 crore).</p>
-
-<h2>What Are the Mandatory Fields for a GST E-Invoice?</h2>
-
-<p>Every e-invoice must include:</p>
-<ul>
+</ol><p>The entire process takes seconds when automated. The 24-hour reporting window means you must report the invoice to IRP within 24 hours of generation (for businesses with turnover above ₹100 crore).</p><h2>What Are the Mandatory Fields for a GST E-Invoice?</h2><p class="block-answer" data-answer="true">the Mandatory Fields for a GST E-Invoice is every e-invoice must include:</p><p>Every e-invoice must include:</p><ul>
   <li><strong>Supplier GSTIN</strong> and legal name</li>
   <li><strong>Recipient GSTIN</strong> (for B2B transactions)</li>
   <li><strong>Document type</strong> — Invoice (INV), Credit Note (CRN), or Debit Note (DBN)</li>
@@ -111,46 +83,20 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Tax details</strong> — CGST, SGST, IGST rates and amounts per item</li>
   <li><strong>Total invoice value</strong> including tax breakdowns</li>
   <li><strong>Place of supply</strong> — state code determining inter/intra-state taxation</li>
-</ul>
-
-<h2>What Are the Penalties for Non-Compliance?</h2>
-
-<p>The consequences of not complying with GST e-invoicing are significant:</p>
-<ul>
+</ul><h2>What Are the Penalties for Non-Compliance?</h2><p class="block-answer" data-answer="true">The consequences of not complying with GST e-invoicing are significant:</p><p>The consequences of not complying with GST e-invoicing are significant:</p><ul>
   <li><strong>Invoice treated as invalid</strong> — the recipient cannot claim Input Tax Credit (ITC)</li>
   <li><strong>Penalty of ₹10,000 or 100% of tax due</strong> (whichever is higher) per invoice under Section 122</li>
   <li><strong>₹25,000 penalty</strong> for incorrect invoicing under Section 125</li>
   <li><strong>GSTR-1 auto-population fails</strong> — manual filing required, increasing error risk</li>
   <li><strong>E-way bill generation blocked</strong> for non-compliant businesses</li>
-</ul>
-
-<h2>How Does E-Invoicing Apply to Different Business Types?</h2>
-
-<h3>Freelancers and Consultants</h3>
-<p>If your annual turnover exceeds the threshold, every B2B invoice must go through IRP. For B2C invoices, e-invoicing is currently not mandatory — but the QR code requirement applies to B2C invoices for businesses above ₹500 crore turnover.</p>
-
-<h3>E-commerce Sellers</h3>
-<p>E-commerce operators and sellers on platforms like Amazon and Flipkart must comply if they meet the turnover threshold. TCS (Tax Collected at Source) considerations add complexity — ensure your invoicing software handles the 1% TCS deduction correctly.</p>
-
-<h3>Exporters</h3>
-<p>Export invoices must also go through IRP. Use supply type code "EXPWP" (export with payment) or "EXPWOP" (export without payment). LUT (Letter of Undertaking) details should be included for zero-rated exports.</p>
-
-<h2>Which Software Supports GST E-Invoicing in India?</h2>
-
-<p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> creates GST-compliant invoices with:</p>
-<ul>
+</ul><h2>How Does E-Invoicing Apply to Different Business Types?</h2><h3>Freelancers and Consultants</h3><p>If your annual turnover exceeds the threshold, every B2B invoice must go through IRP. For B2C invoices, e-invoicing is currently not mandatory — but the QR code requirement applies to B2C invoices for businesses above ₹500 crore turnover.</p><h3>E-commerce Sellers</h3><p>E-commerce operators and sellers on platforms like Amazon and Flipkart must comply if they meet the turnover threshold. TCS (Tax Collected at Source) considerations add complexity — ensure your invoicing software handles the 1% TCS deduction correctly.</p><h3>Exporters</h3><p>Export invoices must also go through IRP. Use supply type code "EXPWP" (export with payment) or "EXPWOP" (export without payment). LUT (Letter of Undertaking) details should be included for zero-rated exports.</p><h2>Which Software Supports GST E-Invoicing in India?</h2><p class="block-answer" data-answer="true">Invoicemonk's invoice generator creates GST-compliant invoices with:</p><p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> creates GST-compliant invoices with:</p><ul>
   <li><strong>Auto-labeled GSTIN fields</strong> when INR currency is selected</li>
   <li><strong>HSN/SAC code support</strong> in line item descriptions</li>
   <li><strong>CGST/SGST/IGST auto-calculation</strong> with per-item tax rate overrides</li>
   <li><strong>18% GST default</strong> that can be customized per item</li>
   <li><strong>Place of supply</strong> determination for correct inter/intra-state tax application</li>
   <li><strong>Professional PDF output</strong> ready for client delivery and record-keeping</li>
-</ul>
-
-<p>For businesses needing IRP integration, Invoicemonk's paid plans include JSON export in the e-invoice schema format, making it easy to upload to the IRP or connect via API.</p>
-
-<p>Read more about <a href="/__LANG__/compliance">Invoicemonk's compliance features</a> or try our <a href="/__LANG__/invoicing">free GST invoice generator</a> to create your first compliant invoice in under 5 minutes.</p>
-    `
+</ul><p>For businesses needing IRP integration, Invoicemonk's paid plans include JSON export in the e-invoice schema format, making it easy to upload to the IRP or connect via API.</p><p>Read more about <a href="/__LANG__/compliance">Invoicemonk's compliance features</a> or try our <a href="/__LANG__/invoicing">free GST invoice generator</a> to create your first compliant invoice in under 5 minutes.</p>`
   },
 
   // P1-IN-02 — GST Registration Guide
@@ -184,13 +130,7 @@ export const cluster11Posts: BlogPost[] = [
     relatedTools: [
       { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Create GST invoices after registration' },
     ],
-    content: `
-<p><strong>GST registration is the first step toward tax compliance for any Indian business.</strong> Whether you're a freelancer crossing the turnover threshold, a startup launching an e-commerce brand, or a consultant going formal, understanding the GST registration process saves time, avoids penalties, and unlocks benefits like Input Tax Credit (ITC).</p>
-
-<h2>Who Must Register for GST?</h2>
-
-<p>GST registration is mandatory for:</p>
-<ul>
+    content: `<p><strong>GST registration is the first step toward tax compliance for any Indian business.</strong> Whether you're a freelancer crossing the turnover threshold, a startup launching an e-commerce brand, or a consultant going formal, understanding the GST registration process saves time, avoids penalties, and unlocks benefits like Input Tax Credit (ITC).</p><h2>Who Must Register for GST?</h2><p class="block-answer" data-answer="true">GST registration is mandatory for:</p><p>GST registration is mandatory for:</p><ul>
   <li><strong>Goods suppliers</strong> with aggregate turnover exceeding <strong>₹40 lakh</strong> (₹20 lakh in special category states like the North-Eastern states, Himachal Pradesh, and Uttarakhand)</li>
   <li><strong>Service providers</strong> with turnover exceeding <strong>₹20 lakh</strong> (₹10 lakh in special category states)</li>
   <li><strong>E-commerce sellers</strong> — mandatory regardless of turnover</li>
@@ -199,23 +139,14 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Non-resident taxable persons</strong></li>
   <li><strong>Agents and input service distributors</strong></li>
   <li><strong>TDS/TCS deductors</strong></li>
-</ul>
-
-<h2>Benefits of GST Registration</h2>
-
-<p>Even if you're below the threshold, voluntary registration offers advantages:</p>
-<ul>
+</ul><h2>Benefits of GST Registration</h2><p class="block-answer" data-answer="true">Even if you're below the threshold, voluntary registration offers advantages:</p><p>Even if you're below the threshold, voluntary registration offers advantages:</p><ul>
   <li><strong>Input Tax Credit (ITC)</strong> — claim credit on GST paid for business purchases</li>
   <li><strong>Legal recognition</strong> — establishes your business as a legitimate supplier</li>
   <li><strong>Interstate commerce</strong> — sell across state borders without restrictions</li>
   <li><strong>E-commerce access</strong> — sell on Amazon, Flipkart, and other platforms</li>
   <li><strong>Government contracts</strong> — GSTIN required for most tenders</li>
   <li><strong>Business loans</strong> — banks view GST registration favorably</li>
-</ul>
-
-<h2>Documents Required</h2>
-
-<table>
+</ul><h2>Documents Required</h2><table>
   <thead><tr><th>Document</th><th>For Proprietorship</th><th>For Company/LLP</th></tr></thead>
   <tbody>
     <tr><td>PAN Card</td><td>Proprietor's PAN</td><td>Company/LLP PAN</td></tr>
@@ -227,11 +158,7 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Incorporation Certificate</td><td>N/A</td><td>Required</td></tr>
     <tr><td>Board Resolution</td><td>N/A</td><td>Authorizing signatory</td></tr>
   </tbody>
-</table>
-
-<h2>Step-by-Step Registration Process</h2>
-
-<ol>
+</table><h2>Step-by-Step Registration Process</h2><p class="block-answer" data-answer="true">Step-by-Step Registration Process includes: Visit the GST Portal — Go to gst.  gov.</p><ol>
   <li><strong>Visit the GST Portal</strong> — Go to <code>gst.gov.in</code> and click "Register Now" under "Taxpayers"</li>
   <li><strong>Part A: Generate TRN</strong> — Enter PAN, mobile number, and email. Verify via OTP to receive a Temporary Reference Number (TRN)</li>
   <li><strong>Part B: Complete application</strong> — Log in with TRN and fill in business details, promoter/partner information, authorized signatory, place of business, and bank details</li>
@@ -240,32 +167,17 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>ARN generated</strong> — Application Reference Number issued for tracking</li>
   <li><strong>Officer review</strong> — Tax officer reviews within 3-7 working days</li>
   <li><strong>GSTIN issued</strong> — 15-digit GSTIN assigned upon approval</li>
-</ol>
-
-<h2>Composition Scheme: The Small Business Alternative</h2>
-
-<p>Businesses with turnover up to <strong>₹1.5 crore</strong> (₹75 lakh for special category states) can opt for the Composition Scheme:</p>
-<ul>
+</ol><h2>Composition Scheme: The Small Business Alternative</h2><p class="block-answer" data-answer="true">Businesses with turnover up to ₹1.</p><p>Businesses with turnover up to <strong>₹1.5 crore</strong> (₹75 lakh for special category states) can opt for the Composition Scheme:</p><ul>
   <li><strong>Lower tax rates</strong> — 1% for manufacturers, 5% for restaurants, 6% for service providers</li>
   <li><strong>Simplified returns</strong> — quarterly CMP-08 instead of monthly GSTR-1/3B</li>
   <li><strong>Less compliance burden</strong> — no e-invoicing or detailed HSN reporting</li>
-</ul>
-<p>However, composition dealers <strong>cannot</strong> claim ITC, make interstate supplies, or supply through e-commerce platforms.</p>
-
-<h2>Common Registration Mistakes to Avoid</h2>
-
-<ul>
+</ul><p>However, composition dealers <strong>cannot</strong> claim ITC, make interstate supplies, or supply through e-commerce platforms.</p><h2>Common Registration Mistakes to Avoid</h2><p class="block-answer" data-answer="true">Common Registration Mistakes to Avoid includes: Wrong PAN type — using personal PAN for a company (must use company PAN) Address mismatch — business address on application doesn't match supporting documents</p><ul>
   <li><strong>Wrong PAN type</strong> — using personal PAN for a company (must use company PAN)</li>
   <li><strong>Address mismatch</strong> — business address on application doesn't match supporting documents</li>
   <li><strong>Missing state registrations</strong> — if you operate in multiple states, you need separate GSTIN per state</li>
   <li><strong>Not registering for e-commerce</strong> — e-commerce sellers must register even below threshold</li>
   <li><strong>Delayed registration</strong> — penalties apply from the date registration was due, not from the date you apply</li>
-</ul>
-
-<p>Once registered, you'll need GST-compliant invoices. Use <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a> to create professional invoices with GSTIN, HSN codes, and automatic CGST/SGST/IGST calculations.</p>
-
-<p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>
-    `
+</ul><p>Once registered, you'll need GST-compliant invoices. Use <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a> to create professional invoices with GSTIN, HSN codes, and automatic CGST/SGST/IGST calculations.</p><p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>`
   },
 
   // P1-IN-03 — CGST/SGST/IGST Guide
@@ -295,25 +207,7 @@ export const cluster11Posts: BlogPost[] = [
     relatedTools: [
       { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Auto-calculates CGST/SGST/IGST' },
     ],
-    content: `
-<p><strong>One of the most confusing aspects of GST for Indian businesses is knowing which tax to charge.</strong> Unlike the previous VAT regime where you dealt with one state-level tax, GST splits into three components: CGST, SGST, and IGST. Getting this wrong on your invoices means compliance headaches, ITC mismatches, and potential penalties.</p>
-
-<h2>The Three Components of GST</h2>
-
-<h3>CGST — Central Goods and Services Tax</h3>
-<p>Collected by the <strong>Central Government</strong>. Applied on intra-state (within the same state) supplies. Rate is always half of the applicable GST rate.</p>
-
-<h3>SGST — State Goods and Services Tax</h3>
-<p>Collected by the <strong>State Government</strong>. Also applied on intra-state supplies, at the same rate as CGST. CGST and SGST are always charged together.</p>
-
-<h3>IGST — Integrated Goods and Services Tax</h3>
-<p>Collected by the <strong>Central Government</strong> and shared with the destination state. Applied on inter-state (different state) supplies, imports, and exports. Rate equals the full GST rate.</p>
-
-<h2>The Place of Supply Rule</h2>
-
-<p>The critical factor is the <strong>Place of Supply</strong> — where the goods are delivered or where the service is consumed:</p>
-
-<table>
+    content: `<p><strong>One of the most confusing aspects of GST for Indian businesses is knowing which tax to charge.</strong> Unlike the previous VAT regime where you dealt with one state-level tax, GST splits into three components: CGST, SGST, and IGST. Getting this wrong on your invoices means compliance headaches, ITC mismatches, and potential penalties.</p><h2>The Three Components of GST</h2><h3>CGST — Central Goods and Services Tax</h3><p>Collected by the <strong>Central Government</strong>. Applied on intra-state (within the same state) supplies. Rate is always half of the applicable GST rate.</p><h3>SGST — State Goods and Services Tax</h3><p>Collected by the <strong>State Government</strong>. Also applied on intra-state supplies, at the same rate as CGST. CGST and SGST are always charged together.</p><h3>IGST — Integrated Goods and Services Tax</h3><p>Collected by the <strong>Central Government</strong> and shared with the destination state. Applied on inter-state (different state) supplies, imports, and exports. Rate equals the full GST rate.</p><h2>The Place of Supply Rule</h2><p class="block-answer" data-answer="true">The critical factor is the Place of Supply — where the goods are delivered or where the service is consumed:</p><p>The critical factor is the <strong>Place of Supply</strong> — where the goods are delivered or where the service is consumed:</p><table>
   <thead><tr><th>Scenario</th><th>Tax Applied</th><th>Example</th></tr></thead>
   <tbody>
     <tr><td>Supplier and buyer in same state</td><td>CGST + SGST</td><td>Developer in Mumbai → Client in Pune (both Maharashtra)</td></tr>
@@ -322,32 +216,16 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Import</td><td>IGST</td><td>Software license from US company</td></tr>
     <tr><td>Union Territory</td><td>CGST + UTGST</td><td>Business in Chandigarh → Client in Chandigarh</td></tr>
   </tbody>
-</table>
-
-<h2>Invoice Examples</h2>
-
-<h3>Example 1: Intra-State (Same State)</h3>
-<p>A graphic designer in Bengaluru (Karnataka) invoices a client in Mysuru (Karnataka) for ₹50,000 of design services at 18% GST:</p>
-<ul>
+</table><h2>Invoice Examples</h2><h3>Example 1: Intra-State (Same State)</h3><p>A graphic designer in Bengaluru (Karnataka) invoices a client in Mysuru (Karnataka) for ₹50,000 of design services at 18% GST:</p><ul>
   <li>Design services: ₹50,000</li>
   <li>CGST @ 9%: ₹4,500</li>
   <li>SGST @ 9%: ₹4,500</li>
   <li><strong>Total: ₹59,000</strong></li>
-</ul>
-
-<h3>Example 2: Inter-State (Different States)</h3>
-<p>The same designer invoices a client in Mumbai (Maharashtra):</p>
-<ul>
+</ul><h3>Example 2: Inter-State (Different States)</h3><p>The same designer invoices a client in Mumbai (Maharashtra):</p><ul>
   <li>Design services: ₹50,000</li>
   <li>IGST @ 18%: ₹9,000</li>
   <li><strong>Total: ₹59,000</strong></li>
-</ul>
-
-<p>The total amount is the same — only the tax split differs. But getting the split wrong causes ITC mismatches during GST return filing.</p>
-
-<h2>Common GST Rates by Service Type</h2>
-
-<table>
+</ul><p>The total amount is the same — only the tax split differs. But getting the split wrong causes ITC mismatches during GST return filing.</p><h2>Common GST Rates by Service Type</h2><table>
   <thead><tr><th>Service/Good</th><th>GST Rate</th><th>Intra-State Split</th></tr></thead>
   <tbody>
     <tr><td>IT services, consulting, design</td><td>18%</td><td>9% CGST + 9% SGST</td></tr>
@@ -358,36 +236,20 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Educational services</td><td>Exempt</td><td>N/A</td></tr>
     <tr><td>Healthcare services</td><td>Exempt</td><td>N/A</td></tr>
   </tbody>
-</table>
-
-<h2>HSN/SAC Codes: Why They Matter</h2>
-
-<p>Every item on your invoice needs an HSN code (for goods) or SAC code (for services). The required digit count depends on your turnover:</p>
-<ul>
+</table><h2>HSN/SAC Codes: Why They Matter</h2><p class="block-answer" data-answer="true">Every item on your invoice needs an HSN code (for goods) or SAC code (for services).</p><p>Every item on your invoice needs an HSN code (for goods) or SAC code (for services). The required digit count depends on your turnover:</p><ul>
   <li><strong>Up to ₹5 crore</strong> — 4-digit HSN/SAC</li>
   <li><strong>Above ₹5 crore</strong> — 6-digit HSN/SAC</li>
-</ul>
-
-<p>Common SAC codes for freelancers and small businesses:</p>
-<ul>
+</ul><p>Common SAC codes for freelancers and small businesses:</p><ul>
   <li><code>998314</code> — IT design and development services</li>
   <li><code>998312</code> — IT consulting and support services</li>
   <li><code>998361</code> — Advertising services</li>
   <li><code>998399</code> — Other professional services</li>
   <li><code>998214</code> — Accounting and auditing services</li>
-</ul>
-
-<h2>ITC Implications</h2>
-
-<p>Getting the tax component right is essential for Input Tax Credit:</p>
-<ul>
+</ul><h2>ITC Implications</h2><p class="block-answer" data-answer="true">Getting the tax component right is essential for Input Tax Credit:</p><p>Getting the tax component right is essential for Input Tax Credit:</p><ul>
   <li><strong>CGST paid</strong> can be used against CGST or IGST liability (not SGST)</li>
   <li><strong>SGST paid</strong> can be used against SGST or IGST liability (not CGST)</li>
   <li><strong>IGST paid</strong> can be used against IGST, then CGST, then SGST liability</li>
-</ul>
-
-<p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> automatically applies the correct tax split when you select INR currency. You can override rates per line item for mixed-rate invoices.</p>
-    `
+</ul><p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> automatically applies the correct tax split when you select INR currency. You can override rates per line item for mixed-rate invoices.</p>`
   },
 
   // P1-IN-04 — HSN/SAC Code Guide
@@ -417,22 +279,13 @@ export const cluster11Posts: BlogPost[] = [
     relatedTools: [
       { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Add HSN/SAC codes to your invoices' },
     ],
-    content: `
-<p><strong>Every GST invoice in India must include HSN or SAC codes.</strong> HSN (Harmonized System of Nomenclature) codes classify goods, while SAC (Services Accounting Code) codes classify services. Getting these right is essential for GST compliance — wrong codes lead to incorrect tax rates, ITC mismatches, and scrutiny during audits.</p>
-
-<h2>Why HSN/SAC Codes Matter</h2>
-
-<ul>
+    content: `<p><strong>Every GST invoice in India must include HSN or SAC codes.</strong> HSN (Harmonized System of Nomenclature) codes classify goods, while SAC (Services Accounting Code) codes classify services. Getting these right is essential for GST compliance — wrong codes lead to incorrect tax rates, ITC mismatches, and scrutiny during audits.</p><h2>Why HSN/SAC Codes Matter</h2><p class="block-answer" data-answer="true">Determine GST rate — each HSN/SAC code maps to a specific tax rate GST return filing — GSTR-1 requires HSN-wise summary of outward supplies</p><ul>
   <li><strong>Determine GST rate</strong> — each HSN/SAC code maps to a specific tax rate</li>
   <li><strong>GST return filing</strong> — GSTR-1 requires HSN-wise summary of outward supplies</li>
   <li><strong>E-invoicing</strong> — mandatory field in the e-invoice JSON schema</li>
   <li><strong>ITC matching</strong> — codes must match between supplier and buyer for seamless credit</li>
   <li><strong>Audit compliance</strong> — authorities verify HSN codes against actual supplies</li>
-</ul>
-
-<h2>HSN Code Requirements by Turnover</h2>
-
-<table>
+</ul><h2>HSN Code Requirements by Turnover</h2><table>
   <thead><tr><th>Annual Turnover</th><th>HSN Digits Required</th><th>Applies To</th></tr></thead>
   <tbody>
     <tr><td>Up to ₹1.5 crore</td><td>Optional (recommended: 4)</td><td>Composition scheme taxpayers</td></tr>
@@ -440,11 +293,7 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Above ₹5 crore</td><td>6 digits</td><td>All taxpayers</td></tr>
     <tr><td>E-invoicing mandatory</td><td>6 digits</td><td>Businesses above e-invoicing threshold</td></tr>
   </tbody>
-</table>
-
-<h2>Common HSN Codes for Small Businesses</h2>
-
-<table>
+</table><h2>Common HSN Codes for Small Businesses</h2><table>
   <thead><tr><th>HSN Code</th><th>Description</th><th>GST Rate</th></tr></thead>
   <tbody>
     <tr><td>4901</td><td>Printed books, brochures</td><td>Nil</td></tr>
@@ -455,11 +304,7 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>3304</td><td>Beauty products, cosmetics</td><td>18%/28%</td></tr>
     <tr><td>9403</td><td>Furniture</td><td>18%</td></tr>
   </tbody>
-</table>
-
-<h2>Common SAC Codes for Freelancers & Service Providers</h2>
-
-<table>
+</table><h2>Common SAC Codes for Freelancers & Service Providers</h2><table>
   <thead><tr><th>SAC Code</th><th>Service Description</th><th>GST Rate</th></tr></thead>
   <tbody>
     <tr><td>998311</td><td>IT consulting services</td><td>18%</td></tr>
@@ -478,29 +323,15 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>999211</td><td>Publishing services</td><td>18%</td></tr>
     <tr><td>999611</td><td>Education services (exempt category)</td><td>Exempt</td></tr>
   </tbody>
-</table>
-
-<h2>How to Look Up HSN/SAC Codes</h2>
-
-<ol>
+</table><h2>How to Look Up HSN/SAC Codes</h2><p class="block-answer" data-answer="true">GST Portal — Use the "Search HSN Code" tool at services. gst.</p><ol>
   <li><strong>GST Portal</strong> — Use the "Search HSN Code" tool at <code>services.gst.gov.in/services/searchhsnsac</code></li>
   <li><strong>CBIC website</strong> — Central Board of Indirect Taxes has the full tariff schedule</li>
   <li><strong>Your accounting software</strong> — most GST-compliant tools include HSN/SAC lookup</li>
   <li><strong>Ask your CA</strong> — for complex or borderline classifications, consult your Chartered Accountant</li>
-</ol>
-
-<h2>Adding HSN/SAC Codes to Your Invoice</h2>
-
-<p>On your GST invoice, the HSN/SAC code should appear:</p>
-<ul>
+</ol><h2>Adding HSN/SAC Codes to Your Invoice</h2><p class="block-answer" data-answer="true">On your GST invoice, the HSN/SAC code should appear:</p><p>On your GST invoice, the HSN/SAC code should appear:</p><ul>
   <li>In the <strong>line item table</strong> — either as a separate column or within the item description</li>
   <li>In the <strong>HSN summary table</strong> at the bottom — showing total value and tax per HSN code</li>
-</ul>
-
-<p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> lets you add HSN/SAC codes in the line item descriptions. The generator auto-applies 18% GST when INR is selected, with per-item rate overrides for different tax slabs.</p>
-
-<p>For the complete GST e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>
-    `
+</ul><p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> lets you add HSN/SAC codes in the line item descriptions. The generator auto-applies 18% GST when INR is selected, with per-item rate overrides for different tax slabs.</p><p>For the complete GST e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>`
   },
 
   // P1-IN-05 — GST Return Filing Guide
@@ -530,12 +361,7 @@ export const cluster11Posts: BlogPost[] = [
     relatedTools: [
       { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Generate invoices that match your GSTR-1 entries' },
     ],
-    content: `
-<p><strong>Filing GST returns correctly and on time is one of the biggest compliance challenges for Indian small businesses.</strong> Miss a deadline, and you face late fees of ₹50/day (₹20/day for nil returns) plus 18% annual interest on unpaid tax. This guide explains every return you need to file, when it's due, and how to simplify the process.</p>
-
-<h2>GST Returns Overview</h2>
-
-<table>
+    content: `<p><strong>Filing GST returns correctly and on time is one of the biggest compliance challenges for Indian small businesses.</strong> Miss a deadline, and you face late fees of ₹50/day (₹20/day for nil returns) plus 18% annual interest on unpaid tax. This guide explains every return you need to file, when it's due, and how to simplify the process.</p><h2>GST Returns Overview</h2><table>
   <thead><tr><th>Return</th><th>Purpose</th><th>Frequency</th><th>Deadline</th></tr></thead>
   <tbody>
     <tr><td>GSTR-1</td><td>Outward supplies (sales)</td><td>Monthly or quarterly (QRMP)</td><td>11th of next month / 13th after quarter</td></tr>
@@ -545,21 +371,13 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>CMP-08</td><td>Composition scheme return</td><td>Quarterly</td><td>18th of month after quarter</td></tr>
     <tr><td>GSTR-4</td><td>Composition annual return</td><td>Annually</td><td>30th April of next FY</td></tr>
   </tbody>
-</table>
-
-<h2>QRMP Scheme: Quarterly Filing for Small Businesses</h2>
-
-<p>If your annual turnover is up to <strong>₹5 crore</strong>, you can opt for the <strong>Quarterly Return Monthly Payment (QRMP)</strong> scheme:</p>
-<ul>
+</table><h2>QRMP Scheme: Quarterly Filing for Small Businesses</h2><p class="block-answer" data-answer="true">If your annual turnover is up to ₹5 crore, you can opt for the Quarterly Return Monthly Payment (QRMP) scheme:</p><p>If your annual turnover is up to <strong>₹5 crore</strong>, you can opt for the <strong>Quarterly Return Monthly Payment (QRMP)</strong> scheme:</p><ul>
   <li><strong>File GSTR-1 and GSTR-3B quarterly</strong> instead of monthly</li>
   <li><strong>Pay tax monthly</strong> via PMT-06 challan (by 25th of next month)</li>
   <li><strong>Use Invoice Furnishing Facility (IFF)</strong> to report B2B invoices monthly (optional, for buyer's ITC)</li>
-</ul>
-<p>This reduces filing from 24 returns/year to just 8, a significant relief for small businesses and freelancers.</p>
-
-<h2>Step-by-Step: Filing GSTR-1</h2>
-
-<ol>
+</ul><p>This reduces filing from 24 returns/year to just 8, a significant relief for small businesses and freelancers.</p><h2>Step-by-Step: Filing GSTR-1</h2><p class="block-answer" data-answer="true">Step-by-Step: Filing GSTR-1 includes: Compile all invoices issued during the period — B2B, B2C, exports, credit/debit notes Categorize by type:
+    
+      B2B invoices (above ₹2.</p><ol>
   <li><strong>Compile all invoices</strong> issued during the period — B2B, B2C, exports, credit/debit notes</li>
   <li><strong>Categorize by type</strong>:
     <ul>
@@ -572,40 +390,25 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Upload to GST portal</strong> — use the online form or upload via JSON/Excel</li>
   <li><strong>Verify and submit</strong> — cross-check totals against your books</li>
   <li><strong>File with DSC or EVC</strong></li>
-</ol>
-
-<h2>Step-by-Step: Filing GSTR-3B</h2>
-
-<ol>
+</ol><h2>Step-by-Step: Filing GSTR-3B</h2><p class="block-answer" data-answer="true">Step-by-Step: Filing GSTR-3B includes: Review auto-populated data — GSTR-3B now pulls data from GSTR-1 and GSTR-2B Verify outward supplies — total taxable value and tax amounts</p><ol>
   <li><strong>Review auto-populated data</strong> — GSTR-3B now pulls data from GSTR-1 and GSTR-2B</li>
   <li><strong>Verify outward supplies</strong> — total taxable value and tax amounts</li>
   <li><strong>Enter ITC details</strong> — verify against GSTR-2B (auto-generated from suppliers' GSTR-1)</li>
   <li><strong>Calculate net tax payable</strong> — output tax minus eligible ITC</li>
   <li><strong>Pay tax via electronic cash ledger</strong> — create challan if cash balance insufficient</li>
   <li><strong>Submit and file</strong> with DSC or EVC</li>
-</ol>
-
-<h2>Late Filing Penalties</h2>
-
-<ul>
+</ol><h2>Late Filing Penalties</h2><p class="block-answer" data-answer="true">Late Filing Penalties includes: GSTR-1 late fee: ₹50/day (₹25 CGST + ₹25 SGST), capped at ₹10,000 per return GSTR-3B late fee: ₹50/day (₹20/day for nil returns), capped at ₹10,000</p><ul>
   <li><strong>GSTR-1 late fee</strong>: ₹50/day (₹25 CGST + ₹25 SGST), capped at ₹10,000 per return</li>
   <li><strong>GSTR-3B late fee</strong>: ₹50/day (₹20/day for nil returns), capped at ₹10,000</li>
   <li><strong>Interest on unpaid tax</strong>: 18% per annum on the outstanding amount</li>
   <li><strong>GSTR-9 late fee</strong>: ₹200/day (₹100 CGST + ₹100 SGST), capped at 0.5% of turnover</li>
-</ul>
-
-<h2>Tips for Hassle-Free GST Filing</h2>
-
-<ul>
+</ul><h2>Tips for Hassle-Free GST Filing</h2><p class="block-answer" data-answer="true">Tips for Hassle-Free GST Filing includes: Use e-invoicing-ready software — auto-populates GSTR-1 from reported invoices Reconcile monthly — match your books with GSTR-2B before filing GSTR-3B</p><ul>
   <li><strong>Use e-invoicing-ready software</strong> — auto-populates GSTR-1 from reported invoices</li>
   <li><strong>Reconcile monthly</strong> — match your books with GSTR-2B before filing GSTR-3B</li>
   <li><strong>File nil returns on time</strong> — even zero-value returns attract late fees if missed</li>
   <li><strong>Set calendar reminders</strong> — for the 11th (GSTR-1), 20th (GSTR-3B), and 25th (PMT-06)</li>
   <li><strong>Keep digital copies</strong> — of all invoices, credit notes, and purchase records</li>
-</ul>
-
-<p>Accurate invoices are the foundation of smooth GST filing. Create compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>, complete with GSTIN, HSN codes, and correct CGST/SGST/IGST calculations.</p>
-    `
+</ul><p>Accurate invoices are the foundation of smooth GST filing. Create compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>, complete with GSTIN, HSN codes, and correct CGST/SGST/IGST calculations.</p>`
   },
 
   // P1-IN-06 — Input Tax Credit Guide
@@ -635,45 +438,21 @@ export const cluster11Posts: BlogPost[] = [
     relatedTools: [
       { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Create ITC-eligible invoices for your suppliers' },
     ],
-    content: `
-<p><strong>Input Tax Credit is the backbone of the GST system</strong> — it ensures tax is levied only on the value added at each stage, not on the full price. For small businesses, properly claiming ITC can mean the difference between profitability and overpaying the government. Yet according to a ClearTax survey, <strong>over 40% of small businesses in India lose ITC due to documentation errors or missed deadlines</strong>.</p>
-
-<h2>How ITC Works: A Simple Example</h2>
-
-<p>Consider a web developer in Bengaluru who buys a laptop for ₹80,000 + 18% GST (₹14,400):</p>
-<ul>
+    content: `<p><strong>Input Tax Credit is the backbone of the GST system</strong> — it ensures tax is levied only on the value added at each stage, not on the full price. For small businesses, properly claiming ITC can mean the difference between profitability and overpaying the government. Yet according to a ClearTax survey, <strong>over 40% of small businesses in India lose ITC due to documentation errors or missed deadlines</strong>.</p><h2>How ITC Works: A Simple Example</h2><p class="block-answer" data-answer="true">Consider a web developer in Bengaluru who buys a laptop for ₹80,000 + 18% GST (₹14,400):</p><p>Consider a web developer in Bengaluru who buys a laptop for ₹80,000 + 18% GST (₹14,400):</p><ul>
   <li><strong>GST paid on purchase</strong> (input): ₹14,400</li>
   <li><strong>GST collected on services</strong> (output): ₹36,000 (on ₹2,00,000 revenue)</li>
   <li><strong>Net GST payable</strong>: ₹36,000 – ₹14,400 = <strong>₹21,600</strong></li>
-</ul>
-<p>Without ITC, the developer would pay the full ₹36,000 to the government.</p>
-
-<h2>Conditions for Claiming ITC</h2>
-
-<p>All four conditions must be met:</p>
-<ol>
+</ul><p>Without ITC, the developer would pay the full ₹36,000 to the government.</p><h2>Conditions for Claiming ITC</h2><p class="block-answer" data-answer="true">All four conditions must be met:</p><p>All four conditions must be met:</p><ol>
   <li><strong>Possession of tax invoice</strong> — You must have a valid tax invoice, debit note, or bill of entry (for imports) with the supplier's GSTIN, HSN/SAC codes, and correct tax amounts</li>
   <li><strong>Goods/services received</strong> — Physical receipt of goods or actual performance of services. For goods received in installments, ITC can be claimed on the last installment</li>
   <li><strong>Supplier has filed return and paid tax</strong> — The invoice must appear in your auto-generated GSTR-2B (populated from the supplier's GSTR-1)</li>
   <li><strong>You have filed GSTR-3B</strong> — ITC must be claimed in the return for the tax period in which the invoice falls (or by 30th November of the following financial year)</li>
-</ol>
-
-<h2>ITC Matching: GSTR-2B Process</h2>
-
-<p>Since January 2022, ITC claims are linked to the <strong>GSTR-2B</strong> auto-generated statement:</p>
-<ol>
+</ol><h2>ITC Matching: GSTR-2B Process</h2><p class="block-answer" data-answer="true">Since January 2022, ITC claims are linked to the GSTR-2B auto-generated statement:</p><p>Since January 2022, ITC claims are linked to the <strong>GSTR-2B</strong> auto-generated statement:</p><ol>
   <li>Your supplier files their GSTR-1 with your invoice details</li>
   <li>The GST system auto-generates your GSTR-2B showing all eligible ITC</li>
   <li>You verify GSTR-2B against your purchase records</li>
   <li>Claim ITC in your GSTR-3B up to the amount in GSTR-2B</li>
-</ol>
-
-<p><strong>Important</strong>: You can claim ITC beyond GSTR-2B up to a limit (currently 5% of eligible ITC in GSTR-2B) for invoices not yet reflected due to supplier delays. But this excess claim must be reversed once the actual GSTR-2B is finalized.</p>
-
-<h2>Blocked ITC: What You Cannot Claim</h2>
-
-<p>Under Section 17(5), ITC is <strong>not available</strong> for:</p>
-<ul>
+</ol><p><strong>Important</strong>: You can claim ITC beyond GSTR-2B up to a limit (currently 5% of eligible ITC in GSTR-2B) for invoices not yet reflected due to supplier delays. But this excess claim must be reversed once the actual GSTR-2B is finalized.</p><h2>Blocked ITC: What You Cannot Claim</h2><p class="block-answer" data-answer="true">Under Section 17(5), ITC is not available for:</p><p>Under Section 17(5), ITC is <strong>not available</strong> for:</p><ul>
   <li><strong>Motor vehicles and conveyances</strong> (except for specific business uses like transportation, driving schools, or vehicle dealers)</li>
   <li><strong>Food, beverages, and catering</strong> (unless provided by the hospitality industry as part of output supply)</li>
   <li><strong>Beauty treatment, health services, cosmetic/plastic surgery</strong></li>
@@ -683,40 +462,23 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Goods/services for personal consumption</strong></li>
   <li><strong>Goods lost, stolen, destroyed, or given as free samples</strong></li>
   <li><strong>Tax paid under Composition Scheme</strong></li>
-</ul>
-
-<h2>ITC Reversal: When You Must Return Credit</h2>
-
-<p>ITC must be reversed in these situations:</p>
-<ul>
+</ul><h2>ITC Reversal: When You Must Return Credit</h2><p class="block-answer" data-answer="true">ITC must be reversed in these situations:</p><p>ITC must be reversed in these situations:</p><ul>
   <li><strong>Non-payment to supplier within 180 days</strong> — if you don't pay your supplier within 180 days of the invoice date, the ITC must be reversed (with interest)</li>
   <li><strong>Goods/services used for exempt supplies</strong> — proportional reversal required</li>
   <li><strong>Goods/services used for personal purposes</strong> — full reversal</li>
   <li><strong>Capital goods sold at a loss</strong> — proportional reversal based on remaining useful life</li>
   <li><strong>Invoice not in GSTR-2B</strong> — claimed ITC beyond the 5% tolerance must be reversed</li>
-</ul>
-
-<h2>ITC Utilization Order (Amended)</h2>
-
-<p>When using ITC to pay GST liability, follow this order:</p>
-<ol>
+</ul><h2>ITC Utilization Order (Amended)</h2><p class="block-answer" data-answer="true">When using ITC to pay GST liability, follow this order:</p><p>When using ITC to pay GST liability, follow this order:</p><ol>
   <li><strong>IGST credit</strong> → first against IGST, then CGST, then SGST liability</li>
   <li><strong>CGST credit</strong> → first against CGST, then IGST liability (not SGST)</li>
   <li><strong>SGST credit</strong> → first against SGST, then IGST liability (not CGST)</li>
-</ol>
-
-<h2>Common ITC Mistakes to Avoid</h2>
-
-<ul>
+</ol><h2>Common ITC Mistakes to Avoid</h2><p class="block-answer" data-answer="true">Common ITC Mistakes to Avoid includes: Claiming without matching — always verify against GSTR-2B before filing Missing the deadline — ITC for a financial year must be claimed by 30th November of the next FY (in the GSTR-3B for September or the October return)</p><ul>
   <li><strong>Claiming without matching</strong> — always verify against GSTR-2B before filing</li>
   <li><strong>Missing the deadline</strong> — ITC for a financial year must be claimed by 30th November of the next FY (in the GSTR-3B for September or the October return)</li>
   <li><strong>Wrong GSTIN on supplier invoice</strong> — even one digit off means ITC won't appear in your GSTR-2B</li>
   <li><strong>Not following up with suppliers</strong> — if their GSTR-1 is late, your ITC is delayed</li>
   <li><strong>Claiming blocked ITC</strong> — personal expenses or specifically blocked items</li>
-</ul>
-
-<p>Proper invoicing is the foundation of ITC claims. Ensure your suppliers provide valid GST invoices, and create your own compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>.</p>
-    `
+</ul><p>Proper invoicing is the foundation of ITC claims. Ensure your suppliers provide valid GST invoices, and create your own compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>.</p>`
   },
 
   // ═══════════════════════════════════════════════════════
@@ -749,46 +511,22 @@ export const cluster11Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Invoice Templates', url: '/invoice-templates', description: 'Choose from 6 professional invoice templates' },
     ],
-    content: `
-<p><strong>Writing your first invoice can feel intimidating</strong> — but it doesn't have to be. Whether you're a freelancer billing your first client, a consultant sending a project invoice, or a small business owner getting formal about payments, this guide walks you through every field, every decision, and every best practice.</p>
-
-<p>By the end, you'll know exactly how to write a professional invoice that gets paid on time.</p>
-
-<h2>What Is an Invoice?</h2>
-
-<p>An invoice is a <strong>formal payment request</strong> from a seller to a buyer. It documents what was sold, how much is owed, and when payment is due. Unlike a receipt (which confirms payment received), an invoice is sent <em>before</em> payment to request it.</p>
-
-<p>Invoices serve three purposes:</p>
-<ol>
+    content: `<p><strong>Writing your first invoice can feel intimidating</strong> — but it doesn't have to be. Whether you're a freelancer billing your first client, a consultant sending a project invoice, or a small business owner getting formal about payments, this guide walks you through every field, every decision, and every best practice.</p><p>By the end, you'll know exactly how to write a professional invoice that gets paid on time.</p><h2>What Is an Invoice?</h2><p class="block-answer" data-answer="true">An invoice is a formal payment request from a seller to a buyer.  It documents what was sold, how much is owed, and when payment is due.</p><p>An invoice is a <strong>formal payment request</strong> from a seller to a buyer. It documents what was sold, how much is owed, and when payment is due. Unlike a receipt (which confirms payment received), an invoice is sent <em>before</em> payment to request it.</p><p>Invoices serve three purposes:</p><ol>
   <li><strong>Legal</strong> — proof of a business transaction for tax authorities</li>
   <li><strong>Financial</strong> — tracks money owed to your business (accounts receivable)</li>
   <li><strong>Professional</strong> — establishes credibility and clear terms with clients</li>
-</ol>
-
-<h2>Step 1: Add Your Business Details</h2>
-
-<p>At the top of your invoice, include:</p>
-<ul>
+</ol><h2>Step 1: Add Your Business Details</h2><p class="block-answer" data-answer="true">At the top of your invoice, include:</p><p>At the top of your invoice, include:</p><ul>
   <li><strong>Business name</strong> — your registered business name or your name as a sole proprietor</li>
   <li><strong>Address</strong> — physical or registered business address</li>
   <li><strong>Email and phone</strong> — so the client can reach you with questions</li>
   <li><strong>Tax ID</strong> — your GST number, VAT number, TIN, ABN, or EIN depending on your country</li>
   <li><strong>Logo</strong> (optional but recommended) — adds professionalism</li>
-</ul>
-
-<h2>Step 2: Add Client Details</h2>
-
-<p>Below your details, add the "Bill To" section:</p>
-<ul>
+</ul><h2>Step 2: Add Client Details</h2><p class="block-answer" data-answer="true">Below your details, add the "Bill To" section:</p><p>Below your details, add the "Bill To" section:</p><ul>
   <li><strong>Client's business name</strong> — or individual's name</li>
   <li><strong>Client's address</strong></li>
   <li><strong>Client's tax ID</strong> — important for B2B invoices in many countries (required for GST/VAT)</li>
   <li><strong>Contact person</strong> — helpful for larger companies where invoices go to accounts payable</li>
-</ul>
-
-<h2>Step 3: Invoice Number and Dates</h2>
-
-<ul>
+</ul><h2>Step 3: Invoice Number and Dates</h2><p class="block-answer" data-answer="true">Step 3: Invoice Number and Dates includes: Invoice number — a unique identifier you'll never reuse.</p><ul>
   <li><strong>Invoice number</strong> — a unique identifier you'll never reuse. Start with INV-001 or 2026-001</li>
   <li><strong>Invoice date</strong> — the date you're issuing the invoice (usually today)</li>
   <li><strong>Due date</strong> — when payment is expected. Common terms:
@@ -801,11 +539,7 @@ export const cluster11Posts: BlogPost[] = [
   </li>
 </ul>
 
-<h2>Step 4: Itemize Your Services or Products</h2>
-
-<p>The line items table is the heart of your invoice. Each row should include:</p>
-
-<table>
+<h2>Step 4: Itemize Your Services or Products</h2><p class="block-answer" data-answer="true">The line items table is the heart of your invoice.</p><p>The line items table is the heart of your invoice. Each row should include:</p><table>
   <thead><tr><th>Column</th><th>Example</th></tr></thead>
   <tbody>
     <tr><td>Description</td><td>Website redesign — homepage and about page</td></tr>
@@ -814,48 +548,26 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Tax</td><td>18% GST, 20% VAT, etc.</td></tr>
     <tr><td>Amount</td><td>$2,500</td></tr>
   </tbody>
-</table>
-
-<p><strong>Pro tip</strong>: Be specific in descriptions. "Website work" is vague — "Website redesign: homepage, about page, and contact form (15 hours)" tells the client exactly what they're paying for and reduces disputes.</p>
-
-<h2>Step 5: Calculate Totals</h2>
-
-<ul>
+</table><p><strong>Pro tip</strong>: Be specific in descriptions. "Website work" is vague — "Website redesign: homepage, about page, and contact form (15 hours)" tells the client exactly what they're paying for and reduces disputes.</p><h2>Step 5: Calculate Totals</h2><p class="block-answer" data-answer="true">Step 5: Calculate Totals includes: Subtotal — sum of all line items before tax Tax — applicable GST, VAT, or sales tax.</p><ul>
   <li><strong>Subtotal</strong> — sum of all line items before tax</li>
   <li><strong>Tax</strong> — applicable GST, VAT, or sales tax. Show the rate and amount clearly</li>
   <li><strong>Discount</strong> (if applicable) — show the original amount and the discount applied</li>
   <li><strong>Total due</strong> — the final amount the client owes, prominently displayed</li>
-</ul>
-
-<h2>Step 6: Add Payment Instructions</h2>
-
-<p>Tell the client <em>how</em> to pay:</p>
-<ul>
+</ul><h2>Step 6: Add Payment Instructions</h2><p>Tell the client <em>how</em> to pay:</p><ul>
   <li><strong>Bank transfer</strong> — account name, bank name, account number, routing/sort code, SWIFT (for international)</li>
   <li><strong>Online payment</strong> — payment link (PayPal, Stripe, Wise, etc.)</li>
   <li><strong>Other methods</strong> — cheque, cash, mobile payment (M-Pesa, UPI, etc.)</li>
-</ul>
-
-<h2>Step 7: Add Notes and Terms</h2>
-
-<ul>
+</ul><h2>Step 7: Add Notes and Terms</h2><p class="block-answer" data-answer="true">Step 7: Add Notes and Terms includes: Thank you note — "Thank you for your business" builds relationships Late payment terms — "Invoices unpaid after 30 days are subject to 1.</p><ul>
   <li><strong>Thank you note</strong> — "Thank you for your business" builds relationships</li>
   <li><strong>Late payment terms</strong> — "Invoices unpaid after 30 days are subject to 1.5% monthly interest"</li>
   <li><strong>Payment reference</strong> — ask clients to include the invoice number in their payment reference</li>
-</ul>
-
-<h2>Common Invoice Mistakes to Avoid</h2>
-
-<ol>
+</ul><h2>Common Invoice Mistakes to Avoid</h2><p class="block-answer" data-answer="true">Common Invoice Mistakes to Avoid includes: Missing or duplicate invoice numbers — causes accounting chaos and tax audit issues Vague descriptions — leads to client disputes and delayed payment</p><ol>
   <li><strong>Missing or duplicate invoice numbers</strong> — causes accounting chaos and tax audit issues</li>
   <li><strong>Vague descriptions</strong> — leads to client disputes and delayed payment</li>
   <li><strong>Wrong tax calculation</strong> — under-charging means you owe the government; over-charging loses client trust</li>
   <li><strong>No due date</strong> — without a clear deadline, clients deprioritize payment</li>
   <li><strong>Missing payment instructions</strong> — the client wants to pay but doesn't know how</li>
-</ol>
-
-<p>Skip the manual work — use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>
-    `
+</ol><p>Skip the manual work — use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>`
   },
 
   // P3-G-03 — Invoice vs Receipt
@@ -883,12 +595,7 @@ export const cluster11Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Receipt Features', url: '/receipts', description: 'Generate and manage receipts with Invoicemonk' },
     ],
-    content: `
-<p><strong>Invoices and receipts are two of the most fundamental business documents — but they serve completely different purposes.</strong> Confusing them causes accounting errors, tax complications, and client confusion. This guide explains exactly what each document is, when to use it, and how they work together.</p>
-
-<h2>Invoice vs Receipt: Quick Comparison</h2>
-
-<table>
+    content: `<p><strong>Invoices and receipts are two of the most fundamental business documents — but they serve completely different purposes.</strong> Confusing them causes accounting errors, tax complications, and client confusion. This guide explains exactly what each document is, when to use it, and how they work together.</p><h2>Invoice vs Receipt: Quick Comparison</h2><table>
   <thead><tr><th>Feature</th><th>Invoice</th><th>Receipt</th></tr></thead>
   <tbody>
     <tr><td><strong>Purpose</strong></td><td>Request payment</td><td>Confirm payment received</td></tr>
@@ -899,31 +606,19 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td><strong>Contains</strong></td><td>Payment terms, due date, payment methods</td><td>Payment date, method, amount paid</td></tr>
     <tr><td><strong>Accounting entry</strong></td><td>Revenue recognition (accrual) or memo</td><td>Cash receipt recorded</td></tr>
   </tbody>
-</table>
-
-<h2>When to Use an Invoice</h2>
-
-<ul>
+</table><h2>When to Use an Invoice</h2><p class="block-answer" data-answer="true">B2B transactions — always.</p><ul>
   <li><strong>B2B transactions</strong> — always. Businesses need invoices for their expense records and tax deductions</li>
   <li><strong>Service-based work</strong> — after completing a project, milestone, or billing period</li>
   <li><strong>Credit sales</strong> — when you deliver goods/services now and expect payment later</li>
   <li><strong>Recurring billing</strong> — monthly retainers, subscriptions, ongoing services</li>
   <li><strong>Government and enterprise clients</strong> — always require formal invoices for their procurement process</li>
-</ul>
-
-<h2>When to Use a Receipt</h2>
-
-<ul>
+</ul><h2>When to Use a Receipt</h2><p class="block-answer" data-answer="true">Cash transactions — when customers pay immediately at point of sale After an invoice is paid — to confirm you received the payment</p><ul>
   <li><strong>Cash transactions</strong> — when customers pay immediately at point of sale</li>
   <li><strong>After an invoice is paid</strong> — to confirm you received the payment</li>
   <li><strong>B2C retail sales</strong> — customers need receipts for returns and warranty claims</li>
   <li><strong>When requested</strong> — clients may need receipts for their expense reports</li>
   <li><strong>For tax purposes</strong> — the buyer needs proof of payment to claim deductions</li>
-</ul>
-
-<h2>What Goes on an Invoice</h2>
-
-<ol>
+</ul><h2>What Goes on an Invoice</h2><p class="block-answer" data-answer="true">Your business name, address, and tax ID Client's name, address, and tax ID (B2B)</p><ol>
   <li>Your business name, address, and tax ID</li>
   <li>Client's name, address, and tax ID (B2B)</li>
   <li>Unique invoice number</li>
@@ -932,11 +627,7 @@ export const cluster11Posts: BlogPost[] = [
   <li>Subtotal, tax breakdown, and total amount due</li>
   <li>Payment terms (Net 30, etc.)</li>
   <li>Payment instructions (bank details, payment link)</li>
-</ol>
-
-<h2>What Goes on a Receipt</h2>
-
-<ol>
+</ol><h2>What Goes on a Receipt</h2><p class="block-answer" data-answer="true">Your business name and contact details Client/customer name</p><ol>
   <li>Your business name and contact details</li>
   <li>Client/customer name</li>
   <li>Receipt number</li>
@@ -945,30 +636,16 @@ export const cluster11Posts: BlogPost[] = [
   <li>Amount paid</li>
   <li>Payment method (cash, card, bank transfer)</li>
   <li>Reference to original invoice number (if applicable)</li>
-</ol>
-
-<h2>How They Work Together</h2>
-
-<p>The typical business flow:</p>
-<ol>
+</ol><h2>How They Work Together</h2><p class="block-answer" data-answer="true">The typical business flow:</p><p>The typical business flow:</p><ol>
   <li><strong>Complete the work</strong> → deliver goods or finish services</li>
   <li><strong>Issue invoice</strong> → request payment with terms</li>
   <li><strong>Client pays</strong> → via bank transfer, card, or other method</li>
   <li><strong>Issue receipt</strong> → confirm payment received (or mark invoice as "PAID")</li>
-</ol>
-
-<p><strong>Pro tip</strong>: Many businesses skip issuing a separate receipt and instead mark the original invoice as "PAID" with the payment date. This is acceptable in most jurisdictions and is simpler to manage.</p>
-
-<h2>Tax Implications</h2>
-
-<ul>
+</ol><p><strong>Pro tip</strong>: Many businesses skip issuing a separate receipt and instead mark the original invoice as "PAID" with the payment date. This is acceptable in most jurisdictions and is simpler to manage.</p><h2>Tax Implications</h2><p class="block-answer" data-answer="true">Tax Implications includes: For the seller: The invoice records revenue.   Under accrual accounting, revenue is recognized when the invoice is issued.</p><ul>
   <li><strong>For the seller</strong>: The invoice records revenue. Under accrual accounting, revenue is recognized when the invoice is issued. Under cash accounting, it's recognized when payment is received.</li>
   <li><strong>For the buyer</strong>: The invoice (or receipt) serves as proof of a business expense for tax deductions. In GST/VAT countries, the invoice is required to claim Input Tax Credit.</li>
   <li><strong>Record keeping</strong>: Keep both invoices issued and receipts for expenses for the period required by your tax authority (typically 5-7 years).</li>
-</ul>
-
-<p>Create professional invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> — then track when they're paid in the full platform with <a href="/__LANG__/receipts">automatic receipt generation</a>.</p>
-    `
+</ul><p>Create professional invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> — then track when they're paid in the full platform with <a href="/__LANG__/receipts">automatic receipt generation</a>.</p>`
   },
 
   // P3-G-04 — Payment Terms Guide
@@ -997,12 +674,7 @@ export const cluster11Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Getting Paid Faster Guide', url: '/guides/getting-paid', description: 'Strategies to accelerate payment collection' },
     ],
-    content: `
-<p><strong>Payment terms are the rules that govern when and how clients pay your invoices.</strong> Getting them right directly impacts your cash flow — a 2022 Xero study found that businesses using shorter payment terms got paid <strong>15 days faster on average</strong> than those using Net 60.</p>
-
-<h2>Common Payment Terms Explained</h2>
-
-<table>
+    content: `<p><strong>Payment terms are the rules that govern when and how clients pay your invoices.</strong> Getting them right directly impacts your cash flow — a 2022 Xero study found that businesses using shorter payment terms got paid <strong>15 days faster on average</strong> than those using Net 60.</p><h2>Common Payment Terms Explained</h2><table>
   <thead><tr><th>Term</th><th>Meaning</th><th>Best For</th></tr></thead>
   <tbody>
     <tr><td><strong>Due on Receipt</strong></td><td>Payment due immediately upon receiving the invoice</td><td>Retail, one-off services, new clients</td></tr>
@@ -1017,69 +689,34 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td><strong>CIA</strong></td><td>Cash in advance — payment before delivery</td><td>High-risk clients, custom orders</td></tr>
     <tr><td><strong>COD</strong></td><td>Cash on delivery</td><td>E-commerce, physical goods</td></tr>
   </tbody>
-</table>
-
-<h2>Early Payment Discounts</h2>
-
-<p>Early payment discount terms incentivize faster payment:</p>
-
-<table>
+</table><h2>Early Payment Discounts</h2><p class="block-answer" data-answer="true">Early payment discount terms incentivize faster payment:</p><p>Early payment discount terms incentivize faster payment:</p><table>
   <thead><tr><th>Term</th><th>Meaning</th><th>Effective Annual Rate</th></tr></thead>
   <tbody>
     <tr><td><strong>1/10 Net 30</strong></td><td>1% off if paid within 10 days, else full amount in 30</td><td>~18% annualized</td></tr>
     <tr><td><strong>2/10 Net 30</strong></td><td>2% off if paid within 10 days, else full amount in 30</td><td>~36% annualized</td></tr>
     <tr><td><strong>3/10 Net 60</strong></td><td>3% off if paid within 10 days, else full amount in 60</td><td>~22% annualized</td></tr>
   </tbody>
-</table>
-
-<p><strong>Important</strong>: Calculate whether the discount is worth it for your business. A 2% discount for 20 days of early payment equals approximately 36% annualized interest — expensive if your margins are thin. Only offer discounts when faster cash flow is worth more than the discount cost.</p>
-
-<h2>How to Choose the Right Terms</h2>
-
-<h3>For Freelancers and Solopreneurs</h3>
-<ul>
+</table><p><strong>Important</strong>: Calculate whether the discount is worth it for your business. A 2% discount for 20 days of early payment equals approximately 36% annualized interest — expensive if your margins are thin. Only offer discounts when faster cash flow is worth more than the discount cost.</p><h2>How to Choose the Right Terms</h2><h3>For Freelancers and Solopreneurs</h3><ul>
   <li><strong>New clients</strong>: Net 15 or Due on Receipt — minimize risk until trust is established</li>
   <li><strong>Trusted clients</strong>: Net 30 — standard and expected in most industries</li>
   <li><strong>Large projects</strong>: 50% deposit + 50% on completion — protects your cash flow on big engagements</li>
   <li><strong>Retainer clients</strong>: Due on the 1st of each month — predictable billing cycle</li>
-</ul>
-
-<h3>For Small Businesses</h3>
-<ul>
+</ul><h3>For Small Businesses</h3><ul>
   <li><strong>B2B wholesale</strong>: Net 30 standard, consider 2/10 Net 30 to incentivize early payment</li>
   <li><strong>B2C services</strong>: Due on Receipt or prepayment</li>
   <li><strong>Subscription/SaaS</strong>: Prepaid monthly or annually</li>
   <li><strong>Construction/contracting</strong>: Milestone billing with Net 30 per milestone</li>
-</ul>
-
-<h3>For Enterprise Clients</h3>
-<p>Large companies often dictate terms (Net 45-60). You can negotiate by:</p>
-<ul>
+</ul><h3>For Enterprise Clients</h3><p>Large companies often dictate terms (Net 45-60). You can negotiate by:</p><ul>
   <li>Offering a discount for Net 15 instead of Net 60</li>
   <li>Requesting a deposit or advance payment</li>
   <li>Including a late payment interest clause</li>
-</ul>
-
-<h2>Late Payment Terms</h2>
-
-<p>Protect yourself with clear late payment language:</p>
-<ul>
+</ul><h2>Late Payment Terms</h2><p class="block-answer" data-answer="true">Protect yourself with clear late payment language:</p><p>Protect yourself with clear late payment language:</p><ul>
   <li><strong>"Invoices unpaid after [X] days are subject to [Y]% monthly late fee"</strong> — common rates are 1-2% per month</li>
   <li><strong>Reference local legislation</strong> — UK's Late Payment of Commercial Debts Act allows 8% + Bank of England base rate</li>
   <li><strong>Suspension of services</strong> — "We reserve the right to suspend services on accounts overdue by 30+ days"</li>
-</ul>
-
-<h2>How to Write Payment Terms on Your Invoice</h2>
-
-<p>Be explicit. Don't just write "Net 30" — spell it out:</p>
-<blockquote>
+</ul><h2>How to Write Payment Terms on Your Invoice</h2><p class="block-answer" data-answer="true">Be explicit.</p><p>Be explicit. Don't just write "Net 30" — spell it out:</p><blockquote>
   <p><strong>Payment Terms:</strong> Net 30. Payment is due within 30 days of the invoice date (by [specific date]). Please transfer to the bank account listed below, referencing invoice number [INV-XXX]. Invoices unpaid after 30 days are subject to 1.5% monthly late fee.</p>
-</blockquote>
-
-<p>Including the <em>specific due date</em> (not just "Net 30") reduces ambiguity and gets invoices paid faster. Studies show invoices with explicit due dates are paid <strong>8 days faster</strong> than those with relative terms alone.</p>
-
-<p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more strategies, read our <a href="/__LANG__/guides/getting-paid">complete guide to getting paid faster</a>.</p>
-    `
+</blockquote><p>Including the <em>specific due date</em> (not just "Net 30") reduces ambiguity and gets invoices paid faster. Studies show invoices with explicit due dates are paid <strong>8 days faster</strong> than those with relative terms alone.</p><p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more strategies, read our <a href="/__LANG__/guides/getting-paid">complete guide to getting paid faster</a>.</p>`
   },
 ];
 

@@ -63,6 +63,8 @@ const footerLinks = {
     { name: 'Why Invoicemonk', href: '/why-invoicemonk' },
     { name: 'Compliance', href: '/compliance' },
     { name: 'Pricing', href: '/pricing' },
+    { name: 'AI Info', href: '/ai' },
+    { name: 'Reviews', href: '/reviews' },
     { name: 'Contact', href: '/contact' },
   ],
   useCases: [
@@ -214,6 +216,8 @@ export function Footer() {
       { name: t('footer.whyInvoicemonk'), href: '/why-invoicemonk' },
       { name: t('footer.compliance'), href: '/compliance' },
       { name: t('nav.pricing'), href: '/pricing' },
+      { name: t('footer.aiInfo', 'AI Info'), href: '/ai' },
+      { name: t('footer.reviews', 'Reviews'), href: '/reviews' },
       { name: t('footer.contact'), href: '/contact' },
       { name: 'Partner Program', href: '/partner-program' },
     ],

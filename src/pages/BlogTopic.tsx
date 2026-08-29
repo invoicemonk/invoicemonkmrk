@@ -22,6 +22,7 @@ import '@/data/blogPostsCluster18';
 import '@/data/blogPostsCluster19';
 import '@/data/blogPostsCluster20';
 import '@/data/blogPostsCluster21';
+import '@/data/blogPostsCluster22';
 import '@/data/blogPostsClusterEInvoicing';
 import '@/data/blogPostsClusterEInvoicing2';
 import '@/data/blogPostsClusterEInvoicing3';
