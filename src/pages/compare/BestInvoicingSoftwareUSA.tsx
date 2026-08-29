@@ -12,6 +12,8 @@ import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSect
 import { ItemListSchema } from '@/components/seo/ItemListSchema';
 import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationSchema';
 import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema';
+import { ProsConsSection } from '@/components/compare/ProsConsSection';
+import { compareProsCons } from '@/data/compareProsCons';
 
 const tools = [
   {
@@ -222,6 +224,13 @@ export default function BestInvoicingSoftwareUSA() {
       </section>
 
       <InlineSignupCTA variant="banner" />
+
+      {/* PROS & CONS + BEST FOR LABELS */}
+      <ProsConsSection
+        tools={compareProsCons['best-invoicing-software-usa'].tools}
+        title={compareProsCons['best-invoicing-software-usa'].title}
+        background="muted"
+      />
 
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">

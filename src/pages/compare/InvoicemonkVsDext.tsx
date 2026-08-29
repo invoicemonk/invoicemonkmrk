@@ -10,6 +10,8 @@ import { ComparisonTable } from '@/components/compare/ComparisonTable';
 import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
+import { ProsConsSection } from '@/components/compare/ProsConsSection';
+import { compareProsCons } from '@/data/compareProsCons';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -252,6 +254,13 @@ export default function InvoicemonkVsDext() {
       </section>
 
       {/* FAQ */}
+      {/* PROS & CONS + BEST FOR LABELS */}
+      <ProsConsSection
+        tools={compareProsCons['invoicemonk-vs-dext'].tools}
+        title={compareProsCons['invoicemonk-vs-dext'].title}
+        background="muted"
+      />
+
       <section className="py-16 bg-muted/20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('faq.title')}</h2>

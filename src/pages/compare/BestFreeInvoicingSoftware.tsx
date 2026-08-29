@@ -9,6 +9,8 @@ import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
+import { ProsConsSection } from '@/components/compare/ProsConsSection';
+import { compareProsCons } from '@/data/compareProsCons';
 
 interface ToolCard {
   name: string;
@@ -334,6 +336,13 @@ export default function BestFreeInvoicingSoftware() {
       </section>
 
       <InlineSignupCTA variant="banner" />
+
+      {/* PROS & CONS + BEST FOR LABELS */}
+      <ProsConsSection
+        tools={compareProsCons['best-free-invoicing-software'].tools}
+        title={compareProsCons['best-free-invoicing-software'].title}
+        background="muted"
+      />
 
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">

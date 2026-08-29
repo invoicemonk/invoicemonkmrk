@@ -8,6 +8,8 @@ import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { Link } from '@/components/LocalizedLink';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
+import { ProsConsSection } from '@/components/compare/ProsConsSection';
+import { compareProsCons } from '@/data/compareProsCons';
 
 const faqs = [
   { question: 'Why is Wave not ideal for Nigerian businesses?', answer: 'Wave\'s payment processing doesn\'t work in Nigeria, there are no FIRS compliance features, no TIN fields, and no 7.5% VAT defaults for NGN. Nigerian businesses need invoicing software with local tax compliance built in.' },
@@ -85,6 +87,13 @@ export default function WaveAlternativeNigeria() {
       </section>
 
       <InlineSignupCTA variant="banner" />
+
+      {/* PROS & CONS + BEST FOR LABELS */}
+      <ProsConsSection
+        tools={compareProsCons['wave-alternative-nigeria'].tools}
+        title={compareProsCons['wave-alternative-nigeria'].title}
+        background="muted"
+      />
 
       <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">

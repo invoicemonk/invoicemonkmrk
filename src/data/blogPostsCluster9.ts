@@ -61,7 +61,7 @@ export const cluster9Posts: BlogPost[] = [
   <li><strong>Integration</strong> — limited connections to payment gateways, accounting software, or banks</li>
   <li><strong>Branding</strong> — the platform's watermark or branding on your invoices</li>
   <li><strong>Support</strong> — community forums instead of direct help when something goes wrong</li>
-</ul><h2>Feature Comparison: Free vs Paid</h2><table>
+</ul><h2>Feature Comparison: Free vs Paid</h2><p class="block-answer" data-answer="true">Feature Comparison: Free vs Paid — Invoice creation: ✓ (limited/month) — ✓ (unlimited).</p><table>
   <thead><tr><th>Feature</th><th>Pro plan (typical)</th><th>Paid plan (typical)</th></tr></thead>
   <tbody>
     <tr><td>Invoice creation</td><td>✓ (limited/month)</td><td>✓ (unlimited)</td></tr>

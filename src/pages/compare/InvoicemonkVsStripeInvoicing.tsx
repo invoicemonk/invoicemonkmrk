@@ -11,6 +11,8 @@ import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
+import { ProsConsSection } from '@/components/compare/ProsConsSection';
+import { compareProsCons } from '@/data/compareProsCons';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -73,6 +75,13 @@ export default function InvoicemonkVsStripeInvoicing() {
           </div>
         </div>
       </section>
+      {/* PROS & CONS + BEST FOR LABELS */}
+      <ProsConsSection
+        tools={compareProsCons['invoicemonk-vs-stripe-invoicing'].tools}
+        title={compareProsCons['invoicemonk-vs-stripe-invoicing'].title}
+        background="muted"
+      />
+
       <section className="py-16 lg:py-24 bg-muted/30"><div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl"><h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('faq.title')}</h2><div className="space-y-6">{faqs.map((faq, i) => (<div key={i}><h3 className="font-semibold text-foreground mb-2">{faq.question}</h3><p className="text-muted-foreground">{faq.answer}</p></div>))}</div></div></section>
       <section className="py-16 lg:py-24"><div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center"><p className="text-muted-foreground mb-4">{t('related.title')}</p><div className="flex flex-wrap justify-center gap-4">{relatedLinks.map((link) => (<Link key={link.to} to={link.to} className="text-primary hover:underline">{link.label}</Link>))}</div></div></section>
       <InlineSignupCTA variant="banner" />

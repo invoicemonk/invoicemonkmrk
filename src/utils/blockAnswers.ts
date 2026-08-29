@@ -197,6 +197,74 @@ function synthesizeFromHeading(headingText: string, nextProse: string | null): s
   return clampSentence(firstSentence);
 }
 
+/** Containers that may wrap prose (fact boxes, callouts, figures). */
+const CONTAINER_TAGS = new Set(['div', 'aside', 'blockquote', 'figure']);
+
+/** Pull the first paragraph-ish prose out of a container block. */
+function prosePlaceInContainer(inner: string): string | null {
+  const p = inner.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+  if (p) return p[1];
+  const li = inner.match(/<li[^>]*>([\s\S]*?)<\/li>/i);
+  if (li) return li[1];
+  const text = stripTags(inner);
+  return text ? text : null;
+}
+
+/** Extract the first two data cells of a table row as a fallback summary. */
+function synthesizeFromTable(inner: string): string | null {
+  const rows = inner.match(/<tr[^>]*>[\s\S]*?<\/tr>/gi) || [];
+  for (const row of rows) {
+    const cells = (row.match(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi) || [])
+      .map((c) => stripTags(c))
+      .filter(Boolean);
+    // Skip header rows (all-th) — we want a real data row.
+    if (/<th[\s>]/i.test(row)) continue;
+    if (cells.length >= 2) return clampSentence(`${cells[0]}: ${cells.slice(1, 3).join(' — ')}.`);
+  }
+  return null;
+}
+
+interface Candidate {
+  kind: 'prose' | 'list' | 'table';
+  inner: string;
+}
+
+/**
+ * Scan forward from a heading for the first block we can safely summarize.
+ * Stops at the next heading so we never borrow content from another section.
+ */
+function findAnswerSource(blocks: Block[], from: number): Candidate | null {
+  let fallback: Candidate | null = null;
+  for (let j = from; j < blocks.length; j++) {
+    const b = blocks[j];
+    if (!b.tag) continue;
+    if (/^h[1-6]$/.test(b.tag)) break;
+    if (b.tag === 'p') {
+      const text = stripTags(b.inner);
+      if (!text) continue;
+      if (isTransitional(text) && !fallback) {
+        fallback = { kind: 'prose', inner: b.inner };
+        continue;
+      }
+      return { kind: 'prose', inner: b.inner };
+    }
+    if (b.tag === 'ul' || b.tag === 'ol') {
+      if (!fallback) fallback = { kind: 'list', inner: b.inner };
+      continue;
+    }
+    if (b.tag === 'table') {
+      if (!fallback) fallback = { kind: 'table', inner: b.inner };
+      continue;
+    }
+    if (CONTAINER_TAGS.has(b.tag)) {
+      const prose = prosePlaceInContainer(b.inner);
+      if (prose && !fallback) fallback = { kind: 'prose', inner: prose };
+      continue;
+    }
+  }
+  return fallback;
+}
+
 export function addBlockAnswers(html: string): string {
   if (!html) return html;
   const blocks = tokenize(html);
@@ -215,42 +283,43 @@ export function addBlockAnswers(html: string): string {
     const declarativeH2 = !question && block.tag === 'h2' && !isNavigationalHeading(headingText);
     if (!question && !declarativeH2) continue;
 
-    // Look at the next non-empty block.
-    let j = i + 1;
-    while (j < blocks.length && !blocks[j].raw.trim()) j++;
-    const next = blocks[j];
-    if (!next || !next.tag) continue;
+    // Already wrapped right after the heading — skip (idempotent).
+    let n = i + 1;
+    while (n < blocks.length && !blocks[n].raw.trim()) n++;
+    if (blocks[n] && alreadyHasBlockAnswer(blocks[n])) continue;
 
-    // Already wrapped — skip (idempotent).
-    if (alreadyHasBlockAnswer(next)) continue;
+    const source = findAnswerSource(blocks, i + 1);
+    if (!source) continue;
 
-    if (next.tag === 'p') {
-      const text = stripTags(next.inner);
+    if (source.kind === 'prose') {
+      const text = stripTags(source.inner);
+      if (!text) continue;
 
-      // Short, clean lead paragraph → insert a wrapped copy right after the heading.
-      // (We keep the original paragraph too, since the wrapped version is a clamped summary.)
+      // Short, clean lead paragraph → insert a wrapped clamped copy after the heading.
       if (isCleanAnswer(text) && !isTransitional(text)) {
-        const answer = clampSentence(text);
-        out.push(makeBlockAnswer(answer));
+        out.push(makeBlockAnswer(clampSentence(text)));
         continue;
       }
 
-      // Transitional or too long → synthesize from first sentence.
       if (question) {
-        const synth = synthesizeFromHeading(headingText, next.inner);
-        if (synth) out.push(makeBlockAnswer(synth));
-      } else {
-        // Declarative: just clamp the first sentence as a topic summary.
-        const firstSentence = (text.match(/[^.!?]+[.!?]+/) || [text])[0]?.trim();
-        if (firstSentence && firstSentence.length >= 30) {
-          out.push(makeBlockAnswer(clampSentence(firstSentence)));
+        const synth = synthesizeFromHeading(headingText, source.inner);
+        if (synth) {
+          out.push(makeBlockAnswer(synth));
+          continue;
         }
+      }
+
+      // Declarative (or question fallback): clamp the opening sentence.
+      const firstSentence = (text.match(/[^.!?]+[.!?]+/) || [text])[0]?.trim();
+      const summary = firstSentence && firstSentence.length >= 30 ? firstSentence : text;
+      if (summary && summary.length >= 30) {
+        out.push(makeBlockAnswer(clampSentence(summary)));
       }
       continue;
     }
 
-    if (next.tag === 'ul' || next.tag === 'ol') {
-      const synth = synthesizeFromList(next.inner);
+    if (source.kind === 'list') {
+      const synth = synthesizeFromList(source.inner);
       if (synth) {
         const whatMatch = headingText.match(/^what\s+(?:is|are)\s+(.+?)\??$/i);
         const final = whatMatch
@@ -262,11 +331,23 @@ export function addBlockAnswers(html: string): string {
       }
       continue;
     }
-    // Tables, blockquotes, sub-headings, etc — skip; not safe to synthesize.
+
+    if (source.kind === 'table') {
+      const synth = synthesizeFromTable(source.inner);
+      if (synth) {
+        out.push(
+          makeBlockAnswer(
+            clampSentence(`${headingText.replace(/[:.!?]+$/, '')} — ${synth}`)
+          )
+        );
+      }
+      continue;
+    }
   }
 
   return out.join('');
 }
+
 
 export default addBlockAnswers;
 

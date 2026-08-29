@@ -11,6 +11,8 @@ import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
+import { ProsConsSection } from '@/components/compare/ProsConsSection';
+import { compareProsCons } from '@/data/compareProsCons';
 
 interface FAQItem { question: string; answer: string; }
 interface MatrixRow { label: string; values: (boolean | string | number)[]; }
@@ -308,6 +310,13 @@ export default function InvoicemonkEstimatesVsQuickbooks() {
       </section>
 
       {/* FAQ */}
+      {/* PROS & CONS + BEST FOR LABELS */}
+      <ProsConsSection
+        tools={compareProsCons['invoicemonk-estimates-vs-quickbooks'].tools}
+        title={compareProsCons['invoicemonk-estimates-vs-quickbooks'].title}
+        background="muted"
+      />
+
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('faq.title')}</h2>

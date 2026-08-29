@@ -1,4 +1,5 @@
 import { LLMComparisonPage } from '@/components/compare/LLMComparisonPage';
+import { compareProsCons } from '@/data/compareProsCons';
 
 export default function InvoicemonkVsWaveReceipts() {
   return (
@@ -143,6 +144,7 @@ export default function InvoicemonkVsWaveReceipts() {
           ],
         },
       ]}
+      prosCons={compareProsCons['invoicemonk-vs-wave-receipts'].tools}
       faqs={[
         {
           question: 'Is the Wave Receipts app still available in 2026?',
@@ -186,4 +188,5 @@ export default function InvoicemonkVsWaveReceipts() {
       ]}
     />
   );
+
 }

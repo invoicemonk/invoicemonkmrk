@@ -86,6 +86,11 @@ import WaveAlternativeSouthAfrica from "./pages/compare/WaveAlternativeSouthAfri
 import BestInvoicingSoftwareItaly from "./pages/compare/BestInvoicingSoftwareItaly";
 import BestInvoicingSoftwareFrance from "./pages/compare/BestInvoicingSoftwareFrance";
 import BestInvoicingSoftwareUSA from "./pages/compare/BestInvoicingSoftwareUSA";
+import ZohoInvoiceAlternatives from "./pages/compare/ZohoInvoiceAlternatives";
+import BestForConsultants from "./pages/compare/BestForConsultants";
+import BestForContractors from "./pages/compare/BestForContractors";
+import BestForSmallBusiness from "./pages/compare/BestForSmallBusiness";
+import FreeInvoiceGeneratorVsPaid from "./pages/compare/FreeInvoiceGeneratorVsPaid";
 import CompareIndex from "./pages/compare/CompareIndex";
 import BestReceiptScannerApp from "./pages/compare/BestReceiptScannerApp";
 import InvoicemonkVsExpensify from "./pages/compare/InvoicemonkVsExpensify";
@@ -267,6 +272,11 @@ const App = () => (
               <Route path="compare/wave-alternatives" element={<WaveAlternatives />} />
               <Route path="compare/quickbooks-alternatives" element={<QuickBooksAlternatives />} />
               <Route path="compare/freshbooks-alternatives" element={<FreshBooksAlternatives />} />
+              <Route path="compare/zoho-invoice-alternatives" element={<ZohoInvoiceAlternatives />} />
+              <Route path="compare/best-invoicing-software-for-consultants" element={<BestForConsultants />} />
+              <Route path="compare/best-invoicing-software-for-contractors" element={<BestForContractors />} />
+              <Route path="compare/best-invoicing-software-for-small-business" element={<BestForSmallBusiness />} />
+              <Route path="compare/free-invoice-generator-vs-paid" element={<FreeInvoiceGeneratorVsPaid />} />
               <Route path="compare/best-invoicing-software-nigeria" element={<BestInvoicingSoftwareNigeria />} />
               <Route path="compare/best-invoicing-software-india" element={<BestInvoicingSoftwareIndia />} />
               <Route path="compare/best-invoicing-software-kenya" element={<BestInvoicingSoftwareKenya />} />

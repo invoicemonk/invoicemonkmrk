@@ -13,6 +13,8 @@ import { Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
+import { ProsConsSection } from '@/components/compare/ProsConsSection';
+import { compareProsCons } from '@/data/compareProsCons';
 
 interface FAQItem { question: string; answer: string; }
 interface LinkItem { label: string; to: string; }
@@ -406,6 +408,13 @@ export default function BestInvoicingSoftware() {
       </section>
 
       {/* FAQ */}
+      {/* PROS & CONS + BEST FOR LABELS */}
+      <ProsConsSection
+        tools={compareProsCons['best-invoicing-software'].tools}
+        title={compareProsCons['best-invoicing-software'].title}
+        background="muted"
+      />
+
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <h2 className="text-heading-lg font-bold text-foreground text-center mb-8">{t('faq.title')}</h2>

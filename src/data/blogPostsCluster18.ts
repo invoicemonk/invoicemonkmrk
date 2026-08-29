@@ -23,7 +23,7 @@ Poland's KSeF (Krajowy System e-Faktur, or National e-Invoice System) is a centr
 
 The system requires invoices to be submitted in the FA(2) XML schema — a Poland-specific structured format that captures all mandatory VAT invoice data. Once submitted, KSeF assigns a unique identification number (numer KSeF) to each invoice, creating an immutable audit trail.
 
-<h3>Why Did Poland Introduce KSeF?</h3>
+<h3>Why Did Poland Introduce KSeF?</h3><p class="block-answer" data-answer="true">Reduce VAT fraud by enabling real-time cross-referencing of buyer and seller invoice data Simplify VAT audits through centralized, searchable invoice storage</p>
 
 Poland's VAT gap — the difference between expected and collected VAT revenue — has been a persistent challenge. The Ministry of Finance estimates KSeF will:
 
@@ -32,7 +32,7 @@ Poland's VAT gap — the difference between expected and collected VAT revenue �
 <li><strong>Simplify VAT audits</strong> through centralized, searchable invoice storage</li>
 <li><strong>Pre-fill VAT returns</strong> using KSeF data, reducing manual reporting burden</li>
 <li><strong>Accelerate VAT refunds</strong> for compliant taxpayers (40-day refund period reduced to 15 days for KSeF users)</li>
-</ul><h2>Who Must Comply With KSeF in 2026?</h2>
+</ul><h2>Who Must Comply With KSeF in 2026?</h2><p class="block-answer" data-answer="true">Who Must Comply With KSeF in 2026 — Phase 1: February 1, 2026 — Large enterprises (annual turnover &gt; 200M PLN, approx.   €46M).</p>
 
 The KSeF mandate applies to all businesses registered for Polish VAT (podatek od towarów i usług) that issue invoices for domestic B2B transactions. The rollout is phased by company size:
 
@@ -42,7 +42,7 @@ The KSeF mandate applies to all businesses registered for Polish VAT (podatek od
 <tr><td>Phase 1</td><td>February 1, 2026</td><td>Large enterprises (annual turnover &gt; 200M PLN, approx. €46M)</td></tr>
 <tr><td>Phase 2</td><td>April 1, 2026</td><td>All remaining VAT-registered businesses, including SMEs and micro-enterprises</td></tr>
 </tbody>
-</table><h3>Are There Any Exemptions?</h3>
+</table><h3>Are There Any Exemptions?</h3><p class="block-answer" data-answer="true">B2C transactions (consumer invoices) — not required in KSeF initially Invoices issued by the VAT flat-rate scheme for farmers (ryczałt rolny)</p>
 
 Limited exemptions exist for:
 <ul>
@@ -72,7 +72,7 @@ All invoices submitted to KSeF must conform to the FA(2) XML schema (Faktura ust
 <li>Net and gross totals</li>
 <li>Currency (PLN for domestic; foreign currency with PLN equivalent for mixed transactions)</li>
 <li>Payment terms and method</li>
-</ul><h3>How Is an Invoice Submitted to KSeF?</h3>
+</ul><h3>How Is an Invoice Submitted to KSeF?</h3><p class="block-answer" data-answer="true">Generate the FA(2) XML document in your invoicing software Authenticate with KSeF using your chosen credential</p>
 
 Invoices are submitted via the KSeF API using a qualified electronic seal (kwalifikowany podpis elektroniczny), trusted profile (Profil Zaufany), or a KSeF-specific authorization token. The process:
 
@@ -82,7 +82,7 @@ Invoices are submitted via the KSeF API using a qualified electronic seal (kwali
 <li>Submit the XML via the KSeF API endpoint</li>
 <li>Receive the unique KSeF number (numer KSeF) confirming acceptance</li>
 <li>The invoice becomes available to the buyer in their KSeF account</li>
-</ol><h2>What Are the Penalties for KSeF Non-Compliance?</h2>
+</ol><h2>What Are the Penalties for KSeF Non-Compliance?</h2><p class="block-answer" data-answer="true">the Penalties for KSeF Non-Compliance includes: Up to 100% of the VAT amount on each invoice issued outside KSeF after the mandate date PLN 200 per invoice (approx.</p>
 
 Poland has established significant penalties for non-compliance with KSeF requirements:
 
@@ -143,7 +143,7 @@ The FA(2) schema is Poland's national standard for structured e-invoices, design
 
 The schema is published as an XSD (XML Schema Definition) file by the Ministry of Finance and updated periodically. The current production version is FA(2) v2, which replaced FA(1) in 2023.
 
-<h3>How Is FA(2) Structured?</h3>
+<h3>How Is FA(2) Structured?</h3><p class="block-answer" data-answer="true">Naglowek (Header): Schema version, invoice form code, system information, creation date Podmiot1 (Seller): NIP, legal name, address, bank account details</p>
 
 The FA(2) XML document is organized into logical sections:
 
@@ -169,7 +169,7 @@ The FA(2) XML document is organized into logical sections:
 <li><strong>KodWaluty (Currency):</strong> ISO 4217 code; PLN for domestic, foreign with exchange rate for international</li>
 <li><strong>P_13_1 through P_13_11:</strong> VAT totals per rate category</li>
 <li><strong>P_15 (Gross Total):</strong> Total amount including VAT</li>
-</ul><h2>What Are Common FA(2) Validation Errors?</h2>
+</ul><h2>What Are Common FA(2) Validation Errors?</h2><p class="block-answer" data-answer="true">What Are Common FA(2) Validation Errors — ERR_NIP: Seller or buyer NIP fails checksum validation — Verify NIP digit calculation algorithm.</p>
 
 KSeF performs real-time validation on submission. Common rejection reasons include:
 
@@ -219,7 +219,7 @@ KSeF performs real-time validation on submission. Common rejection reasons inclu
     excerpt: `Complete walkthrough for KSeF registration: Profil Zaufany, qualified seals, API tokens, and sandbox testing for Polish e-invoicing.`,
     content: `Registering for Poland's KSeF requires a valid NIP, authentication via Profil Zaufany or qualified electronic seal, and API configuration for automated invoice submission. The process takes 2-5 business days depending on your chosen authentication method, and the Ministry of Finance provides a full sandbox environment for testing before going live.
 
-<h2>What Do You Need Before Registering for KSeF?</h2>
+<h2>What Do You Need Before Registering for KSeF?</h2><p class="block-answer" data-answer="true">Active NIP: Your company's 10-digit Polish tax identification number, registered and active with the tax office REGON number: Your statistical identification number from GUS</p>
 
 Before starting KSeF registration, ensure you have:
 
@@ -323,7 +323,7 @@ The Polish VAT Act (Ustawa o VAT) as amended for KSeF defines three tiers of pen
 </ul><h3>Tier 3: Buyer-Side Risk</h3><ul>
 <li><strong>Risk:</strong> Denial of input VAT deduction for invoices not registered in KSeF</li>
 <li><strong>Impact:</strong> Buyers may lose the right to deduct VAT on purchases where the supplier failed to submit via KSeF</li>
-</ul><h2>When Does the Grace Period End?</h2><table border="1">
+</ul><h2>When Does the Grace Period End?</h2><p class="block-answer" data-answer="true">When Does the Grace Period End — Large enterprises: February 1, 2026 — June 30, 2026.</p><table border="1">
 <thead><tr><th>Phase</th><th>Mandatory From</th><th>Grace Period Ends</th><th>Full Enforcement</th></tr></thead>
 <tbody>
 <tr><td>Large enterprises</td><td>February 1, 2026</td><td>June 30, 2026</td><td>July 1, 2026</td></tr>
@@ -333,7 +333,7 @@ The Polish VAT Act (Ustawa o VAT) as amended for KSeF defines three tiers of pen
 
 During the grace period, businesses must submit via KSeF but penalties are not enforced. This allows for technical troubleshooting without financial risk.
 
-<h2>What Triggers a KSeF Audit?</h2>
+<h2>What Triggers a KSeF Audit?</h2><p class="block-answer" data-answer="true">Repeated submission failures or high rejection rates Significant discrepancy between JPK_VAT declarations and KSeF-registered invoices</p>
 
 The Ministry of Finance monitors KSeF compliance automatically. Common audit triggers include:
 
@@ -342,7 +342,7 @@ The Ministry of Finance monitors KSeF compliance automatically. Common audit tri
 <li>Significant discrepancy between JPK_VAT declarations and KSeF-registered invoices</li>
 <li>Sudden drop in invoice volume after the mandatory date (suggesting off-system invoicing)</li>
 <li>Buyer complaints about missing KSeF invoices</li>
-</ul><h2>How to Correct KSeF Errors</h2>
+</ul><h2>How to Correct KSeF Errors</h2><p class="block-answer" data-answer="true">Issue a correction invoice (faktura korygująca) through KSeF referencing the original KSeF number Submit within 7 days of discovering the error to avoid late-submission penalties</p>
 
 If an invoice is rejected or contains errors:
 
@@ -467,7 +467,7 @@ Most Polish accounting platforms (e.g., wFirma, Fakturownia, InFakt) are adding 
 <li>Obtain a Polish NIP through the representative</li>
 <li>The representative is jointly liable for your Polish VAT obligations</li>
 <li>Register for KSeF using the assigned NIP</li>
-</ol><h2>What Are the KSeF Authentication Options for Foreign Companies?</h2>
+</ol><h2>What Are the KSeF Authentication Options for Foreign Companies?</h2><p class="block-answer" data-answer="true">the KSeF Authentication Options for Foreign Companies includes: Qualified electronic seal: Obtain from a Polish or EU-qualified trust service provider Qualified electronic signature: A personal signature from an EU-qualified provider</p>
 
 Foreign companies cannot use Profil Zaufany (it requires a Polish PESEL number). Available options:
 
@@ -520,7 +520,7 @@ Foreign companies cannot use Profil Zaufany (it requires a Polish PESEL number).
 
 CFDI (Comprobante Fiscal Digital por Internet) is Mexico's mandatory electronic invoicing system that requires all tax-relevant transactions to be documented as structured XML files, digitally signed, validated by an authorized certification provider (PAC), and stamped by SAT. The current version, CFDI 4.0, introduced in January 2022 and made mandatory April 2023, adds stricter validation requirements including mandatory RFC verification for both issuers and receivers.
 
-<h3>What Changed from CFDI 3.3 to 4.0?</h3>
+<h3>What Changed from CFDI 3.3 to 4.0?</h3><p class="block-answer" data-answer="true">Mandatory receiver data: Buyer's RFC, legal name, fiscal regime, and tax domicile postal code must match SAT records exactly Uso CFDI alignment: The intended use code (Uso CFDI) must correspond to the receiver's fiscal regime</p>
 
 Key changes in CFDI 4.0 include:
 
@@ -530,7 +530,7 @@ Key changes in CFDI 4.0 include:
 <li><strong>Export indication:</strong> New field to flag export transactions</li>
 <li><strong>Payment-related CFDIs:</strong> Updated Complemento de Pago version 2.0 for payment receipts</li>
 <li><strong>Stricter cancellation rules:</strong> Receiver acceptance required for cancellation of CFDIs over MXN 1,000</li>
-</ul><h2>Who Must Comply With CFDI 4.0?</h2>
+</ul><h2>Who Must Comply With CFDI 4.0?</h2><p class="block-answer" data-answer="true">Personas morales (legal entities): All corporations, partnerships, and associations registered with SAT Personas físicas con actividad empresarial: Individuals with business activities</p>
 
 CFDI 4.0 is mandatory for all Mexican taxpayers:
 
@@ -551,7 +551,7 @@ There are no size-based exemptions — even micro-businesses must issue CFDI 4.0
 <li><strong>Receive timbrado:</strong> The PAC returns the CFDI with SAT's digital stamp (timbre fiscal), confirming validity</li>
 <li><strong>Deliver to receiver:</strong> Provide the XML and optional PDF representation to the buyer</li>
 <li><strong>Store for 5 years:</strong> Both issuer and receiver must retain the XML for the statutory period</li>
-</ol><h2>What Are the CFDI 4.0 Mandatory Fields?</h2><table border="1">
+</ol><h2>What Are the CFDI 4.0 Mandatory Fields?</h2><p class="block-answer" data-answer="true">What Are the CFDI 4. 0 Mandatory Fields — RFC Emisor: Issuer's tax ID — Must match SAT registry exactly.</p><table border="1">
 <thead><tr><th>Field</th><th>Description</th><th>Validation</th></tr></thead>
 <tbody>
 <tr><td>RFC Emisor</td><td>Issuer's tax ID</td><td>Must match SAT registry exactly</td></tr>
@@ -562,7 +562,7 @@ There are no size-based exemptions — even micro-businesses must issue CFDI 4.0
 <tr><td>Uso CFDI</td><td>Intended use code</td><td>Must be valid for the receiver's regime</td></tr>
 <tr><td>Método de Pago</td><td>Payment method (PUE/PPD)</td><td>PUE = paid, PPD = pending (requires Complemento de Pago)</td></tr>
 </tbody>
-</table><h2>What Are the Penalties for CFDI Non-Compliance?</h2>
+</table><h2>What Are the Penalties for CFDI Non-Compliance?</h2><p class="block-answer" data-answer="true">the Penalties for CFDI Non-Compliance includes: MXN 17,020–97,330 per invoice (approx.</p>
 
 SAT enforces significant penalties under the Código Fiscal de la Federación (CFF):
 
@@ -613,7 +613,7 @@ SAT enforces significant penalties under the Código Fiscal de la Federación (C
     excerpt: `Technical guide to CFDI 4.0 XML structure: mandatory fields, Complemento Pago, RFC validation, and Uso CFDI catalog codes.`,
     content: `Mexico's CFDI 4.0 XML schema contains over 100 data fields with strict validation rules enforced by SAT through the PAC certification process. The most common rejection cause is RFC-name mismatch — the receiver's legal name must match SAT records character-for-character, including accent marks and legal entity suffixes.
 
-<h2>What Is the CFDI 4.0 XML Structure?</h2>
+<h2>What Is the CFDI 4.0 XML Structure?</h2><p class="block-answer" data-answer="true">the CFDI 4.</p>
 
 The CFDI 4.0 XML follows a hierarchical structure defined by SAT's Anexo 20 technical specification:
 
@@ -652,7 +652,7 @@ The Uso CFDI field indicates the receiver's intended tax deduction purpose. In C
 <tr><td>I01</td><td>Construcciones</td><td>601, 603, 606, 612, 620, 621, 622, 623, 624, 625, 626</td></tr>
 <tr><td>S01</td><td>Sin efectos fiscales</td><td>All regimes — use when receiver won't deduct</td></tr>
 </tbody>
-</table><h2>Common CFDI 4.0 Rejection Errors</h2><table border="1">
+</table><h2>Common CFDI 4.0 Rejection Errors</h2><p class="block-answer" data-answer="true">Common CFDI 4. 0 Rejection Errors — CFDI33105: Receiver RFC not found in SAT database — Verify RFC spelling and that receiver is registered.</p><table border="1">
 <thead><tr><th>Error</th><th>Cause</th><th>Solution</th></tr></thead>
 <tbody>
 <tr><td>CFDI33105</td><td>Receiver RFC not found in SAT database</td><td>Verify RFC spelling and that receiver is registered</td></tr>
@@ -691,7 +691,7 @@ The Uso CFDI field indicates the receiver's intended tax deduction purpose. In C
     excerpt: `Guide to selecting a PAC (Proveedor Autorizado de Certificación) for CFDI certification. Compare costs, features, and integration options.`,
     content: `Every CFDI issued in Mexico must be certified by a PAC (Proveedor Autorizado de Certificación) — a SAT-authorized company that validates, stamps, and registers your electronic invoices. As of 2026, SAT lists approximately 70 active PACs, ranging from free basic services to enterprise platforms costing MXN 5,000+/month.
 
-<h2>What Is a PAC and Why Do You Need One?</h2>
+<h2>What Is a PAC and Why Do You Need One?</h2><p class="block-answer" data-answer="true">a PAC and Why Do You Need One includes: Receive your signed CFDI XML Validate all fields against SAT rules (RFC, amounts, codes)</p>
 
 A PAC is a private company authorized by SAT to validate CFDI documents, apply the Timbre Fiscal Digital (SAT's digital stamp), and register invoices with SAT's central database. No CFDI is fiscally valid without PAC certification — this is not optional.
 
@@ -717,7 +717,7 @@ The PAC's role in the CFDI process:
 <li><strong>Per-CFDI pricing:</strong> MXN 1–5 per CFDI (approx. USD 0.05–0.28). Good for businesses issuing 50–500 CFDIs/month.</li>
 <li><strong>Flat monthly plans:</strong> MXN 500–5,000/month for unlimited or high-volume certification. Best for 500+ CFDIs/month.</li>
 <li><strong>Enterprise agreements:</strong> Custom pricing for 10,000+ CFDIs/month with SLAs and dedicated support.</li>
-</ul><h2>How to Switch PACs</h2>
+</ul><h2>How to Switch PACs</h2><p class="block-answer" data-answer="true">Choose your new PAC and complete their registration process Update your invoicing software's PAC API credentials</p>
 
 Switching PACs is straightforward because the CFDI format is standardized:
 <ol>
@@ -769,7 +769,7 @@ The Complemento de Pago is a supplementary CFDI document that records payment re
 </ul><h3>When Is It NOT Required?</h3><p class="block-answer" data-answer="true">When the CFDI was issued with Método de Pago = PUE (Pago en Una sola Exhibición — single payment at invoice time) For advance payments where a separate advance CFDI (Tipo "A") was already issued</p><ul>
 <li>When the CFDI was issued with Método de Pago = <strong>PUE</strong> (Pago en Una sola Exhibición — single payment at invoice time)</li>
 <li>For advance payments where a separate advance CFDI (Tipo "A") was already issued</li>
-</ul><h2>What Are the Complemento de Pago 2.0 Requirements?</h2>
+</ul><h2>What Are the Complemento de Pago 2.0 Requirements?</h2><p class="block-answer" data-answer="true">the Complemento de Pago 2. 0 Requirements includes: Pago (Payment section): Date, payment form (cash, transfer, card, etc.</p>
 
 Version 2.0 of the Complemento de Pago, mandatory since January 2022, includes:
 
@@ -836,7 +836,7 @@ CFDI cancellation is the process of voiding a previously issued and PAC-certifie
 <li><strong>Duplicate issuance:</strong> Same transaction invoiced twice</li>
 <li><strong>Transaction not completed:</strong> Sale or service cancelled before delivery</li>
 <li><strong>Relationship with replacement:</strong> Issuing a corrected CFDI to replace the original</li>
-</ul><h2>What Are the Motivo de Cancelación Codes?</h2>
+</ul><h2>What Are the Motivo de Cancelación Codes?</h2><p class="block-answer" data-answer="true">What Are the Motivo de Cancelación Codes — 01: Comprobante emitido con errores con relación — Replacing with a corrected CFDI (must provide replacement UUID).</p>
 
 SAT requires a specific reason code for every cancellation:
 
@@ -848,7 +848,7 @@ SAT requires a specific reason code for every cancellation:
 <tr><td>03</td><td>No se llevó a cabo la operación</td><td>Transaction never took place</td><td>Required if &gt;MXN 1,000</td></tr>
 <tr><td>04</td><td>Operación nominativa relacionada en factura global</td><td>Individual transaction included in a global CFDI</td><td>Not required</td></tr>
 </tbody>
-</table><h2>Receiver Acceptance Process</h2>
+</table><h2>Receiver Acceptance Process</h2><p class="block-answer" data-answer="true">Receiver Acceptance Process includes: Issuer submits cancellation request through their PAC or SAT portal with motivo code Receiver is notified via their SAT Buzón Tributario (tax mailbox)</p>
 
 For CFDIs exceeding MXN 1,000 (approx. USD 56):
 
@@ -914,7 +914,7 @@ CFDIs can only be cancelled within the same fiscal year they were issued or with
 <li><strong>Issuing CFDIs for non-existent transactions:</strong> 2-9 years imprisonment</li>
 <li><strong>Using "ghost" invoices for tax deductions:</strong> Criminal prosecution under anti-money laundering laws</li>
 <li><strong>Operating as an EFOS (Empresa que Factura Operaciones Simuladas):</strong> SAT publishes EFOS lists and freezes bank accounts</li>
-</ul><h2>How Does SAT Detect Non-Compliance?</h2>
+</ul><h2>How Does SAT Detect Non-Compliance?</h2><p class="block-answer" data-answer="true">Cross-referencing: Comparing CFDI data against annual/monthly tax declarations AI analysis: Pattern detection for unusual invoicing behavior</p>
 
 SAT uses automated systems to flag non-compliance:
 
@@ -982,7 +982,7 @@ Foreign companies without a PE in Mexico:
 <li><strong>Obtain RFC:</strong> SAT issues a 12-character RFC for legal entities</li>
 <li><strong>Get e.firma (FIEL):</strong> Digital certificate for SAT portal access — requires in-person visit</li>
 <li><strong>Generate CSD:</strong> Certificado de Sello Digital for signing CFDIs</li>
-</ol><h2>Withholding Requirements for Mexican Buyers</h2>
+</ol><h2>Withholding Requirements for Mexican Buyers</h2><p class="block-answer" data-answer="true">Withholding Requirements for Mexican Buyers includes: ISR withholding: Varies by income type — 25% for services, 15-35% for royalties, 4.</p>
 
 When a Mexican company pays a non-resident without PE:
 <ul>
@@ -1035,7 +1035,7 @@ Colombia's e-invoicing system requires businesses to generate structured electro
 <li><strong>Nómina Electrónica:</strong> Electronic payroll documents (mandatory since 2023)</li>
 <li><strong>Notas Crédito/Débito:</strong> Credit and debit notes linked to original invoices</li>
 <li><strong>Eventos:</strong> Electronic events (receipt confirmation, acceptance, rejection, payment claims)</li>
-</ul><h2>Who Must Comply With DIAN E-Invoicing?</h2>
+</ul><h2>Who Must Comply With DIAN E-Invoicing?</h2><p class="block-answer" data-answer="true">Sales of goods and services subject to IVA IVA-exempt transactions that still require documentation</p>
 
 All taxpayers (contribuyentes) registered with DIAN must issue electronic invoices for:
 <ul>
@@ -1050,7 +1050,7 @@ The mandate applies to:
 <li>Natural persons with business activities (personas naturales comerciantes)</li>
 <li>Non-profit organizations</li>
 <li>Foreign entities with NIT registration</li>
-</ul><h2>What Format Does DIAN Require?</h2>
+</ul><h2>What Format Does DIAN Require?</h2><p class="block-answer" data-answer="true">Schema: UBL 2.</p>
 
 DIAN uses UBL 2.1 (Universal Business Language) with Colombian extensions:
 
@@ -1111,7 +1111,7 @@ DIAN uses UBL 2.1 (Universal Business Language) with Colombian extensions:
     excerpt: `Documento Soporte is mandatory since August 2022 for Colombian businesses purchasing from non-VAT registered suppliers. Compliance guide.`,
     content: `Colombia's Documento Soporte en Adquisiciones con No Obligados a Facturar became mandatory on August 1, 2022 for all purchases from suppliers who are not required to issue electronic invoices. Without a valid Documento Soporte, buyers cannot deduct the cost as a tax expense — making compliance essential for tax optimization. The document must follow the same UBL 2.1 structure and DIAN validation process as regular e-invoices.
 
-<h2>What Is the Documento Soporte?</h2>
+<h2>What Is the Documento Soporte?</h2><p class="block-answer" data-answer="true">the Documento Soporte includes: Not registered for IVA (simplified regime / régimen simple) Natural persons not required to invoice</p>
 
 The Documento Soporte is a structured electronic document that buyers must issue when purchasing goods or services from suppliers who are:
 <ul>
@@ -1180,7 +1180,7 @@ Documento Soporte is NOT required for:
     excerpt: `Colombia's Nómina Electrónica is mandatory since 2023. Guide to electronic payroll reporting, monthly DIAN submission, and penalties.`,
     content: `Colombia's Nómina Electrónica (electronic payroll document) has been mandatory since 2023 for all employers, requiring monthly transmission of payroll data to DIAN in structured electronic format. Employers must report individual employee compensation, deductions, social security contributions, and withholdings. Non-compliance results in denial of payroll expense deductions — potentially the largest tax impact for labor-intensive businesses.
 
-<h2>What Is Nómina Electrónica?</h2>
+<h2>What Is Nómina Electrónica?</h2><p class="block-answer" data-answer="true">Nómina Electrónica includes: Individual nómina documents: One per employee per pay period Notas de ajuste: Correction documents for errors in previously submitted nóminas</p>
 
 Nómina Electrónica is a structured electronic document that replaces the traditional paper-based payroll records for tax purposes. Each month, employers must generate and transmit to DIAN:
 
@@ -1188,7 +1188,7 @@ Nómina Electrónica is a structured electronic document that replaces the tradi
 <li><strong>Individual nómina documents:</strong> One per employee per pay period</li>
 <li><strong>Notas de ajuste:</strong> Correction documents for errors in previously submitted nóminas</li>
 <li><strong>Nómina de eliminación:</strong> Cancellation documents for retracted payments</li>
-</ul><h2>Who Must Comply?</h2>
+</ul><h2>Who Must Comply?</h2><p class="block-answer" data-answer="true">Have employees under a labor contract (contrato laboral) Make payments subject to payroll withholding (retención en la fuente por salarios)</p>
 
 All employers who:
 <ul>
@@ -1199,7 +1199,7 @@ All employers who:
 
 This includes companies, sole proprietors with employees, and non-profit organizations with paid staff.
 
-<h2>What Data Must Be Reported?</h2>
+<h2>What Data Must Be Reported?</h2><p class="block-answer" data-answer="true">Employee identification: Cédula number, name, job title Compensation: Base salary, overtime, commissions, bonuses, vacation pay</p>
 
 Each Nómina Electrónica document must include:
 
@@ -1250,7 +1250,7 @@ While <a href="/en/invoicing">Invoicemonk</a> primarily focuses on invoicing, ou
     excerpt: `Colombian e-invoicing corrections require electronic Nota Crédito or Nota Débito validated by DIAN. Rules, scenarios, and compliance guide.`,
     content: `Colombia's electronic credit notes (Notas Crédito) and debit notes (Notas Débito) must follow the same UBL 2.1 validation process as regular e-invoices, submitted to DIAN with a CUDE code and linked to the original invoice's CUFE. Issuing manual or paper-based correction notes is no longer valid — all adjustments must be electronic and DIAN-validated.
 
-<h2>When Do You Need a Nota Crédito?</h2>
+<h2>When Do You Need a Nota Crédito?</h2><p class="block-answer" data-answer="true">Returns: Customer returns goods, full or partial refund Discounts: Retroactive discounts applied after invoice issuance</p>
 
 A Nota Crédito (credit note) reduces the value of a previously issued electronic invoice:
 
@@ -1259,7 +1259,7 @@ A Nota Crédito (credit note) reduces the value of a previously issued electroni
 <li><strong>Discounts:</strong> Retroactive discounts applied after invoice issuance</li>
 <li><strong>Price adjustments:</strong> Overcharging errors corrected</li>
 <li><strong>Complete cancellation:</strong> Voiding the entire invoice (credit note for full amount)</li>
-</ul><h2>When Do You Need a Nota Débito?</h2>
+</ul><h2>When Do You Need a Nota Débito?</h2><p class="block-answer" data-answer="true">Undercharging corrections: Original invoice was below the correct amount Interest charges: Late payment interest added</p>
 
 A Nota Débito (debit note) increases the value of a previously issued invoice:
 
@@ -1395,7 +1395,7 @@ A foreign company has a permanent establishment (establecimiento permanente) in 
 <li><strong>Complete habilitación:</strong> Submit test e-invoices to DIAN for validation</li>
 <li><strong>Obtain digital certificate:</strong> From a Colombian-accredited certification authority</li>
 <li><strong>Begin production e-invoicing</strong></li>
-</ol><h2>Withholding Obligations for Colombian Buyers</h2>
+</ol><h2>Withholding Obligations for Colombian Buyers</h2><p class="block-answer" data-answer="true">Withholding Obligations for Colombian Buyers includes: Income tax withholding: 15-20% depending on payment type IVA withholding: 15% of IVA for payments to non-residents providing services</p>
 
 When Colombian companies pay non-resident suppliers:
 
@@ -1448,7 +1448,7 @@ RO e-Factura is Romania's national electronic invoicing system that centralizes 
 <li><strong>July 2023:</strong> High-risk products (agriculture, alcohol, construction) required e-invoicing</li>
 <li><strong>January 1, 2024:</strong> All B2B transactions between Romanian VAT-registered businesses require e-invoicing</li>
 <li><strong>2023-present:</strong> e-Transport system mandatory for high-risk goods movement</li>
-</ul><h2>Who Must Comply?</h2>
+</ul><h2>Who Must Comply?</h2><p class="block-answer" data-answer="true">Large enterprises, medium enterprises, small enterprises, and micro-enterprises Foreign companies with Romanian VAT registration</p>
 
 All businesses registered for Romanian VAT that conduct B2B transactions with other Romanian VAT-registered entities:
 
@@ -1456,7 +1456,7 @@ All businesses registered for Romanian VAT that conduct B2B transactions with ot
 <li>Large enterprises, medium enterprises, small enterprises, and micro-enterprises</li>
 <li>Foreign companies with Romanian VAT registration</li>
 <li>Self-employed professionals (PFA - Persoană Fizică Autorizată) if VAT-registered</li>
-</ul><h2>What Format Does RO e-Factura Use?</h2>
+</ul><h2>What Format Does RO e-Factura Use?</h2><p class="block-answer" data-answer="true">Base standard: UBL 2.</p>
 
 Romania uses CIUS-RO (Core Invoice Usage Specification - Romania), a national profile based on the European standard EN 16931 and implemented in UBL 2.1 XML:
 
@@ -1474,7 +1474,7 @@ Romania uses CIUS-RO (Core Invoice Usage Specification - Romania), a national pr
 
 The submission must happen within 5 calendar days of the invoice issue date.
 
-<h2>What Are the Penalties for Non-Compliance?</h2><table border="1">
+<h2>What Are the Penalties for Non-Compliance?</h2><p class="block-answer" data-answer="true">What Are the Penalties for Non-Compliance — Large enterprises: RON 5,000–10,000 — €1,000–2,000.</p><table border="1">
 <thead><tr><th>Company Size</th><th>Penalty per Invoice</th><th>Approx. EUR</th></tr></thead>
 <tbody>
 <tr><td>Large enterprises</td><td>RON 5,000–10,000</td><td>€1,000–2,000</td></tr>
@@ -1524,7 +1524,7 @@ Alongside RO e-Factura, Romania operates the e-Transport system for tracking phy
     excerpt: `Technical guide to Romania's CIUS-RO XML format — UBL 2.1 profile, required fields, ANAF validation rules, and common errors.`,
     content: `Romania's CIUS-RO (Core Invoice Usage Specification - Romania) is a national customization of UBL 2.1 aligned with the European standard EN 16931. The format defines over 100 data fields with strict ANAF validation rules — invoices failing validation are rejected immediately and must be corrected and resubmitted within the 5-day deadline.
 
-<h2>What Is CIUS-RO?</h2>
+<h2>What Is CIUS-RO?</h2><p class="block-answer" data-answer="true">CIUS-RO includes: Base: UBL 2.</p>
 
 CIUS-RO is Romania's implementation of the European e-invoice standard, building on the EN 16931 semantic data model with Romanian-specific requirements:
 
@@ -1547,7 +1547,7 @@ CIUS-RO is Romania's implementation of the European e-invoice standard, building
 <li><strong>Currency:</strong> RON for domestic; EUR or other for cross-border</li>
 <li><strong>VAT breakdown:</strong> Per rate (19% standard, 9% reduced, 5% reduced)</li>
 <li><strong>Line items:</strong> Description, quantity, unit price, VAT rate, amounts</li>
-</ul><h2>Common ANAF Validation Errors</h2><table border="1">
+</ul><h2>Common ANAF Validation Errors</h2><p class="block-answer" data-answer="true">Common ANAF Validation Errors — CUI_INVALID: Tax ID fails checksum or not found in ANAF — Verify CUI at mfinante.  gov.</p><table border="1">
 <thead><tr><th>Error</th><th>Description</th><th>Solution</th></tr></thead>
 <tbody>
 <tr><td>CUI_INVALID</td><td>Tax ID fails checksum or not found in ANAF</td><td>Verify CUI at mfinante.gov.ro</td></tr>
@@ -1649,7 +1649,7 @@ The two systems are linked — the e-invoice (RO e-Factura) documents the transa
     excerpt: `ANAF penalties for RO e-Factura violations: RON 5,000-10,000 for large firms, RON 2,500-5,000 for SMEs. Complete penalty guide.`,
     content: `Romania's ANAF enforces RO e-Factura compliance through tiered penalties: RON 5,000–10,000 (€1,000–2,000) for large enterprises and RON 2,500–5,000 (€500–1,000) for SMEs per unreported invoice. Beyond fines, invoices not registered in RO e-Factura are considered invalid fiscal documents — meaning buyers cannot deduct VAT on non-compliant invoices.
 
-<h2>Penalty Structure by Company Size</h2><table border="1">
+<h2>Penalty Structure by Company Size</h2><p class="block-answer" data-answer="true">Penalty Structure by Company Size — Large enterprises (întreprinderi mari): RON 5,000–10,000 — €1,000–2,000.</p><table border="1">
 <thead><tr><th>Company Type</th><th>Fine per Invoice</th><th>EUR Equivalent</th><th>Additional Risk</th></tr></thead>
 <tbody>
 <tr><td>Large enterprises (întreprinderi mari)</td><td>RON 5,000–10,000</td><td>€1,000–2,000</td><td>Enhanced ANAF scrutiny</td></tr>
@@ -1764,7 +1764,7 @@ Unlike countries that mandate e-invoice exchange (where the invoice itself is tr
 <li><strong>Universal scope:</strong> All invoices with Hungarian ÁFA (VAT) are covered — B2B, B2C, domestic, and international</li>
 <li><strong>Data reporting, not invoice exchange:</strong> NAV receives the data; the actual invoice exchange is between buyer and seller</li>
 <li><strong>EU's highest VAT rate:</strong> Hungary's standard ÁFA rate is 27% — the highest in the EU</li>
-</ul><h2>Who Must Comply?</h2>
+</ul><h2>Who Must Comply?</h2><p class="block-answer" data-answer="true">All legal entities registered for Hungarian ÁFA Self-employed individuals (egyéni vállalkozó) issuing invoices</p>
 
 All Hungarian taxpayers who issue invoices:
 
@@ -1773,14 +1773,14 @@ All Hungarian taxpayers who issue invoices:
 <li><strong>Self-employed individuals</strong> (egyéni vállalkozó) issuing invoices</li>
 <li><strong>Foreign companies</strong> with Hungarian VAT registration</li>
 <li><strong>B2C invoices:</strong> Since January 2021, consumer invoices must also be reported</li>
-</ul><h2>What Are the Key Deadlines?</h2><table border="1">
+</ul><h2>What Are the Key Deadlines?</h2><p class="block-answer" data-answer="true">What Are the Key Deadlines — Software-generated invoices: Immediately / within 24 hours.</p><table border="1">
 <thead><tr><th>Invoice Type</th><th>Reporting Deadline</th></tr></thead>
 <tbody>
 <tr><td>Software-generated invoices</td><td>Immediately / within 24 hours</td></tr>
 <tr><td>Manually created invoices</td><td>Within 5 calendar days</td></tr>
 <tr><td>Modifications/corrections</td><td>Same deadlines as original invoice</td></tr>
 </tbody>
-</table><h2>How Does NAV Online Számla XML 3.0 Work?</h2>
+</table><h2>How Does NAV Online Számla XML 3.0 Work?</h2><p class="block-answer" data-answer="true">Invoice header: Invoice number, dates, supplier/customer data, currency Line item data: Product descriptions, quantities, unit prices, ÁFA rates and amounts</p>
 
 The current NAV XML 3.0 schema requires:
 
@@ -1855,7 +1855,7 @@ NAV XML 3.0 (invoiceData v3.0) is the mandatory data format for reporting invoic
 <li><strong>invoiceCategory:</strong> NORMAL, SIMPLIFIED, or AGGREGATE</li>
 <li><strong>paymentMethod:</strong> TRANSFER, CASH, CARD, VOUCHER, OTHER</li>
 <li><strong>currencyCode:</strong> HUF or foreign currency with exchange rate</li>
-</ul><h2>Mandatory Fields — Lines (invoiceLines)</h2>
+</ul><h2>Mandatory Fields — Lines (invoiceLines)</h2><p class="block-answer" data-answer="true">Mandatory Fields — Lines (invoiceLines) includes: lineDescription: Product or service description quantity: Number of units</p>
 
 Each line item requires:
 <ul>
@@ -1867,7 +1867,7 @@ Each line item requires:
 <li><strong>lineVatRate:</strong> ÁFA rate (27%, 18%, 5%, or exempt)</li>
 <li><strong>lineVatAmount:</strong> Calculated ÁFA for this line</li>
 <li><strong>lineGrossAmount:</strong> Gross amount including ÁFA</li>
-</ul><h2>Common Validation Errors</h2><table border="1">
+</ul><h2>Common Validation Errors</h2><p class="block-answer" data-answer="true">Common Validation Errors — TAXNUM_INVALID: Supplier or customer tax number format incorrect — Use 8-digit adószám format: XXXXXXXX-Y-ZZ.</p><table border="1">
 <thead><tr><th>Error Code</th><th>Description</th><th>Fix</th></tr></thead>
 <tbody>
 <tr><td>TAXNUM_INVALID</td><td>Supplier or customer tax number format incorrect</td><td>Use 8-digit adószám format: XXXXXXXX-Y-ZZ</td></tr>
@@ -1876,7 +1876,7 @@ Each line item requires:
 <tr><td>SUMMARY_MISMATCH</td><td>Summary totals don't match line item aggregation</td><td>Recalculate summaries from line data</td></tr>
 <tr><td>DUPLICATE_INVOICE</td><td>Invoice number already reported</td><td>Ensure unique numbering per tax year</td></tr>
 </tbody>
-</table><h2>API Authentication</h2>
+</table><h2>API Authentication</h2><p class="block-answer" data-answer="true">API Authentication includes: Technical user credentials: Login/password pair created on the NAV portal Request signature: HMAC-SHA512 hash of request data using the signature key</p>
 
 NAV API uses a two-layer authentication:
 <ol>
@@ -1984,7 +1984,7 @@ Switch your invoicing software to the production API endpoint and begin real-tim
 <li><strong>Buyer-side reports:</strong> When a buyer reports input ÁFA from an invoice not found in the seller's reported data</li>
 <li><strong>System monitoring:</strong> NAV tracks reporting patterns and flags sudden drops in invoice volume</li>
 <li><strong>API error patterns:</strong> Repeated submission failures or error rates above thresholds</li>
-</ul><h2>Grace Period and First Offenses</h2>
+</ul><h2>Grace Period and First Offenses</h2><p class="block-answer" data-answer="true">Grace Period and First Offenses includes: First detection: Warning letter with requirement to comply within 15 days Second detection: Formal penalty assessment</p>
 
 NAV generally applies a graduated enforcement approach:
 <ol>

@@ -89,7 +89,7 @@ export const cluster12Posts: BlogPost[] = [
         <li><strong>Saudi Arabia</strong> — mandatory FATOORAH since 2021, Phase 2 integration rolling out</li>
         <li><strong>UK</strong> — MTD mandatory, B2B e-invoicing expected 2028-2030</li>
         <li><strong>US</strong> — no federal mandate, voluntary Peppol adoption</li>
-      </ul><h2>What Are the Key MTD and E-Invoicing Dates for UK Businesses?</h2><table>
+      </ul><h2>What Are the Key MTD and E-Invoicing Dates for UK Businesses?</h2><p class="block-answer" data-answer="true">What Are the Key MTD and E-Invoicing Dates for UK Businesses — April 2022: MTD for VAT mandatory for all VAT-registered businesses.</p><table>
         <thead><tr><th>Date</th><th>Milestone</th></tr></thead>
         <tbody>
           <tr><td>April 2022</td><td>MTD for VAT mandatory for all VAT-registered businesses</td></tr>
@@ -124,6 +124,10 @@ export const cluster12Posts: BlogPost[] = [
     semanticKeywords: ['MTD compatible software', 'HMRC VAT software', 'Making Tax Digital software requirements'],
     macroContext: 'Choosing MTD-compatible software for UK VAT compliance',
     priority: 'P1',
+    faq: [
+      { question: "What Makes Software MTD-Compatible?", answer: "Making Tax Digital (MTD) requires all VAT-registered UK businesses to use software that meets specific HMRC requirements. But not all \"cloud accounting\" tools are MTD-compatible." },
+      { question: "How Invoicemonk Supports UK Businesses?", answer: "Invoicemonk helps UK businesses create compliant invoices with:" },
+    ],
     content: `<h2>What Makes Software MTD-Compatible?</h2><p class="block-answer" data-answer="true">Making Tax Digital (MTD) requires all VAT-registered UK businesses to use software that meets specific HMRC requirements.  But not all "cloud accounting" tools are MTD-compatible.</p><p>Making Tax Digital (MTD) requires all VAT-registered UK businesses to use software that meets specific HMRC requirements. But not all "cloud accounting" tools are MTD-compatible. Here's what you need to know.</p><h2>HMRC's Technical Requirements</h2><p class="block-answer" data-answer="true">To qualify as MTD-compatible, software must:</p><p>To qualify as MTD-compatible, software must:</p><ul>
         <li><strong>Keep digital records</strong> — store VAT records electronically (sales, purchases, VAT calculations)</li>
         <li><strong>Preserve digital links</strong> — transfer data between parts of your system without manual re-keying</li>
@@ -226,6 +230,11 @@ export const cluster12Posts: BlogPost[] = [
     semanticKeywords: ['VAT Flat Rate Scheme', 'FRS invoicing', 'flat rate VAT UK', 'FRS invoice requirements'],
     macroContext: 'Correct invoicing under the UK VAT Flat Rate Scheme',
     priority: 'P1',
+    faq: [
+      { question: "What Is the VAT Flat Rate Scheme?", answer: "The VAT Flat Rate Scheme (FRS) simplifies VAT for small businesses with taxable turnover under £150,000. Instead of calculating the actual VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover." },
+      { question: "How FRS Affects Your Invoices?", answer: "Here's the critical rule: you still charge VAT at 20% on your invoices, even though you pay HMRC a lower flat rate. Your invoices look identical to those of a standard-rate business." },
+      { question: "When to Leave the FRS?", answer: "You must leave the FRS if your total business income exceeds £230,000 (including VAT-exempt income)." },
+    ],
     content: `<h2>What Is the VAT Flat Rate Scheme?</h2><p class="block-answer" data-answer="true">The VAT Flat Rate Scheme (FRS) simplifies VAT for small businesses with taxable turnover under £150,000.  Instead of calculating the actual VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover.</p><p>The <strong>VAT Flat Rate Scheme (FRS)</strong> simplifies VAT for small businesses with taxable turnover under £150,000. Instead of calculating the actual VAT on every purchase and sale, you pay HMRC a fixed percentage of your gross turnover. The percentage depends on your industry — ranging from 4% (retail food) to 14.5% (professional services).</p><p>The key benefit: simplicity. You don't need to track VAT on every purchase. But the invoicing rules catch many businesses out.</p><h2>How FRS Affects Your Invoices</h2><p class="block-answer" data-answer="true">Here's the critical rule: you still charge VAT at 20% on your invoices, even though you pay HMRC a lower flat rate.  Your invoices look identical to those of a standard-rate business.</p><p>Here's the critical rule: <strong>you still charge VAT at 20% on your invoices</strong>, even though you pay HMRC a lower flat rate. Your invoices look identical to those of a standard-rate business.</p><p>For example, if you're a consultant (14.5% flat rate):</p><ul>
         <li>You invoice a client for £1,000 + 20% VAT = <strong>£1,200</strong></li>
         <li>You pay HMRC 14.5% of £1,200 = <strong>£174</strong></li>
@@ -261,6 +270,11 @@ export const cluster12Posts: BlogPost[] = [
     semanticKeywords: ['CIS reverse charge', 'construction reverse charge VAT', 'CIS invoice requirements', 'domestic reverse charge UK'],
     macroContext: 'CIS domestic reverse charge invoicing rules for UK construction businesses',
     priority: 'P1',
+    faq: [
+      { question: "What Is the CIS Domestic Reverse Charge?", answer: "Since 1 March 2021, the domestic reverse charge for building and construction services changed how VAT works in the UK construction industry. Under the reverse charge, the customer (not the supplier) accounts for the VAT on their VAT return." },
+      { question: "When Does the Reverse Charge Apply?", answer: "The reverse charge applies when all three conditions are met:" },
+      { question: "How to Create a Reverse Charge Invoice?", answer: "Your reverse charge invoice must include all the standard HMRC invoice requirements, plus:" },
+    ],
     content: `<h2>What Is the CIS Domestic Reverse Charge?</h2><p class="block-answer" data-answer="true">Since 1 March 2021, the domestic reverse charge for building and construction services changed how VAT works in the UK construction industry.  Under the reverse charge, the customer (not the supplier) accounts for the VAT on their VAT return.</p><p>Since <strong>1 March 2021</strong>, the domestic reverse charge for building and construction services changed how VAT works in the UK construction industry. Under the reverse charge, the <strong>customer</strong> (not the supplier) accounts for the VAT on their VAT return. The supplier does not charge VAT on their invoice.</p><p>This was introduced to combat <strong>missing trader fraud</strong> in the construction sector, where subcontractors would charge VAT, collect it from the contractor, and then disappear without paying it to HMRC.</p><h2>When Does the Reverse Charge Apply?</h2><p class="block-answer" data-answer="true">The reverse charge applies when all three conditions are met:</p><p>The reverse charge applies when <strong>all three conditions</strong> are met:</p><ol>
         <li>The supply is of <strong>specified construction services</strong> (building, repair, demolition, civil engineering, installation of heating/lighting/power systems)</li>
         <li>Both parties are <strong>VAT-registered</strong></li>
@@ -316,13 +330,17 @@ export const cluster12Posts: BlogPost[] = [
     semanticKeywords: ['Making Tax Digital timeline', 'MTD dates', 'MTD ITSA 2026', 'HMRC digital tax timeline'],
     macroContext: 'Making Tax Digital rollout timeline and preparation guide',
     priority: 'P1',
-    content: `<h2>The Complete MTD Timeline</h2><p class="block-answer" data-answer="true">Making Tax Digital is HMRC's multi-year programme to digitise the UK tax system.  Here's every important date — past, present, and future.</p><p>Making Tax Digital is HMRC's multi-year programme to digitise the UK tax system. Here's every important date — past, present, and future.</p><h2>What's Already Happened</h2><table>
+    faq: [
+      { question: "What's Already Happened?", answer: "If you're VAT-registered today, you should already be using MTD-compatible software. If you're still filing through the HMRC portal, you're non-compliant." },
+      { question: "What's Coming Next?", answer: "What's Coming Next — April 2026: MTD for Income Tax Self Assessment — Phase 1 — Self-employed individuals and landlords with annual income >£50,000." },
+    ],
+    content: `<h2>The Complete MTD Timeline</h2><p class="block-answer" data-answer="true">Making Tax Digital is HMRC's multi-year programme to digitise the UK tax system.  Here's every important date — past, present, and future.</p><p>Making Tax Digital is HMRC's multi-year programme to digitise the UK tax system. Here's every important date — past, present, and future.</p><h2>What's Already Happened</h2><p class="block-answer" data-answer="true">If you're VAT-registered today, you should already be using MTD-compatible software.  If you're still filing through the HMRC portal, you're non-compliant.</p><table>
         <thead><tr><th>Date</th><th>Milestone</th><th>Who's Affected</th></tr></thead>
         <tbody>
           <tr><td><strong>April 2019</strong></td><td>MTD for VAT Phase 1 — mandatory for businesses above £85,000 VAT threshold</td><td>~1.2 million businesses</td></tr>
           <tr><td><strong>April 2022</strong></td><td>MTD for VAT Phase 2 — mandatory for ALL VAT-registered businesses</td><td>All VAT-registered businesses (including voluntarily registered)</td></tr>
         </tbody>
-      </table><p>If you're VAT-registered today, you should already be using MTD-compatible software. If you're still filing through the HMRC portal, you're non-compliant.</p><h2>What's Coming Next</h2><table>
+      </table><p>If you're VAT-registered today, you should already be using MTD-compatible software. If you're still filing through the HMRC portal, you're non-compliant.</p><h2>What's Coming Next</h2><p class="block-answer" data-answer="true">What's Coming Next — April 2026: MTD for Income Tax Self Assessment — Phase 1 — Self-employed individuals and landlords with annual income >£50,000.</p><table>
         <thead><tr><th>Date</th><th>Milestone</th><th>Who's Affected</th></tr></thead>
         <tbody>
           <tr><td><strong>April 2026</strong></td><td>MTD for Income Tax Self Assessment — Phase 1</td><td>Self-employed individuals and landlords with annual income >£50,000</td></tr>
@@ -641,7 +659,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>Total amount <strong>including VAT</strong></li>
         <li>VAT amount</li>
         <li><strong>QR code</strong> (mandatory — even for simplified invoices)</li>
-      </ul><p>Note: buyer details are <strong>not required</strong> on simplified invoices.</p><h2>VAT Rates in Saudi Arabia</h2><table>
+      </ul><p>Note: buyer details are <strong>not required</strong> on simplified invoices.</p><h2>VAT Rates in Saudi Arabia</h2><p class="block-answer" data-answer="true">VAT Rates in Saudi Arabia — 15%: Most goods and services (standard rate).</p><table>
         <thead><tr><th>Rate</th><th>Applies To</th></tr></thead>
         <tbody>
           <tr><td><strong>15%</strong></td><td>Most goods and services (standard rate)</td></tr>
@@ -679,7 +697,7 @@ export const cluster12Posts: BlogPost[] = [
     semanticKeywords: ['ZATCA penalties', 'Saudi e-invoicing fines', 'ZATCA non-compliance', 'Saudi Arabia tax penalties'],
     macroContext: 'ZATCA penalty framework for Saudi Arabian e-invoicing non-compliance',
     priority: 'P1',
-    content: `<h2>ZATCA's Enforcement Approach</h2><p class="block-answer" data-answer="true">The Zakat, Tax and Customs Authority takes e-invoicing compliance seriously.  Since the FATOORAH mandate came into effect, ZATCA has conducted thousands of inspections and issued millions of SAR in penalties.</p><p>The Zakat, Tax and Customs Authority takes e-invoicing compliance seriously. Since the <a href="/en/blog/zatca-phase-2-explained">FATOORAH mandate</a> came into effect, ZATCA has conducted thousands of inspections and issued millions of SAR in penalties. Their approach follows a graduated enforcement model — warnings first, then escalating fines for repeated violations.</p><h2>Penalty Schedule</h2><table>
+    content: `<h2>ZATCA's Enforcement Approach</h2><p class="block-answer" data-answer="true">The Zakat, Tax and Customs Authority takes e-invoicing compliance seriously.  Since the FATOORAH mandate came into effect, ZATCA has conducted thousands of inspections and issued millions of SAR in penalties.</p><p>The Zakat, Tax and Customs Authority takes e-invoicing compliance seriously. Since the <a href="/en/blog/zatca-phase-2-explained">FATOORAH mandate</a> came into effect, ZATCA has conducted thousands of inspections and issued millions of SAR in penalties. Their approach follows a graduated enforcement model — warnings first, then escalating fines for repeated violations.</p><h2>Penalty Schedule</h2><p class="block-answer" data-answer="true">Penalty Schedule — Not issuing e-invoices: Warning — SAR 5,000–50,000.</p><table>
         <thead><tr><th>Violation</th><th>First Offense</th><th>Repeat Offenses</th></tr></thead>
         <tbody>
           <tr><td>Not issuing e-invoices</td><td>Warning</td><td>SAR 5,000–50,000</td></tr>
@@ -750,7 +768,7 @@ export const cluster12Posts: BlogPost[] = [
       { question: 'What is the IRBM Unique Identifier Number?', answer: 'The IRBM Unique Identifier Number is a system-generated reference assigned by LHDN to every validated MyInvois e-invoice. It must appear on the invoice PDF and is encoded in the QR code that links back to the MyInvois validation record.' },
       { question: 'Do MEIs and small Malaysian businesses need to comply?', answer: 'Yes. From July 1, 2025, all taxpayers including sole proprietors and micro-businesses must use MyInvois. Low-volume businesses can use the free MyInvois portal manually rather than integrating via API.' },
     ],
-    content: `<h2>What Is Malaysia's MyInvois E-Invoicing Mandate?</h2><p class="block-answer" data-answer="true">Malaysia's MyInvois E-Invoicing Mandate is myInvois is Malaysia's mandatory e-invoicing platform operated by LHDN (Lembaga Hasil Dalam Negeri).</p><p>MyInvois is Malaysia's mandatory e-invoicing platform operated by <a href="https://www.hasil.gov.my">LHDN (Lembaga Hasil Dalam Negeri)</a>. It validates every B2B, B2G, and B2C invoice in real-time using PEPPOL BIS Billing 3.0 (UBL 2.1) format, returning an IRBM Unique Identifier Number and QR code. The mandate covers all VAT-equivalent (SST) businesses by <strong>1 July 2025</strong>, with non-compliance fines of up to <strong>RM 20,000</strong> per invoice and possible imprisonment up to 6 months.</p><h2>When Does MyInvois Apply to My Business?</h2><table>
+    content: `<h2>What Is Malaysia's MyInvois E-Invoicing Mandate?</h2><p class="block-answer" data-answer="true">Malaysia's MyInvois E-Invoicing Mandate is myInvois is Malaysia's mandatory e-invoicing platform operated by LHDN (Lembaga Hasil Dalam Negeri).</p><p>MyInvois is Malaysia's mandatory e-invoicing platform operated by <a href="https://www.hasil.gov.my">LHDN (Lembaga Hasil Dalam Negeri)</a>. It validates every B2B, B2G, and B2C invoice in real-time using PEPPOL BIS Billing 3.0 (UBL 2.1) format, returning an IRBM Unique Identifier Number and QR code. The mandate covers all VAT-equivalent (SST) businesses by <strong>1 July 2025</strong>, with non-compliance fines of up to <strong>RM 20,000</strong> per invoice and possible imprisonment up to 6 months.</p><h2>When Does MyInvois Apply to My Business?</h2><p class="block-answer" data-answer="true">If you're a Malaysian business, you're either already required to comply or will be very soon.</p><table>
         <thead><tr><th>Phase</th><th>Criteria</th><th>Mandatory Date</th></tr></thead>
         <tbody>
           <tr><td>Phase 1</td><td>Annual turnover > RM 100 million</td><td>1 August 2024</td></tr>
@@ -845,7 +863,7 @@ export const cluster12Posts: BlogPost[] = [
         <li>Most will use the MyInvois portal (no API integration needed)</li>
         <li>LHDN has committed to a user-friendly portal experience for low-volume businesses</li>
         <li>This is the largest and most challenging phase — affecting the long tail of Malaysian businesses</li>
-      </ul><p><strong>Status:</strong> 🔲 Approaching — prepare now</p><h2>Key Dates After Full Rollout</h2><table>
+      </ul><p><strong>Status:</strong> 🔲 Approaching — prepare now</p><h2>Key Dates After Full Rollout</h2><p class="block-answer" data-answer="true">Key Dates After Full Rollout — July 2025: All taxpayers must use MyInvois.</p><table>
         <thead><tr><th>Date</th><th>Milestone</th></tr></thead>
         <tbody>
           <tr><td>July 2025</td><td>All taxpayers must use MyInvois</td></tr>
@@ -958,7 +976,7 @@ export const cluster12Posts: BlogPost[] = [
     semanticKeywords: ['Malaysia SST invoice', 'sales and service tax invoice', 'SST requirements Malaysia', 'Malaysia tax invoice format'],
     macroContext: 'SST invoicing requirements and compliance rules for Malaysian businesses',
     priority: 'P1',
-    content: `<h2>Understanding Malaysia's SST System</h2><p class="block-answer" data-answer="true">Malaysia operates a Sales and Service Tax (SST) system — a single-stage tax that replaced the multi-stage GST in September 2018.  Unlike VAT/GST systems used in most countries, SST is levied only once in the supply chain.</p><p>Malaysia operates a <strong>Sales and Service Tax (SST)</strong> system — a single-stage tax that replaced the multi-stage GST in September 2018. Unlike VAT/GST systems used in most countries, SST is levied only once in the supply chain.</p><h2>Sales Tax vs Service Tax</h2><table>
+    content: `<h2>Understanding Malaysia's SST System</h2><p class="block-answer" data-answer="true">Malaysia operates a Sales and Service Tax (SST) system — a single-stage tax that replaced the multi-stage GST in September 2018.  Unlike VAT/GST systems used in most countries, SST is levied only once in the supply chain.</p><p>Malaysia operates a <strong>Sales and Service Tax (SST)</strong> system — a single-stage tax that replaced the multi-stage GST in September 2018. Unlike VAT/GST systems used in most countries, SST is levied only once in the supply chain.</p><h2>Sales Tax vs Service Tax</h2><p class="block-answer" data-answer="true">A critical difference from VAT: SST has no input tax credit mechanism.  You cannot offset SST paid on purchases against SST collected on sales.</p><table>
         <thead><tr><th>Feature</th><th>Sales Tax</th><th>Service Tax</th></tr></thead>
         <tbody>
           <tr><td><strong>Rate</strong></td><td>10% (standard), 5% (selected items)</td><td>6% (standard), 8% (selected services from March 2024)</td></tr>
@@ -1025,6 +1043,10 @@ export const cluster12Posts: BlogPost[] = [
     semanticKeywords: ['MyInvois small business', 'MyInvois SME guide', 'Malaysia e-invoicing small business', 'MyInvois portal guide'],
     macroContext: 'Practical MyInvois compliance guide for Malaysian small businesses and sole proprietors',
     priority: 'P1',
+    faq: [
+      { question: "Do I Really Need to Comply?", answer: "Yes. Phase 3 covers all remaining taxpayers, regardless of size." },
+      { question: "What You Need Before You Start?", answer: "Tax Identification Number (TIN) — get yours from LHDN if you don't have one Business registration number — your SSM (Suruhanjaya Syarikat Malaysia) registration" },
+    ],
     content: `<h2>MyInvois Is Coming for Everyone — Including You</h2><p class="block-answer" data-answer="true">If you're a Malaysian small business owner, freelancer, or sole proprietor, MyInvois e-invoicing becomes mandatory for you in Phase 3 (July 2025).  This guide cuts through the jargon and tells you exactly what you need to do.</p><p>If you're a Malaysian small business owner, freelancer, or sole proprietor, <a href="/en/blog/myinvois-malaysia-explained">MyInvois e-invoicing</a> becomes mandatory for you in <strong>Phase 3 (July 2025)</strong>. This guide cuts through the jargon and tells you exactly what you need to do.</p><h2>Do I Really Need to Comply?</h2><p class="block-answer" data-answer="true">Yes.  Phase 3 covers all remaining taxpayers, regardless of size.</p><p><strong>Yes.</strong> Phase 3 covers all remaining taxpayers, regardless of size. Even if you:</p><ul>
         <li>Are a sole proprietor (Enterprise / Perniagaan)</li>
         <li>Have turnover under RM 500,000</li>

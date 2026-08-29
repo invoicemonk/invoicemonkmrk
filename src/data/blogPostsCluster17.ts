@@ -16,7 +16,7 @@ export const cluster17Posts: BlogPost[] = [
 
 France is implementing a comprehensive e-invoicing and e-reporting mandate to modernize its tax administration, combat VAT fraud, and streamline business processes. This initiative, governed by the Direction Générale des Finances Publiques (DGFiP), requires businesses to issue and receive electronic invoices and to report transaction data electronically. The mandate is based on the Finance Law 2024, subsequently amended by Finance Law 2026, and is set for a phased rollout beginning September 1, 2026. This system mandates the use of specific electronic formats like Factur-X, UBL 2.1, or CII, and routing through certified platforms.
 
-<h3>What is the Primary Goal of the French Mandate?</h3>
+<h3>What is the Primary Goal of the French Mandate?</h3><p class="block-answer" data-answer="true">the Primary Goal of the French Mandate includes: Reduce VAT Fraud: Real-time or near real-time data allows for quicker detection of discrepancies.   Simplify VAT Declaration: Pre-filled VAT declarations for businesses can reduce administrative burden.</p>
 
 The core objective of the French e-invoicing and e-reporting mandate is to enhance the transparency and efficiency of VAT collection. By standardizing invoice formats and centralizing transaction data, the DGFiP aims to:
 
@@ -33,7 +33,7 @@ This system is a significant step towards full digital tax compliance within the
 
 The French e-invoicing mandate applies broadly to nearly all businesses operating in France subject to VAT. It distinguishes between Business-to-Business (B2B) transactions and Business-to-Consumer (B2C) or international B2B transactions, each with specific reporting requirements.
 
-<h3>Who is Affected by the B2B E-Invoicing Obligation?</h3>
+<h3>Who is Affected by the B2B E-Invoicing Obligation?</h3><p class="block-answer" data-answer="true">Large enterprises (ETI and grandes entreprises) Mid-size enterprises (PME)</p>
 
 All businesses established in France that are subject to VAT (TVA) and engage in B2B transactions with other French VAT-registered businesses will be affected. This includes:
 
@@ -45,7 +45,7 @@ All businesses established in France that are subject to VAT (TVA) and engage in
 
 The obligation applies to all domestic B2B sales and purchases of goods and services. Even auto-entrepreneurs exceeding the VAT threshold of €36,800 for services or €91,900 for goods annual turnover will be included.
 
-<h3>When Does the E-Invoicing Mandate Start for B2B Transactions?</h3>
+<h3>When Does the E-Invoicing Mandate Start for B2B Transactions?</h3><p class="block-answer" data-answer="true">September 1, 2026: All businesses must be capable of *receiving* e-invoices.  Large enterprises (ETI and grandes entreprises) must begin *emitting* e-invoices.</p>
 
 The implementation is staggered based on company size:
 
@@ -56,7 +56,7 @@ The implementation is staggered based on company size:
 
 This phased approach allows businesses time to adapt their systems and processes.
 
-<h3>What are E-Reporting Obligations for B2C and International Transactions?</h3>
+<h3>What are E-Reporting Obligations for B2C and International Transactions?</h3><p class="block-answer" data-answer="true">E-Reporting Obligations for B2C and International Transactions includes: B2C sales: Transactions made to non-VAT-registered individual customers.   International B2B sales: Sales of goods or services to businesses outside of France.</p>
 
 Beyond domestic B2B e-invoicing, France's mandate includes e-reporting for transactions not covered by e-invoicing. This applies to:
 
@@ -73,7 +73,7 @@ The e-reporting obligation follows the same phased timeline as the e-invoicing e
 
 France's e-invoicing system operates on a "Y-scheme" model, involving two primary types of platforms: the Portail Public de Facturation (PPF) and Plateformes de Dématérialisation Partenaires (PDP). This dual-platform approach provides flexibility while ensuring compliance and data integrity.
 
-<h3>What is the Portail Public de Facturation (PPF)?</h3>
+<h3>What is the Portail Public de Facturation (PPF)?</h3><p class="block-answer" data-answer="true">the Portail Public de Facturation (PPF) includes: Central Directory: Maintaining a directory of all registered businesses and their chosen e-invoicing platform (PPF or PDP).   Data Hub: Receiving and transmitting e-invoice data between businesses.</p>
 
 The Portail Public de Facturation (PPF) is the central, public e-invoicing platform provided by the French government (DGFiP). It acts as the backbone of the entire e-invoicing system. All e-invoices and e-reporting data, regardless of the sender's choice of platform, will ultimately pass through or be registered with the PPF.
 
@@ -84,7 +84,7 @@ Key functions of the PPF include:
   <li><strong>Data Hub:</strong> Receiving and transmitting e-invoice data between businesses.</li>
   <li><strong>Tax Authority Interface:</strong> Extracting necessary data for VAT pre-filling and tax control purposes for the DGFiP.</li>
   <li><strong>Free Service:</strong> Offering a basic, free e-invoicing and e-reporting service for businesses that choose not to use a private PDP.</li>
-</ul><h3>What are Plateformes de Dématérialisation Partenaires (PDP)?</h3>
+</ul><h3>What are Plateformes de Dématérialisation Partenaires (PDP)?</h3><p class="block-answer" data-answer="true">Plateformes de Dématérialisation Partenaires (PDP) includes: Enhanced Features: Services beyond basic e-invoicing, such as integration with ERP systems, automated reconciliation, electronic archiving, and multiple invoice formats.   A good PDP can integrate with your existing invoicing system.</p>
 
 Plateformes de Dématérialisation Partenaires (PDP) are private, certified service providers that offer advanced e-invoicing and e-reporting solutions. Businesses can choose to use a PDP instead of the PPF for their e-invoicing needs. PDPs must be officially registered and certified by the DGFiP.
 
@@ -103,7 +103,7 @@ When a business uses a PDP, the PDP is responsible for:
   <li>Ensuring the invoices are in a compliant format (Factur-X, UBL 2.1, or CII).</li>
   <li>Transmitting the invoice data to the recipient's chosen platform (either another PDP or the PPF).</li>
   <li>Extracting mandatory e-reporting data and transmitting it to the PPF.</li>
-</ol><h3>What are the Key Differences Between PPF and PDP?</h3>
+</ol><h3>What are the Key Differences Between PPF and PDP?</h3><p class="block-answer" data-answer="true">What are the Key Differences Between PPF and PDP — Provider: French Government (DGFiP) — Private, certified service providers.</p>
 
 Choosing between the PPF and a PDP depends on a business's needs, volume of transactions, and existing IT infrastructure.
 
@@ -155,7 +155,7 @@ Businesses can switch between platforms or use a combination, as long as they me
 
 To ensure interoperability and data quality, the French e-invoicing mandate specifies strict technical requirements for invoice formats and transmission protocols.
 
-<h3>What E-Invoice Formats are Accepted?</h3>
+<h3>What E-Invoice Formats are Accepted?</h3><p class="block-answer" data-answer="true">Factur-X: This is a hybrid format combining a human-readable PDF with an embedded XML data file.  It is the preferred and recommended format by the DGFiP due to its dual readability.</p>
 
 The DGFiP has mandated the use of structured electronic formats to ensure machine readability and automated processing. The accepted formats are:
 
@@ -167,7 +167,7 @@ The DGFiP has mandated the use of structured electronic formats to ensure machin
 
 It is crucial that the chosen format adheres to the European standard EN 16931 for semantic data model, ensuring consistency across different e-invoicing systems.
 
-<h3>What Data Must be Included in an E-Invoice?</h3>
+<h3>What Data Must be Included in an E-Invoice?</h3><p class="block-answer" data-answer="true">Invoice number Invoice date</p>
 
 A compliant e-invoice in France must contain specific mandatory information. This generally aligns with standard VAT invoice requirements but also includes specific mandate-related data points.
 
@@ -195,7 +195,7 @@ Additionally, specific mentions might be required for:
   <li>Seller's SIRET number (if applicable)</li>
   <li>Mentions regarding self-billing, VAT exemption, or reverse charge where applicable.</li>
   <li>In specific cases, details like the delivery address or purchase order reference.</li>
-</ul><h3>How is E-Invoice Transmission Handled?</h3>
+</ul><h3>How is E-Invoice Transmission Handled?</h3><p class="block-answer" data-answer="true">Sender: A business generates an e-invoice, either directly via the PPF or through its chosen PDP.  Sender's Platform: If using a PDP, the PDP receives the e-invoice, performs checks, and sends it to the PPF.</p>
 
 E-invoice transmission follows the "Y-scheme" model:
 
@@ -209,7 +209,7 @@ E-invoice transmission follows the "Y-scheme" model:
 
 This ensures that all invoices flow through a monitored and controlled network, enabling the DGFiP to collect necessary data for pre-filling VAT declarations and performing audits.
 
-<h3>What are the Technical Requirements for E-Reporting?</h3>
+<h3>What are the Technical Requirements for E-Reporting?</h3><p class="block-answer" data-answer="true">the Technical Requirements for E-Reporting includes: Transaction date Total amount of the transaction</p>
 
 E-reporting involves transmitting specific transaction data to the DGFiP via the PPF (or a PDP which then forwards to the PPF). This applies to B2C and international B2B transactions.
 
@@ -232,7 +232,7 @@ The implementation of France's e-invoicing and e-reporting mandate is a multi-ye
 
 <h3>What are the Key Dates for E-Invoicing Reception?</h3><p class="block-answer" data-answer="true">the Key Dates for E-Invoicing Reception includes: September 1, 2026: All businesses subject to VAT in France must be able to *receive* electronic invoices.</p><ul>
   <li><strong>September 1, 2026:</strong> All businesses subject to VAT in France must be able to *receive* electronic invoices. This means businesses (regardless of their size) must have a system in place (either direct access to the PPF or via a PDP) to process incoming e-invoices from this date.</li>
-</ul><h3>What are the Key Dates for E-Invoicing Emission by Company Size?</h3>
+</ul><h3>What are the Key Dates for E-Invoicing Emission by Company Size?</h3><p class="block-answer" data-answer="true">What are the Key Dates for E-Invoicing Emission by Company Size — Large Enterprises (ETI and grandes entreprises): Generally, companies with more than 5,000 employees OR turnover > €1.  5 billion euro AND balance sheet total > €2 billion euro — September 1, 2026.</p>
 
 The obligation to *emit* e-invoices is staggered based on the company's size, reflecting the estimated complexity of adapting their internal systems.
 
@@ -386,7 +386,7 @@ France's e-invoicing and e-reporting mandate is deeply integrated with its VAT (
 
 The standard Value Added Tax (TVA) rate in France is <strong>20%</strong>. This rate applies to most goods and services unless they are specifically subject to a reduced rate or are exempt.
 
-<h3>Are There Reduced VAT Rates?</h3>
+<h3>Are There Reduced VAT Rates?</h3><p class="block-answer" data-answer="true">10%: Applies to certain food products, catering services, take-away food, passenger transport, hotel accommodation, some renovation work, cultural events, and certain agricultural products.  5.</p>
 
 Yes, France applies several reduced VAT rates to specific categories of goods and services:
 
@@ -398,7 +398,7 @@ Yes, France applies several reduced VAT rates to specific categories of goods an
 
 It is critical for businesses to correctly apply these VAT rates on their invoices and accurately report them through the e-invoicing and e-reporting system. Incorrect VAT application can lead to additional penalties and tax adjustments.
 
-<h3>How Does E-Invoicing Impact VAT Declarations?</h3>
+<h3>How Does E-Invoicing Impact VAT Declarations?</h3><p class="block-answer" data-answer="true">By collecting structured invoice data (for B2B) and transaction data (for B2C and international B2B) in near real-time, the tax authority can populate sections of a company's monthly or quarterly VAT return.</p>
 
 One of the primary benefits for the DGFiP is the ability to leverage e-invoicing and e-reporting data to <strong>pre-fill VAT declarations</strong> for businesses.
 
@@ -406,7 +406,7 @@ One of the primary benefits for the DGFiP is the ability to leverage e-invoicing
   <li>By collecting structured invoice data (for B2B) and transaction data (for B2C and international B2B) in near real-time, the tax authority can populate sections of a company's monthly or quarterly VAT return.</li>
   <li>This aims to reduce errors, simplify the declaration process for businesses, and make VAT control more efficient.</li>
   <li>Businesses will still be responsible for verifying the pre-filled declaration data and making any necessary adjustments before submission.</li>
-</ul><h3>Are There VAT Thresholds for Small Businesses (Auto-entrepreneurs)?</h3>
+</ul><h3>Are There VAT Thresholds for Small Businesses (Auto-entrepreneurs)?</h3><p class="block-answer" data-answer="true">€36,800 annual turnover for services.  €91,900 annual turnover for goods.</p>
 
 Yes, specific VAT thresholds apply for auto-entrepreneurs (a simplified business regime for self-employed individuals). Below these thresholds, businesses are generally exempt from charging VAT (and recovering input VAT) and do not need to issue VAT-compliant invoices with VAT details. They are also then exempt from the e-invoicing mandate regarding emission, but must still be able to receive e-invoices if they engage in B2B transactions.
 
@@ -435,7 +435,7 @@ While the current mandate focuses on B2B, B2C, and international B2B transaction
 
 No. Once the mandate takes effect for a business category, <strong>paper invoices will no longer be considered legally valid</strong> for domestic B2B transactions. All invoices exchanged between VAT-registered businesses in France must be in a structured electronic format (Factur-X, UBL 2.1, or CII) and transmitted through the PPF or a certified PDP. For B2C transactions, electronic reporting will replace the need for traditional paper receipts for tax purposes.
 
-<h3>What is Factur-X and Why is it Recommended?</h3>
+<h3>What is Factur-X and Why is it Recommended?</h3><p class="block-answer" data-answer="true">Factur-X and Why is it Recommended includes: Hybrid Nature: It offers the best of both worlds: a visually familiar document that can be easily read and understood by humans, and structured data in the XML part that can be directly processed by machines (accounting systems, tax authorities).</p>
 
 Factur-X is a hybrid e-invoice format that combines a human-readable PDF document with an embedded XML data file. It is essentially a "PDF A/3" file.
 
@@ -447,7 +447,7 @@ Factur-X is a hybrid e-invoice format that combines a human-readable PDF documen
 
 The legal framework for France's e-invoicing and e-reporting mandate is primarily established by <strong>Finance Law 2024 (Article 91)</strong>, which was subsequently amended by <strong>Finance Law 2026</strong>. These laws define the scope, timeline, technical requirements, and penalties associated with the mandate. Businesses should refer to the official publications by the DGFiP for the most up-to-date and detailed legal interpretations.
 
-<h3>How Will This Mandate Benefit Businesses?</h3>
+<h3>How Will This Mandate Benefit Businesses?</h3><p class="block-answer" data-answer="true">Reduced Administrative Costs: Automation of invoice processing can significantly lower costs associated with printing, postage, manual data entry, and archiving.  Faster Payment Cycles: Streamlined e-invoice exchange can lead to quicker invoice approval and payment processes.</p>
 
 While initial implementation requires effort, the French e-invoicing and e-reporting mandate offers several long-term benefits for businesses:
 
@@ -459,7 +459,7 @@ While initial implementation requires effort, the French e-invoicing and e-repor
   <li><strong>Simplified VAT Declarations:</strong> Potential for pre-filled VAT declarations by the DGFiP can save time and reduce errors.</li>
   <li><strong>Environmental Benefits:</strong> Reduced paper consumption.</li>
   <li><strong>Greater Security:</strong> Electronic transmission through certified platforms offers enhanced security compared to traditional methods.</li>
-</ul><h3>Can Foreign Companies Be Affected by the French Mandate?</h3>
+</ul><h3>Can Foreign Companies Be Affected by the French Mandate?</h3><p class="block-answer" data-answer="true">French VAT Registration: If a foreign company has a VAT registration in France and makes sales to or purchases from other French VAT-registered businesses, they will be subject to the e-invoicing mandate for these domestic transactions.</p>
 
 Yes, foreign companies can be affected if they are registered for VAT (TVA) in France and conduct domestic B2B transactions.
 
@@ -470,7 +470,7 @@ Yes, foreign companies can be affected if they are registered for VAT (TVA) in F
 
 It is crucial for any business with a French VAT presence to assess its obligations under the new mandate.
 
-<h2>How Invoicemonk Helps with France E-Invoicing Compliance</h2>
+<h2>How Invoicemonk Helps with France E-Invoicing Compliance</h2><p class="block-answer" data-answer="true">Compliant E-Invoice Generation: Invoicemonk will support the generation of e-invoices in mandatory formats such as Factur-X, UBL 2. 1, or CII, ensuring your invoices meet the technical specifications required by the DGFiP.</p>
 
 Navigating the complexities of France's e-invoicing and e-reporting mandate, with its PPF, PDP, and phased timeline, requires robust solutions. Invoicemonk is building features to help businesses streamline their invoicing and ensure compliance with these new regulations.
 
@@ -1304,7 +1304,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li>Authenticate using your Belgian eID or Itsme digital identity.</li>
 <li>Manually enter invoice details in the web form.</li>
 <li>Submit—Mercurius generates the structured e-invoice automatically.</li>
-</ol><h2>What Are the Key Differences Between B2G and B2B E-Invoicing in Belgium?</h2><table><tr><th>Aspect</th><th>B2G (Government)</th><th>B2B (Business)</th></tr>
+</ol><h2>What Are the Key Differences Between B2G and B2B E-Invoicing in Belgium?</h2><p class="block-answer" data-answer="true">The key advantage for businesses already using PEPPOL for B2G: the same infrastructure, format, and Access Point connection works for the B2B mandate.  Invoicemonk handles both B2G and B2B e-invoicing through a single PEPPOL connection.</p><table><tr><th>Aspect</th><th>B2G (Government)</th><th>B2B (Business)</th></tr>
 <tr><td>Mandatory since</td><td>2024</td><td>January 1, 2026</td></tr>
 <tr><td>Platform</td><td>Mercurius (PEPPOL-connected)</td><td>Any PEPPOL Access Point</td></tr>
 <tr><td>Format</td><td>PEPPOL BIS Billing 3.0</td><td>PEPPOL BIS Billing 3.0</td></tr>
@@ -1932,7 +1932,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Intrastate rates:</strong> 17–22% depending on state and product</li>
 <li><strong>ICMS-ST (Substituição Tributária):</strong> Prepaid tax collected by the first seller in the chain — requires MVA (Margem de Valor Agregado) calculation</li>
 <li><strong>DIFAL:</strong> Interstate rate differential collected for B2C sales to other states</li>
-</ul><h2>What Are Common SEFAZ Rejection Codes?</h2><table>
+</ul><h2>What Are Common SEFAZ Rejection Codes?</h2><p class="block-answer" data-answer="true">Invoicemonk automates Brazil's NF-e compliance with built-in CFOP code selection, ICMS calculation engine, NCM validation, and real-time SEFAZ submission — eliminating common rejection errors.</p><table>
 <tr><th>Code</th><th>Reason</th><th>Fix</th></tr>
 <tr><td>302</td><td>IE (State Registration) irregular</td><td>Verify recipient's state registration status</td></tr>
 <tr><td>539</td><td>Duplicate NF-e number</td><td>Increment the NF-e number — each number+series is unique</td></tr>
@@ -1972,7 +1972,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li>Portal interfaces for manual issuance</li>
 <li>Registration requirements and codes</li>
 <li>ISS (Imposto Sobre Serviços) calculation rules</li>
-</ul><p>This meant a company providing services in 10 cities needed 10 different integrations. The NFS-e Nacional eliminates this with a single API, single format, and single portal at <a href="https://www.gov.br/nfse" target="_blank" rel="noopener">gov.br/nfse</a>.</p><h2>What Is the NFS-e Nacional Rollout Timeline?</h2><table>
+</ul><p>This meant a company providing services in 10 cities needed 10 different integrations. The NFS-e Nacional eliminates this with a single API, single format, and single portal at <a href="https://www.gov.br/nfse" target="_blank" rel="noopener">gov.br/nfse</a>.</p><h2>What Is the NFS-e Nacional Rollout Timeline?</h2><p class="block-answer" data-answer="true">What Is the NFS-e Nacional Rollout Timeline — Phase 1: April 2023 — MEIs (micro-entrepreneurs earning up to R$81,000/year).</p><table>
 <tr><th>Phase</th><th>Date</th><th>Who</th></tr>
 <tr><td>Phase 1</td><td>April 2023</td><td>MEIs (micro-entrepreneurs earning up to R$81,000/year)</td></tr>
 <tr><td>Phase 2</td><td>September 2023</td><td>Simples Nacional companies (small businesses)</td></tr>
@@ -2016,7 +2016,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     excerpt: `NFC-e is mandatory for consumer retail sales across all 27 Brazilian states. Learn state-specific rules, SAT systems, and implementation.`,
     content: `Brazil's NFC-e (Nota Fiscal de Consumidor Eletrônica) is the mandatory electronic consumer invoice for retail point-of-sale transactions, now required in all 27 states. It replaced the legacy ECF (Emissor de Cupom Fiscal) hardware printers and the SAT (Sistema Autenticador e Transmissor) used in São Paulo, creating a unified digital system. Penalties for non-issuance include fines of 1% of the transaction value (minimum R$500) plus potential CNPJ suspension.
 
-<h2>What Is NFC-e and How Does It Differ From NF-e?</h2><table>
+<h2>What Is NFC-e and How Does It Differ From NF-e?</h2><p class="block-answer" data-answer="true">What Is NFC-e and How Does It Differ From NF-e — Purpose: B2B goods transactions — B2C retail consumer sales.</p><table>
 <tr><th>Feature</th><th>NF-e</th><th>NFC-e</th></tr>
 <tr><td>Purpose</td><td>B2B goods transactions</td><td>B2C retail consumer sales</td></tr>
 <tr><td>Recipient</td><td>Business (CNPJ required)</td><td>Consumer (CPF optional)</td></tr>
@@ -2072,7 +2072,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li>Provides a legally binding digital signature for invoices</li>
 <li>Is required for access to SEFAZ web services (NF-e/NFC-e issuance)</li>
 <li>Enables access to Receita Federal online services (tax returns, consultations)</li>
-</ul><h2>A1 vs A3 Certificates: Which Should You Choose?</h2><table>
+</ul><h2>A1 vs A3 Certificates: Which Should You Choose?</h2><p class="block-answer" data-answer="true">A1 vs A3 Certificates: Which Should You Choose — Storage: Software file (.  pfx/.</p><table>
 <tr><th>Feature</th><th>A1 Certificate</th><th>A3 Certificate</th></tr>
 <tr><td>Storage</td><td>Software file (.pfx/.p12)</td><td>Hardware token or smart card</td></tr>
 <tr><td>Validity</td><td>1 year</td><td>1–3 years</td></tr>
@@ -2125,7 +2125,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     excerpt: `Brazil's historic tax reform replaces 5 taxes with IBS and CBS. Understand the 2026-2033 transition timeline and e-invoicing changes.`,
     content: `Brazil's Constitutional Amendment 132/2023 (Emenda Constitucional 132/2023) introduces the most significant tax reform in the country's history, replacing five existing taxes — ICMS, ISS, PIS, COFINS, and IPI — with two new value-added taxes: IBS and CBS. The transition period runs from 2026 to 2033, and every e-invoicing system (NF-e, NFS-e, NFC-e) will need to accommodate dual tax regimes during this period.
 
-<h2>What Taxes Are Being Replaced?</h2><table>
+<h2>What Taxes Are Being Replaced?</h2><p class="block-answer" data-answer="true">What Taxes Are Being Replaced — ICMS (Imposto sobre Circulação de Mercadorias): State — IBS.</p><table>
 <tr><th>Current Tax</th><th>Level</th><th>Replaced By</th></tr>
 <tr><td>ICMS (Imposto sobre Circulação de Mercadorias)</td><td>State</td><td>IBS</td></tr>
 <tr><td>ISS (Imposto Sobre Serviços)</td><td>Municipal</td><td>IBS</td></tr>
@@ -2184,7 +2184,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     excerpt: `Brazil's e-invoicing penalties include 1% of invoice value for late filing and potential CNPJ suspension. Learn all fine structures.`,
     content: `Brazil enforces strict e-invoicing penalties across its NF-e, NFS-e, and NFC-e systems: 1% of the invoice value for late filing (minimum R$500), 100% of the tax value for fraudulent invoices, and potential CNPJ suspension for persistent non-compliance. With over 27 state SEFAZs enforcing rules independently, understanding the penalty landscape is essential for compliance.
 
-<h2>What Are Brazil's Federal E-Invoicing Penalties?</h2><table>
+<h2>What Are Brazil's Federal E-Invoicing Penalties?</h2><p class="block-answer" data-answer="true">What Are Brazil's Federal E-Invoicing Penalties — Late NF-e filing: 1% of invoice value (min.   R$500) — Per invoice, per occurrence.</p><table>
 <tr><th>Violation</th><th>Penalty</th><th>Basis</th></tr>
 <tr><td>Late NF-e filing</td><td>1% of invoice value (min. R$500)</td><td>Per invoice, per occurrence</td></tr>
 <tr><td>Non-issuance of NF-e</td><td>100% of applicable tax</td><td>Equivalent to tax evasion</td></tr>
@@ -2239,7 +2239,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     excerpt: `Foreign companies selling in Brazil need local NF-e compliance. Learn about CNPJ registration, fiscal representatives, and import NF-e.`,
     content: `Foreign companies operating in Brazil must comply with NF-e requirements either through a Brazilian CNPJ registration, a local subsidiary, or by working with an importador/distribuidor (importer/distributor) who handles NF-e issuance. Brazil's e-invoicing system does not accept foreign invoices — all transactions involving goods on Brazilian soil require a locally-issued NF-e with a valid e-CNPJ digital certificate.
 
-<h2>When Do Foreign Companies Need NF-e Compliance?</h2><table>
+<h2>When Do Foreign Companies Need NF-e Compliance?</h2><p class="block-answer" data-answer="true">When Do Foreign Companies Need NF-e Compliance — Exporting goods TO Brazil: Brazilian importer issues NF-e de entrada — Foreign company provides commercial invoice; importer handles NF-e.</p><table>
 <tr><th>Scenario</th><th>NF-e Obligation</th><th>Approach</th></tr>
 <tr><td>Exporting goods TO Brazil</td><td>Brazilian importer issues NF-e de entrada</td><td>Foreign company provides commercial invoice; importer handles NF-e</td></tr>
 <tr><td>Foreign company with Brazilian subsidiary</td><td>Subsidiary issues NF-e directly</td><td>Full CNPJ registration + e-CNPJ certificate</td></tr>
@@ -2316,7 +2316,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li>Companies with revenue over €6 million</li>
 <li>Companies in VAT groups (REGE)</li>
 <li>Companies on the monthly VAT return regime</li>
-</ul><p>SII requires invoice data to be transmitted to AEAT within 4 calendar days of issuance (8 days for invoices received). This provides AEAT with near-real-time visibility into VAT transactions and effectively replaces quarterly VAT information returns (Form 347).</p><h2>What Are Spain's VAT Rates?</h2><table>
+</ul><p>SII requires invoice data to be transmitted to AEAT within 4 calendar days of issuance (8 days for invoices received). This provides AEAT with near-real-time visibility into VAT transactions and effectively replaces quarterly VAT information returns (Form 347).</p><h2>What Are Spain's VAT Rates?</h2><p class="block-answer" data-answer="true">What Are Spain's VAT Rates — 21%: Standard (tipo general) — Most goods and services.</p><table>
 <tr><th>Rate</th><th>Type</th><th>Applies To</th></tr>
 <tr><td>21%</td><td>Standard (tipo general)</td><td>Most goods and services</td></tr>
 <tr><td>10%</td><td>Reduced (tipo reducido)</td><td>Food, transport, hospitality</td></tr>
@@ -2377,7 +2377,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Declaration filing:</strong> Submitted to AEAT through their electronic portal</li>
 <li><strong>No pre-approval testing:</strong> AEAT does not test or certify software in advance</li>
 <li><strong>Post-market enforcement:</strong> AEAT can audit and sanction non-compliant software at any time</li>
-</ol><h2>What Data Must Be Included in Each Record?</h2><table>
+</ol><h2>What Data Must Be Included in Each Record?</h2><p class="block-answer" data-answer="true">Invoicemonk meets all Verifactu technical requirements with built-in hash chain generation, QR code creation, optional real-time AEAT transmission, and immutable invoice records — ready for the July 2026 deadline.</p><table>
 <tr><th>Field</th><th>Description</th></tr>
 <tr><td>NIF (tax ID) of issuer</td><td>Issuer's tax identification number</td></tr>
 <tr><td>Invoice number and series</td><td>Unique identifier within the series</td></tr>
@@ -2473,7 +2473,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     excerpt: `TicketBAI is the Basque Country's anti-fraud invoicing system, mandatory in Álava, Bizkaia, and Gipuzkoa. Learn requirements and deadlines.`,
     content: `TicketBAI is the mandatory anti-fraud invoicing system in Spain's Basque Country, covering the three historical territories of Álava (Araba), Bizkaia, and Gipuzkoa. Operational since 2022-2024 with phased rollouts by territory and business sector, TicketBAI requires certified invoicing software that generates tamper-proof records with digital signatures and QR codes — serving as the regional precursor to Spain's national Verifactu system.
 
-<h2>What Is TicketBAI?</h2><p class="block-answer" data-answer="true">TicketBAI ("BAI" means "yes" in Basque) is an anti-fraud initiative developed jointly by the three Basque provincial tax authorities (Diputaciones Forales) and the Basque Government.  Its core mission is to ensure every invoice issued by a business is properly registered and cannot be manipulated.</p><p>TicketBAI ("BAI" means "yes" in Basque) is an anti-fraud initiative developed jointly by the three Basque provincial tax authorities (Diputaciones Forales) and the Basque Government. Its core mission is to ensure every invoice issued by a business is properly registered and cannot be manipulated.</p><h3>How Does TicketBAI Compare to Verifactu?</h3><table>
+<h2>What Is TicketBAI?</h2><p class="block-answer" data-answer="true">TicketBAI ("BAI" means "yes" in Basque) is an anti-fraud initiative developed jointly by the three Basque provincial tax authorities (Diputaciones Forales) and the Basque Government.  Its core mission is to ensure every invoice issued by a business is properly registered and cannot be manipulated.</p><p>TicketBAI ("BAI" means "yes" in Basque) is an anti-fraud initiative developed jointly by the three Basque provincial tax authorities (Diputaciones Forales) and the Basque Government. Its core mission is to ensure every invoice issued by a business is properly registered and cannot be manipulated.</p><h3>How Does TicketBAI Compare to Verifactu?</h3><p class="block-answer" data-answer="true">How Does TicketBAI Compare to Verifactu — Scope: Basque Country only — All of Spain (common territory).</p><table>
 <tr><th>Feature</th><th>TicketBAI</th><th>Verifactu</th></tr>
 <tr><td>Scope</td><td>Basque Country only</td><td>All of Spain (common territory)</td></tr>
 <tr><td>Authority</td><td>Provincial tax authorities</td><td>AEAT</td></tr>
@@ -2584,7 +2584,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     excerpt: `Spain's e-invoicing fines range from €150/record (SII) to €50,000/year (Verifactu). Understand all penalty categories and how to avoid them.`,
     content: `Spain's e-invoicing penalty framework spans multiple systems: up to €50,000 per fiscal year for using non-Verifactu-certified invoicing software, €150 per delayed SII record capped at €6,000 per quarter, and invoice rejection with payment withholding for non-compliant FACe B2G submissions. Understanding each system's fine structure is essential as Verifactu introduces a new layer of penalties from July 2026.
 
-<h2>Verifactu Penalties (From July 2026)</h2><table>
+<h2>Verifactu Penalties (From July 2026)</h2><p class="block-answer" data-answer="true">Verifactu Penalties (From July 2026) — Using non-certified software: Up to €50,000/fiscal year — Per software producer and per user.</p><table>
 <tr><th>Violation</th><th>Penalty</th><th>Notes</th></tr>
 <tr><td>Using non-certified software</td><td>Up to €50,000/fiscal year</td><td>Per software producer and per user</td></tr>
 <tr><td>Tampering with invoice records</td><td>Criminal prosecution possible</td><td>Breaking the hash chain is evidence of fraud</td></tr>
@@ -2637,7 +2637,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     excerpt: `Foreign companies with Spanish VAT must comply with SII and Verifactu. Learn NIF registration, fiscal representation, and compliance requirements.`,
     content: `Foreign companies with a Spanish NIF-VAT registration must comply with Spain's e-invoicing requirements, including SII (if revenue exceeds €6 million), Verifactu (from July 2026), and FACe for government contracts. Non-EU companies must appoint a fiscal representative, while EU companies can register directly. Penalties for non-compliance are the same as for domestic businesses — up to €50,000/year for non-certified Verifactu software.
 
-<h2>When Must Foreign Companies Comply With Spanish E-Invoicing?</h2><table>
+<h2>When Must Foreign Companies Comply With Spanish E-Invoicing?</h2><p class="block-answer" data-answer="true">When Must Foreign Companies Comply With Spanish E-Invoicing — EU company with Spanish NIF, revenue >€6M: Yes — Yes (from Jul 2026).</p><table>
 <tr><th>Scenario</th><th>SII</th><th>Verifactu</th><th>FACe</th></tr>
 <tr><td>EU company with Spanish NIF, revenue >€6M</td><td>Yes</td><td>Yes (from Jul 2026)</td><td>If government supplier</td></tr>
 <tr><td>EU company with Spanish NIF, revenue <€6M</td><td>Optional</td><td>Yes (from Jul 2027)</td><td>If government supplier</td></tr>

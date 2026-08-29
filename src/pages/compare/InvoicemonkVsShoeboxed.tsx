@@ -1,4 +1,5 @@
 import { LLMComparisonPage } from '@/components/compare/LLMComparisonPage';
+import { compareProsCons } from '@/data/compareProsCons';
 
 export default function InvoicemonkVsShoeboxed() {
   return (
@@ -141,6 +142,7 @@ export default function InvoicemonkVsShoeboxed() {
           ],
         },
       ]}
+      prosCons={compareProsCons['invoicemonk-vs-shoeboxed'].tools}
       faqs={[
         {
           question: 'Is Shoeboxed still worth it in 2026?',
@@ -183,4 +185,5 @@ export default function InvoicemonkVsShoeboxed() {
       ]}
     />
   );
+
 }

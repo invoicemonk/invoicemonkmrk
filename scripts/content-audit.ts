@@ -11,11 +11,13 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
+import { addBlockAnswers } from '../src/utils/blockAnswers';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DATA_DIR = path.join(__dirname, '../src/data');
 const OUT = path.join(__dirname, '../docs/content-audit.md');
+
 
 const THIN = 900;
 
@@ -72,7 +74,9 @@ export function auditAll(): AuditRow[] {
       const h2 = (seg.match(/<h2/g) || []).length;
       const table = /<table/.test(seg);
       const faq = /frequently asked questions|faq/i.test(seg);
-      const answer = /data-answer/.test(seg);
+      // Baked into source, or produced by the runtime transform in BlogPost.
+      const answer = /data-answer/.test(seg) || /data-answer/.test(addBlockAnswers(seg));
+
       const usFacing = !isMandate(slug) && !PRUNE.has(slug);
 
       let verdict: AuditRow['verdict'];

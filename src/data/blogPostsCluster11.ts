@@ -53,7 +53,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Invoice Reference Number (IRN)</strong> — A unique 64-character hash that serves as the invoice's digital identity</li>
   <li><strong>QR Code</strong> — Contains key invoice parameters for quick verification by recipients and tax authorities</li>
   <li><strong>e-Invoice Schema</strong> — The standardised JSON format (based on PEPPOL) that all invoices must follow</li>
-</ul><h2>Who Must Comply With GST E-Invoicing? (Threshold Timeline)</h2><table>
+</ul><h2>Who Must Comply With GST E-Invoicing? (Threshold Timeline)</h2><p class="block-answer" data-answer="true">Even if your turnover is below ₹5 crore, prepare now.  The government has consistently lowered the threshold.</p><table>
   <thead><tr><th>Phase</th><th>Turnover Threshold</th><th>Effective Date</th></tr></thead>
   <tbody>
     <tr><td>Phase 1</td><td>₹500 crore and above</td><td>October 2020 ✅</td></tr>
@@ -146,7 +146,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>E-commerce access</strong> — sell on Amazon, Flipkart, and other platforms</li>
   <li><strong>Government contracts</strong> — GSTIN required for most tenders</li>
   <li><strong>Business loans</strong> — banks view GST registration favorably</li>
-</ul><h2>Documents Required</h2><table>
+</ul><h2>Documents Required</h2><p class="block-answer" data-answer="true">Documents Required — PAN Card: Proprietor's PAN — Company/LLP PAN.</p><table>
   <thead><tr><th>Document</th><th>For Proprietorship</th><th>For Company/LLP</th></tr></thead>
   <tbody>
     <tr><td>PAN Card</td><td>Proprietor's PAN</td><td>Company/LLP PAN</td></tr>
@@ -225,7 +225,7 @@ export const cluster11Posts: BlogPost[] = [
   <li>Design services: ₹50,000</li>
   <li>IGST @ 18%: ₹9,000</li>
   <li><strong>Total: ₹59,000</strong></li>
-</ul><p>The total amount is the same — only the tax split differs. But getting the split wrong causes ITC mismatches during GST return filing.</p><h2>Common GST Rates by Service Type</h2><table>
+</ul><p>The total amount is the same — only the tax split differs. But getting the split wrong causes ITC mismatches during GST return filing.</p><h2>Common GST Rates by Service Type</h2><p class="block-answer" data-answer="true">Common GST Rates by Service Type — IT services, consulting, design: 18% — 9% CGST + 9% SGST.</p><table>
   <thead><tr><th>Service/Good</th><th>GST Rate</th><th>Intra-State Split</th></tr></thead>
   <tbody>
     <tr><td>IT services, consulting, design</td><td>18%</td><td>9% CGST + 9% SGST</td></tr>
@@ -285,7 +285,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>E-invoicing</strong> — mandatory field in the e-invoice JSON schema</li>
   <li><strong>ITC matching</strong> — codes must match between supplier and buyer for seamless credit</li>
   <li><strong>Audit compliance</strong> — authorities verify HSN codes against actual supplies</li>
-</ul><h2>HSN Code Requirements by Turnover</h2><table>
+</ul><h2>HSN Code Requirements by Turnover</h2><p class="block-answer" data-answer="true">HSN Code Requirements by Turnover — Up to ₹1.  5 crore: Optional (recommended: 4) — Composition scheme taxpayers.</p><table>
   <thead><tr><th>Annual Turnover</th><th>HSN Digits Required</th><th>Applies To</th></tr></thead>
   <tbody>
     <tr><td>Up to ₹1.5 crore</td><td>Optional (recommended: 4)</td><td>Composition scheme taxpayers</td></tr>
@@ -293,7 +293,7 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Above ₹5 crore</td><td>6 digits</td><td>All taxpayers</td></tr>
     <tr><td>E-invoicing mandatory</td><td>6 digits</td><td>Businesses above e-invoicing threshold</td></tr>
   </tbody>
-</table><h2>Common HSN Codes for Small Businesses</h2><table>
+</table><h2>Common HSN Codes for Small Businesses</h2><p class="block-answer" data-answer="true">Common HSN Codes for Small Businesses — 4901: Printed books, brochures — Nil.</p><table>
   <thead><tr><th>HSN Code</th><th>Description</th><th>GST Rate</th></tr></thead>
   <tbody>
     <tr><td>4901</td><td>Printed books, brochures</td><td>Nil</td></tr>
@@ -304,7 +304,7 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>3304</td><td>Beauty products, cosmetics</td><td>18%/28%</td></tr>
     <tr><td>9403</td><td>Furniture</td><td>18%</td></tr>
   </tbody>
-</table><h2>Common SAC Codes for Freelancers & Service Providers</h2><table>
+</table><h2>Common SAC Codes for Freelancers & Service Providers</h2><p class="block-answer" data-answer="true">Common SAC Codes for Freelancers & Service Providers — 998311: IT consulting services — 18%.</p><table>
   <thead><tr><th>SAC Code</th><th>Service Description</th><th>GST Rate</th></tr></thead>
   <tbody>
     <tr><td>998311</td><td>IT consulting services</td><td>18%</td></tr>
@@ -361,7 +361,7 @@ export const cluster11Posts: BlogPost[] = [
     relatedTools: [
       { label: 'Free GST Invoice Generator', url: '/invoicing', description: 'Generate invoices that match your GSTR-1 entries' },
     ],
-    content: `<p><strong>Filing GST returns correctly and on time is one of the biggest compliance challenges for Indian small businesses.</strong> Miss a deadline, and you face late fees of ₹50/day (₹20/day for nil returns) plus 18% annual interest on unpaid tax. This guide explains every return you need to file, when it's due, and how to simplify the process.</p><h2>GST Returns Overview</h2><table>
+    content: `<p><strong>Filing GST returns correctly and on time is one of the biggest compliance challenges for Indian small businesses.</strong> Miss a deadline, and you face late fees of ₹50/day (₹20/day for nil returns) plus 18% annual interest on unpaid tax. This guide explains every return you need to file, when it's due, and how to simplify the process.</p><h2>GST Returns Overview</h2><p class="block-answer" data-answer="true">GST Returns Overview — GSTR-1: Outward supplies (sales) — Monthly or quarterly (QRMP).</p><table>
   <thead><tr><th>Return</th><th>Purpose</th><th>Frequency</th><th>Deadline</th></tr></thead>
   <tbody>
     <tr><td>GSTR-1</td><td>Outward supplies (sales)</td><td>Monthly or quarterly (QRMP)</td><td>11th of next month / 13th after quarter</td></tr>
@@ -595,7 +595,7 @@ export const cluster11Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Receipt Features', url: '/receipts', description: 'Generate and manage receipts with Invoicemonk' },
     ],
-    content: `<p><strong>Invoices and receipts are two of the most fundamental business documents — but they serve completely different purposes.</strong> Confusing them causes accounting errors, tax complications, and client confusion. This guide explains exactly what each document is, when to use it, and how they work together.</p><h2>Invoice vs Receipt: Quick Comparison</h2><table>
+    content: `<p><strong>Invoices and receipts are two of the most fundamental business documents — but they serve completely different purposes.</strong> Confusing them causes accounting errors, tax complications, and client confusion. This guide explains exactly what each document is, when to use it, and how they work together.</p><h2>Invoice vs Receipt: Quick Comparison</h2><p class="block-answer" data-answer="true">Invoice vs Receipt: Quick Comparison — Purpose: Request payment — Confirm payment received.</p><table>
   <thead><tr><th>Feature</th><th>Invoice</th><th>Receipt</th></tr></thead>
   <tbody>
     <tr><td><strong>Purpose</strong></td><td>Request payment</td><td>Confirm payment received</td></tr>
@@ -674,7 +674,7 @@ export const cluster11Posts: BlogPost[] = [
     ],
     relatedTools: [      { label: 'Getting Paid Faster Guide', url: '/guides/getting-paid', description: 'Strategies to accelerate payment collection' },
     ],
-    content: `<p><strong>Payment terms are the rules that govern when and how clients pay your invoices.</strong> Getting them right directly impacts your cash flow — a 2022 Xero study found that businesses using shorter payment terms got paid <strong>15 days faster on average</strong> than those using Net 60.</p><h2>Common Payment Terms Explained</h2><table>
+    content: `<p><strong>Payment terms are the rules that govern when and how clients pay your invoices.</strong> Getting them right directly impacts your cash flow — a 2022 Xero study found that businesses using shorter payment terms got paid <strong>15 days faster on average</strong> than those using Net 60.</p><h2>Common Payment Terms Explained</h2><p class="block-answer" data-answer="true">Common Payment Terms Explained — Due on Receipt: Payment due immediately upon receiving the invoice — Retail, one-off services, new clients.</p><table>
   <thead><tr><th>Term</th><th>Meaning</th><th>Best For</th></tr></thead>
   <tbody>
     <tr><td><strong>Due on Receipt</strong></td><td>Payment due immediately upon receiving the invoice</td><td>Retail, one-off services, new clients</td></tr>

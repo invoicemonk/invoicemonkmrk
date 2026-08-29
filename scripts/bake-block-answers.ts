@@ -35,19 +35,18 @@ for (const file of FILES) {
   const filePath = path.join(__dirname, '../src/data', file);
   const src = fs.readFileSync(filePath, 'utf-8');
 
-  // Safety: skip any file whose content template literals interpolate or
-  // escape backticks — rewriting those with a regex would corrupt source.
-  const risky = /content:\s*`[\s\S]*?\$\{/.test(src) || /\\`/.test(src);
-  if (risky) {
-    console.log(`⏭️  ${file}: skipped (template interpolation / escaped backtick)`);
-    continue;
-  }
-
   let postsInFile = 0;
   let answersInFile = 0;
+  let skippedInFile = 0;
 
-  const out = src.replace(CONTENT_BLOCK, (_full, head, body, tail) => {
+  const out = src.replace(CONTENT_BLOCK, (full, head, body, tail) => {
     postsInFile++;
+    // Safety, per content block: a body that interpolates or escapes backticks
+    // can't be rewritten safely by a regex — leave it for the runtime transform.
+    if (/\$\{/.test(body) || /\\`/.test(body)) {
+      skippedInFile++;
+      return full;
+    }
     const before = (body.match(/class="block-answer"/g) || []).length;
     const transformed = addBlockAnswers(body);
     const after = (transformed.match(/class="block-answer"/g) || []).length;
@@ -60,7 +59,9 @@ for (const file of FILES) {
   }
   totalPosts += postsInFile;
   totalNewAnswers += answersInFile;
-  console.log(`📝 ${file}: ${postsInFile} posts, +${answersInFile} block-answers`);
+  const note = skippedInFile ? ` (${skippedInFile} skipped: interpolated)` : '';
+  console.log(`📝 ${file}: ${postsInFile} posts, +${answersInFile} block-answers${note}`);
 }
+
 
 console.log(`\n✅ Baked ${totalNewAnswers} block-answers across ${totalPosts} posts.`);

@@ -273,7 +273,7 @@ export const cluster10Posts: BlogPost[] = [
       { question: 'What is the fine for not using e-invoicing in Nigeria?', answer: 'First-time non-compliance can result in a ₦50,000 fine. Repeated violations can escalate to ₦500,000. Additional consequences include denial of VAT input credits and suspension of tax clearance certificates.' },
       { question: 'Can my tax clearance certificate be suspended?', answer: 'Yes. Persistent non-compliance with the e-invoicing mandate can result in FIRS suspending your tax clearance certificate (TCC), which is required for government contracts, import/export activities, and certain banking services.' },
     ],
-    content: `<p>FIRS has made it clear: e-invoicing compliance is not optional, and the penalties for non-compliance are designed to be painful enough to drive adoption. Here's what Nigerian businesses risk by ignoring the mandate.</p><h2>Financial Penalties</h2><table>
+    content: `<p>FIRS has made it clear: e-invoicing compliance is not optional, and the penalties for non-compliance are designed to be painful enough to drive adoption. Here's what Nigerian businesses risk by ignoring the mandate.</p><h2>Financial Penalties</h2><p class="block-answer" data-answer="true">Financial Penalties — First instance of non-compliant invoicing: ₦50,000.</p><table>
   <thead><tr><th>Violation</th><th>Penalty</th></tr></thead>
   <tbody>
     <tr><td>First instance of non-compliant invoicing</td><td>₦50,000</td></tr>
@@ -314,7 +314,7 @@ export const cluster10Posts: BlogPost[] = [
     faq: [
       { question: 'When is e-invoicing mandatory for all Nigerian businesses?', answer: 'E-invoicing became mandatory for large taxpayers (above ₦1 billion turnover) in August 2025, medium taxpayers (₦250M–₦1B) in January 2026, and small taxpayers (below ₦250M) are projected for mid-2026.' },
     ],
-    content: `<p>Nigeria's transition to mandatory e-invoicing isn't happening overnight. FIRS is rolling out the requirement in phases to give businesses time to prepare. Here's the detailed timeline.</p><h2>The Three-Phase Rollout</h2><table>
+    content: `<p>Nigeria's transition to mandatory e-invoicing isn't happening overnight. FIRS is rolling out the requirement in phases to give businesses time to prepare. Here's the detailed timeline.</p><h2>The Three-Phase Rollout</h2><p class="block-answer" data-answer="true">The Three-Phase Rollout — Phase 1: Large taxpayers — Above ₦1 billion.</p><table>
   <thead><tr><th>Phase</th><th>Taxpayer Category</th><th>Annual Turnover</th><th>Deadline</th><th>Status</th></tr></thead>
   <tbody>
     <tr><td>Phase 1</td><td>Large taxpayers</td><td>Above ₦1 billion</td><td>August 2025</td><td>✅ Enforcement active</td></tr>
@@ -566,7 +566,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>Valid email address and phone number</li>
   <li>Bank account details</li>
   <li>A smartphone or computer with internet access</li>
-</ul><h2>Step-by-Step Setup</h2><h3>1. Log into iTax</h3><p>Go to <a href="https://itax.kra.go.ke" rel="noopener noreferrer" target="_blank">itax.kra.go.ke</a> and log in with your KRA PIN and password.</p><h3>2. Navigate to eTIMS Registration</h3><p>Select "eTIMS" from the menu. Click "Apply for eTIMS" and fill in your business details.</p><h3>3. Choose Your Solution Type</h3><p>For most small businesses, the <strong>eTIMS Trader App</strong> or <strong>eTIMS Online</strong> (web portal) is the best choice — both are free. If you want to integrate with invoicing software, select the API option.</p><h3>4. Download and Configure</h3><p>If using the Trader App, download it from Google Play Store. Enter your KRA PIN and the activation code sent to your email.</p><h3>5. Issue Your First Invoice</h3><p>Create a test invoice to ensure everything works. Check that the eTIMS serial number and QR code appear correctly.</p><h2>Common Setup Issues and Fixes</h2><table>
+</ul><h2>Step-by-Step Setup</h2><h3>1. Log into iTax</h3><p>Go to <a href="https://itax.kra.go.ke" rel="noopener noreferrer" target="_blank">itax.kra.go.ke</a> and log in with your KRA PIN and password.</p><h3>2. Navigate to eTIMS Registration</h3><p>Select "eTIMS" from the menu. Click "Apply for eTIMS" and fill in your business details.</p><h3>3. Choose Your Solution Type</h3><p>For most small businesses, the <strong>eTIMS Trader App</strong> or <strong>eTIMS Online</strong> (web portal) is the best choice — both are free. If you want to integrate with invoicing software, select the API option.</p><h3>4. Download and Configure</h3><p>If using the Trader App, download it from Google Play Store. Enter your KRA PIN and the activation code sent to your email.</p><h3>5. Issue Your First Invoice</h3><p>Create a test invoice to ensure everything works. Check that the eTIMS serial number and QR code appear correctly.</p><h2>Common Setup Issues and Fixes</h2><p class="block-answer" data-answer="true">For the complete eTIMS overview, see our comprehensive eTIMS guide.  To generate invoices, try Invoicemonk's invoice generator.</p><table>
   <thead><tr><th>Problem</th><th>Solution</th></tr></thead>
   <tbody>
     <tr><td>KRA PIN not recognized</td><td>Verify your PIN is active at your local KRA office</td></tr>
@@ -667,7 +667,7 @@ export const cluster10Posts: BlogPost[] = [
   <li>QR code for eTIMS verification</li>
   <li>Control Unit (CU) number</li>
   <li>Currency (KES for domestic)</li>
-</ol><h2>VAT Rates in Kenya</h2><table>
+</ol><h2>VAT Rates in Kenya</h2><p class="block-answer" data-answer="true">For the complete eTIMS guide, see KRA eTIMS in Kenya.  To create compliant invoices instantly, try Invoicemonk's free generator.</p><table>
   <thead><tr><th>Rate</th><th>Applies To</th></tr></thead>
   <tbody>
     <tr><td>16%</td><td>Standard rate — most goods and services</td></tr>

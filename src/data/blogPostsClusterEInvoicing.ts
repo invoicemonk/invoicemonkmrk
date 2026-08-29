@@ -528,7 +528,7 @@ export const eInvoicingClusterPosts: BlogPost[] = [
         </ul>
       </nav>
 
-      <h2>Macro context — same regulator, two layers</h2><p class="block-answer" data-answer="true">ZATCA designed the two phases to be additive, not substitutive.</p><p>ZATCA designed the two phases to be additive, not substitutive. Phase 1 controls (structure, sequence, immutability, B2C QR, six-year archive) remain in force throughout — Phase 2 adds the cryptographic and transport layer on top. A taxpayer that built Phase 1 sloppily (editable spreadsheets, gappy numbering, no UBL payload) faces a real project for Phase 2; one that built Phase 1 correctly faces a configuration step.</p><h2 id="sbs">Side-by-side comparison</h2><table>
+      <h2>Macro context — same regulator, two layers</h2><p class="block-answer" data-answer="true">ZATCA designed the two phases to be additive, not substitutive.</p><p>ZATCA designed the two phases to be additive, not substitutive. Phase 1 controls (structure, sequence, immutability, B2C QR, six-year archive) remain in force throughout — Phase 2 adds the cryptographic and transport layer on top. A taxpayer that built Phase 1 sloppily (editable spreadsheets, gappy numbering, no UBL payload) faces a real project for Phase 2; one that built Phase 1 correctly faces a configuration step.</p><h2 id="sbs">Side-by-side comparison</h2><p class="block-answer" data-answer="true">Side-by-side comparison — Live since: 4 December 2021 — 1 January 2023 (Wave 1).</p><table>
         <thead>
           <tr><th>Aspect</th><th>Phase 1 — Generation</th><th>Phase 2 — Integration</th></tr>
         </thead>

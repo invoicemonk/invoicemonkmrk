@@ -42,6 +42,10 @@ const groups: Group[] = [
       { title: 'Best invoicing software for freelancers 2026', desc: 'Freelancer-first leaderboard with 8+ tools ranked.', to: '/compare/best-invoicing-software-freelancers' },
       { title: 'Best free invoicing software 2026', desc: 'What "free" really means across the market in 2026.', to: '/compare/best-free-invoicing-software' },
       { title: 'Best receipt scanner app 2026', desc: 'Six scanner apps ranked on OCR accuracy, free tiers, and invoicing integration.', to: '/compare/best-receipt-scanner-app' },
+      { title: 'Best invoicing software for small business 2026', desc: 'Five tools ranked on price, users, currencies and compliance.', to: '/compare/best-invoicing-software-for-small-business' },
+      { title: 'Best invoicing software for consultants 2026', desc: 'Retainer, milestone and fixed-fee billing compared.', to: '/compare/best-invoicing-software-for-consultants' },
+      { title: 'Best invoicing software for contractors 2026', desc: 'Estimates, progress claims, retainage and material costs compared.', to: '/compare/best-invoicing-software-for-contractors' },
+      { title: 'Free invoice generator vs paid software', desc: 'When free is enough, and the point where paid pays for itself.', to: '/compare/free-invoice-generator-vs-paid' },
     ],
   },
   {
@@ -61,6 +65,15 @@ const groups: Group[] = [
       { title: 'Best invoicing software South Africa', desc: 'SARS VAT and South African invoicing.', to: '/compare/best-invoicing-software-south-africa' },
       { title: 'Best invoicing software Saudi Arabia', desc: 'ZATCA Phase 2 e-invoicing, CSID, and Arabic invoicing.', to: '/compare/best-invoicing-software-saudi-arabia' },
       { title: 'Best invoicing software Malaysia', desc: 'MyInvois e-invoicing and Malaysian SST.', to: '/compare/best-invoicing-software-malaysia' },
+    ],
+  },
+  {
+    heading: 'Competitor alternatives',
+    intro: 'Where to go when a specific tool no longer fits — ranked with an explicit "best for" label.',
+    entries: [
+      { title: 'QuickBooks alternatives', desc: 'Cheaper, invoicing-first replacements for QuickBooks.', to: '/compare/quickbooks-alternatives' },
+      { title: 'FreshBooks alternatives', desc: 'Alternatives without billable-client caps.', to: '/compare/freshbooks-alternatives' },
+      { title: 'Zoho Invoice alternatives', desc: 'Where to go when a single-user free tool stops being enough.', to: '/compare/zoho-invoice-alternatives' },
     ],
   },
   {

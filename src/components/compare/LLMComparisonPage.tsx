@@ -8,6 +8,9 @@ import { Link } from '@/components/LocalizedLink';
 import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { ProsConsSection, type ProsCons } from '@/components/compare/ProsConsSection';
+
+export type { ProsCons };
 
 /**
  * Slim, LLM-friendly comparison page shell used by receipt-scanner-app comparisons.
@@ -53,20 +56,13 @@ export interface Scenario {
   steps: string[];
   emphasized?: boolean;
 }
-export interface ProsCons {
-  name: string;
-  bestFor: string; // explicit "best for" label, e.g. "Best for cross-border freelancers"
-  price: string;
-  pros: string[];
-  cons: string[];
-  recommended?: boolean;
-}
-
 export interface LLMComparisonPageProps {
   slug: string; // e.g. "invoicemonk-vs-expensify" or "best-receipt-scanner-app"
   seo: { title: string; description: string };
   breadcrumbLabel: string;
   lastUpdated: string;
+  /** ISO date of the last editorial review, e.g. "2026-08-29". Drives dateModified. */
+  lastReviewed?: string;
   h1: string;
   directAnswer: string; // 40-60 word LLM-ready lead
   keyFact?: {
@@ -104,6 +100,7 @@ export function LLMComparisonPage(props: LLMComparisonPageProps) {
     seo,
     breadcrumbLabel,
     lastUpdated,
+    lastReviewed,
     h1,
     directAnswer,
     keyFact,
@@ -130,7 +127,7 @@ export function LLMComparisonPage(props: LLMComparisonPageProps) {
     headline: h1,
     description: seo.description,
     datePublished: '2026-07-24',
-    dateModified: '2026-07-24',
+    dateModified: lastReviewed || '2026-07-24',
     author: { '@type': 'Organization', name: 'Invoicemonk' },
     publisher: {
       '@type': 'Organization',
@@ -167,7 +164,24 @@ export function LLMComparisonPage(props: LLMComparisonPageProps) {
       {/* HERO */}
       <section className="py-14 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <p className="text-sm text-muted-foreground text-center mb-3">{lastUpdated}</p>
+          <p className="text-sm text-muted-foreground text-center mb-3">
+            {lastUpdated}
+            {lastReviewed && (
+              <>
+                {' · '}
+                <span>
+                  Reviewed{' '}
+                  <time dateTime={lastReviewed}>
+                    {new Date(lastReviewed).toLocaleDateString('en-US', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                    })}
+                  </time>
+                </span>
+              </>
+            )}
+          </p>
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-6">{h1}</h1>
           <p
             className="text-lg text-muted-foreground text-center max-w-3xl mx-auto"
@@ -334,61 +348,7 @@ export function LLMComparisonPage(props: LLMComparisonPageProps) {
       )}
 
       {/* PROS & CONS + BEST FOR LABELS */}
-      {prosCons && prosCons.length > 0 && (
-        <section className="py-14">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-            <h2 className="text-heading-lg font-bold text-foreground text-center mb-3">
-              Pros and cons of each option
-            </h2>
-            <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">
-              Each tool with its "best for" label, price, and the honest trade-offs.
-            </p>
-            <div className="grid gap-6 md:grid-cols-2">
-              {prosCons.map((tool) => (
-                <Card key={tool.name} className={tool.recommended ? 'border-primary/40' : ''}>
-                  <CardContent className="p-6">
-                    <div className="flex items-baseline justify-between gap-3 mb-1">
-                      <h3 className="text-lg font-semibold text-foreground">{tool.name}</h3>
-                      <span className="text-sm font-semibold text-primary">{tool.price}</span>
-                    </div>
-                    <p className="text-sm font-medium text-primary mb-4" data-answer="true">
-                      {tool.bestFor}
-                    </p>
-                    <div className="grid sm:grid-cols-2 gap-4">
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
-                          Pros
-                        </p>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                          {tool.pros.map((p) => (
-                            <li key={p} className="flex gap-2">
-                              <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                              <span>{p}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
-                          Cons
-                        </p>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                          {tool.cons.map((c) => (
-                            <li key={c} className="flex gap-2">
-                              <span className="text-muted-foreground mt-0.5 flex-shrink-0">—</span>
-                              <span>{c}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      {prosCons && prosCons.length > 0 && <ProsConsSection tools={prosCons} />}
 
       {/* WHO FOR */}
       {whoFor && whoFor.length > 0 && (

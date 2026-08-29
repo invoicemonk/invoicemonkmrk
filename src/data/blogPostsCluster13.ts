@@ -43,7 +43,7 @@ export const cluster13Posts: BlogPost[] = [
   <li>Records the sale for tax purposes</li>
   <li>Serves as the basis for customs clearance in international trade</li>
   <li>Must be reported to tax authorities (VAT, GST, etc.)</li>
-</ul><h2>Key Differences at a Glance</h2><table>
+</ul><h2>Key Differences at a Glance</h2><p class="block-answer" data-answer="true">Key Differences at a Glance — Purpose: Estimate / quote — Demand for payment.</p><table>
   <thead><tr><th>Feature</th><th>Proforma Invoice</th><th>Commercial Invoice</th></tr></thead>
   <tbody>
     <tr><td><strong>Purpose</strong></td><td>Estimate / quote</td><td>Demand for payment</td></tr>

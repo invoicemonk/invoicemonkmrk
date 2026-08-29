@@ -111,7 +111,7 @@ export const cluster22Posts: BlogPost[] = [
         <li><strong>Enterprise and government clients.</strong> Many run fixed 30- or 45-day AP cycles; Net 15 is simply ignored and you have taught the client that your due dates are decorative.</li>
         <li><strong>Invoices needing multi-level approval.</strong> If three people must sign off, 15 days is not a schedule, it's a hope.</li>
         <li><strong>Where 2/10 Net 30 works better.</strong> An early-payment discount often gets you paid on day 10 while keeping a term the client's system accepts.</li>
-      </ul><h2>Net 15 vs Net 30 vs Due on Receipt</h2><table>
+      </ul><h2>Net 15 vs Net 30 vs Due on Receipt</h2><p class="block-answer" data-answer="true">The full head-to-head, including the cash-flow maths, is in Net 30 vs Net 15 compared.</p><table>
         <thead><tr><th>Term</th><th>Due</th><th>Best for</th></tr></thead>
         <tbody>
           <tr><td>Due on receipt</td><td>Immediately</td><td>One-off jobs, new or high-risk clients, deposits</td></tr>
@@ -176,7 +176,7 @@ export const cluster22Posts: BlogPost[] = [
     title: 'Using an Invoice as Proof of Income (Self-Employed Guide)',
     excerpt:
       'Can invoices prove your income for a loan, apartment, or visa? What lenders actually accept, what makes an invoice credible, and which documents to send with it.',
-    content: `<p data-answer="true">Invoices alone are usually not accepted as proof of income, because an invoice shows what you billed, not what you were paid. Invoices become acceptable proof when paired with evidence of payment — matching bank deposits, paid-stamped invoices, or a tax return. Lenders, landlords, and immigration officers all look for the same thing: billed amounts that reconcile with money that actually arrived.</p><h2>Who asks, and what they accept</h2><table>
+    content: `<p data-answer="true">Invoices alone are usually not accepted as proof of income, because an invoice shows what you billed, not what you were paid. Invoices become acceptable proof when paired with evidence of payment — matching bank deposits, paid-stamped invoices, or a tax return. Lenders, landlords, and immigration officers all look for the same thing: billed amounts that reconcile with money that actually arrived.</p><h2>Who asks, and what they accept</h2><p class="block-answer" data-answer="true">Who asks, and what they accept — Mortgage lender: 2 years of tax returns (Form 1040 + Schedule C), 1099s, 3–12 months of bank statements; invoices only as supporting detail.</p><table>
         <thead><tr><th>Requester</th><th>Typically accepted</th></tr></thead>
         <tbody>
           <tr><td>Mortgage lender</td><td>2 years of tax returns (Form 1040 + Schedule C), 1099s, 3–12 months of bank statements; invoices only as supporting detail</td></tr>
