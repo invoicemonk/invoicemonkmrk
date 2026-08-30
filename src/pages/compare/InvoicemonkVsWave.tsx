@@ -15,6 +15,8 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
+import { COMPARE_REVIEWED } from '@/data/compareFreshness';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -53,7 +55,7 @@ export default function InvoicemonkVsWave() {
     headline: t('hero.title'),
     description: t('seo.description'),
     datePublished: '2026-05-01',
-    dateModified: '2026-05-01',
+    dateModified: COMPARE_REVIEWED['invoicemonk-vs-wave'] || '2026-05-01',
     author: { '@type': 'Organization', name: 'Invoicemonk' },
     publisher: {
       '@type': 'Organization',
@@ -84,6 +86,7 @@ export default function InvoicemonkVsWave() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <p className="text-sm text-muted-foreground text-center mb-3">{t('lastUpdated')}</p>
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-6">{t('hero.title')}</h1>
+          <ReviewedLine slug="invoicemonk-vs-wave" />
           <p className="text-muted-foreground text-center max-w-3xl mx-auto">{t('hero.subtitle')}</p>
         </div>
       </section>

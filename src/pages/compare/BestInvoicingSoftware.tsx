@@ -15,6 +15,8 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
+import { COMPARE_REVIEWED } from '@/data/compareFreshness';
 
 interface FAQItem { question: string; answer: string; }
 interface LinkItem { label: string; to: string; }
@@ -111,7 +113,7 @@ export default function BestInvoicingSoftware() {
         pageUrl={pageUrl}
         pageName={t('seo.title')}
         datePublished="2026-01-15"
-        dateModified={today}
+        dateModified={COMPARE_REVIEWED["best-invoicing-software"] || today}
         authorName="Invoicemonk"
         tools={tools.map(tool => ({
           name: tool.name,
@@ -126,6 +128,7 @@ export default function BestInvoicingSoftware() {
       <section className="py-16 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">{t('hero.title')}</h1>
+          <ReviewedLine slug="best-invoicing-software" />
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-3">{t('hero.subtitle')}</p>
           <p className="text-xs text-muted-foreground/70 text-center mb-2">{t('lastUpdated')} · {t('author')}</p>
         </div>

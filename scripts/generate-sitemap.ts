@@ -330,7 +330,8 @@ function main() {
 
   const authorSlugs = extractSlugs(path.join(__dirname, '../src/data/authors.ts'), /slug:\s*['"][^'"]+['"]/g);
   console.log(`👤 ${authorSlugs.length} authors`);
-  authorSlugs.forEach(s => allPages.push({ path: `/blog/author/${s}`, priority: 0.5, changefreq: 'monthly' }));
+  // Author pages are noindex navigational listings — excluded from the sitemap.
+  // (They were reported as "Crawled — currently not indexed".)
 
   const topicIds = extractSlugs(path.join(__dirname, '../src/data/topicalMap.ts'), /^\s*id:\s*['"][^'"]+['"]/gm);
   console.log(`📚 ${topicIds.length} topics`);

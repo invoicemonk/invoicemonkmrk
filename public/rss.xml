@@ -6,7 +6,7 @@
     <atom:link href="https://invoicemonk.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Mandate-compliant e-invoicing guides, compliance playbooks, and small-business invoicing how-tos from Invoicemonk.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 08:51:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 16:24:40 GMT</lastBuildDate>
     <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
     <item>
       <title>Common MyInvois Malaysia Errors and How to Fix Them: Validation, TIN Mismatches, Cancellation Windows, and QR Failures (2026)</title>
@@ -289,12 +289,12 @@
       <description>UBL 2.1 is the OASIS XML standard for business documents. We explain the 65 document types, the extension model, and how Peppol BIS, ZATCA, and MyInvois customise it.</description>
     </item>
     <item>
-      <title>What is a Peppol Access Point? The Four-Corner Model and AS4 in Plain English</title>
+      <title>What Is a Peppol Access Point? Certified APs, Four-Corner Model, AS4</title>
       <link>https://invoicemonk.com/en/blog/what-is-peppol-access-point</link>
       <guid isPermaLink="true">https://invoicemonk.com/en/blog/what-is-peppol-access-point</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
       <category>E-Invoicing</category>
-      <description>A Peppol Access Point is a certified service that sends and receives e-invoices on the Peppol network. Inside the four-corner model, SMP/SML lookup, AS4, and how to choose an AP.</description>
+      <description>A Peppol access point is a certified service that sends and receives e-invoices on the Peppol network. What certification means, the four-corner model, SMP/SML lookup, AS4, and how to choose one.</description>
     </item>
     <item>
       <title>Peppol vs National E-Invoicing Portals: Network Model vs Clearance Compared</title>

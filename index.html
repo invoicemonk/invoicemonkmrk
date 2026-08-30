@@ -10,7 +10,11 @@
     <title>Invoicemonk — Global E-Invoicing Platform for Small Business</title>
     <meta name="description" content="The global e-invoicing platform for small business. Mandate-compliant in 17 jurisdictions — ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, eTIMS, and more. Free plan available; Pro from $15/month." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://invoicemonk.com/" />
+    <!-- No sitewide og:url / canonical here: each route emits its own
+         self-referencing canonical and og:url, baked in at build time by
+         scripts/prerender.mjs. A hardcoded homepage URL here would tell
+         crawlers every page is the homepage. -->
+
     <meta property="og:title" content="Invoicemonk — Global E-Invoicing Platform for Small Business" />
     <meta property="og:description" content="The global e-invoicing platform for small business. Mandate-compliant in 17 jurisdictions — ZATCA, MyInvois, GST IRN, Peppol, FIRS, MTD, eTIMS, and more." />
     <meta property="og:image" content="https://invoicemonk.com/og-image.png" />

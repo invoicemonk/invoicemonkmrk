@@ -11,6 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
 
 interface ToolCard {
   name: string;
@@ -126,6 +127,7 @@ export default function BestFreeInvoicingSoftware() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-3">Best Free Invoicing Software for International Freelancers (2026)</h1>
+          <ReviewedLine slug="best-free-invoicing-software" />
           <p className="text-sm text-muted-foreground text-center mb-8">Last updated: May 2026 · 14 min read</p>
 
           {/* Quick answer */}

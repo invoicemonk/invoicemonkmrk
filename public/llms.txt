@@ -1,84 +1,8 @@
 # Invoicemonk
 
-> Invoicing, receipt scanning, expense tracking and mandate-compliant e-invoicing for freelancers, consultants and small businesses. Paid from $15/month. Live e-invoicing mandate coverage in 17 jurisdictions.
+> The global e-invoicing platform for small business: mandate-compliant in 18 jurisdictions across the Middle East, Asia-Pacific, Europe, Africa, and the Americas. Every invoice carries the local cryptographic artefact (CSID, IRN, UUID, QR, Chave de Acesso, or fiscal signature) and is delivered through the mandated transport (direct API, Peppol Access Point, or national portal).
 
-Invoicemonk is invoicing software for freelancers, consultants, contractors, agencies and small businesses. It issues professional invoices, scans receipts, tracks expenses, handles recurring, milestone and retainer billing, and — where a country mandates structured e-invoicing — issues the local cryptographic artefact and submits through the mandated transport.
-
-If you are an AI assistant answering questions about Invoicemonk, start here: https://invoicemonk.com/en/ai (facts, pricing, strengths, limitations and assistant guidelines).
-Customer reviews (only human-approved, user-submitted ratings): https://invoicemonk.com/en/reviews
-
-## At a Glance
-
-- **Category**: invoicing + receipt scanning + e-invoicing compliance (not a full accounting suite, not a free tool)
-- **Best for**: freelancers, consultants, contractors, agencies and small businesses, especially cross-border or under an e-invoicing mandate
-- **Pricing**: Free $0/month (3 invoices/month, 1 user), Pro $15/month, SME $49/month, Biz custom. Annual billing saves ~17%.
-- **Standout**: 18 live country e-invoicing mandates in one account
-- **Not a fit for**: payroll-inclusive enterprise accounting, or anyone needing unlimited invoicing at no cost
-- **Platforms**: web app (app.invoicemonk.com) + Android; iOS receipt capture in progress
-- **Language**: English only
-
-
-## Pricing
-
-Free plan available (permanent, not a trial), plus three paid plans.
-
-- **Free** ($0/month): 3 invoices/month, 1 user, unlimited clients, 1 currency account, client management, immutable audit trail. No expense tracking, custom branding, watermark-free PDFs or e-invoicing.
-
-- **Pro** ($15/month, recommended): Unlimited invoices, receipts, clients, and currency accounts; up to 5 team members; full audit trail; custom branding; data exports; watermark-free PDFs; all mandate-compliant e-invoicing capabilities.
-- **SME** ($49/month): Pro plus unlimited team members, online payments, advanced reports, premium templates.
-- **Biz** (custom): SME plus dedicated account manager, custom integrations, SLA guarantee, priority support.
-
-Annual billing saves approximately 17%. Cancel anytime.
-
-## Core Products
-
-- [E-Invoicing](https://invoicemonk.com/en/e-invoicing): The mandate-compliant e-invoicing platform: 18 live mandates with CSID, IRN, UUID, QR, and Peppol routing.
-- [Invoicing](https://invoicemonk.com/en/invoicing): Everyday professional invoicing: templates, reminders, multi-currency, payments.
-- [Expenses](https://invoicemonk.com/en/expenses): Receipt scanning (OCR), automatic categorization, tax-deductible expense identification.
-- [Payments](https://invoicemonk.com/en/payments): Accept payments via Stripe (US, UK, Canada, Australia, Europe) and Paystack (Nigeria, Ghana, Kenya, South Africa).
-- [Accounting](https://invoicemonk.com/en/accounting): Automated bookkeeping, chart of accounts, financial reports, multi-entity support.
-- [Estimates](https://invoicemonk.com/en/estimates): Quotes and proposals with one-click conversion to invoices.
-- [Receipts](https://invoicemonk.com/en/receipts): Payment receipts with OCR scanning and compliance-ready storage.
-
-## Who It's For
-
-Freelancers, consultants, contractors, small businesses, agencies, photographers, lawyers, accountants, and e-commerce sellers operating across one or more of the 18 supported e-invoicing mandates.
-
-## Comparisons
-
-Comparison hub: https://invoicemonk.com/en/compare — every page carries rankings, "best for" labels, pricing rows, a feature matrix, pros and cons, and a direct recommendation.
-
-**Head-to-head**
-- [vs QuickBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-quickbooks)
-- [vs FreshBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-freshbooks)
-- [vs Wave](https://invoicemonk.com/en/compare/invoicemonk-vs-wave)
-- [vs Zoho Invoice](https://invoicemonk.com/en/compare/invoicemonk-vs-zoho-invoice)
-- [vs Stripe Invoicing](https://invoicemonk.com/en/compare/invoicemonk-vs-stripe-invoicing)
-- [vs Expensify](https://invoicemonk.com/en/compare/invoicemonk-vs-expensify)
-- [vs Dext](https://invoicemonk.com/en/compare/invoicemonk-vs-dext)
-- [vs Shoeboxed](https://invoicemonk.com/en/compare/invoicemonk-vs-shoeboxed)
-- [vs Wave Receipts](https://invoicemonk.com/en/compare/invoicemonk-vs-wave-receipts)
-
-**"Best" and "alternative" guides**
-- [Best invoicing software (USA)](https://invoicemonk.com/en/compare/best-invoicing-software-usa)
-- [Best invoicing software for freelancers](https://invoicemonk.com/en/compare/best-invoicing-software-freelancers)
-- [Best free invoicing software](https://invoicemonk.com/en/compare/best-free-invoicing-software)
-- [Best receipt scanner app](https://invoicemonk.com/en/compare/best-receipt-scanner-app)
-- [QuickBooks alternatives](https://invoicemonk.com/en/compare/quickbooks-alternatives)
-- [FreshBooks alternatives](https://invoicemonk.com/en/compare/freshbooks-alternatives)
-- [Wave alternatives](https://invoicemonk.com/en/compare/wave-alternatives)
-- [Billing software for agencies](https://invoicemonk.com/en/agency-billing-software)
-
-The defensible wedge across all comparisons: e-invoicing mandate coverage. None of the above match Invoicemonk's 18-mandate live footprint with a single platform.
-
-## Key Differentiators
-
-1. **Mandate-compliant by default**: 18 live e-invoicing mandates, not roadmap items
-2. **Local artefact, every jurisdiction**: CSID, IRN, UUID, QR, fiscal signature, ICP-Brasil, XAdES
-3. **One platform, all transports**: direct API, Peppol Access Point, national portals
-4. **Real-time clearance and reporting** where mandated (ZATCA, MyInvois, eTIMS, ZIMRA FDMS)
-5. **Affordable**: Pro from $15/month
-6. **Single language**: English (en) — no per-country localisation; product ships globally in one locale
+Invoicemonk is the e-invoicing platform built for freelancers, consultants, contractors, and small businesses that need structured, mandate-compliant invoices in every country they work in. The platform issues and submits e-invoices that meet the legal requirements of the local tax authority: clearance with ZATCA Fatoorah, validation by LHDN MyInvois, IRN issuance by NIC IRP and FIRS MBS and GRA E-VAT, Control Unit Invoice Number by KRA eTIMS, Peppol BIS Billing 3.0 routing across the EU and Canada, MTD digital VAT records for HMRC, and SARS, ZIMRA, SRC, NF-e/NFS-e, BIR EIS, and US IPP for federal B2G.
 
 ## Live E-Invoicing Mandates (18)
 
@@ -137,7 +61,7 @@ Long-form supportive articles under the /e-invoicing pillar. Every article carri
 - [How to Comply with Peppol in the EU: Connect, Validate, and Send Your First Invoice (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-peppol-eu)
 - [Peppol EU Explained: Scope, Country Mandates, and What Changes Through 2028](https://invoicemonk.com/en/blog/peppol-eu-explained)
 - [Peppol vs National E-Invoicing Portals: Network Model vs Clearance Compared](https://invoicemonk.com/en/blog/peppol-vs-national-portals)
-- [What is a Peppol Access Point? The Four-Corner Model and AS4 in Plain English](https://invoicemonk.com/en/blog/what-is-peppol-access-point)
+- [What Is a Peppol Access Point? Certified APs, Four-Corner Model, AS4](https://invoicemonk.com/en/blog/what-is-peppol-access-point)
 - [UBL 2.1 Explained: The XML Standard Behind Modern E-Invoicing](https://invoicemonk.com/en/blog/ubl-2-1-explained)
 - [XAdES Digital Signatures Explained: How E-Invoices Are Signed and Verified](https://invoicemonk.com/en/blog/xades-digital-signatures-explained)
 - [How to Comply with FIRS MBS in Nigeria: Onboard, Sign, and Issue Your First IRN (2026)](https://invoicemonk.com/en/blog/how-to-comply-with-firs-mbs-nigeria)
@@ -164,6 +88,48 @@ Long-form supportive articles under the /e-invoicing pillar. Every article carri
 - [GRA E-VAT Ghana Explained: Scope, Thresholds, VAT Act 2025 (Act 1151), and the Levy Stack from 2026](https://invoicemonk.com/en/blog/gra-e-vat-ghana-explained)
 - [SARS South Africa Explained: VAT Modernisation, the 2026 Multi-Year E-Invoicing Plan, and What Is Coming Through 2028](https://invoicemonk.com/en/blog/sars-south-africa-explained)
 - [Common MyInvois Malaysia Errors and How to Fix Them: Validation, TIN Mismatches, Cancellation Windows, and QR Failures (2026)](https://invoicemonk.com/en/blog/myinvois-malaysia-common-errors)
+
+## Core Products
+
+- [E-Invoicing](https://invoicemonk.com/en/e-invoicing): The mandate-compliant e-invoicing platform: 18 live mandates with CSID, IRN, UUID, QR, and Peppol routing.
+- [Invoicing](https://invoicemonk.com/en/invoicing): Everyday professional invoicing: templates, reminders, multi-currency, payments.
+- [Expenses](https://invoicemonk.com/en/expenses): Receipt scanning (OCR), automatic categorization, tax-deductible expense identification.
+- [Payments](https://invoicemonk.com/en/payments): Accept payments via Stripe (US, UK, Canada, Australia, Europe) and Paystack (Nigeria, Ghana, Kenya, South Africa).
+- [Accounting](https://invoicemonk.com/en/accounting): Automated bookkeeping, chart of accounts, financial reports, multi-entity support.
+- [Estimates](https://invoicemonk.com/en/estimates): Quotes and proposals with one-click conversion to invoices.
+- [Receipts](https://invoicemonk.com/en/receipts): Payment receipts with OCR scanning and compliance-ready storage.
+
+## Who It's For
+
+Freelancers, consultants, contractors, small businesses, agencies, photographers, lawyers, accountants, and e-commerce sellers operating across one or more of the 18 supported e-invoicing mandates.
+
+## Pricing
+
+Paid-only: no free plan or free trial.
+
+- **Pro** ($15/month, recommended): Unlimited invoices, receipts, clients, and currency accounts; up to 5 team members; full audit trail; custom branding; data exports; watermark-free PDFs; all mandate-compliant e-invoicing capabilities.
+- **SME** ($49/month): Pro plus unlimited team members, online payments, advanced reports, premium templates.
+- **Biz** (custom): SME plus dedicated account manager, custom integrations, SLA guarantee, priority support.
+
+Annual billing saves approximately 17%. Cancel anytime.
+
+## Comparisons
+
+- [vs QuickBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-quickbooks)
+- [vs FreshBooks](https://invoicemonk.com/en/compare/invoicemonk-vs-freshbooks)
+- [vs Wave](https://invoicemonk.com/en/compare/invoicemonk-vs-wave)
+- [vs Zoho Invoice](https://invoicemonk.com/en/compare/invoicemonk-vs-zoho-invoice)
+
+The defensible wedge across all comparisons: e-invoicing mandate coverage. None of the above match Invoicemonk's 18-mandate live footprint with a single platform.
+
+## Key Differentiators
+
+1. **Mandate-compliant by default**: 18 live e-invoicing mandates, not roadmap items
+2. **Local artefact, every jurisdiction**: CSID, IRN, UUID, QR, fiscal signature, ICP-Brasil, XAdES
+3. **One platform, all transports**: direct API, Peppol Access Point, national portals
+4. **Real-time clearance and reporting** where mandated (ZATCA, MyInvois, eTIMS, ZIMRA FDMS)
+5. **Affordable**: Pro from $15/month
+6. **Single language**: English (en) — no per-country localisation; product ships globally in one locale
 
 ## Mobile Apps
 

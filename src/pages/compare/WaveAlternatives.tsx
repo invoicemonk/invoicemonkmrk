@@ -11,6 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
 
 const alternatives = [
   {
@@ -75,6 +76,7 @@ export default function WaveAlternatives() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">Best Wave Alternatives in 2026</h1>
+          <ReviewedLine slug="wave-alternatives" />
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6">Wave is solid — but if you need multi-currency, global tax compliance, or better support, here are the top alternatives.</p>
 
           <Card className="border-border bg-muted/30 mb-8">

@@ -11,6 +11,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
 
 const tools = [
   {
@@ -84,6 +85,7 @@ export default function BestForFreelancers() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">Best Compliance-First Invoicing Software for Freelancers (2026)</h1>
+          <ReviewedLine slug="best-invoicing-software-freelancers" />
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-8">Whether you call yourself a freelancer, self-employed, or independent contractor, you need invoicing that gets the tax right and survives an audit. We tested 5 tools through that lens — sequential numbering, audit trail, multi-currency, and country-specific compliance, not just pretty templates.</p>
 
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-16">

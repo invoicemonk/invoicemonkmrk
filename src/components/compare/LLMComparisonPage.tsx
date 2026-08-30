@@ -9,6 +9,7 @@ import { SEOHead } from '@/components/seo/SEOHead';
 import { FAQSchema } from '@/components/seo/FAQSchema';
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
 import { ProsConsSection, type ProsCons } from '@/components/compare/ProsConsSection';
+import { COMPARE_REVIEWED } from '@/data/compareFreshness';
 
 export type { ProsCons };
 
@@ -100,7 +101,7 @@ export function LLMComparisonPage(props: LLMComparisonPageProps) {
     seo,
     breadcrumbLabel,
     lastUpdated,
-    lastReviewed,
+    lastReviewed: lastReviewedProp,
     h1,
     directAnswer,
     keyFact,
@@ -120,6 +121,7 @@ export function LLMComparisonPage(props: LLMComparisonPageProps) {
   } = props;
 
   const url = `/compare/${slug}`;
+  const lastReviewed = lastReviewedProp || COMPARE_REVIEWED[slug];
 
   const articleSchema = {
     '@context': 'https://schema.org',

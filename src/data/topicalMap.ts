@@ -491,12 +491,12 @@ export const pillars: Pillar[] = [
       {
         title: 'Finding Work',
         description: 'Best platforms to find freelance clients.',
-        link: '/blog/top-10-freelance-websites'
+        link: '/blog/finding-your-first-freelance-clients'
       },
       {
-        title: 'Building Skills',
-        description: 'Develop marketable creative skills.',
-        link: '/blog/how-to-become-a-good-graphic-designer'
+        title: 'Setting Rates',
+        description: 'Price creative work profitably.',
+        link: '/blog/pricing-your-freelance-services'
       },
       {
         title: 'Pricing Services',
@@ -867,7 +867,7 @@ export const pillarClusters: TopicalCluster[] = [
       'how-to-do-accounting-small-business-step-by-step',
       'accounting-101-small-business-owners',
       'bookkeeping-basics-beginners',
-      'diy-small-business-accounting',
+      'small-business-accounting-guide',
       'monthly-financial-review-checklist',
       'business-bank-account-vs-personal',
       'financial-reports-every-business-needs',
@@ -1017,8 +1017,6 @@ export const pillarClusters: TopicalCluster[] = [
     pillarId: 'freelancer-success',
     postSlugs: [
       'freelancer-business-guide',
-      'top-10-freelance-websites',
-      'how-to-become-a-good-graphic-designer',
       'freelance-contract-templates',
       'pricing-your-freelance-services',
       'freelance-time-tracking-guide',
@@ -1084,10 +1082,6 @@ export const pillarClusters: TopicalCluster[] = [
 // Outer section posts (authority building, not tied to specific pillars)
 export const outerPosts: string[] = [
   'invoicemonk-free-online-invoice-and-accounting-platform',
-  'small-business-marketing-101-a-guide-to-growth',
-  'top-10-lucrative-business-ideas-with-small-capital',
-  'impact-of-fintech-on-business-growth',
-  'savings-and-investment-on-alat-how-it-works',
   'the-10-best-personal-finance-blogs'
 ];
 

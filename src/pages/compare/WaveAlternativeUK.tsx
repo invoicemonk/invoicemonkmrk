@@ -10,6 +10,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
 
 const comparisonPoints = [
   { feature: 'MTD VAT compliance', wave: false, invoicemonk: true },
@@ -47,6 +48,7 @@ export default function WaveAlternativeUK() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">Best Wave Alternative for UK Businesses (2026)</h1>
+          <ReviewedLine slug="wave-alternative-uk" />
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-8">Wave is free but lacks UK compliance features. Here's how Invoicemonk compares — with MTD support, VAT auto-calculation, and CIS reverse charge.</p>
 
           <Card className="mt-12">

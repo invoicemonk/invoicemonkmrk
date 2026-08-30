@@ -35,6 +35,10 @@ const AuthorPage = () => {
         description={author.bio}
         ogImage={`https://invoicemonk.com${author.avatar}`}
         ogType="profile"
+        /* Navigational listing page with no unique prose — kept crawlable for
+           link discovery but out of the index (Google reported these as
+           "Crawled — currently not indexed"). */
+        noindex
       />
       <PersonSchema author={author} isMainEntity />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: author.name, url: `/blog/author/${author.slug}` }]} />

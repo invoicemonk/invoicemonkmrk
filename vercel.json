@@ -705,9 +705,453 @@
       "source": "/:page(blog|guides|help|glossary|explore|tools|pricing|about|contact|compliance|developer|why-invoicemonk|best-invoicing-software|client-management|partner-program|freelancers|consultants|contractors|agencies|photographers|lawyers|accountants|ecommerce|creatives|small-businesses|invoicing|expenses|payments|accounting|estimates|receipts|mobile)",
       "destination": "/en/:page",
       "statusCode": 301
+    },
+    {
+      "source": "/blog/top-10-freelance-websites",
+      "destination": "/en/blog/finding-your-first-freelance-clients",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/top-10-freelance-websites",
+      "destination": "/en/blog/finding-your-first-freelance-clients",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-to-become-a-good-graphic-designer",
+      "destination": "/en/blog/pricing-your-freelance-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/how-to-become-a-good-graphic-designer",
+      "destination": "/en/blog/pricing-your-freelance-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/small-business-marketing-101-a-guide-to-growth",
+      "destination": "/en/blog/client-retention-strategies",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/small-business-marketing-101-a-guide-to-growth",
+      "destination": "/en/blog/client-retention-strategies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/top-10-lucrative-business-ideas-with-small-capital",
+      "destination": "/en/blog/freelancer-business-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/top-10-lucrative-business-ideas-with-small-capital",
+      "destination": "/en/blog/freelancer-business-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/impact-of-fintech-on-business-growth",
+      "destination": "/en/blog/mobile-payment-options-for-small-business",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/impact-of-fintech-on-business-growth",
+      "destination": "/en/blog/mobile-payment-options-for-small-business",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/savings-and-investment-on-alat-how-it-works",
+      "destination": "/en/blog/cash-flow-forecasting-for-freelancers",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/savings-and-investment-on-alat-how-it-works",
+      "destination": "/en/blog/cash-flow-forecasting-for-freelancers",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/eur/india",
+      "destination": "/en/receive-eur-in-india-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/eur/india",
+      "destination": "/:lang/receive-eur-in-india-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/eur/nigeria",
+      "destination": "/en/receive-eur-in-nigeria-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/eur/nigeria",
+      "destination": "/:lang/receive-eur-in-nigeria-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/eur/uk",
+      "destination": "/en/receive-eur-in-uk-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/eur/uk",
+      "destination": "/:lang/receive-eur-in-uk-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/eur/us",
+      "destination": "/en/receive-eur-in-us-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/eur/us",
+      "destination": "/:lang/receive-eur-in-us-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/gbp/ghana",
+      "destination": "/en/receive-gbp-in-ghana-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/gbp/ghana",
+      "destination": "/:lang/receive-gbp-in-ghana-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/gbp/india",
+      "destination": "/en/receive-gbp-in-india-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/gbp/india",
+      "destination": "/:lang/receive-gbp-in-india-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/gbp/kenya",
+      "destination": "/en/receive-gbp-in-kenya-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/gbp/kenya",
+      "destination": "/:lang/receive-gbp-in-kenya-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/gbp/nigeria",
+      "destination": "/en/receive-gbp-in-nigeria-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/gbp/nigeria",
+      "destination": "/:lang/receive-gbp-in-nigeria-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/gbp/south-africa",
+      "destination": "/en/receive-gbp-in-south-africa-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/gbp/south-africa",
+      "destination": "/:lang/receive-gbp-in-south-africa-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/gbp/us",
+      "destination": "/en/receive-gbp-in-us-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/gbp/us",
+      "destination": "/:lang/receive-gbp-in-us-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/australia",
+      "destination": "/en/receive-usd-in-australia-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/australia",
+      "destination": "/:lang/receive-usd-in-australia-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/canada",
+      "destination": "/en/receive-usd-in-canada-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/canada",
+      "destination": "/:lang/receive-usd-in-canada-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/ghana",
+      "destination": "/en/receive-usd-in-ghana-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/ghana",
+      "destination": "/:lang/receive-usd-in-ghana-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/india",
+      "destination": "/en/receive-usd-in-india-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/india",
+      "destination": "/:lang/receive-usd-in-india-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/kenya",
+      "destination": "/en/receive-usd-in-kenya-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/kenya",
+      "destination": "/:lang/receive-usd-in-kenya-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/nigeria",
+      "destination": "/en/receive-usd-in-nigeria-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/nigeria",
+      "destination": "/:lang/receive-usd-in-nigeria-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/south-africa",
+      "destination": "/en/receive-usd-in-south-africa-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/south-africa",
+      "destination": "/:lang/receive-usd-in-south-africa-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/receive/usd/uk",
+      "destination": "/en/receive-usd-in-uk-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/receive/usd/uk",
+      "destination": "/:lang/receive-usd-in-uk-cost",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/best-invoice-software-kenya",
+      "destination": "/en/blog/best-invoice-software-kenya",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/compare/best-invoice-software-kenya",
+      "destination": "/:lang/blog/best-invoice-software-kenya",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/diy-small-business-accounting",
+      "destination": "/en/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/diy-small-business-accounting",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/understanding-financial-reports-small-business",
+      "destination": "/en/blog/financial-reports-every-business-needs",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/understanding-financial-reports-small-business",
+      "destination": "/:lang/blog/financial-reports-every-business-needs",
+      "statusCode": 301
+    },
+    {
+      "source": "/features",
+      "destination": "/en/why-invoicemonk",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/features",
+      "destination": "/:lang/why-invoicemonk",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/features/accept-payments",
+      "destination": "/:lang/payments",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/features/estimates",
+      "destination": "/:lang/estimates",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/features/send-invoices",
+      "destination": "/:lang/invoicing",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/features/business-expense-tracking-app",
+      "destination": "/:lang/expenses",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/features/client-management",
+      "destination": "/:lang/client-management",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/privacy",
+      "destination": "/:lang/privacy-policy",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/terms",
+      "destination": "/:lang/terms-of-service",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/what-is-an-invoice-definition-guide",
+      "destination": "/en/blog/what-is-an-invoice-definition",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/what-is-an-invoice-definition-guide",
+      "destination": "/:lang/blog/what-is-an-invoice-definition",
+      "statusCode": 301
+    },
+    {
+      "source": "/milestone-billing",
+      "destination": "/en/use-cases/milestone-billing",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/milestone-billing",
+      "destination": "/:lang/use-cases/milestone-billing",
+      "statusCode": 301
+    },
+    {
+      "source": "/cheapest-international-payments",
+      "destination": "/en/cheapest-way-to-receive-international-payments",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/cheapest-international-payments",
+      "destination": "/:lang/cheapest-way-to-receive-international-payments",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management",
+      "destination": "/en/blog/the-10-best-personal-finance-blogs",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/the-10-best-personal-finance-blogs-in-the-us-uk-and-canada-that-will-transform-your-money-management",
+      "destination": "/:lang/blog/the-10-best-personal-finance-blogs",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/small-business-accounting-basics",
+      "destination": "/en/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/small-business-accounting-basics",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/small-business-accounting-for-owners",
+      "destination": "/en/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/small-business-accounting-for-owners",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/the-basics-of-small-business-accounting",
+      "destination": "/en/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/the-basics-of-small-business-accounting",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/simple-accounting-for-small-business-beginners",
+      "destination": "/en/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/simple-accounting-for-small-business-beginners",
+      "destination": "/:lang/blog/small-business-accounting-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/e-invoicing-india-gst-guide",
+      "destination": "/en/blog/gst-irn-india-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/e-invoicing-india-gst-guide",
+      "destination": "/:lang/blog/gst-irn-india-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/e-invoicing-malaysia-myinvois-guide",
+      "destination": "/en/blog/myinvois-malaysia-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/e-invoicing-malaysia-myinvois-guide",
+      "destination": "/:lang/blog/myinvois-malaysia-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/e-invoicing-saudi-zatca-guide",
+      "destination": "/en/blog/zatca-phase-2-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/e-invoicing-saudi-zatca-guide",
+      "destination": "/:lang/blog/zatca-phase-2-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/e-invoicing-nigeria-firs-guide",
+      "destination": "/en/blog/firs-mbs-nigeria-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/e-invoicing-nigeria-firs-guide",
+      "destination": "/:lang/blog/firs-mbs-nigeria-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/e-invoicing-kenya-etims",
+      "destination": "/en/blog/kra-etims-kenya-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/e-invoicing-kenya-etims",
+      "destination": "/:lang/blog/kra-etims-kenya-explained",
+      "statusCode": 301
     }
   ],
-
   "rewrites": [
     {
       "source": "/sitemap.xml",
@@ -727,7 +1171,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/404.html"
     }
   ],
   "headers": [

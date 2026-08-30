@@ -391,7 +391,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
       'Protecting myself as freelancer'
     ]
   },
-  'top-10-freelance-websites': {
+  'finding-your-first-freelance-clients': {
     intent: 'commercial',
     stage: 'awareness',
     experienceLevel: 'beginner',
@@ -767,11 +767,11 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     ],
     nextSteps: [
       'accounting-101-small-business-owners',
-      'diy-small-business-accounting',
+      'small-business-accounting-guide',
       'small-business-accounting-guide'
     ]
   },
-  'diy-small-business-accounting': {
+  'small-business-accounting-guide': {
     intent: 'commercial',
     stage: 'consideration',
     experienceLevel: 'beginner',

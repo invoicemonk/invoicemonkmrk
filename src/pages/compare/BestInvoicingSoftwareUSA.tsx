@@ -14,6 +14,7 @@ import { SoftwareApplicationSchema } from '@/components/seo/SoftwareApplicationS
 import { ComparisonReviewSchema } from '@/components/seo/ComparisonReviewSchema';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
 
 const tools = [
   {
@@ -107,6 +108,7 @@ export default function BestInvoicingSoftwareUSA() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-4">Best Invoicing Software in the USA (2026)</h1>
+          <ReviewedLine slug="best-invoicing-software-usa" />
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-8">The IRS does not give you a template — it gives you record-keeping rules. We compared the four invoicing platforms US freelancers and small businesses actually shortlist when compliance matters as much as speed.</p>
 
           <p className="text-muted-foreground max-w-2xl mx-auto mb-10 text-center">

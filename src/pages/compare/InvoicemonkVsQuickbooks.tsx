@@ -13,6 +13,7 @@ import { InlineSignupCTA } from '@/components/compare/InlineSignupCTA';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -68,6 +69,7 @@ export default function InvoicemonkVsQuickbooks() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
             <p className="text-sm text-muted-foreground mb-3">{t('lastUpdated')} · {t('readingTime')}</p>
             <h1 className="text-heading-xl font-bold text-foreground mb-4">{t('hero.title')}</h1>
+            <ReviewedLine slug="invoicemonk-vs-quickbooks" />
             <p className="text-lg text-muted-foreground mb-10">{t('hero.subtitle')}</p>
 
             <Card className="border-primary/40 bg-primary/5 mb-12" data-answer="true">

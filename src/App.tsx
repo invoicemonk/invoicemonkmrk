@@ -135,18 +135,27 @@ import ToolsIndex from "./pages/tools/ToolsIndex";
 
 const queryClient = new QueryClient();
 
-const App = () => (
+/**
+ * Router-agnostic application tree.
+ *
+ * The browser entry wraps this in <BrowserRouter>; the build-time prerender
+ * entry (src/entry-server.tsx) wraps it in <StaticRouter>. Keeping the router
+ * outside this component is what allows every route to be rendered to static
+ * HTML at build time, so crawlers receive the correct <title>, description and
+ * self-referencing canonical in the first response instead of after JS runs.
+ */
+export const AppRoutes = () => (
   <QueryClientProvider client={queryClient}>
     <LocaleProvider>
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
-          <ScrollToTop />
-          <TrailingSlashRedirect />
-          <Routes>
-            {/* Root → detect country & redirect to language prefix */}
-            <Route path="/" element={<LanguageRedirect />} />
+        <ScrollToTop />
+        <TrailingSlashRedirect />
+        <Routes>
+          {/* Root → redirect to language prefix */}
+          <Route path="/" element={<LanguageRedirect />} />
+
 
             {/* ───── Language-prefixed routes ───── */}
             <Route path="/:lang" element={<LanguageLayout />}>
@@ -360,10 +369,16 @@ const App = () => (
             {/* Catch-all 404 */}
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </BrowserRouter>
       </TooltipProvider>
     </LocaleProvider>
   </QueryClientProvider>
 );
 
+const App = () => (
+  <BrowserRouter>
+    <AppRoutes />
+  </BrowserRouter>
+);
+
 export default App;
+

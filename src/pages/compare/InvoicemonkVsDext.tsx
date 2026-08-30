@@ -12,6 +12,7 @@ import { useTranslation } from 'react-i18next';
 import { MandateMatrixSection } from '@/components/e-invoicing/MandateMatrixSection';
 import { ProsConsSection } from '@/components/compare/ProsConsSection';
 import { compareProsCons } from '@/data/compareProsCons';
+import { ReviewedLine } from '@/components/compare/ReviewedLine';
 
 interface FAQItem { question: string; answer: string; }
 interface FeatureRow { name: string; invoicemonk: boolean | string; competitor: boolean | string; }
@@ -68,6 +69,7 @@ export default function InvoicemonkVsDext() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <p className="text-sm text-muted-foreground text-center mb-3">{t('hero.subtitle')}</p>
           <h1 className="text-heading-xl font-bold text-foreground text-center mb-6 leading-tight">{t('hero.title')}</h1>
+          <ReviewedLine slug="invoicemonk-vs-dext" />
           <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto">{t('hero.tagline')}</p>
         </div>
       </section>

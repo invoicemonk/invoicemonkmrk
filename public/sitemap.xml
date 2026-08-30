@@ -166,6 +166,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://invoicemonk.com/en/compare/zoho-invoice-alternatives</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/en/compare/best-invoicing-software-for-consultants</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/en/compare/best-invoicing-software-for-contractors</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/en/compare/best-invoicing-software-for-small-business</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/en/compare/free-invoice-generator-vs-paid</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://invoicemonk.com/en/ai</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -631,31 +656,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://invoicemonk.com/en/blog/small-business-marketing-101-a-guide-to-growth</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://invoicemonk.com/en/blog/invoicemonk-template-how-to-create-a-perfect-invoice-template</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/top-10-lucrative-business-ideas-with-small-capital</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/top-10-freelance-websites</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/impact-of-fintech-on-business-growth</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -667,19 +668,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://invoicemonk.com/en/blog/savings-and-investment-on-alat-how-it-works</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://invoicemonk.com/en/blog/how-to-create-a-budget-for-your-small-business</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/how-to-become-a-good-graphic-designer</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1123,12 +1112,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://invoicemonk.com/en/blog/diy-small-business-accounting</loc>
-    <lastmod>2026-02-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://invoicemonk.com/en/blog/international-wire-transfer-fees-guide</loc>
     <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -1197,12 +1180,6 @@
   <url>
     <loc>https://invoicemonk.com/en/blog/automate-receipt-capture-freelancers</loc>
     <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/understanding-financial-reports-small-business</loc>
-    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2555,21 +2532,6 @@
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/author/olayinka-olayokun</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/author/joan-omionawele</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/author/prince-ehima</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://invoicemonk.com/en/blog/topic/e-invoicing-platform</loc>
