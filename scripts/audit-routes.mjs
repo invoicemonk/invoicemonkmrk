@@ -36,6 +36,27 @@ for (const redirect of vercel.redirects) {
   if (redirect.source === redirect.destination) failures.push(`redirect loop: ${redirect.source}`);
 }
 
+// The canonical legacy mappings live in TypeScript so middleware and tooling
+// can share them. Ensure every 301 mapping was synchronized into the hosting
+// configuration; otherwise the app's 404 rewrite wins before React can help.
+const legacyRulesSource = fs.readFileSync(path.join(root, 'src/seo/legacy-url-rules.ts'), 'utf8');
+const legacyRedirects = [...legacyRulesSource.matchAll(/\{ source: '([^']+)', destination: '([^']+)', status: 301 \}/g)]
+  .map(([, source, destination]) => ({ source, destination }));
+const configuredRedirects = new Map(vercel.redirects.map((redirect) => [redirect.source, redirect]));
+for (const expected of legacyRedirects) {
+  const configured = configuredRedirects.get(expected.source);
+  if (!configured) {
+    failures.push(`missing canonical legacy redirect: ${expected.source}`);
+    continue;
+  }
+  if (configured.destination !== expected.destination) {
+    failures.push(`wrong destination for ${expected.source}: expected ${expected.destination}, found ${configured.destination}`);
+  }
+  if (configured.statusCode !== 301 && configured.permanent !== true) {
+    failures.push(`legacy redirect is not permanent: ${expected.source}`);
+  }
+}
+
 if (failures.length) {
   console.error(`[route-audit] ${failures.length} failure(s):\n${failures.map((item) => `- ${item}`).join('\n')}`);
   process.exit(1);

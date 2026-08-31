@@ -1,6 +1,121 @@
 {
   "redirects": [
     {
+      "source": "/en/receive-currency-in-country",
+      "destination": "/en/international-payment-fee-calculator",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/e-invoicing-mandates-by-country",
+      "destination": "/en/guides/e-invoicing-mandates",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/recurring-billing",
+      "destination": "/en/use-cases/recurring-billing",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/best-invoice-software-kenya",
+      "destination": "/en/compare/best-invoicing-software-kenya",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/essential-elements-of-an-invoice",
+      "destination": "/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/how-to-invoice-french-clients-freelancer",
+      "destination": "/en/blog/french-invoice-requirements-freelancers",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/glossary/uuid",
+      "destination": "/en/glossary/myinvois-uuid",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/tools/international-payment-fee-calculator",
+      "destination": "/en/international-payment-fee-calculator",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/nigeria-invoice-tin-number",
+      "destination": "/en/blog/nigeria-vat-invoice-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/sequential-invoice-numbering-eu",
+      "destination": "/en/blog/sequential-invoice-numbering-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/netherlands-vat-invoicing-freelancers",
+      "destination": "/en/blog/dutch-invoice-requirements-freelancers",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/freelance-finance-guide",
+      "destination": "/en/blog/freelancer-business-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/common-invoicing-mistakes-avoid",
+      "destination": "/en/blog/freelance-payment-mistakes",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/branded-invoice-design-best-practices",
+      "destination": "/en/blog/5-essential-elements-of-an-invoice-a-guide-for-small-business-owners",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/invoice-payment-terms-net-30-60-90",
+      "destination": "/en/blog/how-to-write-invoice-payment-terms",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/guides/e-invoicing-mandates-guide",
+      "destination": "/en/guides/e-invoicing-mandates",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/german-invoice-requirements-freelancers",
+      "destination": "/en/blog/how-to-invoice-german-clients-freelancer",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/platform",
+      "destination": "/en/invoicing",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/platform",
+      "destination": "/en/invoicing",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/multi-currency-invoicing",
+      "destination": "/en/use-cases/multi-currency-invoicing",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/en",
+      "destination": "/en",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/en/:path*",
+      "destination": "/en/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/receive/:currency/:country",
+      "destination": "/en/receive-:currency-in-:country-cost",
+      "statusCode": 301
+    },
+    {
       "source": "/blog/credit-note-guide-when-how-to-issue",
       "destination": "/en/blog/credit-notes-and-invoice-corrections",
       "statusCode": 301

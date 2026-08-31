@@ -2870,6 +2870,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://invoicemonk.com/en/glossary/egs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://invoicemonk.com/en/glossary/pih</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://invoicemonk.com/en/glossary/irn</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
