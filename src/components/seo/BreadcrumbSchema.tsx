@@ -10,9 +10,16 @@ interface BreadcrumbItem {
 
 interface BreadcrumbSchemaProps {
   items: BreadcrumbItem[];
+  /**
+   * Absolute URL of the page this breadcrumb belongs to. Used to build the
+   * node's `@id` (`<pageUrl>#breadcrumb`) so page-level schema that references
+   * `breadcrumb: { "@id": ... }` resolves to this BreadcrumbList.
+   * Defaults to the last breadcrumb item's URL.
+   */
+  pageUrl?: string;
 }
 
-export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
+export function BreadcrumbSchema({ items, pageUrl }: BreadcrumbSchemaProps) {
   const { lang } = useParams<{ lang: string }>();
   const prefix = lang?.toLowerCase() || 'en';
 
@@ -22,9 +29,13 @@ export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
     return `${BASE}/${prefix}${path}`;
   };
 
+  const resolvedPageUrl =
+    pageUrl || (items.length > 0 ? normalize(items[items.length - 1].url) : `${BASE}/${prefix}`);
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${resolvedPageUrl}#breadcrumb`,
     "itemListElement": items.map((item, index) => ({
       "@type": "ListItem",
       "position": index + 1,

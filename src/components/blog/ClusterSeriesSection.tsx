@@ -65,6 +65,9 @@ export function ClusterSeriesSection({
                   alt={post.featuredImageAlt}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
+                  decoding="async"
+                  width={1200}
+                  height={630}
                 />
                 {/* Pillar color indicator */}
                 <div 

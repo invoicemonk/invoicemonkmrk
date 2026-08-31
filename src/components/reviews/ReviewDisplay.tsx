@@ -94,7 +94,7 @@ function ReviewCard({ review, index }: { review: Review; index: number }) {
           </div>
           <div className="flex items-center gap-3 pt-4 border-t border-border/50">
             <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-              {review.avatarUrl ? <img src={review.avatarUrl} alt={review.author} className="w-full h-full rounded-full object-cover" /> : <User className="h-5 w-5 text-primary" />}
+              {review.avatarUrl ? <img src={review.avatarUrl} alt={review.author} width={40} height={40} loading="lazy" decoding="async" className="w-full h-full rounded-full object-cover" /> : <User className="h-5 w-5 text-primary" />}
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-medium text-foreground truncate">{review.author}</p>

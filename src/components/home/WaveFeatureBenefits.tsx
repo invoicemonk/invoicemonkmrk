@@ -47,6 +47,10 @@ export function WaveFeatureBenefits() {
                         <img
                           src={images[index]}
                           alt={imageAlts[index]}
+                          width={640}
+                          height={480}
+                          loading="lazy"
+                          decoding="async"
                           className="w-full h-full object-cover"
                         />
                       </div>

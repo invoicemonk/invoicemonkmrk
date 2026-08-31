@@ -77,6 +77,10 @@ export function WaveTabbedFeature({ title, subtitle, tabs, className = '' }: Wav
                     <img 
                       src={activeTabContent.image} 
                       alt={activeTabContent.title}
+                      width={1200}
+                      height={800}
+                      loading="lazy"
+                      decoding="async"
                       className="rounded-2xl shadow-soft-xl border border-border w-full"
                     />
                   ) : (

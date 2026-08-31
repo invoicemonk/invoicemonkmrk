@@ -243,7 +243,7 @@ export function Footer() {
           {/* Col 1-2: Logo + Description + Social */}
           <div className="col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-2 mb-4 lg:mb-0">
             <Link to="/" className="inline-block mb-4">
-              <img src={logo} alt="Invoicemonk" className="h-8 w-auto brightness-0 invert" />
+              <img src={logo} alt="Invoicemonk" width={160} height={32} loading="lazy" decoding="async" className="h-8 w-auto brightness-0 invert" />
             </Link>
             <p className="text-body-sm text-white/60 max-w-xs">
               {t('footer.tagline')}

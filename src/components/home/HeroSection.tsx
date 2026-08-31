@@ -19,25 +19,15 @@ export function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="max-w-4xl mx-auto text-center">
           {/* Compliance Badge - Localized */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6"
-          >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
             <Shield className="w-4 h-4 text-primary" />
             <span className="text-body-sm font-medium text-primary">
               {hero.badge}
             </span>
-          </motion.div>
+          </div>
 
           {/* Google Rating Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-card border border-border shadow-soft mb-8 ml-4"
-          >
+          <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-card border border-border shadow-soft mb-8 ml-4">
             <div className="flex items-center gap-1">
               <svg className="w-5 h-5" viewBox="0 0 24 24">
                 <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
@@ -54,36 +44,21 @@ export function HeroSection() {
             <span className="text-body-sm text-muted-foreground">
               {t('hero.googleRating')}
             </span>
-          </motion.div>
+          </div>
 
           {/* Main Headline - Localized with Wave-style serif italics */}
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-display text-heading mb-6"
-          >
+          <h1 className="text-display text-heading mb-6">
             {hero.headline}{' '}
             <span className="font-serif italic text-primary">{hero.headlineAccent}</span>
-          </motion.h1>
+          </h1>
 
           {/* Subheadline - Localized */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-body-lg text-muted-foreground max-w-2xl mx-auto mb-10"
-          >
+          <p className="text-body-lg text-muted-foreground max-w-2xl mx-auto mb-10">
             {hero.subheadline}
-          </motion.p>
+          </p>
 
           {/* CTAs - Localized */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
-          >
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
               asChild
               size="lg"
@@ -105,12 +80,12 @@ export function HeroSection() {
                 {hero.secondaryCta}
               </a>
             </Button>
-          </motion.div>
+          </div>
 
           {/* Android app chip — passive signal, non-competing with primary CTA */}
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             className="mt-5 flex items-center justify-center"
           >

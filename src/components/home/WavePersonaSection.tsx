@@ -43,6 +43,10 @@ export function WavePersonaSection() {
                       <img
                         src={personaMeta[i]?.image}
                         alt={persona.title}
+                        width={640}
+                        height={480}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
                       />
                     </div>

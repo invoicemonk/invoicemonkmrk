@@ -48,6 +48,10 @@ export function TeamMemberCard({ name, role, image, socialLinks }: TeamMemberCar
         <img
           src={image}
           alt={name}
+          width={256}
+          height={256}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover"
         />
       </div>

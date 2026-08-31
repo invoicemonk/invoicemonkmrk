@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/* Playfair Display is loaded non-blocking from index.html (preconnect + <link>). */
 
 @tailwind base;
 @tailwind components;
@@ -427,3 +427,16 @@ html {
   }
 }
 
+
+/* Reserve space for AdSense auto-ad injections so they cannot shift painted content. */
+ins.adsbygoogle {
+  display: block;
+  min-height: 280px;
+  margin: 1.5rem 0;
+  contain: layout;
+}
+@media (max-width: 640px) {
+  ins.adsbygoogle {
+    min-height: 250px;
+  }
+}

@@ -113,6 +113,10 @@ function ArticleCard({ article, pillar, index, featured }: ArticleCardProps) {
                 <img 
                   src={article.featuredImage} 
                   alt={article.title}
+                  width={192}
+                  height={128}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>

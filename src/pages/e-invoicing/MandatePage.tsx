@@ -38,7 +38,8 @@ import NotFound from '@/pages/NotFound';
 const SECTION_ICONS = [ShieldCheck, FileCheck2, Send, CalendarCheck, Building2, Users];
 
 export default function MandatePage() {
-  const { mandateSlug } = useParams<{ mandateSlug: string }>();
+  const { mandateSlug, lang } = useParams<{ mandateSlug: string; lang: string }>();
+  const langPrefix = lang?.toLowerCase() || 'en';
   const mandate = mandateSlug ? getMandate(mandateSlug) : undefined;
 
   if (!mandate) return <NotFound />;
@@ -71,8 +72,10 @@ export default function MandatePage() {
         description={mandate.metaDescription}
         schemaId={`https://invoicemonk.com/#e-invoicing-${mandate.slug}`}
       />
-      <MandatePageSchema mandate={mandate} />
+      <MandatePageSchema mandate={mandate} lang={langPrefix} />
+
       <BreadcrumbSchema
+        pageUrl={`https://invoicemonk.com/${langPrefix}/e-invoicing/${mandate.slug}`}
         items={[
           { name: 'Home', url: '/' },
           { name: 'E-Invoicing', url: '/e-invoicing' },
@@ -80,6 +83,7 @@ export default function MandatePage() {
         ]}
       />
       <FAQSchema items={mandate.faqs} />
+
 
       <Layout>
         {/* Hero */}
@@ -96,40 +100,28 @@ export default function MandatePage() {
 
 
             <div className="max-w-4xl">
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4 }}
+              <div
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6"
               >
                 <ShieldCheck className="w-4 h-4" />
                 <span className="text-sm font-medium">
                   {mandate.jurisdiction} &middot; {mandate.authority}
                 </span>
-              </motion.div>
+              </div>
 
-              <motion.h1
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.05 }}
+              <h1
                 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground tracking-tight"
               >
                 {mandate.mandate}
-              </motion.h1>
+              </h1>
 
-              <motion.p
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
+              <p
                 className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed"
               >
                 {mandate.directAnswer}
-              </motion.p>
+              </p>
 
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.15 }}
+              <div
                 className="mt-8 flex flex-col sm:flex-row gap-4"
               >
                 <Button asChild size="lg" className="rounded-full px-8 h-14 text-base group">
@@ -142,13 +134,10 @@ export default function MandatePage() {
                   <Link to="/e-invoicing">{matrixAnchor}</Link>
                 </Button>
 
-              </motion.div>
+              </div>
 
               {/* Compliance trust strip */}
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.25 }}
+              <div
                 className="mt-10 flex flex-wrap gap-2"
               >
                 <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm text-foreground">
@@ -169,7 +158,7 @@ export default function MandatePage() {
                   <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Applies to</span>
                   <span className="font-medium">{mandate.appliesTo.split(/[.,(]/)[0].trim()}</span>
                 </span>
-              </motion.div>
+              </div>
             </div>
           </div>
         </section>

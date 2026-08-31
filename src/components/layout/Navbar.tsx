@@ -84,7 +84,7 @@ export function Navbar({ topOffset = 0 }: { topOffset?: number } = {}) {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 relative z-10">
-              <img src={logo} alt="Invoicemonk" className="h-8 lg:h-10 w-auto" />
+              <img src={logo} alt="Invoicemonk" width={160} height={40} decoding="async" className="h-8 lg:h-10 w-auto" />
             </Link>
 
             {/* Desktop Navigation */}

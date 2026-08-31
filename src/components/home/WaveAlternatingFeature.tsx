@@ -39,6 +39,10 @@ export function WaveAlternatingFeature({
                 <img 
                   src={image} 
                   alt={title}
+                  width={1200}
+                  height={800}
+                  loading="lazy"
+                  decoding="async"
                   className="rounded-2xl shadow-soft-xl border border-border w-full"
                 />
               ) : imagePlaceholder ? (
