@@ -119,7 +119,7 @@ export const cluster22Posts: BlogPost[] = [
           <tr><td>Net 30</td><td>30 days</td><td>Corporate clients, larger projects, established relationships</td></tr>
           <tr><td>2/10 Net 30</td><td>30 days, 2% off if paid in 10</td><td>Clients with cash who respond to discounts</td></tr>
         </tbody>
-      </table><p>The full head-to-head, including the cash-flow maths, is in <a href="/en/blog/payment-terms-comparison-net-30-vs-net-15">Net 30 vs Net 15 compared</a>.</p><h2>Making Net 15 actually work</h2><p class="block-answer" data-answer="true">Making Net 15 actually work includes: Agree the term in the quote or contract, before the work — not on the first invoice.   Print the calculated due date, not just "Net 15.</p><ol>
+      </table><p>The full head-to-head, including the cash-flow maths, is in the <a href="/en/blog/how-to-write-invoice-payment-terms">invoice payment terms guide</a>.</p><h2>Making Net 15 actually work</h2><p class="block-answer" data-answer="true">Making Net 15 actually work includes: Agree the term in the quote or contract, before the work — not on the first invoice.   Print the calculated due date, not just "Net 15.</p><ol>
         <li>Agree the term in the quote or contract, before the work — not on the first invoice.</li>
         <li>Print the calculated due date, not just "Net 15."</li>
         <li>Attach a late fee clause; see <a href="/en/blog/invoice-terms-and-conditions-wording">invoice terms and conditions wording</a>.</li>
@@ -167,7 +167,7 @@ export const cluster22Posts: BlogPost[] = [
     ],
     relatedTools: [
       { label: 'Invoicing', url: '/invoicing', description: 'Set Net 15 as a default and let due dates calculate themselves.' },
-      { label: 'Net 30 vs Net 15', url: '/blog/payment-terms-comparison-net-30-vs-net-15', description: 'Side-by-side comparison of the two most common terms.' },
+      { label: 'Invoice payment terms guide', url: '/blog/how-to-write-invoice-payment-terms', description: 'Net 30 vs Net 15, wording, examples, and templates in one definitive guide.' },
       { label: 'Best invoicing software USA', url: '/compare/best-invoicing-software-usa', description: 'Compare invoicing tools for US freelancers and small businesses.' },
     ],
   },

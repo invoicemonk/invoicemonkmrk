@@ -231,9 +231,17 @@ const Glossary = () => {
                                 selectedTerm === term.slug ? 'border-primary bg-primary/5' : 'border-border'
                               }`}
                             >
-                              <div className="flex items-start justify-between gap-2">
+                               <div className="flex items-start justify-between gap-2">
                                 <div>
-                                  <h3 className="font-semibold text-foreground">{term.term}</h3>
+                                  <h3 className="font-semibold text-foreground">
+                                    <Link
+                                      to={`/glossary/${term.slug}`}
+                                      onClick={(e) => e.stopPropagation()}
+                                      className="hover:text-primary hover:underline"
+                                    >
+                                      {term.term}
+                                    </Link>
+                                  </h3>
                                   <p className="text-sm text-muted-foreground line-clamp-2 mt-1">
                                     {term.definition}
                                   </p>
@@ -270,6 +278,12 @@ const Glossary = () => {
                             <CardTitle className="text-xl" id={termDetails.slug}>
                               {termDetails.term}
                             </CardTitle>
+                            <Link
+                              to={`/glossary/${termDetails.slug}`}
+                              className="inline-flex items-center gap-1 text-sm text-primary hover:underline mt-1"
+                            >
+                              {t('moreDetails')} <ChevronRight className="h-3 w-3" />
+                            </Link>
                           </div>
                           <Button variant="ghost" size="sm" onClick={handleCloseTerm}>
                             ×

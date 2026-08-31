@@ -116,6 +116,7 @@ import ClientManagementGuide from "./pages/guides/ClientManagementGuide";
 import EInvoicingGuide from "./pages/guides/EInvoicingGuide";
 import EInvoicingMandatesGuide from "./pages/guides/EInvoicingMandatesGuide";
 import Glossary from "./pages/Glossary";
+import GlossaryTermPage from "./pages/GlossaryTerm";
 import Explore from "./pages/Explore";
 import EInvoicing from "./pages/EInvoicing";
 import MandatePage from "./pages/e-invoicing/MandatePage";
@@ -329,6 +330,7 @@ export const AppRoutes = () => (
 
               {/* Resources */}
               <Route path="glossary" element={<Glossary />} />
+              <Route path="glossary/:slug" element={<GlossaryTermPage />} />
               <Route path="explore" element={<Explore />} />
 
               {/* Help Center */}
@@ -360,6 +362,10 @@ export const AppRoutes = () => (
               <Route path="blog/e-invoicing-saudi-zatca-guide" element={<Navigate to="../blog/zatca-phase-2-explained" replace />} />
               <Route path="blog/e-invoicing-nigeria-firs-guide" element={<Navigate to="../blog/firs-mbs-nigeria-explained" replace />} />
               <Route path="blog/e-invoicing-kenya-etims" element={<Navigate to="../blog/kra-etims-kenya-explained" replace />} />
+
+              {/* Consolidation — Net 30 vs Net 15 merged into the definitive
+                  payment-terms guide (Phase 4 SEO recovery). */}
+              <Route path="blog/payment-terms-comparison-net-30-vs-net-15" element={<Navigate to="../blog/how-to-write-invoice-payment-terms" replace />} />
 
 
               {/* 404 within valid language prefix */}

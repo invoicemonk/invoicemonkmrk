@@ -320,6 +320,8 @@ function main() {
     'e-invoicing-saudi-zatca-guide',
     'e-invoicing-nigeria-firs-guide',
     'e-invoicing-kenya-etims',
+    // Consolidated into how-to-write-invoice-payment-terms (301, Phase 4).
+    'payment-terms-comparison-net-30-vs-net-15',
   ]);
   // Deliberately noindexed posts (see `noindex: true` in the data files) — they
   // must not be advertised in the sitemap.
@@ -364,8 +366,11 @@ function main() {
     }));
 
 
-  // NOTE: Glossary fragment URLs (#slug) removed — they resolve to the same /glossary page
-  // The single /glossary entry in staticPages is sufficient
+  // Glossary detail pages — one indexable URL per term (Phase 4b SEO recovery:
+  // targets glossary-intent queries like "irn", "xrechnung", "factur-x format").
+  const glossarySlugs = extractSlugs(path.join(__dirname, '../src/data/glossaryTerms.ts'), /slug:\s*['"][^'"]+['"]/g);
+  console.log(`📖 ${glossarySlugs.length} glossary terms`);
+  glossarySlugs.forEach(s => allPages.push({ path: `/glossary/${s}`, priority: 0.6, changefreq: 'monthly' }));
 
   const corridors = getCorridors();
   console.log(`💱 ${corridors.length} corridors`);

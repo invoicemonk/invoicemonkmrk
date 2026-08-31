@@ -826,7 +826,7 @@ export const pillarClusters: TopicalCluster[] = [
       'early-payment-discounts-do-they-work',
       'cash-flow-forecasting-for-freelancers',
       'setting-up-automatic-payment-reminders',
-      'payment-terms-comparison-net-30-vs-net-15',
+      'how-to-write-invoice-payment-terms',
       'mobile-payment-options-for-small-business',
       'international-payment-fees-explained',
       'international-wire-transfer-fees-guide',

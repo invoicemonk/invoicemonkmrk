@@ -2770,7 +2770,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'how-to-write-invoice-payment-terms',
-    title: 'Invoice Payment Terms: Examples, Wording, and Templates (2026)',
+    title: 'Invoice Terms & Payment Terms: Examples, Wording, Templates (2026)',
+    dateModified: '2026-08-31',
     excerpt: 'Invoice payment terms explained with copy-paste examples and wording: Net 30, Net 15, due on receipt, 2/10 Net 30, deposits, and where to put terms on the invoice.',
     category: 'Invoicing and Billing Tips',
     tags: ['invoicing', 'payment terms', 'net 30', 'payment policies', 'cash flow'],
@@ -2789,7 +2790,7 @@ export const blogPosts: BlogPost[] = [
       { question: "Late Payment Fees: Should You Charge Them?", answer: "Late fees serve two purposes: compensating you for the cost of delayed payment and deterring late payment in the first place." },
       { question: "Where Payment Terms Go on the Invoice?", answer: "Print the payment term and the calculated due date in the same block as the invoice total, not only in the footer. The payer reads the amount owed; anything more than a glance away from that number gets missed." },
     ],
-    content: `<p>Payment terms define when and how you expect to be paid. Well-written terms set clear expectations, reduce misunderstandings, and help you get paid faster. Yet many business owners treat payment terms as an afterthought, copying generic language without considering how their terms affect cash flow and client relationships.</p><h2>Why Payment Terms Matter</h2><p class="block-answer" data-answer="true">Your payment terms are a contract.  They establish legal expectations about when payment is due and what happens if it's late.</p><p>Your payment terms are a contract. They establish legal expectations about when payment is due and what happens if it's late. Clear terms:</p><ul>
+    content: `<p class="block-answer" data-answer="true">Invoice terms (also called payment terms) state when and how a client must pay: the number of days from the invoice date (Net 15, Net 30), any early-payment discount (2/10 Net 30), late fees, and accepted payment methods. The payment terms on an invoice go in the same block as the total due, paired with the calculated due date.</p><p>Well-written invoice terms set clear expectations, reduce misunderstandings, and help you get paid faster. Yet many business owners treat payment terms as an afterthought, copying generic language without considering how their terms affect cash flow and client relationships.</p><h2>Why Payment Terms Matter</h2><p class="block-answer" data-answer="true">Your payment terms are a contract.  They establish legal expectations about when payment is due and what happens if it's late.</p><p>Your payment terms are a contract. They establish legal expectations about when payment is due and what happens if it's late. Clear terms:</p><ul>
         <li>Set client expectations upfront, preventing disputes</li>
         <li>Provide legal recourse if payment is delayed</li>
         <li>Help you forecast cash flow more accurately</li>
@@ -2867,7 +2868,15 @@ export const blogPosts: BlogPost[] = [
           <tr><td>Net 45 / Net 60</td><td>45–60 days</td><td>Enterprise, government, distribution</td><td>Poor — needs a buffer</td></tr>
           <tr><td>2/10 Net 30</td><td>30 days, 2% off within 10</td><td>Clients with cash on hand</td><td>Good, at ~2% cost</td></tr>
         </tbody>
-      </table><p>The two most commonly compared terms are broken down further in <a href="/en/blog/payment-terms-comparison-net-30-vs-net-15">Net 30 vs Net 15</a>.</p><h2>Payment Terms Wording: Strong vs Weak</h2><p class="block-answer" data-answer="true">Payment Terms Wording: Strong vs Weak — "Please pay at your earliest convenience": No due date, nothing to enforce or age — "Net 15 — due 18 March 2026".</p><table>
+      </table><h2>Net 30 vs Net 15: Which Should You Use?</h2><p class="block-answer" data-answer="true">Net 30 gives clients 30 days to pay from the invoice date and is the B2B standard for larger organisations; Net 15 halves the window to 15 days and suits freelancers and small service businesses that need faster cash flow. On $50,000 of annual billing, moving from Net 30 to Net 15 keeps roughly $2,000 more in your account at any given time.</p><h3>Net 30: the industry standard</h3><ul>
+        <li>Clients expect it — it aligns with most corporate AP cycles</li>
+        <li>Professional and reasonable for larger organisations</li>
+        <li>But 30 days can stretch to 45+ with late payments, straining small-business cash flow</li>
+      </ul><h3>Net 15: the freelancer's friend</h3><ul>
+        <li>Faster cash flow — you get paid twice as quickly</li>
+        <li>Reduces non-payment risk (less time for clients to "forget")</li>
+        <li>Some enterprise clients will push back; agree terms in the contract before work starts</li>
+      </ul><p>For a deeper dive into the shorter cycle, see <a href="/en/blog/what-is-net-15-payment-terms">what Net 15 means and when to use it</a>. If cash flow is tight, pair shorter terms with an early-payment discount such as 2/10 Net 30 — see our guide on <a href="/en/blog/early-payment-discounts-do-they-work">early payment discounts</a>.</p><h2>Payment Terms Wording: Strong vs Weak</h2><p class="block-answer" data-answer="true">Payment Terms Wording: Strong vs Weak — "Please pay at your earliest convenience": No due date, nothing to enforce or age — "Net 15 — due 18 March 2026".</p><table>
         <thead><tr><th>Weak wording</th><th>Why it fails</th><th>Use instead</th></tr></thead>
         <tbody>
           <tr><td>"Please pay at your earliest convenience"</td><td>No due date, nothing to enforce or age</td><td>"Net 15 — due 18 March 2026"</td></tr>
@@ -3173,8 +3182,9 @@ export const blogPosts: BlogPost[] = [
   // ============================================
   {
     slug: 'payment-reminder-email-templates',
-    title: 'Payment Reminder Email: 12 Templates and Samples (2026)',
-    excerpt: 'Payment reminder email samples for every stage — before due, overdue, and final notice — plus subject lines, an escalation timeline, and how to automate the sequence.',
+    title: 'Payment Reminder Email Samples: 12 Templates & Quotes (2026)',
+    dateModified: '2026-08-31',
+    excerpt: 'Payment reminder email samples for every stage — before due, overdue, and final notice — plus subject lines, reminder quotes, an escalation timeline, and how to automate the sequence.',
     category: 'Finance',
     tags: ['payments', 'reminders', 'email templates', 'collections'],
     author: defaultAuthor,
@@ -3187,7 +3197,13 @@ export const blogPosts: BlogPost[] = [
     targetProduct: '/payments',
     semanticKeywords: ['payment reminder', 'overdue email', 'collection email', 'overdue invoice email', 'collection email template', 'late payment follow up', 'invoice reminder SMS', 'payment reminder text message', 'late payment interest'],
     priority: 'P1',
-    content: `<p>The right payment reminder can mean the difference between getting paid on time and chasing invoices for months. Yet many business owners struggle with reminders—they either don't send them (hoping clients will pay without prompting) or send awkward, aggressive messages that damage relationships. This guide provides 12 professionally written templates for every situation, plus strategies to make your reminders more effective.</p><h2>Why Payment Reminders Matter</h2><p class="block-answer" data-answer="true">Research consistently shows that payment reminders significantly reduce late payments.  Clients don't always pay late intentionally—invoices get lost in inboxes, payment dates are forgotten, or approvals get delayed.</p><p>Research consistently shows that payment reminders significantly reduce late payments. Clients don't always pay late intentionally—invoices get lost in inboxes, payment dates are forgotten, or approvals get delayed. A well-timed reminder brings your invoice back to attention.</p><p>The key is striking the right tone: firm enough to prompt action, professional enough to maintain the relationship. These templates do exactly that.</p><h2>Subject Lines That Get Opened (45%+ Open Rates)</h2><p class="block-answer" data-answer="true">Your subject line determines whether the reminder gets read.</p><p>Your subject line determines whether the reminder gets read. Here are proven subject lines for each stage, with approximate open rates based on industry data:</p><ul>
+    content: `<p>The right payment reminder can mean the difference between getting paid on time and chasing invoices for months. Yet many business owners struggle with reminders—they either don't send them (hoping clients will pay without prompting) or send awkward, aggressive messages that damage relationships. This guide provides 12 professionally written templates for every situation, plus strategies to make your reminders more effective.</p><h2>Payment Reminder Quotes You Can Reuse</h2><p class="block-answer" data-answer="true">A good payment reminder is short, specific, and assumes goodwill: name the invoice number and amount, state the due date, attach the invoice, and give one clear way to pay. The quotes below are ready to drop into any reminder email.</p><ul>
+        <li><strong>Friendly, before the due date:</strong> "A quick note that invoice #[NUMBER] for [AMOUNT] is due on [DATE] — the invoice is attached for easy reference."</li>
+        <li><strong>On the due date:</strong> "Invoice #[NUMBER] for [AMOUNT] is due today. You can pay here: [PAYMENT LINK]."</li>
+        <li><strong>First overdue nudge:</strong> "Invoice #[NUMBER] for [AMOUNT] was due on [DATE] and is now a few days past due — could you confirm when payment is scheduled?"</li>
+        <li><strong>Firm, 14+ days overdue:</strong> "Despite previous reminders, invoice #[NUMBER] for [AMOUNT] remains unpaid. Please arrange payment by [DATE] or contact me to discuss."</li>
+        <li><strong>Final notice:</strong> "This is a final reminder that invoice #[NUMBER] for [AMOUNT], due [DATE], is still outstanding. If payment is not received by [DATE], I will [apply the late fee stated in our terms / begin formal recovery]."</li>
+      </ul><p>Each quote is expanded into a full email in the 12 templates below.</p><h2>Why Payment Reminders Matter</h2><p class="block-answer" data-answer="true">Research consistently shows that payment reminders significantly reduce late payments.  Clients don't always pay late intentionally—invoices get lost in inboxes, payment dates are forgotten, or approvals get delayed.</p><p>Research consistently shows that payment reminders significantly reduce late payments. Clients don't always pay late intentionally—invoices get lost in inboxes, payment dates are forgotten, or approvals get delayed. A well-timed reminder brings your invoice back to attention.</p><p>The key is striking the right tone: firm enough to prompt action, professional enough to maintain the relationship. These templates do exactly that.</p><h2>Subject Lines That Get Opened (45%+ Open Rates)</h2><p class="block-answer" data-answer="true">Your subject line determines whether the reminder gets read.</p><p>Your subject line determines whether the reminder gets read. Here are proven subject lines for each stage, with approximate open rates based on industry data:</p><ul>
         <li><strong>Pre-due (55% open rate):</strong> "Upcoming payment reminder — Invoice #[NUMBER]"</li>
         <li><strong>Due date (50% open rate):</strong> "Payment due today — Invoice #[NUMBER]"</li>
         <li><strong>3 days overdue (48% open rate):</strong> "Quick follow-up — Invoice #[NUMBER]"</li>
@@ -5958,110 +5974,6 @@ Thank you for your business!
       { label: 'Invoicemonk Payments', url: '/payments', description: 'Automate payment reminders and collect online.' },
       { label: 'Payment Reminder Email Templates', url: '/en/blog/payment-reminder-email-templates', description: 'Copy-paste wording for every stage of the reminder sequence.' },
       { label: 'Get Started on Invoicemonk', url: 'https://app.invoicemonk.com/signup?plan=professional', description: 'Set up automatic reminders in 5 minutes — $15/month, cancel anytime.' }
-    ],
-  },
-  {
-    slug: 'payment-terms-comparison-net-30-vs-net-15',
-    title: 'Net 30 vs Net 15: Payment Terms Compared (2026)',
-    excerpt: 'Net 30 vs Net 15 vs Net 60 vs due on receipt, compared side by side — due dates, cash-flow impact, late payment rates, and which term fits which client.',
-    category: 'Payments and Cash Flow',
-    tags: ['payment terms', 'net 30', 'net 15', 'cash flow', 'invoicing', 'accounts receivable'],
-    author: defaultAuthor,
-    date: '2025-10-05',
-    dateModified: '2026-02-04',
-    readTime: '8 min read',
-    featuredImage: '/images/blog/payment-terms-comparison.jpg',
-    featuredImageAlt: 'Payment terms comparison chart showing Net 15 vs Net 30 vs Net 60',
-    clusterType: 'cluster',
-    targetProduct: '/payments',
-    semanticKeywords: ['payment terms', 'net 30', 'net 15', 'net 60', 'due on receipt', 'payment conditions', 'invoice payment terms'],
-    priority: 'P2',
-    content: `<p>Choosing the right payment terms is one of the most impactful decisions you'll make for your cash flow. The difference between Net 15 and Net 30 might seem small, but over a year with dozens of clients, it can mean the difference between healthy cash flow and constant financial stress.</p><p>This guide compares the most common payment terms and helps you choose the right ones for your business.</p><h2>Understanding Payment Terms</h2><p class="block-answer" data-answer="true">Payment terms define when a client must pay an invoice.  "Net" refers to the total number of days the client has to pay from the invoice date.</p><p>Payment terms define when a client must pay an invoice. "Net" refers to the total number of days the client has to pay from the invoice date. For a deeper dive into writing effective terms, see our <a href="/en/blog/how-to-write-invoice-payment-terms">invoice payment terms guide</a>, and for the shorter cycle in detail, <a href="/en/blog/what-is-net-15-payment-terms">what Net 15 means and when to use it</a>.</p><h2>Common Payment Terms Compared</h2><p class="block-answer" data-answer="true">Common Payment Terms Compared — Due on Receipt: Immediately — Small projects, new clients.</p><table>
-        <thead>
-          <tr><th>Term</th><th>Payment Due</th><th>Best For</th><th>Cash Flow Impact</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Due on Receipt</td><td>Immediately</td><td>Small projects, new clients</td><td>Fastest cash flow</td></tr>
-          <tr><td>Net 7</td><td>7 days</td><td>Freelancers, service businesses</td><td>Very fast</td></tr>
-          <tr><td>Net 15</td><td>15 days</td><td>SMBs, professional services</td><td>Fast</td></tr>
-          <tr><td>Net 30</td><td>30 days</td><td>B2B standard, larger clients</td><td>Standard</td></tr>
-          <tr><td>Net 45</td><td>45 days</td><td>Enterprise clients, government</td><td>Slow</td></tr>
-          <tr><td>Net 60</td><td>60 days</td><td>Large corporations, construction</td><td>Very slow</td></tr>
-          <tr><td>2/10 Net 30</td><td>30 days (2% discount if paid in 10)</td><td>Incentivising early payment</td><td>Balanced</td></tr>
-        </tbody>
-      </table><h2>Net 30: The Industry Standard</h2><p class="block-answer" data-answer="true">Net 30 is the most widely used payment term in B2B transactions.  It gives clients a full month to process payment, which aligns with most accounting cycles.</p><p>Net 30 is the most widely used payment term in B2B transactions. It gives clients a full month to process payment, which aligns with most accounting cycles.</p><h3>Advantages</h3><ul>
-        <li>Industry standard—clients expect it</li>
-        <li>Gives clients time to process through their AP department</li>
-        <li>Professional and reasonable</li>
-        <li>Works well with larger organisations</li>
-      </ul><h3>Disadvantages</h3><ul>
-        <li>30 days can stretch to 45+ with late payments</li>
-        <li>Can strain cash flow for small businesses</li>
-        <li>Long wait when you've already delivered the work</li>
-      </ul><h2>Net 15: The Freelancer's Friend</h2><p class="block-answer" data-answer="true">Net 15 is increasingly popular among freelancers and small service businesses.  It cuts the standard payment window in half.</p><p>Net 15 is increasingly popular among freelancers and small service businesses. It cuts the standard payment window in half.</p><h3>Advantages</h3><ul>
-        <li>Faster cash flow—get paid twice as quickly</li>
-        <li>Reduces risk of non-payment (less time for clients to "forget")</li>
-        <li>Signals that you value prompt payment</li>
-        <li>Easier to manage cash flow with shorter cycles</li>
-      </ul><h3>Disadvantages</h3><ul>
-        <li>Some larger clients may push back</li>
-        <li>May not work with enterprise AP processes</li>
-        <li>Can seem aggressive to clients used to Net 30</li>
-      </ul><h2>Due on Receipt: Maximum Cash Flow</h2><p class="block-answer" data-answer="true">Due on Receipt means payment is expected immediately when the invoice is received.  This works well for certain situations but isn't always practical.</p><p>Due on Receipt means payment is expected immediately when the invoice is received. This works well for certain situations but isn't always practical.</p><ul>
-        <li><strong>Best for:</strong> One-time projects, new or untested clients, small amounts</li>
-        <li><strong>Avoid for:</strong> Ongoing relationships, enterprise clients, large invoices</li>
-      </ul><h2>Early Payment Discounts</h2><p class="block-answer" data-answer="true">Offering a small discount for early payment (like 2/10 Net 30) can dramatically improve cash flow.  Learn more in our guide on early payment discounts.</p><p>Offering a small discount for early payment (like 2/10 Net 30) can dramatically improve cash flow. Learn more in our guide on <a href="/en/blog/early-payment-discounts-do-they-work">early payment discounts</a>.</p><h2>How to Choose the Right Terms</h2><p class="block-answer" data-answer="true">Consider these factors:</p><p>Consider these factors:</p><ol>
-        <li><strong>Your cash flow needs:</strong> If cash is tight, shorter terms are essential</li>
-        <li><strong>Industry norms:</strong> Going against standards can cost you clients</li>
-        <li><strong>Client size:</strong> Larger companies often require longer terms</li>
-        <li><strong>Project size:</strong> Larger projects may warrant milestone payments</li>
-        <li><strong>Client relationship:</strong> New clients warrant shorter terms; trusted clients earn flexibility</li>
-        <li><strong>Your costs:</strong> If you have upfront costs, you need faster payment</li>
-      </ol><h2>Negotiation Tips</h2><p class="block-answer" data-answer="true">Negotiation Tips includes: Start with your preferred terms—you can always negotiate longer Offer early payment discounts as an incentive</p><ul>
-        <li>Start with your preferred terms—you can always negotiate longer</li>
-        <li>Offer early payment discounts as an incentive</li>
-        <li>For large projects, propose milestone payments instead of one lump sum</li>
-        <li>Put terms in writing in your contract before starting work</li>
-        <li>Use <a href="/en/blog/setting-up-automatic-payment-reminders">automatic reminders</a> to ensure terms are respected</li>
-      </ul><h2>Related Resources</h2><ul>
-        <li><a href="/en/blog/ultimate-guide-getting-paid-faster">Ultimate Guide to Getting Paid Faster</a></li>
-        <li><a href="/en/blog/how-to-write-invoice-payment-terms">How to Write Invoice Payment Terms</a></li>
-        <li><a href="/en/blog/early-payment-discounts-do-they-work">Do Early Payment Discounts Work?</a></li>
-        <li><a href="/en/blog/cash-flow-forecasting-for-freelancers">Cash Flow Forecasting</a></li>
-      </ul><h2>Set Net 15 or Net 30 as your default</h2><p class="block-answer" data-answer="true">Pick the term once and let the software enforce it: Invoicemonk applies your default terms, calculates due dates and chases overdue invoices for you, while built-in payments shorten the gap between due date and deposit.  See plans and pricing or the best invoicing software for US businesses.</p><p>Pick the term once and let the software enforce it: <a href="/en/invoicing">Invoicemonk</a> applies your default terms, calculates due dates and chases overdue invoices for you, while <a href="/en/payments">built-in payments</a> shorten the gap between due date and deposit. See <a href="/en/pricing">plans and pricing</a> or the <a href="/en/compare/best-invoicing-software-usa">best invoicing software for US businesses</a>.</p>`,
-    faq: [
-      {
-        question: 'What is the difference between Net 30 and Net 15 payment terms?',
-        answer: 'Net 30 gives clients 30 days to pay from the invoice date, while Net 15 gives them only 15 days. Net 30 is the B2B industry standard and works well with larger organisations. Net 15 is increasingly popular with freelancers and small businesses because it improves cash flow by cutting the payment window in half.'
-      },
-      {
-        question: 'Can I change my payment terms for existing clients?',
-        answer: 'Yes, but do it professionally. Give clients advance notice (at least one billing cycle), explain the reason, and apply the change to new invoices going forward. Consider offering an early payment discount to soften the transition. Put the updated terms in writing.'
-      }
-    ],
-    entityMentions: [
-          {
-                "name": "International Payment",
-                "type": "Thing",
-                "sameAs": "https://en.wikipedia.org/wiki/Wire_transfer"
-          },
-          {
-                "name": "Foreign Exchange",
-                "type": "Thing",
-                "sameAs": "https://en.wikipedia.org/wiki/Foreign_exchange_market"
-          }
-    ],
-    relatedTools: [
-          {
-                "label": "Payment Fee Calculator",
-                "url": "/international-payment-fee-calculator",
-                "description": "Compare fees across PayPal, Wise, and bank transfers."
-          },
-          {
-                "label": "PayPal vs Wise Fees",
-                "url": "/paypal-vs-wise-fees",
-                "description": "Side-by-side fee comparison for international payments."
-          }
     ],
   },
   {

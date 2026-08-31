@@ -1102,6 +1102,16 @@
       "statusCode": 301
     },
     {
+      "source": "/blog/payment-terms-comparison-net-30-vs-net-15",
+      "destination": "/en/blog/how-to-write-invoice-payment-terms",
+      "statusCode": 301
+    },
+    {
+      "source": "/:lang(en|de|fr|pt|es)/blog/payment-terms-comparison-net-30-vs-net-15",
+      "destination": "/:lang/blog/how-to-write-invoice-payment-terms",
+      "statusCode": 301
+    },
+    {
       "source": "/blog/e-invoicing-india-gst-guide",
       "destination": "/en/blog/gst-irn-india-explained",
       "statusCode": 301
