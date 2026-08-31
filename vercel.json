@@ -1168,10 +1168,6 @@
     {
       "source": "/llms-full.txt",
       "destination": "/llms-full.txt"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/404.html"
     }
   ],
   "headers": [
