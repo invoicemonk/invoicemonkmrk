@@ -48,6 +48,11 @@ export interface BlogPost {
   // Country targeting — the country code this post is specifically about (e.g. 'ng', 'us')
   // Used to set correct canonical and noindex when served under a different country prefix
   targetCountry?: string;
+
+  // Explicitly keep this post out of the index and the sitemap (high-impression,
+  // near-zero-CTR pages that drag the property's measured CTR down).
+  noindex?: boolean;
+
 }
 
 export const blogPosts: BlogPost[] = [
@@ -2204,6 +2209,10 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'ato-invoice-requirements-australian-compliance',
+    // noindex: 25k impressions for 13 clicks (0.05% CTR) and Australia converts
+    // nothing (0 clicks from /au/). Kept live, removed from the index.
+    noindex: true,
+
     title: 'ATO Invoice Requirements 2026: Complete Australian GST Compliance Checklist',
     excerpt: 'The complete ATO tax invoice checklist for Australian businesses. ABN, GST, BAS reporting requirements — avoid penalties with this step-by-step compliance guide.',
     category: 'Tax and Compliance',

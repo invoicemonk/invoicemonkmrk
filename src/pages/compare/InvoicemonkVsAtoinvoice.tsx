@@ -52,7 +52,11 @@ export default function InvoicemonkVsAtoinvoice() {
 
   return (
     <Layout>
-      <SEOHead title={t('seo.title')} description={t('seo.description')} />
+      {/* noindex: ranks position 3 for the navigational query "atoinvoice com"
+          with 0.03% CTR (43k impressions, 12 clicks). Those impressions hold
+          the property's measured CTR down. Page stays live for direct traffic. */}
+      <SEOHead title={t('seo.title')} description={t('seo.description')} noindex />
+
       <FAQSchema items={faqs} />
       <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Compare', url: '/compare/best-invoicing-software' }, { name: 'vs AtoInvoice', url: '/compare/invoicemonk-vs-atoinvoice' }]} />
       <ComparisonReviewSchema

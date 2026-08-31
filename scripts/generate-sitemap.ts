@@ -151,7 +151,10 @@ const staticPages: PageEntry[] = [
   { path: '/compare/invoicemonk-vs-zoho-invoice', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-quickbooks', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-dext', priority: 0.7, changefreq: 'monthly' },
-  { path: '/compare/invoicemonk-vs-atoinvoice', priority: 0.7, changefreq: 'monthly' },
+  // NOTE: /compare/invoicemonk-vs-atoinvoice is noindexed (position 3 for the
+  // navigational query "atoinvoice com" with 0.03% CTR — 5% of all site
+  // impressions returning nothing). Excluded from the sitemap deliberately.
+
   { path: '/compare/invoicemonk-vs-stripe', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-vs-stripe-invoicing', priority: 0.7, changefreq: 'monthly' },
   { path: '/compare/invoicemonk-estimates-vs-quickbooks', priority: 0.7, changefreq: 'monthly' },
@@ -318,9 +321,16 @@ function main() {
     'e-invoicing-nigeria-firs-guide',
     'e-invoicing-kenya-etims',
   ]);
-  const filteredBlogSlugs = blogSlugs.filter(s => !LEGACY_REDIRECTED_BLOG_SLUGS.has(s));
+  // Deliberately noindexed posts (see `noindex: true` in the data files) — they
+  // must not be advertised in the sitemap.
+  const NOINDEX_BLOG_SLUGS = new Set([
+    'ato-invoice-requirements-australian-compliance',
+  ]);
+  const filteredBlogSlugs = blogSlugs.filter(
+    s => !LEGACY_REDIRECTED_BLOG_SLUGS.has(s) && !NOINDEX_BLOG_SLUGS.has(s),
+  );
   const dropped = blogSlugs.length - filteredBlogSlugs.length;
-  console.log(`📝 ${filteredBlogSlugs.length} blog posts (${dropped} legacy redirected, excluded)`);
+  console.log(`📝 ${filteredBlogSlugs.length} blog posts (${dropped} legacy redirected or noindexed, excluded)`);
   filteredBlogSlugs.forEach(s => allPages.push({
     path: `/blog/${s}`,
     priority: 0.7,

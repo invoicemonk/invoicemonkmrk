@@ -256,6 +256,7 @@ const BlogPost = () => {
   return (
     <Layout>
       <SEOHead
+        noindex={post.noindex}
         title={`${post.title} | Invoicemonk Blog`}
         description={post.excerpt}
         canonical={canonicalUrl}

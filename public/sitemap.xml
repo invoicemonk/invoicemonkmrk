@@ -336,11 +336,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://invoicemonk.com/en/compare/invoicemonk-vs-atoinvoice</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://invoicemonk.com/en/compare/invoicemonk-vs-stripe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -736,12 +731,6 @@
   <url>
     <loc>https://invoicemonk.com/en/blog/cra-invoice-standards-canadian-compliance</loc>
     <lastmod>2026-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://invoicemonk.com/en/blog/ato-invoice-requirements-australian-compliance</loc>
-    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
