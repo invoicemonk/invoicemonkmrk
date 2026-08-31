@@ -14,7 +14,7 @@ export const termsEN: LegalPageContent = {
       title: '1. Introduction',
       html: `
 <p class="mb-4">Welcome to Invoicemonk. These Terms of Service ("Terms") constitute a legally binding agreement between you ("User," "you," or "your") and Invoicemonk ("Company," "we," "us," or "our") governing your access to and use of the Invoicemonk platform, including our website, applications, and related services (collectively, the "Service").</p>
-<p class="mb-6">By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by these Terms and our <a href="__LANG__/privacy-policy" class="text-primary hover:underline">Privacy Policy</a>.</p>`,
+<p class="mb-6">By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by these Terms and our <a href="/en/privacy-policy" class="text-primary hover:underline">Privacy Policy</a>.</p>`,
     },
     {
       id: 'definitions',
@@ -77,7 +77,7 @@ export const termsEN: LegalPageContent = {
   <li><strong>Reporting:</strong> Generate financial reports for compliance</li>
 </ul>
 <h3 class="text-heading-sm font-medium text-foreground mt-6 mb-3">5.1 Service Tiers</h3>
-<p class="mb-4">We offer different service tiers with varying features and limitations. Details of current pricing and features are available on our <a href="__LANG__/pricing" class="text-primary hover:underline">Pricing page</a>.</p>
+<p class="mb-4">We offer different service tiers with varying features and limitations. Details of current pricing and features are available on our <a href="/en/pricing" class="text-primary hover:underline">Pricing page</a>.</p>
 <h3 class="text-heading-sm font-medium text-foreground mt-6 mb-3">5.2 Beta Features</h3>
 <p class="mb-6">We may offer beta or preview features that are still in development. Such features are provided "as-is" and may be modified or discontinued without notice.</p>`,
     },
@@ -135,7 +135,7 @@ export const termsEN: LegalPageContent = {
       html: `
 <p class="mb-4"><strong>Your Data, Your Rights:</strong> You own all User Data you create or upload to the Service. We do not claim any ownership of your invoices, client information, financial records, or other content.</p>
 <p class="mb-4"><strong>Data Export:</strong> You may export your data at any time in standard formats (CSV, PDF). We provide data export tools within the platform.</p>
-<p class="mb-6"><strong>Data on Termination:</strong> Upon account termination, you will have 30 days to export your data. After this period, we will delete your User Data in accordance with our <a href="__LANG__/privacy-policy" class="text-primary hover:underline">Privacy Policy</a>, except where retention is required by law.</p>`,
+<p class="mb-6"><strong>Data on Termination:</strong> Upon account termination, you will have 30 days to export your data. After this period, we will delete your User Data in accordance with our <a href="/en/privacy-policy" class="text-primary hover:underline">Privacy Policy</a>, except where retention is required by law.</p>`,
     },
     {
       id: 'third-party',

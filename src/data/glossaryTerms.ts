@@ -441,6 +441,24 @@ export const glossaryTerms: GlossaryTerm[] = [
     sameAs: 'https://zatca.gov.sa/en/E-Invoicing/Introduction/Pages/default.aspx'
   },
   {
+    term: 'EGS (E-Invoice Generation Solution)',
+    slug: 'egs',
+    definition: 'A logical invoicing system or device onboarded with ZATCA to generate, sign, and submit Saudi Arabia Phase 2 e-invoices.',
+    extendedDescription: 'Each EGS Solution Unit is onboarded separately through the Fatoora portal and receives its own Compliance and Production CSIDs. It must generate UBL 2.1 invoices, apply the required XAdES signature and TLV QR data, maintain the Previous Invoice Hash chain, and clear or report invoices according to their type.',
+    relatedTerms: ['csid', 'pih', 'xades', 'ubl-2-1'],
+    category: 'e-invoicing',
+    sameAs: 'https://zatca.gov.sa/en/E-Invoicing/Introduction/Pages/default.aspx'
+  },
+  {
+    term: 'PIH (Previous Invoice Hash)',
+    slug: 'pih',
+    definition: 'The hash of the preceding invoice stored in each ZATCA Phase 2 e-invoice to form a tamper-evident chronological chain.',
+    extendedDescription: 'An EGS calculates the current invoice hash and carries forward the prior invoice hash as the PIH. This lets ZATCA and auditors detect deleted, inserted, altered, or reordered invoices. Each Solution Unit maintains its own sequence, beginning with ZATCA’s prescribed initial hash value.',
+    relatedTerms: ['egs', 'csid', 'xades', 'ubl-2-1'],
+    category: 'e-invoicing',
+    sameAs: 'https://zatca.gov.sa/en/E-Invoicing/Introduction/Pages/default.aspx'
+  },
+  {
     term: 'IRN (Invoice Reference Number)',
     slug: 'irn',
     definition: 'A 64-character hash returned by a tax authority\'s Invoice Registration Portal that uniquely identifies a cleared structured invoice. Used by India GST (NIC IRP), Nigeria FIRS (MBS), and Ghana GRA.',

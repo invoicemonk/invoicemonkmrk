@@ -39,7 +39,7 @@ export const privacyEN: LegalPageContent = {
   <li><strong>Device Information:</strong> IP address, browser type, operating system, device identifiers</li>
   <li><strong>Usage Data:</strong> Pages visited, features used, time spent on the platform, click patterns</li>
   <li><strong>Log Data:</strong> Access times, error logs, referring URLs</li>
-  <li><strong>Cookies &amp; Similar Technologies:</strong> See our <a href="__LANG__/cookie-policy" class="text-primary hover:underline">Cookie Policy</a> for details</li>
+  <li><strong>Cookies &amp; Similar Technologies:</strong> See our <a href="/en/cookie-policy" class="text-primary hover:underline">Cookie Policy</a> for details</li>
 </ul>
 <h3 class="text-heading-sm font-medium text-foreground mt-6 mb-3">2.3 Information from Third Parties</h3>
 <ul class="list-disc pl-6 mb-6 space-y-2">
@@ -119,7 +119,7 @@ export const privacyEN: LegalPageContent = {
   <li><strong>Performance Cookies:</strong> Help us understand how you use our services</li>
   <li><strong>Functionality Cookies:</strong> Remember your preferences and settings</li>
 </ul>
-<p class="mb-6">For detailed information about the cookies we use and how to manage your preferences, please see our <a href="__LANG__/cookie-policy" class="text-primary hover:underline">Cookie Policy</a>.</p>`,
+<p class="mb-6">For detailed information about the cookies we use and how to manage your preferences, please see our <a href="/en/cookie-policy" class="text-primary hover:underline">Cookie Policy</a>.</p>`,
     },
     {
       id: 'data-sharing',

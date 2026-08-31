@@ -44,7 +44,12 @@ const LANG = 'en';
  * generated sitemap, so the prerenderer would otherwise skip them and the
  * SPA fallback would serve them the noindex 404 shell.
  */
-const EXTRA_STATIC_ROUTES = ['partner-program', 'tools'];
+const EXTRA_STATIC_ROUTES = [
+  'partner-program',
+  'tools',
+  // Deliberately noindex, but it is still a real route and must never 404.
+  'compare/invoicemonk-vs-atoinvoice',
+];
 
 export function getContentRoutes(): string[] {
   const routes = new Set<string>();

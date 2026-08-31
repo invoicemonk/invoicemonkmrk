@@ -9,7 +9,7 @@ interface Props {
 
 export function LegalPage({ content, langPrefix }: Props) {
   const processHtml = (html: string) =>
-    html.replace(/__LANG__/g, `/${langPrefix}`);
+    html.replace(/en/g, `/${langPrefix}`);
 
   return (
     <Layout>

@@ -84,7 +84,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Using proforma numbers in your main sequence</strong> — keep separate numbering to avoid gaps in your commercial invoice trail</li>
   <li><strong>Sending a proforma when customs needs a commercial invoice</strong> — this delays clearance and can result in goods being held</li>
   <li><strong>Not converting proformas to commercial invoices</strong> — if you deliver the goods, always issue the final commercial invoice for proper tax reporting</li>
-</ul><p>Create both proforma and commercial invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more on invoice types, see our <a href="/__LANG__/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>`
+</ul><p>Create both proforma and commercial invoices with <a href="/en/invoicing">Invoicemonk's invoice generator</a>. For more on invoice types, see our <a href="/en/blog/invoice-vs-receipt-difference-explained">invoice vs receipt guide</a>.</p>`
   },
 
 
@@ -165,7 +165,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Don't continue delivering work</strong> — stop after 14-30 days overdue with written notice</li>
   <li><strong>Don't accept verbal promises without a date</strong> — always get a specific payment date in writing</li>
   <li><strong>Don't ignore it</strong> — the longer you wait, the harder it gets to collect</li>
-</ul><p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For payment term strategies, read our <a href="/__LANG__/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>`
+</ul><p>Set clear payment terms on every invoice with <a href="/en/invoicing">Invoicemonk's invoice generator</a>. For payment term strategies, read our <a href="/en/blog/payment-terms-guide-net-30-explained">guide to Net 30 and payment terms</a>.</p>`
   },
 
   // P3-G-08 — How to Create a Proforma Invoice
@@ -247,7 +247,7 @@ export const cluster13Posts: BlogPost[] = [
   <li><strong>Keep records</strong> — even though proformas aren't tax documents, keep copies for reference</li>
   <li><strong>Convert to commercial invoice</strong> — when the sale proceeds, create a proper commercial invoice (ideally with a reference to the proforma number)</li>
   <li><strong>Use consistent formatting</strong> — your proforma should look as professional as your commercial invoices</li>
-</ol><p>Create professional proforma invoices in minutes with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/__LANG__/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>`
+</ol><p>Create professional proforma invoices in minutes with <a href="/en/invoicing">Invoicemonk's invoice generator</a>. For the difference between proforma and commercial invoices, read our <a href="/en/blog/proforma-invoice-vs-commercial-invoice">detailed comparison</a>.</p>`
   },
 ];
 

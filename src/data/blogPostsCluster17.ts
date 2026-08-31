@@ -964,7 +964,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     slug: 'france-factur-x-e-invoice-format-guide',
     title: `Factur-X E-Invoice Format: France's Hybrid PDF/XML Standard Explained`,
     excerpt: `Factur-X is France's mandatory hybrid e-invoice format combining PDF and XML. Learn the structure, validation rules, and how to create compliant invoices.`,
-    content: `<p>Factur-X is France's hybrid e-invoice format that embeds structured XML data inside a human-readable PDF/A-3 document, making it both machine-processable and visually accessible. Developed jointly by France (FNFE-MPE) and Germany (FeRD as ZUGFeRD), Factur-X is one of three accepted formats under the <a href="/__LANG__/blog/france-e-invoicing-ppf-pdp-guide">French e-invoicing mandate</a> alongside UBL 2.1 and CII. The DGFiP requires all e-invoices transmitted via PPF or PDP to use one of these formats from September 1, 2026.</p><h2>What Is the Factur-X Format and How Does It Work?</h2><p class="block-answer" data-answer="true">Factur-X is a Franco-German standard (also known as ZUGFeRD 2. 1 in Germany) that combines a PDF/A-3 visual document with an embedded XML file following the UN/CEFACT Cross-Industry Invoice (CII) schema.</p><p>Factur-X is a Franco-German standard (also known as ZUGFeRD 2.1 in Germany) that combines a PDF/A-3 visual document with an embedded XML file following the UN/CEFACT Cross-Industry Invoice (CII) schema. This dual-layer approach means:</p><ul>
+    content: `<p>Factur-X is France's hybrid e-invoice format that embeds structured XML data inside a human-readable PDF/A-3 document, making it both machine-processable and visually accessible. Developed jointly by France (FNFE-MPE) and Germany (FeRD as ZUGFeRD), Factur-X is one of three accepted formats under the <a href="/en/blog/france-e-invoicing-ppf-pdp-guide">French e-invoicing mandate</a> alongside UBL 2.1 and CII. The DGFiP requires all e-invoices transmitted via PPF or PDP to use one of these formats from September 1, 2026.</p><h2>What Is the Factur-X Format and How Does It Work?</h2><p class="block-answer" data-answer="true">Factur-X is a Franco-German standard (also known as ZUGFeRD 2. 1 in Germany) that combines a PDF/A-3 visual document with an embedded XML file following the UN/CEFACT Cross-Industry Invoice (CII) schema.</p><p>Factur-X is a Franco-German standard (also known as ZUGFeRD 2.1 in Germany) that combines a PDF/A-3 visual document with an embedded XML file following the UN/CEFACT Cross-Industry Invoice (CII) schema. This dual-layer approach means:</p><ul>
 <li><strong>Human layer:</strong> The PDF displays the invoice exactly as a traditional document—readable, printable, and familiar to accountants.</li>
 <li><strong>Machine layer:</strong> The embedded XML contains structured data fields (seller, buyer, line items, tax, totals) that software can extract and process automatically.</li>
 </ul><p>The XML attachment must be named <code>factur-x.xml</code> and conform to one of five Factur-X profiles, each defining different levels of data completeness.</p><h2>What Are the Five Factur-X Profiles?</h2><p class="block-answer" data-answer="true">Factur-X defines five profiles with increasing data granularity.</p><p>Factur-X defines five profiles with increasing data granularity. For PPF/PDP compliance, the <strong>EN16931</strong> profile is the minimum required level:</p><table><tr><th>Profile</th><th>Fields</th><th>Use Case</th></tr>
@@ -984,7 +984,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Generate the XML:</strong> Create a CII-compliant XML document with all mandatory EN16931 fields populated.</li>
 <li><strong>Create the PDF/A-3:</strong> Produce a PDF/A-3 document with the visual invoice layout.</li>
 <li><strong>Embed the XML:</strong> Attach the <code>factur-x.xml</code> file as an embedded attachment in the PDF/A-3, with the proper XMP metadata declaring the Factur-X profile and version.</li>
-</ol><p>Tools like <a href="/__LANG__/invoicing">Invoicemonk</a> handle this entire process automatically, generating compliant Factur-X invoices that can be transmitted through any PDP or the PPF directly.</p><h2>How Does Factur-X Compare to UBL 2.1 and CII?</h2><p class="block-answer" data-answer="true">France accepts three formats, each serving different needs:</p><p>France accepts three formats, each serving different needs:</p><table><tr><th>Format</th><th>Structure</th><th>Best For</th></tr>
+</ol><p>Tools like <a href="/en/invoicing">Invoicemonk</a> handle this entire process automatically, generating compliant Factur-X invoices that can be transmitted through any PDP or the PPF directly.</p><h2>How Does Factur-X Compare to UBL 2.1 and CII?</h2><p class="block-answer" data-answer="true">France accepts three formats, each serving different needs:</p><p>France accepts three formats, each serving different needs:</p><table><tr><th>Format</th><th>Structure</th><th>Best For</th></tr>
 <tr><td>Factur-X</td><td>PDF + embedded XML (CII)</td><td>Businesses wanting human-readable + machine-readable</td></tr>
 <tr><td>UBL 2.1</td><td>Pure XML (OASIS standard)</td><td>Large enterprises with ERP integration</td></tr>
 <tr><td>CII</td><td>Pure XML (UN/CEFACT)</td><td>Cross-border with CII-compatible partners</td></tr></table><p>Factur-X is often the easiest transition for small and medium businesses because the PDF component preserves the familiar invoice visual. For automated processing between large systems, pure UBL or CII may be preferred.</p><h2>What Validation Rules Apply to Factur-X Invoices?</h2><p class="block-answer" data-answer="true">Before transmission via PPF or PDP, Factur-X invoices are validated against:</p><p>Before transmission via PPF or PDP, Factur-X invoices are validated against:</p><ul>
@@ -992,7 +992,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Business rules:</strong> EN 16931 business rules (e.g., tax amounts must match line-item calculations).</li>
 <li><strong>French-specific rules:</strong> SIREN/SIRET format validation, French VAT number format (FR + 2 check digits + 9 SIREN digits).</li>
 <li><strong>PDF/A-3 compliance:</strong> The PDF must be a valid PDF/A-3 document with correct XMP metadata.</li>
-</ul><p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> ensures format compliance automatically.</p>`,
+</ul><p>Invoices failing validation will be rejected by the PPF or PDP, so it's critical to use compliant software. <a href="/en/invoicing">Invoicemonk's invoice generator</a> ensures format compliance automatically.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'factur-x', 'e-invoicing', 'compliance', 'xml'],
     author: defaultAuthor,
@@ -1028,18 +1028,18 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>B2C transactions:</strong> Sales to non-VAT-registered individuals must be reported.</li>
 <li><strong>International B2B:</strong> Cross-border sales and purchases must be reported.</li>
 <li><strong>Certain VAT-exempt transactions</strong> still require e-reporting.</li>
-</ul><p>The same €15-per-transaction penalty applies, with a separate €15,000 annual cap from the e-invoicing cap. Businesses with significant B2C or international activity face dual compliance obligations under the <a href="/__LANG__/blog/france-e-reporting-vs-e-invoicing">e-reporting framework</a>.</p><h2>What Are the Indirect Costs of Non-Compliance?</h2><p class="block-answer" data-answer="true">Beyond direct fines, non-compliant businesses face several indirect consequences:</p><p>Beyond direct fines, non-compliant businesses face several indirect consequences:</p><ul>
+</ul><p>The same €15-per-transaction penalty applies, with a separate €15,000 annual cap from the e-invoicing cap. Businesses with significant B2C or international activity face dual compliance obligations under the <a href="/en/blog/france-e-reporting-vs-e-invoicing">e-reporting framework</a>.</p><h2>What Are the Indirect Costs of Non-Compliance?</h2><p class="block-answer" data-answer="true">Beyond direct fines, non-compliant businesses face several indirect consequences:</p><p>Beyond direct fines, non-compliant businesses face several indirect consequences:</p><ul>
 <li><strong>VAT deduction risk:</strong> Invoices not properly transmitted through PPF/PDP may not be accepted for VAT deduction by the buyer.</li>
 <li><strong>Audit exposure:</strong> Non-compliance flags businesses for increased DGFiP audit scrutiny.</li>
 <li><strong>Trading partner friction:</strong> Compliant businesses may refuse to trade with non-compliant suppliers who cannot issue proper e-invoices.</li>
 <li><strong>Pre-filled VAT declaration errors:</strong> Missing e-invoice data means the DGFiP's pre-filled VAT declarations will be incomplete, requiring manual correction.</li>
 </ul><h2>How Can Businesses Avoid E-Invoicing Penalties?</h2><p class="block-answer" data-answer="true">To ensure compliance and avoid penalties, businesses should take these steps:</p><p>To ensure compliance and avoid penalties, businesses should take these steps:</p><ol>
-<li><strong>Choose your platform early:</strong> Decide between using the <a href="/__LANG__/blog/france-ppf-vs-pdp-e-invoicing-platforms">PPF (free) or a certified PDP</a> before the mandate takes effect.</li>
+<li><strong>Choose your platform early:</strong> Decide between using the <a href="/en/blog/france-ppf-vs-pdp-e-invoicing-platforms">PPF (free) or a certified PDP</a> before the mandate takes effect.</li>
 <li><strong>Register in the central directory:</strong> Ensure your SIREN/SIRET is registered with your chosen platform.</li>
-<li><strong>Update invoicing software:</strong> Verify your software supports Factur-X, UBL 2.1, or CII formats as required by the <a href="/__LANG__/blog/france-factur-x-e-invoice-format-guide">mandate's format requirements</a>.</li>
+<li><strong>Update invoicing software:</strong> Verify your software supports Factur-X, UBL 2.1, or CII formats as required by the <a href="/en/blog/france-factur-x-e-invoice-format-guide">mandate's format requirements</a>.</li>
 <li><strong>Test before the deadline:</strong> Use the PPF pilot program (launched January 2025) to test your e-invoicing workflow.</li>
 <li><strong>Train your team:</strong> Ensure accounting and finance staff understand the new processes.</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports all three French e-invoice formats and can connect to both PPF and certified PDPs, making compliance straightforward for businesses of all sizes.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> supports all three French e-invoice formats and can connect to both PPF and certified PDPs, making compliance straightforward for businesses of all sizes.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'penalties', 'e-invoicing', 'dgfip', 'compliance'],
     author: defaultAuthor,
@@ -1069,7 +1069,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     slug: 'france-e-invoicing-registration-small-business',
     title: `How to Register for France E-Invoicing as a Small Business (TPE/PME)`,
     excerpt: `French TPEs and PMEs must comply with e-invoicing by September 2027. Step-by-step guide to PPF registration, PDP selection, and SIREN/SIRET setup.`,
-    content: `<p>French small businesses (TPE and PME) must register for e-invoicing before their September 1, 2027 emission deadline, though all businesses must be able to receive e-invoices from September 1, 2026. Registration involves choosing between the free Portail Public de Facturation (PPF) or a certified Plateforme de Dématérialisation Partenaire (PDP), verifying your SIREN/SIRET in the central directory, and configuring your invoicing software to output compliant formats—<a href="/__LANG__/blog/france-factur-x-e-invoice-format-guide">Factur-X</a>, UBL 2.1, or CII.</p><h2>What Is the Timeline for Small Businesses?</h2><p class="block-answer" data-answer="true">The French e-invoicing mandate uses a two-phase approach for SMEs:</p><p>The French e-invoicing mandate uses a two-phase approach for SMEs:</p><table><tr><th>Date</th><th>Obligation</th><th>Who</th></tr>
+    content: `<p>French small businesses (TPE and PME) must register for e-invoicing before their September 1, 2027 emission deadline, though all businesses must be able to receive e-invoices from September 1, 2026. Registration involves choosing between the free Portail Public de Facturation (PPF) or a certified Plateforme de Dématérialisation Partenaire (PDP), verifying your SIREN/SIRET in the central directory, and configuring your invoicing software to output compliant formats—<a href="/en/blog/france-factur-x-e-invoice-format-guide">Factur-X</a>, UBL 2.1, or CII.</p><h2>What Is the Timeline for Small Businesses?</h2><p class="block-answer" data-answer="true">The French e-invoicing mandate uses a two-phase approach for SMEs:</p><p>The French e-invoicing mandate uses a two-phase approach for SMEs:</p><table><tr><th>Date</th><th>Obligation</th><th>Who</th></tr>
 <tr><td>September 1, 2026</td><td>Must be able to <strong>receive</strong> e-invoices</td><td>All businesses including TPE/PME</td></tr>
 <tr><td>September 1, 2027</td><td>Must <strong>emit</strong> e-invoices and submit e-reporting</td><td>PME (mid-size) and TPE (micro)</td></tr></table><p>This means even the smallest auto-entrepreneur with turnover above the VAT threshold (€36,800 for services, €91,900 for goods) will need to issue compliant e-invoices by September 2027.</p><h2>How Do You Register on the PPF (Free Option)?</h2><p class="block-answer" data-answer="true">The PPF offers free basic e-invoicing functionality suitable for many small businesses:</p><p>The PPF offers free basic e-invoicing functionality suitable for many small businesses:</p><ol>
 <li><strong>Access the PPF portal:</strong> Visit the government portal at <a href="https://www.impots.gouv.fr">impots.gouv.fr</a> and navigate to the e-invoicing section.</li>
@@ -1086,7 +1086,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Auto-entrepreneurs:</strong> Verify your SIRET is linked to your VAT number (numéro de TVA intracommunautaire) if you've crossed the VAT threshold.</li>
 <li><strong>Multiple establishments:</strong> Each SIRET (establishment) can be registered independently in the central directory.</li>
 <li><strong>Recent registrations:</strong> New businesses should allow 2-4 weeks for SIRET propagation to the PPF directory after INSEE registration.</li>
-</ul><h2>What Software Do Small Businesses Need?</h2><p class="block-answer" data-answer="true">At minimum, your invoicing software must generate invoices in one of the three accepted formats (Factur-X, UBL 2.</p><p>At minimum, your invoicing software must generate invoices in one of the three accepted formats (Factur-X, UBL 2.1, or CII) and connect to your chosen platform. <a href="/__LANG__/invoicing">Invoicemonk</a> supports all three formats and offers direct PPF/PDP connectivity, making it an ideal solution for French small businesses preparing for the mandate. The <a href="/__LANG__/invoicing">free invoice generator</a> lets you test compliant invoice creation immediately.</p>`,
+</ul><h2>What Software Do Small Businesses Need?</h2><p class="block-answer" data-answer="true">At minimum, your invoicing software must generate invoices in one of the three accepted formats (Factur-X, UBL 2.</p><p>At minimum, your invoicing software must generate invoices in one of the three accepted formats (Factur-X, UBL 2.1, or CII) and connect to your chosen platform. <a href="/en/invoicing">Invoicemonk</a> supports all three formats and offers direct PPF/PDP connectivity, making it an ideal solution for French small businesses preparing for the mandate. The <a href="/en/invoicing">free invoice generator</a> lets you test compliant invoice creation immediately.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'small-business', 'tpe', 'pme', 'e-invoicing', 'registration'],
     author: defaultAuthor,
@@ -1136,7 +1136,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li>Description of goods/services</li>
 <li>Tax breakdown with applicable French VAT rates (20%, 10%, 5.5%, 2.1%)</li>
 <li>Total amounts (HT, TVA, TTC)</li>
-</ul><p>Using <a href="/__LANG__/invoicing">Invoicemonk</a> ensures invoices meet French formatting requirements regardless of where your business is established, with automatic VAT calculation and multilingual invoice support for cross-border transactions.</p>`,
+</ul><p>Using <a href="/en/invoicing">Invoicemonk</a> ensures invoices meet French formatting requirements regardless of where your business is established, with automatic VAT calculation and multilingual invoice support for cross-border transactions.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['france', 'foreign-companies', 'e-invoicing', 'vat', 'cross-border'],
     author: defaultAuthor,
@@ -1199,11 +1199,11 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Proportional fines:</strong> For repeated or willful non-compliance, fines can be proportional to the VAT amount at stake.</li>
 <li><strong>Tax deduction benefit:</strong> Businesses investing in e-invoicing implementation can claim a 120% tax deduction on related costs.</li>
 </ul><h2>How to Get Started With PEPPOL E-Invoicing in Belgium</h2><p class="block-answer" data-answer="true">To comply with the mandate, Belgian businesses need to:</p><p>To comply with the mandate, Belgian businesses need to:</p><ol>
-<li><strong>Choose a PEPPOL Access Point:</strong> Select a <a href="/__LANG__/blog/belgium-peppol-access-point-guide">certified Access Point provider</a> (see our guide).</li>
+<li><strong>Choose a PEPPOL Access Point:</strong> Select a <a href="/en/blog/belgium-peppol-access-point-guide">certified Access Point provider</a> (see our guide).</li>
 <li><strong>Register your business:</strong> Ensure your enterprise number (KBO/BCE) and VAT number (BE0xxx.xxx.xxx) are registered in the PEPPOL directory.</li>
 <li><strong>Update your invoicing software:</strong> Use software that generates PEPPOL BIS Billing 3.0 format and connects to your Access Point.</li>
 <li><strong>Test with trading partners:</strong> Exchange test invoices before the mandate to verify the workflow.</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports PEPPOL BIS Billing 3.0 natively and can connect to Belgian Access Points, providing a turnkey solution for B2B e-invoicing compliance.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> supports PEPPOL BIS Billing 3.0 natively and can connect to Belgian Access Points, providing a turnkey solution for B2B e-invoicing compliance.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['belgium', 'peppol', 'e-invoicing', 'compliance', 'spf-finances'],
     author: defaultAuthor,
@@ -1259,7 +1259,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>EN 16931 business rules:</strong> ~170 rules verifying data consistency (e.g., tax calculations, mandatory fields).</li>
 <li><strong>PEPPOL business rules:</strong> Additional network-specific rules (e.g., valid participant identifiers, document type compatibility).</li>
 <li><strong>Belgian-specific rules:</strong> KBO/BCE format validation, Belgian VAT number check digit verification.</li>
-</ul><p>Invoices failing validation are rejected by the Access Point and not transmitted. <a href="/__LANG__/invoicing">Invoicemonk</a> performs all validation checks before transmission, ensuring invoices pass on the first attempt.</p>`,
+</ul><p>Invoices failing validation are rejected by the Access Point and not transmitted. <a href="/en/invoicing">Invoicemonk</a> performs all validation checks before transmission, ensuring invoices pass on the first attempt.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['belgium', 'peppol', 'technical', 'bis-billing', 'ubl', 'access-point'],
     author: defaultAuthor,
@@ -1309,7 +1309,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <tr><td>Platform</td><td>Mercurius (PEPPOL-connected)</td><td>Any PEPPOL Access Point</td></tr>
 <tr><td>Format</td><td>PEPPOL BIS Billing 3.0</td><td>PEPPOL BIS Billing 3.0</td></tr>
 <tr><td>Free option</td><td>Mercurius web portal</td><td>Depends on Access Point</td></tr>
-<tr><td>Recipient lookup</td><td>PEPPOL directory + contract reference</td><td>PEPPOL directory (SMP)</td></tr></table><p>The key advantage for businesses already using PEPPOL for B2G: the same infrastructure, format, and Access Point connection works for the B2B mandate. <a href="/__LANG__/invoicing">Invoicemonk</a> handles both B2G and B2B e-invoicing through a single PEPPOL connection.</p>`,
+<tr><td>Recipient lookup</td><td>PEPPOL directory + contract reference</td><td>PEPPOL directory (SMP)</td></tr></table><p>The key advantage for businesses already using PEPPOL for B2G: the same infrastructure, format, and Access Point connection works for the B2B mandate. <a href="/en/invoicing">Invoicemonk</a> handles both B2G and B2B e-invoicing through a single PEPPOL connection.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['belgium', 'b2g', 'mercurius', 'peppol', 'government'],
     author: defaultAuthor,
@@ -1356,7 +1356,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li>Software licensing or upgrade costs</li>
 <li>Integration and consulting fees</li>
 <li>Staff training costs related to e-invoicing</li>
-</ul><p>This means a €1,000 investment in e-invoicing setup yields a €1,200 tax deduction—effectively a government subsidy for compliance. Documentation requirements include invoices from service providers and proof of e-invoicing capability.</p><p>Using affordable solutions like <a href="/__LANG__/invoicing">Invoicemonk</a> with built-in PEPPOL support minimizes compliance costs while maximizing the 120% deduction benefit.</p>`,
+</ul><p>This means a €1,000 investment in e-invoicing setup yields a €1,200 tax deduction—effectively a government subsidy for compliance. Documentation requirements include invoices from service providers and proof of e-invoicing capability.</p><p>Using affordable solutions like <a href="/en/invoicing">Invoicemonk</a> with built-in PEPPOL support minimizes compliance costs while maximizing the 120% deduction benefit.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['belgium', 'penalties', 'vat', 'peppol', 'compliance'],
     author: defaultAuthor,
@@ -1407,7 +1407,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>ERP plugins:</strong> Pre-built connectors for popular systems (SAP, Exact Online, Octopus, Yuki).</li>
 <li><strong>Web portal:</strong> Manual upload/download of invoice files—suitable for low-volume users.</li>
 <li><strong>Email integration:</strong> Some APs accept invoices via email and convert them to PEPPOL format.</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> includes built-in PEPPOL connectivity, eliminating the need for a separate Access Point subscription for many businesses. This integrated approach simplifies compliance and reduces total cost of ownership.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> includes built-in PEPPOL connectivity, eliminating the need for a separate Access Point subscription for many businesses. This integrated approach simplifies compliance and reduces total cost of ownership.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['belgium', 'peppol', 'access-point', 'integration', 'costs'],
     author: defaultAuthor,
@@ -1456,7 +1456,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <tr><td>Annual AP subscription</td><td>€600</td><td>€720</td><td>€180</td></tr>
 <tr><td>Software upgrade</td><td>€2,000</td><td>€2,400</td><td>€600</td></tr>
 <tr><td>Integration consulting</td><td>€5,000</td><td>€6,000</td><td>€1,500</td></tr>
-<tr><td><strong>Total example</strong></td><td><strong>€7,600</strong></td><td><strong>€9,120</strong></td><td><strong>€2,280</strong></td></tr></table><p>The extra 20% deduction provides an additional €380 in tax savings in this example, on top of the normal deduction benefit.</p><h2>Is the 120% Deduction Available to Self-Employed Workers?</h2><p class="block-answer" data-answer="true">Yes.</p><p>Yes. Belgian self-employed workers (<em>zelfstandigen/indépendants</em>) can claim the 120% deduction on their personal income tax return. The same qualifying expenses apply—software, Access Point fees, training, and integration costs. Given that self-employed workers often have simpler setups, their costs are typically lower, making affordable solutions like <a href="/__LANG__/invoicing">Invoicemonk</a> with built-in PEPPOL support especially cost-effective.</p>`,
+<tr><td><strong>Total example</strong></td><td><strong>€7,600</strong></td><td><strong>€9,120</strong></td><td><strong>€2,280</strong></td></tr></table><p>The extra 20% deduction provides an additional €380 in tax savings in this example, on top of the normal deduction benefit.</p><h2>Is the 120% Deduction Available to Self-Employed Workers?</h2><p class="block-answer" data-answer="true">Yes.</p><p>Yes. Belgian self-employed workers (<em>zelfstandigen/indépendants</em>) can claim the 120% deduction on their personal income tax return. The same qualifying expenses apply—software, Access Point fees, training, and integration costs. Given that self-employed workers often have simpler setups, their costs are typically lower, making affordable solutions like <a href="/en/invoicing">Invoicemonk</a> with built-in PEPPOL support especially cost-effective.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['belgium', 'tax-deduction', 'e-invoicing', 'incentive', 'compliance'],
     author: defaultAuthor,
@@ -1486,7 +1486,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
     slug: 'belgium-e-invoicing-small-business',
     title: `Belgium E-Invoicing for Small Businesses & Self-Employed: Practical PEPPOL Guide`,
     excerpt: `Belgian small businesses and sole traders must comply with PEPPOL e-invoicing since January 2026. Practical guide with costs, steps, and affordable solutions.`,
-    content: `<p>Belgian small businesses and self-employed workers have been subject to the PEPPOL B2B e-invoicing mandate since January 1, 2026, with no exemptions based on size. Whether you're a sole trader invoicing €5,000/month or a small BVBA with 10 employees, you need to send and receive structured PEPPOL invoices for all domestic B2B transactions. The good news: implementation costs are modest (€10–€60/month), and Belgium's 120% <a href="/__LANG__/blog/belgium-e-invoicing-tax-deduction">tax deduction for e-invoicing costs</a> effectively subsidizes the transition.</p><h2>What Do Small Businesses Need to Do?</h2><p class="block-answer" data-answer="true">The compliance checklist for Belgian SMEs and self-employed:</p><p>The compliance checklist for Belgian SMEs and self-employed:</p><ol>
+    content: `<p>Belgian small businesses and self-employed workers have been subject to the PEPPOL B2B e-invoicing mandate since January 1, 2026, with no exemptions based on size. Whether you're a sole trader invoicing €5,000/month or a small BVBA with 10 employees, you need to send and receive structured PEPPOL invoices for all domestic B2B transactions. The good news: implementation costs are modest (€10–€60/month), and Belgium's 120% <a href="/en/blog/belgium-e-invoicing-tax-deduction">tax deduction for e-invoicing costs</a> effectively subsidizes the transition.</p><h2>What Do Small Businesses Need to Do?</h2><p class="block-answer" data-answer="true">The compliance checklist for Belgian SMEs and self-employed:</p><p>The compliance checklist for Belgian SMEs and self-employed:</p><ol>
 <li><strong>Get a PEPPOL-capable invoicing tool:</strong> Your software must generate PEPPOL BIS Billing 3.0 invoices and connect to an Access Point.</li>
 <li><strong>Register in the PEPPOL directory:</strong> Your KBO/BCE number and VAT number must be registered so trading partners can find you.</li>
 <li><strong>Inform your clients and suppliers:</strong> Share your PEPPOL participant ID with regular trading partners.</li>
@@ -1495,11 +1495,11 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <tr><td>Invoicing software (PEPPOL-ready)</td><td>€0–€200</td><td>€10–€50</td></tr>
 <tr><td>Access Point subscription</td><td>€0</td><td>€0–€30 (often included in software)</td></tr>
 <tr><td>Integration/setup</td><td>€0–€500</td><td>—</td></tr>
-<tr><td><strong>Total typical</strong></td><td><strong>€0–€700</strong></td><td><strong>€10–€60</strong></td></tr></table><p>With the 120% tax deduction, a €600/year software cost effectively becomes €450/year after tax savings (at 25% corporate rate).</p><h2>What About B2C Invoices?</h2><p class="block-answer" data-answer="true">The PEPPOL mandate only covers B2B (business-to-business) transactions.  If you sell to private consumers (B2C), those invoices are not required to go through PEPPOL.</p><p>The PEPPOL mandate only covers B2B (business-to-business) transactions. If you sell to private consumers (B2C), those invoices are not required to go through PEPPOL. You can continue using PDF, paper, or any other format for consumer invoices. However, if you sell to both businesses and consumers, you'll need a system that handles both flows.</p><h2>What Happens If I Don't Comply?</h2><p class="block-answer" data-answer="true">The practical consequences for small businesses go beyond formal penalties:</p><p>The practical consequences for small businesses go beyond formal <a href="/__LANG__/blog/belgium-e-invoicing-penalties-vat-compliance">penalties</a>:</p><ul>
+<tr><td><strong>Total typical</strong></td><td><strong>€0–€700</strong></td><td><strong>€10–€60</strong></td></tr></table><p>With the 120% tax deduction, a €600/year software cost effectively becomes €450/year after tax savings (at 25% corporate rate).</p><h2>What About B2C Invoices?</h2><p class="block-answer" data-answer="true">The PEPPOL mandate only covers B2B (business-to-business) transactions.  If you sell to private consumers (B2C), those invoices are not required to go through PEPPOL.</p><p>The PEPPOL mandate only covers B2B (business-to-business) transactions. If you sell to private consumers (B2C), those invoices are not required to go through PEPPOL. You can continue using PDF, paper, or any other format for consumer invoices. However, if you sell to both businesses and consumers, you'll need a system that handles both flows.</p><h2>What Happens If I Don't Comply?</h2><p class="block-answer" data-answer="true">The practical consequences for small businesses go beyond formal penalties:</p><p>The practical consequences for small businesses go beyond formal <a href="/en/blog/belgium-e-invoicing-penalties-vat-compliance">penalties</a>:</p><ul>
 <li><strong>Clients may refuse non-PEPPOL invoices:</strong> Because non-compliant invoices risk VAT deduction refusal, your B2B clients have a strong incentive to insist on PEPPOL invoices.</li>
 <li><strong>Payment delays:</strong> Many businesses are automating their AP (accounts payable) workflows around PEPPOL—non-PEPPOL invoices may be deprioritized or delayed.</li>
 <li><strong>Competitive disadvantage:</strong> As the market shifts to PEPPOL, businesses still using manual processes lose efficiency compared to competitors.</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> offers an affordable all-in-one solution with built-in PEPPOL support, professional invoice templates, and expense tracking—perfect for Belgian small businesses and self-employed workers looking for hassle-free compliance.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> offers an affordable all-in-one solution with built-in PEPPOL support, professional invoice templates, and expense tracking—perfect for Belgian small businesses and self-employed workers looking for hassle-free compliance.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['belgium', 'small-business', 'self-employed', 'peppol', 'e-invoicing'],
     author: defaultAuthor,
@@ -1561,7 +1561,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Choose a transmission channel:</strong> PEC, SDICoop (web service), SDIFTP (file transfer), or web portal</li>
 <li><strong>Configure your invoicing software</strong> to generate FatturaPA XML 1.2.2 format</li>
 <li><strong>Test with SDI's staging environment</strong> before going live</li>
-</ol><h2>Which Software Supports Italian SDI E-Invoicing?</h2><p class="block-answer" data-answer="true">Invoicemonk supports Italian e-invoicing with automated FatturaPA XML generation, SDI transmission, and real-time delivery status tracking.</p><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports Italian e-invoicing with automated FatturaPA XML generation, SDI transmission, and real-time delivery status tracking. Features include multi-currency support for cross-border invoicing, automated VAT calculation at Italy's four rates (22%, 10%, 5%, 4%), and built-in compliance checks to prevent rejection by the SDI system.</p>`,
+</ol><h2>Which Software Supports Italian SDI E-Invoicing?</h2><p class="block-answer" data-answer="true">Invoicemonk supports Italian e-invoicing with automated FatturaPA XML generation, SDI transmission, and real-time delivery status tracking.</p><p><a href="/en/invoicing">Invoicemonk</a> supports Italian e-invoicing with automated FatturaPA XML generation, SDI transmission, and real-time delivery status tracking. Features include multi-currency support for cross-border invoicing, automated VAT calculation at Italy's four rates (22%, 10%, 5%, 4%), and built-in compliance checks to prevent rejection by the SDI system.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['italy', 'sdi', 'fatturapa', 'e-invoicing', 'vat-compliance'],
     author: defaultAuthor,
@@ -1611,7 +1611,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 </ul><p>The signing certificate must be issued by a qualified trust service provider recognized by AgID (Agenzia per l'Italia Digitale). Certificates typically cost €30–€80/year and are available from providers like Aruba, InfoCert, and Namirial.</p><h2>What Is the Codice Destinatario System?</h2><p class="block-answer" data-answer="true">The Codice Destinatario is a 7-character alphanumeric code that identifies the recipient's preferred delivery channel on SDI.  Businesses register their code through the Agenzia delle Entrate portal.</p><p>The Codice Destinatario is a 7-character alphanumeric code that identifies the recipient's preferred delivery channel on SDI. Businesses register their code through the Agenzia delle Entrate portal. If the recipient hasn't registered a code, the sender can use:</p><ul>
 <li><strong>0000000:</strong> Fallback code — SDI delivers to the recipient's registered PEC email address</li>
 <li><strong>XXXXXXX:</strong> Used for B2C invoices to consumers without a VAT number</li>
-</ul><h2>How Does Invoicemonk Handle FatturaPA Compliance?</h2><p class="block-answer" data-answer="true">Invoicemonk automatically generates valid FatturaPA XML 1. 2.</p><p><a href="/__LANG__/invoicing">Invoicemonk</a> automatically generates valid FatturaPA XML 1.2.2 files with built-in validation against all SDI rules, preventing common rejection errors before submission. The platform handles digital signature application, Codice Destinatario lookup, and provides real-time SDI delivery status tracking.</p>`,
+</ul><h2>How Does Invoicemonk Handle FatturaPA Compliance?</h2><p class="block-answer" data-answer="true">Invoicemonk automatically generates valid FatturaPA XML 1. 2.</p><p><a href="/en/invoicing">Invoicemonk</a> automatically generates valid FatturaPA XML 1.2.2 files with built-in validation against all SDI rules, preventing common rejection errors before submission. The platform handles digital signature application, Codice Destinatario lookup, and provides real-time SDI delivery status tracking.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['italy', 'fatturapa', 'xml', 'sdi', 'technical-guide'],
     author: defaultAuthor,
@@ -1652,7 +1652,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Missing cross-border e-invoice:</strong> €250–€2,000 per omitted transaction</li>
 <li><strong>Late submission:</strong> Same penalty range, reducible via ravvedimento operoso</li>
 <li><strong>Incorrect document type code:</strong> May trigger VAT audit and additional penalties</li>
-</ul><h2>How Can Invoicemonk Help With Cross-Border SDI Compliance?</h2><p class="block-answer" data-answer="true">Invoicemonk automatically determines the correct FatturaPA document type code for cross-border transactions, generates self-billing documents for inbound EU purchases, and tracks submission deadlines to avoid penalties.  Multi-currency invoicing with real-time exchange rates simplifies international billing.</p><p><a href="/__LANG__/invoicing">Invoicemonk</a> automatically determines the correct FatturaPA document type code for cross-border transactions, generates self-billing documents for inbound EU purchases, and tracks submission deadlines to avoid penalties. Multi-currency invoicing with real-time exchange rates simplifies international billing.</p>`,
+</ul><h2>How Can Invoicemonk Help With Cross-Border SDI Compliance?</h2><p class="block-answer" data-answer="true">Invoicemonk automatically determines the correct FatturaPA document type code for cross-border transactions, generates self-billing documents for inbound EU purchases, and tracks submission deadlines to avoid penalties.  Multi-currency invoicing with real-time exchange rates simplifies international billing.</p><p><a href="/en/invoicing">Invoicemonk</a> automatically determines the correct FatturaPA document type code for cross-border transactions, generates self-billing documents for inbound EU purchases, and tracks submission deadlines to avoid penalties. Multi-currency invoicing with real-time exchange rates simplifies international billing.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['italy', 'sdi', 'cross-border', 'esterometro', 'vat'],
     author: defaultAuthor,
@@ -1710,7 +1710,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Monitor SDI delivery receipts</strong> — a rejected invoice is not considered issued until re-submitted and accepted</li>
 <li><strong>Set up deadline alerts</strong> for the 12-day and 15th-of-month windows</li>
 <li><strong>Use the ravvedimento operoso promptly</strong> when errors are discovered</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> provides built-in SDI validation, automated deadline tracking, and instant alerts for rejected invoices — helping Italian businesses avoid costly penalties through proactive compliance management.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> provides built-in SDI validation, automated deadline tracking, and instant alerts for rejected invoices — helping Italian businesses avoid costly penalties through proactive compliance management.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['italy', 'penalties', 'sdi', 'ravvedimento-operoso', 'compliance'],
     author: defaultAuthor,
@@ -1762,7 +1762,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Configure invoicing software</strong> with Natura code N2.2 as default and the forfettario legal statement</li>
 <li><strong>Set up bollo tracking</strong> for invoices exceeding €77.47</li>
 <li><strong>Enable SDI transmission</strong> — most affordable cloud platforms handle this automatically</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports regime forfettario with pre-configured Natura N2.2 codes, automatic bollo calculation, the required legal statement, and affordable pricing designed for small businesses and freelancers who need SDI compliance without complexity.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> supports regime forfettario with pre-configured Natura N2.2 codes, automatic bollo calculation, the required legal statement, and affordable pricing designed for small businesses and freelancers who need SDI compliance without complexity.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['italy', 'regime-forfettario', 'sdi', 'flat-rate', 'small-business'],
     author: defaultAuthor,
@@ -1817,7 +1817,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Non-issuance:</strong> 90–180% of related VAT (minimum €500)</li>
 <li><strong>Late or incorrect:</strong> €250–€2,000 per invoice</li>
 <li><strong>Ravvedimento operoso:</strong> Available for voluntary correction with same reduction schedule</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> simplifies SDI compliance for foreign companies with multi-language support, automated FatturaPA generation with correct country codes, and cross-border invoicing features including multi-currency support and real-time exchange rates.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> simplifies SDI compliance for foreign companies with multi-language support, automated FatturaPA generation with correct country codes, and cross-border invoicing features including multi-currency support and real-time exchange rates.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['italy', 'sdi', 'foreign-companies', 'fiscal-representative', 'cross-border'],
     author: defaultAuthor,
@@ -1880,7 +1880,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>CBS (Contribuição sobre Bens e Serviços):</strong> Replaces PIS, COFINS, and IPI (federal)</li>
 <li><strong>E-invoicing impact:</strong> NF-e and NFS-e XML schemas will need to accommodate both old and new tax fields during the transition</li>
 <li><strong>2026 start:</strong> CBS begins at a test rate of 0.9% alongside existing taxes</li>
-</ul><h2>Which Software Supports Brazilian E-Invoicing?</h2><p class="block-answer" data-answer="true">Invoicemonk supports Brazilian e-invoicing with NF-e XML generation in layout 4. 00 format, digital certificate integration, real-time SEFAZ authorization, and automated DANFE PDF generation.</p><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports Brazilian e-invoicing with NF-e XML generation in layout 4.00 format, digital certificate integration, real-time SEFAZ authorization, and automated DANFE PDF generation. Multi-currency features help exporters manage international transactions alongside domestic BRL invoicing.</p>`,
+</ul><h2>Which Software Supports Brazilian E-Invoicing?</h2><p class="block-answer" data-answer="true">Invoicemonk supports Brazilian e-invoicing with NF-e XML generation in layout 4. 00 format, digital certificate integration, real-time SEFAZ authorization, and automated DANFE PDF generation.</p><p><a href="/en/invoicing">Invoicemonk</a> supports Brazilian e-invoicing with NF-e XML generation in layout 4.00 format, digital certificate integration, real-time SEFAZ authorization, and automated DANFE PDF generation. Multi-currency features help exporters manage international transactions alongside domestic BRL invoicing.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'nf-e', 'nfs-e', 'sped', 'e-invoicing', 'tax-reform'],
     author: defaultAuthor,
@@ -1939,7 +1939,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <tr><td>598</td><td>NCM code invalid</td><td>Use valid NCM (Nomenclatura Comum do Mercosul) product code</td></tr>
 <tr><td>694</td><td>CFOP inconsistent with operation</td><td>Match CFOP to state codes (5xxx/6xxx/7xxx)</td></tr>
 <tr><td>778</td><td>ICMS calculation error</td><td>Verify base × rate matches the stated tax amount</td></tr>
-</table><p><a href="/__LANG__/invoicing">Invoicemonk</a> automates Brazil's NF-e compliance with built-in CFOP code selection, ICMS calculation engine, NCM validation, and real-time SEFAZ submission — eliminating common rejection errors.</p>`,
+</table><p><a href="/en/invoicing">Invoicemonk</a> automates Brazil's NF-e compliance with built-in CFOP code selection, ICMS calculation engine, NCM validation, and real-time SEFAZ submission — eliminating common rejection errors.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'nf-e', 'xml', 'layout-4.00', 'technical-guide'],
     author: defaultAuthor,
@@ -1988,7 +1988,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Where is ISS due?</strong> Generally in the municipality where the service provider is established, with exceptions for construction, cleaning, and security services (due where performed)</li>
 <li><strong>Withholding:</strong> Some municipalities require the buyer to withhold ISS (ISS retido) when the provider is from another city</li>
 <li><strong>Simples Nacional:</strong> ISS is included in the unified tax rate for small businesses</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports the NFS-e Nacional platform with ABRASF 2.04 XML generation, automated ISS calculation by municipality, and a single integration point replacing the need for multiple municipal system connections.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> supports the NFS-e Nacional platform with ABRASF 2.04 XML generation, automated ISS calculation by municipality, and a single integration point replacing the need for multiple municipal system connections.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'nfs-e', 'nfs-e-nacional', 'services-invoice', 'ISS'],
     author: defaultAuthor,
@@ -2039,7 +2039,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Configure POS software</strong> or cloud invoicing platform with NFC-e support</li>
 <li><strong>Set up contingency mode</strong> for offline operation during internet outages</li>
 <li><strong>Train staff</strong> on QR code issuance and consumer CPF collection (optional but incentivized)</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports NFC-e issuance with QR code generation, real-time SEFAZ authorization, offline contingency mode, and automated state-specific rule compliance across all 27 Brazilian states.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> supports NFC-e issuance with QR code generation, real-time SEFAZ authorization, offline contingency mode, and automated state-specific rule compliance across all 27 Brazilian states.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'nfc-e', 'consumer-invoice', 'retail', 'point-of-sale'],
     author: defaultAuthor,
@@ -2097,7 +2097,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Business disruption:</strong> Goods cannot be shipped (NF-e authorization required), retail sales cannot be receipted (NFC-e required)</li>
 <li><strong>Renewal window:</strong> Start the renewal process at least 30 days before expiration</li>
 <li><strong>No grace period:</strong> There is no grace period after expiration</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports both A1 and A3 digital certificates with certificate expiration alerts, automated SEFAZ authentication, and seamless certificate renewal integration to prevent invoice issuance disruptions.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> supports both A1 and A3 digital certificates with certificate expiration alerts, automated SEFAZ authentication, and seamless certificate renewal integration to prevent invoice issuance disruptions.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'digital-certificate', 'e-CNPJ', 'ICP-Brasil', 'compliance'],
     author: defaultAuthor,
@@ -2154,7 +2154,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Verify software readiness:</strong> Confirm your invoicing platform has a transition roadmap</li>
 <li><strong>Plan for dual calculation:</strong> Ensure systems can compute both old and new taxes from 2026</li>
 <li><strong>Monitor Receita Federal updates:</strong> Technical specifications for new XML fields are being published in phases</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> is preparing for Brazil's tax reform with progressive NF-e XML schema updates, dual tax calculation support during the transition period, and automated compliance updates as new regulations are published by the Receita Federal.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> is preparing for Brazil's tax reform with progressive NF-e XML schema updates, dual tax calculation support during the transition period, and automated compliance updates as new regulations are published by the Receita Federal.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'tax-reform', 'IBS', 'CBS', 'ICMS', 'transition'],
     author: defaultAuthor,
@@ -2211,7 +2211,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Monitor certificate expiration:</strong> Set alerts 60, 30, and 7 days before expiration</li>
 <li><strong>Validate before submission:</strong> Pre-validate XML against SEFAZ rules to prevent rejection</li>
 <li><strong>Archive all XML files:</strong> Keep NF-e XMLs for 5 years as required by law</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> minimizes penalty risk with automated SEFAZ validation, tax calculation engines for all 27 states, digital certificate expiration alerts, and compliant XML archiving — keeping your business compliant across Brazil's complex fiscal landscape.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> minimizes penalty risk with automated SEFAZ validation, tax calculation engines for all 27 states, digital certificate expiration alerts, and compliant XML archiving — keeping your business compliant across Brazil's complex fiscal landscape.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'penalties', 'SEFAZ', 'NF-e', 'compliance', 'fines'],
     author: defaultAuthor,
@@ -2263,7 +2263,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>B2B services:</strong> The Brazilian buyer typically handles ISS withholding and reporting</li>
 <li><strong>B2C digital services:</strong> Brazil's ICMS-Difal may apply; implementation varies by state</li>
 <li><strong>Platform/marketplace services:</strong> Brazilian marketplaces (like iFood, Mercado Livre) handle invoicing for vendors</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports foreign companies entering the Brazilian market with multi-currency invoicing, Portuguese-language invoice templates, and guidance on NF-e compliance requirements for cross-border operations.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> supports foreign companies entering the Brazilian market with multi-currency invoicing, Portuguese-language invoice templates, and guidance on NF-e compliance requirements for cross-border operations.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['brazil', 'foreign-companies', 'CNPJ', 'import', 'NF-e-registration'],
     author: defaultAuthor,
@@ -2327,7 +2327,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>SII late reporting:</strong> €150 per delayed record, capped at €6,000 per quarter</li>
 <li><strong>FACe B2G rejection:</strong> Government invoices not submitted through FACe are rejected — payment is withheld</li>
 <li><strong>General invoicing violations:</strong> 1-2% of invoice amount for formal errors</li>
-</ul><h2>Which Software Supports Spain's E-Invoicing Systems?</h2><p class="block-answer" data-answer="true">Invoicemonk supports Spain's multi-system compliance with Verifactu-certified invoice generation, SII real-time data transmission, FACe Facturae 3. 2.</p><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports Spain's multi-system compliance with Verifactu-certified invoice generation, SII real-time data transmission, FACe Facturae 3.2.2 format for government invoicing, and automated QR code generation — all from a single platform with Spanish-language support.</p>`,
+</ul><h2>Which Software Supports Spain's E-Invoicing Systems?</h2><p class="block-answer" data-answer="true">Invoicemonk supports Spain's multi-system compliance with Verifactu-certified invoice generation, SII real-time data transmission, FACe Facturae 3. 2.</p><p><a href="/en/invoicing">Invoicemonk</a> supports Spain's multi-system compliance with Verifactu-certified invoice generation, SII real-time data transmission, FACe Facturae 3.2.2 format for government invoicing, and automated QR code generation — all from a single platform with Spanish-language support.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['spain', 'verifactu', 'SII', 'FACe', 'ticketbai', 'e-invoicing'],
     author: defaultAuthor,
@@ -2387,7 +2387,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <tr><td>Total amount</td><td>Including all taxes</td></tr>
 <tr><td>Hash of current record</td><td>SHA-256 incorporating all fields + previous hash</td></tr>
 <tr><td>Timestamp</td><td>Record creation date and time</td></tr>
-</table><p><a href="/__LANG__/invoicing">Invoicemonk</a> meets all Verifactu technical requirements with built-in hash chain generation, QR code creation, optional real-time AEAT transmission, and immutable invoice records — ready for the July 2026 deadline.</p>`,
+</table><p><a href="/en/invoicing">Invoicemonk</a> meets all Verifactu technical requirements with built-in hash chain generation, QR code creation, optional real-time AEAT transmission, and immutable invoice records — ready for the July 2026 deadline.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['spain', 'verifactu', 'software-certification', 'anti-fraud', 'hash-chain'],
     author: defaultAuthor,
@@ -2443,7 +2443,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Quarterly cap:</strong> Maximum €6,000 per quarter</li>
 <li><strong>Incorrect data:</strong> Subject to standard tax audit penalties (50-150% of underpaid tax)</li>
 <li><strong>Missing the 4-day deadline consistently:</strong> May trigger AEAT audit review</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> automates SII compliance with real-time data transmission to AEAT, automated 4-day deadline tracking, and pre-built operation key mapping — ensuring large businesses meet their reporting obligations without manual data entry.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> automates SII compliance with real-time data transmission to AEAT, automated 4-day deadline tracking, and pre-built operation key mapping — ensuring large businesses meet their reporting obligations without manual data entry.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['spain', 'SII', 'real-time-reporting', 'VAT', 'AEAT', 'large-companies'],
     author: defaultAuthor,
@@ -2500,7 +2500,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Tax deduction:</strong> Up to 60% deduction on TicketBAI software and hardware investment (first 3 years)</li>
 <li><strong>Accelerated depreciation:</strong> TicketBAI-related assets can be depreciated at double the normal rate</li>
 <li><strong>Monthly deduction:</strong> €30-40/month deduction against income tax for the first year of operation</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> is registered as TicketBAI-compliant in all three Basque territories, with automated XML generation, digital signature application, chain linking, and QR code creation built into the invoicing workflow.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> is registered as TicketBAI-compliant in all three Basque territories, with automated XML generation, digital signature application, chain linking, and QR code creation built into the invoicing workflow.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['spain', 'ticketbai', 'basque-country', 'anti-fraud', 'e-invoicing'],
     author: defaultAuthor,
@@ -2556,7 +2556,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Sign the XML</strong> with a qualified XAdES electronic signature</li>
 <li><strong>Submit via FACe portal</strong> (web upload, web services API, or email)</li>
 <li><strong>Monitor status</strong> through the FACe tracking portal</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports FACe B2G invoicing with automated Facturae 3.2.2 XML generation, DIR3 code lookup, digital signature application, and FACe submission via API — ensuring government invoices are accepted on the first submission.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> supports FACe B2G invoicing with automated Facturae 3.2.2 XML generation, DIR3 code lookup, digital signature application, and FACe submission via API — ensuring government invoices are accepted on the first submission.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['spain', 'FACe', 'B2G', 'facturae', 'government-invoicing'],
     author: defaultAuthor,
@@ -2609,7 +2609,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Automate SII submission</strong> — the 4-day deadline is easy to miss with manual processes</li>
 <li><strong>Validate FACe invoices before submission</strong> — verify DIR3 codes and Facturae format</li>
 <li><strong>Monitor AEAT communications</strong> — penalty notifications have response deadlines</li>
-</ol><p><a href="/__LANG__/invoicing">Invoicemonk</a> provides Verifactu-certified software, automated SII 4-day deadline compliance, FACe Facturae validation, and penalty risk alerts — covering all three of Spain's e-invoicing systems from a single platform.</p>`,
+</ol><p><a href="/en/invoicing">Invoicemonk</a> provides Verifactu-certified software, automated SII 4-day deadline compliance, FACe Facturae validation, and penalty risk alerts — covering all three of Spain's e-invoicing systems from a single platform.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['spain', 'penalties', 'verifactu', 'SII', 'fines', 'compliance'],
     author: defaultAuthor,
@@ -2665,7 +2665,7 @@ Invoicemonk is your partner in achieving effortless and compliant invoicing in F
 <li><strong>Reverse charge:</strong> For B2B services, the Spanish buyer typically handles VAT via reverse charge (inversión del sujeto pasivo)</li>
 <li><strong>Import VAT:</strong> Deferred import VAT available since 2020 for companies filing monthly returns</li>
 <li><strong>VAT refunds:</strong> Non-EU companies claim refunds via the 13th Directive procedure; EU companies use the 8th Directive electronic portal</li>
-</ul><p><a href="/__LANG__/invoicing">Invoicemonk</a> supports foreign companies operating in Spain with multi-language invoicing, automated SII reporting, Verifactu-certified software, and EU/non-EU VAT handling — simplifying cross-border compliance.</p>`,
+</ul><p><a href="/en/invoicing">Invoicemonk</a> supports foreign companies operating in Spain with multi-language invoicing, automated SII reporting, Verifactu-certified software, and EU/non-EU VAT handling — simplifying cross-border compliance.</p>`,
     category: 'E-Invoicing Compliance',
     tags: ['spain', 'foreign-companies', 'NIF-VAT', 'fiscal-representative', 'cross-border'],
     author: defaultAuthor,

@@ -157,7 +157,7 @@ export const cookieEN: LegalPageContent = {
 <p class="mb-4">If you have questions about our use of cookies, please contact us:</p>
 <div class="bg-muted/30 rounded-lg p-6 mb-6 space-y-3">
   <p><strong>Email:</strong> <a href="mailto:privacy@invoicemonk.com" class="text-primary hover:underline">privacy@invoicemonk.com</a></p>
-  <p><strong>Privacy Policy:</strong> <a href="__LANG__/privacy-policy" class="text-primary hover:underline">View our Privacy Policy</a></p>
+  <p><strong>Privacy Policy:</strong> <a href="/en/privacy-policy" class="text-primary hover:underline">View our Privacy Policy</a></p>
 </div>`,
     },
   ],

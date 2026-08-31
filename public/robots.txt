@@ -13,10 +13,6 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 
-# Disallow leaked placeholder patterns
-Disallow: /__LANG__/
-Disallow: /*/__LANG__/
-
 # NOTE: Legacy bare paths (/blog/..., /guides/...), retired country prefixes
 # (/us/, /uk/, /ng/, ...), and old slugs are intentionally CRAWLABLE.
 # They all 301-redirect to their /en/ equivalents in vercel.json.

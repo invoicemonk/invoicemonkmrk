@@ -32,6 +32,11 @@ function addOrganicBlogUtm(href: string): string {
 // Check if a URL is internal
 function isInternalLink(href: string): boolean {
   if (!href) return false;
+
+  // Never reinterpret non-navigation schemes or malformed HTML as local URLs.
+  if (/^(?:mailto:|tel:|javascript:|data:)/i.test(href) || /<|>|\s/.test(href)) {
+    return false;
+  }
   
   // Relative links are internal
   if (href.startsWith('/') || href.startsWith('#')) {
@@ -84,8 +89,13 @@ function isExternalLink(href: string): boolean {
 export function enhanceInternalLinks(html: string, langPrefix: string = 'en'): string {
   if (!html) return html;
 
-  // Replace __LANG__ placeholder with actual language prefix
-  html = html.replace(/__LANG__/g, langPrefix);
+  const normalizedLang = langPrefix.replace(/^\/+|\/+$/g, '') || 'en';
+
+  // Historical content used both /__LANG__/x and __LANG__/x. Normalize either
+  // shape without creating double slashes or accidentally touching protocols.
+  html = html
+    .replace(/\/__LANG__\//g, `/${normalizedLang}/`)
+    .replace(/(?<![\w/])__LANG__\//g, `/${normalizedLang}/`);
   
   // Regular expression to match anchor tags
   const anchorRegex = /<a\s+([^>]*?)href=["']([^"']+)["']([^>]*)>(.*?)<\/a>/gi;
@@ -97,6 +107,10 @@ export function enhanceInternalLinks(html: string, langPrefix: string = 'en'): s
   const seenTerms = new Set<string>();
 
   return html.replace(anchorRegex, (match, beforeHref, href, afterHref, content) => {
+    // A truncated/nested anchor must never be serialized back into an href.
+    if (!href || /<|>|\s/.test(href) || /^\/?[a-z]{2}https?:/i.test(href)) {
+      return content;
+    }
     const visibleText = String(content).replace(/<[^>]*>/g, '').trim().toLowerCase();
     const isInternal = isInternalLink(href);
     if (isInternal && visibleText) {

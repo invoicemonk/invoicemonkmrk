@@ -72,7 +72,7 @@ export const slaEN: LegalPageContent = {
       id: 'updates',
       tocLabel: 'SLA Updates',
       title: '11. SLA Updates and Governance',
-      html: `<ul class="list-disc pl-6 mb-6 space-y-1"><li>This SLA is subject to revision as regulations, technology, and service capabilities evolve.</li><li>Updates will be published at this URL with version number and effective date.</li></ul><section class="mt-12 pt-8 border-t border-border"><p class="text-body text-muted-foreground">See also: <a href="__LANG__/docs/api" class="text-primary hover:underline">API Documentation</a> · <a href="__LANG__/terms-of-service" class="text-primary hover:underline">Terms of Service</a> · <a href="__LANG__/privacy-policy" class="text-primary hover:underline">Privacy Policy</a> · <a href="__LANG__/compliance" class="text-primary hover:underline">Compliance</a></p></section>`,
+      html: `<ul class="list-disc pl-6 mb-6 space-y-1"><li>This SLA is subject to revision as regulations, technology, and service capabilities evolve.</li><li>Updates will be published at this URL with version number and effective date.</li></ul><section class="mt-12 pt-8 border-t border-border"><p class="text-body text-muted-foreground">See also: <a href="/en/docs/api" class="text-primary hover:underline">API Documentation</a> · <a href="/en/terms-of-service" class="text-primary hover:underline">Terms of Service</a> · <a href="/en/privacy-policy" class="text-primary hover:underline">Privacy Policy</a> · <a href="/en/compliance" class="text-primary hover:underline">Compliance</a></p></section>`,
     },
   ],
 };

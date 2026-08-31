@@ -89,14 +89,14 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>₹25,000 penalty</strong> for incorrect invoicing under Section 125</li>
   <li><strong>GSTR-1 auto-population fails</strong> — manual filing required, increasing error risk</li>
   <li><strong>E-way bill generation blocked</strong> for non-compliant businesses</li>
-</ul><h2>How Does E-Invoicing Apply to Different Business Types?</h2><h3>Freelancers and Consultants</h3><p>If your annual turnover exceeds the threshold, every B2B invoice must go through IRP. For B2C invoices, e-invoicing is currently not mandatory — but the QR code requirement applies to B2C invoices for businesses above ₹500 crore turnover.</p><h3>E-commerce Sellers</h3><p>E-commerce operators and sellers on platforms like Amazon and Flipkart must comply if they meet the turnover threshold. TCS (Tax Collected at Source) considerations add complexity — ensure your invoicing software handles the 1% TCS deduction correctly.</p><h3>Exporters</h3><p>Export invoices must also go through IRP. Use supply type code "EXPWP" (export with payment) or "EXPWOP" (export without payment). LUT (Letter of Undertaking) details should be included for zero-rated exports.</p><h2>Which Software Supports GST E-Invoicing in India?</h2><p class="block-answer" data-answer="true">Invoicemonk's invoice generator creates GST-compliant invoices with:</p><p><a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> creates GST-compliant invoices with:</p><ul>
+</ul><h2>How Does E-Invoicing Apply to Different Business Types?</h2><h3>Freelancers and Consultants</h3><p>If your annual turnover exceeds the threshold, every B2B invoice must go through IRP. For B2C invoices, e-invoicing is currently not mandatory — but the QR code requirement applies to B2C invoices for businesses above ₹500 crore turnover.</p><h3>E-commerce Sellers</h3><p>E-commerce operators and sellers on platforms like Amazon and Flipkart must comply if they meet the turnover threshold. TCS (Tax Collected at Source) considerations add complexity — ensure your invoicing software handles the 1% TCS deduction correctly.</p><h3>Exporters</h3><p>Export invoices must also go through IRP. Use supply type code "EXPWP" (export with payment) or "EXPWOP" (export without payment). LUT (Letter of Undertaking) details should be included for zero-rated exports.</p><h2>Which Software Supports GST E-Invoicing in India?</h2><p class="block-answer" data-answer="true">Invoicemonk's invoice generator creates GST-compliant invoices with:</p><p><a href="/en/invoicing">Invoicemonk's invoice generator</a> creates GST-compliant invoices with:</p><ul>
   <li><strong>Auto-labeled GSTIN fields</strong> when INR currency is selected</li>
   <li><strong>HSN/SAC code support</strong> in line item descriptions</li>
   <li><strong>CGST/SGST/IGST auto-calculation</strong> with per-item tax rate overrides</li>
   <li><strong>18% GST default</strong> that can be customized per item</li>
   <li><strong>Place of supply</strong> determination for correct inter/intra-state tax application</li>
   <li><strong>Professional PDF output</strong> ready for client delivery and record-keeping</li>
-</ul><p>For businesses needing IRP integration, Invoicemonk's paid plans include JSON export in the e-invoice schema format, making it easy to upload to the IRP or connect via API.</p><p>Read more about <a href="/__LANG__/compliance">Invoicemonk's compliance features</a> or try our <a href="/__LANG__/invoicing">free GST invoice generator</a> to create your first compliant invoice in under 5 minutes.</p>`
+</ul><p>For businesses needing IRP integration, Invoicemonk's paid plans include JSON export in the e-invoice schema format, making it easy to upload to the IRP or connect via API.</p><p>Read more about <a href="/en/compliance">Invoicemonk's compliance features</a> or try our <a href="/en/invoicing">free GST invoice generator</a> to create your first compliant invoice in under 5 minutes.</p>`
   },
 
   // P1-IN-02 — GST Registration Guide
@@ -177,7 +177,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Missing state registrations</strong> — if you operate in multiple states, you need separate GSTIN per state</li>
   <li><strong>Not registering for e-commerce</strong> — e-commerce sellers must register even below threshold</li>
   <li><strong>Delayed registration</strong> — penalties apply from the date registration was due, not from the date you apply</li>
-</ul><p>Once registered, you'll need GST-compliant invoices. Use <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a> to create professional invoices with GSTIN, HSN codes, and automatic CGST/SGST/IGST calculations.</p><p>For the complete e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>`
+</ul><p>Once registered, you'll need GST-compliant invoices. Use <a href="/en/invoicing">Invoicemonk's free GST invoice generator</a> to create professional invoices with GSTIN, HSN codes, and automatic CGST/SGST/IGST calculations.</p><p>For the complete e-invoicing guide, see <a href="/en/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>`
   },
 
   // P1-IN-03 — CGST/SGST/IGST Guide
@@ -249,7 +249,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>CGST paid</strong> can be used against CGST or IGST liability (not SGST)</li>
   <li><strong>SGST paid</strong> can be used against SGST or IGST liability (not CGST)</li>
   <li><strong>IGST paid</strong> can be used against IGST, then CGST, then SGST liability</li>
-</ul><p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> automatically applies the correct tax split when you select INR currency. You can override rates per line item for mixed-rate invoices.</p>`
+</ul><p>Invoicemonk's <a href="/en/invoicing">free GST invoice generator</a> automatically applies the correct tax split when you select INR currency. You can override rates per line item for mixed-rate invoices.</p>`
   },
 
   // P1-IN-04 — HSN/SAC Code Guide
@@ -331,7 +331,7 @@ export const cluster11Posts: BlogPost[] = [
 </ol><h2>Adding HSN/SAC Codes to Your Invoice</h2><p class="block-answer" data-answer="true">On your GST invoice, the HSN/SAC code should appear:</p><p>On your GST invoice, the HSN/SAC code should appear:</p><ul>
   <li>In the <strong>line item table</strong> — either as a separate column or within the item description</li>
   <li>In the <strong>HSN summary table</strong> at the bottom — showing total value and tax per HSN code</li>
-</ul><p>Invoicemonk's <a href="/__LANG__/invoicing">free GST invoice generator</a> lets you add HSN/SAC codes in the line item descriptions. The generator auto-applies 18% GST when INR is selected, with per-item rate overrides for different tax slabs.</p><p>For the complete GST e-invoicing guide, see <a href="/__LANG__/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>`
+</ul><p>Invoicemonk's <a href="/en/invoicing">free GST invoice generator</a> lets you add HSN/SAC codes in the line item descriptions. The generator auto-applies 18% GST when INR is selected, with per-item rate overrides for different tax slabs.</p><p>For the complete GST e-invoicing guide, see <a href="/en/blog/gst-irn-india-explained">GST E-Invoicing in India</a>.</p>`
   },
 
   // P1-IN-05 — GST Return Filing Guide
@@ -408,7 +408,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>File nil returns on time</strong> — even zero-value returns attract late fees if missed</li>
   <li><strong>Set calendar reminders</strong> — for the 11th (GSTR-1), 20th (GSTR-3B), and 25th (PMT-06)</li>
   <li><strong>Keep digital copies</strong> — of all invoices, credit notes, and purchase records</li>
-</ul><p>Accurate invoices are the foundation of smooth GST filing. Create compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>, complete with GSTIN, HSN codes, and correct CGST/SGST/IGST calculations.</p>`
+</ul><p>Accurate invoices are the foundation of smooth GST filing. Create compliant invoices with <a href="/en/invoicing">Invoicemonk's free GST invoice generator</a>, complete with GSTIN, HSN codes, and correct CGST/SGST/IGST calculations.</p>`
   },
 
   // P1-IN-06 — Input Tax Credit Guide
@@ -478,7 +478,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Wrong GSTIN on supplier invoice</strong> — even one digit off means ITC won't appear in your GSTR-2B</li>
   <li><strong>Not following up with suppliers</strong> — if their GSTR-1 is late, your ITC is delayed</li>
   <li><strong>Claiming blocked ITC</strong> — personal expenses or specifically blocked items</li>
-</ul><p>Proper invoicing is the foundation of ITC claims. Ensure your suppliers provide valid GST invoices, and create your own compliant invoices with <a href="/__LANG__/invoicing">Invoicemonk's free GST invoice generator</a>.</p>`
+</ul><p>Proper invoicing is the foundation of ITC claims. Ensure your suppliers provide valid GST invoices, and create your own compliant invoices with <a href="/en/invoicing">Invoicemonk's free GST invoice generator</a>.</p>`
   },
 
   // ═══════════════════════════════════════════════════════
@@ -567,7 +567,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Wrong tax calculation</strong> — under-charging means you owe the government; over-charging loses client trust</li>
   <li><strong>No due date</strong> — without a clear deadline, clients deprioritize payment</li>
   <li><strong>Missing payment instructions</strong> — the client wants to pay but doesn't know how</li>
-</ol><p>Skip the manual work — use <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>`
+</ol><p>Skip the manual work — use <a href="/en/invoicing">Invoicemonk's invoice generator</a> to create a professional invoice in under 5 minutes. No signup required.</p>`
   },
 
   // P3-G-03 — Invoice vs Receipt
@@ -657,7 +657,7 @@ export const cluster11Posts: BlogPost[] = [
     <tr><td>Monthly retainer or subscription billing</td><td>Invoice</td><td>Recurring-revenue businesses</td></tr>
     <tr><td>Government or enterprise procurement</td><td>Invoice</td><td>B2B vendors selling to large organizations</td></tr>
   </tbody>
-</table><h2>Frequently Asked Questions</h2><h3>Is an invoice the same as a receipt?</h3><p class="block-answer" data-answer="true">No. An invoice is a request for payment sent before the client pays. A receipt is confirmation that payment has been received, sent after the client pays.</p><h3>Do I need to issue both an invoice and a receipt?</h3><p class="block-answer" data-answer="true">It depends on your business and jurisdiction. In many countries you must issue an invoice for every sale, especially B2B, while receipts are typically expected for cash transactions and B2C sales. Best practice is to provide both, or mark the invoice "PAID" once settled.</p><h3>Can one document serve as both an invoice and a receipt?</h3><p class="block-answer" data-answer="true">Yes, in many jurisdictions a single document can work as both if it is issued before payment as an invoice and later stamped or updated with a "PAID" status, payment date, and payment method. This is common practice for small businesses that want to avoid maintaining two separate document trails.</p><h3>What happens if I only issue receipts and never invoices?</h3><p class="block-answer" data-answer="true">For B2B sales this creates a compliance gap: business clients generally need a formal invoice with a tax ID and itemized breakdown to claim the expense or Input Tax Credit. Receipts alone are usually acceptable only for cash, point-of-sale, or B2C transactions.</p><h3>Do freelancers need to issue receipts as well as invoices?</h3><p class="block-answer" data-answer="true">Most freelancers only need to issue invoices and can mark them "PAID" once settled instead of generating a separate receipt. A standalone receipt becomes useful when a client specifically requests one for their own expense reporting or when payment is made in cash.</p><p>Create professional invoices with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a> — then track when they're paid in the full platform with <a href="/__LANG__/receipts">automatic receipt generation</a>.</p>`
+</table><h2>Frequently Asked Questions</h2><h3>Is an invoice the same as a receipt?</h3><p class="block-answer" data-answer="true">No. An invoice is a request for payment sent before the client pays. A receipt is confirmation that payment has been received, sent after the client pays.</p><h3>Do I need to issue both an invoice and a receipt?</h3><p class="block-answer" data-answer="true">It depends on your business and jurisdiction. In many countries you must issue an invoice for every sale, especially B2B, while receipts are typically expected for cash transactions and B2C sales. Best practice is to provide both, or mark the invoice "PAID" once settled.</p><h3>Can one document serve as both an invoice and a receipt?</h3><p class="block-answer" data-answer="true">Yes, in many jurisdictions a single document can work as both if it is issued before payment as an invoice and later stamped or updated with a "PAID" status, payment date, and payment method. This is common practice for small businesses that want to avoid maintaining two separate document trails.</p><h3>What happens if I only issue receipts and never invoices?</h3><p class="block-answer" data-answer="true">For B2B sales this creates a compliance gap: business clients generally need a formal invoice with a tax ID and itemized breakdown to claim the expense or Input Tax Credit. Receipts alone are usually acceptable only for cash, point-of-sale, or B2C transactions.</p><h3>Do freelancers need to issue receipts as well as invoices?</h3><p class="block-answer" data-answer="true">Most freelancers only need to issue invoices and can mark them "PAID" once settled instead of generating a separate receipt. A standalone receipt becomes useful when a client specifically requests one for their own expense reporting or when payment is made in cash.</p><p>Create professional invoices with <a href="/en/invoicing">Invoicemonk's invoice generator</a> — then track when they're paid in the full platform with <a href="/en/receipts">automatic receipt generation</a>.</p>`
   },
 
   // P3-G-04 — Payment Terms Guide
@@ -728,7 +728,7 @@ export const cluster11Posts: BlogPost[] = [
   <li><strong>Suspension of services</strong> — "We reserve the right to suspend services on accounts overdue by 30+ days"</li>
 </ul><h2>How to Write Payment Terms on Your Invoice</h2><p class="block-answer" data-answer="true">Be explicit.</p><p>Be explicit. Don't just write "Net 30" — spell it out:</p><blockquote>
   <p><strong>Payment Terms:</strong> Net 30. Payment is due within 30 days of the invoice date (by [specific date]). Please transfer to the bank account listed below, referencing invoice number [INV-XXX]. Invoices unpaid after 30 days are subject to 1.5% monthly late fee.</p>
-</blockquote><p>Including the <em>specific due date</em> (not just "Net 30") reduces ambiguity and gets invoices paid faster. Studies show invoices with explicit due dates are paid <strong>8 days faster</strong> than those with relative terms alone.</p><p>Set clear payment terms on every invoice with <a href="/__LANG__/invoicing">Invoicemonk's invoice generator</a>. For more strategies, read our <a href="/__LANG__/guides/getting-paid">complete guide to getting paid faster</a>.</p>`
+</blockquote><p>Including the <em>specific due date</em> (not just "Net 30") reduces ambiguity and gets invoices paid faster. Studies show invoices with explicit due dates are paid <strong>8 days faster</strong> than those with relative terms alone.</p><p>Set clear payment terms on every invoice with <a href="/en/invoicing">Invoicemonk's invoice generator</a>. For more strategies, read our <a href="/en/guides/getting-paid">complete guide to getting paid faster</a>.</p>`
   },
 ];
 
