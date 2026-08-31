@@ -677,31 +677,6 @@
       "statusCode": 301
     },
     {
-      "source": "/blog/:path*",
-      "destination": "/en/blog/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/guides/:path*",
-      "destination": "/en/guides/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/help/:path*",
-      "destination": "/en/help/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/compare/:path*",
-      "destination": "/en/compare/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/use-cases/:path*",
-      "destination": "/en/use-cases/:path*",
-      "statusCode": 301
-    },
-    {
       "source": "/:page(blog|guides|help|glossary|explore|tools|pricing|about|contact|compliance|developer|why-invoicemonk|best-invoicing-software|client-management|partner-program|freelancers|consultants|contractors|agencies|photographers|lawyers|accountants|ecommerce|creatives|small-businesses|invoicing|expenses|payments|accounting|estimates|receipts|mobile)",
       "destination": "/en/:page",
       "statusCode": 301
