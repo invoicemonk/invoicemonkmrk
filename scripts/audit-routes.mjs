@@ -103,16 +103,17 @@ for (const file of dataFiles) {
     const collection = COLLECTIONS.find((entry) => rest.startsWith(entry.prefix));
     if (collection) {
       const slug = rest.slice(collection.prefix.length);
-      // Static routes (e.g. guides/invoicing) may shadow the collection.
-      if (collection.slugs.has(slug) || routeMatchers.some((re) => re.source.includes(rest) && re.test(rest))) continue;
+      // Static routes (e.g. guides/invoicing) shadow the collection wildcard.
+      if (collection.slugs.has(slug) || staticRoutes.has(rest)) continue;
       brokenLinks.add(`${path.relative(root, file)} links to a non-existent page: ${target}`);
       continue;
     }
 
-    if (!routeMatchers.some((re) => re.test(rest))) {
+    if (!staticRoutes.has(rest) && !routeMatchers.some((re) => re.test(rest))) {
       brokenLinks.add(`${path.relative(root, file)} links to a non-existent page: ${target}`);
     }
   }
+
 }
 failures.push(...brokenLinks);
 
