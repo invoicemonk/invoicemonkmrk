@@ -1548,7 +1548,7 @@ export const postIntentMetadata: Record<string, ContentMetadata> = {
     experienceLevel: 'intermediate',
     queryPatterns: ['how to invoice international clients', 'international invoicing guide', 'invoice clients abroad', 'cross-border invoicing'],
     problemsSolved: ['Don\'t know how to invoice clients in other countries', 'Confused about currency and tax on international invoices', 'Losing money on international payment fees'],
-    nextSteps: ['multi-currency-accounting-guide', 'stripe-vs-paypal-vs-wise-freelancers', 'invoice-clients-in-us']
+    nextSteps: ['multi-currency-accounting-small-business', 'stripe-vs-paypal-vs-wise-freelancers', 'invoice-clients-in-us']
   },
   'freelance-payment-mistakes': {
     intent: 'problem-solving',
