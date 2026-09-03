@@ -55,10 +55,14 @@ const authorsSource = fs.readFileSync(path.join(dataDir, 'authors.ts'), 'utf8');
 const authorSlugs = new Set([...authorsSource.matchAll(/^\s{2}'?([a-z0-9-]+)'?:\s*\{/gm)].map((match) => match[1]));
 
 const appSource = fs.readFileSync(path.join(root, 'src/App.tsx'), 'utf8');
-const routeMatchers = [...appSource.matchAll(/<Route\s+path="([^"]+)"/g)]
+const declaredRoutes = [...appSource.matchAll(/<Route\s+path="([^"]+)"/g)]
   .map((match) => match[1])
   .filter((route) => route !== '*' && route !== '/')
-  .map((route) => route.replace(/^\//, ''))
+  .map((route) => route.replace(/^\//, ''));
+// Param-free routes are exact pages; they also shadow collection wildcards.
+const staticRoutes = new Set(declaredRoutes.filter((route) => !route.includes(':')));
+const routeMatchers = declaredRoutes
+  .filter((route) => route.includes(':'))
   .map(
     (route) =>
       new RegExp(
@@ -70,6 +74,7 @@ const routeMatchers = [...appSource.matchAll(/<Route\s+path="([^"]+)"/g)]
           .join('/')}$`,
       ),
   );
+
 
 const legacyRedirectSources = new Set(
   [...fs.readFileSync(path.join(root, 'src/seo/legacy-url-rules.ts'), 'utf8').matchAll(/\{ source: '([^']+)'/g)]
