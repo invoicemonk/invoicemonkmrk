@@ -113,7 +113,6 @@ for (const file of dataFiles) {
       brokenLinks.add(`${path.relative(root, file)} links to a non-existent page: ${target}`);
     }
   }
-
 }
 failures.push(...brokenLinks);
 
