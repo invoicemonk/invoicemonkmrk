@@ -29,6 +29,8 @@ export const LEGACY_URL_RULES: LegacyUrlRule[] = [
   { source: '/en/platform', destination: '/en/invoicing', status: 301 },
   { source: '/es/platform', destination: '/en/invoicing', status: 301 },
   { source: '/en/multi-currency-invoicing', destination: '/en/use-cases/multi-currency-invoicing', status: 301 },
+  { source: '/en/blog/use-cases-multi-currency-invoicing', destination: '/en/use-cases/multi-currency-invoicing', status: 301 },
+  { source: '/en/blog/multi-currency-accounting-guide', destination: '/en/blog/multi-currency-accounting-small-business', status: 301 },
   { source: '/en/en', destination: '/en', status: 301 },
   { source: '/en/en/:path*', destination: '/en/:path*', status: 301 },
   { source: '/en/receive/:currency/:country', destination: '/en/receive-:currency-in-:country-cost', status: 301 },
