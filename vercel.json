@@ -101,6 +101,16 @@
       "statusCode": 301
     },
     {
+      "source": "/en/blog/use-cases-multi-currency-invoicing",
+      "destination": "/en/use-cases/multi-currency-invoicing",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/multi-currency-accounting-guide",
+      "destination": "/en/blog/multi-currency-accounting-small-business",
+      "statusCode": 301
+    },
+    {
       "source": "/en/en",
       "destination": "/en",
       "statusCode": 301
