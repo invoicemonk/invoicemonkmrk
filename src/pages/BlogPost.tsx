@@ -215,12 +215,16 @@ const BlogPost = () => {
         dangerouslySetInnerHTML={{ __html: beforeUpgrade }}
       />
 
+      {/* In-article AdSense unit, enabled per article. */}
+      {IN_ARTICLE_AD_SLUGS.has(post.slug) && <InArticleAd />}
+
       <ContentUpgradeCard
         pillarId={pillar?.id}
         targetCountry={post.targetCountry}
         slug={post.slug}
         placement="article_top"
       />
+
 
       {afterUpgrade && (
         <div
