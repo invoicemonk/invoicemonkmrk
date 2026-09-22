@@ -21,6 +21,7 @@ import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
 import { SignupCTA } from '@/components/blog/SignupCTA';
 import { ArticleSidebar } from '@/components/blog/ArticleSidebar';
 import { ContentUpgradeCard } from '@/components/blog/ContentUpgradeCard';
+import { InArticleAd, IN_ARTICLE_AD_SLUGS } from '@/components/blog/InArticleAd';
 import { StickyBlogCTA } from '@/components/blog/StickyBlogCTA';
 
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
@@ -214,12 +215,16 @@ const BlogPost = () => {
         dangerouslySetInnerHTML={{ __html: beforeUpgrade }}
       />
 
+      {/* In-article AdSense unit, enabled per article. */}
+      {IN_ARTICLE_AD_SLUGS.has(post.slug) && <InArticleAd />}
+
       <ContentUpgradeCard
         pillarId={pillar?.id}
         targetCountry={post.targetCountry}
         slug={post.slug}
         placement="article_top"
       />
+
 
       {afterUpgrade && (
         <div
