@@ -84,10 +84,11 @@ const BlogPost = () => {
     return linkGlossaryTermsInText(html, glossaryTerms);
   }, [post, urlLang]);
 
-  // Split content around the 2nd <h2> so we can inject a real React
-  // ContentUpgradeCard after the first section (before the first mid CTA).
+  // Mark the shared ad position after approximately two paragraphs, then split
+  // around the 2nd <h2> for the existing ContentUpgradeCard placement.
   const { beforeUpgrade, afterUpgrade } = useMemo(() => {
-    const html = enhancedContent;
+    const { beforeAd, afterAd } = splitAfterArticleParagraphs(enhancedContent);
+    const html = `${beforeAd}<!-- IN_ARTICLE_AD_SLOT -->${afterAd}`;
     const h2Regex = /<h2\b[^>]*>/gi;
     const positions: number[] = [];
     let m: RegExpExecArray | null;
