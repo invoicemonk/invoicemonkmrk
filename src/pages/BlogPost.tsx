@@ -21,7 +21,7 @@ import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
 import { SignupCTA } from '@/components/blog/SignupCTA';
 import { ArticleSidebar } from '@/components/blog/ArticleSidebar';
 import { ContentUpgradeCard } from '@/components/blog/ContentUpgradeCard';
-import { InArticleAd, IN_ARTICLE_AD_SLUGS } from '@/components/blog/InArticleAd';
+import { InArticleAd, splitAfterArticleParagraphs } from '@/components/blog/InArticleAd';
 import { StickyBlogCTA } from '@/components/blog/StickyBlogCTA';
 
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
@@ -84,10 +84,11 @@ const BlogPost = () => {
     return linkGlossaryTermsInText(html, glossaryTerms);
   }, [post, urlLang]);
 
-  // Split content around the 2nd <h2> so we can inject a real React
-  // ContentUpgradeCard after the first section (before the first mid CTA).
+  // Mark the shared ad position after approximately two paragraphs, then split
+  // around the 2nd <h2> for the existing ContentUpgradeCard placement.
   const { beforeUpgrade, afterUpgrade } = useMemo(() => {
-    const html = enhancedContent;
+    const { beforeAd, afterAd } = splitAfterArticleParagraphs(enhancedContent);
+    const html = `${beforeAd}<!-- IN_ARTICLE_AD_SLOT -->${afterAd}`;
     const h2Regex = /<h2\b[^>]*>/gi;
     const positions: number[] = [];
     let m: RegExpExecArray | null;
@@ -96,6 +97,11 @@ const BlogPost = () => {
     const cut = positions[1];
     return { beforeUpgrade: html.slice(0, cut), afterUpgrade: html.slice(cut) };
   }, [enhancedContent]);
+
+  const { beforeAd, afterAd } = useMemo(
+    () => splitAfterArticleParagraphs(beforeUpgrade),
+    [beforeUpgrade],
+  );
 
   // Inline-CTA click tracking via event delegation (both primary + soft)
   const { trackEvent } = useContentAnalytics(post?.slug, post ? getPostClusterInfo(post.slug).pillar?.id : undefined);
@@ -205,18 +211,26 @@ const BlogPost = () => {
   // Determine if this is a pillar page that should use special layout
   const isPillarPage = post.pillarContent && pillar;
 
-  // Common article content — split around 2nd h2 to inject the
-  // ContentUpgradeCard (email capture) as real React, then continue with
-  // the enhanced HTML (which already contains the funnel mid-article CTAs).
+  const renderArticleHtml = (html: string) => {
+    const adMarker = '<!-- IN_ARTICLE_AD_SLOT -->';
+    const markerIndex = html.indexOf(adMarker);
+    if (markerIndex < 0) {
+      return <div className="prose prose-lg dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: html }} />;
+    }
+
+    return (
+      <>
+        <div className="prose prose-lg dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: html.slice(0, markerIndex) }} />
+        <InArticleAd />
+        <div className="prose prose-lg dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: html.slice(markerIndex + adMarker.length) }} />
+      </>
+    );
+  };
+
+  // Common article content is shared by regular and pillar pages.
   const ArticleContent = () => (
     <>
-      <div
-        className="prose prose-lg dark:prose-invert max-w-none"
-        dangerouslySetInnerHTML={{ __html: beforeUpgrade }}
-      />
-
-      {/* In-article AdSense unit, enabled per article. */}
-      {IN_ARTICLE_AD_SLUGS.has(post.slug) && <InArticleAd />}
+      {renderArticleHtml(beforeUpgrade)}
 
       <ContentUpgradeCard
         pillarId={pillar?.id}
@@ -226,12 +240,7 @@ const BlogPost = () => {
       />
 
 
-      {afterUpgrade && (
-        <div
-          className="prose prose-lg dark:prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: afterUpgrade }}
-        />
-      )}
+      {afterUpgrade && renderArticleHtml(afterUpgrade)}
 
       {/* End-of-article dual CTA (signup + soft download fallback) */}
       <SignupCTA
