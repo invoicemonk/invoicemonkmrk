@@ -21,7 +21,7 @@ import { TopicBreadcrumb } from '@/components/blog/TopicBreadcrumb';
 import { SignupCTA } from '@/components/blog/SignupCTA';
 import { ArticleSidebar } from '@/components/blog/ArticleSidebar';
 import { ContentUpgradeCard } from '@/components/blog/ContentUpgradeCard';
-import { InArticleAd, IN_ARTICLE_AD_SLUGS } from '@/components/blog/InArticleAd';
+import { InArticleAd, splitAfterArticleParagraphs } from '@/components/blog/InArticleAd';
 import { StickyBlogCTA } from '@/components/blog/StickyBlogCTA';
 
 import { PillarPageLayout } from '@/components/blog/PillarPageLayout';
@@ -96,6 +96,11 @@ const BlogPost = () => {
     const cut = positions[1];
     return { beforeUpgrade: html.slice(0, cut), afterUpgrade: html.slice(cut) };
   }, [enhancedContent]);
+
+  const { beforeAd, afterAd } = useMemo(
+    () => splitAfterArticleParagraphs(beforeUpgrade),
+    [beforeUpgrade],
+  );
 
   // Inline-CTA click tracking via event delegation (both primary + soft)
   const { trackEvent } = useContentAnalytics(post?.slug, post ? getPostClusterInfo(post.slug).pillar?.id : undefined);
@@ -212,11 +217,18 @@ const BlogPost = () => {
     <>
       <div
         className="prose prose-lg dark:prose-invert max-w-none"
-        dangerouslySetInnerHTML={{ __html: beforeUpgrade }}
+        dangerouslySetInnerHTML={{ __html: beforeAd }}
       />
 
-      {/* In-article AdSense unit, enabled per article. */}
-      {IN_ARTICLE_AD_SLUGS.has(post.slug) && <InArticleAd />}
+      {/* One shared in-article unit on every valid informational article page. */}
+      <InArticleAd />
+
+      {afterAd && (
+        <div
+          className="prose prose-lg dark:prose-invert max-w-none"
+          dangerouslySetInnerHTML={{ __html: afterAd }}
+        />
+      )}
 
       <ContentUpgradeCard
         pillarId={pillar?.id}

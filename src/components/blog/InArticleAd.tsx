@@ -12,14 +12,18 @@ import { useEffect, useRef } from 'react';
 const AD_CLIENT = 'ca-pub-9385120336874709';
 const AD_SLOT = '3203402858';
 
-/** Articles that carry the in-article ad unit. */
-export const IN_ARTICLE_AD_SLUGS = new Set([
-  'payment-reminder-email-templates',
-  'how-to-write-invoice-payment-terms',
-  'credit-notes-and-invoice-corrections',
-  'invoice-terms-and-conditions-wording',
-  'deposit-invoice-template-guide',
-]);
+/** Splits article HTML after the second paragraph, falling back to the first. */
+export function splitAfterArticleParagraphs(html: string) {
+  const paragraphEnds = [...html.matchAll(/<\/p\s*>/gi)];
+  const splitAfter = paragraphEnds[1] ?? paragraphEnds[0];
+
+  if (!splitAfter || splitAfter.index === undefined) {
+    return { beforeAd: html, afterAd: '' };
+  }
+
+  const cut = splitAfter.index + splitAfter[0].length;
+  return { beforeAd: html.slice(0, cut), afterAd: html.slice(cut) };
+}
 
 export function InArticleAd() {
   const pushed = useRef(false);
@@ -39,7 +43,7 @@ export function InArticleAd() {
   return (
     <ins
       className="adsbygoogle"
-      style={{ display: 'block', textAlign: 'center' }}
+      style={{ display: 'block', textAlign: 'center', width: '100%' }}
       data-ad-layout="in-article"
       data-ad-format="fluid"
       data-ad-client={AD_CLIENT}
