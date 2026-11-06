@@ -211,25 +211,26 @@ const BlogPost = () => {
   // Determine if this is a pillar page that should use special layout
   const isPillarPage = post.pillarContent && pillar;
 
-  // Common article content — split around 2nd h2 to inject the
-  // ContentUpgradeCard (email capture) as real React, then continue with
-  // the enhanced HTML (which already contains the funnel mid-article CTAs).
+  const renderArticleHtml = (html: string) => {
+    const adMarker = '<!-- IN_ARTICLE_AD_SLOT -->';
+    const markerIndex = html.indexOf(adMarker);
+    if (markerIndex < 0) {
+      return <div className="prose prose-lg dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: html }} />;
+    }
+
+    return (
+      <>
+        <div className="prose prose-lg dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: html.slice(0, markerIndex) }} />
+        <InArticleAd />
+        <div className="prose prose-lg dark:prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: html.slice(markerIndex + adMarker.length) }} />
+      </>
+    );
+  };
+
+  // Common article content is shared by regular and pillar pages.
   const ArticleContent = () => (
     <>
-      <div
-        className="prose prose-lg dark:prose-invert max-w-none"
-        dangerouslySetInnerHTML={{ __html: beforeAd }}
-      />
-
-      {/* One shared in-article unit on every valid informational article page. */}
-      <InArticleAd />
-
-      {afterAd && (
-        <div
-          className="prose prose-lg dark:prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: afterAd }}
-        />
-      )}
+      {renderArticleHtml(beforeUpgrade)}
 
       <ContentUpgradeCard
         pillarId={pillar?.id}
@@ -239,12 +240,7 @@ const BlogPost = () => {
       />
 
 
-      {afterUpgrade && (
-        <div
-          className="prose prose-lg dark:prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: afterUpgrade }}
-        />
-      )}
+      {afterUpgrade && renderArticleHtml(afterUpgrade)}
 
       {/* End-of-article dual CTA (signup + soft download fallback) */}
       <SignupCTA
